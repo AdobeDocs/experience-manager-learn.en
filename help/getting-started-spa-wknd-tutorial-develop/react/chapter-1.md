@@ -242,7 +242,7 @@ Using the editor of your choice open `react-app` under `aem-guides-wknd-events/r
 
    ![](assets/empty-divs.png)  
 
-   ## [](https://github.com/godanny86/aem-guides-wknd-events/blob/tutorial/chapter-1/chapter-1.md#text-component)
+   [link](https://github.com/godanny86/aem-guides-wknd-events/blob/tutorial/chapter-1/chapter-1.md#text-component)
 
 ## Text Component {#text-component}
 

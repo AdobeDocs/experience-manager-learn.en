@@ -651,7 +651,7 @@ At this point the contents of the Carousel, the Teaser with Slide style applied,
    }
    ```
 
-#### Carousel BEM Notation {#carousel-bem}
+### Carousel BEM Notation {#carousel-bem}
 
 ```
 BLOCK cmp-carousel
