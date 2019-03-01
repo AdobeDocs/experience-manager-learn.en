@@ -22,4 +22,4 @@ user-guide-title: AEM SPA WKND Tutorial
   + [Part 1](chapter-1.md)
   + [Part 2](chapter-2.md)
   + [Part 3](chapter-3.md)
-  + [Template](template.md)]
+  + [Template](template.md)

@@ -10,7 +10,7 @@ targetaudience: target-audience new
 
 ---
 
-# Getting Started with Angular and AEM SPA Editor - Chapter 2{#getting-started-with-angular-and-aem-spa-editor-chapter}
+# Getting Started with Angular and AEM SPA Editor - Chapter 2 {#getting-started-with-angular-and-aem-spa-editor-chapter}
 
 ## Setting up Angular routes and page resolution {#setting-up-angular-routes-and-page-resolution}
 

@@ -22,9 +22,9 @@ In this chapter, we'll explore how the need for a running AEM instance can be re
 
 Persona: Angular Developer
 
-The first approach we'll look at is having the Angular app run on the local web dev server (via **ng serve** ``or ** npm  start**), allowing the natural real-time update and reload of the Angular app, while leveraging the content (both the JSON and images) that reside in AEM.
+The first approach we'll look at is having the Angular app run on the local web dev server (via **ng serve** ``or **npm  start**), allowing the natural real-time update and reload of the Angular app, while leveraging the content (both the JSON and images) that reside in AEM.
 
-1. Update **aem-guides-wknd-events/angular-app/src/index.html **with the following HTML.
+1. Update **aem-guides-wknd-events/angular-app/src/index.html** with the following HTML.
 
    This HTML mimics the HTML the AEM generates for the Angular app's entry page at **/content/wknd-events/angular.html,** with exception of the JavaScript  include  of the Angular application itself. The Angular application's JavaScript is automatically injected into the index.html.
 
