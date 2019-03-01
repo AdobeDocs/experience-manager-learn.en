@@ -59,7 +59,7 @@ WKND Solution Package (Chapters 1-8)
 
 ## WKND Design {#wknd-site}
 
-The WKND is a fictional online magazine and blog that focuses on nightlife, activities, and events in several international cities. To make this tutorial closer to a real-world scenario one of Adobe's talented UX designers created the mockups for the site. Over the course of the tutorial various pieces of the mockup are implemented into a fully authorable AEM site. Special thanks to **Lorenzo Buosi** who created the beautiful design for the WKND site.
+The WKND is a fictional online magazine and blog that focuses on nightlife, activities, and events in several international cities. To make this tutorial closer to a real-world scenario one of Adobe's talented UX designers created the mockups for the site. Over the course of the tutorial various pieces of the mockup are implemented into a fully author-able AEM site. Special thanks to **Lorenzo Buosi** who created the beautiful design for the WKND site.
 
 Below is an overview video of the site and functionality.
 
@@ -81,31 +81,30 @@ In general each Part of the tutorial takes about **1-2 hours**.
 
 ### Chapter 3 {#part-3}
 
-**[Client-Side Libraries and Responsive Grid](part3.md)**- Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an AEM Sites implementation. Integration with AEM's responsive grid and mobile emulator. [aemfed](https://aemfed.io/) module is used to accelerate front end development.  
-
+**[Client-Side Libraries and Responsive Grid](part3.md)** - Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an AEM Sites implementation. Integration with AEM's responsive grid and mobile emulator. [aemfed](https://aemfed.io/) module is used to accelerate front end development.  
 **Client-Side Libraries, CSS, Javascript, LESS, aemfed, Responsive Grid**
 
 ### Chapter 4 {#part-4}
 
-**[Developing with the Style System](part4.md) **- Covers extending Core Components with brand-specific CSS and leveraging the Style System to create multiple variations of components. This part also uses Content Fragments for long form article content and covers some advanced policy configurations of the Template Editor.  
+**[Developing with the Style System](part4.md)** - Covers extending Core Components with brand-specific CSS and leveraging the Style System to create multiple variations of components. This part also uses Content Fragments for long form article content and covers some advanced policy configurations of the Template Editor.  
 **CSS, Style System, Template Editor Policies**
 
 ### Chapter 5 {#part-5}
 
-**[Navigation and Search](part5.md) **- Covers dynamic navigation driven by the content hierarchy and fixed navigation populated by content authors. Sling Models, HTL templating language, and dialogs are used to implement the Header and Footer navigation. A Quick Search component is also added to the Header.  
+**[Navigation and Search](part5.md)** - Covers dynamic navigation driven by the content hierarchy and fixed navigation populated by content authors. Sling Models, HTL templating language, and dialogs are used to implement the Header and Footer navigation. A Quick Search component is also added to the Header.  
 **HTL, Design Dialogs, Composite Components**
 
 ### Chapter 6 {#part-6}
 
-**[Creating a new AEM Component](part6.md)**- Covers the end to end creation of a custom byline component that displays authored content. Includes developing a Sling Model to encapsulate business logic to populate the byline component and corresponding HTL to render the component.  
+**[Creating a new AEM Component](part6.md)** - Covers the end to end creation of a custom byline component that displays authored content. Includes developing a Sling Model to encapsulate business logic to populate the byline component and corresponding HTL to render the component.  
 **Sling Models, HTL, Style System, Custom Components**
 
 ### Chapter 7 {#part-7}
 
-** [Teaser and Carousel Extension](../../sites/using/getting-started-wknd-tutorial-develop/part7.md) - **Covers the implementation of the Teaser and Carousel components to populate a dynamic and exciting Homepage.  
+**[Teaser and Carousel Extension](part7.md)** - Covers the implementation of the Teaser and Carousel components to populate a dynamic and exciting Homepage.  
 **Advanced Template Editor Policies, Style System, Core Components v2**
 
 ### Chapter 8 {#part-8}
 
-** [Unit Testing](../../sites/using/getting-started-wknd-tutorial-develop/part8.md) - **Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in [Chapter 6](/editor.html/content/help/en/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop#part-6) of the tutorial.  
+**[Unit Testing](part8.md)** - Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in [Chapter 6](part6.md) of the tutorial.  
 **Unit tests, io.wcm AEM Mocks, Mockito and JUnit**
