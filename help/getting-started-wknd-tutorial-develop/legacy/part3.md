@@ -274,16 +274,10 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
    >[!CAUTION]
    >
    >**The location of the grid_base LESS file provided by AEM has changed from 6.3 to 6.4. If referencing the file directly in your own project ensure that the correct location is used:**
-   >
-   >    
-   >    
-   >    * **6.3** Path to Responsive Grid: /etc/clientlibs/wcm/foundation/grid/grid_base.less
-   >    * **6.4** Path to Responsive Grid: /libs/wcm/foundation/clientlibs/grid/grid_base.less
-   >    
-   >
+   >* **6.3** Path to Responsive Grid: /etc/clientlibs/wcm/foundation/grid/grid_base.less
+   >* **6.4** Path to Responsive Grid: /libs/wcm/foundation/clientlibs/grid/grid_base.less
 
    ```css
-   
    /*
     * grid_base.less is a file provided by AEM. 
     * For portability between versions of AEM the file has been copied into WKND project's client library.
@@ -336,9 +330,9 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
 
 1. Most of the LESS files under the **clientlib-site/components** folder are empty placeholders. Styles are added in the next chapter to some of the Core Components. For now there are a few basic styles to give the page some structure.
 
-    * **page/page.less **-&gt; fixes the width of the root container of the page
-    * **image/image.less **-&gt; adds a margin to the image component
-    * **header/header.less** -&gt; styles the header and includes an additonal style to make it fixed
+    * **page/page.less** &gt; fixes the width of the root container of the page
+    * **image/image.less** &gt; adds a margin to the image component
+    * **header/header.less**  &gt; styles the header and includes an additonal style to make it fixed
 
 1. Javascript to add behavior to a component is also included in the clientlib-site/components folder.
 

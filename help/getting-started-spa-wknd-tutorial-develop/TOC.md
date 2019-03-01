@@ -8,6 +8,7 @@ user-guide-title: AEM SPA WKND Tutorial
 
 + [Introduction](getting-started-spa-wknd-tutorial-develop.md)
 + Angular and SPA {#angular-spa}
+  + [Angular](angular.md)
   + [Introduction](chapter-0.md)
   + [Part 1](chapter-1.md)
   + [Part 2](chapter-2.md)
@@ -18,8 +19,9 @@ user-guide-title: AEM SPA WKND Tutorial
   + [Part 7](chapter-7.md)
   + [Part 8](chapter-8.md)
 + React and SPA {#react-spa}
+  + [React](react.md)
   + [Introduction](chapter-0.md)
   + [Part 1](chapter-1.md)
   + [Part 2](chapter-2.md)
   + [Part 3](chapter-3.md)
-  + [Template](template.md)]
+  + [Template](template.md)

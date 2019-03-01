@@ -18,9 +18,9 @@ targetaudience: target-audience new
 
 Chapter 0 details the setup of a Maven multi module AEM project with a dedicated module for Single Page Application or SPA development. The goal for this chapter is to integrate a React project, based on the Create React App, with a traditional AEM Maven build process.
 
-### Persona: AEM Developer {#persona-aem-developer}
+## Persona: AEM Developer {#persona-aem-developer}
 
-###### *The next sections detail tasks that would typically be completed by an AEM Developer* {#the-next-sections-detail-tasks-that-would-typically-be-completed-by-an-aem-developer}
+### The next sections detail tasks that would typically be completed by an AEM Developer{#the-next-sections-detail-tasks-that-would-typically-be-completed-by-an-aem-developer}
 
 ## Prerequisites {#prerequisites}
 
@@ -508,6 +508,3 @@ Open up the `aem-guides-wknd-events/ui.apps` project to edit.
    You should now see the React application being rendered on the AEM page.
 
    ![](assets/react-in-aem.png)
-
-## Help! {#help}
-
