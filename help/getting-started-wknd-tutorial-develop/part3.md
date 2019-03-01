@@ -208,14 +208,10 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
 
    >[!CAUTION]
    >
-   >**The location of the grid_base LESS file provided by AEM has changed from 6.3 to 6.4. If referencing the file directly in your own project ensure that the correct location is used:**
+   >The location of the grid_base LESS file provided by AEM has changed from 6.3 to 6.4. If referencing the file directly in your own project ensure that the correct location is used:
    >
-   >    
-   >    
-   >    * **6.3** Path to Responsive Grid: /etc/clientlibs/wcm/foundation/grid/grid_base.less
-   >    * **6.4** Path to Responsive Grid: /libs/wcm/foundation/clientlibs/grid/grid_base.less
-   >    
-   >
+   >* **6.3** Path to Responsive Grid: `/etc/clientlibs/wcm/foundation/grid/grid_base.less`
+   >* **6.4** Path to Responsive Grid: `/libs/wcm/foundation/clientlibs/grid/grid_base.less`
 
    ```css
    

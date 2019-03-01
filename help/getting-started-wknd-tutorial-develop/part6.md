@@ -361,7 +361,6 @@ In order to most efficiently use Sling Models, the project's POM's need updating
 1. Add dependency for [Apache commons-lang3](https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/package-summary.html). This provides a number of helpful utilities classes.
 
    ```xml
-   ```
    <dependencies>
        ...
        <dependency>
@@ -372,7 +371,6 @@ In order to most efficiently use Sling Models, the project's POM's need updating
        </dependency>
        ...
    </dependencies>
-   ```
    ```
 
    The full contents of the updated [reactor pom.xml can be found here](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/blob/part/6-new-component/pom.xml).
