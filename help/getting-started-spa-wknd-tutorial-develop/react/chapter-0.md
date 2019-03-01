@@ -78,17 +78,17 @@ The following properties were used when generating the AEM project from [Archety
    $ mvn clean install -PautoInstallPackage -Padobe-public
    ```
 
-   The above command will deploy the project to AEM running on [http://localhost:4502](http://localhost:4502/).
+   The above command will deploy the project to AEM running on [https://localhost:4502](https://localhost:4502/).
 
    >[!NOTE]
    >
    >The inclusion of the **adobe-public **profile as part of the Maven command can be made optional. You can avoid having to include this everytime by updating your settings.xml file to include Adobe's nexus repository based on this [article](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
-1. Navigating to [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
+1. Navigating to [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
 
    ![](assets/wknd-events-packages.png)
 
-1. The **ui.content** module includes two templates as part of the starter project. Inspect the templates by navigating to: [http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events](http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events)
+1. The **ui.content** module includes two templates as part of the starter project. Inspect the templates by navigating to: [https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events](https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events)
 
    You should see a template for WKND Event Page and WKND Event React App:
 
@@ -96,7 +96,7 @@ The following properties were used when generating the AEM project from [Archety
 
    The SPA Editor is designed to work with Editable templates. This gives the implementation the full power of re-usable policies and other features. With the initial release of the SPA Editor the UI for Editable Templates **cannot** be used. This is expected to be updated in the next release of the SPA Editor.
 
-   In order to update features of the template, developers will need to do this manually via [CRXDE-Lite](http://localhost:4502/conf/wknd-events/settings/wcm/policies.html) or in the XML in the **ui.content** project.
+   In order to update features of the template, developers will need to do this manually via [CRXDE-Lite](https://localhost:4502/conf/wknd-events/settings/wcm/policies.html) or in the XML in the **ui.content** project.
 
    For example, the allowed components on the layout container are defined here:  
    `/conf/wknd-events/settings/wcm/policies/wcm/foundation/components/responsivegrid/default`
@@ -117,7 +117,7 @@ A starter React application has been created using the [create-react-app](https:
    $ npm start
    ```
 
-1. The command `npm start` should launch the React app on a local dev server running at [http://localhost:3000/](http://localhost:3000/).
+1. The command `npm start` should launch the React app on a local dev server running at [https://localhost:3000/](https://localhost:3000/).
 
    ![](assets/react-3000.png)
 
@@ -245,7 +245,7 @@ Persona: AEM Developer
    You can control this with the homepage field in your package.json.
    For example, add this to build it for GitHub Pages:
    
-   "homepage" : "http://myname.github.io/myapp",
+   "homepage" : "https://myname.github.io/myapp",
    
    The build folder is ready to be deployed.
    You may serve it with a static server:
@@ -255,7 +255,7 @@ Persona: AEM Developer
    
    Find out more about deployment here:
    
-   http://bit.ly/2vY88Kr
+   https://bit.ly/2vY88Kr
 
    start aem-clientlib-generator
    working directory: ../src/aem-guides-wknd-events/react-app
@@ -340,7 +340,7 @@ Next, configure the `react-app` project to also be a **Maven** module. This way 
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
        <modelVersion>4.0.0</modelVersion>
    
        <!-- ====================================================================== -->
@@ -450,7 +450,7 @@ Next, configure the `react-app` project to also be a **Maven** module. This way 
    ...
    ```
 
-1. Navigate to [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/wknd-events/clientlibs/react-app) to verify that the React App and the rest of the AEM project has been deployed beneath `/apps/wknd-events/clientlibs/react-app`.
+1. Navigate to [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/apps/wknd-events/clientlibs/react-app) to verify that the React App and the rest of the AEM project has been deployed beneath `/apps/wknd-events/clientlibs/react-app`.
 
    ![](assets/react-app-clientlib.png)
 
@@ -527,7 +527,7 @@ Open up the `aem-guides-wknd-events/ui.apps` project to edit.
    $ mvn -PautoInstallPackage -Padobe-public clean install
    ```
 
-1. Navigate to [http://localhost:4502/editor.html/content/wknd-events/react/home.html](http://localhost:4502/editor.html/content/wknd-events/react/home.html)
+1. Navigate to [https://localhost:4502/editor.html/content/wknd-events/react/home.html](https://localhost:4502/editor.html/content/wknd-events/react/home.html)
 
    You should now see the React application being rendered on the AEM page.
 

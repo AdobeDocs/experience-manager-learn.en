@@ -25,7 +25,7 @@ You can check out the finished code on [**GitHub**](https://github.com/Adobe-Mar
 
 Below are some of the front-end technologies used in the creation of the WKND site. The intention is to give you an idea of how 3rd party frameworks can easily be integrated into an AEM Site.
 
-** [LESS](http://lesscss.org/) **- popular CSS pre-compiler that allows variables and other functionality. AEM client libraries natively support LESS compilation. Saas or other pre-compilers can be used but would need to be compiled outside of AEM.
+** [LESS](https://lesscss.org/) **- popular CSS pre-compiler that allows variables and other functionality. AEM client libraries natively support LESS compilation. Saas or other pre-compilers can be used but would need to be compiled outside of AEM.
 
 ** [jQuery](https://jquery.com/) **- popular JavaScript feature-rich library for manipulating HTML
 
@@ -125,7 +125,7 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:ClientLibraryFolder"
        allowProxy="{Boolean}true"
        categories="[wknd.dependencies]"
@@ -333,7 +333,7 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:ClientLibraryFolder"
        allowProxy="{Boolean}true"
        categories="[wknd.base]"
@@ -560,17 +560,17 @@ In the **ui.apps** module modify files beneath: **/apps/wknd/components/structur
 
 1. Updating the base page component will update any pages created via the WKND Article Template.
 
-    1. Open up a page created from the Article Template: [http://localhost:4502/editor.html/content/wknd/en/first-article.html](http://localhost:4502/editor.html/content/wknd/en/first-article.html). You should see the updated fonts and fixed width container.
+    1. Open up a page created from the Article Template: [https://localhost:4502/editor.html/content/wknd/en/first-article.html](https://localhost:4502/editor.html/content/wknd/en/first-article.html). You should see the updated fonts and fixed width container.
     1. View the page as published by clicking the **Page Properties **menu icon (upper left, next to the sidebar icon) **&gt;** **"View as Published"** button
     
-    1. This will open a new tab with **wcmmode=disabled** added as a URL parameter. Viewing the page with wcmmode=disabled is a great way to debug/develop as there is a significant amount of Javascript for the Sites editor to support component authoring. [http://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled](http://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled)
+    1. This will open a new tab with **wcmmode=disabled** added as a URL parameter. Viewing the page with wcmmode=disabled is a great way to debug/develop as there is a significant amount of Javascript for the Sites editor to support component authoring. [https://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled](https://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled)
     
     1. Viewing the page source you should see following tags:
 
    ![](assets/2018-02-21_at_3_51pm.png) 
 
    ```xml
-   /* Source of http://localhost:4502/content/wknd/first-article.html?wcmmode=disabled */
+   /* Source of https://localhost:4502/content/wknd/first-article.html?wcmmode=disabled */
    <html>
        <head>
        ...
@@ -595,13 +595,13 @@ In the **ui.apps** module modify files beneath: **/apps/wknd/components/structur
 
 With different methods of **categories** and **embeds** to include multiple client libraries it can be cumbersome to troubleshoot. AEM exposes several tools to help with this. One of the most important tools is **Rebuild Client Libraries** which will force AEM to re-compile any LESS files and generate the CSS.
 
-* [Dump Libs](http://localhost:4502/libs/granite/ui/content/dumplibs.html) - Lists all of the client libraries registered in the AEM instance. **&lt;host&gt;/libs/granite/ui/content/dumplibs.html**
+* [Dump Libs](https://localhost:4502/libs/granite/ui/content/dumplibs.html) - Lists all of the client libraries registered in the AEM instance. **&lt;host&gt;/libs/granite/ui/content/dumplibs.html**
 
-* [Test Output](http://localhost:4502/libs/granite/ui/content/dumplibs.test.html)** **- allows a user to see the expected HTML output of clientlib includes based on category.** &lt;host&gt;/libs/granite/ui/content/dumplibs.test.html**
+* [Test Output](https://localhost:4502/libs/granite/ui/content/dumplibs.test.html)** **- allows a user to see the expected HTML output of clientlib includes based on category.** &lt;host&gt;/libs/granite/ui/content/dumplibs.test.html**
 
-* [Libraries Dependencies validation](http://localhost:4502/libs/granite/ui/content/dumplibs.validate.html)** - **highlights any dependencies or embedded categories that cannot be found. **&lt;host&gt;/libs/granite/ui/content/dumplibs.validate.html**
+* [Libraries Dependencies validation](https://localhost:4502/libs/granite/ui/content/dumplibs.validate.html)** - **highlights any dependencies or embedded categories that cannot be found. **&lt;host&gt;/libs/granite/ui/content/dumplibs.validate.html**
 
-* [Rebuild Client Libraries](http://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html) - allows a user to force AEM to rebuild all of the client libraries or invalidate the cache of client libraries. This tool is particularly effective when developing with LESS as this can force AEM to re-compile the generated CSS. In general it is more effective to Invalidate Caches and then perform a page refresh versus rebuilding all of the libraries. **&lt;host&gt;/libs/granite/ui/content/dumplibs.rebuild.html**
+* [Rebuild Client Libraries](https://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html) - allows a user to force AEM to rebuild all of the client libraries or invalidate the cache of client libraries. This tool is particularly effective when developing with LESS as this can force AEM to re-compile the generated CSS. In general it is more effective to Invalidate Caches and then perform a page refresh versus rebuilding all of the libraries. **&lt;host&gt;/libs/granite/ui/content/dumplibs.rebuild.html**
 
 ![](assets/rebuild-clientlibs.png) 
 
@@ -617,7 +617,7 @@ At a high level aemfed listens to file changes and automatically syncs the to a 
 
 1. A key part of aemfed is the ability to relay errors directly to the command line. To enable this behavior we need to update the configuration for Sling Log Tracer.
 
-   Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr) and search for **Apache Sling Log Tracer**. Update the configuration to **Enabled** and **Recording Servlet Enabled**:
+   Navigate to [https://localhost:4502/system/console/configMgr](https://localhost:4502/system/console/configMgr) and search for **Apache Sling Log Tracer**. Update the configuration to **Enabled** and **Recording Servlet Enabled**:
 
    ![](assets/2018-11-05_at_6_42pm.png)
 
@@ -657,7 +657,7 @@ At a high level aemfed listens to file changes and automatically syncs the to a 
    $ aemfed -h
    Usage: aemfed [OPTIONS]
    Options:
-     -t targets           Default is http://admin:admin@localhost:4502
+     -t targets           Default is https://admin:admin@localhost:4502
      -p proxy_port        Default is 3000
      -w path_to_watch     Default is current
      -e exclude_filter    Anymatch exclude filter; disabled by default
@@ -676,17 +676,17 @@ At a high level aemfed listens to file changes and automatically syncs the to a 
 1. From the command line navigate to the `<src>/aem-guides-wknd` directory. Run the following command to start  **aemfed** against an  aem  instance running on **localhost:4502**:
 
    ```shell
-   aemfed -t "http://admin:admin@localhost:4502" -e "**/*___jb_+(old|tmp)___" -w "ui.apps/src/main/content/jcr_root/"
+   aemfed -t "https://admin:admin@localhost:4502" -e "**/*___jb_+(old|tmp)___" -w "ui.apps/src/main/content/jcr_root/"
    
    ---------------------------------------
-   [Browsersync] Proxying: http://localhost:4502
+   [Browsersync] Proxying: https://localhost:4502
    [Browsersync] Access URLs:
     --------------------------------------
-          Local: http://localhost:3000
-       External: http://192.168.1.152:3000
+          Local: https://localhost:3000
+       External: https://192.168.1.152:3000
     --------------------------------------
-             UI: http://localhost:3001
-    UI External: http://localhost:3001
+             UI: https://localhost:3001
+    UI External: https://localhost:3001
     --------------------------------------
    ```
 

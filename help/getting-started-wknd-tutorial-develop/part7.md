@@ -70,7 +70,7 @@ Next, we will author a few Teaser components to have some sample content to deve
 
 1. Author a few articles using the Article page template. The Teaser component will dynamically pull the Title and Description for linked pages as part of the Teaser content. This ensures consistency throughout the site.
 
-   You can also install the below package using ** [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)**, which includes a several sample articles already created.
+   You can also install the below package using ** [CRX Package Manager](https://localhost:4502/crx/packmgr/index.jsp)**, which includes a several sample articles already created.
 
    [Get File](assets/chapter-7-sample-articles.zip)
 
@@ -594,8 +594,8 @@ At this point the contents of the Carousel, the Teaser with Slide style applied,
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <jcr:root 
-       xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-       xmlns:jcr="http://www.jcp.org/jcr/1.0"
+       xmlns:sling="https://sling.apache.org/jcr/sling/1.0"
+       xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:ClientLibraryFolder"
        categories="[vendor.animatecss]"/>
    ```
@@ -624,7 +624,7 @@ At this point the contents of the Carousel, the Teaser with Slide style applied,
 
    ```css
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:ClientLibraryFolder"
        allowProxy="{Boolean}true"
        categories="[wknd.base]"
@@ -743,7 +743,7 @@ In the `ui.apps` project under `/apps/wknd/clientlibs/clientlib-site/components`
        .cmp-carousel__action--previous {
            left: 0;
            .cmp-carousel__action-icon {
-               background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+               background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
    
            }
        }
@@ -752,7 +752,7 @@ In the `ui.apps` project under `/apps/wknd/clientlibs/clientlib-site/components`
            right: 0;
        
            .cmp-carousel__action-icon {
-               background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+               background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
            }
        }
        

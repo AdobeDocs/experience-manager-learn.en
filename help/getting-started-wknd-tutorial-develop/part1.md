@@ -23,7 +23,7 @@ A local development environment is necessary to complete this tutorial. Screensh
 
 The following is required:
 
-1. [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+1. [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 2. [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
 3. [AEM 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html) + [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)**or** 
 4. [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/technical-requirements.html) + [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
@@ -120,9 +120,9 @@ The next series of steps will take place using a UNIX based command line  termin
    A sample `settings.xml`can be found below:
 
    ```xml
-   <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+   <settings xmlns="https://maven.apache.org/SETTINGS/1.0.0"
+     xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="https://maven.apache.org/SETTINGS/1.0.0
                          https://maven.apache.org/xsd/settings-1.0.0.xsd">
    <profiles>
    <!-- ====================================================== -->
@@ -137,13 +137,13 @@ The next series of steps will take place using a UNIX based command line  termin
            <releaseRepository-Id>adobe-public-releases</releaseRepository-Id>
            <releaseRepository-Name>Adobe Public
                Releases</releaseRepository-Name>
-           <releaseRepository-URL>http://repo.adobe.com/nexus/content/groups/public</releaseRepository-URL>
+           <releaseRepository-URL>https://repo.adobe.com/nexus/content/groups/public</releaseRepository-URL>
        </properties>
        <repositories>
            <repository>
                <id>adobe-public-releases</id>
                <name>Adobe Basel Public Repository</name>
-               <url>http://repo.adobe.com/nexus/content/groups/public</url>
+               <url>https://repo.adobe.com/nexus/content/groups/public</url>
                <releases>
                    <enabled>true</enabled>
                    <updatePolicy>never</updatePolicy>
@@ -157,7 +157,7 @@ The next series of steps will take place using a UNIX based command line  termin
            <pluginRepository>
                <id>adobe-public-releases</id>
                <name>Adobe Basel Public Repository</name>
-               <url>http://repo.adobe.com/nexus/content/groups/public</url>
+               <url>https://repo.adobe.com/nexus/content/groups/public</url>
                <releases>
                    <enabled>true</enabled>
                    <updatePolicy>never</updatePolicy>
@@ -201,7 +201,7 @@ The next series of steps will take place using a UNIX based command line  termin
 
 9. View Packages on AEM
 
-   Navigate to Package Manager on your local AEM instance: [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp). You should see the following 5 packages installed:
+   Navigate to Package Manager on your local AEM instance: [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp). You should see the following 5 packages installed:
 
    ![Package manager](assets/wknd-packages.png)
 
@@ -338,7 +338,7 @@ Try building the Core module independently from the rest of the project with the
 $ cd aem-guides-wknd/core/
 $ mvn -PautoInstallBundle clean install
 ...
-[INFO] Installing Bundle com.adobe.aem.guides.aem-guides-wknd.core(/src/aem-guides-wknd/core/target/aem-guides-wknd.core-0.0.1-SNAPSHOT.jar) to http://localhost:4502/system/console via WebConsole
+[INFO] Installing Bundle com.adobe.aem.guides.aem-guides-wknd.core(/src/aem-guides-wknd/core/target/aem-guides-wknd.core-0.0.1-SNAPSHOT.jar) to https://localhost:4502/system/console via WebConsole
 [INFO] Bundle installed
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
@@ -349,11 +349,11 @@ $ mvn -PautoInstallBundle clean install
 [INFO] ------------------------------------------------------------------------
 ```
 
-Navigating to [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles) you should be able to see the bundle installed and active.
+Navigating to [https://localhost:4502/system/console/bundles](https://localhost:4502/system/console/bundles) you should be able to see the bundle installed and active.
 
 ![Core bundle](assets/bundle-2.png)
 
-The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module. You can see the 'physical' location of the jar in [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/wknd/install/wknd-sites-guide.core-0.0.1-SNAPSHOT.jar):
+The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module. You can see the 'physical' location of the jar in [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/apps/wknd/install/wknd-sites-guide.core-0.0.1-SNAPSHOT.jar):
 
 ![CRXDE Location of Jar](assets/jcr-bundle-location.png)
 
@@ -361,7 +361,7 @@ The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded
 
 **UI.apps** maven module will include all of the rendering code needed for the site beneath /apps. This includes CSS/JS that will be stored in an AEM format called [clientlibs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html). This also includes [HTL](https://docs.adobe.com/docs/en/htl/overview.html) scripts for rendering dynamic HTML. You can think of the ui.apps module as a map to the structure in the JCR but in a format that can be stored on a file system and committed to source control.
 
-The [Apache Jackrabbit FileVault Package plugin](http://jackrabbit.apache.org/filevault-package-maven-plugin/index.html) is used to compile the contents of the ui.apps module into an AEM package that can be deployed to AEM. The global configurations for the plugin are defined at the Parent pom.xml. Inspecting the plugin definition you can see a configuration for `filterSource`. The `filterSource` points to the location of the filter.xml file that is used to define the jcr paths that are included in the package. The `filterSource` points to the location of the `filter.xml` file that is used to define the jcr paths that are included in the package. Beneath the FileVault Package plugin is the definition of the **Content Package Plugin** which is used to then push the package into AEM. Note that variables for aem.host, aem.port, vault.user, and vault.password are used that correspond to the global properties.
+The [Apache Jackrabbit FileVault Package plugin](https://jackrabbit.apache.org/filevault-package-maven-plugin/index.html) is used to compile the contents of the ui.apps module into an AEM package that can be deployed to AEM. The global configurations for the plugin are defined at the Parent pom.xml. Inspecting the plugin definition you can see a configuration for `filterSource`. The `filterSource` points to the location of the filter.xml file that is used to define the jcr paths that are included in the package. The `filterSource` points to the location of the `filter.xml` file that is used to define the jcr paths that are included in the package. Beneath the FileVault Package plugin is the definition of the **Content Package Plugin** which is used to then push the package into AEM. Note that variables for aem.host, aem.port, vault.user, and vault.password are used that correspond to the global properties.
 
 ```xml
 // pom.xml
@@ -381,7 +381,7 @@ The [Apache Jackrabbit FileVault Package plugin](http://jackrabbit.apache.org/fi
     <artifactId>content-package-maven-plugin</artifactId>
     <version>1.0.2</version>
     <configuration>
-        <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+        <targetURL>https://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
         <failOnError>true</failOnError>
         <userId>${vault.user}</userId>
         <password>${vault.password}</password>
@@ -561,7 +561,7 @@ This is an optional task but its nice to easily identify your custom code packag
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0">
+   <jcr:root xmlns:vlt="https://www.day.com/jcr/vault/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0">
        <thumbnail.png/>
    </jcr:root>
    ```
@@ -622,7 +622,7 @@ This is an optional task but its nice to easily identify your custom code packag
    [INFO] BUILD SUCCESS
    ```
 
-2. Navigate to [Package Manager](http://localhost:4502/crx/packmgr/index.jsp) in AEM.
+2. Navigate to [Package Manager](https://localhost:4502/crx/packmgr/index.jsp) in AEM.
 
    5 packages get installed. **core.wcm.components.all** includes 2 sub packages: **core.wcm.components.config **and** core.wcm.components.content**. You should also see the custom thumbnail for the WKND **ui.apps** and **ui.content** packages.
 
@@ -694,7 +694,7 @@ MANIFEST.MF
 *.war
 *.ear
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs, see https://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
 # Mac OS #

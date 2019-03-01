@@ -170,7 +170,7 @@ The first approach to rapid development will be to configure a proxy between the
 
 See here for more information on [Proxying API Requests in Development](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#proxying-api-requests-in-development) with the Create React App.
 
-It is assumed that an AEM instance is running locally at [http://localhost:4502](http://localhost:4502/).
+It is assumed that an AEM instance is running locally at [https://localhost:4502](https://localhost:4502/).
 
 In the editor of your choice open `/aem-guides-wknd-events/react-app`.
 
@@ -184,7 +184,7 @@ In the editor of your choice open `/aem-guides-wknd-events/react-app`.
    "scripts": {
        ...
      },
-   +  "proxy": "http://localhost:4502",
+   +  "proxy": "https://localhost:4502",
     
    ...
    ```
@@ -218,10 +218,10 @@ In the editor of your choice open `/aem-guides-wknd-events/react-app`.
      Compiled Successfully!
    
      You can now view react-app in the browser.
-     Local:            http://localhost:3000/
+     Local:            https://localhost:3000/
    ```
 
-1. Open a browser and log in to AEM at [http://localhost:4502.](/) Open a new tab and navigate to [http://localhost:3000/content/wknd-events/react/home.html](http://localhost:3000/content/wknd-events/react/home.html)
+1. Open a browser and log in to AEM at [https://localhost:4502.](/) Open a new tab and navigate to [https://localhost:3000/content/wknd-events/react/home.html](https://localhost:3000/content/wknd-events/react/home.html)
 
    You should now see the React app on the development server running with the same content as on the AEM instance:
 
@@ -231,10 +231,10 @@ In the editor of your choice open `/aem-guides-wknd-events/react-app`.
    >
    >Since AEM author instance has an authentication requirement it will be necessary to open a new tab in the browser and log in to the local AEM instance. If you see a blank screen this is most likely the case.
 
-   The way the proxy feature is set up in the [Create React App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) (and at the time this tutorial was written) should negate any [CORS issues](http://stackoverflow.com/questions/21854516/understanding-ajax-cors-and-security-considerations) If you see any errors like below during development look at updating the [AEM CORS configuration](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/cors-security-article-understand.html).
+   The way the proxy feature is set up in the [Create React App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) (and at the time this tutorial was written) should negate any [CORS issues](https://stackoverflow.com/questions/21854516/understanding-ajax-cors-and-security-considerations) If you see any errors like below during development look at updating the [AEM CORS configuration](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/cors-security-article-understand.html).
 
    ```shell
-   Fetch API cannot load http://localhost:4502/content.... No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://localhost:3000' is therefore not allowed access. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+   Fetch API cannot load https://localhost:4502/content.... No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://localhost:3000' is therefore not allowed access. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
    
    ```
 
@@ -347,7 +347,7 @@ In the editor of your choice open `/aem-guides-wknd-events/react-app`.
    import App from './App';
    ```
 
-1. Return to the browser and navigate to [http://localhost:3000/content/wknd-events/react/home.html](http://localhost:3000/content/wknd-events/react/home.html).
+1. Return to the browser and navigate to [https://localhost:3000/content/wknd-events/react/home.html](https://localhost:3000/content/wknd-events/react/home.html).
 
    You should see that the fonts have changed. Make some test changes to** index.scss **and verify that the changes are automatically compiled and displayed on the static server.
 
@@ -361,7 +361,7 @@ Another approach to rapid development is to use a static or mock JSON file to de
 
 The initial set up of the mock JSON will require a **local AEM instance**.
 
-1. In the browser navigate to [http://localhost:4502/content/wknd-events/react.model.json](http://localhost:4502/content/wknd-events/react.model.json)
+1. In the browser navigate to [https://localhost:4502/content/wknd-events/react.model.json](https://localhost:4502/content/wknd-events/react.model.json)
 
    This is the JSON exported by AEM that is driving the application. Copy the JSON output.
 
@@ -494,7 +494,7 @@ The initial set up of the mock JSON will require a **local AEM instance**.
 
 1. If it is still running, restart the React development server. Environment variables are only embedded at build time, hence the need to restart if any change is made.
 
-   Navigate to to [http://localhost:3000/content/wknd-events/react/home.html](http://localhost:3000/content/wknd-events/react/home.html). The mock image should now be shown.
+   Navigate to to [https://localhost:3000/content/wknd-events/react/home.html](https://localhost:3000/content/wknd-events/react/home.html). The mock image should now be shown.
 
 1. Make some other content changes to **mock.model.json** and see the changes automatically reflected in the browser.
 
@@ -791,7 +791,7 @@ As part of the starter project a dedicated client library for the Responsive Gri
    $ mvn -PautoInstallPackage -Padobe-public clean install
    ```
 
-1. Navigate to [http://localhost:4502/editor.html/content/wknd-events/react/home.html](http://localhost:4502/editor.html/content/wknd-events/react/home.html). You should now be able to use the layout controls on the component to re-size components based on the grid.
+1. Navigate to [https://localhost:4502/editor.html/content/wknd-events/react/home.html](https://localhost:4502/editor.html/content/wknd-events/react/home.html). You should now be able to use the layout controls on the component to re-size components based on the grid.
 
    ![](assets/layout-control.png) ![](assets/layout-drag.png)
 
@@ -825,7 +825,7 @@ As part of the starter project a dedicated client library for the Responsive Gri
    $ npm start
    ```
 
-   Navigate to [http://localhost:3000/content/wknd-events/react/home.html](http://localhost:3000/content/wknd-events/react/home.html). You should see the responsive grid in place and the content that was just authored in AEM.
+   Navigate to [https://localhost:3000/content/wknd-events/react/home.html](https://localhost:3000/content/wknd-events/react/home.html). You should see the responsive grid in place and the content that was just authored in AEM.
 
    >[!NOTE]
    >
@@ -919,8 +919,8 @@ A popular way to develop SPA components is to develop them in isolation. This al
    
     You can now view your style guide in the browser:
    
-     Local:            http://localhost:6060/
-     On your network:  http://192.168.1.152:6060/
+     Local:            https://localhost:6060/
+     On your network:  https://192.168.1.152:6060/
    ```
 
    ![](assets/image-styleguide.png)

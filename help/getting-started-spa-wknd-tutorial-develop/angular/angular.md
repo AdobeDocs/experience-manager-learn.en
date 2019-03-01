@@ -65,9 +65,9 @@ A local development environment is necessary to complete this tutorial. Screensh
 
 The following should be installed:
 
-* [](http://www.oracle.com/technetwork/java/javase/downloads/index.html) [AEM 6.4 + SP2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
+* [](https://www.oracle.com/technetwork/java/javase/downloads/index.html) [AEM 6.4 + SP2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
 
-* [](http://www.oracle.com/technetwork/java/javase/downloads/index.html) [](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* [](https://www.oracle.com/technetwork/java/javase/downloads/index.html) [](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 * [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)  
 

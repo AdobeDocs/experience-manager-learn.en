@@ -18,13 +18,13 @@ Covers the creation of a Maven Multi Module Project to manage the code and confi
 
 ## Prerequisites {#prerequisites}
 
-This is Part 1 of the multi-part tutorial. An [overview can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop.md).
+This is Part 1 of the multi-part tutorial. An [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md).
 
 A local development environment is necessary to complete this tutorial. Screenshots and video are captured from a Mac OS environment but the commands and code used should be independent of the local operating system, unless otherwise noted.
 
 The following is required:
 
-1. [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+1. [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 1. [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
 1. [AEM 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html) **or** 
 
@@ -91,9 +91,9 @@ The next series of steps will take place using a UNIX based command line termina
    A sample `settings.xml`can be found below:
 
    ```xml
-   <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+   <settings xmlns="https://maven.apache.org/SETTINGS/1.0.0"
+     xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="https://maven.apache.org/SETTINGS/1.0.0
                          https://maven.apache.org/xsd/settings-1.0.0.xsd">
    
    <profiles>
@@ -113,14 +113,14 @@ The next series of steps will take place using a UNIX based command line termina
            <releaseRepository-Name>Adobe Public
                Releases</releaseRepository-Name>
     
-           <releaseRepository-URL>http://repo.adobe.com/nexus/content/groups/public</releaseRepository-URL>
+           <releaseRepository-URL>https://repo.adobe.com/nexus/content/groups/public</releaseRepository-URL>
        </properties>
     
        <repositories>
            <repository>
                <id>adobe-public-releases</id>
                <name>Adobe Basel Public Repository</name>
-               <url>http://repo.adobe.com/nexus/content/groups/public</url>
+               <url>https://repo.adobe.com/nexus/content/groups/public</url>
                <releases>
                    <enabled>true</enabled>
                    <updatePolicy>never</updatePolicy>
@@ -135,7 +135,7 @@ The next series of steps will take place using a UNIX based command line termina
            <pluginRepository>
                <id>adobe-public-releases</id>
                <name>Adobe Basel Public Repository</name>
-               <url>http://repo.adobe.com/nexus/content/groups/public</url>
+               <url>https://repo.adobe.com/nexus/content/groups/public</url>
                <releases>
                    <enabled>true</enabled>
                    <updatePolicy>never</updatePolicy>
@@ -191,7 +191,7 @@ The next series of steps will take place using a UNIX based command line termina
 
 1. View Packages on AEM
 
-   Navigate to Package Manager on your local AEM instance: [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp). You should see the following 5 packages installed:
+   Navigate to Package Manager on your local AEM instance: [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp). You should see the following 5 packages installed:
 
    ![](assets/aem-packages.png)
 
@@ -327,7 +327,7 @@ $ mvn -PautoInstallBundle clean install
 
 ...
 
-[INFO] Installing Bundle com.adobe.aem.guides.aem-guides-wknd.core(/src/aem-guides-wknd/core/target/aem-guides-wknd.core-0.0.1-SNAPSHOT.jar) to http://localhost:4502/system/console via WebConsole
+[INFO] Installing Bundle com.adobe.aem.guides.aem-guides-wknd.core(/src/aem-guides-wknd/core/target/aem-guides-wknd.core-0.0.1-SNAPSHOT.jar) to https://localhost:4502/system/console via WebConsole
 [INFO] Bundle installed
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
@@ -338,11 +338,11 @@ $ mvn -PautoInstallBundle clean install
 [INFO] ------------------------------------------------------------------------
 ```
 
-Navigating to [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles) you should be able to see the bundle installed and active.
+Navigating to [https://localhost:4502/system/console/bundles](https://localhost:4502/system/console/bundles) you should be able to see the bundle installed and active.
 
 ![](assets/bundle-2.png)
 
-The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module. You can see the 'physical' location of the jar in [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/wknd/install/wknd-sites-guide.core-0.0.1-SNAPSHOT.jar): 
+The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module. You can see the 'physical' location of the jar in [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/apps/wknd/install/wknd-sites-guide.core-0.0.1-SNAPSHOT.jar): 
 
 ![](assets/jcr-bundle-location.png) 
 
@@ -581,7 +581,7 @@ Clearly marking it as optional. I think its a nice touch.
    $ mvn -PautoInstallPackage -Padobe-public clean install
    ```
 
-1. Navigate to [Package Manager](http://localhost:4502/crx/packmgr/index.jsp) in AEM.
+1. Navigate to [Package Manager](https://localhost:4502/crx/packmgr/index.jsp) in AEM.
 
    5 packages get installed. **core.wcm.components.all** includes 2 sub packages: **core.wcm.components.config **and** core.wcm.components.content**. You should also see the custom thumbnail for the WKND **ui.apps** and **ui.content** packages.
 
@@ -664,7 +664,7 @@ MANIFEST.MF
 *.war
 *.ear
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs, see https://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
 # Mac OS #
@@ -751,7 +751,7 @@ Didn't find what you were looking for? Think you found an error? Please file a [
 
 Next part in the tutorial:
 
-* [**Getting Started with AEM Sites Part 2 - Creating a Base Page and Template**](../../../../sites/using/getting-started-wknd-tutorial-develop/part2.md)
+* [**Getting Started with AEM Sites Part 2 - Creating a Base Page and Template**](/help/getting-started-wknd-tutorial-develop/part2.md)
 
 Download the finished package for this part of the tutorial: ** [https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**
 

@@ -68,8 +68,8 @@ The dialog exposes the interface with which content authors can provide. For thi
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <jcr:root
-       xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-       xmlns:jcr="http://www.jcp.org/jcr/1.0"
+       xmlns:sling="https://sling.apache.org/jcr/sling/1.0"
+       xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:Component"
        jcr:title="Byline"
        jcr:description="Displays a contributor's byline."
@@ -103,7 +103,7 @@ Next, define a dialog for the Byline component with the following fields:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:granite="https://www.adobe.com/jcr/granite/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured"
        jcr:title="Byline"
        sling:resourceType="cq/gui/components/authoring/dialog">
@@ -182,9 +182,9 @@ Following the same approach as with the Dialog creation, create a Policy dialog 
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-             xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
-             xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
+             xmlns:nt="https://www.jcp.org/jcr/nt/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0"
+             xmlns:granite="https://www.adobe.com/jcr/granite/1.0"
        jcr:primaryType="nt:unstructured"
        jcr:title="Byline"
        sling:resourceType="cq/gui/components/authoring/dialog">
@@ -304,7 +304,7 @@ AEM authors configure and author components via the dialogs. At this point in th
 
    ![](assets/add-properties.png)
 
-1. After saving the dialog, navigate to [CRXDE Lite](http://localhost:4502/crx/de/index.jsp#/content/wknd/en/art/exhibitions/jcr%3Acontent/root/responsivegrid) and review how the component's content is stored on the Byline component content node under the AEM page.
+1. After saving the dialog, navigate to [CRXDE Lite](https://localhost:4502/crx/de/index.jsp#/content/wknd/en/art/exhibitions/jcr%3Acontent/root/responsivegrid) and review how the component's content is stored on the Byline component content node under the AEM page.
 
    Find the Byline component content node beneath the `jcr:content/root/responsivegrid/responsivegrid` node i.e `/content/wknd/en/sports/la-skateparks/jcr:content/root/responsivegrid/responsivegrid/byline`.
 
@@ -375,7 +375,7 @@ In order to most efficiently use Sling Models, the project's POM's need updating
 
    The full contents of the updated [reactor pom.xml can be found here](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/blob/part/6-new-component/pom.xml).
 
-   The &lt;scope&gt;provided&lt;/scope&gt; indicates that AEM will be satisfying this dependency upon deployment. The version 3.6 is used as this is the version exposed by AEM which can be determined by looking up the exported version in the AEM Web Console's Dependency Finder *([http://localhost:4502/system/console/depfinder](http://localhost:4502/system/console/depfinder))*.
+   The &lt;scope&gt;provided&lt;/scope&gt; indicates that AEM will be satisfying this dependency upon deployment. The version 3.6 is used as this is the version exposed by AEM which can be determined by looking up the exported version in the AEM Web Console's Dependency Finder *([https://localhost:4502/system/console/depfinder](https://localhost:4502/system/console/depfinder))*.
 
    ![](assets/dep-finder.png)
 
@@ -945,7 +945,7 @@ Update `byline.html` with the following skeletal HTML structure:
 <sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=true}"></sly>
 ```
 
-Note the CSS classes follow the [BEM naming convention](http://getbem.com/naming/). While the use of BEM conventions isn't mandatory, BEM is recommended as it's used in Core Component CSS classes and generally results in clean, readable CSS rules.
+Note the CSS classes follow the [BEM naming convention](https://getbem.com/naming/). While the use of BEM conventions isn't mandatory, BEM is recommended as it's used in Core Component CSS classes and generally results in clean, readable CSS rules.
 
 ### Instantiating Sling Model objects in HTL {#instantiating-sling-model-objects-in-htl}
 
@@ -1065,13 +1065,13 @@ After deploying the update, the image now appears and we have a un-styled, but w
 
 ### Reviewing the Sling Model registration {#reviewing-the-sling-model-registration}
 
-The [AEM Web Console's Sling Models Status view](http://localhost:4502/system/console/status-slingmodels) displays all the registered Sling Models in AEM. The Byline Sling Model can be validated as being installed and recognized by reviewing this list.
+The [AEM Web Console's Sling Models Status view](https://localhost:4502/system/console/status-slingmodels) displays all the registered Sling Models in AEM. The Byline Sling Model can be validated as being installed and recognized by reviewing this list.
 
 If the BylineImpl was not displayed in this list, then there was is likely an issue with the Sling Model's annotations or with the SlingModelsScanner Module configuration in the core pom.xml.
 
 ![](assets/osgi-sling-models-nav.png) ![](assets/osgi-sling-models.png)
 
-http://localhost:4502/system/console/status-slingmodels
+https://localhost:4502/system/console/status-slingmodels
 
 ## Byline styles {#byline-styles}
 

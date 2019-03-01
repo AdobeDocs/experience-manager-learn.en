@@ -18,7 +18,7 @@ Covers the end to end creation of a custom card component that displays a teaser
 
 ## Prerequisites {#prerequisites}
 
-This is Part 6 of a multi-part tutorial. [Part 5 can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop/part5.md) and an [overview can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop.md).
+This is Part 6 of a multi-part tutorial. [Part 5 can be found here](/help/getting-started-wknd-tutorial-develop/part5.md) and an [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md).
 
 You can check out the following branch on GitHub if you want to skip the previous parts: [feature/wknd-sites-guide-part-5](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/chapter/5-navigation-search). Or you can download and install the Chapter 5 package: [https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases).
 
@@ -53,8 +53,8 @@ As a first step, create the Card component and configure a dialog. The component
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <jcr:root 
-       xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-       xmlns:jcr="http://www.jcp.org/jcr/1.0"
+       xmlns:sling="https://sling.apache.org/jcr/sling/1.0"
+       xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:Component"
        componentGroup="WKND.Content"
        jcr:title="Card"
@@ -91,7 +91,7 @@ As a first step, create the Card component and configure a dialog. The component
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:granite="https://www.adobe.com/jcr/granite/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured"
        jcr:title="Card"
        sling:resourceType="cq/gui/components/authoring/dialog">
@@ -158,9 +158,9 @@ As a first step, create the Card component and configure a dialog. The component
 
 1.
 
-    1. Update the [Landing Page Template's](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html) Layout Container to allow the **Card** Component
+    1. Update the [Landing Page Template's](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html) Layout Container to allow the **Card** Component
     
-    1. Navigate to the WKND [Homepage](http://localhost:4502/editor.html/content/wknd/en.html). 
+    1. Navigate to the WKND [Homepage](https://localhost:4502/editor.html/content/wknd/en.html). 
     1. Drag and drop a Card component on to the Layout Container on the Homepage.
 
    ![Update Allowed Components on the Landing Page Template to include the Card Component](assets/2018-04-09_at_1240pm.png)
@@ -180,7 +180,7 @@ As a first step, create the Card component and configure a dialog. The component
 
    ![](assets/fig11.png)
 
-1. Navigate to ** [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp)**
+1. Navigate to ** [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp)**
 
    In CRXDE use the tree navigation to find the page in which includes the card component.
 
@@ -656,7 +656,7 @@ Next create a public Java Interface for the Card. **Card.java** contains all of 
    >It is possible that while editing the Article Page Template that the Hero Image node name has changed.
    >
    >
-   >To verify the location of the Hero Image, in [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/conf/wknd/settings/wcm/templates/article-page-template/structure/jcr%3Acontent/root/image) find */conf/wknd/settings/wcm/templates/article-page-template/structure/jcr:content/root/image*.
+   >To verify the location of the Hero Image, in [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/conf/wknd/settings/wcm/templates/article-page-template/structure/jcr%3Acontent/root/image) find */conf/wknd/settings/wcm/templates/article-page-template/structure/jcr:content/root/image*.
 
 1. Populate the **getImageSrc()** with the following:
 
@@ -723,7 +723,7 @@ Next create a public Java Interface for the Card. **Card.java** contains all of 
 
 1. Deploy the code to AEM.
 
-   Navigate to the ** [OSGi Console](http://localhost:4502/system/console/bundles)** &gt; **Status** &gt; **Sling Models**
+   Navigate to the ** [OSGi Console](https://localhost:4502/system/console/bundles)** &gt; **Status** &gt; **Sling Models**
 
    ![](assets/fig13.png)
 
@@ -879,7 +879,7 @@ Next create a public Java Interface for the Card. **Card.java** contains all of 
 
    [Get File](assets/chapt-6-sample-content-inprogress-1001.zip)
 
-1. Navigate to the [Home page](http://localhost:4502/editor.html/content/wknd/en.html) and add a new card component to the page.
+1. Navigate to the [Home page](https://localhost:4502/editor.html/content/wknd/en.html) and add a new card component to the page.
 
    Configure the card component to point to **/content/wknd/en/restaurants/best-roasters **or another article.
 
@@ -1060,7 +1060,7 @@ In the **ui.apps** project under **/apps/wknd/clientlibs/clientlib-site/componen
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured"
        jcr:title="Card"
        sling:resourceType="cq/gui/components/authoring/dialog">
@@ -1088,7 +1088,7 @@ In the **ui.apps** project under **/apps/wknd/clientlibs/clientlib-site/componen
 
 1.
 
-    1. In AEM navigate to **Landing Page Template**: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html)
+    1. In AEM navigate to **Landing Page Template**: [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html)
     
     1. In the Layout Container, click the **policy** icon next to the Card to open its Policy dialog.
 
@@ -1129,7 +1129,7 @@ In the **ui.apps** project under **/apps/wknd/clientlibs/clientlib-site/componen
 
 ## Putting It Together {#putting-together}
 
-The below video shows editing the [WKND Home Page](http://localhost:4502/editor.html/content/wknd/en.html) and adding several **Card** components with different content and styles to create a compelling home page.
+The below video shows editing the [WKND Home Page](https://localhost:4502/editor.html/content/wknd/en.html) and adding several **Card** components with different content and styles to create a compelling home page.
 
 >[!VIDEO](https://video.tv.adobe.com/v/21626?quality=9)
 

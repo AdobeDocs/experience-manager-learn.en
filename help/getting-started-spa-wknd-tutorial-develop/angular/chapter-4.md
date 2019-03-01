@@ -59,7 +59,7 @@ The first approach we'll look at is having the Angular app run on the local web 
          "/content/**/**.jpeg",
          "/content/**/**.jpg"
        ],
-       "target": "http://localhost:4502",
+       "target": "https://localhost:4502",
        "auth": "admin:admin",
        "logLevel": "debug"
      }
@@ -68,7 +68,7 @@ The first approach we'll look at is having the Angular app run on the local web 
 
    The **proxy.aem.conf.json** leverages native Angular request proxy support.
 
-   This proxies request for** model.json** and **jpeg** images to AEM running at [localhost:4502](http://localhost:4502), since AEM is responsible for serving the content to drive the experience.
+   This proxies request for** model.json** and **jpeg** images to AEM running at [localhost:4502](https://localhost:4502), since AEM is responsible for serving the content to drive the experience.
 
    Note that this proxy sets an HTTP Request head that includes a basic auth header for **admin  :admin **, allowing the Angular app to access the content from AEM Author, which denies anonymous access by default.
 
@@ -79,13 +79,13 @@ The first approach we'll look at is having the Angular app run on the local web 
    
    ```
 
-1. In the web browser, navigate to [http://localhost:4200/content/wknd-events/angular/home.html](http://localhost:4200/content/wknd-events/angular/home.html), which Angular maps to src/index.html. The browser should render the page driven by the content in AEM.
+1. In the web browser, navigate to [https://localhost:4200/content/wknd-events/angular/home.html](https://localhost:4200/content/wknd-events/angular/home.html), which Angular maps to src/index.html. The browser should render the page driven by the content in AEM.
 
    ![](assets/proxy-aem.png)
 
-   The **left** browser displays the Angular app run on the **local dev** **web server** at [http://localhost:4200](http://localhost:4200/content/wknd-events/angular/home.html).
+   The **left** browser displays the Angular app run on the **local dev** **web server** at [https://localhost:4200](https://localhost:4200/content/wknd-events/angular/home.html).
 
-   The **right** browser displays the Angular app run on **AEM Author **at [http://localhost:4502](http://localhost:4502/editor.html/content/wknd-events/angular/home.html).
+   The **right** browser displays the Angular app run on **AEM Author **at [https://localhost:4502](https://localhost:4502/editor.html/content/wknd-events/angular/home.html).
 
 ## Mock JSON approach {#mock-json-approach}
 
@@ -96,7 +96,7 @@ Another approach to rapid development is to use a static or mock JSON file to de
 This does require the front-end developer be provided up-to-date examples of the JSON AEM generates.
 
 1. Follow the **Step 1** of the **Proxy JSON approach outlined above**, if you haven't already. This will set up the Angular app's **index.html** to support this approach.
-1. In the browser navigate to [http://localhost:4502/content/wknd-events/angular.model.json](http://localhost:4502/content/wknd-events/angular.model.json)
+1. In the browser navigate to [https://localhost:4502/content/wknd-events/angular.model.json](https://localhost:4502/content/wknd-events/angular.model.json)
 
    This is the JSON exported by AEM that is driving the application. Copy the JSON output or download it here:
 
@@ -117,7 +117,7 @@ This does require the front-end developer be provided up-to-date examples of the
          "/content/**/*.model.json"
        ],
        "pathRewrite": { "^/content/wknd-events" : "/mocks/json"} ,
-       "target": "http://localhost:4200",
+       "target": "https://localhost:4200",
        "logLevel": "debug"
      },
      {
@@ -126,7 +126,7 @@ This does require the front-end developer be provided up-to-date examples of the
          "/content/**/*.jpeg"
        ],
        "pathRewrite": { ".*": "/mocks/assets/fpo.jpg" },
-       "target": "http://localhost:4200",
+       "target": "https://localhost:4200",
        "logLevel": "debug"
      }
    ]
@@ -138,7 +138,7 @@ This does require the front-end developer be provided up-to-date examples of the
 
    **Lines 15-26** map request for JPEGs to a single FPO (For Placement Only) image at **/mocks/assets/fpo.jpg**.
 
-   Note that the target is set to **http://localhost:4200** which is the host and port the Angular web devserver runs on.
+   Note that the target is set to **https://localhost:4200** which is the host and port the Angular web devserver runs on.
 
    As other asset types are utilized by the Angular app from AEM, similar rules can be created in the Angular app to surface appropriate mock data.
 
@@ -168,7 +168,7 @@ This does require the front-end developer be provided up-to-date examples of the
 
    ![](assets/proxy-mock.png)
 
-   http://localhost:4200/content/wknd-events/angular/home.html
+   https://localhost:4200/content/wknd-events/angular/home.html
 
    Keep in mind that mock JSON files must be updated to reflect the content structures that will drive the Angular app.
 
@@ -185,7 +185,7 @@ To use a hosted FPO service, simply update the **proxy.mock.conf.json** rule for
       "/content/**/*.model.json"
     ],
     "pathRewrite": { "^/content/wknd-events" : "/mocks/json"} ,
-    "target": "http://localhost:4200",
+    "target": "https://localhost:4200",
     "logLevel": "debug"
   },
   {

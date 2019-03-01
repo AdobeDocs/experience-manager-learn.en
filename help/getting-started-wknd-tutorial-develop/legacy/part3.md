@@ -18,7 +18,7 @@ Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage 
 
 ## Prerequisites {#prerequisites}
 
-This is Part 3 of the multi-part tutorial. ** [Part 2 can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop/part2.md) **and an ** [overview can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop.md)**.
+This is Part 3 of the multi-part tutorial. ** [Part 2 can be found here](/help/getting-started-wknd-tutorial-develop/part2.md) **and an ** [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
 
 You can check out the following branch on GitHub if you want to skip the previous parts:** [part/2-base-page-templates](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/part/2-base-page-templates). **
 
@@ -28,9 +28,9 @@ Or you can download and install the Chapter 2 package: [https://github.com/Adobe
 
 Below are some of the front-end technologies used in the creation of the WKND site. The intention is to give you an idea of how 3rd party frameworks can easily be integrated into an AEM Site.
 
-** [LESS](http://lesscss.org/) **- popular CSS pre-compiler that allows variables and other functionality. AEM client libraries naitively support LESS compilation. Saas or other pre-compilers can be used but would need to be compiled outside of AEM.
+** [LESS](https://lesscss.org/) **- popular CSS pre-compiler that allows variables and other functionality. AEM client libraries naitively support LESS compilation. Saas or other pre-compilers can be used but would need to be compiled outside of AEM.
 
-** [Boostrap](http://getbootstrap.com/)** - popular framework used to build responsive websites.
+** [Boostrap](https://getbootstrap.com/)** - popular framework used to build responsive websites.
 
 ** [jQuery](https://jquery.com/) **- popular JavaScript feature rich library for manipulating HTML
 
@@ -76,7 +76,7 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
     * clientlib-site
     * vendor
 
-1. Download **wknd-sites-clientlibs-chapter-3.zip** and install via [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp). Or download the **SRC Code** and unzip directly inside your project on the file system beneath ui.appps/src/main/content/jcr_root/apps/wknd/clientlibs.
+1. Download **wknd-sites-clientlibs-chapter-3.zip** and install via [CRX Package Manager](https://localhost:4502/crx/packmgr/index.jsp). Or download the **SRC Code** and unzip directly inside your project on the file system beneath ui.appps/src/main/content/jcr_root/apps/wknd/clientlibs.
 
    [Get File](assets/aem-guides-wknd_part3-clientlibs.zip)
 
@@ -128,7 +128,7 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:ClientLibraryFolder"
        allowProxy="{Boolean}true"
        categories="[wknd.base]"
@@ -182,7 +182,7 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:ClientLibraryFolder"
        allowProxy="{Boolean}true"
        categories="[wknd.dependencies]"
@@ -415,17 +415,17 @@ In the **ui.apps** module modify files beneath: **/apps/wknd/components/structur
 1. Deploy the code base to add both client libraries and updated page component to the local AEM instance. 
 1. Updating the base page component will update any pages created via the WKND Article Template.
 
-    1. Open up a page created from the Article Template: [http://localhost:4502/editor.html/content/wknd/en/first-article.html](http://localhost:4502/editor.html/content/wknd/en/first-article.html). You should see the updated fonts and fixed width container.
+    1. Open up a page created from the Article Template: [https://localhost:4502/editor.html/content/wknd/en/first-article.html](https://localhost:4502/editor.html/content/wknd/en/first-article.html). You should see the updated fonts and fixed width container.
     1. View the page as published by clicking the **Page Properties **menu icon (upper left, next to the sidebar icon) **&gt;** **"View as Published"** button
     
-    1. This will open a new tab with **wcmmode=disabled** added as a URL parameter. Viewing the page with wcmmode=disabled is a great way to debug/develop as there is a significant amount of Javascript for the Sites editor to support component authoring. [http://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled](http://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled)
+    1. This will open a new tab with **wcmmode=disabled** added as a URL parameter. Viewing the page with wcmmode=disabled is a great way to debug/develop as there is a significant amount of Javascript for the Sites editor to support component authoring. [https://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled](https://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled)
     
     1. Viewing the page source you should see following tags:
 
    ![](assets/2018-02-21_at_3_51pm.png) 
 
    ```xml
-   /* Source of http://localhost:4502/content/wknd/first-article.html?wcmmode=disabled */
+   /* Source of https://localhost:4502/content/wknd/first-article.html?wcmmode=disabled */
    <html>
        <head>
        ...
@@ -446,13 +446,13 @@ In the **ui.apps** module modify files beneath: **/apps/wknd/components/structur
 
 With different methods of **categories** and **embeds** to include multiple client libraries it can be cumbersome to troubleshoot. AEM exposes several tools to help with this. One of the most important tools is **Rebuild Client Libraries** which will force AEM to re-compile any LESS files and generate the CSS.
 
-* [Dump Libs](http://localhost:4502/libs/granite/ui/content/dumplibs.html) - Lists all of the client libraries registered in the AEM instance. **&lt;host&gt;/libs/granite/ui/content/dumplibs.html**
+* [Dump Libs](https://localhost:4502/libs/granite/ui/content/dumplibs.html) - Lists all of the client libraries registered in the AEM instance. **&lt;host&gt;/libs/granite/ui/content/dumplibs.html**
 
-* [Test Output](http://localhost:4502/libs/granite/ui/content/dumplibs.test.html)** **- allows a user to see the expected HTML output of clientlib includes based on category.** &lt;host&gt;/libs/granite/ui/content/dumplibs.test.html**
+* [Test Output](https://localhost:4502/libs/granite/ui/content/dumplibs.test.html)** **- allows a user to see the expected HTML output of clientlib includes based on category.** &lt;host&gt;/libs/granite/ui/content/dumplibs.test.html**
 
-* [Libraries Dependencies validation](http://localhost:4502/libs/granite/ui/content/dumplibs.validate.html)** - **highlights any dependencies or embedded categories that cannot be found. **&lt;host&gt;/libs/granite/ui/content/dumplibs.validate.html**
+* [Libraries Dependencies validation](https://localhost:4502/libs/granite/ui/content/dumplibs.validate.html)** - **highlights any dependencies or embedded categories that cannot be found. **&lt;host&gt;/libs/granite/ui/content/dumplibs.validate.html**
 
-* [Rebuild Client Libraries](http://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html) - allows a user to force AEM to rebuild all of the client libraries or invalidate the cache of client libraries. This tool is particularly effective when developing with LESS as this can force AEM to re-compile the generated CSS. In general it is more effective to Invalidate Caches and then perform a page refresh versus rebuilding all of the libraries. **&lt;host&gt;/libs/granite/ui/content/dumplibs.rebuild.html**
+* [Rebuild Client Libraries](https://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html) - allows a user to force AEM to rebuild all of the client libraries or invalidate the cache of client libraries. This tool is particularly effective when developing with LESS as this can force AEM to re-compile the generated CSS. In general it is more effective to Invalidate Caches and then perform a page refresh versus rebuilding all of the libraries. **&lt;host&gt;/libs/granite/ui/content/dumplibs.rebuild.html**
 
 ![](assets/rebuild-clientlibs.png) 
 
@@ -498,6 +498,6 @@ At this point everything needed to leverage [AEM's Responisve Grid](https://help
 
 ## Next Steps {#next-steps}
 
-Next part in the tutorial: [Getting Started with AEM Sites Part 4 - Developing with the Style System](../../../../sites/using/getting-started-wknd-tutorial-develop/part4.md)
+Next part in the tutorial: [Getting Started with AEM Sites Part 4 - Developing with the Style System](/help/getting-started-wknd-tutorial-develop/part4.md)
 
 Download the finished package for this part of the tutorial: ** [https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**

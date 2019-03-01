@@ -77,13 +77,13 @@ The following properties were used when generating the AEM project from [Archety
    $ mvn -PautoInstallPackage clean install
    ```
 
-   This should deploy the project to AEM running on [http://localhost:4502](http://localhost:4502/).
+   This should deploy the project to AEM running on [https://localhost:4502](https://localhost:4502/).
 
    >[!CAUTION]
    >
    >If you recieve an error during the build double check that you have configured your maven settings.xml file to include Adobe's nexus repository based on this [article](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
-1. Navigating to [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
+1. Navigating to [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
 
    ![](assets/packages-w-thumb.png)
 
@@ -99,7 +99,7 @@ A starter React application has been created using the [create-react-app](https:
    $ npm start
    ```
 
-1. This should launch the React app on a local dev server running at [http://localhost:3000/](http://localhost:3000/).
+1. This should launch the React app on a local dev server running at [https://localhost:3000/](https://localhost:3000/).
 
    ![](assets/react-3000.png)
 
@@ -225,7 +225,7 @@ To achieve this integration two tools will be used:
    You can control this with the homepage field in your package.json.
    For example, add this to build it for GitHub Pages:
    
-   "homepage" : "http://myname.github.io/myapp",
+   "homepage" : "https://myname.github.io/myapp",
    
    The build folder is ready to be deployed.
    You may serve it with a static server:
@@ -235,7 +235,7 @@ To achieve this integration two tools will be used:
    
    Find out more about deployment here:
    
-   http://bit.ly/2vY88Kr
+   https://bit.ly/2vY88Kr
 
    start aem-clientlib-generator
    working directory: ../src/aem-guides-wknd-events/react-app
@@ -318,7 +318,7 @@ Next, configure the `react-app` project to also be a **Maven** module. This way 
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
        <modelVersion>4.0.0</modelVersion>
    
        <!-- ====================================================================== -->
@@ -428,7 +428,7 @@ Next, configure the `react-app` project to also be a **Maven** module. This way 
    ...
    ```
 
-1. Navigate to [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/wknd-events/clientlibs/react-app) to verify that the React App and the rest of the AEM project has been deployed beneath `/apps/wknd-events/clientlibs/react-app`.
+1. Navigate to [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/apps/wknd-events/clientlibs/react-app) to verify that the React App and the rest of the AEM project has been deployed beneath `/apps/wknd-events/clientlibs/react-app`.
 
    ![](assets/react-app-clientlib.png)
 
@@ -503,7 +503,7 @@ Open up the `aem-guides-wknd-events/ui.apps` project to edit.
    $ mvn -PautoInstallPackage clean install
    ```
 
-1. Navigate to [http://localhost:4502/editor.html/content/wknd-events/react/home.html](http://localhost:4502/editor.html/content/wknd-events/react/home.html)
+1. Navigate to [https://localhost:4502/editor.html/content/wknd-events/react/home.html](https://localhost:4502/editor.html/content/wknd-events/react/home.html)
 
    You should now see the React application being rendered on the AEM page.
 

@@ -41,7 +41,7 @@ A starter Angular application has been created using [Angular's CLI](https://ang
    $ ng serve
    ```
 
-1. Review the Angular app by executing** ng serve**, which starts the Angular application on a local dev web server running at [http://localhost:4200/](http://localhost:4200/).
+1. Review the Angular app by executing** ng serve**, which starts the Angular application on a local dev web server running at [https://localhost:4200/](https://localhost:4200/).
 
    ![](assets/ng-serve-open.png)
 
@@ -229,7 +229,7 @@ Next, configure the `angular-app` project to also be a **Maven** module. This wa
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
        <modelVersion>4.0.0</modelVersion>
    
        <!-- ====================================================================== -->
@@ -335,7 +335,7 @@ Next, configure the `angular-app` project to also be a **Maven** module. This wa
    node/
    ```
 
-1. Navigate to [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/wknd-events/clientlibs/angular-app) to verify that the Angular App and the rest of the AEM project has been deployed beneath `/apps/wknd-events/clientlibs/angular-app`.
+1. Navigate to [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/apps/wknd-events/clientlibs/angular-app) to verify that the Angular App and the rest of the AEM project has been deployed beneath `/apps/wknd-events/clientlibs/angular-app`.
 
    ![](assets/crxde-clientlibs-files.png)
 
@@ -416,7 +416,7 @@ Open up the `aem-guides-wknd-events/ui.apps` project to edit.
    $ mvn -PautoInstallPackage clean install
    ```
 
-1. Navigate to [http://localhost:4502/editor.html/content/wknd-events/angular/home.html](http://localhost:4502/editor.html/content/wknd-events/angular/home.html)
+1. Navigate to [https://localhost:4502/editor.html/content/wknd-events/angular/home.html](https://localhost:4502/editor.html/content/wknd-events/angular/home.html)
 
    You should now see the Angular app being rendered on the AEM page, however the Sidebar doesn't work and on refresh, the page becomes blank. This is because Angular's default routing has taken over and is working against the AEM Page Editor. 
 

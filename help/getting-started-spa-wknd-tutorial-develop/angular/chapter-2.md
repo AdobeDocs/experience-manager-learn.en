@@ -469,7 +469,7 @@ The Page component is used to represent the JSON of a page in AEM, and start the
    $ mvn -PautoInstallPackage clean install
    ```
 
-1. In AEM open then [WKND Events Angular page](http://localhost:4502/content/wknd-events/angular/home.html?wcmmode=disabled) and open the browser's developer tools.
+1. In AEM open then [WKND Events Angular page](https://localhost:4502/content/wknd-events/angular/home.html?wcmmode=disabled) and open the browser's developer tools.
 
    Note the `<meta property="cq:pagemodel_root_url" content="/content/wknd-events/angular.model.json"/>` defines the **cq:pagemodel_root_url **which informs the Angular app of the content entry point.
 

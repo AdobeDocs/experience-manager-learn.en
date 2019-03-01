@@ -101,8 +101,8 @@ Next a Header component will be created to be integrated into the Base page. The
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <jcr:root 
-       xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-       xmlns:jcr="http://www.jcp.org/jcr/1.0"
+       xmlns:sling="https://sling.apache.org/jcr/sling/1.0"
+       xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:Component"
        componentGroup="WKND.Structure"
        jcr:description="Page Header with navigation"
@@ -148,7 +148,7 @@ Next a Header component will be created to be integrated into the Base page. The
 
    See the Page node in CRXDE Lite after deploying code changes
 
-   In [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp) verify that the header component has been pushed to your local AEM instance.
+   In [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp) verify that the header component has been pushed to your local AEM instance.
 
 ## Inspect Proxy Components {#proxy-components}
 

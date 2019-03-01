@@ -27,7 +27,7 @@ The implementation is designed to work on **AEM 6.4 + SP2**. The SPA implemenati
 * [Node.js](https://nodejs.org/en/)
 * [npm](https://www.npmjs.com/)
 * [webpack](https://webpack.js.org/)
-* [Scss](http://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html)
+* [Scss](https://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html)
 * [React Styleguidist](https://react-styleguidist.js.org/)
 
 >[!NOTE]
@@ -91,7 +91,7 @@ A local development environment is necessary to complete this tutorial. Screensh
 
 The following should be installed:
 
-* [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [AEM 6.4 + SP2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
 * [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
 * [Node.js v10+](https://nodejs.org/en/)

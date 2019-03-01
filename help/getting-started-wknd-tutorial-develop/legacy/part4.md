@@ -18,7 +18,7 @@ Covers using the Style System to extend Core Components with brand-specific CSS 
 
 ## Prerequisites {#prerequisites}
 
-This is Part 4 of the multi-part tutorial. ** [Part 3 can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop/part3.md) **and an ** [overview can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop.md)**.
+This is Part 4 of the multi-part tutorial. ** [Part 3 can be found here](/help/getting-started-wknd-tutorial-develop/part3.md) **and an ** [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
 
 You can check out the following branch on GitHub if you want to skip the previous parts: [part/3-clientlibs](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/part/3-clientlibs). Or you can download and install the Chapter 3 package: ** [https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**
 
@@ -201,7 +201,7 @@ BLOCK cmp-title
 
    Notice how ***cmp-title--underline*** added in the template policy matches top level CSS class rule specified in the **underline.less file.** 
 
-1. You should now be able to apply the style to a Title component on a page using the Article Template. Navigate to: [http://localhost:4502/editor.html/content/wknd/en/first-article.html](http://localhost:4502/editor.html/content/wknd/en/first-article.html)
+1. You should now be able to apply the style to a Title component on a page using the Article Template. Navigate to: [https://localhost:4502/editor.html/content/wknd/en/first-article.html](https://localhost:4502/editor.html/content/wknd/en/first-article.html)
 
    ![](assets/apr-06-2018_11-40-18.gif)
 
@@ -528,7 +528,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
        cq:isContainer="{Boolean}true"
        jcr:primaryType="cq:Component"
        componentGroup="WKND.Content"
@@ -610,7 +610,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
 1. Enable the Content Fragment by updating the Layout Container Policy
 
-    1. Navigate to the **Article Page Template:** [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
+    1. Navigate to the **Article Page Template:** [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
     
     1. Select the main** Layout Container **and click its Policy Icon
     1. Update the **Allowed Components** to include the Content Fragment component under **WKND.Content**
@@ -623,7 +623,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    Empty Content Fragment component added to a page.
 
-1. You can create a new Content Fragment by navigating to [http://localhost:4502/assets.html/content/dam](http://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
+1. You can create a new Content Fragment by navigating to [https://localhost:4502/assets.html/content/dam](https://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
 
    ![Content fragment authoring](assets/screen-shot-2017-06-09-at-10.20.34-am.png)
 
@@ -856,6 +856,6 @@ The following videos show how we can implement the above requirements with AEM's
 
 Next part in the tutorial:
 
-* [Getting Started with AEM Sites Part 5 - Navigation and Search](../../../../sites/using/getting-started-wknd-tutorial-develop/part5.md)
+* [Getting Started with AEM Sites Part 5 - Navigation and Search](/help/getting-started-wknd-tutorial-develop/part5.md)
 * Download the finished package for this part of the tutorial:** [https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**
 

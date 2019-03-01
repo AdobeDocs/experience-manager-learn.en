@@ -534,7 +534,7 @@ In the IDE of your choice open the ** aem -guides-wknd-events/core** module.
     
     1. **STRUCTURE_PATTERNS_PN** ( `structurePatterns`) is a regular expression that can be used to ignore or exclude certain pages from automatically being collected.
 
-1. Open [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default) and navigate to **/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default**. This is the policy for the **wknd-events-app-template** template.
+1. Open [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default) and navigate to **/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default**. This is the policy for the **wknd-events-app-template** template.
 
    Notice the properties for `isRoot,  structureDepth ,  structurePatterns .`
 
@@ -546,11 +546,11 @@ In the IDE of your choice open the ** aem -guides-wknd-events/core** module.
    >
    >At the time of writing this tutorial the SPA Editor does not support Editable Templates in the UI. Full support for Editable Templates is expected in the near future. Until then, updates to the templates will need to be done via CRXDE-Lite or by modifying the XML in the ui.content module.
 
-1. Open the Angular root page at [http://localhost:4502/content/wknd-events/angular.html](http://localhost:4502/content/wknd-events/react.html)
+1. Open the Angular root page at [https://localhost:4502/content/wknd-events/angular.html](https://localhost:4502/content/wknd-events/react.html)
 
    The page may render blank for now. This page is built using the **wknd-events-app-template**.
 
-1. Change the extension to model.json: [http://localhost:4502/content/wknd-events/angular.model.json](http://localhost:4502/content/wknd-events/angular.model.json)
+1. Change the extension to model.json: [https://localhost:4502/content/wknd-events/angular.model.json](https://localhost:4502/content/wknd-events/angular.model.json)
 
    Notice that the content of the current page is exposed and the content of child page: **/content/wknd-events/angular/home**.
 

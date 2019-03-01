@@ -18,13 +18,13 @@ Covers the creation of a base page and an editable template. Core Components are
 
 ## Prerequisites {#prerequisites}
 
-This is Part 2 of the multi-part tutorial. ** [Part 1 can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop/part1.md) **and an [overview can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop.md).
+This is Part 2 of the multi-part tutorial. ** [Part 1 can be found here](/help/getting-started-wknd-tutorial-develop/part1.md) **and an [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md).
 
 You can skip Part 1 by checking out the following branch on Github: [part/1-project-setup](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/part/1-project-setup).
 
 Or you can download the Chapter 1 Release: [https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)
 
-&#42;Note you will need Eclipse or an IDE setup. Instructions for setting up a development environment can be found in [Part 1](../../../../sites/using/getting-started-wknd-tutorial-develop/part1.md).
+&#42;Note you will need Eclipse or an IDE setup. Instructions for setting up a development environment can be found in [Part 1](/help/getting-started-wknd-tutorial-develop/part1.md).
 
 ## Inspect Base Page Component {#base-page}
 
@@ -150,8 +150,8 @@ Next a Header component will be created to be integrated into the Base page. The
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <jcr:root 
-       xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-       xmlns:jcr="http://www.jcp.org/jcr/1.0"
+       xmlns:sling="https://sling.apache.org/jcr/sling/1.0"
+       xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:Component"
        componentGroup="WKND.Structure"
        jcr:description="Page Header with navigation"
@@ -197,7 +197,7 @@ Next a Header component will be created to be integrated into the Base page. The
 
    See the Page node in CRXDE Lite after deploying code changes
 
-   In [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp) verify that the header component has been pushed to your local AEM instance.
+   In [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp) verify that the header component has been pushed to your local AEM instance.
 
 ## Inspect Proxy Components {#proxy-components}
 
@@ -394,6 +394,6 @@ The AEM project archetype created a content root for the WKND site automatically
 
 Next part in the tutorial:
 
-* ** [Getting Started with AEM Sites Part 3 - Client-Side Libraries and Responsive Grid](../../../../sites/using/getting-started-wknd-tutorial-develop/part3.md)**
+* ** [Getting Started with AEM Sites Part 3 - Client-Side Libraries and Responsive Grid](/help/getting-started-wknd-tutorial-develop/part3.md)**
 * Download the finished package for this part of the tutorial: ** [https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**
 

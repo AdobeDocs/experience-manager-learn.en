@@ -18,7 +18,7 @@ Covers dynamic navigation driven by the content hierarchy and including the Quic
 
 ## Prerequisites {#prerequisites}
 
-This is Part 5 of the multi-part tutorial. ** [Part 4 can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop/part4.md) **and an ** [overview can be found here](../../../../sites/using/getting-started-wknd-tutorial-develop.md)**.
+This is Part 5 of the multi-part tutorial. ** [Part 4 can be found here](/help/getting-started-wknd-tutorial-develop/part4.md) **and an ** [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
 
 You can check out the following branch on GitHub if you want to skip the previous parts: ** [part/wknd-sites-guide-part-4](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/part/4-style-system)**. Or you can download and install the Chapter 4 package: [https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)
 
@@ -212,7 +212,7 @@ The **ui.apps** module will be updated.
 1. 
 1.
 
-    1. Navigate to the Article Template: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
+    1. Navigate to the Article Template: [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
     1. Drag a new Layout Container as the very last Layout Container (use Component Tree for help)
 
    ![](assets/2018-04-09_at_1039am.png)
@@ -246,7 +246,7 @@ The **ui.apps** module will be updated.
 
    ![](assets/footer-navpolicy.gif)
 
-1. Repeat the above steps (8-10) using the Landing Template: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-template/structure.html)
+1. Repeat the above steps (8-10) using the Landing Template: [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-template/structure.html)
 
    You should be able to re-use the **WKND Layout Container - Footer** and **WKND Navigation - Footer** policies on the respective components.
 
@@ -282,7 +282,7 @@ Header Component with embedded Navigation and Quick Search components
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured"
        jcr:title="Header"
        sling:resourceType="cq/gui/components/authoring/dialog">
@@ -335,7 +335,7 @@ Header Component with embedded Navigation and Quick Search components
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:granite="https://www.adobe.com/jcr/granite/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured"
        jcr:title="Navigation"
        sling:resourceType="cq/gui/components/authoring/dialog">
@@ -421,7 +421,7 @@ Header Component with embedded Navigation and Quick Search components
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured">
        <navigation
            jcr:primaryType="nt:unstructured"
@@ -685,7 +685,7 @@ Header Component with embedded Navigation and Quick Search components
    ```
 
 1. 
-1. You should now see the header component includes a navigation and search on [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
+1. You should now see the header component includes a navigation and search on [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
 
    However before we can configure it we must Delete it and re-add it. When it is re-added then the cq:template configured earlier will take effect and ensure the proper node structure is created. Currently as it stands it is not configured correctly. It can not be deleted through the UI.
 

@@ -248,7 +248,7 @@ Next, configure the footer in the Article and Landing page templates.
 
 1.
 
-    1. Navigate to the Article Template: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
+    1. Navigate to the Article Template: [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
     1. Drag a new Layout Container as the very last Layout Container (use Component Tree for help, it should be outside of the fixed-width container)
 
    ![](assets/2018-11-16_at_9_04am.png)
@@ -282,7 +282,7 @@ Next, configure the footer in the Article and Landing page templates.
 
    ![](assets/footer-navpolicy.gif) ![](assets/2018-11-16_at_1029am.png)
 
-1. Repeat the above steps using the Landing Template: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html)
+1. Repeat the above steps using the Landing Template: [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/landing-page-template/structure.html)
 
    You should be able to re-use the **WKND Footer** and **WKND Navigation - Footer** policies on the respective components.
 
@@ -318,7 +318,7 @@ Header Component with embedded Navigation and Quick Search components
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured"
        jcr:title="Header"
        sling:resourceType="cq/gui/components/authoring/dialog">
@@ -371,7 +371,7 @@ Header Component with embedded Navigation and Quick Search components
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:granite="https://www.adobe.com/jcr/granite/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured"
        jcr:title="Navigation"
        sling:resourceType="cq/gui/components/authoring/dialog">
@@ -457,7 +457,7 @@ Header Component with embedded Navigation and Quick Search components
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured">
        <navigation
            jcr:primaryType="nt:unstructured"
@@ -693,7 +693,7 @@ Header Component with embedded Navigation and Quick Search components
 
 After the updated code for the Header, Navigation, and Search components are deployed to AEM, we will configure the Header component as part of the templates.
 
-You should now see the header component includes a navigation and search on [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
+You should now see the header component includes a navigation and search on [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
 
 However before we can configure it we must Delete it and re-add it. This is because the Header component is now a "composite" component and embeds a navigation and search component. In order for it to function properly the search and navigation nodes must be added to template structure. The cq:template configured earlier, will ensure that the proper node structure is created.
 

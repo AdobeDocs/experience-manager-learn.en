@@ -224,7 +224,7 @@ Optionally, the content (Pages) built out in this section can be installed direc
 
 Persona: Angular Developer
 
-Inspecting the JSON from [http://localhost:4502/content/wknd-events/angular.model.json](http://localhost:4502/content/wknd-events/angular.model.json) the list component's content can be located an understood.
+Inspecting the JSON from [https://localhost:4502/content/wknd-events/angular.model.json](https://localhost:4502/content/wknd-events/angular.model.json) the list component's content can be located an understood.
 
 The list component's JSON is essentially an array (at the list key) of JSON objects, with each object representing a list item. Each list item has the following attributes exposed:
 
@@ -521,7 +521,7 @@ list: {
 
 1. Explore the multi-page navigation functionality implemented via the List component:
 
-    1. Navigate to the Angular app on the local dev web server ([http://localhost:4200](/))
+    1. Navigate to the Angular app on the local dev web server ([https://localhost:4200](/))
     1. Scroll tot he bottom and review the List component items
     1. Click on a list item to see that page in the Angular app
     1. Click on the WKND logo in the header to return to the home page

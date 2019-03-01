@@ -59,7 +59,7 @@ Next, we will make sure that this CSS is loaded with the Angular app.
    $ mvn -PautoInstallPackage clean install
    ```
 
-1. Navigate to [http://localhost:4502/editor.html/content/wknd-events/angular/home.html](http://localhost:4502/editor.html/content/wknd-events/angular/home.html). You should now be able to use the layout controls on the component to re-size components based on the grid.
+1. Navigate to [https://localhost:4502/editor.html/content/wknd-events/angular/home.html](https://localhost:4502/editor.html/content/wknd-events/angular/home.html). You should now be able to use the layout controls on the component to re-size components based on the grid.
 
    ![](assets/layout-in-aem-author.gif)
 
@@ -75,11 +75,11 @@ The Responsive Grid CSS currently is being hosted and served from the AEM instan
 
 To resolve this, the Responsive Grid CSS can be copied into the Angular app's, and update the **index.html**, used for local Angular app development, to point to it.
 
-1. [Locate the responsive grid CSS as served by AEM](http://localhost:4502/etc.clientlibs/wknd-events/clientlibs/responsive-grid.css) using the browser's Network panel.
+1. [Locate the responsive grid CSS as served by AEM](https://localhost:4502/etc.clientlibs/wknd-events/clientlibs/responsive-grid.css) using the browser's Network panel.
 
    ![](assets/responsive-grid-css.png)
 
-   http://localhost:4502/etc.clientlibs/wknd-events/clientlibs/responsive-grid.css
+   https://localhost:4502/etc.clientlibs/wknd-events/clientlibs/responsive-grid.css
 
 1. Copy the **responsive-grid.css** as served up form AEM into **angular-app/src/mocks/css/responsive-grid.css**
 
@@ -115,7 +115,7 @@ To resolve this, the Responsive Grid CSS can be copied into the Angular app's, a
 
 1. If using the Mock JSON local development method, update the mock **angular.model.json** with the new JSON from AEM that includes the Responsive Grid configurations.
 
-   Copy the result of [http://localhost:4502/content/wknd-events/angular.model.json](http://localhost:4502/content/wknd-events/angular.model.json) and replace the contents of **angular-app/src/mocks/json/angular.model.json**.
+   Copy the result of [https://localhost:4502/content/wknd-events/angular.model.json](https://localhost:4502/content/wknd-events/angular.model.json) and replace the contents of **angular-app/src/mocks/json/angular.model.json**.
 
    angular-app/src/mocks/json/angular.model.json
 

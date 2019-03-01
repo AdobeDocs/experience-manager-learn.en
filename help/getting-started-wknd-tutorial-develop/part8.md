@@ -27,7 +27,7 @@ We will be using AEM best practices, and use:
 
 * [JUnit 4](https://junit.org/junit4/)
 * [Mockito Testing Framework](https://site.mockito.org/)
-* [wcm.io Test Framework](http://wcm.io/testing/) (which builds on [Apache Sling Mocks](https://sling.apache.org/documentation/development/sling-mock.html))
+* [wcm.io Test Framework](https://wcm.io/testing/) (which builds on [Apache Sling Mocks](https://sling.apache.org/documentation/development/sling-mock.html))
 
 >[!VIDEO](https://video.tv.adobe.com/v/25565/?quality=12)
 
@@ -193,7 +193,7 @@ TDD in the context of AEM requires a level of expertise and is best adopted by A
 
 Most code written for AEM relies on JCR, Sling or AEM APIs, which in turn, require the context of a running AEM to execute properly.
 
-Since unit tests are executed at build, outside the context of a running AEM instance, there is no such resource. To facilitate this, [io.wcm's AEMContext](http://wcm.io/testing/aem-mock/usage.html) creates a mock context that allows these APIs to mostly act as if they are running in AEM.
+Since unit tests are executed at build, outside the context of a running AEM instance, there is no such resource. To facilitate this, [io.wcm's AEMContext](https://wcm.io/testing/aem-mock/usage.html) creates a mock context that allows these APIs to mostly act as if they are running in AEM.
 
 1. Create an AEM context using io.wcm's AemContext in **BylineImplTest.java** by adding it as a class variable decorated with `@Rule`.
 
@@ -214,7 +214,7 @@ Since unit tests are executed at build, outside the context of a running AEM ins
 
         * *Note that not all methods for these objects are implemented!*
 
-    * And [much more](http://wcm.io/testing/aem-mock/usage.html)!
+    * And [much more](https://wcm.io/testing/aem-mock/usage.html)!
 
    The **`  ctx`** object will act as the entry point for most of our mock context.
 
