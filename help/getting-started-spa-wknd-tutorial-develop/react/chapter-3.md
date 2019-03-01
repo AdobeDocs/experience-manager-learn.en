@@ -354,9 +354,8 @@ The **List** component provides an array of **items** that includes a **url**, *
 
 1. Beneath `react-app/src/components/list` add a new file named **List.md**. This will be a style guide entry where we will mock a static version of the List component.
 
-   ```
    List Component:
-   
+
    ```js
    const {Route} = require('react-router-dom');
    const {BrowserRouter} = require('react-router-dom');
@@ -380,7 +379,6 @@ The **List** component provides an array of **items** that includes a **url**, *
            </Route>
        </BrowserRouter>
        
-   ```
    ```
 
    Since the **List** component uses the **&lt;Link&gt;** component from react-router, we need to wrap the component with a mock **&lt;BrowserRouter&gt;** and mock **&lt;Route&gt;**.

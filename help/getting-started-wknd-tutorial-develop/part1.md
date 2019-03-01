@@ -25,7 +25,7 @@ The following is required:
 
 1. [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 1. [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
-1. [AEM 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html) + [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)**or** 
+1. [AEM 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html) + [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) **or**
 
 1. [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/technical-requirements.html) + [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
 

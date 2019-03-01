@@ -39,7 +39,7 @@ The implementation is designed to work on **AEM 6.4 + SP2**. The SPA implemenati
 >* Extending the List Component
 >
 
-#### Latest {#latest-download}
+### Latest {#latest-download}
 
 To test the latest code before jumping into the tutorial, download and install the below packages on a local AEM instance:
 
@@ -52,7 +52,7 @@ latest-aem-guides-wknd-events.ui.content-0.0.1-SNAPSHOT.zip
 [Get File](assets/aem-guides-wknd-eventsuicontent-001-snapshot.zip)
 ![](assets/aem-final.gif) 
 
-#### Solution Packages {#solution-set}
+### Solution Packages {#solution-set}
 
 Below contains the finished solution for each chapter in the tutorial:
 
@@ -60,7 +60,7 @@ Solutions - React Chapters 0-3
 
 [Get File](assets/solution-aem-guides-wknd-events-react.zip)
 
-#### Github {#github}
+### Github {#github}
 
 All of the code for the project can be found on Github in the [Adobe Experience Cloud](https://github.com/Adobe-Marketing-Cloud) organization:
 
@@ -74,11 +74,11 @@ In addition, each chapter of the tutorial has its own branch in GitHub. A user c
 
 Below is the listing of chapters in the tutorial:
 
-* [Overview](../../../sites/using/getting-started-spa-wknd-tutorial-develop/react.md)
-* [Chapter 0 - Project Setup](../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0.md)
-* [Chapter 1 - Editable Components](../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md)
-* [Chapter 2 - Front End Development](../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md)
-* [Chapter 3 - Navigation and Routing](../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-3.md)
+* [Overview](react/react.md)
+* [Chapter 0 - Project Setup](react/chapter-0.md)
+* [Chapter 1 - Editable Components](react/chapter-1.md)
+* [Chapter 2 - Front End Development](react/chapter-2.md)
+* [Chapter 3 - Navigation and Routing](react/chapter-3.md)
 * Chapter 4 - Custom Component (Coming Soon)
 
 ## Local Development Environment {#local-dev-env}

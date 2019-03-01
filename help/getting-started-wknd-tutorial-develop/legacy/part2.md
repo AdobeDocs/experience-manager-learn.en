@@ -231,7 +231,7 @@ The Core Components themselves can be viewed in CRXDE Lite under** /apps/core/wc
 
 1. View the node beneath the image component named **cq:editConfig** with a type of **cq:EditConfig**
 
-   2. Notice the **cq:dropTargets/image/parameters** node. This tells AEM what component resource type to use when dragging an Image on to the page. If you are extending the Image component for custom component it will be important to update the** cq:editConfg**. 
+   1. Notice the **cq:dropTargets/image/parameters** node. This tells AEM what component resource type to use when dragging an Image on to the page. If you are extending the Image component for custom component it will be important to update the **`cq:editConfg`**. 
 
    ![](assets/2018-04-05_at_5_00pm.png)
 

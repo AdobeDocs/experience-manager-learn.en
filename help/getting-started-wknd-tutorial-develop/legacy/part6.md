@@ -198,7 +198,7 @@ Update the **reactor** and **core pom.xml** files to use the latest standards an
 
 Edit the Parent Reactor POM:** aem-guides-wknd/pom.xml**
 
-#### Edit aem-guides-wknd/pom.xml {#reactor-pom}
+### Edit aem-guides-wknd/pom.xml {#reactor-pom}
 
 1. If targeting 6.4:
 

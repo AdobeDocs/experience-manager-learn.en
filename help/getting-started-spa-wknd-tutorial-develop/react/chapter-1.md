@@ -18,9 +18,9 @@ Chapter 1 covers the installation of the AEM SPA Editor JS SDK and the implement
 
 ## Prerequisites {#prerequisites}
 
-**New to AEM?** [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html) before continuing.
+*New to AEM?* [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html) before continuing.
 
-This is Chapter 1 of the multi-part tutorial. This assumes the completion of [Chapter 0](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.md) and installation of tools needed for a [local development environment.](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react.md#local-dev-env)
+This is Chapter 1 of the multi-part tutorial. This assumes the completion of [Chapter 0](chapter-0-project-setup.md) and installation of tools needed for a [local development environment.](react.md#local-dev-env)
 
 The solution for [Chapter 0 can be found on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events) or you can download the packages below:
 

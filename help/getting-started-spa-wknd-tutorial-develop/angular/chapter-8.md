@@ -46,7 +46,7 @@ The basic steps are:
 1. Generate a **new Angular component**
 1. Add the **@Inputs** that map to the JSON keys that this Angular component will need  
 
-1. **Build business logic **to expose content via public getters for consumption in the** list.component.html**
+1. **Build business logic** to expose content via public getters for consumption in the** list.component.html**
 
 1. Define the **EditConfig** for the Angular component.
 1. Map the Angular component to the  appropriate ** :    type ** value
@@ -62,14 +62,13 @@ To resolve or "chicken or the egg" we'll change the order as follows:
 1. Define the **EditConfig** for the Angular component.
 1. Map the Angular component to the  appropriate ** : type ** value
 
-1. Add the new Angular component to the ** app.module.ts's   entryComponents ** array.  
+1. Add the new Angular component to the **app.module.ts's   entryComponents** array.  
   
-   ***Build out the sample content in AEM Author to provide true-to-form JSON  
-   *** 
+   ***Build out the sample content in AEM Author to provide true-to-form JSON***
 
 1. Add the **@Inputs** that map to the JSON keys that this Angular component will need  
 
-1. **Build business logic **to expose content via public getters for consumption in the** list.component.html**
+1. **Build business logic** to expose content via public getters for consumption in the** list.component.html**
 
 1. Build the **view** of the component in** list.component.html**
 
@@ -192,7 +191,7 @@ Optionally, the content (Pages) built out in this section can be installed direc
 
    >[!NOTE]
    >
-   >Note that the Image components resource path must stay as is `([cq  :Page ]/jcr  :content /root/  responsivegrid /image`) as this is the resource path we'll use to derive the `  img  src`in the list.component.html.
+   >Note that the Image components resource path must stay as is `([cq  :Page ]/jcr  :content /root/  responsivegrid /image`) as this is the resource path we'll use to derive the `img  src`in the list.component.html.
 
     * [Download the AEM Package containing thematic Images](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/releases/download/angular-v1.0.0/aem-guides-wknd-events.images-0.0.1-SNAPSHOT.zip) used used in example build-out below.
 
@@ -219,7 +218,7 @@ Optionally, the content (Pages) built out in this section can be installed direc
    angular.model.json
 
    [Get File](assets/angular_model-1.json)
-   Now with the sample, content we can code in real-time against the JSON data and quicky build out the the Angular list component.
+   Now with the sample, content we can code in real-time against the JSON data and quickly build out the the Angular list component.
 
 ## Finishing the List component using the sample content {#finishing-the-list-component-using-the-sample-content}
 
@@ -229,7 +228,7 @@ Inspecting the JSON from [http://localhost:4502/content/wknd-events/angular.mode
 
 The list component's JSON is essentially an array (at the list key) of JSON objects, with each object representing a list item. Each list item has the following attributes exposed:
 
-* ** url **: the path segment of the URL to the AEM page
+* **url**: the path segment of the URL to the AEM page
 * **path**: the absolute path to the AEM page
 * **description**: the AEM Page's description (set via Page Properties &gt; Basic Tab &gt; Description field)
 * **lastModified**: the timestamp indicating when the page was last modified
