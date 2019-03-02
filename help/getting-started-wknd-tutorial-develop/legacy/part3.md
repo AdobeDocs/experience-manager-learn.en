@@ -422,7 +422,7 @@ In the **ui.apps** module modify files beneath: **/apps/wknd/components/structur
     
     1. Viewing the page source you should see following tags:
 
-   ![](assets/2018-02-21_at_3_51pm.png) 
+       ![](assets/2018-02-21_at_3_51pm.png) 
 
    ```xml
    /* Source of https://localhost:4502/content/wknd/first-article.html?wcmmode=disabled */
@@ -454,7 +454,7 @@ With different methods of **categories** and **embeds** to include multiple clie
 
 * [Rebuild Client Libraries](https://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html) - allows a user to force AEM to rebuild all of the client libraries or invalidate the cache of client libraries. This tool is particularly effective when developing with LESS as this can force AEM to re-compile the generated CSS. In general it is more effective to Invalidate Caches and then perform a page refresh versus rebuilding all of the libraries. **&lt;host&gt;/libs/granite/ui/content/dumplibs.rebuild.html**
 
-![](assets/rebuild-clientlibs.png) 
+  ![](assets/rebuild-clientlibs.png) 
 
 ## Authoring with Responsive Grid {#responsive-grid-use}
 
