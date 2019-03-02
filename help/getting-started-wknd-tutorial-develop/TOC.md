@@ -6,15 +6,15 @@ user-guide-title: AEM WKND Developer Tutorial
 
 # AEM WKND Developer Tutorial {#aem-wknd-developer-tutorial}
 
-+ [Introduction](getting-started-wknd-tutorial-develop.md)
-+ [Project Setup](part1.md)
-+ [Base Page and Template](part2.md)
-+ [Client-Side Libraries](part3.md)
-+ [Style System](part4.md)
-+ [Navigation and Search](part5.md)
-+ [Custom Component](part6.md)
-+ [Extending Components](part7.md)
-+ [Unit Testing](part8.md)
++ [Introduction](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)
++ [Project Setup](/help/getting-started-wknd-tutorial-develop/part1.md)
++ [Base Page and Template](/help/getting-started-wknd-tutorial-develop/part2.md)
++ [Client-Side Libraries](/help/getting-started-wknd-tutorial-develop/part3.md)
++ [Style System](/help/getting-started-wknd-tutorial-develop/part4.md)
++ [Navigation and Search](/help/getting-started-wknd-tutorial-develop/part5.md)
++ [Custom Component](/help/getting-started-wknd-tutorial-develop/part6.md)
++ [Extending Components](/help/getting-started-wknd-tutorial-develop/part7.md)
++ [Unit Testing](/help/getting-started-wknd-tutorial-develop/part8.md)
 + Legacy Implementation {#legacy-implementation}
   + [Introduction](legacy/legacy.md)
   + [Part 1](/help/getting-started-wknd-tutorial-develop/legacy/part1.md)

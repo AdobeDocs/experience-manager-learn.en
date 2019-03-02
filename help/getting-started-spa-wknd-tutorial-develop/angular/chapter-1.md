@@ -14,7 +14,7 @@ targetaudience: target-audience new
 
 ## Bootstrapping the Angular application {#bootstrapping-the-angular-application}
 
-Angular applications developed for AEM SPA Editor start out like any other Angular application, however, require minor additions to integrate into the AEM build process using the ** aem -  clientlib -manager** NPM module and an integration into the overall AEM project via the **frontend-maven-plugin** Maven plugin.
+Angular applications developed for AEM SPA Editor start out like any other Angular application, however, require minor additions to integrate into the AEM build process using the **aem -  clientlib -manager** NPM module and an integration into the overall AEM project via the **frontend-maven-plugin** Maven plugin.
 
 In this chapter well explore how to incorporate the Angular application project into the overall AEM project.
 
