@@ -17,7 +17,7 @@ Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage 
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 3 of the multi-part tutorial. ** [Chapter 2 can be found here](../../../sites/using/getting-started-wknd-tutorial-develop/part2.md) **and an ** [overview can be found here](../../../sites/using/getting-started-wknd-tutorial-develop.md)**.
+This is Chapter 3 of the multi-part tutorial. ** [Chapter 2 can be found here](/help/getting-started-wknd-tutorial-develop/part2.md) **and an ** [overview can be found here](../../../sites/using/getting-started-wknd-tutorial-develop.md)**.
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
 
@@ -744,7 +744,7 @@ At this point everything needed to leverage [AEM's Responisve Grid](https://help
 
 ## Next Steps {#next-steps}
 
-Next part in the tutorial: [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](../../../sites/using/getting-started-wknd-tutorial-develop/part4.md)
+Next part in the tutorial: [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](/help/getting-started-wknd-tutorial-develop/part4.md)
 
 View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:  
 

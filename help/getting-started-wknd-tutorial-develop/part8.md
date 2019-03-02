@@ -46,7 +46,7 @@ The first step is to add Maven dependencies to support writing and running the t
 1. Apache Sling Mocks
 1. wcm.io Test Framework
 
-The JUnit4, Mockito and Sling Mocks dependencies are automatically added to the project during setup using the [AEM Maven archetype](../../../sites/using/getting-started-wknd-tutorial-develop/part1.md). *(Note the Sling Mocks depedency version needs updating as we see below).*
+The JUnit4, Mockito and Sling Mocks dependencies are automatically added to the project during setup using the [AEM Maven archetype](/help/getting-started-wknd-tutorial-develop/part1.md). *(Note the Sling Mocks depedency version needs updating as we see below).*
 
 The io.wcm Testing Framework dependency must be added to the project's  pom.xmls .
 
@@ -299,7 +299,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
 
    Note that this test does NOT fail because we never defined a "**name**" property in the mock JSON, that will cause the test to fail however the test execution hasn't gotten to that point! This test fails due to a **NullPointerException** on the byline object itself.
 
-1. In the [Reviewing BylineImpl.java](../../../sites/using/getting-started-wknd-tutorial-develop/part8.md#reviewing-bylineimpl-java) video above, we discuss how if `@PostConstruct init()` throws an exception it prevents the Sling Model from instantiating, and that is what's happening here.
+1. In the [Reviewing BylineImpl.java](/help/getting-started-wknd-tutorial-develop/part8.md#reviewing-bylineimpl-java) video above, we discuss how if `@PostConstruct init()` throws an exception it prevents the Sling Model from instantiating, and that is what's happening here.
 
    ```java
    @PostConstruct

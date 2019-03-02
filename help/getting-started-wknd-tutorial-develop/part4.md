@@ -17,7 +17,7 @@ Covers using the Style System to extend Core Components with brand-specific CSS 
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 4 of the multi-part tutorial. ** [Chapter 3 can be found here](../../../sites/using/getting-started-wknd-tutorial-develop/part3.md) **and an ** [overview can be found here](../../../sites/using/getting-started-wknd-tutorial-develop.md)**.
+This is Chapter 4 of the multi-part tutorial. ** [Chapter 3 can be found here](/help/getting-started-wknd-tutorial-develop/part3.md) **and an ** [overview can be found here](../../../sites/using/getting-started-wknd-tutorial-develop.md)**.
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
 
@@ -729,6 +729,6 @@ The following videos show how we can implement the above requirements with AEM's
 
 Next part in the tutorial:
 
-* [Getting Started with AEM Sites Chapter 5 - Navigation and Search](../../../sites/using/getting-started-wknd-tutorial-develop/part5.md)
+* [Getting Started with AEM Sites Chapter 5 - Navigation and Search](/help/getting-started-wknd-tutorial-develop/part5.md)
 * View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
 

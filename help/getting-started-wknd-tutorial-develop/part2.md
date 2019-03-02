@@ -349,6 +349,6 @@ The AEM project archetype created a content root for the WKND site automatically
 
 Next part in the tutorial:
 
-* ** [Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid](../../../sites/using/getting-started-wknd-tutorial-develop/part3.md)**
+* ** [Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid](/help/getting-started-wknd-tutorial-develop/part3.md)**
 * View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the solution package:
 

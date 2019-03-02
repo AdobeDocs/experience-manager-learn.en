@@ -941,6 +941,6 @@ Didn't find what you were looking for? Think you found an error? Please file a [
 
 Next part in the tutorial:
 
-* [Getting Started with AEM Sites Chapter 8 - Unit Testing](../../../sites/using/getting-started-wknd-tutorial-develop/part8.md)
+* [Getting Started with AEM Sites Chapter 8 - Unit Testing](/help/getting-started-wknd-tutorial-develop/part8.md)
 * View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
 
