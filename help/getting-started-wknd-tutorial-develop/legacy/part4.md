@@ -18,9 +18,9 @@ Covers using the Style System to extend Core Components with brand-specific CSS 
 
 ## Prerequisites {#prerequisites}
 
-This is Part 4 of the multi-part tutorial. ** [Part 3 can be found here](/help/getting-started-wknd-tutorial-develop/part3.md) **and an ** [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
+This is Part 4 of the multi-part tutorial. **[Part 3 can be found here](/help/getting-started-wknd-tutorial-develop/part3.md)** and an **[overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
 
-You can check out the following branch on GitHub if you want to skip the previous parts: [part/3-clientlibs](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/part/3-clientlibs). Or you can download and install the Chapter 3 package: ** [https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**
+You can check out the following branch on GitHub if you want to skip the previous parts: [part/3-clientlibs](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/part/3-clientlibs). Or you can download and install the Chapter 3 package: **[https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**
 
 ## Component Planning {#component-planning}
 
@@ -28,24 +28,24 @@ We will identify areas of the article mockup to turn into editable components.
 
 ![](assets/wknd-site-component-mappingv2.png)
 
-** [Breadcrumb](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)**
+**[Breadcrumb](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)**
 
 * Configurable start level
 * Option to show hidden navigation items
 * Exclude the current page from the breadcrumb
 
-** [Content Fragment](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)**
+**[Content Fragment](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)**
 
 * Allow for article text (copy) to be created and managed independently of a page
 * Promotes reuse and variations for cross-channel
 
-** [Image](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)**
+**[Image](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)**
 
 * Smart loading of optimal rendition
 * In-place editing, cropping, rotating, and resizing
 * Image title, description, accessibility text and link
 
-** [List](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)**
+**[List](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)**
 
 * Multiple sources:
 
@@ -57,12 +57,12 @@ We will identify areas of the article mockup to turn into editable components.
 * Ordering, pagination and limit
 * Styles
 
-** [Text](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)**
+**[Text](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)**
 
 * In-place editing
 * Rich Text authoring
 
-** [Title](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)**
+**[Title](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)**
 
 * In-place editing
 * Use the Page title with option to override the text
@@ -138,7 +138,7 @@ BLOCK cmp-title
 
    This will change the font family to a Serif font and change the default sizes for header elements.
 
-1. Create a file named **underline.less** beneath the style folder in the previous step: **/apps/wknd/clientlibs/clientlib-site/components/title/styles/underline.less**
+1. Create a file named **underline.less** beneath the style folder in the previous step: **`/apps/wknd/clientlibs/clientlib-site/components/title/styles/underline.less`**
 
    Add the following code:
 
@@ -201,7 +201,7 @@ BLOCK cmp-title
 
    Notice how ***cmp-title--underline*** added in the template policy matches top level CSS class rule specified in the **underline.less file.** 
 
-1. You should now be able to apply the style to a Title component on a page using the Article Template. Navigate to: [https://localhost:4502/editor.html/content/wknd/en/first-article.html](https://localhost:4502/editor.html/content/wknd/en/first-article.html)
+1. You should now be able to apply the style to a Title component on a page using the Article Template. Navigate to: `https://localhost:4502/editor.html/content/wknd/en/first-article.html`
 
    ![](assets/apr-06-2018_11-40-18.gif)
 
@@ -268,7 +268,7 @@ BLOCK cmp-text
    
    ```
 
-1. Populate **/apps/wknd/clientlibs/clientlib-site/components/text/styles/quote.less **with the following:
+1. Populate **`/apps/wknd/clientlibs/clientlib-site/components/text/styles/quote.less`** with the following:
 
    ```css
    /* WKND Text Quote style */
@@ -300,7 +300,7 @@ BLOCK cmp-text
    
    ```
 
-1. Update **/apps/wknd/clientlibs/clientlib-site/components/text/text.less **to include the **default.less** and **quote.less** files:
+1. Update **`/apps/wknd/clientlibs/clientlib-site/components/text/text.less`** to include the **default.less** and **quote.less** files:
 
    ```css
    /* WKND Text Styles */

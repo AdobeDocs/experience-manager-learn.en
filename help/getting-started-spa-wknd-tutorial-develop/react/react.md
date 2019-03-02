@@ -22,7 +22,7 @@ The goal for this multi-part tutorial is to teach a developer how to implement a
 
 In a real-world scenario the development activities will be broken down by persona, often involving a **Front End developer** and a **Back End developer**. Each task in the tutorial is labeled with a persona to gain a better idea of the separation of development activities. The tutorial is designed so that anyone can complete it end to end, however if a user wishes he or she can jump in to the tutorial at any stage.
 
-The implementation is designed to work on **AEM 6.4 + SP2**. The SPA implemenation is built using the [React JS framework](https://reactjs.org/). An equivalent tutorial and implementation using [Angular](https://angularjs.org/) is also [available](/help/getting-started-spa-wknd-tutorial-develop/angular.md). The following modern web development tools are also used in the tutorial:
+The implementation is designed to work on **AEM 6.4 + SP2**. The SPA implemenation is built using the [React JS framework](https://reactjs.org/). An equivalent tutorial and implementation using [Angular](https://angularjs.org/) is also [available](/help/getting-started-spa-wknd-tutorial-develop/angular/angular.md). The following modern web development tools are also used in the tutorial:
 
 * [Node.js](https://nodejs.org/en/)
 * [npm](https://www.npmjs.com/)
@@ -47,7 +47,7 @@ To test the latest code before jumping into the tutorial, download and install t
 
 [Get File](assets/aem-guides-wknd-eventsuiapps-001-snapshot.zip)
 
-latest-aem-guides-wknd-events.ui.content-0.0.1-SNAPSHOT.zip
+`latest-aem-guides-wknd-events.ui.content-0.0.1-SNAPSHOT.zip`
 
 [Get File](assets/aem-guides-wknd-eventsuicontent-001-snapshot.zip)
 ![](assets/aem-final.gif) 
