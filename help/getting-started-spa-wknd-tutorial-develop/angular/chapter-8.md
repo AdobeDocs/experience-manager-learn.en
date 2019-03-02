@@ -49,9 +49,9 @@ The basic steps are:
 1. **Build business logic** to expose content via public getters for consumption in the** list.component.html**
 
 1. Define the **EditConfig** for the Angular component.
-1. Map the Angular component to the  appropriate ** :    type ** value
+1. Map the Angular component to the  appropriate **:type** value
 
-1. Add the new Angular component to the ** app.module.ts's   entryComponents ** array.
+1. Add the new Angular component to the **app.module.ts's entryComponents** array.
 1. Build the **view** of the component in** list.component.html**
 
 1. **Style** the component appropriately in **list.component.scss**
@@ -60,9 +60,9 @@ To resolve or "chicken or the egg" we'll change the order as follows:
 
 1. Generate a **new Angular component**
 1. Define the **EditConfig** for the Angular component.
-1. Map the Angular component to the  appropriate ** : type ** value
+1. Map the Angular component to the  appropriate **: type** value
 
-1. Add the new Angular component to the **app.module.ts's   entryComponents** array.  
+1. Add the new Angular component to the **app.module.ts's entryComponents** array.  
   
    ***Build out the sample content in AEM Author to provide true-to-form JSON***
 
@@ -371,7 +371,7 @@ list: {
 
    **Lines 33-39** define the Item classes constructor which is driven by the JSON object for each item at the list component's JSON's items key.
 
-   **Lines 41-43** define a getter for the image, creating a URL that points to the target page's image component resource. In this tutorial, this sub-path (**/_jcr_content/root/responsivegrid/image.coreimg.jpeg**) is hardcoded.
+   **Lines 41-43** define a getter for the image, creating a URL that points to the target page's image component resource. In this tutorial, this sub-path **`/_jcr_content/root/responsivegrid/image.coreimg.jpeg`** is hardcoded.
 
    **Lines 45-47** define a getter for the three-letter month name (using the look-up array defined at **Line 19**)
 

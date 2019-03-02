@@ -20,20 +20,20 @@ This tutorial builds single-page application (SPA) experience for a fictional co
 
 The focus of this tutorial explains how AEM SPA Editor and its supporting functionalities, support the creation of Angular application in an unobtrusive manner. This tutorial explores best practices and strategies for accelerating front-end development and decreasing the developer's dependency on AEM.
 
-## Table of contents [](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md) {#table-of-contents}
+## Table of contents [](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md) {#table-of-contents}
 
-* [Introduction](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular.md)
-* [Chapter 0 - Setting up the tutorial](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md) 
-* [Chapter 1 - Bootstrapping the Angular application](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-1.md)
-* [Chapter 2 - Setting up Angular routes and page resolution](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-2.md)   
+* [Introduction](/help/getting-started-spa-wknd-tutorial-develop/angular.md)
+* [Chapter 0 - Setting up the tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md) 
+* [Chapter 1 - Bootstrapping the Angular application](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-1.md)
+* [Chapter 2 - Setting up Angular routes and page resolution](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-2.md)   
 
-* [Chapter 3 - Mapping AEM content to Angular components](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-3.md) 
-* [Chapter 4 - Setting up the Angular development environment](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-4.md) 
-* [Chapter 5 - Setting up the Styles](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-5.md)
-* [Chapter 6 - Building new and styling existing Angular components for AEM](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-6.md)
-* [Chapter 7 - Layouting with AEM Responsive Grid](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-7.md)  
+* [Chapter 3 - Mapping AEM content to Angular components](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-3.md) 
+* [Chapter 4 - Setting up the Angular development environment](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-4.md) 
+* [Chapter 5 - Setting up the Styles](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-5.md)
+* [Chapter 6 - Building new and styling existing Angular components for AEM](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-6.md)
+* [Chapter 7 - Layouting with AEM Responsive Grid](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-7.md)  
 
-* [Chapter 8 - Multi-page navigation with the List component](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md)
+* [Chapter 8 - Multi-page navigation with the List component](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md)
 
 ## Tutorial overview {#tutorial-overview}
 
@@ -86,7 +86,7 @@ For detailed steps for using Visual Studio Code for [local development with AEM 
 
 Start the tutorial!
 
-* [Chapter 0 - Setting up the tutorial](../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md)
+* [Chapter 0 - Setting up the tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md)
 
 ## Want to skip to the end? {#want-to-skip-to-the-end}
 
