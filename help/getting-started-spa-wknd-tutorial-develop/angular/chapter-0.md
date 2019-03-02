@@ -14,7 +14,7 @@ targetaudience: target-audience new
 
 ## Prerequisites {#prerequisites}
 
-Review the required tooling and instructions for setting up a [local development environment.](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular.md#local-dev-env)
+Review the required tooling and instructions for setting up a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop/angular.md#local-dev-env)
 
 ## Download the starter project {#starter-project}
 
@@ -134,7 +134,7 @@ The following is the basic page structure, with the Angular app root being at **
 
 Next part in the tutorial:
 
-* [Chapter 1 - Creating the Angular App](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-1.md)
+* [Chapter 1 - Creating the Angular App](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-1.md)
 
 ## Help! {#help}
 

@@ -13,7 +13,7 @@ discoiquuid: a1873ab4-dd88-465d-ac88-2d5063a4447f
 
 ## Muti-page navigation with the List component {#muti-page-navigation-with-the-list-component}
 
-Now that we have a handle on using the SPA Editor JS SDK-provided Container components to render responsive grids and layout containers as well as strict content components like Text and Image that display authored content, let's take a look at a navigation component that will leverage the dynamic routing setup in [Chapter 2](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-2.md).
+Now that we have a handle on using the SPA Editor JS SDK-provided Container components to render responsive grids and layout containers as well as strict content components like Text and Image that display authored content, let's take a look at a navigation component that will leverage the dynamic routing setup in [Chapter 2](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-2.md).
 
 For this, the Core Components' List component will be leveraged and displayed in the following manner at the bottom of our first page to cross-promote other content.
 
@@ -39,7 +39,7 @@ Persona: Angular Developer
 
 We'll be using a the Core Component's List component, whose [JSON output is documented](https://content/help/en/experience-manager/core-components/using/list.html#SampleComponentOutput), however this approach is useful for undocumented component configurations or custom AEM components whose JSON output may not be documented yet by the development team.
 
-The List Angular component is built out in a similar fashion as the Text and Image components in [Chapters 3](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-3.md) and [6](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-6.md).
+The List Angular component is built out in a similar fashion as the Text and Image components in [Chapters 3](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-3.md) and [6](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-6.md).
 
 The basic steps are:
 
@@ -544,4 +544,4 @@ It's import to note we never explicitly, in code, informed the Angular app about
 
 ## Done! {#done}
 
-Congratulations! You've finished the [Getting Started with Angular and AEM SPA Editor tutorial](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular.md)!
+Congratulations! You've finished the [Getting Started with Angular and AEM SPA Editor tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular.md)!

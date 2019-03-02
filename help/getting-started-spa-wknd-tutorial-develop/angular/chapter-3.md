@@ -20,7 +20,7 @@ This chapter explores two types of components in the mapping and resolution: Con
 
 Container components are components that accept JSON structures which represent ***other*** components and dynamically instantiate them. Content components simply render content in some predefined manner.
 
-This chapter does not focus on styling so the experience at the end of this chapter is unstyled. Applying styles is tackled in [Chapter 5](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-5.md).
+This chapter does not focus on styling so the experience at the end of this chapter is unstyled. Applying styles is tackled in [Chapter 5](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-5.md).
 
 ## Mapping the AEM container components {#mapping-the-aem-container-components}
 
@@ -463,7 +463,7 @@ Don't worry about the styles for now, in the next chapter we will start adding C
 
 Next part in the tutorial:
 
-* [Chapter 4 - Setting up the Angular development environment](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-4.md)
+* [Chapter 4 - Setting up the Angular development environment](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-4.md)
 
 View the solution for [Chapter 3 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-3).
 

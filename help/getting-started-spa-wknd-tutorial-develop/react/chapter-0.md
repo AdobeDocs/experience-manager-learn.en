@@ -18,7 +18,7 @@ Chapter 0 details the setup of a Maven multi module AEM project with a dedicated
 
 ## Prerequisites {#prerequisites}
 
-Review the required tooling and instructions for setting up a [local development environment here.](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react.md#local-dev-env)
+Review the required tooling and instructions for setting up a [local development environment here.](/help/getting-started-spa-wknd-tutorial-develop/react.md#local-dev-env)
 
 **New to AEM?** [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html).
 
@@ -537,7 +537,7 @@ Open up the `aem-guides-wknd-events/ui.apps` project to edit.
 
 Next part in the tutorial:
 
-* [Chapter 1 - Editable Components](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md)
+* [Chapter 1 - Editable Components](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md)
 
 View the solution for [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
 

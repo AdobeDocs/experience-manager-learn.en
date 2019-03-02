@@ -20,7 +20,7 @@ Chapter 3 covers the development of SPA Model Routing to allow navigation betwee
 
 **New to AEM?** [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html) before continuing.
 
-This is Chapter 3 of the multi-part tutorial. This assumes the completion of [Chapter 2](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md) and the installation of tools needed for a [local development environment.](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react.md#local-dev-env) View the [Chapter 2 code on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
+This is Chapter 3 of the multi-part tutorial. This assumes the completion of [Chapter 2](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md) and the installation of tools needed for a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop/react.md#local-dev-env) View the [Chapter 2 code on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
 
 Download the solution files from the previous chapter:
 
@@ -48,7 +48,7 @@ Each AEM Page represented in the App will be wrapped in a &lt;Route&gt; with a p
 </BrowserRouter>
 ```
 
-As discussed in [Chapter 1](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md#hierarchypage-sling-model), the App is driven based on a JSON model provided by AEM. The JSON model uses a Sling Model, HierarchyPage, to include the content of multiple AEM pages with a single request. This allows for most of the content of the App to be loaded on the initial page load and should minimize subsequent server-side requests as a user navigates the app. Review the explanation about the [HiearchyPage implementation](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md#hierarchypage-sling-model) in Chapter 1 for more information.
+As discussed in [Chapter 1](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md#hierarchypage-sling-model), the App is driven based on a JSON model provided by AEM. The JSON model uses a Sling Model, HierarchyPage, to include the content of multiple AEM pages with a single request. This allows for most of the content of the App to be loaded on the initial page load and should minimize subsequent server-side requests as a user navigates the app. Review the explanation about the [HiearchyPage implementation](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md#hierarchypage-sling-model) in Chapter 1 for more information.
 
 Below is a psuedo representation of the JSON exported by AEM. Notice that the JSON structure maps nicely to the above JSX structure.
 

@@ -133,6 +133,6 @@ To resolve this, the Responsive Grid CSS can be copied into the Angular app's, a
 
 Next chapter of the tutorial:
 
-* [Chapter 8 - Multi-page navigation with the List component](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md)
+* [Chapter 8 - Multi-page navigation with the List component](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md)
 
 View the solution for [Chapter 7 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-7).

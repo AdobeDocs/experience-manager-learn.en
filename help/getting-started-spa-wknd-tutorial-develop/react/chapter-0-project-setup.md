@@ -24,7 +24,7 @@ Chapter 0 details the setup of a Maven multi module AEM project with a dedicated
 
 ## Prerequisites {#prerequisites}
 
-Review the required tooling and instructions for setting up a [local development environment here.](../../../../sites/using/getting-started-spa-wknd-tutorial-develop.md#local-dev-env)
+Review the required tooling and instructions for setting up a [local development environment here.](/help/getting-started-spa-wknd-tutorial-develop.md#local-dev-env)
 
 ## Download Starter Project {#starter-project}
 

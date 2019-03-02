@@ -232,6 +232,6 @@ This animation illustrates a simple example of updating CSS and mock content in 
 
 Next part in the tutorial:
 
-* [Chapter 5 - Setting up the Styles](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-5.md)
+* [Chapter 5 - Setting up the Styles](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-5.md)
 
 View the solution for [Chapter 4 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-4).

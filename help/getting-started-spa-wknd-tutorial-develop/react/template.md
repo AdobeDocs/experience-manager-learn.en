@@ -20,7 +20,7 @@ targetaudience: target-audience new
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter X of the multi-part tutorial. This assumes the completion of [Chapter 0](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.md) and installation of tools needed for a [local development environment.](../../../../sites/using/getting-started-spa-wknd-tutorial-develop.md#local-dev-env)
+This is Chapter X of the multi-part tutorial. This assumes the completion of [Chapter 0](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.md) and installation of tools needed for a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop.md#local-dev-env)
 
 Download the solution files from the previous chapter:
 

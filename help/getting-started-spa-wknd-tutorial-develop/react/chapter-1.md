@@ -456,7 +456,7 @@ Using the editor of your choice open `react-app` under `aem-guides-wknd-events/r
 
 Next part in the tutorial:
 
-* [Chapter 2 - Front End Development](../../../../sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md)
+* [Chapter 2 - Front End Development](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md)
 
 View the solution for [Chapter 1 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/chapter-1/editable-components).
 
