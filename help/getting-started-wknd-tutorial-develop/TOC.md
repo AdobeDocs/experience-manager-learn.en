@@ -23,5 +23,3 @@ user-guide-title: AEM WKND Developer Tutorial
   + [Part 4](/help/getting-started-wknd-tutorial-develop/legacy/part4.md)
   + [Part 5](/help/getting-started-wknd-tutorial-develop/legacy/part5.md)
   + [Part 6](/help/getting-started-wknd-tutorial-develop/legacy/part6.md)
-  + [Part 7](/help/getting-started-wknd-tutorial-develop/legacy/part7.md)
-  + [Part 8](/help/getting-started-wknd-tutorial-develop/legacy/part8.md)

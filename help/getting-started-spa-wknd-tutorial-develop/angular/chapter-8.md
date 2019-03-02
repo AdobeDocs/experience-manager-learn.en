@@ -116,7 +116,7 @@ To resolve or "chicken or the egg" we'll change the order as follows:
    };
    ```
 
-   Set  the `  : host-context` for this Angular component to display block to allow the placeholder to render in the SPA Editor, by adding the following rule to** list.component.scss**.
+   Set  the `: host-context` for this Angular component to display block to allow the placeholder to render in the SPA Editor, by adding the following rule to** list.component.scss**.
 
    ```css
    :host-context {
@@ -544,4 +544,4 @@ It's import to note we never explicitly, in code, informed the Angular app about
 
 ## Done! {#done}
 
-Congratulations! You've finished the [Getting Started with Angular and AEM SPA Editor tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular.md)!
+Congratulations! You've finished the [Getting Started with Angular and AEM SPA Editor tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular/angular.md)!

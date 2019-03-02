@@ -74,7 +74,7 @@ In addition, each chapter of the tutorial has its own branch in GitHub. A user c
 
 Below is the listing of chapters in the tutorial:
 
-* [Overview](react/react.md)
+* [Overview](/help/getting-started-spa-wknd-tutorial-develop/react/react.md)
 * [Chapter 0 - Project Setup](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-0.md)
 * [Chapter 1 - Editable Components](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md)
 * [Chapter 2 - Front End Development](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md)

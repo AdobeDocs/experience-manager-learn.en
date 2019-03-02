@@ -26,13 +26,11 @@ The focus of this tutorial explains how AEM SPA Editor and its supporting functi
 * [Chapter 0 - Setting up the tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md) 
 * [Chapter 1 - Bootstrapping the Angular application](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-1.md)
 * [Chapter 2 - Setting up Angular routes and page resolution](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-2.md)   
-
 * [Chapter 3 - Mapping AEM content to Angular components](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-3.md) 
 * [Chapter 4 - Setting up the Angular development environment](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-4.md) 
 * [Chapter 5 - Setting up the Styles](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-5.md)
 * [Chapter 6 - Building new and styling existing Angular components for AEM](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-6.md)
 * [Chapter 7 - Layouting with AEM Responsive Grid](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-7.md)  
-
 * [Chapter 8 - Multi-page navigation with the List component](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md)
 
 ## Tutorial overview {#tutorial-overview}
@@ -97,9 +95,9 @@ Install the final AEM packages on AEM 6.4 SP2:
     * aem -guides-wknd-events.ui.apps-0.0.1-SNAPSHOT.zip
     * aem -guides-wknd-events.ui.content-0.0.1-SNAPSHOT.zip
 
-1. Navigate to [AEM Package Manager](/crx/packmgr/index.jsp)
+1. Navigate to AEM Package Manager `crx/packmgr/index.jsp`
 1. Upload and install both AEM packages via AEM Package Manager
-1. Navigate to [AEM &gt; Sites &gt; WKND Events &gt; Angular &gt; Home](/sites.html/content/wknd-events/angular/home) and explore the SPA Editor experience!
+1. Navigate to AEM &gt; Sites &gt; WKND Events &gt; Angular &gt; Home `/sites.html/content/wknd-events/angular/home` and explore the SPA Editor experience!
 
 ## Help! {#help}
 
