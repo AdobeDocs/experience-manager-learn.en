@@ -198,35 +198,33 @@ The Core Components themselves can be viewed in CRXDE Lite under** /apps/core/  
 There are 3 main areas of Editable Templates:
 
 1. **Structure** - defines components that are a part of the template. These will not be editable by content authors.
-1. **Initial Content** - defines components that the template will start with, these can be edited and/or deleted by content authors
-1. **Policies** - defines configurations on how components will behave and what options authors will have available.
+2. **Initial Content** - defines components that the template will start with, these can be edited and/or deleted by content authors
+3. **Policies** - defines configurations on how components will behave and what options authors will have available.
 
-Since Template Types can be thought of as a template of a template you will find the same structure for the template type. There are examples of template type structures that can be found beneath: **/libs/settings/wcm/template-types/**
+   Since Template Types can be thought of as a template of a template you will find the same structure for the template type. There are examples of template type structures that can be found beneath: **/libs/settings/wcm/template-types/**
 
-The AEM Project archetype creates an Empty Page Template Type to start with. Inspect a few areas of the Empty Page Template Type in the **ui.content **module.
+   The AEM Project archetype creates an Empty Page Template Type to start with. Inspect a few areas of the Empty Page Template Type in the **ui.content **module.
 
-1. Note on the jcr:content node that the sling:resourceType points to the base page component (created earlier in this part). Also notice that the breakpoints for Phone and Tablet are defined here. Desktop will be considered larger than 1200. 
+4. Note on the jcr:content node that the sling:resourceType points to the base page component (created earlier in this part). Also notice that the breakpoints for Phone and Tablet are defined here. Desktop will be considered larger than 1200. 
 
-   ![](assets/2018-04-05_at_5_13pm.png)
+   ![screen shot](assets/2018-04-05_at_5_13pm.png)
 
-1. Beneath **/conf/wknd/settings/wcm/template-types/empty-page/structure/jcr:content/cq:responsive **are nodes for Tablet and Phone breakpoints. The default Tablet breakpoint is 1200.
+5. Beneath **/conf/wknd/settings/wcm/template-types/empty-page/structure/jcr:content/cq:responsive** are nodes for Tablet and Phone breakpoints. The default Tablet breakpoint is 1200.
 
    Set the Phone breakpoint to **768** 
 
    ![](assets/2018-04-06_at_3_40pm.png)
 
-1. The **jcr:content** node beneath the **initial** page also points back to the base page component created earlier.
+6. The **jcr:content** node beneath the **initial** page also points back to the base page component created earlier.
 
    ![](assets/2018-04-05_at_5_15pm.png)
 
-1. The policies page defines how policies will be mapped to various components. This structure is standard across template types and not unique to the wknd's empty page template type.
-1. **(Optional) Add a thumbnail **beneath** /conf/wknd/settings/wcm/template-types/empty-page**
+7. The policies page defines how policies will be mapped to various components. This structure is standard across template types and not unique to the wknd's empty page template type.
+8. **(Optional) Add a thumbnail **beneath** /conf/wknd/settings/wcm/template-types/empty-page**
 
    Thumbnails are great! This thumbnail will show up for users in the AEM author environment in order to easily identify the Template Type. Recommended dimensions are 460 x 460.
 
-
-
-2. The next part of the tutorial will take place within AEM.
+9. The next part of the tutorial will take place within AEM.
 
 ## Create Article and Landing Page Templates {#article-template}
 
