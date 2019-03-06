@@ -49,13 +49,9 @@ In addition, each part of the tutorial has its own branch in GitHub. A user can 
 
 To test the latest code before jumping into the tutorial, download and install the below packages.
 
-[Get File](assets/aem-guides-wknd_uiapps-001-snapshot.zip)
-
-[Get File](assets/aem-guides-wknd_uicontent-001-snapshot.zip)
 
 WKND Solution Package (Chapters 1-8)
 
-[Get File](assets/wknd-solutions.zip)
 
 ## WKND Design {#wknd-site}
 

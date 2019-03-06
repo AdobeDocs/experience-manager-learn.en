@@ -544,7 +544,7 @@ At this point, you may have noticed that the "body" of the Article template is s
 
 ## Content Fragment Component {#content-fragment}
 
-For the article body we will leverage [AEM Content Fragments](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html). Content Fragments are de-coupled from the presentation layer and promote reuse of content across channels. The editorial UI of Content Fragments lends itself to working with large amounts of text. We will add a component to the WKND application to be able to reference Content Fragments into an article page. To view an [overview of Content Fragments click here.](../../../sites/using/content-fragments-feature-video-understand.md)
+For the article body we will leverage [AEM Content Fragments](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html). Content Fragments are de-coupled from the presentation layer and promote reuse of content across channels. The editorial UI of Content Fragments lends itself to working with large amounts of text. We will add a component to the WKND application to be able to reference Content Fragments into an article page. To view an [overview of Content Fragments click here.](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-feature-video-use.html)
 
 1. The Content Fragment component is a separate module of AEM Core Components. The paren pom.xml must be updated to ensure it is available on AEM.
 
@@ -566,7 +566,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
    </dependencies>
    ```
 
-1. Make the following updates to the ui.apps/pom.xml:
+2. Make the following updates to the ui.apps/pom.xml:
 
    ```xml
    // ui.apps/pom.xml
@@ -622,7 +622,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
    </plugins>
    ```
 
-1. There is a Content Fragment reference component in AEM Core Components. It was not included automatically by the AEM project archetype. Manually proxy the component into the WKND code base.
+3. There is a Content Fragment reference component in AEM Core Components. It was not included automatically by the AEM project archetype. Manually proxy the component into the WKND code base.
 
    Create a **cq:Component** node named **contentfragment** beneath **/apps/wknd/components/content.**
 
@@ -648,7 +648,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
        jcr:description="Displays content from a referenced Content Fragment"/>
    ```
 
-1. In the previous chapter, as part of the import, some default styles for the Content Fragment component were included beneath **/apps/wknd/clientlibs/clientlib-site/components/contentfragment **:
+4. In the previous chapter, as part of the import, some default styles for the Content Fragment component were included beneath **/apps/wknd/clientlibs/clientlib-site/components/contentfragment **:
 
    ```css
    /* WKND Content Fragment style - default.less */
@@ -667,7 +667,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    ![](assets/2018-04-06_at_1214pm.png)
 
-1. Deploy the code base to a local AEM instance. Since major changes were made to the POM files, perform a full Maven build from the project's root directory:
+5. Deploy the code base to a local AEM instance. Since major changes were made to the POM files, perform a full Maven build from the project's root directory:
 
    ```shell
    $ cd aem-guides-wknd
@@ -678,28 +678,28 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    ![](assets/2018-11-20_at_7_50pm.png)
 
-1. Enable the Content Fragment by updating the Layout Container Policy
+6. Enable the Content Fragment by updating the Layout Container Policy
 
     1. Navigate to the **Article Page Template:** [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
     
-    1. Select the main** Layout Container **and click its Policy Icon
-    1. Update the **Allowed Components** to include the Content Fragment component under **WKND.Content**
+    2. Select the main** Layout Container **and click its Policy Icon
+    3. Update the **Allowed Components** to include the Content Fragment component under **WKND.Content**
 
    ![](assets/2018-11-15_at_5_33pm.png)
 
-1. The Content Fragment component should now be enabled and allowed to be added to a page.
+7. The Content Fragment component should now be enabled and allowed to be added to a page.
 
    ![Content Fragment Component](assets/2018-04-06_at_1229pm.png)
 
    Empty Content Fragment component added to a page.
 
-1. You can create a new Content Fragment by navigating to [https://localhost:4502/assets.html/content/dam](https://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
+8. You can create a new Content Fragment by navigating to [https://localhost:4502/assets.html/content/dam](https://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
 
    ![Content fragment authoring](assets/screen-shot-2017-06-09-at-10.20.34-am.png)
 
    Content Fragment author UI.
 
-1. Navigate back to the content page in which the Content Fragment component was added (Step 4). Click the Wrench icon to bring up the dialog. Using the path finder you can navigate and select an existing content fragment from the DAM. Optionally you can use the Asset Finder filter to restict the assets to only Content Fragments and Drag+Drop one of the Content Fragments on to the component.
+9. Navigate back to the content page in which the Content Fragment component was added (Step 4). Click the Wrench icon to bring up the dialog. Using the path finder you can navigate and select an existing content fragment from the DAM. Optionally you can use the Asset Finder filter to restict the assets to only Content Fragments and Drag+Drop one of the Content Fragments on to the component.
 
    ![Content Fragment component dialog](assets/2018-04-06_at_1232pm.png)
 

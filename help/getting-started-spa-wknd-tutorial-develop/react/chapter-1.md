@@ -458,7 +458,7 @@ Next part in the tutorial:
 
 * [Chapter 2 - Front End Development](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md)
 
-View the solution for [Chapter 1 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/chapter-1/editable-components).
+View the solution for [Chapter 1 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-1).
 
 Download the finished package for this part of the tutorial:
 
@@ -492,7 +492,7 @@ In the editor of your choice open the `<src>/aem-guides-wknd-events/core`module.
     * **ContainerExporter** - Defines the JSON of a container component like a page, responsive grid, or parsys
     * **HierarchyNodeExporter** - Defines the JSON of a hierarchical node, like a root page and it's child pages
 
-1. Open `core/src/main/java/com/adobe/aem/guides/wkndevents/core/models/impl/HierarchyPageImpl.java`
+2. Open `core/src/main/java/com/adobe/aem/guides/wkndevents/core/models/impl/HierarchyPageImpl.java`
 
    This is the implemenation of the **HierarchyPage** interface.
 
@@ -516,10 +516,10 @@ In the editor of your choice open the `<src>/aem-guides-wknd-events/core`module.
    The methods getRoodModel() and getRootPage() are used to find and return what is considered to be the "root" of the application. There are three properties stored on an App template's policy used to drive the collection of content:
 
     1. **PR_IS_ROOT** = "isRoot" - Helps identify the rootPage of the application. The rootPage is used as the starter point to collect all the child pages of the app.
-    1. **STRUCTURE_DEPTH_PN** = "structureDepth" - identifies how deep in the hierarchy to collect child pages.
-    1. **STRUCTURE_PATTERNS_PN** = "structurePatterns" - a regular expression that can be used to ignore or exclude certain pages from automatically being collected.
+    2. **STRUCTURE_DEPTH_PN** = "structureDepth" - identifies how deep in the hierarchy to collect child pages.
+    3. **STRUCTURE_PATTERNS_PN** = "structurePatterns" - a regular expression that can be used to ignore or exclude certain pages from automatically being collected.
 
-1. Open up [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default)
+3. Open up [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default)
 
    Navigate to `/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default`. This is the policy for the wknd-events-app-template template. Notice the properties for `isRoot`, `structureDepth`, `structurePatterns`.
 
@@ -529,11 +529,11 @@ In the editor of your choice open the `<src>/aem-guides-wknd-events/core`module.
    >
    >At the time of writing this tutorial the SPA Editor does not support Editable Templates in the UI. Full support for Editable Templates is expected in the near future. Until then, updates to the templates will need to be done via CRXDE-Lite or by modifying the XML in the **ui.content** module.
 
-1. Open the React Root Page at [https://localhost:4502/content/wknd-events/react.html](https://localhost:4502/content/wknd-events/react.html)
+4. Open the React Root Page at [https://localhost:4502/content/wknd-events/react.html](https://localhost:4502/content/wknd-events/react.html)
 
    The page may render blank for now. This page is built using the **wknd-events-app-template**.
 
-1. Change the extension to model.json: [https://localhost:4502/content/wknd-events/react.model.json](https://localhost:4502/content/wknd-events/react.model.json)
+5. Change the extension to model.json: [https://localhost:4502/content/wknd-events/react.model.json](https://localhost:4502/content/wknd-events/react.model.json)
 
    Notice that content of the current page is exposed and the content of child page: `/content/wknd-events/react/home`.
 
