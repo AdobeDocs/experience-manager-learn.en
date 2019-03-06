@@ -55,8 +55,6 @@ Below contains the finished solution for each chapter in the tutorial:
 
 Solutions - React Chapters 0-3
 
-[Get File](assets/solution-aem-guides-wknd-events-react.zip)
-
 ### Github {#github}
 
 All of the code for the project can be found on Github in the [Adobe Experience Cloud](https://github.com/Adobe-Marketing-Cloud) organization:
