@@ -16,13 +16,13 @@ discoiquuid: a872f629-f6cd-48f8-b3f2-fb730157720f
 
 ![](assets/angular-logo.png)
 
-This tutorial builds single-page application (SPA) experience for a fictional company WKND Events, using [AEM SPA Editor](/content/help/en/experience-manager/6-4/sites/developing/using/spa-overview) and the [Angular framework](https://angular.io/).
+This tutorial builds single-page application (SPA) experience for a fictional company WKND Events, using [AEM SPA Editor](http://helpx.adobe.com/experience-manager/6-4/sites/developing/using/spa-overview.html) and the [Angular framework](https://angular.io/).
 
 The focus of this tutorial explains how AEM SPA Editor and its supporting functionalities, support the creation of Angular application in an unobtrusive manner. This tutorial explores best practices and strategies for accelerating front-end development and decreasing the developer's dependency on AEM.
 
 ## Table of contents [](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md) {#table-of-contents}
 
-* [Introduction](/help/getting-started-spa-wknd-tutorial-develop/angular.md)
+* [Introduction](angular.md)
 * [Chapter 0 - Setting up the tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md) 
 * [Chapter 1 - Bootstrapping the Angular application](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-1.md)
 * [Chapter 2 - Setting up Angular routes and page resolution](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-2.md)   
@@ -95,9 +95,9 @@ Install the final AEM packages on AEM 6.4 SP2:
     * aem -guides-wknd-events.ui.apps-0.0.1-SNAPSHOT.zip
     * aem -guides-wknd-events.ui.content-0.0.1-SNAPSHOT.zip
 
-1. Navigate to AEM Package Manager `crx/packmgr/index.jsp`
-1. Upload and install both AEM packages via AEM Package Manager
-1. Navigate to AEM &gt; Sites &gt; WKND Events &gt; Angular &gt; Home `/sites.html/content/wknd-events/angular/home` and explore the SPA Editor experience!
+2. Navigate to AEM Package Manager `crx/packmgr/index.jsp`
+3. Upload and install both AEM packages via AEM Package Manager
+4. Navigate to AEM &gt; Sites &gt; WKND Events &gt; Angular &gt; Home `/sites.html/content/wknd-events/angular/home` and explore the SPA Editor experience!
 
 ## Help! {#help}
 

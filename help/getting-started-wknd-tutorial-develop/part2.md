@@ -29,21 +29,22 @@ The archetype has created a component to be used as a base for all Pages created
 
 In Eclipse (or in the IDE of your choice) you will be viewing nodes beneath `/apps/wknd` in the **ui.apps** project.
 
-1. View the folder beneath **`/apps/wknd/components`** named **structure**.
+1. View the folder beneath **`/apps/wknd/components/structure`** named **page**.
 
    The AEM project archetype creates a component named **page**. [Editable templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html) will be used for the WKND site. The name **structure** matches a specific mode of Editable template and is the common convention when using Editable templates. Any component added into the structure folder indicates that the component is meant to be used when constructing a template, and not to be used when authoring a page. 
 
-   ![](assets/base-page.png)
+   ![asset base page](assets/base-page.png)
 
-1. ![](assets/base-pageprops.png) 
+2. View the properties of the **page** component:
 
-|Name|Value|Description|
-|--- |--- |--- |
-|componentGroup|.hidden|indicates that this is not an authorable component|
-|jcr:title|WKND Site Page|title|
-|sling:resourceSuperType|core/wcm/components/page/v2/page|will inherit functionality from the Core Page component|
-|jcr:primaryType|cq:Component|primary node type (read-only)|
+   ![props](assets/base-pageprops.png) 
 
+   |Name|Value|Description|
+   |--- |--- |--- |
+   |componentGroup|.hidden|indicates that this is not an author-able component|
+   |jcr:title|WKND Site Page|title|
+   |sling:resourceSuperType|core/wcm/components/page/v2/page|will inherit functionality from the Core Page component|
+   |jcr:primaryType|cq:Component|primary node type (read-only)|
 
    The **sling:resourceSuperType** property is critical in that it allows the WKND's page component to inherit all of the functionality of the Core Component page component. This is the first example of something called the [Proxy Component Pattern](https://helpx.adobe.com/experience-manager/core-components/using/guidelines.html#ProxyComponentPattern). More information can be found [here.](https://helpx.adobe.com/experience-manager/core-components/using/guidelines.html)
 
@@ -55,7 +56,7 @@ Next a Header component will be created to be integrated into the Base page. The
 
    ![](assets/header-cmp.gif)
 
-1. You may see an error like the following: ***Unable to validate node types since project aem-guides-wknd.ui.apps is not associated with a server or the server is not started***.
+2. You may see an error like the following: ***Unable to validate node types since project aem-guides-wknd.ui.apps is not associated with a server or the server is not started***.
 
    ![](assets/unable-validate2.png)
 
@@ -64,9 +65,9 @@ Next a Header component will be created to be integrated into the Base page. The
    If you continue to encounter the error:
 
     1. Right+Click the aem-guides-wknd.ui.apps project in the Project explorer
-    1. Open **Properties** &gt;** Project Facets**
+    2. Open **Properties** &gt;** Project Facets**
     
-    1. Uncheck **Dynamic Web Module **
+    3. Uncheck **Dynamic Web Module **
 
    This should resolve the error and you should then get a drop down of node types when creating new nodes.
 
@@ -78,7 +79,7 @@ Next a Header component will be created to be integrated into the Base page. The
 
    ![](assets/2018-11-15_at_9_17am.png)
 
-1. Update the header component with additional JCR properties. Select the header component and then Right+Click in the JCR Propertied panel to add new properties.
+3. Update the header component with additional JCR properties. Select the header component and then Right+Click in the JCR Propertied panel to add new properties.
 
    Add the following properties to the header component.
 
@@ -223,9 +224,9 @@ The AEM Project archetype creates an Empty Page Template Type to start with. Ins
 
    Thumbnails are great! This thumbnail will show up for users in the AEM author environment in order to easily identify the Template Type. Recommended dimensions are 460 x 460.
 
-   ![](assets/thumbnail-1.png)
 
-1. The next part of the tutorial will take place within AEM.
+
+2. The next part of the tutorial will take place within AEM.
 
 ## Create Article and Landing Page Templates {#article-template}
 
@@ -236,11 +237,11 @@ The AEM project archetype pre-created a sample Content Template. The next few st
 
 This will take place in AEM. The short video below details the steps.
 
-***&#42;Note the role of creating a template being done as a development task. However once the implementation reaches a level of maturity, additional templates may be created by a select group of "power-users". ***
+> Note the role of creating a template being done as a development task. However once the implementation reaches a level of maturity, additional templates may be created by a select group of "power-users".
 
 >[!VIDEO](https://video.tv.adobe.com/v/22102?quality=9)
 
-![Landing Page Template Thumbnail](assets/thumbnail-2.png)
+
 
 Landing Page Template Thumbnail
 
@@ -259,15 +260,15 @@ Use the above video to complete the following tasks:
 
    ![](assets/templates.png)
 
-1. The Home page should be created at **/content/wknd/en** (or the language locale of your choice). It should be created using the Landing Page Template.
+2. The Home page should be created at **/content/wknd/en** (or the language locale of your choice). It should be created using the Landing Page Template.
 
    ![](assets/2018-04-06_at_6_19am.png)
 
-1. The First Article page should be created beneath the Home Page at **/content/wknd/en/first-article**. It should be created using the **Article Page Template**. 
+3. The First Article page should be created beneath the Home Page at **/content/wknd/en/first-article**. It should be created using the **Article Page Template**. 
 
    ![](assets/2018-04-06_at_6_22am.png)
 
-1. In order to re-deploy these templates to other environments it is possible to make them part of source control. Use the Eclipse Dev Tools, as outlined in the video, to import the templates created in AEM into the **ui.content** module.
+4. In order to re-deploy these templates to other environments it is possible to make them part of source control. Use the Eclipse Dev Tools, as outlined in the video, to import the templates created in AEM into the **ui.content** module.
 
    ![](assets/2018-04-06_at_6_16am.png)
 

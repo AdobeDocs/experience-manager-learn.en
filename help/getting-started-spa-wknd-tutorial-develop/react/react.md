@@ -45,11 +45,8 @@ To test the latest code before jumping into the tutorial, download and install t
 
 `latest-aem-guides-wknd-events.ui.apps-0.0.1-SNAPSHOT.zip`
 
-[Get File](assets/aem-guides-wknd-eventsuiapps-001-snapshot.zip)
-
 `latest-aem-guides-wknd-events.ui.content-0.0.1-SNAPSHOT.zip`
 
-[Get File](assets/aem-guides-wknd-eventsuicontent-001-snapshot.zip)
 ![](assets/aem-final.gif) 
 
 ### Solution Packages {#solution-set}
@@ -133,6 +130,6 @@ See the following resources for setting these tools up locally:
 
 Start the tutorial!
 
-* [Chapter 0 - Project Setup](/help/getting-started-spa-wknd-tutorial-develop//help/getting-started-spa-wknd-tutorial-develop/react/chapter-0.md)
+* [Chapter 0 - Project Setup](chapter-0.md)
 
 ## Help! {#help}
