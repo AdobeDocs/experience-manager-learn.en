@@ -22,7 +22,7 @@ The focus of this tutorial explains how AEM SPA Editor and its supporting functi
 
 ## Table of contents [](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md) {#table-of-contents}
 
-* [Introduction](angular.md)
+* [Introduction](/help/getting-started-spa-wknd-tutorial-develop/angular/angular.md)
 * [Chapter 0 - Setting up the tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md) 
 * [Chapter 1 - Bootstrapping the Angular application](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-1.md)
 * [Chapter 2 - Setting up Angular routes and page resolution](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-2.md)   
