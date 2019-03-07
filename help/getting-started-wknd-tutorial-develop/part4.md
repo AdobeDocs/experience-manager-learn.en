@@ -182,7 +182,7 @@ BLOCK cmp-title
 
    Notice how ***cmp-title--underline*** added in the template policy matches top level CSS class rule specified in the **underline.less file.** 
 
-1. You should now be able to add a new Title component to the a page and then apply the Underline style to the component. Navigate to: [https://localhost:4502/editor.html/content/wknd/en/first-article-page.html](https://localhost:4502/editor.html/content/wknd/en/first-article-page.html)
+1. You should now be able to add a new Title component to the a page and then apply the Underline style to the component. Navigate to: [http://localhost:4502/editor.html/content/wknd/en/first-article-page.html](http://localhost:4502/editor.html/content/wknd/en/first-article-page.html)
 
    ![](assets/title-style.gif)
 
@@ -680,7 +680,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
 6. Enable the Content Fragment by updating the Layout Container Policy
 
-    1. Navigate to the **Article Page Template:** [https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](https://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
+    1. Navigate to the **Article Page Template:** [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
     
     2. Select the main** Layout Container **and click its Policy Icon
     3. Update the **Allowed Components** to include the Content Fragment component under **WKND.Content**
@@ -693,7 +693,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    Empty Content Fragment component added to a page.
 
-8. You can create a new Content Fragment by navigating to [https://localhost:4502/assets.html/content/dam](https://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
+8. You can create a new Content Fragment by navigating to [http://localhost:4502/assets.html/content/dam](http://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
 
    ![Content fragment authoring](assets/screen-shot-2017-06-09-at-10.20.34-am.png)
 

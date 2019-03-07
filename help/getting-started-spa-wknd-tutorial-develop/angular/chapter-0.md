@@ -74,17 +74,17 @@ The following properties were used when generating the AEM project from the [AEM
    $ mvn -PautoInstallPackage clean install
    ```
 
-   The above command will deploy the project to AEM running on [https://localhost:4502](https://localhost:4502/).
+   The above command will deploy the project to AEM running on [http://localhost:4502](http://localhost:4502/).
 
    >[!CAUTION]
    >
    >If you recieve an error during the build, [ensure your maven settings.xml file includes Adobe's nexus repository](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
-3. Navigating to [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
+3. Navigating to [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
 
    ![](assets/packages-w-thumb.png)
 
-4. The **ui.content** module includes two templates as part of the starter project. Inspect the templates by navigating to [https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events](https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events)
+4. The **ui.content** module includes two templates as part of the starter project. Inspect the templates by navigating to [http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events](http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events)
 
    You should see templates for **WKND Event Angular App** and **WKND Event Page**:
 
@@ -92,7 +92,7 @@ The following properties were used when generating the AEM project from the [AEM
 
    The SPA Editor is designed to work with Editable templates. This gives the implementation the full power of re-usable policies and other features. With the initial release of the SPA Editor, the UI for Editable Templates **cannot** be used. This is expected to be updated in the next release of the SPA Editor.
 
-   In order to update features of the template, developers will need to do this manually via [CRXDE Lite](https://localhost:4502/conf/wknd-events/settings/wcm/policies.html) or in the XML in the **ui.content** project.
+   In order to update features of the template, developers will need to do this manually via [CRXDE Lite](http://localhost:4502/conf/wknd-events/settings/wcm/policies.html) or in the XML in the **ui.content** project.
 
    For example, the allowed components on the layout container are defined here:  
    `/conf/wknd-events/settings/wcm/policies/wcm/foundation/components/responsivegrid/default`

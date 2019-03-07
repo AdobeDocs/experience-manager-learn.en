@@ -149,7 +149,7 @@ Next a Header component will be created to be integrated into the Base page. The
 
    See the Page node in CRXDE Lite after deploying code changes
 
-   In [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp) verify that the header component has been pushed to your local AEM instance.
+   In [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp) verify that the header component has been pushed to your local AEM instance.
 
 ## Inspect Proxy Components {#proxy-components}
 

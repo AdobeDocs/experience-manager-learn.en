@@ -24,4 +24,3 @@ user-guide-title: AEM SPA WKND Tutorial
   + [Part 1](react/chapter-1.md)
   + [Part 2](react/chapter-2.md)
   + [Part 3](react/chapter-3.md)
-  + [Template](react/template.md)

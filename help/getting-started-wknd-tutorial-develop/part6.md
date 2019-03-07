@@ -304,7 +304,7 @@ AEM authors configure and author components via the dialogs. At this point in th
 
    ![](assets/add-properties.png)
 
-1. After saving the dialog, navigate to [CRXDE Lite](https://localhost:4502/crx/de/index.jsp#/content/wknd/en/art/exhibitions/jcr%3Acontent/root/responsivegrid) and review how the component's content is stored on the Byline component content node under the AEM page.
+1. After saving the dialog, navigate to [CRXDE Lite](http://localhost:4502/crx/de/index.jsp#/content/wknd/en/art/exhibitions/jcr%3Acontent/root/responsivegrid) and review how the component's content is stored on the Byline component content node under the AEM page.
 
    Find the Byline component content node beneath the `jcr:content/root/responsivegrid/responsivegrid` node i.e `/content/wknd/en/sports/la-skateparks/jcr:content/root/responsivegrid/responsivegrid/byline`.
 
@@ -375,7 +375,7 @@ In order to most efficiently use Sling Models, the project's POM's need updating
 
    The full contents of the updated [reactor pom.xml can be found here](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/blob/part/6-new-component/pom.xml).
 
-   The &lt;scope&gt;provided&lt;/scope&gt; indicates that AEM will be satisfying this dependency upon deployment. The version 3.6 is used as this is the version exposed by AEM which can be determined by looking up the exported version in the AEM Web Console's Dependency Finder *([https://localhost:4502/system/console/depfinder](https://localhost:4502/system/console/depfinder))*.
+   The &lt;scope&gt;provided&lt;/scope&gt; indicates that AEM will be satisfying this dependency upon deployment. The version 3.6 is used as this is the version exposed by AEM which can be determined by looking up the exported version in the AEM Web Console's Dependency Finder *([http://localhost:4502/system/console/depfinder](http://localhost:4502/system/console/depfinder))*.
 
    ![](assets/dep-finder.png)
 
@@ -1065,13 +1065,13 @@ After deploying the update, the image now appears and we have a un-styled, but w
 
 ### Reviewing the Sling Model registration {#reviewing-the-sling-model-registration}
 
-The [AEM Web Console's Sling Models Status view](https://localhost:4502/system/console/status-slingmodels) displays all the registered Sling Models in AEM. The Byline Sling Model can be validated as being installed and recognized by reviewing this list.
+The [AEM Web Console's Sling Models Status view](http://localhost:4502/system/console/status-slingmodels) displays all the registered Sling Models in AEM. The Byline Sling Model can be validated as being installed and recognized by reviewing this list.
 
 If the BylineImpl was not displayed in this list, then there was is likely an issue with the Sling Model's annotations or with the SlingModelsScanner Module configuration in the core pom.xml.
 
 ![](assets/osgi-sling-models-nav.png) ![](assets/osgi-sling-models.png)
 
-https://localhost:4502/system/console/status-slingmodels
+http://localhost:4502/system/console/status-slingmodels
 
 ## Byline styles {#byline-styles}
 
