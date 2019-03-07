@@ -18,7 +18,7 @@ Chapter 0 details the setup of a Maven multi module AEM project with a dedicated
 
 ## Prerequisites {#prerequisites}
 
-Review the required tooling and instructions for setting up a [local development environment here.](/help/getting-started-spa-wknd-tutorial-develop/react.md#local-dev-env)
+Review the required tooling and instructions for setting up a [local development environment here.](/help/getting-started-spa-wknd-tutorial-develop/react/react.md)
 
 **New to AEM?** [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html).
 
@@ -72,7 +72,7 @@ The following properties were used when generating the AEM project from [Archety
 
    More details about the inner workings of the project can be found in [Getting Started with AEM Sites Part 1 - Project Setup](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#project-structure).
 
-1. From the command line, within the `aem-guides-wknd-events`directory run the following:
+2. From the command line, within the `aem-guides-wknd-events`directory run the following:
 
    ```shell
    $ mvn clean install -PautoInstallPackage -Padobe-public
@@ -84,11 +84,11 @@ The following properties were used when generating the AEM project from [Archety
    >
    >The inclusion of the **adobe-public **profile as part of the Maven command can be made optional. You can avoid having to include this everytime by updating your settings.xml file to include Adobe's nexus repository based on this [article](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
-1. Navigating to [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
+3. Navigating to [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
 
    ![](assets/wknd-events-packages.png)
 
-1. The **ui.content** module includes two templates as part of the starter project. Inspect the templates by navigating to: [https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events](https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events)
+4. The **ui.content** module includes two templates as part of the starter project. Inspect the templates by navigating to: [https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events](https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events)
 
    You should see a template for WKND Event Page and WKND Event React App:
 

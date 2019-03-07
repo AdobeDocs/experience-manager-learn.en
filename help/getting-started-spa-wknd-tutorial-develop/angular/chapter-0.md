@@ -14,7 +14,7 @@ targetaudience: target-audience new
 
 ## Prerequisites {#prerequisites}
 
-Review the required tooling and instructions for setting up a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop/angular.md#local-dev-env)
+Review the required tooling and instructions for setting up a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop/angular/angular.md)
 
 ## Download the starter project {#starter-project}
 
@@ -68,7 +68,7 @@ The following properties were used when generating the AEM project from the [AEM
 
    More details about the inner workings of the project can be found in [Getting Started with AEM Sites Part 1 - Project Setup](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#project-structure).
 
-1. From the command line, within the `aem-guides-wknd-events`directory run the following:
+2. From the command line, within the `aem-guides-wknd-events`directory run the following:
 
    ```shell
    $ mvn -PautoInstallPackage clean install
@@ -80,11 +80,11 @@ The following properties were used when generating the AEM project from the [AEM
    >
    >If you recieve an error during the build, [ensure your maven settings.xml file includes Adobe's nexus repository](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
-1. Navigating to [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
+3. Navigating to [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp) you should see that 5 packages were installed. The ui.apps and ui.content package for the WKND events project and 3 packages for AEM Core Components.
 
    ![](assets/packages-w-thumb.png)
 
-1. The **ui.content** module includes two templates as part of the starter project. Inspect the templates by navigating to [https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events](https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events)
+4. The **ui.content** module includes two templates as part of the starter project. Inspect the templates by navigating to [https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events](https://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd-events)
 
    You should see templates for **WKND Event Angular App** and **WKND Event Page**:
 

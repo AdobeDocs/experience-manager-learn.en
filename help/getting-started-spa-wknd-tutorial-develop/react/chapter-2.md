@@ -20,7 +20,7 @@ Chapter 2 focuses on Front End Development outside of AEM. Developers will be ab
 
 **New to AEM?** [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html) before continuing.
 
-This is Chapter 2 of a multi-part tutorial. This assumes the completion of [Chapter 1](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md) and the installation of tools needed for a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop/react.md#local-dev-env) View the [Chapter 1 code on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
+This is Chapter 2 of a multi-part tutorial. This assumes the completion of [Chapter 1](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md) and the installation of tools needed for a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop/react/react.md) View the [Chapter 1 code on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
 
 Download the solution files from the previous chapter:
 
@@ -43,7 +43,7 @@ Open a new terminal window.
 
    We can now use .scss files and the power of Sass in the project. More information can be found here for [adding a Sass stylesheet with a React project](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-sass-stylesheet).
 
-1. Open up `<src>/aem-guides-wknd-events/react-app` in the editor of your choice.
+2. Open up `<src>/aem-guides-wknd-events/react-app` in the editor of your choice.
 
    Add a folder beneath r `eact-app/src` named `styles`. Add two files beneath styles named `_shared.scss` and `_variables.scss`
 
@@ -59,7 +59,7 @@ Open a new terminal window.
 
    These files will include some global variables and mixins we want to re-use across the project.
 
-1. Populate `_variables.scss` with the following:
+3. Populate `_variables.scss` with the following:
 
    ```css
    //variables for WKND Events
@@ -116,7 +116,7 @@ Open a new terminal window.
    $medium-screen: 992px;
    ```
 
-1. Populate **_shared.scss** with the following Sass mixins and import **_variables.scss**:
+4. Populate **_shared.scss** with the following Sass mixins and import **_variables.scss**:
 
    ```css
    @import './variables';
