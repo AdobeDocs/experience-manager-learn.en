@@ -20,7 +20,7 @@ Chapter 3 covers the development of SPA Model Routing to allow navigation betwee
 
 **New to AEM?** [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html) before continuing.
 
-This is Chapter 3 of the multi-part tutorial. This assumes the completion of [Chapter 2](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md) and the installation of tools needed for a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop/react.md#local-dev-env) View the [Chapter 2 code on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
+This is Chapter 3 of the multi-part tutorial. This assumes the completion of [Chapter 2](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md) and the installation of tools needed for a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop/react/react.md) View the [Chapter 2 code on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
 
 Download the solution files from the previous chapter:
 
@@ -83,7 +83,7 @@ Persona: Front End Developer
    
    ```
 
-1. In the editor of your choice open the `react-app`module. Create a new folder beneath `react-app/src` named `utils`. Beneath the `utils` folder create a new file named `RouteHelper.js.`
+2. In the editor of your choice open the `react-app`module. Create a new folder beneath `react-app/src` named `utils`. Beneath the `utils` folder create a new file named `RouteHelper.js.`
 
    ```
    /react-app
@@ -92,7 +92,7 @@ Persona: Front End Developer
                RouteHelper.js
    ```
 
-1. Populate `RouteHelper.js`with the following:
+3. Populate `RouteHelper.js`with the following:
 
    ```
    import React, {Component} from 'react';
@@ -149,7 +149,7 @@ Persona: Front End Developer
 
    The Header component in the App is a sticky header and when navigation occurs to different views we want to make sure the browser scrolls to the top. The ScrollToTop component will provide that functionality. More information on [scroll restoration and React Router can be found here.](https://reacttraining.com/react-router/web/guides/scroll-restoration)
 
-1. Update `react-app/src/index.js` to wrap the **App** with **BrowserRouter** and **ScrollToTop** components:
+4. Update `react-app/src/index.js` to wrap the **App** with **BrowserRouter** and **ScrollToTop** components:
 
    ```
      import './index.scss';
@@ -172,7 +172,7 @@ Persona: Front End Developer
 
    ** [BrowserRouter](https://reacttraining.com/react-router/web/api/BrowserRouter)** is a type of Router that uses the HTML5 history API to keep the App UI in sync with the URL. This allows for easy deep linking to specific views of the App. The **ScrollToTop** component from **RouteHelper** is included. 
 
-1. Update **Page.js **beneath `react-app/src/components/page` to wrap the WkndPage component with a route using the utility from **RouteHelper**.
+5. Update **Page.js **beneath `react-app/src/components/page` to wrap the WkndPage component with a route using the utility from **RouteHelper**.
 
    ```
        import {Page, MapTo, withComponentMappingContext } from "@adobe/cq-react-editable-components";

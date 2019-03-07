@@ -20,7 +20,7 @@ Chapter 1 covers the installation of the AEM SPA Editor JS SDK and the implement
 
 *New to AEM?* [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html) before continuing.
 
-This is Chapter 1 of the multi-part tutorial. This assumes the completion of [Chapter 0](chapter-0-project-setup.md) and installation of tools needed for a [local development environment.](react.md#local-dev-env)
+This is Chapter 1 of the multi-part tutorial. This assumes the completion of [Chapter 0](chapter-0.md) and installation of tools needed for a [local development environment.](react.md)
 
 The solution for [Chapter 0 can be found on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events) or you can download the packages below:
 
@@ -46,7 +46,7 @@ Next, install the AEM SPA Editor JS SDK as part of the `react-app` project using
    $ cd <src>/aem-guides-wknd-events/react-app
    ```
 
-1. Install the following NPM modules provided by Adobe:
+2. Install the following NPM modules provided by Adobe:
 
    ```shell
    $ npm install @adobe/cq-spa-component-mapping
@@ -54,7 +54,7 @@ Next, install the AEM SPA Editor JS SDK as part of the `react-app` project using
    $ npm install @adobe/cq-react-editable-components
    ```
 
-1. Install peer dependencies:
+3. Install peer dependencies:
 
    ```shell
    $ npm install react-fast-compare
@@ -62,7 +62,7 @@ Next, install the AEM SPA Editor JS SDK as part of the `react-app` project using
    $ npm install clone --save-dev
    ```
 
-1. `react-app/package.json` should now look something like this:
+4. `react-app/package.json` should now look something like this:
 
    ```
    //package.json
