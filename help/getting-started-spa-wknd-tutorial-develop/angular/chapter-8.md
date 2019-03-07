@@ -197,7 +197,7 @@ Optionally, the content (Pages) built out in this section can be installed direc
 
    ![](assets/airplanes-page.png)
 
-   Example Event page (/content/wknd-events/angular/home/airplanes)
+   Example Event page (`/content/wknd-events/angular/home/airplanes`)
 
 1. After all three Event pages are created and populated with content, add a WKND Events List component to the bottom of the Home page.
 
@@ -521,7 +521,7 @@ list: {
 
 1. Explore the multi-page navigation functionality implemented via the List component:
 
-    1. Navigate to the Angular app on the local dev web server ([https://localhost:4200](/))
+    1. Navigate to the Angular app on the local dev web server ([http://localhost:4200](http://localhost:4200))
     1. Scroll tot he bottom and review the List component items
     1. Click on a list item to see that page in the Angular app
     1. Click on the WKND logo in the header to return to the home page
