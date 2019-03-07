@@ -70,7 +70,7 @@ Next, we will author a few Teaser components to have some sample content to deve
 
 1. Author a few articles using the Article page template. The Teaser component will dynamically pull the Title and Description for linked pages as part of the Teaser content. This ensures consistency throughout the site.
 
-   You can also install the below package using ** [CRX Package Manager](https://localhost:4502/crx/packmgr/index.jsp)**, which includes a several sample articles already created.
+   You can also install the below package using ** [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)**, which includes a several sample articles already created.
 
    [Get File](assets/chapter-7-sample-articles.zip)
 

@@ -403,7 +403,7 @@ The **List** component provides an array of **items** that includes a **url**, *
    + require('./list/List');
    ```
 
-1. Deploy the project to a local AEM instance running at [https://localhost:4502](/):
+1. Deploy the project to a local AEM instance running at [http://localhost:4502](http://localhost:4502):
 
    ```shell
    $ cd <src>/aem-guides-wknd-events
@@ -414,7 +414,7 @@ The **List** component provides an array of **items** that includes a **url**, *
 
    ![](assets/sites-console.png)
 
-1. Open the Home page inside the AEM editor at: [https://localhost:4502/editor.html/content/wknd-events/react/home.html](/editor.html/content/wknd-events/react/home)
+1. Open the Home page inside the AEM editor at: [http://localhost:4502/editor.html/content/wknd-events/react/home.html](/editor.html/content/wknd-events/react/home)
 
    Add a List Component to the page and configure with the following values to display a list of child pages beneath the Home page:
 
@@ -424,7 +424,7 @@ The **List** component provides an array of **items** that includes a **url**, *
 
    ![](assets/preview.png)
 
-   View the App outside of the Editor: [https://localhost:4502/content/wknd-events/react/home.html](https://localhost:4502/content/wknd-events/react/home.html)
+   View the App outside of the Editor: [http://localhost:4502/content/wknd-events/react/home.html](http://localhost:4502/content/wknd-events/react/home.html)
 
    Try the navigation and notice that the page is not refreshed and the URL is updated. The Back button in the browser also should work. As you navigate there should not be any network traffic, outside of the initial page load.
 
@@ -733,11 +733,11 @@ The last thing we will do in this chapter is update **App.js**, the entry point 
    $ mvn -PautoInstallPackage -Padobe-public clean install
    ```
 
-   In AEM navigate to [https://localhost:4502/editor.html/content/wknd-events/react.html](/editor.html/content/wknd-events/react). You should see the Home view. You should also be able to navigate to the child pages and see the styled Back button in the Header.
+   In AEM navigate to [http://localhost:4502/editor.html/content/wknd-events/react.html](/editor.html/content/wknd-events/react). You should see the Home view. You should also be able to navigate to the child pages and see the styled Back button in the Header.
 
    ![](assets/aem-final.gif)
 
-   Note that the url for the app is not reflected in the browser while in the AEM Editor. View the App without the Editor at [https://localhost:4502/content/wknd-events/react.html](https://localhost:4502/content/wknd-events/react.html). Verify the redirect and that the HTML5 History API is working as expected.
+   Note that the url for the app is not reflected in the browser while in the AEM Editor. View the App without the Editor at [http://localhost:4502/content/wknd-events/react.html](http://localhost:4502/content/wknd-events/react.html). Verify the redirect and that the HTML5 History API is working as expected.
 
 ## Next Steps {#next-steps}
 

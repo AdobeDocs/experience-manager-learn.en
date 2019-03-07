@@ -224,7 +224,7 @@ Optionally, the content (Pages) built out in this section can be installed direc
 
 Persona: Angular Developer
 
-Inspecting the JSON from [https://localhost:4502/content/wknd-events/angular.model.json](https://localhost:4502/content/wknd-events/angular.model.json) the list component's content can be located an understood.
+Inspecting the JSON from [http://localhost:4502/content/wknd-events/angular.model.json](http://localhost:4502/content/wknd-events/angular.model.json) the list component's content can be located an understood.
 
 The list component's JSON is essentially an array (at the list key) of JSON objects, with each object representing a list item. Each list item has the following attributes exposed:
 
