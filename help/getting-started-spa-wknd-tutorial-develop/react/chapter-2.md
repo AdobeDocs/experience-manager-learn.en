@@ -221,7 +221,7 @@ In the editor of your choice open `/aem-guides-wknd-events/react-app`.
      Local:            https://localhost:3000/
    ```
 
-1. Open a browser and log in to AEM at [http://localhost:4502.](/) Open a new tab and navigate to [https://localhost:3000/content/wknd-events/react/home.html](https://localhost:3000/content/wknd-events/react/home.html)
+1. Open a browser and log in to AEM at [http://localhost:4502](http://localhost:4502). Open a new tab and navigate to [https://localhost:3000/content/wknd-events/react/home.html](https://localhost:3000/content/wknd-events/react/home.html)
 
    You should now see the React app on the development server running with the same content as on the AEM instance:
 
