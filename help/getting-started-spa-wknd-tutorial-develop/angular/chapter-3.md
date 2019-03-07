@@ -126,7 +126,7 @@ The Text component is a "content component", and simply renders the the contnet 
 
 1. Next, we have to map the JSON fields exposed by the AEM WCM Core Components' Text component to this Angular component. In order to understand what fields are available, the Core Components' Text component's documentation or the JSON rendition of a text component added to an AEM page is reviewed.
 
-    * [Core Components' Text component output](/content/help/en/experience-manager/core-components/using/text#SampleComponentOutput)
+    * [Core Components' Text component output](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/text.html#sample-component-output)
 
 1. Map the fields exposed by the JSON to the Angular component [@Inputs](https://angular.io/api/core/Input), so these values are available to the Angular component and its template. Some simple logic is required to expose the authored text value depending on if its rich text (raw HTML) or plain text, using Angular's [DomSanitizer](https://angular.io/api/platform-browser/DomSanitizer). [](https://angular.io/api/core/Input)
 
@@ -322,7 +322,7 @@ As seen in in the **angular.model.json**, there is an entry for an un-authored i
 
 Likewise, the documenation can be reviewed to understand the JSON output:
 
-* [Core Components' Image component output](/content/help/en/experience-manager/core-components/using/image#SampleComponentOutput)
+* [Core Components' Image component output](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/image.html#sample-component-output)
 
 ![](assets/image-json.png)
 
@@ -336,7 +336,7 @@ The following steps to create the Image component are an accelerated version of 
    $ ng generate component components/image
    ```
 
-1. In the IDE, open **wknd-events/angular-app/src/app/components/image/image.component.ts **and update it as follows:
+2. In the IDE, open **wknd-events/angular-app/src/app/components/image/image.component.ts **and update it as follows:
 
    ```
    import {Component, Input, OnInit} from '@angular/core';
@@ -379,7 +379,7 @@ The following steps to create the Image component are an accelerated version of 
    MapTo('wknd-events/components/content/image')(ImageComponent, ImageEditConfig);
    ```
 
-1. Open **image.component.html **and update it as follows:
+3. Open **image.component.html **and update it as follows:
 
    ```xml
    <ng-container *ngIf="hasImage">
@@ -387,7 +387,7 @@ The following steps to create the Image component are an accelerated version of 
    </ng-container>
    ```
 
-1. Open **image.component.scss **and update it as follows:
+4. Open **image.component.scss **and update it as follows:
 
    ```css
    :host-context {
@@ -397,7 +397,7 @@ The following steps to create the Image component are an accelerated version of 
 
    This allows the component's placeholder view to properly display in the authoring experience.
 
-1. Open **app.module.ts **and add the ImageComponent to the entryComponents array:
+5. Open **app.module.ts **and add the ImageComponent to the entryComponents array:
 
    ```
    import { BrowserModule } from '@angular/platform-browser';

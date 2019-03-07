@@ -33,7 +33,7 @@ We will be using AEM best practices, and use:
 
 ## Unit Testing and Cloud Manager for AEM {#unit-testing-and-cloud-manager-for-aem}
 
-[Cloud Manager for AEM](/content/help/en/experience-manager/cloud-manager/user-guide) integrates unit test execution and [code coverage reporting](/content/help/en/experience-manager/cloud-manager/using/understand-your-test-results#CodeQualityTesting) into its CI/CD pipeline to help encourage and promote the best practice of unit testing AEM code.
+[Cloud Manager for AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html) integrates unit test execution and [code coverage reporting](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/understand-your-test-results.html#code-quality-testing) into its CI/CD pipeline to help encourage and promote the best practice of unit testing AEM code.
 
 While unit testing code is a good practice for any code base, when using Cloud Manager it is important to take advantage of its code quality testing and reporting facilities by providing unit tests for Cloud Manager to run.
 
@@ -42,9 +42,9 @@ While unit testing code is a good practice for any code base, when using Cloud M
 The first step is to add Maven dependencies to support writing and running the tests. There are four dependencies require
 
 1. JUnit4
-1. Mockito Testing Framework
-1. Apache Sling Mocks
-1. wcm.io Test Framework
+2. Mockito Testing Framework
+3. Apache Sling Mocks
+4. wcm.io Test Framework
 
 The JUnit4, Mockito and Sling Mocks dependencies are automatically added to the project during setup using the [AEM Maven archetype](/help/getting-started-wknd-tutorial-develop/part1.md). *(Note the Sling Mocks depedency version needs updating as we see below).*
 
