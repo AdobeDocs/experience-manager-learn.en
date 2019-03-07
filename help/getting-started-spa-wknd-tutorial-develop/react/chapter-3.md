@@ -410,11 +410,11 @@ The **List** component provides an array of **items** that includes a **url**, *
    $ mvn -PautoInstallPackage -Padobe-public clean install
    ```
 
-1. In the [AEM Sites Console](/sites.html/content/wknd-events/react) update the page structure beneath **/content/wknd-events/react/home** to include 2 or more child pages. Use the WKND Event Page template (not WKND Event React App template). The child pages can be named however you want.
+1. In the [AEM Sites Console](http://localhost:4502/sites.html/content/wknd-events/react) update the page structure beneath **/content/wknd-events/react/home** to include 2 or more child pages. Use the WKND Event Page template (not WKND Event React App template). The child pages can be named however you want.
 
    ![](assets/sites-console.png)
 
-1. Open the Home page inside the AEM editor at: [http://localhost:4502/editor.html/content/wknd-events/react/home.html](/editor.html/content/wknd-events/react/home)
+1. Open the Home page inside the AEM editor at: [http://localhost:4502/editor.html/content/wknd-events/react/home.html](http://localhost:4502/editor.html/content/wknd-events/react/home)
 
    Add a List Component to the page and configure with the following values to display a list of child pages beneath the Home page:
 
@@ -733,7 +733,7 @@ The last thing we will do in this chapter is update **App.js**, the entry point 
    $ mvn -PautoInstallPackage -Padobe-public clean install
    ```
 
-   In AEM navigate to [http://localhost:4502/editor.html/content/wknd-events/react.html](/editor.html/content/wknd-events/react). You should see the Home view. You should also be able to navigate to the child pages and see the styled Back button in the Header.
+   In AEM navigate to [http://localhost:4502/editor.html/content/wknd-events/react.html](http://localhost:4502/editor.html/content/wknd-events/react). You should see the Home view. You should also be able to navigate to the child pages and see the styled Back button in the Header.
 
    ![](assets/aem-final.gif)
 
