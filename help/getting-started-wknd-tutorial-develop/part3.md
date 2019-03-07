@@ -88,40 +88,12 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
 
 1. This clientlibrary embeds some common AEM javascript dependencies that would be used for integrating analytics, ContextHub, [CSRF protection](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/csrf-protection.html) and other Adobe marketing cloud offerings. The version of jquery that ships with AEM (/libs/clientlibs/granite/jquery) will be used. You can download a newer version of jquery and create a new client library if necessary.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Name</td> 
-   <td>Type</td> 
-   <td>Value</td> 
-   <td>Description<br /> (tutorial info only don't copy)</td> 
-  </tr> 
-  <tr> 
-   <td>jcr:primaryType</td> 
-   <td>Name</td> 
-   <td>cq:ClientLibraryFolder</td> 
-   <td><em>defines a client library</em></td> 
-  </tr> 
-  <tr> 
-   <td>allowProxy</td> 
-   <td>Boolean</td> 
-   <td>true</td> 
-   <td><em>exposes CSS/JS via /etc.clientlibs</em></td> 
-  </tr> 
-  <tr> 
-   <td>categories</td> 
-   <td>String[]</td> 
-   <td>wknd.dependencies<br /> </td> 
-   <td><em>category(s) that allows the clientlib to be referenced</em></td> 
-  </tr> 
-  <tr> 
-   <td>embed</td> 
-   <td>String[]</td> 
-   <td>jquery<br /> granite.utils<br /> granite.jquery<br /> cq.jquery<br /> granite.shared<br /> cq.shared<br /> underscore</td> 
-   <td><em>embeds jquery and several granite frameworks. Only a single version of jquery is actually embedded as both granite.jquery and cq.jquery are just wrappers.</em></td> 
-  </tr> 
- </tbody> 
-</table>
+| Name | Type | Value | Description |
+|---   |---   |---    |---          |
+| jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
+| allowProxy | Boolean | **true** | *Exposes CSS/JS via /etc.clientlibs* |
+| categories | String[] | **wknd.dependencies** | *Tag-like string that allows the clientlib to be referenced* |
+| embed | String[] | **jquery** <br /> **granite.utils** <br /> **granite.jquery** <br /> **cq.jquery** <br /> **granite.shared** <br /> **cq.shared** <br /> **underscore** | *Embed jQuery and several Granite frameworks.* |
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -141,34 +113,11 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
 
    Two files **grid.less**, **main.less** are inspected below in more detail.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Name</td> 
-   <td>Type</td> 
-   <td>Value</td> 
-   <td>Description<br /> (tutorial info only don't copy)</td> 
-  </tr> 
-  <tr> 
-   <td>jcr:primaryType</td> 
-   <td>Name</td> 
-   <td>cq:ClientLibraryFolder</td> 
-   <td><em>defines a client library</em></td> 
-  </tr> 
-  <tr> 
-   <td>allowProxy</td> 
-   <td>Boolean</td> 
-   <td>true</td> 
-   <td><em>exposes CSS/JS via /etc.clientlibs</em></td> 
-  </tr> 
-  <tr> 
-   <td>categories</td> 
-   <td>String[]</td> 
-   <td>wknd.site<br /> </td> 
-   <td><em>category(s) that allows the clientlib to be referenced</em></td> 
-  </tr> 
- </tbody> 
-</table>
+    | Name | Type | Value | Description |
+    |---   |---   |---    |---          |
+    | jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
+    | allowProxy | Boolean | **true** | *Exposes CSS/JS via /etc.clientlibs* |
+    | categories | String[] | **wknd.site** | *Tag-like string that allows the clientlib to be referenced* |
 
    **main.less** - **/apps/wknd/clientlibs/clientlib-site/main.less**
 
@@ -261,30 +210,13 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
 
    Within **clientlib-site** you will also notice a folder named **webfonts**. This is a small clientlibrary that includes a call to Google webfonts. This has been split from the rest of **clientlib-site** in order to load this clientlibrary at the top of the CSS file. In the next section we will embed this clientlibrary as part of **clientlib-base**.
 
-1. As a best practice the code base for the Author environment should be nearly identical to the Publish environment. There are certain cases in which some extra CSS/JS is necessary to provide a better authoring experience. The WKND site has a fixed-header design and in the Editor this makes it difficult to select the Header component in edit mode. Therefore a small amount of CSS overrides will be stored in this client library and only loaded in the Author environment. This practice should be used sparingly and only when absolutely necessary.
+2. As a best practice the code base for the Author environment should be nearly identical to the Publish environment. There are certain cases in which some extra CSS/JS is necessary to provide a better authoring experience. The WKND site has a fixed-header design and in the Editor this makes it difficult to select the Header component in edit mode. Therefore a small amount of CSS overrides will be stored in this client library and only loaded in the Author environment. This practice should be used sparingly and only when absolutely necessary.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Name</td> 
-   <td>Type</td> 
-   <td>Value</td> 
-   <td>Description<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>jcr:primaryType</td> 
-   <td>Name</td> 
-   <td>cq:ClientLibraryFolder</td> 
-   <td><em>defines a client library</em></td> 
-  </tr> 
-  <tr> 
-   <td>categories</td> 
-   <td>String[]</td> 
-   <td>wknd.author<br /> </td> 
-   <td><em>category(s) that allows the clientlib to be referenced</em></td> 
-  </tr> 
- </tbody> 
-</table>
+    | Name | Type | Value | Description |
+    |---   |---   |---    |---          |
+    | jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
+    | allowProxy | Boolean | **true** | *Exposes CSS/JS via /etc.clientlibs* |
+    | categories | String[] | **wknd.author** | *Tag-like string that allows the clientlib to be referenced* |
 
 ## Update clientlib-base {#update-clientlib-base}
 
@@ -296,40 +228,12 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
    >
    >The order in which the **embed** array matters. It determines the order in which libraries are included. We want the webfonts to be loaded first and we want our site specific libraries to be loaded last to ensure we can override styles inherited from core components.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Name</td> 
-   <td>Type</td> 
-   <td>Value</td> 
-   <td>Description<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>jcr:primaryType</td> 
-   <td>Name</td> 
-   <td>cq:ClientLibraryFolder</td> 
-   <td><em>defines a client library</em></td> 
-  </tr> 
-  <tr> 
-   <td>allowProxy</td> 
-   <td>Boolean</td> 
-   <td>true</td> 
-   <td><em>exposes CSS/JS via /etc.clientlibs</em></td> 
-  </tr> 
-  <tr> 
-   <td>categories</td> 
-   <td>String[]</td> 
-   <td>wknd.base</td> 
-   <td><em>category(s) that allows the clientlib to be referenced</em></td> 
-  </tr> 
-  <tr> 
-   <td>embed</td> 
-   <td>String[]</td> 
-   <td><p><strong>wknd.webfonts</strong><br /> core.wcm.components.tabs.v1,<br /> core.wcm.components.carousel.v1,<br /> core.wcm.components.image.v2,<br /> core.wcm.components.breadcrumb.v2,<br /> core.wcm.components.search.v1,<br /> core.wcm.components.form.text.v2,<br /> wknd.breadcrumb,<br /> <strong>wknd.site<br /> </strong></p> <p> </p> </td> 
-   <td><em>embeds the clientlibs by their respective category. Include any CoreComponent clientlibs here. Also including bootstrap but just the JS. LESS imports is used to include the rest of the bootstrap library. The <strong>wknd.site</strong> category embeds the clientlib-site library. <strong>wknd.webfonts</strong> is split and embedded at the top so that the webfonts are correctly imported at the top of the generated CSS file.</em></td> 
-  </tr> 
- </tbody> 
-</table>
+    | Name | Type | Value | Description |
+    |---   |---   |---    |---          |
+    | jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
+    | allowProxy | Boolean | **true** | *Exposes CSS/JS via /etc.clientlibs* |
+    | categories | String[] | **wknd.base** | *Tag-like string that allows the clientlib to be referenced* |
+    | embed      | String [] | **wknd.webfonts**<br />**core.wcm.components.tabs.v1**<br />**core.wcm.components.carousel.v1**<br />**core.wcm.components.image.v2**<br />**core.wcm.components.breadcrumb.v2**<br />**core.wcm.components.search.v1**<br /> **core.wcm.components.form.text.v2**<br />**wknd.breadcrumb**<br />**wknd.site**<br /> | *Embeds the clientlibs by respective category. Include any CoreComponent clientlibs here. The **wknd.site** category embeds the clientlib-site library. **wknd.webfonts** is split and embedded at the top so that the webfonts are correctly imported at the top of the generated CSS file.*
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -345,7 +249,7 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
    >Several Core Components come with client libraries that need to be included on the page in order for the component to function properly. For example see **/apps/core/wcm/components/image/v2/image/clientlibs**. 
    >
    >
-   >There are two client libraries in this folder one named **editor** and another named **site. **The **editor** clientlib is meant just for the author environment and typically included by the component dialog. The **site **clientlib is the one that needs to be included in the project's clientlib in order for the component to behave properly. For each Core Component you can view the README.md to understand what each clientlib does: **/apps/core/wcm/components/image/v2/image/README.md**.
+   >There are two client libraries in this folder one named **editor** and another named **site**. The **editor** clientlib is meant just for the author environment and typically included by the component dialog. The **site** clientlib is the one that needs to be included in the project's clientlib in order for the component to behave properly. For each Core Component you can view the README.md to understand what each clientlib does: `/apps/core/wcm/components/image/v2/image/README.md`.
 
 ## Implement Header Styles {#header-styles}
 
@@ -355,7 +259,7 @@ Next we will implement some basic styles for the Header component. We want to ma
 
    Beneath **/apps/wknd/clientlibs/clientlib-site/components/page** add a new file named **page.js**
 
-1. Populate **page.js **with the following:
+2. Populate **page.js **with the following:
 
    ```
    /* JS Snippet to trigger class change on page scroll */
@@ -385,7 +289,7 @@ Next we will implement some basic styles for the Header component. We want to ma
 
    The above function will add a CSS class named **"scrolly"** to the body tag whenever the scroll position changes form 0. This javascript depends on jQuery being loaded. The clientlib-dependencies library will include jQuery on the page.
 
-1. Update **/apps/wknd/clientlibs/clientlib-site/js.txt** to include **page.js**. The js.txt and css.txt files in a client library act as a manifest for which files to be surfaced and the order in which they will be loaded. Simply adding a file in the client library is not enough to include it in library.
+3. Update **/apps/wknd/clientlibs/clientlib-site/js.txt** to include **page.js**. The js.txt and css.txt files in a client library act as a manifest for which files to be surfaced and the order in which they will be loaded. Simply adding a file in the client library is not enough to include it in library.
 
    Update **js.txt**:
 
@@ -396,7 +300,7 @@ Next we will implement some basic styles for the Header component. We want to ma
    
    ```
 
-1. Beneath **/apps/wknd/clientlibs/clientlib-site/components **create the following folder and file structure for the **header** styles:
+4. Beneath **/apps/wknd/clientlibs/clientlib-site/components **create the following folder and file structure for the **header** styles:
 
    ```
    /apps/wknd/clientlibs/clientlib-site/components
@@ -409,7 +313,7 @@ Next we will implement some basic styles for the Header component. We want to ma
 
    ![](assets/2018-11-15_at_2_10pm.png)
 
-1. Populate **header.less** to include the default style for the **Header** component:
+5. Populate **header.less** to include the default style for the **Header** component:
 
    ```css
    /* WKND Header Styles */
@@ -489,7 +393,7 @@ Next we will implement some basic styles for the Header component. We want to ma
 
    Notice that at the bottom of the file we add a box-shadow to the header div based on the addition of the **scrolly** class name. The **scrolly** class name will be populated based on the JavaScript added earlier when the page scrolls.
 
-1. Lastly, update **/apps/wknd/clientlibs/clientlib-site/main.less** to include the **header.less **style:
+6. Lastly, update **/apps/wknd/clientlibs/clientlib-site/main.less** to include the **header.less **style:
 
    ```css
    /* main.less */

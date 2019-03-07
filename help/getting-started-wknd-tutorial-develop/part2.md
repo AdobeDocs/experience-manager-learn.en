@@ -274,67 +274,16 @@ Use the above video to complete the following tasks:
 
 The AEM project archetype created a content root for the WKND site automatically at **/content/wknd**. The content root defines the allowed templates for the site and is used to set other global configurations. By convention the content root is not intended to be the Home page for the site and instead will redirect to the true home page. It is a good idea to understand the properties on the content root.
 
-1. 
 1. View the following properties on the **jcr:content** node:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Name</td> 
-   <td>Type</td> 
-   <td>Value</td> 
-   <td>Tutorial Description<br /> (don't copy, info only)</td> 
-  </tr> 
-  <tr> 
-   <td>cq:allowedTemplates</td> 
-   <td>String[]</td> 
-   <td><strong>/conf/wknd/settings/wcm/templates/.*</strong></td> 
-   <td>Will allow any templates created under the WKND folder to be used</td> 
-  </tr> 
-  <tr> 
-   <td>cq:deviceGroups</td> 
-   <td>String[]</td> 
-   <td><strong>/etc/mobile/groups/responsive</strong><br /> </td> 
-   <td>defines the device groups used in Layout Mode. Will use the default settings.</td> 
-  </tr> 
-  <tr> 
-   <td>jcr:title</td> 
-   <td>String</td> 
-   <td><strong>WKND Site</strong></td> 
-   <td>title</td> 
-  </tr> 
-  <tr> 
-   <td><em>jcr:primaryType</em></td> 
-   <td><em>Name</em></td> 
-   <td><em>cq:pageContent</em></td> 
-   <td>primary node type</td> 
-  </tr> 
-  <tr> 
-   <td>redirectTarget</td> 
-   <td>String</td> 
-   <td>/content/wknd/en</td> 
-   <td>redirect target</td> 
-  </tr> 
-  <tr> 
-   <td>sling:redirect</td> 
-   <td>Boolean</td> 
-   <td>true</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>sling:redirectStatus</td> 
-   <td>Long</td> 
-   <td>302</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>sling:resourceType</td> 
-   <td>String</td> 
-   <td>foundation/components/redirect</td> 
-   <td>will use the Foundation Redirect component to perform the redirect.</td> 
-  </tr> 
- </tbody> 
-</table>
+|Name  |Type  |Value  |Description|
+|---   |---   |---    |---        |
+|cq:allowedTemplates | String[] | `/conf/wknd/settings/wcm/templates/.*` | Will allow any templates created under the WKND folder to be used |
+|jcr:title | String | Wknd Site | Title |
+| jcr:primaryType | Name | *cq:pageContent* | Primary node type |
+| redirectTarget | String | `/content/wknd/en` | Redirect target |
+| sling:redirectStatus | Long | 302 | HTTP Status code |
+| sling:resourceType | String | `foundation/components/redirect` | Use foundation component for redirect |
 
    As you can see some of the properties such as **allowedTemplates** on the Content Root are critical to the behavior of the site. In many implementations root configurations such as this are saved into scm to provide some baseline content structure. In other cases offline content packages are created and provide a similar role.
 

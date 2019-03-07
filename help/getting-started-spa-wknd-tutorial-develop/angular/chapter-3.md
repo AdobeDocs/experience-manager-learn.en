@@ -467,11 +467,13 @@ Next part in the tutorial:
 
 View the solution for [Chapter 3 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-3).
 
-## (Bonus) HierarchyPage Sling Model {#persona:-aem-developer}
+## (Bonus) HierarchyPage Sling Model {#bonus-hierarchy-page-sling-model}
+
+> Persona: AEM Developer
 
 The AEM SPA JS SDK is designed to parse a JSON schema into a JavaScript Model. A Sling Model, HierarchyPage.java has been included in the starter project that will expose content within AEM as JSON that matches the expected schema. A key feature of the exported JSON by the HierarchyPageImpl is the ability to expose the content of multiple AEM pages in a single request. This allows the SPA to be initialized with most of the content of the app and can remove the need for subsequent requests as a user navigates the app.
 
-In the IDE of your choice open the ** aem -guides-wknd-events/core** module.
+In the IDE of your choice open the `aem -guides-wknd-events/core` module.
 
 1. Open **core/src/main/java/com/adobe/aem/guides/wkndevents/core/models/HierarchyPage.java**
 
@@ -494,7 +496,7 @@ In the IDE of your choice open the ** aem -guides-wknd-events/core** module.
     
     * **HierarchyNodeExporter **which defines the JSON of a hierarchical node, like a root page and it's child pages.
 
-1. Open **core/src/main/java/com/adobe/aem/guides/wkndevents/core/models/impl/HierarchyPageImpl.java**
+2. Open **core/src/main/java/com/adobe/aem/guides/wkndevents/core/models/impl/HierarchyPageImpl.java**
 
    This is the implementation of the **HierarchyPage interface**.
 
@@ -530,11 +532,11 @@ In the IDE of your choice open the ** aem -guides-wknd-events/core** module.
 
     1. **PR_IS_ROOT** ( `isRoot)` Identifies the root page of the application. The root page is used as the starter point to collect all the child pages of the app.
     
-    1. **STRUCTURE_DEPTH_PN** ( `  structureDepth )`identifies how deep in the hierarchy to collect child pages.
+    2. **STRUCTURE_DEPTH_PN** ( `  structureDepth )`identifies how deep in the hierarchy to collect child pages.
     
-    1. **STRUCTURE_PATTERNS_PN** ( `structurePatterns`) is a regular expression that can be used to ignore or exclude certain pages from automatically being collected.
+    3. **STRUCTURE_PATTERNS_PN** ( `structurePatterns`) is a regular expression that can be used to ignore or exclude certain pages from automatically being collected.
 
-1. Open [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default) and navigate to **/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default**. This is the policy for the **wknd-events-app-template** template.
+3. Open [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default) and navigate to **/conf/wknd-events/settings/wcm/policies/wknd-events/components/structure/app/default**. This is the policy for the **wknd-events-app-template** template.
 
    Notice the properties for `isRoot,  structureDepth ,  structurePatterns .`
 
@@ -546,11 +548,11 @@ In the IDE of your choice open the ** aem -guides-wknd-events/core** module.
    >
    >At the time of writing this tutorial the SPA Editor does not support Editable Templates in the UI. Full support for Editable Templates is expected in the near future. Until then, updates to the templates will need to be done via CRXDE-Lite or by modifying the XML in the ui.content module.
 
-1. Open the Angular root page at [http://localhost:4502/content/wknd-events/angular.html](http://localhost:4502/content/wknd-events/react.html)
+4. Open the Angular root page at [http://localhost:4502/content/wknd-events/angular.html](http://localhost:4502/content/wknd-events/react.html)
 
    The page may render blank for now. This page is built using the **wknd-events-app-template**.
 
-1. Change the extension to model.json: [http://localhost:4502/content/wknd-events/angular.model.json](http://localhost:4502/content/wknd-events/angular.model.json)
+5. Change the extension to model.json: [http://localhost:4502/content/wknd-events/angular.model.json](http://localhost:4502/content/wknd-events/angular.model.json)
 
    Notice that the content of the current page is exposed and the content of child page: **/content/wknd-events/angular/home**.
 

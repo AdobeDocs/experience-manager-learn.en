@@ -20,7 +20,7 @@ This tutorial builds single-page application (SPA) experience for a fictional co
 
 The focus of this tutorial explains how AEM SPA Editor and its supporting functionalities, support the creation of Angular application in an unobtrusive manner. This tutorial explores best practices and strategies for accelerating front-end development and decreasing the developer's dependency on AEM.
 
-## Table of contents [](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md) {#table-of-contents}
+## Table of contents {#table-of-contents}
 
 * [Introduction](/help/getting-started-spa-wknd-tutorial-develop/angular/angular.md)
 * [Chapter 0 - Setting up the tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md) 
