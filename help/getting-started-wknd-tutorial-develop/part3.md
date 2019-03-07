@@ -233,7 +233,7 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
     | jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
     | allowProxy | Boolean | **true** | *Exposes CSS/JS via /etc.clientlibs* |
     | categories | String[] | **wknd.base** | *Tag-like string that allows the clientlib to be referenced* |
-    | embed      | String [] | **wknd.webfonts**<br />**core.wcm.components.tabs.v1**<br />**core.wcm.components.carousel.v1**<br />**core.wcm.components.image.v2**<br />**core.wcm.components.breadcrumb.v2**<br />**core.wcm.components.search.v1**<br /> **core.wcm.components.form.text.v2**<br />**wknd.breadcrumb**<br />**wknd.site**<br /> | *Embeds the clientlibs by respective category. Include any CoreComponent clientlibs here. The **wknd.site** category embeds the clientlib-site library. **wknd.webfonts** is split and embedded at the top so that the webfonts are correctly imported at the top of the generated CSS file.*
+    | embed      | String [] | **wknd.webfonts**<br />**core.wcm.components.tabs.v1**<br />**core.wcm.components.carousel.v1**<br />**core.wcm.components.image.v2**<br />**core.wcm.components.breadcrumb.v2**<br />**core.wcm.components.search.v1**<br /> **core.wcm.components.form.text.v2**<br />**wknd.breadcrumb**<br />**wknd.site**<br /> | *Embeds the clientlibs by respective category. Include any CoreComponent clientlibs here. The **wknd.site** category embeds the clientlib-site library. **wknd.webfonts** is split and embedded at the top so that the webfonts are correctly imported at the top of the generated CSS file.* |
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
