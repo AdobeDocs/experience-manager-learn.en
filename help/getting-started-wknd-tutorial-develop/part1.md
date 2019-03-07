@@ -201,7 +201,7 @@ The next series of steps will take place using a UNIX based command line  termin
 
 9. View Packages on AEM
 
-   Navigate to Package Manager on your local AEM instance: [https://localhost:4502/crx/packmgr/index.jsp](https://localhost:4502/crx/packmgr/index.jsp). You should see the following 5 packages installed:
+   Navigate to Package Manager on your local AEM instance: [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp). You should see the following 5 packages installed:
 
    ![Package manager](assets/wknd-packages.png)
 
@@ -338,7 +338,7 @@ Try building the Core module independently from the rest of the project with the
 $ cd aem-guides-wknd/core/
 $ mvn -PautoInstallBundle clean install
 ...
-[INFO] Installing Bundle com.adobe.aem.guides.aem-guides-wknd.core(/src/aem-guides-wknd/core/target/aem-guides-wknd.core-0.0.1-SNAPSHOT.jar) to https://localhost:4502/system/console via WebConsole
+[INFO] Installing Bundle com.adobe.aem.guides.aem-guides-wknd.core(/src/aem-guides-wknd/core/target/aem-guides-wknd.core-0.0.1-SNAPSHOT.jar) to http://localhost:4502/system/console via WebConsole
 [INFO] Bundle installed
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
@@ -349,11 +349,11 @@ $ mvn -PautoInstallBundle clean install
 [INFO] ------------------------------------------------------------------------
 ```
 
-Navigating to [https://localhost:4502/system/console/bundles](https://localhost:4502/system/console/bundles) you should be able to see the bundle installed and active.
+Navigating to [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles) you should be able to see the bundle installed and active.
 
 ![Core bundle](assets/bundle-2.png)
 
-The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module. You can see the 'physical' location of the jar in [CRXDE-Lite](https://localhost:4502/crx/de/index.jsp#/apps/wknd/install/wknd-sites-guide.core-0.0.1-SNAPSHOT.jar):
+The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module. You can see the 'physical' location of the jar in [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/wknd/install/wknd-sites-guide.core-0.0.1-SNAPSHOT.jar):
 
 ![CRXDE Location of Jar](assets/jcr-bundle-location.png)
 
@@ -622,7 +622,7 @@ This is an optional task but its nice to easily identify your custom code packag
    [INFO] BUILD SUCCESS
    ```
 
-2. Navigate to [Package Manager](https://localhost:4502/crx/packmgr/index.jsp) in AEM.
+2. Navigate to [Package Manager](http://localhost:4502/crx/packmgr/index.jsp) in AEM.
 
    5 packages get installed. **core.wcm.components.all** includes 2 sub packages: **core.wcm.components.config **and** core.wcm.components.content**. You should also see the custom thumbnail for the WKND **ui.apps** and **ui.content** packages.
 
