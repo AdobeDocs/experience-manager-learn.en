@@ -49,6 +49,7 @@ To achieve this integration, two tools are used:
     $ mvn --version
     Apache Maven 3.3.9
     Maven home: /Library/apache-maven-3.3.9
+
    ```
 
 3. Generate a new React-enabled SPA project from the [aem-spa-project-archetype](https://github.com/adobe/aem-spa-project-archetype)
@@ -67,6 +68,7 @@ To achieve this integration, two tools are used:
      -DprojectName=wknd-events  \
      -DcomponentGroup="WKND Events - Content" \
      -DoptionFrontend=react
+
      ```
 
      This should create a new maven project in a folder: `aem-guides-wknd-events`. Documentation for the individual parameters used can be found on [aem-spa-project-archetype](https://github.com/adobe/aem-spa-project-archetype)
@@ -100,7 +102,8 @@ To achieve this integration, two tools are used:
         "@adobe/cq-spa-component-mapping": "~1.0.3",
         "@adobe/cq-spa-page-model-manager": "~1.0.3",
         "aem-clientlib-generator": "^1.4.1",
-        ...
+    ...
+
     ```
 
     The dependencies prefixed with **@adobe/** comprise the AEM SPA Editor JS SDK. It is made available via three NPM modules:
@@ -137,6 +140,7 @@ To achieve this integration, two tools are used:
             }
         }
     };
+
     ```
 
     This is the [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) configuration used to transform the production build of the react app into an AEM client library that will be copied into the **ui.apps** folder based on the **clientLibRoot** value.
@@ -156,6 +160,7 @@ There are a few updates to the project we recommend making.
     +   <version>2.3.2</version>
         <scope>provided</scope>
     </dependency>
+
     ```
 
     > [!NOTE]
@@ -169,6 +174,7 @@ There are a few updates to the project we recommend making.
     -    <filter root="/apps/wknd-events" mode="merge"/>
     +    <filter root="/apps/wknd-events" />
      </workspaceFilter>
+
     ```
 
     This is a [bug](https://github.com/adobe/aem-spa-project-archetype/issues/69) in the current archetype and will be resolved with the next update to the archetype.
@@ -200,6 +206,7 @@ In this exercise the SCM language **git** is used. If using another method of so
     npm-debug.log*
     yarn-debug.log*
     yarn-error.log*
+
     ```
 
     This will safely ignore node libraries that are downloaded and installed when the react app is compiled.
@@ -236,6 +243,7 @@ Next we will build and deploy the project to a local instance of AEM.
     [INFO] ------------------------------------------------------------------------
     [INFO] BUILD SUCCESS
     [INFO] ------------------------------------------------------------------------
+
     ```
 
 3. Open a new browser and navigate to AEM: [http://localhost:4502](http://localhost:4502).
