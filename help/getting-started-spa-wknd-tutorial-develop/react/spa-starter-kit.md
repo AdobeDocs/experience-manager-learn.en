@@ -1,6 +1,6 @@
 ---
-title: Getting Started with React and AEM SPA Editor - Chapter 1
-seo-title: Getting Started with React and AEM SPA Editor - Chapter 1
+title: React and AEM WKND Events - 1.1 SPA Starter Kit
+seo-title: React and AEM WKND Events - 1.1 SPA Starter Kit
 description: Chapter 1 covers the installation of the AEM SPA Editor JS SDK and the implementation of two React components that map to AEM Text and Image components. The JSON model that drives the integration between AEM and React is inspected.
 seo-description: Chapter 1 covers the installation of the AEM SPA Editor JS SDK and the implementation of two React components that map to AEM Text and Image components. The JSON model that drives the integration between AEM and React is inspected.
 uuid: 55da5dca-b43a-449f-b5b0-9b4d01e1b6d1
@@ -10,15 +10,15 @@ targetaudience: target-audience new
 
 ---
 
-# Getting Started with React and AEM SPA Editor - SPA Starter Kit {#getting-started-with-react-and-aem-spa-editor-spa-starter-kit}
+# React and AEM WKND Events - 1.1 SPA Starter Kit {#spa-starter-kit}
 
-## Objective
+## Objective {#objective}
 
 1. Learn the best practices for starting a new SPA enablement project with the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype/tree/master).
 2. Learn how a webpack project's build artifacts can be integrated and deployed as an AEM client library.
 3. Understand how the plugins of [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) and [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin) are used to automate the build process.
 
-## Background
+## Background {#background}
 
 SPA development will be done primarily in a webpack project outside of AEM. This offers several advantages:
 
@@ -40,7 +40,7 @@ To achieve this integration, two tools are used:
 * [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) - used to transform compiled CSS and JS files into an AEM client library
 * [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin) - used to trigger NPM commands via a Maven build. This plugin will download/install Node and NPM locally for the project, ensuring consistency and making the project easy to integrate with a Continuous Integration/Continuous Deployment environment.
 
-## Exercise 1 - Generate a new project
+## Exercise 1 - Generate a new project {#exercise1}
 
 1. Open a new terminal command line prompt.
 2. Check that Maven is install and available with the following command:
@@ -71,14 +71,14 @@ To achieve this integration, two tools are used:
 
      ```
 
-     This should create a new maven project in a folder: `aem-guides-wknd-events`. Documentation for the individual parameters used can be found on [aem-spa-project-archetype](https://github.com/adobe/aem-spa-project-archetype)
+     This should create a new maven project in a folder: **aem-guides-wknd-events**. Documentation for the individual parameters used can be found on [aem-spa-project-archetype](https://github.com/adobe/aem-spa-project-archetype)
 
      > [!NOTE]
      > For the purposes of following this tutorial please use version **1.0.4** of the archetype. However, it is always a best practice to use the **latest** version of the archetype to generate a new project.
 
-## Exercise 2 - Inspect the project
+## Exercise 2 - Inspect the project {#exercise2}
 
-1. Open the newly created maven project `aem-guides-wknd-events` in Visual Studio Code or the IDE of your choice.
+1. Open the newly created maven project **aem-guides-wknd-events** in Visual Studio Code or the IDE of your choice.
 2. There are 5 folders in the project that represent individual Maven modules
     * **all** Combines all modules in a single package
     * **core**: OSGi bundle containing Java code
@@ -94,7 +94,7 @@ To achieve this integration, two tools are used:
     `"build": "react-scripts build && clientlib --verbose"`
 
     This will trigger a production build of the react application and then copy the compiled JS and CSS into an AEM Client library.
-5. In the `package.json` inspect the **dependencies**:
+5. In the **package.json** inspect the **dependencies**:
 
     ```json
     "dependencies": {
@@ -102,7 +102,7 @@ To achieve this integration, two tools are used:
         "@adobe/cq-spa-component-mapping": "~1.0.3",
         "@adobe/cq-spa-page-model-manager": "~1.0.3",
         "aem-clientlib-generator": "^1.4.1",
-    ...
+        ...
 
     ```
 
@@ -113,7 +113,7 @@ To achieve this integration, two tools are used:
     * [@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components) - provides generic React helpers and components to support AEM authoring. This module also wraps the cq-spa-page-model-manager and cq-spa-component-mapping to make these available to the React framework.
 
     Also notice the dependency for **aem-clientlib-generator**.
-6. Beneath the **react-app** folder, open the file: `clientlib.config.js`:
+6. Beneath the **react-app** folder, open the file: **clientlib.config.js**:
 
     ```js
     module.exports = {
@@ -145,11 +145,62 @@ To achieve this integration, two tools are used:
 
     This is the [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) configuration used to transform the production build of the react app into an AEM client library that will be copied into the **ui.apps** folder based on the **clientLibRoot** value.
 
-## Exercise 3 - Updates to the project
+7. Open a new terminal and navigate to `<src>/aem-guides-wknd-events/react-app` and run the following command to build the react-app:
+
+    ```shell
+    $ npm run build
+    ...
+    processing clientlib: wknd-events-react
+    Write node configuration using serialization format: xml
+    write clientlib json file: ../ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/wknd-events-react/.content.xml
+
+    write clientlib asset txt file (type: js): ../ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/wknd-events-react/js.txt
+    copy: build/static/js/1.04702e47.chunk.js ../ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/wknd-events-react/js/1.04702e47.chunk.js
+    copy: build/static/js/main.c08b57b8.chunk.js ../ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/wknd-events-react/js/main.c08b57b8.chunk.js
+    copy: build/static/js/runtime~main.229c360f.js ../ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/wknd-events-react/js/runtime~main.229c360f.js
+
+    write clientlib asset txt file (type: css): ../ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/wknd-events-react/css.txt
+    copy: build/static/css/main.105787ef.chunk.css ../ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/wknd-events-react/css/main.105787ef.chunk.css
+
+    ```
+
+    This compiles a production build of the React Application and then moves the generated JS and CSS into the **ui.apps** project using the **aem-clientlib-generator**.
+
+8. Navigate to `ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs` and notice that there is a new folder named **wknd-events-react**. This is the client library.
+9. Now, lets trigger the same build using [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin). Open the terminal in the **react-app** directory and run the following command:
+
+    ```shell
+    $ mvn clean install
+    [INFO] Scanning for projects...
+    [INFO]
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Building AEM Guides WKND Events React App 0.0.1-SNAPSHOT
+    [INFO] ------------------------------------------------------------------------
+    [INFO]
+    [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ aem-guides-wknd-events-react-app ---
+    [INFO] Deleting /Users/dgordon/Documents/TechMarketing/wknd-events/src/aem-guides-wknd-events/react-app/target
+    [INFO]
+    [INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ aem-guides-wknd-events-react-app ---
+    [INFO]
+    [INFO] --- frontend-maven-plugin:1.6:install-node-and-npm (install node and npm) @ aem-guides-wknd-events-react-app ---
+    ...
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESS
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Total time: 33.839 s
+    [INFO] Finished at: 2019-03-15T12:36:55-07:00
+    [INFO] Final Memory: 16M/153M
+    [INFO] ------------------------------------------------------------------------
+
+    ```
+
+    The same `npm run build` command is run but it gets triggered from the **front-end-maven-plugin**. This allows us to incorporate the React application into a larger Maven project to integrate with the rest of the AEM code base. The other benefit of using the **front-end-maven-plugin** is that it will install local versions of **node** and **NPM** automatically, which is quite useful when working with automated deployment pipelines like Jenkins.
+
+## Exercise 3 - Updates to the project {#exercise3}
 
 There are a few updates to the project we recommend making.
 
-1. Update the file `pom.xml` located at the root of the project: `<src>/aem-guides-wknd-events/pom.xml`:
+1. Update the file **pom.xml** located at the root of the project: `<src>/aem-guides-wknd-events/pom.xml`:
 
     ```diff
     <dependency>
@@ -166,7 +217,7 @@ There are a few updates to the project we recommend making.
     > [!NOTE]
     > For the purposes of following this tutorial we will use **2.3.2** version of Core Components. As a best practice, always try and use the latest version of Core Components.
 
-2. Update the `filter.xml` file under `ui.apps/src/main/content/META-INF/vault/filter.xml`:
+2. Update the **filter.xml** file under `ui.apps/src/main/content/META-INF/vault/filter.xml`:
 
     ```diff
      <?xml version="1.0" encoding="UTF-8"?>
@@ -183,7 +234,7 @@ You can skip the next steps and still complete the tutorial. However, if startin
 
 In this exercise the SCM language **git** is used. If using another method of source control follow the same practices to ignore these files and folders.
 
-1. Beneath the `react-app` folder add a new file named `.gitignore`:
+1. Beneath the **react-app** folder add a new file named **.gitignore**:
 
     ```plain
     # dependencies
@@ -211,7 +262,7 @@ In this exercise the SCM language **git** is used. If using another method of so
 
     This will safely ignore node libraries that are downloaded and installed when the react app is compiled.
 
-2. Under the `ui.apps` folder `ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs` add a new file named `.gitignore`:
+2. Under the **ui.apps** folder at `ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs` add a new file named **.gitignore**:
 
     ```plain
     # ignore generated client libraries from SPA project
@@ -220,7 +271,7 @@ In this exercise the SCM language **git** is used. If using another method of so
 
     This ensures that the compiled JS and CSS from the react-app are ignored from source control.
 
-## Exercise 4 - Build the project
+## Exercise 4 - Build the project {#exercise4}
 
 Next we will build and deploy the project to a local instance of AEM.
 
@@ -228,8 +279,7 @@ Next we will build and deploy the project to a local instance of AEM.
 2. Open a terminal window and navigate to `<src>/aem-guides-wknd-events`. Run the following Maven command:
 
     ```shell
-    $ cd <src>/aem-guides-wknd-events
-    $ mvn -PautoInstallPackage clean install
+    $ mvn -PautoInstallSinglePackage clean install
     ...
     [INFO] ------------------------------------------------------------------------
     [INFO] Reactor Summary:
@@ -246,6 +296,8 @@ Next we will build and deploy the project to a local instance of AEM.
 
     ```
 
+    The above Maven command uses the **autoInstallSinglePackage** profile which will install a single AEM package that contains **Core**, **ui.apps**, and **ui.content**.
+
 3. Open a new browser and navigate to AEM: [http://localhost:4502](http://localhost:4502).
 4. Login as an administrator with the credentials:
     * User name: **admin**
@@ -258,5 +310,16 @@ Next we will build and deploy the project to a local instance of AEM.
 
     ![L738 React Package](./assets/project-setup/packages-deployed.png)
 
-    Notice that
+    Notice that Core Components have been installed as a subpackage. This is important because when running AEM in production mode, a default version of Core Components will not be available.
 
+## Next Steps {#next-steps}
+
+Congratulations! You successfully created and deployed an AEM SPA Project to a local AEM instance.
+
+Continue your journey with [1.2 Hello World](/help/getting-started-spa-wknd-tutorial-develop/react/hello-world.md).
+
+## Help! {#help}
+
+If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or review existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/issues).
+
+Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND Events project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/issues).
