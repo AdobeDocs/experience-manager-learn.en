@@ -102,7 +102,7 @@ To achieve this integration, two tools are used:
         "@adobe/cq-spa-component-mapping": "~1.0.3",
         "@adobe/cq-spa-page-model-manager": "~1.0.3",
         "aem-clientlib-generator": "^1.4.1",
-    ...
+        ...
 
     ```
 
