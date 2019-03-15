@@ -20,8 +20,9 @@ user-guide-title: AEM SPA WKND Tutorial
   + [Part 8](angular/chapter-8.md)
 + React and SPA {#react-spa}
   + [React](react/react.md)
-  + Project Setup {#project-setup}
-    + [SPA Starter Kit](react/spa-starter-kit.md)
+  + 1 Project Setup {#project-setup}
+    + [1.1 SPA Starter Kit](react/spa-starter-kit.md)
+    + [1.2 Hello World](react/hello-world.md)
   + [Introduction](react/chapter-0.md)
   + [Part 1](react/chapter-1.md)
   + [Part 2](react/chapter-2.md)
