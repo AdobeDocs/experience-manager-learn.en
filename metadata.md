@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Livefyre
+solution-title: Experience Manager
 solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
 solution-icon: assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
@@ -8,7 +8,7 @@ getting-started-url: https://docs.adobe.com/content/help/en/livefyre/implementat
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/livefyre.en
+git-repo: https://github.com/AdobeDocs/experience-manager-kt.en
 ---
 
 # Metadata for internal use
