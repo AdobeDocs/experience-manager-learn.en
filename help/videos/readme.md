@@ -1,0 +1,2 @@
+
+# placeholder for videos folder
