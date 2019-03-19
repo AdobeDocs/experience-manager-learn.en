@@ -17,7 +17,7 @@ Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage 
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 3 of the multi-part tutorial. ** [Chapter 2 can be found here](/help/getting-started-wknd-tutorial-develop/part2.md) **and an ** [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
+This is Chapter 3 of the multi-part tutorial. ** [Chapter 2 can be found here](/help/getting-started-wknd-tutorial-develop/chapter-2.md) **and an ** [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
 

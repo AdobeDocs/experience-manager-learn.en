@@ -72,7 +72,7 @@ In general each Part of the tutorial takes about **1-2 hours**.
 
 ### Chapter 2 {#part-2}
 
-**[Creating a Base Page and Template](part2.md)** - Covers the creation of a base page and an editable template. Core Components are proxied into the project.  
+**[Creating a Base Page and Template](chapter-2.md)** - Covers the creation of a base page and an editable template. Core Components are proxied into the project.  
 **Editable Templates, Core Components, Content Authoring**
 
 ### Chapter 3 {#part-3}
