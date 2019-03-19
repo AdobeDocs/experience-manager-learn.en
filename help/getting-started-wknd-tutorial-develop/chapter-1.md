@@ -552,7 +552,8 @@ The AEM project archetype includes Core Components by default. It is a good idea
    Notice the **core.wcm.components.all** and **core.wcm.components.examples** is included as a dependency in the dependency list. Notice also that a version is not included here. As a best practice, versions for dependencies are managed in the Parent Pom file.
 
    ```xml
-   //ui.apps/pom.xml
+
+   <!-- ui.apps/pom.xml -->
    <dependencies>
    ...
    <dependency>
@@ -575,7 +576,8 @@ The AEM project archetype includes Core Components by default. It is a good idea
    Notice that **core.wcm.components.all** and **core.wcm.components.examples** packages are included as a sub-package. This will deploy the Core Components package along with the WKND code each time.
 
    ```xml
-   //ui.apps/pom.xml
+
+   <!-- ui.apps/pom.xml -->
    <!-- ====================================================================== -->
    <!-- V A U L T   P A C K A G E   P L U G I N                                -->
    <!-- ====================================================================== -->
@@ -628,6 +630,7 @@ This is an optional task but its nice to easily identify your custom code packag
    As a sibling of thumbnail.png, inside the definition folder, add a file named `.content.xml`. Populate it with the following:
 
    ```xml
+
    <?xml version="1.0" encoding="UTF-8"?>
    <jcr:root xmlns:vlt="https://www.day.com/jcr/vault/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0">
        <thumbnail.png/>
@@ -682,6 +685,7 @@ This is an optional task but its nice to easily identify your custom code packag
 1. To test and verify our changes, once again run the following maven command from the project root:
 
    ```shell
+
    $ cd <src>/aem-guides-wknd
    $ mvn -PautoInstallPackage clean install
    ...
