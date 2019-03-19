@@ -425,6 +425,7 @@ BLOCK cmp-list
    @import "components/text/text.less";
    @import "components/title/title.less";
    ```
+
 1. Click the policy icon for the **List Component** in the Layout Container to open its policy configuration. Configure the following:
 
     1. Policy Title &#42; = **WKND List - Article**
