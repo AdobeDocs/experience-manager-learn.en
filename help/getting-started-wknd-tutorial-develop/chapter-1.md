@@ -541,6 +541,7 @@ The AEM project archetype includes Core Components by default. It is a good idea
     </dependency>
    ...
    </dependencies>
+
    ```
 
    >[!NOTE]
@@ -566,6 +567,7 @@ The AEM project archetype includes Core Components by default. It is a good idea
     </dependency>
    ...
    </dependencies>
+
    ```
 
 4. View the Vault Package Plugin within `aem-guides-wknd/ui.apps/pom.xml`:
@@ -603,6 +605,7 @@ The AEM project archetype includes Core Components by default. It is a good idea
             </subPackages>
         </configuration>
     </plugin>
+
    ```
 
     >[!NOTE]
@@ -629,6 +632,7 @@ This is an optional task but its nice to easily identify your custom code packag
    <jcr:root xmlns:vlt="https://www.day.com/jcr/vault/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0">
        <thumbnail.png/>
    </jcr:root>
+
    ```
 
    ![Package Tree](assets/2018-11-15_at_9_00am.png)
@@ -636,6 +640,7 @@ This is an optional task but its nice to easily identify your custom code packag
 3. When building the package the maven content-package plugin will compile the files and folders inside the ui.apps project into an AEM package. You can direct it to use the custom thumbnail by updating the `<build>` tag in the `ui.apps/pom.xml`.
 
    ```xml
+
    <!-- ui.apps/pom.xml -->
    <!-- ====================================================================== -->
    <!-- B U I L D   D E F I N I T I O N                                        -->
@@ -688,6 +693,7 @@ This is an optional task but its nice to easily identify your custom code packag
    [INFO] WKND Sites Project - Integration Tests Launcher .... SUCCESS [  2.574 s]
    [INFO] ------------------------------------------------------------------------
    [INFO] BUILD SUCCESS
+
    ```
 
 2. Navigate to [Package Manager](http://localhost:4502/crx/packmgr/index.jsp) in AEM.
@@ -704,89 +710,7 @@ Maven will create a target folder whenever you build and install the code packag
 
 Beneath ui.apps you will also notice many .content.xml files that are created. These XML files map the node types and properties of content installed in the JCR. These files are critical and should **not** be ignored except at the very root level.
 
-The AEM project archetype will generates a sample .gitignore file that can be used as a starting point for which files can be safely ignored:
-
-```plain
-# Created by https://www.gitignore.io/api/eclipse,java,maven
-
-### Eclipse ###
-*.pydevproject
-.metadata
-.gradle
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-
-# Eclipse Core
-.project
-MANIFEST.MF
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
-# Java annotation processor (APT)
-.factorypath
-
-# PDT-specific
-.buildpath
-
-# sbteclipse plugin
-.target
-
-# TeXlipse plugin
-.texlipse
-
-### Java ###
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see https://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# Mac OS #
-.DS_Store
-
-### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-
-### Vault ###
-.vlt
-
-### IntelliJ ###
-.idea/
-*.iml
-
-```
+The AEM project archetype will generates a sample **.gitignore** file that can be used as a starting point for which files can be safely ignored. The file is generated at `<src>/aem-guides-wknd/.gitignore`.
 
 ## Using an Integrated Development Environment {#eclipse-ide}
 
