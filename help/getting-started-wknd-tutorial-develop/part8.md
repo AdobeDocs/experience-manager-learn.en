@@ -46,7 +46,7 @@ The first step is to add Maven dependencies to support writing and running the t
 3. Apache Sling Mocks
 4. wcm.io Test Framework
 
-The JUnit4, Mockito and Sling Mocks dependencies are automatically added to the project during setup using the [AEM Maven archetype](/help/getting-started-wknd-tutorial-develop/part1.md). *(Note the Sling Mocks depedency version needs updating as we see below).*
+The JUnit4, Mockito and Sling Mocks dependencies are automatically added to the project during setup using the [AEM Maven archetype](/help/getting-started-wknd-tutorial-develop/chapter-1.md). *(Note the Sling Mocks depedency version needs updating as we see below).*
 
 The io.wcm Testing Framework dependency must be added to the project's  pom.xmls .
 

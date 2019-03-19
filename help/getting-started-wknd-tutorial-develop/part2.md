@@ -17,9 +17,10 @@ Covers the creation of a base page and an editable template. Core Components are
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](part1.md)** and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
+This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](chapter-1.md)** and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
 
-Note you will need Eclipse or an IDE setup. Instructions for setting up a development environment can be found in [Chapter 1](part1.md).
+>![NOTE]
+> Note you will need Eclipse or an IDE setup. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env)**
 
 You can view Chapter 1 on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/chapter-1/project-setup) or you can download the solution package:
 

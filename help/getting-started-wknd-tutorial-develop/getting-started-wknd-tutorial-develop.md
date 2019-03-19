@@ -67,7 +67,7 @@ In general each Part of the tutorial takes about **1-2 hours**.
 
 ### Chapter 1 {#part-1}
 
-[**Project Setup**](part1.md) - Covers the creation of a Maven Multi Module Project to manage the code and configurations for an AEM Site.  
+[**Project Setup**](chapter-1.md) - Covers the creation of a Maven Multi Module Project to manage the code and configurations for an AEM Site.  
 **Maven, Lazybones Template, Eclipse IDE, Core Components, SCM, and Github**.
 
 ### Chapter 2 {#part-2}

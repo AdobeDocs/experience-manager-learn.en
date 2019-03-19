@@ -7,7 +7,7 @@ user-guide-title: AEM WKND Developer Tutorial
 # AEM WKND Developer Tutorial {#aem-wknd-developer-tutorial}
 
 + [Introduction](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)
-+ [Project Setup](/help/getting-started-wknd-tutorial-develop/part1.md)
++ [Project Setup](/help/getting-started-wknd-tutorial-develop/chapter-1.md)
 + [Base Page and Template](/help/getting-started-wknd-tutorial-develop/part2.md)
 + [Client-Side Libraries](/help/getting-started-wknd-tutorial-develop/part3.md)
 + [Style System](/help/getting-started-wknd-tutorial-develop/part4.md)

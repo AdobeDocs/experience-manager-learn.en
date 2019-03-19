@@ -25,15 +25,17 @@ The following is required:
 
 1. [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 2. [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
-3. [AEM 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html) + [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)**or** 
-4. [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/technical-requirements.html) + [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
-5. [Eclipse](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/aem-eclipse.html) or other IDE
+3. [AEM 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html) + [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) **or** [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/technical-requirements.html) + [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
+4.[Eclipse](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/aem-eclipse.html) or other IDE
 
 For more information see: [Set up a Local AEM Development Environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html).
 
-## Create Project with Maven AEM Project Archetype 15 {#maven-multimodule}
+## Create Project with Maven AEM Project Archetype 17 {#maven-multimodule}
 
-There are a  couple  options for creating a Maven Multimodule project for AEM. This tutorial will leverage the [Maven AEM Project Archetype 15](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). Another perfectly valid approach is to use [ACS AEM Lazybones template](https://github.com/Adobe-Consulting-Services/lazybones-aem-templates).
+There are a  couple  options for creating a Maven Multimodule project for AEM. This tutorial will leverage the [Maven AEM Project Archetype 17](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype).
+
+> [!NOTE]
+> For the purposes of following this tutorial we will use version **17** of the archetype. It is always a best practice to use the **latest** version of the archetype to generate a new project.
 
 The next series of steps will take place using a UNIX based command line  terminal,  but should be similar if using a Windows terminal.
 
@@ -51,11 +53,11 @@ The next series of steps will take place using a UNIX based command line  termin
 2. Paste the following into the command line to initiate the creation of a new project:
 
    ```shell
-   mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate \
-    -DarchetypeGroupId=com.adobe.granite.archetypes \
-    -DarchetypeArtifactId=aem-project-archetype \
-    -DarchetypeVersion=15 \
-    -DarchetypeCatalog=https://repo.adobe.com/nexus/content/groups/public/
+    mvn archetype:generate \
+     -DarchetypeGroupId=com.adobe.granite.archetypes \
+     -DarchetypeArtifactId=aem-project-archetype \
+     -DarchetypeVersion=17
+
    ```
 
    >[!NOTE]
@@ -67,16 +69,16 @@ The next series of steps will take place using a UNIX based command line  termin
    | **Description** |**Property** |**Value** |
    |---|---|---|
    | Maven group id |groupId |com.adobe.aem.guides |
+   | /apps folder name |appsFolderName |wknd |
    | Maven artifact id |artifactId |aem-guides-wknd |
    | Starting version of project |version |0.0.1-SNAPSHOT |
    | Java source package |package |com.adobe.aem.guides.wknd |
-   | /apps folder name |appsFolderName |wknd |
    | Maven project name |artifactName |WKND Sites Project |
    | AEM component group name |componentGroupName |WKND.Content |
    | /conf folder name |confFolderName |wknd |
    | /content folder name |contentFolderName |wknd |
    | Prefix used in generated CSS |cssId |wknd |
-   | Content Package group name |packageGroup |aem-guides/wknd |
+   | Content Package group name |packageGroup |wknd |
    | AEM site name |siteName |WKND Site |
 
 4. Navigate into the **aem-guides-wknd** directory and run the following maven command to build and deploy the project
@@ -201,24 +203,24 @@ The next series of steps will take place using a UNIX based command line  termin
 
 9. View Packages on AEM
 
-   Navigate to Package Manager on your local AEM instance: [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp). You should see the following 5 packages installed:
+   Navigate to Package Manager on your local AEM instance: [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp). You should see two packages for **aem-guides-wknd.ui.apps** and **aem-guides-wknd.ui.content**.
 
-   ![Package manager](assets/wknd-packages.png)
+   ![Package manager](assets/chapter-1/wknd-packages.png)
 
-   >[!NOTE]
-   >
-   >Notice that 3 packages related to core components were also installed. We will inspect this further below.
+    Notice that 2 or more packages related to core components were also installed. We will inspect this further below.
 
-10. The WKND Site will be one of the sites. It will include two content pages, one for English and one for French.
+10. Navigate from the **AEM Start** screen to **[Sites](http://localhost:4502/sites.html/content)**. The WKND Site will be one of the sites. It will include two content pages, one for English and one for French.
+
+11. Open the English page by selecting the page and clicking the **Edit** button in the menu bar:
    ![site console](assets/wknd-samplesite.png)
 
-11. Some content is already created and several components are available to be added to a page. Experiment with these components to get an idea of the functionality. How this page and components are configured will be explored in detail later in the tutorial.
+12. Some content is already created and several components are available to be added to a page. Experiment with these components to get an idea of the functionality. How this page and components are configured will be explored in detail later in the tutorial.
 
    ![sample content](assets/2018-10-31_at_7_00pm.png)
 
 ## Inspecting the Project Structure {#project-structure}
 
-There are six areas to the project:
+There are six areas to the project that was generated:
 
 1. **Parent POM** - deploys maven modules and manages dependency versions
 2. **core** - Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
@@ -227,7 +229,7 @@ There are six areas to the project:
 5. **ui.tests** - Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 6. **ui.launcher** - contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
 
-![Maven Project Diagram](assets/project-pom.png) 
+![Maven Project Diagram](assets/project-pom.png)
 
 ### Parent POM {#parent-pom}
 
@@ -332,146 +334,166 @@ The Maven Sling Plugin allows the Core Bundle to be deployed to AEM directly lev
 </plugin>
 ```
 
-Try building the Core module independently from the rest of the project with the following commands from the terminal:
+1. Try building the Core module independently from the rest of the project with the following commands from the terminal:
 
-```shell
-$ cd aem-guides-wknd/core/
-$ mvn -PautoInstallBundle clean install
-...
-[INFO] Installing Bundle com.adobe.aem.guides.aem-guides-wknd.core(/src/aem-guides-wknd/core/target/aem-guides-wknd.core-0.0.1-SNAPSHOT.jar) to http://localhost:4502/system/console via WebConsole
-[INFO] Bundle installed
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 4.304 s
-[INFO] Finished at: 2018-04-05T12:10:59-04:00
-[INFO] Final Memory: 29M/469M
-[INFO] ------------------------------------------------------------------------
-```
+    ```shell
+    $ cd aem-guides-wknd/core/
+    $ mvn -PautoInstallBundle clean install
+    ...
+    [INFO] Installing Bundle com.adobe.aem.guides.aem-guides-wknd.core(/src/aem-guides-wknd/core/target/aem-guides-wknd.core-0.0.1-SNAPSHOT.jar) to http://localhost:4502/system/console via WebConsole
+    [INFO] Bundle installed
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESS
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Total time: 4.304 s
+    [INFO] Finished at: 2018-04-05T12:10:59-04:00
+    [INFO] Final Memory: 29M/469M
+    [INFO] ------------------------------------------------------------------------
+    ```
 
-Navigating to [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles) you should be able to see the bundle installed and active.
+2. Navigate to [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles) you should be able to see the bundle installed and active.
 
-![Core bundle](assets/bundle-2.png)
+    ![Core bundle](assets/bundle-2.png)
 
-The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module. You can see the 'physical' location of the jar in [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/wknd/install/wknd-sites-guide.core-0.0.1-SNAPSHOT.jar):
+    The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module. 
 
-![CRXDE Location of Jar](assets/jcr-bundle-location.png)
+3. You can see the 'physical' location of the jar in [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/wknd/install/wknd-sites-guide.core-0.0.1-SNAPSHOT.jar):
+
+    ![CRXDE Location of Jar](assets/jcr-bundle-location.png)
 
 ### UI.apps Module {#uiapps-pom}
 
 **UI.apps** maven module will include all of the rendering code needed for the site beneath /apps. This includes CSS/JS that will be stored in an AEM format called [clientlibs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html). This also includes [HTL](https://docs.adobe.com/docs/en/htl/overview.html) scripts for rendering dynamic HTML. You can think of the ui.apps module as a map to the structure in the JCR but in a format that can be stored on a file system and committed to source control.
 
-The [Apache Jackrabbit FileVault Package plugin](https://jackrabbit.apache.org/filevault-package-maven-plugin/index.html) is used to compile the contents of the ui.apps module into an AEM package that can be deployed to AEM. The global configurations for the plugin are defined at the Parent pom.xml. Inspecting the plugin definition you can see a configuration for `filterSource`. The `filterSource` points to the location of the filter.xml file that is used to define the jcr paths that are included in the package. The `filterSource` points to the location of the `filter.xml` file that is used to define the jcr paths that are included in the package. Beneath the FileVault Package plugin is the definition of the **Content Package Plugin** which is used to then push the package into AEM. Note that variables for aem.host, aem.port, vault.user, and vault.password are used that correspond to the global properties.
+The [Apache Jackrabbit FileVault Package plugin](https://jackrabbit.apache.org/filevault-package-maven-plugin/index.html) is used to compile the contents of the ui.apps module into an AEM package that can be deployed to AEM. The global configurations for the plugin are defined at the Parent pom.xml. 
 
-```xml
-// pom.xml
+1. Open the **pom.xml** beneath `<src>/aem-guides-wknd/pom.xml`:
 
-<!-- Jackrabbit FileVault Package Plugin -->
-<plugin>
-    <groupId>org.apache.jackrabbit</groupId>
-    <artifactId>filevault-package-maven-plugin</artifactId>
-    <version>1.0.1</version>
-    <configuration>
-        <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
-    </configuration>
-</plugin>
-<!-- Content Package Plugin -->
-<plugin>
-    <groupId>com.day.jcr.vault</groupId>
-    <artifactId>content-package-maven-plugin</artifactId>
-    <version>1.0.2</version>
-    <configuration>
-        <targetURL>https://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
-        <failOnError>true</failOnError>
-        <userId>${vault.user}</userId>
-        <password>${vault.password}</password>
-    </configuration>
-</plugin>
-```
+    Inspecting the plugin definition you can see a configuration for `filterSource`. The `filterSource` points to the location of the filter.xml file that is used to define the jcr paths that are included in the package. The `filterSource` points to the location of the `filter.xml` file that is used to define the jcr paths that are included in the package. Beneath the FileVault Package plugin is the definition of the **Content Package Plugin** which is used to then push the package into AEM. Note that variables for aem.host, aem.port, vault.user, and vault.password are used that correspond to the global properties.
 
-Looking at the pom.xml beneath the ui.apps folder you can see the **filevault-package-maven-plugin**. The **embedded** tags includes the compiled **core** bundle as part of the ui.apps package and where it will be installed.
+    ```xml
+    // pom.xml
 
-```xml
-//ui.apps/pom.xml
+    <!-- Jackrabbit FileVault Package Plugin -->
+    <plugin>
+        <groupId>org.apache.jackrabbit</groupId>
+        <artifactId>filevault-package-maven-plugin</artifactId>
+        <version>1.0.1</version>
+        <configuration>
+            <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
+        </configuration>
+    </plugin>
+    <!-- Content Package Plugin -->
+    <plugin>
+        <groupId>com.day.jcr.vault</groupId>
+        <artifactId>content-package-maven-plugin</artifactId>
+        <version>1.0.2</version>
+        <configuration>
+            <targetURL>https://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+            <failOnError>true</failOnError>
+            <userId>${vault.user}</userId>
+            <password>${vault.password}</password>
+        </configuration>
+    </plugin>
 
-<!-- ====================================================================== -->
-<!-- V A U L T   P A C K A G E   P L U G I N                                -->
-<!-- ====================================================================== -->
-<plugin>
-    <groupId>org.apache.jackrabbit</groupId>
-    <artifactId>filevault-package-maven-plugin</artifactId>
-    <extensions>true</extensions>
-    <configuration>
-    <embeddeds>
-        <embedded>
-            <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>aem-guides-wknd.core</artifactId>
-            <target>/apps/wknd/install</target>
-        </embedded>
-    </embeddeds>
-    <subPackages>
-        <subPackage>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.all</artifactId>
-            <filter>true</filter>
-        </subPackage>
-    </subPackages>
-    </configuration>
-</plugin>
-```
+    ```
 
-Notice that **core.wcm.components.all** is included as a **subPackage**. Inclusion of Core Components explained below:
+2. Open the file **ui.apps/pom.xml**:
 
-Open the file `ui.apps/src/main/content/META-INF/vault/filter.xml`. This file contains the defines the paths that will be included and installed with the ui.apps package:
+    Looking at the **ui.apps/pom.xml** you can see the **filevault-package-maven-plugin**. The **embedded** tags includes the compiled **core** bundle as part of the ui.apps package and where it will be installed.
 
-```xml
-<!-- ui.apps/src/main/content/META-INF/vault/filter.xml -->
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/apps/wknd"/>
-    <filter root="/apps/sling" />
-</workspaceFilter>
+    ```xml
+    //ui.apps/pom.xml
 
-```
+    <!-- ====================================================================== -->
+    <!-- V A U L T   P A C K A G E   P L U G I N                                -->
+    <!-- ====================================================================== -->
+    <plugin>
+        <groupId>org.apache.jackrabbit</groupId>
+        <artifactId>filevault-package-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+        <embeddeds>
+            <embedded>
+                <groupId>com.adobe.aem.guides</groupId>
+                <artifactId>aem-guides-wknd.core</artifactId>
+                <target>/apps/wknd/install</target>
+            </embedded>
+        </embeddeds>
+        <subPackages>
+            <subPackage>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.all</artifactId>
+                <filter>true</filter>
+            </subPackage>
+            <subPackage>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.examples</artifactId>
+                <filter>true</filter>
+            </subPackage>
+        </subPackages>
+        </configuration>
+    </plugin>
+
+    ```
+
+    Notice that **core.wcm.components.all** and **core.wcm.components.examples** are included as a **subPackages**. Inclusion of Core Components are explained later.
+
+3. Open the file `ui.apps/src/main/content/META-INF/vault/filter.xml`. This file contains the defines the paths that will be included and installed with the **ui.apps** package:
+
+    ```xml
+    <!-- ui.apps/src/main/content/META-INF/vault/filter.xml -->
+    <?xml version="1.0" encoding="UTF-8"?>
+    <workspaceFilter version="1.0">
+        <filter root="/apps/wknd"/>
+        <filter root="/apps/sling" />
+    </workspaceFilter>
+
+    ```
 
 ### UI.content Module {#uicontent-pom}
 
-**ui.content** maven module includes baseline content and configurations beneath /content and /conf. ui.content gets compiled into an AEM package much like ui.apps. The major difference is that the nodes stored in **ui.content** can be modified on the AEM instance directly. This includes pages, DAM assets, and editable templates. the **ui.content** module can be used to store sample content for a clean instance and/or to create some baseline configurations that are to be managed in source control.
+**ui.content** maven module includes baseline content and configurations beneath `/content` and `/conf`. **ui.content** gets compiled into an AEM package much like **ui.apps**. The major difference is that the nodes stored in **ui.content** can be modified on the AEM instance directly. This includes pages, DAM assets, and editable templates. The **ui.content** module can be used to store sample content for a clean instance and/or to create some baseline configurations that are to be managed in source control.
 
-Open the file `ui.content/src/main/content/META-INF/vault/filter.xml`. This file contains the defines the paths that will be included and installed with the ui.content package. Notice that a `mode="merge"` attribute is added to the path. This ensures that the configurations deployed with a code deployment do not automatically override content or configurations that have been authored on the AEM instance directly.
+1. Open the file `ui.content/src/main/content/META-INF/vault/filter.xml`.
 
-```xml
-<!-- ui.content/src/main/content/META-INF/vault/filter.xml -->
+    This file contains the defines the paths that will be included and installed with the ui.content package. Notice that a `mode="merge"` attribute is added to the path. This ensures that the configurations deployed with a code deployment do not automatically override content or configurations that have been authored on the AEM instance directly.
 
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/conf/wknd" mode="merge"/>
-    <filter root="/content/wknd" mode="merge"/>
-    <filter root="/content/dam/wknd" mode="merge"/>
-</workspaceFilter>
+    ```xml
+    <!-- ui.content/src/main/content/META-INF/vault/filter.xml -->
 
-```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <workspaceFilter version="1.0">
+        <filter root="/conf/wknd" mode="merge"/>
+        <filter root="/content/wknd" mode="merge"/>
+        <filter root="/content/dam/wknd" mode="merge"/>
+    </workspaceFilter>
 
-The `ui.content/pom.xml`, like the **ui.apps** module, uses the **FileVault Package plugin**. Notice that an extra configuration is added here for `acHandling`, set to `merge_preserve`. This is included because the **ui.content** module includes Access Control Lists (ACLs) which are permissions on who can edit the templates. In order for these ACLs to be imported into AEM the `acHandling` property is needed.
+    ```
 
-```xml
-<!-- ui.content/pom.xml -->
- <!-- ====================================================================== -->
-            <!-- V A U L T   P A C K A G E   P L U G I N S                              -->
-            <!-- ====================================================================== -->
-            <plugin>
-                <groupId>org.apache.jackrabbit</groupId>
-                <artifactId>filevault-package-maven-plugin</artifactId>
-                <extensions>true</extensions>
-                <configuration>
-                    <acHandling>merge_preserve</acHandling>
-                </configuration>
-            </plugin>
-```
+2. Open the file **ui.content/pom.xml**.
+
+    The **ui.content** module, like the **ui.apps** module, uses the **FileVault Package plugin**. Notice that an extra configuration property is added called `acHandling`, set to `merge_preserve`. This is included because the **ui.content** module includes Access Control Lists (ACLs) which are permissions, that determines who can edit the templates. In order for these ACLs to be imported into AEM the `acHandling` property is needed.
+
+    ```xml
+    <!-- ui.content/pom.xml -->
+    <!-- ====================================================================== -->
+                <!-- V A U L T   P A C K A G E   P L U G I N S                              -->
+                <!-- ====================================================================== -->
+                <plugin>
+                    <groupId>org.apache.jackrabbit</groupId>
+                    <artifactId>filevault-package-maven-plugin</artifactId>
+                    <extensions>true</extensions>
+                    <configuration>
+                        <acHandling>merge_preserve</acHandling>
+                    </configuration>
+                </plugin>
+
+    ```
 
 ## Inclusion of Core Components {#core-components}
 
-The project will leverage AEM Core Components. Earlier, when inspecting the deployed packages to AEM, 3 packages related to Core Components were included. Core Components are a set of base components designed to accelerate the development of an AEM Sites project. Core Components are open source and available on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components). More information about Core Components can be found [here](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html).
+The project will leverage AEM Core Components. Earlier, when inspecting the deployed packages to AEM, multiple packages related to Core Components were included. Core Components are a set of base components designed to accelerate the development of an AEM Sites project. Core Components are open source and available on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components). More information about Core Components can be found [here](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html).
 
 Core Components are installed in AEM automatically in the default runmode and used by the sample We.Retail site. In a [production runmode](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/production-ready.html) (`nosamplecontent`) Core Components will not be available. In order to leverage them in all deployments it is a best practice to include them as part of the Maven project.
 
@@ -479,24 +501,54 @@ The AEM project archetype includes Core Components by default. It is a good idea
 
 1. View the dependencies section of `aem-guides-wknd/pom.xml`:
 
-   A dependency for Core Components version 2.2.0 is added.
+   A dependency for Core Components version 2.3.0 is added and a dependency for Core Component examples is added:
 
    ```xml
    <dependencies>
    ...
     <dependency>
-       <groupId>com.adobe.cq</groupId>
-       <artifactId>core.wcm.components.all</artifactId>
-       <type>zip</type>
-      <version>2.2.0</version>
+        <groupId>com.adobe.cq</groupId>
+        <artifactId>core.wcm.components.all</artifactId>
+        <type>zip</type>
+        <version>2.3.0</version>
    </dependency>
+   <dependency>
+        <groupId>com.adobe.cq</groupId>
+        <artifactId>core.wcm.components.examples</artifactId>
+        <type>zip</type>
+        <version>1.0.0</version>
+    </dependency>
    ...
    </dependencies>
    ```
 
-2. View `aem-guides-wknd/ui.apps/pom.xml`:
+2. Update the version of Core Components to use the latest version of **2.3.2** and the latest version of Core Component Examples to **2.3.2**:
 
-   Notice the **core.wcm.components.all** is included as a dependency in the dependency list. Notice also that a version is not included here. As a best practice, versions for dependencies are managed in the Parent Pom file.
+    ```xml
+   <dependencies>
+   ...
+    <dependency>
+        <groupId>com.adobe.cq</groupId>
+        <artifactId>core.wcm.components.all</artifactId>
+        <type>zip</type>
+        <version>2.3.2</version>
+   </dependency>
+   <dependency>
+        <groupId>com.adobe.cq</groupId>
+        <artifactId>core.wcm.components.examples</artifactId>
+        <type>zip</type>
+        <version>2.3.2</version>
+    </dependency>
+   ...
+   </dependencies>
+   ```
+
+   >[!NOTE]
+   > As a best practice, you should always look to leverage the latest version of Core Components. New features and bug fixes are updated frequently. The latest [release information can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/releases).
+
+3. View `aem-guides-wknd/ui.apps/pom.xml`:
+
+   Notice the **core.wcm.components.all** and **core.wcm.components.examples** is included as a dependency in the dependency list. Notice also that a version is not included here. As a best practice, versions for dependencies are managed in the Parent Pom file.
 
    ```xml
    //ui.apps/pom.xml
@@ -507,13 +559,18 @@ The AEM project archetype includes Core Components by default. It is a good idea
        <artifactId>core.wcm.components.all</artifactId>
        <type>zip</type>
    </dependency>
+    <dependency>
+        <groupId>com.adobe.cq</groupId>
+        <artifactId>core.wcm.components.examples</artifactId>
+        <type>zip</type>
+    </dependency>
    ...
    </dependencies>
    ```
 
-3. View the Vault Package Plugin within `aem-guides-wknd/ui.apps/pom.xml`:
+4. View the Vault Package Plugin within `aem-guides-wknd/ui.apps/pom.xml`:
 
-   Notice that `core.wcm.components.all` zip is included as a sub-package. This will deploy the Core Components package along with the WKND code each time.
+   Notice that **core.wcm.components.all** and **core.wcm.components.examples** packages are included as a sub-package. This will deploy the Core Components package along with the WKND code each time.
 
    ```xml
    //ui.apps/pom.xml
@@ -538,10 +595,18 @@ The AEM project archetype includes Core Components by default. It is a good idea
                     <artifactId>core.wcm.components.all</artifactId>
                     <filter>true</filter>
                 </subPackage>
+                <subPackage>
+                    <groupId>com.adobe.cq</groupId>
+                    <artifactId>core.wcm.components.examples</artifactId>
+                    <filter>true</filter>
+                </subPackage>
             </subPackages>
         </configuration>
     </plugin>
    ```
+
+    >[!NOTE]
+    > The **core.wcm.components.examples** are a set of sample pages that illustrate examples of the Core Components. As a best practice, when deploying a project for production use we recommend removing this dependency and subPackage inclusion.
 
 ## (Optional) Add a Custom Thumbnail for the Package {#custom-thumbnail}
 
@@ -602,7 +667,10 @@ This is an optional task but its nice to easily identify your custom code packag
            </resource>
        </resources>
        ...
+
    ```
+
+4. Repeat the above steps to add the same custom thumbnail to the **ui.content** module.
 
 ## Deploy the Project to AEM {#deploy-project}
 
@@ -610,7 +678,7 @@ This is an optional task but its nice to easily identify your custom code packag
 
    ```shell
    $ cd <src>/aem-guides-wknd
-   $ mvn -PautoInstallPackage -Padobe-public clean install
+   $ mvn -PautoInstallPackage clean install
    ...
    [INFO] aem-guides-wknd .................................... SUCCESS [  0.369 s]
    [INFO] WKND Sites Project - Core .......................... SUCCESS [  3.836 s]
@@ -624,9 +692,9 @@ This is an optional task but its nice to easily identify your custom code packag
 
 2. Navigate to [Package Manager](http://localhost:4502/crx/packmgr/index.jsp) in AEM.
 
-   5 packages get installed. **core.wcm.components.all** includes 2 sub packages: **core.wcm.components.config **and** core.wcm.components.content**. You should also see the custom thumbnail for the WKND **ui.apps** and **ui.content** packages.
+   6 packages get installed. **core.wcm.components.all** includes 2 sub packages: **core.wcm.components.config **and** core.wcm.components.content**. The latest version of **core.wcm.components.examples** are also installed. You should now see the custom thumbnail for the WKND **ui.apps** and **ui.content** packages.
 
-   ![WKND Packages](assets/2018-11-01_at_1159am.png)
+   ![WKND Packages](assets/chapter-1/wknd-packages-thumbnail.png)
 
 ## Source Control Management {#source-control}
 
@@ -736,6 +804,7 @@ Popular developer workflow
 
 This tutorial will use the Eclipse IDE and the AEM Developer tools plugin. 
 
+>![NOTE]
 > **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env)**
 
 ## Developer Workflow {#developer-workflow}
