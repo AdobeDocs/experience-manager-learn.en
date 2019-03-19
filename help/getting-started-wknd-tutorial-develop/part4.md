@@ -17,7 +17,7 @@ Covers using the Style System to extend Core Components with brand-specific CSS 
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 4 of the multi-part tutorial. ** [Chapter 3 can be found here](/help/getting-started-wknd-tutorial-develop/part3.md) **and an ** [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
+This is Chapter 4 of the multi-part tutorial. **[Chapter 3 can be found here](/help/getting-started-wknd-tutorial-develop/part3.md)** and an **[overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
 
@@ -27,24 +27,24 @@ In this chapter we will use the [Style System feature](https://helpx.adobe.com/e
 
 ![](assets/wknd-site-component-mappingv2.png)
 
-** [Breadcrumb](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)**
+**[Breadcrumb](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)**
 
 * Configurable start level
 * Option to show hidden navigation items
 * Exclude the current page from the breadcrumb
 
-** [Content Fragment](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)**
+**[Content Fragment](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)**
 
 * Allow for article text (copy) to be created and managed independently of a page
 * Promotes reuse and variations for cross-channel
 
-** [Image](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)**
+**[Image](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)**
 
 * Smart loading of optimal rendition
 * In-place editing, cropping, rotating, and resizing
 * Image title, description, accessibility text and link
 
-** [List](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)**
+**[List](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)**
 
 * Multiple sources:
 
@@ -56,12 +56,12 @@ In this chapter we will use the [Style System feature](https://helpx.adobe.com/e
 * Ordering, pagination and limit
 * Styles
 
-** [Text](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)**
+**[Text](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)**
 
 * In-place editing
 * Rich Text authoring
 
-** [Title](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)**
+**[Title](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)**
 
 * In-place editing
 * Use the Page title with option to override the text
@@ -273,13 +273,9 @@ BLOCK cmp-text
     1. Policy Title &#42; = **WKND Text - Article**
     1. Plugins &gt; Formatting &gt; Check **Show underline option**
     1. Plugins &gt; Paragraph Styles &gt; Check **Enable paragraph styles**. Remove all elements except for **Paragraph** and **Quote**
-    
     1. Styles &gt; Add a new Style named **Quote Block **with a value of **cmp-text--quote**
 
-   ![](assets/text-policy.gif)
-
-1.
-
+       ![](assets/text-policy.gif)
     1. Edit the text component (pencil icon)
     1. Expand the RTE to full screen
     1. Use the Paragraph dropdown to create a Block Quote and add a famous quote.
@@ -307,8 +303,8 @@ BLOCK cmp-list
 1. Beneath **/apps/wknd/clientlibs/clientlib-site/components:**
 
     1. Create a new folder named **list**
-    1. Create a new file named** list.less**
-    1. Create a new folder named **styles **beneath the **list **folder
+    1. Create a new file named **list.less**
+    1. Create a new folder named **styles** beneath the **list** folder
     
     1. In the **styles** folder create a file named **default.less**
     
@@ -358,7 +354,7 @@ BLOCK cmp-list
    }
    ```
 
-1. Populate **upnext.less **with the following:
+1. Populate **upnext.less** with the following:
 
    ```css
    /* WKND List Up Next Style */
@@ -406,7 +402,7 @@ BLOCK cmp-list
    }        
    ```
 
-1. Update **list.less **with the following to include the **default** and **upnext** styles:
+1. Update **list.less** with the following to include the **default** and **upnext** styles:
 
    ```css
    /* WKND List Styles */
@@ -429,23 +425,19 @@ BLOCK cmp-list
    @import "components/text/text.less";
    @import "components/title/title.less";
    ```
-
-1. 
 1. Click the policy icon for the **List Component** in the Layout Container to open its policy configuration. Configure the following:
 
     1. Policy Title &#42; = **WKND List - Article**
     1. List Settings &gt; Date Format &gt; **EEEE, d MMM y**
-    1. Styles &gt; Add a new Style named **Up Next **with a value of **cmp-list--upnext**
+    1. Styles &gt; Add a new Style named **Up Next** with a value of **cmp-list--upnext**
 
-   ![](assets/list-policy.gif)
-
-1.
+       ![](assets/list-policy.gif)
 
     1. Drag + Drop a List Component on to the page
     1. Click the wrench icon to configure the List component
     1. List Settings &gt; Build List Using &gt; **Fixed List**
 
-        1. Under** **Options for Fixed List** **&gt; **Add a couple of pages**
+       1. Under [!UICONTROL Options for Fixed Lists] &gt; **Add a couple of pages**
 
     1. Item Settings &gt; Check **Link Items**, **Show date**
 
@@ -465,7 +457,7 @@ BLOCK cmp-list
 
 At this point, you may have noticed that the "body" of the Article template is spanning the full width of the page. The Layout Container, which we configued in Chapter 2, represents the body of the article and is used to allow authors to add components. We can use the Style System with the Layout Container to create a new, **fixed-width **style to restrict the body of the pages.
 
-1. Beneath **/apps/wknd/clientlibs/clientlib-site/components **perform the following tasks to create a new structure to contain Layout Container styles:
+1. Beneath **/apps/wknd/clientlibs/clientlib-site/components** perform the following tasks to create a new structure to contain Layout Container styles:
 
     1. Create a new folder named: **layout-container.**
     1. Beneath this folder create a file named:** layout-container.less**
@@ -495,7 +487,7 @@ At this point, you may have noticed that the "body" of the Article template is s
    }
    ```
 
-   The above snippet will center and restrict the Layout Container, that has a class of **.cmp-layout-container--fixed **to a max-width using a LESS variable, **@max-width**. This variable is defined in the **variables.less** file and is set to: 1164px. 
+   The above snippet will center and restrict the Layout Container, that has a class of **.cmp-layout-container--fixed ** to a max-width using a LESS variable, **@max-width**. This variable is defined in the **variables.less** file and is set to: 1164px. 
 
 1. Populate **layout-container.less **with the following:
 

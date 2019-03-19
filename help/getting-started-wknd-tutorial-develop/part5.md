@@ -17,7 +17,7 @@ Covers dynamic navigation driven by the content hierarchy and including the Quic
 
 ## Prerequisites {#prerequisites}
 
-This is Part 5 of the multi-part tutorial. ** [Part 4 can be found here](/help/getting-started-wknd-tutorial-develop/part4.md) **and an ** [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
+This is Part 5 of the multi-part tutorial. **[Part 4 can be found here](/help/getting-started-wknd-tutorial-develop/part4.md)** and an **[overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
 
@@ -532,7 +532,7 @@ Header Component with embedded Navigation and Quick Search components
    }
    ```
 
-   Update **/apps/wknd/clientlibs/clientlib-site/components/navigation/navigation.less** to included the **nav-header.less** file:
+   Update `/apps/wknd/clientlibs/clientlib-site/components/navigation/navigation.less` to included the **nav-header.less** file:
 
    ```css
    /* WKND navigation styles */

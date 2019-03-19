@@ -25,11 +25,11 @@ You can check out the finished code on [**GitHub**](https://github.com/Adobe-Mar
 
 Below are some of the front-end technologies used in the creation of the WKND site. The intention is to give you an idea of how 3rd party frameworks can easily be integrated into an AEM Site.
 
-** [LESS](https://lesscss.org/) **- popular CSS pre-compiler that allows variables and other functionality. AEM client libraries natively support LESS compilation. Saas or other pre-compilers can be used but would need to be compiled outside of AEM.
+**[LESS](https://lesscss.org/)** - popular CSS pre-compiler that allows variables and other functionality. AEM client libraries natively support LESS compilation. Saas or other pre-compilers can be used but would need to be compiled outside of AEM.
 
-** [jQuery](https://jquery.com/) **- popular JavaScript feature-rich library for manipulating HTML
+**[jQuery](https://jquery.com/)** - popular JavaScript feature-rich library for manipulating HTML
 
-** [  aemfed ](https://aemfed.io/)** -  npm  module that leverages  aemsync  and BrowserSync to instantly deploy and reload changes to accelerate front-end development.
+**[ aemfed ](https://aemfed.io/)** -  npm  module that leverages  aemsync  and BrowserSync to instantly deploy and reload changes to accelerate front-end development.
 
 ## Client-Side Libraries Structure {#clientlibs-structure}
 
