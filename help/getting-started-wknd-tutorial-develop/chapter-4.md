@@ -11,15 +11,22 @@ targetaudience: target-audience new
 
 ---
 
-# Getting Started with AEM Sites Chapter 4 - Developing with the Style System{#getting-started-with-aem-sites-chapter-developing-with-the-style-system}
+# Chapter 4 - Developing with the Style System {#developing-with-the-style-system}
 
 Covers using the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor. Content Fragments are also integrated to create long form article text.
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 4 of the multi-part tutorial. ** [Chapter 3 can be found here](chapter-3.md) **and an ** [overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
+This is Chapter 4 of the multi-part tutorial. [Chapter 3 can be found here](chapter-3.md) and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
+
+## Objective
+
+1. Understand how to use the Style System to apply brand-specific CSS to AEM Core Components.
+2. Learn about BEM notation and how it can be used to carefully scope styles.
+3. Use Content Fragments to support long-form article content.
+4. Apply advanced policy configurations with Editable Templates.
 
 ## Article Template Planning {#component-planning}
 

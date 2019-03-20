@@ -655,7 +655,7 @@ At this point everything needed to leverage [AEM's Responsive Grid](https://help
 
 ## Next Steps {#next-steps}
 
-Next part in the tutorial: [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](/help/getting-started-wknd-tutorial-develop/part4.md)
+Next part in the tutorial: [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](/help/getting-started-wknd-tutorial-develop/chapter-4.md)
 
 View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:  
 
