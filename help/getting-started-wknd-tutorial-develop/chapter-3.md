@@ -254,6 +254,7 @@ We will add a piece of javascript that will listen for a browser scroll and inje
 2. Populate **page.js** with the following:
 
    ```js
+
    /* JS Snippet to trigger class change on page scroll */
 
    (function (element, $) {
@@ -311,6 +312,7 @@ We will add a piece of javascript that will listen for a browser scroll and inje
 5. Populate **header.less** to include the default style for the **Header** component:
 
    ```css
+
    /* WKND Header Styles */
 
    @import "styles/default.less";
@@ -394,6 +396,7 @@ We will add a piece of javascript that will listen for a browser scroll and inje
 6. Lastly, update `/apps/wknd/clientlibs/clientlib-site/main.less` to include the **header.less** style:
 
    ```css
+
     /* main.less */
 
     ...
@@ -544,8 +547,10 @@ At a high level **aemfed** listens to file changes and automatically syncs the t
 2. To install **aemfed** you will need **npm** installed available via the command-line:
 
    ```shell
+
    $ npm --version
    6.4+
+
    ```
 
    If you do not have **npm** installed, the easiest way is to download and install [Node.js](https://nodejs.org/en/download/).
@@ -553,6 +558,7 @@ At a high level **aemfed** listens to file changes and automatically syncs the t
 3. Install **aemfed** globally with the following command:
 
    ```shell
+
    $ npm install aemfed --global
 
    # (aemfed is installed globally)
@@ -579,6 +585,7 @@ At a high level **aemfed** listens to file changes and automatically syncs the t
 4. From the command line navigate to the `<src>/aem-guides-wknd` directory. Run the following command to start  **aemfed** against an  aem  instance running on **localhost:4502**:
 
    ```shell
+
    aemfed -t "https://admin:admin@localhost:4502" -e "**/*___jb_+(old|tmp)___" -w "ui.apps/src/main/content/jcr_root/"
 
    ---------------------------------------
