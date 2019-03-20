@@ -11,7 +11,7 @@ targetaudience: target-audience new
 
 ---
 
-# Getting Started with AEM Sites Chapter 2 - Creating a Base Page and Template{#getting-started-with-aem-sites-chapter-creating-a-base-page-and-template}
+# Chapter 2 - Creating a Base Page and Template {#creating-a-base-page-and-template}
 
 Covers the creation of a base page and an editable template. Core Components are proxied into the project. Core Components of Text, Image, and Title are used to author an initial page.
 
@@ -102,7 +102,7 @@ Next a Header component will be created to be integrated into the Base page. The
    >**Pro Tip!**
    >
    >
-   >You can Double+Click the component in the Project Explorer and edit the XML configuration directly. This is preferrable when many edits must be made, but it can be error prone.
+   >You can Double+Click the component in the Project Explorer and edit the XML configuration directly. This is preferable when many edits must be made, but it can be error prone.
 
    ```xml
 
@@ -187,7 +187,7 @@ Each component added has a **sling:resourceSuperType** property to point to the 
 
    The **cq:editConfig** defines various behavior including Drag+Drop functionality from the Asset Finder in the Sites Editor. It is a required configuration for the Image component.
 
-   Notice the `cq:dropTargets/image/parameters` node. This tells AEM what component resource type to use when dragging an Image on to the page. If you are extending the Image component for custom component it will be important to update the **cq:editConfg**.
+   Notice the `cq:dropTargets/image/parameters` node. This tells AEM what component resource type to use when dragging an Image on to the page. If you are extending the Image component for custom component it will be important to update the **cq:editConfig**.
 
    ![image edit config](assets/chapter-2/image-edit-config.png)
 
@@ -226,7 +226,7 @@ The AEM Project archetype creates an Empty Page Template Type to start with. We 
 
 5. Inspect the **jcr:content** node beneath `template-types/empty-page/initial`. Notice that the **jcr:content** node beneath the **initial** page also points back to the base page component inspected earlier.
 
-   ![initial sling:resourcetype](assets/chapter-2/template-initial-content.png)
+   ![initial sling resource type](assets/chapter-2/template-initial-content.png)
 
 6. Inspect the nodes beneath `template-types/empty-page/policies`. The policies node defines how policies will be mapped to various components. This structure is standard across template types and not unique to the wknd's empty page template type.
 
@@ -312,7 +312,7 @@ The AEM project archetype created a content root for the WKND site automatically
 | sling:redirectStatus | Long | 302 | HTTP Status code |
 | sling:resourceType | String | `foundation/components/redirect` | Use foundation component for redirect |
 
-   As you can see some of the properties such as **allowedTemplates** on the Content Root are critical to the behavior of the site. In many implementations root configurations such as this are saved into scm to provide some baseline content structure. In other cases offline content packages are created and provide a similar role.
+   As you can see some of the properties such as **allowedTemplates** on the Content Root are critical to the behavior of the site. In many implementations root configurations such as this are saved into SCM to provide some baseline content structure. In other cases offline content packages are created and provide a similar role.
 
 1. Using Eclipse Dev Tools, in the **ui.content module** Right + Click `/content/wknd` page and [!UICONTROL **Import from server...**].
 
@@ -324,5 +324,5 @@ The AEM project archetype created a content root for the WKND site automatically
 
 Next part in the tutorial:
 
-* **[Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid](part3.md)**
+* **[Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid](chapter-3.md)**
 * View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the solution package:

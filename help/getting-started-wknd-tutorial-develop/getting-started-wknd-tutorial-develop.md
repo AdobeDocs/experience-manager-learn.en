@@ -77,7 +77,7 @@ In general each Part of the tutorial takes about **1-2 hours**.
 
 ### Chapter 3 {#part-3}
 
-**[Client-Side Libraries and Responsive Grid](part3.md)** - Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an AEM Sites implementation. Integration with AEM's responsive grid and mobile emulator. [aemfed](https://aemfed.io/) module is used to accelerate front end development.  
+**[Client-Side Libraries and Responsive Grid](chapter-3.md)** - Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an AEM Sites implementation. Integration with AEM's responsive grid and mobile emulator. [aemfed](https://aemfed.io/) module is used to accelerate front end development.  
 **Client-Side Libraries, CSS, Javascript, LESS, aemfed, Responsive Grid**
 
 ### Chapter 4 {#part-4}

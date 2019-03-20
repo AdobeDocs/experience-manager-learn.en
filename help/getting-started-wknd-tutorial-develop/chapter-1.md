@@ -11,7 +11,7 @@ targetaudience: target-audience new
 
 ---
 
-# Getting Started with AEM Sites Chapter 1 - Project Setup{#getting-started-with-aem-sites-chapter-project-setup}
+# Chapter 1 - Project Setup {#aem-sites-chapter-project-setup}
 
 Covers the creation of a Maven Multi Module Project to manage the code and configurations for an AEM Site.
 
