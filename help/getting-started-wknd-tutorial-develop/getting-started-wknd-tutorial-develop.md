@@ -82,7 +82,7 @@ In general each Part of the tutorial takes about **1-2 hours**.
 
 ### Chapter 4 {#part-4}
 
-**[Developing with the Style System](part4.md)** - Covers extending Core Components with brand-specific CSS and leveraging the Style System to create multiple variations of components. This part also uses Content Fragments for long form article content and covers some advanced policy configurations of the Template Editor.  
+**[Developing with the Style System](chapter-4.md)** - Covers extending Core Components with brand-specific CSS and leveraging the Style System to create multiple variations of components. This part also uses Content Fragments for long form article content and covers some advanced policy configurations of the Template Editor.  
 **CSS, Style System, Template Editor Policies**
 
 ### Chapter 5 {#part-5}
