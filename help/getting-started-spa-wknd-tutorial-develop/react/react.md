@@ -162,19 +162,20 @@ user-guide-title: AEM SPA WKND Tutorial
   + [1 - Project Setup](react/chapter-0.md)
     + [SPA Starter Kit](react/chapter-0.md)
     + [Hello World](textcomponent.md)
+      + View the page
     + [Thumbnails](thumbnails.md)
-  + [2 - Components](react/chapter-1.md)
+  + [2 - Front-end Development Workflow](react/chapter-2.md)
+    + [Proxy JSON](proxy.md)
+    + [Mock JSON](mock.md)
+  + [3 - Components](react/chapter-1.md)
     + [Component Mapping](container.md)
         + [App]
         + [Page]
         + [Text]
     + [Image Component](imagecomponent.md)
-        + [Image JSON](imagejson.md)
+        + [Image JSON](imagejson.md) -->
         + [React Image Component](imagereact.md)
         + [AEM Image Component](aemimage.md)
-  + [3 - Development Workflow](react/chapter-2.md)
-    + [Proxy JSON](proxy.md)
-    + [Mock JSON](mock.md)
   + [4 - Branding](blah.md)
     + [Styles](styles.md)
     + [Component Styles](header.md) -> Header, Image caption

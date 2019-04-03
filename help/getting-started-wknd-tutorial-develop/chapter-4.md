@@ -32,7 +32,7 @@ You can check out the finished code on [**GitHub**](https://github.com/Adobe-Mar
 
 In this chapter we will use the [Style System feature](https://helpx.adobe.com/experience-manager/kt/sites/using/style-system-feature-video-use.html) and [Editable Templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html) to create a unified look and feel for the Article Template. To start, we will identify areas of the article mockup that will map to AEM components.
 
-![](assets/wknd-site-component-mappingv2.png)
+![component planning](assets/chapter-4/wknd-site-component-mappingv2.png)
 
 **[Breadcrumb](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)**
 
