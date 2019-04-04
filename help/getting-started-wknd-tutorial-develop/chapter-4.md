@@ -34,46 +34,14 @@ In this chapter we will use the [Style System feature](https://helpx.adobe.com/e
 
 ![component planning](assets/chapter-4/wknd-site-component-mappingv2.png)
 
-**[Breadcrumb](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)**
+Core Components provide components that we can use. Instead of building our own components we will focus on styling the components to match the mockups. Below are the components that we will use:
 
-* Configurable start level
-* Option to show hidden navigation items
-* Exclude the current page from the breadcrumb
-
-**[Content Fragment](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)**
-
-* Allow for article text (copy) to be created and managed independently of a page
-* Promotes reuse and variations for cross-channel
-
-**[Image](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)**
-
-* Smart loading of optimal rendition
-* In-place editing, cropping, rotating, and resizing
-* Image title, description, accessibility text and link
-
-**[List](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)**
-
-* Multiple sources:
-
-    * List page children
-    * List tagged items
-    * List query result
-    * List static items
-
-* Ordering, pagination and limit
-* Styles
-
-**[Text](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)**
-
-* In-place editing
-* Rich Text authoring
-
-**[Title](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)**
-
-* In-place editing
-* Use the Page title with option to override the text
-
-The Core Components provide all the above functionality. We will focus on styling the components to match the mockups.
+* [Breadcrumb](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/breadcrumb.html)
+* [Content Fragment](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/content-fragment-component.html)
+* [Image](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/image.html)
+* [List](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/list.html)
+* [Text](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/text.html)
+* [Title](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/title.html)
 
 ## Style System {#style-system}
 
@@ -85,56 +53,78 @@ You can find [detailed documentation for Style System here.](https://helpx.adobe
 
 ## Title Component {#title-component}
 
-At this point the [Title Component](https://helpx.adobe.com/experience-manager/core-components/using/title.html) has been proxied into the project under **/apps/wknd/components/content/title**. We will add styles for the Title Component in the **clientlib-site** library:** /apps/wknd/clientlibs/clientlib-site/components**
+At this point the [Title Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/title.html) has been proxied into the project under `/apps/wknd/components/content/title`. We will add styles for the Title Component in the **clientlib-site** library: `/apps/wknd/clientlibs/clientlib-site/components`.
+
+### Inspect Title Component Example
+
+As part of the generated project, the archetype embedded **Core Component Examples** project. For developers and content authors this contains an easy reference to understand all of the features available with Core Components. A live version is also [available](http://opensource.adobe.com/aem-core-wcm-components/library.html).
+
+1. Open a new browser and navigate to your local instance of AEM.
+2. From the start menu navigate to **Sites** `>` **Core Components** `>` **Component Library** `>` **Title**.
+
+    ![title example](assets/chapter-4/title-example.png)
+
+3. Select the **Title** page and open it by clicking the **Edit** icon.
+4. The page that opens is a dedicated page with examples of the **Title** component. This is a live page and all of the components can be edited.
+5. Switch into **Preview** mode and select the **Markup** tab beneath one of the **Title** component examples.
+
+    ![markup of title component](assets/chapter-4/title-example-markup.png)
+
+    When styling Core Components, we will want to reference the markup generated, as well as the class names put on the individual elements.
+
+### Add a style to the Title Component
 
 The mockups contain a unique style for the Title component with an underline. Instead of creating 2 components or modifying the component dialog, the Style System can be used to allow authors the option to add an underline style.
 
-![](assets/title-stylesv2.png)
+![title component style mockup](assets/chapter-4/title-stylesv2.png)
 
 >[!NOTE]
 >
 >It is considered a best practice to always tightly scope styles to the target component. This ensures that extra styles don't affect other areas of the page.
 >
->All Core Components adhere to ** [BEM notation](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)**. It is a best practice to target the outer CSS class when creating a default style for a component. Another best practice is to target class names specified by the Core Component BEM notation rather than HTML elements.
+>All Core Components adhere to **[BEM notation](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)**. It is a best practice to target the outer CSS class when creating a default style for a component. Another best practice is to target class names specified by the Core Component BEM notation rather than HTML elements. 
 
-**Title Component BEM Notation**
+Compare the below BEM notation to the Markup on the example page viewed earlier.
 
-```
+#### Title Component BEM Notation
+
+```plain
 BLOCK cmp-title
     ELEMENT cmp-title__text
 ```
 
-1. In the previous chapter, some default styles were imported for the Title component. In the **ui.apps** module beneath **/apps/wknd/clientlibs/clientlib-site/components/title. **There is currently a default style defined by **default.less**:
+1. In the previous chapter, some default styles were imported for the Title component. In the **ui.apps** module beneath `/apps/wknd/clientlibs/clientlib-site/components/title`. There is currently a default style defined by **default.less**:
 
    ```css
    /* WKND Title Default style */
-    
+
    .cmp-title {
-        
+
        h1, h2, h3, h4 {
            font-family: @font-family-serif;
        }
-   
+
        h1 {
            font-size: 48px;
-   
+
            @media (max-width: @screen-medium) {
                font-size: @font-size-h1;
            }
        }
-       
+
    }
+
    ```
 
-1. Create a file named **underline.less** beneath the **styles** folder in the previous step: **/apps/wknd/clientlibs/clientlib-site/components/title/styles/underline.less**
+2. Create a file named **underline.less** beneath the **styles** folder: `/apps/wknd/clientlibs/clientlib-site/components/title/styles/underline.less`
 
-   Add the following code:
+   Add the following code to **underline.less**:
 
    ```css
    /* WKND Title Underline style */
-   
+
    .cmp-title--underline {
-    
+
     .cmp-title {
      .cmp-title__text {
       &:after {
@@ -147,51 +137,49 @@ BLOCK cmp-title
      }
     }
    }
-   
+
    ```
 
    This will add a partial underline beneath the title component with the WKND's brand primary color (yellow).
 
-1. Update **/apps/wknd/clientlibs/clientlib-site/components/title/title.less **with the following code to inculde the default and underline styles:
+3. Update `/apps/wknd/clientlibs/clientlib-site/components/title/title.less` with the following code to include the default and underline styles:
 
    ```css
    /* WKND Title Styles */
-   
+
    @import (once) "styles/default.less";
    @import (once) "styles/underline.less";
    ```
 
-   ![](assets/screen_shot_2018-02-05at60620pm.png)
+   ![Styles in project folder](assets/chapter-4/title-styles-projectfolder.png)
 
-1. 
-1. Click the Title Component in the Layout Container to open its policy configuration:
+4. Deploy the updated code base to a local AEM instance using the **AEM Developer Tool** plugin or using your Maven skills.
+5. In AEM navigate to the **Article Page Template**:
+    [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: pid90611
-   Last Modified Date: 2018-02-13T08:44:40.769-0500
-   "its policy configuration"
-   -->
+    Click the **Title** Component in the **Layout Container** to open its policy configuration:
 
-   ![](assets/title-policy.gif)
+   ![edit title policy](assets/chapter-4/title-policy.gif)
 
-1. Update the Policy with the following values:
+6. Update the Policy with the following values:
 
-   Policy Title &#42; : **WKND Title - Article**
+   *Policy Title &#42;*: **WKND Title - Article**
 
-   Properties &gt; Sizes &gt; **Check all sizes**
+   *Properties* `>` *Sizes* `>`: **Check all sizes**
 
-   Properties &gt; Styles Tab &gt; Add a new style
+   *Properties* `>` *Styles Tab* `>`: Add a new style
 
    **Underline** : **cmp-title--underline**
 
-   ![](assets/2018-04-06_at_1116am.png)
+   ![Style policy configuration for title](assets/chapter-4/title-policy-configuration.png)
 
-   Notice how ***cmp-title--underline*** added in the template policy matches top level CSS class rule specified in the **underline.less file.** 
+   Notice how ***cmp-title--underline*** added in the template policy matches top level CSS class rule specified in the **underline.less** file.
 
-1. You should now be able to add a new Title component to the a page and then apply the Underline style to the component. Navigate to: [http://localhost:4502/editor.html/content/wknd/en/first-article-page.html](http://localhost:4502/editor.html/content/wknd/en/first-article-page.html)
+7. You should now be able to add a new Title component to the a page and then apply the Underline style to the component. 
 
-   ![](assets/title-style.gif)
+    Navigate to: [http://localhost:4502/editor.html/content/wknd/en/first-article.html](http://localhost:4502/editor.html/content/wknd/en/first-article.html)
+
+   ![Title Style applied](assets/chapter-4/title-style.gif)
 
    View the HTML source of the Title Component when no style is applied:
 
@@ -217,39 +205,45 @@ BLOCK cmp-title
 
 ## Text Component {#text-cmp-component}
 
+Inspect the **Text** component example page to understand the features of the component:
+
+[http://localhost:4502/editor.html/content/core-components-examples/library/text.html](http://localhost:4502/editor.html/content/core-components-examples/library/text.html)
+
+### Add a style to the Text Component
+
 Next we will add some additional styles to the text component so that authors are able to create a Quote Block style, in addition to standard article text.
 
-![](assets/text-styles-mockup.png)
+![text styles mockups](assets/chapter-4/text-styles-mockup.png)
 
-**Text Component BEM Notation**
+#### Text Component BEM Notation
 
-```
+```plain
 BLOCK cmp-text
     ELEMENT cmp-text__paragraph (only present if text is NOT Rich Text)
 ```
 
-1. Beneath **/apps/wknd/clientlibs/clientlib-site/components/text/styles **create a new file named **quote.less**. 
+1. Beneath `/apps/wknd/clientlibs/clientlib-site/components/text/styles` create a new file named **quote.less**.
 
-   ![](assets/screen_shot_2018-02-05at74227pm.png)
+   ![project folder with quote](assets/chapter-4/project-explorer-quote.png)
 
-1. Populate **/apps/wknd/clientlibs/clientlib-site/components/text/styles/quote.less **with the following:
+2. Populate `/apps/wknd/clientlibs/clientlib-site/components/text/styles/quote.less` with the following:
 
    ```css
    /* WKND Text Quote style */
-   
+
    .cmp-text--quote {
-   
+
          background-color:@brand-secondary;
          padding: 1em 3em;
         margin: 1em 0em;
-         
+
          blockquote {
           margin: 0;
           font-size: 36px;
           border: none;
           padding: 14px 0px;
          }
-         
+
          u {
           text-decoration: none;
           font-family: @font-family-sans-serif;
@@ -261,10 +255,10 @@ BLOCK cmp-text
           }
          }
    }
-   
+
    ```
 
-1. Update **/apps/wknd/clientlibs/clientlib-site/components/text/text.less **to include the **default.less** and **quote.less** files:
+3. Update `/apps/wknd/clientlibs/clientlib-site/components/text/text.less` to include the **default.less** and **quote.less** files:
 
    ```css
    /* WKND Text Styles */
@@ -274,32 +268,46 @@ BLOCK cmp-text
 
    ```
 
-1. 
-1. Click the Text Component in the Layout Container to open its policy configuration. Configure the following:
+4. Deploy the updated code base to a local AEM instance using the **AEM Developer Tool** plugin or using your Maven skills.
+5. In AEM navigate to the Article Page Template:
+    [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
+
+    Click the **Text Component** in the Layout Container to open its policy configuration. Configure the following policy:
 
     1. Policy Title &#42; = **WKND Text - Article**
-    1. Plugins &gt; Formatting &gt; Check **Show underline option**
-    1. Plugins &gt; Paragraph Styles &gt; Check **Enable paragraph styles**. Remove all elements except for **Paragraph** and **Quote**
-    1. Styles &gt; Add a new Style named **Quote Block **with a value of **cmp-text--quote**
+    2. Plugins &gt; Formatting &gt; Check **Show underline option**
+    3. Plugins &gt; Paragraph Styles &gt; Check **Enable paragraph styles**. Remove all elements except for **Paragraph** and **Quote**
+    4. Styles &gt; Add a new Style named **Quote Block** with a value of **cmp-text--quote**
 
-       ![](assets/text-policy.gif)
+    ![Text policy configuration](assets/chapter-4/text-policy.gif)
+
+6. Navigate to the [first article page](http://localhost:4502/editor.html/content/wknd/en/first-article.html) and create a new text component:
+
     1. Edit the text component (pencil icon)
-    1. Expand the RTE to full screen
-    1. Use the Paragraph dropdown to create a Block Quote and add a famous quote.
-    1. On a new line below the Block Quote create a paragraph element and add the name of the author
-    1. Apply the Underline RTE style to the Author Name
-    1. Save changes
-    1. Change the Style to Quote Block style
+    2. Expand the RTE to full screen
+    3. Use the Paragraph dropdown to create a Block Quote and add a famous quote.
+    4. On a new line below the Block Quote create a paragraph element and add the name of the author
+    5. Apply the Underline RTE style to the Author Name
+    6. Save changes
+    7. Change the Style to **Quote Block** style
 
-   ![](assets/rte-full-screen-edit.gif) ![](assets/apr-06-2018_11-57-48.gif)
+    ![RTE full screen edit](assets/chapter-4/rte-full-screen-edit.gif)
+
+    ![apply text rte style](assets/chapter-4/text-rte-edit.gif)
 
 ## List Component {#list-component-style}
 
-The List component as offered from the Core Component will be used to populate an Up Next list of articles. A List component will also be made a fixed part of the Article Page Template to promote consistency across Article Pages. The List component can be used for other parts of the site so a unique style will be created for the Up Next variation.
+Inspect the **List** component example page to understand the features of the component:
 
-**List BEM Notation:**
+[http://localhost:4502/editor.html/content/core-components-examples/library/list.html](http://localhost:4502/editor.html/content/core-components-examples/library/list.html)
 
-```
+### Add a style to the List Component
+
+The List component as offered from the Core Component will be used to populate an **Up Next** list of articles. A List component will also be made a fixed part of the Article Page Template to promote consistency across Article Pages. The List component can be used for other parts of the site so a unique style will be created for the Up Next variation.
+
+#### List BEM Notation
+
+```plain
 BLOCK cmp-list
     ELEMENT cmp-list__item
     ELEMENT cmp-list__item-link
@@ -307,118 +315,116 @@ BLOCK cmp-list
     ELEMENT cmp-list__item-date
 ```
 
-1. Beneath **/apps/wknd/clientlibs/clientlib-site/components:**
+1. Beneath `/apps/wknd/clientlibs/clientlib-site/components`:
 
     1. Create a new folder named **list**
-    1. Create a new file named **list.less**
-    1. Create a new folder named **styles** beneath the **list** folder
-    
-    1. In the **styles** folder create a file named **default.less**
-    
-    1. In the **styles** folder create a file named **upnext.less**
+    2. Create a new file named **list.less**
+    3. Create a new folder named **styles** beneath the **list** folder
+    4. In the **styles** folder create a file named **default.less**
+    5. In the **styles** folder create a file named **upnext.less**
 
-   ![](assets/screen_shot_2018-02-05at104928pm.png)
+   ![project explorer list styles](assets/chapter-4/project-explorer-list.png)
 
-1. Populate **default.less** with the following:
+2. Populate **default.less** with the following:
 
    ```css
    /* WKND List Default Style */
 
    .cmp-list {
-        
+
        float:left;
        padding:0;
-        
+
        .cmp-list__item {
            list-style: none;
            float:left;
            width:100%;
            margin-bottom:1em;
        }
-        
+
        .cmp-list__item-link {
            font-weight: 600;
            float:left;
            padding: 0.5rem 1rem;
-            
+
            &:hover {
                background: @brand-secondary;
            }
        }
-        
+
        .cmp-list__item-title {
            width:100%;
            float:left;
        }
-        
+
        .cmp-list__item-date {
            width:100%;
            float:left;
            color: @gray-light;
            font-size: @font-size-small; 
        }
-        
+
    }
    ```
 
-1. Populate **upnext.less** with the following:
+3. Populate **upnext.less** with the following:
 
    ```css
    /* WKND List Up Next Style */
-        
+
    .cmp-list--upnext {
-        
+
        .cmp-list {
-                
+
                padding-left: 0em;
-                
+
                .cmp-list__item {
                    list-style: none;
                    float:left;
                    width:100%; 
                    margin-bottom:1em;
                }
-                
+
                .cmp-list__item-link {
                    font-weight: normal;
                    height: 120px;
                    border-left: 6px solid @brand-secondary;
-                    
+
                    &:hover {
                        background: @brand-primary;
                        border-color: @text-color;
                    }
-                    
+
                }
-                
+
                .cmp-list__item-title {
                    color: @text-color;
                    padding: 5px;
                    text-transform: uppercase;
-                    
+
                }
-                
+
                .cmp-list__item-date {
                    color: @gray-light;
                    font-size: @font-size-xsmall; 
                    padding: 5px;
                    text-transform: uppercase;
                }
-                
+
            }
-   }        
+   }
    ```
 
-1. Update **list.less** with the following to include the **default** and **upnext** styles:
+4. Update **list.less** with the following to include the **default** and **upnext** styles:
 
    ```css
    /* WKND List Styles */
-   
+
    @import (once) "styles/default.less";
    @import (once) "styles/upnext.less";
    ```
 
-1. Add a line to **/apps/wknd/clientlibs/clientlib-site/main.less** file to import the **list.less** file:
+5. Add a line to `/apps/wknd/clientlibs/clientlib-site/main.less` file to import the **list.less** file:
 
    ```css
    /* Component Styles */
@@ -433,23 +439,29 @@ BLOCK cmp-list
    @import "components/title/title.less";
    ```
 
-1. Click the policy icon for the **List Component** in the Layout Container to open its policy configuration. Configure the following:
+6. Deploy the updated code base to a local AEM instance using the **AEM Developer Tool** plugin or using your Maven skills.
+7. In AEM navigate to the Article Page Template:
+    [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
+
+    Click the policy icon for the **List Component** in the Layout Container to open its policy configuration. Configure the following:
 
     1. Policy Title &#42; = **WKND List - Article**
-    1. List Settings &gt; Date Format &gt; **EEEE, d MMM y**
-    1. Styles &gt; Add a new Style named **Up Next** with a value of **cmp-list--upnext**
+    2. List Settings &gt; Date Format &gt; **EEEE, d MMM y**
+    3. Styles &gt; Add a new Style named **Up Next** with a value of **cmp-list--upnext**
 
-       ![](assets/list-policy.gif)
+       ![List policy configuration](assets/chapter-4/list-policy.gif)
+
+8. Navigate to the [first article page](http://localhost:4502/editor.html/content/wknd/en/first-article.html) and create a new **List** component:
 
     1. Drag + Drop a List Component on to the page
-    1. Click the wrench icon to configure the List component
-    1. List Settings &gt; Build List Using &gt; **Fixed List**
+    2. Click the wrench icon to configure the List component
+    3. List Settings &gt; Build List Using &gt; **Fixed List**
 
        1. Under [!UICONTROL Options for Fixed Lists] &gt; **Add a couple of pages**
 
-    1. Item Settings &gt; Check **Link Items**, **Show date**
+    4. Item Settings &gt; Check **Link Items**, **Show date**
 
-   ![](assets/list-config.gif)
+   ![configure list on a page](assets/chapter-4/list-config.gif)
 
    Several dynamic sources can be configured for the List component including:
 
@@ -459,27 +471,33 @@ BLOCK cmp-list
 
    Full configuration details can be found in the [List Component README.](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)
 
-1. ![](assets/list-style-applied.gif)
+9. Apply the **Up Next** style to the list component:
+
+    ![apply up next style](assets/chapter-4/list-style-applied.gif)
 
 ## Layout Container {#layout-container}
 
-At this point, you may have noticed that the "body" of the Article template is spanning the full width of the page. The Layout Container, which we configued in Chapter 2, represents the body of the article and is used to allow authors to add components. We can use the Style System with the Layout Container to create a new, **fixed-width **style to restrict the body of the pages.
+At this point, you may have noticed that the "body" of the Article template is spanning the full width of the page. The Layout Container, which we configured in Chapter 2, represents the body of the article and is used to allow authors to add components. 
 
-1. Beneath **/apps/wknd/clientlibs/clientlib-site/components** perform the following tasks to create a new structure to contain Layout Container styles:
+We can use the Style System with the Layout Container to create a new, **fixed-width** style to restrict the body of the pages.
+
+1. Beneath `/apps/wknd/clientlibs/clientlib-site/components` perform the following tasks to create a new structure to contain Layout Container styles:
 
     1. Create a new folder named: **layout-container.**
-    1. Beneath this folder create a file named:** layout-container.less**
-    1. Beneath the **layout-container** folder create a new folder named: **styles**.
-    
-    1. In the **styles** folder create a file named **fixed-width.less**
+    2. Beneath this folder create a file named: **layout-container.less**
+    3. Beneath the **layout-container** folder create a new folder named: **styles**.
+    4. In the **styles** folder create a file named **default.less**
+    5. In the **styles** folder create a file named **fixed-width.less**
 
-   ![](assets/2018-11-15_at_4_22pm.png)
+   ![layout container files](assets/chapter-4/project-explorer-layout-container.png)
 
-1. Populate **fixed-width.less **with the following:
+2. We will leave the **default.less** empty for now, but as a best practice we created it. 
+
+    Populate **fixed-width.less** with the following:
 
    ```css
    /* WKND Layout Container - fixed-width.less */
-   
+
    .cmp-layout-container--fixed {
      display:block;
      max-width:  @max-width !important;
@@ -487,27 +505,27 @@ At this point, you may have noticed that the "body" of the Article template is s
      margin: 0 auto !important;
      padding: 0 @gutter-padding;
      clear: both !important; 
-   
+
      @media (max-width: @screen-medium) {
        padding: 0 !important;
      }
-     
+
    }
    ```
 
-   The above snippet will center and restrict the Layout Container, that has a class of **.cmp-layout-container--fixed ** to a max-width using a LESS variable, **@max-width**. This variable is defined in the **variables.less** file and is set to: 1164px. 
+   The above snippet will center and restrict the Layout Container, with a class of **.cmp-layout-container--fixed** to a max-width using a LESS variable, **@max-width**. This variable is defined in the **variables.less** file and is set to: **1164px**.
 
-1. Populate **layout-container.less **with the following:
+3. Populate **layout-container.less** with the following:
 
    ```css
    /* WKND Layout Container Styles */
-   
+   @import (once) "styles/default.less";
    @import (once) "styles/fixed-width.less";
    ```
 
-1. Next update **/apps/wknd/clientlibs/clientlib-site/main.less** to include the **layout-container.less **file:
+4. Next update `/apps/wknd/clientlibs/clientlib-site/main.less` to include the **layout-container.less** file:
 
-   Update **main.less **with the following:
+   Update **main.less** with the following:
 
    ```css
    /* Component Styles */
@@ -521,22 +539,26 @@ At this point, you may have noticed that the "body" of the Article template is s
    @import "components/title/title.less";
    ```
 
-1. If you have been editing the code base within Eclipse or another IDE, deploy the code to AEM.
-1. Click the Layout Container Component and then click it's policy icon to open up the Layout Container policy dialog:
+5. Deploy the updated code base to a local AEM instance using the **AEM Developer Tool** plugin or using your Maven skills.
+6. In AEM navigate to the Article Page Template:
+    [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
 
-   ![](assets/2018-11-15_at_4_44pm.png) 
-   The current policy title is WKND Content.  
-   Update the Styles tab:
+    Click the **Layout Container** Component and then click it's policy icon to open up the policy dialog:
 
-    1. Styles &gt; Add a new Style named **Default **with no value  
-    
-    1. Styles &gt; Add a new Style named **Fixed Width** with a value: **cmp-layout-container--fixed**
+   ![Layout container policy](assets/chapter-4/layout-container-policy.png)
 
-   ![](assets/2018-11-15_at_4_46pm.png)
+   The current policy title is **WKND Content**.
+  
+   Update the **Styles** tab:
 
-1. Finally, test out the Fixed Width style on the layout container. 
+    1. Styles &gt; Add a new Style named **Full Width** (default)with no value
+    2. Styles &gt; Add a new Style named **Fixed Width** with a value: **cmp-layout-container--fixed**
 
-   ![](assets/fixed-width.gif)
+   ![Layout policy configuration](assets/chapter-4/layout-policy-configuration.png)
+
+7. Finally, test out the Fixed Width style on the main layout container in the Article Page Template.
+
+   ![apply fixed width style](assets/chapter-4/apply-fixed-width.gif)
 
    >[!CAUTION]
    >
@@ -548,11 +570,11 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
 1. The Content Fragment component is a separate module of AEM Core Components. The paren pom.xml must be updated to ensure it is available on AEM.
 
-   Add the following dependency to **aem-guides-wkn/pom.xml**:
+   Add the following dependency to the parent **POM** at `aem-guides-wknd/pom.xml`:
 
    ```xml
    //pom.xml
-   
+
    ...
    <dependencies>
    ...
@@ -560,7 +582,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
        <groupId>com.adobe.cq</groupId>
        <artifactId>core.wcm.components.extension</artifactId>
        <type>zip</type>
-       <version>1.0.6</version>
+       <version>1.0.12</version>
    </dependency>
    ...
    </dependencies>
@@ -570,61 +592,68 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    ```xml
    // ui.apps/pom.xml
-   
+
    ...
-   
+
    <dependencies>
    ...
-       <dependency>
-           <groupId>com.adobe.cq</groupId>
-    <artifactId>core.wcm.components.extension</artifactId>
-    <type>zip</type>
-       </dependency>
+    <dependency>
+        <groupId>com.adobe.cq</groupId>
+        <artifactId>core.wcm.components.extension</artifactId>
+        <type>zip</type>
+    </dependency>
    ...
    </dependencies>
    ```
 
    ```xml
-   // ui.apps/pom.xml
-   
+   <!-- ui.apps/pom.xml -->
+
    <plugins>
    ...
-   <!-- ====================================================================== -->
-               <!-- V A U L T   P A C K A G E   P L U G I N S                              -->
-               <!-- ====================================================================== -->
-               <plugin>
-                   <groupId>org.apache.jackrabbit</groupId>
-                   <artifactId>filevault-package-maven-plugin</artifactId>
-                   <extensions>true</extensions>
-                   <configuration>
-                       <embeddeds>
-                           <embedded>
-                               <groupId>com.adobe.aem.guides</groupId>
-                               <artifactId>aem-guides-wknd.core</artifactId>
-                               <target>/apps/wknd/install</target>
-                           </embedded>
-                       </embeddeds>
-                       <subPackages>
-                           <subPackage>
-                               <groupId>com.adobe.cq</groupId>
-                               <artifactId>core.wcm.components.all</artifactId>
-                               <filter>true</filter>
-                           </subPackage>
-                           <subPackage>
-                            <groupId>com.adobe.cq</groupId>
-       <artifactId>core.wcm.components.extension</artifactId>
-                  <filter>true</filter>
-                           </subPackage>
-                       </subPackages>
-                   </configuration>
-               </plugin>
+    <!-- ====================================================================== -->
+    <!-- V A U L T   P A C K A G E   P L U G I N S                              -->
+    <!-- ====================================================================== -->
+    <plugin>
+        <groupId>org.apache.jackrabbit</groupId>
+        <artifactId>filevault-package-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+            <embeddeds>
+                <embedded>
+                    <groupId>com.adobe.aem.guides</groupId>
+                    <artifactId>aem-guides-wknd.core</artifactId>
+                    <target>/apps/wknd/install</target>
+                </embedded>
+            </embeddeds>
+            <subPackages>
+                <subPackage>
+                    <groupId>com.adobe.cq</groupId>
+                    <artifactId>core.wcm.components.all</artifactId>
+                    <filter>true</filter>
+                </subPackage>
+                <!-- add extension to pom -->
+                <subPackage>
+                    <groupId>com.adobe.cq</groupId>
+                    <artifactId>core.wcm.components.extension</artifactId>
+                    <filter>true</filter>
+                </subPackage>
+                <subPackage>
+                    <groupId>com.adobe.cq</groupId>
+                    <artifactId>core.wcm.components.examples</artifactId>
+                    <filter>true</filter>
+                </subPackage>
+            </subPackages>
+        </configuration>
+    </plugin>
    ...
    </plugins>
+
    ```
 
 3. There is a Content Fragment reference component in AEM Core Components. It was not included automatically by the AEM project archetype. Manually proxy the component into the WKND code base.
 
-   Create a **cq:Component** node named **contentfragment** beneath **/apps/wknd/components/content.**
+   Create a **cq:Component** node named **contentfragment** beneath `/apps/wknd/components/content`.
 
    Add the following properties to the node:
 
@@ -634,8 +663,8 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
    | jcr:description |String |**Displays content from a referenced Content Fragment** |
    | jcr:title |String |**Content Fragment** |
    | *jcr:primaryType* |*Name* |*cq:Component* |
-   | sling:resourceSuperType |String |**core/wcm/extension/components/contentfragment/v1/contentfragment** |
-   | cq:isContainer |Booean |true |
+   | sling:resourceSuperType |String |`core/wcm/extension/components/contentfragment/v1/contentfragment` |
+   | cq:isContainer |Boolean |true |
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -648,60 +677,72 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
        jcr:description="Displays content from a referenced Content Fragment"/>
    ```
 
-4. In the previous chapter, as part of the import, some default styles for the Content Fragment component were included beneath **/apps/wknd/clientlibs/clientlib-site/components/contentfragment **:
+4. In the previous chapter, as part of the import, some default styles for the Content Fragment component were included beneath `/apps/wknd/clientlibs/clientlib-site/components/contentfragment`:
 
    ```css
    /* WKND Content Fragment style - default.less */
-   
+
    .cmp-contentfragment {
-    
+
     font-family: @font-family-serif;
-    
+
        p {
         text-align: justify;
         font-size: 20px;
         line-height: (@line-height-base + 1);
        }
    }
+
    ```
 
-   ![](assets/2018-04-06_at_1214pm.png)
+   ![Content Fragment Styles project explorer](assets/chapter-4/contentfragment-style-projectexplorer.png)
 
 5. Deploy the code base to a local AEM instance. Since major changes were made to the POM files, perform a full Maven build from the project's root directory:
 
    ```shell
    $ cd aem-guides-wknd
    $ mvn -PautoInstallPackage -Padobe-public clean install
+
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Reactor Summary:
+    [INFO] 
+    [INFO] aem-guides-wknd .................................... SUCCESS [  0.296 s]
+    [INFO] WKND Sites Project - Core .......................... SUCCESS [  5.724 s]
+    [INFO] WKND Sites Project - UI apps ....................... SUCCESS [  7.798 s]
+    [INFO] WKND Sites Project - UI content .................... SUCCESS [  1.798 s]
+    [INFO] WKND Sites Project - Integration Tests Bundles ..... SUCCESS [  1.792 s]
+    [INFO] WKND Sites Project - Integration Tests Launcher .... SUCCESS [  1.736 s]
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESS
+    [INFO] ------------------------------------------------------------------------
+
    ```
 
    Notice that in Package Manager two additional packages are installed for the Content Fragment extension:
 
-   ![](assets/2018-11-20_at_7_50pm.png)
+   ![Content Fragment extension packages](assets/chapter-4/content-fragment-package.png)
 
 6. Enable the Content Fragment by updating the Layout Container Policy
 
-    1. Navigate to the **Article Page Template:** [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
-    
-    2. Select the main** Layout Container **and click its Policy Icon
+    1. Navigate to the **Article Page Template**: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
+    2. Select the main **Layout Container** and click its **Policy** Icon
     3. Update the **Allowed Components** to include the Content Fragment component under **WKND.Content**
 
-   ![](assets/2018-11-15_at_5_33pm.png)
+   ![Select the content fragment for layout container](assets/chapter-4/content-fragment-select.png)
 
-7. The Content Fragment component should now be enabled and allowed to be added to a page.
+7. Navigate to the [first article page](http://localhost:4502/editor.html/content/wknd/en/first-article.html). The Content Fragment component should now be enabled and allowed to be added to a page.
 
-   ![Content Fragment Component](assets/2018-04-06_at_1229pm.png)
-
-   Empty Content Fragment component added to a page.
+   ![Content Fragment Component](assets/chapter-4/content-fragment-enabled.png)
 
 8. You can create a new Content Fragment by navigating to [http://localhost:4502/assets.html/content/dam](http://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
 
-   ![Content fragment authoring](assets/screen-shot-2017-06-09-at-10.20.34-am.png)
+   ![Content fragment authoring](assets/chapter-4/content-fragment-ui.png)
 
    Content Fragment author UI.
 
-9. Navigate back to the content page in which the Content Fragment component was added (Step 4). Click the Wrench icon to bring up the dialog. Using the path finder you can navigate and select an existing content fragment from the DAM. Optionally you can use the Asset Finder filter to restict the assets to only Content Fragments and Drag+Drop one of the Content Fragments on to the component.
+9. Navigate back to the content page in which the Content Fragment component was added (Step 4). Click the Wrench icon to bring up the dialog. Using the path finder you can navigate and select an existing content fragment from the DAM. Optionally you can use the Asset Finder filter to restrict the assets to only Content Fragments and Drag+Drop one of the Content Fragments on to the component.
 
-   ![Content Fragment component dialog](assets/2018-04-06_at_1232pm.png)
+   ![Content Fragment component dialog](assets/chapter-4/cf-component-dialog.png)
 
    Editing the Content Fragment component dialog to reference a content fragment.
 
@@ -713,7 +754,7 @@ Now that we have some more components to work with we can start to add some more
 
 Below is a diagram of the Article Template sliced into what is fixed, fixed and unlocked and what is fully editable.
 
-![Article Template Architecture](assets/article-template-architecture.png)
+![Article Template Architecture](assets/chapter-4/article-template-architecture.png)
 
 Article Template component architecture
 
