@@ -205,6 +205,8 @@ BLOCK cmp-title
 
 ## Text Component {#text-cmp-component}
 
+### Inspect the Text Component Example
+
 Inspect the **Text** component example page to understand the features of the component:
 
 [http://localhost:4502/editor.html/content/core-components-examples/library/text.html](http://localhost:4502/editor.html/content/core-components-examples/library/text.html)
@@ -297,6 +299,8 @@ BLOCK cmp-text
 
 ## List Component {#list-component-style}
 
+### Inspect the List Component Example
+
 Inspect the **List** component example page to understand the features of the component:
 
 [http://localhost:4502/editor.html/content/core-components-examples/library/list.html](http://localhost:4502/editor.html/content/core-components-examples/library/list.html)
@@ -361,7 +365,7 @@ BLOCK cmp-list
            width:100%;
            float:left;
            color: @gray-light;
-           font-size: @font-size-small; 
+           font-size: @font-size-small;
        }
 
    }
@@ -477,7 +481,9 @@ BLOCK cmp-list
 
 ## Layout Container {#layout-container}
 
-At this point, you may have noticed that the "body" of the Article template is spanning the full width of the page. The Layout Container, which we configured in Chapter 2, represents the body of the article and is used to allow authors to add components. 
+At this point, you may have noticed that the "body" of the Article template is spanning the full width of the page. The Layout Container, which we configured in Chapter 2, represents the body of the article and is used to allow authors to add components.
+
+### Add a style to the Layout Container Component
 
 We can use the Style System with the Layout Container to create a new, **fixed-width** style to restrict the body of the pages.
 
@@ -560,17 +566,23 @@ We can use the Style System with the Layout Container to create a new, **fixed-w
 
    ![apply fixed width style](assets/chapter-4/apply-fixed-width.gif)
 
-   >[!CAUTION]
-   >
-   >If you view a page created by the Article Template, you might notice that the page's Layout Container does not have a fixed width. At the end of this chapter we will make some large updates to the Article Template to ensure that all pages created from this template has a fixed width.
+>[!CAUTION]
+>
+>If you view a page created by the Article Template, you might notice that the page's Layout Container does not have a fixed width. At the end of this chapter we will make some large updates to the Article Template to ensure that all pages created from this template has a fixed width.
 
 ## Content Fragment Component {#content-fragment}
 
 For the article body we will leverage [AEM Content Fragments](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html). Content Fragments are de-coupled from the presentation layer and promote reuse of content across channels. The editorial UI of Content Fragments lends itself to working with large amounts of text. We will add a component to the WKND application to be able to reference Content Fragments into an article page. To view an [overview of Content Fragments click here.](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-feature-video-use.html)
 
-1. The Content Fragment component is a separate module of AEM Core Components. The paren pom.xml must be updated to ensure it is available on AEM.
+### Update POM dependencies
 
-   Add the following dependency to the parent **POM** at `aem-guides-wknd/pom.xml`:
+The Content Fragment component is a separate module of AEM Core Components. The paren pom.xml must be updated to ensure it is available on AEM.
+
+>[!NOTE]
+>
+>It is expected in the next release of Core Components that the Content Fragment module will be merged into the main project. Once that happens the following steps will not be necessary.
+
+1. Add the following dependency to the parent **POM** at `aem-guides-wknd/pom.xml`:
 
    ```xml
    //pom.xml
@@ -718,11 +730,13 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    ```
 
-   Notice that in Package Manager two additional packages are installed for the Content Fragment extension:
+   Navigate to AEM's [Package Manager](http://localhost:4502/crx/packmgr). Notice that in Package Manager two additional packages are installed for the Content Fragment extension:
 
    ![Content Fragment extension packages](assets/chapter-4/content-fragment-package.png)
 
-6. Enable the Content Fragment by updating the Layout Container Policy
+### Use a Content Fragment
+
+1. Enable the Content Fragment by updating the Layout Container Policy
 
     1. Navigate to the **Article Page Template**: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
     2. Select the main **Layout Container** and click its **Policy** Icon
@@ -730,17 +744,16 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    ![Select the content fragment for layout container](assets/chapter-4/content-fragment-select.png)
 
-7. Navigate to the [first article page](http://localhost:4502/editor.html/content/wknd/en/first-article.html). The Content Fragment component should now be enabled and allowed to be added to a page.
+2. Navigate to the [first article page](http://localhost:4502/editor.html/content/wknd/en/first-article.html). The Content Fragment component should now be enabled and allowed to be added to a page.
 
    ![Content Fragment Component](assets/chapter-4/content-fragment-enabled.png)
 
-8. You can create a new Content Fragment by navigating to [http://localhost:4502/assets.html/content/dam](http://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
+3. You can create a new Content Fragment by navigating to [http://localhost:4502/assets.html/content/dam](http://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
 
    ![Content fragment authoring](assets/chapter-4/content-fragment-ui.png)
+   *Content Fragment author UI.*
 
-   Content Fragment author UI.
-
-9. Navigate back to the content page in which the Content Fragment component was added (Step 4). Click the Wrench icon to bring up the dialog. Using the path finder you can navigate and select an existing content fragment from the DAM. Optionally you can use the Asset Finder filter to restrict the assets to only Content Fragments and Drag+Drop one of the Content Fragments on to the component.
+4. Navigate back to the content page in which the Content Fragment component was added (Step 4). Click the Wrench icon to bring up the dialog. Using the path finder you can navigate and select an existing content fragment from the DAM. Optionally you can use the Asset Finder filter to restrict the assets to only Content Fragments and Drag+Drop one of the Content Fragments on to the component.
 
    ![Content Fragment component dialog](assets/chapter-4/cf-component-dialog.png)
 
@@ -752,24 +765,42 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
 Now that we have some more components to work with we can start to add some more structure to our Article Template. The powerful feature of Editable Templates is the flexibility to make some components of the page fixed and standard across all pages, while making other components editable at the page level. It is important to find a balance between what is editable at the page level and what needs to be managed at the template level.
 
+1. You can upload several images to AEM Assets that match the WKND lifestyle design. These images will be used later. Imagery is license-free from [https://unsplash.com/](https://unsplash.com/)
+
+   You can download and install the below package on your local AEM instance using [Package Manager](http://localhost:4502/crx/packmgr).
+
+   [**wknd-dam-assets.zip**](assets/chapter-4/wknd-dam-assets.zip)
+
+   >[!CAUTION]
+   >
+   >The storing of DAM assets outside of AEM and in source control is rare. If you are following the tutorial on the Git repo we have added the DAM assets to the project. This is to allow someone to pick up the tutorial at any point but the storing of assets in source control is not a best practice.
+2. The assets in the above **ZIP** will be used in the following steps and chapters.
+
+### Article Template Component Architecture
+
 Below is a diagram of the Article Template sliced into what is fixed, fixed and unlocked and what is fully editable.
 
 ![Article Template Architecture](assets/chapter-4/article-template-architecture.png)
 
-Article Template component architecture
-
 The following videos show how we can implement the above requirements with AEM's Template Editor and then author an article page:
+
+#### Set up Article Page Template
 
 >[!VIDEO](https://video.tv.adobe.com/v/22109?quality=9)
 
->[!VIDEO](https://video.tv.adobe.com/v/22110?quality=9)
+#### Author new Article
 
-## Help! {#help}
+>[!VIDEO](https://video.tv.adobe.com/v/22110?quality=9)
 
 ## Next Steps {#next-steps}
 
 Next part in the tutorial:
 
-* [Getting Started with AEM Sites Chapter 5 - Navigation and Search](/help/getting-started-wknd-tutorial-develop/part5.md)
+* [Chapter 5 - Creating a custom AEM Component](chapter-5.md)
 * View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
 
+## Help! {#help}
+
+If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
+
+Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).

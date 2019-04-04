@@ -316,11 +316,15 @@ The AEM project archetype created a content root for the WKND site automatically
 
    ![eclipse import content](assets/chapter-2/eclipse-import-content.png)
 
-## Help! {#help}
-
 ## Next Steps {#next-steps}
 
 Next part in the tutorial:
 
 * **[Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid](chapter-3.md)**
 * View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the solution package:
+
+## Help! {#help}
+
+If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
+
+Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).

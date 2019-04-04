@@ -1,21 +1,21 @@
 ---
-title: Getting Started with AEM Sites Chapter 8 - Unit Testing
-seo-title: Getting Started with AEM Sites Chapter 8 - Unit Testing
-description: Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in Chapter 6 of the tutorial.
-seo-description: Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in Chapter 6 of the tutorial.
+title: Getting Started with AEM Sites Chapter 6 - Unit Testing
+seo-title: Getting Started with AEM Sites Chapter 6 - Unit Testing
+description: Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in Chapter 5 of the tutorial.
+seo-description: Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in Chapter 5 of the tutorial.
 uuid: e6ef4b4d-dbdc-474c-bc00-4dd9b8470b77
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 160e0531-a5d8-49ff-957f-6a26937273fb
 
 ---
 
-# Getting Started with AEM Sites Chapter 8 - Unit Testing{#getting-started-with-aem-sites-chapter-unit-testing}
+# Chapter 6 - Unit Testing {#chapter-unit-testing}
 
-Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in Chapter 6 of the tutorial.
+Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in Chapter 5 of the tutorial.
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 8 of a multi-part tutorial. [Chapter 7 can be found here](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part7.html) and an [overview can be found here](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html).
+This is Chapter 6 of a multi-part tutorial. [Chapter 5 can be found here](chapter-5.md) and an [overview can be found here](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html).
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
 
@@ -299,7 +299,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
 
    Note that this test does NOT fail because we never defined a "**name**" property in the mock JSON, that will cause the test to fail however the test execution hasn't gotten to that point! This test fails due to a **NullPointerException** on the byline object itself.
 
-1. In the [Reviewing BylineImpl.java](/help/getting-started-wknd-tutorial-develop/part8.md#reviewing-bylineimpl-java) video above, we discuss how if `@PostConstruct init()` throws an exception it prevents the Sling Model from instantiating, and that is what's happening here.
+1. In the [Reviewing BylineImpl.java](#reviewing-bylineimpl-java) video above, we discuss how if `@PostConstruct init()` throws an exception it prevents the Sling Model from instantiating, and that is what's happening here.
 
    ```java
    @PostConstruct
@@ -713,14 +713,15 @@ $ mvn package
 
 >[!VIDEO](https://video.tv.adobe.com/v/25567/?quality=12)
 
+## Next steps {#next-steps}
+
+Next part in the tutorial:
+
+* [Chapter 7 - Navigation and Search](chapter-7.md)
+* View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
+
 ## Help! {#help}
 
 If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
 
 Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
-
-## Next steps {#next-steps}
-
-Coming soon: Performance best practices.
-
-Download the finished solution package:

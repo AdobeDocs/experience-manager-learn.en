@@ -87,20 +87,20 @@ In general each Part of the tutorial takes about **1-2 hours**.
 
 ### Chapter 5 {#part-5}
 
-**[Navigation and Search](part5.md)** - Covers dynamic navigation driven by the content hierarchy and fixed navigation populated by content authors. Sling Models, HTL templating language, and dialogs are used to implement the Header and Footer navigation. A Quick Search component is also added to the Header.  
-**HTL, Design Dialogs, Composite Components**
+**[Creating a custom AEM Component](chapter-5.md)** - Covers the end to end creation of a custom byline component that displays authored content. Includes developing a Sling Model to encapsulate business logic to populate the byline component and corresponding HTL to render the component.  
+**Sling Models, HTL, Style System, Custom Components**
 
 ### Chapter 6 {#part-6}
 
-**[Creating a new AEM Component](part6.md)** - Covers the end to end creation of a custom byline component that displays authored content. Includes developing a Sling Model to encapsulate business logic to populate the byline component and corresponding HTL to render the component.  
-**Sling Models, HTL, Style System, Custom Components**
+**[Unit Testing](chapter-6.md)** - Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in [Chapter 5](chapter-5.md) of the tutorial.  
+**Unit tests, io.wcm AEM Mocks, Mockito and JUnit**
 
 ### Chapter 7 {#part-7}
 
-**[Teaser and Carousel Extension](part7.md)** - Covers the implementation of the Teaser and Carousel components to populate a dynamic and exciting Homepage.  
-**Advanced Template Editor Policies, Style System, Core Components v2**
+**[Header and Footer](chapter-7.md)** - Covers dynamic navigation driven by the content hierarchy and fixed navigation populated by content authors. Sling Models, HTL templating language, and dialogs are used to implement the Header and Footer navigation. A Quick Search component is also added to the Header.  
+**HTL, Design Dialogs, Composite Components**
 
 ### Chapter 8 {#part-8}
 
-**[Unit Testing](part8.md)** - Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in [Chapter 6](part6.md) of the tutorial.  
-**Unit tests, io.wcm AEM Mocks, Mockito and JUnit**
+**[Landing Page](chapter-8.md)** - Covers the implementation of the Teaser and Carousel components to populate a dynamic and exciting Homepage.
+**Advanced Template Editor Policies, Style System, Core Components v2**

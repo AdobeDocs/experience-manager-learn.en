@@ -641,21 +641,14 @@ At this point everything needed to leverage [AEM's Responsive Grid](https://help
 
    ![layout resize](assets/chapter-3/layout-resize.gif)
 
-4. You can upload several images to AEM Assets that match the WKND lifestyle design. These images will be used later. Imagery is license-free from [https://unsplash.com/](https://unsplash.com/)
-
-   You can download and install the below package on your local AEM instance.
-
-   [**wknd-dam-assets.zip**](assets/chapter-3/wknd-dam-assets.zip)
-
-   >[!CAUTION]
-   >
-   >The storing of DAM assets outside of AEM and in source control is rare. If you are following the tutorial on the Git repo we have added the DAM assets to the project. This is to allow someone to pick up the tutorial at any point but the storing of a lot of assets in source control is not a best practice.
-
-## Help! {#help}
-
 ## Next Steps {#next-steps}
 
 Next part in the tutorial: [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](/help/getting-started-wknd-tutorial-develop/chapter-4.md)
 
 View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:  
 
+## Help! {#help}
+
+If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
+
+Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
