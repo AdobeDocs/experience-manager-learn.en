@@ -527,7 +527,7 @@ The AEM project archetype includes Core Components by default. It is a good idea
    </dependencies>
    ```
 
-2. Update the version of Core Components to use the latest version of **2.3.2** and the latest version of Core Component Examples to **2.3.2**:
+2. **Update** the version of Core Components to use the latest version of **2.3.2** and the latest version of Core Component Examples to **2.3.2**:
 
     ```xml
    <dependencies>

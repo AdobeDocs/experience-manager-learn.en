@@ -1,8 +1,8 @@
 ---
-title: Getting Started with AEM Sites Chapter 2 - Creating a Base Page and Template
-seo-title: Getting Started with AEM Sites Chapter 2 - Creating a Base Page and Template
-description: Covers the creation of a base page and an editable template. Core Components are proxied into the project. Core Components of Text, Image, and Title are used to author an initial page.
-seo-description: Covers the creation of a base page and an editable template. Core Components are proxied into the project. Core Components of Text, Image, and Title are used to author an initial page.
+title: Getting Started with AEM Sites Chapter 2 - Pages and Templates
+seo-title: Getting Started with AEM Sites Chapter 2 - Pages and Templates
+description: Understand the relationship between a base page component and editable templates. Understand how Core Components are proxied into a project. Two different templates are created. Core Components of Text, Image, and Title are used to author an initial page.
+seo-description: Understand the relationship between a base page component and editable templates. Understand how Core Components are proxied into a project. Two different templates are created. Core Components of Text, Image, and Title are used to author an initial page.
 uuid: 6a7e43fc-faf6-4e9c-95ee-09ec0d23956a
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
@@ -11,9 +11,9 @@ targetaudience: target-audience new
 
 ---
 
-# Chapter 2 - Creating a Base Page and Template {#creating-a-base-page-and-template}
+# Chapter 2 - Pages and Templates {#creating-a-base-page-and-template}
 
-Covers the creation of a base page and an editable template. Core Components are proxied into the project. Core Components of Text, Image, and Title are used to author an initial page.
+Understand the relationship between a base page component and editable templates. Understand how Core Components are proxied into a project. Two different templates are created. Core Components of Text, Image, and Title are used to author an initial page.
 
 ## Prerequisites {#prerequisites}
 
@@ -107,13 +107,11 @@ Next a Header component will be created to be integrated into the Base page. The
    ```xml
 
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root
-       xmlns:sling="https://sling.apache.org/jcr/sling/1.0"
-       xmlns:jcr="https://www.jcp.org/jcr/1.0"
-       jcr:primaryType="cq:Component"
-       componentGroup="WKND.Structure"
-       jcr:description="Page Header with navigation"
-       jcr:title="WKND Page Header"/>
+   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Component"
+    componentGroup="WKND.Structure"
+    jcr:description="Page Header with navigation"
+    jcr:title="WKND Page Header"/>
 
    ```
 
