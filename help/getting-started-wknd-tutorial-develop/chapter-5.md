@@ -1180,9 +1180,10 @@ Add default styles for the Byline component. In the **ui.apps** project under `/
 5. Start by populating **byline.less** to include the default style:
 
    ```css
-   /* WKND Byline styles */
 
+   /* WKND Byline styles */
    @import (once) "styles/default.less";
+
    ```
 
 6. We'll start by creating a "skeleton" from BEM classes applied to the elements in the `byline.html`. Only the BEM classes should be styled, and CSS selector rule depth should be shallow to avoid rule-weight conflicts.
@@ -1190,27 +1191,30 @@ Add default styles for the Byline component. In the **ui.apps** project under `/
     Update **default.less** with the following:
 
     ```css
+
     .cmp-byline {
         .cmp-byline__image {
-            // Align to the left of Name and Occupations
+            /* Align to the left of Name and Occupations */
 
             .cmp-image__image {
-                // This is the BEM class applied by the embedded Core Image component to the actual img tag
-                // Create a 60px x 60px, circular image
+                /* This is the BEM class applied by the embedded Core Image component to the actual img tag 
+                Create a 60px x 60px, circular image
+                */
             }
         }
 
         .cmp-byline__name {
-            // Default text color
-            // Right of image
+            /* Default text color */
+            /* Right of image */
         }
 
         .cmp-byline__occupations {
-            // Color grey
-            // All uppercase
-            // Align right of image
+            /* Color grey
+               All uppercase
+               Align right of image */
         }
     }
+
     ```
 
     Starting from this skeletal framework of the CSS class we are "allowed" to target makes writing clean CSS more straightforward, and reduces the temptation to style   non- BEM  CSS classes or bare elements.
