@@ -193,11 +193,13 @@ Since unit tests are executed at build, outside the context of a running AEM ins
 1. Create an AEM context using **io.wcm's** AemContext in **BylineImplTest.java** by adding it as a class variable decorated with `@Rule` to the **BylineImplTest.java** file:
 
    ```java
+
    import org.junit.Rule;
    import io.wcm.testing.mock.aem.junit.AemContext;
-   ...
+    ...
    @Rule
    public final AemContext ctx = new AemContext();
+
    ```
 
    This variable, `ctx`, exposes a mock AEM context that provides a number of AEM and Sling abstractions:
@@ -214,11 +216,13 @@ Since unit tests are executed at build, outside the context of a running AEM ins
 2. In the `setUp(..)` method, which is executed prior to each `@Test` method, define a common mock testing state:
 
    ```java
+
    @Before
    public void setUp() throws Exception {
        ctx.addModelsForClasses(BylineImpl.class);
        ctx.load().json("/com/adobe/aem/guides/wknd/core/components/impl/BylineImplTest.json", "/content");
    }
+
    ```
 
    **Line 3** registers the Sling Model to be tested, into the mock AEM Context, so it can be instantiated in the `@Test` methods.  
@@ -259,8 +263,9 @@ Now that we have a basic mock context setup, let's write our first test for **By
 1. Update the **testGetName**() method in **BylineImplTest.java** as follows:
 
    ```java
+
    import com.adobe.aem.guides.wknd.core.components.Byline;
-   ...
+    ...
    @Test
    public void testGetName() {
        final String expected = "Jane Doe";
@@ -272,6 +277,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
 
        assertEquals(expected, actual);
    }
+
    ```
 
    **Line 3** sets the expected value. We will set this to "**Jane Done**".
@@ -295,10 +301,12 @@ Now that we have a basic mock context setup, let's write our first test for **By
 3. In the [Reviewing BylineImpl.java](#reviewing-bylineimpl-java) video above, we discuss how if `@PostConstruct init()` throws an exception it prevents the Sling Model from instantiating, and that is what's happening here.
 
    ```java
+
    @PostConstruct
    private void init() {
        image = modelFactory.getModelFromWrappedRequest(request, request.getResource(), Image.class);
    }
+
    ```
 
    It turns out that while the ModelFactory OSGi service is provided via the AemContext (by way of the Apache Sling Context), not all methods are implemented, including `getModelFromWrappedRequest(...)` which is called in the BylineImpl's `init()` method. This results in an [AbstractMethodError](https://docs.oracle.com/javase/8/docs/api/java/lang/AbstractMethodError.html), which in term causes `init()` to fail, and the resulting adaption of the `ctx.request().adaptTo(Byline.class)` is a null object.
@@ -308,6 +316,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
    Since in order to even instantiate the Byline Sling Model, this mock context must be in place, we can add it to the `@Before setUp()` method. We also need to add the `@RunWith(MockitoJUnitRunner.class)`annotation above the BylineImplTest class.
 
    ```java
+
    import org.apache.sling.api.resource.Resource;
    import org.junit.runner.RunWith;
    import org.mockito.junit.MockitoJUnitRunner;
@@ -315,7 +324,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
    import com.adobe.cq.wcm.core.components.models.Image;
    import org.apache.sling.models.factory.ModelFactory;
    import static org.mockito.Mockito.*;
-   ...
+    ...
    @RunWith(MockitoJUnitRunner.class)
    public class BylineImplTest {
 
@@ -341,7 +350,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
      ctx.registerService(ModelFactory.class, modelFactory,
        org.osgi.framework.Constants.SERVICE_RANKING, Integer.MAX_VALUE);
     }
-     ...
+
    ```
 
    **Line 8** marks the Test Case class to be run with the [MockitoJUnitRunner](https://static.javadoc.io/org.mockito/mockito-core/2.6.8/org/mockito/junit/MockitoJUnitRunner.html) which allows for the use of the @Mock annotations to define mock objects at the Class level.
@@ -362,6 +371,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
 5. Update **BylineImplTest.json** to define `"name": "Jane Doe".`
 
    ```json
+
    {
      "byline": {
        "jcr:primaryType": "nt:unstructured",
@@ -369,6 +379,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
        "name": "Jane Doe"
      }
    }
+
    ```
 
 6. Re-run the test, and **`testGetName()`** now passes!
@@ -385,9 +396,10 @@ Remember that this method must return an alphabetically sorted list of occupatio
 1. Update **`testGetOccupations()`** as follows:
 
    ```java
+
    import java.util.List;
    import com.google.common.collect.ImmutableList;
-   ...
+    ...
    @Test
    public void testGetOccupations() {
        List<String> expected = new ImmutableList.Builder<String>()
@@ -403,6 +415,7 @@ Remember that this method must return an alphabetically sorted list of occupatio
 
        assertEquals(expected, actual);
    }
+
    ```
 
    **Lines 6-10** define the expected result.
@@ -420,6 +433,7 @@ Remember that this method must return an alphabetically sorted list of occupatio
    Update **BylineImplTest.json** to include a list of occupations, and they will be set in non-alphabetical order to ensure that our tests validate that the occupations are sorted by **`getOccupations()`**.
 
    ```json
+
    {
      "byline": {
        "jcr:primaryType": "nt:unstructured",
@@ -428,6 +442,7 @@ Remember that this method must return an alphabetically sorted list of occupatio
        "occupations": ["Photographer", "Blogger", "YouTuber"]
      }
    }
+
    ```
 
 3. Run the test, and again we pass! Looks like getting the sorted occupations works!
@@ -455,6 +470,7 @@ Note that this check allowed us to skip testing for when `getName()`, `getOccupa
    Add a new resource definition to **BylineImplTest.json**, giving it the semantic name "**empty**"
 
    ```json
+
    {
      "byline": {
        "jcr:primaryType": "nt:unstructured",
@@ -477,6 +493,7 @@ Note that this check allowed us to skip testing for when `getName()`, `getOccupa
 2. Update `testIsEmpty()` as follows, setting the current resource to the new "**empty**" mock resource definition.
 
    ```java
+
    @Test
    public void testIsEmpty() {
        ctx.currentResource("/content/empty");
@@ -484,6 +501,7 @@ Note that this check allowed us to skip testing for when `getName()`, `getOccupa
 
        assertTrue(byline.isEmpty());
    }
+
    ```
 
    Run the test and ensure it passes.
@@ -493,6 +511,7 @@ Note that this check allowed us to skip testing for when `getName()`, `getOccupa
    For each test, a discrete mock resource definition is used, update **BylineImplTest.json** with the additional resource definitions for **without-name** and **without-occupations**.
 
    ```json
+
    {
      "byline": {
        "jcr:primaryType": "nt:unstructured",
@@ -515,11 +534,13 @@ Note that this check allowed us to skip testing for when `getName()`, `getOccupa
        "name": "Jane Doe"
      }  
    }
+
    ```
 
    Create the following test methods to test the each of these states.
 
    ```java
+
    @Test
    public void testIsEmpty() {
        ctx.currentResource("/content/empty");
@@ -570,6 +591,7 @@ Note that this check allowed us to skip testing for when `getName()`, `getOccupa
 
        assertTrue(byline.isEmpty());
    }
+
    ```
 
    **Lines 1-8** define `testIsEmpty()` that tests against the empty mock resource definition, and asserts that `isEmpty()` is true.
@@ -585,6 +607,7 @@ Note that this check allowed us to skip testing for when `getName()`, `getOccupa
 4. Lastly, write a test to ensure that **isEmpty()** returns false when the component is properly configured. For this condition, we can re-use **/content/byline** which represents a fully configured Byline component.
 
    ```java
+
    @Test
    public void testIsNotEmpty() {
     ctx.currentResource("/content/byline");
@@ -594,6 +617,7 @@ Note that this check allowed us to skip testing for when `getName()`, `getOccupa
 
     assertFalse(byline.isEmpty());
    }
+
    ```
 
 ## Code coverage {#code-coverage}
@@ -622,6 +646,7 @@ Code coverage is the amount of source code covered by unit tests. Modern IDEs pr
 3. This can be remedied by adding a test for `getOccupations()` that asserts an empty list is returned when there is no occupations value on the resource. Add the following new test method to **BylineImplTests.java**.
 
    ```java
+
    import java.util.Collections;
    ...
    @Test
@@ -635,6 +660,7 @@ Code coverage is the amount of source code covered by unit tests. Modern IDEs pr
 
        assertEquals(expected, actual);
    }
+
    ```
 
    **Line 3** sets the expected value to an empty list.
@@ -651,12 +677,14 @@ Code coverage is the amount of source code covered by unit tests. Modern IDEs pr
    Add a new mock resource definition to **BylineImplTest.json** that is a copy of **"without-occupations"** and add a occupations property set to the empty array, and name it **"without-occupations-empty-array"**.
 
    ```json
+
    "without-occupations-empty-array": {
        "jcr:primaryType": "nt:unstructured",
        "sling:resourceType": "wknd/components/content/byline",
        "name": "Jane Doe",
        "occupations": []
-     }  
+     }
+  
    ```
 
    Create a new **@Test** method in **BylineImplTest.java** that uses this new mock resource, asserts `isEmpty()` returns true.
@@ -686,22 +714,22 @@ Code coverage is the amount of source code covered by unit tests. Modern IDEs pr
 Unit tests are executed are required to pass as part of the maven build. This ensures that all tests successfully pass before an application be be deployed. Executing Maven goals such as package or install automatically invoke and require the passing of all unit tests in the project.
 
 ```shell
- mvn package
+
+mvn package
 
 ```
 
 ![mvn package success](assets/chapter-6/mvn-package-success.png)
 
 ```shell
- mvn package
+
+mvn package
 
 ```
 
 Likewise, if we change a test method to fail, the build fails and reports which test failed and why.
 
 ![mvn package fail](assets/chapter-6/mvn-package-fail.png)
-
-$ mvn package
 
 ## Review {#review}
 
