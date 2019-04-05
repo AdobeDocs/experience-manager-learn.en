@@ -677,14 +677,13 @@ Code coverage is the amount of source code covered by unit tests. Modern IDEs pr
    Add a new mock resource definition to **BylineImplTest.json** that is a copy of **"without-occupations"** and add a occupations property set to the empty array, and name it **"without-occupations-empty-array"**.
 
    ```json
-
-   "without-occupations-empty-array": {
+    "without-occupations-empty-array": {
        "jcr:primaryType": "nt:unstructured",
        "sling:resourceType": "wknd/components/content/byline",
        "name": "Jane Doe",
        "occupations": []
      }
-  
+
    ```
 
    Create a new **@Test** method in **BylineImplTest.java** that uses this new mock resource, asserts `isEmpty()` returns true.
