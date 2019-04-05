@@ -768,7 +768,7 @@ The following videos show how we can implement the above requirements with AEM's
 
 Next part in the tutorial:
 
-* [Getting Started with AEM Sites Chapter 5 - Navigation and Search](/help/getting-started-wknd-tutorial-develop/part5.md)
+* [Chapter 5 - Creating a custom AEM Component](chapter-5.md)
 * View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
 
 ## Help! {#help}

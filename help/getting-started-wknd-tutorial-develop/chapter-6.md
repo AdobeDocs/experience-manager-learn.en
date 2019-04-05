@@ -19,9 +19,15 @@ This is Chapter 6 of a multi-part tutorial. [Chapter 5 can be found here](chapte
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
 
-## Unit Testing {#unit-testing}
+## Objective
 
-In this chapter, we'll explore how to write [Unit Tests](https://en.wikipedia.org/wiki/Unit_testing) for our Byline component's [Sling Model](https://sling.apache.org/documentation/bundles/models.html) (created in [Part 6](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part6.html)). Unit tests are build-time tests written in Java that verify expected behavior of Java code. Each unit tests are typically small, and validate the outcome of methods (or units of work) against expected results.
+1. Understand the basics of unit testing.
+2. Learn about frameworks and tools commonly used to test AEM code.
+3. Understand options for mocking or simulating AEM resources when writing unit tests.
+
+## Background {#unit-testing-background}
+
+In this chapter, we'll explore how to write [Unit Tests](https://en.wikipedia.org/wiki/Unit_testing) for our Byline component's [Sling Model](https://sling.apache.org/documentation/bundles/models.html) (created in [Chapter 5](chapter-5.md)). Unit tests are build-time tests written in Java that verify expected behavior of Java code. Each unit tests are typically small, and validate the outcome of methods (or units of work) against expected results.
 
 We will be using AEM best practices, and use:
 
