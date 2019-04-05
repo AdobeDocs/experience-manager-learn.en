@@ -764,12 +764,15 @@ The following videos show how we can implement the above requirements with AEM's
 
 >[!VIDEO](https://video.tv.adobe.com/v/22110?quality=9)
 
-## Help! {#help}
-
 ## Next Steps {#next-steps}
 
 Next part in the tutorial:
 
-* [Getting Started with AEM Sites Chapter 5 - Navigation and Search](/help/getting-started-wknd-tutorial-develop/part5.md)
+* [Chapter 5 - Creating a custom AEM Component](chapter-5.md)
 * View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
 
+## Help! {#help}
+
+If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
+
+Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).

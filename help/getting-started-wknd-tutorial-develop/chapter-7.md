@@ -1,6 +1,6 @@
 ---
-title: Getting Started with AEM Sites Chapter 5 - Navigation and Search
-seo-title: Getting Started with AEM Sites Chapter 5 - Navigation
+title: Getting Started with AEM Sites Chapter 7 - Header and Footer
+seo-title: Getting Started with AEM Sites Chapter 7 - Header and Footer
 description: Covers dynamic navigation driven by the content hierarchy and including the Quick Search component in the Header. Composite Components and policy sharing between multiple templates are included. Basics of HTL templating language, and dialogs are also used.
 seo-description: Covers dynamic navigation driven by the content hierarchy and including the Quick Search component in the Header. Composite Components and policy sharing between multiple templates are included. Basics of HTL templating language, and dialogs are also used.
 uuid: 06da699b-05f0-4301-8797-ae764a11a358
@@ -11,13 +11,13 @@ targetaudience: target-audience new
 
 ---
 
-# Getting Started with AEM Sites Chapter 5 - Navigation and Search{#getting-started-with-aem-sites-chapter-navigation-and-search}
+# Chapter 7 - Header and Footer{#chapter-header-and-footer}
 
 Covers dynamic navigation driven by the content hierarchy and including the Quick Search component in the Header. Composite Components and policy sharing between multiple templates are included. Basics of HTL templating language, and dialogs are also used.
 
 ## Prerequisites {#prerequisites}
 
-This is Part 5 of the multi-part tutorial. **[Part 4 can be found here](/help/getting-started-wknd-tutorial-develop/chapter-4.md)** and an **[overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
+This is Chapter 7 of the multi-part tutorial. **[Chapter 6 can be found here](chapter-6.md)** and an **[overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
 
@@ -995,12 +995,15 @@ Use JavaScript to clone the Navigation items in the Header to a mobile navigatio
 
 >[!VIDEO](https://video.tv.adobe.com/v/21510?quality=9)
 
-## Help! {#help}
-
 ## Next Steps {#next-steps}
 
 Next part in the tutorial:
 
-* [Getting Started with AEM Sites Chapter 6 - Byline Component](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part6.html)
+* [Chapter 8 - Implementing a Landing Page](chapter-8.md)
 * View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
 
+## Help! {#help}
+
+If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
+
+Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).

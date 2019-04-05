@@ -1,6 +1,6 @@
 ---
-title: Getting Started with AEM Sites Chapter 7 - Teaser and Carousel Components
-seo-title: Getting Started with AEM Sites Chapter 7 - Teaser and Carousel Components
+title: Getting Started with AEM Sites Chapter 8 - Landing Page
+seo-title: Getting Started with AEM Sites Chapter 8 - Landing Page
 description: Covers the implementation of the Teaser and Carousel components to populate a dynamic and exciting Home page.
 seo-description: Covers the implementation of the Teaser and Carousel components to populate a dynamic and exciting Home page.
 uuid: f4ef2bef-bdca-4fbc-b6d8-3e694aad14bd
@@ -9,13 +9,13 @@ discoiquuid: 1a8f1d27-7b36-4254-bdd4-844b5d869682
 
 ---
 
-# Getting Started with AEM Sites Chapter 7 - Teaser and Carousel Components{#getting-started-with-aem-sites-chapter-teaser-and-carousel-components}
+# Chapter 8 - Landing Page {#chapter-landing-page}
 
 Covers the implementation of the Teaser and Carousel components to populate a dynamic and exciting Home page.
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 7 of a multi-part tutorial. [Chapter 6 can be found here](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part6.html) and an [overview can be found here](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html).
+This is Chapter 8 of a multi-part tutorial. [Chapter 7 can be found here](chapter-7.md) and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
 
 You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
 
@@ -931,16 +931,12 @@ Below is a screenshot of an authored version of the finished Homepage:
 
 ![](assets/finalchapter7.png) 
 
+## Next steps {#next-steps}
+
+* View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
+
 ## Help! {#help}
 
 If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
 
 Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
-
-## Next steps {#next-steps}
-
-Next part in the tutorial:
-
-* [Getting Started with AEM Sites Chapter 8 - Unit Testing](/help/getting-started-wknd-tutorial-develop/part8.md)
-* View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
-
