@@ -25,44 +25,43 @@ You can check out the finished code on [**GitHub**](https://github.com/Adobe-Mar
 
 At this point in the WKND tutorial, considerable time has been spent implementing a well-structured Article page template. We can create great articles. However, the Homepage has been neglected. In this part, we will extend two components of AEM Core Components:
 
-* ** [Teaser Component](https://helpx.adobe.com/experience-manager/core-components/using/teaser.html) **- Includes an image, title, description and call to action button(s)
-* [**Carousel Component**](https://helpx.adobe.com/experience-manager/core-components/using/carousel.html) - A modified container component, that allows authors to use existing components to populate multiple "slides" of a carousel.
+* **[Teaser Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/teaser.html)** - Includes an image, title, description and call to action button(s)
+* **[Carousel Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/carousel.html)** - A modified container component, that allows authors to use existing components to populate multiple "slides" of a carousel.
 
 Below are some examples of the finished Teaser and Carousel components, after the various styles and configurations have been applied to the WKND project:
 
 ![WKND Teaser Sample](assets/wknd-teaser.png)
 
-Teaser component with a Card style applied
+*Teaser component with a Card style applied*
 
 ![WKND Hero Carousel](assets/wknd-hero-carousel.png)
 
-Carousel component with a Hero-style applied. The Carousel component actually embeds a Teaser component that in turn has it's own style.
+*Carousel component with a Hero-style applied. The Carousel component actually embeds a Teaser component that in turn has it's own style.*
 
 ## Add Teaser Component {#add-teaser-component}
 
 The Teaser component has already been proxied in to the WKND project as part of the Maven archetype creation. We will update the template policy to allow the Teaser component to be added to the Homepage.
 
-1. In the `  ui .apps` module beneath `/apps/wknd/components`you can find the proxied `teaser` component. Inspect the `sling:resourceSuperType` property to see that it points to `core/  wcm /components/teaser/v1/teaser`. Also, notice the `imageDelegate` property. This points to `wknd/components/content/image`. The **Teaser** component will use the **Image** delegate to populate the image as part of the **Teaser**.   
-   ``
+1. In the **ui.apps** module beneath `/apps/wknd/components`you can find the proxied `teaser` component. Inspect the `sling:resourceSuperType` property to see that it points to `core/wcm/components/teaser/v1/teaser`. Also, notice the **imageDelegate** property. This points to `wknd/components/content/image`. The **Teaser** component will use the **Image** delegate to populate the image as part of the **Teaser**.
 
-   ![](assets/2018-11-20_at_5_43am.png)
+   ![Teaser component properties](assets/chapter-8/teaser-proxy-component.png)
 
-1. Navigate to **AEM &gt; Tools &gt; General &gt; Templates &gt; WKND Site &gt; Landing Page Template** and edit the template.
-1. While in **Structure** mode, select the main **Layout Container** and tap the **policy **icon to edit its Policy.
+2. Open a new browser tab. Navigate to **AEM `>` Tools `>` General `>` Templates `>` WKND Site `>` Landing Page Template** and edit the template.
+3. While in **Structure** mode, select the main **Layout Container** and tap the **policy** icon to edit its Policy.
 
-   ![](assets/2018-11-20_at_5_55am.png)
+   ![Template Landing Page policy](assets/chapter-8/landing-page-template-policy.png)
 
-1. Update the **WKND Content** policy. In the **WKND.Content** component group, check the **Teaser** component to allow it to be added to this layout container, and tap the Check in the top right to save the change.
+4. Update the **WKND Content** policy. In the **WKND.Content** component group, check the **Teaser** component to allow it to be added to this layout container, and tap the Check in the top right to save the change.
 
-   ![](assets/2018-11-20_at_5_56am.png)
+   ![Layout Policy updates with Teaser](assets/chapter-8/layout-policy-updates.png)
 
-1. Update the policy of the Layout Container component, within the main Layout Container:
+5. Update the policy of the **Layout Container** component, within the main Layout Container:
 
-   ![](assets/2018-11-20_at_6_04am.png)
+   ![update embedded layout container policy](assets/chapter-8/update-layout-container-embedded.png)
 
-   Set the policy to the **WKND Content **policy to apply to the Layout Container. This will allow us to use the Fixed Width style when creating new Layout Containers on the Landing Page Template. 
+   Set the policy to the **WKND Content** policy to apply to the Layout Container. This will allow us to use the Fixed Width style when creating new Layout Containers on the Landing Page Template.
 
-   ![](assets/nov-20-2018_06-06-38.gif)
+   ![Update Layout Container policy](assets/chapter-8/update-embedded-layoutcontainer.gif)
 
 ### Author Teaser {#author-teaser}
 
@@ -70,13 +69,13 @@ Next, we will author a few Teaser components to have some sample content to deve
 
 1. Author a few articles using the Article page template. The Teaser component will dynamically pull the Title and Description for linked pages as part of the Teaser content. This ensures consistency throughout the site.
 
-   You can also install the below package using ** [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)**, which includes a several sample articles already created.
+   You can also install the below package using [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp), which includes a several sample articles already created.
 
-   [Get File](assets/chapter-7-sample-articles.zip)
+   **[Sample Articles](assets/chapter-8/chapter-8-sample-articles.zip)**
 
    >[!NOTE]
    >
-   >The Style System assigns a **cq:styleId,** a number based on a timestamp, to represent each style. The cq:styleId is then used on the content node to reference the Style from the template. Due to this, most likely installing the above content package will result in un-styled components. This can be easyily rectified by re-enabling the styles in the author environment. However it is something to keep in mind when moving content packages between environments that potentially have different policies.
+   >The Style System assigns a **cq:styleId,** a number based on a timestamp, to represent each style. The cq:styleId is then used on the content node to reference the Style from the template. Due to this, most likely installing the above content package will result in un-styled components. This can be easily rectified by re-enabling the styles in the author environment. However it is something to keep in mind when moving content packages between environments that potentially have different policies.
 
 1. Navigate to the home page at **AEM &gt; Sites &gt; WKND Site &gt; Home **and edit to open.
 1. Add another Layout Container to the page. Apply the **Fixed Width** style to the new Layout Container. 
