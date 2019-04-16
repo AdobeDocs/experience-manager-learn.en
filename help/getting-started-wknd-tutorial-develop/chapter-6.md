@@ -220,6 +220,7 @@ Since unit tests are executed at build, outside the context of a running AEM ins
 1. Create an AEM context using **wcm.io's** AemContext in **BylineImplTest.java** by adding it as a JUnit extension decorated with `@ExtendWith` to the **BylineImplTest.java** file. The extension takes care of all initialization and cleanup tasks required. Create a global variable for AemContext that can be used for each of the test methods.
 
    ```java
+
     import org.junit.jupiter.api.extension.ExtendWith;
     import io.wcm.testing.mock.aem.junit5.AemContext;
     import io.wcm.testing.mock.aem.junit5.AemContextExtension;
