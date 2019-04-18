@@ -218,23 +218,25 @@ The next series of steps will take place using a UNIX based command line  termin
 10. Navigate from the **AEM Start** screen to **[Sites](http://localhost:4502/sites.html/content)**. The WKND Site will be one of the sites. It will include two content pages, one for English and one for French.
 
 11. Open the English page by selecting the page and clicking the **Edit** button in the menu bar:
-   ![site console](assets/wknd-samplesite.png)
+
+    ![site console](assets/chapter-1/wknd-samplesite.png)
 
 12. Some content is already created and several components are available to be added to a page. Experiment with these components to get an idea of the functionality. How this page and components are configured will be explored in detail later in the tutorial.
-    ![sample content](assets/2018-10-31_at_7_00pm.png)
+
+    ![sample content](assets/chapter-1/starter-content.png)
 
 ## Inspecting the Project Structure {#project-structure}
 
 There are six areas to the project that was generated:
 
-1. **Parent POM** - deploys maven modules and manages dependency versions
-2. **core** - Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
-3. **ui.apps** - contains the /apps parts of the project, ie JS&CSS clientlibs, components, runmode specific configs as well as Hobbes-tests
-4. **ui.content** - contains structural content and configurations (/content, /conf)
-5. **ui.tests** - Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
-6. **ui.launcher** - contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
+* **Parent POM** - deploys maven modules and manages dependency versions
+* **core** - Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
+* **ui.apps** - contains the /apps parts of the project, ie JS&CSS clientlibs, components, runmode specific configs as well as Hobbes-tests
+* **ui.content** - contains structural content and configurations (/content, /conf)
+* **ui.tests** - Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
+* **ui.launcher** - contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
 
-![Maven Project Diagram](assets/project-pom.png)
+![Maven Project Diagram](assets/chapter-1/project-pom.png)
 
 ### Parent POM {#parent-pom}
 
@@ -358,13 +360,13 @@ The Maven Sling Plugin allows the Core Bundle to be deployed to AEM directly lev
 
 2. Navigate to [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles) you should be able to see the bundle installed and active.
 
-    ![Core bundle](assets/bundle-2.png)
+    ![Core bundle](assets/chapter-1/bundle-2.png)
 
-    The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module. 
+    The OSGi bundle is a jar that gets deployed to the AEM repository as an embedded part of the ui.apps module.
 
 3. You can see the 'physical' location of the jar in [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/wknd/install/wknd-sites-guide.core-0.0.1-SNAPSHOT.jar):
 
-    ![CRXDE Location of Jar](assets/jcr-bundle-location.png)
+    ![CRXDE Location of Jar](assets/chapter-1/jcr-bundle-location.png)
 
 ### UI.apps Module {#uiapps-pom}
 
@@ -604,7 +606,7 @@ This is an optional task but its nice to easily identify your custom code packag
 
    The recommended dimensions are 64 x 64 pixels.
 
-   ![wknd thumbnail icon](assets/thumbnail.png)
+   ![wknd thumbnail icon](assets/chapter-1/thumbnail.png)
 
 2. Create a new folder named definition beneath: `aem-guides-wknd/ui.apps/src/main/content/META-INF/vault/definition`
 
@@ -621,7 +623,7 @@ This is an optional task but its nice to easily identify your custom code packag
 
    ```
 
-   ![Package Tree](assets/2018-11-15_at_9_00am.png)
+   ![Package Tree](assets/chapter-1/package-tree.png)
 
 3. Repeat the above steps to add the same custom thumbnail to the **ui.content** module.
 
@@ -671,7 +673,7 @@ There are multiple tools that can be used when developing with AEM:
 
 In general Eclipse and IntelliJ tend to be preferred environments for Java development and Brackets is preferred by Front-end developers.
 
-![Developer Workflow](assets/project-workflow.jpeg)
+![Developer Workflow](assets/chapter-1/project-workflow.jpeg)
 
 Popular developer workflow
 
@@ -682,7 +684,7 @@ This tutorial will use the Eclipse IDE and the AEM Developer tools plugin.
 
 ## Developer Workflow {#developer-workflow}
 
-![developer workflow](assets/local-aem-dev-env.png)
+![developer workflow](assets/chapter-1/local-aem-dev-env.png)
 
 High level developer workflow when working with AEM in a local environment
 
