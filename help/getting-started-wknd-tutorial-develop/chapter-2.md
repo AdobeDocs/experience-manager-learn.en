@@ -279,7 +279,7 @@ Use the above video to complete the following tasks:
 
    Reuse the Layout Container Policy from the Article Page Template on the Landing Page Template.
 
-   ![article and landing page templates](assets/templates.png)
+   ![article and landing page templates](assets/chapter-2/templates.png)
 
 2. **Create the Home Page**
 
