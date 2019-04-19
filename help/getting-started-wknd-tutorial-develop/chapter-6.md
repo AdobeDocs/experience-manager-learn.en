@@ -4,7 +4,9 @@ seo-title: Getting Started with AEM Sites Chapter 6 - Unit Testing
 description: Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created previously in the tutorial.
 seo-description: Covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created previously in the tutorial.
 uuid: e6ef4b4d-dbdc-474c-bc00-4dd9b8470b77
+products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 160e0531-a5d8-49ff-957f-6a26937273fb
 
 ---
@@ -17,7 +19,7 @@ Covers the implementation of a Unit Test that validates the behavior of the Byli
 
 This is Chapter 6 of a multi-part tutorial. [Chapter 5 can be found here](chapter-5.md) and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
 
-You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
+You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
 
 ## Objective
 
@@ -137,9 +139,11 @@ The JUnit5, Mockito and wcm.io testing dependencies are automatically added to t
 
 ## Creating the JUnit test {#creating-the-junit-test}
 
+Unit tests typically map 1-to-1 with Java classes. In this chapter, we'll write a JUnit test for the **BylineImpl.java**, which is the Sling Model backing the Byline component.
+
 ![unit test package explorer](assets/chapter-6/core-src-test-folder.png)
 
-Unit tests typically map 1-to-1 with Java classes. In this chapter, we'll write a JUnit test for the **BylineImpl.java**, which is the Sling Model backing the Byline component.
+*Location where Unit tests are stored.*
 
 1. We can do this in Eclipse, by right-clicking on the Java class to test, and selecting the **New &gt; Other &gt; Java &gt; JUnit &gt; JUnit Test Case**.
 
@@ -256,10 +260,9 @@ Since unit tests are executed at build, outside the context of a running AEM ins
 
    ```
 
-   **addModelsForClasses** registers the Sling Model to be tested, into the mock AEM Context, so it can be instantiated in the `@Test` methods.  
-   **load().json** loads resource structures into the mock context, allowing the code to interact with these resources as if they were provided by a real repository. The resource definitions in the file **BylineImplTest.json** are loaded into the mock JCR context under **/content**.
-
-   **BylineImplTest.json** does not yet, exist, so let's create it and define the JCR resource structures that are needed for the test.
+    * **`addModelsForClasses`** registers the Sling Model to be tested, into the mock AEM Context, so it can be instantiated in the `@Test` methods.  
+    * **`load().json`** loads resource structures into the mock context, allowing the code to interact with these resources as if they were provided by a real repository. The resource definitions in the file **`BylineImplTest.json`** are loaded into the mock JCR context under **/content**.
+    * **`BylineImplTest.json`** does not yet, exist, so let's create it and define the JCR resource structures that are needed for the test.
 
 3. Beneath the **core Module** `>` **test** create a new folder structure for **resources/com/adobe/aem/guides/wknd/core/components/impl**. This will hold any JSON files that represent mock resource structures. By convention, the resource structure follows the Java package structure to provide clarity around which JSON files support which tests.
 
@@ -269,7 +272,7 @@ Since unit tests are executed at build, outside the context of a running AEM ins
 
 4. The JSON files that represent the mock resource structures are stored under **core/src/test/resources** following the same package pathing as the JUnit Java test file.
 
-   Create a new JSON file at **core/test/resources/com/adobe/aem/guides/wknd/core/components/impl** named **BylineImplTest.json** with the following content:
+   Create a new JSON file at **core/test/resources/com/adobe/aem/guides/wknd/core/components/impl** named **`BylineImplTest.json`** with the following content:
 
     ```json
 
@@ -314,15 +317,11 @@ Now that we have a basic mock context setup, let's write our first test for **By
 
    ```
 
-   **String expected** sets the expected value. We will set this to "**Jane Done**".
-
-   **ctx.currentResource** sets the context of the mock resource to evaluate the code against, so this is set to **/content/byline** as that is where the mock byline content resource is loaded.
-
-   **Byline byline** instantiates the Byline Sling Model by adapting it from the mock Request object.
-
-   **String actual** invokes the method we're testing, **getName(),** on the Byline Sling Model object.
-
-   **assertEquals** asserts the expected value matches the value returned by the byline Sling Model object. If these values are not equal, the test will fail.
+   * **`String expected`** sets the expected value. We will set this to "**Jane Done**".
+   * **`ctx.currentResource`** sets the context of the mock resource to evaluate the code against, so this is set to **/content/byline** as that is where the mock byline content resource is loaded.
+   * **`Byline byline`** instantiates the Byline Sling Model by adapting it from the mock Request object.
+   * **`String actual`** invokes the method we're testing, **getName(),** on the Byline Sling Model object.
+   * **`assertEquals`** asserts the expected value matches the value returned by the byline Sling Model object. If these values are not equal, the test will fail.
 
 2. Run the test... and it fails with a `NullPointerException`.
 
@@ -381,15 +380,11 @@ Now that we have a basic mock context setup, let's write our first test for **By
 
    ```
 
-   **@ExtendWith({AemContextExtension.class, MockitoExtension.class})** marks the Test Case class to be run with the [Mockito JUnit Jupiter Extension](https://www.javadoc.io/page/org.mockito/mockito-junit-jupiter/latest/org/mockito/junit/jupiter/MockitoExtension.html) which allows for the use of the @Mock annotations to define mock objects at the Class level.
-
-   **@Mock private Image** creates a mock object of type com.adobe.cq.wcm.core.components.models.Image. Note that this is defined at the class level so that, as needed, `@Test`methods can alter its behavior as needed.
-
-   **@Mock private ModelFactory** creates a mock object of type ModelFactory. Note that this is a pure Mockito mock and has no methods implemented on it. Note that this is defined at the class level so that, as needed, `@Test`methods can alter its behavior as needed.
-
-   **when(modelFactory.getModelFromWrappedRequest...** registers mock behavior for when `getModelFromWrappedRequest(..)` is called on the mock ModelFactory object. The result defined in `thenReturn (..)` is to return the mock Image object. Note that this behavior is only invoked when: the 1st parameter is equal to the `ctx`'s  request object, the 2nd param is any Resource object, and the 3rd param must be the Core Components Image class. We accept any Resource because throughout our tests we will be setting the `ctx.currentResource(...)` to various mock resources defined in the **BylineImplTest.json**. Note that we add the **lenient()** strictness because we will later want to override this behavior of the ModelFactory.
-
-   **ctx.registerService...** registers the mock ModelFactory object into the AemContext, with the highest service ranking. This is required since the ModelFactory used in the BylineImpl's `init()` is injected via the `@OSGiService ModelFactory model` field. In order for the AemContext to inject **our** mock object, which handles calls to `getModelFromWrappedRequest(..)`, we must register it as the highest ranking Service of that type (ModelFactory).
+   * **`@ExtendWith({AemContextExtension.class, MockitoExtension.class})`** marks the Test Case class to be run with the [Mockito JUnit Jupiter Extension](https://www.javadoc.io/page/org.mockito/mockito-junit-jupiter/latest/org/mockito/junit/jupiter/MockitoExtension.html) which allows for the use of the @Mock annotations to define mock objects at the Class level.
+   * **`@Mock private Image`** creates a mock object of type com.adobe.cq.wcm.core.components.models.Image. Note that this is defined at the class level so that, as needed, `@Test`methods can alter its behavior as needed.
+   * **`@Mock private ModelFactory`** creates a mock object of type ModelFactory. Note that this is a pure Mockito mock and has no methods implemented on it. Note that this is defined at the class level so that, as needed, `@Test`methods can alter its behavior as needed.
+   * **`when(modelFactory.getModelFromWrappedRequest`...** registers mock behavior for when `getModelFromWrappedRequest(..)` is called on the mock ModelFactory object. The result defined in `thenReturn (..)` is to return the mock Image object. Note that this behavior is only invoked when: the 1st parameter is equal to the `ctx`'s  request object, the 2nd param is any Resource object, and the 3rd param must be the Core Components Image class. We accept any Resource because throughout our tests we will be setting the `ctx.currentResource(...)` to various mock resources defined in the **BylineImplTest.json**. Note that we add the **lenient()** strictness because we will later want to override this behavior of the ModelFactory.
+   * **`ctx.registerService`...** registers the mock ModelFactory object into the AemContext, with the highest service ranking. This is required since the ModelFactory used in the BylineImpl's `init()` is injected via the `@OSGiService ModelFactory model` field. In order for the AemContext to inject **our** mock object, which handles calls to `getModelFromWrappedRequest(..)`, we must register it as the highest ranking Service of that type (ModelFactory).
 
 4. Re-run the test, and again it fails, but this time the message is clear why its failed.
 
@@ -446,15 +441,11 @@ Remember that this method must return an alphabetically sorted list of occupatio
 
    ```
 
-   **`List<String> expected`** define the expected result.
-
-   **`ctx.currentResource`** sets the current resource to evaluate the context against to the mock resource definition at /content/byline. This ensures the **BylineImpl.java** executes in the context of our mock resource.
-
-   **`ctx.request().adaptTo(Byline.class)`** instantiates the Byline Sling Model by adapting it from the mock Request object.
-
-   **`byline.getOccupations()`** invokes the method we're testing, `getOccupations()`, on the Byline Sling Model object.
-
-   **`assertEquals(expected, actual)`** asserts expected list is the same as the actual list.
+   * **`List<String> expected`** define the expected result.
+   * **`ctx.currentResource`** sets the current resource to evaluate the context against to the mock resource definition at /content/byline. This ensures the **BylineImpl.java** executes in the context of our mock resource.
+   * **`ctx.request().adaptTo(Byline.class)`** instantiates the Byline Sling Model by adapting it from the mock Request object.
+   * **`byline.getOccupations()`** invokes the method we're testing, `getOccupations()`, on the Byline Sling Model object.
+   * **`assertEquals(expected, actual)`** asserts expected list is the same as the actual list.
 
 2. Remember, just like **`getName()`** above, the **BylineImplTest.json** does not define occupations, so this test will fail if we run it, since `byline.getOccupations()` will return an empty list.
 

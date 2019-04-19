@@ -4,6 +4,7 @@ seo-title: Getting Started with AEM Sites Chapter 8 - Landing Page
 description: Covers the implementation of the Teaser and Carousel components to populate a dynamic and exciting Home page.
 seo-description: Covers the implementation of the Teaser and Carousel components to populate a dynamic and exciting Home page.
 uuid: f4ef2bef-bdca-4fbc-b6d8-3e694aad14bd
+products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 1a8f1d27-7b36-4254-bdd4-844b5d869682
 
@@ -17,7 +18,13 @@ Covers the implementation of the Teaser and Carousel components to populate a dy
 
 This is Chapter 8 of a multi-part tutorial. [Chapter 7 can be found here](chapter-7.md) and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
 
-You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
+You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
+
+## Objective
+
+1. Understand advanced Core Components of the Carousel and Teaser.
+2. Advanced usage of AEM's Style System and Editable Templates.
+3. Learn to use only a couple of components to create a dynamic landing page.
 
 ## Teaser and Carousel Components {#teaser-carousel-overview}
 

@@ -4,6 +4,7 @@ seo-title: Getting Started with AEM Sites Chapter 7 - Header and Footer
 description: Covers dynamic navigation driven by the content hierarchy and including the Quick Search component in the Header. Composite Components and policy sharing between multiple templates are included. Basics of HTL templating language, and dialogs are also used.
 seo-description: Covers dynamic navigation driven by the content hierarchy and including the Quick Search component in the Header. Composite Components and policy sharing between multiple templates are included. Basics of HTL templating language, and dialogs are also used.
 uuid: 06da699b-05f0-4301-8797-ae764a11a358
+products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 5f309b04-9085-4aeb-a19a-c3903e9fb179
@@ -19,7 +20,13 @@ Covers dynamic navigation driven by the content hierarchy and including the Quic
 
 This is Chapter 7 of the multi-part tutorial. **[Chapter 6 can be found here](chapter-6.md)** and an **[overview can be found here](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)**.
 
-You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
+You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
+
+## Objective
+
+1. Understand the importance and impact the Content Hierarchy can have on a Sites implementation.
+2. Use the Navigation component to provide dynamic Header and Footer navigation for the site.
+3. Learn to create a *composite* AEM component that includes multiple sub-components.
 
 ## Content Hierarchy {#content-hierarchy}
 
@@ -33,7 +40,7 @@ The fictitious WKND site is a life-style site with articles of things to do in s
 
 ![Top level hierarchy](assets/chapter-7/site-architecture.png)
 
-Top level hierarchy for WKND site structure.
+*Top level hierarchy for WKND site structure.*
 
 ## Update Site Hierarchy {#site-hierarchy}
 
@@ -74,7 +81,7 @@ The **ui.apps** module will be updated.
 
 2. Update the **componentGroup** to be **WKND.Structure**
 
-    ![Move navigation to structure](assets/chapter-7/move-navigation-structure.gif) 
+    ![Move navigation to structure](assets/chapter-7/move-navigation-structure.gif)
 
     ![Update component group to WKND.Structure](assets/chapter-7/update-component-group.png)
 
@@ -332,50 +339,50 @@ Instead we will create a "composite" component. The Header component will embed 
 
     ![edit dialog header XML](assets/chapter-7/dialog-header.gif)
 
-   ```xml
+        ```xml
 
-   <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
-       jcr:primaryType="nt:unstructured"
-       jcr:title="Header"
-       sling:resourceType="cq/gui/components/authoring/dialog">
-       <content
-           jcr:primaryType="nt:unstructured"
-           sling:resourceType="granite/ui/components/coral/foundation/container">
-           <items jcr:primaryType="nt:unstructured">
-               <tabs
-                   jcr:primaryType="nt:unstructured"
-                   sling:resourceType="granite/ui/components/coral/foundation/tabs"
-                   maximized="{Boolean}true">
-                   <items jcr:primaryType="nt:unstructured">
-                       <header
-                           jcr:primaryType="nt:unstructured"
-                           jcr:title="Header Settings"
-                           sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
-                           margin="{Boolean}true">
-                           <items jcr:primaryType="nt:unstructured">
-                               <column
-                                   jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/container">
-                                   <items jcr:primaryType="nt:unstructured">
-                                       <rootpath
-                                           jcr:primaryType="nt:unstructured"
-                                           sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                                           fieldDescription="Populate the link of the WKND logo"
-                                           fieldLabel="Root Path"
-                                           name="./rootPath"
-                                           rootPath="/content/wknd"/>
-                                   </items>
-                               </column>
-                           </items>
-                       </header>
-                   </items>
-               </tabs>
-           </items>
-       </content>
-   </jcr:root>
+        <?xml version="1.0" encoding="UTF-8"?>
+        <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Header"
+            sling:resourceType="cq/gui/components/authoring/dialog">
+            <content
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <tabs
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                        maximized="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <header
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Header Settings"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <rootpath
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldDescription="Populate the link of the WKND logo"
+                                                fieldLabel="Root Path"
+                                                name="./rootPath"
+                                                rootPath="/content/wknd"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </header>
+                        </items>
+                    </tabs>
+                </items>
+            </content>
+        </jcr:root>
 
-   ```
+        ```
 
 3. Policy configurations (formerly design dialogs) allow a user to update the Policy of a component. When working with structural components that will be re-used across templates it is advantageous to use Policies since the policy can be applied across templates.
 
@@ -384,49 +391,49 @@ Instead we will create a "composite" component. The Header component will embed 
     1. Beneath **`/apps/wknd/components/structure/header`** create a new node named **cq:design_dialog** of type **nt:unstructured**.
     2. It is easiest to edit the xml directly so open **`/wknd-sites-guide.ui.apps/src/main/content/jcr_root/apps/wknd/components/structure/header/_cq_design_dialog/.content.xml`**
 
-    ![Design Dialog edit](assets/chapter-7/design_dialog-header.gif)
+        ![Design Dialog edit](assets/chapter-7/design_dialog-header.gif)
 
-   ```xml
-   <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:granite="https://www.adobe.com/jcr/granite/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
-       jcr:primaryType="nt:unstructured"
-       jcr:title="Navigation"
-       sling:resourceType="cq/gui/components/authoring/dialog">
-       <content
-           granite:class="cmp-navigation__editor"
-           jcr:primaryType="nt:unstructured"
-           sling:resourceType="granite/ui/components/coral/foundation/container">
-           <items jcr:primaryType="nt:unstructured">
-               <tabs
-                   jcr:primaryType="nt:unstructured"
-                   sling:resourceType="granite/ui/components/coral/foundation/tabs"
-                   maximized="{Boolean}true">
-                   <items jcr:primaryType="nt:unstructured">
-                       <properties
-                           jcr:primaryType="nt:unstructured"
-                           jcr:title="Properties"
-                           sling:resourceType="granite/ui/components/coral/foundation/container"
-                           margin="{Boolean}true">
-                           <items jcr:primaryType="nt:unstructured">
-                              <rootpath
-                                   jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                                   fieldDescription="Populate the link of the WKND logo"
-                                   fieldLabel="Root Path"
-                                   name="./rootPath"
-                                   rootPath="/content/wknd"/>
-                           </items>
-                       </properties>
-                       <styletab
-                           jcr:primaryType="nt:unstructured"
-                           sling:resourceType="granite/ui/components/coral/foundation/include"
-                           path="/mnt/overlay/cq/gui/components/authoring/dialog/style/tab_design/styletab"/>
-                   </items>
-               </tabs>
-           </items>
-       </content>
-   </jcr:root>
-   ```
+        ```xml
+        <?xml version="1.0" encoding="UTF-8"?>
+        <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:granite="https://www.adobe.com/jcr/granite/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Navigation"
+            sling:resourceType="cq/gui/components/authoring/dialog">
+            <content
+                granite:class="cmp-navigation__editor"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <tabs
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                        maximized="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <properties
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Properties"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <rootpath
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                        fieldDescription="Populate the link of the WKND logo"
+                                        fieldLabel="Root Path"
+                                        name="./rootPath"
+                                        rootPath="/content/wknd"/>
+                                </items>
+                            </properties>
+                            <styletab
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/include"
+                                path="/mnt/overlay/cq/gui/components/authoring/dialog/style/tab_design/styletab"/>
+                        </items>
+                    </tabs>
+                </items>
+            </content>
+        </jcr:root>
+        ```
 
    In the XML note the **`<rootpath />`** node that has an attribute **`name="./rootPath`"**. This will be the name of the property in which the Authors selection will be made.
 
@@ -436,19 +443,19 @@ Instead we will create a "composite" component. The Header component will embed 
 
     1. Update **`/apps/wknd/components/structure/header/header.html`** with the following:
 
-   ```xml
+        ```xml
 
-   <!--/* Header Component for WKND Site */-->
+        <!--/* Header Component for WKND Site */-->
 
-   <header class="wknd-header">
-    <div class="container">
-     <a class="wknd-header-logo" href="${properties.rootPath || currentStyle.rootPath @ extension='html'}">WKND</a>
-        <div class="cmp-search--header" data-sly-resource="${'search' @ resourceType='wknd/components/structure/search'}"></div>
-        <div class="cmp-navigation--header" id="header-navbar" data-sly-resource="${'navigation' @ resourceType='wknd/components/structure/navigation'}"></div>
-    </div>
-   </header>
+        <header class="wknd-header">
+        <div class="container">
+            <a class="wknd-header-logo" href="${properties.rootPath || currentStyle.rootPath @ extension='html'}">WKND</a>
+            <div class="cmp-search--header" data-sly-resource="${'search' @ resourceType='wknd/components/structure/search'}"></div>
+            <div class="cmp-navigation--header" id="header-navbar" data-sly-resource="${'navigation' @ resourceType='wknd/components/structure/navigation'}"></div>
+        </div>
+        </header>
 
-   ```
+        ```
 
    The snippet **`${properties.rootPath || currentStyle.rootPath @ extension='html'}`**
 
@@ -1017,7 +1024,6 @@ Next, we will use Javascript to create a copy of the Header Navigation markup an
 
      applyComponentStyles();
 
-     $(".responsivegrid").bind("DOMNodeInserted", applyComponentStyles);
    });
 
    ```

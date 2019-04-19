@@ -4,6 +4,7 @@ seo-title: Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and 
 description: Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an AEM Sites implementation. Integration with AEM's responsive grid and mobile emulator. aemfed module is used to accelerate front-end development.
 seo-description: Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an AEM Sites implementation. Integration with AEM's responsive grid and mobile emulator. aemfed module is used to accelerate front-end development.
 uuid: c0692b1e-1a9d-4c16-bf10-12bf3e376079
+products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: aee38279-dffc-4540-96f3-41e3de059bb3
@@ -19,7 +20,7 @@ Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage 
 
 This is Chapter 3 of the multi-part tutorial. **[Chapter 2 can be found here](/help/getting-started-wknd-tutorial-develop/chapter-2.md)** and an **[overview can be found here](getting-started-wknd-tutorial-develop.md)**.
 
-You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
+You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
 
 ## Objective
 
@@ -194,7 +195,7 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
    >The location of the grid_base LESS file provided by AEM has changed from 6.3 to 6.4. If referencing the file directly in your own project ensure that the correct location is used:
    >
    >* **6.3** Path to Responsive Grid: `/etc/clientlibs/wcm/foundation/grid/grid_base.less`
-   >* **6.4+** Path to Responsive Grid: `/libs/wcm/foundation/clientlibs/grid/grid_base.less`
+   >* **6.4, 6.5+** Path to Responsive Grid: `/libs/wcm/foundation/clientlibs/grid/grid_base.less`
 
    Within **clientlib-site** you will also notice a folder named **webfonts**. This is a small client-side library that includes a call to Google webfonts. This has been split from the rest of **clientlib-site** in order to load this library at the top of the CSS file. In the next section we will embed this as part of **clientlib-base**.
 
@@ -221,9 +222,9 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
     | Name | Type | Value | Description |
     |---   |---   |---    |---          |
     | jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
-    | allowProxy | Boolean | **true** | *Exposes CSS/JS via /etc.clientlibs* |
-    | categories | String[] | **wknd.base** | *Tag-like string that allows the clientlib to be referenced* |
-    | embed      | String [] | **wknd.webfonts**, core.wcm.components.tabs.v1, core.wcm.components.carousel.v1, core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2, core.wcm.components.search.v1, core.wcm.components.form.text.v2, wknd.breadcrumb, wknd.site | *Embeds the clientlibs by respective category. Include any CoreComponent clientlibs here. The **wknd.site** category embeds the clientlib-site library. **wknd.webfonts** is split and embedded at the top so that the webfonts are correctly imported at the top of the generated CSS file.* |
+    | allowProxy | `Boolean` | **true** | *Exposes CSS/JS via /etc.clientlibs* |
+    | categories | `String[]` | **wknd.base** | *Tag-like string that allows the clientlib to be referenced* |
+    | embed      | `String []` | **wknd.webfonts**, core.wcm.components.tabs.v1, core.wcm.components.carousel.v1, core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2, core.wcm.components.search.v1, core.wcm.components.form.text.v2, wknd.breadcrumb, **wknd.site** | *Embeds the clientlibs by respective category. Include any CoreComponent clientlibs here. The **wknd.site** category embeds the clientlib-site library. **wknd.webfonts** is split and embedded at the top so that the webfonts are correctly imported at the top of the generated CSS file.* |
 
    ```xml
 

@@ -4,6 +4,7 @@ seo-title: Getting Started with AEM Sites Chapter 5 - Creating a custom AEM Comp
 description: Covers the end to end creation of a custom byline component that displays authored content. Includes developing a Sling Model to encapsulate business logic to populate the byline component and corresponding HTL to render the component. 
 seo-description: Covers the end to end creation of a custom byline component that displays authored content. Includes developing a Sling Model to encapsulate business logic to populate the byline component and corresponding HTL to render the component. 
 uuid: 7f5a8f7f-8d0b-42b7-9e97-cb4268294e2f
+products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: a589b81d-6b6e-4a4e-8a7e-ff0f98cb2d45
@@ -18,7 +19,7 @@ Covers the end to end creation of a custom Byline component that displays author
 
 This is Chapter 5 of a multi-part tutorial. [Chapter 4 can be found here](chapter-4.md) and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
 
-You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
+You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
 
 ## Objective
 
@@ -33,6 +34,7 @@ You can check out the finished code on [**GitHub**](https://github.com/Adobe-Mar
 In this part of the WKND tutorial, a Byline Component is built to be used on the Article pages that displays authored information about the article's contributor.
 
 ![byline component example](assets/chapter-5/byline-example.png)
+
 *Byline component visual design provided by WKND design team.*
 
 The implementation of this new component includes a dialog that collects the byline content and a custom Sling Model dynamically retrieves the byline's
@@ -44,6 +46,7 @@ The implementation of this new component includes a dialog that collects the byl
 for display by a HTL script.
 
 ![byline de-composition](assets/chapter-5/byline-decomposition.png)
+
 *Byline component decomposition*
 
 ## Create Byline component {#create-byline-component}
@@ -720,11 +723,8 @@ Checking the name and occupation conditions are trivial (and the Apache Commons 
 
 There are two ways to tackle this:
 
-**One** Check if the fileReference JCR property resolves to an asset.
-
-**OR**
-
-**Two** Convert this resource into a Core Component Image Sling Model and ensure the getSrc() method is not empty.
+* **One** Check if the fileReference JCR property resolves to an asset. **OR**
+* **Two** Convert this resource into a Core Component Image Sling Model and ensure the `getSrc()` method is not empty.
 
 We will opt for approach **Two**. The first approach is likely sufficient, but in this tutorial, the latter will be used to explore other features of Sling Models.
 
@@ -743,16 +743,16 @@ We will opt for approach **Two**. The first approach is likely sufficient, but i
 
     There are two more approaches to get the **Image Sling Model**:
 
-    **One** Use the `@Self` annotation, to automatically adapt the current request to the Image.class
+    * **One** Use the `@Self` annotation, to automatically adapt the current request to the Image.class
 
-    ```java
-    @Self
-    private Image image;
-    ```
+        ```java
 
-    **OR**
+        @Self
+        private Image image;
 
-    **Two** Use the [Apache Sling ModelFactory](https://sling.apache.org/apidocs/sling10/org/apache/sling/models/factory/ModelFactory.html) OSGi service, which is a very handy service, and helps us create Sling Models of other types in Java code.
+        ```
+
+    * **Two** Use the [Apache Sling ModelFactory](https://sling.apache.org/apidocs/sling10/org/apache/sling/models/factory/ModelFactory.html) OSGi service, which is a very handy service, and helps us create Sling Models of other types in Java code.
 
     We will opt for approach **Two**.
 
@@ -760,7 +760,7 @@ We will opt for approach **Two**. The first approach is likely sufficient, but i
     >
     >In a real-world implementation, approach #One, using @Self is preferred since it's the simpler, more elegant solution. In this tutorial we'll use the second approach, as it requires us to explore more facets of Sling Models!
 
-    Since Sling Models are Java POJO's, and not OSGi Services, the usual OSGi injection annotations, like **@Reference**, **cannot** be used, meaning the following would not work (modelFactory would be null).
+    Since Sling Models are Java POJO's, and not OSGi Services, the usual OSGi injection annotations, like `@Reference`, **cannot** be used, meaning the following would not work (modelFactory would be null).
 
     ```java
     // DO NOT copy as part of the tutorial, illustration purposes only
@@ -844,105 +844,18 @@ We will opt for approach **Two**. The first approach is likely sufficient, but i
     }
     ```
 
-Let's head back to `isEmpty()` and finish the implementation.
+7. Let's head back to `isEmpty()` and finish the implementation:
 
-```java
-@Override
-public boolean isEmpty() {
-    if (StringUtils.isBlank(name)) {
-        // Name is missing, but required
-        return true;
-    } else if (occupations == null || occupations.isEmpty()) {
-        // At least one occupation is required
-        return true;
-    } else if (getImage() == null || StringUtils.isBlank(getImage().getSrc())) {
-        // A valid image is required
-        return true;
-    } else {
-        // Everything is populated, so this component is not considered empty
-        return false;
-    }
-}
-```
-
-Note multiple calls to `getImage()` is not problematic as returns the initialized `image` class variable and does not invoke `modelFactory.getModelFromWrappedRequest(...)` which isn't an incredibly costly, but worth avoiding calling unnecessarily.
-
-The final `BylineImpl.java` should look like:
-
-```java
-package com.adobe.aem.guides.wknd.core.components.impl;
-
-import java.util.Collections;
-import java.util.List;
-
-import javax.annotation.PostConstruct;
-
-import org.apache.commons.lang3.StringUtils;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.models.annotations.DefaultInjectionStrategy;
-import org.apache.sling.models.annotations.Model;
-import org.apache.sling.models.annotations.injectorspecific.OSGiService;
-import org.apache.sling.models.annotations.injectorspecific.Self;
-import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
-import org.apache.sling.models.factory.ModelFactory;
-
-import com.adobe.aem.guides.wknd.core.components.Byline;
-import com.adobe.cq.wcm.core.components.models.Image;
-
-@Model(
-        adaptables = {SlingHttpServletRequest.class},
-        adapters = {Byline.class},
-        resourceType = {BylineImpl.RESOURCE_TYPE},
-        defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
-)
-public class BylineImpl implements Byline {
-    protected static final String RESOURCE_TYPE = "wknd/components/content/byline";
-
-    @Self
-    private SlingHttpServletRequest request;
-
-    @OSGiService
-    private ModelFactory modelFactory;
-
-    @ValueMapValue
-    private String name;
-
-    @ValueMapValue
-    private List<String> occupations;
-
-    private Image image;
-
-    @PostConstruct
-    private void init() {
-        image = modelFactory.getModelFromWrappedRequest(request, request.getResource(), Image.class);
-    }
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public List<String> getOccupations() {
-         if (occupations != null) {
-             Collections.sort(occupations);
-             return occupations;
-         } else {
-             return Collections.emptyList();
-         }
-    }
-
+    ```java
     @Override
     public boolean isEmpty() {
-        final Image image = getImage();
-
         if (StringUtils.isBlank(name)) {
             // Name is missing, but required
             return true;
         } else if (occupations == null || occupations.isEmpty()) {
             // At least one occupation is required
             return true;
-        } else if (image == null || StringUtils.isBlank(image.getSrc())) {
+        } else if (getImage() == null || StringUtils.isBlank(getImage().getSrc())) {
             // A valid image is required
             return true;
         } else {
@@ -950,15 +863,104 @@ public class BylineImpl implements Byline {
             return false;
         }
     }
+    ```
 
-    /**
-     * @return the Image Sling Model of this resource, or null if the resource cannot create a valid Image Sling Model. 
-     */
-    private Image getImage() {
-        return image;
+    Note multiple calls to `getImage()` is not problematic as returns the initialized `image` class variable and does not invoke `modelFactory.getModelFromWrappedRequest(...)` which isn't an incredibly costly, but worth avoiding calling unnecessarily.
+
+The final `BylineImpl.java` should look like:
+
+    ```java
+
+    package com.adobe.aem.guides.wknd.core.components.impl;
+
+    import java.util.Collections;
+    import java.util.List;
+
+    import javax.annotation.PostConstruct;
+
+    import org.apache.commons.lang3.StringUtils;
+    import org.apache.sling.api.SlingHttpServletRequest;
+    import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+    import org.apache.sling.models.annotations.Model;
+    import org.apache.sling.models.annotations.injectorspecific.OSGiService;
+    import org.apache.sling.models.annotations.injectorspecific.Self;
+    import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
+    import org.apache.sling.models.factory.ModelFactory;
+
+    import com.adobe.aem.guides.wknd.core.components.Byline;
+    import com.adobe.cq.wcm.core.components.models.Image;
+
+    @Model(
+            adaptables = {SlingHttpServletRequest.class},
+            adapters = {Byline.class},
+            resourceType = {BylineImpl.RESOURCE_TYPE},
+            defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
+    )
+    public class BylineImpl implements Byline {
+        protected static final String RESOURCE_TYPE = "wknd/components/content/byline";
+
+        @Self
+        private SlingHttpServletRequest request;
+
+        @OSGiService
+        private ModelFactory modelFactory;
+
+        @ValueMapValue
+        private String name;
+
+        @ValueMapValue
+        private List<String> occupations;
+
+        private Image image;
+
+        @PostConstruct
+        private void init() {
+            image = modelFactory.getModelFromWrappedRequest(request, request.getResource(), Image.class);
+        }
+
+        @Override
+        public String getName() {
+            return name;
+        }
+
+        @Override
+        public List<String> getOccupations() {
+            if (occupations != null) {
+                Collections.sort(occupations);
+                return occupations;
+            } else {
+                return Collections.emptyList();
+            }
+        }
+
+        @Override
+        public boolean isEmpty() {
+            final Image image = getImage();
+
+            if (StringUtils.isBlank(name)) {
+                // Name is missing, but required
+                return true;
+            } else if (occupations == null || occupations.isEmpty()) {
+                // At least one occupation is required
+                return true;
+            } else if (image == null || StringUtils.isBlank(image.getSrc())) {
+                // A valid image is required
+                return true;
+            } else {
+                // Everything is populated, so this component is not considered empty
+                return false;
+            }
+        }
+
+        /**
+        * @return the Image Sling Model of this resource, or null if the resource cannot create a valid Image Sling Model. 
+        */
+        private Image getImage() {
+            return image;
+        }
     }
-}
-```
+
+    ```
 
 ## Byline HTL {#byline-htl}
 
@@ -1155,6 +1157,7 @@ If the BylineImpl was not displayed in this list, then there was is likely an is
 ![Osgi Sling Model Status](assets/chapter-5/osgi-sling-models-nav.png)
 
 ![Byline Sling Model registered](assets/chapter-5/osgi-sling-models.png)
+
 *http://localhost:4502/system/console/status-slingmodels*
 
 ## Byline styles {#byline-styles}
@@ -1164,6 +1167,7 @@ The Byline component needs to be styled to align with the creative design for th
 After styling, the Byline component should adopt the follow aesthetic.
 
 ![byline mock styles](assets/chapter-5/byline-example-1.png)
+
 *Byline component design as defined by the WKND creative team*
 
 ### Add a default style
