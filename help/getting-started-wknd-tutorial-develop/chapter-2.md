@@ -24,7 +24,7 @@ This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](ch
 >
 > Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
 
-You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package from the previous chapter](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**
+You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
 
 ## Objective
 
@@ -178,6 +178,7 @@ Each component added has a **sling:resourceSuperType** property to point to the 
    Each component included will have a **sling:resourceSuperType** property that points to the equivalent Core Component. The exception is the **helloworld** component which is a sample component.
 
    ![Breadcrumb Component](assets/chapter-2/breadcrumb-component.png)
+
    *Breadcrumb Component for creating navigation breadcrumbs.*
 
    Notice the property **componentGroup** that is set to **WKND.Content**. **componentGroup** will be used by a template policy to determine if the component can be added to a page. More on this later in the chapter.
@@ -193,6 +194,7 @@ Each component added has a **sling:resourceSuperType** property to point to the 
 3. Core Components also include a set of components for building HTML forms. These components are also proxied into the project, like the components under `/content`. Notice also that these components have a unique componentGroup.
 
    ![button component](assets/chapter-2/button-component.png)
+
    *Button form component*
 
 ## Update Empty Page Template Type {#template-type}

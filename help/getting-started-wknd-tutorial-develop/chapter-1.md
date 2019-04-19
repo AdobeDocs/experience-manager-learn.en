@@ -683,9 +683,9 @@ Popular developer workflow
 
 This tutorial will use the **Eclipse IDE** and the **AEM Developer tools** plugin.
 
->![NOTE]
+>[!NOTE]
 >
-> Follow the instructions here **[to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env)**.
+> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
 
 ## Developer Workflow {#developer-workflow}
 

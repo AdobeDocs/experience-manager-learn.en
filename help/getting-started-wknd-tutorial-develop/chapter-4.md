@@ -4,6 +4,7 @@ seo-title: Getting Started with AEM Sites Chapter 4 - Developing with the Style 
 description: Covers using the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor. Content Fragments are also integrated to create long form article text.
 seo-description: Covers using the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor. Content Fragments are also integrated to create long form article text.
 uuid: c4becc91-34e5-446e-b355-a196ccb54627
+products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 22a3cbe8-1aa7-4798-9d65-89fb11a551c2
@@ -19,7 +20,7 @@ Covers using the Style System to extend Core Components with brand-specific CSS 
 
 This is Chapter 4 of the multi-part tutorial. [Chapter 3 can be found here](chapter-3.md) and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
 
-You can check out the finished code on [**GitHub**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the solution package:
+You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
 
 ## Objective
 
