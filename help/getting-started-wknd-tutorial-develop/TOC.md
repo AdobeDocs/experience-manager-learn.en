@@ -1,10 +1,10 @@
 ---
 product: AEM
 audience: developer
-user-guide-title: AEM WKND Developer Tutorial
+user-guide-title: Getting Started with AEM Sites - WKND Tutorial
 ---
 
-# AEM WKND Developer Tutorial {#aem-wknd-developer-tutorial}
+# Getting Started with AEM Sites - WKND Tutorial {#aem-wknd-developer-tutorial}
 
 + [Introduction](/help/getting-started-wknd-tutorial-develop/getting-started-wknd-tutorial-develop.md)
 + [1 - Project Setup](/help/getting-started-wknd-tutorial-develop/chapter-1.md)
