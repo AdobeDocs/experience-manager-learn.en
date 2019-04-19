@@ -4,6 +4,7 @@ seo-title: Getting Started with AEM Sites Chapter 2 - Pages and Templates
 description: Understand the relationship between a base page component and editable templates. Understand how Core Components are proxied into a project. Two different templates are created. Core Components of Text, Image, and Title are used to author an initial page.
 seo-description: Understand the relationship between a base page component and editable templates. Understand how Core Components are proxied into a project. Two different templates are created. Core Components of Text, Image, and Title are used to author an initial page.
 uuid: 6a7e43fc-faf6-4e9c-95ee-09ec0d23956a
+products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 00822ac4-842f-4b36-a142-5da73303e094
@@ -21,9 +22,9 @@ This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](ch
 
 >[!NOTE]
 >
-> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).** 
+> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
 
-You can view Chapter 1 on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/chapter-1/project-setup) or you can download the solution package: TBD
+You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package from the previous chapter](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**
 
 ## Objective
 
@@ -39,7 +40,7 @@ In Eclipse (or in the IDE of your choice) you will be viewing nodes beneath `/ap
 
 1. View the folder beneath `/apps/wknd/components/structure` named **page**.
 
-   The AEM project archetype creates a component named **page**. [Editable templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html) will be used for the WKND site. The name **structure** matches a specific mode of Editable template and is the common convention when using Editable templates. Any component added into the structure folder indicates that the component is meant to be used when constructing a template, and not to be used when authoring a page.
+   The AEM project archetype creates a component named **page**. [Editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) will be used for the WKND site. The name **structure** matches a specific mode of Editable template and is the common convention when using Editable templates. Any component added into the structure folder indicates that the component is meant to be used when constructing a template, and not to be used when authoring a page.
 
    ![asset base page](assets/chapter-2/base-page.png)
 
@@ -196,7 +197,7 @@ Each component added has a **sling:resourceSuperType** property to point to the 
 
 ## Update Empty Page Template Type {#template-type}
 
-[Template Types](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html#TemplateType) are effectively a template for a template. They are necessary in order to take advantage of AEM's Editable Template feature. Templates and Template Types are stored beneath **/conf**. The AEM project archetype creates a template type to get started with. Nodes in **/conf** can be updated in AEM directly via the UI. Thus any template related nodes are stored in the **ui.content** project.
+[Template Types](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateType) are effectively a template for a template. They are necessary in order to take advantage of AEM's Editable Template feature. Templates and Template Types are stored beneath **/conf**. The AEM project archetype creates a template type to get started with. Nodes in **/conf** can be updated in AEM directly via the UI. Thus any template related nodes are stored in the **ui.content** project.
 
 There are 3 main areas of Editable Templates:
 
