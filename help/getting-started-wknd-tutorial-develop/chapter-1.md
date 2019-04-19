@@ -4,6 +4,7 @@ seo-title: Getting Started with AEM Sites Chapter 1 - Project Setup
 description: Covers the creation of a Maven Multi Module Project to manage the code and configurations for an AEM Site.
 seo-description: Covers the creation of a Maven Multi Module Project to manage the code and configurations for an AEM Site.
 uuid: 91ef65b9-9b21-49ce-827c-28390e39066d
+products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 6d467cc5-5cc4-43d4-907e-37f6c4f618da
@@ -25,8 +26,11 @@ The following is required:
 
 1. [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 2. [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
-3. [AEM 6.4](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/technical-requirements.html) + [Service Pack 2](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html) **or** [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/technical-requirements.html) + [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
-4.[Eclipse](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) or other IDE
+3. Adobe Experience Manager
+    * [AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/technical-requirements.html) 
+    * [AEM 6.4.2+](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
+    * [AEM 6.3.3+](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
+4. [Eclipse](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) or other IDE
 
 For more information see: [Set up a Local AEM Development Environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html).
 
@@ -41,7 +45,7 @@ For more information see: [Set up a Local AEM Development Environment](https://h
 There are a  couple  options for creating a Maven Multimodule project for AEM. This tutorial will leverage the [Maven AEM Project Archetype 18](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype).
 
 > [!NOTE]
-> For the purposes of following this tutorial we will use version **17** of the archetype. It is always a best practice to use the **latest** version of the archetype to generate a new project.
+> For the purposes of following this tutorial we will use version **18** of the archetype. It is always a best practice to use the **latest** version of the archetype to generate a new project.
 
 The next series of steps will take place using a UNIX based command line  terminal,  but should be similar if using a Windows terminal.
 
