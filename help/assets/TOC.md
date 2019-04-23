@@ -4,7 +4,7 @@ audience: developer
 user-guide-title: Tutorials and Videos on AEM Assets
 ---
 
-# Tutorials and Videos on AEM Sites {#assets}
+# Tutorials and Videos on AEM Assets {#assets}
 
 + 3D Assets {#3D-assets}
   + [Using 3D Assets](videos/3d-assets-feature-video-use.md)
