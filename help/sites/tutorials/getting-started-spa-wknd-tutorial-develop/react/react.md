@@ -22,7 +22,7 @@ The goal for this multi-part tutorial is to teach a developer how to implement a
 
 In a real-world scenario the development activities will be broken down by persona, often involving a **Front End developer** and a **Back End developer**. Each task in the tutorial is labeled with a persona to gain a better idea of the separation of development activities. The tutorial is designed so that anyone can complete it end to end, however if a user wishes he or she can jump in to the tutorial at any stage.
 
-The implementation is designed to work on **AEM 6.4 + SP2**. The SPA implemenation is built using the [React JS framework](https://reactjs.org/). An equivalent tutorial and implementation using [Angular](https://angularjs.org/) is also [available](/help/getting-started-spa-wknd-tutorial-develop/angular/angular.md). The following modern web development tools are also used in the tutorial:
+The implementation is designed to work on **AEM 6.4 + SP2**. The SPA implementation is built using the [React JS framework](https://reactjs.org/). An equivalent tutorial and implementation using [Angular](https://angularjs.org/) is also [available](../angular/angular.md). The following modern web development tools are also used in the tutorial:
 
 * [Node.js](https://nodejs.org/en/)
 * [npm](https://www.npmjs.com/)
@@ -69,11 +69,11 @@ In addition, each chapter of the tutorial has its own branch in GitHub. A user c
 
 Below is the listing of chapters in the tutorial:
 
-* [Overview](/help/getting-started-spa-wknd-tutorial-develop/react/react.md)
-* [Chapter 0 - Project Setup](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-0.md)
-* [Chapter 1 - Editable Components](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md)
-* [Chapter 2 - Front End Development](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-2.md)
-* [Chapter 3 - Navigation and Routing](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-3.md)
+* [Overview](react.md)
+* [Chapter 0 - Project Setup](chapter-0.md)
+* [Chapter 1 - Editable Components](chapter-1.md)
+* [Chapter 2 - Front End Development](chapter-2.md)
+* [Chapter 3 - Navigation and Routing](chapter-3.md)
 * Chapter 4 - Custom Component (Coming Soon)
 
 ## Local Development Environment {#local-dev-env}

@@ -26,7 +26,7 @@ SPA development will be done primarily in a webpack project outside of AEM. This
 
 Congratulations! You successfully created and deployed an AEM SPA Project to a local AEM instance.
 
-Continue your journey with [1.2 Hello World](/help/getting-started-spa-wknd-tutorial-develop/react/hello-world.md).
+Continue your journey with [1.2 Hello World](hello-world.md).
 
 ## Help! {#help}
 

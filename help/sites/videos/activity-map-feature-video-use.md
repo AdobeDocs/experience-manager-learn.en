@@ -21,7 +21,7 @@ The AEM Sites Activity Map integration allows the Adobe Analytics Activity Map t
 
 >[!VIDEO](https://video.tv.adobe.com/v/17436/?quality=9)
 
-This video shows off the AEM Sits and Adobe Analytics Activity Map functional. For the previous videos in this series, review the [AEM Sites & Adobe Analytics Activity Map setup](../../sites/using/activity-map-feature-video-setup.md) videos.
+This video shows off the AEM Sits and Adobe Analytics Activity Map functional. For the previous videos in this series, review the [AEM Sites & Adobe Analytics Activity Map setup](activity-map-feature-video-setup.md) videos.
 
 ## Supporting materials {#supporting-materials}
 

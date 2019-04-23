@@ -23,6 +23,6 @@ Adobe Experience Manager 3D lets you upload, manage, view and render 3D content.
 
 ## Supporting materials {#supporting-materials}
 
-* [Setup 3D for AEM Assets](../../assets/using/3d-assets-technical-video-setup.md)
+* [Setup 3D for AEM Assets](3d-assets-technical-video-setup.md)
 
 [Get File](assets/adobe-logo.zip)
