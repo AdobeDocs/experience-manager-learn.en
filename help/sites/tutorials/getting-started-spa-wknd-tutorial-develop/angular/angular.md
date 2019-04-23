@@ -22,16 +22,16 @@ The focus of this tutorial explains how AEM SPA Editor and its supporting functi
 
 ## Table of contents {#table-of-contents}
 
-* [Introduction](/help/getting-started-spa-wknd-tutorial-develop/angular/angular.md)
-* [Chapter 0 - Setting up the tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md) 
-* [Chapter 1 - Bootstrapping the Angular application](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-1.md)
-* [Chapter 2 - Setting up Angular routes and page resolution](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-2.md)   
-* [Chapter 3 - Mapping AEM content to Angular components](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-3.md) 
-* [Chapter 4 - Setting up the Angular development environment](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-4.md) 
-* [Chapter 5 - Setting up the Styles](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-5.md)
-* [Chapter 6 - Building new and styling existing Angular components for AEM](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-6.md)
-* [Chapter 7 - Layouting with AEM Responsive Grid](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-7.md)  
-* [Chapter 8 - Multi-page navigation with the List component](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-8.md)
+* [Introduction](angular.md)
+* [Chapter 0 - Setting up the tutorial](chapter-0.md) 
+* [Chapter 1 - Bootstrapping the Angular application](chapter-1.md)
+* [Chapter 2 - Setting up Angular routes and page resolution](chapter-2.md)   
+* [Chapter 3 - Mapping AEM content to Angular components](chapter-3.md) 
+* [Chapter 4 - Setting up the Angular development environment](chapter-4.md) 
+* [Chapter 5 - Setting up the Styles](chapter-5.md)
+* [Chapter 6 - Building new and styling existing Angular components for AEM](chapter-6.md)
+* [Chapter 7 - Layouting with AEM Responsive Grid](chapter-7.md)  
+* [Chapter 8 - Multi-page navigation with the List component](chapter-8.md)
 
 ## Tutorial overview {#tutorial-overview}
 
@@ -84,7 +84,7 @@ For detailed steps for using Visual Studio Code for [local development with AEM 
 
 Start the tutorial!
 
-* [Chapter 0 - Setting up the tutorial](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-0.md)
+* [Chapter 0 - Setting up the tutorial](chapter-0.md)
 
 ## Want to skip to the end? {#want-to-skip-to-the-end}
 

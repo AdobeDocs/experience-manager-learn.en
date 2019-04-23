@@ -14,11 +14,9 @@ targetaudience: target-audience new
 
 Chapter 0 details the setup of a Maven multi module AEM project with a dedicated module for Single Page Application or SPA development. The goal for this chapter is to integrate a React project, based on the Create React App, with a traditional AEM Maven build process.
 
-## Tutorial Table of Contents {#toc}
-
 ## Prerequisites {#prerequisites}
 
-Review the required tooling and instructions for setting up a [local development environment here.](/help/getting-started-spa-wknd-tutorial-develop/react/react.md)
+Review the required tooling and instructions for setting up a [local development environment here.](react.md)
 
 **New to AEM?** [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html).
 
@@ -537,7 +535,7 @@ Open up the `aem-guides-wknd-events/ui.apps` project to edit.
 
 Next part in the tutorial:
 
-* [Chapter 1 - Editable Components](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md)
+* [Chapter 1 - Editable Components](chapter-1.md)
 
 View the solution for [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
 

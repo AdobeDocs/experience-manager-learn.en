@@ -20,7 +20,7 @@ Chapter 2 focuses on Front End Development outside of AEM. Developers will be ab
 
 **New to AEM?** [Check out how to set up a local development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html) before continuing.
 
-This is Chapter 2 of a multi-part tutorial. This assumes the completion of [Chapter 1](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-1.md) and the installation of tools needed for a [local development environment.](/help/getting-started-spa-wknd-tutorial-develop/react/react.md) View the [Chapter 1 code on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
+This is Chapter 2 of a multi-part tutorial. This assumes the completion of [Chapter 1](chapter-1.md) and the installation of tools needed for a [local development environment.](react.md) View the [Chapter 1 code on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events).
 
 Download the solution files from the previous chapter:
 
@@ -835,7 +835,7 @@ As part of the starter project a dedicated client library for the Responsive Gri
 
 Next part in the tutorial:
 
-* [Chapter 3](/help/getting-started-spa-wknd-tutorial-develop/react/chapter-3.md)
+* [Chapter 3](chapter-3.md)
 
 View the [Chapter 2 Solution on GitHub.](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events)
 

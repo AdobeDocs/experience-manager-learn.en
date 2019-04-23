@@ -428,7 +428,7 @@ Open up the `aem-guides-wknd-events/ui.apps` project to edit.
 
 Next part in the tutorial:
 
-* [Chapter 2 - Setting up Angular routes and Page resolution](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/angular/chapter-2.html)
+* [Chapter 2 - Setting up Angular routes and Page resolution](chapter-2.md)
 
 View the solution for [Chapter 1 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-1).
 

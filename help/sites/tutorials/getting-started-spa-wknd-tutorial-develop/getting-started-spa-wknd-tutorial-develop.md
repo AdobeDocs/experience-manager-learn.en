@@ -21,8 +21,8 @@ discoiquuid: aba5a558-84ab-454e-9811-61156bdde5d0
 There are two parallel versions of the Getting started with AEM SPA Editor tutorial, building on a fictional **WKND Events** application; one that builds the integration using [React](https://reactjs.org/) and the [Angular](https://angular.io/). Other than the JavaScript frameworks used, both tutorials follow the same flow and build out the same capabilities.
 
 Note the number and order of chapters in each tutorial varies based on the logical development flow imposed by the relevant framework.
-[ ![](assets/react-logo.png)](/help/getting-started-spa-wknd-tutorial-develop/react/react.md) [**Getting Started with React and AEM SPA Editor**](/help/getting-started-spa-wknd-tutorial-develop/react/react.md)
-[ ![](assets/angular-logo.png)](/help/getting-started-spa-wknd-tutorial-develop/angular/angular.md) [**Getting Started with Angular and AEM SPA Editor**](/help/getting-started-spa-wknd-tutorial-develop/angular/angular.md)
+[ ![](assets/react-logo.png)](react/react.md) [**Getting Started with React and AEM SPA Editor**](react/react.md)
+[ ![](assets/angular-logo.png)](angular/angular.md) [**Getting Started with Angular and AEM SPA Editor**](angular/angular.md)
 
 ## Github {#github}
 
@@ -38,4 +38,4 @@ In addition, each chapter of the tutorial has its own branch in GitHub. A user c
 
 If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or review existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/issues).
 
-Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND Events project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/issues). 
+Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND Events project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/issues).

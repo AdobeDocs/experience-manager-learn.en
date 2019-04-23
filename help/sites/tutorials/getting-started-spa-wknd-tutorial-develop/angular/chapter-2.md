@@ -481,7 +481,7 @@ The Page component is used to represent the JSON of a page in AEM, and start the
 
 Next part in the tutorial:
 
-* [Chapter 3 - Mapping AEM content to Angular components](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-3.md)
+* [Chapter 3 - Mapping AEM content to Angular components](chapter-3.md)
 
 View the solution for [Chapter 2 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-2).
 

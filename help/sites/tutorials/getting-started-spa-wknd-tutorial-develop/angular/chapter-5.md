@@ -243,6 +243,6 @@ The base styles will comprise of:
 
 Next part in the tutorial:
 
-* [Chapter 6 - Building components](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-6.md)
+* [Chapter 6 - Building components](chapter-6.md)
 
 View the solution for [Chapter 5 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-5).

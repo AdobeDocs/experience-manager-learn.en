@@ -253,6 +253,6 @@ Next we will make some small modifications to the Text component to promote cons
 
 Next part in the tutorial:
 
-* [Chapter 7 - Layouting with AEM Responsive Grid](/help/getting-started-spa-wknd-tutorial-develop/angular/chapter-7.md)
+* [Chapter 7 - Layouting with AEM Responsive Grid](chapter-7.md)
 
 View the solution for [Chapter 6 on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-6).
