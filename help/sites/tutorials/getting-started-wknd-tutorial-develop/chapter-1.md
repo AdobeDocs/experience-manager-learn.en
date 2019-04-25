@@ -24,10 +24,10 @@ A local development environment is necessary to complete this tutorial. Screensh
 
 The following is required:
 
-1. [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+1. [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html) or [Java 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) (AEM 6.5+ only)
 2. [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
 3. Adobe Experience Manager
-    * [AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/technical-requirements.html) 
+    * [AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/technical-requirements.html)
     * [AEM 6.4.2+](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
     * [AEM 6.3.3+](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
 4. [Eclipse](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) or other IDE
@@ -47,87 +47,11 @@ There are a  couple  options for creating a Maven Multimodule project for AEM. T
 > [!NOTE]
 > For the purposes of following this tutorial we will use version **18** of the archetype. It is always a best practice to use the **latest** version of the archetype to generate a new project.
 
-The next series of steps will take place using a UNIX based command line  terminal,  but should be similar if using a Windows terminal.
+1. A best practice is to add an **adobe-public** profile to your Maven [settings.xml](https://maven.apache.org/settings.html) file in order to automatically add **repo.adobe.com** to the maven build process.
 
-1. Open up a command line terminal and verify that Maven has been installed and added to the command line path:
+2. Create a file named `settings.xml`at `${user.home}/.m2/settings.xml` if it doesn't exist already.
 
-   ```shell
-   $ mvn -version
-   ...
-   Apache Maven 3.3.9
-   Maven home: /Library/apache-maven-3.3.9
-   Java version: 1.8.+, vendor: Oracle Corporation
-   Java home: /Library/Java/JavaVirtualMachines/jdk1.8.+.jdk/Contents/Home/jre
-   ```
-
-2. Paste the following into the command line to initiate the creation of a new project:
-
-   ```shell
-    mvn archetype:generate \
-     -DarchetypeGroupId=com.adobe.granite.archetypes \
-     -DarchetypeArtifactId=aem-project-archetype \
-     -DarchetypeVersion=18
-
-   ```
-
-   >[!NOTE]
-   >
-   >It is also possible to create the Maven AEM project using the [AEM Developer Tools plugin for Eclipse](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html).
-
-3. The AEM project archetype will ask a series of questions to set up the project. The following table lists the values used for this tutorial:
-
-   | **Description** |**Property** |**Value** |
-   |---|---|---|
-   | Maven group id |groupId |com.adobe.aem.guides |
-   | /apps folder name |appsFolderName |wknd |
-   | Maven artifact id |artifactId |aem-guides-wknd |
-   | Starting version of project |version |0.0.1-SNAPSHOT |
-   | Java source package |package |com.adobe.aem.guides.wknd |
-   | Maven project name |artifactName |WKND Sites Project |
-   | AEM component group name |componentGroupName |WKND.Content |
-   | /conf folder name |confFolderName |wknd |
-   | /content folder name |contentFolderName |wknd |
-   | Prefix used in generated CSS |cssId |wknd |
-   | Content Package group name |packageGroup |wknd |
-   | AEM site name |siteName |WKND Site |
-
-4. Navigate into the **aem-guides-wknd** directory and run the following maven command to build and deploy the project
-
-   ```shell
-   $ cd aem-guides-wknd
-   $ mvn -PautoInstallPackage -Padobe-public clean install
-   ...
-   [INFO] ------------------------------------------------------------------------
-   [INFO] Reactor Summary:
-   [INFO]
-   [INFO] aem-guides-wknd .................................... SUCCESS [  0.369 s]
-   [INFO] WKND Sites Project - Core .......................... SUCCESS [  3.836 s]
-   [INFO] WKND Sites Project - UI apps ....................... SUCCESS [  3.172 s]
-   [INFO] WKND Sites Project - UI content .................... SUCCESS [  0.554 s]
-   [INFO] WKND Sites Project - Integration Tests Bundles ..... SUCCESS [  0.896 s]
-   [INFO] WKND Sites Project - Integration Tests Launcher .... SUCCESS [  2.574 s]
-   [INFO] ------------------------------------------------------------------------
-   [INFO] BUILD SUCCESS
-   [INFO] ------------------------------------------------------------------------
-   [INFO] Total time: 12.530 s
-   [INFO] Finished at: 2018-04-04T18:17:45-04:00
-   [INFO] Final Memory: 57M/600M
-   [INFO] ------------------------------------------------------------------------
-   ```
-
-   the Maven profile ***autoInstallPackage*** is the most common profile used to deploy an AEM project. The archetype generates a **POM** file that will deploy to an AEM instance running locally on port **4502** and with the credentials of **admin:admin**.
-
-   The ***adobe-public*** profile ensures that **repo.adobe.com** is referenced when building the project.
-
-   ```shell
-   mvn -PautoInstallPackage -Padobe-public clean install
-   ```
-
-5. A best practice is to add an **adobe-public** profile to your Maven [settings.xml](https://maven.apache.org/settings.html) file in order to automatically add **repo.adobe.com** to the maven build process.
-
-6. Create a file named `settings.xml`at `${user.home}/.m2/settings.xml` if it doesn't exist already.
-
-7. Add the adobe-public profile to the `settings.xml` file based on [the instructions here](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+3. Add the adobe-public profile to the `settings.xml` file based on [the instructions here](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
    A sample `settings.xml`can be found below:
 
@@ -187,7 +111,51 @@ The next series of steps will take place using a UNIX based command line  termin
    </settings>
    ```
 
-8. Navigate into the **aem-guides-wknd** directory and run the following maven command, without the **adobe-public** profile to build and deploy the project
+4. The next series of steps will take place using a UNIX based command line  terminal,  but should be similar if using a Windows terminal.
+
+    Open up a command line terminal and verify that Maven has been installed and added to the command line path:
+
+   ```shell
+   $ mvn -version
+   ...
+   Apache Maven 3.3.9
+   Maven home: /Library/apache-maven-3.3.9
+   Java version: 1.8.+, vendor: Oracle Corporation
+   Java home: /Library/Java/JavaVirtualMachines/jdk1.8.+.jdk/Contents/Home/jre
+   ```
+
+5. Paste the following into the command line to initiate the creation of a new project:
+
+   ```shell
+    mvn archetype:generate \
+     -DarchetypeGroupId=com.adobe.granite.archetypes \
+     -DarchetypeArtifactId=aem-project-archetype \
+     -DarchetypeVersion=18
+
+   ```
+
+   >[!NOTE]
+   >
+   >It is also possible to create the Maven AEM project using the [AEM Developer Tools plugin for Eclipse](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html).
+
+6. The AEM project archetype will ask a series of questions to set up the project. The following table lists the values used for this tutorial:
+
+   | **Description** |**Property** |**Value** |
+   |---|---|---|
+   | Maven group id |groupId |com.adobe.aem.guides |
+   | /apps folder name |appsFolderName |wknd |
+   | Maven artifact id |artifactId |aem-guides-wknd |
+   | Starting version of project |version |0.0.1-SNAPSHOT |
+   | Java source package |package |com.adobe.aem.guides.wknd |
+   | Maven project name |artifactName |WKND Sites Project |
+   | AEM component group name |componentGroupName |WKND.Content |
+   | /conf folder name |confFolderName |wknd |
+   | /content folder name |contentFolderName |wknd |
+   | Prefix used in generated CSS |cssId |wknd |
+   | Content Package group name |packageGroup |wknd |
+   | AEM site name |siteName |WKND Site |
+
+7. Navigate into the **aem-guides-wknd** directory and run the following maven command to build and deploy the project
 
    ```shell
    $ cd aem-guides-wknd
@@ -211,7 +179,13 @@ The next series of steps will take place using a UNIX based command line  termin
    [INFO] ------------------------------------------------------------------------
    ```
 
-9. View Packages on AEM
+   the Maven profile ***autoInstallPackage*** is the most common profile used to deploy an AEM project. The archetype generates a **POM** file that will deploy to an AEM instance running locally on port **4502** and with the credentials of **admin:admin**.
+
+   ```shell
+   mvn -PautoInstallPackage clean install
+   ```
+
+8. View Packages on AEM
 
    Navigate to Package Manager on your local AEM instance: [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp). You should see two packages for **aem-guides-wknd.ui.apps** and **aem-guides-wknd.ui.content**.
 
@@ -219,13 +193,13 @@ The next series of steps will take place using a UNIX based command line  termin
 
     Notice that 2 or more packages related to core components were also installed. We will inspect this further below.
 
-10. Navigate from the **AEM Start** screen to **[Sites](http://localhost:4502/sites.html/content)**. The WKND Site will be one of the sites. It will include two content pages, one for English and one for French.
+9. Navigate from the **AEM Start** screen to **[Sites](http://localhost:4502/sites.html/content)**. The WKND Site will be one of the sites. It will include two content pages, one for English and one for French.
 
-11. Open the English page by selecting the page and clicking the **Edit** button in the menu bar:
+10. Open the English page by selecting the page and clicking the **Edit** button in the menu bar:
 
     ![site console](assets/chapter-1/wknd-samplesite.png)
 
-12. Some content is already created and several components are available to be added to a page. Experiment with these components to get an idea of the functionality. How this page and components are configured will be explored in detail later in the tutorial.
+11. Some content is already created and several components are available to be added to a page. Experiment with these components to get an idea of the functionality. How this page and components are configured will be explored in detail later in the tutorial.
 
     ![sample content](assets/chapter-1/starter-content.png)
 
@@ -699,7 +673,7 @@ Developers will push and pull code and configurations between their local file s
 
 Next part in the tutorial:
 
-* **[Getting Started with AEM Sites Chapter 2 - Creating a Base Page and Template](chapter-2.md)**
+* **[Getting Started with AEM Sites Chapter 2 - Pages and Templates](chapter-2.md)**
 
 View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
 
