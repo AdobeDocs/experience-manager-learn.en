@@ -16,7 +16,7 @@ Covers the implementation of the Teaser and Carousel components to populate a dy
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 8 of a multi-part tutorial. [Chapter 7 can be found here](chapter-7.md) and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
+This is Chapter 8 of a multi-part tutorial. [Chapter 7 can be found here](chapter-7.md) and an [overview can be found here](introduction.md).
 
 You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
 

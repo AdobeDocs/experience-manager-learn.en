@@ -12,7 +12,7 @@ discoiquuid: a0c5006a-7777-45e4-aca7-560a42fd6e56
 targetaudience: target-audience new
 ---
 
-# Getting Started with AEM Sites - WKND Tutorial {#getting-started-with-aem-sites-wknd-tutorial}
+# Getting Started with AEM Sites - WKND Tutorial {#introduction}
 
 A multi-part tutorial designed for developers new to AEM. Walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. Covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development.
 

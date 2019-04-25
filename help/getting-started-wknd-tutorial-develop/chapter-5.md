@@ -17,7 +17,7 @@ Covers the end to end creation of a custom Byline component that displays author
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 5 of a multi-part tutorial. [Chapter 4 can be found here](chapter-4.md) and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
+This is Chapter 5 of a multi-part tutorial. [Chapter 4 can be found here](chapter-4.md) and an [overview can be found here](introduction.md).
 
 You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
 

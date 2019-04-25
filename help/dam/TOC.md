@@ -6,6 +6,7 @@ user-guide-title: Tutorials and Videos on AEM Assets
 
 # Tutorials and Videos on AEM Assets {#assets}
 
++ [Learn AEM Assets](home.md)
 + 3D Assets {#3D-assets}
   + [Using 3D Assets](videos/3d-assets-feature-video-use.md)
   + [Setup 3D Assets](videos/3d-assets-technical-video-setup.md)
