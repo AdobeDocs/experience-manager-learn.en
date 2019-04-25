@@ -18,7 +18,7 @@ Understand the relationship between a base page component and editable templates
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](chapter-1.md)** and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
+This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](chapter-1.md)** and an [overview can be found here](introduction.md).
 
 >[!NOTE]
 >

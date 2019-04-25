@@ -17,7 +17,7 @@ Covers the implementation of a Unit Test that validates the behavior of the Byli
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 6 of a multi-part tutorial. [Chapter 5 can be found here](chapter-5.md) and an [overview can be found here](getting-started-wknd-tutorial-develop.md).
+This is Chapter 6 of a multi-part tutorial. [Chapter 5 can be found here](chapter-5.md) and an [overview can be found here](introduction.md).
 
 You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
 

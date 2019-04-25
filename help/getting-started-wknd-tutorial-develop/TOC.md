@@ -4,9 +4,9 @@ audience: developer
 user-guide-title: Getting Started with AEM Sites - WKND Tutorial
 ---
 
-# Getting Started with AEM Sites - WKND Tutorial {#aem-wknd-developer-tutorial}
+# Getting Started with AEM Sites - WKND Tutorial {#wknd-sites-tutorial}
 
-+ [Introduction](getting-started-wknd-tutorial-develop.md)
++ [Introduction](introduction.md)
 + [1 - Project Setup](chapter-1.md)
 + [2 - Pages and Templates](chapter-2.md)
 + [3 - Client-Side Libraries](chapter-3.md)

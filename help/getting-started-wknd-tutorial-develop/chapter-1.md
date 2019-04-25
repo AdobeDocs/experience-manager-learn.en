@@ -18,7 +18,7 @@ Covers the creation of a Maven Multi Module Project to manage the code and confi
 
 ## Prerequisites {#prerequisites}
 
-This is Part 1 of the multi-part tutorial. An [overview can be found here](getting-started-wknd-tutorial-develop.md).
+This is Part 1 of the multi-part tutorial. An [overview can be found here](introduction.md).
 
 A local development environment is necessary to complete this tutorial. Screenshots and video are captured from a Mac OS environment but the commands and code used should be independent of the local operating system, unless otherwise noted.
 
