@@ -587,7 +587,7 @@ At a high level **aemfed** listens to file changes and automatically syncs the t
 
    ```shell
 
-   aemfed -t "https://admin:admin@localhost:4502" -e "**/*___jb_+(old|tmp)___" -w "ui.apps/src/main/content/jcr_root/"
+   aemfed -t "http://admin:admin@localhost:4502" -w "ui.apps/src/main/content/jcr_root/"
 
    ---------------------------------------
    [Browsersync] Proxying: http://localhost:4502
