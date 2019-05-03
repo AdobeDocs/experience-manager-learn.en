@@ -7,7 +7,7 @@ uuid: f4ef2bef-bdca-4fbc-b6d8-3e694aad14bd
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 1a8f1d27-7b36-4254-bdd4-844b5d869682
-
+mini-toc-levels: 1
 ---
 
 # Chapter 8 - Landing Page {#chapter-landing-page}

@@ -1,14 +1,14 @@
 ---
 cloud: experience-cloud
 solution-title: Experience Manager
-solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
+solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-5.html
 solution-icon: assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://docs.adobe.com/content/help/en/livefyre/implementation/c-getting-started/implementation-process/c-implementation-process.html
+getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
 tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
+tutorials-url: https://guided.adobe.com/?tag=Tutorial#recommended/solutions/experience-manager
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experience-manager-kt.en
+git-repo: https://github.com/AdobeDocs/experience-manager-learn.en
 ---
 
 # Metadata for internal use

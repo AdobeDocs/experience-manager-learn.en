@@ -7,9 +7,9 @@ uuid: 4b369f63-858c-4c26-b092-a3151b53924a
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: developing
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: a0c5006a-7777-45e4-aca7-560a42fd6e56
 targetaudience: target-audience new
+mini-toc-levels: 1
 ---
 
 # Getting Started with AEM Sites - WKND Tutorial {#introduction}

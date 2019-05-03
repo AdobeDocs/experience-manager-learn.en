@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 22a3cbe8-1aa7-4798-9d65-89fb11a551c2
 targetaudience: target-audience new
-
+mini-toc-levels: 1
 ---
 
 # Chapter 4 - Developing with the Style System {#developing-with-the-style-system}

@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: aee38279-dffc-4540-96f3-41e3de059bb3
 targetaudience: target-audience new
-
+mini-toc-levels: 1
 ---
 
 # Chapter 3 - Client-Side Libraries and Responsive Grid {#client-side-libraries-and-responsive-grid}
