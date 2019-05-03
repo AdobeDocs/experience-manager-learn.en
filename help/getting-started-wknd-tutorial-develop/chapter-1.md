@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 6d467cc5-5cc4-43d4-907e-37f6c4f618da
 targetaudience: target-audience new
-
+mini-toc-levels: 1
 ---
 
 # Chapter 1 - Project Setup {#aem-sites-chapter-project-setup}
