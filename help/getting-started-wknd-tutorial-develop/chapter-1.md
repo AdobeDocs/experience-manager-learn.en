@@ -489,6 +489,7 @@ Core Components are installed in AEM automatically in the default runmode and us
    A dependency for Core Components is added and a dependency for Core Component examples is added:
 
    ```xml
+
    <dependencies>
    ...
     <dependency>
@@ -505,11 +506,13 @@ Core Components are installed in AEM automatically in the default runmode and us
     </dependency>
    ...
    </dependencies>
+
    ```
 
 2. **Update** the version of Core Components from **`2.3.2`** to **`2.4.0`** by modifying the Core Component dependency versions in `aemguides-wknd/pom.xml`:
 
     ```xml
+
    <dependencies>
    ...
     <dependency>
@@ -526,6 +529,7 @@ Core Components are installed in AEM automatically in the default runmode and us
     </dependency>
    ...
    </dependencies>
+
    ```
 
 3. View `aem-guides-wknd/ui.apps/pom.xml`:
