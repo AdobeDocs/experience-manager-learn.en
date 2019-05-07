@@ -20,7 +20,7 @@ Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage 
 
 This is Chapter 3 of the multi-part tutorial. **[Chapter 2 can be found here](chapter-2.md)** and an **[overview can be found here](introduction.md)**.
 
-You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
 ## Objective
 
@@ -187,8 +187,6 @@ Client Libraries are considered code and thus are stored in the **ui.apps** modu
         }
 
     ```
-
-   **grid_base.less** is a file provided by AEM that has been copied into the WKND project's library for simplicity and portability between versions of AEM.
 
    >[!CAUTION]
    >
@@ -644,12 +642,8 @@ At this point everything needed to leverage [AEM's Responsive Grid](https://help
 
 ## Next Steps {#next-steps}
 
-Next part in the tutorial: [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](chapter-4.md)
+Next part in the tutorial: 
 
-View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:  
+* [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](chapter-4.md)
 
-## Help! {#help}
-
-If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
-
-Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**

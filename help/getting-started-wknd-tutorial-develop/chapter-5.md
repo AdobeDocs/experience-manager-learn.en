@@ -19,7 +19,7 @@ Covers the end to end creation of a custom Byline component that displays author
 
 This is Chapter 5 of a multi-part tutorial. [Chapter 4 can be found here](chapter-4.md) and an [overview can be found here](introduction.md).
 
-You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
 ## Objective
 
@@ -357,7 +357,7 @@ In order to most efficiently use Sling Models, the project's POM's need updating
    </dependencies>
    ```
 
-3. In the Parent POM, add a dependency for [Core Components - Core](https://github.com/adobe/aem-core-wcm-components/tree/master/bundles/core). This is the dependency for the Sling Models associated with Core Components. Ensure that the version of **core.wcm.components.core** matches the version of the dependency **core.wcm.components.all** this should be **2.3.2**.
+3. In the Parent POM, add a dependency for [Core Components - Core](https://github.com/adobe/aem-core-wcm-components/tree/master/bundles/core). This is the dependency for the Sling Models associated with Core Components. Ensure that the version of **core.wcm.components.core** matches the version of the dependency **core.wcm.components.all** this should be **2.4.0**.
 
    ```xml
    <dependencies>
@@ -365,7 +365,7 @@ In order to most efficiently use Sling Models, the project's POM's need updating
        <dependency>
            <groupId>com.adobe.cq</groupId>
            <artifactId>core.wcm.components.core</artifactId>
-           <version>2.3.2</version>
+           <version>2.4.0</version>
            <scope>provided</scope>
         </dependency>
    ...
@@ -1293,13 +1293,8 @@ Watch the video below for a quick walk-through of what was built in this part of
 Next part in the tutorial:
 
 * [Chapter 6 - Unit Testing](chapter-6.md)
-* View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
 
-## Help! {#help}
-
-If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
-
-Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**
 
 ## Troubleshooting {#troubleshooting}
 

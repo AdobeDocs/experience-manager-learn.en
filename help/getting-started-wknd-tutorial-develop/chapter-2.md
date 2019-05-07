@@ -20,6 +20,8 @@ Understand the relationship between a base page component and editable templates
 
 This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](chapter-1.md)** and an [overview can be found here](introduction.md).
 
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
+
 >[!NOTE]
 >
 > Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
@@ -324,10 +326,5 @@ The AEM project archetype created a content root for the WKND site automatically
 Next part in the tutorial:
 
 * **[Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid](chapter-3.md)**
-* View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the solution package:
 
-## Help! {#help}
-
-If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
-
-Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**

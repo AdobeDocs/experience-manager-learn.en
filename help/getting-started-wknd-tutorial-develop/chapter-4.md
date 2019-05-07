@@ -20,7 +20,7 @@ Covers using the Style System to extend Core Components with brand-specific CSS 
 
 This is Chapter 4 of the multi-part tutorial. [Chapter 3 can be found here](chapter-3.md) and an [overview can be found here](introduction.md).
 
-You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
 ## Objective
 
@@ -567,92 +567,13 @@ We can use the Style System with the Layout Container to create a new, **fixed-w
 
 ## Content Fragment Component {#content-fragment}
 
-For the article body we will leverage [AEM Content Fragments](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html). Content Fragments are de-coupled from the presentation layer and promote reuse of content across channels. The editorial UI of Content Fragments lends itself to working with large amounts of text. We will add a component to the WKND application to be able to reference Content Fragments into an article page. To view an [overview of Content Fragments click here.](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-feature-video-use.html)
+For the article body we will leverage [AEM Content Fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html). Content Fragments are de-coupled from the presentation layer and promote reuse of content across channels. The editorial UI of Content Fragments lends itself to working with large amounts of text. We will add a component to the WKND application to be able to reference Content Fragments into an article page. To view an [overview of Content Fragments click here.](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-feature-video-use.html)
 
-1. The Content Fragment component is a separate module of AEM Core Components. The paren pom.xml must be updated to ensure it is available on AEM.
+>[!NOTE]
+>
+> The Content Fragment component was previously a separate module of AEM Core Components. Staring with Core Components **2.4.0**, the Content Fragment component is part of the main Core Component project and available to be used via a proxy component.
 
-   Add the following dependency to the parent **POM** at `aem-guides-wknd/pom.xml`:
-
-   ```xml
-   //pom.xml
-
-   ...
-   <dependencies>
-   ...
-   <dependency>
-       <groupId>com.adobe.cq</groupId>
-       <artifactId>core.wcm.components.extension</artifactId>
-       <type>zip</type>
-       <version>1.0.12</version>
-   </dependency>
-   ...
-   </dependencies>
-   ```
-
-2. Make the following updates to the ui.apps/pom.xml:
-
-   ```xml
-   // ui.apps/pom.xml
-
-   ...
-
-   <dependencies>
-   ...
-    <dependency>
-        <groupId>com.adobe.cq</groupId>
-        <artifactId>core.wcm.components.extension</artifactId>
-        <type>zip</type>
-    </dependency>
-   ...
-   </dependencies>
-   ```
-
-   ```xml
-   <!-- ui.apps/pom.xml -->
-
-   <plugins>
-   ...
-    <!-- ====================================================================== -->
-    <!-- V A U L T   P A C K A G E   P L U G I N S                              -->
-    <!-- ====================================================================== -->
-    <plugin>
-        <groupId>org.apache.jackrabbit</groupId>
-        <artifactId>filevault-package-maven-plugin</artifactId>
-        <extensions>true</extensions>
-        <configuration>
-            <embeddeds>
-                <embedded>
-                    <groupId>com.adobe.aem.guides</groupId>
-                    <artifactId>aem-guides-wknd.core</artifactId>
-                    <target>/apps/wknd/install</target>
-                </embedded>
-            </embeddeds>
-            <subPackages>
-                <subPackage>
-                    <groupId>com.adobe.cq</groupId>
-                    <artifactId>core.wcm.components.all</artifactId>
-                    <filter>true</filter>
-                </subPackage>
-                <!-- add extension to pom -->
-                <subPackage>
-                    <groupId>com.adobe.cq</groupId>
-                    <artifactId>core.wcm.components.extension</artifactId>
-                    <filter>true</filter>
-                </subPackage>
-                <subPackage>
-                    <groupId>com.adobe.cq</groupId>
-                    <artifactId>core.wcm.components.examples</artifactId>
-                    <filter>true</filter>
-                </subPackage>
-            </subPackages>
-        </configuration>
-    </plugin>
-   ...
-   </plugins>
-
-   ```
-
-3. There is a Content Fragment reference component in AEM Core Components. It was not included automatically by the AEM project archetype. Manually proxy the component into the WKND code base.
+1. There is a Content Fragment reference component in AEM Core Components. It was not included automatically by the AEM project archetype. Manually proxy the component into the WKND code base.
 
    Create a **cq:Component** node named **contentfragment** beneath `/apps/wknd/components/content`.
 
@@ -664,7 +585,7 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
    | jcr:description |String |**Displays content from a referenced Content Fragment** |
    | jcr:title |String |**Content Fragment** |
    | *jcr:primaryType* |*Name* |*cq:Component* |
-   | sling:resourceSuperType |String |`core/wcm/extension/components/contentfragment/v1/contentfragment` |
+   | sling:resourceSuperType |String |`core/wcm/components/contentfragment/v1/contentfragment` |
    | cq:isContainer |Boolean |true |
 
    ```xml
@@ -673,12 +594,12 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
        cq:isContainer="{Boolean}true"
        jcr:primaryType="cq:Component"
        componentGroup="WKND.Content"
-       sling:resourceSuperType="core/wcm/extension/components/contentfragment/v1/contentfragment"
+       sling:resourceSuperType="core/wcm/components/contentfragment/v1/contentfragment"
        jcr:title="Content Fragment"
        jcr:description="Displays content from a referenced Content Fragment"/>
    ```
 
-4. In the previous chapter, as part of the import, some default styles for the Content Fragment component were included beneath `/apps/wknd/clientlibs/clientlib-site/components/contentfragment`:
+2. In the previous chapter, as part of the import, some default styles for the Content Fragment component were included beneath `/apps/wknd/clientlibs/clientlib-site/components/contentfragment`:
 
    ```css
    /* WKND Content Fragment style - default.less */
@@ -698,32 +619,9 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    ![Content Fragment Styles project explorer](assets/chapter-4/contentfragment-style-projectexplorer.png)
 
-5. Deploy the code base to a local AEM instance. Since major changes were made to the POM files, perform a full Maven build from the project's root directory:
+3. Deploy the code base to a local AEM instance using AEM Developer tools or your maven skills.
 
-   ```shell
-   $ cd aem-guides-wknd
-   $ mvn -PautoInstallPackage -Padobe-public clean install
-
-    [INFO] ------------------------------------------------------------------------
-    [INFO] Reactor Summary:
-    [INFO] 
-    [INFO] aem-guides-wknd .................................... SUCCESS [  0.296 s]
-    [INFO] WKND Sites Project - Core .......................... SUCCESS [  5.724 s]
-    [INFO] WKND Sites Project - UI apps ....................... SUCCESS [  7.798 s]
-    [INFO] WKND Sites Project - UI content .................... SUCCESS [  1.798 s]
-    [INFO] WKND Sites Project - Integration Tests Bundles ..... SUCCESS [  1.792 s]
-    [INFO] WKND Sites Project - Integration Tests Launcher .... SUCCESS [  1.736 s]
-    [INFO] ------------------------------------------------------------------------
-    [INFO] BUILD SUCCESS
-    [INFO] ------------------------------------------------------------------------
-
-   ```
-
-   Notice that in Package Manager two additional packages are installed for the Content Fragment extension:
-
-   ![Content Fragment extension packages](assets/chapter-4/content-fragment-package.png)
-
-6. Enable the Content Fragment by updating the Layout Container Policy
+4. Enable the Content Fragment by updating the Layout Container Policy
 
     1. Navigate to the **Article Page Template**: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html)
     2. Select the main **Layout Container** and click its **Policy** Icon
@@ -731,17 +629,17 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
 
    ![Select the content fragment for layout container](assets/chapter-4/content-fragment-select.png)
 
-7. Navigate to the [first article page](http://localhost:4502/editor.html/content/wknd/en/first-article.html). The Content Fragment component should now be enabled and allowed to be added to a page.
+5. Navigate to the [first article page](http://localhost:4502/editor.html/content/wknd/en/first-article.html). The Content Fragment component should now be enabled and allowed to be added to a page.
 
    ![Content Fragment Component](assets/chapter-4/content-fragment-enabled.png)
 
-8. You can create a new Content Fragment by navigating to [http://localhost:4502/assets.html/content/dam](http://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
+6. You can create a new Content Fragment by navigating to [http://localhost:4502/assets.html/content/dam](http://localhost:4502/assets.html/content/dam) and clicking the Create button &gt; Content Fragment from the dropdown. [More information about authoring Content Fragments.](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html)
 
    ![Content fragment authoring](assets/chapter-4/content-fragment-ui.png)
 
    Content Fragment author UI.
 
-9. Navigate back to the content page in which the Content Fragment component was added (Step 4). Click the Wrench icon to bring up the dialog. Using the path finder you can navigate and select an existing content fragment from the DAM. Optionally you can use the Asset Finder filter to restrict the assets to only Content Fragments and Drag+Drop one of the Content Fragments on to the component.
+7. Navigate back to the content page in which the Content Fragment component was added (Step 4). Click the Wrench icon to bring up the dialog. Using the path finder you can navigate and select an existing content fragment from the DAM. Optionally you can use the Asset Finder filter to restrict the assets to only Content Fragments and Drag+Drop one of the Content Fragments on to the component.
 
    ![Content Fragment component dialog](assets/chapter-4/cf-component-dialog.png)
 
@@ -770,10 +668,5 @@ The following videos show how we can implement the above requirements with AEM's
 Next part in the tutorial:
 
 * [Chapter 5 - Creating a custom AEM Component](chapter-5.md)
-* View the finished code on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or download the finished package for this part of the tutorial:
 
-## Help! {#help}
-
-If you get stuck or have additional questions make sure to check out the [Experience League forums for AEM](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) or view existing [GitHub issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
-
-Didn't find what you were looking for? Think you found an error? Please file a [GitHub issue for the WKND project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues).
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**

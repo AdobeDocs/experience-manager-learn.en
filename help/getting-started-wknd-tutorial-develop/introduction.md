@@ -20,7 +20,7 @@ A multi-part tutorial designed for developers new to AEM. Walks through the impl
 
 The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial a developer understands the basic foundation of the platform and has knowledge of common design patterns in AEM.
 
-The implementation works as-is on **AEM 6.5**, **AEM 6.4.2+** and **AEM 6.3 + SP3**. Many of the topics apply to all versions of AEM. The site is implemented using:
+The implementation works as-is on **AEM 6.5** and **AEM 6.4.2+**. Many of the topics apply to all versions of AEM. The site is implemented using:
 
 * HTL
 * Sling Models
@@ -34,23 +34,24 @@ The implementation works as-is on **AEM 6.5**, **AEM 6.4.2+** and **AEM 6.3 + SP
 
 >[!NOTE]
 >
->A previous version of this tutorial existed that leveraged a different Maven archetype for the project. The finished code for the previous tutorial can be found **[here](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/tree/legacy/archetype-13)**
+>A previous version of this tutorial existed that leveraged a different Maven archetype for the project. The finished code for the previous tutorial can be found **[here](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd)**
 
 ### Github {#github}
 
 All of the code for the project can be found on Github in the AEM Guide repo:
 
-**[GitHub: WKND Sites Project](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd)**
+**[GitHub: WKND Sites Project](https://github.com/adobe/aem-guides-wknd)**
 
 In addition, each part of the tutorial has its own branch in GitHub. A user can begin the tutorial at any point by simply checking out the branch that corresponds to the previous part.
 
-***Any issues or problems with the tutorial please create an [Issue on Github.](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/issues)***
+***Any issues or problems with the tutorial please create an [Issue on Github.](https://github.com/adobe/aem-guides-wknd/issues)***
 
 ### Latest {#latest}
 
 To test the latest code before jumping into the tutorial, download and install the latest release:
 
-**[AEM Guides WKND - Releases](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**
+* **[aem-guides-wknd.ui.apps-0.0.1-SNAPSHOT.zip](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/aem-guides-wknd.ui.apps-0.0.1-SNAPSHOT.zip)**
+* **[aem-guides-wknd.ui.content-0.0.1-SNAPSHOT.zip](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/aem-guides-wknd.ui.content-0.0.1-SNAPSHOT.zip)**
 
 ## WKND Design {#wknd-site}
 
@@ -72,7 +73,7 @@ In general each Part of the tutorial takes about **1-2 hours**.
 
 ### Chapter 2 {#chapter-2}
 
-**[Creating a Base Page and Template](chapter-2.md)** - Covers the creation of a base page and an editable template. Core Components are proxied into the project.
+**[Creating a Base Page and Template](chapter-2.md)** - Covers the creation of a base page and an editable template. Core Component proxies are inspected.
 
 #### Editable Templates, Core Components, Content Authoring
 

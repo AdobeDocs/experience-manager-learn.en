@@ -2,6 +2,7 @@
 product: AEM
 audience: developer
 user-guide-title: Getting Started with AEM Sites - WKND Tutorial
+index: n
 ---
 
 # Getting Started with AEM Sites - WKND Tutorial {#getting-started-wknd-tutorial-develop}
