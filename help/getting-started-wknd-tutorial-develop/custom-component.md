@@ -17,7 +17,7 @@ Covers the end to end creation of a custom Byline component that displays author
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 5 of a multi-part tutorial. [Chapter 4 can be found here](chapter-4.md) and an [overview can be found here](introduction.md).
+This is Chapter 5 of a multi-part tutorial. [Chapter 4 can be found here](style-system.md) and an [overview can be found here](overview.md).
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
@@ -29,7 +29,7 @@ View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or 
 
 ## What you will build {#byline-component}
 
->[!VIDEO](https://video.tv.adobe.com/v/25086/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27318/?quality=12)
 
 In this part of the WKND tutorial, a Byline Component is built to be used on the Article pages that displays authored information about the article's contributor.
 
@@ -261,7 +261,7 @@ Following the same approach as with the Dialog creation, create a Policy dialog 
    </jcr:root>
    ```
 
-   The basis for the preceding Policy dialog XML was obtained from the [Core Components Image (v2) component](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image/_cq_design_dialog/.content.xml).
+   The basis for the preceding Policy dialog XML was obtained from the [Core Components Image (v2) component](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image/_cq_design_dialog/.content.xml).
 
    Like in the Dialog configuration, [Sling Resource Merger](https://sling.apache.org/documentation/bundles/resource-merger.html) is used to hide irrelevant fields that are otherwise inherited from the **sling:resourceSuperType**, as seen by the node definitions with only a  **jcr:primaryType** and **sling:hideResource="{Boolean}true"** property.
 
@@ -389,7 +389,7 @@ In order to most efficiently use Sling Models, the project's POM's need updating
    </dependencies>
    ```
 
-   The full contents of the updated [reactor pom.xml can be found here](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/blob/part/6-new-component/pom.xml).
+   The full contents of the updated [reactor pom.xml can be found here](https://github.com/adobe/aem-guides-wknd/blob/solution/chapter-5/pom.xml).
 
    The `<scope>provided</scope>` indicates that AEM will be satisfying this dependency upon deployment. The version **3.6** is used as this is the version exposed by AEM which can be determined by looking up the exported version in the AEM Web Console's Dependency Finder *([http://localhost:4502/system/console/depfinder](http://localhost:4502/system/console/depfinder))*.
 
@@ -998,7 +998,7 @@ Let's review what this HTL script does so far:
 
 #### Instantiating Sling Model objects in HTL {#instantiating-sling-model-objects-in-htl}
 
-The [Use block statement](https://github.com/Adobe-Marketing-Cloud/htl-spec/blob/master/SPECIFICATION.md#221-use) is one of the most common, as it's used to instantiate Sling Model objects in the HTL script and assign it to an HTL variable.
+The [Use block statement](https://github.com/adobe/htl-spec/blob/master/SPECIFICATION.md#221-use) is one of the most common, as it's used to instantiate Sling Model objects in the HTL script and assign it to an HTL variable.
 
 `data-sly-use.byline="com.adobe.aem.guides.wknd.components.Byline"` uses the Byline interface (com.adobe.aem.guides.wknd.components.Byline) implemented by BylineImpl and adapts the current SlingHttpServletRequest to it, and the result is stored in a HTL variable name byline ( `data-sly-use.<variable-name>`).
 
@@ -1031,7 +1031,7 @@ Java methods that require a parameter **cannot** be used in HTL. This is by desi
 
 #### Using HTL Expression Options {#using-htl-expression-options}
 
-[HTL Expressions Options](https://github.com/Adobe-Marketing-Cloud/htl-spec/blob/master/SPECIFICATION.md#12-available-expression-options) act as modifiers on content in  HTL,  and range from date-formatting to i18n translation. Expressions can also be used to join lists or arrays of values, which is what's needed to display the occupations in a comma delimited format.
+[HTL Expressions Options](https://github.com/adobe/htl-spec/blob/master/SPECIFICATION.md#12-available-expression-options) act as modifiers on content in  HTL,  and range from date-formatting to i18n translation. Expressions can also be used to join lists or arrays of values, which is what's needed to display the occupations in a comma delimited format.
 
 Expressions are added via the `@` operator in the HTL expression. 
 
@@ -1286,13 +1286,13 @@ Below is what the fully authored and styled Byline component should look like on
 
 Watch the video below for a quick walk-through of what was built in this part of the WKND tutorial.
 
->[!VIDEO](https://video.tv.adobe.com/v/25089/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27324/?quality=12)
 
 ## Next steps {#next-steps}
 
 Next part in the tutorial:
 
-* [Chapter 6 - Unit Testing](chapter-6.md)
+* [Chapter 6 - Unit Tests](unit-testing.md)
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**
 

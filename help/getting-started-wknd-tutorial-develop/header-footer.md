@@ -18,7 +18,7 @@ Covers dynamic navigation driven by the content hierarchy and including the Quic
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 7 of the multi-part tutorial. **[Chapter 6 can be found here](chapter-6.md)** and an **[overview can be found here](introduction.md)**.
+This is Chapter 7 of the multi-part tutorial. **[Chapter 6 can be found here](unit-testing.md)** and an **[overview can be found here](overview.md)**.
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
@@ -69,7 +69,7 @@ A well populated site hierarchy is needed to see the navigation functioning prop
 
 ## Navigation Component {#navigation-component}
 
-Core Components includes a **[Navigation](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)** component that we will leverage to create a header and footer navigation. The Navigation component creates a navigation based on the site structure. It has already been proxied into our project.
+Core Components includes a **[Navigation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/navigation.html)** component that we will leverage to create a header and footer navigation. The Navigation component creates a navigation based on the site structure. It has already been proxied into our project.
 
 We will implement the Navigation in **two** different ways for the Header and Footer. The footer navigation will be implemented **first** using an additional layout container to provide structure. The following steps will take place in a development IDE.
 
@@ -313,7 +313,7 @@ Next, configure the footer in the Article and Landing page templates. This will 
 
 The Header Component will include Navigation as well as Search and a Home/Logo link. We could create a Layout Container and follow the same approach as with the Footer. However attempting to resize all the components and getting them to align would be quite complicated for an author.
 
-Instead we will create a "composite" component. The Header component will embed a **[Navigation](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)** and **[Quick Search](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search)** component inside of it. When the Header component is dragged onto the page it will bring the other two with it.
+Instead we will create a "composite" component. The Header component will embed a **[Navigation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/navigation.html)** and **[Quick Search](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/quick-search.html)** component inside of it. When the Header component is dragged onto the page it will bring the other two with it.
 
 ![Header Component](assets/chapter-7/header-compositev2.png)
 
@@ -773,7 +773,7 @@ The high level steps for configuring the header:
 
 **The below video details these high level steps:**
 
->[!VIDEO](https://video.tv.adobe.com/v/21509?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27326?quality=9)
 
 ## Mobile Navigation {#mobile-navigation}
 
@@ -1038,7 +1038,7 @@ Next, we will use Javascript to create a copy of the Header Navigation markup an
 3. Next, add a 3rd party javascript file modified from [https://html5up.net/](https://html5up.net/) to allow for click and swipe support of the mobile navigation.
 4. Beneath **`/apps/wknd/clientlibs/clientlib-site`**. Create a new folder named **js**.
 5. Beneath the **js** folder, create a new file named **util.js**.
-6. Populate **util.js** with the following [**util.js**](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-site/js/util.js) (we have included it as a link to GitHub since the code snippet is very long).
+6. Populate **util.js** with the following [**util.js**](https://github.com/adobe/aem-guides-wknd/blob/solution/chapter-7/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-site/js/util.js) (we have included it as a link to GitHub since the code snippet is very long).
 
    ![Folder structure with util.js](assets/chapter-7/util-js-clientlibsite.png)
 
@@ -1059,12 +1059,12 @@ Next, we will use Javascript to create a copy of the Header Navigation markup an
 
 ## Putting It Together {#putting-it-together}
 
->[!VIDEO](https://video.tv.adobe.com/v/21510?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27327?quality=9)
 
 ## Next Steps {#next-steps}
 
 Next part in the tutorial:
 
-* [Chapter 8 - Implementing a Landing Page](chapter-8.md)
+* [Chapter 8 - Implementing a Landing Page](landing-page.md)
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**

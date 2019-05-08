@@ -7,12 +7,12 @@ index: n
 
 # Getting Started with AEM Sites - WKND Tutorial {#getting-started-wknd-tutorial-develop}
 
-+ [Introduction](introduction.md)
-+ [1 - Project Setup](chapter-1.md)
-+ [2 - Pages and Templates](chapter-2.md)
-+ [3 - Client-Side Libraries](chapter-3.md)
-+ [4 - Style System](chapter-4.md)
-+ [5 - Custom Component](chapter-5.md)
-+ [6 - Unit Testing](chapter-6.md)
-+ [7 - Header and Footer](chapter-7.md)
-+ [8 - Landing Page](chapter-8.md)
++ [Overview](overview.md)
++ [1 - Project Setup](project-setup.md)
++ [2 - Pages and Templates](pages-templates.md)
++ [3 - Client-Side Libraries](client-side-libraries.md)
++ [4 - Style System](style-system.md)
++ [5 - Custom Component](custom-component.md)
++ [6 - Unit Testing](unit-testing.md)
++ [7 - Header and Footer](header-footer.md)
++ [8 - Landing Page](landing-page.md)

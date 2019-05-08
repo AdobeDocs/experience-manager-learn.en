@@ -17,7 +17,7 @@ Covers the implementation of a Unit Test that validates the behavior of the Byli
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 6 of a multi-part tutorial. [Chapter 5 can be found here](chapter-5.md) and an [overview can be found here](introduction.md).
+This is Chapter 6 of a multi-part tutorial. [Chapter 5 can be found here](custom-component.md) and an [overview can be found here](overview.md).
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
@@ -29,7 +29,7 @@ View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or 
 
 ## Background {#unit-testing-background}
 
-In this chapter, we'll explore how to write [Unit Tests](https://en.wikipedia.org/wiki/Unit_testing) for our Byline component's [Sling Model](https://sling.apache.org/documentation/bundles/models.html) (created in [Chapter 5](chapter-5.md)). Unit tests are build-time tests written in Java that verify expected behavior of Java code. Each unit tests are typically small, and validate the outcome of methods (or units of work) against expected results.
+In this chapter, we'll explore how to write [Unit Tests](https://en.wikipedia.org/wiki/Unit_testing) for our Byline component's [Sling Model](https://sling.apache.org/documentation/bundles/models.html) (created in [Chapter 5](custom-component.md)). Unit tests are build-time tests written in Java that verify expected behavior of Java code. Each unit tests are typically small, and validate the outcome of methods (or units of work) against expected results.
 
 We will be using AEM best practices, and use:
 
@@ -37,7 +37,7 @@ We will be using AEM best practices, and use:
 * [Mockito Testing Framework](https://site.mockito.org/)
 * [wcm.io Test Framework](https://wcm.io/testing/) (which builds on [Apache Sling Mocks](https://sling.apache.org/documentation/development/sling-mock.html))
 
->[!VIDEO](https://video.tv.adobe.com/v/25565/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27325/?quality=12)
 
 ## Unit Testing and Cloud Manager for AEM {#unit-testing-and-cloud-manager-for-aem}
 
@@ -54,7 +54,7 @@ The first step is to inspect Maven dependencies to support writing and running t
 3. Apache Sling Mocks
 4. wcm.io Test Framework
 
-The JUnit5, Mockito and wcm.io testing dependencies are automatically added to the project during setup using the [AEM Maven archetype](chapter-1.md).
+The JUnit5, Mockito and wcm.io testing dependencies are automatically added to the project during setup using the [AEM Maven archetype](project-setup.md).
 
 1. To view these dependencies, open the Parent Reactor POM at **aem-guides-wknd/pom.xml**, navigate to the `<dependencies>..</dependencies>` and ensure the following dependencies are defined:
 
@@ -753,14 +753,10 @@ Likewise, if we change a test method to fail, the build fails and reports which 
 
 ![mvn package fail](assets/chapter-6/mvn-package-fail.png)
 
-## Review {#review}
-
->[!VIDEO](https://video.tv.adobe.com/v/25567/?quality=12)
-
 ## Next steps {#next-steps}
 
 Next part in the tutorial:
 
-* [Chapter 7 - Header and Footer](chapter-7.md)
+* [Chapter 7 - Header and Footer](header-footer.md)
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**

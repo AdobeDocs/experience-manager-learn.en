@@ -18,7 +18,7 @@ Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage 
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 3 of the multi-part tutorial. **[Chapter 2 can be found here](chapter-2.md)** and an **[overview can be found here](introduction.md)**.
+This is Chapter 3 of the multi-part tutorial. **[Chapter 2 can be found here](pages-templates.md)** and an **[overview can be found here](overview.md)**.
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
@@ -644,6 +644,6 @@ At this point everything needed to leverage [AEM's Responsive Grid](https://help
 
 Next part in the tutorial: 
 
-* [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](chapter-4.md)
+* [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](style-system.md)
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**

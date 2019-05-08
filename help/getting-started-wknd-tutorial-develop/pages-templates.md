@@ -18,15 +18,13 @@ Understand the relationship between a base page component and editable templates
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](chapter-1.md)** and an [overview can be found here](introduction.md).
+This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](project-setup.md)** and an [overview can be found here](overview.md).
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
 >[!NOTE]
 >
 > Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
-
-You can view the previous Chapter solution on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd) or you can download the **[solution package](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd/releases)**.
 
 ## Objective
 
@@ -171,7 +169,7 @@ Next a Header component will be created to be integrated into the Base page. The
 
 ## Inspect Proxy Components {#proxy-components}
 
-AEM [Core Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components) provide several basic building blocks for creating content. This includes Text, Image and Title and several other components. The AEM project archetype includes these in the WKND project automatically. 
+AEM [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) provide several basic building blocks for creating content. This includes Text, Image and Title and several other components. The AEM project archetype includes these in the WKND project automatically. 
 
 Each component added has a **sling:resourceSuperType** property to point to the Core Component. This is known as [creating proxy components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/using.html#create-proxy-components) and is the recommended way of using Core Components in your project.
 
@@ -261,7 +259,7 @@ This will take place in AEM. The short video below details the steps.
 >
 > Note the role of creating a template being done as a development task. However once the implementation reaches a level of maturity, additional templates may be created by a select group of "power-users".
 
->[!VIDEO](https://video.tv.adobe.com/v/22102?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27307?quality=9)
 
 Landing Page Template Thumbnail
 
@@ -325,6 +323,6 @@ The AEM project archetype created a content root for the WKND site automatically
 
 Next part in the tutorial:
 
-* **[Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid](chapter-3.md)**
+* **[Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid](client-side-libraries.md)**
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**

@@ -16,7 +16,7 @@ Covers the implementation of the Teaser and Carousel components to populate a dy
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 8 of a multi-part tutorial. [Chapter 7 can be found here](chapter-7.md) and an [overview can be found here](introduction.md).
+This is Chapter 8 of a multi-part tutorial. [Chapter 7 can be found here](header-footer.md) and an [overview can be found here](overview.md).
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
@@ -28,7 +28,7 @@ View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or 
 
 ## Teaser and Carousel Components {#teaser-carousel-overview}
 
->[!VIDEO](https://video.tv.adobe.com/v/25470/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27328/?quality=12)
 
 At this point in the WKND tutorial, considerable time has been spent implementing a well-structured Article page template. We can create great articles. However, the Homepage has been neglected. In this part, we will extend two components of AEM Core Components:
 

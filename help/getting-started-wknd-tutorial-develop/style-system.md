@@ -18,7 +18,7 @@ Covers using the Style System to extend Core Components with brand-specific CSS 
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 4 of the multi-part tutorial. [Chapter 3 can be found here](chapter-3.md) and an [overview can be found here](introduction.md).
+This is Chapter 4 of the multi-part tutorial. [Chapter 3 can be found here](client-side-libraries.md) and an [overview can be found here](overview.md).
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
 
@@ -83,7 +83,7 @@ The mockups contain a unique style for the Title component with an underline. In
 >
 >It is considered a best practice to always tightly scope styles to the target component. This ensures that extra styles don't affect other areas of the page.
 >
->All Core Components adhere to **[BEM notation](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)**. It is a best practice to target the outer CSS class when creating a default style for a component. Another best practice is to target class names specified by the Core Component BEM notation rather than HTML elements. 
+>All Core Components adhere to **[BEM notation](https://github.com/adobe/aem-core-wcm-components/wiki/css-coding-conventions)**. It is a best practice to target the outer CSS class when creating a default style for a component. Another best practice is to target class names specified by the Core Component BEM notation rather than HTML elements. 
 
 Compare the below BEM notation to the Markup on the example page viewed earlier.
 
@@ -470,7 +470,7 @@ BLOCK cmp-list
     * Tagged items
     * Query results.
 
-   Full configuration details can be found in the [List Component README.](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)
+   Full configuration details can be found in the [List Documentation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/list.html).
 
 9. Apply the **Up Next** style to the list component:
 
@@ -661,12 +661,12 @@ The following videos show how we can implement the above requirements with AEM's
 
 >[!VIDEO](https://video.tv.adobe.com/v/22109?quality=9)
 
->[!VIDEO](https://video.tv.adobe.com/v/22110?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27309?quality=9)
 
 ## Next Steps {#next-steps}
 
 Next part in the tutorial:
 
-* [Chapter 5 - Creating a custom AEM Component](chapter-5.md)
+* [Chapter 5 - Creating a custom AEM Component](custom-component.md)
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**

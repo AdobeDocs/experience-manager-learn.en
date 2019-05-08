@@ -18,7 +18,7 @@ Covers the creation of a Maven Multi Module Project to manage the code and confi
 
 ## Prerequisites {#prerequisites}
 
-This is Part 1 of the multi-part tutorial. An [overview can be found here](introduction.md).
+This is Part 1 of the multi-part tutorial. An [overview can be found here](overview.md).
 
 A local development environment is necessary to complete this tutorial. Screenshots and video are captured from a Mac OS environment but the commands and code used should be independent of the local operating system, unless otherwise noted.
 
@@ -41,7 +41,7 @@ For more information see: [Set up a Local AEM Development Environment](https://h
 
 ## Create Project with Maven AEM Project Archetype 18 {#maven-multi-module}
 
-There are a  couple  options for creating a Maven Multi-module project for AEM. This tutorial will leverage the [Maven AEM Project Archetype 18](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype).
+There are a  couple  options for creating a Maven Multi-module project for AEM. This tutorial will leverage the [Maven AEM Project Archetype 18](https://github.com/adobe/aem-project-archetype).
 
 > [!NOTE]
 > For the purposes of following this tutorial we will use version **18** of the archetype. It is always a best practice to use the **latest** version of the archetype to generate a new project.
@@ -477,7 +477,7 @@ The [Apache Jackrabbit FileVault Package plugin](https://jackrabbit.apache.org/f
 
 ## Inclusion of Core Components {#core-components}
 
-The project will leverage AEM Core Components. Earlier, when inspecting the deployed packages to AEM, multiple packages related to Core Components were included. Core Components are a set of base components designed to accelerate the development of an AEM Sites project. Core Components are open source and available on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components). More information about Core Components can be found [here](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html).
+The project will leverage AEM Core Components. Earlier, when inspecting the deployed packages to AEM, multiple packages related to Core Components were included. Core Components are a set of base components designed to accelerate the development of an AEM Sites project. Core Components are open source and available on [GitHub](https://github.com/adobe/aem-core-wcm-components). More information about Core Components can be found [here](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html).
 
 Core Components are installed in AEM automatically in the default runmode and used by the sample We.Retail site. In a [production runmode](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html) (`nosamplecontent`) Core Components will not be available. In order to leverage them in all deployments it is a best practice to include them as part of the Maven project.
 
@@ -509,7 +509,7 @@ Core Components are installed in AEM automatically in the default runmode and us
 
    ```
 
-2. **Update** the version of Core Components from **`2.3.2`** to **`2.4.0`** by modifying the Core Component dependency versions in `aemguides-wknd/pom.xml`:
+2. **Update** the version of Core Components from **`2.3.2`** to **`2.4.0`** by modifying the Core Component dependency versions in `aem-guides-wknd/pom.xml`:
 
     ```xml
 
@@ -693,6 +693,6 @@ Developers will push and pull code and configurations between their local file s
 
 Next part in the tutorial:
 
-* **[Getting Started with AEM Sites Chapter 2 - Pages and Templates](chapter-2.md)**
+* **[Getting Started with AEM Sites Chapter 2 - Pages and Templates](pages-templates.md)**
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**
