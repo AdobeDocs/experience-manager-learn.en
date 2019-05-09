@@ -16,7 +16,7 @@ mini-toc-levels: 1
 
 A multi-part tutorial designed for developers new to Adobe Experience Manager. Walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. Covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development with Adobe Experience Manager Sites.
 
-## Overview {#overview}
+## WKND Tutorial Overview {#wknd-tutorial-overview}
 
 The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial a developer understands the basic foundation of the platform and has knowledge of common design patterns in AEM.
 
