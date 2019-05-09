@@ -687,7 +687,7 @@ Code coverage is the amount of source code covered by unit tests. Modern IDEs pr
 
    **`ctx.currentResource("/content/empty")`** sets the current resource to /content/empty, which we know does not have an occupations property defined.
 
-4. Re-running the Coverage As, it reports that **BylineImpl.java** is now at 100% coverage, however there is still one branch that is not evaluated in isEmpty() which again has to do with the occupations. In this case, the occupations == null is being evaluated, however the occupations.isEmpty() is not since there is no mock resource definition that sets "occupations": [].
+4. Re-running the Coverage As, it reports that **BylineImpl.java** is now at 100% coverage, however there is still one branch that is not evaluated in isEmpty() which again has to do with the occupations. In this case, the occupations == null is being evaluated, however the occupations.isEmpty() is not since there is no mock resource definition that sets `"occupations": []`.
 
    ![Coverage with testGetOccupations_WithoutOccupations()](assets/chapter-6/getoccupations-withoutoccupations.png)
 

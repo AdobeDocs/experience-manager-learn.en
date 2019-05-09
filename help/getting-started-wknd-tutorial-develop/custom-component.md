@@ -338,23 +338,25 @@ Sling Models are annotation driven Java "POJO's" (Plain Old Java Objects) that f
 
 ### Update reactor and core pom.xml {#update-reactor-and-core-pom-xml}
 
-In order to most efficiently use Sling Models, the project's POM's need updating. Update the `reactor` and `core` `pom.xml` files to use the latest standards and practices. We'll also use the opportunity to leverage the [Apache Commons-Lang3 library](https://commons.apache.org/proper/commons-lang/) which is provided by AEM and provides a suite of very useful utility classes.
+In order to leverage APIs exposed by AEM Core Components, the project's POM's need updating. Update the `reactor` and `core` `pom.xml` files to include the AEM Core Components bundle as a dependency.
 
 1. Open the Parent Reactor POM: `aem -guides-wknd/pom.xml`
-2. Ensure that the [uber-jar](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies) dependency is at least **6.3.2**
+2. Ensure that the [uber-jar](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies) dependency is **6.3.2** or greater.
 
    ```xml
+
    <dependencies>
    ...
        <dependency>
-           <groupId>com.adobe.aem</groupId>
-           <artifactId>uber-jar</artifactId>
-           <version>6.3.2</version>
-           <classifier>apis</classifier>
-           <scope>provided</scope>
-        </dependency>
+        <groupId>com.adobe.aem</groupId>
+        <artifactId>uber-jar</artifactId>
+        <version>6.5.0</version>
+        <classifier>apis</classifier>
+        <scope>provided</scope>
+    </dependency>
    ...
    </dependencies>
+
    ```
 
 3. In the Parent POM, add a dependency for [Core Components - Core](https://github.com/adobe/aem-core-wcm-components/tree/master/bundles/core). This is the dependency for the Sling Models associated with Core Components. Ensure that the version of **core.wcm.components.core** matches the version of the dependency **core.wcm.components.all** this should be **2.4.0**.
@@ -374,28 +376,9 @@ In order to most efficiently use Sling Models, the project's POM's need updating
 
    The Image Sling Model, exposed by the **core** bundle, will be leveraged in the byline Sling model later in the tutorial.
 
-4. Add another dependency for [Apache commons-lang3](https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/package-summary.html). This provides a number of helpful utilities classes.
-
-   ```xml
-   <dependencies>
-       ...
-       <dependency>
-           <groupId>org.apache.commons</groupId>
-           <artifactId>commons-lang3</artifactId>
-           <version>3.6</version>
-           <scope>provided</scope>
-       </dependency>
-       ...
-   </dependencies>
-   ```
-
    The full contents of the updated [reactor pom.xml can be found here](https://github.com/adobe/aem-guides-wknd/blob/solution/chapter-5/pom.xml).
 
-   The `<scope>provided</scope>` indicates that AEM will be satisfying this dependency upon deployment. The version **3.6** is used as this is the version exposed by AEM which can be determined by looking up the exported version in the AEM Web Console's Dependency Finder *([http://localhost:4502/system/console/depfinder](http://localhost:4502/system/console/depfinder))*.
-
-   ![Dependency finder](assets/chapter-5/dep-finder.png)
-
-5. Edit the Core module's POM file at `aem-guides-wknd/core/pom.xml` and add a matching dependency for **core.wcm.components.core** entry so the core project is aware of it. Note that the version and scope is not provided here, but rather these will be derived from the definition in the reactor pom.
+4. Edit the Core module's POM file at `aem-guides-wknd/core/pom.xml` and add a matching dependency for **core.wcm.components.core** entry so the core project is aware of it. Note that the version and scope is not provided here, but rather these will be derived from the definition in the reactor pom.
 
    ```xml
    <dependencies>
@@ -408,77 +391,49 @@ In order to most efficiently use Sling Models, the project's POM's need updating
    </dependencies>
    ```
 
-6. Edit `aem -guides-wknd/core/pom.xml` and add matching dependency entry for **commons-lang3**.
+5. Review the `maven-bundle-plugin` in the `core/pom.xml` and notice the use of the **Sling `ModelsScannerPlugin`**. Sling Models are largely annotation driven, resulting in less code that needs to be written. Plugins like the `ModelsScannerPlugin` allow this to happen.
 
    ```xml
-   <dependencies>
-       ...
-        <dependency>
-           <groupId>org.apache.commons</groupId>
-           <artifactId>commons-lang3</artifactId>
-       </dependency>
-       ...
-   </dependencies>
-   ```
 
-7. Update the `maven-bundle-plugin` in the `core/pom.xml` to use the Sling ModelsScannerPlugin by replacing the **maven-bundle-plugin** with the following:
-
-   ```xml
    <plugins>
        ...
        <plugin>
             <groupId>org.apache.felix</groupId>
             <artifactId>maven-bundle-plugin</artifactId>
             <extensions>true</extensions>
-            <executions>
-                <execution>
-                    <id>generate-osgi-metadata-for-unittests</id>
-                    <goals>
-                        <goal>manifest</goal>
-                    </goals>
-                    <phase>process-classes</phase>
-                </execution>
-                <execution>
-                    <id>scr-metadata</id>
-                    <goals>
-                        <goal>manifest</goal>
-                    </goals>
-                    <configuration>
-                        <supportIncrementalBuild>true</supportIncrementalBuild>
-                    </configuration>
-                </execution>
-            </executions>
+            ...
             <configuration>
-                <exportScr>true</exportScr>
-                <instructions>
-                    <!-- Import any version of javax.inject, to allow 
-                        running on multiple versions of AEM -->
-                    <Import-Package>javax.inject;version=0.0.0,*</Import-Package>
-                    <!-- add Model Scanner Plugin -->
-                    <_plugin>org.apache.sling.bnd.models.ModelsScannerPlugin</_plugin>
-
-                    <_dsannotations>*</_dsannotations>
-                    <_metatypeannotations>*</_metatypeannotations>
-                </instructions>
-            </configuration>
-            <dependencies>
-                <!-- update dependency for plugin -->
-                <dependency>
-                    <groupId>org.apache.sling</groupId>
-                    <artifactId>org.apache.sling.bnd.models</artifactId>
-                    <version>1.0.0</version>
-                </dependency>
-            </dependencies>
+                    <exportScr>true</exportScr>
+                    <instructions>
+                        <!-- Import any version of javax.inject and javax.annotation, to allow running on multiple versions of AEM -->
+                        <Import-Package>
+                            javax.inject;version=0.0.0,
+                            javax.annotation;version=0.0.0,
+                            *
+                        </Import-Package>
+                        <Sling-Model-Packages>
+                            com.adobe.aem.guides.wknd.core
+                        </Sling-Model-Packages>
+                        <_dsannotations>*</_dsannotations>
+                        <_metatypeannotations>*</_metatypeannotations>
+                        <_plugin>
+                            <!-- Enable registration of Sling Models classes via bnd plugin -->
+                            org.apache.sling.bnd.models.ModelsScannerPlugin,
+                            <!-- Allow the processing of SCR annotations via a bnd plugin -->
+                            org.apache.felix.scrplugin.bnd.SCRDescriptorBndPlugin;destdir=${project.build.outputDirectory}
+                        </_plugin>
+                    </instructions>
+                </configuration>
+            ...
         </plugin>
        ...
    </plugins>
-   ```
 
-    In the **maven-bundle-plugin's instructions**, the plugin `<_plugin>org.apache.sling.bnd.models.ModelsScannerPlugin</_plugin>` has been added.
+   ```
   
    The [Sling ModelsScannerPlugin](https://sling.apache.org/documentation/bundles/models.html#registration-of-sling-models-classes-via-bnd-plugin) allows for the creation of Sling Models in any Java packages, resulting in more flexibility.
 
-   The full updates to `core/pom.xml` can be found here.
+   The full updates to `core/pom.xml` can be found [here](https://github.com/adobe/aem-guides-wknd/blob/solution/chapter-5/core/pom.xml).
 
 ### Byline interface {#byline-interface}
 

@@ -73,9 +73,9 @@ Next a Header component will be created to be integrated into the Base page. The
 
    If you continue to encounter the error:
 
-    1. Right+Click the **aem-guides-wknd.ui.apps** project in the [!UICONTROL **Project explorer**]
-    2. Open [!UICONTROL **Properties**] `->` [!UICONTROL **Project Facets**]
-    3. Uncheck [!UICONTROL **Dynamic Web Module**]
+    1. Right+Click the **aem-guides-wknd.ui.apps** project in the **Project explorer**
+    2. Open **Properties** `->` **Project Facets**
+    3. Uncheck **Dynamic Web Module**
 
    This should resolve the error and you should then get a drop down of node types when creating new nodes.
 
