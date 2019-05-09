@@ -394,43 +394,41 @@ In order to leverage APIs exposed by AEM Core Components, the project's POM's ne
 5. Review the `maven-bundle-plugin` in the `core/pom.xml` and notice the use of the **Sling `ModelsScannerPlugin`**. Sling Models are largely annotation driven, resulting in less code that needs to be written. Plugins like the `ModelsScannerPlugin` allow this to happen.
 
    ```xml
-
-   <plugins>
-       ...
-       <plugin>
-            <groupId>org.apache.felix</groupId>
-            <artifactId>maven-bundle-plugin</artifactId>
-            <extensions>true</extensions>
-            ...
-            <configuration>
-                    <exportScr>true</exportScr>
-                    <instructions>
-                        <!-- Import any version of javax.inject and javax.annotation, to allow running on multiple versions of AEM -->
-                        <Import-Package>
-                            javax.inject;version=0.0.0,
-                            javax.annotation;version=0.0.0,
-                            *
-                        </Import-Package>
-                        <Sling-Model-Packages>
-                            com.adobe.aem.guides.wknd.core
-                        </Sling-Model-Packages>
-                        <_dsannotations>*</_dsannotations>
-                        <_metatypeannotations>*</_metatypeannotations>
-                        <_plugin>
-                            <!-- Enable registration of Sling Models classes via bnd plugin -->
-                            org.apache.sling.bnd.models.ModelsScannerPlugin,
-                            <!-- Allow the processing of SCR annotations via a bnd plugin -->
-                            org.apache.felix.scrplugin.bnd.SCRDescriptorBndPlugin;destdir=${project.build.outputDirectory}
-                        </_plugin>
-                    </instructions>
-                </configuration>
-            ...
-        </plugin>
-       ...
-   </plugins>
-
+    <plugins>
+        ...
+        <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                ...
+                <configuration>
+                        <exportScr>true</exportScr>
+                        <instructions>
+                            <!-- Import any version of javax.inject and javax.annotation, to allow running on multiple versions of AEM -->
+                            <Import-Package>
+                                javax.inject;version=0.0.0,
+                                javax.annotation;version=0.0.0,
+                                *
+                            </Import-Package>
+                            <Sling-Model-Packages>
+                                com.adobe.aem.guides.wknd.core
+                            </Sling-Model-Packages>
+                            <_dsannotations>*</_dsannotations>
+                            <_metatypeannotations>*</_metatypeannotations>
+                            <_plugin>
+                                <!-- Enable registration of Sling Models classes via bnd plugin -->
+                                org.apache.sling.bnd.models.ModelsScannerPlugin,
+                                <!-- Allow the processing of SCR annotations via a bnd plugin -->
+                                org.apache.felix.scrplugin.bnd.SCRDescriptorBndPlugin;destdir=${project.build.outputDirectory}
+                            </_plugin>
+                        </instructions>
+                    </configuration>
+                ...
+            </plugin>
+        ...
+    </plugins>
    ```
-  
+
    The [Sling ModelsScannerPlugin](https://sling.apache.org/documentation/bundles/models.html#registration-of-sling-models-classes-via-bnd-plugin) allows for the creation of Sling Models in any Java packages, resulting in more flexibility.
 
    The full updates to `core/pom.xml` can be found [here](https://github.com/adobe/aem-guides-wknd/blob/solution/chapter-5/core/pom.xml).
