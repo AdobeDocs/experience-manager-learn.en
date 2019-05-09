@@ -9,7 +9,6 @@ tutorials-title: Tutorials
 tutorials-url: https://guided.adobe.com/?tag=Tutorial#recommended/solutions/experience-manager
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-learn.en
-index: n
 ---
 
 # Metadata for internal use
