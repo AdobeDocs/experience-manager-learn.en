@@ -10,6 +10,7 @@ topic-tags: developing
 discoiquuid: a0c5006a-7777-45e4-aca7-560a42fd6e56
 targetaudience: target-audience new
 mini-toc-levels: 1
+index: y
 ---
 
 # Getting Started with AEM Sites - WKND Tutorial {#introduction}

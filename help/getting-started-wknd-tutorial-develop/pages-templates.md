@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 00822ac4-842f-4b36-a142-5da73303e094
 targetaudience: target-audience new
 mini-toc-levels: 1
+index: y
 ---
 
 # Chapter 2 - Pages and Templates {#creating-a-base-page-and-template}

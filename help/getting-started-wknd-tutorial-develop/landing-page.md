@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 1a8f1d27-7b36-4254-bdd4-844b5d869682
 mini-toc-levels: 1
+index: y
 ---
 
 # Chapter 8 - Landing Page {#chapter-landing-page}

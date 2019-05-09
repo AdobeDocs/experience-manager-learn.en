@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: a589b81d-6b6e-4a4e-8a7e-ff0f98cb2d45
 mini-toc-levels: 1
+index: y
 ---
 
 # Chapter 5 - Creating a custom AEM Component {#creating-a-custom-aem-component}

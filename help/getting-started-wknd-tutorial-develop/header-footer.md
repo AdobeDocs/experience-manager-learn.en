@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 5f309b04-9085-4aeb-a19a-c3903e9fb179
 targetaudience: target-audience new
 mini-toc-levels: 1
+index: y
 ---
 
 # Chapter 7 - Header and Footer{#chapter-header-and-footer}
