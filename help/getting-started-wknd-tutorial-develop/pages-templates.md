@@ -6,7 +6,6 @@ seo-description: Understand the relationship between a base page component and e
 uuid: 6a7e43fc-faf6-4e9c-95ee-09ec0d23956a
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 00822ac4-842f-4b36-a142-5da73303e094
 targetaudience: target-audience new
 mini-toc-levels: 1

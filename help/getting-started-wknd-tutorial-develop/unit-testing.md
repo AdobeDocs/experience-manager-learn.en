@@ -6,7 +6,6 @@ seo-description: Covers the implementation of a Unit Test that validates the beh
 uuid: e6ef4b4d-dbdc-474c-bc00-4dd9b8470b77
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 160e0531-a5d8-49ff-957f-6a26937273fb
 mini-toc-levels: 1
 ---

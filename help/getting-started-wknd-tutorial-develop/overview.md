@@ -1,8 +1,8 @@
 ---
 title: Getting Started with AEM Sites - WKND Tutorial
 seo-title: Getting Started with AEM Sites - WKND Tutorial
-description: A multi-part tutorial designed for developers new to AEM. Walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. Covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development.
-seo-description: A multi-part tutorial designed for developers new to AEM. Walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. Covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, Style System, and component development.
+description: The WKND tutorial is a multi-part tutorial designed for developers new to Adobe Experience Manager. The tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development.
+seo-description: The WKND tutorial is a multi-part tutorial designed for developers new to Adobe Experience Manager. The tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development.
 uuid: 4b369f63-858c-4c26-b092-a3151b53924a
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
@@ -14,21 +14,23 @@ mini-toc-levels: 1
 
 # Getting Started with AEM Sites - WKND Tutorial {#introduction}
 
-A multi-part tutorial designed for developers new to AEM. Walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. Covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development.
+A multi-part tutorial designed for developers new to Adobe Experience Manager. Walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. Covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development with Adobe Experience Manager Sites.
 
 ## Overview {#overview}
 
 The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial a developer understands the basic foundation of the platform and has knowledge of common design patterns in AEM.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27305?quality=9)
 
 The implementation works as-is on **AEM 6.5** and **AEM 6.4.2+**. Many of the topics apply to all versions of AEM. The site is implemented using:
 
 * HTL
 * Sling Models
 * Touch UI
-* Core Components v2
+* Core Components v**2.4.0**
 * Editable Templates
 * Style System
-* Maven AEM Project Archetype
+* Maven AEM Project Archetype v**18**
 
 *Estimate 1-2 hours to get through each part of the tutorial.*
 
@@ -36,15 +38,11 @@ The implementation works as-is on **AEM 6.5** and **AEM 6.4.2+**. Many of the to
 >
 >A previous version of this tutorial existed that leveraged a different Maven archetype for the project. The finished code for the previous tutorial can be found **[here](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd)**
 
-### Github {#github}
+## WKND Site Design {#wknd-site}
 
-All of the code for the project can be found on Github in the AEM Guide repo:
+The WKND is a fictional online magazine and blog that focuses on nightlife, activities, and events in several international cities. To make this tutorial closer to a real-world scenario one of Adobe's talented UX designers created the mockups for the site. Over the course of the tutorial various pieces of the mockup are implemented into a fully author-able AEM site. Special thanks to **Lorenzo Buosi** who created the beautiful design for the WKND site.
 
-**[GitHub: WKND Sites Project](https://github.com/adobe/aem-guides-wknd)**
-
-In addition, each part of the tutorial has its own branch in GitHub. A user can begin the tutorial at any point by simply checking out the branch that corresponds to the previous part.
-
-***Any issues or problems with the tutorial please create an [Issue on Github.](https://github.com/adobe/aem-guides-wknd/issues)***
+The name WKND is fitting because we expect a developer to take the better part of a *weekend* to complete the tutorial.
 
 ### Latest {#latest}
 
@@ -53,13 +51,13 @@ To test the latest code before jumping into the tutorial, download and install t
 * **[aem-guides-wknd.ui.apps-0.0.1-SNAPSHOT.zip](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/aem-guides-wknd.ui.apps-0.0.1-SNAPSHOT.zip)**
 * **[aem-guides-wknd.ui.content-0.0.1-SNAPSHOT.zip](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/aem-guides-wknd.ui.content-0.0.1-SNAPSHOT.zip)**
 
-## WKND Design {#wknd-site}
+### Github {#github}
 
-The WKND is a fictional online magazine and blog that focuses on nightlife, activities, and events in several international cities. To make this tutorial closer to a real-world scenario one of Adobe's talented UX designers created the mockups for the site. Over the course of the tutorial various pieces of the mockup are implemented into a fully author-able AEM site. Special thanks to **Lorenzo Buosi** who created the beautiful design for the WKND site.
+All of the code for the project can be found on Github in the AEM Guide repo:
 
-Below is an overview video of the site and functionality.
+**[GitHub: WKND Sites Project](https://github.com/adobe/aem-guides-wknd)**
 
->[!VIDEO](https://video.tv.adobe.com/v/27305?quality=9)
+In addition, each part of the tutorial has its own branch in GitHub. A user can begin the tutorial at any point by simply checking out the branch that corresponds to the previous part.
 
 ## Table of Contents {#table-of-contents}
 

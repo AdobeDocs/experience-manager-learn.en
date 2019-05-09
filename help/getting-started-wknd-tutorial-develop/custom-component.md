@@ -6,7 +6,6 @@ seo-description: Covers the end to end creation of a custom byline component tha
 uuid: 7f5a8f7f-8d0b-42b7-9e97-cb4268294e2f
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: a589b81d-6b6e-4a4e-8a7e-ff0f98cb2d45
 mini-toc-levels: 1
 ---

@@ -6,7 +6,6 @@ seo-description: Covers using the Style System to extend Core Components with br
 uuid: c4becc91-34e5-446e-b355-a196ccb54627
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 22a3cbe8-1aa7-4798-9d65-89fb11a551c2
 targetaudience: target-audience new
 mini-toc-levels: 1

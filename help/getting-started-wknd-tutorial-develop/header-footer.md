@@ -6,7 +6,6 @@ seo-description: Covers dynamic navigation driven by the content hierarchy and i
 uuid: 06da699b-05f0-4301-8797-ae764a11a358
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 5f309b04-9085-4aeb-a19a-c3903e9fb179
 targetaudience: target-audience new
 mini-toc-levels: 1

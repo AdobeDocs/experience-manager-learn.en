@@ -7,7 +7,7 @@ index: n
 
 # Getting Started with AEM Sites - WKND Tutorial {#getting-started-wknd-tutorial-develop}
 
-+ [Overview](overview.md)
++ [WKND Tutorial Overview](overview.md)
 + [1 - Project Setup](project-setup.md)
 + [2 - Pages and Templates](pages-templates.md)
 + [3 - Client-Side Libraries](client-side-libraries.md)

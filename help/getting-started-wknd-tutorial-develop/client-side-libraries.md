@@ -6,7 +6,6 @@ seo-description: Covers creation of AEM Client-Side Libraries or clientlibs to d
 uuid: c0692b1e-1a9d-4c16-bf10-12bf3e376079
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: aee38279-dffc-4540-96f3-41e3de059bb3
 targetaudience: target-audience new
 mini-toc-levels: 1

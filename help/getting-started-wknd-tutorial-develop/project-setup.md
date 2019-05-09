@@ -6,7 +6,6 @@ seo-description: Covers the creation of a Maven Multi Module Project to manage t
 uuid: 91ef65b9-9b21-49ce-827c-28390e39066d
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 6d467cc5-5cc4-43d4-907e-37f6c4f618da
 targetaudience: target-audience new
 mini-toc-levels: 1
