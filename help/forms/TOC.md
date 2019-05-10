@@ -15,3 +15,4 @@ index: y
   + [Adobe Sign Integration](adaptive-forms/adobe-sign-integration-feature-video.md)
 + Document Services {#document-services}
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
+  + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
