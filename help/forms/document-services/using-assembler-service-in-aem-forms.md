@@ -21,8 +21,9 @@ snippet: y
 # Using Assembler Service in AEM Forms{#using-assembler-service-in-aem-forms}
 
 This article provides you the assets for demonstrating the ability to drag and drop multiple PDF files into the browser and save the assembled pdf file to your file system. The following is the code for the servlet which assembles the pdf files uploaded using the browser.
- 
+
 ```java
+
 protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) {
         log.debug("In Assemble Uploaded Files");
  
@@ -101,6 +102,7 @@ protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse 
     }
  
 }
+
 ```
 
 To get this capability working on your AEM Server
