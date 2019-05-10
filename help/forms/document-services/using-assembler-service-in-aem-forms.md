@@ -107,7 +107,7 @@ protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse 
 
 To get this capability working on your AEM Server
 
-* Download the [AssembleMultipleFiles.zip]((assets/assemblemultiplefiles.zip)).
+* Download the [AssembleMultipleFiles.zip](assets/assemblemultiplefiles.zip).
 * Upload and install using the package manager
 * Download and install [Custom Document Services Bundle](https://forms.enablementadobe.com/content/DemoServerBundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)
 * Download and install [Developing with Service User Bundle](https://forms.enablementadobe.com/content/DemoServerBundles/DevelopingWithServiceUser.core-1.0-SNAPSHOT.jar)
