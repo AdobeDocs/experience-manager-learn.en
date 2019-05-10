@@ -16,3 +16,4 @@ index: y
 + Document Services {#document-services}
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
   + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
+  + [Using Barcode Service in AEM Forms](document-services/barcode-service-adaptive-forms-article.md)
