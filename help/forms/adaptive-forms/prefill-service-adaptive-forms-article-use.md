@@ -8,6 +8,7 @@ author: gbedekar
 contentOwner: gbedekar
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
+products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: adaptive_forms
 discoiquuid: 936ea5e9-f5f0-496a-9188-1a8ffd235ee5
 index: y
@@ -96,6 +97,6 @@ To test this capability on your server, please perform the following
 >
 >If the adaptive form is not based on XSD, then you will have to manually bind the fields. For example to bind an adaptive form field to  fname  element in the XML data you will use `/data/fname`  in the Bind reference of the adaptive form field.
 
-the zip file contains OSGi bundle and sample XSD
+The below zip file contains OSGi bundle and sample XSD:
 
-[Get File](assets/prefillservice.zip)
+**[prefillservice.zip](assets/prefillservice.zip)**
