@@ -30,7 +30,7 @@ Output service is an OSGi service that is part of AEM Document Services. Output 
 
 To learn more about the output service, [please click here](https://helpx.adobe.com/aem-forms/6/output-service.html).
 To set up watched folder on your system, please follow the steps below:
-* [Download and extract the contents of the zip file]((assets/outputservicewatchedfolderkt.zip)).This zip file contains package for creating watched folder and sample files to test the output service using watched folder mechanism
+* [Download and extract the contents of the zip file](assets/outputservicewatchedfolderkt.zip).This zip file contains package for creating watched folder and sample files to test the output service using watched folder mechanism
   * Windows System
 
       * Import the outputservicewatchedfolder.zip into AEM using package manager
