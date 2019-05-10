@@ -9,4 +9,4 @@ index: y
 
 + [Sites Introduction](introduction.md)
 + Components {#components}
-  + [Understanding Core Components](core-components-feature-video-understand.md)
+  + [Understanding Core Components](components/core-components-feature-video-understand.md)
