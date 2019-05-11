@@ -38,6 +38,7 @@ Based on the initial step fields value we show the second panel where the "admin
 Please take a look at the rules set against "Time Off Requested by" field using the rule editor.
 
 To deploy the assets on your local system, please follow the steps below:
+
  * [Download and extract the contents of the zip file](assets/setvalueassets.zip)
   * Point your browser to [package manager](http://localhost:4502/crx/packmgr/index.jsp)
   * Import and install the setValueWorkflow.zip. This has the sample workflow model.
@@ -51,6 +52,7 @@ To deploy the assets on your local system, please follow the steps below:
  * Go to ["AEM Inbox"](http://localhost:4502/aem/inbox)
  * Open the "Review Time Off Request" form
  * Notice the fields in the first panel are disabled. This is because the form is being opened by reviewer. Also, notice the panel for approving or declining the request is now visible
+ 
 >[!NOTE]
 >
 >You can enable debug logging by enabling logger for
