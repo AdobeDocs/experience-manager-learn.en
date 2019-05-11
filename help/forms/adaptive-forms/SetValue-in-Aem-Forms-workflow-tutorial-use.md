@@ -39,20 +39,20 @@ Please take a look at the rules set against "Time Off Requested by" field using 
 
 To deploy the assets on your local system, please follow the steps below:
 
- * [Download and extract the contents of the zip file](assets/setvalueassets.zip)
-  * Point your browser to [package manager](http://localhost:4502/crx/packmgr/index.jsp)
-  * Import and install the setValueWorkflow.zip. This has the sample workflow model.
- * [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted xml data.
- * Point your browser to [Forms and Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
- * Click Create | File Upload
- * Upload the TimeOfRequestForm.zip
- * Open the [TimeOffRequestform](http://localhost:4502/content/dam/formsanddocuments/timeoffapplication/jcr:content?wcmmode=disabled)
- * Fill in the 3 required fields and submit
- * Login as 'admin" in to AEM(If you have not already)
- * Go to ["AEM Inbox"](http://localhost:4502/aem/inbox)
- * Open the "Review Time Off Request" form
- * Notice the fields in the first panel are disabled. This is because the form is being opened by reviewer. Also, notice the panel for approving or declining the request is now visible
- 
+* [Download and extract the contents of the zip file](assets/setvalueassets.zip)
+* Point your browser to [package manager](http://localhost:4502/crx/packmgr/index.jsp)
+* Import and install the setValueWorkflow.zip. This has the sample workflow model.
+* [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted xml data.
+* Point your browser to [Forms and Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
+* Click Create | File Upload
+* Upload the TimeOfRequestForm.zip
+* Open the [TimeOffRequestform](http://localhost:4502/content/dam/formsanddocuments/timeoffapplication/jcr:content?wcmmode=disabled)
+* Fill in the 3 required fields and submit
+* Login as 'admin" in to AEM(If you have not already)
+* Go to ["AEM Inbox"](http://localhost:4502/aem/inbox)
+* Open the "Review Time Off Request" form
+* Notice the fields in the first panel are disabled. This is because the form is being opened by reviewer. Also, notice the panel for approving or declining the request is now visible
+
 >[!NOTE]
 >
 >You can enable debug logging by enabling logger for

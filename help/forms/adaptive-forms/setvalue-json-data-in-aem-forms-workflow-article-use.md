@@ -42,19 +42,19 @@ To deploy the assets on your local system:
 * [Download and extract the contents of the zip file](assets/setvalueinjsondata.zip)
   * Point your browser to [package manager](http://localhost:4502/crx/packmgr/index.jsp)
   * Import and install the TimeOffRequestJsonData.zip.This package has the sample workflow model,Form Data Model and sample user used in this workflow.
- * [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted xml data.
- * Point your browser to [Forms and Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
- * Click Create | File Upload
- * Upload the TimeOfRequestForm.zip
+* [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted xml data.
+* Point your browser to [Forms and Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
+* Click Create | File Upload
+* Upload the TimeOfRequestForm.zip
  **This form was built using AEM Forms 6.4. Please make sure you are on AEM Forms 6.4**
- * Open the [form](http://localhost:4502/content/dam/formsanddocuments/timeoffrequest/jcr:content?wcmmode=disabled)
- * Fill in the Start and End Dates and submit the form.
- * Logout of AEM.
- * Login as 'manager/password" in to AEM
- * Go to ["Inbox"](http://localhost:4502/aem/inbox)
- * Open the "Manager Approves" form.
- * Notice the fields in the first panel are disabled.
- * Notice the panel for approving or declining the request is now visible.
+* Open the [form](http://localhost:4502/content/dam/formsanddocuments/timeoffrequest/jcr:content?wcmmode=disabled)
+* Fill in the Start and End Dates and submit the form.
+* Logout of AEM.
+* Login as 'manager/password" in to AEM
+* Go to ["Inbox"](http://localhost:4502/aem/inbox)
+* Open the "Manager Approves" form.
+* Notice the fields in the first panel are disabled.
+* Notice the panel for approving or declining the request is now visible.
 
 
 
