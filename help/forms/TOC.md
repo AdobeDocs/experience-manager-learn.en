@@ -16,6 +16,7 @@ index: y
   + [Using Set Value in XML  in OSGI Workflow](adaptive-forms/SetValue-in-Aem-Forms-workflow-tutorial-use.md)
   + [Using Set Value in JSON in OSGI Workflow](adaptive-forms/setvalue-json-data-in-aem-forms-workflow-article-use.md)
   + [Send Email Component in AEM Forms Workflow](adaptive-forms/email-step-aem-workflow-video-use.md)
+  + [Generating DocumentOfRecord using API](adaptive-forms/document-of-record-api-tutorial-use.md)
 + Document Services {#document-services}
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
   + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
