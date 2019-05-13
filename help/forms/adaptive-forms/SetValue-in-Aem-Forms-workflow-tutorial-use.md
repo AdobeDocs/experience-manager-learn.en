@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: workflow
 discoiquuid: dbd87302-f770-4e61-b5ad-3fc5831b4613
-index: y
-internal: n
-snippet: y
 ---
 
 # Using setvalue in AEM Forms workflow
