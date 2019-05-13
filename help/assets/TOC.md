@@ -10,3 +10,4 @@ index: y
 + [Assets Introduction](introduction.md)
 + Metadata Management {#metadata}
   + [Cascading Metadata](metadata/cascade-metadata-feature-video-use.md)
+  + [Metadata Import and Export](metadata/metadata-import-feature-video-use.md)
