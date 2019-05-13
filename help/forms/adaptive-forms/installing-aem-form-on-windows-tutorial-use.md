@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-## Simplified Steps for Installing AEM Forms on Windows
+#Simplified Steps for Installing AEM Forms on Windows
 
 >[!NOTE]
 >Never double click the AEM Quick Start jar, if you intend to use AEM Forms.

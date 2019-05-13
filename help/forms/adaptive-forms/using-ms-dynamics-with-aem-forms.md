@@ -15,6 +15,7 @@ snippet: y
 ---
 
 # Using Microsoft Dynamics with AEM Forms{#using-microsoft-dynamics-with-aem-forms}
+
 AEM Forms Data Integration allows you to configure and connect to disparate data sources. The following are supported out-of-the-box. However, with little customization, you can integrate other data sources as well.
 
 Relational databases - MySQL, Microsoft SQL Server, IBM DB2, and Oracle RDBMS
