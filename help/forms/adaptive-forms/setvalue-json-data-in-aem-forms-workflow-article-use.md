@@ -13,12 +13,13 @@ internal: n
 snippet: y
 ---
 
-# Setting value of Json Data Element in AEM Forms Workflow{#setting-value-of-json-data-element-in-aem-forms-workflow}
+# Setting value of Json Data Element in AEM Forms Workflow {#setting-value-of-json-data-element-in-aem-forms-workflow}
 
 As an Adaptive Form is routed to different users in AEM Workflow, there will be requirements to hide or disable certain fields or panels based on the person reviewing the form. To satisfy these use cases we typically set a value of a hidden field. Based on this hidden field's value business rules can be authored to hide/disable appropriate panels or fields.
 
  ![Setting value of an element in json data](assets/capture-3.gif)
  >[!NOTE]
+
  This method of using custom setvalue is NOT needed for AEM Forms 6.5 or later. This capability is included out of the box in AEM Forms 6.5 and above
 
 In AEM Forms OSGI- we will have to write a custom OSGi bundle to set JSON data element's value. The bundle is provided as part of this tutorial.
@@ -59,6 +60,7 @@ To deploy the assets on your local system:
 
 
 >[!NOTE]
+
 >Since we are pre-populating the Adaptive Form using user profile, make sure the admin [user profile information ](http://localhost:4502/security/users.html). At the minimum make sure you have set the FirstName,LastName and Email field values.
 >You can enable debug logging by enabling logger for
 >com.aemforms.setvalue.core.SetValueInJson

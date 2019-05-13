@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Using API to generate Document of Record in AEM Forms{#using-api-to-generate-document-of-record-with-aem-forms}
+# Using API to generate Document of Record in AEM Forms {#using-api-to-generate-document-of-record-with-aem-forms}
 
 Generate Document Of Record (DOR) programmatically
 

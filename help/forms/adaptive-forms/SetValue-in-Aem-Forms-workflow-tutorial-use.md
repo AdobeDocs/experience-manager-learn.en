@@ -13,13 +13,14 @@ internal: n
 snippet: y
 ---
 
-# Using setvalue in AEM Forms workflow{#using-setvalue-in-aem-forms-workflow}
+# Using setvalue in AEM Forms workflow
 
 Set Value of an XML Element in Adaptive Forms submitted data in AEM Forms OSGI workflow.
 
  ![SetValue](assets/setvalue.png)
 
  >[!NOTE]
+ 
      This method of using custom setvalue is NOT needed for AEM Forms 6.5 or later. This capability is included out of the box in AEM Forms 6.5 and above
 
 LiveCycle used to have a set value component which would allow you set an XML element's value.

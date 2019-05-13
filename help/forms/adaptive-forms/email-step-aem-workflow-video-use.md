@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Using Send Email Step of  Forms Workflow{#using-send-email-step-of-forms-workflow}
+# Using Send Email Step of  Forms Workflow {#using-send-email-step-of-forms-workflow}
 
 Send Email step was introduced in AEM Forms 6.4. Using this step we can build business processes or workflow which will allow you to send emails with or without attachments. The following video walks through the steps for configuring the send email component.
 
