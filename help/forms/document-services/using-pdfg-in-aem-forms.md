@@ -29,7 +29,7 @@ To install the demo assets, please perform the following steps
 
 1. Configure PDFG as mentioned in this document [here](https://helpx.adobe.com/experience-manager/6-4/forms/using/install-configure-pdf-generator.html).
 1. Please follow the appropriate documentation related to your AEM Forms version.
-1. [Import and install assets related to this article using the package manager.](assets/createPDFGDemoV2.zip)
+1. [Import and install assets related to this article using the package manager.](assets/createpdfgdemov2.zip)
 1. [Navigate to  post.jsp](http://localhost:4502/apps/AemFormsSamples/components/createPDF/POST.jsp) in your CRX
 1. Change the save location as per your preference(line 9)
 1. Save your changes.

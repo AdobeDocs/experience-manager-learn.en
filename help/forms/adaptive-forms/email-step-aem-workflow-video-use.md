@@ -40,7 +40,7 @@ To get the sample running on your system, please do the following
 
 1. [Download and install setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar)This bundle contains the code for creating the metadata properties as part of the process step of the workflow.
 1. [Configure Day CQ Mail Service](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/notification.html)
-1. [Import and install the assets associated with this article using the package manager into CRX](assets/EmailDorAemformsKt.zip)
+1. [Import and install the assets associated with this article using the package manager into CRX](assets/emaildoraemformskt.zip)
 1. Launch the [adaptive form](http://localhost:4502/content/dam/formsanddocuments/helpx/timeoffrequestform/jcr:content?wcmmode=disabled). Fill in the required fields and submit.
 1. You should get an email with DocumentOfRecord as an attachment
 
@@ -50,5 +50,5 @@ Take a look at the process step of the workflow. The custom code associated with
 >[!NOTE] In AEM Forms 6.5 and above you do not need this custom code to create metadata properties.The capability is provided out of the box
 
 Make sure the Attachments tab of the Send Email component is configured as per the screen shot below
-![Send Email Attachment Tab](assets/SendEmailComponentConfigure.JPG)The "DOR.pdf" value has to match the value specified in the Document of Record Path specified in the submission options of your adaptive form.
+![Send Email Attachment Tab](assets/sendemailcomponentconfigure.JPG)The "DOR.pdf" value has to match the value specified in the Document of Record Path specified in the submission options of your adaptive form.
 
