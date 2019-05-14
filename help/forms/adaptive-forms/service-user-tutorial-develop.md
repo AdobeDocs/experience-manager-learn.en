@@ -39,7 +39,7 @@ This article walks through the creation of a system user and configuring the use
 
    We can also get resource resolver on behalf of fd-service user. This service user is used for document services. For example, if you want to Certify/Apply Usage Rights etc, we will use resource resolver of fd-service user to perform the operations
 
-1. [Download and unzip the zip file associated with this article.](assets/DevelopingWithServiceUser)
+1. [Download and unzip the zip file associated with this article.](assets/developingwithserviceuser.zip)
 1. Navigate to [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles)
 1. Upload and start the OSGi bundle
 1. Ensure the bundle is in active state
