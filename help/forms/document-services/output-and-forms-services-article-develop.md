@@ -50,7 +50,7 @@ Line 6 exports the xmlData from the PDF File
 
 **To test the sample package on your system**
 
-[Download and install the package using the AEM package manager](/assets/OutputAndFormsService.zip)
+[Download and install the package using the AEM package manager](assets/outputandformsservice.zip)
 
 **After you install the package you will have to whitelist the following URLs in Adobe Granite CSRF Filter.**
 
