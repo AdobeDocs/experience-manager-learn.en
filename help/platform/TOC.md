@@ -10,3 +10,4 @@ index: y
 + [Platform Introduction](introduction.md)
 + Authentication {#authentication}
   + [OAuth Authentication](authentication/oauth-code-sample-develop.md)
+  + [Understanding Authentication](authentication/authentication-support-article-understand.md)
