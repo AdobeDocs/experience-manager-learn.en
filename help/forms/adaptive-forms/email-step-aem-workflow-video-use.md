@@ -50,5 +50,5 @@ Take a look at the process step of the workflow. The custom code associated with
 >[!NOTE] In AEM Forms 6.5 and above you do not need this custom code to create metadata properties.The capability is provided out of the box
 
 Make sure the Attachments tab of the Send Email component is configured as per the screen shot below
-![Send Email Attachment Tab](assets/sendemailcomponentconfigure.JPG)The "DOR.pdf" value has to match the value specified in the Document of Record Path specified in the submission options of your adaptive form.
+![Send Email Attachment Tab](assets/sendemailcomponentconfigure.jpg)The "DOR.pdf" value has to match the value specified in the Document of Record Path specified in the submission options of your adaptive form.
 
