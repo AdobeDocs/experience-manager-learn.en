@@ -33,4 +33,5 @@ There are three dynamic rule sets that can be enabled for a given metadata field
 
 Custom Metadata Schema created at: `/conf/global/settings/dam/adminui-extension/metadataschema/custom`. The below AEM package will apply custom schema to the folder: `/content/dam/we-retail/en/activities`:
 
+### Download Custom Metadata package
 **[cascade-metadata-values-001.zip](assets/cascade-metadata-values-001.zip)**
