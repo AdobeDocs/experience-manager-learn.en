@@ -15,7 +15,7 @@ internal: n
 snippet: y
 ---
 
-# Using Adobe Sign with AEM Forms{#using-adobe-sign-with-aem-forms}
+# Using Adobe Sign with AEM Forms {#using-adobe-sign-with-aem-forms}
 
 Using Adobe Sign with AEM Forms
 
