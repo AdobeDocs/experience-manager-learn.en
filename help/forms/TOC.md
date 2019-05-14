@@ -22,9 +22,9 @@ index: y
   + [Using Transaction Reporting](adaptive-forms/transaction-reporting-aem-forms-article-use.md)
   + [User Profile Data Integration in AEM Forms](adaptive-forms/user-profile-data-integration-feature-video-use.md)
   + [Microsoft Dynamics with AEM Forms](adaptive-forms/using-ms-dynamics-with-aem-forms.md)
-  + [Rule Editor Enhancements](adaptive-forms/rule-editor-improvements-feature-video-use)
+  + [Rule Editor Enhancements](adaptive-forms/rule-editor-improvements-feature-video-use.md)
   + [Integrating LDAP with AEM Forms](adaptive-forms/aem-forms-workflow-with-ldap-article-use.md)
-  + [Using Service User in AEM Forms](daptive-forms/service-user-tutorial-develop)
+  + [Using Service User in AEM Forms](adaptive-forms/service-user-tutorial-develop.md)
 + Document Services {#document-services}
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
   + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
