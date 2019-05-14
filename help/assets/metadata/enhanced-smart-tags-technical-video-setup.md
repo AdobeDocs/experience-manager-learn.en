@@ -19,13 +19,14 @@ Learn how to configure smart tagging and enhanced smart tagging in AEM, using th
 
 >[!NOTE]
 >
->Before you can use the Smart Content Service, ensure the following to create an >integration on Adobe I/O. 
->   * An Adobe ID account that has administrator privileges for the organization.
->   * The Smart Content Service is enabled for your organization.
-> 
+>Before you can use the Smart Content Service, ensure the following to create an >integration on Adobe I/O.
+
+* An Adobe ID account that has administrator privileges for the organization.
+* The Smart Content Service is enabled for your organization.
+  
 >To enable Enhanced Smart Tags, in addition to the above, also install [AEM 6.4 latest service pack](https://helpx.adobe.com/experience-manager/aem-releases-updates.html#main-pars_step_with_card_1987226281).
 
-### Step by step process to integrate Smart Content Services with Adobe Experience Manager.
+## Step by step process to integrate Smart Content Services with Adobe Experience Manager
 
 1. Create an Asset Smart Tags cloud service configuration
 2. Create a new integration to access Smart Content Service REST APU using Adobe I/O.

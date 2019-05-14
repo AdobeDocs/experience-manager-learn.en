@@ -21,7 +21,7 @@ Smart Tags allows for training the Smart Tags Algorithm with a customer-specific
 >
 >To be able to configure the Enhanced Smart Tags service on your AEM 6.4 instance, first install the **Enhanced Smart Tags : Feature Pack 21951**. The Enhanced Smart Tags service is supported on AEM 6.4 only. If you are running a lower version of AEM and require automatic tagging service for your assets, see [Smart Tags](https://helpx.adobe.com/experience-manager/6-3/assets/using/touch-ui-smart-tags.html).
 
-### Steps to use Enhanced Smart Tags service:
+## Steps to use Enhanced Smart Tags service:
 
 * [Onboarding](https://helpx.adobe.com/experience-manager/6-4/assets/using/configure-custom-smart-tags.html) - Configuring your AEM Smart Tags Cloud Services 
 * [Reviewing assets and tags (taxonomy definition)](https://helpx.adobe.com/experience-manager/6-4/assets/using/smart-tags-training-guidelines.html) - Identifying the assets that need to be tagged manually for Smart Tags Training
