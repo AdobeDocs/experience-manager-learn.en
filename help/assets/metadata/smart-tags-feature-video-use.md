@@ -6,6 +6,7 @@ seo-description: Smart tags feature augments the search capabilities of Adobe Ex
 uuid: ebbedcd5-20b3-4221-a96f-a1e9baeda445
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 topic-tags: smart-tags
 topic-tags: images
 topic-tags: search

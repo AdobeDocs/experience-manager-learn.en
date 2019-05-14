@@ -11,7 +11,9 @@ index: y
 + Metadata Management {#metadata}
   + [Asset Search](metadata/search-feature-video-use.md)
   + [Cascading Metadata](metadata/cascade-metadata-feature-video-use.md)
-  + [Metadata Import and Export](metadata/metadata-import-feature-video-use.md)
+  + [Import and Export Metadata](metadata/metadata-import-feature-video-use.md)
   + [Search Boost](metadata/search-boost-technical-video-understand.md)
   + [Enhanced Smart Tags](metadata/enhanced-smart-tags-feature-video-use.md)
   + [Configure Enhanced Smart Tags](metadata/enhanced-smart-tags-feature-video-use.md)
+  + [Smart Tags Overview](metadata/smart-tags-feature-video-use.md)
+  + [Configure Smart Tags](metadata/smart-tags-technical-video-setup.md)
