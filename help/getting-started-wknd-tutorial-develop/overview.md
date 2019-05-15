@@ -19,7 +19,7 @@ A multi-part tutorial designed for developers new to Adobe Experience Manager. W
 
 ## WKND Tutorial Overview {#wknd-tutorial-overview}
 
-The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial a developer understands the basic foundation of the platform and has knowledge of common design patterns in AEM.
+The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial a developer understands the basic foundation of the Foundation and has knowledge of common design patterns in AEM.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27305?quality=9)
 

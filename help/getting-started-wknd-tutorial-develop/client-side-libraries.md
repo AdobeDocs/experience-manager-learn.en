@@ -571,7 +571,7 @@ At a high level **aemfed** listens to file changes and automatically syncs the t
      -e exclude_filter    Anymatch exclude filter; disabled by default
      -i sync_interval     Update interval in milliseconds; default is 100
      -o open_page         Browser page to be opened after successful launch; default is "false".
-     -b browser           Browser where page should be opened in; this parameter is platform dependent; for example, Chrome is "google chrome" on OS X, "google-chrome" on Linux and "chrome" on Windows; default is "google chrome"
+     -b browser           Browser where page should be opened in; this parameter is Foundation dependent; for example, Chrome is "google chrome" on OS X, "google-chrome" on Linux and "chrome" on Windows; default is "google chrome"
      -h                   Displays this screen
      -v                   Displays version of this package
 

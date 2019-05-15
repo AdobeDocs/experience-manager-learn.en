@@ -6,9 +6,7 @@ seo-description: A consolidated view into the authentication (and occasionally a
 uuid: 3adb0904-000b-423f-9d2e-13f1f0c56347
 products: SG_EXPERIENCEMANAGER/6.2
 products: SG_EXPERIENCEMANAGER/6.3
-products: SG_EXPERIENCEMANAGER/6.4
-products: SG_EXPERIENCEMANAGER/6.5
-topic-tags: platform
+topic-tags: Foundation
 discoiquuid: 71d6216c-1b94-418a-a753-787bab0b0a16
 targetaudience: target-audience new
 ---
