@@ -47,8 +47,9 @@ A consolidated view into the authentication (and occasionally authorization) mec
    <td>✔</td> 
   </tr>
   <tr>
-   <td colspan="3"><strong>Non-AEM system as the canonical identity provider</strong></td> 
-  </tr>
+   <td><strong>Non-AEM system as the canonical identity provider</strong></td> 
+   <td></td> 
+   <td></td> 
   <tr>
    <td><a href="https://docs.adobe.com/docs/en/aem/6-3/administer/security/ldap-config.html" target="_blank">LDAP</a></td> 
    <td>✔</td> 
