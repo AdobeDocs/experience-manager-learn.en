@@ -11,3 +11,4 @@ index: y
 + Authentication {#authentication}
   + [OAuth Authentication](authentication/oauth-code-sample-develop.md)
   + [Understanding Authentication](authentication/authentication-support-article-understand.md)
+  + [Understand IMS Authentication on AMS](authentication/adobe-ims-authentication-technical-video-understand.md)
