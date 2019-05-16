@@ -17,7 +17,9 @@ A consolidated view into the authentication (and occasionally authorization) mec
 
 *The following table describes how users can authenticate into AEM.*
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<!--I removed the border value. I remove the colspan and border values ad added two blank td values. spans aren't allowed. bob -->
+
+<table cellpadding="1" cellspacing="0" width="100%"> 
  <tbody>
   <tr>
    <td>Authentication</td> 
@@ -25,7 +27,9 @@ A consolidated view into the authentication (and occasionally authorization) mec
    <td style="text-align: center;">AEM 6.3</td> 
   </tr>
   <tr>
-   <td colspan="3" style="text-align: center;"><strong>AEM as the canonical identity provider</strong></td> 
+   <td style="text-align: center;"><strong>AEM as the canonical identity provider</strong></td> 
+   <td></td> 
+   <td></td> 
   </tr>
   <tr>
    <td>Basic authentication</td> 
