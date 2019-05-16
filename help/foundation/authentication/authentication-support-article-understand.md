@@ -19,60 +19,60 @@ A consolidated view into the authentication (and occasionally authorization) mec
 
 <!--I removed the border value. I remove the colspan and border values ad added two blank td values. spans aren't allowed. bob -->
 
-<table cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Authentication</td> 
-   <td style="text-align: center;">AEM 6.2</td> 
-   <td style="text-align: center;">AEM 6.3</td> 
+   <td>AEM 6.2</td> 
+   <td>AEM 6.3</td> 
   </tr>
   <tr>
-   <td style="text-align: center;"><strong>AEM as the canonical identity provider</strong></td> 
+   <td><strong>AEM as the canonical identity provider</strong></td> 
    <td></td> 
    <td></td> 
   </tr>
   <tr>
    <td>Basic authentication</td> 
-   <td style="text-align: center;">✔<br /> </td> 
-   <td style="text-align: center;">✔<br /> </td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr>
   <tr>
    <td>Forms-based</td> 
-   <td style="text-align: center;">✔<br /> </td> 
-   <td style="text-align: center;">✔<br /> </td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr>
   <tr>
    <td>Token-based (w/ <a href="https://docs.adobe.com/docs/en/aem/6-3/administer/security/encapsulated-token.html" target="_blank">encapsulated token</a>)</td> 
-   <td style="text-align: center;">✔<br /> </td> 
-   <td style="text-align: center;">✔<br /> </td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr>
   <tr>
-   <td colspan="3" style="text-align: center;"><strong>Non-AEM system as the canonical identity provider</strong></td> 
+   <td colspan="3"><strong>Non-AEM system as the canonical identity provider</strong></td> 
   </tr>
   <tr>
    <td><a href="https://docs.adobe.com/docs/en/aem/6-3/administer/security/ldap-config.html" target="_blank">LDAP</a></td> 
-   <td style="text-align: center;">✔<br /> </td> 
-   <td style="text-align: center;">✔<br /> </td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr>
   <tr>
    <td><a href="https://docs.adobe.com/docs/en/aem/6-3/deploy/configuring/single-sign-on.html" target="_blank">SSO</a></td> 
-   <td style="text-align: center;">✔<br /> </td> 
-   <td style="text-align: center;">✔<br /> </td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr>
   <tr>
    <td><a href="https://docs.adobe.com/docs/en/aem/6-3/administer/security/saml-2-0-authenticationhandler.html" target="_blank">SAML 2.0</a></td> 
-   <td style="text-align: center;">✔<br /> </td> 
-   <td style="text-align: center;">✔<br /> </td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr>
   <tr>
    <td><a href="https://docs.adobe.com/ddc/en/gems/oauth-server-functionality-in-aem---embrace-federation-and-unlea.html" target="_blank">OAuth 1.0a &amp; 2.0</a></td> 
-   <td style="text-align: center;">✔<br /> </td> 
-   <td style="text-align: center;">✔<br /> </td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr>
   <tr>
    <td><a href="http://sling.apache.org/documentation/the-sling-engine/authentication/authentication-authenticationhandler/openid-authenticationhandler.html" target="_blank">OpenID</a></td> 
-   <td style="text-align: center;">⁕<br /> </td> 
-   <td style="text-align: center;">⁕<br /> </td> 
+   <td>⁕</td> 
+   <td>⁕</td> 
   </tr>
  </tbody>
 </table>
