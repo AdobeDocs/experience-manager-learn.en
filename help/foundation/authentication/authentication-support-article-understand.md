@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.3
 topic-tags: Foundation
 discoiquuid: 71d6216c-1b94-418a-a753-787bab0b0a16
 targetaudience: target-audience new
+kt: 406
 ---
 
 # Understanding Authentication Support in AEM{#understanding-authentication-support-in-aem}
@@ -22,9 +23,9 @@ A consolidated view into the authentication (and occasionally authorization) mec
 <table> 
  <tbody>
   <tr>
-   <td>Authentication</td> 
-   <td>AEM 6.2</td> 
-   <td>AEM 6.3</td> 
+   <td><strong>Authentication</strong></td> 
+   <td><strong>AEM 6.2</strong></td> 
+   <td><strong>AEM 6.3</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM as the canonical identity provider</strong></td> 

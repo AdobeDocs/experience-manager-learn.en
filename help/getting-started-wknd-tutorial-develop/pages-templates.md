@@ -24,7 +24,7 @@ View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or 
 
 >[!NOTE]
 >
-> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/Foundation-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
+> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
 
 ## Objective
 

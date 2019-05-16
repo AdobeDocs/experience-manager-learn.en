@@ -31,7 +31,7 @@ The following is required:
     * [AEM 6.4.2+](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
 4. [Eclipse](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) or other IDE
 
-For more information see: [Set up a Local AEM Development Environment](https://helpx.adobe.com/experience-manager/kt/Foundation-repository/using/local-aem-dev-environment-article-setup.html).
+For more information see: [Set up a Local AEM Development Environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html).
 
 ## Objective {#objective}
 
@@ -679,7 +679,7 @@ This tutorial will use the **Eclipse IDE** and the **AEM Developer tools** plugi
 
 >[!NOTE]
 >
-> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/Foundation-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
+> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
 
 ## Developer Workflow {#developer-workflow}
 
