@@ -5,7 +5,7 @@ user-guide-title: AEM Foundation Videos and Tutorials
 index: y
 ---
 
-# AEM Foundation Videos and Tutorials {#Foundation}
+# AEM Foundation Videos and Tutorials {#foundation}
 
 + [Foundation Introduction](introduction.md)
 + Authentication {#authentication}
