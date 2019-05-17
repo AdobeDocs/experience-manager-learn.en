@@ -25,11 +25,9 @@ AEM 6.3 introduces several new features and enhancements in this release to simp
 
 * [Improved end user experience](https://helpx.adobe.com/aem-forms/6-3/introduction-forms-authoring.html)
 
-- Autofill form fields
-
-- Rich Text for a text box component
-
-- Specialized input types for form fields
+* Autofill form fields
+* Rich Text for a text box component
+* Specialized input types for form fields
 
 * [Inline editing of component title](https://helpx.adobe.com/aem-forms/6-3/introduction-forms-authoring.html)
 * [Default validation in components](https://helpx.adobe.com/aem-forms/6-3/introduction-forms-authoring.html)
@@ -38,4 +36,3 @@ AEM 6.3 introduces several new features and enhancements in this release to simp
 * [CAPTCHA in adaptive forms](https://helpx.adobe.com/aem-forms/6-3/captcha-adaptive-forms.html)
 * [Enhanced Adobe Sign Integration](https://helpx.adobe.com/aem-forms/6-3/working-with-adobe-sign.html)
 * [Asynchronous submissions of forms](https://helpx.adobe.com/aem-forms/6-3/asynchronous-submissions-adaptive-forms.html)
-

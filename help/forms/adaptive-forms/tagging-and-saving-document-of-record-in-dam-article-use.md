@@ -29,6 +29,7 @@ The use case is as follows:
 To satisfy this use case a custom process step was written. In this step we fetch the values of the appropriate data elements from the submitted data. We then construct the tag tile using this value. For example if the value of marital status element is "Single", the tag title becomes **Peak:EmploymentStatus/Single. **Using the TagManager API , we find the tag and apply the tag to the DoR.
 
 The following code snippet show you how to find the tag and apply the tag to the document.
+
 ```java {.line-numbers}
 Tag tagFound = tagManager.resolveByTitle(tagTitle+xmlElement.getTextContent());
 //tagTitle is "Peak:EmploymentStatus/" and the xmlElement.getTextContent() will return the value Single. So the tag title becomes Peak:EmploymentStatus/Single. Once the tag is found we put the tag in array and apply the tags to the resource as shown below
@@ -37,6 +38,7 @@ tagManager.setTags(metadata, tagArray, true);
 ```
 
 To get this sample working on your system,Please follow the steps listed below:
+
 * [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which sets the tags from the submitted form data.
 
 * [Download the Sample Adaptive Form](assets/sampleadaptiveform.zip)
