@@ -19,7 +19,7 @@ Starting with AEM Forms 6.5 release, we can now create workflow models which are
 To design such a workflow, please perform the following steps
 
 1. Login to AEM
-1. Point your browser to [workflow model](/libs/cq/workflow/admin/console/content/models.md)
+1. Point your browser to [workflow model](http://localhost:4502/libs/cq/workflow/admin/console/content/models.html)
 1. Click Create | Create Model to Add Workflow Model
 1. Provide the appropriate Name and Title to the workflow model and then click on Done
 1. Open the newly created model in edit mode
