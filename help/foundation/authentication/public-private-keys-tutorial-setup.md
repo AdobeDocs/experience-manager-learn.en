@@ -25,13 +25,13 @@ AEM uses public/private key pairs to securely communicate with Adobe I/O and oth
 
 The [openssl](https://www.openssl.org/docs/man1.0.2/man1/openssl.html) command line tool's [req command](https://www.openssl.org/docs/man1.0.2/man1/req.html) can be used to generate a key pair compatible with Adobe I/O and Adobe Experience Manager.
 
-\```
+```
 $ openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout private.key -out certificate.crt
-\```
+```
 
 To complete the openssl generate command, provide the certificate information when requested. Adobe I/O and AEM do not care what these values are, however they should align with, and describe your key.
 
-\```
+```
 Generating a 2048 bit RSA private key
 ...........................................................+++
 ...+++
@@ -51,7 +51,7 @@ Organization Name (eg, company) []:Adobe
 Organizational Unit Name (eg, section) []:Adobe Experience Manager
 Common Name (eg, fully qualified host name) []:com.adobe
 Email Address []:example@adobe.com
-\```
+```
 
 ## Add key pair to a new keystore {#add-key-pair-to-a-new-keystore}
 
@@ -59,9 +59,9 @@ Key pairs can be added to a new PKCS12 keystore. As part of [openssl's pcks12 co
 
 These values are required to load the keystore and keys into AEM.
 
-\```
+```
 $ openssl pkcs12 -export -caname my-keystore -in certificate.crt -name my-key -inkey private.key -out keystore.p12 -passout pass:my-password
-\```
+```
 
 The output of this command is a keystore.p12 file.
 
@@ -73,7 +73,7 @@ The output of this command is a keystore.p12 file.
 
 The Java [keytool command line tool](https://docs.oracle.com/middleware/1213/wls/SECMG/keytool-summary-appx.htm#SECMG818) provides visibility into a keystore to ensure the keys are successfully loaded in the keystore file (keystore.p12).
 
-\```
+```
 $ keytool -keystore keystore.p12 -list
 
 Enter keystore password: my-password
@@ -85,7 +85,7 @@ Your keystore contains 1 entry
 
 my-key, Feb 5, 2019, PrivateKeyEntry,
 Certificate fingerprint (SHA1): 7C:6C:25:BD:52:D3:3B:29:83:FD:A2:93:A8:53:91:6A:25:1F:2D:52
-\```
+```
 
 ![](assets/adobe-io-2.png) 
 
