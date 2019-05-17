@@ -30,7 +30,7 @@ index: y
   + [Using Service User in AEM Forms](adaptive-forms/service-user-tutorial-develop.md)
   + [Tagging and Storing DoR on Adaptive Form Submission](adaptive-forms/tagging-and-saving-document-of-record-in-dam-article-use.md)
   + [Form Data Model Service in AEM Workflow](adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md)
-  + [Form Data Model without Data Source](adaptive-forms/form-data-model-without-data-source-feature-video-use)
+  + [Form Data Model without Data Source](adaptive-forms/form-data-model-without-data-source-feature-video-use.md)
   + [Setting up JDBC Data Source in AEM Forms](adaptive-forms/data-integration-technical-video-setup.md)
   + [JDBC Based Form Data Model](adaptive-forms/jdbc-data-model-technical-video-use.md)
   + [Post Binary Data to AEM DAM Using Form Data Model](adaptive-forms/form-data-model-to-post-binary-data-tutorial-use.md)
