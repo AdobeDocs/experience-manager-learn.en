@@ -36,7 +36,7 @@ index: y
   + [Post Binary Data to AEM DAM Using Form Data Model](adaptive-forms/form-data-model-to-post-binary-data-tutorial-use.md)
   + [Creating Re-Usable Workflow Models](adaptive-forms/re-usable-aem-forms-workflow-models-article.md)
   + [Modify Data Source Configuration](adaptive-forms/modify-data-source-configuration-settings-article.md)
-  + [Pre-Populating HTML5 Forms](adaptive-forms/prepopulating_html5_forms_in_aem_forms-article.md)
+  + [Pre-Populating HTML5 Forms](adaptive-forms/prepopulating-html5-forms-in-aem-forms-article.md)
 
 + Document Services {#document-services}
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
