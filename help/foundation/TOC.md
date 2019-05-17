@@ -12,3 +12,4 @@ index: y
   + [OAuth Authentication](authentication/oauth-code-sample-develop.md)
   + [Understanding Authentication](authentication/authentication-support-article-understand.md)
   + [Understand IMS Authentication on AMS](authentication/adobe-ims-authentication-technical-video-understand.md)
+  + [Setup Public/Private Keys to use with Adobe I/O ](authentication/public-private-keys-tutorial-setup.md)
