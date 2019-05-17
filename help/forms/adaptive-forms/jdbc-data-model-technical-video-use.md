@@ -21,5 +21,5 @@ This video illustrates how to create a Form Data Model based on a JDBC data sour
 
 >[!NOTE]
 >
->Any RDBMS data source can be used, as long as the required database drivers are deployed to AEM as an OSGi bundle. Setting up a RDBMS datasource in AEM is covered in [Setup Data Integration with AEM Forms](adaptive-forms/data-integration-technical-video-setup.md).
+>Any RDBMS data source can be used, as long as the required database drivers are deployed to AEM as an OSGi bundle. Setting up a RDBMS datasource in AEM is covered in [Setup Data Integration with AEM Forms](/help/forms/adaptive-forms/data-integration-technical-video-setup.md).
 
