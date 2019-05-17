@@ -49,10 +49,10 @@ To get this sample working on your system,Please follow the steps listed below:
 
 * [Import the article assets](assets/tagandstoredor.zip) using AEM package manager
 * Open the [sample form in preview mode](http://localhost:4502/content/dam/formsanddocuments/summit/peakform/jcr:content?wcmmode=disabled). Fill in the People section and submit the form.
-* [Navigate to Peak folder in DAM](/assets.html/content/dam/Peak). You should see DoR in the Peak folder. Check the properties of the document. It should be tagged appropriately.
-Congratulations!! You have sucessfully installed the sample on your system
+* [Navigate to Peak folder in DAM](http://localhost:4502/assets.html/content/dam/Peak). You should see DoR in the Peak folder. Check the properties of the document. It should be tagged appropriately.
+Congratulations!! You have successfully installed the sample on your system
 
-* Let's explore the [workflow](/editor.html/conf/global/settings/workflow/models/TagAndStoreDoRinDAM) which gets triggered on form submission.
+* Let's explore the [workflow](http://localhost:4502/editor.html/conf/global/settings/workflow/models/TagAndStoreDoRinDAM.html) which gets triggered on form submission.
 * The first step in the workflow creates a unique file name by concatenating applicants name and county of residence. 
 * The second step of the workflow passes the tag hierarchy and the form fields elements that need to be tagged. The process step extracts the value from the submitted data and constructs the tag title that needs to tag the document.
 * If you want to store DoR in a different folder in the DAM, you specify the folder location using the configuration properties as specified in the screenshot below.
