@@ -20,5 +20,9 @@ With the release of AEM Forms 6.5, you can now easily change the above-mentioned
 
 The screenshots below show the data source configuration settings in AEM Forms 6.4 and Forms 6.5
 
-![](assets/64release.gif)
+ **Data Source Configuration in AEM 6.4**
+
+![64DataSource Configuration](assets/64release.gif)
+**Editable Data Source Configuration in AEM 6.5 and above**
+![65DataSource Configuration](assets/modifiabledatasource.jfif)
 
