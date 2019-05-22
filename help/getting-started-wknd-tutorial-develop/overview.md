@@ -1,8 +1,8 @@
 ---
 title: Getting Started with AEM Sites - WKND Tutorial
 seo-title: Getting Started with AEM Sites - WKND Tutorial
-description: The WKND tutorial is a multi-part tutorial designed for developers new to Adobe Experience Manager. The tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development.
-seo-description: The WKND tutorial is a multi-part tutorial designed for developers new to Adobe Experience Manager. The tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development.
+description: Getting Started with AEM Sites - WKND Tutorial. The WKND tutorial is a multi-part tutorial designed for developers new to Adobe Experience Manager. The tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development.
+seo-description: Getting Started with AEM Sites - WKND Tutorial. The WKND tutorial is a multi-part tutorial designed for developers new to Adobe Experience Manager. The tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development.
 uuid: 4b369f63-858c-4c26-b092-a3151b53924a
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 products: SG_EXPERIENCEMANAGER/6.4/SITES
