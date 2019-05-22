@@ -26,6 +26,8 @@ index: y
   + [Restricting Access to Rule Editor](adaptive-forms/restricting-rule-editor-aem-forms-technical-video-use.md)
   + [Theme Editor Enhancements](adaptive-forms/theme-editor-improvements-feature-video-use.md)
   + [Form Editor Enhancements](adaptive-forms/form-editor-improvements-feature-video-use.md)
+  + [Automated Testing Of Adaptive Forms video](adaptive-forms/calvin-sdk-test-adaptive-forms-feature-video.md)
+  + [Automated Testing Of Adaptive Forms](adaptive-forms/calvin-sdk-test-adaptive-forms-article-use.md)
   + [Integrating LDAP with AEM Forms](adaptive-forms/aem-forms-workflow-with-ldap-article-use.md)
   + [Using Service User in AEM Forms](adaptive-forms/service-user-tutorial-develop.md)
   + [Tagging and Storing DoR on Adaptive Form Submission](adaptive-forms/tagging-and-saving-document-of-record-in-dam-article-use.md)
@@ -44,3 +46,4 @@ index: y
   + [Using Barcode Service in AEM Forms](document-services/barcode-service-adaptive-forms-article.md)
   + [Using PDFG Service in AEM Forms](document-services/using-pdfg-in-aem-forms.md)
   + [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
+  + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
