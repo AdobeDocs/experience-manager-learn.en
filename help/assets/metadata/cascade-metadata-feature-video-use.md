@@ -29,10 +29,9 @@ There are three dynamic rule sets that can be enabled for a given metadata field
 >
 >Cascading rules can ONLY be created based on the value(s) of a dropdown field. It is possible to apply all three rule sets to the same metadata field but as a best practice it is recommended to make each rule set dependent on the same metadata dropdown.
 
+Download [Custom Metadata package](assets/cascade-metadata-values-001.zip)
+
 ## Supporting materials {#supporting-materials}
 
 Custom Metadata Schema created at: `/conf/global/settings/dam/adminui-extension/metadataschema/custom`. The below AEM package will apply custom schema to the folder: `/content/dam/we-retail/en/activities`:
 
-### Download Custom Metadata package
-
-**[cascade-metadata-values-001.zip](assets/cascade-metadata-values-001.zip)**

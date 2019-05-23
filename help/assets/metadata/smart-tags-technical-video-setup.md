@@ -61,11 +61,8 @@ Overlay the Manage Tags console to /apps
 
 The following adjustments described above are provided in the attached AEM package that can be installed via [AEM Package Manager](http://localhost:4502/crx/packmgr/index.jsp).
 
-### Download Smart Tag Score package
-
-[aem63-assets-smarttags-showscores-1.0.0.zip](assets/aem63-assets-smarttags-showscores-1.0.0.zip)
+Download [Smart Tag Score package](assets/aem63-assets-smarttags-showscores-1.0.0.zip)
 
 ## Supporting materials {#supporting-materials}
 
 * [AEM Assets Smart Tags documentation](https://helpx.adobe.com/experience-manager/6-3/assets/using/touch-ui-smart-tags.html)
-
