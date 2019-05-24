@@ -28,9 +28,9 @@ HLS browser support is as follows, for unsupported browsers we fallback to progr
 <table> 
  <thead> 
   <tr> 
-   <th style="text-align: left;"> <p>Device</p> </th> 
-   <th style="text-align: left;"> <p>Browser</p> </th> 
-   <th style="text-align: left;"> <p>Video playback mode</p> </th>
+   <th> <p>Device</p> </th>
+   <th> <p>Browser</p> </th>
+   <th > <p>Video playback mode</p> </th>
   </tr>
  </thead>
  <tbody>
@@ -43,47 +43,47 @@ HLS browser support is as follows, for unsupported browsers we fallback to progr
    <td> <p>Desktop</p> </td>
    <td> <p>Internet Explorer 11+</p> </td>
    <td> <p>HLS video streaming</p> </td>
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td> <p>Desktop</p> </td>
    <td> <p>Firefox 23-44</p> </td>
    <td> <p>Progressive download</p> </td>
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Desktop</p> </td>
    <td> <p>Firefox 45 or later</p> </td>
    <td> <p>HLS video streaming</p> </td>
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Desktop</p> </td>
    <td> <p>Chrome</p> </td>
    <td> <p>HLS video streaming</p> </td>
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Desktop</p> </td>
    <td> <p>Safari (Mac)</p> </td>
    <td> <p>HLS video streaming</p> </td>
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Mobile</p> </td>
    <td> <p>Chrome (Android 6 or earlier)</p> </td>
    <td> <p>Progressive download</p> </td>
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Mobile</p> </td>
    <td> <p>Chrome (Android 7 or later)</p> </td>
    <td> <p>HLS video streaming</p> </td>
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Mobile</p> </td>
    <td> <p>Android (Default browser)</p> </td>
    <td> <p>Progressive download</p> </td>
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Mobile</p> </td>
    <td> <p>Safari (iOS)</p> </td>
    <td> <p>HLS video streaming</p> </td>
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Mobile</p> </td>
    <td> <p>Chrome (iOS)</p> </td>
