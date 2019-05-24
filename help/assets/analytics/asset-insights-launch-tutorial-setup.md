@@ -58,7 +58,7 @@ Core Image component uses ***data-asset-id*** attribute within the parent &lt;di
 >
 >*data-aem-asset-id='image.UUID'* and *data-trackable='true'* are the key attributes that needs to be present for Asset Impressions. For Asset Click Insights, in addition to the above data attributes present at the &lt;img&gt; tag, the parent &lt;a&gt; tag must have a valid href value.
 
-## Part 3: Adobe Analytics - Creating Report Suite, enabling Real-Time data collection and AEM Assets Reporting {#adobe-analytics-asset-insights}
+## Part 3: Adobe Analytics — Creating Report Suite, enabling Real-Time data collection and AEM Assets Reporting {#adobe-analytics-asset-insights}
 
 Report suite with real-time data collection is created for asset tracking. AEM Assets Insights configuration is set up using Adobe Analytics credentials.
 
@@ -200,4 +200,6 @@ Configuring AEM Asset Reporting Sync Job Scheduler and Assets Insights Report
 
 >[!VIDEO](https://video.tv.adobe.com/v/25947/?quality=12)
 
-[Set up Asset Insights with AEM Assets using Dynamic Tag Management](../../assets/using/asset-insights-tutorial-setup.md)
+## Supporting Materials
+
+* [Set up Asset Insights with AEM Assets using Dynamic Tag Management](asset-insights-tutorial-setup.md)
