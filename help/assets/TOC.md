@@ -18,7 +18,6 @@ index: y
   + [Smart Tags Overview](metadata/smart-tags-feature-video-use.md)
   + [Configure Smart Tags](metadata/smart-tags-technical-video-setup.md)
 + Dynamic Media {#dynamic-media}
-  + [Using Dynamic Media Color Management](dynamic-media/dynamic-media-color-management-technical-video-setup.md)
   + [Using Dynamic Media Experience Fragments](dynamic-media/dynamic-media-experience-fragments-feature-video-use.md)
   + [Using Dynamic Media Interactive Video](dynamic-media/dynamic-media-interactive-video-feature-video-use.md)
   + [Using Dynamic Media Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
