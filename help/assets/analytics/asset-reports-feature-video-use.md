@@ -59,6 +59,4 @@ The following formulas are used in the video to generate the Assets by Size char
 
 ## Supporting materials {#supporting-materials}
 
-All Assets Excel file with Chart (All-Assets.xlsx)
-
-[Get File](assets/all-assets.xlsx)
+Download [All Assets Excel File with Chart](assets/all-assets.xlsx)
