@@ -19,18 +19,19 @@ Advanced metadata management allows users to create cascading field rules to for
 
 There are three dynamic rule sets that can be enabled for a given metadata field:
 
-1. **Requirement** - a field can dynamically be marked as required based on the value of another dropdown field.
+1. **Requirement** : a field can dynamically be marked as required to be based on the value of another dropdown field.
 
-2. **Visibility** - fields can always be visible or only visible based on the value of another dropdown field.
+2. **Visibility** : fields can always be visible or only visible based on the value of another dropdown field.
 
-3. **Choices** - (only applicable to dropdown fields) filter the choices shown to the user based on the currently selected value of another dropdown field.
+3. **Choices** : (only applicable to dropdown fields) filter the choices shown to the user based on the currently selected value of another dropdown field.
 
 >[!NOTE]
 >
 >Cascading rules can ONLY be created based on the value(s) of a dropdown field. It is possible to apply all three rule sets to the same metadata field but as a best practice it is recommended to make each rule set dependent on the same metadata dropdown.
 
+Download [Custom Metadata package](assets/cascade-metadata-values-001.zip)
+
 ## Supporting materials {#supporting-materials}
 
 Custom Metadata Schema created at: `/conf/global/settings/dam/adminui-extension/metadataschema/custom`. The below AEM package will apply custom schema to the folder: `/content/dam/we-retail/en/activities`:
 
-**[cascade-metadata-values-001.zip](assets/cascade-metadata-values-001.zip)**

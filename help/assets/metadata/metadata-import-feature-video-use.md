@@ -25,22 +25,18 @@ AEM Assets metadata import and export capabilities allow content authors to easi
 
 >[!VIDEO](https://video.tv.adobe.com/v/21374/?quality=9)
 
-### Download WeRetail Sports Folder
+Download [WeRetail sports folder](assets/we-retail-sports.zip)
 
-[we-retail-sports.zip](assets/we-retail-sports.zip)
-
-### Download asset-metadata-sample
-
-[we-retail-sports-asset-metadata.zip](assets/we-retail-sports-asset-metadata.zip)
+Download [Asset metadata package](assets/we-retail-sports-asset-metadata.zip)
 
 ## Metadata File Format {#metadata-file-format}
 
-**CSV File Format**
+### CSV File Format
 
-**First Row**
+#### First Row
 
 * The first row of the CSV file defines the metadata schema. 
-* The First column defaults to `assetPath`*, *which holds the absolute JCR Path for an asset.
+* The First column defaults to `assetPath`, which holds the absolute JCR Path for an asset.
 
 * Subsequent columns in the first-row point to other metadata properties of an asset.
 
@@ -50,12 +46,9 @@ AEM Assets metadata import and export capabilities allow content authors to easi
 
     * `<metadata property name> {{<property type}}`
     * If property type is not specified it defaults to String. 
-    * For example:
-
-        * `dc:title {{String}}`
+    * For example: `dc:title {{String}}`
 
 * Property Name is case sensitive
-
     * Correct : `dc:title {{String}}`
     * Incorrect: `Dc:Ttle {{String}}`
 
@@ -64,7 +57,7 @@ AEM Assets metadata import and export capabilities allow content authors to easi
 
 * Multi Value Property format - `<metadata property name> {{<property type : MULTI }}`
 
-**Second Row to N rows**
+#### Second Row to N rows
 
 * The first column holds the absolute JCR path for an asset. For example: /content/dam/asset1.jpg
 * Metadata property for an asset could have missing values in the CSV file. Missing metadata property for that particular asset will not be updated.
