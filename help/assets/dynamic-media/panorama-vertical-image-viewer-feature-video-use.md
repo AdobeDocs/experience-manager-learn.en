@@ -36,27 +36,27 @@ it will be considered as a Panoramic Image asset regardless of its aspect ratio.
 
 With horizontal swatches, depending on the consumer’s desktop screen size, sometimes the swatches would not be visible until user scrolls down the page. By using vertical image viewer and placing vertical swatches, it ensures that the swatches are visible no matter what the screen size is. It also maximizes the main image size. With horizontal swatches, it was necessary to reserve space on the page to ensure they have a high likelihood of being visible and would decrease the size of the main image. With a vertical layout, you do not need to worry about allocating this space and therefore can maximize the main image size.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
-   <td> </td> 
-   <td>Panoramic and VR Viewer</td> 
-   <td>Vertical Image Viewer</td> 
+   <td> </td>
+   <td>Panoramic and VR Viewer</td>
+   <td>Vertical Image Viewer</td>
   </tr>
   <tr>
-   <td>Dynamic Media Run Mode</td> 
-   <td>Dynamic Media Scene7 Mode only</td> 
-   <td>DMS7 and Dynamic Media</td> 
+   <td>Dynamic Media Run Mode</td>
+   <td>Dynamic Media Scene7 Mode only</td>
+   <td>DMS7 and Dynamic Media</td>
   </tr>
   <tr>
-   <td>Use Case</td> 
+   <td>Use Case</td>
    <td><p>Panoramic viewer and Virtual Reality viewer provide users a more engaging experience. A user can check out a hotel room even before he or she makes a booking, or check out a rental property without having to schedule an appointment. A user can check out a location and many more possibilities. The primary focus here is to provide consumer a better experience when they visit your website and eventually increase your conversion rate.</p> <p> </p> </td> 
-   <td><p>Vertical Image viewer helps maximize product imagery viewing experience to give consumers the best representation of the product, thereby driving conversion and minimizing returns.</p> <p> </p> </td> 
+   <td><p>Vertical Image viewer helps maximize product imagery viewing experience to give consumers the best representation of the product, thereby driving conversion and minimizing returns.</p> <p> </p> </td>
   </tr>
   <tr>
-   <td>Available </td> 
-   <td>OOTB</td> 
-   <td>OOTB</td> 
+   <td>Available </td>
+   <td>OOTB</td>
+   <td>OOTB</td>
   </tr>
  </tbody>
 </table>
