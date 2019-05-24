@@ -28,3 +28,8 @@ index: y
 + 3D {#3d}
   + [Using 3D with AEM Assets](3d/3d-assets-feature-video-use.md)
   + [Configuring 3D in AEM Assets](3d/3d-assets-technical-video-setup.md)
++ Creative Cloud In-App {creative-cloud}
+  + [Using Adobe Asset Link](creative-cloud/adobe-asset-link-feature-video-use.md)
+  + [Understanding Asset Link Authentication](creative-cloud/adobe-asset-link-authentication-article-understand.md)
+  + [Using Adobe Stock](creative-cloud/stock-assets-feature-video-use.md)
+  + [Configure Adobe Stock](creative-cloud/adobe-stock-aem-assets-technical-video-setup.md)
