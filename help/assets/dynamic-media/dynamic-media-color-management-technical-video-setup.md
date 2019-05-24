@@ -88,9 +88,9 @@ The following is the XML template for the Color Management configuration node. T
 
 | Name |Colorspace |Description |
 |---|---|---|
-| AdobeRGB | RGB  |Adobe RGB (1998) |
+| AdobeRGB | RGB |Adobe RGB (1998) |
 | AppleRGB | RGB | Apple RGB |
-| CIERGB | RGB  |CIE RGB |
+| CIERGB | RGB |CIE RGB |
 | CoatedFogra27 | CMYK | Coated FOGRA27 (ISO 12647-2:2004) |
 | CoatedFogra39 | CMYK | Coated FOGRA39 (ISO 12647-2:2004) |
 | CoatedGraCol | CMYK | Coated GRACoL 2006 (ISO 12647-2:2004) |
@@ -105,14 +105,14 @@ The following is the XML template for the Color Management configuration node. T
 | JapanWebCoated | CMYK | Japan Web Coated (Ad) |
 | NewsprintSNAP2007 | CMYK | US Newsprint (SNAP 2007) |
 | NTSC | RGB | NTSC (1953) |
-| PAL  |RGB | PAL/SECAM |
+| PAL |RGB | PAL/SECAM |
 | ProPhoto | RGB | ProPhoto RGB |
 | PS4Default | CMYK | Photoshop 4 Default CMYK |
 | PS5Default | CMYK | Photoshop 5 Default CMYK |
 | SheetfedCoated | CMYK | U.S. Sheetfed Coated v2 |
 | SheetfedUncoated | CMYK | U.S. Sheetfed Uncoated v2 |
 | SMPTE | RGB | SMPTE-C |
-| sRGB | RGB sRGB  |IEC61966-2.1 |
+| sRGB | RGB sRGB |IEC61966-2.1 |
 | UncoatedFogra29 | CMYK | Uncoated FOGRA29 (ISO 12647-2:2004) |
 | WebCoated | CMYK | U.S. Web Coated (SWOP) v2  |
 | WebCoatedFogra28 | CMYK | Web Coated FOGRA28 (ISO 12647-2:2004) |
