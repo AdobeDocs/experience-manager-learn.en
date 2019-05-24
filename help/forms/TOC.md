@@ -39,7 +39,7 @@ index: y
   + [Creating Re-Usable Workflow Models](adaptive-forms/re-usable-aem-forms-workflow-models-article.md)
   + [Sending Email on Adaptive Form Submission](adaptive-forms/sending-email-on-adaptive-form-submission.md)
   + [Invoking AEM Workflow on Adaptive Form Submission](adaptive-forms/invoking-aem-workflow-on-form-submission-article-use.md)
-  + [Displaying Thank You Page on Adaptive Form Submission](adaptive-forms-submitting-adaptive-forms-thank-you-page-article-use.md)
+  + [Displaying Thank You Page on Adaptive Form Submission](adaptive-forms/submitting-adaptive-forms-thank-you-page-article-use.md)
   + [Submitting Adaptive Form to External End point](adaptive-forms/submitting-adaptive-forms-to-external-server-article-use.md)
   + [Modify Data Source Configuration](adaptive-forms/modify-data-source-configuration-settings-article.md)
   + [Pre-Populating HTML5 Forms](adaptive-forms/prepopulating-html5-forms-in-aem-forms-article.md)
