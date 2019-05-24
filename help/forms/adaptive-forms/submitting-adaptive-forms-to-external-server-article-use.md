@@ -33,7 +33,8 @@ when you configure your Adaptive Form to submit to this endpoint, the form data 
 
 ```java {.line-numbers}
 System.out.println("form was submitted");
-Part attachment = request.getPart("attachments");		if(attachment!=null)
+Part attachment = request.getPart("attachments");
+if(attachment!=null)
 {
     System.out.println("The content type of the attachment added is "+attachment.getContentType());
 }
