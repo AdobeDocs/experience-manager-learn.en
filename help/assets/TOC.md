@@ -33,3 +33,7 @@ index: y
   + [Understanding Asset Link Authentication](creative-cloud/adobe-asset-link-authentication-article-understand.md)
   + [Using Adobe Stock](creative-cloud/stock-assets-feature-video-use.md)
   + [Configure Adobe Stock](creative-cloud/adobe-stock-aem-assets-technical-video-setup.md)
++ Analytics {analytics}
+  + [Asset Reports](analytics/asset-reports-feature-video-use.md)
+  + [Asset Insights with DTM](analytics/asset-insights-tutorial-setup.md)
+  + [Asset Insights with Launch, By Adobe](analytics/asset-insights-launch-tutorial-setup.md)
