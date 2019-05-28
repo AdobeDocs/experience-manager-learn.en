@@ -44,6 +44,17 @@ index: y
   + [Modify Data Source Configuration](adaptive-forms/modify-data-source-configuration-settings-article.md)
   + [Pre-Populating HTML5 Forms](adaptive-forms/prepopulating-html5-forms-in-aem-forms-article.md)
 
+
++ Creating Your First Adaptive Form {#creating-your-first-adaptive-form}
+  + [Part1 -  Create Adaptive Form](creating-your-first-adaptive-form/part1.md)
+  + [Part2 - Configuring root panel and adding child panel](creating-your-first-adaptive-form/part2.md)
+  + [Part3 - Adding components to People panel](creating-your-first-adaptive-form/part3.md)
+  + [Part4 - Adding table to income panel](creating-your-first-adaptive-form/part4.md)
+  + [Part5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
+  + [Part6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
+
+
+  
 + Document Services {#document-services}
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
   + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
