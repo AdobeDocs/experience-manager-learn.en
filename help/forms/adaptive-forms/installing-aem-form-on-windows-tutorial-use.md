@@ -19,7 +19,7 @@ snippet: y
 >For Example do not install AEM Forms in c:\jack and jill\AEM Forms folder
 
 >[!NOTE]
-If you are installing AEM Forms 6.5, Please make sure you have installed the following Microsoft Visual C++ redistributable
+If you are installing AEM Forms 6.5, Please make sure you have installed the following 32 bit Microsoft Visual C++ redistributables
 1.Microsoft Visual C++ 2008 redistributable
 2.Microsoft Visual C++ 2010 redistributable
 3.Microsoft Visual C++ 2012 redistributable
