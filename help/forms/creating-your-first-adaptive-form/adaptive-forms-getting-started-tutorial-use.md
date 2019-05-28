@@ -36,16 +36,4 @@ Import the SummitSessionTemplate.zip and SummitLabTheme.zip and SummitFragments 
 
 
 
-## Tutorial table of contents {#tutorial-table-of-contents}
 
-[Part1 - Creating Adaptive Form](https://helpx.adobe.com/experience-manager/kt/forms/using/adaptive-forms-getting-started-tutorial-use/part1.html)
-
-[Part2 - Configuring root panel and adding child panels.](https://helpx.adobe.com/experience-manager/kt/forms/using/adaptive-forms-getting-started-tutorial-use/part2.html)
-
-[Part3 - Adding components to people panel.](https://helpx.adobe.com/experience-manager/kt/forms/using/adaptive-forms-getting-started-tutorial-use/part3.html)
-
-[Part4 - Adding table to income panel.](https://helpx.adobe.com/experience-manager/kt/forms/using/adaptive-forms-getting-started-tutorial-use/part4.html)
-
-[Part5 - Configuring assets panel(Accordion layout)](https://helpx.adobe.com/experience-manager/kt/forms/using/adaptive-forms-getting-started-tutorial-use/part5.html)
-
-[Part6 - Using custom functions and code editor](https://helpx.adobe.com/experience-manager/kt/forms/using/adaptive-forms-getting-started-tutorial-use/part5.html)
