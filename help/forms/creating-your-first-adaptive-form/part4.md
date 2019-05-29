@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 topic-tags: forms
 discoiquuid: fa483260-38ff-40d8-96a7-1de11d8b792b
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding components to Income panel {#adding-components-to-income-panel}

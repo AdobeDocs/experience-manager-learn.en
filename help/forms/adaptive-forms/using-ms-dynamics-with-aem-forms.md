@@ -9,9 +9,6 @@ topic-tags: forms
 topic-tags: adaptive_forms
 discoiquuid: 6cb82275-55bc-4b9e-b958-75b906c6afa9
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Microsoft Dynamics with AEM Forms{#using-microsoft-dynamics-with-aem-forms}

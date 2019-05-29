@@ -11,9 +11,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 topic-tags: watch_folder
 discoiquuid: a40e2381-0dc8-4784-9b80-15e27b244035
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Watched Folders in AEM Forms{#using-watched-folders-in-aem-forms}

@@ -7,9 +7,6 @@ uuid: ecd5d5aa-01eb-48fb-872f-66c656ae14df
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms
 discoiquuid: c442f439-1e5d-4f96-85df-b818c28389ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Form Data Model Service as Step in Workflow {#using-form-data-model-service-as-step-in-workflow}

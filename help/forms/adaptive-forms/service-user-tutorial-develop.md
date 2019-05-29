@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms
 discoiquuid: 65bd4695-e110-48ba-80ec-2d36bc53ead2
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing with Service Users in AEM Forms

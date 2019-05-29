@@ -62,3 +62,4 @@ index: y
   + [Using PDFG Service in AEM Forms](document-services/using-pdfg-in-aem-forms.md)
   + [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
   + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
+  + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)

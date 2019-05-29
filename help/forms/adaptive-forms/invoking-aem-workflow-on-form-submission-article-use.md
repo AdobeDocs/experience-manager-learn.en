@@ -11,9 +11,6 @@ topic-tags: workflow
 topic-tags: forms
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 1c4822e6-76ce-446b-98cb-408900d68b24
-index: y
-internal: n
-snippet: y
 ---
 
 # Submitting Adaptive Form to AEM Workflow {#submitting-adaptive-form-to-aem-workflow}

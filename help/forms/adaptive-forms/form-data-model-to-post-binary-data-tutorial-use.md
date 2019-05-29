@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 topic-tags: forms
 discoiquuid: 6e99df7d-c030-416b-83d2-24247f673b33
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Form Data Model To Post Binary Data{#using-form-data-model-to-post-binary-data}

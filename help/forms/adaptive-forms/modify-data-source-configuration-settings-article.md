@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 31e297c9-3d12-4a7a-b1ff-1e347e17b24c
 contentOwner: gbedekar
 discoiquuid: de227e8f-0f59-4506-828b-3b6b18b61eb1
-index: y
-internal: n
-snippet: y
 ---
 
 # Ability to modify Data Source Configuration Settings{#ability-to-modify-data-source-configuration-settings}

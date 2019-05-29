@@ -8,9 +8,6 @@ contentOwner: gbedekar
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 discoiquuid: 3400251b-aee0-4d69-994b-e1643fabc868
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Geolocation API's in Adaptive Forms{#using-geolocation-api-s-in-adaptive-forms}

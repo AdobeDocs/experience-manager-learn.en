@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms
 discoiquuid: 41864584-cb99-4c54-abda-8eb83829cb90
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up Data Integration with AEM Forms {#set-up-data-integration-with-aem-forms}

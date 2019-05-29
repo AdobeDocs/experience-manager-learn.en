@@ -13,9 +13,6 @@ products: SG_AEM_6_4_FORMS
 products: SG_AEM_6_5_FORMS
 topic-tags: document_services
 discoiquuid: a12f52af-7039-4452-a58d-9ad2c0096347
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Assembler Service in AEM Forms{#using-assembler-service-in-aem-forms}

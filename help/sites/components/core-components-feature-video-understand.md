@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/SITES
 topic-tags: page-features
 discoiquuid: 07feffa1-c32b-4e36-b852-42b7d44a22c5
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding Core Components{#understanding-core-components}

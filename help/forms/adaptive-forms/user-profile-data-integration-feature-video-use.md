@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms
 discoiquuid: ca01dfce-abab-4bc1-9c5e-3bafdbed4836
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Using User Profile Data Integration with AEM Forms{#using-user-profile-data-integration-with-aem-forms}

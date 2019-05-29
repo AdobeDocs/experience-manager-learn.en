@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: workflow
 discoiquuid: 548fb2ec-cfcf-4fe2-a02a-14f267618d68
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting value of Json Data Element in AEM Forms Workflow {#setting-value-of-json-data-element-in-aem-forms-workflow}

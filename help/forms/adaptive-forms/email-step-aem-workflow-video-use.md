@@ -9,9 +9,6 @@ topic-tags: forms
 topic-tags: adaptive_forms
 topic-tags: workflow
 discoiquuid: 3a11f602-2f4c-423a-baef-28824c0325a1
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Send Email Step of  Forms Workflow {#using-send-email-step-of-forms-workflow}

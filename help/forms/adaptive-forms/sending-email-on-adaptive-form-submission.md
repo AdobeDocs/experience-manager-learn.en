@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms
 discoiquuid: 1187357f-2f36-4a04-b708-44bb9c174fb5
-index: y
-internal: n
-snippet: y
 ---
 
 # Sending Email on Adaptive Form Submission {#sending-email-on-adaptive-form-submission}

@@ -13,9 +13,6 @@ topic-tags: document-security
 topic-tags: forms-manager
 discoiquuid: 57f478a9-8495-469e-8a06-ce1251172fda
 targetaudience: target-audience new
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing with Output and Forms Services in AEM Forms{#developing-with-output-and-forms-services-in-aem-forms}

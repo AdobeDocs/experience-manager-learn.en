@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 topic-tags: forms
 discoiquuid: e748b7c3-99c9-4caa-98b1-4433046c24b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Child Panels to Root Panel {#adding-child-panels-to-root-panel}

@@ -9,9 +9,6 @@ topic-tags: forms
 topic-tags: adaptive_forms
 discoiquuid: 5e184e44-e385-4df7-b7ed-085239f2a642
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Using CAPTCHAs with AEM Adaptive Forms{#using-captchas-with-aem-adaptive-forms}
