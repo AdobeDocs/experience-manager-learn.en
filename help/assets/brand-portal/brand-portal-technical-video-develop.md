@@ -58,7 +58,7 @@ public class BrandPortalSyncProcess implements WorkflowProcess {
 >
 >Remember, the `DAMSyncService` APIs use the usual asynchronous, job-based replication to publish assets to Brand Portal.
 >
->To understand the ramifications of this, please read through [Understanding Brand Portal with AEM Assets](../../assets/using/brand-portal-article-understand.md).
+>To understand the ramifications of this, please read through [Understanding Brand Portal with AEM Assets](brand-portal-article-understand.md).
 
 ## Asset folder mpConfig property {#asset-folder-mpconfig-property}
 
@@ -92,6 +92,5 @@ Caused by: java.lang.NullPointerException: null
 
 * [DamSyncService API Java Docs](https://docs.adobe.com/docs/en/aem/6-2/develop/ref/javadoc/com/adobe/cq/dam/mac/sync/api/DAMSyncService.html)
 * [WorkflowProcess API Java Docs](https://docs.adobe.com/docs/en/aem/6-2/develop/ref/javadoc/com/adobe/granite/workflow/exec/WorkflowProcess.html)
-
 * [AEM Assets Brand Portal Adobe Docs](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html)
 * [Brand Portal Sync Workflow Process code](https://github.com/Adobe-Consulting-Services/acs-aem-commons/blob/master/bundle/src/main/java/com/adobe/acs/commons/workflow/process/impl/BrandPortalSyncProcess.java)
