@@ -35,7 +35,7 @@ External users refers to users accessing Brand Portal via the Link Share, authen
 
 ![Brand Portal Integration Architecture](assets/brand-portal---integration-architecture.png)
 
-Download[Brand Portal Integration Architecture](brand-portal-article-understand/_jcr_content/main-pars/image_317889349.img.png/Brand%20Portal%20-%20Integration%20Architecture.png)
+Download [Brand Portal Integration Architecture](assets/brand-portal---integration-architecture.png)
 
 AEM Assets Brand Portal is an Adobe provided SaSS service that facilitates the secure, scalable and controlled distribution of approved brand assets via an internet facing web property.
 
@@ -43,7 +43,7 @@ AEM Assets is used in conjunction with AEM Author 6.2 or greater, which publishe
 
 >[!NOTE]
 >
->AEM Author uses replication to the Brand Portal cloud service, therefore all the general considerations wrt to the publication of assets apply.
+>AEM Author uses replication to the Brand Portal cloud service, therefore all the general considerations with respect to the publication of assets apply.
 >
 >Bulk publication of assets, usually via large Folder publication, can result in:
 >
