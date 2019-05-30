@@ -93,5 +93,5 @@ Caused by: java.lang.NullPointerException: null
 * [DamSyncService API Java Docs](https://docs.adobe.com/docs/en/aem/6-2/develop/ref/javadoc/com/adobe/cq/dam/mac/sync/api/DAMSyncService.html)
 * [WorkflowProcess API Java Docs](https://docs.adobe.com/docs/en/aem/6-2/develop/ref/javadoc/com/adobe/granite/workflow/exec/WorkflowProcess.html)
 
-* [AEM Assets Brnad Portal Adobe Docs](/content/help/en/experience-manager/brand-portal/using/brand-portal)
+* [AEM Assets Brand Portal Adobe Docs](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html)
 * [Brand Portal Sync Workflow Process code](https://github.com/Adobe-Consulting-Services/acs-aem-commons/blob/master/bundle/src/main/java/com/adobe/acs/commons/workflow/process/impl/BrandPortalSyncProcess.java)

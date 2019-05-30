@@ -21,7 +21,7 @@ Materials for both the functional and technical understanding AEM Assets Brand P
 
 ## AEM Assets Brand Portal feature map {#aem-assets-brand-portal-feature-map}
 
-*Adobe Docs includes [Brand Portal documentation](/content/help/en/experience-manager/brand-portal/using/brand-portal) that explains in detail how to use capabilities in Brand Portal.*
+*Adobe Docs includes [Brand Portal documentation](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html) that explains in detail how to use capabilities in Brand Portal.*
 ![Brand Portal Feature Map](assets/brand_portal_-_featuremap-2017-11-08.png)
 
 Click to Download [Brand Portal Feature Map](assets/brand_portal_-_featuremap-2017-11-08-1.png)
