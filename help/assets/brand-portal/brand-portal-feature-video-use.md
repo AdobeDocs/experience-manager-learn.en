@@ -203,13 +203,10 @@ Brand Portal 6.3.1 includes new and enhanced functionality oriented toward align
 
 ## Supporting materials {#supporting-materials}
 
-* [Setup Brand Portal with AEM Assets](../../assets/using/brand-portal-technical-video-setup.md)
-* [AEM Author replication agents](/content/help/en/experience-manager/6-4/assets/using/brand-portal-configuring-integration#main-pars_procedure_2)
-
+* [Setup Brand Portal with AEM Assets](brand-portal-technical-video-develop.md)
+* [AEM Author replication agents](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 * [Download Aspera Connect](https://downloads.asperasoft.com/connect2/)
 * [Guide to Accelerated Download](https://helpx.adobe.com/experience-manager/brand-portal/using/accelerated-download.html#main-pars_header)
-
-* [AEM Assets Brand Portal Adobe Docs](/content/help/en/experience-manager/brand-portal/user-guide)
+* [AEM Assets Brand Portal Adobe Docs](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html)
 * [AEM Assets Dynamic Media Adobe Docs](https://docs.adobe.com/docs/en/aem/6-3/author/assets/dynamic-media.html)
-
 * [Aspera Connect Test Server](https://test-connect.asperasoft.com/)
