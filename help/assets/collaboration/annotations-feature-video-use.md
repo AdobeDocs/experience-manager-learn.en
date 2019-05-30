@@ -35,7 +35,9 @@ AEM Assets provides annotation capabilities to allow users to collaborate and re
 
 To customize PDF annotations, create a **sling:OsgiConfig** node in your AEM project under
 
-**/apps/&lt;my-project&gt;/config.author/com.day.cq.dam.core.impl.annotation.pdf.AnnotationPdfConfig.xml** and adjust the values as needed.
+```xml
+**/apps/my-project/config.author/com.day.cq.dam.core.impl.annotation.pdf.AnnotationPdfConfig.xml ** and adjust the values as needed.
+```
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
