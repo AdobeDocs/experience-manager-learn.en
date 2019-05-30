@@ -231,4 +231,5 @@ public class CampaignServiceImpl implements CampaignService {
 ```
 
 ## Generate Access Token {#generate-access-token}
+
 We then exchange the generated JWT for an Access Token by making a POST call. This Access Token will then be sent as an Authorization key in the HTTP Header for subsequent REST calls
