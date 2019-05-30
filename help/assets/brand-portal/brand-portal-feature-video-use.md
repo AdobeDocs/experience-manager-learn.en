@@ -36,9 +36,7 @@ Read on to know more about partial text search and wildcard search.
 
 You can now search for assets by specifying only a part—that is a word or two—of the searched phrase in filtering pane.
 
-#### Use case
-
-Partial phrase search is helpful when you are unsure of the exact combination of words occurring in the searched phrase.
+**Use case** : Partial phrase search is helpful when you are unsure of the exact combination of words occurring in the searched phrase.
 
 For example, if your search form in Brand Portal uses Property Predicate for partial search on assets title, then specifying the term camp returns all the assets with the word camp in their title phrase.
 
@@ -46,9 +44,7 @@ For example, if your search form in Brand Portal uses Property Predicate for par
 
 The Brand Portal allows using the asterisk (*) in search query along with a part of the word in your searched phrase.
 
-#### Use case
-
-If you are not sure of the exact words occurring in the searched phrase, you can use a wildcard search to fill the gaps in your search query.
+**Use case** :If you are not sure of the exact words occurring in the searched phrase, you can use a wildcard search to fill the gaps in your search query.
 
 For example, specifying climb* returns all the assets having words beginning with the characters climb in their title phrase if search form in Brand Portal uses Property Predicate for partial search on assets title.
 
@@ -64,7 +60,6 @@ Administrators can now configure how the folders are shown to non-admin users (E
 
 * Enabled, the folder tree starting from the root folder is visible to non-admin users. Thus, granting them a navigation experience similar to administrators.
 * Disabled, only the shared folders are displayed on the landing page.
-* The use case
 
 [Enable Folder Hierarchy](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-general-configuration.html) functionality (when enabled) helps you differentiate the folders with the same names shared from different hierarchies. On logging in, non-admin users now see the virtual parent (and ancestor) folders of the shared folders.
 
@@ -77,8 +72,6 @@ Note that the default thumbnail of the virtual folders is the thumbnail image of
 Users whose AEM Author instance is on Dynamic Media hybrid mode can preview and download the dynamic media renditions, in addition to the original video files.
 
 To allow preview and download of dynamic media renditions on specific tenant accounts, administrators need to specify Dynamic Media Configuration (video service URL (DM-Gateway URL) and registration ID to fetch the dynamic video) in Video configuration from admin tools panel.
-
-#### Use case
 
 Dynamic Media videos can be previewed on:
 
@@ -106,9 +99,7 @@ For example, an organization with existing domain geomettrix.brand-portal.adobe.
 
 However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
 
-#### Use case
-
-Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.
+**Use case** : Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.
 
 ## Brand Portal 6.4.2 features and enhancements {#brand-portal-features-and-enhancements-642}
 
@@ -198,8 +189,9 @@ Brand Portal 6.3.1 includes new and enhanced functionality oriented toward align
 * Update and preview custom wallpaper for your brand
 * Usage report to know about the number of users, storage space used and total assets.
 
+### Feature summary of AEM Assets Brand Portal 6.3.1
 
-### [Feature summary of AEM Assets Brand Portal 6.3.1](https://helpx.adobe.com/experience-manager/brand-portal/using/whats-new.html#Whatchangedin631)
+[What has changed in Brand Portal 6.3.1](https://helpx.adobe.com/experience-manager/brand-portal/using/whats-new.html#Whatchangedin631)
 
 ## Supporting materials {#supporting-materials}
 
