@@ -3,20 +3,11 @@ title: Generating JSON Web Token and Access Token
 seo-title: Generating JSON Web Token and Access Token 
 description: This article explains the code neede to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
 seo-description: This article explains the code neede to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
-uuid: 5b780eee-1e7c-4e1c-a164-49ce64939b91
-contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-products: SG_CAMPAIGN/STANDARD
-topic-tags: adaptive_forms
-discoiquuid: cc268946-a7e4-42b3-bfad-5509e215871a
-index: y
-internal: n
-snippet: y
 ---
 
 # Generating JSON Web Token and Access Token {#generating-json-web-token-and-access-token}
 
-This article explains the code neede to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
+This article explains the code needed to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
 
 ## Generate JSON Web Token {#generate-json-web-token}
 
@@ -238,5 +229,6 @@ public class CampaignServiceImpl implements CampaignService {
  }
 
 ```
+
 ## Generate Access Token {#generate-access-token}
 We then exchange the generated JWT for an Access Token by making a POST call. This Access Token will then be sent as an Authorization key in the HTTP Header for subsequent REST calls
