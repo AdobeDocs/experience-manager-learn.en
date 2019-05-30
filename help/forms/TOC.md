@@ -55,7 +55,8 @@ index: y
 
 + AEM Forms with Adobe Campaign Standard{#aem-forms-with-adobe-campaign}
   + [Introduction](aem-forms-with-adobe-campaign/aem-forms-with-campaign-standard-getting-started-tutorial.md)
-  + [Part1](aem-forms-with-adobe-campaign/Part1.md)
+  + [Part1](aem-forms-with-adobe-campaign/partone.md)
+  + [Part2](aem-forms-with-adobe-campaign/parttwo.md)
   
 + Document Services {#document-services}
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
