@@ -52,7 +52,7 @@ index: y
   + [Using Source File Translation](translation/source-file-translation-feature-video-use.md)
 + Deployment {#deployment}
   + [Understanding Multi-tenancy and Concurrent Development](deployment/multitenancy-concurrent-development.md)
-  + [Using Remote DAM](deployment/remote-dam-feature-video-use.md)
+  + [Using Connected Assets](deployment/connected-assets-feature-video-use.md)
 + Analytics {analytics}
   + [Asset Reports](analytics/asset-reports-feature-video-use.md)
   + [Asset Insights with DTM](analytics/asset-insights-tutorial-setup.md)
