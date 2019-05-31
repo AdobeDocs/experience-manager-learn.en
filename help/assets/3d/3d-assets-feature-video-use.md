@@ -21,6 +21,6 @@ Adobe Experience Man*a*ger 3D lets you upload, manage, view and render 3D conten
 
 Download [Sample Adobe Logo 3D File](assets/adobe-logo.zip)
 
-## Additional Resources {#additional-resources}
+## Additional Resources{#additional-resources}
 
 * [Set Up 3D in AEM Assets](3d-assets-technical-video-setup.md)

@@ -63,6 +63,6 @@ The following adjustments described above are provided in the attached AEM packa
 
 Download [Smart Tag Score package](assets/aem63-assets-smarttags-showscores-1.0.0.zip)
 
-## Additional Resources {#additional-resources}
+## Additional Resources{#additional-resources}
 
 * [AEM Assets Smart Tags documentation](https://helpx.adobe.com/experience-manager/6-3/assets/using/touch-ui-smart-tags.html)

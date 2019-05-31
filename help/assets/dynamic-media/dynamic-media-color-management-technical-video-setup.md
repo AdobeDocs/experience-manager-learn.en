@@ -121,6 +121,6 @@ The following is the XML template for the Color Management configuration node. T
 | WebUncoated | CMYK | U.S. Web Uncoated v2 |
 | WideGamutRGB | RGB | Wide Gamut RGB |
 
-## Additional Resources {#additional-resources}
+## Additional Resources{#additional-resources}
 
 * [Configuring Dynamic Media Color Management](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaColorManagement)
