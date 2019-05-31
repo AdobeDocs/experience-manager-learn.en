@@ -118,7 +118,7 @@ It is also possible to switch DTM into debug mode with the following Chrome Exte
 _satellite.setDebug(true);
 ```
 
-## Supporting materials {#supporting-materials}
+## Additional Resources{#additional-resources}
 
 * [Adobe Analytics Debugger Chrome Plug-in](https://chrome.google.com/webstore/detail/observepoint-tag-debugger/daejfbkjipkgidckemjjafiomfeabemo?hl=en-US)
 * [Adobe DTM Switch Chrome Plug-in](https://chrome.google.com/webstore/detail/adobe-dtm-switch/nlgdemkdapolikbjimjajpmonpbpmipk?hl=en)

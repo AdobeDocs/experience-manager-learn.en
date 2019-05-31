@@ -33,6 +33,6 @@ Download [Adobe Asset Link Architecture](assets/adobe-asset-link-article-underst
 >
 >Upon expiry of login token, **Steps 1-5** will automatically invoke, authenticating the Adobe Asset Link extension using the Bearer token, and re-issues a new, valid login token.
 
-## Supporting materials {#supporting-materials}
+## Additional Resources{#additional-resources}
 
 * [Adobe Asset Link website](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html)
