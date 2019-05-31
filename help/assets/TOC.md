@@ -29,7 +29,7 @@ index: y
   + [Smart Tags Overview](metadata/smart-tags-feature-video-use.md)
   + [Configure Smart Tags](metadata/smart-tags-technical-video-setup.md)
 + Dynamic Media {#dynamic-media}
-  + [Dynamic Media Overview](dynamic-media/dynamic-media-video-player-feature-video-use.md)
+  + [Dynamic Media Overview](dynamic-media/dynamic-media-overview-feature-video-use.md)
   + [Using Dynamic Media Experience Fragments](dynamic-media/dynamic-media-experience-fragments-feature-video-use.md)
   + [Using Dynamic Media Interactive Video](dynamic-media/dynamic-media-interactive-video-feature-video-use.md)
   + [Using Dynamic Media Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
@@ -52,7 +52,7 @@ index: y
   + [Using Source File Translation](translation/source-file-translation-feature-video-use.md)
 + Deployment {#deployment}
   + [Understanding Multi-tenancy and Concurrent Development](deployment/multitenancy-concurrent-development.md)
-  + [Using Remote DAM](deployment/remote-dam-feature-video-use.md)
+  + [Using Connected Assets](deployment/connected-assets-feature-video-use.md)
 + Analytics {analytics}
   + [Asset Reports](analytics/asset-reports-feature-video-use.md)
   + [Asset Insights with DTM](analytics/asset-insights-tutorial-setup.md)
