@@ -189,12 +189,9 @@ Brand Portal 6.3.1 includes new and enhanced functionality oriented toward align
 * Update and preview custom wallpaper for your brand
 * Usage report to know about the number of users, storage space used and total assets.
 
-### Feature summary of AEM Assets Brand Portal 6.3.1
-
-[What has changed in Brand Portal 6.3.1](https://helpx.adobe.com/experience-manager/brand-portal/using/whats-new.html#Whatchangedin631)
-
 ## Supporting materials {#supporting-materials}
 
+* [What has changed in Brand Portal 6.3.1](https://helpx.adobe.com/experience-manager/brand-portal/using/whats-new.html#Whatchangedin631)
 * [Setup Brand Portal with AEM Assets](brand-portal-technical-video-develop.md)
 * [AEM Author replication agents](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 * [Download Aspera Connect](https://downloads.asperasoft.com/connect2/)
