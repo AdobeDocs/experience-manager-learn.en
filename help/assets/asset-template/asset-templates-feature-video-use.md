@@ -19,7 +19,7 @@ AEM Assets Template lets marketers create, manage and deliver digital assets for
 
 >[!NOTE]
 >
->For steps on configuring InDesign Server please review [Set up Assets Templates with InDesign Server](../../assets/using/asset-templates-technical-video-setup.md).
+>For steps on configuring InDesign Server please review [Set up Assets Templates with InDesign Server](asset-templates-technical-video-setup.md).
 
 ## Overview {#overview}
 
