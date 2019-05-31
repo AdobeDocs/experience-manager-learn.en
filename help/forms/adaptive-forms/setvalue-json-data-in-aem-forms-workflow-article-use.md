@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: workflow
 discoiquuid: 548fb2ec-cfcf-4fe2-a02a-14f267618d68
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting value of Json Data Element in AEM Forms Workflow {#setting-value-of-json-data-element-in-aem-forms-workflow}
@@ -40,7 +37,7 @@ Please take a look at the rules set against "Initial Step". Based on the value o
 
 To deploy the assets on your local system:
 
-* [Download and extract the contents of the zip file](assets/setvalueinjsondata.zip)
+* [Download and extract the contents of the zip file](assets/assetssetvalueinjsondata.zip)
   * Point your browser to [package manager](http://localhost:4502/crx/packmgr/index.jsp)
   * Import and install the TimeOffRequestJsonData.zip.This package has the sample workflow model,Form Data Model and sample user used in this workflow.
 * [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted xml data.

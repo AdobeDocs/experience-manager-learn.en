@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 topic-tags: forms
 discoiquuid: 58c6bf42-efe5-41a3-8023-d84f3675f689
-index: y
-internal: n
-snippet: y
 ---
 
 # Submitting To Thank You Page {#submitting-to-thank-you-page}

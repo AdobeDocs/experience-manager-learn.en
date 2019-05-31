@@ -9,9 +9,6 @@ topic-tags: forms
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: f5c9b529-f615-4e47-a0fe-c7412a6d0af2
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Automated Tests with AEM Adaptive Forms {#using-automated-tests-with-aem-adaptive-forms}

@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.3
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: adaptive_forms
 discoiquuid: a78936b4-e817-41a0-86cc-f9ac2d6dd08f
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding Automated Forms Testing with AEM Forms{#understanding-automated-forms-testing-with-aem-forms}

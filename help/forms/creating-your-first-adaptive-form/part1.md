@@ -8,16 +8,13 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms
 topic-tags: adaptive_forms
 discoiquuid: 1c9fb7b6-98dd-4725-b787-ac9e71906500
-index: y
-internal: n
-snippet: y
 ---
 
-# Creating Adaptive Form{#creating-adaptive-form}  
+# Creating Adaptive Form {#creating-adaptive-form}  
 
 In Part1 we will create Adaptive Form, add and configure toolbar with appropriate buttons.
 
-## Creating Adaptive Form {#creating-adaptive-form} 
+
 
 * [Login to your AEM instance](http://localhost:4502/aem/start.html)
 * Click on Forms | Forms & Documents

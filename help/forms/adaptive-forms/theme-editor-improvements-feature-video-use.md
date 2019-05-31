@@ -9,9 +9,6 @@ topic-tags: forms
 topic-tags: adaptive_forms
 discoiquuid: 9ba8c552-bf3f-445c-b0d1-17e62b34f1a2
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Theme Editor Improvements in AEM Forms{#theme-editor-improvements-in-aem-forms}

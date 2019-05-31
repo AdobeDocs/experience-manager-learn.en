@@ -10,9 +10,6 @@ topic-tags: adaptive_forms
 products: SG_ESIGNSERVICES
 discoiquuid: aec562a4-4405-4e6f-9ad5-7477fa1d078f
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Adobe Sign with AEM Forms {#using-adobe-sign-with-aem-forms}

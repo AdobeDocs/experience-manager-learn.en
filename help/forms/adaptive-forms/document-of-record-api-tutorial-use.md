@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms
 topic-tags: adaptive_forms
 discoiquuid: ba91d9df-dc61-47d8-8e0a-e3f66cae6a87
-index: y
-internal: n
-snippet: y
 ---
 
 # Using API to generate Document of Record in AEM Forms {#using-api-to-generate-document-of-record-with-aem-forms}

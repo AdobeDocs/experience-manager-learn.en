@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 topic-tags: document_services
 discoiquuid: 1224de6d-7ca1-4e9d-85fe-cd675d03e262
-index: y
-internal: n
-snippet: y
 ---
 
 # Barcode Service With Adaptive Forms{#barcode-service-with-adaptive-forms}

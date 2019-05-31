@@ -9,9 +9,6 @@ contentOwner: gbedekar
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 discoiquuid: 53961454-633b-4cd8-aef7-e64ab4e528e4
-index: y
-internal: n
-snippet: y
 ---
 
 # Tagging and Storing AEM Forms DoR in DAM {#tagging-and-storing-aem-forms-dor-in-dam}

@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 topic-tags: forms
 discoiquuid: 9e936885-4e10-4c05-b572-b8da56fcac73
-index: y
-internal: n
-snippet: y
 ---
 
 # Submitting Adaptive Form to External Server {#submitting-adaptive-form-to-external-server}

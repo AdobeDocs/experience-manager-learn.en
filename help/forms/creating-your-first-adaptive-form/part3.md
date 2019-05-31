@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms
 topic-tags: adaptive_forms
 discoiquuid: 520c8633-925f-4d3f-b800-ea34710f68d7
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding components to People panel {#adding-components-to-people-panel}

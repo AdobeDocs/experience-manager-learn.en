@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 discoiquuid: 28611011-2ff9-477e-b654-e62e7374096a
-index: y
-internal: n
-snippet: y
 ---
 
 # Writing a Custom Submit in AEM Forms {#writing-a-custom-submit-in-aem-forms}

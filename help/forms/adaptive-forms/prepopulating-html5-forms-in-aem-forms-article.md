@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 products: SG_EXPERIENCEMANAGER/6.2/FORMS
 discoiquuid: 3aa645c9-941e-4b27-a538-cca13574b21c
-index: y
-internal: n
-snippet: y
 ---
 
 # PrePopulate HTML5 Forms using data attribute {#prepopulate-html-forms-using-data-attribute}

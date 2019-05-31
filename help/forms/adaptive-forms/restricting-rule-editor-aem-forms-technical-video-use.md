@@ -9,9 +9,6 @@ topic-tags: forms
 topic-tags: adaptive_forms
 discoiquuid: 5aa35204-1c6d-4a1e-b8cd-79170653471a
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Restricting the Rule Editor to specific groups in AEM Forms {#restricting-the-rule-editor-to-specific-groups-in-aem-forms}

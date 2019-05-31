@@ -44,6 +44,20 @@ index: y
   + [Modify Data Source Configuration](adaptive-forms/modify-data-source-configuration-settings-article.md)
   + [Pre-Populating HTML5 Forms](adaptive-forms/prepopulating-html5-forms-in-aem-forms-article.md)
 
+
++ Creating Your First Adaptive Form {#creating-your-first-adaptive-form}
+  + [Part1 -  Create Adaptive Form](creating-your-first-adaptive-form/part1.md)
+  + [Part2 - Configuring root panel and adding child panel](creating-your-first-adaptive-form/part2.md)
+  + [Part3 - Adding components to People panel](creating-your-first-adaptive-form/part3.md)
+  + [Part4 - Adding table to income panel](creating-your-first-adaptive-form/part4.md)
+  + [Part5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
+  + [Part6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
+
++ AEM Forms with Adobe Campaign Standard{#aem-forms-with-adobe-campaign}
+  + [Introduction](aem-forms-with-adobe-campaign/aem-forms-with-campaign-standard-getting-started-tutorial.md)
+  + [Part1](aem-forms-with-adobe-campaign/partone.md)
+  + [Part2](aem-forms-with-adobe-campaign/parttwo.md)
+  
 + Document Services {#document-services}
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
   + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
@@ -51,3 +65,4 @@ index: y
   + [Using PDFG Service in AEM Forms](document-services/using-pdfg-in-aem-forms.md)
   + [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
   + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
+  + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)

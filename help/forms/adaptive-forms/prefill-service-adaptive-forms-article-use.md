@@ -11,9 +11,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: adaptive_forms
 discoiquuid: 936ea5e9-f5f0-496a-9188-1a8ffd235ee5
-index: y
-internal: n
-snippet: y
 ---
 
 # UsingPrefill Service in Adaptive Forms

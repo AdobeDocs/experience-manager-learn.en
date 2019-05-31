@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 topic-tags: forms
 discoiquuid: 37c039c4-422a-4836-8aa5-ba0459d342cc
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding components to Assets section {#adding-components-to-assets-section}

@@ -7,9 +7,6 @@ uuid: e6133f7e-c79c-4006-89e7-3bebf7b8229e
 contentOwner: gbedekar
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1abdf07a-b9f0-4c58-a1c6-08ae57db2014
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Transaction Reporting in AEM Forms{#using-transaction-reporting-in-aem-forms}

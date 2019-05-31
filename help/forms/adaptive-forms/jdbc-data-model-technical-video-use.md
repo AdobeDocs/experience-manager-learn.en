@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms
 discoiquuid: 4e5f947c-b49a-423e-9139-51c0c5648318
 targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Using JDBC-based Form Data Models with AEM Forms {#using-jdbc-based-form-data-models-with-aem-forms}

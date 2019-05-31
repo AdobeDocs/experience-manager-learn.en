@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/FORMS
 topic-tags: adaptive_forms
 topic-tags: authoring
 discoiquuid: 7a7bad50-c604-4182-accb-acb85571ba78
-index: y
-internal: n
-snippet: y
 ---
 
 # Form Editor Improvements in AEM Forms {#form-editor-improvements-in-aem-forms}

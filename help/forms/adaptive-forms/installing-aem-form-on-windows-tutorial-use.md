@@ -7,9 +7,6 @@ uuid: a148b8f0-83db-47f6-89d3-c8a9961be289
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 1182ef4d-5838-433b-991d-e24ab805ae0e
-index: y
-internal: n
-snippet: y
 ---
 # Simplified Steps for Installing AEM Forms on Windows
 

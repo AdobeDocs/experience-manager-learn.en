@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms
 topic-tags: adaptive_forms
 discoiquuid: f480ef3e-7e38-4a6b-a223-c102787aea7f
-index: y
-internal: n
-snippet: y
 ---
 
 # Using functions and code editor {#using-functions-and-code-editor}
