@@ -8,13 +8,24 @@ index: y
 # AEM Assets Videos and Tutorials {#assets}
 
 + [Assets Introduction](introduction.md)
++ Collaboration {#collaboration}
+  + [Using Annotations](collaboration/annotations-feature-video-use.md)
+  + [Using Check-in/Check-out](collaboration/checkin-checkout-feature-video-use.md)
+  + [Understanding Check-in/Check-out](collaboration/checkin-checkout-technical-video-understand.md)
+  + [Using Closed User Groups](collaboration/closed-user-groups-feature-video-use.md)
+  + [Using Review Task](collaboration/review-task-compare-feature-video-use.md)
++ Asset Template {#asset-template}
+  + [Using Asset Templates](asset-template/asset-templates-feature-video-use.md)
+  + [Set up Asset Templates](asset-template/asset-templates-technical-video-setup.md)
+  + [Using Asset Catalogs](asset-template/asset-catalog-template-feature-video-use.md)
+  + [Understanding Asset Templates](asset-template/asset-templates-tutorial-understand.md)
 + Metadata Management {#metadata}
   + [Asset Search](metadata/search-feature-video-use.md)
   + [Cascading Metadata](metadata/cascade-metadata-feature-video-use.md)
   + [Import and Export Metadata](metadata/metadata-import-feature-video-use.md)
   + [Search Boost](metadata/search-boost-technical-video-understand.md)
   + [Enhanced Smart Tags](metadata/enhanced-smart-tags-feature-video-use.md)
-  + [Configure Enhanced Smart Tags](metadata/enhanced-smart-tags-feature-video-use.md)
+  + [Configure Enhanced Smart Tags](metadata/enhanced-smart-tags-technical-video-setup.md)
   + [Smart Tags Overview](metadata/smart-tags-feature-video-use.md)
   + [Configure Smart Tags](metadata/smart-tags-technical-video-setup.md)
 + Dynamic Media {#dynamic-media}
@@ -35,32 +46,14 @@ index: y
   + [Using Adobe Stock](creative-cloud/stock-assets-feature-video-use.md)
   + [Configure Adobe Stock](creative-cloud/adobe-stock-aem-assets-technical-video-setup.md)
   + [Using Desktop App](creative-cloud/aem-desktop-app-sync-status-technical-video-use.md)
-+ Analytics {analytics}
-  + [Asset Reports](analytics/asset-reports-feature-video-use.md)
-  + [Asset Insights with DTM](analytics/asset-insights-tutorial-setup.md)
-  + [Asset Insights with Launch, By Adobe](analytics/asset-insights-launch-tutorial-setup.md)
-+ Brand Portal {brand-portal}
-  + [Using Brand Portal](brand-portal/brand-portal-feature-video-use.md)
-  + [Understanding Brand Portal](brand-portal/brand-portal-article-understand.md)
-  + [Development with Brand Portal](brand-portal/brand-portal-technical-video-develop.md)
-  + [Using Asset Share Commons](brand-portal/asset-share-commons-user-experience-feature-video-understand.md)
-  + [Using Asset Share Commons Themes](brand-portal/asset-share-commons-feature-video-theming.md)
-  + [Set up Asset Share Commons](brand-portal/asset-share-commons-technical-video-setup.md)
-+ Asset Template {#asset-template}
-  + [Using Asset Templates](asset-template/asset-templates-feature-video-use.md)
-  + [Set up Asset Templates](asset-template/asset-templates-technical-video-setup.md)
-  + [Using Asset Catalogs](asset-template/asset-catalog-template-feature-video-use.md)
-  + [Understanding Asset Templates](asset-template/asset-templates-tutorial-understand.md)
-+ Collaboration {#collaboration}
-  + [Using Annotations](collaboration/annotations-feature-video-use.md)
-  + [Using Check-in/Check-out](collaboration/checkin-checkout-feature-video-use.md)
-  + [Understanding Check-in/Check-out](collaboration/checkin-checkout-technical-video-understand.md)
-  + [Using Closed User Groups](collaboration/closed-user-groups-feature-video-use.md)
-  + [Using Review Task](collaboration/review-task-compare-feature-video-use.md)
-+ Deployment {#deployment}
-  + [Understanding Multi-tenancy and Concurrent Development](deployment/multitenancy-concurrent-development.md)
-  + [Using Remote DAM](deployment/remote-dam-feature-video-use.md)
 + Translation {#translation}
   + [Using Smart Translation Search](translation/smart-translation-search-feature-video-use.md)
   + [Set up Smart Translation Search](translation/smart-translation-search-technical-video-setup.md)
   + [Using Source File Translation](translation/source-file-translation-feature-video-use.md)
++ Deployment {#deployment}
+  + [Understanding Multi-tenancy and Concurrent Development](deployment/multitenancy-concurrent-development.md)
+  + [Using Remote DAM](deployment/remote-dam-feature-video-use.md)
++ Analytics {analytics}
+  + [Asset Reports](analytics/asset-reports-feature-video-use.md)
+  + [Asset Insights with DTM](analytics/asset-insights-tutorial-setup.md)
+  + [Asset Insights with Launch, By Adobe](analytics/asset-insights-launch-tutorial-setup.md)
