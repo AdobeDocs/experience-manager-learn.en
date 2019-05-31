@@ -88,7 +88,7 @@ Caused by: java.lang.NullPointerException: null
 
 ```
 
-## Supporting materials {#supporting-materials}
+## Additional Resources {#additional-resources}
 
 * [DamSyncService API Java Docs](https://docs.adobe.com/docs/en/aem/6-2/develop/ref/javadoc/com/adobe/cq/dam/mac/sync/api/DAMSyncService.html)
 * [WorkflowProcess API Java Docs](https://docs.adobe.com/docs/en/aem/6-2/develop/ref/javadoc/com/adobe/granite/workflow/exec/WorkflowProcess.html)

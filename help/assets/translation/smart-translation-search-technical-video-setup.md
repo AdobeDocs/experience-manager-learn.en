@@ -122,7 +122,7 @@ Under `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/predicatedTags`
                         nodeScopeIndex="{Boolean}true"/>
 ```
 
-## Supporting materials {#supporting-materials}
+## Additional Resources {#additional-resources}
 
 * [Apache Oak Search Machine Translation OSGi bundle](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.apache.jackrabbit%22%20AND%20a%3A%22oak-search-mt%22)
 * [Apache Joshua Language Packs](https://cwiki.apache.org/confluence/display/JOSHUA/Language+Packs)

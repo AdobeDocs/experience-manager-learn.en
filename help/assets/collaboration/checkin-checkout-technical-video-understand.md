@@ -161,6 +161,6 @@ Original rendition update skipped...
 
 ```
 
-## Supporting materials {#supporting-materials}
+## Additional Resources {#additional-resources}
 
 * [ACS AEM Tools - AEM Fiddle](https://adobe-consulting-services.github.io/acs-aem-tools/features/aem-fiddle.html)

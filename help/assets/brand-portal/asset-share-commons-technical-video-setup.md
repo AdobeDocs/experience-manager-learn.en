@@ -76,7 +76,7 @@ AIn this video a new theme will be created based on the Asset Share Commons Dark
 
 Download [Custom Client Library Theme](assets/asc-theme-demo.zip)
 
-### Supporting Materials
+## Additional Resources {#additional-resources}
 
 * [Asset Share Commons release downloads](https://github.com/Adobe-Marketing-Cloud/asset-share-commons/releases)
 * [ACS AEM Commons 3.11.0+ release downloads](https://github.com/Adobe-Consulting-Services/acs-aem-commons/releases)

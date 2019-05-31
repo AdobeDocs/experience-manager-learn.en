@@ -34,7 +34,7 @@ This video assumes [AEM Smart Translation Search](smart-translation-search-techn
 3. All translated terms from Step #2 are collected, and the query is augmented internally to include them as search terms. This augmented set of search terms if evaluated normally against AEM's search indexes locating relevant matches.
 4. The search results that match the original term ('hombre') or the translated term ('man') are collected and returned the user as the search results.
 
-## Supporting materials {#supporting-materials}
+## Additional Resources {#additional-resources}
 
 * [Set up Smart Translation Search with AEM Assets](smart-translation-search-technical-video-setup.md)
 * [Apache Joshua Language Packs](https://cwiki.apache.org/confluence/display/JOSHUA/Language+Packs)

@@ -31,7 +31,7 @@ The video provides an abridged walk-through of the user experience for Asset Sha
 
 This video provides an abridged overview of the basic component-authoring capabilities in Asset Share Commons, to provide a sense of the level of author-ability.
 
-### Supporting Materials
+## Additional Resources {#additional-resources}
 
 * [Asset Share Commons release downloads](https://github.com/Adobe-Marketing-Cloud/asset-share-commons/releases)
 * [ACS AEM Commons 3.11.0+ release downloads](https://github.com/Adobe-Consulting-Services/acs-aem-commons/releases)

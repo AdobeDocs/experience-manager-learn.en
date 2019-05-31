@@ -57,6 +57,6 @@ The following formulas are used in the video to generate the Assets by Size char
 =COUNTIFS(E2:E1000,"> 500000")
 ```
 
-## Supporting materials {#supporting-materials}
+## Additional Resources {#additional-resources}
 
 Download [All Assets Excel File with Chart](assets/all-assets.xlsx)

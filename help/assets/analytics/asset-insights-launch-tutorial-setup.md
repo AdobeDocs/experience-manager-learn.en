@@ -200,6 +200,6 @@ Configuring AEM Asset Reporting Sync Job Scheduler and Assets Insights Report
 
 >[!VIDEO](https://video.tv.adobe.com/v/25947/?quality=12)
 
-## Supporting Materials
+## Additional Resources {#additional-resources}
 
 * [Set up Asset Insights with AEM Assets using Dynamic Tag Management](asset-insights-tutorial-setup.md)
