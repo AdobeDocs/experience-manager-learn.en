@@ -47,6 +47,10 @@ index: y
   + [Using Asset Share Commons Themes](brand-portal/asset-share-commons-feature-video-theming.md)
   + [Set up Asset Share Commons](brand-portal/asset-share-commons-technical-video-setup.md)
 + Asset Template {#asset-template}
+  + [Using Asset Templates](asset-template/asset-templates-feature-video-use.md)
+  + [Set up Asset Templates](asset-template/asset-templates-technical-video-setup.md)
+  + [Using Asset Catalogs](asset-template/asset-catalog-template-feature-video-use.md)
+  + [Understanding Asset Templates](asset-template/asset-templates-tutorial-understand.md)
 + Collaboration {#collaboration}
   + [Using Annotations](collaboration/annotations-feature-video-use.md)
   + [Using Check-in/Check-out](collaboration/checkin-checkout-feature-video-use.md)
