@@ -11,7 +11,7 @@ topic-tags: smart-tags
 discoiquuid: 72c53bc9-1ba1-44bf-881f-91bb74cf8f0e
 ---
 
-# Setup Enhanced Smart Tags in AEM Assets{#setup-enhanced-smart-tags-in-aem-assets}
+# Setup Enhanced Smart Tags in AEM Assets
 
 Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service and Adobe I/O.
 
