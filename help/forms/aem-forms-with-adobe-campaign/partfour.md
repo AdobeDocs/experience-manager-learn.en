@@ -104,7 +104,7 @@ Sample swagger file is given to you as part of the asset's related to this artic
 
 To test the solution please follow the following steps:
 
-* [Download and unzip the assets related to this article.]((assets/osgibundles.zip))
+* [Download and unzip the assets related to this article.](assets/osgibundles.zip)
 * Deploy the OSGi bundle using the Felix web console in AEM.
 * [Download and unzip this file to get the swagger file](assets/createacsprofile.zip)
 * Create Data Source using the swagger file
