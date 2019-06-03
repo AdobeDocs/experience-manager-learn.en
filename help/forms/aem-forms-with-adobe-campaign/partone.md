@@ -1,8 +1,8 @@
 ---
 title: Generating JSON Web Token and Access Token 
 seo-title: Generating JSON Web Token and Access Token 
-description: This article explains the code neede to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
-seo-description: This article explains the code neede to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
+description: This article explains the code needed to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
+seo-description: This article explains the code needed to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
 ---
 
 # Generating JSON Web Token and Access Token {#generating-json-web-token-and-access-token}
@@ -15,7 +15,7 @@ The first step in using Adobe Campaign API is to generate JWT. There are numerou
 
 In order to use ACS API with AEM Forms, we need to create JWT inside an OSGi bundle. The following code snippet was used to generate JWT in this sample OSGI bundle. The details about the ACS instance are fetched from OSGI configuration properties which are set as shown above.
 
-![](assets/campaignconfiguration.gif)
+![configuration](assets/campaignconfiguration.gif)
 
 **A.** The values shown here are dummy values
 
