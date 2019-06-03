@@ -52,6 +52,9 @@ index: y
   + [Part4 - Adding table to income panel](creating-your-first-adaptive-form/part4.md)
   + [Part5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
   + [Part6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
++ Listing Custom Asset Types in Forms Portal{#listing-custom-asset-types}
+  + [Part1-Registering Custom Asset Types](listing-custom-asset-types/part1.md)
+  + [Part2 - Creating Custom Template](listing-custom-asset-types/part2.md)
 
 + AEM Forms with Adobe Campaign Standard{#aem-forms-with-adobe-campaign}
   + [Introduction](aem-forms-with-adobe-campaign/aem-forms-with-campaign-standard-getting-started-tutorial.md)
