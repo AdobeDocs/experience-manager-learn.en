@@ -13,11 +13,11 @@ Using the Form Data Model of AEM Forms we can now integrate AEM Form with Market
 
 [Learn more about the Form Data Model](https://helpx.adobe.com/experience-manager/6-5/forms/using/data-integration.html)
 
-Marketo exposes a REST API which allows for remote execution of many of the system’s capabilities.  From creating programs to bulk lead import, there are a large number of options which allow fine-grained control of a Marketo instance. Using the Form Data Model it is quite simple to integrate AEM Forms with Marketo.
+Marketo exposes a REST API which allows for remote execution of many of the system’s capabilities. From creating programs to bulk lead import, there are many options which allow fine-grained control of a Marketo instance. Using the Form Data Model it is quite simple to integrate AEM Forms with Marketo.
 
 This tutorial will walk you through the steps involved in integrating AEM Forms with Marketo using Form Data Model. On completing the tutorial you will have an OSGi bundle that will do the custom authentication against Marketo. You will also have configured data source using the provided swagger file.
 
-Before you get started it is highly recommended that you are familiar with the following topics listed in the Prerequisite section.
+To get started it is highly recommended that you are familiar with the following topics listed in the Prerequisite section.
 
 ## Prerequisite
 
