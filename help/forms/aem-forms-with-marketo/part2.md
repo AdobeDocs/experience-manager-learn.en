@@ -4,7 +4,7 @@ seo-title: AEM Forms with Marketo(Part 2)
 description: Tutorial to integrate AEM Forms with Marketo using AEM Forms Form Data Model.
 seo-description:Tutorial to integrate AEM Forms with Marketo using AEM Forms Form Data Model.
 ---
-### Marketo Authentication Service
+# Marketo Authentication Service
 
 Marketo’s REST APIs are authenticated with 2-legged OAuth 2.0. We need to create custom authentication to authenticate against Marketo. This custom authentication is typically written inside an OSGI bundle. The following code shows the custom authenticator that was used as part of this tutorial.
 
@@ -119,7 +119,9 @@ The screen-shot below shows the configuration properties that need to be set. Th
 ![config](assets/marketoconfig.jfif)
 ### Configuration
 The following code was used to create the configuration properties. These properties are specific to your Marketo instance
+
 ``` java{.line-numbers}
+
 package com.marketoandforms.core;
  
 import org.osgi.service.metatype.annotations.AttributeDefinition;
@@ -136,6 +138,7 @@ public @interface MarketoConfiguration {
       @AttributeDefinition(name="Client Secret", description="Client Secret")
       String clientSecret() default "";
 }
+
 ```
 
 The following code reads the configuration properties and returns the same via the getter methods
@@ -182,6 +185,7 @@ public class MarketoConfigurationService {
         return CLIENT_SECRET;
     }
 }
+
 ```
 
 1. Build and deploy the bundle onto your AEM server.
