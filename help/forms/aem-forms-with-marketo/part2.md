@@ -4,6 +4,7 @@ seo-title: AEM Forms with Marketo(Part 2)
 description: Tutorial to integrate AEM Forms with Marketo using AEM Forms Form Data Model.
 seo-description:Tutorial to integrate AEM Forms with Marketo using AEM Forms Form Data Model.
 ---
+### Marketo Authentication Service
 
 Marketo’s REST APIs are authenticated with 2-legged OAuth 2.0. We need to create custom authentication to authenticate against Marketo. This custom authentication is typically written inside an OSGI bundle. The following code shows the custom authenticator that was used as part of this tutorial.
 
