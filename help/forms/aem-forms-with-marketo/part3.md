@@ -5,7 +5,7 @@ description: Tutorial to integrate AEM Forms with Marketo using AEM Forms Form D
 seo-description:Tutorial to integrate AEM Forms with Marketo using AEM Forms Form Data Model.
 ---
 
-### Configure Data Source
+# Configure Data Source
 
 AEM Forms Data Integration allows you to configure and connect to disparate data sources. The following types are supported out-of-the-box. However, with a little customization, you can integrate with other data sources as well.
 
@@ -22,7 +22,7 @@ The "marketo.json" is the swagger file and is provided to you as part of this tu
 The Host property is specific to your Marketo instance.
 Authentication Type is custom and Authentication Implementation has to match "AemForms With Marketo". (Unless you have changed this in your code).
 
-### Create Form Data Model
+## Create Form Data Model
 
 After configuring the data source the next step is to create a Form Data Model which is based on the data source configured in the earlier step. To create Form Data Model please follow the following steps:
 

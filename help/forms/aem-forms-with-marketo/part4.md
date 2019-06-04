@@ -5,7 +5,7 @@ description: Tutorial to integrate AEM Forms with Marketo using AEM Forms Form D
 seo-description:Tutorial to integrate AEM Forms with Marketo using AEM Forms Form Data Model.
 ---
 
-### Creating Adaptive Form using Form Data Model
+# Creating Adaptive Form using Form Data Model
 
 The next step is to create an Adaptive Form and base it on the  Form Data Model created in the earlier step.
 The user will enter the Lead Id  and on tabbing out the Marketo service to get the leads by id will be invoked. The results of the service operation are then mapped to the appropriate fields of the Adaptive Forms.
