@@ -55,13 +55,18 @@ index: y
 + Listing Custom Asset Types in Forms Portal{#listing-custom-asset-types}
   + [Part1-Registering Custom Asset Types](listing-custom-asset-types/part1.md)
   + [Part2 - Creating Custom Template](listing-custom-asset-types/part2.md)
++ AEM Forms With Marketo{#aem-forms-with-marketo}
+  + [Part1- Inroduction](aem-forms-with-marketo/part1.md)
+  + [Part2 - Custom Authentication ](aem-forms-with-marketo/part2.md)
+  + [Part3 - Data Source](aem-forms-with-marketo/part3.md)
+  + [Part4 - Putting it all together](aem-forms-with-marketo/part4.md)
 
 + AEM Forms with Adobe Campaign Standard{#aem-forms-with-adobe-campaign}
   + [Introduction](aem-forms-with-adobe-campaign/aem-forms-with-campaign-standard-getting-started-tutorial.md)
-  + [Part1](aem-forms-with-adobe-campaign/partone.md)
-  + [Part2](aem-forms-with-adobe-campaign/parttwo.md)
-  + [Part3](aem-forms-with-adobe-campaign/partthree.md)
-  + [Part4](aem-forms-with-adobe-campaign/partfour.md)
+  + [Part1 - Generating Tokens](aem-forms-with-adobe-campaign/partone.md)
+  + [Part2 - Creating ACS Profile on Form Submission](aem-forms-with-adobe-campaign/parttwo.md)
+  + [Part3 - Pre-filling Form using ACS Profile Information](aem-forms-with-adobe-campaign/partthree.md)
+  + [Part4 - Create ACS Profile using Form Data Model](aem-forms-with-adobe-campaign/partfour.md)
   
 + Document Services {#document-services}
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
