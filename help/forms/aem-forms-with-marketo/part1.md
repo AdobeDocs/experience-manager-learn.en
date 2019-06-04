@@ -21,7 +21,7 @@ Before you get started it is highly recommended that you are familiar with the f
 
 ## Prerequisite
 
- 1. [AEM server  with AEM Forms Add on package installed](/adaptive-forms/installing-aem-form-on-windows-tutorial-use.md)
+ 1. [AEM server  with AEM Forms Add on package installed](/help/forms/adaptive-forms/installing-aem-form-on-windows-tutorial-use.md)
  1. Local AEM  Development Environment
  1. Familiar with Form Data Model
  1. Basic knowledge of Swagger Files
