@@ -58,7 +58,7 @@ The result of this query is then returned to populate the table in the UI.
 
 To get this sample running on your local system please perform the following steps
 
-1. [Make sure you have followed all the steps mentioned here](querying-submitted-data/part2.md) 
+1. [Make sure you have followed all the steps mentioned here](part2.md) 
 1. [Import the Dashboardv2.zip using AEM Package Manager.](assets/dashboardv2.zip) This package contains all the necessary bundles,configuration settings, custom submit and sample page to query data.
 1. Create a Adaptive Form using the sample json schema
 1. Configure the Adaptive Form to submit to "customsubmithelpx" custom submit action
