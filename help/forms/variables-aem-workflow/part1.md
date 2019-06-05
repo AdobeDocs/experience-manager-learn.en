@@ -24,11 +24,12 @@ The adaptive form data is stored under the data element as shown above. **_In th
 >[!NOTE]
 When you are creating a variable of type XML to capture the submitted data in your workflow model, please do not associate the XSD with the variable. This is because when you submit XSD based Adaptive Form the submitted data is not compliant with the XSD. The XSD complaint data is enclosed in /afData/afBoundData/ element.
 
-### Creating XML Variables
+## Creating XML Variables
 
 >[!VIDEO](https://video.tv.adobe.com/v/26440?quality=12?autoplay=1)
 
 ### Using the variable in send email
+
 >[!VIDEO](https://video.tv.adobe.com/v/26441?quality=12)
 
 To get the assets working on your system, please follow the following steps:
