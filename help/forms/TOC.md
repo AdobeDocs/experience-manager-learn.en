@@ -59,7 +59,12 @@ index: y
   + [Document Variables](variables-aem-workflow/part3.md)
   + [ArrayList Variable](variables-aem-workflow/part4.md)
   + [Rule Editor in AEM Workflow](variables-aem-workflow/part5.md)
-
++ Querying Submitted Data{#querying-submitted-data}
+  + [Introduction](querying-submitted-data/introduction.md)
+  + [Creating Form based on JSON Schema](querying-submitted-data/part1.md)
+  + [Store the submitted data](querying-submitted-data/part2.md)
+  + [Store the JSON Schema](querying-submitted-data/part3.md)
+  + [Query the submitted data](querying-submitted-data/part4.md)
 + Listing Custom Asset Types in Forms Portal{#listing-custom-asset-types}
   + [Part1-Registering Custom Asset Types](listing-custom-asset-types/part1.md)
   + [Part2 - Creating Custom Template](listing-custom-asset-types/part2.md)
