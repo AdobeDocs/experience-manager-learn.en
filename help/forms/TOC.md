@@ -46,18 +46,31 @@ index: y
 
 
 + Creating Your First Adaptive Form {#creating-your-first-adaptive-form}
-  + [Part1 -  Create Adaptive Form](creating-your-first-adaptive-form/part1.md)
+  + [Part1- Create Adaptive Form](creating-your-first-adaptive-form/part1.md)
   + [Part2 - Configuring root panel and adding child panel](creating-your-first-adaptive-form/part2.md)
   + [Part3 - Adding components to People panel](creating-your-first-adaptive-form/part3.md)
   + [Part4 - Adding table to income panel](creating-your-first-adaptive-form/part4.md)
   + [Part5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
   + [Part6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
++ Variables in AEM Workflow{#variables-aem-workflow}
+  + [Introduction - Variables in Workflow](variables-aem-workflow/introduction.md)
+  + [XML Variables](variables-aem-workflow/part1.md)
+  + [JSON Variables](variables-aem-workflow/part2.md)
+  + [Document Variables](variables-aem-workflow/part3.md)
+  + [ArrayList Variable](variables-aem-workflow/part4.md)
+  + [Rule Editor in AEM Workflow](variables-aem-workflow/part5.md)
++ Querying Submitted Data{#querying-submitted-data}
+  + [Introduction](querying-submitted-data/introduction.md)
+  + [Creating Form based on JSON Schema](querying-submitted-data/part1.md)
+  + [Store the submitted data](querying-submitted-data/part2.md)
+  + [Store the JSON Schema](querying-submitted-data/part3.md)
+  + [Query the submitted data](querying-submitted-data/part4.md)
 + Listing Custom Asset Types in Forms Portal{#listing-custom-asset-types}
   + [Part1-Registering Custom Asset Types](listing-custom-asset-types/part1.md)
   + [Part2 - Creating Custom Template](listing-custom-asset-types/part2.md)
 + AEM Forms With Marketo{#aem-forms-with-marketo}
   + [Part1- Inroduction](aem-forms-with-marketo/part1.md)
-  + [Part2 - Custom Authentication ](aem-forms-with-marketo/part2.md)
+  + [Part2 - Custom Authentication](aem-forms-with-marketo/part2.md)
   + [Part3 - Data Source](aem-forms-with-marketo/part3.md)
   + [Part4 - Putting it all together](aem-forms-with-marketo/part4.md)
 

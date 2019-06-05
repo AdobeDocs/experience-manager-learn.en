@@ -189,5 +189,5 @@ public class MarketoConfigurationService {
 ```
 
 1. Build and deploy the bundle onto your AEM server.
-1. [Point your browser to configMgr](http://localhost:4502/system/console/configMgr) and search for  "Marketo Credentials Service Configuration"
+1. [Point your browser to configMgr](http://localhost:4502/system/console/configMgr) and search for "Marketo Credentials Service Configuration"
 1. Specify the appropriate properties specific to your Marketo instance

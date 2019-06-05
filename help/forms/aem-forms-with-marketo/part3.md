@@ -19,12 +19,12 @@ For the integrating AEM Forms with Marketo, we will be using RESTful web service
 ![datasource](assets/datasource.jfif)
 
 The "marketo.json" is the swagger file and is provided to you as part of this tutorial's assets.
-The Host property is specific to your Marketo instance.
+Property Host is specific to your Marketo instance.
 Authentication Type is custom and Authentication Implementation has to match "AemForms With Marketo". (Unless you have changed this in your code).
 
 ## Create Form Data Model
 
-After configuring the data source the next step is to create a Form Data Model which is based on the data source configured in the earlier step. To create Form Data Model please follow the following steps:
+After, configuring the data source the next step is to create a Form Data Model which is based on the data source configured in the earlier step. To create Form Data Model please follow the following steps:
 
 Point your browser to the [data integrations page.](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-fdm) This lists all the data integrations created on your AEM instance. 
 
