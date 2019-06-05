@@ -52,7 +52,7 @@ index: y
   + [Part4 - Adding table to income panel](creating-your-first-adaptive-form/part4.md)
   + [Part5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
   + [Part6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
-+ Variables in AEM Workflow
++ Variables in AEM Workflow{#variables-aem-workflow}
   + [Introduction - Variables in Workflow](variables-aem-workflow/introduction.md)
   + [XML Variables](variables-aem-workflow/part1.md)
   + [JSON Variables](variables-aem-workflow/part2.md)
