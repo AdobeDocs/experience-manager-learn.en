@@ -42,7 +42,7 @@ To generate print channel document using the watched folder mechanism, please fo
 
 * Download and import the first file into AEM using the package manager. This file has service user bundle which is needed to generate the print channel document using watched folder.
 * [Create a system user called data.](http://localhost:4502/crx/explorer/index.jsp) Make sure you are logged in as admin to create the system user
-* Make sure this system user has** read** permissions on the following node. To give the permissions [login to user admin](/useradmin) and search for the system user "data" and give the read permissions on the following node by tabbing to the permissions tab
+* Make sure this system user has** read** permissions on the following node. To give the permissions [login to user admin](http://localhost:4502/useradmin) and search for the system user "data" and give the read permissions on the following node by tabbing to the permissions tab
 
 *
 
@@ -66,4 +66,4 @@ Service User Bundle
 
 Account Numbers.xml file that needs to be dropped into the watched folder
 
-[Get File](assets/accountnumbers.md)
+[Get File](assets/accountnumbers.xml)
