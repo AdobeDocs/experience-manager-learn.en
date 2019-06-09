@@ -89,6 +89,11 @@ index: y
   + [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
   + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
   + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)
-
++ Interactive Communications for Print Channel {#ic-print-channel-tutorial}
+  + [Introduction](ic-print-channel-tutorial/introduction.md)
+  + [Set up Tomcat](ic-print-channel-tutorial/part1.md)
+  + [Create Data Source](ic-print-channel-tutorial/part2.md)
+  + [Create Form Data Model](ic-print-channel-tutorial/part3.md)
+  + [Create XDP Layout using Forms Designer](ic-print-channel-tutorial/part4.md)
 + Interactive Communications {#interactive-communications}
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
