@@ -66,4 +66,4 @@ Service User Bundle
 
 Account Numbers.xml file that needs to be dropped into the watched folder
 
-[Get File](accountnumbers.md)
+[Get File](assets/accountnumbers.md)

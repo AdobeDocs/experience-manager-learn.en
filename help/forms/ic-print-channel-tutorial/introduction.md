@@ -13,7 +13,7 @@ Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/s
 
 ## Prerequistes {#prerequistes}
 
-[Download and import the asset related to this tutorial into AEM using the package manager.](assets/helpxassetsforauthoringicdocument.zip)This zip file contains images, document fragments, watched folder configuration and layout file(xdp) as part of the assets package
+[Download and import the asset related to this tutorial into AEM using the package manager.](assets/gettingstartedassets.zip)This zip file contains images, document fragments, watched folder configuration and layout file(xdp) as part of the assets package
 
 [Download and unzip this file.](assets/warfileandswaggerfile) This file contains SampleRest.war file that needs to be deployed onto Tomcat and swagger file that needs to be used for configuring your data source.
 
