@@ -1,0 +1,26 @@
+---
+title: Creating your first interactive communication for the print channel
+seo-title: Creating your first interactive communication for the print channel
+description: Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
+seo-description: Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
+---
+
+# Creating your first interactive communication for the print channel
+
+Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
+
+Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/samples/samples.html?query=0) page for a link to a live demo of this capability.
+
+## Prerequistes {#prerequistes}
+
+[Download and import the asset related to this tutorial into AEM using the package manager.](assets/helpxassetsforauthoringicdocument.zip)This zip file contains images, document fragments, watched folder configuration and layout file(xdp) as part of the assets package
+
+[Download and unzip this file.](assets/warfileandswaggerfile) This file contains SampleRest.war file that needs to be deployed onto Tomcat and swagger file that needs to be used for configuring your data source.
+
+On completing this tutorial, you will have learned the following:
+* Create Data Source
+* Create Form Data Model
+* Create Document Fragments
+* Configure Tables and Charts
+* Use Watched Folders to generate documents in batch mode
+
