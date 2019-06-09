@@ -91,9 +91,9 @@ index: y
   + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)
 + Interactive Communications for Print Channel {#ic-print-channel-tutorial}
   + [Introduction](ic-print-channel-tutorial/introduction.md)
-  + [Set up Tomcat](ic-print-channel-tutorial/part1.md)
-  + [Create Data Source](ic-print-channel-tutorial/part2.md)
-  + [Create Form Data Model](ic-print-channel-tutorial/part3.md)
-  + [Create XDP Layout using Forms Designer](ic-print-channel-tutorial/part4.md)
+  + [Set up Tomcat](ic-print-channel-tutorial/partone.md)
+  + [Create Data Source](ic-print-channel-tutorial/parttwo.md)
+  + [Create Form Data Model](ic-print-channel-tutorial/partthree.md)
+  + [Create XDP Layout using Forms Designer](ic-print-channel-tutorial/partfour.md)
 + Interactive Communications {#interactive-communications}
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
