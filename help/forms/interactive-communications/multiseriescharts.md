@@ -18,10 +18,12 @@ To create multi-series charts in AEM Forms, you need to create an appropriate Fo
 
 
 ## Create Form Data Model for Multi Series Charts
+
 >[!VIDEO](https://video.tv.adobe.com/v/26352/quality=9)
 
 
 ### Configure Line Series Charts
+
 >[!VIDEO](https://video.tv.adobe.com/v/26353?quality=9)
 
 
