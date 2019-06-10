@@ -95,5 +95,6 @@ index: y
   + [Create Data Source](ic-print-channel-tutorial/parttwo.md)
   + [Create Form Data Model](ic-print-channel-tutorial/partthree.md)
   + [Create XDP Layout using Forms Designer](ic-print-channel-tutorial/partfour.md)
+  + [Create Document Fragment](ic-print-channel-tutorial/partfive.md)
 + Interactive Communications {#interactive-communications}
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
