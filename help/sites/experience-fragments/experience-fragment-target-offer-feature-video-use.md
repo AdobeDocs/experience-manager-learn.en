@@ -35,7 +35,7 @@ Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM
 * To create a personalized offer we can now easily leverage content stored within AEM.
 * You can create types of Target activities, including the Sensei-powered activities like Auto-allocate, Auto Target, and Automated Personalization
 
-### AEM 6.3 Feature Packs and Dependencies {#aem-feature-packs-and-dependencies}
+## AEM 6.3 Feature Packs and Dependencies {#aem-feature-packs-and-dependencies}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody>
@@ -64,4 +64,3 @@ Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM
 * [Blog Post: Opening the content pipeline for personalization in Adobe Target](https://blogs.adobe.com/digitalmarketing/digital-marketing/opening-content-pipeline-personalization-adobe-target/)
 * [Experience Fragments Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
 * [Using Experience Fragments](experience-fragments-feature-video-use.md)
-
