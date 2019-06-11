@@ -24,5 +24,5 @@ Open the 401KStatementPrint in edit mode.
 
 The following video walks through the steps involved in configuring a table in the print channel document.
 
->[!VIDEO](https://video.tv.adobe.com/v/22386/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22387t1?quality=9)
 
