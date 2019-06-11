@@ -37,26 +37,11 @@ Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM
 
 ## AEM 6.3 Feature Packs and Dependencies {#aem-feature-packs-and-dependencies}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
-   <td><p><strong>AEM 6.3 Feature Pack </strong></p> <p><strong> </strong></p> </td> 
-   <td><strong>Dependencies</strong></td> 
-  </tr>
-  <tr>
-   <td><p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-18961">CQ-6.3.0-FEATUREPACK-18961</a></p> <p> </p> </td> 
-   <td><p>adobe/cq630/servicepack:aem-service-pkg:6.3.2</p> <p> </p> </td> 
-  </tr>
-  <tr>
-   <td><p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-24442">CQ-6.3.0-FEATUREPACK-24442</a></p> <p> </p> </td> 
-   <td><p>adobe/cq630/servicepack:aem-service-pkg:6.3.2</p> <p>adobe/cq630/cumulativefixpack:aem-6.3.2-cfp:1.0</p> <p> </p> </td> 
-  </tr>
-  <tr>
-   <td><p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-24640">CQ-6.3.0-FEATUREPACK-24640</a></p> <p> </p> </td> 
-   <td><p>adobe/cq630/servicepack:aem-service-pkg:6.3.2</p> <p>adobe/cq630/cumulativefixpack:aem-6.3.2-cfp:2.0</p> <p> </p> </td> 
-  </tr>
- </tbody>
-</table>
+| AEM 6.3 Feature Pack       | Dependencies                                                                                  |
+|----------------------------|-----------------------------------------------------------------------------------------------|
+| [CQ-6.3.0-FEATUREPACK-18961](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-18961) | adobe/cq630/servicepack:aem-service-pkg:6.3.2                                                 |
+| [CQ-6.3.0-FEATUREPACK-24442](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-24442) | adobe/cq630/servicepack:aem-service-pkg:6.3.2 adobe/cq630/cumulativefixpack:aem-6.3.2-cfp:1.0 |
+| [CQ-6.3.0-FEATUREPACK-24640](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-24640) | adobe/cq630/servicepack:aem-service-pkg:6.3.2 adobe/cq630/cumulativefixpack:aem-6.3.2-cfp:2.0 |
 
 ## Supporting Resources
 
