@@ -1190,17 +1190,17 @@ Add default styles for the Byline component. In the **ui.apps** project under `/
             float: left;
 
     /* This class targets a Core Component Image CSS class */
-        .cmp-image__image {
-            width: @imageSize;
-            height: @imageSize;
-            border-radius: @imageSize / 2;
-            object-fit: cover;
+            .cmp-image__image {
+                width: @imageSize;
+                height: @imageSize;
+                border-radius: @imageSize / 2;
+                object-fit: cover;
             }
         }
 
         .cmp-byline__name {
-        margin-left: @imageSize + 20px;
-        margin-bottom: .25rem;
+            margin-left: @imageSize + 20px;
+            margin-bottom: .25rem;
         }
 
         .cmp-byline__occupations {
