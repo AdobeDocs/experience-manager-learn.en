@@ -6,7 +6,7 @@ seo-description: This is part 10 of multistep tutorial for creating your first i
 
 ---
 
-# Generating Print Channel Documents Using Watched Folder {#generating-print-channel-documents-using-watched-folder}
+# Generating Print Channel Documents Using Watched Folder
 
 In this part, we will generate print channel documents using the watched folder mechanism.
 
@@ -18,7 +18,7 @@ The watched folder configuration and the ECMA script are part of the assets you 
 
 The input file that is dropped into the watched folder has the following structure. ECMA script reads the account numbers and generates print channel document for each of these accounts.
 
-For more details on the ECMA script for generating documents, [refer to this article](https://helpx.adobe.com/experience-manager/kt/forms/using/generating-interactive-communications-print-document-using-api-tutorial-use.html)
+For more details on the ECMA script for generating documents, [refer to this article](/help/forms/interactive-communications/generating-interactive-communications-print-document-using-api-tutorial-use.md)
 
 ```xml {.line-numbers}
 <accountnumbers>

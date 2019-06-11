@@ -101,5 +101,6 @@ index: y
   + [Configuring Line Chart](ic-print-channel-tutorial/parteight.md)
   + [Adding Table to Print Channel](ic-print-channel-tutorial/partnine.md)
   + [Using Watched Folder to Generate Print Documents](ic-print-channel-tutorial/partten.md)
+  + [Opening Agent UI on Form Submission](ic-print-channel-tutorial/parteleven.md)
 + Interactive Communications {#interactive-communications}
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
