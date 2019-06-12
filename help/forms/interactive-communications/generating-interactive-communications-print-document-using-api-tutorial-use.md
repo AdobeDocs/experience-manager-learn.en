@@ -97,33 +97,38 @@ resourceResolverHelper.callWith(resourceResolver, {call: function()
 ```
 
 
-[Get File](assets/datasource.zip)
 **To test this on your local system please follow the following instructions:**
 
 * Setup Tomcat as described in this [article.](/help/forms/ic-print-channel-tutorial/partone.md) Tomcat has the war file which generates the sample data.
 * Set up service aka system user as described in this [article](/help/forms/adaptive-forms/service-user-tutorial-develop.md).
-Make sure this system user has read permissions on the following node. To give the permissions login to [user admin[(https://localhost:4502/useradmin)] and search for the system user "data" and give the read permissions on the following node by tabbing to the permissions tab
+Make sure this system user has read permissions on the following node. To give the permissions login to [user admin](https://localhost:4502/useradmin) and search for the system user "data" and give the read permissions on the following node by tabbing to the permissions tab
     * /content/dam/formsanddocuments
     * /content/dam/formsanddocuments-fdm
     * /content/forms/af
 * Import the following package(s) into AEM using the package manager. This package contains the following:
 
 
-    * [Sample Interactive Communications Document](assets/retirementstatementprint.zip)
-    * [Watched Folder Script](assets/printchanneldocumentusingwatchedfolder.zip)
-    * [Data Source Configuration](assets/datasource.zip)
+ * [Sample Interactive Communications Document](assets/retirementstatementprint.zip)
+ * [Watched Folder Script](assets/printchanneldocumentusingwatchedfolder.zip)
+ * [Data Source Configuration](assets/datasource.zip)
 
 * Open the /etc/fd/watchfolder/scripts/PrintPDF.ecma  file. Make sure the path to the interactiveCommunicationsDocument in line 1 is pointing to the correct document that you want to print
 
 * Modify the saveLocation as per your preference on Line 2
-* Create accountnumbers.xml  file with the following content
+
+* Create accountnumbers.xml file with the following content
+
 ``` xml {.line-numbers}
+
+<accountnumbers>
 <accountnumber>1</accountnumber>
 <accountnumber>100</accountnumber>
 <accountnumber>101</accountnumber>
 <accountnumber>1009</accountnumber>
 <accountnumber>10009</accountnumber>
 <accountnumber>11990</accountnumber>
+</accountnumbers>
+
 ```
 
 
