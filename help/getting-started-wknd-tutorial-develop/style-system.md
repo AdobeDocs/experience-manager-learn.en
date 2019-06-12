@@ -125,17 +125,12 @@ BLOCK cmp-title
    /* WKND Title Underline style */
 
    .cmp-title--underline {
-
-    .cmp-title {
-     .cmp-title__text {
-      &:after {
-      display: block;
-         width: 84px;
-         padding-top: 8px;
-         content: '';
-         border-bottom: 2px solid @brand-primary;
-      }
-     }
+     .cmp-title__text:after {
+       border-bottom: 2px solid @brand-primary;
+       content: '';
+       display: block;
+       padding-top: 8px;
+       width: 84px;
     }
    }
 
@@ -233,28 +228,28 @@ BLOCK cmp-text
    /* WKND Text Quote style */
 
    .cmp-text--quote {
+       background-color:@brand-secondary;
+       margin: 1em 0em;
+       padding: 1em 3em;
 
-         background-color:@brand-secondary;
-         padding: 1em 3em;
-        margin: 1em 0em;
+       blockquote {
+           border: none;
+           font-size: 36px;
+           margin: 0;
+           padding: 14px 0px;
+       }
 
-         blockquote {
-          margin: 0;
-          font-size: 36px;
-          border: none;
-          padding: 14px 0px;
-         }
+       u {
+           font-family: @font-family-sans-serif;
+           text-decoration: none;
 
-         u {
-          text-decoration: none;
-          font-family: @font-family-sans-serif;
-          &:before {
-                   border-top: 2px solid @brand-primary;
-                   content: '';
-                   display: block;
-                   width: 80px;
-          }
-         }
+           &:before {
+               border-top: 2px solid @brand-primary;
+               content: '';
+               display: block;
+               width: 80px;
+           }
+       }
    }
 
    ```
@@ -332,20 +327,19 @@ BLOCK cmp-list
    /* WKND List Default Style */
 
    .cmp-list {
-
        float:left;
        padding:0;
 
        .cmp-list__item {
            list-style: none;
            float:left;
-           width:100%;
            margin-bottom:1em;
+           width:100%;
        }
 
        .cmp-list__item-link {
-           font-weight: 600;
            float:left;
+           font-weight: 600;
            padding: 0.5rem 1rem;
 
            &:hover {
@@ -354,17 +348,16 @@ BLOCK cmp-list
        }
 
        .cmp-list__item-title {
-           width:100%;
            float:left;
+           width:100%;
        }
 
        .cmp-list__item-date {
-           width:100%;
-           float:left;
            color: @gray-light;
+           float:left;
            font-size: @font-size-small; 
+           width:100%;
        }
-
    }
    ```
 
@@ -376,43 +369,39 @@ BLOCK cmp-list
    .cmp-list--upnext {
 
        .cmp-list {
+           padding-left: 0em;
 
-               padding-left: 0em;
-
-               .cmp-list__item {
-                   list-style: none;
-                   float:left;
-                   width:100%; 
-                   margin-bottom:1em;
-               }
-
-               .cmp-list__item-link {
-                   font-weight: normal;
-                   height: 120px;
-                   border-left: 6px solid @brand-secondary;
-
-                   &:hover {
-                       background: @brand-primary;
-                       border-color: @text-color;
-                   }
-
-               }
-
-               .cmp-list__item-title {
-                   color: @text-color;
-                   padding: 5px;
-                   text-transform: uppercase;
-
-               }
-
-               .cmp-list__item-date {
-                   color: @gray-light;
-                   font-size: @font-size-xsmall; 
-                   padding: 5px;
-                   text-transform: uppercase;
-               }
-
+           .cmp-list__item {
+               list-style: none;
+               float:left;
+               margin-bottom:1em;
+               width:100%; 
            }
+
+           .cmp-list__item-link {
+               border-left: 6px solid @brand-secondary;
+               font-weight: normal;
+               height: 120px;
+
+               &:hover {
+                   background: @brand-primary;
+                   border-color: @text-color;
+               }
+           }
+
+           .cmp-list__item-title {
+               color: @text-color;
+               padding: 5px;
+               text-transform: uppercase;
+           }
+
+           .cmp-list__item-date {
+               color: @gray-light;
+               font-size: @font-size-xsmall; 
+               padding: 5px;
+               text-transform: uppercase;
+           }
+       }
    }
    ```
 
@@ -500,17 +489,16 @@ We can use the Style System with the Layout Container to create a new, **fixed-w
    /* WKND Layout Container - fixed-width.less */
 
    .cmp-layout-container--fixed {
-     display:block;
-     max-width:  @max-width !important;
-     float: unset !important;
-     margin: 0 auto !important;
-     padding: 0 @gutter-padding;
-     clear: both !important; 
+       clear: both !important;
+       display:block;
+       float: unset !important;
+       margin: 0 auto !important;
+       max-width:  @max-width !important;
+       padding: 0 @gutter-padding;
 
-     @media (max-width: @screen-medium) {
-       padding: 0 !important;
-     }
-
+       @media (max-width: @screen-medium) {
+           padding: 0 !important;
+       }
    }
    ```
 
@@ -605,13 +593,12 @@ For the article body we will leverage [AEM Content Fragments](https://helpx.adob
    /* WKND Content Fragment style - default.less */
 
    .cmp-contentfragment {
-
-    font-family: @font-family-serif;
+       font-family: @font-family-serif;
 
        p {
-        text-align: justify;
-        font-size: 20px;
-        line-height: (@line-height-base + 1);
+           font-size: 20px;
+           line-height: (@line-height-base + 1);
+           text-align: justify;
        }
    }
 
