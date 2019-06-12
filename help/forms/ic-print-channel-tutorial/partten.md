@@ -36,7 +36,7 @@ For more details on the ECMA script for generating documents, [refer to this art
 To generate print channel document using the watched folder mechanism, please follow the steps below:
 
 * [Create a service user named data as mentioned in this document](/help/forms/adaptive-forms/service-user-tutorial-develop.md)
-* Make sure this system user has read permissions on the following node. To give the permissions [login to user admin](https://helpx.adobe.com/useradmin) and search for the system user "data" and give the read permissions on the following node by tabbing to the permissions tab
+* Make sure this system user has read permissions on the following node. To give the permissions [login to user admin](https://helpx.adobe.com/useradmin) and search for the system user "data" and give the read permissions on the following node by tabbing to the permissions tab.
 
 
     * /content/dam/formsanddocuments
@@ -48,12 +48,25 @@ To generate print channel document using the watched folder mechanism, please fo
 * Make sure the path to interactiveCommunicationsDocument is pointing to the correct document that you want to print.( Line 1)
 * Make a note of the saveLocation(Line 2).You can change it as per your needs.
 * Make sure the input parameter to the Form Data Model is bound to the Request Attribute and its binding value is set to "accountnumber". Refer to the screenshot below.
-* Drop the  [accountnumbers.xml](assets/accountnumbers.xml) file into the C:\RenderPrintChannel\input
+![request](assets/requestattributeprintchannel.gif)
+
+ * Create accountnumbers.xml  file with the following content
+
+``` xml {.line-numbers}
+<accountnumbers>
+<accountnumber>1</accountnumber>
+<accountnumber>100</accountnumber>
+<accountnumber>101</accountnumber>
+<accountnumber>1009</accountnumber>
+<accountnumber>10009</accountnumber>
+<accountnumber>11990</accountnumber>
+</accountnumbers>
+```
+
+* Drop the xml file into C:\RenderPrintChannel\input
 
 * Check the pdf files in the save location as specified in the ECMA script.
 
-![request](assets/requestattributeprintchannel.gif) 
 
-Account Numbers.xml file that needs to be dropped into the watched folder
 
 

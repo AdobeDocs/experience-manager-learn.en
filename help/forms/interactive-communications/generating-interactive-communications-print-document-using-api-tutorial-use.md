@@ -116,9 +116,17 @@ Make sure this system user has read permissions on the following node. To give t
 * Open the /etc/fd/watchfolder/scripts/PrintPDF.ecma  file. Make sure the path to the interactiveCommunicationsDocument in line 1 is pointing to the correct document that you want to print
 
 * Modify the saveLocation as per your preference on Line 2
-* Create  accountnumbers .  xml  file with the following content
+* Create accountnumbers.xml  file with the following content
+``` xml {.line-numbers}
+<accountnumber>1</accountnumber>
+<accountnumber>100</accountnumber>
+<accountnumber>101</accountnumber>
+<accountnumber>1009</accountnumber>
+<accountnumber>10009</accountnumber>
+<accountnumber>11990</accountnumber>
+```
 
-* &lt;accountnumbers&gt;&lt;accountnumber&gt;304958&lt;/accountnumber&gt;&lt;/accountnumbers&gt;
+
 * Drop the accountnumbers.xml into the C:\RenderPrintChannel\input folder.
 
 * The generated PDF files are written to the saveLocation as specified in the ecma script.
