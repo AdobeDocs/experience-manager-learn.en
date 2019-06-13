@@ -29,7 +29,7 @@ The use case is to trigger a AEM workflow on an Adaptive Form submission and a s
     * FormName - Column name to hold the name of the Form
     * ColumnName - Column name to hold the AF Data
 
-  ![insertdata](assets/insertdata.png)
+  ![insertdata](assets/insertdata.PNG)
 
 * Create an Adaptive Form.
 
