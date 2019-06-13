@@ -31,6 +31,7 @@ index: y
   + [Integrating LDAP with AEM Forms](adaptive-forms/aem-forms-workflow-with-ldap-article-use.md)
   + [Using Service User in AEM Forms](adaptive-forms/service-user-tutorial-develop.md)
   + [Tagging and Storing DoR on Adaptive Form Submission](adaptive-forms/tagging-and-saving-document-of-record-in-dam-article-use.md)
+  + [Storing Submitted Form Data in DB](adaptive-forms/storing-adaptive-form-data-in-db.md)
   + [Form Data Model Service in AEM Workflow](adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md)
   + [Form Data Model without Data Source](adaptive-forms/form-data-model-without-data-source-feature-video-use.md)
   + [Setting up JDBC Data Source in AEM Forms](adaptive-forms/data-integration-technical-video-setup.md)
