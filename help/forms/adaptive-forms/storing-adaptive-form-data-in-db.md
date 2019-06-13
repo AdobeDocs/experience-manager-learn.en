@@ -12,7 +12,7 @@ The use case is to trigger a AEM workflow on an Adaptive Form submission and a s
 
 **Please follow the steps mentioned below to get this working on your system**
 
-* [Download the Zip file and extract its contents on to your hard drive](assets/storeafdataindb)
+* [Download the Zip file and extract its contents on to your hard drive](assets/storeafdataindb.zip)
 
   * Import the StoreAFInDBWorkflow.zip into AEM using package manager. Package has sample workflow which stores the AF data into DB. Open the workflow model. The workflow has only one step. This step calls the code written in the bundle to store the AF data into the Database. I am passing a single argument to the process. This is the name of the Adaptive Form whose data is being saved.
   * Deploy the insertdata.core-0.0.1-SNAPSHOT.jar using Felix web console. This bundle has the code to write the submitted form data to the database
