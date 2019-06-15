@@ -105,3 +105,9 @@ index: y
   + [Opening Agent UI on Form Submission](ic-print-channel-tutorial/parteleven.md)
 + Interactive Communications {#interactive-communications}
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
+
++ Interactive Communications For Web Channel {#ic-web-channel-tutorial}
+  + [Introduction](ic-web-channel-tutorial/introduction.md)
+  + [Set up Tomcat](ic-web-channel-tutorial/partone.md)
+  + [Create Data Source](ic-web-channel-tutorial/parttwo.md)
+  + [Create Form Data Model](ic-web-channel-tutorial/partthree.md)
