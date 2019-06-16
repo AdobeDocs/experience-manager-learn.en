@@ -111,3 +111,4 @@ index: y
   + [Set up Tomcat](ic-web-channel-tutorial/partone.md)
   + [Create Data Source](ic-web-channel-tutorial/parttwo.md)
   + [Create Form Data Model](ic-web-channel-tutorial/partthree.md)
+  + [Creating Web Channel Document Template](ic-web-channel-tutorial/partfour.md)
