@@ -112,3 +112,4 @@ index: y
   + [Create Data Source](ic-web-channel-tutorial/parttwo.md)
   + [Create Form Data Model](ic-web-channel-tutorial/partthree.md)
   + [Creating Web Channel Document Template](ic-web-channel-tutorial/partfour.md)
+  + [Creating Document Fragment](ic-web-channel-tutorial/partfive.md)
