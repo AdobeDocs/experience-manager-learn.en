@@ -53,5 +53,4 @@ Login to AEM Forms.
 
 * The code associated with this URL will get the accountnumber of the logged in user. This accountnumber is then passed as requestattribute to the FDM. The FDM will then fetch the data associated with this  accountnumber and populate the web channel document.
 >[!NOTE]
-Please take a look at the following file in crx. If the name of your web channel document is not 401KStatement, please provide the correct name on line 15 of the code in the file below.
-**/apps/AEMForms/fetchad/GET.jsp**
+Please take a look at the **/apps/AEMForms/fetchad/GET.jsp** file in crx. Please make sure the String variable webChannelDocument is pointing to a valid communication document path.

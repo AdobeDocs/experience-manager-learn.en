@@ -37,6 +37,5 @@ Visual representation of Line 7 code
 
 Request Attribute defined for read service of the form data modal
 
-Sample Code for Web Channel Delivery
 
-[sample code](assets/webchanneldelivery.zip)
+[Sample AEM Package](assets/webchanneldelivery.zip).
