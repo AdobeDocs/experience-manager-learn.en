@@ -119,3 +119,4 @@ index: y
   + [Configuring Table](ic-web-channel-tutorial/partnine.md)
   + [Configuring Column Chart](ic-web-channel-tutorial/partten.md)
    + [Configuring Pie Chart](ic-web-channel-tutorial/parteleven.md)
+   + [Delivery Of Web Channel Document](ic-web-channel-tutorial/parttwelve.md)
