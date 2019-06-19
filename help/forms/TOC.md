@@ -115,3 +115,4 @@ index: y
   + [Creating Document Fragment](ic-web-channel-tutorial/partfive.md)
   + [Creating Interactive Communication Document](ic-web-channel-tutorial/partsix.md)
   + [Adding Text and Images](ic-web-channel-tutorial/partseven.md)
+  + [Configuring Line chart](ic-web-channel-tutorial/parteight.md)
