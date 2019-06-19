@@ -117,3 +117,4 @@ index: y
   + [Adding Text and Images](ic-web-channel-tutorial/partseven.md)
   + [Configuring Line chart](ic-web-channel-tutorial/parteight.md)
   + [Configuring Table](ic-web-channel-tutorial/partnine.md)
+  + [Configuring Column Chart](ic-web-channel-tutorial/partten.md)
