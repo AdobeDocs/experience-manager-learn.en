@@ -8,6 +8,7 @@ seo-description: This is the final part of a multistep tutorial for creating you
 
 # Setting up the delivery of web channel document {#setting-up-the-delivery-of-web-channel-document}
 
+
  In this part, we look at the delivery of web channel document via email.
 
 Once you have defined and tested your web channel interactive communication document, you need a delivery mechanism to deliver the web channel document to the recipient.
@@ -34,6 +35,7 @@ Login to AEM Forms.
 ![fdm](assets/requestattribute.gif) 
 
 ## Test Email Delivery of Web Channel Document {#test-email-delivery-of-web-channel-document}
+
 * [Install the sample assets using package manager](assets/webchanneldelivery.zip)
 * [Login to crx](http://localhost:4502/crx/de/index.jsp#)
 
