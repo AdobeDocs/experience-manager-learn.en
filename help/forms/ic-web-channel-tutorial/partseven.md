@@ -7,6 +7,7 @@ seo-description: This is part 7 of a multi-step tutorial for creating your first
 ---
 
 # Adding text and image content to web channel document 
+
 In this part, we will add images and text content to the header panel. 
 
 Now that you have authored your first document fragment that will hold the recipient name and address, we will need to add the document fragment to the web channel document.
