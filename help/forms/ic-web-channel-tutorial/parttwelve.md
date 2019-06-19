@@ -15,6 +15,8 @@ Once you have defined and tested your web channel interactive communication docu
 
 To be able to use email as a delivery mechanism for our web channel document, we need to make a minor change to the form data model.
 
+[To learn more about web channel delivery via email](/help/forms/interactive-communications/delivery-of-web-channel-document-tutorial-use.md)
+
 Login to AEM Forms.
 
 * Navigate to Forms -&gt;Data Integrations
