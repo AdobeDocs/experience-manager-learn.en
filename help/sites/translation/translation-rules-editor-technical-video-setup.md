@@ -31,7 +31,7 @@ Access the Translation Configuration UI:
 
 * **AEM Start Menu &gt; Tools &gt; General &gt; [Translation Configuration](http://localhost:4502/libs/cq/translation/translationrules/contexts.html)**
 
-### Prior to AEM 6.3 {#prior-to-aem}
+## Prior to AEM 6.3 {#prior-to-aem}
 
 In prior AEM version translation rules were manually updated by editing an XML file located under the Translation workflow:
 
