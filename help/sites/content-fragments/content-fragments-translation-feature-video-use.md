@@ -25,9 +25,9 @@ AEM 6.3 introduces the ability to translate Content Fragments. Mixed-media asset
 Content Fragments are a recognized content type that AEM will extract to be sent to an external translation service. Several use cases are supported out of the box:
 
 1. A Content Fragment can be selected directly in the Assets console for Language copy and translation
-1. Content Fragments referenced on a Sites page will be copied to the appropriate language folder and extracted for translation when the Sites page is selected for Language copy
-1. Inline Media Assets embedded inside a content fragment are eligible to be extracted and translated.
-1. Asset Collections associated with a content fragment are eligible to be extracted and translated
+2. Content Fragments referenced on a Sites page will be copied to the appropriate language folder and extracted for translation when the Sites page is selected for Language copy
+3. Inline Media Assets embedded inside a content fragment are eligible to be extracted and translated.
+4. Asset Collections associated with a content fragment are eligible to be extracted and translated
 
 ## Translation Configuration Options {#translation-config-options}
 
@@ -36,9 +36,9 @@ The out of the box translation configuration supports several options for transl
 There are four options for translating Content Fragment assets:
 
 1. **Do not translate (default)**
-1. **Inline Media Assets only**
-1. **Associated Asset Collections only**
-1. **Inline Media Assets and Associated Collections**
+2. **Inline Media Assets only**
+3. **Associated Asset Collections only**
+4. **Inline Media Assets and Associated Collections**
 
-![](assets/screen-shot-2017-04-27-at-11.16.04-am.png)
+![Translation Config](assets/classic-ui-dialog.png)
 

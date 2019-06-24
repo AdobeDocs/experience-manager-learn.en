@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Set up Translation Rules in AEM{#set-up-translation-rules-in-aem}
+# Set up Translation Rules {#set-up-translation-rules-in-aem}
 
 AEM 6.3 introduces a Translation Configuration UI to manage rules for translating content in AEM Sites. This video details the creation of a new translation rule for a custom component.
 

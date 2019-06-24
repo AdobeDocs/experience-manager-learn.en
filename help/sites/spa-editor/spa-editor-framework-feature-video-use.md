@@ -25,6 +25,6 @@ AEM's SPA Editor provides authors the ability to edit content for a Single Page 
 
 To use the We.Retail Journal SPA shown in the above videos:
 
-1. Install [AEM 6.4 + Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
+1. Install [AEM 6.4 + Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or [AEM 6.5]()
 1. Install the [We.Retail Journal SPA package](https://github.com/adobe/aem-sample-we-retail-journal/releases)
 

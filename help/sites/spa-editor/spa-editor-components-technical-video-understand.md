@@ -22,7 +22,7 @@ A video series explaining how SPA components, built with AEM's SPA Editor JS SDK
 
 *Note that while this video uses React as the example, the same paradigms apply to AEM's SPA Editor JavaScript SDK for Angular 6+.*
 
-## Recommended reading {#0}
+## Recommended reading {#recommended-reading}
 
 *This video series assumes a basic understanding of both React and the AEM SPA Editor.*
 
@@ -32,11 +32,11 @@ The following resources are recommended for review prior to watching this video 
 * [SPA Editor feature video](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-framework-feature-video-use.html) - Video overview of the SPA Editor and We.Retail Journal app.
 * [React.js tutorial](https://reactjs.org/tutorial/tutorial.html) - An introduction to developing with the React framework.
 
-## Introduction {#1}
+## Introduction {#introduction}
 
 >[!VIDEO](https://video.tv.adobe.com/v/22798?quality=12)
 
-## The AEM page and JSON content {#2}
+## The AEM page and JSON content {#aem-json-content}
 
 This video covers:
 
@@ -56,7 +56,7 @@ This video covers:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22800?quality=9)
 
-## The SPA navigation component {#4}
+## The SPA navigation component {#spa-navigation}
 
 Using the We.Retail Journal's Navigation component, video covers:
 
@@ -66,7 +66,7 @@ Using the We.Retail Journal's Navigation component, video covers:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22801?quality=12)
 
-## The SPA image component {#5}
+## The SPA image component {#spa-image}
 
 Using the We.Retail Journal's Image component, this video covers:
 
@@ -76,7 +76,7 @@ Using the We.Retail Journal's Image component, this video covers:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22806?quality=12)
 
-## The SPA component's EditConfig {#6}
+## The SPA component's EditConfig {#spa-edit-config}
 
 This video covers:
 

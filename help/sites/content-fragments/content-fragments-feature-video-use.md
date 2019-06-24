@@ -40,7 +40,7 @@ This video series covers the end-to-end life-cycle of Content Fragments in AEM, 
 
 >[!VIDEO](https://video.tv.adobe.com/v/22452/?quality=12)
 
-AEM Content Fragments Models, the data schemas of Contnet Fragments, must be enabled via AEM's Configuration Browser, which allows Content Fragment Models to be defined on a per configuration basis.
+AEM Content Fragments Models, the data schemas of Content Fragments, must be enabled via AEM's Configuration Browser, which allows Content Fragment Models to be defined on a per configuration basis.
 
 ## Authoring Content Fragments {#authoring-content-fragments}
 
@@ -52,7 +52,7 @@ Content Fragments can have multiple variants, each variant addressing a differen
 
 Example athlete biography for import.
 
-[Get File](assets/sandra-sprient-bio.txt)
+[sandra-sprient-bio.txt](assets/sandra-sprient-bio.txt)
 
 ## Downloading Content Fragments {#downloading-content-fragments}
 
@@ -62,7 +62,7 @@ AEM Content Fragments can be downloaded from AEM Author as a Zip file containing
 
 Example Content Fragment download Zip file
 
-[Get File](assets/daniel_schreder.zip)
+[daniel_schreder.zip](assets/daniel_schreder.zip)
 
 ## Content Fragment editorial capabilities {#editorial-capabilities}
 
@@ -86,7 +86,7 @@ AEM Content Services facilitates the creation of AEM Page-based HTTP end-points 
 
 Example Content Services end-point JSON payload
 
-[Get File](assets/athletes.json)
+[athletes.json](assets/athletes.json)
 
 ## Supporting materials {#supporting-materials}
 
@@ -95,4 +95,4 @@ Example Content Services end-point JSON payload
 
 To download and install the package below on an AEM 6.4+ instance for the final state from the video series.
 
-[Get File](assets/aem_demo_fluid-experiencescontent-fragments-100.zip)
+[aem_demo_fluid-experiencescontent-fragments-100.zip](assets/aem_demo_fluid-experiencescontent-fragments-100.zip)

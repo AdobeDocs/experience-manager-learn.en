@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Using Multi-Site Manager with AEM Sites{#using-multi-site-manager-with-aem-sites}
+# Using Multi-Site Manager {#using-multi-site-manager-with-aem-sites}
 
 AEM 6.3 introduces Live Copy Overview and Blueprint Configuration Manager interfaces that are Touch UI Enabled for working with Multi Site Manager. These interfaces replace Classic UI interfaces, bringing MSM feature parity to the Touch UI.
 

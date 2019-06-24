@@ -14,11 +14,11 @@ internal: n
 snippet: y
 ---
 
-# Translation Enhancements in AEM{#translation-enhancements-in-aem}
+# Translation Enhancements {#translation-enhancements}
 
 AEM's robust translation framework allows AEM content to be seamlessly translated by supported Translation vendors.
 
-### Translation Enhancements in AEM 6.4
+## Translation Enhancements in AEM 6.4
 
 >[!VIDEO](https://video.tv.adobe.com/v/21309?quality=9)
 
