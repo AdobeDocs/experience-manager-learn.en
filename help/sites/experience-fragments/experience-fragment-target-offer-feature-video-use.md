@@ -46,6 +46,5 @@ Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM
 ## Supporting Resources
 
 * [Fluid Personalization - AEM Experience Fragments in Adobe Target](https://www.youtube.com/watch?v=ohvKDjCb1yM)
-* [Blog Post: Opening the content pipeline for personalization in Adobe Target](https://blogs.adobe.com/digitalmarketing/digital-marketing/opening-content-pipeline-personalization-adobe-target/)
 * [Experience Fragments Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
 * [Using Experience Fragments](experience-fragments-feature-video-use.md)

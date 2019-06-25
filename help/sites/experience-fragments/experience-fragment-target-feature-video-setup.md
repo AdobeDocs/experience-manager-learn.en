@@ -28,9 +28,8 @@ Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM
 * Target Client code can be obtained from Adobe Experience Cloud &gt; Launch Target &gt; Under Set Up Tab &gt; Implementation &gt; Edit at.js settings.
 * Target API username and password can be obtained by submitting a ticket to Client Care with a request to enable the Experience Fragment Target Integration capability.
 
->[!MORE_LIKE_THIS]
->
->* [Fluid Personalization - AEM Experience Fragments in Adobe Target](https://www.youtube.com/watch?v=ohvKDjCb1yM)
->* [Blog Post: Opening the content pipeline for personalization in Adobe Target](https://blogs.adobe.com/digitalmarketing/digital-marketing/opening-content-pipeline-personalization-adobe-target/)
->* [Experience Fragments Documentation](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)
->* [Using Experience Fragments](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragments-feature-video-use.html)
+## Additional Resources {#additional-resources}
+
+* [Fluid Personalization - AEM Experience Fragments in Adobe Target](https://www.youtube.com/watch?v=ohvKDjCb1yM)
+* [Experience Fragments Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
+* [Using Experience Fragments](experience-fragments-feature-video-use.md)
