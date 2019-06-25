@@ -15,7 +15,7 @@ internal: n
 snippet: y
 ---
 
-# Using Adobe Analytics Activity Map with AEM Sites{#using-adobe-analytics-activity-map-with-aem-sites}
+# Using Adobe Analytics Activity Map {#using-adobe-analytics-activity-map-with-aem-sites}
 
 The AEM Sites Activity Map integration allows the Adobe Analytics Activity Map to expose analytics data directly on the AEM Sites page, enabling AEM Authors to understand how their pages are engaged with down to the link.
 
