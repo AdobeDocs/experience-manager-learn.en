@@ -32,7 +32,7 @@ Adobe Experience Manager 6.3 Feature pack reimagines the personalization workflo
 * Target API User setup
 * Enable XF Offer type feature flag for Adobe Marketing Cloud Org
 
-## Supporting Resources
+## Additional Resources
 
 * [Fluid Personalization - AEM Experience Fragments in Adobe Target](https://www.youtube.com/watch?v=ohvKDjCb1yM)
 * [Experience Fragments Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
