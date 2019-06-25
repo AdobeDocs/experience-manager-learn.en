@@ -89,6 +89,5 @@ This video covers:
 * [@adobe/cq-react-editable-components npm package](https://www.npmjs.com/package/@adobe/cq-react-editable-components)
 * [@adobe/cq-angular-editable-components npm package](https://www.npmjs.com/package/@adobe/cq-angular-editable-components)
 
-* [SPA Editor overview documentation](/content/help/en/experience-manager/6-4/sites/developing/using/spa-overview)
-* [Sample React application structure documentation](/content/help/en/experience-manager/6-4/sites/developing/using/spa-getting-started-react#SampleApplicationStructure)
+* [SPA Editor User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/spa.ug.js)
 
