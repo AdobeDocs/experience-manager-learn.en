@@ -44,8 +44,8 @@ Adobe Experience Manager Sites is the leader in customer experience management b
     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
     <img alt="Getting Started with AEM Sites - WKND Tutorial" src="assets/aem-wknd-tutorial.png" />
     <br/>
-    <b>Getting Started with AEM Sites - WKND Tutorial</b>
     </a>
+    <b>Getting Started with AEM Sites - WKND Tutorial</b>
     <br />
     <i>How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM).</i>
   </td>
@@ -53,7 +53,9 @@ Adobe Experience Manager Sites is the leader in customer experience management b
     <a href="spa-editor/spa-editor-framework-feature-video-use.md">
     <img alt="Using the SPA Editor" src="assets/spa-editor.jpg" />
     <br/>
-    <b>Using the SPA Editor</b>
+    </a>
+    <a href="spa-editor/spa-editor-framework-feature-video-use.md">
+     <b>Using the SPA Editor</b>
     </a>
     <br />
     <i>AEM's SPA Editor provides authors the ability to edit content for a Single Page Application or SPA.</i>
@@ -62,6 +64,8 @@ Adobe Experience Manager Sites is the leader in customer experience management b
     <a href="translation/language-copy-feature-video-use.md">
     <img alt="Using Language Copy" src="assets/translation.png" />
     <br/>
+    </a>
+    <a href="translation/language-copy-feature-video-use.md">
     <b>Using Language Copy</b>
     </a>
     <br />
