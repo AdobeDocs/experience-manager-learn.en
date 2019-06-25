@@ -38,23 +38,37 @@ Adobe Experience Manager Sites is the leader in customer experience management b
 
 ## Trending Content
 
-![Getting Started with AEM Sites - WKND Tutorial](./assets/aem-wknd-tutorial.png)
-
-**[Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**
-
-*How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM).*
-
-![Using the SPA Editor](./assets/spa-editor.jpg)
-
-**[Using the SPA Editor](spa-editor/spa-editor-framework-feature-video-use.md)**
-
-*AEM's SPA Editor provides authors the ability to edit content for a Single Page Application or SPA.*
-
-![Using Language Copy](./assets/translation.png)
-
-**[Using Language Copy](translation/language-copy-feature-video-use.md)**
-
-*Users can create a language copy from master language without having to create a create a root page.*
+<table>
+<tr>
+  <td>
+    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+    <img alt="Getting Started with AEM Sites - WKND Tutorial" src="assets/aem-wknd-tutorial.png" />
+    <br/>
+    <b>Getting Started with AEM Sites - WKND Tutorial</b>
+    </a>
+    <br />
+    <i>How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM).</i>
+  </td>
+  <td>
+    <a href="spa-editor/spa-editor-framework-feature-video-use.md">
+    <img alt="Using the SPA Editor" src="assets/spa-editor.jpg" />
+    <br/>
+    <b>Using the SPA Editor</b>
+    </a>
+    <br />
+    <i>AEM's SPA Editor provides authors the ability to edit content for a Single Page Application or SPA.</i>
+  </td>
+  <td>
+    <a href="translation/language-copy-feature-video-use.md">
+    <img alt="Using Language Copy" src="assets/translation.png" />
+    <br/>
+    <b>Using Language Copy</b>
+    </a>
+    <br />
+    <i>Users can create a language copy from master language without having to create a create a root page.</i>
+  </td>
+</tr>
+</table>
 
 ## Additional AEM Sites Resources
 
