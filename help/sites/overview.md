@@ -12,27 +12,27 @@ Adobe Experience Manager Sites is the leader in customer experience management b
 
 ## What's New
 
-+ **[Using Adobe Analytics Activity Map (Video)](./analytics/activity-map-feature-video-use.md)**
+* **[Using Adobe Analytics Activity Map (Video)](./analytics/activity-map-feature-video-use.md)**
 
     *Learn about integrating Adobe Analytics and AEM Sites.*
 
-+ **[Using Content Fragments (Video)](./experience-fragments/experience-fragment-target-feature-video-use.md)**
+* **[Using Content Fragments (Video)](./experience-fragments/experience-fragment-target-feature-video-use.md)**
 
     *Content Fragments are a content abstraction in AEM that allows text-based content to be authored and managed independently of the channels it supports.*
 
-+ **[Understanding Core Components (Article)](./components/core-components-feature-video-understand.md)**
+* **[Understanding Core Components (Article)](./components/core-components-feature-video-understand.md)**
 
     *Core Components 2.4.0 is here!*
 
-+ **[Understanding SPA components in AEM SPA Editor (Video)](./spa-editor/spa-editor-components-technical-video-understand.md)**
+* **[Understanding SPA components in AEM SPA Editor (Video)](./spa-editor/spa-editor-components-technical-video-understand.md)**
 
     *A video series explaining how SPA components, built with AEM's SPA Editor JS SDK's are powered by AEM content.*
 
-+ **[Using Building Blocks with Experience Fragments (Video)](./experience-fragments/building-blocks-experience-fragment-feature-video-use.md)**
+* **[Using Building Blocks with Experience Fragments (Video)](./experience-fragments/building-blocks-experience-fragment-feature-video-use.md)**
 
     *AEM Experience Fragments introduces a new ability that lets content authors to create a building block consisting of components, that lets authors to re-use content across different variations and across different templates.*
 
-+ **[Set up Social Posting with Experience Fragments (Video)](./experience-fragments/experience-fragments-social-technical-video-setup.md)**
+* **[Set up Social Posting with Experience Fragments (Video)](./experience-fragments/experience-fragments-social-technical-video-setup.md)**
 
     *Experience Fragments allow marketers to post experiences created in AEM to social media platforms. The video below details the setup and configuration necessary to publish Experience Fragments to Facebook and Pinterest.*
 
