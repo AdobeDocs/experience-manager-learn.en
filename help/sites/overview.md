@@ -45,8 +45,10 @@ Adobe Experience Manager Sites is the leader in customer experience management b
     <img alt="Getting Started with AEM Sites - WKND Tutorial" src="assets/aem-wknd-tutorial.png" />
     <br/>
     </a>
+     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
     <b>Getting Started with AEM Sites - WKND Tutorial</b>
-    <br />
+    </a>
+    <br/>
     <i>How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM).</i>
   </td>
   <td>
