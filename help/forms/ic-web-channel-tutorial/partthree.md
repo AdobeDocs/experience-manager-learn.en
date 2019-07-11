@@ -3,7 +3,15 @@ title: Creating Form Data Model
 seo-title: Creating Form Data Model
 description: This is part 3 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create Form Data Model. Form Data Model allows you to configure and connect to disparate data sources.It provides an intuitive user interface to create a unified data representation schema of business entities and services across connected data sources.The following video walks through the steps to create Form Data Model.
 seo-description: This is part 3 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create Form Data Model. Form Data Model allows you to configure and connect to disparate data sources.It provides an intuitive user interface to create a unified data representation schema of business entities and services across connected data sources. The following video walks through the steps to create Form Data Model.
-
+uuid: c3bfd212-049d-4abd-9849-64129dae2a83
+products: SG_EXPERIENCEMANAGER/6.4/FORMS
+topic-tags: forms
+topic-tags: adaptive_documents
+discoiquuid: 723b7ef3-f552-4710-b2a4-410b0b1b7525
+targetaudience: target-audience ongoing
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Form Data Model

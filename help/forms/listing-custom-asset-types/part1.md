@@ -3,6 +3,14 @@ title: Registering Custom Asset Types
 seo-title: Registering Custom Asset Types
 description: Enabling custom asset types for listing in AEMForms Portal
 seo-description: Enabling custom asset types for listing in AEMForms Portal
+uuid: eaf29eb0-a0f6-493e-b267-1c5c4ddbe6aa
+products: SG_AEM_6_3_FORMS
+products: SG_EXPERIENCEMANAGER/6.3/FORMS
+products: SG_EXPERIENCEMANAGER/6.4/FORMS
+discoiquuid: 99944f44-0985-4320-b437-06c5adfc60a1
+index: y
+internal: n
+snippet: y
 ---
 
 # Registering Custom Asset Types {#registering-custom-asset-types}

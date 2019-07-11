@@ -3,6 +3,12 @@ title: Create Layout using Forms Designer
 seo-title: Create Layout using Forms Designer
 description: This is part 4 of multipart tutorial for creating your first interactive communication document for the print channel.In this part, we look at the layout file created using AEM Forms Designer.
 seo-description: This is part 4 of multipart tutorial for creating your first interactive communication document for the print channel.In this part, we look at the layout file created using AEM Forms Designer.
+uuid: 2f014c58-1ae1-40e8-a45d-7ffe9c86f693
+contentOwner: gbedekar
+discoiquuid: 17f4cdbb-079b-4fe3-861d-cfa0c03d30dd
+index: y
+internal: n
+snippet: y
 
 ---
 

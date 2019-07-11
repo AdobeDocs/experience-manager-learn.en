@@ -3,6 +3,11 @@ title: Create Interactive Communication For Print Channel
 seo-title: Create Interactive Communication For Print Channel
 description: This is part 6 of multipart tutorial for creating your first interactive communication document for the print channel. In this part, Interactive Communication Document for Print channel is created.
 seo-description: This is part 6 of multipart tutorial for creating your first interactive communication document for the print channel. In this part, Interactive Communication Document for Print channel is created.
+uuid: 25318a2a-be9d-47d8-806b-d99c8e1c6a74
+discoiquuid: 6e3f9c8c-8ec4-4084-bf35-1c97a5b463f1
+index: y
+internal: n
+snippet: y
 
 ---
 
