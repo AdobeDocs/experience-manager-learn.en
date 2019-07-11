@@ -23,4 +23,3 @@ Troubleshooting tips and tricks for debugging the AEM Sites and Adobe Analytics 
 ## Supporting materials {#supporting-materials}
 
 * [Adobe Analytics Log-in](https://my.omniture.com/login/)
-

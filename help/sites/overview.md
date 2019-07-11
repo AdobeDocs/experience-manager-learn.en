@@ -31,6 +31,10 @@ Adobe Experience Manager Sites is the leader in customer experience management b
 |---------|------|------|
 | ![Getting Started with AEM Sites - WKND Tutorial](assets/aem-wknd-tutorial.png) <br/> [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)<br/> *How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM)*| ![Getting Started with AEM Sites - WKND Tutorial](assets/aem-wknd-tutorial.png) <br/> [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)<br/> *How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM)* | ![Getting Started with AEM Sites - WKND Tutorial](assets/aem-wknd-tutorial.png) <br/> [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)<br/> *How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM)* |
 
+|[Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)|[Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)|[Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)|
+|---------|------|------|
+| ![Getting Started with AEM Sites - WKND Tutorial](assets/aem-wknd-tutorial.png) <br/> *How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM)*| ![Getting Started with AEM Sites - WKND Tutorial](assets/aem-wknd-tutorial.png) <br/> *How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM)* | ![Getting Started with AEM Sites - WKND Tutorial](assets/aem-wknd-tutorial.png) <br/> *How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM)* |
+
 ## HTML Table
 
 <table>
@@ -38,12 +42,11 @@ Adobe Experience Manager Sites is the leader in customer experience management b
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
     <img alt="Getting Started with AEM Sites - WKND Tutorial" src="assets/aem-wknd-tutorial.png" />
-    <br/>
     </a>
+    <br/>
      <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <b>Getting Started with AEM Sites - WKND Tutorial</b>
+    <b>Getting Started with AEM Sites - WKND Tutorial</b><br/>
     </a>
-    <br/>
     <i>How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM).</i>
   </td>
   <td>
@@ -52,9 +55,8 @@ Adobe Experience Manager Sites is the leader in customer experience management b
     <br/>
     </a>
     <a href="spa-editor/spa-editor-framework-feature-video-use.md">
-     <b>Using the SPA Editor</b>
+     <b>Using the SPA Editor</b><br/>
     </a>
-    <br />
     <i>AEM's SPA Editor provides authors the ability to edit content for a Single Page Application or SPA.</i>
   </td>
   <td>
@@ -63,9 +65,8 @@ Adobe Experience Manager Sites is the leader in customer experience management b
     <br/>
     </a>
     <a href="translation/language-copy-feature-video-use.md">
-    <b>Using Language Copy</b>
+    <b>Using Language Copy</b><br/>
     </a>
-    <br />
     <i>Users can create a language copy from master language without having to create a create a root page.</i>
   </td>
 </tr>

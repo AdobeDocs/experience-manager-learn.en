@@ -12,14 +12,15 @@ index: y
   + [Understanding Core Components](components/core-components-feature-video-understand.md)
 + Content Fragments {#content-fragments}
   + [Using Content Fragments](content-fragments/content-fragments-feature-video-use.md)
+  + [Using Translation with Content Fragments](content-fragments/content-fragments-translation-feature-video-use.md)
 + Experience Fragments {#experience-fragments}
-  + [Overview Video](experience-fragments/experience-fragments-feature-video-use.md)
+  + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
   + [Understanding Experience Fragments](experience-fragments/experience-fragments-feature-video-understand.md)
   + [Using Building Blocks](experience-fragments/building-blocks-experience-fragment-feature-video-use.md)
   + [Using as Offers with Adobe Target](experience-fragments/experience-fragment-target-offer-feature-video-use.md)
   + [Setup Integration with Adobe Target](experience-fragments/experience-fragment-target-feature-video-setup.md)
   + [Using Export to Adobe Target](experience-fragments/experience-fragment-target-feature-video-use.md)
-  + [Setup Social Posting](experience-fragments/experience-fragments-social-technical-video-setup.md)
+  + [Setup Social Posting with Experience Fragments](experience-fragments/experience-fragments-social-technical-video-setup.md)
 + Single Page Applications {#spa-editor}
   + [Using the SPA Editor](spa-editor/spa-editor-framework-feature-video-use.md)
 + Translation {#translation}
