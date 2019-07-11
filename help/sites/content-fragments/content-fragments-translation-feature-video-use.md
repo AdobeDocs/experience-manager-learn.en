@@ -41,4 +41,3 @@ There are four options for translating Content Fragment assets:
 4. **Inline Media Assets and Associated Collections**
 
 ![Translation Config](assets/classic-ui-dialog.png)
-

@@ -30,10 +30,10 @@ AEM Content Fragments are text-based editorial content that may include some str
 This video series covers the end-to-end life-cycle of Content Fragments in AEM, from definition to delivery.
 
 1. Enabling and defining Content Fragment Models
-1. Authoring Content Fragments
-1. Downloading Content Fragments
-1. Using Content Fragments on web pages
-1. Exposing Content Fragments as JSON using AEM Content Services
+2. Authoring Content Fragments
+3. Downloading Content Fragments
+4. Using Content Fragments on web pages
+5. Exposing Content Fragments as JSON using AEM Content Services
 
 ## Defining Content Fragment Models {#defining-content-fragment-models}
 
@@ -49,9 +49,8 @@ AEM Configurations must be applied to AEM Assets folder hierarchies to allow the
 
 Content Fragments can have multiple variants, each variant addressing a different use-case (thought, not necessarily channel) for the content.
 
-Example athlete biography for import.
-
-[sandra-sprient-bio.txt](assets/sandra-sprient-bio.txt)
+*Example athlete biography for import:*  
+**[sandra-sprient-bio.txt](assets/sandra-sprient-bio.txt)**
 
 ## Downloading Content Fragments {#downloading-content-fragments}
 
@@ -59,15 +58,16 @@ Example athlete biography for import.
 
 AEM Content Fragments can be downloaded from AEM Author as a Zip file containing Variants, Elements, and Metadata.
 
-Example Content Fragment download Zip file
-
-[daniel_schreder.zip](assets/daniel_schreder.zip)
+*Example Content Fragment download Zip file:*  
+**[daniel_schreder.zip](assets/daniel_schreder.zip)**
 
 ## Content Fragment editorial capabilities {#editorial-capabilities}
 
 >[!VIDEO](https://video.tv.adobe.com/v/25891/?quality=12)
 
-*Annotation and version compare for Content Fragments were introduced in [AEM 6.4 Service Pack 2](https://helpx.adobe.com/experience-manager/aem-releases-updates.html) and [AEM 6.3 Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html).*
+>[!NOTE]
+>
+> Annotation and version compare for Content Fragments were introduced in [AEM 6.4 Service Pack 2](https://helpx.adobe.com/experience-manager/aem-releases-updates.html) and [AEM 6.3 Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html).
 
 ## Using Content Fragments in Web pages {#using-content-fragments-in-web-pages}
 
@@ -83,15 +83,13 @@ Content Fragment components can be styled using AEM's Style System to display th
 
 AEM Content Services facilitates the creation of AEM Page-based HTTP end-points that rendition content into a normalized JSON format.
 
-Example Content Services end-point JSON payload
+*Example Content Services end-point JSON payload:*  
+**[athletes.json](assets/athletes.json)**
 
-[athletes.json](assets/athletes.json)
-
-## Supporting materials {#supporting-materials}
+## Additional Resources {#additional-resources}
 
 * [AEM Core WCM Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components)
 * [AEM Core WCM Content Fragment Component](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)
 
-To download and install the package below on an AEM 6.4+ instance for the final state from the video series.
-
-[aem_demo_fluid-experiencescontent-fragments-100.zip](assets/aem_demo_fluid-experiencescontent-fragments-100.zip)
+To download and install the package below on an AEM 6.4+ instance for the final state from the video series:  
+**[aem_demo_fluid-experiencescontent-fragments-100.zip](assets/aem_demo_fluid-experiencescontent-fragments-100.zip)**
