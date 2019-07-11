@@ -2,6 +2,7 @@
 title: Storing Adaptive Form Data
 seo-title: Storing Adaptive Form Data
 description: Storing Adaptive Form Data into DataBase as part of your AEM Workflow
+seo-description: Storing Adaptive Form Data into DataBase as part of your AEM Workflow
 
 ---
 

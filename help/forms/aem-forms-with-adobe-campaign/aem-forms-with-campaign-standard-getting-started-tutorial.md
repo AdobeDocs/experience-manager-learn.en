@@ -3,6 +3,15 @@ title: Getting Started with AEM Forms and Adobe Campaign Standard
 seo-title: Getting Started with AEM Forms and Adobe Campaign Standard
 description: null
 seo-description: null
+uuid: 56450c9b-3752-4a64-b1b3-8c78e81f5921
+contentOwner: gbedekar
+products: SG_EXPERIENCEMANAGER/6.4/FORMS
+products: SG_CAMPAIGN/STANDARD
+topic-tags: adaptive_forms
+discoiquuid: 89245554-7b99-4e7e-9810-52191f9ea365
+index: y
+internal: n
+snippet: y
 ---
 
 # Getting Started with AEM Forms and Adobe Campaign Standard {#getting-started-with-aem-forms-and-adobe-campaign-standard}

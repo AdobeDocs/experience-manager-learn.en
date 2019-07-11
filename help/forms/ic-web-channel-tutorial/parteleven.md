@@ -3,6 +3,13 @@ title: Configuring Investment Mix Panel
 seo-title: Configuring Investment Mix Panel
 description: This is part 11 of multistep tutorial for creating your first interactive communications document.In this part, we will add pie charts to display the current and model investment mix.
 seo-description: This is part 11 of multistep tutorial for creating your first interactive communications document.In this part, we will add pie charts to display the current and model investment mix.
+uuid: b0132912-cb6e-4dec-8309-5125d29ad291
+products: SG_EXPERIENCEMANAGER/6.4/FORMS
+topic-tags: adaptive_documents
+discoiquuid: 77de4e76-53ee-467c-a71c-d1d3ea15283b
+index: y
+internal: n
+snippet: y
 
 ---
 

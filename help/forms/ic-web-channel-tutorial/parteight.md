@@ -3,6 +3,14 @@ title: Configuring line chart for your first interactive communication document
 seo-title: Configuring line chart for your first interactive communication document
 description: This is part 8 of multistep tutorial for creating your first interactive communications document. In this part, we will add a Line chart to the account progress panel.
 seo-description: This is part 8 of multistep tutorial for creating your first interactive communications document. In this part, we will add a Line chart to the account progress panel.
+uuid: 08c3e7af-e3cb-4ee0-bdc1-d112bfa70e40
+products: SG_EXPERIENCEMANAGER/6.4/FORMS
+topic-tags: adaptive_documents
+topic-tags: forms
+discoiquuid: 4292303c-3ef4-4df2-b537-fdb011412670
+index: y
+internal: n
+snippet: y
 
 ---
 

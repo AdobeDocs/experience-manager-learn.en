@@ -3,6 +3,11 @@ title: Create Interactive Communication for Web Channel
 seo-title: Create Interactive Communication for Web Channel
 description: This is part 6 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create Interactive Communication for Web Channel.
 seo-description: This is part 6 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create Interactive Communication for Web Channel.
+uuid: a1b29c5b-a323-4bda-aa99-5fb98614b690
+discoiquuid: b44ff855-9ead-471e-8f0f-b562b88a5337
+index: y
+internal: n
+snippet: y
 
 ---
 

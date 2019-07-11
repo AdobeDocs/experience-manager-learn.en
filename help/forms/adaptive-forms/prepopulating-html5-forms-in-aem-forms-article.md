@@ -49,6 +49,4 @@ The package will install the following
 
 >[NOTE]If you want to propulate your form by calling workbench process, you may want to include the callWorkbenchProcess.jsp in your /apps/AEMFormsDemoListings/customprofiles/PrepopulateForm/html.jsp instead of the setdata.jsp  
   
-* [Point your favorite browser to this url](  
-http://localhost:4502/content/dam/formsanddocuments/PrepopulateMobileForm.xdp/jcr:content?name=Adobe%20Systems)  
-You your form should get pre-populated with the value of the name parameter
+* [Point your favorite browser to this url](http://localhost:4502/content/dam/formsanddocuments/PrepopulateMobileForm.xdp/jcr:content?name=Adobe%20Systems). Form should get pre-populated with the value of the name parameter
