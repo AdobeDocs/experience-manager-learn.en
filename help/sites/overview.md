@@ -84,4 +84,4 @@ Adobe Experience Manager Sites is the leader in customer experience management b
 
 * [AEM Assets Videos and Tutorials](/help/assets/overview.md)
 * [AEM Forms Videos and Tutorials](/help/forms/introduction.md)
-* [AEM Platform Videos and Tutorials](/help/foundation/introduction.md)
+* [AEM Foundation Videos and Tutorials](/help/foundation/overview.md)

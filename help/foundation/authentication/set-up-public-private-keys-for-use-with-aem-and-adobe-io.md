@@ -1,6 +1,6 @@
 ---
-title: Setup public and private keys for use with AEM and Adobe I/O
-seo-title: Setup public and private keys for use with AEM and Adobe I/O
+title: Set up public and private keys for use with AEM and Adobe I/O
+seo-title: Set up public and private keys for use with AEM and Adobe I/O
 description: AEM uses public/private key pairs to securely communicate with Adobe I/O and other web services. This short tutorial illustrates how compatible keys and keystores can be generated using the openssl command line tool that works with both AEM and Adobe I/O. 
 seo-description: AEM uses public/private key pairs to securely communicate with Adobe I/O and other web services. This short tutorial illustrates how compatible keys and keystores can be generated using the openssl command line tool that works with both AEM and Adobe I/O. 
 uuid: 99e24f1d-4ff4-485e-b2b5-4d159fb39f39
@@ -63,7 +63,7 @@ These values are required to load the keystore and keys into AEM.
 $ openssl pkcs12 -export -caname my-keystore -in certificate.crt -name my-key -inkey private.key -out keystore.p12 -passout pass:my-password
 ```
 
-The output of this command is a keystore.p12 file.
+The output of this command is a `keystore.p12` file.
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ my-key, Feb 5, 2019, PrivateKeyEntry,
 Certificate fingerprint (SHA1): 7C:6C:25:BD:52:D3:3B:29:83:FD:A2:93:A8:53:91:6A:25:1F:2D:52
 ```
 
-![Verify KeyStore in Adobe I/O](assets/adobe-io-2.png) 
+![Verify KeyStore in Adobe I/O](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--public-keys.png) 
 
 ## Adding the keystore to AEM {#adding-the-keystore-to-aem}
 
@@ -97,14 +97,14 @@ Navigate to **AEM &gt; Tools &gt; Security &gt; Users** and **edit the user** th
 
 ### Create an AEM keystore {#create-an-aem-keystore}
 
-![Create KeyStore in AEM](assets/aem-1.png)
+![Create KeyStore in AEM](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__aem--create-keystore.png)
 *AEM > Tools > Security > Users > Edit user*
 
 If prompted to Create KeyStore, do so. This Keystore will exist only in AEM and is NOT the keystore created via openssl. The password can be anything and does not have to be the same as the password used in the openssl command.
 
 ### Install the private key via the keystore {#install-the-private-key-via-the-keystore}
 
-![Add Private Key in AEM](assets/aem-2.png)
+![Add Private Key in AEM](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__aem--add-private-key.png)
 *User > Keystore > Add private key from keystore*
 
 In the user's keystore console, click **Add Private Key form KeyStore file** and add the following information:
@@ -117,7 +117,7 @@ In the user's keystore console, click **Add Private Key form KeyStore file** and
 
 ### Verify the private key is loaded into the AEM keystore {#verify-the-private-key-is-loaded-into-the-aem-keystore}
 
-![Verify Private Key in AEM](assets/aem-3.png)
+![Verify Private Key in AEM](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__aem--keystore.png)
 *User > Keystore*
 
 When the private key is successfully loaded from the provided keystore into the AEM keystore, the private key's metadata displays in the User's Keystore console.
@@ -128,7 +128,7 @@ The matching public key must be uploaded to Adobe I/O to allow the AEM service u
 
 ### Create a Adobe I/O new integration {#create-a-adobe-i-o-new-integration}
 
-![](assets/adobe-io-1.png)
+![Create a Adobe I/O new integration](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--create-new-integration.png)
 
 *[Create Adobe I/O Integration](https://console.adobe.io/) > New Integration*
 
@@ -136,7 +136,7 @@ Creating a new Integration in Adobe I/O requires uploading a public certificate.
 
 ### Verify the public keys are loaded in Adobe I/O {#verify-the-public-keys-are-loaded-in-adobe-i-o}
 
-![Verify Public Keys in Adobe I/O](assets/adobe-io-2-1.png)
+![Verify Public Keys in Adobe I/O](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--public-keys.png)
 
 The installed public keys and their Expiry dates are listed in the Integrations console on Adobe I/O. Multiple public keys can be added via the **Add a public key** button.
 
