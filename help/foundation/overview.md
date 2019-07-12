@@ -6,62 +6,62 @@ seo-description: A collection of videos and tutorials for Adobe Experience Manag
 products: SG_EXPERIENCEMANAGER/6.5
 ---
 
-# AEM Foundation {#overview}
+# Overview {#overview}
+
+Adobe Experience Manager Foundation provides a common set of capabilities available to users of AEM Sites, Assets and Forms.
 
 ## What's New
 
-* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**
-*Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
-
-* **[Understand IMS Authentication on AMS (Video)](authentication/adobe-ims-authentication-technical-video-understand.md)**
-*Adobe Experience Manager introduces Admin Console support for AEM instances and Adobe IMS (Identity Management System) based authentication for AEM on Managed Services.*
-
-* **[Use the CI/CD Pipeline in Cloud Manager for AEM (Video)](./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md)**
-*Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet flexible self-service CI/CD Pipeline that allows AEM project teams to quickly, safely and consistently deploy code to all AEM environments hosted in AMS.*
-
+* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
+    *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
+* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
+    *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
+* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
+    *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
 
 ## Staff Picks
 
 <table>
 <tr>
   <td>
-    <a href="./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md">
-    <img alt="Tmp" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--public-keys.png" />
+    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+    <img alt="Test" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--create-new-integration.png" />
     </a>
     <br/>
-    <a href="./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md">
-    <b>Getting Started with AEM Sites - WKND Tutorial</b><br/>
-    <br/>
+     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+    <b>Testing</b><br/>
     </a>
-    <i>How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM).</i>
+    <i>Test description.</i>
+  </td>
+   <td>
+    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+    <img alt="Test" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--create-new-integration.png" />
+    </a>
+    <br/>
+     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+    <b>Testing</b><br/>
+    </a>
+    <i>Test description.</i>
   </td>
   <td>
-    <a href="./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md">
-    <img alt="Tmp" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--public-keys.png" />
-    <br/>
-    </a>
-    <a href="./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md">
-     <b>Using the SPA Editor</b><br/>
+    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+    <img alt="Test" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--create-new-integration.png" />
     </a>
     <br/>
-    <i>AEM's SPA Editor provides authors the ability to edit content for a Single Page Application or SPA.</i>
-  </td>
-  <td>
-    <a href="./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md">
-    <img alt="Tmp" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--public-keys.png" />
-    <br/>
+     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+    <b>Testing</b><br/>
     </a>
-    <a href="./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md">
-    <b>Using Language Copy</b><br/>
-    </a>
-    <br/>
-    <i>Users can create a language copy from master language without having to create a create a root page.</i>
+    <i>Test description.</i>
   </td>
 </tr>
 </table>
 
 ## Additional Resources
 
-* [AEM Sites Tutorials and Videos](../sites/overview.md)
-* [AEM Assets Tutorials and Videos](../assets/overview.md)
-* [AEM Forms Tutorials and Videos](../forms/introduction.md)
+* [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+* [AEM Sites Authoring User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/user-guide.html)
+* [AEM Sites Developing User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html)
+* [AEM Sites Administering User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/administering/user-guide.html)
+* [AEM Sites Deploying User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
+* [AEM Assets Videos and Tutorials](/help/assets/overview.md)
+* [AEM Forms Videos and Tutorials](/help/forms/introduction.md)
