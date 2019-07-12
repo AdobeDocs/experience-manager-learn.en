@@ -15,7 +15,7 @@ internal: n
 snippet: y
 ---
 
-# Developing OAuth Scopes in AEM {#developing-oauth-scopes-in-aem}
+# Developing OAuth Scopes in AEM
 
 Adobe Experience Manager's extensible OAuth Scopes allow for access control for resources from a client application that is authorized by an end user. The diagram below illustrates the request flow in the context of AEM.
 
@@ -27,6 +27,4 @@ AEM's extensible OAuth scopes allow other custom scopes to be defined. For examp
 
 OAuth is the preferred method of authorizing a client application since it uses an access token instead of requiring an AEM user's credentials to be provided to that application.
 
-## View the code {#view-the-code}
-
-## Supporting materials {#supporting-materials}
+* [View the code](https://github.com/Adobe-Consulting-Services/acs-aem-samples/tree/master/bundle/src/main/java/com/adobe/acs/samples/authentication/oauth/impl/SampleScopeWithPrivileges.java)
