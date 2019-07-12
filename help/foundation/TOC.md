@@ -9,6 +9,7 @@ index: y
 
 + [Overview](./overview.md)
 + Administration {#administration}
+  + [Understand Reasons to Upgrade AEM](./administration/understand-reasons-to-upgrade.md)
   + [Use oak-run.jar to Manage Indexes](./administration/use-oak-run-jar-to-manage-indexes.md)
   + [Use Online Revision Clean-up](./administration/use-online-revision-clean-up.md)
   + [Use the System Overview Dashboard](./administration/use-the-system-overview-dashboard.md)
@@ -34,6 +35,7 @@ index: y
   + [Understand Cross-Origin Resource Sharing (CORS)](./security/understand-cross-origin-resource-sharing.md)
   + [Use the SSL Wizard](./security/use-the-ssl-wizard.md)
 + Workflow {#workflow}
+  + [Develop AEM Projects](./workflow/develop-aem-projects.md)
   + [Develop for Task Management](./workflow/develop-for-task-management.md)
   + [Use the Calendar View with AEM Projects and Inbox](./workflow/use-the-calendar-view-with-aem-projects-and-inbox.md)
   + [Use the Inbox](./workflow/use-the-inbox.md)
