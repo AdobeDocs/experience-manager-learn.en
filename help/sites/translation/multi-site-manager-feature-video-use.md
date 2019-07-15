@@ -1,8 +1,8 @@
 ---
 title: Using Multi-Site Manager with AEM Sites
-seo-title: Introducing Multi Site Manager Touch UI Interfaces
-description: AEM 6.3 introduces Live Copy Overview and Blueprint Configuration Manager interfaces that are Touch UI Enabled for working with Multi Site Manager. These interfaces replace Classic UI interfaces, bringing MSM feature parity to the Touch UI.
-seo-description: AEM 6.3 introduces Live Copy Overview and Blueprint Configuration Manager interfaces that are Touch UI Enabled for working with Multi Site Manager. These interfaces replace Classic UI interfaces, bringing MSM feature parity to the Touch UI.
+seo-title: Using Multi Site Manager Touch UI Interfaces with Adobe Experience Manager
+description: Live Copy Overview and Blueprint Configuration Manager are Touch UI Enabled interfaces for working with Multi Site Manager.
+seo-description: Live Copy Overview and Blueprint Configuration Manager are Touch UI Enabled interfaces for working with Multi Site Manager with Adobe Experience Manager.
 uuid: 76f295d0-78dd-429c-9129-9182b3a706a6
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 topic-tags: administering
@@ -15,7 +15,7 @@ snippet: y
 
 # Using Multi-Site Manager {#using-multi-site-manager-with-aem-sites}
 
-AEM 6.3 introduces Live Copy Overview and Blueprint Configuration Manager interfaces that are Touch UI Enabled for working with Multi Site Manager. These interfaces replace Classic UI interfaces, bringing MSM feature parity to the Touch UI.
+ Live Copy Overview and Blueprint Configuration Manager are Touch UI Enabled interfaces for working with Multi Site Manager feature of Adobe Experience Manager Sites.
 
 ## Live Copy Overview {#live-copy-overview}
 
@@ -29,3 +29,8 @@ AEM 6.3 introduces Live Copy Overview and Blueprint Configuration Manager interf
 
 *AEM 6.3 introduces a Touch UI interface to manage Blueprint configurations for use in Multi Site Manager.*
 
+## Additional Resources {#additional-resources}
+
+* [Live Copy Overview Console](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/msm-livecopy-overview.html)
+* [Creating and Synchronizing Live Copies](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/msm-livecopy.html)
+* [MSM Best Practices](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/msm-best-practices.html)

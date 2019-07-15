@@ -19,3 +19,7 @@ With AEM 6.3 Create Language Copy Wizard site translation enhancement, users can
 
 >[!VIDEO](https://video.tv.adobe.com/v/17116/?quality=9)
 
+## Additional Resources {#additional-resources}
+
+* [Language Copy Wizard Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-wizard.html)
+* [MSM Best Practices](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/msm-best-practices.html)
