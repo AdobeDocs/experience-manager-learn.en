@@ -5,7 +5,7 @@ description: Using Output and Forms Service API in AEM Forms
 seo-description: Using Output and Forms Service API in AEM Forms
 ---
 
-# Rendering Interactive PDF using Forms Services in AEM Forms {#developing-with-output-and-forms-services-in-aem-forms}
+# Rendering Interactive PDF using Forms Services in AEM Forms
 
 Using Forms Service API in AEM Forms to render interactive PDF
 
