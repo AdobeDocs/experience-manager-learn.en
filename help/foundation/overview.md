@@ -14,7 +14,7 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
 
 * **[Use Workflow Enhancements in AEM (Video)](./workflow/use-workflow-management.md)**
     <br>
-    *AEM Workflow management provides a user with more visibility over content under workflow, and allows for easier management of Workflow model definitions.*
+    *AEM Workflow management provides more visibility into under workflow, and eases management of Workflow model definitions.*
 
 * **[Understand Content Fragments and Experience Fragments (Article)](./administration/understand-content-fragments-and-experience-fragments.md)**
     <br>
@@ -22,11 +22,11 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
   
 * **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
     <br>
-    *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
+    *Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, inspection and self-service of AEM environments.*
 
 * **[Set up Public & Private keys for use with Adobe I/O (Tutorial)](./authentication/set-up-public-private-keys-for-use-with-aem-and-adobe-io.md)**  
     <br>
-    *This tutorial illustrates how keys and keystores can be generated using the openssl command line tool that works with both AEM and Adobe I/O.*
+    *This tutorial illustrates how keys and keystores can be generated using the openssl tool that works with AEM and Adobe I/O.*
 
 ## Staff Picks
 
@@ -46,7 +46,7 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
   </td>
    <td>
     <a href="./development/set-up-sling-dynamic-include.md">
-    <img alt="Set up Sling Dynamic Include (SDI)" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--create-new-integration.png" />
+    <img alt="Set up Sling Dynamic Include (SDI)" src="./development/assets/set-up-sling-dynamic-include/thumbnail.png" />
     </a>
     <br/>
      <a href="./development/set-up-sling-dynamic-include.md">
@@ -73,10 +73,10 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
 ## Additional Resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [AEM Sites Authoring User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/user-guide.html)
-* [AEM Sites Developing User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html)
-* [AEM Sites Administering User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/administering/user-guide.html)
-* [AEM Sites Deploying User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
+* [AEM Sites Authoring](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/user-guide.html)
+* [AEM Sites Developing](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html)
+* [AEM Sites Administering](https://helpx.adobe.com/experience-manager/6-5/sites/administering/user-guide.html)
+* [AEM Sites Deploying](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
 * [AEM Assets Videos and Tutorials](/help/sites/overview.md)
 * [AEM Assets Videos and Tutorials](/help/assets/overview.md)
 * [AEM Forms Videos and Tutorials](/help/forms/introduction.md)
