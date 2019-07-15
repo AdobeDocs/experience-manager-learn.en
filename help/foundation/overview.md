@@ -12,11 +12,16 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
 
 ## What's New
 
-* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
+* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**
+    <div>
     *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
-* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
+    </div>
+* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**
+    <p>
     *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
+    </p>
 * **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
+    <br>
     *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
 
 ## Staff Picks
