@@ -12,56 +12,60 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
 
 ## What's New
 
-* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**
-    <div>
-    *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
-    </div>
-* **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**
-    <p>
-    *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
-    </p>
+* **[Use Workflow Enhancements in AEM (Video)](./workflow/use-workflow-management.md)**
+    <br>
+    *AEM Workflow management provides a user with more visibility over content under workflow, and allows for easier management of Workflow model definitions.*
+
+* **[Understand Content Fragments and Experience Fragments (Article)](./administration/understand-content-fragments-and-experience-fragments.md)**
+    <br>
+    *Learn how Content Fragments and Experience Fragments are similar, different, and when and how to use each.*
+  
 * **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
     <br>
     *Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.*
+
+* **[Set up Public & Private keys for use with Adobe I/O (Tutorial)](./authentication/set-up-public-private-keys-for-use-with-aem-and-adobe-io.md)**  
+    <br>
+    *This tutorial illustrates how keys and keystores can be generated using the openssl command line tool that works with both AEM and Adobe I/O.*
 
 ## Staff Picks
 
 <table>
 <tr>
   <td>
-    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <img alt="Test" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--create-new-integration.png" />
+    <a href="./cloud-manager/understand-cloud-manager-for-aem.md">
+    <img alt="Understand Cloud Manager for AEM" src="./cloud-manager/assets/understand-cloud-manager-for-aem/thumbnail.png" />
     </a>
     <br/>
-     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <b>Testing</b><br/>
+     <a href="./cloud-manager/understand-cloud-manager-for-aem.md">
+    <b>Understand Cloud Manager for AEM</b><br/>
     </a>
     <div>
-    <i>Test description.</i>
+    <i>Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, inspection and self-service of AEM environments.</i>
     <div>
   </td>
    <td>
-    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <img alt="Test" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--create-new-integration.png" />
+    <a href="./development/set-up-sling-dynamic-include.md">
+    <img alt="Set up Sling Dynamic Include (SDI)" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--create-new-integration.png" />
     </a>
     <br/>
-     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <b>Testing</b><br/>
+     <a href="./development/set-up-sling-dynamic-include.md">
+    <b>Set up Sling Dynamic Include (SDI)</b><br/>
     </a>
     <p>
-    <i>Test description.</i>
+    <i>Explore how to use Sling Dynamic Include (SDI) to enable dynamic AEM components always serve fresh content.</i>
     <p>
   </td>
   <td>
-    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <img alt="Test" src="./authentication/assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io__adobe-io--create-new-integration.png" />
+    <a href="./administration/understand-reasons-to-upgrade.md">
+    <img alt="Understanding Reasons to Upgrade AEM" src="./administration/assets/understand-reasons-to-upgrade/thumbnail.png" />
     </a>
     <br/>
-     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <b>Testing</b><br/>
+     <a href="./administration/understand-reasons-to-upgrade.md">
+    <b>Understand Reasons to Upgrade AEM</b><br/>
     </a>
     <br/>
-    <i>Test description.</i>
+    <i>A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.</i>
   </td>
 </tr>
 </table>
@@ -73,5 +77,6 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
 * [AEM Sites Developing User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html)
 * [AEM Sites Administering User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/administering/user-guide.html)
 * [AEM Sites Deploying User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
+* [AEM Assets Videos and Tutorials](/help/sites/overview.md)
 * [AEM Assets Videos and Tutorials](/help/assets/overview.md)
 * [AEM Forms Videos and Tutorials](/help/forms/introduction.md)
