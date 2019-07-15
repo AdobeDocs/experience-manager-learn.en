@@ -36,36 +36,40 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
     <a href="./cloud-manager/understand-cloud-manager-for-aem.md">
     <img alt="Understand Cloud Manager for AEM" src="./cloud-manager/assets/understand-cloud-manager-for-aem/thumbnail.png" />
     </a>
-    <br/>
+    <div>
      <a href="./cloud-manager/understand-cloud-manager-for-aem.md">
-    <b>Understand Cloud Manager for AEM</b><br/>
+    <strong>Understand Cloud Manager for AEM</strong>
     </a>
-    <div>
-    <i>Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, inspection and self-service of AEM environments.</i>
-    <div>
+    </div>
+    <p>
+    <em>Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, inspection and self-service of AEM environments.</em>
+    <p>
   </td>
    <td>
     <a href="./development/set-up-sling-dynamic-include.md">
     <img alt="Set up Sling Dynamic Include (SDI)" src="./development/assets/set-up-sling-dynamic-include/thumbnail.png" />
     </a>
-    <br/>
+     <div>
      <a href="./development/set-up-sling-dynamic-include.md">
-    <b>Set up Sling Dynamic Include (SDI)</b><br/>
+    <strong>Set up Sling Dynamic Include (SDI)</strong>
     </a>
+    </div>
     <p>
-    <i>Explore how to use Sling Dynamic Include (SDI) to enable dynamic AEM components always serve fresh content.</i>
+    <em>Explore how to use Sling Dynamic Include (SDI) to enable dynamic AEM components always serve fresh content.</em>
     <p>
   </td>
   <td>
     <a href="./administration/understand-reasons-to-upgrade.md">
     <img alt="Understanding Reasons to Upgrade AEM" src="./administration/assets/understand-reasons-to-upgrade/thumbnail.png" />
     </a>
-    <br/>
-     <a href="./administration/understand-reasons-to-upgrade.md">
-    <b>Understand Reasons to Upgrade AEM</b><br/>
+    <div>
+    <a href="./administration/understand-reasons-to-upgrade.md">
+    <strong>Understand Reasons to Upgrade AEM</strong>
     </a>
-    <br/>
-    <i>A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.</i>
+    </div>
+    <p>
+    <em>A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.</em>
+    <p>
   </td>
 </tr>
 </table>
