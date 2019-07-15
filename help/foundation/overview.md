@@ -69,7 +69,7 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
     </div>
     <p>
     <em>A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.</em>
-    <p>
+    </p>
   </td>
 </tr>
 </table>
