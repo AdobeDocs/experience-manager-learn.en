@@ -13,23 +13,23 @@ internal: n
 snippet: y
 ---
 
-# Set up Social Posting with Experience Fragments{#set-up-social-posting-with-experience-fragments}
+# Set up Social Posting with Experience Fragments {#set-up-social-posting-with-experience-fragments}
 
 Experience Fragments allow marketers to post experiences created in AEM to social media platforms. The video below details the setup and configuration necessary to publish Experience Fragments to Facebook and Pinterest.
 
 >[!VIDEO](https://video.tv.adobe.com/v/20592/?quality=9)
 *[Experience Fragments] - Setup and configuration to social post to Facebook and Pinterest*
 
-## Checklist for configuring AEM Experience Fragments to post to Facebook and Pinterest
+## Checklist for configuring Experience Fragments to post to Facebook and Pinterest
 
-* AEM Author Instance is running on HTTPS
-* Facebook Account + Facebook Developer App
-* Pinterest Account + Pinterest Developer App
-* AEM Cloud Services Configuration - Facebook
-* AEM Cloud Services Configuration - Pinterest
-* AEM Experience Fragment with Cloud Services for Facebook + Pinterest
-* Experience Fragment Variation using Facebook Template
-* Experience Fragment Variation using Pinterest Template
+1. AEM Author Instance is running on HTTPS
+2. Facebook Account + Facebook Developer App
+3. Pinterest Account + Pinterest Developer App
+4. AEM Cloud Services Configuration - Facebook
+5. AEM Cloud Services Configuration - Pinterest
+6. AEM Experience Fragment with Cloud Services for Facebook + Pinterest
+7. Experience Fragment Variation using Facebook Template
+8. Experience Fragment Variation using Pinterest Template
 
 ## Experience Fragment Redirect URI
 
@@ -41,6 +41,3 @@ This URI is used for Facebook and Pinterest apps as part of the Oauth flow.
  https://localhost:8443/libs/cq/experience-fragments/components/redirect
 ```
 
->[!NOTE]
->
->The video details the Facebook App set up for v2.10. A previous version of this video had an out-dated Facebook App setup from v2.8.0. If you are receiving the error *"Can't load URL: The domain of this URL isn't included in the app's domains. To be able to load this URL, add all domains and sub-domains of your app to the App Domains field in your app settings.”* checkout the video above 1:30 - 2:30.

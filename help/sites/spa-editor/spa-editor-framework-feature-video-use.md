@@ -21,10 +21,15 @@ AEM's SPA Editor provides authors the ability to edit content for a Single Page 
 
 >[!VIDEO](https://video.tv.adobe.com/v/22229?quality=9)
 
-## Referenced Materials {#referenced-materials}
+>[!NOTE]
+>
+> The Single-Page Application (SPA) Editor feature requires AEM 6.4 service pack 2 or newer.
+>
+> The SPA Editor is the recommended solution for projects that require SPA framework based client-side rendering (e.g. React or Angular).
+
+## Additional Resources {#additional-resources}
 
 To use the We.Retail Journal SPA shown in the above videos:
 
 1. Install [AEM 6.4 + Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or [AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/release-notes.html)
-1. Install the [We.Retail Journal SPA package](https://github.com/adobe/aem-sample-we-retail-journal/releases)
-
+2. Install the [We.Retail Journal SPA package](https://github.com/adobe/aem-sample-we-retail-journal/releases)

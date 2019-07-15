@@ -1,8 +1,8 @@
 ---
 title: Set up Translation Rules in AEM
 seo-title: Setup Translation Rules in AEM
-description: AEM 6.3 introduces a Translation Configuration UI to manage rules for translating content in AEM Sites. This video details the creation of a new translation rule for a custom component.
-seo-description: AEM 6.3 introduces a Translation Configuration UI to manage rules for translating content in AEM Sites. This video details the creation of a new translation rule for a custom component.
+description: The Translation Configuration UI allows a user to manage rules for translating content in AEM Sites. This video details the creation of a new translation rule for a custom component.
+seo-description: The Translation Configuration UI allows a user to manage rules for translating content in AEM Sites. This video details the creation of a new translation rule for a custom component.
 uuid: 20955acd-ceae-4bff-b99b-b4bca5ae73a5
 products: SG_EXPERIENCEMANAGER/6.3/SITES
 topic-tags: language-support
@@ -13,19 +13,23 @@ internal: n
 snippet: y
 ---
 
-# Set up Translation Rules {#set-up-translation-rules-in-aem}
+# Setup Translation Rules {#set-up-translation-rules-in-aem}
 
-AEM 6.3 introduces a Translation Configuration UI to manage rules for translating content in AEM Sites. This video details the creation of a new translation rule for a custom component.
+The Translation Configuration UI allows a user to manage rules for translating content in AEM Sites. This video details the creation of a new translation rule for a custom component.
+
+>[!NOTE]
+>
+> The video below was recorded on AEM 6.3. AEM 6.4+ introduces a new repository structure for storing the translation rules XML file. When using the Translation Configuration UI in AEM 6.4+ the rules are saved to the location `/conf/global/settings/translation/rules/translation_rules.xml`. See [Identifying Content to Translate](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html) for more details.
 
 >[!VIDEO](https://video.tv.adobe.com/v/18135/?quality=9)
 
 Translation rules identify content in AEM to be extracted for translation. Out of the box translation rules cover common use cases such as Text components and alt text for Image components. Depending on a projects translation requirements additional rules may be need. In general translation rules allow users to specify:
 
 1. Properties that should be translated based on path and/or resource type
-1. Filters for properties that should NOT be translated
-1. Referenced content that should be translated (i.e Images or Content Fragments)
+2. Filters for properties that should NOT be translated
+3. Referenced content that should be translated (i.e Images or Content Fragments)
 
-Introduced in 6.3 is a translation rules editor that will update the translation xml file. The Translation Configuration UI makes it easier to manage various translation rules and guards against typos when editing XML directly.
+The translation rules editor that will update the translation xml file. The Translation Configuration UI makes it easier to manage various translation rules and guards against typos when editing XML directly.
 
 Access the Translation Configuration UI:
 
@@ -33,8 +37,11 @@ Access the Translation Configuration UI:
 
 ## Prior to AEM 6.3 {#prior-to-aem}
 
-In prior AEM version translation rules were manually updated by editing an XML file located under the Translation workflow:
+In prior AEM version translation rules were manually updated by editing an XML file located under the Translation workflow: `/etc/workflow/models/translation/translation_rules.xml`.
 
-* `/etc/workflow/models/translation/translation_rules.xml`
+## Additional Resources {#additional-resources}
 
-For more detailed information about translation rules and capabilities see: [Identifying Content to Translate](https://docs.adobe.com/docs/en/aem/6-3/administer/sites/translation/tc-rules.html).
+* [Identifying Content to Translate](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html)
+* [Translating Content for Multilingual Sites](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/translation.html)
+* [https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)
+* [Translation Best Practices](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-bp.html)
