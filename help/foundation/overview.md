@@ -31,7 +31,9 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
      <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
     <b>Testing</b><br/>
     </a>
+    <div>
     <i>Test description.</i>
+    <div>
   </td>
    <td>
     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
@@ -41,7 +43,9 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
      <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
     <b>Testing</b><br/>
     </a>
+    <p>
     <i>Test description.</i>
+    <p>
   </td>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
@@ -51,6 +55,7 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
      <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
     <b>Testing</b><br/>
     </a>
+    <br/>
     <i>Test description.</i>
   </td>
 </tr>
