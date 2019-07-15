@@ -14,7 +14,7 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
 
 * **[Use Workflow Enhancements in AEM (Video)](./workflow/use-workflow-management.md)**
     <br>
-    *AEM Workflow management provides more visibility into under workflow, and eases management of Workflow model definitions.*
+    *AEM Workflow management provides more visibility into running workflows, and eases management of Workflow model definitions.*
 
 * **[Understand Content Fragments and Experience Fragments (Article)](./administration/understand-content-fragments-and-experience-fragments.md)**
     <br>
@@ -24,9 +24,9 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
     <br>
     *Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, inspection and self-service of AEM environments.*
 
-* **[Set up Public & Private keys for use with Adobe I/O (Tutorial)](./authentication/set-up-public-private-keys-for-use-with-aem-and-adobe-io.md)**  
+* **[Set up public and private keys for use with Adobe I/O (Tutorial)](./authentication/set-up-public-private-keys-for-use-with-aem-and-adobe-io.md)**  
     <br>
-    *This tutorial illustrates how keys and keystores can be generated using the openssl tool that works with AEM and Adobe I/O.*
+    *This tutorial illustrates how keys and keystores can be generated using openssl that works with AEM and Adobe I/O.*
 
 ## Staff Picks
 
@@ -55,7 +55,7 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
     </a>
     </div>
     <p>
-    <em>Explore how to use Sling Dynamic Include (SDI) to enable dynamic AEM components always serve fresh content.</em>
+    <em>Explore how to set up Sling Dynamic Include (SDI) and allow dynamic AEM components to always serve fresh content.</em>
     <p>
   </td>
   <td>
@@ -68,7 +68,7 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
     </a>
     </div>
     <p>
-    <em>A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.</em>
+    <em>A high-level breakdown of key features to understand, when considering upgrading to the latest version of AEM.</em>
     </p>
   </td>
 </tr>
