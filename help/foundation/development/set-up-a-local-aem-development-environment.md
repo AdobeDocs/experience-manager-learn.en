@@ -206,19 +206,19 @@ log.info("Info statement of myVariable {}", myVariable);
 
 By default the **error.log** is configured to log *info* statements. If you want to change the log level you can do so by going to Log Support: [http://localhost:4502/system/console/slinglog](http://localhost:4502/system/console/slinglog). You may also find that the **error.log** is too chatty. You can use the Log Support to configure log statements for just a specified package. This is a best practice for projects, in order to easily separate custom code issues from OOT AEM platform issues.
 
-![Logging configuration in AEM](./assets/set-up-a-local-aem-development-environment__logging.png) 
+![Logging configuration in AEM](./assets/set-up-a-local-aem-development-environment/logging.png) 
 
 #### Bundle is in an Installed state {#bundle-active}
 
 All bundles (excluding Fragments) should be in an **Active** state. If you see your code bundle in an Installed state then there is an issue that needs to be resolved. Most times this is a dependency issue:
 
-![Bundle Error in AEM](assets/set-up-a-local-aem-development-environment__bundle-error.png)
+![Bundle Error in AEM](assets/set-up-a-local-aem-development-environment/bundle-error.png)
 
 In the above screenshot the WKND Core bundle is an Installed state. This is because the bundle is expecting a different version of `com.adobe.cq.wcm.core.components.models` than is available on the AEM instance. 
 
 A useful tool that can be used is the Dependency Finder: [http://localhost:4502/system/console/depfinder](http://localhost:4502/system/console/depfinder). Add the package name to inspect what version is available on the AEM instance:
 
-![Core Components](assets/set-up-a-local-aem-development-environment__core-components.png)
+![Core Components](assets/set-up-a-local-aem-development-environment/core-components.png)
 
 Continuing with the above example, we can see that the version installed on the AEM instance is **12.2** vs **12.6** that the bundle was expecting. From there you can work backwards and see if the Maven dependencies on AEM match the Maven dependencies in the AEM project. In the above example Core Components **v2.2.0** is installed on the AEM instance but the code bundle was built with a dependency on **v2.2.2**, hence the reason for the dependency issue.
 
@@ -226,7 +226,7 @@ Continuing with the above example, we can see that the version installed on the 
 
 AEM components should always be backed by a Sling Model to encapsulate any business logic and ensure that the HTL rendering script remains clean. If experiencing issues where the Sling Model cannot be found it may be helpful to check the Sling Models from the console: [http://localhost:4502/system/console/status-slingmodels](http://localhost:4502/system/console/status-slingmodels). This will tell you if your Sling Model has been registered and which resource type (the component path) it is tied to.
 
-![Sling Model Status](assets/set-up-a-local-aem-development-environment__sling-model-status.png)
+![Sling Model Status](assets/set-up-a-local-aem-development-environment/sling-model-status.png)
 
 Shows the registration of a Sling Model, `BylineImpl` that is tied to a component resource type of `wknd/components/content/byline`.
 
@@ -234,7 +234,7 @@ Shows the registration of a Sling Model, `BylineImpl` that is tied to a componen
 
 For most CSS and JavaScript issues, using the browser's development tools is the most effective way to troubleshoot. To narrow down the issue when developing against an AEM author instance it is helpful to view the page "as Published".
 
-![CSS or JS Issues](assets/set-up-a-local-aem-development-environment__css-and-js-issues.png)
+![CSS or JS Issues](assets/set-up-a-local-aem-development-environment/css-and-js-issues.png)
 
 Open the Page Properties menu and click "View as Published". This will open the page without the AEM editor and with a query parameter set to **wcmmode=disabled**. This will effectively disable the AEM authoring UI and make troubleshooting/debugging front-end issues much easier.
 
@@ -249,7 +249,7 @@ With different methods of categories and embeds to include multiple client libra
 * [Libraries Dependencies validation](http://localhost:4502/libs/granite/ui/content/dumplibs.validate.html) - highlights any dependencies or embedded categories that cannot be found. &lt;host&gt;/libs/granite/ui/content/dumplibs.validate.html
 * [Rebuild Client Libraries](http://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html) - allows a user to force AEM to rebuild all of the client libraries or invalidate the cache of client libraries. This tool is particularly effective when developing with LESS as this can force AEM to re-compile the generated CSS. In general it is more effective to Invalidate Caches and then perform a page refresh versus rebuilding all of the libraries. &lt;host&gt;/libs/granite/ui/content/dumplibs.rebuild.html
 
-![Debugging Clientlibs](assets/set-up-a-local-aem-development-environment__debugging-clientlibs.png)
+![Debugging Clientlibs](assets/set-up-a-local-aem-development-environment/debugging-clientlibs.png)
 
 >[!NOTE]
 >

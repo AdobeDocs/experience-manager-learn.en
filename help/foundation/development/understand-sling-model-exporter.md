@@ -29,7 +29,7 @@ Common patterns are developing Sling Models that represent AEM Components or Pag
 
 ### Sling Model HTTP Request flow
 
-![Sling Model Request Flow](./assets/understand-sling-model-exporter__sling-model-request-flow.png)
+![Sling Model Request Flow](./assets/understand-sling-model-exporter/sling-model-request-flow.png)
 
 1. HTTP GET Request is made for a resource in AEM.
 
@@ -51,7 +51,7 @@ Apache Sling Model Exporter comes with a Sling provided Jackson Exporter that au
 
 The direct serialization of Sling Models allows them to service both normal Web requests with their HTML responses created using the traditional Sling Model request flow (see above), but also expose JSON renditions that can be consumed by web services or JavaScript applications.
 
-![Sling Model Exporter HTTP Request flow](./assets/understand-sling-model-exporter__sling-model-exporter-request-flow.png)
+![Sling Model Exporter HTTP Request flow](./assets/understand-sling-model-exporter/sling-model-exporter-request-flow.png)
 
 *This flow describes the flow using the provided Jackson Exporter to produce JSON output. Use of custom exporters follow the same flow but with their output format.*
 
