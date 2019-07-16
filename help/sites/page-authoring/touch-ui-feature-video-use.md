@@ -15,7 +15,7 @@ snippet: y
 
 Discover how to accomplish your content tasks in record time in the Experience Manager Touch UI by leveraging reusable content and employing out-of-the-box components with user friendly navigation. The following video is a recording of a webinar presented by Gabriel Walt, a product manager for Adobe Experience Manager Sites.
 
->[!VIDEO](https://video.tv.adobe.com/v/16778/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/26146?quality=9)
 
 **[Presenter Slide Deck](assets/adobe_experiencemanagerui.pdf)**
 

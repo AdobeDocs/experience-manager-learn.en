@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Customizing Component Icons in AEM Sites {#developing-component-icons-in-aem-sites}
+# Customizing Component Icons {#developing-component-icons-in-aem-sites}
 
 Component Icons allow authors to quickly identify a component with icons or meaningful abbreviations. Authors can now find locate the Components required to build out their Web experiences faster than ever.
 
