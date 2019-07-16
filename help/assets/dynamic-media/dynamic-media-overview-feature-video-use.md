@@ -96,3 +96,9 @@ This video describes going beyond resizing images to take advantage of features 
 >Image QUALITY is measured in percentages of inverse compression, where 100% Quality is least compressed resulting in high quality images but relatively large file sizes. Jpeg compression is a lossy compression scheme where compression settings determine image quality and file size.
 
 Balance jpeg image quality against the resulting file size (in kilobytes) to enhance page load speed, using 2 commands to adjust jpeg compression settings. QLT defines the image quality by adjusting jpeg compression quality settings. JPEG Size command allows you to designate what file size needs to be achieved using compression.
+
+## Add CC Closed Captioning to Dynamic Media Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/28074/?quality=9)
+
+Easily add Closed Captioning to Dynamic Media video by appending the Copy URL to point to an additional Closed Captioning file document, a web .VTT sidecar file, containing the CC info for any video.
