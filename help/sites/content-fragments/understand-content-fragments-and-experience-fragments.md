@@ -138,7 +138,7 @@ audience: all
 
 The following diagram illustrates the overall architecture for AEM Content Fragments
 
-!![Content Fragments architecture](./assets/understand-content-fragments-and-experience-fragments/content-fragments-architecture.png)
+!![Content Fragments architecture](./assets/content-fragments-architecture.png)
 
 + **Content Fragment Models** define the elements (or fields) that define what content the Content Fragment may capture and expose.
 + The **Content Fragment** is an instance of a Content Fragment Model that represents a logical content entity.
@@ -151,7 +151,7 @@ The following diagram illustrates the overall architecture for AEM Content Fragm
 
 ## Experience Fragments architecture
 
-!![Experience Fragments architecture](./assets/understand-content-fragments-and-experience-fragments/experience-fragments-architecture.png)
+!![Experience Fragments architecture](./assets/experience-fragments-architecture.png)
 
 + **Editable Templates**, which in turn are defined by **Editable Template Types** and an **AEM Page component implementation**, define the allowed AEM Components that can be used to compose an Experience Fragment.
 + The **Experience Fragment** is an instance of an Editable Template that represents a logical experience.
