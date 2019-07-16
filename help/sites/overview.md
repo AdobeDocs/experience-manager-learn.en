@@ -1,6 +1,6 @@
 ---
-title: AEM Sites Videos and Tutorials
-seo-title: AEM Sites Videos and Tutorials
+title: AEM Sites Tutorials
+seo-title: AEM Sites Tutorials
 description: A collection of videos and tutorials for Adobe Experience Manager Sites. 
 seo-description: A collection of videos and tutorials for Adobe Experience Manager Sites
 products: SG_EXPERIENCEMANAGER/6.5/SITES
@@ -8,58 +8,68 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 
 # Overview {#overview}
 
-Adobe Experience Manager Sites is the leader in customer experience management by delivering personalized experiences for your whole audience — on any screen. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
+Adobe Experience Manager Sites is a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
 
 ## What's New
 
-* **[Using Adobe Analytics Activity Map (Video)](./analytics/activity-map-feature-video-use.md)**  
-  *Learn about integrating Adobe Analytics and AEM Sites.*
-* **[Using Content Fragments (Video)](./content-fragments/content-fragments-feature-video-use.md)**  
-    *Content Fragments are a content abstraction in AEM that allows text-based content to be authored and managed independently of the channels it supports.*
-* **[Understanding Core Components (Article)](./components/core-components-feature-video-understand.md)**  
+* **[Using Adobe Analytics Activity Map (Video)](./analytics/activity-map-feature-video-use.md)**
+    <br>
+    *Learn about integrating Adobe Analytics and AEM Sites.*
+
+* **[Using Content Fragments (Video)](./content-fragments/content-fragments-feature-video-use.md)**
+    <br>
+    *Content Fragments are channel agnostic pieces of content able to be re-used.*
+
+* **[Understanding Core Components (Article)](./components/core-components-feature-video-understand.md)**
+    <br>
     *Core Components 2.4.0 is here!*
-* **[Set up Social Posting with Experience Fragments (Video)](./experience-fragments/experience-fragments-social-technical-video-setup.md)**  
-    *Experience Fragments allow marketers to post experiences created in AEM to social media platforms. The video below details the setup and configuration necessary to publish Experience Fragments to Facebook and Pinterest.*
+
+* **[Set up Social Posting with Experience Fragments (Video)](./experience-fragments/experience-fragments-social-technical-video-setup.md)**
+    <br>
+    *Experience Fragments allow marketers to post experiences created in AEM to social media platforms.*
 
 ## Staff Picks
-
-|[Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)|[Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)|[Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)|
-|---------|------|------|
-| ![Getting Started with AEM Sites - WKND Tutorial](assets/aem-wknd-tutorial.png) <br/> *How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM)*| ![Getting Started with AEM Sites - WKND Tutorial](assets/aem-wknd-tutorial.png) <br/> *How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM)* | ![Getting Started with AEM Sites - WKND Tutorial](assets/aem-wknd-tutorial.png) <br/> *How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM)* |
-
-## HTML Table
 
 <table>
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <img alt="Getting Started with AEM Sites - WKND Tutorial" src="assets/aem-wknd-tutorial.png" />
+      <img alt="Getting Started with AEM Sites - WKND Tutorial" src="./assets/aem-wknd-tutorial.png" />
     </a>
-    <br/>
-     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <b>Getting Started with AEM Sites - WKND Tutorial</b><br/>
+    <div>
+      <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+    <strong>Getting Started with AEM Sites - WKND Tutorial</strong>
     </a>
-    <i>How to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM).</i>
+    </div>
+    <p>
+    <em>A getting started guide for developers looking to implement AEM Sites.</em>
+    <p>
+  </td>
+   <td>
+    <a href="./spa-editor/spa-editor-framework-feature-video-use.md">
+      <img alt="Using the SPA Editor" src="assets/spa-editor.jpg" />
+    </a>
+     <div>
+      <a href="./spa-editor/spa-editor-framework-feature-video-use.md">
+        <strong>Using the SPA Editor</strong>
+      </a>
+    </div>
+    <p>
+    <em>AEM's SPA Editor provides authors the ability to edit content for a Single Page Application or SPA.</em>
+    <p>
   </td>
   <td>
-    <a href="spa-editor/spa-editor-framework-feature-video-use.md">
-    <img alt="Using the SPA Editor" src="assets/spa-editor.jpg" />
-    <br/>
+    <a href="./translation/language-copy-feature-video-use.md">
+    <img alt="Using Language Copy" src="./assets/translation.png" />
     </a>
-    <a href="spa-editor/spa-editor-framework-feature-video-use.md">
-     <b>Using the SPA Editor</b><br/>
+    <div>
+    <a href="./translation/language-copy-feature-video-use.md">
+    <strong>Using Language Copy</strong>
     </a>
-    <i>AEM's SPA Editor provides authors the ability to edit content for a Single Page Application or SPA.</i>
-  </td>
-  <td>
-    <a href="translation/language-copy-feature-video-use.md">
-    <img alt="Using Language Copy" src="assets/translation.png" />
-    <br/>
-    </a>
-    <a href="translation/language-copy-feature-video-use.md">
-    <b>Using Language Copy</b><br/>
-    </a>
-    <i>Users can create a language copy from master language without having to create a create a root page.</i>
+    </div>
+    <p>
+    <em>Users can create a language copy from master language without having to create a create a root page.</em>
+    </p>
   </td>
 </tr>
 </table>
@@ -67,13 +77,10 @@ Adobe Experience Manager Sites is the leader in customer experience management b
 ## Additional Resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [AEM Sites Authoring User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/user-guide.html)
-* [AEM Sites Developing User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html)
-* [AEM Sites Administering User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/administering/user-guide.html)
-* [AEM Sites Deploying User Guide](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
-
-## Other AEM Tutorials and Videos
-
-* [AEM Assets Videos and Tutorials](/help/assets/overview.md)
-* [AEM Forms Videos and Tutorials](/help/forms/introduction.md)
-* [AEM Foundation Videos and Tutorials](../foundation/overview.md)
+* [AEM Sites Authoring Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/user-guide.html)
+* [AEM Sites Developing Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html)
+* [AEM Sites Administering Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/user-guide.html)
+* [AEM Sites Deploying Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
+* [AEM Assets Tutorials](/help/assets/overview.md)
+* [AEM Forms Tutorials](/help/forms/introduction.md)
+* [AEM Foundation Tutorials](/help/foundation/overview.md)

@@ -17,6 +17,7 @@ index: y
 + Content Fragments {#content-fragments}
   + [Using Content Fragments](content-fragments/content-fragments-feature-video-use.md)
   + [Using Translation with Content Fragments](content-fragments/content-fragments-translation-feature-video-use.md)
+  + [Understand Content Fragments vs. Experience Fragments](content-fragments/understand-content-fragments-and-experience-fragments.md)
 + Experience Fragments {#experience-fragments}
   + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
   + [Understanding Experience Fragments](experience-fragments/experience-fragments-feature-video-understand.md)

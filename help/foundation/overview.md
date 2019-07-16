@@ -15,10 +15,6 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
 * **[Use Workflow Enhancements in AEM (Video)](./workflow/use-workflow-management.md)**
     <br>
     *AEM Workflow management provides more visibility into running workflows, and eases management of Workflow model definitions.*
-
-* **[Understand Content Fragments and Experience Fragments (Article)](./administration/understand-content-fragments-and-experience-fragments.md)**
-    <br>
-    *Learn how Content Fragments and Experience Fragments are similar, different, and when and how to use each.*
   
 * **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
     <br>
