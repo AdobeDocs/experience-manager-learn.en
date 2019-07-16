@@ -12,7 +12,7 @@ Adobe Experience Manager Sites is a leading experience management platform. This
 
 ## What's New
 
-* **[Using Adobe Analytics Activity Map (Video)](./analytics/activity-map-feature-video-use.md)**
+* **[Using Adobe Analytics Activity Map (Video)](./integration/activity-map-feature-video-use.md)**
     <br>
     *Learn about integrating Adobe Analytics and AEM Sites.*
 
