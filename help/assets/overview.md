@@ -33,11 +33,11 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
    </a>
    <div>
       <a href="./analytics/asset-insights-launch-tutorial-setup.md">
-      <strong>Getting Started with AEM Asset Insights using Launch, By Adobe</strong>
+      <strong>Using AEM Asset Insights with Launch, By Adobe</strong>
       </a>
    </div>
    <p>
-      <em>In this multi part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Launch By Adobe.</em>
+      <em>Setup and configure Asset Insights for Experience Manager deployed via Launch By Adobe.</em>
    <p>
 </td>
 <td>
@@ -50,7 +50,7 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
       </a>
    </div>
    <p>
-      <em>This multi part video series gives you an overview of how media content is managed and accessed using Adobe Experience Manager Dynamic Media as a content serving service.</em>
+      <em>Overview of how media content is managed and accessed using Dynamic Media.</em>
    <p>
 </td>
 <td>
@@ -63,7 +63,7 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
       </a>
    </div>
    <p>
-      <em>Smart Tags allows for training the Smart Tags Algorithm with a customer-specific taxonomy and manually tagged assets. Enhanced Smart Tags can then be leveraged to improve user search experience and help find the assets at the right time.</em>
+      <em>Learn how Enhanced Smart Tags improves user search experience.</em>
    </p>
 </td>
 </table>
@@ -79,3 +79,6 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 * [AEM Assets Content Fragments Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/content-fragments.ug.js)
 * [AEM Assets Managing Assets Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/managing-assets.ug.js)
 * [AEM Assets Best Practices Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/using/best-practices-for-assets.html)
+* [AEM Sites Tutorials](/help/sites/overview.md)
+* [AEM Forms Tutorials](/help/forms/introduction.md)
+* [AEM Foundation Tutorials](/help/foundation/overview.md)
