@@ -28,6 +28,7 @@ index: y
   + [Understand Java API Best Practices](./development/understand-java-api-best-practices.md)
   + [Understand Sling Model Exporter](./development/understand-sling-model-exporter.md)
 + Projects {#projects}
+  + [Develop AEM Projects](./projects/develop-aem-projects.md)
   + [Use Project Masters](./projects/use-project-masters.md)
 + Security {#security}
   + [AEM Security Notification (November 2018)](./security/aem-security-notification-2018-11.md)
@@ -35,7 +36,6 @@ index: y
   + [Understand Cross-Origin Resource Sharing (CORS)](./security/understand-cross-origin-resource-sharing.md)
   + [Use the SSL Wizard](./security/use-the-ssl-wizard.md)
 + Workflow {#workflow}
-  + [Develop AEM Projects](./workflow/develop-aem-projects.md)
   + [Develop for Task Management](./workflow/develop-for-task-management.md)
   + [Use the Calendar View with AEM Projects and Inbox](./workflow/use-the-calendar-view-with-aem-projects-and-inbox.md)
   + [Use the Inbox](./workflow/use-the-inbox.md)

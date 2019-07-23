@@ -36,7 +36,7 @@ If needed, the certificate pass phrase is **admin**.
 
 localhost - private key and self-signed certificate.zip (expires July 2028)
 
-[Download the Certificate file](assets/use-the-ssl-wizard__certificate.zip)
+[Download the Certificate file](assets/use-the-ssl-wizard/certificate.zip)
 
 ## Private key and self-signed certificate generation
 
