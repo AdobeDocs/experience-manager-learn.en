@@ -25,7 +25,7 @@ CORS configurations are managed as OSGi configuration factories in AEM, with eac
 
 * `http://<host>:<port>/system/console/configMgr > Adobe Granite Cross Origin Resource Sharing Policy`
 
-![Adobe Granite Cross-Origin Resource Sharing Policy OSGi configuration](./assets/understand-cross-origin-resource-sharing__cors-osgi-config.png)
+![Adobe Granite Cross-Origin Resource Sharing Policy OSGi configuration](./assets/understand-cross-origin-resource-sharing/cors-osgi-config.png)
 
 Adobe Granite Cross-Origin Resource Sharing Policy (`com.adobe.granite.cors.impl.CORSPolicyImpl`)
 

@@ -45,7 +45,7 @@ In order to show inactive master projects, toggle the "show active" filter butto
 
 ## Understand Project Masters
 
-![Project masters technical view](assets/use-project-masters.png)
+![Project masters technical view](assets/use-project-masters/project-masters-architecture.png)
 
 Project Masters work by defining a set of AEM user groups (owners, editor and observer) and allowing derived Projects to reference and reuse those centrally defined user groups.
 
