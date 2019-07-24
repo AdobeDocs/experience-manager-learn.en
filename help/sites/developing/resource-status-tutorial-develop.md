@@ -3,16 +3,13 @@ title: Developing Resource Statuses in AEM Sites
 seo-title: Developing Resource Statuses in AEM Sites
 description: Adobe Experience Manager's Resource Status API's, is a pluggable framework for exposing status messaging in AEM's various editor Web UIs. 
 seo-description: Adobe Experience Manager's Resource Status API's, is a pluggable framework for exposing status messaging in AEM's various editor Web UIs. 
+topics: development
+audience: developer
+doc-type: tutorial
+activity: develop
+version: 6.3, 6.4, 6.5
 uuid: 2834761c-eaae-409d-9fff-43b5aadcd8e8
-topic-tags: page-authoring
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/6.3/SITES
-products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: c5606cc5-ae45-4db2-93b5-165866e49bba
-targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing Resource Statuses {#developing-resource-statuses-in-aem-sites}

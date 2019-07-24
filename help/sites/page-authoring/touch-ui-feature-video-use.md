@@ -3,12 +3,12 @@ title: Using the Adobe Experience Manager UI with Sites
 seo-title: Using the Adobe Experience Manager UI with Sites
 description: Discover how to accomplish your content tasks in record time in the Experience Manager Touch UI by leveraging reusable content and employing out-of-the-box components with user friendly navigation.
 seo-description: Discover how to accomplish your content tasks in record time in the Experience Manager Touch UI by leveraging reusable content and employing out-of-the-box components with user friendly navigation.
-topic-tags: developing
-topic-tags: page-features
-targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
+feature: page-editor, template-editor, core-components
+topics: authoring, components
+audience: author, marketer
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
 ---
 
 # Using the Adobe Experience Manager UI {#ui-aem-sites}

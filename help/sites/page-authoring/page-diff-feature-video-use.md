@@ -3,15 +3,14 @@ title: Using Page Difference with AEM Sites
 seo-title: Using Page Difference with AEM Sites
 description: AEM Sites' page difference capabilities show provides a quick, color-coded view of what content has changed in a page (version, live copy, launches, language copy).
 seo-description: AEM Sites' page difference capabilities show provides a quick, color-coded view of what content has changed in a page (version, live copy, launches, language copy).
+feature: page-diff
+topics: authoring
+audience: author, marketer
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
 uuid: e096a08b-528d-48c7-93fb-73b10c0a9259
-topic-tags: page-authoring
-products: SG_EXPERIENCEMANAGER/6.3/SITES
-products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 5e07ccac-0e94-4352-9848-d5ae9a293288
-targetaudience: target-audience new
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the Page Difference Feature {#using-page-difference-with-aem-sites}

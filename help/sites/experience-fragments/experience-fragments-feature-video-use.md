@@ -1,22 +1,22 @@
 ---
 title: Using AEM Experience Fragments
-seo-title: Using AEM Experience Fragments
-description: Experience Fragments is a new feature introduced in AEM 6.3. It allows content authors to reuse content across channels including Sites pages and 3rd party systems.
-seo-description: Experience Fragments are a new feature introduced in AEM 6.3 that allows content authors to reuse content across channels including Sites pages and 3rd party systems.
+seo-title: Using Adobe Experience Manager Experience Fragments
+description: Experience Fragments allows content authors to reuse content across channels including Sites pages and 3rd party systems.
+seo-description: Experience Fragments, a feature of Adobe Experience Manager (AEM), allows content authors to reuse content across channels including Sites pages and 3rd party systems.
+sub-product: sites, content-services
+feature: experience-fragments
+topics: authoring, content-architecture
+audience: all
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
 uuid: 0922d3e7-e839-4214-8b96-21495f688ed3
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-products: SG_EXPERIENCEMANAGER/6.3/SITES
-topic-tags: authoring
 discoiquuid: 27a28286-552f-493b-868c-e7d27302f583
-targetaudience: target-audience new
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Experience Fragments{#using-aem-experience-fragments}
 
-Experience Fragments is a new feature introduced in AEM 6.3. It allows content authors to reuse content across channels including Sites pages and 3rd party systems.
+Experience Fragments is a feature of Adobe Experience Manager or AEM, first introduced in AEM 6.3. Experience Fragments allows content authors to reuse content across channels including Sites pages and 3rd party systems.
 
 ## Experience Fragments Overview
 
@@ -33,7 +33,7 @@ With Experience Fragments marketers can:
 
 ## Building Blocks with Experience Fragments
 
-Building blocks is a new enhancement added to Experience Fragment in AEM 6.4. It lets content authors to create a building block consisting of components that could be re-used to create content across different variations and across different templates.
+Building blocks is a new enhancement added to Experience Fragment in AEM 6.4+. It lets content authors to create a building block consisting of components that could be re-used to create content across different variations and across different templates.
 
 >[!VIDEO](https://video.tv.adobe.com/v/21289/?quality=9)
 
@@ -48,9 +48,9 @@ Building blocks is a new enhancement added to Experience Fragment in AEM 6.4. It
 
 ## Experience Fragments Full-Text Search
 
->[!VIDEO](https://video.tv.adobe.com/v/27720/?quality=9)
-
 AEM 6.5, now supports full-text search capabilities for Experience Fragments.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27720/?quality=9)
 
 * **Content Authors** (Internal search) can now search for a text part within an Experience Fragment and the result would include the experience fragments containing the text as well as the page that references the experience fragment.
 * **Site Users** (External search) can now perform a full-text search using the search component, and the result would include site pages that reference the experience fragment containing the search keyword.

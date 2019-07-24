@@ -1,17 +1,16 @@
 ---
 title: Translation Enhancements in AEM
 seo-title: Translation Enhancements in AEM
-description: AEM's robust translation framework allows AEM content to be seamlessly translated by supported Translation vendors.
-seo-description: AEM's robust translation framework allows AEM content to be seamlessly translated by supported Translation vendors.
+description: AEM's robust translation framework allows AEM content to be seamlessly translated by supported Translation vendors. Learn about the latest enhancements.
+seo-description: AEM's robust translation framework allows AEM content to be seamlessly translated by supported Translation vendors. Learn about the latest enhancements.
+feature: multi-site-manager, language-copy
+topics: localization, authoring, content-architecture
+audience: author, marketer, developer
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
 uuid: ad3c8210-0eff-4a01-8d26-4b35be161377
-contentOwner: allee
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-topic-tags: administering
 discoiquuid: 2039effd-628f-4df6-a1c6-a33092518273
-targetaudience: target-audience ongoing;target-audience new
-index: y
-internal: n
-snippet: y
 ---
 
 # Translation Enhancements with Multi-Site Manager {#translation-enhancements}
