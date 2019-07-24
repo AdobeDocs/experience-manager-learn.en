@@ -3,22 +3,19 @@ title: Integrate Launch by Adobe with AEM Sites
 seo-title: Integrate Launch by Adobe with AEM Sites
 description: Technical walk-through of of how to configure the Adobe Experience Manager integration with Launch by Adobe. This integration allows customer to pull the Launch "embed codes" and related JavaScript libraries into AEM Sites.
 seo-description: Technical walk-through of of how to configure the Adobe Experience Manager integration with Launch by Adobe. This integration allows customer to pull the Launch "embed codes" and related JavaScript libraries into AEM Sites.
+sub-product: sites, launch-by-adobe
+topics: integrations
+audience: developer, implementer, marketer
+doc-type: tutorial
+activity: understand
+version: 6.4, 6.5
 uuid: abc18e60-02f2-438f-bbdf-412abe15ecf4
-products: SG_EXPERIENCEMANAGER/6.4
-topic-tags: DTM
-content-type: video
-products: SG_EXPERIENCECLOUD
-topic-tags: activation
 discoiquuid: 75fc8e92-ac51-40c0-8825-02990cc26514
-targetaudience: target-audience ongoing
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrate Launch by Adobe {#integrate-launch-by-adobe-with-aem-sites}
 
-Technical walk-through of of how to configure the Adobe Experience Manager (AEM) 6.4 integration with Launch by Adobe. This integration allows customer to pull the Launch "embed codes" and related JavaScript libraries into AEM Sites.
+Technical walk-through of of how to configure the Adobe Experience Manager (AEM) integration with Launch by Adobe. This integration allows customer to pull the Launch "embed codes" and related JavaScript libraries into AEM Sites.
 
 ## Overview {#overview}
 

@@ -3,18 +3,18 @@ title: Set Up Experience Fragments and Adobe Target Integration in AEM
 seo-title: Set Up Experience Fragments and Adobe Target Integration in AEM
 description: Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM and Target. Experiences created within AEM can now be delivered directly to Adobe Target as HTML Offers. It allows Marketers to seamlessly test and personalize content across different channels.
 seo-description: Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM and Target. Experiences created within AEM can now be delivered directly to Adobe Target as HTML Offers. It allows Marketers to seamlessly test and personalize content across different channels.
+sub-product: content-services
+feature: experience-fragments
+topics: integrations
+audience: administrator, developer
+doc-type: technical-video
+activity: setup
+version: 6.4, 6.5
 uuid: 05fd477d-0c1a-42c0-ab92-2bca86602e2e
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-products: SG_TARGET
-topic-tags: experience-fragments
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 16cb0b92-9398-4fd2-b8c3-f4b7675ef72c
-index: y
-internal: n
-snippet: y
 ---
 
-# Set Up Experience Fragments and Adobe Target Integration{#set-up-experience-fragments-and-adobe-target-integration}
+# Setup Experience Fragments and Adobe Target Integration{#set-up-experience-fragments-and-adobe-target-integration}
 
 Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM and Target. Experiences created within AEM can now be delivered directly to Adobe Target as HTML Offers. It allows Marketers to seamlessly test and personalize content across different channels.
 
@@ -32,4 +32,4 @@ Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM
 
 * [Fluid Personalization - AEM Experience Fragments in Adobe Target](https://www.youtube.com/watch?v=ohvKDjCb1yM)
 * [Experience Fragments Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
-* [Using Experience Fragments](experience-fragments-feature-video-use.md)
+* [Using Experience Fragments](/help/sites/experience-fragments/experience-fragments-feature-video-use.md)

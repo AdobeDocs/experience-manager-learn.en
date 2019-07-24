@@ -3,15 +3,15 @@ title: Using AEM Experience Fragment Offers within Adobe Target
 seo-title: Using AEM Experience Fragment Offers within Adobe Target
 description: Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM and Target. Experiences created within AEM can now be delivered directly to Adobe Target as HTML Offers. It allows Marketers to seamlessly test and personalize content across different channels.
 seo-description: Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM and Target. Experiences created within AEM can now be delivered directly to Adobe Target as HTML Offers. It allows Marketers to seamlessly test and personalize content across different channels.
+sub-product: content-services
+feature: experience-fragments
+topics: integrations, personalization
+audience: all
+doc-type: feature-video
+activity: setup
+version: 6.4, 6.5
 uuid: 7b91f65d-5a35-419a-8cf7-be850165dd33
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-products: SG_TARGET
-topic-tags: experience-fragments
-products: SG_EXPERIENCEMANAGER/6.3/SITES
 discoiquuid: 45fc8d83-73fb-42e5-9c92-ce588c085ed4
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Experience Fragment Offers within Adobe Target{#using-experience-fragment-offers-within-adobe-target}
@@ -47,4 +47,4 @@ Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM
 
 * [Fluid Personalization - AEM Experience Fragments in Adobe Target](https://www.youtube.com/watch?v=ohvKDjCb1yM)
 * [Experience Fragments Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
-* [Using Experience Fragments](experience-fragments-feature-video-use.md)
+* [Using Experience Fragments](/help/sites/experience-fragments/experience-fragments-feature-video-use.md)

@@ -1,8 +1,6 @@
 ---
-product: AEM
-audience: developer
 user-guide-title: AEM Sites Videos and Tutorials
-index: y
+sub-product: sites
 ---
 
 # AEM Sites Videos and Tutorials {#sites}
@@ -38,10 +36,10 @@ index: y
   + [Social Media Sharing](developing/social-media-sharing-technical-video-use.md)
   + [Customizing Component Icons](developing/component-icons-technical-video-develop.md)
 + Personalization {#personalization}
-  + [Setup ContextHub](personalization/context-hub-technical-video-setup.md)
   + [Integration with Adobe Target](https://helpx.adobe.com/marketing-cloud/how-to/aem-target.html)
-  + [Setup Experience Fragments and Adobe Target](experience-fragments/experience-fragment-target-feature-video-setup.md)
-  + [Using Experience Fragments with Adobe Target](experience-fragments/experience-fragment-target-offer-feature-video-use.md)
+  + [Setup Experience Fragments and Adobe Target](personalization/experience-fragment-target-technical-video-setup.md)
+  + [Using Experience Fragments with Adobe Target](personalization/experience-fragment-target-offer-feature-video-use.md)
+  + [Setup ContextHub](personalization/context-hub-technical-video-setup.md)
 + Single Page Applications {#spa-editor}
   + [Using the SPA Editor](spa-editor/spa-editor-framework-feature-video-use.md)
 + Translation {#translation}

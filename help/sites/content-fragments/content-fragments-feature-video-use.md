@@ -2,18 +2,16 @@
 title: Using Content Fragments in AEM
 seo-title: Using Content Fragments in AEM
 description: Content Fragments are a content abstraction in AEM that allows text-based content to be authored and managed independently of the channels it supports. 
-seo-description: Content Fragments are a content abstraction in AEM that allows text-based content to be authored and managed independently of the channels it supports. 
+seo-description: Content Fragments are a content abstraction in AEM that allows text-based content to be authored and managed independently of the channels it supports.
+sub-product: content-services
+feature: content-fragments
+topics: authoring, content-architecture
+audience: all
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
 uuid: 045473d2-5abe-4414-b91c-d369f3069ead
-topic-tags: content-fragments
-products: SG_EXPERIENCEMANAGER/6.3/SITES
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 912e0c41-83cf-49f7-b515-09519b6718c1
-targetaudience: target-audience new;target-audience ongoing
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Content Fragments {#using-content-fragments}

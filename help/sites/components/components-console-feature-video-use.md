@@ -3,14 +3,13 @@ title: Using the Components Console with AEM Sites
 seo-title: Using the Components Console with AEM Sites
 description: The Components Console provides developers and admin a central location to manage all of the various components in a Sites implementation. The following video details the features of the Components Console.
 seo-description: The Components Console provides developers and admin a central location to manage all of the various components in a Sites implementation. The following video details the features of the Components Console.
+topics: components
+audience: all
+doc-type: feature-video
+version: 6.3, 6.4, 6.5
+activity: use
 uuid: b0386c2e-8984-4b6f-b62d-591829d59fc1
-products: SG_EXPERIENCEMANAGER/6.3/SITES
-topic-tags: page-features
 discoiquuid: cfc905f2-3fdf-4af5-868c-9b2accc3990c
-targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the Components Console {#using-the-components-console-with-aem-sites}

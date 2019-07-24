@@ -3,15 +3,15 @@ title: Using Translation with AEM Content Fragments
 seo-title: Using Translation with AEM Content Fragments
 description: AEM 6.3 introduces the ability to translate Content Fragments. Mixed-media assets and Asset collections associated with a Content Fragment are also eligible to be extracted and translated.
 seo-description: AEM 6.3 introduces the ability to translate Content Fragments. Mixed-media assets and Asset collections associated with a Content Fragment are also eligible to be extracted and translated.
+sub-product: sites, assets, content-services
+feature: content-fragments, multi-site-manager
+topics: localization, content-architecture
+audience: all
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
 uuid: 732eebd4-929d-41b7-adf3-b12cf479f4ef
-contentOwner: dgordon
-products: SG_EXPERIENCEMANAGER/6.3/SITES
-topic-tags: content-fragments
 discoiquuid: a5963994-189f-42e1-a59a-12d7ff93e505
-targetaudience: target-audience new
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Translation with AEM Content Fragments{#using-translation-with-aem-content-fragments}

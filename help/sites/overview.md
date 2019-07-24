@@ -3,35 +3,48 @@ title: AEM Sites Tutorials
 seo-title: AEM Sites Tutorials
 description: A collection of videos and tutorials for Adobe Experience Manager Sites. 
 seo-description: A collection of videos and tutorials for Adobe Experience Manager Sites
-products: SG_EXPERIENCEMANAGER/6.5/SITES
+sub-product: sites, content-services
 ---
 
 # Overview {#overview}
 
-Adobe Experience Manager Sites is a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
+Adobe Experience Manager (AEM) Sites is a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
 
 ## What's New
 
-* **[Using Adobe Analytics Activity Map (Video)](./integration/activity-map-feature-video-use.md)**
+* **[Using Experience Fragments (Video)](./experience-fragments/experience-fragments-feature-video-use.md)**
     <br>
-    *Learn about integrating Adobe Analytics and AEM Sites.*
+    *Learn about AEM Experience Fragments for promoting content cross-channels.*
 
 * **[Using Content Fragments (Video)](./content-fragments/content-fragments-feature-video-use.md)**
     <br>
     *Content Fragments are channel agnostic pieces of content able to be re-used.*
 
-* **[Understanding Core Components (Article)](./components/core-components-feature-video-understand.md)**
+* **[Using the SPA Editor (Video)](./spa-editor/spa-editor-framework-feature-video-use.md)**
     <br>
-    *Core Components 2.4.0 is here!*
+    *Learn about AEM's editing capabilities for single page applications (SPA).*
 
-* **[Set up Social Posting with Experience Fragments (Video)](./experience-fragments/experience-fragments-social-technical-video-setup.md)**
+* **[Translation Enhancements (Video)](./translation/translation-enhancements-feature-video-use.md)**
     <br>
-    *Experience Fragments allow marketers to post experiences created in AEM to social media platforms.*
+    *Learn about the latest translation enhancements in Adobe Experience Manager Sites.*
 
 ## Staff Picks
 
 <table>
 <tr>
+  <td>
+    <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html">
+      <img alt="Getting Started with the AEM SPA Editor - WKND Events Tutorial" src="./assets/aem-wknd-spa-editor-tutorial.png" />
+    </a>
+     <div>
+      <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html">
+        <strong>Getting Started with the AEM SPA Editor - WKND Events Tutorial</strong>
+      </a>
+    </div>
+    <p>
+    <em>A getting started guide for developers to integrate a single page applications (SPA) with AEM.</em>
+    <p>
+  </td>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
       <img alt="Getting Started with AEM Sites - WKND Tutorial" src="./assets/aem-wknd-tutorial.png" />
@@ -45,30 +58,17 @@ Adobe Experience Manager Sites is a leading experience management platform. This
     <em>A getting started guide for developers looking to implement AEM Sites.</em>
     <p>
   </td>
-   <td>
-    <a href="./spa-editor/spa-editor-framework-feature-video-use.md">
-      <img alt="Using the SPA Editor" src="assets/spa-editor.jpg" />
-    </a>
-     <div>
-      <a href="./spa-editor/spa-editor-framework-feature-video-use.md">
-        <strong>Using the SPA Editor</strong>
-      </a>
-    </div>
-    <p>
-    <em>AEM's SPA Editor provides authors the ability to edit content for a Single Page Application or SPA.</em>
-    <p>
-  </td>
   <td>
-    <a href="./translation/language-copy-feature-video-use.md">
-    <img alt="Using Language Copy" src="./assets/translation.png" />
+    <a href="./page-authoring/style-system-feature-video-use.md">
+    <img alt="Using the Style System" src="./page-authoring/assets/style-system-thumbnail.png" />
     </a>
     <div>
-    <a href="./translation/language-copy-feature-video-use.md">
-    <strong>Using Language Copy</strong>
+    <a href="./page-authoring/style-system-feature-video-use.md">
+    <strong>Using the Style System</strong>
     </a>
     </div>
     <p>
-    <em>Users can create a language copy from master language without having to create a create a root page.</em>
+    <em>AEM's Style System allows visual variations of components without back-end development.</em>
     </p>
   </td>
 </tr>

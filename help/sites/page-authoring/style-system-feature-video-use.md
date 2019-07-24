@@ -3,15 +3,14 @@ title: Using the Style System with AEM Sites
 seo-title: Using the Style System with Adobe Experience Manager, AEM Sites
 description: Adobe Experience Manager's Style System allows visual variations of components without back-end development, allowing better re-use of AEM components, and more versatile and efficient content authoring. The Style System, when used in conjunction with AEM's Core Components, template editor, and responsive layout, offers powerful capabilities to quickly compose rich experiences.
 seo-description: Adobe Experience Manager's Style System allows visual variations of components without back-end development, allowing better re-use of AEM components, and more versatile and efficient content authoring. The Style System, when used in conjunction with AEM's Core Components, template editor, and responsive layout, offers powerful capabilities to quickly compose rich experiences.
+feature: style-system
+topics: authoring, front-end-development
+audience: all
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
 uuid: 97f3a2d8-7703-44f7-82f4-2f9cc7d98c79
-topic-tags: page-authoring
-topic-tags: page-features
-products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 9c40d8c3-45c4-4681-b0dd-0c7398f0e03f
-targetaudience: target-audience ongoing;target-audience new
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the Style System{#using-the-style-system-with-aem-sites}

@@ -3,16 +3,14 @@ title: Setup ContextHub for Personalization with AEM Sites
 seo-title:  Setup ContextHub for Personalization with Adobe Experience Manager AEM Sites
 description: ContextHub is a framework for storing, manipulating, and presenting context data. The ContextHub Javascript API enables you to access stores to create, update, and delete data as necessary. As such, ContextHub represents a data layer on your pages. This page describes how to add context hub to your AEM site pages.
 seo-description: ContextHub is a framework for storing, manipulating, and presenting context data. The ContextHub Javascript API enables you to access stores to create, update, and delete data as necessary. As such, ContextHub represents a data layer on your pages. This page describes how to add context hub to your AEM site pages.
+feature: context-hub
+topics: personalization
+audience: developer, architect
+doc-type: technical-video
+activity: setup
+version: 6.4, 6.5
 uuid: ce4c5b6d-6847-478a-8be0-fcc1b90ead4f
-contentOwner: selvaraj
-products: SG_EXPERIENCEMANAGER/6.4
-products: SG_EXPERIENCEMANAGER/6.3
-products: SG_EXPERIENCEMANAGER/6.3/SITES
-topic-tags: personalization
 discoiquuid: 57ec2432-e4e4-4311-b84e-9c8f4447447b
-index: y
-internal: n
-snippet: y
 ---
 
 # Setup ContextHub for Personalization {#set-up-contexthub}
