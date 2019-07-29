@@ -14,7 +14,7 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 
 * **[Using Adobe Asset Link (Video)](./creative-cloud/adobe-asset-link-feature-video-use.md)**
     <br>
-    *Learn about how designers and creative users can collaborate using their favorite Adobe Creative Cloud desktop applications.*
+    *Learn about how designers and creative users can collaborate using their favorite Adobe Creative Cloud desktop applications*
 
 * **[Using Connected Assets (Video)](./deployment/connected-assets-feature-video-use.md)**
     <br>
@@ -33,11 +33,11 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
    </a>
    <div>
       <a href="./analytics/asset-insights-launch-tutorial-setup.md">
-      <strong>Using AEM Asset Insights with Launch, By Adobe</strong>
+      <strong>Using AEM Asset Insights with Launch</strong>
       </a>
    </div>
    <p>
-      <em>Setup and configure Asset Insights for Experience Manager deployed via Launch By Adobe.</em>
+      <em>Gain insights into how AEM Assets are used</em>
    <p>
 </td>
 <td>
@@ -50,7 +50,7 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
       </a>
    </div>
    <p>
-      <em>Overview of how media content is managed and accessed using Dynamic Media.</em>
+      <em>Manage and access media content using Dynamic Media</em>
    <p>
 </td>
 <td>
@@ -63,7 +63,7 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
       </a>
    </div>
    <p>
-      <em>Learn how Enhanced Smart Tags improves user search experience.</em>
+      <em>Enhance asset search using Smart Tags</em>
    </p>
 </td>
 </table>
@@ -71,14 +71,7 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 ## Additional Resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [AEM Assets Authoring Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/authoring.ug.js)
-* [AEM Assets Dynamic Media Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/dynamic-media.ug.js)
-* [AEM Assets Extending Assets Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/extending-assets.ug.js)
-* [AEM Assets Administering Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/administering.ug.js)
-* [AEM Assets Brand Portal Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/brand-portal.ug.js)
-* [AEM Assets Content Fragments Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/content-fragments.ug.js)
-* [AEM Assets Managing Assets Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/managing-assets.ug.js)
-* [AEM Assets Best Practices Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/using/best-practices-for-assets.html)
+* [AEM Assets Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html)
 * [AEM Sites Tutorials](/help/sites/overview.md)
 * [AEM Forms Tutorials](/help/forms/introduction.md)
 * [AEM Foundation Tutorials](/help/foundation/overview.md)
