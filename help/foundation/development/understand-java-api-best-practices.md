@@ -3,15 +3,15 @@ title: Understand Java API Best Practices
 seo-title: Understand Java API Best Practices in AEM
 description: AEM is built on a rich open-source software stack that exposes many Java APIs for use during development. This article explores the major APIs and when and why they should be used.
 seo-description:  This article explores the major APIs of AEM and when and why they should be used.
+version: 6.2, 6.3, 6.4, 6.5
+sub-product: foundation, assets, sites
+feature: 
+topics: best-practices, development
+activity: develop
+audience: developer
+doc-type: article
 uuid: 105eaf67-af8a-48df-b2f8-76db8d833f40
-products: SG_EXPERIENCEMANAGER/6.4
-topic-tags: development
-topic-tags: best-practices
-topic-tags: best_practices
 discoiquuid: 80525150-7400-423d-bbfb-622b41fff844
-index: y
-internal: n
-snippet: y
 ---
 
 # Understand Java API Best Practices

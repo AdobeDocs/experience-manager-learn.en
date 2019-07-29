@@ -3,15 +3,13 @@ title: Use Project Masters
 seo-title: Use Project Masters in AEM
 description: Project Masters greatly simplifies user and team management with AEM Projects.
 seo-description: Project Masters greatly simplifies user and team management with AEM Projects.
+version: 6.4, 6.5
+feature: projects, users-and-groups
+topics: administration, collaboration, performance
+activity: use
+audience: administrator, implementer, architect
+doc-type: article
 uuid: 40e85b7a-0790-47b0-ac82-b6e9f556b2b0
-products: SG_EXPERIENCEMANAGER/6.3
-topic-tags: projects
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 62acd902-d635-4877-879f-f822d58ae91c
-targetaudience: target-audience new;target-audience ongoing
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Project Masters

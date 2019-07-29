@@ -3,16 +3,15 @@ title: Develop for Cross-Origin Resource Sharing (CORS)
 seo-title: Develop for Cross-Origin Resource Sharing (CORS) with AEM
 description: A short example of leveraging CORS to access AEM content from an external web application via client-side JavaScript.
 seo-description: A short example of leveraging CORS to access AEM content from an external web application via client-side JavaScript.
+version: 6.3, 6,4, 6.5
+sub-product: foundation, content-services, sites
+feature:  
+topics: security, development, content-delivery
+activity: develop
+audience: developer
+doc-type: tutorial
 uuid: c1a9a14e-bfd6-4e46-b2c0-68483240a999
-products: SG_EXPERIENCEMANAGER/6.3
-topic-tags: Security
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: 613056be-8c08-4504-beb3-69b0bd255832
-targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Develop for Cross-Origin Resource Sharing (CORS)

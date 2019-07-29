@@ -3,16 +3,13 @@ title: Use Workflow Management
 description: AEM Workflow management provides a user with more visibility over content under workflow, and allows for easier management of Workflow model definitions. 
 seo-title: Use Workflow Management in AEM
 seo-description: EM Workflow management provides a user with more visibility over content under workflow, and allows for easier management of Workflow model definitions.
-kt: 
-product: experience manager
-sub-product: workflow
-feature: workflow,launchers
-topics:
 version: 6.5
-doc-type: feature video
+sub-product: foundation, sites, assets
+feature: workflow
+topics: governance, collaboration
 activity: use
-team: 
 audience: administrator
+doc-type: feature-video
 ---
  
 # Use Workflow Management

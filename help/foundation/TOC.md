@@ -1,7 +1,7 @@
 ---
 product: AEM
-audience: developer
 user-guide-title: AEM Foundation Videos and Tutorials
+sub-product: foundation
 index: y
 ---
 

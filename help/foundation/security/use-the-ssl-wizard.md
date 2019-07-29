@@ -3,15 +3,14 @@ title: Use the SSL Wizard
 seo-title: Use the SSL Wizard in AEM
 description: Adobe Experience Manager's SSL setup wizard to make it easier to set up an AEM instance to run over HTTPS.
 seo-description: Adobe Experience Manager's SSL setup wizard to make it easier to set up an AEM instance to run over HTTPS.
+version: 6.3, 6,4, 6.5
+feature: 
+topics: security, operations
+activity: use
+audience: administrator
+doc-type: technical-video
 uuid: 82a6962e-3658-427a-bfad-f5d35524f93b
-products: SG_EXPERIENCEMANAGER/6.3
-topic-tags: operations
-products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: 9e666741-0f76-43c9-ab79-1ef149884686
-targetaudience: target-audience upgrader;target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Use the SSL Wizard in AEM

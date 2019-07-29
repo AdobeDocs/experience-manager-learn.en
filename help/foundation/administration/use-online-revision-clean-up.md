@@ -3,20 +3,19 @@ title: Use Online Revision Clean-up
 seo-title: Use Online Revision Clean-up in AEM
 description: A brief introduction to Online Revision Clean Up. Online Revision Clean Up mitigates the need for frequent Offline Revision Clean Up. 
 seo-description: A brief introduction to Online Revision Clean Up. Online Revision Clean Up mitigates the need for frequent Offline Revision Clean Up. 
+version: 6.3, 6.4, 6.5
+feature: oak, compaction
+topics: operations, authoring, performance
+activity: use
+audience: administrator, architect, implementer
+doc-type: technical-video
 uuid: a79ed3e9-9116-4fed-8d00-8e2f7f8f9b75
-topic-tags: operations
-topic-tags: administering
-products: SG_EXPERIENCEMANAGER/6.3
 discoiquuid: 51cc8e49-868f-4b0f-be43-7fe741c42680
-targetaudience: target-audience advanced;target-audience upgrader
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Online Revision Clean-up
 
-A brief introduction to Online Revision Clean Up introduced in AEM 6.3. Online Revision Clean-up mitigates the need for frequent Offline Revision Clean-up.
+A brief introduction to Online Revision Clean-up which mitigates the need for frequent Offline Revision Clean-ups.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17004/?quality=12)
 

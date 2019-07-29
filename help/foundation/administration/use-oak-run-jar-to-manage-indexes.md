@@ -3,17 +3,14 @@ title: Use oak-run.jar to Manage Indexes
 seo-title: Use oak-run.jar to Manage Indexes in AEM
 description: oak-run.jar's index command consolidates a number of features to manage Oak indexes in AEM, from gathering index statistics, running index consistency checks, and re/indexing indexes themselves.
 seo-description: oak-run.jar's index command consolidates a number of features to manage Oak indexes in AEM, from gathering index statistics, running index consistency checks, and re/indexing indexes themselves.
+version: 6.4, 6.5
+feature: oak
+topics: search
+activity: use
+audience: architect, developer, implementer
+doc-type: technical-video
 uuid: 1bfc58a1-c1e9-41e5-b762-43b56ff240dc
-products: SG_EXPERIENCEMANAGER/CORE_PLATFORM
-topic-tags: oak
-topic-tags: tarmk
-topic-tags: mongomk
-topic-tags: RDBMK
 discoiquuid: 5768953e-562a-4766-9e28-360d3b856d1c
-targetaudience: target-audience ongoing;target-audience upgrader;target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Use oak-run.jar to Manage Indexes

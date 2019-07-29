@@ -3,18 +3,14 @@ title: Understand Cloud Manager for AEM
 description: Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.
 seo-title: Understand Cloud Manager for AEM
 seo-description: Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.
-kt: 
-product: experience manager
-sub-product: cloud manager
-feature: 
-topics:
-version:
-doc-type:
+sub-product: cloud-manager, foundation
+feature: pipelines, programs, projects, quality-gates, reports
+topics: best-practices, cicd, development, operations, governance
+doc-type: feature-video
 activity: understand
-team: TM
-audience: developer, implementer, administrator, architect
+audience: all
 ---
- 
+
 # Understand Cloud Manager for AEM
 
 Adobe Managed Services' (AMS) Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.

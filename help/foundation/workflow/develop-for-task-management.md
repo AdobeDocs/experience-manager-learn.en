@@ -3,16 +3,14 @@ title: Develop for Task Management
 seo-title: Develop for Task Management in AEM
 description: A code sample illustrating common use-cases of the AEM Task Management Java APIs.
 seo-description: A code sample illustrating common use-cases of the AEM Task Management Java APIs.
+version: 6.3, 6.4, 6.5
+feature: projects, inbox
+topics: collaboration, developmentm governance
+activity: develop
+audience: developer
+doc-type: code
 uuid: c338277e-98de-4c61-9e4a-4625c5bb56e0
-products: SG_EXPERIENCEMANAGER/6.3
-topic-tags: projects
-products: SG_EXPERIENCEMANAGER/6.4
-topic-tags: developing
 discoiquuid: ae71e6b9-1f09-46d0-b8ef-b22815b1ff6e
-targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Develop for Task Management
@@ -27,7 +25,7 @@ This code sample illustrates basic use of the AEM Task Management APIs and provi
 
 ## View the code {#view-the-code}
 
-[SampleTaskManagementImpl.java](https://github.com/Adobe-Consulting-Services/acs-aem-samples/blob/master/bundle/src/main/java/com/adobe/acs/samples/taskmanagement/impl/SampleTaskManagementImpl.java) Provide any highlevel guidance around the overall sample that is too technical to be put in the description.
+[SampleTaskManagementImpl.java](https://github.com/Adobe-Consulting-Services/acs-aem-samples/blob/master/bundle/src/main/java/com/adobe/acs/samples/taskmanagement/impl/SampleTaskManagementImpl.java) Provide any high-level guidance around the overall sample that is too technical to be put in the description.
 
 ## Supporting materials {#supporting-materials}
 
