@@ -3,15 +3,14 @@ title: Use the Inbox
 seo-title: Use the Inbox in AEM
 description: AEM's inbox facilitates greater collaboration and visibility into tasks and workflow.
 seo-description: AEM's inbox facilitates greater collaboration and visibility into tasks and workflow.
+version: 6.3, 6.4, 6.5
+feature: inbox
+topics: collaboration, governance
+activity:  use
+audience: author, analyst
+doc-type: feature-video
 uuid: 92d31862-d8c6-471a-a432-5ac899db08f9
-products: SG_EXPERIENCEMANAGER
-products: SG_EXPERIENCEMANAGER/6.3
-topic-tags: projects
 discoiquuid: b99075de-bd1b-4690-bb57-55eddb0c76da
-targetaudience: target-audience new;target-audience ongoing
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the Inbox in AEM

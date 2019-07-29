@@ -3,14 +3,15 @@ title: Set up public and private keys for use Adobe I/O
 seo-title: Set up public and private keys for use with AEM and Adobe I/O
 description: AEM uses public/private key pairs to securely communicate with Adobe I/O and other web services. This short tutorial illustrates how compatible keys and keystores can be generated using the openssl command line tool that works with both AEM and Adobe I/O. 
 seo-description: AEM uses public/private key pairs to securely communicate with Adobe I/O and other web services. This short tutorial illustrates how compatible keys and keystores can be generated using the openssl command line tool that works with both AEM and Adobe I/O. 
+version: 6.4, 6.5
+feature: authentication
+topics: authentication, integrations
+activity: setup
+audience: architect, developer, implementer
+doc-type: tutorial
+kt: 2450
 uuid: 99e24f1d-4ff4-485e-b2b5-4d159fb39f39
-topic-tags: authentication
-products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: eb6934fd-a74e-4741-ae77-b7857dab90cb
-index: y
-internal: n
-snippet: y
-KT: 2450
 ---
 
 # Setup public and private keys for use with Adobe I/O

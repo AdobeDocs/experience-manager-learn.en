@@ -3,16 +3,15 @@ title: Understand Cross-Origin Resource Sharing (CORS)
 seo-title: Understand Cross-Origin Resource Sharing (CORS) with AEM
 description: Adobe Experience Manager's Cross-Origin Resource Sharing (CORS) facilitates non-AEM web properties to make client-side calls to AEM, both authenticated and unauthenticated, to fetch content or directly interact with AEM.
 seo-description: Adobe Experience Manager's Cross-Origin Resource Sharing (CORS) facilitates non-AEM web properties to make client-side calls to AEM, both authenticated and unauthenticated, to fetch content or directly interact with AEM.
+version: 6.3, 6,4, 6.5
+sub-product: foundation, content-services, sites
+feature:  
+topics: security, development, content-delivery
+activity: understand
+audience: architect, developer
+doc-type: article
 uuid: 9db96b62-7e8c-438f-8207-9f71d2ae9447
-topic-tags: Security
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/6.4
-products: SG_EXPERIENCEMANAGER/6.3
 discoiquuid: bc2d75ee-3cfe-48c3-a985-af545e7103b1
-targetaudience: target-audience advanced
-index: y
-internal: n
-snippet: y
 ---
 
 # Understand Cross-Origin Resource Sharing (CORS)

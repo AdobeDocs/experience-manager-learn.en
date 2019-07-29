@@ -3,11 +3,14 @@ title: AEM Security Notification (November 2018)
 seo-title: AEM Security Notification (November 2018)
 description: AEM Experience Manager Security Notification Dispatcher
 seo-description: AEM Experience Manager Security Notification Dispatcher
+version: 6.4
+feature: dispatcher
+topics: security
+activity: understand
+audience: all
+doc-type: article
 uuid: 3ccf7323-4061-49d7-ae95-eb003099fd77
 discoiquuid: 9d181b3e-fbd5-476d-9e97-4452176e495c
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Security Notification (November 2018)
