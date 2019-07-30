@@ -4,13 +4,15 @@ seo-title: Understanding Color Management with AEM Dynamic Media
 description: In this video we explore Dynamic Media Color Management, and how it can be used to provide color correction preview capabilities in for AEM Assets.
 seo-description: In this video we explore Dynamic Media Color Management, and how it can be used to provide color correction preview capabilities in for AEM Assets.
 uuid: dc14d067-11a2-4662-acfd-f9f6f1d738ee
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-topic-tags: dynamic-media
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: images
-discoiquuid: b2b9ccc9-96b5-4bea-9995-2e6b353c469d
-targetaudience: target-audience ongoing
+product: dynamic-media
+feature: image-profiles, video-profiles
+topics: images, videos, renditions, authoring, integrations, publishing, metadata
+audience : developer, architect, administrator
+doc-type: technical-video
+audience : administrator, developer
+activity: setup
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Understanding Color Management with AEM Dynamic Media{#understanding-color-management-with-aem-dynamic-media}

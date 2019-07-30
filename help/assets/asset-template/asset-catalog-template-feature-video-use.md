@@ -5,12 +5,13 @@ description: AEM 6.4 Catalog enhancement provides the capability to create catal
 seo-description: AEM 6.4 Catalog enhancement provides the capability to create catalog pages using AEM Asset Templates and InDesign Server.  A user can create a catalog page using the InDesign template and map product properties to editable fields, which can be later used to create similar pages for different products.
 uuid: 38c17b85-5533-43be-ad60-873c1e5bdf6b
 contentOwner: selvaraj
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-products: SG_INDESIGNSERVER_1_1
-topic-tags: asset-templates
-topic-tags: catalogs
-discoiquuid: 94167c85-4c86-4916-9fbe-12c3c5726865
+feature: catalogs, asset-templates
+topics: authoring, renditions, documents
+audience: all
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Using Asset Catalog with AEM Commerce and InDesign Server{#using-asset-catalog-with-aem-commerce-and-indesign-server}

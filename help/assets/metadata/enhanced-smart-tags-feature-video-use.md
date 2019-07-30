@@ -4,11 +4,13 @@ seo-title: Using Enhanced Smart Tags with AEM Assets
 description: Smart Tags allows for training the Smart Tags Algorithm with a customer-specific taxonomy and manually tagged assets. Enhanced Smart Tags can then be leveraged to improve user search experience and help find the assets at the right time.
 seo-description: Smart Tags allows for training the Smart Tags Algorithm with a customer-specific taxonomy and manually tagged assets. Enhanced Smart Tags can then be leveraged to improve user search experience and help find the assets at the right time.
 uuid: f4d6cd27-2b86-43a1-a07c-d4f6262ec678
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: smart-tags
-discoiquuid: 6d910194-024b-460f-b50c-216151ea718c
-targetaudience: target-audience new
+feature: smart-tags
+topics: metadata 
+audience: all
+doc-type: feature-video
+activity: use
+version: 6.4, 6.5
+team: TM
 ---
 
 # Using Enhanced Smart Tags with AEM Assets{#using-enhanced-smart-tags-with-aem-assets}

@@ -5,13 +5,14 @@ description: AEM Dynamic Media Viewer enhancements let AEM authors define and cu
 seo-description: AEM Dynamic Media Viewer enhancements let AEM authors define and customize the experience assets will be presented to website users.
 uuid: 5762c0a2-4371-4719-8400-849c7a11926d
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-topic-tags: dynamic-media
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: images
-topic-tags: video
-discoiquuid: a0be2cd0-4fdb-431f-a8c7-e4620b8b129b
-targetaudience: target-audience ongoing
+product: dynamic-media
+feature: viewer-presets, image-profiles
+topics: videos, renditions, authoring
+doc-type: feature-video
+audience : all
+activity: understand
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Understanding the Asset Viewer with AEM Dynamic Media{#understanding-the-asset-viewer-with-aem-dynamic-media}

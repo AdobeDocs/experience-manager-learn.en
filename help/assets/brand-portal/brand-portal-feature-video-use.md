@@ -4,16 +4,13 @@ seo-title: Using Brand Portal with AEM Assets
 description: Walk throughs of the AEM Author and AEM Assets Brand Portal integration.
 seo-description: Walk throughs of the AEM Author and AEM Assets Brand Portal integration.
 uuid: d34a1073-8972-49bc-ae12-d3d77d5b6e02
-products: SG_EXPERIENCEMANAGER/6.2/ASSETS
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: brand-portal
-topic-tags: sharing
-topic-tags: collaboration
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 956ae2ae-b8af-4714-9300-8799bfc24a5f
-targetaudience: target-audience new;target-audience ongoing
+feature: asset-share, brand-portal
+topics: authoring, sharing, collaboration, search, integrations, publishing, metadata, images, renditions
+audience: all
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Using Brand Portal with AEM Assets{#using-brand-portal-with-aem-assets}

@@ -3,10 +3,14 @@ title: Understanding Multitenancy and Concurrent Development
 seo-title: Understanding Multitenancy and Concurrent Development
 description: null
 seo-description: null
-page-status-flag: never-activated
 uuid: 682093fe-ce55-4ef8-af10-99f7062f8b1b
-contentOwner: ujohnson
-discoiquuid: 0dfcdf39-7423-459f-8f35-ee5b4b829f2c
+feature: connected-assets
+topics: authoring, operations, sharing, publishing
+audience: all
+doc-type: article
+activity: understand
+version: 6.5
+team: TM
 ---
 
 # Understanding Multitenancy and Concurrent Development {#understanding-multitenancy-and-concurrent-development}

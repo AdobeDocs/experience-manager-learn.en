@@ -4,13 +4,12 @@ seo-title: Using Metadata Import and Export in AEM Assets
 description: AEM Assets metadata import and export capabilities allow content authors to easily move asset metadata in and out of AEM and leverage the power of Microsoft Excel to manipulate metadata at scale, facilitating the bulk update metadata for existing assets in AEM.
 seo-description: AEM Assets metadata import and export capabilities allow content authors to easily move asset metadata in and out of AEM and leverage the power of Microsoft Excel to manipulate metadata at scale, facilitating the bulk update metadata for existing assets in AEM.
 uuid: db7e57a4-b0c1-4a48-906d-802c19964313
-contentOwner: selvaraj
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: metadata
-topic-tags: documents
-topic-tags: images
-discoiquuid: 72dd9230-73e1-454e-a3e0-9281e621d901
+topics: metadata 
+audience: all
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Using Metadata Import and Export in AEM Assets{#using-metadata-import-and-export-in-aem-assets}

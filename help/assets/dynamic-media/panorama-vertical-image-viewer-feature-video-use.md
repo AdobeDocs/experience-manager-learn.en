@@ -3,13 +3,14 @@ title: Using Panorama and Vertical Image Viewer with AEM Assets Dynamic Media
 seo-title: Using Panorama and Vertical Image Viewer with AEM Assets Dynamic Media
 description: Dynamic Media Viewer enhancements in AEM 6.4 includes the addition of Panoramic Image Viewer, Panoramic Virtual Reality Image Viewer, and Vertical Image Viewer. Panoramic Viewer provides an easy way to deliver an engaging, immersive experience of the room, property, location or landscape without any custom development.
 seo-description: Dynamic Media Viewer enhancements in AEM 6.4 includes the addition of Panoramic Image Viewer, Panoramic Virtual Reality Image Viewer, and Vertical Image Viewer. Panoramic Viewer provides an easy way to deliver an engaging, immersive experience of the room, property, location or landscape without any custom development.
-uuid: 2daa9337-a400-4bc3-bbbd-c98d0b74d31b
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: dynamic-media
-topic-tags: images
-discoiquuid: 67d5e0f2-3fde-4ea7-9e53-4fc0cf8b9f2a
-targetaudience: target-audience ongoing;target-audience new
+product: dynamic-media
+feature: video-profiles, video-profiles, vr-360
+topics: videos, renditions, authoring
+doc-type: feature-video
+audience : all
+activity: use
+version: 6.4, 6.5
+team: TM
 ---
 
 # Using Panorama and Vertical Image Viewer with AEM Assets Dynamic Media{#using-panorama-and-vertical-image-viewer-with-aem-assets-dynamic-media}

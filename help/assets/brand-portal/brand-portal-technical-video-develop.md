@@ -4,14 +4,13 @@ seo-title: Developing for Brand Portal with AEM Assets
 description: An abridged walk-through using AEM's DamSyncService API in conjunction with AEM Workflow to programmatically publish assets to AEM Assets Brand Portal.
 seo-description: An abridged walk-through using AEM's DamSyncService API in conjunction with AEM Workflow to programmatically publish assets to AEM Assets Brand Portal.
 uuid: f934152b-4e66-4402-b197-bbb561c33086
-products: SG_EXPERIENCEMANAGER/6.2/ASSETS
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: brand-portal
-products: SG_EXPERIENCEMANAGER/Brand_Portal
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 63aa8b89-a6b5-4a0b-884c-a9855b9cc7bb
-targetaudience: target-audience advanced
+feature: asset-share, brand-portal
+topics: authoring, sharing, collaboration, search, integrations, publishing, metadata, images, renditions
+audience: developer, architect, administrator
+doc-type: technical-video
+activity: develop
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Developing for Brand Portal with AEM Assets{#developing-for-brand-portal-with-aem-assets}

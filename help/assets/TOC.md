@@ -1,8 +1,6 @@
 ---
-product: AEM
-audience: developer
 user-guide-title: AEM Assets Videos and Tutorials
-index: y
+sub-product: assets
 ---
 
 # AEM Assets Videos and Tutorials {#assets}
@@ -61,7 +59,7 @@ index: y
   + [Set up Smart Translation Search](translation/smart-translation-search-technical-video-setup.md)
   + [Using Source File Translation](translation/source-file-translation-feature-video-use.md)
 + Deployment {#deployment}
-  + [Understanding Multi-tenancy and Concurrent Development](deployment/multitenancy-concurrent-development.md)
+  + [Understanding Multi-tenancy and Concurrent Development](deployment/multitenancy-concurrent-article-understand.md)
   + [Using Connected Assets](deployment/connected-assets-feature-video-use.md)
 + Analytics {analytics}
   + [Asset Reports](analytics/asset-reports-feature-video-use.md)
