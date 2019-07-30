@@ -4,13 +4,13 @@ seo-title: Understanding Check-in/Check-out in AEM Assets
 description: A technical deep-dive into how Asset's check-in/check-out feature works, and practical considerations when delivering projects leveraging this feature.
 seo-description: A technical deep-dive into how Asset's check-in/check-out feature works, and practical considerations when delivering projects leveraging this feature.
 uuid: ef13bb98-c617-4a23-a305-5361a4aeadb9
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-topic-tags: aem-desktop-app
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: collaboration
-discoiquuid: 0746cb35-c287-4b03-9866-c768f9906728
-targetaudience: target-audience advanced
+feature: asset-share
+topics: authoring, collaboration, operations, sharing, development, administration
+audience: developer, architect, administrator
+doc-type: technical-video
+activity: understand
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Understanding Check-in/Check-out in AEM Assets{#understanding-check-in-check-out-in-aem-assets}

@@ -4,12 +4,13 @@ seo-title: Understanding InDesign files and Asset Templates in AEM Assets
 description: This video tutorial walks through defining an InDesign file, and all the accompanying considerations, for use in AEM Assets' Asset Templates feature.
 seo-description: This video tutorial walks through defining an InDesign file, and all the accompanying considerations, for use in AEM Assets' Asset Templates feature.
 uuid: 06065462-8e9e-48d5-b170-1c590634c01b
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-topic-tags: asset-templates
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-discoiquuid: 0ac91a09-eb78-462c-9d10-4f547f6444c8
-targetaudience: target-audience new;target-audience ongoing
+feature: catalogs, asset-templates
+topics: authoring, renditions, documents
+audience: all
+doc-type: tutorial
+activity: understand
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Understanding InDesign files and Asset Templates in AEM Assets {#understanding-indesign-files-and-asset-templates-in-aem-assets}

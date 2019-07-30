@@ -5,11 +5,13 @@ description: Adobe Experience Manager 3D lets you upload, manage, view and rende
 seo-description: Adobe Experience Manager 3D lets you upload, manage, view and render 3D content. Configuring and installing 3D with AEM Assets explored here.
 uuid: f82d741a-5244-4db3-9959-69acea18a0d8
 contentOwner: selvaraj
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-topic-tags: 3d
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-discoiquuid: ff103655-fa26-40f2-a15b-8b20eaaec010
+feature: 3d
+topics: integrations, videos, renditions, development
+audience: developer, architect, administrator
+doc-type: technical-video
+activity: setup
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Set up 3D with AEM Assets{#set-up-d-with-aem-assets}

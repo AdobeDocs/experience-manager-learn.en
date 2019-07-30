@@ -4,11 +4,13 @@ seo-title: Setup Enhanced Smart Tags in AEM Assets
 description: Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service and Adobe I/O.
 seo-description: Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service and Adobe I/O.
 uuid: 190d06d7-ed2d-4029-a4bb-db90fd424ca8
-contentOwner: selvaraj
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: smart-tags
-discoiquuid: 72c53bc9-1ba1-44bf-881f-91bb74cf8f0e
+feature: smart-tags
+topics: metadata 
+audience: developer, administrator
+doc-type: technical-video
+activity: setup
+version: 6.3, 6.4, 6.5
+team: TM
 ---
 
 # Setup Enhanced Smart Tags in AEM Assets

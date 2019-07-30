@@ -5,14 +5,13 @@ description: How Adobe Asset Link authentication works in the context of Adobe I
 seo-description: How Adobe Asset Link authentication works in the context of Adobe Identity Management Services (IMS) and Adobe Experience Manager Author.
 page-status-flag: de-activated
 uuid: f8cadeba-ab7e-4b83-baf2-ca6f405a7f1a
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: adaptive_documents
-topic-tags: collaboration
-topic-tags: images
-discoiquuid: dddbf241-0f32-488b-9d83-43dcc9b1e2ce
-internal: true
-targetaudience: target-audience advanced
+feature: adobe-asset-link
+topics: authoring, collaboration, operations, sharing, metadata, images
+audience: all
+doc-type: article
+activity: understand
+version: 6.4, 6.5
+team: TM
 ---
 
 # Understanding Adobe Asset Link authentication with AEM Assets{#understanding-adobe-asset-link-authentication-with-aem-assets}

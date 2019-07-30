@@ -4,13 +4,12 @@ seo-title: Set up Asset Insights with AEM Assets
 description: In this 3 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Adobe Activation (DTM).
 seo-description: In this 3 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Adobe Activation (DTM).
 uuid: 9c7d4055-205e-4cd0-b35b-b9540601f427
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: asset-insights
-topic-tags: images
-discoiquuid: 184e5b87-e029-4878-9902-fc1851f546f7
-targetaudience: target-audience advanced
+feature: asset-insights
+topics: integrations, development, metadata
+audience: developer, architect, administrator
+doc-type: article
+activity: implement
+version: 6.3, 6.4, 6.5
 ---
 
 # Set up Asset Insights with AEM Assets{#set-up-asset-insights-with-aem-assets}
