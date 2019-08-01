@@ -4,13 +4,13 @@ seo-title: Using Connected Assets with AEM Sites
 description: The Connected Assets feature allows an AEM Sites author to seamlessly access digital assets hosted on a different instance of AEM.
 seo-description: The Connected Assets feature allows an AEM Sites author to seamlessly access digital assets hosted on a different instance of AEM.
 uuid: 08b2eac4-43f0-4291-9cff-5978b714dc01
+discoiquuid: f3a2aca7-31d6-45ae-a8d1-b915c67c424f
 feature: connected-assets
 topics: authoring, operations, sharing, publishing
 audience: all
 doc-type: feature-video
 activity: use
 version: 6.5
-team: TM
 ---
 
 # Using Connected Assetswith AEM Assets{#using-connected-assets-with-aem-assets}

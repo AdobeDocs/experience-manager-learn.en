@@ -4,13 +4,13 @@ seo-title: Using Desktop App with AEM Assets
 description: AEM Desktop App allows seamless access to AEM Assets from local workstations. 
 seo-description: AEM Desktop App allows seamless access to AEM Assets from local workstations. 
 uuid: 2f73047c-2dd7-4b1e-92c4-3cad32d4e859
+discoiquuid: 691235a8-cd53-453b-81eb-d4892bab16ca
 feature: adobe-asset-link, creative-cloud-integration
 topics: authoring, collaboration, operations, sharing, metadata, images
 audience: developer, administrator
 doc-type: technical-video
 activity: use
 version: 6.4, 6.5
-team: TM
 ---
 
 # Using Desktop App with AEM Assets{#using-desktop-app-with-aem-assets}

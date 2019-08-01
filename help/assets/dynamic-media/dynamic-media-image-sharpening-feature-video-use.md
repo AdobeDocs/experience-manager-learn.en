@@ -4,6 +4,7 @@ seo-title: Using Image Sharpening with AEM Dynamic Media
 description: This video covers why sharpening an image is critical to maintaining image fidelity and how to use advanced settings to craft the perfect image.
 seo-description: This video covers why sharpening an image is critical to maintaining image fidelity and how to use advanced settings to craft the perfect image.
 uuid: 75ea35e8-7029-4788-b098-2dc0c1c91916
+discoiquuid: 09210489-4d50-434a-ba0c-ea894fe11adf
 product: dynamic-media
 feature: image-profiles, viewer-presets
 topics: images, renditions, authoring
@@ -11,7 +12,6 @@ doc-type: feature-video
 audience : all
 activity: use
 version: 6.3, 6.4, 6.5
-team: TM
 ---
 
 # Using Image Sharpening with AEM Dynamic Media{#using-image-sharpening-with-aem-dynamic-media}

@@ -4,6 +4,7 @@ seo-title: Set up Adobe Stock with AEM Assets
 description: AEM 6.4.2 provides users the ability to search, preview, save and license Adobe Stock assets directly from AEM. This video covers quick walkthrough of how to set up Adobe Stocks with AEM Assets using Adobe I/O Console. 
 seo-description: AEM 6.4.2 provides users the ability to search, preview, save and license Adobe Stock assets directly from AEM. This video covers quick walkthrough of how to set up Adobe Stocks with AEM Assets using Adobe I/O Console. 
 uuid: ded90399-d95a-4256-a351-c1c662995538
+discoiquuid: ee1087c0-a35e-4857-849f-dcde997badfb
 contentOwner: selvaraj
 feature: adobe-asset-link
 topics: authoring, collaboration, operations, sharing, metadata, images
@@ -11,7 +12,6 @@ audience: developer, administrator
 doc-type: technical-video
 activity: setup
 version: 6.4, 6.5
-team: TM
 ---
 
 # Set up Adobe Stock with AEM Assets{#set-up-adobe-stock-with-aem-assets}

@@ -10,7 +10,6 @@ audience: developer, administrator
 doc-type: technical-video
 activity: setup
 version: 6.3, 6.4, 6.5
-team: TM
 ---
 
 # Setup Enhanced Smart Tags in AEM Assets

@@ -4,13 +4,13 @@ seo-title: Using Reports in AEM Assets
 description: AEM Assets provides an enterprise level reporting framework that scales for large repositories through an intuitive user experience. 
 seo-description: AEM Assets provides an enterprise level reporting framework that scales for large repositories through an intuitive user experience. 
 uuid: 7db05162-3284-481c-a684-c99bedb4e537
+discoiquuid: 3214a61e-853e-44d1-ac6f-cbc99b6b0de1
 feature: reports
 topics: authoring, operations, performance, metadata
 audience: all
 doc-type: feature-video
 activity: use
 version: 6.3, 6.4, 6.5
-team: TM
 ---
 
 # Using Reports in AEM Assets{#using-reports-in-aem-assets}
