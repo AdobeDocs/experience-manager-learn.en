@@ -4,9 +4,13 @@ seo-title: Using Form Data Model To Post Binary Data
 description: null
 seo-description: null
 uuid: dd344ed8-69f7-4d63-888a-3c96993fe99d
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
-topic-tags: forms
+sub-product: forms
+feature: workflow
+topics: integrations
+audience: developer
+doc-type: article
+activity: setup
+version: 6.4,6.5
 discoiquuid: 6e99df7d-c030-416b-83d2-24247f673b33
 ---
 

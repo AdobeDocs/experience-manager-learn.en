@@ -3,11 +3,15 @@ title: Writing a Custom Submit in AEM Forms
 seo-title: Writing a Custom Submit in AEM Forms
 description: Quick and easy way to create your own custom submit action for Adaptive Form
 seo-description: Quick and easy way to create your own custom submit action for Adaptive Form
+sub-product: forms
+feature: adaptive-forms
+topics: integration
+audience: developer
+doc-type: article
+activity: implement
+version: 6.3,6.4,6.5
 uuid: a26db0b9-7db4-4e80-813d-5c0438fabd1e
 contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
 discoiquuid: 28611011-2ff9-477e-b654-e62e7374096a
 ---
 

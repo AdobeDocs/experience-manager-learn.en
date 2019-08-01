@@ -82,5 +82,5 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
 * [AEM Sites Administering Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/user-guide.html)
 * [AEM Sites Deploying Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
 * [AEM Assets Tutorials](/help/assets/overview.md)
-* [AEM Forms Tutorials](/help/forms/introduction.md)
+* [AEM Forms Tutorials](/help/forms/overview.md)
 * [AEM Foundation Tutorials](/help/foundation/overview.md)

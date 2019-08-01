@@ -4,10 +4,13 @@ seo-title: Listing Custom Asset Types in AEM Forms
 description: Part 2 of Listing Custom Asset Types in AEM Forms
 seo-description: Part 2 of Listing Custom Asset Types in AEM Forms
 uuid: 6467ec34-e452-4c21-9bb5-504f9630466a
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: forms-portal
-topic-tags: forms
+sub-product: forms
+feature: adaptive-forms
+topics: development
+audience: developer
+doc-type: tutorial
+activity: implement
+version: 6.3,6.4,6.5
 discoiquuid: 4b940465-0bd7-45a2-8d01-e4d640c9aedf
 index: y
 internal: n

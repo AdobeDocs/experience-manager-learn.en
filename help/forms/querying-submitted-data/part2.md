@@ -3,6 +3,14 @@ title: AEM Forms with JSON Schema and Data[Part2]
 seo-title: AEM Forms with JSON Schema and Data[Part2]
 description: Multi-Part tutorial to walk you through the steps involved in creating Adaptive Form with JSON schema and querying the submitted data.
 seo-description: Multi-Part tutorial to walk you through the steps involved in creating Adaptive Form with JSON schema and querying the submitted data.
+sub-product: forms
+feature: adaptive-forms
+topics: development
+audience: developer
+doc-type: tutorial
+activity: implement
+version: 6.3,6.4,6.5
+
 ---
 
 # Storing Submitted Data in Database

@@ -4,9 +4,13 @@ seo-title: Adding table to account balance panel
 description: This is part 9 of multistep tutorial for creating your first interactive communication document.In this part, we will add a table to the Account Balance panel.
 seo-description: This is part 9 of multistep tutorial for creating your first interactive communication document.In this part, we will add a table to the Account Balance panel.
 uuid: 8f268c73-c543-418d-b65e-5beaf9660e42
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_documents
-topic-tags: adaptive_forms
+sub-product: forms
+feature: interactive-communication
+topics: development
+audience: developer
+doc-type: tutorial
+activity: implement
+version: 6.4,6.5
 discoiquuid: 28a9d88d-635b-47a2-8a78-54ddeabc4406
 index: y
 internal: n

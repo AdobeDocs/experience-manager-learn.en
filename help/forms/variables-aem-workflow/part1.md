@@ -3,6 +3,14 @@ title: Variables in AEM Workflow[Part1]
 seo-title: Variables in AEM Workflow[Part1]
 description: Using variables of type xml,json,arraylist,document in aem workflow
 seo-description: Using variables of type xml,json,arraylist,document in aem workflow
+sub-product: forms
+feature: workflow
+topics: development
+audience: developer
+doc-type: tutorial
+activity: understand
+version: 6.4,6.5
+
 ---
 
 # XML Variables in AEM Workflow
@@ -46,5 +54,5 @@ To get the assets working on your system, please follow the following steps:
 * [Explore the workflow model](http://localhost:4502/editor.html/conf/global/settings/workflow/models/vacationrequest.html) to understand the variables that are used in the workflow
 * [Configure the Email Service](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/notification.html#ConfiguringtheMailService)
 * [Open the Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/applicationfortimeoff/jcr:content?wcmmode=disabled)
-* Fill in the details and submit the form
+* Fill in the details and submit the form.
 

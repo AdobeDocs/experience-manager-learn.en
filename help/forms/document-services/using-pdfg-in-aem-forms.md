@@ -5,11 +5,14 @@ description: Demonstrating Drag and Drop capability to create PDF using AEM Form
 seo-description: Demonstrating Drag and Drop capability to create PDF using AEM Forms
 uuid: ee54edb4-a7b1-42ed-81ea-cb6bef6cf97f
 contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.1/FORMS
-products: SG_EXPERIENCEMANAGER/6.2/FORMS
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-topic-tags: forms
-topic-tags: pdf_generator
+sub-product: forms
+feature: pdf-generator
+topics: development
+audience: developer
+doc-type: article
+activity: implement
+version: 6.4,6.5
+
 discoiquuid: 7f570f12-ce43-4da7-a249-ef6bd0fe48e5
 ---
 

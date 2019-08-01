@@ -6,8 +6,14 @@ seo-description: This article will walk through the use case of storing and tagg
 uuid: b9ba13ed-52d5-4389-a7d5-bf85e58fea49
 author: gbedekar
 contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
+sub-product: forms
+feature: adaptive-forms,workflow
+topics: developing
+audience: implementer
+doc-type: article
+activity: develop
+version: 6.4,6.5
+
 discoiquuid: 53961454-633b-4cd8-aef7-e64ab4e528e4
 ---
 

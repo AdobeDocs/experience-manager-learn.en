@@ -6,9 +6,13 @@ seo-description: This is part 11 of multistep tutorial for creating your first i
 uuid: 96f34986-a5c3-400b-b51b-775da5d2cbd7
 author: gbedekar
 contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
-topic-tags: correspondence-management
+sub-product: forms
+feature: interactive-communication
+topics: development
+audience: developer
+doc-type: tutorial
+activity: implement
+version: 6.4,6.5
 discoiquuid: 5682f024-a2f3-46a0-8274-3bdefe4a3905
 index: y
 internal: n

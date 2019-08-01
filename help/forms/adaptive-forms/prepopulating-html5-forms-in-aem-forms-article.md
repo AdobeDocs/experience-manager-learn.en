@@ -1,13 +1,17 @@
 ---
-title: PrePopulate HTML5 Forms using data attribute
-seo-title: PrePopulate HTML5 Forms using data attribute
-description: null
-seo-description: null
+title: PrePopulate HTML5 Forms using data attribute.
+seo-title: PrePopulate HTML5 Forms using data attribute.
+description: Populate HTML5 forms by fetching data from the backend source.
+seo-description: Populate HTML5 forms by fetching data from the backend source.
+sub-product: forms
+feature: integration
+topics: mobile-forms
+audience: developer
+doc-type: article
+activity: implement
+version: 6.3,6.4,6.5.
+
 uuid: 889d2cd5-fcf2-4854-928b-0c2c0db9dbc2
-author: Girish Bedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-products: SG_EXPERIENCEMANAGER/6.2/FORMS
 discoiquuid: 3aa645c9-941e-4b27-a538-cca13574b21c
 ---
 

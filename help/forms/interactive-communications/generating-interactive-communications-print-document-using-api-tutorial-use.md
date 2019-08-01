@@ -1,8 +1,16 @@
 ---
 title: Generating Interactive Communications Document for print channel using watch folder mechanism
 seo-title: Generating Interactive Communications Document for print channel using watch folder mechanism
-description: null
-seo-description: null
+description: Use watched folder to generate print channel documents
+seo-description: Use watched folder to generate print channel documents
+sub-product: forms
+feature: interactive-communication
+topics: development
+audience: developer
+doc-type: article
+activity: implement
+version: 6.4,6.5
+
 
 ---
 

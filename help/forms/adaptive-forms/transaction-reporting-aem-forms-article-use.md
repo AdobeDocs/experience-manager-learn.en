@@ -1,11 +1,18 @@
 ---
 title: Using Transaction Reporting in AEM Forms
 seo-title: Using Transaction Reporting in AEM Forms
-description: null
-seo-description: null
+description: Transaction reports in AEM Forms allow you to keep a count of all transactions taken place since a specified date on your AEM Forms deployment.
+seo-description: Transaction reports in AEM Forms allow you to keep a count of all transactions taken place since a specified date on your AEM Forms deployment.
 uuid: e6133f7e-c79c-4006-89e7-3bebf7b8229e
 contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
+sub-product: forms
+feature: adaptive-forms
+topics: developing
+audience: administrator
+doc-type: article
+activity: setup
+version: 6.4.1,6.5
+
 discoiquuid: 1abdf07a-b9f0-4c58-a1c6-08ae57db2014
 ---
 

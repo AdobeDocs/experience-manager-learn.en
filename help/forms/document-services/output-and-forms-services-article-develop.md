@@ -4,13 +4,14 @@ seo-title: Developing with Output and Forms Services in AEM Forms
 description: Using Output and Forms Service API in AEM Forms
 seo-description: Using Output and Forms Service API in AEM Forms
 uuid: be018eb5-dbe7-4101-a1a9-bee11ac97273
-products: SG_EXPERIENCEMANAGER/6.1/FORMS
-products: SG_EXPERIENCEMANAGER/6.2/FORMS
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: document_services
-topic-tags: document-security
-topic-tags: forms-manager
+sub-product: forms
+feature: output-service
+topics: development
+audience: developer
+doc-type: article
+activity: implement
+version: 6.4,6.5
+
 discoiquuid: 57f478a9-8495-469e-8a06-ce1251172fda
 targetaudience: target-audience new
 ---

@@ -83,4 +83,4 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
 * [AEM Sites Deploying](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
 * [AEM Assets Videos and Tutorials](/help/sites/overview.md)
 * [AEM Assets Videos and Tutorials](/help/assets/overview.md)
-* [AEM Forms Videos and Tutorials](/help/forms/introduction.md)
+* [AEM Forms Videos and Tutorials](/help/forms/overview.md)

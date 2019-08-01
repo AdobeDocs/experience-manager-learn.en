@@ -4,6 +4,14 @@ seo-title: Storing Adaptive Form Data
 description: Storing Adaptive Form Data into DataBase as part of your AEM Workflow
 seo-description: Storing Adaptive Form Data into DataBase as part of your AEM Workflow
 
+sub-product: forms
+feature: adaptive-forms,workflow
+topics: integrations
+audience: implementer
+doc-type: article
+activity: setup
+version: 6.3,6.4,6.5
+
 ---
 
 # Storing Adaptive Form Submissions in Database

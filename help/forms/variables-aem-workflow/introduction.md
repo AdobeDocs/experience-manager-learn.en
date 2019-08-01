@@ -3,6 +3,14 @@ title: Variables in AEM Workflow
 seo-title: Variables in AEM Workflow
 description: Using variables of type xml,json,arraylist,document in aem workflow
 seo-description: Using variables of type xml,json,arraylist,document in aem workflow
+sub-product: forms
+feature: workflow
+topics: development
+audience: developer
+doc-type: tutorial
+activity: understand
+version: 6.4,6.5
+
 ---
 
 # Variables in AEM Workflow
@@ -21,3 +29,11 @@ The variables can be of the following types
 * ArrayList
 * FormDataModel
 * Document
+
+## Tutorials
+
+* [XML Variables](part1.md)
+* [JSON Variables](part2.md)
+* [Document Variables](part3.md)
+* [ArrayList Variable](part4.md)
+* [Rule Editor in AEM Workflow](part5.md)
