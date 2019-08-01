@@ -5,9 +5,14 @@ description: This article explains the code needed to generate JWT and Access To
 seo-description: This article explains the code needed to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
 uuid: 5b780eee-1e7c-4e1c-a164-49ce64939b91
 contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-products: SG_CAMPAIGN/STANDARD
-topic-tags: adaptive_forms
+sub-product: forms
+feature: adaptive-forms, form-data-model
+topics: integrations
+audience: developer
+doc-type: tutorial
+activity: setup
+version: 6.3,6.4,6.5
+
 discoiquuid: cc268946-a7e4-42b3-bfad-5509e215871a
 index: y
 internal: n

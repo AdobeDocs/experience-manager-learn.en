@@ -1,14 +1,18 @@
 ---
 title: Submitting Adaptive Form to External Server
 seo-title: Submitting Adaptive Form to External Server
-description: null
-seo-description: null
+description: Submitting Adaptive Form to REST endpoint running on external server
+seo-description: Submitting Adaptive Form to REST endpoint running on external server
 uuid: 1a46e206-6188-4096-816a-d59e9fb43263
 contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
-topic-tags: forms
+sub-product: forms
+feature: adaptive-forms
+topics: developing
+audience: implementer
+doc-type: article
+activity: setup
+version: 6.3,6.4,6.5
+
 discoiquuid: 9e936885-4e10-4c05-b572-b8da56fcac73
 ---
 

@@ -4,12 +4,15 @@ seo-title: Submitting Adaptive Form to AEM Workflow
 description: null
 seo-description: null
 uuid: 28ceb72b-24d9-488e-92af-7e85775dc682
+sub-product: forms
+feature: integration
+topics: workflow
+audience: developer
+doc-type: article
+activity: use
+version: 6.4,6.5
+
 contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
-topic-tags: workflow
-topic-tags: forms
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 1c4822e6-76ce-446b-98cb-408900d68b24
 ---
 

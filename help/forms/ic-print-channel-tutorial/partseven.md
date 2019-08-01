@@ -4,8 +4,13 @@ seo-title: Adding text and image content to print channel document
 description: This is part 7 of a multi-step tutorial for creating your first interactive communications document. In this part, we will add images and text content to the target areas defined in the layout(xdp). 
 seo-description: This is part 7 of a multi-step tutorial for creating your first interactive communications document. In this part, we will add images and text content to the target areas defined in the layout(xdp). 
 uuid: f20d6974-6faf-4b90-a7ff-8aa8a620fcaa
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_documents
+sub-product: forms
+feature: interactive-communication
+topics: development
+audience: developer
+doc-type: tutorial
+activity: implement
+version: 6.4,6.5
 discoiquuid: a79bf219-2423-4819-89fc-dcfe976e08b7
 index: y
 internal: n

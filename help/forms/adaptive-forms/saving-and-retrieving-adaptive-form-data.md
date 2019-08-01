@@ -1,3 +1,18 @@
+---
+
+title: Saving and Retrieving Adaptive Form Data
+seo-title: Saving and Retrieving Adaptive Form Data
+description: Saving and retrieving adaptive form data from database. This capability  allows form fillers to save the form and continue filling the form at a later date.
+seo-description: Saving and retrieving adaptive form data from database. This capability  allows form fillers to save the form and continue filling the form at a later date.
+sub-product: forms
+feature: adaptive-forms
+topics: developing
+audience: developer,implementer
+doc-type: article
+activity: setup
+version: 6.3,6.4,6.5
+---
+
 # Saving and Retrieving Adaptive Form Data 
 
 This article will walk you through the steps involved in saving and retrieving Adaptive Form Data from Database. MySQL database was used to store the Adaptive Form data. At a high-level, the following are the steps to achieve the use case:

@@ -1,14 +1,15 @@
 ---
 title: Sending Email on Adaptive Form Submission
 seo-title: Sending Email on Adaptive Form Submission
-description: null
-seo-description: null
+description: Send confirmation email on adaptive form submission using the send email component
+seo-description: Send confirmation email on adaptive form submission using the send email component
 uuid: 6c9549ba-cb56-4d69-902c-45272a8fd17e
-contentOwner: gbedekar
-topic-tags: adaptive_forms
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-topic-tags: forms
+sub-product: forms
+feature: adaptive-forms
+topics: authoring, integrations
+audience: developer
+doc-type: article
+activity: use
 discoiquuid: 1187357f-2f36-4a04-b708-44bb9c174fb5
 ---
 

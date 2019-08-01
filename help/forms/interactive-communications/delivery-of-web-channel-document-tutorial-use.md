@@ -3,6 +3,13 @@ title: Delivery of Interactive Communication Document - Web Channel AEM Forms
 seo-title: Delivery of Interactive Communication Document - Web Channel AEM Forms
 description: null
 seo-description: Delivery of web channel document via email link
+sub-product: forms
+feature: interactive-communication
+topics: development
+audience: developer
+doc-type: article
+activity: implement
+version: 6.4,6.5
 
 ---
 

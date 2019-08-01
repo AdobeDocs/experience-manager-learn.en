@@ -4,8 +4,13 @@ seo-title: Adding text and image content to web channel document
 description: This is part 7 of a multi-step tutorial for creating your first interactive communications document. In this part, we will add images and text content to the header panel. 
 seo-description: This is part 7 of a multi-step tutorial for creating your first interactive communications document. In this part, we will add images and text content to the header panel. 
 uuid: 440f8b74-3be7-4e58-a46e-4110065b7705
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_documents
+sub-product: forms
+feature: interactive-communication
+topics: development
+audience: developer
+doc-type: tutorial
+activity: implement
+version: 6.4,6.5
 discoiquuid: 3dd64e7d-3f13-4022-bb75-c9dc1884bc19
 index: y
 internal: n
