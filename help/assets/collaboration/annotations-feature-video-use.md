@@ -4,13 +4,13 @@ seo-title: Using Annotations in AEM Assets
 description: AEM Assets provides annotation capabilities to allow users to collaborate and review an individual asset. Users can set preferences for annotation colors to more easily differentiate between users. Print capabilities are available for offline review.
 seo-description: AEM Assets provides annotation capabilities to allow users to collaborate and review an individual asset. Users can set preferences for annotation colors to more easily differentiate between users. Print capabilities are available for offline review.
 uuid: 9d1e411e-f602-4a76-9c67-fbe372fbb73e
+discoiquuid: 148164ea-d4bc-4314-93ac-6af26c6dee9d
 feature: asset-share
 topics: authoring, collaboration, operations, sharing
 audience: all
 doc-type: feature-video
 activity: use
 version: 6.3, 6.4, 6.5
-team: TM
 ---
 
 # Using Annotations in AEM Assets{#using-annotations-in-aem-assets}

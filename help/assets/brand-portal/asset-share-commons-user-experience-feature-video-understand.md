@@ -4,6 +4,7 @@ seo-title: Understanding the User Experience of Asset Share Commons
 description: Materials for both the functional and technical understanding Assets Share Commons
 seo-description: Materials for both the functional and technical understanding Assets Share Commons
 uuid: 68aceee7-92b5-4c43-ba4d-8ba0a8b0b292
+discoiquuid: 328a24c7-7a4e-4e68-89c0-8e268fe53f0b
 contentOwner: dgonzale
 feature: asset-share, brand-portal
 topics: authoring, sharing, collaboration, search, integrations, publishing, metadata, images, renditions
@@ -11,7 +12,6 @@ audience: all
 doc-type: feature-video
 activity: understand
 version: 6.3, 6.4, 6.5
-team: TM
 ---
 
 # Understanding the User Experience of Asset Share Commons{#understanding-asset-share-commons}

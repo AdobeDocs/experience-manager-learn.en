@@ -4,6 +4,7 @@ seo-title: Understanding Brand Portal with AEM Assets
 description: Materials for both the functional and technical understanding AEM Assets Brand Portal.
 seo-description: Materials for both the functional and technical understanding AEM Assets Brand Portal.
 uuid: 68aceee7-92b5-4c43-ba4d-8ba0a8b0b292
+discoiquuid: 328a24c7-7a4e-4e68-89c0-8e268fe53f0b
 contentOwner: dgonzale
 feature: asset-share, brand-portal
 topics: authoring, sharing, collaboration, search, integrations, publishing, metadata, images, renditions
@@ -11,7 +12,6 @@ audience: all
 doc-type: article
 activity: understand
 version: 6.3, 6.4, 6.5
-team: TM
 ---
 
 # Understanding Brand Portal with AEM Assets{#understanding-brand-portal-with-aem-assets}

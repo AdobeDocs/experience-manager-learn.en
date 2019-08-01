@@ -8,7 +8,7 @@ feature: pipelines, programs, projects, quality-gates, reports
 topics: best-practices, cicd, development, operations, governance
 doc-type: feature-video
 activity: understand
-audience: all
+audience: developer, implementer, administrator, architect
 ---
 
 # Understand Cloud Manager for AEM

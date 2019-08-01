@@ -3,13 +3,13 @@ title: Using Smart Translation Search with AEM Assets
 seo-title: Using Smart Translation Search with AEM Assets
 description: Smart Translation Search enables cross-language search and discovery automatically across AEM content, both Assets and Pages, supporting more than 50 languages and reducing the need for manual content translation.
 seo-description: Smart Translation Search enables cross-language search and discovery automatically across AEM content, both Assets and Pages, supporting more than 50 languages and reducing the need for manual content translation.
-uuid: daa6f20f-a4d3-402d-83b9-57d852062a89  
+uuid: daa6f20f-a4d3-402d-83b9-57d852062a89
+discoiquuid: eb2e484a-0068-458f-acff-42dd95a40aab
 topics: authoring, search, metadata, localization
 audience: all
 doc-type: feature-video
 activity: use
 version: 6.3, 6.4, 6.5
-team: TM
 ---
 
 # Using Smart Translation Search with AEM Assets{#using-smart-translation-search-with-aem-assets}

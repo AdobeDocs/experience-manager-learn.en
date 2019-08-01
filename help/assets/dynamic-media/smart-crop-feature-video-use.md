@@ -4,6 +4,7 @@ seo-title: Using Smart Crop with AEM Assets Dynamic Media
 description: Smart Crop uses Adobe Sensei to eliminate the time-consuming and costly tasks of cropping content for responsive design.
 seo-description: Smart Crop uses Adobe Sensei to eliminate the time-consuming and costly tasks of cropping content for responsive design.
 uuid: 2cb27aa8-644d-4b17-8ffc-f6a99f95cfd2
+discoiquuid: e4b8534c-fa64-491f-86ec-4dbe50cd6bf7
 product: dynamic-media
 feature: smart-crop, image-profiles
 topics: images, renditions, authoring
@@ -11,7 +12,6 @@ doc-type: feature-video
 audience : all
 activity: use
 version: 6.4, 6.5
-team: TM
 ---
 
 # Using Smart Crop with AEM Assets Dynamic Media{#using-smart-crop-with-aem-assets-dynamic-media}
