@@ -3,14 +3,6 @@ title: Chapter 4 - Defining Content Services Templates
 seo-title: Getting Started with AEM Headless - Chapter 4 - Defining Content Services Templates
 description: Chapter 4 of the AEM Headless tutorial covers the role of AEM Editable Templates in the context of AEM Content Services. Editable Templates are used to define the JSON content structure AEM Content Services will ultimately expose.
 seo-description: Chapter 4 of the AEM Headless tutorial covers the role of AEM Editable Templates in the context of AEM Content Services. Editable Templates are used to define the JSON content structure AEM Content Services will ultimately expose.
-version: 6.5
-sub-product: content-services
-feature: content-fragment
-topics: content-delivery, headless
-activity: develop
-audience: architect, developer
-uuid: ce356568-d258-4afc-9576-665bc8ad77ca
-discoiquuid: d1c4ea1a-7dda-4f0f-964c-c6539b9c5263
 ---
 
 # Chapter 4 - Defining Content Services Templates
@@ -29,7 +21,7 @@ To  mobile app, we'll create a single Editable Template which will be used to dr
 
 ## Understanding the API End-point
 
-To understand how to compose our API endpoint, and understand what content should be exposed to our Android Mobile App, let us revisit the design.
+To understand how to compose our API endpoint, and understand what content should be exposed to our Mobile App, let us revisit the design.
 
 ![Events API Page Decomposition](./assets/chapter-4/design-to-component-mapping.png)
 
@@ -91,16 +83,12 @@ To do this, we can map these requirements to AEM Components (and in our case, AE
 1. However, ensure the **layout container** is **locked** to prevent other components from being added, or these three components from being removed.
 1. Tap **Page Information > View in Admin** to return to the WKND Mobile templates listing. Select the newly created **Events API** template and tap **Enable** in the top action bar.
 
->![NOTE]
+>[!NOTE]
 >
 > Notice that the components used to surface the content are added to the Template itself, and locked down. This is to allow authors to edit the pre-defined components, but not arbitrarily add or remove components since changing the API itself could break assumptions around the JSON structure and break consuming apps. All APIs need to be stable.
 
-## Additional commentary
+## Next steps
 
->[!VIDEO](https://video.tv.adobe.com/v/20673?quality=9)
+Optionally, install the [com.adobe.aem.guides.wknd-mobile.content.chapter-4.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest) content package on AEM Author  via [AEM's Package Manager](http://localhost:4502/crx/packmgr/index.jsp). This package contains the configurations and content outlined in this and preceding chapters of the tutorial.
 
-## Next steps {#next-steps}
-
-Optionally, install the [com.adobe.aem.guides.wknd-mobile.content.chapter-4.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest) content package on AEM Author  via [AEM's Package Manager](http://localhost:4502/crx/packmgr/index.jsp). This package contains the configurations and content outlined in this part of the tutorials.
-
-[**Chapter 5 - Authoring Content Services Pages**](./chapter-5.md)
+* [Chapter 5 - Authoring Content Services Pages](./chapter-5.md)

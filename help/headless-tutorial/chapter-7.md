@@ -3,14 +3,6 @@ title: Chapter 7 - Consuming AEM Content Services from a Mobile App
 seo-title: Getting Started with AEM Headless - Chapter 7 - Consuming AEM Content Services from a Mobile App
 description: Chapter 7 of the tutorial runs up the Android Mobile App to consume authored content from AEM Content Services.
 seo-description: Chapter 7 of the tutorial runs up the Android Mobile App to consume authored content from AEM Content Services.
-version: 6.5
-sub-product: content-services
-feature: content-fragment
-topics: content-delivery, headless
-activity: develop
-audience: architect, developer
-uuid: fb58308b-e907-4712-8708-7223464abe3c
-discoiquuid: 0922279e-4efa-44c9-9f4a-d7859d2789c3
 ---
 
 # Chapter 7 - Consuming AEM Content Services from a Mobile App
@@ -27,51 +19,56 @@ Android is used for tutorial due to the ability to run an Android Emulator on Wi
 
 *The tutorial's Android Mobile App is **not** intended to instruct how to build Android Mobile apps or convey Android development best practices, but rather to illustrate how AEM Content Services can be consumed from a Mobile Application.*
 
-### How AEM Content Services drives the Android Mobile App experience
+### How AEM Content Services drives the Mobile App experience
 
-![Android Mobile App to Content Services Mapping](assets/chapter-7/content-services-mapping.png)
+![Mobile App to Content Services Mapping](assets/chapter-7/content-services-mapping.png)
 
 1. The **logo** as defined by the Events API page's **Image component**.
 1. The **tag line** as defined on the Events API page's **Text component**.
 1. This **Event list** is derived from the serialization of the Event Content Fragments, exposed via the configured **Content Fragment List component**.
 
-## Android Mobile App demonstration
+## Mobile App demonstration
 
-![WKND Android Mobile App Demonstration](assets/chapter-7/android-mobile-app-demonstration.gif)
+![WKND Mobile App Demonstration](assets/chapter-7/android-mobile-app-demonstration.gif)
 
-### Configuring the Android Mobile App for non-localhost use
+### Configuring the Mobile App for non-localhost use
 
-If AEM Publish is not being run on **http://localhost:4503** the host and port can be updated in the Android Mobile App's Settings to point to the property AEM Publish host/port.
+If AEM Publish is not being run on **http://localhost:4503** the host and port can be updated in the Mobile App's Settings to point to the property AEM Publish host/port.
 
-![Configuring the AEM Host in the Android Mobile App](assets/chapter-7/configuring-android-mobile-app-host.gif)
+![Configuring the AEM Host in the Mobile App](assets/chapter-7/configuring-android-mobile-app-host.gif)
 
-## Running the Android Mobile App locally
+## Running the Mobile App locally
+
+![Running the Mobile App locally](./assets/chapter-7/running-the-mobile-app-locally.gif)
 
 1. Download and install the [Android Studio](https://developer.android.com/studio/install) to install the Android Emulator.
 1. **Download** the Android APK file [GitHub > Assets >  wknd-mobile.x.x.xapk](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest)
 1. Open Android Studio and select **Profile or Debug APK**
-1. Select the APK file (**wknd-mobile.android-app.X.X.apk**) downloaded in Step 2 and click **OK**
+1. Select the APK file (**wknd-mobile.x.x.x.apk**) downloaded in Step 2 and click **OK**
    * If prompted to **Create a New Folder**, or **Use Existing**, select **Use Existing**.
-1. Open the **AVD Manager** by selecting **Tools > AVD Manager**.
-1. In the **AVD Manager** window, click **+ Create Virtual Device..._** if you do not already have device registered.
+1. Open the **AVD Manager** by selecting **Tools > AVD Manager** or tapping the **AVD Manager** icon in the top bar.
+1. In the **AVD Manager** window, click **+ Create Virtual Device...** if you do not already have device registered.
     1. In the left, select the **Phone** category.
     1. Select a **Pixel 2**.
     1. Click the **Next** button.
     1. Select **Nougat** with **API Level 24**.
     1. Click the **Next** button.
     1. Click the **Finish** button.
-1. Once the new **Pixel 2 Virtual Device** is registered in **AVD Manager**, click the Play button to the right of the device to start the Android Emulator with the APK.
+1. Close the **AVD Manager** window.
+1. In the top menu bar select **wknd-mobile.x.x.x** from the **Run/Edit Configurations** drop down.
+1. Tap the **Run** button next to the selected **Run/Edit Configuration**
+1. In the pop-up, select the newly created **Pixel 2 API 24** virtual device and tap **OK**
 1. If the WKND Mobile app doesn't immediately load, find and tap on the **WKND** icon from the home screen.
     * To scroll within the virtual device, click-and-hold and drag.
     * To refresh the content from AEM, pull down from the top until the Refresh icon displays, and release.
 
-## The Android Mobile App Code
+## The Mobile App Code
 
 This section highlights the Android Mobile App code that most interacts and depends on AEM Content Services and it's JSON output.
 
-Upon load, the Android Mobile App makes `HTTP GET` to `/content/wknd-mobile/en/api/events.model.json` which is the AEM Content Services end-point configured to provide the content to drive the Mobile App.
+Upon load, the Mobile App makes `HTTP GET` to `/content/wknd-mobile/en/api/events.model.json` which is the AEM Content Services end-point configured to provide the content to drive the Mobile App.
 
-Because the Editable Template of the Events API (`/content/wknd-mobile/en/api/events.model.json`) is locked, the Android Mobile App can be coded to look for specific information in specific locations in the JSON response.
+Because the Editable Template of the Events API (`/content/wknd-mobile/en/api/events.model.json`) is locked, the Mobile App can be coded to look for specific information in specific locations in the JSON response.
 
 ### High-level Code Flow
 
@@ -81,11 +78,11 @@ Because the Editable Template of the Events API (`/content/wknd-mobile/en/api/ev
         * Image Component JSON &rarr; Logo POJO &rarr; Logo ImageView
         * Text Component JSON &rarr; TagLine POJO &rarr; Text ImageView
         * Content Fragment List JSON &rarr; Events POJO &rarr;Events RecyclerView
-    * *The Android Mobile App code is able to map the JSON to the POJOs because of the well known locations within the greater JSON response. Remember, the JSON keys of "image", "text" and "contentfragmentlist" are dictated by the backing AEM Components' node names. If these node names change, then the Android Mobile App will break as it will not know how to source the requisite content from the JSON data.*
+    * *The Mobile App code is able to map the JSON to the POJOs because of the well known locations within the greater JSON response. Remember, the JSON keys of "image", "text" and "contentfragmentlist" are dictated by the backing AEM Components' node names. If these node names change, then the Mobile App will break as it will not know how to source the requisite content from the JSON data.*
 
 #### Invoking the AEM Content Services End-point
 
-The following is a distillation of the code in the Android Mobile App's MainActivity responsible for invoking AEM Content Services to collect the content that drives the Mobile App experience.
+The following is a distillation of the code in the Mobile App's MainActivity responsible for invoking AEM Content Services to collect the content that drives the Mobile App experience.
 
 ```
 protected void onCreate(Bundle savedInstanceState) {

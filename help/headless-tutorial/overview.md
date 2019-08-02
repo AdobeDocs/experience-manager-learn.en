@@ -3,14 +3,6 @@ title: Getting Started with AEM Headless
 seo-title: Getting Started with AEM Headless
 description: An end-to-end tutorial illustrating how to build-out and expose content using AEM Headless.
 seo-description: An end-to-end tutorial illustrating how to build-out and expose content using AEM Headless.
-uuid: 418925f8-1cf6-43df-9a18-08eda4724a02
-version: 6.5
-sub-product: content-services
-feature: content-fragment
-topics: content-delivery, headless
-activity: develop
-audience: architect, developer
-discoiquuid: 6298733d-fdbf-4e28-a7d4-06f08e9088c4
 ---
 
 # Getting Started with AEM Headless
@@ -19,14 +11,14 @@ An end-to-end tutorial illustrating how to build-out and expose content using AE
 
 >![VIDEO](https://video.tv.adobe.com/v/28315/?quality=12)
 
-This tutorial explores how AEM Content Services can be used to power the experience of an Android mobile app that displays Event information (music, performance, art, etc.) that is curated by the WKND team.
+This tutorial explores how AEM Content Services can be used to power the experience of an Mobile App that displays Event information (music, performance, art, etc.) that is curated by the WKND team.
 
 This tutorial will cover the following topics:
 
 * Create content that represent an Event using Content Fragments
 * Define an AEM Content Services end-points using AEM Sites' Templates and Pages that expose the Event data as JSON
 * Explore how AEM WCM Core Components can be used to enable marketers to author JSON end-points
-* Consume AEM Content Services JSON from an Android Mobile App
+* Consume AEM Content Services JSON from an Mobile App
   * The use of Android is due to it is a cross-platform emulator that all users (Windows, macOS, and Linux) of this tutorial can use.
 
 ## GitHub Project

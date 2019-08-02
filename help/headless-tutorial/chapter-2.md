@@ -3,15 +3,6 @@ title: Chapter 2 - Defining Event Content Fragment Models
 seo-title: Getting Started with AEM Content Services - Chapter 2 - Defining Event Content Fragment Models
 description: Chapter 2 of the AEM Headless tutorial covers enabling and defining Content Fragment Models used to define a normalized data structure and authoring interface for creating Events.
 seo-description: Chapter 2 of the AEM Headless tutorial covers enabling and defining Content Fragment Models used to define a normalized data structure and authoring interface for creating Events.
-version: 6.5
-sub-product: content-services
-feature: content-fragment, core-components
-topics: content-delivery
-audience: architect, developer, implementer
-activity: develop, understand
-doc-type: tutorial
-uuid: 2d09d65e-2116-42b8-aea7-2355be888190
-discoiquuid: b2593a09-665e-438f-9394-8471325e84fa
 ---
 
 # Chapter 2 - Using Content Fragment Models
@@ -104,65 +95,64 @@ Armed with the mapping we can define out Content Fragment that will be used to c
 
 Repeat these steps using the input definitions defined below to create the rest of the Event Content Fragment Model.
 
->![NOTE]
+>[!NOTE]
 >
 > The **Property Name** fields MUST match exactly, as the Android application is programmed to key off these names.
 
 ### Event Description
 
-    * Data Type: `Multi-line text`
-    * Field Label: `Event Description`
-    * Property Name: `eventDescription`
-    * Default Type: `Rich text`
+* Data Type: `Multi-line text`
+* Field Label: `Event Description`
+* Property Name: `eventDescription`
+* Default Type: `Rich text`
 
 ### Event Date and Time
 
-    * Data Type: `Date and time`
-    * Field Label: `Event Date and Time`
-    * Property Name: `eventDateAndTime`
-    * Required: `Yes`
+* Data Type: `Date and time`
+* Field Label: `Event Date and Time`
+* Property Name: `eventDateAndTime`
+* Required: `Yes`
 
 ### Event Type
 
-    * Data Type: `Enumeration`
-    * Field Label: `Event Type`
-    * Property Name: `eventType`
-    * Options: `Art,Music,Performance,Photography`
+* Data Type: `Enumeration`
+* Field Label: `Event Type`
+* Property Name: `eventType`
+* Options: `Art,Music,Performance,Photography`
 
 ### Ticket Price
 
-    * Data Type: `Number`
-    * Render As: `numberfield`
-    * Field Label: `Ticket Price`
-    * Property Name: `eventPrice`
-    * Type: `Integer`
-    * Required: `Yes`
+* Data Type: `Number`
+* Render As: `numberfield`
+* Field Label: `Ticket Price`
+* Property Name: `eventPrice`
+* Type: `Integer`
+* Required: `Yes`
 
 ### Event Image
 
-    * Data Type: `Content Reference`
-    * Render As: `contentreference`
-    * Field Label: `Event Image`
-    * Property Name: `eventImage`
-    * Root Path: `/content/dam/wknd-mobile/images`
-    * Required: `Yes`
-
+* Data Type: `Content Reference`
+* Render As: `contentreference`
+* Field Label: `Event Image`
+* Property Name: `eventImage`
+* Root Path: `/content/dam/wknd-mobile/images`
+* Required: `Yes`
 
 ### Venue Name
 
-    * Data Type: `Single-line text`
-    * Render As: `textfield`
-    * Field Label: `Venue Name`
-    * Property Name: `venueName`
-    * Max Length: 20
-    * Required: `Yes`
+* Data Type: `Single-line text`
+* Render As: `textfield`
+* Field Label: `Venue Name`
+* Property Name: `venueName`
+* Max Length: 20
+* Required: `Yes`
 
 ### Venue City
 
-    * Data Type: `Enumeration`
-    * Field Label: `Venue City`
-    * Property Name: `venueCity`
-    * Options: `Basel,London,Los Angeles,Paris,New York,Tokyo`
+* Data Type: `Enumeration`
+* Field Label: `Venue City`
+* Property Name: `venueCity`
+* Options: `Basel,London,Los Angeles,Paris,New York,Tokyo`
 
 >[!NOTE]
 >
@@ -174,6 +164,6 @@ After completing creating of the Content Fragment Model, you should end up with 
 
 ## Next step
 
-Optionally, install the [com.adobe.aem.guides.wknd-mobile.content.chapter-2.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest) content package on AEM Author via [AEM's Package Manager](http://localhost:4502/crx/packmgr/index.jsp). This package contains the configurations and content outlined in this part of the tutorials.
+Optionally, install the [com.adobe.aem.guides.wknd-mobile.content.chapter-2.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest) content package on AEM Author via [AEM's Package Manager](http://localhost:4502/crx/packmgr/index.jsp). This package contains the configurations and content outlined in this part of the tutorial.
 
-[Chapter 3 - Authoring Event Content Fragments](./chapter-3.md)
+* [Chapter 3 - Authoring Event Content Fragments](./chapter-3.md)

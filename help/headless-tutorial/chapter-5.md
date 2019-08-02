@@ -3,21 +3,13 @@ title: Chapter 5 - Authoring Content Services Pages
 seo-title: Getting Started with AEM Headless - Chapter 5 - Authoring Content Services Pages
 description: Chapter 5 of the AEM Headless tutorial covers creating the Pages from the Templates defined in Chapter 4. These pages will act as the JSON HTTP end-points.
 seo-description: Chapter 5 of the AEM Headless tutorial covers creating the Pages from the Templates defined in Chapter 4. These pages will act as the JSON HTTP end-points.
-version: 6.5
-sub-product: content-services
-feature: content-fragment
-topics: content-delivery, headless
-activity: develop
-audience: architect, developer
-uuid: c5a07954-a48b-4642-8a48-e69f7108f0f1
-discoiquuid: c53497a7-8871-48ab-bb81-5ed5f8b2fd9d
 ---
 
 # Chapter 5 - Authoring Content Services Pages
 
 Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templates defined in Chapter 4. The page create in this chapter will act as the JSON HTTP end-point for the Mobile App.
 
->![NOTE]
+>[!NOTE]
 >
 > The page content architecture of `/content/wknd-mobile/en/api` has been pre-built. The base pages of `en` and `api` serve a architectural and organizational purpose, but are not strictly required. If API content may be localized, it is best practice to follow the usual Language Copy and Multi-site Manager page organization best-practices, since API page can be localized like any of AEM Sites page.
 
@@ -38,11 +30,11 @@ Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templat
 
 ![Authoring the Events API Page](assets/chapter-5/authoring-the-events-api-page.gif)
 
->![NOTE]
+>[!NOTE]
 >
 > The project provides CSS in order to provide some basic styles for the author experience.
 
-1. Edit the **Events API** page by navigating to ****AEM > Sites > WKND Mobile > English > API**, selecting the **Events API** page, and tapping **Edit** in the top action bar.
+1. Edit the **Events API** page by navigating to **AEM > Sites > WKND Mobile > English > API**, selecting the **Events API** page, and tapping **Edit** in the top action bar.
 1. Add a **logo image** to display in the app by drag-and-dropping it from the Asset Finder onto the Image component placeholder.
     * Use the provided logo found at `/content/dam/wknd-mobile/images/wknd-logo.png`.
 
@@ -61,11 +53,11 @@ Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templat
 
 ## Review the JSON output of the API page
 
-*The JSON output and its format can be reviewed by requesting the Page with the `.model.json` selector.*
+The JSON output and its format can be reviewed by requesting the Page with the `.model.json` selector.
 
-*This JSON structure (or schema) must be well understood by consumers of this API. It is critical API consumers understand which aspects of the structure are fixed (ie. the Event API's Logo (Image) and Tag live (Text) and which are fluid (ie. the events listed under Content Fragment List component).*
+This JSON structure (or schema) must be well understood by consumers of this API. It is critical API consumers understand which aspects of the structure are fixed (ie. the Event API's Logo (Image) and Tag live (Text) and which are fluid (ie. the events listed under Content Fragment List component).
 
-*Breaking this contract on a published API, may result in incorrect behavior in the consuming Apps.*
+Breaking this contract on a published API, may result in incorrect behavior in the consuming Apps.
 
 1. In new browser tabs, request the Events API pages using the `.model.json` selector, which invokes AEM Content Services' JSON Exporter, and serializes the Page and Components into a normalized, well defined JSON structure.
 
@@ -77,15 +69,15 @@ Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templat
 
    The result should appear similar to:
 
-   ![AEM Content Services JSON output](assets/chapter-5/json-output.png)
+![AEM Content Services JSON output](assets/chapter-5/json-output.png)
 
->![NOTE]
+>[!NOTE]
 >
 > This JSON can be output in a **tidy** (formatted) fashion for human-readability by using the `.tidy` selector:
 > * [http://localhost:4502/content/wknd-mobile/en/api/events.model.tidy.json](http://localhost:4502/content/wknd-mobile/en/api/events.model.tidy.json)
 
-## Next step {#next-step}
+## Next step
 
-Optionally, install the [com.adobe.aem.guides.wknd-mobile.content.chapter-5.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest) content package on AEM Author via [AEM's Package Manager](http://localhost:4502/crx/packmgr/index.jsp). This package contains the configurations and content outlined in this part of the tutorials.
+Optionally, install the [com.adobe.aem.guides.wknd-mobile.content.chapter-5.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest) content package on AEM Author via [AEM's Package Manager](http://localhost:4502/crx/packmgr/index.jsp). This package contains the configurations and content outlined in this and preceding chapters of the tutorial.
 
-[Chapter 6 - Exposing the Content on AEM Publish as JSON](./chapter-6.md)
+* [Chapter 6 - Exposing the Content on AEM Publish as JSON](./chapter-6.md)

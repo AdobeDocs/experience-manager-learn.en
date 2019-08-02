@@ -3,19 +3,11 @@ title: Chapter 1 - Tutorial Set up and Downloads
 seo-title: Getting Started with AEM Content Services - Chapter 1 -  Tutorial Set up
 description: Chapter 1 of the AEM Headless tutorial the baseline setup for the AEM instance for the tutorial.
 seo-description: Chapter 1 of the AEM Headless tutorial the baseline setup for the AEM instance for the tutorial.
-uuid: 418925f8-1cf6-43df-9a18-08eda4724a02
-version: 6.5
-sub-product: content-services
-feature: content-fragment
-topics: content-delivery, headless
-activity: develop
-audience: architect, developer
-discoiquuid: 6298733d-fdbf-4e28-a7d4-06f08e9088c4
 ---
 
-# Tutorial Set up and Downloads
+# Tutorial Set up
 
-*The latest version of AEM and AEM WCM Core Components is always recommended.*
+The latest version of AEM and AEM WCM Core Components is always recommended.
 
 * AEM 6.5 or later
 * AEM WCM Core Components 2.4.0 or later
@@ -61,3 +53,8 @@ If you find an issue with the tutorial or the code, please leave a [GitHub issue
 ## Skip to the end
 
 In order to skip to the end of the tutorial, the [com.adobe.aem.guides.wknd-mobile.content.chapter-5.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest) content package can be installed on **both** AEM Author and AEM Publish. Note that content and configuration will not show as published in AEM Author, however due to the manual deployment, all the requisite content and configuration will be available on AEM Publish allowing the WKND Mobile App to access the content.
+
+
+## Next step
+
+* [Chapter 2 - Defining Event Content Fragment Models](./chapter-2.md)
