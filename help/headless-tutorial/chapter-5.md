@@ -15,8 +15,6 @@ Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templat
 
 ## Creating the Event API Page
 
-![Creating the Events API Page](assets/chapter-5/create-the-events-api-page.gif)
-
 1. Navigate to **AEM > Sites > WKND Mobile > English > API**.
 1. **Tap the label the API page**, then tap the **Create** button in the top action bar and create a new Events API page under the API page.
     1. Tap **Create** in the top action bar
@@ -26,9 +24,9 @@ Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templat
     1. Tap **Create** in the top action bar to create the page
     1. Tap **Done** to return to the AEM Sites admin
 
-## Authoring the Events API Page
+>[!VIDEO](https://video.tv.adobe.com/v/28340/?quality=12)
 
-![Authoring the Events API Page](assets/chapter-5/authoring-the-events-api-page.gif)
+## Authoring the Events API Page
 
 >[!NOTE]
 >
@@ -50,6 +48,8 @@ Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templat
         * Tags: **&lt;Leave blank&gt;**
     1. Set the following configuration on the **Elements** tab:
         * Remove any listed elements, to ensure ALL elements of the Event Content Fragments are exposed.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28339/?quality=12)
 
 ## Review the JSON output of the API page
 

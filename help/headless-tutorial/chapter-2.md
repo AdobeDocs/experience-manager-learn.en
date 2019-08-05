@@ -26,11 +26,9 @@ If Content Fragment Models are **not** enabled for a configuration, the **Create
 >
 >AEM's configurations represent a set of [context-aware tenant configurations](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html) stored under `/conf`. Typically AEM configurations correlate with a particular Web site managed in AEM Sites or a business unit responsible for a sub-set of content (assets, pages, etc.) in AEM.
 >
->In order for a configuration to affect a content hierarchy, the configuration must be referenced via the `cq:conf` property on that content hierarchy. (This is achieved for the We.Retail configuration in **Step 5** below).
+>In order for a configuration to affect a content hierarchy, the configuration must be referenced via the `cq:conf` property on that content hierarchy. (This is achieved for the WKND Mobile configuration in **Step 5** below).
 >
 >When the `global` configuration is used, the configuration applies to all content, and `cq:conf` does not need to be set.
-
-![Enable Content Fragment Models](./assets/chapter-2/enable-content-fragment-models.gif)
 
 1. Log in to AEM Author as a user with appropriate permissions to modify the relevant Configuration.
    * For this tutorial, the **admin** user can be used.
@@ -59,6 +57,8 @@ If Content Fragment Models are **not** enabled for a configuration, the **Create
     1. Verify the **Cloud Configuration** field is set to **/conf/wknd-mobile**
     1. Tap **Save & Close** in the upper-right to persist changes
 
+>[!VIDEO](https://video.tv.adobe.com/v/28336/?quality=12)
+
 ## Understanding the Content Fragment Model to Create
 
 Before defining out Content Fragment model, let's review the experience we'll be driving to ensure we are capturing all the necessary data points. For this, we'll review out Mobile applications design and map the design elements to content-to-collect.
@@ -71,16 +71,14 @@ Armed with the mapping we can define out Content Fragment that will be used to c
 
 ## Creating the Content Fragment Model
 
-![Create the Content Fragment Model for an Event](assets/chapter-2/create-a-content-fragment-model.gif)
-
 1. Navigate to **Tools > Assets > Content Fragment Models**.  
 1. Tap the **WKND Mobile** folder to open.  
 1. Tap **Create** to open the Content Fragment Model creation wizard.  
 1. Enter **Event** as the **Model Title** *(description is optional)* and tap **Create** to save.
 
-## Defining the structure of the Content Fragment Model
+>[!VIDEO](https://video.tv.adobe.com/v/28337/?quality=12)
 
-![Defining the structure of the Content Fragment Model](assets/chapter-2/define-structure-of-content-fragment-model.gif)
+## Defining the structure of the Content Fragment Model
 
 1. Navigate to **Tools > Assets > Content Fragment Models > WKND**.
 1. Select the **Event** Content Fragment Model and tap **Edit** in the top action bar.
@@ -154,11 +152,14 @@ Repeat these steps using the input definitions defined below to create the rest 
 * Property Name: `venueCity`
 * Options: `Basel,London,Los Angeles,Paris,New York,Tokyo`
 
+>[!VIDEO](https://video.tv.adobe.com/v/28335/?quality=12)
+
 >[!NOTE]
 >
 >The **Property Name** denotes the **both** the JCR property name where this value will be stored as well as the key in the JSON file . This should be a semantic name that is will not change over the life of the Content Fragment Model.
 
 After completing creating of the Content Fragment Model, you should end up with a definition that looks like:
+
 
 ![Event Content Fragment Model](assets/chapter-2/event-content-fragment-model.png)
 

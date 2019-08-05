@@ -45,8 +45,6 @@ To do this, we can map these requirements to AEM Components (and in our case, AE
 
 ## Defining the Events API Template
 
-![Defining the Events API Editable Template](assets/chapter-4/defining-the-events-api-template.gif)
-
 1. Navigate to **Tools > General > Templates > WKND Mobile**.
 
 1. Create the **Events API** template:
@@ -82,6 +80,10 @@ To do this, we can map these requirements to AEM Components (and in our case, AE
 1. **For each of the above components**, select them and press the **unlock** button.
 1. However, ensure the **layout container** is **locked** to prevent other components from being added, or these three components from being removed.
 1. Tap **Page Information > View in Admin** to return to the WKND Mobile templates listing. Select the newly created **Events API** template and tap **Enable** in the top action bar.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28341/?quality=12)
+
+![Defining the Events API Editable Template](assets/chapter-4/defining-the-events-api-template.gif)
 
 >[!NOTE]
 >
