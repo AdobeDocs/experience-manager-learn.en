@@ -19,7 +19,7 @@ This tutorial will cover the following topics:
 * Define an AEM Content Services end-points using AEM Sites' Templates and Pages that expose the Event data as JSON
 * Explore how AEM WCM Core Components can be used to enable marketers to author JSON end-points
 * Consume AEM Content Services JSON from an Mobile App
-  * The use of Android is due to it is a cross-platform emulator that all users (Windows, macOS, and Linux) of this tutorial can use.
+  * The use of Android is because it has a cross-platform emulator that all users (Windows, macOS, and Linux) of this tutorial can use to run the native App.
 
 ## GitHub Project
 
