@@ -20,8 +20,6 @@ Content Fragments, which are a type of Asset, should be organized and managed in
 
 In this step, well create a new Event for `Punkrock Fest` in the `/content/dam/wknd-mobile/en/events` assets folder.
 
-![Create a new Event Content Fragment](assets/chapter-3/create-a-new-event-content-fragment.gif)
-
 1. Navigate to **AEM > Assets > Files > WKND Mobile > English** and create Asset folders **Events**.
 1. Within **Assets > Files > WKND Mobile > English > Events** create a new Content Fragment of type **Event** with a title of **Punkrock Fest**.
 1. Author the newly created Event Content Fragment.
@@ -41,11 +39,11 @@ In this step, well create a new Event for `Punkrock Fest` in the `/content/dam/w
 
    [Get File: GitHub > Assets > com.adobe.aem.guides.wknd-mobile.content.chapter-3.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest)
 
+>[!VIDEO](https://video.tv.adobe.com/v/28338/?quality=12)
+
 ## Reviewing the Content Fragment's JCR structure
 
 *This section is informational only and meant to socialize the underlying JCR structure of Content Fragments made from Content Fragment Models.*
-
-![Content Fragment JCR Node Structure](assets/chapter-3/content-fragment-node-structure.gif)
 
 1. Open **[CRXDE Lite](http://localhost:4502/crx/de/index.jsp)** on AEM Author.  
 1. In CRXDE Lite, on the left-hand hierarchy menu, navigate to [/content/dam/wknd-mobile/en/events/punkrock-fest/jcr:content](http://localhost:4502/crx/de/index.jsp#/content/dam/wknd-mobile/en/events/punkrock-fest/jcr:content) which is the node representing the Punkrock Fest Event Content Fragment in the JCR.
@@ -53,6 +51,8 @@ In this step, well create a new Event for `Punkrock Fest` in the `/content/dam/w
 Review in the **Properties pane** that it has a property `cq:model` that points to the Event Content Fragment Model definition.
     * **`cq:model` **=** `/conf/settings/wknd-mobile/dam/cfm/models/event`**
 1. Beneath the `data` node select the [master](http://localhost:4502/crx/de/index.jsp#/content/dam/wknd-mobile/en/events/punkrock-fest/jcr:content/data/master) node and review the properties. This node contains the content collected during the authoring of an Event Content Fragment Model. The JCR property names correspond to the Content Fragment Model property name's, and the values correspond to the authored values of the "Punkrock Fest" Event Content Fragment.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28341/?quality=12)
 
 ## Next step
 

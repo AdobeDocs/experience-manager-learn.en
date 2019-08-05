@@ -29,17 +29,15 @@ Android is used for tutorial due to the ability to run an Android Emulator on Wi
 
 ## Mobile App demonstration
 
-![WKND Mobile App Demonstration](assets/chapter-7/android-mobile-app-demonstration.gif)
+>[!VIDEO](https://video.tv.adobe.com/v/28345/?quality=12)
 
 ### Configuring the Mobile App for non-localhost use
 
 If AEM Publish is not being run on **http://localhost:4503** the host and port can be updated in the Mobile App's Settings to point to the property AEM Publish host/port.
 
-![Configuring the AEM Host in the Mobile App](assets/chapter-7/configuring-android-mobile-app-host.gif)
+>[!VIDEO](https://video.tv.adobe.com/v/28344/?quality=12)
 
 ## Running the Mobile App locally
-
-![Running the Mobile App locally](./assets/chapter-7/running-the-mobile-app-locally.gif)
 
 1. Download and install the [Android Studio](https://developer.android.com/studio/install) to install the Android Emulator.
 1. **Download** the Android APK file [GitHub > Assets >  wknd-mobile.x.x.xapk](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest)
@@ -61,6 +59,8 @@ If AEM Publish is not being run on **http://localhost:4503** the host and port c
 1. If the WKND Mobile app doesn't immediately load, find and tap on the **WKND** icon from the home screen.
     * To scroll within the virtual device, click-and-hold and drag.
     * To refresh the content from AEM, pull down from the top until the Refresh icon displays, and release.
+
+![Running the Mobile App locally](./assets/chapter-7/running-the-mobile-app-locally.gif)
 
 ## The Mobile App Code
 

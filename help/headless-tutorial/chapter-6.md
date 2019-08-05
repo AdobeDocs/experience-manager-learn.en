@@ -18,8 +18,6 @@ Because AEM Content Services is built from Configuration (Content Fragment Model
 * Workflow for review and processing
 * and activation/deactivation for pushing and pulling content from the AEM Publish's AEM Content Services end-points
 
-![Publish AEM Content and Configuration](assets/chapter-6/publish-content-and-config.gif)
-
 1. Ensure the **WKND Mobile Application Packages**, listed in [Chapter 1](./chapter-1.md#wknd-mobile-application-packages), are installed on **AEM Publish** using Package Manager.
     * [http://localhost:4503/crx/packmgr](http://localhost:4503/crx/packmgr)
 
@@ -47,6 +45,8 @@ Because AEM Content Services is built from Configuration (Content Fragment Model
     1. Leaving the default **Publish** action as-is, tap **Next** in the top action bar
     1. Select the **Events** page
     1. Tap **Publish** in the top action bar
+
+>[!VIDEO](https://video.tv.adobe.com/v/28343/?quality=12)
 
 ## Verify AEM Publish
 
