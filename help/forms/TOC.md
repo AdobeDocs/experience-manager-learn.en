@@ -31,6 +31,8 @@ index: y
   + [Integrating LDAP with AEM Forms](adaptive-forms/aem-forms-workflow-with-ldap-article-use.md)
   + [Using Service User in AEM Forms](adaptive-forms/service-user-tutorial-develop.md)
   + [Tagging and Storing DoR on Adaptive Form Submission](adaptive-forms/tagging-and-saving-document-of-record-in-dam-article-use.md)
+  + [Populating table with the results from Form Data Model Service Invocation](adaptive-forms/populatetable.md)
+  + [Configuring Adaptive Form to trigger AEM Workflow](adaptive-forms/configure-af-to-trigger-aem-workflow.md)
   + [Storing Submitted Form Data in DB](adaptive-forms/storing-adaptive-form-data-in-db.md)
   + [Form Data Model Service in AEM Workflow](adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md)
   + [Form Data Model Service in AEM 6.5.1 Workflow](adaptive-forms/form-data-model-service-as-step-in-aem65-workflow-video-use.md)
@@ -71,7 +73,7 @@ index: y
   + [Part1-Registering Custom Asset Types](listing-custom-asset-types/part1.md)
   + [Part2 - Creating Custom Template](listing-custom-asset-types/part2.md)
 + AEM Forms With Marketo{#aem-forms-with-marketo}
-  + [Part1- Inroduction](aem-forms-with-marketo/part1.md)
+  + [Part1- Introduction](aem-forms-with-marketo/part1.md)
   + [Part2 - Custom Authentication](aem-forms-with-marketo/part2.md)
   + [Part3 - Data Source](aem-forms-with-marketo/part3.md)
   + [Part4 - Putting it all together](aem-forms-with-marketo/part4.md)
@@ -106,6 +108,7 @@ index: y
   + [Opening Agent UI on Form Submission](ic-print-channel-tutorial/parteleven.md)
 + Interactive Communications {#interactive-communications}
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
+  + [Generate Print Channel Documents From Submitted Data](interactive-communications/merge-data-with-ic-template.md)
 
 + Interactive Communications For Web Channel {#ic-web-channel-tutorial}
   + [Introduction](ic-web-channel-tutorial/introduction.md)

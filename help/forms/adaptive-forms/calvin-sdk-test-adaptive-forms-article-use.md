@@ -3,7 +3,6 @@ title: Using Automated Tests with AEM Adaptive Forms
 seo-title: Using Automated Tests with AEM Adaptive Forms 
 description: Automated testing of Adaptive Forms using Calvin SDK
 seo-description: Automated testing of Adaptive Forms using Calvin SDK
-sub-product: forms
 feature: adaptive-forms
 topics: development
 audience: developer

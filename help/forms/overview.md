@@ -28,7 +28,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 <tr>
   <td>
     <a href="./creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.md">
-      <img alt="400 x 225px" src="./creating-your-first-adaptive-form/adaptiveform.png" />
+      <img alt="400 x 225px" src="./landingpage-images/adaptiveform.png" />
     </a>
     <div>
       <a href="./creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.md">
@@ -41,7 +41,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
   </td>
    <td>
     <a href="./ic-print-channel-tutorial/introduction.md">
-      <img alt="400 x 225px" src="./ic-print-channel-tutorial/printchannel.png" />
+      <img alt="400 x 225px" src="./landingpage-images/printchannel.png" />
     </a>
     <div>
       <a href="./ic-print-channel-tutorial/introduction.md">
