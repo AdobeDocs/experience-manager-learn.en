@@ -83,8 +83,6 @@ To do this, we can map these requirements to AEM Components (and in our case, AE
 
 >[!VIDEO](https://video.tv.adobe.com/v/28341/?quality=12)
 
-![Defining the Events API Editable Template](assets/chapter-4/defining-the-events-api-template.gif)
-
 >[!NOTE]
 >
 > Notice that the components used to surface the content are added to the Template itself, and locked down. This is to allow authors to edit the pre-defined components, but not arbitrarily add or remove components since changing the API itself could break assumptions around the JSON structure and break consuming apps. All APIs need to be stable.
