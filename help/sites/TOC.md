@@ -49,6 +49,3 @@ sub-product: sites
   + [Translation Enhancements](translation/translation-enhancements-feature-video-use.md)
 + Integrations {#integrations}
   + [Integrate Launch by Adobe](integration/adobe-launch-integration-tutorial-understand.md)
-  + [Using Adobe Analytics Activity Map](integration/activity-map-feature-video-use.md)
-  + [Set up Adobe Analytics Activity Map](integration/activity-map-feature-video-setup.md)
-  + [Troubleshooting Adobe Analytics Activity Map](integration/activity-map-feature-video-troubleshoot.md)
