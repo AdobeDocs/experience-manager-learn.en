@@ -41,26 +41,34 @@ If AEM Publish is not being run on **http://localhost:4503** the host and port c
 
 1. Download and install the [Android Studio](https://developer.android.com/studio/install) to install the Android Emulator.
 1. **Download** the Android APK file [GitHub > Assets >  wknd-mobile.x.x.xapk](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest)
+1. Open **Android Studio**
+    * On the initial launch of Android Studio, a prompt to install the Android SDK will present. Accept the defaults and finish the installation.
 1. Open Android Studio and select **Profile or Debug APK**
 1. Select the APK file (**wknd-mobile.x.x.x.apk**) downloaded in Step 2 and click **OK**
    * If prompted to **Create a New Folder**, or **Use Existing**, select **Use Existing**.
+1. On the initial launch of Android Studio, right-click on the **wknd-mobile.x.x.x** in the Projects list, and select **Open Module Settings**. 
+    * Under **Modules > wknd-mobile.x.x.x > Dependencies tab**, select **Android API 29 Platform**. Tap OK to close and save changes.
+    * If you do not do this, you will see an "Please select Android SDK" error when trying to launch the emulator.
 1. Open the **AVD Manager** by selecting **Tools > AVD Manager** or tapping the **AVD Manager** icon in the top bar.
 1. In the **AVD Manager** window, click **+ Create Virtual Device...** if you do not already have device registered.
     1. In the left, select the **Phone** category.
     1. Select a **Pixel 2**.
     1. Click the **Next** button.
-    1. Select **Nougat** with **API Level 24**.
+    1. Select **Q** with **API Level 29**.
+        * Upon the initial launch of AVD Manager, you will be asked to Download the versioned API. Click the Download link next to the "Q" release, and complete download and installation.
     1. Click the **Next** button.
     1. Click the **Finish** button.
 1. Close the **AVD Manager** window.
 1. In the top menu bar select **wknd-mobile.x.x.x** from the **Run/Edit Configurations** drop down.
 1. Tap the **Run** button next to the selected **Run/Edit Configuration**
-1. In the pop-up, select the newly created **Pixel 2 API 24** virtual device and tap **OK**
-1. If the WKND Mobile app doesn't immediately load, find and tap on the **WKND** icon from the home screen.
+1. In the pop-up, select the newly created **Pixel 2 API 29** virtual device and tap **OK**
+1. If the WKND Mobile app doesn't immediately load, find and tap on the **WKND** icon from the Android home screen in the emulator.
+    * If the emulator launches but the emulator's screen remains black, tap the **power** button in the emulator's tools window next to the emulator window.
     * To scroll within the virtual device, click-and-hold and drag.
-    * To refresh the content from AEM, pull down from the top until the Refresh icon displays, and release.
+    * To refresh the content from AEM, pull down from the top until the Refresh icon 
+    displays, and release.
 
-![Running the Mobile App locally](./assets/chapter-7/running-the-mobile-app-locally.gif)
+>[!VIDEO](https://video.tv.adobe.com/v/28341/?quality=12)
 
 ## The Mobile App Code
 
