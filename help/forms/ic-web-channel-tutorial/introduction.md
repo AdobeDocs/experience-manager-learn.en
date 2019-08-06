@@ -33,6 +33,6 @@ On completing this tutorial, you will have learned the following:
 * Configure Tables and Charts
 * Deliver Web Channel Documents
 
-### Tutorials
+
 
 

@@ -1,9 +1,8 @@
 ---
 title: Using ldap with Aem Forms Workflow
 seo-title: Using ldap with Aem Forms Workflow
-description: Assigning AEM Forms workflow task to the submitter's manager.
-seo-description: Assigning AEM Forms workflow task to the submitter's manager.
-sub-product: forms
+description: Assigning AEM Forms workflow task to the submitter's manager
+seo-description: Assigning AEM Forms workflow task to the submitter's manager
 feature: adaptive-forms,workflow
 topics: integrations
 audience: developer

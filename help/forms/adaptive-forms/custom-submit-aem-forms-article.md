@@ -5,13 +5,12 @@ description: Quick and easy way to create your own custom submit action for Adap
 seo-description: Quick and easy way to create your own custom submit action for Adaptive Form
 sub-product: forms
 feature: adaptive-forms
-topics: integration
+topics: integrations
 audience: developer
 doc-type: article
 activity: implement
 version: 6.3,6.4,6.5
 uuid: a26db0b9-7db4-4e80-813d-5c0438fabd1e
-contentOwner: gbedekar
 discoiquuid: 28611011-2ff9-477e-b654-e62e7374096a
 ---
 
