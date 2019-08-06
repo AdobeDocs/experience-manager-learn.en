@@ -52,7 +52,7 @@ Review in the **Properties pane** that it has a property `cq:model` that points 
     * **`cq:model` **=** `/conf/settings/wknd-mobile/dam/cfm/models/event`**
 1. Beneath the `data` node select the [master](http://localhost:4502/crx/de/index.jsp#/content/dam/wknd-mobile/en/events/punkrock-fest/jcr:content/data/master) node and review the properties. This node contains the content collected during the authoring of an Event Content Fragment Model. The JCR property names correspond to the Content Fragment Model property name's, and the values correspond to the authored values of the "Punkrock Fest" Event Content Fragment.
 
->[!VIDEO](https://video.tv.adobe.com/v/28341/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28356/?quality=12)
 
 ## Next step
 
