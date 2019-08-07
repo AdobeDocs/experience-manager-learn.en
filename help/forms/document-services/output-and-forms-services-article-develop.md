@@ -10,9 +10,8 @@ audience: developer
 doc-type: article
 activity: implement
 version: 6.4,6.5
-
 discoiquuid: 57f478a9-8495-469e-8a06-ce1251172fda
-targetaudience: target-audience new
+
 ---
 
 # Developing with Output and Forms Services in AEM Forms{#developing-with-output-and-forms-services-in-aem-forms}

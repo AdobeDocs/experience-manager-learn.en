@@ -11,9 +11,6 @@ doc-type: tutorial
 activity: implement
 version: 6.4,6.5
 discoiquuid: 5682f024-a2f3-46a0-8274-3bdefe4a3905
-index: y
-internal: n
-snippet: y
 
 ---
 

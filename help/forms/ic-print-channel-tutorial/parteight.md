@@ -11,9 +11,6 @@ doc-type: tutorial
 activity: implement
 version: 6.4,6.5
 discoiquuid: 9110e5c6-50ee-4c3e-a779-b680ff49ef23
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring line chart for your first interactive communication document {#configuring-line-chart-for-your-first-interactive-communication-document}
