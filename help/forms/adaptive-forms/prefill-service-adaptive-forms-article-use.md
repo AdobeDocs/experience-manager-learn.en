@@ -1,15 +1,16 @@
 ---
 title: Prefill Service in Adaptive Forms
 seo-title: Prefill Service in Adaptive Forms
-description: null
-seo-description: null
+description: Pre-populate adaptive forms by fetching data from backend data sources.
+seo-description: Pre-populate adaptive forms by fetching data from backend data sources.
+sub-product: forms
+feature: adaptive-forms
+topics: integrations
+audience: developer
+doc-type: article
+activity: implement
+version: 6.4,6.5
 uuid: 26a8cba3-7921-4cbb-a182-216064e98054
-author: gbedekar
-contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: adaptive_forms
 discoiquuid: 936ea5e9-f5f0-496a-9188-1a8ffd235ee5
 ---
 
@@ -79,8 +80,7 @@ public class PrefillAdaptiveForm implements DataProvider {
 
 To test this capability on your server, please perform the following
 
-* Scroll to the bottom of this page.
-* Download and extract the content of the zip file on to your computer.
+* [Download and extract the contents of the zip file on to your computer](assets/prefillservice.zip)
 * Make sure the logged in [user's profile](http://localhost:4502/libs/granite/security/content/useradmin) information is filled out completely. This is a required for the sample to work. The sample does not have any error checking for missing user profile properties.
 * Deploy the bundle using the [AEM web console](http://localhost:4502/system/console/bundles)
 * Create Adaptive Form using the XSD
@@ -94,6 +94,3 @@ To test this capability on your server, please perform the following
 >
 >If the adaptive form is not based on XSD, then you will have to manually bind the fields. For example to bind an adaptive form field to  fname  element in the XML data you will use `/data/fname`  in the Bind reference of the adaptive form field.
 
-The below zip file contains OSGi bundle and sample XSD:
-
-**[prefillservice.zip](assets/prefillservice.zip)**

@@ -1,14 +1,16 @@
 ---
 title: Barcode Service With Adaptive Forms
 seo-title: Barcode Service With Adaptive Forms
-description: null
-seo-description: null
+description: Using barcode service to decode barcode and populate form fields from the extracted data
+seo-description: Using barcode service to decode barcode and populate form fields from the extracted data
 uuid: 42568b81-cbcd-479e-8d9a-cc0b244da4ae
-contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
-topic-tags: document_services
+feature: barcoded-forms
+topics: development
+audience: developer
+doc-type: article
+activity: implement
+version: 6.4,6.5
+
 discoiquuid: 1224de6d-7ca1-4e9d-85fe-cd675d03e262
 ---
 

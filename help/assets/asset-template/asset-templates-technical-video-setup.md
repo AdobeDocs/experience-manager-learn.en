@@ -4,12 +4,13 @@ seo-title: Set up Asset Templates with AEM Assets and InDesign Server
 description: Asset Templates allows marketers create, manage and deliver digital assets for digital and print. Creating marketing brochures, business cards, flyers, ads and post cards are much easier with Asset Templates when integrated with InDesign server. Configuration of InDesign server with AEM is covered in this section.
 seo-description: Asset Templates allows marketers create, manage and deliver digital assets for digital and print. Creating marketing brochures, business cards, flyers, ads and post cards are much easier with Asset Templates when integrated with InDesign server. Configuration of InDesign server with AEM is covered in this section.
 uuid: f637a108-0499-44e3-8291-0eb49e359d12
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: asset-templates
 discoiquuid: d9313884-67fd-4169-aa68-536f07847fdc
-targetaudience: target-audience advanced
+feature: catalogs, asset-templates
+topics: authoring, renditions, documents
+audience: developer, architect, administrator
+doc-type: technical-video
+activity: setup
+version: 6.3, 6.4, 6.5
 ---
 
 # Set up Asset Templates with AEM Assets and InDesign Server{#set-up-asset-templates-with-aem-assets-and-indesign-server}

@@ -4,12 +4,13 @@ seo-title: Using Closed User Groups with AEM Assets
 description: Closed User Groups (CUGs) is a feature used to restrict access to content to a select group of users on a published site. This video shows how Closed User Groups can be used with Adobe Experience Manager Assets to restrict access to a specific folder of assets. Support for Closed User Groups with AEM Assets was first introduced in AEM 6.4. 
 seo-description: Closed User Groups (CUGs) is a feature used to restrict access to content to a select group of users on a published site. This video shows how Closed User Groups can be used with Adobe Experience Manager Assets to restrict access to a specific folder of assets. Support for Closed User Groups with AEM Assets was first introduced in AEM 6.4. 
 uuid: 53ae804d-4442-400e-ae2d-273251d91c02
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: permissions
-topic-tags: Security
 discoiquuid: bebe8d4d-5b87-4ec4-b37f-5c2d08b91a40
-targetaudience: target-audience new
+feature: asset-share
+topics: authoring, collaboration, operations, sharing
+audience: all
+doc-type: feature-video
+activity: use
+version: 6.3, 6.4, 6.5
 ---
 
 # Using Closed User Groups with AEM Assets{#using-closed-user-groups-with-aem-assets}

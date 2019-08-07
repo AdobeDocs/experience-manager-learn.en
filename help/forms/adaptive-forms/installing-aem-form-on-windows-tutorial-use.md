@@ -1,11 +1,17 @@
 ---
 title: Simplified Steps for Installing AEM Forms on Windows
 seo-title: Simplified Steps for Installing AEM Forms on Windows
-description: null
-seo-description: null
+description: Quick and easy steps to install AEM Forms on windows
+seo-description: Quick and easy steps to install AEM Forms on windows
 uuid: a148b8f0-83db-47f6-89d3-c8a9961be289
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
+sub-product: forms
+feature: adaptive-forms
+topics: administration
+audience: developer
+doc-type: article
+activity: setup
+version: 6.4,6.5
+
 discoiquuid: 1182ef4d-5838-433b-991d-e24ab805ae0e
 ---
 # Simplified Steps for Installing AEM Forms on Windows

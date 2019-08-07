@@ -4,15 +4,14 @@ seo-title: Set up Asset Insights with AEM Assets and Launch, By Adobe
 description: In this 5 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Launch By Adobe.
 seo-description: In this 5 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Launch By Adobe.
 uuid: 94742cd7-5dd3-4b0f-942c-3a27c17bd318
-contentOwner: selvaraj
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: asset-insights
-topic-tags: images
-topic-tags: tagmanager
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 1df698cd-3d40-49ff-91c1-477feac18454
+contentOwner: selvaraj
+feature: asset-insights
+topics: integrations, development, metadata
+audience: developer, architect, administrator
+doc-type: article
+activity: implement
+version: 6.3, 6.4, 6.5
 ---
 
 # Set up Asset Insights with AEM Assets and Launch, By Adobe{#set-up-asset-insights-with-aem-assets-and-launch-by-adobe}

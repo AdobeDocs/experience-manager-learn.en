@@ -4,14 +4,14 @@ seo-title: Overview of Dynamic Media with AEM Assets
 description: This Video series gives you an overview of how media content is managed and accessed using Adobe Experience Manager Dynamic Media as a content serving service. Dynamic Media lets you manage and publish dynamic digital experiences — a feature unique to Experience Manager Assets. Our framework and suite of components allow marketers to customize and deliver interactive, multimedia experiences across all devices.
 seo-description: This Video series gives you an overview of how media content is managed and accessed using Adobe Experience Manager Dynamic Media as a content serving service. Dynamic Media lets you manage and publish dynamic digital experiences — a feature unique to Experience Manager Assets. Our framework and suite of components allow marketers to customize and deliver interactive, multimedia experiences across all devices.
 uuid: 5762c0a2-4371-4719-8400-849c7a11926d
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-topic-tags: dynamic-media
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: images
-topic-tags: video
 discoiquuid: a0be2cd0-4fdb-431f-a8c7-e4620b8b129b
-targetaudience: target-audience ongoing
+product: dynamic-media
+feature: smart-crop, video-profiles, image-profiles, viewer-presets, vr-360, sets
+topics: videos, renditions, authoring, best-practices
+doc-type: feature-video
+audience : all
+activity: use
+version: 6.3, 6.4, 6.5
 ---
 
 # Using Dynamic Media with AEM Assets {#understanding-aem-dynamic-media}
@@ -96,3 +96,9 @@ This video describes going beyond resizing images to take advantage of features 
 >Image QUALITY is measured in percentages of inverse compression, where 100% Quality is least compressed resulting in high quality images but relatively large file sizes. Jpeg compression is a lossy compression scheme where compression settings determine image quality and file size.
 
 Balance jpeg image quality against the resulting file size (in kilobytes) to enhance page load speed, using 2 commands to adjust jpeg compression settings. QLT defines the image quality by adjusting jpeg compression quality settings. JPEG Size command allows you to designate what file size needs to be achieved using compression.
+
+## Add CC Closed Captioning to Dynamic Media Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/28074/?quality=9)
+
+Easily add Closed Captioning to Dynamic Media video by appending the Copy URL to point to an additional Closed Captioning file document, a web .VTT sidecar file, containing the CC info for any video.

@@ -1,13 +1,15 @@
 ---
 title: Using functions and code editor
 seo-title: Using functions and code editor
-description: null
-seo-description: null
+description: Using functions and code editor to author business rule
+seo-description: Using functions and code editor to author business rule
 uuid: 578e91f8-0d93-4192-b7af-1579df2feaf8
-contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: forms
-topic-tags: adaptive_forms
+feature: adaptive-forms
+topics: authoring
+audience: developer
+doc-type: tutorial
+activity: understand
+version: 6.4,6.5
 discoiquuid: f480ef3e-7e38-4a6b-a223-c102787aea7f
 ---
 

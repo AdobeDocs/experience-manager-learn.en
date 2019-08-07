@@ -1,15 +1,16 @@
 ---
 title: Using Watched Folders in AEM Forms
 seo-title: Using Watched Folders in AEM Forms
-description: null
-seo-description: null
+description: Configure and use watched folders in AEM Forms
+seo-description: Configure and use watched folders in AEM Forms
 uuid: 32c4bda2-363d-4294-925e-405a176f7f8d
-contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.3
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: document_services
-topic-tags: watch_folder
+feature: output-service
+topics: development
+audience: developer
+doc-type: article
+activity: implement
+version: 6.4,6.5
+
 discoiquuid: a40e2381-0dc8-4784-9b80-15e27b244035
 ---
 

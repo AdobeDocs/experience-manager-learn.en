@@ -3,6 +3,14 @@ title: Create Campaign Profile Using Form Data Model
 seo-title: Create Campaign Profile Using Form Data Model
 description: Steps involved in creating Adobe Campaign Standard profile using  AEM Forms Form Data Model
 seo-description: Steps involved in creating Adobe Campaign Standard profile using  AEM Forms Form Data Model
+uuid: 3216827e-e1a2-4203-8fe3-4e2a82ad180a
+feature: adaptive-forms, form-data-model
+topics: integrations
+audience: developer
+doc-type: tutorial
+activity: setup
+version: 6.3,6.4,6.5
+discoiquuid: 461c532e-7a07-49f5-90b7-ad0dcde40984
 
 ---
 
