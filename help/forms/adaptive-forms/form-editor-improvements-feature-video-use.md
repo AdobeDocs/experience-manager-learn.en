@@ -10,9 +10,7 @@ audience: developer
 doc-type: technical-video
 activity: setup
 version: 6.3,6.4,6.5
-
 uuid: 9e76a2b8-f843-47b8-abf8-596c64fbcbb6
-contentOwner: selvaraj
 discoiquuid: 7a7bad50-c604-4182-accb-acb85571ba78
 ---
 

@@ -8,7 +8,7 @@ topics: development
 audience: developer
 doc-type: article
 activity: implement
-version: 6.4,6.5
+version: 6.5
 
 ---
 

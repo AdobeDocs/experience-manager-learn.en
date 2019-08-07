@@ -12,7 +12,7 @@ activity: setup
 version: 6.4,6.5
 uuid: cbccea0f-969c-445d-9390-a236bb1fd2c4
 discoiquuid: aec562a4-4405-4e6f-9ad5-7477fa1d078f
-targetaudience: target-audience advanced
+
 ---
 
 # Using Adobe Sign with AEM Forms {#using-adobe-sign-with-aem-forms}

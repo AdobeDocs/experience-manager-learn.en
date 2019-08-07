@@ -11,8 +11,6 @@ doc-type: technical-video
 activity: setup
 version: 6.4,6.5
 uuid: eeb6165c-5465-4692-a3a9-8ef10780678d
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: correspondence-management
 discoiquuid: 54fdce05-486b-4fb5-aed4-8552fe2040fd
 ---
 

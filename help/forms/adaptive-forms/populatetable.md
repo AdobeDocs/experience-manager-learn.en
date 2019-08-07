@@ -14,6 +14,7 @@ version: 6.4,6.5
 
 # Populate Adaptive Form Table with the results of Form Data Model Service Invocation
 
+[Live form is hosted here](https://forms.enablementadobe.com/content/dam/formsanddocuments/amortization/jcr:content?wcmmode=disabled)
 In this article we take a look at populating adaptive forms table by fetching data from form data model service invocation. We are going to create an amortization schedule in a table that lists each regular payment on a mortgage over time. The amortization results are returned by our Form Data Model. The Form Data Model's service is invoked on the click event of calculate button as shown in the screenshot. The input and the output parameters of the service invocation are mapped appropriately as shown in the screen shot. The output is mapped to the columns of Row1
 ![clickevent](assets/amortization.PNG) 
 
