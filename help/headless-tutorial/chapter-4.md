@@ -56,7 +56,7 @@ To do this, we can map these requirements to AEM Components (and in our case, AE
     1. Tap **Create** in the top action bar
     1. Tap **Open** open the new template for editing
 
-1. First, we allow the three identified AEM Components we need to model the content by editing the Policy of the Root Layout Container. Ensure the **Structure** edit mode is active, select the **Layout Container [Root]**, and tap the **Policy** button.
+1. First, we allow the three identified AEM Components we need to model the content by editing the Policy of the Root Layout Container. Ensure the **Structure** edit mode is active, select the **Layout Container \[Root\]**, and tap the **Policy** button.
 1. Under **Properties > Allowed Components** search for **WKND Mobile**. Allow the following components from the WKND Mobile component group  so they can be used on the Events API page.
 
     * **WKND Mobile > Image**
@@ -81,7 +81,7 @@ To do this, we can map these requirements to AEM Components (and in our case, AE
 1. However, ensure the **layout container** is **locked** to prevent other components from being added, or these three components from being removed.
 1. Tap **Page Information > View in Admin** to return to the WKND Mobile templates listing. Select the newly created **Events API** template and tap **Enable** in the top action bar.
 
->[!VIDEO](https://video.tv.adobe.com/v/28341/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28342/?quality=12)
 
 >[!NOTE]
 >
