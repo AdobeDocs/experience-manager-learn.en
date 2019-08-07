@@ -4,8 +4,6 @@ seo-title: Adding Child Panels to Root Panel
 description: Configuring root panel layout to "Tabs on Left" and add child panels to the root panel.
 seo-description: Configuring root panel layout to "Tabs on Left" and add child panels to the root panel.
 uuid: ef9f7c02-ead8-4f96-aabd-40d586127aa7
-contentOwner: gbedekar
-sub-product: forms
 feature: adaptive-forms
 topics: authoring
 audience: developer

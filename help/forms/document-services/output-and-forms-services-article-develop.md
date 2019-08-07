@@ -4,7 +4,6 @@ seo-title: Developing with Output and Forms Services in AEM Forms
 description: Using Output and Forms Service API in AEM Forms
 seo-description: Using Output and Forms Service API in AEM Forms
 uuid: be018eb5-dbe7-4101-a1a9-bee11ac97273
-sub-product: forms
 feature: output-service
 topics: development
 audience: developer

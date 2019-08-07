@@ -4,7 +4,6 @@ seo-title: Using setvalue in AEM Forms Workflow
 description: Set Value of Element in Adaptive Forms submitted data in AEM Forms OSGI
 seo-description: Set Value of Element in Adaptive Forms submitted data in AEM Forms OSGI
 uuid: fe431e48-f05b-4b23-94d2-95d34d863984
-sub-product: forms
 feature: adaptive-forms,workflow
 topics: developing
 audience: implementer

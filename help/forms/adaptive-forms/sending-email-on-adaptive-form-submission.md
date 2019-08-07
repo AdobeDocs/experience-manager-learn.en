@@ -4,7 +4,7 @@ seo-title: Sending Email on Adaptive Form Submission
 description: Send confirmation email on adaptive form submission using the send email component
 seo-description: Send confirmation email on adaptive form submission using the send email component
 uuid: 6c9549ba-cb56-4d69-902c-45272a8fd17e
-sub-product: forms
+
 feature: adaptive-forms
 topics: authoring, integrations
 audience: developer

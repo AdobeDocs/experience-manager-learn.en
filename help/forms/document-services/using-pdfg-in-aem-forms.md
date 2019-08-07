@@ -4,8 +4,6 @@ seo-title: Using PDFG in AEM Forms
 description: Demonstrating Drag and Drop capability to create PDF using AEM Forms
 seo-description: Demonstrating Drag and Drop capability to create PDF using AEM Forms
 uuid: ee54edb4-a7b1-42ed-81ea-cb6bef6cf97f
-contentOwner: gbedekar
-sub-product: forms
 feature: pdf-generator
 topics: development
 audience: developer

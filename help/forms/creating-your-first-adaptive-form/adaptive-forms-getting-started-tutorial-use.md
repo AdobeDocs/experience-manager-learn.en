@@ -4,8 +4,6 @@ seo-title: Getting Started With Adaptive Forms
 description: This tutorial will walk you through the steps involved in creating multi-tabbed Adaptive Form. You will learn to use Tables, Accordion Layout, and Rule Editor to author business rules. 
 seo-description: This tutorial will walk you through the steps involved in creating multi-tabbed Adaptive Form. You will learn to use Tables, Accordion Layout, and Rule Editor to author business rules. 
 uuid: 6f73cb1c-94e2-4ac7-89e5-a72141a06bbe
-contentOwner: gbedekar
-sub-product: forms
 feature: adaptive-forms
 topics: authoring
 audience: developer

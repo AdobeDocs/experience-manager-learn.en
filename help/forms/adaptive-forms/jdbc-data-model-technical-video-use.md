@@ -11,7 +11,6 @@ audience: developer
 doc-type: technical-video
 activity: setup
 version: 6.4,6.5
-
 discoiquuid: 4e5f947c-b49a-423e-9139-51c0c5648318
 
 ---

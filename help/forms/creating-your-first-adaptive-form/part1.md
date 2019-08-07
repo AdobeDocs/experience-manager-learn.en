@@ -4,7 +4,6 @@ seo-title: Creating Adaptive Form
 description: In Part1 we will create Adaptive Form, add and configure toolbar with appropriate buttons.
 seo-description: In Part1 we will create Adaptive Form, add and configure toolbar with appropriate buttons.
 uuid: 4ab7f01e-a75b-4e08-a5d8-690c63773ec3
-sub-product: forms
 feature: adaptive-forms
 topics: authoring
 audience: developer

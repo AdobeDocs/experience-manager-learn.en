@@ -4,7 +4,6 @@ seo-title: Submitting To Thank You Page
 description: Display a thank you page on submitting Adaptive Form
 seo-description: Display a thank you page on submitting Adaptive Form
 uuid: ec695b87-083a-47f6-92ac-c9a6dc2b85fb
-sub-product: forms
 feature: adaptive-forms
 topics: developing
 audience: implementer

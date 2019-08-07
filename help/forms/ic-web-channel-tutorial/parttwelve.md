@@ -4,7 +4,7 @@ seo-title: Setting up the delivery of web channel document
 description: This is the final part of a multistep tutorial for creating your first interactive communications document. In this part, we look at the delivery of web channel document via email.
 seo-description: This is the final part of a multistep tutorial for creating your first interactive communications document. In this part, we look at the delivery of web channel document via email.
 uuid: c1066600-1abd-4401-b04f-b93c28603cc7
-sub-product: forms
+
 feature: interactive-communication
 topics: development
 audience: developer
@@ -12,9 +12,6 @@ doc-type: tutorial
 activity: implement
 version: 6.4,6.5
 discoiquuid: 1a7cf095-c5d8-4d92-a018-883cda76fe70
-index: y
-internal: n
-snippet: y
 
 ---
 

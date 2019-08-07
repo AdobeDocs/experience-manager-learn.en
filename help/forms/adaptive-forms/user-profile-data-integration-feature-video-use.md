@@ -4,7 +4,6 @@ seo-title: Using User Profile Data Integration with AEM Forms
 description: Integrating AEM user profile information with Adaptive Forms
 seo-description: Integrating AEM user profile information with Adaptive Forms
 uuid: c8cfe575-8732-4d8b-99de-fb09e7c2497d
-sub-product: forms
 feature: adaptive-forms, form-data-model
 topics: integrations
 audience: developer

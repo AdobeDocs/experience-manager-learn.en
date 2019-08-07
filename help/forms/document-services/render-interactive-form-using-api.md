@@ -3,7 +3,6 @@ title: Developing with Output and Forms Services in AEM Forms
 seo-title: Developing with Output and Forms Services in AEM Forms
 description: Using Output and Forms Service API in AEM Forms
 seo-description: Using Output and Forms Service API in AEM Forms
-sub-product: forms
 feature: forms-service
 topics: development
 audience: developer

@@ -5,18 +5,13 @@ description: This is part 6 of a multi-step tutorial for creating your first int
 seo-description: This is part 6 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create Interactive Communication for Web Channel.
 uuid: a1b29c5b-a323-4bda-aa99-5fb98614b690
 discoiquuid: b44ff855-9ead-471e-8f0f-b562b88a5337
-sub-product: forms
+
 feature: interactive-communication
 topics: development
 audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.4,6.5
-
-index: y
-internal: n
-snippet: y
-
 ---
 
 # Create Interactive Communication for Web Channel 
