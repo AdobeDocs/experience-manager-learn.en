@@ -1,8 +1,9 @@
 ---
-title: guide title
-seo-title: seo title
-description: guide description
-seo-description: seo-description
+title: AEM Forms Tutorials and Videos
+seo-title: AEM Forms Tutorials and Videos
+description: Collection of AEM Forms resources for beginners and experienced AEM Forms developers
+seo-description: Collection of AEM Forms resources for beginners and experienced AEM Forms developers
+sub-product: forms
 ---
 
 # Overview {#overview}

@@ -4,14 +4,12 @@ seo-title: Developing with Service Users in AEM Forms
 description: This article walks you through the process of creating a service user in AEM Forms
 seo-description: This article walks you through the process of creating a service user in AEM Forms
 uuid: 996f30df-3fc5-4232-a104-b92e1bee4713
-sub-product: forms
 feature: adaptive-forms
 topics: development,administration
 audience: implementer,developer
 doc-type: article
 activity: setup
 discoiquuid: 65bd4695-e110-48ba-80ec-2d36bc53ead2
-targetaudience: target-audience advanced
 ---
 
 # Developing with Service Users in AEM Forms

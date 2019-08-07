@@ -4,8 +4,6 @@ seo-title: Adding components to People panel
 description: Configure People panel by adding the spouse details fragment. A rule is created to display the spouse details fragment if the applicants marital status is married.
 seo-description: Configure People panel by adding the spouse details fragment. A rule is created to display the spouse details fragment if the applicants marital status is married.
 uuid: be5d2cff-797b-44ea-90e9-2423f1ec8983
-contentOwner: gbedekar
-sub-product: forms
 feature: adaptive-forms
 topics: authoring
 audience: developer

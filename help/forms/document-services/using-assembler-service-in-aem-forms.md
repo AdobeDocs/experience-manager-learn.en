@@ -4,8 +4,6 @@ seo-title: Using Assembler Service in AEM Forms
 description: Using Assembler Service in AEM Forms to assemble multiple pdf files
 seo-description: Using Assembler Service in AEM Forms to assemble multiple pdf files
 uuid: 7895b1a3-6f9d-4413-bb7f-692ea0380fcd
-contentOwner: gbedekar
-sub-product: forms
 feature: assembler
 topics: development
 audience: developer

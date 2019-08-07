@@ -1,10 +1,9 @@
 ---
 title: Generate PDF from HTM5 Form Submission
-seo-title: Generate PDF from HTM5 Form Submission
-description: null
-seo-description: null
+seo-title: Generate PDF from HTML5 Form Submission
+description: Generate PDF from Mobile Form submission
+seo-description: Generate PDF from Mobile Form submission
 uuid: 61f07029-d440-44ec-98bc-f2b5eef92b59
-sub-product: forms
 feature: mobile-forms
 topics: development
 audience: developer

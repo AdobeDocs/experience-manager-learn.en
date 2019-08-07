@@ -4,8 +4,6 @@ seo-title: Barcode Service With Adaptive Forms
 description: Using barcode service to decode barcode and populate form fields from the extracted data
 seo-description: Using barcode service to decode barcode and populate form fields from the extracted data
 uuid: 42568b81-cbcd-479e-8d9a-cc0b244da4ae
-contentOwner: gbedekar
-sub-product: forms
 feature: barcoded-forms
 topics: development
 audience: developer

@@ -4,9 +4,6 @@ seo-title: Opening Agent UI On POST Submission
 description: This is part 11 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will launch the agent ui interface for creating ad-hoc correspondence on form submission.
 seo-description: This is part 11 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will launch the agent ui interface for creating ad-hoc correspondence on form submission.
 uuid: 96f34986-a5c3-400b-b51b-775da5d2cbd7
-author: gbedekar
-contentOwner: gbedekar
-sub-product: forms
 feature: interactive-communication
 topics: development
 audience: developer

@@ -2,7 +2,6 @@
 title: Using Table Component in AEM Forms Print Channel Document
 seo-title: Using Table Component in AEM Forms Print Channel Document
 description: The following video walks through the steps required to use table component in Interactive Communications for print channel documents.
-sub-product: forms
 feature: interactive-communication
 topics: development
 audience: developer

@@ -5,7 +5,7 @@ description: This is part 4 of the multistep tutorial for creating your first in
 seo-description: This is part 4 of the multistep tutorial for creating your first interactive communications document. In this part, we will create a template for web channel document.
 uuid: b4c9f68b-3091-4f87-988d-705f0296a8d8
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-sub-product: forms
+
 feature: interactive-communication
 topics: development
 audience: developer
@@ -13,9 +13,7 @@ doc-type: tutorial
 activity: implement
 version: 6.4,6.5
 discoiquuid: 95ca401b-69ea-49e2-a9ae-e144444e481e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Creating Web Channel Document Template AEM Forms {#creating-web-channel-document-template-aem-forms}

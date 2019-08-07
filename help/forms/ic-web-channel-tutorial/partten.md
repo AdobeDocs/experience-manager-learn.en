@@ -4,7 +4,7 @@ seo-title: Configuring Retirement Outlook Panel
 description: This is part 10 of a multi-step tutorial for creating your first interactive communications document. In this part, we will configure Retirement Outlook Panel by adding text and chart components.
 seo-description: This is part 10 of a multi-step tutorial for creating your first interactive communications document. In this part, we will configure Retirement Outlook Panel by adding text and chart components.
 uuid: 1d5119b5-e797-4bf0-9b10-995b3f051f92
-sub-product: forms
+
 feature: interactive-communication
 topics: development
 audience: developer
@@ -13,9 +13,6 @@ activity: implement
 version: 6.4,6.5
 
 discoiquuid: 2ee2cea2-aefa-4d21-a258-248648f73a68
-index: y
-internal: n
-snippet: y
 
 ---
 
