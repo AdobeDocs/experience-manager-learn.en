@@ -1,15 +1,15 @@
 ---
 title: Submitting Adaptive Form to AEM Workflow
 seo-title: Submitting Adaptive Form to AEM Workflow
-description: null
-seo-description: null
+description: Hide and Show Adaptive Form Panels in AEM Workflow
+seo-description: Hide and Show Adaptive Form Panels in AEM Workflow.
 uuid: 28ceb72b-24d9-488e-92af-7e85775dc682
-contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
-topic-tags: workflow
-topic-tags: forms
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
+feature: integrations
+topics: workflow
+audience: developer
+doc-type: article
+activity: use
+version: 6.4,6.5
 discoiquuid: 1c4822e6-76ce-446b-98cb-408900d68b24
 ---
 
@@ -35,7 +35,7 @@ Approver view of the form
 In the approver view, the approver is not able to edit the submitted data. There is also a new section meant for Approvers only.
 
 To test this workflow on your system, please follow the steps mentioned below:
-
+* [Deploy the SetValue Custom OSGI Bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar)
 * [Import the assets related to this article into AEM](assets/helpxworkflow.zip) 
 * Open the [Time Off Request form](http://localhost:4502/content/dam/formsanddocuments/helpx/timeoffrequestform/jcr:content?wcmmode=disabled)
 * Fill in the details and submit

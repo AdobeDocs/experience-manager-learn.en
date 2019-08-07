@@ -4,10 +4,13 @@ seo-title: Getting Started With Adaptive Forms
 description: This tutorial will walk you through the steps involved in creating multi-tabbed Adaptive Form. You will learn to use Tables, Accordion Layout, and Rule Editor to author business rules. 
 seo-description: This tutorial will walk you through the steps involved in creating multi-tabbed Adaptive Form. You will learn to use Tables, Accordion Layout, and Rule Editor to author business rules. 
 uuid: 6f73cb1c-94e2-4ac7-89e5-a72141a06bbe
-contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
-topic-tags: forms
+feature: adaptive-forms
+topics: authoring
+audience: developer
+doc-type: tutorial
+activity: understand
+version: 6.3,6.4,6.5
+
 discoiquuid: b6863d3d-8528-4a96-ae37-c8d1aa62d443
 ---
 
@@ -30,4 +33,13 @@ A working instance of AEM with Form Add-on package installed. [The instructions 
 [Download the helpx.zip file](assets/helpx.zip) and extract the contents to your hard drive.
 
 Import the SummitSessionTemplate.zip and SummitLabTheme.zip and SummitFragments into AEM using [crx ](http://localhost:4502/crx/packmgr/index.jsp)manager.
+
+## Tutorial
+
+* [Part1- Create Adaptive Form](part1.md)
+* [Part2 - Configuring root panel and adding child panel](part2.md)
+* [Part3 - Adding components to People panel](part3.md)
+* [Part4 - Adding table to income panel](part4.md)
+* [Part5 - Configuring assets panel- Accordion Layout](part5.md)
+* [Part6 - Using custom functions and code editor](part6.md)
 

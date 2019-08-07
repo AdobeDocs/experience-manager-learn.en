@@ -3,14 +3,33 @@ title: Variables in AEM Workflow[Part2]
 seo-title: Variables in AEM Workflow[Part2]
 description: Using variables of type xml,json,arraylist,document in aem workflow
 seo-description: Using variables of type xml,json,arraylist,document in aem workflow
+
+feature: workflow
+topics: development
+audience: developer
+doc-type: tutorial
+activity: understand
+version: 6.5
+
 ---
 # Variables of type JSON in AEM Workflow
 
 Starting with AEM Forms 6.5, we can now create variables of type JSON in AEM Workflow. Typically you will create variables of type JSON if you are submitting Adaptive Forms based on JSON schema to an AEM Workflow or you want to store the results of a Form Data Model Invoke operation. The following video walks you through the steps required to create and use a variable of type JSON in AEM workflow
 >[!NOTE]
-When you are creating a variable of type JSON to capture the submitted data in your workflow model, please do not associate the JSON schema with the variable. This is because when you submit JSON schema based Adaptive Form the submitted data is not compliant with the JSON schema. The JSON schema complaint data is enclosed in afData.afBoundData element.
+
+**If using AEM Forms 6.5.0**
+
+When you are creating a variable of type JSON to capture the submitted data in your workflow model, please do not associate the JSON schema with the variable. This is because when you submit JSON schema based Adaptive Form the submitted data is not compliant with the JSON schema. The JSON schema complaint data is enclosed in afData.afBoundData.data element.
+
+**If using AEM Forms 6.5.1 and above**
+
+You can map the schema with the variable of type JSON in your workflow model. You can then use the schema browser to map the schema elements with your string/number variables in your workflow model
 
 >[!VIDEO](https://video.tv.adobe.com/v/26444?quality=12)
+
+**The ability to drill down schema elements and map the schema element to workflow variable is only available with AEM Forms 6.5.1 onwards.**
+
+>[!VIDEO](https://video.tv.adobe.com/v/28097?quality=12)
 
 To get the assets working on your system, please follow the following steps:
 

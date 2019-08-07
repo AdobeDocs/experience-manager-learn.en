@@ -7,7 +7,7 @@ index: y
 
 # AEM Forms Videos and Tutorials {#forms}
 
-+ [Forms Introduction](introduction.md)
++ [Forms Introduction](overview.md)
 + Adaptive Forms {#adaptive-forms}
   + [Installing AEM Forms on Windows](adaptive-forms/installing-aem-form-on-windows-tutorial-use.md)
   + [Prefill Service in Adaptive Forms](adaptive-forms/prefill-service-adaptive-forms-article-use.md)
@@ -31,7 +31,11 @@ index: y
   + [Integrating LDAP with AEM Forms](adaptive-forms/aem-forms-workflow-with-ldap-article-use.md)
   + [Using Service User in AEM Forms](adaptive-forms/service-user-tutorial-develop.md)
   + [Tagging and Storing DoR on Adaptive Form Submission](adaptive-forms/tagging-and-saving-document-of-record-in-dam-article-use.md)
+  + [Populating table with the results from Form Data Model Service Invocation](adaptive-forms/populatetable.md)
+  + [Configuring Adaptive Form to trigger AEM Workflow](adaptive-forms/configure-af-to-trigger-aem-workflow.md)
+  + [Storing Submitted Form Data in DB](adaptive-forms/storing-adaptive-form-data-in-db.md)
   + [Form Data Model Service in AEM Workflow](adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md)
+  + [Form Data Model Service in AEM 6.5.1 Workflow](adaptive-forms/form-data-model-service-as-step-in-aem65-workflow-video-use.md)
   + [Form Data Model without Data Source](adaptive-forms/form-data-model-without-data-source-feature-video-use.md)
   + [Setting up JDBC Data Source in AEM Forms](adaptive-forms/data-integration-technical-video-setup.md)
   + [JDBC Based Form Data Model](adaptive-forms/jdbc-data-model-technical-video-use.md)
@@ -69,7 +73,7 @@ index: y
   + [Part1-Registering Custom Asset Types](listing-custom-asset-types/part1.md)
   + [Part2 - Creating Custom Template](listing-custom-asset-types/part2.md)
 + AEM Forms With Marketo{#aem-forms-with-marketo}
-  + [Part1- Inroduction](aem-forms-with-marketo/part1.md)
+  + [Part1- Introduction](aem-forms-with-marketo/part1.md)
   + [Part2 - Custom Authentication](aem-forms-with-marketo/part2.md)
   + [Part3 - Data Source](aem-forms-with-marketo/part3.md)
   + [Part4 - Putting it all together](aem-forms-with-marketo/part4.md)
@@ -96,5 +100,27 @@ index: y
   + [Create Form Data Model](ic-print-channel-tutorial/partthree.md)
   + [Create XDP Layout using Forms Designer](ic-print-channel-tutorial/partfour.md)
   + [Create Document Fragment](ic-print-channel-tutorial/partfive.md)
+  + [Create Print Channel Document](ic-print-channel-tutorial/partsix.md)
+  + [Adding Content to Target Areas](ic-print-channel-tutorial/partseven.md)
+  + [Configuring Line Chart](ic-print-channel-tutorial/parteight.md)
+  + [Adding Table to Print Channel](ic-print-channel-tutorial/partnine.md)
+  + [Using Watched Folder to Generate Print Documents](ic-print-channel-tutorial/partten.md)
+  + [Opening Agent UI on Form Submission](ic-print-channel-tutorial/parteleven.md)
 + Interactive Communications {#interactive-communications}
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
+  + [Generate Print Channel Documents From Submitted Data](interactive-communications/merge-data-with-ic-template.md)
+
++ Interactive Communications For Web Channel {#ic-web-channel-tutorial}
+  + [Introduction](ic-web-channel-tutorial/introduction.md)
+  + [Set up Tomcat](ic-web-channel-tutorial/partone.md)
+  + [Create Data Source](ic-web-channel-tutorial/parttwo.md)
+  + [Create Form Data Model](ic-web-channel-tutorial/partthree.md)
+  + [Creating Web Channel Document Template](ic-web-channel-tutorial/partfour.md)
+  + [Creating Document Fragment](ic-web-channel-tutorial/partfive.md)
+  + [Creating Interactive Communication Document](ic-web-channel-tutorial/partsix.md)
+  + [Adding Text and Images](ic-web-channel-tutorial/partseven.md)
+  + [Configuring Line chart](ic-web-channel-tutorial/parteight.md)
+  + [Configuring Table](ic-web-channel-tutorial/partnine.md)
+  + [Configuring Column Chart](ic-web-channel-tutorial/partten.md)
+   + [Configuring Pie Chart](ic-web-channel-tutorial/parteleven.md)
+   + [Delivery Of Web Channel Document](ic-web-channel-tutorial/parttwelve.md)

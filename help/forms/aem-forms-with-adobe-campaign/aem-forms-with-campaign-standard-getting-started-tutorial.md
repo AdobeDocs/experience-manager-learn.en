@@ -1,8 +1,16 @@
 ---
 title: Getting Started with AEM Forms and Adobe Campaign Standard
 seo-title: Getting Started with AEM Forms and Adobe Campaign Standard
-description: null
-seo-description: null
+description: Integrate AEM Forms with Adobe Campaign Standard using AEM Forms Form Data Model to fetch ACS campaign profile information etc.
+seo-description: Integrate AEM Forms with Adobe Campaign Standard using AEM Forms Form Data Model to fetch ACS campaign profile information etc.
+uuid: 56450c9b-3752-4a64-b1b3-8c78e81f5921
+feature: adaptive-forms, form-data-model
+topics: integrations
+audience: developer
+doc-type: tutorial
+activity: setup
+version: 6.3,6.4,6.5
+discoiquuid: 89245554-7b99-4e7e-9810-52191f9ea365
 ---
 
 # Getting Started with AEM Forms and Adobe Campaign Standard {#getting-started-with-aem-forms-and-adobe-campaign-standard}

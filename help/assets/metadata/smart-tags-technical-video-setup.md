@@ -4,13 +4,13 @@ seo-title: Set up Smart Tags with AEM Assets
 description: Provides step by step instructions to configure smart tagging service for AEM Assets.
 seo-description: Provides step by step instructions to configure smart tagging service for AEM Assets.
 uuid: 8e4619fb-8102-4ce5-8652-511ec70d17a1
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-topic-tags: metadata
-topic-tags: search
-topic-tags: omnisearch
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: ccae3a2c-40a8-4441-bd36-230815a4676a
-targetaudience: target-audience advanced
+feature: smart-tags
+topics: metadata, search
+audience: all
+doc-type: technical-video
+activity: setup
+version: 6.3, 6.4, 6.5
 ---
 
 # Set up Smart Tags with AEM Assets{#set-up-smart-tags-with-aem-assets}
