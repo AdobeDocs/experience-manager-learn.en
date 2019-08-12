@@ -1,10 +1,9 @@
 ---
 title: Using Form Data Model To Post Binary Data
 seo-title: Using Form Data Model To Post Binary Data
-description: null
-seo-description: null
+description: Posting binary data to AEM DAM using Form Data Model
+seo-description: Posting binary data to AEM DAM using Form Data Model
 uuid: dd344ed8-69f7-4d63-888a-3c96993fe99d
-sub-product: forms
 feature: workflow
 topics: integrations
 audience: developer
