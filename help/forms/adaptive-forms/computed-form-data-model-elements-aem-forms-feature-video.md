@@ -24,7 +24,7 @@ The following screenshot shows you the computed elements StateaandZip and monthl
 
 ![computedfdmelement](assets/computedfdmelement.gif)
 
-### Creating monthly salary computed element
+## Creating monthly salary computed element
 
 >[!VIDEO](https://video.tv.adobe.com/v/23855?quality=9)
 
