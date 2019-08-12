@@ -13,7 +13,7 @@ version: 6.4,6.5
 discoiquuid: 1c4822e6-76ce-446b-98cb-408900d68b24
 ---
 
-# Submitting Adaptive Form to AEM Workflow {#submitting-adaptive-form-to-aem-workflow}
+# Submitting Adaptive Form to AEM Workflow
 
 In this article, we will look at a simple workflow used for requesting Paid Time Off. The business requirements are as follows:
 
