@@ -74,4 +74,4 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 * [Generate Document Of Record Using API](adaptive-forms/document-of-record-api-tutorial-use.md)
 * [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
-* [Sending Email on Adaptive Form Submission](adaptive-forms/sending-email-on-adaptive-form-submission.md)
+* [Sending Email on Adaptive Form Submission](handling-form-submissions/sending-email-on-adaptive-form-submission.md)

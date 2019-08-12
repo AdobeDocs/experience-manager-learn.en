@@ -32,7 +32,6 @@ index: y
   + [Using Service User in AEM Forms](adaptive-forms/service-user-tutorial-develop.md)
   + [Tagging and Storing DoR on Adaptive Form Submission](adaptive-forms/tagging-and-saving-document-of-record-in-dam-article-use.md)
   + [Populating table with the results from Form Data Model Service Invocation](adaptive-forms/populatetable.md)
-  + [Configuring Adaptive Form to trigger AEM Workflow](adaptive-forms/configure-af-to-trigger-aem-workflow.md)
   + [Capturing workflow comments](adaptive-forms/capturing-workflow-comments-aem-workflow-article.md)
   + [Storing Submitted Form Data in DB](adaptive-forms/storing-adaptive-form-data-in-db.md)
   + [Form Data Model Service in AEM Workflow](adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md)
@@ -62,6 +61,7 @@ index: y
   + [Displaying Thank You Page on Adaptive Form Submission](handling-form-submissions/submitting-adaptive-forms-thank-you-page-article-use.md)
   + [Submitting Adaptive Form to External End point](handling-form-submissions/submitting-adaptive-forms-to-external-server-article-use.md)
   + [Sending Email on Adaptive Form Submission](handling-form-submissions/sending-email-on-adaptive-form-submission.md)
+  + [Configuring Adaptive Form to trigger AEM Workflow](handling-form-submissions/configure-af-to-trigger-aem-workflow.md)
 + Variables in AEM Workflow{#variables-aem-workflow}
   + [Introduction - Variables in Workflow](variables-aem-workflow/introduction.md)
   + [XML Variables](variables-aem-workflow/part1.md)
