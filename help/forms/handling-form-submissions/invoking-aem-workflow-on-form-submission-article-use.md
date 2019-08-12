@@ -24,13 +24,17 @@ In this article, we will look at a simple workflow used for requesting Paid Time
 
 To accomplish the above requirement, we use a hidden field called **initialstep** in the form and its default value is set to Yes.When the form is submitted, the first step in the workflow sets the value of initialstep to No. The form has business rules to hide and show the appropriate sections based on the initialstep value.
 
+>[Video - Configure Form to Trigger AEM Workflow](https://video.tv.adobe.com/v/28406?quality=9)
+
+>[Video - Walkthrough of the workflow](https://video.tv.adobe.com/v/28407?quality=9)
+
+**Submitter's view of the Time Off Request form**
+
 ![initialstep](assets/initialstep.gif)
 
-Time Off Request form
+**Approver view of the form**
 
 ![approverview](assets/approversview.gif)
-
-Approver view of the form
 
 In the approver view, the approver is not able to edit the submitted data. There is also a new section meant for Approvers only.
 

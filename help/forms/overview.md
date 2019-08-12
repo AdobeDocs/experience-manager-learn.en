@@ -14,14 +14,15 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 * **[Variables in AEM Workflow](./variables-aem-workflow/introduction.md)**
     <br>
-    *Learn about this cool new capability.*
+    *A variable in a workflow model is a way to store a value based on its data type*
 
 * **[Multi-Series Charts in Interactive Communication Documents(Video)](./interactive-communications/multiseriescharts.md)**
     <br>
-    *Learn about this cool new capability.*
+    *Plot more than one series in the same chart.The multiple series charts are typically used in association with Line,Bar,Column chart type.*
 
 * **[Creating re-usable workflow models](./adaptive-forms/re-usable-aem-forms-workflow-models-article.md)**
     <br/>
+    * Create workflow models not tied to a specific form
      
 ## Staff Picks
 
