@@ -25,7 +25,7 @@ Import and install the package into  crx  using the package manager. The package
 
 >[Video - Custom function to populate drop down list](https://video.tv.adobe.com/v/22282?quality=9)
 
-### Set Summary Title of Panel {#set the summary title of panels}
+### Set Summary Title of Panel {#set-the-summary-title-of-panels}
 
 >[Video - Set Summary Title Using Code Editor](https://video.tv.adobe.com/v/28387?quality=9)
 
