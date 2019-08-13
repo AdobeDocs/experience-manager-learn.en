@@ -27,7 +27,9 @@ sub-product: sites
   + [Understanding Experience Fragments](experience-fragments/experience-fragments-feature-video-understand.md)
   + [Setup Social Posting with Experience Fragments](experience-fragments/experience-fragments-social-technical-video-setup.md)
 + Developing {#developing}
-  + [Getting Started WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+  + [Getting Started with AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+  + [Getting Started with AEM Headless](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html)
+  + [Getting Started with AEM's SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
   + [Extending Page Properties](developing/page-properties-technical-video-develop.md)
   + [Developing with the Style System](developing/style-system-technical-video-understand.md)
   + [Style System Best Practices](developing/style-organization-style-system-understand-article.md)

@@ -12,11 +12,15 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
 
 ## What's New
 
-* **[Using Experience Fragments (Video)](./experience-fragments/experience-fragments-feature-video-use.md)**
+* **[Getting Started with AEM Headless (Tutorial)](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html)**
+    <br>
+    *How to expose content from AEM to be consumed by a native mobile app, in a headless CMS scenario.*
+
+* **[Using Experience Fragments (Video Series)](./experience-fragments/experience-fragments-feature-video-use.md)**
     <br>
     *Learn about AEM Experience Fragments for promoting content cross-channels.*
 
-* **[Using Content Fragments (Video)](./content-fragments/content-fragments-feature-video-use.md)**
+* **[Using Content Fragments (Video Series)](./content-fragments/content-fragments-feature-video-use.md)**
     <br>
     *Content Fragments are channel agnostic pieces of content able to be re-used.*
 
@@ -24,34 +28,17 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
     <br>
     *Learn about AEM's editing capabilities for single page applications (SPA).*
 
-* **[Translation Enhancements (Video)](./translation/translation-enhancements-feature-video-use.md)**
-    <br>
-    *Learn about the latest translation enhancements in Adobe Experience Manager Sites.*
-
 ## Staff Picks
 
 <table>
 <tr>
-  <td>
-    <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html">
-      <img alt="Getting Started with the AEM SPA Editor - WKND Events Tutorial" src="./assets/aem-wknd-spa-editor-tutorial.png" />
-    </a>
-     <div>
-      <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html">
-        <strong>Getting Started with the AEM SPA Editor - WKND Events Tutorial</strong>
-      </a>
-    </div>
-    <p>
-    <em>A getting started guide for developers to integrate a single page applications (SPA) with AEM.</em>
-    <p>
-  </td>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
       <img alt="Getting Started with AEM Sites - WKND Tutorial" src="./assets/aem-wknd-tutorial.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
-    <strong>Getting Started with AEM Sites - WKND Tutorial</strong>
+    <strong>Getting Started with AEM Sites</strong>
     </a>
     </div>
     <p>
@@ -59,17 +46,30 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
     <p>
   </td>
   <td>
-    <a href="./page-authoring/style-system-feature-video-use.md">
-    <img alt="Using the Style System" src="./page-authoring/assets/style-system-thumbnail.png" />
+    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html">
+    <img alt="Getting Started with AEM Headless" src="./assets/aem-headless-tutorial.png" />
     </a>
     <div>
-    <a href="./page-authoring/style-system-feature-video-use.md">
-    <strong>Using the Style System</strong>
+    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html">
+    <strong>Getting Started with AEM Headless</strong>
     </a>
     </div>
     <p>
-    <em>AEM's Style System allows visual variations of components without back-end development.</em>
+    <em>A getting started guide for developers looking to use AEM as headless CMS.</em>
     </p>
+  </td>
+  <td>
+    <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html">
+      <img alt="Getting Started with AEM's SPA Editor" src="./assets/aem-wknd-spa-editor-tutorial.png" />
+    </a>
+     <div>
+      <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html">
+        <strong>Getting Started with AEM's SPA Editor</strong>
+      </a>
+    </div>
+    <p>
+    <em>A getting started guide for developers to integrate a single page applications (SPA) with AEM.</em>
+    <p>
   </td>
 </tr>
 </table>
