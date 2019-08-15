@@ -71,8 +71,6 @@ In the final step, the Launch Cloud Configuration will be set up and the correct
 >
 >Admin rights in AEM are required to configure the Launch Cloud Service.
 
-
-
 ## Additional Resources {#additional-resources}
 
 If you have completed the steps above but you are not seeing the Launch embed codes in your own site please see the section "Map an Adobe Launch integration to a site in AEM" in the following article:
