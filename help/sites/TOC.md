@@ -19,13 +19,15 @@ sub-product: sites
   + [Understanding Core Components](components/core-components-feature-video-understand.md)
   + [Using the Components Console](components/components-console-feature-video-use.md)
 + Content Fragments {#content-fragments}
-  + [Using Content Fragments](content-fragments/content-fragments-feature-video-use.md)
+  + [Authoring Content Fragments](content-fragments/content-fragments-feature-video-use.md)
+  + [Delivering Content Fragments](content-fragments/content-fragments-delivery-feature-video-use.md)
   + [Using Translation with Content Fragments](content-fragments/content-fragments-translation-feature-video-use.md)
   + [Understand Content Fragments vs. Experience Fragments](content-fragments/understand-content-fragments-and-experience-fragments.md)
 + Experience Fragments {#experience-fragments}
   + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
   + [Understanding Experience Fragments](experience-fragments/experience-fragments-feature-video-understand.md)
   + [Setup Social Posting with Experience Fragments](experience-fragments/experience-fragments-social-technical-video-setup.md)
+  + [Understand Content Fragments vs. Experience Fragments](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
 + Developing {#developing}
   + [Getting Started with AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Getting Started with AEM Headless](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html)
@@ -44,6 +46,8 @@ sub-product: sites
   + [Setup ContextHub](personalization/context-hub-technical-video-setup.md)
 + Single Page Applications {#spa-editor}
   + [Using the SPA Editor](spa-editor/spa-editor-framework-feature-video-use.md)
+  + [Hello World Tutorial](spa-editor/spa-editor-helloworld-tutorial-use.md)
+  + [Getting Started with AEM's SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
 + Translation {#translation}
   + [Using Multi Site Manager](translation/multi-site-manager-feature-video-use.md)
   + [Using Language Copy](translation/language-copy-feature-video-use.md)
