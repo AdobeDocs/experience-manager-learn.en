@@ -56,13 +56,17 @@ First introduced in AEM 6.5, is enhanced support for Content Fragments with the 
 
 ## Which delivery method to use
 
+### Web Channel
+
 The approach to delivering a Content Fragment via a web channel is straightforward by using the Content Fragment component with AEM Sites.
+
+### Headless
 
 There are two options for exposing Content Fragment as JSON to support a 3rd party channel in a headless use case:
 
-Use AEM Content Services and Proxy API pages (Video #2) when the primary use case is deliver Content Fragments for consumption (Read-only) by a 3rd party channel. The Content Services framework provides more flexibility and options as to what data gets exposed. Developers can also extend the Content Services framework to augment and/or enrich the data.
+1. Use AEM Content Services and Proxy API pages (Video #2) when the primary use case is deliver Content Fragments for consumption (Read-only) by a 3rd party channel. The Content Services framework provides more flexibility and options as to what data gets exposed. Developers can also extend the Content Services framework to augment and/or enrich the data.
 
-Use the Assets HTTP API (Video #3) when the 3rd party channel needs to modify and/or update Content Fragments. A typical use case is ingesting 3rd party content on an AEM author environment.
+2. Use the Assets HTTP API (Video #3) when the 3rd party channel needs to modify and/or update Content Fragments. A typical use case is ingesting 3rd party content on an AEM author environment.
 
 ## Additional Resources {#additional-resources}
 
