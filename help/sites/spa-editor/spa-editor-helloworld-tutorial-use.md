@@ -1,6 +1,6 @@
 ---
-title: Getting Started with the AEM SPA Editor - Hello World Tutorial
-seo-title: Getting Started with the AEM SPA Editor - Hello World Tutorial
+title: Developing with the AEM SPA Editor - Hello World Tutorial
+seo-title: Developing with the AEM SPA Editor - Hello World Tutorial
 description: AEM's SPA Editor provides support for in-context editing of a Single Page Application or SPA. This tutorial is an introduction to SPA development to be used with AEM's SPA Editor JS SDK. The tutorial will extend the We.Retail Journal app by adding a custom Hello World component. Users can complete the tutorial using React or Angular frameworks.
 seo-description: AEM's SPA Editor provides support for in-context editing of a Single Page Application or SPA. This tutorial is an introduction to SPA development to be used with AEM's SPA Editor JS SDK. The tutorial will extend the We.Retail Journal app by adding a custom Hello World component. Users can complete the tutorial using React or Angular frameworks.
 sub-product: sites, content-services
@@ -14,7 +14,7 @@ uuid: 540447ad-b153-4cb0-99af-ab4dfcf3c0dd
 discoiquuid: d3c0c252-c376-4d27-8c09-053925c247f3
 ---
 
-# Getting Started with the AEM SPA Editor - Hello World Tutorial{#getting-started-with-the-aem-spa-editor-hello-world-tutorial}
+# Developing with the AEM SPA Editor - Hello World Tutorial{#developing-with-the-aem-spa-editor-hello-world-tutorial}
 
 AEM's SPA Editor provides support for in-context editing of a Single Page Application or SPA. This tutorial is an introduction to SPA development to be used with AEM's SPA Editor JS SDK. The tutorial will extend the We.Retail Journal app by adding a custom Hello World component. Users can complete the tutorial using React or Angular frameworks.
 

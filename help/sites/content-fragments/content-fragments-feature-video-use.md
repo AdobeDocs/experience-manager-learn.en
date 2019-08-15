@@ -1,6 +1,6 @@
 ---
-title: Using Content Fragments in AEM
-seo-title: Using Content Fragments in AEM
+title: Authoring Content Fragments in AEM
+seo-title: Authoring Content Fragments in AEM
 description: Content Fragments are a content abstraction in AEM that allows text-based content to be authored and managed independently of the channels it supports. 
 seo-description: Content Fragments are a content abstraction in AEM that allows text-based content to be authored and managed independently of the channels it supports.
 sub-product: content-services
@@ -14,7 +14,7 @@ uuid: 045473d2-5abe-4414-b91c-d369f3069ead
 discoiquuid: 912e0c41-83cf-49f7-b515-09519b6718c1
 ---
 
-# Using Content Fragments {#using-content-fragments}
+# Authoring Content Fragments {#authoring-content-fragments}
 
 Content Fragments are a content abstraction in AEM that allows text-based content to be authored and managed independently of the channels it supports.
 
@@ -25,13 +25,12 @@ Content Fragments are a content abstraction in AEM that allows text-based conten
 
 AEM Content Fragments are text-based editorial content that may include some structured data elements associated but considered pure content without design or layout information. Content Fragments are typically created as channel-agnostic content, that is intended to be used and re-used across channels, which in turn wrap the content in a context-specific experience.
 
-This video series covers the end-to-end life-cycle of Content Fragments in AEM, from definition to delivery.
+This video series covers the authoring life-cycle of Content Fragments in AEM. Details about [delivering Content Fragments can be found here](content-fragments-delivery-feature-video-use.md).
 
 1. Enabling and defining Content Fragment Models
 2. Authoring Content Fragments
 3. Downloading Content Fragments
-4. Using Content Fragments on web pages
-5. Exposing Content Fragments as JSON using AEM Content Services
+4. Editorial capabilities
 
 ## Defining Content Fragment Models {#defining-content-fragment-models}
 
@@ -67,27 +66,16 @@ AEM Content Fragments can be downloaded from AEM Author as a Zip file containing
 >
 > Annotation and version compare for Content Fragments were introduced in [AEM 6.4 Service Pack 2](https://helpx.adobe.com/experience-manager/aem-releases-updates.html) and [AEM 6.3 Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html).
 
-## Using Content Fragments in Web pages {#using-content-fragments-in-web-pages}
+## Next Steps
 
->[!VIDEO](https://video.tv.adobe.com/v/22449/?quality=12)
-
-Content Fragments can be used on AEM Sites pages, or in a similar fashion, Experience Fragments, using the AEM WCM Core Components' [Content Fragment component](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment).
-
-Content Fragment components can be styled using AEM's Style System to display the content as needed.
-
-## Exposing Content Fragments as JSON {#exposing-content-fragments-as-json}
-
->[!VIDEO](https://video.tv.adobe.com/v/22448/?quality=12)
-
-AEM Content Services facilitates the creation of AEM Page-based HTTP end-points that rendition content into a normalized JSON format.
-
-*Example Content Services end-point JSON payload:*  
-**[athletes.json](assets/athletes.json)**
+Learn about [delivering Content Fragments](content-fragments-delivery-feature-video-use.md).
 
 ## Additional Resources {#additional-resources}
 
-* [AEM Core WCM Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components)
-* [AEM Core WCM Content Fragment Component](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)
+* [Delivering Content Fragments](content-fragments-delivery-feature-video-use.md)
+* [AEM Core WCM Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
+* [AEM Core WCM Content Fragment Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/content-fragment-component.html)
 
-To download and install the package below on an AEM 6.4+ instance for the final state from the video series:  
+To download and install the package below on an AEM 6.4+ instance for the final state from the video series:
+
 **[aem_demo_fluid-experiencescontent-fragments-100.zip](assets/aem_demo_fluid-experiencescontent-fragments-100.zip)**
