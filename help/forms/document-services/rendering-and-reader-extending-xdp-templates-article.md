@@ -24,9 +24,9 @@ To test this capability, you can try this [link](https://forms.enablementadobe.c
 
 To accomplish this use case we need to do the following.
 
-* Create a custom OSGi service that will render and apply usage rights. The code to accomplish this is listed below
-
 * Add the Reader Extensions certificate to "fd-service" user. The steps to add Reader Extensions credential are listed [here](https://helpx.adobe.com/experience-manager/6-3/forms/using/configuring-document-services.html)
+
+* Create a custom OSGi service that will render and apply usage rights. The code to accomplish this is listed below
 
 ## Render XDP and Apply usage rights {#render-xdp-and-apply-usage-rights}
 
