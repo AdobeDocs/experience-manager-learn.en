@@ -41,8 +41,8 @@ public class ApplyUsageRights implements ReaderExtendPDF {
 DocAssuranceService docAssuranceService;
 @Reference
 GetResolver getResolver;
-	@Override
-	public Document applyUsageRights(Document pdfDocument,UsageRights usageRights) {
+@Override
+public Document applyUsageRights(Document pdfDocument,UsageRights usageRights) {
       ReaderExtensionsOptionSpec reOptionsSpec = new ReaderExtensionsOptionSpec(usageRights, "Sample ARES");
       UnlockOptions unlockOptions = null;
       ReaderExtensionOptions reOptions = ReaderExtensionOptions.getInstance();
