@@ -165,7 +165,7 @@ SPA development iterations occur independently of AEM. When the SPA is ready to 
 
 ## Create AEM Component {#aem-component}
 
-> Persona: AEM Developer
+**Persona: AEM Developer**
 
 An AEM component will be created first. The AEM component is responsible for rendering the JSON properties that are read by the React component. The AEM component is also responsible for providing a dialog for any editable properties of the component.
 
@@ -302,7 +302,7 @@ Using Eclipse, or other IDE, import the We.Retail Journal Maven project.
 
 ## Create Sling Model {#create-sling-model}
 
-> Persona: AEM Developer
+**Persona: AEM Developer**
 
 Next a Sling Model is created to back the Hello World component. In a traditional WCM use case the Sling Model implements any business logic and a server-side rendering script (HTL) will make a call to the Sling Model. This keeps the rendering script relatively simple.
 
@@ -436,7 +436,7 @@ Sling Models are also used in the SPA use case to implement server-side business
 
 ## Create React Component {#react-component}
 
-> Persona: Front End Developer
+**Persona: Front End Developer**
 
 Next, the React component will be created. Open the **react-app** module ( `<src>/aem-sample-we-retail-journal/react-app`) using the editor of your choice.
 
@@ -580,7 +580,7 @@ Next, the React component will be created. Open the **react-app** module ( `<src
 
 ## Create Angular Component {#angular-component}
 
-> Persona: Front End Developer
+**Persona: Front End Developer**
 
 >[!NOTE]
 >
