@@ -39,8 +39,8 @@ com.adobe.aemds.guide.addon.dor.DoROptions dorOptions =  new com.adobe.aemds.gui
 To try this on your local system, please follow the following steps
 
 1. [Download and install the article assets using package manager](assets/dorapi.zip)
-1. [Create Service user as mentioned in this article](https://helpx.adobe.com/experience-manager/kt/forms/using/service-user-tutorial-develop.html) 
-1. Make sure you have installed and started the DevelopingWithServiceUser bundle provided as part of [Create Service User article](https://helpx.adobe.com/experience-manager/kt/forms/using/service-user-tutorial-develop.html)
+1. [Create Service user as mentioned in this article](service-user-tutorial-develop.md) 
+1. Make sure you have installed and started the DevelopingWithServiceUser bundle provided as part of [Create Service User article](service-user-tutorial-develop.md)
 1. Point your browser to [http://localhost:4502/useradmin](http://localhost:4502/useradmin)
 1. Search for user ' data '
 1. Double click the ' data ' user 
@@ -57,7 +57,7 @@ To try this on your local system, please follow the following steps
 PDF isn't displayed in new browser tab:
 
 1. Make sure you are not blocking popups in your browser
-1. Make you have followed the steps outlined in this [article](https://helpx.adobe.com/experience-manager/kt/forms/using/service-user-tutorial-develop.html)
+1. Make you have followed the steps outlined in this [article](service-user-tutorial-develop.md)
 1. Make sure the 'DevelopingWithServiceUser' bundle is in *active state* 
 1. Make sure the system user ' data ' has Read, Modify, and Create permissions on the following node `/content/usergenerated/content/aemformsenablement`
 
