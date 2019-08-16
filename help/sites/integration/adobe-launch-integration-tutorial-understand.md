@@ -57,6 +57,16 @@ In the final step, the Launch Cloud Configuration will be set up and the correct
 
 >[!VIDEO](https://video.tv.adobe.com/v/21985/?quality=12)
 
+>[!CAUTION]
+>
+> There is a bug in some versions of the AEM Launch Wizard. The wizard incorrectly adds a prefix of `/https:` to the Staging, Production library URIs. This can easily be corrected by editing the wizard config and **removing** the `/https:` prefix.
+> 
+> **Incorrect Library URI**: 
+> ![Incorrect Library URI](assets/launch-wizard-incorrect.png)
+>
+> **Corrected Library URI**:
+> ![Corrected Library URI](assets/launch-wizard-correct.png)
+
 >[!NOTE]
 >
 >Admin rights in AEM are required to configure the Launch Cloud Service.
