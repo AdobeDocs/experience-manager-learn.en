@@ -119,6 +119,7 @@ index: y
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
   + [Generate Print Channel Documents From Submitted Data](interactive-communications/merge-data-with-ic-template.md)
   + [Using Reducer Functions](interactive-communications/reducer-functions-in-charts-aem-forms-video-use.md)
+  + [Two Column Layout in Print Channel Documents](interactive-communications/two-column-layout-aem-forms-article-use.md)
 
 + Interactive Communications For Web Channel {#ic-web-channel-tutorial}
   + [Introduction](ic-web-channel-tutorial/introduction.md)
