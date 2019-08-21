@@ -16,7 +16,9 @@ discoiquuid: 1c9fb7b6-98dd-4725-b787-ac9e71906500
 
 In Part1 we will create Adaptive Form, add and configure toolbar with appropriate buttons.
 
->[Video - Create Adaptive Form](https://video.tv.adobe.com/v/22173/quality=9)
+**Create your first Adaptive Form**
+
+>[!VIDEO](https://video.tv.adobe.com/v/22173/quality=9)
 
 
 

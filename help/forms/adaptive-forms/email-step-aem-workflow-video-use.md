@@ -35,7 +35,9 @@ As part of the assets associated with this article, You will get the following
 1. Sample workflow that will send an email with DOR as its attachment
 1. OSGi bundle which creates the metadata properties
 
-To get the sample running on your system, please do the following
+To get the sample running on your system, please do the following:
+
+1. [Deploy the Developingwithserviceuser bundle](https://forms.enablementadobe.com/content/DemoServerBundles/DevelopingWithServiceUser.core-1.0-SNAPSHOT.jar)
 
 1. [Download and install setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar)This bundle contains the code for creating the metadata properties as part of the process step of the workflow.
 1. [Configure Day CQ Mail Service](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/notification.html)
@@ -46,7 +48,7 @@ To get the sample running on your system, please do the following
 Explore the [workflow model](http://localhost:4502/editor.html/conf/global/settings/workflow/models/emaildor.html)
 
 Take a look at the process step of the workflow. The custom code associated with the process step will create metadata property names and sets its values from the submitted data.These values are then used by the send email component.
->[!NOTE] In AEM Forms 6.5 and above you do not need this custom code to create metadata properties.The capability is provided out of the box
+>[!NOTE] In AEM Forms 6.5 and above you do not need this custom code to create metadata properties. Please use the variables capability in AEM Workflow
 
 Make sure the Attachments tab of the Send Email component is configured as per the screen shot below
 ![Send Email Attachment Tab](assets/sendemailcomponentconfigure.jpg)The "DOR.pdf" value has to match the value specified in the Document of Record Path specified in the submission options of your adaptive form.

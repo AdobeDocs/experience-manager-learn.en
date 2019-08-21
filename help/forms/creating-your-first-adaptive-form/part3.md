@@ -18,13 +18,17 @@ discoiquuid: 520c8633-925f-4d3f-b800-ea34710f68d7
 
 Configure People panel by adding the spouse details fragment. A rule is created to display the spouse details fragment if the applicants marital status is married.
 
->[Video - Configure People Panel in AEM Forms 6.3 and 6.4](https://video.tv.adobe.com/v/22193?quality=9)
+**Configure People Panel in AEM Forms 6.3 and 6.4**
 
+>[!VIDEO](https://video.tv.adobe.com/v/22193?quality=9)
 
->[Video - Configure People Panel in AEM Forms 6.5](https://video.tv.adobe.com/v/28385)
+**Configure People Panel in AEM Forms 6.5 and above**
 
+>[!VIDEO](https://video.tv.adobe.com/v/28385)
 
->[Video - Spouse Details Rules](https://video.tv.adobe.com/v/22195?quality=9)
+**Spouse Details Rules**
+
+>[!VIDEO](https://video.tv.adobe.com/v/22195?quality=9)
 
 
 

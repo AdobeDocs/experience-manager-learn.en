@@ -107,84 +107,76 @@ sling.servlet.methods=get", "sling.servlet.paths=/bin/applyrights"
 })
 
 public class GetReaderExtendedPDF extends SlingAllMethodsServlet {
-@Reference
-GetResolver getResolver;
-@Reference
-ApplyUsageRights applyRights;
-public org.w3c.dom.Document w3cDocumentFromStrng(String xmlString) {
-try {
-      DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-      InputSource is = new InputSource();
-      is.setCharacterStream(new StringReader(xmlString));
-
+  @Reference
+  GetResolver getResolver;
+  @Reference
+  ApplyUsageRights applyRights;
+  public org.w3c.dom.Document w3cDocumentFromStrng(String xmlString) {
+  try {
+        DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+        InputSource is = new InputSource();
+        is.setCharacterStream(new StringReader(xmlString));
   return db.parse(is);
 } catch (ParserConfigurationException e) {
-  e.printStackTrace();
+    e.printStackTrace();
 } catch (SAXException e) {
-  e.printStackTrace();
+    e.printStackTrace();
 } catch (IOException e) {
-  e.printStackTrace();
+    e.printStackTrace();
 }
 return null;
 }
 @Override
 protected void doGet(SlingHttpServletRequest request,SlingHttpServletResponse response)
 {
-doPost(request,response);
+  doPost(request,response);
 }
 @Override
 protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) {
-UsageRights usageRights = new UsageRights();
-String submittedData = request.getParameter("jcr:data");
-org.w3c.dom.Document submittedXml = w3cDocumentFromStrng(submittedData);
-String formFill = submittedXml.getElementsByTagName("formfill").item(0).getTextContent();
-usageRights.setEnabledFormDataImportExport(true);
-usageRights.setEnabledFormFillIn(Boolean.valueOf(submittedXml.getElementsByTagName("formfill").item(0).getTextContent()));
-usageRights.setEnabledComments(Boolean.valueOf(submittedXml.getElementsByTagName("comments").item(0).getTextContent()));
-usageRights.setEnabledEmbeddedFiles(Boolean.valueOf(submittedXml.getElementsByTagName("attachments").item(0).getTextContent()));
-usageRights.setEnabledDigitalSignatures(Boolean.valueOf(submittedXml.getElementsByTagName("digitalsignatures").item(0).getTextContent()));
-String attachmentPath = submittedXml.getElementsByTagName("attachmentpath").item(0).getTextContent();
-
-Node pdfNode = getResolver.getFormsServiceResolver().getResource(attachmentPath).adaptTo(Node.class);
-javax.jcr.Node jcrContent = null;
+  UsageRights usageRights = new UsageRights();
+  String submittedData = request.getParameter("jcr:data");
+  org.w3c.dom.Document submittedXml = w3cDocumentFromStrng(submittedData);
+  String formFill = submittedXml.getElementsByTagName("formfill").item(0).getTextContent();
+  usageRights.setEnabledFormDataImportExport(true);
+  usageRights.setEnabledFormFillIn(Boolean.valueOf(submittedXml.getElementsByTagName("formfill").item(0).getTextContent()));
+  usageRights.setEnabledComments(Boolean.valueOf(submittedXml.getElementsByTagName("comments").item(0).getTextContent()));
+  usageRights.setEnabledEmbeddedFiles(Boolean.valueOf(submittedXml.getElementsByTagName("attachments").item(0).getTextContent()));
+  usageRights.setEnabledDigitalSignatures(Boolean.valueOf(submittedXml.getElementsByTagName("digitalsignatures").item(0).getTextContent()));
+  String attachmentPath = submittedXml.getElementsByTagName("attachmentpath").item(0).getTextContent();
+  Node pdfNode = getResolver.getFormsServiceResolver().getResource(attachmentPath).adaptTo(Node.class);
+  javax.jcr.Node jcrContent = null;
 try {
-  jcrContent = pdfNode.getNode("jcr:content");
-  System.out.println("The jcr content node path is " + jcrContent.getPath());
-} catch (RepositoryException e1) {
-  // TODO Auto-generated catch block
-  e1.printStackTrace();
-}
+    jcrContent = pdfNode.getNode("jcr:content");
+    } catch (RepositoryException e1) {
+      e1.printStackTrace();
+    }
 
 try {
-  InputStream is = jcrContent.getProperty("jcr:data").getBinary().getStream();
-  Session jcrSession = getResolver.getFormsServiceResolver().adaptTo(Session.class);
-  Document documentToReaderExtend = new Document(is);
-  documentToReaderExtend = applyRights.applyUsageRights(documentToReaderExtend,usageRights);
-  documentToReaderExtend.copyToFile(new File("c:\\scrap\\doctore.pdf"));
-  InputStream fileInputStream = documentToReaderExtend.getInputStream();
-  documentToReaderExtend.close();
-  response.setContentType("application/pdf");
-  response.addHeader("Content-Disposition", "attachment; filename=AemFormsRocks.pdf");
-  response.setContentLength((int) fileInputStream.available());
-  OutputStream responseOutputStream = response.getOutputStream();
-  int bytes;
-  while ((bytes = fileInputStream.read()) != -1) {
-    responseOutputStream.write(bytes);
-  }
-  responseOutputStream.flush();
-  responseOutputStream.close();
-} catch (ValueFormatException e) {
-  // TODO Auto-generated catch block
-  e.printStackTrace();
-} catch (PathNotFoundException e) {
-  // TODO Auto-generated catch block
-  e.printStackTrace();
-} catch (RepositoryException e) {
-  // TODO Auto-generated catch block
-  e.printStackTrace();
+    InputStream is = jcrContent.getProperty("jcr:data").getBinary().getStream();
+    Session jcrSession = getResolver.getFormsServiceResolver().adaptTo(Session.class);
+    Document documentToReaderExtend = new Document(is);
+    documentToReaderExtend =  applyRights.applyUsageRights(documentToReaderExtend,usageRights);
+    documentToReaderExtend.copyToFile(new File("c:\\scrap\\doctore.pdf"));
+    InputStream fileInputStream = documentToReaderExtend.getInputStream();
+    documentToReaderExtend.close();
+    response.setContentType("application/pdf");
+    response.addHeader("Content-Disposition", "attachment; filename=AemFormsRocks.pdf");
+    response.setContentLength((int) fileInputStream.available());
+    OutputStream responseOutputStream = response.getOutputStream();
+    int bytes;
+    while ((bytes = fileInputStream.read()) != -1) {
+      responseOutputStream.write(bytes);
+    }
+    responseOutputStream.flush();
+    responseOutputStream.close();
+  } catch (ValueFormatException e) {
+      e.printStackTrace();
+  } catch (PathNotFoundException e) {
+      e.printStackTrace();
+  } catch (RepositoryException e) {
+    e.printStackTrace();
 } catch (IOException e) {
-  // TODO Auto-generated catch block
-  e.printStackTrace();
+    e.printStackTrace();
 }
 
 }

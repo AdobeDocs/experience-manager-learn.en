@@ -23,15 +23,15 @@ Import and install the package into  crx  using the package manager. The package
 
 ## Function to Populate Drop Down List {#function-to-populate-drop-down-list}
 
->[Video - Custom function to populate drop down list](https://video.tv.adobe.com/v/22282?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22282?quality=9)
 
 ### Set Summary Title of Panel {#set-the-summary-title-of-panels}
 
->[Video - Set Summary Title Using Code Editor](https://video.tv.adobe.com/v/28387?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/28387?quality=9)
 
 #### Validate Panel {#validate-panels-using-rule-editor}
 
->[Video - Validate Panel Fields](https://video.tv.adobe.com/v/28409?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/28409?quality=9)
 
 The following is the code used to validate panel fields
 
