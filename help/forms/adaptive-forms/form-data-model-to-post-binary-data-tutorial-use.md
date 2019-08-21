@@ -29,7 +29,7 @@ Form Data Model Tab - Properties
 
 In the Service Input tab we map the following
 
-* file(The Binary Object that needs to be stored) with DOR.pdf property relative to payload. What that means is when the Adatpive Form is submitted, the Document Of Record that is generated will be stored in a file called DOR.pdf relative to the workflow payload.**Make sure this DOR.pdf is the same that you provide when configuring the Adaptive Form's submission property.**
+* file(The Binary Object that needs to be stored) with DOR.pdf property relative to payload. What that means is when the Adaptive Form is submitted, the Document Of Record that is generated will be stored in a file called DOR.pdf relative to the workflow payload.**Make sure this DOR.pdf is the same that you provide when configuring the Adaptive Form's submission property.**
 
 * fileName - This is the name by which the binary object will be stored in DAM. So you want this property to be dynamically generated, so that each fileName would be unique per submission. For this purpose we have used the process step in the workflow to create metadata property called filename and set its value to combination of Member Name and Account Number of the person submitting the form. For example if the member name of the person is John Jacobs and his account number is 9846, the file name would be John Jacobs_9846.pdf
 
@@ -42,6 +42,8 @@ Service Input
 >Trouble Shooting Tips - If for some reason the DOR.pdf is not created in DAM, reset the data source authentication settings by clicking [here](http://localhost:4502/mnt/overlay/fd/fdm/gui/components/admin/fdmcloudservice/properties.html?item=%2Fconf%2Fglobal%2Fsettings%2Fcloudconfigs%2Ffdm%2Fpostdortodam). These are the AEM authentication settings, which by default is admin/admin.
 
 To test this capability on your server, please follow the steps mentioned below:
+
+1.[Deploy the Developingwithserviceuser bundle](https://forms.enablementadobe.com/content/DemoServerBundles/DevelopingWithServiceUser.core-1.0-SNAPSHOT.jar)
 
 1. [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar).This custom OSGI bundle is used to create metadata property and set its value from the submitted form data.
 

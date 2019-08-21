@@ -27,10 +27,10 @@ This article walks through the creation of a system user and configuring the use
    1. Set the userid type as ' data ' and click the green icon to complete the process of creating the system user
    1. [Open configMgr](http://localhost:4502/system/console/configMgr)
    1. Search for ' Apache Sling Service User Mapper Service ' and click to open the properties
-   1. Click the *+* icon (plus) to add a new Service Mapping
+   1. Click the *+* icon (plus) to add the following Service Mapping
 
         * DevelopingWithServiceUser.core:getresourceresolver=data
-        * DevelopingWithServiceUser.core:getformsresourceresolver=fd-service(For document services)
+        * DevelopingWithServiceUser.core:getformsresourceresolver=fd-service
 
    1. Click ' Save '
 

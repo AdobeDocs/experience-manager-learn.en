@@ -18,7 +18,9 @@ discoiquuid: fa483260-38ff-40d8-96a7-1de11d8b792b
 
 We will add a table to the Income panel. Configure the table rows and use the rule editor to calculate the grand total.
 
->[Video - Add and Configure Table Component](https://video.tv.adobe.com/v/22198?quality=9)
+**Add and Configure Table Component**
+
+>[!VIDEO](https://video.tv.adobe.com/v/22198?quality=9)
 
 
 
@@ -36,12 +38,9 @@ We will add a table to the Income panel. Configure the table rows and use the ru
 
 * Set Minimum and Maximum count to 1 and 5 under the Repeat Settings and save your changes by clicking the blue check mark icon. This means the table can have a maximum of 5 rows. To have an indefinite number of rows set the maximum count to -1.
 
-
-
-
 ## Create rule to calculate grand total {#create-rule-to-calculate-grand-total}
 
 
->[Video - Rule for calculating grand total](https://video.tv.adobe.com/v/22197?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22197?quality=9)
 
 

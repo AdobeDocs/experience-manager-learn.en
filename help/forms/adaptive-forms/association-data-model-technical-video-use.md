@@ -16,7 +16,7 @@ version: 6.3,6.4,6.5
 
 # Using Association Data Models with AEM Forms{#using-association-data-models-with-aem-forms}
 
-Create asscoiations between 2 entities in Form Data Model
+Create associations between 2 entities in Form Data Model
 
 >[!VIDEO](https://video.tv.adobe.com/v/17737/?quality=9)
 

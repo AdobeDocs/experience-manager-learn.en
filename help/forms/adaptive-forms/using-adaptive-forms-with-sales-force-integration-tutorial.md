@@ -39,7 +39,7 @@ Prerequisites for this tutorial:
 
 In this example  gbedekar -w7-1:6443 is the name of my server and the port on which AEM is running.
 
-Once you have created the Connected App note the** Consumer Key and Secret Key**. You will need this when creating the data source in AEM Forms.
+Once you have created the Connected App note the **Consumer Key and Secret Key**. You will need these when creating the data source in AEM Forms.
 
 Now that you have created your connected app, you will then need to create a swagger file for the operations that you need to perform in salesforce. A sample swagger file is included as part of the downloadable assets. This swagger file allows you to create "Lead" object on Adaptive Form submission. Please explore this swagger file.
 
@@ -120,4 +120,4 @@ After creating the Form Data Model, you can create Adaptive Forms based on this 
 
 ![sfdc2](assets/sfdc2.png)
 
-[SampleSwaggerFile](assets/swaggesaleforcelead.json)
+[SampleSwaggerFile](assets/swagger-sales-force-lead.json)

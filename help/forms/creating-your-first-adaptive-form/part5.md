@@ -18,11 +18,12 @@ discoiquuid: 37c039c4-422a-4836-8aa5-ba0459d342cc
 
 Configure accordion layout for the Assets panel.The accordion layout provides a better end user experience for adding repeatable sections.
 
+**Configure Assets Panel**
 
->[Video - Configure Assets Panel](https://video.tv.adobe.com/v/22200?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22200?quality=9)
 
-
->[Video - Set Summary Title](https://video.tv.adobe.com/v/28387)
+**Set Summary Title**
+>[!VIDEO](https://video.tv.adobe.com/v/28387)
 
 
 

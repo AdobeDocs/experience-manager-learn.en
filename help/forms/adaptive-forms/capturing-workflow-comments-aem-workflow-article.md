@@ -23,13 +23,16 @@ A common request is for the ability to include the comments entered by the task 
 
 To meet this requirement, a sample OSGi bundle is provided that can be used to capture comments and store these comments as workflow metadata property.
 
-The following screenshot shows you how to use process step in AEM Workflow to capture comments and store them as metadata property. The "Capture Workflow Comments" is the name of the java class that needs to be used in the process step. You need to pass the metadata property name that will hold the comments. In the screenshot below,managerComments is the metadata property that will store the comments.
+The following screenshot shows you how to use process step in [AEM Workflow](http://localhost:4502/editor.html/conf/global/settings/workflow/models/CaptureComments.html) to capture comments and store them as metadata property. The "Capture Workflow Comments" is the name of the java class that needs to be used in the process step. You need to pass the metadata property name that will hold the comments. In the screenshot below,managerComments is the metadata property that will store the comments.
 
 ![workflowcomments1](assets/workflowcomments1.gif)
 
 To test this capability on your system, please follow the following steps:
+* [Make sure the process step in the workflow is configure to use the Capture Workflow Comments](http://localhost:4502/editor.html/conf/global/settings/workflow/models/CaptureComments.html)
 
-* [Deploy the sample bunlde](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This bundle contains the sample code to capture the comments and store it as a metadata property
+* [Deploy the Developingwithserviceuser bundle](https://forms.enablementadobe.com/content/DemoServerBundles/DevelopingWithServiceUser.core-1.0-SNAPSHOT.jar)
+
+* [Deploy the SetValue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This bundle contains the sample code to capture the comments and store it as a metadata property
 
 * [Download and unzip the assets related to this article on to your file system](assets/capturecomments.zip) The assets contain workflow model and sample Adaptive Form.
 

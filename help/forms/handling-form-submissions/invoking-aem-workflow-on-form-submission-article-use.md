@@ -24,9 +24,13 @@ In this article, we will look at a simple workflow used for requesting Paid Time
 
 To accomplish the above requirement, we use a hidden field called **initialstep** in the form and its default value is set to Yes.When the form is submitted, the first step in the workflow sets the value of initialstep to No. The form has business rules to hide and show the appropriate sections based on the initialstep value.
 
->[Video - Configure Form to Trigger AEM Workflow](https://video.tv.adobe.com/v/28406?quality=9)
+**Configure Form to Trigger AEM Workflow**
 
->[Video - Walkthrough of the workflow](https://video.tv.adobe.com/v/28407?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/28406?quality=9)
+
+**Workflow walkthorugh**
+
+>[!VIDEO](https://video.tv.adobe.com/v/28407?quality=9)
 
 **Submitter's view of the Time Off Request form**
 
@@ -39,7 +43,8 @@ To accomplish the above requirement, we use a hidden field called **initialstep*
 In the approver view, the approver is not able to edit the submitted data. There is also a new section meant for Approvers only.
 
 To test this workflow on your system, please follow the steps mentioned below:
-* [Deploy the SetValue Custom OSGI Bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar)
+* [Download and deploy DevelopingWitheServiceUserBundle](https://forms.enablementadobe.com/content/DemoServerBundles/DevelopingWithServiceUser.core-1.0-SNAPSHOT.jar)
+* [Downlaod and deploy the SetValue Custom OSGI Bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar)
 * [Import the assets related to this article into AEM](assets/helpxworkflow.zip) 
 * Open the [Time Off Request form](http://localhost:4502/content/dam/formsanddocuments/helpx/timeoffrequestform/jcr:content?wcmmode=disabled)
 * Fill in the details and submit
