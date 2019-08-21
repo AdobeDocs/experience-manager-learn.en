@@ -41,7 +41,7 @@ To deploy the assets on your local system:
 
 *[Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted json data.
 
-* [Download and extract the contents of the zip file](assets/setvaluejsondata)
+* [Download and extract the contents of the zip file](assets/set-value-jsondata.zip)
   * Point your browser to [package manager](http://localhost:4502/crx/packmgr/index.jsp)
     * Import and install the SetValueOfElementInJSONDataWorkflow.zip.This package has the sample workflow model and Form Data Model associated with the form.
 
