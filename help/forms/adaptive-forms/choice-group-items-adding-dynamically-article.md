@@ -48,7 +48,7 @@ else
  The submitted data is as follows
  
  ``` xml {.line-numbers}
- <afUnboundData>
+  <afUnboundData>
 
 <data>
 
@@ -63,6 +63,7 @@ else
 </data>
 
 </afUnboundData>
+
  ```
 
 **Adding items using the rule editor**
