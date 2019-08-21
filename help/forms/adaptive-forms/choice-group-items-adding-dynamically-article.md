@@ -12,6 +12,7 @@ version: 6.5
 ---
 
 >[!NOTE]
+
 > [This capability is available live on Samples Server](https://forms.enablementadobe.com/content/samples/samples.html?query=0). Search for Dynamic Checkbox items card and click on "Try It"
 
 # Adding items dynamically to choice group component
@@ -30,6 +31,7 @@ In the screenshot below, we are setting the options of Loan Period(years) to the
  In the code snippet, we are setting the items of WorkingMembers which is a checkbox component. The array for the items is being built dynamically by fetching the values of the applicantName and spouse text fields of the adaptive forms
 
  ``` javascript {.line-numbers}
+ 
  if(MaritalStatus.value=="Married")
   {
 WorkingMembers.items =["spouse="+spouse.value,"applicant="+applicantName.value];
@@ -39,6 +41,7 @@ else
     WorkingMembers.items =["applicant="+applicantName.value];
      
   }
+
  ```
  The submitted data is as follows
  
