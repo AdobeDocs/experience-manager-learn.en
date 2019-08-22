@@ -51,10 +51,8 @@ Let's take a look at this code
         Constants.SERVICE_VENDOR + "=Adobe Systems",
         "process.label" + "=Save Adaptive Form Attachments to File System" })
 public class WriteFormAttachmentsToFileSystem implements WorkflowProcess {
- 
-    private static final Logger log = LoggerFactory.getLogger(WriteFormAttachmentsToFileSystem.class);
- 
-    @Override
+     private static final Logger log = LoggerFactory.getLogger(WriteFormAttachmentsToFileSystem.class);
+     @Override
     public void execute(WorkItem workItem, WorkflowSession workflowSession, MetaDataMap processArguments)
             throws WorkflowException {
         // TODO Auto-generated method stub
