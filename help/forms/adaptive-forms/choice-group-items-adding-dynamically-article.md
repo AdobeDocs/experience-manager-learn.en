@@ -27,7 +27,7 @@ You can add items using the visual editor as well as the code editor depending o
 
 In the screenshot below, we are setting the options of Loan Period(years) to the results of a service call called getLoanPeriods.
 
-![Rule Editor](assets/ruleeditor.PNG)
+![Rule Editor](assets/ruleeditor.png)
 
 **Using the code editor**: When you want to set the items in the choice group dynamically based on the values entered in the form. For example, the following code snippet sets the items of the checkbox to the values entered in the applicant name and spouse fields of the Adaptive Form.
  In the code snippet, we are setting the items of WorkingMembers which is a checkbox component. The array for the items is being built dynamically by fetching the values of the applicantName and spouse text fields of the adaptive forms
