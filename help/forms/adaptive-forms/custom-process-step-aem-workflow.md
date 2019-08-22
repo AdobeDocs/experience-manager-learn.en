@@ -47,14 +47,12 @@ Let's take a look at this code
         import java.io.File;
         import java.io.IOException;
         import java.util.Iterator;
-
         import org.apache.sling.api.resource.Resource;
         import org.apache.sling.api.resource.ResourceResolver;
         import org.osgi.framework.Constants;
         import org.osgi.service.component.annotations.Component;
         import org.slf4j.Logger;
         import org.slf4j.LoggerFactory;
-
         import com.adobe.granite.workflow.WorkflowException;
         import com.adobe.granite.workflow.WorkflowSession;
         import com.adobe.granite.workflow.exec.WorkItem;
