@@ -11,7 +11,7 @@ activity: understand
 version: 6.5
 ---
 
-#Custom Process Step
+# Custom Process Step
 
 This tutorial is intended for AEM Forms customers needing to implement custom process step. A process step can execute ECMA script or call custom java code to perform operations. This tutorial will explain the steps needed to implement WorkflowProcess that gets executed by the process step.
 
@@ -22,12 +22,12 @@ The main reason for implementing custom process step is to extend the AEM Workfl
 
 To accomplish the above use case, you will typically write an OSGi service that gets executed by the process step.
 
-##Create Maven Project
+## Create Maven Project
 
 The first step is to create an maven project using the appropriate Adobe Maven Archetype. The detailed steps are listed in this [article](https://helpx.adobe.com/experience-manager/using/maven_arch13.html). Once you have your maven project imported into eclipse, you are ready to start writing your first OSGi component that can be used in your process step.
 
 
-###Create class that implements WorkflowProcess
+### Create class that implements WorkflowProcess
 
 Open the maven project in your eclipse IDE.Expand&ltprojectname&gt.core folder. Expand the src/main/java folder. You should see a package that ends with "core". Create Java class that implements WorkflowProcess in this package. You will need to override execute method. The signature of execute method is as follows
 public void execute(WorkItem workItem, WorkflowSession workflowSession, MetaDataMap processArguments)throws WorkflowException 
