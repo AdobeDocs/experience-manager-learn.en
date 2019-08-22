@@ -14,7 +14,7 @@ doc-type: feature-video
  
 # Use Workflow Management
  
- > ![VIDEO](https://video.tv.adobe.com/v/27848/?quality=12)
+ >[!VIDEO](https://video.tv.adobe.com/v/27848/?quality=12)
 
 The following aspects of Workflow management, introduced in AEM 6.5, are explored in this video:
 
@@ -29,6 +29,6 @@ The following aspects of Workflow management, introduced in AEM 6.5, are explore
 This video uses Workflow models to demonstrate this set of capabilities, however they are also applicable to AEM Launchers.
 
 
- >![NOTE]
+ >[!NOTE]
  >
  > Video uses AEM Sites UI to demonstrate the workflow status metadata capability. Workflow status metadata is also applicable to AEM Assets UI. Make sure to select the list view to enable the workflow status metadata in the UI.
