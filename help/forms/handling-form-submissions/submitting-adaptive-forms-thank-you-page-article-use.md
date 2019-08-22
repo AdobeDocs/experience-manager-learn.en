@@ -36,5 +36,5 @@ To test this capability on your server, please follow the instructions mentioned
 * Import the [assets file associated with this article into AEM using the package manager](assets/submittingtorestendpoint.zip)
 * Point your browser to the [Time Off Request Form](http://localhost:4502/content/dam/formsanddocuments/helpx/timeoffrequestform/jcr:content?wcmmode=disabled)
 * Fill in the required field and submit the form
-* You should get a thank you page with your information populated on the page
+* You should get thank you page with your information populated on the page
 

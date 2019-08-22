@@ -5,7 +5,7 @@ description: AEM Forms 6.5 introduced the ability to create variables in the AEM
 
 seo-description: AEM Forms 6.5 introduced the ability to create variables in the AEM Workflow. With this new capability using the "Invoke Form Data Model Service" in AEM Workflow has become very easy. The following video will walk you through the steps involved in using the Invoke Form Data Model Service in AEM Workflow.
 
-sub-product: forms.
+
 feature: workflow.
 topics: workflow.
 audience: developer.

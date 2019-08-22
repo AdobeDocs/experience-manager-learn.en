@@ -3,7 +3,7 @@ title: Modify Data Source Configuration Settings.
 seo-title: Modify Data Source Configuration Settings.
 description: Modify the host name and other settings in Data Source Configuration Settings.
 seo-description: Modify the host name and other settings in Data Source Configurations Settings.
-sub-product: forms
+
 feature: integrations
 topics: form-data-model
 audience: developer

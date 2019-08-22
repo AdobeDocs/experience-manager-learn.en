@@ -8,6 +8,20 @@ index: y
 # AEM Forms Videos and Tutorials {#forms}
 
 + [Forms Introduction](overview.md)
++ Creating Your First Adaptive Form {#creating-your-first-adaptive-form}
+  + [Part1- Create Adaptive Form](creating-your-first-adaptive-form/part1.md)
+  + [Part2 - Configuring root panel and adding child panel](creating-your-first-adaptive-form/part2.md)
+  + [Part3 - Adding components to People panel](creating-your-first-adaptive-form/part3.md)
+  + [Part4 - Adding table to income panel](creating-your-first-adaptive-form/part4.md)
+  + [Part5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
+  + [Part6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
++ Handling Form Submissions {#handling-af-form-submissions}
+  + [Invoking AEM Workflow on Adaptive Form Submission](handling-form-submissions/invoking-aem-workflow-on-form-submission-article-use.md)
+  + [Displaying Thank You Page on Adaptive Form Submission](handling-form-submissions/submitting-adaptive-forms-thank-you-page-article-use.md)
+  + [Submitting Adaptive Form to External End point](handling-form-submissions/submitting-adaptive-forms-to-external-server-article-use.md)
+  + [Sending Email on Adaptive Form Submission](handling-form-submissions/sending-email-on-adaptive-form-submission.md)
+  + [Configuring Adaptive Form to trigger AEM Workflow](handling-form-submissions/configure-af-to-trigger-aem-workflow.md)
+
 + Adaptive Forms {#adaptive-forms}
   + [Installing AEM Forms on Windows](adaptive-forms/installing-aem-form-on-windows-tutorial-use.md)
   + [Prefill Service in Adaptive Forms](adaptive-forms/prefill-service-adaptive-forms-article-use.md)
@@ -32,30 +46,23 @@ index: y
   + [Using Service User in AEM Forms](adaptive-forms/service-user-tutorial-develop.md)
   + [Tagging and Storing DoR on Adaptive Form Submission](adaptive-forms/tagging-and-saving-document-of-record-in-dam-article-use.md)
   + [Populating table with the results from Form Data Model Service Invocation](adaptive-forms/populatetable.md)
-  + [Configuring Adaptive Form to trigger AEM Workflow](adaptive-forms/configure-af-to-trigger-aem-workflow.md)
+  + [Capturing workflow comments](adaptive-forms/capturing-workflow-comments-aem-workflow-article.md)
   + [Storing Submitted Form Data in DB](adaptive-forms/storing-adaptive-form-data-in-db.md)
   + [Form Data Model Service in AEM Workflow](adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md)
   + [Form Data Model Service in AEM 6.5.1 Workflow](adaptive-forms/form-data-model-service-as-step-in-aem65-workflow-video-use.md)
   + [Form Data Model without Data Source](adaptive-forms/form-data-model-without-data-source-feature-video-use.md)
+  + [Computed Form Data Model Element](adaptive-forms/computed-form-data-model-elements-aem-forms-feature-video.md)
   + [Setting up JDBC Data Source in AEM Forms](adaptive-forms/data-integration-technical-video-setup.md)
   + [JDBC Based Form Data Model](adaptive-forms/jdbc-data-model-technical-video-use.md)
+  + [Create Associations between 2 entities in Form Data Model](adaptive-forms/association-data-model-technical-video-use.md)
+  + [Using Form Data Model's invoke service in Rule Editor](adaptive-forms/service-data-model-technical-video-use.md)
   + [Post Binary Data to AEM DAM Using Form Data Model](adaptive-forms/form-data-model-to-post-binary-data-tutorial-use.md)
   + [Creating Re-Usable Workflow Models](adaptive-forms/re-usable-aem-forms-workflow-models-article.md)
-  + [Sending Email on Adaptive Form Submission](adaptive-forms/sending-email-on-adaptive-form-submission.md)
-  + [Invoking AEM Workflow on Adaptive Form Submission](adaptive-forms/invoking-aem-workflow-on-form-submission-article-use.md)
-  + [Displaying Thank You Page on Adaptive Form Submission](adaptive-forms/submitting-adaptive-forms-thank-you-page-article-use.md)
-  + [Submitting Adaptive Form to External End point](adaptive-forms/submitting-adaptive-forms-to-external-server-article-use.md)
+  + [Custom Process Step AEM Workflow](adaptive-forms/custom-process-step-aem-workflow.md)
   + [Modify Data Source Configuration](adaptive-forms/modify-data-source-configuration-settings-article.md)
   + [Pre-Populating HTML5 Forms](adaptive-forms/prepopulating-html5-forms-in-aem-forms-article.md)
-
-
-+ Creating Your First Adaptive Form {#creating-your-first-adaptive-form}
-  + [Part1- Create Adaptive Form](creating-your-first-adaptive-form/part1.md)
-  + [Part2 - Configuring root panel and adding child panel](creating-your-first-adaptive-form/part2.md)
-  + [Part3 - Adding components to People panel](creating-your-first-adaptive-form/part3.md)
-  + [Part4 - Adding table to income panel](creating-your-first-adaptive-form/part4.md)
-  + [Part5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
-  + [Part6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
+  + [Form Data Model with Salesforce](adaptive-forms/using-adaptive-forms-with-sales-force-integration-tutorial.md)
+  + [Adding Items Dynamically to Choice Component](adaptive-forms/choice-group-items-adding-dynamically-article.md)
 + Variables in AEM Workflow{#variables-aem-workflow}
   + [Introduction - Variables in Workflow](variables-aem-workflow/introduction.md)
   + [XML Variables](variables-aem-workflow/part1.md)
@@ -93,6 +100,8 @@ index: y
   + [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
   + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
   + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)
+  + [Apply Usage Rights to PDF on XDP Rendition](document-services/rendering-and-reader-extending-xdp-templates-article.md)
+  + [Apply Usage Rights to Uploaded PDF](document-services/apply-reader-extension-rights-to-pdf.md)
 + Interactive Communications for Print Channel {#ic-print-channel-tutorial}
   + [Introduction](ic-print-channel-tutorial/introduction.md)
   + [Set up Tomcat](ic-print-channel-tutorial/partone.md)
@@ -109,6 +118,8 @@ index: y
 + Interactive Communications {#interactive-communications}
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
   + [Generate Print Channel Documents From Submitted Data](interactive-communications/merge-data-with-ic-template.md)
+  + [Using Reducer Functions](interactive-communications/reducer-functions-in-charts-aem-forms-video-use.md)
+  + [Two Column Layout in Print Channel Documents](interactive-communications/two-column-layout-aem-forms-article-use.md)
 
 + Interactive Communications For Web Channel {#ic-web-channel-tutorial}
   + [Introduction](ic-web-channel-tutorial/introduction.md)

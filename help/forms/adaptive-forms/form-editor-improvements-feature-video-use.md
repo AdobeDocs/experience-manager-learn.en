@@ -3,7 +3,7 @@ title: Form Editor Improvements in AEM Forms
 seo-title: Form Editor Improvements in AEM Forms
 description: AEM 6.3 introduces several new features and enhancements in this release to simplify the authoring experience of adaptive forms and documents. The enhancements help reduce your time to market and enable business users to work with forms and documents
 seo-description: AEM 6.3 introduces several new features and enhancements in this release to simplify the authoring experience of adaptive forms and documents. The enhancements help reduce your time to market and enable business users to work with forms and documents
-sub-product: forms
+
 feature: adaptive-forms
 topics: authoring
 audience: developer
