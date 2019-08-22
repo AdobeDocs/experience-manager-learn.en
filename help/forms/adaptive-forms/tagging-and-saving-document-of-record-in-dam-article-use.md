@@ -42,7 +42,7 @@ To get this sample working on your system,Please follow the steps listed below:
 
 * [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which sets the tags from the submitted form data.
 
-* [Download the Sample Adaptive Form](assets/tagandstoreindamassets.zip)
+* [Download the Sample Adaptive Form](assets/tag-and-store-in-dam-assets.zip)
 
 * [Go to Forms And Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 
