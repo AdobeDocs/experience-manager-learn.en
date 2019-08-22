@@ -25,7 +25,7 @@ This tutorial explains the steps needed to automate the certification process us
 
 Please follow the steps mentioned below to add the certificate to keystore in AEM
 
-* [Login to AEM](/libs/granite/security/content/useradmin) as admin user
+* [Login to AEM](http://localhost:4502/libs/granite/security/content/useradmin) as admin user
 * Search for admin user
 * Double click the admin user to open the user settings window
 * Click on Keystore tab
@@ -67,8 +67,3 @@ If you are running the sample on author instance, please provide the authenticat
 
 Import this zip file using package manager
 
-[Get File](assets/certifydocumentassets.zip)
-
-This zip file contains a sample certificate and Postman request. Unzip this file and extract the content on to your hard drive
-
-[Get File](assets/certificateandpostman.zip)
