@@ -18,9 +18,9 @@ index: y
   + [Set up Public/Private Keys to use with Adobe I/O](authentication/set-up-public-private-keys-for-use-with-aem-and-adobe-io.md)
   + [Understanding Authentication](authentication/authentication-support-article-understand.md)
   + [Understand IMS Authentication on AMS](authentication/adobe-ims-authentication-technical-video-understand.md)
-+ Cloud Manager for AEM {#cloud-manager}
-  + [Understand Cloud Manager for AEM](./cloud-manager/understand-cloud-manager-for-aem.md)
-  + [Use the CI/CD Pipeline in Cloud Manager for AEM](./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md)
++ Adobe Cloud Manager{#cloud-manager}
+  + [Understand Adobe Cloud Manager](./cloud-manager/understand-cloud-manager-for-aem.md)
+  + [Use the CI/CD Pipeline in Adobe Cloud Manager](./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md)
 + Development {#development}
   + [Develop Sling Model Exporters](./development/develop-sling-model-exporter.md)
   + [Set up a local AEM Development Environment](./development/set-up-a-local-aem-development-environment.md)
