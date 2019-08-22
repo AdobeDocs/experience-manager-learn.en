@@ -47,7 +47,7 @@ To deploy the assets on your local system:
 
 * Point your browser to [Forms and Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * Click Create | File Upload
-* Upload the TimeOffRequestForm.zip
+* Upload TimeOffRequestForm.zip file
  **This form was built using AEM Forms 6.4. Please make sure you are on AEM Forms 6.4 or above**
 * Open the [form](http://localhost:4502/content/dam/formsanddocuments/timeoffrequest/jcr:content?wcmmode=disabled)
 * Fill in the Start and End Dates and submit the form.
