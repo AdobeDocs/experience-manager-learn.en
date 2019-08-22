@@ -29,7 +29,7 @@ The first step is to create an maven project using the appropriate Adobe Maven A
 
 ### Create class that implements WorkflowProcess
 
-Open the maven project in your eclipse IDE.Expand<projectname>.core folder. Expand the src/main/java folder. You should see a package that ends with "core". Create Java class that implements WorkflowProcess in this package. You will need to override execute method. The signature of execute method is as follows
+Open the maven project in your eclipse IDE.Expand&ltprojectname&gt.core folder. Expand the src/main/java folder. You should see a package that ends with "core". Create Java class that implements WorkflowProcess in this package. You will need to override execute method. The signature of execute method is as follows
 public void execute(WorkItem workItem, WorkflowSession workflowSession, MetaDataMap processArguments)throws WorkflowException 
 The execute method gives access to the following 3 variables
 
