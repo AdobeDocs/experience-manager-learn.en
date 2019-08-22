@@ -15,11 +15,11 @@ discoiquuid: 9e936885-4e10-4c05-b572-b8da56fcac73
 
 # Submitting Adaptive Form to External Server {#submitting-adaptive-form-to-external-server}
 
-Use the Submit to REST Endpoint action to post the submitted data to a REST URL. The URL can be of an internal (the server on which the form is rendered) or an external server.
+Use Submit to REST Endpoint action to post the submitted data to a REST URL. The URL can be of an internal (the server on which the form is rendered) or an external server.
 
-Typically customers would want to submit the form data to an external server for further processing.
+Typically, customers would want to submit the form data to an external server for further processing.
 
-To post data to an internal server, provide a path of the resource. The data is posted the path of the resource. For example, </content/restEndPoint> . For such post requests, the authentication information of the submit request is used.
+To post data to an internal server, provide a path of the resource. The data is posted the path of the resource. For example, </content/restEndPoint> . For such post requests, the authentication information of submit request is used.
 
 To post data to an external server, provide a URL. The format of the URL is <http://host:port/path_to_rest_end_point>. Ensure that you have configured the path to handle the POST request anonymously.
 

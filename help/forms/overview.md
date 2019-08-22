@@ -14,14 +14,15 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 * **[Variables in AEM Workflow](./variables-aem-workflow/introduction.md)**
     <br>
-    *Learn about this cool new capability.*
+    *A variable in a workflow model is a way to store a value based on its data type*
 
 * **[Multi-Series Charts in Interactive Communication Documents(Video)](./interactive-communications/multiseriescharts.md)**
     <br>
-    *Learn about this cool new capability.*
+    *Plot more than one series in the same chart.The multiple series charts are typically used in association with Line,Bar,Column chart type.*
 
 * **[Creating re-usable workflow models](./adaptive-forms/re-usable-aem-forms-workflow-models-article.md)**
     <br/>
+    * Create workflow models not tied to a specific form
      
 ## Staff Picks
 
@@ -29,7 +30,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 <tr>
   <td>
     <a href="./creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.md">
-      <img alt="400 x 225px" src="./landingpage-images/adaptiveform.png" />
+      <img alt="400 x 225px" src="./landingpage-images/afhero.PNG" />
     </a>
     <div>
       <a href="./creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.md">
@@ -55,7 +56,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
   </td>
   <td>
     <a href="./adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md">
-      <img alt="400 x 225px" src="./landingpage-images/fdm.png" />
+      <img alt="400 x 225px" src="./landingpage-images/fdmlogo.PNG" />
     </a>
     <div>
       <a href="./adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md">
@@ -73,4 +74,4 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 * [Generate Document Of Record Using API](adaptive-forms/document-of-record-api-tutorial-use.md)
 * [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
-* [Sending Email on Adaptive Form Submission](adaptive-forms/sending-email-on-adaptive-form-submission.md)
+* [Sending Email on Adaptive Form Submission](handling-form-submissions/sending-email-on-adaptive-form-submission.md)

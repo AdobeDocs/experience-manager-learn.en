@@ -17,11 +17,7 @@ discoiquuid: dbd87302-f770-4e61-b5ad-3fc5831b4613
 Set Value of an XML Element in Adaptive Forms submitted data in AEM Forms OSGI workflow.
 
  ![SetValue](assets/setvalue.png)
-
- >[!NOTE]
  
-     This method of using custom setvalue is NOT needed for AEM Forms 6.5 or later. This capability is included out of the box in AEM Forms 6.5 and above
-
 LiveCycle used to have a set value component which would allow you set an XML element's value.
 
 Based on this value, when the form is populated with the XML you can hide/disable certain fields or panels of the form.
@@ -39,10 +35,13 @@ Please take a look at the rules set against "Time Off Requested by" field using 
 
 To deploy the assets on your local system, please follow the steps below:
 
+* [Deploy the Developingwithserviceuser bundle](https://forms.enablementadobe.com/content/DemoServerBundles/DevelopingWithServiceUser.core-1.0-SNAPSHOT.jar)
+
+* [Deploy the sample bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted xml data
+
 * [Download and extract the contents of the zip file](assets/setvalueassets.zip)
 * Point your browser to [package manager](http://localhost:4502/crx/packmgr/index.jsp)
 * Import and install the setValueWorkflow.zip. This has the sample workflow model.
-* [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted xml data.
 * Point your browser to [Forms and Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * Click Create | File Upload
 * Upload the TimeOfRequestForm.zip
