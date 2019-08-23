@@ -116,7 +116,7 @@ To test this capability on your own server please follow the following steps:
 
 * [Deploy the Developing with Service User bundle](https://forms.enablementadobe.com/content/DemoServerBundles/DevelopingWithServiceUser.core-1.0-SNAPSHOT.jar)
 
-* [Download and install the package associated with this article.](assets/addimagetomobileformv4.zip)
+* [Download and install the package associated with this article.](assets/pdf-from-mobile-form-submission.zip)
 
 * Make sure the submit URL and HTML Render profile are set correctly by viewing the properties page of the  [xdp](http://localhost:4502/libs/fd/fm/gui/content/forms/formmetadataeditor.html/content/dam/formsanddocuments/schengen.xdp)
 
