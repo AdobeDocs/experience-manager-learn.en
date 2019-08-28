@@ -18,7 +18,7 @@ discoiquuid: 58c6bf42-efe5-41a3-8023-d84f3675f689
 
 Submit to REST endpoint option passes the data filled in the form to a configured confirmation page as part of the HTTP GET request. You can add the name of the fields to request. The format of the request is:
 
-{fieldName} = {parameterName}. For example, the submitterName is the name of an adaptive form field and submitter is the name of the parameter. In the thank you page, you can access the submitter parameter using request.getParameter("submitter") to get hold of the submitter name field's value.
+\{fieldName\} = \{parameterName\}. For example, the submitterName is the name of an adaptive form field and submitter is the name of the parameter. In thank you page, you can access the submitter parameter using request.getParameter("submitter") to get hold of the submitter name field's value.
 
 submitterName=submitter
 
