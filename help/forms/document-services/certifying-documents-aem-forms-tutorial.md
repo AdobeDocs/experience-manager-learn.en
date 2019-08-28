@@ -1,69 +1,62 @@
 ---
 title: Certifying Document in AEM Forms
 seo-title: Certifying Document in AEM Forms
-description: null
-seo-description: null
+description: Using the Docassurance service to certify PDF documents in AEM Forms
+seo-description: description: Using the Docassurance service to certify PDF documents in AEM Forms
 uuid: ecb1f9b6-bbb3-43a3-a0e0-4c04411acc9f
-contentOwner: gbedekar
-products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: document_services
-discoiquuid: 9fd78c7f-ffa6-457e-b866-cd27d671732c
-index: y
-internal: n
-snippet: y
+feature: document-security
+topics: development
+audience: developer
+doc-type: article
+activity: implement
+version: 6.4,6.5
 ---
 
-# Certifying Document in AEM Forms{#certifying-document-in-aem-forms}
+# Certifying Document in AEM Forms
 
 A Certified Document provides PDF document and forms recipients with added assurances of its authenticity and integrity.
 
 To certify a document, you can use Acrobat DC on the desktop or AEM Forms Document Services as part of an automated process on a server.
 
-This tutorial explains the steps needed to automate the certification process using AEM Forms Document Services.
+This article provides you sample OSGI bundle to certify pdf documents using AEM Forms Document Services.The code used in the sample is [available here](https://helpx.adobe.com/experience-manager/6-4/forms/using/aem-document-services-programmatically.html)
+
+To certify documents using AEM Forms, the following steps need to be followed
 
 ## Adding certificate to trust store {#adding-certificate-to-trust-store}
 
 Please follow the steps mentioned below to add the certificate to keystore in AEM
 
-* [Login to AEM](http://localhost:4502/libs/granite/security/content/useradmin) as admin user
-* Search for admin user
-* Double click the admin user to open the user settings window
-* Click on Keystore tab
-* Click Create Keystore
-* Set the keystore access password. For this tutorial we have set the password to "password"
-* Expand the "Add Private Key from KeyStore file"
-* Provide the following properties as specified here
+* [Initialize global trust store](http://localhost:4502/libs/granite/security/content/truststore.html)
+* [Search for fd-service](http://localhost:4502/security/users.html) user
+* **You will have to scroll the results page to load all the users to find the fd-service user**
+* Double click the fd-service user to open the user settings window
+* Click on "Add Prviate Key from the keystore file".Specify the alias and password specific to your certificate
+![add-certificate](assets/adding-certificate-keystore.PNG)
+* Save your changes
 
-    * New Alias: certifypdf
-    * Select KeyStore File: upload the gbedekar.p12 file
-    * Keystore file password: password
-    * private key alias:gbedekar
-    * private key password:password
-    * click submit
+## Creating OSGI Service
 
-* Click Save and Close to save your changes
-
-## Deploying OSGI Bundle {#deploying-osgi-bundle}
-
-You can write your own OSGi bundle and use the AEM Forms Client SDK to certify the bundle. The steps to write your own OSGi bundle are as follows
+You can write your own OSGi bundle and use the AEM Forms Client SDK to implement a service to certify PDF documents. The following links would be useful to write your own OSGi bundle
 
 * [Creating your first OSGi bundle](https://helpx.adobe.com/experience-manager/using/maven_arch13.html)
 * [Use Document Service API](https://helpx.adobe.com/experience-manager/6-4/forms/using/aem-document-services-programmatically.html)
 
-Or you can use the sample bundle included as part of this tutorial assets. The assets are available at the bottom of this page.
+Or you can use the sample bundle included as part of this tutorial assets. 
+>[!NOTE]
+The sample bundle uses alias called "ares" to certify the documents. So please make sure your alias is called "ares" when using this bundle
 
-## Testing the sample using Postman {#testing-the-sample-using-postman}
+## Testing the sample on your local system
+* Download and install [Custom Document Services Bundle](https://forms.enablementadobe.com/content/DemoServerBundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)
+* Download and install [Developing with Service User Bundle](https://forms.enablementadobe.com/content/DemoServerBundles/DevelopingWithServiceUser.core-1.0-SNAPSHOT.jar)
+* [Make sure you have added the following entry in the Apache Sling Service User Mapper Service](http://localhost:4502/system/console/configMgr) 
+**DevelopingWithServiceUser.core:getformsresourceresolver=fd-service** as shown in the screenshot below
+![User-Mapper](assets/user-mapper-service.PNG)
+* [Import Sample Adaptive Form](assets/certify-pdf-af.zip)
+* [Import Client Lib and Custom Submit](assets/certify-document-assets.zip)
+* [Open the Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/certifypdf/jcr:content?wcmmode=disabled)
+* Upload PDF document that needs to be certified
+**optional** - Specify the signature field that you want to use in certifying the document
+* Click submit.
+* Certified PDF should be returned to you.
 
-Once you deploy the assets related to this tutorial, you are ready to make POST calls to the endpoint exposed by this tutorial. The easiest way is to use Postman chrome extension for testing REST API.
-
-The endpoint is http://localhost:4502/content/AemFormsSamples/certifypdf
-
-The REST endpoint takes 2 parameters
-
-* pdfFile - This is the document that you want to certify
-* saveLocation - This is the save location on the server where the certified pdf will be stored. Please make sure the directory in which you are storing exists. The sample code does not create the directory structure
-
-If you are running the sample on author instance, please provide the authentication parameters to AEM server. Typically these are admin/admin.
-
-Import this zip file using package manager
 

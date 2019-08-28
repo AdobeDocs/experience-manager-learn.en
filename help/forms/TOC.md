@@ -16,10 +16,10 @@ index: y
   + [Part5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
   + [Part6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
 + Handling Form Submissions {#handling-af-form-submissions}
-  + [Invoking AEM Workflow on Adaptive Form Submission](handling-form-submissions/invoking-aem-workflow-on-form-submission-article-use.md)
-  + [Displaying Thank You Page on Adaptive Form Submission](handling-form-submissions/submitting-adaptive-forms-thank-you-page-article-use.md)
-  + [Submitting Adaptive Form to External End point](handling-form-submissions/submitting-adaptive-forms-to-external-server-article-use.md)
-  + [Sending Email on Adaptive Form Submission](handling-form-submissions/sending-email-on-adaptive-form-submission.md)
+  + [Invoking AEM Workflow](handling-form-submissions/invoking-aem-workflow-on-form-submission-article-use.md)
+  + [Displaying Thank You Page](handling-form-submissions/submitting-adaptive-forms-thank-you-page-article-use.md)
+  + [Submitting to External End point](handling-form-submissions/submitting-adaptive-forms-to-external-server-article-use.md)
+  + [Sending Email](handling-form-submissions/sending-email-on-adaptive-form-submission.md)
   + [Configuring Adaptive Form to trigger AEM Workflow](handling-form-submissions/configure-af-to-trigger-aem-workflow.md)
 
 + Adaptive Forms {#adaptive-forms}
