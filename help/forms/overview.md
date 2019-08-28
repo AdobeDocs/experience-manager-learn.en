@@ -21,8 +21,8 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
     *Plot more than one series in the same chart.The multiple series charts are typically used in association with Line,Bar,Column chart type.*
 
 * **[Creating re-usable workflow models](./adaptive-forms/re-usable-aem-forms-workflow-models-article.md)**
-    <br/>
-    * Create workflow models not tied to a specific form
+    <br>
+    *Create workflow models not tied to a specific form
      
 ## Staff Picks
 
