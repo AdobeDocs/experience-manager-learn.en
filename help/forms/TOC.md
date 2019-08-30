@@ -102,6 +102,7 @@ index: y
   + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)
   + [Apply Usage Rights to PDF on XDP Rendition](document-services/rendering-and-reader-extending-xdp-templates-article.md)
   + [Apply Usage Rights to Uploaded PDF](document-services/apply-reader-extension-rights-to-pdf.md)
+  + [Certify Documents](document-services/certifying-documents-aem-forms-tutorial.md)
 + Interactive Communications for Print Channel {#ic-print-channel-tutorial}
   + [Introduction](ic-print-channel-tutorial/introduction.md)
   + [Set up Tomcat](ic-print-channel-tutorial/partone.md)
