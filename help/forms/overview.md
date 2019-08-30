@@ -22,7 +22,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 * **[Creating re-usable workflow models](./adaptive-forms/re-usable-aem-forms-workflow-models-article.md)**
     <br>
-    *Create workflow models not tied to a specific form
+    _Create workflow models not tied to a specific form_
      
 ## Staff Picks
 
@@ -72,6 +72,11 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 ## Additional Resources
 
-* [Generate Document Of Record Using API](adaptive-forms/document-of-record-api-tutorial-use.md)
-* [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
-* [Sending Email on Adaptive Form Submission](handling-form-submissions/sending-email-on-adaptive-form-submission.md)
+* [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+* [AEM Sites Authoring Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/user-guide.html)
+* [AEM Sites Developing Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html)
+* [AEM Sites Administering Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/user-guide.html)
+* [AEM Sites Deploying Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
+* [AEM Assets Tutorials](/help/assets/overview.md)
+* [AEM Forms Tutorials](/help/forms/overview.md)
+* [AEM Foundation Tutorials](/help/foundation/overview.md)
