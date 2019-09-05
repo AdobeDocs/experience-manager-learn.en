@@ -30,7 +30,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 <tr>
   <td>
     <a href="./creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.md">
-      <img alt="400 x 225px" src="./landingpage-images/afhero.png" />
+      <img alt="400 x 225px" src="./assets/afhero.png" />
     </a>
     <div>
       <a href="./creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.md">
@@ -43,7 +43,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
   </td>
    <td>
     <a href="./ic-print-channel-tutorial/introduction.md">
-      <img alt="400 x 225px" src="./landingpage-images/printchannel.png" />
+      <img alt="400 x 225px" src="./assets/printchannel.png" />
     </a>
     <div>
       <a href="./ic-print-channel-tutorial/introduction.md">
@@ -56,7 +56,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
   </td>
   <td>
     <a href="./adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md">
-      <img alt="400 x 225px" src="./landingpage-images/fdmlogo.png" />
+      <img alt="400 x 225px" src="./assets/fdmlogo.png" />
     </a>
     <div>
       <a href="./adaptive-forms/form-data-model-service-as-step-in-workflow-video-use.md">
