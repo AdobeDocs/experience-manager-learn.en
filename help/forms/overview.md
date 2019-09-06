@@ -43,7 +43,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
   </td>
    <td>
     <a href="./ic-print-channel-tutorial/introduction.md">
-      <img alt="400 x 225px" src="./assets/printchannel.png" />
+      <img alt="400 x 225px" src="./assets/correspondence-management1.png" />
     </a>
     <div>
       <a href="./ic-print-channel-tutorial/introduction.md">
