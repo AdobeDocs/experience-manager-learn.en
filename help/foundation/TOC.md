@@ -36,8 +36,8 @@ index: y
   + [Understand Cross-Origin Resource Sharing (CORS)](./security/understand-cross-origin-resource-sharing.md)
   + [Use the SSL Wizard](./security/use-the-ssl-wizard.md)
 + Workflow {#workflow}
+  + [Use the Workflow Editor](./workflow/use-the-workflow-editor.md)
   + [Develop for Task Management](./workflow/develop-for-task-management.md)
   + [Use the Calendar View with AEM Projects and Inbox](./workflow/use-the-calendar-view-with-aem-projects-and-inbox.md)
   + [Use the Inbox](./workflow/use-the-inbox.md)
-  + [Use the Workflow Editor](./workflow/use-the-workflow-editor.md)
   
