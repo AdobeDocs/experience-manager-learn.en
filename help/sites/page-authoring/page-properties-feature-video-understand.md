@@ -15,7 +15,7 @@ version: 6.3, 6.4, 6.5
 
 The following video introduces the page properties associated with a page in Adobe Experience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/28743/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/28743/?quality=12)
 
 In this video, the following page property elements are covered:
 
