@@ -13,7 +13,7 @@ version: 6.3, 6.4, 6.5
 
 # Creating a Page {#creating-page-aem-sites}
 
-The following video highlights how to create a site page using template editor, introduces page editor features, and shows how to manage a page in Adobe Experience Manager.
+The following video highlights how to create a site page based on a template, introduces page editor features, and shows how to manage a page in Adobe Experience Manager.
 
 >[!VIDEO](https://video.tv.adobe.com/v/28692/?quality=12)
 
