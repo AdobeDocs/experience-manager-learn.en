@@ -17,4 +17,4 @@ discoiquuid: 5e07ccac-0e94-4352-9848-d5ae9a293288
 
 AEM Assets' provides an option to visually compare an asset's saved version with its current version to understand how an asset has changed.
 
->[!VIDEO](https://video.tv.adobe.com/v/28691/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/28691/?quality=12)
