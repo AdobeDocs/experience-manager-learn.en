@@ -8,10 +8,12 @@ sub-product: sites
 + [Overview](overview.md)
 + Page Authoring {#page-authoring}
   + [Using the AEM UI](page-authoring/touch-ui-feature-video-use.md)
+  + [Creating a new Page](page-authoring/creating-page-feature-video-use.md)
   + [Using the Page Editor](page-authoring/page-editor-feature-video-use.md)
   + [Publishing pages](page-authoring/publication-management-feature-video-use.md)
+  + [Understanding Page Properties](page-authoring/page-properties-feature-video-understand.md)
   + [Understanding Responsive Layout](page-authoring/responsive-layout-feature-video-understand.md)
-  + [Using Using Editable Page Templates](page-authoring/template-editor-feature-video-use.md)
+  + [Using Editable Page Templates](page-authoring/template-editor-feature-video-use.md)
   + [Using the Style System](page-authoring/style-system-feature-video-use.md)
   + [Comparing page versions](page-authoring/page-diff-feature-video-use.md)
   + [Using Timewarp](page-authoring/timewarp-feature-video-use.md)

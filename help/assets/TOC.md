@@ -7,6 +7,8 @@ team: TM
 # AEM Assets Videos and Tutorials {#assets}
 
 + [Overview](overview.md)
++ Asset Authoring {#asset-authoring}
+  + [Using Asset Version Comparison](asset-authoring/asset-version-comparison-feature-video-use.md)
 + Collaboration {#collaboration}
   + [Using Annotations](collaboration/annotations-feature-video-use.md)
   + [Using Check-in/Check-out](collaboration/checkin-checkout-feature-video-use.md)
