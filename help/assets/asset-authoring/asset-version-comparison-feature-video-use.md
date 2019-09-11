@@ -13,7 +13,7 @@ uuid: e096a08b-528d-48c7-93fb-73b10c0a9259
 discoiquuid: 5e07ccac-0e94-4352-9848-d5ae9a293288
 ---
 
-# Using Asset Version Comparison with AEM Assets {#using-asset-version-comparison-aem-assets}
+# Using Asset Version Comparison {#using-asset-version-comparison-aem-assets}
 
 AEM Assets' provides an option to visually compare an asset's saved version with its current version to understand how an asset has changed.
 
