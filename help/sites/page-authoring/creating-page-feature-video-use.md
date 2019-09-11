@@ -19,7 +19,7 @@ The following video highlights how to create a site page using template editor, 
 
 In this video, the following capabilities or features are covered:
 
-* Creating a page using template editor
+* Creating a page based on a template
 * Introduces different authoring modes for a page
   * Edit
   * Layout
