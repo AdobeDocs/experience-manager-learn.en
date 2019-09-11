@@ -9,12 +9,13 @@ index: y
 
 + [Overview](overview.md)
 + Creating Your First Adaptive Form {#creating-your-first-adaptive-form}
-  + [Part1- Create Adaptive Form](creating-your-first-adaptive-form/part1.md)
-  + [Part2 - Configuring root panel and adding child panel](creating-your-first-adaptive-form/part2.md)
-  + [Part3 - Adding components to People panel](creating-your-first-adaptive-form/part3.md)
-  + [Part4 - Adding table to income panel](creating-your-first-adaptive-form/part4.md)
-  + [Part5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
-  + [Part6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
+  + [Introduction and Setup](creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.md)
+  + [Part 1- Create Adaptive Form](creating-your-first-adaptive-form/part1.md)
+  + [Part 2 - Configuring root panel and adding child panel](creating-your-first-adaptive-form/part2.md)
+  + [Part 3 - Adding components to People panel](creating-your-first-adaptive-form/part3.md)
+  + [Part 4 - Adding table to income panel](creating-your-first-adaptive-form/part4.md)
+  + [Part 5 - Configuring assets panel- Accordion Layout](creating-your-first-adaptive-form/part5.md)
+  + [Part 6 - Using custom functions and code editor](creating-your-first-adaptive-form/part6.md)
 + Handling Form Submissions {#handling-af-form-submissions}
   + [Invoking AEM Workflow](handling-form-submissions/invoking-aem-workflow-on-form-submission-article-use.md)
   + [Displaying Thank You Page](handling-form-submissions/submitting-adaptive-forms-thank-you-page-article-use.md)
