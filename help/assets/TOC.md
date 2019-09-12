@@ -28,8 +28,8 @@ team: TM
   + [Understanding Brand Portal with AEM Assets](brand-portal/brand-portal-article-understand.md)
   + [Using Brand Portal with AEM Assets](brand-portal/brand-portal-feature-video-use.md)
   + [Developing for Brand Portal with AEM Assets](brand-portal/brand-portal-technical-video-develop.md)
-  + [Set up Asset Share Commons on local AEM](brand-portal/asset-share-commons-feature-video-theming.md)
-  + [Introduction to Theming in Asset Share Commons](brand-portal/asset-share-commons-technical-video-setup.md)
+  + [Set up Asset Share Commons on local AEM](brand-portal/asset-share-commons-technical-video-setup.md)
+  + [Introduction to Theming in Asset Share Commons](brand-portal/asset-share-commons-feature-video-theming.md)
   + [Understanding the User Experience of Asset Share Commons](brand-portal/asset-share-commons-user-experience-feature-video-understand.md)
 + Creative Cloud Integration {creative-cloud}
   + [Using Adobe Asset Link](creative-cloud/adobe-asset-link-feature-video-use.md)
