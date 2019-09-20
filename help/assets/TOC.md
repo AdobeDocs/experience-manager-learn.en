@@ -36,7 +36,7 @@ team: TM
   + [Understanding Asset Link Authentication](creative-cloud/adobe-asset-link-authentication-article-understand.md)
   + [Using Adobe Stock](creative-cloud/stock-assets-feature-video-use.md)
   + [Configure Adobe Stock](creative-cloud/adobe-stock-aem-assets-technical-video-setup.md)
-  + [Using Desktop App](creative-cloud/aem-desktop-app-sync-status-technical-video-use.md)
+  + [Use AEM Desktop App](creative-cloud/use-aem-desktop-app.md)
 + Asset Template {#asset-template}
   + [Using Asset Templates](asset-template/asset-templates-feature-video-use.md)
   + [Set up Asset Templates](asset-template/asset-templates-technical-video-setup.md)
