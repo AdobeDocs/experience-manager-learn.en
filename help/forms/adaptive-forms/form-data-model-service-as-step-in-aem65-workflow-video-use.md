@@ -28,7 +28,8 @@ To test this capability on your server, follow the below instructions
 
 * Setup tomcat with SampleRest.war file as described [here](https://helpx.adobe.com/experience-manager/kt/forms/using/preparing-datasource-for-form-data-model-tutorial-use.html).The war file deployed in Tomcat has the code to return the applicant's credit score.The credit score is random number between 200 and 800
 
-* [Import the assets into AEM using package manager](assets/invokefdmasservicestep.zip).The package contains the following:
+* [ Import the assets into AEM using package manager](assets/aem65-loanapplication.zip)
+* The package contains the following:
 
   * Workflow model which uses FDM step.
   * Form Data Model that is used in the FDM step.

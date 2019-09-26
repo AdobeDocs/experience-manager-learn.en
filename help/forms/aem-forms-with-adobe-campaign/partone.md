@@ -166,9 +166,10 @@ public class CampaignServiceImpl implements CampaignService {
                 throw new IOException("Server returned error: " + response.getStatusLine().getReasonPhrase());
             }
             HttpEntity entity = response.getEntity();
-            org.json.JSONObject jo = new org.json.JSONObject(EntityUtils.toString(entity));
-            log.debug("Returning access_token "+jo.getString("access_token"));
-            return (String) jo.get("access_token");
+            JsonObject jo = new JsonParser().parse(EntityUtils.toString(entity)).getAsJsonObject();
+            log.debug("Returning access_token " + jo.get("access_token").getAsString());
+            return jo.get("access_token").getAsString();
+
 
         }
         catch (Exception e)
@@ -178,7 +179,7 @@ public class CampaignServiceImpl implements CampaignService {
   return null;
  }
  @Override
- public String createProfile(JSONObject profile) {
+ public String createProfile(JsonObject profile) {
   // TODO Auto-generated method stub
   String jwtToken = null;
   try {
@@ -218,10 +219,10 @@ public class CampaignServiceImpl implements CampaignService {
   HttpResponse result;
    try {
     result = httpClient.execute(server, postReq);
-    JSONObject responseJson = new JSONObject(EntityUtils.toString(result.getEntity()));
-    log.debug("The response on creating profile is "+responseJson.toString());
-
-          return responseJson.getString("PKey");
+    JsonObject responseJson = new JsonParser().parse(EntityUtils.toString(result.getEntity()))
+    .getAsJsonObject();
+    log.debug("The response on creating profile is " + responseJson.toString());
+    return responseJson.get("PKey").getAsString();
 
    } catch (ClientProtocolException e) {
     // TODO Auto-generated catch block
