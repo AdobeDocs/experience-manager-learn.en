@@ -48,18 +48,23 @@ Line 6 exports the xmlData from the PDF File
 
 [Download and install the package using the AEM package manager](assets/outputandformsservice.zip)
 
+
+
+
 **After you install the package you will have to whitelist the following URLs in Adobe Granite CSRF Filter.**
 
 1. Please follow the steps mentioned below to whitelist the paths mentioned above.
 1. [Login to configMgr](http://localhost:4502/system/console/configMgr)
 1. Search for Adobe Granite CSRF Filter
 1. Add the following 3 paths in the excluded sections and save
-1. /content/AemFormsSamples/  mergedata 
-1. /content/AemFormsSamples/  exportdata 
-1. /content/AemFormsSamples/  outputservice 
+1. /content/AemFormsSamples/mergedata 
+1. /content/AemFormsSamples/exportdata 
+1. /content/AemFormsSamples/outputservice 
 1. Search for "Sling Referrer filter"
 1. Check the "Allow Empty" check box. (This setting should be for testing purposes only)
-There are a number of ways to test the sample code. The quickest and easiest is to use Postman chrome plugin. Postman allows you to make POST requests to your server. Install Postman chrome plugin. Launch the plugin and enter the following URL to test the export data API
+There are a number of ways to test the sample code. The quickest and easiest is to use Postman app. Postman allows you to make POST requests to your server. Install Postman app on your system. 
+Launch the app and enter the following URL to test the export data API
+
 Make sure you have selected "POST" from the drop down list
 http://localhost:4502/content/AemFormsSamples/exportdata.html
 Make sure you specify "Authorization" as "Basic Auth". Specify the AEM Server username and password
@@ -95,3 +100,6 @@ The package contains 3 samples. The following paragraphs explains when to use th
 
     * pdffile : The pdf file that you want to export data from
     * saveLocation: The location to save the exported data on your file system
+
+[You could import this postman collection to test the API](assets/document-services-postman-collection.json)
+
