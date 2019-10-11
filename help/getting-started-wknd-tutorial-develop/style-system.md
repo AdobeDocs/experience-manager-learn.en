@@ -31,7 +31,7 @@ View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or 
 
 ## Article Template Planning {#component-planning}
 
-In this chapter we will use the [Style System feature](https://helpx.adobe.com/experience-manager/kt/sites/using/style-system-feature-video-use.html) and [Editable Templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html) to create a unified look and feel for the Article Template. To start, we will identify areas of the article mockup that will map to AEM components.
+In this chapter we will use the [Style System feature](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) and [Editable Templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html) to create a unified look and feel for the Article Template. To start, we will identify areas of the article mockup that will map to AEM components.
 
 ![component planning](assets/chapter-4/wknd-site-component-mappingv2.png)
 
@@ -50,7 +50,7 @@ The [Style System](https://helpx.adobe.com/experience-manager/6-3/release-notes/
 
 The general idea with the Style System is that authors can choose various styles of how a component should look. The "styles" are backed by additional CSS classes that are injected into the outer div of a component. In the client libraries CSS rules are added based on these style classes so that the component changes appearance.
 
-You can find [detailed documentation for Style System here.](https://helpx.adobe.com/experience-manager/6-3/release-notes/style-system-fp.html) There is also a great [video overview for using the Style System](https://helpx.adobe.com/experience-manager/kt/sites/using/style-system-feature-video-use.html).
+You can find [detailed documentation for Style System here.](https://helpx.adobe.com/experience-manager/6-3/release-notes/style-system-fp.html) There is also a great [video overview for using the Style System](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html).
 
 ## Title Component {#title-component}
 
@@ -555,7 +555,7 @@ We can use the Style System with the Layout Container to create a new, **fixed-w
 
 ## Content Fragment Component {#content-fragment}
 
-For the article body we will leverage [AEM Content Fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html). Content Fragments are de-coupled from the presentation layer and promote reuse of content across channels. The editorial UI of Content Fragments lends itself to working with large amounts of text. We will add a component to the WKND application to be able to reference Content Fragments into an article page. To view an [overview of Content Fragments click here.](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-feature-video-use.html)
+For the article body we will leverage [AEM Content Fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html). Content Fragments are de-coupled from the presentation layer and promote reuse of content across channels. The editorial UI of Content Fragments lends itself to working with large amounts of text. We will add a component to the WKND application to be able to reference Content Fragments into an article page. To view an [overview of Content Fragments click here.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html)
 
 >[!NOTE]
 >
