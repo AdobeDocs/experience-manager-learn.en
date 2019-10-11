@@ -32,7 +32,7 @@ The following is required:
     * [AEM 6.4.2+](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
 4. [Eclipse](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) or other IDE
 
-For more information see: [Set up a Local AEM Development Environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html).
+For more information see: [Set up a Local AEM Development Environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 ## Objective {#objective}
 
@@ -252,8 +252,8 @@ There are six areas to the project that was generated:
 
 * **Parent POM** - deploys maven modules and manages dependency versions
 * **core** - Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
-* **ui.apps** - contains the /apps parts of the project, ie JS&CSS clientlibs, components, runmode specific configs as well as Hobbes-tests
-* **ui.content** - contains structural content and configurations (/content, /conf)
+* **ui.apps** - contains the /apps parts of the project, ie JS&CSS clientlibs, components, and OSGi configs
+* **ui.content** - contains structural content and configurations like editable templates, metadata schemas (/content, /conf)
 * **ui.tests** - Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher** - contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
 
@@ -736,7 +736,7 @@ This tutorial will use the **Eclipse IDE** and the **AEM Developer tools** plugi
 
 >[!NOTE]
 >
-> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/local-aem-dev-environment-article-setup.html#setup-integrated-env).**
+> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html#set-up-an-integrated-development-environment).**
 
 ## Developer Workflow {#developer-workflow}
 
