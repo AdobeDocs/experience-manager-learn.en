@@ -54,6 +54,7 @@ team: TM
   + [Understanding Dynamic Media Viewer](dynamic-media/dynamic-media-viewer-feature-video-understand.md)
   + [Using Panoramic and Vertical Image Viewer](dynamic-media/panorama-vertical-image-viewer-feature-video-use.md)
   + [Using Dynamic Media Smart Crop](dynamic-media/smart-crop-feature-video-use.md)
+  + [Using Dynamic Media Viewers with Adobe Analytics](dynamic-media/dynamic-media-viewer-extension-use.md)
 + 3D {#3d}
   + [Using 3D with AEM Assets](3d/3d-assets-feature-video-use.md)
   + [Configuring 3D in AEM Assets](3d/3d-assets-technical-video-setup.md)
