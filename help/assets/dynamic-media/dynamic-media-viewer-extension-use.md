@@ -14,7 +14,7 @@ version: 6.3, 6.4, 6.5
 
 # Using Dynamic Media Viewers with Adobe Analytics and Adobe Launch{#using-dynamic-media-viewers-adobe-analytics-launch}
 
-For customers, who have Dynamic Media and Adobe Analytics, can now track usage of Dynamic Media Viewers on your website using the Dynamic Media Viewer Extension.
+For customers with Dynamic Media and Adobe Analytics, you can now track usage of Dynamic Media Viewers on your website using the Dynamic Media Viewer Extension.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29308/?quality=12)
 
