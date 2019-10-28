@@ -12,6 +12,10 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 
 ## What's New
 
+* **[Use Brand Portal Asset Sourcing (Video)](./brand-portal/brand-portal-feature-video-use.md#asset-sourcing)**
+    <br>
+    *Learn about how 3rd parties can upload assets to Brand Portal and sync them back to Experience Manager Author*
+
 * **[Using Adobe Asset Link (Video)](./creative-cloud/adobe-asset-link-feature-video-use.md)**
     <br>
     *Learn about how designers and creative users can collaborate using their favorite Adobe Creative Cloud desktop applications*

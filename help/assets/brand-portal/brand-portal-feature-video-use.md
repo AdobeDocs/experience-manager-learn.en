@@ -1,31 +1,44 @@
 ---
-title: Using Brand Portal with AEM Assets
+title: Using Brand Portal
 seo-title: Using Brand Portal with AEM Assets
-description: Walk throughs of the AEM Author and AEM Assets Brand Portal integration.
-seo-description: Walk throughs of the AEM Author and AEM Assets Brand Portal integration.
-uuid: d34a1073-8972-49bc-ae12-d3d77d5b6e02
-discoiquuid: 956ae2ae-b8af-4714-9300-8799bfc24a5f
-feature: asset-share, brand-portal
-topics: authoring, sharing, collaboration, search, integrations, publishing, metadata, images, renditions
+description: Video walk-throughs of the AEM Author and AEM Assets Brand Portal integration.
+seo-description: Video walk-throughs of the AEM Author and AEM Assets Brand Portal integration.
+feature: brand-portal
+topics: authoring, sharing, collaboration, search, integrations, publishing, metadata, images, renditions, administration
 audience: all
 doc-type: feature-video
 activity: use
 version: 6.3, 6.4, 6.5
+team: tm
 ---
 
 # Using Brand Portal with AEM Assets{#using-brand-portal-with-aem-assets}
 
-Walk throughs of the AEM Author and AEM Assets Brand Portal integration.
+Video guides of Adobe Experience Manager (AEM) Assets Brand Portal integration.
 
-## Brand Portal 6.4.4 features and enhancements {#brand-portal-features-and-enhancements-644}
+## Brand Portal September 2019 Feature and Enhancements
+
+Brand Portal's September 2019 most notably introduces Asset Sourcing, which increases content velocity and allows for easy and quick exchange of assets between Experience Manager authors and third-party creatives and contributors.
+
+### Brand Portal Asset Sourcing{#asset-sourcing}
+
+Brand Portal's Asset Sourcing is used to collect assets from third-party agencies and teams, seamlessly syncing them back to Experience Manager Author for review and use.
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+
+*Experience Manager Author 6.5 SP2 (6.5.2) or greater is required to use Asset Sourcing*
+
+Review [Enable Experience Manager Author for Asset Sourcing](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-asset-sourcing-in-aem/brand-portal-enable-asset-sourcing.html) for instructions on how to configure and set up Asset Sourcing on Experience Manager Author.
+
+## Brand Portal February 2019 Feature and Enhancements{#brand-portal-features-and-enhancements-644}
 
 >[!VIDEO](https://video.tv.adobe.com/v/26354/?quality=9)
 
-Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests.
+Brand Portal's February 2019 release focuses on enhancements to text search and top customer requests.
 
 ### Search enhancements
 
-Brand Portal 6.4.4 onwards supports partial text search on property predicate in filtering pane. To allow partial text search you need to enable Partial Search in Property Predicate in the search form.
+Brand Portal enhances search with partial text search on property predicate in filtering pane. To allow partial text search you need to enable Partial Search in Property Predicate in the search form.
 
 Read on to know more about partial text search and wildcard search.
 
@@ -60,7 +73,7 @@ Administrators can now configure how the folders are shown to non-admin users (E
 
 [Enable Folder Hierarchy](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-general-configuration.html) functionality (when enabled) helps you differentiate the folders with the same names shared from different hierarchies. On logging in, non-admin users now see the virtual parent (and ancestor) folders of the shared folders.
 
-The shared folders are organized within the respective directories in virtual folders. You can recognize these virtual folders with a lock icon. 
+The shared folders are organized within the respective directories in virtual folders. You can recognize these virtual folders with a lock icon.
 
 Note that the default thumbnail of the virtual folders is the thumbnail image of the first shared folder.
 
@@ -92,19 +105,19 @@ Similarly, published assets can be removed from the portal at a later date (time
 Organizations can get their portal URL customized, by having an alternate prefix in the URL. To get an alias for tenant name in their existing portal URL, organizations need to contact Adobe support.
 
 Note that only the prefix of the Brand Portal URL can be customized and not the entire URL.
-For example, an organization with existing domain geomettrix.brand-portal.adobe.com can get geomettrixinc.brand-portal.adobe.com created on request.
+For example, an organization with existing domain `wknd.brand-portal.adobe.com` can get `wkndinc.brand-portal.adobe.com` created on request.
 
 However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
 
 **Use case** : Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.
 
-## Brand Portal 6.4.2 features and enhancements {#brand-portal-features-and-enhancements-642}
+## Brand Portal December 2018 Feature and Enhancements{#brand-portal-features-and-enhancements-642}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23707/?quality=9)
 
 ### Guest Access
 
-AEM Brand portal allows guest access to the portal. A guest user doesn't require credentials to enter the portal and can access and download all the public folders and collections. Guest users can add assets to their lightbox (private collection) and download the same. They can also view smart tag search and search predicates set by administrators. The guest session does not allow users to create collections and saved searches or share them further, access folder and collections settings, and share assets as links.
+AEM Brand portal allows guest access to the portal. A guest user doesn't require credentials to enter the portal and can access and download all the public folders and collections. Guest users can add assets to their light-box (private collection) and download the same. They can also view smart tag search and search predicates set by administrators. The guest session does not allow users to create collections and saved searches or share them further, access folder and collections settings, and share assets as links.
 
 ### Accelerated Download
 
@@ -117,7 +130,7 @@ Brand Portal users can leverage Aspera based fast downloads to get speeds up to 
 
 A new report, to track user logins, has been introduced. The User Logins report can be instrumental in enabling organizations to audit and keep a check on the delegated administrators and other users of Brand Portal.
 
-The report logs display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generationAccess to Original Renditions
+The report logs display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user.
 
 ### Access to Original Renditions
 
@@ -141,12 +154,11 @@ Six new configurations are added for administrators to enable/disable following 
 
 ### Adobe I/O Hosts UI to configure oAuth Integrations
 
-Brand Portal 6.4.2 onwards uses Adobe I/O [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. Previously, the UI for configuring OAuth integrations was hosted in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
+Brand Portal uses Adobe I/O [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. Previously, the UI for configuring OAuth integrations was hosted in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
 
+## Brand Portal February 2018 Feature and Enhancements{#brand-portal-features-and-enhancements-632}
 
-## Brand Portal 6.3.2 features and enhancements {#brand-portal-features-and-enhancements-632}
-
-Brand Portal 6.3.1 includes new and enhanced functionality oriented toward aligning Brand Portal with AEM.
+New features enhanced functionality oriented toward aligning Brand Portal with AEM.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26354/?quality=9)
 
@@ -155,19 +167,19 @@ Brand Portal 6.3.1 includes new and enhanced functionality oriented toward align
 * Upgraded User Interface that aligns with the AEM and uses Coral3 UI.
 * Quick and easy access to administrative tools through the new Adobe logo.
 * Product navigation through an overlay
-* Quick Navigation to parent folders from a child folder. 
-* Omni search option to navigate to administrative tools and content. 
+* Quick Navigation to parent folders from a child folder.
+* Omnisearch option to navigate to administrative tools and content.
 * Card View, List view, and Column View help you to easily browse through nested folders.
 * Asset sorting in List View is no longer restricted to the number of assets being displayed on the screen. All assets in a folder are sorted.
 
 ### Search Improvements
 
-* Omni search capability lets you perform a quick search for assets and files within BP.
-* Omni search also provides an option to search for assets within a specific folder or location
+* Omnisearch capability lets you perform a quick search for assets and files within Brand Portal.
+* Omnisearch also provides an option to search for assets within a specific folder or location
 * Automatic keyword suggestions to make search easier
-* Improve your omni-search with additional filters. Option to save the search result into a Smart Collection for you to re-visit your search at a later time.
+* Improve your Omnisearch with additional filters. Option to save the search result into a Smart Collection for you to re-visit your search at a later time.
 * Supports smart tagged asset search
-* AEM Smart tagged assets can be shared from AEM to BP and use smart tags for asset search within BP.
+* AEM Smart tagged assets can be shared from AEM to Brand Portal and use smart tags for asset search within Brand Portal.
 
 ### File Sharing Improvements
 
@@ -178,21 +190,21 @@ Brand Portal 6.3.1 includes new and enhanced functionality oriented toward align
 
 ### Reporting and Administrative Capabilities
 
-* Metadata schema from AEM Assets can now be published from AEM to BP. 
+* Metadata schema from AEM Assets can now be published from AEM to Brand Portal.
 * Administrators can create and manage three types of reports—assets downloaded, expired, and published
-* Ability to configure the column that needs to be included in the report. 
-* Create Image Presets for assets within BP.
-* Ability to modify Admin Search Rail Form or Search Forms to include additional filtering options. 
+* Ability to configure the column that needs to be included in the report.
+* Create Image Presets for assets within Brand Portal.
+* Ability to modify Admin Search Rail Form or Search Forms to include additional filtering options.
 * Update and preview custom wallpaper for your brand
 * Usage report to know about the number of users, storage space used and total assets.
 
 ## Additional Resources{#additional-resources}
 
-* [What has changed in Brand Portal 6.3.1](https://helpx.adobe.com/experience-manager/brand-portal/using/whats-new.html#Whatchangedin631)
+* [What's new in in Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/using/whats-new.html)
 * [Setup Brand Portal with AEM Assets](brand-portal-technical-video-develop.md)
 * [AEM Author replication agents](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
-* [Download Aspera Connect](https://downloads.asperasoft.com/connect2/)
 * [Guide to Accelerated Download](https://helpx.adobe.com/experience-manager/brand-portal/using/accelerated-download.html#main-pars_header)
 * [AEM Assets Brand Portal Adobe Docs](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html)
 * [AEM Assets Dynamic Media Adobe Docs](https://docs.adobe.com/docs/en/aem/6-3/author/assets/dynamic-media.html)
+* [Download Aspera Connect](https://downloads.asperasoft.com/connect2/)
 * [Aspera Connect Test Server](https://test-connect.asperasoft.com/)
