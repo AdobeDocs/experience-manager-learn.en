@@ -62,9 +62,9 @@ With horizontal swatches, depending on the consumer’s desktop screen size, som
  </tbody>
 </table>
 
-[Configuring Dynamic Media in Scene7 mode](https://helpx.adobe.com/experience-manager/6-4/assets/using/config-dms7.html)
+[Configuring Dynamic Media in Scene7 mode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html)
 
-[Configuring Dynamic Media in Hybrid mode](https://helpx.adobe.com/experience-manager/6-4/assets/using/config-dynamic.html)
+[Configuring Dynamic Media in Hybrid mode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html)
 
 >[!NOTE]
 >

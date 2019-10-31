@@ -47,7 +47,7 @@ In this step, the Launch Integration will be configured in Adobe I/O and connect
 
 >[!NOTE]
 >
->The "Launch, By Adobe" integration in the Adobe I/O interface is now labeled "Experience Platform Launch API" and is located under the "Adobe Experience Platform" heading.
+>The Adobe Experience Platform Launch integration in the Adobe I/O interface is now labeled "Experience Platform Launch API" and is located under the "Adobe Experience Platform" heading.
 >
 >System Administrator rights in the Experience Cloud organization and AEM admin rights are required to configure the Adobe IO integration and set up the IMS Configuration.
 

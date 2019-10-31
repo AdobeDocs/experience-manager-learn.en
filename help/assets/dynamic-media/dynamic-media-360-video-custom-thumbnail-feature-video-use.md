@@ -102,4 +102,4 @@ Dynamic Media video now supports the ability to select a custom thumbnail for yo
 
 ## Additional Resources{#additional-resources}
 
-[Configuring Dynamic Media in Scene7 mode](https://helpx.adobe.com/experience-manager/6-4/assets/using/config-dms7.html)
+[Configuring Dynamic Media in Scene7 mode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html)

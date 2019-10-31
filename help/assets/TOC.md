@@ -69,4 +69,4 @@ team: TM
 + Analytics {analytics}
   + [Asset Reports](analytics/asset-reports-feature-video-use.md)
   + [Asset Insights with DTM](analytics/asset-insights-tutorial-setup.md)
-  + [Asset Insights with Launch, By Adobe](analytics/asset-insights-launch-tutorial-setup.md)
+  + [Asset Insights with Adobe Experience Platform Launch](analytics/asset-insights-launch-tutorial-setup.md)

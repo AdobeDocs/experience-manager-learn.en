@@ -1,6 +1,6 @@
 ---
-title: Set up Asset Insights with AEM Assets and Launch, By Adobe
-seo-title: Set up Asset Insights with AEM Assets and Launch, By Adobe
+title: Set up Asset Insights with AEM Assets and Launch
+seo-title: Set up Asset Insights with AEM Assets and Adobe Experience Platform Launch
 description: In this 5 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Launch By Adobe.
 seo-description: In this 5 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Launch By Adobe.
 uuid: 94742cd7-5dd3-4b0f-942c-3a27c17bd318
@@ -14,7 +14,7 @@ activity: implement
 version: 6.3, 6.4, 6.5
 ---
 
-# Set up Asset Insights with AEM Assets and Launch, By Adobe{#set-up-asset-insights-with-aem-assets-and-launch-by-adobe}
+# Set up Asset Insights with AEM Assets and Adobe Experience Platform Launch
 
 In this 5 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Launch By Adobe.
 
@@ -75,7 +75,7 @@ For AEM Assets Insights configuration you need the following credentials
 * Shared Secret (can be obtained from *Adobe Analytics &gt; Admin &gt; Company Settings &gt; Web Service*).
 * Report Suite (Make sure to select the right Report Suite that is used for Asset Reporting)
 
-## Part 4: Using Launch, By Adobe for adding Adobe Analytics extension {#part-using-launch-by-adobe-for-adding-adobe-analytics-extension}
+## Part 4: Using Adobe Experience Platform Launch for adding Adobe Analytics extension {#part-using-launch-by-adobe-for-adding-adobe-analytics-extension}
 
 Adding Adobe Analytics Extension, Creating Page Load rules and Integrating AEM with Launch with Adobe IMS technical account.
 
