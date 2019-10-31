@@ -12,8 +12,8 @@ AEM and Target are both powerful solutions with seemingly overlapping capabiliti
 In this tutorial, we cover three different scenarios for AEM and Target, which helps you understand what works best for your organization and how different teams collaborate.
 
 * Scenario 1 : Personalization using AEM Experience Fragments
-* Scenario 2 : Personalization of Full Web Page Experiences
-* Scenario 3 : Personalization using Visual Experience Composer
+* Scenario 2 : Personalization using Visual Experience Composer
+* Scenario 3 : Personalization of Full Web Page Experiences
 
 ## Personalization using AEM Experience Fragments {#personalization-using-aem-experience-fragment}
 
@@ -39,24 +39,6 @@ We now have personalized content in the form of Offers from AEM in Target. Targe
 
 ***After implementing the above integrations, lets explore the [scenario in detail](./personalization-use-case-1.md).***
 
-## Personalization of Full Web Page Experiences
-
-Integrating Adobe Experience Manager with Adobe Target helps you deliver a personalized experience to your site users. Additionally, it also helps you better understand what versions of your website content best improve your conversions during a specified test period. For example, an A/B test compares two or more versions of your website content to see which best lifts your conversions, sales, or other metrics you identify. A marketer can create activities within Adobe Target to understand how users interact with your site's content and how it affects your site metrics.
-
-* Content resides in AEM, and content editors create and manage the site pages
-* Target​ uses AEM hosted site pages to run tests and personalization
-* Target delivers personalized content
-* No net new content is created here
-* Applies to both AEM and non-AEM sites
-
-    ![diagram](assets/personalization-use-case-2/use-case-2-diagram.png)
-
-### To implement this scenario, you need to:
-
-* [Integrate AEM and Adobe Target using Launch and Adobe I/O](./implementation.md#integrating-aem-target-options)
-
-***After implementing the above integration, lets explore the [scenario in detail](./personalization-use-case-2.md)***
-
 ## Personalization using Visual Experience Composer
 
 Marketers can make quick changes on their website without changing any code to run a test using Adobe Target's Visual Experience Composer (VEC). The VEC is WYSIWYG (What you see is what you get) user interface that lets you easily create and test personalized experiences and Offers in the site context. You can create experiences and Offers for Target activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or Offer) or mobile web page.
@@ -76,3 +58,21 @@ VEC is one of the main features of Adobe Target. The VEC lets marketers and desi
 * [Integrate AEM and Adobe Target using Launch and Adobe I/O](./implementation.md#integrating-aem-target-options)
 
 ***After implementing the above integration, lets explore the [scenario in detail](./personalization-use-case-3.md)***
+
+## Personalization of Full Web Page Experiences
+
+Integrating Adobe Experience Manager with Adobe Target helps you deliver a personalized experience to your site users. Additionally, it also helps you better understand what versions of your website content best improve your conversions during a specified test period. For example, an A/B test compares two or more versions of your website content to see which best lifts your conversions, sales, or other metrics you identify. A marketer can create activities within Adobe Target to understand how users interact with your site's content and how it affects your site metrics.
+
+* Content resides in AEM, and content editors create and manage the site pages
+* Target​ uses AEM hosted site pages to run tests and personalization
+* Target delivers personalized content
+* No net new content is created here
+* Applies to both AEM and non-AEM sites
+
+    ![diagram](assets/personalization-use-case-2/use-case-2-diagram.png)
+
+### To implement this scenario, you need to:
+
+* [Integrate AEM and Adobe Target using Launch and Adobe I/O](./implementation.md#integrating-aem-target-options)
+
+***After implementing the above integration, lets explore the [scenario in detail](./personalization-use-case-2.md)***
