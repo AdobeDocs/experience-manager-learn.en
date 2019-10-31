@@ -63,4 +63,4 @@ Adobe Stock and AEM Assets integration allow content authors and marketers to ea
 
 * [Enterprise Stock Plan](https://landing.adobe.com/en/na/products/creative-cloud/ctir-4625-stock-for-enterprise/index.html)
 * [AEM 6.4 Service Pack 2 Release notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
-* [Integrate AEM and Adobe Stock](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-assets-adobe-stock.html#IntegrateAEMandAdobeStock)
+* [Integrate AEM and Adobe Stock](https://helpx.adobe.com/experience-manager/6-5/assets/using/aem-assets-adobe-stock.html#IntegrateAEMandAdobeStock)

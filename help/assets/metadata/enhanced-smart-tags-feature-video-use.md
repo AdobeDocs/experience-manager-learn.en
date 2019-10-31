@@ -26,6 +26,6 @@ Smart Tags allows for training the Smart Tags Algorithm with a customer-specific
 ## Steps to use Enhanced Smart Tags service:
 
 * [Onboarding](https://helpx.adobe.com/experience-manager/6-4/assets/using/configure-custom-smart-tags.html) - Configuring your AEM Smart Tags Cloud Services 
-* [Reviewing assets and tags (taxonomy definition)](https://helpx.adobe.com/experience-manager/6-4/assets/using/smart-tags-training-guidelines.html) - Identifying the assets that need to be tagged manually for Smart Tags Training
+* [Reviewing assets and tags (taxonomy definition)](https://helpx.adobe.com/experience-manager/6-5/assets/using/smart-tags-training-guidelines.html) - Identifying the assets that need to be tagged manually for Smart Tags Training
 * [Training the Enhanced Smart Tags service](https://helpx.adobe.com/experience-manager/6-4/assets/using/enhanced-smart-tags.html#TrainingtheEnhancedSmartTagsservice) - Running Smart Tag Training workflows on identified assets to train Smart Tags.
-* [Automatic tagging](https://helpx.adobe.com/experience-manager/6-4/assets/using/enhanced-smart-tags.html#Taggingassetsautomatically) - Running workflows to automatically tag assets with appropriate enhanced Smart Tags and general Smart Tags.
+* [Automatic tagging](https://helpx.adobe.com/experience-manager/6-5/assets/using/enhanced-smart-tags.html#Taggingassetsautomatically) - Running workflows to automatically tag assets with appropriate enhanced Smart Tags and general Smart Tags.

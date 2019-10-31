@@ -19,7 +19,7 @@ Assigning AEM Forms workflow task to the submitter's manager.
 
 When using Adaptive Form in AEM workflow, you would want to dynamically assign a task to the form submitter's manager. To accomplish this use case, we will have to configure AEM with Ldap.
 
-The steps needed to configure AEM with LDAP are explained in [detail here.](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/ldap-config.html)
+The steps needed to configure AEM with LDAP are explained in [detail here.](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/ldap-config.html)
 
 For the purpose of this article, I am attaching configuration files used in configuring AEM with Adobe Ldap. These files are included in the package which can be imported using the package manager.
 

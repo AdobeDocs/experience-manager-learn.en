@@ -99,4 +99,10 @@ Balance jpeg image quality against the resulting file size (in kilobytes) to enh
 
 >[!VIDEO](https://video.tv.adobe.com/v/28074/?quality=9)
 
-Easily add Closed Captioning to Dynamic Media video by appending the Copy URL to point to an additional Closed Captioning file document, a web .VTT sidecar file, containing the CC info for any video.
+Easily add Closed Captioning to Dynamic Media video by appending the Copy URL to point to an additional Closed Captioning file document, a web.VTT sidecar file, containing the CC info for any video.
+
+## Using Image Sharpening with AEM Dynamic Media
+
+This video covers why sharpening an image is critical to maintaining image fidelity and how to use advanced settings to craft the perfect image.
+
+>[!VIDEO](https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/VideoViewer.html?asset=%2Fcontent%2Fdam%2Fdm-public-facing-upgrade-portal-video%2F04_DynamicImagery_AdvancedSettings_071917_BH.mp4&config=/etc/dam/presets/viewer/Video_social&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&posterimage=/content/dam/dm-public-facing-upgrade-portal-video/04_DynamicImagery_AdvancedSettings_071917_BH.mp4)

@@ -60,6 +60,6 @@ Both Closed User Groups (CUG) and Access Control Lists (ACL) are used to control
 
 ## Supporting Links {#supporting-links}
 
-* [Managing Assets and Closed User Groups](https://helpx.adobe.com/experience-manager/6-4/assets/using/managing-assets-touch-ui.html#ClosedUserGroup)
-* [Creating a Closed User Group](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/cug.html)
+* [Managing Assets and Closed User Groups](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#ClosedUserGroup)
+* [Creating a Closed User Group](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/cug.html)
 * [Oak Closed User Group Documentation](https://jackrabbit.apache.org/oak/docs/security/authorization/cug.html)

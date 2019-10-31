@@ -21,7 +21,7 @@ In this 3 part video series, we walk through the setup and configuration of Asse
 >
 >The below videos are recorded using AEM 6.3. The setup for Asset Insights with AEM 6.4 are largely the same. These differences between AEM 6.3 and 6.4 are called out in the surrounding text below.
 
-Below are a series of videos to set up Asset Insights with DTM. A written version of the steps can be found here: [Enabling Asset Insights through DTM](https://helpx.adobe.com/experience-manager/6-4/assets/using/touch-ui-using-dtm-for-asset-insights.html)
+Below are a series of videos to set up Asset Insights with DTM. A written version of the steps can be found here: [Enabling Asset Insights through DTM](https://helpx.adobe.com/experience-manager/6-5/assets/using/touch-ui-using-dtm-for-asset-insights.html)
 
 ## Part 1: Overview and Configuration of Analytics and DTM {#configure-analytics-dtm}
 

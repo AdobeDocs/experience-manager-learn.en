@@ -96,7 +96,7 @@ Dynamic Media Video encodes can be downloaded from:
 
 ### Scheduled publish to Brand Portal
 
-Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) Author instance to Brand Portal can be scheduled for a later date, time.
+Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html#main-pars_header_9658011) Author instance to Brand Portal can be scheduled for a later date, time.
 
 Similarly, published assets can be removed from the portal at a later date (time), by scheduling the Unpublish from Brand Portal workflow.
 
@@ -107,7 +107,7 @@ Organizations can get their portal URL customized, by having an alternate prefix
 Note that only the prefix of the Brand Portal URL can be customized and not the entire URL.
 For example, an organization with existing domain `wknd.brand-portal.adobe.com` can get `wkndinc.brand-portal.adobe.com` created on request.
 
-However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
+However, AEM Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
 
 **Use case** : Organizations can meet their branding needs by getting the portal URL customized, instead of sticking to the URL provided by Adobe.
 
