@@ -88,7 +88,7 @@ For this exercise, the following users need to be involved and to perform some t
 
     ![Experience Cloud- Adobe Target](assets/personalization-use-case-1/audience-target-1.png)
 
-7. Click **Add Rule > Geo**
+7. Click **Add Rule > Geo**.
 8. Click **Select**, then select one of the following options:
     * Country
     * **State** *(Select State for WKND Site SkateFest Campaign)*
@@ -121,7 +121,7 @@ At this point, we have successfully created audiences for all WKND Site visitors
 
 1. From your Adobe Target window, navigate to **Activities** tab.
 2. Click **Create Activity** and select the **Experience Targeting** activity type.
-3. Select the **Web** channel and choose the **Visual Experience Composer**
+3. Select the **Web** channel and choose the **Visual Experience Composer**.
 4. Enter the **Activity URL** and click **Next** to open the Visual Experience Composer.
 
     WKND Site Home Page Publish URL: http://localhost:4503/content/wknd/en.html

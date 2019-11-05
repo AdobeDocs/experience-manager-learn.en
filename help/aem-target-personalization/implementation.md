@@ -9,7 +9,7 @@ seo-description: An article covering how to set up Adobe Experience Manager with
 
 In this section, we will discuss how to set up Adobe Experience Manager with Adobe Target for different scenarios. Based on your scenario and organizational requirements.
 
-* **Add Adobe Target's JavaScript Library (required for all scenarios)**
+* **Add Adobe Target JavaScript Library (required for all scenarios)**
     For sites hosted on AEM, you can add Target libraries to your site using, [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). Launch provides a simple way to deploy and manage all tags necessary to power relevant customer experiences.
 * **Add the Adobe Target Cloud Services (required for the Experience Fragments scenario)**
     For AEM customers, who would like to use Experience Fragment offers to create an activity within Adobe Target, you will need to integrate Adobe Target with AEM using the Legacy Cloud Services. This integration is required to push Experience Fragments from AEM to Target as HTML/JSON offers and to keep the offers in sync with AEM. *This integration is required for implementing scenario 1.*
@@ -46,7 +46,7 @@ AEM author and publish instance is necessary to complete this tutorial. We have 
 
 #### Set up AEM Author and Publish Instances
 
-1. Get a copy of the [AEM Quickstart Jar and a license](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingtheSoftware)
+1. Get a copy of the [AEM Quickstart Jar and a license.](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingtheSoftware)
 2. Create a folder structure on your computer like the following:
     ![Folder Structure](assets/implementation/aem-setup-1.png)
 3. Rename the Quickstart jar to `aem-author-p4502.jar` and place it beneath the `/author` directory. Add the `license.properties` file beneath the `/author` directory.
@@ -54,12 +54,12 @@ AEM author and publish instance is necessary to complete this tutorial. We have 
 4. Make a copy of the Quickstart jar, rename it to `aem-publish-p4503.jar` and place it beneath the `/publish` directory. Add a copy of the `license.properties` file beneath the `/publish` directory.
     ![AEM Publish Instance](assets/implementation/aem-setup-publish.png)
 5. Double click the `aem-author-p4502.jar` file to install the Author instance. This will start the author instance, running on port 4502 on the local computer.
-6. Sign In using the credentials below, and upon successful login, you will be directed to the AEM Home Page Screen
+6. Sign In using the credentials below, and upon successful login, you will be directed to the AEM Home Page Screen.
    username : **admin**
    password : **admin**
     ![AEM Publish Instance](assets/implementation/aem-author-home-page.png)
 7. Double click the `aem-publish-p4503.jar` file to install a publish instance. You can notice a new tab open up in your browser for your publish instance, running on port 4503 and displaying the WeRetail home page. We will be using the WKND reference site for this tutorial and let's install the packages on author instance.
-8. Navigate to AEM Author in your web browser at `http://localhost:4502`. On the AEM Start screen, navigate to *[Tools > Deployment > Packages](http://localhost:4502/crx/packmgr/index.jsp)*
+8. Navigate to AEM Author in your web browser at `http://localhost:4502`. On the AEM Start screen, navigate to *[Tools > Deployment > Packages](http://localhost:4502/crx/packmgr/index.jsp)*.
 9. Download and Upload the packages for AEM (listed above under *[Prerequisites > AEM](#aem)*)
     * [aem-guides-wknd.ui.apps-0.0.1-SNAPSHOT.zip](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/aem-guides-wknd.ui.apps-0.0.1-SNAPSHOT.zip)
     * [aem-guides-wknd.ui.content-0.0.1-SNAPSHOT.zip](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/aem-guides-wknd.ui.content-0.0.1-SNAPSHOT.zip)

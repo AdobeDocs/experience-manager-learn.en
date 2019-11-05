@@ -1,8 +1,8 @@
 ---
-title: Personalization using Adobe Target's Visual Experience Composer
-seo-title: Personalization using Adobe Target's Visual Experience Composer (VEC)
-description: An end-to-end tutorial showing how to create and deliver personalized experience using Adobe Target's Visual Experience Composer (VEC).
-seo-description: An end-to-end tutorial showing how to create and deliver personalized experience using Adobe Target's Visual Experience Composer (VEC).
+title: Personalization using Adobe Target Visual Experience Composer
+seo-title: Personalization using Adobe Target Visual Experience Composer (VEC)
+description: An end-to-end tutorial showing how to create and deliver personalized experience using Adobe Target Visual Experience Composer (VEC).
+seo-description: An end-to-end tutorial showing how to create and deliver personalized experience using Adobe Target Visual Experience Composer (VEC).
 ---
 
 # Personalization using Visual Experience Composer
@@ -27,7 +27,7 @@ For this exercise, the following users need to be involved and to perform some t
 ### Prerequisites
 
 * **AEM**
-  * [AEM publish instance](./implementation.md#getting-aem) running on 4503.
+  * [AEM publish instance](./implementation.md#getting-aem) running on 4503
   * [AEM integrated with Adobe Target using Adobe Experience Platform Launch](./using-launch-adobe-io.md#aem-target-using-launch-by-adobe)
 * **Experience Cloud**
   * Access to your organizations Adobe Experience Cloud - <https://>`<yourcompany>`.experiencecloud.adobe.com
@@ -39,14 +39,14 @@ For this exercise, the following users need to be involved and to perform some t
    1. From your Adobe Target window, navigate to **Activities** tab.
    2. Click **Create Activity** button and select the activity type as **A/B Test**
     ![Adobe Target - Create Activity](assets/personalization-use-case-2/create-ab-activity.png)
-   3. Select the **Web** channel and choose the **Visual Experience Composer**
+   3. Select the **Web** channel and choose the **Visual Experience Composer**.
    4. Enter the **Activity URL** and Click **Next** to open the Visual Experience Composer.
     ![Adobe Target - Create Activity](assets/personalization-use-case-2/create-activity-ab-name.png)
    5. For **Visual Experience Composer** to load, enable **Allow Load Unsafe scripts** on your browser and reload your page.
     ![Experience Targeting Activity](assets/personalization-use-case-1/load-unsafe-scripts.png)
    6. Notice the WKND Site home page open in Visual Experience Composer editor.
     ![VEC](assets/personalization-use-case-2/vec.png)
-   7. **Experience A** provides the default WKND Home Page, and let's edit the content layout for **Experience B**
+   7. **Experience A** provides the default WKND Home Page, and let's edit the content layout for **Experience B**.
     ![Experience B](assets/personalization-use-case-3/use-case3-experience-b.png)
    8. Click on one of the card layout container (*Best Roasters*) and select **Rearrange** option.
     ![Container Selection](assets/personalization-use-case-3/container-selection.png)
@@ -68,7 +68,7 @@ For this exercise, the following users need to be involved and to perform some t
    13. Click **Next** to continue with your activity.
    14. Select the **Traffic Allocation Method** as manual and allot 100% traffic to **Experience B**.
     ![Experience B Traffic](assets/personalization-use-case-2/traffic.png)
-   15. Click **Next**
+   15. Click **Next**.
    16. Provide **Goal Metrics** for your Activity and Save and Close your A/B Test.
     ![A/B Test Goal Metric](assets/personalization-use-case-2/goal-metric.png)
    17. Provide a name (**WKND Home Page Refresh**) for your Activity and save your changes.

@@ -76,7 +76,7 @@ A property is a container that you fill with extensions, rules, data elements, a
 
 #### Adding Target Extension
 
-The Adobe Target extension supports client-side implementations using Target's JavaScript SDK for the modern web, `at.js`. Customers still using Target's older library, `mbox.js`, [should upgrade to at.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html) to use Launch.
+The Adobe Target extension supports client-side implementations using Target JavaScript SDK for the modern web, `at.js`. Customers still using Target older library, `mbox.js`, [should upgrade to at.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html) to use Launch.
 
 The Target extension consists of two main parts:
 
@@ -89,7 +89,7 @@ The Target extension consists of two main parts:
 
 1. Under **Extensions**, you can see the list of Extensions that are already installed for your Launch property. ([Experience Platform Launch Core Extension](https://exchange.adobe.com/experiencecloud.details.100223.adobe-launch-core-extension.html) is installed by default)
 2. Click on the **Extension Catalog** option, and search for Target in the filter.
-3. Select the latest version of Adobe Target's at.js and Click on **Install** option.
+3. Select the latest version of Adobe Target at.js and Click on **Install** option.
     ![Launch -New Property](assets/using-launch-adobe-io/launch-target-extension.png)
 
 4. Click on **Configure** button, and you can notice the configuration window with your Target account credentials imported, and the at.js version for this extension.
