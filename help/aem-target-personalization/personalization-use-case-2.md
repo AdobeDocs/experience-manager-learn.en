@@ -48,7 +48,7 @@ For this exercise, the following users need to be involved and to perform some t
    1. From your Adobe Target window, navigate to **Activities** tab.
    2. Click **Create Activity** button and select the activity type as **A/B Test**
     ![Adobe Target - Create Activity](assets/personalization-use-case-2/create-ab-activity.png)
-   3. Select the **Web** channel and choose the **Visual Experience Composer**
+   3. Select the **Web** channel and choose the **Visual Experience Composer**.
    4. Enter the **Activity URL** and Click **Next** to open the Visual Experience Composer.
     ![Adobe Target - Create Activity](assets/personalization-use-case-2/create-activity-ab-name.png)
    5. For **Visual Experience Composer** to load, enable **Allow Load Unsafe scripts** on your browser and reload your page.
@@ -62,7 +62,7 @@ For this exercise, the following users need to be involved and to perform some t
    9. **Save** your changes and continue with the next steps of Activity Creation.
    10. Select the **Traffic Allocation Method** as manual and allot 100% traffic to **Experience B**.
     ![Experience B Traffic](assets/personalization-use-case-2/traffic.png)
-   11. Click **Next**
+   11. Click **Next**.
    12. Provide **Goal Metrics** for your Activity and Save and Close your A/B Test.
     ![A/B Test Goal Metric](assets/personalization-use-case-2/goal-metric.png)
    13. Provide a name (**WKND Home Page Redesign**) for your Activity and save your changes.
@@ -73,4 +73,4 @@ For this exercise, the following users need to be involved and to perform some t
 
 ## Summary
 
-In this chapter, a marketer was able to create an activity to redirect your site pages that are hosted on AEM to a new page using Adobe Target
+In this chapter, a marketer was able to create an activity to redirect your site pages that are hosted on AEM to a new page using Adobe Target.
