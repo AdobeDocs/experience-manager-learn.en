@@ -71,6 +71,12 @@ index: y
   + [Document Variables](variables-aem-workflow/part3.md)
   + [ArrayList Variable](variables-aem-workflow/part4.md)
   + [Rule Editor in AEM Workflow](variables-aem-workflow/part5.md)
++ Triggering AEM Workflow from Mobile Form submission{#offline-mobile-form-submission}
+  + [Introduction](offline-mobile-form-submission/introduction.md)
+  + [Custom Profile](offline-mobile-form-submission/part-one.md)
+  + [Handle PDF Submission](offline-mobile-form-submission/part-two.md)
+  + [Workflow to Review PDF](offline-mobile-form-submission/part-three.md)
+  + [Deploy on your system](offline-mobile-form-submission/part-four.md)
 + Querying Submitted Data{#querying-submitted-data}
   + [Introduction](querying-submitted-data/introduction.md)
   + [Creating Form based on JSON Schema](querying-submitted-data/part1.md)
