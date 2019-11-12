@@ -32,3 +32,5 @@ To get this use case working on your local system, following these steps:
 * [Check the AEM Inbox](http://localhost:4502/aem/inbox)
 * You should have workitem to review the submitted PDF
 
+>[!NOTE]Instead of submitting the PDF to servlet running on publish instance, some customers have deployed the servlet in servlet container such as Tomcat. It all depends on the topology the customer is comfortable with.for the purpose of this tutorial we are going to use the servlet deployed on publish instance for handling the pdf submissions. 
+
