@@ -12,7 +12,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 ## What's New
 
-* **[Variables in AEM Workflow](./variables-aem-workflow/introduction.md)**
+* **[Handling Error Messages in Invoke Form Data Model Service Step](./adaptive-forms/handling-error-messages-in-invoke-fdm-step.md)**
     <br>
     *A variable in a workflow model is a way to store a value based on its data type*
 
