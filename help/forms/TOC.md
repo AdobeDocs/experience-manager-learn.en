@@ -72,6 +72,14 @@ index: y
   + [Document Variables](variables-aem-workflow/part3.md)
   + [ArrayList Variable](variables-aem-workflow/part4.md)
   + [Rule Editor in AEM Workflow](variables-aem-workflow/part5.md)
++ Storing and Retrieving Form Data in MySQL DB{#storing-and-retrieving-form-data}
+   + [Introduction](storing-retrieving-form-data/introduction.md)
+   + [Configure Data Source](storing-retrieving-form-data/part1.md)
+   + [Servlet to store data](storing-retrieving-form-data/part2.md)
+   + [Service to fetch data](storing-retrieving-form-data/part3.md)
+   + [Client Library](storing-retrieving-form-data/part4.md)
+   + [Adaptive Form Template](storing-retrieving-form-data/part5.md)
+   + [Deploy sample assets](storing-retrieving-form-data/part6.md)
 + Triggering AEM Workflow from Mobile Form submission{#offline-mobile-form-submission}
   + [Introduction](offline-mobile-form-submission/introduction.md)
   + [Custom Profile](offline-mobile-form-submission/part-one.md)
