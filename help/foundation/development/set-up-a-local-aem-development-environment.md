@@ -12,11 +12,9 @@ uuid: 33eadaf6-55a4-48d9-b529-da6a820d2338
 discoiquuid: 89c640cb-3620-4b7f-a296-c990b55abc99
 ---
 
-# Set up a Local AEM Development Environment
+# Set up a Local AEM Development Environment 
 
 Guide to setting up a local development for Adobe Experience Manager, AEM. Covers important topics of local installation, Apache Maven, integrated development environments and debugging/troubleshooting. Development with **Eclipse IDE, CRXDE-Lite, Visual Studio Code and IntelliJ** are discussed.
-
-**30 minute read, 1-hour setup**
 
 ## Overview
 
@@ -35,25 +33,25 @@ If you are new to AEM, there are two basic run modes can be installed: ***Author
 
 It is also *critical* test code against a local ***Publish*** instance. The ***Publish*** instance is the AEM environment that visitors to your website will interact with. While the ***Publish*** instance is the same technology stack as the ***Author*** instance, there are some major distinctions with configurations and permissions. Code should *always* be tested against a local ***Publish*** instance before being promoted to higher level environments.
 
-### TL;DR
+### Steps
 
 1. Ensure [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) is installed.
     * Prefer [Java JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/index.html#JDK11) for AEM 6.5+
     * Prefer [Java JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/index.html#JDK8) for AEM versions prior to AEM 6.5
-1. Get a copy of the [AEM Quickstart Jar and a license.properties](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingtheSoftware).
-1. Create a folder structure on your computer like the following:
+2. Get a copy of the [AEM Quickstart Jar and a license.properties](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingtheSoftware).
+3. Create a folder structure on your computer like the following:
 
-   ```
-   /aem-instances
+   ```plain
+   ~/aem-sdk
        /author
        /publish
    ```
 
-1. Rename the Quickstart jar to ***aem-author-p4502.jar*** and place it beneath the `/author` directory. Add the ***license.properties*** file beneath the `/author` directory.
-1. Make a copy of the Quickstart jar, rename it to ***aem-publish-p4503.jar*** and place it beneath the `/publish` directory. Add a copy of the ***license.properties*** file beneath the `/publish` directory.
+4. Rename the Quickstart jar to ***aem-author-p4502.jar*** and place it beneath the `/author` directory. Add the ***license.properties*** file beneath the `/author` directory.
+5. Make a copy of the Quickstart jar, rename it to ***aem-publish-p4503.jar*** and place it beneath the `/publish` directory. Add a copy of the ***license.properties*** file beneath the `/publish` directory.
 
-   ```
-   /aem-instances
+   ```plain
+   ~/aem-sdk
        /author
            + aem-author-p4502.jar
            + license.properties
@@ -62,7 +60,7 @@ It is also *critical* test code against a local ***Publish*** instance. The ***P
            + license.properties
    ```
 
-1. Double+click the ***aem-author-p4502.jar*** file to install the **Author** instance. This will start the author instance, running on port **4502** on the local computer.
+6. Double+click the ***aem-author-p4502.jar*** file to install the **Author** instance. This will start the author instance, running on port **4502** on the local computer.
 
    Double+click the ***aem-publish-p4503.jar*** file to install the **Publish** instance. This will start the Publish instance, running on port **4503** on the local computer.
 
@@ -70,7 +68,7 @@ It is also *critical* test code against a local ***Publish*** instance. The ***P
    >
    >Depending on your local hardware it may be difficult to have both an **Author and Publish** instance running at the same time. Rarely do you need to run both simultaneously on a local setup.
 
-   For more information see [Deploying and Maintaining an AEM instance](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/deploy.html).
+   For more information see [Deploying and Maintaining an AEM instance](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html).
 
 ## Install Apache Maven
 
@@ -82,24 +80,107 @@ All AEM projects should be built off the **AEM Project Archetype**: [https://git
 >
 >When starting a new project it is a best practice to use the latest version of the archetype. Keep in mind that there are multiple versions of the archetype and not all versions are compatible with earlier versions of AEM.
 
-### TL;DR
+### Steps
 
 1. Download [Apache Maven](https://maven.apache.org/download.cgi)
-1. Install **[Apache Maven](https://maven.apache.org/install.html)** and ensure that the installation has been added to your *PATH*.
+2. Install **[Apache Maven](https://maven.apache.org/install.html)** and ensure that the installation has been added to your command-line `PATH`.
     * macOS users can install Maven using [Homebrew](https://brew.sh/)
-1. Verify that **Maven** is installed by opening a new command line terminal and executing the following:
+3. Verify that **Maven** is installed by opening a new command line terminal and executing the following:
 
    ```shell
+
    $ mvn --version
-   
    Apache Maven 3.3.9
    Maven home: /Library/apache-maven-3.3.9
    Java version: 1.8.0_111, vendor: Oracle Corporation
    Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre
    Default locale: en_US, platform encoding: UTF-8
+
    ```
 
-1. Update or create a ***settings.xml*** file beneath your `~/.m2` directory and add the **adobe-public** profile. The profile XML can be found on [repo.adobe.com](https://repo.adobe.com/).
+4. Add the **adobe-public** profile to your Maven [settings.xml](https://maven.apache.org/settings.html) file in order to automatically add **repo.adobe.com** to the maven build process.
+
+5. Create a file named `settings.xml` at `~/.m2/settings.xml` if it doesn't exist already.
+
+6. Add the **adobe-public** profile to the `settings.xml` file based on [the instructions here](https://repo.adobe.com/).
+
+   A sample `settings.xml` is listed below. *Note, the naming convention of `settings.xml` and the placement beneath the user's .m2 directory is important.*
+
+   ```xml
+   <settings xmlns="https://maven.apache.org/SETTINGS/1.0.0"
+     xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="https://maven.apache.org/SETTINGS/1.0.0
+                         https://maven.apache.org/xsd/settings-1.0.0.xsd">
+   <profiles>
+    <!-- ====================================================== -->
+    <!-- A D O B E   P U B L I C   P R O F I L E                -->
+    <!-- ====================================================== -->
+        <profile>
+            <id>adobe-public</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <releaseRepository-Id>adobe-public-releases</releaseRepository-Id>
+                <releaseRepository-Name>Adobe Public Releases</releaseRepository-Name>
+                <releaseRepository-URL>https://repo.adobe.com/nexus/content/groups/public</releaseRepository-URL>
+            </properties>
+            <repositories>
+                <repository>
+                    <id>adobe-public-releases</id>
+                    <name>Adobe Public Repository</name>
+                    <url>https://repo.adobe.com/nexus/content/groups/public</url>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>never</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>adobe-public-releases</id>
+                    <name>Adobe Public Repository</name>
+                    <url>https://repo.adobe.com/nexus/content/groups/public</url>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>never</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+   </profiles>
+    <activeProfiles>
+        <activeProfile>adobe-public</activeProfile>
+    </activeProfiles>
+   </settings>
+   ```
+
+7. Verify that the **adobe-public** profile is active by running the following command:
+
+    ```shell
+    $ mvn help:effective-settings
+    ...
+    <activeProfiles>
+        <activeProfile>adobe-public</activeProfile>
+    </activeProfiles>
+    <pluginGroups>
+        <pluginGroup>org.apache.maven.plugins</pluginGroup>
+        <pluginGroup>org.codehaus.mojo</pluginGroup>
+    </pluginGroups>
+    </settings>
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESS
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Total time:  0.856 s
+    ```
+
+    If you do not see the **adobe-public** it is an indication that the Adobe repo is not properly referenced in your `~/.m2/settings.xml` file. Please revisit the earlier steps and verify that the settings.xml file references the Adobe repo.
 
 ## Set Up an Integrated Development Environment
 
