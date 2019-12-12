@@ -102,15 +102,13 @@ protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse 
 
 To get this capability working on your AEM Server
 
-* Download the [AssembleMultipleFiles.zip](assets/assemblemultiplefiles.zip).
+* Download the [AssembleMultipleFiles.zip](assets/assemble-multiple-files.zip).
 * Upload and install using the package manager
 * Download and install [Custom Document Services Bundle](https://forms.enablementadobe.com/content/DemoServerBundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)
 * Download and install [Developing with Service User Bundle](https://forms.enablementadobe.com/content/DemoServerBundles/DevelopingWithServiceUser.core-1.0-SNAPSHOT.jar)
 * Deploy and start the bundle using the [felix web console](http://localhost:4502/system/console/bundles)
 * Point your browser to [AssemblePdfs.html](http://localhost:4502/content/DocumentServices/AssemblePdfs.html)
 * Drag and Drop a couple of files of PDF files
-* **The assembled files will be saved by default to c:\aemformsdemos**
-* **The save location is defined in /etc/clientlibs/AEMFormsDemos/assemblemultiplefiles/js/assemblepdfs.js file**
 
 >[!NOTE]
 >
@@ -124,9 +122,7 @@ To get this capability working on your AEM Server
 >
 > * Make sure you drag and drop PDF files only
 >
-> * To [change the save location of the assembled file](http://localhost:4502/crx/de/index.jsp#/etc/clientlibs/AEMFormsDemos/assemblemultiplefiles/js/assemblepdfs.js)
 >
-> * Change the saveLocation on line 9
 
 
 
