@@ -1,328 +1,304 @@
 ---
-title: Getting Started with AEM Sites Chapter 2 - Pages and Templates
-seo-title: Getting Started with AEM Sites Chapter 2 - Pages and Templates
-description: Understand the relationship between a base page component and editable templates. Understand how Core Components are proxied into a project. Two different templates are created. Core Components of Text, Image, and Title are used to author an initial page.
-seo-description: Understand the relationship between a base page component and editable templates. Understand how Core Components are proxied into a project. Two different templates are created. Core Components of Text, Image, and Title are used to author an initial page.
-uuid: 6a7e43fc-faf6-4e9c-95ee-09ec0d23956a
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 00822ac4-842f-4b36-a142-5da73303e094
-targetaudience: target-audience new
+title: Getting Started with AEM Sites - Pages and Templates
+seo-title: Getting Started with AEM Sites - Pages and Templates
+description: Learn about the relationship between a base page component and editable templates. Understand how Core Components are proxied into the project and learn advanced policy configurations of editable templates to build out a well-structured Article Page template based on a mockup from Adobe XD.
+sub-product: sites
+feature: template-editor, core-components
+topics: development
+version: cloud-service
+doc-type: tutorial
+activity: develop
+audience: developer
 mini-toc-levels: 1
 index: y
 ---
 
-# Chapter 2 - Pages and Templates {#creating-a-base-page-and-template}
+# Pages and Templates {#pages-and-template}
 
-Understand the relationship between a base page component and editable templates. Understand how Core Components are proxied into a project. Two different templates are created. Core Components of Text, Image, and Title are used to author an initial page.
+In this chapter we will explore the relationship between a base page component and editable templates. We will build out an un-styled Article template based on some mockups from [AdobeXD](https://www.adobe.com/products/xd.html). In the process of building out the template, Core Components and advanced policy configurations of the Editable Templates are covered.
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 2 of the multi-part tutorial. **[Chapter 1 can be found here](project-setup.md)** and an [overview can be found here](overview.md).
+Review the required tooling and instructions for setting up a [local development environment](overview.md#local-dev-environment).
 
-View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
+### Starter Project
 
->[!NOTE]
->
-> Note you will need Eclipse or an IDE setup. In this chapter and in the following chapter the Eclipse IDE with AEM Developer tool plugin will be used. **Follow the instructions here [to set up an integrated development environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html#set-up-an-integrated-development-environment).**
+Check out the base-line code the tutorial builds on:
+
+1. Clone the [github.com/adobe/aem-guides-wknd](https://github.com/adobe/aem-guides-wknd) repository.
+2. Check out the `pages-templates/start` branch
+
+   ```shell
+   $ git clone git@github.com:adobe/aem-guides-wknd.git ~/code/aem-guides-wknd
+   $ cd ~/code/aem-guides-wknd
+   $ git checkout pages-templates/start
+   ```
+
+3. Deploy code base to a local AEM instance using your Maven skills:
+
+   ```shell
+   $ cd ~/code/aem-guides-wknd
+   $ mvn clean install -PautoInstallSinglePackage
+   ```
+
+You can always view the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd/tree/pages-templates/solution) or check the code out locally by switching to the branch `pages-templates/solution`.
 
 ## Objective
 
-1. Understand the underlying code that generates a page in AEM.
-2. Add a custom Header to extend the page component.
-3. Learn how to leverage Editable Templates.
+1. Inspect a page design created in Adobe XD and map it to Core Components.
+2. Understand the details of Editable Templates and how policies can be used to enforce granular control of page content.
+3. Learn how Templates and Pages are linked 
 
-## Inspect Base Page Component {#base-page}
+## What you will build {#what-you-will-build}
 
-The archetype has created a **component** to be used as a base for all Pages created. The base page is responsible for ensuring that global areas of the site are consistent. This includes loading of global CSS and Javascript, as well as the inclusion of code that will ensure the page can be edited using AEM authoring tools.
+In this part of the tutorial, you will build a new Article Page Template that can be used to create new article pages and aligns with a common structure. The Article Page Template will be based on designs and a UI Kit produced in AdobeXD. This chapter is only focused on building out the structure or skeleton of the template. No styles will be implemented but the template and pages will be functional.
 
-In Eclipse (or in the IDE of your choice) you will be viewing nodes beneath `/apps/wknd` in the **ui.apps** project.
+   ![Article Page Design and un-styled version](assets/pages-templates/what-you-will-build.png)
 
-1. View the folder beneath `/apps/wknd/components/structure` named **page**.
+## UI Planning with Adobe XD {#adobexd}
 
-   The AEM project archetype creates a component named **page**. [Editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) will be used for the WKND site. The name **structure** matches a specific mode of Editable template and is the common convention when using Editable templates. Any component added into the structure folder indicates that the component is meant to be used when constructing a template, and not to be used when authoring a page.
+In most cases, planning for a new website starts with mockups and static designs. [Adobe XD](https://www.adobe.com/products/xd.html) is a design tool building user experiences. Next we will inspect a UI Kit and mockups to help plan the structure of the Article Page Template.
 
-   ![asset base page](assets/chapter-2/base-page.png)
+>[!VIDEO](https://video.tv.adobe.com/v/30214/?quality=12)
 
-2. View the properties of the **page** component:
+Download the [WKND Article Design File](assets/pages-templates/wknd-article-design.xd).
 
-   ![page component properties](assets/chapter-2/base-pageprops.png)
+## Create a Header and Footer with Experience Fragments {#experience-fragments}
 
-   |Name|Value|Description|
-   |--- |--- |--- |
-   |componentGroup|.hidden|indicates that this is not an author-able component|
-   |jcr:title|WKND Site Page|title|
-   |sling:resourceSuperType|core/wcm/components/page/v2/page|will inherit functionality from the Core Page component|
-   |jcr:primaryType|cq:Component|primary node type (read-only)|
+A common practice when creating global content, such as a header or footer, is to use an [Experience Fragment](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html). Experience Fragments, allow us to combine multiple components to create a single, reference-able, component. Experience Fragments have the advantage of supporting multi-site management and allows us to manage different headers/footers per locale.
 
-   The **sling:resourceSuperType** property is critical in that it allows the WKND's page component to inherit all of the functionality of the Core Component page component. This is the first example of something called the [Proxy Component Pattern](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/guidelines.html#ProxyComponentPattern). More information can be found [here.](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/guidelines.html)
+Next  we will update the Experience Fragment intended to be used as the Header and Footer to add the WKND logo.
 
-## Create Header Component {#header-nav}
+>[!VIDEO](https://video.tv.adobe.com/v/30215/?quality=12)
 
-Next a Header component will be created to be integrated into the Base page. The goal is just to establish a basic structure, so the code will be minimal. In later tutorials this component will be built in full.
+>[!NOTE]
+>
+> Does your Experience Fragments look different then in the video? Try deleting them and re-installing the starter project code base.
 
-1. Create a node named **header** with node type of **cq:Component** beneath `/apps/wknd/components/structure`:
+Below are the high level steps performed in the above video.
 
-   ![create header component](assets/chapter-2/header-cmp.gif)
+1. Update the Experience Fragment Header located at [http://localhost:4502/editor.html/content/experience-fragments/wknd/us/en/site/header/master.html](http://localhost:4502/editor.html/content/experience-fragments/wknd/us/en/site/header/master.html) to include the WKND Dark logo.
 
-2. You may see an error like the following: ***Unable to validate node types since project aem-guides-wknd.ui.apps is not associated with a server or the server is not started***.
+   ![WKND Dark Logo](assets/pages-templates/wknd-logo-dk.png)
 
-   ![unable to validate node type error](assets/chapter-2/unable-validate-error.png)
+   *WKND Dark logo*
 
-   Double check and ensure that the **aem-guides-wknd.ui.apps** project is associated with an AEM eclipse server and that the server is started.
+2. Update the Experience Fragment Header located [http://localhost:4502/editor.html/content/experience-fragments/wknd/us/en/site/footer/master.html](http://localhost:4502/editor.html/content/experience-fragments/wknd/us/en/site/footer/master.html) to include the WKND Light logo.
 
-   If you continue to encounter the error:
+   ![WKND Light Logo](assets/pages-templates/wknd-logo-light.png)
 
-    1. Right+Click the **aem-guides-wknd.ui.apps** project in the **Project explorer**
-    2. Open **Properties** `->` **Project Facets**
-    3. Uncheck **Dynamic Web Module**
+   *WKND Light logo*
 
-   This should resolve the error and you should then get a drop down of node types when creating new nodes.
+## Create the Article Page Template
 
-   ![uncheck Dynamic Web Module](assets/chapter-2/uncheck-dynamic-web-module.png)
+When creating a page you must select a template, which will be used as the basis for creating the new page. The template defines the structure of the resultant page, initial content, and allowed components.
 
-   Also ensure that the content sync root directory beneath the AEM tab is pointed to the jcr_root folder:
-
-   ![jcr sync folder](assets/chapter-2/jcr-sync-folder.png)
-
-3. Update the **header** component with additional JCR properties. Select the **header** component and then Right+Click in the JCR Properties panel to add new properties.
-
-   Add the following properties to the header component.
-
-   |Name|Type|Value|Tutorial Description (don't copy, info only)|
-   |--- |--- |--- |--- |
-   |componentGroup|String|WKND.Structure|All components meant for the structure of Templates will use this group.|
-   |jcr:description|String|Page Header with navigation|description of component|
-   |jcr:title|String|WKND Page Header|title|
-   |jcr:primaryType|Name|cq:Component|primary node type|
-
-    ![header properties](assets/chapter-2/header-props.png)
-
-   >[!NOTE]
-   >
-   >**Pro Tip!**
-   >
-   >
-   >You can Double+Click the component in the Project Explorer and edit the XML configuration directly. This is preferable when many edits must be made, but it can be error prone.
-
-   ```xml
-
-   <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-    jcr:primaryType="cq:Component"
-    componentGroup="WKND.Structure"
-    jcr:description="Page Header with navigation"
-    jcr:title="WKND Page Header"/>
-
-   ```
-
-4. Add a node named **cq:dialog** of type **nt:unstructured** beneath the **header** component:
-
-   ![create node named cq:dialog](assets/chapter-2/create-dialog-node.png)
-
-   ![cq:dialog created](assets/chapter-2/cq-dialog-created.png)
-
-   Dialogs are the mechanism that allows content authors to update properties/logic of a component through a UI dialog. The full dialog and fields will be defined in later parts of the tutorial. In order to support baseline author functionality at a minimum a dialog placeholder is needed.
-
-5. Add a **file** named **header.html** beneath the **header** component
-
-   ![header.html file](assets/chapter-2/header-html-file.png)
-
-   This file is is actually an [HTL](https://docs.adobe.com/docs/en/htl/docs/getting-started.html) script. There are a set of [global objects](https://docs.adobe.com/docs/en/htl/docs/global-objects.html) that are always available to HTL scripts within a component. **currentPage** represents the current content page. Using the dot notation .title a method named .getTitle() is called. This will print the current page's title. Conditional logic can be used to print out 'header' if the page title can't be found. The name of the file **header**.html is important for Sling resource resolution, as it matches the name of the component. More information about Sling resource resolution can be found [here](https://sling.apache.org/documentation/the-sling-engine/url-to-script-resolution.html).
-
-   Add the following contents to the header.html file:
-
-   ```html
-
-   <!--/* Header Component for WKND Site */-->
-   <header class="wknd-header">
-    <div class="container">
-     <a class="wknd-header-logo" href="#">WKND</a>
-     <h1>${currentPage.title ? currentPage.title : 'header'}</h1>
-    </div>
-   </header>
-
-   ```
-
-6. Its a good idea to periodically publish to AEM to verify/test your code changes. With Eclipse AEM dev tools you can publish the **ui.apps** project from within Eclipse.
-
-   You can also always publish using Maven. It is a good idea deploy using Maven as well since this will ultimately be how you deploy to a Dev/Production environment and Maven will also run through unit tests and other code style checks prior to installing.
-
-   ```shell
-   $ cd ui.apps
-   $ mvn -PautoInstallPackage -Padobe-public clean install
-   [INFO] ------------------------------------------------------------------------
-   [INFO] BUILD SUCCESS
-   [INFO] ------------------------------------------------------------------------
-   [INFO] Total time: 8.391 s
-   [INFO] Finished at: 2019-03-19T12:00:47-07:00
-   [INFO] Final Memory: 38M/568M
-   [INFO] ------------------------------------------------------------------------
-
-   ```
-
-7. View the **header** node in CRXDE Lite after deploying code changes
-
-   In [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp) verify that the header component has been pushed to your local AEM instance.
-
-   ![page in CRXDE Lite](assets/chapter-2/crx-de.png)
-
-## Inspect Proxy Components {#proxy-components}
-
-AEM [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) provide several basic building blocks for creating content. This includes Text, Image and Title and several other components. The AEM project archetype includes these in the WKND project automatically. 
-
-Each component added has a **sling:resourceSuperType** property to point to the Core Component. This is known as [creating proxy components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/using.html#create-proxy-components) and is the recommended way of using Core Components in your project.
-
-1. Notice that several Core Components have already been included in the project in the **ui.apps** module beneath `/apps/wknd/components/content`. 
-
-   Each component included will have a **sling:resourceSuperType** property that points to the equivalent Core Component. The exception is the **helloworld** component which is a sample component.
-
-   ![Breadcrumb Component](assets/chapter-2/breadcrumb-component.png)
-
-   *Breadcrumb Component for creating navigation breadcrumbs.*
-
-   Notice the property **componentGroup** that is set to **WKND.Content**. **componentGroup** will be used by a template policy to determine if the component can be added to a page. More on this later in the chapter.
-
-2. View the node beneath the `/components/content/image` component named **cq:editConfig** with a type of **cq:EditConfig**.
-
-   The **cq:editConfig** defines various behavior including Drag+Drop functionality from the Asset Finder in the Sites Editor. It is a required configuration for the Image component.
-
-   Notice the `cq:dropTargets/image/parameters` node. This tells AEM what component resource type to use when dragging an Image on to the page. If you are extending the Image component for custom component it will be important to update the **cq:editConfig**.
-
-   ![image edit config](assets/chapter-2/image-edit-config.png)
-
-3. Core Components also include a set of components for building HTML forms. These components are also proxied into the project, like the components under `/content`. Notice also that these components have a unique componentGroup.
-
-   ![button component](assets/chapter-2/button-component.png)
-
-   *Button form component*
-
-## Update Empty Page Template Type {#template-type}
-
-[Template Types](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateType) are effectively a template for a template. They are necessary in order to take advantage of AEM's Editable Template feature. Templates and Template Types are stored beneath **/conf**. The AEM project archetype creates a template type to get started with. Nodes in **/conf** can be updated in AEM directly via the UI. Thus any template related nodes are stored in the **ui.content** project.
-
-There are 3 main areas of Editable Templates:
+There are 3 main areas of [Editable Templates](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.htm):
 
 1. **Structure** - defines components that are a part of the template. These will not be editable by content authors.
 2. **Initial Content** - defines components that the template will start with, these can be edited and/or deleted by content authors
 3. **Policies** - defines configurations on how components will behave and what options authors will have available.
 
-   Since Template Types can be thought of as a template of a template you will find the same structure for the template type. Examples of template type structures can be found beneath: **/libs/settings/wcm/template-types/**.
+The next thing we will do is create the Article Page Template. This will occur in a local instance of AEM.
 
-The AEM Project archetype creates an Empty Page Template Type to start with. We will update a few areas of the **Empty Page Template Type** in the **ui.content** module.
+>[!VIDEO](https://video.tv.adobe.com/v/30217/?quality=12)
 
-1. In the **ui.content** module view the **Empty Page Template Type** under: `/conf/wknd/settings/wcm/template-types/empty-page`.
+Below are the high level steps performed in the above video.
 
-2. Expand the **structure** node and select the **jcr:content** node.
+1. Navigate to the WKND Sites Template folder:
 
-   Note on the **jcr:content** node that the **sling:resourceType** points to the base page component (viewed earlier in the **ui.apps** module).
+   **Tools** &gt; **General** &gt; **Templates** &gt; **WKND Site**
 
-   ![empty page jcr:content properties](assets/chapter-2/empty-page-template-props.png)
+2. Create a new template using the **WKND Site Empty Page** Template Type with a title of **Article Page Template**
 
-3. Beneath `/conf/wknd/settings/wcm/template-types/empty-page/structure/jcr:content/cq:responsive/breakpoints` are nodes for Tablet and Phone breakpoints. These breakpoints will be used in conjunction with AEM's Responsive Grid feature in the next chapter. The default Tablet breakpoint is **1200**.
+3. In **Structure** mode, configure the template to include the following elements:
 
-4. Update the Phone breakpoint from **650** to **768**:
+   * Experience Fragment Header
+   * Image
+   * Breadcrumb
+   * Container - 8 columns wide Desktop, 12 columns wide Tablet, Mobile
+   * Container - 4 columns wide, 12 columns wide Tablet, Mobile
+   * Experience Fragment Footer
 
-   ![updated phone breakpoint](assets/chapter-2/phone-breakpoint.png)
+   ![Structure mode Article Page Template](assets/pages-templates/article-page-template-structure.png)
 
-5. Inspect the **jcr:content** node beneath `template-types/empty-page/initial`. Notice that the **jcr:content** node beneath the **initial** page also points back to the base page component inspected earlier.
+   *Structure - Article Page Template*
 
-   ![initial sling resource type](assets/chapter-2/template-initial-content.png)
+4. Switch to **Initial Content** mode and add the following components as starter content:
 
-6. Inspect the nodes beneath `template-types/empty-page/policies`. The policies node defines how policies will be mapped to various components. This structure is standard across template types and not unique to the wknd's empty page template type.
+   * **Main Container**
+      * Title - default size of H1
+      * Title - *"By Author Name"* with a size of H4
+      * Text - empty
+   * **Side Container**
+      * Title - *"Share this Story"* with a size of H5
+      * Social Media Sharing
+      * Separator
+      * Download
+      * List
 
-7. **(Optional)** Add a thumbnail for the Empty Page Template Type.
+   ![Initial content mode Article Page Template](assets/pages-templates/article-page-template-initialcontent.png)
 
-   Thumbnails are great! This thumbnail will show up for users in the AEM author environment in order to easily identify the Template Type. Recommended dimensions are 460 x 460.
+   *Initial Content - Article Page Template*
 
-   ![Sample thumbnail to use](assets/chapter-2/empty-page-thumbnail.png)
+5. Update the **Initial Page Properties** to enable user sharing for both **Facebook** and **Pinterest**.
+6. Upload an image to the **Article Page Template's** properties in order to easily identify it:
 
-   1. Create a file named **thumbnail.png** (or save the above image and rename to **thumbnail.png**).
-   2. Add the **thumbnail.png** file beneath `/conf/wknd/settings/wcm/template-types/empty-page`:
+   ![Article Page Template Thumbnail](assets/pages-templates/article-page-template-thumbnail.png)
 
-      ![thumbnail location](assets/chapter-2/template-thumbnail-location.png)
+   *Article Page Template Thumbnail*
 
-   3. Deploy the **ui.content** module to your local AEM instance using AEM Dev tools or your Maven skills.
+7. Enable the **Article Page Template's** in the [WKND Site Templates folder](http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd/settings/wcm/templates).
 
-8. The next part of the tutorial will take place within AEM.
+## Create an Article Page
 
-## Create Article and Landing Page Templates {#article-template}
+Now that we have a template, let's create a new page using that template.
 
-The AEM project archetype pre-created a sample Content Template. The next few steps will detail creating 2 new templates:
+1. Download the following zip package, [WKND-PagesTemplates-DAM-Assets.zip](assets/pages-templates/WKND-PagesTemplates-DAM-Assets.zip) and install it via [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp).
 
-1. **Article Page Template**
-2. **Landing Page Template**
+   The above package will install several images and assets beneath `/content/dam/wknd/en/magazine/la-skateparks` to be used to populate an article page in later steps.
 
-This will take place in AEM. The short video below details the steps.
+   *Images and assets in the above package are license free courtesy of [Unsplash.com](https://unsplash.com/).*
 
->[!NOTE]
->
-> Note the role of creating a template being done as a development task. However once the implementation reaches a level of maturity, additional templates may be created by a select group of "power-users".
+   ![Sample DAM Assets](assets/pages-templates/sample-assets-la-skatepark.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27307?quality=9)
+2. Create a new page, beneath **WKND** &gt; **US** &gt; **en**, named **Magazine**. Use the **Content Page** Template.
 
-Landing Page Template Thumbnail
+   This page will add some structure to our site and allow us to see the Breadcrumb component in action.
 
-![landing page template thumbnail](assets/chapter-2/landing-page-thumbnail.png)
+3. Next create a new page, beneath  **WKND** &gt; **US** &gt; **en** &gt; **Magazine**. Use the **Article Page** template. Use a title of **Ultimate guide to LA Skateparks** and a name of **guide-la-skateparks**.
 
-### High-level instructions
+   ![Initially created article page](assets/pages-templates/create-article-page-nocontent.png)
 
-Use the above video to complete the following tasks:
+4. Populate the page with content in order to match the mockups inspected in [UI Planning with AdobeXD](#adobexd) portion. Sample article text can be [downloaded here](assets/pages-templates/la-skateparks-copy.txt). You should be able to create something similar to this:
 
-1. **Create Article Page Template and Landing Page Template**
+   ![Populated article page](assets/pages-templates/article-page-unstyled.png)
 
-   Each of these templates include a fixed **Header** component and an unlocked Layout Container. The Layout Container is configured with the following allowed components:
+   >[!NOTE]
+   >
+   > The Image component at the top the page can be edited but not removed. The breadcrumb component appears on the page but cannot be edited or removed.
 
-    * **Breadcrumb**
-    * **Image**
-    * **List**
-    * **Text**
-    * **Title**
-    * **Layout Container**
+## Inspect the node structure {#node-structure}
 
-   Reuse the Layout Container Policy from the Article Page Template on the Landing Page Template.
+At this point the article page is clearly un-styled. However the basic structure is in place. Next we will look at the node structure of the article page in order to gain a better understanding of the role of the template and page component's responsible for rendering the content.
 
-   ![article and landing page templates](assets/chapter-2/templates.png)
+We can do this using the CRXDE-Lite tool on a local AEM instance.
 
-2. **Create the Home Page**
+1. Open [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/content/wknd/us/en/magazine/guide-la-skateparks/jcr%3Acontent) and use the tree navigation to navigate to `/content/wknd/us/en/magazine/guide-la-skateparks`.
 
-   The Home page should be created at `/content/wknd/en` (or the language locale of your choice). It should be created using the **Landing Page Template**.
+2. Click on the `jcr:content` node beneath the `la-skateparks` page and view the properties:
 
-   ![home page site admin](assets/chapter-2/home-page-siteadmin.png)
+   ![JCR Content properties](assets/pages-templates/jcr-content-properties-CRXDELite.png)
 
-3. The First Article page should be created beneath the Home Page at `/content/wknd/en/first-article`. It should be created using the **Article Page Template**.
+   Notice the value for `cq:template`, which points to `/conf/wknd/settings/wcm/templates/article-page`, the Article Page Template we created earlier.
 
-   ![site admin first article](assets/chapter-2/first-article-siteadmin.png)
+   Also notice the value of `sling:resourceType`, which points to `wknd/components/structure/page`. This is the page component created by the AEM project archetype and is responsible for rendering page based on the template.
 
-4. In order to re-deploy these templates to other environments it is possible to make them part of source control. Use the Eclipse Dev Tools, as outlined in the video, to import the templates created in AEM into the **ui.content** module.
+3. Expand the `jcr:content` node beneath `/content/wknd/us/en/magazine/guide-la-skateparks/jcr:content` and view the node hierarchy:
 
-   ![eclipse import template](assets/chapter-2/eclipseimport-template.png)
+   ![JCR Content LA Skateparks](assets/pages-templates/page-jcr-structure.png)
 
-## Inspect Content Root {#content-root}
+   You should be able to loosely map each of the nodes to components that were authored. See if you can identify the different Layout Containers used by inspecting the nodes prefixed with `responsivegrid`.
 
-The AEM project archetype created a content root for the WKND site automatically at **/content/wknd**. The content root defines the allowed templates for the site and is used to set other global configurations. By convention the content root is not intended to be the Home page for the site and instead will redirect to the true home page. It is a good idea to understand the properties on the content root.
+4. Next inspect the page component at `/apps/wknd/components/structure/page`. View the component properties in CRXDE Lite:
 
-1. View the following properties on the **jcr:content** node at `/content/wknd/jcr:content`:
+   ![Page Component properties](assets/pages-templates/page-component-properties.png)
 
-|Name  |Type  |Value  |Description|
-|---   |---   |---    |---        |
-|cq:allowedTemplates | String[] | `/conf/wknd/settings/wcm/templates/.*` | Will allow any templates created under the WKND folder to be used |
-|jcr:title | String | Wknd Site | Title |
-| jcr:primaryType | Name | *cq:pageContent* | Primary node type |
-| redirectTarget | String | `/content/wknd/en` | Redirect target |
-| sling:redirectStatus | Long | 302 | HTTP Status code |
-| sling:resourceType | String | `foundation/components/redirect` | Use foundation component for redirect |
+   Note that the page component is beneath a folder named **structure**. This is a convention that corresponds to the Template Editor structure mode and is used to indicate that the page component is not something authors will interact with directly.
 
-   As you can see some of the properties such as **allowedTemplates** on the Content Root are critical to the behavior of the site. In many implementations root configurations such as this are saved into SCM to provide some baseline content structure. In other cases offline content packages are created and provide a similar role.
+   Note that there are only 2 HTL scripts, `customfooterlibs.html` and `customheaderlibs.html` beneath the page component. So how does this component render the page?
 
-1. Using Eclipse Dev Tools, in the **ui.content module** Right + Click `/content/wknd` page and [!UICONTROL **Import from server...**].
+   Note the `sling:resourceSuperType` property and the value of `core/wcm/components/page/v2/page`. This property allows the WKND's page component to inherit all of the functionality of the Core Component page component. This is the first example of something called the [Proxy Component Pattern](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/guidelines.html#ProxyComponentPattern). More information can be found [here.](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/guidelines.html).
 
-   ![eclipse import content](assets/chapter-2/eclipse-import-content.png)
+5. Inspect another component within the WKND components, the `Breadcrumb` component located at: `/apps/wknd/components/content/breadcrumb`. Notice that the same `sling:resourceSuperType` property can be found, but this time it points to `core/wcm/components/breadcrumb/v2/breadcrumb`. This is another example of using the Proxy component pattern to include a Core Component. In fact, all of the components in the WKND code base are proxies of AEM Core Components (except for our famous HelloWorld component). It is a best practice to try and re-use as much of the functionality of Core Components as possible *before* writing custom code.
 
-## Next Steps {#next-steps}
+6. Next inspect the Core Component Page at `/apps/core/wcm/components/page/v2/page` using CRXDE Lite:
 
-Next part in the tutorial:
+   ![Core Component Page](assets/pages-templates/core-page-component-properties.png)
 
-* **[Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid](client-side-libraries.md)**
+   Notice that many more scripts are included beneath this page. The Core Component Page contains a lot of functionality. This functionality is broken into multiple scripts for easier maintenance and readability. You can trace the inclusion of the HTL scripts by opening the `page.html` and looking for `data-sly-include`:
 
-View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**
+   ```html
+   <!--/* /apps/core/wcm/components/page/v2/page/page.html */-->
+   <!DOCTYPE HTML>
+   <html data-sly-use.page="com.adobe.cq.wcm.core.components.models.Page" lang="${page.language}"
+         data-sly-use.head="head.html"
+         data-sly-use.footer="footer.html"
+         data-sly-use.redirect="redirect.html">
+      <head data-sly-call="${head.head @ page = page}"></head>
+      <body class="${page.cssClassNames}">
+         <sly data-sly-test.isRedirectPage="${page.redirectTarget && (wcmmode.edit || wcmmode.preview)}"
+               data-sly-call="${redirect.redirect @ redirectTarget = page.redirectTarget}"></sly>
+         <sly data-sly-test="${!isRedirectPage}">
+               <sly data-sly-include="body.socialmedia_begin.html"></sly>
+               <sly data-sly-include="body.html"></sly>
+               <sly data-sly-call="${footer.footer @ page = page}"></sly>
+               <sly data-sly-include="body.socialmedia_end.html"></sly>
+         </sly>
+      </body>
+   </html>
+   ```
+
+   The other reason for breaking out the HTL into multiple scripts is to allow the proxy components to override individual scripts to implement custom business logic. The HTL scripts, `customfooterlibs.html` and `customheaderlibs.html`, are created for the explicit purpose to be overridden by implementing projects.
+
+   You can learn more about how the Editable Template factors into the rendering of the [content page by reading this article](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#resultant-content-pages).
+
+7. Inspect the another Core Component, like the Breadcrumb at `/apps/core/wcm/components/breadcrumb/v2/breadcrumb`. View the `breadcrumb.html` script to understand how the markup for the Breadcrumb component is ultimately generated.
+
+## Saving Configurations to Source Control {#configuration-persistence}
+
+In many cases, especially at the beginning of an AEM project it is valuable to persist configurations, like templates and related content policies, to source control. This ensures that all developers are working against the same set of content and configurations and can ensure additional consistency between environments. Once a project reaches a certain level of maturity, the practice of managing templates can be turned over to a special group of power users.
+
+For now we will treat the templates like other pieces of code and sync the **Article Page Template** down as part of the project. Up until now we have **pushed** code from our AEM project to a local instance of AEM. The **Article Page Template** was created directly on a local instance of AEM, so we need to **pull** or import the template into our AEM project. The **ui.content** module is included in the AEM project for this specific purpose.
+
+The next few steps will take place using the Eclipse IDE, but could be doing using any IDE that you have configured to **pull** or import content from a local instance of AEM.
+
+1. In the Eclipse IDE, ensure that a server the connecting AEM developer tool plugin to the local instance of AEM has been started and that the **ui.content** module has been added to the Server configuration.
+
+   ![Eclipse Server connection](assets/pages-templates/eclipse-server-started.png)
+
+2. Expand the **ui.content** module in the Project explorer. Expand the `src` folder (the one with the small glob icon) and navigate to `/conf/wknd/settings/wcm/templates`.
+
+3. [!UICONTROL Right+Click] the `templates` node and select **Import from Server...**:
+
+   ![Eclipse import template](assets/pages-templates/eclipse-import-templates.png)
+
+   Confirm the **Import from Repository** dialog and click **Finish**. You should now see the `article-page-template` beneath the `templates` folder.
+
+4. Repeat the steps to import content but select the **policies** node located at `/conf/wknd/settings/wcm/templates/policies`.
+
+   ![Eclipse import policies](assets/pages-templates/policies-article-page-template.png)
+
+5. Inspect the `filter.xml` file located at `src/main/content/META-INF/vault/filter.xml`.
+
+   ```xml
+   <!--ui.content filter.xml-->
+   <?xml version="1.0" encoding="UTF-8"?>
+   <workspaceFilter version="1.0">
+      <filter root="/conf/wknd" mode="merge"/>
+      <filter root="/content/wknd" mode="merge"/>
+      <filter root="/content/dam/wknd" mode="merge"/>
+      <filter root="/content/experience-fragments/wknd" mode="merge"/>
+   </workspaceFilter>
+   ```
+
+   The `filter.xml` file is responsible for identifying the paths of nodes that will be installed with the package. Notice the `mode="merge"` on each of the filters which indicates that existing content will not be modified, only new content is added. Since content authors may be updating these paths, it is important that a code deployment does **not** overwrite content. See the [FileVault documentation](https://jackrabbit.apache.org/filevault/filter.html) for more details on working with filter elements.
+
+   Compare `ui.content/src/main/content/META-INF/vault/filter.xml` and `ui.apps/src/main/content/META-INF/vault/filter.xml` to understand the different nodes managed by each module.
+
+   >[!WARNING]
+   >
+   > In order to ensure consistent deployments for the WKND Reference site some branches of the project are setup such that `ui.content` will overwrite any changes in the JCR. This is by design, i.e for Solution Branches, since code/styles will be written for specific policies.
+
+## Congratulations! {#congratulations}
+
+Congratulations, you have just created a new template and page with Adobe Experience Manager Sites.
+
+### Next Steps {#next-steps}
+
+At this point the article page is clearly un-styled. Follow the [Client-Side Libraries and Front-end Workflow](client-side-libraries.md) tutorial to learn the best practices for including CSS and Javascript to apply global styles to the site and integrate a dedicated front-end build.
+
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or review and deploy the code locally at on the Git brach `pages-templates/solution`.
+
+1. Clone the [github.com/adobe/aem-wknd-guides](http://github.com/adobe/aem-wknd-guides) repository.
+2. Check out the `pages-templates/solution` branch.
