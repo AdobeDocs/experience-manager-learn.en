@@ -1,515 +1,564 @@
 ---
-title: Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid
-seo-title: Getting Started with AEM Sites Chapter 3 - Client-Side Libraries and Responsive Grid
-description: Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an AEM Sites implementation. Integration with AEM's responsive grid and mobile emulator. aemfed module is used to accelerate front-end development.
-seo-description: Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an AEM Sites implementation. Integration with AEM's responsive grid and mobile emulator. aemfed module is used to accelerate front-end development.
-uuid: c0692b1e-1a9d-4c16-bf10-12bf3e376079
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: aee38279-dffc-4540-96f3-41e3de059bb3
-targetaudience: target-audience new
-mini-toc-levels: 1
-index: y
+title: Client-Side Libraries and Front-end Workflow
+description: Learn how Client-Side Libraries or clientlibs are used to deploy and manage CSS and Javascript for an Adobe Experience Manager (AEM) Sites implementation. This tutorial will also cover how the ui.frontend module, a webpack project, can be integrated into the end-to-end build process.
+sub-product: sites
+topics: front-end-development,responsive
+version: cloud-service
+doc-type: tutorial
+activity: develop
+audience: developer
+kt: 4083
 ---
 
-# Chapter 3 - Client-Side Libraries and Responsive Grid {#client-side-libraries-and-responsive-grid}
+# Client-Side Libraries and Front-end Workflow {#client-side-libraries}
 
-Covers creation of AEM Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an AEM Sites implementation. Integration with AEM's responsive grid and mobile emulator. aemfed module is used to accelerate front-end development.
+Learn how Client-Side Libraries or clientlibs are used to deploy and manage CSS and Javascript for an Adobe Experience Manager (AEM) Sites implementation. This tutorial will also cover how the [ui.frontend](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/uifrontend.html) module, a de-coupled [webpack](https://webpack.js.org/) project, can be integrated into the end-to-end build process.
 
 ## Prerequisites {#prerequisites}
 
-This is Chapter 3 of the multi-part tutorial. **[Chapter 2 can be found here](pages-templates.md)** and an **[overview can be found here](overview.md)**.
+Review the required tooling and instructions for setting up a [local development environment](overview.md#local-dev-environment). 
 
-View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for the previous part of the tutorial: [WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip).
+It is also recommended to review the [Component Basics](component-basics.md#client-side-libraries) tutorial to understand the fundamentals of client-side libraries and AEM.
+
+### Starter Project
+
+Check out the base-line code the tutorial builds on:
+
+1. Clone the [github.com/adobe/aem-guides-wknd](https://github.com/adobe/aem-guides-wknd) repository.
+2. Check out the `client-side-libraries/start` branch
+
+   ```shell
+   $ git clone git@github.com:adobe/aem-guides-wknd.git ~/code/aem-guides-wknd
+   $ cd ~/code/aem-guides-wknd
+   $ git checkout client-side-libraries/start
+   ```
+
+3. Deploy code base to a local AEM instance using your Maven skills:
+
+   ```shell
+   $ cd ~/code/aem-guides-wknd
+   $ mvn clean install -PautoInstallSinglePackage
+   ```
+
+You can always view the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd/tree/client-side-libraries/solution) or check the code out locally by switching to the branch `client-side-libraries/solution`.
 
 ## Objective
 
-1. Understand how Client-Side libraries are used to manage CSS and JavaScript assets.
-2. How to integrate AEM's Responsive Grid to enable Layout Mode authoring of components.
-3. Debugging and tools to accelerate front-end development.
+1. Understand how client-side libraries are included onto a page via an editable template.
+2. Learn how to use the UI.Frontend Module and a webpack development server for dedicated front-end development.
+3. Understand the end-to-end workflow of delivering compiled CSS and JavaScript to a Sites implementation.
 
-## Front-end Frameworks {#front-end-workflow}
+## What you will build {#what-you-will-build}
 
-Below are some of the front-end technologies used in the creation of the WKND site.
+In this chapter you will add some baseline styles for the WKND site and the Article Page Template in an effort to bring the implementation closer to the [UI design mockups](assets/pages-templates/wknd-article-design.xd). You will use an advanced front-end workflow to integrate a webpack project into an AEM client library.
 
-**[LESS](https://lesscss.org/)** - popular CSS pre-compiler that allows variables and other functionality. AEM client libraries natively support LESS compilation. Saas or other pre-compilers can be used but would need to be compiled outside of AEM.
+>[!VIDEO](https://video.tv.adobe.com/v/30359/?quality=12)
 
-**[jQuery](https://jquery.com/)** - popular JavaScript feature-rich library for manipulating HTML
+## Background {#background}
 
-**[aemfed](https://aemfed.io/)** -  npm  module that leverages  **aemsync**  and **BrowserSync** to instantly deploy and reload changes to accelerate front-end development.
-
-## Client-Side Libraries Structure {#clientlibs-structure}
-
-Client-Side Libraries provides a mechanism to organize and manage CSS and JavaScript files necessary for an AEM Sites implementation. The basic goals for client libraries or clientlibs are:
+Client-Side Libraries provides a mechanism to organize and manage CSS and JavaScript files necessary for an AEM Sites implementation. The basic goals for client-side libraries or clientlibs are:
 
 1. Store CSS/JS in small discrete files for easier development and maintenance
 2. Manage dependencies on 3rd party frameworks in an organized fashion
-3. Minimize the number of client-side requests by concatenating CSS/JS into one or two requests
-4. Minify CSS/JS that is delivered to optimize speed/performance of a site
+3. Minimize the number of client-side requests by concatenating CSS/JS into one or two requests.
 
-More information about using [Client-Side Libraries can be found here.](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html)
+More information about using [Client-Side Libraries can be found here.](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)
 
-Client-Side Libraries provide many ways for organization, below is a convention used by the WKND site and WE.Retail sites and can be applied to most Sites implementations.
+Client-side libraries do have some limitations. Most notably is a limited support for popular front-end languages like Sass, LESS, and TypeScript. In the tutorial we will look at how the **ui.frontend** module can help solve this.
 
-![High Level Clientlib Architecture](assets/chapter-3/wknd-clientlibs.png)
+Deploy the starter code base to a local AEM instance and navigate to [http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html). This page is currently un-styled. We will next implement Client-side libraries for the WKND brand to add CSS and Javascript to the page.
 
-## Implement Site Client-side Library {#site-clientlibs}
+## Client-Side Libraries Organization {#organization}
 
-We will now implement Client-Side libraries that contain styles and javascript that will be applied site wide. This includes some global styles and brand variables to create a consistent look and feel.
+Next we will explore the organization of clientlibs generated by the [AEM Project Archetype](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/overview.html).
 
-Creating a client library is similar to creating any other type of node in AEM. The basic structure includes:
+>[!NOTE]
+>
+> The following client-side library organization is generated by AEM Project Archetype but represents merely a starting point. How a project ultimately manages and delivers CSS and Javascript to a Sites implementation can vary dramatically based on resources, skillsets and requirements.
 
-```plain
+1. Using the Eclipse or other IDE open up the **ui.apps** module.
+2. Expand the path `/apps/wknd/clientlibs` to view the clientlibs generated by the archetype.
 
-[cq:ClientLibraryFolder] - jcr:primaryType
-     - categories (String[])
-     - embed (String[])
-     - dependencies (String[])
-     + css.txt (nt:file)
-     + js.txt (nt:file)
+    ![Clientlibs in ui.apps](assets/client-side-libraries/four-clientlib-folders.png)
 
-```
+    We will inspect these clientlibs in greater detail below.
 
-There are a lot of nodes and files for the WKND site client libraries. To expedite the tutorial (and to avoid tedious steps) we have pre-created a base-line of styles for some of the foundational HTML elements.
+3. Inspect the properties of `clientlibs/clientlib-base`.
 
-Client Libraries are considered code and thus are stored in the **ui.apps** module beneath **/apps/wknd/clientlibs**.
+    **clientlib-base** represents the base level of CSS and JavaScript needed for the WKND site to function. Notice the property `categories` which is set to `wknd.base`. `categories` is a tagging mechanism for clientlibs and is how they can be referenced.
 
-1. The AEM project archetype creates **clientlib-base** and **clientlib-site** automatically. The below zip adds additional files and includes the source for the additional client libraries:
+    Notice the `embed` property and the `String[]` of values. The `embed` property embeds other clientlibs based on their category. **clientlib-base** will include all of the AEM Core Component clientlibraries that are needed. This includes artifacts like javascript for the Carousel, Quick search components to function. **clientlib-base** will not include any CSS and Javascript of its own, but instead will just embed other client libraries. **clientlib-base** embeds the **clientlib-grid** clientlib with the category of `wknd.grid`.
 
-    * **clientlib-author**
-    * **clientlib-dependencies**
+    Notice the `allowProxy` property set to `true`. It is a best practice to always set `allowProxy=true` on clientlibs. The `allowProxy` property allows us to store the clientlibs with our application code under `/apps` **but** then delivers the clientlibs over a path prefixed with `/etc.clientlibs` inorder to avoid exposing any application code to end-users. More information about the [allowProxy property can be found here.](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html#locating-a-client-library-folder-and-using-the-proxy-client-libraries-servlet). 
 
-2. Download **[chapter3-src-code-start.zip](assets/chapter-3/chapter3-src-code-start.zip)**
-3. Unzip **chapter3-src-code-start.zip** directly inside your project on the file system beneath: `ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs`.
+4. Inspect the properties of `clientlibs/clientlib-grid`.
 
-    Make sure to only copy the folders within the zip archive. Overwrite the **clientlib-site** folder completely.
+    **clientlib-grid** is responsible for including/generating the CSS necessary for the [Layout mode](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/responsive-layout.html) to work with the AEM Sites editor. **clientlib-grid** had a category set to `wknd.grid` and is embedded via **clientlib-base**. 
 
-4. In the **ui.apps** module beneath `/apps/wknd/clientlibs` there should now be 4 sub-folders:
+    The grid can be customized to use different amounts of columns and breakpoints. Next we will update the default breakpoints generated.
 
-   ![four client library folders](assets/chapter-3/four-clientlib-folders.png)
+5. Update the file `/apps/wknd/clientlibs/clientlib-grid/less/grid.less`:
 
-   Below we will inspect the new client-side libraries of **clientlib-dependencies**, **clientlib-site**, and **clientlib-author**.
-
-5. **clientlib-dependencies**
-
-    This client-side library embeds some common AEM javascript dependencies that would be used for integrating analytics, ContextHub, [CSRF protection](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/csrf-protection.html) and other Adobe marketing cloud offerings. The version of jquery that ships with AEM (`/libs/clientlibs/granite/jquery`) will be used. You can download a newer version of jquery and create a new client library if needed.
-
-    | Name | Type | Value | Description |
-    |---   |---   |---    |---          |
-    | jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
-    | allowProxy | Boolean | **true** | *Exposes CSS/JS via /etc.clientlibs* |
-    | categories | String[] | **wknd.dependencies** | *Tag-like string that allows the clientlib to be referenced* |
-    | embed | String[] | **jquery**, **granite.utils**, **granite.jquery**, **cq.jquery**, **granite.shared**,  **cq.shared**, **underscore** | *Embed jQuery and several Granite frameworks.* |
-
-   ```xml
-   <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
-       jcr:primaryType="cq:ClientLibraryFolder"
-       allowProxy="{Boolean}true"
-       categories="[wknd.dependencies]"
-       embed="[jquery,granite.utils,granite.jquery,cq.jquery,granite.shared,cq.shared,underscore]"/>
-
-   ```
-
-   >[!NOTE]
-   >
-   >**clientlib-dependencies** typically consists mostly of Javascript. However since these dependencies are needed for features like ContextHub they will be included in the at the top of the page in the HTML head.
-
-6. **clientlib-site**
-
-    This is the main client library for the WKND site. It includes site specific styles. It also includes two files named **variables.less** and **mixins.less** that establish some leverage features of LESS to ensure consistency.
-
-    Two files **grid.less**, **main.less** are inspected below in more detail.
-
-    | Name | Type | Value | Description |
-    |---   |---   |---    |---          |
-    | jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
-    | allowProxy | Boolean | **true** | *Exposes CSS/JS via /etc.clientlibs* |
-    | categories | String[] | **wknd.site** | *Tag-like string that allows the clientlib to be referenced* |
-
-    **main.less** - `/apps/wknd/clientlibs/clientlib-site/main.less`
-
-    This is the entry point for all of the LESS styles in the client library. At the top of the file **variables.less** and **mixins.less** are imported to be able to share with the rest of the files. At the bottom of **main.less** you can see the inclusion of component specific styles. Notice the organization folder structure for the component specific files.The main.less also includeds a file named **grid.less** that will be responsible for creating AEM's responsive grid.
-
-   ```css
-   /* WKND main.less */
-
-   /* Import variables */
-   @import "less/variables.less";
-
-   /* Import mixins */
-   @import "less/mixins.less";
-
-   /* Import Responsive Grid */
-   @import "less/grid.less";
-
-   /* Custom Icons for WKND site */
-   @import "less/wkndicons.less";
-
-   /* Page Styles at the top */
-   @import "components/page/page.less";
-
-   /* Component Styles */
-   @import "components/breadcrumb/breadcrumb.less";
-   @import "components/contentfragment/contentfragment.less";
-   @import "components/image/image.less";
-   @import "components/text/text.less";
-   @import "components/title/title.less";
-
-   ```
-
-   **grid.less** - `/apps/wknd/clientlibs/clientlib-site/less/grid.less`
-
-   Generates the AEM responsive grid that will allow content authors to use all the capabilities of the [AEM Layout Mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/responsive-layout.html) and the Layout Container. It uses a custom mixin found in grid_base.less to generate the grid. Notice that the Phone and Tablet breakpoints use variables found in the **less/variables.less** file. These breakpoints match the breakpoints defined in the empty template type: `/conf/wknd/settings/wcm/template-types/empty-page/structure/jcr:content/cq:responsive/breakpoints`.
-
-   ```css
-    /* grid.less snippet */
+    ```css
+    @import (once) "/libs/wcm/foundation/clientlibs/grid/grid_base.less";
 
     /* maximum amount of grid cells to be provided */
-        @max_col: 12;
+    @max_col: 12;
+    @screen-small: 767px;
+    @screen-medium: 1024px;
+    @screen-large: 1200px;
+    @gutter-padding: 14px;
 
-        /* default breakpoint */
+    /* default breakpoint */
+    .aem-Grid {
+    .generate-grid(default, @max_col);
+    }
+
+    /* phone breakpoint */
+    @media (max-width: @screen-small) {
         .aem-Grid {
-            .generate-grid(default, @max_col);
-            width: auto;
+            .generate-grid(phone, @max_col);
         }
-        /* phone breakpoint */
-        @media (max-width: @screen-small) {
-            .aem-Grid {
-                .generate-grid(phone, @max_col);
-            }
+    }
+    /* tablet breakpoint */
+    @media (min-width: (@screen-small + 1)) and (max-width: @screen-medium) {
+        .aem-Grid {
+            .generate-grid(tablet, @max_col);
         }
-        /* tablet breakpoint */
-        @media (min-width: (@screen-small + 1)) and (max-width: @screen-large) {
-            .aem-Grid {
-                .generate-grid(tablet, @max_col);
-            }
-        }
+    }
 
+    .aem-GridColumn {
+    padding: 0 @gutter-padding;
+    }
+
+    .responsivegrid.aem-GridColumn {
+    padding-left: 0;
+    padding-right: 0;
+    }
     ```
 
-   >[!CAUTION]
-   >
-   >The location of the grid_base LESS file provided by AEM has changed from 6.3 to 6.4. If referencing the file directly in your own project ensure that the correct location is used:
-   >
-   >* **6.3** Path to Responsive Grid: `/etc/clientlibs/wcm/foundation/grid/grid_base.less`
-   >* **6.4, 6.5+** Path to Responsive Grid: `/libs/wcm/foundation/clientlibs/grid/grid_base.less`
+    This will change the breakpoints to correspond to our Template breakpoints set in `/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/article-page-template/structure/.content.xml`. 
 
-   Within **clientlib-site** you will also notice a folder named **webfonts**. This is a small client-side library that includes a call to Google webfonts. This has been split from the rest of **clientlib-site** in order to load this library at the top of the CSS file. In the next section we will embed this as part of **clientlib-base**.
+    Notice that this file actually references a `grid_base.less` file under `/libs` which contains a custom mixin to generate the grid.
 
-7. **clientlib-author**
+6. Inspect the properties for `clientlibs/clientlib-site`.
 
-    As a best practice the code base for the Author environment should be nearly identical to the Publish environment. There are certain cases in which some extra CSS/JS is necessary to provide a better authoring experience. The WKND site has a fixed-header design and in the Editor this makes it difficult to select the Header component in edit mode. Therefore a small amount of CSS overrides will be stored in this client library and only loaded in the Author environment. This practice should be used sparingly and only when absolutely necessary.
+    **clientlib-site** will contain all of the site-specific styles for the WKND Brand. Note the category of `wknd.site`. The CSS and Javascript that generates this clientlib will actually be maintained in the `ui.frontend` module. We will explore this integration next.
 
-    | Name | Type | Value | Description |
-    |---   |---   |---    |---          |
-    | jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
-    | allowProxy | Boolean | **true** | *Exposes CSS/JS via /etc.clientlibs* |
-    | categories | String[] | **wknd.author** | *Tag-like string that allows the clientlib to be referenced* |
+7. Inspect the properties for `clientlibs/clientlib-dependencies`.
 
-## Update Base Client-side library {#update-clientlib-base}
+    **clientlib-dependencies** is intended to embed any 3rd party dependencies. It is a separate clientlib so that it can be loaded in the top of the HTML page if needed. Note the category of `wknd.dependencies`. The CSS and Javascript that generates this clientlib will actually be maintained in the `ui.frontend` module. We will explore this integration later in the tutorial.
 
-**clientlib-base**, which is automatically generated by the archetype,  represents the base level of CSS and JavaScript needed for the WKND site to function. This library won't include any CSS/JS files directly,  instead  it will include multiple client libraries via an **embed** property.
+## Using the ui.frontend module {#ui-frontend}
 
-1. At `/apps/wknd/clientlibs/clientlib-base`, **update** the **embed** property. Include **wknd.webfonts** as the first embed. Note that **wknd.site** category (**clientlib-site**) is already at the end of the String array.
+Next we will explore the use of the **[ui.frontend](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/uifrontend.html)** module.
 
-   >[!CAUTION]
-   >
-   >The order in which the **embed** array matters. It determines the order in which libraries are included. We want the webfonts to be loaded first and we want the site specific libraries (**wknd.site**) to be loaded last to ensure we can override styles inherited from core components.
+### Motivation
 
-    | Name | Type | Value | Description |
-    |---   |---   |---    |---          |
-    | jcr:primaryType | Name | **cq:ClientLibraryFolder** | *Defines a client library* |
-    | allowProxy | `Boolean` | **true** | *Exposes CSS/JS via /etc.clientlibs* |
-    | categories | `String[]` | **wknd.base** | *Tag-like string that allows the clientlib to be referenced* |
-    | embed      | `String []` | **wknd.webfonts**, core.wcm.components.tabs.v1, core.wcm.components.carousel.v1, core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2, core.wcm.components.search.v1, core.wcm.components.form.text.v2, wknd.breadcrumb, **wknd.site** | *Embeds the clientlibs by respective category. Include any CoreComponent clientlibs here. The **wknd.site** category embeds the clientlib-site library. **wknd.webfonts** is split and embedded at the top so that the webfonts are correctly imported at the top of the generated CSS file.* |
+Client-side libraries have some limitations when it comes to support of languages like [Sass](https://sass-lang.com/) or [TypeScript](https://www.typescriptlang.org/). There has also been an explosion of open-source tools like [NPM](https://www.npmjs.com/) and [webpack](https://webpack.js.org/) that accelerate and optimize front-end development.
 
-   ```xml
+The basic idea behind the **ui.frontend** module is to be able to use great tools like NPM and Webpack to manage a majority of front-end development. A key integration piece built into the **ui.frontend** module, [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator) takes the compiled CSS and JS artifacts from a webpack/npm project and transforms them into AEM client-side libraries. This gives a front-end developer greater freedom to choose different tools and technologies.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-        jcr:primaryType="cq:ClientLibraryFolder"
-        allowProxy="{Boolean}true"
-        categories="[wknd.base]"
-        embed="[wknd.webfonts,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,wknd.breadcrumb,wknd.site]" />
+![ui.frontend architecture integration](assets/client-side-libraries/ui-frontend-architecture.png)
 
-   ```
+### Use
 
-   >[!NOTE]
-   >
-   > Several Core Components come with client libraries that need to be included on the page in order for the component to function properly. These have already been added via the **embed** property to **clientlib-base**.
-   >
-   > For example see `/apps/core/wcm/components/image/v2/image/clientlibs`.
-   > There are two client libraries in this folder one named **editor** and another named **site**. The **editor** clientlib is meant just for the author environment and typically included by the component dialog. The **site** clientlib is the one that needs to be included in the project's clientlib in order for the component to behave properly. For each Core Component you can view the `README.md` to understand what each clientlib does: `/apps/core/wcm/components/image/v2/image/README.md`.
+Now we will to add some base styles for the WKND brand by adding some Sass files (`.scss` extension) via the **ui.frontend** module.
 
-## Implement Header Styles {#header-styles}
+1. Open up the **ui.frontend** module and navigate to `src/main/webpack/base/sass`.
 
-Next we will implement some basic styles for the Header component. We want to make the header component behave as a "sticky" header and scroll with the page. We also want to resize the header to optimize for tablet/mobile views. LESS and JavaScript will be added to the **clientlib-site** library.
+    ![ui.frontend module](assets/client-side-libraries/ui-frontendmodule-eclipse.png)
+2. Create a new file named `_variables.scss` beneath the folder `src/main/webpack/base/sass`.
 
-We will add a piece of javascript that will listen for a browser scroll and inject a CSS class into the body tag of the HTML page. We can then modify CSS based on this class change. We could have made this javascript specific to just the Header component, however we may want other scroll behavior across components. We will add this script with the global styles with the other page styles.
+3. Populate `_variables.scss` with the following:
 
-1. Beneath `/apps/wknd/clientlibs/clientlib-site/components/page` add a new file named **page.js**.
+    ```css
+    //== Colors
+    //
+    //## Gray and brand colors for use across theme.
 
-2. Populate **page.js** with the following:
+    $black:                  #202020;
+    $gray:                   #696969;
+    $gray-light:             #EBEBEB;
+    $gray-lighter:           #F7F7F7;
+    $white:                  #ffffff;
+    $yellow:                 #FFE900;
+    $blue:                   #0045FF;
+    $pink:                   #FF0058;
 
-   ```js
+    $brand-primary:           $yellow;
 
-   /* JS Snippet to trigger class change on page scroll */
+    //== Layout
+    $gutter-padding: 14px;
+    $max-width: 1164px;
+    $max-body-width: 1680px;
+    $screen-xsmall: 475px;
+    $screen-small: 767px;
+    $screen-medium: 1024px;
+    $screen-large: 1200px;
 
-   (function (element, $) {
-       'use strict';
-       var target = $(element),
-           className = "scrolly",
-           scroll,
-           mobileBreakpoint = 992;
+    //== Scaffolding
+    //
+    //## Settings for some of the most global styles.
+    $body-bg:                   $white;
+    $text-color:                $black;
+    $text-color-inverse:        $gray-light;
 
-       if($(window).scrollTop() > 0) {
-           target.addClass(className);
-       }
+    $brand-secondary:           $black;
 
-       $(window).scroll(function(){
+    $brand-third:               $gray-light;
+    $link-color:                $blue;
+    $link-hover-color:          $link-color;
+    $link-hover-decoration:     underline;
+    $nav-link:                  $black;
+    $nav-link-inverse:          $gray-light;
 
-            scroll = $(window).scrollTop();
-       if(scroll > 0 ) {
-           target.addClass(className);
-       } else {
-           target.removeClass(className);
-       }
-    });
-   }('body',jQuery));
+    //== Typography
+    //
+    //## Font, line-height, and color for body text, headings, and more.
 
-   ```
+    $font-family-sans-serif:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    $font-family-serif:       "Asar",Georgia, "Times New Roman", Times, serif;
+    $font-family-base:        $font-family-sans-serif;
 
-   The above function will add a CSS class named **"scrolly"** to the body tag whenever the scroll position changes form 0. This javascript depends on jQuery being loaded. The **clientlib-dependencies** library will include jQuery on the page.
+    $font-size-base:          18px;
+    $font-size-large:         24px;
+    $font-size-xlarge:        48px;
+    $font-size-medium:        18px;
+    $font-size-small:         14px;
+    $font-size-xsmall:        12px;
 
-3. Update `/apps/wknd/clientlibs/clientlib-site/js.txt` to include **page.js**. The js.txt and css.txt files in a client library act as a manifest for which files to be surfaced and the order in which they will be loaded. Simply adding a file in the client library is not enough to include it in library.
+    $font-size-h1:            40px;
+    $font-size-h2:            36px; 
+    $font-size-h3:            24px; 
+    $font-size-h4:            16px; 
+    $font-size-h5:            14px;
+    $font-size-h6:            10px; 
 
-   Update of **js.txt**:
+    $line-height-base:        1.5;
+    $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
-   ```plain
+    $font-weight-light:      300;
+    $font-weight-normal:     normal;
+    $font-weight-semi-bold:  400;
+    $font-weight-bold:       600;
+    ```
 
-   #base=.
+    Sass allows us to create variables, which can then be used throughout different files to ensure consistency. Notice the Font Families. Later in the tutorial we will see how we can include a call to Google web fonts, in order to use these fonts.
 
-   components/page/page.js
+4. Create another file named `_elements.scss` beneath `src/main/webpack/base/sass` and populate it with the following:
 
-   ```
-
-4. Beneath `/apps/wknd/clientlibs/clientlib-site/components` create the following folder and file structure for the **header** styles:
-
-   ```plain
-
-   /apps/wknd/clientlibs/clientlib-site/components/
-       +/header
-           + header.less
-           /styles
-               + default.less
-
-   ```
-
-   ![header client-lib structure](assets/chapter-3/header-clientlib-structure.png)
-
-5. Populate **header.less** to include the default style for the **Header** component:
-
-   ```css
-
-   /* WKND Header Styles */
-
-   @import "styles/default.less";
-
-   ```
-
-   Populate **default.less** with the following:
-
-   ```css
-
-   /* WKND Header - default.less */
-
-   .wknd-header {
-    z-index: 1030;
-    position: fixed;
-    top: 0;
-    height:92px;
-    padding-top: 45px;
-    left:0;
-    right:0;
-
-    .container {
-     .container-content();
-     max-width: 1116px;
-    }
-
-     @media (max-width: @screen-medium) {
-        padding: 12px;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 60px;
-        position: absolute;
-    }
-
-    a.wknd-header-logo {
-        color: @text-color;
-        font-weight: bolder;
-        font-size: @font-size-xlarge;
-        float:left;
-        padding: 11px 12px;
-        line-height: 28px;
-        height: 50px;
-        margin:0;
-        padding-left: 0;
-        text-decoration: none;
+    ```css
+    body {
+        background-color: $body-bg;
+        font-family: $font-family-base;
+        margin: 0;
+        padding: 0;
+        font-size: $font-size-base;
         text-align: left;
+        color: $text-color;
+        line-height: $line-height-base;
 
-     @media (max-width: @screen-medium) {
-      font-size: (@font-size-large + 8px);
-      margin-left: 0;
-      padding-top: 10px;
-      padding-left: @gutter-padding;
-      }
+        .root {
+            max-width: $max-width;
+            margin: 0 auto;
+        }
     }
-
-    h1 {
-     float: left;
-     margin-top: 0.25em;
-     font-size: 1.5em;
+    
+    // Headings
+    // -------------------------
+    
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+        line-height: $line-height-base;
+        color: $text-color;
     }
-   }
-
-   .scrolly {
-    .wknd-header {
-
-     @media (min-width: (@screen-medium + 1)) {
-      height: 80px;
-      background-color: @body-bg;
-      -webkit-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
-      -moz-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
-      box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
-     }
+    
+    h1, .h1,
+    h2, .h2,
+    h3, .h3 {
+        font-family: $font-family-serif;
+        font-weight: $font-weight-normal;
+        margin-top: $line-height-computed;
+        margin-bottom: ($line-height-computed / 2);
     }
-   }
+    
+    h4, .h4,
+    h5, .h5,
+    h6, .h6 {
+        font-family: $font-family-sans-serif;
+        text-transform: uppercase;
+        font-weight: $font-weight-bold;
+    }
+    
+    h1, .h1 { font-size: $font-size-h1; }
+    h2, .h2 { font-size: $font-size-h2; }
+    h3, .h3 { font-size: $font-size-h3; }
+    h4, .h4 { font-size: $font-size-h4; }
+    h5, .h5 { font-size: $font-size-h5; }
+    h6, .h6 { font-size: $font-size-h6; }
+    
+    a {
+        color: $link-color;
+        text-decoration: none;
+    }
+    
+    h1 a, h2 a, h3 a {
+        color: $pink; /* for wednesdays :-) */
+    }
+    
+    // Body text
+    // -------------------------
+    
+    p {
+        margin: 0 0 ($line-height-computed / 2);
+        font-size: $font-size-base;
+        line-height: $line-height-base + 1;
+        text-align: justify;
+    }
+    ```
 
-   ```
+    Notice that the `_elements.scss` file makes use of the variables in the `_variables.scss`.
 
-   Notice that at the bottom of the file we add a box-shadow to the header div based on the addition of the **scrolly** class name. The **scrolly** class name will be populated based on the JavaScript added earlier when the page scrolls.
+5. Update `_shared.scss` beneath `src/main/webpack/base/sass` to include the `_elements.scss` and `_variables.scss` files.
 
-6. Lastly, update `/apps/wknd/clientlibs/clientlib-site/main.less` to include the **header.less** style:
+    ```css
+    @import './variables';
+    @import './elements';
+    ```
 
-   ```css
+6. Open a command line terminal and build the **ui.frontend** module using the `npm run dev` command:
 
-    /* main.less */
-
+    ```shell
+    $ cd ~/code/aem-guides-wknd/ui.frontend
+    $ npm run dev
     ...
+    Entrypoint site = clientlib-site/css/site.css clientlib-site/js/site.js
+    Entrypoint dependencies = clientlib-dependencies/js/dependencies.js
+    start aem-clientlib-generator
+    ...
+    copy: dist/clientlib-site/css/site.css ../ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-site/css/site.css
+    ```
 
-    /* Component Styles */
-    @import "components/breadcrumb/breadcrumb.less";
-    @import "components/contentfragment/contentfragment.less";
-    /* add header.less */
-    @import "components/header/header.less";
-    @import "components/image/image.less";
-    @import "components/layout-container/layout-container.less";
-    @import "components/text/text.less";
-    @import "components/title/title.less";
+    The command `npm run dev` should build and compile the source code for the Webpack project and ultimately populate the **clientlib-site** and **clientlib-dependencies** in the **ui.apps** module.
 
-   ```
+    >[!NOTE]
+    >
+    > There is also a `npm run prod` profile which will minify the JS and CSS. This is the standard compilation whenever the webpack build is triggered via Maven. More details about the [ui.frontend module can be found here](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/uifrontend.html).
 
-## Including Client-side libraries to the Page {#clientlibs-to-page}
+7. Inspect the file `site.css` beneath `ui.frontend/dist/clientlib-site/css/site.css`. Notice that the CSS is mostly made up of contents of the `_elements.scss` file created earlier but the variables have been replaced with actual values.
 
-Next the clientlibs needed to be included via the base page component. The Core Component page provides two files designed to include custom clientlibs in the html head for CSS and at the very bottom of the page for JavaScript. The AEM project archetype has already included the **wknd.base** client library.
+    ![Distributed Site css](assets/client-side-libraries/ui-frontend-dist-site-css.png)
 
-Updates are needed to include **wknd.dependencies** and in the authoring environment **wknd.author**.
+8. Inspect the file `ui.frontend/clientlib.config.js`. This is the configuration file for an npm plugin, [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator). **aem-clientlib-generator** is the tool responsible for transforming the compiled CSS/JavaScript and copy it into the **ui.apps** module.
 
-In the **ui.apps** module modify files beneath: `/apps/wknd/components/structure/page`:
+9. Inspect the file `site.css` in the **ui.apps** module at `ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-site/css/site.css`. This should be an identical copy of the `site.css` file from the **ui.frontend** module. Now that it is in **ui.apps** module it can be deployed to AEM.
 
-1. Update `/apps/wknd/components/structure/page/customheaderlibs.html`:
+    ![ui.apps clientlib-site](assets/client-side-libraries/ui-apps-clientlib-site-css.png)
 
-    This will override `/apps/core/wcm/components/page/v2/page/customheaderlibs.html`.
+    >[!NOTE]
+    >
+    > Since **clientlib-site** is actually compiled during build time, using either **npm** or **maven**, it can actually be ignored from source control in the **ui.apps** module. Inspect the `.gitignore` file beneath **ui.apps**.
 
-   ```xml
+>[!Caution]
+>
+> The use of the **ui.frontend** module may not be necessary for all projects. The **ui.frontend** module adds additional complexity and if there is not a need/desire to use some of these advanced front-end tools (Sass, webpack, npm...) it may be overkill. For this reason it is considered an optional part of the AEM Project Archetype and the use of standard client-side libraries and vanilla CSS and JavaScript continues to be fully supported.
 
-   <!--/* /apps/wknd/components/structure/page/customheaderlibs.html */-->
+## Page and Template Inclusion {#page-inclusion}
 
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+Next we will review how the project is set up to include the clientlibs in AEM templates/pages. A common best practice in web development is to include CSS in the HTML Header `<head>` and JavaScript right before closing `</body>` tag.
 
-   <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-        data-sly-call="${clientlib.js @ categories='wknd.dependencies'}"/>
-   <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-        data-sly-call="${clientlib.css @ categories='wknd.base'}"/>
+1. In the **ui.apps** module navigate to `ui.apps/src/main/content/jcr_root/apps/wknd/components/structure/page`.
 
-   <!--/* Load authoring related client libraries */-->
-   <sly data-sly-test="${wcmmode.preview || wcmmode.edit}" data-sly-call="${clientLib.all @ categories='wknd.author'}"/>
+    ![Structure Page Component](assets/client-side-libraries/customheaderlibs-html.png
+    )
 
-   <!--/* Include Context Hub */-->
-   <sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+    This is the `page` component that is used to render all pages in the WKND implementation.
 
-   ```
+2. Open the file `customheaderlibs.html`. Notice the lines `${clientlib.css @ categories='wknd.base'}`. This indicates that the CSS for the clientlib with a category of `wknd.base` will be included via this file, effectively including **clientlib-base** in the header of all our pages.
 
-   This includes the CSS for the **wknd.base** client-side library and the JS for the **wknd.dependencies** client-side library. Typically it is a best practice to include JS at the bottom of the page. The wknd.dependencies JS is used for loading libraries that support targeted content like ContextHub and so in this case it is a best practice to load it at the top of the page. The author-specific client library **wknd.author** *is also included*.
+3. Update `customheaderlibs.html` to include a reference to Google font styles that we specified earlier in the **ui.frontend** module. We will also comment out ContextHub for now...
 
-   Notice the **wcmmode** conditional, this means that only if the page is open in the Author editing environment will this client library be loaded. More information about the [WCMMode can be found here.](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/sightly/SightlyWCMMode.html)
+    ```html
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Asar&display=swap" rel="stylesheet">
+    <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories='wknd.base'}"/>
 
-   ContextHub is a JS based framework for personalization, it is loaded in the header. This tutorial does not cover implementing ContextHub but more information about [ContextHub can be found here.](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/contexthub.html)
+    <!--/* Include Context Hub 
+    <sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+    */-->
+    ```
 
-2. Inspect the file `/apps/wknd/components/structure/page/customfooterlibs.html`.
+4. Inspect the file `customfooterlibs.html`. This file, like `customheaderlibs.html` is meant to be overwritten by implementing projects. Here the line `${clientlib.js @ categories='wknd.base'}` means that the JavaScript from **clientlib-base** will be included at the bottom of all our pages.
 
-    This will be included at the very bottom of the page and will include the JS for **wknd.base** client library. It will override: `/apps/core/wcm/components/page/v2/page/customfooterlibs.html`.
+5. Build and deploy the project to a local AEM instance using Maven:
 
-    No changes are needed as the AEM project archetype created this file already.
+    ```shell
+    $ cd ~/code/aem-guides-wknd
+    $ mvn clean install -PautoInstallSinglePackage
+    ```
 
-   ```xml
+6. Browse to the WKND Templates at [http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd](http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd).
 
-   <!--/*
-       /apps/wknd/components/structure/page/customfooterlibs.html
-   */-->
-   <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
-       <sly data-sly-call="${clientlib.js @ categories='wknd.base'}"/>
-   </sly>
+7. Select and open the **Article Page Template** in the Template Editor.
 
-   ```
+    ![Select Article Page Template](assets/client-side-libraries/open-article-page-template.png)
 
-3. Deploy the code base to add both client libraries and updated page component to the local AEM instance with Eclipse dev tools or using your Maven skills.
+8. Click the **Page Information** icon and in the menu select **Page Policy** to open the **Page Policy** dialog.
 
-4. Verify the inclusion of client-side libraries.
+    ![Article Page Template Menu Page Policy](assets/client-side-libraries/template-page-policy.png)
 
-    Updating the base page component will update any pages created via the WKND Article Template.
+    *Page Information &gt; Page Policy*
 
-    1. Open up a page created from the Article Template: [http://localhost:4502/editor.html/content/wknd/en/first-article.html](http://localhost:4502/editor.html/content/wknd/en/first-article.html). You should see the updated fonts and fixed width container.
-    2. View the page as published by clicking the [!UICONTROL **Page Properties**] menu icon (upper left, next to the sidebar icon) `->` [!UICONTROL **View as Published**] button.
-        ![view as published](assets/chapter-3/view-as-publish.png)
+9. Notice that the categories for `wknd.dependencies` and `wknd.site` are listed here. By default clientlibs configured via the Page Policy are split to include the CSS in the page head and the JavaScript at the body end. If desired you can explicitly list that the clientlib JavaScript be loaded in the Page head. This is the case for `wknd.dependencies`. 
 
-    3. This will open a new tab with **wcmmode=disabled** added as a URL parameter. Viewing the page with **wcmmode=disabled** is a great way to debug/develop as there is a significant amount of Javascript for the Sites editor to support component authoring. 
+    ![Article Page Template Menu Page Policy](assets/client-side-libraries/template-page-policy-clientlibs.png)
 
-        [http://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled](http://localhost:4502/content/wknd/en/first-article.html?wcmmode=disabled)
+    >[!NOTE]
+    >
+    > It is also possible to reference the `wknd.site` or `wknd.dependencies` from the page component directly, using the `customheaderlibs.html` or `customfooterlibs.html` script, as we saw eaerlier for the `wknd.base` clientlib. Using the Template gives some flexibility in that you can pick and choose which clientlibs are used per template. For example if you have a very heavy JavaScript library that is only going to be used on a select template. 
 
-    4. Viewing the page source you should see following tags:
+10. Navigate to the **LA Skateparks** page created using the **Article Page Template**: [http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html). You should see a difference in fonts and some basic styles applied to indicate that the CSS created in the **ui.frontend** module is working.
 
-   ```xml
+11. Click the **Page Information** icon and in the menu select **View As Published** to open the article page outside of the AEM editor.
 
-   /* Source of http://localhost:4502/content/wknd/first-article.html?wcmmode=disabled */
-   <html>
-       <head>
-       ...
-           <script type="text/javascript" src="/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.js"></script>
-           <link rel="stylesheet" href="/etc.clientlibs/wknd/clientlibs/clientlib-base.css" type="text/css">
-       </head>
-       <body>
-           ...
-        <script type="text/javascript" src="/etc.clientlibs/wknd/clientlibs/clientlib-base.js"></script>
-       </body>
-   </html>
+    ![View as Published](assets/client-side-libraries/view-as-published-article-page.png)
 
-   ```
+12. View the Page source of [http://localhost:4502/content/wknd/us/en/magazine/guide-la-skateparks.html?wcmmode=disabled](http://localhost:4502/content/wknd/us/en/magazine/guide-la-skateparks.html?wcmmode=disabled) and you should be able to see the following clientlib references in the `<head>`:
 
-   The main takeaway is that the CSS and Javascript is dynamically loaded from a path that starts with **/etc.clientlibs**. The client libraries are stored beneath **/apps/wknd** to make it easier from an organizational standpoint as it is in the same directory as our component code. 
+    ```html
+    <head>
+    ...
+    <link rel="stylesheet" href="/etc.clientlibs/wknd/clientlibs/clientlib-base.css" type="text/css">
+    <script type="text/javascript" src="/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.js"></script>
+    <link rel="stylesheet" href="/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.css" type="text/css">
+    <link rel="stylesheet" href="/etc.clientlibs/wknd/clientlibs/clientlib-site.css" type="text/css">
+    ...
+    </head>
+    ```
+
+    Notice that the clientlibs are using the proxy `/etc.clientlibs` endpoint. You should also see the following clientlib includes at the bottom of the page:
+
+    ```html
+    ...
+    <script type="text/javascript" src="/etc.clientlibs/wknd/clientlibs/clientlib-site.js"></script>
+    <script type="text/javascript" src="/etc.clientlibs/wknd/clientlibs/clientlib-base.js"></script>
+    ...
+    </body>
+    ```
 
     >[!WARNING]
     >
-    >It is critical on the publish side that the client libraries are **not** served from **/apps** as this path should be restricted for security reasons using the [Dispatcher filter section](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#example-filter-section). The [allowProxy property](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html#main-pars_title_8ced) of the client library ensures the CSS and JS are served from **/etc.clientlibs**.
+    >It is critical on the publish side that the client libraries are **not** served from **/apps** as this path should be restricted for security reasons using the [Dispatcher filter section](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#example-filter-section). The [allowProxy property](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html#locating-a-client-library-folder-and-using-the-proxy-client-libraries-servlet) of the client library ensures the CSS and JS are served from **/etc.clientlibs**.
 
-5. While viewing the page with **wcmmode=disabled** check that the scrolling header is working when the browser is sized **&gt; 992px**.
+## Webpack DevServer {#webpack-dev-server}
 
-   ![scroll header](assets/chapter-3/scroll-header.png)
+In the previous couple of exercises we were able to update several Sass files in the **ui.frontend** module and through a build process, ultimately see these changes reflected in AEM. Next we will look at leveraging a [webpack-dev-server](https://webpack.js.org/configuration/dev-server/) to rapidly develop our front-end styles.
 
-## Debugging Client Libraries {#debugging-clientlibs}
+>[!VIDEO](https://video.tv.adobe.com/v/30352/?quality=12)
+
+Below are the high level steps shown in the video:
+
+1. Start the webpack dev server by running the following command from within the **ui.frontend** module:
+
+    ```shell
+    $ cd ~/code/aem-guides-wknd/ui.frontend/
+    $ npm start
+
+    > aem-maven-archetype@1.0.0 start code/aem-guides-wknd/ui.frontend
+    > webpack-dev-server --open --config ./webpack.dev.js
+    ```
+
+2. This should open a new browser window at [http://localhost:8080/](http://localhost:8080/) with static markup.
+3. Copy the page source of the LA skatepark article page at [http://localhost:4502/content/wknd/us/en/magazine/guide-la-skateparks.html?wcmmode=disabled](http://localhost:4502/content/wknd/us/en/magazine/guide-la-skateparks.html?wcmmode=disabled).
+4. Paste the copied markup from AEM into the `index.html` in the **ui.frontend** module beneath `src/main/webpack/static`.
+5. Edit the copied markup and remove any references to **clientlib-site** and **clientlib-dependencies**:
+
+    ```html
+    <!-- remove -->
+    <script type="text/javascript" src="/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.js"></script>
+    <link rel="stylesheet" href="/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.css" type="text/css">
+    <link rel="stylesheet" href="/etc.clientlibs/wknd/clientlibs/clientlib-site.css" type="text/css">
+    ...
+    <script type="text/javascript" src="/etc.clientlibs/wknd/clientlibs/clientlib-site.js"></script>
+    ```
+
+    We can remove those references because the webpack dev server will generate these artifacts automatically.
+
+6. Edit the `.scss` files and see the changes automatically reflected in the browser.
+7. Review the `/aem-guides-wknd.ui.frontend/webpack.dev.js` file. This contains the webpack configuration used to start the webpack-dev-server. Note that it proxies the paths `/content` and `/etc.clientlibs` from a locally running instance of AEM. This is how the images, and other clientlibs (not managed by the **ui.frontend** code) are made available.
+
+    >[!CAUTION]
+    >
+    > The image src of the static markup points to a live image component on a local AEM instance. Images will appear broken if the path to the image changes, if AEM is not started, or if the browser uses has not logged into the local AEM instance.
+8. You can **stop** the webpack server from the command line by typing `CTRL+C`.
+
+## Putting It Together {#putting-it-together}
+
+The focus of this tutorial is on client-side libraries and potential front-end workflows to integrate with AEM. With this in mind, we will accelerate the implementation by installing [client-side-libraries-final-styles.zip](assets/client-side-libraries/client-side-libraries-final-styles.zip), which provides some default styles for Core components used on the Article Page Template:
+
+* [Breadcrumb](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/breadcrumb.html)
+* [Download](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/download.html)
+* [Image](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/image.html)
+* [List](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/list.html)
+* [Navigation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/navigation.html)
+* [Quick Search](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/quick-search.html)
+* [Separator](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/separator.html)
+
+>[!VIDEO](https://video.tv.adobe.com/v/30351/?quality=12)
+
+Below are the high level steps shown in the video:
+
+1. Download [client-side-libraries-final-styles.zip](assets/client-side-libraries/client-side-libraries-final-styles.zip) and unzip the contents beneath `ui.frontend/src/main/webpack`. The contents of the zip should overwrite the following folders:
+
+    ```plain
+    /src/main/webpack
+             /base
+             /components
+             /resources
+    ```
+
+2. Preview the new styles using the webpack dev server:
+
+     ```shell
+    $ cd ~/code/aem-guides-wknd/ui.frontend/
+    $ npm start
+
+    > aem-maven-archetype@1.0.0 start code/aem-guides-wknd/ui.frontend
+    > webpack-dev-server --open --config ./webpack.dev.js
+    ```
+
+3. Deploy the code base to a local AEM instance to see the new styles applied to the LA skate park article:
+
+    ```shell
+    $ cd ~/code/aem-guides-wknd
+    $ mvn -PautoInstallSinglePackage clean install
+    ```
+
+## Congratulations! {#congratulations}
+
+Congratulations, the Article Page now has some consistent styles that match the WKND brand and you have become familiar with the **ui.frontend** module!
+
+### Next Steps {#next-steps}
+
+Learn how to implement individual styles and re-use Core Components using Experience Manager's Style System. [Developing with the Style System](style-system.md) covers using the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor.
+
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or review and deploy the code locally at on the Git brach `client-side-libraries/solution`.
+
+1. Clone the [github.com/adobe/aem-wknd-guides](http://github.com/adobe/aem-wknd-guides) repository.
+2. Check out the `client-side-libraries/solution` branch.
+
+## Additional Tools and Resources {#additional-resources}
+
+### aemfed {#develop-aemfed}
+
+[**aemfed**](https://aemfed.io/) is an open-source,  command-line  tool that can be used to speed up front-end development. It is powered by  [aemsync](https://www.npmjs.com/package/aemsync), [Browsersync](https://www.npmjs.com/package/browser-sync) and [Sling Log Tracer](https://sling.apache.org/documentation/bundles/log-tracers.html).
+
+At a high level **aemfed** is designed to listen to file changes within the **ui.apps** module and automatically syncs them directly to a running AEM instance. Based on the changes, a local browser will automatically refresh, thereby speeding up front-end development. It also is built to work with Sling Log tracer to automatically display any server-side errors directly in the terminal. 
+
+If you are doing a lot of work within the **ui.apps** module, modifying HTL scripts and creating custom components, **aemfed** can be a very powerful tool to use. [Full documentation can be found here.](https://github.com/abmaonline/aemfed).
+
+### Debugging Client-side Libraries {#debugging-clientlibs}
 
 With different methods of **categories** and **embeds** to include multiple client libraries it can be cumbersome to troubleshoot. AEM exposes several tools to help with this. One of the most important tools is **Rebuild Client Libraries** which will force AEM to re-compile any LESS files and generate the CSS.
 
@@ -521,129 +570,4 @@ With different methods of **categories** and **embeds** to include multiple clie
 
 * [**Rebuild Client Libraries**](http://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html) - allows a user to force AEM to rebuild all of the client libraries or invalidate the cache of client libraries. This tool is particularly effective when developing with LESS as this can force AEM to re-compile the generated CSS. In general it is more effective to Invalidate Caches and then perform a page refresh versus rebuilding all of the libraries. `<host>/libs/granite/ui/content/dumplibs.rebuild.html`
 
-    ![rebuild client library](assets/chapter-3/rebuild-clientlibs.png)
-
-## Developing with aemfed {#develop-aemfed}
-
-[**aemfed**](https://aemfed.io/) is an open-source,  command-line  tool that can be used to speed up front-end development. It is powered by  [aemsync](https://www.npmjs.com/package/aemsync), [Browsersync](https://www.npmjs.com/package/browser-sync) and [Sling Log Tracer](https://sling.apache.org/documentation/bundles/log-tracers.html).
-
-At a high level **aemfed** listens to file changes and automatically syncs the to a running AEM instance. Based on the changes, a local browser will automatically refresh, thereby speeding up front-end development. It also is built to work with Sling Log tracer to automatically display any server-side errors directly in the terminal. [Full documentation can be found here.](https://github.com/abmaonline/aemfed)
-
->[!NOTE]
->
->We will now walk through the steps of installing **aemfed** globally. For the latest and greatest instructions make sure to check the [official aemfed documentation](https://github.com/abmaonline/aemfed).
-
-1. A key part of aemfed is the ability to relay errors directly to the command line. To enable this behavior we need to update the configuration for Sling Log Tracer.
-
-   Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr) and search for **Apache Sling Log Tracer**. Update the configuration to **Enabled** and **Recording Servlet Enabled**:
-
-   ![sling log tracer](assets/chapter-3/sling-log-tracer.png)
-
-   >[!CAUTION]
-   >
-   >Apache Sling Log Tracer version 1.0.0+ should be used and should only be enabled in development and other non-production environments.
-
-2. To install **aemfed** you will need **npm** installed available via the command-line:
-
-   ```shell
-
-   $ npm --version
-   6.4+
-
-   ```
-
-   If you do not have **npm** installed, the easiest way is to download and install [Node.js](https://nodejs.org/en/download/).
-
-3. Install **aemfed** globally with the following command:
-
-   ```shell
-
-   $ npm install aemfed --global
-
-   # (aemfed is installed globally)
-
-   $ aemfed -h
-   Usage: aemfed [OPTIONS]
-   Options:
-     -t targets           Default is https://admin:admin@localhost:4502
-     -p proxy_port        Default is 3000
-     -w path_to_watch     Default is current
-     -e exclude_filter    Anymatch exclude filter; disabled by default
-     -i sync_interval     Update interval in milliseconds; default is 100
-     -o open_page         Browser page to be opened after successful launch; default is "false".
-     -b browser           Browser where page should be opened in; this parameter is platform dependent; for example, Chrome is "google chrome" on OS X, "google-chrome" on Linux and "chrome" on Windows; default is "google chrome"
-     -h                   Displays this screen
-     -v                   Displays version of this package
-
-   ```
-
-   >[!NOTE]
-   >
-   >This will allow us to run **aemfed** from any directory. See the [aemfed documentation](https://github.com/abmaonline/aemfed#installation) for instructions on how to add it to a project that uses **package.json**.
-
-4. From the command line navigate to the `<src>/aem-guides-wknd` directory. Run the following command to start  **aemfed** against an  aem  instance running on **localhost:4502**:
-
-   ```shell
-
-   aemfed -t "http://admin:admin@localhost:4502" -w "ui.apps/src/main/content/jcr_root/"
-
-   ---------------------------------------
-   [Browsersync] Proxying: http://localhost:4502
-   [Browsersync] Access URLs:
-    --------------------------------------
-          Local: https://localhost:3000
-       External: https://192.168.1.152:3000
-    --------------------------------------
-             UI: https://localhost:3001
-    UI External: https://localhost:3001
-    --------------------------------------
-
-   ```
-
-5. Navigate using the proxy URL to the AEM page you have been working with: `http://localhost:3000/content/wknd/en/first-article.html?wcmmode=disabled`
-
-   You should now see the same contents of AEM but proxied via port 3000.
-
-6. Update some of the **.less** files like **header.less** to see the changes automatically reflected in the browser
-
-   ![aemfed demo](assets/chapter-3/aemfed.gif)
-
-## Authoring with Responsive Grid {#responsive-grid-use}
-
-At this point everything needed to leverage [AEM's Responsive Grid](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/responsive-layout.html) and Layout features is enabled. Try resizing a few components using different device widths to see this working.
-
-1. Add a text component and use the Layout Mode to shrink it to half the page width. Repeat with a second text component to get 2 components side by side.
-
-   >[!NOTE]
-   >
-   >Currently the layout takes the full width of the page and it may be a little difficult to find the handles. In the next chapter we will correct this with some styles to the Layout Container.
-
-   ![resize text components](assets/chapter-3/text-resize-components.png)
-
-   Populate the Text Component with some text.
-
-   ![populated columns of text](assets/chapter-3/populatedcolumns.png)
-
-2. Add 3 Image components to the page. Next resize each of them so that the three Image components equal 1/3 of the page width and sit side by side.
-
-   ![three images](assets/chapter-3/three-images.png)
-
-   Populate the images with some pictures.
-
-   ![three images populated](assets/chapter-3/three-images-populated.png)
-
-3. While in [Layout](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/responsive-layout.html) mode use the emulator to preview the page in Mobile views. Notice that the columns simply shrink, creating a layout that is not optimized for the screen device.
-
-   ![mobile emulator resize](assets/chapter-3/layout-mode-resize.png)
-
-   Resize the components to make them stack vertically in Mobile view by expanding the width to full page width for each one.
-
-   ![layout resize](assets/chapter-3/layout-resize.gif)
-
-## Next Steps {#next-steps}
-
-Next part in the tutorial: 
-
-* [Getting Started with AEM Sites Chapter 4 - Developing with the Style System](style-system.md)
-
-View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or download the finished package for this part of the tutorial: **[WKND Chapter Solutions](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/chapter-solutions.zip)**
+![rebuild client library](assets/client-side-libraries/rebuild-clientlibs.png)
