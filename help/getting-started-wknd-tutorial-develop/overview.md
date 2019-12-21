@@ -14,7 +14,7 @@ index: y
 
 # Getting Started with AEM Sites - WKND Tutorial {#introduction}
 
-Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the through the implementation of an AEM site for a fictitious lifestyle brand the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development with Adobe Experience Manager Sites.
+Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development with Adobe Experience Manager Sites.
 
 ## Overview {#wknd-tutorial-overview}
 
@@ -22,7 +22,7 @@ The goal for this multi-part tutorial is to teach a developer how to implement a
 
 >[!VIDEO](https://video.tv.adobe.com/v/30476?quality=12)
 
-The implementation works as-is on **AEM 6.5** and **AEM 6.4.2+**. Many of the topics apply to all versions of AEM. The site is implemented using:
+The implementation works as-is on **AEM 6.5+** and **AEM 6.4.2+**. Many of the topics apply to all versions of AEM. The site is implemented using:
 
 * [Maven AEM Project Archetype](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/overview.html)
 * [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
