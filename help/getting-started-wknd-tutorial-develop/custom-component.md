@@ -352,6 +352,41 @@ Next, we'll create a Sling Model to act as the data model and house the business
 
 Sling Models are annotation driven Java "POJO's" (Plain Old Java Objects) that facilitate the mapping of data from the JCR to Java variables, and provide a number of other niceties when developing in the context of AEM.
 
+### Review Maven Dependencies {#maven-dependency}
+
+The Byline Sling Model will rely on several Java APIs provided by AEM. These APIs are made available via the `dependencies` listed in the `core` module's POM file.
+
+1. Open the `pom.xml` file beneath `<src>/aem-guides-wknd/core/pom.xml`.
+2. Find the dependency for the `uber-jar` in the dependencies section of the pom file:
+
+    ```xml
+    ...
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>uber-jar</artifactId>
+            <classifier>apis</classifier>
+        </dependency>
+    ...
+    ```
+
+    The [uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#experience-manager-api-dependencies) contains all public Java APIs exposed by AEM. Notice that a version is not specified in the `core/pom.xml` file. The version is instead maintained in the Parent reactor pom located at the root of the project `aem-guides-wknd/pom.xml`.
+
+3. Find the dependency for `core.wcm.components.core`:
+
+    ```xml
+     <!-- Core Component Dependency -->
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.core</artifactId>
+        </dependency>
+    ```
+
+    This is the all of the public Java APIs exposed by AEM Core Components. AEM Core Components is a project maintained outside of AEM and therefore has a separate release cycle. For this reason it is a dependency that needs to included separately and is **not** included with the uber-jar.
+
+    Like the uber-jar, the version for this dependency is maintained in the Parent reactor pom file located at `aem-guides-wknd/pom.xml`.
+
+    Later in this tutorial we will use the Core Component Image class to display the image in the Byline component. It is necessary to have the Core Component dependency in order to build and compile our Sling Model.
+
 ### Byline interface {#byline-interface}
 
 Create a public Java Interface for the Byline. `Byline.java` defines the public methods needed to drive the `byline.html` HTL script.
@@ -583,9 +618,11 @@ We will opt for the **second** approach. The first approach is likely sufficient
     ```
 
     With the `ModelFactory` available, a Core Component Image Sling Model can be created using:
+
     ```java
     modelFactory.getModelFromWrappedRequest(SlingHttpServletRequest request, Resource resource, java.lang.Class<T> targetClass)
     ```
+
     however, this method requires both a request and resource, neither yet available in the Sling Model. To obtain these, more Sling Model annotations are used!
 
     To get the current request the **[@Self](https://sling.apache.org/documentation/bundles/models.html#injector-specific-annotations)** annotation can be  used to inject the `adaptable` (which is defined in the `@Model(..)` as `SlingHttpServletRequest.class`, into a Java class field.
@@ -656,7 +693,7 @@ We will opt for the **second** approach. The first approach is likely sufficient
 
     Note multiple calls to `getImage()` is not problematic as returns the initialized `image` class variable and does not invoke `modelFactory.getModelFromWrappedRequest(...)` which isn't an overly costly, but worth avoiding calling unnecessarily.
 
-The final `BylineImpl.java` should look like:
+7. The final `BylineImpl.java` should look like:
 
     ```java
 
@@ -743,7 +780,7 @@ The final `BylineImpl.java` should look like:
         }
 
         /**
-        * @return the Image Sling Model of this resource, or null if the resource cannot create a valid Image Sling Model. 
+        * @return the Image Sling Model of this resource, or null if the resource cannot create a valid Image Sling Model.
         */
         private Image getImage() {
             return image;
