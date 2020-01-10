@@ -17,11 +17,11 @@ discoiquuid: ba91d9df-dc61-47d8-8e0a-e3f66cae6a87
 
 Generate Document Of Record (DOR) programmatically
 
-This article illustrates the use of the `com.adobe.aemds.guide.addon.dor.DoRService API` to generate **Document of Record** programmatically. [Document of Record](https://helpx.adobe.com/aem-forms/6-5/generate-document-of-record-for-non-xfa-based-adaptive-forms.html#Document of Record Template Configuration) is a PDF version of the data captured in Adaptive Form.
+This article illustrates the use of the `com.adobe.aemds.guide.addon.dor.DoRService API` to generate **Document of Record** programmatically. [Document of Record](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/generate-document-of-record-for-non-xfa-based-adaptive-forms.html) is a PDF version of the data captured in Adaptive Form.
 
 1. The following is the code snippet. The first line gets the DOR Service.
-1. Then we set the DoROptions.
-1. Then we invoke the render method of the DoRService and pass the DoROptions object to the render method
+1. Set the DoROptions.
+1. Invoke the render method of the DoRService and pass the DoROptions object to the render method
 
 ```java {.line-numbers}
 com.adobe.aemds.guide.addon.dor.DoRService dorService = sling.getService(com.adobe.aemds.guide.addon.dor.DoRService.class);
