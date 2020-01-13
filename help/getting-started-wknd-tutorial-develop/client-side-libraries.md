@@ -545,7 +545,7 @@ Learn how to implement individual styles and re-use Core Components using Experi
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or review and deploy the code locally at on the Git brach `client-side-libraries/solution`.
 
-1. Clone the [github.com/adobe/aem-wknd-guides](http://github.com/adobe/aem-wknd-guides) repository.
+1. Clone the [github.com/adobe/aem-wknd-guides](https://github.com/adobe/aem-guides-wknd) repository.
 2. Check out the `client-side-libraries/solution` branch.
 
 ## Additional Tools and Resources {#additional-resources}

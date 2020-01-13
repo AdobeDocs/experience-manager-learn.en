@@ -327,6 +327,6 @@ Get familiar with Adobe Experience Manager pages and templates in the next chapt
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or review and deploy the code locally at on the Git brach `component-basics/solution`.
 
-1. Clone the [github.com/adobe/aem-wknd-guides](http://github.com/adobe/aem-wknd-guides) repository.
+1. Clone the [github.com/adobe/aem-wknd-guides](https://github.com/adobe/aem-guides-wknd) repository.
 2. Check out the `component-basics/solution` branch
 
