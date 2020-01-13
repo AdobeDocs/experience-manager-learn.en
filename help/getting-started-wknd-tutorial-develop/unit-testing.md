@@ -485,7 +485,7 @@ Remember that this method must return an alphabetically sorted list of occupatio
 
 3. Run the test, and again we pass! Looks like getting the sorted occupations works!
 
-   ![Get Occupations pass](assets/chapter-6/testgetoccupations-success.png)
+   ![Get Occupations pass](assets/unit-testing/testgetoccupations-success.png)
     *testGetOccupations() passes*
 
 ## Testing isEmpty() {#testing-is-empty}

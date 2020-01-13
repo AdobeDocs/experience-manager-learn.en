@@ -14,15 +14,15 @@ index: y
 
 # Getting Started with AEM Sites - WKND Tutorial {#introduction}
 
-Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, client libraries, and component development with Adobe Experience Manager Sites.
+Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, Client-side libraries, and component development with Adobe Experience Manager Sites.
 
 ## Overview {#wknd-tutorial-overview}
 
-The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial a developer understands the basic foundation of the platform and has knowledge of common design patterns in AEM.
+The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial a developer should understand the basic foundation of the platform and with knowledge of common design patterns in AEM.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30476?quality=12)
 
-The implementation works as-is on **AEM 6.5+** and **AEM 6.4.2+**. Many of the topics apply to all versions of AEM. The site is implemented using:
+The tutorial is designed to work with **AEM as a Cloud Service** and is backwards compatible with **AEM 6.5+** and **AEM 6.4.2+**. The site is implemented using:
 
 * [Maven AEM Project Archetype](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/overview.html)
 * [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
@@ -60,19 +60,20 @@ In addition, each part of the tutorial has its own branch in GitHub. A user can 
 >
 > If you were working with the previous version of this tutorial, you can still find the [solution packages](https://github.com/adobe/aem-guides-wknd/releases/tag/archetype-18.1) and [code](https://github.com/adobe/aem-guides-wknd/tree/archetype-18.1) on GitHub.
 
-
 ## Local Development Environment {#local-dev-environment}
 
-A local development environment is necessary to complete this tutorial. Screenshots and video are captured from a Mac OS environment but the commands and code used should be independent of the local operating system, unless otherwise noted.
+A local development environment is necessary to complete this tutorial. Screenshots and video are captured using the AEM as a Cloud Service SDK running on a Mac OS environment. Commands and code should be independent of the local operating system, unless otherwise noted.
 
-**New to AEM?** Check out the [following guide to setting up a local development environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+**New to AEM as a Cloud Service?** Check out the [following guide to setting up a local development environment using the AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html).
+
+**New to AEM 6.5?** Check out the [following guide to setting up a local development environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 ### Required software
 
-The following should be installed:
+The following should be installed locally:
 
-* [AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/technical-requirements.html) or [AEM 6.4 + SP2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
-* [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html) or [Java 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) (AEM 6.5+ only)
+* [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html#download-the-aem-as-a-cloud-service-sdk) or [AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/technical-requirements.html) or [AEM 6.4 + SP2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
+* [Java 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) (AEM 6.5+ only)
 * [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
 * [Node.js v10+](https://nodejs.org/en/)
 * [npm 6+](https://www.npmjs.com/)
@@ -88,9 +89,9 @@ For detailed steps for using Eclipse or other IDEs like [Visual Studio Code](htt
 
 A finished version of the WKND Site is also available as a reference: [https://wknd.site/](https://wknd.site/)
 
-The tutorial covers the major development skills needed for an AEM developer but will not build the entire site end-to-end. The finished reference site is another great resource to explore and see more of AEM's out of the box capabilities.
+The tutorial covers the major development skills needed for an AEM developer but will *not* build the entire site end-to-end. The finished reference site is another great resource to explore and see more of AEM's out of the box capabilities.
 
-To test the latest code before jumping into the tutorial, download and install the [latest release from GitHub](https://github.com/adobe/aem-guides-wknd/releases/latest).
+To test the latest code before jumping into the tutorial, download and install the **[latest release from GitHub](https://github.com/adobe/aem-guides-wknd/releases/latest)**.
 
 ### Powered by Adobe Stock
 

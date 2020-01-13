@@ -300,5 +300,5 @@ At this point the article page is clearly un-styled. Follow the [Client-Side Lib
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or review and deploy the code locally at on the Git brach `pages-templates/solution`.
 
-1. Clone the [github.com/adobe/aem-wknd-guides](http://github.com/adobe/aem-wknd-guides) repository.
+1. Clone the [github.com/adobe/aem-wknd-guides](https://github.com/adobe/aem-guides-wknd) repository.
 2. Check out the `pages-templates/solution` branch.
