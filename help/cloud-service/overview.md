@@ -12,7 +12,7 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 * **[Local Development Environment Set Up (Tutorial)](./local-development-environment/overview.md)**
     <br>
-    *Learn how to set up your local machine for AEM as a Cloud Service development*
+    *Learn how to set up your local development machine for AEM as a Cloud Service development*
 
 * **[Get started developing for AEM Sites (Tutorial)](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**
     <br>
@@ -21,6 +21,18 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 * **[Integrating with Git (Video)](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/setup-cloud-manager-git-integration.html)**
     <br>
     *Learn how to work with Git to easily deploy your project to AEM as a Cloud Service using Adobe Cloud Manager*
+
+* **[Understand Processing Profiles and Assets microservices (Video)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html#get-started)**
+   <br>
+   *Learn about how Adobe Experience Manager as a Cloud Service uses Assets microservices and Processing Profiles to create asset renditions.*
+
+* **[Understand the Structure of a Project Content Package (Article)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)**
+    <br>
+    *Adobe Experience Manager as a Cloud Service adjusts the Maven Project structure, clearly separating Code from Content*
+
+* **[Develop a Repository Structure Package (Article)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/repository-structure-package.html)**
+   <br>
+   *Learn about Repository Structure Packages and why they are needed for Adobe Experience Manager as a Cloud Service projects*
 
 ## Staff Picks
 
