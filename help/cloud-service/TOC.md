@@ -13,3 +13,4 @@ team: TM
   + [Development Tools for AEM Projects](./local-development-environment/development-tools.md)
   + [Local AEM Runtime](./local-development-environment/aem-runtime.md)
   + [Local Dispatcher Tools](./local-development-environment/dispatcher-tools.md)
++ [Getting Started Developing AEM Sites - WKND Tutorial](./develop-wknd-tutorial.md)
