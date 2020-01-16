@@ -18,13 +18,17 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
     <br>
     *An end-to-end tutorial on how to develop a Web site in AEM as a Cloud Service*
 
-* **[Integrating with Git (Video)](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/setup-cloud-manager-git-integration.html)**
+* **[Deploying to AEM as a Cloud Service using Cloud Manager (Video)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#introduction)**
+    <br>
+    *A quick overview of how deployments work when using AEM as a Cloud Service*
+
+* **[Integrating Git with Adobe Cloud Manager (Video)](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/setup-cloud-manager-git-integration.html)**
     <br>
     *Learn how to work with Git to easily deploy your project to AEM as a Cloud Service using Adobe Cloud Manager*
 
 * **[Understand Processing Profiles and Assets microservices (Video)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html#get-started)**
    <br>
-   *Learn about how Adobe Experience Manager as a Cloud Service uses Assets microservices and Processing Profiles to create asset renditions.*
+   *Learn about how Adobe Experience Manager as a Cloud Service uses Assets microservices and Processing Profiles to create asset renditions*
 
 * **[Understand the Structure of a Project Content Package (Article)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)**
     <br>
