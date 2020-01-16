@@ -1,8 +1,6 @@
 ---
-title: Set up Sling Dynamic Include
-seo-title: Set up Sling Dynamic Include in AEM
-description: A video walk-through of installing and using Apache Sling Dynamic Include with AEM Dispatcher running on Apache HTTPD Web Server.
-seo-description: A video walk-through of installing and using Apache Sling Dynamic Include with AEM Dispatcher running on Apache HTTPD Web Server.
+title: Set up Sling Dynamic Include for AEM
+description: A video walk-through of installing and using Apache Sling Dynamic Include with AEM Dispatcher running on Apache HTTP Web Server.
 version: 6.3, 6.4, 6.5
 sub-product: foundation, sites
 feature: core-components, dispatcher
@@ -10,13 +8,11 @@ topics: caching
 activity: develop
 audience: architect, developer
 doc-type: technical-video
-uuid: 6a6ed2af-59dd-411f-b792-8b097ef1cd05
-discoiquuid: f3282873-04c0-4a9e-8a6e-10f2ed2c579a
 ---
 
 # Set up Sling Dynamic Include
 
-A video walk-through of installing and using Apache Sling Dynamic Include with [AEM Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html) running on Apache HTTPD Web Server.
+A video walk-through of installing and using Apache Sling Dynamic Include with [AEM Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html) running on Apache HTTP Web Server.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17040/?quality=12)
 
@@ -89,7 +85,6 @@ A video walk-through of installing and using Apache Sling Dynamic Include with [
 
    ```shell
    $ sudo vi .../vhosts/aem-publish.local.conf
-   
    ```
 
    ```shell
@@ -109,7 +104,6 @@ A video walk-through of installing and using Apache Sling Dynamic Include with [
       </Directory>
    ...
    </VirtualHost>
-   
    ```
 
 1. Update the dispatcher.any configuration file to support (1) `nocache` selectors and (2) enable TTL support.
@@ -128,6 +122,10 @@ A video walk-through of installing and using Apache Sling Dynamic Include with [
    }
    ```
 
+   >[!TIP]
+   >
+   > Leaving the trailing `*` off in the glob `*.nocache.html*` rule above, can result in [issues in requests for sub-resources](https://github.com/AdobeDocs/experience-manager-learn.en/issues/16).
+
    ```shell
    /cache {
        ...
@@ -139,7 +137,6 @@ A video walk-through of installing and using Apache Sling Dynamic Include with [
 
    ```shell
    $ sudo apachectl restart
-   
    ```
 
 >[!NOTE]
