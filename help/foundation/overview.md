@@ -77,6 +77,7 @@ Adobe Experience Manager Foundation provides a common set of capabilities availa
 ## Additional Resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+* [AEM as a Cloud Service Tutorials](/help/cloud-service/overview.md)
 * [AEM Sites Videos and Tutorials](/help/sites/overview.md)
 * [AEM Assets Videos and Tutorials](/help/assets/overview.md)
 * [AEM Forms Videos and Tutorials](/help/forms/overview.md)
