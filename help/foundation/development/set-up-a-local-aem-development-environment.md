@@ -35,9 +35,9 @@ It is also *critical* test code against a local ***Publish*** instance. The ***P
 
 ### Steps
 
-1. Ensure [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) is installed.
-    * Prefer [Java JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/index.html#JDK11) for AEM 6.5+
-    * Prefer [Java JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/index.html#JDK8) for AEM versions prior to AEM 6.5
+1. Ensure [Java](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html) is installed.
+    * Prefer [Java JDK 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html) for AEM 6.5+
+    * [Java JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/index.html#JDK8) for AEM versions prior to AEM 6.5
 2. Get a copy of the [AEM Quickstart Jar and a license.properties](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingtheSoftware).
 3. Create a folder structure on your computer like the following:
 

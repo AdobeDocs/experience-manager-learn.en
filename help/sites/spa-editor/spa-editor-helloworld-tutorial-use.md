@@ -43,7 +43,7 @@ This tutorial is designed for:
 
 In this tutorial the following technologies and tools should be installed:
 
-1. [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+1. [Java 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 2. [Apache Maven - 3.3.1+](https://maven.apache.org/)
 3. [Node.js - 8.11.1+](https://nodejs.org/en/) and  npm  5.6.0+ (npm is installed with node.js)
 
@@ -52,7 +52,7 @@ Double check the installation of the above tools by opening up a new terminal an
 ```shell
 
 $ java -version
-java version "1.8 +"
+java version "11 +"
 
 $ mvn -version
 Apache Maven 3.3.9
