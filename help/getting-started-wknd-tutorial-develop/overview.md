@@ -73,7 +73,7 @@ A local development environment is necessary to complete this tutorial. Screensh
 The following should be installed locally:
 
 * [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html#download-the-aem-as-a-cloud-service-sdk) or [AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/technical-requirements.html) or [AEM 6.4 + SP2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
-* [Java 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) (AEM 6.5+ only)
+* [Java 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html) (AEM 6.5+ only)
 * [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
 * [Node.js v10+](https://nodejs.org/en/)
 * [npm 6+](https://www.npmjs.com/)

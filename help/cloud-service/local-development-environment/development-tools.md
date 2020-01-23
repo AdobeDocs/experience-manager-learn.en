@@ -18,7 +18,7 @@ Adobe Experience Manager (AEM) development requires a minimal set of development
 
 Experience Manager is a Java application, and thus requires the Java SDK to support the development and the AEM as a Cloud Service SDK.
 
-1. [Download and install the latest release Java 11 SDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
+1. [Download and install the latest release Java 11 SDK](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 1. Verify Java 11 SDK is installed by running the command: `java --version`
 
 ![Java](./assets/development-tools/java.png)
