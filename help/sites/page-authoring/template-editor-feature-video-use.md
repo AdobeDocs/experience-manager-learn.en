@@ -9,8 +9,7 @@ audience: all
 doc-type: feature-video
 activity: use
 version: 6.3, 6.4, 6.5
-uuid: f3868588-2192-432b-bd89-17a8623d05e8
-discoiquuid: 32ad1b34-17c5-4313-8e3e-0ffcfb6e2c32
+kt: 193
 ---
 
 # Using Editable Page Templates{#using-template-editor-with-aem-sites}

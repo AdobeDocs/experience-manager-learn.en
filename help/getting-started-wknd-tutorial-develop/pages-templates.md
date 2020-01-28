@@ -10,7 +10,7 @@ doc-type: tutorial
 activity: develop
 audience: developer
 mini-toc-levels: 1
-index: y
+kt: 4082
 ---
 
 # Pages and Templates {#pages-and-template}

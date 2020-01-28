@@ -9,8 +9,7 @@ audience: all
 doc-type: feature-video
 activity: use
 version: 6.3, 6.4, 6.5
-uuid: 97f3a2d8-7703-44f7-82f4-2f9cc7d98c79
-discoiquuid: 9c40d8c3-45c4-4681-b0dd-0c7398f0e03f
+kt: 974
 ---
 
 # Using the Style System{#using-the-style-system-with-aem-sites}
@@ -25,8 +24,8 @@ The styles we'll be reviewing are provided by the We.Retail application for the 
 
 ## Supporting materials {#supporting-materials}
 
-[demo.sites.style-system-2.0.0.zip (This requires AEM 6.4 or greater)](assets/demo_sites_style-system-200.zip)
+[demo.sites.style-system-2.0.0.zip (This requires AEM 6.4 or greater and the We.Retail demo site installed)](assets/demo_sites_style-system-200.zip)
 
 ## Additional Resources {#additional-resources}
 
-* [Style System Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html)
+* [Style System Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html)

@@ -9,6 +9,7 @@ audience: author, marketer
 doc-type: feature-video
 activity: understand
 version: 6.3, 6.4, 6.5
+kt: 3308
 ---
 
 # Understanding Page Properties {#understanding-page-properties-aem-sites}
