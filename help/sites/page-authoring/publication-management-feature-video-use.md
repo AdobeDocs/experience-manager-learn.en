@@ -8,8 +8,7 @@ audience: all
 doc-type: feature-video
 activity: use
 version: 6.3, 6.4, 6.5
-uuid: 6e92301a-6fd1-4098-afe0-e064d87c0a2a
-discoiquuid: d1eb7188-c19b-41b8-955f-894cc93ddeed
+kt: 185
 ---
 
 # Publishing Pages {#using-publication-management-with-aem-sites}

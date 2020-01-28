@@ -9,6 +9,7 @@ audience: author, marketer
 doc-type: feature-video
 activity: use
 version: 6.3, 6.4, 6.5
+kt: 3260
 ---
 
 # Creating a Page {#creating-page-aem-sites}

@@ -9,8 +9,7 @@ audience: author, marketer
 doc-type: feature-video
 activity: use
 version: 6.3, 6.4, 6.5
-uuid: 4dedda64-17ba-40a8-a182-e31298ea232f
-discoiquuid: 5fa88d51-2dac-4209-aaaa-7af33a732d49
+kt: 439
 ---
 
 # Understanding Responsive Layout {#understanding-responsive-layout-with-aem-sites}
@@ -21,4 +20,4 @@ Adobe Experience Manager Sites allows an author to manage the width of a compone
 
 ## Additional Resources {#additional-resources}
 
-* [Responsive Layout Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* [Responsive Layout Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/responsive-layout.html)
