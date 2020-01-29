@@ -33,7 +33,7 @@ With Experience Fragments marketers can:
 
 ## Building Blocks with Experience Fragments
 
-Building blocks is a new enhancement added to Experience Fragment in AEM 6.4+. It lets content authors to create a building block consisting of components that could be re-used to create content across different variations and across different templates.
+Building blocks is a new enhancement added to Experience Fragment in AEM 6.4+. It lets content authors create a building block consisting of components that could be re-used to create content across different variations and across different templates.
 
 >[!VIDEO](https://video.tv.adobe.com/v/21289/?quality=9)
 
