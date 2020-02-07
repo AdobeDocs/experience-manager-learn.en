@@ -163,7 +163,7 @@ The basic idea behind the **ui.frontend** module is to be able to use great tool
 
 ### Use
 
-Now we will to add some base styles for the WKND brand by adding some Sass files (`.scss` extension) via the **ui.frontend** module.
+Now we will add some base styles for the WKND brand by adding some Sass files (`.scss` extension) via the **ui.frontend** module.
 
 1. Open up the **ui.frontend** module and navigate to `src/main/webpack/base/sass`.
 
