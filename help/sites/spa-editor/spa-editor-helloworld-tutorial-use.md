@@ -69,7 +69,7 @@ $ npm --version
 
 The basic concept is to map  a SPA  Component to an AEM Component. AEM components, running server-side, export content in the form of JSON. The JSON content is consumed by the SPA, running client-side in the browser. A 1:1 mapping between SPA components and an AEM component is created.
 
-![SPA component mapping](assets/mapto.png)
+![SPA component mapping](assets/spa-editor-helloworld-tutorial-use/mapto.png)
 
 Popular frameworks [React JS](https://reactjs.org/) and [Angular](https://angular.io/) are supported out of the box. Users can complete this tutorial in either Angular or React, whichever framework they are most comfortable with.
 
@@ -82,7 +82,7 @@ SPA development has one foot in AEM development, and the other out. The goal is 
 * To build for AEM, the SPA project is compiled and automatically included in the AEM project.
 * Standard AEM Packages used to deploy the SPA into AEM.
 
-![Overview of artifacts and deployment](assets/spa-artifact-deployment.png)
+![Overview of artifacts and deployment](assets/spa-editor-helloworld-tutorial-use/spa-artifact-deployment.png)
 
 *SPA development has one foot in AEM development, and the other out - allowing SPA development to occur independently, and (mostly) agnostic to AEM.*
 
@@ -104,7 +104,7 @@ The goal of this tutorial is to extend the We.Retail  Journal App with a new com
 
 2. The following structure should be visible:
 
-   ![Project folder structure](assets/folder-structure.png)
+   ![Project folder structure](assets/spa-editor-helloworld-tutorial-use/folder-structure.png)
 
    The project contains the following maven modules:
 
@@ -141,11 +141,11 @@ The goal of this tutorial is to extend the We.Retail  Journal App with a new com
 
 5. In Edit mode, select a component to edit and make an update to the content.
 
-   ![Edit a component](assets/editcontent.png)
+   ![Edit a component](assets/spa-editor-helloworld-tutorial-use/editcontent.png)
 
 6. Select the Page Properties Icon to open the Page Properties Menu. Select Edit Template to open the page's template.
 
-    ![Page properties menu](assets/page-properties.png)
+    ![Page properties menu](assets/spa-editor-helloworld-tutorial-use/page-properties.png)
 
 7. In the latest version of the SPA Editor, [Editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) can be used in the same way as with traditional Sites implementations. This will be revisited later with our custom component.
 
@@ -155,7 +155,7 @@ The goal of this tutorial is to extend the We.Retail  Journal App with a new com
 
 ## Development Overview {#development-overview}
 
-![Overview development](assets/diagramv2.png)
+![Overview development](assets/spa-editor-helloworld-tutorial-use/diagramv2.png)
 
 SPA development iterations occur independently of AEM. When the SPA is ready to be deployed into AEM the following high-level steps take place (as illustrated above).
 
@@ -211,7 +211,7 @@ Using Eclipse, or other IDE, import the We.Retail Journal Maven project.
 
    ```
 
-   ![Hello World Component](assets/hello-world-component.png)
+   ![Hello World Component](assets/spa-editor-helloworld-tutorial-use/hello-world-component.png)
 
     >[!NOTE]
     >
@@ -271,7 +271,7 @@ Using Eclipse, or other IDE, import the We.Retail Journal Maven project.
    </jcr:root>
    ```
 
-    ![file structure](assets/updated-with-dialog.png)
+    ![file structure](assets/spa-editor-helloworld-tutorial-use/updated-with-dialog.png)
 
     The above XML node definition will create a dialog with a single textfield that will allow a user to enter a "message". Note the property `name="./message"` within the `<message />` node. This the name that of the property that will be stored in the JCR within AEM.
 
@@ -298,7 +298,7 @@ Using Eclipse, or other IDE, import the We.Retail Journal Maven project.
 
    In [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/we-retail-journal/global/components/helloworld) validate the component has been deployed by inspecting the folder under `/apps/we-retail-journal/components:`
 
-   ![Deployed component structure in CRXDE Lite](assets/updated-component-withdialogs.png)
+   ![Deployed component structure in CRXDE Lite](assets/spa-editor-helloworld-tutorial-use/updated-component-withdialogs.png)
 
 ## Create Sling Model {#create-sling-model}
 
@@ -317,7 +317,7 @@ Sling Models are also used in the SPA use case to implement server-side business
     * Create a new class named `HelloWorld`.
     * Add an implementing interface for `com.adobe.cq.export.json.ComponentExporter.`
 
-   ![New Java Class Wizard](assets/fig5.png)
+   ![New Java Class Wizard](assets/spa-editor-helloworld-tutorial-use/fig5.png)
 
    The ComponentExporter interface must be implemented in order for the Sling Model to be compatible with AEM Content Services.
 
@@ -446,7 +446,7 @@ Next, the React component will be created. Open the **react-app** module ( `<src
 
 1. Inside the `react-app` folder navigate to its src folder. Expand the components folder to view the existing React component files.
 
-   ![react component file structure](assets/react-components.png)
+   ![react component file structure](assets/spa-editor-helloworld-tutorial-use/react-components.png)
 
 2. Add a new file beneath the components folder named `HelloWorld.js`.
 3. Open `HelloWorld.js`. Add an import statement to import the React component library. Add a second import statement to import the `MapTo` helper provided by Adobe. The MapTo helper provides a mapping of the React component to the AEM component's JSON.
@@ -590,7 +590,7 @@ Next, the Angular component will be created. Open the **angular-app** module ( `
 
 1. Inside the `angular-app` folder navigate to its src folder. Expand the components folder to view the existing Angular component files.
 
-   ![Angular file structure](assets/angular-file-structure.png)
+   ![Angular file structure](assets/spa-editor-helloworld-tutorial-use/angular-file-structure.png)
 
 2. Add a new folder beneath the components folder named `helloworld`. Beneath the `helloworld` folder add new files named `helloworld.component.css, helloworld.component.html, helloworld.component.ts`.
 
@@ -782,15 +782,15 @@ Next, the Angular component will be created. Open the **angular-app** module ( `
 
 2. Select the main Layout Container and select the Policy icon to open its policy:
 
-    ![Select layout policy](assets/select-page-policy.png)
+    ![Select layout policy](assets/spa-editor-helloworld-tutorial-use/select-page-policy.png)
 
     Under **Properties** > **Allowed Components**, perform a search for **"Custom Components"**. You should see the **Hello World** component, select it. Save your changes by clicking the checkbox in the upper-right-hand corner.
 
-    ![Layout Container policy configuration](assets/layoutcontainer-update.png)
+    ![Layout Container policy configuration](assets/spa-editor-helloworld-tutorial-use/layoutcontainer-update.png)
 
 3. After saving, you should see the **HelloWorld** component as an allowed component in the Layout Container.
 
-    ![Allowed components updated](assets/allowed-components.png)
+    ![Allowed components updated](assets/spa-editor-helloworld-tutorial-use/allowed-components.png)
 
     >[!NOTE]
     >
@@ -798,7 +798,7 @@ Next, the Angular component will be created. Open the **angular-app** module ( `
 
     CRXDE-Lite showing the updated policy configurations for Allowed Components in the Layout Container:
 
-    ![CRXDE-Lite showing the updated policy configurations for Allowed Components in the Layout Container.](assets/editable-template-policy.png)
+    ![CRXDE-Lite showing the updated policy configurations for Allowed Components in the Layout Container.](assets/spa-editor-helloworld-tutorial-use/editable-template-policy.png)
 
 ## Putting it all together {#putting-together}
 
@@ -809,21 +809,21 @@ Next, the Angular component will be created. Open the **angular-app** module ( `
 
 2. Find the **Hello World** component and drag and drop the **Hello World** component on to the page.
 
-   ![hello world drag + drop](assets/fig7.png)
+   ![hello world drag + drop](assets/spa-editor-helloworld-tutorial-use/fig7.png)
 
    The placeholder should appear.
 
-   ![Hello world place holder](assets/fig10.png)
+   ![Hello world place holder](assets/spa-editor-helloworld-tutorial-use/fig10.png)
 
 3. Select the component and add a message in the dialog, i.e "World" or "Your Name". Save the changes.
 
-   ![rendered component](assets/fig11.png)
+   ![rendered component](assets/spa-editor-helloworld-tutorial-use/fig11.png)
 
    Note that the string "Hello " is always prepended to the message. This is a result of the logic in the `HelloWorld.java` Sling Model.
 
 ## Next Steps {#next-steps}
 
-[Completed Solution for HelloWorld component](assets/aem-sample-we-retail-journal-HelloWorldSolution.zip)
+[Completed Solution for HelloWorld component](assets/spa-editor-helloworld-tutorial-use/aem-sample-we-retail-journal-HelloWorldSolution.zip)
 
 * Full source code for [We.Retail Journal on GitHub](https://github.com/adobe/aem-sample-we-retail-journal)
 * Check out a more in-depth tutorial on developing React with [Getting Started with the AEM SPA Editor - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
@@ -834,7 +834,7 @@ Next, the Angular component will be created. Open the **angular-app** module ( `
 
 **Error:** An error when importing the We.Retail  Journal project into Eclipse for unrecognized goal executions: "*Execution  npm  install, Execution  npm  run build, Execution default-analyze-classes*".
 
-![eclipse error wizard](assets/fig9.png)
+![eclipse error wizard](assets/spa-editor-helloworld-tutorial-use/fig9.png)
 
 **Resolution**: Click Finish to resolve these later. This should not prevent the completion of the tutorial.
 
@@ -844,7 +844,7 @@ Next, the Angular component will be created. Open the **angular-app** module ( `
 
 ### Unsatisfied dependencies in AEM {#unsatisfied-dependencies-in-aem}
 
-![Package manager dependency error](assets/we-retail-journal-package-dependency.png)
+![Package manager dependency error](assets/spa-editor-helloworld-tutorial-use/we-retail-journal-package-dependency.png)
 
 If an AEM dependency is not satisfied, in either the **AEM Package Manager** or in the **AEM Web Console** (Felix Console), this indicates that SPA Editor Feature is not available.
 
@@ -856,4 +856,4 @@ If an AEM dependency is not satisfied, in either the **AEM Package Manager** or 
 
 Navigate to: [http://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html](http://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html) and click Invalidate Cache. Return to your React/Angular page and refresh the page.
 
-![Rebuild Client library](assets/invalidatecache.png)
+![Rebuild Client library](assets/spa-editor-helloworld-tutorial-use/invalidatecache.png)
