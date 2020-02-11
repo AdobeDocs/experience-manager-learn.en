@@ -1,5 +1,5 @@
 ---
-title: Set up Local AEM Runtime
+title: Set up Local AEM Runtime for AEM as a Cloud Service Development
 description: Set up the Local AEM Runtime using the AEM as a Cloud Service SDK's QuickStart Jar.
 feature:
 topics: development
@@ -14,22 +14,26 @@ kt: 3290
 
 Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Service SDK's QuickStart Jar. This allows developers to deploy to, and test custom code, configuration and content prior to committing it to source control, and deploying it to a AEM as a Cloud Service environment.
 
+ Note that `~` is used as shorthand for the User's Directory. In Windows, this is the equivalent of `%HOMEPATH%`.
+
 ## Install Java
 
 Experience Manager is a Java application, and thus requires the Java SDK to support the development tooling.
 
 1. [Download and install the latest release Java 11 SDK](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
-1. Verify Java 11 SDK is installed by running the command: `java --version`
+1. Verify Java 11 SDK is installed by running the command:
+    + Windows:`java -version`
+    + macOS / Linux: `java --version`
 
 ![Java](./assets/aem-runtime/java.png)
 
 ## Download the AEM as a Cloud Service SDK
 
-The AEM as a Cloud Service SDK, or AEM SDK, contains the Quickstart Jar used to run AEM Author and Publish locally for development, as well as the compatible version of the Dispatcher Tools.
+The AEM as a Cloud Service SDK, or AEM SDK, contains the QuickStart Jar used to run AEM Author and Publish locally for development, as well as the compatible version of the Dispatcher Tools.
 
 1. Log in to [downloads.experiencecloud.adobe.com](http://downloads.experiencecloud.adobe.com/) with your Adobe ID
       + Note that your Adobe Organization __must__ be provisioned for AEM as a Cloud Service to download the AEM as a Cloud Service SDK.
-1. Search for `aem-sdk`
+1. Navigate to the __AEM as a Cloud Service__ tab
 1. Sort by __Published Date__ in __Descending__ order
 1. Click on the latest __AEM SDK__ result row
 1. Review and accept the EULA, and tap the __Download__ button
@@ -54,13 +58,25 @@ The local AEM Author Service provides developers with a local experience digital
      + Provide the admin password as `admin`. Any admin password is acceptable, however its recommend to use the default for local development to reduce the need to re-configure.
 1. Access the local AEM Author Service at [http://localhost:4502](http://localhost:4502) in a Web browser
 
-```
-$ mkdir -p ~/aem-sdk/author
-$ cp aem-sdk-quickstart-XXX.jar ~/aem-sdk/author/aem-author-p4502.jar
-$ cp ../license.properties ~/aem-sdk/author
-$ cd ~/aem-sdk/author
-$ java -jar aem-author-p4502.jar
-```
+Windows:
+
+  ```{shell}
+  $ mkdir -p c:\Users\<My User>\aem-sdk\author
+  $ copy aem-sdk-quickstart-XXX.jar c:\Users\<My User>\aem-sdk\author\aem-author-p4502.jar
+  $ copy ../license.properties c:\Users\<My User>\aem-sdk\author
+  $ cd c:\Users\<My User>\aem-sdk\author
+  $ java -jar aem-author-p4502.jar
+  ```
+
+macOS / Linux:
+
+  ```{shell}
+  $ mkdir -p ~/aem-sdk/author
+  $ cp aem-sdk-quickstart-XXX.jar ~/aem-sdk/author/aem-author-p4502.jar
+  $ cp ../license.properties ~/aem-sdk/author
+  $ cd ~/aem-sdk/author
+  $ java -jar aem-author-p4502.jar
+  ```
 
 ## Set up local AEM Publish Service
 
@@ -75,17 +91,29 @@ The local AEM Publish Service provides developers with the local experience end-
       + Provide the admin password as `admin`. Any admin password is acceptable, however its recommend to use the default for local development to reduce the need to re-configure.
 1. Access the local AEM Publish Service at [http://localhost:4503](http://localhost:4503) in a Web browser
 
-```
-$ mkdir -p ~/aem-sdk/publish
-$ cp aem-sdk-quickstart-XXX.jar ~/aem-sdk/author/aem-publish-p4503.jar
-$ cp ../license.properties ~/aem-sdk/publish
-$ cd ~/aem-sdk/publish
-$ java -jar aem-publish-p4503.jar
-```
+Windows:
+
+  ```{shell}
+  $ mkdir -p c:\Users\<My User>\aem-sdk\publish
+  $ copy aem-sdk-quickstart-XXX.jar c:\Users\<My User>\aem-sdk\publish\aem-publish-p4503.jar
+  $ copy ../license.properties c:\Users\<My User>\aem-sdk\publish
+  $ cd c:\Users\<My User>\aem-sdk\publish
+  $ java -jar aem-publish-p4503.jar
+  ```
+
+macOS / Linux:
+
+  ```{shell}
+  $ mkdir -p ~/aem-sdk/publish
+  $ cp aem-sdk-quickstart-XXX.jar ~/aem-sdk/publish/aem-publish-p4503.jar
+  $ cp ../license.properties ~/aem-sdk/publish
+  $ cd ~/aem-sdk/publish
+  $ java -jar aem-publish-p4503.jar
+  ```
 
 ## QuickStart Jar start-up modes
 
-The naming of the QuickStart Jar, `aem-<tier>_<environment>-p<port number>.jar` specifies how it will start up. Once AEM as started in a specific tier, author or publish, it cannot be changed to the alternate tier. To do this, the `crx-quickstart` folder generated during the first run must be deleted, and Quickstart Jar must be run again. Environment and Ports can be changed, however they require stop/start of the local AEM instance.
+The naming of the QuickStart Jar, `aem-<tier>_<environment>-p<port number>.jar` specifies how it will start up. Once AEM as started in a specific tier, author or publish, it cannot be changed to the alternate tier. To do this, the `crx-quickstart` folder generated during the first run must be deleted, and QuickStart Jar must be run again. Environment and Ports can be changed, however they require stop/start of the local AEM instance.
 
 Changing environments, `dev`, `stage` and `prod`, can be useful for developers to ensure environment-specific configurations are correctly defined and resolved by AEM. It is recommended that local development primarily be done against the default `dev` environment run mode.
 
@@ -102,7 +130,7 @@ The available permutations are as follows:
 + `aem-publish-p4503.jar`
   + As Author in Dev run mode on port 4503
 + `aem-publish_dev-p4503.jar`
-  + As Author in Dev run mode on port 4503 (same as `aem-publish-p450.jar`)
+  + As Author in Dev run mode on port 4503 (same as `aem-publish-p4503.jar`)
 + `aem-publish_stage-p4503.jar`
   + As Author in Staging run mode on port 4503
 + `aem-publish_prod-p4503.jar`
