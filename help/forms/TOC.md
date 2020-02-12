@@ -9,6 +9,7 @@ index: y
 
 + [Overview](overview.md)
 + [Best Practices to follow](adaptive-forms/best-practices-adaptive-forms.md)
++ [Set up OKTA authentication with AEM Author](adaptive-forms/single-sign-on-with-okta.md)
 + Creating Your First Adaptive Form {#creating-your-first-adaptive-form}
   + [Introduction and Setup](creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.md)
   + [Part 1- Create Adaptive Form](creating-your-first-adaptive-form/part1.md)
