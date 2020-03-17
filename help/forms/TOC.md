@@ -146,6 +146,8 @@ index: y
   + [Generate Print Channel Documents From Submitted Data](interactive-communications/merge-data-with-ic-template.md)
   + [Using Reducer Functions](interactive-communications/reducer-functions-in-charts-aem-forms-video-use.md)
   + [Two Column Layout in Print Channel Documents](interactive-communications/two-column-layout-aem-forms-article-use.md)
+  + [Using Table Component in AEM Forms Print Channel Document](interactive-communications/table-in-print-channel-documents-video-use.md)
+  + [Generating Interactive Communications Document for Print Channel using Watch Folders](interactive-communications/generating-interactive-communications-print-document-using-api-tutorial-use.md)
 
 + Interactive Communications For Web Channel {#ic-web-channel-tutorial}
   + [Introduction](ic-web-channel-tutorial/introduction.md)
@@ -159,5 +161,6 @@ index: y
   + [Configuring Line chart](ic-web-channel-tutorial/parteight.md)
   + [Configuring Table](ic-web-channel-tutorial/partnine.md)
   + [Configuring Column Chart](ic-web-channel-tutorial/partten.md)
-   + [Configuring Pie Chart](ic-web-channel-tutorial/parteleven.md)
-   + [Delivery Of Web Channel Document](ic-web-channel-tutorial/parttwelve.md)
+  + [Configuring Pie Chart](ic-web-channel-tutorial/parteleven.md)
+  + [Delivery Of Web Channel Document](ic-web-channel-tutorial/parttwelve.md)
+  + [Email Delivery of Web Channel Document](interactive-communications/delivery-of-web-channel-document-tutorial-use.md)
