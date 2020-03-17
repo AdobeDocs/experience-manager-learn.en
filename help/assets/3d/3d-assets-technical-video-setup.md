@@ -1,10 +1,6 @@
 ---
 title: Set up 3D with AEM Assets
-seo-title: Set up 3D with AEM Assets
 description: Adobe Experience Manager 3D lets you upload, manage, view and render 3D content. Configuring and installing 3D with AEM Assets explored here.
-seo-description: Adobe Experience Manager 3D lets you upload, manage, view and render 3D content. Configuring and installing 3D with AEM Assets explored here.
-uuid: f82d741a-5244-4db3-9959-69acea18a0d8
-discoiquuid: ff103655-fa26-40f2-a15b-8b20eaaec010
 contentOwner: selvaraj
 feature: 3d
 topics: integrations, videos, renditions, development
