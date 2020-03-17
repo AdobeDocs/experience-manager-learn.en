@@ -50,7 +50,7 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 </td>
 <td>
    <a href="./advanced/asset-insights-launch-tutorial.md">
-   <img alt="AEM Assets Insights" src="./analytics/assets/asset-insights-cover.png"/>
+   <img alt="AEM Assets Insights" src="./assets/overview/asset-insights.png"/>
    </a>
    <div>
       <a href="./advanced/asset-insights-launch-tutorial.md">
@@ -63,7 +63,7 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 </td>
 <td>
    <a href="./dynamic-media/dynamic-media-overview-feature-video-use.md">
-   <img alt="Dynamic Media Overview" src="./dynamic-media/assets/dynamic-media-overiew.png" />
+   <img alt="Dynamic Media Overview" src="./assets/overview/dynamic-media.png" />
    </a>
    <div>
       <a href="./dynamic-media/dynamic-media-overview-feature-video-use.md">
