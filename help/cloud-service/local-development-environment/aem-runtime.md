@@ -7,7 +7,7 @@ version: cloud-service
 doc-type: tutorial
 activity: develop
 audience: developer
-kt: 3290
+kt: 4678
 ---
 
 # Set up Local AEM Runtime
