@@ -1,20 +1,16 @@
 ---
 title: Simple search implementation guide
-seo-title: Simple search implementation guide
 description: The Simple search implementation are the materials from the 2017 Summit lab AEM Search Demystified. This page contains the materials from this lab. For a guided tour of the lab, please view  the Lab workbook in the Presentation section of this page.
-seo-description: The Simple search implementation are the materials from the 2017 Summit lab AEM Search Demystified. This page contains the materials from this lab. For a guided tour of the lab, please view  the Lab workbook in the Presentation section of this page.
 topics: development, search
 audience: developer
 doc-type: tutorial
 activity: develop
 version: 6.3, 6.4, 6.5
-uuid: 0decd73b-da92-4950-b51b-aa0b2a5c0972
-discoiquuid: 31f0d345-facb-472f-8365-96073a7c0e26
 ---
 
 # Simple search implementation guide{#simple-search-implementation-guide}
 
-The Simple search implementation are the materials from the **2017 Summit lab AEM Search Demystified**. This page contains the materials from this lab. For a guided tour of the lab, please view  the Lab workbook in the Presentation section of this page.
+The Simple search implementation are the materials from the **Adobe Summit lab AEM Search Demystified**. This page contains the materials from this lab. For a guided tour of the lab, please view  the Lab workbook in the Presentation section of this page.
 
 ![Search Architecture Overview](assets/l4080/simple-search-application.png)
 

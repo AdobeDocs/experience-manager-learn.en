@@ -1,16 +1,12 @@
 ---
 title: Developing for Page Difference in AEM Sites
-seo-title: Developing for Page Difference in AEM Sites
 description: This video shows how to provide custom styles for AEM Sites' Page Difference functionality.
-seo-description: This video shows how to provide custom styles for AEM Sites' Page Difference functionality.
 feature: page-diff
 topics: development
 audience: developer
 doc-type: technical-video
 activity: develop
 version: 6.3, 6.4, 6.5
-uuid: aba7e179-a9b9-4ab1-b43e-63e4b9539bcf
-discoiquuid: 8a612cf9-7402-4d67-a319-9d867ce9dd41
 ---
 
 # Developing for Page Difference {#developing-for-page-difference}
@@ -53,7 +49,7 @@ base=./css
 htmldiff.less
 ```
 
-Create the less file that contains the style overrides at `/apps/my-project/clientlibs/authoring/css/htmldiff.less`, and provide the overring styles as needed.
+Create the `less` file that contains the style overrides at `/apps/my-project/clientlibs/authoring/css/htmldiff.less`, and provide the overring styles as needed.
 
 ```css
 /* Wrap with body to gives these rules more specificity than the OOTB */
@@ -103,7 +99,7 @@ body {
 
 Include the authoring clientlibs category in the project's base page's `/apps/my-project/components/structure/page/customheaderlibs.html` directly before the `</head>` tag to ensure the styles get loaded.
 
-These styles should be limited to `edit` and `preview` WCM modes.
+These styles should be limited to [!UICONROL Edit] and [!UICONTROL preview] WCM modes.
 
 ```xml
 <head>
