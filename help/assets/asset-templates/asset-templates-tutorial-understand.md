@@ -70,4 +70,4 @@ InDesign template file and supporting Images
 Download [InDesign template file and supporting Images](assets/asset-templates-tutorial-video--supporting-files-1.zip)
 
 * [InDesign CC trial download](https://creative.adobe.com/products/download/indesign)
-* [InDesign Server trial download](http://www.adobe.com/devnet/indesign/indesign-server-trial-downloads.html)
+* [InDesign Server trial download](https://www.adobe.com/devnet/indesign/indesign-server-trial-downloads.html)

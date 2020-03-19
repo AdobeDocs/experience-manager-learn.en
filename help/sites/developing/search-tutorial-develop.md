@@ -28,7 +28,7 @@ The Simple search implementation are the materials from the **Adobe Summit lab A
 * [CRXDE Lite](http://localhost:4502/crx/de/index.jsp#/oak%3Aindex/cqPageLucene) &gt; /oak:index/cqPageLucene
 * [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)
 * [QueryBuilder Debugger](http://localhost:4502/libs/cq/search/content/querydebug.html?)
-* [Oak Index Definition Generator](http://oakutils.appspot.com/generate/index)
+* [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index)
 
 ### Chapters {#chapters}
 
@@ -68,7 +68,7 @@ The Simple search implementation are the materials from the **Adobe Summit lab A
 * [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 * [Sling Model Exporter](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130)
 * [QueryBuilder API](https://docs.adobe.com/docs/en/aem/6-2/develop/search/querybuilder-api.html)
-* [AEM Chrome Plug-in](https://chrome.google.com/webstore/detail/aem-chrome-plug-in/ejdcnikffjleeffpigekhccpepplaode) ([Documentation page](http://adobe-consulting-services.github.io/acs-aem-tools/aem-chrome-plugin/))
+* [AEM Chrome Plug-in](https://chrome.google.com/webstore/detail/aem-chrome-plug-in/ejdcnikffjleeffpigekhccpepplaode) ([Documentation page](https://adobe-consulting-services.github.io/acs-aem-tools/aem-chrome-plugin/))
 
 ## Corrections and Follow-up {#corrections-and-follow-up}
 
@@ -81,7 +81,7 @@ Corrections and clarifications from the lab discussions and answers to follow-up
     * [http://localhost:4502/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Dasync%2Ctype%3DIndexStats](http://localhost:4502/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Dasync%2Ctype%3DIndexStats)
         * Execute `abortAndPause()` to abort the re-indexing. This will lock the index to further re-indexing until `resume()` is invoked.
         * Executing `resume()` will restart the indexing process.
-    * Documentation: [http://jackrabbit.apache.org/oak/docs/query/indexing.html#async-index-mbean](http://jackrabbit.apache.org/oak/docs/query/indexing.html#async-index-mbean)
+    * Documentation: [https://jackrabbit.apache.org/oak/docs/query/indexing.html#async-index-mbean](https://jackrabbit.apache.org/oak/docs/query/indexing.html#async-index-mbean)
 
 2. **How can oak indexes support multiple tenants?**  
 

@@ -41,7 +41,7 @@ Ensure the existence of an `authoring` clientlib for your project at `/apps/my-p
 
 ### Provide the custom CSS {#provide-the-custom-css}
 
-Add to the project's `authoring` clientlib a `css.txt` that points to the less file that will provide the overriding styles. [Less](http://lesscss.org/) is preferred due to its many convenient features, including class-wrapping which is leveraged in this example.
+Add to the project's `authoring` clientlib a `css.txt` that points to the less file that will provide the overriding styles. [Less](https://lesscss.org/) is preferred due to its many convenient features, including class-wrapping which is leveraged in this example.
 
 ```shell
 base=./css
@@ -117,4 +117,4 @@ The end result of a diff'd page with the above styles applied would look like th
 
 * [Download the we.Retail sample site](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/releases)
 * [Using AEM Client Libraries](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
-* [Less CSS Documentation](http://lesscss.org/)
+* [Less CSS Documentation](https://lesscss.org/)
