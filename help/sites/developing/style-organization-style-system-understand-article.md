@@ -267,6 +267,6 @@ CSS for coloring the text of the **Hero** layout style with the primary (green) 
 
 * [Style System Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html)
 * [Creating AEM Client libraries](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
-* [BEM (Block Element Modifier) documentation website](http://getbem.com/)
-* [LESS Documentation website](http://lesscss.org/)
+* [BEM (Block Element Modifier) documentation website](https://getbem.com/)
+* [LESS Documentation website](https://lesscss.org/)
 * [jQuery website](https://jquery.com/)

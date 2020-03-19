@@ -27,7 +27,7 @@ Download [Spy Car 3D file](assets/spy-car.zip)
 ## Additional Resources{#additional-resources}
 
 * [Enabling AEM Assets Dynamic Media](https://docs.adobe.com/docs/en/aem/6-3/administer/content/dynamic-media/config-dynamic.html)
-* [Download Autodesk FBX SDK](http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=26416130)
+* [Download Autodesk FBX SDK](https://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=26416130)
 * Download the AEM Assets 3D Feature Pack from [AEM Package Share](https://www.adobeaemcloud.com/content/packageshare/tools/login.html)
 
 * Download the [AEM 6.2 Feature Pack](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/AEM-6.2-DynamicMedia-3D)

@@ -194,7 +194,7 @@ jQuery(function ($) {
 >
 >All other tenants of [BEM](https://en.bem.info/) should be aligned with.
 
-* Use preprocessors such as [LESS](http://lesscss.org/) (supported by AEM natively) or [SCSS](https://sass-lang.com/) (requires custom build system) to allow for clear CSS definition, and re-usability.
+* Use preprocessors such as [LESS](https://lesscss.org/) (supported by AEM natively) or [SCSS](https://sass-lang.com/) (requires custom build system) to allow for clear CSS definition, and re-usability.
 
 * Keep selector weight/specificity uniform; This helps to avoid and resolve difficult-to-identify CSS cascade conflicts.
 * Organize each style into a discrete file.
@@ -262,6 +262,6 @@ The best practices defined in this section pertain to "style-JavaScript", or Jav
 
 * [Style System Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html)
 * [Creating AEM Client libraries](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
-* [BEM (Block Element Modifier) documentation website](http://getbem.com/)
-* [LESS Documentation website](http://lesscss.org/)
+* [BEM (Block Element Modifier) documentation website](https://getbem.com/)
+* [LESS Documentation website](https://lesscss.org/)
 * [jQuery website](https://jquery.com/)

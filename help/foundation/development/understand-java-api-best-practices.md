@@ -176,7 +176,7 @@ OSGi defines a specification all OSGi containers must implement and conform to. 
 
 * OSGi annotations for declaring OSGi services and components.
 
-    * Prefer [OSGi Declarative Services (DS) 1.2 Annotations](https://osgi.org/javadoc/r6/cmpn/org/osgi/service/component/annotations/package-summary.html) over [Felix SCR Annotations](http://felix.apache.org/documentation/subprojects/apache-felix-maven-scr-plugin/scr-annotations.html) for declaring OSGi services and components
+    * Prefer [OSGi Declarative Services (DS) 1.2 Annotations](https://osgi.org/javadoc/r6/cmpn/org/osgi/service/component/annotations/package-summary.html) over [Felix SCR Annotations](https://felix.apache.org/documentation/subprojects/apache-felix-maven-scr-plugin/scr-annotations.html) for declaring OSGi services and components
 
 * OSGi APIs for dynamically in-code [un/registering OSGi services/components](https://osgi.org/javadoc/r6/core/org/osgi/framework/package-summary.html).
 
