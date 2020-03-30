@@ -29,7 +29,7 @@ The translation rules editor that will update the translation xml file. The Tran
 
 Access the Translation Configuration UI:
 
-* **[!UICONROL AEM Start Menu] &gt; [!UICONTROL Tools] &gt; [!UICONTROL General] &gt; [[!UICONTROL Translation Configuration]](http://localhost:4502/libs/cq/translation/translationrules/contexts.html)**
+* **[!UICONTROL AEM Start Menu] &gt; [!UICONTROL Tools] &gt; [!UICONTROL General] &gt; [[!UICONTROL Translation Configuration]](http://localhost:4502/libs/cq/translation/translationrules/contexts.html)**
 
 ## Prior to AEM 6.3 {#prior-to-aem}
 

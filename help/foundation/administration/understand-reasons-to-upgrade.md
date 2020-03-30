@@ -1,16 +1,12 @@
 ---
 title: Understand Reasons to Upgrade
-seo-title: Understand Reasons to Upgrade AEM
 description: A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.
-seo-description: A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.
 version: 6.5
 sub-product: assets, cloud-manager, commerce, content-services, dynamic-media, forms, foundation, screens, sites
 topics: best-practices, upgrade
 audience: all
 activity: understand
 doc-type: article
-uuid: fc08e630-e9ab-4d32-811d-14e6c437cde3
-discoiquuid: 78610491-568f-4f4b-bbae-1d6acbf81591
 ---
 
 # Understanding Reasons to Upgrade
