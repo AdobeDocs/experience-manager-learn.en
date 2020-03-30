@@ -99,7 +99,7 @@ body {
 
 Include the authoring clientlibs category in the project's base page's `/apps/my-project/components/structure/page/customheaderlibs.html` directly before the `</head>` tag to ensure the styles get loaded.
 
-These styles should be limited to [!UICONROL Edit] and [!UICONTROL preview] WCM modes.
+These styles should be limited to [!UICONTROL Edit] and [!UICONTROL preview] WCM modes.
 
 ```xml
 <head>

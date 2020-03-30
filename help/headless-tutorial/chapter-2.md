@@ -50,7 +50,7 @@ If Content Fragment Models are **not** enabled for a configuration, the **[!UICO
 
 1. Apply the **[!DNL WKND Mobile]** configuration to the **[!DNL WKND Mobile] Assets Folder** to allow Content Fragments from Content Fragment Models to be created within that Assets folder hierarchy:
 
-    1. Navigate to **[!UICONROL AEM] > [!UICONTROL Assets] > [!UICONTROL Files]**
+    1. Navigate to **[!UICONTROL AEM] > [!UICONTROL Assets] > [!UICONTROL Files]**
     1. Select the **[!UICONTROL WKND Mobile] folder**
     1. Tap the **[!UICONTROL Properties]** button in the top action bar to open [!UICONTROL Folder Properties]
     1. In [!UICONTROL Folder Properties], tap the **[!UICONTROL Cloud Services]** tab
