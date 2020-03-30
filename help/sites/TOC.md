@@ -24,6 +24,7 @@ sub-product: sites
   + [Using the Style System](page-authoring/style-system-feature-video-use.md)
   + [Using Timewarp](page-authoring/timewarp-feature-video-use.md)
 + Components {#components}
+  + [Component Development](components/component-development.md)
   + [Understanding Core Components](components/core-components-feature-video-understand.md)
   + [Using the Components Console](components/components-console-feature-video-use.md)
 + Content Fragments {#content-fragments}
@@ -37,6 +38,7 @@ sub-product: sites
   + [Setup Social Posting with Experience Fragments](experience-fragments/experience-fragments-social-technical-video-setup.md)
   + [Understand Content Fragments vs. Experience Fragments](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
 + Developing {#developing}
+  + [AEM Project Archetype](developing/aem-project-archetype.md)
   + [Getting Started with AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Getting Started with AEM Headless](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html)
   + [Getting Started with AEM's SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
