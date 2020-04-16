@@ -1,8 +1,6 @@
 ---
-title: Understand Authentication support
-seo-title: Understand Authentication support in AEM
+title: Understand Authentication support in AEM
 description: A consolidated view into the authentication (and occasionally authorization) mechanisms supported by AEM. 
-seo-description: A consolidated view into the authentication (and occasionally authorization) mechanisms supported by AEM. 
 version: 6.3, 6.4, 6.5
 feature: authentication
 topics: authentication, security
@@ -10,11 +8,9 @@ activity: understand
 audience: architect, developer, implementer
 doc-type: article
 kt: 406
-uuid: 3adb0904-000b-423f-9d2e-13f1f0c56347
-discoiquuid: 71d6216c-1b94-418a-a753-787bab0b0a16
 ---
 
-# Understand Authentication Support in AEM
+# Understand Authentication Support in AEM 6.x
 
 A consolidated view into the authentication (and occasionally authorization) mechanisms supported by AEM. 
 
@@ -47,7 +43,7 @@ A consolidated view into the authentication (and occasionally authorization) mec
             <td>✔</td>
         </tr>
         <tr>
-            <td>Token-based (w/ <a href="https://docs.adobe.com/docs/en/aem/6-5/administer/security/encapsulated-token.html" target="_blank">encapsulated token</a>)</td>
+            <td>Token-based (w/ <a href="https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/encapsulated-token.html" target="_blank">encapsulated token</a>)</td>
             <td>✔</td>
             <td>✔</td>
             <td>✔</td>
@@ -58,25 +54,25 @@ A consolidated view into the authentication (and occasionally authorization) mec
             <td></td>
             <td></td>
             <tr>
-                <td><a href="https://docs.adobe.com/docs/en/aem/6-5/administer/security/ldap-config.html" target="_blank">LDAP</a></td>
+                <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/ldap-config.html" target="_blank">LDAP</a></td>
                 <td>✔</td>
                 <td>✔</td>
                 <td>✔</td>
             </tr>
             <tr>
-                <td><a href="https://docs.adobe.com/docs/en/aem/6-5/deploy/configuring/single-sign-on.html" target="_blank">SSO</a></td>
+                <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/deploying/configuring/single-sign-on.html" target="_blank">SSO</a></td>
                 <td>✔</td>
                 <td>✔</td>
                 <td>✔</td>
             </tr>
             <tr>
-                <td><a href="https://docs.adobe.com/docs/en/aem/6-5/administer/security/saml-2-0-authenticationhandler.html" target="_blank">SAML 2.0</a></td>
+                <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/saml-2-0-authenticationhandler.html" target="_blank">SAML 2.0</a></td>
                 <td>✔</td>
                 <td>✔</td>
                 <td>✔</td>
             </tr>
             <tr>
-                <td><a href="https://docs.adobe.com/ddc/en/gems/oauth-server-functionality-in-aem---embrace-federation-and-unlea.html" target="_blank">OAuth 1.0a &amp; 2.0</a></td>
+                <td><a href="https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-oauth-server-functionality-in-aem.html" target="_blank">OAuth 1.0a &amp; 2.0</a></td>
                 <td>✔</td>
                 <td>✔</td>
                 <td>✔</td>

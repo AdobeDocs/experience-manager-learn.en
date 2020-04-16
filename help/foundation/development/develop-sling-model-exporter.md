@@ -57,7 +57,7 @@ Exporters implementations may also support annotations that can be applied inlin
 
 ## View the code {#view-the-code}
 
-[SampleSlingModelExporter.java](https://github.com/Adobe-Consulting-Services/acs-aem-samples/tree/master/bundle/src/main/java/com/adobe/acs/samples/models/SampleSlingModelExporter.java) 
+[SampleSlingModelExporter.java](https://github.com/Adobe-Consulting-Services/acs-aem-samples/blob/master/core/src/main/java/com/adobe/acs/samples/models/SampleSlingModelExporter.java) 
 
 ## Supporting materials {#supporting-materials}
 
