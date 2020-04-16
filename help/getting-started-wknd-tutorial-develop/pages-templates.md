@@ -93,7 +93,7 @@ Below are the high level steps performed in the above video.
 
 When creating a page you must select a template, which will be used as the basis for creating the new page. The template defines the structure of the resultant page, initial content, and allowed components.
 
-There are 3 main areas of [Editable Templates](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.htm):
+There are 3 main areas of [Editable Templates](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html):
 
 1. **Structure** - defines components that are a part of the template. These will not be editable by content authors.
 2. **Initial Content** - defines components that the template will start with, these can be edited and/or deleted by content authors

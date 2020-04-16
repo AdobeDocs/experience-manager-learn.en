@@ -124,7 +124,7 @@ In Apache (*reference the below diagram*),
 
 * `pagename.selectors.html` is used as the filename in the cache's filesystem. 
 
-If the URL has a suffix `path/suffix/.ext` then,
+If the URL has a suffix `path/suffix.ext` then,
 
 * `pagename.selectors.html` is created as a folder
 
