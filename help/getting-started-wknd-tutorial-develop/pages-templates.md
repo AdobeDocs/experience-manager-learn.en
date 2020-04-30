@@ -265,7 +265,7 @@ The next few steps will take place using the Eclipse IDE, but could be doing usi
 
    Confirm the **Import from Repository** dialog and click **Finish**. You should now see the `article-page-template` beneath the `templates` folder.
 
-4. Repeat the steps to import content but select the **policies** node located at `/conf/wknd/settings/wcm/templates/policies`.
+4. Repeat the steps to import content but select the **policies** node located at `/conf/wknd/settings/wcm/policies`.
 
    ![Eclipse import policies](assets/pages-templates/policies-article-page-template.png)
 
