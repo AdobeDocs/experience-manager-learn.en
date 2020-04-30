@@ -71,7 +71,7 @@ If you are using Homebrew, follow the __Install using Homebrew__ instructions in
     1. Execute the command: `brew install node`
     1. Verify Node.js is installed, using the command: `node -v`
     1. Verify npm is installed, using the command: `npm -v`
-+ Or, download and install Maven (macOS, Linux or Windows)
++ Or, download and install Node.js (macOS, Linux or Windows)
     1. [Download and install Node.js](https://nodejs.org/en/download/)
     1. Open your Terminal/Command Prompt
     1. Verify Node.js is installed, using the command: `node -v`
