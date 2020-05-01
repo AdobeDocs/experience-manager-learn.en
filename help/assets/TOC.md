@@ -1,6 +1,5 @@
 ---
 user-guide-title: AEM Assets Videos and Tutorials
-product: experience-manager
 sub-product: assets
 team: TM
 ---

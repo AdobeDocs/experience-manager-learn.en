@@ -1,6 +1,5 @@
 ---
 user-guide-title: AEM Dispatcher Cache Tutorial
-product: experience-manager
 version: 6.x
 sub-product: foundation
 doc-type: tutorial

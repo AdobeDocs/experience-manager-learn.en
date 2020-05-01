@@ -1,6 +1,6 @@
 ---
 user-guide-title: Getting Started with AEM and Adobe Target 
-product: AEM, experience-manager, target
+product: experience-manager, target
 version: 6.5
 sub-product: sites
 audience: author, marketer, administrator, architect, developer
