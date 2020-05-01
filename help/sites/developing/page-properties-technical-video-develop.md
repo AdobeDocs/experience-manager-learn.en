@@ -13,7 +13,7 @@ version: 6.4, 6.5
 
 Customizing the metadata fields for the Page Properties is a common requirement in any Sites implementation. This video details the most effective way to accomplish this using features of the Sling Resource Merger.
 
->[!VIDEO](https://video.tv.adobe.com/v/25173?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/25173?quality=9&learn=on)
 
 The above video shows customizing the page properties for the We.Retail application in **AEM 6.4** using various features of the Sling Resource Merger. It enables the following customizations:
 

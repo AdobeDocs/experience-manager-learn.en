@@ -81,7 +81,7 @@ To do this, we can map these requirements to AEM Components (and in our case, AE
 1. However, ensure the **layout container** is **locked** to prevent other components from being added, or these three components from being removed.
 1. Tap **[!UICONTROL Page Information] > [!UICONTROL View in Admin]** to return to the [!DNL WKND Mobile] templates listing. Select the newly created **[!DNL Events API]** template and tap **[!UICONTROL Enable]** in the top action bar.
 
->[!VIDEO](https://video.tv.adobe.com/v/28342/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28342/?quality=12&learn=on)
 
 >[!NOTE]
 >

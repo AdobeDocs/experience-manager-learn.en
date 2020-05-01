@@ -13,7 +13,7 @@ version: 6.3, 6.4, 6.5
 
 Explore setting up and using the Social Media Sharing component.
 
->[!VIDEO](https://video.tv.adobe.com/v/18897/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/18897/?quality=9&learn=on)
 
 This video explores the following facilities of the Social Media Sharing component (part of [AEM Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)) using the [We.Retail](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail#weretail) sample web site.
 

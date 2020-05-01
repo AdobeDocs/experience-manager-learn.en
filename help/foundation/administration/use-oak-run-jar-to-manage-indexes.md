@@ -19,7 +19,7 @@ doc-type: technical-video
 
 ## ![DNL oak-run.jar] index Command Basics
 
->[!VIDEO](https://video.tv.adobe.com/v/21475/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21475/?quality=9&learn=on)
 
 * The version of [[!DNL oak-run.jar]](https://repository.apache.org/service/local/artifact/maven/redirect?r=releases&g=org.apache.jackrabbit&a=oak-run&v=1.8.0) used must match the version of Oak used on the AEM instance.
 * Managing indexes using ![DNL oak-run.jar] leverages the **[!DNL index]** command with various flags to support different operations.
@@ -28,21 +28,21 @@ doc-type: technical-video
 
 ## Index Statistics
 
->[!VIDEO](https://video.tv.adobe.com/v/21477/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21477/?quality=12&learn=on)
 
 * `oak-run.jar` dumps all index definitions, important index stats and index contents for offline analysis.
 * The index statistics gathering is safe to execute on in-use AEM instances.
 
 ## Index Consistency Check
 
->[!VIDEO](https://video.tv.adobe.com/v/21476/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21476/?quality=12&learn=on)
 
 * `oak-run.jar` quickly determines if lucene Oak indexes are corrupt.
 * The consistency check is safe to run on in-use AEM instance for consistency check levels 1 and 2.
 
 ## TarMK Online indexing with [!DNL oak-run.jar] {#tarmkonlineindexingwithoakrunjar}
 
->[!VIDEO](https://video.tv.adobe.com/v/21479/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21479/?quality=12&learn=on)
 
 * Online indexing of [!DNL TarMK] using [!DNL oak-run.jar] is faster than setting `reindex=true` on the `oak:queryIndexDefinition` node. Despite this performance increase, online indexing using [!DNL oak-run.jar] still requires a maintenance window to perform the indexing.
 
@@ -50,13 +50,13 @@ doc-type: technical-video
 
 ## TarMK Offline indexing with oak-run.jar
 
->[!VIDEO](https://video.tv.adobe.com/v/21478/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21478/?quality=12&learn=on)
 
 * Offline indexing of [!DNL TarMK] using [!DNL oak-run.jar] is the simplest [!DNL oak-run.jar] based indexing approach for [!DNL TarMK] as it requires a single [!DNL oak-run.jar] command, however it requires the AEM instance to be shutdown.
 
 ## TarMK Out-of-band indexing with oak-run.jar
 
->[!VIDEO](https://video.tv.adobe.com/v/21480/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21480/?quality=12&learn=on)
 
 * Out-of-band indexing on [!DNL TarMK] using [!DNL oak-run.jar] minimizes the impact of indexing on in-use AEM instances.
 * Out-of-band indexing is the recommended indexing approach for AEM installations where the time to re/index exceeds the available maintenance windows.

@@ -24,7 +24,7 @@ Brand Portal's September 2019 most notably introduces Asset Sourcing, which incr
 
 Brand Portal's Asset Sourcing is used to collect assets from third-party agencies and teams, seamlessly syncing them back to Experience Manager Author for review and use.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&learn=on)
 
 *Experience Manager Author 6.5 SP2 (6.5.2) or greater is required to use Asset Sourcing*
 
@@ -32,7 +32,7 @@ Review [Enable Experience Manager Author for Asset Sourcing](https://docs.adobe.
 
 ## Brand Portal February 2019 Feature and Enhancements{#brand-portal-features-and-enhancements-644}
 
->[!VIDEO](https://video.tv.adobe.com/v/26354/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/26354/?quality=9&learn=on)
 
 Brand Portal's February 2019 release focuses on enhancements to text search and top customer requests.
 
@@ -113,7 +113,7 @@ However, AEM Author instance can be [configured](https://helpx.adobe.com/experie
 
 ## Brand Portal December 2018 Feature and Enhancements{#brand-portal-features-and-enhancements-642}
 
->[!VIDEO](https://video.tv.adobe.com/v/23707/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/23707/?quality=9&learn=on)
 
 ### Guest Access
 
@@ -160,7 +160,7 @@ Brand Portal uses Adobe I/O [https://legacy-oauth.cloud.adobe.io/](https://legac
 
 New features enhanced functionality oriented toward aligning Brand Portal with AEM.
 
->[!VIDEO](https://video.tv.adobe.com/v/26354/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/26354/?quality=9&learn=on)
 
 ### Navigational Improvements
 

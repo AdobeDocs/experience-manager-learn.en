@@ -17,7 +17,7 @@ audience: author, marketer
 
  Use AEM Desktop App to simplify access to any asset managed in AEM on desktop, for any application and file format.
  
->[!VIDEO](https://video.tv.adobe.com/v/28868/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28868/?quality=12&learn=on)
 
 + Discover assets in AEM via browse and search using a dedicated desktop application
 + Optimized bandwidth management allows upload and download of many, large assets

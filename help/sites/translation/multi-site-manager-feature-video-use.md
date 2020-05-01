@@ -19,13 +19,13 @@ discoiquuid: a0dc581e-300f-45ef-916a-1cbac0429899
 
 ## Live Copy Overview {#live-copy-overview}
 
->[!VIDEO](https://video.tv.adobe.com/v/17054/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17054/?quality=9&learn=on)
 
 *Live Copy Overview is a Touch UI interface used for managing live copies and their respective blueprints. This feature, introduced in AEM 6.3, replaces the Classic UI Blueprint Control Center.*
 
 ## Blueprint Configuration Manager - Touch UI {#blueprint-config-mgr}
 
->[!VIDEO](https://video.tv.adobe.com/v/17056/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17056/?quality=9&learn=on)
 
 *AEM 6.3 introduces a Touch UI interface to manage Blueprint configurations for use in Multi Site Manager.*
 

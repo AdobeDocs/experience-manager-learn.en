@@ -18,11 +18,11 @@ version: 6.3, 6.4, 6.5
 
 AEM Dynamic Media video player used to rely on Flash runtime to support adaptive video streaming on desktop clients and browsers became more aggressive on flash-based content streaming. With the introduction of HLS (Apple's HTTP Live Streaming video delivery protocol), content can now be streamed without relying on flash.
 
->[!VIDEO](https://video.tv.adobe.com/v/16791/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/16791/?quality=9&learn=on)
 
 ## Quick look into Non Flash Video Player {#quick-look-into-non-flash-video-player}
 
->[!VIDEO](https://video.tv.adobe.com/v/17429/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17429/?quality=9&learn=on)
 
 HLS browser support is as follows, for unsupported browsers we fallback to progressive video delivery
 

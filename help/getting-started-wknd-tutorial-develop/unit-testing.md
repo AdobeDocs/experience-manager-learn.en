@@ -47,7 +47,7 @@ We will be using AEM best practices, and use:
 * [Mockito Testing Framework](https://site.mockito.org/)
 * [wcm.io Test Framework](https://wcm.io/testing/) (which builds on [Apache Sling Mocks](https://sling.apache.org/documentation/development/sling-mock.html))
 
->[!VIDEO](https://video.tv.adobe.com/v/30207/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30207/?quality=12&learn=on)
 
 ## Unit Testing and Adobe Cloud Manager {#unit-testing-and-adobe-cloud-manager}
 
@@ -223,7 +223,7 @@ In this tutorial, the latter approach is used (as we've already created a workin
 
 TDD in the context of AEM requires a level of expertise and is best adopted by AEM developers proficient in AEM development and unit testing of AEM code.
 
->[!VIDEO](https://video.tv.adobe.com/v/30208/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30208/?quality=12&learn=on)
 
 ## Setting up AEM test context  {#setting-up-aem-test-context}
 

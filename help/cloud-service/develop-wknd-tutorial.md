@@ -18,7 +18,7 @@ The goal for this multi-part tutorial is to teach a developer who is new to AEM 
 
 ## WKND Developer Tutorial {#wknd-developer-tutorial}
 
->[!VIDEO](https://video.tv.adobe.com/v/30476?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30476?quality=12&learn=on)
 
 The tutorial is designed to work with **AEM as a Cloud Service** and is backwards compatible with **AEM 6.5+** and **AEM 6.4.2+**.
 
@@ -28,7 +28,7 @@ The tutorial is designed to work with **AEM as a Cloud Service** and is backward
 
 After completing the WKND tutorial, watch video below for an overview of how to deploy the WKND project to AEM as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/30191?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30191?quality=12&learn=on)
 
 The video shows how the WKND Site project can be:
 

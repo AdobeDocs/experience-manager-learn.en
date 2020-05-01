@@ -19,7 +19,7 @@ Provides step by step instructions to configure smart tagging service for AEM As
 
 ## Smart Tags set up {#smart-tags-set-up}
 
->[!VIDEO](https://video.tv.adobe.com/v/17023/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17023/?quality=9&learn=on)
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Provides step by step instructions to configure smart tagging service for AEM As
 
 A short video illustrating how Smart Tags scores can be displayed in AEM for demo, instructional or explanatory purposes. This is not intended for production use cases as explained in the video.
 
->[!VIDEO](https://video.tv.adobe.com/v/17768/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17768/?quality=9&learn=on)
 
 This video illustrates how Smart Tags show scores can be enabled to drive conversations around the benefits of Smart Tags and further technical understanding of the effects of confidence scores.
 

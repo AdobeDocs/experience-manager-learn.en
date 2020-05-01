@@ -14,7 +14,7 @@ kt: 4676
 
 AEM Core Components are a standard set components to be used with Adobe Experience Manager. Built with Adobe's best practices and standards, Core Components provide a baseline set of functionality for any Sites implementation.
 
->[!VIDEO](https://video.tv.adobe.com/v/18926/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/18926/?quality=12&learn=on)
 
 ## Additional Resources {#additional-resources}
 

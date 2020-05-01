@@ -13,7 +13,7 @@ doc-type: technical-video
 
 A brief introduction to Online Revision Clean-up which mitigates the need for frequent Offline Revision Clean-ups.
 
->[!VIDEO](https://video.tv.adobe.com/v/17004/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/17004/?quality=12&learn=on)
 
 ## Supporting materials
 

@@ -18,5 +18,5 @@ version: 6.3,6.4,6.5
 
 Create associations between 2 entities in Form Data Model
 
->[!VIDEO](https://video.tv.adobe.com/v/17737/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17737/?quality=9&learn=on)
 

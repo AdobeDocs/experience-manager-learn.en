@@ -19,7 +19,7 @@ version: 6.3, 6.4, 6.5
 
 AEM Dynamic Media Viewer enhancements let AEM authors define and customize the experience assets will be presented to website users.
 
->[!VIDEO](https://video.tv.adobe.com/v/17783/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17783/?quality=9&learn=on)
 
 Some major enhancements include:
 

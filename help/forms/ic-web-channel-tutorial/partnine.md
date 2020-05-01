@@ -32,10 +32,10 @@ Ability to display tabular data using tables in Interactive Communication Docume
 
 **Configuring table in web channel document -  AEM Forms 6.4**
 
->[!VIDEO](https://video.tv.adobe.com/v/22360/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22360/?quality=9&learn=on)
 
 Configuring table in web channel document - AEM Form 6.5
 
->[!VIDEO](https://video.tv.adobe.com/v/27847?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27847?quality=9&learn=on)
 
 

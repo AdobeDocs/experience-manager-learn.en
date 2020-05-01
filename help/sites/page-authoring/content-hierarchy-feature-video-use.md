@@ -16,4 +16,4 @@ kt: 4243
 
 Learn how site pages gets stored within AEM for your organization.
 
->[!VIDEO](https://video.tv.adobe.com/v/31827?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31827?quality=12&learn=on)

@@ -16,7 +16,7 @@ kt: 4321
 
 The following video introduces the page properties associated with a page in Adobe Experience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/32192?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32192?quality=12&learn=on)
 
 In this video, the following page property elements are covered:
 

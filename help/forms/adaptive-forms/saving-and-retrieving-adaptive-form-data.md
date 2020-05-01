@@ -403,11 +403,11 @@ $(document).ready(function()
 ## Create Adaptive Form Template and Page Component {#form-template-and-page-component}
 
 
->[!VIDEO](https://video.tv.adobe.com/v/27828?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27828?quality=9&learn=on)
 
 ### Demonstration of the capability {#capability-demo}
 
->[!VIDEO](https://video.tv.adobe.com/v/27829?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27829?quality=9&learn=on)
 
 #### Deploy on your server {#deploy-on-your-server}
 

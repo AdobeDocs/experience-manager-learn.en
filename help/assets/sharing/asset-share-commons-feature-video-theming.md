@@ -18,7 +18,7 @@ version: 6.3, 6.4, 6.5
 
 A brief introduction to theming in Asset Share Commons. The video walks through the process of creating a new theme with a custom color scheme.
 
->[!VIDEO](https://video.tv.adobe.com/v/20572/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/20572/?quality=9&learn=on)
 
 AIn this video a new theme will be created based on the Asset Share Commons Dark theme. The color scheme will match a custom logo to give the site a consistent look and feel.
 

@@ -14,7 +14,7 @@ doc-type: feature-video
  
 # Use Workflow Management
  
- >[!VIDEO](https://video.tv.adobe.com/v/27848/?quality=12)
+ >[!VIDEO](https://video.tv.adobe.com/v/27848/?quality=12&learn=on)
 
 The following aspects of Workflow management, introduced in AEM 6.5, are explored in this video:
 

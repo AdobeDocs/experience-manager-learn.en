@@ -30,7 +30,7 @@ To create multi-series charts in AEM Forms, you need to create an appropriate Fo
 
 ### Configure Line Series Charts
 
->[!VIDEO](https://video.tv.adobe.com/v/26353?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/26353?quality=9&learn=on)
 
 
 To test this on your system, please follow the following steps

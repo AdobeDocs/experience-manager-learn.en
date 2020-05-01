@@ -193,7 +193,7 @@ The **[[!DNL Eclipse] IDE](https://www.eclipse.org/ide/)** is one of the more po
 1. Download and install the [!DNL Eclipse] IDE for [!DNL Java EE Developers]: [https://www.eclipse.org](https://www.eclipse.org/)
 1. Follow the instructions to install the [!DNL AEM Developer Tools] plugin: [https://eclipse.adobe.com/aem/dev-tools/](https://eclipse.adobe.com/aem/dev-tools/)
 
->[!VIDEO](https://video.tv.adobe.com/v/25906?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25906?quality=12&learn=on)
 
 * 00:30 - Import Maven Project  
 * 01:24 - Build and deploy source code with Maven  
@@ -210,7 +210,7 @@ The **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** is a powerful IDE for p
 1. Download and install the [!DNL IntelliJ IDEA]: [https://www.jetbrains.com/idea/download](https://www.jetbrains.com/idea/download)
 1. Install [!DNL Repo] (command line tool): [https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo](https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo#installation)
 
->[!VIDEO](https://video.tv.adobe.com/v/26089/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/26089/?quality=12&learn=on)
 
 * 00:00 - Import Maven Project  
 * 05:47 - Build and deploy source code with Maven  
@@ -231,7 +231,7 @@ The **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** is a powerful IDE for p
 * **[[!DNL aemfed]](https://aemfed.io/)** - Speed up your AEM front-end workflow
 * **[[!DNL AEM Sync]](https://marketplace.visualstudio.com/items?itemName=Yinkai15.aemsync)** - Community supported&#42; extension for Visual Studio Code
 
->[!VIDEO](https://video.tv.adobe.com/v/25907?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25907?quality=12&learn=on)
 
 * 00:30 - Import Maven Project  
 * 00:53 - Build and deploy source code with Maven  
@@ -246,7 +246,7 @@ The **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** is a powerful IDE for p
 
 [!DNL CRXDE Lite] should always be used in conjunction with other IDEs to test and debug code but never as the primary development tool. It has limited syntax support, no auto-complete capabilities and limited integration with source control management systems.
 
->[!VIDEO](https://video.tv.adobe.com/v/25917?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25917?quality=12&learn=on)
 
 ## Troubleshooting
 

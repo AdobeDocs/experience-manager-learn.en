@@ -20,7 +20,7 @@ We will add a table to the Income panel. Configure the table rows and use the ru
 
 **Add and Configure Table Component**
 
->[!VIDEO](https://video.tv.adobe.com/v/22198?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22198?quality=9&learn=on)
 
 
 
@@ -41,6 +41,6 @@ We will add a table to the Income panel. Configure the table rows and use the ru
 ## Create rule to calculate grand total {#create-rule-to-calculate-grand-total}
 
 
->[!VIDEO](https://video.tv.adobe.com/v/22197?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22197?quality=9&learn=on)
 
 

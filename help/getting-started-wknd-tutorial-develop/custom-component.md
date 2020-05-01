@@ -54,7 +54,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 
 ## What you will build {#byline-component}
 
->[!VIDEO](https://video.tv.adobe.com/v/30181/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30181/?quality=12&learn=on)
 
 In this part of the WKND tutorial, a Byline Component is created that will be used to displays authored information about an article's contributor.
 
@@ -1080,7 +1080,7 @@ Below is what the fully authored and styled Byline component should look like on
 
 Watch the video below for a quick walk-through of what was built in this tutorial.
 
->[!VIDEO](https://video.tv.adobe.com/v/30174/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30174/?quality=12&learn=on)
 
 ## Congratulations! {#congratulations}
 

@@ -39,7 +39,7 @@ In this step, well create a new [!DNL Event] for `Punkrock Fest` in the `/conten
 
    [Get File: GitHub > Assets > com.adobe.aem.guides.wknd-mobile.content.chapter-3.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest)
 
->[!VIDEO](https://video.tv.adobe.com/v/28338/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28338/?quality=12&learn=on)
 
 ## Reviewing the Content Fragment's JCR structure
 
@@ -52,7 +52,7 @@ Review in the **Properties pane** that it has a property `cq:model` that points 
     * **`cq:model` **=** `/conf/settings/wknd-mobile/dam/cfm/models/event`**
 1. Beneath the `data` node select the [master](http://localhost:4502/crx/de/index.jsp#/content/dam/wknd-mobile/en/events/punkrock-fest/jcr:content/data/master) node and review the properties. This node contains the content collected during the authoring of an [!DNL Event] Content Fragment Model. The JCR property names correspond to the Content Fragment Model property name's, and the values correspond to the authored values of the "[!DNL Punkrock Fest]" [!DNL Event] Content Fragment.
 
->[!VIDEO](https://video.tv.adobe.com/v/28356/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28356/?quality=12&learn=on)
 
 ## Next step
 

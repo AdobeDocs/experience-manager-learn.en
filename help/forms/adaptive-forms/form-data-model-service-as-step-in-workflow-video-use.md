@@ -20,7 +20,7 @@ discoiquuid: c442f439-1e5d-4f96-85df-b818c28389ff
 Starting with AEM Forms 6.4, we now have the ability to use Form Data Model as part of AEM Workflow. The following video walks thru the steps needed to configure Form Data Model step in AEM Workflow
 
 
->[!VIDEO](https://video.tv.adobe.com/v/21719/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21719/?quality=9&learn=on)
 
 To test this capability on your server, follow the below instructions
 * [Download and deploy the setvalue bundle](https://forms.enablementadobe.com/content/DemoServerBundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which sets metadata properties.

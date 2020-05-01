@@ -20,7 +20,7 @@ Welcome to a multi-part tutorial designed for developers new to Adobe Experience
 
 The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial a developer should understand the basic foundation of the platform and with knowledge of common design patterns in AEM.
 
->[!VIDEO](https://video.tv.adobe.com/v/30476?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30476?quality=12&learn=on)
 
 The tutorial is designed to work with **AEM as a Cloud Service** and is backwards compatible with **AEM 6.5+** and **AEM 6.4.2+**. The site is implemented using:
 

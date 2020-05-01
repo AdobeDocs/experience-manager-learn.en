@@ -25,11 +25,11 @@ When you are creating a variable of type JSON to capture the submitted data in y
 
 You can map the schema with the variable of type JSON in your workflow model. You can then use the schema browser to map the schema elements with your string/number variables in your workflow model
 
->[!VIDEO](https://video.tv.adobe.com/v/26444?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/26444?quality=12&learn=on)
 
 **The ability to drill down schema elements and map the schema element to workflow variable is only available with AEM Forms 6.5.1 onwards.**
 
->[!VIDEO](https://video.tv.adobe.com/v/28097?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28097?quality=12&learn=on)
 
 To get the assets working on your system, please follow the following steps:
 

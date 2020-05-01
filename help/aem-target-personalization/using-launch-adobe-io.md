@@ -111,9 +111,9 @@ The Target extension consists of two main parts:
 #### Build and Publish
 
 1. Click on the **Publishing** tab for your site property, and let's create a library to build, and deploy our changes (data elements, rules) to a development environment.
-    >[!VIDEO](https://video.tv.adobe.com/v/28412?quality=12)
+    >[!VIDEO](https://video.tv.adobe.com/v/28412?quality=12&learn=on)
 2. Publish your changes from the Development to a Staging environment.
-    >[!VIDEO](https://video.tv.adobe.com/v/28419?quality=12)
+    >[!VIDEO](https://video.tv.adobe.com/v/28419?quality=12&learn=on)
 3. Run the **Build for Staging option**. 
 4. Once the build is complete, run **Approve for Publishing**, which moves your changes from a Staging environment to a Production environment.
   ![Staging to Production](assets/using-launch-adobe-io/build-staging.png)
@@ -122,7 +122,7 @@ The Target extension consists of two main parts:
   
 ### Adobe Experience Manager
 
->[!VIDEO](https://video.tv.adobe.com/v/28416?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28416?quality=12&learn=on)
 
 >[!NOTE]
 >

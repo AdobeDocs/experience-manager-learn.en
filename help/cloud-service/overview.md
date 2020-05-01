@@ -9,7 +9,7 @@ kt: 3289
 
 Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Cloud Service introduces the next generation of the Experience Manager product line, building on past investments and innovations, preserving and extending all use cases and functionalities.
 
->[!VIDEO](https://video.tv.adobe.com/v/31085/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31085/?quality=12&learn=on)
 
 ## What's New
 

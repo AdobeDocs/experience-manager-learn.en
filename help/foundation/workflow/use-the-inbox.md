@@ -13,7 +13,7 @@ doc-type: feature-video
 
 AEM's inbox facilitates greater collaboration and visibility into tasks and workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/16827/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/16827/?quality=12&learn=on)
 
 This videos covers highlights of AEM's Inbox.
 

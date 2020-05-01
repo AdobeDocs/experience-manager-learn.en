@@ -16,4 +16,4 @@ kt: 4632
 
 Learn how to maintain, and organize your web pages in Adobe Experience Manager by using tagging.
 
->[!VIDEO](https://video.tv.adobe.com/v/32150?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/32150?quality=9&learn=on)

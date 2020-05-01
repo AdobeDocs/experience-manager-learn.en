@@ -32,7 +32,7 @@ In order to use AEM Experience Fragment offers to power you personalization acti
 
 ### Integrating AEM with Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/28428?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28428?quality=12&learn=on)
 
 1. Create Adobe Target Cloud Service using Adobe IMS Authentication (*Uses Adobe Target API*) (00:34)
 2. Obtain Adobe Target Client Code (01:50)

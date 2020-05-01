@@ -130,7 +130,7 @@ AEM development primarily consists of Java and Front-end (JavaScript, CSS, etc) 
 
 __[IntelliJ IDEA](https://www.jetbrains.com/idea/)__ is a powerful IDE for Java development. IntelliJ IDEA comes in two flavors, a free Community edition and a commercial (paid) Ultimate version. The free Community version is sufficient for AEM development, however the Ultimate [expands its capability set](https://www.jetbrains.com/idea/download).
 
->[!VIDEO](https://video.tv.adobe.com/v/26089/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/26089/?quality=12&learn=on)
 
 + [Download IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 + [Download the Repo tool](https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo#installation)
@@ -141,7 +141,7 @@ __[Visual Studio Code](https://code.visualstudio.com/)__ (VS Code) is a free, op
 
 Visual Studio Code is the ideal choice for front-end developers primarily creating front-end code; JavaScript, CSS and HTML. While VS Code has Java support via [extensions](https://code.visualstudio.com/docs/java/java-tutorial), it may lack some of the advanced features provided by more Java-specific.
 
->[!VIDEO](https://video.tv.adobe.com/v/25907?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25907?quality=12&learn=on)
 
 + [Download Visual Studio Code](https://code.visualstudio.com/Download)
 + [Download the Repo tool](https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo#integration-into-visual-studio-code)
@@ -152,7 +152,7 @@ Visual Studio Code is the ideal choice for front-end developers primarily creati
 
 __[Eclipse IDE](https://www.eclipse.org/ide/)__ is a popular IDEs for Java development, and supports the  __[AEM Developer Tools](https://eclipse.adobe.com/aem/dev-tools/)__ plug-in provided by Adobe, providing an in-IDE GUI for authoring and to synchronize JCR content with a local AEM instance.
 
->[!VIDEO](https://video.tv.adobe.com/v/25906?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25906?quality=12&learn=on)
 
 + [Download Eclipse](https://www.eclipse.org/ide/)
 + [Download Eclipse Dev Tools](https://eclipse.adobe.com/aem/dev-tools/)

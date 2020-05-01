@@ -15,7 +15,7 @@ kt: 4322
 
 AEM Sites provides several options for publishing and un-publishing content. This video explores the various methods and their capabilities.
 
->[!VIDEO](https://video.tv.adobe.com/v/32193?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32193?quality=12&learn=on)
 
 AEM Sites provides several methods for published and un-publishing content, based on the author's workflow.
 

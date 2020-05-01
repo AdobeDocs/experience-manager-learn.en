@@ -18,7 +18,7 @@ discoiquuid: 9ba8c552-bf3f-445c-b0d1-17e62b34f1a2
 
 Improvements to the Theme Editor for adaptive forms in AEM 6.3
 
->[!VIDEO](https://video.tv.adobe.com/v/19497?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/19497?quality=9&learn=on)
 
 >[!NOTE]
 >

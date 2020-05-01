@@ -19,7 +19,7 @@ AEM Sites' page difference capabilities show provides a quick, color-coded view 
 
 ## Comparing page versions {#comparing-page-versions}
 
->[!VIDEO](https://video.tv.adobe.com/v/32152?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/32152?quality=9&learn=on)
 
 **HTML changes**
 
@@ -34,7 +34,7 @@ AEM Sites' page difference capabilities show provides a quick, color-coded view 
 
 ## Comparing launch pages {#comparing-launch-pages}
 
->[!VIDEO](https://video.tv.adobe.com/v/17746/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17746/?quality=9&learn=on)
 
 Page Difference feature can be also used to identify the difference between blueprints and livecopies, and blueprints and language copies.
 

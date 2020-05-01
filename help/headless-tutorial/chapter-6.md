@@ -44,7 +44,7 @@ Because AEM Content Services is built from Configuration (Content Fragment Model
     1. Select the **[!DNL Events]** page
     1. Tap **[!DNL Publish]** in the top action bar
 
->[!VIDEO](https://video.tv.adobe.com/v/28343/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28343/?quality=12&learn=on)
 
 ## Verify AEM Publish
 

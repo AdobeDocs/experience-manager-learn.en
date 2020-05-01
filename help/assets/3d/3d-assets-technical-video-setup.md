@@ -14,7 +14,7 @@ version: 6.3, 6.4, 6.5
 
 Adobe Experience Manager 3D lets you upload, manage, view and render 3D content. Configuring and installing 3D with AEM Assets explored here.
 
->[!VIDEO](https://video.tv.adobe.com/v/18387/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/18387/?quality=9&learn=on)
 
 >[!NOTE]
 >

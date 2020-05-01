@@ -15,7 +15,7 @@ This video shows how to provide custom styles for AEM Sites' Page Difference fun
 
 ## Customizing page difference styles {#customizing-page-difference-styles}
 
->[!VIDEO](https://video.tv.adobe.com/v/18871/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/18871/?quality=9&learn=on)
 
 >[!NOTE]
 >

@@ -21,10 +21,10 @@ AEM Assets Template lets marketers create, manage and deliver digital assets for
 
 This video walks through the concepts and steps for generating print-ready assets in AEM, using Adobe InDesign, Adobe InDesign Server and AEM Assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/25170?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25170?quality=12&learn=on)
 
 ## Technical overview {#technical-overview}
 
 This video provides a more technical overview of AEM Assets Assert Template functionality, and how AEM facilitates the composition of AEM Assets and contents by way of InDesign to create rich, compelling print experiences.
 
->[!VIDEO](https://video.tv.adobe.com/v/17071/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17071/?quality=9&learn=on)

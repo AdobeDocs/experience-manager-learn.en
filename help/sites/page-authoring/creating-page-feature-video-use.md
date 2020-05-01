@@ -16,4 +16,4 @@ kt: 4244
 
 Learn how to create a site page based on a page template in Adobe Experience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/31827?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31827?quality=12&learn=on)

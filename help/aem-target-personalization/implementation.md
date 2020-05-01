@@ -66,7 +66,7 @@ AEM author and publish instance is necessary to complete this tutorial. We have 
     * [core.wcm.components.all-2.5.0.zip](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.5.0/core.wcm.components.all-2.5.0.zip)
     * [digital-data-layer.zip](assets/implementation/digital-data-layer.zip)
 
-    >[!VIDEO](https://video.tv.adobe.com/v/28377?quality=12)
+    >[!VIDEO](https://video.tv.adobe.com/v/28377?quality=12&learn=on)
 10. After installing the packages on AEM Author, select each uploaded package in AEM Package Manager, and select **More > Replicate** to ensure the packages are deployed to AEM Publish.
 11. At this point, you have successfully installed your WKND reference site and all additional packages required for this tutorial.
 

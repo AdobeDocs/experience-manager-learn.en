@@ -19,7 +19,7 @@ In this 5 part video series, we walk through the setup and configuration of Asse
 
 Asset Insights Overview. Install Core Components, Sample Image Component and other content packages to get your environment ready.
 
->[!VIDEO](https://video.tv.adobe.com/v/25943/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25943/?quality=12&learn=on)
 
 ### Architecture Diagram {#architecture-diagram}
 
@@ -38,7 +38,7 @@ The video uses Core Components v2.2.2 which not no longer the latest version; be
 
 Enhancements to Core Components and using proxy component (Sample Image Component) for Asset Insights. Editing the content page template policies to enable sample image component for reference site.
 
->[!VIDEO](https://video.tv.adobe.com/v/25944/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25944/?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Core Image component uses ***data-asset-id*** attribute within the parent &lt;di
 
 Report suite with real-time data collection is created for asset tracking. AEM Assets Insights configuration is set up using Adobe Analytics credentials.
 
->[!VIDEO](https://video.tv.adobe.com/v/25945/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25945/?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ For AEM Assets Insights configuration you need the following credentials
 
 Adding Adobe Analytics Extension, Creating Page Load rules and Integrating AEM with Launch with Adobe IMS technical account.
 
->[!VIDEO](https://video.tv.adobe.com/v/25946/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25946/?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -194,4 +194,4 @@ It is also possible to switch DTM into debug mode with the following Chrome Exte
 
 Configuring AEM Asset Reporting Sync Job Scheduler and Assets Insights Report
 
->[!VIDEO](https://video.tv.adobe.com/v/25947/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25947/?quality=12&learn=on)

@@ -19,7 +19,7 @@ version: 6.3, 6.4, 6.5
 
 In this video we explore Dynamic Media Color Management, and how it can be used to provide color correction preview capabilities in for AEM Assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/16792/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/16792/?quality=9&learn=on)
 
 >[!NOTE]
 >

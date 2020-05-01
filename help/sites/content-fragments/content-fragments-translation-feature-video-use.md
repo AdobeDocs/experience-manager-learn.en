@@ -14,7 +14,7 @@ version: 6.3, 6.4, 6.5
 
 AEM 6.3 introduces the ability to translate Content Fragments. Mixed-media assets and Asset collections associated with a Content Fragment are also eligible to be extracted and translated.
 
->[!VIDEO](https://video.tv.adobe.com/v/18131/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/18131/?quality=9&learn=on)
 
 ## Content Fragment Translation Use Cases {#content-fragment-translation-use-cases}
 
