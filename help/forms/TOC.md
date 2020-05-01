@@ -1,5 +1,5 @@
 ---
-product: AEM
+sub-product: forms
 audience: developer
 user-guide-title: AEM Forms Videos and Tutorials
 index: y

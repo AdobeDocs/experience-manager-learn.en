@@ -6,7 +6,7 @@ seo-description: AEM Dynamic Media Viewer enhancements let AEM authors define an
 uuid: 5762c0a2-4371-4719-8400-849c7a11926d
 discoiquuid: a0be2cd0-4fdb-431f-a8c7-e4620b8b129b
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-product: dynamic-media
+sub-product: dynamic-media
 feature: viewer-presets, image-profiles
 topics: videos, renditions, authoring
 doc-type: feature-video

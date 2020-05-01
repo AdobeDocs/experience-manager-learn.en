@@ -5,7 +5,7 @@ description: AEM Assets custom video thumbnails provide authors with the ability
 seo-description: AEM Assets custom video thumbnails provide authors with the ability to select an appropriate thumbnail from a set of generated thumbnails. The number of thumbnails generated for a video can be easily customized.
 uuid: 1559b1bc-daca-49e9-b6de-0b93798658a8
 discoiquuid: 5e168b37-2906-4ab5-9840-086ae7efa281
-product: dynamic-media
+sub-product: dynamic-media
 feature: media-player, video-profiles
 topics: videos, renditions, authoring, best-practices
 doc-type: feature-video

@@ -1,6 +1,5 @@
 ---
 user-guide-title: Adobe Experience Manager as a Cloud Service Tutorials
-product: experience-manager
 sub-product: cloud-service
 team: TM
 ---
