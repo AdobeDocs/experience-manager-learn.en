@@ -54,7 +54,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 
 In this chapter we will use the [Style System feature](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) to create several variations of components used on the Article page. We will also use the Style System to create variations for structural elements like the Header/Footer and Layout Container.
 
->[!VIDEO](https://video.tv.adobe.com/v/30386/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30386/?quality=12&learn=on)
 
 ## Background {#background}
 
@@ -723,7 +723,7 @@ Next we will add the Header and Footer styles by updating the Experience Fragmen
 
 Review the Styles and features implemented as part of the chapter.
 
->[!VIDEO](https://video.tv.adobe.com/v/30378/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30378/?quality=12&learn=on)
 
 ## Congratulations! {#congratulations}
 

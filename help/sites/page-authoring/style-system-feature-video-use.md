@@ -16,7 +16,7 @@ kt: 974
 
 Adobe Experience Manager's Style System allows visual variations of components without back-end development, allowing better re-use of AEM components, and more versatile and efficient content authoring. The Style System, when used in conjunction with AEM's Core Components, template editor, and responsive layout, offers powerful capabilities to quickly compose rich experiences.
 
->[!VIDEO](https://video.tv.adobe.com/v/21750/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21750/?quality=9&learn=on)
 
 This video demonstrates how the Style System can be leveraged to create dramatically different visual appearances for a single Component, using only CSS.
 

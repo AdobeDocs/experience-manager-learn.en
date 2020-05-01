@@ -16,7 +16,7 @@ kt: 4497
 
 Learn how to author a page in Adobe Experience Manager Sites using the Site Editor's UI.
 
->[!VIDEO](https://video.tv.adobe.com/v/31828?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/31828?quality=9&learn=on)
 
 In this video, the following capabilities or features are covered:
 

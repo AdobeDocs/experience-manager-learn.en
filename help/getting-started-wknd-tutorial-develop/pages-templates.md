@@ -59,7 +59,7 @@ In this part of the tutorial, you will build a new Article Page Template that ca
 
 In most cases, planning for a new website starts with mockups and static designs. [Adobe XD](https://www.adobe.com/products/xd.html) is a design tool building user experiences. Next we will inspect a UI Kit and mockups to help plan the structure of the Article Page Template.
 
->[!VIDEO](https://video.tv.adobe.com/v/30214/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30214/?quality=12&learn=on)
 
 Download the [WKND Article Design File](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND-article-design.xd).
 
@@ -69,7 +69,7 @@ A common practice when creating global content, such as a header or footer, is t
 
 Next  we will update the Experience Fragment intended to be used as the Header and Footer to add the WKND logo.
 
->[!VIDEO](https://video.tv.adobe.com/v/30215/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30215/?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ There are 3 main areas of [Editable Templates](https://docs.adobe.com/content/he
 
 The next thing we will do is create the Article Page Template. This will occur in a local instance of AEM.
 
->[!VIDEO](https://video.tv.adobe.com/v/30217/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30217/?quality=12&learn=on)
 
 Below are the high level steps performed in the above video.
 

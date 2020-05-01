@@ -16,7 +16,7 @@ discoiquuid: 9e666741-0f76-43c9-ab79-1ef149884686
 
 Adobe Experience Manager's SSL setup wizard to make it easier to set up an AEM instance to run over HTTPS.
 
->[!VIDEO](https://video.tv.adobe.com/v/17993/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/17993/?quality=12&learn=on)
 
 >[!NOTE]
 >

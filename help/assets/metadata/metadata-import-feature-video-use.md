@@ -18,11 +18,11 @@ AEM Assets metadata import and export capabilities allow content authors to easi
 
 ## Metadata Export {#metadata-export}
 
->[!VIDEO](https://video.tv.adobe.com/v/22132/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22132/?quality=9&learn=on)
 
 ## Metadata Import {#metadata-import}
 
->[!VIDEO](https://video.tv.adobe.com/v/21374/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21374/?quality=9&learn=on)
 
 Download [WeRetail sports folder](assets/we-retail-sports.zip)
 

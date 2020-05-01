@@ -18,7 +18,7 @@ AEM Site's Page Editor is a powerful tool for creating and editing web content. 
 
 The following video highlights the top features of the Page Editor.
 
->[!VIDEO](https://video.tv.adobe.com/v/32011?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32011?quality=12&learn=on)
 
 Features of the Page editor include:
 

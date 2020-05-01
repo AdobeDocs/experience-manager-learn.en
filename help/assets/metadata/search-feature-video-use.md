@@ -15,10 +15,10 @@ In these videos, we look at some enhancements to Assets search introduced in AEM
 
 ## Search Boosting with Asset Metadata {#search-boost-asset}
 
->[!VIDEO](https://video.tv.adobe.com/v/16766/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/16766/?quality=9&learn=on)
 
 ## Advanced configuration of Multi-Value and Tag Search Predicates {#multi-value-tag-predicates}
 
 The **multi-value search predicate** is made available for easy text matching in search results. Several enhancements to the Tag predicate has also been made for more efficient filtering of Asset search results.
 
->[!VIDEO](https://video.tv.adobe.com/v/16457/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/16457/?quality=9&learn=on)

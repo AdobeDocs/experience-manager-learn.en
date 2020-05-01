@@ -12,7 +12,7 @@ activity: use
 
 The Components Console provides developers and admin a central location to manage all of the various components in a Sites implementation. The following video details the features of the Components Console.
 
->[!VIDEO](https://video.tv.adobe.com/v/17417/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17417/?quality=9&learn=on)
 
 The Component Console provides the following functionality:
 

@@ -14,7 +14,7 @@ doc-type: tutorial
 
 A short example of leveraging [!DNL CORS] to access AEM content from an external web application via client-side JavaScript.
 
->[!VIDEO](https://video.tv.adobe.com/v/18837/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/18837/?quality=12&learn=on)
 
 In this video:
 

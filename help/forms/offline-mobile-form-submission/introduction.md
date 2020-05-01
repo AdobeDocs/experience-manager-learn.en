@@ -24,5 +24,5 @@ This tutorial walks through the steps needed to accomplish the above use case. S
 
 The following video gives you an overview of the use case
 
->[!VIDEO](https://video.tv.adobe.com/v/29677?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/29677?quality=9&learn=on)
 

@@ -14,7 +14,7 @@ redirect-form: https://docs.adobe.com/content/help/en/experience-manager-learn/a
 
 AEM Assets provides an enterprise level reporting framework that scales for large repositories through an intuitive user experience.
 
->[!VIDEO](https://video.tv.adobe.com/v/22140/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/22140/?quality=12&learn=on)
 
 ## Microsoft Excel Formulas {#excel-formulas}
 

@@ -14,7 +14,7 @@ contentOwner: dgordon
 
 Adobe Experience Manager's (AEM) [!UICONTROL System Overview] provides a high level view of the configuration, hardware, and health of the AEM instance all from a single dashboard.
 
->[!VIDEO](https://video.tv.adobe.com/v/21340?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21340?quality=12&learn=on)
 
 1. The System Overview can be accessed from: **AEM Start** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Operations]** &gt; **[!UICONTROL System Overview]**
 

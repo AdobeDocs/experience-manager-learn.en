@@ -19,7 +19,7 @@ snippet: y
 
 Using Adobe Sign with AEM Forms
 
->[!VIDEO](https://video.tv.adobe.com/v/18696?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/18696?quality=9&learn=on)
 
 *This video walks through the process of setting up the Adobe Sign cloud service and adding multiple signature fields to an AEM Adaptive Form.*
 

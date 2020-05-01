@@ -52,7 +52,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 
 In this chapter you will add some baseline styles for the WKND site and the Article Page Template in an effort to bring the implementation closer to the [UI design mockups](assets/pages-templates/wknd-article-design.xd). You will use an advanced front-end workflow to integrate a webpack project into an AEM client library.
 
->[!VIDEO](https://video.tv.adobe.com/v/30359/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30359/?quality=12&learn=on)
 
 ## Background {#background}
 
@@ -469,7 +469,7 @@ Next we will review how the project is set up to include the clientlibs in AEM t
 
 In the previous couple of exercises we were able to update several Sass files in the **ui.frontend** module and through a build process, ultimately see these changes reflected in AEM. Next we will look at leveraging a [webpack-dev-server](https://webpack.js.org/configuration/dev-server/) to rapidly develop our front-end styles.
 
->[!VIDEO](https://video.tv.adobe.com/v/30352/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30352/?quality=12&learn=on)
 
 Below are the high level steps shown in the video:
 
@@ -519,7 +519,7 @@ The focus of this tutorial is on client-side libraries and potential front-end w
 * [Quick Search](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/quick-search.html)
 * [Separator](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/separator.html)
 
->[!VIDEO](https://video.tv.adobe.com/v/30351/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30351/?quality=12&learn=on)
 
 Below are the high level steps shown in the video:
 

@@ -59,7 +59,7 @@ For this exercise, the following users need to be involved and to perform some t
 
 ## Content Editor Activities
 
->[!VIDEO](https://video.tv.adobe.com/v/28596?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28596?quality=12&learn=on)
 
 > [!NOTE]
 > Publish the Experience Fragment before exporting it to Adobe Target.
@@ -159,7 +159,7 @@ At this point, we have successfully created audiences for all WKND Site visitors
 2. Navigate to the [WKND Site Home Page](http://localhost:4503/content/wknd/en.html), and you should be able to see the WKND SkateFest Offer based off your geo-location (state).
 3. Watch the video below to understand how an offer gets delivered to your page, how to customize response tokens, and to perform a quality check.
 
->[!VIDEO](https://video.tv.adobe.com/v/28658?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28658?quality=12&learn=on)
 
 ## Summary
 

@@ -14,7 +14,7 @@ version: 6.3, 6.4, 6.5
 
 Adobe Experience Manager 3D lets you upload, manage, view and render 3D content.
 
->[!VIDEO](https://video.tv.adobe.com/v/18491/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/18491/?quality=9&learn=on)
 
 Download [Sample Adobe Logo 3D File](assets/adobe-logo.zip)
 

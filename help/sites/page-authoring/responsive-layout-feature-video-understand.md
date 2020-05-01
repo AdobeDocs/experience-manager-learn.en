@@ -16,7 +16,7 @@ kt: 4252
 
 Adobe Experience Manager Sites allows an author to manage the width of a component based on device width in order to facilitate a responsive site design. With Layout Mode and the Layout Container users can create responsive content for different devices and preview the end-user experience, without leaving the AEM UI.
 
->[!VIDEO](https://video.tv.adobe.com/v/32012?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32012?quality=12&learn=on)
 
 ## Additional Resources {#additional-resources}
 

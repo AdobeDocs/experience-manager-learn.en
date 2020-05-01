@@ -20,13 +20,13 @@ A cursory introduction to Asset Share Commons' user and authoring experiences.
 
 ## User experience
 
->[!VIDEO](https://video.tv.adobe.com/v/20497/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/20497/?quality=9&learn=on)
 
 The video provides an abridged walk-through of the user experience for Asset Share Commons. The review touches on the capabilities of the Search page, Asset Details page, as well as several actions such as Download, Share and Add to Cart.
 
 ## Authoring experience
 
->[!VIDEO](https://video.tv.adobe.com/v/20498/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/20498/?quality=9&learn=on)
 
 This video provides an abridged overview of the basic component-authoring capabilities in Asset Share Commons, to provide a sense of the level of author-ability.
 

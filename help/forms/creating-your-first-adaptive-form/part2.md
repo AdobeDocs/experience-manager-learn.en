@@ -18,5 +18,5 @@ discoiquuid: e748b7c3-99c9-4caa-98b1-4433046c24b8
 When adding child panels to the root panel, please **Make sure you are in the edit mode. The edit button is located on the top right-hand side of the browser.**
 
 
->[!VIDEO](https://video.tv.adobe.com/v/28536?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/28536?quality=9&learn=on)
 

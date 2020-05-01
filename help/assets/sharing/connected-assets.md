@@ -14,7 +14,7 @@ redirect-from: https://docs.adobe.com
 
 The Connected Assets feature allows an AEM Sites author to seamlessly share digital assets hosted on a different instance of AEM.
 
->[!VIDEO](https://video.tv.adobe.com/v/26060?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/26060?quality=12&learn=on)
 
 * 00:00 — High Level Architecture  
 * 02:52 — Authenticating to the Connected Assets

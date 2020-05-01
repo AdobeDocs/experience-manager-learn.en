@@ -20,7 +20,7 @@ Configure People panel by adding the spouse details fragment. A rule is created 
 
 **Configure People Panel in AEM Forms 6.3 and 6.4**
 
->[!VIDEO](https://video.tv.adobe.com/v/22193?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22193?quality=9&learn=on)
 
 **Configure People Panel in AEM Forms 6.5 and above**
 
@@ -28,7 +28,7 @@ Configure People panel by adding the spouse details fragment. A rule is created 
 
 **Spouse Details Rules**
 
->[!VIDEO](https://video.tv.adobe.com/v/22195?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22195?quality=9&learn=on)
 
 
 

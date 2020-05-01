@@ -57,7 +57,7 @@ If Content Fragment Models are **not** enabled for a configuration, the **[!UICO
     1. Verify the **[!UICONTROL Cloud Configuration]** field is set to **/conf/wknd-mobile**
     1. Tap **[!UICONTROL Save & Close]** in the upper-right to persist changes
 
->[!VIDEO](https://video.tv.adobe.com/v/28336/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28336/?quality=12&learn=on)
 
 ## Understanding the Content Fragment Model to Create
 
@@ -76,7 +76,7 @@ Armed with the mapping we can define out Content Fragment that will be used to c
 1. Tap **[!UICONTROL Create]** to open the Content Fragment Model creation wizard.  
 1. Enter **[!DNL Event]** as the **[!UICONTROL Model Title]** *(description is optional)* and tap **[!UICONTROL Create]** to save.
 
->[!VIDEO](https://video.tv.adobe.com/v/28337/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28337/?quality=12&learn=on)
 
 ## Defining the structure of the Content Fragment Model
 
@@ -152,7 +152,7 @@ Repeat these steps using the input definitions defined below to create the rest 
 * [!UICONTROL Property Name]: `venueCity`
 * [!UICONTROL Options]: `Basel,London,Los Angeles,Paris,New York,Tokyo`
 
->[!VIDEO](https://video.tv.adobe.com/v/28335/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28335/?quality=12&learn=on)
 
 >[!NOTE]
 >

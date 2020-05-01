@@ -18,7 +18,7 @@ Adobe Experience Manager assets can now be used by designers and creative users 
 
 Adobe Asset Link v1.1 now provides InDesign direct linking support between Adobe Asset Link and AEM Assets. With InDesign direct linking support, you can now place (Place Linked or Place Copy) or drag-n-drop digital assets into InDesign from AEM Assets via the Adobe Asset Link panel. Also, introduces the *For Placement Only* (FPO) rendition.
 
->[!VIDEO](https://video.tv.adobe.com/v/28988/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/28988/?quality=12&learn=on)
 
 >[!NOTE]
 >

@@ -68,11 +68,11 @@ The submitted data is as follows
  ```
 
 **Adding items using the rule editor**
- >[!VIDEO](https://video.tv.adobe.com/v/26847?quality=12)
+ >[!VIDEO](https://video.tv.adobe.com/v/26847?quality=12&learn=on)
 
 **Adding items using the code editor**
 
- >[!VIDEO](https://video.tv.adobe.com/v/26848?quality=12)
+ >[!VIDEO](https://video.tv.adobe.com/v/26848?quality=12&learn=on)
  
  To try this on your system:
 

@@ -56,5 +56,5 @@ Reducer functions are used to aggregate or group values that are displayed in th
 
 The following video walks through the steps involved in using reducer functions.
 
->[!VIDEO](https://video.tv.adobe.com/v/21368/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21368/?quality=9&learn=on)
 

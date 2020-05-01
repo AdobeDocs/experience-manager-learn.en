@@ -20,7 +20,7 @@ Video overview of authoring content for a Single Page Application in AEM Sites.
 
 AEM's SPA Editor provides authors the ability to edit content for a Single Page Application or SPA. Developers using the framework create a SPA and then map areas of the SPA to AEM components, allowing authors to use familiar AEM Sites editing tools. The below video demonstrates some of the in-context editing features with the We.Retail Journal App. This includes both a React and Angular implementation.
 
->[!VIDEO](https://video.tv.adobe.com/v/22229?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22229?quality=9&learn=on)
 
 >[!NOTE]
 >

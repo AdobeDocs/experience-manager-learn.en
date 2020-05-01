@@ -14,7 +14,7 @@ doc-type: technical-video
 
 A video walk-through of installing and using [!DNL Apache Sling Dynamic Include] with [AEM Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html) running on [!DNL Apache HTTP Web Server].
 
->[!VIDEO](https://video.tv.adobe.com/v/17040/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/17040/?quality=12&learn=on)
 
 >[!NOTE]
 >

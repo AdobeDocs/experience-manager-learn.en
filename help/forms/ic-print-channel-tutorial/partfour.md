@@ -22,8 +22,8 @@ Every print channel document will be based on a template created using AEM Forms
 
 The following 2 videos highlight the sections or target areas defined in the layout that will be used in this tutorial.
 
->[!VIDEO](https://video.tv.adobe.com/v/22375/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22375/?quality=9&learn=on)
 
->[!VIDEO](https://video.tv.adobe.com/v/27767?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27767?quality=9&learn=on)
 
 

@@ -14,7 +14,7 @@ version: 6.3, 6.4, 6.5
 
 Adobe product management provides an overview of what’s new with Experience Fragments in the AEM 6.3 release.
 
->[!VIDEO](https://video.tv.adobe.com/v/18927/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/18927/?quality=9&learn=on)
 
 An Experience Fragment is a set of content that grouped forms an experience that should make sense on its own.
 

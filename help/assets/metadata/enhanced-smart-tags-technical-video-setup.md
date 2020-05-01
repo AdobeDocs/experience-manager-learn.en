@@ -16,7 +16,7 @@ version: 6.3, 6.4, 6.5
 
 Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service and Adobe I/O.
 
->[!VIDEO](https://video.tv.adobe.com/v/23405/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/23405/?quality=9&learn=on)
 
 >[!NOTE]
 >

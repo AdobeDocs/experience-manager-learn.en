@@ -17,6 +17,6 @@ discoiquuid: 0e1760ad-c412-4a55-a51a-d0875c55768e
 
 In this part, we will create a REST backed data source.  The following video walks thru the steps to create the data source.
 
->[!VIDEO](https://video.tv.adobe.com/v/22344/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22344/?quality=9&learn=on)
 
 Please use the swagger file provided to you as part of the assets related to this tutorial. The assets are available in [introduction](introduction.md) of this tutorial.

@@ -13,7 +13,7 @@ version: 6.4, 6.5
 
 Smart Tags allows for training the Smart Tags Algorithm with a customer-specific taxonomy and manually tagged assets. Enhanced Smart Tags can then be leveraged to improve user search experience and help find the assets at the right time.
 
->[!VIDEO](https://video.tv.adobe.com/v/22254/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22254/?quality=9&learn=on)
 
 >[!NOTE]
 > Enhanced Smart Tags (ie. Training Smart Tags) requires a minimum install of [AEM 6.4 Service Pack 1](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html#experience-manager-6410).

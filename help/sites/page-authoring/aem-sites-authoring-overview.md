@@ -16,7 +16,7 @@ kt: 4495
 
 The following video provides an overview of basic concepts of authoring in an AEM author environment for AEM Sites.
 
->[!VIDEO](https://video.tv.adobe.com/v/31784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31784?quality=12&learn=on)
 
 ## Additional Resources {#additional-resources}
 

@@ -15,7 +15,7 @@ This video tutorial walks through defining an InDesign file, and all the accompa
 
 ## Constructing the InDesign template file {#constructing-the-indesign-template-file}
 
->[!VIDEO](https://video.tv.adobe.com/v/19293/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/19293/?quality=9&learn=on)
 
 1. Download and Open the [**InDesign file template**](assets/asset-templates-tutorial-video--supporting-files.zip)
 2. **Open the Tags panel,** review the Tag naming convention, and note that the author-able elements in the InDesign file are already tagged. Remember, only tagged elements are editable in AEM.
@@ -48,7 +48,7 @@ This video tutorial walks through defining an InDesign file, and all the accompa
 
 ## Creating and authoring an Asset Template in AEM Assets {#creating-and-authoring-an-asset-template-in-aem-assets}
 
->[!VIDEO](https://video.tv.adobe.com/v/19294/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/19294/?quality=9&learn=on)
 
 1. **Start InDesign Server** on port 8080.
 2. Ensure the **AEM Author instance is configured to interact with your InDesign Server**(and vice-versa).

@@ -12,7 +12,7 @@ version: 6.3, 6.4, 6.5
 
 Component Icons allow authors to quickly identify a component with icons or meaningful abbreviations. Authors can now find locate the Components required to build out their Web experiences faster than ever.
 
->[!VIDEO](https://video.tv.adobe.com/v/16778/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/16778/?quality=9&learn=on)
 
 The Component browser now displays in a consistent grey theme, displaying the:
 

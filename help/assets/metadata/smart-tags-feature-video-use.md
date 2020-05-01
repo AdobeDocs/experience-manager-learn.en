@@ -17,7 +17,7 @@ version: 6.3, 6.4, 6.5
 
 Smart tags feature augments the search capabilities of Adobe Experience Manager (AEM) Assets by automatically adding metadata tags to image assets that you upload to a folder. The feature also lets you automatically apply tags in bulk to all images within a folder. Improves author experience by making it simpler to select the right image, thereby increasing quality of the content created.
 
->[!VIDEO](https://video.tv.adobe.com/v/17019/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17019/?quality=9&learn=on)
 
 >[!NOTE]
 >

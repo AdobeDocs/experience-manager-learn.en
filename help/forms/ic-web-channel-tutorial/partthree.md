@@ -18,10 +18,10 @@ discoiquuid: 723b7ef3-f552-4710-b2a4-410b0b1b7525
  In this part, we will create Form Data Model. Form Data Model allows you to configure and connect to disparate data sources. An intuitive user interface to create a unified data representation schema of business entities and services across connected data sources. The following video walks through the steps to create Form Data Model.
 
 **Creating Form Data Model in AEM Forms 6.4**
->[!VIDEO](https://video.tv.adobe.com/v/27763/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27763/?quality=9&learn=on)
 
 **Creating Form Data Model in AEM Forms 6.5 and above**
->[!VIDEO](https://video.tv.adobe.com/v/27765?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27765?quality=9&learn=on)
 
 Form Data Model is dependent on a correctly configured Data Source. We will use the Data Source configured in the previous step as the basis for this Form Data Model.
 

@@ -19,7 +19,7 @@ Technical walk-through of of how to configure the Adobe Experience Manager (AEM)
 
 ## Overview {#overview}
 
->[!VIDEO](https://video.tv.adobe.com/v/21982/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21982/?quality=12&learn=on)
 
 Launch is Adobe's next-generation tag management platform and the best way to deploy Adobe Analytics, Target, Audience Manager, Experience Cloud ID Service, and all of their 3rd party marketing solutions using Launch by Adobe.
 
@@ -31,7 +31,7 @@ These three videos explain everything you need to know to successfully implement
 
 In this step we will configure a Launch property with the bare-minimum configuration needed to set up the rest of the integration.
 
->[!VIDEO](https://video.tv.adobe.com/v/21984/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21984/?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ In this step we will configure a Launch property with the bare-minimum configura
 
 In this step, the Launch Integration will be configured in Adobe I/O and connected to AEM.
 
->[!VIDEO](https://video.tv.adobe.com/v/21983/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21983/?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ In this step, the Launch Integration will be configured in Adobe I/O and connect
 
 In the final step, the Launch Cloud Configuration will be set up and the correct Launch property will be applied to the AEM site.
 
->[!VIDEO](https://video.tv.adobe.com/v/21985/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/21985/?quality=12&learn=on)
 
 >[!CAUTION]
 >

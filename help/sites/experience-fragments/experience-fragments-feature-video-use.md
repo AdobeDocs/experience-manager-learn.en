@@ -16,7 +16,7 @@ Experience Fragments are a feature of Adobe Experience Manager (AEM), first intr
 
 ## Experience Fragments Overview
 
->[!VIDEO](https://video.tv.adobe.com/v/17028/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17028/?quality=9&learn=on)
 
 An Experience Fragment is a set of content that grouped forms an experience that should make sense on its own.
 
@@ -31,7 +31,7 @@ With Experience Fragments marketers can:
 
 Building blocks is a new enhancement added to Experience Fragment in AEM 6.4+. It lets content authors create a building block consisting of components that could be re-used to create content across different variations and across different templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/21289/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21289/?quality=9&learn=on)
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Building blocks is a new enhancement added to Experience Fragment in AEM 6.4+. I
 
 AEM 6.5, now supports full-text search capabilities for Experience Fragments.
 
->[!VIDEO](https://video.tv.adobe.com/v/27720/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/27720/?quality=9&learn=on)
 
 * **Content Authors** (Internal search) can now search for a text part within an Experience Fragment and the result would include the experience fragments containing the text as well as the page that references the experience fragment.
 * **Site Users** (External search) can now perform a full-text search using the search component, and the result would include site pages that reference the experience fragment containing the search keyword.

@@ -18,7 +18,7 @@ discoiquuid: 41864584-cb99-4c54-abda-8eb83829cb90
 
 Setting up data connection to an JDBC data source
 
->[!VIDEO](https://video.tv.adobe.com/v/17724/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/17724/?quality=9&learn=on)
 
 >[!NOTE]
 >

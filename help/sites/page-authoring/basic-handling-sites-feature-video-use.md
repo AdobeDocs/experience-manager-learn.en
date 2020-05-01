@@ -16,7 +16,7 @@ kt: 4495
 
 The following video provides an overview of basic handling when using the AEM author environment. It uses the Sites console as a basis.
 
->[!VIDEO](https://video.tv.adobe.com/v/31784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31784?quality=12&learn=on)
 
 In this video, the following capabilities or features are covered:
 
