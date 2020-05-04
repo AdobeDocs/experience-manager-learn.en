@@ -95,7 +95,7 @@ The preferred API is [AEM Query Builder](https://helpx.adobe.com/experience-mana
 
 >[!CAUTION]
 >
->AEM QueryBuilder API leaks a ResourceResolver object. To mitigate this leak follow this [code sample](https://github.com/Adobe-Consulting-Services/acs-aem-samples/blob/master/bundle/src/main/java/com/adobe/acs/samples/search/querybuilder/impl/SampleQueryBuilder.java#L164).
+>AEM QueryBuilder API leaks a ResourceResolver object. To mitigate this leak follow this [code sample](https://github.com/Adobe-Consulting-Services/acs-aem-samples/blob/master/core/src/main/java/com/adobe/acs/samples/search/querybuilder/impl/SampleQueryBuilder.java#L164).
 >
 
 ## [!DNL Sling] APIs
@@ -312,7 +312,7 @@ Calendar value = page.getProperties().get("cq:lastModified", Calendar.getInstanc
 The Asset API provides convenient methods for reading properties from the `[dam:Asset]/jcr:content/metadata` node. Note that this is not a ValueMap, the 2nd parameter (default value, and auto-type casting) is not supported.
 
 ```java
-Asset asset = resource.adaptTo(Page.class);
+Asset asset = resource.adaptTo(Asset.class);
 String title = asset.getMetadataValue("dc:title");
 Calendar lastModified = (Calendar) asset.getMetadata("cq:lastModified");
 ```
