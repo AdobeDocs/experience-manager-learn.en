@@ -8,7 +8,8 @@ audience: all
 doc-type: feature-video
 activity: use
 version: 
-kt : 4916 
+kt : 4916
+thumbnail: 34259.jpg
 ---
 
 # For Placement Only (FPO) Rendition{#for-placement-only-rendition}
