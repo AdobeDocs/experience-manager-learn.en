@@ -9,6 +9,7 @@ doc-type: feature-video
 activity: use
 version: cloud-service
 kt : 4904
+thumbnail: 33733.jpg
 ---
 
 # Access Adobe Asset Link {#access-adobe-asset-link}
