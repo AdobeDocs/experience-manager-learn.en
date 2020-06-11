@@ -1,5 +1,5 @@
 ---
-title: Trigger AEM Workflow
+title: Trigger AEM Workflow on form submission
 description: Configure Adaptive Form to trigger AEM Workflow .
 sub-product: forms
 feature: workflow
@@ -8,9 +8,10 @@ audience: developer
 doc-type: article
 activity: setup
 version: 6.4,6.5
-KT: 5407
+kt: 5407
 thumbnail: kt-5407.jpg
 ---
+
 # Configuring Adaptive Form to trigger AEM Workflow
 
 * Download [Adaptive Form](assets/time-off-application.zip) 
@@ -26,5 +27,3 @@ thumbnail: kt-5407.jpg
 _Please make sure you make a note of the value specified in the Data File Path field. This value must match the value you specify in the pre-populate section of the Assign Task component of your workflow._
 
 Now when you fill and submit your Adaptive Form, the workflow associated with submit action of the form will be triggered.
-
-
