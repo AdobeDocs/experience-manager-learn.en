@@ -13,17 +13,16 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 ## What's New
 
-* **[Debugging AEM SDK's local quickstart (Tutorial)](./debugging/aem-sdk-local-quickstart/overview.md)**
+* **[Debugging AEM as a Cloud Service (Tutorial)](./debugging/aem-sdk-local-quickstart/overview.md)**
+    <br>
+    *Explore how to debug AEM as a Cloud Service*
+* **[Debugging AEM SDK (Tutorial)](./debugging/aem-sdk-local-quickstart/overview.md)**
     <br>
     *Explore the various tools used to debug your application on the AEM as a Cloud Service SDK's local quickstart*
 
 * **[Local Development Environment Set Up (Tutorial)](./local-development-environment/overview.md)**
     <br>
     *Learn how to set up your local development machine for AEM as a Cloud Service development*
-
-* **[Get started developing for AEM Sites (Tutorial)](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**
-    <br>
-    *An end-to-end tutorial on how to develop a Web site in AEM as a Cloud Service*
 
 * **[Deploying WKND to AEM as a Cloud Service (Video)](./develop-wknd-tutorial.md#deploying-wknd-to-aem-as-a-cloud-service)**
     <br>
@@ -77,7 +76,7 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
       </a>
       <div>
          <a href="./debugging/aem-sdk-local-quickstart/overview.md">
-         <strong>Debugging AEM SDK’s local quickstart</strong>
+         <strong>Debugging AEM SDK</strong>
          </a>
       </div>
       <p>
