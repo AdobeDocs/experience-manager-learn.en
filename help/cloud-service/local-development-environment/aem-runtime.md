@@ -27,7 +27,7 @@ Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Servi
 
 Experience Manager is a Java application, and thus requires the Java SDK to support the development tooling.
 
-1. [Download and install the latest [Java SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14))
+1. [Download and install the latest [Java SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
 1. Verify Java 11 SDK is installed by running the command:
     + Windows:`java -version`
     + macOS / Linux: `java --version`
@@ -158,17 +158,21 @@ In order to stop a local AEM runtime, either AEM Author or Publish service, open
 
 ## When to update the Quickstart Jar
 
-AEM as a Cloud Service releases daily updates, and thus, it is important for local development to be developing against Quickstart Jar version that is "near" to what is deployed to the AEM as Cloud Service environments. It is recommended the local Quickstart Jar used for local development be refreshed at least bi-weekly to match the version of Experience Manager on the Production environment.
+Update the AEM SDK at least monthly on, or shortly after, the last Thursday of each month, which is the release cadence for AEM as a Cloud Service "feature releases".
 
 >[!WARNING]
 >
 > Updating the Quickstart Jar to a new version requires replacing the entire local development environment, resulting in a loss of all code, configuration and content in the local AEM repositories. Ensure that any code, config or content that should not be destroyed is safely committed to Git, or exported from the local AEM instance as AEM Packages.
 
-The version of AEM as a Cloud Service can be found via [Cloud Manager](https://my.cloudmanager.adobe.com/).
+### How to avoid content loss when upgrading the AEM SDK
 
-+ __Cloud Manager > Environments__, per environment specified by the __AEM Release__ label
+Upgrading the AEM SDK is effectively creating a brand new AEM runtime, including a new repository, meaning any changes made to a prior AEM SDK's repository are lost. The following are viable strategies for aiding in persisting content between AEM SDK upgrades, and can be used discretely or in concert:
 
-![Experience Manager Version](./assets/aem-runtime/aem-version.png)
+1. Create a content package dedicated to containing "sample" content to aid in development, and maintain it in Git. Any content that should be persisted through AEM SDK upgrades would be persisted into this package, and re-deployed after upgrading the AEM SDK.
+1. Use [oak-upgrade](https://jackrabbit.apache.org/oak/docs/migration.html) with the `includepaths` directive, to copy content from the prior AEM SDK repository to the new AEM SDK repository.
+1. Backup any content using AEM Package Manager and content packages on the prior AEM SDK, and re-install them on the new AEM SDK.
+
+Remember, using the above approaches to maintain code between AEM SDK upgrades, indicates a development anti-pattern. Non-disposable code should originate in your Development IDE and flow into AEM SDK via deployments.
 
 ## Troubleshooting
 
