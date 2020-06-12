@@ -41,7 +41,8 @@ sub-product: sites
   + [AEM Project Archetype](developing/aem-project-archetype.md)
   + [Getting Started with AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Getting Started with AEM Headless](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html)
-  + [Getting Started with AEM's SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
+  + [Getting Started with AEM SPA Editor and React](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html)
+  + [Getting Started with AEM SPA Editor and Angular](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-angular-tutorial/overview.html)
   + [Extending Page Properties](developing/page-properties-technical-video-develop.md)
   + [Developing with the Style System](developing/style-system-technical-video-understand.md)
   + [Style System Best Practices](developing/style-organization-style-system-understand-article.md)
@@ -57,7 +58,8 @@ sub-product: sites
 + Single Page Applications {#spa-editor}
   + [Using the SPA Editor](spa-editor/spa-editor-framework-feature-video-use.md)
   + [Hello World Tutorial](spa-editor/spa-editor-helloworld-tutorial-use.md)
-  + [Getting Started with AEM's SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
+  + [Getting Started with AEM SPA Editor and React](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html)
+  + [Getting Started with AEM SPA Editor and Angular](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-angular-tutorial/overview.html)
 + Translation {#translation}
   + [Using Multi Site Manager](translation/multi-site-manager-feature-video-use.md)
   + [Using Language Copy](translation/language-copy-feature-video-use.md)

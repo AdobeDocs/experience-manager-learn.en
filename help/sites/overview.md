@@ -12,6 +12,14 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
 
 ## What's New
 
+* **[Getting Started with AEM SPA Editor and React](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html) (Tutorial)**
+  <br>
+  *A getting started guide for developers to integrate a single page applications (SPA) with AEM using React*
+
+* **[Getting Started with AEM SPA Editor and Angular](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-angular-tutorial/overview.html) (Tutorial)**
+  <br>
+  *A getting started guide for developers to integrate a single page applications (SPA) with AEM using Angular*
+
 * **[Getting Started with AEM Headless (Tutorial)](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html)**
     <br>
     *How to expose content from AEM to be consumed by a native mobile app, in a headless CMS scenario.*
@@ -59,11 +67,11 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
     </p>
   </td>
   <td>
-    <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html">
+    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html">
       <img alt="Getting Started with AEM's SPA Editor" src="./assets/aem-wknd-spa-editor-tutorial.png" />
     </a>
      <div>
-      <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html">
+      <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html">
         <strong>Getting Started with AEM's SPA Editor</strong>
       </a>
     </div>
