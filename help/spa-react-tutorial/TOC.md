@@ -5,10 +5,10 @@ version: cloud-service
 doc-type: tutorial
 activity: develop
 audience: developer
-user-guide-title: Create your first React SPA in AEM
+user-guide-title: Getting Started with the AEM SPA Editor and React
 ---
 
-# Create your first React SPA in AEM {#spa-react-tutorial}
+# Getting Started with the AEM SPA Editor and React {#spa-react-tutorial}
 
 + [Overview](overview.md)
 + [SPA Editor Project](create-project.md)

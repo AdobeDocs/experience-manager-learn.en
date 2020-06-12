@@ -5,10 +5,10 @@ version: cloud-service
 doc-type: tutorial
 activity: develop
 audience: developer
-user-guide-title: Create your first Angular SPA in AEM
+user-guide-title: Getting Started with the AEM SPA Editor and Angular
 ---
 
-# Create your first Angular SPA in AEM {#spa-angular-tutorial}
+# Getting Started with the AEM SPA Editor and Angular {#spa-angular-tutorial}
 
 + [Overview](overview.md)
 + [SPA Editor Project](create-project.md)
