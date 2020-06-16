@@ -34,6 +34,6 @@ The Developer console provides a variety of information and introspections into 
 
 ## CRXDE Lite
 
-CRXDE Lite is a classic, yet powerful tool for debugging AEM as a Cloud Service Developer environments. CRXDE Lite provides a suite of functionality that aids debugging from inspecting all resources and properties, manipulating the mutable portions of the JCR, investigating permissions and evaluating queries. 
+CRXDE Lite is a classic, yet powerful tool for debugging AEM as a Cloud Service Development environments. CRXDE Lite provides a suite of functionality that aids debugging from inspecting all resources and properties, manipulating the mutable portions of the JCR, investigating permissions and evaluating queries. 
 
 [Debugging AEM as a Cloud Service with CRXDE Lite](./crxde-lite.md)

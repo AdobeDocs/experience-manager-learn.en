@@ -1,5 +1,5 @@
 ---
-title: Set up the Development Tooling for AEM as a Cloud Service Development
+title: Set up the development tools for AEM as a Cloud Service development
 description: Set up a local development machine with all the baseline tooling required to develop against AEM locally.
 feature: 
 topics: development

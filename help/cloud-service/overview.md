@@ -13,7 +13,7 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 ## What's New
 
-* **[Debugging AEM as a Cloud Service (Tutorial)](./debugging/aem-sdk-local-quickstart/overview.md)**
+* **[Debugging AEM as a Cloud Service (Tutorial)](./debugging/cloud-service/overview.md)**
     <br>
     *Explore how to debug AEM as a Cloud Service*
 * **[Debugging AEM SDK (Tutorial)](./debugging/aem-sdk-local-quickstart/overview.md)**
