@@ -19,11 +19,12 @@ Each AEM as a Cloud Service environment has it's own Developer Console.
 
 ## Developer Console access
 
-To access and use the Developer Console the following permissions must be given to the developer's Adobe ID:
+To access and use the Developer Console the following permissions must be given to the developer's Adobe ID via [Adobe's Admin Console](https://adminconsole.adobe.com).
 
-+ The developer must be a member of the Cloud Manager Product's __Developer - Cloud Service__ Product Profile.
+1. Ensure the Adobe Org that has effected Cloud Manger and AEM as a Cloud Service products is active in the Adobe Org switcher.
+1. The developer must be a member of the Cloud Manager Product's __Developer - Cloud Service__ Product Profile.
     + If this membership does not exist, the developer will not be able to log in to Developer Console.
- + The developer must be a member of the AEM Author and Publish service's __AEM Administrators__ Product Profile.
+1. The developer must be a member of the AEM Author and Publish service's __AEM Administrators__ Product Profile.
     + If this membership does not exist, the [status](#status) dumps will timeout with a 401 Unauthorized error.   
 
 ## Pod

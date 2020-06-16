@@ -16,7 +16,7 @@ team: TM
   + [Introduction to Dispatcher](./underlying-technology/introduction-dispatcher.md)
 + Local Development Environment Set up {#local-development-environment-set-up}
   + [Overview](./local-development-environment/overview.md)
-  + [Development Tools for AEM Projects](./local-development-environment/development-tools.md)
+  + [Development Tools](./local-development-environment/development-tools.md)
   + [Local AEM Runtime](./local-development-environment/aem-runtime.md)
   + [Local Dispatcher Tools](./local-development-environment/dispatcher-tools.md)
 + Debugging AEM{#debugging}
