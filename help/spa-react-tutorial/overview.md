@@ -23,7 +23,7 @@ Welcome to a multi-part tutorial designed for developers new to the **SPA Editor
 
 The goal for this multi-part tutorial is to teach a developer how to implement a React application to work with the SPA Editor feature of AEM. In a real-world scenario the development activities are broken down by persona, often involving a **Front End developer** and a **Back End developer**. We believe it is beneficial for any developer who will be involved in an AEM SPA Editor project to complete this tutorial.
 
-The tutorial is designed to work with **AEM as a Cloud Service** and is backwards compatible with **AEM 6.5+** and **AEM 6.4.8+**. The SPA is implemented using:
+The tutorial is designed to work with **AEM as a Cloud Service** and is backwards compatible with **AEM 6.5.4+** and **AEM 6.4.8+**. The SPA is implemented using:
 
 * [Maven AEM Project Archetype](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/overview.html)
 * [AEM SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-walkthrough.html#content-editing-experience-with-spa)
@@ -32,6 +32,12 @@ The tutorial is designed to work with **AEM as a Cloud Service** and is backward
 * [Create React App](https://create-react-app.dev/)
 
 *Estimate 1-2 hours to get through each part of the tutorial.*
+
+## Latest Code
+
+All of the tutorial code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-spa).
+
+The [latest code base](https://github.com/adobe/aem-guides-wknd-spa/releases) is available as downloadable AEM Packages.
 
 ## Prerequisites
 
@@ -64,14 +70,14 @@ What are you waiting for?! Start the tutorial by navigating to the [SPA Editor P
 
 The project code for this tutorial was built for AEM as a Cloud Service. In order to make the project code backward compatible for **6.5.4+** and **6.4.8+** several modifications have been made to the tutorial's POM files.
 
-The [UberJar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#what-is-the-uberjar) v **6.4.8** has been included as a dependency:
+The [UberJar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#what-is-the-uberjar) **v6.4.4** has been included as a dependency:
 
 ```xml
 <!-- Adobe AEM 6.x Dependencies -->
 <dependency>
     <groupId>com.adobe.aem</groupId>
     <artifactId>uber-jar</artifactId>
-    <version>6.4.8</version>
+    <version>6.4.4</version>
     <classifier>apis</classifier>
     <scope>provided</scope>
 </dependency>
