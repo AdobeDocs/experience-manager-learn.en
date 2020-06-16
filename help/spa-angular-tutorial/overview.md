@@ -32,6 +32,12 @@ The tutorial is designed to work with **AEM as a Cloud Service** and is backward
 
 *Estimate 1-2 hours to get through each part of the tutorial.*
 
+## Latest Code
+
+All of the tutorial code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-spa). 
+
+The [latest code base](https://github.com/adobe/aem-guides-wknd-spa/releases) is available as downloadable AEM Packages.
+
 ## Prerequisites
 
 Before starting this tutorial, you'll need the following:
@@ -63,14 +69,14 @@ What are you waiting for?! Start the tutorial by navigating to the [SPA Editor P
 
 The project code for this tutorial was built for AEM as a Cloud Service. In order to make the project code backward compatible for **6.5.4+** and **6.4.8+** several modifications have been made.
 
-The [UberJar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#what-is-the-uberjar) v **6.4.8** has been included as a dependency:
+The [UberJar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#what-is-the-uberjar) **v6.4.4** has been included as a dependency:
 
 ```xml
 <!-- Adobe AEM 6.x Dependencies -->
 <dependency>
     <groupId>com.adobe.aem</groupId>
     <artifactId>uber-jar</artifactId>
-    <version>6.4.8</version>
+    <version>6.4.4</version>
     <classifier>apis</classifier>
     <scope>provided</scope>
 </dependency>
