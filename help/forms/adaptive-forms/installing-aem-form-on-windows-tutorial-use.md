@@ -74,11 +74,12 @@ Although we recommend following the [official documentation](https://helpx.adobe
 
     * **Once all the bundles are active(Except the AEMFD Signatures bundle), restart your system to complete the AEM Forms installation**
 
-* Add sun.util.calendar package to the allowlist
+* Add `sun.util.calendar` package to the allowed list:
 
-    * Open feilix web console in your [browser window](http://localhost:4502/system/console/configMgr)
-    * Search and open Deserialization Firewall Configuration
-        In the whitelist field add sun.util.calendar package and save
+  1. Open Felix web console in your [browser window](http://localhost:4502/system/console/configMgr)
+  2. Search and open Deserialization Firewall Configuration: `com.adobe.cq.deserfw.impl.DeserializationFirewallImpl`
+  3. Add `sun.util.calendar` as a new entry under `com.adobe.cq.deserfw.impl.DeserializationFirewallImpl.firewall.deserialization.whitelist.name`
+  4. Save the changes.
 
 Congratulations!!! You have now installed and configured AEM Forms on your system.
 Depending on your needs you can configure  [Reader Extensions](https://helpx.adobe.com/experience-manager/6-3/forms/using/configuring-document-services.html) or [ PDFG](https://helpx.adobe.com/experience-manager/6-3/forms/using/install-configure-pdf-generator.html) on your server
