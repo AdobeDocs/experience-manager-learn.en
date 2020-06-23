@@ -12,7 +12,7 @@ activity: develop, use
 
 This guide is intended to help current and new users of Dynamic Media Classic more fully understand what they can do with their powerful rich media solution from Adobe. We'll do that by:
 
-- Introducing you to Dynamic Media Classic, describing what it is and providing an overview of its core capabilities and user interface (UI).
+- Introducing you to Dynamic Media Classic, describing what it is, and providing an overview of its core capabilities and user interface (UI).
 - Explaining the general Create, Author, and Deliver workflow you'll follow when working with assets in the solution.
 - Discussing important items to set up prior to jumping in and using the solution.
 - Taking a deep dive into using several of the solution's core capabilities.
@@ -25,14 +25,14 @@ We hope this guide provides you the information you need to unlock tremendous va
 
 Dynamic Media Classic is the hub around which customers create, author, and deliver rich media content. Dynamic Media Classic is an integrated, rich media management, publishing, and serving environment. Rich media can be delivered to all marketing and sales channels, including the web, print material, e-mail campaigns, web applications, desktops, and devices.
 
-Image serving is perhaps the most used function of Dynamic Media Classic. In fact, most customers use Dynamic Media Classic to serve up all the images on their websites,including images for zoom or rich media.However, it can also be used for many other purposes, including delivery of video and use of AI to optimize images delivered.
+Image serving is perhaps the most used function of Dynamic Media Classic. In fact, most customers use Dynamic Media Classic to serve up all the images on their websites, including images for zoom or rich media. However, it can also be used for many other purposes, including delivery of video and use of AI to optimize images delivered.
 
 ## Core Capabilities of Dynamic Media Classic
 
 In this guide we'll discuss the following core capabilities of Dynamic Media Classic.
 
 - **Dynamic Imaging.** The umbrella term for real-time editing, formatting and sizing, and interactive zoom and pan; color and texture swatching; 360-degree spin; image templates; and multimedia viewers.
-- **Video.** Upload final videos,publish them,and progressively download them into configurable video viewers.
+- **Video.** Upload final videos, publish them, and progressively download them into configurable video viewers.
 - **Smart Imaging.** Technology that leverages Adobe Sensei AI capabilities and works with existing "Image Presets" to enhance image delivery performance by automatically optimizing image format, size, and quality based on client browser capabilities.
 
 To discover additional capabilities of the solution, visit the [Documentation for Dynamic Media Classic](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/intro/introduction.html).
@@ -53,7 +53,7 @@ _Dynamic Media Classic UI_
 >
 > Assets in the Trash will automatically be deleted permanently seven days after they were put there unless you restore them.
 
-**Browse/Build Panel.** The is the center of the UI, where you'll either browse assets in Browse mode or, if in Build mode, you'll use it as a canvas for building assets as part of a workflow. When you first sign in, you'll see the Browse Panel. In the center of the screen are thumbnail versions of your images in a Grid view. You can change to a List view or select an asset and view details about it using the Detail view.
+**Browse/Build Panel.** This is the center of the UI, where you'll either browse assets in Browse mode or, if in Build mode, you'll use it as a canvas for building assets as part of a workflow. When you first sign in, you'll see the Browse Panel. In the center of the screen are thumbnail versions of your images in a Grid view. You can change to a List view or select an asset and view details about it using the Detail view.
 
 > [!IMPORTANT]
 >

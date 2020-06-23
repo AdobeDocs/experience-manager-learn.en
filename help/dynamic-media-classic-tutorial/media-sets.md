@@ -11,7 +11,7 @@ activity: use
 
 # Image, Swatch, Spin, and Mixed Media Sets {#media-sets}
 
-Moving beyond single images for dynamic sizing and zoom, Dynamic Media Classic set collections allow for a richer online experience. This chapter will explore how to create the following rich media sets in Dynamic Media Classic:
+Moving beyond single images for dynamic sizing and zoom, Dynamic Media Classic set collections allow for a richer online experience. This section of the tutorial will explore how to create the following rich media sets in Dynamic Media Classic:
 
 - Image Set
 - Swatch Set
@@ -22,9 +22,9 @@ It will also explain how to use Batch Set Presets to automate set creation via a
 
 ## Everything You Always Wanted To Know About Sets
 
-Next to basic dynamic sizing and zoom, sets are probably the most widely used Dynamic Media Classic sub- product. Sets are essentially "virtual" assets that contain no actual images, but consist of a set of relationships to other images and/or video. The main appeal of sets is that they are mini-applications that are ready "off the shelf." By that we mean that each set viewer contains its own logic and interface so that all you have to do is call to them on the site. In addition, they only require you to track a single Asset ID per set, rather than having to manage all the member assets and relationships yourself.
+Next to basic dynamic sizing and zoom, sets are probably the most widely used Dynamic Media Classic sub-product. Sets are essentially "virtual" assets that contain no actual images, but consist of a set of relationships to other images and/or video. The main appeal of sets is that they are mini-applications that are ready "off the shelf." By that we mean that each set viewer contains its own logic and interface so that all you have to do is call to them on the site. In addition, they only require you to track a single Asset ID per set, rather than having to manage all the member assets and relationships yourself.
 
-When you create a set, that set is managed as a separate asset that must be marked for publish and published before it can be served from a URL. In addition, all of its member assets must be published as well.
+When you create a set, that set is managed as a separate asset that must be marked for publish and published before it can be served from a URL. All of its member assets must be published as well.
 
 ### Types of Sets
 
@@ -66,7 +66,7 @@ The URL for the above Swatch Set could appear as:
 
 ### Spin Set
 
-This set is typically used to show a 360-degree view of an item.Like Swatch Sets,Spin Sets use no 3D magic — the real work is to create many photos of an image from all sides. The viewer simply allows you to switch between the images like a stop-motion animation.
+This set is typically used to show a 360-degree view of an item. Like Swatch Sets, Spin Sets use no 3D magic — the real work is to create many photos of an image from all sides. The viewer simply allows you to switch between the images like a stop-motion animation.
 
 Spin Sets can either spin in one direction along a single axis, or if alternately created as a 2D Spin Set — spin on multiple axes. For example, a car can be rotated while all wheels are on the ground, and then can be "flipped" up and rotated on its back wheels as well. For a properly set up 2D Spin Set, the number of images per row for each axis should be the same. In other words, if you are spinning on two axes, you need twice as many images as a single angle spin.
 
@@ -93,7 +93,7 @@ The URL for the above Mixed Media Set could appear as:
 
 ![image](assets/media-sets/image-set-url-1.png)
 
-- Learn more about Mixed Media Sets with the [Quick Start to Mixed Media Sets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/mixed-media-sets/quick-start-mixed-media-sets.html)
+- Learn more about Mixed Media Sets with the [Quick Start to Mixed Media Sets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/mixed-media-sets/quick-start-mixed-media-sets.html).
 
 - Learn how to [Create a Mixed Media Set](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/mixed-media-sets/creating-mixed-media-set.html#creating-a-mixed-media-set).
 
@@ -127,6 +127,6 @@ Here is how you use Batch Set Presets on upload after they have been created:
 1. Click **Upload** and choose either **From Desktop** or **Via FTP**.
 2. Click **Job Options**.
 3. Open the **Batch Set Presets** option, and check or uncheck the preset to use it with the upload.
-4. After the upload is done, look in your folder for the finished sets
+4. After the upload is done, look in your folder for the finished sets.
 
 Learn more about [Batch Set Presets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/setup/application-setup.html#batch-set-presets).

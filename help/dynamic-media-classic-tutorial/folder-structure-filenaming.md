@@ -31,7 +31,7 @@ We want you to consider your folder structure before you start uploading all you
 
 For your folder strategy consider what makes sense to your organization. Here are some common folder naming scenarios:
 
-- Mirror web site or product breakdown. For example, if you sold clothing, you might have folders for Men, Women, and Accessories, and sub folders for Shirts andShoes.
+- Mirror web site or product breakdown. For example, if you sold clothing, you might have folders for Men, Women, and Accessories, and subfolders for Shirts andShoes.
 - SKU or Product ID based strategy. For example, with retailers that have thousands of items, it might make sense to use SKU numbers or product IDs as folder names.
 - Brand strategy. For example, manufacturers who have multiple brands might choose their brand names as top-level folders.
 
@@ -45,7 +45,7 @@ Rules regarding Asset IDs:
 
 - No two assets can have the same name within Dynamic Media Classic, regardless of what folder the assets are in.
 - Names are case-sensitive. For example, Chair.jpg, chair.jpg, and CHAIR.jpg would create three different Asset IDs.
-- As a best practice, Asset IDs should not contain blank spaces or symbols. Use of spaces and symbols make implementation more difficult because you will have to URL encode these characters. For example, a space " " becomes"%20."
+- As a best practice, Asset IDs should not contain blank spaces or symbols. Use of spaces and symbols make implementation more difficult because you will have to URL encode these characters. For example, a space " " becomes "%20."
 
 Your naming convention is essentially how you integrate with Dynamic Media Classic. You do not typically integrate your back-office systems into Dynamic Media Classic because it is a closed system. It is a passive partner, waiting for instructions in the form of URLs.
 
@@ -64,7 +64,7 @@ Your naming strategy should be flexible for future expansion, so you can avoid h
 
 This is a very simple system, and good if you have modest needs. However it is not very flexible. Just because you have no alternate images today does not mean you won't have those images tomorrow. The next scenario offers more flexibility.
 
-**Using the image, alternate** **views,** **colored versions, swatches.** This strategy allows for alternate views and/ or colored views, if you have them. Rather than name the image after only the SKU, you add a modifier such as "\_1" and "\_2" for alternate views, and a color code of "\_RED" or "\_BLU" for colored views. If you have both colored images and alternate views for the same product, perhaps you would add "\_RED_1" and "\_RED_2" for the first and second red-colored view. Swatches would be named with the SKU, color code, and an "\_SW"extension.
+**Using the image, alternate views, colored versions, swatches.** This strategy allows for alternate views and/ or colored views, if you have them. Rather than name the image after only the SKU, you add a modifier such as "_1" and "_2" for alternate views, and a color code of "_RED" or "_BLU" for colored views. If you have both colored images and alternate views for the same product, perhaps you would add "_RED_1" and "_RED_2" for the first and second red-colored view. Swatches would be named with the SKU, color code, and an "_SW" extension.
 
 | SKU/PID | Category                | Filename                                    | Asset ID                        |
 | ------- | ----------------------- | ------------------------------------------- | ------------------------------- |
@@ -73,10 +73,10 @@ This is a very simple system, and good if you have modest needs. However it is n
 |         | Swatches                | AA123_BLU_SW.tif                            | AA123_BLU_SW                    |
 |         | Image Set or Swatch Set |                                             | AA123 or AA123_SET              | -- |
 
-When dealing with set collections, such as Image Sets and Swatch Sets, the set itself must also have a unique name. So in this case, the set could be given the base SKU as its name, or the SKU with a "\_SET"extension.
+When dealing with set collections, such as Image Sets and Swatch Sets, the set itself must also have a unique name. So in this case, the set could be given the base SKU as its name, or the SKU with a "_SET"extension.
 
 ### Naming Convention and Automation
 
-One last word on the importance of naming convention. If you would like to use sets (such as Image Sets or Swatch Sets), a predictable naming convention will allow you to automate their creation. Any scripted method, such as a Batch Set Preset, which you'll learn about in a separate chapter, can be driven off a naming convention.
+One last word on the importance of naming convention. If you would like to use sets (such as Image Sets or Swatch Sets), a predictable naming convention will allow you to automate their creation. Any scripted method, such as a Batch Set Preset, which you'll learn about in a separate section of this tutorial, can be driven off a naming convention.
 
 The alternate method is to manually create your sets. While manually creating image sets for 200 images may not be a big job, imagine if you have more than 100,000 images. This is when set creation automation becomes crucial.
