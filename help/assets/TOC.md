@@ -14,6 +14,7 @@ team: TM
   + [Metadata schemas](configuring/metadata-schemas.md)
   + [Metadata profiles](configuring/metadata-profiles.md)
   + [Metadata folder schemas](configuring/metadata-folder-schemas.md)
+  + [Processing profiles](configuring/processing-profiles.md)
 
 + Authoring{#authoring}
   + [Navigation](./authoring/navigation.md)
