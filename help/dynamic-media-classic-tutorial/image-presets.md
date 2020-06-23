@@ -25,7 +25,7 @@ The true value of Image Presets is that any Company Administrator can update the
 >
 > When resizing an image, the aspect ratio, the ratio of the width of the image to its height, should always be kept proportional so that the image is not distorted.
 
-An Image Preset has a dollar sign (\$) on both sides of its name, and follows the question mark (?) separator.
+An Image Preset has a dollar sign ($) on both sides of its name, and follows the question mark (?) separator.
 
 > [!TIP]
 >
@@ -36,7 +36,7 @@ An Image Preset has a dollar sign (\$) on both sides of its name, and follows th
 
 ## Image Presets and Sharpening
 
-Image Presets typically resize an image, and any time you resize an image from its original size, you should add sharpening. That's because resizing causes many pixels to merge and blend into a smaller space, making the image looking soft and blurry. Sharpening increases the contrast of edges and high contrast areas in an image.
+Image Presets typically resize an image, and any time you resize an image from its original size, you should add sharpening. That's because resizing causes many pixels to merge and blend into a smaller space, making the image look soft and blurry. Sharpening increases the contrast of edges and high contrast areas in an image.
 
 We expect that the high resolution images you upload into Dynamic Media Classic do not need any sharpening when viewed at full size — when zoomed into. However at any smaller size, some sharpening is usually desirable.
 

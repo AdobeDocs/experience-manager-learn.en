@@ -18,7 +18,7 @@ Dynamic Media supports a Create (and Upload), Author (and Publish), and Deliver 
 The workflow in Dynamic Media Classic solutions consists of three main steps:
 
 1. Create (and Upload) SourceContent
-2. Author (and Publish)Assets
+2. Author (and Publish) Assets
 3. Deliver Assets
 
 ## Step 1: Create (and Upload)
@@ -40,7 +40,7 @@ The default mode is From Desktop, where you browse for files on your local netwo
 >
 > Do not manually add your folders. Instead, run an upload from FTP and use the **Include Subfolders** option to recreate your folder structure inside Dynamic Media Classic.
 
-The two most important upload options are enabled by default — **Mark for Publish** , which we've discussed earlier, and **Overwrite**. Overwrite means that if the file being uploaded has the same name as a file already in the system, the new file will replace the existing version. If you uncheck this option, the file might not be uploaded.
+The two most important upload options are enabled by default — **Mark for Publish**, which we've discussed earlier, and **Overwrite**. Overwrite means that if the file being uploaded has the same name as a file already in the system, the new file will replace the existing version. If you uncheck this option, the file might not be uploaded.
 
 ### Overwrite Options When Uploading Images
 
@@ -60,7 +60,7 @@ There are four variations of the Overwrite Image option that can be set for your
 
 Learn more about the [Overwrite Images Option](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/setup/application-setup.html#using-the-overwrite-images-option).
 
-Although not required, while uploading using either of the two methods above, you can specify Job Options specific for that upload — for example, to schedule a recurring upload, set cropping options upon upload, and many others. These can be valuable for some workflows, so it's worth considering if they can be for yours.
+Although not required, while uploading using either of the two methods above, you can specify Job Options for that particular upload — for example, to schedule a recurring upload, set cropping options upon upload, and many others. These can be valuable for some workflows, so it's worth considering if they can be for yours.
 
 Learn more about [Job Options](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/uploading-files.html#upload-options).
 
@@ -72,7 +72,7 @@ When you upload an image of any type to Dynamic Media Classic, it is converted t
 
 ![image](assets/main-workflow/pyramid-p-tiff.png)
 
-As the image is converted, Dynamic Media Classic takes a "snapshot" of the full size of the image, scales that by half and saves it, scales it by half again and saves it, and so on until it is filled with even multiples of the original size. For example, a 2000 pixel P-TIFF will have 1000, 500, 250, and 125 pixel sizes (and smaller) in the same file. The P-TIFF file is the format of what's called a "master image" in Dynamic Media Classic.
+As the image is converted, Dynamic Media Classic takes a "snapshot" of the full size of the image, scales that by half and saves it, scales it by half again and saves it, and so on until it is filled with even multiples of the original size. For example, a 2000-pixel P-TIFF will have 1000-, 500-, 250-, and 125-pixel sizes (and smaller) in the same file. The P-TIFF file is the format of what's called a "master image" in Dynamic Media Classic.
 
 When you request a certain size image, creating the P-TIFF allows the Image Server for Dynamic Media Classic to quickly find the next larger size and scale it down. For example, if you upload a 2000-pixel image and request a 100-pixel image, Dynamic Media Classic will find the 125-pixel version and scale it down to 100 pixels rather than scaling from 2000 to 100 pixels. This makes the operation very fast. In addition, when zooming on an image, this enables the zoom viewer to only request a tile of the image being zoomed, rather than the entire full resolution image. This is how the master image format, the P-TIFF file, supports both dynamic sizing and zoom.
 
@@ -85,7 +85,7 @@ Similarly, you can upload your master source video to Dynamic Media Classic, and
 - If you need to zoom, upload a high resolution image of a range of 1500-2500 pixels in the longest dimension. Consider how much detail you want to give, the quality of your source images, and the size of the product being shown. For example, upload a 1000-pixel image for a tiny ring, but a 3000-pixel image for an entire rooms cene.
 - If you don't need to zoom, then upload it at the exact size it will be seen. For example if you have logos or splash/banner images to place on your pages, upload them exactly at their 1:1 size, and call them exactly at that size.
 
-**Never upsample, or blow up, your images before uploading to Dynamic Media Classic.** For example, don't upsample a smaller image to make it a 2000 pixel image. It won't look good. Make your images as close to perfect as possible before upload.
+**Never upsample, or blow up, your images before uploading to Dynamic Media Classic.** For example, don't upsample a smaller image to make it a 2000-pixel image. It won't look good. Make your images as close to perfect as possible before upload.
 
 **There is no minimum size for zoom, but by default the viewers won't zoom beyond 100%.** If your image is too small, it won't zoom at all or will only zoom a tiny amount to prevent it from looking bad.
 
@@ -123,7 +123,7 @@ In the URL, everything to the left of the question mark is the virtual path to a
 
 In the first example, the virtual path to the image “Backpack_A” is `http://sample.scene7.com/is/image/s7train/BackpackA`. The Image Server modifiers resize the image to a width of 250 pixels (from wid=250) and resamples the image using the Lanczos interpolation algorithm, which sharpens as it resizes (from resMode=sharp2).
 
-The second example applies what’s known as an “image preset” to the same Backpack_A image, as indicated by $!_template300$. The \$ symbols on either side of the expression indicate that an image preset, a packaged set of image modifiers, is being applied to the image.
+The second example applies what’s known as an “image preset” to the same Backpack_A image, as indicated by $!_template300$. The $ symbols on either side of the expression indicate that an image preset, a packaged set of image modifiers, is being applied to the image.
 
 Once you understand how Dynamic Media Classic URLs are put together, then you understand how to change them programmatically and how to integrate them deeper into your site and backend systems.
 
@@ -168,7 +168,7 @@ Example of a link (in red) that will open an Image Set in a viewer in a new pop-
 
 ## Previewing Assets
 
-You'll probably want to preview the assets you've uploaded or are creating or editing to make sure they appear as you want when your customers view them. You can access the Preview window by clicking any **Preview** button, either on the thumbnail of the asset, at the top of the **Browse/Build Panel** , or by going to **File > Preview**. In a browser window, it will preview whichever asset is currently in the panel, whether that is an image, video, or built asset like an Image Set.
+You'll probably want to preview the assets you've uploaded or are creating or editing to make sure they appear as you want when your customers view them. You can access the Preview window by clicking any **Preview** button, either on the thumbnail of the asset, at the top of the **Browse/Build Panel**, or by going to **File > Preview**. In a browser window, it will preview whichever asset is currently in the panel, whether that is an image, video, or built asset like an Image Set.
 
 ### Dynamic Size Preview (Image Presets)
 
