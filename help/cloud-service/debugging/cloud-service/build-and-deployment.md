@@ -151,6 +151,41 @@ Most code and configuration violations are caught in earlier in the build, howev
   1. Review the logs for any ERRORS thrown by the Java classes provided by the custom application. If any issues are found, resolve, push the fixed code, and re-build the pipeline.
   1. Review the logs for any ERRORS reported by aspects of AEM that you are extending/interacting with in your custom application, and investigate those; these ERRORs may not be directly attributed to Java classes. If any issues are found, resolve, push the fixed code, and re-build the pipeline.
 
+### Including /var in content package
+
+`/var` is mutable containing a variety of transient, runtime content. Including `/var` in a content packages (ex. `ui.content`) deployed via Cloud Manager may cause the Deploy to step to fail.
+
+This issue difficult to identify as it does not result in a failure on the initial deployment, only on subsequent deployments. Noticeable symptoms include:
+
++ The initial deployment succeeds, however new or changed mutable content, that is part of the deployment, does not appear to exists on AEM Publish service. 
++ Subsequent deployments fail in the Deploy to step, with the Deploy to step failing after approximately 60 minutes.
+
+To validate this issue is the cause of the failing behavior:
+
+1. Determining that at least one content package that is part of the deployment, writes to `/var`.
+1. Verify the primary (bolded) distribution queue is blocked at:
+    + AEM Author > Tools > Deployment > Distribution
+  ![Blocked distribution queue](./assets/build-and-deployment/deploy-to__var--distribution.png)
+1. On failing subsequent deployment, download Cloud Manager's "Deploy to" logs using the Download Log button:
+
+   ![Download deploy to logs](./assets/build-and-deployment/deploy-to__var--download-logs.png)
+   
+   ... and verify there is approximately 60 minutes between the log statements:
+
+   `2020-01-01T01:01:02+0000 Begin deployment in aem-program-x-env-y-dev [CorrelationId: 1234]`
+
+   ... and ...
+
+   `2020-01-01T02:04:10+0000 Failed deployment in aem-program-x-env-y-dev`
+
+   Note that this log will not contain these indicators on the initial deployments that reports as successful, rather only on subsequent failing deployments.
+ 
++ __Cause:__ AEM's replication service user used to deploy content packages to the AEM Publish service cannot write to `/var` on AEM Publish. This results in the deployment of the content package to the AEM Publish service to fail.
++ __Resolution:__ The following ways to resolve this issues are listed in the order of preference:
+  1. If the `/var` resources are not necessary remove any resources under `/var` from content packages that are deployed as part of your application.
+  2. If the `/var` resources are necessary, define the node structures using [repoinit](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#repoinit). Repoinit scripts can be targeted to AEM Author, AEM Publish or both, via OSGi runmodes.
+  3. If the `/var` resources are only required on AEM author and cannot be reasonably modeled using [repoinit](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#repoinit), move them to a discrete content package, that is only installed on AEM Author by [embedding](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds) it in the `all` package in an AEM Author runmode folder (`<target>/apps/example-packages/content/install.author</target>`).
+
 ### Create an Adobe Support case
 
 If the above troubleshooting approaches do not resolve the issue, please create an Adobe Support case, via:
