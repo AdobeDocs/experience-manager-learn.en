@@ -9,6 +9,7 @@ doc-type: feature-video
 activity: use
 version: cloud-service
 kt: 4993
+thumbnail: 35597.jpg
 ---
 
 # Processing profiles
