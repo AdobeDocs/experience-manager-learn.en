@@ -109,6 +109,38 @@ Repoinit scripts define baseline content, users, ACLs, etc. In AEM SDK's local q
 + __Cause:__ A repoinit script depends on content that is not existent.
 + __Resolution:__ Ensure the content the repoinit script depends on exists. Often, this indicates an inadequately defined repoinit scripts that is missing directives that define these missing, but required, content structures. This can reproduced locally by deleting AEM, unpacking the Jar and adding the repoinit OSGi configuration containing the repoinit script to the install folder, and starting AEM. The error will present itself in the AEM SDK local quickstart's error.log.
 
+
+### Application's Core Components version is greater than deployed version
+
+_This issue only affects non-production environments that do NOT auto-update to the latest AEM Release._
+
+AEM as a Cloud Service automatically includes the latest Core Components version in in every AEM Release, meaning after an AEM as a Cloud Service environment is, automatically or manually updated, is had the latest version of Core Components deployed to it.  
+
+Is is possible for the Build Image step will fail when:
+
++ The deploying application updates the Core Components maven dependency version in the `core` (OSGi bundle) project
++ The deploying application is then deployed to a sandbox (non-production) AEM as a Cloud Service environment which has not been updated to use an AEM release that contains that new Core Components version.
+
+To prevent this failure, whenever an Update of the AEM as a Cloud Service environment is available, include the update as part of the next build/deploy, and always ensure the updates are included after incrementing the Core Components version in the application code base.
+
++ __Symptoms:__ 
+  The Build Image step fails with an ERROR reporting that `com.adobe.cq.wcm.core.components...` package(s) at specific version ranges could not be imported by the `core` project.
+
+  ```
+  [ERROR] Bundle com.example.core:0.0.3-SNAPSHOT is importing package(s) Package com.adobe.cq.wcm.core.components.models;version=[12.13,13) in start level 20 but no bundle is exporting these for that start level in the required version range.
+  [ERROR] Analyser detected errors on feature 'com.adobe.granite:aem-ethos-app-image:slingosgifeature:aem-runtime-application-publish-dev:1.0.0-SNAPSHOT'. See log output for error messages.
+  [INFO] ------------------------------------------------------------------------
+  [INFO] BUILD FAILURE
+  [INFO] ------------------------------------------------------------------------
+  
+  ```
+
++ __Cause:__  The application's OSGi bundle (defined in the `core` project) imports Java classes from Core Components core dependency, at a different version level than is what's deployed to AEM as a Cloud Service. 
++ __Resolution:__ 
+  + Using Git, revert to a working commit that exists prior to Core Component version increment. Push this commit to a Cloud Manager Git branch and perform an Update of the environment from this branch. This will upgrade AEM as a Cloud Service to the latest AEM Release, which will include the later Core Components version. Once the AEM as a Cloud Service is updated to the latest AEM Release, which will have the latest Core Components version, redeploy the originally failing code.
+  + To reproduce this issue locally, ensure the AEM SDK version is the same AEM release version the AEM as a Cloud Service environment is using.
+
+
 ### Create an Adobe Support case
 
 If the above troubleshooting approaches do not resolve the issue, please create an Adobe Support case, via:
@@ -135,6 +167,7 @@ The three primary reasons why the Deploy to step may fail:
   + If the target environment has an Update Available, select Update from the environment's actions, and then re-run the build.
   + If the target environment does not have an Update Available, this means it is running the latest version of AEM. To resolve this, delete the pipeline and re-create it.
 
+
 ### Cloud Manager times out
 
 Code running during the start up of the newly deployed AEM service takes so long that Cloud Manager times out before the deploy can complete. In these cases, the deployment may eventually succeed, even thought Cloud Manager status reported Failed.
@@ -158,6 +191,7 @@ Most code and configuration violations are caught in earlier in the build, howev
 This issue difficult to identify as it does not result in a failure on the initial deployment, only on subsequent deployments. Noticeable symptoms include:
 
 + The initial deployment succeeds, however new or changed mutable content, that is part of the deployment, does not appear to exists on AEM Publish service. 
++ Activation/De-activation of content in AEM Author is blocked 
 + Subsequent deployments fail in the Deploy to step, with the Deploy to step failing after approximately 60 minutes.
 
 To validate this issue is the cause of the failing behavior:
@@ -172,11 +206,17 @@ To validate this issue is the cause of the failing behavior:
    
    ... and verify there is approximately 60 minutes between the log statements:
 
-   `2020-01-01T01:01:02+0000 Begin deployment in aem-program-x-env-y-dev [CorrelationId: 1234]`
+   ```
+   2020-01-01T01:01:02+0000 Begin deployment in aem-program-x-env-y-dev [CorrelationId: 1234]
+   
+   ````
 
    ... and ...
 
-   `2020-01-01T02:04:10+0000 Failed deployment in aem-program-x-env-y-dev`
+   ```
+   2020-01-01T02:04:10+0000 Failed deployment in aem-program-x-env-y-dev
+   
+   ```
 
    Note that this log will not contain these indicators on the initial deployments that reports as successful, rather only on subsequent failing deployments.
  
