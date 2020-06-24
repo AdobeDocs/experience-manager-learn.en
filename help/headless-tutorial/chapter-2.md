@@ -85,11 +85,11 @@ Armed with the mapping we can define out Content Fragment that will be used to c
 1. From the **[!UICONTROL Data Types] tab** on the right, drag the **[!UICONTROL Single line text input]** into the left drop-zone to define the **[!DNL Question]** field.
 1. Ensure the new **[!UICONTROL Single line text input]** is selected on the left, and the **[!UICONTROL Properties] tab** is selected on the right. Populate the Properties fields as follows:
 
-    * [!UICONTROL Render As]: `textfield`
-    * [!UICONTROL Field Label]: `Event Title`
-    * [!UICONTROL Property Name]: `eventTitle`
-    * [!UICONTROL Max Length]: 25
-    * [!UICONTROL Required]: `Yes`
+    * [!UICONTROL Render As] : `textfield`
+    * [!UICONTROL Field Label] : `Event Title`
+    * [!UICONTROL Property Name] : `eventTitle`
+    * [!UICONTROL Max Length] : 25
+    * [!UICONTROL Required] : `Yes`
 
 Repeat these steps using the input definitions defined below to create the rest of the Event Content Fragment Model.
 
@@ -99,58 +99,58 @@ Repeat these steps using the input definitions defined below to create the rest 
 
 ### Event Description
 
-* [!UICONTROL Data Type]: `Multi-line text`
-* [!UICONTROL Field Label]: `Event Description`
-* [!UICONTROL Property Name]: `eventDescription`
-* [!UICONTROL Default Type]: `Rich text`
+* [!UICONTROL Data Type] : `Multi-line text`
+* [!UICONTROL Field Label] : `Event Description`
+* [!UICONTROL Property Name] : `eventDescription`
+* [!UICONTROL Default Type] : `Rich text`
 
 ### Event Date and Time
 
-* [!UICONTROL Data Type]: `Date and time`
-* [!UICONTROL Field Label]: `Event Date and Time`
-* [!UICONTROL Property Name]: `eventDateAndTime`
-* [!UICONTROL Required]: `Yes`
+* [!UICONTROL Data Type] : `Date and time`
+* [!UICONTROL Field Label] : `Event Date and Time`
+* [!UICONTROL Property Name] : `eventDateAndTime`
+* [!UICONTROL Required] : `Yes`
 
 ### Event Type
 
-* [!UICONTROL Data Type]: `Enumeration`
-* [!UICONTROL Field Label]: `Event Type`
-* [!UICONTROL Property Name]: `eventType`
-* [!UICONTROL Options]: `Art,Music,Performance,Photography`
+* [!UICONTROL Data Type] : `Enumeration`
+* [!UICONTROL Field Label] : `Event Type`
+* [!UICONTROL Property Name] : `eventType`
+* [!UICONTROL Options] : `Art,Music,Performance,Photography`
 
 ### Ticket Price
 
-* [!UICONTROL Data Type]: `Number`
-* [!UICONTROL Render As]: `numberfield`
-* [!UICONTROL Field Label]: `Ticket Price`
-* [!UICONTROL Property Name]: `eventPrice`
-* [!UICONTROL Type]: `Integer`
-* [!UICONTROL Required]: `Yes`
+* [!UICONTROL Data Type] : `Number`
+* [!UICONTROL Render As] : `numberfield`
+* [!UICONTROL Field Label] : `Ticket Price`
+* [!UICONTROL Property Name] : `eventPrice`
+* [!UICONTROL Type] : `Integer`
+* [!UICONTROL Required] : `Yes`
 
 ### Event Image
 
-* [!UICONTROL Data Type]: `Content Reference`
-* [!UICONTROL Render As]: `contentreference`
-* [!UICONTROL Field Label]: `Event Image`
-* [!UICONTROL Property Name]: `eventImage`
-* [!UICONTROL Root Path]: `/content/dam/wknd-mobile/images`
-* [!UICONTROL Required]: `Yes`
+* [!UICONTROL Data Type] : `Content Reference`
+* [!UICONTROL Render As] : `contentreference`
+* [!UICONTROL Field Label] : `Event Image`
+* [!UICONTROL Property Name] : `eventImage`
+* [!UICONTROL Root Path] : `/content/dam/wknd-mobile/images`
+* [!UICONTROL Required] : `Yes`
 
 ### Venue Name
 
-* [!UICONTROL Data Type]: `Single-line text`
-* [!UICONTROL Render As]: `textfield`
-* [!UICONTROL Field Label]: `Venue Name`
-* [!UICONTROL Property Name]: `venueName`
-* [!UICONTROL Max Length]: 20
-* [!UICONTROL Required]: `Yes`
+* [!UICONTROL Data Type] : `Single-line text`
+* [!UICONTROL Render As] : `textfield`
+* [!UICONTROL Field Label] : `Venue Name`
+* [!UICONTROL Property Name] : `venueName`
+* [!UICONTROL Max Length] : 20
+* [!UICONTROL Required] : `Yes`
 
 ### Venue City
 
-* [!UICONTROL Data Type]: `Enumeration`
-* [!UICONTROL Field Label]: `Venue City`
-* [!UICONTROL Property Name]: `venueCity`
-* [!UICONTROL Options]: `Basel,London,Los Angeles,Paris,New York,Tokyo`
+* [!UICONTROL Data Type] : `Enumeration`
+* [!UICONTROL Field Label] : `Venue City`
+* [!UICONTROL Property Name] : `venueCity`
+* [!UICONTROL Options] : `Basel,London,Los Angeles,Paris,New York,Tokyo`
 
 >[!VIDEO](https://video.tv.adobe.com/v/28335/?quality=12&learn=on)
 
