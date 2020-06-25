@@ -24,7 +24,7 @@ In order to use AEM Experience Fragment offers to power you personalization acti
 * **Experience Cloud**
   * Access to your organizations Adobe Experience Cloud - <https://>`<yourcompany>`.experiencecloud.adobe.com
   * Experience Cloud provisioned with the following solutions
-    * [Adobe Target](https://marketing.adobe.com)
+    * [Adobe Target](https://experiencecloud.adobe.com)
   
     >[!NOTE]
     >

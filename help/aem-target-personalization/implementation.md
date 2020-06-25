@@ -27,8 +27,8 @@ In this section, we will discuss how to set up Adobe Experience Manager with Ado
 * **Experience Cloud**
   * Access to your organizations Adobe Experience Cloud - <https://>`<yourcompany>`.experiencecloud.adobe.com
   * Experience Cloud provisioned with the following solutions
-    * [Adobe Experience Platform Launch](https://marketing.adobe.com)
-    * [Adobe Target](https://marketing.adobe.com)
+    * [Adobe Experience Platform Launch](https://experiencecloud.adobe.com)
+    * [Adobe Target](https://experiencecloud.adobe.com)
     * [Adobe I/O Console](https://console.adobe.io)
 
 * **Environment**

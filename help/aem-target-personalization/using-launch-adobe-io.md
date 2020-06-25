@@ -13,8 +13,8 @@ seo-description: Step by step walk-through on how to integrate Adobe Experience 
 * **Experience Cloud**
   * Access to your organizations Adobe Experience Cloud - <https://>`<yourcompany>`.experiencecloud.adobe.com
   * Experience Cloud provisioned with the following solutions
-    * [Adobe Experience Platform Launch](https://marketing.adobe.com)
-    * [Adobe Target](https://marketing.adobe.com)
+    * [Adobe Experience Platform Launch](https://experiencecloud.adobe.com)
+    * [Adobe Target](https://experiencecloud.adobe.com)
     * [Adobe I/O Console](https://console.adobe.io)
   
     > [!NOTE]
@@ -76,7 +76,7 @@ A property is a container that you fill with extensions, rules, data elements, a
 
 #### Adding Target Extension
 
-The Adobe Target extension supports client-side implementations using Target JavaScript SDK for the modern web, `at.js`. Customers still using Target older library, `mbox.js`, [should upgrade to at.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html) to use Launch.
+The Adobe Target extension supports client-side implementations using Target JavaScript SDK for the modern web, `at.js`. Customers still using Target older library, `mbox.js`, [should upgrade to at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html) to use Launch.
 
 The Target extension consists of two main parts:
 

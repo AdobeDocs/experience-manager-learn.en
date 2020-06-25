@@ -37,7 +37,7 @@ In this step we will configure a Launch property with the bare-minimum configura
 >
 >Full rights in Adobe Launch are required to complete the steps in this video.
 >
->More information about using Launch can be found in the [Adobe Launch Videos,](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/videos.html) [Help Documentation](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/) and [Launch Reference Architectures landing page](https://helpx.adobe.com/experience-manager/kt/integration/using/launch-reference-architecture-guides.html).
+>More information about using Launch can be found in the [Adobe Launch Videos,](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/videos.html) [Help Documentation](https://docs.adobe.com/content/help/en/launch/using/overview.html) and [Launch Reference Architectures landing page](https://helpx.adobe.com/experience-manager/kt/integration/using/launch-reference-architecture-guides.html).
 
 ## Step 2: Connect Adobe IO and Adobe Experience Manager {#adobeio}
 
