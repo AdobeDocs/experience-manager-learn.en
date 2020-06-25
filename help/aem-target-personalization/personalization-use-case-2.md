@@ -34,7 +34,7 @@ For this exercise, the following users need to be involved and to perform some t
 * **Experience Cloud**
   * Access to your organizations Adobe Experience Cloud - <https://>`<yourcompany>`.experiencecloud.adobe.com
   * Experience Cloud provisioned with the following solutions
-    * [Adobe Target](https://marketing.adobe.com)
+    * [Adobe Target](https://experiencecloud.adobe.com)
 
 ## Content Editor Activities
 
