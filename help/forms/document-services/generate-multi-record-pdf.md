@@ -24,7 +24,9 @@ The signature of the generatePDFOutputBatch method takes the following parameter
 * pdfOutputOptions - options to configure pdf generation
 * batchOptions - options to configure batch
 
->[!NOTE] This use case is available as live example on this [website](https://forms.enablementadobe.com/content/samples/samples.html?query=0).
+>[!NOTE]
+>
+>This use case is available as live example on this [website](https://forms.enablementadobe.com/content/samples/samples.html?query=0).
 
 ## Use case Details{#use-case-details}
 
