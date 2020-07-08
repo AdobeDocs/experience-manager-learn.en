@@ -125,7 +125,7 @@ The next series of steps will take place using a UNIX based command line  termin
    The following table lists the values used for this tutorial:
 
     | Name                        | Values | Description |
-    ------------------------------|---------|--------------------
+    |-----------------------------|---------|--------------------|
     | groupId                     | com.adobe.aem.guides       | Base Maven groupId |
     | artifactId                  | aem-guides-wknd            | Base Maven ArtifactId |
     | version                     | 0.0.1-SNAPSHOT             | Version |
