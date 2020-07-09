@@ -16,4 +16,4 @@ thumbnail: 34839.jpg
 
 Learn how to use assets from AEM Assets using the Place Linked operation.
 
->[!VIDEO](https://video.tv.adobe.com/v/34050/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34839/?quality=12)
