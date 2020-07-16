@@ -8,7 +8,7 @@ discoiquuid: e4b8534c-fa64-491f-86ec-4dbe50cd6bf7
 sub-product: dynamic-media
 feature: smart-crop, image-profiles
 topics: images, renditions, authoring
-doc-type: feature-video
+doc-type: feature video
 audience : all
 activity: use
 version: 6.4, 6.5
