@@ -4,7 +4,7 @@ description: Adobe Experience Manager assets can now be used by designers and cr
 feature: adobe-asset-link
 topics: authoring, collaboration, operations, sharing, metadata, images
 audience: all
-doc-type: feature-video
+doc-type: feature video
 activity: use
 version: 6.4, 6.5
 ---
