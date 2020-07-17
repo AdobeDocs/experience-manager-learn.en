@@ -37,7 +37,7 @@ if(request.getParameter("empID")!=null)
       //slingRequest.setAttribute("paramMap",paraMap);
     }
 
-````
+```
 
 The value of empID is associated with key called empID in paraMap. This map is then passed to the slingRequest
 
