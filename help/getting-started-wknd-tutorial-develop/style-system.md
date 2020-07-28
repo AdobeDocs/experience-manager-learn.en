@@ -28,28 +28,28 @@ It is also recommended to review the [Client-side Libraries and Front-end Workfl
 Check out the base-line code the tutorial builds on:
 
 1. Clone the [github.com/adobe/aem-guides-wknd](https://github.com/adobe/aem-guides-wknd) repository.
-2. Check out the `style-system/start` branch
+1. Check out the `style-system/start` branch
 
-   ```shell
-   $ git clone git@github.com:adobe/aem-guides-wknd.git ~/code/aem-guides-wknd
-   $ cd ~/code/aem-guides-wknd
-   $ git checkout style-system/start
-   ```
+    ```shell
+    $ git clone git@github.com:adobe/aem-guides-wknd.git ~/code/aem-guides-wknd
+    $ cd ~/code/aem-guides-wknd
+    $ git checkout style-system/start
+    ```
 
-3. Deploy code base to a local AEM instance using your Maven skills:
+1. Deploy code base to a local AEM instance using your Maven skills:
 
-   ```shell
-   $ cd ~/code/aem-guides-wknd
-   $ mvn clean install -PautoInstallSinglePackage
-   ```
+    ```shell
+    $ cd ~/code/aem-guides-wknd
+    $ mvn clean install -PautoInstallSinglePackage
+    ```
 
 You can always view the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd/tree/style-system/solution) or check the code out locally by switching to the branch `style-system/solution`.
 
 ## Objective
 
 1. Understand how to use the Style System to apply brand-specific CSS to AEM Core Components.
-2. Learn about BEM notation and how it can be used to carefully scope styles.
-3. Apply advanced policy configurations with Editable Templates.
+1. Learn about BEM notation and how it can be used to carefully scope styles.
+1. Apply advanced policy configurations with Editable Templates.
 
 ## What you will build {#what-you-will-build}
 
@@ -82,10 +82,11 @@ As a front-end developer the first step to styling a Core Component is to unders
 As part of the generated project, the archetype embedded **Core Component Examples** project. For developers and content authors this contains an easy reference to understand all of the features available with Core Components. A live version is also [available](https://opensource.adobe.com/aem-core-wcm-components/library.html).
 
 1. Open a new browser and view the Title component:
+
     * Local AEM instance: [http://localhost:4502/editor.html/content/core-components-examples/library/title.html](http://localhost:4502/editor.html/content/core-components-examples/library/title.html)
     * Live example: [https://opensource.adobe.com/aem-core-wcm-components/library/title.html](https://opensource.adobe.com/aem-core-wcm-components/library/title.html)
 
-2. Below is the markup for the Title component:
+1. Below is the markup for the Title component:
 
     ```html
     <div class="cmp-title">
@@ -100,7 +101,7 @@ As part of the generated project, the archetype embedded **Core Component Exampl
         ELEMENT cmp-title__text
     ```
 
-3. The Style system adds a CSS class to the outer div surrounding the component. Therefore the markup we will be targeting will resemble something like the following:
+1. The Style system adds a CSS class to the outer div surrounding the component. Therefore the markup we will be targeting will resemble something like the following:
 
     ```html
     <div class="STYLE-SYSTEM-CLASS-HERE"> <!-- Custom CSS class - implementation gets to define this -->
@@ -132,8 +133,8 @@ Next we will implement the Underline style using the **ui.frontend** module of o
 
     ![Webpack development server](assets/style-system/static-webpack-server.png)
 
-2. In Eclipse or the IDE of your choice open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`. This is the static markup used by the webpack development server.
-3. In `index.html` find an instance of the Title Component to add the underline style to by searching the document for *cmp-title*. Choose the Title component with the text *"Vans off the Wall Skatepark"* (line 218). Add the class `cmp-title--underline` to the surrounding div:
+1. In Eclipse or the IDE of your choice open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`. This is the static markup used by the webpack development server.
+1. In `index.html` find an instance of the Title Component to add the underline style to by searching the document for *cmp-title*. Choose the Title component with the text *"Vans off the Wall Skatepark"* (line 218). Add the class `cmp-title--underline` to the surrounding div:
 
     ```html
     <!-- before -->
@@ -153,8 +154,8 @@ Next we will implement the Underline style using the **ui.frontend** module of o
     </div>
     ```
 
-4. Return to the browser and verify that the extra class is reflected in the markup.
-5. Return to the **ui.frontend** module and update the file `title.scss` located at: `ui.frontend/src/main/webpack/components/content/title/scss/title.scss`:
+1. Return to the browser and verify that the extra class is reflected in the markup.
+1. Return to the **ui.frontend** module and update the file `title.scss` located at: `ui.frontend/src/main/webpack/components/content/title/scss/title.scss`:
 
     ```css
     /* Add Title Underline Style */
@@ -181,11 +182,11 @@ Next we will implement the Underline style using the **ui.frontend** module of o
     >
     >All Core Components adhere to **[BEM notation](https://github.com/adobe/aem-core-wcm-components/wiki/css-coding-conventions)**. It is a best practice to target the outer CSS class when creating a default style for a component. Another best practice is to target class names specified by the Core Component BEM notation rather than HTML elements.
 
-6. Return to the browser once more and you should see the Underline style added:
+1. Return to the browser once more and you should see the Underline style added:
 
     ![Underline style visible in webpack dev server](assets/style-system/underline-implemented-webpack.png)
 
-7. Stop the webpack development server.
+1. Stop the webpack development server.
 
 ### Add a Title Policy
 
@@ -193,28 +194,28 @@ Next we need to add a new policy for Title components to allow content authors t
 
 1. Deploy code base to a local AEM instance using your Maven skills:
 
-   ```shell
-   $ cd ~/code/aem-guides-wknd
-   $ mvn clean install -PautoInstallSinglePackage
-   ```
+    ```shell
+    $ cd ~/code/aem-guides-wknd
+    $ mvn clean install -PautoInstallSinglePackage
+    ```
 
-2. Navigate to the **Article Page Template** located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html).
+1. Navigate to the **Article Page Template** located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html).
 
-3. In **Structure** mode, in the main **Layout Container**, select the **Policy** icon next to the **Title** component listed under *Allowed Components*:
+1. In **Structure** mode, in the main **Layout Container**, select the **Policy** icon next to the **Title** component listed under *Allowed Components*:
 
     ![Title Policy Configure](assets/style-system/article-template-title-policy-icon.png)
 
-4. Create a new policy for the Title component with the following values:
+1. Create a new policy for the Title component with the following values:
 
     *Policy Title &#42;*: **WKND Title**
 
-   *Properties* &gt; *Styles Tab* &gt; *Add a new style*
+    *Properties* &gt; *Styles Tab* &gt; *Add a new style*
 
-   **Underline** : `cmp-title--underline` 
+    **Underline** : `cmp-title--underline`
 
    ![Style policy configuration for title](assets/style-system/title-style-policy.gif)
 
-    Click **Done** to save the changes to the Title policy. 
+    Click **Done** to save the changes to the Title policy.
     >[!NOTE]
     >
     > The value `cmp-title--underline` matches the CSS class we targeted earlier when developing in the **ui.frontend** module.
@@ -224,13 +225,13 @@ Next we need to add a new policy for Title components to allow content authors t
 Finally, as an author, we can choose to apply the underline style to certain Title Components.
 
 1. Navigate to the **La Skateparks** article in the AEM Sites editor at: [http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html)
-2. In **Edit** mode, choose a Title component. Click the **paintbrush** icon and select the **Underline** style:
+1. In **Edit** mode, choose a Title component. Click the **paintbrush** icon and select the **Underline** style:
 
     ![Apply the Underline Style](assets/style-system/apply-underline-style-title.png)
 
     As an author you should be able to toggle on/off the style.
 
-3. Click the **Page Information** icon &gt; **View as Published** to inspect the page outside of AEM's editor.
+1. Click the **Page Information** icon &gt; **View as Published** to inspect the page outside of AEM's editor.
 
     ![View as Published](assets/style-system/view-as-published.png)
 
@@ -254,7 +255,7 @@ Once again we will inspect the Text component's markup.
     * Local AEM instance: [http://localhost:4502/editor.html/content/core-components-examples/library/text.html](http://localhost:4502/editor.html/content/core-components-examples/library/text.html)
     * Live example: [https://opensource.adobe.com/aem-core-wcm-components/library/text.html](https://opensource.adobe.com/aem-core-wcm-components/library/text.html)
 
-2. Below is the markup for the Text component:
+1. Below is the markup for the Text component:
 
     ```html
     <div class="cmp-text">
@@ -271,7 +272,7 @@ Once again we will inspect the Text component's markup.
         ELEMENT
     ```
 
-3. The Style system adds a CSS class to the outer div surrounding the component. Therefore the markup we will be targeting will resemble something like the following:
+1. The Style system adds a CSS class to the outer div surrounding the component. Therefore the markup we will be targeting will resemble something like the following:
 
     ```html
     <div class="STYLE-SYSTEM-CLASS-HERE"> <!-- Custom CSS class - implementation gets to define this -->
@@ -297,8 +298,8 @@ Next we will implement the Quote Block style using the **ui.frontend** module of
     > webpack-dev-server --open --config ./webpack.dev.js
     ```
 
-2. In Eclipse or the IDE of your choice open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`. This is the static markup used by the webpack development server.
-3. In `index.html` find an instance of the Text Component by searching for the text *"Jacob Wester"* (line 210). Add the class `cmp-text--quote` to the surrounding div:
+1. In Eclipse or the IDE of your choice open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`. This is the static markup used by the webpack development server.
+1. In `index.html` find an instance of the Text Component by searching for the text *"Jacob Wester"* (line 210). Add the class `cmp-text--quote` to the surrounding div:
 
     ```html
     <!-- before -->
@@ -320,8 +321,8 @@ Next we will implement the Quote Block style using the **ui.frontend** module of
     </div>
     ```
 
-4. Return to the browser and verify that the extra class is reflected in the markup.
-5. Return to the **ui.frontend** module and update the file `text.scss` located at: `ui.frontend/src/main/webpack/components/content/text/scss/text.scss`:
+1. Return to the browser and verify that the extra class is reflected in the markup.
+1. Return to the **ui.frontend** module and update the file `text.scss` located at: `ui.frontend/src/main/webpack/components/content/text/scss/text.scss`:
 
     ```css
     /* WKND Text Quote style */
@@ -363,11 +364,11 @@ Next we will implement the Quote Block style using the **ui.frontend** module of
     >
     > In this case raw HTML elements are targeted by the styles. This is because the Text component provides a Rich Text Editor for content authors. Creating styles directly against RTE content should be done with care and it is even more important to tightly scope the styles.
 
-6. Return to the browser once more and you should see the Quote block style added:
+1. Return to the browser once more and you should see the Quote block style added:
 
     ![Quote block style visible in webpack dev server](assets/style-system/quoteblock-implemented-webpack.png)
 
-7. Stop the webpack development server.
+1. Stop the webpack development server.
 
 ### Add a Text Policy
 
@@ -380,13 +381,13 @@ Next add a new policy for the Text components.
    $ mvn clean install -PautoInstallSinglePackage
    ```
 
-2. Navigate to the **Article Page Template** located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html).
+1. Navigate to the **Article Page Template** located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html).
 
-3. In **Structure** mode, in the main **Layout Container**, select the **Policy** icon next to the **Text** component listed under *Allowed Components*:
+1. In **Structure** mode, in the main **Layout Container**, select the **Policy** icon next to the **Text** component listed under *Allowed Components*:
 
     ![Text Policy Configure](assets/style-system/article-template-text-policy-icon.png)
 
-4. Create a new policy for the Text component with the following values:
+1. Create a new policy for the Text component with the following values:
 
     *Policy Title &#42;*: **WKND Text**
 
@@ -394,22 +395,22 @@ Next add a new policy for the Text components.
 
     *Styles Tab* &gt; *Add a new style*
 
-   **Quote Block** : `cmp-text--quote`
+    **Quote Block** : `cmp-text--quote`
 
-   ![Text Component Policy](assets/style-system/text-policy-enable-paragraphstyles.png)
+    ![Text Component Policy](assets/style-system/text-policy-enable-paragraphstyles.png)
 
-   ![Text Component Policy 2](assets/style-system/text-policy-enable-quotestyle.png)
+    ![Text Component Policy 2](assets/style-system/text-policy-enable-quotestyle.png)
 
     Click **Done** to save the changes to the Text policy.
 
 ### Apply the Quote Block Style
 
 1. Navigate to the **La Skateparks** article in the AEM Sites editor at: [http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html)
-2. In **Edit** mode, choose a Text component. Edit the component to include a quote element:
+1. In **Edit** mode, choose a Text component. Edit the component to include a quote element:
 
     ![Text Component Configuraiton](assets/style-system/configure-text-component.png)
 
-3. Select the text component and click the **paintbrush** icon and select the **Quote Block** style:
+1. Select the text component and click the **paintbrush** icon and select the **Quote Block** style:
 
     ![Apply the Quote Block Style](assets/style-system/quote-block-style-applied.png)
 
@@ -432,12 +433,12 @@ We will start implementing the Fixed Width style in the **ui.frontend** module o
     $ npm start
     ```
 
-2. Open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`.
-3. We want to make the body of our Article Page Template fixed width, leaving the Header and Footer free to expand wider. Therefore we want to target the 2nd `<div class='responsivegrid aem-GridColumn aem-GridColumn--default--12'` (Layout Container) in between the two experience Fragments (line 136)
+1. Open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`.
+1. We want to make the body of our Article Page Template fixed width, leaving the Header and Footer free to expand wider. Therefore we want to target the 2nd `<div class='responsivegrid aem-GridColumn aem-GridColumn--default--12'` (Layout Container) in between the two experience Fragments (line 136)
 
     ![Main Body Layout Container Div](assets/style-system/main-body-layoutContainer.png)
 
-4. Add the class `cmp-layout-container--fixed` to the `div` identified in the previous setp.
+1. Add the class `cmp-layout-container--fixed` to the `div` identified in the previous setp.
 
     ```html
     <!-- Experience Fragment Header -->
@@ -454,7 +455,7 @@ We will start implementing the Fixed Width style in the **ui.frontend** module o
     </div>
     ```
 
-5. Update the file `container.scss` located at: `ui.frontend/src/main/webpack/components/content/container/scss/container.scss`:
+1. Update the file `container.scss` located at: `ui.frontend/src/main/webpack/components/content/container/scss/container.scss`:
 
     ```css
 
@@ -467,12 +468,12 @@ We will start implementing the Fixed Width style in the **ui.frontend** module o
             float: unset !important;
             margin: 0 auto !important;
             padding: 0 $gutter-padding;
-            clear: both !important; 
+            clear: both !important;
         }
     }
     ```
 
-6. Update the file `_elements.scss` located at: `ui.frontend/src/main/webpack/base/sass/_elements.scss` and change the `.root` rule to have a new max width set to the variable `$max-body-width`.
+1. Update the file `_elements.scss` located at: `ui.frontend/src/main/webpack/base/sass/_elements.scss` and change the `.root` rule to have a new max width set to the variable `$max-body-width`.
 
      ```css
     /* Before */
@@ -504,7 +505,7 @@ We will start implementing the Fixed Width style in the **ui.frontend** module o
     >
     > The full list of variables and values can be found at: `ui.frontend/src/main/webpack/base/sass/_variables.scss`.
 
-7. Returning to the browser you should see that the main content of the page appears the same but the Header and Footer stretch much wider. This is expected.
+1. Returning to the browser you should see that the main content of the page appears the same but the Header and Footer stretch much wider. This is expected.
 
     ![Fixed Layout Container - Webpack Server](assets/style-system/fixed-layout-container-webpack-server.png)
 
@@ -519,25 +520,25 @@ Next we will add the Fixed Width style by updating the Layout Container policies
    $ mvn clean install -PautoInstallSinglePackage
    ```
 
-2. Navigate to the **Article Page Template** located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html).
+1. Navigate to the **Article Page Template** located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html).
 
-3. In **Structure** mode, select the main **Layout Container** (in between the Experience Fragment Header and Footer ), and select the **Policy** icon.
+1. In **Structure** mode, select the main **Layout Container** (in between the Experience Fragment Header and Footer ), and select the **Policy** icon.
 
     ![Configure main body layout container policy](assets/style-system/layout-container-article-template-policy-icon.png)
 
-4. Update the **WKND Site Default** policy to include an additional style for **Fixed Width** with a value of `cmp-layout-container--fixed`:
+1. Update the **WKND Site Default** policy to include an additional style for **Fixed Width** with a value of `cmp-layout-container--fixed`:
 
     ![WKND Site Default Policy update ](assets/style-system/wknd-site-default-policy-update-fixed-width.png)
 
     Save your changes and referesh the Article Page Template page.
 
-5. Again select the main **Layout Container** (in between the Experience Fragment Header and Footer). This time the **paintbrush** icon should appear and you can select **Fixed Width** from the style drop down.
+1. Again select the main **Layout Container** (in between the Experience Fragment Header and Footer). This time the **paintbrush** icon should appear and you can select **Fixed Width** from the style drop down.
 
     ![Apply Fixed Width Layout Container](assets/style-system/apply-fixed-width-layout-container.png)
 
     You should be able to toggle on/off the styles.
 
-6. Navigate to the **La Skateparks** article in the AEM Sites editor at: [http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html). You should see the fixed-width container in action.
+1. Navigate to the **La Skateparks** article in the AEM Sites editor at: [http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html). You should see the fixed-width container in action.
 
 ## Header/Footer - Experience Fragment {#experience-fragment}
 
@@ -554,9 +555,9 @@ The components within the Header component are already styled to match the [Adob
     $ npm start
     ```
 
-2. Open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`.
-3. Find the **first** instance of the Experience Fragment component by searching for *class="experiencefragment* (Line 48).
-4. Add the class `cmp-experiencefragment--header` to the `div` identified in the previous setp.
+1. Open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`.
+1. Find the **first** instance of the Experience Fragment component by searching for *class="experiencefragment* (Line 48).
+1. Add the class `cmp-experiencefragment--header` to the `div` identified in the previous setp.
 
     ```html
         ...
@@ -568,7 +569,7 @@ The components within the Header component are already styled to match the [Adob
                 ...
     ```
 
-5. Open the file `experiencefragment.scss` located at: `ui.frontend/src/main/webpack/components/content/experiencefragment/scss/experiencefragment.scss`. Append the following styles to the file:
+1. Open the file `experiencefragment.scss` located at: `ui.frontend/src/main/webpack/components/content/experiencefragment/scss/experiencefragment.scss`. Append the following styles to the file:
 
     ```css
     /* Header Style */
@@ -605,7 +606,7 @@ The components within the Header component are already styled to match the [Adob
     >
     > We are taking a bit of a shortcut here to style the Logo within the header. The Logo is really just an Image component that happens to be inside the Experience Fragment. Lets say later, we needed to add another image to the header, we would not be able to differentiate between the two. If needed, a "logo" class could always be added to the Image component here.
 
-6. Return to the browser and view the webpack dev server. You should see the Header styles updated to be more aligned to the rest of the content. When shrinking the browser to a tablet/mobile device width, you should also notice that the logo is sized more appropriately.
+1. Return to the browser and view the webpack dev server. You should see the Header styles updated to be more aligned to the rest of the content. When shrinking the browser to a tablet/mobile device width, you should also notice that the logo is sized more appropriately.
 
     ![Experience Fragment Header](assets/style-system/header-experience-fragment-webpack.png)
 
@@ -614,15 +615,15 @@ The components within the Header component are already styled to match the [Adob
 The Footer in the [AdobeXD designs](assets/pages-templates/wknd-article-design.xd) includes a black background with light text. We will need to style the content within our Experience Fragment Footer to reflect this.
 
 1. Open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`.
-2. Find the **second** instance of the Experience Fragment component by searching for *class="experiencefragment* (Line 385).
-3. Add the class `cmp-experiencefragment--footer` to the `div` identified in the previous setp.
+1. Find the **second** instance of the Experience Fragment component by searching for *class="experiencefragment* (Line 385).
+1. Add the class `cmp-experiencefragment--footer` to the `div` identified in the previous setp.
 
     ```html
     <!-- add cmp-experiencefragment--footer -->
     <div class="experiencefragment cmp-experiencefragment--footer aem-GridColumn aem-GridColumn--default--12">
     ```
 
-4. Re-open the file `experiencefragment.scss` located at: `ui.frontend/src/main/webpack/components/content/experiencefragment/scss/experiencefragment.scss`. **Append** the following styles to the file:
+1. Re-open the file `experiencefragment.scss` located at: `ui.frontend/src/main/webpack/components/content/experiencefragment/scss/experiencefragment.scss`. **Append** the following styles to the file:
 
     ```css
     /* Footer Style */
@@ -675,11 +676,11 @@ The Footer in the [AdobeXD designs](assets/pages-templates/wknd-article-design.x
     >
     > Again we are taking a bit of a shortcut by overriding the default styles of the Navigation component from within our Experience Fragment footer CSS. It is unlikely that there would ever be multiple Navigation components within the footer and equally unlikely that a content author would want to toggle a navigation style. A better practice would be to create a footer style just for the Navigation component.
 
-5. Return to the browser and webpack dev server. You should see the footer styles updated to match closer the XD designs.
+1. Return to the browser and webpack dev server. You should see the footer styles updated to match closer the XD designs.
 
     ![Footer](assets/style-system/footer-webpack-style.png)
 
-6. Stop the webpack development server.
+1. Stop the webpack development server.
 
 ### Update Experience Fragment Policy
 
@@ -687,18 +688,18 @@ Next we will add the Header and Footer styles by updating the Experience Fragmen
 
 1. Deploy code base to a local AEM instance using your Maven skills:
 
-   ```shell
-   $ cd ~/code/aem-guides-wknd
-   $ mvn clean install -PautoInstallSinglePackage
-   ```
+    ```shell
+    $ cd ~/code/aem-guides-wknd
+    $ mvn clean install -PautoInstallSinglePackage
+    ```
 
-2. Navigate to the **Article Page Template** located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html).
+1. Navigate to the **Article Page Template** located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page-template/structure.html).
 
-3. In **Structure** mode, select Header **Experience Fragment**, and select the **Policy** icon.
+1. In **Structure** mode, select Header **Experience Fragment**, and select the **Policy** icon.
 
     ![Configure Experience Fragment Policy](assets/style-system/experience-fragment-click-policy.png)
 
-4. Update the **WKND Site Experience Fragment - Header** policy to add a **Default CSS Class** with a value of `cmp-experiencefragment--header`:
+1. Update the **WKND Site Experience Fragment - Header** policy to add a **Default CSS Class** with a value of `cmp-experiencefragment--header`:
 
     ![WKND Site Experience Fragment - Header update](assets/style-system/experience-fragment-header-policy-configure.png)
 
@@ -708,9 +709,9 @@ Next we will add the Header and Footer styles by updating the Experience Fragmen
     >
     > Since there is no need to toggle the Header style other than on the template, we can simply set it as the Default CSS style.
 
-5. Next select the Footer **Experience Fragment** and click its **Policy** icon to open the Policy configuration.
+1. Next select the Footer **Experience Fragment** and click its **Policy** icon to open the Policy configuration.
 
-6. Update the **WKND Site Experience Fragment - Footer** policy to add a **Default CSS Class** with a value of `cmp-experiencefragment--footer`:
+1. Update the **WKND Site Experience Fragment - Footer** policy to add a **Default CSS Class** with a value of `cmp-experiencefragment--footer`:
 
     ![WKND Site Experience Fragment - Footer update](assets/style-system/experience-fragment-footer-policy-configure.png)
 
@@ -718,7 +719,7 @@ Next we will add the Header and Footer styles by updating the Experience Fragmen
 
     ![WKND Article Template - Final Styles](assets/style-system/final-header-footer-applied.png)
 
-7. Navigate to the **La Skateparks** article in the AEM Sites editor at: [http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html). You should see the updated Header and Footer applied.
+1. Navigate to the **La Skateparks** article in the AEM Sites editor at: [http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html). You should see the updated Header and Footer applied.
 
 ## Review {#review}
 
@@ -737,4 +738,4 @@ Learn the steps end-to-end to create a [custom AEM Component](custom-component.m
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or review and deploy the code locally at on the Git brach `style-system/solution`.
 
 1. Clone the [github.com/adobe/aem-wknd-guides](https://github.com/adobe/aem-guides-wknd) repository.
-2. Check out the `style-system/solution` branch.
+1. Check out the `style-system/solution` branch.
