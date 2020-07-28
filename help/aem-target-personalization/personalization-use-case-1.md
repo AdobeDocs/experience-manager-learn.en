@@ -102,15 +102,15 @@ For this exercise, the following users need to be involved and to perform some t
 
     **Geo** - Use audiences to target users based on their geographical location, including their country, state/province, city, zip/postal code, DMA, or mobile carrier. Geolocation parameters allow you to target activities and experiences based on your visitors' geography. This data is sent with each Target request and is based on the visitor's IP address. Select these parameters just like any targeting values.
 
-    > [!NOTE]
-    > A visitor's IP address gets passed with a mbox request, once per visit (session), to resolve geo targeting parameters for that visitor.
+    >[!NOTE]
+    >A visitor's IP address gets passed with a mbox request, once per visit (session), to resolve geo targeting parameters for that visitor.
 
 9. Select the operator as **matches**, provide an appropriate value (For eg: California) and **Save** your changes. In our case, provide the state name.
 
     ![Adobe Target- Geo Rule](assets/personalization-use-case-1/audience-geo-rule.png)
 
-    > [!NOTE]
-    > You can have multiple rules assigned to an audience.
+    >[!NOTE]
+    >You can have multiple rules assigned to an audience.
 
 10. Repeat steps 6-9 to create audiences for the other states.
 
@@ -143,8 +143,8 @@ At this point, we have successfully created audiences for all WKND Site visitors
 14. Choose your reporting source and identify a primary goal for your activity. For our Scenario, let's select the Reporting Source as **Adobe Target**, measuring activity as **Conversion**, action as viewed a page, and URL pointing to the WKND SkateFest Details page.
     ![Goal & Targeting - Target](assets/personalization-use-case-1/goal-metric-target.png)
 
-    > [!NOTE]
-    > You can also choose Adobe Analytics as your reporting source.
+    >[!NOTE]
+    >You can also choose Adobe Analytics as your reporting source.
 
 15. Hover over the current activity name, and you can rename it to **WKND SkateFest - USA**, and then **Save and Close** your changes.
 16. From the Activity details screen, make sure to **Activate** your activity.

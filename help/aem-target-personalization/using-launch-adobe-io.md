@@ -17,7 +17,7 @@ seo-description: Step by step walk-through on how to integrate Adobe Experience 
     * [Adobe Target](https://experiencecloud.adobe.com)
     * [Adobe I/O Console](https://console.adobe.io)
   
-    > [!NOTE]
+    >[!NOTE]
     >You should have permission to Develop, Approve, Publish, Manage Extensions, and Manage Environments in Launch. If you are unable to complete any of these steps because the user interface options are not available to you, reach out to your Experience Cloud Administrator to request access. For more information on Launch permissions, [see the documentation](https://docs.adobelaunch.com/administration/user-permissions).
 
 * **Browser Plugins**
