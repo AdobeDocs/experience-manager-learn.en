@@ -83,8 +83,9 @@ As part of the generated project, the archetype embedded **Core Component Exampl
 
 1. Open a new browser and view the Title component:
 
-    * Local AEM instance: [http://localhost:4502/editor.html/content/core-components-examples/library/title.html](http://localhost:4502/editor.html/content/core-components-examples/library/title.html)
-    * Live example: [https://opensource.adobe.com/aem-core-wcm-components/library/title.html](https://opensource.adobe.com/aem-core-wcm-components/library/title.html)
+    Local AEM instance: [http://localhost:4502/editor.html/content/core-components-examples/library/title.html](http://localhost:4502/editor.html/content/core-components-examples/library/title.html)
+
+    Live example: [https://opensource.adobe.com/aem-core-wcm-components/library/title.html](https://opensource.adobe.com/aem-core-wcm-components/library/title.html)
 
 1. Below is the markup for the Title component:
 
@@ -216,6 +217,7 @@ Next we need to add a new policy for Title components to allow content authors t
    ![Style policy configuration for title](assets/style-system/title-style-policy.gif)
 
     Click **Done** to save the changes to the Title policy.
+
     >[!NOTE]
     >
     > The value `cmp-title--underline` matches the CSS class we targeted earlier when developing in the **ui.frontend** module.
@@ -252,8 +254,9 @@ The [WKND Article designs](assets/pages-templates/wknd-article-design.xd) contai
 Once again we will inspect the Text component's markup.
 
 1. Open a new browser and view the Text component as part of the Core Component Library:
-    * Local AEM instance: [http://localhost:4502/editor.html/content/core-components-examples/library/text.html](http://localhost:4502/editor.html/content/core-components-examples/library/text.html)
-    * Live example: [https://opensource.adobe.com/aem-core-wcm-components/library/text.html](https://opensource.adobe.com/aem-core-wcm-components/library/text.html)
+    Local AEM instance: [http://localhost:4502/editor.html/content/core-components-examples/library/text.html](http://localhost:4502/editor.html/content/core-components-examples/library/text.html)
+
+    Live example: [https://opensource.adobe.com/aem-core-wcm-components/library/text.html](https://opensource.adobe.com/aem-core-wcm-components/library/text.html)
 
 1. Below is the markup for the Text component:
 
@@ -615,7 +618,9 @@ The components within the Header component are already styled to match the [Adob
 The Footer in the [AdobeXD designs](assets/pages-templates/wknd-article-design.xd) includes a black background with light text. We will need to style the content within our Experience Fragment Footer to reflect this.
 
 1. Open the file `index.html` located at: `ui.frontend/src/main/webpack/static/index.html`.
+
 1. Find the **second** instance of the Experience Fragment component by searching for *class="experiencefragment* (Line 385).
+
 1. Add the class `cmp-experiencefragment--footer` to the `div` identified in the previous setp.
 
     ```html
