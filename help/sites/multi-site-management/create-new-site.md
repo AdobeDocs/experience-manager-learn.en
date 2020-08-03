@@ -1,8 +1,6 @@
 ---
-title: Create a Country Site
-seo-title: Create a Country Site
+title: Create a country site
 description: Learn how to create a country site from existing Language Copies using the Create Site wizard.
-seo-description: Learn how to create a country site from existing Language Copies using the Create Site wizard.
 feature: language-copy, live-copy, multi-site-manager
 topics: localization, authoring, content-architecture
 audience: all
@@ -13,7 +11,7 @@ kt: 5849
 thumbnail: 36684.jpg
 ---
 
-# Create a Country Site {#create-country-site}
+# Create a country site {#create-country-site}
 
 Learn how to create a country site from existing Language Copies using the Create Site wizard.
 

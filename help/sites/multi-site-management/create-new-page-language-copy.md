@@ -1,8 +1,6 @@
 ---
 title: Create a Language Copy page
-seo-title: Create a Language Copy page
 description: Learn how to create a page in an existing Language Copy, and then translate the content to another Language Copy.
-seo-description: Learn how to create a page in an existing Language Copy, and then translate the content to another Language Copy.
 feature: language-copy, live-copy, multi-site-manager
 topics: localization, authoring, content-architecture
 audience: all

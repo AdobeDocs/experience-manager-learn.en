@@ -1,8 +1,6 @@
 ---
-title: Live Copy Console
-seo-title: Live Copy Console
+title: Live Copy console
 description: The following video explains how to view or manage inheritance across a site or perform rollout operations using the Live Copy Overview console.
-seo-description: The following video explains how to view or manage inheritance across a site or perform rollout operations using the Live Copy Overview console.
 feature: language-copy, live-copy, multi-site-manager
 topics: localization, authoring, content-architecture
 audience: all
@@ -13,7 +11,7 @@ kt: 5373
 thumbnail: 36680.jpg
 ---
 
-# Live Copy Console {#live-copy-console}
+# Live Copy console {#live-copy-console}
 
 Learn how to view or manage inheritance across a site or perform rollout operations using the Live Copy Overview console.
 

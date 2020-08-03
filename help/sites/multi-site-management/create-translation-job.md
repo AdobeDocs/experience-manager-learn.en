@@ -1,8 +1,6 @@
 ---
-title: Create a Translation Job
-seo-title: Create a Translation Job
+title: Translation Jobs
 description: Learn how to add a translation job to an existing translation Project.
-seo-description: Learn how to add a translation job to an existing translation Project
 feature: language-copy, live-copy, multi-site-manager
 topics: localization, authoring, content-architecture
 audience: all
@@ -13,7 +11,7 @@ kt: 5366
 thumbnail: 36488.jpg
 ---
 
-# Create a Translation Job {#create-translation-job}
+# Translation Jobs {#translation-jobs}
 
 Learn how to add a translation job to an existing translation project.
 

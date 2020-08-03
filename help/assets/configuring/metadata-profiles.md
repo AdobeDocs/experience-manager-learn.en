@@ -9,6 +9,7 @@ doc-type: feature video
 activity: use
 version: cloud-service
 kt: 4984
+thumbnail: 33974.jpg
 ---
 
 # Metadata profiles

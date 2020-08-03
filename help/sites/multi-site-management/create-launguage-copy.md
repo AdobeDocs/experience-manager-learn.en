@@ -1,8 +1,6 @@
 ---
 title: Create a Language Copy
-seo-title: Create a Language Copy
 description: Explore how to create a Language Copy for your AEM site using the Create Language Copy wizard.  
-seo-description: Explore how to create a Language Copy for your AEM site using the Create Language Copy wizard.  
 feature: language-copy, live-copy, multi-site-manager
 topics: localization, authoring, content-architecture
 audience: all
