@@ -1,8 +1,6 @@
 ---
-title: Updating Language Copy with Launches
-seo-title: Updating Language Copy with Launches
+title: Updating a Language Copy with Launches
 description: Learn how to update, review, and approve changes in a Language Copy with the help of Launches.
-seo-description: Learn how to update, review, and approve changes in a Language Copy with the help of Launches.
 feature: language-copy, live-copy, multi-site-manager
 topics: localization, authoring, content-architecture
 audience: all
@@ -13,7 +11,7 @@ kt: 5367
 thumbnail: 36683.jpg
 ---
 
-# Updating Language Copy with Launches {#update-language-copy-launch}
+# Updating a Language Copy with Launches {#update-language-copy-launch}
 
 Learn how to update, review, and approve changes in a Language Copy with the help of Launches.
 

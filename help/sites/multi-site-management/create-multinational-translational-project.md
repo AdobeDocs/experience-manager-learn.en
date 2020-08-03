@@ -13,7 +13,7 @@ kt: 5368
 thumbnail: 36485.jpg
 ---
 
-# Create a Multi-language Translation Project {#create-multi-language-translation-projects}
+# Create a multi-language Translation Project {#create-multi-language-translation-projects}
 
 Learn how to create, edit and manage a multi-language translation project for your Language Copy from AEM's Project console
 

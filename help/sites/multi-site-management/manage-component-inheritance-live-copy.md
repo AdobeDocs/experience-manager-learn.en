@@ -1,8 +1,6 @@
 ---
-title: Manage Live Copy Inheritance on component
-seo-title: Manage Live Copy Inheritance on component
+title: Manage Live Copy Inheritance on a component
 description: Understand how to manage inheritance between a Live Copy and its Blueprint at a component level
-seo-description: Understand how to manage inheritance between a Live Copy and its Blueprint at a component level
 feature: language-copy, live-copy, multi-site-manager
 topics: localization, authoring, content-architecture
 audience: all
@@ -13,8 +11,8 @@ kt: 5372
 thumbnail: 36678.jpg
 ---
 
-# Manage Live Copy Inheritance on component {#manage-live-copy-component}
+# Manage Live Copy Inheritance on a component {#manage-live-copy-component}
 
-Understand how to manage inheritance between a Live Copy and its Blueprint at a component level
+Understand how to manage inheritance between a Live Copy and its Blueprint at a component level.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36678?quality=12&learn=on)

@@ -1,8 +1,6 @@
 ---
-title: Overview of Multi Site Management in AEM Sites
-seo-title: Overview of Multi Site Management in AEM Sites
+title: Overview of Multi-site Management in AEM Sites
 description: The following video provides an overview of basic concepts of multi site management in AEM Sites.
-seo-description: The following video provides an overview of basic concepts of multi site management in AEM Sites.
 feature: language-copy, live-copy, multi-site-manager
 topics: localization, authoring, content-architecture
 audience: all
@@ -13,7 +11,7 @@ kt: 5377
 thumbnail: 33594.jpg
 ---
 
-# Multi Site Management overview {#authoring-overview}
+# Overview of Multi-site Management
 
 The following video provides an overview of basic concepts of multi site management in AEM Sites.
 
