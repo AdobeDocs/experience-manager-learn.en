@@ -37,7 +37,7 @@ Typically a client library consists of CSS and Javascript file. This client libr
 
 The following is the code used to validate panel fields
 
-``` javascript {.line-numbers}
+```javascript
 //debugger;
 var errors =[];
 var fields ="";
