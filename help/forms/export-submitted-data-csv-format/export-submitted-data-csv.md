@@ -39,7 +39,7 @@ The following OSGI service was created to export the submitted data in CSV forma
 >[!NOTE]
 The code assumes you have defined connection pooled DataSource called "aemformstutorial" in Felix Web Console.The code also assumes that you have a schema in the database called aemformstutorial
 
-``` java{.line-numbers}
+```java
 package com.aemforms.storeandexport.core;
 
 import java.io.IOException;

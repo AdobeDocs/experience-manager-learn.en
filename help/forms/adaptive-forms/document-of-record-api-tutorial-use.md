@@ -23,7 +23,7 @@ This article illustrates the use of the `com.adobe.aemds.guide.addon.dor.DoRServ
 1. Set the DoROptions.
 1. Invoke the render method of the DoRService and pass the DoROptions object to the render method
 
-```java {.line-numbers}
+```java
 com.adobe.aemds.guide.addon.dor.DoRService dorService = sling.getService(com.adobe.aemds.guide.addon.dor.DoRService.class);
 com.adobe.aemds.guide.addon.dor.DoROptions dorOptions =  new com.adobe.aemds.guide.addon.dor.DoROptions();
  dorOptions.setData(dataXml);

@@ -43,8 +43,6 @@ if(request.getParameter("empID")!=null)
 
 The value of empID is associated with key called empID in paraMap. This map is then passed to the slingRequest
 
->[!NOTE]The key empID has to match with the binding value of the newhire entities get service
-
-
-
-
+>[!NOTE]
+>
+>The key empID has to match with the binding value of the newhire entities get service

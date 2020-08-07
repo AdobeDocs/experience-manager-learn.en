@@ -18,7 +18,7 @@ Marketo’s REST APIs are authenticated with 2-legged OAuth 2.0. We need to crea
 
 The following code creates the AuthenticationDetails object which has the access_token needed for authentication against Marketo
 
-``` java {.line-numbers}
+```java
 package com.marketoandforms.core;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
@@ -56,7 +56,7 @@ Please pay attention to the string returned by the method getAuthenticationType.
 
 A simple interface is defined with one method that returns the access_token. The code for the class that implements this interface is listed further down the page.
 
-``` java {.line-numbers}
+```java
 package com.marketoandforms.core;
 public interface MarketoService {
     String getAccessToken();
@@ -65,7 +65,7 @@ public interface MarketoService {
 
 The following code is of the service which returns the access_token that is to be used in making the REST API calls. The code in this service access the configuration parameters needed to make the GET call. As you can see we pass the client_id,client_secret in the GET URL to generate the access_token. This access_token is then returned to the calling application.
 
-``` java{.line-numbers}
+```java
 package com.marketoandforms.core.impl;
 import java.io.IOException;
 import org.apache.http.HttpEntity;
@@ -126,7 +126,7 @@ The screen-shot below shows the configuration properties that need to be set. Th
 ### Configuration
 The following code was used to create the configuration properties. These properties are specific to your Marketo instance
 
-``` java{.line-numbers}
+```java
 
 package com.marketoandforms.core;
  
@@ -149,7 +149,7 @@ public @interface MarketoConfiguration {
 
 The following code reads the configuration properties and returns the same via the getter methods
 
-``` java {.line-numbers}
+```java
 
 package com.marketoandforms.core;
  
