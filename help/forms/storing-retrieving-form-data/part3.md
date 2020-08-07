@@ -76,7 +76,7 @@ public class AemformWithDB implements AemFormsAndDB {
 
 The following is the interface declaration that was used
 
-```java{.line-numbers}
+```java
 package com.techmarketing.core;
 
 public interface AemFormsAndDB {
