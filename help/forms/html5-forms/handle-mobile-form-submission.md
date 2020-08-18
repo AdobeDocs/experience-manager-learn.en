@@ -55,7 +55,7 @@ System.out.println("The submitted form data is " + stringBuffer.toString());
 
 ![submit-url](assets/submit-url.PNG)
 
-* Tap on the xdp and click _Properties_->_Adavanced_
+* Tap on the xdp and click _Properties_->_Advanced_
 * copy http://localhost:4502/content/AemFormsSamples/handlehml5formsubmission.html and paste this in the Submit URL text field
 * Click _SaveAndClose_ button.
 
