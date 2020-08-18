@@ -36,7 +36,7 @@ AEM Sites introduces a number of features designed to accelerate the creation an
 
 AEM continues to embrace Fluid Experiences with new and improved tooling that facilitates the use of content outside of AEM.
 
-+ **Content Fragments** suppport Version Comparison/Diff and Annotations.
++ **Content Fragments** support Version Comparison/Diff and Annotations.
 + **AEM's Assets HTTP API** supports exposing **Content Fragments** directly in the DAM as **JSON**.
 **Experience Fragments** support **Fulltext Search** and **AEM Dispatcher Cache Invalidation** for referencing **Pages**.
 
