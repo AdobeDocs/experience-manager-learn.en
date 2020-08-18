@@ -38,7 +38,7 @@ Homebrew is a open-source package manager for macOS, Windows and Linux. All the 
 1. Check if Homebrew is already installed by running the command: `brew --version`.
 1. If Homebrew is not installed, install Homebrew
     + [Install Homebrew on macOS](https://brew.sh/)
-        + Homebrew on macOS [Xcode](https://apps.apple.com/us/app/xcode/id497799835) or [Command Line Tools](https://developer.apple.com/download/more/), install-able via the command:
+        + Homebrew on macOS requires [Xcode](https://apps.apple.com/us/app/xcode/id497799835) or [Command Line Tools](https://developer.apple.com/download/more/), install-able via the command:
             + `xcode-select --install`
     + [Install Homebrew on Linux](https://docs.brew.sh/Installation#linux-or-windows-10-subsystem-for-linux)
     + [Install Homebrew on Windows 10](https://docs.brew.sh/Installation#linux-or-windows-10-subsystem-for-linux)
