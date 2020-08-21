@@ -68,7 +68,7 @@ The output of this command is a `keystore.p12` file.
 
 ## Verify the keystore contents {#verify-the-keystore-contents}
 
-The Java [[!DNL keytool] command line tool](https://docs.oracle.com/middleware/1213/wls/SECMG/keytool-summary-appx.htm#SECMG818) provides visibility into a keystore to ensure the keys are successfully loaded in the keystore file ([[!DNL keystore.p12]).
+The Java [[!DNL keytool] command line tool](https://docs.oracle.com/middleware/1213/wls/SECMG/keytool-summary-appx.htm#SECMG818) provides visibility into a keystore to ensure the keys are successfully loaded in the keystore file ([!DNL keystore.p12]).
 
 ```shell
 $ keytool -keystore keystore.p12 -list
