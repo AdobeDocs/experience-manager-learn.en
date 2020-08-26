@@ -102,7 +102,7 @@ If prompted to create a keystore, do so. This keystore will exist only in AEM an
 ### Install the private key via the keystore {#install-the-private-key-via-the-keystore}
 
 ![Add Private Key in AEM](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io/aem--add-private-key.png)
-*[!UICCNOTROL User] > [!UICONTROL Keystore] > [!UICONTROL Add private key from keystore]*
+*[!UICONTROL User] > [!UICONTROL Keystore] > [!UICONTROL Add private key from keystore]*
 
 In the user's keystore console, click **[!UICONTROL Add Private Key form KeyStore file]** and add the following information:
 

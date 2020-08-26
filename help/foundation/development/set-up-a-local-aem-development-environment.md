@@ -10,7 +10,7 @@ audience: developer
 
 # Set up a Local AEM Development Environment 
 
-Guide to setting up a local development for Adobe Experience Manager, AEM. Covers important topics of local installation, Apache Maven, integrated development environments and debugging/troubleshooting. Development with **[!DML Eclipse IDE], [!DNL CRXDE Lite], [!DNL Visual Studio Code] and [!DNL IntelliJ]** are discussed.
+Guide to setting up a local development for Adobe Experience Manager, AEM. Covers important topics of local installation, Apache Maven, integrated development environments and debugging/troubleshooting. Development with **[!DNL Eclipse IDE], [!DNL CRXDE Lite], [!DNL Visual Studio Code] and [!DNL IntelliJ]** are discussed.
 
 ## Overview
 
@@ -43,7 +43,7 @@ It is also *critical* test code against a local ***Publish*** instance. The ***P
        /publish
    ```
 
-4. Rename the [!DNK QuickStart] JAR to ***aem-author-p4502.jar*** and place it beneath the `/author` directory. Add the ***[!DNL license.properties]*** file beneath the `/author` directory.
+4. Rename the [!DNL QuickStart] JAR to ***aem-author-p4502.jar*** and place it beneath the `/author` directory. Add the ***[!DNL license.properties]*** file beneath the `/author` directory.
 5. Make a copy of the [!DNL QuickStart] JAR, rename it to ***aem-publish-p4503.jar*** and place it beneath the `/publish` directory. Add a copy of the ***[!DNL license.properties]*** file beneath the `/publish` directory.
 
    ```plain
