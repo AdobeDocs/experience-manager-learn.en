@@ -8,6 +8,8 @@ topics: development
 audience: developer
 doc-type: article
 activity: implement
+kt: 6032
+thumbnail: 38178.jpg
 ---
 # Create Adobe Sign API Application
 
