@@ -1,5 +1,6 @@
 ---
 user-guide-title: AEM Sites Videos and Tutorials
+breadcrumb-title: AEM Sites Tutorials
 sub-product: sites
 ---
 

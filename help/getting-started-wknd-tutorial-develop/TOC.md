@@ -6,6 +6,7 @@ doc-type: tutorial
 activity: develop
 audience: developer
 user-guide-title: Getting Started with AEM Sites - WKND Tutorial
+user-guide-title: AEM Sites WKND Tutorials
 index: y
 ---
 

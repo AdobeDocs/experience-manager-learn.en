@@ -6,6 +6,7 @@ doc-type: tutorial
 activity: develop
 audience: developer
 user-guide-title: Introduction to Dynamic Media Classic
+breadcrumb-title: Dynamic Media Classic Tutorials
 index: y
 ---
 

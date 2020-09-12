@@ -1,5 +1,6 @@
 ---
 user-guide-title: AEM Foundation Videos and Tutorials
+user-guide-title: AEM Foundation Tutorials
 sub-product: foundation
 index: y
 ---

@@ -1,5 +1,6 @@
 ---
 user-guide-title: Getting Started with AEM Headless
+breadcrumb-title: AEM Headless Tutorial
 version: 6.5
 sub-product: content-services
 audience: developer

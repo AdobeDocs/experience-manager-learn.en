@@ -1,5 +1,6 @@
 ---
 user-guide-title: AEM Assets Videos and Tutorials
+breadcrumb-title: AEM Assets Tutorials
 sub-product: assets
 team: TM
 ---
