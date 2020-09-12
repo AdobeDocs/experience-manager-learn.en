@@ -6,6 +6,7 @@ doc-type: tutorial
 activity: develop
 audience: developer
 user-guide-title: Getting Started with the AEM SPA Editor and React
+breadcrumb-title: AEM SPA Editor and React Tutorial
 ---
 
 # Getting Started with the AEM SPA Editor and React {#spa-react-tutorial}
