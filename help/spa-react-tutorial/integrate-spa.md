@@ -575,6 +575,34 @@ The changes made to the `Header` are currently only visible through the **webpac
 
     Now that the updated SPA is in AEM, authoring can continue.
 
+## Troubleshooting node-sass error
+
+In the course of developing you may encounter the following error:
+
+```
+Error: Missing binding aem-guides-wknd-spa/ui.frontend/node_modules/node-sass/vendor/darwin-x64-72/binding.node
+Node Sass could not find a binding for your current environment: macOS 64-bit with Node.js 12.x
+```
+
+This can occur when the local version of **Node.js** and **npm** are different than what is used by the [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin). Running the command `npm rebuild node-sass` can temporarily fix the issue or removing the `ui.frontend/node_modules` folder and re-installing. 
+
+There are also a few ways to more permanently address this.
+
+* Ensure that the local version of npm and Node.js match the versions used by the [Maven build](https://github.com/adobe/aem-guides-wknd-spa/blob/React/latest/pom.xml#L118)
+* Add the following execution step to the `ui.frontend/pom.xml` before the `npm run build` step:
+
+    ```xml
+    <execution>
+        <id>npm rebuild node-sass</id>
+        <goals>
+            <goal>npm</goal>
+        </goals>
+        <configuration>
+            <arguments>rebuild node-sass</arguments>
+        </configuration>
+    </execution>
+    ```
+
 ## Congratulations! {#congratulations}
 
 Congratulations, you have updated the SPA and explored the integration with AEM! You now know two different approaches for developing the SPA against the AEM JSON model API using a **webpack-dev-server**.
