@@ -6,6 +6,7 @@ doc-type: tutorial
 activity: develop
 audience: developer
 user-guide-title: Introduction to Dynamic Media Classic
+user-guide-description: This tutorial shows how to use Dynamic Media Classic to create, author, and deliver rich media content.
 breadcrumb-title: Dynamic Media Classic Tutorials
 index: y
 ---

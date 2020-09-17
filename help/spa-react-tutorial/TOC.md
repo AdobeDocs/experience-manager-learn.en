@@ -6,6 +6,7 @@ doc-type: tutorial
 activity: develop
 audience: developer
 user-guide-title: Getting Started with the AEM SPA Editor and React
+user-guide-description: Create your first React Single Page Application (SPA) that is editable in AEM with the WKND SPA.
 breadcrumb-title: AEM SPA Editor and React Tutorial
 ---
 

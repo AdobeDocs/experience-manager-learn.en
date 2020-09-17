@@ -1,6 +1,7 @@
 ---
 user-guide-title: AEM Foundation Videos and Tutorials
-user-guide-title: AEM Foundation Tutorials
+breadcrumb-title: AEM Foundation Tutorials
+user-guide-description: A collection of videos and tutorials for Adobe Experience Manager Foundation. 
 sub-product: foundation
 index: y
 ---
