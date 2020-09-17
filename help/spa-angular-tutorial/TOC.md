@@ -6,6 +6,7 @@ doc-type: tutorial
 activity: develop
 audience: developer
 user-guide-title: Getting Started with the AEM SPA Editor and Angular
+user-guide-description: Create your first Angular Single Page Application (SPA) that is editable in AEM with the WKND SPA.
 breadcrumb-title: AEM SPA Editor and Angular Tutorial
 ---
 

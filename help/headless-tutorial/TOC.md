@@ -1,5 +1,6 @@
 ---
 user-guide-title: Getting Started with AEM Headless
+user-guide-description: An end-to-end tutorial illustrating how to build-out and expose content using AEM Headless.
 breadcrumb-title: AEM Headless Tutorial
 version: 6.5
 sub-product: content-services
