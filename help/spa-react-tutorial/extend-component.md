@@ -129,7 +129,7 @@ An initial Card Component has been provided by the chapter starter code. Inspect
     The component has already been stubbed out to map to the AEM `Card` Component using the standard `MapTo` function.
 
     ```js
-    MapTo('wknd-spa-react/components/card')(CardComponent, CardEditConfig);
+    MapTo('wknd-spa-react/components/card')(Card, CardEditConfig);
     ```
 
 8. Inspect the method `get imageContent()`:
@@ -441,7 +441,7 @@ Now that the JSON model is populated with new properties for `ctaLinkURL`, `ctaT
                                 {this.lastModifiedDisplayDate}
                             </span>
                         </h2>
-                        {this.ctaButton()}
+                        {this.ctaButton}
                 </div>);
         }
         ...
