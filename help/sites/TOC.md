@@ -89,3 +89,5 @@ sub-product: sites
     + [Connect AEM with Launch using Adobe I/O](integrations/experience-platform-launch/connect-aem-launch-adobe-io.md)
     + [Create a Launch Cloud Service](integrations/experience-platform-launch/create-launch-cloud-service.md)
     + [Debugging a Launch implementation](integrations/experience-platform-launch/debug-launch-implementation.md)
+  + Analytics {#analytics}
+    + [Collect page data with Adobe Analytics](integrations/analytics/collect-data-analytics.md)
