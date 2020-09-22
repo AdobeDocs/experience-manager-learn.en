@@ -91,3 +91,4 @@ sub-product: sites
     + [Debugging a Launch implementation](integrations/experience-platform-launch/debug-launch-implementation.md)
   + Analytics {#analytics}
     + [Collect page data with Adobe Analytics](integrations/analytics/collect-data-analytics.md)
+    + [Track clicked component with Adobe Analytics](integrations/analytics/track-clicked-component.md)
