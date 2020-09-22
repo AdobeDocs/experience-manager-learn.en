@@ -146,9 +146,9 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Pa
    });
    ```
 
-   The above code snippet will add an event listener by [pushing a function](https://github.com/adobe/adobe-client-data-layer/wiki#pushing-a-function) into the data layer. When the `cmp:show` event is triggered the `pageShownEventHandler` function is called. In this function a few sanity checks are added and a new `dataObject` is constructed with the latest [state of the data layer](https://github.com/adobe/adobe-client-data-layer/wiki#getstate) for the component that triggered the event.
+   The above code snippet will add an event listener by [pushing a function](https://github.com/adobe/adobe-client-data-layer/wiki#pushing-a-function) into the data layer. When the `cmp:show` event is triggered the `pageShownEventHandler` function is called. In this function a few sanity checks are added and a new `event` is constructed with the latest [state of the data layer](https://github.com/adobe/adobe-client-data-layer/wiki#getstate) for the component that triggered the event.
 
-   After that `trigger(dataObject)` is called. `trigger()` is a reserved name in Launch and will "trigger" the Launch Rule. We pass the `event` object as a parameter which in turn will be exposed by another reserved name in Launch named `event`. Data Elements in Launch can now reference various properties like so: `event.component['someKey']`.
+   After that `trigger(event)` is called. `trigger()` is a reserved name in Launch and will "trigger" the Launch Rule. We pass the `event` object as a parameter which in turn will be exposed by another reserved name in Launch named `event`. Data Elements in Launch can now reference various properties like so: `event.component['someKey']`.
 
 1. Save the changes.
 1. Next under **Actions** click **Add** to open the **Action Configuration** wizard.
@@ -309,6 +309,16 @@ Currently the **Page Loaded** rule simply outputs a console statement. Next, use
 
    ![Page Name Environment Variable set](assets/collect-data-analytics/page-name-env-variable-set.png)
 
+   Save the changes.
+
+1. Next, add an additional Action to the right of the **Adobe Analytics - Set Variables** by tapping the **plus** icon:
+
+    ![Add an additional Launch Action](assets/collect-data-analytics/add-additional-launch-action.png)
+
+1. Set the **Extension** type to **Adobe Analytics** and set the **Action Type** to  **Send Beacon**. Since this is considered a page view, leave the default tracking set to **`s.t()`**.
+
+   ![Send Beacon Adobe Analytics action](assets/track-clicked-component/send-page-view-beacon-config.png)
+
 1. Save the changes. The **Page Loaded** rule should now have the following configuration:
 
    ![Final Launch Configuration](assets/collect-data-analytics/final-page-loaded-config.png)
@@ -353,3 +363,7 @@ Now that the **Page Loaded** rule sends the Analytics beacon, you should be able
 ## Congratulations!
 
 You just used the event-driven Adobe Client Data Layer and Experience Platform Launch to collect data page data from an AEM Site and send it to Adobe Analytics.
+
+### Next Steps
+
+Check out the following tutorial to learn how to use the event-driven Adobe Client Data layer to [track clicks of specific components on an Adobe Experience Manager site](track-clicked-component.md). 
