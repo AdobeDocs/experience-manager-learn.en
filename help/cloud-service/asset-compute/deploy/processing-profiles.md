@@ -56,14 +56,19 @@ First create a new Processing Profile that will invoke the worker with the confi
 
 1. Select the newly created Processing Profile, `WKND Asset Renditions`
 1. Tap __Apply Profile to Folder(s)__ in the top action bar
-1. Select an a folder to apply the Processing Profile to, such as `WKND` and tap __Apply__
+1. Select a folder to apply the Processing Profile to, such as `WKND` and tap __Apply__
 1. Navigate to the folder the Processing Profile was not applied to via __AEM > Assets > Files__ and tap into `WKND`.
-1. Upload a [new asset](../assets/samples/sample-file.jpg) to the folder that has the new Processing Profile applied, and wait for the uploaded asset to be processed.
+1. Upload some new images assets ([sample-1.jpg](../assets/samples/sample-1.jpg), [sample-2.jpg](../assets/samples/sample-2.jpg), and [sample-3.jpg](../assets/samples/sample-3.jpg)) in any folder under the folder with the Processing Profile applied, and wait for the uploaded asset to be processed.
 1. Tap the asset to open its details
+    + Default renditions may generate and appear more quickly in AEM than custom renditions.
 1. Open the __Renditions__ view from the left sidebar
 1. Tap on the asset named `Circle.png` and review the generated rendition
 
     ![Generated rendition](./assets/processing-profiles/rendition.png)
+
+## Finished!
+
+Congratulations! you have finished the [tutorial](../overview.md) on how to extend AEM as a Cloud Service Asset Compute microservices! You should now have the ability to set up, develop, test, debug and deploy custom Asset Compute workers for use by your AEM as a Cloud Service Author service.
 
 ## Troubleshooting
 

@@ -51,7 +51,7 @@ Each test cast can have the following files:
     + Optional, defaults to the `diff` command
     + Use a shell script that wraps a docker run command for using different validation tools
 + `mock-<host-name>.json`
-    + JSON formatted HTTP responses for [mocking external service calls](https://www.mock-server.com/mock_server/creating_expectations.html). (
+    + JSON formatted HTTP responses for [mocking external service calls](https://www.mock-server.com/mock_server/creating_expectations.html).
     + Optional, only used if the worker code makes HTTP requests of its own
 
 ## Writing a test case
@@ -83,7 +83,7 @@ This test case asserts the parameterized input (`params.json`) for the input fil
 This test case tests to ensure the worker throws the appropriate error when the `contrast` parameter is set to an invalid value.
 
 1. Create a new test case folder at `/test/asset-compute/worker/error-contrast` to test a erring execution of the worker due to an invalid `contrast` parameter value.
-1. In the `error-contrast` folder, add the test [input file](./assets/test/error-contrast/file.jpg) for this test case and name it `file.jpg`. The contents of this file is immaterial to this test, it just needs to exist to get past the __Corrupt source__ check, in order to reach the `rendition.instructions` validity checks, that this test case validates.
+1. In the `error-contrast` folder, add the test [input file](./assets/test/error-contrast/file.jpg) for this test case and name it `file.jpg`. The contents of this file is immaterial to this test, it just needs to exist to get past the "Corrupt source" check, in order to reach the `rendition.instructions` validity checks, that this test case validates.
 1. In the `error-contrast` folder, add a new file named `params.json` that defines the input parameters of the worker with the contents:
  
     ```json
