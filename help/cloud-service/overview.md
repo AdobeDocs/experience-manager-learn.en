@@ -13,6 +13,10 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 ## What's New
 
+* **[Asset Compute microservices extensibility (Tutorial)](./asset-compute/overview.md)**
+    <br>
+    *Learn how to develop  Asset Compute workers to generate custom asset renditions*
+
 * **[Configuring access to AEM as a Cloud Service (Tutorial)](./accessing/overview.md)**
     <br>
     *Learn how to configure IMS users in Adobe Admin Console so they can access AEM*
@@ -28,15 +32,6 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 * **[Local Development Environment Set Up (Tutorial)](./local-development-environment/overview.md)**
     <br>
     *Learn how to set up your local development machine for AEM as a Cloud Service development*
-
-* **[Understand Processing Profiles and Assets microservices (Video)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html#get-started)**
-   <br>
-   *Learn about how Adobe Experience Manager as a Cloud Service uses Assets microservices and Processing Profiles to create asset renditions*
-
-* **[Understand the Structure of a Project Content Package (Article)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)**
-    <br>
-    *Adobe Experience Manager as a Cloud Service adjusts the Maven Project structure, clearly separating Code from Content*
-
 
 ## Staff Picks
 

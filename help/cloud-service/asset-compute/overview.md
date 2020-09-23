@@ -19,7 +19,7 @@ Whereas in AEM 6.x custom AEM Workflow processes were used to read, transform, a
 
 ## What you will build
 
-![Asset Compute tutorial example](./assets/overview/before-and-after.png)
+>[!VIDEO](https://video.tv.adobe.com/v/40965?quality=12&learn=on)
 
 This tutorial walks through the creation of a simple Asset Compute worker that crops an image to a circle, applies configurable contrast and brightness. While the worker itself is basic, this tutorial uses it to explore creating, developing, and deploying a custom Asset Compute worker for use with AEM as a Cloud Service.
 
@@ -126,11 +126,11 @@ The following are various Adobe resources that provide further information and u
 + [Asset Compute Service documentation](https://docs.adobe.com/content/help/en/asset-compute/using/extend/understand-extensibility.html)
 + [Asset Compute Development Tool readme](https://github.com/adobe/asset-compute-devtool)
 
-## Other code samples
+### Other code samples
 
 + [Asset Compute example workers](https://github.com/adobe/asset-compute-example-workers)
 
-## APIs and SDKs
+### APIs and SDKs
 
 + [Asset Compute SDK](https://github.com/adobe/asset-compute-sdk)
     + [Asset Compute Commons](https://github.com/adobe/asset-compute-commons)
