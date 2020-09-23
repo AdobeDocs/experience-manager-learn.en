@@ -22,13 +22,16 @@ To extend Asset Compute microservices, the following tools must be installed on 
 The following is an abridge set up instructions. Details on these development tools are described in discrete sections below.
 
 1. [Install Docker Desktop](https://www.docker.com/products/docker-desktop) and pull the required Docker images:
+
     ```
     $ docker pull openwhisk/action-nodejs-v10:latest
     $ docker pull adobeapiplatform/adobe-action-nodejs-v12:3.0.22
     ```
+
 1. [Install Visual Studio Code](https://code.visualstudio.com/download)
 1. [Install Node.js 10+](../../local-development-environment/development-tools.md#node-js)
 1.  Install the required npm modules and Adobe I/O CLI plug-ins from the command line:
+
     ```
     $ npm i -g @adobe/aio-cli @openwhisk/wskdebug ngrok --unsafe-perm=true \
     && aio plugins:install @adobe/aio-cli-plugin-asset-compute
