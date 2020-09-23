@@ -8,9 +8,8 @@ discoiquuid: b2b9ccc9-96b5-4bea-9995-2e6b353c469d
 sub-product: dynamic-media
 feature: image-profiles, video-profiles
 topics: images, videos, renditions, authoring, integrations, publishing, metadata
-audience : developer, architect, administrator
+audience: developer, architect, administrator
 doc-type: technical video
-audience : administrator, developer
 activity: setup
 version: 6.3, 6.4, 6.5
 ---

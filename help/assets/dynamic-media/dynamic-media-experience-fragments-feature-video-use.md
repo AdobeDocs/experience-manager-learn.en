@@ -9,7 +9,7 @@ sub-product: dynamic-media, content-services
 feature: experience-fragments
 topics: images, videos, renditions, authoring, integrations, publishing, metadata, sharing, publishing
 doc-type: feature video
-audience : all
+audience: all
 activity: use
 version: 6.3, 6.4, 6.5
 ---

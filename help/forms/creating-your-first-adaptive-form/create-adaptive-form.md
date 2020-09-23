@@ -10,7 +10,6 @@ audience: developer
 doc-type: tutorial
 activity: understand
 discoiquuid: 1c9fb7b6-98dd-4725-b787-ac9e71906500
-thumbnail: 22173.jpg
 kt: 4208
 thumbnail: 22173.jpg
 ---

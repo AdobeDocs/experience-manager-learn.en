@@ -10,7 +10,7 @@ sub-product: dynamic-media
 feature: viewer-presets, image-profiles
 topics: videos, renditions, authoring
 doc-type: feature video
-audience : all
+audience: all
 activity: understand
 version: 6.3, 6.4, 6.5
 ---

@@ -7,7 +7,7 @@ sub-product: dynamic-media
 feature: smart-crop, video-profiles, image-profiles, viewer-presets, vr-360, sets
 topics: videos, renditions, authoring, best-practices
 doc-type: feature video
-audience : all
+audience: all
 activity: use
 version: 6.3, 6.4, 6.5
 ---

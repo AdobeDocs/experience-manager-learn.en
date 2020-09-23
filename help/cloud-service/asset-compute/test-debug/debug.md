@@ -31,7 +31,9 @@ These log statements are available for review differently based on how the Asset
 
 ## Remote debugging via attached debugger
 
->[!WARN] Use Microsoft Visual Studio Code 1.48.0 or greater for compatibility with wskdebug
+>[!WARNING]
+>
+>Use Microsoft Visual Studio Code 1.48.0 or greater for compatibility with wskdebug
 
 The [wskdebug](https://www.npmjs.com/package/@openwhisk/wskdebug) npm module, supports attaching a debugger to Asset Compute workers, including the ability to set breakpoints in VS Code and step through the code.
 

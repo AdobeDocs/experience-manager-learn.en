@@ -8,7 +8,7 @@ sub-product: dynamic-media
 feature: video-profiles, video-profiles, vr-360
 topics: videos, renditions, authoring
 doc-type: feature video
-audience : all
+audience: all
 activity: use
 version: 6.4, 6.5
 ---

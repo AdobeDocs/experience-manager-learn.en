@@ -5,7 +5,7 @@ sub-product: dynamic-media
 feature: smart-crop, video-profiles, viewer-presets
 topics: videos, renditions, authoring
 doc-type: feature video
-audience : all
+audience: all
 activity: use
 version: cloud-service
 kt: 5977

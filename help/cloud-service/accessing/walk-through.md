@@ -4,7 +4,6 @@ description: An abridged walk-though configuring Adobe IMS Users, User Groups an
 feature: users-and-groups
 topics: authentication, permissions
 version: cloud-service
-doc-type: tutorial
 activity: setup
 audience: administrator
 doc-type: technical video

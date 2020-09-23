@@ -24,7 +24,9 @@ All Adobe services must be accessible through the same Adobe Org, using your Ado
     + [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/)
     + or [Amazon S3](https://aws.amazon.com/s3/?did=ft_card&trk=ft_card)
 
->[!WARN] Ensure you have access to all of the aforementioned services, prior to continuing through this tutorial.
+>[!WARNING]
+>
+>Ensure you have access to all of the aforementioned services, prior to continuing through this tutorial.
 > 
 > Review sections below on how to set and provision the required services.
 

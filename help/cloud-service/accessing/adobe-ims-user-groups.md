@@ -4,7 +4,6 @@ description:  Adobe IMS user groups establish logical sets of users that are ex
 feature: users-and-groups
 topics: authentication
 version: cloud-service
-doc-type: tutorial
 activity: setup
 audience: administrator
 doc-type: feature video

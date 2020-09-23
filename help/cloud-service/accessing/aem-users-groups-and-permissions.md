@@ -4,7 +4,6 @@ description: Adobe Experience Manager builds on Adobe IMS users, user groups, an
 feature: users-and-groups
 topics: authentication
 version: cloud-service
-doc-type: tutorial
 activity: setup
 audience: administrator
 doc-type: feature video
