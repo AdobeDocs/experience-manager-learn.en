@@ -7,7 +7,7 @@ sub-product: dynamic-media, analytics
 feature: asset-insights, media-player
 topics: images, videos, renditions, authoring, integrations, publishing 
 doc-type: feature video
-audience : all
+audience: all
 activity: use
 version: 6.3, 6.4, 6.5
 ---

@@ -4,7 +4,6 @@ description: Users requiring access to AEM Author service are managed as Adobe I
 feature: users-and-groups
 topics: authentication
 version: cloud-service
-doc-type: tutorial
 activity: setup
 audience: administrator
 doc-type: feature video

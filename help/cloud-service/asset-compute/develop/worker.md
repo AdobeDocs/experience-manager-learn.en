@@ -103,7 +103,9 @@ As Node.js applications, Asset Compute applications benefit from the robust [npm
 
 In this worker, we leverage the [jimp](https://www.npmjs.com/package/jimp) to create and manipulate the rendition image directly in the Node.js code.
 
->[!WARN] Not all npm modules for asset manipulation are supported by Asset Compute. npm modules that rely on the existing of other applications such as ImageMagick or OS-dependent libraries. It is best to limit to the use of JavaScript-only npm modules.
+>[!WARNING]
+>
+>Not all npm modules for asset manipulation are supported by Asset Compute. npm modules that rely on the existing of other applications such as ImageMagick or OS-dependent libraries. It is best to limit to the use of JavaScript-only npm modules.
 
 1. Open the command line in the root of your Asset Compute project (this can be done in VS Code via __Terminal > New Terminal__) and execute the command:
 
@@ -332,7 +334,9 @@ Now that the worker code is complete, and was previously registered and configur
 
 Parameters, passed in via Processing Profile configurations, can be simulated in Asset Compute Development Tools by providing them as key/value pairs on the rendition parameter JSON.
 
->[!WARN] During local development, values can be passed in using various data types, when passed in from AEM as Cloud Service Processing Profiles as strings, so make sure the correct data types are parsed if needed. 
+>[!WARNING]
+>
+>During local development, values can be passed in using various data types, when passed in from AEM as Cloud Service Processing Profiles as strings, so make sure the correct data types are parsed if needed. 
 > For example, Jimp's `crop(width, height)` function requires its parameters to be `int`'s. If `parseInt(rendition.instructions.size)` is not parsed to an int, then the call to `jimp.crop(SIZE, SIZE)` will fail as the parameters will be incompatible 'String' type.
 
 Our code accepts parameters for:

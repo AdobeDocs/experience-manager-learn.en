@@ -7,7 +7,7 @@ sub-product: dynamic-media
 feature: desktop-application, classic
 topics: authoring, operations
 doc-type: feature-video
-audience : all
+audience: all
 activity: use
 version: 6.5
 kt: 5808

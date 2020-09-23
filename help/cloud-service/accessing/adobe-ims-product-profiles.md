@@ -4,7 +4,6 @@ description: Adobe IMS product profiles entitle users to log into an AEM Author 
 feature: users-and-groups
 topics: authorization, permissions
 version: cloud-service
-doc-type: tutorial
 activity: setup
 audience: administrator
 doc-type: feature video

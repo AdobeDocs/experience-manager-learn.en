@@ -4,7 +4,6 @@ description: AEM as a Cloud Service is the cloud-native way of leveraging the AE
 feature: users-and-groups
 topics: authentication
 version: cloud-service
-doc-type: tutorial
 activity: setup
 audience: administrator
 doc-type: article

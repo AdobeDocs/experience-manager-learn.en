@@ -1,7 +1,6 @@
 ---
 title: Create Adobe Sign API Application
 description: The Adobe Sign API Application allows you to integrate AEM Forms with Adobe Sign
-kt: 6032
 thumbnail: 38178.jpg
 feature: adaptive-forms
 topics: development

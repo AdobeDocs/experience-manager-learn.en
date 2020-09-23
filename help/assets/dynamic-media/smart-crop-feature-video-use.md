@@ -9,7 +9,7 @@ sub-product: dynamic-media
 feature: smart-crop, image-profiles
 topics: images, renditions, authoring
 doc-type: feature video
-audience : all
+audience: all
 activity: use
 version: 6.4, 6.5
 ---

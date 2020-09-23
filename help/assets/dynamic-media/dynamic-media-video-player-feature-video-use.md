@@ -9,7 +9,7 @@ sub-product: dynamic-media
 feature: media-player, video-profiles
 topics: videos, renditions, authoring, best-practices
 doc-type: feature video
-audience : all
+audience: all
 activity: use
 version: 6.3, 6.4, 6.5
 ---
