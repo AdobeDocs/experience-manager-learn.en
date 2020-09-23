@@ -4,9 +4,8 @@ seo-title: Using Adobe Sign with AEM Forms
 description: Using Adobe Sign with AEM Forms
 seo-description: Using Adobe Sign with AEM Forms
 uuid: cbccea0f-969c-445d-9390-a236bb1fd2c4
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
+products: SG_EXPERIENCEMANAGER/6.3/FORMS, SG_ESIGNSERVICES
 topic-tags: forms, adaptive_forms
-products: SG_ESIGNSERVICES
 discoiquuid: aec562a4-4405-4e6f-9ad5-7477fa1d078f
 targetaudience: target-audience advanced
 index: y
