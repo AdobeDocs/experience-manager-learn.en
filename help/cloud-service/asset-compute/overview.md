@@ -13,7 +13,7 @@ thumbnail: KT-5802.jpg
 
 # Asset Compute microservices extensibility
 
-AEM as Cloud Service's Asset Compute microservices support the development and deployment of custom workers that are used to read, and manipulate binary data of assets stored in AEM, most commonly used to create custom asset renditions.
+AEM as Cloud Service's Asset Compute microservices support the development and deployment of custom workers that are used to read, and manipulate binary data of assets stored in AEM, most commonly, to create custom asset renditions.
 
 Whereas in AEM 6.x custom AEM Workflow processes were used to read, transform, and write back Asset renditions, in AEM as a Cloud Service Asset Compute workers satisfy this need.
 
@@ -21,7 +21,7 @@ Whereas in AEM 6.x custom AEM Workflow processes were used to read, transform, a
 
 >[!VIDEO](https://video.tv.adobe.com/v/40965?quality=12&learn=on)
 
-This tutorial walks through the creation of a simple Asset Compute worker that crops an image to a circle, applies configurable contrast and brightness. While the worker itself is basic, this tutorial uses it to explore creating, developing, and deploying a custom Asset Compute worker for use with AEM as a Cloud Service.
+This tutorial walks through the creation of a simple Asset Compute worker that creates an asset rendition by cropping the original asset to a circle, and applies configurable contrast and brightness. While the worker itself is basic, this tutorial uses it to explore creating, developing, and deploying a custom Asset Compute worker for use with AEM as a Cloud Service.
 
 ### Objectives {#objective}
 
@@ -33,7 +33,7 @@ This tutorial walks through the creation of a simple Asset Compute worker that c
 
 ## Set up
 
-Prior to developing custom Asset Compute workers, accounts and services must be provisioned and configured, and software installed on the local development machines.
+ Learn how to properly prepare for extending Asset Compute workers, and understand what services and accounts must be provisioned and configured, and software installed locally for development.
 
 ### Account and service provisioning 
 
@@ -54,6 +54,8 @@ Asset Compute projects are specially defined Adobe Project Firefly applications,
 + [Set up Adobe Project Firefly](./set-up/firefly.md)
 
 ## Develop 
+
+Learn how to create and configure an Asset Compute project and then develop a custom worker that generates a bespoke asset rendition.
 
 ### Create a new Asset Compute project
 
@@ -87,7 +89,7 @@ The Asset Compute Development Tool provides a local Web harness for deploying, e
 
 ## Test and Debug
 
-Testing and debugging Asset Compute applications and workers is crucial in ensuring workers function properly.  
+Learn how to test custom Asset Compute workers to be confident in their operation, and debug Asset Compute workers to understand and troubleshoot how the custom code is executed.
 
 ### Test a worker
 
@@ -103,7 +105,7 @@ Asset Compute applications provide various levels of debugging from traditional 
 
 ## Deploy
 
-To integrate custom Asset Compute workers with AEM as a Cloud Service, they are first deployed to Adobe I/O Runtime and then invoked from AEM as a Cloud Service Author via Assets Processing Profiles.
+Learn how to integrate custom Asset Compute workers with AEM as a Cloud Service, by first deploying them to Adobe I/O Runtime and then invoking from AEM as a Cloud Service Author via AEM Assets Processing Profiles.
 
 ### Deploy to Adobe I/O Runtime
 

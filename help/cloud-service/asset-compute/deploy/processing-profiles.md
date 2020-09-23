@@ -68,7 +68,7 @@ First create a new Processing Profile that will invoke the worker with the confi
 
 ## Finished!
 
-Congratulations! you have finished the [tutorial](../overview.md) on how to extend AEM as a Cloud Service Asset Compute microservices! You should now have the ability to set up, develop, test, debug and deploy custom Asset Compute workers for use by your AEM as a Cloud Service Author service.
+Congratulations! You have finished the [tutorial](../overview.md) on how to extend AEM as a Cloud Service Asset Compute microservices! You should now have the ability to set up, develop, test, debug and deploy custom Asset Compute workers for use by your AEM as a Cloud Service Author service.
 
 ## Troubleshooting
 
