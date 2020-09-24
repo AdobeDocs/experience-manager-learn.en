@@ -1,6 +1,6 @@
 ---
 title: Asset Compute microservices extensibility for AEM as a Cloud Service
-description: 
+description: This tutorial walks through the creation of a simple Asset Compute worker that creates an asset rendition by cropping the original asset to a circle, and applies configurable contrast and brightness. While the worker itself is basic, this tutorial uses it to explore creating, developing, and deploying a custom Asset Compute worker for use with AEM as a Cloud Service.
 feature: asset-compute
 topics: renditions, development
 version: cloud-service
@@ -17,7 +17,7 @@ AEM as Cloud Service's Asset Compute microservices support the development and d
 
 Whereas in AEM 6.x custom AEM Workflow processes were used to read, transform, and write back Asset renditions, in AEM as a Cloud Service Asset Compute workers satisfy this need.
 
-## What you will build
+## What you will do
 
 >[!VIDEO](https://video.tv.adobe.com/v/40965?quality=12&learn=on)
 
@@ -121,7 +121,7 @@ Once deployed to Adobe I/O Runtime, Asset Compute workers can be registered in A
 
 ## Additional resources
 
-The following are various Adobe resources that provide further information and useful API's and SDK's for developing Asset Compute workers.
+The following are various Adobe resources that provide further information and useful APIs and SDKs for developing Asset Compute workers.
 
 ### Documentation
 
