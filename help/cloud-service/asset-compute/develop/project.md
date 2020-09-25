@@ -8,7 +8,7 @@ activity: develop
 audience: developer
 doc-type: tutorial
 kt: 6269
-thumbnail: KT-6269.jpg
+thumbnail: 40197.jpg
 ---
 
 # Create an Asset Compute project
