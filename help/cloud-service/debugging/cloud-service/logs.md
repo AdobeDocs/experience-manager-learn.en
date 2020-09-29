@@ -22,6 +22,12 @@ Pod Ids are provided in each log statement, and allowing filtering or collating 
 + `cm-p<PROGRAM ID>-e<ENVIRONMENT ID>-aem-<author|publish>-<POD NAME>`
 + Example: `cm-p12345-e56789-aem-author-abcdefabde-98765`
 
+## Custom log files
+
+AEM as a Cloud Services does not support custom log files, however it does support custom logging.
+
+For Java logs to be available in AEM as a Cloud Service (via [Cloud Manager](#cloud-manager) or [Adobe I/O CLI](#aio)), custom log statements must be written the `error.log`. Logs written to custom named logs, such as `example.log`, will not be accessible from AEM as a Cloud Service.
+
 ## AEM Author and Publish service logs
 
 Both AEM Author and Publish services provide AEM runtime server logs:
@@ -47,7 +53,7 @@ Only AEM Publish Dispatcher provides Apache web server and Dispatcher logs, as t
   + Stage: `WARN`
   + Production: `ERROR`
         
-## Cloud Manager
+## Cloud Manager{#cloud-manager}
 
 Adobe Cloud Manager allows for the download of logs, by day, via an environment's Download Logs action.
 
@@ -55,7 +61,7 @@ Adobe Cloud Manager allows for the download of logs, by day, via an environment'
 
 These logs can be downloaded and inspected via any log analysis tools. 
 
-## Adobe I/O CLI with Cloud Manager plugin
+## Adobe I/O CLI with Cloud Manager plugin{#aio}
 
 Adobe Cloud Manager supports accessing AEM as a Cloud Service logs via the [Adobe I/O CLI](https://github.com/adobe/aio-cli) with the [Cloud Manager plugin for the Adobe I/O CLI](https://github.com/adobe/aio-cli-plugin-cloudmanager).
 
