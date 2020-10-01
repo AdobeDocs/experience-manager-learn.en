@@ -94,3 +94,12 @@ sub-product: sites
   + Analytics {#analytics}
     + [Collect page data with Adobe Analytics](integrations/analytics/collect-data-analytics.md)
     + [Track clicked component with Adobe Analytics](integrations/analytics/track-clicked-component.md)
+  + Adobe Target {#target}
+    + [Overview](integrations/adobe-target/overview.md)
+    + [Add Target extension to Launch Property](integrations/adobe-target/add-target-launch-extension.md)
+    + [Load and fire a Target call](integrations/adobe-target/load-and-fire-target.md)
+    + [Create Adobe Target Cloud Service account](integrations/adobe-target/setup-aem-target-cloud-service.md)
+    + [Export Experience Fragment to Adobe Target](integrations/adobe-target/export-experience-fragment-target.md)
+    + [Create Target Activity using Experience Fragment Offers](integrations/adobe-target/create-target-activity.md)
+    + [Personalization using Visual Experience Composer](integrations/adobe-target/personalization-using-vec.md)
+    + [Personalization of full web page experience](integrations/adobe-target/personalization-web-page.md)
