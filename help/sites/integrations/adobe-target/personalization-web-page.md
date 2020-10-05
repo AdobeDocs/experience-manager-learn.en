@@ -22,41 +22,41 @@ WKND site redesigned their home page and would like to redirect their current ho
 ## Steps to create an A/B test using Visual Experience Composer (VEC)
 
 1. Login to Adobe Target and navigate to the Activities tab
-2. Click **Create Activity** button and then choose **A/B Test** activity
-   
+1. Click **Create Activity** button and then choose **A/B Test** activity
+
     ![A/B Activity](assets/ab-target-activity.png)
 
-3. Select the **Visual Experience Composer** option,  provide the Activity URL, and then click **Next**
+1. Select the **Visual Experience Composer** option,  provide the Activity URL, and then click **Next**
 
     ![Activity URL](assets/ab-test-url.png)
 
-4. The Visual Experience Composer displays two tabs on the left side after you create a new activity: *Experience A* and *Experience B*. Select an experience from the list. You can add new experiences to the list, by using the **Add Experience** button.
+1. The Visual Experience Composer displays two tabs on the left side after you create a new activity: *Experience A* and *Experience B*. Select an experience from the list. You can add new experiences to the list, by using the **Add Experience** button.
 
     ![Experience Options](assets/experience-options.png)
 
-5. View options available for Experience A and then select the **Redirect to URL** option and provide a URL for the new WKND Site home page.
+1. View options available for Experience A and then select the **Redirect to URL** option and provide a URL for the new WKND Site home page.
 
     ![Redirect URL](assets/redirect-url.png)
 
-6. Rename *Experience A* to *New WKND Home Page* and *Experience B* to *WKND Home Page*
+1. Rename *Experience A* to *New WKND Home Page* and *Experience B* to *WKND Home Page*
 
     ![Adventures](assets/new-experiences.png)
 
-7.  Click **Next** to move to Targeting and keep a Manual traffic allocation of 50-50 between the two experiences. 
-    
+1. Click **Next** to move to Targeting and keep a Manual traffic allocation of 50-50 between the two experiences. 
+
     ![Targeting](assets/targeting.png)
 
-8.  For Goals and settings, choose the Reporting source as Adobe Target and select the Goal metric as Conversion with a page view action.
-    
+1. For Goals and settings, choose the Reporting source as Adobe Target and select the Goal metric as Conversion with a page view action.
+
     ![Goals](assets/goals.png)
 
-9.  Provide a name for your activity and Save.
-10. Activate your saved activity to push your changes live.
-    
+1. Provide a name for your activity and Save.
+1. Activate your saved activity to push your changes live.
+
     ![Goals](assets/activate.png)
 
-11. Open your site page (Activity URL from step 3) in a new tab and you should be able to view either of the experiences (WKND Home Page or New WKND Home Page) from our A/B test activity. `us/en.html` redirects to `us/home.html`.
-    
+1. Open your site page (Activity URL from step 3) in a new tab and you should be able to view either of the experiences (WKND Home Page or New WKND Home Page) from our A/B test activity. `us/en.html` redirects to `us/home.html`.
+
     ![Goals](assets/redirect-test.png)
 
 ## Summary
