@@ -11,7 +11,7 @@ doc-type: tutorial
 activity: implement
 version: 6.4,6.5
 kt: 6168
-thumbnail: 40122
+thumbnail: 40122.jpg
 
 ---
 
