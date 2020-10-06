@@ -18,7 +18,7 @@ Adobe Experience Manager's (AEM) [!UICONTROL System Overview] provides a high le
 
 1. The System Overview can be accessed from: **AEM Start** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Operations]** &gt; **[!UICONTROL System Overview]**
 
-   Directly at **[!DNL &lt;server-host&gt;/libs/granite/operations/content/systemoverview.html]**
+   Directly at **`<server-host>/libs/granite/operations/content/systemoverview.html`**
 
 1. The information from the [!UICONTROL System Overview] can be exported by clicking the [!UICONTROL Download] button. The information is also exposed via the following [!DNL REST] endpoint:
 1. Below is a sample output of the JSON that is exported from the [!UICONTROL System Overview]:
