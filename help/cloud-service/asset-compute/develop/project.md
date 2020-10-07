@@ -18,6 +18,7 @@ Asset Compute projects are Node.js projects, generated using the Adobe I/O CLI, 
 ## Generate a project
 
 >[!VIDEO](https://video.tv.adobe.com/v/40197/?quality=12&learn=on)
+
 _Click-through of generating an Asset Compute project (No audio)_
 
 
