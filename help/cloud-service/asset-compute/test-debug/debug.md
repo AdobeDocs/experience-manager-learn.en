@@ -61,7 +61,7 @@ _Click-through of debugging an Asset Compute worker using wskdebug (No audio)_
         "attachSimplePort": 0,
         "runtimeExecutable": "wskdebug",
         "args": [
-            "wkndAemAssetCompute-0.0.1/__secured_worker",  // Version must match your Asset Compute application's version
+            "wkndAemAssetCompute-0.0.1/__secured_worker",  // Version must match your Asset Compute worker's version
             "${workspaceFolder}/actions/worker/index.js",  // Points to your worker
             "-l",
             "--ngrok"

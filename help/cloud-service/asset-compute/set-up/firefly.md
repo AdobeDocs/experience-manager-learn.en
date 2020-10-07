@@ -1,6 +1,6 @@
 ---
 title: Set up Adobe Project Firefly for Asset Compute extensibility
-description: Asset Compute applications are specially defined Adobe Project Firefly applications, and as such, require access to Adobe Project Firefly in the Adobe Developer Console in order to set up and deploy them.
+description: Asset Compute projects are specially defined Adobe Project Firefly projects, and as such, require access to Adobe Project Firefly in the Adobe Developer Console in order to set up and deploy them.
 feature: asset-compute
 topics: renditions, development
 version: cloud-service
@@ -13,7 +13,7 @@ thumbnail: 40183.jpg
 
 # Set up Adobe Project Firefly
 
-Asset Compute applications are specially defined Adobe Project Firefly applications, and as such, require access to Adobe Project Firefly in the Adobe Developer Console in order to set up and deploy them.
+Asset Compute projects are specially defined Adobe Project Firefly projects, and as such, require access to Adobe Project Firefly in the Adobe Developer Console in order to set up and deploy them.
 
 ## Create and set up Adobe Project Firefly in Adobe Developer Console{#set-up}
 
@@ -27,8 +27,8 @@ _Click-through of setting up Adobe Project Firefly (No audio)_
     
     + __Project title__: `WKND AEM Asset Compute`
     + __App name__: `wkndAemAssetCompute<YourName>`
-        + The __App name__ must be unique across all Firefly applications and is not modifiable later. Prefixing the your company or organization's name, and postfixing with a meaningful suffix is a good approach, such as: `wkndAemAssetCompute`.
-        + For self-enablement it is often best to postfix your name to the __App name__, such as `wkndAemAssetComputeJaneDoe` to avoid collisions with other Project Firefly applications.
+        + The __App name__ must be unique across all Firefly projects and is not modifiable later. Prefixing the your company or organization's name, and postfixing with a meaningful suffix is a good approach, such as: `wkndAemAssetCompute`.
+        + For self-enablement it is often best to postfix your name to the __App name__, such as `wkndAemAssetComputeJaneDoe` to avoid collisions with other Project Firefly projects.
     + Under __Workspaces__ add a new environment named `Development`
     + Under __Adobe I/O Runtime__ ensure __Include Runtime with each workspace__ is selected
     + Tap __Save__ to save the project
@@ -51,7 +51,7 @@ When setting up the [Asset Compute API integration](#set-up) a new key pair was 
 
 ## Review the Service Account (JWT) Credentials
 
-This Adobe I/O project's credentials are used by the local [Asset Compute Development Tool](../develop/development-tool.md) to interact with Adobe I/O Runtime, and will need to be incorporated into the Asset Compute application project. Familiarize yourself with the Service Account (JWT) credentials.
+This Adobe I/O project's credentials are used by the local [Asset Compute Development Tool](../develop/development-tool.md) to interact with Adobe I/O Runtime, and will need to be incorporated into the Asset Compute project. Familiarize yourself with the Service Account (JWT) credentials.
 
 ![Adobe Developer Service Account credentials](./assets/firefly/service-account.png)
 
