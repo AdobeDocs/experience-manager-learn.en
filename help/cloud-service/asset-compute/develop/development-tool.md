@@ -43,6 +43,7 @@ This will start the Development Tool at __http://localhost:9000__, and automatic
 ### Run a custom worker
 
 >[!VIDEO](https://video.tv.adobe.com/v/40241?quality=12&learn=on)
+
 _Click-through of running an Asset Compute work in Development Tool (No audio)_
 
 1. Ensure Asset Compute Development Tool is started from your project root using the `aio app run` command.
