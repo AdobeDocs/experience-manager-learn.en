@@ -137,7 +137,7 @@ The following is the payload folder structure after the form attachments are ass
 * Download the [Assemble Form Attachments Form](assets/assemble-form-attachments-af.zip) to your local system.
 * Import the form from the[Forms And Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments) page.
 * Download [workflow](assets/assemble-form-attachments.zip) and import into AEM using package manager.
-* Download the custom bundle(assets/assembletaskattachments.assembletaskattachments.core-1.0-SNAPSHOT.jar)
+* Download the [custom bundle](assets/assembletaskattachments.assembletaskattachments.core-1.0-SNAPSHOT.jar)
 * Deploy and start the bundle using the [web console](http://localhost:4502/system/console/bundles)
 * Point your browser to [AssembleAttachments Form](http://localhost:4502/content/dam/formsanddocuments/assembleattachments/jcr:content?wcmmode=disabled)
 * Add a attachment in the ID Document and a couple of pdf documents to the bank statements section
