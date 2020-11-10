@@ -19,7 +19,7 @@ Common use cases include:
 
 + Integrations with 3rd party systems, such as a PIM (Product Information Management system), where additional metadata must be retrieved and stored on the asset
 + Integrations with Adobe services, such as Content and Commerce AI to augment asset metadata with additional machine learning attributes
-+ Deriving metadata about the asset from it's binary and storing it as asset metadata in AEM as a Cloud Service
++ Deriving metadata about the asset from its binary and storing it as asset metadata in AEM as a Cloud Service
 
 ## What you will do
 
@@ -299,7 +299,7 @@ To review the colors metadata, map two new fields on the image's metadata schema
 1. When processing is complete, select the asset, and tap __properties__ in the top action bar to display its metadata
 1. Review the `Colors Family` and `Colors` [metadata fields](#metadata-schema) for the metadata written back from the custom Asset Compute metadata worker.
 
-This color metadata is now available to be written back to the binary as XMP data (on the next XMP write-back) as well as aids with asset discover-ability via full-text search.
+With the color metadata written to the asset's metadata, on the `[dam:Asset]/jcr:content/metadata` resource, this metadata is indexed increased asset discover-ability using these terms via search, and they can even be written back to the asset's binary if then __DAM Metadata Writeback__ workflow is invoked on it.
 
 ### Metadata rendition in AEM Assets
 
