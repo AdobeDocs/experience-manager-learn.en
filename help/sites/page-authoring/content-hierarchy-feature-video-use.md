@@ -17,4 +17,4 @@ thumbnail: 31785.jpg
 
 Learn how to create and organize your organization's site pages in AEM Sites.
 
->[!VIDEO](https://video.tv.adobe.com/v/31827?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/31785?quality=12&learn=on)
