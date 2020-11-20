@@ -39,7 +39,7 @@ To deploy the assets on your local system:
 
 * [Download and deploy DevelopingWitheServiceUserBundle](/help/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar)
 
-*[Download and deploy the setvalue bundle](/help/forms/assets/common-osgi-bundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted json data.
+* [Download and deploy the setvalue bundle](/help/forms/assets/common-osgi-bundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which allows you to set the values of an element in the submitted json data.
 
 * [Download and extract the contents of the zip file](assets/set-value-jsondata.zip)
   * Point your browser to [package manager](http://localhost:4502/crx/packmgr/index.jsp)
@@ -56,10 +56,8 @@ To deploy the assets on your local system:
 * Notice the fields in the first panel are disabled.
 * Notice the panel for approving or declining the request is now visible.
 
-
-
 >[!NOTE]
-
+>
 >Since we are pre-populating the Adaptive Form using user profile, make sure the admin [user profile information ](http://localhost:4502/security/users.html). At the minimum make sure you have set the FirstName,LastName and Email field values.
 >You can enable debug logging by enabling logger for com.aemforms.setvalue.core.SetValueInJson [from here](http://localhost:4502/system/console/slinglog)
 
