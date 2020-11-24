@@ -11,16 +11,20 @@ kt: 6351
 thumbnail: 41246.jpg
 ---
 
-# Create Adobe Target Activity using Experience Fragment {#target-activity-experience-fragment}
+# Create Adobe Target Activity using Experience Fragment Offers {#target-activity-experience-fragment}
 
-Learn how to create and test an Adobe Target Activity using AEM Experience Fragment offers.
+Learn how to create and test an Adobe Target Activity using AEM Experience Fragment Offers.
 
 >[!VIDEO](https://video.tv.adobe.com/v/41246?quality=12&learn=on)
 
-Before creating an Activity in Target, you need to do setup:
+## Prerequisites
 
-1. [Integrate Experience Platform Launch and AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html)
-2. [Integrate Adobe Experience Manager with Adobe Target using Cloud Services](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html)
+In order to create Adobe Target Activities using Experience Fragment Offers, the following set up must be completed:
+
+1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
+1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
+1. [Integrate AEM Author service with Adobe Target](./setup-aem-target-cloud-service.md)
+1. [Export AEM Experience Fragments to Adobe Target](./export-experience-fragment-target.md)
 
 ## Supporting Links
 
