@@ -1,6 +1,6 @@
 ---
 title:  Personalization of full web page Experience
-description: Learn how to create an activity to redirect your site pages that are hosted on AEM to a new page using Adobe Target.
+description: Learn how to create a Target activity to redirect your AEM web site pages to new pages using Adobe Target.
 feature: targeting
 topics: integrations, authoring, personalization, activity, offers
 audience: all
@@ -15,11 +15,14 @@ thumbnail: 6353-personalization-web-page.jpg
 
 Learn how to create an activity to redirect your site pages that are hosted on AEM to a new page using Adobe Target.
 
-Before creating an Activity in Target, you need to do setup:
+## Prerequisites
 
-1. [Integrate Experience Platform Launch and AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html)
+In order to personalize full pages of an AEM web site, the following set up must be completed:
 
-## Scenario Overview
+1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
+1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
+
+## Scenario overview
 
 WKND site redesigned their home page and would like to redirect their current home page visitors to the new home page. At the same time, also understand how the redesigned home page helps to improve user engagement and revenue. As a marketer, you have been assigned the task to create an activity to redirect the visitors to the new home page. Let us explore the WKND site home page and learn how to create an activity using Adobe Target.
 

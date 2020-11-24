@@ -15,10 +15,12 @@ thumbnail: 6352-personalization-using-vec.jpg
 
 Learn how to create an A/B Test Target Activity using Visual Experience Composer (VEC).
 
-Before creating an Activity in Target, you need to do setup:
+## Prerequisites
 
-1. [Integrate Experience Platform Launch and AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html)
-2. [Integrate Adobe Experience Manager with Adobe Target using Cloud Services](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html)
+In order to use VEC on an AEM web site, the following set up must be completed:
+
+1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
+1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
 
 ## Scenario Overview
 
@@ -26,7 +28,10 @@ The WKND site home page displays local activities or the best thing to do around
 
 ## Steps to create an A/B test using Visual Experience Composer (VEC)
 
-1. Login to Adobe Target and navigate to the Activities tab
+1. Login to [Adobe Experience Cloud](https://experience.adobe.com/), tap on __Target__,  navigate to the __Activities__ tab
+    
+    + If you do not see __Target__ on the Experience Cloud dashboard, ensure the correct Adobe organization is selected in the organization switcher in the top right, and that you user has been granted access to Target in [Adobe Admin Console](https://adminconsole.adobe.com/).
+
 1. Click **Create Activity** button and then choose **A/B Test** activity
 
     ![A/B Activity](assets/ab-target-activity.png)
@@ -75,5 +80,5 @@ In this chapter, a marketer was able to create an experience using Visual Experi
 
 ## Supporting Links
 
-* [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 
-* [Adobe Experience Cloud Debugger - Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/)
++ [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 
++ [Adobe Experience Cloud Debugger - Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/)
