@@ -226,7 +226,7 @@ Data elements will be mapped to the `@type`, `dc:title`, and `xdm:template` prop
 ### Page Template
 
 1. Click **Add Data Element**.
-1. For **Name** enter **Page Name**.
+1. For **Name** enter **Page Template**.
 1. For **Data Element Type** select **Custom Code**.
 1. Click **Open Editor** and enter the following in the custom code editor:
 
@@ -288,7 +288,7 @@ Next, update the **Page Loaded** rule to use the **Component Resource Type** dat
 
    >[!NOTE]
    >
-   > It is possible to add this condition within the custom code function that listens for the `cmp:show` event created earlier in the tutorial. However, adding it within the UI gives more visibility to additional users that might need to make changes to the rule. Plus we got use our data element!
+   > It is possible to add this condition within the custom code function that listens for the `cmp:show` event created earlier in the tutorial. However, adding it within the UI gives more visibility to additional users that might need to make changes to the rule. Plus we get to use our data element!
 
 1. Save the changes.
 
