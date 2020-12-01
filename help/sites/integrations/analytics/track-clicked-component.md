@@ -67,7 +67,7 @@ Before making rules in Launch it is useful to review the [schema for the Button 
 
     ```json
     teaser-da32481ec8-cta-adf3c09db9:
-        @type: "nt:unstructured"
+        @type: "wknd/components/teaser/cta"
         dc:title: "Surf's Up"
         parentId: "teaser-da32481ec8"
         xdm:linkURL: "/content/wknd/us/en/magazine/san-diego-surf.html"
@@ -202,7 +202,7 @@ Next create a Data Elements to capture the component ID and title that was click
 
 Next, update the **CTA Clicked** rule to to ensure that the rule only fires when the `cmp:click` event is fired for a **Teaser** or a **Button**. Since the Teaser's CTA is considered a separate object in the data layer it is important to check the parent to verify it came from a Teaser.
 
-1. In the Launch UI, navigate to the **Page Loaded** rule created earlier.
+1. In the Launch UI, navigate to the **CTA Clicked** rule created earlier.
 1. Under **Conditions** click **Add** to open the **Condition Configuration** wizard.
 1. For **Condition Type** select **Custom Code**.
 
@@ -212,20 +212,15 @@ Next, update the **CTA Clicked** rule to to ensure that the rule only fires when
 
     ```js
     if(event && event.component && event.component.hasOwnProperty('@type')) {
-        //Check for Button Type
-        if(event.component['@type'] === 'wknd/components/button') {
+        // console.log("Event Type: " + event.component['@type']);
+        //Check for Button Type OR Teaser CTA type
+        if(event.component['@type'] === 'wknd/components/button' ||
+           event.component['@type'] === 'wknd/components/teaser/cta') {
             return true;
-        } else if (event.component['@type'] == 'nt:unstructured') {
-            // Check for CTA inside a Teaser
-            var parentComponentId = event.component['parentId'];
-            var parentComponent = window.adobeDataLayer.getState('component.' + parentComponentId);
-
-            if(parentComponent['@type'] === 'wknd/components/teaser') {
-                return true;
-            }
         }
     }
 
+    // none of the conditions are met, return false
     return false;
     ```
 
@@ -237,7 +232,7 @@ Next, update the **CTA Clicked** rule to to ensure that the rule only fires when
 
 Currently the **CTA Clicked** rule simply outputs a console statement. Next, use the data elements and the Analytics extension to set Analytics variables as an **action**. We will also set an additional action to trigger the **Track Link** and send the collected data to Adobe Analytics.
 
-1. In the **Page Loaded** rule **remove** the **Core - Custom Code** action (the console statements):
+1. In the **CTA Clicked** rule **remove** the **Core - Custom Code** action (the console statements):
 
    ![Remove custom code action](assets/track-clicked-component/remove-console-statements.png)
 
