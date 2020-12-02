@@ -1,5 +1,5 @@
 ---
-title: Getting Started with AEM Headless - Chapter 6 - Exposing the Content on AEM Publish as JSON
+title: Chapter 6 - Exposing the Content on AEM Publish as JSON - Content Services
 description: Chapter 6 of the AEM Headless tutorial covers ensuring all the necessary packages, configuration and content are on AEM Publish to allow consumption from the Mobile App.
 ---
 

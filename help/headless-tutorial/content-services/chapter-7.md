@@ -1,5 +1,5 @@
 ---
-title: Getting Started with AEM Headless - Chapter 7 - Consuming AEM Content Services from a Mobile App
+title: Chapter 7 - Consuming AEM Content Services from a Mobile App - Content Services
 description: Chapter 7 of the tutorial runs up the Android Mobile App to consume authored content from AEM Content Services.
 ---
 
@@ -190,7 +190,7 @@ After each step, pull-to-refresh the Mobile App and verify the update to the mob
 
 To learn more about AEM Content Services and AEM as a Headless CMS, visit Adobe's other documentation and enablement materials:
 
-* [Using Content Fragments](../sites/content-fragments/understand-content-fragments-and-experience-fragments.md)
+* [Using Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
 * [AEM WCM Core Components User Guide](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
 * [AEM WCM Core Components Component Library](https://opensource.adobe.com/aem-core-wcm-components/library.html)
 * [AEM WCM Core Components GitHub Project](https://github.com/adobe/aem-core-wcm-components)
