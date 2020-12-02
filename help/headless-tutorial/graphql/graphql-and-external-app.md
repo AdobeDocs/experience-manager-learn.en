@@ -201,7 +201,7 @@ Next, let's modify the React app to perform parameterized, filtering GraphQL que
 1. In your IDE, open the file: `src/components/Adventures.js`. This file represents the home experience's adventures component, that queries for and displays the Adventures cards.
 1. Inspect the function `filterQuery(activity)`, which is unused, but has been prepared to formulate a GraphQL query that filters adventures by `activity`.
 
-Notice that parameter `activity` is injected into the GraphQL query as part of a `filter` on the `adventureActivity` field, requiring that field's value to match the parameter's value. 
+    Notice that parameter `activity` is injected into the GraphQL query as part of a `filter` on the `adventureActivity` field, requiring that field's value to match the parameter's value. 
 
     ```javascript
     function filterQuery(activity) {

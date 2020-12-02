@@ -37,12 +37,6 @@ The below video presents an overview of the GraphQL API implemented in AEM. The 
 
 >[!VIDEO](https://video.tv.adobe.com/v/328618/?quality=12&learn=on)
 
-## GraphQL Overview
-
-The below video presents an overview of the GraphQL API implemented in AEM. The GraphQL API in AEM is primarily designed to deliver Content fragment data to downstream applications as part of a headless deployment.
-
->[!VIDEO](https://video.tv.adobe.com/v/328618/?quality=12&learn=on)
-
 ## Let's get started!
 
 Start the AEM GraphQL tutorial by jumping into the [Quick Setup](./setup.md) chapter!
