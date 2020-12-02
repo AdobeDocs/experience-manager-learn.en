@@ -1,26 +1,51 @@
 ---
-title: Getting Started with AEM Headless
-description: An end-to-end tutorial illustrating how to build-out and expose content using AEM Headless.
+title: AEM Headless tutorials
+description: A collection of tutorials on how to use Adobe Experience Manager as a Headless CMS.
 ---
 
-# Getting Started with AEM Headless
+# AEM Headless tutorials
 
-An end-to-end tutorial illustrating how to build-out and expose content using AEM and consumed by a native mobile app, in a headless CMS scenario.
+Adobe Experience Manager has multiple options for defining headless endpoints and delivering its content as JSON. Use hands-on tutorials to explore how to use the various options and chose what's right for you.
 
->[!VIDEO](https://video.tv.adobe.com/v/28315/?quality=12&learn=on)
+## AEM GraphQL APIs tutorial
 
-This tutorial explores how AEM Content Services can be used to power the experience of an Mobile App that displays Event information (music, performance, art, etc.) that is curated by the WKND team.
+>[!CAUTION]
+>
+> The AEM GraphQL API for Content Fragment Delivery will be released in early 2021.
+> The related documentation is available for preview purposes.
 
-This tutorial will cover the following topics:
+AEM's GraphQL APIs for Content Fragments
+supports headless CMS scenarios where external client applications render experiences using content managed in AEM.
 
-* Create content that represent an Event using Content Fragments
-* Define an AEM Content Services end-points using AEM Sites' Templates and Pages that expose the Event data as JSON
-* Explore how AEM WCM Core Components can be used to enable marketers to author JSON end-points
-* Consume AEM Content Services JSON from an Mobile App
-  * The use of Android is because it has a cross-platform emulator that all users (Windows, macOS, and Linux) of this tutorial can use to run the native App.
+A modern content delivery API is key for efficiency and performance of Javascript-based frontend applications. Using a REST API introduce challenges:  
 
-## GitHub Project
+* Large number of requests for fetching one object at a time
+* Often "over-delivering" content, meaning the application receives more than it needs
 
-The source code, and content packages are available on the [AEM Guides - WKND Mobile GitHub Project](https://github.com/adobe/aem-guides-wknd-mobile).
+To overcome these challenges GraphQL provides a query-based API allowing clients to query AEM for only the content it needs, and to receive using a single API call.
 
-If you find an issue with the tutorial or the code, please leave a [GitHub issue](https://github.com/adobe/aem-guides-wknd-mobile/issues).
+* Learn how to use AEM's GraphQL APIs take the [Getting Started with AEM GraphQL APIs tutorial](./graphql/overview.md)
+
+## AEM Content Services tutorial
+
+AEM's Content Services leverages traditional AEM Pages to compose headless REST API endpoints, and AEM Components define, or reference, the content to expose on these endpoints.
+
+AEM Content Services allows for the same content abstractions used for authoring web pages in AEM Sites, to define the content and schemas of these HTTP APIs. The use of AEM Pages and AEM Components empowers marketers to quickly compose and update flexible JSON APIs that can power any application.
+
+* Learn how to use AEM's Content Services take the [Getting Started with AEM Content Services tutorial](./content-services/overview.md)
+
+## AEM GraphQL vs. AEM Content Services
+
+|                                | AEM GraphQL APIs | AEM Content Services | 
+|--------------------------------|:-----------------|:---------------------|
+| Schema definition | Structured Content Fragment Models | AEM Components |
+| Content | Content Fragments | AEM Components |
+| Content discovery | By GraphQL query | By AEM Page |
+| Delivery format | GraphQL JSON | AEM ComponentExporter JSON |
+
+## Other helpful tutorials
+
+Other AEM tutorials pertaining to headless concepts include:
+
+* [Getting Started with the AEM SPA Editor and Angular](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-angular-tutorial/overview.html)
+* [Getting Started with the AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-react-tutorial/overview.html)

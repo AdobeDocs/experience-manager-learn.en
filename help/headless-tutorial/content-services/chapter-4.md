@@ -1,5 +1,5 @@
 ---
-title: Chapter 4 - Defining Content Services Templates
+title: Chapter 4 - Defining Content Services Templates - Content Services
 seo-title: Getting Started with AEM Headless - Chapter 4 - Defining Content Services Templates
 description: Chapter 4 of the AEM Headless tutorial covers the role of AEM Editable Templates in the context of AEM Content Services. Editable Templates are used to define the JSON content structure AEM Content Services will ultimately expose.
 seo-description: Chapter 4 of the AEM Headless tutorial covers the role of AEM Editable Templates in the context of AEM Content Services. Editable Templates are used to define the JSON content structure AEM Content Services will ultimately expose.
