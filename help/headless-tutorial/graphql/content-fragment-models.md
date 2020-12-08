@@ -8,8 +8,8 @@ doc-type: tutorial
 activity: develop
 audience: developer
 mini-toc-levels: 1
-kt:
-thumbnail:
+kt: 6712
+thumbnail: 22452.jpg
 ---
 
 # Defining Content Fragment Models {#content-fragment-models}
