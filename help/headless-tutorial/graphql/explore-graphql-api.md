@@ -8,8 +8,8 @@ doc-type: tutorial
 activity: develop
 audience: developer
 mini-toc-levels: 1
-kt:
-thumbnail:
+kt: 6714
+thumbnail: KT-6714.jpg
 ---
 
 # Explore GraphQL APIs {#explore-graphql-apis}
@@ -271,6 +271,10 @@ It is also possible to combine separate queries into a single query. This is use
     }
   }
   ```
+
+## Additional Resources
+
+For many more examples of GraphQL queries see: [Learning to use GraphQL with AEM - Sample Content and Queries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/content-fragments-graphql-samples.html).
 
 ## Congratulations! {#congratulations}
 

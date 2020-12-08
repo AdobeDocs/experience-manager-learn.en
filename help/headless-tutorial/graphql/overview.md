@@ -8,8 +8,8 @@ doc-type: tutorial
 activity: develop
 audience: developer
 mini-toc-levels: 1
-kt:
-thumbnail:
+kt: 6678
+thumbnail: 328618.jpg
 ---
 
 # Getting Started with AEM Headless - GraphQL

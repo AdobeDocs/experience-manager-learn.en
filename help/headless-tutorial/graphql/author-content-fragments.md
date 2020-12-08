@@ -8,8 +8,8 @@ doc-type: tutorial
 activity: develop
 audience: developer
 mini-toc-levels: 1
-kt:
-thumbnail:
+kt: 6713
+thumbnail: 22451.jpg
 ---
 
 # Authoring Content Fragment {#authoring-content-fragments}

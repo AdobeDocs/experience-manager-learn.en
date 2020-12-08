@@ -8,8 +8,8 @@ doc-type: tutorial
 activity: develop
 audience: developer
 mini-toc-levels: 1
-kt:
-thumbnail:
+kt: 6716
+thumbnail: KT-6716.jpg
 ---
 
 # Query AEM using GraphQL from an external app

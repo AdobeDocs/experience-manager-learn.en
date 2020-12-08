@@ -8,8 +8,8 @@ doc-type: tutorial
 activity: develop
 audience: developer
 mini-toc-levels: 1
-kt:
-thumbnail:
+kt: 6718
+thumbnail: KT-6718.jpg
 ---
 
 # Advanced data modeling with Fragment References
@@ -232,6 +232,12 @@ Next, update the queries used by the React Application to include the new Contri
 
     ![Contributor Added in the App](assets/fragment-references/contributor-added-detail.png)
 
+## Additional Resources
+
+For more details about Content Fragments and GraphQL see the following resources:
+
+* [Headless Content Delivery using Content Fragments with GraphQL](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-graphql.html)
+* [AEM GraphQL API for use with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-api-content-fragments.html)
 
 ## Congratulations!{#congratulations}
 
