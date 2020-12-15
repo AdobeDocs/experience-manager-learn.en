@@ -95,6 +95,7 @@ team: TM
   + [Dynamic Media Classic Desktop Application](dynamic-media/dynamic-media-classic-desktop-application.md)
   + [Dynamic Media 3D](dynamic-media/dynamic-media-3d-feature-video.md)
   + [Dynamic Media Smart Crop Video](dynamic-media/dynamic-media-smart-crop-video.md)
+  + [Dynamic Media Core Components](dynamic-media/dynamic-media-core-components.md)
 
 + Translation {#translation}
   + [Source File Translation](translation/source-file-translation-feature-video-use.md)
