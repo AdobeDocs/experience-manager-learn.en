@@ -13,6 +13,12 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 ## What's New
 
+* **[Bulk Import (Video)](./migration/bulk-import.md)**
+    *Learn how to bulk import assets into AEM from Azure Blob Storage or Amazon S3*
+
+* **[Asset Compute metadata worker (Tutorial)](./asset-compute/advanced/metadata.md)**
+    *Learn how to write asset metadata back to AEM from an Asset Compute workers*
+
 * **[Asset Compute microservices extensibility (Tutorial)](./asset-compute/overview.md)**
     *Learn how to develop  Asset Compute workers to generate custom asset renditions*
 
@@ -21,12 +27,6 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 * **[Debugging AEM as a Cloud Service (Tutorial)](./debugging/cloud-service/overview.md)**
     *Explore how to debug AEM as a Cloud Service*
-
-* **[Debugging AEM SDK (Tutorial)](./debugging/aem-sdk-local-quickstart/overview.md)**
-    *Explore the various tools used to debug your application on the AEM as a Cloud Service SDK's local quickstart*
-
-* **[Local Development Environment Set Up (Tutorial)](./local-development-environment/overview.md)**
-    *Learn how to set up your local development machine for AEM as a Cloud Service development*
 
 ## Staff Picks
 
