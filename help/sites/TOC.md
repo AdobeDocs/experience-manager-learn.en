@@ -91,6 +91,7 @@ sub-product: sites
     + [Debugging a Launch implementation](integrations/experience-platform-launch/debug-launch-implementation.md)
   + Adobe Client Data Layer {#adobe-client-data-layer}
     + [Using the Adobe Client Data Layer](integrations/adobe-client-data-layer/data-layer-overview.md)
+    + [Customize the Adobe Client Data Layer](integrations/adobe-client-data-layer/data-layer-customize.md)
   + Analytics {#analytics}
     + [Collect page data with Adobe Analytics](integrations/analytics/collect-data-analytics.md)
     + [Track clicked component with Adobe Analytics](integrations/analytics/track-clicked-component.md)

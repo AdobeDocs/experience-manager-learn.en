@@ -168,6 +168,8 @@ It is a best practice to trigger any custom code based on an event from the data
 
 Check out the following tutorial to learn how to use the event-driven Adobe Client Data layer to [collect page data and send to Adobe Analytics](../analytics/collect-data-analytics.md).
 
+Or learn how to [Customize the Adobe Client Data Layer with AEM Components](./data-layer-customize.md)
+
 
 ## Additional Resources {#additional-resources}
 

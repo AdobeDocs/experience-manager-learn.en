@@ -12,17 +12,11 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
 
 ## What's New
 
-* **[Getting Started with AEM SPA Editor and React](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html) (Tutorial)**
-  *A getting started guide for developers to integrate a single page applications (SPA) with AEM using React*
+* **[Customize the Adobe Client Data Layer with AEM Components](./integrations/adobe-client-data-layer/data-layer-customize.md)**
+  *Learn how to update the Adobe Client Data Layer with content from custom AEM Components.*
 
-* **[Getting Started with AEM SPA Editor and Angular](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-angular-tutorial/overview.html) (Tutorial)**
-  *A getting started guide for developers to integrate a single page applications (SPA) with AEM using Angular*
-
-* **[Getting Started with AEM Headless (Tutorial)](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html)**
-    *How to expose content from AEM to be consumed by a native mobile app, in a headless CMS scenario.*
-
-* **[Using Experience Fragments (Video Series)](./experience-fragments/experience-fragments-feature-video-use.md)**
-    *Learn about AEM Experience Fragments for promoting content cross-channels.*
+* **[Getting Started with AEM Headless GraphQL (Tutorial)](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html)**
+    *How to expose content from AEM to be consumed by a native mobile app using AEM's GraphQL APIs.*
 
 * **[Using Content Fragments (Video Series)](./content-fragments/content-fragments-feature-video-use.md)**
     *Content Fragments are channel agnostic pieces of content able to be re-used.*
