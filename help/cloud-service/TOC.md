@@ -44,6 +44,7 @@ team: TM
     + [Configuring access to AEM walk-through](./accessing/walk-through.md)
 + Migration {#migration}
     + [Content Transfer Tool](./migration/content-transfer-tool.md)
+    + [Bulk Import of assets](./migration/bulk-import.md)
 + Asset Compute Extensibility{#asset-compute}
     + [Overview](./asset-compute/overview.md)
     + Set up{#set-up}
