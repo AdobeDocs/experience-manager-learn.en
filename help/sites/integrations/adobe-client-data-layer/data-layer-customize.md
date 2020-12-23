@@ -105,6 +105,8 @@ To inject data about the component in the data layer we must first update the co
 1. Add the following import statements to the beginning of the file:
 
     ```java
+    import java.util.HashMap;
+    import java.util.Map;
     import org.apache.sling.api.resource.Resource;
     import com.fasterxml.jackson.core.JsonProcessingException;
     import com.fasterxml.jackson.databind.ObjectMapper;
@@ -157,17 +159,6 @@ To inject data about the component in the data layer we must first update the co
 
     The `ObjectMapper` is used to serialize the properties and return a JSON string. This JSON string can then be injected into the data layer.
 
-1. Open the file `package-info.java` at `core/src/main/java/com/adobe/aem/guides/wknd/core/models/package-info.java` and update the version from `1.0` to `2.0`:
-
-    ```java
-    @Version("2.0")
-    package com.adobe.aem.guides.wknd.core.models;
-
-    import org.osgi.annotation.versioning.Version;
-    ```
-
-    Since the interface `Byline.java` has changed, the Java package version must be updated.
-
 1. Open a terminal window. Build and deploy just the `core` module using your Maven skills:
 
     ```shell
@@ -188,13 +179,11 @@ A special data attribute `data-cmp-data-layer` on each AEM Component is used to 
 
 1. Update `byline.html` to include the `data-cmp-data-layer` attribute:
 
-    ```html
-     <div data-sly-use.byline="com.adobe.aem.guides.wknd.core.models.Byline"
+    ```diff
+      <div data-sly-use.byline="com.adobe.aem.guides.wknd.core.models.Byline"
         data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
         data-sly-test.hasContent="${!byline.empty}"
-        <!--/* Add the data-cmp-data-layer */-->
-        data-cmp-data-layer="${byline.data}"
-
+    +   data-cmp-data-layer="${byline.data}"
         class="cmp-byline">
         ...
     ```
@@ -250,8 +239,11 @@ Clickable elements are usually a CTA button or a navigation link. Unfortunately 
 
 1. Update `byline.html` to include the `data-cmp-clickable` attribute on the Byline's **name** element:
 
-    ```html
-    <h2 class="cmp-byline__name" data-cmp-clickable>${byline.name}</h2>
+    ```diff
+      <h2 class="cmp-byline__name" 
+    +    data-cmp-clickable="${byline.data ? true : false}">
+         ${byline.name}
+      </h2>
     ```
 
 1. Open a new terminal. Build and deploy just the `ui.apps` module using your Maven skills:
@@ -283,7 +275,7 @@ Clickable elements are usually a CTA button or a navigation link. Unfortunately 
 
     ```javascript
     window.adobeDataLayer.push(function (dl) {
-         dl.addEventListener("cmp:show", bylineClickHandler);
+         dl.addEventListener("cmp:click", bylineClickHandler);
     });
     ```
 
@@ -413,6 +405,13 @@ A utility class, `DataLayerBuilder`, exists to perform most of the heavy lifting
     ```
 
     Observe that there is now an `image` object within the `byline` component entry. This has a lot more information about the asset in the DAM. Also observe that the `@type` and the unique id (in this case `byline-136073cfcb`) have been automatically populated, as well as the `repo:modifyDate` which indcates when the component was modified.
+
+## Additional Examples {#additional-examples}
+
+1. Another example of extending the data layer can be viewed by inspecting the `ImageList` component in the WKND code base:
+    * `ImageList.java` - Java interface in the `core` module.
+    * `ImageListImpl.java` - Sling Model in the `core` module.
+    * `image-list.html` - HTL template in the `ui.apps` module.
 
     >[!NOTE]
     >
