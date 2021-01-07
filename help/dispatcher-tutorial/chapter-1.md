@@ -594,7 +594,7 @@ Again, this is based on real-life experience. We have seen all those patterns in
 >
 >This is an anti-pattern. Do not use it. Ever.
 
-Have you ever seen query parameters like `?ck=398547283745`? They are called  cache-killer ("ck"). The idea is, that if you add any query parameter the resource will not be acched. Moreover, if you add a random number as the parameter's value (like "398547283745") the URL becomes unique and you make sure, that no other cache between the AEM system and your screen is able to cache either. Usual in-between suspects would be a "Varnish" cache in front of the Dispatcher, a CDN or even the browser cache. Again: Don't do that. You do want your resources to be cached as much and as long as possible. The cache is your friend. Don't kill friends.
+Have you ever seen query parameters like `?ck=398547283745`? They are called  cache-killer ("ck"). The idea is, that if you add any query parameter the resource will not be cached. Moreover, if you add a random number as the parameter's value (like "398547283745") the URL becomes unique and you make sure, that no other cache between the AEM system and your screen is able to cache either. Usual in-between suspects would be a "Varnish" cache in front of the Dispatcher, a CDN or even the browser cache. Again: Don't do that. You do want your resources to be cached as much and as long as possible. The cache is your friend. Don't kill friends.
 
 #### Auto Invalidation
 
