@@ -125,7 +125,7 @@ The Adobe I/O Cloud Manager plugin allows the aio CLI to interact with Adobe Clo
 
 The Adobe I/O Cloud Manager plugin allows the aio CLI to generate and run Asset Compute workers via the `aio asset-compute` command.
 
-1. Execute `aio plugins:install @adobe/aio-cli-plugin-cloudmanager` to install the [aio Asset Compute plug-in](https://github.com/adobe/aio-cli-plugin-asset-compute).
+1. Execute `aio plugins:install @adobe/aio-cli-plugin-asset-compute` to install the [aio Asset Compute plug-in](https://github.com/adobe/aio-cli-plugin-asset-compute).
 
 ### Set up the Adobe I/O CLI authentication
 
