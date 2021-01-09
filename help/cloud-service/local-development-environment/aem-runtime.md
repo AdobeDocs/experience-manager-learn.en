@@ -105,6 +105,39 @@ macOS / Linux:
   $ java -jar aem-publish-p4503.jar
   ```
 
+## Simulate Content Distribution {#content-distribution}
+
+In a true Cloud Service environment content is distributed from the Author Service to the Publish Service using [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) and the Adobe Pipeline. The [Adobe Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/core-concepts/architecture.html?lang=en#content-distribution) is an isolated microservice available only in the cloud environment.
+
+During development, it may be desirable to simulate the distribution of content using the local Author and Publish service. This can be achieved by enabling the legacy Replication agents.
+
+>[!NOTE]
+>
+> Replication agents are only available to use in the local Quickstart JAR and provide only a simulation of content distribution.
+
+1. Login to the **Author** service and navigate to [http://localhost:4502/etc/replication/agents.author.html](http://localhost:4502/etc/replication/agents.author.html).
+1. Click **Default Agent (publish)** to open the default Replication agent.
+1. Click **Edit** to open the agent's configuration.
+1. Under the **Settings** tab, update the following fields:
+
+    + **Enabled** - check true
+    + **Agent User Id** - Leave this field empty
+
+    ![Replication Agent Configuration - Settings](assets/aem-runtime/settings-config.png)
+
+1. Under the **Transport** tab, update the following fields:
+
+    + **URI** - `http://localhost:4503/bin/receive?sling:authRequestLogin=1`
+    + **User** - `admin`
+    + **Password** - `admin`
+
+    ![Replication Agent Configuration - Transport](assets/aem-runtime/transport-config.png)
+
+1. Click **Ok** to save the configuration and enable the **Default** Replication Agent.
+1. You can now make changes to content on the Author service and publish them to the Publish service.
+
+  ![Publish Page](assets/aem-runtime/publish-page-changes.png)
+
 ## Quickstart Jar start-up modes
 
 The naming of the Quickstart Jar, `aem-<tier>_<environment>-p<port number>.jar` specifies how it will start up. Once AEM as started in a specific tier, author or publish, it cannot be changed to the alternate tier. To do this, the `crx-Quickstart` folder generated during the first run must be deleted, and Quickstart Jar must be run again. Environment and Ports can be changed, however they require stop/start of the local AEM instance.
