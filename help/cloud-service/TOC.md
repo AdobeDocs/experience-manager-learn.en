@@ -16,6 +16,12 @@ team: TM
   + [Introduction to Sling](./underlying-technology/introduction-sling.md)
   + [Introduction to Author and Publish Tier](./underlying-technology/introduction-author-publish.md)
   + [Introduction to Dispatcher](./underlying-technology/introduction-dispatcher.md)
++ Cloud Manager {#cloud-manager}
+  + [Programs](./cloud-manager/programs.md)
+  + [Environments](./cloud-manager/environments.md)
+  + [CI/CD Production Pipeline](./cloud-manager/cicd-production-pipeline.md)
+  + [CI/CD Non-Production Pipeline](./cloud-manager/cicd-non-production-pipeline.md)
+  + [Activity](./cloud-manager/activity.md)
 + Local Development Environment Set up {#local-development-environment-set-up}
   + [Overview](./local-development-environment/overview.md)
   + [Development Tools](./local-development-environment/development-tools.md)
