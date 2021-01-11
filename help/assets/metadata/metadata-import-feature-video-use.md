@@ -1,14 +1,11 @@
 ---
 title: Using Metadata Import and Export in AEM Assets
-seo-title: Using Metadata Import and Export in AEM Assets
 description: AEM Assets metadata import and export capabilities allow content authors to easily move asset metadata in and out of AEM and leverage the power of Microsoft Excel to manipulate metadata at scale, facilitating the bulk update metadata for existing assets in AEM.
-seo-description: AEM Assets metadata import and export capabilities allow content authors to easily move asset metadata in and out of AEM and leverage the power of Microsoft Excel to manipulate metadata at scale, facilitating the bulk update metadata for existing assets in AEM.
-uuid: db7e57a4-b0c1-4a48-906d-802c19964313
-discoiquuid: 72dd9230-73e1-454e-a3e0-9281e621d901
 topics: metadata 
 audience: all
 doc-type: feature video
 activity: use
+kt: 647
 version: 6.3, 6.4, 6.5
 ---
 
@@ -49,7 +46,7 @@ Download [Asset metadata package](assets/we-retail-sports-asset-metadata.zip)
 
 * Property Name is case sensitive
     * Correct : `dc:title {{String}}`
-    * Incorrect: `Dc:Ttle {{String}}`
+    * Incorrect: `Dc:Title {{String}}`
 
 * Property Type is case insensitive
 * All valid [JCR Property types](https://docs.adobe.com/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/PropertyType.html) are supported  
