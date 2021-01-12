@@ -28,6 +28,15 @@ The following is an index of common issues and errors, along with the resolution
 
 ## Development Tool{#development-tool}
 
+### Console.json file missing from Asset Compute project{#missing-console-json}
+
++ __Error:__ Error: Missing required files at validate (.../node_modules/@adobe/asset-compute-client/lib/integrationConfiguration.js:XX:YY) at async setupAssetCompute (.../node_modules/@adobe/asset-compute-devtool/src/assetComputeDevTool.js:XX:YY)
++ __Cause:__ The `console.json` file is missing from the root of the Asset Compute project
++ __Resolution:__ Download a new `console.json` form your Adobe I/O project
+  1. In console.adobe.io, open the Adobe I/O project the Asset Compute project is configured to use
+  1. Tap the __Download__ button in the top right
+  1. Save the downloaded file to the root of your Asset Compute project using the filename `console.json`
+
 ### Incorrect YAML indentation in manifest.yml{#incorrect-yaml-indentation}
 
 + __Error:__ YAMLException: bad indentation of a mapping entry at line X, column Y:(via standard out from `aio app run` command)
@@ -88,7 +97,6 @@ Asset Compute Development Tool may enter a state where it pulls stale data, and 
     + Or, validate the test-generated file at `/build/test-worker/<worker-name>/<test-run-timestamp>/<test-case>/rendition.<extension>`, validate it is correct, and use tht as the expected rendition file
 
 ## Debug
-
 
 ### Debugger does not attach{#debugger-does-not-attach}
 
