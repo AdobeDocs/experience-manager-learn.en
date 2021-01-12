@@ -21,7 +21,6 @@ Asset Compute projects are Node.js projects, generated using the Adobe I/O CLI, 
 
 _Click-through of generating an Asset Compute project (No audio)_
 
-
 Use the [Adobe I/O CLI Asset Compute plugin](../set-up/development-environment.md#aio-cli) to generate a new, empty Asset Compute project.
 
 1. From the command line navigate to the folder to contain the project.
@@ -52,6 +51,20 @@ $ aio app use
 ```
 
 Verify the current workspace details are correct, press `Y` or enter to generate a `console.json`. If `.env` and `.aio` are detected as already existing, tap `x` to skip their creation.
+
+If creating new, or overwriting `.env` re-add any missing keys/values to the new `.env`:
+
+```
+## please provide the following environment variables for the Asset Compute devtool. You can use AWS or Azure, not both:
+#ASSET_COMPUTE_PRIVATE_KEY_FILE_PATH=
+#S3_BUCKET=
+#AWS_ACCESS_KEY_ID=
+#AWS_SECRET_ACCESS_KEY=
+#AWS_REGION=
+#AZURE_STORAGE_ACCOUNT=
+#AZURE_STORAGE_KEY=
+#AZURE_STORAGE_CONTAINER_NAME=
+```
 
 ## Review the anatomy of the project
 
