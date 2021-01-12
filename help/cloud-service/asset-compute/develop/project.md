@@ -51,7 +51,7 @@ From the root of the newly created Asset Compute project, run the following comm
 $ aio app use
 ```
 
-Verify the current workspace details are correct, and pretty `Y` or enter to generate a `console.json`. If `.env` and `.aio` are detected as already existing, tap `x` to skip their creation.
+Verify the current workspace details are correct, press `Y` or enter to generate a `console.json`. If `.env` and `.aio` are detected as already existing, tap `x` to skip their creation.
 
 ## Review the anatomy of the project
 
