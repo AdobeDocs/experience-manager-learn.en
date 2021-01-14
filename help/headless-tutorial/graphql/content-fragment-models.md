@@ -16,8 +16,8 @@ thumbnail: 22452.jpg
 
 >[!CAUTION]
 >
-> The AEM GraphQL API for Content Fragment Delivery will be released in early 2021.
-> The related documentation is available for preview purposes.
+> The AEM GraphQL API for Content Fragments Delivery is available on request.
+> Please reach out to Adobe Support to enable the API for your AEM as a Cloud Service program.
 
 In this chapter learn how to model content and build a schema with **Content Fragment Models**. You will review existing models and create a new model. You will also learn about the different data types that can be used to define a schema as part of the model.
 

@@ -11,8 +11,8 @@ Adobe Experience Manager has multiple options for defining headless endpoints an
 
 >[!CAUTION]
 >
-> The AEM GraphQL API for Content Fragment Delivery will be released in early 2021.
-> The related documentation is available for preview purposes.
+> The AEM GraphQL API for Content Fragments Delivery is available on request.
+> Please reach out to Adobe Support to enable the API for your AEM as a Cloud Service program.
 
 AEM's GraphQL APIs for Content Fragments
 supports headless CMS scenarios where external client applications render experiences using content managed in AEM.
