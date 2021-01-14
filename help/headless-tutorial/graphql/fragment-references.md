@@ -16,8 +16,8 @@ thumbnail: KT-6718.jpg
 
 >[!CAUTION]
 >
-> The AEM GraphQL API for Content Fragment Delivery will be released in early 2021.
-> The related documentation is available for preview purposes.
+> The AEM GraphQL API for Content Fragments Delivery is available on request.
+> Please reach out to Adobe Support to enable the API for your AEM as a Cloud Service program.
 
 It is possible to reference a Content Fragment from within another Content Fragments. This enables a user to build complex data models with relationships between Fragments.
 
