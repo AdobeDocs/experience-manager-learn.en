@@ -240,8 +240,8 @@ The React code for the Custom Component has already been created. Next, make a f
 
     ```js
     return (
-            <div class="CustomComponent">
-                <h2 class="CustomComponent__message">{this.props.message}</h2>
+            <div className="CustomComponent">
+                <h2 className="CustomComponent__message">{this.props.message}</h2>
             </div>
         );
     ```
