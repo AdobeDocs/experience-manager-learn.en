@@ -44,7 +44,7 @@ Often it it useful to "tail" the `error.log` which streams its output to the ter
 
 Dispatcher logs are output to stdout when `bin/docker_run` is invoked, however logs can be directly access with in the Docker contain.
 
-### Accessing logs in the Docker container
+### Accessing logs in the Docker container{#dispatcher-tools-access-logs}
 
 Dispatcher logs can be directly accessing in the Docker container at `/etc/httpd/logs`.
 
@@ -66,7 +66,10 @@ $ docker exec -it <CONTAINER ID> /bin/sh
 /# exit
 ```
 
-### Copying the Docker logs to the local filesystem
+_The `<CONTAINER ID>` in `docker exec -it <CONTAINER ID> /bin/sh` must be replaced with the target Docker CONTAINER ID listed from the `docker ps` command._
+
+
+### Copying the Docker logs to the local filesystem{#dispatcher-tools-copy-logs}
 
 Dispatcher logs can be copied out of the Docker container at `/etc/httpd/logs` to the local file system for inspection using your favorite log analysis tool. Note that this is a point-in-time copy, and does not provide real time updates to the logs.
 
@@ -83,3 +86,4 @@ $ ls
     dispatcher.log          healthcheck_access_log  httpd_access.log        httpd_error.log
 ```
 
+_The `<CONTAINER_ID>` in `docker cp <CONTAINER_ID>:/var/log/apache2 ./` must be replaced with the target Docker CONTAINER ID listed from the `docker ps` command._
