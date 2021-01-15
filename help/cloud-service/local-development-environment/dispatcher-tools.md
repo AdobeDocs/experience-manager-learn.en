@@ -89,7 +89,7 @@ Optionally, the Dispatcher and Apache Web server configurations (via `httpd -t`)
 
 + Usage:
   + Windows: `bin\validate src`
-  + macOS / Linux: `./bin/validate ./src`
+  + macOS / Linux: `./bin/validate.sh ./src`
 
 ## Run Dispatcher locally
 
@@ -178,6 +178,13 @@ One or many parameters, can be passed to `docker_run`
 >[!VIDEO](https://video.tv.adobe.com/v/30604/?quality=12&learn=on)
 
 *This video uses macOS for illustrative purposes. The equivalent Windows/Linux commands can be used to achieve similar results*
+
+### Log file access
+
+Apache web server and AEM Dispatcher logs can be directly accessed in the Docker container:
+
++ [Accessing logs in the Docker container](../debugging/aem-sdk-local-quickstart/logs.md#dispatcher-tools-access-logs)
++ [Copying the Docker logs to the local filesystem](../debugging/aem-sdk-local-quickstart/logs.md#dispatcher-tools-copy-logs)
 
 ## When to update Dispatcher Tools{#dispatcher-tools-version}
 
