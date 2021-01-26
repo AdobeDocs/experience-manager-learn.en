@@ -55,6 +55,7 @@ team: TM
 
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
+  + [Publish Assets](./sharing/publish.md)
   + [Brand Portal](./sharing/brand-portal.md)
   + Asset Share{#assets-share}
     + [Asset Share Commons](./sharing/asset-share-commons-user-experience-feature-video-understand.md)

@@ -10,6 +10,10 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 
 ## What's New
 
+
+* **[Publish Assets (Video)](./sharing/publish.md)**
+    *Learn the ins and outs of publishing assets from AEM Author to AEM Publish*
+
 * **[Watermarks (Video)](./advanced/watermarks.md)**
     *Learn how how to watermark asset renditions in AEM as a Cloud Service*
 
@@ -21,9 +25,6 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 
 * **[Processing profiles (Video)](./configuring/processing-profiles.md)** 
     *Explore how to invoke Assets microservices to rendition assets*
-
-* **[Using Assets Collections (Video)](./search-and-discovery/collections.md)** 
-    *Explore how Collections in AEM Assets provide new ways to organize and discover assets*
 
 ## Staff Picks
 
