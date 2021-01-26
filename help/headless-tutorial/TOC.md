@@ -34,3 +34,7 @@ index: y
   + [4 - Explore GraphQL APIs](./graphql/explore-graphql-api.md)
   + [5 - Query from an external app](./graphql/graphql-and-external-app.md)
   + [6 - Advanced data modeling with Fragment References](./graphql/fragment-references.md)
++ Token-based authentication {#authentication}
+  + [Overview](./authentication/overview.md)
+  + [1 - Local Development Access Token](./authentication/local-development-access-token.md)
+  + [2 - Service Credentials](./authentication/service-credentials.md)
