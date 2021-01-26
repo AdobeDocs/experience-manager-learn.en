@@ -66,7 +66,7 @@ A common requirement will be to query for multiple Content Fragments.
 
     `fullName` and `occupation` are simple properties. Recall from the [Defining Content Fragment Models](./content-fragment-models.md) chapter that `fullName` and `occupation` are the values used when defining the **Property Name** of the respective fields.
 
-1. `pictureReference` and `biography` represent more complex fields. Update the query with the following to return data about the `pictureReference` and `biography` fields.
+1. `pictureReference` and `biographyText` represent more complex fields. Update the query with the following to return data about the `pictureReference` and `biographyText` fields.
 
     ```graphql
     {
@@ -75,7 +75,7 @@ A common requirement will be to query for multiple Content Fragments.
           _path
           fullName
           occupation
-          biography {
+          biographyText {
             html
           }
           pictureReference {
@@ -90,7 +90,7 @@ A common requirement will be to query for multiple Content Fragments.
     }
     ```
 
-    `biography` is a multi-line text field and the GraphQL API allows us to choose a variety of formats for the results like `html`, `markdown`, `json` or `plaintext`.
+    `biographyText` is a multi-line text field and the GraphQL API allows us to choose a variety of formats for the results like `html`, `markdown`, `json` or `plaintext`.
 
     `pictureReference` is a content reference and it is expected to be an image, therefore built-in `ImageRef` object is used. This allows us to request additional data about the image being reference, like the `width` and `height`.
 
