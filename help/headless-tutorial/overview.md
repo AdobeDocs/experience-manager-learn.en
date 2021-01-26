@@ -24,7 +24,13 @@ A modern content delivery API is key for efficiency and performance of Javascrip
 
 To overcome these challenges GraphQL provides a query-based API allowing clients to query AEM for only the content it needs, and to receive using a single API call.
 
-* Learn how to use AEM's GraphQL APIs take the [Getting Started with AEM GraphQL APIs tutorial](./graphql/overview.md)
+* Learn how to use AEM's GraphQL APIs in the [Getting Started with AEM GraphQL APIs tutorial](./graphql/overview.md)
+
+## Token-based authentication tutorial
+
+AEM exposes a variety of HTTP endpoints that can be interacted with in a headless manner, from GraphQL, AEM Content Services to Assets HTTP API. Often, these headless consumers may need to authenticate to AEM in order to access protected content or actions. To facilitate this, AEM supports token-based authentication of HTTP requests from external applications, services or systems. 
+
+* Learn how to authenticate to AEM over HTTP using access tokens in the [Authenticating to AEM as a Cloud Service from an external application tutorial](./authentication/overview.md)
 
 ## AEM Content Services tutorial
 
@@ -32,7 +38,7 @@ AEM's Content Services leverages traditional AEM Pages to compose headless REST 
 
 AEM Content Services allows for the same content abstractions used for authoring web pages in AEM Sites, to define the content and schemas of these HTTP APIs. The use of AEM Pages and AEM Components empowers marketers to quickly compose and update flexible JSON APIs that can power any application.
 
-* Learn how to use AEM's Content Services take the [Getting Started with AEM Content Services tutorial](./content-services/overview.md)
+* Learn how to use AEM's Content Services in the [Getting Started with AEM Content Services tutorial](./content-services/overview.md)
 
 ## AEM GraphQL vs. AEM Content Services
 
