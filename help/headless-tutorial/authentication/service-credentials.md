@@ -19,9 +19,11 @@ Integrations with AEM as a Cloud Service must be able to securely authenticate t
 
 Service Credentials may appear similar [Local Development Access Tokens](./local-development-access-token.md) but are different in a few key ways:
 
-+ Service Credentials are _not_ access tokens, rather they are credentials that are used to obtain access tokens.
-+ Service Credentials are permanent, and do not change unless revoked, whereas Local Development Access Tokens expire daily.
-+ Service Credentials for an AEM as a Cloud Service environment map to a single AEM user, whereas Local Development Access Tokens authenticate as the AEM user who generated the access token.
++ Service Credentials are _not_ access tokens, rather they are credentials that are used to _obtain_ access tokens.
++ Service Credentials are more permanent (expire every 365 days), and do not change unless revoked, whereas Local Development Access Tokens expire daily.
++ Service Credentials for an AEM as a Cloud Service environment map to a single AEM technical account user, whereas Local Development Access Tokens authenticate as the AEM user who generated the access token.
+
+Both Service Credentials and the access tokens they generate, as well as Local Development Access Tokens should be kept secret, as all three can be used to obtain access to their respective AEM as a Cloud Service environments
 
 ## Generate Service Credentials
 
@@ -32,7 +34,7 @@ Service Credentials generation is broken into two steps:
 
 ### Service Credentials initialization
 
-Service Credentials, unlike Local Development Access Tokens, require a one-time initialization by your Adobe Org IMS Administrator before they can be downloaded. 
+Service Credentials, unlike Local Development Access Tokens, require a _one-time initialization_ by your Adobe Org IMS Administrator before they can be downloaded. 
 
 ![Initialize Service Credentials](assets/service-credentials/initialize-service-credentials.png)
 
@@ -48,7 +50,7 @@ __This is a one-time initialization per AEM as a Cloud Service environment__
 
 ![AEM Developer Console - Integrations - Get Service Credentials](./assets/service-credentials/developer-console.png)
 
-Once the AEM as Cloud Service environment's Service Credentials have been initialized, other users can download them.
+Once the AEM as Cloud Service environment's Service Credentials have been initialized, other AEM developers in your Adobe IMS Org can download them.
 
 ### Download Service Credentials
 
@@ -64,7 +66,7 @@ Downloading the Service Credentials follows the same steps as the initialization
 1. Tap in the __Integrations__ tab
 1. Tap __Get Service Credentials__ button
 1. Tap on the download button in the top left corner to download the JSON file containing the Service Credentials value, and save the file to a safe location.
-   + _If these Service Credentials are compromised, immediately contact Adobe Support to have have them revoked_
+   + _If Service Credentials are compromised, immediately contact Adobe Support to have have them revoked_
 
 ## Install the Service Credentials
 
@@ -130,7 +132,7 @@ This example application is Node.js-based, so it's best to use [@adobe/jwt-auth]
 
 1. Update the `getAccessToken(..)` to inspect the JSON file contents and determine if it represents a Local Development Access Token or Service Credentials. This can be easily achieved by checking for the existence of the `.accessToken` property, which only exists for Local Development Access Token JSON.
 
-If Service Credentials are provided, the application generates a JWT and exchanges it with Adobe IMS for an access token. We'll use the [@adobe/jwt-auth](https://www.npmjs.com/package/@adobe/jwt-auth)'s `auth(...)` function which both generates a JWT and exchanges it for an access token in a single function call.  The parameters to `auth(..)` is a [JSON object comprised of specific information](https://www.npmjs.com/package/@adobe/jwt-auth#config-object) available from the Service Credentials JSON, as described below in code.
+    If Service Credentials are provided, the application generates a JWT and exchanges it with Adobe IMS for an access token. We'll use the [@adobe/jwt-auth](https://www.npmjs.com/package/@adobe/jwt-auth)'s `auth(...)` function which both generates a JWT and exchanges it for an access token in a single function call.  The parameters to `auth(..)` is a [JSON object comprised of specific information](https://www.npmjs.com/package/@adobe/jwt-auth#config-object) available from the Service Credentials JSON, as described below in code.
 
    ```javascript
    
@@ -162,7 +164,7 @@ If Service Credentials are provided, the application generates a JWT and exchang
 
     Now, depending on which JSON file - either the Local Development Access Token JSON or the Service Credentials JSON - is passed in via tha `file` command line parameter, the application will derive an access token.
 
-    Remember, that while the Service Credentials do not expire, the JWT and corresponding access token do, and need to be refreshed 12 hours from issuing. This can be done by using a `refresh_token` [provided by Adobe IMS](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/OAuth/OAuth.md#access-tokens).
+    Remember, that while the Service Credentials do not expire, the JWT and corresponding access token do, and need to be refreshed before they expire. This can be done by using a `refresh_token` [provided by Adobe IMS](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/OAuth/OAuth.md#access-tokens).
 
 1. With these changes in place, and the Service Credentials JSON downloaded from the AEM Developer Console (and for simplicity, saved as `service_token.json` the same folder as this `index.js`), execute the application replacing the command line parameter `file` with `service_token.json`, and update the `propertyValue` to a new value so the effects are apparent in AEM.
 
@@ -235,11 +237,6 @@ The output to the terminal will look like:
 1. Review the value of the updated property, for example __Copyright__ which is mapped to the updated `metadata/dc:rights` JCR property, which now reflects the value provided in the `propertyValue` parameter, for example __WKND Restricted Use__
 
 ![WKND Restricted Use Metadata Update](./assets/service-credentials/asset-metadata.png)
-
-## Revoking Service Credentials
-
-
-
 
 ## Congratulations!
 
