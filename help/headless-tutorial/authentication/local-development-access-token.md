@@ -21,7 +21,7 @@ Developers building integrations that require programmatic access to AEM as a Cl
 
 ![Getting a Local Development Access Token](assets/local-development-access-token/getting-a-local-development-access-token.png)
 
-The Local Development Access Token provides access to AEM Author and Publish services as the user who generated the token, along with their permissions. Despite this being a development token, do not share this token. 
+The Local Development Access Token provides access to AEM Author and Publish services as the user who generated the token, along with their permissions. Despite this being a development token, do not share this token, or store in source control.
 
 1. In [Adobe AdminConsole](https://adminconsole.adobe.com/) ensure you, the developer, are a member of:
     + __Cloud Manager - Developer__ IMS Product Profile (grants access to AEM Developer Console)
@@ -37,7 +37,7 @@ The Local Development Access Token provides access to AEM Author and Publish ser
 
 ![AEM Developer Console - Integrations - Get Local Development Token](./assets/local-development-access-token/developer-console.png)
 
-## Download the Local Development Access Token{#download-local-development-access-token}
+## Used the Local Development Access Token{#use-local-development-access-token}
 
 ![Local Development Access Token - External Application](assets/local-development-access-token/local-development-access-token-external-application.png)
 
@@ -48,11 +48,11 @@ The Local Development Access Token provides access to AEM Author and Publish ser
 1. The External Application constructs HTTP requests to AEM as a Cloud Service, adding the Local Development Access Token as a Bearer token to the HTTP requests' Authorization header
 1. AEM as a Cloud Service receives the HTTP request, authenticates the request, and performs the work requested by the HTTP request, and returns an HTTP response back to the External Application
 
-### The External Application
+### The Sample External Application
 
 We'll create a simple external JavaScript application to illustrate how to programmatically access AEM as a Cloud Service over HTTPS using the local developer access token. This illustrates how _any_ application or system running outside of AEM, regardless of framework or language, can use the access token to programmatically authenticate to, and access, AEM as a Cloud Service. In the [next section](./service-credentials.md) we'll update this application code to support the approach for generating a token for production use.
 
-This application is run from the command line, and updates AEM asset metadata using AEM Assets HTTP APIs, using the following flow:
+This sample application is run from the command line, and updates AEM asset metadata using AEM Assets HTTP APIs, using the following flow:
 
 1. Reads in parameters from the command line (`getCommandLineParams()`)
 1. Obtains the access token used to authenticate to AEM as a Cloud Service (`getAccessToken(...)`)
@@ -201,11 +201,11 @@ The key element in programmatically authenticating to AEM using the access token
     }
     ```
 
-    Review the `fetch(..)` invocations in the `listAssetsByFolder(...)` and `updateMetadata(...)`, and notice `headers` define the `Authorization` HTTP request header with a value of `Bearer <ACCESS TOKEN>`. This is how the HTTP request originating from the external application authenticates to AEM as a Cloud Service.
+    Review the `fetch(..)` invocations in the `listAssetsByFolder(...)` and `updateMetadata(...)`, and notice `headers` define the `Authorization` HTTP request header with a value of `Bearer ACCESS_TOKEN`. This is how the HTTP request originating from the external application authenticates to AEM as a Cloud Service.
 
     ```javascript
     ...
-    return fetch(`${params.aem}${ASSETS_HTTP_API}${folder}.json?configid=ims`, {
+    return fetch(`${params.aem}${ASSETS_HTTP_API}${folder}.json`, {
                 method: 'get',
                 headers: { 
                     'Content-Type': 'application/json',
@@ -260,4 +260,6 @@ Verify the metadata has been updated, by logging in to the AEM as a Cloud Servic
 
 ## Next steps
 
-Now that we've programmatically accessed AEM as a Cloud Service using the local development token, we need to update the code to.
+Now that we've programmatically accessed AEM as a Cloud Service using the local development token, we need to update the application to handle using Service Credentials, so this application can be used in a production context.
+
++ [How to use Service Credentials](./service-credentials.md)
