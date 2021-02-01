@@ -1,5 +1,6 @@
 ---
 title: Automated Forms Conversion Service
+description: Automated Forms Conversion Service. This article describes how an AEM administrator can configure Automated Forms Conversion service to automate conversion of their PDF forms to adaptive forms. This help is for IT and AEM administrators at your organization.
 feature: adaptive-forms
 topics: development
 audience: developer

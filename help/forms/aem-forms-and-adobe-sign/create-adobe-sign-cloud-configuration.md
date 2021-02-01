@@ -1,5 +1,6 @@
 ---
 title: Create Adobe Sign Cloud Configuration
+description: Cloud services configuration in AEM allows you to create integration between AEM and other cloud applications. The following video will walk you through the steps needed to create cloud services configuration to integrate AEM with Adobe Sign.
 feature: adaptive-forms
 topics: development
 audience: developer

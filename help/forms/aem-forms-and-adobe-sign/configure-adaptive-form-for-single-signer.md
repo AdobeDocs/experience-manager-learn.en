@@ -1,5 +1,6 @@
 ---
 title: Adaptive Form with single signer
+description: Adaptive Form with single signer. The video explains the various steps needed to configure an adaptive form with single signer.
 feature: adaptive-forms
 topics: development
 audience: developer

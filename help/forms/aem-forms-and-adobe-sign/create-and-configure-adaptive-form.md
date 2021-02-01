@@ -1,5 +1,6 @@
 ---
 title: Create and configure adaptive form
+description: Create and configure adaptive form. The following video highlights the steps needed to create and configure an adaptive form to auto-generate DoR. The video also walks you through the steps needed to configure adaptive form to trigger an AEM workflow.
 feature: adaptive-forms
 topics: development
 audience: developer

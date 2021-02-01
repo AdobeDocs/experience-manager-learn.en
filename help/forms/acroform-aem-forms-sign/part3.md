@@ -1,6 +1,7 @@
 ---
 title: Acroforms with AEM Forms
 seo-title: Merge Adaptive Form data with Acroform
+description: Part 3 of a tutorial integrating Acroforms with AEM Forms. Test the workflow and Adaptive Form on your system.
 feature: adaptive-forms
 topics: development
 audience: developer
