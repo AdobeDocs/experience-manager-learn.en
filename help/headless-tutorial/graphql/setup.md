@@ -14,11 +14,6 @@ thumbnail: KT-6386.jpg
 
 # Quick Setup {#setup}
 
->[!CAUTION]
->
-> The AEM GraphQL API for Content Fragments Delivery is available on request.
-> Please reach out to Adobe Support to enable the API for your AEM as a Cloud Service program.
-
 This chapter offers a quick setup of a local environment to see an external application consume content from AEM using AEM's GraphQL APIs. Later chapters in the tutorial will build off of this setup.
 
 ## Prerequisites {#prerequisites}
@@ -60,10 +55,6 @@ This tutorial uses the [AEM as a Cloud Service SDK](https://experienceleague.ado
 1. Provide an admin password as `admin`. Any admin password is acceptable, however its recommend to use the default for local development to reduce the need to re-configure.
 1. After a few minutes the AEM instance will finish installing and a new browser window should open at [http://localhost:4502](http://localhost:4502). 
 1. Login with the username `admin` and password `admin`.
-
->[!CAUTION]
->
-> To continue the setup, the GraphQL Feature must now be manually enabled on the Quickstart SDK. Reach out to your Adobe contact for further instructions. This manual step is only needed until the feature is released in 2021.
 
 ## Install sample content{#wknd-site}
 

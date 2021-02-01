@@ -14,11 +14,6 @@ thumbnail: KT-6714.jpg
 
 # Explore GraphQL APIs {#explore-graphql-apis}
 
->[!CAUTION]
->
-> The AEM GraphQL API for Content Fragments Delivery is available on request.
-> Please reach out to Adobe Support to enable the API for your AEM as a Cloud Service program.
-
 The GraphQL API of AEM provide a powerful query language to expose data of Content Fragments to downstream applications. Content Fragment models define the data schema that is used by Content Fragments. Whenever a Content Fragment Model is created or updated, the schema is translated and added to the "graph" that makes up the GraphQL API.
 
 In this chapter, we will explore some common GraphQL queries to gather content. Built into AEM is an IDE called [GraphiQL](https://github.com/graphql/graphiql). The GraphiQL IDE allows you to quickly test and refine the queries and data returned. GraphiQL also provides easy access to the documentation, making it easy to learn and understand what methods are available.

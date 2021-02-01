@@ -14,11 +14,6 @@ thumbnail: KT-6716.jpg
 
 # Query AEM using GraphQL from an external app
 
->[!CAUTION]
->
-> The AEM GraphQL API for Content Fragments Delivery is available on request.
-> Please reach out to Adobe Support to enable the API for your AEM as a Cloud Service program.
-
 In this chapter, we explore how AEM's GraphQL APIs can be used to drive the experience in an external application.
 
 This tutorial uses a simple React app to query and display Adventure content exposed by AEM's GraphQL APIs. The use of React is largely unimportant, and the consuming external application could be written in any framework for any platform.
