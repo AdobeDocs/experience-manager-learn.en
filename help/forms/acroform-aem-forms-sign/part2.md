@@ -1,6 +1,7 @@
 ---
 title: Acroforms with AEM Forms
 seo-title: Merge Adaptive Form data with Acroform
+description: Part 2 of integrating Acroforms with AEM Forms. Create a schema from an Acroform.
 feature: adaptive-forms
 topics: development
 audience: developer

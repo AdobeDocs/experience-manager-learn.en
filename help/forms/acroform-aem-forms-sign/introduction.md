@@ -1,6 +1,6 @@
 ---
 title: Acroforms with AEM Forms
-seo-title: Merge Adaptive Form data with Acroform
+description: A tutorial that walks through creating an Adaptive Form using Acroform and merging the data to obtain a PDF. The PDF with the merged data can then be sent for signing using Adobe Sign.
 feature: adaptive-forms
 topics: development
 audience: developer

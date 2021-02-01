@@ -1,5 +1,6 @@
 ---
 title: Configure converted Adaptive Form
+description: Configure converted Adaptive Form
 feature: adaptive-forms
 topics: development
 audience: developer
