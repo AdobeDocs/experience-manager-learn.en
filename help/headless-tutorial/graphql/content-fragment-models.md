@@ -14,11 +14,6 @@ thumbnail: 22452.jpg
 
 # Defining Content Fragment Models {#content-fragment-models}
 
->[!CAUTION]
->
-> The AEM GraphQL API for Content Fragments Delivery is available on request.
-> Please reach out to Adobe Support to enable the API for your AEM as a Cloud Service program.
-
 In this chapter learn how to model content and build a schema with **Content Fragment Models**. You will review existing models and create a new model. You will also learn about the different data types that can be used to define a schema as part of the model.
 
 In this chapter you will create a new model for a **Contributor**, which is the data model for those users that author magazine and adventure content as part of the WKND brand.

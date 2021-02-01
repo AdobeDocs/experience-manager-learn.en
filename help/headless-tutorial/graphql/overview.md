@@ -14,11 +14,6 @@ thumbnail: 328618.jpg
 
 # Getting Started with AEM Headless - GraphQL
 
->[!CAUTION]
->
-> The AEM GraphQL API for Content Fragments Delivery is available on request.
-> Please reach out to Adobe Support to enable the API for your AEM as a Cloud Service program.
-
 An end-to-end tutorial illustrating how to build-out and expose content using AEM's GraphQL APIs and consumed by an external app, in a headless CMS scenario.
 
 This tutorial explores how AEM's GraphQL APIs and headless capabilities can be used to power the experiences surfaced in an external app.

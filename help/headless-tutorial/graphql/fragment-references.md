@@ -14,11 +14,6 @@ thumbnail: KT-6718.jpg
 
 # Advanced data modeling with Fragment References
 
->[!CAUTION]
->
-> The AEM GraphQL API for Content Fragments Delivery is available on request.
-> Please reach out to Adobe Support to enable the API for your AEM as a Cloud Service program.
-
 It is possible to reference a Content Fragment from within another Content Fragments. This enables a user to build complex data models with relationships between Fragments.
 
 In this chapter you will update the Adventure model to include a reference to the Contributor model using the **Fragment Reference** field. You will also learn how to modify a GraphQL query to include fields from a referenced model.
