@@ -9,24 +9,48 @@ team: TM
 # Adobe Experience Manager as a Cloud Service Tutorials {#cloud-service}
 
 + [Overview](./overview.md)
++ Introduction to AEM as a Cloud Service{#introduction}
+  + [What is AEM as a Cloud Service?](./introduction/what-is-aem-as-a-cloud-service.md)
+  + [Evolution](./introduction/evolution.md)
+  + [Architecture](./introduction/architecture.md)
+  + [Cloud Manager](./introduction/cloud-manager.md)
 + Underlying Technology {#underlying-technology}
-  + [Introduction to AEM Architecture](./underlying-technology/introduction-architecture.md)
-  + [Introduction to OSGi](./underlying-technology/introduction-osgi.md)
-  + [Introduction to Java Content Repository](./underlying-technology/introduction-jcr.md)
-  + [Introduction to Sling](./underlying-technology/introduction-sling.md)
-  + [Introduction to Author and Publish Tier](./underlying-technology/introduction-author-publish.md)
-  + [Introduction to Dispatcher](./underlying-technology/introduction-dispatcher.md)
+  + [AEM Architecture](./underlying-technology/introduction-architecture.md)
+  + [OSGi](./underlying-technology/introduction-osgi.md)
+  + [Java Content Repository](./underlying-technology/introduction-jcr.md)
+  + [Sling](./underlying-technology/introduction-sling.md)
+  + [Author and Publish Services](./underlying-technology/introduction-author-publish.md)
+  + [Dispatcher](./underlying-technology/introduction-dispatcher.md)
 + Cloud Manager {#cloud-manager}
   + [Programs](./cloud-manager/programs.md)
   + [Environments](./cloud-manager/environments.md)
   + [CI/CD Production Pipeline](./cloud-manager/cicd-production-pipeline.md)
   + [CI/CD Non-Production Pipeline](./cloud-manager/cicd-non-production-pipeline.md)
   + [Activity](./cloud-manager/activity.md)
+  + Dev Ops{#devops}
+    + [Deploying Code](./cloud-manager/devops/deploy-code.md)
+    + [Merge Projects](./cloud-manager/devops/merge-projects.md)
+    + [Configure Pipelines](./cloud-manager/devops/configure-pipelines.md)
+    + [Continuous Integration](./cloud-manager/devops/continuous-integration.md)
+    + [Analyze Test Results](./cloud-manager/devops/analyze-test-results.md)
+    + [Dispatcher Configurations](./cloud-manager/devops/dispatcher-configurations.md)
+    + [Cloud Manager APIs](./cloud-manager/devops/cloud-manager-apis.md)
 + Local Development Environment Set up {#local-development-environment-set-up}
   + [Overview](./local-development-environment/overview.md)
   + [Development Tools](./local-development-environment/development-tools.md)
   + [Local AEM Runtime](./local-development-environment/aem-runtime.md)
   + [Local Dispatcher Tools](./local-development-environment/dispatcher-tools.md)
++ Developing{#developing}
+  + Development Basics{#basics}
+    + [AEM SDK](./developing/basics/aem-sdk.md)
+    + [Local Development Environment](./developing/basics/local-development-environment.md)
+    + [AEM Project Archetype](./developing/basics/aem-project-archetype.md)
+    + [AEM Project Structure](./developing/basics/project-structure.md)
+    + [Mutable vs. Immutable Content](./developing/basics/mutable-immutable.md)
+    + [Repository Structure Package](./developing/basics/repository-structure-package.md)
+    + [Content Publishing](./developing/basics/content-publishing.md)
+    + [OSGi Configurations](./developing/basics/osgi-configurations.md)
+    + [Dispatcher Configuration Migration](./developing/basics/dispatcher-configuration.md)
 + Debugging AEM{#debugging}
   + Debugging the AEM SDK{#debugging-aem-sdk}
     + [Overview](./debugging/aem-sdk-local-quickstart/overview.md)
