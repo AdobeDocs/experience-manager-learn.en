@@ -8,14 +8,14 @@ feature: APIs
 activity: develop
 audience: developer
 kt: 6785
-thumbnail: 330460.jpg
+thumbnail: 330519.jpg
 ---
 
 # Token-based authentication to AEM as a Cloud Service
 
 In this tutorial well explore how an external application can programmatically authenticate and interact with to AEM as a Cloud Service over HTTP using access tokens. 
 
->[!VIDEO](https://video.tv.adobe.com/v/330460/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330519/?quality=12&learn=on)
 
 ## Pre-requisites
 
