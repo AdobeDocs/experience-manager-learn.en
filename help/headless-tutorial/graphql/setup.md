@@ -43,6 +43,10 @@ This tutorial uses the [AEM as a Cloud Service SDK](https://experienceleague.ado
 
     ![Software Distribution Portal](assets/setup/software-distribution-portal-download.png)
 
+    >[!CAUTION]
+    >
+    > The GraphQL feature is enabled by default only on the AEM SDK from 2021-02-04 or newer.
+
 1. Unzip the download and copy the Quickstart jar (`aem-sdk-quickstart-XXX.jar`) to a dedicated folder, i.e `~/aem-sdk/author`.
 1. Re-name the jar file to `aem-author-p4502.jar`.
 1. Open a new terminal window and navigate to the folder that contains the jar file. Run the following command to install and start the AEM instance:
