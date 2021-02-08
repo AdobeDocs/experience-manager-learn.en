@@ -48,6 +48,8 @@ The following should be installed locally:
 * [Node.js](https://nodejs.org/en/) (LTS - Long Term Support)
 * [npm 6+](https://www.npmjs.com/)
 * [Git](https://git-scm.com/)
+* [Visual Studio Code](https://code.visualstudio.com/) or equivalent IDE
+  * [VSCode AEM Sync](https://marketplace.visualstudio.com/items?itemName=yamato-ltd.vscode-aem-sync) - Tool used throughout tutorial
 
 >[!NOTE]
 >
