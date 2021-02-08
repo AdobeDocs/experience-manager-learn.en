@@ -137,7 +137,7 @@ Client-side libraries have some limitations when it comes to support of language
 
     Each file maps to a Core Component like the [Accordion Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/accordion.html?lang=en#components). Each Core Component is built with [Block Element Modifier](https://getbem.com/) or BEM notation to make it easier to target specific CSS classes with style rules. The files beneath `/components` have been stubbed out by the AEM Project Archetype with the different BEM rules for each component.
 
-1. Download the WKND Base Styles **[wknd-base-styles-src.zip](./assets/client-side-libraries/wknd-base-styles-src.zip)** and **unzip** the file.
+1. Download the WKND Base Styles **[wknd-base-styles-src.zip](./assets/client-side-libraries/wknd-base-styles-srcv2.zip)** and **unzip** the file.
 
     ![WKND Base Styles](assets/client-side-libraries/wknd-base-styles-unzipped.png)
 
@@ -300,6 +300,10 @@ Next, let's review how the clientlibs are referenced in the AEM Page. A common b
     ...
     </body>
     ```
+
+    >[!NOTE]
+    >
+    > If following on 6.5/6.4 the client side libraries will not be automatically minified. See the documentation on the [HTML Library Manager to enable minfication (recommended)](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en#using-preprocessors).
 
     >[!WARNING]
     >

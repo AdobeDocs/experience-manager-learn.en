@@ -87,6 +87,66 @@ Next, create a new template in AEM that matches the structure of the mockups. Th
 
 >[!VIDEO](https://video.tv.adobe.com/v/330991/?quality=12&learn=on)
 
+High level steps for the video below:
+
+### Structure configurations
+
+1. Create a new template using the **Page Template Type**, named **Article Page**.
+1. Switch into **Structure** mode.
+1. Add an **Experience Fragment** component to act as the **Header** at the top of the template.
+    * Configure the component to point to `/content/experience-fragments/wknd/us/en/site/header/master`.
+    * Set the policy to **Page Header** and ensure that the **Default Element** is set to `header`. The `header`element will be targeted with CSS in the next chapter.
+1. Add an **Experience Fragment** component to act as the **Footer** at the bottom of the template.
+    * Configure the component to point to `/content/experience-fragments/wknd/us/en/site/footer/master`.
+    * Set the policy to **Page Footer** and ensure that the **Default Element** is set to `footer`. The `footer` element will be targeted with CSS in the next chapter.
+1. Lock the **main** container that was included when the template was initially created.
+    * Set the policy to **Page Main** and ensure that the **Default Element** is set to `main`. The `main` element will be targeted with CSS in the next chapter.
+1. Add an **Image** component to the **main** container.
+    * Unlock the **Image** component.
+1. Add a **Breadcrumb** component beneath the **Image** component in the main container.
+    * Create a new policy for the **Breadcrumb** component named **Article Page - Breadcrumb**. Set the **Navigation Start Level** to **4**.
+1. Add a **Container** component beneath the **Breadcrumb** component and inside the **main** container. This will act as the **Content container** for the template.
+    * Unlock the **Content** container.
+    * Set the policy to **Page Content**.
+1. Add another **Container** component beneath the **Content container**. This will act as the **Side Rail** container for the template.
+    * Unlock the **Side Rail** container.
+    * Create a new policy named **Article Page - Side Rail**.
+    * Configure the **Allowed Components** under **WKND Sites Project - Content** to include: **Button**, **Download**, **Image**, **List**, **Separator**, **Social Media Sharing**, **Text**, and **Title**.
+1. Update the policy of the Page Root container. This is the outer-most container on the template. Set the policy to **Page Root**.
+    * Under **Container Settings**, set the **Layout** to **Responsive Grid**.
+1. Engage Layout Mode for the **Content container**. Drag the handle from right to left and shrink the container to be 8 columns wide.
+1. Engage Layout Mode for the **Side Rail container**. Drag the handle from right to left and shrink the container to be 4 columns wide. Then drag the left handle from left to right 1 column to make the container 3 columns wide and leave a 1 column gap between the **Content container**.
+1. Open mobile emulator and switch to a mobile breakpoint. Engage layout mode again and make the **Content container** and the **Side Rail container** the full width of the page. This will stack the containers vertically in the mobile breakpoint.
+1. Update the policy of the **Text** component in the **Content container**.
+    * Set the policy to **Content text**.
+    * Under **Plugins** > **Paragraph Styles**, check **Enable paragraph styles** and ensure that the **Quote block** is enabled.
+
+### Initial Content configurations
+
+1. Switch to **Initial Content** mode.
+1. Add a **Title** component to the **Content container**. This will act as the Article title. When it is left empty, it will automatically display the current page's Title.
+1. Add a second **Title** component beneath the first Title component. 
+    * Configure the component with the text: "By Author". This will be a text placeholder.
+    * Set the type to be `H4`.
+1. Add a **Text** component beneath the **By Author** Title component.
+1. Add a **Title** component to the **Side Rail Container**.
+    * Configure the component with the text: "Share this Story".
+    * Set the type to be `H5`.
+1. Add a **Social Media Sharing** component beneath the **Share this Story** Title component.
+1. Add a **Separator** component beneath the **Social Media Sharing** component.
+1. Add a **Download** component beneath the **Separator** component.
+1. Add a **List** component beneath the **Download** component.
+1. Update the **Initial Page Properties** for the template.
+    * Under **Social Media** > **Social Media Sharing**, check **Facebook** and **Pinterest**
+
+### Enable the template and add a thumbnail
+
+1. View the template in the Template console by navigating to [http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd](http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf/wknd)
+1. **Enable** the Article Page template.
+1. Edit the properties of the Article Page template and upload the following thumbnail to quickly identify pages created using the Article Page template:
+
+    ![Article Page template thumbnail](assets/pages-templates/article-page-template-thumbnail.png)
+
 ## Update the Header and Footer with Experience Fragments {#experience-fragments}
 
 A common practice when creating global content, such as a header or footer, is to use an [Experience Fragment](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html). Experience Fragments, allows users to combine multiple components to create a single, reference-able, component. Experience Fragments have the advantage of supporting multi-site management and [localization](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/experience-fragment.html?lang=en#localized-site-structure).
@@ -95,13 +155,73 @@ The AEM Project Archetype generated a Header and Footer. Next, update the Experi
 
 >[!VIDEO](https://video.tv.adobe.com/v/330992/?quality=12&learn=on)
 
-Download and install the sample content package **[WKND-PagesTemplates-Content-Assets.zip](assets/pages-templates/WKND-PagesTemplates-Content-Assets.zip)**.
+High level steps for the video below:
+
+1. Download the sample content package **[WKND-PagesTemplates-Content-Assets.zip](assets/pages-templates/WKND-PagesTemplates-Content-Assets.zip)**.
+1. Upload and install the content package using Package Manager at [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp)
+1. Update the Web Variation template, which is the template used for Experience Fragments at [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/xf-web-variation/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/xf-web-variation/structure.html)
+    * Update the policy the **Container** component on the template.
+    * Set the policy to **XF Root**.
+    * Under **Allowed Components** select the component group **WKND Sites Project - Structure** to include **Language Navigation**, **Navigation**, and **Quick Search** components.
+
+### Update Header Experience Fragment
+
+1. Open the Experience Fragment that renders the Header at [http://localhost:4502/editor.html/content/experience-fragments/wknd/us/en/site/header/master.html](http://localhost:4502/editor.html/content/experience-fragments/wknd/us/en/site/header/master.html)
+1. Configure the root **Container** of the fragment. This is the outer most **Container**.
+    * Set the **Layout** to **Responsive Grid**
+1. Add the **WKND Dark Logo** as an image to the top of the **Container**. The logo was included in the package installed in a previous step.
+    * Modify the layout of the **WKND Dark Logo** to be **2** columns wide. Drag the handles from right to left.
+    * Configure the logo with **Alternative Text** of "WKND Logo".
+    * Configure the logo to **Link** to `/content/wknd/us/en` the Home page.
+1. Configure the **Navigation** component that is already placed on the page.
+    * Set the **Exclude Root Levels** to **1**.
+    * Set the **Navigation Structure Depth** to **1**.
+    * Modify the layout of the **Navigation** component to be **8** columns wide. Drag the handles from right to left.
+1. Remove the **Language Navigation** component.
+1. Modify the layout of the **Search** component to be **2** columns wide. Drag the handles from right to left. All the components should now be aligned horizontally on a single row.
+
+### Update Footer Experience Fragment
+
+1. Open the Experience Fragment that renders the Footer at [http://localhost:4502/editor.html/content/experience-fragments/wknd/us/en/site/footer/master.html](http://localhost:4502/editor.html/content/experience-fragments/wknd/us/en/site/footer/master.html)
+1. Configure the root **Container** of the fragment. This is the outer most **Container**.
+    * Set the **Layout** to **Responsive Grid**
+1. Add the **WKND Light Logo** as an image to the top of the **Container**. The logo was included in the package installed in a previous step.
+    * Modify the layout of the **WKND Light Logo** to be **2** columns wide. Drag the handles from right to left.
+    * Configure the logo with **Alternative Text** of "WKND Logo Light".
+    * Configure the logo to **Link** to `/content/wknd/us/en` the Home page.
+1. Add a **Navigation** component beneath the logo. Configure the **Navigation** component:
+    * Set the **Exclude Root Levels** to **1**.
+    * Uncheck **Collect all child pages**.
+    * Set the **Navigation Structure Depth** to **1**.
+    * Modify the layout of the **Navigation** component to be **8** columns wide. Drag the handles from right to left.
 
 ## Create an Article Page
 
 Next, create a new page using the Article Page template. Author the content of the page to match the site mockups. Follow the steps in the video below:
 
 >[!VIDEO](https://video.tv.adobe.com/v/330993/?quality=12&learn=on)
+
+High level steps for the video below:
+
+1. Navigate to the Sites console at [http://localhost:4502/sites.html/content/wknd/us/en/magazine](http://localhost:4502/sites.html/content/wknd/us/en/magazine).
+1. Create a new page beneath **WKND** > **US** > **EN** > **Magazine**.
+    * Choose the **Article Page** template.
+    * Under **Properties** set the **Title** to "Ultimate Guide to LA Skateparks"
+    * Set the **Name** to "guide-la-skateparks"
+1. Replace **By Author** Title with the text "By Stacey Roswells".
+1. Update the **Text** component to include a paragraph to populate the article. You can use the following text file as the copy: [la-skate-parks-copy.txt](assets/pages-templates/la-skateparks-copy.txt).
+1. Add another **Text** component.
+    * Update the component to include the quote: "There is no better place to shred then Los Angeles.".
+    * Edit the Rich Text Editor in full-screen mode and modify the above quote to use the **Quote Block** element.
+1. Continue populating the body of the article to match the mockups.
+1. Configure the **Download** component to use a PDF version of the article.
+    * Under **Download** > **Properties**, click the checkbox to **Get the title from the DAM asset**.
+    * Set the **Description** to: "Get the Full Story".
+    * Set the **Action Text** to: "Download PDF".
+1. Configure the **List** component.
+    * Under **List Settings** > **Build List Using**, select **Child Pages**.
+    * Set the **Parent Page** to `/content/wknd/us/en/magazine`.
+    * Under **Item Settings** check **Link Items** and check **Show date**.
 
 ## Inspect the node structure {#node-structure}
 

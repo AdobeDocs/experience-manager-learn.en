@@ -21,6 +21,8 @@ In this chapter we will explore the underlying technology of an Adobe Experience
 
 Review the required tooling and instructions for setting up a [local development environment](overview.md#local-dev-environment).
 
+The IDE used in the videos is [Visual Studio Code](https://code.visualstudio.com/) and the [VSCode AEM Sync](https://marketplace.visualstudio.com/items?itemName=yamato-ltd.vscode-aem-sync) plugin.
+
 ## Objective {#objective}
 
 1. Learn the role of HTL templates and Sling Models to dynamically render HTML.
@@ -103,7 +105,7 @@ Below are the high level steps performed in the above video.
 
 1. Switch to the IDE and open the project to the `ui.apps` module.
 1. Open the `helloworld.html` file and make a change to the HTML Markup.
-1. Use the IDE tools to synchronize the file change with the local AEM instance.
+1. Use the IDE tools like [VSCode AEM Sync](https://marketplace.visualstudio.com/items?itemName=yamato-ltd.vscode-aem-sync) to synchronize the file change with the local AEM instance.
 1. Return to the browser and observe the component render has changed.
 1. Open the `.content.xml` file that defines the dialog for the `HelloWorld` component at:
 
@@ -202,14 +204,14 @@ Next, we will make some updates to the `HelloWorldModel` Sling Model in order to
         ...
 
         @ValueMapValue
-        protected String title;
+        private String title;
 
         @ValueMapValue
-        protected String text;
+        private String text;
 
-            @PostConstruct
-            protected void init() {
-                ...
+        @PostConstruct
+        protected void init() {
+            ...
     ```
 
 1. Add the following method `getTitle()` to the `HelloWorldModel` class, that returns the value of the property named `title`. This method adds the additional logic to return a String value of "Default Value here!" if the property `title` is null or blank:
@@ -342,6 +344,10 @@ Below are the high level steps performed in the above video.
     ```
 
 1. Deploy the changes to a local instance of AEM using the developer plugin or using your Maven skills.
+
+    >[!NOTE]
+    >
+    > CSS and JavaScript are frequently cached by the browser for performance reasons. If you do not immediately see the change for the client library perform a hard refresh and clear the browser's cache. It may be helpful to use an incognito window to ensure a fresh cache.
 
 ## Congratulations! {#congratulations}
 
