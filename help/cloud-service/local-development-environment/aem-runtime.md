@@ -174,6 +174,10 @@ Changing these may require adjustments to AEM SDK configurations
 
 In order to stop a local AEM runtime, either AEM Author or Publish service, open the command line window that was used to start the the AEM Runtime, and tap `Ctrl-C`. Wait for AEM to shutdown. When the shutdown process is complete, the command line prompt will be available.
 
+## Optional local AEM runtime set up tasks
+
++ __OSGi configuration environment variables and secret variables__ are [specially set for the AEM local runtime](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#local-development), rather than managing them using the aio CLI.
+
 ## When to update the Quickstart Jar
 
 Update the AEM SDK at least monthly on, or shortly after, the last Thursday of each month, which is the release cadence for AEM as a Cloud Service "feature releases".
