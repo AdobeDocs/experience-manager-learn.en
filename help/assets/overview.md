@@ -10,6 +10,8 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 
 ## What's New
 
+* **[Relate and Unrelate (Video)](./authoring/relate-unrelate.md)**
+    *Learn how to establish and manage relationships between assets in AEM*
 
 * **[Publish Assets (Video)](./sharing/publish.md)**
     *Learn the ins and outs of publishing assets from AEM Author to AEM Publish*
@@ -22,9 +24,6 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 
 * **[Auto-start workflows (Video)](./configuring/auto-start-workflows.md)** 
     *Explore how to automatically invoke AEM workflow on uploaded or re-processed assets*
-
-* **[Processing profiles (Video)](./configuring/processing-profiles.md)** 
-    *Explore how to invoke Assets microservices to rendition assets*
 
 ## Staff Picks
 

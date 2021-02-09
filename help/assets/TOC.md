@@ -26,6 +26,7 @@ team: TM
   + [Basic Operations](./authoring/basic-operations.md)
   + [Metadata](./authoring/metadata.md)
   + [Renditions](./authoring/renditions.md)
+  + [Relate and Un-relate](./authoring/relate-unrelate.md)
 
 + Collaboration{#collaboration}
   + [Timeline and Inbox](./collaboration/timeline-and-inbox.md)

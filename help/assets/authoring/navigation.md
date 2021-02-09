@@ -1,12 +1,10 @@
 ---
 title: Navigation
 description: Explore the basics for navigation AEM Assets.
-sub-product: assets
-feature: 
-topics: authoring
-audience: author
-doc-type: feature video
-activity: use
+feature: Asset Management
+topics: Content Management
+role: Business Practitioner
+level: Beginner
 version: cloud-service
 kt: 4305
 thumbnail: 32046.jpg
