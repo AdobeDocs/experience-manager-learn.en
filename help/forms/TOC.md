@@ -11,9 +11,9 @@ index: y
 
 + [Overview](overview.md)
 + [Best practices to follow](adaptive-forms/best-practices-adaptive-forms.md)
-+ [Set up OKTA authentication with AEM Author](adaptive-forms/single-sign-on-with-okta.md)
-+ [Create your first OSGi bundle](adaptive-forms/create-your-first-osgi-bundle.md)
-+ Creating Your First Adaptive Form {#creating-your-first-adaptive-form}
++ [Setting up OKTA authentication with AEM Author](adaptive-forms/single-sign-on-with-okta.md)
++ [Creating your first OSGi bundle](adaptive-forms/create-your-first-osgi-bundle.md)
++ Creating your first Adaptive Form {#creating-your-first-adaptive-form}
   + [Introduction and Setup](creating-your-first-adaptive-form/introduction-and-setup.md)
   + [Create Adaptive Form template](creating-your-first-adaptive-form/create-adaptive-form-template.md)
   + [Create form fragment](creating-your-first-adaptive-form/create-form-fragment.md)
@@ -84,12 +84,12 @@ index: y
   + [Configuring form data model](prefill-fdm-db/configuring-form-data-model.md)
   + [Get request parameter](prefill-fdm-db/get-request-parameter.md)
   + [Create adaptive form](prefill-fdm-db/create-adaptive-form.md)
-+ Inbox customization{#inbox-customization}
++ Customizing inbox{#inbox-customization}
   + [Introduction](inbox-customization/introduction.md)
   + [Add custom column](inbox-customization/add-married-column.md)
   + [Using sightly template](inbox-customization/use-sightly-template.md)
 
-+ Store and Retrieve Adaptive Form{#store-and-retrieve-af-with-2fa}
++ Storing and Retrieving Adaptive Form{#store-and-retrieve-af-with-2fa}
   + [Introduction](store-and-retrieve-af-with-2fa/introduction.md)
   + [Configure Data Source](store-and-retrieve-af-with-2fa/configure-data-source.md)
   + [Store Form Attachments](store-and-retrieve-af-with-2fa/store-form-attachments.md)
@@ -176,6 +176,7 @@ index: y
   + [Part4 - Create ACS Profile using Form Data Model](aem-forms-with-adobe-campaign/partfour.md)
   
 + Document Services {#document-services}
+  + [Types of PDF forms](document-services/pdf-forms-and-documents.md)
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
   + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
   + [Using Barcode Service in AEM Forms](document-services/barcode-service-adaptive-forms-article.md)
