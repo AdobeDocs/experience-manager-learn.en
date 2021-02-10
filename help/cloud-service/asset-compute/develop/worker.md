@@ -109,7 +109,7 @@ In this worker, we leverage the [jimp](https://www.npmjs.com/package/jimp) to cr
 
 >[!WARNING]
 >
->Not all npm modules for asset manipulation are supported by Asset Compute. npm modules that rely on the existing of other applications such as ImageMagick or OS-dependent libraries. It is best to limit to the use of JavaScript-only npm modules.
+>Not all npm modules for asset manipulation are supported by Asset Compute. npm modules that rely on the existence of applications such as ImageMagick or other OS-dependent libraries are not supported.. It is best to limit to the use of JavaScript-only npm modules.
 
 1. Open the command line in the root of your Asset Compute project (this can be done in VS Code via __Terminal > New Terminal__) and execute the command:
 
