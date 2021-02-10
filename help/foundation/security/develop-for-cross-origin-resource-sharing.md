@@ -89,12 +89,12 @@ Access-Control-Request-Method,Access-Control-Request-Headers]"
 
 ## Dispatcher configuration {#dispatcher-configuration}
 
-To allow the caching and serving of [!DNL CORS] headers on cached content, add the following configuration to all supporting AEM Publish `dispatcher.any` files.
+To allow the caching and serving of CORS headers on cached content, add following [/clientheaders configuration](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#specifying-the-http-headers-to-pass-through-clientheaders) to all supporting AEM Publish `dispatcher.any` files.
 
 ```
 /cache { 
   ...
-  /headers {
+  /clientheaders {
       "Access-Control-Allow-Origin",
       "Access-Control-Expose-Headers",
       "Access-Control-Max-Age",
@@ -108,7 +108,7 @@ To allow the caching and serving of [!DNL CORS] headers on cached content, add t
 
 **Restart the web server application** after making changes to the `dispatcher.any` file.
 
-It is likely clearing the cache entirely is required to ensure headers are appropriately cached on the next request after a `/headers` configuration update.
+It is likely clearing the cache entirely is required to ensure headers are appropriately cached on the next request after a `/clientheaders` configuration update.
 
 ## Supporting materials {#supporting-materials}
 
