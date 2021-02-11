@@ -95,11 +95,11 @@ To allow the caching and serving of CORS headers on cached content, add followin
 /cache { 
   ...
   /clientheaders {
-      "Access-Control-Allow-Origin",
-      "Access-Control-Expose-Headers",
-      "Access-Control-Max-Age",
-      "Access-Control-Allow-Credentials",
-      "Access-Control-Allow-Methods",
+      "Access-Control-Allow-Origin"
+      "Access-Control-Expose-Headers"
+      "Access-Control-Max-Age"
+      "Access-Control-Allow-Credentials"
+      "Access-Control-Allow-Methods"
       "Access-Control-Allow-Headers"
   }
   ...
