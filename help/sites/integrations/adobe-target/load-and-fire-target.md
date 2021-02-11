@@ -126,9 +126,13 @@ This code returns the AEM page's title.
 
 ### Why are my mboxes not firing on my web pages?
 
-#### Error message when mboxDisable cookie is not set**
+#### Error message when mboxDisable cookie is not set
 
 ![Target Cookie Domain Error](assets/target-cookie-error.png)
+
+```
+> AT: [page-init] Adobe Target content delivery is disabled. Ensure that you can save cookies to your current domain, there is no "mboxDisable" cookie and there is no "mboxDisable" parameter in the query string.
+```
 
 #### Solution
 
