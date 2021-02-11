@@ -22,7 +22,7 @@ Adobe Asset Link v1.1 now provides InDesign direct linking support between Adob
 
 >[!NOTE]
 >
->Use your Adobe Creative Cloud Enterprise ID or Federated ID only. Make sure you [configure AEM for Adobe Asset Link](https://helpx.adobe.com/enterprise/using/configure-aem-for-aal-prerelease.html).
+>Use your Adobe Creative Cloud Enterprise ID or Federated ID only. Make sure you [configure AEM for Adobe Asset Link](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/adobe-asset-link.ug.html).
 
 
 ### Adobe Asset Link Capabilities
@@ -66,8 +66,6 @@ FPO renditions are lightweight substitutes of the original assets. They have the
 * BMP
 
 If an FPO rendition is not available for a specific asset in AEM Assets, the original high-resolution asset is referenced instead. For FPO images, the status FPO is displayed in the InDesign Links panel.
-
-
 
 ## Understanding Adobe Asset Link authentication with AEM Assets{#understanding-adobe-asset-link-authentication-with-aem-assets}
 
