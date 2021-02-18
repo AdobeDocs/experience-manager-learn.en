@@ -12,7 +12,10 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
 
 ## What's New
 
-* **[Customize the Adobe Client Data Layer with AEM Components](./integrations/adobe-client-data-layer/data-layer-customize.md)**
+* **[Using Launches with AEM Sites (Video)](./spa-editor/spa-editor-framework-feature-video-use.md)**
+    *Learn about AEM Sites' Launches and how they can be used to prepare web site content for future release.*
+
+* **[Customize the Adobe Client Data Layer with AEM Components (Tutorial)](./integrations/adobe-client-data-layer/data-layer-customize.md)**
   *Learn how to update the Adobe Client Data Layer with content from custom AEM Components.*
 
 * **[Getting Started with AEM Headless GraphQL (Tutorial)](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html)**
