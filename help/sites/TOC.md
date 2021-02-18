@@ -25,6 +25,7 @@ sub-product: sites
   + [Editable Templates](page-authoring/template-editor-feature-video-use.md)
   + [Style System](page-authoring/style-system-feature-video-use.md)
   + [Timewarp](page-authoring/timewarp-feature-video-use.md)
+  + [Launches](page-authoring/launches.md)
 + Components {#components}
   + [Component Development](components/component-development.md)
   + [Core Components](components/core-components-feature-video-understand.md)
