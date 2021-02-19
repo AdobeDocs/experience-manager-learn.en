@@ -96,5 +96,11 @@ team: TM
     + Advanced{#advanced}
         + [Metadata workers](./asset-compute/advanced/metadata.md)
     + [Troubleshooting](./asset-compute/troubleshooting.md)
++ Multi-step Tutorials{#multi-step-tutorials}
+    + [AEM Sites development](./develop-wknd-tutorial.md)
+    + [GraphQL](../headless-tutorial/graphql/overview.md)
+    + [SPA Editor (React)](../spa-react-tutorial/overview.md)
+    + [SPA Editor (Angular)](../spa-angular-tutorial/overview.md)
+    + [AEM Sites and Adobe Target](../aem-target-personalization/overview.md)
+    + [Token-based authentication](../headless-tutorial/authentication/overview.md)
 
-+ [Getting Started Developing AEM Sites - WKND Tutorial](./develop-wknd-tutorial.md)
