@@ -13,7 +13,7 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 ## What's New
 
-* **[Authenticating to AEM as a Cloud Service from an external application (Tutorial)](../headless-tutorial/authentication/overview.md)**
+* **[Token-based authentication (Tutorial)](../headless-tutorial/authentication/overview.md)**
     *Learn how to use token-based authentication to interact with AEM as a Cloud Service over HTTP*
 
 * **[Bulk Import (Video)](./migration/bulk-import.md)**
