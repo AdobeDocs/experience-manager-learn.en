@@ -97,10 +97,10 @@ team: TM
         + [Metadata workers](./asset-compute/advanced/metadata.md)
     + [Troubleshooting](./asset-compute/troubleshooting.md)
 + Multi-step Tutorials{#multi-step-tutorials}
-    + [AEM Sites development](./develop-wknd-tutorial.md)
-    + [GraphQL](../headless-tutorial/graphql/overview.md)
-    + [SPA Editor (React)](../spa-react-tutorial/overview.md)
-    + [SPA Editor (Angular)](../spa-angular-tutorial/overview.md)
-    + [AEM Sites and Adobe Target](../aem-target-personalization/overview.md)
-    + [Token-based authentication](../headless-tutorial/authentication/overview.md)
+    + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/develop-wknd-tutorial.html)
+    + [GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html)
+    + [SPA Editor (React)](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-react-tutorial/overview.html)
+    + [SPA Editor (Angular)](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-angular-tutorial/overview.html)
+    + [AEM Sites and Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-target-tutorial/overview.html)
+    + [Token-based authentication](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html)
 
