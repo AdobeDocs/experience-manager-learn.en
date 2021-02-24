@@ -35,7 +35,7 @@ team: TM
     + [Analyze Test Results](./cloud-manager/devops/analyze-test-results.md)
     + [Dispatcher Configurations](./cloud-manager/devops/dispatcher-configurations.md)
     + [Cloud Manager APIs](./cloud-manager/devops/cloud-manager-apis.md)
-+ Local Development Environment Setup {#local-development-environment-setup}
++ Local Development Environment Setup {#local-development-environment-set-up}
   + [Overview](./local-development-environment/overview.md)
   + [Development Tools](./local-development-environment/development-tools.md)
   + [Local AEM Runtime](./local-development-environment/aem-runtime.md)
