@@ -16,7 +16,7 @@ thumbnail: KT-6714.jpg
 
 The GraphQL API of AEM provide a powerful query language to expose data of Content Fragments to downstream applications. Content Fragment models define the data schema that is used by Content Fragments. Whenever a Content Fragment Model is created or updated, the schema is translated and added to the "graph" that makes up the GraphQL API.
 
-In this chapter, we will explore some common GraphQL queries to gather content. Built into AEM is an IDE called [GraphiQL](https://github.com/graphql/graphiql). The GraphiQL IDE allows you to quickly test and refine the queries and data returned. GraphiQL also provides easy access to the documentation, making it easy to learn and understand what methods are available.
+In this chapter, we will explore some common GraphQL queries to gather content using an IDE called [GraphiQL](https://github.com/graphql/graphiql). The GraphiQL IDE allows you to quickly test and refine the queries and data returned. GraphiQL also provides easy access to the documentation, making it easy to learn and understand what methods are available.
 
 ## Prerequisites {#prerequisites}
 
@@ -29,6 +29,23 @@ This is a multi-part tutorial and it is assumed that the steps outlined in the [
 * Learn how to filter and request specific data attributes.
 * Learn how to query a variation of a Content Fragment.
 * Learn how to join a query of multiple Content Fragment models
+
+## Install the GraphiQL Tool {#install-graphiql}
+
+The GraphiQL IDE is a development tool and needed only on lower-level environments like a development or local instance. Therefore it is not included in the AEM project, but comes as a separate package that can be installed on an ad-hoc basis.
+
+1. Navigate to the **[Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)** > **AEM as a Cloud Service**.
+1. Search for "GraphiQL" (be sure to include the **i** in **GraphiQL**.
+1. Download the latest **GraphiQL Content Package v.x.x.x**
+
+    ![Download GraphiQL Package](assets/explore-graphql-api/software-distribution.png)
+
+    The zip file is an AEM package that can be installed directly.
+
+1. From the **AEM Start** menu navigate to **Tools** > **Deployment** > **Packages**.
+1. Click **Upload Package** and choose the package downloaded in the prior step. Click **Install** to install the package.
+
+    ![Install GraphiQL Package](assets/explore-graphql-api/install-graphiql-package.png)
 
 ## Query a list of Content Fragments {#query-list-cf}
 
@@ -174,7 +191,7 @@ It is also possible to directly query a single Content Fragment. Content in AEM 
         item {
           _path
           fullName
-          biography {
+          biographyText {
             html
           }
         }
@@ -198,7 +215,7 @@ It is also possible to directly query a single Content Fragment. Content in AEM 
         item {
           _path
           fullName
-          biography {
+          biographyText {
             html
           }
         }

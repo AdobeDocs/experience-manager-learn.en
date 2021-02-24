@@ -1,6 +1,6 @@
 ---
 title: Advanced data modeling with Fragment References - Getting Started with AEM Headless - GraphQL
-description: Get started with Adobe Experience Manager (AEM) and GraphQL. Learn how use the Fragment Reference feature for advanced data modeling and to create a relationship between two different Content Fragments. Learn how to modify a GraphQL query to include field from a referenced model.
+description: Get started with Adobe Experience Manager (AEM) and GraphQL. Learn how to use the Fragment Reference feature for advanced data modeling and to create a relationship between two different Content Fragments. Learn how to modify a GraphQL query to include field from a referenced model.
 sub-product: assets
 topics: headless
 version: cloud-service
@@ -227,13 +227,10 @@ Next, update the queries used by the React Application to include the new Contri
 
     ![Contributor Added in the App](assets/fragment-references/contributor-added-detail.png)
 
-## Additional Resources
-
-For more details about Content Fragments and GraphQL see the following resources:
-
-* [Headless Content Delivery using Content Fragments with GraphQL](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-graphql.html)
-* [AEM GraphQL API for use with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-api-content-fragments.html)
-
 ## Congratulations!{#congratulations}
 
 Congratulations! You've updated an existing Content Fragment Model to reference a nested Content Fragment using the **Fragment Reference** field. You also learned how to modify a GraphQL query to include fields from a referenced model.
+
+## Next Steps {#next-steps}
+
+In the next chapter, [Production deployment using an AEM Publish environment](./production-deployment.md), learn about AEM Author and Publish services and the recommended deployment pattern for headless applications. You will update an existing application to use environment variables to dynamically change a GraphQL endpoint based on the target environment. You will also learn how to properly configure AEM for Cross-Origin resource sharing (CORS).
