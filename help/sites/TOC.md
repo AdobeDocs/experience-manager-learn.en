@@ -37,7 +37,7 @@ sub-product: sites
   + [Content Fragments vs. Experience Fragments](content-fragments/understand-content-fragments-and-experience-fragments.md)
 + Experience Fragments {#experience-fragments}
   + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
-  + [Understanding Experience Fragments](experience-fragments/experience-fragments-feature-video-understand.md)
+  + [Building Blocks](experience-fragments/building-blocks.md)
   + [Setup Social Posting with Experience Fragments](experience-fragments/experience-fragments-social-technical-video-setup.md)
   + [Content Fragments vs. Experience Fragments](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
 + Developing {#developing}
