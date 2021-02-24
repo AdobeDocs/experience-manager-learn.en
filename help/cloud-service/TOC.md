@@ -35,7 +35,7 @@ team: TM
     + [Analyze Test Results](./cloud-manager/devops/analyze-test-results.md)
     + [Dispatcher Configurations](./cloud-manager/devops/dispatcher-configurations.md)
     + [Cloud Manager APIs](./cloud-manager/devops/cloud-manager-apis.md)
-+ Local Development Environment Set up {#local-development-environment-set-up}
++ Local Development Environment Setup {#local-development-environment-setup}
   + [Overview](./local-development-environment/overview.md)
   + [Development Tools](./local-development-environment/development-tools.md)
   + [Local AEM Runtime](./local-development-environment/aem-runtime.md)
@@ -51,6 +51,7 @@ team: TM
     + [Content Publishing](./developing/basics/content-publishing.md)
     + [OSGi Configurations](./developing/basics/osgi-configurations.md)
     + [Dispatcher Configuration Migration](./developing/basics/dispatcher-configuration.md)
+  + [AEM SDK API JavaDocs](https://docs.adobe.com/content/help/en/experience-manager-cloud-service-javadoc/)
 + Debugging AEM{#debugging}
   + Debugging the AEM SDK{#debugging-aem-sdk}
     + [Overview](./debugging/aem-sdk-local-quickstart/overview.md)
