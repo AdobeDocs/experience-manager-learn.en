@@ -13,8 +13,11 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 ## What's New
 
-* **[Token-based authentication (Tutorial)](../headless-tutorial/authentication/overview.md)**
+* **[Token-based authentication (Tutorial)](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html)**
     *Learn how to use token-based authentication to interact with AEM as a Cloud Service over HTTP*
+
+* **[Headless GraphQL (Tutorial)](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html)**
+    *Learn how to use AEM's GraphQL APIs to power experiences in an external application.*
 
 * **[Bulk Import (Video)](./migration/bulk-import.md)**
     *Learn how to bulk import assets into AEM from Azure Blob Storage or Amazon S3*
@@ -24,10 +27,6 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 * **[Asset Compute microservices extensibility (Tutorial)](./asset-compute/overview.md)**
     *Learn how to develop  Asset Compute workers to generate custom asset renditions*
-
-* **[Configuring access to AEM as a Cloud Service (Tutorial)](./accessing/overview.md)**
-    *Learn how to configure IMS users in Adobe Admin Console so they can access AEM*
-
 
 ## Staff Picks
 

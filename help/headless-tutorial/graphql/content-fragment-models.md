@@ -126,13 +126,13 @@ Next, create a new model for a **Contributor**, which is the data model for thos
 
 ## Enable the Contributor Model
 
-Content Fragment Models default to a **Draft** state when first created. This allows users to refine the Content Fragment Model **before** allowing authors to use it. Recall that modifying the **Property Name** of a field in the model changes the underlying data schema and can have significant downstream effects on existing fragments and external applications. It is recommended to carefully plan the naming convention used for the **Property Name** of fields.
+Content Fragment Models need to be **Enabled** before content authors can use it. It is possible to **Disable** a Content Fragment Model, thus prohibiting authors from using it. Recall that modifying the **Property Name** of a field in the model changes the underlying data schema and can have significant downstream effects on existing fragments and external applications. It is recommended to carefully plan the naming convention used for the **Property Name** of fields before enabling the Content Fragment Model for users.
 
-1. Observe that the **Contributor** model is currently in a **Draft** state.
+1. Ensure that the **Contributor** model is currently in an **Enabled** state.
 
-1. Enable the **Contributor Model** by hovering over the card and clicking the **Enable** icon:
+     ![Enabled Contributor Model](assets/content-fragment-models/enable-contributor-model.png)
 
-    ![Enable the Contributor Model](assets/content-fragment-models/enable-contributor-model.png)
+     It is possible to toggle a Content Fragment Model's state by hovering over the card and clicking the **Disable** / **Enable** icon.
 
 ## Congratulations! {#congratulations}
 

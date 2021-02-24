@@ -31,7 +31,7 @@ The following tools should be installed locally:
 1. Download and install sample content from the WKND Reference site.
 1. Download and install a sample app to consume content using the GraphQL APIs.
 
-## Install the AEM SDK{#aem-sdk}
+## Install the AEM SDK {#aem-sdk}
 
 This tutorial uses the [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=en#aem-as-a-cloud-service-sdk) to explore AEM's GraphQL APIs. This section provides a quick guide to installing the AEM SDK and running it in Author mode. A more detailed guide for setting up a local development environment [can be found here](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=en#local-development-environment-set-up). 
 
@@ -49,6 +49,9 @@ This tutorial uses the [AEM as a Cloud Service SDK](https://experienceleague.ado
 
 1. Unzip the download and copy the Quickstart jar (`aem-sdk-quickstart-XXX.jar`) to a dedicated folder, i.e `~/aem-sdk/author`.
 1. Re-name the jar file to `aem-author-p4502.jar`.
+
+    The `author` name specifies that the Quickstart jar will start in Author mode. The `p4502` specifies that the Quickstart server will run on port 4502.
+
 1. Open a new terminal window and navigate to the folder that contains the jar file. Run the following command to install and start the AEM instance:
 
     ```shell
@@ -60,9 +63,11 @@ This tutorial uses the [AEM as a Cloud Service SDK](https://experienceleague.ado
 1. After a few minutes the AEM instance will finish installing and a new browser window should open at [http://localhost:4502](http://localhost:4502). 
 1. Login with the username `admin` and password `admin`.
 
-## Install sample content{#wknd-site}
+## Install sample content and GraphQL endpoints {#wknd-site-content-endpoints}
 
-Sample content from the WKND Reference site will be installed to accelerate the tutorial. The WKND is a fictitious life-style brand, often used in conjunction with AEM training. 
+Sample content from the **WKND Reference site** will be installed to accelerate the tutorial. The WKND is a fictitious life-style brand, often used in conjunction with AEM training.
+
+The WKND Reference site includes configurations needed to expose a [GraphQL endpoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-api-content-fragments.html?lang=en#graphql-aem-endpoint). In a real-world implementation follow the documented steps to [include the GraphQL endpoints](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-api-content-fragments.html?lang=en#graphql-aem-endpoint) in your customer project. A [CORS](#cors-config) has also been packaged as part of the WKND Site. A CORS configuration is needed to grant access to an external application, more information about [CORS](#cors-config) can be found below.
 
 1. Download the latest compiled AEM Package for WKND Site: [aem-guides-wknd.all-x.x.x.zip](https://github.com/adobe/aem-guides-wknd/releases/latest). 
 
@@ -101,16 +106,6 @@ Sample content from the WKND Reference site will be installed to accelerate the 
 >
 > If using a Cloud Service environment see the documentation for how to [deploy a code base like the WKND Reference site to a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying).
 
-## Install GraphQL Endpoints{#graphql-endpoint}
-
-GraphQL endpoints need to be configured. This gives project flexibility in determining the exact endpoint that the GraphQL API is exposed. A [CORS](#cors-config) is also needed to grant access to an external application. To expedite the tutorial a package has been pre-created.
-
-1. Download the [aem-guides-wknd-graphql.all-1.0.0-SNAPSHOT.zip](./assets/setup/aem-guides-wknd-graphql.all-1.0.0-SNAPSHOT.zip) package.
-1. From the **AEM Start** menu navigate to **Tools** > **Deployment** > **Packages**.
-1. Click **Upload Package** and choose the package downloaded in the prior step. Click **Install** to install the package.
-
-The above package also contains the [GraphiQL tool](https://github.com/graphql/graphiql) that will be used in later chapters. More information about the CORS configuration can be [found below](#cors-config).
-
 ## Install the sample app{#sample-app}
 
 One of the goals of this tutorial is to show how to consume AEM content from an external application using the GraphQL APIs. This tutorial uses an example React App that has been partially completed to accelerate the tutorial. The same lessons and concepts apply to apps built with iOS, Android or any other platform. The React app is intentionally simple, to avoid unnecessary complexity; it is not meant to be a reference implementation.
@@ -125,11 +120,11 @@ One of the goals of this tutorial is to show how to consume AEM content from an 
 
     ```plain
     REACT_APP_HOST_URI=http://localhost:4502
-    REACT_APP_GRAPHQL_ENDPOINT=/content/graphql/endpoint.gql
+    REACT_APP_GRAPHQL_ENDPOINT=/content/graphql/global/endpoint.json
     REACT_APP_AUTHORIZATION=admin:admin
     ```
 
-    Ensure that `React_APP_HOST_URI` matches your local AEM instance. In this chapter we will connect the React App directly to the AEM **Author** environment and thus will need to authenticate. This is a common practice during development, since it allows us to quickly make changes on the AEM environment and see them immediately reflected in the app.
+    Ensure that `React_APP_HOST_URI` matches your local AEM instance. In this chapter we will connect the React App directly to the AEM **Author** environment. **Author** environments by default require authentication, so our app will connect as the `admin` user. This is a common practice during development, since it allows us to quickly make changes on the AEM environment and see them immediately reflected in the app.
 
     >[!NOTE]
     >
@@ -153,7 +148,7 @@ One of the goals of this tutorial is to show how to consume AEM content from an 
 
     ![Adventure Details view](assets/setup/adventure-details-view.png)
 
-1. Use the browser's developer tools to inspect the **Network** requests. View the **XHR** requests and observe multiple POST requests to `/content/graphql/endpoint.gql`, the GraphQL endpoint configured for AEM.
+1. Use the browser's developer tools to inspect the **Network** requests. View the **XHR** requests and observe multiple POST requests to `/content/graphql/global/endpoint.json`, the GraphQL endpoint configured for AEM.
 
     ![GraphQL Endpoint XHR request](assets/setup/endpoint-gql.png)
 
@@ -182,6 +177,28 @@ Now that the React app is running, make an update to the content in AEM and see 
 
     ![Updated Bali Surf Camp Adventure](assets/setup/overnight-bali-surf-camp-changes.png)
 
+## Install the GraphiQL Tool {#install-graphiql}
+
+[GraphiQL](https://github.com/graphql/graphiql) is a development tool and needed only on lower-level environments like a development or local instance. The GraphiQL IDE allows you to quickly test and refine the queries and data returned. GraphiQL also provides easy access to the documentation, making it easy to learn and understand what methods are available.
+
+1. Navigate to the **[Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)** > **AEM as a Cloud Service**.
+1. Search for "GraphiQL" (be sure to include the **i** in **GraphiQL**.
+1. Download the latest **GraphiQL Content Package v.x.x.x**
+
+    ![Download GraphiQL Package](assets/explore-graphql-api/software-distribution.png)
+
+    The zip file is an AEM package that can be installed directly.
+
+1. From the **AEM Start** menu navigate to **Tools** > **Deployment** > **Packages**.
+1. Click **Upload Package** and choose the package downloaded in the prior step. Click **Install** to install the package.
+
+    ![Install GraphiQL Package](assets/explore-graphql-api/install-graphiql-package.png)
+1. Navigate to the GraphiQL IDE at [http://localhost:4502/content/graphiql.html](http://localhost:4502/content/graphiql.html) and begin exploring the GraphQL APIs.
+
+    >[!NOTE]
+    >
+    > The GraphiQL tool and GraphQL API is [explored in more detail later in the tutorial](./explore-graphql-api.md).
+
 ## Congratulations! {#congratulations}
 
 Congratulations, you now have an external application consuming AEM content with GraphQL. Feel free to inspect the code in the React app and continue to experiment with modifying existing Content Fragments.
@@ -194,24 +211,30 @@ In the next chapter, [Defining Content Fragment Models](content-fragment-models.
 
 AEM, being secure by default, blocks cross-origin requests, preventing unauthorized applications from connecting to and surfacing its content.
 
-To allow this tutorial's React app to interact with AEM's GraphQL API endpoints, a cross-origin resource sharing configuration has been defined in the GraphQL endpoints package.
+To allow this tutorial's React app to interact with AEM's GraphQL API endpoints, a cross-origin resource sharing configuration has been defined in the WKND Site reference project.
 
-![Cross-Origin Resource Sharing Configuration](./assets/setup/cross-origin-resource-sharing-configuration.png)
+![Cross-Origin Resource Sharing Configuration](assets/setup/cross-origin-resource-sharing-configuration.png)
 
-To manually configure this:
+To view the configuration deployed:
 
-1. Navigate to AEM SDK's Web Console at **Tools** > **Operations** > **Web Console**
-1. Click on the the row labeled **Adobe Granite Cross-Origin Resource Sharing Policy** to create a new configuration
-1. Update the following fields, leaving the others with their default values:
-    * Allowed Origins: `localhost:3000`
-    * Allowed Origins (Regex): `.* `
-    * Allowed Paths: `/content/graphql/endpoint.gql`
+1. Navigate to AEM SDK's Web Console at [http://localhost:4502/system/console](http://localhost:4502/system/console).
+
+    >[!NOTE]
+    >
+    > The Web Console is only available on the SDK. In an AEM as a Cloud Service environment this information can be viewed via [the Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html).
+
+1. In the top menu click **OSGI** > **Configuration** to bring up all of the [OSGi Configurations](http://localhost:4502/system/console/configMgr).
+1. Scroll down the page **Adobe Granite Cross-Origin Resource Sharing**.
+1. Click on the configuration for `com.adobe.granite.cors.impl.CORSPolicyImpl~wknd-graphql`.
+1. The following fields have been updated:
+    * Allowed Origins (Regex): `http://localhost:.*`
+        * Allows all local host connections.
+    * Allowed Paths: `/content/graphql/global/endpoint.json`
+        * This is the only GraphQL endpoint currently configured. As a best practice, CORs configurations should be as restrictive as possible.
     * Allowed Methods: `GET`, `HEAD`, `POST`
         * Only `POST` is required for GraphQL however the other methods can be useful when interacting with AEM in headless manner.
+    * Supported Headers: **authorization** has been added to pass in basic authentication on the author environment.
     * Supports Credentials: `Yes`
-        * This is required as our React app will communicate with the protected GraphQL end points on AEM Author service.
-1. Click **Save**
+        * This is required as our React app will communicate with the protected GraphQL end points on the AEM Author service.
 
-This configuration allows `POST` HTTP requests originating from `localhost:3000` to the AEM Author service on path `/content/graphql/endpoint.gql`.
-
-This configuration and the GraphQL endpoints are generated from an AEM Project. [View the details here](https://github.com/adobe/aem-guides-wknd-graphql/tree/master/aem-project).
+This configuration and the GraphQL endpoints are a part of the AEM WKND project. You can view all the [OSGi configurations here](https://github.com/adobe/aem-guides-wknd/tree/master/ui.config/src/main/content/jcr_root/apps/wknd/osgiconfig).

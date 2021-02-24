@@ -61,7 +61,7 @@ Starting the React app is outlined in more detail in the [Quick Setup](./setup.m
 
 1. Review the app at [http://localhost:3000/](http://localhost:3000/). The sample React app has two main parts:
 
-    * The home experience acts as an index of WKND Adventures, but querying __Adventure__ Content Fragments in AEM using GraphQL. In this chapter, we'll modify this this view to support filtering of adventures by activity.
+    * The home experience acts as an index of WKND Adventures, by querying __Adventure__ Content Fragments in AEM using GraphQL. In this chapter, we'll modify this this view to support filtering of adventures by activity.
 
         ![WKND GraphQL React app - Home experience](./assets/graphql-and-external-app/react-home-view.png)
 
