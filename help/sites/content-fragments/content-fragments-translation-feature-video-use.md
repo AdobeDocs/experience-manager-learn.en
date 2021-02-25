@@ -1,39 +1,34 @@
 ---
-title: Using Translation with AEM Content Fragments
-description: AEM 6.3 introduces the ability to translate Content Fragments. Mixed-media assets and Asset collections associated with a Content Fragment are also eligible to be extracted and translated.
-sub-product: sites, assets, content-services
-feature: content-fragments, multi-site-manager
-topics: localization, content-architecture
-audience: all
-doc-type: feature video
-activity: use
-version: 6.3, 6.4, 6.5
+title: Translation support for AEM Content Fragments
+description: Learn how Content Fragments can be localized and translated with Adobe Experience Manager. Mixed-media assets associated with a Content Fragment are also eligible to be extracted and translated.
+feature: Content Fragments, Multi Site Manager
+topics: Localization
+role: Business Practitioner
+level: Intermediate
+version: 6.3, 6.4, 6.5, cloud-service
+kt: 201
+thumbnail: 18131.jpg
 ---
 
-# Using Translation with AEM Content Fragments{#using-translation-with-aem-content-fragments}
+# Translation support for AEM Content Fragments {#translation-support-content-fragments}
 
-AEM 6.3 introduces the ability to translate Content Fragments. Mixed-media assets and Asset collections associated with a Content Fragment are also eligible to be extracted and translated.
+Learn how Content Fragments can be localized and translated with Adobe Experience Manager. Mixed-media assets associated with a Content Fragment are also eligible to be extracted and translated.
 
->[!VIDEO](https://video.tv.adobe.com/v/18131/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/18131/?quality=12&learn=on)
 
 ## Content Fragment Translation Use Cases {#content-fragment-translation-use-cases}
 
-Content Fragments are a recognized content type that AEM will extract to be sent to an external translation service. Several use cases are supported out of the box:
+Content Fragments are a recognized content type that AEM extracts to be sent to an external translation service. Several use cases are supported out of the box:
 
 1. A Content Fragment can be selected directly in the Assets console for language copy and translation
-2. Content Fragments referenced on a Sites page will be copied to the appropriate language folder and extracted for translation when the Sites page is selected for language copy
+2. Content Fragments referenced on a Sites page are copied to the appropriate language folder and extracted for translation when the Sites page is selected for language copy
 3. Inline media assets embedded inside a content fragment are eligible to be extracted and translated.
 4. Asset collections associated with a content fragment are eligible to be extracted and translated
 
-## Translation Configuration Options {#translation-config-options}
+## Translation Rules Editor {#translation-rules-editor}
 
-The out of the box translation configuration supports several options for translating Content Fragments. By default inline media assets and associated asset collections are NOT translated. To update the translation configuration navigate to [http://localhost:4502/etc/cloudservices/translation/default_translation.html](http://localhost:4502/etc/cloudservices/translation/default_translation.html).
+Experience Manager translation behavior can be updated by using the **Translation Rules Editor**. To update the translation, navigate to **Tools** > **General** > **Translation Configuration** at [http://localhost:4502/libs/cq/translation/translationrules/contexts.html](http://localhost:4502/libs/cq/translation/translationrules/contexts.html).
 
-There are four options for translating Content Fragment assets:
+Out of the box configurations reference Content Fragments at `fragmentPath` with a resource type of `core/wcm/components/contentfragment/v1/contentfragment`. All components that inherit from the `v1/contentfragment` are recognized by the default configuration.
 
-1. **Do not translate (default)**
-2. **Inline Media Assets only**
-3. **Associated Asset Collections only**
-4. **Inline Media Assets and Associated Collections**
-
-![Translation Config](assets/classic-ui-dialog.png)
+![Translation Rules Editor](assets/translation-configuration.png)

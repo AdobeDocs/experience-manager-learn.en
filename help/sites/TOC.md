@@ -33,7 +33,7 @@ sub-product: sites
 + Content Fragments {#content-fragments}
   + [Authoring Content Fragments](content-fragments/content-fragments-feature-video-use.md)
   + [Delivering Content Fragments](content-fragments/content-fragments-delivery-feature-video-use.md)
-  + [Translating with Content Fragments](content-fragments/content-fragments-translation-feature-video-use.md)
+  + [Translating Content Fragments](content-fragments/content-fragments-translation-feature-video-use.md)
   + [Content Fragments vs. Experience Fragments](content-fragments/understand-content-fragments-and-experience-fragments.md)
 + Experience Fragments {#experience-fragments}
   + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
