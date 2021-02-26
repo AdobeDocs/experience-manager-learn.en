@@ -52,7 +52,7 @@ team: TM
   + [Smart Tags for Images](metadata/image-smart-tags.md)
   + [Custom Smart Tags for Images](metadata/custom-smart-tags.md)
   + [Smart Tags for Videos](metadata/video-smart-tags.md)
-  + [Import and Export Metadata](metadata/metadata-import-feature-video-use.md)
+  + [Import and Export Metadata](metadata/metadata-import-export.md)
 
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
