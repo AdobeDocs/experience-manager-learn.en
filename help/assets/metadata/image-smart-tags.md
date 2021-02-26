@@ -1,13 +1,12 @@
 ---
 title: Smart Tags for images with AEM Assets
 description: Smart tags for images augments AEM's search capabilities by automatically and intelligently adding metadata tags to image assets based on the contents of the image.
-feature: smart-tags
-topics: metadata, search
-audience: all
-doc-type: feature video
-activity: understand
-version: 6.3, 6.4, 6.5
-kt: 5244
+topic: Content Management
+feature: Smart Tags
+role: Business Practitioner
+level: Intermediate
+version: 6.3, 6.4, 6.5, cloud-service
+kt: 645
 thumbnail: 17019.jpg
 ---
 
@@ -38,4 +37,4 @@ The video details out the following tasks required to configure the Adobe I/O Sm
 
 ## Additional Resources
 
-* [AEM Assets Smart Tags documentation](https://helpx.adobe.com/experience-manager/6-3/assets/using/touch-ui-smart-tags.html)
+* [AEM Assets Smart Tags documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html)
