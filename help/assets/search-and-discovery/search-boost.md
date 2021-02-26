@@ -1,19 +1,15 @@
 ---
-title: Search Boost
-description: A in-depth look at AEM Assets search boosting and how it works in the broader context of AEM.
-topics: metadata, search
-audience: all
-doc-type: feature video
-activity: understand
-version: 6.3, 6.4, 6.5
+title: What is Search Boost in AEM Assets?
+description: Learn how to add key words and phrases to boost an Asset's search relevancy in Adobe Experience Manager.
+topic: Content Management
+feature: Search
+role: Business Practitioner
+level: Intermediate
+version: 6.3, 6.4, 6.5, cloud-service
+kt: 103
+thumbnail: 16766.jpg
 ---
 
-# Search Boosting with Asset Metadata {#search-boost-asset}
+# Search Boost
 
 >[!VIDEO](https://video.tv.adobe.com/v/16766/?quality=12&learn=on)
-
-## Understanding Search Boosting in AEM Assets{#understanding-search-boosting-in-aem-assets}
-
-An in-depth look at AEM Assets search boosting and how it works in the broader context of AEM.
-
->[!VIDEO](https://video.tv.adobe.com/v/16770/?quality=12&learn=on)
