@@ -184,6 +184,20 @@ An integrated development environment or IDE is an application that combines a t
 
 Below are a few of the more popular IDEs that are used with AEM development with corresponding videos that show the integration with a local AEM instance.
 
+>[!NOTE]
+>
+> The WKND Project has been updated to default to work on AEM as a Cloud Service. It has been updated to be [backwards compatible with 6.5/6.4](https://github.com/adobe/aem-guides-wknd#building-for-aem-6xx). If using AEM 6.5 or 6.4, append the `classic` profile to any Maven commands.
+
+```shell
+$ mvn clean install -PautoInstallSinglePackage -Pclassic
+```
+
+When using an IDE please make sure to check `classic` in your Maven Profile tab.
+
+![Maven Profile Tab](assets/set-up-a-local-aem-development-environment/intelliJMavenProfiles.png)
+
+*IntelliJ Maven Profile*
+
 ### [!DNL Eclipse] IDE
 
 The **[[!DNL Eclipse] IDE](https://www.eclipse.org/ide/)** is one of the more popular IDEs for Java development, in large part because it is open source and ***free***! Adobe provides a plugin, **[[!DNL AEM Developer Tools]](https://eclipse.adobe.com/aem/dev-tools/)**, for [!DNL Eclipse] to allow easier development with a nice GUI to synchronize code with a local AEM instance. The [!DNL Eclipse] IDE is recommended for developers new to AEM in large part because of the GUI support by [!DNL AEM Developer Tools].
