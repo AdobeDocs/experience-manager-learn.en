@@ -4,7 +4,7 @@ seo-title: Configuring line chart for your first interactive communication docum
 description: This is part 8 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will add a Line chart to display the account balance.
 seo-description: This is part 8 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will add a Line chart to display the account balance.
 uuid: a4394874-a080-4b6a-a3eb-ffc71504919d
-feature: interactive-communication
+feature: Interactive Communication
 topics: development
 audience: developer
 doc-type: tutorial
@@ -13,6 +13,9 @@ version: 6.4,6.5
 discoiquuid: 9110e5c6-50ee-4c3e-a779-b680ff49ef23
 kt: 5993
 thumbnail: 22386.jpg
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Configuring line chart for your first interactive communication document {#configuring-line-chart-for-your-first-interactive-communication-document}

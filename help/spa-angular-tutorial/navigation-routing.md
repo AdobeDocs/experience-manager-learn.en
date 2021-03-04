@@ -10,6 +10,9 @@ activity: develop
 audience: developer
 kt: 5312
 thumbnail: 5312-spa-angular.jpg
+topic: SPA
+role: Developer
+level: Beginner
 ---
 
 # Add navigation and routing {#navigation-routing}

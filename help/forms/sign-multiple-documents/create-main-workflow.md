@@ -1,7 +1,7 @@
 ---
 title: Create Main workflow to trigger the Signature Process
 description: Create workflow to store the forms for signature in the database
-feature: adaptive-forms
+feature: Adaptive Forms
 topics: development
 audience: developer
 doc-type: tutorial
@@ -9,6 +9,9 @@ activity: implement
 version: 6.4,6.5
 thumbnail: 6887.jpg
 kt: 6887
+topic: Development
+role: Developer
+level: Intermediate
 ---
 
 # Create main workflow

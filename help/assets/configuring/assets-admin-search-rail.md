@@ -2,14 +2,13 @@
 title: Assets admin search rail
 description: The Assets admin search rail allows assets to be searched for using custom criteria in Omnisearch.
 sub-product: assets
-feature: omnisearch
-topics: search
-audience: administrator, implementer
-doc-type: feature-video
-activity: setup
+feature: Search
 version: cloud-service
 kt: 4995
 thumbnail: 35842.jpg
+topic: Content Management
+role: Administrator
+level: Intermediate
 ---
 
 # Assets admin search rail

@@ -1,8 +1,10 @@
 ---
-title: Chapter 2 - Defining Event Content Fragment Models
-seo-title: Getting Started with AEM Content Services - Chapter 2 - Defining Event Content Fragment Models
-description: Chapter 2 of the AEM Headless tutorial covers enabling and defining Content Fragment Models used to define a normalized data structure and authoring interface for creating Events.
-seo-description: Chapter 2 of the AEM Headless tutorial covers enabling and defining Content Fragment Models used to define a normalized data structure and authoring interface for creating Events.
+title: "Chapter 2 - Dispatcher infrastructure"
+description: Understand the publish and dispatcher topology. Learn about the most common topologies and setups.
+feature: Dispatcher
+topic: Architecture
+role: Architect
+level: Beginner
 ---
 
 # Chapter 2 - Infrastructure

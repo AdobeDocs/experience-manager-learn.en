@@ -2,12 +2,15 @@
 title: Set up Social Posting with AEM Experience Fragments
 description: Experience Fragments allow marketers to post experiences created in AEM to social media platforms. The video below details the setup and configuration necessary to publish Experience Fragments to Facebook and Pinterest.
 sub-product: sites, content-services
-feature: experience-fragments
+feature: Experience Fragments
 topics: integrations, content-delivery
 audience: administrator, implementer, developer
 doc-type: setup
 activity: use
 version: 6.3, 6.4, 6.5
+topic: Content Management
+role: Administrator, Developer
+level: Intermediate
 ---
 
 # Setup Social Posting with Experience Fragments {#set-up-social-posting-with-experience-fragments}

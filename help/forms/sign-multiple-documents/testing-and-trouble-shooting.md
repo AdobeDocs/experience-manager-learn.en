@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot Signing Multiple Documents Solution
 description: Test and trouble shoot the solution
-feature: adaptive-forms
+feature: Adaptive Forms
 topics: development
 audience: developer
 doc-type: tutorial
@@ -9,6 +9,9 @@ activity: implement
 version: 6.4,6.5
 kt: 6960
 thumbnail: 6960.jpg
+topic: Development
+role: Developer
+level: Intermediate
 ---
 
 # Test and troubleshoot

@@ -1,8 +1,10 @@
 ---
-title: Chapter 3 - Advanced Caching Topics
-seo-title: AEM Dispatcher Cache Demystified - Chapter 3 - Advanced Caching Topics
-description: Chapter 3 of the AEM Dispatcher Cache Demystified tutorial covers how to overcome the limitations discussed in Chapter 2.
-seo-description: Chapter 3 of the AEM Dispatcher Cache Demystified tutorial covers how to overcome the limitations discussed in Chapter 2.
+title: "Chapter 3 - Advanced Dispatcher caching topics"
+description: This is Part 3 of a three part series to caching in AEM. Where the first two parts focused on plain http caching in the Dispatcher and what limitations there are. This part discusses some ideas on how to overcome these limitations.
+feature: Dispatcher
+topic: Architecture
+role: Architect
+level: Intermediate
 ---
 
 # Chapter 3 - Advanced Caching Topics

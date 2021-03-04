@@ -1,17 +1,10 @@
 ---
 title: Set up Asset Share Commons on local AEM
-seo-title: Set up Asset Share Commons on local AEM
 description: Materials for both the functional and technical understanding Assets Share Commons
-seo-description: Materials for both the functional and technical understanding Assets Share Commons
-uuid: a013bd40-0b50-4a48-b84d-e74e5d83e880
-discoiquuid: f504b2fb-1b05-4fbd-8f4f-9b68e92b2830
-contentOwner: dgonzale
-feature: asset-share, brand-portal
-topics: authoring, sharing, collaboration, search, integrations, publishing, metadata, images, renditions
-audience: all
-doc-type: feature video
-activity: use
 version: 6.3, 6.4, 6.5
+topic: Content Management
+role: Developer
+level: Intermediate
 ---
 
 # Set up Asset Share Commons on local AEM {#setup-asset-share-commons}

@@ -1,7 +1,6 @@
 ---
 title:  Add Target extension to a Launch Property
 description: Learn how to add the Adobe Target extension to an Adobe Experience Platform Launch Property.
-feature: launch
 topics: integrations, administration, development
 audience: administrator, developer
 doc-type: technical video
@@ -9,6 +8,9 @@ activity: setup
 version: cloud-service
 kt: 6131
 thumbnail: 41247.jpg
+topic: Integrations
+role: Developer
+level: Intermediate
 ---
 
 # Add Target extension to a Launch Property {#adobe-target-extension}

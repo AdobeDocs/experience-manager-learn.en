@@ -10,6 +10,9 @@ activity: develop
 audience: developer
 kt: 5310
 thumbnail: 5310-spa-angular.jpg
+topic: SPA
+role: Developer
+level: Beginner
 ---
 
 # Integrate a SPA {#integrate-spa}

@@ -1,7 +1,7 @@
 ---
 title: Build and deployments
 description: Adobe Cloud Manager facilitates the code build and deployments to AEM as a Cloud Service. Failures may occur during steps in the build process, requiring action to resolve them. This guide walks through understanding common failures in in the deployment, and how to best approach them.
-feature: 
+feature: Developer Tools
 topics: development
 version: cloud-service
 doc-type: tutorial
@@ -9,6 +9,9 @@ activity: develop
 audience: developer
 kt: 5434
 thumbnail: kt-5424.jpg
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Debugging AEM as a Cloud Service build and deployments 

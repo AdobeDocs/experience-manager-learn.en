@@ -10,6 +10,10 @@ activity: use
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 4322
 thumbnail: 32193.jpg
+feature: Publishing
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Publishing pages {#using-publication-management-with-aem-sites}

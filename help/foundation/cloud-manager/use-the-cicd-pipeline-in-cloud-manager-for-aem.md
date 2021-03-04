@@ -2,11 +2,13 @@
 title: Use the CI/CD Pipeline in Adobe Cloud Manager
 description: Adobe Cloud Manager provides a simple, yet flexible self-service CI/CD  Pipeline that allows AEM project teams to quickly, safely and consistently deploy code to all AEM environments hosted in AMS. This video series explores setting up and executing Cloud Manager's CI/CD Pipeline in both failure and success scenarios.
 sub-product: cloud-manager, foundation
-feature: pipelines, quality-gates
 topics: cicd, performance, best-practices, development, governance
 doc-type: feature video
 activity: understand
 audience: all
+topic: Architecture
+role: Developer
+level: Beginner
 ---
 
 # Use the CI/CD Pipeline in Adobe Cloud Manager

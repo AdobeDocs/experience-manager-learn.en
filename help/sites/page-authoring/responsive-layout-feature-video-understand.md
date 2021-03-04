@@ -3,7 +3,7 @@ title: Understanding Responsive Layout with AEM Sites
 seo-title: Understanding Responsive Layout with AEM Sites
 description: AEM allows you to have a responsive layout for your pages by using the Layout Container component. With the Responsive Layout, the content authors can create responsive content for different devices and preview end user experience within AEM.
 seo-description: Covers the steps to author responsive layout for different devices
-feature: template-editor, page-editor
+feature: Page Editor, Editable Templates
 topics: authoring, responsive
 audience: author, marketer
 doc-type: feature video
@@ -11,6 +11,9 @@ activity: use
 version: 6.3, 6.4, 6.5
 kt: 4252
 thumbnail: 32012.jpg
+topic: Content Management
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Understanding Responsive Layout {#understanding-responsive-layout-with-aem-sites}

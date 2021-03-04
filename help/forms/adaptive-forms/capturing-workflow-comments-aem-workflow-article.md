@@ -4,7 +4,7 @@ seo-title: Capturing workflow comments in Adaptive Forms Workflow
 description: Capturing workflow comments in AEM Workflow
 seo-description: Capturing workflow comments in AEM Workflow
 uuid: df41fc6f-9abf-47b4-a014-b3b9fb58b6f7
-feature: workflow
+feature: Workflow
 topics: development
 audience: developer
 doc-type: article
@@ -13,6 +13,9 @@ version: 6.3,6.4
 
 discoiquuid: d5e40650-3b1f-4875-91b2-e22d932b5e7c
 
+topic: Development
+role: Developer
+level: Experienced
 ---
 
 # Capturing workflow comments in Adaptive Forms Workflow{#capturing-workflow-comments-in-adaptive-forms-workflow}

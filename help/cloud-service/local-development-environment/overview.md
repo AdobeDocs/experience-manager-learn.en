@@ -1,7 +1,7 @@
 ---
 title: Local Development Environment for AEM as a Cloud Service
 description: Adobe Experience Manager (AEM) local development environment overview.
-feature: 
+feature: Developer Tools
 topics: development
 version: cloud-service
 doc-type: article
@@ -9,6 +9,9 @@ activity: troubleshoot
 audience: developer
 kt: 3290
 thumbnail: 32565.jpg
+topic: Development
+role: Developer
+level: Beginner
 ---
  
 # Local Development Environment Set up

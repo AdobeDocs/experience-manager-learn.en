@@ -9,6 +9,10 @@ activity: develop
 audience: developer
 kt: 5913
 thumbnail: 5913-spa-angular.jpg
+feature: SPA Editor
+topic: SPA
+role: Developer
+level: Beginner
 ---
 
 # Create your first Angular SPA in AEM {#introduction}

@@ -6,12 +6,15 @@ seo-description: This is part 6 of a multi-step tutorial for creating your first
 uuid: a1b29c5b-a323-4bda-aa99-5fb98614b690
 discoiquuid: b44ff855-9ead-471e-8f0f-b562b88a5337
 
-feature: interactive-communication
+feature: Interactive Communication
 topics: development
 audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.4,6.5
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Create Interactive Communication for Web Channel 

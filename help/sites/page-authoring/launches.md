@@ -4,7 +4,7 @@ description: Launches in AEM Sites provide a way to create, author, and review c
 topic: Content Management
 feature: Launches
 level: Intermediate, Experienced
-role: Business Practitioner
+role: Administrator
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 6970
 thumbnail: 331285.jpg

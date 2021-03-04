@@ -3,11 +3,14 @@ title: Develop Sling Model Exporters in AEM
 description: This technical walk through walks through setting up AEM for use with Sling Model Exporter, enhancing an existing Sling Model using the Exporter framework to rendition as JSON, and how to use Exporter options and Jackson annotations to further customize the output.
 version: 6.3, 6.4, 6.5
 sub-product: foundation, content-services
-feature: sling-models, sling-model-exporter
+feature: APIs
 topics: content-delivery, development, headless
 activity: develop
 audience: developer
 doc-type: technical video
+topic: Development
+role: Developer
+level: Intermediate
 ---
 
 # Develop Sling Model Exporters

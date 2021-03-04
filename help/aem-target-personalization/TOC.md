@@ -4,11 +4,6 @@ user-guide-description: An end-to-end tutorial showing how to deliver personaliz
 product: experience manager
 version: 6.5
 sub-product: sites
-audience: author, marketer, administrator, architect, developer
-doc-type: tutorial
-feature: experience-fragments
-topics: personalization, activities, experiences, integrations, offers
-activity: develop, understand
 index: y
 kt: 2214
 ---

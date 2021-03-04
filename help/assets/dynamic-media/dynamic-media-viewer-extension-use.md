@@ -1,15 +1,12 @@
 ---
 title: Using Dynamic Media Viewers with Adobe Analytics and Adobe Launch
-seo-title: Using Dynamic Media Viewers with Adobe Analytics and Adobe Launch
 description: The Dynamic Media Viewers extension for Adobe Launch, along with the release of Dynamic Media Viewers 5.13, lets customers of Dynamic Media, Adobe Analytics, and Adobe Launch use events and data specific for the Dynamic Media Viewers in their Adobe Launch configuration.
-seo-description: The Dynamic Media Viewers extension for Adobe Launch, along with the release of Dynamic Media Viewers 5.13, lets customers of Dynamic Media, Adobe Analytics, and Adobe Launch use events and data specific for the Dynamic Media Viewers in their Adobe Launch configuration. 
-sub-product: dynamic-media, analytics
-feature: asset-insights, media-player
-topics: images, videos, renditions, authoring, integrations, publishing 
-doc-type: feature video
-audience: all
-activity: use
+sub-product: Dynamic Media
+feature: Asset Insights
 version: 6.3, 6.4, 6.5
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Using Dynamic Media Viewers with Adobe Analytics and Adobe Launch{#using-dynamic-media-viewers-adobe-analytics-launch}

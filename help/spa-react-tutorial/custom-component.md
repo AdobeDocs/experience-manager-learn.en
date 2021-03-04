@@ -10,6 +10,9 @@ activity: develop
 audience: developer
 kt: 5878
 thumbnail: 5878-spa-react.jpg
+topic: SPA
+role: Developer
+level: Beginner
 ---
 
 # Create a Custom Component {#custom-component}

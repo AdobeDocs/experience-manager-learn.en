@@ -10,6 +10,9 @@ activity: develop
 audience: developer
 kt: 5831
 thumbnail: 5831-spa-angular.jpg
+topic: SPA
+role: Developer
+level: Beginner
 ---
 
 # Create a Custom Component {#custom-component}

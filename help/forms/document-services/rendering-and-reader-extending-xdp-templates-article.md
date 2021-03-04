@@ -9,9 +9,12 @@ audience: developer
 doc-type: article
 activity: implement
 version: 6.4,6.5
-feature: forms-service
+feature: Forms Service
 discoiquuid: aefb4124-91a0-4548-94a3-86785ea04549
 
+topic: Development
+role: Developer
+level: Experienced
 ---
 
 # Rendering XDP into PDF with Usage Rights{#rendering-xdp-into-pdf-with-usage-rights}

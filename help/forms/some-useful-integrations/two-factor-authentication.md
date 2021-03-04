@@ -1,7 +1,7 @@
 ---
 title: SMS Two Factor Authentication
 description: Add an extra layer of security to help confirm a user's identity when they want to perform certain activities
-feature: integrations
+feature: Adaptive Forms
 topics: adaptive forms
 audience: developer
 doc-type: article
@@ -9,6 +9,9 @@ activity: use
 version: 6.4,6.5
 kt: 6317
 
+topic: Development
+role: Developer
+level: Experienced
 ---
 
 

@@ -2,14 +2,13 @@
 title: Versions
 description: Explore how AEM creates and maintains asset versions.
 sub-product: assets
-feature: 
-topics: authoring, collaboration
-audience: author
-doc-type: feature video
-activity: use
+feature: Asset Management
 version: cloud-service
 kt: 4671
 thumbnail: 32052.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Versions

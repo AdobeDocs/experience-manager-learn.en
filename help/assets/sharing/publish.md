@@ -2,14 +2,13 @@
 title: How to Publish Assets using AEM
 description: Learn how to publish assets and their renditions from AEM Author to AEM Publish.
 sub-product: assets
-feature: Publishing
-topics: Content Management
-audience: author
-doc-type: feature video
-activity: use
+feature: Asset Management
 version: cloud-service
 kt: 330932
 thumbnail: 32194.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Publish 

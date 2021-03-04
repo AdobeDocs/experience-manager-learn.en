@@ -2,11 +2,14 @@
 title: Valuable Reports for Administrators
 description: Discover two valuable reports that administrators of Dynamic Media Classic should consider setting up.
 sub-product: dynamic-media, assets
-feature: reports
+feature: Dynamic Media Classic
 doc-type: tutorial
 topics: development, authoring, configuring, reports
 audience: all
 activity: use
+topic: Content Management
+role: Administrator
+level: Intermediate
 ---
 
 # Valuable Reports for Administrators {#valuable-reports}

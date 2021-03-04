@@ -1,7 +1,7 @@
 ---
 title:  Load and fire a Target call
 description: Learn how to load, pass parameters to page request, and fire a Target call from your site page using a Launch Rule. Page information is retrieved and passed as parameters using the Adobe Client Data Layer that lets you collect and store data about visitors' experience on a webpage and then make it easy to access this data.
-feature: launch, core-components, data-layer
+feature: Core Components, Adobe Client Data Layer
 topics: integrations, administration, development
 audience: administrator, developer
 doc-type: technical video
@@ -9,6 +9,9 @@ activity: setup
 version: cloud-service
 kt: 6133
 thumbnail: 41243.jpg
+topic: Integrations
+role: Developer
+level: Intermediate
 ---
 
 # Load and fire a Target call {#load-fire-target}

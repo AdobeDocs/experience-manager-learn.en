@@ -3,7 +3,7 @@ title: Overview of Authoring in AEM Sites
 seo-title: Overview of Authoring in AEM Sites
 description: The following video provides an overview of basic concepts of authoring in an AEM author environment. It uses the Sites console as a basis.
 seo-description: The following video provides an overview of basic concepts of authoring in an AEM author environment. It uses the Sites console as a basis.
-feature: page-editor, template-editor
+feature: Page Editor, Editable Templates
 topics: authoring, publishing
 audience: author, marketer
 doc-type: feature video
@@ -11,6 +11,9 @@ activity: use
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 4242
 thumbnail: 33594.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Authoring overview {#authoring-overview}

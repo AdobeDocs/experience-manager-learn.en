@@ -3,7 +3,7 @@ title: Understanding Page Properties in AEM Sites
 seo-title: Understanding Page Properties in Adobe Experience Manager Sites
 description: The following video introduces the page properties metadata associated with a page in Adobe Experience Manager.
 seo-description: The following video introduces the page properties metadata associated with a page in Adobe Experience Manager. 
-feature: page-editor
+feature: Page Editor
 topics: authoring, metadata
 audience: author, marketer
 doc-type: feature video
@@ -11,6 +11,9 @@ activity: understand
 version: 6.3, 6.4, 6.5
 kt: 4321
 thumbnail: 32192.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Understanding page properties {#understanding-page-properties-aem-sites}

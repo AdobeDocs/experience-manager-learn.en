@@ -9,6 +9,9 @@ activity: use
 version: cloud-service
 kt: 6873
 thumbnail: 26316.jpg
+topic: Architecture
+role: Architect, Developer, Administrator
+level: Beginner
 ---
 
 # Using Adobe Cloud Manager - CI/CD Production Pipeline

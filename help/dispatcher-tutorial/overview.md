@@ -3,6 +3,10 @@ title: AEM Dispatcher Cache Tutorial
 seo-title: AEM Dispatcher Cache Tutorial
 description: The goal of this tutorial is to help you better understand how the Dispatcher works and how you can work with it.
 seo-description: The goal of this tutorial is to help you better understand how the Dispatcher works and how you can work with it.
+feature: Dispatcher
+topic: Architecture
+role: Architect
+level: Beginner
 ---
 
 # AEM Dispatcher Cache Tutorial

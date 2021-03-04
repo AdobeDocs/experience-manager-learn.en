@@ -4,7 +4,7 @@ seo-title: Using Geolocation API's in Adaptive Forms
 description: Populate address fields on your form using the geolocation api's
 seo-description: Populate address fields on your form using the geolocation api's
 uuid: 5a461659-6873-4ea1-9f37-8296e5a9d895
-feature: adaptive-forms,
+feature: Adaptive Forms
 topics: integrations
 audience: developer
 doc-type: article
@@ -12,6 +12,9 @@ activity: develop
 version: 6.3,6.4,6.5
 
 discoiquuid: 3400251b-aee0-4d69-994b-e1643fabc868
+topic: Development
+role: Developer
+level: Experienced
 ---
 
 # Using Geolocation API's in Adaptive Forms{#using-geolocation-api-s-in-adaptive-forms}

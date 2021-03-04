@@ -4,7 +4,6 @@ user-guide-description: A tutorial that helps you better understand how the Disp
 version: 6.x
 sub-product: foundation
 doc-type: tutorial
-feature: dispatcher
 audience: architect, developer, implementer
 activity: develop, understand
 kt: 2233

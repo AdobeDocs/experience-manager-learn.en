@@ -6,6 +6,10 @@ doc-type: tutorial
 topics: best-practices, development, authoring, configuring
 audience: all
 activity: develop, use
+feature: Dynamic Media Classic
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Welcome to the Dynamic Media Classic Best Practices Tutorial

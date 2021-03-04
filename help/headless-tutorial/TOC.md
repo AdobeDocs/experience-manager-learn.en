@@ -4,11 +4,9 @@ user-guide-description: An end-to-end tutorial illustrating how to build-out and
 breadcrumb-title: AEM Headless Tutorial
 version: cloud-service
 sub-product: content-services
-audience: developer
-doc-type: tutorial
-feature: content-fragment, core-components
-topics: content-delivery
 audience: architect, developer, implementer
+doc-type: tutorial
+topics: content-delivery
 activity: develop, understand
 kt: 2963
 index: y

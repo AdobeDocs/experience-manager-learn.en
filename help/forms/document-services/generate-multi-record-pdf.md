@@ -1,12 +1,15 @@
 ---
 title: Generating multiple pdf's from one data file
 seo-title: Generating multiple pdf's from one data file
-feature: output-service
+feature: Output Service
 topics: development
 audience: developer
 doc-type: article
 activity: implement
 version: 6.4,6.5
+topic: Development
+role: Developer
+level: Experienced
 ---
 
 # Generate a set of PDF Documents from one xml data file

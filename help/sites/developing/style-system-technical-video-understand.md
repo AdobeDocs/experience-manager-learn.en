@@ -1,12 +1,15 @@
 ---
 title: Understanding how to code for the AEM Style System
 description: In this video we'll take a look at the anatomy of the CSS (or LESS) and JavaScript used to style Adobe Experience Manage's Core Title Component using the Style System, as well as how these styles are applied to the HTML and DOM.
-feature: style-system
+feature: Style System
 topics: development, components, front-end-development
 audience: developer, implementer
 doc-type: technical video
 activity: understand
 version: 6.4, 6.5
+topic: Development
+role: Developer
+level: Intermediate, Experienced
 ---
 
 # Understanding how to code for the Style System{#understanding-how-to-code-for-the-aem-style-system}

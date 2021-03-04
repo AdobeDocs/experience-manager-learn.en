@@ -1,15 +1,11 @@
 ---
 title: Understanding Multitenancy and Concurrent Development
-seo-title: Understanding Multitenancy and Concurrent Development
 description: Learn about the benefits, challenges, and techniques to manage a multi-tenant implementation with Adobe Experience Manager Assets.
-uuid: 682093fe-ce55-4ef8-af10-99f7062f8b1b
-discoiquuid: 0dfcdf39-7423-459f-8f35-ee5b4b829f2c
-feature: connected-assets
-topics: authoring, operations, sharing, publishing
-audience: all
-doc-type: article
-activity: understand
+feature: Connected Assets
 version: 6.5
+topic: Development
+role: Developer
+level: Intermediate
 ---
 
 # Understanding Multitenancy and Concurrent Development {#understanding-multitenancy-and-concurrent-development}

@@ -2,12 +2,12 @@
 title: Basic Operations
 description: Learn about the basic operations of AEM Assets including how to create folders, as well as upload, copy, move and delete assets.
 feature: Asset Management
-topics: Content Management
 role: Business Practitioner
 level: Beginner
 version: cloud-service
 kt: 4299
 thumbnail: 32044.jpg
+topic: Content Management
 ---
 
 # Basic Operations

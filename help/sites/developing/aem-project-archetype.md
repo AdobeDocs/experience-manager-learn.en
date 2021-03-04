@@ -1,7 +1,7 @@
 ---
 title: AEM Project Archetype
 description: The AEM Project Archetype creates a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects. 
-feature: maven-archetype
+feature: AEM Project Archetype
 topics: development
 audience: developer
 doc-type: technical video
@@ -9,6 +9,9 @@ activity: understand
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 4675
 thumbnail: 32550.jpg
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # [!DNL AEM Project Archetype] {#aem-project-archetype}

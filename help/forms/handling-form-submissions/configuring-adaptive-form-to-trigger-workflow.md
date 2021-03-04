@@ -2,7 +2,7 @@
 title: Configuring Adaptive Form to trigger AEM Workflow
 description: Configure payload options when triggering AEM workflow on form submission
 sub-product: forms
-feature: workflow
+feature: Workflow
 topics: integrations
 audience: developer
 doc-type: article
@@ -10,6 +10,9 @@ activity: setup
 version: 6.4,6.5
 kt: 5407
 thumbnail: 40258.jpg
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Configuring Adaptive Form to trigger AEM Workflow

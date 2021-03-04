@@ -1,13 +1,16 @@
 ---
 title: Using Batch API for generating Interactive Communication documents
 description: Sample assets for generating print channel documents using batch API
-feature: interactive-communication
+feature: Interactive Communication
 topics: development
 audience: developer
 doc-type: article
 activity: implement
 version: 6.5
 
+topic: Development
+role: Developer
+level: Intermediate
 ---
 
 # Batch API

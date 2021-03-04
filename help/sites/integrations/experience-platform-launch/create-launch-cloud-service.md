@@ -1,7 +1,6 @@
 ---
 title: Create a Launch Cloud Service configuration
 description: Learn how to create a new Launch Cloud Services configuration. The Launch Cloud Service configuration can then be applied to an existing Site and the Launch libraries can be observed loading in both Author and Publish environments.
-feature: launch
 topics: integrations
 audience: administrator
 doc-type: technical video
@@ -9,6 +8,9 @@ activity: setup
 version: cloud-service
 kt: 5982
 thumbnail: 38566.jpg
+topic: Integrations
+role: Developer
+level: Intermediate
 ---
 
 # Create a Launch Cloud Service configuration {#create-launch-cloud-service}

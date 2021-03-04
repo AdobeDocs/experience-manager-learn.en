@@ -9,6 +9,9 @@ activity: setup
 version: cloud-service
 kt: 5332
 thumbnail: 5332-collect-data-analytics.jpg
+topic: Integrations
+role: Developer
+level: Intermediate
 ---
 
 # Collect page data with Adobe Analytics
@@ -85,7 +88,7 @@ The [WKND Reference project](https://github.com/adobe/aem-guides-wknd) is built 
     ```json
     page-2eee4f8914:
         @type: "wknd/components/page"
-        dc:description: "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
+        dc:description: WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.
         dc:title: "WKND Adventures and Travel"
         repo:modifyDate: "2020-08-31T21:02:21Z"
         repo:path: "/content/wknd/us/en.html"

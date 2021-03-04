@@ -2,14 +2,13 @@
 title: Processing profiles
 description: Processing profiles define the renditions to be created for assets in AEM as a Cloud Service.
 sub-product: assets
-feature: processing-profiles
-topics: renditions
-audience: administrator, implementer
-doc-type: feature-video
-activity: use
+feature: Asset Compute Microservices
 version: cloud-service
 kt: 4993
 thumbnail: 35597.jpg
+topic: Integrations
+role: Developer
+level: Beginner
 ---
 
 # Processing profiles

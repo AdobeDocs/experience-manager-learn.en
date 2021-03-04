@@ -8,6 +8,9 @@ activity: understand
 version: cloud-service
 kt: 4643
 thumbnail: 32030.jpg
+topic: Architecture
+role: Architect, Developer
+level: Beginner
 ---
 
 # Introduction to the Java Content Repository (JCR) {#introduction-jcr}

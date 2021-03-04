@@ -4,11 +4,14 @@ description: The Content Transfer Tool is the recommended way to migrate content
 version: cloud-service
 doc-type: technical-video
 topics: migration
-feature: content-transfer-tool
+feature: Migration
 activity: develop
 audience: developer
 kt: 5352
 thumbnail: kt-5352.jpg
+topic: Migration
+role: Architect, Developer
+level: Beginner
 ---
 
 # Using the Content Transfer Tool

@@ -3,12 +3,15 @@ title: Displaying inline images in Adaptive Forms
 seo-title: Displaying inline images in Adaptive Forms
 description: Display uploaded images inline in Adaptive Forms
 seo-description: Display uploaded images inline in Adaptive Forms
-feature: adaptive-forms
+feature: Adaptive Forms
 topics: development
 audience: developer
 doc-type: article
 activity: setup
 version: 6.3,6.4,6.5
+topic: Development
+role: Developer
+level: Experienced
 ---
 
 # Inline images in Adaptive Forms

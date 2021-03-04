@@ -6,6 +6,10 @@ audience: developer
 doc-type: tutorial
 activity: develop
 version: 6.3, 6.4, 6.5
+feature: Search
+topic: Development
+role: Developer
+level: Intermediate, Experienced
 ---
 
 # Simple search implementation guide{#simple-search-implementation-guide}

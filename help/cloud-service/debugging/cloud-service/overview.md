@@ -1,13 +1,16 @@
 ---
 title: Debugging AEM as a Cloud Service
 description: on self-service, scalable, cloud infrastructure, which makes requires AEM developers to understand how to understand and debug various facets of AEM as a Cloud Service, from build and deploy to obtaining details of running AEM applications.
-feature: 
+feature: Developer Tools
 topics: development
 version: cloud-service
 doc-type: tutorial
 activity: develop
 audience: developer
 kt: 5346
+topic: Development
+role: Developer
+level: Beginner, Intermediate
 ---
 
 # Debugging AEM as a Cloud Service

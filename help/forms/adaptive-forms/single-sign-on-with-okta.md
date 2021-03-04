@@ -1,12 +1,15 @@
 ---
 title: Configuring OKTA with AEM
 description: Understand various configuration settings for using single sign-on using okta
-feature: administration
+feature: Adaptive Forms
 topics: development, authentication, security
 audience: developer
 doc-type: tutorial
 activity: setup
 version: 6.5
+topic: Administration
+role: Administrator
+level: Experienced
 ---
 
 # Authenticate to AEM Author using OKTA

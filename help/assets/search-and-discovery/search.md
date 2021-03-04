@@ -1,14 +1,13 @@
 ---
 title: Search
 description: Learn how to use AEM's Omnisearch to quickly discover assets.
-feature: omnisearch
-topics: authoring, search
-audience: author
-doc-type: feature video
-activity: use
+feature: Search
 version: cloud-service
 kt: 4312
 thumbnail: 32054.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Search{#aem-assets-search}

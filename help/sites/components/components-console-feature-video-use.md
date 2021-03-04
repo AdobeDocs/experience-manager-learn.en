@@ -6,6 +6,10 @@ audience: all
 doc-type: feature video
 version: 6.3, 6.4, 6.5
 activity: use
+feature: Core Components
+topic: Content Management
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Using the Components Console {#using-the-components-console-with-aem-sites}

@@ -2,14 +2,13 @@
 title: Auto-start Workflows
 description: Auto-start workflows extend asset processing by automatically invoking custom workflow upon upload or re-processing.
 sub-product: assets
-feature: workflows
-topics: workflow
-audience: administrator, implementer
-doc-type: feature-video
-activity: use
+feature: Asset Compute Microservices, Workflow
 version: cloud-service
 kt: 4994
 thumbnail: 37323.jpg
+topic: Development
+role: Developer
+level: Intermediate
 ---
 
 # Auto-start Workflows

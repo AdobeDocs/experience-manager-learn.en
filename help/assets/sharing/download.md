@@ -2,14 +2,13 @@
 title: Download
 description: Learn how to download assets and their renditions to your local machine for use and sharing.
 sub-product: assets
-feature: 
-topics: authoring
-audience: author
-doc-type: feature video
-activity: use
+feature: Asset Management
 version: cloud-service
 kt: 4300
 thumbnail: 32194.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Download

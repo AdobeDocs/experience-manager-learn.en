@@ -4,7 +4,7 @@ seo-title: Modify Data Source Configuration Settings.
 description: Modify the host name and other settings in Data Source Configuration Settings.
 seo-description: Modify the host name and other settings in Data Source Configurations Settings.
 
-feature: integrations
+feature: Adaptive Forms
 topics: form-data-model
 audience: developer
 doc-type: technical video
@@ -13,6 +13,9 @@ version: 6.5
 uuid: 31e297c9-3d12-4a7a-b1ff-1e347e17b24c
 
 discoiquuid: de227e8f-0f59-4506-828b-3b6b18b61eb1
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Ability to modify Data Source Configuration Settings{#ability-to-modify-data-source-configuration-settings}

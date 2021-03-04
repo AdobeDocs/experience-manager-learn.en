@@ -1,13 +1,16 @@
 ---
 title: Using XDP templates with AEM Forms and Adobe Sign
 description: Using XDP templates with AEM Forms and Adobe Sign. A video that details leveraging existing XDP templates with AEM Forms and Sign integration.
-feature: adaptive-forms
+feature: Adaptive Forms
 topics: development
 audience: developer
 doc-type: article
 activity: implement
 thumbnail: 39705.jpg
 kt: 6143
+topic: Development
+role: Developer
+level: Beginner
 ---
 # Using XDP templates with AEM Forms and Adobe Sign
 

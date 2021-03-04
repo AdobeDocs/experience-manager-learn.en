@@ -4,7 +4,7 @@ seo-title: Adding components to Income panel
 description: We will add a table to the Income panel. Configure the table rows and use the rule editor to calculate the grand total.
 seo-description: We will add a table to the Income panel. Configure the table rows and use the rule editor to calculate the grand total.
 uuid: d5c98561-c559-4624-976a-7a1486da7e69
-feature: adaptive-forms
+feature: Adaptive Forms
 topics: authoring
 audience: developer
 doc-type: tutorial
@@ -14,6 +14,9 @@ thumbnail: 22198.jpg
 kt: 4211
 
 discoiquuid: fa483260-38ff-40d8-96a7-1de11d8b792b
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Adding components to Income panel {#adding-components-to-income-panel}
