@@ -10,6 +10,10 @@ audience: developer
 mini-toc-levels: 1
 kt: 6718
 thumbnail: KT-6718.jpg
+feature: "Content Fragments, GraphQL APIs"
+topic: "Headless, Content Management"
+role: Developer
+level: Beginner
 ---
 
 # Advanced data modeling with Fragment References

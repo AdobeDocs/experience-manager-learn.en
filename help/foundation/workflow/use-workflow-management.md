@@ -1,11 +1,16 @@
 ---
 title: How to manage Workflow in AEM
 description: AEM Workflow management provides a user with more visibility over content under workflow, and allows for easier management of Workflow model definitions. 
-version: 6.5, cloud-service
+version: 6.5
+sub-product: foundation, sites, assets
 feature: Workflow
-topic: Content Management
-role: Administrator
-level: Intermediate
+topics: governance, collaboration
+activity: use
+audience: administrator
+doc-type: feature video
+topic: Collaboration
+role: Developer
+level: Beginner
 kt: 2557
 thumbnail: 27848.jpg
 ---

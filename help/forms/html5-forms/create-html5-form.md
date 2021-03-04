@@ -1,7 +1,7 @@
 ---
 title: Create HTML5 Forms
 description: Create and configure HTML5 forms
-feature: mobile-forms
+feature: Mobile Forms
 topics: development
 audience: developer
 doc-type: article
@@ -9,6 +9,9 @@ activity: implement
 version: 6.4,6.5
 kt: 4419
 thumbnail: kt-4419.jpg
+topic: Development
+role: Business Practitioner
+level: Beginner
 ---
 
 # Create HTML5 forms

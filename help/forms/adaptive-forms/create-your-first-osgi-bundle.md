@@ -1,12 +1,15 @@
 ---
 title: Creating your first OSGi bundle with AEM forms
 description: Build your first OSGi bundle using maven and eclipse
-feature: administration
+feature: Adaptive Forms
 topics: development
 audience: developer
 doc-type: article
 activity: setup
 version: 6.4,6.5
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Create your first OSGi bundle

@@ -4,7 +4,7 @@ seo-title: Using Microsoft Dynamics with AEM Forms
 description: This video walks through a workflow showing how AEM Forms can work with Microsoft Dynamics as a back-end data source to deliver interactive, personalized communications.
 seo-description: This video walks through a workflow showing how AEM Forms can work with Microsoft Dynamics as a back-end data source to deliver interactive, personalized communications.
 uuid: 33d63899-1f58-49b3-a05e-6c57b01ef911
-feature: adaptive-forms, form-data-model
+feature: Adaptive Forms
 topics: integrations
 audience: developer
 doc-type: feature video
@@ -12,6 +12,9 @@ activity: setup
 version: 6.3,6.4,6.5
 
 discoiquuid: 6cb82275-55bc-4b9e-b958-75b906c6afa9
+topic: Development
+role: Developer
+level: Intermediate
 ---
 
 # Using Microsoft Dynamics with AEM Forms{#using-microsoft-dynamics-with-aem-forms}

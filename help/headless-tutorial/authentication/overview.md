@@ -9,6 +9,9 @@ activity: develop
 audience: developer
 kt: 6785
 thumbnail: 330460.jpg
+topic: "Headless, Integrations"
+role: Developer
+level: "Intermediate, Experienced"
 ---
 
 # Token-based authentication to AEM as a Cloud Service

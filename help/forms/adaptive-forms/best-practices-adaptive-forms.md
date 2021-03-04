@@ -3,12 +3,15 @@ title: Naming conventions and best practices to be followed when creating adapti
 seo-title: Naming conventions and best practices to be followed when creating adaptive forms
 description: Naming conventions and best practices to be followed when creating adaptive forms
 seo-description: Naming conventions and best practices to be followed when creating adaptive forms
-feature: adaptive-forms
+feature: Adaptive Forms
 topics: best-practices
 audience: developer
 doc-type: article
 activity: setup
 version: 6.3,6.4,6.5
+topic: Development
+role: Developer
+level: Beginner
 ---
 # Best Practices
 

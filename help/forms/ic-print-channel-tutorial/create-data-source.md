@@ -5,7 +5,7 @@ description: This is part 2 of multistep tutorial for creating your first intera
 seo-description: This is part 2 of multistep tutorial for creating your first interactive communications document. In this part, we will create a REST backed data source.  The following video walks thru the steps to create the data source.
 uuid: b9d5c220-3e86-4e7d-8ea0-a7f604dde925
 
-feature: interactive-communication
+feature: Interactive Communication
 topics: development
 audience: developer
 doc-type: tutorial
@@ -14,6 +14,9 @@ version: 6.4,6.5
 targetaudience: target-audience ongoing
 thumbnail: 27765.jpg
 kt: 5954
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Creating DataSource Configuration in AEM Forms{#creating-datasource-configuration-in-aem-forms}
