@@ -1,13 +1,11 @@
 ---
 title: Customizing Annotations in AEM Assets
-seo-title: Customizing Annotations in AEM Assets
 description: AEM Assets format and style when output to PDF can be configued by AEM Developers.
-feature: asset-share
-topics: authoring, collaboration, operations, sharing
-audience: developer
-doc-type: feature video
-activity: developer
+feature: Collaboration
 version: 6.3, 6.4, 6.5
+topic: Collaboration
+role: Developer
+level: Intermediate
 ---
 
 # Customizing Annotations in AEM Assets{#using-annotations-in-aem-assets}

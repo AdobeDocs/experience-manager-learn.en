@@ -9,6 +9,9 @@ activity: use
 version: cloud-service
 kt: 6871
 thumbnail: 26318.jpg
+topic: Architecture
+role: Architect, Developer, Administrator
+level: Beginner
 ---
 
 # Using Adobe Cloud Manager - Environments

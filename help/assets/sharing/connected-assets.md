@@ -1,13 +1,11 @@
 ---
 title: Using Connected Assets with AEM Sites
 description: The Connected Assets feature allows an AEM Sites author to seamlessly share digital assets hosted on a different instance of AEM.
-feature: connected-assets
-topics: authoring, operations, sharing, publishing
-audience: all
-doc-type: feature video
-activity: use
+feature: Connected Assets
 version: 6.5
-redirect-from: https://docs.adobe.com
+topic: Content Management
+role: Developer
+level: Intermediate
 ---
 
 # Using Connected Assetswith AEM Assets{#using-connected-assets-with-aem-assets}

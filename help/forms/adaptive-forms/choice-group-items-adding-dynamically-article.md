@@ -3,12 +3,15 @@ title: Adding items to choice group component
 seo-title: Adding items to choice group component
 description: Add items to choice group component dynamically
 seo-description: Add items to choice group component dynamically
-feature: adaptive-forms
+feature: Adaptive Forms
 topics: authoring
 audience: developer
 doc-type: tutorial
 activity: understand
 version: 6.5
+topic: Development
+role: Business Practitioner
+level: Beginner
 ---
 
 

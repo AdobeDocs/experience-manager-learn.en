@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot Asset Compute extensibility for AEM Assets
 description: The following is an index of common issues and errors, along with the resolutions, that might be encountered when developing and deploying custom Asset Compute workers for AEM Assets.
-feature: asset-compute
+feature: Asset Compute Microservices
 topics: renditions, metadata, development
 version: cloud-service
 doc-type: tutorial
@@ -9,6 +9,9 @@ activity: develop
 audience: developer
 kt: 5802
 thumbnail: KT-5802.jpg
+topic: Integrations, Development
+role: Developer
+level: Intermediate, Experienced
 ---
 
 # Troubleshoot Asset Compute extensibility

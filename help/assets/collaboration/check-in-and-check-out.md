@@ -2,14 +2,13 @@
 title: Check in and Check out
 description: Learn how to use AEM's check in and check out features to facilitate multi-user collaboration on assets.
 sub-product: assets
-feature: 
-topics: authoring, collaboration
-audience: author
-doc-type: feature video
-activity: use
+feature: Asset Management
 version: cloud-service
 kt: 4542
 thumbnail: 32048.jpg
+topic: Collaboration
+role: Business Practitioner
+level: Beginner
 ---
 
 # Check in and Check out

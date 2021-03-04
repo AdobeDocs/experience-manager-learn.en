@@ -8,6 +8,9 @@ activity: understand
 version: cloud-service
 kt: 4642
 thumbnail: 32031.jpg
+topic: Architecture
+role: Architect, Developer
+level: Beginner
 ---
 
 # Introduction to [!DNL OSGi] {#introduction-osgi}

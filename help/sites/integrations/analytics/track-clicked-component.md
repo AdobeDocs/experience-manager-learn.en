@@ -9,6 +9,9 @@ activity: setup
 version: cloud-service
 kt: 6296
 thumbnail: KT-6296.jpg
+topic: Integrations
+role: Developer
+level: Intermediate
 ---
 
 # Track clicked component with Adobe Analytics

@@ -1,7 +1,7 @@
 ---
 title: Create an Asset Compute project for Asset Compute extensibility
 description: Asset Compute projects are Node.js projects, generated using the Adobe I/O CLI, that adhere to a certain structure allowing them to be deployed to Adobe I/O Runtime and integrated with AEM as a Cloud Service.
-feature: asset-compute
+feature: Asset Compute Microservices
 topics: renditions, development
 version: cloud-service
 activity: develop
@@ -9,6 +9,9 @@ audience: developer
 doc-type: tutorial
 kt: 6269
 thumbnail: 40197.jpg
+topic: Integrations, Development
+role: Developer
+level: Intermediate, Experienced
 ---
 
 # Create an Asset Compute project

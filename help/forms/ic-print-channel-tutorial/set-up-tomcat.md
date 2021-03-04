@@ -4,7 +4,7 @@ seo-title: Install and Configure Tomcat
 description: This is part 1 of multistep tutorial for creating your first interactive communications document.In this part, we will install TOMCAT and deploy the sampleRest.war file in TOMCAT. The REST endpoint exposed by this WAR file will be the basis for our Data Source and Form Data Model.
 seo-description: This is part 1 of multistep tutorial for creating your first interactive communications document.In this part, we will install TOMCAT and deploy the sampleRest.war file in TOMCAT. The REST endpoint exposed by this WAR file will be the basis for our Data Source and Form Data Model.
 uuid: 835e2342-82b6-4f0c-9a6b-467bbbd8527a
-feature: interactive-communication
+feature: Interactive Communication
 topics: development
 audience: developer
 doc-type: tutorial
@@ -15,6 +15,9 @@ thumbnail: 37815.jpg
 discoiquuid: 5f68be3d-aa35-4a3f-aaea-b8ee213c87ae
 
 
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Install and Configure Tomcat {#install-and-configure-tomcat}

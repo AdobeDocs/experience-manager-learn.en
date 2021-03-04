@@ -3,7 +3,7 @@ title: Introduction to AEM Sites Content Hierarchy
 seo-title: Introduction to AEM Sites Content Hierarchy
 description: The following video highlights how site pages are stored within AEM for your organization.
 seo-description: The following video highlights how site pages are stored within AEM for your organization.
-feature: page-editor
+feature: Page Editor
 topics: authoring, publishing
 audience: author, marketer
 doc-type: feature video
@@ -11,6 +11,9 @@ activity: use
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 4243
 thumbnail: 31785.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Content structure and hierarchy {#content-hierarchy}

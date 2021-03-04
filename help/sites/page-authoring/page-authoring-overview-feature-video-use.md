@@ -3,7 +3,7 @@ title: Authoring a page in AEM Sites
 seo-title: The following video highlights how to author a new page in Adobe Experience Manager Sites using the Site Editor's UI
 description: The following video highlights how to author a new page in Adobe Experience Manager Sites using the Site Editor's UI
 seo-description: The following video highlights how to author a new page in Adobe Experience Manager Sites using the Site Editor's UI
-feature: page-editor, template-editor
+feature: Page Editor, Editable Templates
 topics: authoring, publishing
 audience: author, marketer
 doc-type: feature video
@@ -11,6 +11,9 @@ activity: use
 version: 6.3, 6.4, 6.5
 kt: 4497
 thumbnail: 31828.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Authoring a page {#authoring-page-aem-sites}

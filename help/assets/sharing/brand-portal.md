@@ -1,15 +1,11 @@
 ---
 title: Using Brand Portal
-seo-title: Using Brand Portal with AEM Assets
 description: Video walk-throughs of the AEM Author and AEM Assets Brand Portal integration.
-seo-description: Video walk-throughs of the AEM Author and AEM Assets Brand Portal integration.
-feature: brand-portal
-topics: authoring, sharing, collaboration, search, integrations, publishing, metadata, images, renditions, administration
-audience: all
-doc-type: feature video
-activity: use
+feature: Brand Portal
 version: 6.3, 6.4, 6.5
-team: tm
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Using Brand Portal with AEM Assets{#using-brand-portal-with-aem-assets}

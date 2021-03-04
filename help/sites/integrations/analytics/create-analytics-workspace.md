@@ -9,6 +9,9 @@ activity: setup
 version: cloud-service
 kt: 6409
 thumbnail: KT-6296.jpg
+topic: Integrations
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Analyze data with Analysis Workspace

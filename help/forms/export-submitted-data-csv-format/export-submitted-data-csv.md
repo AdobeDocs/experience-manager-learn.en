@@ -1,11 +1,14 @@
 ---
 title: Exporting submitted form data in CSV format
 description: Export submitted adaptive form data in CSV Format
-feature: adaptive-forms
+feature: Adaptive Forms
 topics: development
 audience: developer
 doc-type: article
 activity: implement
+topic: Development
+role: Developer
+level: Experienced
 ---
 # Introduction
 

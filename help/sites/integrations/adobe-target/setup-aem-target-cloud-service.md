@@ -1,7 +1,6 @@
 ---
 title:  Create Adobe Target Cloud Service account in AEM
 description: Integrate Adobe Experience Manager as a Cloud Service with Adobe Target using Cloud Service and Adobe IMS authentication.
-feature: cloud-services
 topics: integrations, administration, development
 audience: administrator, developer
 doc-type: technical video
@@ -9,6 +8,9 @@ activity: setup
 version: cloud-service
 kt: 6044
 thumbnail: 41244.jpg
+topic: Integrations
+role: Administrator
+level: Intermediate
 ---
 
 # Create Adobe Target Cloud Service account {#adobe-target-cloud-service}

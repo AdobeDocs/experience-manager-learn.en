@@ -1,12 +1,15 @@
 ---
 title: Understanding Style System Best Practices with AEM Sites
 description: A detailed article explaining the best practices when it comes to implementing the Style System with Adobe Experience Manager Sites.
-feature: style-system
+feature: Style System
 topics: development, components, front-end-development
 audience: developer
 doc-type: article
 activity: understand
 version: 6.4, 6.5
+topic: Development
+role: Developer
+level: Intermediate, Experienced
 ---
 
 # Understanding Style System Best Practices{#understanding-style-organization-with-the-aem-style-system}

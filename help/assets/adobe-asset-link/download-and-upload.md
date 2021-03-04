@@ -2,14 +2,13 @@
 title: Download and Upload
 description: Learn how to download and upload asset files from and to AEM Assets using the Asset Link panel.
 sub-product: assets
-feature: adobe-asset-link
-topics: authoring, collaboration, operations, sharing, metadata, images, operations
-audience: all
-doc-type: feature video
-activity: use
-version: 
-kt : 4908
+feature: Adobe Asset Link
+version: 6.4, 6.5, cloud-service
+kt: 4908
 thumbnail: 33885.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Download and Upload {#download-and-upload}

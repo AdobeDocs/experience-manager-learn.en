@@ -10,6 +10,10 @@ audience: developer
 mini-toc-levels: 1
 kt: 6386
 thumbnail: KT-6386.jpg
+feature: Content Fragments, GraphQL APIs
+topic: Headless, Content Management
+role: Developer
+level: Beginner
 ---
 
 # Quick Setup {#setup}

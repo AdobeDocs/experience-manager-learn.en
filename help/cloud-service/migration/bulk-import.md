@@ -4,11 +4,14 @@ description: The Bulk Import tool in AEM as a Cloud Service allows administrator
 version: cloud-service
 doc-type: technical-video
 topics: Migration
-feature: Bulk Import
+feature: Migration
 activity: develop
 audience: developer
 kt: 6729
 thumbnail: 329680.jpg
+topic: Migration
+role: Architect, Developer
+level: Beginner
 ---
 
 # Using Bulk Import

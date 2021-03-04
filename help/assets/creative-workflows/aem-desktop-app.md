@@ -3,13 +3,11 @@ title: AEM Desktop App
 description: Use AEM Desktop App to simplify access to any asset managed in AEM on desktop, for any application and file format.
 kt: 2551
 sub-product: assets
-feature: desktop-app
-topics: authoring, collaboration, content-velocity
+feature: Experience Manager Desktop App
 version: 6.5, 6.4, 6.3
-doc-type: feature video
-activity: use
-team: TM
-audience: author, marketer
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
  
 # Use AEM Desktop App

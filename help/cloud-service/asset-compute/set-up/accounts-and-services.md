@@ -1,7 +1,7 @@
 ---
 title: Set up accounts and services for Asset Compute extensibility
 description: Developing Asset Compute workers require access to accounts and services including AEM as a Cloud Service, Adobe Project Firefly, and cloud storage provided by Microsoft or Amazon.
-feature: asset-compute
+feature: Asset Compute Microservices
 topics: renditions, development
 version: cloud-service
 activity: develop
@@ -9,6 +9,9 @@ audience: developer
 doc-type: tutorial
 kt: 6264
 thumbnail: 40377.jpg
+topic: Integrations, Development
+role: Developer
+level: Intermediate, Experienced
 ---
 
 # Set up accounts and services

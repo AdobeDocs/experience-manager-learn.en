@@ -1,7 +1,7 @@
 ---
 title: Verify users with OTP
 description: Verify the mobile number associated with the application number using OTP.
-feature: integrations
+feature: Adaptive Forms
 topics: adaptive forms
 audience: developer
 doc-type: article
@@ -10,6 +10,9 @@ version: 6.4,6.5
 kt: 6594
 thumbnail: 6594.jpg
 
+topic: Development
+role: Developer
+level: Experienced
 ---
 
 

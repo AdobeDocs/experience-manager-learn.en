@@ -2,12 +2,15 @@
 title: Authoring Content Fragments in AEM
 description: Content Fragments are a content abstraction in AEM that allows text-based content to be authored and managed independently of the channels it supports. 
 sub-product: content-services
-feature: content-fragments
+feature: Content Fragments
 topics: authoring, content-architecture
 audience: all
 doc-type: feature video
 activity: use
 version: cloud-service
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Authoring Content Fragments {#authoring-content-fragments}

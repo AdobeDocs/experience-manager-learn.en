@@ -1,14 +1,12 @@
 ---
 title: Adobe IMS product profiles and AEM
 description: Adobe IMS product profiles entitle users to log into an AEM Author service, and provide a baseline of access, depending on the which product profile they are are member of.
-feature: users-and-groups
-topics: authorization, permissions
-version: cloud-service
-activity: setup
-audience: administrator
-doc-type: feature video
+feature: Users and Groups
 kt: 5000
 thumbnail: 39156.jpg
+topic: Administration, Security
+role: Administrator
+level: Beginner
 ---
 
 # Adobe IMS product profiles

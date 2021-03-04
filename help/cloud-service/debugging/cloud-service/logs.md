@@ -1,7 +1,7 @@
 ---
 title: Logs
 description: Logs act as the frontline for debugging AEM applications in AEM as a Cloud Service, but are dependent on adequate logging in the deployed AEM application.
-feature: 
+feature: Developer Tools
 topics: development
 version: cloud-service
 doc-type: tutorial
@@ -9,6 +9,9 @@ activity: develop
 audience: developer
 kt: 5432
 thumbnail: kt-5432.jpg
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Debugging AEM as a Cloud Service using logs
