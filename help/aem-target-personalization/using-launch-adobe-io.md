@@ -3,6 +3,10 @@ title: Integrating Adobe Experience Manager with Adobe Target using Experience P
 seo-title: Integrating Adobe Experience Manager with Adobe Target using Experience Platform Launch and Adobe I/O
 description: Step by step walk-through on how to integrate Adobe Experience Manager with Adobe Target using Experience Platform Launch and Adobe I/O
 seo-description: Step by step walk-through on how to integrate Adobe Experience Manager with Adobe Target using Experience Platform Launch and Adobe I/O
+feature: Experience Fragments
+topic: Personalization
+role: Developer
+level: Intermediate
 ---
 
 # Using Adobe Experience Platform Launch via Adobe I/O Console

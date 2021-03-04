@@ -2,14 +2,13 @@
 title: Using Place Copy asset operation
 description: Learn how to use assets from AEM Assets using the Place Copy operation.
 sub-product: assets
-feature: adobe-asset-link
-topics: authoring, collaboration, operations, sharing, metadata, images, operations
-audience: all
-doc-type: feature video
-activity: use
-version: 
+feature: Adobe Asset Link
+version: cloud-service
 kt : 4913
 thumbnail: 34049.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Place Copy {#place-copy}

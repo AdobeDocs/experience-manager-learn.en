@@ -1,6 +1,10 @@
 ---
 title: Chapter 7 - Consuming AEM Content Services from a Mobile App - Content Services
 description: Chapter 7 of the tutorial runs up the Android Mobile App to consume authored content from AEM Content Services.
+feature: Content Fragments, APIs
+topic: Headless, Content Management
+role: Developer
+level: Beginner
 ---
 
 # Chapter 7 - Consuming AEM Content Services from a Mobile App

@@ -1,7 +1,7 @@
 ---
 title: Debug an Asset Compute worker
 description: Asset Compute workers can be debugged in several ways, from simple debug log statements, to attached VS Code as a remote debugger, to pulling logs for activations in Adobe I/O Runtime initiated from AEM as a Cloud Service.
-feature: asset-compute
+feature: Asset Compute Microservices
 topics: renditions, development
 version: cloud-service
 activity: develop
@@ -9,6 +9,9 @@ audience: developer
 doc-type: tutorial
 kt: 6285
 thumbnail: 40383.jpg
+topic: Integrations, Development
+role: Developer
+level: Intermediate, Experienced
 ---
 
 # Debug an Asset Compute worker

@@ -2,12 +2,15 @@
 title: Understand Content Fragments and Experience Fragments
 description: Adobe Experience Manager's Content Fragments and Experience Fragments may seem similar on the surface, but each play key roles in different use cases. Learn how Content Fragments and Experience Fragments are similar, different, and when and how to use each.
 sub-product: assets, sites, content services
-feature: content fragments, experience fragments
+feature: Content Fragments, Experience Fragments
 topics: headless
 version: 6.3, 6.4, 6.5
 doc-type: article
 activity: understand
 audience: all
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
  
 # Understand Content Fragments and Experience Fragments

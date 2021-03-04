@@ -1,12 +1,15 @@
 ---
 title: Set up Translation Rules in AEM
 description: The Translation Configuration UI allows a user to manage rules for translating content in AEM Sites. This video details the creation of a new translation rule for a custom component.
-feature: language-copy
+feature: Language Copy
 topics: localization, content-architecture
 audience: developer, administrator
 doc-type: technical video
 activity: setup
 version: 6.4, 6.5
+topic: Localization
+role: Business Practitioner
+level: Beginner
 ---
 
 # Setup Translation Rules {#set-up-translation-rules-in-aem}

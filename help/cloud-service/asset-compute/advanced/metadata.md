@@ -1,7 +1,7 @@
 ---
 title: Develop an Asset Compute metadata worker
 description: Learn how to create an Asset Compute metadata worker that derives the most commonly used colors in an image asset, and writes the names of the colors back to the asset's metadata in AEM.
-feature: asset-compute
+feature: Asset Compute Microservices
 topics: metadata, development
 version: cloud-service
 activity: develop
@@ -9,6 +9,9 @@ audience: developer
 doc-type: tutorial
 kt: 6448
 thumbnail: 327313.jpg
+topic: Integrations, Development
+role: Developer
+level: Intermediate, Experienced
 ---
 
 # Develop an Asset Compute metadata worker

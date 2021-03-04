@@ -2,11 +2,14 @@
 title: Developing OAuth Scopes in AEM
 description: Adobe Experience Manager's extensible OAuth Scopes allow for access control for resources from a client application that is authorized by an end user. The diagram below illustrates the request flow in the context of AEM.
 version: 6.3, 6.4, 6.5
-feature: authentication
+feature: Users and Groups
 topics: authentication, security
 activity: develop
 audience: developer
 doc-type: code
+topic: Development
+role: Developer
+level: Experienced
 ---
 
 # Developing OAuth Scopes

@@ -3,11 +3,14 @@ title: Understand Sling Model Exporter in AEM
 description: Apache Sling Models 1.3.0 introduces Sling Model Exporter, an elegant way to export or serialize Sling Model objects into custom abstractions. This article juxtaposes the traditional use-case of using Sling Models to populate HTL scripts, with leveraging the Sling Model Exporter framework to serialize a Sling Model into JSON.
 version: 6.3, 6.4, 6.5
 sub-product: foundation, content-services
-feature: sling-models, sling-model-exporter
+feature: APIs
 topics: development, content-delivery, headless
 activity: understand
 audience: developer, architect
 doc-type: article
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Understand [!DNL Sling Model Exporter]

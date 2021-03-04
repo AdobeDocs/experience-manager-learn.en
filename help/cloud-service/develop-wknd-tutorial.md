@@ -6,6 +6,10 @@ seo-description: New to developing AEM? Need a refresher on best practices? This
 content-type: reference
 topic-tags: introduction
 
+feature: AEM Project Archetype, Core Components, Page Editor, Editable Templates
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Getting Started Developing AEM Sites - WKND Tutorial{#getting-started-developing-aem-sites-wknd-tutorial}

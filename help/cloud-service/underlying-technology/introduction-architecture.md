@@ -8,6 +8,9 @@ activity: understand
 version: cloud-service
 kt: 4260
 thumbnail: 32034.jpg
+topic: Architecture
+role: Architect, Developer
+level: Beginner
 ---
 
 # Introduction to the AEM Architecture Stack {#introduction-architecture}

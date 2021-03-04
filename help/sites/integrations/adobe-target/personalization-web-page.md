@@ -1,7 +1,6 @@
 ---
 title:  Personalization of full web page Experience
 description: Learn how to create a Target activity to redirect your AEM web site pages to new pages using Adobe Target.
-feature: targeting
 topics: integrations, authoring, personalization, activity, offers
 audience: all
 doc-type: feature video
@@ -9,6 +8,9 @@ activity: use
 version: cloud-service
 kt: 6353
 thumbnail: 6353-personalization-web-page.jpg
+topic: Integrations
+role: Developer
+level: Intermediate
 ---
 
 # Personalization of full web page Experience {#personalization-fpe}

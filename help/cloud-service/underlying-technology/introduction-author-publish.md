@@ -8,6 +8,10 @@ activity: understand
 version: cloud-service
 kt: 4639
 thumbnail: 32033.jpg
+feature: Publishing
+topic: Architecture
+role: Architect, Developer
+level: Beginner
 ---
 
 # Introduction to Author and Publish Tier {#introduction-author-publish}

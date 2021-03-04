@@ -4,7 +4,7 @@ seo-title: Creating Web Channel Document Template AEM Forms
 description: This is part 4 of the multistep tutorial for creating your first interactive communications document. In this part, we will create a template for web channel document.
 seo-description: This is part 4 of the multistep tutorial for creating your first interactive communications document. In this part, we will create a template for web channel document.
 uuid: b4c9f68b-3091-4f87-988d-705f0296a8d8
-feature: interactive-communication
+feature: Interactive Communication
 topics: development
 audience: developer
 doc-type: tutorial
@@ -12,6 +12,9 @@ activity: implement
 version: 6.4,6.5
 discoiquuid: 95ca401b-69ea-49e2-a9ae-e144444e481e
 
+topic: Development
+role: Developer
+level: Beginner
 ---
 
 # Creating Web Channel Document Template AEM Forms {#creating-web-channel-document-template-aem-forms}

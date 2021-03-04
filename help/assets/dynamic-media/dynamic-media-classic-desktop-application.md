@@ -1,17 +1,14 @@
 ---
 title: Using Dynamic Media Classic Desktop Application
-seo-title: Using Dynamic Media Classic Desktop Application
 description: Adobe introduces a desktop application for Dynamic Media Classic users that no longer relies on Adobe Flash technology in the browser.
-seo-description: Adobe introduces a desktop application for Dynamic Media Classic users that no longer relies on Adobe Flash technology in the browser.
 sub-product: dynamic-media
-feature: desktop-application, classic
-topics: authoring, operations
-doc-type: feature-video
-audience: all
-activity: use
+feature: Dynamic Media Classic
 version: 6.5
 kt: 5808
 thumbnail: 36645.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Using Dynamic Media Classic Desktop Application{#using-dynamic-media-desktop-application}

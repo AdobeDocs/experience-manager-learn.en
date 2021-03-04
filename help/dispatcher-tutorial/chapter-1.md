@@ -1,8 +1,10 @@
 ---
-title: Chapter 1 - Tutorial Set up and Downloads
-seo-title: Getting Started with AEM Content Services - Chapter 1 -  Tutorial Set up
-description: Chapter 1 of the AEM Headless tutorial the baseline setup for the AEM instance for the tutorial.
-seo-description: Chapter 1 of the AEM Headless tutorial the baseline setup for the AEM instance for the tutorial.
+title: "Chapter 1 - Dispatcher Concepts, Patterns and Antipatterns"
+description: This chapter provides a brief introduction over the Dispatcher's history and mechanics and discusses how this influences how an AEM developer would design his components.
+feature: Dispatcher
+topic: Architecture
+role: Architect
+level: Beginner
 ---
 
 # Chapter 1 - Dispatcher Concepts, Patterns and Antipatterns

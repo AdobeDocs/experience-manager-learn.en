@@ -3,7 +3,7 @@ title: Basic page operations in AEM Sites
 seo-title: Basic page operations in AEM Sites
 description: The following video highlights how to perform basic page management operations for a Adobe Experience Manager Sites page.
 seo-description: The following video highlights how to perform basic page management operations for a Adobe Experience Manager Sites page.
-feature: page-editor, template-editor
+feature: Page Editor, Editable Templates
 topics: authoring, publishing
 audience: author, marketer
 doc-type: feature video
@@ -11,6 +11,9 @@ activity: use
 version: 6.3, 6.4, 6.5
 kt: 4245
 thumbnail: 32147.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Basic page operations {#basic-page-operations-aem-sites}

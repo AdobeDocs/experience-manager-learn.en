@@ -1,17 +1,10 @@
 ---
 title: Introduction to Theming in Asset Share Commons
-seo-title: Introduction to Theming in Asset Share Commons
 description: Materials for both the functional and technical understanding Assets Share Commons
-seo-description: Materials for both the functional and technical understanding Assets Share Commons
-uuid: 5991a015-392a-4bb5-8332-192681505b07
-discoiquuid: 08a5a394-c62b-4748-b303-33117f283612
-contentOwner: dgonzale
-feature: asset-share, brand-portal
-topics: authoring, sharing, collaboration, search, integrations, publishing, metadata, images, renditions
-audience: developer, architect, administrator
-doc-type: technical video
-activity: setup
 version: 6.3, 6.4, 6.5
+topic: Content Management
+role: Developer
+level: Intermediate
 ---
 
 # Introduction to Theming in Asset Share Commons {#asset-share-commons-theme}

@@ -10,6 +10,10 @@ audience: developer
 mini-toc-levels: 1
 kt: 6678
 thumbnail: 328618.jpg
+feature: Content Fragments, GraphQL APIs
+topic: Headless, Content Management
+role: Developer
+level: Beginner
 ---
 
 # Getting Started with AEM Headless - GraphQL

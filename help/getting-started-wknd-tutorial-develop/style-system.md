@@ -11,6 +11,10 @@ audience: developer
 kt: 4128
 mini-toc-levels: 1
 thumbnail: 30386.jpg
+feature: Core Components, Style System
+topic: Content Management, Development
+role: Developer
+level: Beginner
 ---
 
 # Developing with the Style System {#developing-with-the-style-system}

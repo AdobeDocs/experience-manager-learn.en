@@ -3,6 +3,10 @@ title: Integrating Adobe Experience Manager with Adobe Target using Cloud Servic
 seo-title: Integrating Adobe Experience Manager (AEM) with Adobe Target using Legacy Cloud Services
 description: Step by step walkthrough on how to integrate Adobe Experience Manager (AEM) with Adobe Target using AEM Cloud Service
 seo-description: Step by step walkthrough on how to integrate Adobe Experience Manager (AEM) with Adobe Target using AEM Cloud Service
+feature: Experience Fragments
+topic: Personalization
+role: Developer
+level: Intermediate
 ---
 
 # Using AEM Legacy Cloud Services

@@ -1,7 +1,7 @@
 ---
 title: Test an Asset Compute worker
 description: The Asset Compute project defines a pattern for easily creating and executing tests of Asset Compute workers.
-feature: asset-compute
+feature: Asset Compute Microservices
 topics: renditions, development
 version: cloud-service
 activity: develop
@@ -9,6 +9,9 @@ audience: developer
 doc-type: tutorial
 kt: 6284
 thumbnail: KT-6284.jpg
+topic: Integrations, Development
+role: Developer
+level: Intermediate, Experienced
 ---
 
 # Test an Asset Compute worker

@@ -9,6 +9,9 @@ activity: use
 version: cloud-service
 kt: 6261
 thumbnail: 41195.jpg
+topic: Integrations
+role: Developer
+level: Intermediate
 ---
 
 # Using the Adobe Client Data Layer with AEM Core Components {#overview}

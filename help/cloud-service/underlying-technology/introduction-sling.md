@@ -8,6 +8,9 @@ activity: understand
 version: cloud-service
 kt: 4641
 thumbnail: 32032.jpg
+topic: Architecture
+role: Architect, Developer
+level: Beginner
 ---
 
 # Introduction to [!DNL Sling] {#introduction-sling}

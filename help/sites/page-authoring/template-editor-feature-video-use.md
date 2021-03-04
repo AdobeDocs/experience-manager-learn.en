@@ -3,13 +3,16 @@ title: Using Editable Page Templates with AEM Sites
 seo-title: Using Editable Page Templates with Adobe Experience Manager Sites
 description: Editable templates allow specialized authors to create and update page templates and manage advanced policy configurations with AEM Sites.
 seo-description: Editable templates allow specialized authors to create and update page templates and manage advanced policy configurations with Adobe Experience Manager Sites.
-feature: template-editor
+feature: Editable Templates
 topics: authoring
 audience: all
 doc-type: feature video
 activity: use
 version: 6.3, 6.4, 6.5
 kt: 193
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Using Editable Page Templates{#using-template-editor-with-aem-sites}

@@ -1,12 +1,11 @@
 ---
 title: Using Adobe Stock assets with AEM Assets
 description: AEM provides users the ability to search, preview, save and license Adobe Stock assets directly from AEM. Organizations can now integrate their Adobe Stock Enterprise plan with AEM Assets to make sure that licensed assets are now broadly available for their creative and marketing projects, with the powerful asset management capabilities of AEM. 
-feature: creative-cloud-integration
-topics: authoring, collaboration, operations, sharing, metadata, images, stock
-audience: all
-doc-type: feature video
-activity: use
+feature: Adobe Stock
 version: 6.4, 6.5
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Using Adobe Stock with AEM Assets{#using-adobe-stock-assets-with-aem-assets}

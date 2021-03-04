@@ -2,14 +2,13 @@
 title: Metadata folder schemas
 description: Metadata folder schemas allow users to manage and review metadata associated with asset folders themselves, rather than directly on assets.
 sub-product: assets
-feature: metadata-schemas
-topics: configuring, content-architecture, metadata
-audience: administrator, implementer
-doc-type: feature video
-activity: use
+feature: Metadata
 version: cloud-service
 kt: 4983
 thumbnail: 34071.jpg
+topic: Content Management
+role: Business Practitioner
+level: Beginner
 ---
 
 # Metadata folder schemas
