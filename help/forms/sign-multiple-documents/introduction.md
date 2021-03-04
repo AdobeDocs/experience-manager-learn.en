@@ -1,16 +1,13 @@
 ---
 title: Introduction
 description: Video demonstration of the sign multiple forms use case
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.4,6.5
 thumbnail: 330165.jpg
-topic: Development
-role: Developer
-level: Experienced
 ---
 # Introduction
 

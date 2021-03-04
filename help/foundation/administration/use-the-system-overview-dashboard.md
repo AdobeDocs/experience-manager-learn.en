@@ -2,14 +2,12 @@
 title: Use the System Overview Dashboard in AEM
 description: In previous versions of AEM administrators needed to look at several locations in order to get a full picture of the AEM instance. The System Overview aims to solve this by providing a high level view of the configuration, hardware, and health of the AEM instance all from a single dashboard.
 version: 6.4, 6.5
+feature: 
 topics: administration, operations, monitoring
 activity: use
 audience: administrator, architect, developer, implementer
 doc-type: technical video
 contentOwner: dgordon
-topic: Administration
-role: Administrator
-level: Beginner
 ---
 
 # Use the System Overview Dashboard

@@ -1,7 +1,7 @@
 ---
 title: Storing and Retrieving Form Data with attachments from MySQL Database
 description: Multi-Part tutorial to walk you through the steps involved in storing and retrieving form data with attachments
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: tutorial
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 6593
 thumbnail: 327122.jpg
-topic: Development
-role: Developer
-level: Experienced
 ---
 
 # Storing and Retrieving Adaptive Form Data with 2FA

@@ -1,7 +1,7 @@
 ---
 title: Configure AEM Data Source
 description: Configure MySQL backed data source to store and retrieve form data
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: tutorial
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 6899
 thumbnail: 6899.jpg
-topic: Development
-role: Developer
-level: Beginner
 ---
 # Configure data source
 

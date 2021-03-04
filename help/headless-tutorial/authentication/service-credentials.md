@@ -9,9 +9,6 @@ activity: develop
 audience: developer
 kt: 6785
 thumbnail: 330519.jpg
-topic: "Headless, Integrations"
-role: Developer
-level: "Intermediate, Experienced"
 ---
 
 # Service Credentials

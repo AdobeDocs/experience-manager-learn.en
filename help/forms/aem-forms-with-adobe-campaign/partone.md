@@ -4,16 +4,13 @@ seo-title: Generating JSON Web Token and Access Token
 description: This article explains the code needed to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
 seo-description: This article explains the code needed to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
 uuid: 5b780eee-1e7c-4e1c-a164-49ce64939b91
-feature: "Adaptive Forms, Form Data Model"
+feature: adaptive-forms, form-data-model
 topics: integrations
 audience: developer
 doc-type: tutorial
 activity: setup
 version: 6.3,6.4,6.5
 discoiquuid: cc268946-a7e4-42b3-bfad-5509e215871a
-topic: Development
-role: Developer
-level: Experienced
 ---
 
 # Generating JSON Web Token and Access Token {#generating-json-web-token-and-access-token}

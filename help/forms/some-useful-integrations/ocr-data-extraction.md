@@ -1,7 +1,7 @@
 ---
 title: OCR Data Extraction
 description: Extract data from government issued documents to populate forms.
-feature: Barcoded Forms
+feature: integrations
 topics: adaptive forms
 audience: developer
 doc-type: article
@@ -9,9 +9,6 @@ activity: use
 version: 6.4,6.5
 kt: 6679
 
-topic: Development
-role: Developer
-level: Intermediate
 ---
 
 

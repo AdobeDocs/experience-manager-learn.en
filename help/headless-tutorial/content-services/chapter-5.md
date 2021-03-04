@@ -1,10 +1,6 @@
 ---
 title: Chapter 5 - Authoring Content Services Pages - Content Services
 description: Chapter 5 of the AEM Headless tutorial covers creating the Pages from the Templates defined in Chapter 4. These pages will act as the JSON HTTP end-points.
-feature: "Content Fragments, APIs"
-topic: "Headless, Content Management"
-role: Developer
-level: Beginner
 ---
 
 # Chapter 5 - Authoring Content Services Pages

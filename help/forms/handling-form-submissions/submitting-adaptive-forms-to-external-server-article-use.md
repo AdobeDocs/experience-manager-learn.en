@@ -4,16 +4,13 @@ seo-title: Submitting Adaptive Form to External Server
 description: Submitting Adaptive Form to REST endpoint running on external server
 seo-description: Submitting Adaptive Form to REST endpoint running on external server
 uuid: 1a46e206-6188-4096-816a-d59e9fb43263
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: developing
 audience: implementer
 doc-type: article
 activity: setup
 version: 6.3,6.4,6.5
 discoiquuid: 9e936885-4e10-4c05-b572-b8da56fcac73
-topic: Development
-role: Developer
-level: Beginner
 ---
 
 # Submitting Adaptive Form to External Server {#submitting-adaptive-form-to-external-server}

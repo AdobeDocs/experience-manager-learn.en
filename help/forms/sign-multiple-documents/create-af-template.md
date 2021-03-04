@@ -1,7 +1,7 @@
 ---
 title: Create AF Template
 description: Create an AF template and associate it with page rendering component
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: tutorial
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 6891
 thumbnail: 6891.jpg
-topic: Development
-role: Developer
-level: Beginner
 ---
 
 # Create AF template

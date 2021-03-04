@@ -1,7 +1,7 @@
 ---
 title: Handle HTML5 Form Submission
 description: Create HTML5 Form submission handler
-feature: Mobile Forms
+feature: mobile-forms
 topics: development
 audience: developer
 doc-type: article
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 5269
 thumbnail: kt-5269.jpg
-topic: Development
-role: Developer
-level: Experienced
 ---
 
 # Handle HTML5 Form Submission

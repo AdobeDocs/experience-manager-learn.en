@@ -9,10 +9,6 @@ audience: developer
 kt: 4089
 mini-toc-levels: 1
 thumbnail: 30207.jpg
-feature: "APIs, AEM Project Archetype"
-topic: "Content Management, Development"
-role: Developer
-level: Beginner
 ---
 
 # Unit Testing {#unit-testing}
