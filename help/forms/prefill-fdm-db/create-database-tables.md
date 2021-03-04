@@ -1,7 +1,7 @@
 ---
 title: Create database tables
 description: Create database to be used by form data model
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: article
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 5811
 thumbnail: kt-5811.jpg
-topic: Development
-role: Developer
-level: Beginner
 ---
 
 # Create Database Tables

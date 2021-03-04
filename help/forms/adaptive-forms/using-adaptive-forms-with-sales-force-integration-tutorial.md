@@ -4,7 +4,7 @@ seo-title: Configuring DataSource with Salesforce in AEM Forms 6.3 and 6.4
 description: Integrating AEM Forms With Salesforce using Form Data Model
 seo-description: Integrating AEM Forms With Salesforce using Form Data Model
 uuid: 0124526d-f1a3-4f57-b090-a418a595632e
-feature: "Adaptive Forms, Form Data Model"
+feature: adaptive-forms, form-data-model
 topics: integrations
 audience: developer
 doc-type: article
@@ -12,9 +12,6 @@ activity: setup
 version: 6.3,6.4,6.5
 discoiquuid: 8e314fc3-62d0-4c42-b1ff-49ee34255e83
 
-topic: Development
-role: Developer
-level: Experienced
 ---
 
 # Configuring DataSource with Salesforce in AEM Forms 6.3 and 6.4{#configuring-datasource-with-salesforce-in-aem-forms-and}

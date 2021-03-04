@@ -10,10 +10,6 @@ audience: developer
 mini-toc-levels: 1
 kt: 6713
 thumbnail: 22451.jpg
-feature: "Content Fragments, GraphQL APIs"
-topic: "Headless, Content Management"
-role: Developer
-level: Beginner
 ---
 
 # Authoring Content Fragment {#authoring-content-fragments}

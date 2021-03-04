@@ -5,7 +5,7 @@ description: This is part 3 of a multi-step tutorial for creating your first int
 seo-description: This is part 3 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create Form Data Model. Form Data Model allows you to configure and connect to disparate data sources.It provides an intuitive user interface to create a unified data representation schema of business entities and services across connected data sources. The following video walks through the steps to create Form Data Model.
 uuid: 4cba42f3-860a-4bd3-b4b0-79c63195b36d
 
-feature: Interactive Communication
+feature: interactive-communication
 topics: development
 audience: developer
 doc-type: tutorial
@@ -15,9 +15,6 @@ kt: 5952
 thumbnail: 27763.jpg
 
 
-topic: Development
-role: Developer
-level: Beginner
 ---
 
 # Creating Form Data Model

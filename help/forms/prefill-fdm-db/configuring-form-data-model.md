@@ -1,7 +1,7 @@
 ---
 title: Configuring form data model
 description: Create form data model based on RDBMS data source
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: article
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 5812
 thumbnail: kt-5812.jpg
-topic: Development
-role: Developer
-level: Beginner
 ---
 
 

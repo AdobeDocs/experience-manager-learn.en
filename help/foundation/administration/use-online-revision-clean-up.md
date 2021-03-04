@@ -2,13 +2,11 @@
 title: Use Online Revision Clean-up
 description: A brief introduction to Online Revision Clean Up. Online Revision Clean Up mitigates the need for frequent Offline Revision Clean Up. 
 version: 6.3, 6.4, 6.5
+feature: oak, compaction
 topics: operations, authoring, performance
 activity: use
 audience: administrator, architect, implementer
 doc-type: technical video
-topic: Administration
-role: Administrator
-level: Intermediate
 ---
 
 # Use Online Revision Clean-up

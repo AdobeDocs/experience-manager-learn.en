@@ -12,9 +12,6 @@ activity: implement
 version: 6.4,6.5
 
 discoiquuid: 1224de6d-7ca1-4e9d-85fe-cd675d03e262
-topic: Development
-role: Developer
-level: Intermediate
 ---
 
 # Barcode Service With Adaptive Forms{#barcode-service-with-adaptive-forms}

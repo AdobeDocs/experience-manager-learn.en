@@ -5,7 +5,7 @@ description: Starting with AEM Forms 6.4, we now have the ability to use Form Da
 seo-description: Starting with AEM Forms 6.4, we now have the ability to use Form Data Model as part of AEM Workflow. The following video walks thru the steps needed to configure Form Data Model step in AEM Workflow.
 uuid: ecd5d5aa-01eb-48fb-872f-66c656ae14df.
 
-feature: Workflow
+feature: workflow
 topics: integrations
 audience: developer
 doc-type: technical video
@@ -13,9 +13,6 @@ activity: setup
 version: 6.4,6.5
 
 discoiquuid: c442f439-1e5d-4f96-85df-b818c28389ff
-topic: Development
-role: Developer
-level: Intermediate
 ---
 
 # Using Form Data Model Service as Step in Workflow {#using-form-data-model-service-as-step-in-workflow}

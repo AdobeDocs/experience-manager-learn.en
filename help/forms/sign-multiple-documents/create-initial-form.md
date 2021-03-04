@@ -1,7 +1,7 @@
 ---
 title: Create the Initial Form to Trigger the Process
 description: Create initial form to trigger the e-mail notification to start the process of signing.
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: tutorial
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 6892
 thumbnail: 6892.jpg
-topic: Development
-role: Business Practitioner
-level: Intermediate
 ---
 
 # Create initial form

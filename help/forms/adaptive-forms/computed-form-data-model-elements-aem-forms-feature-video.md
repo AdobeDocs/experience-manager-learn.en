@@ -4,7 +4,7 @@ seo-title: Creating Computed Form Data Model Elements in AEM Forms
 description: Creating Computed Form Data Model Elements
 seo-description: Creating Computed Form Data Model Elements
 uuid: 30d72569-6a38-44f6-a091-b9a595d5ac77
-feature: Workflow
+feature: workflow
 topics: integrations
 audience: developer
 doc-type: technical video
@@ -12,9 +12,6 @@ activity: setup
 version: 6.4,6.5
 discoiquuid: b7b6d05b-7378-4028-add3-4f2a03a7455d
 
-topic: Development
-role: Developer
-level: Beginner
 ---
 
 # Creating Computed Form Data Model Elements in AEM Forms{#creating-computed-form-data-model-elements-in-aem-forms}

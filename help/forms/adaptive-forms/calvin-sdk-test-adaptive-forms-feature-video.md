@@ -3,7 +3,7 @@ title: Understanding Automated Forms Testing with AEM Forms
 seo-title: Understanding Automated Forms Testing with AEM Forms
 description: AEM 6.3 Forms introduces the capability to let users create test cases within AEM for Adaptive Forms using Calvin SDK built on top of the hobbes.js framework
 seo-description: AEM 6.3 Forms introduces the capability to let users create test cases within AEM for Adaptive Forms using Calvin SDK built on top of the hobbes.js framework
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: technical video
@@ -12,9 +12,6 @@ version: 6.3,6.4,6.5
 uuid: 3cea2785-28f0-42c1-9935-3e876c28214a
 
 discoiquuid: a78936b4-e817-41a0-86cc-f9ac2d6dd08f
-topic: Development
-role: Developer
-level: Beginner
 ---
 
 # Understanding Automated Forms Testing with AEM Forms{#understanding-automated-forms-testing-with-aem-forms}

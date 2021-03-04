@@ -1,7 +1,7 @@
 ---
 title: Create the MyAccountForm
 description: Create the myaccount form to retrieve the partially completed form on succesful verification of application id and telephone number.
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: tutorial
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 6599
 thumbnail: 6599.jpg
-topic: Development
-role: Business Practitioner
-level: Beginner
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: Create adaptive form
 description: Create and configure adaptive form to use form data model's prefill service
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: article
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 5813
 thumbnail: kt-5813.jpg
-topic: Development
-role: Business Practitioner
-level: Beginner
 ---
 
 # Create Adaptive Form

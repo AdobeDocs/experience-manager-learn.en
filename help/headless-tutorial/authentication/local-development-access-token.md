@@ -9,9 +9,6 @@ activity: develop
 audience: developer
 kt: 6785
 thumbnail: 330477.jpg
-topic: "Headless, Integrations"
-role: Developer
-level: "Intermediate, Experienced"
 ---
 
 # Local Development Access Token

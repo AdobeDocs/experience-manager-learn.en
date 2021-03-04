@@ -1,7 +1,7 @@
 ---
 title: Create OSGi Service
 description: Create OSGi service to store the forms to sign
-feature: Workflow
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: tutorial
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 thumbnail: 6886.jpg
 kt: 6886
-topic: Development
-role: Developer
-level: Experienced
 ---
 
 # Create OSGi service

@@ -11,10 +11,6 @@ KT: 4132
 mini-toc-levels: 1
 index: y
 thumbnail: 30476.jpg
-feature: "Core Components, Page Editor, Editable Templates, AEM Project Archetype"
-topic: "Content Management, Development"
-role: Developer
-level: Beginner
 ---
 
 # Getting Started with AEM Sites - WKND Tutorial {#introduction}

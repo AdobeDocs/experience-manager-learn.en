@@ -10,10 +10,6 @@ audience: developer
 mini-toc-levels: 1
 kt: 6712
 thumbnail: 22452.jpg
-feature: "Content Fragments, GraphQL APIs"
-topic: "Headless, Content Management"
-role: Developer
-level: Beginner
 ---
 
 # Defining Content Fragment Models {#content-fragment-models}

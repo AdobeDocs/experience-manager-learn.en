@@ -7,9 +7,6 @@ topics: best-practices, upgrade
 audience: all
 activity: understand
 doc-type: article
-topic: Upgrade
-role: "Leader, Architect, Developer, Administrator, Business Practitioner"
-level: Beginner
 ---
 
 # Understanding Reasons to Upgrade

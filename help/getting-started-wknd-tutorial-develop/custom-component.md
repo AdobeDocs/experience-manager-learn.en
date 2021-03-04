@@ -2,7 +2,7 @@
 title: Custom Component
 description: Covers the end to end creation of a custom byline component that displays authored content. Includes developing a Sling Model to encapsulate business logic to populate the byline component and corresponding HTL to render the component.
 sub-product: sites
-feature: "Core Components, APIs"
+feature: sling-models
 topics: development
 version: cloud-service
 doc-type: tutorial
@@ -11,9 +11,6 @@ audience: developer
 kt: 4072
 mini-toc-levels: 1
 thumbnail: 30181.jpg
-topic: "Content Management, Development"
-role: Developer
-level: Beginner
 ---
 
 # Custom Component {#custom-component}

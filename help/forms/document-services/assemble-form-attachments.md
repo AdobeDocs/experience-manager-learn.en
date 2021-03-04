@@ -1,7 +1,7 @@
 ---
 title: Assemble form attachments
 description: Assemble form attachments in the specified order
-feature: Assembler
+feature: assembler
 topics: development
 audience: developer
 doc-type: article
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 6406
 thumbnail: kt-6406.jpg
-topic: Development
-role: Developer
-level: Experienced
 ---
 
 # Assemble form attachments

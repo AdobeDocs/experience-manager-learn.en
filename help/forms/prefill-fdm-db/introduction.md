@@ -1,7 +1,7 @@
 ---
 title: Prefill form using form data model
 description: Prefill adaptive form using form data model's request attribute 
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: article
@@ -9,9 +9,6 @@ activity: implement
 version: 6.4,6.5
 kt: 4419
 thumbnail: kt-4419.jpg
-topic: Development
-role: Business Practitioner
-level: Intermediate
 ---
 
 # Prefill form using form data model
