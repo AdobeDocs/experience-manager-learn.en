@@ -9,6 +9,10 @@ activity: develop
 audience: developer
 kt: 4083
 thumbnail: 30359.jpg
+feature: "Core Components, AEM Project Archetype"
+topic: "Content Management, Development"
+role: Developer
+level: Beginner
 ---
 
 # Client-Side Libraries and Front-end Workflow {#client-side-libraries}

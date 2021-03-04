@@ -1,13 +1,16 @@
 ---
 title: Configure converted Adaptive Form
 description: Configure converted Adaptive Form
-feature: adaptive-forms
+feature: Adaptive Forms
 topics: development
 audience: developer
 doc-type: article
 activity: implement
 thumbnail: 39574.jpg
 kt: 6126
+topic: Development
+role: Business Practitioner
+level: Beginner
 ---
 # Configure converted Adaptive Form
 
