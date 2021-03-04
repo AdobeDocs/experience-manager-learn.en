@@ -1,14 +1,13 @@
 ---
 title: How to use the Inbox in AEM
 description: AEM's inbox facilitates greater collaboration and visibility into tasks and workflow.
-version: 6.3, 6.4, 6.5, Cloud Service
-feature: Workflow
-activity:  use
-audience: author, analyst
-doc-type: feature video
+version: 6.3, 6.4, 6.5, cloud-service
 topic: Collaboration
+feature: Inbox
 role: Business Practitioner
-level: Beginner
+level: Intermediate
+kt: 159
+thumbnail: 16827.jpg
 ---
 
 # Using the Inbox in AEM

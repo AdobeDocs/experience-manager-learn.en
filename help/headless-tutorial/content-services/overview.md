@@ -1,10 +1,6 @@
 ---
 title: Getting Started with AEM Headless - Content Services
 description: An end-to-end tutorial illustrating how to build-out and expose content using AEM Headless.
-feature: "Content Fragments, APIs"
-topic: "Headless, Content Management"
-role: Developer
-level: Beginner
 ---
 
 # Getting Started with AEM Headless - Content Services

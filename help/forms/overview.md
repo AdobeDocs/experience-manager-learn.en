@@ -4,8 +4,6 @@ seo-title: AEM Forms Tutorials and Videos
 description: Collection of AEM Forms resources for beginners and experienced AEM Forms developers
 seo-description: Collection of AEM Forms resources for beginners and experienced AEM Forms developers
 sub-product: forms
-topic: Development
-role: Developer
 ---
 
 # Overview {#overview}

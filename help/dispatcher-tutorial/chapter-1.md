@@ -1,6 +1,8 @@
 ---
 title: Chapter 1 - Tutorial Set up and Downloads
+seo-title: Getting Started with AEM Content Services - Chapter 1 -  Tutorial Set up
 description: Chapter 1 of the AEM Headless tutorial the baseline setup for the AEM instance for the tutorial.
+seo-description: Chapter 1 of the AEM Headless tutorial the baseline setup for the AEM instance for the tutorial.
 ---
 
 # Chapter 1 - Dispatcher Concepts, Patterns and Antipatterns

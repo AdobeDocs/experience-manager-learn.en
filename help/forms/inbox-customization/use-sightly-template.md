@@ -1,16 +1,13 @@
 ---
 title: Inbox customization
 description: Add custom columns to display additional data of workflow using sightly template
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: article
 activity: implement
 version: 6.5.5
 kt: 5830
-topic: Development
-role: Developer
-level: Experienced
 ---
 # Using sightly template to display inbox data
 

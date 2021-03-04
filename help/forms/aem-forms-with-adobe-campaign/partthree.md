@@ -4,7 +4,7 @@ seo-title: Prefilling Adaptive Form using ACS Profile
 description: Prefilling Adaptive Forms using ACS profile
 seo-description: Prefilling Adaptive Forms using ACS profile
 uuid: 9bff6f61-96e9-40d4-a977-a80008cfbeee
-feature: "Adaptive Forms, Form Data Model"
+feature: adaptive-forms, form-data-model
 topics: integrations
 audience: developer
 doc-type: tutorial
@@ -12,9 +12,6 @@ activity: setup
 version: 6.3,6.4,6.5
 
 discoiquuid: a2ffcb84-4dd8-45e5-8e2c-0da74202851b
-topic: Development
-role: Developer
-level: Experienced
 ---
 # Prefilling Adaptive Form using ACS Profile {#prefilling-adaptive-form-using-acs-profile}
 

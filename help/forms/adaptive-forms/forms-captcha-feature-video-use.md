@@ -4,7 +4,7 @@ seo-title: Using CAPTCHAs with AEM Adaptive Forms
 description: Adding and using a CAPTCHA with AEM Adaptive Forms.
 seo-description: Adding and using a CAPTCHA with AEM Adaptive Forms.
 
-feature: "Adaptive Forms,Workflow"
+feature: adaptive-forms
 topics: integrations
 audience: developer
 doc-type: technical video
@@ -12,9 +12,6 @@ activity: setup
 version: 6.4,6.5
 uuid: bd63e207-4f4d-4f34-9ac4-7572ed26f646
 discoiquuid: 5e184e44-e385-4df7-b7ed-085239f2a642
-topic: Development
-role: Developer
-level: Intermediate
 ---
 
 # Using CAPTCHAs with AEM Adaptive Forms{#using-captchas-with-aem-adaptive-forms}

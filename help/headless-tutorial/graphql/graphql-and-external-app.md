@@ -10,10 +10,6 @@ audience: developer
 mini-toc-levels: 1
 kt: 6716
 thumbnail: KT-6716.jpg
-feature: "Content Fragments, GraphQL APIs"
-topic: "Headless, Content Management"
-role: Developer
-level: Beginner
 ---
 
 # Query AEM using GraphQL from an external app

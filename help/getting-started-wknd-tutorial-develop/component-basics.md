@@ -2,7 +2,7 @@
 title: Getting Started with AEM Sites - Component Basics
 description: Understand the underlying technology of an Adobe Experience Manager (AEM) Sites Component through a simple `HelloWorld` example. Topics of HTL, Sling Models, Client-side libraries and author dialogs are explored.
 sub-product: sites
-feature: "Core Components, Developer Tools"
+feature: components, sling-models, htl
 topics: development
 version: cloud-service
 doc-type: tutorial
@@ -11,9 +11,6 @@ audience: developer
 mini-toc-levels: 1
 kt: 4081
 thumbnail: 30177.jpg
-topic: "Content Management, Development"
-role: Developer
-level: Beginner
 ---
 
 # Component Basics {#component-basics}

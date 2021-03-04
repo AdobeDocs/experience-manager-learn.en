@@ -3,7 +3,7 @@ title: Using API to generate Document of Record with AEM Forms
 seo-title: Using API to generate Document of Record with AEM Forms
 description: Generate Document Of Record (DOR) programmatically
 seo-description: Using API to generate Document of Record with AEM Forms
-feature: Adaptive Forms
+feature: adaptive-forms
 topics: development
 audience: developer
 doc-type: article
@@ -11,9 +11,6 @@ activity: implement
 version: 6.4,6.5
 uuid: 94ac3b13-01b4-4198-af81-e5609c80324c
 discoiquuid: ba91d9df-dc61-47d8-8e0a-e3f66cae6a87
-topic: Development
-role: Developer
-level: Experienced
 ---
 
 # Using API to generate Document of Record in AEM Forms {#using-api-to-generate-document-of-record-with-aem-forms}
