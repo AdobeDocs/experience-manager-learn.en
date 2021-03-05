@@ -38,6 +38,10 @@ This is a multi-part tutorial and it is assumed that the steps outlined in the [
 
 The above video gives a high level overview of working with Content Fragment Models.
 
+>[!CAUTION]
+>
+> The above video shows the creation of the **Contributor** model with the name `Contributors`. When performing the steps in your own environment, ensure that the title uses the singular form: `Contributor` without the **s**. The naming of the Content Fragment Model drives the GraphQL API calls that will be performed later in the tutorial.
+
 ## Inspect the Adventure Content Fragment Model
 
 In the previous chapter several Adventures Content Fragments were edited and displayed on an external application. Let's inspect the Adventure Content Fragment Model to understand the underlying data schema of these fragments.
