@@ -120,11 +120,12 @@ One of the goals of this tutorial is to show how to consume AEM content from an 
     $ git clone --branch tutorial/react git@github.com:adobe/aem-guides-wknd-graphql.git
     ```
 
-1. In the IDE of your choice open the file `.env.development` at `aem-guides-wknd-graphql/react-app/.env.development`. Uncomment the `REACT_APP_AUTHORIZATION` line so that the file looks like the following:
+1. In the IDE of your choice open the file `.env.development` at `aem-guides-wknd-graphql/react-app/.env.development`. Verify that the `REACT_APP_AUTHORIZATION` line is un-commented and that the file looks like the following:
 
     ```plain
     REACT_APP_HOST_URI=http://localhost:4502
     REACT_APP_GRAPHQL_ENDPOINT=/content/graphql/global/endpoint.json
+    # Use Authorization when connecting to an AEM Author environment
     REACT_APP_AUTHORIZATION=admin:admin
     ```
 
@@ -132,7 +133,7 @@ One of the goals of this tutorial is to show how to consume AEM content from an 
 
     >[!NOTE]
     >
-    > In a production scenario the App will connect to an AEM **Publish** environment. This is covered in more detail, later in the tutorial.
+    > In a production scenario the App will connect to an AEM **Publish** environment. This is covered in more detail in the [Production deployment](production-deployment.md) chapter.
 
 1. Navigate into the `aem-guides-wknd-graphql/react-app` folder. Install and start the app:
 
