@@ -129,6 +129,24 @@ The next series of steps will take place using a UNIX based command line  termin
             |--- .gitignore
     ```
 
+### Update Project Analyser version
+
+>[!CAUTION]
+>
+> A [known issue exists](https://github.com/adobe/aem-project-archetype/issues/638) in Archetype version 25 that requires an update to the version of the **Project Analyser** in the generated project. The below steps are **only** needed for projects generated with `aemVersion="cloud"`.
+
+1. Open the file `aem-guides-wknd/poml.xml` using your favorite text editor.
+1. Update the `aemanalyser.version` to **`0.9.2`**:
+
+    ```diff
+     <properties>
+        ...
+    -   <aemanalyser.version>0.0.18</aemanalyser.version>
+    +   <aemanalyser.version>0.9.2</aemanalyser.version>
+        ...
+     </properties>
+    ```
+
 ## Deploy and build the project {#build}
 
 Build and deploy the project code to a local instance of AEM.
