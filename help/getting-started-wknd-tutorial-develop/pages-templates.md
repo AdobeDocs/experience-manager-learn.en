@@ -76,6 +76,10 @@ In most cases, planning for a new website starts with mockups and static designs
 
 **Download the [WKND Article Design File](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND-article-design.xd)**.
 
+>[!NOTE]
+>
+> A generic [AEM Core Components UI Kit is also available](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) as a starting point for custom projects.
+
 ## Create the Article Page Template
 
 When creating a page you must select a template, which will be used as the basis for creating the new page. The template defines the structure of the resultant page, initial content, and allowed components.
