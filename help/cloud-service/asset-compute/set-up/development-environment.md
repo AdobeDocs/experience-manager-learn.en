@@ -28,7 +28,7 @@ The following is an abridge set up instructions. Details on these development to
 
     ```
     $ docker pull openwhisk/action-nodejs-v12:latest
-    $ docker pull adobeapiplatform/adobe-action-nodejs-v12:latest
+    $ docker pull adobeapiplatform/adobe-action-nodejs-v12:3.0.22
     ```
 
 1. [Install Visual Studio Code](https://code.visualstudio.com/download)
