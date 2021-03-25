@@ -76,6 +76,15 @@ team: TM
 + Migration {#migration}
     + [Content Transfer Tool](./migration/content-transfer-tool.md)
     + [Bulk Import of assets](./migration/bulk-import.md)
++ Forms{#forms}
+    + [Integrate with Salesforce]{#integrate-with-salesforce}
+        + [Introduction](./forms/integrate-with-salesforce/introduction.md)
+        + [Create connected app](./forms/integrate-with-salesforce/create-connected-app.md)
+        + [Create swagger file](./forms/integrate-with-salesforce/describe-rest-api.md)
+        + [Create data source](./forms/integrate-with-salesforce/create-data-source.md)
+        + [Create form data model](./forms/integrate-with-salesforce/create-form-data-model.md)
+        + [Test form submission](./forms/integrate-with-salesforce/create-lead-submitting-form.md)
+        + [Test click event](./forms/integrate-with-salesforce/create-lead-click-event.md)
 + Asset Compute Extensibility{#asset-compute}
     + [Overview](./asset-compute/overview.md)
     + Set up{#set-up}
@@ -104,4 +113,3 @@ team: TM
     + [SPA Editor (Angular)](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-angular-tutorial/overview.html)
     + [AEM Sites and Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-target-tutorial/overview.html)
     + [Token-based authentication](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html)
-
