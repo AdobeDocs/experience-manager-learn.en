@@ -1,0 +1,18 @@
+---
+title: Submit form using the Form Data Model's submit action
+description: Create an Adaptive Form to test the Salesforce integration by creating a Lead object on form submission
+solution: Experience Manager Forms
+type: Documentation
+role: Developer
+level: Beginner, Intermediate
+version: cloud-service
+feature: Adaptive Forms
+topic: Development
+kt: 7151
+---
+
+# Test lead generation from form submission 
+
+Create an Adaptive Form based on the Sales Force Form Data Model and test the creation of a lead in Salesforce by submitting the form
+
+>[!VIDEO](https://video.tv.adobe.com/v/331758?quality=12&learn=on)
