@@ -77,7 +77,27 @@ team: TM
     + [Content Transfer Tool](./migration/content-transfer-tool.md)
     + [Bulk Import of assets](./migration/bulk-import.md)
 + Forms{#forms}
-    + [Integrate with Salesforce]{#integrate-with-salesforce}
+    + Create Adaptive Form{#create-first-af}
+        + [Create Theme](./forms/create-first-af/create-theme.md)
+        + [Create Template](./forms/create-first-af/create-template.md)
+        + [Create Fragment](./forms/create-first-af/create-fragments.md)
+        + [Create Form](./forms/create-first-af/create-af.md)
+        + [Configure root panel](./forms/create-first-af/configure-root-panel.md)
+        + [Configure people panel](./forms/create-first-af/configure-people-panel.md)
+        + [Configure income panel](./forms/create-first-af/configure-income-panel.md)
+        + [Configure assets panel](./forms/create-first-af/configure-assets-panel.md)
+        + [Configure start panel](./forms/create-first-af/configure-start-panel.md)
+        + [Add and Configure toolbar](./forms/create-first-af/add-configure-toolbar.md)
+    + Create Review Workflow{#create-aem-workflow}
+        + [Create workflow model](./forms/create-aem-workflow/create-workflow.md)
+        + [Trigger workflow](./forms/create-aem-workflow/configure-af.md)
+    + Adobe Sign with AEM Forms{forms-and-sign}
+        + [Adobe Sign API Application](./forms/forms-and-sign/create-sign-api-application.md)
+        + [Adobe Sign Cloud Configuration](./forms/forms-and-sign/create-adobe-sign-cloud-configuration.md)
+        + [Create Adaptive Form](./forms/forms-and-sign/create-adaptive-form.md)
+        + [Configure for fill and sign](./forms/forms-and-sign/configure-form-fill-and-sign.md)
+
+    + Integrate with Salesforce{#integrate-with-salesforce}
         + [Introduction](./forms/integrate-with-salesforce/introduction.md)
         + [Create connected app](./forms/integrate-with-salesforce/create-connected-app.md)
         + [Create swagger file](./forms/integrate-with-salesforce/describe-rest-api.md)
