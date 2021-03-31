@@ -1,17 +1,12 @@
 ---
 cloud: experience-cloud
 solution-title: Experience Manager
-solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-5.html
-solution-icon: assets/experience-cloud-logo-24.png
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://guided.adobe.com/?tag=Tutorial#recommended/solutions/experience-manager
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-learn.en
-product: experience-manager
+product: experience manager
 index: y
 type: Tutorial
+solution: Experience Manager
 ---
 
 # Metadata for internal use
