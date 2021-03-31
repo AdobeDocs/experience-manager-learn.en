@@ -1,7 +1,7 @@
 ---
 title: Create Form Data Model based on the Salesforce data source
 description: Create Form Data Model backed by RESTful data source
-solution: Experience Manager Forms
+solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

@@ -1,7 +1,7 @@
 ---
 title: Submit form using the Form Data Model's submit action
 description: Create an Adaptive Form to test the Salesforce integration by creating a Lead object on form submission
-solution: Experience Manager Forms
+solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

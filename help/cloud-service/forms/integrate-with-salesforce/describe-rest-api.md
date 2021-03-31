@@ -1,7 +1,7 @@
 ---
 title: Create swagger file to describe Salesforce REST API
 description: Swagger file will define the API endpoints and the input and output parameters
-solution: Experience Manager Forms
+solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

@@ -1,8 +1,6 @@
 ---
 title: Create a Lead object in Salesforce database on a button's click event 
-
 description: Create s Lead by invoking the post operation of Form Data Model
-product: aem
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
