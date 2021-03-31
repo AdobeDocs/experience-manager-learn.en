@@ -1,7 +1,7 @@
 ---
 title: Create Salesforce connected App.
 description: Connected App allows you to integrate Salesforce with third party applications such as AEM Forms with Salesforce.
-solution: Experience Manager Forms
+solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

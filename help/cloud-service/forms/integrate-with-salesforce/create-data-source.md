@@ -1,7 +1,7 @@
 ---
 title: Create a cloud services configuration 
 description: Create data source to connect to Salesforce using the OAuth credentials
-solution: Experience Manager Forms
+solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
