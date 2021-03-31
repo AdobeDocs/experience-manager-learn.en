@@ -7,6 +7,7 @@ product: experience manager
 index: y
 type: Tutorial
 solution: Experience Manager
+feature-set: Experience Manager, Experience Manager Assets, Experience Manager Cloud Manager, Experience Manager Forms, Experience Manager Screens, Experience Manager Sites
 ---
 
 # Metadata for internal use
