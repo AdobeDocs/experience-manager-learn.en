@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: Experience Manager
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-learn.en
