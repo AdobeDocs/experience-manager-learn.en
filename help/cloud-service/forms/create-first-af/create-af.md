@@ -9,7 +9,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7376
-thumbnail: 332237.pg
+thumbnail: 332237.jpg
 ---
 
 # Create an Adaptive Form 

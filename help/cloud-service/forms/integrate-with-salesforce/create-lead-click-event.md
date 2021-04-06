@@ -8,6 +8,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7193
+thumbnail: 331892.jpg
 ---
 
 # Test the integration 

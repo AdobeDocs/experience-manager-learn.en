@@ -9,7 +9,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7380
-thumbnail: 332232.pg
+thumbnail: 332232.jpg
 ---
 
 # Configure assets panel

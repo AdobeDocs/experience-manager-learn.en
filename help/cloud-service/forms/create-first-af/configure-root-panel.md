@@ -9,7 +9,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7377
-thumbnail: 332238.pg
+thumbnail: 332238.jpg
 ---
 
 # Configure root panel
