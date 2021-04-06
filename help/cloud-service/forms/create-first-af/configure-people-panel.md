@@ -9,7 +9,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7378
-thumbnail: 332234.pg
+thumbnail: 332234.jpg
 ---
 
 # Configure people panel

@@ -1,6 +1,6 @@
 ---
 title: Configure start panel
-description: Add astatic text component to the start panel.
+description: Add a static text component to the start panel.
 solution: Experience Manager Forms
 type: Documentation
 role: Developer
@@ -9,7 +9,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7388
-thumbnail: 332235.pg
+thumbnail: 332235.jpg
 ---
 
 # Configure start panel

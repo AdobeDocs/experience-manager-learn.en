@@ -9,6 +9,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7151
+thumbnail: 331758.jpg
 ---
 
 # Test lead generation from form submission 
