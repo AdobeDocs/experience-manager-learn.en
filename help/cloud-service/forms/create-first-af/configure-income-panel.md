@@ -9,7 +9,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7379
-thumbnail: 332233.pg
+thumbnail: 332233.jpg
 ---
 
 # Configure income panel

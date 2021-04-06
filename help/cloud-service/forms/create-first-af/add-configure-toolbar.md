@@ -9,7 +9,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7389
-thumbnail: 332236.pg
+thumbnail: 332236.jpg
 ---
 
 # Add and configure toolbar

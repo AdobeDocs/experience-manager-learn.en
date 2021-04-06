@@ -9,7 +9,7 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7386
-thumbnail: 33229.pg
+thumbnail: 332229.jpg
 ---
 
 # Create theme
