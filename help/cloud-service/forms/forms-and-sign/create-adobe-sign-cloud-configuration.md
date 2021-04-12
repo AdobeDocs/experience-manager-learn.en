@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: cloud-service
 feature: Adaptive Forms
 topic: Development
-kt: 7427
+kt: 7428
 thumbnail: 332437.jpg
 ---
 # Create Adobe Sign Cloud Configuration
