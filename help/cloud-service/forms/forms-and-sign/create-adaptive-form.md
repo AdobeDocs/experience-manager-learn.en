@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: cloud-service
 feature: Adaptive Forms
 topic: Development
-kt: 7437
+kt: 7431
 thumbnail: 332438.jpg
 ---
 # Adaptive form with Adobe Sign

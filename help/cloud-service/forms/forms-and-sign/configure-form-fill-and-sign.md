@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: cloud-service
 feature: Adaptive Forms
 topic: Development
-kt: 7438
+kt: 7432
 thumbnail: 332439.jpg
 ---
 # Configure Adaptive form for fill and sign scenario
