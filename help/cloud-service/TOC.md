@@ -51,7 +51,7 @@ team: TM
     + [Content Publishing](./developing/basics/content-publishing.md)
     + [OSGi Configurations](./developing/basics/osgi-configurations.md)
     + [Dispatcher Configuration Migration](./developing/basics/dispatcher-configuration.md)
-  + [AEM SDK API JavaDocs](https://docs.adobe.com/content/help/en/experience-manager-cloud-service-javadoc/)
+  + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html)
 + Debugging AEM{#debugging}
   + Debugging the AEM SDK{#debugging-aem-sdk}
     + [Overview](./debugging/aem-sdk-local-quickstart/overview.md)
