@@ -8,6 +8,7 @@ level: Beginner, Intermediate
 version: cloud-service
 topic: development
 thumbnail: 331891.jpg
+kt: 7192
 ---
 # Introduction
 
