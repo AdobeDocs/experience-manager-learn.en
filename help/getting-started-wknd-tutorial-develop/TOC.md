@@ -14,10 +14,12 @@ index: y
 # Getting Started with AEM Sites - WKND Tutorial {#getting-started-wknd-tutorial-develop}
 
 + [WKND Tutorial Overview](overview.md)
-+ [1 - Project Setup](project-setup.md)
-+ [2 - Component Basics](component-basics.md)
-+ [3 - Pages and Templates](pages-templates.md)
-+ [4 - Client-Side Libraries](client-side-libraries.md)
-+ [5 - Style System](style-system.md)
-+ [6 - Custom Component](custom-component.md)
-+ [7 - Unit Testing](unit-testing.md)
++ Project Archetype {#project-archetype}
+  + [Overview](./project-archetype/overview.md)
+  + [1 - Project Setup](./project-archetype/project-setup.md)
+  + [2 - Component Basics](./project-archetype/component-basics.md)
+  + [3 - Pages and Templates](./project-archetype/pages-templates.md)
+  + [4 - Client-Side Libraries](./project-archetype/client-side-libraries.md)
+  + [5 - Style System](./project-archetype/style-system.md)
+  + [6 - Custom Component](./project-archetype/custom-component.md)
+  + [7 - Unit Testing](./project-archetype/unit-testing.md)
