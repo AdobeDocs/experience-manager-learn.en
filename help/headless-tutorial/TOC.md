@@ -15,6 +15,25 @@ index: y
 # Getting Started with AEM Headless{#getting-started-with-aem-headless}
 
 + [AEM Headless Overview](./overview.md)
++ GraphQL {#graphql}
+  + [Overview](./graphql/overview.md)
+  + Video Series{#video-series}
+    + [1 - Modeling Basics](./graphql/video-series/modeling-basics.md)
+    + [2 - Advanced Modeling](./graphql/video-series/advanced-modeling.md)
+    + [3 - Creating GraphQL Queries](./graphql/video-series/creating-graphql-queries.md)
+  + Multi-step Tutorial{#multi-step}
+    + [Overview](./graphql/multi-step/overview.md)
+    + [1 - Quick Setup](./graphql/multi-step/setup.md)
+    + [2 - Defining Content Fragment Models](./graphql/multi-step/content-fragment-models.md)
+    + [3 - Authoring Content Fragments](./graphql/multi-step/author-content-fragments.md)
+    + [4 - Explore GraphQL APIs](./graphql/multi-step/explore-graphql-api.md)
+    + [5 - Query from an external app](./graphql/multi-step/graphql-and-external-app.md)
+    + [6 - Advanced data modeling with Fragment References](./graphql/multi-step/fragment-references.md)
+    + [7 - Production deployment](./graphql/multi-step/production-deployment.md)
++ Token-based authentication {#authentication}
+  + [Overview](./authentication/overview.md)
+  + [1 - Local Development Access Token](./authentication/local-development-access-token.md)
+  + [2 - Service Credentials](./authentication/service-credentials.md)
 + Content Services {#content-services}
   + [Overview](./content-services/overview.md)
   + [1 - Tutorial Set up](./content-services/chapter-1.md)
@@ -23,17 +42,4 @@ index: y
   + [4 - Defining Content Services Templates](./content-services/chapter-4.md)
   + [5 - Authoring Content Services Pages](./content-services/chapter-5.md)
   + [6 - Exposing the Content on AEM Publish for Delivery](./content-services/chapter-6.md)
-  + [7 - Consuming AEM Content Services from a Mobile App](./content-services/chapter-7.md)
-+ GraphQL {#graphql}
-  + [Overview](./graphql/overview.md)
-  + [1 - Quick Setup](./graphql/setup.md)
-  + [2 - Defining Content Fragment Models](./graphql/content-fragment-models.md)
-  + [3 - Authoring Content Fragments](./graphql/author-content-fragments.md)
-  + [4 - Explore GraphQL APIs](./graphql/explore-graphql-api.md)
-  + [5 - Query from an external app](./graphql/graphql-and-external-app.md)
-  + [6 - Advanced data modeling with Fragment References](./graphql/fragment-references.md)
-  + [7 - Production deployment](./graphql/production-deployment.md)
-+ Token-based authentication {#authentication}
-  + [Overview](./authentication/overview.md)
-  + [1 - Local Development Access Token](./authentication/local-development-access-token.md)
-  + [2 - Service Credentials](./authentication/service-credentials.md)
+  + [7 - Consuming AEM Content Services from a Mobile App](./content-services/chapter-7.md)  
