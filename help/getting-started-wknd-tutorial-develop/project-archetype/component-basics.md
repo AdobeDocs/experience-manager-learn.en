@@ -22,7 +22,7 @@ In this chapter we will explore the underlying technology of an Adobe Experience
 
 ## Prerequisites {#prerequisites}
 
-Review the required tooling and instructions for setting up a [local development environment](overview.md#local-dev-environment).
+Review the required tooling and instructions for setting up a [local development environment](./overview.md#local-dev-environment).
 
 The IDE used in the videos is [Visual Studio Code](https://code.visualstudio.com/) and the [VSCode AEM Sync](https://marketplace.visualstudio.com/items?itemName=yamato-ltd.vscode-aem-sync) plugin.
 
@@ -361,4 +361,3 @@ Congratulations, you have just learned the basics of component development in Ad
 Get familiar with Adobe Experience Manager pages and templates in the next chapter [Pages and Templates](pages-templates.md). Understand how Core Components are proxied into the project and learn advanced policy configurations of editable templates to build out a well-structured Article Page template.
 
 View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or review and deploy the code locally at on the Git branch `tutorial/component-basics-solution`.
-
