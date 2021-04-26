@@ -3,18 +3,15 @@ title: Developing with the Style System
 seo-title: Developing with the Style System
 description: Learn how to implement individual styles and re-use Core Components using Experience Manager's Style System. This tutorial covers developing for the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor.
 sub-product: sites
-topics: front-end-development,responsive
-version: cloud-service
-doc-type: tutorial
-activity: develop
-audience: developer
-kt: 4128
-mini-toc-levels: 1
-thumbnail: 30386.jpg
+version: 6.4, 6.5, Cloud Service
+type: Tutorial
 feature: Core Components, Style System
 topic: Content Management, Development
 role: Developer
 level: Beginner
+kt: 4128
+mini-toc-levels: 1
+thumbnail: 30386.jpg
 ---
 
 # Developing with the Style System {#developing-with-the-style-system}
