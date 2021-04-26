@@ -196,16 +196,17 @@ Unit tests typically map 1-to-1 with Java classes. In this chapter, we'll write 
     ![Create a new BylineImplTest.java file](assets/unit-testing/new-bylineimpltest.png)
 
     Since we are testing 
-    
+
     * `src/main/java/com/adobe/aem/guides/wknd/core/models/impl/BylineImpl.java`
-    
+
     create a corresponding unit test Java class at 
-    
+
     * `src/test/java/com/adobe/aem/guides/wknd/core/models/impl/BylineImplTest.java`
-    
+
     The `Test` suffix on the unit test file, `BylineImplTest.java` is a convention, that allows us to 
-        1. Easily identify it as the test file _for_ `BylineImpl.java` 
-        2. But also, differentiate the test file _from_ the class being tested, `BylineImpl.java`
+
+    1. Easily identify it as the test file _for_ `BylineImpl.java` 
+    1. But also, differentiate the test file _from_ the class being tested, `BylineImpl.java`
 
 ## Reviewing BylineImplTest.java {#reviewing-bylineimpltest-java}
 
