@@ -1,18 +1,16 @@
 ---
 title: Unit Testing
 description: This tutorial covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in the Custom Component tutorial.
-topics: development
-version: cloud-service
-doc-type: tutorial
-activity: develop
-audience: developer
-kt: 4089
-mini-toc-levels: 1
-thumbnail: 30207.jpg
+sub-product: sites
+version: 6.4, 6.5, Cloud Service
+type: Tutorial
 feature: APIs, AEM Project Archetype
 topic: Content Management, Development
 role: Developer
 level: Beginner
+kt: 4089
+mini-toc-levels: 1
+thumbnail: 30207.jpg
 ---
 
 # Unit Testing {#unit-testing}

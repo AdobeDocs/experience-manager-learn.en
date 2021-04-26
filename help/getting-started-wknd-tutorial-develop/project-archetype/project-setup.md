@@ -3,18 +3,15 @@ title: Getting Started with AEM Sites - Project Setup
 seo-title: Getting Started with AEM Sites - Project Setup
 description: Covers the creation of a Maven Multi Module Project to manage the code and configurations for an AEM Site.
 sub-product: sites
+version: 6.4, 6.5, Cloud Service
+type: Tutorial
 feature: AEM Project Archetype
-topics: development
-version: cloud-service
-doc-type: tutorial
-activity: develop
-audience: developer
-mini-toc-levels: 1
-kt: 3418
-thumbnail: 30152.jpg
 topic: Content Management, Development
 role: Developer
 level: Beginner
+mini-toc-levels: 1
+kt: 3418
+thumbnail: 30152.jpg
 ---
 
 # Project Setup {#project-setup}
