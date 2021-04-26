@@ -27,11 +27,19 @@ The goal for this multi-part tutorial is to teach a developer how to implement a
 
 >[!VIDEO](https://video.tv.adobe.com/v/30476?quality=12&learn=on)
 
-## About the tutorial {#about-tutorial}
+## Options for starting a Sites project
 
-The WKND is a fictional online magazine and blog that focuses on nightlife, activities, and events in several international cities.
+There are two basic approaches to starting an AEM Sites project.
 
-### Adobe XD UI Kit
+**AEM Project Archetype** - Traditional approach to AEM development by generating a minimal AEM project using a Maven template. This is the recommended approach for AEM 6.5/6.4 projects and AEM as a Cloud Service projects that anticipate heavy customization. The tutorial offers a deeper dive into AEM development.
+
+[Start the tutorial with the AEM Project Archetype](./project-archetype/overview.md)
+
+**AEM Site Templates** - A low-code approach to generating an AEM Site by using a pre-defined Site Template. Use out of the box components and templates to quickly get a site up and running. Use a theming workflow to apply brand-specific styles and customizations with just CSS and JavaScript. Recommended for new projects and developers. Currently only available for AEM as a Cloud Service.
+
+[Start the tutorial using a Site Template](./site-template/create-site.md)
+
+## Adobe XD UI Kit
 
 To make this tutorial closer to a real-world scenario Adobe's talented UX designers created the mockups for the site using [Adobe XD](https://www.adobe.com/products/xd.html). Over the course of the tutorial various pieces of the designs are implemented into a fully author-able AEM site. Special thanks to **Lorenzo Buosi** and **Kilian Amendola** who created the beautiful design for the WKND site.
 
@@ -56,4 +64,4 @@ With Adobe Stock, you have access to more than 140 million high-quality, royalty
 
 ## Next Steps {#next-steps}
 
-What are you waiting for?! Start the tutorial and learn how to [generate a new Adobe Experience Manager project using the AEM Project Archetype](./project-archetype/overview.md).
+What are you waiting for?! Learn how to [generate a new Adobe Experience Manager project using the AEM Project Archetype](./project-archetype/overview.md) or [create a site using a Site Template](./site-template/create-site.md).
