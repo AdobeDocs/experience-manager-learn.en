@@ -33,12 +33,12 @@ index: y
 + SPA Editor{#spa-editor}
     + Remote SPA{#remote-spa}
       + [Overview](./spa-editor/remote-spa/overview.md)
-      + [1 - Quick Setup](./spa-editor/remote-spa/quick-setup.md)
-      + [2 - Configure AEM](./spa-editor/remote-spa/aem-configure.md)
-      + [3 - Bootstrap the SPA](./spa-editor/remote-spa/spa-bootstrap.md)
-      + [4 - Fixed Components](./spa-editor/remote-spa/spa-fixed-component.md)
-      + [5 - Container Components](./spa-editor/remote-spa/spa-container-component.md)
-      + [6 - Dynamic Routes](./spa-editor/remote-spa/spa-dynamic-routes.md)
+      + [Quick Setup](./spa-editor/remote-spa/quick-setup.md)
+      + [1 - Configure AEM](./spa-editor/remote-spa/aem-configure.md)
+      + [2 - Bootstrap the SPA](./spa-editor/remote-spa/spa-bootstrap.md)
+      + [3 - Fixed Components](./spa-editor/remote-spa/spa-fixed-component.md)
+      + [4 - Container Components](./spa-editor/remote-spa/spa-container-component.md)
+      + [5 - Dynamic Routes](./spa-editor/remote-spa/spa-dynamic-routes.md)
 + Token-based authentication {#authentication}
   + [Overview](./authentication/overview.md)
   + [1 - Local Development Access Token](./authentication/local-development-access-token.md)
