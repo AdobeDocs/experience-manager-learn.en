@@ -67,8 +67,8 @@ This tutorial has a dependency on __WKND 0.3.0+'s__ project (for content).
 
 To perform a quick setup, AEM packages are provided that contain the tutorial's final  AEM configuration and content.
 
-1. Download `wknd-app.all.x.x.x.zip` from DemoHub Assets pod
-1. Download `wknd-app.ui.content.sample.x.x.x.zip`  from DemoHub Assets pod
+1. [Download `wknd-app.all.x.x.x.zip`](./assets/quick-setup/wknd-app.all-1.0.0-SNAPSHOT.zip)
+1. [Download `wknd-app.ui.content.sample.x.x.x.zip`](./assets/quick-setup/wknd-app.ui.content.sample-1.0.0.zip)
 1. Log in to AEM SDK's Package Manager at [http://localhost:4502/crx/packmgr](http://localhost:4502/crx/packmgr) with the `admin` credentials.
 1. __Upload__ the `wknd-app.all.x.x.x.zip` downloaded in step 1
 1. Tap the __Install__ button for the entry `wknd-app.all.x.x.x.zip`

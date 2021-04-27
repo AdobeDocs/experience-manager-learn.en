@@ -60,35 +60,37 @@ This tutorial assumes:
 
 Quick Setup gets you up and running with the WKND App SPA and AEM SPA Editor in 15 minutes. This accelerated setup takes you directly to the end-state of the tutorial, allowing you to explore authoring the SPA in AEM SPA Editor.
 
-+ [Quick Set up](./quick-setup.md)
++ [Learn about quick setup](./quick-setup.md)
 
-## Configure AEM for SPA Editor
+## 1. Configure AEM for SPA Editor
 
  AEM configurations are required to integrate the SPA with AEM SPA Editor. These configurations are managed and deployed via an AEM Project. In this chapter, learn about what configurations are necessary and how to define them.
 
-+ [Configure AEM](./aem-configure.md)
++ [Learn how to configure AEM for SPA Editor](./aem-configure.md)
 
-## Bootstrap the SPA
+## 2. Bootstrap the SPA
 
 For AEM SPA Editor to integrate a SPA into it's authoring context, a few additions must be made to the SPA.
 
-+ [Bootstrap the SPA for AEM SPA Editor](./spa-bootstrap.md)
++ [Learn how to bootstrap the SPA for AEM SPA Editor](./spa-bootstrap.md)
 
-## Editable fixed components
+## 3. Editable fixed components
 
 First, explore adding an editable "fixed component" to the SPA. This illustrates how a developer can place a specific editable component, in the SPA. While the author can change the component's content, they cannot remove the component or change its placement, positioning, or size.
 
-+ [Editable Fixed Components](./spa-fixed-component.md)
++ [Learn about editable fixed components](./spa-fixed-component.md)
 
-## Editable container components
+## 4. Editable container components
 
 Next, explore adding an editable "container component" to the SPA. This illustrates how a developer can place a container component in the SPA. Container components allow authors to place allowed component in it, and adjust the layout of the components.
 
-## Dynamic routes and editable components
++ [Learn about editable container components](./spa-container-component.md)
+
+## 5. Dynamic routes and editable components
 
 Lastly, use the concepts explained in previous chapters to dynamic routes; routes that  display different content based on the route's parameter. This illustrates how AEM SPA Editor can be used to author content on routes that are programmatically driven and derived.
 
-+ [Dynamic Routes and Editable components](./spa-dynamic-routes.md)
++ [Learn about dynamic routes and editable components](./spa-dynamic-routes.md)
 
 ## Additional resources
 
