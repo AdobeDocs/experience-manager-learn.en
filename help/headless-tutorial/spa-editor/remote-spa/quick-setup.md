@@ -84,6 +84,7 @@ $ mkdir -p ~/Code/wknd-app
 $ cd ~/Code/wknd-app
 $ git clone git@github.com:adobe/aem-guides-wknd-graphql.git
 $ git checkout -b feature/spa-editor
+$ git pull origin feature/spa-editor
 ```
 
 ## Start the SPA application
