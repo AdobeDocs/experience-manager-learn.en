@@ -16,6 +16,13 @@ level: Beginner
 
 # Set up local AEM Runtime
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_localdev_aemruntime"
+>title="Local AEM Runtime"
+>abstract="Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Service SDK’s Quickstart Jar. This allows developers to deploy to, and test custom code, configuration and content prior to committing it to source control, and deploying it to a AEM as a Cloud Service environment."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html" text="AEM as a Cloud Service SDK"
+>additional-url="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html" text="Download AEM as a Cloud Service SDK"
+
 Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Service SDK's Quickstart Jar. This allows developers to deploy to, and test custom code, configuration and content prior to committing it to source control, and deploying it to a AEM as a Cloud Service environment.
 
  Note that `~` is used as shorthand for the User's Directory. In Windows, this is the equivalent of `%HOMEPATH%`.
