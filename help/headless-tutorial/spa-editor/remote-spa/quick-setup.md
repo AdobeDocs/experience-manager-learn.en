@@ -43,11 +43,12 @@ Download and install the AEM SDK Quickstart on port 4502, with default `admin/ad
 1. [Download latest AEM SDK](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+SDK*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=1)
 1. Unzip the AEM SDK to `~/aem-sdk`
 1. Run the AEM SDK Quickstart Jar
-    ```
-    $ java -jar aem-sdk-quickstart-xxx.jar
-    
-    # Provide `admin` as the admin user's password
-    ```
+
+   ```
+   $ java -jar aem-sdk-quickstart-xxx.jar
+   
+   # Provide `admin` as the admin user's password
+   ```
 
 AEM SDK will start and automatically launch on [http://localhost:4502](http://localhost:4502). Log in using the following credentials:
 

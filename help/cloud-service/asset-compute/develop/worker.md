@@ -333,6 +333,7 @@ Now that the worker code is complete, and was previously registered and configur
         ]
     }
     ```
+
 1. Tap __Run__ and wait for the rendition to generate
 1. The __Renditions__ section previews the generated rendition. Tap the rendition preview to download the full rendition
 

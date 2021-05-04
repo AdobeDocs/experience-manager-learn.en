@@ -198,6 +198,7 @@ Because our Asset Compute project contains two workers (the previous [circle ren
         ]
     }
     ```
+
 1. Tap __Run__ and wait for the XML rendition to generate
     + Since both workers are listed in the profile definition, both renditions will generate. Optionally, the top profile definition pointing at the [circle rendition worker](../develop/worker.md) can be deleted, to avoid executing it from Development Tool.
 1. The __Renditions__ section previews the generated rendition. Tap the `rendition.xml` to download it, and open it in VS Code (or your favorite XML/text editor) to review.

@@ -48,9 +48,11 @@ _Click-through of debugging an Asset Compute worker using wskdebug (No audio)_
 1. Ensure [Docker Desktop and the supporting Docker images](../set-up/development-environment.md#docker) are installed  and running
 1. Close any active running instances of Development Tool.
 1. Deploy the latest code using `aio app deploy`  and record the deployed action name (name between the `[...]`). This will be used to update the `launch.json` in step 8.
-    ```
-    ℹ Info: Deploying package [wkndAemAssetCompute-0.0.1]...
-    ``` 
+
+   ```
+   ℹ Info: Deploying package [wkndAemAssetCompute-0.0.1]...
+   ```
+
 1. Start a new instance of Asset Compute Development Tool using the command `npx adobe-asset-compute devtool`
 1. In VS Code, tap the Debug icon in the left navigation
     + If prompted, tap __create a launch.json file > Node.js__ to create a new `launch.json` file.
