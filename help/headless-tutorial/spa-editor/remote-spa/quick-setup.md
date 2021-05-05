@@ -25,8 +25,11 @@ This tutorial requires the following:
 + [Java™ 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 + [Maven 3.6+](https://maven.apache.org/)
 + [Git](https://git-scm.com/downloads)
++ macOS only prerequisites
+    + [Xcode](https://developer.apple.com/xcode/) or [Xcode command line tools](https://developer.apple.com/xcode/resources/)
 + [aem-guides-wknd.all.0.3.0.zip or greater](https://github.com/adobe/aem-guides-wknd/releases)
 + [aem-guides-wknd-graphql source code](https://github.com/adobe/aem-guides-wknd-graphql)
+
 
 This tutorial assumes:
 
@@ -83,7 +86,8 @@ Download the WKND App's source code by from Github.com, and switch the branch co
 ```
 $ mkdir -p ~/Code/wknd-app
 $ cd ~/Code/wknd-app
-$ git clone git@github.com:adobe/aem-guides-wknd-graphql.git
+$ git clone https://github.com/adobe/aem-guides-wknd-graphql.git
+$ cd aem-guides-wknd-graphql
 $ git checkout -b feature/spa-editor
 $ git pull origin feature/spa-editor
 ```
@@ -139,6 +143,8 @@ Before authoring content arrange your browser windows such that AEM Author (`htt
 1. Tap on the __Bali Surf Camp__ card and navigate to its dynamic route
 1. Add, change, or remove components from the container component that sites above the __Itinerary__ heading
 1. Refresh the SPA running on `http://localhost:3000` and see that the changes reflected
+
+New AEM pages under the __WKND App Home page > Adventure__ _must_ have an AEM page name that matches the corresponding adventure's Content Fragment's name. This is because the SPA route to AEM Page mapping is based off the last segment of the route, which is the Content Fragment's name.
 
 ## Congratulations!
 
