@@ -16,6 +16,13 @@ level: Beginner
 
 # Using Adobe Cloud Manager - CI/CD Production Pipeline
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_devops_prodpipeline"
+>title="CI/CD Production Pipeline"
+>abstract="The CI/CD Production Pipeline configuration defines the trigger that will initiate the pipeline, parameters controlling the production deployment and performance test parameters."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html?lang=en#deployment-process" text="Deploy your Code"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html?lang=en#deployment-production-phase" text="Deployment to Production Phase"
+
 ## Configuration
 
 The [CI/CD Production Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/configuring-pipeline.html) configuration defines the trigger that will initiate the pipeline, parameters controlling the production deployment and performance test parameters.

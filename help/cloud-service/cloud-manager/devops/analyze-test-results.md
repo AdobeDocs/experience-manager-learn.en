@@ -12,6 +12,12 @@ thumbnail: 330540.jpg
 
 # Analyze test results
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_devops_testresult"
+>title="Analyze test results"
+>abstract="IExplore any compilation errors in your code and whether or not this code follows best practices for AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/understand-your-test-results.html?lang=en#how-to-use" text="Understand your Test Results"
+
 Explore any compilation errors in your code and whether or not this code follows best practices for AEM as a Cloud Service
 
 >[!VIDEO](https://video.tv.adobe.com/v/330540/?quality=12&learn=on)
