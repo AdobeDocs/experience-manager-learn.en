@@ -16,6 +16,12 @@ level: Beginner
 
 # Using Adobe Cloud Manager - CI/CD Production Pipeline
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_devops_nonprodpipeline"
+>title="CI/CD Non-Production Pipeline"
+>abstract="CI/CD Non-production pipelines are broken into two categories, Code Quality pipelines, and Deployment pipelines. Code Quality pipelines all code from a Git branch to build and be evaluated against Cloud Manager's code quality scan. Deployment pipelines support the automated deployment of code from the Git repository to any Non-production environment, meaning any provisioned AEM environment that is not Stage or Production."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/configuring-pipeline.html?lang=en#non-production-%26-code-quality-only-pipelines" text="Non-Production & Code Quality Only Pipelines"
+
 [CI/CD Non-production pipelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/configuring-pipeline.html?lang=en#non-production-%26-code-quality-only-pipelines) are broken into two categories, Code Quality pipelines, and Deployment pipelines. Code Quality pipelines all code from a Git branch to build and be evaluated against Cloud Manager's code quality scan. Deployment pipelines support the automated deployment of code from the Git repository to any Non-production environment, meaning any provisioned AEM environment that is not Stage or Production.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26316/?quality=12&learn=on)
