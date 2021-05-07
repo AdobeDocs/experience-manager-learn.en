@@ -6,7 +6,7 @@ feature: SPA Editor, Core Components, APIs, Developing
 role: Developer, Architect
 level: Beginner
 kt: 7629
-thumbnail: kt-7629.jpeg
+thumbnail: 333181.jpeg
 ---
 
 # Quick Setup
@@ -14,6 +14,10 @@ thumbnail: kt-7629.jpeg
 Quick setup is an expedited walk-through illustrating how to install and run the WKND App and as a Remote SPA, and author it using AEM SPA Editor.
 
 Quick setup takes you directly to the end state of this tutorial.
+
+>[!VIDEO](https://video.tv.adobe.com/v/333181/?quality=12&learn=on)
+
+_A video walk-through of the quick setup_
 
 ## Prerequisites
 
