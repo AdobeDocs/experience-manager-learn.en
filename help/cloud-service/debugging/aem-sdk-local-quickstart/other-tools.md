@@ -49,13 +49,3 @@ QueryBuilder Debugger is located at:
 
 + [http://localhost:4502/libs/cq/search/content/querydebug.html](http://localhost:4502/libs/cq/search/content/querydebug.html)
 
-## Sling Log Tracer and AEM Chrome plug-in
-
-![Sling Log Tracer and AEM Chrome plug-in](./assets/other-tools/log-tracer.png)
-
-[Sling Log Tracer](https://sling.apache.org/documentation/bundles/log-tracers.html), which ships with AEM SDK's local quickstart, allows for in-depth tracing of HTTP Requests, exposing in depth debugging information per request. The [Log Tracer OSGi configuration must be configured](https://sling.apache.org/documentation/bundles/log-tracers.html#configuration-1) to enable this feature.
-
-The open source [AEM Chrome plug-in](https://chrome.google.com/webstore/detail/aem-chrome-plug-in/ejdcnikffjleeffpigekhccpepplaode?hl=en-US) for the [Google Chrome web browser](https://www.google.com/chrome/), integrates with Log Tracer, exposing the debug information directly in Chrome's Dev Tools.
-
-_The AEM Chrome plug-in is an open source tool, and Adobe does not provide support for it._
-
