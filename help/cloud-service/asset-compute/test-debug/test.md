@@ -25,6 +25,7 @@ Asset Compute workers' tests are broken into test suites, and within each test s
 The structure of tests in an Asset Compute project are as follows:
 
 ```
+
 /actions/<worker-name>/index.js
 ...
 /test/
@@ -65,7 +66,7 @@ This test case asserts the parameterized input (`params.json`) for the input fil
 1. Create a new test case folder at `/test/asset-compute/worker/success-parameterized` to test a successful execution of the worker that generates a PNG rendition.
 1. In the `success-parameterized` folder, add the test [input file](./assets/test/success-parameterized/file.jpg) for this test case and name it `file.jpg`.
 1. In the `success-parameterized` folder, add a new file named `params.json` that defines the input parameters of the worker:
- 
+
    ```json
    { 
        "size": "400",
@@ -73,9 +74,9 @@ This test case asserts the parameterized input (`params.json`) for the input fil
        "brightness": "-0.50"
    }
    ```
-
+   
    These are the same key/values passed into the [Development Tool's Asset Compute profile definition](../develop/development-tool.md), less the `worker` key.
-
+ 
 1. Add the expected [rendition file](./assets/test/success-parameterized/rendition.png) to this test case and name it `rendition.png`. This file represents the expected output of the worker for the given input `file.jpg`. 
 1. From the command line, run the tests the project root by executing `aio app test`
     + Ensure [Docker Desktop](../set-up/development-environment.md#docker) and supporting Docker images are installed and started

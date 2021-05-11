@@ -263,7 +263,7 @@ Invoke the worker from AEM by creating a new, or modifying an existing, custom P
 1. Define the new service
     + __Create Metadata Rendition__: Toggle to active
     + __Endpoint:__ `https://...adobeioruntime.net/api/v1/web/wkndAemAssetCompute-0.0.1/metadata-colors`
-        + This is th URL to the worker obtained during the [deploy](#deploy) or using the command `aio app get-url`. Ensure the URL points at the correct workspace based on the AEM as a Cloud Service environment. 
+        + This is the URL to the worker obtained during the [deploy](#deploy) or using the command `aio app get-url`. Ensure the URL points at the correct workspace based on the AEM as a Cloud Service environment. 
     + __Service Parameters__
         + Tap __Add Parameter__
             + Key: `colorFamily`
