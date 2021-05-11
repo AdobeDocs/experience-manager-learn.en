@@ -222,7 +222,7 @@ To start AEM Author service, `cd` into the directory containing the Quickstart J
 
 or, to start AEM Publish service, `cd` into the directory containing the Quickstart Jar and execute the command:
 
-`$ java -jar aem-author-p4503.jar`
+`$ java -jar aem-publish-p4503.jar`
 
 ## Starting the Quickstart Jar from the command line immediately aborts{#troubleshooting-java-8}
 
@@ -239,7 +239,7 @@ java.lang.Exception: Quickstart requires a Java Specification 11 VM, but your VM
 Quickstart: aborting
 ```
 
-The is because AEM as a Cloud Service requires Java SDK 11 and you are running a different version, most likely Java 8. To resolve this issue, download and install [Oracle Java SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14).
+This is because AEM as a Cloud Service requires Java SDK 11 and you are running a different version, most likely Java 8. To resolve this issue, download and install [Oracle Java SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14).
 Once Java SDK 11 has been installed, verify it is the active version by executing the following from the command line.
 
 Once Java 11 SDK is installed, verify it is the active version by running the command from the command line:
