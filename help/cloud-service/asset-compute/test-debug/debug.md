@@ -53,6 +53,7 @@ _Click-through of debugging an Asset Compute worker using wskdebug (No audio)_
    ℹ Info: Deploying package [wkndAemAssetCompute-0.0.1]...
    ```
 
+
 1. Start a new instance of Asset Compute Development Tool using the command `npx adobe-asset-compute devtool`
 1. In VS Code, tap the Debug icon in the left navigation
     + If prompted, tap __create a launch.json file > Node.js__ to create a new `launch.json` file.
