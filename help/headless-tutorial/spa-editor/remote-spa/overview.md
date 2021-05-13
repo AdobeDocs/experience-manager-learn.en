@@ -6,7 +6,7 @@ feature: SPA Editor, Core Components, APIs, Developing
 role: Developer, Architect
 level: Beginner
 kt: 7630
-thumbnail: kt-7630.jpg
+thumbnail: 333272.jpeg
 ---
 
 # Overview
@@ -14,6 +14,8 @@ thumbnail: kt-7630.jpg
 Welcome to the multi-part tutorial for developers looking to augment an existing React-based (or Next.js) Remote SPAs with editable AEM content using AEM SPA Editor.
 
 This tutorial builds upon the [WKND GraphQL App](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html), a React app that consumes AEM Content Fragment content over AEM's GraphQL APIs, however does not  provide any in-context authoring of SPA content.
+
+>[!VIDEO](https://video.tv.adobe.com/v/333272/?quality=12&learn=on)
 
 ## About the tutorial
 
