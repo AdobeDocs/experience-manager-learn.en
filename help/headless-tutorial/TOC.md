@@ -21,6 +21,8 @@ index: y
     + [1 - Modeling Basics](./graphql/video-series/modeling-basics.md)
     + [2 - Advanced Modeling](./graphql/video-series/advanced-modeling.md)
     + [3 - Creating GraphQL Queries](./graphql/video-series/creating-graphql-queries.md)
+    + [4 - Author and Publish Architecture](./graphql/video-series/author-publish-architecture.md)
+    + [5 - Content Fragment Variations](./graphql/video-series/content-fragment-variations.md)
   + Multi-step Tutorial{#multi-step}
     + [Overview](./graphql/multi-step/overview.md)
     + [1 - Quick Setup](./graphql/multi-step/setup.md)
