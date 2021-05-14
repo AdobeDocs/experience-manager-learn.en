@@ -1,14 +1,16 @@
 ---
 title: Create service interface
 description: Define the methods in the interface that you want to expose
-solution: Experience Manager, Experience Manager Forms
+solution: Experience Manager
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
 version: cloud-service
 topic: development
-thumbnail: 331891.jpg
-kt: 7192
+
+thumbnail: 7825.jpg
+kt: 7825
+
 ---
 # Interface
 
