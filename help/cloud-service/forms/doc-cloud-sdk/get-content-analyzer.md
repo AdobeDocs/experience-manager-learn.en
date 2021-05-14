@@ -1,20 +1,32 @@
 ---
+
 title: Create Content Analyzer
 description: Create the JSON part containing the information about the input parameters to the REST call.
-solution: Experience Manager, Experience Manager Forms
+solution: Experience Manager
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
 version: cloud-service
 topic: development
-thumbnail: 331891.jpg
-kt: 7192
----
-# contentAnalyserRequests
+thumbnail: 7836.jpg
+kt: 7836
 
-The JSON part containing the information about the input, parameters and the output. The details of this [form parameter are available here.](https://documentcloud.adobe.com/document-services/index.html#post-createPDF) 
+---
+
+# Create Analyzer Requests
+
+Create a JSON fragment defining the:
+
++  input
++ parameters
++ output. 
+
+The details of this [form parameter are available here.](https://documentcloud.adobe.com/document-services/index.html#post-createPDF)
+
+The sample code listed below generates the JSON fragment for all Office 365 document types.
 
 ```java
+
 package com.aemforms.doccloud.core.impl;
 
 import com.google.gson.JsonObject;
@@ -27,10 +39,15 @@ public class GetContentAnalyser {
 		
 		JsonObject documentIn = new JsonObject();
 		documentIn.addProperty("cpf:location", "InputFile0");
-		System.out.println("The file name is "+fileName);
+
+		if(fileName.endsWith(".pptx"))
+		{
+			documentIn.addProperty("dc:format","application/vnd.openxmlformats-officedocument.presentationml.presentation");
+		}
+
 		if(fileName.endsWith(".docx"))
 		{
-			System.out.println("This is word document");
+			
 			documentIn.addProperty("dc:format","application/vnd.openxmlformats-officedocument.wordprocessingml.document");
 		}
 		if(fileName.endsWith(".xlsx"))

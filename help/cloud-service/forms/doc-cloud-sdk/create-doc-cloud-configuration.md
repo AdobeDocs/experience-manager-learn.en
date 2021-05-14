@@ -7,14 +7,20 @@ role: Developer
 level: Beginner, Intermediate
 version: cloud-service
 topic: development
-thumbnail: 331891.jpg
-kt: 7192
+thumbnail: 7818.jpg
+kt: 7818
+
+
 ---
 # Introduction
 
 Create custom OSGi configuration to capture the credentials of your document cloud account
 
-To make a custom OSGi configuration, we need to first create an interface whose public methods will represent the fields in the configuration. 
+
+To make a custom OSGi configuration, we need to first create an interface whose public methods will represent the fields in the configuration.
+
+![doc-cloud-config](assets/doc-cloud-configuration.JPG)
+
 
 Create an interface named DocumentCloudConfiguration and paste the following code in it.
 

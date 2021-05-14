@@ -7,13 +7,16 @@ role: Developer
 level: Beginner, Intermediate
 version: cloud-service
 topic: development
-thumbnail: 331891.jpg
-kt: 7192
+
+thumbnail: 7826.jpg
+kt: 7826
+
 ---
 # Interface implementation
 
 The following is the complete code the class implementing the interface.
-This class  makes use of 2 utility methods getAccessToken,getJWTToken and static method getContentAnalyserRequest of GetContentAnalyser class.
+
+This class makes use of 2 utility methods `getAccessToken`, `getJWTToken` and static method `getContentAnalyserRequest` of `GetContentAnalyser` class.
 
 
 ```java

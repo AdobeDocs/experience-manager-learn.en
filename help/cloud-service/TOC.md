@@ -89,6 +89,15 @@ team: TM
         + [Configure assets panel](./forms/create-first-af/configure-assets-panel.md)
         + [Configure start panel](./forms/create-first-af/configure-start-panel.md)
         + [Add and Configure toolbar](./forms/create-first-af/add-configure-toolbar.md)
+    + Document Cloud API and AEM Forms CS{#doc-cloud-sdk}
+        + [Introduction](./forms/doc-cloud-sdk/introduction.md)
+        + [Create Adobe IO Project](./forms/doc-cloud-sdk/create-document-cloud-credentials.md)
+        + [Create OSGI Configuration](./forms/doc-cloud-sdk/create-doc-cloud-configuration.md)
+        + [Define Interface](./forms/doc-cloud-sdk/create-interface.md)
+        + [Implement Interface](./forms/doc-cloud-sdk/implement-interface.md)
+        + [Create JSON Part](./forms/doc-cloud-sdk/get-content-analyzer.md)
+        + [Custom Process Step](./forms/doc-cloud-sdk/custom-process-step.md)
+
     + Create Review Workflow{#create-aem-workflow}
         + [Create workflow model](./forms/create-aem-workflow/create-workflow.md)
         + [Trigger workflow](./forms/create-aem-workflow/configure-af.md)
