@@ -7,8 +7,9 @@ role: Developer
 level: Beginner, Intermediate
 version: cloud-service
 topic: development
-thumbnail: 331891.jpg
-kt: 7192
+thumbnail: 7837.jpg
+kt: 7837
+
 ---
 # Custom Process Step
 
