@@ -15,5 +15,10 @@ thumbnail: 332858.jpg
 
 Learn how to define and use Content Fragments in Adobe Experience Manager (AEM) for use with GraphQL.
 
->[!VIDEO](https://video.tv.adobe.com/v/332858/?quality=12&learn=on)
+In this video you will:
 
++ Learn how to create and define a Content Fragment Model
++ Learn about the various data types and validations used to build out the Content Fragment Model
++ Understand how the Content Fragment Model drives the GraphQL API
+
+>[!VIDEO](https://video.tv.adobe.com/v/332858/?quality=12&learn=on)
