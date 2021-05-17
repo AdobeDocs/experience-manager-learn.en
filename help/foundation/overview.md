@@ -13,8 +13,8 @@ Adobe Experience Manager provides a common set of capabilities available to user
 
 ## What's New
 
-* **[Use Workflow Management in AEM (Video)](./workflow/use-workflow-management.md)**
-    *AEM provides visibility into running workflows, and eases management of [!DNL Workflow] definitions.*
+* **[Use Workflow AEM (Video)](./workflow/use-workflow.md)**
+    *AEM Workflow provides a way to collaborate, manage, and process content in AEM.*
 
 * **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
     *Cloud Manager for AEM allows easy management, inspection and self-service of AEM environments.*
