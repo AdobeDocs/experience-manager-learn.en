@@ -6,7 +6,7 @@ feature: SPA Editor, Core Components, APIs, Developing
 role: Developer, Architect
 level: Beginner
 kt: 7629
-thumbnail: 333181.jpeg
+thumbnail: 333181.jpg
 ---
 
 # Quick Setup
