@@ -23,6 +23,7 @@ index: y
     + [3 - Creating GraphQL Queries](./graphql/video-series/creating-graphql-queries.md)
     + [4 - Author and Publish Architecture](./graphql/video-series/author-publish-architecture.md)
     + [5 - Content Fragment Variations](./graphql/video-series/content-fragment-variations.md)
+    + [6 - GraphQL Endpoints](./graphql/video-series/graphql-endpoints.md)
   + Multi-step Tutorial{#multi-step}
     + [Overview](./graphql/multi-step/overview.md)
     + [1 - Quick Setup](./graphql/multi-step/setup.md)
