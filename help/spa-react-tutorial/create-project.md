@@ -102,19 +102,19 @@ Next, compile, build, and deploy the project code to a local instance of AEM usi
 
 3. Run the below Maven command from the `aem-guides-wknd-spa` directory to build and deploy the project to AEM:
 
-   ```shell
-   $ mvn clean install -PautoInstallSinglePackage
-   ```
+    ```shell
+    $ mvn clean install -PautoInstallSinglePackage
+    ```
 
-   If using [AEM 6.x](overview.md#compatibility):
+    If using [AEM 6.x](overview.md#compatibility):
 
-   ```shell
-   $ mvn clean install -PautoInstallSinglePackage -Pclassic
-   ```
+    ```shell
+    $ mvn clean install -PautoInstallSinglePackage -Pclassic
+    ```
 
-   The multiple modules of the project should be compiled and deployed to AEM.
+    The multiple modules of the project should be compiled and deployed to AEM.
 
-   ```plain
+    ```plain
     [INFO] ------------------------------------------------------------------------
     [INFO] Reactor Summary for wknd-spa-react 1.0.0-SNAPSHOT:
     [INFO] 
@@ -132,9 +132,9 @@ Next, compile, build, and deploy the project code to a local instance of AEM usi
     [INFO] BUILD SUCCESS
     [INFO] ------------------------------------------------------------------------
     [INFO] Total time:  01:44 min
-   ```
+    ```
 
-   The Maven profile ***autoInstallSinglePackage*** compiles the individual modules of the project and deploys a single package to the AEM instance. By default this package will be deployed to an AEM instance running locally on port **4502** and with the credentials of **admin:admin**.
+    The Maven profile ***autoInstallSinglePackage*** compiles the individual modules of the project and deploys a single package to the AEM instance. By default this package will be deployed to an AEM instance running locally on port **4502** and with the credentials of **admin:admin**.
 
 4. Navigate to **[!UICONTROL Package Manager]** on your local AEM instance: [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp).
 
