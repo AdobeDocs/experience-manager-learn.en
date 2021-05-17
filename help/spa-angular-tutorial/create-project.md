@@ -93,18 +93,18 @@ Next, compile, build, and deploy the project code to a local instance of AEM usi
 1. Ensure an instance of AEM is running locally on port **4502**.
 2. From the command line terminal verify that Maven is installed:
 
-   ```shell
-   $ mvn --version
+    ```shell
+    $ mvn --version
     Apache Maven 3.6.2
     Maven home: /Library/apache-maven-3.6.2
     Java version: 11.0.4, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home
-   ```
+    ```
 
 3. Run the below Maven command from the `aem-guides-wknd-spa` directory to build and deploy the project to AEM:
 
-   ```shell
-   $ mvn -PautoInstallSinglePackage clean install
-   ```
+    ```shell
+    $ mvn -PautoInstallSinglePackage clean install
+    ```
 
     If using [AEM 6.x](overview.md#compatibility):
 
@@ -114,7 +114,7 @@ Next, compile, build, and deploy the project code to a local instance of AEM usi
 
     The multiple modules of the project should be compiled and deployed to AEM.
 
-   ```plain
+    ```plain
     [INFO] ------------------------------------------------------------------------
     [INFO] Reactor Summary for wknd-spa-angular 1.0.0-SNAPSHOT:
     [INFO] 
@@ -131,9 +131,9 @@ Next, compile, build, and deploy the project code to a local instance of AEM usi
     [INFO] ------------------------------------------------------------------------
     [INFO] BUILD SUCCESS
     [INFO] ------------------------------------------------------------------------
-   ```
+    ```
 
-   The Maven profile ***autoInstallSinglePackage*** compiles the individual modules of the project and deploys a single package to the AEM instance. By default this package will be deployed to an AEM instance running locally on port **4502** and with the credentials of **admin:admin**.
+    The Maven profile ***autoInstallSinglePackage*** compiles the individual modules of the project and deploys a single package to the AEM instance. By default this package will be deployed to an AEM instance running locally on port **4502** and with the credentials of **admin:admin**.
 
 4. Navigate to **[!UICONTROL Package Manager]** on your local AEM instance: [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp).
 
