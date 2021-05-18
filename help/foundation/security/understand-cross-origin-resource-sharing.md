@@ -134,7 +134,8 @@ To allow the caching of CORS headers, add the following configuration to all sup
 ```
 /cache { 
   ...
-  /clientheaders {
+  /headers {
+      "Origin",
       "Access-Control-Allow-Origin"
       "Access-Control-Expose-Headers"
       "Access-Control-Max-Age"
@@ -148,7 +149,7 @@ To allow the caching of CORS headers, add the following configuration to all sup
 
 Remember to **restart the web server application** after making changes to the `dispatcher.any` file.
 
-It is likely clearing the cache entirely will be required to ensure the headers are appropriately cached on the next request after a `/clientheaders` configuration update.
+It is likely clearing the cache entirely will be required to ensure the headers are appropriately cached on the next request after a `/cache/headers` configuration update.
 
 ## Troubleshooting CORS
 
@@ -163,7 +164,7 @@ Logging is available under `com.adobe.granite.cors`:
 * Verify if request was denied by the CORS handler and not by the authentication, CSRF token filter, dispatcher filters, or other security layers
   * If CORS handler responds with 200, but `Access-Control-Allow-Origin` header is absent on the response, review the logs for denials under [!DNL DEBUG] in `com.adobe.granite.cors`
 * If dispatcher caching of [!DNL CORS] requests is enabled
-  * Ensure the `/clientheaders` configuration is applied to `dispatcher.any` and the web server is successfully restarted
+  * Ensure the `/cache/headers` configuration is applied to `dispatcher.any` and the web server is successfully restarted
   * Ensure the cache was properly cleared after any OSGi or dispatcher.any configuration changes.
 * if required, check presence of authentication credentials on the request.
 
