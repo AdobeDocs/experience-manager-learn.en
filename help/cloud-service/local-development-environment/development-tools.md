@@ -139,22 +139,20 @@ The Adobe I/O Cloud Manager plugin allows the aio CLI to generate and run Asset 
 
 ### Set up the Adobe I/O CLI authentication
 
-In order for the Adobe I/O CLI to communicate with Cloud Manager, a Cloud Manager integration must be created in Adobe I/O Console, and credentials must be obtained to successfully authenticate.
-
->[!VIDEO](https://video.tv.adobe.com/v/35094?quality=12&learn=on)
+In order for the Adobe I/O CLI to communicate with Cloud Manager, a [Cloud Manager integration must be created in Adobe I/O Console](https://github.com/adobe/aio-cli-plugin-cloudmanager), and credentials must be obtained to successfully authenticate.
 
 1. Log in to [console.adobe.io](https://console.adobe.io)
 1. Ensure your Organization that includes the Cloud Manager product to connect to is active in the Adobe Org switcher
 1. Create a new or open an existing [Adobe I/O program](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/projects.md)
     + Adobe I/O Console programs are simply organizational groupings of integrations, create or use and existing program based on how you want to manage your integrations
-    + If creating a new project, select "Empty Project" if prompted (vs. Create from Template)
+    + If creating a new project, select "Empty Project" if prompted (vs. "Create from Template")
     + Adobe I/O Console programs are different concepts to Cloud Manager programs
 1. Create a new Cloud Manager API integration with the "Developer - Cloud Service" profile
 1. Obtain the Service Account (JWT) credentials needs to populate Adobe I/O CLI's [config.json](https://github.com/adobe/aio-cli-plugin-cloudmanager#authentication)
 1. Load the `config.json` file into the Adobe I/O CLI
-    + `$ aio config:set jwt-auth PATH_TO_CONFIG_JSON_FILE --file --json`
+    + `$ aio config:set ims.contexts.aio-cli-plugin-cloudmanager PATH_TO_CONFIG_JSON_FILE --file --json`
 1. Load the `private.key` file into the Adobe I/O CLI
-    + `$ aio config:set jwt-auth.jwt_private_key PATH_TO_PRIVATE_KEY_FILE --file`
+    + `$ aio config:set ims.contexts.aio-cli-plugin-cloudmanager.private_key PATH_TO_PRIVATE_KEY_FILE --file`
 
 Begin [executing commands](https://github.com/adobe/aio-cli-plugin-cloudmanager#commands) for Cloud Manager via the Adobe I/O CLI.
 
