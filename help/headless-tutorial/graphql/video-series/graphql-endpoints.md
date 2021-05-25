@@ -13,7 +13,7 @@ thumbnail: 333339.jpg
 
 # GraphQL Endpoints
 
-Learn how to enable, execute queries against, and publishand secure GraphQL endpoints.
+Learn how to enable, execute queries against, and publish and secure GraphQL endpoints.
 
 In this video you will:
 
