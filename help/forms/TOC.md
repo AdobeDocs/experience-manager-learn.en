@@ -35,7 +35,10 @@ index: y
 + Useful Integrations{#some-useful-integrations}
   + [Two Factor Authentication](some-useful-integrations/two-factor-authentication.md)
   + [OCR Data Extraction](some-useful-integrations/ocr-data-extraction.md)
-
++ Creating OSGi bundle {#creating-your-first-osgi-bundle}
+  + [Setup your environment](creating-your-first-osgi-bundle/create-your-first-osgi-bundle.md)
+  + [Create OSGi Service](creating-your-first-osgi-bundle/create-osgi-service.md)
+  + [Create Sling Servlet](creating-your-first-osgi-bundle/create-servlet.md)
 + Adaptive Forms {#adaptive-forms}
   + [Installing AEM Forms on Windows](adaptive-forms/installing-aem-form-on-windows-tutorial-use.md)
   + [Installing 32 bit packages on Linux](adaptive-forms/installing-aem-form-on-linux.md)
