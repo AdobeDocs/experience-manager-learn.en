@@ -35,14 +35,22 @@ index: y
     + [6 - Advanced data modeling with Fragment References](./graphql/multi-step/fragment-references.md)
     + [7 - Production deployment](./graphql/multi-step/production-deployment.md)
 + SPA Editor{#spa-editor}
-    + Remote SPA{#remote-spa}
-      + [Overview](./spa-editor/remote-spa/overview.md)
-      + [Quick Setup](./spa-editor/remote-spa/quick-setup.md)
-      + [1 - Configure AEM](./spa-editor/remote-spa/aem-configure.md)
-      + [2 - Bootstrap the SPA](./spa-editor/remote-spa/spa-bootstrap.md)
-      + [3 - Fixed Components](./spa-editor/remote-spa/spa-fixed-component.md)
-      + [4 - Container Components](./spa-editor/remote-spa/spa-container-component.md)
-      + [5 - Dynamic Routes](./spa-editor/remote-spa/spa-dynamic-routes.md)
+  + React{#react}
+    + [Overview](./spa-editor/react/overview.md)
+    + [1 - Create Project](./spa-editor/react/create-project.md)
+    + [2 - Integrate the SPA](./spa-editor/react/integrate-spa.md)
+    + [3 - Map SPA components](./spa-editor/react/map-components.md)
+    + [4 - Navigation and routing](./spa-editor/react/navigation-routing.md)
+    + [5 - Custom component](./spa-editor/react/custom-component.md)
+    + [6 - Extend component](./spa-editor/react/extend-component.md)
+  + Remote SPA{#remote-spa}
+    + [Overview](./spa-editor/remote-spa/overview.md)
+    + [Quick Setup](./spa-editor/remote-spa/quick-setup.md)
+    + [1 - Configure AEM](./spa-editor/remote-spa/aem-configure.md)
+    + [2 - Bootstrap the SPA](./spa-editor/remote-spa/spa-bootstrap.md)
+    + [3 - Fixed Components](./spa-editor/remote-spa/spa-fixed-component.md)
+    + [4 - Container Components](./spa-editor/remote-spa/spa-container-component.md)
+    + [5 - Dynamic Routes](./spa-editor/remote-spa/spa-dynamic-routes.md)
 + Token-based authentication {#authentication}
   + [Overview](./authentication/overview.md)
   + [1 - Local Development Access Token](./authentication/local-development-access-token.md)
