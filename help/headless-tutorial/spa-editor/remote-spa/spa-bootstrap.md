@@ -272,7 +272,7 @@ Add the AEM Responsive Grid SCSS files to the SPA.
 1. Download and copy the following two files into `src/styles`
     + [_grid.scss](./assets/spa-bootstrap/_grid.scss)
         + The AEM Responsive Grid SCSS generator
-    + [_grid-init.scss](./assets/spa-bootstrap/_grid.scss)
+    + [_grid-init.scss](./assets/spa-bootstrap/_grid-init.scss)
         + Invokes `_grid.scss` using the SPA's specific breakpoints (desktop and mobile) and columns (12).
 1. Open `src/App.scss` and import `./styles/grid-init.scss`
 
