@@ -16,6 +16,8 @@ level: Intermediate, Experienced
 
 # Token-based authentication to AEM as a Cloud Service
 
+AEM exposes a variety of HTTP endpoints that can be interacted with in a headless manner, from GraphQL, AEM Content Services to Assets HTTP API. Often, these headless consumers may need to authenticate to AEM in order to access protected content or actions. To facilitate this, AEM supports token-based authentication of HTTP requests from external applications, services or systems.
+
 In this tutorial well explore how an external application can programmatically authenticate and interact with to AEM as a Cloud Service over HTTP using access tokens. 
 
 >[!VIDEO](https://video.tv.adobe.com/v/330460/?quality=12&learn=on)
