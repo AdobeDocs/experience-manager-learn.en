@@ -9,6 +9,12 @@ level: Beginner
 
 # Getting Started with AEM Headless - Content Services
 
+AEM's Content Services leverages traditional AEM Pages to compose headless REST API endpoints, and AEM Components define, or reference, the content to expose on these endpoints.
+
+AEM Content Services allows for the same content abstractions used for authoring web pages in AEM Sites, to define the content and schemas of these HTTP APIs. The use of AEM Pages and AEM Components empowers marketers to quickly compose and update flexible JSON APIs that can power any application.
+
+## Content Services Tutorial
+
 An end-to-end tutorial illustrating how to build-out and expose content using AEM and consumed by a native mobile app, in a headless CMS scenario.
 
 >[!VIDEO](https://video.tv.adobe.com/v/28315/?quality=12&learn=on)
@@ -28,3 +34,12 @@ This tutorial will cover the following topics:
 The source code, and content packages are available on the [AEM Guides - WKND Mobile GitHub Project](https://github.com/adobe/aem-guides-wknd-mobile).
 
 If you find an issue with the tutorial or the code, please leave a [GitHub issue](https://github.com/adobe/aem-guides-wknd-mobile/issues).
+
+## AEM GraphQL vs. AEM Content Services
+
+|                                | AEM GraphQL APIs | AEM Content Services | 
+|--------------------------------|:-----------------|:---------------------|
+| Schema definition | Structured Content Fragment Models | AEM Components |
+| Content | Content Fragments | AEM Components |
+| Content discovery | By GraphQL query | By AEM Page |
+| Delivery format | GraphQL JSON | AEM ComponentExporter JSON |
