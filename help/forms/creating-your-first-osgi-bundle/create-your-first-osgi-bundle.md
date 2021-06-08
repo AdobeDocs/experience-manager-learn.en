@@ -109,7 +109,9 @@ Expand the `src/main/java` under the `learningaemforms.core` folder. This is the
 
 ## Build your project
 
+
 Once you have written your OSGi service, or servlet, you will need to build your project to generate the OSGi bundle that can be deployed using the Felix web console. Please refer [AEMFD Client SDK](https://repo.adobe.com/nexus/content/repositories/public/com/adobe/aemfd/aemfd-client-sdk/) to include the appropriate client SDK in your Maven project. You will have to include the AEM FD Client SDK in the dependencies section of `pom.xml` of the core project as shown below.
+
 
 ```xml
 <dependency>
