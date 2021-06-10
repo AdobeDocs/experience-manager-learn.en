@@ -95,7 +95,7 @@ index: y
 + Zipping form attachments{#zipping-form-attachments}
   + [Introduction](zipping-form-attachments/introduction.md)
   + [Custom Process](zipping-form-attachments/custom-process-step.md)
-
+  + [Test the solution](zipping-form-attachments/test.md)
 + Storing and Retrieving Adaptive Form{#store-and-retrieve-af-with-2fa}
   + [Introduction](store-and-retrieve-af-with-2fa/introduction.md)
   + [Configure Data Source](store-and-retrieve-af-with-2fa/configure-data-source.md)
