@@ -110,7 +110,12 @@ Expand the `src/main/java` under the `learningaemforms.core` folder. This is the
 ## Build your project
 
 
-Once you have written your OSGi service, or servlet, you will need to build your project to generate the OSGi bundle that can be deployed using the Felix web console. Please refer [AEMFD Client SDK](https://repo.adobe.com/nexus/content/repositories/public/com/adobe/aemfd/aemfd-client-sdk/) to include the appropriate client SDK in your Maven project. You will have to include the AEM FD Client SDK in the dependencies section of `pom.xml` of the core project as shown below.
+
+
+Once you have written your OSGi service, or servlet, you will need to build your project to generate the OSGi bundle that can be deployed using the Felix web console. Please refer [AEMFD Client SDK](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aemfd/aemfd-client-sdk/) to include the appropriate client SDK in your Maven project. You will have to include the AEM FD Client SDK in the dependencies section of `pom.xml` of the core project as shown below.
+
+
+
 
 
 ```xml
@@ -126,5 +131,6 @@ Once you have written your OSGi service, or servlet, you will need to build your
 
 * Open **command prompt window**
 * Navigate to `c:\aemformsbundles\learningaemforms\core`
-* Execute the command `mvn clean install`
-If everything goes well, you should see the bundle in the following location `C:\AEMFormsBundles\learningaemforms\core\target`. This bundle is now ready to be deployed into AEM using the Felix web console.
+* Execute the command `mvn clean install -PautoInstallBundle`
+The above command builds and installs the bundle in the AEM server running on `http://localhost:4502`. The bundle will also be available on the file system at
+ `C:\AEMFormsBundles\learningaemforms\core\target` and can be deployed using [Felix web console](http://localhost:4502/system/console/bundles)
