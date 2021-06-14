@@ -92,9 +92,10 @@ index: y
   + [Introduction](inbox-customization/introduction.md)
   + [Add custom column](inbox-customization/add-married-column.md)
   + [Using sightly template](inbox-customization/use-sightly-template.md)
-+ Zipping form attachments{#zipping-form-attachments}
++ Email form attachments{#zipping-form-attachments}
   + [Introduction](zipping-form-attachments/introduction.md)
-  + [Custom Process](zipping-form-attachments/custom-process-step.md)
+  + [Zip Form Attachments](zipping-form-attachments/custom-process-step.md)
+  + [Email Form Attachments](zipping-form-attachments/populating-list-of-documents.md)
   + [Test the solution](zipping-form-attachments/test.md)
 + Storing and Retrieving Adaptive Form{#store-and-retrieve-af-with-2fa}
   + [Introduction](store-and-retrieve-af-with-2fa/introduction.md)

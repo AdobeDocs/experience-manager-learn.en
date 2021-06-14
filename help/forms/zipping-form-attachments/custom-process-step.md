@@ -19,7 +19,7 @@ kt: kt-8049
 # Custom Process Step
 
 
-A custom process step was implemented to create the zip file containing the form attachments. IF you are not familiar with creating OSGi bundle, please [follow these instructions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html?lang=en)
+A custom process step was implemented to create the zip file containing the form attachments. If you are not familiar with creating OSGi bundle, please [follow these instructions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html?lang=en)
 
 The code in the custom process step does the following
 
