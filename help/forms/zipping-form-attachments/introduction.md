@@ -1,7 +1,7 @@
 ---
 title: Send adaptive form attachments
 
-description: Zip adaptive form attachments and send them using send email component
+description: Send adaptive form attachments using send email component
 
 
 feature: adaptive forms
@@ -21,8 +21,20 @@ kt: kt-8049
 
 
 
-Common use case is to zip the adaptive form attachments and send using send email component in an AEM workflow. To accomplish the use case a custom workflow process step was written. In this custom process step a zip file with the form attachments in created and stored under the payload folder in a file named *zipped_attachments.zip*
+Common use case is to send the adaptive form attachments using send email component in an AEM workflow. 
+Customers typically would zip the form attachments or send the attachments as individual files using send email component.
+
+## Send the form attachments in a zip file
+
+To accomplish the use case a custom workflow process step was written. In this custom process step a zip file with the form attachments in created and stored under the payload folder in a file named *zipped_attachments.zip*
 
 ![send-form-attachments](assets/send-form-attachments.JPG)
+
+## Send the form attachments individually
+
+To accomplish this use case a custom workflow process step was written. In this custom process step we populate workflow variables of type ArrayList of Documents and ArrayList of Strings.
+
+![send-list-of-documents](assets/send-list-of-documents.JPG)
+
 
 
