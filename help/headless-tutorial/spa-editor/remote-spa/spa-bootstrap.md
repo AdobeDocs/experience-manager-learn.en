@@ -13,6 +13,18 @@ thumbnail: kt-7633.jpeg
 
 Before the editable areas can be added to the Remote SPA, it must be bootstrapped with the AEM SPA Editor JavaScript SDK, and a few other configurations.
 
+
+## Download the WKND App source
+
+If you have no already done so, download the WKND App's source code by from Github.com, and switch the branch containing the changes to the SPA performed in this tutorial.
+
+```
+$ mkdir -p ~/Code/wknd-app
+$ cd ~/Code/wknd-app
+$ git clone --branch feature/spa-editor https://github.com/adobe/aem-guides-wknd-graphql.git
+$ cd aem-guides-wknd-graphql
+```
+
 ## Add AEM SPA Editor JS SDK npm dependencies
 
 First, add AEM's SPA npm dependencies to the React project.
