@@ -90,10 +90,8 @@ Download the WKND App's source code by from Github.com, and switch the branch co
 ```
 $ mkdir -p ~/Code/wknd-app
 $ cd ~/Code/wknd-app
-$ git clone https://github.com/adobe/aem-guides-wknd-graphql.git
+$ git clone --branch feature/spa-editor https://github.com/adobe/aem-guides-wknd-graphql.git
 $ cd aem-guides-wknd-graphql
-$ git checkout -b feature/spa-editor
-$ git pull origin feature/spa-editor
 ```
 
 ## Start the SPA application
