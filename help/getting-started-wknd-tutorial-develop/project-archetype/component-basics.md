@@ -322,7 +322,7 @@ Below are the high level steps performed in the above video.
     helloworld.js
     ```
 
-1. Update the `clientlib-helloworld/.conten.xml` file to include the following properties:
+1. Update the `clientlib-helloworld/.content.xml` file to include the following properties:
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
