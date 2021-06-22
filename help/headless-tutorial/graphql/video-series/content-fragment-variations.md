@@ -23,3 +23,4 @@ In this video you will:
 
 >[!VIDEO](https://video.tv.adobe.com/v/333295/?quality=12&learn=on)
 
+_Download the [Postman Collection](./assets/aem-headless-video-series.postman_collection.json) used throughout the AEM Headless Video Series._

@@ -23,3 +23,5 @@ In this video you will:
 + Learn how to install and use the GraphiQL tool
 
 >[!VIDEO](https://video.tv.adobe.com/v/332860/?quality=12&learn=on)
+
+_Download the [Postman Collection](./assets/aem-headless-video-series.postman_collection.json) used throughout the AEM Headless Video Series._
