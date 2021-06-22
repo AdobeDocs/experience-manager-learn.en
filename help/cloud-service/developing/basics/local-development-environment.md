@@ -16,4 +16,6 @@ Learn how to download and set up a local development environment using the AEM a
 
 >[!VIDEO](https://video.tv.adobe.com/v/330558/?quality=12&learn=on)
 
-_ Review these instructions to [set up a complete local development environment using the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)._
+_The `license.properties` shown in this video is no longer needed to run the AEM SDK._
+
+Review these instructions to [set up a complete local development environment using the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html).
