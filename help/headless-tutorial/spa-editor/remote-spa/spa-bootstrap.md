@@ -16,7 +16,7 @@ Before the editable areas can be added to the Remote SPA, it must be bootstrappe
 
 ## Download the WKND App source
 
-If you have no already done so, download the WKND App's source code by from Github.com, and switch the branch containing the changes to the SPA performed in this tutorial.
+If you have no already done so, download the WKND App's source code from Github.com, and switch the branch containing the changes to the SPA performed in this tutorial.
 
 ```
 $ mkdir -p ~/Code/wknd-app
