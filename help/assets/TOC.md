@@ -81,6 +81,9 @@ team: TM
   + [For Placements Only (FPO)](./adobe-asset-link/for-placement-only.md)
   + [Asset Search](./adobe-asset-link/asset-search.md)
 
++ Content Automation{#content-automation}
+  + [Overview](./content-automation/overview.md)
+
 + Dynamic Media{#dynamic-media}
   + [Dynamic Media Overview](dynamic-media/dynamic-media-overview-feature-video-use.md)
   + [Smart Crop](dynamic-media/smart-crop-feature-video-use.md)
