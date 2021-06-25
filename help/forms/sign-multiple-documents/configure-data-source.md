@@ -2,16 +2,12 @@
 title: Configure AEM Data Source
 description: Configure MySQL backed data source to store and retrieve form data
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
-version: 6.4,6.5
-kt: 6899
-thumbnail: 6899.jpg
 topic: Development
 role: Developer
 level: Beginner
+version: 6.4,6.5
+kt: 6899
+thumbnail: 6899.jpg
 ---
 # Configure data source
 
@@ -29,14 +25,12 @@ Database has one table called formdata with the 3 columns as shown in the screen
 >[!NOTE]
 >Please make sure you name your datasource **aemformstutorial**. The sample code uses the name to connect to the database.
 
-Property Name| Value
-------------------------|---------------------------------------
-Datasource Name| SaveAndContinue
-JDBC Driver Class| com.mysql.cj.jdbc.Driver
-JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial
+| Property Name| Value |
+| ------------------------|--------------------------------------- |
+| Datasource Name| SaveAndContinue |
+| JDBC Driver Class| com.mysql.cj.jdbc.Driver |
+| JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial |
 
 ## Assets
 
-The sql file to create the schema can be [downloaded from here](assets/sign-multiple-forms.sql). You will need to import this file using MySql workbench to create the schema and the table.
-
-
+The SQL file to create the schema can be [downloaded from here](assets/sign-multiple-forms.sql). You will need to import this file using MySql workbench to create the schema and the table.

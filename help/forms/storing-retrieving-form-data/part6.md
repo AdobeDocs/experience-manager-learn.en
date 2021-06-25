@@ -2,14 +2,10 @@
 title: Storing and Retrieving Form Data from MySQL Database
 description: Multi-Part tutorial to walk you through the steps involved in storing and retrieving form data
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
-version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+version: 6.3,6.4,6.5
 ---
 
 # Deploy this on your server
@@ -31,12 +27,11 @@ To test this capability on your AEM Forms instance, please follow the following 
 * Import the [form-data-db.sql](assets/form-data-db.sql) using MySql Workbench. This will create the necessary schema and tables in your database for this tutorial to work.
 * Login to [configMgr.](http://localhost:4502/system/console/configMgr) Search for "Apache Sling Connection Pooled DataSource. Create a new Apache Sling Connection Pooled Datasource entry called **SaveAndContinue** using the following properties:
 
-Property Name| Value
-------------------------|---------------------------------------
-Datasource Name| SaveAndContinue
-JDBC Driver Class| com.mysql.cj.jdbc.Driver
-JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial
-
+| Property Name| Value |
+| ------------------------|---------------------------------------|
+| Datasource Name| SaveAndContinue |
+| JDBC Driver Class| com.mysql.cj.jdbc.Driver |
+| JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial |
 
 * Open the [Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/demostoreandretrieveformdata/jcr:content?wcmmode=disabled)
 * Fill in some details and click on the "Save And Continue Later" button.

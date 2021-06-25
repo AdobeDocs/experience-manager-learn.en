@@ -1,12 +1,8 @@
 ---
 title: Storing and Retrieving Form Data from MySQL Database
 description: Multi-Part tutorial to walk you through the steps involved in storing and retrieving form data
-feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
 version: 6.3,6.4,6.5
+feature: Adaptive Forms
 topic: Development
 role: Developer
 level: Experienced
@@ -28,10 +24,8 @@ The sql file to create the schema can be [downloaded from here](assets/form-data
 >[!NOTE]
 >Please make sure you name your datasource **SaveAndContinue**. The sample code uses the name to connect to the database.
 
-Property Name| Value
-------------------------|---------------------------------------
-Datasource Name| SaveAndContinue
-JDBC Driver Class| com.mysql.cj.jdbc.Driver
-JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial
-
-
+| Property Name| Value |
+| ------------------------|---------------------------------------|
+| Datasource Name| SaveAndContinue |
+| JDBC Driver Class| com.mysql.cj.jdbc.Driver |
+| JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial |

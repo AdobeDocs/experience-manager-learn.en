@@ -66,12 +66,12 @@ Install the latest version of [eclipse](https://www.eclipse.org/downloads/)
 
 The Maven project will be generated interactively  and you will be asked to provide values to a number of properties such as:
 
-Property Name| Significance| Value
+| Property Name| Significance| Value |
 ------------------------|---------------------------------------|---------------------
-groupId | groupId uniquely identifies your project across all projects | com.learningaemforms.adobe
-appsFolderName | Name of the folder that will hold your project structure | learningaemforms
-artifactId | artifactId is the name of the jar without version. If you created it, then you can choose whatever name you want with lowercase letters and no strange symbols. | learningaemforms
-version| If you distribute it, then you can choose any typical version with numbers and dots (1.0, 1.1, 1.0.1, ...). | 1.0
+| groupId | groupId uniquely identifies your project across all projects | com.learningaemforms.adobe |
+| appsFolderName | Name of the folder that will hold your project structure | learningaemforms |
+| artifactId | artifactId is the name of the jar without version. If you created it, then you can choose whatever name you want with lowercase letters and no strange symbols. | learningaemforms |
+version| If you distribute it, then you can choose any typical version with numbers and dots (1.0, 1.1, 1.0.1, ...). | 1.0 |
 
 Accept the default values for the other properties by hitting enter key.
 If everything goes well you should see a build success message in your command window
