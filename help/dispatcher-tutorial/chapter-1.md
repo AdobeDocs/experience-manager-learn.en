@@ -680,8 +680,10 @@ This way your custom Dispatcher Flushing agent could easily send and invalidatio
 
 Actually, it doesn't matter which path you tell the Dispatcher to invalidate – as long as it is in the same site, in the same "subtree". You don't even have to use a real resource path. It can be "virtual" as well:
 
-`GET /dispatcher-invalidate
-Invalidate-path /content/mysite/dummy`
+```
+GET /dispatcher-invalidate
+Invalidate-path /content/mysite/dummy
+```
 
 ![](assets/chapter-1/resource-path.png)
 
@@ -904,8 +906,10 @@ This again is bypassing the cache and creating load on the publish system. So, i
 
 Reducing the number of selectors was a good start. As a rule of thumb, you should always limit the number of valid parameters to an absolute minimum. If you do that cleverly you can even leverage a Web Application Firewall outside AEM using a static set of filters without deep knowledge of the underlying AEM system to protect your systems:
 
-`Allow: /content/dam/(-\_/a-z0-9)+/(-\_a-z0-9)+
-       \.respi\.q-(20|40|60|80|100)\.jpg`
+```
+Allow: /content/dam/(-\_/a-z0-9)+/(-\_a-z0-9)+
+       \.respi\.q-(20|40|60|80|100)\.jpg
+```
 
 If you don't have a Web Application Firewall you have to filter in the Dispatcher or in AEM itself. If you do it in AEM, please make sure that
 
