@@ -167,7 +167,7 @@ This example application is Node.js-based, so it's best to use [@adobe/jwt-auth]
 
     Now, depending on which JSON file - either the Local Development Access Token JSON or the Service Credentials JSON - is passed in via tha `file` command line parameter, the application will derive an access token.
 
-    Remember, that while the Service Credentials do not expire, the JWT and corresponding access token do, and need to be refreshed before they expire. This can be done by using a `refresh_token` [provided by Adobe IMS](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/OAuth/OAuth.md#access-tokens).
+    Remember, that while the Service Credentials expire every 365 days, the JWT and corresponding access token expire frequently, and need to be refreshed before they expire. This can be done by using a `refresh_token` [provided by Adobe IMS](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/OAuth/OAuth.md#access-tokens).
 
 1. With these changes in place, and the Service Credentials JSON downloaded from the AEM Developer Console (and for simplicity, saved as `service_token.json` the same folder as this `index.js`), execute the application replacing the command line parameter `file` with `service_token.json`, and update the `propertyValue` to a new value so the effects are apparent in AEM.
 
