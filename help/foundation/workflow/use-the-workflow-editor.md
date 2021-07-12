@@ -5,7 +5,7 @@ version: 6.4, 6.5, cloud-service
 feature: Workflow
 topic: Content Management
 level: Intermediate
-role: Administrator, Developer
+role: Admin, Developer
 kt: 657
 thumbnail: 22201.jpg
 ---

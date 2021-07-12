@@ -10,7 +10,7 @@ version: 6.4,6.5
 kt: 6599
 thumbnail: 6599.jpg
 topic: Development
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

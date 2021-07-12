@@ -8,7 +8,7 @@ activity: develop
 topics: development, authoring, configuring, architecture
 audience: all
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

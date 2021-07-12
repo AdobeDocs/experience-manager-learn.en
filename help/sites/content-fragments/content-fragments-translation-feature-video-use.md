@@ -3,7 +3,7 @@ title: Translation support for AEM Content Fragments
 description: Learn how Content Fragments can be localized and translated with Adobe Experience Manager. Mixed-media assets associated with a Content Fragment are also eligible to be extracted and translated.
 feature: Content Fragments, Multi Site Manager
 topic: Localization
-role: Business Practitioner
+role: User
 level: Intermediate
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 201

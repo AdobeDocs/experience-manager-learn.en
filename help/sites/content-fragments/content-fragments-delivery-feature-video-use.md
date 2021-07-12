@@ -13,7 +13,7 @@ version: 6.3, 6.4, 6.5
 uuid: 045473d2-5abe-4414-b91c-d369f3069ead
 discoiquuid: 912e0c41-83cf-49f7-b515-09519b6718c1
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

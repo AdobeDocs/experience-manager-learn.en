@@ -9,7 +9,7 @@ doc-type: feature video
 activity: use
 version: cloud-service
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

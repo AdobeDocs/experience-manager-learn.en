@@ -8,7 +8,7 @@ doc-type: technical video
 activity: setup
 version: 6.4, 6.5
 topic: Localization
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

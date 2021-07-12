@@ -9,7 +9,7 @@ doc-type: setup
 activity: use
 version: 6.3, 6.4, 6.5
 topic: Content Management
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
 ---
 

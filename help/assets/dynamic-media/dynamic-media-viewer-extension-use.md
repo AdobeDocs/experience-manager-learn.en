@@ -5,7 +5,7 @@ sub-product: Dynamic Media
 feature: Asset Insights
 version: 6.3, 6.4, 6.5
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

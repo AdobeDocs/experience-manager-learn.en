@@ -4,7 +4,7 @@ description: AEM Workflow provides a way to collaborate, manage, and process con
 version: 6.5, cloud-service
 feature: Workflow
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Intermediate
 kt: 2557
 thumbnail: 27848.jpg

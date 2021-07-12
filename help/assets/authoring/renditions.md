@@ -2,7 +2,7 @@
 title: Renditions
 description: Learn about renditions in AEM Assets, and how they can be previewed.
 feature: Renditions
-role: Business Practitioner
+role: User
 level: Beginner
 version: cloud-service
 kt: 4496

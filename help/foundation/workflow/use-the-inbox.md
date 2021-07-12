@@ -4,7 +4,7 @@ description: AEM's inbox facilitates greater collaboration and visibility into t
 version: 6.3, 6.4, 6.5, cloud-service
 topic: Collaboration
 feature: Inbox
-role: Business Practitioner
+role: User
 level: Intermediate
 kt: 159
 thumbnail: 16827.jpg

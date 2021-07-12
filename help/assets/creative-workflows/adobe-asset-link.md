@@ -4,7 +4,7 @@ description: Adobe Experience Manager assets can be used by designers and creati
 feature: Adobe Asset Link
 version: 6.4, 6.5, cloud-service
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 thumbnail: 28988.jpg
 ---

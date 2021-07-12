@@ -9,7 +9,7 @@ version: cloud-service
 kt: 6044
 thumbnail: 41244.jpg
 topic: Integrations
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 

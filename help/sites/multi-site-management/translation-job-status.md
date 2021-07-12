@@ -12,7 +12,7 @@ version: 6.3, 6.4, 6.5, cloud-service
 kt: 5846
 thumbnail: 36685.jpg
 topic: Localization
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

@@ -8,7 +8,7 @@ audience: administrator, architect, developer, implementer
 doc-type: technical video
 contentOwner: dgordon
 topic: Administration
-role: Administrator
+role: Admin
 level: Beginner
 ---
 

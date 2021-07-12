@@ -2,7 +2,7 @@
 title: Metadata
 description: Learn how to access and interact with metadata in AEM Assets.
 feature: Metadata
-role: Business Practitioner
+role: User
 level: Beginner
 version: cloud-service
 kt: 4303

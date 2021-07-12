@@ -12,7 +12,7 @@ kt: 4322
 thumbnail: 32193.jpg
 feature: Publishing
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 
