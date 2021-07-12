@@ -13,7 +13,7 @@ version: 6.4, 6.5
 uuid: 7b91f65d-5a35-419a-8cf7-be850165dd33
 discoiquuid: 45fc8d83-73fb-42e5-9c92-ce588c085ed4
 topic: Personalization
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

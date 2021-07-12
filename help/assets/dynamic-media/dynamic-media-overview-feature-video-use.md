@@ -5,7 +5,7 @@ sub-product: dynamic-media
 feature: Smart Crop, Video Profiles, Image Profiles, Viewer Presets, 360 VR Video, Image Sets, Spin Sets
 version: 6.3, 6.4, 6.5
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

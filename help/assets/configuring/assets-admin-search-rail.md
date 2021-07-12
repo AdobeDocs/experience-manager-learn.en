@@ -7,7 +7,7 @@ version: cloud-service
 kt: 4995
 thumbnail: 35842.jpg
 topic: Content Management
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 

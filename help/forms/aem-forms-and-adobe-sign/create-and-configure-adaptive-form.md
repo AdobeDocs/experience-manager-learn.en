@@ -9,7 +9,7 @@ activity: implement
 thumbnail: 38348.jpg
 kt: 6039
 topic: Development
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 # Create and configure adaptive form

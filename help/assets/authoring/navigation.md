@@ -2,7 +2,7 @@
 title: Navigation
 description: Explore the basics for navigation AEM Assets.
 feature: Asset Management
-role: Business Practitioner
+role: User
 level: Beginner
 version: cloud-service
 kt: 4305

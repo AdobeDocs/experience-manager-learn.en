@@ -7,7 +7,7 @@ version: cloud-service
 kt: 4542
 thumbnail: 32048.jpg
 topic: Collaboration
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

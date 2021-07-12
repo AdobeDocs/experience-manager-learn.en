@@ -7,7 +7,7 @@ version: cloud-service
 kt : 4914
 thumbnail: 34839.jpg
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

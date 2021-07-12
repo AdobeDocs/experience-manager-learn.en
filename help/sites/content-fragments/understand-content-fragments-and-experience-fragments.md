@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 audience: all
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
  

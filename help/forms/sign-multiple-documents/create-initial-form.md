@@ -4,7 +4,7 @@ description: Create initial form to trigger the e-mail notification to start the
 feature: Adaptive Forms
 version: 6.4,6.5
 topic: Development
-role: Business Practitioner
+role: User
 level: Intermediate
 kt: 6892
 thumbnail: 6892.jpg

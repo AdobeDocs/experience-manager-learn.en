@@ -10,7 +10,7 @@ version: cloud-service
 kt: 6874
 thumbnail: 26319.jpg
 topic: Architecture
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 level: Beginner
 ---
 

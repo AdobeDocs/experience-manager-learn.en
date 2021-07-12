@@ -10,7 +10,7 @@ version: 6.4,6.5
 thumbnail: 17993.jpg
 kt: 6046
 topic: Development
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 

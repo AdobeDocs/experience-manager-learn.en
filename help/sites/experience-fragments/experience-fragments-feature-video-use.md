@@ -4,7 +4,7 @@ description: Experience Fragments enables content authors to reuse content acros
 sub-product: sites, content-services
 feature: Experience Fragments
 topic: Content Management
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 level: Beginner
 doc-type: feature video
 version: cloud-service

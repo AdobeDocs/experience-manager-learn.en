@@ -6,7 +6,7 @@ sub-product: assets
 feature: Experience Manager Desktop App
 version: 6.5, 6.4, 6.3
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
  

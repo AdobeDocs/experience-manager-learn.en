@@ -5,7 +5,7 @@ sub-product: dynamic-media
 feature: Video Profiles, Viewer Presets, Mix Media Sets
 version: 6.3, 6.4, 6.5
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

@@ -4,7 +4,7 @@ description: AEM provides users the ability to search, preview, save and license
 feature: Adobe Stock
 version: 6.4, 6.5
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

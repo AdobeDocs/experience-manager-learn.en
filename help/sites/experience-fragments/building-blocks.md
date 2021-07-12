@@ -6,7 +6,7 @@ version: cloud-service
 feature: Experience Fragments
 topic: Content Management
 level: Beginner, Intermediate
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 doc-type: feature video
 kt: 660
 thumbnail: 331786.jpg

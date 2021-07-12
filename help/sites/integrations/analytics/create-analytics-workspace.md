@@ -10,7 +10,7 @@ version: cloud-service
 kt: 6409
 thumbnail: KT-6296.jpg
 topic: Integrations
-role: Business Practitioner
+role: User
 level: Intermediate
 ---
 

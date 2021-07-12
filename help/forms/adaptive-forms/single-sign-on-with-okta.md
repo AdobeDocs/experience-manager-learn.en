@@ -8,7 +8,7 @@ doc-type: tutorial
 activity: setup
 version: 6.5
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 ---
 

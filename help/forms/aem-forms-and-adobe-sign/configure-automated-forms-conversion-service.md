@@ -9,7 +9,7 @@ activity: implement
 thumbnail: 39493.jpg
 kt: 6114
 topic: Development
-role: Administrator
+role: Admin
 level: Beginner
 ---
 # Automated Forms Conversion Service

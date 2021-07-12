@@ -3,7 +3,7 @@ title: Smart Tags for images with AEM Assets
 description: Smart tags for images augments AEM's search capabilities by automatically and intelligently adding metadata tags to image assets based on the contents of the image.
 topic: Content Management
 feature: Smart Tags
-role: Business Practitioner
+role: User
 level: Intermediate
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 645

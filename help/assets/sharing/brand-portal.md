@@ -4,7 +4,7 @@ description: Video walk-throughs of the AEM Author and AEM Assets Brand Portal i
 feature: Brand Portal
 version: 6.3, 6.4, 6.5
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

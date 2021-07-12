@@ -10,7 +10,7 @@ version: cloud-service
 kt: 6043
 thumbnail: 41241.jpg
 topic: Integrations
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

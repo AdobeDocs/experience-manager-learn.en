@@ -4,7 +4,7 @@ description: Smart Translation Search enables cross-language search and discover
 version: 6.3, 6.4, 6.5
 feature: Search
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

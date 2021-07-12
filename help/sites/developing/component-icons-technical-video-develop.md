@@ -8,7 +8,7 @@ activity: develop
 version: 6.3, 6.4, 6.5
 feature: Core Components
 topic: Development
-role: Business Practitioner
+role: User
 level: Intermediate
 ---
 

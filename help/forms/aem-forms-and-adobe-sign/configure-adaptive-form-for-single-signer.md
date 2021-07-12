@@ -9,7 +9,7 @@ activity: implement
 thumbnail: 39475.jpg
 kt: 6103
 topic: Development
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 # Adaptive Form with single signer

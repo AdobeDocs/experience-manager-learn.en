@@ -5,7 +5,7 @@ feature: Users and Groups
 kt: 5000
 thumbnail: 39156.jpg
 topic: Administration, Security
-role: Administrator
+role: Admin
 level: Beginner
 ---
 
