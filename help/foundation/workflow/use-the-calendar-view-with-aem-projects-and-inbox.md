@@ -12,7 +12,7 @@ doc-type: feature video
 uuid: 3dc9999c-eddf-4e42-9aa9-87a37a47699d
 discoiquuid: 5ad21858-a4a2-486c-98dc-4f5ba46a3bc1
 topic: Collaboration
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

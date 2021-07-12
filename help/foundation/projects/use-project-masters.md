@@ -5,7 +5,7 @@ version: 6.4, 6.5, cloud-service
 topic: Content Management, Collaboration
 feature: Projects
 level: Intermediate
-role: Business Practitioner
+role: User
 kt: 256
 thumbnail: 17740.jpg
 ---

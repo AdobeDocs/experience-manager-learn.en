@@ -8,7 +8,7 @@ audience: all
 activity: understand
 doc-type: article
 topic: Upgrade
-role: Leader, Architect, Developer, Administrator, Business Practitioner
+role: Leader, Architect, Developer, Admin, User
 level: Beginner
 ---
 

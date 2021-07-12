@@ -12,7 +12,7 @@ version: 6.3, 6.4, 6.5
 kt: 4252
 thumbnail: 32012.jpg
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Intermediate
 ---
 

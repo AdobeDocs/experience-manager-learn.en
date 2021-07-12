@@ -10,7 +10,7 @@ version: 6.3, 6.4, 6.5, cloud-service
 kt: 4676
 thumbnail: 18926.jpg
 topic: Development
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

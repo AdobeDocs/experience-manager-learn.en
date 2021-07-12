@@ -8,7 +8,7 @@ topics: development, authoring, configuring
 audience: all
 activity: use
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

@@ -10,7 +10,7 @@ doc-type: article
 kt: 5882
 thumbnail: KT-5882.jpg
 topic: Administration, Security
-role: Administrator
+role: Admin
 level: Beginner
 ---
 

@@ -10,7 +10,7 @@ doc-type: feature video
 kt: 4997
 thumbnail: 39149.jpg 
 topic: Administration, Security
-role: Administrator
+role: Admin
 level: Beginner
 ---
 

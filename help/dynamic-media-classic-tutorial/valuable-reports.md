@@ -8,7 +8,7 @@ topics: development, authoring, configuring, reports
 audience: all
 activity: use
 topic: Content Management
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 

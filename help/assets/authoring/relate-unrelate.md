@@ -2,7 +2,7 @@
 title: How to relate and unrelate assets in AEM
 description: Learn how to establish and manage relationships between assets in AEM.
 feature: Asset Management
-role: Business Practitioner
+role: User
 level: Beginner
 version: cloud-service
 kt: 6969

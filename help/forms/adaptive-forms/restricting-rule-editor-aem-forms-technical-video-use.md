@@ -12,7 +12,7 @@ activity: setup
 version: 6.3,6.4,6.5
 discoiquuid: 5aa35204-1c6d-4a1e-b8cd-79170653471a
 topic: Administration
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

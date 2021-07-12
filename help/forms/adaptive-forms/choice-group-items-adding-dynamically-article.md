@@ -10,7 +10,7 @@ doc-type: tutorial
 activity: understand
 version: 6.5
 topic: Development
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

@@ -9,7 +9,7 @@ activity: implement
 thumbnail: 39294.jpg
 kt: 6071
 topic: Development
-role: Administrator
+role: Admin
 level: Beginner
 ---
 # Rental Agreement with 2 signers

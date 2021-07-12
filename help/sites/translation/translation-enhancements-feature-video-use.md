@@ -8,7 +8,7 @@ doc-type: feature video
 activity: use
 version: 6.3, 6.4, 6.5
 topic: Localization
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

@@ -7,7 +7,7 @@ version: 6.5
 kt: 5808
 thumbnail: 36645.jpg
 topic: Content Management
-role: Business Practitioner
+role: User
 level: Beginner
 ---
 

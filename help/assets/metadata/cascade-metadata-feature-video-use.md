@@ -4,7 +4,7 @@ description: Advanced metadata management allows users to create cascading field
 version: 6.3, 6.4, 6.5, cloud-service
 topic: Content Management
 feature: Metadata
-role: Business Practitioner
+role: User
 level: Intermediate
 kt: 616
 thumbnail: 20702.jpg

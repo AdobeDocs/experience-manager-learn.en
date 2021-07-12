@@ -7,7 +7,7 @@ activity: use
 audience: administrator, architect, implementer
 doc-type: technical video
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 
