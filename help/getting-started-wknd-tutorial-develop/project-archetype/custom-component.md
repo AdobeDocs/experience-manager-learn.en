@@ -438,6 +438,19 @@ Create a public Java Interface for the Byline. `Byline.java` defines the public 
 
     Notice there is no method for the Image; [we'll take a look at as to why that is later](#tackling-the-image-problem).
 
+1. Java packages that contain public Java classes, in this case a Sling Model, must be versioned using the package's  `package-info.java` file. 
+
+Since the WKND source's Java package `com.adobe.aem.guides.wknd.core.models` declares are version of `2.0.0`, and we are adding a non-breaking public interface and methods, the version must be increased to `2.1.0`. Open the file at `core/src/main/java/com/adobe/aem/guides/wknd/core/models/package-info.java` and update `@Version("2.0.0")` to `@Version("2.1.0")`.
+
+    ```
+    @Version("2.1.0")
+    package com.adobe.aem.guides.wknd.core.models;
+
+    import org.osgi.annotation.versioning.Version;
+    ```
+
+Whenever a changes are made to the files in this package, the [package version must be adjusted semantically](https://semver.org/). If not, the Maven project's [bnd-baseline-maven-plugin](https://github.com/bndtools/bnd/tree/master/maven/bnd-baseline-maven-plugin) will detect an invalid package version and break the built. Luckily, on failure the Maven plugin reports the invalid Java package version as well as the the version it should be. Just updated teh `@Version("...")` declaration in the violating Java package's `package-info.java` to the version recommended by the plugin to fix.
+
 ### Byline implementation {#byline-implementation}
 
 `BylineImpl.java` is the implementation of the Sling Model that implements the `Byline.java` interface defined earlier. The full code for `BylineImpl.java` can be found at the bottom of this section.
