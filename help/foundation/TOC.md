@@ -40,4 +40,14 @@ index: y
   + [Use the Workflow Editor](./workflow/use-the-workflow-editor.md)
   + [Use Workflow](./workflow/use-workflow.md)
   + [Use the Inbox](./workflow/use-the-inbox.md)
-  
++ Troubleshooting {#troubleshooting}
+  + [How to enable asset download report](./troubleshooting/how-to-enable-asset-download-report.md)
+  + [How to force recompilation in AEM6.4](./troubleshooting/how-to-force-recompilation.md)
+  + [How to investigate indexing related issues in AEM](./troubleshooting/how-to-investigate-indexing-related-issues.md)
+  + [How to investigate SAML related issues in AEM](./troubleshooting/how-to-investigate-saml-related-issues.md)
+  + [How to investigate search related issues in AEM](./troubleshooting/how-to-investigate-search-related-issues.md)
+  + [How to set the Oak login token session expiration](./troubleshooting/how-to-set-the-oak-login-token-session-expiration.md)
+  + [How to troubleshoot issues related to Jetty configuration](./troubleshooting/how-to-troubleshoot-issues-related-to-jetty-configuration.md)
+  + [How to troubleshoot performance related issues](./troubleshooting/how-to-troubleshoot-performance-related-issues.md)
+  + [Steps to resolve memory related issues in AEM](./troubleshooting/steps-to-resolve-memory-related-issues.md)
+  + [Steps to resolve replication issues in AEM](./troubleshooting/steps-to-resolve-replication-issues.md)
