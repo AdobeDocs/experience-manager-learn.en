@@ -43,7 +43,10 @@ Service Credentials, unlike Local Development Access Tokens, require a _one-time
 
 __This is a one-time initialization per AEM as a Cloud Service environment__
 
-1. Ensure you are logged in as your Adobe IMS Org's Administrator
+1. Ensure you are logged in as:
+    + Your Adobe IMS Org's Administrator
+    + Member of the __Cloud Manager - Developer__ IMS Product Profile
+    + Member of the __AEM User__ or __AEM Administrators__ IMS Product Profile on __AEM Author__
 1. Log in to [Adobe Cloud Manager](https://my.cloudmanager.adobe.com)
 1. Open the Program containing the AEM as a Cloud Service environment to integrate set up the Service Credentials for
 1. Tap the ellipsis next to the environment in the __Environments__ section, and select __Developer Console__
@@ -61,8 +64,10 @@ Once the AEM as Cloud Service environment's Service Credentials have been initia
 
 Downloading the Service Credentials follows the same steps as the initialization. If the initialization has not yet occurred, the user will be presented with an error with tapping the __Get Service Credentials__ button.
 
-1. Ensure you are a member of the __Cloud Manager - Developer__ IMS Product Profile (which grants access to AEM Developer Console)
-    + Sandbox AEM as a Cloud Service environments only require membership in either the __AEM Administrators__ or __AEM Users__ Product Profile
+1. Ensure you are logged in as a:
+    + Member of the __Cloud Manager - Developer__ IMS Product Profile (which grants access to AEM Developer Console)
+        + Sandbox AEM as a Cloud Service environments do not require this  __Cloud Manager - Developer__ membership
+    + Member of the __AEM User__ or __AEM Administrators__ IMS Product Profile on __AEM Author__
 1. Log in to [Adobe Cloud Manager](https://my.cloudmanager.adobe.com)
 1. Open the Program containing the AEM as a Cloud Service environment to integrate with
 1. Tap the ellipsis next to the environment in the __Environments__ section, and select __Developer Console__
