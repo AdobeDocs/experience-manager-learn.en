@@ -51,6 +51,13 @@ team: TM
     + [Content Publishing](./developing/basics/content-publishing.md)
     + [OSGi Configurations](./developing/basics/osgi-configurations.md)
     + [Dispatcher Configuration Migration](./developing/basics/dispatcher-configuration.md)
+  + AEM Projects{#aem-projects}
+    + [AEM Maven Project](./developing/projects/maven-project-structure.md)
+ + OSGi Services{#osgi-services}
+    + [OSGi Service Basics](./developing/osgi-services/basics.md)
+    + [OSGi Component Lifecycle](./developing/osgi-services/lifecycle.md)
+    + [OSGi Configurations Basics](./developing/osgi-services/configurations.md)
+    + [OSGi Configurations using OCD](./developing/osgi-services/configurations-ocd.md)
   + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html)
 + Debugging AEM{#debugging}
   + Debugging the AEM SDK{#debugging-aem-sdk}
