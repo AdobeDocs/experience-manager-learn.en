@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 version: cloud-service
 feature: Adaptive Forms
 topic: Development
-kt: 7432
-thumbnail: 332439.jpg
+kt: 8184
+thumbnail: 8184.jpg
 ---
 # Create a JSON Web Token (JWT)
 
@@ -29,6 +29,7 @@ public String getJWTToken()
 
 	            long now = System.currentTimeMillis();
 	            Long expirationTime = now + TimeUnit.MINUTES.toMillis(5);
+                // get the private key string from the service credentials
 	            String privateKeyString = getCredentials.getPRIVATE_KEY();
 	          //The JWT signature algorithm we will be using to sign the token
 	            SignatureAlgorithm sa = SignatureAlgorithm.RS256;
