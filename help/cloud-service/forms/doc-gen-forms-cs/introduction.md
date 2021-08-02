@@ -8,7 +8,7 @@ version: cloud-service
 feature: Document Services
 topic: Development
 kt: 7432
-thumbnail: 332439.jpg
+thumbnail: 334859.jpg
 ---
 # Introduction
 
@@ -18,3 +18,5 @@ In this course, we will use the document generation microservices to generate a 
 1. Create a JSON Web Token (JWT) from the service credentials and exchange the same for an access token
 1. Configure access for the technical account in AEM 
 1. Make HTTP calls using the access token
+
+>[!VIDEO](https://video.tv.adobe.com/v/334859/?quality=12&learn=on)

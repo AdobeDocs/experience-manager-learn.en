@@ -142,7 +142,7 @@ public Document mobileFormToInteractivePdf(Document xmlData,String path) {
 }
 ```
 
-To view the ability to download interactive PDF from partially completed mobile form, [please click here](https://forms.enablementadobe.com/content/dam/formsanddocuments/schengen.xdp/jcr:content).
+To view the ability to download interactive PDF from partially completed mobile form, [please click here](https://forms.enablementadobe.com/content/dam/formsanddocuments/xdptemplates/schengenvisa.xdp/jcr:content).
 Once the PDF is downloaded, the next step is to submit the PDF to trigger an AEM workflow. This workflow will merge the data from the submitted PDF and generate non-interactive PDF for review.
 
 The custom profile created for this use case is available as part of this tutorial assets.
