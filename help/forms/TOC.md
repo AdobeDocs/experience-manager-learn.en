@@ -192,6 +192,7 @@ index: y
   + [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
   + [Generating multiple pdf's from one data file](document-services/generate-multi-record-pdf.md)
   + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
+  + [Configure Reader Extensions Credential](document-services/configuring-reader-extension-osgi.md)
   + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)
   + [Apply Usage Rights to PDF on XDP Rendition](document-services/rendering-and-reader-extending-xdp-templates-article.md)
   + [Apply Usage Rights to Uploaded PDF](document-services/apply-reader-extension-rights-to-pdf.md)
