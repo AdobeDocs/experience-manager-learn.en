@@ -23,11 +23,11 @@ A common use case is to render xdp into PDF and apply Reader Extensions to the r
 
 For example in forms portal of AEM Forms, When a user clicks on XDP, we can render XDP as PDF and reader extend the PDF.
 
-To test this capability, you can try this [link](https://forms.enablementadobe.com/content/samples/samples.html?query=0). The sample name is "Render XDP with RE"
+To test this capability, you can try this [link](https://forms.enablementadobe.com/content/samples/samples.html?query=0#collapse2). The sample name is "Render and Reader Extend XDP"
 
 To accomplish this use case we need to do the following.
 
-* Add the Reader Extensions certificate to "fd-service" user. The steps to add Reader Extensions credential are listed [here](https://helpx.adobe.com/experience-manager/6-3/forms/using/configuring-document-services.html)
+* Add the Reader Extensions certificate to "fd-service" user. The steps to add Reader Extensions credential are listed [here](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en)
 
 * Create a custom OSGi service that will render and apply usage rights. The code to accomplish this is listed below
 
@@ -200,6 +200,8 @@ public class RenderAndReaderExtend extends SlingSafeMethodsServlet {
 To test this on your local server, please follow the following steps
 1. [Download and Install the DevelopingWithServiceUser Bundle](/help/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar)
 1. [Download and Install the AEMFormsDocumentServices Bundle](/help/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)
+
+1. [Downlaod the custom portal template html](assets/render-and-extend-template.zip)
 1. [Download and import the assets related to this article into AEM using package manager](assets/renderandextendxdp.zip)
     * This package has sample portal and xdp file
 1. Add Reader Extensions certificate to "fd-service" user
