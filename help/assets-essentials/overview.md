@@ -4,7 +4,7 @@ description: A collection of videos for Adobe Experience Manager Assets Essentia
 sub-product: assets
 ---
 
-# AEM Assets Essentials
+# Overview
 
 ![Assets Essentials](./assets/overview/hero.png)
 
