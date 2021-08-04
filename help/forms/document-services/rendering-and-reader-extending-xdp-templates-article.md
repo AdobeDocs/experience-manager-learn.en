@@ -29,17 +29,21 @@ To accomplish this use case we need to do the following.
 
 * Add the Reader Extensions certificate to "fd-service" user. The steps to add Reader Extensions credential are listed [here](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en)
 
+
+* You can also refer to the video on [configuring Reader Extensions credentials](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/configuring-reader-extension-osgi.html)
+
+
 * Create a custom OSGi service that will render and apply usage rights. The code to accomplish this is listed below
 
 ## Render XDP and Apply usage rights {#render-xdp-and-apply-usage-rights}
 
-* Line 7: Using the  FormsService's  renderPDFForm we generate PDF from the XDP.
+* Line 7: Using the  FormsService's renderPDFForm we generate PDF from the XDP.
 
 * Lines 8-14: The appropriate usage rights are set. These usage rights are fetched from the OSGi configuration settings.
 
 * Line 20 : Use the resourceresolver associated with service user fd-service
 
-* Line 24: DocumentAssuranceService's  secureDocument  method is used to apply the usage rights
+* Line 24: DocumentAssuranceService's secureDocument method is used to apply the usage rights
 
 ```java
  public Document renderAndExtendXdp(String xdpPath) {

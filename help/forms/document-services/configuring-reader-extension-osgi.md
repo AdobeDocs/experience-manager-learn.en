@@ -39,6 +39,15 @@ Please follow the video to add the credentials to the fd-service user
 >[!VIDEO](https://video.tv.adobe.com/v/335849?quality=9&learn=on)
 
 
+The command to list the details of the pfx file is. The following command assumes you are in the same directory as the pfx file .
+
+**keytool -v -list -storetype pkcs12 -keystore <name of your .pfx file>**
+
+For example  keytool -v -list -storetype pkcs12 -keystore 1005566.pfx where 1005566.pfx is the name of my pfx file
+
+
+
+
 
 
 
