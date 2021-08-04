@@ -12,6 +12,8 @@ Experience Manager Assets Essentials provides a streamlined user interface for l
 
 Check out our videos on how to use Assets Essentials to manage your assets, as well as how it can be integrated with Adobe Journey Orchestrator!
 
+## Learn more about Assets Essentials
+
 <table>
 <td>
    <a href="./basics/managing.md">
@@ -26,27 +28,25 @@ Check out our videos on how to use Assets Essentials to manage your assets, as w
       <em>Learn the basics of how Assets Essentials!</em>
    </p>
 </td>
-<!--
 <td>
-   <a href="./creative-cloud.md">
-   <img alt="" src="./assets/overview/x.png"/>
+   <a href="./basics/collaborating.md">
+   <img alt="" src="./assets/overview/collaboration.png"/>
    </a>
    <div>
-      <a href="./provisioning/getting-access.md">
-      <strong>Creative Cloud and Assets Essentials</strong>
+      <a href="./basics/collaborating.md">
+      <strong>Collaborating Assets Essentials</strong>
       </a>
    </div>
    <p>
-      <em>Learn how Assets Essentials can integrate with your Creative Cloud Enterprise Libraries!</em>
+      <em>Learn how Assets Essentials provides lightweight task management to manage your assets' life-cycles!</em>
    <p>
 </td>
--->
 <td>
-   <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html">
+   <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html">
    <img alt="Adobe Journey Optimizer" src="./assets/overview/adobe-journey-optimizer.png" />
    </a>
    <div>
-      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html">
+      <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html">
       <strong>Adobe Journey Optimizer</strong>
       </a>
    </div>
