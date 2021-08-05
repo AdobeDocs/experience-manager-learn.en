@@ -115,3 +115,5 @@ team: TM
 
 + Deployment{#deployment}
   + [Multi-tenancy and Concurrent Development](deployment/multitenancy-concurrent-article-understand.md)
+
++ [Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
