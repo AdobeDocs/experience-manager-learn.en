@@ -7,11 +7,11 @@ topic: Content Management
 role: User
 level: Beginner
 kt: 8020
-thumbnail: xxxx.jpeg
+thumbnail: 335952.jpeg
 ---
 
 # Provisioning Assets Essentials
 
 Learn how to deploy Assets Essentials using Cloud Manager, and provision user access.
 
->[!VIDEO](https://video.tv.adobe.com/v/xxx/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335952/?quality=9&learn=on)
