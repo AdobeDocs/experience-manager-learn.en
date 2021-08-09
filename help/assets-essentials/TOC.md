@@ -11,11 +11,12 @@ team: TM
 + [Overview](overview.md)
 
 + [Provisioning](./provisioning.md)
++ [Getting started](./getting-started.md)
 
 + Basics{#basics}
   + [Managing](basics/managing.md)
   + [Using](basics/using.md)
-  + [Creating Content](basics/creating.md)
+  + [Creating content](basics/creating.md)
   + [Collaboration](basics/collaborating.md)
 
 + [Adobe Journey Optimizer Integration](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)
