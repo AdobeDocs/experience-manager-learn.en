@@ -19,5 +19,6 @@ team: TM
   + [Creating content](basics/creating.md)
   + [Collaboration](basics/collaborating.md)
 
-+ [Adobe Journey Optimizer Integration](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)
++ [Creative Cloud integration](integrations/creative-cloud.md)
++ [Adobe Journey Optimizer integration](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)
 
