@@ -6,7 +6,7 @@ feature: Assets Essentials
 topic: Content Management
 role: User
 level: Beginner
-kt:
+kt: 7916
 thumbnail: 335856.jpeg
 ---
 
