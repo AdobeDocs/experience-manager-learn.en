@@ -135,7 +135,7 @@ To allow the caching of CORS headers, add the following configuration to all sup
 /cache { 
   ...
   /headers {
-      "Origin",
+      "Origin"
       "Access-Control-Allow-Origin"
       "Access-Control-Expose-Headers"
       "Access-Control-Max-Age"
