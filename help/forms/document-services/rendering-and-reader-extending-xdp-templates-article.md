@@ -210,7 +210,7 @@ To test this on your local server, please follow the following steps
     * This package has sample portal and xdp file
 1. Add Reader Extensions certificate to "fd-service" user
 1. Point your browser to [portal web page](http://localhost:4502/content/AemForms/ReaderExtensionsXdp.html)
-1. Click the pdf icon to render the xdp and get pdf which is Reader Extended
+1. Click the pdf icon to render the xdp as a pdf file with usage rights applied.
 
 
 
