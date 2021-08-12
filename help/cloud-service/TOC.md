@@ -104,6 +104,13 @@ team: TM
         + [Implement Interface](./forms/doc-cloud-sdk/implement-interface.md)
         + [Create JSON Part](./forms/doc-cloud-sdk/get-content-analyzer.md)
         + [Custom Process Step](./forms/doc-cloud-sdk/custom-process-step.md)
+    + Azure Portal Storage{#forms-cs-azure-portal}
+        + [Introduction](./forms/forms-cs-azure-portal/introduction.md)
+        + [Create Form Data Model](./forms/forms-cs-azure-portal/create-fdm.md)
+        + [Store form data in Azure Storage](./forms/forms-cs-azure-portal/create-af.md)
+        + [Prefill form](./forms/forms-cs-azure-portal/prefill-af-storage.md)
+        + [Query submissions](./forms/forms-cs-azure-portal/query-submitted-data.md)
+
 
     + Create Review Workflow{#create-aem-workflow}
         + [Create workflow model](./forms/create-aem-workflow/create-workflow.md)
