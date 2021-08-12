@@ -25,7 +25,7 @@ Check out our videos on how to use Assets Essentials to manage your assets, as w
       </a>
    </div>
    <p>
-      <em>Learn the basics of how Assets Essentials!</em>
+      <em>Learn the basics of Assets Essentials!</em>
    </p>
 </td>
 <td>
