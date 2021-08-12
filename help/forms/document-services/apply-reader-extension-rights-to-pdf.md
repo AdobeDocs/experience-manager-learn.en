@@ -19,10 +19,10 @@ level: Experienced
 # Applying Reader Extensions
 
 Reader Extensions allows you to manipulate usage rights on PDF documents. Usage rights pertain to functionality that is available in Acrobat but not in Adobe Reader. Functionality controlled by Reader Extensions includes the ability to add comments to a document, fill forms, and save the document. PDF documents that have usage rights added are called rights-enabled documents. A user who opens a rights-enabled PDF document in Adobe Reader can perform the operations that are enabled for that document.
-To test this capability, you can try this [link](https://forms.enablementadobe.com/content/samples/samples.html?query=0). The sample name is "Render XDP with RE"
+To test this capability, you can try this [link](https://forms.enablementadobe.com/content/forms/af/applyreaderextensions.html).
 
 To accomplish this use case we need to do the following:
-* Add the Reader Extensions certificate to "fd-service" user. The steps to add Reader Extensions credential are listed [here](https://helpx.adobe.com/experience-manager/6-3/forms/using/configuring-document-services.html)
+* [Add the Reader Extensions certificate](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/configuring-reader-extension-osgi.html) to `fd-service` user. 
 
 * Create a custom OSGi service that will apply usage rights to the documents. The code to accomplish this is listed below
 
@@ -80,109 +80,107 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.StringReader;
-import java.util.Enumeration;
+import java.util.Map;
 
-import javax.jcr.Binary;
-import javax.jcr.Node;
-import javax.jcr.PathNotFoundException;
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
-import javax.jcr.ValueFormatException;
 import javax.servlet.Servlet;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.api.request.RequestParameter;
+import org.apache.sling.api.request.RequestParameterMap;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-
 import com.adobe.aemfd.docmanager.Document;
 import com.adobe.fd.readerextensions.client.UsageRights;
 import com.aemforms.ares.core.impl.ApplyUsageRights;
-import com.mergeandfuse.getserviceuserresolver.GetResolver;
+
 @Component(service = Servlet.class, property = {
-sling.servlet.methods=get", "sling.servlet.paths=/bin/applyrights"
+
+        "sling.servlet.methods=post",
+
+        "sling.servlet.paths=/bin/applyrights"
+
 })
 
 public class GetReaderExtendedPDF extends SlingAllMethodsServlet {
-  @Reference
-  GetResolver getResolver;
-  @Reference
-  ApplyUsageRights applyRights;
-  public org.w3c.dom.Document w3cDocumentFromStrng(String xmlString) {
-  try {
-        DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-        InputSource is = new InputSource();
-        is.setCharacterStream(new StringReader(xmlString));
-  return db.parse(is);
-} catch (ParserConfigurationException e) {
-    e.printStackTrace();
-} catch (SAXException e) {
-    e.printStackTrace();
-} catch (IOException e) {
-    e.printStackTrace();
-}
-return null;
-}
-@Override
-protected void doGet(SlingHttpServletRequest request,SlingHttpServletResponse response)
-{
-  doPost(request,response);
-}
-@Override
-protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) {
-  UsageRights usageRights = new UsageRights();
-  String submittedData = request.getParameter("jcr:data");
-  org.w3c.dom.Document submittedXml = w3cDocumentFromStrng(submittedData);
-  String formFill = submittedXml.getElementsByTagName("formfill").item(0).getTextContent();
-  usageRights.setEnabledFormDataImportExport(true);
-  usageRights.setEnabledFormFillIn(Boolean.valueOf(submittedXml.getElementsByTagName("formfill").item(0).getTextContent()));
-  usageRights.setEnabledComments(Boolean.valueOf(submittedXml.getElementsByTagName("comments").item(0).getTextContent()));
-  usageRights.setEnabledEmbeddedFiles(Boolean.valueOf(submittedXml.getElementsByTagName("attachments").item(0).getTextContent()));
-  usageRights.setEnabledDigitalSignatures(Boolean.valueOf(submittedXml.getElementsByTagName("digitalsignatures").item(0).getTextContent()));
-  String attachmentPath = submittedXml.getElementsByTagName("attachmentpath").item(0).getTextContent();
-  Node pdfNode = getResolver.getFormsServiceResolver().getResource(attachmentPath).adaptTo(Node.class);
-  javax.jcr.Node jcrContent = null;
-try {
-    jcrContent = pdfNode.getNode("jcr:content");
-    } catch (RepositoryException e1) {
-      e1.printStackTrace();
-    }
 
-try {
-    InputStream is = jcrContent.getProperty("jcr:data").getBinary().getStream();
-    Session jcrSession = getResolver.getFormsServiceResolver().adaptTo(Session.class);
-    Document documentToReaderExtend = new Document(is);
-    documentToReaderExtend =  applyRights.applyUsageRights(documentToReaderExtend,usageRights);
-    documentToReaderExtend.copyToFile(new File("c:\\scrap\\doctore.pdf"));
-    InputStream fileInputStream = documentToReaderExtend.getInputStream();
-    documentToReaderExtend.close();
-    response.setContentType("application/pdf");
-    response.addHeader("Content-Disposition", "attachment; filename=AemFormsRocks.pdf");
-    response.setContentLength((int) fileInputStream.available());
-    OutputStream responseOutputStream = response.getOutputStream();
-    int bytes;
-    while ((bytes = fileInputStream.read()) != -1) {
-      responseOutputStream.write(bytes);
-    }
-    responseOutputStream.flush();
-    responseOutputStream.close();
-  } catch (ValueFormatException e) {
-      e.printStackTrace();
-  } catch (PathNotFoundException e) {
-      e.printStackTrace();
-  } catch (RepositoryException e) {
-    e.printStackTrace();
-} catch (IOException e) {
-    e.printStackTrace();
-}
+        @Reference
+        ApplyUsageRights applyRights;
+        Logger logger = LoggerFactory.getLogger(GetReaderExtendedPDF.class);
 
-}
+        public org.w3c.dom.Document w3cDocumentFromStrng(String xmlString) {
+                try {
+                        System.out.println("the submitted data is " + xmlString);
+                        DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+                        InputSource is = new InputSource();
+                        is.setCharacterStream(new StringReader(xmlString));
+
+                        return db.parse(is);
+                } catch (Exception e) {
+                        logger.debug(e.getMessage());
+                }
+                return null;
+        }
+        @Override
+        protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) {
+                doPost(request, response);
+        }
+        @Override
+        protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) {
+                System.out.println("In my do POST");
+                UsageRights usageRights = new UsageRights();
+                String submittedData = request.getParameter("jcr:data");
+                org.w3c.dom.Document submittedXml = w3cDocumentFromStrng(submittedData);
+                usageRights.setEnabledDynamicFormFields(true);
+                usageRights.setEnabledDynamicFormPages(true);
+                usageRights.setEnabledFormDataImportExport(true);
+                usageRights.setEnabledFormFillIn(Boolean.valueOf(submittedXml.getElementsByTagName("formfill").item(0).getTextContent()));
+                usageRights.setEnabledComments(Boolean.valueOf(submittedXml.getElementsByTagName("comments").item(0).getTextContent()));
+                usageRights.setEnabledEmbeddedFiles(Boolean.valueOf(submittedXml.getElementsByTagName("attachments").item(0).getTextContent()));
+                usageRights.setEnabledDigitalSignatures(Boolean.valueOf(submittedXml.getElementsByTagName("digitalsignatures").item(0).getTextContent()));
+                usageRights.setEnabledBarcodeDecoding(Boolean.valueOf(submittedXml.getElementsByTagName("barcode").item(0).getTextContent()));
+
+                RequestParameterMap requestParameterMap = request.getRequestParameterMap();
+
+                for (Map.Entry < String, RequestParameter[] > pairs: requestParameterMap.entrySet()) {
+                        final org.apache.sling.api.request.RequestParameter[] pArr = pairs.getValue();
+                        final org.apache.sling.api.request.RequestParameter param = pArr[0];
+                        if (!param.isFormField()) {
+                                try {
+                                        System.out.println("Got attachment!!!!" + param.getFileName());
+                                        logger.debug("Got attachment!!!!" + param.getFileName());
+                                        InputStream is = param.getInputStream();
+                                        Document documentToReaderExtend = new Document(is);
+                                        documentToReaderExtend = applyRights.applyUsageRights(documentToReaderExtend, usageRights);
+
+                                        documentToReaderExtend.copyToFile(new File(param.getFileName().split("/")[1]));
+                                        documentToReaderExtend.close();
+                                        InputStream fileInputStream = documentToReaderExtend.getInputStream();
+                                        documentToReaderExtend.close();
+                                        response.setContentType("application/pdf");
+                                        response.addHeader("Content-Disposition", "attachment; filename=AemFormsRocks.pdf");
+                                        response.setContentLength((int) fileInputStream.available());
+                                        OutputStream responseOutputStream = response.getOutputStream();
+                                        int bytes;
+                                        while ((bytes = fileInputStream.read()) != -1) {
+                                                responseOutputStream.write(bytes);
+                                        }
+                                        responseOutputStream.flush();
+                                        responseOutputStream.close();
+
+                                } catch (IOException e) {
+                                        logger.debug("Exception in streaming pdf back to client  " + e.getMessage());
+                                }
+                        }
+
+                }
+
+        }
 
 }
 
@@ -197,6 +195,5 @@ To test this on your local server, please follow the following steps:
 1. [Preview Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/applyreaderextensions/jcr:content?wcmmode=disabled)
 1. Select the appropriate rights and upload PDF file
 1. Click Submit to get Reader Extended PDF
-
 
 
