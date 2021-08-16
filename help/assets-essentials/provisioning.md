@@ -1,5 +1,5 @@
 ---
-title: Provisioning Assets Essentials	
+title: Provisioning Assets Essentials
 description: Learn how to deploy Assets Essentials using Cloud Manager, and provision user access.
 version: cloud-service
 feature: Assets Essentials
