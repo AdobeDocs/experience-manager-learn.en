@@ -1,5 +1,5 @@
 ---
-title: Using Assets Essentials	
+title: Using Assets Essentials
 description: Learn how to discover how to download assets in Assets Essentials.
 version: cloud-service
 feature: Assets Essentials

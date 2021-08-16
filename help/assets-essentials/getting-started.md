@@ -1,5 +1,5 @@
 ---
-title: Getting started with Assets Essentials	
+title: Getting started with Assets Essentials
 description: Learn how to access Assets Essentials and explore the main facets of its user interface.
 version: cloud-service
 feature: Assets Essentials
