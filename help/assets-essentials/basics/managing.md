@@ -1,5 +1,5 @@
 ---
-title: Managing Assets Essentials	
+title: Managing Assets Essentials
 description: Learn the basics of creating a folder structure, and basic operations such as move, copy and rename.
 version: cloud-service
 feature: Assets Essentials

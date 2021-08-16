@@ -1,5 +1,5 @@
 ---
-title: Creative Cloud and Assets Essentials	
+title: Creative Cloud and Assets Essentials
 description: Learn how Assets Essentials integrates with the Adobe Creative Cloud.
 version: cloud-service
 feature: Assets Essentials

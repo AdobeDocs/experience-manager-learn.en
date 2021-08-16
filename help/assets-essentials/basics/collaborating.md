@@ -1,5 +1,5 @@
 ---
-title: Collaboration in Assets Essentials	
+title: Collaboration in Assets Essentials
 description: Learn how to collaborate on asset management using comments, annotations and tasks.
 version: cloud-service
 feature: Assets Essentials
