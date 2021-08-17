@@ -36,7 +36,7 @@ The following is an abridge set up instructions. Details on these development to
 1.  Install the required npm modules and Adobe I/O CLI plug-ins from the command line:
 
     ```
-    $ npm i -g @adobe/aio-cli @openwhisk/wskdebug ngrok --unsafe-perm=true \
+    $ npm i -g @adobe/aio-cli@7.1.0 @openwhisk/wskdebug ngrok --unsafe-perm=true \
     && aio plugins:install @adobe/aio-cli-plugin-asset-compute
     ```
 
@@ -45,8 +45,6 @@ For more information on the abridged install instructions, read the sections bel
 ## Install Visual Studio Code{#vscode}
 
 [Microsoft Visual Studio Code](https://code.visualstudio.com/download) is used for developing and debugging Asset Compute workers. While other [JavaScript-compatible IDE](../../local-development-environment/development-tools.md#set-up-the-development-ide) can be used to develop the worker, only Visual Studio Code can be integrated to [debug](../test-debug/debug.md) Asset Compute worker.
-
-_Visual Studio Code 1.48.x+ is required for [wskdebug](#wskdebug) to work._
 
 This tutorial assumes the use of Visual Studio Code as it provides the best developer experience for extending Asset Compute.
 
@@ -74,8 +72,11 @@ Asset Compute workers are [Node.js](https://nodejs.org/)-based, and thus require
 [Install the Adobe I/O CLI](../../local-development-environment/development-tools.md#aio-cli), or __aio__ is an command-line (CLI) npm module that facilitates use of and interaction with Adobe I/O technologies, and is used for both generate and locally develop custom Asset Compute workers. 
 
 ```
-$ npm install -g @adobe/aio-cli
+$ npm install -g @adobe/aio-cli@7.1.0
 ```
+
+_Adobe I/O CLI version 7.1.0 is required. Later versions of Adobe I/O CLI are not supported at this time._
+
 
 ## Install the Adobe I/O CLI Asset Compute plugin{#aio-asset-compute}
 
