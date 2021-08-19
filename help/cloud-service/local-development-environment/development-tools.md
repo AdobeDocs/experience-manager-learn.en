@@ -60,7 +60,7 @@ If you are using Homebrew, follow the __Install using Homebrew__ instructions in
 
 ## Install Git
 
-[Git](https://git-scm.com/) is the source control management system used by [Adobe Cloud Manager](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/requirements/source-code-repository.html), and thus is required for development.
+[Git](https://git-scm.com/) is the source control management system used by [Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/requirements/source-code-repository.html), and thus is required for development.
 
 + Install Git using Homebrew
     1. Open your Terminal/Command Prompt

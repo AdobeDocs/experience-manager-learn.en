@@ -26,7 +26,7 @@ The goal for this multi-part tutorial is to teach a developer who is new to AEM 
 
 The tutorial is designed to work with **AEM as a Cloud Service** and is backwards compatible with **AEM 6.5+** and **AEM 6.4.2+**.
 
-**[View the tutorial here!](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**
+**[View the tutorial here!](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**
 
 ## Deploying WKND to AEM as a Cloud Service{#deploying-wknd-to-aem-as-a-cloud-service}
 

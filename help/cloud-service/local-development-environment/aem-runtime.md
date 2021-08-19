@@ -252,4 +252,4 @@ Once Java 11 SDK is installed, verify it is the active version by running the co
 + [Download AEM SDK](https://experience.adobe.com/#/downloads)
 + [Adobe Cloud Manager](https://my.cloudmanager.adobe.com/)
 + [Download Docker](https://www.docker.com/)
-+ [Experience Manager Dispatcher Documentation](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html)
++ [Experience Manager Dispatcher Documentation](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html)

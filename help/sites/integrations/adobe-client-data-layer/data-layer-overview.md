@@ -1,17 +1,12 @@
 ---
 title:  Using the Adobe Client Data Layer with AEM Core Components
 description: The Adobe Client Data Layer introduces a standard method to collect and store data about a visitors experience on a webpage and then make it easy to access this data. The Adobe Client Data Layer is platform agnostic, but is fully integrated into the Core Components for use with AEM.
-feature: core-component
-topics: integrations
-audience: developer
-doc-type: feature video
-activity: use
-version: cloud-service
-kt: 6261
-thumbnail: 41195.jpg
 topic: Integrations
+feature: Adobe Client Data Layer, Core Components
 role: Developer
 level: Intermediate
+kt: 6261
+thumbnail: 41195.jpg
 ---
 
 # Using the Adobe Client Data Layer with AEM Core Components {#overview}
@@ -22,7 +17,7 @@ The Adobe Client Data Layer introduces a standard method to collect and store da
 
 >[!NOTE]
 >
-> Want to enable the Adobe Client Data Layer on your AEM site? [See the instructions here](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation).
+> Want to enable the Adobe Client Data Layer on your AEM site? [See the instructions here](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation).
 
 ## Explore the Data Layer
 
@@ -177,4 +172,4 @@ Or learn how to [Customize the Adobe Client Data Layer with AEM Components](./da
 ## Additional Resources {#additional-resources}
 
 * [Adobe Client Data Layer Documentation](https://github.com/adobe/adobe-client-data-layer/wiki)
-* [Using the Adobe Client Data Layer and Core Components Documentation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html)
+* [Using the Adobe Client Data Layer and Core Components Documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html)

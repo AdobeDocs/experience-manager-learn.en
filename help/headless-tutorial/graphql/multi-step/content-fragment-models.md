@@ -1,16 +1,11 @@
 ---
 title: Defining Content Fragment Models - Getting Started with AEM Headless - GraphQL
 description: Get started with Adobe Experience Manager (AEM) and GraphQL. Learn how to model content and build a schema with Content Fragment Models in AEM. Review existing models and create a new model. Learn about the different data types that can be used to define a schema.
-sub-product: assets
-topics: headless
 version: cloud-service
-doc-type: tutorial
-activity: develop
-audience: developer
 mini-toc-levels: 1
 kt: 6712
 thumbnail: 22452.jpg
-feature: Content Fragments, GraphQL APIs
+feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner

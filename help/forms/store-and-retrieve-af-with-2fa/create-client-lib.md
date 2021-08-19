@@ -15,7 +15,7 @@ level: Intermediate
 ---
 # Create client lib
 
-Create [client lib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) which will include the code to invoke the method `doAjaxSubmitWithFileAttachment` of the `guideBridge` API on the click event of the button identified by the CSS class **savebutton**.  We pass the adaptive form data, `fileMap`, and the `mobileNumber` to the endpoint listening at `**/bin/storeafdatawithattachments`
+Create [client lib](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html) which will include the code to invoke the method `doAjaxSubmitWithFileAttachment` of the `guideBridge` API on the click event of the button identified by the CSS class **savebutton**.  We pass the adaptive form data, `fileMap`, and the `mobileNumber` to the endpoint listening at `**/bin/storeafdatawithattachments`
 
 After the form data is saved a unique application id is generated and presented to the user in a dialog box. On dismissing the dialog box the user is taken to the form which allows them to retrieve the saved adaptive form using the unique application id. 
 

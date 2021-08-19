@@ -337,7 +337,7 @@ Below is a matrix of key security features offered by AEM. Some of these feature
         <td>✔</td>
     </tr>
     <tr>
-        <td><strong><a href="https://docs.adobe.com/docs/en/aem/6-5/administer/security/saml-2-0-authenticationhandler.html" target="_blank">Improved SAML authentication support</a><br>
+        <td><strong><a href="https://experienceleague.adobe.com/docs/" target="_blank">Improved SAML authentication support</a><br>
  </strong>Improved SAML redirect, optimized group info, and key encryption issues resolved.
             <br>
         </td>
@@ -948,7 +948,7 @@ Below is a matrix of key Assets features offered by AEM. Some of these features 
             <td>✔</td>
         </tr>
         <tr>
-            <td><strong><a href="https://docs.adobe.com/docs/en/aem/6-5/administer/content/dynamic-media/viewer-presets.html" target="_blank">Viewers</a>:</strong>
+            <td><strong><a href="https://experienceleague.adobe.com/docs/" target="_blank">Viewers</a>:</strong>
             Custom branded rich media players and presets with support for different screens/devices.</td>
             <td>&nbsp;</td>
             <td>✔</td>

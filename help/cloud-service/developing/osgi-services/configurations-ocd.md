@@ -3,7 +3,8 @@ title: OSGi Configurations as ObjectClassDefinition Objects
 description: Learn how to create and designate ObjectClassDefinitions as OSGi configuration representations in an OSGi service
 role: Developer
 level: Beginner
-topic: Beginner
+topic: Development
+feature: OSGI
 kt: 8269 
 thumbnail: 335730.jpeg
 ---

@@ -84,7 +84,7 @@ There are several options to create a Maven Multi-module project for AEM. This t
 
     >[!NOTE]
     >
-    > Notice the `frontendModule=angular` property. This tells the AEM Project Archetype to bootstrap the project with a starter [Angular code base](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/uifrontend-angular.html) to be used with the AEM SPA Editor.
+    > Notice the `frontendModule=angular` property. This tells the AEM Project Archetype to bootstrap the project with a starter [Angular code base](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uifrontend-angular.html) to be used with the AEM SPA Editor.
 
 ## Build the project
 
@@ -143,7 +143,7 @@ Next, compile, build, and deploy the project code to a local instance of AEM usi
 
     All of the custom code needed for the project will be bundled into these packages and installed on the AEM runtime.
 
-6. You should also see several packages for `spa.project.core` and `core.wcm.components`. These are dependencies automatically included by the archetype. More information about [AEM Core Components can be found here](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html).
+6. You should also see several packages for `spa.project.core` and `core.wcm.components`. These are dependencies automatically included by the archetype. More information about [AEM Core Components can be found here](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html).
 
 ## Author Content
 

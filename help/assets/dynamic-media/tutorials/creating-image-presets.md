@@ -1,17 +1,16 @@
 ---
-title: Creating image presets 
+title: Creating image presets with AEM Dynamic Media
 description: Configure Image presets with Dynamic Media
-type: Tutorial
-product: dynamic-media
 role: Developer
 level: Intermediate 
 version: cloud-service
-feature: image-presets
+feature: Image Presets
 topic: Development
 index: y
 ---
-# Creating image presets 
 
-*This video walks through the steps to create Image profile presets in Dynamic Media.*
+# Creating Image Presets with AEM Dynamic Media
+
+This video walks through the steps to create Image Presets in Dynamic Media.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335459?quality=9&learn=on)

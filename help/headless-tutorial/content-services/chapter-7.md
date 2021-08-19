@@ -195,7 +195,7 @@ After each step, pull-to-refresh the Mobile App and verify the update to the mob
 To learn more about AEM Content Services and AEM as a Headless CMS, visit Adobe's other documentation and enablement materials:
 
 * [Using Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
-* [AEM WCM Core Components User Guide](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
+* [AEM WCM Core Components User Guide](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
 * [AEM WCM Core Components Component Library](https://opensource.adobe.com/aem-core-wcm-components/library.html)
 * [AEM WCM Core Components GitHub Project](https://github.com/adobe/aem-core-wcm-components)
 * [AEM WCM Core Components - Ask the Expert](https://helpx.adobe.com/experience-manager/kt/eseminars/ask-the-expert/aem-content-services.html)

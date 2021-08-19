@@ -22,7 +22,7 @@ This chapter covers enabling and defining Content Fragment Models used to define
 
 ## Enable Content Fragment Models
 
-Content Fragment Models **must** be enabled via **[AEM's [!UICONTROL Configuration Browser]](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)**.
+Content Fragment Models **must** be enabled via **[AEM's [!UICONTROL Configuration Browser]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)**.
 
 If Content Fragment Models are **not** enabled for a configuration, the **[!UICONTROL Create] &gt; [!UICONTROL Content Fragment]** button will not appear for the relevant AEM configuration.
 
@@ -34,7 +34,7 @@ If Content Fragment Models are **not** enabled for a configuration, the **[!UICO
 >
 >When the `global` configuration is used, the configuration applies to all content, and `cq:conf` does not need to be set.
 >
->See the [[!UICONTROL Configuration Browser] documentation](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html) for more information.
+>See the [[!UICONTROL Configuration Browser] documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html) for more information.
 
 1. Log in to AEM Author as a user with appropriate permissions to modify the relevant configuration.
    * For this tutorial, the **admin** user can be used.

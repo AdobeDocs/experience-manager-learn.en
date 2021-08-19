@@ -2,7 +2,6 @@
 title: Steps to resolve replication issues in AEM
 description: Steps to investigate and resolve issues related to replication
 type: Troubleshooting
-product: Sites
 role: Admin
 level: Beginner
 version: 6.5

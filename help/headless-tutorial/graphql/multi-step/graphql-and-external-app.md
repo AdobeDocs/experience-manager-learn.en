@@ -1,16 +1,11 @@
 ---
 title: Query AEM using GraphQL from an external app - Getting Started with AEM Headless - GraphQL
 description: Get started with Adobe Experience Manager (AEM) and GraphQL. Explore AEM's GraphQL APIs a sample WKND GraphQL React app. Learn how this external app makes GraphQL calls to AEM to power its experience. Learn how to perform basic error handling.
-sub-product: assets
-topics: headless
 version: cloud-service
-doc-type: tutorial
-activity: develop
-audience: developer
 mini-toc-levels: 1
 kt: 6716
 thumbnail: KT-6716.jpg
-feature: Content Fragments, GraphQL APIs
+feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner

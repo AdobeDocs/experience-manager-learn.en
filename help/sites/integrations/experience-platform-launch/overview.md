@@ -25,6 +25,6 @@ Experience Platform Launch is Adobe's next-generation tag management platform an
 
 ## Additional Resources {#additional-resources}
 
-* [Experience Platform Integrations with Experience Cloud Applications](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/integrations-with-experience-cloud-applications.html)
-* [Experience Platform Launch User Guide](https://experienceleague.adobe.com/docs/launch/using/home.html)
-* [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html)
+* [Experience Platform Integrations with Experience Cloud Applications](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/integrations-with-experience-cloud-applications.html)
+* [Experience Platform Launch User Guide](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
+* [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)

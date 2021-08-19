@@ -2,7 +2,6 @@
 title: How to set the Oak login token session expiration
 description: Steps to set oak origin token session expiration timeout
 type: Troubleshooting
-product: Sites
 role: Admin
 level: Intermediate
 version: 6.5, cloud-service

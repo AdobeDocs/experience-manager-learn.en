@@ -32,4 +32,4 @@ AEM 6.3 Forms introduces the capability to let users create test cases within AE
 >**Useful Links**
 >
 >* [Calvin SDK Namespace](https://helpx.adobe.com/aem-forms/6-3/calvin-sdk-javascript-api/calvin.html)
->* [Hobbes.js documentation](https://docs.adobe.com/docs/en/aem/6-3/develop/ref/test-api/index.html)
+>* [Hobbes.js documentation](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)

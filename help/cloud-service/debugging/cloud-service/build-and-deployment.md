@@ -66,11 +66,11 @@ Errors identified in this phase should be re-producible building the project loc
 
 Code scanning performs static code analysis using a mix of Java and AEM-specific best practices. 
 
-Code scanning results in a build failure if a Critical Security vulnerabilities exist in the code. Lesser violations can be overridden, but it is recommended they are fixed. Note that code scanning is imperfect and can result in [false positives](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/understand-test-results.html#dealing-with-false-positives).
+Code scanning results in a build failure if a Critical Security vulnerabilities exist in the code. Lesser violations can be overridden, but it is recommended they are fixed. Note that code scanning is imperfect and can result in [false positives](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/test-results/overview-test-results.html#dealing-with-false-positives).
 
 To resolve code scanning issues, download the CSV-fomatted report provided by Cloud Manager via the **Download Details** button and review any entries.
 
-For more details see AEM specific rules, see Cloud Manager documentations' [custom AEM-specific code scanning rules](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/custom-code-quality-rules.html).
+For more details see AEM specific rules, see Cloud Manager documentations' [custom AEM-specific code scanning rules](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/custom-code-quality-rules.html).
 
 ## Build Images
 
@@ -98,7 +98,7 @@ set the ‘mergeConfigurations’ flag to ‘true’ if you want to merge multip
 #### Cause 2
 
 + __Cause:__ The AEM project's incorrectly includes the same code package twice, resulting in the duplication of any OSGi configuration contained in said package.
-+ __Resolution:__ Review all pom.xml's of packages embedded in the all project, and ensure they have the `filevault-package-maven-plugin` [configuration](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#cloud-manager-target) set to `<cloudManagerTarget>none</cloudManagerTarget>`.
++ __Resolution:__ Review all pom.xml's of packages embedded in the all project, and ensure they have the `filevault-package-maven-plugin` [configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#cloud-manager-target) set to `<cloudManagerTarget>none</cloudManagerTarget>`.
 
 ### Malformed repoinit script
 
@@ -228,8 +228,8 @@ To validate this issue is the cause of the failing behavior:
 + __Cause:__ AEM's replication service user used to deploy content packages to the AEM Publish service cannot write to `/var` on AEM Publish. This results in the deployment of the content package to the AEM Publish service to fail.
 + __Resolution:__ The following ways to resolve this issues are listed in the order of preference:
   1. If the `/var` resources are not necessary remove any resources under `/var` from content packages that are deployed as part of your application.
-  2. If the `/var` resources are necessary, define the node structures using [repoinit](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#repoinit). Repoinit scripts can be targeted to AEM Author, AEM Publish or both, via OSGi runmodes.
-  3. If the `/var` resources are only required on AEM author and cannot be reasonably modeled using [repoinit](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#repoinit), move them to a discrete content package, that is only installed on AEM Author by [embedding](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds) it in the `all` package in an AEM Author runmode folder (`<target>/apps/example-packages/content/install.author</target>`).  
+  2. If the `/var` resources are necessary, define the node structures using [repoinit](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#repoinit). Repoinit scripts can be targeted to AEM Author, AEM Publish or both, via OSGi runmodes.
+  3. If the `/var` resources are only required on AEM author and cannot be reasonably modeled using [repoinit](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#repoinit), move them to a discrete content package, that is only installed on AEM Author by [embedding](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds) it in the `all` package in an AEM Author runmode folder (`<target>/apps/example-packages/content/install.author</target>`).  
   4. Provide appropriate ACLs to the `sling-distribution-importer` service user as described in this [Adobe KB](https://helpx.adobe.com/in/experience-manager/kb/cm/cloudmanager-deploy-fails-due-to-sling-distribution-aem.html).
 
 ### Create an Adobe Support case

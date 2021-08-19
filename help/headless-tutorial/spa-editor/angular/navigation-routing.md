@@ -27,7 +27,7 @@ Learn how multiple views in the SPA are supported using AEM Pages and the SPA Ed
 
 ## What you will build
 
-This chapter adds a navigation menu to an existing `Header` component. The navigation menu is driven by the AEM page hierarchy and uses the JSON model provided by the [Navigation Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/navigation.html).
+This chapter adds a navigation menu to an existing `Header` component. The navigation menu is driven by the AEM page hierarchy and uses the JSON model provided by the [Navigation Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/navigation.html).
 
 ![Navigation implemented](assets/navigation-routing/final-navigation-implemented.gif)
 
@@ -65,7 +65,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 
 ## Inspect HeaderComponent updates {#inspect-header}
 
-In previous chapters, the `HeaderComponent` component was added as a pure Angular component included via `app.component.html`. In this chapter, the `HeaderComponent` component is removed from the app and will be added via the [Template Editor](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html). This allows users to configure the navigation menu of the `HeaderComponent` from within AEM.
+In previous chapters, the `HeaderComponent` component was added as a pure Angular component included via `app.component.html`. In this chapter, the `HeaderComponent` component is removed from the app and will be added via the [Template Editor](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html). This allows users to configure the navigation menu of the `HeaderComponent` from within AEM.
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ In previous chapters, the `HeaderComponent` component was added as a pure Angula
         componentGroup="WKND SPA Angular - Structure"/>
     ```
 
-    The AEM `Header` component will inherit all of the functionality of the [Navigation Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/navigation.html) via the `sling:resourceSuperType` property.
+    The AEM `Header` component will inherit all of the functionality of the [Navigation Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/navigation.html) via the `sling:resourceSuperType` property.
 
 ## Add the HeaderComponent to the SPA template {#add-header-template}
 

@@ -47,7 +47,7 @@ Learn how to use the import and export metadata features of Adobe Experience Man
   * Incorrect: `Dc:Title {{String}}`
 
 * Property Type is case insensitive
-* All valid [JCR Property types](https://docs.adobe.com/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/PropertyType.html) are supported  
+* All valid [JCR Property types](https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/PropertyType.html) are supported  
 
 * Multi Value Property format - `<metadata property name> {{<property type : MULTI }}`
 

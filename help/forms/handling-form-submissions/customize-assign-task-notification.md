@@ -18,7 +18,7 @@ level: Experienced
 # Customize Assign Task Notification
 
 Assign Task component is used to assign tasks to workflow participants. When a task is assigned to a user or a group a email notification is sent to the defined user or group members.
-This e-mail notification will typically contain dynamic data related to the task. This dynamic data is fetched using the system generated [metadata properties](https://docs.adobe.com/content/help/en/experience-manager-65/forms/publish-process-aem-forms/use-metadata-in-email-notifications.html#using-system-generated-metadata-in-an-email-notification).
+This e-mail notification will typically contain dynamic data related to the task. This dynamic data is fetched using the system generated [metadata properties](https://experienceleague.adobe.com/docs/experience-manager-65/forms/publish-process-aem-forms/use-metadata-in-email-notifications.html#using-system-generated-metadata-in-an-email-notification).
 To include values from the submitted form data in the e-mail notification, we need to create custom metadata property and then use these custom metadata properties in the e-mail template
 
 
@@ -125,7 +125,7 @@ After the OSGi component is built and deployed into AEM server, configure the As
 
 ## To try this on your server
 
-* [Configure Day CQ Mail Service](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/notification.html#configuring-the-mail-service)
+* [Configure Day CQ Mail Service](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/notification.html#configuring-the-mail-service)
 * Associate a valid e-mail id with [admin user](http://localhost:4502/security/users.html)
 * Download and install the [Workflow-and-notification-template](assets/workflow-and-task-notification-template.zip) using [package manager](http://localhost:4502/crx/packmgr/index.jsp)
 * Download [Adaptive Form](assets/request-travel-authorization.zip) and import into AEM from the [forms and documents ui](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments).

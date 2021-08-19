@@ -142,7 +142,7 @@ The following are various Adobe resources that provide further information and u
 
 ### Documentation
 
-+ [Asset Compute Service documentation](https://docs.adobe.com/content/help/en/asset-compute/using/extend/understand-extensibility.html)
++ [Asset Compute Service documentation](https://experienceleague.adobe.com/docs/asset-compute/using/extend/understand-extensibility.html)
 + [Asset Compute Development Tool readme](https://github.com/adobe/asset-compute-devtool)
 + [Asset Compute example workers](https://github.com/adobe/asset-compute-example-workers)
 

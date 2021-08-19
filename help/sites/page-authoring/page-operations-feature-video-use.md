@@ -25,5 +25,5 @@ Learn how to perform basic page management operations for a Adobe Experience Man
 
 ## Additional Resources {#additional-resources}
 
-* [Editing Page Content Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html)
-* [Sites Authoring User Guide](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/home.html?topic=/experience-manager/6-5/sites/authoring/morehelp/page-authoring.ug.js)
+* [Editing Page Content Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-content.html)
+* [Sites Authoring User Guide](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html&topic=/experience-manager/6-5/sites/authoring/morehelp/page-authoring.ug.js)
