@@ -34,8 +34,8 @@ An Image Preset has a dollar sign ($) on both sides of its name, and follows the
 >
 >Create one Image Preset per unique image size on your site. For example, if you need a 350 X 350 image for the product detail page, a 120 X 120 image for the browse/search pages, and a 90 X 90 image for a cross-sell/featured item, then you need three Image Presets, whether you have 500 images or 500,000.
 
-- Learn more about [Image Presets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/image-sizing/setting-image-presets.html).
-- Learn how to [Create an Image Preset](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/image-sizing/setting-image-presets.html#creating-an-image-preset).
+- Learn more about [Image Presets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html).
+- Learn how to [Create an Image Preset](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#creating-an-image-preset).
 
 ## Image Presets and Sharpening
 
@@ -57,7 +57,7 @@ The following graphic shows three levels of sharpening. From right to left you h
 
 Dynamic Media Classic allows for three types of sharpening: Simple Sharpening, Resample Mode, and Unsharp Mask.
 
-Learn more about [Dynamic Media Classic Sharpening Options](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/master-files/sharpening-image.html#sharpening_an_image).
+Learn more about [Dynamic Media Classic Sharpening Options](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/master-files/sharpening-image.html#sharpening_an_image).
 
 ## Additional Resources
 

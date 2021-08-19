@@ -30,7 +30,7 @@ Adobe Dynamic Media Classic desktop app is compatible with the following operati
 
 ## Supporting Materials
 
-* [Adobe Dynamic Media Classic Desktop Application documentation](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html)
-* [Adobe Dynamic Media Frequently Asked Questions](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/new-ui-2020.html)
+* [Adobe Dynamic Media Classic Desktop Application documentation](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html)
+* [Adobe Dynamic Media Frequently Asked Questions](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/new-ui-2020.html)
 * [Download - Disk Image File for macOS (.dmg)](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
 * [Download - Executable file for Windows (.exe)](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)

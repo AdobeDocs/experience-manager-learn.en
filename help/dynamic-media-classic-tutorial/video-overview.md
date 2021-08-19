@@ -70,7 +70,7 @@ Just like all viewers, integration is via a single Dynamic Media Classic URL per
 
 One last note about Dynamic Media Classic video that may apply to some customers: not all companies may have automatic conversion, streaming, or Video Presets enabled for their account. If for some reason you are unable to access the URLs for streaming video, this may be the reason. You will still be able to upload and publish progressively downloaded video and have access to all the video viewers. However, to take advantage of the full Dynamic Media Classic video capabilities, you will want to contact your Account Manager or Sales Manager to get these features enabled.
 
-Learn more about [Video in Dynamic Media Classic](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/quick-start-video.html).
+Learn more about [Video in Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/quick-start-video.html).
 
 ## Video 101
 
@@ -132,8 +132,8 @@ When working with video in Dynamic Media Classic, you follow a basic workflow th
 
 ![image](assets/video-overview/video-overview-2.png)
 
-1. Start by uploading video files to Dynamic Media Classic. To do this, open the **Tools Menu** at the bottom of the Dynamic Media Classic extension panel, and choose **Upload to Dynamic Media Classic > Files to folder name**, or **Upload to Dynamic Media Classic > Folders to folder name**. "Folder name" will be whatever folder you are currently browsing with the extension. Video files can be big, so we recommend using FTP for uploading large files. As part of the upload, choose one or more Video Presets for encoding your videos. Video can be transcoded to MP4 video on upload. See the Video Presets topic below for more information on using and creating encoding presets. Learn about [Uploading and Encoding Videos](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/uploading-encoding-videos.html).
-2. Select or select and modify a video Viewer Preset and preview your video. You would either choose a pre-built Viewer Preset or customize your own. If you are targeting mobile users, you don't have to do anything here because mobile platforms do not require a viewer or a preset. Learn more about [Previewing Videos in a Video Viewer](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/previewing-videos-video-viewer.html) and [Adding or Editing a Video Viewer Preset](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/previewing-videos-video-viewer.html#adding-or-editing-a-video-viewer-preset).
+1. Start by uploading video files to Dynamic Media Classic. To do this, open the **Tools Menu** at the bottom of the Dynamic Media Classic extension panel, and choose **Upload to Dynamic Media Classic > Files to folder name**, or **Upload to Dynamic Media Classic > Folders to folder name**. "Folder name" will be whatever folder you are currently browsing with the extension. Video files can be big, so we recommend using FTP for uploading large files. As part of the upload, choose one or more Video Presets for encoding your videos. Video can be transcoded to MP4 video on upload. See the Video Presets topic below for more information on using and creating encoding presets. Learn about [Uploading and Encoding Videos](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/uploading-encoding-videos.html).
+2. Select or select and modify a video Viewer Preset and preview your video. You would either choose a pre-built Viewer Preset or customize your own. If you are targeting mobile users, you don't have to do anything here because mobile platforms do not require a viewer or a preset. Learn more about [Previewing Videos in a Video Viewer](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/previewing-videos-video-viewer.html) and [Adding or Editing a Video Viewer Preset](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/previewing-videos-video-viewer.html#adding-or-editing-a-video-viewer-preset).
 3. Run a Video Publish, get the URL, and integrate. The main difference between this step for the video workflow versus the image workflow is that you will run a special Video Publish instead of (or perhaps as well as) the standard Image Serving publish. Video viewer integration on the desktop works exactly like image viewer integration, however for mobile devices it's even simpler — all you need is the URL to the video itself.
 
 ### About Transcoding
@@ -168,11 +168,11 @@ Finally, if you are concerned about securing your media for intellectual propert
 
 When you upload your video, you choose from one or more presets that contain the settings for converting your master video to a web-friendly format through encoding. Video Presets come in two flavors, Adaptive Video Presets and Single Encoding Presets.
 
-See [Available Video Presets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/setup/application-setup.html#video-presets-for-encoding-video-files).
+See [Available Video Presets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/setup/application-setup.html#video-presets-for-encoding-video-files).
 
 Adaptive Video Presets are activated by default, which means they are available for encoding. If you wish to use a Single Encoding Preset, your administrator will need to activate it for it to appear in the list of Video Presets.
 
-Learn how to [Activate or De-activate Video Presets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/uploading-encoding-videos.html#activating-or-deactivating-video-encoding-presets).
+Learn how to [Activate or De-activate Video Presets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/uploading-encoding-videos.html#activating-or-deactivating-video-encoding-presets).
 
 You may choose either one of many pre-built presets that come with Dynamic Media Classic or you may create your own; however, no presets are selected for upload by default. In other words, **if you do not select a Video Preset at upload, your video will not be converted and potentially may be unpublishable**. However you can convert the video yourself offline and upload and publish just fine. Video Presets are only required if you want Dynamic Media Classic to do the conversion for you.
 
@@ -234,19 +234,19 @@ Sometimes you may find you need a special Video Preset that doesn't match the se
 11. Click **Save** to save your preset. Unlike every other preset, you do not need to publish at this point, because the presets are only for uploading files. Later, you'll have to publish out the encoded videos, but the presets are for internal Dynamic Media Classic usage only.
 12. To verify your video preset is on the upload list, go to **Upload**.Choose **Job Options** and expand **Video Options**. Your preset will be listed in the category for the playback device you chose (Computer,Mobile, or Tablet).
 
-Learn more about [Adding or Editing a Video Preset](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/uploading-encoding-videos.html#adding-or-editing-a-video-encoding-preset).
+Learn more about [Adding or Editing a Video Preset](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/uploading-encoding-videos.html#adding-or-editing-a-video-encoding-preset).
 
 ## Add Captions to Your Video
 
 In some cases, it can be useful to add captions to your video — for example, when you need to provide the video to viewers in multiple languages, but do not want to dub the audio in another language or record the video again in separate languages. In addition, adding captions provides greater accessibility for those who are hearing impaired and use closed captioning. Dynamic Media Classic makes it easy to add captions to your videos.
 
-Learn how to [Add Captions to Video](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/adding-captions-video.html).
+Learn how to [Add Captions to Video](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/adding-captions-video.html).
 
 ## Add Chapter Markers to Your Video
 
 For long form videos, your viewers will likely appreciate the ability and convenience offered by navigating your video with chapter markers. Dynamic Media Classic provides the ability to easily add chapter markers to your video.
 
-Learn how to [Add Chapter Markers to Video](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/adding-chapter-markers-video.html).
+Learn how to [Add Chapter Markers to Video](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/adding-chapter-markers-video.html).
 
 ## Video Implementation Topics
 
@@ -256,20 +256,20 @@ The last step in the Dynamic Media Classic workflow is to publish out your video
 
 ![image](assets/video-overview/video-overview-6.jpg)
 
-Learn how to [Publish Your Video](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#publishing-video).
+Learn how to [Publish Your Video](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#publishing-video).
 
 Once you run a video publish, you will be able to get a URL to access your videos and any off-the-shelf Dynamic Media Classic Viewer Presets in a web browser. However if you customize or create your own Video Viewer Preset, you will still need to run a separate Image Server publish.
 
-- Learn how to [Link a URL to a Mobile Site or a Website](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#linking-a-video-url-to-a-mobile-site-or-a-website).
-- Learn how to [Embed the Video Viewer on a Web Page](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#embedding-the-video-viewer-on-a-web-page).
+- Learn how to [Link a URL to a Mobile Site or a Website](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#linking-a-video-url-to-a-mobile-site-or-a-website).
+- Learn how to [Embed the Video Viewer on a Web Page](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#embedding-the-video-viewer-on-a-web-page).
 
 You can also deploy your video using a third-party or custom built video player.
 
-Learn how to [Deploy Video Using a Third-party Video Player](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#deploying-video-using-a-third-party-video-player).
+Learn how to [Deploy Video Using a Third-party Video Player](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#deploying-video-using-a-third-party-video-player).
 
 Furthermore, if you also want to use the video thumbnails — the image extracted from the video — you will also need to run an Image Server publish. This is because the thumbnail image for the video resides on the Image Server, whereas the video itself is on the Video Server. Video thumbnails can be used in video search results, video playlists, and can be used as the initial “poster frame” that appears in the video viewer before the video is played.
 
-Learn more about [Working with Video Thumbnails](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#working-with-video-thumbnails).
+Learn more about [Working with Video Thumbnails](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/video/deploying-video-websites-mobile-sites.html#working-with-video-thumbnails).
 
 ### Selecting and Customizing a Viewer Preset
 
@@ -304,15 +304,15 @@ The recommended workflow is to embed this data into your videos prior to upload 
 
 By following this method, you will not have to manually enter this data using Dynamic Media Classic. However you could also use Metadata Presets in Dynamic Media Classic, as a quick way of entering the same data each time.
 
-For more information on that topic, see [Viewing, Adding, and Exporting Metadata](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/managing-assets/viewing-adding-exporting-metadata.html).
+For more information on that topic, see [Viewing, Adding, and Exporting Metadata](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/managing-assets/viewing-adding-exporting-metadata.html).
 
 ![image](assets/video-overview/video-overview-7.jpg)
 
 Once the metadata has been populated, you will be able to see it on the Detail View for that video asset. Keywords may also be present, but those are located under the Keywords tab.
 
-- Learn more about [Adding Keywords](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/managing-assets/viewing-adding-exporting-metadata.html#add-or-edit-keywords).
-- Learn more about [Video SEO](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/setup/video-seo-search-engine-optimization.html).
-- Learn about [Settings for Video SEO](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/setup/video-seo-search-engine-optimization.html#choosing-video-seo-settings).
+- Learn more about [Adding Keywords](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/managing-assets/viewing-adding-exporting-metadata.html#add-or-edit-keywords).
+- Learn more about [Video SEO](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/setup/video-seo-search-engine-optimization.html).
+- Learn about [Settings for Video SEO](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/setup/video-seo-search-engine-optimization.html#choosing-video-seo-settings).
 
 #### Setting Up Video SEO
 

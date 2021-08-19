@@ -79,7 +79,7 @@ System.out.println("The submitted form data is " + stringBuffer.toString());
 
 ### Additional Reading
 
-This [article](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/document-services/generate-pdf-from-mobile-form-submission-article.html) on generating PDF from HTML5 form submission is also recommended.
+This [article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-pdf-from-mobile-form-submission-article.html) on generating PDF from HTML5 form submission is also recommended.
 
 
 

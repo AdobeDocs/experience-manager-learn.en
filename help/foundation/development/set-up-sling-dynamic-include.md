@@ -15,7 +15,7 @@ level: Experienced
 
 # Set up [!DNL Sling Dynamic Include]
 
-A video walk-through of installing and using [!DNL Apache Sling Dynamic Include] with [AEM Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html) running on [!DNL Apache HTTP Web Server].
+A video walk-through of installing and using [!DNL Apache Sling Dynamic Include] with [AEM Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html) running on [!DNL Apache HTTP Web Server].
 
 >[!VIDEO](https://video.tv.adobe.com/v/17040/?quality=12&learn=on)
 
@@ -144,7 +144,7 @@ A video walk-through of installing and using [!DNL Apache Sling Dynamic Include]
 
 >[!NOTE]
 >
->If you are using [!DNL Sling Dynamic Includes] for serving edge-side includes (ESI), then make sure to cache relevant [response headers in the dispatcher cache](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#CachingHTTPResponseHeaders). Possible headers include the following:
+>If you are using [!DNL Sling Dynamic Includes] for serving edge-side includes (ESI), then make sure to cache relevant [response headers in the dispatcher cache](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#CachingHTTPResponseHeaders). Possible headers include the following:
 >
 >* "Cache-Control"
 >* "Content-Disposition"

@@ -2,7 +2,7 @@
 user-guide-title: AEM Assets Videos and Tutorials
 user-guide-description: A collection of videos and tutorials for Adobe Experience Manager Assets.
 breadcrumb-title: AEM Assets Tutorials
-sub-product: assets
+feature-set: Experience Manager, Experience Manager Assets, Experience Manager Sites
 team: TM
 ---
   
@@ -57,7 +57,13 @@ team: TM
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
   + [Publish Assets](./sharing/publish.md)
-  + [Brand Portal](./sharing/brand-portal.md)
+  
+  + Brand Portal{#brand-portal}
+    + [Brand Portal](./sharing/brand-portal.md)
+    + [Configure AEM Brand Portal](brand-portal/configure.md)
+    + [Configure Asset Sourcing](brand-portal/configure-asset-sourcing.md)
+    + [Enable Rendition Downloads](brand-portal/enable-renditions-download.md)
+
   + Asset Share{#assets-share}
     + [Asset Share Commons](./sharing/asset-share-commons-user-experience-feature-video-understand.md)
     + [Set up Asset Share Commons on local AEM](./sharing/asset-share-commons-technical-video-setup.md)
@@ -101,6 +107,22 @@ team: TM
   + [Dynamic Media 3D](dynamic-media/dynamic-media-3d-feature-video.md)
   + [Dynamic Media Smart Crop Video](dynamic-media/dynamic-media-smart-crop-video.md)
   + [Dynamic Media Core Components](dynamic-media/dynamic-media-core-components.md)
+
+  + Tutorials {#tutorials}
+    + [Creating Carousel Sets](dynamic-media/tutorials/creating-different-kinds-of-sets-with-aem-dynamic-media-carousel-sets.md)
+    + [Creating Image Sets](dynamic-media/tutorials/creating-different-kinds-of-sets-with-aem-dynamic-media-image-sets.md)
+    + [Creating Image Presets](dynamic-media/tutorials/creating-image-presets.md)
+    + [Creating Smart Crop Image Profiles](dynamic-media/tutorials/creating-image-profile-smart-crop.md)
+    + [Creating Video Profiles](dynamic-media/tutorials/creating-video-profile-to-process-videos-in-dynamic-media.md)
+    + [Processing Assets](dynamic-media/tutorials/how-to-run-dam-update-asset-workflow-on-an-asset-with-dynamic-media-enabled.md)
+    + [Configuring a Secure Preview Server](dynamic-media/tutorials/adding-test-image-server-details-in-dynamic-media-for-secure-preview.md)
+    + [Generating URLs and Embed Codes](dynamic-media/tutorials/how-to-generate-public-url-or-embed-code-for-an-asset.md)
+    + [Triggering an Export Job](dynamic-media/tutorials/how-to-trigger-export-job-in-dynamic-media-during-submit-job-operation-parameter.md)
+    + [Invalidating the CDN Cache](dynamic-media/tutorials/invalidating-the-cdn-cache-by-way-of-dynamic-media.md)
+    + [Using Dynamic Media Core Components](dynamic-media/tutorials/using-dm-components-on-site-page.md)
+    + [Deleting Dynamic Media Configuration](dynamic-media/tutorials/deleting-dynamic-media-configuration.md)
+    + [Downloading Assets in Dynamic Media Classic App](dynamic-media/tutorials/how-to-download-asset-in-dynamic-media-classic-app.md)
+    + [Dynamic Media Classic IPS APIs](dynamic-media/tutorials/introduction-to-dynamic-media-classic-ips-api.md)
 
 + Translation {#translation}
   + [Source File Translation](translation/source-file-translation-feature-video-use.md)

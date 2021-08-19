@@ -26,7 +26,7 @@ Learn how multiple views in the SPA can be supported by mapping to AEM Pages wit
 
 ## What you will build
 
-This chapter will add navigation to a SPA in AEM. The navigation menu will be driven by the AEM page hierarchy and will make use of the JSON model provided by the [Navigation Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/navigation.html).
+This chapter will add navigation to a SPA in AEM. The navigation menu will be driven by the AEM page hierarchy and will make use of the JSON model provided by the [Navigation Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/navigation.html).
 
 ![Navigation added](assets/navigation-routing/navigation-added.png)
 

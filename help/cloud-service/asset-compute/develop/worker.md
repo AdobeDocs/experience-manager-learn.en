@@ -39,7 +39,7 @@ Asset Compute workers implement the Asset Compute SDK worker API contract, in th
 1. The Asset Compute worker saves the new rendition's binary data to `rendition.path`.
 1. The binary data  written to `rendition.path` is transported via the Asset Compute SDK to AEM Author Service and exposed as __(4a)__ a text rendition and __(4b)__ persisted to the asset's metadata node.
 
-The above diagram articulates the Asset Compute developer-facing concerns and logical flow ot Asset Compute worker invocation. For the curious, the [internal details of Asset Compute execution](https://docs.adobe.com/content/help/en/asset-compute/using/extend/custom-application-internals.html) are available, however only the public Asset Compute SDK API contracts can be depended upon.
+The above diagram articulates the Asset Compute developer-facing concerns and logical flow ot Asset Compute worker invocation. For the curious, the [internal details of Asset Compute execution](https://experienceleague.adobe.com/docs/asset-compute/using/extend/custom-application-internals.html) are available, however only the public Asset Compute SDK API contracts can be depended upon.
 
 ## Anatomy of a worker
 

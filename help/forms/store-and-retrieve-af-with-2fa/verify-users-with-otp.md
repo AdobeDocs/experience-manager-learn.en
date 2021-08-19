@@ -47,11 +47,11 @@ Use the [swagger editor](https://editor.swagger.io/) to create your swagger file
 
 ## Create Data Source
 
-To integrate AEM/AEM Forms with third party applications, we need to [REST based data source using the swagger file](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-web-channel-tutorial/parttwo.html) in the cloud services configuration. The completed data source is provided to you as part of this course assets.
+To integrate AEM/AEM Forms with third party applications, we need to [REST based data source using the swagger file](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/ic-web-channel-tutorial/parttwo.html) in the cloud services configuration. The completed data source is provided to you as part of this course assets.
 
 ## Create Form Data Model
 
-AEM Forms data integration provides an intuitive user interface to create and work with [form data models](https://docs.adobe.com/content/help/en/experience-manager-65/forms/form-data-model/create-form-data-models.html). A form data model relies on data sources for exchange of data.
+AEM Forms data integration provides an intuitive user interface to create and work with [form data models](https://experienceleague.adobe.com/docs/experience-manager-65/forms/form-data-model/create-form-data-models.html). A form data model relies on data sources for exchange of data.
 The completed form data model can be [downloaded from here](assets/sms-2fa-fdm.zip)
 
 ![fdm](assets/2FA-fdm.PNG)

@@ -71,7 +71,7 @@ An AEM component is defined as a node and properties. In the project these nodes
 
 >[!NOTE]
 >
-> A quick refresher on the [basics of AEM components may be helpful](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/component-basics.html).
+> A quick refresher on the [basics of AEM components may be helpful](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/component-basics.html).
 
 1. In the IDE of your choice open the `ui.apps` folder.
 2. Navigate to `ui.apps/src/main/content/jcr_root/apps/wknd-spa-angular/components` and create a new folder named `custom-component`.
@@ -153,13 +153,13 @@ An AEM component is defined as a node and properties. In the project these nodes
     >
     > You can view a lot more [examples of dialogs by viewing the Core Component definitions](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components). You can also view additional form fields, like `select`, `textarea`, `pathfield`, available beneath `/libs/granite/ui/components/coral/foundation/form` in [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/libs/granite/ui/components/coral/foundation/form).
 
-    With a traditional AEM component, an [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) script is typically required. Since the SPA will render the component, no HTL script is needed.
+    With a traditional AEM component, an [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) script is typically required. Since the SPA will render the component, no HTL script is needed.
 
 ## Create the Sling Model
 
-Sling Models are annotation driven Java "POJO's" (Plain Old Java Objects) that facilitate the mapping of data from the JCR to Java variables. [Sling Models](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/component-basics.html#sling-models) typically function to encapsulate complex server-side business logic for AEM Components.
+Sling Models are annotation driven Java "POJO's" (Plain Old Java Objects) that facilitate the mapping of data from the JCR to Java variables. [Sling Models](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/component-basics.html#sling-models) typically function to encapsulate complex server-side business logic for AEM Components.
 
-In the context of the SPA Editor, Sling Models expose a component's content through the JSON model through a feature using the [Sling Model Exporter](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html).
+In the context of the SPA Editor, Sling Models expose a component's content through the JSON model through a feature using the [Sling Model Exporter](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html).
 
 1. In the IDE of your choice open the `core` module. `CustomComponent.java` and `CustomComponentImpl.java` have already been created and stubbed out as part of the chapter starter code.
 

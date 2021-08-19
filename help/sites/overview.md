@@ -33,11 +33,11 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
 <table>
 <tr>
   <td>
-    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
       <img alt="Getting Started with AEM Sites - WKND Tutorial" src="./assets/aem-wknd-tutorial.png" />
     </a>
     <div>
-      <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
+      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">
     <strong>Getting Started with AEM Sites</strong>
     </a>
     </div>
@@ -46,11 +46,11 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
     <p>
   </td>
   <td>
-    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html">
     <img alt="Getting Started with AEM Headless" src="./assets/aem-headless-tutorial.png" />
     </a>
     <div>
-    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html">
     <strong>Getting Started with AEM Headless</strong>
     </a>
     </div>
@@ -59,11 +59,11 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
     </p>
   </td>
   <td>
-    <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html">
       <img alt="Getting Started with AEM's SPA Editor" src="./assets/aem-wknd-spa-editor-tutorial.png" />
     </a>
      <div>
-      <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html">
+      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html">
         <strong>Getting Started with AEM's SPA Editor</strong>
       </a>
     </div>

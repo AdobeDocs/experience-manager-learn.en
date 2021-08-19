@@ -2,7 +2,6 @@
 title: Steps to resolve Memory related issues in AEM
 description: Steps to investigate and resolves issues related to memory
 type: Troubleshooting
-product: Sites
 role: Admin
 level: Intermediate
 version: 6.5, cloud-service

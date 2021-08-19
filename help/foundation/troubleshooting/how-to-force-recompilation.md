@@ -2,7 +2,6 @@
 title: How to force a recompilation of all Sling scripts jsps, java, and sightly
 description: Steps to force the recompilation of JSPs
 type: Troubleshooting
-product: Sites
 role: Admin
 level: Intermediate
 version: 6.5, cloud-service

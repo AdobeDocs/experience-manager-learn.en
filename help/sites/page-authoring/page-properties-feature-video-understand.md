@@ -56,6 +56,6 @@ In this video, the following page property elements are covered:
 
 ## Additional Resources {#additional-resources}
 
-* [Editing Page Properties Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-page-properties.html)
-* [Editing Page Content Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html)
-* [Sites Authoring User Guide](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/home.html?topic=/experience-manager/6-5/sites/authoring/morehelp/page-authoring.ug.js)
+* [Editing Page Properties Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-page-properties.html)
+* [Editing Page Content Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-content.html)
+* [Sites Authoring User Guide](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html&topic=/experience-manager/6-5/sites/authoring/morehelp/page-authoring.ug.js)

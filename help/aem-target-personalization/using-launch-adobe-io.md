@@ -80,7 +80,7 @@ A property is a container that you fill with extensions, rules, data elements, a
 
 #### Adding Target Extension
 
-The Adobe Target extension supports client-side implementations using Target JavaScript SDK for the modern web, `at.js`. Customers still using Target older library, `mbox.js`, [should upgrade to at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html) to use Launch.
+The Adobe Target extension supports client-side implementations using Target JavaScript SDK for the modern web, `at.js`. Customers still using Target older library, `mbox.js`, [should upgrade to at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html) to use Launch.
 
 The Target extension consists of two main parts:
 
@@ -130,7 +130,7 @@ The Target extension consists of two main parts:
 
 >[!NOTE]
 >
-> Grant the Adobe I/O integration the access to select workspaces with the appropriate [role to allow a central team to make API-driven changes in only a few workspaces](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/configure-adobe-io-integration.html).
+> Grant the Adobe I/O integration the access to select workspaces with the appropriate [role to allow a central team to make API-driven changes in only a few workspaces](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/configure-adobe-io-integration.html).
 
 1. Create IMS integration in AEM using credentials from Adobe I/O. (01:12 to 03:55)
 2. In Experience Platform Launch, create a property. (covered [above](#create-launch-property))

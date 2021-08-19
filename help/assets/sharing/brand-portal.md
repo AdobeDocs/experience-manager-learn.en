@@ -24,7 +24,7 @@ Brand Portal's Asset Sourcing is used to collect assets from third-party agencie
 
 *Experience Manager Author 6.5 SP2 (6.5.2) or greater is required to use Asset Sourcing*
 
-Review [Enable Experience Manager Author for Asset Sourcing](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-asset-sourcing-in-aem/brand-portal-enable-asset-sourcing.html) for instructions on how to configure and set up Asset Sourcing on Experience Manager Author.
+Review [Enable Experience Manager Author for Asset Sourcing](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-asset-sourcing-in-aem/brand-portal-enable-asset-sourcing.html) for instructions on how to configure and set up Asset Sourcing on Experience Manager Author.
 
 ## Brand Portal February 2019 Feature and Enhancements{#brand-portal-features-and-enhancements-644}
 
@@ -200,6 +200,6 @@ New features enhanced functionality oriented toward aligning Brand Portal with A
 * [AEM Author replication agents](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 * [Guide to Accelerated Download](https://helpx.adobe.com/experience-manager/brand-portal/using/accelerated-download.html#main-pars_header)
 * [AEM Assets Brand Portal Adobe Docs](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html)
-* [AEM Assets Dynamic Media Adobe Docs](https://docs.adobe.com/docs/en/aem/6-3/author/assets/dynamic-media.html)
+* [AEM Assets Dynamic Media Adobe Docs](https://experienceleague.adobe.com/docs/)
 * [Download Aspera Connect](https://downloads.asperasoft.com/connect2/)
 * [Aspera Connect Test Server](https://test-connect.asperasoft.com/)

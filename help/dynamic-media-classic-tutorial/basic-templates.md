@@ -60,8 +60,8 @@ Because Basic Templates are typically designed in Photoshop but deployed via a U
 
 Template projects can be relatively simple or extremely complex depending on the business rules and needs of the application. Basic Templates are called from the Image Server, however due to the flexibility of the Dynamic Media Classic environment, you can even nest templates inside other templates, allowing you to create fairly complex images that can be linked by commonly named variables.
 
-- Learn more about [Template Basics](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/template-basics/quick-start-template-basics.html).
-- Learn how to create a [Basic Template](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/template-basics/creating-template.html#creating_a_template).
+- Learn more about [Template Basics](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics.html).
+- Learn how to create a [Basic Template](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/template-basics/creating-template.html#creating_a_template).
 
 ## Creating a Basic Template
 
@@ -183,7 +183,7 @@ To add an effect, click **Add Effect**, and choose an effect from the menu. Like
 
 Shadow effects are offset horizontally or vertically away from the layer, whereas Glow effects are applied evenly in all directions. Inner effects act on top of the opaque portions of the layer, whereas Outer effects only affect the transparent areas.
 
-Learn more about[Adding Layer Effects](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/template-basics/creating-template.html#using-shadow-and-glow-effects-on-layers).
+Learn more about[Adding Layer Effects](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/template-basics/creating-template.html#using-shadow-and-glow-effects-on-layers).
 
 ### Adding Parameters
 
@@ -220,7 +220,7 @@ This is the workflow for creating parameters:
 >
 >Can't add a parameter because you don't see the property? Just change the property of the layer from its default (by moving, resizing, hiding, etc.). You should now see that property exposed.
 
-Learn more about [Template Parameters](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/template-basics/creating-template-parameters.html).
+Learn more about [Template Parameters](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/template-basics/creating-template-parameters.html).
 
 ## Creating a Template with Text Layers
 
@@ -309,7 +309,7 @@ You can see the phrase Chocolate Mint Sandal — that is the text itself.
 - You can see an RGB value: \red56\green53\blue4 — this is the text color.
 - Although the font size of 20, you don't see the number 20. However, you do see a command \fs40 — for some odd reason, RTF measures fonts as half-points. Thus \fs40 is the font size!
 
-You have enough information to create your parameters, however there is a complete reference of all the RTF commands in the Image Serving documentation. Visit the [Image Serving Documentation](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/c-text-formatting.html#concept-0d3136db7f6f49668274541cd4b6364c).
+You have enough information to create your parameters, however there is a complete reference of all the RTF commands in the Image Serving documentation. Visit the [Image Serving Documentation](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/c-text-formatting.html#concept-0d3136db7f6f49668274541cd4b6364c).
 
 #### Adding Parameters to Text Layers
 
@@ -327,7 +327,7 @@ Here are the steps to add parameters to text layers.
 >
 >To add parameters to the text color, separately add parameters for red, green, and blue. For example, if the RTF is `\red56\green53\blue46`, you would add separate red, green, and blue parameters for the values 56, 53, and 46. In the URL, you would change the color by calling all three: `&$red=56&$green=53&$blue=46`.
 
-Learn how to [Create Dynamic Text Parameters](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/template-basics/creating-template-parameters.html#creating-dynamic-text-parameters).
+Learn how to [Create Dynamic Text Parameters](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/template-basics/creating-template-parameters.html#creating-dynamic-text-parameters).
 
 ## Publishing and Creating Template URLs
 
@@ -341,7 +341,7 @@ There is nothing special about an Image Preset for a template. If you already ha
 
 You will need to run a publish to see your changes pushed live to the Image Server. Keep in mind what needs to get published: the various image asset layers, the fonts for dynamic text, and the template itself. Similar to other Dynamic Media Classic rich media assets like Image Sets and Spin Sets, a Basic Template is an artificial construction — it is a line item in the database that references the images and fonts using a series of Image Serving commands. So when you publish the template, all you are doing is updating data on the Image Server.
 
-Learn more about [Publishing Your Template](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/template-basics/publishing-templates.html).
+Learn more about [Publishing Your Template](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/template-basics/publishing-templates.html).
 
 ### Template URL Construction
 

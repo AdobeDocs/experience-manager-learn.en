@@ -2,7 +2,6 @@
 title: How to enable asset download report
 description: Steps to enable the asset download report
 type: Troubleshooting
-product: Assets
 role: Admin
 level: Beginner
 version: 6.5, cloud-service

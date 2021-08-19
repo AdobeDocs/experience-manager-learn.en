@@ -2,11 +2,7 @@
 title: Image, Swatch, Spin, and Mixed Media Sets
 description: One of the most useful and powerful abilities of Dynamic Media Classic is its support for creating rich media sets like Image, Swatch, Spin, and Mixed Media Sets. Learn what each rich media set is and how to create each type in Dynamic Media Classic. Then learn more about Batch Set Presets, which automate the process of rich media set creation upon upload.
 sub-product: dynamic-media
-feature: Dynamic Media Classic, Image Sets, Mix Media Sets, Spin Sets
-doc-type: tutorial
-topics: sets, development, authoring, configuring
-audience: all
-activity: use
+feature: Dynamic Media Classic, Image Sets, Mixed Media Sets, Spin Sets
 topic: Content Management
 role: User
 level: Beginner
@@ -45,8 +41,8 @@ The URL for the above Image Set could appear as:
 
 ![image](assets/media-sets/image-set-url-1.png)
 
-- Learn more about Image Sets with the [Quick Start to Image Sets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/image-sets/quick-start-image-sets.html).
-- Learn how to [Create an Image Set](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/image-sets/creating-image-set.html#creating-an-image-set).
+- Learn more about Image Sets with the [Quick Start to Image Sets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sets/quick-start-image-sets.html).
+- Learn how to [Create an Image Set](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sets/creating-image-set.html#creating-an-image-set).
 
 ### Swatch Set
 
@@ -64,8 +60,8 @@ The URL for the above Swatch Set could appear as:
 
 ![image](assets/media-sets/image-set_url.png)
 
-- Learn more about Swatch Sets with the [Quick Start to Swatch Sets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/swatch-sets/quick-start-swatch-sets.html).
-- Learn how to [Create a Swatch Set](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/swatch-sets/creating-swatch-set.html#creating-a-swatch-set).
+- Learn more about Swatch Sets with the [Quick Start to Swatch Sets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/swatch-sets/quick-start-swatch-sets.html).
+- Learn how to [Create a Swatch Set](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/swatch-sets/creating-swatch-set.html#creating-a-swatch-set).
 
 ### Spin Set
 
@@ -81,8 +77,8 @@ The URL for the above Spin Set could appear as:
 
 ![image](assets/media-sets/spin-set.png)
 
-- Learn more about Spin Sets with the [Quick Start to Spin Sets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/spin-sets/quick-start-spin-sets.html).
-- Learn how to [Create a Spin Set](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/spin-sets/creating-spin-set.html#creating-a-spin-set).
+- Learn more about Spin Sets with the [Quick Start to Spin Sets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/spin-sets/quick-start-spin-sets.html).
+- Learn how to [Create a Spin Set](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/spin-sets/creating-spin-set.html#creating-a-spin-set).
 
 ## Mixed Media Set
 
@@ -96,13 +92,13 @@ The URL for the above Mixed Media Set could appear as:
 
 ![image](assets/media-sets/image-set-url-1.png)
 
-- Learn more about Mixed Media Sets with the [Quick Start to Mixed Media Sets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/mixed-media-sets/quick-start-mixed-media-sets.html).
+- Learn more about Mixed Media Sets with the [Quick Start to Mixed Media Sets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/mixed-media-sets/quick-start-mixed-media-sets.html).
 
-- Learn how to [Create a Mixed Media Set](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/mixed-media-sets/creating-mixed-media-set.html#creating-a-mixed-media-set).
+- Learn how to [Create a Mixed Media Set](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/mixed-media-sets/creating-mixed-media-set.html#creating-a-mixed-media-set).
 
 To display an image for zoom, a set, or a video on your website, you call it in a Dynamic Media Classic "viewer." Dynamic Media Classic includes viewers for rich media assets such as Swatch Sets, Spin Sets, video, and many others.
 
-Learn more about [Viewers for AEM Assets and Dynamic Media Classic](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/c-html5-s7-aem-asset-viewers.html).
+Learn more about [Viewers for AEM Assets and Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/c-html5-s7-aem-asset-viewers.html).
 
 ## Batch Set Presets
 
@@ -121,7 +117,7 @@ Batch Set Presets are applied only at upload; they cannot be run after the image
 
 Once the presets have been created, the Company Administrator can choose whether they are active or inactive. Active means they will appear on the upload page under **Job Options**, whereas inactive presets will remain hidden.
 
-Learn how to [Create a Batch Set Preset](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/setup/application-setup.html#creating-a-batch-set-preset).
+Learn how to [Create a Batch Set Preset](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/setup/application-setup.html#creating-a-batch-set-preset).
 
 ### Using Batch Set Presets on Upload
 
@@ -132,4 +128,4 @@ Here is how you use Batch Set Presets on upload after they have been created:
 3. Open the **Batch Set Presets** option, and check or uncheck the preset to use it with the upload.
 4. After the upload is done, look in your folder for the finished sets.
 
-Learn more about [Batch Set Presets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/setup/application-setup.html#batch-set-presets).
+Learn more about [Batch Set Presets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/setup/application-setup.html#batch-set-presets).

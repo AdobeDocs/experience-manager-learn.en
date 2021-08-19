@@ -21,4 +21,4 @@ An introduction to common tools and techniques used to debug a Launch implementa
 
 ## Additional Resources {#additional-resources}
 
-* [Introduction to the Adobe Experience Platform Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)
+* [Introduction to the Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-platform-debugger/introduction-to-the-experience-platform-debugger.html)

@@ -2,7 +2,6 @@
 title: How to investigate SAML related issues in AEM
 description: Steps to investigate issues related to SAML
 type: Troubleshooting
-product: Sites
 role: Admin
 level: Intermediate
 version: 6.5, cloud-service

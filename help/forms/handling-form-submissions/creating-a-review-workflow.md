@@ -21,7 +21,7 @@ Workflows are typically used to route submitted data for review and approval. Wo
 
 ## Prerequisite
 
-Please make sure you have a working instance of AEM Forms. Please follow the [installation guide](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html) to install and configure AEM Forms
+Please make sure you have a working instance of AEM Forms. Please follow the [installation guide](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html) to install and configure AEM Forms
 
 The following video explains the creation of Review and Approval workflow using AEM Forms Components
 >[!VIDEO](https://video.tv.adobe.com/v/40242/?quality=9&learn=on)

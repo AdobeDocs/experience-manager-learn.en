@@ -287,4 +287,4 @@ AH00016: Configuration Failed
 + [Adobe Cloud Manager](https://my.cloudmanager.adobe.com/)
 + [Download Docker](https://www.docker.com/)
 + [Download the AEM Reference Website (WKND)](https://github.com/adobe/aem-guides-wknd/releases)
-+ [Experience Manager Dispatcher Documentation](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html)
++ [Experience Manager Dispatcher Documentation](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html)

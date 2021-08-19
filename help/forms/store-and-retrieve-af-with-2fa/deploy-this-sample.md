@@ -42,7 +42,7 @@ Create a developer account with [Nexmo](https://dashboard.nexmo.com/) for sendin
 ## Deploy the following OSGi bundles
 
 Deploy the bundle which has the [code to store and fetch data from database](assets/FetchPartiallyCompletedForm.PartiallyCompletedForm.core-1.0-SNAPSHOT.jar)
-Deploy the [DevelopingWithServiceUser Bundle](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar). 
+Deploy the [DevelopingWithServiceUser Bundle](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar). 
 
 ## Deploy the client library
 

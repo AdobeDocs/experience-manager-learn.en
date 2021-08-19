@@ -4,6 +4,7 @@ description: Learn about the basics of developing an OSGi service
 role: Developer
 level: Beginner
 topic: Development
+feature: OSGI
 kt: 8227
 thumbnail: 335476.jpeg
 ---

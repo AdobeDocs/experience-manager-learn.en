@@ -10,7 +10,7 @@ index: y
 + [AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html)
 + [AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/overview.html)
 + [AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/overview.html)
-+ [AEM as Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html)
++ [AEM as Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/overview.html)
 + [AEM Foundation](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/overview.html)
 + Multistep Tutorials {#multi}
   + [Getting Started with AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)

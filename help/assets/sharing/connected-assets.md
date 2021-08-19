@@ -19,4 +19,4 @@ The Connected Assets feature allows an AEM Sites author to seamlessly share digi
 * 03:30 — Using an image from the Connected Assets 
 * 04:42 — Administrator configurations to enable Connected Assets feature
 
-Please review the [supported deployments for Connected Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/use-assets-across-connected-assets-instances.html#prerequisites) to understand if your AEM deployment can support Connected Assets.
+Please review the [supported deployments for Connected Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/use-assets-across-connected-assets-instances.html#prerequisites) to understand if your AEM deployment can support Connected Assets.

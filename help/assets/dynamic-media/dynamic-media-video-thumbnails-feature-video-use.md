@@ -21,4 +21,4 @@ AEM Assets custom video thumbnails provide authors with the ability to select an
 
 >[!NOTE]
 >
->You should run your [AEM instance in Dynamic Media](https://docs.adobe.com/docs/en/aem/6-3/administer/content/dynamic-media/config-dynamic.html) mode
+>You should run your [AEM instance in Dynamic Media](https://experienceleague.adobe.com/docs/) mode

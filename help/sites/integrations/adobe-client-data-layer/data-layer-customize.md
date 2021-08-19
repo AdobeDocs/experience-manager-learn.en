@@ -1,17 +1,13 @@
 ---
 title:  Customize the Adobe Client Data Layer with AEM Components
 description: Learn how to customize the Adobe Client Data Layer with content from custom AEM Components. Learn how to use APIs provided by AEM Core Components to extend and customize the data layer.
-feature: Adobe Client Data Layer, Core Component
-topics: integrations
-audience: developer
-doc-type: tutorial
-activity: use
 version: cloud-service
-kt: 6265
-thumbnail: KT-6265.jpg
 topic: Integrations
+feature: Adobe Client Data Layer, Core Components
 role: Developer
 level: Intermediate, Experienced
+kt: 6265
+thumbnail: KT-6265.jpg
 ---
 
 # Customize the Adobe Client Data Layer with AEM Components {#customize-data-layer}
@@ -34,9 +30,9 @@ In this tutorial you will explore various options for extending the Adobe Client
 
 A **local development environment** is necessary to complete this tutorial. Screenshots and video are captured using the AEM as a Cloud Service SDK running on a macOS. Commands and code are independent of the local operating system unless otherwise noted.
 
-**New to AEM as a Cloud Service?** Check out the [following guide to setting up a local development environment using the AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html).
+**New to AEM as a Cloud Service?** Check out the [following guide to setting up a local development environment using the AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html).
 
-**New to AEM 6.5?** Check out the [following guide to setting up a local development environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+**New to AEM 6.5?** Check out the [following guide to setting up a local development environment](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 ## Download and deploy the WKND Reference site {#set-up-wknd-site}
 
@@ -432,4 +428,4 @@ You just explored a few ways to extend and customize the Adobe Client Data Layer
 
 * [Adobe Client Data Layer Documentation](https://github.com/adobe/adobe-client-data-layer/wiki)
 * [Data Layer Integration with the Core Components](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md)
-* [Using the Adobe Client Data Layer and Core Components Documentation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html)
+* [Using the Adobe Client Data Layer and Core Components Documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html)

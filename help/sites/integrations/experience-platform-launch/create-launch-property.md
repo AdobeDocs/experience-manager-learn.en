@@ -25,4 +25,4 @@ Learn how to create a Launch property with the bare-minimum configuration needed
 
 ## Additional Resources {#additional-resources}
 
-* [Create a Launch Property](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html)
+* [Create a Launch Property](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/configure-launch/launch.html)

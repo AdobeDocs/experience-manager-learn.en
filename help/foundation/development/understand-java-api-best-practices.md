@@ -94,7 +94,7 @@ The preferred API is [AEM Query Builder](https://helpx.adobe.com/experience-mana
 * [OOTB predicates](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/querybuilder-predicate-reference.html) supporting common query requirements  
 
 * Extensible API, allowing for the development of custom [query predicates](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/implementing-custom-predicate-evaluator.html)
-* JCR-SQL2 and XPath can be executed directly via [[!DNL Sling]](https://sling.apache.org/apidocs/sling10/org/apache/sling/api/resource/ResourceResolver.html#findResources-java.lang.String-java.lang.String-) and [JCR APIs](https://docs.adobe.com/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/query/package-summary.html), returning results a [[!DNL Sling] Resources](https://sling.apache.org/apidocs/sling10/org/apache/sling/api/resource/Resource.html) or [JCR Nodes](https://docs.adobe.com/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html), respectively.
+* JCR-SQL2 and XPath can be executed directly via [[!DNL Sling]](https://sling.apache.org/apidocs/sling10/org/apache/sling/api/resource/ResourceResolver.html#findResources-java.lang.String-java.lang.String-) and [JCR APIs](https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/query/package-summary.html), returning results a [[!DNL Sling] Resources](https://sling.apache.org/apidocs/sling10/org/apache/sling/api/resource/Resource.html) or [JCR Nodes](https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html), respectively.
 
 >[!CAUTION]
 >
@@ -131,9 +131,9 @@ The preferred API is [AEM Query Builder](https://helpx.adobe.com/experience-mana
 
 ## JCR APIs
 
-* **[JCR 2.0 JavaDocs](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0/index.html)**
+* **[JCR 2.0 JavaDocs](https://docs.adobe.com/content/docs/en/spec/javax.jcr/javadocs/jcr-2.0/index.html)**
 
-The [JCR (Java Content Repository) 2.0 APIs](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0/index.html) is part of a specification for JCR implementations (in the case of AEM, [Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/)). All JCR implementation must conform to and implement these APIs, and thus, is the lowest level API for interacting with AEM's content.
+The [JCR (Java Content Repository) 2.0 APIs](https://docs.adobe.com/content/docs/en/spec/javax.jcr/javadocs/jcr-2.0/index.html) is part of a specification for JCR implementations (in the case of AEM, [Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/)). All JCR implementation must conform to and implement these APIs, and thus, is the lowest level API for interacting with AEM's content.
 
 The JCR itself is a hierarchical/tree-based NoSQL datastore AEM uses as its content repository. The JCR has a vast array of supported APIs, ranging from content CRUD to querying content. Despite this robust API, it is rare  they're preferred  over the higher level AEM and [!DNL Sling] abstractions.
 

@@ -39,7 +39,7 @@ In this guide we'll discuss the following core capabilities of Dynamic Media Cla
 - **Video.** Upload final videos, publish them, and progressively download them into configurable video viewers.
 - **Smart Imaging.** Technology that leverages Adobe Sensei AI capabilities and works with existing "Image Presets" to enhance image delivery performance by automatically optimizing image format, size, and quality based on client browser capabilities.
 
-To discover additional capabilities of the solution, visit the [Documentation for Dynamic Media Classic](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/intro/introduction.html).
+To discover additional capabilities of the solution, visit the [Documentation for Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/introduction.html).
 
 ## The Dynamic Media Classic User Interface (UI)
 
@@ -69,4 +69,4 @@ _Dynamic Media Classic UI_
 >
 >Select the **Publish After Uploading** checkbox in the Upload dialog to automatically publish assets upon upload.
 
-Learn more about [Navigating the UI of Dynamic Media Classic](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/getting-started/navigation-basics.html).
+Learn more about [Navigating the UI of Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/navigation-basics.html).

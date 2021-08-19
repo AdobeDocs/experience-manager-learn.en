@@ -30,4 +30,4 @@ AEM Core Components are a standard set components to be used with Adobe Experien
 
 * [GitHub Project](https://github.com/adobe/aem-core-wcm-components)
 * [Core Component Examples](https://www.aemcomponents.dev/)
-* [Core Component Documentation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
+* [Core Component Documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)

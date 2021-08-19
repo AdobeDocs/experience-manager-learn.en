@@ -1,6 +1,5 @@
 ---
-sub-product: forms
-audience: developer
+feature-set: Experience Manager Forms
 user-guide-title: AEM Forms Videos and Tutorials
 user-guide-description: Collection of AEM Forms resources for beginners and experienced AEM Forms developers.
 breadcrumb-title: AEM Forms Tutorials

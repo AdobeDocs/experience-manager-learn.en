@@ -126,7 +126,7 @@ Since we will be primarily copying/configuring nodes we will use CRXDE Lite. In 
     1. Add a new **nt:unstructured** node beneath authoring-project/gadgets called **tasks**. 
     1. Add String properties to the tasks node for **cardWeight** = "100", **jcr:title**="Tasks", and **sling:resourceType**="cq/gui/components/projects/admin/pod/taskpod".
 
-   Now the [Tasks tile](https://docs.adobe.com/docs/en/aem/6-3/author/projects.html#Tasks) will show up by default when a new project is created.
+   Now the [Tasks tile](https://experienceleague.adobe.com/docs/#Tasks) will show up by default when a new project is created.
 
    ```shell
    ../projects/templates/authoring-project
@@ -628,13 +628,13 @@ Creating a custom wizard can be very powerful as you can collect critical inform
 
 1. In CRXDE-Lite we will create a sub-folder beneath `/apps/aem-guides/projects-tasks/projects` folder called "wizards". Copy the default wizard from: `/libs/cq/core/content/projects/workflowwizards/default_workflow` beneath the newly created wizards folder and rename it to **content-approval-start**. The full path should now be: `/apps/aem-guides/projects-tasks/projects/wizards/content-approval-start`.
 
-   The default wizard is a 2-column wizard with the first column showing Title, Description and Thumbnail of the workflow model selected. The second column includes fields for the Workflow Title, Start Comment and Payload Path. The wizard is a standard Touch UI form and makes use of standard [Granite UI Form components](https://docs.adobe.com/docs/en/aem/6-5/develop/ref/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/form/index.html) to populate the fields.
+   The default wizard is a 2-column wizard with the first column showing Title, Description and Thumbnail of the workflow model selected. The second column includes fields for the Workflow Title, Start Comment and Payload Path. The wizard is a standard Touch UI form and makes use of standard [Granite UI Form components](https://experienceleague.adobe.com/docs/) to populate the fields.
 
    ![content approval workflow wizard](./assets/develop-aem-projects/content-approval-start-wizard.png)
 
 1. We will add an additional field to the wizard that will be used to set the assignee of the first task in the workflow (see [Create the Workflow Model](#create-workflow-model): Step 5).
 
-   Beneath `../content-approval-start/jcr:content/items/column2/items` create a new node of type `nt:unstructured` named **"assign"**. We will use the Projects User Picker component (which is based off of the [Granite User Picker Component](https://docs.adobe.com/docs/en/aem/6-5/develop/ref/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/form/userpicker/index.html)). This form field makes it easy to restrict the user and group selection to only those belonging to the current project.
+   Beneath `../content-approval-start/jcr:content/items/column2/items` create a new node of type `nt:unstructured` named **"assign"**. We will use the Projects User Picker component (which is based off of the [Granite User Picker Component](https://experienceleague.adobe.com/docs/)). This form field makes it easy to restrict the user and group selection to only those belonging to the current project.
 
    Below is the XML representation of the **assign** node:
 
@@ -654,7 +654,7 @@ Creating a custom wizard can be very powerful as you can collect critical inform
 
 1. We will also add a priority selection field that will determine the priority of the first task in the workflow (see [Create the Workflow Model](#create-workflow-model): Step 5).
 
-   Beneath `/content-approval-start/jcr:content/items/column2/items` create a new node of type `nt:unstructured` named **priority**. We will use the [Granite UI Select component](https://docs.adobe.com/docs/en/aem/6-2/develop/ref/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/form/select/index.html) to populate the form field.
+   Beneath `/content-approval-start/jcr:content/items/column2/items` create a new node of type `nt:unstructured` named **priority**. We will use the [Granite UI Select component](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) to populate the form field.
 
    Beneath the **priority** node we will add an **items** node of **nt:unstructured**. Beneath the **items** node add 3 more nodes to populate the selection options for High, Medium, and Low. Each node is of type **nt:unstructured** and should have a **text** and **value** property. Both the text and value should be the same value:
 
@@ -690,7 +690,7 @@ Creating a custom wizard can be very powerful as you can collect critical inform
    </priority>
    ```
 
-1. We will allow the workflow initiator to set the due date of the initial task. We will use the [Granite UI DatePicker](https://docs.adobe.com/docs/en/aem/6-5/develop/ref/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/form/datepicker/index.html) form field to capture this input. We will also add a hidden field with a [TypeHint](https://sling.apache.org/documentation/bundles/manipulating-content-the-slingpostservlet-servlets-post.html#typehint) to ensure that the input is stored as a Date type property in the JCR.
+1. We will allow the workflow initiator to set the due date of the initial task. We will use the [Granite UI DatePicker](https://experienceleague.adobe.com/docs/) form field to capture this input. We will also add a hidden field with a [TypeHint](https://sling.apache.org/documentation/bundles/manipulating-content-the-slingpostservlet-servlets-post.html#typehint) to ensure that the input is stored as a Date type property in the JCR.
 
    Add two **nt:unstructured** nodes with the following properties represented below in XML:
 

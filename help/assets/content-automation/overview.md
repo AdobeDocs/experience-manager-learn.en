@@ -4,7 +4,7 @@ description: Apply Photoshop and Lightroom capabilities with Adobe Experience Ma
 version: cloud-service
 topic: Content Management
 feature: Asset Processing, Renditions
-role:  Leader, Architect, Developer, Administrator, Business Practitioner
+role:  Leader, Architect, Developer, Admin, User
 level: Beginner
 kt: 7803
 thumbnail: 333197.jpeg

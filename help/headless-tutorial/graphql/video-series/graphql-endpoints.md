@@ -1,10 +1,9 @@
 ---
 title: GraphQL Endpoints
 description: Learn how to enable, execute queries against, and publish and secure GraphQL endpoints. 
-sub-product: assets
 version: cloud-service
 topic: Headless, Content Management
-feature: Content Fragments, GraphQL APIs
+feature: Content Fragments, GraphQL API
 role: Developer
 level: Beginner
 kt: 7875

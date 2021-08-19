@@ -4,6 +4,7 @@ description: Learn the basics of OSGi configuration properties and how to use th
 role: Developer
 level: Beginner
 topic: Development
+feature: OSGI
 kt: 8268
 thumbnail: 335729.jpeg
 ---

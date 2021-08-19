@@ -24,4 +24,4 @@ Adobe Experience Manager Sites allows an author to manage the width of a compone
 
 ## Additional Resources {#additional-resources}
 
-* [Responsive Layout Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/responsive-layout.html)
+* [Responsive Layout Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/responsive-layout.html)

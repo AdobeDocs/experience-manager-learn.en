@@ -1,22 +1,18 @@
 ---
 title:  Collect page data with Adobe Analytics
 description: Use the event-driven Adobe Client Data layer to collect data about user activity on a web site built with Adobe Experience Manager. Learn how to use rules in Experience Platform Launch to listen for these events and send data to an Adobe Analytics report suite.
-feature: analytics
-topics: integrations
-audience: administrator
-doc-type: tutorial
-activity: setup
 version: cloud-service
-kt: 5332
-thumbnail: 5332-collect-data-analytics.jpg
 topic: Integrations
+feature: Adobe Client Data Layer
 role: Developer
 level: Intermediate
+kt: 5332
+thumbnail: 5332-collect-data-analytics.jpg
 ---
 
 # Collect page data with Adobe Analytics
 
-Learn to use the built-in features of the [Adobe Client Data Layer with AEM Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html) to collect data about a page in Adobe Experience Manager Sites. [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) and the [Adobe Analytics extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) will be used to create rules to send page data to Adobe Analytics.
+Learn to use the built-in features of the [Adobe Client Data Layer with AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html) to collect data about a page in Adobe Experience Manager Sites. [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) and the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) will be used to create rules to send page data to Adobe Analytics.
 
 ## What you will build
 
@@ -35,9 +31,9 @@ In this tutorial you will trigger a Launch rule based on an event from the Adobe
 The following are required:
 
 * **Experience Platform Launch** Property
-* **Adobe Analytics** test/dev report suite ID and tracking server. See the following documentation for [creating a new report suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html).
-* [Experience Platform Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html) browser extension. Screenshots in this tutorial captured from the Chrome browser.
-* (Optional) AEM Site with the [Adobe Client Data Layer enabled](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation). This tutorial will use the public facing site [https://wknd.site/us/en.html](https://wknd.site/us/en.html) but you are welcome to use your own site.
+* **Adobe Analytics** test/dev report suite ID and tracking server. See the following documentation for [creating a new report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html).
+* [Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-platform-debugger/introduction-to-the-experience-platform-debugger.html) browser extension. Screenshots in this tutorial captured from the Chrome browser.
+* (Optional) AEM Site with the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation). This tutorial will use the public facing site [https://wknd.site/us/en.html](https://wknd.site/us/en.html) but you are welcome to use your own site.
 
 >[!NOTE]
 >
@@ -45,12 +41,12 @@ The following are required:
 
 ## Switch Launch Environments for WKND Site
 
-[https://wknd.site](https://wknd.site) is a public facing site built based on [an open source project](https://github.com/adobe/aem-guides-wknd) designed as a reference and [tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for AEM implementations. 
+[https://wknd.site](https://wknd.site) is a public facing site built based on [an open source project](https://github.com/adobe/aem-guides-wknd) designed as a reference and [tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for AEM implementations. 
 
-Instead of setting up an AEM environment and installing the WKND code base, you can use the Experience Platform debugger to **switch** the live [https://wknd.site/](https://wknd.site/) to *your* Launch Property. Of course you can use your own AEM site if it already has the [Adobe Client Data Layer enabled](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation)
+Instead of setting up an AEM environment and installing the WKND code base, you can use the Experience Platform debugger to **switch** the live [https://wknd.site/](https://wknd.site/) to *your* Launch Property. Of course you can use your own AEM site if it already has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation)
 
-1. Login to Experience Platform Launch and [create a Launch Property](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html) (if you haven't already).
-1. Ensure that an initial Launch [Library has been created](https://docs.adobe.com/content/help/en/launch/using/reference/publish/libraries.html#create-a-library) and promoted to a Launch [environment](https://docs.adobe.com/content/help/en/launch/using/reference/publish/environments.html).
+1. Login to Experience Platform Launch and [create a Launch Property](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/configure-launch/launch.html) (if you haven't already).
+1. Ensure that an initial Launch [Library has been created](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library) and promoted to a Launch [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments.html).
 1. Copy the Launch embed code from the environment that your Library has been published to.
 
    ![Copy Launch Embed Code](assets/collect-data-analytics/launch-environment-copy.png)
@@ -70,7 +66,7 @@ Instead of setting up an AEM environment and installing the WKND code base, you 
 
 ## Verify Adobe Client Data Layer on WKND Site
 
-The [WKND Reference project](https://github.com/adobe/aem-guides-wknd) is built with AEM Core Components and has the [Adobe Client Data Layer enabled](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation) by default. Next, verify the Adobe Client Data Layer is enabled.
+The [WKND Reference project](https://github.com/adobe/aem-guides-wknd) is built with AEM Core Components and has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation) by default. Next, verify the Adobe Client Data Layer is enabled.
 
 1. Navigate to [https://wknd.site](https://wknd.site).
 1. Open the browser's developer tools and navigate to the **Console**. Run the following command:
@@ -97,11 +93,11 @@ The [WKND Reference project](https://github.com/adobe/aem-guides-wknd) is built 
         xdm:template: "/conf/wknd/settings/wcm/templates/landing-page-template"
     ```
 
-    We will use standard properties derived from the [Page schema](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#page),  `dc:title`, `xdm:language` and `xdm:template` of the data layer to send page data to Adobe Analytics.
+    We will use standard properties derived from the [Page schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#page),  `dc:title`, `xdm:language` and `xdm:template` of the data layer to send page data to Adobe Analytics.
 
     >[!NOTE]
     >
-    > Don't see the `adobeDataLayer` javascript object? Ensure that the [Adobe Client Data Layer has been enabled](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation) on your site.
+    > Don't see the `adobeDataLayer` javascript object? Ensure that the [Adobe Client Data Layer has been enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation) on your site.
 
 ## Create a Page Loaded rule
 
@@ -168,13 +164,13 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Pa
    console.debug("Page template: " + event.component['xdm:template']);
    ```
 
-   The `event` object is passed from the `trigger()` method called in the custom event. `component` is the current page derived from the data layer `getState` in the the custom event. Recall from earlier the [Page schema](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#page) exposed by the data layer in order to see the various keys exposed out of the box.
+   The `event` object is passed from the `trigger()` method called in the custom event. `component` is the current page derived from the data layer `getState` in the the custom event. Recall from earlier the [Page schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#page) exposed by the data layer in order to see the various keys exposed out of the box.
 
-1. Save the changes and run a [build](https://docs.adobe.com/content/help/en/launch/using/reference/publish/builds.html) in Launch to promote the code to the [environment](https://docs.adobe.com/content/help/en/launch/using/reference/publish/environments.html) used on your AEM Site.
+1. Save the changes and run a [build](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/builds.html) in Launch to promote the code to the [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments.html) used on your AEM Site.
 
    >[!NOTE]
    >
-   > It can be very useful to use the [Adobe Experience Platform Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html) to switch the embed code to a **Development** environment.
+   > It can be very useful to use the [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-platform-debugger/introduction-to-the-experience-platform-debugger.html) to switch the embed code to a **Development** environment.
 
 1. Navigate to your AEM site and open the developer tools to view the console. Refresh the page and you should see that the console messages have been logged:
 
@@ -184,7 +180,7 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Pa
 
 Next create several Data Elements to capture different values from the Adobe Client Data Layer. As seen in the previous exercise we have seen it is possible to access the properties of the data layer directly through custom code. The advantage of using Data Elements is that they can be re-used across Launch rules.
 
-Recall from earlier the [Page schema](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#page) exposed by the data layer:
+Recall from earlier the [Page schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#page) exposed by the data layer:
 
 Data elements will be mapped to the `@type`, `dc:title`, and `xdm:template` properties.
 

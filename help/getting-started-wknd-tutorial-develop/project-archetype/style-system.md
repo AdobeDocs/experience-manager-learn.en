@@ -63,7 +63,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 
 ## What you will build {#what-you-will-build}
 
-In this chapter we will use the [Style System feature](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) to create variations of the **Title** and **Text** components used on the Article page.
+In this chapter we will use the [Style System feature](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) to create variations of the **Title** and **Text** components used on the Article page.
 
 ![Styles available for Title](assets/style-system/styles-added-title.png)
 
@@ -71,7 +71,7 @@ In this chapter we will use the [Style System feature](https://docs.adobe.com/co
 
 ## Background {#background}
 
-The [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html) allows developers and template editors to create multiple visual variations of a component. Authors can then in turn decide which style to use when composing a page. We will leverage the Style System throughout the rest of the tutorial to achieve several unique styles, while leveraging Core Components in a low code approach.
+The [Style System](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/style-system.html) allows developers and template editors to create multiple visual variations of a component. Authors can then in turn decide which style to use when composing a page. We will leverage the Style System throughout the rest of the tutorial to achieve several unique styles, while leveraging Core Components in a low code approach.
 
 The general idea with the Style System is that authors can choose various styles of how a component should look. The "styles" are backed by additional CSS classes that are injected into the outer div of a component. In the client libraries CSS rules are added based on these style classes so that the component changes appearance.
 

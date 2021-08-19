@@ -179,9 +179,9 @@ Setting the most appropriate log level for each environment type is with AEM as 
 
 ### Environment specific variables to set Java log levels
 
-An alternative to setting static well-known Java log levels for each environment is to use AEM as Cloud Service's [environment specific variables](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#environment-specific-configuration-values) to parameterize log levels, allowing the values to be changed dynamically via the [Adobe I/O CLI with Cloud Manager plugin](#aio-cli).
+An alternative to setting static well-known Java log levels for each environment is to use AEM as Cloud Service's [environment specific variables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#environment-specific-configuration-values) to parameterize log levels, allowing the values to be changed dynamically via the [Adobe I/O CLI with Cloud Manager plugin](#aio-cli).
 
-This requires updating the logging OSGi configurations to use the environment specific variable placeholders. [Default values](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#default-values) for log levels should be set as per [Adobe recommendations](#log-levels). For example:
+This requires updating the logging OSGi configurations to use the environment specific variable placeholders. [Default values](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#default-values) for log levels should be set as per [Adobe recommendations](#log-levels). For example:
 
 `/apps/example/config/org.apache.sling.commons.log.LogManager.factory.config-example.cfg.json`
 
@@ -194,8 +194,8 @@ This requires updating the logging OSGi configurations to use the environment sp
 
 This approach has downsides that must be taken into account:
 
-+ [A limited number of environment variables are allowed](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#number-of-variables), and creating a variable to manage the log level will use one.
-+ Environment variables can only be managed programmatically via [Adobe I/O CLI](https://github.com/adobe/aio-cli-plugin-cloudmanager#aio-cloudmanagerset-environment-variables-environmentid) or [Cloud Manager HTTP APIs](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#cloud-manager-api-format-for-setting-properties).
++ [A limited number of environment variables are allowed](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#number-of-variables), and creating a variable to manage the log level will use one.
++ Environment variables can only be managed programmatically via [Adobe I/O CLI](https://github.com/adobe/aio-cli-plugin-cloudmanager#aio-cloudmanagerset-environment-variables-environmentid) or [Cloud Manager HTTP APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#cloud-manager-api-format-for-setting-properties).
 + Changes to environment variables must be manually reset by a supported tool. Forgetting to reset a high traffic environment, such as Production, to a less verbose log level may flood the logs and impact AEM's performance.
 
 _Environment specific variables do not work for Apache web server or Dispatcher log configurations as these are not configured via OSGi configuration._

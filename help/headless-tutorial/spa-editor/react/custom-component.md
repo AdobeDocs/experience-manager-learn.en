@@ -139,7 +139,7 @@ An AEM component is defined as a node and properties. In the project these nodes
     >
     > You can view a lot more [examples of dialogs by viewing the Core Component definitions](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components). You can also view additional form fields, like `select`, `textarea`, `pathfield`, available beneath `/libs/granite/ui/components/coral/foundation/form` in [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/libs/granite/ui/components/coral/foundation/form).
 
-    With a traditional AEM component, an [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) script is typically required. Since the SPA will render the component, no HTL script is needed.
+    With a traditional AEM component, an [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) script is typically required. Since the SPA will render the component, no HTL script is needed.
 
 ## Create the Sling Model
 

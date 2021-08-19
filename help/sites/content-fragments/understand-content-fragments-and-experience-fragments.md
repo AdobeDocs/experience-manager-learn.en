@@ -94,7 +94,7 @@ level: Beginner
 </td>
 </tr><tr><td><strong>Use</strong></td>
 <td><ul>
-<li><a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/content-fragment-component.html" target="_blank">AEM Core Components Content Fragment component</a> for use in AEM Sites, AEM Screens or in Experience Fragments.</li>
+<li><a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/content-fragment-component.html" target="_blank">AEM Core Components Content Fragment component</a> for use in AEM Sites, AEM Screens or in Experience Fragments.</li>
 <li>JSON export via <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/content-services-tutorial-use.html" target="_blank">AEM Content Services</a> for 3rd party consumption</li>
 <li>JSON via AEM HTTP Assets APIs for 3rd party consumption.</li>
 </ul>
@@ -165,7 +165,7 @@ The following diagram illustrates the overall architecture for AEM Content Fragm
 
 + [Content Fragments User Guide](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html?topic=/experience-manager/6-5/assets/morehelp/content-fragments.ug.js)
 + [Using Content Fragments in AEM](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-feature-video-use.html)
-+ [AEM WCM Core Components' Content Fragment component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/content-fragment-component.html)
++ [AEM WCM Core Components' Content Fragment component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/content-fragment-component.html)
 + [Using Content Fragments and AEM Content Services](https://helpx.adobe.com/experience-manager/kt/sites/using/structured-fragments-content-services-feature-video-use.html)
 + [Getting Started with AEM Content Services](https://helpx.adobe.com/experience-manager/kt/sites/using/content-services-tutorial-use.html)
 

@@ -23,4 +23,4 @@ The AEM Project contain all of the code and configurations for an implementation
 ## Additional Resources {#additional-resources}
 
 * [GitHub Project](https://github.com/adobe/aem-project-archetype)
-* [AEM Project Archetype Documentation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/overview.html)
+* [AEM Project Archetype Documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html)

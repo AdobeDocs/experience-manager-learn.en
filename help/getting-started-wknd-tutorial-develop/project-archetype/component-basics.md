@@ -93,7 +93,7 @@ Below are the high level steps performed in the above video.
 
 ## HTL (HTML Template Language) and Dialogs {#htl-dialogs}
 
-HTML Template Language or **[HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/getting-started/getting-started.html)** is a light-weight, server-side templating language used by AEM components to render content.
+HTML Template Language or **[HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/getting-started/getting-started.html)** is a light-weight, server-side templating language used by AEM components to render content.
 
 **Dialogs** define the configurations available that can be made for a component.
 

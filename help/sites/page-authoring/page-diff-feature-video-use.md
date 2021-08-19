@@ -43,4 +43,4 @@ Page Difference feature can be also used to identify the difference between blue
 
 ## Additional Resources {#additional-resources}
 
-* [Page Diff Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/page-diff.html)
+* [Page Diff Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/page-diff.html)

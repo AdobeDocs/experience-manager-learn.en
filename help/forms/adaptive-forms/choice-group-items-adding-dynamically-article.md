@@ -90,7 +90,7 @@ To try this on your system:
 **Using the visual editor to add items**
 
 * [Download the assets](assets/usingthevisualeditor.zip)
-* Install Tomcat if you do not have it already. [Instructions to install tomcat are available here](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html)
+* Install Tomcat if you do not have it already. [Instructions to install tomcat are available here](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html)
 * [Deploy SampleRest.war file in Tomcat](https://forms.enablementadobe.com/content/DemoServerBundles/SampleRest.war)
 * [Open Forms And Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * Click on "Create | File Upload" and upload the file you downloaded in the previous step

@@ -1,13 +1,13 @@
 ---
 title: AEM Desktop App
 description: Use AEM Desktop App to simplify access to any asset managed in AEM on desktop, for any application and file format.
-kt: 2551
-sub-product: assets
-feature: Experience Manager Desktop App
 version: 6.5, 6.4, 6.3
 topic: Content Management
+feature: Desktop App
 role: User
 level: Beginner
+kt: 2551
+thumbnail: 28868.jpeg
 ---
  
 # Use AEM Desktop App
@@ -27,4 +27,4 @@ level: Beginner
 
 ## Additional Resources
 
-+ [Download the latest AEM Desktop App](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html)
++ [Download the latest AEM Desktop App](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html)

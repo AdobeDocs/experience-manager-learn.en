@@ -1,19 +1,16 @@
 ---
-title: Using DM components on site page
+title: Using Dynamic Media Core Components
 description: Steps use Dynamic Media components on Sites page  
-type: Tutorial
-product: dynamic-media
 role: Developer
 level: Intermediate 
 version: cloud-service
-feature: classic
+feature: Core Components
 topic: Development
 index: y
 ---
 
+# Using Dynamic Media Core Components
 
-# Using DM components on site page
-
-*This video walks through the process of using DM components on site page.*
+This video walks through the process of using Dynamic Media-enabled Core Components on an AEM Sites webpage.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335461?quality=9&learn=on)

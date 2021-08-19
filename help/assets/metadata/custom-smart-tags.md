@@ -30,6 +30,6 @@ Learn how to configure the training of Smart Tags in AEM Assets, using the Smart
 
 ## Additional Resources
 
-* AEM 6.4 requires the [latest Service Pack](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/aem-releases-updates.html#aem-64).
+* AEM 6.4 requires the [latest Service Pack](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/aem-releases-updates.html#aem-64).
 
 

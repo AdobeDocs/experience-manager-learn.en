@@ -17,7 +17,7 @@ In this video we explore Dynamic Media Color Management, and how it can be used 
 
 >[!NOTE]
 >
->[Enable Dynamic Media](https://docs.adobe.com/docs/en/aem/6-0/administer/integration/dynamic-media/enabling-dynamic-media.html) in AEM to use this feature.
+>[Enable Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) in AEM to use this feature.
 
 This feature is available for AEM 6.1 and 6.2 versions as a Feature Pack.
 

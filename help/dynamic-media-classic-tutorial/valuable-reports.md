@@ -40,7 +40,7 @@ To learn more about Dynamic Media Classic, take a look at the following resource
 
 - [Dynamic Media Classic on Experience League – Get to Value](https://guided.adobe.com/?launch=AEM-5a#recommended/solutions/experience-manager)
 - [Dynamic Media Classic on Experience League – Do More](https://guided.adobe.com/?launch=AEM-6a#recommended/solutions/experience-manager)
-- [The Dynamic Media Newsletter Archives](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
+- [The Dynamic Media Newsletter Archives](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 - [Dynamic Media Newsletter Subscription Page](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
-- [Dynamic Media Classic Documentation](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+- [Dynamic Media Classic Documentation](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 - [Rich Media Blog Posts](https://theblog.adobe.com/tag/dynamic-media)

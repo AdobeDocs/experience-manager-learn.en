@@ -22,7 +22,7 @@ A fragment is a reusable part of a form. For example, a fragment can include an 
 
 
 
-Please refer to [adaptive form template documentation](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/adaptive-form-fragments.html) for more details  
+Please refer to [adaptive form template documentation](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/adaptive-form-fragments.html) for more details  
 
 If needed you can download the [Spouse-details-fragment ](assets/spouse-details-fragment.zip) and import into AEM using the [package manager](http://localhost:4502/crx/packmgr/index.jsp)
 

@@ -20,7 +20,7 @@ HTML5 forms is a new capability in Adobe Experience Manager that offers renderin
 
 ## Prerequisite
 
-Please make sure you have a working instance of AEM Forms. Please follow the [installation guide](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html) to install and configure AEM Forms
+Please make sure you have a working instance of AEM Forms. Please follow the [installation guide](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html) to install and configure AEM Forms
 
 ## Create your first HTML5 form
 
@@ -52,7 +52,7 @@ To preview the xdp in HTML5 format with data file please follow the following st
  
  **Submit URL** - This is the URL which will handle your HTML5 form submission. We will cover this in the next lesson. If a submit URL is not specified here the default submit handler is invoked which returns the form data to the browser.
  
- **HTML Render Profile** - HTML5 forms have the notion of Profiles which are exposed as REST Endpoints to enable Mobile Rendering of Form Templates. Majority of times the default render profile should be sufficient to render the form. If the default render profile does not meet your needs, a [custom profile](https://docs.adobe.com/content/help/en/experience-manager-64/forms/html5-forms/custom-profile.html) can be created and associated with the form.
+ **HTML Render Profile** - HTML5 forms have the notion of Profiles which are exposed as REST Endpoints to enable Mobile Rendering of Form Templates. Majority of times the default render profile should be sufficient to render the form. If the default render profile does not meet your needs, a [custom profile](https://experienceleague.adobe.com/docs/experience-manager-64/forms/html5-forms/custom-profile.html) can be created and associated with the form.
 
 **Prefill Service** - Prefill service is typically used to populate your form with data fetched from a backend data source.
 

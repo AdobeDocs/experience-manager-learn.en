@@ -28,12 +28,12 @@ The workflow in Dynamic Media Classic solutions consists of three main steps:
 
 This is the beginning of the workflow. In this step, you gather or create the source content that fits into the workflow you are using and upload it into Dynamic Media Classic. The system supports multiple file types for images, video, and fonts, but also for PDF, Adobe Illustrator, and Adobe InDesign.
 
-See the complete list of [Supported File Types](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/uploading-files.html#supported-asset-file-formats).
+See the complete list of [Supported File Types](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/uploading-files.html#supported-asset-file-formats).
 
 You can upload source content in several different ways:
 
-- Directly from your desktop or local network. [Learn how](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/uploading-files.html#upload-files-using-sps-desktop-application).
-- From a Dynamic Media Classic FTP server. [Learn how](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/uploading-files.html#upload-files-using-via-ftp).
+- Directly from your desktop or local network. [Learn how](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/uploading-files.html#upload-files-using-sps-desktop-application).
+- From a Dynamic Media Classic FTP server. [Learn how](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/uploading-files.html#upload-files-using-via-ftp).
 
 The default mode is From Desktop, where you browse for files on your local network and start the upload.
 
@@ -61,11 +61,11 @@ There are four variations of the Overwrite Image option that can be set for your
 - **Overwrite in any folder, same base asset name regardless of extension**.
   This option is the most inclusive replacement rule. You can upload a replacement image to a different folder than the original, upload a file with a different filename extension, and replace the original file. If the original file is in a different folder, the replacement image resides in the new folder to which it was uploaded.
 
-Learn more about the [Overwrite Images Option](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/setup/application-setup.html#using-the-overwrite-images-option).
+Learn more about the [Overwrite Images Option](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/setup/application-setup.html#using-the-overwrite-images-option).
 
 Although not required, while uploading using either of the two methods above, you can specify Job Options for that particular upload — for example, to schedule a recurring upload, set cropping options upon upload, and many others. These can be valuable for some workflows, so it's worth considering if they can be for yours.
 
-Learn more about [Job Options](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/uploading-files.html#upload-options).
+Learn more about [Job Options](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/uploading-files.html#upload-options).
 
 Uploading is the first necessary step in any workflow because Dynamic Media Classic cannot work with any content that is not already in its system. Behind the scenes during upload, the system registers every uploaded asset with the centralized Dynamic Media Classic database, assigns an ID, and copies it to storage. In addition, the system converts image files to a format that allows dynamic resizing and zoom and converts video files to the MP4 web-friendly format.
 
@@ -94,7 +94,7 @@ Similarly, you can upload your master source video to Dynamic Media Classic, and
 
 **While there's no minimum for image size, we don't recommend uploading giant images.** A giant image can be considered 4000+ pixels. Uploading images this size can show potential flaws like grains of dust or hairs in the image. Such images will also take up more space on the Dynamic Media Classic server, which can cause you to surpass your contracted storage limits.
 
-Learn more about [Uploading Files](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/uploading-files.html#uploading-your-files).
+Learn more about [Uploading Files](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/uploading-files.html#uploading-your-files).
 
 ## Step 2: Author (and Publish)
 
@@ -136,14 +136,14 @@ Newly uploaded and published assets will be seen right away, whereas updated ass
 
 This typically is not an issue unless a mistake occurred, and the image/asset has the same name as the previously published version, but there is a problem with the image. For example, you accidentally uploaded a low resolution version or your art director didn’t approve the image. In this case, you want to recall the original image and replace it with a new version using the same Asset ID.
 
-Learn how to [Manually Clear the Cache for the URLs That Need to Be Updated](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/invalidate-cdn-cached-content.html).
+Learn how to [Manually Clear the Cache for the URLs That Need to Be Updated](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/invalidate-cdn-cached-content.html).
 
 >[!TIP]
 >
 >To avoid issues with caching delay, always work ahead — an evening, a day, two weeks, etc. Build in time for QA/acceptance for internal parties to proof your work before releasing to the public. Even working an evening before allows you to make changes and re-publish that evening. By morning, the 10 hours has elapsed and the cache updates with the correct image.
 
-- Learn more about [Creating a Publishing Job](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/publishing-files.html#creating-a-publish-job).
-- Learn more about [Publishing](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/publishing-files.html).
+- Learn more about [Creating a Publishing Job](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/publishing-files.html#creating-a-publish-job).
+- Learn more about [Publishing](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/publishing-files.html).
 
 ## Step 3: Deliver
 
@@ -181,4 +181,4 @@ You can preview your images in multiple sizes using the **Sizes** preview. This 
 
 You can also use the **Zoom** option to preview your image in one of many pre-built zoom presets, which are based on different included zoom viewers.
 
-Learn more about [Previewing Assets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/managing-assets/previewing-asset.html).
+Learn more about [Previewing Assets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/managing-assets/previewing-asset.html).

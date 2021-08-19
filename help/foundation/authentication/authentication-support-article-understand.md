@@ -2,7 +2,7 @@
 title: Understand Authentication support in AEM
 description: A consolidated view into the authentication (and occasionally authorization) mechanisms supported by AEM. 
 version: 6.3, 6.4, 6.5
-feature: Users and Groups
+feature: User and Groups
 topics: authentication, security
 activity: understand
 audience: architect, developer, implementer
@@ -46,7 +46,7 @@ A consolidated view into the authentication (and occasionally authorization) mec
             <td>✔</td>
         </tr>
         <tr>
-            <td>Token-based (w/ <a href="https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/encapsulated-token.html" target="_blank">encapsulated token</a>)</td>
+            <td>Token-based (w/ <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/encapsulated-token.html" target="_blank">encapsulated token</a>)</td>
             <td>✔</td>
             <td>✔</td>
             <td>✔</td>
@@ -57,19 +57,19 @@ A consolidated view into the authentication (and occasionally authorization) mec
             <td></td>
             <td></td>
             <tr>
-                <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/ldap-config.html" target="_blank">LDAP</a></td>
+                <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/ldap-config.html" target="_blank">LDAP</a></td>
                 <td>✔</td>
                 <td>✔</td>
                 <td>✔</td>
             </tr>
             <tr>
-                <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/deploying/configuring/single-sign-on.html" target="_blank">SSO</a></td>
+                <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/single-sign-on.html" target="_blank">SSO</a></td>
                 <td>✔</td>
                 <td>✔</td>
                 <td>✔</td>
             </tr>
             <tr>
-                <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/saml-2-0-authenticationhandler.html" target="_blank">SAML 2.0</a></td>
+                <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/saml-2-0-authenticationhandler.html" target="_blank">SAML 2.0</a></td>
                 <td>✔</td>
                 <td>✔</td>
                 <td>✔</td>

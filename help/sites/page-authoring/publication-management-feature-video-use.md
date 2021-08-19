@@ -1,12 +1,7 @@
 ---
 title: Publishing Pages with AEM Sites
-seo-title: Publishing Pages with Adobe Experience Manager Sites
 description: Adobe Experience Manager Sites provides a several options for publishing and un-publishing content. This video explores the various methods and their capabilities.
-seo-description: Adobe Experience Manager Sites provides a several options for publishing and un-publishing content. This video explores the various methods and their capabilities.
-topics: publishing
-audience: all
-doc-type: feature video
-activity: use
+feature-set: Experience Manager
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 4322
 thumbnail: 32193.jpg
@@ -34,4 +29,4 @@ AEM Sites provides several methods for published and un-publishing content, base
 
 ## Additional Resources {#additional-resources}
 
-* [Publishing Pages Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/publishing-pages.html)
+* [Publishing Pages Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/publishing-pages.html)

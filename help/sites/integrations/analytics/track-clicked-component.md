@@ -1,22 +1,18 @@
 ---
 title:  Track clicked component with Adobe Analytics
 description: Use the event-driven Adobe Client Data layer to track clicks of specific components on an Adobe Experience Manager site. Learn how to use rules in Experience Platform Launch to listen for these events and send data to an Adobe Analytics with a track link beacon.
-feature: analytics
-topics: integrations
-audience: administrator
-doc-type: tutorial
-activity: setup
 version: cloud-service
-kt: 6296
-thumbnail: KT-6296.jpg
 topic: Integrations
+feature: Adobe Client Data Layer
 role: Developer
 level: Intermediate
+kt: 6296
+thumbnail: KT-6296.jpg
 ---
 
 # Track clicked component with Adobe Analytics
 
-Use the event-driven [Adobe Client Data Layer with AEM Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html) to track clicks of specific components on an Adobe Experience Manager site. Learn how to use rules in Experience Platform Launch to listen for click events, filter by component and send the data to an Adobe Analytics with a track link beacon.
+Use the event-driven [Adobe Client Data Layer with AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html) to track clicks of specific components on an Adobe Experience Manager site. Learn how to use rules in Experience Platform Launch to listen for click events, filter by component and send the data to an Adobe Analytics with a track link beacon.
 
 ## What you will build
 
@@ -34,13 +30,13 @@ The WKND marketing team wants to understand which Call to Action (CTA) buttons a
 
 This tutorial is a continuation of [Collect page data with Adobe Analytics](./collect-data-analytics.md) and assumes that you have:
 
-* A **Launch Property** with the [Adobe Analytics extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) enabled
-* **Adobe Analytics** test/dev report suite ID and tracking server. See the following documentation for [creating a new report suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html).
-* [Experience Platform Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html) browser extension configured with your Launch property loaded on [https://wknd.site/us/en.html](https://wknd.site/us/en.html) or an AEM site with the Adobe Data Layer enabled.
+* A **Launch Property** with the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) enabled
+* **Adobe Analytics** test/dev report suite ID and tracking server. See the following documentation for [creating a new report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html).
+* [Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-platform-debugger/introduction-to-the-experience-platform-debugger.html) browser extension configured with your Launch property loaded on [https://wknd.site/us/en.html](https://wknd.site/us/en.html) or an AEM site with the Adobe Data Layer enabled.
 
 ## Inspect the Button and Teaser Schema
 
-Before making rules in Launch it is useful to review the [schema for the Button and Teaser](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#item) and inspect them in the data layer implementation.
+Before making rules in Launch it is useful to review the [schema for the Button and Teaser](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#item) and inspect them in the data layer implementation.
 
 1. Navigate to [https://wknd.site/us/en.html](https://wknd.site/us/en.html)
 1. Open the browser's developer tools and navigate to the **Console**. Run the following command:
@@ -76,7 +72,7 @@ Before making rules in Launch it is useful to review the [schema for the Button 
         xdm:linkURL: "/content/wknd/us/en/magazine/san-diego-surf.html"
     ```
 
-    These are based on the [Component/Container Item Schema](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html#item). The rule we will create in Launch will use this schema.
+    These are based on the [Component/Container Item Schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#item). The rule we will create in Launch will use this schema.
 
 ## Create a CTA Clicked rule
 
@@ -142,11 +138,11 @@ The Adobe Client Data Layer is an **event** driven data layer. When the any Core
 
    The `event` object is passed from the `trigger()` method called in the custom event. `component` is the current state of the component derived from the data layer `getState` that triggered the click.
 
-1. Save the changes and run a [build](https://docs.adobe.com/content/help/en/launch/using/reference/publish/builds.html) in Launch to promote the code to the [environment](https://docs.adobe.com/content/help/en/launch/using/reference/publish/environments.html) used on your AEM Site.
+1. Save the changes and run a [build](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/builds.html) in Launch to promote the code to the [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments.html) used on your AEM Site.
 
    >[!NOTE]
    >
-   > It can be very useful to use the [Adobe Experience Platform Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html) to switch the embed code to a **Development** environment.
+   > It can be very useful to use the [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-platform-debugger/introduction-to-the-experience-platform-debugger.html) to switch the embed code to a **Development** environment.
 
 1. Navigate to the [WKND Site](https://wknd.site/us/en.html) and open the developer tools to view the console. Select **Preserve log**.
 
