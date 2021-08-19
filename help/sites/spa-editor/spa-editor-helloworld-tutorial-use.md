@@ -1,14 +1,9 @@
 ---
 title: Developing with the AEM SPA Editor - Hello World Tutorial
 description: AEM's SPA Editor provides support for in-context editing of a Single Page Application or SPA. This tutorial is an introduction to SPA development to be used with AEM's SPA Editor JS SDK. The tutorial will extend the We.Retail Journal app by adding a custom Hello World component. Users can complete the tutorial using React or Angular frameworks.
-sub-product: sites, content-services
-feature: Spa Editor
-topics: development, single-page-applications
-audience: developer
-doc-type: tutorial
-activity: use
 version: 6.3, 6.4, 6.5
 topic: SPA
+feature: SPA Editor
 role: Developer
 level: Beginner
 ---
@@ -17,7 +12,7 @@ level: Beginner
 
 >[!WARNING]
 >
-> This tutorial is **deprecated**. It is recommended to follow either: [Getting Started with the AEM SPA Editor and Angular](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-angular-tutorial/overview.html) or [Getting Started with the AEM SPA Editor and React](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html)
+> This tutorial is **deprecated**. It is recommended to follow either: [Getting Started with the AEM SPA Editor and Angular](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/angular/overview.html) or [Getting Started with the AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html)
 
 AEM's SPA Editor provides support for in-context editing of a Single Page Application or SPA. This tutorial is an introduction to SPA development to be used with AEM's SPA Editor JS SDK. The tutorial will extend the We.Retail Journal app by adding a custom Hello World component. Users can complete the tutorial using React or Angular frameworks.
 
@@ -312,7 +307,7 @@ Next a [!DNL Sling Model] is created to back the [!DNL Hello World] component. I
 
 >[!NOTE]
 >
->As a best practice, developers should look to use [AEM Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) when possible. Among other features, Core Components provide [!DNL Sling Models] with JSON output that is "SPA-ready", allowing developers to focus more on front-end presentation.
+>As a best practice, developers should look to use [AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) when possible. Among other features, Core Components provide [!DNL Sling Models] with JSON output that is "SPA-ready", allowing developers to focus more on front-end presentation.
 
 1. In the editor of your choice, open the **we-retail-journal-commons** project ( `<src>/aem-sample-we-retail-journal/bundles/commons`).
 1. In the package `com.adobe.cq.sample.spa.commons.impl.models`:

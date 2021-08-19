@@ -14,7 +14,7 @@ level: Intermediate
 In this section, we will discuss how to set up Adobe Experience Manager with Adobe Target for different scenarios. Based on your scenario and organizational requirements.
 
 * **Add Adobe Target JavaScript Library (required for all scenarios)**
-    For sites hosted on AEM, you can add Target libraries to your site using, [Launch](https://experienceleague.adobe.com/docs/launch/using/home.html). Launch provides a simple way to deploy and manage all tags necessary to power relevant customer experiences.
+    For sites hosted on AEM, you can add Target libraries to your site using, [Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html). Launch provides a simple way to deploy and manage all tags necessary to power relevant customer experiences.
 * **Add the Adobe Target Cloud Services (required for the Experience Fragments scenario)**
     For AEM customers, who would like to use Experience Fragment offers to create an activity within Adobe Target, you will need to integrate Adobe Target with AEM using the Legacy Cloud Services. This integration is required to push Experience Fragments from AEM to Target as HTML/JSON offers and to keep the offers in sync with AEM. *This integration is required for implementing scenario 1.*
 

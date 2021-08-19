@@ -1,10 +1,9 @@
 ---
 title: GraphQL Persisted Queries
 description: Learn how to enable, create update and execute Persisted Queries in AEM.
-sub-product: assets
 version: cloud-service
 topic: Headless, Content Management
-feature: GraphQL APIs
+feature: GraphQL API
 role: Developer
 level: Beginner
 kt: 7872

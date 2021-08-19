@@ -30,7 +30,7 @@ This video series covers the authoring life-cycle of Content Fragments in AEM. D
 
 >[!VIDEO](https://video.tv.adobe.com/v/22452/?quality=12&learn=on)
 
-AEM Content Fragments Models, the data schemas of Content Fragments, must be enabled via AEM's [[!UICONTROL Configuration Browser]](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html), which allows Content Fragment Models to be defined on a per configuration basis.
+AEM Content Fragments Models, the data schemas of Content Fragments, must be enabled via AEM's [[!UICONTROL Configuration Browser]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html), which allows Content Fragment Models to be defined on a per configuration basis.
 
 ## Creating Content Fragments {#creating-content-fragments}
 
@@ -67,8 +67,8 @@ Learn about [delivering Content Fragments](content-fragments-delivery-feature-vi
 ## Additional Resources {#additional-resources}
 
 * [Delivering Content Fragments](content-fragments-delivery-feature-video-use.md)
-* [AEM WCM Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
-* [AEM WCM Core Content Fragment Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/content-fragment-component.html)
+* [AEM WCM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
+* [AEM WCM Core Content Fragment Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/content-fragment-component.html)
 
 To download and install the package below on an AEM 6.4+ instance for the final state from the video series:
 

@@ -2,7 +2,7 @@
 user-guide-title: AEM Sites Videos and Tutorials
 user-guide-description: A collection of videos and tutorials for Adobe Experience Manager Sites.
 breadcrumb-title: AEM Sites Tutorials
-sub-product: sites
+feature-set: Experience Manager, Experience Manager Sites
 ---
 
 # AEM Sites Videos and Tutorials {#sites}
@@ -39,13 +39,13 @@ sub-product: sites
   + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
   + [Building Blocks](experience-fragments/building-blocks.md)
   + [Setup Social Posting with Experience Fragments](experience-fragments/experience-fragments-social-technical-video-setup.md)
-  + [Content Fragments vs. Experience Fragments](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
+  + [Content Fragments vs. Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
 + Developing {#developing}
   + [AEM Project Archetype](developing/aem-project-archetype.md)
-  + [Getting Started with AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-  + [Getting Started with AEM Headless](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html)
-  + [Getting Started with AEM SPA Editor and React](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html)
-  + [Getting Started with AEM SPA Editor and Angular](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-angular-tutorial/overview.html)
+  + [Getting Started with AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+  + [Getting Started with AEM Headless](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html)
+  + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html)
+  + [Getting Started with AEM SPA Editor and Angular](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/angular/overview.html)
   + [Extending Page Properties](developing/page-properties-technical-video-develop.md)
   + [Developing with the Style System](developing/style-system-technical-video-understand.md)
   + [Style System Best Practices](developing/style-organization-style-system-understand-article.md)
@@ -61,8 +61,8 @@ sub-product: sites
 + Single Page Applications {#spa-editor}
   + [Using the SPA Editor](spa-editor/spa-editor-framework-feature-video-use.md)
   + [Hello World Tutorial](spa-editor/spa-editor-helloworld-tutorial-use.md)
-  + [Getting Started with AEM SPA Editor and React](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-react-tutorial/overview.html)
-  + [Getting Started with AEM SPA Editor and Angular](https://docs.adobe.com/content/help/en/experience-manager-learn/spa-angular-tutorial/overview.html)
+  + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html)
+  + [Getting Started with AEM SPA Editor and Angular](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/angular/overview.html)
 + Multi Site Management {#multi-site-management}
   + [Introduction to Language Copy](./multi-site-management/language-copy-overview.md)
   + [Live Copy and Blueprint](./multi-site-management/live-copy-and-blueprint.md)
@@ -106,24 +106,3 @@ sub-product: sites
     + [Create Target Activity using Experience Fragment Offers](integrations/adobe-target/create-target-activity.md)
     + [Personalization using Visual Experience Composer](integrations/adobe-target/personalization-using-vec.md)
     + [Personalization of full web page experience](integrations/adobe-target/personalization-web-page.md)
-
-+ Dynamic Media Tutorials {#dynamic-media}
-    + [Adding Test image server(client IP filters) details in Dynamic Media for secure preview using DMc App](dynamic-media/adding-test-image-server-details-in-dynamic-media-for-secure-preview.md)
-    + [Creating different kinds of sets with AEM Dynamic Media | Carousel set](dynamic-media/creating-different-kinds-of-sets-with-aem-dynamic-media-carousel-sets.md)
-    + [Creating different kinds of sets with AEM Dynamic Media| Image set](dynamic-media/creating-different-kinds-of-sets-with-aem-dynamic-media-image-sets.md)
-    + [Creating image presets](dynamic-media/creating-image-presets.md)
-    + [Creating Image profile (smart crop) in Dynamic Media](dynamic-media/creating-image-profile-smart-crop.md)
-    + [Creating video profile to process videos in Dynamic Media](dynamic-media/creating-video-profile-to-process-videos-in-dynamic-media.md)
-    + [Deleting Dynamic Media configuration](dynamic-media/deleting-dynamic-media-configuration.md)
-    + [How to download asset in Dynamic Media Classic App](dynamic-media/how-to-download-asset-in-dynamic-media-classic-app.md)
-    + [How to generate public URL or Embed code for an asset](dynamic-media/how-to-generate-public-url-or-embed-code-for-an-asset.md)
-    + [How to run DAM update asset workflow on an asset with Dynamic Media enabled.](dynamic-media/how-to-run-dam-update-asset-workflow-on-an-asset-with-dynamic-media-enabled.md)
-    + [How to trigger export job in Dynamic Media during submit job operation parameter](dynamic-media/how-to-trigger-export-job-in-dynamic-media-during-submit-job-operation-parameter.md)
-    + [Introduction to Dynamic Media classic IPS API](dynamic-media/introduction-to-dynamic-media-classic-ips-api.md)
-    + [Invalidating the CDN cache by way of Dynamic Media](dynamic-media/invalidating-the-cdn-cache-by-way-of-dynamic-media.md)
-    + [Using DM components on site page](dynamic-media/using-dm-components-on-site-page.md)
-    
-+ Brand Portal Tutorials {#brand-portal}
-    + [Configuring Asset Sourcing with the brand portal](brand-portal/configuring-asset-sourcing-with-the-brand-portal.md)
-    + [How to enable the download of renditions](brand-portal/how-to-enable-the-download-of-renditions.md)
-    + [Steps to configure AEM Assets Brand Portal](brand-portal/steps-to-configure-aem-assets-brand-portal.md)

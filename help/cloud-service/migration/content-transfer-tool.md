@@ -22,4 +22,4 @@ The Content Transfer Tool is the recommended way to migrate content from an on-p
 
 ## Additional Resources {#additional-resources}
 
-* [Content Transfer Tool Overview](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html)
+* [Content Transfer Tool Overview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html)

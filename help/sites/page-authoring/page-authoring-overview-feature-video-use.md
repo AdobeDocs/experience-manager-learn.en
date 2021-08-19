@@ -43,5 +43,5 @@ In this video, the following capabilities or features are covered:
 
 ## Additional Resources {#additional-resources}
 
-* [Editing Page Content Documentation](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
-* [Quick Start Guide to Authoring Pages](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/getting-started/quick-start.html)
+* [Editing Page Content Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
+* [Quick Start Guide to Authoring Pages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/getting-started/quick-start.html)

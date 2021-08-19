@@ -153,7 +153,7 @@ High level steps for the video below:
 
 ## Update the Header and Footer with Experience Fragments {#experience-fragments}
 
-A common practice when creating global content, such as a header or footer, is to use an [Experience Fragment](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html). Experience Fragments, allows users to combine multiple components to create a single, reference-able, component. Experience Fragments have the advantage of supporting multi-site management and [localization](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/experience-fragment.html?lang=en#localized-site-structure).
+A common practice when creating global content, such as a header or footer, is to use an [Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html). Experience Fragments, allows users to combine multiple components to create a single, reference-able, component. Experience Fragments have the advantage of supporting multi-site management and [localization](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/experience-fragment.html?lang=en#localized-site-structure).
 
 The AEM Project Archetype generated a Header and Footer. Next, update the Experience Fragments to match the mockups. Follow the steps in the video below:
 
@@ -255,7 +255,7 @@ Use the CRXDE-Lite tool on a local AEM instance to view the underlying node stru
 
     Note that there are only 2 HTL scripts, `customfooterlibs.html` and `customheaderlibs.html` beneath the page component. *So how does this component render the page?*
 
-    The `sling:resourceSuperType` property points to `core/wcm/components/page/v2/page`. This property allows the WKND's page component to inherit **all** of the functionality of the Core Component page component. This is the first example of something called the [Proxy Component Pattern](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/guidelines.html#ProxyComponentPattern). More information can be found [here.](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/guidelines.html).
+    The `sling:resourceSuperType` property points to `core/wcm/components/page/v2/page`. This property allows the WKND's page component to inherit **all** of the functionality of the Core Component page component. This is the first example of something called the [Proxy Component Pattern](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/guidelines.html#ProxyComponentPattern). More information can be found [here.](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/guidelines.html).
 
 1. Inspect another component within the WKND components, the `Breadcrumb` component located at: `/apps/wknd/components/breadcrumb`. Notice that the same `sling:resourceSuperType` property can be found, but this time it points to `core/wcm/components/breadcrumb/v2/breadcrumb`. This is another example of using the Proxy component pattern to include a Core Component. In fact, all of the components in the WKND code base are proxies of AEM Core Components (except for our famous HelloWorld component). It is a best practice to try and re-use as much of the functionality of Core Components as possible *before* writing custom code.
 

@@ -46,7 +46,7 @@ The basic concept is to map a SPA Component to an AEM Component. AEM components,
 
 ## Inspect the Text Component
 
-The [AEM Project Archetype](https://github.com/adobe/aem-project-archetype) provides a `Text` component that is mapped to the AEM [Text component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/text.html). This is an example of a **content** component, in that it renders *content* from AEM.
+The [AEM Project Archetype](https://github.com/adobe/aem-project-archetype) provides a `Text` component that is mapped to the AEM [Text component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/text.html). This is an example of a **content** component, in that it renders *content* from AEM.
 
 Let's see how the component works.
 
@@ -218,7 +218,7 @@ Let's inspect the Layout Container further.
 
     The **Layout Container** component has a `sling:resourceType` of `wcm/foundation/components/responsivegrid` and is recognized by the SPA Editor using the `:type` property, just like the `Text` and `Image` components.
 
-    The same capabilities of re-sizing a component using [Layout Mode](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/responsive-layout.html#defining-layouts-layout-mode) are available with the SPA Editor.
+    The same capabilities of re-sizing a component using [Layout Mode](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/responsive-layout.html#defining-layouts-layout-mode) are available with the SPA Editor.
 
 2. Return to [http://localhost:4502/editor.html/content/wknd-spa-react/us/en/home.html](http://localhost:4502/editor.html/content/wknd-spa-react/us/en/home.html). Add additional **Image** components and try re-sizing them using the **Layout** option:
 
@@ -283,7 +283,7 @@ The next few steps will take place using the Visual Studio Code IDE and [VSCode 
 
 ## (Bonus) Create custom Image Component {#bonus-image}
 
-A SPA Image component has already been provided by the React Core components. However, if you want extra practice, create your own React implementation that maps to the AEM [Image component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/image.html). The `Image` component is another example of a **content** component.
+A SPA Image component has already been provided by the React Core components. However, if you want extra practice, create your own React implementation that maps to the AEM [Image component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/image.html). The `Image` component is another example of a **content** component.
 
 ### Inspect the JSON
 

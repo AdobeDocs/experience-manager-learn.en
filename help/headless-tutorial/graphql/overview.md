@@ -1,7 +1,7 @@
 ---
 title: Getting Started with AEM Headless - GraphQL
 description: An overview of AEM's GraphQL APIs and capabilities.
-feature: Content Fragments, APIs
+feature: Content Fragments, GraphQL API, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner

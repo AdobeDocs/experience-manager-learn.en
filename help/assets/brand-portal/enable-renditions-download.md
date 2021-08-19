@@ -1,8 +1,6 @@
 ---
 title: How to enable the download of renditions in the Brand Portal.
 description: Steps to enable  download of rendition in Brand Portal
-type: Tutorial
-product: Sites
 role: Developer
 level: Beginner
 version: cloud-service
@@ -11,7 +9,7 @@ topic: Development
 index: y
 ---
 
-# How to enable the download of renditions in the Brand Portal
+# Enable renditions download in the Brand Portal
 
 *This video walks through the steps to enable the download of renditions in the Brand Portal.*
 

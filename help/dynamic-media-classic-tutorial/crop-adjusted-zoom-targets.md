@@ -18,9 +18,9 @@ One of the main strengths of the Dynamic Media Classic master image concept is t
 
 By the end of this section of the tutorial you will know how to:
 
-- Crop images in Dynamic Media Classic and save as new master files or as virtual images. [Learn more](https://docs.adobe.com/help/en/dynamic-media-classic/using/master-files/cropping-image.html).
-- Save virtual Adjusted Images and use them in place of master assets. [Learn more](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/master-files/adjusting-image.html).
-- Create Zoom Targets on your images to show off their highlights. [Learn more](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/zoom/creating-zoom-targets-guided-zoom.html).
+- Crop images in Dynamic Media Classic and save as new master files or as virtual images. [Learn more](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/master-files/cropping-image.html).
+- Save virtual Adjusted Images and use them in place of master assets. [Learn more](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/master-files/adjusting-image.html).
+- Create Zoom Targets on your images to show off their highlights. [Learn more](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/zoom/creating-zoom-targets-guided-zoom.html).
 
 ## Cropping
 
@@ -39,8 +39,8 @@ Dynamic Media Classic has a few image editing tools conveniently available in th
 
 You can access the Crop tool in Dynamic Media Classic from the Details page for an asset or by clicking the **Edit** button. You can use the tool to crop in two ways:
 
-- The default cropping mode in which you drag the handles of the crop window or type values in the Size box. Learn how to [Manually Crop](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/master-files/cropping-image.html#select-an-area-to-crop).
-- Trim. Use this to remove extra whitespace around your image by calculating the number of pixels that do not match your image. Learn how to [Crop by Trimming](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/master-files/cropping-image.html#crop-to-remove-white-space-around-an-image).
+- The default cropping mode in which you drag the handles of the crop window or type values in the Size box. Learn how to [Manually Crop](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/master-files/cropping-image.html#select-an-area-to-crop).
+- Trim. Use this to remove extra whitespace around your image by calculating the number of pixels that do not match your image. Learn how to [Crop by Trimming](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/master-files/cropping-image.html#crop-to-remove-white-space-around-an-image).
 
 ### _Manual Cropping_
 
@@ -131,7 +131,7 @@ The process is very easy — click on the feature, give it a descriptive name, a
 
 Another factor in deciding whether to use Zoom Targets is your choice of viewer. Not all viewer types can display Zoom Targets (for example, the Fly-out viewer doesn't support them).
 
-Learn how to [Create Zoom Targets](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/zoom/creating-zoom-targets-guided-zoom.html#creating-and-editing-zoom-targets).
+Learn how to [Create Zoom Targets](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/zoom/creating-zoom-targets-guided-zoom.html#creating-and-editing-zoom-targets).
 
 ![image](assets/crop-adjusted-zoom-targets/zoom-targets.jpg)
 

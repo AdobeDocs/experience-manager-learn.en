@@ -43,7 +43,7 @@ Explain Query is located at:
 
 ![QueryBuilder Debugger](./assets/other-tools/query-debugger.png)
 
-QueryBuilder debugger is web-based tool that helps you debug and understand search queries using AEM's [QueryBuilder](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/query-builder/querybuilder-api.html) syntax.
+QueryBuilder debugger is web-based tool that helps you debug and understand search queries using AEM's [QueryBuilder](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/query-builder/querybuilder-api.html) syntax.
 
 QueryBuilder Debugger is located at:
 

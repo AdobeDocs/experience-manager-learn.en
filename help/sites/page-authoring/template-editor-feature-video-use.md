@@ -36,5 +36,5 @@ Editable Templates URL (local AEM instance): [http://localhost:4502/libs/wcm/cor
 
 ## Additional Resources {#additional-resources}
 
-* [Editable Page Templates - Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html)
-* [Creating Page Templates - Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html)
+* [Editable Page Templates - Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/page-templates-editable.html)
+* [Creating Page Templates - Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/templates.html)

@@ -16,7 +16,7 @@ level: Intermediate, Experienced
 
 # Test an Asset Compute worker
 
-The Asset Compute project defines a pattern for easily creating and executing [tests of Asset Compute workers](https://docs.adobe.com/content/help/en/asset-compute/using/extend/test-custom-application.html).
+The Asset Compute project defines a pattern for easily creating and executing [tests of Asset Compute workers](https://experienceleague.adobe.com/docs/asset-compute/using/extend/test-custom-application.html).
 
 ## Anatomy of a worker test
 

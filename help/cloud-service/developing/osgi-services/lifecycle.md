@@ -4,6 +4,7 @@ description: Learn about OSGi component lifecycle, including how to bind an OSGi
 role: Developer
 level: Beginner
 topic: Development
+feature: OSGI
 kt: 8228
 thumbnail: 335475.jpeg
 ---

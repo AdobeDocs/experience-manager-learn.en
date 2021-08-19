@@ -20,7 +20,7 @@ level: Experienced
 
 Generate Document Of Record (DOR) programmatically
 
-This article illustrates the use of the `com.adobe.aemds.guide.addon.dor.DoRService API` to generate **Document of Record** programmatically. [Document of Record](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/generate-document-of-record-for-non-xfa-based-adaptive-forms.html) is a PDF version of the data captured in Adaptive Form.
+This article illustrates the use of the `com.adobe.aemds.guide.addon.dor.DoRService API` to generate **Document of Record** programmatically. [Document of Record](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-advanced-authoring/generate-document-of-record-for-non-xfa-based-adaptive-forms.html) is a PDF version of the data captured in Adaptive Form.
 
 1. The following is the code snippet. The first line gets the DOR Service.
 1. Set the DoROptions.

@@ -22,4 +22,4 @@ An introduction to the capabilities and features of the [!DNL dispatcher] as par
 
 ## Additional Resources {#additional-resources}
 
-* [[!DNL Dispatcher] documentation](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html)
+* [[!DNL Dispatcher] documentation](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html)

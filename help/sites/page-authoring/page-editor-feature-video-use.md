@@ -50,5 +50,5 @@ Features of the Page editor include:
 
 ## Additional Resources {#additional-resources}
 
-* [Editing Page Content Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html)
-* [Sites Authoring User Guide](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/home.html)
+* [Editing Page Content Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-content.html)
+* [Sites Authoring User Guide](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)

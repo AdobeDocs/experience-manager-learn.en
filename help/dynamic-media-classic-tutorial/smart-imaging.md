@@ -18,7 +18,7 @@ One of the most important aspects of the customer experience on your website or 
 
 Smart Imaging also benefits from the added performance boost of being fully integrated with the best-in-class premium service from Adobe. This service finds the optimal internet route between servers, networks, and peering points that has lowest latency, and/or packet loss rate than the default route on the Internet.
 
-Learn more about [Smart Imaging](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/imaging-faq.html).
+Learn more about [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-64/assets/dynamic/imaging-faq.html).
 
 ## Smart Imaging Benefits
 
@@ -30,7 +30,7 @@ Because images constitute the majority of a page's load time, the performance im
 
 As noted earlier, Smart Imaging leverages Adobe Sensei AI capabilities and works with existing Image Presets to automatically convert images to optimal next-generation image formats such as WebP, while maintaining visual fidelity.
 
-Learn more about [How Smart Imaging Works](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/imaging-faq.html#how-does-smart-imaging-work), including details such as supported image formats (and what happens if you don't use those formats) and its impact on existing Image Presets that are in use.
+Learn more about [How Smart Imaging Works](https://experienceleague.adobe.com/docs/experience-manager-64/assets/dynamic/imaging-faq.html#how-does-smart-imaging-work), including details such as supported image formats (and what happens if you don't use those formats) and its impact on existing Image Presets that are in use.
 
 ## Impacts of Smart Imaging
 
@@ -48,7 +48,7 @@ Enabling Smart Imaging starts with you sending technical support a request by |c
 
 Once you've enabled Smart Imaging, you will want to verify that it's working as expected.
 
-You probably have additional questions about Smart Imaging. We've compiled a list of frequently asked questions (FAQs) with answers. Read the [FAQs](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/imaging-faq.html).
+You probably have additional questions about Smart Imaging. We've compiled a list of frequently asked questions (FAQs) with answers. Read the [FAQs](https://experienceleague.adobe.com/docs/experience-manager-64/assets/dynamic/imaging-faq.html).
 
 ## Additional Resources
 

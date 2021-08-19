@@ -23,5 +23,5 @@ This integration allows the AEM Author service to communicate directly with Adob
 
 >[!CAUTION]
 >
->There is a known issue with Adobe Target Cloud Services configuration shown in the video. Until this issue is resolved, follow the same steps in the video but use the [legacy Adobe Target Cloud Services configuration](https://docs.adobe.com/content/help/en/experience-manager-learn/aem-target-tutorial/aem-target-implementation/using-aem-cloud-services.html).
+>There is a known issue with Adobe Target Cloud Services configuration shown in the video. Until this issue is resolved, follow the same steps in the video but use the [legacy Adobe Target Cloud Services configuration](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-target-tutorial/aem-target-implementation/using-aem-cloud-services.html).
 

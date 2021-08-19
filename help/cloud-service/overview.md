@@ -75,4 +75,4 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 ## Additional Resources
 
 * [Experience League - Explore Adobe Experience Manager](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [Adobe Experience Manager as a Cloud Service Documentation](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+* [Adobe Experience Manager as a Cloud Service Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)

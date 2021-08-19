@@ -24,5 +24,5 @@ The following video provides an overview of basic concepts of authoring in an AE
 
 ## Additional Resources {#additional-resources}
 
-* [Editing Page Content Documentation](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
-* [Sites Authoring User Guide](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/home.html?topic=/experience-manager/6-5/sites/authoring/morehelp/page-authoring.ug.js)
+* [Editing Page Content Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
+* [Sites Authoring User Guide](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html&topic=/experience-manager/6-5/sites/authoring/morehelp/page-authoring.ug.js)
