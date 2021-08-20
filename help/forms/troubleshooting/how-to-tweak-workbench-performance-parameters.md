@@ -2,7 +2,7 @@
 title: How to tweak Workbench performance parameters
 description: Steps to tweak the Workbench performance parameters
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate
 version: 6.5

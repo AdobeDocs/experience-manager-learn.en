@@ -2,11 +2,10 @@
 title: How to debug Fonts related issue with Forms and Output service conversions
 description: Steps to debug Fonts related issue with Forms and Output service
 type: Troubleshooting
-product: forms 
 role: Developer 
 level: Intermediate
 version: 6.5
-feature: Forms Service ,  Output Service
+feature: Forms Service, Output Service
 topic: Development  
 index: y
 ---

@@ -2,7 +2,6 @@
 title: How to troubleshoot dependency issues with C++ libaries in Designer
 description: Install the required  C++ libaries for Designer
 type: Troubleshooting
-product: forms 
 role: Developer
 level: Intermediate
 version: 6.5

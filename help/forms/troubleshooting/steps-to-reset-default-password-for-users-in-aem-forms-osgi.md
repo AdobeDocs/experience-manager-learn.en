@@ -2,7 +2,7 @@
 title: Steps to reset default password for admin in AEM Forms OSGi
 description: Steps to reset default password for admin in AEM Forms OSGi
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate  
 version: 6.5

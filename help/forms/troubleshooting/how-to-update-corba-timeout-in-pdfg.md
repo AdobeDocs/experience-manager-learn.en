@@ -1,8 +1,7 @@
 ---
 title: How to update CORBA timeout in PDFG to mitigate transaction Rollback issues?
-description: Configue CORBA timeout in AEM Forms PDF Generator  to resolve issues related to transaction rollback
+description: Configure CORBA timeout in AEM Forms PDF Generator to resolve issues related to transaction rollback
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Intermediate
 version: 6.5

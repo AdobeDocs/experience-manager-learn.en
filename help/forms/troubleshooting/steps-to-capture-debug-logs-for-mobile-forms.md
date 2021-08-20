@@ -2,7 +2,7 @@
 title: Steps to capture debug logs for mobile forms
 description: Configure debug logs for debugging issues related to Mobile forms 
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Beginner 
 version: 6.5

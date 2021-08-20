@@ -2,7 +2,7 @@
 title: How to tweak Workbench memory parameters
 description: Steps to tweak Workbench memory parameters
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Beginner
 version: 6.5

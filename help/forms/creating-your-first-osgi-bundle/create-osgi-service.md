@@ -2,10 +2,6 @@
 title: Creating your first OSGi Service with AEM Forms
 description: Build your first OSGi service with AEM Forms 
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: article
-activity: setup
 version: 6.4,6.5
 topic: Development
 role: Developer

@@ -2,7 +2,7 @@
 title: How to apply policy created using document security module in Acrobat
 description: Configure Acrobat to apply policy to a document using document security 
 type: Troubleshooting
-product: forms 
+
 role: Developer
 level: Intermediate
 version: 6.5

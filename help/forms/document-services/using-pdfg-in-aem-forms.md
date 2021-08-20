@@ -1,17 +1,8 @@
 ---
 title: Using PDFG in AEM Forms
-seo-title: Using PDFG in AEM Forms
 description: Demonstrating Drag and Drop capability to create PDF using AEM Forms
-seo-description: Demonstrating Drag and Drop capability to create PDF using AEM Forms
-uuid: ee54edb4-a7b1-42ed-81ea-cb6bef6cf97f
-feature: pdf-generator
-topics: development
-audience: developer
-doc-type: article
-activity: implement
+feature: PDF Generator
 version: 6.4,6.5
-
-discoiquuid: 7f570f12-ce43-4da7-a249-ef6bd0fe48e5
 topic: Development
 role: Developer
 level: Intermediate

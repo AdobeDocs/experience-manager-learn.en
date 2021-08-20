@@ -2,11 +2,10 @@
 title: How to change the value of entropy
 description: Steps to change the value of entropy at the operating system level
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate
 version: 6.5
-feature: Foundation JEE
 topic: Administration
 index: y
 ---

@@ -2,7 +2,7 @@
 title: How to gather Workbench logs from the Help Menu
 description: Steps to gather the Workbench logs from the Help Menu
 type: Troubleshooting
-product: forms 
+
 role: Developer
 level: Beginner
 version: 6.5

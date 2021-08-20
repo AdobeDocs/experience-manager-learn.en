@@ -2,7 +2,7 @@
 title: Designer Preview HTML Preview- how to enable Preview HTML
 description: Steps to configure HTML Preview in Designer
 type: Troubleshooting
-product: forms 
+ 
 role: Developer 
 level: Intermediate
 version: 6.5

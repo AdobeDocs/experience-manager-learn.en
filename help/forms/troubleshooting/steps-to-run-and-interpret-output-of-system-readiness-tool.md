@@ -2,7 +2,7 @@
 title: Steps to run and interpret output of AEM Forms PDFG System Readiness Tool
 description:  Interprer the results of PDF Generator readiness utility.
 type: Troubleshooting
-product: forms 
+
 role: Developer 
 level: Intermediate  
 version: 6.5

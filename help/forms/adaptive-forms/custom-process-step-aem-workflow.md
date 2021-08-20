@@ -1,13 +1,7 @@
 ---
 title: Implementing Custom Process Step
-seo-title: Implementing Custom Process Step
 description: Writing Adaptive Form attachments to file system using custom process step
-seo-description: Writing Adaptive Form attachments to file system using custom process step
 feature: Workflow
-topics: development
-audience: developer
-doc-type: tutorial
-activity: understand
 version: 6.5
 topic: Development
 role: Developer

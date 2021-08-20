@@ -2,7 +2,7 @@
 title: Steps to enable strace trace (Unix setup)
 description: Configure strace logs for troubleshooting PDF Generator issues 
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate  
 version: 6.5

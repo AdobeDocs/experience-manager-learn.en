@@ -1,8 +1,7 @@
 ---
 title: Steps to enable verbose ORB trace
-description: Configure verbos ORB logs for troubleshooting PDF Generator issues 
+description: Configure verbose ORB logs for troubleshooting PDF Generator issues 
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Intermediate  
 version: 6.5

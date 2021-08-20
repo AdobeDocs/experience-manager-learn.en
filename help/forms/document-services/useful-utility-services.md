@@ -2,10 +2,6 @@
 title: Useful utility services
 description: Some useful utility services for AEM Forms developer
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: article
-activity: implement
 version: 6.4,6.5
 topic: Development
 role: Developer

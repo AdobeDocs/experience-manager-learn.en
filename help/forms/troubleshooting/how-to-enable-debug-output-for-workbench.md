@@ -2,7 +2,6 @@
 title: How to enable debug output for Workbench
 description: Steps to capture the debug logs for Workbench
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Intermediate
 version: 6.5

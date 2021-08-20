@@ -1,12 +1,11 @@
 ---
 title: Understand the different types of PDF forms and documents
 description: PDF is actually a family of file formats, and this article describes the types of PDFs that are important and relevant for form developers.
-solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
-level: Beginner,Intermediate
-version: 6.3,6.4,6.5
-feature: Document Services
+level: Beginner, Intermediate 
+version: 6.3,6.4, 6.5
+feature: PDF Generator
 kt: 7071
 topic: Development
 ---

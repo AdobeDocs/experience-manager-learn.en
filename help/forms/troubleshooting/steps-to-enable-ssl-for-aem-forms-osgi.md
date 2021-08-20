@@ -2,7 +2,6 @@
 title: Steps to enable SSL for AEM Forms OSGi instance
 description: Configure SSL on AEM Forms OSGI to access AEM over HTTPS
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Intermediate  
 version: 6.5

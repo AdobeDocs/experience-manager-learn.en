@@ -2,9 +2,7 @@
 title: Create the main adaptive form
 description: Create the adaptive forms to capture applicant information and adaptive form to retrieve the saved adaptive form
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
+type: Tutorial
 activity: implement
 version: 6.4,6.5
 kt: 6552

@@ -1,8 +1,7 @@
 ---
 title: Steps to troubleshoot acrobat specific issues on a Windows setup
-description: Troubleshoot Acrobat specefic issues on a Windows setup
+description: Troubleshoot Acrobat specific issues on a Windows setup
 type: Troubleshooting
-product: forms 
 role: Developer 
 level: Intermediate  
 version: 6.5

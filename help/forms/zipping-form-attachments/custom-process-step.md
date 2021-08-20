@@ -1,13 +1,7 @@
 ---
 title: Custom process step to zip file attachments
-
 description: Custom process step to add the adaptive form attachments to a zip file and store the zip file into a workflow variable
-
-feature: Workflow
-topics: adaptive forms
-audience: developer
-doc-type: article
-activity: setup
+feature: Adaptive Forms
 version: 6.5
 topic: Development
 role: Developer

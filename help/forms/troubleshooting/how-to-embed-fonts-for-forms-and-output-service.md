@@ -2,11 +2,10 @@
 title: How to embed Fonts for Forms and output service conversions
 description: Steps to embed fonts for Forms and output service conversions
 type: Troubleshooting
-product: forms 
 role: Admin 
-level: Developer
+level: Experienced
 version: 6.5
-feature: Forms Portal ,  Output Service
+feature: Forms Service, Output Service
 topic: Development  
 index: y
 ---

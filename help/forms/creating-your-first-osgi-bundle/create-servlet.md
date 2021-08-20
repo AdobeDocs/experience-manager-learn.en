@@ -2,10 +2,6 @@
 title: Creating your first servlet in AEM Forms
 description: Build your first sling servlet to merge data with form template.
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: article
-activity: setup
 version: 6.4,6.5
 topic: Development
 role: Developer

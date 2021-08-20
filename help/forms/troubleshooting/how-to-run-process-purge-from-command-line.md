@@ -2,11 +2,10 @@
 title: How to run process purge tool from command line
 description: Steps to run process purge tool from command line to delete records from Job Manager table
 type: Troubleshooting
-product: forms 
 role: Developer 
 level: Intermediate
 version: 6.5
-topic: Developer
+topic: Development
 index: y
 ---
 

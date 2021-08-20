@@ -2,11 +2,10 @@
 title: How to change transaction timeout of a service in AEM Forms JEE
 description: Steps to increase or decrease the transaction timeout of a service in AEM Forms JEE
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate
 version: 6.5
-feature: Foundation JEE
 topic: Administration
 index: y
 ---

@@ -2,11 +2,10 @@
 title: How to capture heap dumps of a JVM on a unix server
 description: Capture the heap dumps of running Java process on a unix server
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate
 version: 6.5
-feature: Foundation JEE
 topic: Administration
 index: y
 ---

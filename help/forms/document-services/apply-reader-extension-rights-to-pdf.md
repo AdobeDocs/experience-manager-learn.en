@@ -1,15 +1,8 @@
 ---
 title: Rendering XDP into PDF with Usage Rights
-seo-title: Rendering XDP into PDF with Usage Rights
 description: Apply usage rights to pdf
-seo-description: Apply usage rights to pdf
-uuid: 5e60c61e-821d-439c-ad89-ab169ffe36c0
-topics: development
-audience: developer
-doc-type: article
-activity: implement
 version: 6.4,6.5
-feature: Forms Service
+feature: Reader Extensions
 
 topic: Development
 role: Developer

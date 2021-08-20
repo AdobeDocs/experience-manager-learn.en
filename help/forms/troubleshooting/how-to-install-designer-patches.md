@@ -2,7 +2,6 @@
 title: How to install Designer Patches
 description: This article will walk you through the steps to install AEM Forms Designer patches
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Beginner
 version: 6.5

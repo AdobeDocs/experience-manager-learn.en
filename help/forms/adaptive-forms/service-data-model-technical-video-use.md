@@ -1,19 +1,9 @@
 ---
 title: Using Service Data Models with AEM Forms
-seo-title: Using Service Data Models with AEM Forms
+
 description: The AEM Adaptive Forms' rule editor can leverage the Services created in the Form Data Model.
-seo-description: The AEM Adaptive Forms' rule editor can leverage the Services created in the Form Data Model.
-uuid: fb4a331f-231a-4864-9325-6dceb288ad75
 feature: Adaptive Forms, Form Data Model
-topics: integrations
-audience: developer
-doc-type: technical video
-activity: setup
 version: 6.3,6.4,6.5
-
-discoiquuid: e3ff47c3-9ab3-41cb-83ba-38f3eb7b2299
-
-
 topic: Development
 role: Developer
 level: Beginner

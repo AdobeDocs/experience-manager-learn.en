@@ -2,7 +2,6 @@
 title: How to update the server conversion and server Global  timeout in PDFG service
 description: Configure the server conversion and server Global timeout for PDF Generator
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Intermediate
 version: 6.5

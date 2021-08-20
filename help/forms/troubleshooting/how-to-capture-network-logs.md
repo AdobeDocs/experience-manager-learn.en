@@ -2,11 +2,10 @@
 title: How to capture network logs / Tools to be used
 description: Steps to capture network logs for troubleshooting network related issues
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate
 version: 6.5
-feature: Foundation JEE
 topic: Administration
 index: y
 ---

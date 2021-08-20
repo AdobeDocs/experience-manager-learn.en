@@ -2,11 +2,9 @@
 title: How to add management user for JBoss admin console
 description: Configure the management user for JBOSS admin console
 type: Troubleshooting
-product: forms 
 role: Admin
 level: Intermediate
 version: 6.5
-feature: Foundation JEE 
 topic: Administration
 index: y
 ---

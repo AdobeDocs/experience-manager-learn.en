@@ -1,12 +1,10 @@
 ---
 title: Getting ForcedDisconnectException. Possible causes and steps to mitigate the problem.
-description: Steps to resolve the exception "ForcedDisconnectException - This member has been forced out of the distributed system" . 
+description: Steps to resolve the exception "ForcedDisconnectException - This member has been forced out of the distributed system".
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Intermediate  
 version: 6.5
-feature: Foundation JEE
 topic: Administration 
 index: y
 ---

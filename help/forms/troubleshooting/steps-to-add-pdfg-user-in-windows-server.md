@@ -2,7 +2,6 @@
 title: Steps to add PDFG user in Windows Server2016
 description: Configure PDF Generator in Windows Server 2016 
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Intermediate
 version: 6.5
