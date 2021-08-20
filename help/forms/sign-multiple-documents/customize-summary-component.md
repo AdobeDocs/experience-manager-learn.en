@@ -2,10 +2,6 @@
 title: Customize Summary Component
 description: Extend the summary step component to include the capability to navigate to the next form in the package.
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
 version: 6.4,6.5
 kt: 6894
 thumbnail: 6894.jpg

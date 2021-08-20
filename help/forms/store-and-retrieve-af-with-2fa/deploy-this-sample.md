@@ -2,10 +2,7 @@
 title: Deploy the sample
 description: Get use case running on your local AEM Forms instance
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+type: Tutorial
 version: 6.4,6.5
 kt: 6602
 thumbnail: 6602.jpg

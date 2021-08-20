@@ -1,14 +1,8 @@
 ---
 title: Certifying Document in AEM Forms
-seo-title: Certifying Document in AEM Forms
+
 description: Using the Docassurance service to certify PDF documents in AEM Forms
-seo-description: Using the Docassurance service to certify PDF documents in AEM Forms
-uuid: ecb1f9b6-bbb3-43a3-a0e0-4c04411acc9f
 feature: Document Security
-topics: development
-audience: developer
-doc-type: article
-activity: implement
 version: 6.4,6.5
 topic: Development
 role: Developer

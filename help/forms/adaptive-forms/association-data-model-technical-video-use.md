@@ -1,17 +1,8 @@
 ---
 title: Using Association Data Models with AEM Forms
-seo-title: Using Association Data Models with AEM Forms
 description:  Add associations between entities in Form Data Model
-seo-description: Add associations between entities in Form Data Model
-uuid: 82626632-3251-4f7b-9af1-43a9161107c2
-discoiquuid: e01e9bd4-5b47-4356-9884-6968f385bb20
 feature: Adaptive Forms, Form Data Model
-topics: integrations
-audience: developer
-doc-type: technical video
-activity: setup
 version: 6.3,6.4,6.5
-
 topic: Development
 role: Developer
 level: Beginner

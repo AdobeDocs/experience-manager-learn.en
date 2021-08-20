@@ -1,18 +1,11 @@
 ---
 title: Using Form Data Model Service as Step in AEM 6.5 Workflow
-seo-title: Using Form Data Model Service as Step in AEM 6.5 Workflow
-description: AEM Forms 6.5 introduced the ability to create variables in the AEM Workflow. With this new capability using the "Invoke Form Data Model Service" in AEM Workflow has become very easy. The following video will walk you through the steps involved in using the Invoke Form Data Model Service in AEM Workflow.
 
-seo-description: AEM Forms 6.5 introduced the ability to create variables in the AEM Workflow. With this new capability using the "Invoke Form Data Model Service" in AEM Workflow has become very easy. The following video will walk you through the steps involved in using the Invoke Form Data Model Service in AEM Workflow.
-
+description: AEM Forms 6.5 introduced the ability to create variables in the AEM Workflow. With this new capability using the "Invoke Form Data Model Service" in AEM Workflow has become very easy. The following video will walk you through the steps involved in using Invoke Form Data Model Service in AEM Workflow.
 
 feature: Workflow
-topics: workflow.
-audience: developer.
-doc-type: technical video.
-activity: setup.
+type: Tutorial
 version: 6.5.
-
 topic: Development
 role: Developer
 level: Intermediate

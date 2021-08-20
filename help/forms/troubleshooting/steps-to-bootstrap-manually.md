@@ -2,11 +2,11 @@
 title: Steps to bootstrap manually 
 description: Steps to bootstrap database manually if the database initialize is not working 
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate
 version: 6.5
-feature: Foundation JEE
+
 topic: Administration 
 index: y
 ---

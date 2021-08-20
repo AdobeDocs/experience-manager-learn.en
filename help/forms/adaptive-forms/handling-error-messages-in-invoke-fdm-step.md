@@ -1,13 +1,7 @@
 ---
 title: Capturing Error Messages in Form Data Model Service as Step in Workflow
-seo-title: Capturing Error Messages in Form Data Model Service as Step in Workflow
 description: Starting with AEM Forms 6.5.1, we now have the ability to capture error messages generated on using invoke Form Data Model Service as a step in AEM Workflow. Workflow.
-seo-description: Starting with AEM Forms 6.5.1, we now have the ability to capture error messages generated on using invoke Form Data Model Service as a step in AEM Workflow. Workflow.
 feature: Workflow
-topics: integrations
-audience: developer
-doc-type: article
-activity: setup
 version: 6.5.1,6.5.2
 topic: Development
 role: Developer

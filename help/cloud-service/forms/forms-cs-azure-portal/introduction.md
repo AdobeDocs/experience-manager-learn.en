@@ -6,7 +6,7 @@ type: Documentation
 role: Developer
 level: Beginner
 version: cloud-service
-topic: integration
+topic: Integrations
 thumbnail: 331891.jpg
 kt: 7192
 ---

@@ -2,7 +2,7 @@
 title: Steps to connect Workbench to AEM Forms server using HTTPS
 description: This article explains the steps to connect the Workbench to AEM Forms server over SSL (using HTTPS)
 type: Troubleshooting
-product: forms 
+
 role: Admin
 level: Intermediate
 version: 6.5

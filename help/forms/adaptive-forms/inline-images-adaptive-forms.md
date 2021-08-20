@@ -1,13 +1,8 @@
 ---
 title: Displaying inline images in Adaptive Forms
-seo-title: Displaying inline images in Adaptive Forms
 description: Display uploaded images inline in Adaptive Forms
-seo-description: Display uploaded images inline in Adaptive Forms
 feature: Adaptive Forms
 topics: development
-audience: developer
-doc-type: article
-activity: setup
 version: 6.3,6.4,6.5
 topic: Development
 role: Developer
@@ -17,6 +12,8 @@ level: Experienced
 # Inline images in Adaptive Forms
 
 A common use case is to display the uploaded image as an inline image in Adaptive Form. By default, the uploaded image is shown as a link and this experience can be enhanced by displaying the image in Adaptive Form. This article will walk you through the steps involved in displaying inline image.
+
+[Live example of this capability](https://forms.enablementadobe.com/content/samples/samples.html?query=0#collapse1)
 
 ## Add placeholder image
 

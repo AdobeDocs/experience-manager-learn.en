@@ -1,15 +1,7 @@
 ---
 title: Send adaptive form attachments
-
 description: Send adaptive form attachments using send email component
-
-
-feature: adaptive forms
-
-topics: adaptive forms
-audience: developer
-doc-type: article
-activity: setup
+feature: Adaptive Forms
 version: 6.5
 topic: Development
 role: Developer

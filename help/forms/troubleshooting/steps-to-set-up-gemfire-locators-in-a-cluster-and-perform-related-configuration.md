@@ -2,7 +2,7 @@
 title: Steps to set-up gemfire locators in a cluster and perform related configuration
 description: Configue gemfire locators in a cluster
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Experienced  
 version: 6.5

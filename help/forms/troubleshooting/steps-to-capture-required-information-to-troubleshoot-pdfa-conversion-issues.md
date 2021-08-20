@@ -2,7 +2,7 @@
 title: Steps to capture the required information to troubleshoot PDF/A issues 
 description: Troubleshoot issues related to Assembler conversion and validation
 type: Troubleshooting
-product: forms 
+
 role: Developer 
 level: Intermediate  
 version: 6.5

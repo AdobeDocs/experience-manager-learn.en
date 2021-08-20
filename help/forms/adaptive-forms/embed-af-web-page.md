@@ -2,14 +2,10 @@
 title: Embedding Adaptive Forms/HTML5 forms in web page
 description: Configuration steps needed to embed Adaptive Forms or HTML5 forms in a non AEM web page.
 feature: Adaptive Forms
-feature-set: Adaptive Forms
-topics: development
-audience: developer
-doc-type: Tutorial
-activity: implement
+type: Tutorial
 version: 6.4,6.5
-topic: Administration
-role: Admin
+topic: Development
+role: Developer
 level: Beginner
 kt: 8390
 ---

@@ -1,16 +1,8 @@
 ---
 title: Create Re-Usable AEM Forms Workflow Models.
-seo-title: Create Re-Usable AEM Forms Workflow Models.
 description: workflow models independent of Adaptive Forms.
-seo-description: Workflow models independent of Adaptive Forms.
 feature: Workflow
-topics: development
-audience: developer
-doc-type: article
-activity: setup
 version: 6.5
-uuid: 3a082743-3e56-42f4-a44b-24fa34165926
-discoiquuid: 9f18c314-39d1-4c82-b1bc-d905ea472451
 topic: Development
 role: Developer
 level: Beginner

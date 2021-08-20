@@ -2,10 +2,7 @@
 title: Create client libraries
 description: Create clientlibrary to handle the click event of the "Save and Exit" button
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+type: Tutorial
 version: 6.4,6.5
 kt: 6597
 thumbnail: 6597.pg

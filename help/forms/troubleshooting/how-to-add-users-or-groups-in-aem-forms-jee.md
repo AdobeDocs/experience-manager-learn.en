@@ -2,11 +2,9 @@
 title: How to add users and groups in AEM Forms JEE
 description: Steps to add the users and groups in AEM Forms JEE
 type: Troubleshooting
-product: forms 
 role: Admin
 level: Intermediate
 version: 6.5
-feature: Foundation JEE 
 topic: Administration
 index: y
 ---

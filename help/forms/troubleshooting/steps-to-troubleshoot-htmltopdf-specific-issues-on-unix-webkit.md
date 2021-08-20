@@ -1,8 +1,8 @@
 ---
 title: Steps to troubleshoot HtmltoPDF specific issues on a Unix setup (WebKit conversion)
-description:  Troubleshoot HtmltoPDF issues using Webkit on UNIX Setup.
+description: Troubleshoot HtmltoPDF issues using Webkit on UNIX Setup.
 type: Troubleshooting
-product: forms 
+
 role: Developer 
 level: Intermediate  
 version: 6.5

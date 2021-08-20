@@ -2,11 +2,10 @@
 title: How to generate a self signed certificate
 description: Steps to generate a self signed certificate for applying SSL
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate
 version: 6.5
-feature: Foundation JEE
 topic: Administration
 index: y
 ---

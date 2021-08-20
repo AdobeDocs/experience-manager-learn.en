@@ -2,11 +2,10 @@
 title: How to increase UM Session timeout
 description: Steps to increase the user management session timeout for a user
 type: Troubleshooting
-product: forms 
+ 
 role: Admin 
 level: Intermediate
 version: 6.5
-feature: Foundation JEE
 topic: Administration
 index: y
 ---
