@@ -2,10 +2,6 @@
 title: Update the Signature Status of the Form in the Database
 description: Update the signature status of the signed form in the database using the AEM workflow
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
 version: 6.4,6.5
 kt: 6888
 thumbnail: 6888.jpg

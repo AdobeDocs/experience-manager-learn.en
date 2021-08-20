@@ -2,7 +2,6 @@
 title: Steps to troubleshoot OpenOffice specific issues on a Unix setup
 description:  Troubleshoot OpenOffice issues with PDF Generator issues on UNIX Setup.
 type: Troubleshooting
-product: forms 
 role: Developer 
 level: Intermediate  
 version: 6.5

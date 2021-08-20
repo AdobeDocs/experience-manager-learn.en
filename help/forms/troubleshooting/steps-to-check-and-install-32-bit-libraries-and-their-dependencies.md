@@ -2,11 +2,11 @@
 title: Steps to check the required 32-bit Microsoft Visual C++ redistributables
 description: Install 32-bit Microsoft Visual C++ redistributables. 
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate  
 version: 6.5
-feature: Foundation JEE 
+
 topic: Administration   
 index: y
 ---

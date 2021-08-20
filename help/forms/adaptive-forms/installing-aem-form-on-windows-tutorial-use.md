@@ -1,18 +1,11 @@
 ---
 title: Simplified Steps for Installing AEM Forms on Windows
-seo-title: Simplified Steps for Installing AEM Forms on Windows
 description: Quick and easy steps to install AEM Forms on windows
-seo-description: Quick and easy steps to install AEM Forms on windows
-uuid: a148b8f0-83db-47f6-89d3-c8a9961be289
 feature: Adaptive Forms
-topics: administration
-audience: developer
-doc-type: article
-activity: setup
+type: Tutorial
 version: 6.4,6.5
-discoiquuid: 1182ef4d-5838-433b-991d-e24ab805ae0e
 topic: Development
-role: Developer
+role: Admin
 level: Beginner
 ---
 

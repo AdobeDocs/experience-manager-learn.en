@@ -1,12 +1,7 @@
 ---
 title: Test the solution
 description: Test the solution by adding attachments to the form and trigger the workflow to send the email.
-sub-product: forms
-feature: Workflow
-topics: adaptive forms
-audience: developer
-doc-type: article
-activity: develop
+feature: Adaptive Forms
 version: 6.5
 topic: Development
 role: Developer

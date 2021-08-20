@@ -2,11 +2,11 @@
 title: Steps to reset default password for administrator in AEM Forms JEE
 description: Reset password of Administrator user from the default password
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Intermediate  
 version: 6.5
-feature: Foundation JEE
+
 topic: Administration 
 index: y
 ---

@@ -2,10 +2,7 @@
 title: Store form attachments
 description: Extract the form attachments and store in a new location in the CRX repository.
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+type: Tutorial
 version: 6.4,6.5
 kt: 6537
 thumbnail: 6537.jpg

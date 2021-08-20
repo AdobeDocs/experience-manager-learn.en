@@ -2,10 +2,6 @@
 title: Create Client Library
 description: Client library code to fetch the next form to sign
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
 version: 6.4,6.5
 kt: 6907
 thumbnail: 6907.jpg

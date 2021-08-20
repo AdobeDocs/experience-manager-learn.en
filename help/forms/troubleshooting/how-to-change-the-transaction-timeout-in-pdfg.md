@@ -2,7 +2,7 @@
 title: How to change the transaction timeout of an application server in PDFG service
 description: Steps to increase or decrease the transaction timeout of an application server for PDF Generator
 type: Troubleshooting
-product: forms 
+
 role: Admin 
 level: Beginner
 version: 6.5

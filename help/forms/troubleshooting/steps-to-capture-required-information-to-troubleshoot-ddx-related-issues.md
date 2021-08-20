@@ -2,7 +2,7 @@
 title: Steps to capture the required information to troubleshoot DDX related issues 
 description: Capture required details to troubleshoot issues related to Assembler 
 type: Troubleshooting
-product: forms 
+
 role: Developer 
 level: Intermediate  
 version: 6.5

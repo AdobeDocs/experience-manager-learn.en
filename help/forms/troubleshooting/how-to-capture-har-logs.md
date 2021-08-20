@@ -2,11 +2,9 @@
 title: How to capture HAR (HTTP archive) logs
 description: Capture HTTP archive logs for troubleshooting network related issues
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Intermediate
 version: 6.5
-feature: Administration
 topic: Administration
 index: y
 ---

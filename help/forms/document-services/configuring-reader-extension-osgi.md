@@ -1,16 +1,10 @@
 ---
 title: Configuring Reader Extensions in AEM Forms OSGi
-
-description: Add REader Extenions credential to the trust store in AEM Forms OSGi
+description: Add Reader Extensions credential to the trust store in AEM Forms OSGi
 feature: Reader Extensions
-feature-set: Reader Extensions
-topics: development
 audience: developer
-doc-type: Tutorial
-activity: implement
+type: Tutorial
 version: 6.4,6.5
-
-
 topic: Administration
 role: Admin
 level: Beginner

@@ -2,7 +2,6 @@
 title: Designer Preview PDF Disabled- how to enable Preview PDF
 description: Steps to configure PDF Preview in Designer
 type: Troubleshooting
-product: forms 
 role: Developer 
 level: Intermediate
 version: 6.5

@@ -1,12 +1,12 @@
 ---
 title: Steps to tweak parameters on JMX console
-description:  Configure JMX Console parameters
+description: Configure JMX Console parameters
 type: Troubleshooting
-product: forms 
+ 
 role: Developer 
 level: Intermediate  
 version: 6.5
-feature: Output Service , Forms Service
+feature: Output Service, Forms Service
 topic: Development   
 index: y
 ---

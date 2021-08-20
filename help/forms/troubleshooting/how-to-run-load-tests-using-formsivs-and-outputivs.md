@@ -1,12 +1,12 @@
 ---
 title: How to run load tests from UI using OOTB FormsIVS and OutputIVS samples
-description: Configue load tests using FormsIVS and OutputIVS
+description: Configure load tests using FormsIVS and OutputIVS
 type: Troubleshooting
-product: forms 
+
 role: Developer 
 level: Intermediate
 version: 6.5
-feature: Output Service , Forms Service
+feature: Output Service, Forms Service
 topic: Development  
 index: y
 ---

@@ -2,9 +2,7 @@
 title: Storing and Retrieving Form Data from MySQL Database
 description: Multi-Part tutorial to walk you through the steps involved in storing and retrieving form data
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
+type: Tutorial
 activity: implement
 version: 6.3,6.4,6.5
 topic: Development

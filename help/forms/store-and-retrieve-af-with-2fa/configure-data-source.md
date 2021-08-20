@@ -2,10 +2,7 @@
 title: Configure Data Source
 description: Create DataSource pointing to the MySQL database
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+type: Tutorial
 version: 6.4,6.5
 kt: 6541
 thumbnail: 6541.jpg

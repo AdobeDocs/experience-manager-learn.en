@@ -2,10 +2,7 @@
 title: Store form data
 description: Store form data along with the new attachments map in the database
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+type: Tutorial
 version: 6.3,6.4,6.5
 kt: 6538
 thumbnail: 6538.jpg

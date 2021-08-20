@@ -1,13 +1,12 @@
 ---
 title: Creating Adaptive Form Template
 description: The template defines the structure and initial content of the Adaptive Form.
-feature: adaptive-forms
-topics: authoring
-audience: developer
-doc-type: tutorial
-activity: understand
+feature: Adaptive Forms
+topic: Development
+role: Developer
+level: Beginner
 kt: 5859
-thumbnail: 37324
+thumbnail: 37324.jpg
 ---
 
 # Creating Adaptive Form Template

@@ -1,17 +1,8 @@
 ---
 title: Using CAPTCHAs with AEM Adaptive Forms
-seo-title: Using CAPTCHAs with AEM Adaptive Forms
 description: Adding and using a CAPTCHA with AEM Adaptive Forms.
-seo-description: Adding and using a CAPTCHA with AEM Adaptive Forms.
-
 feature: Adaptive Forms,Workflow
-topics: integrations
-audience: developer
-doc-type: technical video
-activity: setup
 version: 6.4,6.5
-uuid: bd63e207-4f4d-4f34-9ac4-7572ed26f646
-discoiquuid: 5e184e44-e385-4df7-b7ed-085239f2a642
 topic: Development
 role: Developer
 level: Intermediate
@@ -21,7 +12,7 @@ level: Intermediate
 
 Adding and using a CAPTCHA with AEM Adaptive Forms.
 
-Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/samples/samples.html?query=0) page for a link to a live demo of this capability.
+Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/samples/samples.html?query=0#collapse1) page for a link to a live demo of this capability.
 
 >[!VIDEO](https://video.tv.adobe.com/v/18336/?quality=9&learn=on)
 
@@ -37,7 +28,7 @@ Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/s
 >
 >Configure reCaptach on author instance
 >
->open the felix [web console](http://localhost:4502/system/console/bundles) on the author instance
+>open the Felix [web console](http://localhost:4502/system/console/bundles) on the author instance
 >
 >search for com.adobe.granite.crypto.file bundle
 >

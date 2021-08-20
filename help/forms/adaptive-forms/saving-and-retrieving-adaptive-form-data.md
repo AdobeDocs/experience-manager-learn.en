@@ -1,14 +1,12 @@
 ---
 
 title: Saving and Retrieving Adaptive Form Data
-seo-title: Saving and Retrieving Adaptive Form Data
+
 description: Saving and retrieving adaptive form data from database. This capability  allows form fillers to save the form and continue filling the form at a later date.
-seo-description: Saving and retrieving adaptive form data from database. This capability  allows form fillers to save the form and continue filling the form at a later date.
-feature: adaptive-forms
-topics: developing
-audience: developer,implementer
-doc-type: article
-activity: setup
+feature: Adaptive Forms
+topic: Development
+role: Developer
+type: Tutorial
 version: 6.3,6.4,6.5
 ---
 

@@ -2,7 +2,6 @@
 title: Steps to enable debug logging for any classes in AEM Forms OSGi
 description: Configure debug logging for troubleshooting AEM Forms OSGi
 type: Troubleshooting
-product: forms 
 role: Admin 
 level: Intermediate  
 version: 6.5
