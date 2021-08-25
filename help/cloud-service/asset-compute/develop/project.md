@@ -1,15 +1,10 @@
 ---
 title: Create an Asset Compute project for Asset Compute extensibility
 description: Asset Compute projects are Node.js projects, generated using the Adobe I/O CLI, that adhere to a certain structure allowing them to be deployed to Adobe I/O Runtime and integrated with AEM as a Cloud Service.
-feature: Asset Compute Microservices
-topics: renditions, development
-version: cloud-service
-activity: develop
-audience: developer
-doc-type: tutorial
 kt: 6269
 thumbnail: 40197.jpg
 topic: Integrations, Development
+feature: Asset Compute Microservices
 role: Developer
 level: Intermediate, Experienced
 ---
@@ -28,7 +23,7 @@ Use the [Adobe I/O CLI Asset Compute plug-in](../set-up/development-environment.
 
 1. From the command line, navigate to the folder to contain the project.
 1. From the command line, execute `aio app init` to begin the interactive project generation CLI.
-    + This command may spawn a Web browser prompting for authentication to Adobe I/O. If it does, provide your Adobe credentials associated with the [required Adobe services and products](../set-up/accounts-and-services.md). If you are unable to log in, follow [these instructions on how to generate a project](https://github.com/AdobeDocs/project-firefly/blob/master/getting_started/first_app.md#42-developer-is-not-logged-in-as-enterprise-organization-user). 
+    + This command may spawn a Web browser prompting for authentication to Adobe I/O. If it does, provide your Adobe credentials associated with the [required Adobe services and products](../set-up/accounts-and-services.md). If you are unable to log in, follow [these instructions on how to generate a project](https://www.adobe.io/project-firefly/docs/getting_started/first_app/#42-developer-is-not-logged-in-as-enterprise-organization-user). 
 1. __Select Org__
     + Select the Adobe Org that has AEM as a Cloud Service, Project Firefly are registered with
 1. __Select Project__

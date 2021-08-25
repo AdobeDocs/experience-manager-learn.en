@@ -64,5 +64,3 @@ Learn more about [Dynamic Media Classic Sharpening Options](https://experiencele
 [Image Preset Guide](https://www.adobe.com/content/dam/www/us/en/experience-manager/pdfs/dynamic-media-image-preset-guide.pdf). Settings to use to optimize for image quality and loading speed.
 
 [Image Is Everything Part 2: It's Never Just a Blur — Quality Versus Speed](https://theblog.adobe.com/image-is-everything-part-2-its-never-just-a-blur-quality-versus-speed/). A blog post discussing using Image Presets for delivering high-quality, fast-loading images.
-
-[Image Is Everything Webinars](https://dynamicmediaseries2019.enterprise.adobeevents.com/). Links to recordings of all three webinars in the _Image Is Everything_ series. [Webinar 2](https://seminars.adobeconnect.com/p6lqaotpjnd3) discusses Image Presets.

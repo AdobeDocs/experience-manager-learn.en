@@ -152,11 +152,7 @@ One of the goals of this tutorial is to show how to consume AEM content from an 
 
     ![GraphQL Endpoint XHR request](assets/setup/endpoint-gql.png)
 
-1. You can also view the parameters and JSON response by inspecting the network request. It may be helpful to install a browser extension like [GraphQL Network](https://chrome.google.com/webstore/detail/graphql-network/igbmhmnkobkjalekgiehijefpkdemocm) for Chrome to get a better understanding of the query and response.
-
-    ![GraphQL Network Extension](assets/setup/GraphQL-extension.png)
-
-    *Using the Chrome extension GraphQL Network*
+1. You can also view the parameters and JSON response by inspecting the network request. It may be helpful to install a browser extension like [GraphQL Network Inspector](https://chrome.google.com/webstore/detail/graphql-network-inspector/ndlbedplllcgconngcnfmkadhokfaaln) for Chrome to get a better understanding of the query and response.
 
 ## Modify a Content Fragment
 

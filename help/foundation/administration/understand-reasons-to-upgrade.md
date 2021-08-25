@@ -2,11 +2,6 @@
 title: Understand Reasons to Upgrade
 description: A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.
 version: 6.5
-sub-product: assets, cloud-manager, commerce, content-services, dynamic-media, forms, foundation, screens, sites
-topics: best-practices, upgrade
-audience: all
-activity: understand
-doc-type: article
 topic: Upgrade
 role: Leader, Architect, Developer, Admin, User
 level: Beginner
@@ -498,7 +493,7 @@ Below is a matrix of key Sites features offered by AEM. Some of these features w
             <td>✔<sup>+</sup></td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/release-notes/style-system-fp.html" target="_blank">Style System</a>:</strong>
+            <td><strong>Style System:</strong>
             Increase AEM component re-use by defining their visual appearance using the in-context style system.</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -553,7 +548,7 @@ Below is a matrix of key Sites features offered by AEM. Some of these features w
             <td>✔</td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-feature-video-understand.html" target="_blank">Content Fragments</a>:</strong>
+            <td><strong>Content Fragments:</strong>
             Create and curate editorial content de-coupled from the presentation for easy reuse.</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -575,7 +570,7 @@ Below is a matrix of key Sites features offered by AEM. Some of these features w
             <td>✔<sup>+</sup></td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/release-notes/content-services-fragments-featurepack.html" target="_blank">Content Services</a>:</strong>
+            <td><strong>Content Services:</strong>
             Export content from AEM as JSON for consumption across devices and applications.</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -630,7 +625,7 @@ Below is a matrix of key Sites features offered by AEM. Some of these features w
             <td>✔</td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/aem-screens-introduction.html" target="_blank">Screens</a>:</strong>
+            <td><strong>Screens:</strong>
             Manage experiences for digital signage and kiosks.</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -987,8 +982,6 @@ Below is a matrix of key Assets features offered by AEM. Some of these features 
 
 Below is a matrix of key AEM Forms Add-on features offered by AEM. Some of these features were introduced in earlier versions incremental enhancements added in each release.
 
-+ [AEM Forms release notes](https://helpx.adobe.com/experience-manager/6-5/release-notes/forms.html)
-
 ***✔<sup>+</sup> significant enhancements to the feature in this version.***
 
 ***✔<sup>SP</sup> denotes the feature is available via a Service Pack or Feature Pack.***
@@ -1143,7 +1136,7 @@ Below is a matrix of key AEM Forms Add-on features offered by AEM. Some of these
             <td>✔<sup>+</sup></td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/pdf/aem-forms/6-5/WorkbenchHelp.pdf" target="_blank">Workflow (J2EE) for Forms Processing</a>:</strong>
+            <td><strong>Workflow (J2EE) for Forms Processing:</strong>
             Build complex forms/document-centric workflows utilizing an intuitive IDE.</td>
             <td></td>
             <td>✔</td>
@@ -1182,8 +1175,6 @@ Below is a matrix of key AEM Forms Add-on features offered by AEM. Some of these
 ## Communities Features
 
 Below is a matrix of key AEM Communities Add-on features offered by AEM. Some of these features were introduced in earlier versions incremental enhancements added in each release.
-
-+ [AEM Communities new feature summary](https://helpx.adobe.com/experience-manager/6-5/communities/using/whats-new-aem-communities.html#main-pars_text)
 
 ***✔<sup>+</sup> significant enhancements to the feature in this version.***
 
@@ -1629,7 +1620,7 @@ Below is a matrix of key AEM Communities Add-on features offered by AEM. Some of
     </tbody>
 </table>
 
-AEM Communities adds [enhancements](https://helpx.adobe.com/experience-manager/6-5/communities/using/whats-new-aem-communities.html) through releases to enable organizations to engage and enable their users, by:
+AEM Communities adds enhancements through releases to enable organizations to engage and enable their users, by:
 
 + **@mention** support in user-generated content.
 + Accessibility improvements through **Keyboard Navigation** in **Enablement** components.

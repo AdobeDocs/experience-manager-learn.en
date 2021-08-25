@@ -15,14 +15,14 @@ level: Intermediate
 
 * [AEM author and publish instance](./implementation.md#set-up-aem) running on localhost port 4502 and 4503 respectively
 * **Experience Cloud**
-  * Access to your organizations Adobe Experience Cloud - <https://>`<yourcompany>`.experiencecloud.adobe.com
+  * Access to your organizations Adobe Experience Cloud - `https://<yourcompany>.experiencecloud.adobe.com`
   * Experience Cloud provisioned with the following solutions
     * [Adobe Experience Platform Launch](https://experiencecloud.adobe.com)
     * [Adobe Target](https://experiencecloud.adobe.com)
     * [Adobe I/O Console](https://console.adobe.io)
   
     >[!NOTE]
-    >You should have permission to Develop, Approve, Publish, Manage Extensions, and Manage Environments in Launch. If you are unable to complete any of these steps because the user interface options are not available to you, reach out to your Experience Cloud Administrator to request access. For more information on Launch permissions, [see the documentation](https://docs.adobelaunch.com/administration/user-permissions).
+    >You should have permission to Develop, Approve, Publish, Manage Extensions, and Manage Environments in Launch. If you are unable to complete any of these steps because the user interface options are not available to you, reach out to your Experience Cloud Administrator to request access. For more information on Launch permissions, [see the documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html).
 
 * **Browser Plugins**
   * Adobe Experience Cloud Debugger ([Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj))
@@ -59,7 +59,7 @@ In this section, we would be cover the following integration steps:
 
 A property is a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site.
 
-1. Navigate to your organizations [Adobe Experience Cloud](https://experiencecloud.adobe.com/) (<https://>`<yourcompany>`.experiencecloud.adobe.com)
+1. Navigate to your organizations [Adobe Experience Cloud](https://experiencecloud.adobe.com/) (`https://<yourcompany>.experiencecloud.adobe.com`)
 2. Log in using your Adobe ID, and make sure you are in the right organization.
 3. From the solution switcher, click on **Launch** and then select the **Go To Launch** button.
 
@@ -68,7 +68,7 @@ A property is a container that you fill with extensions, rules, data elements, a
 4. Make sure you are in the right organization and then proceed with creating a Launch property.
   ![Experience Cloud - Launch](assets/using-launch-adobe-io/launch-create-property.png)
   
-    *For more information on creating properties, see [Create a Property](https://docs.adobelaunch.com/administration/companies-and-properties#create-a-property) in the product documentation.*
+    *For more information on creating properties, see [Create a Property](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en#create-or-configure-a-property) in the product documentation.*
 5. Click on the **New Property** button
 6. Provide a name for your property (For example, *AEM Target Tutorial*)
 7. As the domain, enter *localhost.com* since this is the domain where the WKND demo site is running on. Although the '*Domain*' field is required, the Launch property will work on any domain where it's implemented. Primary purpose of this field is to pre-populate menu options in the Rule builder.

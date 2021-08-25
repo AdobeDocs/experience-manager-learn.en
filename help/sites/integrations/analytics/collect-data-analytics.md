@@ -46,7 +46,7 @@ The following are required:
 Instead of setting up an AEM environment and installing the WKND code base, you can use the Experience Platform debugger to **switch** the live [https://wknd.site/](https://wknd.site/) to *your* Launch Property. Of course you can use your own AEM site if it already has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation)
 
 1. Login to Experience Platform Launch and [create a Launch Property](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/configure-launch/launch.html) (if you haven't already).
-1. Ensure that an initial Launch [Library has been created](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library) and promoted to a Launch [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments.html).
+1. Ensure that an initial Launch [Library has been created](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library) and promoted to a Launch [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html).
 1. Copy the Launch embed code from the environment that your Library has been published to.
 
    ![Copy Launch Embed Code](assets/collect-data-analytics/launch-environment-copy.png)
@@ -166,7 +166,7 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Pa
 
    The `event` object is passed from the `trigger()` method called in the custom event. `component` is the current page derived from the data layer `getState` in the the custom event. Recall from earlier the [Page schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#page) exposed by the data layer in order to see the various keys exposed out of the box.
 
-1. Save the changes and run a [build](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/builds.html) in Launch to promote the code to the [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments.html) used on your AEM Site.
+1. Save the changes and run a [build](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/builds.html) in Launch to promote the code to the [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html) used on your AEM Site.
 
    >[!NOTE]
    >

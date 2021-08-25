@@ -18,7 +18,8 @@ In this video:
 
 * **www.example.com** maps to localhost via `/etc/hosts`
 * **aem-publish.local** maps to localhost via `/etc/hosts`
-* [SimpleHTTPServer](https://itunes.apple.com/us/app/simple-http-server/id441002840?mt=12) (a wrapper for [[!DNL Python]'s SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)) is serving the HTML page via port 8000.
+* SimpleHTTPServer (a wrapper for [[!DNL Python]'s SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)) is serving the HTML page via port 8000.
+  * _No longer available in Mac App Store. Use similar such as [Jeeves](https://apps.apple.com/us/app/jeeves-local-http-server/id980824182?mt=12)._
 * [!DNL AEM Dispatcher] is running on [!DNL Apache HTTP Web Server] 2.4 and reverse-proxying request to `aem-publish.local` to `localhost:4503`.
 
 For more details, review [Understanding Cross-Origin Resource Sharing (CORS) in AEM](./understand-cross-origin-resource-sharing.md).
@@ -111,7 +112,7 @@ It is likely clearing the cache entirely is required to ensure headers are appro
 ## Supporting materials {#supporting-materials}
 
 * [AEM OSGi Configuration factory for Cross-Origin Resource Sharing Policies](http://localhost:4502/system/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl)
-* [SimpleHTTPServer for macOS](https://itunes.apple.com/us/app/simple-http-server/id441002840?mt=12)
+* [Jeeves for macOS](https://apps.apple.com/us/app/jeeves-local-http-server/id980824182?mt=12)
 * [Python SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html) (Windows/macOS/Linux compatible)
 
 * [Understanding Cross-Origin Resource Sharing (CORS) in AEM](./understand-cross-origin-resource-sharing.md)
