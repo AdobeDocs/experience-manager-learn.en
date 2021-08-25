@@ -203,12 +203,12 @@ When using an IDE please make sure to check `classic` in your Maven Profile tab.
 
 ### [!DNL Eclipse] IDE
 
-The **[[!DNL Eclipse] IDE](https://www.eclipse.org/ide/)** is one of the more popular IDEs for Java development, in large part because it is open source and ***free***! Adobe provides a plugin, **[[!DNL AEM Developer Tools]](https://eclipse.adobe.com/aem/dev-tools/)**, for [!DNL Eclipse] to allow easier development with a nice GUI to synchronize code with a local AEM instance. The [!DNL Eclipse] IDE is recommended for developers new to AEM in large part because of the GUI support by [!DNL AEM Developer Tools].
+The **[[!DNL Eclipse] IDE](https://www.eclipse.org/ide/)** is one of the more popular IDEs for Java development, in large part because it is open source and ***free***! Adobe provides a plugin, **[[!DNL AEM Developer Tools]](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html)**, for [!DNL Eclipse] to allow easier development with a nice GUI to synchronize code with a local AEM instance. The [!DNL Eclipse] IDE is recommended for developers new to AEM in large part because of the GUI support by [!DNL AEM Developer Tools].
 
 #### Installation and Setup
 
 1. Download and install the [!DNL Eclipse] IDE for [!DNL Java EE Developers]: [https://www.eclipse.org](https://www.eclipse.org/)
-1. Follow the instructions to install the [!DNL AEM Developer Tools] plugin: [https://eclipse.adobe.com/aem/dev-tools/](https://eclipse.adobe.com/aem/dev-tools/)
+1. Follow the instructions to install the [!DNL AEM Developer Tools] plugin: [https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html](https://eclipse.adobe.com/aem/dev-tools/)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25906?quality=12&learn=on)
 

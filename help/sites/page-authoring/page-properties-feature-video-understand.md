@@ -1,19 +1,13 @@
 ---
 title: Understanding Page Properties in AEM Sites
-seo-title: Understanding Page Properties in Adobe Experience Manager Sites
 description: The following video introduces the page properties metadata associated with a page in Adobe Experience Manager.
-seo-description: The following video introduces the page properties metadata associated with a page in Adobe Experience Manager. 
-feature: Page Editor
-topics: authoring, metadata
-audience: author, marketer
-doc-type: feature video
-activity: understand
 version: 6.3, 6.4, 6.5
-kt: 4321
-thumbnail: 32192.jpg
 topic: Content Management
+feature: Page Editor
 role: User
 level: Beginner
+kt: 4321
+thumbnail: 32192.jpg
 ---
 
 # Understanding page properties {#understanding-page-properties-aem-sites}
@@ -58,4 +52,5 @@ In this video, the following page property elements are covered:
 
 * [Editing Page Properties Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-page-properties.html)
 * [Editing Page Content Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-content.html)
-* [Sites Authoring User Guide](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html&topic=/experience-manager/6-5/sites/authoring/morehelp/page-authoring.ug.js)
+* [Quick Start Guide to Authoring Pages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/getting-started/quick-start.html)
+

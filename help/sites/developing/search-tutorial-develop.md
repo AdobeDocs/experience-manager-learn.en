@@ -1,10 +1,6 @@
 ---
 title: Simple search implementation guide
 description: The Simple search implementation are the materials from the 2017 Summit lab AEM Search Demystified. This page contains the materials from this lab. For a guided tour of the lab, please view  the Lab workbook in the Presentation section of this page.
-topics: development, search
-audience: developer
-doc-type: tutorial
-activity: develop
 version: 6.3, 6.4, 6.5
 feature: Search
 topic: Development
@@ -107,7 +103,7 @@ Corrections and clarifications from the lab discussions and answers to follow-up
 
     Oak exposes a set of lucene-provides analyzer configuration elements for use in AEM.
 
-    * [Apache Oak Analyzers documentation](http://jackrabbit.apache.org/oak/docs/query/lucene.html#analyzers)
+    * [Apache Oak Analyzers documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html#analyzers)
         * [Tokenizers](https://cwiki.apache.org/confluence/display/solr/Tokenizers)
         * [Filters](https://cwiki.apache.org/confluence/display/solr/Filter+Descriptions)
         * [CharFilters](https://cwiki.apache.org/confluence/display/solr/CharFilterFactories)

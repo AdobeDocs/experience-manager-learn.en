@@ -12,7 +12,7 @@ level: Beginner
 
 AEM 6.4.2 provides users the ability to search, preview, save and license Adobe Stock assets directly from AEM. Organizations can now integrate their Adobe Stock Enterprise plan with AEM Assets to make sure that licensed assets are now broadly available for their creative and marketing projects, with the powerful asset management capabilities of AEM.
 
->[!VIDEO](https://video.tv.adobe.com/v/24678/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/24678/?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -66,11 +66,11 @@ AEM 6.4.2 provides users the ability to search, preview, save and license Adobe 
 
 >[!NOTE]
 >
->The integration requires an [enterprise Adobe Stock plan](https://landing.adobe.com/en/na/products/creative-cloud/ctir-4625-stock-for-enterprise/index.html) and AEM 6.4 with at least [Service Pack 2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.2.0) deployed. For AEM 6.4 service pack details, see these [release notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html). You would also need admin permissions to [Adobe I/O Console](https://console.adobe.io/), [Adobe Admin Console](https://adminconsole.adobe.com/) and Adobe Experience Manager to set up the integration.
+>The integration requires an [enterprise Adobe Stock plan](https://landing.adobe.com/en/na/products/creative-cloud/ctir-4625-stock-for-enterprise/index.html) and AEM 6.4 with at least [Service Pack 2](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?fulltext=AEM*+6*+4*+Service*+Pack*&2_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&2_group.propertyvalues.operation=equals&2_group.propertyvalues.0_values=target-version%3Aaem%2F6-4&3_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&3_group.propertyvalues.operation=equals&3_group.propertyvalues.0_values=software-type%3Aservice-and-cumulative-fix&orderby=%40jcr%3Acontent%2Fmetadata%2Fdc%3Atitle&orderby.sort=asc&layout=list&p.offset=0&p.limit=24) deployed. For AEM 6.4 service pack details, see these [release notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html). You would also need admin permissions to [Adobe I/O Console](https://console.adobe.io/), [Adobe Admin Console](https://adminconsole.adobe.com/) and Adobe Experience Manager to set up the integration.
 
 ### Installation {#installations}
 
-* For AEM 6.4, you need to install the [AEM Service Pack 2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.2.0) and then re-install the cq-dam-stock-integration-content-1.0.4.zip file.
+* For AEM 6.4, you need to install the [AEM Service Pack 2](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?fulltext=AEM*+6*+4*+Service*+Pack*&2_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&2_group.propertyvalues.operation=equals&2_group.propertyvalues.0_values=target-version%3Aaem%2F6-4&3_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&3_group.propertyvalues.operation=equals&3_group.propertyvalues.0_values=software-type%3Aservice-and-cumulative-fix&orderby=%40jcr%3Acontent%2Fmetadata%2Fdc%3Atitle&orderby.sort=asc&layout=list&p.offset=0&p.limit=24) and then re-install the cq-dam-stock-integration-content-1.0.4.zip file.
 * Make sure you have admin permissions on [Adobe I/O Console](https://console.adobe.io/), [Adobe Admin Console](https://adminconsole.adobe.com/) and Adobe Experience Manager to set up the integration.
 
 #### Set up Adobe IMS Configuration using Adobe I/O Console {#set-up-adobe-ims-configuration-using-adobe-i-o-console}
@@ -100,7 +100,7 @@ AEM 6.4.2 provides users the ability to search, preview, save and license Adobe 
 ### Additional Resources
 
 * [Enterprise Stock Plan](https://landing.adobe.com/en/na/products/creative-cloud/ctir-4625-stock-for-enterprise/index.html)
-* [AEM 6.4 Service Pack 2 Release notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
-* [Integrate AEM and Adobe Stock](https://helpx.adobe.com/experience-manager/6-5/assets/using/aem-assets-adobe-stock.html#IntegrateAEMandAdobeStock)
+* [AEM 6.4 Service Pack 2 Release notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=en)
+* [Integrate AEM and Adobe Stock](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/aem-assets-adobe-stock.html)
 * [Adobe I/O Console Integration API](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html)
 * [Adobe Stock API Docs](https://www.adobe.io/apis/creativecloud/stock/docs.html)

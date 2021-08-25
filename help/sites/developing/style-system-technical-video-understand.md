@@ -2,10 +2,6 @@
 title: Understanding how to code for the AEM Style System
 description: In this video we'll take a look at the anatomy of the CSS (or LESS) and JavaScript used to style Adobe Experience Manage's Core Title Component using the Style System, as well as how these styles are applied to the HTML and DOM.
 feature: Style System
-topics: development, components, front-end-development
-audience: developer, implementer
-doc-type: technical video
-activity: understand
 version: 6.4, 6.5
 topic: Development
 role: Developer
@@ -16,15 +12,10 @@ level: Intermediate, Experienced
 
 In this video we'll take a look at the anatomy of the CSS (or [!DNL LESS]) and JavaScript used to style Experience Manage's Core Title Component using the Style System, as well as how these styles are applied to the HTML and DOM.
 
->[!NOTE]
->
->The AEM Style System was introduced with [AEM 6.3 SP1](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp1-release-notes.html) + [Feature Pack 20593](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-20593).
->
->The video assumes the We.Retail Title component has been updated to inherit from [Core Components v2.0.0+](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/releases).
 
 ## Understanding how to code for the Style System {#understanding-how-to-code-for-the-style-system}
 
->[!VIDEO](https://video.tv.adobe.com/v/21538/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/21538/?quality=12&learn=on)
 
 The provided AEM Package (**technical-review.sites.style-system-1.0.0.zip**) installs the example title style, sample policies for the We.Retail Layout Container and Title components, and a sample page.
 

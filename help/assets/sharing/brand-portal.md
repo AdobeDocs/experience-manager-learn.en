@@ -24,7 +24,7 @@ Brand Portal's Asset Sourcing is used to collect assets from third-party agencie
 
 *Experience Manager Author 6.5 SP2 (6.5.2) or greater is required to use Asset Sourcing*
 
-Review [Enable Experience Manager Author for Asset Sourcing](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-asset-sourcing-in-aem/brand-portal-enable-asset-sourcing.html) for instructions on how to configure and set up Asset Sourcing on Experience Manager Author.
+Review [Enable Experience Manager Author for Asset Sourcing](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en) for instructions on how to configure and set up Asset Sourcing on Experience Manager Author.
 
 ## Brand Portal February 2019 Feature and Enhancements{#brand-portal-features-and-enhancements-644}
 

@@ -23,7 +23,7 @@ This is a multi-part tutorial and it is assumed that the steps outlined in the p
 
 _IDE screenshots in this chapter come from [Visual Studio Code](https://code.visualstudio.com/)_
 
-Optionally, install a browser extension like [GraphQL Network](https://chrome.google.com/webstore/detail/graphql-network/igbmhmnkobkjalekgiehijefpkdemocm) to be able to view more details about a GraphQL query.
+Optionally, install a browser extension like [GraphQL Network Inspector](https://chrome.google.com/webstore/detail/graphql-network-inspector/ndlbedplllcgconngcnfmkadhokfaaln) to be able to view more details about a GraphQL query.
 
 ## Objectives
 
@@ -68,7 +68,7 @@ Starting the React app is outlined in more detail in the [Quick Setup](./setup.m
 
         ![WKND GraphQL React app - Detail experience](./assets/graphql-and-external-app/react-details-view.png)
 
-1. Use the browser's development tools and a browser extension like [GraphQL Network](https://chrome.google.com/webstore/detail/graphql-network/igbmhmnkobkjalekgiehijefpkdemocm) to inspect the GraphQL queries sent to AEM and their JSON responses. This approach can be used to monitor GraphQL requests and responses to ensure they are formulated correctly, and their responses are as expected.
+1. Use the browser's development tools and a browser extension like [GraphQL Network Inspector](https://chrome.google.com/webstore/detail/graphql-network-inspector/ndlbedplllcgconngcnfmkadhokfaaln) to inspect the GraphQL queries sent to AEM and their JSON responses. This approach can be used to monitor GraphQL requests and responses to ensure they are formulated correctly, and their responses are as expected.
 
     ![Raw Query for adventureList](assets/graphql-and-external-app/raw-query-chrome-extension.png)
 

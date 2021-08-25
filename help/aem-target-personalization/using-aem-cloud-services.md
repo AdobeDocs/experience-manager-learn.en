@@ -26,7 +26,7 @@ In order to use AEM Experience Fragment offers to power you personalization acti
   * AEM author and publish instance are necessary to complete this tutorial. If you haven't set up your AEM instance yet, you can follow the steps [here](./implementation.md#set-up-aem).
 
 * **Experience Cloud**
-  * Access to your organizations Adobe Experience Cloud - <https://>`<yourcompany>`.experiencecloud.adobe.com
+  * Access to your organizations Adobe Experience Cloud - `https://<yourcompany>.experiencecloud.adobe.com`
   * Experience Cloud provisioned with the following solutions
     * [Adobe Target](https://experiencecloud.adobe.com)
   

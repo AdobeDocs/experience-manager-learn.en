@@ -35,7 +35,7 @@ For this exercise, the following users need to be involved and to perform some t
 * **AEM**
   * [AEM author and publish instance](./implementation.md#getting-aem) running on localhost 4502 and 4503 respectively.
 * **Experience Cloud**
-  * Access to your organizations Adobe Experience Cloud - <https://>`<yourcompany>`.experiencecloud.adobe.com
+  * Access to your organizations Adobe Experience Cloud - `https://<yourcompany>.experiencecloud.adobe.com`
   * Experience Cloud provisioned with the following solutions
     * [Adobe Target](https://experiencecloud.adobe.com)
 
@@ -73,7 +73,7 @@ For this exercise, the following users need to be involved and to perform some t
 
 ### Create an Audience with Geo-Targeting {#marketer-audience}
 
-1. Navigate to your organizations [Adobe Experience Cloud](https://experiencecloud.adobe.com/) (<https://>`<yourcompany>`.experiencecloud.adobe.com)
+1. Navigate to your organizations [Adobe Experience Cloud](https://experiencecloud.adobe.com/) (`<https://<yourcompany>.experiencecloud.adobe.com`)
 1. Log in using your Adobe ID, and make sure you are in the correct Organization.
 1. From the solution switcher, click on **Target** and then **launch** Adobe Target.
 
