@@ -1,7 +1,6 @@
 ---
 title: Using Dynamic Media Classic Desktop Application
 description: Adobe introduces a desktop application for Dynamic Media Classic users that no longer relies on Adobe Flash technology in the browser.
-sub-product: dynamic-media
 feature: Dynamic Media Classic
 version: 6.5
 kt: 5808
@@ -15,7 +14,7 @@ level: Beginner
 
 Adobe introduces a desktop application for Dynamic Media Classic that provides a similar experience to a browser and a functionally equivalent interface that does not depend on Adobe Flash player.
 
->[!VIDEO](https://video.tv.adobe.com/v/36645/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36645/?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -32,5 +31,4 @@ Adobe Dynamic Media Classic desktop app is compatible with the following operati
 
 * [Adobe Dynamic Media Classic Desktop Application documentation](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html)
 * [Adobe Dynamic Media Frequently Asked Questions](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/new-ui-2020.html)
-* [Download - Disk Image File for macOS (.dmg)](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-* [Download - Executable file for Windows (.exe)](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+* [Download Dynamic Media Classic Desktop app](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/new-ui-2020.html)

@@ -136,7 +136,7 @@ Newly uploaded and published assets will be seen right away, whereas updated ass
 
 This typically is not an issue unless a mistake occurred, and the image/asset has the same name as the previously published version, but there is a problem with the image. For example, you accidentally uploaded a low resolution version or your art director didn’t approve the image. In this case, you want to recall the original image and replace it with a new version using the same Asset ID.
 
-Learn how to [Manually Clear the Cache for the URLs That Need to Be Updated](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/invalidate-cdn-cached-content.html).
+Learn how to [Manually Clear the Cache for the URLs That Need to Be Updated](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/invalidate-cdn-cache-dynamic-media.html?lang=en).
 
 >[!TIP]
 >

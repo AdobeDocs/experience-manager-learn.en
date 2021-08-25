@@ -93,7 +93,7 @@ Next, inspect the `ui.frontend` module to understand the SPA that has been auto-
 
 1. Inspect the file `ui.frontend/clientlib.config.js`. This configuration file is used by [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator#clientlibconfigjs) to determine how to generate the client library.
 
-1. Inspect the file `ui.frontend/pom.xml`. This file transforms the `ui.frontend` folder into a [Maven module](http://maven.apache.org/guides/mini/guide-multiple-modules.html). The `pom.xml` file has been updated to use the [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin) to **test** and **build** the SPA during a Maven build.
+1. Inspect the file `ui.frontend/pom.xml`. This file transforms the `ui.frontend` folder into a [Maven module](https://maven.apache.org/guides/mini/guide-multiple-modules.html). The `pom.xml` file has been updated to use the [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin) to **test** and **build** the SPA during a Maven build.
 
 1. Inspect the file `index.js` at `ui.frontend/src/index.js`:
 

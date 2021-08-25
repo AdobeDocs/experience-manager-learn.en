@@ -138,7 +138,7 @@ The Adobe Client Data Layer is an **event** driven data layer. When the any Core
 
    The `event` object is passed from the `trigger()` method called in the custom event. `component` is the current state of the component derived from the data layer `getState` that triggered the click.
 
-1. Save the changes and run a [build](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/builds.html) in Launch to promote the code to the [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments.html) used on your AEM Site.
+1. Save the changes and run a [build](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/builds.html) in Launch to promote the code to the [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html) used on your AEM Site.
 
    >[!NOTE]
    >

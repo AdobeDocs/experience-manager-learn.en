@@ -269,7 +269,7 @@ The **[core](https://experienceleague.adobe.com/docs/experience-manager-core-com
 
 ### Ui.apps and Ui.content modules {#apps-content-module}
 
-The **[ui.apps](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uiapps.html)** maven module contains all of the rendering code needed for the site beneath `/apps`. This includes CSS/JS that will be stored in an AEM format called [clientlibs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/clientlibs.html). This also includes [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) scripts for rendering dynamic HTML. You can think of the **ui.apps** module as a map to the structure in the JCR but in a format that can be stored on a file system and committed to source control. The **ui.apps** module only contains code.
+The **[ui.apps](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uiapps.html)** maven module contains all of the rendering code needed for the site beneath `/apps`. This includes CSS/JS that will be stored in an AEM format called [clientlibs](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html). This also includes [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) scripts for rendering dynamic HTML. You can think of the **ui.apps** module as a map to the structure in the JCR but in a format that can be stored on a file system and committed to source control. The **ui.apps** module only contains code.
 
 To build the just this module:
 
@@ -340,6 +340,6 @@ To build the just this module:
 
     Again a build failure is expected to occur if no AEM instance running on port **4504** is available. The parameter `aem.port` is defined in the POM file at `aem-guides-wknd/pom.xml`.
 
-The **[ui.content](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uicontent.htm)** module is structured the same way as the **ui.apps** module. The only difference is that the **ui.content** module contains what is known as **mutable** content. **Mutable** content essentially refers to non-code configurations like Templates, Policies, or folder structures that is stored in source-control **but** could be modified on an AEM instance directly. This will be explored in much more detail in the chapter on Pages and Templates.
+The **[ui.content](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uicontent.html)** module is structured the same way as the **ui.apps** module. The only difference is that the **ui.content** module contains what is known as **mutable** content. **Mutable** content essentially refers to non-code configurations like Templates, Policies, or folder structures that is stored in source-control **but** could be modified on an AEM instance directly. This will be explored in much more detail in the chapter on Pages and Templates.
 
 The same Maven commands used to build the **ui.apps** module can be used to build the **ui.content** module. Feel free to repeat the above steps from within the **ui.content** folder.

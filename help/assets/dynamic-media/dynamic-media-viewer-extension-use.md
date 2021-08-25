@@ -3,7 +3,7 @@ title: Using Dynamic Media Viewers with Adobe Analytics and Adobe Launch
 description: The Dynamic Media Viewers extension for Adobe Launch, along with the release of Dynamic Media Viewers 5.13, lets customers of Dynamic Media, Adobe Analytics, and Adobe Launch use events and data specific for the Dynamic Media Viewers in their Adobe Launch configuration.
 sub-product: Dynamic Media
 feature: Asset Insights
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
@@ -159,5 +159,5 @@ The following table lists Dynamic Media Viewer events and their supported argume
 ## Additional Resources{#additional-resources}
 
 * [Integrating Adobe Experience Manager with Adobe Launch](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html)
-* [Running Adobe Experience Manager on Dynamic Media Scene7 mode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html)
-* [Integrating Dynamic Media Viewers with Adobe Analytics and Adobe Launch](https://helpx.adobe.com/experience-manager/6-5/assets/using/launch.html)
+* [Running Adobe Experience Manager on Dynamic Media Scene7 mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en)
+* [Integrating Dynamic Media Viewers with Adobe Analytics and Adobe Launch](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-viewer-extension-use.html)
