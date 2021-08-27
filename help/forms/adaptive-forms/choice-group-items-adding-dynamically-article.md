@@ -13,7 +13,7 @@ level: Beginner
 
  AEM Forms 6.5 introduced the ability to add items dynamically to an Adaptive Forms choice group component such as CheckBox, Radio Button and Image List.
 
-[This capability is available live on Samples Server](https://forms.enablementadobe.com/content/samples/samples.html?query=0). Search for Dynamic Checkbox items card and click on "Try It"
+[This capability is available live on Samples Server](https://forms.enablementadobe.com/content/samples/samples.html?query=0#collapse1). Search for Dynamic Checkbox items card and click on "Try It"
 
 
 You can add items using the visual editor as well as the code editor depending on your use case.
@@ -85,7 +85,7 @@ To try this on your system:
 
 * [Download the assets](assets/usingthevisualeditor.zip)
 * Install Tomcat if you do not have it already. [Instructions to install tomcat are available here](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html)
-* [Deploy SampleRest.war file in Tomcat](https://forms.enablementadobe.com/content/DemoServerBundles/SampleRest.war)
+* [Deploy the SampleRest.war file contained in this zip file](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/assets/common-osgi-bundles/sample-rest.zip)
 * [Open Forms And Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * Click on "Create | File Upload" and upload the file you downloaded in the previous step
 * [Preview the forms](http://localhost:4502/content/dam/formsanddocuments/amortizationschedule/jcr:content?wcmmode=disabled)

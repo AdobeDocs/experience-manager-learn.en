@@ -78,7 +78,7 @@ return val;
 
 >[!NOTE]
 >
->This article assumes you have installed the [sample workflow](assets/review-workflow.zip) and [sample form](assets/snap-form.zip) from [previous article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/inbox-customization/add-married-column.md) in this series.
+>This article assumes you have installed the [sample workflow](assets/review-workflow.zip) and [sample form](assets/snap-form.zip) from [previous article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/inbox-customization/add-married-column.html) in this series.
 
 * [Login to crx as admin user](http://localhost:4502/crx/de/index.jsp)
 * [import sightly template](assets/sightly-template.zip)

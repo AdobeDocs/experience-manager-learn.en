@@ -30,8 +30,8 @@ Prerequisites for this tutorial:
 
     * If you are using **AEM Forms 6.3**, the callback URL will be https://gbedekar-w7-1:6443/etc/cloudservices/fdm/createlead.html. In this URL  createlead  is the name of my form data model.
     
-    * If you are using** AEM Forms 6.4**, the callback URL will be [https://gbedekar-w7-:6443/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html](https://gbedekar-w7-1:6443/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html)
-
+    * If you are using** AEM Forms 6.4**, the callback URL will be https://gbedekar-w7-:6443/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html
+    
 In this example  gbedekar -w7-1:6443 is the name of my server and the port on which AEM is running.
 
 Once you have created the Connected App note the **Consumer Key and Secret Key**. You will need these when creating the data source in AEM Forms.

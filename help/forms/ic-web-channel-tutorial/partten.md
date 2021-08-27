@@ -57,7 +57,7 @@ level: Beginner
 
 * Click on the Assets icon and apply the filter to display assets of type "Document Fragments". Drag and drop RetirementIncomeOutlook document fragment onto the Left Panel target area.
 
-* You can refer [to this page](https://helpx.adobe.com/experience-manager/kt/forms/using/interactive-communication-web-channel-aem-forms/9.html) on adding document fragment to content areas.
+* You can refer [to this page](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/ic-web-channel-tutorial/partseven.html) on adding document fragment to content areas.
 
 ## Adding Estimated Monthly Income Chart {#adding-estimated-monthly-income-chart}
 
