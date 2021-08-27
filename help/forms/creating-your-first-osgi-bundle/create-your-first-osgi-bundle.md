@@ -34,7 +34,7 @@ Open a new command prompt window and type: `java -version`. You should get back 
 Maven is a build automation tool used primarily for Java projects. Please follow the following steps to install maven on your local system.
 
 * Create a folder called `maven` in your C drive
-* Download the [binary zip archive](http://maven.apache.org/download.cgi)
+* Download the [binary zip archive](https://maven.apache.org/download.cgi)
 * Extract the contents of the zip archive into `c:\maven`
 * Create an environment variable called `M2_HOME` with a value of `C:\maven\apache-maven-3.6.0`. In my case, the **mvn** version is 3.6.0. At the time of writing this article the latest maven version is 3.6.3
 * Add the `%M2_HOME%\bin` to your path
