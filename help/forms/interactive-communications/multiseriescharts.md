@@ -40,7 +40,7 @@ To test this on your system, please follow the following steps
 
 * [Download and import the MutualFundFactSheet.zip using AEM Package Manager.](assets/mutualfundfactsheet.zip)
 * [Download the SeriesChartSampleData.json on to your hard drive.](assets/serieschartsampledata.json) This is the sample data that will be used to populate the chart.
-* [Navigate to Forms and Documents.](https://helpx.adobe.com/aem/forms.html/content/dam/formsanddocuments.html)
+* [Navigate to Forms and Documents.](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * Gently select the "MutualFundGrowthFactSheet" interactive communications template.
 * Click on Preview | Upload Sample Data.
 * Browse to sample data file provided as part of this article.

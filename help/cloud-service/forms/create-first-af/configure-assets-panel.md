@@ -9,12 +9,12 @@ version: cloud-service
 feature: Adaptive Forms
 topic: Development
 kt: 7380
-thumbnail: 332232.jpg
+thumbnail: 22200.jpg
 ---
 
 # Configure assets panel
 
 Capture the applicant's assets using repeatable panel with an Accordion layout .
 
->[!VIDEO](https://video.tv.adobe.com/v/332232?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22200?quality=9&learn=on)
 
