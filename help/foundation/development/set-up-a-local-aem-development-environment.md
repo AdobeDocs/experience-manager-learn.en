@@ -208,7 +208,7 @@ The **[[!DNL Eclipse] IDE](https://www.eclipse.org/ide/)** is one of the more po
 #### Installation and Setup
 
 1. Download and install the [!DNL Eclipse] IDE for [!DNL Java EE Developers]: [https://www.eclipse.org](https://www.eclipse.org/)
-1. Follow the instructions to install the [!DNL AEM Developer Tools] plugin: [https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html](https://eclipse.adobe.com/aem/dev-tools/)
+1. Follow the instructions to install the [!DNL AEM Developer Tools] plugin: [https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25906?quality=12&learn=on)
 

@@ -79,7 +79,7 @@ The generated Asset Compute project is a Node.js project for use as a specialize
     + This file can be generated/updated using the `aio app use` command.
     + Variables defined in this file can be overridden by [exporting variables](../deploy/runtime.md) on the command line.
 
-For more details on project structure review, review the [Anatomy of an Adobe Project Firefly project](https://github.com/AdobeDocs/project-firefly/blob/master/getting_started/first_app.md#5-anatomy-of-a-project-firefly-application).
+For more details on project structure review, review the [Anatomy of an Adobe Project Firefly project](https://www.adobe.io/project-firefly/docs/guides/).
 
 The bulk of the development takes place in the `/actions` folder developing worker implementations, and in `/test/asset-compute` writing tests for the custom Asset Compute workers.
 
