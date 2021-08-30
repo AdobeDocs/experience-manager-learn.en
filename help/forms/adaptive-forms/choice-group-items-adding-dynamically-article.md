@@ -85,7 +85,7 @@ To try this on your system:
 
 * [Download the assets](assets/usingthevisualeditor.zip)
 * Install Tomcat if you do not have it already. [Instructions to install tomcat are available here](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html)
-* [Deploy the SampleRest.war file contained in this zip file](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/assets/common-osgi-bundles/sample-rest.zip)
+* [Deploy the SampleRest.war file contained in this zip file in your Tomcat](assets/sample-rest.zip)
 * [Open Forms And Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * Click on "Create | File Upload" and upload the file you downloaded in the previous step
 * [Preview the forms](http://localhost:4502/content/dam/formsanddocuments/amortizationschedule/jcr:content?wcmmode=disabled)

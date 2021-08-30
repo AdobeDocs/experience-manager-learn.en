@@ -20,7 +20,7 @@ Row1 is configured to be grow depending on the data returned by the service call
 ## Deploy this on your server
 
 [Install Tomcat as specified here](/help/forms/ic-print-channel-tutorial/set-up-tomcat.md)
-[Deploy the SampleRest.war file contained in this zip file](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/assets/common-osgi-bundles/sample-rest.zip)
+[Deploy the SampleRest.war file contained in this zip file in your Tomcat](assets/sample-rest.zip)
 [Install the assets ](assets/amortizationschedule.zip) using AEM package manager
 [Open the Amortization Schedule Form](http://localhost:4502/content/dam/formsanddocuments/amortization/jcr:content?wcmmode=disabled)
 Enter the appropriate value and click on calculate

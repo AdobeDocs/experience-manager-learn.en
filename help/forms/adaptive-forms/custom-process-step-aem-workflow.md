@@ -21,7 +21,7 @@ To accomplish the above use case, you will typically write an OSGi service that 
 
 ## Create Maven Project
 
-The first step is to create an maven project using the appropriate Adobe Maven Archetype. The detailed steps are listed in this [article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/create-your-first-osgi-bundle.html?lang=en). Once you have your maven project imported into eclipse, you are ready to start writing your first OSGi component that can be used in your process step.
+The first step is to create an maven project using the appropriate Adobe Maven Archetype. The detailed steps are listed in this [article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html). Once you have your maven project imported into eclipse, you are ready to start writing your first OSGi component that can be used in your process step.
 
 
 ### Create class that implements WorkflowProcess
