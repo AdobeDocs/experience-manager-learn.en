@@ -17,8 +17,15 @@ team: TM
   + [Managing](basics/managing.md)
   + [Using](basics/using.md)
   + [Creating content](basics/creating.md)
-  + [Collaboration](basics/collaborating.md)
+  + [Collaborating](basics/collaborating.md)
 
 + [Creative Cloud integration](integrations/creative-cloud.md)
+
++ Adobe Workfront integration{#workfront}
+  + [Configuring](./integrations/workfront/configure.md)
+  + [Sending documents and linking assets](./integrations/workfront/link-send.md)
+  + [Version history](./integrations/workfront/versions.md)
+
 + [Adobe Journey Optimizer integration](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)
 
++ [Documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)
