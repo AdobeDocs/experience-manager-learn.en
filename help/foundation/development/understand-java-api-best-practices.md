@@ -55,7 +55,7 @@ This order is a general rule, meaning exceptions exist. Acceptable reasons to br
 
 AEM APIs provide abstractions and functionality specific to productized use cases.
 
-For example, AEM's [PageManager](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager.html) and [Page](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/foundation/model/Page.html) APIs provide abstractions for `cq:Page` nodes in AEM that represent web pages.
+For example, AEM's [PageManager](https://www.adobe.io/experience-manager/reference-materials/cloud-service/javadoc/com/day/cq/wcm/api/PageManager.html) and [Page](https://www.adobe.io/experience-manager/reference-materials/cloud-service/javadoc/com/day/cq/wcm/api/Page.html) APIs provide abstractions for `cq:Page` nodes in AEM that represent web pages.
 
 While these nodes are available via [!DNL Sling] APIs as Resources, and JCR APIs as Nodes, AEM's APIs provide abstractions for common use cases. Using the AEM APIs ensures consistent behavior between AEM the product, and customizations and extensions to AEM.
 
@@ -89,7 +89,7 @@ The preferred API is [AEM Query Builder](https://helpx.adobe.com/experience-mana
 * [AEM predicates](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/querybuilder-predicate-reference.html) supporting common query requirements  
 
 * Extensible API, allowing for the development of custom [query predicates](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/implementing-custom-predicate-evaluator.html)
-* JCR-SQL2 and XPath can be executed directly via [[!DNL Sling]](https://sling.apache.org/apidocs/sling10/org/apache/sling/api/resource/ResourceResolver.html#findResources-java.lang.String-java.lang.String-) and [JCR APIs](https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/query/package-summary.html), returning results a [[!DNL Sling] Resources](https://sling.apache.org/apidocs/sling10/org/apache/sling/api/resource/Resource.html) or [JCR Nodes](https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html), respectively.
+* JCR-SQL2 and XPath can be executed directly via [[!DNL Sling]](https://sling.apache.org/apidocs/sling10/org/apache/sling/api/resource/ResourceResolver.html#findResources-java.lang.String-java.lang.String-) and [JCR APIs](https://www.adobe.io/experience-manager/reference-materials/spec/jsr170/javadocs/jcr-2.0/javax/jcr/query/package-summary.html), returning results a [[!DNL Sling] Resources](https://sling.apache.org/apidocs/sling10/org/apache/sling/api/resource/Resource.html) or [JCR Nodes](https://www.adobe.io/experience-manager/reference-materials/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html), respectively.
 
 >[!CAUTION]
 >
@@ -126,9 +126,9 @@ The preferred API is [AEM Query Builder](https://helpx.adobe.com/experience-mana
 
 ## JCR APIs
 
-* **[JCR 2.0 JavaDocs](https://docs.adobe.com/content/docs/en/spec/javax.jcr/javadocs/jcr-2.0/index.html)**
+* **[JCR 2.0 JavaDocs](https://www.adobe.io/experience-manager/reference-materials/spec/javax.jcr/javadocs/jcr-2.0/index.html)**
 
-The [JCR (Java Content Repository) 2.0 APIs](https://docs.adobe.com/content/docs/en/spec/javax.jcr/javadocs/jcr-2.0/index.html) is part of a specification for JCR implementations (in the case of AEM, [Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/)). All JCR implementation must conform to and implement these APIs, and thus, is the lowest level API for interacting with AEM's content.
+The [JCR (Java Content Repository) 2.0 APIs](https://www.adobe.io/experience-manager/reference-materials/spec/javax.jcr/javadocs/jcr-2.0/index.html) is part of a specification for JCR implementations (in the case of AEM, [Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/)). All JCR implementation must conform to and implement these APIs, and thus, is the lowest level API for interacting with AEM's content.
 
 The JCR itself is a hierarchical/tree-based NoSQL datastore AEM uses as its content repository. The JCR has a vast array of supported APIs, ranging from content CRUD to querying content. Despite this robust API, it is rare  they're preferred  over the higher level AEM and [!DNL Sling] abstractions.
 
@@ -145,7 +145,7 @@ While the JCR is AEM's content repository, its APIs are NOT the preferred method
 ### Common uses of JCR APIs
 
 * [Access control management](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security-service-users.html)
-* [Authorizable management (users/groups)](https://jackrabbit.apache.org/api/2.8/org/apache/jackrabbit/api/security/user/package-summary.html)
+* [Authorizable management (users/groups)](https://jackrabbit.apache.org/api/2.12/org/apache/jackrabbit/api/security/user/package-summary.html)
 * JCR observation (listening for JCR events)
 * Creating deep node structures
 

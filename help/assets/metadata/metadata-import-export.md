@@ -1,7 +1,7 @@
 ---
 title: Using Metadata Import and Export in AEM Assets
 description: Learn how to use the import and export metadata features of Adobe Experience Manager Assets. The import and export capabilities allow content authors to bulk update metadata for existing assets.
-version: 6.3, 6.4, 6.5, cloud-service
+version: 6.3, 6.4, 6.5, Cloud Service
 topic: Content Management
 feature: Metadata
 role: Admin
@@ -47,7 +47,7 @@ Learn how to use the import and export metadata features of Adobe Experience Man
   * Incorrect: `Dc:Title {{String}}`
 
 * Property Type is case insensitive
-* All valid [JCR Property types](https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/PropertyType.html) are supported  
+* All valid [JCR Property types](https://www.adobe.io/experience-manager/reference-materials/spec/jsr170/javadocs/jcr-2.0/javax/jcr/PropertyType.html) are supported  
 
 * Multi Value Property format - `<metadata property name> {{<property type : MULTI }}`
 
