@@ -23,6 +23,7 @@ team: TM
 
 + Adobe Workfront integration{#workfront}
   + [Configuring](./integrations/workfront/configure.md)
+  + [Mapping metadata](./integrations/workfront/map-metadata.md)
   + [Sending documents and linking assets](./integrations/workfront/link-send.md)
   + [Version history](./integrations/workfront/versions.md)
 
