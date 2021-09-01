@@ -89,6 +89,8 @@ team: TM
 
 + Content Automation{#content-automation}
   + [Overview](./content-automation/overview.md)
+  + [Creative Operations](./content-automation/creative-operations.md)
+  + [Photoshop Actions](./content-automation/photoshop-actions.md)
 
 + Dynamic Media{#dynamic-media}
   + [Dynamic Media Overview](dynamic-media/dynamic-media-overview-feature-video-use.md)
