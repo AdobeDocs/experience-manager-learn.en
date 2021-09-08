@@ -45,6 +45,7 @@ index: y
   + [Custom Submit in Adaptive Forms](adaptive-forms/custom-submit-aem-forms-article.md)
   + [Captcha in Adaptive Forms](adaptive-forms/forms-captcha-feature-video-use.md)
   + [Embedding Adaptive Form in web page](adaptive-forms/embed-af-web-page.md)
+  + [Creating array of strings](adaptive-forms/converting-comma-seperated-string-to-array.md)
   + [Using Set Value in XML  in OSGI Workflow](adaptive-forms/setvalue-aem-forms-workflow-tutorial-use.md)
   + [Using Set Value in JSON in OSGI Workflow](adaptive-forms/setvalue-json-data-in-aem-forms-workflow-article-use.md)
   + [Send Email Component in AEM Forms Workflow](adaptive-forms/email-step-aem-workflow-video-use.md)
