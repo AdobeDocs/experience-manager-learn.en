@@ -2,11 +2,6 @@
 title: Debugging Dispatcher Tools
 description: The Dispatcher Tools provides a containerized Apache Web Server environment that can be used to simulate AEM as a Cloud Services' AEM Publish service's Dispatcher locally. Debugging Dispatcher Tools' logs and cache contents can be vital in ensuring the end-to-end AEM application and supporting cache and security configurations are correct.
 feature: Dispatcher
-topics: development
-version: cloud-service
-doc-type: tutorial
-activity: develop
-audience: developer
 kt: 5918
 topic: Development
 role: Developer
@@ -16,11 +11,12 @@ level: Beginner, Intermediate
 # Debugging Dispatcher Tools
 
 The Dispatcher Tools provides a containerized Apache Web Server environment that can be used to simulate AEM as a Cloud Services' AEM Publish service's Dispatcher locally. 
+
 Debugging Dispatcher Tools' logs and cache contents can be vital in ensuring the end-to-end AEM application and supporting cache and security configurations are correct.
 
 >[!NOTE]
 >
->Since Dispatcher Tools is container-based, everytime it is restarted, prior logs and cache contents are destroyed.
+>Since Dispatcher Tools is container-based, every time it is restarted, prior logs and cache contents are destroyed.
 
 ## Dispatcher Tools logs
 
@@ -59,7 +55,7 @@ $ docker ps
 
 # locate the CONTAINER ID associated with "adobe/aem-ethos/dispatcher-publisher" IMAGE
 CONTAINER ID        IMAGE                                       COMMAND                  CREATED             STATUS              PORTS                  NAMES
-46127c9d7081        adobe/aem-ethos/dispatcher-publish:2.0.23   "/docker_entrypoint.…"   6 seconds ago       Up 5 seconds        0.0.0.0:8080->80/tcp   wonderful_merkle
+46127c9d7081        adobe/aem-ethos/dispatcher-publish:2.0.23   "/docker_entrypoint.…"   6 seconds ago       Up 5 seconds        0.0.0.0:8080->80/tcp   wonderful_ira
 
 $ docker cp -L <CONTAINER ID>:/mnt/var/www/html cache 
 $ cd cache
