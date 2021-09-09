@@ -16,5 +16,5 @@ thumbnail: 22200.jpg
 
 Capture the applicant's assets using repeatable panel with an Accordion layout .
 
->[!VIDEO](https://video.tv.adobe.com/v/22200?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336473?quality=9&learn=on)
 

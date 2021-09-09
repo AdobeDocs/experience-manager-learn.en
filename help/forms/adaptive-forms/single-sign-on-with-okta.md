@@ -70,12 +70,12 @@ The following are the key properties that need to be specified:
 Navigate to [configMgr](http://localhost:4502/system/console/configMgr).
 Search and open "Apache Sling Referrer Filter".Set the following properties as specified below:
 
-* **Allow Empty**: true
+* **Allow Empty**: false
 * **Allow Hosts**: IdP's hostname(Will be different in your case)
 * **Allow Regexp Host**: IdP's hostname(Will be different in your case)
 The Sling Referrer Filter Referrer properties screenshot
 
-![referrer-filter](assets/sling-referrer-filter.PNG)
+![referrer-filter](assets/okta-referrer.png)
 
 #### Configure DEBUG Logging for the OKTA integration
 
