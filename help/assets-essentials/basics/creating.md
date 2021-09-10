@@ -9,7 +9,6 @@ level: Beginner
 kt: 7914
 thumbnail: 335746.jpeg
 ---
-
 # Creating content using Assets Essentials
 
 Learn how to upload assets, create versions and even edit assets using Adobe Photoshop Express.

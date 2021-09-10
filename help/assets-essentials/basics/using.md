@@ -9,7 +9,6 @@ level: Beginner
 kt: 8380
 thumbnai: 335861.jpeg
 ---
-
 # Using Assets Essentials
 
 Learn how to filter, search, and download assets in Assets Essentials.

@@ -9,7 +9,6 @@ level: Beginner
 kt: 7913
 thumbnail: 335733.jpeg
 ---
-
 # Managing Assets Essentials
 
 Learn the basics of creating a folder structure, and basic operations such as move, copy and rename.
