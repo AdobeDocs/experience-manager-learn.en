@@ -9,7 +9,6 @@ level: Beginner
 kt: 7916
 thumbnail: 335856.jpeg
 ---
-
 # Collaboration in Assets Essentials
 
 Learn how to collaborate on asset management using comments, annotations and tasks.
