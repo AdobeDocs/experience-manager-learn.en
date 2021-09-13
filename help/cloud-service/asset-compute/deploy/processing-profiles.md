@@ -12,8 +12,8 @@ thumbnail: KT-6287.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: 1b398c8c-6b4e-4046-b61e-b44c45f973ef
 ---
-
 # Integrate with AEM Processing Profiles
 
 For Asset Compute workers to generate custom renditions in AEM as a Cloud Service, they must be registered in AEM as a Cloud Service Author service via Processing Profiles. All assets subject to that Processing Profile will have the worker invoked upon upload or re-processing, and have the custom rendition generated and made available via the asset's renditions.

@@ -10,8 +10,8 @@ version: 6.4, 6.5
 topic: Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: c51da742-5ce7-499a-83da-227a25fb78c9
 ---
-
 # Understanding Style System Best Practices{#understanding-style-organization-with-the-aem-style-system}
 
 >[!NOTE]

@@ -9,8 +9,8 @@ thumbnail: 33974.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 1e35da82-08e7-44c2-aec6-79d8ea74d556
 ---
-
 # Metadata profiles
 
 Metadata profiles allow for the automatic application of default metadata to assets within asset folders, helping reduce the burden of metadata management on AEM users, and increasing metadata consistency.

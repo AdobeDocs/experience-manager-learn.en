@@ -8,6 +8,7 @@ version: 6.5, cloud-service
 feature: Developer Tools
 topic: Administration
 index: y
+exl-id: 60f34070-be1f-4621-b697-4df12eaccfe3
 ---
 # How to investigate SAML related issues
 

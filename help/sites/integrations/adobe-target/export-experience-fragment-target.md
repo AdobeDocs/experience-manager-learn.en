@@ -12,8 +12,8 @@ thumbnail: 41245.jpg
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 2c01cda8-f72f-47f7-a36b-95afd241906e
 ---
-
 # Export Experience Fragment to Adobe Target {#experience-fragment-target}
 
 Learn how to export AEM Experience Fragment as Adobe Target Offers.

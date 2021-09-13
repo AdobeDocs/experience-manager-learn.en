@@ -7,8 +7,8 @@ version: cloud-service
 feature: Brand Portal
 topic: Development
 index: y
+exl-id: cb68afd1-cc5f-430a-8920-9987a3466abb
 ---
-
 # Configure AEM Assets Brand Portal
 
 *This video walks through the steps to configure AEM Assets Brand Portal.*

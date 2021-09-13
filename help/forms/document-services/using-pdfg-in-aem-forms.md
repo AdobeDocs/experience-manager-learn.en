@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: bc79fcbf-b8b3-4d3a-9cd6-0bcd9321c7d5
 ---
-
 # Using PDFG in AEM Forms{#using-pdfg-in-aem-forms}
 
 Demonstrating Drag and Drop capability to create PDF using AEM Forms
@@ -36,4 +36,3 @@ com.adobe.pdfg.service.api.GeneratePDFService pdfService = sling.getService(com.
 System.out.println("Got PDF Service");
 java.util.Map map = pdfService.createPDF(uploadedDocument,fileName,"","Standard","No Security", null, null);
 ```
-

@@ -14,8 +14,8 @@ thumbnail: 32150.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: bf4427f7-1b7b-4e60-90a8-ab428dc65251
 ---
-
 # Tagging pages {#using-page-tagging-with-aem-sites}
 
 Learn how to maintain, and organize your web pages in Adobe Experience Manager by using tagging.

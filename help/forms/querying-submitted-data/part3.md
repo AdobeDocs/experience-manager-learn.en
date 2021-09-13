@@ -3,20 +3,17 @@ title: AEM Forms with JSON Schema and Data[Part3]
 seo-title: AEM Forms with JSON Schema and Data[Part3]
 description: Multi-Part tutorial to walk you through the steps involved in creating Adaptive Form with JSON schema and querying the submitted data.
 seo-description: Multi-Part tutorial to walk you through the steps involved in creating Adaptive Form with JSON schema and querying the submitted data.
-
 feature: Adaptive Forms
 topics: development
 audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.3,6.4,6.5
-
-
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 412eea77-3cf4-43bb-9d2f-ae860cd9d3be
 ---
-
 # Storing JSON Schema in Database {#storing-json-schema-in-database}
 
 
@@ -151,5 +148,3 @@ To summarize we have done the following so far
 * We store the bound data of the Adaptive Form in the database.
 
 The next steps would be to use QueryBuilder to display the fields to search based on the JSON Schema
-
-

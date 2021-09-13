@@ -12,8 +12,8 @@ thumbnail: KT-5802.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: d851d315-ed0e-46b8-bcd8-417e1e58c0c4
 ---
-
 # Troubleshoot Asset Compute extensibility
 
 The following is an index of common issues and errors, along with the resolutions, that might be encountered when developing and deploying custom Asset Compute workers for AEM Assets.
@@ -160,5 +160,3 @@ Asset Compute Development Tool may enter a state where it pulls stale data, and 
 + __Error:__ Asset Processing Failed badge displayed on asset
 + __Cause:__ An error occurred in the execution of the custom worker
 + __Resolution:__ Follow the instructions on [debugging Adobe I/O Runtime activations](./test-debug/debug.md#aio-app-logs) using `aio app logs`.
-
-

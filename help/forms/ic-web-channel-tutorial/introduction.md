@@ -3,19 +3,17 @@ title: Creating your first interactive communication for the web channel
 seo-title: Creating your first interactive communication for the web channel
 description: Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the web channel.
 seo-description: Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the web channel.
-
 feature: Interactive Communication
 topics: development
 audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.4,6.5
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 65b1af30-9e22-4df0-ab91-479d5406df61
 ---
-
 # Creating your first interactive communication for the web channel
 
 Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
@@ -35,7 +33,3 @@ On completing this tutorial, you will have learned the following:
 * Create Document Fragments
 * Configure Tables and Charts
 * Deliver Web Channel Documents
-
-
-
-

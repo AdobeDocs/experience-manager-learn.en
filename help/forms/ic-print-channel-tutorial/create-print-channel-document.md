@@ -13,12 +13,11 @@ version: 6.4,6.5
 discoiquuid: 6e3f9c8c-8ec4-4084-bf35-1c97a5b463f1
 kt: 5972
 thumbnail: 37888.jpg
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: d4355f72-aefa-4ab3-ba7e-ebd7f7b536f0
 ---
-
 # Create Interactive Communication For Print Channel {#create-interactive-communication-for-print-channel}
 
  In this part, Interactive Communication Document for Print channel is created.

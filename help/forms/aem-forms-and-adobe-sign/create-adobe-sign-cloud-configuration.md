@@ -7,6 +7,7 @@ kt: 6033
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 7a62ae37-d391-4136-99f3-b32181afd475
 ---
 # Create Adobe Sign Cloud Configuration
 

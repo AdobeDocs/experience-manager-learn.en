@@ -7,8 +7,8 @@ role: Developer, Architect
 level: Beginner
 kt: 7630
 thumbnail: 333272.jpeg
+exl-id: c5f933eb-c409-41dc-bb6a-6b2220dfbb47
 ---
-
 # Overview
 
 Welcome to the multi-part tutorial for developers looking to augment an existing React-based (or Next.js) Remote SPAs with editable AEM content using AEM SPA Editor.

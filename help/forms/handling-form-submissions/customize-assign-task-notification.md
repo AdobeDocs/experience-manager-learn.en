@@ -13,8 +13,8 @@ thumbnail: KT-6279.jpg
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 0cb74afd-87ff-4e79-a4f4-a4634ac48c51
 ---
-
 # Customize Assign Task Notification
 
 Assign Task component is used to assign tasks to workflow participants. When a task is assigned to a user or a group a email notification is sent to the defined user or group members.

@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 50db6155-ee83-4ddb-9e3a-56e8709222db
 ---
-
 # Using Geolocation API's in Adaptive Forms{#using-geolocation-api-s-in-adaptive-forms}
 
 Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/samples/samples.html?query=0#collapse1) page for a link to a live demo of this capability.

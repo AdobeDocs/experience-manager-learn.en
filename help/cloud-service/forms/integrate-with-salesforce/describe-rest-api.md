@@ -10,8 +10,8 @@ feature: Adaptive Forms
 topic: Development
 kt: 7147
 thumbnail: 331754.jpg
+exl-id: e406fe4d-f0b6-4e5d-9e18-c28d30a456c7
 ---
-
 # Create Swagger file
 
 Describe the Salesforce REST API using the [OPEN API 2.0 specification](https://swagger.io/docs/specification/2-0/basic-structure/)

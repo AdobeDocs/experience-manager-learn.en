@@ -10,8 +10,8 @@ doc-type: feature video
 version: cloud-service
 kt: 194
 thumbnail: 331785.jpg
+exl-id: 84d2b240-5ecc-4230-97a0-6c2faead8d1a
 ---
-
 # Using Experience Fragments {#using-aem-experience-fragments}
 
 Experience Fragments enables content authors to reuse content across channels including Sites pages and third-party systems.

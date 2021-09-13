@@ -11,8 +11,8 @@ audience: all
 topic: Content Management
 role: User
 level: Beginner
+exl-id: ccbc68d1-a83e-4092-9a49-53c56c14483e
 ---
- 
 # Understand Content Fragments and Experience Fragments
 
  Adobe Experience Manager's Content Fragments and Experience Fragments may seem similar on the surface, but each play key roles in different use cases. Learn how Content Fragments and Experience Fragments are similar, different, and when and how to use each.

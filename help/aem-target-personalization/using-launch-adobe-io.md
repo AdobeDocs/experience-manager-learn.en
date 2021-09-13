@@ -7,8 +7,8 @@ feature: Experience Fragments
 topic: Personalization
 role: Developer
 level: Intermediate
+exl-id: b1d7ce04-0127-4539-a5e1-802d7b9427dd
 ---
-
 # Using Adobe Experience Platform Launch via Adobe I/O Console
 
 ## Prerequisites

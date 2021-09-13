@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 kt: 7874
 thumbnail: 333295.jpg
+exl-id: c7fb28b8-494f-47d6-95b7-01ef444abe99
 ---
-
 # Content Fragment Variations
 
 Learn how to create variations of Content Fragments and explore some common use cases.

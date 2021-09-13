@@ -2,8 +2,8 @@
 title: AEM Assets Essentials Videos
 description: A collection of videos for Adobe Experience Manager Assets Essentials
 sub-product: assets
+exl-id: 6a8534fa-bc99-438b-9107-2a428e06619c
 ---
-
 # Overview
 
 ![Assets Essentials](./assets/overview/hero.png)

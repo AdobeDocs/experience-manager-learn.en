@@ -8,8 +8,8 @@ kt: 6886
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 49e7bd65-33fb-44d4-aaa2-50832dffffb0
 ---
-
 # Create OSGi service
 
 The following code was written to store the forms that need to be signed. Each form to sign is associated with a unique guid and a customer id. So one or more forms can be associated with the same customer ID, but will have a unique GUID assigned to the form.

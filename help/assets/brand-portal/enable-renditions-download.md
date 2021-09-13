@@ -7,8 +7,8 @@ version: cloud-service
 feature: Brand Portal
 topic: Development
 index: y
+exl-id: 78664b38-b64a-4220-bb7a-83f09bdd441a
 ---
-
 # Enable renditions download in the Brand Portal
 
 *This video walks through the steps to enable the download of renditions in the Brand Portal.*

@@ -14,8 +14,8 @@ discoiquuid: 9e936885-4e10-4c05-b572-b8da56fcac73
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 5363c3f7-9006-4430-b647-f3283a366a64
 ---
-
 # Submitting Adaptive Form to External Server {#submitting-adaptive-form-to-external-server}
 
 Use Submit to REST Endpoint action to post the submitted data to a REST URL. The URL can be of an internal (the server on which the form is rendered) or an external server.
@@ -58,4 +58,3 @@ To test this on your server please do the following
 1. To enable multipart form data submission to tomcat, please add the following attribute to the context element of the &lt;tomcatInstallDir&gt;\conf\context.xml and restart your Tomcat server.
 1. **&lt;Context allowCasualMultipartParsing="true"&gt;**
 1. Preview your Adaptive Form,add a attachment and submit. Check the tomcat console window for messages.
-

@@ -10,8 +10,8 @@ doc-type: article
 topic: Security
 role: Developer
 level: Intermediate
+exl-id: 6009d9cf-8aeb-4092-9e8c-e2e6eec46435
 ---
-
 # Understand Cross-Origin Resource Sharing ([!DNL CORS])
 
 Adobe Experience Manager's Cross-Origin Resource Sharing ([!DNL CORS]) facilitates non-AEM web properties to make client-side calls to AEM, both authenticated and unauthenticated, to fetch content or directly interact with AEM.

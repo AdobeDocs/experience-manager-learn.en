@@ -1,14 +1,15 @@
 ---
 title: Steps to tweak bmc pool size for XMLForm service (1 of 2)
-description:  Configure XMLFormService parameters
+description: Configure XMLFormService parameters
 type: Troubleshooting
- 
-role: Developer 
-level: Intermediate  
+ : 
+role: Developer
+level: Intermediate
 version: 6.5
 feature: Output Service,Forms Service
-topic: Development   
+topic: Development
 index: y
+exl-id: 1aead631-8ed5-41c8-9b0e-a081c793cee5
 ---
 # Steps to tweak bmc pool size for XMLFormService (1 of 2)
 

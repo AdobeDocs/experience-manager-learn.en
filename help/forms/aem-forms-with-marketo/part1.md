@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 45047852-4fdb-4702-8a99-faaad7213b61
 ---
-
 # AEM Forms With Marketo
 
 Marketo, part of Adobe provides Marketing Automation software focused on account-based marketing, including email, mobile, social, digital ads, web management, and analytics.

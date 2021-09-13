@@ -6,8 +6,8 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 3354a58b-d58e-4ddb-8f90-648554a64db8
 ---
-
 # Create Re-Usable AEM Forms Workflow Models{#create-re-usable-aem-forms-workflow-models}
 
 Starting with AEM Forms 6.5 release, we can now create workflow models which are not tied to a specific Adaptive Form. With this capability, you can now create one workflow model that can be invoked on different adaptive form submissions. With this capability, you can have a generic workflow to handle all adaptive form submissions for review and approval.

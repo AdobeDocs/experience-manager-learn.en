@@ -9,8 +9,8 @@ thumbnail: 413-spa-react.jpg
 topic: SPA
 role: Developer
 level: Beginner
+exl-id: 57c8fc16-fed5-4af4-b98b-5c3f0350b240
 ---
-
 # Create Project {#spa-editor-project}
 
 Learn how to generate an Adobe Experience Manager (AEM) Maven project as a starting point for a React application integrated with the AEM SPA Editor.

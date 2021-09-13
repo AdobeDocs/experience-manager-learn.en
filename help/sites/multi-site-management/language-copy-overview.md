@@ -14,8 +14,8 @@ thumbnail: 36487.jpg
 topic: Localization
 role: User
 level: Beginner
+exl-id: 9085d60e-0e88-46ab-8f1f-4999063e48d2
 ---
-
 # Introduction to Language Copy {#introduction-language-copy}
 
 Get an overview of how to create a multilingual site using Language Copy in AEM Sites.

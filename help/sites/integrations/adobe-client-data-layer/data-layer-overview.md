@@ -1,5 +1,5 @@
 ---
-title:  Using the Adobe Client Data Layer with AEM Core Components
+title: Using the Adobe Client Data Layer with AEM Core Components
 description: The Adobe Client Data Layer introduces a standard method to collect and store data about a visitors experience on a webpage and then make it easy to access this data. The Adobe Client Data Layer is platform agnostic, but is fully integrated into the Core Components for use with AEM.
 topic: Integrations
 feature: Adobe Client Data Layer, Core Components
@@ -7,8 +7,8 @@ role: Developer
 level: Intermediate
 kt: 6261
 thumbnail: 41195.jpg
+exl-id: 066693b7-2b87-45e8-93ec-8bd09a7c263e
 ---
-
 # Using the Adobe Client Data Layer with AEM Core Components {#overview}
 
 The Adobe Client Data Layer introduces a standard method to collect and store data about a visitors experience on a webpage and then make it easy to access this data. The Adobe Client Data Layer is platform agnostic, but is fully integrated into the Core Components for use with AEM.

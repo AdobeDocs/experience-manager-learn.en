@@ -7,8 +7,8 @@ role: Developer, Architect
 level: Beginner
 kt: 7634
 thumbnail: kt-7634.jpeg
+exl-id: edd18f2f-6f24-4299-a31a-54ccc4f6d86e
 ---
-
 # Editable fixed components
 
 Editable React components can be "fixed", or hard-coded into the SPA's views. This allows developers to place SPA Editor-compatible components into the SPA views, and allow users to author the components' content in AEM SPA Editor.

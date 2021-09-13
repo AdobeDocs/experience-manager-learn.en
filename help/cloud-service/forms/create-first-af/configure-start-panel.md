@@ -10,11 +10,10 @@ feature: Adaptive Forms
 topic: Development
 kt: 7388
 thumbnail: 332235.jpg
+exl-id: f3c01af3-bce1-4a7b-84b7-5e0889bebe28
 ---
-
 # Configure start panel
 
 Style the text in the static text component using the rich text editor.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332235?quality=12&learn=on)
-

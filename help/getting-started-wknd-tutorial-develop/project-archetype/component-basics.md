@@ -11,8 +11,8 @@ level: Beginner
 mini-toc-levels: 1
 kt: 4081
 thumbnail: 30177.jpg
+exl-id: 7fd021ef-d221-4113-bda1-4908f3a8629f
 ---
-
 # Component Basics {#component-basics}
 
 In this chapter we will explore the underlying technology of an Adobe Experience Manager (AEM) Sites Component through a simple `HelloWorld` example. Small modifications will be made to an existing component, covering topics of authoring, HTL, Sling Models, Client-side libraries.

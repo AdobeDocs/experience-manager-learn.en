@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 kt: 7619
 thumbnail: 332858.jpg
+exl-id: 0d22b06f-bf78-4a54-85be-6a932177f36f
 ---
-
 # GraphQL Modeling Basics
 
 Learn how to define and use Content Fragments in Adobe Experience Manager (AEM) for use with GraphQL.

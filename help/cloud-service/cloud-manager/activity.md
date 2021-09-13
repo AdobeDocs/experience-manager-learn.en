@@ -12,8 +12,8 @@ thumbnail: 26319.jpg
 topic: Architecture
 role: Architect, Developer, Admin
 level: Beginner
+exl-id: 82a9d00f-abe6-4600-92b1-41b5f0b5e352
 ---
-
 # Using Adobe Cloud Manager - Activity
 
 Cloud Manager provides a consolidated view into a Program's activity, listing all CI/CD Pipeline executions, both production and non-production. This allows users to view any pipelines currently in progress and review previous deployments.

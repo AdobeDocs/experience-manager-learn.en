@@ -9,8 +9,8 @@ thumbnail: 37323.jpg
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 5e423f2c-90d2-474f-8bdc-fa15ae976f18
 ---
-
 # Auto-start Workflows
 
 Auto-start workflows extend asset processing in AEM as a Cloud Service by automatically invoking custom workflow upon upload or re-processing.

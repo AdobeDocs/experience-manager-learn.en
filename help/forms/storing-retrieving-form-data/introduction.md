@@ -7,8 +7,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 95795102-4278-4556-8e0f-1b8a359ab093
 ---
-
 # Storing and Retrieving Adaptive Form Data from MySQL Database
 
 This tutorial will walk you through the steps involved in saving and retrieving Adaptive Form Data from Database. This tutorial used MySQL database to store Adaptive Form data. Database of your choice can be used to store the data as long as you have deployed the database specific drivers in AEM. At a high-level, the following steps are needed to achieve the use case:

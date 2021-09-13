@@ -12,8 +12,8 @@ thumbnail: KT-6282.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: 7d51ec77-c785-4b89-b717-ff9060d8bda7
 ---
-
 # Develop an Asset Compute worker
 
 Asset Compute workers are the core of an Asset Compute project as provide custom functionality that performs, or orchestrates, the work performed on an asset to create a new rendition.

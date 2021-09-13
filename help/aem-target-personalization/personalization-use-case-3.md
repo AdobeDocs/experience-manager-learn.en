@@ -7,8 +7,8 @@ feature: Experience Fragments
 topic: Personalization
 role: Developer
 level: Intermediate
+exl-id: 1550e6a7-04b5-4a40-9d7b-88074283402f
 ---
-
 # Personalization using Visual Experience Composer
 
 In this chapter, we'll explore creating experiences using **Visual Experience Composer** by dragging and dropping, swapping, and modifying the layout and content of a web page from within Target.

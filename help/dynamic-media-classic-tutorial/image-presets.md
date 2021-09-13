@@ -10,8 +10,8 @@ activity: use
 topic: Content Management
 role: User
 level: Beginner
+exl-id: e472db7c-ac3f-4f66-85af-5a4c68ba609e
 ---
-
 # Image Presets {#image-presets}
 
 An Image Preset is essentially a recipe that contains all the settings needed to create an image at a specific size, format, quality, and sharpening. Image Presets are a key component of dynamic sizing.

@@ -10,8 +10,8 @@ feature: Core Components
 topic: Development
 role: User
 level: Intermediate
+exl-id: 37dc26aa-0773-4749-8c8b-4544bd4d5e5f
 ---
-
 # Customizing Component Icons {#developing-component-icons-in-aem-sites}
 
 Component Icons allow authors to quickly identify a component with icons or meaningful abbreviations. Authors can now find locate the Components required to build out their Web experiences faster than ever.

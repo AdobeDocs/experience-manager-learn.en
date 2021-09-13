@@ -9,8 +9,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 508b0211-fa21-4a73-b8b4-c6c34e3ba696
 ---
-
 # Explore GraphQL APIs {#explore-graphql-apis}
 
 The GraphQL API of AEM provide a powerful query language to expose data of Content Fragments to downstream applications. Content Fragment models define the data schema that is used by Content Fragments. Whenever a Content Fragment Model is created or updated, the schema is translated and added to the "graph" that makes up the GraphQL API.

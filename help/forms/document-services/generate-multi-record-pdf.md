@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 58582acd-cabb-4e28-9fd3-598d3cbac43c
 ---
-
 # Generate a set of PDF Documents from one xml data file
 
 OutputService provides a number of methods to create documents using a form design and data to merge with the form design. The following article explains the use case to generate multiple pdf's from one large xml containing multiple individual records.
@@ -133,4 +133,3 @@ To test this capability on your server, please follow the below instructions:
 
 >[!NOTE]
 >There are multiple ways to trigger this capability. In this example we have used a web interface to drop the template and data file to demonstrate the capability.
-

@@ -12,8 +12,8 @@ thumbnail: 40383.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: 4dea9cc4-2133-4ceb-8ced-e9b9874f6d89
 ---
-
 # Debug an Asset Compute worker
 
 Asset Compute workers can be debugged in several ways, from simple debug log statements, to attached VS Code as a remote debugger, to pulling logs for activations in Adobe I/O Runtime initiated from AEM as a Cloud Service.

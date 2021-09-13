@@ -12,8 +12,8 @@ thumbnail: 40241.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: cbe08570-e353-4daf-94d1-a91a8d63406d
 ---
-
 # Asset Compute Development Tool
 
 The Asset Compute Development Tool is a local web harness allowing developers to configure and execute Asset Computer workers locally, outside the context of the AEM SDK against the Asset Compute resources in Adobe I/O Runtime.

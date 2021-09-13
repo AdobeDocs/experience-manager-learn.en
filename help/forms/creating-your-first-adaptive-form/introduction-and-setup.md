@@ -1,13 +1,13 @@
 ---
 title: Getting Started With Adaptive Forms
-description: This tutorial will walk you through the steps involved in creating multi-tabbed Adaptive Form. You will learn to use Tables, Accordion Layout, and Rule Editor to author business rules. 
+description: This tutorial will walk you through the steps involved in creating multi-tabbed Adaptive Form. You will learn to use Tables, Accordion Layout, and Rule Editor to author business rules.
 feature: Adaptive Forms
 version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 8c90fe1c-0c83-4287-9766-08d806b8815a
 ---
-
 # Getting Started With Adaptive Forms {#getting-started-with-adaptive-forms}
 
 This tutorial will walk you through the steps involved in creating multi-tabbed Adaptive Form. You will learn to use Tables, Accordion Layout, and Rule Editor to author business rules. 
@@ -27,5 +27,3 @@ You will need the following:
 * [Download the client-libs-and-logo](assets/client-libs-and-logo.zip) and [getting-started-fragment](assets/getting-started-fragment.zip) to your hard drive.
 
 * Import the zip files into AEM using [package manager ](http://localhost:4502/crx/packmgr/index.jsp)
-
-

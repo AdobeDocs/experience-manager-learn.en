@@ -7,8 +7,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 7e4cb782-836d-4ec0-97d0-645b91ea43e0
 ---
-
 # Using the Video Player in AEM Dynamic Media{#using-the-video-player-in-aem-dynamic-media}
 
 AEM Dynamic Media video player used to rely on Flash runtime to support adaptive video streaming on desktop clients and browsers became more aggressive on flash-based content streaming. With the introduction of HLS (Apple's HTTP Live Streaming video delivery protocol), content can now be streamed without relying on flash.

@@ -7,12 +7,11 @@ audience: developer
 doc-type: article
 activity: implement
 version: 6.5
-
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 2cdf37e6-42ad-469a-a6e4-a693ab2ca908
 ---
-
 # Batch API
 
 You can use the Batch API to produce multiple interactive communications from a template. The template is an interactive communication without any data. The Batch API combines data with a template to produce an interactive communication. The API is useful in the mass production of interactive communications. For example, telephone bills, credit card statements for multiple customers.

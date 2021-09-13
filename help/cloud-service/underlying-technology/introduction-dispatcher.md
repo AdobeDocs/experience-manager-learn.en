@@ -12,8 +12,8 @@ thumbnail: 32029.jpg
 topic: Architecture, Performance
 role: Architect, Developer
 level: Beginner
+exl-id: 06954993-c8bb-47f3-8ab6-76d6b1b8e8b0
 ---
-
 # Introduction to [!DNL Dispatcher] {#introduction-dispatcher}
 
 An introduction to the capabilities and features of the [!DNL dispatcher] as part of the AEM architecture.

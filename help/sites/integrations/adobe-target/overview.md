@@ -1,5 +1,5 @@
 ---
-title:  Overview of AEM and Adobe Target
+title: Overview of AEM and Adobe Target
 description: Learn how to create and deliver personalized experience using Adobe Experience Manager as a Cloud Service and Adobe Target.
 feature: Experience Fragments, Core Components, Adobe Client Data Layer
 topics: integrations, personalization, administration, development
@@ -12,8 +12,8 @@ thumbnail: 41241.jpg
 topic: Integrations
 role: User
 level: Beginner
+exl-id: 2bc6cd90-7b23-4dde-bb07-bca0de9fa509
 ---
-
 # AEM and Adobe Target
 
 Adobe Experience Manager (AEM) and Adobe Target are powerful solutions with complimentary capabilities than can be misconstrued as competing. Customers sometimes struggle with understanding how and when to use these products in conjunction to deliver personalized experience. To deliver optimized experience for every end user, different teams within your organization should work closely and define who does what.
@@ -41,5 +41,3 @@ In this video, we discuss three approaches for using AEM and Target, and help yo
     1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
     1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
     1. [Personalize the full web page experience](./personalization-web-page.md)
-
-

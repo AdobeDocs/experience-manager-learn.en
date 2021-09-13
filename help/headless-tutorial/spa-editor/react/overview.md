@@ -13,8 +13,8 @@ feature: SPA Editor
 topic: SPA
 role: Developer
 level: Beginner
+exl-id: 38802296-8988-4300-a04a-fcbbe98ac810
 ---
-
 # Create your first React SPA in AEM {#overview}
 
 Welcome to a multi-part tutorial designed for developers new to the **SPA Editor** feature in Adobe Experience Manager (AEM). This tutorial walks through the implementation of a React application for a fictitious lifestyle brand, the WKND. The React app will be developed and designed to be deployed with AEM's SPA Editor, which maps React components to AEM components. The completed SPA, deployed to AEM, can be dynamically authored with traditional in-line editing tools of AEM.

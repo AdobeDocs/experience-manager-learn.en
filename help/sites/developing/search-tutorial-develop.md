@@ -6,8 +6,8 @@ feature: Search
 topic: Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: aa268c5f-d29e-4868-a58b-444379cb83be
 ---
-
 # Simple search implementation guide{#simple-search-implementation-guide}
 
 The Simple search implementation are the materials from the **Adobe Summit lab AEM Search Demystified**. This page contains the materials from this lab. For a guided tour of the lab, please view  the Lab workbook in the Presentation section of this page.

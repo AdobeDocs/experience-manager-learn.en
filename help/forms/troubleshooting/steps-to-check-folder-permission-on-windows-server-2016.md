@@ -2,14 +2,14 @@
 title: Steps to check Folder Permission in Windows Server2016
 description: Ensure the PDFG user has the required folder permission in Windows Server 2016
 type: Troubleshooting
-role: Admin 
-level: Intermediate  
+role: Admin
+level: Intermediate
 version: 6.5
 feature: PDF Generator
-topic: Administration   
+topic: Administration
 index: y
+exl-id: ec94ea5d-6f65-4c16-af63-d7c7766fe5f6
 ---
-
 # Steps to check Folder Permission in Windows Server 2016 for AEM Forms PDFG
 
 *This video walks through the additional steps to check Folder Permission in Windows Server 2016.*

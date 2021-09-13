@@ -12,8 +12,8 @@ discoiquuid: 9e666741-0f76-43c9-ab79-1ef149884686
 topic: Security
 role: Developer
 level: Beginner
+exl-id: 4e69e115-12a6-4a57-90da-b91e345c6723
 ---
-
 # Use the SSL Wizard in AEM
 
 Adobe Experience Manager's SSL setup wizard to make it easier to set up an AEM instance to run over HTTPS.

@@ -12,8 +12,8 @@ thumbnail: 40183.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: 2b1d8786-592e-41f2-80cc-bc0b1c7e1b49
 ---
-
 # Set up Adobe Project Firefly
 
 Asset Compute projects are specially defined Adobe Project Firefly projects, and as such, require access to Adobe Project Firefly in the Adobe Developer Console in order to set up and deploy them.

@@ -13,8 +13,8 @@ thumbnail: 40258.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 9f1dbd02-774a-4b84-90fa-02d4e468cbac
 ---
-
 # Configuring Adaptive Form to trigger AEM Workflow
 
 ## Prerequisites
@@ -40,5 +40,3 @@ The following video explains how to configure an Adaptive Form to trigger an AEM
 The following video shows you the workflow payload and other details in the crx repository
 
 >[!VIDEO](https://video.tv.adobe.com/v/40259/?quality=9&learn=on)
-
-

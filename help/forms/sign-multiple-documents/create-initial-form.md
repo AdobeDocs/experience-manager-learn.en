@@ -8,8 +8,8 @@ role: User
 level: Intermediate
 kt: 6892
 thumbnail: 6892.jpg
+exl-id: d7c55dc8-d886-4629-bb50-d927308d12e3
 ---
-
 # Create initial form
 
 The initial form (Refinance Form) is used for signing multiple forms by triggering the **Sign Multiple Forms** AEM workflow. You can enter values of your choice but ensure the following fields are added to the form.
@@ -28,8 +28,3 @@ Make sure the Data File Path is set to **Data.xml**. This is very important as t
 ## Assets
 
 The initial form (Refinance Form) can be [downloaded from here](assets/refinance-form.zip)
-
-
-
-
-

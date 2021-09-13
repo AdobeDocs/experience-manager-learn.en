@@ -14,8 +14,8 @@ discoiquuid: 9d181b3e-fbd5-476d-9e97-4452176e495c
 topic: Security
 role: Architect
 level: Beginner
+exl-id: 1ee11a01-9e49-42f4-aec4-09e51f769f69
 ---
-
 # AEM Security Notification (November 2018)
 
 ## Summary

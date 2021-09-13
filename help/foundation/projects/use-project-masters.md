@@ -8,8 +8,8 @@ level: Intermediate
 role: User
 kt: 256
 thumbnail: 17740.jpg
+exl-id: 78ff62ad-1017-4a02-80e9-81228f9e01eb
 ---
-
 # Use Project Masters
 
 Project Masters greatly simplifies user and team management with [!DNL AEM Projects].

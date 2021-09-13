@@ -14,8 +14,8 @@ thumbnail: 32152.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 4d365957-9a5a-44f8-a117-95c1c0dd757d
 ---
-
 # Using the Page Difference feature {#using-page-difference-with-aem-sites}
 
 AEM Sites' page difference capabilities show provides a quick, color-coded view of what content has changed in a page (version, live copy, launches, language copy).

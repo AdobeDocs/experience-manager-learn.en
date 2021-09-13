@@ -12,12 +12,11 @@ activity: implement
 version: 6.4,6.5
 kt: 6168
 thumbnail: 40122.jpg
-
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 509b4d0d-9f3c-46cb-8ef7-07e831775086
 ---
-
 # Opening Agent UI On POST Submission
 
 In this part, we will launch the agent ui interface for creating ad-hoc correspondence on form submission.
@@ -69,4 +68,3 @@ To test this capability on your server
 >[!NOTE]
 >
 >Make sure your Form Data Model's Get operation's input parameter is bound to Request Attribute called "accountnumber" for this to work. If you change the name of the bindingvalue to any other name, make sure the change is reflected on line 25 of the POST.jsp
-

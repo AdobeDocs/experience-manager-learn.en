@@ -12,8 +12,8 @@ level: Beginner
 kt: 4128
 mini-toc-levels: 1
 thumbnail: 30386.jpg
+exl-id: 5b490132-cddc-4024-92f1-e5c549afd6f1
 ---
-
 # Developing with the Style System {#developing-with-the-style-system}
 
 Learn how to implement individual styles and re-use Core Components using Experience Manager's Style System. This tutorial covers developing for the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor.

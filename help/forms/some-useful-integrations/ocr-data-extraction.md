@@ -7,9 +7,8 @@ kt: 6679
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 1532a865-4664-40d9-964a-e64463b49587
 ---
-
-
 # OCR Data Extraction
 
 Automatically extract data from a wide variety of government issued documents to populate your adaptive forms.
@@ -72,5 +71,3 @@ If you want to use the sample assets with your API key please follow the followi
 * Open the rule editor for the Base 64 String field. Notice the service invocation when the value of this field is changed.
 * Save the form
 * [Preview the form](http://localhost:4502/content/dam/formsanddocuments/driverslicenseandpassport/jcr:content?wcmmode=disabled), upload front picture of your drivers license
-
-

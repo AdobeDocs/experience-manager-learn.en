@@ -6,8 +6,8 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 6c63787c-e511-4764-9a03-2c85c394bcc0
 ---
-
 # Ability to modify Data Source Configuration Settings{#ability-to-modify-data-source-configuration-settings}
 
 Up until the AEM Forms 6.4 release, once a data source was configured you could not change scheme, Host, Base Path for RESTful service. This was problematic if you wanted to test your data sources against different environments.
@@ -21,4 +21,3 @@ The screenshots below show the data source configuration settings in AEM Forms 6
 ![64DataSource Configuration](assets/64release.gif)
 **Editable Data Source Configuration in AEM 6.5 and above**
 ![65DataSource Configuration](assets/modifiabledatasource.jfif)
-

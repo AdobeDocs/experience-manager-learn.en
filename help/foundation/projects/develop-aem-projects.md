@@ -10,8 +10,8 @@ doc-type: tutorial
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 9bfe3142-bfc1-4886-85ea-d1c6de903484
 ---
-
 # Develop Projects in AEM
 
 This is a development tutorial illustrating how to develop for [!DNL AEM Projects].  In this tutorial we will create a custom Project template that can be used to create new Projects within AEM for managing content authoring workflows and tasks.

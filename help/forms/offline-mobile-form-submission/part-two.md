@@ -12,8 +12,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: eafeafe1-7a72-4023-b5bb-d83b056ba207
 ---
-
 # Handle PDF Submission
 
 In this part we will create a simple servlet that runs on AEM Publish to handle the PDF submission from Acrobat/Reader. This servlet will in turn, make an HTTP POST request to a servlet running in an AEM author instanceresponsible for saving the submitted data as a `nt:file` node in AEM Author's repository.
@@ -199,5 +199,4 @@ public class StartWorkflow extends SlingAllMethodsServlet {
 
 An AEM workflow launcher is configured to trigger every time a new resource of type `nt:file` is created under the `/content/pdfsubmissions` node. This workflow will create non-interactive or a static PDF by merging the submitted data with the xdp template. The generated pdf is then assigned to a user for review and approval.
 
-To store the submitted data under `/content/pdfsubmissions` node, we make use of `GetResolver` OSGi service allows us to save the submitted data using the `fd-service` system user which is available in every AEM Forms installation. 
- 
+To store the submitted data under `/content/pdfsubmissions` node, we make use of `GetResolver` OSGi service allows us to save the submitted data using the `fd-service` system user which is available in every AEM Forms installation.

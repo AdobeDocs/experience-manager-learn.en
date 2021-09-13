@@ -7,8 +7,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: kt-8049
+exl-id: ce9b9203-b44c-4a52-821c-ae76e93312d2
 ---
-
 # Steps needed to test the two approaches
 
 * Configure [Day CQ Mail Service](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/notification.html?lang=en#configuring-the-mail-service) to send e-mails from AEM Forms server

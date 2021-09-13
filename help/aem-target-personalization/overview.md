@@ -7,8 +7,8 @@ feature: Experience Fragments
 topic: Personalization
 role: Developer
 level: Intermediate
+exl-id: b632883f-65fd-4f89-bf39-ec2bce352d2d
 ---
-
 # Getting Started with AEM and Adobe Target {#getting-started-with-aem-target}
 
 AEM and Target are both powerful solutions with seemingly overlapping capabilities. Customers sometimes struggle with understanding how and when to use these products in conjunction to deliver personalized experience. To deliver optimized experience for every end user, different teams within your organization should work closely and define who does what.

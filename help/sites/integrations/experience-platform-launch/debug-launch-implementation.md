@@ -11,8 +11,8 @@ thumbnail: 38567.jpg
 topic: Integrations
 role: Developer
 level: Intermediate
+exl-id: 647447ca-3c29-4efe-bb3a-d3f53a936a2a
 ---
-
 # Debugging a Launch implementation {#debug-launch-implementation}
 
 An introduction to common tools and techniques used to debug a Launch implementation. Learn how to use the browser's developer console and the Experience Platform Debugger extension to identify and troubleshoot key aspects of a Launch implementation.

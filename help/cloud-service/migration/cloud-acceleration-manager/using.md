@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 8668
 thumbnail: 336699.jpeg
+exl-id: 88b4b688-ed71-40e8-bb65-12d3f20cdb6a
 ---
-
 # Using Cloud Acceleration Manager's tools
 
 A narrated walk-through of using Cloud Acceleration Manager's tools.

@@ -12,8 +12,8 @@ thumbnail: kt-4419.jpg
 topic: Development
 role: User
 level: Beginner
+exl-id: 67a01c41-d284-4518-adb5-21702e22ccfa
 ---
-
 # Create HTML5 forms
 
 HTML5 forms is a new capability in Adobe Experience Manager that offers rendering of XFA form templates(xdp) in HTML5 format. This capability enables the rendering of forms on mobile devices and desktop browsers on which XFA-based PDF is not supported. HTML5 forms not only supports the existing capabilities of XFA form templates but also adds new capabilities, such as scribble signature, for mobile devices. 
@@ -55,4 +55,3 @@ To preview the xdp in HTML5 format with data file please follow the following st
  **HTML Render Profile** - HTML5 forms have the notion of Profiles which are exposed as REST Endpoints to enable Mobile Rendering of Form Templates. Majority of times the default render profile should be sufficient to render the form. If the default render profile does not meet your needs, a [custom profile](https://experienceleague.adobe.com/docs/experience-manager-64/forms/html5-forms/custom-profile.html) can be created and associated with the form.
 
 **Prefill Service** - Prefill service is typically used to populate your form with data fetched from a backend data source.
-

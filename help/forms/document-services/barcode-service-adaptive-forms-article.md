@@ -1,14 +1,13 @@
 ---
 title: Barcode Service With Adaptive Forms
-
 description: Using barcode service to decode barcode and populate form fields from the extracted data.
 feature: Barcoded Forms
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: f89cd02d-3ffe-42c6-b547-c0445f912ee8
 ---
-
 # Barcode Service With Adaptive Forms{#barcode-service-with-adaptive-forms}
 
 This article will demonstrate the use of Barcode Service to populate Adaptive Form. The use case is as follows:
@@ -144,4 +143,3 @@ To get this running on your system, please follow the following steps
 1. Point your browser to the [sample adaptive form](http://localhost:4502/content/dam/formsanddocuments/barcodedemo/jcr:content?wcmmode=disabled)
 1. Upload the sample PDF provided
 1. You should see the forms populated with the data
-

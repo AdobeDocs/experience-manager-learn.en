@@ -8,8 +8,8 @@ role: User
 level: Intermediate
 kt: 2557
 thumbnail: 27848.jpg
+exl-id: 5a6bf1f2-1dd5-40b4-8ceb-03672a36869d
 ---
- 
 # Use Workflow
 
 AEM Workflow provides a way to collaborate, manage, and process content in AEM.

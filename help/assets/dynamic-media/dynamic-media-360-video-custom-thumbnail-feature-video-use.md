@@ -7,8 +7,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 4ee0b68f-3897-4104-8615-9de8dbb8f327
 ---
-
 # Using Dynamic Media 360 Videos and Custom Video thumbnail with AEM Assets
 
 Dynamic Media Viewer enhancements in AEM 6.5 includes the addition of support for 360 video rendering, 360 media viewers (video360Social and video360VR) and the ability to select custom video thumbnails.

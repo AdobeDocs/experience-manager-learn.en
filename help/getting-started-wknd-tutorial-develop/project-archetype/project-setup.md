@@ -12,8 +12,8 @@ level: Beginner
 mini-toc-levels: 1
 kt: 3418
 thumbnail: 30152.jpg
+exl-id: bb0cae58-79bd-427f-9116-d46afabdca59
 ---
-
 # Project Setup {#project-setup}
 
 This tutorial covers the creation of a Maven Multi Module Project to manage the code and configurations for an Adobe Experience Manager Site.
