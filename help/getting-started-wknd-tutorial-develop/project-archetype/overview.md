@@ -10,8 +10,8 @@ role: Developer
 level: Beginner
 mini-toc-levels: 1
 index: y
+exl-id: 90d14734-f644-4a45-9361-1e47a5b52fff
 ---
-
 # Getting Started with AEM Sites - Project Archetype {#project-archetype}
 
 Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND.

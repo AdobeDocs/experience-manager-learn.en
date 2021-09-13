@@ -6,8 +6,8 @@ topic: Localization
 feature: Multi Site Manager, Language Copy
 role: User
 level: Beginner
+exl-id: 21633308-ffe4-4023-affe-59269504da69
 ---
-
 # Translation Enhancements with Multi-Site Manager {#translation-enhancements}
 
 AEM's robust translation framework allows AEM content to be seamlessly translated by supported Translation vendors.

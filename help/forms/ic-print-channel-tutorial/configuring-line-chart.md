@@ -16,8 +16,8 @@ thumbnail: 22386.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 86a955e2-2463-4973-8d3c-4c694db8c787
 ---
-
 # Configuring line chart for your first interactive communication document {#configuring-line-chart-for-your-first-interactive-communication-document}
 
  In this part, we will add a Line chart to display the account balance.
@@ -33,4 +33,3 @@ Starting with AEM Forms 6.4, it is very easy to display data using various types
 The following video walks you through the steps for adding and configuring the chart component
 
 >[!VIDEO](https://video.tv.adobe.com/v/22386/?quality=9&learn=on)
-

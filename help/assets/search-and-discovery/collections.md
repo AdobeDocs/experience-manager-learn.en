@@ -9,8 +9,8 @@ thumbnail: 32053.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: b28810bd-1c19-4720-8ef0-9fe8d3a49708
 ---
-
 # Collections
 
 Learn how collections provides and alternative view into AEM Assets.

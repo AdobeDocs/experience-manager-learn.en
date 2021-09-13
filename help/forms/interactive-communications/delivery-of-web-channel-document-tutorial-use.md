@@ -9,12 +9,11 @@ audience: developer
 doc-type: article
 activity: implement
 version: 6.4,6.5
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 50858100-3d0c-42bd-87b8-f626212669e2
 ---
-
 # Email Delivery of Web Channel Document
 
 Once you have defined and tested your web channel interactive communication document, you need a delivery mechanism to deliver the web channel document to the recipient.

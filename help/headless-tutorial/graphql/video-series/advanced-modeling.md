@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 kt: 7620
 thumbnail: 332859.jpg
+exl-id: 7f17d829-544e-4cf2-bd75-b179ffb89bf5
 ---
-
 # Advanced Modeling for GraphQL
 
 Learn how to create relationships between Content Fragment Models in Adobe Experience Manager (AEM) and how to leverage these relationships in GraphQL queries.

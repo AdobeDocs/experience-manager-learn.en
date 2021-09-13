@@ -11,12 +11,11 @@ doc-type: tutorial
 activity: implement
 version: 6.3,6.4,6.5
 discoiquuid: 99944f44-0985-4320-b437-06c5adfc60a1
-
 topic: Development
 role: Developer
 level: Experienced
+exl-id: da613092-e03b-467c-9b9e-668142df4634
 ---
-
 # Registering Custom Asset Types {#registering-custom-asset-types}
 
 Enabling custom asset types for listing in AEMForms Portal
@@ -87,4 +86,3 @@ After performing the above steps, the new asset type(Mp4 Files) will start showi
 [If you have problems in getting this to work, you can import the following package.](assets/assettypeskt1.zip) The package has two custom asset types defined. Mp4 Files and Worddocuments. Suggest you take a look at the **/apps/fd/fp/extensions/querybuilder/assettypes**
 
 [Install the customeportal package](assets/customportalpage.zip). This package contains sample portal page. This page will be used in part2 of this tutorial
-

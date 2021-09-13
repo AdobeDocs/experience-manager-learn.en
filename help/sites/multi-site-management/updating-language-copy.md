@@ -12,8 +12,8 @@ thumbnail: 36683.jpg
 topic: Localization
 role: User
 level: Beginner
+exl-id: c29f64a3-56cd-4594-9265-692974f4c01a
 ---
-
 # Updating a Language Copy with Launches {#update-language-copy-launch}
 
 Learn how to update, review, and approve changes in a Language Copy with the help of Launches.

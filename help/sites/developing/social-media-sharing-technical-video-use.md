@@ -10,8 +10,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: Developer
 level: Intermediate
+exl-id: 569069e8-7964-49f1-96ed-7dfa4f8ed96c
 ---
-
 # Using Social Media Sharing {#using-social-media-sharing-in-aem-sites}
 
 Explore setting up and using the Social Media Sharing component.

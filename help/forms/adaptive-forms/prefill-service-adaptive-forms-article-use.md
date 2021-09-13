@@ -1,14 +1,13 @@
 ---
 title: Prefill Service in Adaptive Forms
-
 description: Pre-populate adaptive forms by fetching data from backend data sources.
 feature: Adaptive Forms
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: f2c324a3-cbfa-4942-b3bd-dc47d8a3f7b5
 ---
-
 # UsingPrefill Service in Adaptive Forms
 
 You can prefill the fields of an Adaptive form using existing data. When a user opens a form, the values for those fields are prefilled. There are multiple ways to prefill adaptive forms fields. In this article, we will look at prefilling adaptive form using AEM Forms prefill service.
@@ -88,4 +87,3 @@ To test this capability on your server, please perform the following
 >If the adaptive form is based on XSD, make sure the XML document returned by the prefill service matches to the XSD your adaptive form is based on.
 >
 >If the adaptive form is not based on XSD, then you will have to manually bind the fields. For example to bind an adaptive form field to  fname  element in the XML data you will use `/data/fname`  in the Bind reference of the adaptive form field.
-

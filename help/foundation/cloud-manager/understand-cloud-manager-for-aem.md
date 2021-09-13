@@ -9,8 +9,8 @@ audience: developer, implementer, administrator, architect
 topic: Architecture
 role: Architect
 level: Beginner
+exl-id: 53279cbb-70c8-4319-b5bb-9a7d350a7f72
 ---
-
 # Understand Adobe Cloud Manager
 
 Adobe Cloud Manager provides a simple, yet robust solution that allows easy management, introspect and self-service of AEM environments.

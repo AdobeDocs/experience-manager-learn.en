@@ -1,14 +1,13 @@
 ---
 title: Capturing workflow comments in Adaptive Forms Workflow
-
 description: Capturing workflow comments in AEM Workflow
 feature: Workflow
 version: 6.3,6.4
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 5c250bbb-bac6-427d-8aca-1fbb1229e02c
 ---
-
 # Capturing workflow comments in Adaptive Forms Workflow{#capturing-workflow-comments-in-adaptive-forms-workflow}
 
 >[Applies only to AEM Forms 6.4. In AEM Forms 6.5 please use the variables feature to achieve this use case]
@@ -45,4 +44,3 @@ The comments will be stored in the metadata property called managerComments in c
 /var/workflow/instances/server0
 
 Select the appropriate workflow instance and check for the property managerComments in the metadata node.
-

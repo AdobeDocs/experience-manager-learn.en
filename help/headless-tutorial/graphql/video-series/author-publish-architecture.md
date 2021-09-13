@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 kt: 7873
 thumbnail: 333296.jpg
+exl-id: 7d5f5edb-10e7-43ec-a4e7-4cee8ddba685
 ---
-
 # Author and Publish Architecture
 
 Learn how and when to leverage AEM Author and Publish environments when using AEM's GraphQL APIs.

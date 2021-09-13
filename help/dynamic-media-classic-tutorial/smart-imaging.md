@@ -10,8 +10,8 @@ activity: use
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 678671c3-af25-4da1-bc14-cbc4cc19be8d
 ---
-
 # Smart Imaging {#smart-imaging}
 
 One of the most important aspects of the customer experience on your website or mobile site or app is the page load time. Customers will often abandon a site or app if a page takes too long to load. Images constitute the majority of the page load time. Smart Imaging in Dynamic Media Classic enhances image delivery performance by automatically optimizing image format and quality based on client browser capabilities. It does this by leveraging Adobe Sensei AI capabilities and working with existing Image Presets. Smart Imaging reduces image sizes by 30 percent or more — that translates to faster page loads and better customer experiences.

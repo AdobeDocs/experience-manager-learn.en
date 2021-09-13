@@ -5,8 +5,8 @@ feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 5aa32791-861a-48e3-913c-36028373b788
 ---
-
 # Getting Started with AEM Headless - Content Services
 
 AEM's Content Services leverages traditional AEM Pages to compose headless REST API endpoints, and AEM Components define, or reference, the content to expose on these endpoints.

@@ -12,8 +12,8 @@ thumbnail: 4988-spa-react.jpg
 topic: SPA
 role: Developer
 level: Beginner
+exl-id: 9c3d47c7-1bb9-441c-a0e6-85887a32c817
 ---
-
 # Add navigation and routing {#navigation-routing}
 
 Learn how multiple views in the SPA can be supported by mapping to AEM Pages with the SPA Editor SDK. Dynamic navigation is implemented using React Router and React Core Components.
@@ -323,4 +323,3 @@ Next, inspect how React Router is integrated with the SPA and experiment using R
 ## Congratulations! {#congratulations}
 
 Congratulations, you learned how multiple views in the SPA can be supported by mapping to AEM Pages with the SPA Editor SDK. Dynamic navigation has been implemented using React Router and added to the `Header` component.
-

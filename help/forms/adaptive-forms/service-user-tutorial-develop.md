@@ -5,8 +5,8 @@ feature: Adaptive Forms
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 5fa3d52a-6a71-45c4-9b1a-0e6686dd29bc
 ---
-
 # Developing with Service Users in AEM Forms
 
 This article walks you through the process of creating a service user in AEM Forms
@@ -106,4 +106,3 @@ This article walks through the creation of a system user and configuring the use
      return resolver;
     }
    ```
-

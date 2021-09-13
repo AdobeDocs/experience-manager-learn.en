@@ -8,8 +8,8 @@ thumbnail: 6893.jpg
 topic: Development
 role: User
 level: Beginner
+exl-id: 565d81a4-2918-44ea-a3e9-ed79f246f08a
 ---
-
 # Create forms for signing
 
 The next step is to create the adaptive forms you want to be included in the package. Please remember to adhere to the following points when creating forms for signing:

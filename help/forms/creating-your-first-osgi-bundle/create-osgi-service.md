@@ -1,13 +1,13 @@
 ---
 title: Creating your first OSGi Service with AEM Forms
-description: Build your first OSGi service with AEM Forms 
+description: Build your first OSGi service with AEM Forms
 feature: Adaptive Forms
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 2f15782e-b60d-40c6-b95b-6c7aa8290691
 ---
-
 # OSGi Service
 
 An OSGi service is a Java class or service interface, along with a number of service properties as name/value pairs. The service properties differentiate among different service providers that provide services with the same service interface.

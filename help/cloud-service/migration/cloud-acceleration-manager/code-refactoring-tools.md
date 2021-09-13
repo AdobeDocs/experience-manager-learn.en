@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 8662
 thumbnail: 336693.jpeg
+exl-id: 9a607307-4f00-41db-a9e2-64bd7c18e3f8
 ---
-
 # Code Refactoring Tools
 
 Learn how AEM's Code Refactoring Tools help automate the conversion of existing AEM projects to be AEM as a Cloud Service compatible.

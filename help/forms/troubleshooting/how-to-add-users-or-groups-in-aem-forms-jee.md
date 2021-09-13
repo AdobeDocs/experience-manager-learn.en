@@ -7,8 +7,8 @@ level: Intermediate
 version: 6.5
 topic: Administration
 index: y
+exl-id: 595252dd-a882-4faa-938b-7aeb5a383056
 ---
-
 # How to add users and groups in AEM JEE
 
 *This video walks through the process of adding users and groups in User Management.*

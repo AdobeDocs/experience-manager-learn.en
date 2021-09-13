@@ -7,8 +7,8 @@ role: Developer, Architect
 level: Beginner
 kt: 7636
 thumbnail: kt-7636.jpeg
+exl-id: 4accc1ca-6f4b-449e-bf2e-06f19d2fe17d
 ---
-
 # Dynamic routes and editable components
 
 In this chapter, we enable two dynamic Adventure Detail routes to support editable components; __Bali Surf Camp__ and __Beervana in Portland__.

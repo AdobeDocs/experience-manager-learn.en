@@ -9,8 +9,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 701fae92-f740-4eb6-8133-1bc45a472d0f
 ---
-
 # Authoring Content Fragment {#authoring-content-fragments}
 
 In this chapter you will create and edit a new Content Fragment based on the [newly defined Contributor Content Fragment Model](./content-fragment-models.md). You will also learn how to create variations of Content Fragments.

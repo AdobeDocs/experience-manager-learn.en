@@ -8,8 +8,8 @@ thumbnail: kt-5811.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 1136244a-c3e6-45f6-8af8-eb3c100f838e
 ---
-
 # Create Database Tables
 
 Form data model can be based on RDBMS, RESTfull, SOAP or OData sources. This course's focus is on pre-filing Adaptive Form using form data model backed by RDBMS data source. For the purpose of this tutorial MYSQL database was used. We created the following two tables to demonstrate the use case

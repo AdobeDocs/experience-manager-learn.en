@@ -8,12 +8,11 @@ doc-type: article
 activity: implement
 version: 6.5.5
 kt: 5830
-
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 0b141b37-6041-4f87-bd50-dade8c0fee7d
 ---
-
 # Add custom columns
 
 To display workflow data in inbox, we need to define and populate variables in the workflow. The value of the variable needs to be set before a task is assigned to a user. To give you a head start we have provided sample workflow that is ready to be deployed on your AEM server.

@@ -7,8 +7,8 @@ feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 8b05fc02-c0c5-48ad-a53e-d73b805ee91f
 ---
-
 # Chapter 2 - Using Content Fragment Models
 
 AEM Content Fragment Models define content schemas which can be used to templatize the creation of raw content by AEM authors. This approach is similar to scaffolding or forms-based authoring. The key concept with Content Fragments, is the authored content is presentation-agnostic, meaning its intended for multi-channel use where the consuming application, be that AEM, a single page application, or a Mobile app, controls how the content is displayed to the user.

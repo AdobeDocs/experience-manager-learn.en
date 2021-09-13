@@ -10,8 +10,8 @@ version: 6.3, 6.4, 6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 7d600b16-bbb3-4f21-ae33-4df59b1bb39d
 ---
-
 # Developing for Page Difference {#developing-for-page-difference}
 
 This video shows how to provide custom styles for AEM Sites' Page Difference functionality.

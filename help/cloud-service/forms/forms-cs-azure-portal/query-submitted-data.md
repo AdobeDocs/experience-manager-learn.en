@@ -9,11 +9,10 @@ version: cloud-service
 topic: Integrations
 thumbnail: 335717.jpg
 kt: 8370
+exl-id: 45738615-4f15-43b0-bdaa-8b72288925ee
 ---
 # Query submitted data
 
 Learn how to query for Adaptive Form data in Azure Blob Storage using AEM Forms' metadata service.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335717/?quality=12&learn=on)
-
-

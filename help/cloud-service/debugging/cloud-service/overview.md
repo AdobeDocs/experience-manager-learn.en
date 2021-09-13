@@ -11,8 +11,8 @@ kt: 5346
 topic: Development
 role: Developer
 level: Beginner, Intermediate
+exl-id: 8092fbb4-234f-472e-a405-8a45734b7c65
 ---
-
 # Debugging AEM as a Cloud Service
 
 AEM as a Cloud Service is the cloud-native way of leveraging the AEM applications. AEM as a Cloud Service runs on self-service, scalable, cloud infrastructure, which requires AEM developers to understand how to understand and debug various facets of AEM as a Cloud Service, from build and deploy to obtaining details of running AEM applications.

@@ -9,8 +9,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 9400d9f2-f828-4180-95a7-2ac7b74cd3c9
 ---
-
 # Defining Content Fragment Models {#content-fragment-models}
 
 In this chapter learn how to model content and build a schema with **Content Fragment Models**. You will review existing models and create a new model. You will also learn about the different data types that can be used to define a schema as part of the model.

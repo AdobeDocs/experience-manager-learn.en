@@ -12,8 +12,8 @@ thumbnail: 36679.jpg
 topic: Localization
 role: User
 level: Beginner
+exl-id: 117f4df1-be2c-44e8-b560-1d588e0cd2a6
 ---
-
 # Manage Live Copy inheritance on a page {#manage-live-copy-page}
 
 Learn how to manage inheritance between a Live Copy and its Blueprint at a page level.

@@ -11,12 +11,11 @@ doc-type: tutorial
 activity: implement
 version: 6.4,6.5
 discoiquuid: 4f400c22-6c96-4018-851c-70d988ce7c6c
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: f0f19838-1ade-4eda-b736-a9703a3916c2
 ---
-
 # Install and Configure Tomcat {#install-and-configure-tomcat}
 
 In this part, we will install TOMCAT and deploy the sampleRest.war file in TOMCAT. The REST endpoint exposed by this WAR file will be the basis for our Data Source and Form Data Model.

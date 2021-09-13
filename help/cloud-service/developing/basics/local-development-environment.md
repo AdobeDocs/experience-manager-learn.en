@@ -8,8 +8,8 @@ topic: Development
 feature: Developer Tools
 kt: 6933
 thumbnail: 330558.jpg
+exl-id: 73fe8fb8-ff8a-4070-bc0c-384387d0a25e
 ---
-
 # Set up local development environment
 
 Learn how to download and set up a local development environment using the AEM as a Cloud Service SDK.

@@ -2,12 +2,12 @@
 title: How to purge process records from the Job Manager database
 description: Configure process purge of records from the Job Manager database
 type: Troubleshooting
-
-role: Developer 
+role: Developer
 level: Experienced
 version: 6.5
-topic: Development  
+topic: Development
 index: y
+exl-id: 090bba8d-3f1c-4370-9bc6-29bf0573bb77
 ---
 # How to purge process records from the Job Manager 
 

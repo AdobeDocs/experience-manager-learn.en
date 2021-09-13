@@ -6,8 +6,8 @@ feature: Adaptive Forms
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 307cc3b2-87e5-4429-8f21-5266cf03b78f
 ---
-
 # Create your first OSGi bundle
 
 An OSGi bundle is a Java™ archive file that contains Java code, resources, and a manifest that describes the bundle and its dependencies. The bundle is the unit of deployment for an application. This article is meant for developers wanting to create OSGi service or a servlet using AEM Forms 6.4 or 6.5. To build your first OSGi bundle please follow the following steps:

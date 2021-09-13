@@ -8,6 +8,7 @@ role: User
 level: Beginner
 kt: 7913
 thumbnail: 335733.jpeg
+exl-id: 394fc981-9593-492d-9961-b81a627730b1
 ---
 # Managing Assets Essentials
 

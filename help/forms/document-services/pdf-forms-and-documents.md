@@ -3,13 +3,13 @@ title: Understand the different types of PDF forms and documents
 description: PDF is actually a family of file formats, and this article describes the types of PDFs that are important and relevant for form developers.
 type: Documentation
 role: Developer
-level: Beginner, Intermediate 
+level: Beginner, Intermediate
 version: 6.3,6.4, 6.5
 feature: PDF Generator
 kt: 7071
 topic: Development
+exl-id: ffa9d243-37e5-420c-91dc-86c73a824083
 ---
-
 # PDF
 
 Portable Document Format (PDF) is actually a family of file formats, and this article details the ones that are most relevant for form developers. Many of the technical details and standards of different PDF types are evolving and changing. Some of these formats and specifications are International Organization for Standardization (ISO) standards, and some are specific intellectual property owned by Adobe. 
@@ -144,7 +144,3 @@ The document message bar includes instructions, and possibly buttons, to help yo
 >[!NOTE]
 >
 > If you click Enable Editing, you take this document out of PDF/A compliance.
-
-
-
-

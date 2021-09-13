@@ -6,8 +6,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 42f13a19-52bf-413d-a141-63f1f0910dce
 ---
-
 # Using Brand Portal with AEM Assets{#using-brand-portal-with-aem-assets}
 
 Video guides of Adobe Experience Manager (AEM) Assets Brand Portal integration.

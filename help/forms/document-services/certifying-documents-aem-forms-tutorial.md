@@ -1,14 +1,13 @@
 ---
 title: Certifying Document in AEM Forms
-
 description: Using the Docassurance service to certify PDF documents in AEM Forms
 feature: Document Security
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 1471929f-d269-4adc-88ad-2ad3682305e1
 ---
-
 # Certifying Document in AEM Forms
 
 A Certified Document provides PDF document and forms recipients with added assurances of its authenticity and integrity.
@@ -58,5 +57,3 @@ Or you can use the sample bundle included as part of this tutorial assets.
 **optional** - Specify the signature field that you want to use in certifying the document
 * Click submit.
 * Certified PDF should be returned to you.
-
-

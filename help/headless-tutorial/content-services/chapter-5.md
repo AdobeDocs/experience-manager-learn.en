@@ -5,8 +5,8 @@ feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 873d8e69-5a05-44ac-8dae-bba21f82b823
 ---
-
 # Chapter 5 - Authoring Content Services Pages
 
 Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templates defined in Chapter 4. The page create in this chapter will act as the JSON HTTP end-point for the Mobile App.

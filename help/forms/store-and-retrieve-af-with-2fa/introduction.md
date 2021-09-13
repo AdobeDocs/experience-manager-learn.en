@@ -9,8 +9,8 @@ thumbnail: 327122.jpg
 topic: Development
 role: Developer
 level: Experienced
+exl-id: b278652f-6c09-4abc-b92e-20bfaf2e791a
 ---
-
 # Storing and Retrieving Adaptive Form Data with 2FA
 
 This tutorial will walk you through the steps involved in saving and retrieving Adaptive Form Data with attachments using 2FA. This tutorial used MySQL database to store Adaptive Form data. Database of your choice can be used to store the data as long as you have deployed the database specific drivers in AEM. At a high-level, the following steps are needed to achieve the use case:

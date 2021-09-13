@@ -10,8 +10,8 @@ feature: Adaptive Forms
 topic: Development
 kt: 7151
 thumbnail: 331758.jpg
+exl-id: fa00822f-075a-47df-941f-c7370bd1d4f4
 ---
-
 # Test lead generation from form submission 
 
 Create an Adaptive Form based on the Sales Force Form Data Model and test the creation of a lead in Salesforce by submitting the form

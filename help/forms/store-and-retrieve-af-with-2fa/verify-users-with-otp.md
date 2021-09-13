@@ -6,13 +6,11 @@ type: Tutorial
 version: 6.4,6.5
 kt: 6594
 thumbnail: 6594.jpg
-
 topic: Development
 role: Developer
 level: Experienced
+exl-id: d486d5de-efd9-4dd3-9d9c-1bef510c6073
 ---
-
-
 # Verify users with OTP
 
 SMS Two Factor Authentication (Dual Factor Authentication) is a security verification procedure, which is triggered through a user logging into a website, software or application. In the log-in process, the user is automatically sent an SMS to their mobile number containing a unique numeric code.

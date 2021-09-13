@@ -6,8 +6,8 @@ version: 6.4
 topic: Development
 role: Developer
 level: Experienced
+exl-id: fbe6d341-7941-46f5-bcd8-58b99396d351
 ---
-
 # Setting value of JSON Data Element in AEM Forms Workflow {#setting-value-of-json-data-element-in-aem-forms-workflow}
 
 As an Adaptive Form is routed to different users in AEM Workflow, there will be requirements to hide or disable certain fields or panels based on the person reviewing the form. To satisfy these use cases we typically set a value of a hidden field. Based on this hidden field's value business rules can be authored to hide/disable appropriate panels or fields.

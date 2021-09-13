@@ -2,12 +2,13 @@
 title: How to make web service call from HTML5 form
 description: steps to configure web service from the HTML5 form
 type: Troubleshooting
-role: Developer 
+role: Developer
 level: Intermediate
 version: 6.5
 feature: Mobile Forms
-topic: Development  
+topic: Development
 index: y
+exl-id: 28fa5597-bab5-4fb9-8d30-e9fd41820749
 ---
 # How to make web service call from HTML5 form
 

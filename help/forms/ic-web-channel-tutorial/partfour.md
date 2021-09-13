@@ -11,12 +11,11 @@ doc-type: tutorial
 activity: implement
 version: 6.4,6.5
 discoiquuid: 95ca401b-69ea-49e2-a9ae-e144444e481e
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: d742d77b-a064-46e8-862a-2d3e1cc56f63
 ---
-
 # Creating Web Channel Document Template AEM Forms {#creating-web-channel-document-template-aem-forms}
 
 In this part, we will create a template for web channel document.

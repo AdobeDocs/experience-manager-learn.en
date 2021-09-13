@@ -9,6 +9,7 @@ feature: Adaptive Forms
 topic: Development
 kt: 7431
 thumbnail: 332438.jpg
+exl-id: 6bdfb841-3b7e-4c22-8907-a1b98df42ae5
 ---
 # Adaptive form with Adobe Sign
 
@@ -16,4 +17,3 @@ thumbnail: 332438.jpg
 Create an adaptive form to use Adobe Sign cloud Configuration
 
 >[!VIDEO](https://video.tv.adobe.com/v/332438/?quality=9&learn=on)
-

@@ -1,14 +1,13 @@
 ---
 title: Developing with Output and Forms Services in AEM Forms
-
 description: Using Output and Forms Service API in AEM Forms
 feature: Forms Service
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 9b2ef4c9-8360-480d-9165-f56a959635fb
 ---
-
 # Rendering Interactive PDF using Forms Services in AEM Forms
 
 Using Forms Service API in AEM Forms to render interactive PDF
@@ -60,5 +59,3 @@ Line 11: Returns the generated interactive pdf to the calling application
 
 
 The sample package contains the custom profile that is associated with the Mobile Form. Please explore the [customtoolbar.jsp](http://localhost:4502/apps/AEMFormsDemoListings/customprofiles/addImageToMobileForm/demo/customtoolbar.jsp) file. This jsp extracts the data from the mobile form and makes a POST request to servlet mounted on ***/bin/generateinteractivepdf*** path. The servlet return the interactive pdf to the calling application. The code in the customtoolbar.jsp then downloads the file to your local system
-
-

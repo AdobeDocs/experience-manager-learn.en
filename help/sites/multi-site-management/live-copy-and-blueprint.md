@@ -12,8 +12,8 @@ thumbnail: 36676.jpg
 topic: Localization
 role: User
 level: Beginner
+exl-id: 0a640096-f5ed-467d-9919-4280c2d9c4e9
 ---
-
 # Live Copy and Blue Print {#livecopy-blueprint}
 
 Understand the relationship between a Live Copy and its Blueprint in AEM Sites.

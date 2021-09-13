@@ -8,8 +8,8 @@ role: User
 level: Beginner
 kt: 4245
 thumbnail: 32147.jpg
+exl-id: d4f33657-d3b1-46d3-848c-8b73ce149797
 ---
-
 # Basic page operations {#basic-page-operations-aem-sites}
 
 Learn how to perform basic page management operations for a Adobe Experience Manager Sites page.

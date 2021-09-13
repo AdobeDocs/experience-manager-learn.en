@@ -11,8 +11,8 @@ role: Developer
 level: Beginner
 kt: 7498
 thumbnail: KT-7498.jpg
+exl-id: 261ec68f-36f4-474f-a6e4-7a2f9cea691b
 ---
-
 # Page templates {#page-templates}
 
 >[!CAUTION]

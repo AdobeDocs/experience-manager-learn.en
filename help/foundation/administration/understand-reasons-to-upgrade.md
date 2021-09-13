@@ -5,8 +5,8 @@ version: 6.5
 topic: Upgrade
 role: Leader, Architect, Developer, Admin, User
 level: Beginner
+exl-id: bf4030b0-67c4-4b00-af95-f63e6f79e995
 ---
-
 # Understanding Reasons to Upgrade
 
 A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.

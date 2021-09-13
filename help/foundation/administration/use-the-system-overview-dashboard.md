@@ -10,8 +10,8 @@ contentOwner: dgordon
 topic: Administration
 role: Admin
 level: Beginner
+exl-id: af8f499c-4955-44b5-8f21-085263ca31a3
 ---
-
 # Use the System Overview Dashboard
 
 Adobe Experience Manager's (AEM) [!UICONTROL System Overview] provides a high level view of the configuration, hardware, and health of the AEM instance all from a single dashboard.

@@ -9,12 +9,11 @@ audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.4,6.5
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 1949aeff-ae56-4abd-8e63-23c2fb4859f2
 ---
-
 # Creating your first interactive communication for the print channel
 
 Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
@@ -34,4 +33,3 @@ On completing this tutorial, you will have learned the following:
 * Create Document Fragments
 * Configure Tables and Charts
 * Use Watched Folders to generate documents in batch mode
-

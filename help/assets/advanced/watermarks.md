@@ -8,8 +8,8 @@ thumbnail: 41536.jpg
 topic: Content Management
 role: Developer
 level: Intermediate
+exl-id: 252c7c58-3567-440a-a1d5-19c598b6788e
 ---
-
 # Watermarks
 
 AEM as a Cloud Service's watermarking capabilities allows custom image renditions to be watermarked using any PNG image.

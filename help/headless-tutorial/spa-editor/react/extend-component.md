@@ -10,8 +10,8 @@ thumbnail: 5879-spa-react.jpg
 topic: SPA
 role: Developer
 level: Beginner
+exl-id: 44433595-08bc-4a82-9232-49d46c31b07b
 ---
-
 # Extend a Core Component {#extend-component}
 
 Learn how to extend an existing Core Component to be used with the AEM SPA Editor. Understanding how to extend an existing component is a powerful technique to customize and expand the capabilities of an AEM SPA Editor implementation.
@@ -489,4 +489,3 @@ Next, implement the Sling Model for the `BannerModel` interface.
 ## Congratulations! {#congratulations}
 
 Congratulations, you learned how to extend an AEM component using the and how Sling Models and dialogs work with the JSON model.
-

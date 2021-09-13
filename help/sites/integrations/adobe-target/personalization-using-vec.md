@@ -1,5 +1,5 @@
 ---
-title:  Personalization using Visual Experience Composer
+title: Personalization using Visual Experience Composer
 description: Learn how to create an Adobe Target Activity using Visual Experience Composer.
 topics: integrations, authoring, personalization, activity, offers
 audience: all
@@ -11,8 +11,8 @@ thumbnail: 6352-personalization-using-vec.jpg
 topic: Integrations
 role: Developer
 level: Intermediate
+exl-id: becf2bed-0541-45e8-9ce2-f9fb023234e0
 ---
-
 # Personalization using Visual Experience Composer {#personalization-vec}
 
 Learn how to create an A/B Test Target Activity using Visual Experience Composer (VEC).

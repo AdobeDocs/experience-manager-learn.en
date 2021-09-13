@@ -7,8 +7,8 @@ version: 6.4,6.5
 topic: Development
 role: Admin
 level: Beginner
+exl-id: 80288765-0b51-44a9-95d3-3bdb2da38615
 ---
-
 # Simplified Steps for Installing AEM Forms on Windows
 
 >[!NOTE]

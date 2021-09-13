@@ -6,8 +6,8 @@ version: 6.5
 topic: Content Management
 role: Developer
 level: Intermediate
+exl-id: 2eceb65f-362a-48e1-a8c6-e9f6954dc2a0
 ---
-
 # Using Connected Assetswith AEM Assets{#using-connected-assets-with-aem-assets}
 
 The Connected Assets feature allows an AEM Sites author to seamlessly share digital assets hosted on a different instance of AEM.

@@ -11,8 +11,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: Admin, Developer
 level: Intermediate
+exl-id: 034183f5-a3c8-4048-b806-4a84bd22d4b6
 ---
-
 # Setup Social Posting with Experience Fragments {#set-up-social-posting-with-experience-fragments}
 
 Experience Fragments allow marketers to post experiences created in AEM to social media platforms. The video below details the setup and configuration necessary to publish Experience Fragments to Facebook and Pinterest.
@@ -41,4 +41,3 @@ This URI is used for Facebook and Pinterest apps as part of the Oauth flow.
 
  https://localhost:8443/libs/cq/experience-fragments/components/redirect
 ```
-

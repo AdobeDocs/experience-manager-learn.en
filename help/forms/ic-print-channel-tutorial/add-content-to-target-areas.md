@@ -1,8 +1,8 @@
 ---
 title: Adding text and image content to print channel document
 seo-title: Adding text and image content to print channel document
-description: This is part 7 of a multi-step tutorial for creating your first interactive communications document. In this part, we will add images and text content to the target areas defined in the layout(xdp). 
-seo-description: This is part 7 of a multi-step tutorial for creating your first interactive communications document. In this part, we will add images and text content to the target areas defined in the layout(xdp). 
+description: This is part 7 of a multi-step tutorial for creating your first interactive communications document. In this part, we will add images and text content to the target areas defined in the layout(xdp).
+seo-description: This is part 7 of a multi-step tutorial for creating your first interactive communications document. In this part, we will add images and text content to the target areas defined in the layout(xdp).
 uuid: f20d6974-6faf-4b90-a7ff-8aa8a620fcaa
 feature: Interactive Communication
 topics: development
@@ -16,8 +16,8 @@ thumbnail: 22379.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 49080c16-617f-4840-8bb4-7b080fa291c4
 ---
-
 # Adding text and image content to print channel document
 
 In this part, we will add images and text content to the target areas defined in the layout(xdp). 
@@ -31,4 +31,3 @@ To add content to the print channel document, please follow the video below.
 The video walks you through the steps involved in adding content to the appropriate target areas in the print channel document.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22379t2/?quality=9&learn=on)
-

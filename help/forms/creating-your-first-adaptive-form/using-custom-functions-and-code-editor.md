@@ -1,6 +1,5 @@
 ---
 title: Using functions and code editor
-
 description: Using functions and code editor to author business rule
 feature: Adaptive Forms
 version: 6.4,6.5
@@ -9,8 +8,8 @@ thumbnail: 22282.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 7b2a4075-bfdf-49f3-b507-34d86193bf64
 ---
-
 # Using custom functions and code editor {#using-functions-and-code-editor}
 
 In this part, we will use custom functions and the code editor to author business rules.

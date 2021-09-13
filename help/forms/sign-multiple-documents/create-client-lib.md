@@ -8,6 +8,7 @@ thumbnail: 6907.jpg
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 3c148b30-2c7d-428d-9a3c-f3067ca3a239
 ---
 # Create a Client Library
 

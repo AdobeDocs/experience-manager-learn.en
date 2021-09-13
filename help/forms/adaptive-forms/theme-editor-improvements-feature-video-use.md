@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: User
 level: Beginner
+exl-id: 6518aacb-97bf-4038-ab3c-1dbc2277eb9e
 ---
-
 # Theme Editor Improvements in AEM Forms{#theme-editor-improvements-in-aem-forms}
 
 Improvements to the Theme Editor for adaptive forms in AEM 6.3
@@ -17,4 +17,3 @@ Improvements to the Theme Editor for adaptive forms in AEM 6.3
 >[!NOTE]
 >
 >This feature is available only with AEM 6.3 onwards.
-

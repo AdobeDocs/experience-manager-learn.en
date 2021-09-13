@@ -8,8 +8,8 @@ thumbail: 28385.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 16170f0d-6933-47f2-aefa-951599d163c0
 ---
-
 # Adding components to People panel {#adding-components-to-people-panel}
 
 Configure People panel by adding the spouse details fragment. A rule is created to display the spouse details fragment if the applicants marital status is married.
@@ -25,8 +25,3 @@ Configure People panel by adding the spouse details fragment. A rule is created 
 **Spouse Details Rules**
 
 >[!VIDEO](https://video.tv.adobe.com/v/22195?quality=9&learn=on)
-
-
-
-
-

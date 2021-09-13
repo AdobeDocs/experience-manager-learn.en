@@ -9,12 +9,11 @@ audience: developer
 doc-type: article
 activity: implement
 version: 6.5
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: f4af7cb9-cc3b-4bec-9428-ab4f1a3cf41a
 ---
-
 # Multi Series Charts
 
 AEM Forms 6.5 introduced the ability to create and configure multiple series charts. The multiple series charts are typically used in association with Line,Bar,Column chart type. The following chart is an good example of multi series chart. The chart shows the growth of $10,000 USD in 3 different mutual funds over a period of time. To be able to create and use charts of these kind in AEM Forms, you will need to create the appropriate Form Data Model.

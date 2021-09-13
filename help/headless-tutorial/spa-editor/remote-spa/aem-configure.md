@@ -7,8 +7,8 @@ role: Developer, Architect
 level: Beginner
 kt: 7631
 thumbnail: kt-7631.jpeg
+exl-id: 0bdb93c9-5070-483c-a34c-f2b348bfe5ae
 ---
-
 # Configure AEM for SPA Editor
 
 While the SPA codebase is managed outside of AEM, an AEM project is required to setup supporting configuration and content requirements. This chapter walks through the creation of an AEM project that contains necessary configurations:

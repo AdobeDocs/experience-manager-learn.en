@@ -8,6 +8,7 @@ version: 6.5, cloud-service
 feature: Developer Tools
 topic: Administration
 index: y
+exl-id: 6477e9df-f33f-46b1-aa9b-535063da65dd
 ---
 # Steps to resolve memory related issues in AEM
 

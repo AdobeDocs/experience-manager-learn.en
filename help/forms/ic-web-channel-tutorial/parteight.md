@@ -14,8 +14,8 @@ discoiquuid: 4292303c-3ef4-4df2-b537-fdb011412670
 topic: Development
 role: Developer
 level: Beginner
+exl-id: ba9ce6a2-f6e8-4e84-a23a-f4803879f635
 ---
-
 # Configuring line chart for your first interactive communication document
 
 In this part, we will add a Line chart to the account progress panel.
@@ -43,5 +43,3 @@ Please make sure you select the correct form data model element the x and y-axis
 **Line Chart Settings in AEM Forms 6.5**
 
 ![linechart64](assets/linechart65.PNG)
-
-

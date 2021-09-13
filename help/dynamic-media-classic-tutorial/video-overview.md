@@ -10,8 +10,8 @@ activity: use
 topic: Content Management
 role: User
 level: Beginner
+exl-id: dfbf316f-3922-4bc7-b3f3-2a5bbdeb7063
 ---
-
 # Video Overview {#video-overview}
 
 Dynamic Media Classic comes with automatic conversion of video on upload, video streaming to desktop and mobile devices, and adaptive video sets optimized for playback based on device and bandwidth. One of the most important things about video is that the workflow is simple — it's designed so that anyone can use it, even if they are not very familiar with video technology.

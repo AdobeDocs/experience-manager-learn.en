@@ -8,8 +8,8 @@ topic: Development, Migration
 feature: Dispatcher
 kt: 6931
 thumbnail: 330556.jpg
+exl-id: f0d74326-f8ba-431f-8b66-494e20b9e710
 ---
-
 # Migrate the Dispatcher configuration from AMS
 
 Overview of the differences in the dispatcher configurations as well as tips and tricks for migrating the dispatcher from Adobe Managed Services (AMS) to AEM as a Cloud Service.

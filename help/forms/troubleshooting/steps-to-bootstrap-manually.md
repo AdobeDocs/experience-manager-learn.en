@@ -1,14 +1,13 @@
 ---
-title: Steps to bootstrap manually 
-description: Steps to bootstrap database manually if the database initialize is not working 
+title: Steps to bootstrap manually
+description: Steps to bootstrap database manually if the database initialize is not working
 type: Troubleshooting
-
-role: Admin 
+role: Admin
 level: Intermediate
 version: 6.5
-
-topic: Administration 
+topic: Administration
 index: y
+exl-id: a6f62d9e-0263-4843-8521-93e8c3c5be5b
 ---
 # Steps to bootstrap manually if the database initialize is not working
 

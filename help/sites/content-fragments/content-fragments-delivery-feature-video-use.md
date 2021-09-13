@@ -15,8 +15,8 @@ discoiquuid: 912e0c41-83cf-49f7-b515-09519b6718c1
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 525cd30c-05bf-4f17-b61b-90609ce757ea
 ---
-
 # Delivering Content Fragments {#delivering-content-fragments}
 
 Adobe Experience Manager (AEM) Content Fragments are text-based editorial content that may include some structured data elements associated but considered pure content without design or layout information. Content Fragments are typically created as channel-agnostic content, that is intended to be used and re-used across channels, which in turn wrap the content in a context-specific experience.

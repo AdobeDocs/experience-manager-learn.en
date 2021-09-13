@@ -6,6 +6,7 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: fbfc74d7-ba7c-495a-9e3b-63166a3025ab
 ---
 # Best Practices
 
@@ -34,4 +35,3 @@ Adobe Experience Manager (AEM) forms can help you transform complex transactions
     * Code related to the visibility of an object should always be placed in the visibility event of said object.
   * **Script**
     * If the code you are writing inside an Adaptive Form extends past 5 visible lines, you must move your code to a Client Library. Ideally, add your function to the client library and then add the appropriate jsdoc tags to allow the function to be visible in the Adaptive Form rule editor.
-

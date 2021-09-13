@@ -11,8 +11,8 @@ thumbnail: 32151.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: cc659581-031d-4f2a-90c1-cf721e481689
 ---
-
 # Creating page versions {#creating-page-versions-aem-sites}
 
 Page versioning helps content authors to track changes associated with a page by creating a page version and provides an option to preview a version, restore a version, and compare a version with the current version of a page.

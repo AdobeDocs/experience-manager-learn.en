@@ -14,8 +14,8 @@ discoiquuid: 0e1760ad-c412-4a55-a51a-d0875c55768e
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 11145e87-7eef-4183-ac6f-efc8d35d0670
 ---
-
 # Creating DataSource Configuration in AEM Forms{#creating-datasource-configuration-in-aem-forms}
 
 In this part, we will create a REST backed data source.  The following video walks thru the steps to create the data source.

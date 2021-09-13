@@ -6,8 +6,8 @@ version: 6.5.1,6.5.2
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 8cae155c-c393-4ac3-a412-bf14fc411aac
 ---
-
 # Capturing Error Messages in Invoke Form Data Model Service Step
 
 Starting with AEM Forms 6.5.1,we now have the option to capture error messages and specify validation options. Invoke Form Data Model Service step has been enhanced to provide the following capabilities.
@@ -38,6 +38,4 @@ With these changes, Invoke Form Data Model Service step will make sure the input
 }
 
 }
-``` 
-
-
+```

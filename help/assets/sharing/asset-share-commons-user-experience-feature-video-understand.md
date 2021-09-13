@@ -5,8 +5,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 500a9b10-462a-4f41-9b07-67138955cc3d
 ---
-
 # Understanding the User Experience of Asset Share Commons{#understanding-asset-share-commons}
 
 A cursory introduction to Asset Share Commons' user and authoring experiences.

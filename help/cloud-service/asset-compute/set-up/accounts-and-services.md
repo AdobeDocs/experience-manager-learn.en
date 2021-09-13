@@ -12,8 +12,8 @@ thumbnail: 40377.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: 707657ad-221e-4dab-ac2a-46a4fcbc55bc
 ---
-
 # Set up accounts and services
 
 This tutorial requires the following services to be provisioning and accessible via the learner's Adobe ID.

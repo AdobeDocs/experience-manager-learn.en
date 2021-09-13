@@ -9,8 +9,8 @@ audience: developer
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 58851624-71c9-4745-aaaf-305acf6ccb14
 ---
-
 # Set up a Local AEM Development Environment 
 
 Guide to setting up a local development for Adobe Experience Manager, AEM. Covers important topics of local installation, Apache Maven, integrated development environments and debugging/troubleshooting. Development with **[!DNL Eclipse IDE], [!DNL CRXDE Lite], [!DNL Visual Studio Code] and [!DNL IntelliJ]** are discussed.

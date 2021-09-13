@@ -10,8 +10,8 @@ activity: use
 topic: Content Management
 role: User
 level: Beginner
+exl-id: d4e16b45-0095-44b4-8c16-89adc15e0cf9
 ---
-
 # Introduction to Basic Templates {#basic-templates}
 
 In Dynamic Media Classic terms, a template is a document that can be changed dynamically via the URL after the template has been published. Dynamic Media Classic offers Basic Templates, image-based templates called from the Image Server and consisting of images and rendered text.

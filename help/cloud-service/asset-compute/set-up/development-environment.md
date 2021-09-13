@@ -12,8 +12,8 @@ thumbnail: KT-6266.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: 162e10e5-fcb0-4f16-b6d1-b951826209d9
 ---
-
 # Set up local development environment
 
 Adobe Asset Compute projects cannot be integrated with the local AEM runtime provided by the AEM SDK and are developed using their own tool chain, separate from that required by AEM applications based on the AEM Maven project archetype.

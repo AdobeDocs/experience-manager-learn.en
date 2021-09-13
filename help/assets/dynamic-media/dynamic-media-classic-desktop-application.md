@@ -8,8 +8,8 @@ thumbnail: 36645.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 1600c0c0-0054-49ce-9b99-f8e6e29d6132
 ---
-
 # Using Dynamic Media Classic Desktop Application{#using-dynamic-media-desktop-application}
 
 Adobe introduces a desktop application for Dynamic Media Classic that provides a similar experience to a browser and a functionally equivalent interface that does not depend on Adobe Flash player.

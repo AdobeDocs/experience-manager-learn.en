@@ -12,8 +12,8 @@ thumbnail: 26316.jpg
 topic: Architecture
 role: Architect, Developer, Admin
 level: Beginner
+exl-id: b28805d3-bb2d-4f66-8daa-9a8eb7ecf0a1
 ---
-
 # Using Adobe Cloud Manager - CI/CD Production Pipeline
 
 >[!CONTEXTUALHELP]

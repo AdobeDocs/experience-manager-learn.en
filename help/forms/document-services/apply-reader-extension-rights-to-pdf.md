@@ -3,12 +3,11 @@ title: Rendering XDP into PDF with Usage Rights
 description: Apply usage rights to pdf
 version: 6.4,6.5
 feature: Reader Extensions
-
 topic: Development
 role: Developer
 level: Experienced
+exl-id: ea433667-81db-40f7-870d-b16630128871
 ---
-
 # Applying Reader Extensions
 
 Reader Extensions allows you to manipulate usage rights on PDF documents. Usage rights pertain to functionality that is available in Acrobat but not in Adobe Reader. Functionality controlled by Reader Extensions includes the ability to add comments to a document, fill forms, and save the document. PDF documents that have usage rights added are called rights-enabled documents. A user who opens a rights-enabled PDF document in Adobe Reader can perform the operations that are enabled for that document.
@@ -188,5 +187,3 @@ To test this on your local server, please follow the following steps:
 1. [Preview Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/applyreaderextensions/jcr:content?wcmmode=disabled)
 1. Select the appropriate rights and upload PDF file
 1. Click Submit to get Reader Extended PDF
-
-

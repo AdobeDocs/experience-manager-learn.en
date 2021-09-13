@@ -8,8 +8,8 @@ level: Intermediate
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 201
 thumbnail: 18131.jpg
+exl-id: cc4ffbd0-207a-42e4-bfcb-d6c83fb97237
 ---
-
 # Translation support for AEM Content Fragments {#translation-support-content-fragments}
 
 Learn how Content Fragments can be localized and translated with Adobe Experience Manager. Mixed-media assets associated with a Content Fragment are also eligible to be extracted and translated.

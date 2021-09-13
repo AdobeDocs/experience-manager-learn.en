@@ -11,8 +11,8 @@ role: Developer
 level: Beginner
 kt: 7498
 thumbnail: KT-7498.jpg
+exl-id: 98946462-1536-45f9-94e2-9bc5d41902d4
 ---
-
 # Theming workflow {#theming}
 
 >[!CAUTION]

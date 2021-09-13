@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 8665
 thumbnail: 336696.jpeg
+exl-id: fbcb7ae8-0452-4632-a1fc-896187bb6695
 ---
-
 # Index Converter
 
 Learn how the Index Converter automatically converts existing AEM index definitions to be AEM as a Cloud Service compatible.

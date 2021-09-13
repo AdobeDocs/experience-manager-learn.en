@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 91b4a134-44a7-474e-b769-fe45562105b2
 ---
-
 # Generate PDF from HTM5 Form Submission {#generate-pdf-from-htm-form-submission}
 
 This article will walk you through the steps involved in generating pdf from an HTML5(aka Mobile Forms) form submission. This demo will also explain the steps needed to add an image to HTML5 form and merge the image into the final pdf.
@@ -117,4 +117,3 @@ To test this capability on your own server please follow the following steps:
 * [Preview the XDP as html](http://localhost:4502/content/dam/formsanddocuments/schengen.xdp/jcr:content)
 
 * Add an image to the form and submit. You should get PDF back with the image in it.
-

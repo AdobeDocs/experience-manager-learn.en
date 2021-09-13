@@ -10,13 +10,12 @@ audience: implementer
 doc-type: article
 activity: setup
 version: 6.3,6.4,6.5
-
 discoiquuid: 58c6bf42-efe5-41a3-8023-d84f3675f689
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 85e1b450-39c0-4bb8-be5d-d7f50b102f3d
 ---
-
 # Submitting To Thank You Page {#submitting-to-thank-you-page}
 
 Submit to REST endpoint option passes the data filled in the form to a configured confirmation page as part of the HTTP GET request. You can add the name of the fields to request. The format of the request is:
@@ -40,4 +39,3 @@ To test this capability on your server, please follow the instructions mentioned
 * Point your browser to the [Time Off Request Form](http://localhost:4502/content/dam/formsanddocuments/helpx/timeoffrequestform/jcr:content?wcmmode=disabled)
 * Fill in the required field and submit the form
 * You should get thank you page with your information populated on the page
-
