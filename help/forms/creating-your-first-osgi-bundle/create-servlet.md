@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 72728ed7-80a2-48b5-ae7f-d744db8a524d
 ---
-
 # Sling Servlet
 
 A Servlet is a class used to extend the capabilities of servers that host applications accessed by means of a request-response programming model. For such applications, Servlet technology defines HTTP-specific servlet classes.

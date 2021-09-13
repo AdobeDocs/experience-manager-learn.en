@@ -9,8 +9,8 @@ thumbnail: 32052.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 55f655fa-5091-4382-ad46-a6f7cee92f76
 ---
-
 # Versions
 
 Explore how AEM creates and maintains asset versions.

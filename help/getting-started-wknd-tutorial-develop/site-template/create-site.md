@@ -11,8 +11,8 @@ role: Developer
 level: Beginner
 kt: 7496
 thumbnail: KT-7496.jpg
+exl-id: 6d0fdc4d-d85f-4966-8f7d-d53506a7dd08
 ---
-
 # Create a site {#create-site}
 
 >[!CAUTION]

@@ -11,8 +11,8 @@ thumbnail: 32032.jpg
 topic: Architecture
 role: Architect, Developer
 level: Beginner
+exl-id: 92afc9c4-3d58-4787-86f6-46495d89c4d4
 ---
-
 # Introduction to [!DNL Sling] {#introduction-sling}
 
 An introduction to [!DNL Sling], an open-source [!DNL RESTful] web framework that is part of Adobe Experience Manager's underlying technology stack.

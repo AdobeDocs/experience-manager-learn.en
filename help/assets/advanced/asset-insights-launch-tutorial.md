@@ -6,8 +6,8 @@ version: 6.3, 6.4, 6.5
 topic: Integrations
 role: Developer
 level: Intermediate
+exl-id: 00125fe1-3bb9-4b1a-a83c-61c413403ae2
 ---
-
 # Set up Asset Insights with AEM Assets and Adobe Experience Platform Launch
 
 In this 5 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Adobe Launch.

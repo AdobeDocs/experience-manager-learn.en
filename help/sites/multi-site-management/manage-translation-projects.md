@@ -1,8 +1,8 @@
 ---
 title: Translation Projects
 seo-title: Translation Projects
-description: Learn how to create, edit and manage a translation project for your Language Copy. 
-seo-description: Learn how to create, edit and manage a translation project for your Language Copy.  
+description: Learn how to create, edit and manage a translation project for your Language Copy.
+seo-description: Learn how to create, edit and manage a translation project for your Language Copy.
 feature: Language Copy, Multi Site Manager
 topics: localization, authoring, content-architecture
 audience: all
@@ -14,8 +14,8 @@ thumbnail: 36486.jpg
 topic: Localization
 role: User
 level: Beginner
+exl-id: 1e406454-885d-4215-9304-13e476788c2c
 ---
-
 # Translation Projects {#translation-projects}
 
 Learn how to create, edit and manage a translation project for your Language Copy.  

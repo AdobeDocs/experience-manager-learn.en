@@ -11,8 +11,8 @@ level: Beginner
 kt: 4089
 mini-toc-levels: 1
 thumbnail: 30207.jpg
+exl-id: b926c35e-64ad-4507-8b39-4eb97a67edda
 ---
-
 # Unit Testing {#unit-testing}
 
 This tutorial covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in the [Custom Component](./custom-component.md) tutorial.

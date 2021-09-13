@@ -1,14 +1,13 @@
 ---
 title: Using Transaction Reporting in AEM Forms
-
 description: Transaction reports in AEM Forms allow you to keep a count of all transactions taken place since a specified date on your AEM Forms deployment.
 feature: Adaptive Forms
 version: 6.4.1,6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 36c38cb6-6f6a-4328-abf5-7a30059b66ce
 ---
-
 # Using Transaction Reporting in AEM Forms{#using-transaction-reporting-in-aem-forms}
 
 Transaction reporting to capture the number of Form submissions, rendering of documents using document services and rendering of interactive communications(Web and Print channels) has been introduced with AEM Forms 6.4.1. This capability is primarily for customers wanting to license the software based on the number of form submissions and/or documents rendered. This capability is currently available on AEM Forms OSGI stack only.
@@ -43,4 +42,3 @@ Actions like submitting a PDF Form, using Agent UI to preview an interactive com
 If you are viewing the transaction report on the author instance, make sure reverse replication is configured on all the publish instances.
 
 To learn more about transaction reporting [please click here](https://helpx.adobe.com/experience-manager/6-4/forms/using/transaction-reports-overview.html)
-

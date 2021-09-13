@@ -12,8 +12,8 @@ thumbnail: 330519.jpg
 topic: Headless, Integrations
 role: Developer
 level: Intermediate, Experienced
+exl-id: e2922278-4d0b-4f28-a999-90551ed65fb4
 ---
-
 # Service Credentials
 
 Integrations with AEM as a Cloud Service must be able to securely authenticate to AEM. AEM's Developer Console grants access to Service Credentials, which are used to facilitate external applications, systems and services to programmatically interact with AEM Author or Publish services over HTTP.
@@ -249,4 +249,3 @@ The output to the terminal will look like:
 ## Congratulations!
 
 Now that we've programmatically accessed AEM as a Cloud Service using an local development access token, as well as a production-ready service-to-service access token!
-

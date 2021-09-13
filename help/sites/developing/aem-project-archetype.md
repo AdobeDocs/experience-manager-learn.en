@@ -1,6 +1,6 @@
 ---
 title: AEM Project Archetype
-description: The AEM Project Archetype creates a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects. 
+description: The AEM Project Archetype creates a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects.
 feature: AEM Project Archetype
 topics: development
 audience: developer
@@ -12,8 +12,8 @@ thumbnail: 32550.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 9f46ce7e-9c6d-429d-9d8a-c93c274f70d7
 ---
-
 # [!DNL AEM Project Archetype] {#aem-project-archetype}
 
 The AEM Project contain all of the code and configurations for an implementation. The [!DNL AEM Project Archetype] creates a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects.

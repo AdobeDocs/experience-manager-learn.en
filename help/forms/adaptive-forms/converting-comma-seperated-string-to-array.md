@@ -7,8 +7,8 @@ topic: Development
 role: Developer
 level: Intermediate
 kt: 8507
+exl-id: 9ad69407-2413-416f-9cec-43f88989b31d
 ---
-
 # Converting comma separated string into string array {#setting-value-of-json-data-element-in-aem-forms-workflow}
 
 When your form is based on a form data model which has an array of strings as an input parameter, you will need to manipulate the submitted adaptive form data to insert an array of strings. As an example if you have bound a checkbox field to a form data model element of type string array, the data from the checkbox field will be in a comma separated string format. The sample code listed below shows you how to replace the comma separated string with an array of strings.

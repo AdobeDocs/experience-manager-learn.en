@@ -12,8 +12,8 @@ thumbnail: KT-6281.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: 766bfaff-ade0-41c8-a395-e79dfb4b3d76
 ---
-
 # Configure the manifest.yml
 
 The `manifest.yml`, located in the root of the Asset Compute project, describes all the workers in this project to be deployed.

@@ -8,8 +8,8 @@ thumbnail: 6894.jpg
 topic: Development
 role: Developer
 level: Experienced
+exl-id: fb68579d-241c-414d-92f4-13194f4d1923
 ---
-
 # Customize summary step
 
 Summary step component is used to display the summary of your form submission with a link to download the signed form. Summary step is typically placed in the last panel of your form. 
@@ -42,5 +42,3 @@ The summary.jsp has the following code. It has reference to the client library i
 ## Assets
 
 The custom summary component can be [downloaded from here](assets/custom-summary-step.zip)
-
-

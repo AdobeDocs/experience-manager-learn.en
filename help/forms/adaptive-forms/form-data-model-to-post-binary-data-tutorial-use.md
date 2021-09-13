@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 9c62a7d6-8846-424c-97b8-2e6e3c1501ec
 ---
-
 # Using Form Data Model To Post Binary Data{#using-form-data-model-to-post-binary-data}
 
 Starting with AEM Forms 6.4, we now have the ability to invoke Form Data Model Service as a step in AEM Workflow. This article will walk you through a sample use case for posting Document of Record using Form Data Model Service.

@@ -9,8 +9,8 @@ level: Beginner
 mini-toc-levels: 1
 kt: 7131
 thumbnail: KT-7131.jpg
+exl-id: 8c8b2620-6bc3-4a21-8d8d-8e45a6e9fc70
 ---
-
 # Production deployment with an AEM Publish service
 
 In this tutorial, you will set up a local environment to simulate content being distributed from an Author instance to a Publish instance. You will also generate production build of a React App configured to consume content from the AEM Publish environment using the GraphQL APIs. Along the way, you will learn how to effectively use environment variables and how to update the AEM CORS configurations.

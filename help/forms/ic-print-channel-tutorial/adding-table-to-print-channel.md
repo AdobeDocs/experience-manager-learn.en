@@ -13,12 +13,11 @@ version: 6.4,6.5
 kt: 5994
 thumbnail: 37953.jpg
 discoiquuid: 36c1f67f-b5bb-431e-893c-fd5032918dd7
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: b5a6c1c9-2be1-4622-b85b-a1996fb86a2f
 ---
-
 # Adding table to contributions section
 
 In this part, we will add a table to the contributions section.
@@ -33,4 +32,3 @@ Open the 401KStatementPrint in edit mode.
 The following video walks through the steps involved in configuring a table in the print channel document.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22387t1?quality=9&learn=on)
-

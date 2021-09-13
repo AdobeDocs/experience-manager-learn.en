@@ -1,6 +1,6 @@
 ---
 title: Understand Authentication support in AEM
-description: A consolidated view into the authentication (and occasionally authorization) mechanisms supported by AEM. 
+description: A consolidated view into the authentication (and occasionally authorization) mechanisms supported by AEM.
 version: 6.3, 6.4, 6.5
 feature: User and Groups
 topics: authentication, security
@@ -11,8 +11,8 @@ kt: 406
 topic: Architecture
 role: Architect
 level: Experienced
+exl-id: 96c542ae-6ab6-4d8a-94df-a58b03469320
 ---
-
 # Understand Authentication Support in AEM 6.x
 
 A consolidated view into the authentication (and occasionally authorization) mechanisms supported by AEM. 

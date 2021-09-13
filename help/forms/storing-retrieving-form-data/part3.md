@@ -7,8 +7,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 9cce47e7-07b4-43c3-8746-197620855c3f
 ---
-
 # Create OSGi Service to fetch data
 
 The following code was written to store and fetch the stored Adaptive Form data. A simple query is used to fetch the Adaptive Form data associated with a given GUID. The fetched data is then returned to the calling application. The same data source created in the earlier step is referenced in this code

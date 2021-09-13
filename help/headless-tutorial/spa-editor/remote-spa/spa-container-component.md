@@ -7,8 +7,8 @@ role: Developer, Architect
 level: Beginner
 kt: 7635
 thumbnail: kt-7635.jpeg
+exl-id: e5e6204c-d88c-4e79-a7f4-0cfc140bc51c
 ---
-
 # Editable container components
 
 [Fixed components](./spa-fixed-component.md) provide some flexibility for authoring SPA content, however this approach is rigid and requires developers to define the exact composition of the editable content. To support the creation of exceptional experiences by authors, SPA Editor supports the use of container components in the SPA. Container components allow authors to drag and drop allowed components into the container, and author them, just like they can in traditional AEM Sites authoring!
@@ -317,4 +317,4 @@ You've added a container component that allows for editable components to be add
 
 ## Next Steps
 
-The next step will be using this same technique to [add an editable component to an Adventure Details route](./spa-dynamic-routes.md) in the SPA. 
+The next step will be using this same technique to [add an editable component to an Adventure Details route](./spa-dynamic-routes.md) in the SPA.

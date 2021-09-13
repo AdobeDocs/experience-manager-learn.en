@@ -8,9 +8,8 @@ thumbnail: kt-5812.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 5fa4638f-9faa-40e0-a20d-fdde3dbb528a
 ---
-
-
 # Configuring form data model
 
 ## Apache Sling Connection Pooled DataSource

@@ -5,8 +5,8 @@ feature: Content Fragments, GraphQL API, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 0056971f-2f89-43b3-bb6f-dd16c2a50370
 ---
-
 # Getting Started with AEM Headless - GraphQL
 
 AEM's GraphQL APIs for Content Fragments

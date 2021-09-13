@@ -12,8 +12,8 @@ thumbnail: 36678.jpg
 topic: Localization
 role: User
 level: Beginner
+exl-id: 924fbe94-2e58-4998-a2a9-b77f1aebd61e
 ---
-
 # Manage Live Copy Inheritance on a component {#manage-live-copy-component}
 
 Understand how to manage inheritance between a Live Copy and its Blueprint at a component level.

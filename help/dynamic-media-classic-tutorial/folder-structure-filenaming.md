@@ -10,8 +10,8 @@ audience: all
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 15121896-9196-4ce0-aff2-9178563326b4
 ---
-
 # Determine Your Folder Structure and File Naming Convention {#folder-structure-filenaming}
 
 Before you jump in and start uploading all your content, it's wise to consider the folder structure you'll use and particularly your file naming convention. It'll likely save you time and having to redo tasks later. It's best to coordinate these decisions across all groups.

@@ -7,8 +7,8 @@ feature: Experience Fragments
 topic: Personalization
 role: Developer
 level: Intermediate
+exl-id: 54a30cd9-d94a-4de5-82a1-69ab2263980d
 ---
-
 # Integrating Adobe Experience Manager with Adobe Target
 
 In this section, we will discuss how to set up Adobe Experience Manager with Adobe Target for different scenarios. Based on your scenario and organizational requirements.

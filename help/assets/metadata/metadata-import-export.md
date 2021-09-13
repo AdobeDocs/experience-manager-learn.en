@@ -8,8 +8,8 @@ role: Admin
 level: Intermediate
 kt: 647, 917
 thumbnail: 22132.jpg
+exl-id: 0681e2c4-8661-436c-9170-9aa841a6fa27
 ---
-
 # Using Metadata Import and Export in AEM Assets {#metadata-import-and-export}
 
 Learn how to use the import and export metadata features of Adobe Experience Manager Assets. The import and export capabilities allow content authors to bulk update metadata for existing assets.

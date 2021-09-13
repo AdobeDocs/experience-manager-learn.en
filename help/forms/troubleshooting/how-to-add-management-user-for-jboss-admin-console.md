@@ -7,8 +7,8 @@ level: Intermediate
 version: 6.5
 topic: Administration
 index: y
+exl-id: 787ee0b4-8260-47d2-bcf9-da705e94859a
 ---
-
 # How to add management user for JBoss admin console
 
 *This video walks through the steps to add management user for JBoss admin console.*

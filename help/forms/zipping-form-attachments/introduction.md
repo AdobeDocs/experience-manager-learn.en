@@ -7,8 +7,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: kt-8049
+exl-id: bd9e1fc1-2fc7-452c-9a4a-2e16f6821760
 ---
-
 # Introduction
 
 
@@ -27,6 +27,3 @@ To accomplish the use case a custom workflow process step was written. In this c
 To accomplish this use case a custom workflow process step was written. In this custom process step we populate workflow variables of type ArrayList of Documents and ArrayList of Strings.
 
 ![send-list-of-documents](assets/send-list-of-documents.JPG)
-
-
-

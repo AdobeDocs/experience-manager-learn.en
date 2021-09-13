@@ -12,8 +12,8 @@ thumbnail: 330477.jpg
 topic: Headless, Integrations
 role: Developer
 level: Intermediate, Experienced
+exl-id: 197444cb-a68f-4d09-9120-7b6603e1f47d
 ---
-
 # Local Development Access Token
 
 Developers building integrations that require programmatic access to AEM as a Cloud Service need a simple, quick way to obtain temporary access tokens for AEM to facilitate local development activities. To satisfy this need, AEM's Developer Console allows developers to self-generate temporary access tokens that can be used to programmatically access AEM.

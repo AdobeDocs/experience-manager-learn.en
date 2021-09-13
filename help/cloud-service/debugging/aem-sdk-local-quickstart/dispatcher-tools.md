@@ -6,8 +6,8 @@ kt: 5918
 topic: Development
 role: Developer
 level: Beginner, Intermediate
+exl-id: f0adf7a6-c7c2-449a-9fa5-402c54b812e5
 ---
-
 # Debugging Dispatcher Tools
 
 The Dispatcher Tools provides a containerized Apache Web Server environment that can be used to simulate AEM as a Cloud Services' AEM Publish service's Dispatcher locally. 
@@ -60,4 +60,3 @@ CONTAINER ID        IMAGE                                       COMMAND         
 $ docker cp -L <CONTAINER ID>:/mnt/var/www/html cache 
 $ cd cache
 ```
-

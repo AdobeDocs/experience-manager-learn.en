@@ -7,6 +7,7 @@ kt: 6071
 topic: Development
 role: Admin
 level: Beginner
+exl-id: 5d450605-31bb-4c2e-a500-e9219f55b7c7
 ---
 # Rental Agreement with 2 signers
 

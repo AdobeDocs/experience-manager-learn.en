@@ -15,8 +15,8 @@ feature: Core Components, Page Editor, Editable Templates, AEM Project Archetype
 topic: Content Management, Development
 role: Developer
 level: Beginner
+exl-id: 09a600f4-1ada-4fb7-ae44-586364cff389
 ---
-
 # Getting Started with AEM Sites - WKND Tutorial {#introduction}
 
 Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, Client-side libraries, and component development with Adobe Experience Manager Sites.

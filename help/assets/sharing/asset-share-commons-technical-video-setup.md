@@ -5,8 +5,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: Developer
 level: Intermediate
+exl-id: ab16d5e0-71d9-4518-a03b-4aa5d2ec95a7
 ---
-
 # Set up Asset Share Commons on local AEM {#setup-asset-share-commons}
 
 A brief guide to getting Asset Share Commons running on a local AEM instance.

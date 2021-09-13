@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 18da12ea-b1ea-48e4-979e-3cb59584dfbd
 ---
-
 # Using Assembler Service in AEM Forms{#using-assembler-service-in-aem-forms}
 
 This article provides you the assets for demonstrating the ability to drag and drop multiple PDF files into the browser and save the assembled pdf file to your file system. The following is the code for the servlet which assembles the pdf files uploaded using the browser.
@@ -118,7 +118,3 @@ To get this capability working on your AEM Server
 > * Make sure you drag and drop PDF files only
 >
 >
-
-
-
-

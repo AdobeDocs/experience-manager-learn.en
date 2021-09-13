@@ -8,8 +8,8 @@ role: Admin
 level: Beginner
 kt: 6060
 thumbnail: 39151.jpg
+exl-id: 7d7942ae-7e38-4abd-9900-5b8e3542f5e1
 ---
-
 # AEM users, groups and permissions
 
 >[!CONTEXTUALHELP]

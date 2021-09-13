@@ -6,8 +6,8 @@ topic: Integrations
 role: Developer
 version: 6.3,6.4,6.5
 level: Intermediate
+exl-id: 2e9754ff-49fe-4260-b911-796bcc4fd266
 ---
-
 # Using LDAP with AEM Forms Workflow 
 
 Assigning AEM Forms workflow task to the submitter's manager.

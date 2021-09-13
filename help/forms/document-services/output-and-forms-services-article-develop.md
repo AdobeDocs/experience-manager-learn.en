@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: d268d5d6-f24f-4db9-b8e0-07dd769c6005
 ---
-
 # Developing with Output and Forms Services in AEM Forms{#developing-with-output-and-forms-services-in-aem-forms}
 
 Using Output and Forms Service API in AEM Forms
@@ -96,4 +96,3 @@ The package contains 3 samples. The following paragraphs explains when to use th
     * saveLocation: The location to save the exported data on your file system
 
 [You could import this postman collection to test the API](assets/document-services-postman-collection.json)
-

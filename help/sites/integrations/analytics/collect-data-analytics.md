@@ -1,5 +1,5 @@
 ---
-title:  Collect page data with Adobe Analytics
+title: Collect page data with Adobe Analytics
 description: Use the event-driven Adobe Client Data layer to collect data about user activity on a web site built with Adobe Experience Manager. Learn how to use rules in Experience Platform Launch to listen for these events and send data to an Adobe Analytics report suite.
 version: cloud-service
 topic: Integrations
@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 kt: 5332
 thumbnail: 5332-collect-data-analytics.jpg
+exl-id: 33f2fd25-8696-42fd-b496-dd21b88397b2
 ---
-
 # Collect page data with Adobe Analytics
 
 Learn to use the built-in features of the [Adobe Client Data Layer with AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html) to collect data about a page in Adobe Experience Manager Sites. [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) and the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) will be used to create rules to send page data to Adobe Analytics.
@@ -369,4 +369,4 @@ You just used the event-driven Adobe Client Data Layer and Experience Platform L
 
 ### Next Steps
 
-Check out the following tutorial to learn how to use the event-driven Adobe Client Data layer to [track clicks of specific components on an Adobe Experience Manager site](track-clicked-component.md). 
+Check out the following tutorial to learn how to use the event-driven Adobe Client Data layer to [track clicks of specific components on an Adobe Experience Manager site](track-clicked-component.md).

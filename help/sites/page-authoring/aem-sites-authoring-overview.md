@@ -14,8 +14,8 @@ thumbnail: 33594.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: e71b106d-a44b-44af-ba85-7fb5806cdb83
 ---
-
 # Authoring overview {#authoring-overview}
 
 The following video provides an overview of basic concepts of authoring in an AEM author environment for AEM Sites.

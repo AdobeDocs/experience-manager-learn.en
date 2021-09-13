@@ -8,8 +8,8 @@ thumbnail: 6888.jpg
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 75852a4b-7008-4c65-bab1-cc5dbf525e20
 ---
-
 # Update signature status
 
 The UpdateSignatureStatus workflow gets triggered when the user has completed the signing ceremony. The following is the flow of the workflow
@@ -65,4 +65,3 @@ public class UpdateSignatureStatusWorkflowStep implements WorkflowProcess {
 ## Assets
 
 The update signature status workflow can be [downloaded from here](assets/update-signature-status-workflow.zip)
-

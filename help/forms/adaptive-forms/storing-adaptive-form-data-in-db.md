@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 3dd552da-fc7c-4fc7-97ec-f20b6cc33df0
 ---
-
 # Storing Adaptive Form Submissions in Database
 
 There are number of ways to store the submitted form data in the database of your choice. A JDBC data source can be used to directly store the data into the database. A custom OSGI bundle can be written to store the data into the database. This article uses custom process step in AEM workflow to store the data.
@@ -45,6 +45,3 @@ The use case is to trigger a AEM workflow on an Adaptive Form submission and a s
 * Preview the form and submit
 
 * If everything has gone well, you should see the Form Data being stored in the table and column specified by you
-
-
-

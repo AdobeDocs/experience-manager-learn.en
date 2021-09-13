@@ -1,13 +1,12 @@
 ---
 title: Using setvalue in AEM Forms workflow
-
 description: Set Value of Element in Adaptive Forms submitted data in AEM Forms OSGI
 feature: Adaptive Forms
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 3919efee-6998-48e8-85d7-91b6943d23f9
 ---
-
 # Using setvalue in AEM Forms workflow
 
 Set Value of an XML Element in Adaptive Forms submitted data in AEM Forms OSGI workflow.

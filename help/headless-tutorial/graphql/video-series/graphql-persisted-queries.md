@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 kt: 7872
 thumbnail: 333429.jpeg
+exl-id: 06ba38c4-95fe-4ff5-b4d9-237ef9dec944
 ---
-
 # GraphQL Persisted Queries
 
 Learn how to enable, create update and execute Persisted Queries in AEM.

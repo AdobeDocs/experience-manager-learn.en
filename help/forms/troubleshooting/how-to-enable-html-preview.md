@@ -2,13 +2,14 @@
 title: Designer Preview HTML Preview- how to enable Preview HTML
 description: Steps to configure HTML Preview in Designer
 type: Troubleshooting
- 
-role: Developer 
+ : 
+role: Developer
 level: Intermediate
 version: 6.5
 feature: Designer
 topic: Development
 index: y
+exl-id: 6154883b-53e2-4a4f-ba97-9e0730fe3c13
 ---
 # How to enable Preview HTML
 

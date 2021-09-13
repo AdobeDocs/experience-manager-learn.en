@@ -11,8 +11,8 @@ kt:
 topic: Development
 role: Developer
 level: Beginner, Intermediate
+exl-id: e27cf3de-ef89-44d7-819b-157f85f5a80f
 ---
-
 # Debugging AEM SDK
 
 AEM SDK's local quickstart is the primary development environment used by developers, and supports a myriad of ways to debug AEM and deployed applications. This user guide takes, you through some of the more common debug tools and consoles for debugging your application on the AEM SDK's local quickstart.

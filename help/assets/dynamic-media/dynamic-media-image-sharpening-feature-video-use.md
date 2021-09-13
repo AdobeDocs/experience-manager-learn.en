@@ -7,8 +7,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 3b3002db-f739-486c-b25f-6b7918a9d9a4
 ---
-
 # Using Image Sharpening with AEM Dynamic Media{#using-image-sharpening-with-aem-dynamic-media}
 
 This video covers why sharpening an image is critical to maintaining image fidelity and how to use advanced settings to craft the perfect image.

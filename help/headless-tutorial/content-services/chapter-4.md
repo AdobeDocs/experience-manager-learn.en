@@ -7,8 +7,8 @@ feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: ece0bf0d-c4af-4962-9c00-f2849c2d8f6f
 ---
-
 # Chapter 4 - Defining Content Services Templates
 
 Chapter 4 of the AEM Headless tutorial covers the role of AEM Editable Templates in the context of AEM Content Services. Editable Templates are used to define the JSON content structure AEM Content Services exposes to clients via the composition of Content Services enabled AEM Components.

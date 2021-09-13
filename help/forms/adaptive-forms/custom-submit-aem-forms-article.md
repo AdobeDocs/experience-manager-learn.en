@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 64b586a6-e9ef-4a3d-8528-55646ab03cc4
 ---
-
 # Writing a Custom Submit in AEM Forms {#writing-a-custom-submit-in-aem-forms}
 
 Quick and easy way to create your own custom submit action for Adaptive Form
@@ -60,4 +60,3 @@ This article will walk you through the steps needed to create a custom submit ac
 Now you will start seeing "CustomSubmitHelpx" in the submit actions of your Adaptive Form as shown in this image.
 
 ![Adaptive Form with Custom Submit](assets/capture-2.gif)
-

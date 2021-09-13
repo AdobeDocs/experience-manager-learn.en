@@ -11,8 +11,8 @@ level: Beginner
 kt: 4072
 mini-toc-levels: 1
 thumbnail: 30181.jpg
+exl-id: f54f3dc9-6ec6-4e55-9043-7a006840c905
 ---
-
 # Custom Component {#custom-component}
 
 This tutorial covers the end-to-end creation of a custom AEM Byline Component that displays content authored in a Dialog, and explores developing a Sling Model to encapsulate business logic that populates the component's HTL.

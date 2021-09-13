@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 8663
 thumbnail: 336694.jpeg
+exl-id: df5e0e46-0255-4a77-b85d-b6520c871879
 ---
-
 # Code Repository Modernizer
 
 Learn how the Core Repository Modernizer automatically updates existing AEM Maven projects to be AEM as a Cloud Service compatible.

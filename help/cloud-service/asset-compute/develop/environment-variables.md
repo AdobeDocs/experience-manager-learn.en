@@ -12,8 +12,8 @@ thumbnail: KT-6270.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: c63c5c75-1deb-4c16-ba33-e2c338ef6251
 ---
-
 # Configure the environment variables
 
 ![dot env file](assets/environment-variables/dot-env-file.png)

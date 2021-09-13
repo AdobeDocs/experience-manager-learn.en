@@ -11,8 +11,8 @@ doc-type: technical video
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 6c504710-be8f-4b44-bd8a-aaf480ae6d8a
 ---
-
 # Set up [!DNL Sling Dynamic Include]
 
 A video walk-through of installing and using [!DNL Apache Sling Dynamic Include] with [AEM Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html) running on [!DNL Apache HTTP Web Server].

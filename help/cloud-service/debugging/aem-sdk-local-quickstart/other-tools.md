@@ -11,8 +11,8 @@ kt: 5251
 topic: Development
 role: Developer
 level: Beginner, Intermediate
+exl-id: 11fb83e9-dbaf-46e5-8102-ae8cc716c6ba
 ---
-  
 # Other tools for debugging AEM SDK
 
 A variety of other tools can aid in debugging your application on the AEM SDK's local quickstart. 
@@ -48,4 +48,3 @@ QueryBuilder debugger is web-based tool that helps you debug and understand sear
 QueryBuilder Debugger is located at:
 
 + [http://localhost:4502/libs/cq/search/content/querydebug.html](http://localhost:4502/libs/cq/search/content/querydebug.html)
-

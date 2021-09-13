@@ -11,8 +11,8 @@ doc-type: technical video
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: fc321ed1-5cf7-4bbe-adc6-c4905af7b43c
 ---
-
 # Develop Sling Model Exporters
 
 This technical walk through walks through setting up AEM for use with Sling Model Exporter, enhancing an existing Sling Model using the Exporter framework to rendition as JSON, and how to use Exporter options and Jackson annotations to further customize the output.

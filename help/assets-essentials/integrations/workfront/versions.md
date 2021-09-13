@@ -8,8 +8,8 @@ role: User
 level: Beginner
 kt: 8221
 thumbnail: 336314.jpeg
+exl-id: 42c0e51d-abb2-4445-98bd-65d813f580ca
 ---
-
 # Maintaining Version History
 
 Learn how Adobe Workfront and Experience Manager Assets Essentials helps you maintain versions of Workfront documents and Assets Essentials assets.

@@ -8,8 +8,8 @@ role: User
 level: Beginner
 kt: 7910
 thumbnail: 336254.jpeg
+exl-id: c3961fdf-b8aa-410d-9561-520a248ea5b0
 ---
-
 # Configuring the integration
 
 Learn how to configure the Adobe Workfront and Assets Essentials integration.

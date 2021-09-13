@@ -8,8 +8,8 @@ topic: Development
 feature: Publishing
 kt: 6911
 thumbnail: 330554.jpg
+exl-id: 53327d54-152b-4b89-8540-181e433f312b
 ---
-
 # Content publishing
 
 Explore how content publishing in AEM as a Cloud Service works, including concepts of Content Distribution and the Adobe Pipeline.

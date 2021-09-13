@@ -11,8 +11,8 @@ role: Developer
 level: Beginner
 kt: 7497
 thumbnail: KT-7497.jpg
+exl-id: 17ca57d1-2b9a-409c-b083-398d38cd6a19
 ---
-
 # Author content and publish changes {#author-content-publish}
 
 >[!CAUTION]

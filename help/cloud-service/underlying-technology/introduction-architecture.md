@@ -11,8 +11,8 @@ thumbnail: 32034.jpg
 topic: Architecture
 role: Architect, Developer
 level: Beginner
+exl-id: bb13fc39-fcb7-4241-8504-8ff999a6caa2
 ---
-
 # Introduction to the AEM Architecture Stack {#introduction-architecture}
 
 Introduces the technologies of [!DNL OSGi], [!DNL JCR], [!DNL Oak], and [!DNL Sling] as part of Adobe Experience Manager's technology stack.

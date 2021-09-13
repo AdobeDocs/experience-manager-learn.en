@@ -9,9 +9,8 @@ thumbnail: 6602.jpg
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: cdfae631-86d7-438f-9baf-afd621802723
 ---
-
-
 # Deploy the sample
 
 To get this use case working on your system, please follow the following instructions:

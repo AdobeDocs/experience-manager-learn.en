@@ -6,8 +6,8 @@ feature: Forms Service
 topic: Development
 role: Developer
 level: Experienced
+exl-id: ce1793d1-f727-4bc4-9994-f495b469d1e3
 ---
-
 # Rendering XDP into PDF with Usage Rights{#rendering-xdp-into-pdf-with-usage-rights}
 
 A common use case is to render xdp into PDF and apply Reader Extensions to the rendered PDF.
@@ -202,6 +202,3 @@ To test this on your local server, please follow the following steps
 1. Add Reader Extensions certificate to "fd-service" user
 1. Point your browser to [portal web page](http://localhost:4502/content/AemForms/ReaderExtensionsXdp.html)
 1. Click the pdf icon to render the xdp as a pdf file with usage rights applied.
-
-
-

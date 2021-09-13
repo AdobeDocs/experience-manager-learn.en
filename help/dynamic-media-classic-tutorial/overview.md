@@ -10,8 +10,8 @@ feature: Dynamic Media Classic
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 975b85af-ca6a-419e-ab2a-6e1781bfee4a
 ---
-
 # Welcome to the Dynamic Media Classic Best Practices Tutorial
 
 This guide is intended to help current and new users of Dynamic Media Classic more fully understand what they can do with their powerful rich media solution from Adobe. We'll do that by:

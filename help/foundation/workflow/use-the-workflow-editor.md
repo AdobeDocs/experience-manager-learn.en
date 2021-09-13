@@ -8,8 +8,8 @@ level: Intermediate
 role: Admin, Developer
 kt: 657
 thumbnail: 22201.jpg
+exl-id: 8ec12629-3acd-4958-b25c-0ae0b97ce244
 ---
-
 # Use the Workflow Editor
 
 Workflow enables business process management in Experience Manager, and is used for automatic processing of content and well as facilitating governance and process requiring human decision making. Workflow is defined via Workflow Models that are composed of a series of steps and created and managed in the [!UICONTROL Workflow Model Editor].

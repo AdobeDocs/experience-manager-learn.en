@@ -1,6 +1,6 @@
 ---
 title: Inbox customization
-description: Customize inbox by adding new columns  based on workflow data 
+description: Customize inbox by adding new columns  based on workflow data
 feature: Adaptive Forms
 topics: development
 audience: developer
@@ -8,10 +8,10 @@ doc-type: article
 activity: implement
 version: 6.5
 kt: 5830
-
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 3e1d86ab-e0c4-45d4-b998-75a44a7e4a3f
 ---
 # AEM Inbox
 

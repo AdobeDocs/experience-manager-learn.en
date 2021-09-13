@@ -5,8 +5,8 @@ feature: Dispatcher
 topic: Architecture
 role: Architect
 level: Intermediate
+exl-id: 7c7df08d-02a7-4548-96c0-98e27bcbc49b
 ---
-
 # Chapter 3 - Advanced Caching Topics
 
 *"There are only two hard things in Computer Science: cache invalidation and naming things."*

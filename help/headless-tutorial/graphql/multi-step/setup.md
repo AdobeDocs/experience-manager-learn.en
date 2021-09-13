@@ -9,8 +9,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: d2da6efa-1f77-4391-adda-e3180c42addc
 ---
-
 # Quick Setup {#setup}
 
 This chapter offers a quick setup of a local environment to see an external application consume content from AEM using AEM's GraphQL APIs. Later chapters in the tutorial will build off of this setup.

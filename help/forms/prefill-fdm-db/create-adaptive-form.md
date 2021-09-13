@@ -8,8 +8,8 @@ thumbnail: kt-5813.jpg
 topic: Development
 role: User
 level: Beginner
+exl-id: c8d4eed8-9e2b-458c-90d8-832fc9e0ad3f
 ---
-
 # Create Adaptive Form
 
 So far we have created the following
@@ -104,4 +104,3 @@ Table is not populated
 
 * Check the Row1 binding
 * Make sure the repeat settings for Row1 are set correctly(Min =1 and Max = 5 or more)
-

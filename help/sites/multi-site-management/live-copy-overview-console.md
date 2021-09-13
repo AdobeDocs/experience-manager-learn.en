@@ -12,8 +12,8 @@ thumbnail: 36680.jpg
 topic: Localization
 role: User
 level: Beginner
+exl-id: c91356d4-8f59-498e-bb57-d75906581f6d
 ---
-
 # Live Copy console {#live-copy-console}
 
 Learn how to view or manage inheritance across a site or perform rollout operations using the Live Copy Overview console.

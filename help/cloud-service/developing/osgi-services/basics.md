@@ -1,14 +1,14 @@
 ---
 title: OSGi services development basics
-description: Learn about the basics of developing an OSGi service 
+description: Learn about the basics of developing an OSGi service
 role: Developer
 level: Beginner
 topic: Development
 feature: OSGI
 kt: 8227
 thumbnail: 335476.jpeg
+exl-id: a3a9bf59-e9a2-4322-ac93-9c12c70b9a75
 ---
-
 # OSGi Services
 
 Learn the basics of OSGi services development, including:

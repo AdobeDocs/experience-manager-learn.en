@@ -10,11 +10,10 @@ feature: Adaptive Forms
 topic: Development
 kt: 7376
 thumbnail: 332237.jpg
+exl-id: 26d26ea5-7781-42fa-97ad-713543a8d132
 ---
-
 # Create an Adaptive Form 
 
 Create an adaptive form and associate it with the theme created.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332237?quality=12&learn=on)
-

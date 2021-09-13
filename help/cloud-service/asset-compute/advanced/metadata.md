@@ -12,8 +12,8 @@ thumbnail: 327313.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: 6ece6e82-efe9-41eb-adf8-78d9deed131e
 ---
-
 # Develop an Asset Compute metadata worker
 
 Custom Asset Compute workers can produce XMP (XML) data that is sent back to AEM and stored as metadata on an asset.

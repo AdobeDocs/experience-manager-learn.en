@@ -9,8 +9,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: d85b7ac3-42c1-4655-9394-29a797c0e1d7
 ---
-
 # Advanced data modeling with Fragment References
 
 It is possible to reference a Content Fragment from within another Content Fragments. This enables a user to build complex data models with relationships between Fragments.

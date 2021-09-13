@@ -7,8 +7,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: Developer
 level: Intermediate
+exl-id: a733532b-db64-43f6-bc43-f7d422d5071a
 ---
-
 # Understanding Color Management with AEM Dynamic Media{#understanding-color-management-with-aem-dynamic-media}
 
 In this video we explore Dynamic Media Color Management, and how it can be used to provide color correction preview capabilities in for AEM Assets.

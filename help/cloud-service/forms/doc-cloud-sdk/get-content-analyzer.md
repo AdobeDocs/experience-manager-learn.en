@@ -1,5 +1,4 @@
 ---
-
 title: Create Content Analyzer
 description: Create the JSON part containing the information about the input parameters to the REST call.
 solution: Experience Manager
@@ -10,9 +9,8 @@ version: cloud-service
 topic: Development
 thumbnail: 7836.jpg
 kt: 7836
-
+exl-id: 548a21b9-5487-4b48-9782-19b537a48f98
 ---
-
 # Create Analyzer Requests
 
 Create a JSON fragment defining the:

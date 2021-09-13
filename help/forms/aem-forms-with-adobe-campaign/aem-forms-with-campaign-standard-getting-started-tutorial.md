@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: e028837b-13d8-4058-ac25-ed095f49524c
 ---
-
 # Getting Started with AEM Forms and Adobe Campaign Standard {#getting-started-with-aem-forms-and-adobe-campaign-standard}
 
  ![formsandcampaign](assets/helpx-cards-forms.png)

@@ -7,8 +7,8 @@ feature: Experience Fragments
 topic: Personalization
 role: Developer
 level: Intermediate
+exl-id: 9b191211-2030-4b62-acad-c7eb45b807ca
 ---
-
 # Using AEM Legacy Cloud Services
 
 In this section, we will discuss how to set up Adobe Experience Manager (AEM) with Adobe Target using Legacy Cloud Services.

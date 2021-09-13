@@ -14,8 +14,8 @@ thumbnail: 31784.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 896d378c-c20e-4343-b592-277f4c71065e
 ---
-
 # AEM Sites UI and navigation {#basic-handling-aem-sites}
 
 The following video provides an overview of basic handling when using the AEM author environment. It uses the Sites console as a basis.

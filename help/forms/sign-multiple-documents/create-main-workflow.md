@@ -8,8 +8,8 @@ kt: 6887
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 338d9522-f6da-4aa7-b5d8-b9fff39ea94b
 ---
-
 # Create main workflow
 
 The main workflow gets triggered when the user submits the initial form (**RefinanceForm**). The following is the flow of the workflow

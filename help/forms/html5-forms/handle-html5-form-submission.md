@@ -12,8 +12,8 @@ thumbnail: kt-5269.jpg
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 93e1262b-0e93-4ba8-aafc-f9c517688ce9
 ---
-
 # Handle HTML5 Form Submission
 
 HTML5 forms can be submitted to servlet hosted in AEM. The submitted data can be accessed in the servlet as an input stream. To submit your HTML5 form you need to add "HTTP Submit Button" on your form template using AEM Forms Designer
@@ -80,7 +80,3 @@ System.out.println("The submitted form data is " + stringBuffer.toString());
 ### Additional Reading
 
 This [article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-pdf-from-mobile-form-submission-article.html) on generating PDF from HTML5 form submission is also recommended.
-
-
-
-

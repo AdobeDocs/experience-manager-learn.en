@@ -14,8 +14,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 866749d9-0f62-470b-afeb-4dece4e0b169
 ---
-
 # Using Reducer Functions in AEM Forms - Charts{#using-reducer-functions-in-aem-forms-charts}
 
 Reducer functions are used to aggregate or group values that are displayed in the chart.
@@ -58,4 +58,3 @@ For example, we can use the reducer functions to display the number of transacti
 The following video walks through the steps involved in using reducer functions.
 
 >[!VIDEO](https://video.tv.adobe.com/v/21368/?quality=9&learn=on)
-

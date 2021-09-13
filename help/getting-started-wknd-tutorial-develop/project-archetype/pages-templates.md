@@ -8,8 +8,8 @@ level: Beginner
 mini-toc-levels: 1
 kt: 4082
 thumbnail: 30214.jpg
+exl-id: e9d06dc2-ac3b-48c5-ae00-fdaf5bb45b54
 ---
-
 # Pages and Templates {#pages-and-template}
 
 In this chapter we will explore the relationship between a base page component and editable templates. We will build out an un-styled Article template based on some mockups from [AdobeXD](https://www.adobe.com/products/xd.html). In the process of building out the template, Core Components and advanced policy configurations of the Editable Templates are covered.

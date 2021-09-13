@@ -6,8 +6,8 @@ version: 6.5
 topic: Administration
 role: Admin
 level: Experienced
+exl-id: 85c9b51e-92bb-4376-8684-57c9c3204b2f
 ---
-
 # Authenticate to AEM Author using OKTA
 
 The first step is to configure your app on OKTA portal. Once your app is approved by your OKTA administrator you will have access to IdP certificate and single sign on URL. The following are the settings typically used in registering new application.

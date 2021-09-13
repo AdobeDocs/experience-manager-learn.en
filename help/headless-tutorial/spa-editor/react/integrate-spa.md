@@ -9,8 +9,8 @@ thumbnail: 4853-spa-react.jpg
 topic: SPA
 role: Developer
 level: Beginner
+exl-id: 31416399-6a4e-47d1-8ed8-be842a01a727
 ---
-
 # Integrate the SPA {#developer-workflow}
 
 Understand how the source code for a Single Page Application (SPA) written in React can be integrated with an Adobe Experience Manager (AEM) Project. Learn to use modern front-end tools, like a webpack dev server, to rapidly develop the SPA against the AEM JSON model API.

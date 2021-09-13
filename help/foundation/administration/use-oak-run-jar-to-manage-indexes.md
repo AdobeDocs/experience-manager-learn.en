@@ -10,8 +10,8 @@ doc-type: technical video
 topic: Performance
 role: Developer
 level: Experienced
+exl-id: be49718e-f1f5-4ab2-9c9d-6430a52bb439
 ---
-
 # Use oak-run.jar to Manage Indexes
 
 [!DNL oak-run.jar]'s index command consolidates a number of features to manage [!DNL Oak]200 indexes in AEM, from gathering index statistics, running index consistency checks, and re/indexing indexes themselves.

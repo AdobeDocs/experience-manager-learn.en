@@ -1,6 +1,6 @@
 ---
 title: Baseline folders
-description: Defining baseline folders in AEM Assets helps establish a solid content architecture and foundation for your digital asset management. 
+description: Defining baseline folders in AEM Assets helps establish a solid content architecture and foundation for your digital asset management.
 sub-product: assets
 feature: Asset Management
 version: cloud-service
@@ -9,8 +9,8 @@ thumbnail: 33496.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 9d11156d-1ea4-42a6-8e0d-cbc4aae4e34c
 ---
-
 # Baseline folders
 
 Defining baseline folders in AEM Assets helps establish a solid content architecture and foundation for your digital asset management. 

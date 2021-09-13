@@ -8,8 +8,8 @@ topic: Development
 feature: Developer Tools
 kt: 6913
 thumbnail: 330535.jpg
+exl-id: 68dedaa6-30d8-43ce-ae74-a293f3fc7068
 ---
-
 # Merging AEM projects for deployment using Cloud Manager
 
 Explore how multiple projects can be merged to into a single project for deployment to AEM as a Cloud Service using Cloud Manager.

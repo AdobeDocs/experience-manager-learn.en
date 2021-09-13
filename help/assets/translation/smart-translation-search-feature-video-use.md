@@ -6,8 +6,8 @@ feature: Search
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 4f35e3f7-ae29-4f93-bba9-48c60b800238
 ---
-
 # Using Smart Translation Search with AEM Assets{#using-smart-translation-search-with-aem-assets}
 
 Smart Translation Search enables cross-language search and discovery automatically across AEM content, both Assets and Pages, supporting more than 50 languages and reducing the need for manual content translation.

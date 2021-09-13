@@ -10,8 +10,8 @@ version: 6.4, 6.5
 topic: Localization
 role: User
 level: Beginner
+exl-id: 359da531-839c-4680-abf9-c880cc700159
 ---
-
 # Setup Translation Rules {#set-up-translation-rules-in-aem}
 
 The Translation Configuration UI allows a user to manage rules for translating content in AEM Sites. This video details the creation of a new translation rule for a custom component.

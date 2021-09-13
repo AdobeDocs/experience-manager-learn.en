@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: add06b73-18bb-4963-b91f-d8e1eb144842
 ---
-
 # Useful utility services
 
 This sample bundle provides useful utility services that can be used by an AEM Forms developer. The following services are available.
@@ -47,4 +47,3 @@ You will need to deploy [DevelopingWithServiceUserBundle](https://experienceleag
 
 
 If you are going to save documents in the CRX repository using these utility service, please follow the [developing with service user article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/adaptive-forms/service-user-tutorial-develop.html?lang=en#adaptive-forms). Make sure you provide the [required permissions](http://localhost:4502/useradmin) on the appropriate CRX folders to the fd-service user.
-

@@ -11,8 +11,8 @@ kt: 5252
 topic: Development
 role: Developer
 level: Beginner, Intermediate
+exl-id: 91aa4a10-47fe-4313-acd2-ca753e5484d9
 ---
-
 # Debugging AEM SDK using logs 
 
 Accessing the AEM SDK's logs, either the AEM SDK local quickstart Jar's or Dispatcher Tools' can provide key insights into debugging AEM applications.

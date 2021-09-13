@@ -13,8 +13,8 @@ thumbnail: 40242.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 0aafd97a-2e72-4257-ad4d-e0993263b11f
 ---
-
 # Creating workflow to review submitted data
 
 Workflows are typically used to route submitted data for review and approval. Workflows are created using the workflow editor in AEM. The Workflows can be triggered on Adaptive Form submission. 
@@ -28,6 +28,3 @@ The following video explains the creation of Review and Approval workflow using 
 
 
 If for some reason you are not able to build the workflow, you can download the completed workflow from [here](assets/review-submitted-data-workflow.zip) and import the same using [package manager](http://localhost:4502/crx/packmgr/index.jsp) in to your AEM instance.
-
-
-

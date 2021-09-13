@@ -1,15 +1,13 @@
 ---
 title: AEM Forms with Marketo(Part 3)
-
 description: Tutorial to integrate AEM Forms with Marketo using AEM Forms Form Data Model.
-
 feature: Adaptive Forms, Form Data Model
 version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 7096340b-8ccf-4f5e-b264-9157232e96ba
 ---
-
 # Configure Data Source
 
 AEM Forms Data Integration allows you to configure and connect to disparate data sources. The following types are supported out-of-the-box. However, with a little customization, you can integrate with other data sources as well.

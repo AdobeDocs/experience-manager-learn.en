@@ -12,8 +12,8 @@ thumbnail: 36684.jpg
 topic: Localization
 role: User
 level: Beginner
+exl-id: db8e2169-7e67-4466-888e-ad85887f4ed1
 ---
-
 # Create a country site {#create-country-site}
 
 Learn how to create a country site from existing Language Copies using the Create Site wizard.

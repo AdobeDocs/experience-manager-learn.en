@@ -8,8 +8,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 7593
+exl-id: b9809561-e9bd-4c67-bc18-5cab3e4aa138
 ---
-
 # Installing 32 bit version of shared libraries
 
 When AEM FORMS OSGi or AEM Forms j2EE is deployed on Linux, you have to ensure that 32-bit versions of a set of shared libraries are installed and available.  The descriptions are from the packages themselves. 

@@ -5,8 +5,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 19155d51-18a7-42ca-9a73-1b5fa1355d58
 ---
-
 # Using Source File Translation with AEM Assets {#using-source-file-translation-with-aem-assets}
 
 Adobe Experience Manager (AEM) Assets lets you identify assets that share common attributes and mark them as related using the new Related Assets feature. It also lets users define a source/derived relationship between assets, making it easy for users to identify the origin of an asset. Running translation workflow on a derived asset fetches any asset that the source file references and includes it for translation, thereby reducing the efforts to maintain multi-site.

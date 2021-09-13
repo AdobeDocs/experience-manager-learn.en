@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 8659
 thumbnail: 336690.jpeg
+exl-id: b8905917-c385-4a79-99df-9a0fad98dc87
 ---
-
 # Readiness and Best Practice Analyzer
 
 Learn how the Best Practice Analyzer can help prepare you to move from AEM on-prem or Adobe Managed Services to Experience Manager as a Cloud Service.

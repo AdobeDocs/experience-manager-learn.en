@@ -1,14 +1,13 @@
 ---
 title: Variables in AEM Workflow
-
 description: Using variables of type xml,json,arraylist,document in aem workflow
 version: 6.5
 feature: Adaptive Forms
 topic: Development
 role: Developer
 level: Beginner
+exl-id: e84b70a0-c51b-4fe3-80e8-f3156931297a
 ---
-
 # Variables in AEM Workflow
 
 Starting with AEM 6.5 you can now create and use variables in AEM Workflow. Prior to this capability, workflow authors typically created keys using the workflow metadata map. This meant writing some custom code to create and populate these keys. With this new capability workflow, authors can now easily create variables and use these variables anywhere in the workflow.

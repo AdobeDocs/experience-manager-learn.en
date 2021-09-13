@@ -6,10 +6,10 @@ role: Developer
 level: Intermediate
 version: 6.5
 feature: Designer
-topic: Development  
+topic: Development
 index: y
+exl-id: 9cffce45-c853-440f-9ddf-2e179dff6745
 ---
-
 # How to troubleshoot dependency issues with C++ libaries in Designer
 
 *This video walks through the steps to troubleshoot dependency issues with C++ libaries in Designer.*

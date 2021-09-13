@@ -9,8 +9,8 @@ thumbnail: 35597.jpg
 topic: Integrations
 role: Developer
 level: Beginner
+exl-id: a08ce6b2-532d-4fd4-ada4-3cbec0fde699
 ---
-
 # Processing profiles
 
 Processing profiles define the renditions to be created for assets in AEM as a Cloud Service.

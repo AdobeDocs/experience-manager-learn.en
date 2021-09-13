@@ -12,13 +12,11 @@ activity: implement
 version: 6.4,6.5
 contentOwner: gbedekar
 discoiquuid: 23fbada3-d776-4b77-b381-22d3ec716ae9
-
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 9bb05c94-2a7b-4149-b567-186eb08b1c66
 ---
-
 # Generating Print Channel Documents Using Watched Folder
 
 In this part, we will generate print channel documents using the watched folder mechanism.
@@ -73,7 +71,3 @@ To generate print channel document using the watched folder mechanism, please fo
 * Drop the xml file into C:\RenderPrintChannel\input
 
 * Check the pdf files in the save location as specified in the ECMA script.
-
-
-
-

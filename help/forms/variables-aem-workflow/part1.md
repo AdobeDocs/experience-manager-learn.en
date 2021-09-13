@@ -1,15 +1,13 @@
 ---
 title: Variables in AEM Workflow[Part1]
-
 description: Using variables of type XML, JSON, ArrayList, Document in an AEM workflow
-
 feature: Adaptive Forms
 version: 6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: f9782684-3a74-4080-9680-589d3f901617
 ---
-
 # XML Variables in AEM Workflow
 
 Variables of type XML are typically used when you have an XSD based Adaptive Form and want to extract values from the Adaptive Form submission in your workflow.
@@ -55,4 +53,3 @@ To get the assets working on your system, please follow the following steps:
 * [Configure the Email Service](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/notification.html#ConfiguringtheMailService)
 * [Open the Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/applicationfortimeoff/jcr:content?wcmmode=disabled)
 * Fill in the details and submit the form.
-

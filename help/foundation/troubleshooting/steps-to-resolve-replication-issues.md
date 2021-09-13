@@ -8,8 +8,8 @@ version: 6.5
 feature: Developer Tools
 topic: Administration
 index: y
+exl-id: aa520806-3937-4100-b75a-78c2460c1b2f
 ---
-
 # Steps to resolve replication issues in AEM
 
 *This video walks through the steps to resolve replication issues in AEM.*

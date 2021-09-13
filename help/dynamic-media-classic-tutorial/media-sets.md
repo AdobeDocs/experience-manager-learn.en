@@ -6,8 +6,8 @@ feature: Dynamic Media Classic, Image Sets, Mixed Media Sets, Spin Sets
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 45c86ff2-d991-46a7-a8d1-25c9fec142d9
 ---
-
 # Image, Swatch, Spin, and Mixed Media Sets {#media-sets}
 
 Moving beyond single images for dynamic sizing and zoom, Dynamic Media Classic set collections allow for a richer online experience. This section of the tutorial will explore how to create the following rich media sets in Dynamic Media Classic:

@@ -9,8 +9,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 772b595d-2a25-4ae6-8c6e-69a646143147
 ---
-
 # Query AEM using GraphQL from an external app
 
 In this chapter, we explore how AEM's GraphQL APIs can be used to drive the experience in an external application.

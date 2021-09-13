@@ -12,8 +12,8 @@ thumbnail: 4854-spa-react.jpg
 topic: SPA
 role: Developer
 level: Beginner
+exl-id: 497ce6d7-cd39-4fb3-b5e0-6c60845f7648
 ---
-
 # Map SPA components to AEM components {#map-components}
 
 Learn how to map React components to Adobe Experience Manager (AEM) components with the AEM SPA Editor JS SDK. Component mapping enables users to make dynamic updates to SPA components within the AEM SPA Editor, similar to traditional AEM authoring.
@@ -427,4 +427,3 @@ Before jumping into the SPA code, inspect the JSON model provided by AEM.
     ```
 
     This is a good introduction to extending and implementing your own components.
-

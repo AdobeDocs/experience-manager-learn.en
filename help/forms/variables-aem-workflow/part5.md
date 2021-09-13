@@ -5,8 +5,8 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: ecd43765-455c-4f8b-acf2-6ea34495c311
 ---
-
 # Rule-Editor in AEM Workflow
 
 Or-Split component is used to do routing in AEM Workflow. Prior to AEM 6.5 release, you had to write ECMA or custom code to enable conditional routing. In AEM 6.5 we now have the ability to use the rule editor to create business rules which will determine the route to be executed.

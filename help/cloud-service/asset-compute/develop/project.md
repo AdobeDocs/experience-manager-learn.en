@@ -7,8 +7,8 @@ topic: Integrations, Development
 feature: Asset Compute Microservices
 role: Developer
 level: Intermediate, Experienced
+exl-id: ebb11eab-1412-4af5-bc09-e965b9116ac9
 ---
-
 # Create an Asset Compute project
 
 Asset Compute projects are Node.js projects, generated using the Adobe I/O CLI, that adhere to a certain structure that allow them to be deployed to Adobe I/O Runtime and integrated with AEM as a Cloud Service. A single Asset Compute project can contain one or more Asset Compute workers, with each having a discrete HTTP end-point referenceable from an AEM as a Cloud Service Processing Profile.
@@ -90,4 +90,3 @@ The final Asset Compute project is available on GitHub at:
 + [aem-guides-wknd-asset-compute](https://github.com/adobe/aem-guides-wknd-asset-compute)
 
 _GitHub contains the final state of the project, fully populated with the worker and test cases, but does not contain any credentials, that is, `.env`, `console.json` or `.aio`._
-

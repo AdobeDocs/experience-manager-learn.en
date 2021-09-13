@@ -7,6 +7,7 @@ kt: 6143
 topic: Development
 role: Developer
 level: Beginner
+exl-id: faf0143a-0944-41fb-a211-0d83ae1978d4
 ---
 # Using XDP templates with AEM Forms and Adobe Sign
 

@@ -12,8 +12,8 @@ version: 6.4, 6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: b6e3acee-4a07-4d00-b3a1-f7aedda21e6e
 ---
-
 # Create Custom Profile
 
 In this part we will create a [custom profile.](https://helpx.adobe.com/livecycle/help/mobile-forms/creating-profile.html) A profile is responsible for rendering the XDP as HTML. A default profile is provided out of the box for rendering XDP's as HTML. It represents a customized version of Mobile Forms Rendition service. You can use the Mobile Form Rendition service to customize appearance, behavior, and interactions of the Mobile Forms. In our custom profile we will capture the data filled in the mobile form using the guidebridge API. This data is then sent to custom servlet that will then generate an interactive PDF and stream it back to the calling application.

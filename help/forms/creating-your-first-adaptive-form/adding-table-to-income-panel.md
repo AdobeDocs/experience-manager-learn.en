@@ -1,6 +1,5 @@
 ---
 title: Adding components to Income panel
-
 description: We will add a table to the Income panel. Configure the table rows and use the rule editor to calculate the grand total.
 feature: Adaptive Forms
 version: 6.4,6.5
@@ -9,8 +8,8 @@ kt: 4211
 topic: Development
 role: Developer
 level: Beginner
+exl-id: e7674c46-259f-4dbd-96db-c40369534911
 ---
-
 # Adding components to Income panel {#adding-components-to-income-panel}
 
 We will add a table to the Income panel. Configure the table rows and use the rule editor to calculate the grand total.
@@ -39,5 +38,3 @@ We will add a table to the Income panel. Configure the table rows and use the ru
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/22197?quality=9&learn=on)
-
-

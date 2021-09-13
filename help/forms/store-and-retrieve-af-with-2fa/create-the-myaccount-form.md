@@ -9,9 +9,8 @@ thumbnail: 6599.jpg
 topic: Development
 role: User
 level: Beginner
+exl-id: 1ecd8bc0-068f-4557-bce4-85347c295ce0
 ---
-
-
 # Create the MyAccountForm
 
 The form **MyAccountForm** is used to retrieve the partially completed adaptive form after the user has verified the application id and the mobile number associated with the application id.

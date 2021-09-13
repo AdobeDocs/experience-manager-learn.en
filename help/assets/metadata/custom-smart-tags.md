@@ -8,8 +8,8 @@ thumbnail: 22254.jpg
 topic: Content Management
 role: Developer
 level: Intermediate
+exl-id: 06f2ae4d-c18e-45ed-96d7-ddc6f9c8d829
 ---
-
 # Custom Smart Tags for images 
 
 Custom Smart Tags for images allows the Smart Tagging to be trained with a customer-specific terms. 
@@ -31,5 +31,3 @@ Learn how to configure the training of Smart Tags in AEM Assets, using the Smart
 ## Additional Resources
 
 * AEM 6.4 requires the [latest Service Pack](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/aem-releases-updates.html#aem-64).
-
-

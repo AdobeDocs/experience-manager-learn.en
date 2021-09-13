@@ -7,8 +7,8 @@ role: Developer, Architect
 level: Beginner
 kt: 7633
 thumbnail: kt-7633.jpeg
+exl-id: b8d43e44-014c-4142-b89c-ff4824b89c78
 ---
-
 # Bootstrap the Remote SPA for SPA Editor
 
 Before the editable areas can be added to the Remote SPA, it must be bootstrapped with the AEM SPA Editor JavaScript SDK, and a few other configurations.

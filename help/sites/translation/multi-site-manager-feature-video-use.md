@@ -14,8 +14,8 @@ discoiquuid: a0dc581e-300f-45ef-916a-1cbac0429899
 topic: Localization
 role: User
 level: Beginner
+exl-id: 00746678-da23-4d0a-b775-e1de4ed87c56
 ---
-
 # Using Multi-Site Manager {#using-multi-site-manager-with-aem-sites}
 
 [!UICONTROL Live Copy Overview] and [!UICONTROL Blueprint Configuration Manager] are AEM Author interfaces for working with Multi Site Manager feature of Adobe Experience Manager Sites.

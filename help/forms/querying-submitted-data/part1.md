@@ -9,12 +9,11 @@ audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.3,6.4,6.5
-
 topic: Development
 role: Developer
 level: Experienced
+exl-id: c588bdca-b8a8-4de2-97e0-ba08b195699f
 ---
-
 # Create Adaptive Form based on JSON Schema
 
 
@@ -35,4 +34,3 @@ The following screen shot shows the submitted form data stored in JSON data type
 
 
 [Sample JSON Schemas that can be used to create Adaptive Forms.](assets/samplejsonschemas.zip). Download and unzip the zip file to get the JSON schemas
-

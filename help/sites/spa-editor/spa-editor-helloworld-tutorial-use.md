@@ -6,8 +6,8 @@ topic: SPA
 feature: SPA Editor
 role: Developer
 level: Beginner
+exl-id: e900301d-411c-4c02-8443-2a0fa56b65b5
 ---
-
 # Developing with the AEM SPA Editor - Hello World Tutorial {#developing-with-the-aem-spa-editor-hello-world-tutorial}
 
 >[!WARNING]

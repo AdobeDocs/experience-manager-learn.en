@@ -10,8 +10,8 @@ activity: use
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 04aacd81-bbb2-4742-9306-f0eabc665a41
 ---
-
 # Dynamic Media Classic Main Workflow and Previewing Assets {#main-workflow}
 
 Dynamic Media supports a Create (and Upload), Author (and Publish), and Deliver workflow process. You start by uploading assets, then doing something with those assets such as building an Image Set, and finally publishing to make them live. The Build step is optional for some workflows. For example, if your goal is to only do dynamic sizing and zoom on images or convert and publish video for streaming, there are no necessary build steps.

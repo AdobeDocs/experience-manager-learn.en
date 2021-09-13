@@ -13,8 +13,8 @@ discoiquuid: 1187357f-2f36-4a04-b708-44bb9c174fb5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 19c5aeec-2893-4ada-b6df-b80c4be2468a
 ---
-
 # Sending Email on Adaptive Form Submission {#sending-email-on-adaptive-form-submission}
 
 One of the common actions is to send a confirmation email to the submitter on successful submission of Adaptive Form. To accomplish this we will select the "Send Email" as submit action.

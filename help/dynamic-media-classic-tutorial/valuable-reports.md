@@ -5,8 +5,8 @@ feature: Dynamic Media Classic
 topic: Content Management
 role: Admin
 level: Intermediate
+exl-id: c3fbfb0b-3222-46ff-9248-dea70ce85a23
 ---
-
 # Valuable Reports for Administrators {#valuable-reports}
 
 In this final chapter, we just want you to know about two valuable reports you might consider setting up if you are an administrator: the Bandwidth &amp; Storage report and the Image Errors report.

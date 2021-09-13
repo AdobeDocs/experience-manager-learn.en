@@ -14,8 +14,8 @@ thumbnail: 32011.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: b120fb79-729e-4155-ba10-e5f7bb07eefa
 ---
-
 # Using the Page Editor {#using-page-editor-with-aem-sites}
 
 AEM Site's Page Editor is a powerful tool for creating and editing web content. The Page Editor's tools and capabilities are accessed from the Page Editor's UI toolbar.

@@ -7,8 +7,8 @@ feature: Experience Fragments
 topic: Personalization
 role: Developer
 level: Intermediate
+exl-id: 47446e2a-73d1-44ba-b233-fa1b7f16bc76
 ---
-
 # Personalization using AEM Experience Fragments and Adobe Target
 
 With the ability to export AEM Experience Fragments into Adobe Target as HTML offers, you can combine the ease-of-use and power of AEM with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in Target to test and personalize experiences at scale.

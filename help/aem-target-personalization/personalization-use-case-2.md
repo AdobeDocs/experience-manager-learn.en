@@ -7,8 +7,8 @@ feature: Experience Fragments
 topic: Personalization
 role: Developer
 level: Intermediate
+exl-id: 53cafd06-3a0a-4995-947d-179146b89234
 ---
-
 # Personalization of Full Web Page Experiences using Adobe Target
 
 In the previous chapter, we learned how to create a geo-location based activity within Adobe Target using content created as Experience Fragments and exported from AEM as HTML Offers.

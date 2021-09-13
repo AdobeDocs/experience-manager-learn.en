@@ -11,8 +11,8 @@ thumbnail: 38566.jpg
 topic: Integrations
 role: Developer
 level: Intermediate
+exl-id: a72ddced-37de-4b62-9e28-fa5b6c8ce5b7
 ---
-
 # Create a Launch Cloud Service configuration {#create-launch-cloud-service}
 
 Learn how to create a new Launch Cloud Services configuration in Adobe Experience Manager. AEM's Launch Cloud Service configuration can then be applied to an existing Site and the Launch libraries can be observed loading in both Author and Publish environments.

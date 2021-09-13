@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: f8ba3d5c-0b9f-4eb7-8609-3e540341d5c2
 ---
-
 # Marketo Authentication Service
 
 Marketo’s REST APIs are authenticated with 2-legged OAuth 2.0. We need to create custom authentication to authenticate against Marketo. This custom authentication is typically written inside an OSGI bundle. The following code shows the custom authenticator that was used as part of this tutorial.

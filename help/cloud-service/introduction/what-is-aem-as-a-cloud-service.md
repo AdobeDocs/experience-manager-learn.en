@@ -7,8 +7,8 @@ type: Tutorial
 topic: Architecture
 kt: 6923
 thumbnail: 330546.jpg
+exl-id: 8aa97bdf-6a0b-4140-8183-a8f77212992d
 ---
-
 # What is AEM as a Cloud Service?
 
 Explore what AEM as a Cloud Service is, and how it differs from other version of Adobe Experience Manager.

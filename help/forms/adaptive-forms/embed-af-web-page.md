@@ -8,8 +8,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 8390
+exl-id: 068e38df-9c71-4f55-b6d6-e1486c29d0a9
 ---
-
 # Embedding Adaptive Form or HTML5 form in web page
 
 The embedded adaptive form is fully functional and users can fill and submit the form without leaving the page. It helps the user remain in the context of other elements on the web page and simultaneously interact with the form.
@@ -36,17 +36,3 @@ $(document).ready(function(){
 
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-

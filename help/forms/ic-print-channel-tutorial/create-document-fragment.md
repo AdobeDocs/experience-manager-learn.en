@@ -1,7 +1,7 @@
 ---
 title: Creating Document Fragment
-description: This is part 5 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create document fragment to hold the recipient name and address. 
-seo-description: This is part 5 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create document fragment to hold the recipient name and address. 
+description: This is part 5 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create document fragment to hold the recipient name and address.
+seo-description: This is part 5 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create document fragment to hold the recipient name and address.
 uuid: 7fd8a0f2-a921-4e70-91c9-908dae9aeab2
 feature: Interactive Communication
 topics: development
@@ -15,8 +15,8 @@ thumbnail: 22350.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 2fe3f950-bc2a-4e91-8d91-00438691727a
 ---
-
 # Creating Document Fragment
 
 In this part, we will create document fragment to hold the recipient name and address.
@@ -32,4 +32,3 @@ Document fragment editor also has the ability to insert inline conditions in you
 >[!NOTE]
 >
 >Make sure the Form Data Model elements you insert into a document fragments are descendants of the root element. For example in this use case make sure the User object's elements that you select is the child of the balances object
-

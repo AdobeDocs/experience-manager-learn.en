@@ -10,8 +10,8 @@ activity: use
 topic: Content Management
 role: User
 level: Beginner
+exl-id: a1d83c77-a9e4-4ed1-9b00-65fb002164c0
 ---
-
 # Cropping, Adjusted Images, and Zoom Targets {#crop-adjusted-zoom-targets}
 
 One of the main strengths of the Dynamic Media Classic master image concept is that you can repurpose the image asset for many uses. Traditionally, you would have to create separate, cropped versions of each image to show off details or for swatches. When using Dynamic Media Classic, you can do the same tasks on your single master, and either save those cropped versions as new physical files or as virtual derivatives that take no storage space.

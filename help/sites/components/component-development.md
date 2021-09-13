@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 kt: 4235
 thumbnail: 32547.jpg
+exl-id: ad767329-58bc-44ec-83de-2f5e3c8a30a3
 ---
-
 # Introduction to Component Development
 
 An overview of developing components with Adobe Experience Manager Sites. Includes an introduction to Dialogs, Sling Models, HTL Scripts and Client-Side Libraries.

@@ -9,8 +9,8 @@ thumbnail: 32194.jpg
 topic: Content Management
 role: User
 level: Beginner
+exl-id: b69508c9-4be3-43c9-9d54-84ac0a2b4b6b
 ---
-
 # Publish 
 
 Learn how to publish assets and their renditions from AEM Author to AEM Publish.

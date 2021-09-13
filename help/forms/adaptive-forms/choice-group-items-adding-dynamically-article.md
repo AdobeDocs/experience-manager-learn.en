@@ -6,9 +6,8 @@ version: 6.5
 topic: Development
 role: User
 level: Beginner
+exl-id: 8fbea634-7949-417f-a4d6-9e551fff63f3
 ---
-
-
 # Adding items dynamically to choice group component
 
  AEM Forms 6.5 introduced the ability to add items dynamically to an Adaptive Forms choice group component such as CheckBox, Radio Button and Image List.
@@ -95,4 +94,4 @@ To try this on your system:
 * The amortization table should get populated. The amortization schedule is fetched using a REST call.
 
 >[!NOTE]
-> It is assumed that tomcat is running on port 8080 and AEM on port 4502 
+> It is assumed that tomcat is running on port 8080 and AEM on port 4502

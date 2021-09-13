@@ -6,8 +6,8 @@ feature: APIs
 topic: Development
 role: Developer
 level: Beginner
+exl-id: b613aa65-f64b-4851-a2af-52e28271ce88
 ---
-
 # Java API Best Practices
 
 Adobe Experience Manager (AEM) is built on a rich open-source software stack that exposes many Java APIs for use during development. This article explores the major APIs and when and why they should be used.

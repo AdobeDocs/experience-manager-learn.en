@@ -8,8 +8,8 @@ role: User
 level: Beginner
 kt: 8220
 thumbnail: 336255.jpeg
+exl-id: e1ec3560-2c74-47ac-ba8a-f05412b6b3e5
 ---
-
 # Sending documents and Linking assets
 
 Learn how to send Workfront documents to to Assets Essentials, and link Assets Essentials assets to Workfront.

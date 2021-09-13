@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: ba5a250d-b2ee-4d1b-807c-e144b805c61a
 ---
-
 # Set up Data Integration with AEM Forms {#set-up-data-integration-with-aem-forms}
 
 Setting up data connection to an JDBC data source
@@ -23,4 +23,3 @@ Setting up data connection to an JDBC data source
 * [Download MySQL JDBC OSGi Bundle](https://dev.mysql.com/downloads/connector/j/)
 
     * Download, unzip and install the JAR file via the [AEM Web Console](http://localhost:4502/system/console/bundles)
-

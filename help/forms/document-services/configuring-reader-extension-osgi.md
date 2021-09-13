@@ -8,8 +8,8 @@ version: 6.4,6.5
 topic: Administration
 role: Admin
 level: Beginner
+exl-id: 1f16acfd-e8fd-4b0d-85c4-ed860def6d02
 ---
-
 # Add Reader Extensions credential{#configuring-reader-extension-osgi}
 
 The DocAssurance service can apply usage rights to PDF documents. To apply usage rights to PDF documents, configure the certificates.
@@ -38,16 +38,3 @@ The command to list the details of the pfx file is. The following command assume
 **keytool -v -list -storetype pkcs12 -keystore <name of your .pfx file>**
 
 For example  keytool -v -list -storetype pkcs12 -keystore 1005566.pfx where 1005566.pfx is the name of my pfx file
-
-
-
-
-
-
-
-
-
-
-
-
-

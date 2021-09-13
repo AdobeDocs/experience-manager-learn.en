@@ -7,8 +7,8 @@ feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 46ef11a2-81bd-4ff7-b9ef-9f8cba52c6a8
 ---
-
 # Chapter 3 - Authoring Event Content Fragments
 
 Chapter 3 of the AEM Headless tutorial covers creating and authoring Events Content Fragments from the Content Fragment Model created in [Chapter 2](./chapter-2.md).

@@ -8,8 +8,8 @@ role: User
 level: Beginner
 kt: 4321
 thumbnail: 32192.jpg
+exl-id: 41b40982-9796-418e-9bfc-af6fc720e9b8
 ---
-
 # Understanding page properties {#understanding-page-properties-aem-sites}
 
 The following video introduces the page properties associated with a page in Adobe Experience Manager.
@@ -53,4 +53,3 @@ In this video, the following page property elements are covered:
 * [Editing Page Properties Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-page-properties.html)
 * [Editing Page Content Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-content.html)
 * [Quick Start Guide to Authoring Pages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/getting-started/quick-start.html)
-

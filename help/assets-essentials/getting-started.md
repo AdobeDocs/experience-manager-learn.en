@@ -8,8 +8,8 @@ role: User
 level: Beginner
 kt: 8021
 thumbnail: 336005.jpeg
+exl-id: a0accb94-ceef-4ecf-b1f6-f47751114242
 ---
-
 # Getting started with Assets Essentials
 
 Learn how to access Assets Essentials and explore the main features of its user interface.

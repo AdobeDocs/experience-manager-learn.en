@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 6b44e6b2-15f7-45b2-8d21-d47f122c809d
 ---
-
 # Creating Adaptive Form using Form Data Model
 
 The next step is to create an Adaptive Form and base it on the  Form Data Model created in the earlier step.

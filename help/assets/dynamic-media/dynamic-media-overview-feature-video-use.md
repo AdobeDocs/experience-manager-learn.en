@@ -7,8 +7,8 @@ version: 6.3, 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 59462cb4-d379-4e58-b786-ff8dbae6191c
 ---
-
 # Using Dynamic Media with AEM Assets {#understanding-aem-dynamic-media}
 
 This multi part video series gives you an overview of how media content is managed and accessed using Adobe Experience Manager Dynamic Media as a content serving service. Dynamic Media lets you manage and publish dynamic digital experiences — a feature unique to Experience Manager Assets. Our framework and suite of components allow marketers to customize and deliver interactive, multimedia experiences across all devices.

@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 21e58bbc-c1d6-4d41-a4d4-f522a3a5d4a7
 ---
-
 # Using Send Email Step of  Forms Workflow {#using-send-email-step-of-forms-workflow}
 
 Send Email step was introduced in AEM Forms 6.4. Using this step we can build business processes or workflow which will allow you to send emails with or without attachments. The following video walks through the steps for configuring the send email component.
@@ -50,4 +50,3 @@ Take a look at the process step of the workflow. The custom code associated with
 
 Make sure the Attachments tab of the Send Email component is configured as per the screen shot below
 ![Send Email Attachment Tab](assets/sendemailcomponentconfigure.jpg)The "DOR.pdf" value has to match the value specified in the Document of Record Path specified in the submission options of your adaptive form.
-

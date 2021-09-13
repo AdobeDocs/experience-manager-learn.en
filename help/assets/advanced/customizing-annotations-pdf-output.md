@@ -6,8 +6,8 @@ version: 6.3, 6.4, 6.5
 topic: Collaboration
 role: Developer
 level: Intermediate
+exl-id: 972737dd-8ca6-47b4-a4ec-b73355c09cec
 ---
-
 # Customizing Annotations in AEM Assets{#using-annotations-in-aem-assets}
 
 AEM supports the customization of the annotation's output to PDF.

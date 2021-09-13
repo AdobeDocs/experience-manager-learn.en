@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 7e5dcc6e-fe56-49af-97e3-7dfaa9c8738f
 ---
-
 # Using CAPTCHAs with AEM Adaptive Forms{#using-captchas-with-aem-adaptive-forms}
 
 Adding and using a CAPTCHA with AEM Adaptive Forms.
@@ -52,4 +52,3 @@ Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/s
 ## Supporting materials {#supporting-materials}
 
 * [Google reCAPTCHA](https://www.google.com/recaptcha)
-

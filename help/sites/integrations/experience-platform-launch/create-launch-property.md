@@ -11,8 +11,8 @@ thumbnail: 38553.jpg
 topic: Integrations
 role: Developer
 level: Intermediate
+exl-id: d5de62ef-a2aa-4283-b500-e1f7cb5dec3b
 ---
-
 # Create a Launch Property {#create-launch-property}
 
 Learn how to create a Launch property with the bare-minimum configuration needed to set up the rest of the integration with Adobe Experience Manager. Users will be introduced to the Launch UI and learn about extensions, rules, and publishing workflows.

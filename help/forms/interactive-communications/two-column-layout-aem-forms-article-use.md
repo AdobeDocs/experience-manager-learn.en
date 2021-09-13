@@ -12,8 +12,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: 416e3401-ba9f-4da3-8b07-2d39f9128571
 ---
-
 # Two Column Layouts in Print Channel Document
 
 This short article will highlight the steps needed to create 2 column layout in print channel. The use case is to generate 2 page documents with page 1 having 2 column layout and page 2 having the standard 1 column layout.

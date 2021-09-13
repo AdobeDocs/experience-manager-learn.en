@@ -13,12 +13,11 @@ version: 6.4,6.5
 discoiquuid: 17f4cdbb-079b-4fe3-861d-cfa0c03d30dd
 kt: 5957
 thumbnail: 37890.jpg
-
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 1bda648c-01be-44f1-aa73-3f5e7365d094
 ---
-
 # Create Layout using Forms Designer {#create-layout-using-forms-designer}
 
 In this part, we look at the layout file created using AEM Forms Designer.
@@ -28,6 +27,3 @@ Every print channel document will be based on a template created using AEM Forms
 The following video highlights the sections or target areas defined in the layout that will be used in this tutorial.
 
 >[!VIDEO](https://video.tv.adobe.com/v/37890/?quality=9)
-
-
-

@@ -9,6 +9,7 @@ feature: Adaptive Forms
 topic: Development
 kt: 7432
 thumbnail: 332439.jpg
+exl-id: feab7e1d-3998-41ba-8326-bbff14564494
 ---
 # Configure Adaptive form for fill and sign scenario
 
@@ -16,4 +17,3 @@ thumbnail: 332439.jpg
 In this video we configure the form where the form filler and the signer is the same person
 
 >[!VIDEO](https://video.tv.adobe.com/v/332439/?quality=9&learn=on)
-

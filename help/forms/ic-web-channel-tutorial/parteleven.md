@@ -10,13 +10,12 @@ audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.4,6.5
-
 discoiquuid: 77de4e76-53ee-467c-a71c-d1d3ea15283b
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 774d7a6e-2b8f-4a70-98c5-e7712478ff75
 ---
-
 # Configuring Investment Mix Panel
 
 In this part, we will add pie charts to display the current and model investment mix.
@@ -52,4 +51,3 @@ In this part, we will add pie charts to display the current and model investment
 * Please note the Data Model Object that is bound to the X and Y axes. You need to select the root element of the form data model and then drill down to select the appropriate element.
 
 * ![assettype](assets/modelassettypechart.png)
-

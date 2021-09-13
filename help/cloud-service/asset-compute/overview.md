@@ -12,8 +12,8 @@ thumbnail: KT-5802.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+exl-id: 575b12f9-b57f-41f7-bd39-56d242de4747
 ---
-
 # Asset Compute microservices extensibility
 
 AEM as Cloud Service's Asset Compute microservices support the development and deployment of custom workers that are used to read, and manipulate binary data of assets stored in AEM, most commonly, to create custom asset renditions.

@@ -7,9 +7,8 @@ kt: 6317
 topic: Development
 role: Developer
 level: Experienced
+exl-id: c2c55406-6da6-42be-bcc0-f34426b3291a
 ---
-
-
 # Verify users using their mobile phone numbers
 
 SMS Two Factor Authentication (Dual Factor Authentication) is a security verification procedure, which is triggered through a user logging into a website, software or application. In the log-in process, the user is automatically sent an SMS to their mobile number containing a unique numeric code.
@@ -66,5 +65,3 @@ If you want to use the sample assets with your API keys please follow the follow
 * Edit the rule associated with the field. Provide your appropriate API keys
 * Save the form
 * [Preview the form](http://localhost:4502/content/dam/formsanddocuments/sms-2fa-verification/jcr:content?wcmmode=disabled) and test the functionality
-
-

@@ -7,8 +7,8 @@ role: Developer
 version: cloud-service
 kt: 243
 thumbnail: 25173.jpg
+exl-id: 500f4e07-2686-42a2-8e44-d96dde02a112
 ---
-
 # Extending Page Properties {#extending-page-properties-in-aem-sites}
 
 Customizing the metadata fields for the Page Properties is a common requirement in any Sites implementation. This video details the most effective way to accomplish this using features of the Sling Resource Merger.

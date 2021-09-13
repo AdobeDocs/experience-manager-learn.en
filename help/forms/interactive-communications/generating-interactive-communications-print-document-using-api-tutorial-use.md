@@ -3,20 +3,17 @@ title: Generating Interactive Communications Document for print channel using wa
 seo-title: Generating Interactive Communications Document for print channel using watch folder mechanism
 description: Use watched folder to generate print channel documents
 seo-description: Use watched folder to generate print channel documents
-
 feature: Interactive Communication
 topics: development
 audience: developer
 doc-type: article
 activity: implement
 version: 6.4,6.5
-
-
 topic: Development
 role: Developer
 level: Intermediate
+exl-id: f5ab4801-cde5-426d-bfe4-ce0a985e25e8
 ---
-
 # Generating Interactive Communications Document for print channel using watch folder mechanism
 
 After you have designed and tested your print channel document, you will typically need to generate the document by making a making a REST call or generate print documents using watch folder mechanism.
@@ -152,4 +149,3 @@ Make sure this system user has read permissions on the following node. To give t
 >If you plan to use this on a non-windows operating system, please navigate to 
 >
 >/etc/fd/watchfolder /config/PrintChannelDocument and change the folderPath as per your preference
-

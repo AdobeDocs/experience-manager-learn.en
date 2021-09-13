@@ -1,5 +1,5 @@
 ---
-title: Analyze AEM Cloud Manager Test Results 
+title: Analyze AEM Cloud Manager Test Results
 description: Explore and fix the results of reports from AEM Cloud Manager
 role: Developer
 level: Beginner
@@ -8,8 +8,8 @@ topic: Development
 feature: Developer Tools
 kt: 6917
 thumbnail: 330540.jpg
+exl-id: 2ddd241a-0e8a-4397-8006-6f807be4fb12
 ---
-
 # Analyze test results
 
 >[!CONTEXTUALHELP]

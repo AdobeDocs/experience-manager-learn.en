@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 8664
 thumbnail: 336695.jpeg
+exl-id: 03bda030-cdbc-4444-8c4b-e182827f9f90
 ---
-
 # Dispatcher Converter
 
 Learn how the Dispatcher Converter automatically updates existing AEM Dispatcher configurations to be AEM as a Cloud Service compatible.

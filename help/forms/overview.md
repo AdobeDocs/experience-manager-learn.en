@@ -6,8 +6,8 @@ seo-description: Collection of AEM Forms resources for beginners and experienced
 sub-product: forms
 topic: Development
 role: Developer
+exl-id: c1972937-56c5-47af-9232-f31bdf69dfbe
 ---
-
 # Overview {#overview}
 
 Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manage, publish, and update complex digital forms while integrating with back-end processes, business rules, and data. This user guide contains videos and tutorials on the many features and capabilities of AEM Forms

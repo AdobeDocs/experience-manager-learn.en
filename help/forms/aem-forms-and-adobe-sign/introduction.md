@@ -6,6 +6,7 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 0be61f04-c3ed-4ecb-bab7-73fd308c14e0
 ---
 # Using AEM Forms with Adobe Sign
 
@@ -24,4 +25,3 @@ You require the following to integrate Adobe Sign with AEM Forms:
 * An active Adobe Sign developer account.
 * An Adobe Sign API application
 * Credentials (Client ID and Client Secret) of Adobe Sign API application.
-

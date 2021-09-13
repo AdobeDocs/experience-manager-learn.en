@@ -8,8 +8,8 @@ version: cloud-service
 kt: 6969
 thumbnail: 331107.jpg
 topic: Content Management
+exl-id: a05f995e-11bb-4b28-9aed-3033071244f7
 ---
-
 # Relate and Unrelate 
 
 Learn how to establish and manage relationships between assets in AEM.

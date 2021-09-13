@@ -8,8 +8,8 @@ level: Intermediate
 version: 6.3, 6.4, 6.5, cloud-service
 kt: 645
 thumbnail: 17019.jpg
+exl-id: c72dc489-70e6-48ca-99a8-663d4c0652ba
 ---
-
 # Smart Tags for Images
 
 AEM Assets' Smart Tags for images augments AEM Assets' search by automatically adding derived metadata tags to image assets, improving the authoring experience by making it easier and faster to find the right image.

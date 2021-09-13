@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 9a3b2128-a383-46ea-bcdc-6015105c70cc
 ---
-
 # Using API to generate Document of Record in AEM Forms {#using-api-to-generate-document-of-record-with-aem-forms}
 
 Generate Document Of Record (DOR) programmatically
@@ -51,4 +51,3 @@ PDF isn't displayed in new browser tab:
 1. Make you have followed the steps outlined in this [article](service-user-tutorial-develop.md)
 1. Make sure the 'DevelopingWithServiceUser' bundle is in *active state* 
 1. Make sure the system user ' data ' has Read, Modify, and Create permissions on the following node `/content/usergenerated/content/aemformsenablement`
-

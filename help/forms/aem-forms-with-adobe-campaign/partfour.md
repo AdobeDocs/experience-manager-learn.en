@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 59d5ba6d-91c1-48c7-8c87-8e0caf4f2d7e
 ---
-
 # Create Campaign Profile Using Form Data Model {#create-campaign-profile-using-form-data-model}
 
 Steps involved in creating Adobe Campaign Standard profile using  AEM Forms Form Data Model

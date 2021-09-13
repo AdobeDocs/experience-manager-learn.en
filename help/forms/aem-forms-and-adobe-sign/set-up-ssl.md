@@ -8,8 +8,8 @@ kt: 6046
 topic: Development
 role: Admin
 level: Intermediate
+exl-id: e94cde31-e589-4b71-b5de-bcd898393b8a
 ---
-
 # Enable SSL for AEM
 
 One of the prerequisites to integrating AEM Forms with Adobe Sign is to have your AEM instance configured to use SSL. Adobe Experience Manager's SSL setup wizard to make it easier to set up an AEM instance to run over HTTPS.

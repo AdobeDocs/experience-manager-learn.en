@@ -6,8 +6,8 @@ topic: Security, Development
 role: Developer
 level: Beginner
 feature: Security
+exl-id: 867cf74e-44e7-431b-ac8f-41b63c370635
 ---
-
 # Develop for Cross-Origin Resource Sharing (CORS)
 
 A short example of leveraging [!DNL CORS] to access AEM content from an external web application via client-side JavaScript.
@@ -118,4 +118,3 @@ It is likely clearing the cache entirely is required to ensure headers are appro
 * [Understanding Cross-Origin Resource Sharing (CORS) in AEM](./understand-cross-origin-resource-sharing.md)
 * [Cross-Origin Resource Sharing (W3C)](https://www.w3.org/TR/cors/)
 * [HTTP Access Control (Mozilla MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
-

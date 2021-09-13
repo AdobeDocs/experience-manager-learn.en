@@ -9,8 +9,8 @@ thumbnail: 32051.jpg
 topic: Collaboration
 role: User
 level: Beginner
+exl-id: 868dc44b-23ca-4e52-a0bc-229480cfae10
 ---
-
 # Timeline and Inbox
 
 Familiarize yourself with the key web consoles in AEM Assets that are used for collaboration.

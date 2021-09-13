@@ -11,8 +11,8 @@ doc-type: article
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 03cdf5d1-3253-44c9-ae1f-ec5d3c562427
 ---
-
 # Understand [!DNL Sling Model Exporter]
 
 Apache [!DNL Sling Models] 1.3.0 introduces [!DNL Sling Model Exporter], an elegant way to export or serialize [!DNL Sling Model] objects into custom abstractions. This article juxtaposes the traditional use-case of using [!DNL Sling Models] to populate HTL scripts, with leveraging the [!DNL Sling Model Exporter] framework to serialize a [!DNL Sling Model] into JSON.

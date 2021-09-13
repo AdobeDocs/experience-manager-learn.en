@@ -8,8 +8,8 @@ thumbnail: kt-6406.jpg
 topic: Development
 role: Developer
 level: Experienced
+exl-id: a5df8780-b7ab-4b91-86f6-a24392752107
 ---
-
 # Assemble form attachments
 
 This article provides assets to assemble adaptive form attachments in a specified order. The form attachments need to be in pdf format for this sample code to work. The following is the use case.
@@ -145,4 +145,3 @@ The following is the payload folder structure after the form attachments are ass
 
 >[!NOTE]
 > If you have enabled logger for the custom bundle the DDX and the assembled file is written to the folder of your AEM installation.
-

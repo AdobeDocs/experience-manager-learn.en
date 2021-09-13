@@ -8,12 +8,10 @@ version: 6.5, cloud-service
 feature: Adobe Asset Link
 topic: Administration
 index: y
+exl-id: d50f626b-ced8-4320-91c2-738687bec295
 ---
-
 # How to enable Asset download report
 
 *This video walks through the steps to enable asset download report.*
 
 >[!VIDEO](https://video.tv.adobe.com/v/335463?quality=9&learn=on)
-
-

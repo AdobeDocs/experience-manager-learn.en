@@ -12,8 +12,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
+exl-id: 79935ef0-bc73-4625-97dd-767d47a8b8bb
 ---
-
 # Getting this use case to work on your system
 
 >[!NOTE]
@@ -41,5 +41,4 @@ To get this use case working on your local system, following these steps:
 
 >[!NOTE]
 >
->Instead of submitting the PDF to servlet running on publish instance, some customers have deployed the servlet in servlet container such as Tomcat. It all depends on the topology the customer is comfortable with.for the purpose of this tutorial we are going to use the servlet deployed on publish instance for handling the pdf submissions. 
-
+>Instead of submitting the PDF to servlet running on publish instance, some customers have deployed the servlet in servlet container such as Tomcat. It all depends on the topology the customer is comfortable with.for the purpose of this tutorial we are going to use the servlet deployed on publish instance for handling the pdf submissions.

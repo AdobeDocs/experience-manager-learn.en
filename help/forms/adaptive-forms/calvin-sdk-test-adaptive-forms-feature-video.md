@@ -6,8 +6,8 @@ version: 6.3,6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 6122859a-35eb-49d9-a146-3b304fa40413
 ---
-
 # Understanding Automated Forms Testing with AEM Forms{#understanding-automated-forms-testing-with-aem-forms}
 
 AEM 6.3 Forms introduces the capability to let users create test cases within AEM for Adaptive Forms using Calvin SDK built on top of the hobbes.js framework.

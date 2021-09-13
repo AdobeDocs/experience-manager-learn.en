@@ -8,8 +8,8 @@ role: User
 level: Intermediate
 kt: 6409
 thumbnail: KT-6296.jpg
+exl-id: b5722fe2-93bf-4b25-8e08-4cb8206771cb
 ---
-
 # Analyze data with Analysis Workspace
 
 Learn how to map data captured from an Adobe Experience Manager Site to metrics and dimensions in Adobe Analytics report suites. Learn how to build a detailed reporting dashboard using the Analysis Workspace feature of Adobe Analytics. 
@@ -255,4 +255,3 @@ Next, let's download the Classification Template for the Button Id (eVar8) varia
 ## Congratulations!
 
 You just learned how to map data captured from an Adobe Experience Manager Site to metrics and dimensions in Adobe Analytics report suites, perform a Classification for the metrics, and build a detailed reporting dashboard using the Analysis Workspace feature of Adobe Analytics.
-

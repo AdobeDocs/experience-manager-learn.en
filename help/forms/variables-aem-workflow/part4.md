@@ -5,8 +5,8 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 269e43f7-24cf-4786-9439-f51bfe91d39c
 ---
-
 # ArrayList Variable in AEM Workflow
 
 Variables of type ArrayList have been introduced in AEM Forms 6.5. A common use case for using ArrayList variable is to define custom routes to be used in the AssignTask. 

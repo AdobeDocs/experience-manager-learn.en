@@ -8,8 +8,8 @@ role: User
 level: Beginner
 kt: 2551
 thumbnail: 28868.jpeg
+exl-id: 6765758f-0719-4ed9-83be-8ed192a75b41
 ---
- 
 # Use AEM Desktop App
 
  Use AEM Desktop App to simplify access to any asset managed in AEM on desktop, for any application and file format.

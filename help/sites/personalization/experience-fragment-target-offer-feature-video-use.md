@@ -6,8 +6,8 @@ version: 6.4, 6.5
 topic: Personalization
 role: User
 level: Beginner
+exl-id: 9ee826cf-389f-4570-bfe1-0d43d3fed3e1
 ---
-
 # Using Experience Fragment Offers within Adobe Target{#using-experience-fragment-offers-within-adobe-target}
 
 Adobe Experience Manager re-imagines the personalization workflow between AEM and Target. Experiences created within AEM can now be delivered directly to Adobe Target as HTML Offers. It allows Marketers to seamlessly test and personalize content across different channels.
