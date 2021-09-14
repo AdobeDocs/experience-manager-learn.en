@@ -1,7 +1,7 @@
 ---
 title: Creating GraphQL Queries
 description: Learn how to create GraphQL queries to return content from Adobe Experience Manager (AEM) and how to use the GraphiQL tool to quickly test, refine and debug queries.
-version: cloud-service
+version: Cloud Service
 topic: Headless, Content Management
 feature: Content Fragments, GraphQL API
 role: Developer

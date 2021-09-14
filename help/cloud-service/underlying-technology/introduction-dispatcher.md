@@ -6,7 +6,7 @@ topics: architecture
 audience: administrator, developer
 doc-type: technical video
 activity: understand
-version: cloud-service
+version: Cloud Service
 kt: 4644
 thumbnail: 32029.jpg
 topic: Architecture, Performance

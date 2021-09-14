@@ -1,7 +1,7 @@
 ---
 title: Adobe IMS user groups and AEM
 description: Adobe IMS user groups establish logical sets of users that are exposed to AEM, where they can be leveraged to define fine-tune permissions to AEM users.
-version: cloud-service
+version: Cloud Service
 topic: Administration, Security
 feature: User and Groups
 role: Admin

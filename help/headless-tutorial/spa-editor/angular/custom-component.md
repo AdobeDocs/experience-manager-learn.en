@@ -5,7 +5,7 @@ sub-product: sites
 feature: SPA Editor
 doc-type: tutorial
 topics: development
-version: cloud-service
+version: Cloud Service
 activity: develop
 audience: developer
 kt: 5831

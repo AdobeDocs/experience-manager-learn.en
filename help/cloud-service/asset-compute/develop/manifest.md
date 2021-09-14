@@ -3,7 +3,7 @@ title: Configure the manifest.yml of an Asset Compute project
 description: The Asset Compute project's manifest.yml, describes all the workers in this project to be deployed.
 feature: Asset Compute Microservices
 topics: renditions, development
-version: cloud-service
+version: Cloud Service
 activity: develop
 audience: developer
 doc-type: tutorial

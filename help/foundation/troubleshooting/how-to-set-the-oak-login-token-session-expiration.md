@@ -4,7 +4,7 @@ description: Steps to set oak origin token session expiration timeout
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5, cloud-service
+version:  6.5, Cloud Service
 feature: Developer Tools
 topic: Administration
 exl-id: 940d3cca-6052-40b6-b4f7-c0689ad21c94

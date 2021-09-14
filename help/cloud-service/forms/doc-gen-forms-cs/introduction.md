@@ -4,7 +4,7 @@ description: Consume the document generation microservices from an external appl
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: cloud-service
+version: Cloud Service
 feature: Document Services
 topic: Development
 kt: 7432

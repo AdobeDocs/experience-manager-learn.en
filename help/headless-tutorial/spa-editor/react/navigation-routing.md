@@ -4,7 +4,7 @@ description: Learn how multiple views in the SPA can be supported by mapping to 
 sub-product: sites
 feature: SPA Editor
 topics: development
-version: cloud-service
+version: Cloud Service
 activity: develop
 audience: developer
 kt: 4988

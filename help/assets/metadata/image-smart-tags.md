@@ -5,7 +5,7 @@ topic: Content Management
 feature: Smart Tags
 role: User
 level: Intermediate
-version: 6.3, 6.4, 6.5, cloud-service
+version:  6.3, 6.4, 6.5, Cloud Service
 kt: 645
 thumbnail: 17019.jpg
 exl-id: c72dc489-70e6-48ca-99a8-663d4c0652ba

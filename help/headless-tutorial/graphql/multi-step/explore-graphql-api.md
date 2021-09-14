@@ -1,7 +1,7 @@
 ---
 title: Explore GraphQL APIs - Getting Started with AEM Headless - GraphQL
 description: Get started with Adobe Experience Manager (AEM) and GraphQL. Explore AEM's GraphQL APIs using the built-in GrapiQL IDE. Learn how AEM automatically generates a GraphQL schema based on a Content Fragment model. Experiment constructing basic queries using the GraphQL syntax.
-version: cloud-service
+version: Cloud Service
 mini-toc-levels: 1
 kt: 6714
 thumbnail: KT-6714.jpg

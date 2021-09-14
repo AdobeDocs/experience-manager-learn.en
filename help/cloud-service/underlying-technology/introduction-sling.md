@@ -5,7 +5,7 @@ topics: sling, architecture
 audience: administrator, developer
 doc-type: technical video
 activity: understand
-version: cloud-service
+version: Cloud Service
 kt: 4641
 thumbnail: 32032.jpg
 topic: Architecture

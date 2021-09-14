@@ -3,7 +3,7 @@ title: Configuring asset sourcing with the brand portal.
 description: Steps to configure asset sourcing with  Brand Portal
 role: Developer
 level: Beginner
-version: cloud-service
+version: Cloud Service
 feature: Brand Portal
 topic: Development
 index: y

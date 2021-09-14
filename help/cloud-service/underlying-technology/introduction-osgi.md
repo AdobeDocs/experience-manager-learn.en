@@ -5,7 +5,7 @@ topics: osgi, architecture
 audience: administrator, developer
 doc-type: technical video
 activity: understand
-version: cloud-service
+version: Cloud Service
 kt: 4642
 thumbnail: 32031.jpg
 topic: Architecture

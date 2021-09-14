@@ -5,7 +5,7 @@ topics: integrations, authoring, personalization, activity, offers
 audience: all
 doc-type: feature video
 activity: use
-version: cloud-service
+version: Cloud Service
 kt: 6352
 thumbnail: 6352-personalization-using-vec.jpg
 topic: Integrations

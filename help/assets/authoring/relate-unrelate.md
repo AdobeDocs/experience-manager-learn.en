@@ -4,7 +4,7 @@ description: Learn how to establish and manage relationships between assets in A
 feature: Asset Management
 role: User
 level: Beginner
-version: cloud-service
+version: Cloud Service
 kt: 6969
 thumbnail: 331107.jpg
 topic: Content Management

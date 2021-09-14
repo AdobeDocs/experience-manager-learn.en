@@ -3,7 +3,7 @@ title: Tagging
 description: Tags are an integral tool for managing assets across Assets' folder hierarchy. Establishing a tagging taxonomy is critical in allowing users to discover and assets and organize assets in AEM.
 sub-product: assets
 feature: Asset Management
-version: cloud-service
+version: Cloud Service
 kt: 4871
 thumbnail: 34073.jpg
 topic: Content Management

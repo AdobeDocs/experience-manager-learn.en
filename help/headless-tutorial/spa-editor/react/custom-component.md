@@ -5,7 +5,7 @@ sub-product: sites
 feature: SPA Editor
 doc-type: tutorial
 topics: development
-version: cloud-service
+version: Cloud Service
 kt: 5878
 thumbnail: 5878-spa-react.jpg
 topic: SPA

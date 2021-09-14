@@ -1,7 +1,7 @@
 ---
 title: Advanced data modeling with Fragment References - Getting Started with AEM Headless - GraphQL
 description: Get started with Adobe Experience Manager (AEM) and GraphQL. Learn how to use the Fragment Reference feature for advanced data modeling and to create a relationship between two different Content Fragments. Learn how to modify a GraphQL query to include field from a referenced model.
-version: cloud-service
+version: Cloud Service
 mini-toc-levels: 1
 kt: 6718
 thumbnail: KT-6718.jpg
