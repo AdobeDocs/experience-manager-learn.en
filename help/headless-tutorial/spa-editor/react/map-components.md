@@ -4,7 +4,7 @@ description: Learn how to map React components to Adobe Experience Manager (AEM)
 sub-product: sites
 feature: SPA Editor
 topics: development
-version: cloud-service
+version: Cloud Service
 activity: develop
 audience: developer
 kt: 4854

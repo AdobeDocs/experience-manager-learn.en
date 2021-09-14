@@ -4,7 +4,7 @@ description: Steps to investigate issues related to search
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5, cloud-service
+version:  6.5, Cloud Service
 feature: Search, Developer Tools
 topic: Administration
 index: y

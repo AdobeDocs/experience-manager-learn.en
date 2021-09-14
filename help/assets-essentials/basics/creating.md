@@ -1,7 +1,7 @@
 ---
 title: Creating content using Assets Essentials
 description: Learn how to upload assets, create versions and even edit assets using Adobe Photoshop Express.
-version: cloud-service
+version: Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: User

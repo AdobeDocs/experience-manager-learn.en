@@ -4,7 +4,7 @@ description: Learn how to extend the metadata fields of Page Properties in Adobe
 topic: Development
 feature: Core Components
 role: Developer
-version: cloud-service
+version: Cloud Service
 kt: 243
 thumbnail: 25173.jpg
 exl-id: 500f4e07-2686-42a2-8e44-d96dde02a112

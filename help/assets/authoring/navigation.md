@@ -4,7 +4,7 @@ description: Explore the basics for navigation AEM Assets.
 feature: Asset Management
 role: User
 level: Beginner
-version: cloud-service
+version: Cloud Service
 kt: 4305
 thumbnail: 32046.jpg
 topic: Content Management

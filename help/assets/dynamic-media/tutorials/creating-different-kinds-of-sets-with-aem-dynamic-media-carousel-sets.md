@@ -1,7 +1,7 @@
 ---
 title: Creating Carousel sets with AEM Dynamic Media
 description: Configure Carousel set with Dynamic Media
-version: cloud-service
+version: Cloud Service
 role: Developer
 level: Intermediate
 topic: Development

@@ -7,7 +7,7 @@ topics: authoring, content-architecture
 audience: all
 doc-type: feature video
 activity: use
-version: cloud-service
+version: Cloud Service
 topic: Content Management
 role: User
 level: Beginner

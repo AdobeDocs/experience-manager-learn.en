@@ -4,7 +4,7 @@ description: In this scenario the form filler and the signer is the same person.
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: cloud-service
+version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 7432

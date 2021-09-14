@@ -5,7 +5,7 @@ solution: Experience Manager
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: cloud-service
+version: Cloud Service
 topic: Development
 thumbnail: 7836.jpg
 kt: 7836

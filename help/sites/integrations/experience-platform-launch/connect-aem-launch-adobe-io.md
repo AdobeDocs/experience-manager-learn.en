@@ -5,7 +5,7 @@ topics: integrations
 audience: administrator
 doc-type: technical video
 activity: setup
-version: cloud-service
+version: Cloud Service
 kt: 5981
 thumbnail: 38555.jpg
 topic: Integrations

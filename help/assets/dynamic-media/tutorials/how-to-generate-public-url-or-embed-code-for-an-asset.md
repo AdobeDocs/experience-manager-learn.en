@@ -3,7 +3,7 @@ title: Generating URLs and Embed Codes for AEM Dynamic Media assets
 description: Steps to generate public URL and embed code for an asset in Dynamic Media
 role: Developer
 level: Intermediate
-version: cloud-service
+version: Cloud Service
 topic: Development
 index: y
 exl-id: 2b526f92-17b4-4a69-9c1c-d8ca42334433

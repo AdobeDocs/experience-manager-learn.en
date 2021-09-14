@@ -1,7 +1,7 @@
 ---
 title: AEM users, groups and permissions
 description: Adobe Experience Manager builds on Adobe IMS users, user groups, and product profiles in order to provide users customizable access to AEM. Learn how to define AEM groups and permissions and how they work in concert with Adobe IMS abstractions to provide seamless and customizable access to AEM.
-version: cloud-service
+version: Cloud Service
 topic: Administration, Security
 feature: User and Groups
 role: Admin

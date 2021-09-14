@@ -8,7 +8,7 @@ topics: authoring, publishing
 audience: author, marketer
 doc-type: feature video
 activity: use
-version: 6.3, 6.4, 6.5, cloud-service
+version:  6.3, 6.4, 6.5, Cloud Service
 kt: 4244
 thumbnail: 31827.jpg
 topic: Content Management

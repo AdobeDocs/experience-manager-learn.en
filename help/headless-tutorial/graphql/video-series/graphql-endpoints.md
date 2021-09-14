@@ -1,7 +1,7 @@
 ---
 title: GraphQL Endpoints
 description: Learn how to enable, execute queries against, and publish and secure GraphQL endpoints.
-version: cloud-service
+version: Cloud Service
 topic: Headless, Content Management
 feature: Content Fragments, GraphQL API
 role: Developer

@@ -1,7 +1,7 @@
 ---
 title: Production deployment using an AEM Publish service - Getting Started with AEM Headless - GraphQL
 description: Learn about AEM Author and Publish services and the recommended deployment pattern for headless applications. In this tutorial, learn to use environment variables to dynamically change a GraphQL endpoint based on the target environment. Learn to properly configure AEM for Cross-Origin resource sharing (CORS).
-version: cloud-service
+version: Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer

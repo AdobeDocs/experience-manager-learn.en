@@ -4,7 +4,7 @@ description: Learn how to use an Adobe Experience Manager (AEM) Maven project as
 sub-product: sites
 feature: SPA Editor, AEM Project Archetype
 topics: development
-version: cloud-service
+version: Cloud Service
 doc-type: tutorial
 activity: develop
 audience: developer

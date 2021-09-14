@@ -1,7 +1,7 @@
 ---
 title: How to use Workflow in AEM
 description: AEM Workflow provides a way to collaborate, manage, and process content in AEM.
-version: 6.5, cloud-service
+version:  6.5, Cloud Service
 feature: Workflow
 topic: Content Management
 role: User

@@ -3,7 +3,7 @@ title: Files and Collections
 description: Learn how to quickly and easily access AEM Assets Files and Collections from within the Asset Link panel.
 sub-product: assets
 feature: Adobe Asset Link
-version: 6.4, 6.5, cloud-service
+version:  6.4, 6.5, Cloud Service
 kt : 4906
 thumbnail: 33884.jpg
 topic: Content Management

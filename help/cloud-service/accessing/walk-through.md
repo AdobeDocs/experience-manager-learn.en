@@ -1,7 +1,7 @@
 ---
 title: Configuring access to AEM walk-through
 description: An abridged walk-though configuring Adobe IMS Users, User Groups and Product Profiles in Adobe AdminConsole, and how to leverage these Adobe IMS abstractions in AEM Author to define and manage specific group-based permissions.
-version: cloud-service
+version: Cloud Service
 topic: Administration, Security
 feature: User and Groups
 role: Admin

@@ -7,7 +7,7 @@ topic: Content Management
 role: Architect, Developer, Admin, User
 level: Beginner
 doc-type: feature video
-version: cloud-service
+version: Cloud Service
 kt: 194
 thumbnail: 331785.jpg
 exl-id: 84d2b240-5ecc-4230-97a0-6c2faead8d1a

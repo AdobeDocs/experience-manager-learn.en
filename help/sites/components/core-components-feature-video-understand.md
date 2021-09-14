@@ -6,7 +6,7 @@ topics: authoring
 audience: all
 activity: use
 doc-type: feature video
-version: 6.3, 6.4, 6.5, cloud-service
+version:  6.3, 6.4, 6.5, Cloud Service
 kt: 4676
 thumbnail: 18926.jpg
 topic: Development

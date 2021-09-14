@@ -3,7 +3,7 @@ title: Using Place Linked asset operation
 description: Learn how to use assets from AEM Assets using the Place Linked operation.
 sub-product: assets
 feature: Adobe Asset Link
-version: cloud-service
+version: Cloud Service
 kt : 4914
 thumbnail: 34839.jpg
 topic: Content Management

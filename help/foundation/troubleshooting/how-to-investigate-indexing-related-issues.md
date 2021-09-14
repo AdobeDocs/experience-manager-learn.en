@@ -4,7 +4,7 @@ description: Steps to investigate issues related to indexing
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5, cloud-service
+version:  6.5, Cloud Service
 feature: Developer Tools
 topic: Administration
 index: y

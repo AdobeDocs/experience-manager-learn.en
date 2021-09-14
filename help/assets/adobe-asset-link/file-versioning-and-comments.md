@@ -3,7 +3,7 @@ title: File Versioning and Comments
 description: Using the Adobe Asset Link panel, you can access file details for assets in AEM Assets, for example thumbnail, basic metadata, and versions from within the panel. Explore how to create, preview, and compare file versions.
 sub-product: assets
 feature: Adobe Asset Link
-version: 6.4, 6.5, cloud-service
+version:  6.4, 6.5, Cloud Service
 kt : 4911
 thumbnail: 34048.jpg
 topic: Content Management

@@ -3,7 +3,7 @@ title: Collections
 description: Learn how collections provides and alternative view into AEM Assets.
 sub-product: assets
 feature: Collections
-version: cloud-service
+version: Cloud Service
 kt: 4301
 thumbnail: 32053.jpg
 topic: Content Management

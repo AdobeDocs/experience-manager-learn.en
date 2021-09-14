@@ -1,7 +1,7 @@
 ---
 title: Creating Smart Crop Image Profiles in AEM Dynamic Media
 description: Configure smart crop in Dynamic Media
-version: cloud-service
+version: Cloud Service
 role: Developer
 level: Intermediate
 feature: Smart Crop

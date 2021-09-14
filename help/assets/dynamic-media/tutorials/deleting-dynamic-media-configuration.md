@@ -3,7 +3,7 @@ title: Deleting an AEM Dynamic Media configuration
 description: Steps to delete an AEM Dynamic Media configuration from AEM Assets.
 role: Developer
 level: Intermediate
-version: cloud-service
+version: Cloud Service
 feature: Image Profiles, Video Profiles, Viewer Presets
 topic: Development
 index: y

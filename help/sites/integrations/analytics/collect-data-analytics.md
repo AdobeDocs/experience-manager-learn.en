@@ -1,7 +1,7 @@
 ---
 title: Collect page data with Adobe Analytics
 description: Use the event-driven Adobe Client Data layer to collect data about user activity on a web site built with Adobe Experience Manager. Learn how to use rules in Experience Platform Launch to listen for these events and send data to an Adobe Analytics report suite.
-version: cloud-service
+version: Cloud Service
 topic: Integrations
 feature: Adobe Client Data Layer
 role: Developer

@@ -1,7 +1,7 @@
 ---
 title: Content Automation with Creative Cloud services
 description: Apply Photoshop and Lightroom capabilities with Adobe Experience Manager Assets Content Automation.
-version: cloud-service
+version: Cloud Service
 topic: Content Management
 feature: Asset Processing, Renditions
 role: Leader, Architect, Developer, Admin, User

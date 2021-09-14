@@ -4,7 +4,7 @@ description: Make a POST request to the end point with the necessary parameters
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: cloud-service
+version: Cloud Service
 feature: Document Services
 topic: Development
 kt: 8185

@@ -4,7 +4,7 @@ description: Run the Main.java to test the solution
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: cloud-service
+version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 
