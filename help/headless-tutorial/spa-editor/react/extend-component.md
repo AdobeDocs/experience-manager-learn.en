@@ -4,7 +4,7 @@ description: Learn how to extend the JSON Model for an existing Core Component t
 sub-product: sites
 feature: SPA Editor, Core Components
 doc-type: tutorial
-version: cloud-service
+version: Cloud Service
 kt: 5879
 thumbnail: 5879-spa-react.jpg
 topic: SPA

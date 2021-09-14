@@ -1,7 +1,7 @@
 ---
 title: How to use Project Masters in AEM
 description: Project Masters greatly simplifies user and team management with AEM Projects.
-version: 6.4, 6.5, cloud-service
+version:  6.4, 6.5, Cloud Service
 topic: Content Management, Collaboration
 feature: Projects
 level: Intermediate

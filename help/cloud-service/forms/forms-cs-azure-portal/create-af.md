@@ -5,7 +5,7 @@ feature: Adaptive Forms
 type: Documentation
 role: Developer
 level: Beginner
-version: cloud-service
+version: Cloud Service
 topic: Integrations
 thumbnail: 335423.jpg
 kt: 8230

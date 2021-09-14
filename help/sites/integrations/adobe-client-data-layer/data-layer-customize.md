@@ -1,7 +1,7 @@
 ---
 title: Customize the Adobe Client Data Layer with AEM Components
 description: Learn how to customize the Adobe Client Data Layer with content from custom AEM Components. Learn how to use APIs provided by AEM Core Components to extend and customize the data layer.
-version: cloud-service
+version: Cloud Service
 topic: Integrations
 feature: Adobe Client Data Layer, Core Components
 role: Developer

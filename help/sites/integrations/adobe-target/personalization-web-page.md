@@ -5,7 +5,7 @@ topics: integrations, authoring, personalization, activity, offers
 audience: all
 doc-type: feature video
 activity: use
-version: cloud-service
+version: Cloud Service
 kt: 6353
 thumbnail: 6353-personalization-web-page.jpg
 topic: Integrations

@@ -4,7 +4,7 @@ description: Create a JSON Web Token (JWT) that can be exchanged with Adobe IMS 
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: cloud-service
+version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 8184

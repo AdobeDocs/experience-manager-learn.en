@@ -4,7 +4,7 @@ description: Steps to force the recompilation of JSPs
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5, cloud-service
+version:  6.5, Cloud Service
 feature: Authoring
 topic: Administration
 index: y

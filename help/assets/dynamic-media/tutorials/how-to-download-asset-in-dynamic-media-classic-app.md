@@ -1,7 +1,7 @@
 ---
 title: Downloading Assets in AEM Dynamic Media Classic App
 description: Steps to download asset in Dynamic Media Classic App
-version: cloud-service
+version: Cloud Service
 role: Developer
 level: Intermediate
 feature: Dynamic Media Classic

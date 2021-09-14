@@ -1,7 +1,7 @@
 ---
 title: Creative Cloud and Assets Essentials
 description: Learn how Assets Essentials integrates with the Adobe Creative Cloud.
-version: cloud-service
+version: Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: User

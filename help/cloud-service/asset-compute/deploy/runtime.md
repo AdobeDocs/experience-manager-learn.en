@@ -3,7 +3,7 @@ title: Deploy Asset Compute workers to Adobe I/O Runtime for use with AEM as a C
 description: Asset Compute projects, and the workers they contain, must be deployed to Adobe I/O Runtime to be used by AEM as a Cloud Service.
 feature: Asset Compute Microservices
 topics: renditions, development
-version: cloud-service
+version: Cloud Service
 activity: develop
 audience: developer
 doc-type: tutorial

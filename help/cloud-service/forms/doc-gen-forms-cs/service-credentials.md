@@ -4,7 +4,7 @@ description: Download service credentials from AEM's Developer Console.
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: cloud-service
+version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 8192

@@ -2,7 +2,7 @@
 title: Search
 description: Learn how to use AEM's Omnisearch to quickly discover assets.
 feature: Search
-version: cloud-service
+version: Cloud Service
 kt: 4312
 thumbnail: 32054.jpg
 topic: Content Management

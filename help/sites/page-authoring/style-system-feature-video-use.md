@@ -8,7 +8,7 @@ topics: authoring, front-end-development
 audience: all
 doc-type: feature video
 activity: use
-version: cloud-service
+version: Cloud Service
 kt: 974
 thumbnail: 21750.jpg
 topic: Content Management

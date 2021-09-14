@@ -3,7 +3,7 @@ title: Steps to configure AEM Assets Brand Portal
 description: Configure AEM Assets Brand Portal
 role: Developer
 level: Beginner
-version: cloud-service
+version: Cloud Service
 feature: Brand Portal
 topic: Development
 index: y

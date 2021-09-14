@@ -1,7 +1,7 @@
 ---
 title: Track clicked component with Adobe Analytics
 description: Use the event-driven Adobe Client Data layer to track clicks of specific components on an Adobe Experience Manager site. Learn how to use rules in Experience Platform Launch to listen for these events and send data to an Adobe Analytics with a track link beacon.
-version: cloud-service
+version: Cloud Service
 topic: Integrations
 feature: Adobe Client Data Layer
 role: Developer

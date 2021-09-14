@@ -3,7 +3,7 @@ title: Debugging AEM SDK
 description: AEM SDK is the primary development environment used by developers, and supports a myriad of ways to debug AEM and deployed applications.
 feature: Developer Tools
 topics: development
-version: cloud-service
+version: Cloud Service
 doc-type: tutorial
 activity: develop
 audience: developer

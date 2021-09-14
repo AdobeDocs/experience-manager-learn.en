@@ -1,7 +1,7 @@
 ---
 title: Service Credentials
 description: AEM Service Credentials are used to facilitate external applications, systems and services to programmatically interact with AEM Author or Publish services over HTTP.
-version: cloud-service
+version: Cloud Service
 doc-type: tutorial
 topics: Development, Security
 feature: APIs

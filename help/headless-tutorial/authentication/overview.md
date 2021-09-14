@@ -1,7 +1,7 @@
 ---
 title: Authenticating to AEM as a Cloud Service from an external application
 description: Explore how an external application can programmatically authenticate and interact with AEM as a Cloud Service over HTTP using Local Development Access Tokens and Service Credentials.
-version: cloud-service
+version: Cloud Service
 doc-type: tutorial
 topics: Development, Security
 feature: APIs

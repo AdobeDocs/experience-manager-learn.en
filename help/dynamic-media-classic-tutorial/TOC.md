@@ -1,7 +1,7 @@
 ---
 sub-product: assets
 topics: development
-version: cloud-service
+version: Cloud Service
 doc-type: tutorial
 activity: develop
 audience: developer

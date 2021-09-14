@@ -6,7 +6,7 @@ topics: Administration
 audience: administrator
 doc-type: feature video
 activity: use
-version: cloud-service
+version: Cloud Service
 kt: 6871
 thumbnail: 26318.jpg
 topic: Architecture

@@ -6,7 +6,7 @@ topics: integrations, authoring
 audience: all
 doc-type: feature video
 activity: use
-version: cloud-service
+version: Cloud Service
 kt: 6350
 thumbnail: 41245.jpg
 topic: Integrations

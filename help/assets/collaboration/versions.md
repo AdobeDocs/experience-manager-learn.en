@@ -3,7 +3,7 @@ title: Versions
 description: Explore how AEM creates and maintains asset versions.
 sub-product: assets
 feature: Asset Management
-version: cloud-service
+version: Cloud Service
 kt: 4671
 thumbnail: 32052.jpg
 topic: Content Management

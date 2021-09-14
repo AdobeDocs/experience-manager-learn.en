@@ -5,7 +5,7 @@ feature: Asset Reports
 topic: Administration
 role: User
 level: Intermediate
-version: 6.3, 6.4, 6.5, cloud-service
+version:  6.3, 6.4, 6.5, Cloud Service
 kt: 648
 thumbnail: 22140.jpg
 exl-id: 8ac84d4e-59c1-4dde-a06e-a94458664ba7

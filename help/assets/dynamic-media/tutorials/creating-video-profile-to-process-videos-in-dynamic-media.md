@@ -1,7 +1,7 @@
 ---
 title: Creating Video Profiles in AEM Dynamic Media
 description: Configure video profiles to process videos in Dynamic Media
-version: cloud-service
+version: Cloud Service
 role: Developer
 level: Intermediate
 feature: Video Profiles

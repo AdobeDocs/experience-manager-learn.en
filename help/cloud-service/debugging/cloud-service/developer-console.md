@@ -3,7 +3,7 @@ title: Developer console
 description: AEM as a Cloud Service provides a Developer Console for each environment that exposes various details of the running AEM service that are helpful in debugging.
 feature: Developer Tools
 topics: development
-version: cloud-service
+version: Cloud Service
 doc-type: tutorial
 activity: develop
 audience: developer

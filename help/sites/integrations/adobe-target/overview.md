@@ -6,7 +6,7 @@ topics: integrations, personalization, administration, development
 audience: all
 doc-type: feature video
 activity: use
-version: cloud-service
+version: Cloud Service
 kt: 6043
 thumbnail: 41241.jpg
 topic: Integrations
