@@ -1,7 +1,7 @@
 ---
 title: Configure Adaptive Form to trigger workflow
 description: Trigger workflow on Adaptive Form submission.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

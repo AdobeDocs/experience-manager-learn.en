@@ -1,7 +1,7 @@
 ---
 title: Creating an adaptive form fragments
 description: A fragment is a reusable part of a form. For example, a fragment can include an address block or legal text.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

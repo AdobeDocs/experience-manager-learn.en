@@ -1,7 +1,7 @@
 ---
 title: Configure root panel
 description: Add child panels to the root panel.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

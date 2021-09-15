@@ -1,7 +1,7 @@
 ---
 title: Create adaptive form
 description: Create adaptive form and base it on the template created.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

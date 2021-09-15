@@ -1,7 +1,7 @@
 ---
 title: Create your first adaptive form
 description: Introduction video to the course on creating your first adaptive form
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
