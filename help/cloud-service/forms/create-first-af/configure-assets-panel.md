@@ -1,7 +1,7 @@
 ---
 title: Configure assets panel
 description: Add an Accordion layout panel to the assets panel.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
