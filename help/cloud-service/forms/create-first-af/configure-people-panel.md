@@ -1,7 +1,7 @@
 ---
 title: Configure people panel
 description: Configure people panel by adding spouse details fragment.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

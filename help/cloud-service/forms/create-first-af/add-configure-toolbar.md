@@ -1,7 +1,7 @@
 ---
 title: Add and configure toolbar
 description: Add ability to navigate between form panels.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

@@ -1,7 +1,7 @@
 ---
 title: Configure start panel
 description: Add a static text component to the start panel.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

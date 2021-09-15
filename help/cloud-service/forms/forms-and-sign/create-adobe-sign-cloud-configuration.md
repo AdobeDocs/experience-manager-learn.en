@@ -1,7 +1,7 @@
 ---
 title: Create Adobe Sign Cloud Configuration
 description: Create the AEM Forms and Adobe Sign integration using the cloud services configuration.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

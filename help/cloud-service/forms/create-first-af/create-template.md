@@ -1,7 +1,7 @@
 ---
 title: Creating an adaptive form template
 description: Adaptive Form template defines the structure and the initial content of your adaptive form.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

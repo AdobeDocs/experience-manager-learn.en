@@ -1,7 +1,7 @@
 ---
 title: Creating an adaptive form theme
 description: Theme is an AEM client library that defines the look and feel of your adaptive form.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

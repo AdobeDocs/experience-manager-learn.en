@@ -1,7 +1,7 @@
 ---
 title: Create an AEM Workflow
 description: Create workflow model to mimic your business process.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

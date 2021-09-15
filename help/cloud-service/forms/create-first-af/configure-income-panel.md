@@ -1,7 +1,7 @@
 ---
 title: Configure income panel
 description: Add table component to the income panel.
-solution: Experience Manager Forms
+solution: Experience Manager,Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
