@@ -8,8 +8,8 @@ role: Developer
 level: Experienced
 kt: 8634
 thumbnail: 336963.jpeg
+exl-id: f752df86-27d4-4dbf-a3cb-ee97b7d9a17e
 ---
-
 # Search and indexing
 
 Learn about AEM as a Cloud Service's search indexes, how to convert AEM 6 index definitions to be AEM as a Cloud Service compatible, and how to deploy indexes to AEM as a Cloud Service.
