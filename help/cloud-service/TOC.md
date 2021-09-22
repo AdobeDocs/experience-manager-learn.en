@@ -83,6 +83,25 @@ team: TM
 + Migration {#migration}
   + [Content Transfer Tool](./migration/content-transfer-tool.md)
   + [Bulk Import of assets](./migration/bulk-import.md)
+
+  + Moving to AEM as a Cloud Service {#moving-to-aem-as-a-cloud-service}
+    + [Introduction](./migration/moving-to-aem-as-a-cloud-service/introduction.md)
+    + [BPA and CAM](./migration/moving-to-aem-as-a-cloud-service/bpa-and-cam.md)
+    + [AEM Modernization tools](./migration/moving-to-aem-as-a-cloud-service/aem-modernization-tools.md)
+    + [Repository Modernization](./migration/moving-to-aem-as-a-cloud-service/repository-modernization.md)
+    + [Onboarding](./migration/moving-to-aem-as-a-cloud-service/onboarding.md)
+    + [Cloud Manager](./migration/moving-to-aem-as-a-cloud-service/cloud-manager.md)
+    + [Dispatcher](./migration/moving-to-aem-as-a-cloud-service/dispatcher.md)
+    + Content Migration {#content-migration}
+      + [Bulk Import Service](./migration/moving-to-aem-as-a-cloud-service/content-migration/bulk-import-service.md)
+      + [Content Transfer Tool](./migration/moving-to-aem-as-a-cloud-service/content-migration/content-transfer-tool.md)
+    + [Search and Indexing](./migration/moving-to-aem-as-a-cloud-service/search-and-indexing.md)
+    + [Asset Compute Microservices](./migration/moving-to-aem-as-a-cloud-service/asset-compute-microservices.md)
+    + AEM Forms as a Cloud Service {#aem-forms}
+      + [Introduction](./migration/moving-to-aem-as-a-cloud-service/aem-forms/introduction.md)
+      + [Digital Enrollment](./migration/moving-to-aem-as-a-cloud-service/aem-forms/digital-enrollment.md)
+      + [Communications](./migration/moving-to-aem-as-a-cloud-service/aem-forms/communications.md)
+
   + Cloud Acceleration Manager {#cloud-acceleration-manager}
     + [Introduction](./migration/cloud-acceleration-manager/introduction.md)
     + [Readiness and Best Practice Analyzer](./migration/cloud-acceleration-manager/readiness-and-best-practice-analyzer.md)
