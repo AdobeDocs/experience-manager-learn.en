@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot AEM as a Cloud Service
+title: Troubleshooting AEM as a Cloud Service
 description: Learn how to troubleshoot and debug the AEM SDK, AEM as a Cloud Service and, the build and deploy process.
 version: Cloud Service
 topic: Migration, Upgrade
@@ -9,7 +9,7 @@ kt: 8636
 thumbnail: 336964.jpeg
 ---
 
-# Troubleshoot AEM as a Cloud Service
+# Troubleshooting AEM as a Cloud Service
 
 Learn how to troubleshoot and debug the AEM SDK, AEM as a Cloud Service and, the build and deploy process.
 
