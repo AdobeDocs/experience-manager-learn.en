@@ -50,7 +50,7 @@ $ openssl genrsa -aes256 -out localhostprivate.key 4096
 $ openssl req -sha256 -new -key localhostprivate.key -out localhost.csr -subj '/CN=localhost'
 
 ### Generate the SSL certificate and sign with the private key, will expire one year from now
-$ openssl x509 -req -days 365 -in localhost.csr -signkey localhostprivate.key -out localhost.crt
+$ openssl x509 -req -extfile <(printf "subjectAltName=DNS:localhost") -days 365 -in localhost.csr -signkey localhostprivate.key -out localhost.crt
 
 ### Convert Private Key to DER format - SSL wizard requires key to be in DER format
 $ openssl pkcs8 -topk8 -inform PEM -outform DER -in localhostprivate.key -out localhostprivate.der -nocrypt
