@@ -58,6 +58,8 @@ team: TM
     + [OSGi Component Lifecycle](./developing/osgi-services/lifecycle.md)
     + [OSGi Configurations Basics](./developing/osgi-services/configurations.md)
     + [OSGi Configurations using OCD](./developing/osgi-services/configurations-ocd.md)
+  + Advanced{#advanced}
+    + [Service Users](./developing/advanced/service-users.md)    
   + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html)
 + Debugging AEM{#debugging}
   + Debugging the AEM SDK{#debugging-aem-sdk}
