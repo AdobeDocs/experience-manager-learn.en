@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 kt: 9113
 thumbnail: 337530.jpeg
+exl-id: 66f627e4-863d-45d7-bc68-7ec108a1c271
 ---
-
 # Service Users
 
 Learn how to create and use Service Users in your AEM code to provide controlled, programmatic access to the AEM repository.
