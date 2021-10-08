@@ -77,14 +77,11 @@ public class ContentStatisticsImpl implements ContentStatistics {
         // Get the auto-closing Service resource resolver
         // Remember, any ResourceResolver you get, you must ensure is closed!
         try (ResourceResolver serviceResolver = resourceResolverFactory.getServiceResourceResolver(authInfo)) {
-            if (serviceResolver != null) {
-                // Do some work w your service resource resolver
-                return queryAndCountAssets(serviceResolver);
-            } else {
-                log.warn("Could not obtain a User for the Service: {} ", SERVICE_USER_SUB_SERVICE_ID);
-            }
+            // Do some work with the service user's resource resolver and underlying resources. 
+            // Make sure to do all work that relies on the AEM repository access in the try-block, since the serviceResolver will auto-close when it's left
+            return queryAndCountAssets(serviceResolver);
         } catch (LoginException e) {
-            log.error("Login Exception when obtaining a User for the Bundle Service: {} ", e.getMessage());
+            log.error("Login Exception when obtaining a User for the Bundle Service: {} ", e);
         }
 
         return -1;
@@ -120,9 +117,10 @@ public class ContentStatisticsImpl implements ContentStatistics {
 `/ui.config/src/main/content/jcr_root/apps/wknd-examples/osgiconfig/config.author/org.apache.sling.jcr.repoinit.RepositoryInitializer-wknd-examples-statistics.config`
 
 ```
-scripts=["
+scripts=["   
     create service user wknd-examples-statistics-service with forced path system/cq:services/wknd-examples
 
+    # When using principal ACLs, the service user MUST be created under system/cq:services 
     set principal ACL for wknd-examples-statistics-service
         allow jcr:read on /content/dam
     end
