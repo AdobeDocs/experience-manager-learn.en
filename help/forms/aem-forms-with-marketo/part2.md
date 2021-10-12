@@ -122,7 +122,7 @@ MarketoConfigurationService config;
 
 The screen-shot below shows the configuration properties that need to be set. These configuration properties are read in the code listed above to get the access_token
 
-![config](assets/marketoconfig.jfif)
+![config](assets/configuration-settings.png)
 
 ### Configuration
 

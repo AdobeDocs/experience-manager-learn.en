@@ -25,3 +25,10 @@ The user will enter the Lead Id  and on tabbing out the Marketo service to get t
 The following screenshot explains the rule editor settings
 
 ![ruleeditor](assets/ruleeditor.jfif)
+
+## Debugging
+
+If you are using the bundles provided with this article, you may want to enable [debug logs](http://localhost:4502/system/console/slinglog) for the following classes:
+
++ `com.marketoandforms.core.impl.MarketoServiceImpl`
++ `com.marketoandforms.core.MarketoConfigurationService`
