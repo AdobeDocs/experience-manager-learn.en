@@ -1,6 +1,6 @@
 ---
 title: Understand Reasons to Upgrade
-description: A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.
+description: A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager 6.
 version: 6.5
 topic: Upgrade
 role: Leader, Architect, Developer, Admin, User
@@ -9,9 +9,9 @@ exl-id: bf4030b0-67c4-4b00-af95-f63e6f79e995
 ---
 # Understanding Reasons to Upgrade
 
-A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.
+A high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager 6.
 
-## Key Features for Upgrading to AEM 6.5
+## Key Features for Upgrading to AEM 6.5 
 
 + [Adobe Experience Manager 6.5 Release Notes](https://helpx.adobe.com/experience-manager/6-5/release-notes.html)
 
@@ -901,10 +901,10 @@ Below is a matrix of key Assets features offered by AEM. Some of these features 
             <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets.html" target="_blank">Imaging</a>:</strong>
             Dynamically deliver images at different sizes and formats, including Smart Crop.</td>
             <td>&nbsp;</td>
-            <td>✔</td>
-            <td>✔</td>
-            <td>✔</td>
-            <td>✔<sup>+</sup></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td>✔<sup>+</sup></td>
             <td>✔</td>
         </tr>
