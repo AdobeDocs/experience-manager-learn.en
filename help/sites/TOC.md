@@ -58,6 +58,8 @@ feature-set: Experience Manager, Experience Manager Sites
   + [Setup Experience Fragments and Adobe Target](personalization/experience-fragment-target-technical-video-setup.md)
   + [Using Experience Fragments with Adobe Target](personalization/experience-fragment-target-offer-feature-video-use.md)
   + [Setup ContextHub](personalization/context-hub-technical-video-setup.md)
++ SEO {#seo}
+  + [Sitemaps](./seo/sitemaps.md)
 + Single Page Applications {#spa-editor}
   + [Using the SPA Editor](spa-editor/spa-editor-framework-feature-video-use.md)
   + [Hello World Tutorial](spa-editor/spa-editor-helloworld-tutorial-use.md)
