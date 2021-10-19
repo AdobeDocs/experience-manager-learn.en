@@ -194,6 +194,7 @@ index: y
   + [Generating multiple pdf's from one data file](document-services/generate-multi-record-pdf.md)
   + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
   + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)
+  + [Generate Interactive DoR from Adaptive Form](document-services/generate-interactive-dor.md)
   + [Configure Reader Extensions Credential](document-services/configuring-reader-extension-osgi.md)
   + [Apply Usage Rights to PDF on XDP Rendition](document-services/rendering-and-reader-extending-xdp-templates-article.md)
   + [Apply Usage Rights to Uploaded PDF](document-services/apply-reader-extension-rights-to-pdf.md)
