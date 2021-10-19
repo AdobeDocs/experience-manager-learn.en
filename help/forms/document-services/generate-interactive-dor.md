@@ -7,29 +7,31 @@ topic: Development
 role: Developer
 level: Experienced
 
+kt: 9226
+
 ---
 
-# Download interactive DoR
+# Download Interactive DoR
 
 A common use case is to be able to download an interactive DoR with the Adaptive Form data. The downloaded DoR will then be completed using Adobe Acrobat or Adobe Reader.
 
 To accomplish this use case we need to do the following
 
-## Generate sample data for the xdp
+## Generate sample data for the XDP
 
-Open the XDP in AEM Forms designer. 
-Click File | Form Properties | Preview
-Click Generate Preview Data
-Click Generate
-Provide meaningful file name such as "form-data.xml"
+* Open the XDP in AEM Forms designer. 
+* Click File | Form Properties | Preview
+* Click Generate Preview Data
+* Click Generate
+* Provide meaningful file name such as "form-data.xml"
 
 ## Generate XSD from the xml data
 
-You can use any of the free online tools to [generate xsd](https://www.freeformatter.com/xsd-generator.html) from the xml data generated in the previous step.
+You can use any of the free online tools to [generate XSD](https://www.freeformatter.com/xsd-generator.html) from the xml data generated in the previous step.
 
-## Create Adaptive
+## Create Adaptive Form
 
-Create adaptive form based on the xsd from the previous step. Associate the form to use the client lib "irs". This client library has the code to make a POST call to the servlet which return the PDF to the calling application
+Create adaptive form based on the XSD from the previous step. Associate the form to use the client lib "irs". This client library has the code to make a POST call to the servlet which return the PDF to the calling application
 The following code gets triggered when the _Download PDF_ is clicked 
 
 ``` javascript
@@ -71,7 +73,7 @@ $(document).ready(function() {
 
 ## Create custom servlet
 
- Create a custom servlet that will merge the data with xdp template and return the pdf. The code to accomplish this is listed below. The custom servlet is part of the [AEMFormsDocumentServices.core-1.0-SNAPSHOT bundle](/help/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar)).
+ Create a custom servlet that will merge the data with XDP template and return the pdf. The code to accomplish this is listed below. The custom servlet is part of the [AEMFormsDocumentServices.core-1.0-SNAPSHOT bundle](/help/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)).
 
 ``` java
 package com.aemformssamples.documentservices.core.servlets;
@@ -191,14 +193,17 @@ public class GenerateIInteractiveDor extends SlingAllMethodsServlet {
 In the sample code, the template name(f8918-r14e_redo-barcode_3 2.xdp) is hardcoded. You can easily pass in the template name to the servlet to make this code generic to work against all templates. 
 
 
+## Deploy the sample on your server
+
 To test this on your local server, please follow the following steps:
+
 1. [Download and Install the DevelopingWithServiceUser Bundle](/help/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar)
 1. Add the following entry in the Apache Sling Service User Mapper Service
         DevelopingWithServiceUser.core:getformsresourceresolver=fd-service
 1. [Download and install the custom DocumentServices bundle](/hep/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar). This has the servlet to merge the data with the XDP template and stream the pdf back
 1. [Import the client library](assets/irs.zip)
 1. [Import the Adaptive Form](assets/f8918complete.zip)
-!. [Import the XDP template and schema](assets/xdp-template-and-xsd.zip)
+1. [Import the XDP template and schema](assets/xdp-template-and-xsd.zip)
 1. [Preview Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/f8918complete/jcr:content?wcmmode=disabled)
 1. Fill in few of the form fields
 1. Click Download PDF to get the PDF
