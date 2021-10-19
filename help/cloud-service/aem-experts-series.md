@@ -173,5 +173,7 @@ Learn about AEM as a Cloud Service's unique capabilities from Adobe's experts.
         Learn about AEM Assets' Asset Compute Microservices, how they replace AEM 6 asset processing, and how they can be extended to generate custom asset renditions.
       </p>
    </td>   
+    <td></td>
+    <td></td>
   </tr>
 </table>
