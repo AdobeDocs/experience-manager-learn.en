@@ -173,6 +173,43 @@ Learn about AEM as a Cloud Service's unique capabilities from Adobe's experts.
         Learn about AEM Assets' Asset Compute Microservices, how they replace AEM 6 asset processing, and how they can be extended to generate custom asset renditions.
       </p>
    </td>   
+   <td>
+      <a href="./migration/moving-to-aem-as-a-cloud-service/content-migration/bulk-import-service.md" target="_aem-experts-series-video">
+      <img alt="Importing content in bulk" src="./assets/experts-series/bulk-import.png"/>
+      </a>
+      <div>
+         <a href="./migration/moving-to-aem-as-a-cloud-service/content-migration/bulk-import-service.md" target="_aem-experts-series-video"><strong>Importing content in bulk</strong></a>
+         <br/><em>with Kiran Murugulla, Senior Cloud Architect</em>
+      </div>
+      <p>
+        <br/>
+        Learn how to safely and efficiently import content in bulk to AEM as a Cloud Service using the Bulk Import Service and AEM's Package Manager.
+      </p>
+   </td> 
+    <td></td>
+  </tr>
+</table>
+
+## Need help with AEM as a Cloud Services?
+
+Learn how to debug and troubleshoot AEM as a Cloud Service and the AEM SDK from the experts!
+
+<table>
+  <tr>
+   <td>
+      <a href="./migration/moving-to-aem-as-a-cloud-service/troubleshooting.md" target="_aem-experts-series-video">
+      <img alt="Troubleshooting AEM as a Cloud Service" src="./assets/experts-series/troubleshooting.png"/>
+      </a>
+      <div>
+         <a href="/migration/moving-to-aem-as-a-cloud-service/troubleshooting.md" 
+         target="_aem-experts-series-video"><strong>Troubleshooting AEM as a Cloud Service</strong></a>
+         <br/><em>with Kunwar Saluja, Cloud Architect</em>
+      </div>
+      <p>
+        <br/>
+        Learn how to troubleshoot various aspects of AEM as a Cloud Service, ranging from debugging the AEM SDK and AEM as a Cloud Service to Cloud Manager build and deployment failures.
+      </p>
+   </td>   
     <td></td>
     <td></td>
   </tr>
