@@ -186,6 +186,7 @@ team: TM
     + Advanced{#advanced}
         + [Metadata workers](./asset-compute/advanced/metadata.md)
     + [Troubleshooting](./asset-compute/troubleshooting.md)
++ [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
     + [GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html)
