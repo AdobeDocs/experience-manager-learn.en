@@ -200,10 +200,12 @@ To test this on your local server, please follow the following steps:
 1. [Download and Install the DevelopingWithServiceUser Bundle](/help/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar)
 1. Add the following entry in the Apache Sling Service User Mapper Service
         DevelopingWithServiceUser.core:getformsresourceresolver=fd-service
-1. [Download and install the custom DocumentServices bundle](/hep/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar). This has the servlet to merge the data with the XDP template and stream the pdf back
+1. [Download and install the custom DocumentServices bundle](/help/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar). This has the servlet to merge the data with the XDP template and stream the pdf back
 1. [Import the client library](assets/irs.zip)
 1. [Import the Adaptive Form](assets/f8918complete.zip)
 1. [Import the XDP template and schema](assets/xdp-template-and-xsd.zip)
 1. [Preview Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/f8918complete/jcr:content?wcmmode=disabled)
 1. Fill in few of the form fields
-1. Click Download PDF to get the PDF
+1. Click Download PDF to get the PDF. You may have to wait a few seconds for the PDF to download
+
+
