@@ -201,7 +201,7 @@ Learn how to debug and troubleshoot AEM as a Cloud Service and the AEM SDK from 
       <img alt="Troubleshooting AEM as a Cloud Service" src="./assets/experts-series/troubleshooting.png"/>
       </a>
       <div>
-         <a href="/migration/moving-to-aem-as-a-cloud-service/troubleshooting.md" 
+         <a href="./migration/moving-to-aem-as-a-cloud-service/troubleshooting.md" 
          target="_aem-experts-series-video"><strong>Troubleshooting AEM as a Cloud Service</strong></a>
          <br/><em>with Kunwar Saluja, Cloud Architect</em>
       </div>

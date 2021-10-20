@@ -119,32 +119,42 @@ team: TM
     + [Navigating the Cloud Acceleration Manager](./migration/cloud-acceleration-manager/navigating.md)
     + [Using the Cloud Acceleration Manager](./migration/cloud-acceleration-manager/using.md)
 + Forms{#forms}
-  + Create Adaptive Form{#create-first-af}
-    + [Introduction](./forms/create-first-af/introduction.md)
-    + [Create Theme](./forms/create-first-af/create-theme.md)
-    + [Create Template](./forms/create-first-af/create-template.md)
-    + [Create Fragment](./forms/create-first-af/create-fragments.md)
-    + [Create Form](./forms/create-first-af/create-af.md)
-    + [Configure root panel](./forms/create-first-af/configure-root-panel.md)
-    + [Configure people panel](./forms/create-first-af/configure-people-panel.md)
-    + [Configure income panel](./forms/create-first-af/configure-income-panel.md)
-    + [Configure assets panel](./forms/create-first-af/configure-assets-panel.md)
-    + [Configure start panel](./forms/create-first-af/configure-start-panel.md)
-    + [Add and Configure toolbar](./forms/create-first-af/add-configure-toolbar.md)
-  + Document Cloud API and AEM Forms CS{#doc-cloud-sdk}
-    + [Introduction](./forms/doc-cloud-sdk/introduction.md)
-    + [Create Adobe I/O project](./forms/doc-cloud-sdk/create-document-cloud-credentials.md)
-    + [Create OSGi configuration](./forms/doc-cloud-sdk/create-doc-cloud-configuration.md)
-    + [Define interface](./forms/doc-cloud-sdk/create-interface.md)
-    + [Implement interface](./forms/doc-cloud-sdk/implement-interface.md)
-    + [Create JSON part](./forms/doc-cloud-sdk/get-content-analyzer.md)
-    + [Custom process step](./forms/doc-cloud-sdk/custom-process-step.md)
-  + Azure Portal Storage{#forms-cs-azure-portal}
-    + [Introduction](./forms/forms-cs-azure-portal/introduction.md)
-    + [Create Form Data Model](./forms/forms-cs-azure-portal/create-fdm.md)
-    + [Store form data in Azure Storage](./forms/forms-cs-azure-portal/create-af.md)
-    + [Pre-fill form](./forms/forms-cs-azure-portal/prefill-af-storage.md)
-    + [Query submissions](./forms/forms-cs-azure-portal/query-submitted-data.md)
+
+    + Developing for Forms as a Cloud Service{#developing-for-cloud-service}
+        + [Getting started](./forms/developing-for-cloud-service/getting-started.md)
+        + [Install IntelliJ](./forms/developing-for-cloud-service/intellij-set-up.md)
+        + [Setup Git](./forms/developing-for-cloud-service/setup-git.md)
+        + [Sync IntelliJ with AEM](./forms/developing-for-cloud-service/intellij-and-aem-sync.md)
+        + [Build a form](./forms/developing-for-cloud-service/deploy-your-first-form.md)
+        + [Push to Cloud Manager](./forms/developing-for-cloud-service/push-project-to-cloud-manager-git.md)
+        + [Include Cloud Services and FDM](./forms/developing-for-cloud-service/azure-storage-fdm.md)
+    + Create Adaptive Form{#create-first-af}
+        + [Introduction](./forms/create-first-af/introduction.md)
+        + [Create Theme](./forms/create-first-af/create-theme.md)
+        + [Create Template](./forms/create-first-af/create-template.md)
+        + [Create Fragment](./forms/create-first-af/create-fragments.md)
+        + [Create Form](./forms/create-first-af/create-af.md)
+        + [Configure root panel](./forms/create-first-af/configure-root-panel.md)
+        + [Configure people panel](./forms/create-first-af/configure-people-panel.md)
+        + [Configure income panel](./forms/create-first-af/configure-income-panel.md)
+        + [Configure assets panel](./forms/create-first-af/configure-assets-panel.md)
+        + [Configure start panel](./forms/create-first-af/configure-start-panel.md)
+        + [Add and Configure toolbar](./forms/create-first-af/add-configure-toolbar.md)
+    + Document Cloud API and AEM Forms CS{#doc-cloud-sdk}
+        + [Introduction](./forms/doc-cloud-sdk/introduction.md)
+        + [Create Adobe IO Project](./forms/doc-cloud-sdk/create-document-cloud-credentials.md)
+        + [Create OSGI Configuration](./forms/doc-cloud-sdk/create-doc-cloud-configuration.md)
+        + [Define Interface](./forms/doc-cloud-sdk/create-interface.md)
+        + [Implement Interface](./forms/doc-cloud-sdk/implement-interface.md)
+        + [Create JSON Part](./forms/doc-cloud-sdk/get-content-analyzer.md)
+        + [Custom Process Step](./forms/doc-cloud-sdk/custom-process-step.md)
+    + Azure Portal Storage{#forms-cs-azure-portal}
+        + [Introduction](./forms/forms-cs-azure-portal/introduction.md)
+        + [Create Form Data Model](./forms/forms-cs-azure-portal/create-fdm.md)
+        + [Store form data in Azure Storage](./forms/forms-cs-azure-portal/create-af.md)
+        + [Prefill form](./forms/forms-cs-azure-portal/prefill-af-storage.md)
+        + [Query submissions](./forms/forms-cs-azure-portal/query-submitted-data.md)
+
 
 
     + Create Review Workflow{#create-aem-workflow}
@@ -156,7 +166,6 @@ team: TM
         + [Adobe Sign Cloud Configuration](./forms/forms-and-sign/create-adobe-sign-cloud-configuration.md)
         + [Create Adaptive Form](./forms/forms-and-sign/create-adaptive-form.md)
         + [Configure for fill and sign](./forms/forms-and-sign/configure-form-fill-and-sign.md)
-
     + Integrate with Salesforce{#integrate-with-salesforce}
         + [Introduction](./forms/integrate-with-salesforce/introduction.md)
         + [Create connected app](./forms/integrate-with-salesforce/create-connected-app.md)
