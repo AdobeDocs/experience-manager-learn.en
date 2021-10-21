@@ -61,6 +61,54 @@ Adobe Experience Manager (AEM) has multiple options for defining headless endpoi
 </tr>
 </table>
 
+## Example applications
+
+Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). Download and install these finished examples to get started right away.
+
+<table>
+<tr>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/example-apps/ios-swiftui-app.html">
+      <img alt="iOS Example" src="./assets/ios-example.png" />
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/example-apps/ios-swiftui-app.html">
+    <strong>iOS SwiftUI Example</strong>
+    </a>
+    </div>
+    <p>
+    <em>An iOS application powered by AEM's GraphQL APIs.</em>
+    <p>
+  </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/example-apps/android-app.html">
+    <img alt="Android Example" src="./assets/android-example.png" />
+    </a>
+    <div>
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/example-apps/android-app.html">
+    <strong>Android Example</strong>
+    </a>
+    </div>
+    <p>
+    <em>An Android application powered by AEM's GraphQL APIs.</em>
+    </p>
+  </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/example-apps/react-app.html">
+      <img alt="React Example" src="./assets/react-example.png" />
+    </a>
+     <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/example-apps/react-app.html">
+        <strong>React Example</strong>
+      </a>
+    </div>
+    <p>
+    <em>A React application powered by AEM's GraphQL APIs.</em>
+    <p>
+  </td>
+</tr>
+</table>
+
 ## Tutorials by framework
 
 Browse the following tutorials based on the technology used. Learn how AEM can go beyond a pure headless use case, with options for in-context authoring and experience management.
