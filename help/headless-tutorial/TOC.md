@@ -30,6 +30,9 @@ index: y
     + [5 - Query from an external app](./graphql/multi-step/graphql-and-external-app.md)
     + [6 - Advanced data modeling with Fragment References](./graphql/multi-step/fragment-references.md)
     + [7 - Production deployment](./graphql/multi-step/production-deployment.md)
+  + Examples {#example-apps}
+    + [React](./graphql/example-apps/react-app.md)
+    + [iOS SwiftUI](./graphql/example-apps/ios-swiftui-app.md)
 + SPA Editor{#spa-editor}
   + React{#react}
     + [Overview](./spa-editor/react/overview.md)
