@@ -69,6 +69,106 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 </tr>
 </table>
 
+>[!TIP]
+>
+>This collection of samples to demonstrate various capabilities of AEM Forms. .
+
+
+## Adaptive Form Samples
+
+<table>
+<tr>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html">
+      <img alt= "Captch in AEM Forms" src="./assets/captcha1.png" />
+    </a>
+    <div>
+      <a href="https://forms.enablementadobe.com/content/forms/af/registerfornewsletter.html">
+    <strong>Google Captcha in Adaptive Form</strong>
+    </a>
+    </div>
+    <p>
+    <em> Distinguish between human and automated access to forms</em>
+    <p>
+  </td>
+  <td>
+    <a href="https://forms.enablementadobe.com/content/dam/formsanddocuments/summaryscreen/jcr:content?wcmmode=disabled">
+    <img alt="Preview Form Data" src="./assets/preview.png" />
+    </a>
+    <div>
+    <a href="https://forms.enablementadobe.com/content/dam/formsanddocuments/summaryscreen/jcr:content?wcmmode=disabled">
+    <strong>Review form data</strong>
+    </a>
+    </div>
+    <p>
+    <em>Preview the form data before submitting the form.</em>
+    </p>
+  </td>
+  <td>
+    <a href="https://forms.enablementadobe.com/content/forms/af/addinlineimage.html">
+      <img alt=" Inline Image" src="./assets/preview.png" />
+    </a>
+     <div>
+      <a href="https://forms.enablementadobe.com/content/forms/af/addinlineimage.html">
+        <strong>Display inline image</strong>
+      </a>
+    </div>
+    <p>
+    <em>Display the image added to the form.</em>
+    <p>
+  </td>
+</tr>
+</table>
+
+## Adaptive Form and Sign Samples
+
+<table>
+<tr>
+  <td>
+    <a href="https://forms.enablementadobe.com/content/forms/af/rentalagreement.html">
+      <img alt="Rental Agreement" src="./assets/rental-agreement.png" />
+    </a>
+    <div>
+      <a href="https://forms.enablementadobe.com/content/forms/af/rentalagreement.html">
+    <strong>Sample rental agreement form</strong>
+    </a>
+    </div>
+    <p>
+    <em>Rental agreement between tenant and landlord filled and signed using AEM Forms and Adobe Sign</em>
+    <p>
+  </td>
+  <td>
+    <a href="https://forms.enablementadobe.com/content/dam/formsanddocuments/ndawizard/jcr:content?wcmmode=disabled">
+    <img alt="NDA Agreement" src="./assets/nda.png" />
+    </a>
+    <div>
+    <a href="https://forms.enablementadobe.com/content/dam/formsanddocuments/ndawizard/jcr:content?wcmmode=disabled">
+    <strong>Generate Non Disclosure Agreement</strong>
+    </a>
+    </div>
+    <p>
+    <em>Create a NDA dynamically and send for signing using Adobe Sign</em>
+    </p>
+  </td>
+  <td>
+    <a href="https://forms.enablementadobe.com/content/dam/formsanddocuments/formsandsigndemo/refinanceform/jcr:content?wcmmode=disabled">
+      <img alt="Sign Document Package" src="./assets/sign.png" />
+    </a>
+     <div>
+      <a href="https://forms.enablementadobe.com/content/dam/formsanddocuments/formsandsigndemo/refinanceform/jcr:content?wcmmode=disabled">
+        <strong>Sign package of documents</strong>
+      </a>
+    </div>
+    <p>
+    <em>Seamlessly sign multiple documents using Forms and Adobe Sign</em>
+    <p>
+  </td>
+</tr>
+</table>
+
+
+
+
 ## Additional Resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)

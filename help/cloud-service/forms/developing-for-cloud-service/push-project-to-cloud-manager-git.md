@@ -11,12 +11,11 @@ kt: 8851
 
 ---
 
-# Push AEM project to cloud manager git rep
+# Push AEM project to cloud manager git repo
 
 In the previous step we synchronized our AEM Project with the Adaptive Forms and Themes created in the AEM instance.
-We now need to add these changes to our local git repository and then push the local git repository to the cloud manager git repository
-
-open command prompt and navigate to c:\cloudmanager\aem-banking-app
+We now need to add these changes to our local git repository and then push the local git repository to the cloud manager git repository.
+Open command prompt and navigate to c:\cloudmanager\aem-banking-app
 Execute the following commands
 
 ```

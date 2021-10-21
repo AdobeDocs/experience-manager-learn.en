@@ -37,10 +37,11 @@ Include the appropriate entry in the ui.content project's filter.xml
 <filter root="/content/dam/formsanddocuments-fdm/registrations" mode="replace"/>
 ```
 
-Now when you build and deploy your project, the project will have the form data model based on the cloud services configuration available in your cloud instance
 
->![NOTE]
-> When you push this cloud services configuration to your cloud instance you will have to manually update the Azure key using the AEM user interface.Any values that are encrypted would need to be updated in the cloud instances using the user interface.
+>[!NOTE]
+
+>Now when you build and deploy your project, the project will have the form data model based on the cloud services configuration available in your cloud instance
+
 
 
 
