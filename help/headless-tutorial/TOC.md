@@ -33,6 +33,7 @@ index: y
   + Examples {#example-apps}
     + [React](./graphql/example-apps/react-app.md)
     + [iOS SwiftUI](./graphql/example-apps/ios-swiftui-app.md)
+    + [Android](./graphql/example-apps/android-app.md)
 + SPA Editor{#spa-editor}
   + React{#react}
     + [Overview](./spa-editor/react/overview.md)
