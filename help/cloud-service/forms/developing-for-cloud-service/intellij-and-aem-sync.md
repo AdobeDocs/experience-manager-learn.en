@@ -12,9 +12,13 @@ kt: 8844
 ---
 # Installing Cygwin
 
+
+Cygwin is a POSIX-compatible programming and runtime environment that runs natively on Microsoft Windows.
 Install [Cygwin](https://www.cygwin.com/). I have installed in C:\cygwin64 folder
->[Note]
+>[!NOTE]
 > Make sure you install zip, unzip, curl, rsync packages with your cygwin installation
+
+Create a folder called adoberepo under the c:\cloudmanager. 
 
 [Install the repo tool].(https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo).Installing the repo tool is nothing but copying the repo file and placing it in your c:\cloudmanger\adoberepo folder.
 
@@ -22,10 +26,12 @@ Add the following to the Path environment variable C:\cygwin64\bin;C:\CloudManag
 
 ## Setup External tools
 
-Launch IntelliJ
-Hit Ctrl+Alt+S keys to launch the settings window
-Select Tools->External Tools and then click the + sign and enter the following as shown in the screen shot
-Make sure you create a group called repo by typing in "repo" in the Group drop down field and all the commands that you create belong to the **repo** group
+* Launch IntelliJ
+* Hit Ctrl+Alt+S keys to launch the settings window.
+* Select Tools->External Tools and then click the + sign and enter the following as shown in the screen shot.
+![rep](assets/repo.png)
+* Make sure you create a group called repo by typing in "repo" in the Group drop down field and all the commands that you create belong to the **repo** group
+
 
 **Put Command**
 **Program**: C:\cygwin64\bin\bash
