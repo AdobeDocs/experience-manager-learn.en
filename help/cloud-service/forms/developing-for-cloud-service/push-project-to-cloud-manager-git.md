@@ -36,11 +36,11 @@ This commits the files to the master branch of our local git repository
 
 ```
 
-git push -f bankingapp master:"My First AF"
+git push -f bankingapp master:"MyFirstAF"
 
 ```
 
-In the above command we are pushing our master branch from our local git repository into the My First AF branch of the cloud manager repository identified by the bankingapp friendly name
+In the above command we are pushing our master branch from our local git repository into the MyFirstAF branch of the cloud manager repository identified by the bankingapp friendly name.
 
 
 
