@@ -15,6 +15,8 @@ level: Beginner
 
 Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This iOS application demonstrates how to query content using the GraphQL APIs of AEM. The Apollo Client iOS is used to generate the GraphQL queries and map data to Swift objects to power the app. SwiftUI is used to render a simple list and detail view of the content.
 
+View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/ios-swiftui-app)
+
 >[!VIDEO](https://video.tv.adobe.com/v/338042/?quality=12&learn=on)
 
 ## Prerequisites {#prerequisites}
