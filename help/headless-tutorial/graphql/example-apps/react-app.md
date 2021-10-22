@@ -15,6 +15,8 @@ level: Beginner
 
 Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). A React application is provided that demonstrates how to query content using the GraphQL APIs of AEM. The AEM Headless Client for JavaScript is used to execute the GraphQL queries that power the app.
 
+View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app)
+
 ![React Application](./assets/react-screenshot.png)
 
 A full step by step tutorial is available [here](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/multi-step/overview.html).

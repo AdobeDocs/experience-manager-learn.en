@@ -11,9 +11,11 @@ role: Developer
 level: Beginner
 ---
 
-# Android SwiftUI App
+# Android App
 
 Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). An Android application is provided that demonstrates how to query content using the GraphQL APIs of AEM. The [AEM Headless Client for Java](https://github.com/adobe/aem-headless-client-java) is used to execute the GraphQL queries and map data to Java objects to power the app.
+
+View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/android-app)
 
 >[!VIDEO](https://video.tv.adobe.com/v/338093/?quality=12&learn=on)
 
