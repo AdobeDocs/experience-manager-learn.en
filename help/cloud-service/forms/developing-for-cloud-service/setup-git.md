@@ -66,7 +66,7 @@ save the password in the config file
 
 ``` java
 
-git config --global user.password "bqwxfvxq2akawtqx3oztacb5tkx5a7"
+git config --global user.password "bqwxfvxq2akawtqx3oztacb5wax5a7"
 
 ```
 

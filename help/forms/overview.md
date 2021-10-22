@@ -139,7 +139,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
   </td>
   <td>
     <a href="https://forms.enablementadobe.com/content/dam/formsanddocuments/ndawizard/jcr:content?wcmmode=disabled">
-    <img alt="NDA Agreement" src="./assets/nda.png" />
+    <img alt="NDA Agreement" src="./assets/nda1.png" />
     </a>
     <div>
     <a href="https://forms.enablementadobe.com/content/dam/formsanddocuments/ndawizard/jcr:content?wcmmode=disabled">
