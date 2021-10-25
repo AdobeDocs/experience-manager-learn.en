@@ -44,6 +44,7 @@ index: y
   + [Prefill Service in Adaptive Forms](adaptive-forms/prefill-service-adaptive-forms-article-use.md)
   + [Custom Submit in Adaptive Forms](adaptive-forms/custom-submit-aem-forms-article.md)
   + [Captcha in Adaptive Forms](adaptive-forms/forms-captcha-feature-video-use.md)
+  + [Some useful UI tips](adaptive-forms/forms-ui-tips.md)
   + [Embedding Adaptive Form in web page](adaptive-forms/embed-af-web-page.md)
   + [Creating array of strings](adaptive-forms/converting-comma-seperated-string-to-array.md)
   + [Using Set Value in XML  in OSGI Workflow](adaptive-forms/setvalue-aem-forms-workflow-tutorial-use.md)
@@ -309,4 +310,3 @@ index: y
     
   
   
-
