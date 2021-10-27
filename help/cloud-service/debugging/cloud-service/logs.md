@@ -187,8 +187,10 @@ This requires updating the logging OSGi configurations to use the environment sp
 
 ```
 {
+    ...
     "org.apache.sling.commons.log.names": ["com.example"],
     "org.apache.sling.commons.log.level": "$[env:LOG_LEVEL;default=DEBUG]"
+    ...
 }
 ```
 
