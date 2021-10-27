@@ -1,15 +1,13 @@
 ---
 title: AEM Foundation Videos and Tutorials
-seo-title: AEM Foundation Videos and Tutorials
 description: A collection of videos and tutorials for Adobe Experience Manager Foundation.
-seo-description: A collection of videos and tutorials for Adobe Experience Manager Foundation
 role: Leader, Architect, Developer, Admin, User
 level: Beginner
 exl-id: af0fe7fb-873b-4d2d-a5a3-59a5a3da9b96
 ---
-# Overview {#overview}
+# AEM Foundation Videos and Tutorials {#overview}
 
-Adobe Experience Manager provides a common set of capabilities available to users of AEM Sites, [!DNL Assets] and [!DNL Forms].
+Adobe Experience Manager provides a common set of capabilities available to users of AEM Sites, Assets, and Forms.
 
 ## What's New
 
@@ -17,7 +15,7 @@ Adobe Experience Manager provides a common set of capabilities available to user
     *AEM Workflow provides a way to collaborate, manage, and process content in AEM.*
 
 * **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
-    *Cloud Manager for AEM allows easy management, inspection and self-service of AEM environments.*
+    *Cloud Manager for AEM allows easy management, inspection, and self-service of AEM environments.*
 
 * **[Set up public and private keys for use with Adobe I/O (Tutorial)](./authentication/set-up-public-private-keys-for-use-with-aem-and-adobe-io.md)**  
     *Learn how keys and keystores are generated using [!DNL openssl] that work with AEM and Adobe I/O.*
@@ -39,7 +37,7 @@ Adobe Experience Manager provides a common set of capabilities available to user
     </a>
     </div>
     <p>
-    <em>Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, inspection and self-service of AEM environments.</em>
+    <em>Cloud Manager for AEM provides a simple, yet robust solution that allows easy management, inspection, and self-service of AEM environments.</em>
     <p>
   </td>
    <td>

@@ -4,9 +4,9 @@ description: A collection of videos and tutorials for Adobe Experience Manager A
 sub-product: assets, dynamic-media
 exl-id: 1d0b0183-25ee-4cb4-82a5-3506e7c1c908
 ---
-# Overview {#overview}
+# AEM Assets Videos and Tutorials {#overview}
 
-Adobe Experience Manager Assets is a digital asset management tool on AEM Platform that allows users to create, manage and share their digital assets (images, videos, documents and audio clips) in a web-based repository. This user guide contains videos and tutorials on the many features and capabilities of AEM Assets.
+Adobe Experience Manager (AEM) Assets is a digital asset management tool on AEM Platform that allows users to create, manage, and share their digital assets (images, videos, documents, and audio clips) in a web-based repository. This user guide contains videos and tutorials on the many features and capabilities of AEM Assets.
 
 ## What's New
 
@@ -17,13 +17,13 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
     *Learn the ins and outs of publishing assets from AEM Author to AEM Publish*
 
 * **[Watermarks (Video)](./advanced/watermarks.md)**
-    *Learn how how to watermark asset renditions in AEM as a Cloud Service*
+    *Learn how to watermark asset renditions in AEM as a Cloud Service*
 
 * **[Baseline permissions (Video)](./configuring/baseline-permissions.md)**
     *Learn how, and why it's important, to configure AEM Assets with baseline permissions*
 
 * **[Auto-start workflows (Video)](./configuring/auto-start-workflows.md)** 
-    *Explore how to automatically invoke AEM workflow on uploaded or re-processed assets*
+    *Explore how to automatically invoke AEM workflow on uploaded or reprocessed assets*
 
 ## Staff Picks
 
@@ -72,7 +72,7 @@ Adobe Experience Manager Assets is a digital asset management tool on AEM Platfo
 ## Additional Resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [AEM Assets Documentation](https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html)
+* [AEM Assets Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=en)
 * [AEM as a Cloud Service Tutorials](/help/cloud-service/overview.md)
 * [AEM Sites Tutorials](/help/sites/overview.md)
 * [AEM Forms Tutorials](/help/forms/overview.md)

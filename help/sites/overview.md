@@ -1,15 +1,13 @@
 ---
-title: AEM Sites Tutorials
-seo-title: AEM Sites Tutorials
+title: AEM Sites Videos and Tutorials
 description: A collection of videos and tutorials for Adobe Experience Manager Sites.
-seo-description: A collection of videos and tutorials for Adobe Experience Manager Sites
 sub-product: sites, content-services
 topic: Content Management
 exl-id: cde4ce7f-0afe-4632-8c1c-354586f296d5
 ---
-# Overview {#overview}
+# AEM Sites Videos and Tutorials {#overview}
 
-Adobe Experience Manager (AEM) Sites is a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
+Adobe Experience Manager (AEM) Sites are a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
 
 ## What's New
 
@@ -23,7 +21,7 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
     *How to expose content from AEM to be consumed by a native mobile app using AEM's GraphQL APIs.*
 
 * **[Using Content Fragments (Video Series)](./content-fragments/content-fragments-feature-video-use.md)**
-    *Content Fragments are channel agnostic pieces of content able to be re-used.*
+    *Content Fragments are channel agnostic pieces of content able to be reused.*
 
 * **[Using the SPA Editor (Video)](./spa-editor/spa-editor-framework-feature-video-use.md)**
     *Learn about AEM's editing capabilities for single page applications (SPA).*
@@ -68,7 +66,7 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
       </a>
     </div>
     <p>
-    <em>A getting started guide for developers to integrate a single page applications (SPA) with AEM.</em>
+    <em>A getting started guide for developers to integrate a single page application (SPA) with AEM.</em>
     <p>
   </td>
 </tr>
@@ -77,10 +75,10 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
 ## Additional Resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [AEM Sites Authoring Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/user-guide.html)
-* [AEM Sites Developing Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html)
-* [AEM Sites Administering Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/user-guide.html)
-* [AEM Sites Deploying Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/user-guide.html)
+* [AEM Sites Authoring Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)
+* [AEM Sites Developing Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/home.html)
+* [AEM Sites Administering Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/administering/home.html)
+* [AEM Sites Deploying Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html)
 * [AEM as a Cloud Service Tutorials](/help/cloud-service/overview.md)
 * [AEM Assets Tutorials](/help/assets/overview.md)
 * [AEM Forms Tutorials](/help/forms/overview.md)

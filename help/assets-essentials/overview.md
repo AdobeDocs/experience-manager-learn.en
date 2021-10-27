@@ -4,13 +4,13 @@ description: A collection of videos for Adobe Experience Manager Assets Essentia
 sub-product: assets
 exl-id: 6a8534fa-bc99-438b-9107-2a428e06619c
 ---
-# Overview
+# Assets Essentials Videos
 
 ![Assets Essentials](./assets/overview/hero.png)
 
 Experience Manager Assets Essentials provides a streamlined user interface for lightweight asset management and collaboration.
 
-Check out our videos on how to use Assets Essentials to manage your assets, as well as how it can be integrated with Adobe Journey Orchestrator!
+Check out these videos on how to use Assets Essentials to manage your assets, and how it can be integrated with Adobe Journey Orchestrator!
 
 ## Learn more about Assets Essentials
 
@@ -51,7 +51,7 @@ Check out our videos on how to use Assets Essentials to manage your assets, as w
       </a>
    </div>
    <p>
-      <em>Learn how Assets Essentials integrates with Adobe Journey Optimizer!</em>
+      <em>Learn how Assets Essentials integrate with Adobe Journey Optimizer!</em>
    <p>
 </td>
 </table>

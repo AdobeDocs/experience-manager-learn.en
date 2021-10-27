@@ -1,11 +1,11 @@
 ---
-title: Adobe Experience Manager as Cloud Service Tutorials
+title: Adobe Experience Manager as Cloud Service Videos and Tutorials
 description: A collection of tutorials for Adobe Experience Manager (AEM) as a Cloud Service
 sub-product: sites, cloud-manager, foundation, assets
 kt: 3289
 exl-id: 650ba2d9-6083-4772-84c5-1cdb97b5f0e9
 ---
-# Overview {#overview}
+# AEM as Cloud Service Videos and Tutorials {#overview}
 
 Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Cloud Service introduces the next generation of the Experience Manager product line, building on past investments and innovations, preserving and extending all use cases and functionalities.
 
@@ -23,7 +23,7 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
     *Learn how to bulk import assets into AEM from Azure Blob Storage or Amazon S3*
 
 * **[Asset Compute metadata worker (Tutorial)](./asset-compute/advanced/metadata.md)**
-    *Learn how to write asset metadata back to AEM from an Asset Compute workers*
+    *Learn how to write asset metadata back to AEM from an Asset Compute worker*
 
 * **[Asset Compute microservices extensibility (Tutorial)](./asset-compute/overview.md)**
     *Learn how to develop  Asset Compute workers to generate custom asset renditions*
@@ -50,7 +50,7 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
       </a>
       <div>
          <a href="./local-development-environment/overview.md">
-         <strong>Local Development Environment Set up Tutorial</strong>
+         <strong>Local Development Environment Setup Tutorial</strong>
          </a>
       </div>
       <p>
