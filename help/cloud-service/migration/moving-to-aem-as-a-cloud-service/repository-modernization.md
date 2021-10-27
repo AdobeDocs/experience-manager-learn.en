@@ -18,7 +18,7 @@ Learn about repository modernization, mutable and immutable content, package str
 
 ## Repository Modernizer Tool
 
-![Dispatcher Converter](./assets/repository-modernizer.png)
+![Repository Modernizer](./assets/repository-modernizer.png)
 
 As part of refactoring your code base, use the [Repository Modernizer tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html) to restructure a 6.x code base to a more modern structure.
 
