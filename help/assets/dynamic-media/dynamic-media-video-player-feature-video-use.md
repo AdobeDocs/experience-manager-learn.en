@@ -21,7 +21,7 @@ AEM Dynamic Media video player used to rely on Flash runtime to support adaptive
 
 HLS browser support is as follows, for unsupported browsers we fallback to progressive video delivery
 
->![NOTE]
+>[!NOTE]
 >
 > Dynamic Media Hybrid will NOT support Internet Explorer 11 after May 2022.
 
