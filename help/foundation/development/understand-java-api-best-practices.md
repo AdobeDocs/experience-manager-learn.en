@@ -180,6 +180,12 @@ OSGi defines a specification all OSGi containers must implement and conform to. 
 
 The following are common exceptions to the rules defined above.
 
+### OSGi APIs
+
+When dealing with low-level OSGi abstractions, such as defining or reading in OSGi component properties, the newer abstractions provided by `org.osgi` are preferred over higher level Sling absractions. The competing Sling abstractions have not been marked as `@Deprecated` and suggest the `org.osgi` alternative.
+
+Also note the OSGi configuration node definition prefer `cfg.json` over the `sling:OsgiConfig` format.
+
 ### AEM Asset APIs
 
 * Prefer [ `com.day.cq.dam.api`](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/package-summary.html) over [ `com.adobe.granite.asset.api`](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/javadoc/com/adobe/granite/asset/api/package-summary.html).
