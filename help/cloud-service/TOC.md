@@ -53,6 +53,7 @@ team: TM
     + [Dispatcher Configuration Migration](./developing/basics/dispatcher-configuration.md)
   + AEM Projects{#aem-projects}
     + [AEM Maven Project](./developing/projects/maven-project-structure.md)
+    + [Cleaning an AEM Maven Project](./developing/projects/remove-samples.md)
   + OSGi Services{#osgi-services}
     + [OSGi Service Basics](./developing/osgi-services/basics.md)
     + [OSGi Component Lifecycle](./developing/osgi-services/lifecycle.md)
@@ -104,7 +105,6 @@ team: TM
       + [Introduction](./migration/moving-to-aem-as-a-cloud-service/aem-forms/introduction.md)
       + [Digital Enrollment](./migration/moving-to-aem-as-a-cloud-service/aem-forms/digital-enrollment.md)
       + [Communications](./migration/moving-to-aem-as-a-cloud-service/aem-forms/communications.md)
-
 
   + Cloud Acceleration Manager {#cloud-acceleration-manager}
     + [Introduction](./migration/cloud-acceleration-manager/introduction.md)
