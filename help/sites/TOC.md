@@ -2,7 +2,7 @@
 user-guide-title: AEM Sites Videos and Tutorials
 user-guide-description: A collection of videos and tutorials for Adobe Experience Manager Sites.
 breadcrumb-title: AEM Sites Tutorials
-feature-set: Experience Manager, Experience Manager Sites
+feature-set: Experience Manager Sites, Experience Manager
 ---
 
 # AEM Sites Videos and Tutorials {#sites}

@@ -11,6 +11,7 @@ level: Beginner
 mini-toc-levels: 1
 index: y
 exl-id: 90d14734-f644-4a45-9361-1e47a5b52fff
+recommendations: disable
 ---
 # Getting Started with AEM Sites - Project Archetype {#project-archetype}
 
