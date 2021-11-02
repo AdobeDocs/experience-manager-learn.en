@@ -2,6 +2,7 @@
 title: AEM Assets Essentials Videos
 description: A collection of videos for Adobe Experience Manager Assets Essentials
 sub-product: assets
+recommendations: disable
 exl-id: 6a8534fa-bc99-438b-9107-2a428e06619c
 ---
 # Assets Essentials Videos

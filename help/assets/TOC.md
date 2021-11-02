@@ -2,7 +2,7 @@
 user-guide-title: AEM Assets Videos and Tutorials
 user-guide-description: A collection of videos and tutorials for Adobe Experience Manager Assets.
 breadcrumb-title: AEM Assets Tutorials
-feature-set: Experience Manager, Experience Manager Assets, Experience Manager Sites
+feature-set: Experience Manager Assets, Experience Manager Sites, Experience Manager
 team: TM
 ---
   
