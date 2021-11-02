@@ -1,5 +1,5 @@
 ---
-feature-set: Experience Manager, Experience Manager Forms
+feature-set: Experience Manager Forms, Experience Manager
 role: Developer
 user-guide-title: AEM Forms Videos and Tutorials
 user-guide-description: Collection of AEM Forms resources for beginners and experienced AEM Forms developers.

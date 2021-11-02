@@ -2,7 +2,6 @@
 sub-product: sites
 topics: development
 version: Cloud Service
-doc-type: tutorial
 activity: develop
 audience: developer
 user-guide-title: Getting Started with AEM Sites - WKND Tutorial

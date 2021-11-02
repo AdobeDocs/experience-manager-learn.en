@@ -4,7 +4,6 @@ description: Getting Started with AEM Sites - WKND Tutorial. The WKND tutorial i
 sub-product: sites
 topics: development
 version: Cloud Service
-doc-type: tutorial
 activity: develop
 audience: developer
 KT: 4132
@@ -16,6 +15,7 @@ topic: Content Management, Development
 role: Developer
 level: Beginner
 exl-id: 09a600f4-1ada-4fb7-ae44-586364cff389
+recommendations: disable
 ---
 # Getting Started with AEM Sites - WKND Tutorial {#introduction}
 
