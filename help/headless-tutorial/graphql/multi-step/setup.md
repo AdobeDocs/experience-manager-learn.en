@@ -58,9 +58,9 @@ This tutorial uses the [AEM as a Cloud Service SDK](https://experienceleague.ado
     $ java -jar aem-author-p4502.jar
     ```
 
-1. Provide an admin password as `admin`. Any admin password is acceptable, however its recommend to use the default for local development to reduce the need to re-configure.
+1. Provide an admin password as `admin`. Any admin password is acceptable, however its recommend to use `admin` for local development to reduce the need to re-configure.
 1. After a few minutes the AEM instance will finish installing and a new browser window should open at [http://localhost:4502](http://localhost:4502). 
-1. Login with the username `admin` and password `admin`.
+1. Login with the username `admin` and the password selected during AEM's initial start-up (usually `admin`).
 
 ## Install sample content and GraphQL endpoints {#wknd-site-content-endpoints}
 
