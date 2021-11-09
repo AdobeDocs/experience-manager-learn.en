@@ -92,6 +92,7 @@ index: y
 + UI Tips and Tricks{#ui-tips-and-tricks}
   + [Toggle password field text](ui-tips-tricks/toggle-password.md)
   + [Space toolbar buttons](ui-tips-tricks/toolbar-buttons.md)
+  + [Navigate tabs with nested panels](ui-tips-tricks/nested-panels.md)
 + Customizing inbox{#inbox-customization}
   + [Introduction](inbox-customization/introduction.md)
   + [Add custom column](inbox-customization/add-married-column.md)
