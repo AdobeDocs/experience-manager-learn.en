@@ -57,6 +57,10 @@ Use the style editor to hide the title of the tabs child panels.
 
 >[!VIDEO](https://video.tv.adobe.com/v/338370?quality=9&learn=on)
 
+The capability described in this article does not work in the last tab. For example if the Address tab had child panels this functionality would not work.
+
+<!--
 >[!NOTE]
 >
 >The capability described in this article does not work in the last tab. For example if the Address tab had child panels this functionality would not work.
+-->
