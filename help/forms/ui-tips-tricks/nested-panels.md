@@ -20,8 +20,9 @@ When your form has left navigation tabs and if one of the tabs has multiple pane
 
 ## Create Adaptive Form
 
- Create an adaptive form with the following structure. The root panel has child panels which are displayed as tabs on the left. Some of these "**tabs**" have additional child panels. For example the Family tab has two child panels called Spouse and Children.
- A toolbar is also added under the FormContainer with the Prev and Next buttons
+Create an adaptive form with the following structure. The root panel has child panels which are displayed as tabs on the left. Some of these "**tabs**" have additional child panels. For example the Family tab has two child panels called Spouse and Children.
+
+A toolbar is also added under the FormContainer with the Prev and Next buttons
 
 ![toolbar-spacing](assets/multiple-panels.png)
 
@@ -57,4 +58,5 @@ Use the style editor to hide the title of the tabs child panels.
 >[!VIDEO](https://video.tv.adobe.com/v/338370?quality=9&learn=on)
 
 >[!NOTE]
-> The capability described in this article does not work in the last tab. For example if the Address tab had child panels this functionality would not work.
+>
+>The capability described in this article does not work in the last tab. For example if the Address tab had child panels this functionality would not work.
