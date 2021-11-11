@@ -39,10 +39,5 @@ Include the appropriate entry in the ui.content project's filter.xml
 
 
 >[!NOTE]
-
+>
 >Now when you build and deploy your project, the project will have the form data model based on the cloud services configuration available in your cloud instance
-
-
-
-
-
