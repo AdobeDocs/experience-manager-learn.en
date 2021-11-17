@@ -1,7 +1,6 @@
 ---
-title: Create a site
-seo-title: Getting Started with AEM Sites - Create a site
-description: Use the Site Creation Wizard in Adobe Experience Manager, AEM, to generate a new website. The Standard Site Template provided by Adobe, is used as a starting point for the new site.
+title: Create a site | AEM Quick Site Creation
+description: As part of Quick Site Creation use the Site Creation Wizard in Adobe Experience Manager, AEM, to generate a new website. The Standard Site Template provided by Adobe, is used as a starting point for the new site.
 sub-product: sites
 version: Cloud Service
 type: Tutorial
@@ -17,9 +16,9 @@ exl-id: 6d0fdc4d-d85f-4966-8f7d-d53506a7dd08
 
 >[!CAUTION]
 >
-> The quick site creation features showcased here will be released in the second half of 2021. The related documentation is available for preview purposes.
+> The Quick Site Creation tool is currently a tech preview. It is made available for testing and evaluation purposes and is not intended for production use unless agreed with Adobe Support.
 
-This chapter covers the creation of a new site in Adobe Experience Manager. The Standard Site Template, provided by Adobe, is used as a starting point.
+As part of Quick Site Creation use the Site Creation Wizard in Adobe Experience Manager, AEM, to generate a new website. The Standard Site Template provided by Adobe, is used as a starting point for the new site.
 
 ## Prerequisites {#prerequisites}
 
@@ -76,8 +75,8 @@ A majority of the tutorial will take place using the **Author Service**.
 
 A Site Template provides a starting point for a new site. A Site Template includes some basic theming, page templates, configurations and sample content. Exactly what is included in the Site Template is up to the developer. Adobe provides a **Basic Site Template** to accelerate new implementations.
 
-1. Open a new browser tab and navigate to the Basic Site Template project on GitHub: [https://github.com/adobe/aem-site-template-basic](https://github.com/adobe/aem-site-template-basic). The project is open-sourced and licensed to be used by anyone.
-1. Click **Releases** and navigate to the [latest release](https://github.com/adobe/aem-site-template-basic/releases/latest).
+1. Open a new browser tab and navigate to the Basic Site Template project on GitHub: [https://github.com/adobe/aem-site-template-standard](https://github.com/adobe/aem-site-template-standard). The project is open-sourced and licensed to be used by anyone.
+1. Click **Releases** and navigate to the [latest release](https://github.com/adobe/aem-site-template-standard/releases/latest).
 1. Expand the **Assets** dropdown and download the template zip file:
 
     ![Basic Site Template Zip](assets/create-site/template-basic-zip-file.png)
@@ -86,7 +85,7 @@ A Site Template provides a starting point for a new site. A Site Template includ
 
     >[!NOTE]
     >
-    > This tutorial is written using version **5.0.0** of the Basic Site Template. If starting a new project, it is always recommended to use the latest version.
+    > This tutorial is written using version **1.1.0** of the Basic Site Template. When starting a new project for production use, it is always recommended to use the latest version.
 
 ## Create a new site
 
@@ -103,13 +102,16 @@ Next, generate a new site using the Site Template from the previous exercise.
     ![Select site template](assets/create-site/select-site-template.png)
 
 1. Under **Site Details** > **Site title** enter `WKND Site`.
+
+    In a real-world implementation "WKND Site" would be replaced by the brand name of your company or organization. In this tutorial, we are simulating the creation of a site for a ficticious lifestyle brand "WKND".
+
 1. Under **Site name** enter `wknd`.
 
     ![Site Template details](assets/create-site/site-template-details.png)
 
     >[!NOTE]
     >
-    > If using a shared AEM environment, append a unique identifier to the **Site Name**. For example `wknd-johndoe`. This will ensure that multiple users can complete the same tutorial, without any collisions.
+    > If using a shared AEM environment, append a unique identifier to the **Site Name**. For example `wknd-site-johndoe`. This will ensure that multiple users can complete the same tutorial, without any collisions.
 
 1. Click **Create** to generate the Site. Click **Done** in the **Success** dialog when AEM has finished creating the web site.
 

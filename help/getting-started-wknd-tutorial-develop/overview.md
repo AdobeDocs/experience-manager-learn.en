@@ -35,7 +35,7 @@ There are two basic approaches to starting an AEM Sites project.
 
 [Start the tutorial with the AEM Project Archetype](./project-archetype/overview.md)
 
-**AEM Site Templates** - A low-code approach to generating an AEM Site by using a pre-defined Site Template. Use out of the box components and templates to quickly get a site up and running. Use a theming workflow to apply brand-specific styles and customizations with just CSS and JavaScript. Recommended for new projects and developers. Currently only available for AEM as a Cloud Service.
+**AEM Site Templates** - Also known as Quick Site Creation, a low-code approach to generating an AEM Site by using a pre-defined Site Template. Use out of the box components and templates to quickly get a site up and running. Use a theming workflow to apply brand-specific styles and customizations with just CSS and JavaScript. Recommended for new projects and developers. Only available for AEM as a Cloud Service.
 
 [Start the tutorial using a Site Template](./site-template/create-site.md)
 
