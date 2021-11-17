@@ -126,6 +126,11 @@ team: TM
     + [Downloading Assets in Dynamic Media Classic App](dynamic-media/tutorials/how-to-download-asset-in-dynamic-media-classic-app.md)
     + [Dynamic Media Classic IPS APIs](dynamic-media/tutorials/introduction-to-dynamic-media-classic-ips-api.md)
 
++ Workfront Integration{#workfront}
+  + Enhanced connector{#enhanced-connector}
+    + [Enhanced Connector basics](./workfront/enhanced-connector/basics.md)
+    + [Project folders](./workfront/enhanced-connector/project-folders.md)
+
 + Translation {#translation}
   + [Source File Translation](translation/source-file-translation-feature-video-use.md)
   + [Smart Translation Search](translation/smart-translation-search-feature-video-use.md)
