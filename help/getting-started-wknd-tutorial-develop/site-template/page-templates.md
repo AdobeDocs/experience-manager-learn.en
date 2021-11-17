@@ -1,6 +1,5 @@
 ---
 title: Page templates
-seo-title: Getting Started with AEM Sites - Page templates
 description: Learn how to create and modify Page Templates. Understand the relationship between a Page Template and a Page. Learn how to configure policies of a Page Template to provide granular governance and brand consistency for content.  A well-structured Magazine Article template will be created based on a mockup from Adobe XD.
 sub-product: sites
 version: Cloud Service
@@ -17,7 +16,7 @@ exl-id: 261ec68f-36f4-474f-a6e4-7a2f9cea691b
 
 >[!CAUTION]
 >
-> The quick site creation features showcased here will be released in the second half of 2021. The related documentation is available for preview purposes.
+> The Quick Site Creation tool is currently a tech preview. It is made available for testing and evaluation purposes and is not intended for production use unless agreed with Adobe Support.
 
 In this chapter we will explore the relationship between a Page Template and a Page. We will build out an un-styled Magazine Article template based on some mockups from [AdobeXD](https://www.adobe.com/products/xd.html). In the process of building out the template, Core Components and advanced policy configurations are covered.
 
@@ -27,25 +26,13 @@ This is a multi-part tutorial and it is assumed that the steps outlined in the [
 
 ## Objective
 
-1. Inspect a page design created in Adobe XD and map it to Core Components.
 1. Understand the details of Page Templates and how policies can be used to enforce granular control of page content.
 1. Learn how Templates and Pages are linked.
+1. Create a new template and author a page.
 
 ## What you will build {#what-you-will-build}
 
 In this part of the tutorial, you will build a new Magazine Article Page template that can be used to create new magazine articles and aligns with a common structure. The template will be based on designs and a UI Kit produced in AdobeXD. This chapter is only focused on building out the structure or skeleton of the template. No styles will be implemented but the template and pages will be functional.
-
-## UI Planning with Adobe XD {#adobexd}
-
-In most cases, planning for a new website starts with mockups and static designs. [Adobe XD](https://www.adobe.com/products/xd.html) is a design tool building user experiences. Next we will inspect a UI Kit and mockups to help plan the structure of the Article Page Template.
-
->[!VIDEO](https://video.tv.adobe.com/v/30214/?quality=12&learn=on)
-
-**Download the [WKND Article Design File](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND-article-design.xd)**.
-
->[!NOTE]
->
-> A generic [AEM Core Components UI Kit is also available](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) as a starting point for custom projects.
 
 ## Create the Magazine Article Page Template
 
@@ -61,9 +48,14 @@ Next, create a new template in AEM that matches the structure of the mockups. Th
 
 >[!VIDEO](https://video.tv.adobe.com/v/332915/?quality=12&learn=on)
 
+You can use the following thumbnail to identify your template (or upload your own!)
+
+![Article Page template thumbnail](./assets/page-templates/article-page-template-thumbnail.png)
+
+
 ### Solution Package
 
-A finished [solution of the Magazine Template](assets/page-templates/WKND-Magazine-Template-SOLUTION-1.0.zip) can be downloaded and installed via Package Manager.
+A finished [solution of the Magazine Template](assets/page-templates/WKND-Magazine-Template-SOLUTION-1.1.zip) can be downloaded and installed via Package Manager.
 
 ## Update the Header and Footer with Experience Fragments {#experience-fragments}
 
@@ -75,7 +67,7 @@ The Site template generated a Header and Footer. Next, update the Experience Fra
 
 High level steps for the video below:
 
-1. Download the sample content package **[WKND-Starter-Assets-Skate-Article-1.0.zip](assets/page-templates/WKND-Starter-Assets-Skate-Article-1.0.zip)**.
+1. Download the sample content package **[WKND-Starter-Assets-Skate-Article-1.2.zip](assets/page-templates/WKND-Starter-Assets-Skate-Article-1.2.zip)**.
 1. Upload and install the content package using Package Manager.
 1. Update the Header and Footer Experience Fragments to use the WKND logo
 
@@ -84,6 +76,8 @@ High level steps for the video below:
 Next, create a new page using the Magazine Article Page template. Author the content of the page to match the site mockups. Follow the steps in the video below:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332917/?quality=12&learn=on)
+
+Use the [provided text](./assets/page-templates/la-skateparks-copy.txt) to populate the article body.
 
 ## Congratulations! {#congratulations}
 
