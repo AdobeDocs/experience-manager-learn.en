@@ -13,8 +13,6 @@ exl-id: 4a69513d-992c-435a-a520-feb9085820e7
 
 A common use case is to display the uploaded image as an inline image in Adaptive Form. By default, the uploaded image is shown as a link and this experience can be enhanced by displaying the image in Adaptive Form. This article will walk you through the steps involved in displaying inline image.
 
-[Live example of this capability](https://forms.enablementadobe.com/content/samples/samples.html?query=0#collapse1)
-
 ## Add placeholder image
 
 The first step is to prepend a placeholder div to the file attachment component. In the code below the file attachment component is identified by its CSS class name of photo-upload. The JavaScript function is part of client library that is associated with the adaptive forms. This function is called in initialize event of the file attachment component.

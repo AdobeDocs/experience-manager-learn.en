@@ -19,7 +19,7 @@ This article will demonstrate the use of Barcode Service to populate Adaptive Fo
 
 The following code decodes the barcode and populates a JSON object with the decoded values. The servlet then returns the JSON object in its response to the calling application.
 
-You can see this capability live, please visit the [samples portal](https://forms.enablementadobe.com/content/samples/samples.html?query=0) and search for Barcode Service Demo
+
 
 ```java
 public JSONObject extractBarCode(Document pdfDocument) {
