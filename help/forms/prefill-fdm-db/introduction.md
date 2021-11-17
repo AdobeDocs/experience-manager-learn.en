@@ -20,8 +20,6 @@ You will learn to use form data model's request attribute to fetch data to popul
 * Populate table with data returned by _get_ service of Form Data Model
 * Use Form Data Model's request attribute
 
-
-[Click to see live demonstration of the capability](https://forms.enablementadobe.com/content/dam/formsanddocuments/fdmwithrequestparameterinurl/jcr:content?wcmmode=disabled&empID=207)
 The following video gives you an overview of the course
 >[!VIDEO](https://video.tv.adobe.com/v/36387/quality=9)
 

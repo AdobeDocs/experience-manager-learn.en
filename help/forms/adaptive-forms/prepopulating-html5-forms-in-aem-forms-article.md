@@ -10,7 +10,6 @@ exl-id: ab0f5282-383b-4be6-9c57-cded6ab37528
 ---
 # PrePopulate HTML5 Forms using data attribute {#prepopulate-html-forms-using-data-attribute}
 
-Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/samples/samples.html?query=0) page for a link to a live demo of this capability.
 
 XDP Templates rendered in HTML format using AEM Forms are called HTML5 or Mobile Forms. A common use case is to pre-populate these forms when they are being rendered.
 

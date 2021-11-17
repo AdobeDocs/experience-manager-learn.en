@@ -12,8 +12,6 @@ exl-id: 7e5dcc6e-fe56-49af-97e3-7dfaa9c8738f
 
 Adding and using a CAPTCHA with AEM Adaptive Forms.
 
-Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/samples/samples.html?query=0#collapse1) page for a link to a live demo of this capability.
-
 >[!VIDEO](https://video.tv.adobe.com/v/18336/?quality=9&learn=on)
 
 *This video walks through the process of adding a CAPTCHA to an AEM Adaptive Form using both the built-in AEM CAPTCHA service as well as Google's reCAPTCHA service.*
