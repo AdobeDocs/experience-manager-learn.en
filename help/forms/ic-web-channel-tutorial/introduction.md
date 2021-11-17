@@ -18,8 +18,6 @@ exl-id: 65b1af30-9e22-4df0-ab91-479d5406df61
 
 Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
 
-Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/samples/samples.html?query=0) page for a link to a live demo of this capability.
-
 ## Prerequisites {#prerequistes}
 
 [Download and import the asset related to this tutorial into AEM using the package manager.](assets/gettingstartedassets.zip). This zip file contains images and document fragments that will be used in this tutorial

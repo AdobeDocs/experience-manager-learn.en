@@ -12,7 +12,6 @@ exl-id: 91b4a134-44a7-474e-b769-fe45562105b2
 
 This article will walk you through the steps involved in generating pdf from an HTML5(aka Mobile Forms) form submission. This demo will also explain the steps needed to add an image to HTML5 form and merge the image into the final pdf.
 
-To see a live demonstration of this capability please visit the [sample server](https://forms.enablementadobe.com/content/samples/samples.html?query=0) and search for "Mobile Form To PDF".
 
 To merge the submitted data into the  xdp  template we do the following
 

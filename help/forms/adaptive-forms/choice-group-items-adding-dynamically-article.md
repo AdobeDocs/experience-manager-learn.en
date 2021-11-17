@@ -12,8 +12,6 @@ exl-id: 8fbea634-7949-417f-a4d6-9e551fff63f3
 
  AEM Forms 6.5 introduced the ability to add items dynamically to an Adaptive Forms choice group component such as CheckBox, Radio Button and Image List.
 
-[This capability is available live on Samples Server](https://forms.enablementadobe.com/content/samples/samples.html?query=0#collapse1). Search for Dynamic Checkbox items card and click on "Try It"
-
 
 You can add items using the visual editor as well as the code editor depending on your use case.
 

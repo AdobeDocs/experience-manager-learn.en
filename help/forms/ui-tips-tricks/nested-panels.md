@@ -13,11 +13,6 @@ kt: 9335
 
 When your form has left navigation tabs and if one of the tabs has multiple panels, you may want to hide the title of the child panels and still be able to navigate between the tabs and the child panels of these tab
 
-[This capability is live in this form](https://forms.enablementadobe.com/content/forms/af/testnav1.html)
-
-
-
-
 ## Create Adaptive Form
 
 Create an adaptive form with the following structure. The root panel has child panels which are displayed as tabs on the left. Some of these "**tabs**" have additional child panels. For example the Family tab has two child panels called Spouse and Children.
