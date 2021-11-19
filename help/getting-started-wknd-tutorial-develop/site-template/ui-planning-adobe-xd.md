@@ -10,6 +10,7 @@ role: Developer
 level: Beginner
 kt: 9371
 thumbnail: 338680.jpg
+exl-id: 3155e0fa-56b7-4a52-8eef-fee488e95f68
 ---
 # UI Planning with Adobe XD {#ui-planning-adobe-xd}
 

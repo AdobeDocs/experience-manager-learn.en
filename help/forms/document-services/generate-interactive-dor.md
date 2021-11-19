@@ -6,11 +6,9 @@ feature: Forms Service
 topic: Development
 role: Developer
 level: Experienced
-
 kt: 9226
-
+exl-id: d9618cc8-d399-4850-8714-c38991862045
 ---
-
 # Download Interactive DoR
 
 A common use case is to be able to download an interactive DoR with the Adaptive Form data. The downloaded DoR will then be completed using Adobe Acrobat or Adobe Reader.
@@ -207,5 +205,3 @@ To test this on your local server, please follow the following steps:
 1. [Preview Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/f8918complete/jcr:content?wcmmode=disabled)
 1. Fill in few of the form fields
 1. Click Download PDF to get the PDF. You may have to wait a few seconds for the PDF to download
-
-

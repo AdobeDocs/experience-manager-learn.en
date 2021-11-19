@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 kt: 9165
 thumbnail: 337960.jpeg
+exl-id: 40bb55f9-011d-4261-9f44-b1104a591252
 ---
-
 # Sitemaps
 
 Learn how to help boost your SEO by creating sitemaps for AEM Sites.

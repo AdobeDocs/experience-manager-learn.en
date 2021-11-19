@@ -8,8 +8,8 @@ level: Beginner, Intermediate
 version: cloud-service
 topic: Development
 kt: 9006
+exl-id: 77c00a35-43bf-485f-ac12-0fffb307dc16
 ---
-
 # Include cloud services configuration in your project
 
 Create a configuration container called 'FormsTutorial' to hold your cloud services configuration
