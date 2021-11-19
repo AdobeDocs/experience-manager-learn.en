@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 kt: 8852
+exl-id: 81a53f52-2a6c-44ef-a13f-ac372b4a33b9
 ---
-
 # Sync Adaptive Forms with AEM Project
 
 ## Create theme
@@ -21,6 +21,3 @@ Create two folders called(FormTemplates and BankingApplication).Feel free to add
 
 To sync these assets into your AEM project using IntelliJ and Repo tool, please watch the following video
 >[!VIDEO](https://video.tv.adobe.com/v/336937?quality=12&learn=on)
-
-
-
