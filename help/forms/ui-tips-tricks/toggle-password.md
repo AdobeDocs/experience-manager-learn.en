@@ -8,6 +8,7 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 9270
+exl-id: 13b9cd28-2797-4da9-a300-218e208cd21b
 ---
 # Toggle password field visibility
 
@@ -65,5 +66,3 @@ The following CSS was used to position the **eye** icon inside the password fiel
 * Import the client library using the [package manager UI](http://localhost:4502/crx/packmgr/index.jsp)
 * Import the sample form using the [Forms and Document](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * [Preview the form](http://localhost:4502/content/dam/formsanddocuments/simpleuitips/jcr:content?wcmmode=disabled)
-
-

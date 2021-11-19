@@ -9,8 +9,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 6c5373db-86ec-410b-8a3b-9d4f86e06812
 ---
-
 # iOS SwiftUI App
 
 Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This iOS application demonstrates how to query content using the GraphQL APIs of AEM. The Apollo Client iOS is used to generate the GraphQL queries and map data to Swift objects to power the app. SwiftUI is used to render a simple list and detail view of the content.
@@ -210,4 +210,3 @@ The [AsyncImage](https://developer.apple.com/documentation/swiftui/asyncimage) i
 * [Getting Started with AEM Headless - GraphQL Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/multi-step/overview.html)
 * [SwiftUI Lists and Navigation Tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
 * [Apollo iOS Client Tutorial](https://www.apollographql.com/docs/ios/tutorial/tutorial-introduction/)
-

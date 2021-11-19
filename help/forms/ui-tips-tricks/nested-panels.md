@@ -8,6 +8,7 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 9335
+exl-id: c60d019e-da26-4f67-8579-ef707e2348bb
 ---
 # Navigation tabs with multiple panels
 

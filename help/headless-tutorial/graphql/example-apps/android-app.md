@@ -9,8 +9,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+exl-id: 7873e263-b05a-4170-87a9-59e8b7c65faa
 ---
-
 # Android App
 
 Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). An Android application is provided that demonstrates how to query content using the GraphQL APIs of AEM. The [AEM Headless Client for Java](https://github.com/adobe/aem-headless-client-java) is used to execute the GraphQL queries and map data to Java objects to power the app.
@@ -137,4 +137,3 @@ GraphQlResponse response = client.runQuery(query, params);
 
 * [Getting Started with AEM Headless - GraphQL Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/multi-step/overview.html)
 * [AEM Headless Client for Java](https://github.com/adobe/aem-headless-client-java)
-

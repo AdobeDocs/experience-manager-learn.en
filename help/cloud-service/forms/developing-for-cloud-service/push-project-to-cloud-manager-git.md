@@ -8,9 +8,8 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 kt: 8851
-
+exl-id: e61cea37-b931-49c6-9e5d-899628535480
 ---
-
 # Push AEM project to cloud manager git repo
 
 In the previous step we synchronized our AEM Project with the Adaptive Forms and Themes created in the AEM instance.
@@ -41,6 +40,3 @@ git push -f bankingapp master:"MyFirstAF"
 ```
 
 In the above command we are pushing our master branch from our local git repository into the MyFirstAF branch of the cloud manager repository identified by the bankingapp friendly name.
-
-
-

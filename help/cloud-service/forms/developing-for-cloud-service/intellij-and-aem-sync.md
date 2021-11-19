@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: cloud-service
 topic: Development
 kt: 8844
-
+exl-id: 9a7ed792-ca0d-458f-b8dd-9129aba37df6
 ---
 # Installing Cygwin
 
@@ -84,22 +84,3 @@ enter the following command java -jar aem-author-p4502.jar -gui. This will start
 * Copy the aem-forms-addon-xxxxxx.far into install folder
 * Open command prompt and navigate to c:\aemformscs\aem-sdk\author
 enter the following command java -jar aem-author-p4502.jar -gui. This will deploy the forms add on package in your AEM instance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-

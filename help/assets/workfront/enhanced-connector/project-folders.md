@@ -7,8 +7,8 @@ role: Admin, User
 level: Beginner
 kt: 9127
 thumbnail: 337586.jpeg
+exl-id: 0e9d056a-4eec-450c-a941-b9563634fe8a
 ---
-
 # Workfront enhanced connector project folders
 
 Learn about Project Folders when using Adobe Workfront and Experience Manager Assets enhanced connector, including:

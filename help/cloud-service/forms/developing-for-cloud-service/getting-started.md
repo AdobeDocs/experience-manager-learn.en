@@ -8,8 +8,8 @@ level: Beginner, Intermediate
 version: cloud-service
 topic: Development
 kt: 8842
+exl-id: 274018b9-91fe-45ad-80f2-e7826fddb37e
 ---
-
 # Installing the required software
 
 This tutorial will guide you through the steps needed to create an AEM Forms project,synchronize the AEM Forms project with your local AEM instance using IntelliJ and repo tool. You will also learn how to add your project to the local git repository and push the local git repository to the cloud manager repository.
@@ -28,8 +28,3 @@ This tutorial will refer to this folder structure going forward.
 * Open your command prompt window and navigate to **c:\cloudmanager**
 * Copy and paste the content of the [text file](assets/creating-maven-project.txt) in your command prompt window. You may have to change the DarchetypeVersion=30 depending on the [latest version](https://github.com/adobe/aem-project-archetype/releases). The latest version was 30 at the time of writing this article. 
 * Execute the command by hitting enter key.If everything goes correctly you should see build success message.
-
-
- 
-
-
