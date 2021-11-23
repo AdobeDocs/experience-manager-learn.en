@@ -22,7 +22,7 @@ Learn how AEM Modernization Tools are used to upgrade an existing AEM Sites cont
 
 AEM Modernization tools automatically convert existing AEM Pages composed of legacy static templates, foundation components, and the parsys - to use modern approaches such as editable templates, AEM Core WCM Components, and Layout Containers.
 
-### Key Activities
+## Key activities
 
 + Clone AEM 6.x production to run AEM Modernization tools against
 + Download and install the [latest AEM Modernizations tools](https://github.com/adobe/aem-modernize-tools/releases/latest) on the AEM 6.x production clone via Package Manager
@@ -44,8 +44,50 @@ AEM Modernization tools automatically convert existing AEM Pages composed of leg
   + Run the Dialog Converter tool against existing ExtJS or Coral2 UI-based dialogs
   + Sync converted dialogs back into Git repository
 
-### Other Resources
+## Hands-on exercise
+
+Apply your knowledge by trying out what you learned with this hands-on exercise.
+
+Prior to trying the hands-on exercise, make sure you've watched and understand the video above, and following materials:
+
++ [Thinking differently about AEM as a Cloud Service](./introduction.md)
++ [Repository modernization](./repository-modernization.md)
++ [Mutable and immutable content](../../developing/basics/mutable-immutable.md)
++ [AEM project structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)
+
+Also, make sure you have completed the previous hands-on exercise:
+
++ [BPA and CAM hands-on exercise](./bpa-and-cam.md#hands-on-exercise)
+
+<table style="border-width:0">
+    <tr>
+        <td style="width:150px">
+            <a  rel="noreferrer"
+                target="_blank"
+                href="https://github.com/adobe/aem-cloud-engineering-video-series-exercises/tree/session2-migration#bootcamp---session-2-migration-methodology"><img alt="Hands-on exercise GitHub repository" src="./assets/github.png"/>
+            </a>        
+        </td>
+        <td style="width:100%;margin-bottom:1rem;">
+            <div style="font-size:1.25rem;font-weight:400;">Hands-on with AEM modernization</div>
+            <p style="margin:1rem 0">
+                Explore using AEM Modernization Tools to update a legacy WKND site to conform with AEM as a Cloud Service best practices.
+            </p>
+            <a  rel="noreferrer"
+                target="_blank"
+                href="https://github.com/adobe/aem-cloud-engineering-video-series-exercises/tree/session2-migration#bootcamp---session-2-migration-methodology" class="spectrum-Button spectrum-Button--primary spectrum-Button--sizeM">
+                <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Try out the AEM Modernization Tools</span>
+            </a>
+        </td>
+    </tr>
+</table>
+
+## Other resources
 
 + [Download AEM Modernizations tools](https://github.com/adobe/aem-modernize-tools/releases/latest)
 + [AEM Modernization Tools documentation](https://opensource.adobe.com/aem-modernize-tools/)
 + [AEM Gems - Introducing the AEM Modernization Suite](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/Introducing-the-AEM-Modernization-Suite.html)
+
+
+
+1. Deploy the newly modernized wknd-legacy site on the local Cloud Service SDK. Available to download here: 
++ [Software Distribution Portal](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.htm). 
