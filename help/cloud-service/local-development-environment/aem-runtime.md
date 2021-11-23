@@ -152,22 +152,16 @@ Changing environments, `dev`, `stage` and `prod`, can be useful for developers t
 
 The available permutations are as follows:
 
-+ `aem-author-p4502.jar`
-  + As Author in Dev run mode on port 4502
-+ `aem-author_dev-p4502.jar`
-  + As Author in Dev run mode on port 4502 (same as `aem-author-p4502.jar`)
-+ `aem-author_stage-p4502.jar`
-  + As Author in Staging run mode on port 4502
-+ `aem-author_prod-p4502.jar`
-  + As Author in Production run mode on port 4502
-+ `aem-publish-p4503.jar`
-  + As Author in Dev run mode on port 4503
-+ `aem-publish_dev-p4503.jar`
-  + As Author in Dev run mode on port 4503 (same as `aem-publish-p4503.jar`)
-+ `aem-publish_stage-p4503.jar`
-  + As Author in Staging run mode on port 4503
-+ `aem-publish_prod-p4503.jar`
-  + As Author in Production run mode on port 4503
+| Quickstart Jar filename      | Mode description                                                            |
+|------------------------------|-----------------------------------------------------------------------------|
+| `aem-author-p4502.jar`       | As Author in Dev run mode on port 4502                                      |
+| `aem-author_dev-p4502.jar`   | As Author in Dev run mode on port 4502 (same as `aem-author-p4502.jar`)     |
+| `aem-author_stage-p4502.jar` | As Author in Staging run mode on port 4502                                  |
+| `aem-author_prod-p4502.jar`  | As Author in Production run mode on port 4502                               |
+| `aem-publish-p4503.jar`      | As Publish in Dev run mode on port 4503                                     |
+| `aem-publish_dev-p4503.jar`  | As Publish in Dev run mode on port 4503 (same as `aem-publish-p4503.jar`)   |
+| `aem-publish_stage-p4503.jar`| As Publish in Staging run mode on port 4503                                 |
+| `aem-publish_prod-p4503.jar` | As Publish in Production run mode on port 4503                              |
 
 Note that the port number can be any available port on the local development machine, however by convention:
 
@@ -204,7 +198,7 @@ Remember, using the above approaches to maintain code between AEM SDK upgrades, 
 
 ## Troubleshooting
 
-## Double-clicking the Quickstart Jar file results in an error{#troubleshooting-double-click}
+### Double-clicking the Quickstart Jar file results in an error{#troubleshooting-double-click}
 
 When double-clicking the Quickstart Jar to start, an error modal is displayed preventing AEM from starting locally.
 
@@ -220,7 +214,7 @@ or, to start AEM Publish service, `cd` into the directory containing the Quickst
 
 `$ java -jar aem-publish-p4503.jar`
 
-## Starting the Quickstart Jar from the command line immediately aborts{#troubleshooting-java-8}
+### Starting the Quickstart Jar from the command line immediately aborts{#troubleshooting-java-8}
 
 When starting the Quickstart Jar from the command line, the process immediately aborts and the AEM service does not start, with the following error:
 
