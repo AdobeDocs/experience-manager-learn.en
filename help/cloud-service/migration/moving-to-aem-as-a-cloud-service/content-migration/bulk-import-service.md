@@ -21,13 +21,13 @@ Learn how AEM as a Cloud Services' Bulk Import Service can be used to import ass
 
 The Bulk Import Service is used to transfer files stored in Azure Blob Storage or Amazon S3 storage into AEM as a Cloud Service as assets.
 
-### Key Activities
+## Key Activities
 
 + Upload the files-to-import to your cloud storage provider (Azure Blob Storage or Amazon S3).
 + Configure and run the Bulk Import Service from AEM as a Cloud Service Author service.
 + Run the Bulk Service Importer as a one-time import or schedule a periodic import.
 
-### Other Resources
+## Other Resources
 
 + [Adobe Developers Live session on Asset Ingestion](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/feb2021/asset-bulk-ingestion.html?lang=en)
     
