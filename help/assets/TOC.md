@@ -76,6 +76,7 @@ team: TM
   + [Adobe Stock](./creative-workflows/adobe-stock.md)
 
 + Adobe Asset Link{#adobe-asset-link}
+  + [Setup](./adobe-asset-link/setup.md)
   + [Access Adobe Asset Link](./adobe-asset-link/launch-adobe-asset-link.md)
   + [Panel Overview](./adobe-asset-link/panel-overview.md)
   + [Files and Collections](./adobe-asset-link/files-and-collections.md)
