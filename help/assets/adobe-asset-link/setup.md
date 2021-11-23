@@ -7,8 +7,9 @@ version: Cloud Service
 topic: Content Management
 role: Admin, User
 level: Beginner
-kt : 9401
+kt: 9401
 thumbnail: 338824.jpg
+exl-id: a62e936f-c231-474d-9671-58815b2cb652
 ---
 # Adobe Asset Link setup
 
