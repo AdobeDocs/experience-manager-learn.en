@@ -1,5 +1,5 @@
 ---
-title: Display Document of Record inline 
+title: Display Document of Record inline
 description: Merge adaptive form data with XDP template and display the PDF inline using document cloud embed pdf API.
 version: 6.4,6.5
 feature: Forms Service
@@ -7,9 +7,8 @@ topic: Development
 role: Developer
 level: Experienced
 kt: 9411
-
+exl-id: 327ffe26-e88e-49f0-9f5a-63e2a92e1c8a
 ---
-
 # Display DoR inline
 
 A common use case is to display a pdf document with the data entered by the form filler.
