@@ -19,7 +19,7 @@ In this chapter you will create a new model for a **Contributor**, which is the 
 
 ## Prerequisites {#prerequisites}
 
-This is a multi-part tutorial and it is assumed that the steps outlined in the [Quick Setup](./setup.md) have been completed.
+This is a multi-part tutorial and it is assumed that the steps outlined in the [Quick Setup](../quick-setup/local-sdk.md) have been completed.
 
 ## Objectives {#objectives}
 

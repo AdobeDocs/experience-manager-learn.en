@@ -36,9 +36,9 @@ In this chapter, we'll learn how to:
 
 ## Start the React app
 
-As this chapter focuses on developing a client to consume Content Fragments over GraphQL, the sample [WKND GraphQL React app source code must be downloaded and setup](./setup.md#react-app) on your local machine, and the [AEM SDK is running as the Author service](./setup.md#aem-sdk) with the [sample WKND Site installed](./setup.md#wknd-site).
+As this chapter focuses on developing a client to consume Content Fragments over GraphQL, the sample [WKND GraphQL React app source code must be downloaded and setup](../quick-setup/local-sdk.md) on your local machine.
 
-Starting the React app is outlined in more detail in the [Quick Setup](./setup.md) chapter, however the abridged instructions can be followed:
+Starting the React app is outlined in more detail in the [Quick Setup](../quick-setup/local-sdk.md) chapter, however the abridged instructions can be followed:
 
 1. If you haven't already, clone the sample WKND GraphQL React app from [Github.com](https://github.com/adobe/aem-guides-wknd-graphql)
 

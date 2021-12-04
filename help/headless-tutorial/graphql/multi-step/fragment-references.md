@@ -62,7 +62,7 @@ Now that the Adventure Content Fragment model has been updated, we can edit an e
 
 1. Navigate to **Assets** > **Files** > **WKND Site** > **English** > **Adventures** > **[Bali Surf Camp](http://localhost:4502/assets.html/content/dam/wknd/en/adventures/bali-surf-camp)**.
 
-    ![Bali Surf Camp folder](assets/setup/bali-surf-camp-folder.png)
+    ![Bali Surf Camp folder](../quick-setup/assets/setup/bali-surf-camp-folder.png)
 
 1. Click into the **Bali Surf Camp** content fragment to open the Content Fragment Editor.
 1. Update the **Adventure Contributor** field and select a Contributor by clicking the folder icon.
