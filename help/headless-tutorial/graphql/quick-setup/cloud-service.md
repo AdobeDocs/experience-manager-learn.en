@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 kt: 9442
 thumbnail: 339073.jpg
+exl-id: 62e807b7-b1a4-4344-9b1e-2c626b869e10
 ---
-
 # AEM Headless quick setup for AEM as a Cloud Service
 
 The AEM Headless quick setup gets you hands-on with AEM Headless using content from the WKND Site sample project, and a sample React App (a SPA) that consumes the content over AEM Headless GraphQL APIs.
