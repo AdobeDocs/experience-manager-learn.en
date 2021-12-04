@@ -188,4 +188,6 @@ Congratulations! You've successfully used AEM Headless to power a React App!
 
 To understand in detail how the React App consumes content from AEM as a Cloud Service, check out [the AEM Headless tutorial](../multi-step/overview.md). The tutorial explores how Content Fragments in AEM as created, and how this React App consumes their content as JSON.
 
+### Next Steps
+
 + [Start the AEM Headless tutorial](../multi-step/overview.md)

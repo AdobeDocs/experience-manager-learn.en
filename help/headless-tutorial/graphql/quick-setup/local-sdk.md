@@ -1,5 +1,5 @@
 ---
-title: Quick Setup - Getting Started with AEM Headless - GraphQL
+title: AEM Headless quick setup using the local SDK
 description: Get started with Adobe Experience Manager (AEM) and GraphQL. Install the AEM SDK, add sample content and deploy an application that consumes content from AEM using its GraphQL APIs. See how AEM powers omni-channel experiences.
 version: Cloud Service
 mini-toc-levels: 1
@@ -11,9 +11,9 @@ role: Developer
 level: Beginner
 exl-id: d2da6efa-1f77-4391-adda-e3180c42addc
 ---
-# Quick Setup {#setup}
+# AEM Headless quick setup using the local SDK {#setup}
 
-This chapter offers a quick setup of a local environment to see an external application consume content from AEM using AEM's GraphQL APIs. Later chapters in the tutorial will build off of this setup.
+The AEM Headless quick setup gets you hands-on with AEM Headless using content from the WKND Site sample project, and a sample React App (a SPA) that consumes the content over AEM Headless GraphQL APIs. This guide uses the [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=en#aem-as-a-cloud-service-sdk).
 
 ## Prerequisites {#prerequisites}
 
@@ -24,19 +24,13 @@ The following tools should be installed locally:
 * [npm 6+](https://www.npmjs.com/)
 * [Git](https://git-scm.com/)
 
-## Objectives {#objectives}
+## 1. Install the AEM SDK {#aem-sdk}
 
-1. Download and install the AEM SDK.
-1. Download and install sample content from the WKND Reference site.
-1. Download and install a sample app to consume content using the GraphQL APIs.
-
-## Install the AEM SDK {#aem-sdk}
-
-This tutorial uses the [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=en#aem-as-a-cloud-service-sdk) to explore AEM's GraphQL APIs. This section provides a quick guide to installing the AEM SDK and running it in Author mode. A more detailed guide for setting up a local development environment [can be found here](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=en#local-development-environment-set-up). 
+This setup uses the [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=en#aem-as-a-cloud-service-sdk) to explore AEM's GraphQL APIs. This section provides a quick guide to installing the AEM SDK and running it in Author mode. A more detailed guide for setting up a local development environment [can be found here](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=en#local-development-environment-set-up). 
 
 >[!NOTE]
 >
-> It is also possible to follow the tutorial with an AEM as a Cloud Service environment. Additional notes for using a Cloud environment are included throughout the tutorial.
+> It is also possible to follow the tutorial with an [AEM as a Cloud Service environment](./cloud-service.md). Additional notes for using a Cloud environment are included throughout the tutorial.
 
 1. Navigate to the **[Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)** > **AEM as a Cloud Service** and download the latest version of the **AEM SDK**.
 
@@ -62,7 +56,7 @@ This tutorial uses the [AEM as a Cloud Service SDK](https://experienceleague.ado
 1. After a few minutes the AEM instance will finish installing and a new browser window should open at [http://localhost:4502](http://localhost:4502). 
 1. Login with the username `admin` and the password selected during AEM's initial start-up (usually `admin`).
 
-## Install sample content and GraphQL endpoints {#wknd-site-content-endpoints}
+## 2. Install sample WKND content {#wknd-site-content}
 
 Sample content from the **WKND Reference site** will be installed to accelerate the tutorial. The WKND is a fictitious life-style brand, often used in conjunction with AEM training.
 
@@ -105,7 +99,7 @@ The WKND Reference site includes configurations needed to expose a [GraphQL endp
 >
 > If using a Cloud Service environment see the documentation for how to [deploy a code base like the WKND Reference site to a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version).
 
-## Install the sample app{#sample-app}
+## 3. Download and run WKND React app {#sample-app}
 
 One of the goals of this tutorial is to show how to consume AEM content from an external application using the GraphQL APIs. This tutorial uses an example React App that has been partially completed to accelerate the tutorial. The same lessons and concepts apply to apps built with iOS, Android or any other platform. The React app is intentionally simple, to avoid unnecessary complexity; it is not meant to be a reference implementation.
 
@@ -128,7 +122,7 @@ One of the goals of this tutorial is to show how to consume AEM content from an 
 
     >[!NOTE]
     >
-    > In a production scenario the App will connect to an AEM **Publish** environment. This is covered in more detail in the [Production deployment](production-deployment.md) chapter.
+    > In a production scenario the App will connect to an AEM **Publish** environment. This is covered in more detail in the [Production deployment](../multi-step/production-deployment.md) chapter.
 
 1. Navigate into the `aem-guides-wknd-graphql/react-app` folder. Install and start the app:
 
@@ -154,7 +148,7 @@ One of the goals of this tutorial is to show how to consume AEM content from an 
 
 1. You can also view the parameters and JSON response by inspecting the network request. It may be helpful to install a browser extension like [GraphQL Network Inspector](https://chrome.google.com/webstore/detail/graphql-network-inspector/ndlbedplllcgconngcnfmkadhokfaaln) for Chrome to get a better understanding of the query and response.
 
-## Modify a Content Fragment
+## 4. Edit content in AEM
 
 Now that the React app is running, make an update to the content in AEM and see the change reflected in the app.
 
@@ -173,7 +167,7 @@ Now that the React app is running, make an update to the content in AEM and see 
 
     ![Updated Bali Surf Camp Adventure](assets/setup/overnight-bali-surf-camp-changes.png)
 
-## Install the GraphiQL Tool {#install-graphiql}
+## 5. Install the GraphiQL Tool {#install-graphiql}
 
 [GraphiQL](https://github.com/graphql/graphiql) is a development tool and needed only on lower-level environments like a development or local instance. The GraphiQL IDE allows you to quickly test and refine the queries and data returned. GraphiQL also provides easy access to the documentation, making it easy to learn and understand what methods are available.
 
@@ -181,27 +175,27 @@ Now that the React app is running, make an update to the content in AEM and see 
 1. Search for "GraphiQL" (be sure to include the **i** in **GraphiQL**.
 1. Download the latest **GraphiQL Content Package v.x.x.x**
 
-    ![Download GraphiQL Package](assets/explore-graphql-api/software-distribution.png)
+    ![Download GraphiQL Package](../multi-step/assets/explore-graphql-api/software-distribution.png)
 
     The zip file is an AEM package that can be installed directly.
 
 1. From the **AEM Start** menu navigate to **Tools** > **Deployment** > **Packages**.
 1. Click **Upload Package** and choose the package downloaded in the prior step. Click **Install** to install the package.
 
-    ![Install GraphiQL Package](assets/explore-graphql-api/install-graphiql-package.png)
+    ![Install GraphiQL Package](../multi-step/assets/explore-graphql-api/install-graphiql-package.png)
 1. Navigate to the GraphiQL IDE at [http://localhost:4502/content/graphiql.html](http://localhost:4502/content/graphiql.html) and begin exploring the GraphQL APIs.
 
     >[!NOTE]
     >
-    > The GraphiQL tool and GraphQL API is [explored in more detail later in the tutorial](./explore-graphql-api.md).
+    > The GraphiQL tool and GraphQL API is [explored in more detail later in the tutorial](../multi-step/explore-graphql-api.md).
 
 ## Congratulations! {#congratulations}
 
 Congratulations, you now have an external application consuming AEM content with GraphQL. Feel free to inspect the code in the React app and continue to experiment with modifying existing Content Fragments.
 
-## Next Steps {#next-steps}
+### Next Steps
 
-In the next chapter, [Defining Content Fragment Models](content-fragment-models.md), learn how to model content and build a schema with **Content Fragment Models**. You will review existing models and create a new model. You will also learn about the different data types that can be used to define a schema as part of the model.
+* [Start the AEM Headless tutorial](../multi-step/overview.md)
 
 ## (Bonus) CORS Configuration {#cors-config}
 

@@ -27,7 +27,8 @@ This tutorial will cover the following topics:
 
 ## Let's get started!
 
-Start the AEM GraphQL tutorial by jumping into the [Quick Setup](./setup.md) chapter!
+1. Set up a development environment using [AEM as a Cloud Service](../quick-setup/cloud-service.md) or using [the local SDK](../quick-setup/local-sdk.md).
+2. Start the tutorial with [Defining Content Fragment Models](content-fragment-models.md).
 
 ## GitHub Project
 
