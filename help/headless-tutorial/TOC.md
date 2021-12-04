@@ -13,6 +13,8 @@ index: y
 + [AEM Headless Overview](./overview.md)
 + GraphQL {#graphql}
   + [Overview](./graphql/overview.md)
+  + [Quick setup](./graphql/quick-setup/cloud-service.md)
+  + [Quick setup local SDK](./graphql/quick-setup/local-sdk.md)
   + Video Series{#video-series}
     + [1 - Modeling Basics](./graphql/video-series/modeling-basics.md)
     + [2 - Advanced Modeling](./graphql/video-series/advanced-modeling.md)
@@ -23,13 +25,12 @@ index: y
     + [7 - GraphQL Persisted Queries](./graphql/video-series/graphql-persisted-queries.md)
   + Multi-step Tutorial{#multi-step}
     + [Overview](./graphql/multi-step/overview.md)
-    + [1 - Quick Setup](./graphql/multi-step/setup.md)
-    + [2 - Defining Content Fragment Models](./graphql/multi-step/content-fragment-models.md)
-    + [3 - Authoring Content Fragments](./graphql/multi-step/author-content-fragments.md)
-    + [4 - Explore GraphQL APIs](./graphql/multi-step/explore-graphql-api.md)
-    + [5 - Query from an external app](./graphql/multi-step/graphql-and-external-app.md)
-    + [6 - Advanced data modeling with Fragment References](./graphql/multi-step/fragment-references.md)
-    + [7 - Production deployment](./graphql/multi-step/production-deployment.md)
+    + [1 - Defining Content Fragment Models](./graphql/multi-step/content-fragment-models.md)
+    + [2 - Authoring Content Fragments](./graphql/multi-step/author-content-fragments.md)
+    + [3 - Explore GraphQL APIs](./graphql/multi-step/explore-graphql-api.md)
+    + [4 - Query from an external app](./graphql/multi-step/graphql-and-external-app.md)
+    + [5 - Advanced data modeling with Fragment References](./graphql/multi-step/fragment-references.md)
+    + [6 - Production deployment](./graphql/multi-step/production-deployment.md)
   + Examples {#example-apps}
     + [React](./graphql/example-apps/react-app.md)
     + [iOS SwiftUI](./graphql/example-apps/ios-swiftui-app.md)
