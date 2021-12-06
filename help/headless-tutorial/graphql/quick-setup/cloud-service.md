@@ -20,13 +20,13 @@ The following are required to follow this quick setup:
 
 + AEM as a Cloud Service Sandbox environment (preferably Development)
 + Access to AEM as a Cloud Service and Cloud Manager
-  + `AEM Administrator` access to AEM as a Cloud Service
-  + `Cloud Manager - Deployment Manager` access to Cloud Manager
+  + __AEM Administrator__ access to AEM as a Cloud Service
+  + __Cloud Manager - Deployment Manager__ access to Cloud Manager
 + The following tools must be installed locally:
   + [Node.js v10+](https://nodejs.org/en/)
   + [npm 6+](https://www.npmjs.com/)
   + [Git](https://git-scm.com/)
-  + An IDE (for example, [Microsoft® Visual Studio Code](https://code.visualstudio.com/)
+  + An IDE (for example, [Microsoft® Visual Studio Code](https://code.visualstudio.com/))
 
 ## 1. Create a Cloud Manager Git repository
 
@@ -68,15 +68,13 @@ _Screencast of steps_
         $ git remote add adobe https://git.cloudmanager.adobe.com/<YOUR ADOBE ORGANIZATION>/aem-headless-quick-setup/
         ```
 
-1. Push the sample project's source code to the Cloud Manager Git repository
+1. Push the sample project's source code from your local Git repository to the Cloud Manager Git repository
 
-    1. Push the code from your local Git repository to the Cloud Manager Git repository    
+      ```shell
+      $ git push adobe master:main
+      ```
 
-        ```shell
-        $ git push adobe master:main
-        ```
-
-        When prompted for credentials, provide the __Username__ and __Password__ from Cloud Manager's __Repository Info__ modal. 
+      When prompted for credentials, provide the __Username__ and __Password__ from Cloud Manager's __Repository Info__ modal. 
 
 ## 3. Deploy the WKND Site to AEM as a Cloud Service
 
