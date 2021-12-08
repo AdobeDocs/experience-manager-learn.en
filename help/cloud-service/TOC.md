@@ -83,6 +83,16 @@ team: TM
   + [Adobe IMS product profiles](./accessing/adobe-ims-product-profiles.md)
   + [AEM users, groups, and permissions](./accessing/aem-users-groups-and-permissions.md)
   + [Configuring access to AEM walk-through](./accessing/walk-through.md)
++ Advanced Networking{#networking}
+  + [Overview](./networking/advanced-networking.md)
+  + [Flexible port egress](./networking/flexible-port-egress.md)
+  + [Dedicated egress IP address](./networking/dedicated-egress-ip-address.md)
+  + [Virtual Private Network](./networking/vpn.md)
+  + Code examples{#examples}
+    + [HTTP/HTTPS on non-standard ports](./networking/examples/http-on-non-standard-ports.md)
+    + [SQL connections using DataSourcePool](./networking/examples/sql-datasourcepool.md)
+    + [SQL connections using Java SQL APIs](./networking/examples/sql-java-apis.md)
+    + [E-mail service](./networking/examples/email-service.md)
 + Migration {#migration}
   + [Content Transfer Tool](./migration/content-transfer-tool.md)
   + [Bulk Import of assets](./migration/bulk-import.md)
