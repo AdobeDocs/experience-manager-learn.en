@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 9356
 thumbnail: KT-9356.jpeg
+exl-id: ec9d37cb-70b6-4414-a92b-3b84b3f458ab
 ---
-
 # SQL connections using Java™ APIs
 
 Connections to SQL databases (and other non-HTTP/HTTPS services) must be proxied out of AEM.

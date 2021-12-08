@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 9351
 thumbnail: KT-9351.jpeg
+exl-id: 311cd70f-60d5-4c1d-9dc0-4dcd51cad9c7
 ---
-
 # Dedicated egress IP address
 
  Learn how to set up and use dedicated egress IP address, which allows outbound connections from AEM to originate from a dedicated IP.

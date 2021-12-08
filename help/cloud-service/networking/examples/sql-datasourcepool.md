@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 9355
 thumbnail: KT-9355.jpeg
+exl-id: c1a26dcb-b2ae-4015-b865-2ce32f4fa869
 ---
-
 # SQL connections using JDBC DataSourcePool
 
 Connections to SQL databases (and other non-HTTP/HTTPS services) must be proxied out of AEM, including those made using AEM's DataSourcePool OSGi service to manage the connections.

@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 9352
 thumbnail: KT-9352.jpeg
+exl-id: 74cca740-bf5e-4cbd-9660-b0579301a3b4
 ---
-
 # Virtual Private Network (VPN)
 
 Learn how to connect AEM as a Cloud Service with your VPN to create secure communication channels between AEM and internal services.

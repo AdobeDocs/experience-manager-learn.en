@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 9354
 thumbnail: KT-9354.jpeg
+exl-id: a565bc3a-675f-4d5e-b83b-c14ad70a800b
 ---
-
 # HTTP/HTTPS connections on non-standard ports
 
 HTTP/HTTPS connections on non-standard ports (not 80/443) must be proxied out of AEM as a Cloud Service, however they do not need any special `portForwards` rules, and can use AEM's advanced networking's `AEM_HTTP_PROXY_HOST`, `AEM_HTTP_PROXY_PORT`, `AEM_HTTPS_PROXY_HOST`, and `AEM_HTTPS_PROXY_PORT`.
