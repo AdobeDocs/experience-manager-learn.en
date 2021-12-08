@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 9350
 thumbnail: KT-9350.jpeg
+exl-id: 5c1ff98f-d1f6-42ac-a5d5-676a54ef683c
 ---
-
 # Flexible port egress
 
 Learn how to set up and use flexible port egress to support external connections from AEM as a Cloud Service to external services.
