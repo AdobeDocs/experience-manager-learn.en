@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 9354
 thumbnail: KT-9354.jpeg
+exl-id: d1c1a3cf-989a-4693-9e0f-c1b545643e41
 ---
-
 # Advanced networking
 
 AEM as a Cloud Service provides three options for managing connectivity with external services. A Cloud Manager program, and its AEM as a Cloud Service environments, can only use a single type of advanced networking configuration at a time, so ensure that the most appropriate type is selected.
