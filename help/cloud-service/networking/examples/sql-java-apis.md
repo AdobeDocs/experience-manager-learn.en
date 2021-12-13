@@ -80,11 +80,10 @@ public class MySqlExternalServiceImpl implements ExternalService {
     private static final Logger log = LoggerFactory.getLogger(MySqlExternalServiceImpl.class);
 
     // Get the proxy host using the AEM_PROXY_HOST Java environment variable provided by AEM as a Cloud Service
-    private static final String PROXY_HOST = System.getenv("AEM_PROXY_HOST") != null ?
-            System.getenv("AEM_PROXY_HOST") : "localhost";
+    private static final String PROXY_HOST = System.getenv().getOrDefault("AEM_PROXY_HOST", "proxy.tunnel");
 
     // Use the port mapped to the external MySQL service in the Cloud Manager API call
-    private static final int PORT_FORWARDS_PORT_ORIG = System.getenv("AEM_PROXY_HOST") != null ? 30001 : 3306;
+    private static final int PORT_FORWARDS_PORT_ORIG = 30001;
 
     private Config config;
 

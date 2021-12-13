@@ -16,7 +16,7 @@ Send emails from AEM as a Cloud Service by configuring AEM's `DefaultMailService
 
 Because (most) mail services do not run over HTTP/HTTPS, connections to mail services from AEM as a Cloud Service must be proxied out.
 
-+ `smtp.host` is set to the OSGi environment variable `$[env:AEM_PROXY_HOST]` so it is routed through the egress.
++ `smtp.host` is set to the OSGi environment variable `$[env:AEM_PROXY_HOST;default=proxy.tunnel]` so it is routed through the egress.
 + `smtp.port` is set to the `portForward.portOrig` port that maps to the destination email service's host and port. This example uses the mapping: `AEM_PROXY_HOST:30002` &rarr; `smtp.sendgrid.com:465`.
 
 Since secrets must not be stored in code, the email service's username and password are best provided using [secret OSGi configuration variables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#secret-configuration-values), set using AIO CLI, or the Cloud Manager API.
@@ -49,7 +49,7 @@ This OSGi configuration example configures AEM's Mail OSGi Service to use an ext
 
 ```json
 {
-    "smtp.host": "$[env:AEM_PROXY_HOST]",
+    "smtp.host": "$[env:AEM_PROXY_HOST;default=proxy.tunnel]",
     "smtp.port": "30002",
     "smtp.user": "$[env:EMAIL_USERNAME;default=apikey]",
     "smtp.password": "$[secret:EMAIL_PASSWORD]",
