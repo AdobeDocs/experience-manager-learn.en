@@ -26,7 +26,7 @@ The following code example is supported by the following advanced networking opt
 
 The OSGi configuration's connection string uses:
 
-+ `AEM_PROXY_HOST` value via the [OSGi configuration environment variable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#environment-specific-configuration-values) `$[env:AEM_PROXY_HOST]` as the connection's host
++ `AEM_PROXY_HOST` value via the [OSGi configuration environment variable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#environment-specific-configuration-values) `$[env:AEM_PROXY_HOST;default=proxy.tunnel]` as the connection's host
 + `30001` which is the `portOrig` value for the Cloud Manager port forward mapping `30001` &rarr; `mysql.example.com:3306`
 
 Since secrets must not be stored in code, the SQL connection's username and password are best provided via OSGi configuration variables, set using AIO CLI, or Cloud Manager APIs.
@@ -37,7 +37,7 @@ Since secrets must not be stored in code, the SQL connection's username and pass
 {
   "datasource.name": "wknd-examples-mysql",
   "jdbc.driver.class": "com.mysql.jdbc.Driver",
-  "jdbc.connection.uri": "jdbc:mysql://$[env:AEM_PROXY_HOST]:30001/wknd-examples",
+  "jdbc.connection.uri": "jdbc:mysql://$[env:AEM_PROXY_HOST;default=proxy.tunnel]:30001/wknd-examples",
   "jdbc.username": "$[env:MYSQL_USERNAME;default=mysql-user]",
   "jdbc.password": "$[secret:MYSQL_PASSWORD]"
 }
