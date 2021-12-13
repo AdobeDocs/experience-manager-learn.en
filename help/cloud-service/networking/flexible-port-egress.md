@@ -164,10 +164,9 @@ AEM provides two sets of special Java™ system variables that map to AEM's HTTP
 
 | Variable name | Use | Java™ code | OSGi configuration | 
 | - |  - | - | - |
-| `AEM_HTTP_PROXY_HOST` | Proxy host for HTTP connections | `System.getenv("AEM_HTTP_PROXY_HOST")` | `$[env:AEM_HTTP_PROXY_HOST]` |
-| `AEM_HTTP_PROXY_PORT` | Proxy port for HTTP connections | `System.getenv("AEM_HTTP_PROXY_PORT")` | `$[env:AEM_HTTP_PROXY_PORT]` |
-| `AEM_HTTPS_PROXY_HOST` | Proxy host for HTTPS connections | `System.getenv("AEM_HTTPS_PROXY_HOST")` | `$[env:AEM_HTTPS_PROXY_HOST]` |
-| `AEM_HTTPS_PROXY_PORT` | Proxy port for HTTPS connections | `System.getenv("AEM_HTTPS_PROXY_PORT")` | `$[env:AEM_HTTPS_PROXY_PORT]` |
+| `AEM_PROXY_HOST` | Proxy host for both HTTP/HTTPS connections | `System.getenv().getOrDefault("AEM_PROXY_HOST", "proxy.tunnel")` | `$[env:AEM_PROXY_HOST;default=proxy.tunnel]` |
+| `AEM_HTTP_PROXY_PORT` | Proxy port for HTTPS connections (set fallback to `3128`) | `System.getenv().getOrDefault("AEM_HTTP_PROXY_PORT", 3128)` | `$[env:AEM_HTTP_PROXY_PORT;default=3128]` |
+| `AEM_HTTPS_PROXY_PORT` | Proxy port for HTTPS connections (set fallback to `3128`) | `System.getenv().getOrDefault("AEM_HTTPS_PROXY_PORT", 3128)` | `$[env:AEM_HTTPS_PROXY_PORT;default=3128]` |
 
 When making HTTP/HTTPS calls to external services on non-standard ports, no corresponding `portForwards` must be defined using the Cloud Manager API `enableEnvironmentAdvancedNetworkingConfiguration` operation, as the port forwarding "rules" are defined "in code".
 
@@ -181,7 +180,7 @@ When making HTTP/HTTPS calls to external services on non-standard ports, no corr
 <tr>
 <td>
     <a  href="./examples/http-on-non-standard-ports.md"><img alt="HTTP/HTTPS on non-standard ports" src="./assets/code-examples__http.png"/></a>
-    <div><strong><a href="./examples/http-on-non-standard-ports.md">HTTP/HTTPS on non-standard ports</a></strong></div>
+    <div><strong><a href="./examples/http-on-non-standard-ports-flexible-port-egress.md">HTTP/HTTPS on non-standard ports</a></strong></div>
     <p>
         Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service on non-standard HTTP/HTTPS ports.
     </p>
@@ -197,7 +196,7 @@ When creating non-HTTP/HTTPS connections (ex. SQL, SMTP, and so on) from AEM, th
 
 | Variable name | Use | Java™ code | OSGi configuration | 
 | - |  - | - | - |
-| `AEM_PROXY_HOST` | Proxy host for non-HTTP/HTTPS connections | `System.getenv("AEM_PROXY_HOST")` | `$[env:AEM_PROXY_HOST]` |
+| `AEM_PROXY_HOST` | Proxy host for non-HTTP/HTTPS connections | `System.getenv().getOrDefault("AEM_PROXY_HOST", "proxy.tunnel")` | `$[env:AEM_PROXY_HOST;default=proxy.tunnel]` |
 
 
 Connections to external services are then called through the `AEM_PROXY_HOST` and the mapped port (`portForwards.portOrig`), which AEM then routes to the mapped external hostname (`portForwards.name`) and port (`portForwards.portDest`).
@@ -210,7 +209,7 @@ Connections to external services are then called through the `AEM_PROXY_HOST` an
 
 <table><tr>
    <td>
-      <a  href="./examples/sql-datasourcepool.md"><img alt="SQL connection using JDBC DataSourcePool" src="./assets//code-examples__sql-osgi.png"/></a>
+      <a  href="./examples/sql-datasourcepool.md"><img alt="SQL connection using JDBC DataSourcePool" src="./assets/code-examples__sql-osgi.png"/></a>
       <div><strong><a href="./examples/sql-datasourcepool.md">SQL connection using JDBC DataSourcePool</a></strong></div>
       <p>
             Java™ code example connecting to external SQL databases by configuring AEM's JDBC datasource pool.
