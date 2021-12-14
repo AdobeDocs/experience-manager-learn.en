@@ -8,6 +8,7 @@ role: Architect, Developer
 level: Intermediate
 kt: 9354
 thumbnail: KT-9354.jpeg
+exl-id: c8cc0385-9e94-4120-9fb1-aeccbfcc8aa4
 ---
 # HTTP/HTTPS connections on non-standard ports for flexible port egress
 
