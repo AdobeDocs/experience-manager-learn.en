@@ -14,10 +14,6 @@ exl-id: 17ca57d1-2b9a-409c-b083-398d38cd6a19
 ---
 # Introduction to authoring and publishing {#author-content-publish}
 
->[!CAUTION]
->
-> The Quick Site Creation tool is currently a tech preview. It is made available for testing and evaluation purposes and is not intended for production use unless agreed with Adobe Support.
-
 It is important to understand how a user will update content for the website. In this chapter we will adopt the persona of a **Content Author** and make some editorial updates to the site generated in the previous chapter. At the end of the chapter, we will publish the changes to understand how the live site gets updated.
 
 ## Prerequisites {#prerequisites}

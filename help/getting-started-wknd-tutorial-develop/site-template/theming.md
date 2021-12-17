@@ -14,10 +14,6 @@ exl-id: 98946462-1536-45f9-94e2-9bc5d41902d4
 ---
 # Theming workflow {#theming}
 
->[!CAUTION]
->
-> The Quick Site Creation tool is currently a tech preview. It is made available for testing and evaluation purposes and is not intended for production use unless agreed with Adobe Support.
-
 In this chapter we will update the theme sources of an Adobe Experience Manager Site to apply brand specific styles. We will learn how to use a proxy server to view a preview of CSS and Javascript updates as we code against the live site. This tutorial will also cover how to deploy theme updates to an AEM Site using Adobe Cloud Manager's Front End Pipeline.
 
 In the end our site will be updated to include styles to match the WKND brand.

@@ -14,10 +14,6 @@ exl-id: 261ec68f-36f4-474f-a6e4-7a2f9cea691b
 ---
 # Page templates {#page-templates}
 
->[!CAUTION]
->
-> The Quick Site Creation tool is currently a tech preview. It is made available for testing and evaluation purposes and is not intended for production use unless agreed with Adobe Support.
-
 In this chapter we will explore the relationship between a Page Template and a Page. We will build out an un-styled Magazine Article template based on some mockups from [AdobeXD](https://www.adobe.com/products/xd.html). In the process of building out the template, Core Components and advanced policy configurations are covered.
 
 ## Prerequisites {#prerequisites}

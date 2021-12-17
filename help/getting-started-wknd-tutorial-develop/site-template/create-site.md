@@ -14,10 +14,6 @@ exl-id: 6d0fdc4d-d85f-4966-8f7d-d53506a7dd08
 ---
 # Create a site {#create-site}
 
->[!CAUTION]
->
-> The Quick Site Creation tool is currently a tech preview. It is made available for testing and evaluation purposes and is not intended for production use unless agreed with Adobe Support.
-
 As part of Quick Site Creation use the Site Creation Wizard in Adobe Experience Manager, AEM, to generate a new website. The Standard Site Template provided by Adobe, is used as a starting point for the new site.
 
 ## Prerequisites {#prerequisites}
