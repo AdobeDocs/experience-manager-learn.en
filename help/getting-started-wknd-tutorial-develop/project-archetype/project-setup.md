@@ -20,7 +20,7 @@ This tutorial covers the creation of a Maven Multi Module Project to manage the 
 
 ## Prerequisites {#prerequisites}
 
-Review the required tooling and instructions for setting up a [local development environment](../overview.md#local-dev-environment). Ensure that you have a fresh instance of Adobe Experience Manager available locally and that no additional sample/demo packages have been installed (other than required Service Packs).
+Review the required tooling and instructions for setting up a [local development environment](./overview.md#local-dev-environment). Ensure that you have a fresh instance of Adobe Experience Manager available locally and that no additional sample/demo packages have been installed (other than required Service Packs).
 
 ## Objective {#objective}
 
