@@ -31,7 +31,7 @@ Because AEM Content Services is built from Configuration (Content Fragment Model
 
 1. Publish the **[!DNL WKND Mobile Events] content fragments**.
   
-  Note that this is required as the Events API uses the Content Fragment List component, which does not specifically reference Content Fragments.
+   Note that this is required as the Events API uses the Content Fragment List component, which does not specifically reference Content Fragments.
     1. Navigate to **[!UICONTROL AEM] > [!UICONTROL Assets] > [!UICONTROL Files] > [!DNL WKND Mobile] > [!DNL English] > [!DNL Events]**
     1. Select all the **[!DNL Event]** content fragments
     1. Tap the **[!UICONTROL Manage Publication]** in the top action bar
