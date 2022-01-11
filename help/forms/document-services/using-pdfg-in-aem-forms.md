@@ -13,7 +13,7 @@ exl-id: bc79fcbf-b8b3-4d3a-9cd6-0bcd9321c7d5
 Demonstrating Drag and Drop capability to create PDF using AEM Forms
 
  PDFG  stands for PDF Generation. This means you can convert a variety of file formats into PDF. The most common ones are Microsoft Office documents. PDFG has been part of AEM Forms since 6.1.
- [The javadoc for PDFG API is listed here](https://helpx.adobe.com/experience-manager/6-3/forms/using/aem-document-services-programmatically.html#PDFGeneratorService)
+ [The javadoc for PDFG API is listed here](https://www.adobe.io/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/fd/output/api/OutputService.html)
 
 The assets associated with this article will allow you to drag and drop MS office documents or JPG file into the drop zone of the HTML page. Once the document is dropped, it will invoke the PDFG service and convert the document into PDF and save it on the file system of AEM Server.
 
