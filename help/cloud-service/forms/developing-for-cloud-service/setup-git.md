@@ -66,18 +66,18 @@ save the password in the config file
 
 ``` java
 
-git config --global user.password "bqwxfvxq2akawtqx3oztacb5wax5a7"
+git config --global user.password "XXXX"
 
 ```
 
 (The password is your cloud manager git repository password)
 
-Register the cloud manager git repository with your local git repository. The command below associates **adobe** with the remote cloud manager git repository. You could have used any name instead of **adobe**
+Register the cloud manager git repository with your local git repository. The command below associates **bankingapp** with the remote cloud manager git repository. You could have used any name instead of **bankingapp**
 
 
-``` java
+``` shell
 
-git remote add adobe https://git.cloudmanager.adobe.com/techmarketingdemos/Program2-p24107/
+git remote add bankingapp https://git.cloudmanager.adobe.com/<cloud-manager-repo-path>
 
 ```
 

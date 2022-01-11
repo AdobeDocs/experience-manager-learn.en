@@ -19,7 +19,7 @@ Execute the following commands
 
 ```
 
-git add .**
+git add .
 
 ```
 
