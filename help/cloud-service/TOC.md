@@ -153,14 +153,14 @@ team: TM
         + [Configure assets panel](./forms/create-first-af/configure-assets-panel.md)
         + [Configure start panel](./forms/create-first-af/configure-start-panel.md)
         + [Add and Configure toolbar](./forms/create-first-af/add-configure-toolbar.md)
-    + Document Cloud API and AEM Forms CS{#doc-cloud-sdk}
-        + [Introduction](./forms/doc-cloud-sdk/introduction.md)
-        + [Create Adobe IO Project](./forms/doc-cloud-sdk/create-document-cloud-credentials.md)
-        + [Create OSGI Configuration](./forms/doc-cloud-sdk/create-doc-cloud-configuration.md)
-        + [Define Interface](./forms/doc-cloud-sdk/create-interface.md)
-        + [Implement Interface](./forms/doc-cloud-sdk/implement-interface.md)
-        + [Create JSON Part](./forms/doc-cloud-sdk/get-content-analyzer.md)
-        + [Custom Process Step](./forms/doc-cloud-sdk/custom-process-step.md)
+    + Document Generation in AEM Forms CS{#doc-gen-formscs}
+        + [Introduction](./forms/doc-gen-forms-cs/introduction.md)
+        + [Create Service Credentials](./forms/doc-gen-forms-cs/service-credentials.md)
+        + [Create JWT Token](./forms/doc-gen-forms-cs/create-jwt.md)
+        + [Create Access Token](./forms/doc-gen-forms-cs/create-access-token.md)
+        + [Merge Data with Template](./forms/doc-gen-forms-cs/merge-data-with-template.md)
+        + [Test the solution](./forms/doc-gen-forms-cs/test.md)
+        + [Challenge](./forms/doc-gen-forms-cs/challenge.md)
     + Azure Portal Storage{#forms-cs-azure-portal}
         + [Introduction](./forms/forms-cs-azure-portal/introduction.md)
         + [Create Form Data Model](./forms/forms-cs-azure-portal/create-fdm.md)

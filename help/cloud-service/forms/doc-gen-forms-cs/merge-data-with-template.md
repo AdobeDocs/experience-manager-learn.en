@@ -5,7 +5,7 @@ type: Documentation
 role: Developer
 level: Beginner, Intermediate
 version: Cloud Service
-feature: Document Services
+feature: Output Service
 topic: Development
 kt: 8185
 thumbnail: 332439.jpg
@@ -13,9 +13,9 @@ thumbnail: 332439.jpg
 # Make the POST call
 
 
-The next step is to make an HTTP POST call to the endpoint with the necessary parameters. The template and the datafiles are provided as resource files. Properties of the generated pdf are specified via the option's parameter in the request. The properties are specified in the options.json resource file. Since, the end point has token based authentication we pass the Access Token in the request header.
+The next step is to make an HTTP POST call to the endpoint with the necessary parameters. The template and the datafiles are provided as resource files. Properties of the generated pdf are specified via the option's parameter in the request.The property embedFonts is used to embed custom fonts in the generated pdf.[Please follow this documentation to deploy custom fonts to your Forms cloud instance.](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/developing-for-cloud-service/intellij-set-up.html?lang=en) The properties are specified in the options.json resource file. Since, the end point has token based authentication we pass the Access Token in the request header.
 
-The following code was used to generate exchange JWT for Access Token
+The following code was used to generate pdf by merging data with the template
 
 ```java
 public class DocumentGeneration
@@ -28,7 +28,7 @@ public class DocumentGeneration
                 String accessToken = cu.getAccessToken();
                 httpPost.addHeader("Authorization", "Bearer " + accessToken);
                 ClassLoader classLoader = DocumentGeneration.class.getClassLoader();
-                URL templateFile = classLoader.getResource("templates/address.xdp");
+                URL templateFile = classLoader.getResource("templates/custom_fonts.xdp");
                 File xdpTemplate = new File(templateFile.getPath());
                 URL url = classLoader.getResource("datafiles");
                 System.out.println(url.getPath());
@@ -39,7 +39,7 @@ public class DocumentGeneration
                         builder.setMode(HttpMultipartMode.BROWSER_COMPATIBLE);
                         builder.addBinaryBody("data", files[i]);
                         builder.addBinaryBody("template", xdpTemplate);
-                        builder.addTextBody("options", GetOptions.getPDFOptions(), ContentType.APPLICATION_JSON);
+                        builder.addBinaryBody("options",GetOptions.getPDFOptions().getBytes(),ContentType.APPLICATION_JSON,"options"
                         try {
                                 HttpEntity entity = builder.build();
                                 httpPost.setEntity(entity);
