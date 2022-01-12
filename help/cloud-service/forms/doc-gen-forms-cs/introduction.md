@@ -5,7 +5,7 @@ type: Documentation
 role: Developer
 level: Beginner, Intermediate
 version: Cloud Service
-feature: Document Services
+feature: Output Service
 topic: Development
 kt: 7432
 thumbnail: 334859.jpg
