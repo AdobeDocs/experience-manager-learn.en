@@ -7,9 +7,8 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
 topic: Development
-
+exl-id: f6536af2-e4b8-46ca-9b44-a0eb8f4fdca9
 ---
-
 # Import Eclipse Project
 
 Download and unzip the [zip file](./assets/aem-forms-cs-doc-gen.zip)
@@ -35,4 +34,3 @@ The project includes the following files in the resources folder:
 > The very first time you run the java program you will get HTTP 403 error. To get past this make sure you give the [appropriate permissions to the technical account user in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials.html?lang=en#configure-access-in-aem).
 
 **AEM Forms Users** is the role I have used for this course.
- 

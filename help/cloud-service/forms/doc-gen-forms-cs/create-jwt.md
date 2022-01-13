@@ -9,6 +9,7 @@ feature: Adaptive Forms
 topic: Development
 kt: 8184
 thumbnail: 8184.jpg
+exl-id: 394ed621-1106-4b2a-a6b7-2efa5867f5b1
 ---
 # Create a JSON Web Token (JWT)
 
