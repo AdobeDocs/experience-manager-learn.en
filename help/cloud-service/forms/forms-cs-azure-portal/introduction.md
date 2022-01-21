@@ -15,4 +15,4 @@ exl-id: 1761736c-5e36-4f30-aa42-9caa49d589f9
 
 Learn how to store AEM Forms as a Cloud Service submission data to an Azure storage account.
 
->[!VIDEO](https://video.tv.adobe.com/v/331891/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336028/?quality=12&learn=on)
