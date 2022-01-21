@@ -14,6 +14,6 @@ exl-id: 7e3d449f-f22e-4bf4-a20e-82f3d76004a2
 ---
 # Configure Adaptive Form to trigger workflow
 
-Create workflow model using AEM Forms workflow components. Use Or-Split component to branch the workflow based on the value of the totalincome variable.
+Configure adaptive form to trigger the review workflow
 
 >[!VIDEO](https://video.tv.adobe.com/v/332435?quality=12&learn=on)

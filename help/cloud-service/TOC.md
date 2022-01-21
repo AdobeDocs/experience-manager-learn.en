@@ -140,6 +140,7 @@ team: TM
         + [Include Cloud Services and FDM](./forms/developing-for-cloud-service/azure-storage-fdm.md)
         + [Push to Cloud Manager](./forms/developing-for-cloud-service/push-project-to-cloud-manager-git.md)
         + [Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
+        + [Updating maven archetype](./forms/developing-for-cloud-service/updating-project-archetype.md)
        
     + Create Adaptive Form{#create-first-af}
         + [Introduction](./forms/create-first-af/introduction.md)
@@ -171,6 +172,7 @@ team: TM
 
 
     + Create Review Workflow{#create-aem-workflow}
+        + [Externalizing workflow storage](./forms/create-aem-workflow/externalize-workflow.md)
         + [Create workflow model](./forms/create-aem-workflow/create-workflow.md)
         + [Trigger workflow](./forms/create-aem-workflow/configure-af.md)
     + Adobe Sign with AEM Forms{#forms-and-sign}
