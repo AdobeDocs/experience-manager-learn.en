@@ -183,7 +183,7 @@ An alternative to setting static well-known Java log levels for each environment
 
 This requires updating the logging OSGi configurations to use the environment specific variable placeholders. [Default values](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#default-values) for log levels should be set as per [Adobe recommendations](#log-levels). For example:
 
-`/apps/example/config/org.apache.sling.commons.log.LogManager.factory.config-example.cfg.json`
+`/apps/example/config/org.apache.sling.commons.log.LogManager.factory.config~example.cfg.json`
 
 ```
 {
