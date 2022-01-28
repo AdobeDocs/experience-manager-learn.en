@@ -25,7 +25,7 @@ index: y
     + [5 - GraphQL Endpoints](./graphql/video-series/graphql-endpoints.md)
     + [6 - Author and Publish Architecture](./graphql/video-series/author-publish-architecture.md)
     + [7 - GraphQL Persisted Queries](./graphql/video-series/graphql-persisted-queries.md)
-  + Multi-step Tutorial{#multi-step}
+  + Basic Tutorial{#multi-step}
     + [Overview](./graphql/multi-step/overview.md)
     + [1 - Defining Content Fragment Models](./graphql/multi-step/content-fragment-models.md)
     + [2 - Authoring Content Fragments](./graphql/multi-step/author-content-fragments.md)
@@ -33,6 +33,13 @@ index: y
     + [4 - Query from an external app](./graphql/multi-step/graphql-and-external-app.md)
     + [5 - Advanced data modeling with Fragment References](./graphql/multi-step/fragment-references.md)
     + [6 - Production deployment](./graphql/multi-step/production-deployment.md)
+  + Advanced Tutorial{#advanced-tutorial}
+    + [Overview](/help/headless-tutorial/graphql/advanced-graphql/overview.md)
+    + [1 - Create Content Fragment Models](/help/headless-tutorial/graphql/advanced-graphql/create-content-fragment-models.md)
+    + [2 - Author Content Fragments](/help/headless-tutorial/graphql/advanced-graphql/author-content-fragments.md)
+    + [3 - Explore the AEM GraphQL API](/help/headless-tutorial/graphql/advanced-graphql/explore-graphql-api.md)
+    + [4 - Persisted GraphQL Queries](/help/headless-tutorial/graphql/advanced-graphql/graphql-persisted-queries.md)
+    + [5 - Client Application Integration](/help/headless-tutorial/graphql/advanced-graphql/client-application-integration.md)
   + Examples {#example-apps}
     + [React](./graphql/example-apps/react-app.md)
     + [iOS SwiftUI](./graphql/example-apps/ios-swiftui-app.md)
