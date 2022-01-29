@@ -6,8 +6,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Intermediate
+exl-id: 2122ab13-f9df-4f36-9c7e-8980033c3b10
 ---
-
 # Create Content Fragment Models {#create-content-fragment-models}
 
 This chapter walks through the steps to create five Content Fragment Models: 

@@ -6,8 +6,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Intermediate
+exl-id: d0576962-a86a-4742-8635-02be1ec3243f
 ---
-
 # Client Application Integration
 
 In the previous chapter, you created and updated persisted queries using HTTP PUT and POST requests. 

@@ -1,11 +1,12 @@
 ---
 title: Author Content Fragments - Advanced Concepts of AEM Headless - GraphQL
-description:  In this chapter of Advanced concepts of Adobe Experience Manager (AEM) Headless, learn to work with tabs, date and time, JSON objects, and fragment references in Content Fragments. Set up folder policies to limit what Content Fragment Models can be included.
+description: In this chapter of Advanced concepts of Adobe Experience Manager (AEM) Headless, learn to work with tabs, date and time, JSON objects, and fragment references in Content Fragments. Set up folder policies to limit what Content Fragment Models can be included.
 version: Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Intermediate
+exl-id: 998d3678-7aef-4872-bd62-0e6ea3ff7999
 ---
 # Author Content Fragments
 
