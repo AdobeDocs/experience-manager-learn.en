@@ -25,6 +25,7 @@ Service Credentials may appear similar [Local Development Access Tokens](./local
 + Service Credentials are _not_ access tokens, rather they are credentials that are used to _obtain_ access tokens.
 + Service Credentials are more permanent (expire every 365 days), and do not change unless revoked, whereas Local Development Access Tokens expire daily.
 + Service Credentials for an AEM as a Cloud Service environment map to a single AEM technical account user, whereas Local Development Access Tokens authenticate as the AEM user who generated the access token.
++ An AEM as a Cloud Service environment has one Service Credentials that maps to one technical account AEM user. Service Credentials cannot be used to authenticate to the same AEM as a Cloud Service environment as different technical account AEM users.
 
 Both Service Credentials and the access tokens they generate, as well as Local Development Access Tokens should be kept secret, as all three can be used to obtain access to their respective AEM as a Cloud Service environments
 
