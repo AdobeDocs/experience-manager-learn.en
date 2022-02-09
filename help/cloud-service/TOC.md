@@ -162,6 +162,12 @@ team: TM
         + [Merge Data with Template](./forms/doc-gen-forms-cs/merge-data-with-template.md)
         + [Test the solution](./forms/doc-gen-forms-cs/test.md)
         + [Challenge](./forms/doc-gen-forms-cs/challenge.md)
+    + Document Generation using Batch API{#formscs-batch-api}
+        + [Introduction](./forms/formscs-batch-api/introduction.md)
+        + [Configure Azure Storage](./forms/formscs-batch-api/configure-azure-storage.md)
+        + [Create USC Batch Configuration](./forms/formscs-batch-api/configure-usc-batch.md)
+        + [Create Batch Config](./forms/formscs-batch-api/create-batch-config.md)
+        + [Execute Batch](./forms/formscs-batch-api/execute-batch-generate-documents.md)
     + Azure Portal Storage{#forms-cs-azure-portal}
         + [Introduction](./forms/forms-cs-azure-portal/introduction.md)
         + [Create Form Data Model](./forms/forms-cs-azure-portal/create-fdm.md)
