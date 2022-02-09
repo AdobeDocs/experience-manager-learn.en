@@ -22,9 +22,9 @@ Following is an example of a PDF/A file in Acrobat DC.
 
 Sample files can be [downloaded from here](assets/pdf-file-types.zip)
 
-## Xml Forms Architecture PDF
+## XML Forms Architecture PDF(XFA PDF)
 
-Adobe uses the term PDF form to refer to the interactive and dynamic Forms you create with AEM Forms Designer. The Forms and files you create with Designer are based on Adobe’s XML Forms Architecture (XFA). In many ways, the XFA PDF file format is closer to an HTML file than it is to a traditional PDF file. For example, the following code shows you what a simple text object Looks like in an XFA PDF file.
+Adobe uses the term XFA PDF form to refer to the interactive and dynamic Forms you create with AEM Forms Designer. The Forms and files you create with Designer are based on Adobe’s XML Forms Architecture (XFA). In many ways, the XFA PDF file format is closer to an HTML file than it is to a traditional PDF file. For example, the following code shows you what a simple text object Looks like in an XFA PDF file.
 
 ![Text-field](assets/text-field.JPG)
 
@@ -44,38 +44,7 @@ Static XFA PDF forms layout never changes at runtime, but they can be interactiv
 >
 > You can create static PDFs using AEM Forms Designer by saving the XDP as Adobe Static PDF Form
 
-## PDF formats
 
-Portable Document Format (PDF) is actually a family of file formats, and this article details the ones that are most relevant for form developers. Many of the technical details and standards of different PDF types are evolving and changing. Some of these formats and specifications are International Organization for Standardization (ISO) standards, and some are specific intellectual property owned by Adobe. 
-
-This article shows you how to create various types of PDFs. It will help you understand how and why to use each one. All these types work best in the premier client tool for viewing and working with PDFs—Adobe Acrobat DC.
-
-This is an example of a PDF/A file in Acrobat DC.
-
-![pdfa](assets/pdfa-file-in-acrobat.png)
-
-Sample files can be [downloaded from here](assets/pdf-file-types.zip)
-
-### XFA PDF
-
-Adobe uses the term PDF form to refer to the interactive and dynamic forms you create with AEM Forms Designer. It’s important to note that there’s another type of PDF form, called an Acroform, that’s different from the PDF forms you create in AEM Forms Designer. The forms and files you create with Designer are based on Adobe’s XML Forms Architecture (XFA). In many ways, the XFA PDF file format is closer to an HTML file than it is to a traditional PDF file. For instance, the following code shows you what a simple text object looks like in an XFA PDF file.
-
-![text-field](assets/text-field.JPG)
-
-As you can see, XFA forms are XML based. This well-structured and flexible format enables an AEM Forms Server to transform your Designer files into different formats, including traditional PDF, PDF/A and HTML. You can see the complete XML structure of your forms in Designer by selecting the XML Source tab of the Layout Editor. You can create both static and dynamic XFA forms in AEM Forms Designer.
-
-### Static PDF
-
-Static XFA PDF forms won’t change their layout at runtime, but they can be interactive for the user. The following are a few advantages of static XFA PDF forms:
-
-* Static XFA PDF forms won’t change their layout at runtime, but they can be interactive for the user. 
-* Static forms support Acrobat’s Comment and Markup tools.
-* Static forms enable you to import and export Acrobat comments.
-* Static forms support font sub setting which is a technique that can be done on an AEM Forms server.
-* Static forms can be rendered using the in built pdf viewer that comes with modern browsers.
-
->[!NOTE]
-> You can create static pdfs using AEM Forms Designer by saving the XDP as Adobe Static PDF Form
 
 ### Dynamic Forms
 
