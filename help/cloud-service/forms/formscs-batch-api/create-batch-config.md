@@ -8,7 +8,7 @@ version: Cloud Service
 feature: Output Service
 topic: Development
 kt: 9673
-
+exl-id: db25e5a2-e1a8-40ad-af97-35604d515450
 ---
 # Create batch configuration
 
@@ -53,4 +53,3 @@ To verify the successful creation of batch configuration, you can make a GET req
 ```
 
 You only need to pass an empty JSON object in the body of the HTTP request
-

@@ -7,8 +7,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Output Service
 topic: Development
-
-
+exl-id: 165e2884-4399-4970-81ff-1f2f8b041a10
 ---
 # Introduction
 
@@ -23,7 +22,3 @@ To use AEM Forms CS batch operation API, the following configurations are needed
 1. Execute the Batch API
 
 It is recommended you get familiar with the [API documentation](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/assets/batch-api.yaml?lang=en) before proceeding to use this tutorial.
-
-
- 
-
