@@ -34,6 +34,7 @@ index: y
 + Useful Integrations{#some-useful-integrations}
   + [Two Factor Authentication](some-useful-integrations/two-factor-authentication.md)
   + [OCR Data Extraction](some-useful-integrations/ocr-data-extraction.md)
+  + [Cascading drop-down lists](some-useful-integrations/geonames-org.md)
 + Creating OSGi bundle {#creating-your-first-osgi-bundle}
   + [Setup your environment](creating-your-first-osgi-bundle/create-your-first-osgi-bundle.md)
   + [Create OSGi Service](creating-your-first-osgi-bundle/create-osgi-service.md)
@@ -44,6 +45,7 @@ index: y
   + [Prefill Service in Adaptive Forms](adaptive-forms/prefill-service-adaptive-forms-article-use.md)
   + [Custom Submit in Adaptive Forms](adaptive-forms/custom-submit-aem-forms-article.md)
   + [Captcha in Adaptive Forms](adaptive-forms/forms-captcha-feature-video-use.md)
+  + [Custom Functions in Rule Editor](adaptive-forms/custom-functions-aem-forms.md)
   + [Embedding Adaptive Form in web page](adaptive-forms/embed-af-web-page.md)
   + [Creating array of strings](adaptive-forms/converting-comma-seperated-string-to-array.md)
   + [Using Set Value in XML  in OSGI Workflow](adaptive-forms/setvalue-aem-forms-workflow-tutorial-use.md)
