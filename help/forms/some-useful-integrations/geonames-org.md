@@ -7,7 +7,7 @@ kt: 9724
 topic: Development
 role: Developer
 level: Intermediate
-
+exl-id: f1f2cacc-9ec4-46d6-a6af-dac3f663de78
 ---
 # Cascading drop down lists
 
@@ -78,8 +78,3 @@ We need to populate the State/Province drop-down list based on the country selec
 
 Add 2 drop-down lists called counties and cities in the form to list the counties and city based on the country and state/province selected.
 ![exercise](assets/cascading-drop-down-exercise.png)
-
-
-
-
-
