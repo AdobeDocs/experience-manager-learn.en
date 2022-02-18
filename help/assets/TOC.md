@@ -131,6 +131,12 @@ team: TM
   + Enhanced connector{#enhanced-connector}
     + [Enhanced Connector basics](./workfront/enhanced-connector/basics.md)
     + [Project folders](./workfront/enhanced-connector/project-folders.md)
+    + AEM Experts Series{#aem-experts-series}
+      + [Overview](./workfront/enhanced-connector/aem-experts-series/overview.md)
+      + [Setup](./workfront/enhanced-connector/aem-experts-series/setup.md)
+      + [Workfront forms and AEM metadata](./workfront/enhanced-connector/aem-experts-series/custom-forms.md)
+      + [Tags, project linked folders, and folder metadata](./workfront/enhanced-connector/aem-experts-series/aem-tags-project-linked-folders-and-folder-metadata.md)
+      + [Advanced settings and workflows](./workfront/enhanced-connector/aem-experts-series/advanced-settings-and-workflows.md)
 
 + Translation {#translation}
   + [Source File Translation](translation/source-file-translation-feature-video-use.md)
