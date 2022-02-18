@@ -7,8 +7,8 @@ role: Admin, User
 level: Beginner
 kt: 9754
 thumbnail: kt-9754.jpeg
+exl-id: 4f279c0d-270f-433e-b047-88c02f5b1e78
 ---
-
 # Workfront for Experience Manager enhanced connector Expert Series
 
 ![AEM Experts Series](./assets/banner.png)
@@ -84,6 +84,3 @@ This four part expert series follows a group of Adobe experts - from product man
    </td>
   </tr>  
 </tbody></table>
-
-
-
