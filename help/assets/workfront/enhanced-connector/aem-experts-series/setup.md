@@ -8,8 +8,8 @@ level: Beginner
 kt: 9717
 thumbnail: 340331.jpeg
 hidefromtoc: false
+exl-id: f0018d16-af96-4b92-b0fc-6130d812bf8f
 ---
-
 # Initial setup and configuration
 
 ![AEM Experts Series](./assets/banner.png)

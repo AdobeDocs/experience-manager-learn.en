@@ -8,8 +8,8 @@ level: Beginner
 kt: 9720
 thumbnail: 340333.jpeg
 hidefromtoc: false
+exl-id: 520a75cd-757a-4ae9-acf6-3c1f5e1f3747
 ---
-
 # AEM Tags, project linked folders, and folder metadata
 
 ![AEM Experts Series](./assets/banner.png)
