@@ -8,8 +8,8 @@ level: Beginner
 kt: 9718
 thumbnail: 340332.jpeg
 hidefromtoc: false
+exl-id: 40d76e0c-69f3-4003-9f34-f393e6fb8561
 ---
-
 # Workfront custom forms and metadata mapping
 
 ![AEM Experts Series](./assets/banner.png)
