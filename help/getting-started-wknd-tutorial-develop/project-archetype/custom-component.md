@@ -442,7 +442,7 @@ Create a public Java Interface for the Byline. `Byline.java` defines the public 
 
 Since the WKND source's Java package `com.adobe.aem.guides.wknd.core.models` declares are version of `2.0.0`, and we are adding a non-breaking public interface and methods, the version must be increased to `2.1.0`. Open the file at `core/src/main/java/com/adobe/aem/guides/wknd/core/models/package-info.java` and update `@Version("2.0.0")` to `@Version("2.1.0")`.
 
-    ```
+    ```java
     @Version("2.1.0")
     package com.adobe.aem.guides.wknd.core.models;
 
