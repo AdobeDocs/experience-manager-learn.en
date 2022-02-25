@@ -276,78 +276,51 @@ Next, we will make some updates to the `HelloWorldModel` Sling Model in order to
 
 Client-Side Libraries, clientlibs for short, provides a mechanism to organize and manage CSS and JavaScript files necessary for an AEM Sites implementation. Client-side libraries are the standard way to include CSS and JavaScript on a page in AEM.
 
-Next, we will include some CSS styles for the `HelloWorld` component in order to understand the very basics of client-side libraries.
+The [ui.frontend](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uifrontend.html) module is a de-coupled [webpack](https://webpack.js.org/) project that is integrated into the build process. This enables the use of popular front-end libraries like Sass, LESS, and TypeScript. The `ui.frontend` module will be explored in more depth in the [Client Side Libraries chapter](/help/getting-started-wknd-tutorial-develop/project-archetype/client-side-libraries.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/330989/?quality=12&learn=on)
+Next, update the CSS styles for the `HelloWorld` component.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340750/?quality=12&learn=on)
 
 Below are the high level steps performed in the above video.
 
-1. beneath `/aem-guides-wknd.ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs` create a new folder named `clientlib-helloworld`.
-1. Create a folder and file structure like the following beneath `clientlibs`
+1. Open a terminal window and navigate into the `ui.frontend` directory and 
 
-    ```plain
-    /clientlib-helloworld
-        /css/helloworld.css
-        /js/helloworld.js
-        +js.txt
-        +css.txt
-        +.content.xml
+1. In the `ui.frontend` directory run the `npm run watch` command:
+
+    ```shell
+    $ npm run watch
     ```
+1. Switch to the IDE and open the project to the `ui.frontend` module.
+1. Open the file `ui.frontend/src/main/webpack/components/_helloworld.scss`.
+1. Update the file to display a red title:
 
-1. Populate `helloworld.css` with the following:
-
-    ```css
-    .cmp-helloworld .cmp-helloworld__title {
+    ```scss
+    .cmp-helloworld {}
+    .cmp-helloworld__title {
         color: red;
     }
     ```
 
-1. Populate `helloworld/clientlibs/css.txt` with the following:
+1. In the terminal you should see activity indicating that the `ui.frontend` module is compiling and syncing the changes with the local instance of AEM.
 
-    ```plain
-    #base=css
-    helloworld.css
+    ```shell
+    Entrypoint site 214 KiB = clientlib-site/site.css 8.45 KiB clientlib-site/site.js 206 KiB
+    2022-02-22 17:28:51: webpack 5.69.1 compiled successfully in 119 ms
+    change:dist/index.html
+    + jcr_root/apps/wknd/clientlibs/clientlib-site/css/site.css
+    + jcr_root/apps/wknd/clientlibs/clientlib-site/css
+    + jcr_root/apps/wknd/clientlibs/clientlib-site/js/site.js
+    + jcr_root/apps/wknd/clientlibs/clientlib-site/js
+    + jcr_root/apps/wknd/clientlibs/clientlib-site
+    + jcr_root/apps/wknd/clientlibs/clientlib-dependencies/css.txt
+    + jcr_root/apps/wknd/clientlibs/clientlib-dependencies/js.txt
+    + jcr_root/apps/wknd/clientlibs/clientlib-dependencies
     ```
 
-1. Populate `helloworld/clientlibs/js/helloworld.js` with the following:
+1. Return to the browser and observe that the title color has changed.
 
-    ```js
-    console.log("Hello World from Javascript!");
-    ```
-
-1. Populate `helloworld/clientlibs/js.txt` with the following:
-
-    ```plain
-    #base=js
-    helloworld.js
-    ```
-
-1. Update the `clientlib-helloworld/.content.xml` file to include the following properties:
-
-    ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-        jcr:primaryType="cq:ClientLibraryFolder"
-        allowProxy="{Boolean}true"
-        categories="[wknd.helloworld]" />
-    ```
-
-1. Update the `clientlibs/clientlib-base/.content.xml` file to **embed** the `wknd.helloworld` category:
-
-    ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-        jcr:primaryType="cq:ClientLibraryFolder"
-        allowProxy="{Boolean}true"
-        categories="[wknd.base]"
-        embed="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1,wknd.grid,wknd.helloworld]"/>
-    ```
-
-1. Deploy the changes to a local instance of AEM using the developer plugin or using your Maven skills.
-
-    >[!NOTE]
-    >
-    > CSS and JavaScript are frequently cached by the browser for performance reasons. If you do not immediately see the change for the client library perform a hard refresh and clear the browser's cache. It may be helpful to use an incognito window to ensure a fresh cache.
+    ![Component Basics update](assets/component-basics/color-update.png)
 
 ## Congratulations! {#congratulations}
 
