@@ -157,7 +157,7 @@ The AEM Project Archetype generated a Header and Footer. Next, update the Experi
 
 High level steps for the video below:
 
-1. Download the sample content package **[WKND-PagesTemplates-Content-Assets.zip](assets/pages-templates/WKND-PagesTemplates-Content-Assets.zip)**.
+1. Download the sample content package **[WKND-PagesTemplates-Content-Assets.zip](assets/pages-templates/WKND-PagesTemplates-Content-Assets-1.1.zip)**.
 1. Upload and install the content package using Package Manager at [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp)
 1. Update the Web Variation template, which is the template used for Experience Fragments at [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/xf-web-variation/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/xf-web-variation/structure.html)
     * Update the policy the **Container** component on the template.
