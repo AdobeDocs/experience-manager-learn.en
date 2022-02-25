@@ -2,7 +2,7 @@
 title: Unit Testing
 description: This tutorial covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in the Custom Component tutorial.
 sub-product: sites
-version: 6.4, 6.5, Cloud Service
+version: 6.5, Cloud Service
 type: Tutorial
 feature: APIs, AEM Project Archetype
 topic: Content Management, Development
@@ -76,7 +76,7 @@ We will be using AEM best practices, and use:
 
 While unit testing code is a good practice for any code base, when using Cloud Manager it is important to take advantage of its code quality testing and reporting facilities by providing unit tests for Cloud Manager to run.
 
-## Inspect the test Maven dependencies {#inspect-the-test-maven-dependencies}
+## Update the test Maven dependencies {#inspect-the-test-maven-dependencies}
 
 The first step is to inspect Maven dependencies to support writing and running the tests. There are four dependencies required:
 
@@ -87,97 +87,23 @@ The first step is to inspect Maven dependencies to support writing and running t
 
 The **JUnit5**, **Mockito** and **AEM Mocks** test dependencies are automatically added to the project during setup using the [AEM Maven archetype](project-setup.md).
 
-1. To view these dependencies, open the Parent Reactor POM at **aem-guides-wknd/pom.xml**, navigate to the `<dependencies>..</dependencies>` and ensure the following dependencies are defined:
+1. To view these dependencies, open the Parent Reactor POM at **aem-guides-wknd/pom.xml**, navigate to the `<dependencies>..</dependencies>` and view the dependencies for JUnit, Mockito, Apache Sling Mocks, and AEM Mock Tests by io.wcm under `<!-- Testing -->`.
+1. Ensure that `io.wcm.testing.aem-mock.junit5` is set to **4.1.0**:
 
     ```xml
-    <dependencies>
-        ...       
-        <!-- Testing -->
-        <dependency>
-            <groupId>org.junit</groupId>
-            <artifactId>junit-bom</artifactId>
-            <version>5.6.2</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>3.3.3</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-junit-jupiter</artifactId>
-            <version>3.3.3</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit-addons</groupId>
-            <artifactId>junit-addons</artifactId>
-            <version>1.4</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.wcm</groupId>
-            <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
-            <!-- Prefer the latest version of AEM Mock Junit5 dependency -->
-            <version>3.0.2</version>
-            <scope>test</scope>
-        </dependency>        
-        ...
-    </dependencies>
-    ```
-
-1. Open **aem-guides-wknd/core/pom.xml** and view that the corresponding testing dependencies are available:
-
-    ```xml
-    ...
-    <!-- Testing -->
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter</artifactId>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-core</artifactId>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-junit-jupiter</artifactId>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>junit-addons</groupId>
-        <artifactId>junit-addons</artifactId>
-        <scope>test</scope>
-    </dependency>
     <dependency>
         <groupId>io.wcm</groupId>
         <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
-        <exclusions>
-            <exclusion>
-                <groupId>org.apache.sling</groupId>
-                <artifactId>org.apache.sling.models.impl</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-simple</artifactId>
-            </exclusion>
-        </exclusions>
+        <version>4.1.0</version>
         <scope>test</scope>
     </dependency>
-    <!-- Required to be able to support injection with @Self and @Via -->
-    <dependency>
-        <groupId>org.apache.sling</groupId>
-        <artifactId>org.apache.sling.models.impl</artifactId>
-        <version>1.4.4</version>
-        <scope>test</scope>
-    </dependency>
-    ...
     ```
+
+    >[!CAUTION]
+    >
+    > Archetype **35** generates the project with `io.wcm.testing.aem-mock.junit5` version **4.1.8**. Please downgrade to **4.1.0** to follow the rest of this chapter.
+
+1. Open **aem-guides-wknd/core/pom.xml** and view that the corresponding testing dependencies are available.
 
     A parallel source folder in the **core** project will contain the unit tests and any supporting test files. This **test** folder provides separation of test classes from the source code but allows the tests to act as if they live in the same packages as the source code.
 
@@ -208,43 +134,45 @@ Unit tests typically map 1-to-1 with Java classes. In this chapter, we'll write 
 
 ## Reviewing BylineImplTest.java {#reviewing-bylineimpltest-java}
 
-At this point, the JUnit test file is an empty Java class. Update the file with the following code:
+At this point, the JUnit test file is an empty Java class. 
 
-```java
-package com.adobe.aem.guides.wknd.core.models.impl;
+1. Update the file with the following code:
 
-import static org.junit.jupiter.api.Assertions.*;
+    ```java
+    package com.adobe.aem.guides.wknd.core.models.impl;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+    import static org.junit.jupiter.api.Assertions.*;
 
-public class BylineImplTest {
+    import org.junit.jupiter.api.BeforeEach;
+    import org.junit.jupiter.api.Test;
 
-    @BeforeEach
-    void setUp() throws Exception {
+    public class BylineImplTest {
 
+        @BeforeEach
+        void setUp() throws Exception {
+
+        }
+
+        @Test 
+        void testGetName() { 
+            fail("Not yet implemented");
+        }
+        
+        @Test 
+        void testGetOccupations() { 
+            fail("Not yet implemented");
+        }
+
+        @Test 
+        void testIsEmpty() { 
+            fail("Not yet implemented");
+        }
     }
-
-    @Test 
-    void testGetName() { 
-        fail("Not yet implemented");
-    }
-    
-    @Test 
-    void testGetOccupations() { 
-        fail("Not yet implemented");
-    }
-
-    @Test 
-    void testIsEmpty() { 
-        fail("Not yet implemented");
-    }
-}
-```
+    ```
 
 1. The first method `public void setUp() { .. }` is annotated with JUnit's `@BeforeEach`, which instructs the JUnit test runner to execute this method before running each test method in this class. This provides a handy place to initialize common testing state required by all tests.
 
-2. The subsequent methods are the test methods, whose names are prefixed with `test` by convention, and marked with the `@Test` annotation. Notice that by default, all our tests are set to fail, as we have not implemented them yet.
+1. The subsequent methods are the test methods, whose names are prefixed with `test` by convention, and marked with the `@Test` annotation. Notice that by default, all our tests are set to fail, as we have not implemented them yet.
 
     To begin, we start with a single test method for each public method on the class we're testing, so:
 
@@ -328,7 +256,7 @@ Since unit tests are executed at build, outside the context of a running AEM ins
 
 1. The JSON files that represent the mock resource structures are stored under **core/src/test/resources** following the same package pathing as the JUnit Java test file.
 
-    Create a new JSON file at **core/test/resources/com/adobe/aem/guides/wknd/core/models/impl** named **BylineImplTest.json** with the following content:
+    Create a new JSON file at `core/test/resources/com/adobe/aem/guides/wknd/core/models/impl` named **BylineImplTest.json** with the following content:
 
     ```json
     {
@@ -354,7 +282,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
 1. Update the **testGetName**() method in **BylineImplTest.java** as follows:
 
     ```java
-    import com.adobe.aem.guides.wknd.core.components.Byline;
+    import com.adobe.aem.guides.wknd.core.models.Byline;
     ...
     @Test
     public void testGetName() {

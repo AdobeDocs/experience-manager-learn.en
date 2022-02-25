@@ -2,7 +2,7 @@
 title: Getting Started with AEM Sites - Project Archetype
 description: Getting Started with AEM Sites - Project Archetype. The WKND tutorial is a multi-part tutorial designed for developers new to Adobe Experience Manager. The tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, maven archetypes, Core Components, Editable Templates, client libraries, and component development.
 sub-product: sites
-version: 6.4, 6.5, Cloud Service
+version: 6.5, Cloud Service
 type: Tutorial
 feature: Core Components, Page Editor, Editable Templates, AEM Project Archetype
 topic: Content Management, Development
@@ -19,7 +19,7 @@ Welcome to a multi-part tutorial designed for developers new to Adobe Experience
 
 This tutorial starts by using the [AEM Project Archetype](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) to generate a new project.
 
-The tutorial is designed to work with **AEM as a Cloud Service** and is backwards compatible with **AEM 6.5.5.0+** and **AEM 6.4.8.1+**. The site is implemented using:
+The tutorial is designed to work with **AEM as a Cloud Service** and is backwards compatible with **AEM 6.5.10+**. The site is implemented using:
 
 * [Maven AEM Project Archetype](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html)
 * [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
@@ -38,7 +38,7 @@ A local development environment is necessary to complete this tutorial. Screensh
 
 The following should be installed locally:
 
-* [Local AEM **Author** instance](https://experience.adobe.com/#/downloads) (Cloud Service SDK, 6.5.5+ or 6.4.8.1+)
+* [Local AEM **Author** instance](https://experience.adobe.com/#/downloads) (Cloud Service SDK, 6.5.10+)
 * [Java 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 * [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
 * [Node.js](https://nodejs.org/en/) (LTS - Long Term Support)

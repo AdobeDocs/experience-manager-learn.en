@@ -2,7 +2,7 @@
 title: Custom Component
 description: Covers the end to end creation of a custom byline component that displays authored content. Includes developing a Sling Model to encapsulate business logic to populate the byline component and corresponding HTL to render the component.
 sub-product: sites
-version: 6.4, 6.5, Cloud Service
+version: 6.5, Cloud Service
 type: Tutorial
 feature: Core Components, APIs
 topic: Content Management, Development
@@ -277,12 +277,9 @@ Following the same approach as with the Dialog creation, create a Policy dialog 
 
 ### Deploy the code {#deploy-the-code}
 
-1. Deploy the updated code base to a local AEM instance using your Maven skills:
+1. Synchronize the changes in `ui.apps` with your IDE or using your Maven skills.
 
-    ```shell
-    $ cd aem-guides-wknd
-    $ mvn clean install -PautoInstallSinglePackage
-    ```
+    ![Export to AEM server byline component](assets/custom-component/export-byline-component-aem.png)
 
 ## Add the component to a page {#add-the-component-to-a-page}
 
@@ -296,7 +293,7 @@ First, upload a sample head shot to AEM Assets to use to populate the image in t
 
 1. Upload the head shot for  **[stacey-roswells.jpg](assets/custom-component/stacey-roswells.jpg)** to the folder.
 
-    ![Headshot uploaded](assets/custom-component/stacey-roswell-headshot-assets.png)
+    ![Headshot uploaded to AEM Assets](assets/custom-component/stacey-roswell-headshot-assets.png)
 
 ### Author the component {#author-the-component}
 
@@ -310,11 +307,7 @@ Next, add the Byline component to a page in AEM. Because we added the Byline com
 
 1. Ensure the **left sidebar is open** and visible, and the **Asset Finder** is selected.
 
-    ![open asset finder](assets/custom-component/open-asset-finder.png)
-
 1. Select the **Byline component placeholder**, which in turn displays the action bar and tap the **wrench** icon to open the dialog.
-
-    ![component action bar](assets/custom-component/action-bar.png)
 
 1. With the dialog open, and the first tab (Asset) active, open the left sidebar, and from the asset finder, drag an image into the Image drop-zone. Search for "stacey" to find Stacey Roswells bio picture provided in the WKND ui.content package.
 
@@ -440,16 +433,16 @@ Create a public Java Interface for the Byline. `Byline.java` defines the public 
 
 1. Java packages that contain public Java classes, in this case a Sling Model, must be versioned using the package's  `package-info.java` file. 
 
-Since the WKND source's Java package `com.adobe.aem.guides.wknd.core.models` declares are version of `2.0.0`, and we are adding a non-breaking public interface and methods, the version must be increased to `2.1.0`. Open the file at `core/src/main/java/com/adobe/aem/guides/wknd/core/models/package-info.java` and update `@Version("2.0.0")` to `@Version("2.1.0")`.
+    Since the WKND source's Java package `com.adobe.aem.guides.wknd.core.models` declares are version of `1.0.0`, and we are adding a non-breaking public interface and methods, the version must be increased to `1.1.0`. Open the file at `core/src/main/java/com/adobe/aem/guides/wknd/core/models/package-info.java` and update `@Version("1.0.0")` to `@Version("1.1.0")`.
 
-    ```
-    @Version("2.1.0")
-    package com.adobe.aem.guides.wknd.core.models;
+        ```
+        @Version("2.1.0")
+        package com.adobe.aem.guides.wknd.core.models;
 
-    import org.osgi.annotation.versioning.Version;
-    ```
+        import org.osgi.annotation.versioning.Version;
+        ```
 
-Whenever a changes are made to the files in this package, the [package version must be adjusted semantically](https://semver.org/). If not, the Maven project's [bnd-baseline-maven-plugin](https://github.com/bndtools/bnd/tree/master/maven/bnd-baseline-maven-plugin) will detect an invalid package version and break the built. Luckily, on failure the Maven plugin reports the invalid Java package version as well as the the version it should be. Just updated teh `@Version("...")` declaration in the violating Java package's `package-info.java` to the version recommended by the plugin to fix.
+    Whenever a changes are made to the files in this package, the [package version must be adjusted semantically](https://semver.org/). If not, the Maven project's [bnd-baseline-maven-plugin](https://github.com/bndtools/bnd/tree/master/maven/bnd-baseline-maven-plugin) will detect an invalid package version and break the built. Luckily, on failure the Maven plugin reports the invalid Java package version as well as the the version it should be. Just updated teh `@Version("...")` declaration in the violating Java package's `package-info.java` to the version recommended by the plugin to fix.
 
 ### Byline implementation {#byline-implementation}
 
@@ -503,7 +496,7 @@ Whenever a changes are made to the files in this package, the [package version m
             defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
     )
     public class BylineImpl implements Byline {
-        protected static final String RESOURCE_TYPE = "wknd/components/content/byline";
+        protected static final String RESOURCE_TYPE = "wknd/components/byline";
         ...
     }
     ```
@@ -628,7 +621,7 @@ We will opt for the **second** approach. The first approach is likely sufficient
 
 1. Create a private method that gets the Image. This method is left private because we do not need to expose the Image object in the HTL itself, and its only used to drive `isEmpty().`
 
-    The following private method for `getImage()`:
+    Add the following private method for `getImage()`:
 
     ```java
     import com.adobe.cq.wcm.core.components.models.Image;
@@ -643,13 +636,6 @@ We will opt for the **second** approach. The first approach is likely sufficient
     As noted above, there are two more approaches to get the **Image Sling Model**:
 
     The first uses the `@Self` annotation, to automatically adapt the current request to the Core Component's `Image.class`
-
-    ```java
-
-    @Self
-    private Image image;
-
-    ```
 
     The second uses the [Apache Sling ModelFactory](https://sling.apache.org/apidocs/sling10/org/apache/sling/models/factory/ModelFactory.html) OSGi service, which is a very handy service, and helps us create Sling Models of other types in Java code.
 
@@ -762,7 +748,6 @@ We will opt for the **second** approach. The first approach is likely sufficient
 
 
     ```java
-
     package com.adobe.aem.guides.wknd.core.models.impl;
 
     import java.util.ArrayList;
@@ -787,7 +772,7 @@ We will opt for the **second** approach. The first approach is likely sufficient
             defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
     )
     public class BylineImpl implements Byline {
-        protected static final String RESOURCE_TYPE = "wknd/components/content/byline";
+        protected static final String RESOURCE_TYPE = "wknd/components/byline";
 
         @Self
         private SlingHttpServletRequest request;
@@ -803,8 +788,15 @@ We will opt for the **second** approach. The first approach is likely sufficient
 
         private Image image;
 
+        /**
+        * @PostConstruct is immediately called after the class has been initialized
+        * but BEFORE any of the other public methods. 
+        * It is a good method to initialize variables that will be used by methods in the rest of the model
+        *
+        */
         @PostConstruct
         private void init() {
+            // set the image object
             image = modelFactory.getModelFromWrappedRequest(request, request.getResource(), Image.class);
         }
 
@@ -994,18 +986,28 @@ For this, we need to include the current byline resource, but force the resource
     <sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
     ```
 
-3. Deploy the code base to a local AEM instance. Since major changes were made to the POM files, perform a full Maven build from the project's root directory.
+3. Deploy the code base to a local AEM instance. Since changes were made to `core` and `ui.apps` both modules need to be deployed.
 
     ```shell
-    $ cd aem-guides-wknd/
-    $ mvn clean install -PautoInstallSinglePackage
+    $ cd aem-guides-wknd/ui.apps
+    $ mvn clean install -PautoInstallPackage
+    ```
+
+    ```shell
+    $ cd ../core
+    $ mvn clean install -PautoInstallBundle
     ```
 
     If deploying to AEM 6.5/6.4 invoke the `classic` profile:
 
     ```shell
-    $ mvn clean install -PautoInstallSinglePackage -Pclassic
+    $ cd ../core
+    $ mvn clean install -PautoInstallBundle -Pclassic
     ```
+
+    >[!CAUTION]
+    >
+    > You could also build the entire project from the root using the Maven profile `autoInstallSinglePackage` but this may overwrite the content changes on the page. This is because the `ui.content/src/main/content/META-INF/vault/filter.xml` has been modified for the tutorial starter code to cleanly overwrite the existing AEM content. In a real-world scenario this won't be an issue.
 
 ### Reviewing the un-styled Byline component {#reviewing-the-unstyled-byline-component}
 
@@ -1019,7 +1021,7 @@ For this, we need to include the current byline resource, but force the resource
 
 The [AEM Web Console's Sling Models Status view](http://localhost:4502/system/console/status-slingmodels) displays all the registered Sling Models in AEM. The Byline Sling Model can be validated as being installed and recognized by reviewing this list.
 
-If the **BylineImpl** is not displayed in this list, then there was is likely an issue with the Sling Model's annotations or the Sling Model was not added to the registered Sling Models package (com.adobe.aem.guides.wknd.core.models) in the core project.
+If the **BylineImpl** is not displayed in this list, then there was is likely an issue with the Sling Model's annotations or the Sling Model was not added to the registered Sling Models package (`com.adobe.aem.guides.wknd.core.models`) in the core project.
 
 ![Byline Sling Model registered](assets/custom-component/osgi-sling-models.png)
 
@@ -1031,13 +1033,14 @@ The Byline component needs to be styled to align with the creative design for th
 
 ### Add a default style
 
-Add default styles for the Byline component. In the **ui.frontend** project under `/src/main/webpack/components`:
+Add default styles for the Byline component.
 
+1. Return to the IDE and the **ui.frontend** project under `/src/main/webpack/components`:
 1. Create a new file named `_byline.scss`.
 
     ![byline project explorer](assets/custom-component/byline-style-project-explorer.png)
 
-1. Add the Byline implementations CSS (written as SCSS) into the `default.scss`:
+1. Add the Byline implementations CSS (written as SCSS) into the `_byline.scss`:
 
     ```scss
     .cmp-byline {
@@ -1072,37 +1075,21 @@ Add default styles for the Byline component. In the **ui.frontend** project unde
         }
     }
     ```
-
-1. Review `main.scss` at `ui.frontend/src/main/webpack/site/main.scss`:
-
-    ```scss
-    @import 'variables';
-    @import 'wkndicons';
-    @import 'base';
-    @import '../components/**/*.scss';
-    @import './styles/*.scss';
-    ```
-
-    `main.scss` is the main entrypoint for styles included by the `ui.frontend` module. The regular expression `'../components/**/*.scss'` will include all files beneat the `components/` folder.
-
-1. Build and deploy the full project to AEM:
+1. Open a terminal and navigate into the `ui.frontend` module.
+1. Start the `watch` process with the following npm command:
 
     ```shell
-    $ cd aem-guides-wknd/
-    $ mvn clean install -PautoInstallSinglePackage
+    $ cd ui.frontend/
+    $ npm run watch
     ```
 
-    If using AEM 6.4/6.5 add the `-Pclassic` profile.
+1. Return to the browser and navigate to the [LA SkateParks article](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html). You should see the updated styles to the component.
 
-   >[!TIP]
-   >
-   >You may need to clear the browser cache to ensure stale CSS is not being served, and refresh the page with the Byline component to get the full styled.
+    ![finished byline component](assets/custom-component/final-byline-component.png)
 
-## Putting It Together {#putting-it-together}
-
-Below is what the fully authored and styled Byline component should look like on the AEM page.
-
-![finished byline component](assets/custom-component/final-byline-component.png)
+    >[!TIP]
+    >
+    > You may need to clear the browser cache to ensure stale CSS is not being served, and refresh the page with the Byline component to get the full styled.
 
 ## Congratulations! {#congratulations}
 
