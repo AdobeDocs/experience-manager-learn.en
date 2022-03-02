@@ -139,7 +139,7 @@ Client-side libraries have some limitations when it comes to support of language
 
     Each file maps to a Core Component like the [Accordion Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/accordion.html?lang=en#components). Each Core Component is built with [Block Element Modifier](https://getbem.com/) or BEM notation to make it easier to target specific CSS classes with style rules. The files beneath `/components` have been stubbed out by the AEM Project Archetype with the different BEM rules for each component.
 
-1. Download the WKND Base Styles **[wknd-base-styles-src-v3.zip]/(help/getting-started-wknd-tutorial-develop/project-archetype/assets/client-side-libraries/wknd-base-styles-src-v3.zip)** and **unzip** the file.
+1. Download the WKND Base Styles **[wknd-base-styles-src-v3.zip](/help/getting-started-wknd-tutorial-develop/project-archetype/assets/client-side-libraries/wknd-base-styles-src-v3.zip)** and **unzip** the file.
 
     ![WKND Base Styles](assets/client-side-libraries/wknd-base-styles-unzipped.png)
 
