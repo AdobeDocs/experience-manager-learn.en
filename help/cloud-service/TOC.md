@@ -216,6 +216,9 @@ team: TM
     + Advanced{#advanced}
         + [Metadata workers](./asset-compute/advanced/metadata.md)
     + [Troubleshooting](./asset-compute/troubleshooting.md)
++ Cloud 5{#cloud-5}
+    + [Introduction](./cloud-5/cloud5-introduction.md)
+    + [CDN Deep Dive](./cloud-5/cloud5-aem-cdn-part1.md)
 + [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
