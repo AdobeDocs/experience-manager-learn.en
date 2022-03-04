@@ -187,6 +187,11 @@ team: TM
         + [Adobe Sign Cloud Configuration](./forms/forms-and-sign/create-adobe-sign-cloud-configuration.md)
         + [Create Adaptive Form](./forms/forms-and-sign/create-adaptive-form.md)
         + [Configure for fill and sign](./forms/forms-and-sign/configure-form-fill-and-sign.md)
+    + Integrate with Microsoft Dynamics{#formscs-dynamics-crm}
+        + [Create Dynamics Application](./forms/formscs-dynamics-crm/create-dynamics-account.md)
+        + [Configure Data Source](./forms/formscs-dynamics-crm/configure-odata-data-source.md)
+        + [Create Form Data Model](./forms/formscs-dynamics-crm/create-form-data-model.md)
+        + [Create Adaptive Form](./forms/formscs-dynamics-crm/create-adaptive-form.md)
     + Integrate with Salesforce{#integrate-with-salesforce}
         + [Introduction](./forms/integrate-with-salesforce/introduction.md)
         + [Create connected app](./forms/integrate-with-salesforce/create-connected-app.md)
