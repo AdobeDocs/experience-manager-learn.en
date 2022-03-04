@@ -5,6 +5,8 @@ version: Cloud Service
 feature: Developer Tools
 role: Admin, Developer
 level: Intermediate
+recommendations: noDisplay
+hidefromtoc: yes
 kt: 9797
 thumbnail: 340760.jpeg
 ---
