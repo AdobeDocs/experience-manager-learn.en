@@ -223,7 +223,8 @@ team: TM
     + [Troubleshooting](./asset-compute/troubleshooting.md)
 + Cloud 5{#cloud-5}
     + [Introduction](./cloud-5/cloud5-introduction.md)
-    + [CDN Deep Dive](./cloud-5/cloud5-aem-cdn-part1.md)
+    + [Season 1](./cloud-5/cloud5-season-1.md)
+    + [AEM CDN Part 1](./cloud-5/cloud5-aem-cdn-part1.md)
 + [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
