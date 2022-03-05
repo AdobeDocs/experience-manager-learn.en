@@ -8,7 +8,7 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 9839
-
+exl-id: cb26970f-f975-4405-bef6-782d27ab2906
 ---
 # Create and configure Form Data Model
 
@@ -16,4 +16,3 @@ kt: 9839
 The following video walks you through the steps to create and configure form data model.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340790?quality=12&learn=on)
-

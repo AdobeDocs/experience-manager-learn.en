@@ -8,7 +8,7 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 9839
-
+exl-id: ec4ed3e1-98ae-41ce-9891-09da3321edd5
 ---
 # Create and configure Dynamics account
 
@@ -21,4 +21,3 @@ kt: 9839
 The following video walks you through the steps to register the Microsoft Dynamics with Azure Active Directory.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340743?quality=12&learn=on)
-
