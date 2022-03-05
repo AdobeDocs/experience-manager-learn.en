@@ -8,7 +8,7 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 9839
-
+exl-id: 804b2fad-34a3-4bcb-913c-9070393a6c9c
 ---
 # Create and configure Adaptive Form 
 
@@ -16,4 +16,3 @@ kt: 9839
 The following video walks you through the steps to create and configure Adaptive Form to create and display lead objects.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340791?quality=12&learn=on)
-
