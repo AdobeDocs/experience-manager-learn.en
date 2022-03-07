@@ -180,7 +180,7 @@ Next, we will make some updates to the `HelloWorldModel` Sling Model in order to
 1. Add the following import statements:
 
     ```java
-    import org.apache.commons.lang.StringUtils;
+    import org.apache.commons.lang3.StringUtils;
     import org.apache.sling.models.annotations.DefaultInjectionStrategy;
     ```
 
