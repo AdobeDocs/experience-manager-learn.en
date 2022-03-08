@@ -147,6 +147,9 @@ index: y
   + [Create Initial Form](sign-multiple-documents/create-initial-form.md)
   + [Create Forms for Signing](sign-multiple-documents/create-forms-for-signing.md)
   + [Testing the Solution](sign-multiple-documents/testing-and-trouble-shooting.md)
++ Custom workflow steps{#custom-workflow-steps}
+  + [Extract node from xml document](custom-workflow-steps/extract-xml-node.md)
+  + [Save Document to File System](custom-workflow-steps/write-payload-document.md)
 + Variables in AEM Workflow{#variables-aem-workflow}
   + [Introduction - Variables in Workflow](variables-aem-workflow/introduction.md)
   + [XML Variables](variables-aem-workflow/part1.md)
