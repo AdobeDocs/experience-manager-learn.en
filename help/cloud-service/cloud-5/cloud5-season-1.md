@@ -10,10 +10,13 @@ exl-id: 210e5483-d79e-47ac-aa09-b6956cca2e62
 
 ![AEM Experts Series](./imgs/masthead.png)
 
+## Introduction
+
+Welcome to the Cloud 5 Series from AEM Engineering. One of the primary problems in the implementation phase of any product is having enough code samples and/or live demonstrations of those samples, tool, or APIs. The goal of this series is to deliver useful information about AEM as a Cloud Service in 5 minutes or less.
+
 ## Season 1
 
-Each season varies in length and be released on a fixed schedule. Season 1's topics are primarily driven from past requests that we have come across in 
-our day-to-day engagements with customers and partners. Visit this page for weekly updates or follow us on the social network of your choosing.
+Each season varies in length and will be released on a fixed schedule. Season 1's topics are primarily driven from past requests that we have come across in our day-to-day engagements with customers and partners. Visit this page for weekly updates or follow us on the social network of your choosing.
 
 <table>
   <tr>
