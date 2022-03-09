@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 kt: kt-9860
-
+exl-id: 5282034f-275a-479d-aacb-fc5387da793d
 ---
 # Extract node from submitted data xml
 
