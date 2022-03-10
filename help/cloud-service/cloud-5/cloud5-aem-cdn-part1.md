@@ -1,5 +1,5 @@
 ---
-title: Cloud 5 AEM CDN Part1
+title: Cloud 5 AEM CDN Part 1
 description: This is part 1 of a deep dive into AEM as a Cloud Service's CDN.
 version: Cloud Service
 feature: Developer Tools
