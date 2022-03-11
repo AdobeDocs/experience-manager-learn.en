@@ -606,7 +606,7 @@ Next add some brand-specific styles to the **Header** component using Sass.
     }
     ```
 
-3. Update **header.component.js** to reference **header.component.scss**:
+3. Update **header.component.ts** to reference **header.component.scss**:
 
     ```diff
     ...

@@ -16,9 +16,13 @@ Learn how to connect AEM as a Cloud Service with your VPN to create secure commu
 
 ## What is Virtual Private Network?
 
-Virtual Private Network (VPN) allows an AEM as a Cloud Service customer to connect a Cloud Manager Program to an existing, [supported](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/configuring-advanced-networking.html#vpn) VPN. This allows secure, and controlled connections between AEM as a Cloud Service and services within the customer's network.
+Virtual Private Network (VPN) allows an AEM as a Cloud Service customer to connect **the AEM environments** within a Cloud Manager Program to an existing, [supported](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/configuring-advanced-networking.html#vpn) VPN. This allows secure, and controlled connections between AEM as a Cloud Service and services within the customer's network.
 
 A Cloud Manager Program can only have a __single__ network infrastructure type. Ensure that Virtual Private Network is the most [appropriate type of network infrastructure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/configuring-advanced-networking.html#general-vpn-considerations) for your AEM as a Cloud Service before executing the following commands.
+
+>[!NOTE]
+>
+>Please note, connecting the build environment from Cloud Manager to a VPN is not supported. If you must access binary artifacts from a private repository you need to set up a secure and password-protected repository with a URL that is available on the public internet [as described here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/create-application-project/setting-up-project.html#password-protected-maven-repositories).
 
 >[!MORELIKETHIS]
 >

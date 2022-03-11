@@ -76,7 +76,7 @@ There are a couple of example GitHub repos that can be used as a reference:
 
 ## Congratulations! {#congratulations}
 
-Congratulations, you have just created just updated and deployed a theme to AEM!
+Congratulations, you have just updated and deployed a theme to AEM!
 
 ### Next Steps {#next-steps}
 
