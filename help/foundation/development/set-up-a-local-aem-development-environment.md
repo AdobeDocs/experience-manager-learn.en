@@ -73,7 +73,7 @@ It is also *critical* test code against a local ***Publish*** instance. The ***P
 
 ***[!DNL Apache Maven]*** is a tool to manage the build and deploy procedure for Java-based projects. AEM is a Java-based platform and [!DNL Maven] is the standard way to manage code for an AEM project. When we say ***AEM Maven Project*** or just your ***AEM Project***, we are referring to a Maven project that includes all of the *custom* code for your site.
 
-All AEM projects should be built off the latest version of the **[!DNL AEM Project Archetype]**: [https://github.com/Adobe-Marketing-Cloud/aem-project-archetype](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). The [!DNL AEM Project Archetype] will create a bootstrap of an AEM project with some sample code and content. The [!DNL AEM Project Archetype] also includes **[!DNL AEM WCM Core Components]** configured to be used on your project.
+All AEM projects should be built off the latest version of the **[!DNL AEM Project Archetype]**: [https://github.com/adobe/aem-project-archetype](https://github.com/adobe/aem-project-archetype). The [!DNL AEM Project Archetype] will create a bootstrap of an AEM project with some sample code and content. The [!DNL AEM Project Archetype] also includes **[!DNL AEM WCM Core Components]** configured to be used on your project.
 
 >[!CAUTION]
 >
@@ -97,89 +97,9 @@ All AEM projects should be built off the latest version of the **[!DNL AEM Proje
 
    ```
 
-4. Add the **[!DNL adobe-public]** profile to your [!DNL Maven] [settings.xml](https://maven.apache.org/settings.html) file in order to automatically add **[!DNL repo.adobe.com]** to the maven build process.
-
-5. Create a file named `settings.xml` at `~/.m2/settings.xml` if it doesn't exist already.
-
-6. Add the **[!DNL adobe-public]** profile to the `settings.xml` file based on [the instructions here](https://repo.adobe.com/).
-
-   A sample `settings.xml` is listed below. *Note, the naming convention of `settings.xml` and the placement beneath the user's `.m2` directory is important.*
-
-   ```xml
-   <settings xmlns="https://maven.apache.org/SETTINGS/1.0.0"
-     xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="https://maven.apache.org/SETTINGS/1.0.0
-                         https://maven.apache.org/xsd/settings-1.0.0.xsd">
-   <profiles>
-    <!-- ====================================================== -->
-    <!-- A D O B E   P U B L I C   P R O F I L E                -->
-    <!-- ====================================================== -->
-        <profile>
-            <id>adobe-public</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <releaseRepository-Id>adobe-public-releases</releaseRepository-Id>
-                <releaseRepository-Name>Adobe Public Releases</releaseRepository-Name>
-                <releaseRepository-URL>https://repo.adobe.com/nexus/content/groups/public</releaseRepository-URL>
-            </properties>
-            <repositories>
-                <repository>
-                    <id>adobe-public-releases</id>
-                    <name>Adobe Public Repository</name>
-                    <url>https://repo.adobe.com/nexus/content/groups/public</url>
-                    <releases>
-                        <enabled>true</enabled>
-                        <updatePolicy>never</updatePolicy>
-                    </releases>
-                    <snapshots>
-                        <enabled>false</enabled>
-                    </snapshots>
-                </repository>
-            </repositories>
-            <pluginRepositories>
-                <pluginRepository>
-                    <id>adobe-public-releases</id>
-                    <name>Adobe Public Repository</name>
-                    <url>https://repo.adobe.com/nexus/content/groups/public</url>
-                    <releases>
-                        <enabled>true</enabled>
-                        <updatePolicy>never</updatePolicy>
-                    </releases>
-                    <snapshots>
-                        <enabled>false</enabled>
-                    </snapshots>
-                </pluginRepository>
-            </pluginRepositories>
-        </profile>
-   </profiles>
-    <activeProfiles>
-        <activeProfile>adobe-public</activeProfile>
-    </activeProfiles>
-   </settings>
-   ```
-
-7. Verify that the **adobe-public** profile is active by running the following command:
-
-    ```shell
-    $ mvn help:effective-settings
-    ...
-    <activeProfiles>
-        <activeProfile>adobe-public</activeProfile>
-    </activeProfiles>
-    <pluginGroups>
-        <pluginGroup>org.apache.maven.plugins</pluginGroup>
-        <pluginGroup>org.codehaus.mojo</pluginGroup>
-    </pluginGroups>
-    </settings>
-    [INFO] ------------------------------------------------------------------------
-    [INFO] BUILD SUCCESS
-    [INFO] ------------------------------------------------------------------------
-    [INFO] Total time:  0.856 s
-    ```
-
-    If you do not see the **[!DNL adobe-public]** it is an indication that the Adobe repo is not properly referenced in your `~/.m2/settings.xml` file. Please revisit the earlier steps and verify that the settings.xml file references the Adobe repo.
+   >[!NOTE]
+   >
+   > In the past the addition of `adobe-public` Maven profile was needed to point `nexus.adobe.com` to download AEM artifacts. All AEM artifacts are now available via Maven Central and the `adobe-public` profile is not needed.
 
 ## Set Up an Integrated Development Environment
 
