@@ -14,7 +14,7 @@ Adobe Experience Manager (AEM) has multiple options for defining headless endpoi
 
 >[!TIP]
 >
->This collection of tutorials are designed for those who prefer to **learn by doing**. If you prefer learning concepts from the ground up, check out the [AEM Headless Developer Journey](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/headless-journey/developer/overview.html). This set of tutorials and the journey complement each other.
+>This collection of tutorials are designed for those who prefer to **learn by doing**. If you prefer learning concepts from the ground up, check out the [AEM Headless Developer Journey](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/journeys/developer/overview.html). This set of tutorials and the journey complement each other.
 
 ## Tutorials by API
 

@@ -17,7 +17,7 @@ exl-id: c588bdca-b8a8-4de2-97e0-ba08b195699f
 # Create Adaptive Form based on JSON Schema
 
 
-The ability to create Adaptive Forms based on JSON schema was introduced with AEM Forms 6.3 release. The details on creating Adaptive Forms with JSON schema are explained in detail in this [article](https://helpx.adobe.com/experience-manager/6-3/forms/using/adaptive-form-json-schema-form-model.html).
+The ability to create Adaptive Forms based on JSON schema was introduced with AEM Forms 6.3 release. The details on creating Adaptive Forms with JSON schema are explained in detail in this [article](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-advanced-authoring/adaptive-form-json-schema-form-model.html).
 
 Once you create Adaptive Form based on JSON schema, the next step is to store the submitted data in database. For this purpose we will use the new JSON data type introduced by various database vendors. For the purpose of this article we will use MySql 8 database to store the submitted data.
 

@@ -373,7 +373,7 @@ The initial set up of the mock JSON does **require a local AEM instance**.
 
     Using a variable for the value of the `cq:pagemodel_root_url` will make it easier to toggle between the proxy and mock json model.
 
-1. Open the file `ui.frontend/.env.development` and make the following updates to comment out the previous value for `REACT_APP_PAGE_MODEL_PATH`:
+1. Open the file `ui.frontend/.env.development` and make the following updates to comment out the previous value for `REACT_APP_PAGE_MODEL_PATH` and `REACT_APP_API_HOST`:
 
     ```diff
     + PUBLIC_URL=/
@@ -381,6 +381,9 @@ The initial set up of the mock JSON does **require a local AEM instance**.
 
     - REACT_APP_PAGE_MODEL_PATH=/content/wknd-spa-react/us/en.model.json
     + REACT_APP_PAGE_MODEL_PATH=/mock-content/mock.model.json
+
+    - REACT_APP_API_HOST=http://localhost:4502
+    + #REACT_APP_API_HOST=http://localhost:4502
 
     REACT_APP_ROOT=/content/wknd-spa-react/us/en/home.html
     ```
@@ -405,6 +408,7 @@ You can now toggle where to consume the JSON content by toggling the entries in 
 ```plain
 # JSON API via proxy to AEM
 #REACT_APP_PAGE_MODEL_PATH=/content/wknd-spa-react/us/en.model.json
+#REACT_APP_API_HOST=http://localhost:4502
 
 # JSON API via static mock file
 REACT_APP_PAGE_MODEL_PATH=/mock-content/mock.model.json
