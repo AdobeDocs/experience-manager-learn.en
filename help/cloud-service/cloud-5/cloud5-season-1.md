@@ -34,14 +34,16 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </p>
      </td>   
      <td>
-      <img alt="AEM CDN Part 2" src="./imgs/coming-soon.png"/>
+      <a href="./cloud5-aem-cdn-part2.md">
+         <img alt="AEM CDN Part 2" src="./imgs/002-thumb.png"/>
+      </a>
       <div>
-         <strong>AEM CDN Deep Dive (part 2)</strong>
+         <a href="./cloud5-aem-cdn-part2.md"><strong>AEM CDN Deep Dive (part 2)</strong></a>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 11 March 2022
+         Part 2 is a continuation of our look at the AEM as a Cloud Service CDN. We answer some of the more common questions and myths about what features you get with the new CDN.
       </p>
    </td>     
    </td>   
