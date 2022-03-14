@@ -18,6 +18,7 @@ team: TM
   + [Using](basics/using.md)
   + [Creating content](basics/creating.md)
   + [Collaborating](basics/collaborating.md)
+  + [Link sharing](basics/link-sharing.md)
 
 + [Creative Cloud integration](integrations/creative-cloud.md)
 
