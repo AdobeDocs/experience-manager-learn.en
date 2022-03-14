@@ -24,7 +24,7 @@ HLS browser support is as follows, for unsupported browsers we fallback to progr
 
 >[!NOTE]
 >
-> Dynamic Media Hybrid will NOT support video streaming on Internet Explorer 11 after May 2022.
+> Dynamic Media Hybrid will NOT support video streaming on Internet Explorer 11 after March 15th, 2022.
 
 <table> 
  <thead> 
