@@ -45,8 +45,7 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
         <br/>
          Part 2 is a continuation of our look at the AEM as a Cloud Service CDN. We answer some of the more common questions and myths about what features you get with the new CDN.
       </p>
-   </td>     
-   </td>   
+   </td>
      <td>
       <img alt="Log Files & Logging" src="./imgs/coming-soon.png"/>
       <div>
@@ -81,8 +80,7 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
         <br/>
          Coming 1 April 2022
       </p>
-   </td>     
-   </td>   
+   </td>
      <td>
       <img alt="Migration (part 1)" src="./imgs/coming-soon.png"/>
       <div>
@@ -92,6 +90,41 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       <p>
         <br/>
          Coming 8 April 2022
+      </p>
+   </td> 
+  </tr>
+<tr>
+   <td>
+      <img alt="Migration (part 2)" src="./imgs/coming-soon.png"/>
+      <div>
+        <strong>Migration (part 2)</strong>        
+         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+      </div>
+      <p>
+        <br/>
+         Coming 14 April 2022
+      </p>
+     </td>   
+     <td>
+      <img alt="Dispatcher Validator" src="./imgs/coming-soon.png"/>
+      <div>
+         <strong>Dispatcher Validator</strong>
+         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+      </div>
+      <p>
+        <br/>
+         Coming 22 April 2022
+      </p>
+   </td>
+     <td>
+      <img alt="Indexing and Search Tips" src="./imgs/coming-soon.png"/>
+      <div>
+         <strong>Indexing and Search Tips</strong>
+         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+      </div>
+      <p>
+        <br/>
+         Coming 29 April 2022
       </p>
    </td> 
   </tr>
