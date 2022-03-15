@@ -8,8 +8,8 @@ role: User
 level: Beginner
 kt: 9763
 thumbnail: 341025.jpeg
+exl-id: 719d3101-2c27-4165-a9d7-97e6f637d71f
 ---
-
 # Public link sharing
 
 Learn how Assets Essentials' Share Link allows users to share assets with internal and external stakeholders while minimizing the risk of sharing wrong assets or information.
