@@ -7,8 +7,8 @@ level: Intermediate
 kt: 9927
 hidefromtoc: yes
 thumbnail: 341156.jpeg
+exl-id: 1d000b09-52e7-4828-a0b3-32a47131e66c
 ---
-
 # Cloud 5 AEM Log Files
 
 This is a deep dive into how to access logs in AEM as a Cloud Service, including how to access them via the user interface as well as from APIs.
