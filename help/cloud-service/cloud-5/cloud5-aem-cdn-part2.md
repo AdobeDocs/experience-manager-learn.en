@@ -1,6 +1,6 @@
 ---
 title: Cloud 5 AEM CDN Part 2
-description: Using the AEM CDN and deep dive into various options. (Between 60 and 160 characters)
+description: part two of using the AEM CDN and deep dive into various options.
 version: Cloud Service
 role: Admin, Developer
 level: Intermediate
@@ -11,7 +11,7 @@ exl-id: 3d6f3506-e1ec-4eeb-869f-02db2821b8c6
 ---
 # Cloud 5 AEM CDN Part2
 
-Part two of using the AEM CDN and deep dive into various options. 
+Part two of using the AEM CDN and deep dive into various options.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340994/?quality=12&learn=on)
 
