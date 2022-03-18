@@ -20,4 +20,6 @@ This is a deep dive into how to access logs in AEM as a Cloud Service, including
 + Log Files [Overview](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs.html)
 + Accessing Log files via the UI
 + Using the Adobe CLI
+  + [Adobe I/O Extensible CLI](https://github.com/adobe/aio-cli)
+  + [aio-cli-plugin-cloudmanager](https://github.com/adobe/aio-cli-plugin-cloudmanager/blob/main/README.md)
 + Tailing Log Files

@@ -47,14 +47,16 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </p>
    </td>
      <td>
-      <img alt="Log Files & Logging" src="./imgs/coming-soon.png"/>
+        <a href="./cloud5-aem-log-files.md">
+            <img alt="Log Files & Logging" src="./imgs/003-thumb.png"/>
+        </a>
       <div>
-         <strong>Log Files & Logging</strong>
+         <a href="./cloud5-aem-log-files.md"><strong>Log Files & Logging</strong></a>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 18 March 2022
+         This is a quick look into how to access logs in AEM as a Cloud Service, including how to access them via the user interface as well as from APIs.
       </p>
    </td> 
   </tr>
