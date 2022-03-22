@@ -412,4 +412,5 @@ You can now toggle where to consume the JSON content by toggling the entries in 
 
 # JSON API via static mock file
 REACT_APP_PAGE_MODEL_PATH=/mock-content/mock.model.json
+REACT_APP_API_HOST=http://localhost:3000
 ```
