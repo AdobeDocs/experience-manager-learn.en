@@ -383,7 +383,7 @@ The initial set up of the mock JSON does **require a local AEM instance**.
     + REACT_APP_PAGE_MODEL_PATH=/mock-content/mock.model.json
 
     - REACT_APP_API_HOST=http://localhost:4502
-    + #REACT_APP_API_HOST=http://localhost:4502
+    + REACT_APP_API_HOST=http://localhost:3000
 
     REACT_APP_ROOT=/content/wknd-spa-react/us/en/home.html
     ```
