@@ -1,5 +1,5 @@
 ---
-title: Write the payload document to file system
+title: Extract node from submitted data xml
 description: Custom process step to add write document residing under the payload folder to the file system
 feature: Adaptive Forms
 version: 6.5
