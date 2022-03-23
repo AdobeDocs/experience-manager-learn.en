@@ -34,7 +34,7 @@ Use the [Adobe I/O CLI Asset Compute plug-in](../set-up/development-environment.
     + Select `Actions: Deploy runtime actions`
     + Use the arrows keys to select and space to unselect/select, and Enter to confirm selection
 1. __Select type of actions to generate__
-    + Select `Adobe Asset Compute Worker`
+    + Select `DX Asset Compute Worker v1`
     + Use the arrows keys to select, space to unselect/select, and Enter to confirm selection
 1. __How would you like to name this action?__
     + Use the default name `worker`. 
