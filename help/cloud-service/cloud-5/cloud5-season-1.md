@@ -62,14 +62,16 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
   </tr>
   <tr>
    <td>
-      <img alt="Access Tokens" src="./imgs/coming-soon.png"/>
+        <a href="./cloud5-getting-login-token-integrations.md">
+            <img alt="Access Tokens" src="./imgs/004-thumb.png"/>
+        </a>
       <div>
-        <strong>Integrating with Access Tokens</strong>        
+        <a href="./cloud5-getting-login-token-integrations.md"><strong>Integrating with Access Tokens</strong></a>        
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 25 March 2022
+         A quick overview and demo of interacting with login tokens for doing integration work within the cloud service environments.
       </p>
      </td>   
      <td>
