@@ -7,7 +7,7 @@ kt: 9957
 topic: Development
 role: Developer
 level: Intermediate
-
+exl-id: 93a177b0-7852-44da-89cc-836d127be4e7
 ---
 # Integrate AEM Forms with servicenow
 
@@ -40,4 +40,3 @@ The sample assets provided with this article include the following
 * [Open the Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/create-incident-in-service-now/jcr:content?wcmmode=disabled)
 * Enter some values in the description and comments field and click Create Incident button
 * The incident Id of the newly create incident should get populated in the text field and the table below should list all the incidents.
-
