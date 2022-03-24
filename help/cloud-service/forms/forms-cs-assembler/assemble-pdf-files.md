@@ -8,8 +8,7 @@ version: Cloud Service
 feature: Output Service
 topic: Development
 kt: 9980
-
-
+exl-id: 693dac88-84f3-4051-8e46-3105093711a3
 ---
 # Make the POST call
 
