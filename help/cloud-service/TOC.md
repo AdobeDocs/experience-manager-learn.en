@@ -168,6 +168,14 @@ team: TM
         + [Create USC Batch Configuration](./forms/formscs-batch-api/configure-usc-batch.md)
         + [Create Batch Config](./forms/formscs-batch-api/create-batch-config.md)
         + [Execute Batch](./forms/formscs-batch-api/execute-batch-generate-documents.md)
+    + PDF Manipulation in Forms CS{#forms-cs-assembler}
+        + [Introduction](./forms/forms-cs-assembler/introduction.md)
+        + [Create Service Credentials](./forms/forms-cs-assembler/service-credentials.md)
+        + [Create JWT Token](./forms/forms-cs-assembler/create-jwt.md)
+        + [Create Access Token](./forms/forms-cs-assembler/create-access-token.md)
+        + [Assemble PDF Files](./forms/forms-cs-assembler/assemble-pdf-files.md)
+        + [Test the solution](./forms/forms-cs-assembler/test.md)
+        + [Challenge](./forms/forms-cs-assembler/challenge.md)
     + Azure Portal Storage{#forms-cs-azure-portal}
         + [Introduction](./forms/forms-cs-azure-portal/introduction.md)
         + [Create Form Data Model](./forms/forms-cs-azure-portal/create-fdm.md)

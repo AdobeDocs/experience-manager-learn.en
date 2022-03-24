@@ -35,6 +35,7 @@ index: y
   + [Two Factor Authentication](some-useful-integrations/two-factor-authentication.md)
   + [OCR Data Extraction](some-useful-integrations/ocr-data-extraction.md)
   + [Cascading drop-down lists](some-useful-integrations/geonames-org.md)
+  + [Integrate with ServiceNow](some-useful-integrations/service-now.md)
 + Creating OSGi bundle {#creating-your-first-osgi-bundle}
   + [Setup your environment](creating-your-first-osgi-bundle/create-your-first-osgi-bundle.md)
   + [Create OSGi Service](creating-your-first-osgi-bundle/create-osgi-service.md)
