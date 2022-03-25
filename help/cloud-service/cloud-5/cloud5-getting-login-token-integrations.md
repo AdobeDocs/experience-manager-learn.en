@@ -7,8 +7,8 @@ level: Intermediate
 kt: 9981
 hidefromtoc: yes
 thumbnail: 341277.jpeg
+exl-id: 41d78e6b-7076-4f4f-8d2c-4bf969b61024
 ---
-
 # Getting a Login Token for Integrations
 
 An depth guide on how to get a login token for Cloud Service integrations and some use cases for doing so.
