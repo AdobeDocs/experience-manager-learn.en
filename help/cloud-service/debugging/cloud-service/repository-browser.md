@@ -12,8 +12,8 @@ thumbnail: 341464.jpg
 topic: Development
 role: Developer
 level: Beginner
+exl-id: 88af40fc-deff-4b92-84b1-88df2dbdd90b
 ---
-
 # Debugging AEM as a Cloud Service with Repository Browser
 
 Repository Browser is a powerful tool that provides visibility into AEM's underlying data store, allowing for easy debugging of AEM as a Cloud Service environment. Repository Browser supports a read-only view of the resources and properties of AEM on Production, Stage, and Development, as well as Author, Publish, and Preview services.
@@ -41,5 +41,4 @@ The Repository Browser opens for the selected service tier (Author, Publish, or 
 
 ## Publish and Preview access
 
-By default, access to Publish or Preview is limited, reducing the available resources in Repository Browser. [To view all resources on Publish (or Preview) add users to a Publish (or Preview) Administrators role.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/repository-browser.html#navigate-the-hierarchy) 
-
+By default, access to Publish or Preview is limited, reducing the available resources in Repository Browser. [To view all resources on Publish (or Preview) add users to a Publish (or Preview) Administrators role.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/repository-browser.html#navigate-the-hierarchy)
