@@ -75,7 +75,7 @@ team: TM
     + [Logs](./debugging/cloud-service/logs.md)
     + [Build and Deployment](./debugging/cloud-service/build-and-deployment.md)
     + [Developer Console](./debugging/cloud-service/developer-console.md)
-    + [CRXDE Lite](./debugging/cloud-service/crxde-lite.md)
+    + [Repository Browser](./debugging/cloud-service/repository-browser.md)
 + Accessing AEM{#accessing}    
   + [Overview](./accessing/overview.md)
   + [Adobe IMS users](./accessing/adobe-ims-users.md)
