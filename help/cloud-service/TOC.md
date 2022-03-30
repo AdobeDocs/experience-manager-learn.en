@@ -213,7 +213,7 @@ team: TM
     + Set up{#set-up}
         + [Account and service provisioning](./asset-compute/set-up/accounts-and-services.md)
         + [Local development environment](./asset-compute/set-up/development-environment.md)
-        + [Adobe Project Firefly](./asset-compute/set-up/firefly.md)
+        + [App Builder](./asset-compute/set-up/app-builder.md)
     + Develop{#develop}
         + [Create an Asset Compute project](./asset-compute/develop/project.md)
         + [Configure environment variables](./asset-compute/develop/environment-variables.md)
