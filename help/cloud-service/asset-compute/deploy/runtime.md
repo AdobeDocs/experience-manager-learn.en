@@ -20,8 +20,8 @@ Asset Compute projects, and the workers they contain, must be deployed to Adobe 
 
 When deploying to Adobe I/O Runtime for use by AEM as a Cloud Service Author services only two environment variables are required:
 
-+ `AIO_runtime_namespace` points the Adobe Project Firefly Workspace to deploy to
-+ `AIO_runtime_auth` are the Adobe Project Firefly workspace's authentication credentials
++ `AIO_runtime_namespace` points the App Builder Workspace to deploy to
++ `AIO_runtime_auth` are the App Builder workspace's authentication credentials
 
 The other standard variables defined in the `.env` file are implicitly provided by AEM as a Cloud Service when it invokes the Asset Compute worker.
 
@@ -75,6 +75,6 @@ If the Asset Compute project version changes the worker URL(s) also change to re
 
 ## Workspace API provisioning{#workspace-api-provisioning}
 
-When [setting up the Adobe Project Firefly project in Adobe I/O](../set-up/firefly.md) to support local development, a new Development workspace was created and __Asset Compute, I/O Events__ and __I/O Events Management APIs__ were added to it.
+When [setting up the App Builder project in Adobe I/O](../set-up/app-builder.md) to support local development, a new Development workspace was created and __Asset Compute, I/O Events__ and __I/O Events Management APIs__ were added to it.
 
 The __Asset Compute, I/O Events__ and __I/O Events Management APIs__ APIS are only explicitly added to the workspaces used for local development. Workspaces that integrate (exclusively) with AEM as a Cloud Service environments do __not__ need these APIs explicitly added as the APIs are made naturally available to AEM as a Cloud Service.

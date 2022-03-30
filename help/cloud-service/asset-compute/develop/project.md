@@ -23,11 +23,11 @@ Use the [Adobe I/O CLI Asset Compute plug-in](../set-up/development-environment.
 
 1. From the command line, navigate to the folder to contain the project.
 1. From the command line, execute `aio app init` to begin the interactive project generation CLI.
-    + This command may spawn a Web browser prompting for authentication to Adobe I/O. If it does, provide your Adobe credentials associated with the [required Adobe services and products](../set-up/accounts-and-services.md). If you are unable to log in, follow [these instructions on how to generate a project](https://www.adobe.io/project-firefly/docs/getting_started/first_app/#42-developer-is-not-logged-in-as-enterprise-organization-user). 
+    + This command may spawn a Web browser prompting for authentication to Adobe I/O. If it does, provide your Adobe credentials associated with the [required Adobe services and products](../set-up/accounts-and-services.md). If you are unable to log in, follow [these instructions on how to generate a project](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#42-developer-is-not-logged-in-as-enterprise-organization-user). 
 1. __Select Org__
-    + Select the Adobe Org that has AEM as a Cloud Service, Project Firefly are registered with
+    + Select the Adobe Org that has AEM as a Cloud Service, App Builder are registered with
 1. __Select Project__
-    + Locate and select the Project. This is the [Project title](../set-up/firefly.md) created from the Firefly project template, in this case `WKND AEM Asset Compute`
+    + Locate and select the Project. This is the [Project title](../set-up/app-builder.md) created from the App Builder project template, in this case `WKND AEM Asset Compute`
 1. __Select Workspace__
     +  Select the `Development` workspace
 1. __Which Adobe I/O App features do you want to enable for this project? Select components to include__
@@ -58,30 +58,6 @@ The developer tool requires a file named `console.json` that contains the necess
 
 > NOTE
 > The file contains credentials. If you store the file within your project, make sure to add it to your `.gitignore` file to prevent from being shared. The same applies to the `.env` file -- These credentials files must not be shared, or stored in Git.
-
-## Review the anatomy of the project
-
-The generated Asset Compute project is a Node.js project for use as a specialized Adobe Project Firefly project. The following structural elements are idiosyncratic to Asset Compute project:
-
-+ `/actions` contains subfolders, and each subfolder defines an Asset Compute worker. 
-    + `/actions/<worker-name>/index.js` defines the JavaScript used to perform the work of this worker. 
-        + The folder name `worker` is a default, and can be anything, as long as it is registered in the `manifest.yml`.
-        + More than one worker folder can be defined under `/actions` as needed, however they must be registered in the `manifest.yml`.
-+ `/test/asset-compute` contains the test suites for each worker. Similar to the `/actions` folder, `/test/asset-compute` can contain multiple subfolders, each corresponding to the worker it tests.
-    + `/test/asset-compute/worker`, representing a test suite for a specific worker, contains subfolders representing a specific test-case, along with the test input, parameters, and expected output.
-+ `/build` contains the output, logs, and artifacts of Asset Compute test case executions.
-+ `/manifest.yml` defines what Asset Compute workers the project provides. Each worker implementation must be enumerated in this file to make them available to AEM as a Cloud Service.
-+ `/console.json` defines Adobe I/O configurations
-    + This file can be generated/updated using the `aio app use` command.
-+ `/.aio` contains configurations used by the aio CLI tool. 
-    + This file can be generated/updated using the `aio app use` command.
-+ `/.env` defines environment variables in a `key=value` syntax and contains secrets that should not be shared. To protect these secrets, this file should NOT be checked into Git and is ignored via the project's default `.gitignore` file. 
-    + This file can be generated/updated using the `aio app use` command.
-    + Variables defined in this file can be overridden by [exporting variables](../deploy/runtime.md) on the command line.
-
-For more details on project structure review, review the [Anatomy of an Adobe Project Firefly project](https://www.adobe.io/project-firefly/docs/guides/).
-
-The bulk of the development takes place in the `/actions` folder developing worker implementations, and in `/test/asset-compute` writing tests for the custom Asset Compute workers.
 
 ## Asset Compute project on GitHub
 
