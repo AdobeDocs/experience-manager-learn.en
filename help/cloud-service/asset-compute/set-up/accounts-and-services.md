@@ -1,6 +1,6 @@
 ---
 title: Set up accounts and services for Asset Compute extensibility
-description: Developing Asset Compute workers require access to accounts and services including AEM as a Cloud Service, Adobe Project Firefly, and cloud storage provided by Microsoft or Amazon.
+description: Developing Asset Compute workers require access to accounts and services including AEM as a Cloud Service, App Builder, and cloud storage provided by Microsoft or Amazon.
 feature: Asset Compute Microservices
 topics: renditions, development
 version: Cloud Service
@@ -21,7 +21,7 @@ This tutorial requires the following services to be provisioning and accessible 
 All Adobe services must be accessible through the same Adobe Org, using your Adobe ID.
 
 + [AEM as a Cloud Service](#aem-as-a-cloud-service)
-+ [Adobe Project FireFly](#adobe-project-firefly) 
++ [App Builder](#app-builder) 
     + Provisioning can take between 2 - 10 days
 + Cloud storage
     + [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/)
@@ -41,15 +41,15 @@ Ideally a sandbox program or a non-sandbox Development environment is available 
 
 Note that a local AEM SDK is insufficient to complete this tutorial, as the local AEM SDK cannot communicate with Asset Compute microservices, instead a true AEM as a Cloud Service environment is required.
 
-## Adobe Project Firefly{#adobe-project-firefly}
+## App Builder{#app-builder}
 
-The [Adobe Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly.html) framework is used for building and deploying custom actions to Adobe I/O Runtime, Adobe's serverless platform. AEM Asset Compute projects are specially built Firefly projects that integrate with AEM Assets via Processing Profiles, and provide the ability to access and process asset binaries.
+The [App Builder](https://developer.adobe.com/app-builder/) framework is used for building and deploying custom actions to Adobe I/O Runtime, Adobe's serverless platform. AEM Asset Compute projects are specially built App Builder projects that integrate with AEM Assets via Processing Profiles, and provide the ability to access and process asset binaries.
 
-To gain access to Project Firefly, sign-up for the preview.
+To gain access to App Builder, sign-up for the preview.
 
-1. [Sign up for Project Firefly preview](https://adobeio.typeform.com/to/obqgRm). 
+1. [Sign up for App Builder trial](https://developer.adobe.com/app-builder/trial/). 
 1. Wait approximately 2 - 10 days until you're notified via e-mail that you are provisioned before continuing with the tutorial.
-    + If you are unsure if you've been provisioned, continue with the next steps and if you are unable to create a __Project Firefly__ project in [Adobe Developer Console](https://console.adobe.io) you still have not been provisioned.
+    + If you are unsure if you've been provisioned, continue with the next steps and if you are unable to create a __App Builder__ project in [Adobe Developer Console](https://developer.adobe.com/console/) you still have not been provisioned.
 
 ## Cloud storage
 
@@ -66,7 +66,6 @@ This tutorial will use Azure Blob Storage, however [Amazon S3](#amazon-s3) can b
 >[!VIDEO](https://video.tv.adobe.com/v/40377/?quality=12&learn=on)
 
 _Click-through of provisioning Azure Blob Storage (No audio)_
-
 
 1. Log in to your [Microsoft Azure account](https://azure.microsoft.com/en-us/account/).
 1. Navigate to the __Storage Accounts__ Azure services section
