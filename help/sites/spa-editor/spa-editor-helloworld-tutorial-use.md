@@ -125,10 +125,6 @@ The goal of this tutorial is to extend the We.Retail Journal App with a new comp
    >
    > In this project the Maven profile to build and package the entire project is `autoInstallSinglePackage`
 
-   >[!CAUTION]
-   >
-   > If you recieve an error during the build, [ensure your Maven settings.xml file includes Adobe's Maven artifact repository](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
-
 1. Navigate to:
 
    * [http://localhost:4502/editor.html/content/we-retail-journal/react/en/home.html](http://localhost:4502/editor.html/content/we-retail-journal/react/en/home.html)
