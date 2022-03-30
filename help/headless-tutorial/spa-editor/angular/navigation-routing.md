@@ -307,7 +307,7 @@ Next, implement the navigation menu with a new `NavigationComponent`. We could a
     ":type": "wknd-spa-angular/components/header"
     ```
 
-    The hierarchical nature of the AEM pages are modeled in the JSON that can be used to populate a navigation menu. Recall that the `Header` component inherits all of the functionality of the [Navigation Core Component](https://www.aemcomponents.dev/content/core-components-examples/library/templating/navigation.html) and the content exposed through the JSON will be automatically mapped to the Angular `@Input` annotation.
+    The hierarchical nature of the AEM pages are modeled in the JSON that can be used to populate a navigation menu. Recall that the `Header` component inherits all of the functionality of the [Navigation Core Component](https://www.aemcomponents.dev/content/core-components-examples/library/core-structure/navigation.html) and the content exposed through the JSON will be automatically mapped to the Angular `@Input` annotation.
 
 2. Open a new terminal window and navigate to the `ui.frontend` folder of the SPA project. Create a new `NavigationComponent` using the Angular CLI tool:
 
