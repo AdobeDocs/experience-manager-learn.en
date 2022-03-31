@@ -236,6 +236,7 @@ team: TM
     + [AEM CDN Part 2](./cloud-5/cloud5-aem-cdn-part2.md)
     + [AEM Log Files](./cloud-5/cloud5-aem-log-files.md)
     + [Login Tokens](./cloud-5/cloud5-getting-login-token-integrations.md)
+    + [Cloud Dispatcher](./cloud-5/cloud5-aem-dispatcher-cloud.md)
 + [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
