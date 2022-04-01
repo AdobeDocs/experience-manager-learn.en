@@ -75,14 +75,16 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </p>
      </td>   
      <td>
-      <img alt="Dispatcher in the Cloud" src="./imgs/coming-soon.png"/>
+      <a href="./cloud5-aem-dispatcher-cloud.md">
+      <img alt="Dispatcher in the Cloud" src="./imgs/005-thumb.png"/>
+       </a>  
       <div>
-         <strong>Dispatcher in the Cloud</strong>
+        <a href="./cloud5-aem-dispatcher-cloud.md"><strong>Dispatcher in the Cloud</strong></a>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 1 April 2022
+        Darin and James discuss the Dispatcher in the AEM Cloud including some best practices and differences from AMS/On-Prem. 
       </p>
    </td>
      <td>
@@ -132,4 +134,18 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </p>
    </td> 
   </tr>
+    <tr>
+        <td>
+            <img alt="Adobe App Builder" src="./imgs/coming-soon.png"/>
+            <div>
+                <strong>Migration (part 2)</strong><br/>        
+                <em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Special Guest</em>
+            </div>
+            <p><br/>
+                Coming 6 May 2022
+            </p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
 </table>
