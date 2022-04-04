@@ -20,6 +20,9 @@ team: TM
   + [Collaborating](basics/collaborating.md)
   + [Link sharing](basics/link-sharing.md)
 
++ Configuring{#configuring}
+  + [Permissions management](configuring/permissions-management.md)
+
 + [Creative Cloud integration](integrations/creative-cloud.md)
 
 + Adobe Workfront integration{#workfront}
