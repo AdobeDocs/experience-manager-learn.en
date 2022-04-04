@@ -10,7 +10,7 @@ kt: 9818
 thumbnail: 342113.jpeg
 ---
 
-# Permissions Management
+# Permissions management in Assets Essentials
 
 Learn how AEM Assets Essentials permission management allows organizations to control access to assets, protect their brand, and ensure compliance. 
 
