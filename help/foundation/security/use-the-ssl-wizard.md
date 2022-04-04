@@ -20,6 +20,8 @@ Adobe Experience Manager's SSL setup wizard to make it easier to set up an AEM i
 
 >[!VIDEO](https://video.tv.adobe.com/v/17993/?quality=12&learn=on)
 
+Open the __SSL Configuration Wizard__ can be opened directly by navigating to __AEM Author > Tools > Security > SSL Configuration__.
+
 >[!NOTE]
 >
 >For managed environments, it is best for the IT department to provide CA-trusted certificates and keys.
