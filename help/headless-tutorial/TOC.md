@@ -40,6 +40,8 @@ index: y
     + [3 - Explore the AEM GraphQL API](/help/headless-tutorial/graphql/advanced-graphql/explore-graphql-api.md)
     + [4 - Persisted GraphQL Queries](/help/headless-tutorial/graphql/advanced-graphql/graphql-persisted-queries.md)
     + [5 - Client Application Integration](/help/headless-tutorial/graphql/advanced-graphql/client-application-integration.md)
+  + How To {#how-to}
+    + [Work with rich text](./graphql/how-to/rich-text.md)
   + Examples {#example-apps}
     + [React](./graphql/example-apps/react-app.md)
     + [iOS SwiftUI](./graphql/example-apps/ios-swiftui-app.md)
