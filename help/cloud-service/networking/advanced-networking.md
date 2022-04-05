@@ -12,7 +12,14 @@ exl-id: d1c1a3cf-989a-4693-9e0f-c1b545643e41
 ---
 # Advanced networking
 
-AEM as a Cloud Service provides three options for managing connectivity with external services. A Cloud Manager program, and its AEM as a Cloud Service environments, can only use a single type of advanced networking configuration at a time, so ensure that the most appropriate type is selected.
+AEM as a Cloud Service provides advanced networking features that allows for precise management of connections to and from AEM as a Cloud Service programs. 
+
+|                                                   | [Production Programs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/introduction-production-programs.html) | [Sandbox Programs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/introduction-sandbox-programs.html) |
+|---------------------------------------------------|:-----------------------:|:---------------------|
+| Supports advanced networking                      | &#10004;                | &#10008;             |
+
+
+AEM's advanced networking is comprised of three options for managing connectivity with external services. A Cloud Manager program, and its AEM as a Cloud Service environments, can only use a single type of advanced networking configuration at a time, so ensure that the most appropriate type is selected.
 
 |                                   | HTTP/HTTPS on standard ports | HTTP/HTTPS on non-standard ports | Non-HTTP/HTTPS connections | Dedicated egress IP | "No-proxy hosts" list | Connect to VPN-protected services | Limit AEM Publish traffic by IP |
 |-----------------------------------|:----------------------------:|:--------------------------------:|:--------------------------:|:-------------------:|:-------------------------------------:|:-------------------------------------:|:----:|
