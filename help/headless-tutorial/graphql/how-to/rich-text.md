@@ -7,8 +7,8 @@ kt: 9985
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
+exl-id: 790a33a9-b4f4-4568-8dfe-7e473a5b68b6
 ---
-
 # Working with rich text in Adobe Experience Manager Headless
 
 The Multi line text field is a data type of Content Fragments that enables authors to create rich text content. References to other content, such as images or other Content Fragments can be dynamically inserted in-line within the flow of the text. AEM's GraphQL API offers a robust capability to return rich text as HTML, plain text, or as pure JSON. The JSON representation is powerful as it gives the client application full control over how to render the content.
