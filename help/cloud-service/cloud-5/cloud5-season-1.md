@@ -14,6 +14,8 @@ exl-id: 210e5483-d79e-47ac-aa09-b6956cca2e62
 
 Welcome to the Cloud 5 Series from AEM Engineering. One of the primary problems in the implementation phase of any product is having enough code samples and/or live demonstrations of those samples, tool, or APIs. The goal of this series is to deliver useful information about AEM as a Cloud Service in 5 minutes or less.
 
+Visit the [Suggestion Box](https://forms.office.com/r/74P5Xz4UH0) for submitting topic ideas.
+
 ## Season 1
 
 Each season varies in length and will be released on a fixed schedule. Season 1's topics are primarily driven from past requests that we have come across in our day-to-day engagements with customers and partners. Visit this page for weekly updates or follow us on the social network of your choosing.
@@ -91,7 +93,7 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       <img alt="Migration (part 1)" src="./imgs/coming-soon.png"/>
       <div>
          <strong>Migration (part 1)</strong>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Special Guest</em>
       </div>
       <p>
         <br/>
@@ -138,7 +140,7 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
         <td>
             <img alt="Adobe App Builder" src="./imgs/coming-soon.png"/>
             <div>
-                <strong>Migration (part 2)</strong><br/>        
+                <strong>Adobe App Builder</strong><br/>        
                 <em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Special Guest</em>
             </div>
             <p><br/>
