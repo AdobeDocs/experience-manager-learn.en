@@ -47,6 +47,8 @@ This OSGi configuration example configures AEM's Mail OSGi Service to use an ext
 
 + `ui.config/src/jcr_root/apps/wknd-examples/osgiconfig/config/com.day.cq.mailer.DefaultMailService.cfg.json`
 
+Configure AEM's [DefaulMailService](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines.html#sending-email) as required by your email provider (e.g. `smtp.ssl`, etc.).
+
 ```json
 {
     "smtp.host": "$[env:AEM_PROXY_HOST;default=proxy.tunnel]",
