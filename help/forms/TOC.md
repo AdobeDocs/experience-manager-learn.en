@@ -227,6 +227,10 @@ index: y
   + [Adding Table to Print Channel](ic-print-channel-tutorial/adding-table-to-print-channel.md)
   + [Using Watched Folder to Generate Documents](ic-print-channel-tutorial/using-watched-folder-to-generate-document.md)
   + [Opening Agent UI on Form Submission](ic-print-channel-tutorial/opening-agent-ui-on-form-submission.md)
++ Save and Retrievd Draft Letters {#store-retrieve-letters}
+  + [Introduction](store-retrieve-letters/introduction.md)
+  + [implementation](store-retrieve-letters/save-draft-letters.md)
+  + [Deploy the sample](store-retrieve-letters/deploy-on-your-server.md)
 + Interactive Communications {#interactive-communications}
   + [Using Batch API](interactive-communications/batch-generation-interactive-communications.md)
   + [MultiSeries Charts](interactive-communications/multiseriescharts.md)
