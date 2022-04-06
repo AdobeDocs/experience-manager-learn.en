@@ -174,6 +174,7 @@ team: TM
         + [Create JWT Token](./forms/forms-cs-assembler/create-jwt.md)
         + [Create Access Token](./forms/forms-cs-assembler/create-access-token.md)
         + [Assemble PDF Files](./forms/forms-cs-assembler/assemble-pdf-files.md)
+        + [PDF/A Utilities](./forms/forms-cs-assembler/pdfa-utilities.md)
         + [Test the solution](./forms/forms-cs-assembler/test.md)
         + [Challenge](./forms/forms-cs-assembler/challenge.md)
     + Azure Portal Storage{#forms-cs-azure-portal}
