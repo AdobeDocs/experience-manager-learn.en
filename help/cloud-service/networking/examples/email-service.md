@@ -53,7 +53,7 @@ Configure AEM's [DefaulMailService](https://experienceleague.adobe.com/docs/expe
 {
     "smtp.host": "$[env:AEM_PROXY_HOST;default=proxy.tunnel]",
     "smtp.port": "30002",
-    "smtp.user": "$[env:EMAIL_USERNAME;default=apikey]",
+    "smtp.user": "$[env:EMAIL_USERNAME;default=emailapikey]",
     "smtp.password": "$[secret:EMAIL_PASSWORD]",
     "from.address": "noreply@wknd.site",
     "smtp.ssl": true,
