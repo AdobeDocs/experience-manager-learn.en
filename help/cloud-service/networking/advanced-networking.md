@@ -15,7 +15,7 @@ exl-id: d1c1a3cf-989a-4693-9e0f-c1b545643e41
 AEM as a Cloud Service provides advanced networking features that allows for precise management of connections to and from AEM as a Cloud Service programs. 
 
 |                                                   | [Production Programs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/introduction-production-programs.html) | [Sandbox Programs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/introduction-sandbox-programs.html) |
-|---------------------------------------------------|:-----------------------:|:---------------------|
+|---------------------------------------------------|:-----------------------:|:---------------------:|
 | Supports advanced networking                      | &#10004;                | &#10008;             |
 
 
@@ -59,4 +59,55 @@ Once the most appropriate advanced networking option based on your organization'
       </p>
     </td>   
   </tr>
+</table>
+
+## Code examples
+
+This collection provides examples of the configuration and code required to leverage advanced networking features for specific use cases.
+
+<table><tr>
+   <td>
+      <a  href="./examples/email-service.md"><img alt="Virtual Private Network (VPN)" src="./assets/code-examples__email.png"/></a>
+      <div><strong><a href="./examples/email-service.md">E-mail service</a></strong></div>
+      <p>
+        OSGi configuration example using AEM's to connect to external e-mail services.
+      </p>
+    </td>  
+    <td>
+        <a  href="./examples/http-on-non-standard-ports.md"><img alt="HTTP/HTTPS on non-standard ports" src="./assets/code-examples__http.png"/></a>
+        <div><strong><a href="./examples/http-on-non-standard-ports.md">HTTP/HTTPS on non-standard ports</a></strong></div>
+        <p>
+            Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service on non-standard HTTP/HTTPS ports.
+        </p>
+    </td>
+    <td>
+      <a  href="./examples/sql-datasourcepool.md"><img alt="SQL connection using JDBC DataSourcePool" src="./assets//code-examples__sql-osgi.png"/></a>
+      <div><strong><a href="./examples/sql-datasourcepool.md">SQL connection using JDBC DataSourcePool</a></strong></div>
+      <p>
+            Java™ code example connecting to external SQL databases by configuring AEM's JDBC datasource pool.
+      </p>
+    </td>   
+    </tr><tr>
+    <td>
+      <a  href="./examples/sql-java-apis.md"><img alt="SQL connection using Java APIs" src="./assets/code-examples__sql-java-api.png"/></a>
+      <div><strong><a href="./examples/sql-java-apis.md">SQL connection using Java™ APIs</a></strong></div>
+      <p>
+            Java™ code example connecting to external SQL databases using Java™'s SQL APIs.
+      </p>
+    </td>   
+    <td>
+      <a  href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/ip-allow-lists/apply-allow-list.html"><img alt="Applying an IP allow list" src="./assets/code_examples__vpn-allow-list.png"/></a>
+      <div><strong><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/ip-allow-lists/apply-allow-list.html">Applying an IP allowlist</a></strong></div>
+      <p>
+            Configure an IP allowlist such that only VPN traffic can access AEM.
+      </p>
+    </td>
+   <td>
+      <a  href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/configuring-advanced-networking.html#restrict-vpn-to-ingress-connections"><img alt="Path-based VPN access restrictions to AEM Publish" src="./assets/code_examples__vpn-path-allow-list.png"/></a>
+      <div><strong><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/configuring-advanced-networking.html#restrict-vpn-to-ingress-connections">Path-based VPN access restrictions to AEM Publish</a></strong></div>
+      <p>
+            Require VPN access for specific paths on AEM Publish.
+      </p>
+    </td>
+</tr>
 </table>
