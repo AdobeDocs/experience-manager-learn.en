@@ -13,6 +13,7 @@ topic: Development
 role: Developer
 level: Intermediate
 kt: 10208
+exl-id: dc6f64a0-7059-4392-9c29-e66bdef4fd4d
 ---
 # Save Drafts
 
@@ -166,4 +167,3 @@ You can customize the query to fetch the saved letter instances. In this example
 ### Eclipse Project
 
 The eclipse project with sample implementation can be [downloaded from here](assets/icdrafts-eclipse-project.zip)
-
