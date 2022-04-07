@@ -90,9 +90,11 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </p>
    </td>
      <td>
-      <img alt="Migration (part 1)" src="./imgs/006-thumb.png"/>
+        <a href="./cloud5-aem-content-migration-part-1.md">
+            <img alt="Migration (part 1)" src="./imgs/006-thumb.png"/>
+        </a>
       <div>
-         <strong>Migration (part 1)</strong>
+         <a href="./cloud5-aem-content-migration-part-1.md"><strong>Migration (part 1)</strong></a>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Dr. Applesmith</em>
       </div>
       <p>
