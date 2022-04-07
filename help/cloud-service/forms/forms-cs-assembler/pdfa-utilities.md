@@ -10,7 +10,7 @@ topic: Development
 kt: 10105
 exl-id: a4955104-8a87-4add-85c7-c3e3395f5f1a
 ---
-# Make the POST call
+# Create and validate PDF/A documents
 
 PDF/A is an ISO-standardized version of the Portable Document Format (PDF) specialized for use in the archiving and long-term preservation of electronic documents. PDF/A differs from PDF by prohibiting features unsuitable for long-term archiving, such as font linking (as opposed to font embedding) and encryption.
 

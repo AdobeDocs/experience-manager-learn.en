@@ -17,13 +17,18 @@ exl-id: 9053ee29-436a-439a-b592-c3fef9852ea4
 
 Please follow the below instructions to get this functionality working on your AEM Server
 
-* Create a folder called icdrafts in your c drive
 * [Create the database schema](assets/icdrafts.sql)
 * [Import the client library](assets/icdrafts.zip)
 * [Import the Adaptive Form](assets/SavedDraftsAdaptiveForm.zip)
 * Create data source called _SaveAndContinue_
 
 ![Create Data Source](assets/data-source.png)
+
+|Property Name|Property Value   |
+|---|---|
+|Datasource Name|SaveAndContinue|
+|JDBC driver class|com.mysql.cj.jdbc.Driver|
+|JDBC Connection URL|jdbc:mysql://localhost:3306/aemformstutorial?autoReconnect=true&useSSL=false&characterEncoding=utf8&useUnicode=true|
 
 * [Deploy the icdrafts bundle](assets/icdrafts.icdrafts.core-1.0-SNAPSHOT.jar)
 * Make sure you _Enable Save Using CCRDocumentInstanceService_ in OSGI config as shown below
