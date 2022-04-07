@@ -90,14 +90,14 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </p>
    </td>
      <td>
-      <img alt="Migration (part 1)" src="./imgs/coming-soon.png"/>
+      <img alt="Migration (part 1)" src="./imgs/006-thumb.png"/>
       <div>
          <strong>Migration (part 1)</strong>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Special Guest</em>
+         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Dr. Applesmith</em>
       </div>
       <p>
         <br/>
-         Coming 8 April 2022
+         Part one (of two) of out tips and tricks for migrating to the cloud. Our primary focus in part one is the best practice and prep-work that gets you ready to migrate.
       </p>
    </td> 
   </tr>
