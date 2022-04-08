@@ -88,6 +88,10 @@ Start by enabling the Virtual Private Network on AEM as a Cloud Service.
                 "10.151.201.22",
                 "10.151.202.22",
                 "10.154.155.22"
+            ],
+            "domains": [
+                "wknd.site",
+                "wknd.com"
             ]
         },
         "connections": [{
