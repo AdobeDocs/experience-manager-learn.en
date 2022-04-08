@@ -8,8 +8,8 @@ role: Admin
 level: Beginner
 kt: 10230
 thumbnail: 342154.jpeg
+exl-id: 9e68efbb-38bd-4538-b899-5fd356c9322d
 ---
-
 # Metadata Forms in Assets Essentials
 
 Learn how Assets Essentials Metadata Forms can be quickly and easily configured to tailor asset.
