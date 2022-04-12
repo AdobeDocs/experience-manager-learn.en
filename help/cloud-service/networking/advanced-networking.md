@@ -65,6 +65,8 @@ Once the most appropriate advanced networking option based on your organization'
 
 This collection provides examples of the configuration and code required to leverage advanced networking features for specific use cases.
 
+Ensure the the appropriate [advanced networking configuration](#advanced-networking) has been set up prior to following these tutorials.
+
 <table><tr>
    <td>
       <a  href="./examples/email-service.md"><img alt="Virtual Private Network (VPN)" src="./assets/code-examples__email.png"/></a>
