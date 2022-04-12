@@ -27,6 +27,8 @@ Typically, [flexible port egress](../flexible-port-egress.md) is used to satisfy
 
 The following code example is supported by the following advanced networking options.
 
+Ensure the the [appropriate](../advanced-networking.md#advanced-networking) advanced networking configuration has been set up prior to following this tutorial.
+
 | No advanced networking | [Flexible port egress](../flexible-port-egress.md) | [Dedicated egress IP address](../dedicated-egress-ip-address.md) | [Virtual Private Network](../vpn.md) |
 |:-----:|:-----:|:------:|:---------:|
 | &#10008; | &#10004; | &#10004; | &#10004; |
@@ -38,7 +40,7 @@ This OSGi configuration example configures AEM's Mail OSGi Service to use an ext
 ```json
 ...
 "portForwards": [{
-    "name": "smtp.sendgrid.com",
+    "name": "smtp.mymail.com",
     "portDest": 465,
     "portOrig": 30002
 }]
