@@ -8,8 +8,8 @@ kt: 10258
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 thumbnail: 342268.jpeg
+exl-id: 8b31c415-bf12-420f-a81a-6065c56ccbed
 ---
-
 # Migrating to the Cloud - Part 2
 
 In the second video covering content migration, James and Darin discuss the use of the Content Transfer Tool (CTT) to assist in migrating to AEM as a Cloud Service.
