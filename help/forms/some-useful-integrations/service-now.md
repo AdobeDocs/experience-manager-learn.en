@@ -1,5 +1,5 @@
 ---
-title: Integrating with Service Now
+title: Integrating with [!DNL ServiceNow]
 description: Create and display all the incidents using form data model.
 feature: Adaptive Forms
 version: 6.4,6.5
@@ -9,13 +9,13 @@ role: Developer
 level: Intermediate
 exl-id: 93a177b0-7852-44da-89cc-836d127be4e7
 ---
-# Integrate AEM Forms with servicenow
+# Integrate AEM Forms with [!DNL ServiceNow]
 
-Create and display incident in ServiceNow using Form Data Model in AEM Forms.
+Create and display incident in [!DNL ServiceNow] using Form Data Model in AEM Forms.
 
 ## Prerequisites
 
-* ServiceNow account.
+* [!DNL ServiceNow] account.
 * Familiar with [creating data sources](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/ic-web-channel-tutorial/parttwo.html)
 * Familiar with [Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-65/forms/form-data-model/create-form-data-models.html)
 
@@ -25,7 +25,7 @@ The sample assets provided with this article include the following
 * Cloud service configuration
  * Swagger files to create an incident and fetch all   incidents
  * Form Data Model based on the swagger files
- * Adaptive Form to create and list servicenow incidents
+ * Adaptive Form to create and list [!DNL ServiceNow] incidents
 
 ## Deploy the assets on your server
 
@@ -33,7 +33,6 @@ The sample assets provided with this article include the following
 * Import the assets into AEM using [package manager](http://localhost:4502/crx/packmgr/index.jsp)
 * Edit the [CreateIncident cloud service configuration](http://localhost:4502/mnt/overlay/fd/fdm/gui/components/admin/fdmcloudservice/properties.html?item=%2Fconf%2F9957%2Fsettings%2Fcloudconfigs%2Ffdm%2Fcreateincident)to match your ServiceNow instance.
 * Edit the [GetAllIncidents cloud service configuration](http://localhost:4502/mnt/overlay/fd/fdm/gui/components/admin/fdmcloudservice/properties.html?item=%2Fconf%2F9957%2Fsettings%2Fcloudconfigs%2Ffdm%2Fgetallincidents) to match your ServiceNow instance
-
 
 ## Test the integration
 
