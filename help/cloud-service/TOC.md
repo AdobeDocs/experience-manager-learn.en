@@ -239,6 +239,7 @@ team: TM
     + [Login Tokens](./cloud-5/cloud5-getting-login-token-integrations.md)
     + [Cloud Dispatcher](./cloud-5/cloud5-aem-dispatcher-cloud.md)
     + [Migration 1](./cloud-5/cloud5-aem-content-migration-part-1.md)
+    + [Migration 2](./cloud-5/cloud5-aem-content-migration-part-2.md)
 + [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
