@@ -99,20 +99,22 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </div>
       <p>
         <br/>
-         Part one (of two) of out tips and tricks for migrating to the cloud. Our primary focus in part one is the best practice and prep-work that gets you ready to migrate.
+         Part one (of two) of our tips and tricks for migrating to the cloud. Our primary focus in part one is the best practice and prep-work that gets you ready to migrate.
       </p>
    </td> 
   </tr>
 <tr>
    <td>
-      <img alt="Migration (part 2)" src="./imgs/coming-soon.png"/>
+        <a href="./cloud5-aem-content-migration-part-2.md">
+            <img alt="Migration (part 2)" src="./imgs/007-thumb.png"/>
+        </a>
       <div>
-        <strong>Migration (part 2)</strong>        
+        <a href="./cloud5-aem-content-migration-part-2.md"><strong>Migration (part 2)</strong></a>     
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 14 April 2022
+         Part two (of two) of our tips and tricks for migrating to the cloud. Part two is primarily about using the available tools for migration.
       </p>
      </td>   
      <td>
