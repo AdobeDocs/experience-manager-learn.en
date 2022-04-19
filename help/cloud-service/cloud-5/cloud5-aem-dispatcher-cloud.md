@@ -8,8 +8,8 @@ kt: 10054
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 thumbnail: 342067.jpeg
+exl-id: 90c61bfb-46ff-4941-b89e-ce38d1025de8
 ---
-
 # Using the Dispatcher in the Cloud
 
 Darin and James discuss the Dispatcher in the AEM Cloud including some best practices and differences from AMS/On-Prem. They also touch upon migration to the cloud.
