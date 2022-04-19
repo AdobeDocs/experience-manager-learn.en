@@ -8,6 +8,7 @@ kt: 10275
 thumbnail: 342374.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 799539ba-00aa-40c0-89de-cab38b0066a3
 ---
 # Cloud 5 AEM Search and Indexing
 
