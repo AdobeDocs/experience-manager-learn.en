@@ -41,7 +41,10 @@ index: y
     + [4 - Persisted GraphQL Queries](/help/headless-tutorial/graphql/advanced-graphql/graphql-persisted-queries.md)
     + [5 - Client Application Integration](/help/headless-tutorial/graphql/advanced-graphql/client-application-integration.md)
   + How To {#how-to}
-    + [Work with rich text](./graphql/how-to/rich-text.md)
+    + [Rich text](./graphql/how-to/rich-text.md)
+    + [Images](./graphql/how-to/images.md)
+    + [Localized content](./graphql/how-to/localized-content.md)
+    + [AEM Headless SDK](./graphql/how-to/aem-headless-sdk.md)
   + Examples {#example-apps}
     + [React](./graphql/example-apps/react-app.md)
     + [iOS SwiftUI](./graphql/example-apps/ios-swiftui-app.md)
