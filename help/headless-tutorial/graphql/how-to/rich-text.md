@@ -1,5 +1,5 @@
 ---
-title: Working with rich text | AEM Headless
+title: Using rich text with AEM Headless
 description: Learn to author content and embed referenced content using a multi-line rich text editor with Adobe Experience Manager Content Fragments, and how rich text is delivered by AEM's GraphQL APIs as JSON to be consumed by headless applications.
 version: Cloud Service
 doc-type: article
@@ -9,14 +9,13 @@ topic: Headless, Content Management
 role: Developer
 exl-id: 790a33a9-b4f4-4568-8dfe-7e473a5b68b6
 ---
-# Working with rich text in Adobe Experience Manager Headless
+# Rich text with AEM Headless
 
 The Multi line text field is a data type of Content Fragments that enables authors to create rich text content. References to other content, such as images or other Content Fragments can be dynamically inserted in-line within the flow of the text. AEM's GraphQL API offers a robust capability to return rich text as HTML, plain text, or as pure JSON. The JSON representation is powerful as it gives the client application full control over how to render the content.
 
 ## Multi line editor
 
 >[!VIDEO](https://video.tv.adobe.com/v/342104/?quality=12&learn=on)
-
 
 In the Content Fragment Editor, the Multi line text field's menu bar provides authors with standard rich text formatting capabilities, such as **bold**, *italics*, and underline. Opening the Multi line field in full screen mode enables [additional formatting tools like Paragraph type, find and replace, spell check, and more](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html).
 
