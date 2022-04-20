@@ -1,6 +1,6 @@
 ---
-title: Cloud 5 Adobe App Builder
-description: This episode digs into the external integration pattern which uses Adobe App Builder
+title: Cloud 5 AEM Search and Indexing
+description: We dip our toes into the ocean that is search and indexing
 version: Cloud Service
 role: Admin, Developer
 level: Intermediate
@@ -10,16 +10,14 @@ hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: b2571a84-101f-4330-8a5f-9ef5e4344591
 ---
-# Cloud 5 Adobe App Builder
+# Cloud 5 AEM Search and Indexing
 
-Amol Anand drops in to give us the lowdown on integrations with Adobe App Builder and where and when to use it.
+A quick dive into the deep waters of search and indexing. A challenging topic that we hope to help educate you deliver on more effectively.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342374)
 
 ## Content covered in this video
 
-+ Overview of [App Builder](https://developer.adobe.com/app-builder/docs/overview/)
-+ [Tutorials and Code Labs](https://developer.adobe.com/app-builder/docs/resources/)
-+ [Logging and Monitoring](https://adobedocs.github.io/adobeio-runtime/guides/logging_monitoring.html#retrieving-activations-for-blocking-successful-calls)
-+ Setting [System Limits](https://adobedocs.github.io/adobeio-runtime/guides/system_settings.html)
-+ [Local Development](https://developer.adobe.com/app-builder/docs/resources/debugging/) Tips
++ Search and Index [Overview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/indexing.html)
++ AEM [Index Converter](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter.html)
++ Expert Series [Deep Dive](../../cloud-service/migration/moving-to-aem-as-a-cloud-service/search-and-indexing.md)
