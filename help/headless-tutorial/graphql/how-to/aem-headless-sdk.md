@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 kt: 10269
 thumbnail: KT-10269.jpeg
+exl-id: 922a464a-2286-4132-9af8-f5a1fb5ce268
 ---
-
 # AEM Headless SDK
 
 The AEM Headless SDK is set of libraries that can be used by clients to quickly and easily interact with AEM Headless APIs over HTTP.

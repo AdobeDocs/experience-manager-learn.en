@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 kt: 10253
 thumbnail: KT-10253.jpeg
+exl-id: 6dbeec28-b84c-4c3e-9922-a7264b9e928c
 ---
-
 # Images with AEM Headless
 
 Images are a critical aspect of [developing a rich, compelling AEM headless experiences](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/multi-step/overview.html). AEM Headless supports management of image assets and their optimized delivery.
