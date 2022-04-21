@@ -118,14 +118,16 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </p>
      </td>   
      <td>
-      <img alt="Dispatcher Validator" src="./imgs/coming-soon.png"/>
+        <a href="./cloud5-aem-dispatcher-validator.md">
+            <img alt="Dispatcher Validator" src="./imgs/008-thumb.png"/>
+        </a>
       <div>
-         <strong>Dispatcher Validator</strong>
+         <a href="./cloud5-aem-dispatcher-validator.md"><strong>Dispatcher Validator</strong></a>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 22 April 2022
+         An offshoot of the earlier migration discussions, we take a look at the dispatcher validator and some of the tasks it can accomplish.
       </p>
    </td>
      <td>
