@@ -31,7 +31,6 @@ To enable the ContextHub features and to link to the ContextHub JavaScript libra
 ```java
 <!--/* Include Context Hub */-->
 <sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
-*/-->
 ```
 
 ## Site Configuration and ContextHub Segments {#site-configuration-and-contexthub-segments}
