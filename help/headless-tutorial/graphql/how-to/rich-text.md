@@ -11,7 +11,9 @@ exl-id: 790a33a9-b4f4-4568-8dfe-7e473a5b68b6
 ---
 # Rich text with AEM Headless
 
-The Multi line text field is a data type of Content Fragments that enables authors to create rich text content. References to other content, such as images or other Content Fragments can be dynamically inserted in-line within the flow of the text. AEM's GraphQL API offers a robust capability to return rich text as HTML, plain text, or as pure JSON. The JSON representation is powerful as it gives the client application full control over how to render the content.
+The Multi line text field is a data type of Content Fragments that enables authors to create rich text content. References to other content, such as images or other Content Fragments can be dynamically inserted in-line within the flow of the text. The Single line text field is another data type of Content Fragments that should be used for simple text elements.
+
+AEM's GraphQL API offers a robust capability to return rich text as HTML, plain text, or as pure JSON. The JSON representation is powerful as it gives the client application full control over how to render the content.
 
 ## Multi line editor
 
@@ -19,13 +21,25 @@ The Multi line text field is a data type of Content Fragments that enables autho
 
 In the Content Fragment Editor, the Multi line text field's menu bar provides authors with standard rich text formatting capabilities, such as **bold**, *italics*, and underline. Opening the Multi line field in full screen mode enables [additional formatting tools like Paragraph type, find and replace, spell check, and more](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html).
 
+>[!NOTE]
+>
+> The rich text plugins in the Multi line editor cannot be customized.
+
 ## Multi line text data type {#multi-line-data-type}
 
 Use the **Multi line text** data type when defining your Content Fragment Model to enable rich text authoring.
 
 ![Multi Line rich text data type](assets/rich-text/multi-line-rich-text.png)
 
-When using the Multi line text data type, you can set the **Default Type** to:
+Several properties of the Multi line field can be configured.
+
+The **Render as** property can be set to:
+
+* Text Area - renders a single Multi line field
+* Multiple Field - renders multiple Mutli line fields
+
+
+The **Default Type** can be set to:
 
 * Rich Text
 * Markdown
@@ -34,6 +48,8 @@ When using the Multi line text data type, you can set the **Default Type** to:
 The **Default Type** option directly influences the editing experience and determines if the rich text tools are present.
 
 You can also [enable in-line references](#insert-fragment-references) to other Content Fragments by checking the **Allow Fragment Reference** and configuring the **Allowed Content Fragment Models**.
+
+If the content will be localized check the **Translatable** box. Only Rich Text and Plain Text can be localized. See [working with localized content for more details](./localized-content.md).
 
 ## Rich text response with GraphQL API
 
@@ -358,10 +374,12 @@ Use the `json` return type and include the `_references` object when constructin
         _path
         _publishUrl
         width
+        __typename
       }
       ...on ArticleModel {
         _path
         author
+        __typename
       }
       
     }
@@ -438,12 +456,14 @@ In the above query, the `main` field is returned as JSON. The `_references` obje
       "_references": [
         {
           "_path": "/content/dam/wknd/en/activities/climbing/sport-climbing.jpg",
-          "_publishUrl": "http://localhost:4503/content/dam/wknd/en/activities/climbing/sport-climbing.jpg",
-          "width": 1920
+          "_publishUrl": "http://publish-p123-e456.adobeaemcloud.com/content/dam/wknd/en/activities/climbing/sport-climbing.jpg",
+          "width": 1920,
+          "__typename": "ImageRef"
         },
         {
           "_path": "/content/dam/wknd/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks",
           "author": "Stacey Roswells",
+          "__typename": "ArticleModel"
         }
       ]
     }
@@ -493,11 +513,11 @@ const renderReference = {
     // node contains merged properties of the in-line reference and _references object
     'ImageRef': (node) => {
         // when __typename === ImageRef
-        return <img src={node._path} alt={'in-line reference'} /> 
+        return <img src={node._publishUrl} alt={'in-line reference'} /> 
     },
-    'AdventureModel': (node) => {
-        // when __typename === AdventureModel
-        return <Link to={`/adventure:${node._path}`}>{`${node.adventureTitle}: ${node.adventurePrice}`}</Link>;
+    'ArticleModel': (node) => {
+        // when __typename === ArticleModel
+        return <Link to={`/article:${node._path}`}>{`${node.value}`}</Link>;
     }
     ...
 }
