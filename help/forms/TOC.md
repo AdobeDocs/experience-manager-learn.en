@@ -198,6 +198,7 @@ index: y
 + Document Services {#document-services}
   + [Types of PDF forms](document-services/pdf-forms-and-documents.md)
   + [Embed pdf in adaptive form](document-services/embed-pdf-inline.md)
+  + [PDF's in carousel component](document-services/display-pdf-in-carousel.md)
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
   + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
   + [Using Barcode Service in AEM Forms](document-services/barcode-service-adaptive-forms-article.md)
