@@ -131,14 +131,16 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </p>
    </td>
      <td>
-      <img alt="Indexing and Search Tips" src="./imgs/coming-soon.png"/>
+        <a href="./cloud5-aem-search-and-indexing.md">
+            <img alt="Indexing and Search Tips" src="./imgs/009-thumb.png"/>
+        </a>
       <div>
-         <strong>Indexing and Search Tips</strong>
+         <a href="./cloud5-aem-search-and-indexing.md"><strong>Indexing and Search Tips</strong></a>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 29 April 2022
+         For something as complex as indexing and search, the team shows you some easy wins for optimizing your development time and solving things before they become problems.
       </p>
    </td> 
   </tr>
