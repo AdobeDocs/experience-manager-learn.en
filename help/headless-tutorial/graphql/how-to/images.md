@@ -84,7 +84,7 @@ The resulting JSON response contains the requested fields containing the URls to
 
 To load the referenced image in your application, use the appropriate field, `_path`, `_authorUrl`, or `_publishUrl` of the `adventurePrimaryImage` as the image's source URL.
 
-The domains of the `_authorUrl` and `_publishUrl` are automatically defined by AEM as a Cloud Service using the [Externalize](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/externalizer.htmli).
+The domains of the `_authorUrl` and `_publishUrl` are automatically defined by AEM as a Cloud Service using the [Externalizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/externalizer.html).
 
 In React, displaying the image from AEM Publish looks like:
 
