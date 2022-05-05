@@ -142,3 +142,59 @@ On form submission task assignment notification is sent to the e-mail id associa
 > subject=Task Assigned - `${workitem_title}`
 >
 > message=String representing your email template without any new line characters.
+
+## Task Comments in Assign Task E-mail notification
+
+In some cases, you may want to include the comments of the previous task owner in subsequent task notifications. The code to capture the task's last comment is listed below:
+
+```java
+package samples.aemforms.taskcomments.core;
+
+import org.osgi.service.component.annotations.Component;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.jcr.Session;
+
+import org.osgi.framework.Constants;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import com.adobe.granite.workflow.WorkflowSession;
+import com.adobe.granite.workflow.exec.HistoryItem;
+import com.adobe.granite.workflow.exec.WorkItem;
+import com.adobe.granite.workflow.metadata.MetaDataMap;
+
+import com.adobe.fd.workspace.service.external.WorkitemUserMetadataService;
+@Component(property = {
+  Constants.SERVICE_DESCRIPTION + "=A sample implementation of a user metadata service.",
+  Constants.SERVICE_VENDOR + "=Adobe Systems",
+  "process.label" + "=Capture Workflow Comments"
+})
+
+public class CaptureTaskComments implements WorkitemUserMetadataService {
+  private static final Logger log = LoggerFactory.getLogger(CaptureTaskComments.class);
+  @Override
+  public Map <String, String> getUserMetadata(WorkItem workItem, WorkflowSession workflowSession, MetaDataMap metadataMap) {
+    HashMap < String, String > customMetadataMap = new HashMap < String, String > ();
+    workflowSession.adaptTo(Session.class);
+    try {
+      List <HistoryItem> workItemsHistory = workflowSession.getHistory(workItem.getWorkflow());
+      int listSize = workItemsHistory.size();
+      HistoryItem lastItem = workItemsHistory.get(listSize - 1);
+      String reviewerComments = (String) lastItem.getWorkItem().getMetaDataMap().get("workitemComment");
+      log.debug("####The comment I got was ...." + reviewerComments);
+      customMetadataMap.put("comments", reviewerComments);
+      log.debug("Created  " + customMetadataMap.size() + " metadata  properties");
+
+    } catch (Exception e) {
+      log.debug(e.getMessage());
+    }
+    return customMetadataMap;
+  }
+
+}
+```
+
+The bundle with the above code can be [downloaded from here](assets/samples.aemforms.taskcomments.taskcomments.core-1.0-SNAPSHOT.jar)
