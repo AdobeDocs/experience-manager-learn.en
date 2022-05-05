@@ -146,13 +146,15 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
   </tr>
     <tr>
         <td>
-            <img alt="Adobe App Builder" src="./imgs/coming-soon.png"/>
+            <a href="./cloud5-adobe-app-builder.md">
+                <img alt="Adobe App Builder" src="./imgs/010-thumb.png"/>
+            </a>
             <div>
-                <strong>Adobe App Builder</strong><br/>        
-                <em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Special Guest</em>
+                <a href="./cloud5-adobe-app-builder.md"><strong>Adobe App Builder</strong></a><br/>        
+                <em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Amol Anand</em>
             </div>
             <p><br/>
-                Coming 6 May 2022
+                Come check out some cool things that you can do with Adobe App Builder and learn something new about the future of customizations in-the-cloud.
             </p>
         </td>
         <td></td>
