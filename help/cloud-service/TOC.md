@@ -137,6 +137,7 @@ team: TM
         + [Setup Git](./forms/developing-for-cloud-service/setup-git.md)
         + [Sync IntelliJ with AEM](./forms/developing-for-cloud-service/intellij-and-aem-sync.md)
         + [Build a form](./forms/developing-for-cloud-service/deploy-your-first-form.md)
+        + [Enable Forms Portal Components](./forms/developing-for-cloud-service/forms-portal-components.md)
         + [Include Cloud Services and FDM](./forms/developing-for-cloud-service/azure-storage-fdm.md)
         + [Push to Cloud Manager](./forms/developing-for-cloud-service/push-project-to-cloud-manager-git.md)
         + [Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
