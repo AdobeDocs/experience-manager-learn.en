@@ -29,7 +29,7 @@ OpenAPI Specification (formerly Swagger Specification) is an API description for
 * Operation parameters Input and output for each operation
 Authentication methods
 * Contact information, license, terms of use and other information.
-* API specifications can be written in YAML or JSON. The format is easy to learn and readable to both humans and machines. 
+* API specifications can be written in YAML or JSON. The format is easy to learn and readable to both humans and machines.
 
 To create your first swagger/OpenAPI file, please follow the [OpenAPI documentation](https://swagger.io/docs/specification/2-0/basic-structure/)
 
@@ -37,6 +37,42 @@ To create your first swagger/OpenAPI file, please follow the [OpenAPI documentat
 > AEM Forms supports OpenAPI Specification version 2.0 (fka Swagger).
 
 Use the [swagger editor](https://editor.swagger.io/) to create your swagger file to describe the operations that send and verify OTP code sent using SMS. The swagger file can be created in JSON or YAML format. The completed swagger file can be downloaded from [here](assets/drivers-license-swagger.zip)
+
+## Considerations when defining the swager file
+
+* Definitions are required
+* $ref need to be used for method definitions
+* Prefer to have consumes and produces sections defined
+* Do not define inline request body parameters or response parameters. Try to modularize as much as possible. For example the following definition is not supported
+
+``` json
+ "name": "body",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "Rollnum": {
+                  "type": "string",
+                  "description": "Rollnum"
+                }
+              }
+            }
+```
+
+The following is supported with a reference to requestBody definition
+
+```json
+ "name": "requestBody",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/requestBody"
+            }
+
+```
+
+* [Sample Swagger file for your reference](assets/sample-swagger.json)
 
 ## Create Data Source
 
