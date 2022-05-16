@@ -234,6 +234,7 @@ team: TM
 + Cloud 5{#cloud-5}
     + [Introduction](./cloud-5/cloud5-introduction.md)
     + [Season 1](./cloud-5/cloud5-season-1.md)
+    + [Season 2](./cloud-5/cloud5-season-2.md)
     + [AEM CDN Part 1](./cloud-5/cloud5-aem-cdn-part1.md)
     + [AEM CDN Part 2](./cloud-5/cloud5-aem-cdn-part2.md)
     + [AEM Log Files](./cloud-5/cloud5-aem-log-files.md)
