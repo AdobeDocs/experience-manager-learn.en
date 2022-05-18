@@ -1,6 +1,6 @@
 ---
 title: AEM Assets Videos and Tutorials
-description: A collection of videos and tutorials for Adobe Experience Manager Assets
+description: Watch our videos to get AEM Asset support and assistance.
 sub-product: assets, dynamic-media
 exl-id: 1d0b0183-25ee-4cb4-82a5-3506e7c1c908
 ---

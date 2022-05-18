@@ -1,6 +1,6 @@
 ---
 title: AEM Sites Videos and Tutorials
-description: A collection of videos and tutorials for Adobe Experience Manager Sites.
+description: Learn more about AEM with our videos and tutorials for Adobe Experience Manager Sites.
 sub-product: sites, content-services
 topic: Content Management
 exl-id: cde4ce7f-0afe-4632-8c1c-354586f296d5

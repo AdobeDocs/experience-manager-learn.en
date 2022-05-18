@@ -1,6 +1,6 @@
 ---
 title: AEM Forms Tutorials and Videos
-description: Collection of AEM Forms resources for beginners and experienced AEM Forms developers
+description: Browse our videos and tutorials for AEM Forms, with resources and documentation to answer your queries.
 sub-product: forms
 topic: Development
 role: Developer

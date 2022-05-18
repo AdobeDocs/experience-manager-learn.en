@@ -1,6 +1,6 @@
 ---
 title: AEM Foundation Videos and Tutorials
-description: A collection of videos and tutorials for Adobe Experience Manager Foundation.
+description: Watch our videos and tutorials to get help with Adobe Experience Manager Foundation.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner
 exl-id: af0fe7fb-873b-4d2d-a5a3-59a5a3da9b96
