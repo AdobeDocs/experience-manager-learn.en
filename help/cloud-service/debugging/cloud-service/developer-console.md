@@ -85,7 +85,8 @@ Components help in debugging by:
 + Listing all OSGi components deployed to AEM as a Cloud Service
 + Providing each OSGi component's state; including if they are active or unsatisfied
 + Providing details into unsatisfied service references may cause OSGi components from becoming active
-+ Listing OSGi properties and their values bound to the OSGi component
++ Listing OSGi properties and their values bound to the OSGi component. 
+  + This will display actual values injected via [OSGi environment configuration variables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html#environment-specific-configuration-values).
 
 ### Configurations
 
@@ -94,6 +95,7 @@ Configurations lists all the OSGi component's configurations (OSGi properties an
 Configurations help in debugging by:
 
 + Listing OSGi properties and their values by OSGi component
+   +  This will NOT display actual values injected via [OSGi environment configuration variables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html#environment-specific-configuration-values). See [Components](#components) above, for the injected values.
 + Locating and identifying misconfigured properties 
 
 ### Oak Indexes
