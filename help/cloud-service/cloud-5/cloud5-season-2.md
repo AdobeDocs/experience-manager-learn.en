@@ -25,9 +25,9 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
 <table>
   <tr>
    <td>
-      <img alt="Admin Console" src="./imgs/coming-soon.png"/>
+      <img alt="Fragments" src="./imgs/coming-soon.png"/>
       <div>
-         <strong>Admin Console</strong>        
+         <strong>Fragments</strong>        
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
@@ -36,9 +36,9 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
       </p>
      </td>   
      <td>
-         <img alt="Fragments" src="./imgs/coming-soon.png"/>
+         <img alt="Repository Modernizer" src="./imgs/coming-soon.png"/>
       <div>
-         <strong>Fragments</strong>
+         <strong>Repository Modernizer</strong>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
@@ -47,9 +47,9 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
       </p>
    </td>
      <td>
-            <img alt="Repository Modernizer" src="./imgs/coming-soon.png"/>
+            <img alt="Admin Console" src="./imgs/coming-soon.png"/>
       <div>
-            <strong>Repository Modernizer</strong>
+            <strong>Admin Console</strong>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
