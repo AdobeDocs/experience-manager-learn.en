@@ -83,6 +83,9 @@ team: TM
   + [Adobe IMS product profiles](./accessing/adobe-ims-product-profiles.md)
   + [AEM users, groups, and permissions](./accessing/aem-users-groups-and-permissions.md)
   + [Configuring access to AEM walk-through](./accessing/walk-through.md)
++ Authentication{#authentication}
+  + [Overview](./authentication/authentication.md)
+  + [SAML 2.0](./authentication/saml-2-0.md)
 + Advanced Networking{#networking}
   + [Overview](./networking/advanced-networking.md)
   + [Flexible port egress](./networking/flexible-port-egress.md)
