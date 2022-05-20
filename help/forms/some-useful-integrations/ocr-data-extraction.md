@@ -38,7 +38,7 @@ To create your first swagger/OpenAPI file, please follow the [OpenAPI documentat
 
 Use the [swagger editor](https://editor.swagger.io/) to create your swagger file to describe the operations that send and verify OTP code sent using SMS. The swagger file can be created in JSON or YAML format. The completed swagger file can be downloaded from [here](assets/drivers-license-swagger.zip)
 
-## Considerations when defining the swager file
+## Considerations when defining the swagger file
 
 * Definitions are required
 * $ref need to be used for method definitions
