@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 9351
 thumbnail: 343040.jpeg
+exl-id: 461dcdda-8797-4a37-a0c7-efa7b3f1e23e
 ---
-
 # SAML 2.0 authentication{#saml-2-0-authentication}
 
 Learn how to set up and authenticate end-users users (not AEM authors) to a SAML 2.0 compatible IDP of your choosing.

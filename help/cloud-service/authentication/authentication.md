@@ -8,8 +8,8 @@ role: Architect, Developer
 level: Intermediate
 kt: 10436
 thumbnail: KT-10436.jpeg
+exl-id: 4dba6c09-2949-4153-a9bc-d660a740f8f7
 ---
-
 # AEM as a Cloud Service authentication
 
 AEM as a Cloud Service supports multiple of authentication options and varies by service type. 
