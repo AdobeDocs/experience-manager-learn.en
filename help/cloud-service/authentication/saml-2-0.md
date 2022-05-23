@@ -393,6 +393,10 @@ After successful authentication to the IDP, the IDP will orchestrate an HTTP POS
 
 If URL rewriting at the Apache webserver is configured (`dispatcher/src/conf.d/rewrites/rewrite.rules`), ensure that requests to the `.../saml_login` end points are not accidentally mangled.
 
+## Enable data synchronization
+
+The user records must be sychronized across the AEM Publish tier, once the SAML authentication flow creates a user in AEM Publish. To [enable data synchronization](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#data-synchronization), send a request to Adobe Customer Support (via [AdminConsole](https://adminconsole.adobe.com) > Support) requesting it be enabled.
+
 ## Deploying SAML configuration
 
 The OSGi configurations must be committed to Git and deployed to AEM as a Cloud Service using Cloud Manager.
