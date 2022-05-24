@@ -142,6 +142,7 @@ team: TM
         + [Build a form](./forms/developing-for-cloud-service/deploy-your-first-form.md)
         + [Enable Forms Portal Components](./forms/developing-for-cloud-service/forms-portal-components.md)
         + [Include Cloud Services and FDM](./forms/developing-for-cloud-service/azure-storage-fdm.md)
+        + [Context aware cloud configuration](./forms/developing-for-cloud-service/context-aware-fdm.md)
         + [Push to Cloud Manager](./forms/developing-for-cloud-service/push-project-to-cloud-manager-git.md)
         + [Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
         + [Updating maven archetype](./forms/developing-for-cloud-service/updating-project-archetype.md)

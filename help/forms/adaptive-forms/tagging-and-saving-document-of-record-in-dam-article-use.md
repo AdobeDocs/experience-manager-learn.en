@@ -154,14 +154,14 @@ To get this sample working on your system,Please follow the steps listed below:
 
 * [Download and deploy the setvalue bundle](/help/forms/assets/common-osgi-bundles/SetValueApp.core-1.0-SNAPSHOT.jar). This is the custom OSGI bundle which sets the tags from the submitted form data.
 
-* [Download the Sample Adaptive Form](assets/tag-and-store-in-dam-assets.zip)
+* [Download the sample adaptive form](assets/tag-and-store-in-dam-adaptive-form.zip)
 
 * [Go to Forms And Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 
-* Click on Create | File Upload and upload the sampleadaptiveform.zip
+* Click on Create | File Upload and upload the tag-and-store-in-dam-adaptive-form.zip
 
 * [Import the article assets](assets/tag-and-store-in-dam-assets.zip) using AEM package manager
-* Open the [sample form in preview mode](http://localhost:4502/content/dam/formsanddocuments/summit/peakform/jcr:content?wcmmode=disabled). Fill in the People section and submit the form.
+* Open the [sample form in preview mode](http://localhost:4502/content/dam/formsanddocuments/tagandstoreindam/jcr:content?wcmmode=disabled). **Fill in all the fields** and submit the form.
 * [Navigate to Peak folder in DAM](http://localhost:4502/assets.html/content/dam/Peak). You should see DoR in the Peak folder. Check the properties of the document. It should be tagged appropriately.
 Congratulations!! You have successfully installed the sample on your system
 
