@@ -12,8 +12,8 @@ exl-id: 77c00a35-43bf-485f-ac12-0fffb307dc16
 ---
 # Include cloud services configuration in your project
 
-Create a configuration container called 'FormsTutorial' to hold your cloud services configuration
-Create a cloud services configuration for Azure Storage called 'Store Form Submissions in Azure' in the 'FormsTutorial' container. Provide the Azure storage account details and the account key
+Create a configuration container called 'FormTutorial' to hold your cloud services configuration
+Create a cloud services configuration for Azure Storage called 'FormsCSAndAzureBlob' in the 'FormTutorial' container by providing the Azure storage account details and Azure access key.
 
 Open your AEM project in IntelliJ. Make sure you add the folder FormTutorial as shown below in the ui.content project
 ![cloud-services-configuration](assets/cloud-services-configuration.png)
@@ -40,4 +40,4 @@ Include the appropriate entry in the ui.content project's filter.xml
 
 >[!NOTE]
 >
->Now when you build and deploy your project, the project will have the form data model based on the cloud services configuration available in your cloud instance
+>Now when you build and deploy your project using cloud manager, you will have to re-enter your Azure access key in the cloud services configuration. To avoid re-entering the access key, it is recommended to create context aware configuration using the environment variables as explained in the [next article](./context-aware-fdm.md)
