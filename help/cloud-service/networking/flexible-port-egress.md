@@ -104,7 +104,7 @@ Start by enabling the flexible port egress on AEM as a Cloud Service.
 
     Define the JSON parameters in a `flexible-port-egress.json` and provided to curl via `... -d @./flexible-port-egress.json`.
 
-    [Download the example flexible-port-egress.json](./assets/flexible-port-egress.json)
+    [Download the example flexible-port-egress.json](./assets/flexible-port-egress.json). This file only an example. Configure your file as required based on the optional/required fields documented at [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/). 
 
     ```json
     {
