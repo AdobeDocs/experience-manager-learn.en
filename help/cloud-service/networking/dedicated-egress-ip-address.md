@@ -104,7 +104,7 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
 
     Define the JSON parameters in a `dedicated-egress-ip-address.json` and provided to curl via `... -d @./dedicated-egress-ip-address.json`.
 
-    [Download the example dedicated-egress-ip-address.json](./assets/dedicated-egress-ip-address.json)
+    [Download the example dedicated-egress-ip-address.json](./assets/dedicated-egress-ip-address.json). This file only an example. Configure your file as required based on the optional/required fields documented at [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/). 
 
     ```json
     {
