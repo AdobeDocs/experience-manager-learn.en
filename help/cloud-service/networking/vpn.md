@@ -78,7 +78,7 @@ Start by enabling the Virtual Private Network on AEM as a Cloud Service.
 
     Define the JSON parameters in a `vpn-create.json` and provided to curl via `... -d @./vpn-create.json`.
 
-    [Download the example vpn-create.json](./assets/vpn-create.json)
+    [Download the example vpn-create.json](./assets/vpn-create.json).  This file only an example. Configure your file as required based on the optional/required fields documented at [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/). 
 
     ```json
     {
