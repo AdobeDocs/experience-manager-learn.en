@@ -13,4 +13,9 @@ exl-id: bfd455c4-9a51-4537-ae6d-548d552e13e6
 
 A 'versus' take on what the differences are between an experience fragment and a content fragment
 
->[!VIDEO](https://video.tv.adobe.com/v/342375)
+>[!VIDEO](https://video.tv.adobe.com/v/342864)
+
+## Content covered in this video
+
++ [Working With Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-64/assets/fragments/content-fragments.html)
++ [Using Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html)
