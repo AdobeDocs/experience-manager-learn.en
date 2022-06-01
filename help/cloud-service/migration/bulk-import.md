@@ -19,3 +19,12 @@ exl-id: 28644af8-babc-467d-afdb-8538728dc176
 The Bulk Import tool in AEM as a Cloud Service allows administrators to import assets in bulk from cloud storage (Azure Blob Storage or Amazon S3) in a safe and efficient manner.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329680/?quality=12&learn=on)
+
+## Schedule bulk import
+
+Bulk Import supports scheduled execution of configurations, including:
+
++ Single execution at a defined date and time
++ Period executions every hour, day or week
+
+![Bulk import schedule](./assets/bulk-import/schedule.png)
