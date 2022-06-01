@@ -1,6 +1,6 @@
 ---
-title: HTTP/HTTPS connections on non-standard ports for dedicated egress IP address and VPN
-description: Learn how to make HTTP/HTTPS requests from AEM as a Cloud Service to external web services running on non-standard ports for Dedicated Egress IP address and VPN
+title: HTTP/HTTPS connections for dedicated egress IP address and VPN
+description: Learn how to make HTTP/HTTPS requests from AEM as a Cloud Service to external web services running for Dedicated Egress IP address and VPN
 version: Cloud Service
 feature: Security
 topic: Development, Security
@@ -10,9 +10,9 @@ kt: 9354
 thumbnail: KT-9354.jpeg
 exl-id: a565bc3a-675f-4d5e-b83b-c14ad70a800b
 ---
-# HTTP/HTTPS connections on non-standard ports for dedicated egress IP address and VPN
+# HTTP/HTTPS connections for dedicated egress IP address and VPN
 
-HTTP/HTTPS connections on non-standard ports (not 80/443) must be proxied out of AEM as a Cloud Service, however they do not need any special `portForwards` rules, and can use AEM's advanced networking's `AEM_HTTP_PROXY_HOST`, `AEM_HTTP_PROXY_PORT`, `AEM_HTTPS_PROXY_HOST`, and `AEM_HTTPS_PROXY_PORT`.
+HTTP/HTTPS connections must be proxied out of AEM as a Cloud Service, however they do not need any special `portForwards` rules, and can use AEM's advanced networking's `AEM_HTTP_PROXY_HOST`, `AEM_HTTP_PROXY_PORT`, `AEM_HTTPS_PROXY_HOST`, and `AEM_HTTPS_PROXY_PORT`.
 
 ## Advanced networking support
 

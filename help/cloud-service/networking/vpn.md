@@ -214,16 +214,16 @@ Start by enabling the Virtual Private Network on AEM as a Cloud Service.
 
 With the Virtual Private Network enabled, AEM code and configuration can use them to make calls to external services via the VPN. There are two flavors of external calls that AEM treats differently:
 
-1. HTTP/HTTPS calls to external services on non-standard ports
+1. HTTP/HTTPS calls to external services
     + Includes HTTP/HTTPS calls made to services running on ports other than the standard 80 or 443 ports.
 1. non-HTTP/HTTPS calls to external services
     + Includes any non-HTTP calls, such as connections with Mail servers, SQL databases, or services that run on other non-HTTP/HTTPS protocols.
 
-HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default and need no extra configuration or considerations.
+HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default but they will not use the VPN connection if not configured appropriately as described below.
 
-### HTTP/HTTPS on non-standard ports
+### HTTP/HTTPS
 
-When creating HTTP/HTTPS connections to non-standard ports (not-80/443) from AEM, the connection must be made through special host and ports, provided via placeholders.
+When creating HTTP/HTTPS connections from AEM, in order to get a dedicated egress IP address or be routed through the VPN, the connection must be made through special host and ports, provided via placeholders.
 
 AEM provides two sets of special Java™ system variables that map to AEM's HTTP/HTTPS proxies.
 
@@ -236,7 +236,7 @@ AEM provides two sets of special Java™ system variables that map to AEM's HTTP
 
 Requests to HTTP/HTTPS external services should be made by configuring the Java™ HTTP client's proxy configuration via AEM's proxy hosts/ports values.
 
-When making HTTP/HTTPS calls to external services on non-standard ports, no corresponding `portForwards` must be defined using Cloud Manager API's `__enableEnvironmentAdvancedNetworkingConfiguration` operation, as the port forwarding "rules" are defined "in code".
+When making HTTP/HTTPS calls to external services on any port, no corresponding `portForwards` must be defined using Cloud Manager API's `__enableEnvironmentAdvancedNetworkingConfiguration` operation, as the port forwarding "rules" are defined "in code".
 
 >[!TIP]
 >
@@ -247,10 +247,10 @@ When making HTTP/HTTPS calls to external services on non-standard ports, no corr
 <table>
 <tr>
 <td>
-    <a  href="./examples/http-on-non-standard-ports.md"><img alt="HTTP/HTTPS on non-standard ports" src="./assets/code-examples__http.png"/></a>
-    <div><strong><a href="./examples/http-on-non-standard-ports.md">HTTP/HTTPS on non-standard ports</a></strong></div>
+    <a  href="./examples/http-dedicated-egress-ip-vpn.md"><img alt="HTTP/HTTPS" src="./assets/code-examples__http.png"/></a>
+    <div><strong><a href="./examples/http-dedicated-egress-ip-vpn.md">HTTP/HTTPS</a></strong></div>
     <p>
-        Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service on non-standard HTTP/HTTPS ports.
+        Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service using HTTP/HTTPS protocol.
     </p>
 </td>
 <td></td>

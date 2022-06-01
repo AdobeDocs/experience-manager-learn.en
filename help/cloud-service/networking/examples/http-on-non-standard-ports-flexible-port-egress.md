@@ -26,7 +26,7 @@ Ensure the the [appropriate](../advanced-networking.md#advanced-networking) adva
 
 >[!CAUTION]
 >
-> This code example is only for [Flexible Port Egress](../flexible-port-egress.md). A similar, but different code example is available for [HTTP/HTTPS connections on non-standard ports for Dedicated Egress IP address and VPN](./http-on-non-standard-ports.md).
+> This code example is only for [Flexible Port Egress](../flexible-port-egress.md). A similar, but different code example is available for [HTTP/HTTPS connections on non-standard ports for Dedicated Egress IP address and VPN](./http-dedicated-egress-ip-vpn.md).
 
 ## Code example
 
