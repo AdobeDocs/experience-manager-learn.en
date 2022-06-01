@@ -111,6 +111,18 @@ macOS / Linux:
   $ java -jar aem-publish-p4503.jar
   ```
 
+## Set up local AEM services in prerelease mode
+
+The local AEM runtime can be started in [prerelease mode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html) allowing a developer to build against the AEM as a Cloud Service's next release's features. Prerelease is enabled by passing the `-r prerelease` argument on the local AEM runtime's first start. This can be used with both local AEM Author and AEM Publish services.
+
+```shell
+# For AEM Author service in prerelease mode
+$ java -jar aem-author-p4502.jar -r prerelease
+
+# For AEM Publish service in prerelease mode
+$ java -jar aem-publish-p4503.jar -r prerelease
+```
+
 ## Simulate Content Distribution {#content-distribution}
 
 In a true Cloud Service environment content is distributed from the Author Service to the Publish Service using [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) and the Adobe Pipeline. The [Adobe Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/core-concepts/architecture.html?lang=en#content-distribution) is an isolated microservice available only in the cloud environment.
