@@ -19,3 +19,7 @@ Learn how to drive AEM Tags use on assets via Workfront data, setup and use proj
 >[!VIDEO](https://video.tv.adobe.com/v/340333/?quality=12&learn=on)
 
 _Part three of a [four part expert series on the Workfront for Experience Manager enhanced connector](./overview.md)_
+
+## Corrections
+
++ __@ 4:34__ AEM tags syntax is incorrect. Video displays `we-retail:apparel/footwear`. The correct syntax is `["we-retail:apparel/footwear"]` or more generally `["namespace:tag/childtag"]`.
