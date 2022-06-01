@@ -76,10 +76,10 @@ Ensure the the appropriate [advanced networking configuration](#advanced-network
       </p>
     </td>  
     <td>
-        <a  href="./examples/http-on-non-standard-ports.md"><img alt="HTTP/HTTPS on non-standard ports" src="./assets/code-examples__http.png"/></a>
-        <div><strong><a href="./examples/http-on-non-standard-ports.md">HTTP/HTTPS on non-standard ports</a></strong></div>
+        <a  href="./examples/http-dedicated-egress-ip-vpn.md"><img alt="HTTP/HTTPS" src="./assets/code-examples__http.png"/></a>
+        <div><strong><a href="./examples/http-dedicated-egress-ip-vpn.md">HTTP/HTTPS</a></strong></div>
         <p>
-            Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service on non-standard HTTP/HTTPS ports.
+            Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service using HTTP/HTTPS protocol.
         </p>
     </td>
     <td>

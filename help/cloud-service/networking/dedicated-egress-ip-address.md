@@ -161,48 +161,48 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
 
 1. Now you can use the dedicated egress IP address in your custom AEM code and configuration. Often when using dedicated egress IP address, the external services AEM as a Cloud Service connects to are configured to only allow traffic from this dedicated IP address.
 
-## Connecting to external services over dedicated port egress
+## Connecting to external services over dedicated egress IP address
 
 With the dedicated egress IP address enabled, AEM code and configuration can use the dedicated egress IP to make calls to external services. There are two flavors of external calls that AEM treats differently:
 
-1. HTTP/HTTPS calls to external services on non-standard ports
+1. HTTP/HTTPS calls to external services
     + Includes HTTP/HTTPS calls made to services running on ports other than the standard 80 or 443 ports.
 1. non-HTTP/HTTPS calls to external services
     + Includes any non-HTTP calls, such as connections with Mail servers, SQL databases, or services that run on other non-HTTP/HTTPS protocols.
 
-HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default and need no extra configuration or considerations.
+HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default but they will not use the dedicated egress IP address if not configured appropriately as described below.
 
 >[!TIP]
 >
 > See AEM as a Cloud Service's dedicated egress IP address documentation for [the full set of routing rules](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking.html#dedcated-egress-ip-traffic-routing=).
 
 
-### HTTP/HTTPS on non-standard ports
+### HTTP/HTTPS
 
-When creating HTTP/HTTPS connections to non-standard ports (not-80/443) from AEM, the connection must be made through special hosts and ports, provided via placeholders.
+When creating HTTP/HTTPS connections from AEM, in order to get a dedicated egress IP address, the connection must be made through special hosts and ports, provided via placeholders.
 
 AEM provides two sets of special Java™ system variables that map to AEM's HTTP/HTTPS proxies.
 
-| Variable name | Use | Java™ code | OSGi configuration | 
-| - |  - | - | - |
-| `AEM_HTTP_PROXY_HOST` | Proxy host for HTTP connections | `System.getenv("AEM_HTTP_PROXY_HOST")` | `$[env:AEM_HTTP_PROXY_HOST]` |
-| `AEM_HTTP_PROXY_PORT` | Proxy port for HTTP connections | `System.getenv("AEM_HTTP_PROXY_PORT")` | `$[env:AEM_HTTP_PROXY_PORT]` |
-| `AEM_HTTPS_PROXY_HOST` | Proxy host for HTTPS connections | `System.getenv("AEM_HTTPS_PROXY_HOST")` | `$[env:AEM_HTTPS_PROXY_HOST]` |
-| `AEM_HTTPS_PROXY_PORT` | Proxy port for HTTPS connections | `System.getenv("AEM_HTTPS_PROXY_PORT")` | `$[env:AEM_HTTPS_PROXY_PORT]` |
+| Variable name | Use | Java™ code | OSGi configuration | Apache web server mod_proxy configuration |
+| - |  - | - | - | - |
+| `AEM_HTTP_PROXY_HOST` | Proxy host for HTTP connections | `System.getenv("AEM_HTTP_PROXY_HOST")` | `$[env:AEM_HTTP_PROXY_HOST]` | `${AEM_HTTP_PROXY_HOST}` |
+| `AEM_HTTP_PROXY_PORT` | Proxy port for HTTP connections | `System.getenv("AEM_HTTP_PROXY_PORT")` | `$[env:AEM_HTTP_PROXY_PORT]` |  `${AEM_HTTP_PROXY_PORT}` |
+| `AEM_HTTPS_PROXY_HOST` | Proxy host for HTTPS connections | `System.getenv("AEM_HTTPS_PROXY_HOST")` | `$[env:AEM_HTTPS_PROXY_HOST]` | `${AEM_HTTPS_PROXY_HOST}` |
+| `AEM_HTTPS_PROXY_PORT` | Proxy port for HTTPS connections | `System.getenv("AEM_HTTPS_PROXY_PORT")` | `$[env:AEM_HTTPS_PROXY_PORT]` | `${AEM_HTTPS_PROXY_PORT}` |
 
 Requests to HTTP/HTTPS external services should be made by configuring the Java™ HTTP client's proxy configuration using AEM's proxy hosts/ports values. 
 
-When making HTTP/HTTPS calls to external services on non-standard ports, no corresponding `portForwards` must be defined using the Cloud Manager API `enableEnvironmentAdvancedNetworkingConfiguration` operation, as the port forwarding "rules" are defined "in code".
+When making HTTP/HTTPS calls to external services on any port, no corresponding `portForwards` must be defined using the Cloud Manager API `enableEnvironmentAdvancedNetworkingConfiguration` operation, as the port forwarding "rules" are defined "in code".
 
 #### Code examples
 
 <table>
 <tr>
 <td>
-    <a  href="./examples/http-on-non-standard-ports.md"><img alt="HTTP/HTTPS on non-standard ports" src="./assets/code-examples__http.png"/></a>
-    <div><strong><a href="./examples/http-on-non-standard-ports.md">HTTP/HTTPS on non-standard ports</a></strong></div>
+    <a  href="./examples/http-dedicated-egress-ip-vpn.md"><img alt="HTTP/HTTPS" src="./assets/code-examples__http.png"/></a>
+    <div><strong><a href="./examples/http-dedicated-egress-ip-vpn.md">HTTP/HTTPS</a></strong></div>
     <p>
-        Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service on non-standard HTTP/HTTPS ports.
+        Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service using HTTP/HTTPS protocol.
     </p>
 </td>   
 <td></td>   

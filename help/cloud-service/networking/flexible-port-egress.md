@@ -183,7 +183,7 @@ When making HTTP/HTTPS calls to external services on non-standard ports, no corr
 <table>
 <tr>
 <td>
-    <a  href="./examples/http-on-non-standard-ports.md"><img alt="HTTP/HTTPS on non-standard ports" src="./assets/code-examples__http.png"/></a>
+    <a  href="./examples/http-on-non-standard-ports-flexible-port-egress.md"><img alt="HTTP/HTTPS on non-standard ports" src="./assets/code-examples__http.png"/></a>
     <div><strong><a href="./examples/http-on-non-standard-ports-flexible-port-egress.md">HTTP/HTTPS on non-standard ports</a></strong></div>
     <p>
         Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service on non-standard HTTP/HTTPS ports.

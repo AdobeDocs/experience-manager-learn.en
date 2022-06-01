@@ -93,7 +93,7 @@ team: TM
   + [Virtual Private Network](./networking/vpn.md)
   + Code examples{#examples}
     + [HTTP/HTTPS on non-standard ports for flexible port egress](./networking/examples/http-on-non-standard-ports-flexible-port-egress.md)
-    + [HTTP/HTTPS on non-standard ports for dedicated egress IP address/VPN](./networking/examples/http-on-non-standard-ports.md)
+    + [HTTP/HTTPS for dedicated egress IP address/VPN](./networking/examples/http-dedicated-egress-ip-vpn.md)
     + [SQL connections using DataSourcePool](./networking/examples/sql-datasourcepool.md)
     + [SQL connections using Java SQL APIs](./networking/examples/sql-java-apis.md)
     + [E-mail service](./networking/examples/email-service.md)
