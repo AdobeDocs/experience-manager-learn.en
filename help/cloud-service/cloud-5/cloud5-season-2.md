@@ -24,18 +24,20 @@ Visit the [Suggestion Box](https://forms.office.com/r/74P5Xz4UH0) for submitting
 Each season varies in length and will be released on a fixed schedule. Season 2's topics are primarily driven from past requests that we have come across in our day-to-day engagements with customers and partners. Visit this page for weekly updates or follow us on the social network of your choosing.
 
 <table>
-  <tr>
-   <td>
-      <img alt="Fragments" src="./imgs/coming-soon.png"/>
-      <div>
-         <strong>Fragments</strong>        
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
-      </div>
-      <p>
-        <br/>
-         Coming 3 June 2022
-      </p>
-     </td>   
+    <tr>
+        <td>
+            <a href="season-2/cloud5-experience-v-content-fragments.md">
+                <img alt="Fragments" src="./imgs/s2/000-thumb.png"/>
+            </a>
+            <div>
+                <a href="season-2/cloud5-experience-v-content-fragments.md"><strong>Fragments</strong></a>        
+                <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+            </div>
+            <p>
+                <br/>
+                A colorful take on the differences between experience and content fragments. Spoiler: everyone wins.
+            </p>
+        </td>   
      <td>
          <img alt="Repository Modernizer" src="./imgs/coming-soon.png"/>
       <div>
