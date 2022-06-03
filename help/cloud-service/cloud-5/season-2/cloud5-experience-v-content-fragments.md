@@ -17,5 +17,6 @@ A 'versus' take on what the differences are between an experience fragment and a
 
 ## Content covered in this video
 
-+ [Working With Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-64/assets/fragments/content-fragments.html)
++ [Working With Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments.html)
 + [Using Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html)
++ [Experience Fragment Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html)
