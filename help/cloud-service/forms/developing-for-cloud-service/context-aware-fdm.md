@@ -19,14 +19,14 @@ The following steps are needed to create context aware cloud configuration
 
 ## Create Environment variables
 
-Standard environment variables can be configured and managed via Cloud Manager. They are provided to the run time environment and can be used in OSGi configurations. Environment variables can be either environment-specific values or environment secrets, based on what is being changed.
+Standard environment variables can be configured and managed via Cloud Manager. They are provided to the run time environment and can be used in OSGi configurations. [Environment variables can be either environment-specific values or environment secrets, based on what is being changed.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/environment-variables.html?lang=en)
 
-[Environment variables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/environment-variables.html?lang=en)
+
 
 The following screen shot shows the azure_key and azure_connection_string environment variables defined
 ![environment_variables](assets/environment-variables.png)
 
-These environment variables can then be specified in the configuration files to be used in the appropriate environments
+These environment variables can then be specified in the configuration files to be used in the appropriate environment
 For example if you want all your author instances to use these environments variables you will define the configuration file in the config.author folder as specified below
 
 ## Create configuration file
