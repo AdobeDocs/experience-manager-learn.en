@@ -19,21 +19,23 @@ An OSGi service is defined semantically by its service interface and implemented
 A simple interface with one method to merge data with the <span class="x x-first x-last">XDP</span> template.
  
 ```java
-package com.learningaemforms.adobe.core;
+package com.mysite.samples;
 
 import com.adobe.aemfd.docmanager.Document;
 
-public interface MyfirstInterface {
-  public Document mergeDataWithXDPTemplate(Document xdpTemplate, Document xmlDocument);
-} 
+public interface MyfirstInterface
+{
+	public Document mergeDataWithXDPTemplate(Document xdpTemplate, Document xmlDocument);
+}
+ 
 ```
 
 ## Implement the interface
 
-Create a new package called `com.learningaemforms.adobe.core.impl` to hold the implementation of the interface.
+Create a new package called `com.mysite.samples.impl` to hold the implementation of the interface.
 
 ```java
-package com.learningaemforms.adobe.core.impl;
+package com.mysite.samples.impl;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
 import org.slf4j.Logger;
@@ -41,7 +43,7 @@ import org.slf4j.LoggerFactory;
 import com.adobe.aemfd.docmanager.Document;
 import com.adobe.fd.output.api.OutputService;
 import com.adobe.fd.output.api.OutputServiceException;
-import com.learningaemforms.adobe.core.MyfirstInterface;
+import com.mysite.samples.MyfirstInterface;
 @Component(service = MyfirstInterface.class)
 public class MyfirstInterfaceImpl implements MyfirstInterface {
   @Reference
@@ -77,11 +79,11 @@ The `@Reference` annotation is part of OSGi declarative services, and is used to
 ## Build and Deploy the bundle
 
 * Open **command prompt window**
-* Navigate to `c:\aemformsbundles\learningaemforms\core`
+* Navigate to `c:\aemformsbundles\mysite\core`
 * Execute the command `mvn clean install -PautoInstallBundle`
 * The above command will automatically build and deploy the bundle to your AEM instance running on localhost:4502
 
-The bundle will also be available in the following location `C:\AEMFormsBundles\learningaemforms\core\target`. The bundle can also be deployed into AEM using the [Felix web console.](http://localhost:4502/system/console/bundles)
+The bundle will also be available in the following location `C:\AEMFormsBundles\mysite\core\target`. The bundle can also be deployed into AEM using the [Felix web console.](http://localhost:4502/system/console/bundles)
 
 ## Using the service
 
@@ -89,12 +91,14 @@ You can now use the service in your JSP page. The following code snippet shows h
 
 ```java
 
-MyFirstAEMFormsService myFirstAEMFormsService = sling.getService(com.learningaemforms.adobe.core.MyFirstAEMFormsService.class);
+MyFirstAEMFormsService myFirstAEMFormsService = sling.getService(com.mysite.samples.MyFirstAEMFormsService.class);
 com.adobe.aemfd.docmanager.Document generatedDocument = myFirstAEMFormsService.mergeDataWithXDPTemplate(xdp_or_pdf_template,xmlDocument);
 
 ```
 
-The sample package containing the JSP page can be ![downloaded from here](assets/learning-aem-forms.zip)
+The sample package containing the JSP page can be [downloaded from here](assets/learning_aem_forms.zip)
+
+[The complete bundle is available for downloading](assets/mysite.core-1.0.0-SNAPSHOT.jar)
 
 ## Test the package
 

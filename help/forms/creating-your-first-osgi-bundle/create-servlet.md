@@ -19,8 +19,8 @@ A servlet in AEM can be registered as OSGi service: you can extend SlingSafeMeth
 ## Servlet Code
 
 ``` java
+package com.mysite.core.servlets;
 import javax.servlet.Servlet;
-
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
@@ -68,11 +68,11 @@ public class MyFirstAEMFormsServlet extends SlingAllMethodsServlet
 To build your project, please follow the following steps:
 
 * Open **command prompt window**
-* Navigate to `c:\aemformsbundles\learningaemforms\core`
+* Navigate to `c:\aemformsbundles\mysite\core`
 * Execute the command `mvn clean install -PautoInstallBundle`
 * The above command will automatically build and deploy the bundle to your AEM instance running on localhost:4502
 
-The bundle will also be available in the following location `C:\AEMFormsBundles\learningaemforms\core\target`. The bundle can also be deployed into AEM using the [Felix web console.](http://localhost:4502/system/console/bundles)
+The bundle will also be available in the following location `C:\AEMFormsBundles\mysite\core\target`. The bundle can also be deployed into AEM using the [Felix web console.](http://localhost:4502/system/console/bundles)
 
 
 ## Test the Servlet Resolver
