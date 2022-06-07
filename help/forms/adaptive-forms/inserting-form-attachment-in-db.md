@@ -1,5 +1,5 @@
 ---
-title: Insert form attachment into database 
+title: Insert form attachment into database
 description: Insert form attachment in database using AEM workflow.
 feature: Adaptive Forms
 version: 6.5
@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Experienced
 kt: 10488
-
+exl-id: e8a6cab8-423b-4a8e-b2b7-9b24ebe23834
 ---
 # Inserting form attachment in database
 
