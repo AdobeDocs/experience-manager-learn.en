@@ -252,6 +252,9 @@ team: TM
     + Season 2{#season-2}
       + [Fragments](./cloud-5/season-2/cloud5-experience-v-content-fragments.md)
       + [Repo Modernizer](./cloud-5/season-2/cloud5-repo-modernizer.md)
+      + [Admin Console](./cloud-5/season-2/cloud5-admin-console.md)
+      + [REPOINIT](./cloud-5/season-2/cloud5-repoinit.md)
+      + [Sling Job Scheduler](./cloud-5/season-2/cloud5-sling-job-scheduler.md)
 + [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
