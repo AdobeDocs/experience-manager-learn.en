@@ -76,6 +76,8 @@ team: TM
     + [Build and Deployment](./debugging/cloud-service/build-and-deployment.md)
     + [Developer Console](./debugging/cloud-service/developer-console.md)
     + [Repository Browser](./debugging/cloud-service/repository-browser.md)
+    + Risks{#risks}
+      + [Traveral warnings](./debugging/cloud-service/risks/traversals.md)
 + Accessing AEM{#accessing}    
   + [Overview](./accessing/overview.md)
   + [Adobe IMS users](./accessing/adobe-ims-users.md)
