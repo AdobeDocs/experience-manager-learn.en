@@ -10,8 +10,8 @@ hidefromtoc: yes
 hide: yes
 index: no
 thumbnail: kt-10427.jpg
+exl-id: 8fcc9364-b84c-4458-82e2-66b47429cd4b
 ---
-
 # Traversal warnings
 
 _What are traversal warnings?_
@@ -265,5 +265,3 @@ Check out these other useful resources for understanding AEM indexes, search, an
 </div>
 
 </div>
-
-
