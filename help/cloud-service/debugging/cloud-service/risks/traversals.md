@@ -14,6 +14,9 @@ exl-id: 8fcc9364-b84c-4458-82e2-66b47429cd4b
 ---
 # Traversal warnings
 
+>[!TIP]
+>Bookmark this page for future reference.
+
 _What are traversal warnings?_
 
 Traversal warnings are __aemerror__ log statements indicating poorly performing queries are being executed on the AEM Publish service. Traversal warnings typically manifest in AEM in two ways:
