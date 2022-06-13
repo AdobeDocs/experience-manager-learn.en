@@ -119,7 +119,7 @@ Repoinit scripts define baseline content, users, ACLs, etc. In AEM SDK's local q
 
 _This issue only affects non-production environments that do NOT auto-update to the latest AEM Release._
 
-AEM as a Cloud Service automatically includes the latest Core Components version in in every AEM Release, meaning after an AEM as a Cloud Service environment is, automatically or manually updated, is had the latest version of Core Components deployed to it.  
+AEM as a Cloud Service automatically includes the latest Core Components version in every AEM Release, meaning after an AEM as a Cloud Service environment is, automatically or manually updated, is had the latest version of Core Components deployed to it.  
 
 Is is possible for the Build Image step will fail when:
 
