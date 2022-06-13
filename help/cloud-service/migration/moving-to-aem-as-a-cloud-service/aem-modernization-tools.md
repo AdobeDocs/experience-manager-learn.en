@@ -27,22 +27,18 @@ AEM Modernization tools automatically convert existing AEM Pages composed of leg
 + Clone AEM 6.x production to run AEM Modernization tools against
 + Download and install the [latest AEM Modernizations tools](https://github.com/adobe/aem-modernize-tools/releases/latest) on the AEM 6.x production clone via Package Manager
 
-+ [Page Structure Converter](https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html) updates existing page content from static template to a mapped editable template using layout containers
++ [Page Structure Converter](https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html) updates existing page content from static template to a mapped editable template using layout containers
   + Define conversion rules using OSGi configuration
   + Run Page Structure Converter against existing pages
 
-+ [Component Converter](https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html) updates existing page content from static template to a mapped editable template using layout containers
++ [Component Converter](https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html) updates existing page content from static template to a mapped editable template using layout containers
   + Define conversion rules via JCR node definitions/XML
   + Run the Component Converter tool against existing pages
   
-+ [Policy Importer](https://opensource.adobe.com/aem-modernize-tools/pages/tools/policy-importer.html) creates policies from Design configuration
++ [Policy Importer](https://opensource.adobe.com/aem-modernize-tools/pages/policy/about.html) creates policies from Design configuration
   + Define conversion rules using JCR node definitions/XML
   + Run Policy Importer against existing Design definitions
   + Apply imported policies to AEM components and containers
-
-+ [Dialog Converter](https://opensource.adobe.com/aem-modernize-tools/pages/tools/dialog.html) converts Classic(ExtJS) and CoralUI 2-based component dialogs to CoralUI 3 TouchUI-based dialogs.
-  + Run the Dialog Converter tool against existing ExtJS or Coral2 UI-based dialogs
-  + Sync converted dialogs back into Git repository
 
 ## Hands-on exercise
 
@@ -88,6 +84,5 @@ Also, make sure you have completed the previous hands-on exercise:
 + [AEM Gems - Introducing the AEM Modernization Suite](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/Introducing-the-AEM-Modernization-Suite.html)
 
 
-
-1. Deploy the newly modernized wknd-legacy site on the local Cloud Service SDK. Available to download here: 
-+ [Software Distribution Portal](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.htm). 
+1. Deploy the newly modernized wknd-legacy site on the local AEM SDK. AEM ASK available for download here: 
+  + [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html). 

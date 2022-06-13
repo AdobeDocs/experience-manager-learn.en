@@ -38,7 +38,7 @@ Create a developer account with [Nexmo](https://dashboard.nexmo.com/) for sendin
 ## Deploy the following OSGi bundles
 
 Deploy the bundle which has the [code to store and fetch data from database](assets/FetchPartiallyCompletedForm.PartiallyCompletedForm.core-1.0-SNAPSHOT.jar)
-Download and unzip the [developing-with-service-user.zip](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/assets/common-osgi-bundles/developing-with-service-user.zip). 
+Download and unzip the [developingwithserviceuser.zip](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/developingwithserviceuser.zip). 
 Deploy the DevelopingWithServiceUser.jar file using the Felix web console.
 
 ## Deploy the client library

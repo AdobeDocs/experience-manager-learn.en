@@ -14,6 +14,8 @@ exl-id: 210e5483-d79e-47ac-aa09-b6956cca2e62
 
 Welcome to the Cloud 5 Series from AEM Engineering. One of the primary problems in the implementation phase of any product is having enough code samples and/or live demonstrations of those samples, tool, or APIs. The goal of this series is to deliver useful information about AEM as a Cloud Service in 5 minutes or less.
 
+Visit the [Suggestion Box](https://forms.office.com/r/74P5Xz4UH0) for submitting topic ideas.
+
 ## Season 1
 
 Each season varies in length and will be released on a fixed schedule. Season 1's topics are primarily driven from past requests that we have come across in our day-to-day engagements with customers and partners. Visit this page for weekly updates or follow us on the social network of your choosing.
@@ -62,49 +64,57 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
   </tr>
   <tr>
    <td>
-      <img alt="Access Tokens" src="./imgs/coming-soon.png"/>
+        <a href="./cloud5-getting-login-token-integrations.md">
+            <img alt="Access Tokens" src="./imgs/004-thumb.png"/>
+        </a>
       <div>
-        <strong>Integrating with Access Tokens</strong>        
+        <a href="./cloud5-getting-login-token-integrations.md"><strong>Integrating with Access Tokens</strong></a>        
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 25 March 2022
+         A quick overview and demo of interacting with login tokens for doing integration work within the cloud service environments.
       </p>
      </td>   
      <td>
-      <img alt="Dispatcher in the Cloud" src="./imgs/coming-soon.png"/>
+      <a href="./cloud5-aem-dispatcher-cloud.md">
+      <img alt="Dispatcher in the Cloud" src="./imgs/005-thumb.png"/>
+       </a>  
       <div>
-         <strong>Dispatcher in the Cloud</strong>
+        <a href="./cloud5-aem-dispatcher-cloud.md"><strong>Dispatcher in the Cloud</strong></a>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 1 April 2022
+        Darin and James discuss the Dispatcher in the AEM Cloud including some best practices and differences from AMS/On-Prem. 
       </p>
    </td>
      <td>
-      <img alt="Migration (part 1)" src="./imgs/coming-soon.png"/>
+        <a href="./cloud5-aem-content-migration-part-1.md">
+            <img alt="Migration (part 1)" src="./imgs/006-thumb.png"/>
+        </a>
       <div>
-         <strong>Migration (part 1)</strong>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+         <a href="./cloud5-aem-content-migration-part-1.md"><strong>Migration (part 1)</strong></a>
+         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Dr. Applesmith</em>
       </div>
       <p>
         <br/>
-         Coming 8 April 2022
+         Part one (of two) of our tips and tricks for migrating to the cloud. Our primary focus in part one is the best practice and prep-work that gets you ready to migrate.
       </p>
    </td> 
   </tr>
 <tr>
    <td>
-      <img alt="Migration (part 2)" src="./imgs/coming-soon.png"/>
+        <a href="./cloud5-aem-content-migration-part-2.md">
+            <img alt="Migration (part 2)" src="./imgs/007-thumb.png"/>
+        </a>
       <div>
-        <strong>Migration (part 2)</strong>        
+        <a href="./cloud5-aem-content-migration-part-2.md"><strong>Migration (part 2)</strong></a>     
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 14 April 2022
+         Part two (of two) of our tips and tricks for migrating to the cloud. Part two is primarily about using the available tools for migration.
       </p>
      </td>   
      <td>
@@ -130,4 +140,18 @@ Each season varies in length and will be released on a fixed schedule. Season 1'
       </p>
    </td> 
   </tr>
+    <tr>
+        <td>
+            <img alt="Adobe App Builder" src="./imgs/coming-soon.png"/>
+            <div>
+                <strong>Adobe App Builder</strong><br/>        
+                <em>with Darin Kuntze & James Talbot, Senior Cloud Architects & Special Guest</em>
+            </div>
+            <p><br/>
+                Coming 6 May 2022
+            </p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
 </table>

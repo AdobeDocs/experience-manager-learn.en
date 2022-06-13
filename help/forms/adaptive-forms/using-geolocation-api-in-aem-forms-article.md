@@ -10,8 +10,6 @@ exl-id: 50db6155-ee83-4ddb-9e3a-56e8709222db
 ---
 # Using Geolocation API's in Adaptive Forms{#using-geolocation-api-s-in-adaptive-forms}
 
-Please visit the [AEM Forms samples](https://forms.enablementadobe.com/content/samples/samples.html?query=0#collapse1) page for a link to a live demo of this capability.
-
 In this article, we will take a look at using Google's Geolocation API to populate fields of an Adaptive Form. This use case is commonly used when you want to populate the current address fields on a form.
 
 The following steps were followed to use the Geolocation API in Adaptive Forms.

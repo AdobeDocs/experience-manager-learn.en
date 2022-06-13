@@ -1,5 +1,5 @@
 ---
-title: Inbox customization
+title: Using sightly template to display inbox data
 description: Add custom columns to display additional data of workflow using sightly template
 feature: Adaptive Forms
 topics: development

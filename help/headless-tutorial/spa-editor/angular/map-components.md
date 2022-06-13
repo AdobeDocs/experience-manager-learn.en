@@ -77,7 +77,7 @@ Let's see how the component works.
 
 ### Inspect the JSON model
 
-1. Before jumping into the SPA code, it is important to understand the JSON model that AEM provides. Navigate to the [Core Component Library](https://www.aemcomponents.dev/content/core-components-examples/library/page-authoring/text.html) and view the page for the Text component. The Core Component Library provides examples of all the AEM Core Components.
+1. Before jumping into the SPA code, it is important to understand the JSON model that AEM provides. Navigate to the [Core Component Library](https://www.aemcomponents.dev/content/core-components-examples/library/core-content/text.html) and view the page for the Text component. The Core Component Library provides examples of all the AEM Core Components.
 2. Select the **JSON** tab for one of the examples:
 
     ![Text JSON model](./assets/map-components/text-json.png)
@@ -201,7 +201,7 @@ Next, create an `Image` Angular component that is mapped to the AEM [Image compo
 
 Before jumping into the SPA code, inspect the JSON model provided by AEM.
 
-1. Navigate to the [Image examples in the Core Component library](https://www.aemcomponents.dev/content/core-components-examples/library/page-authoring/image.html).
+1. Navigate to the [Image examples in the Core Component library](https://www.aemcomponents.dev/content/core-components-examples/library/core-content/image.html).
 
     ![Image Core Component JSON](./assets/map-components/image-json.png)
 

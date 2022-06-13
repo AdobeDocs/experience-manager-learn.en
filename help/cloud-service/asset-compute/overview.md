@@ -40,7 +40,7 @@ This tutorial walks through the creation of a simple Asset Compute worker that c
 
 ### Account and service provisioning{#accounts-and-services}
 
-The following accounts and services require provisioning and access to in order to complete the tutorial, AEM as a Cloud Service Dev environment or Sandbox program, access to Adobe Project Firefly and  Microsoft Azure Blob Storage.
+The following accounts and services require provisioning and access to in order to complete the tutorial, AEM as a Cloud Service Dev environment or Sandbox program, access to App Builder and  Microsoft Azure Blob Storage.
 
 + [Provision accounts and services](./set-up/accounts-and-services.md)
 
@@ -50,11 +50,11 @@ Local development of Asset Compute projects requires a specific developer tool s
  
 + [Set up local development environment](./set-up/development-environment.md)
 
-### Adobe Project Firefly
+### App Builder
 
-Asset Compute projects are specially defined Adobe Project Firefly projects, and as such, require access to Adobe Project Firefly in the Adobe Developer Console in order to set up and deploy them.
+Asset Compute projects are specially defined App Builder projects, and as such, require access to App Builder in the Adobe Developer Console in order to set up and deploy them.
 
-+ [Set up Adobe Project Firefly](./set-up/firefly.md)
++ [Set up App Builder](./set-up/app-builder.md)
 
 ## Develop 
 
@@ -62,7 +62,7 @@ Learn how to create and configure an Asset Compute project and then develop a cu
 
 ### Create a new Asset Compute project
 
-Asset Compute projects, which contain one or more Asset Compute workers, are generated using the the interactive Adobe I/O CLI. Asset Compute projects are specially structured Adobe Project Firefly projects, which are in turn Node.js projects. 
+Asset Compute projects, which contain one or more Asset Compute workers, are generated using the the interactive Adobe I/O CLI. Asset Compute projects are specially structured App Builder projects, which are in turn Node.js projects. 
 
 + [Create a new Asset Compute project](./develop/project.md)
 

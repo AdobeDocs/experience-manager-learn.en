@@ -20,19 +20,17 @@ Learn how to help boost your SEO by creating sitemaps for AEM Sites.
 
 + [AEM Sitemap Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/overview/seo-and-url-management.html?lang=en#building-an-xml-sitemap-on-aem)
 + [Apache Sling Sitemap documentation](https://github.com/apache/sling-org-apache-sling-sitemap#readme)
-+ [AEM Core WCM Components Github](https://github.com/adobe/aem-core-wcm-components)
-    + Sitemap functionality added in v2.17.6
 + [Sitemap.org Sitemap documentation](https://www.sitemaps.org/protocol.html)
 + [Sitemap.org Sitemap index file documentation](https://www.sitemaps.org/protocol.html#index)
 + [Cronmaker](http://www.cronmaker.com/)
 
 ## Configurations
 
-### org.apache.sling.sitemap.impl.SitemapScheduler~wknd.cfg.json
-
-`ui.config/src/main/jcr_content/apps/wknd/osgiconfig/config.publish`
+### Sitemap scheduler OSGi configuration
 
 Defines the [OSGi factory configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.sitemap.impl.SitemapScheduler) for the frequency (using [cron expressions](http://www.cronmaker.com)) sitemaps will be re/generated and cached in AEM. 
+
+`ui.config/src/main/jcr_content/apps/wknd/osgiconfig/config.publish`
 
 ```json
 {
@@ -42,24 +40,24 @@ Defines the [OSGi factory configuration](http://localhost:4502/system/console/co
 }
 ```
 
-### filters.any
-
-`dispatcher/src/conf.dispatcher.d/filters/filters.any`
+### Dispatcher allow filter rule
 
 Allow HTTP requests for the sitemap index and sitemap files.
+
+`dispatcher/src/conf.dispatcher.d/filters/filters.any`
 
 ```
 ...
 
-# Allow AEM WCM Core Components sitemaps
+# Allow AEM sitemaps
 /0200 { /type "allow" /path "/content/*" /selectors '(sitemap-index|sitemap)' /extension "xml" }
 ```
 
-### rewrite.rules
-
-`dispatcher/src/conf.d/rewrites/rewrite.rules`
+### Apache webserver rewrite rule
 
 Ensure `.xml` sitemap HTTP requests are routed to the correct underlying AEM page. If URL shortening is not used, or Sling Mappings are used to achieve URL shortening, then this configuration is not needed.
+
+`dispatcher/src/conf.d/rewrites/rewrite.rules`
 
 ```
 ...

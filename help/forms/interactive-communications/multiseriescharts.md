@@ -41,6 +41,6 @@ To test this on your system, please follow the following steps
 * [Download the SeriesChartSampleData.json on to your hard drive.](assets/serieschartsampledata.json) This is the sample data that will be used to populate the chart.
 * [Navigate to Forms and Documents.](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * Gently select the "MutualFundGrowthFactSheet" interactive communications template.
-* Click on Preview | Upload Sample Data.
+* Click on Preview | Print Channel | Upload Sample Data.
 * Browse to sample data file provided as part of this article.
 * Preview the print channel of the "MutualFundGrowthFactSheet" interactive communication with the sample data downloaded in the previous step.

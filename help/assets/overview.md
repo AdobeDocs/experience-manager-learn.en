@@ -8,22 +8,11 @@ exl-id: 1d0b0183-25ee-4cb4-82a5-3506e7c1c908
 
 Adobe Experience Manager (AEM) Assets is a digital asset management tool on AEM Platform that allows users to create, manage, and share their digital assets (images, videos, documents, and audio clips) in a web-based repository. This user guide contains videos and tutorials on the many features and capabilities of AEM Assets.
 
-## What's New
+## AEM Assets walk through
 
-* **[Relate and Unrelate (Video)](./authoring/relate-unrelate.md)**
-    *Learn how to establish and manage relationships between assets in AEM*
+Watch this end-to-end walk through of AEM Assets that explains what AEM Assets is, and how it might be used to achieve your organization's business goals.
 
-* **[Publish Assets (Video)](./sharing/publish.md)**
-    *Learn the ins and outs of publishing assets from AEM Author to AEM Publish*
-
-* **[Watermarks (Video)](./advanced/watermarks.md)**
-    *Learn how to watermark asset renditions in AEM as a Cloud Service*
-
-* **[Baseline permissions (Video)](./configuring/baseline-permissions.md)**
-    *Learn how, and why it's important, to configure AEM Assets with baseline permissions*
-
-* **[Auto-start workflows (Video)](./configuring/auto-start-workflows.md)** 
-    *Explore how to automatically invoke AEM workflow on uploaded or reprocessed assets*
+>[!VIDEO](https://video.tv.adobe.com/v/336196/?quality=12&learn=on)
 
 ## Staff Picks
 

@@ -1,5 +1,5 @@
 ---
-title: Create Adobe Sign Cloud Configuration
+title: Create Adobe Sign Cloud Configuration Cloud Service
 description: Create the AEM Forms and Adobe Sign integration using the cloud services configuration.
 solution: Experience Manager,Experience Manager Forms
 type: Documentation
