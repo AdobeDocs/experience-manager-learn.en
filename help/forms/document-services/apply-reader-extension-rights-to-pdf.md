@@ -11,7 +11,6 @@ exl-id: ea433667-81db-40f7-870d-b16630128871
 # Applying Reader Extensions
 
 Reader Extensions allows you to manipulate usage rights on PDF documents. Usage rights pertain to functionality that is available in Acrobat but not in Adobe Reader. Functionality controlled by Reader Extensions includes the ability to add comments to a document, fill forms, and save the document. PDF documents that have usage rights added are called rights-enabled documents. A user who opens a rights-enabled PDF document in Adobe Reader can perform the operations that are enabled for that document.
-To test this capability, you can try this [link](https://forms.enablementadobe.com/content/forms/af/applyreaderextensions.html).
 
 To accomplish this use case we need to do the following:
 * [Add the Reader Extensions certificate](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/configuring-reader-extension-osgi.html) to `fd-service` user. 

@@ -142,7 +142,7 @@ The QueryBuilder service is used to query nodes of type nt:file under the attach
 
 #### Build and Deploy
 
-[Build the bundle as described here](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/create-your-first-osgi-bundle.html?lang=en#build-your-project)
+[Build the bundle as described here](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html)
 [Make sure the bundle is deployed and in active state](http://localhost:4502/system/console/bundles)
 
 Create a workflow model. Drag and drop process step in the workflow model. Associate the process step with "Save Adaptive Form Attachments to File System".

@@ -1,6 +1,6 @@
 ---
-title: Developing with Output and Forms Services in AEM Forms
-description: Using Output and Forms Service API in AEM Forms
+title: Rendering Interactive PDF using Forms Services in AEM Forms
+description: Using Forms Service API in AEM Forms to render interactive PDF
 feature: Forms Service
 version: 6.4,6.5
 topic: Development

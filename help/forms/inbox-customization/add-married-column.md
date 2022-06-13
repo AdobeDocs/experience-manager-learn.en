@@ -1,5 +1,5 @@
 ---
-title: Inbox customization
+title: Add custom columns
 description: Add custom columns to display additional data of workflow
 feature: Adaptive Forms
 topics: development

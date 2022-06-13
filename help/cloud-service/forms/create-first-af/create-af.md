@@ -1,5 +1,5 @@
 ---
-title: Create adaptive form
+title: Create an adaptive form
 description: Create adaptive form and base it on the template created.
 solution: Experience Manager,Experience Manager Forms
 type: Documentation

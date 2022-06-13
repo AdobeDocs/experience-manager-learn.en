@@ -1,5 +1,5 @@
 ---
-title: Inbox customization
+title: AEM Inbox
 description: Customize inbox by adding new columns  based on workflow data
 feature: Adaptive Forms
 topics: development
@@ -15,10 +15,11 @@ exl-id: 3e1d86ab-e0c4-45d4-b998-75a44a7e4a3f
 ---
 # AEM Inbox
 
- AEM Inbox consolidates notifications and tasks from various AEM components, including Forms workflows. When a forms workflow containing an Assign task step is triggered, the associated application is listed as a task in the assignee's Inbox.
- The Inbox user interface provides list and calendar views to view tasks. You can also configure the view settings. You can filter tasks based on various parameters
- You can customize an Experience Manager Inbox to change the default title of a column, reorder the position of a column, and display additional columns based on the data of a workflow
+AEM Inbox consolidates notifications and tasks from various AEM components, including Forms workflows. When a forms workflow containing an Assign task step is triggered, the associated application is listed as a task in the assignee's Inbox.
 
+The Inbox user interface provides list and calendar views to view tasks. You can also configure the view settings. You can filter tasks based on various parameters.
+ 
+You can customize an Experience Manager Inbox to change the default title of a column, reorder the position of a column, and display additional columns based on the data of a workflow.
 
 >[!NOTE]
 >
