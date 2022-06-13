@@ -35,8 +35,8 @@ The Developer console provides a variety of information and introspections into 
 
 [Debugging AEM as a Cloud Service with the Developer Console](./developer-console.md)   
 
-## CRXDE Lite
+## Repository Browser
 
-CRXDE Lite is a classic, yet powerful tool for debugging AEM as a Cloud Service Development environments. CRXDE Lite provides a suite of functionality that aids debugging from inspecting all resources and properties, manipulating the mutable portions of the JCR, investigating permissions and evaluating queries. 
+Repository Browser is a powerful tool that provides visibility into AEM's underlying data store, allowing for easy debugging of AEM as a Cloud Service environment. Repository Browser supports a read-only view of the resources and properties of AEM on Production, Stage, and Development, as well as Author, Publish, and Preview services.
 
-[Debugging AEM as a Cloud Service with CRXDE Lite](./crxde-lite.md)
+[Debugging AEM as a Cloud Service with Repository Browser](./repository-browser.md)

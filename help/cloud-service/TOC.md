@@ -5,7 +5,7 @@ breadcrumb-title: AEM as a Cloud Service Tutorials
 sub-product: cloud-service
 team: TM
 ---
-
+ 
 # Adobe Experience Manager as a Cloud Service Tutorials {#cloud-service}
 
 + [Overview](./overview.md)
@@ -75,7 +75,7 @@ team: TM
     + [Logs](./debugging/cloud-service/logs.md)
     + [Build and Deployment](./debugging/cloud-service/build-and-deployment.md)
     + [Developer Console](./debugging/cloud-service/developer-console.md)
-    + [CRXDE Lite](./debugging/cloud-service/crxde-lite.md)
+    + [Repository Browser](./debugging/cloud-service/repository-browser.md)
 + Accessing AEM{#accessing}    
   + [Overview](./accessing/overview.md)
   + [Adobe IMS users](./accessing/adobe-ims-users.md)
@@ -168,6 +168,15 @@ team: TM
         + [Create USC Batch Configuration](./forms/formscs-batch-api/configure-usc-batch.md)
         + [Create Batch Config](./forms/formscs-batch-api/create-batch-config.md)
         + [Execute Batch](./forms/formscs-batch-api/execute-batch-generate-documents.md)
+    + PDF Manipulation in Forms CS{#forms-cs-assembler}
+        + [Introduction](./forms/forms-cs-assembler/introduction.md)
+        + [Create Service Credentials](./forms/forms-cs-assembler/service-credentials.md)
+        + [Create JWT Token](./forms/forms-cs-assembler/create-jwt.md)
+        + [Create Access Token](./forms/forms-cs-assembler/create-access-token.md)
+        + [Assemble PDF Files](./forms/forms-cs-assembler/assemble-pdf-files.md)
+        + [PDF/A Utilities](./forms/forms-cs-assembler/pdfa-utilities.md)
+        + [Test the solution](./forms/forms-cs-assembler/test.md)
+        + [Challenge](./forms/forms-cs-assembler/challenge.md)
     + Azure Portal Storage{#forms-cs-azure-portal}
         + [Introduction](./forms/forms-cs-azure-portal/introduction.md)
         + [Create Form Data Model](./forms/forms-cs-azure-portal/create-fdm.md)
@@ -205,7 +214,7 @@ team: TM
     + Set up{#set-up}
         + [Account and service provisioning](./asset-compute/set-up/accounts-and-services.md)
         + [Local development environment](./asset-compute/set-up/development-environment.md)
-        + [Adobe Project Firefly](./asset-compute/set-up/firefly.md)
+        + [App Builder](./asset-compute/set-up/app-builder.md)
     + Develop{#develop}
         + [Create an Asset Compute project](./asset-compute/develop/project.md)
         + [Configure environment variables](./asset-compute/develop/environment-variables.md)
@@ -227,6 +236,13 @@ team: TM
     + [AEM CDN Part 1](./cloud-5/cloud5-aem-cdn-part1.md)
     + [AEM CDN Part 2](./cloud-5/cloud5-aem-cdn-part2.md)
     + [AEM Log Files](./cloud-5/cloud5-aem-log-files.md)
+    + [Login Tokens](./cloud-5/cloud5-getting-login-token-integrations.md)
+    + [Cloud Dispatcher](./cloud-5/cloud5-aem-dispatcher-cloud.md)
+    + [Migration 1](./cloud-5/cloud5-aem-content-migration-part-1.md)
+    + [Migration 2](./cloud-5/cloud5-aem-content-migration-part-2.md)
+    + [Dispatcher Validator](./cloud-5/cloud5-aem-dispatcher-validator.md)
+    + [Search and Indexing](./cloud-5/cloud5-aem-search-and-indexing.md)
+    + [Adobe App Builder](./cloud-5/cloud5-adobe-app-builder.md)
 + [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)

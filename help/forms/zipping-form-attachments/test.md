@@ -1,5 +1,5 @@
 ---
-title: Test the solution
+title: Test the solution - Steps needed to test the two approaches
 description: Test the solution by adding attachments to the form and trigger the workflow to send the email.
 feature: Adaptive Forms
 version: 6.5
