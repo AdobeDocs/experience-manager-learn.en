@@ -109,7 +109,7 @@ Repoinit scripts define baseline content, users, ACLs, etc. In AEM as a Cloud Se
 
 ### Unsatisfied repoinit content dependency
 
-Repoinit scripts define baseline content, users, ACLs, etc. In AEM SDK's local quickstart, repoinit scripts are applied when the repoinit OSGi factory configuration is activated, or in other words, after the repository is active and may have incurred content changes directly or via content packages. In AEM as a Cloud Service, repoinit scripts are applied during Build Image against a a repository that may not contain content the repoinit script depends on.
+Repoinit scripts define baseline content, users, ACLs, etc. In AEM SDK's local quickstart, repoinit scripts are applied when the repoinit OSGi factory configuration is activated, or in other words, after the repository is active and may have incurred content changes directly or via content packages. In AEM as a Cloud Service, repoinit scripts are applied during Build Image against a repository that may not contain content the repoinit script depends on.
 
 + __Cause:__ A repoinit script depends on content that is not existent.
 + __Resolution:__ Ensure the content the repoinit script depends on exists. Often, this indicates an inadequately defined repoinit scripts that is missing directives that define these missing, but required, content structures. This can reproduced locally by deleting AEM, unpacking the Jar and adding the repoinit OSGi configuration containing the repoinit script to the install folder, and starting AEM. The error will present itself in the AEM SDK local quickstart's error.log.
