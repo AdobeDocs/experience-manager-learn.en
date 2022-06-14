@@ -122,7 +122,7 @@ Next, inspect the `ui.frontend` module to understand the SPA that has been auto-
 
     `index.js` is the entrypoint of the SPA. `ModelManager` is provided by the AEM SPA Editor JS SDK. It is responsible for calling and injecting the `pageModel` (the JSON content) into the application.
 
-1. Inspect the file `import-component.js` at `ui.frontend/src/import-components.js`. This file imports the out of the box **React Core Components** and makes them available to the project. We will inspect the mapping of AEM content to SPA components in the next chapter.
+1. Inspect the file `import-components.js` at `ui.frontend/src/components/import-components.js`. This file imports the out of the box **React Core Components** and makes them available to the project. We will inspect the mapping of AEM content to SPA components in the next chapter.
 
 ## Add a static SPA component {#static-spa-component}
 
