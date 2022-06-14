@@ -4,12 +4,12 @@ description: AEM Repository Modernization and how it works
 version: Cloud Service
 role: Admin, Developer
 level: Intermediate
-thumbnail: 342866.jpeg
+thumbnail: 342865.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: de4c2a3b-e5a3-4b2c-aaa0-c0f7028dd61e
 ---
-# Cloud 5 - Fragments
+# Cloud 5 - Repository Modernizer
 
 The guys look into how the repository modernizer helps you transition to AEM as a Cloud Service with helpful overview of how it works and why.
 
@@ -17,5 +17,5 @@ The guys look into how the repository modernizer helps you transition to AEM as 
 
 ## Content covered in this video
 
-+ [AIO Cli](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration)
++ [AIO CLI](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration)
 + [Repository Modernizer](https://github.com/adobe/aem-cloud-service-source-migration/tree/master/packages/repository-modernizer)

@@ -38,17 +38,19 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
                 A colorful take on the differences between experience and content fragments. Spoiler: everyone wins.
             </p>
         </td>   
-     <td>
-         <img alt="Repository Modernizer" src="./imgs/coming-soon.png"/>
-      <div>
-         <strong>Repository Modernizer</strong>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
-      </div>
-      <p>
-        <br/>
-         Coming 10 June 2022
-      </p>
-   </td>
+         <td>
+            <a href="season-2/cloud5-repo-modernizer.md">
+                 <img alt="Repository Modernizer" src="./imgs/s2/001-thumb.png"/>
+            </a>
+            <div>
+                <a href="season-2/cloud5-repo-modernizer.md"><strong>Repository Modernizer</strong></a> 
+               <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+            </div>
+            <p>
+                <br/>
+                Quick insight into using the repository modernizer to restructure existing project packages to discrete packages compatible with AEM as a cloud service.
+            </p>
+         </td>
      <td>
             <img alt="Admin Console" src="./imgs/coming-soon.png"/>
       <div>

@@ -1,6 +1,6 @@
 ---
-title: iOS SwiftUI App - AEM Headless Example
-description: Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). An iOS application is provided that demonstrates how to query content using the GraphQL APIs of AEM. The Apollo Client iOS is used to generate the GraphQL queries and map data to Swift objects to power the app. SwiftUI is used to render a simple list and detail view of the content.
+title: iOS SwiftUI App - AEM Headless example
+description: Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This iOS application demonstrates how to query content using AEM's GraphQL APIs using persisted queries.
 version: Cloud Service
 mini-toc-levels: 1
 kt: 9166
@@ -11,202 +11,310 @@ role: Developer
 level: Beginner
 exl-id: 6c5373db-86ec-410b-8a3b-9d4f86e06812
 ---
-# iOS SwiftUI App
+# iOS SwiftUI app
 
-Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This iOS application demonstrates how to query content using the GraphQL APIs of AEM. The Apollo Client iOS is used to generate the GraphQL queries and map data to Swift objects to power the app. SwiftUI is used to render a simple list and detail view of the content.
+Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This iOS application demonstrates how to query content using AEM's GraphQL APIs using persisted queries.
+
+![iOS SwiftUI app with AEM Headless](./assets/ios-swiftui-app/ios-app.png)
 
 View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/ios-swiftui-app)
-
->[!VIDEO](https://video.tv.adobe.com/v/338042/?quality=12&learn=on)
 
 ## Prerequisites {#prerequisites}
 
 The following tools should be installed locally:
 
-* [Xcode 9.3+](https://developer.apple.com/xcode/)
-* [Git](https://git-scm.com/)
++ [Xcode 9.3+](https://developer.apple.com/xcode/) (requires macOS)
++ [Git](https://git-scm.com/)
 
-## AEM Requirements
+## AEM requirements
 
-The application is designed to connect to an AEM **Publish** environment with the latest release of the [WKND Reference site](https://github.com/adobe/aem-guides-wknd/releases/latest) installed.
+The iOS application works with the following AEM deployment options. All deployments requires the [WKND Site v2.0.0+](https://github.com/adobe/aem-guides-wknd/releases/latest) to be installed.
 
-* [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/overview/introduction.html)
-* [AEM 6.5.10+](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html)
++ [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html)
++ Local set up using [the AEM Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)
++ [AEM 6.5 SP13+ QuickStart](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=en#install-local-aem-instances)
 
-We recommend [deploying the WKND Reference site to a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#coding-against-the-right-aem-version). A local setup using [the AEM Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or [AEM 6.5 QuickStart jar](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=en#install-local-aem-instances) can also be used.
+The iOS application is designed to connect to an __AEM Publish__ environment, however it can source content from AEM Author if authentication is provided in the iOS application's configuration. 
 
 ## How to use
 
-1. Clone the `aem-guides-wknd-graphql` repository:
+1. Clone the `adobe/aem-guides-wknd-graphql` repository:
 
     ```shell
     git clone git@github.com:adobe/aem-guides-wknd-graphql.git
     ```
 
 1. Launch [Xcode](https://developer.apple.com/xcode/) and open the folder `ios-swiftui-app`
-1. Modify the file `Config.xcconfig` file and update `AEM_HOST` to match your target AEM Publish environment
+1. Modify the file `Config.xcconfig` file and update `AEM_SCHEME` and `AEM_HOST` to match your target AEM Publish service.
 
     ```plain
+    // The http/https protocol scheme used to access the AEM_HOST
+    AEM_SCHEME = http
     // Target hostname for AEM environment, do not include http:// or https://
     AEM_HOST = localhost:4503
-    // GraphQL Endpoint
-    AEM_GRAPHQL_ENDPOINT = /content/cq:graphql/wknd/endpoint.json
     ```
 
+    If connecting to AEM Author, add the `AEM_AUTH_TYPE` and supporting authentication properties to the `Config.xcconfig`.
+
+    __Basic authentication__
+
+    The `AEM_USERNAME` and `AEM_PASSWORD` authenticate a local AEM user with access to WKND GraphQL content.
+
+    ```plain
+    AEM_AUTH_TYPE = basic
+    AEM_USERNAME = admin
+    AEM_PASSWORD = admin
+    ```
+
+    __Token authentication__
+
+    The `AEM_TOKEN` is an [access token](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html) that authenticates to an AEM user with access to WKND GraphQL content.
+
+    ```plain
+    AEM_AUTH_TYPE = token
+    AEM_TOKEN = abcd...0123
+    ```
+    
 1. Build the application using Xcode and deploy the app to iOS simulator
-1. A list of adventures from the WKND reference site should be displayed on the application.
+1. A list of adventures from the WKND site should be displayed on the application. Selecting an adventure opens the adventure details. On the adventures list view, pull to refresh the data from AEM.
 
 ## The code
 
-Below is a brief summary of the important files and code used to power the application. The full code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/ios-swiftui-app).
+Below is a summary of how the iOS application is built, how it connects to AEM Headless to retrieve content using GraphQL persisted queries, and how that data is presented. The full code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/ios-swiftui-app).
 
-### Apollo iOS
+### Persisted queries
 
-The [Apollo iOS](https://www.apollographql.com/docs/ios/) client is used by the app to execute the GraphQL query against AEM. The official [Apollo Tutorial](https://www.apollographql.com/docs/ios/tutorial/tutorial-introduction/) has much more detail on how to install and use.
+Following AEM Headless best practices, the iOS application uses AEM GraphQL persisted queries to query adventure data. The application uses two persisted queries:
 
-`schema.json` is a file that represents the GraphQL schema from an AEM environment with the WKND Reference site installed. `schema.json` was downloaded from AEM and added to the project. The Apollo client inspects any files with the extension `.graphql` as part of a custom Build Phase. The Apollo client then uses the `schema.json` file and any `.graphql` queries to automatically generate the file `API.swift`. 
-
-This provides the application a strongly typed model to execute the query and model(s) representing the results.
-
-![Xcode custom build phase](assets/ios-swiftui-app/xcode-build-phase-apollo.png)
-
-`AdventureList.graphql` contains the query used to query the adventures:
++ `wknd/adventures-all` persisted query, which returns all adventures in AEM with an abridged set of properties. This persisted query drives the initial view's adventure list.
 
 ```
-query AdventureList
+# Retrieves a list of all adventures
 {
-  adventureList {
+    adventureList {
+        items {
+            _path
+            slug
+            title
+            price
+            tripLength
+            primaryImage {
+                ... on ImageRef {
+                _path
+                mimeType
+                width
+                height
+                }
+            }
+        }
+    }
+}
+```
+
++ `wknd/adventure-by-slug` persisted query, which returns a single adventure by `slug` (a custom property that uniquely identifies an adventure) with a complete set of properties. This persisted query powers the adventure detail views.
+
+```
+# Retrieves an adventure Content Fragment based on it's slug
+# Example query variables: 
+# {"slug": "bali-surf-camp"} 
+# Technically returns an adventure list but since the the slug 
+# property is set to be unique in the CF Model, only a single CF is expected
+
+query($slug: String!) {
+  adventureList(filter: {
+        slug: {
+          _expressions: [ { value: $slug } ]
+        }
+  	}) {
     items {
       _path
-      adventureTitle
-      adventurePrice
-      adventureActivity
-      adventureDescription {
-        plaintext
-        markdown
-      }
-      adventureDifficulty
-      adventureTripLength
-      adventurePrimaryImage {
-        ...on ImageRef {
-          _authorUrl
-          _publishUrl
+      title
+      slug
+      activity
+      adventureType
+      price
+      tripLength
+      groupSize
+      difficulty
+      price
+      primaryImage {
+        ... on ImageRef {
+          _path
+          mimeType
+          width
+          height
         }
+      }
+      description {
+        json
+        plaintext
+      }
+      itinerary {
+        json
+        plaintext
+      }
+    }
+    _references {
+      ...on AdventureModel {
+        _path
+        slug
+        title
+        price
+        __typename
       }
     }
   }
 }
 ```
 
-`Network.swift` constructs the `ApolloClient`. The `endpointURL` used is constructed by reading the values of the `Config.xcconfig` file. If you wanted to connect to an AEM **Author** instance and needed to add additional headers for authentication, you would want to modify the `ApolloClient` here.
+## Execute GraphQL persisted query
 
-```swift
-// Network.swift
-private(set) lazy var apollo: ApolloClient = {
-        // The cache is necessary to set up the store, which we're going to hand to the provider
-        let cache = InMemoryNormalizedCache()
-        let store = ApolloStore(cache: cache)
+AEM's persisted queries are executed over HTTP GET and thus, common GraphQL libraries that use HTTP POST such as Apollo, cannot be used. Instead, create a custom class that executes the persisted query HTTP GET requests to AEM.
+
+`AEM/Aem.swift` instantiates the `Aem` class used for all interactions with AEM Headless. The pattern is:
+
+1. Each persisted query has a corresponding public func (ex. `getAdventures(..)` or `getAdventureBySlug(..)`) the iOS application's views invoke to get adventure data.
+1. The public func calls a private func `makeRequest(..)` that invokes an asynchronous HTTP GET request to AEM Headless, and returns the JSON data.
+1. Each public func then decodes the JSON data, and performs any required checks or transformations, before returning the Adventure data to the view.
   
-        let client = URLSessionClient()
-        let provider = DefaultInterceptorProvider(client: client, shouldInvalidateClientOnDeinit: true, store: store)
-        let url = Connection.baseURL // from Configx.xcconfig 
-
-        // no additional headers, public instances by default require no additional authentication
-        let requestChainTransport = RequestChainNetworkTransport(interceptorProvider: provider, endpointURL: url)
-
-        return ApolloClient(networkTransport: requestChainTransport,store: store)
-    }()
-}
-```
-
-### Adventure Data
-
-The application is designed to display a list of Adventures and then a detail view of each adventure.
-
-`AdventuresDataModel.swift` is a class that includes a function `fetchAdventures()`. This function uses the `ApolloClient` to execute the query. On a successful query the results array will be of type `AdventureListQuery.Data.AdventureList.Item`, auto-generated by the `API.swift` file.
+  + AEM's GraphQL JSON data is decoded using the structs/classes defined in `AEM/Models.swift`, which map to the JSON objects returned my AEM Headless. 
 
 ```swift
-func fetchAdventures() {
-        Network.shared.apollo
-            //AdventureListQuery() generated based on AdventureList.graphql file
-           .fetch(query: AdventureListQuery()) { [weak self] result in
-           
-             guard let self = self else {
-               return
-             }
-                   
-             switch result {
-             case .success(let graphQLResult):
-                print("Success AdventureListQuery() from: \(graphQLResult.source)")
-
-                if let adventureDataItems =  graphQLResult.data?.adventureList.items {
-                    // map graphQL items to an array of Adventure objects
-                    self.adventures = adventureDataItems.compactMap { Adventure(adventureData: $0!) }
+    /// # getAdventures(..)
+    /// Returns all WKND adventures using the `wknd-shared/adventures-all` persisted query.
+    /// For this func call to work, the `wknd-shared/adventures-all` query must be deployed to the AEM environment/service specified by the host.
+    /// 
+    /// Since HTTP requests are async, the completion syntax is used.
+    func getAdventures(completion: @escaping ([Adventure]) ->  ()) {
+               
+        // Create the HTTP request object representing the persisted query to get all adventures
+        let request = makeRequest(persistedQueryName: "wknd-shared/adventures-all")
+        
+        // Wait fo the HTTP request to return
+        URLSession.shared.dataTask(with: request) { (data, response, error) in
+            // Error check as needed
+            if ((error) != nil) {
+                print("Unable to connect to AEM GraphQL endpoint")
+                completion([])
+            }
+                                    
+            if (!data!.isEmpty) {
+                // Decode the JSON data into Swift objects
+                let adventures = try! JSONDecoder().decode(Adventures.self, from: data!)
+                
+                DispatchQueue.main.async {
+                    // Return the array of Adventure objects
+                    completion(adventures.data.adventureList.items)
                 }
-                ...
-             }
-           }
-}
-```
+            }
+        }.resume();
+    }
 
-It is possible to use `AdventureListQuery.Data.AdventureList.Item` directly to power the application. However it is very possible that some of the data is incomplete and therefore some of the properties may be null.
+    ...
 
-`Adventure.swift` is a custom model introduced acts as a wrapper of the model generated by Apollo. `Adventure` is initialized with `AdventureListQuery.Data.AdventureList.Item`. A `typealias` is used to shorten to make the code more readable:
+    /// #makeRequest(..)
+    /// Generic method for constructing and executing AEM GraphQL persisted queries
+    private func makeRequest(persistedQueryName: String, params: [String: String] = [:]) -> URLRequest {
+        // Encode optional parameters as required by AEM
+        let persistedQueryParams = params.map { (param) -> String in
+            encode(string: ";\(param.key)=\(param.value)")
+        }.joined(separator: "")
+        
+        // Construct the AEM GraphQL persisted query URL, including optional query params
+        let url: String = "\(self.scheme)://\(self.host)/graphql/execute.json/" + persistedQueryName + persistedQueryParams;
 
-```
-// use typealias
-typealias AdventureData = AdventureListQuery.Data.AdventureList.Item
-```
+        var request = URLRequest(url: URL(string: url)!);
 
-The `Adventure` struct is initialized with an `AdventureData` object:
-
-```swift
-struct Adventure: Identifiable {
-    let id: String
-    let adventureTitle: String
-    let adventurePrice: String
-    let adventureDescription: String
-    let adventureActivity: String
-    let adventurePrimaryImageUrl: String
+        // Add authentication to the AEM GraphQL persisted query requests as defined by the iOS application's configuration
+        request = addAuthHeaders(request: request)
+        
+        return request
+    }
     
-    // initialize with AdventureData object aka AdventureListQuery.Data.AdventureList.Item
-    init(adventureData: AdventureData) {
-        // use path as unique idenitifer, otherwise
-        self.id = adventureData._path ?? UUID().uuidString
-        self.adventureTitle = adventureData.adventureTitle ?? "Untitled"
-        self.adventurePrice = adventureData.adventurePrice ?? "Free"
-        self.adventureActivity = adventureData.adventureActivity ?? ""
-        ...
+    ...
 ```
 
-This allows us to then provide default values and perform additional checks for incomplete data. We can then use the `Adventure` model safely to power various UI elements and do not have to constantly check for null values.
+### GraphQL response data models
 
-In AEM, pieces of content are uniquely identified by `_path`. In `Adventure.swift` we populate the `id` property with the value of `_path`. This allows `Adventure` to implement the `Identifiable` interface and makes it easier to iterate over an array or list.
+iOS prefers mapping JSON objects to typed data models. 
+
+The `src/AEM/Models.swift` defines the [decodable](https://developer.apple.com/documentation/swift/decodable) Swift structs and classes that map to the AEM JSON responses returned by AEM's JSON responses.
 
 ### Views
 
-SwiftUI is used for the various views in the application. A great tutorial for [building lists and navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) can be found on Apple's developer site. The code for this application is loosely derived from it.
+SwiftUI is used for the various views in the application. Apple provides a getting started tutorial for [building lists and navigation with SwiftUI](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation).
 
-`WKNDAdventuresApp.swift` is the entry of the application. It includes `AdventureListView` and the `.onAppear` event is used to fetch the adventure data.
++ `WKNDAdventuresApp.swift` 
 
-`AdventureListView.swift` - creates a `NavigationView` and a list of adventures populated by `AdventureRowView`. Navigation to an `AdventureDetailView` is set up here.
+  The entry of the application and includes `AdventureListView` whose `.onAppear` event handler is used to fetch all adventures data via `aem.getAdventures()`. The shared `aem` object is initialized here, and exposed to other views as an [EnvironmentObject](https://developer.apple.com/documentation/swiftui/environmentobject).
 
-`AdventureRowView` - displays the Adventure's primary image and the Adventure Title in a row. 
++ `Views/AdventureListView.swift` 
+  
+  Displays a list of adventures (based on the data from `aem.getAdventures()`) and displays a list item for each adventure using the `AdventureListItemView`. 
 
-`AdventureDetailView` - displays a full detail of the individual adventure including the title, description, price, activity type and primary image.
++ `Views/AdventureListItemView.swift`
 
-When the Apollo CLI runs and re-generates `API.swift` it causes the preview to stop. To use the the Automatic Preview function, you will need to update the **Apollo CLI** Build Phase and check to run the script **For Install builds only**. 
+  Displays each item in the adventures list (`Views/AdventureListView.swift`).
 
-![Check For install builds only](assets/ios-swiftui-app/update-build-phases.png)
++ `Views/AdventureDetailView.swift`
+
+    Displays the details of an adventure including the title, description, price, activity type, and primary image. This view queries AEM for full adventure details using `aem.getAdventureBySlug(slug: slug)`, where the `slug` parameter is passed in based on the select list row.
 
 ### Remote Images
 
-[SDWebImageSwiftUI](https://github.com/SDWebImage/SDWebImageSwiftUI) and [SDWEbImage](https://github.com/SDWebImage/SDWebImage) are used to load the remote images from AEM that populate the Adventure primary image on the Row and Detail views.
+Images referenced by adventure Content Fragments, are served by AEM. This iOS app uses the path `_path` field in the GraphQL response, and prefixes the `AEM_SCHEME` and `AEM_HOST` to create a fully qualified URL.
 
-The [AsyncImage](https://developer.apple.com/documentation/swiftui/asyncimage) is a native SwiftUI view that could also be used. `AsyncImage` is only supported for iOS 15.0+.
+If connecting to protected resources on AEM that requires authorization, credentials must also be added to image requests.
 
-## Additional Resources
+[SDWebImageSwiftUI](https://github.com/SDWebImage/SDWebImageSwiftUI) and [SDWebImage](https://github.com/SDWebImage/SDWebImage) are used to load the remote images from AEM that populate the Adventure image on the `AdventureListItemView` and `AdventureDetailView` views.
 
-* [Getting Started with AEM Headless - GraphQL Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/multi-step/overview.html)
-* [SwiftUI Lists and Navigation Tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
-* [Apollo iOS Client Tutorial](https://www.apollographql.com/docs/ios/tutorial/tutorial-introduction/)
+The `aem` class (in `AEM/Aem.swift`) facilitates the use of AEM images in two ways:
+
+1. `aem.imageUrl(path: String)` is used in views to prepend the AEM's scheme and host to the image's path, creating fully qualified URL.
+
+    ```swift
+    // adventure.image() => /content/dam/path/to/an/image.png
+    let imageUrl = aem.imageUrl(path: adventure.image()) 
+    // imageUrl => http://localhost:4503/content/dam/path/to/an/image.png
+    ```
+
+2. The `convenience init(..)` in `Aem` set HTTP Authorization headers on the image HTTP request, based on the iOS applications configuration.
+
+    + If __basic authentication__ is configured, then basic authentication is attached to all image requests.
+
+    ```swift
+    /// AEM/Aem.swift
+    ///
+    /// # Basic authentication init
+    /// Used when authenticating to AEM using local accounts (basic auth)
+    convenience init(scheme: String, host: String, username: String, password: String) {
+        ...
+        
+        // Add basic auth headers to all Image requests, as they are (likely) protected as well
+        SDWebImageDownloader.shared.setValue("Basic \(encodeBasicAuth(username: username, password: password))", forHTTPHeaderField: "Authorization")
+    }
+    ```
+  
+    + If __token authentication__ is configured, then token authentication is attached to all image requests.
+
+    ```swift 
+    /// AEM/Aem.swift
+    ///
+    /// # Token authentication init
+    ///  Used when authenticating to AEM using token authentication (Dev Token or access token generated from Service Credentials)
+    convenience init(scheme: String, host: String, token: String) {
+        ...
+        
+        // Add token auth headers to all Image requests, as they are (likely) protected as well
+        SDWebImageDownloader.shared.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+    }
+    ```
+
+    + If __no authentication__ is configured, then no authentication is attached to image requests.
+
+A similar approach can be used with the SwiftUI-native [AsyncImage](https://developer.apple.com/documentation/swiftui/asyncimage). `AsyncImage` is supported on iOS 15.0+.
+
+## Additional resources
+
++ [Getting Started with AEM Headless - GraphQL Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/multi-step/overview.html)
++ [SwiftUI Lists and Navigation Tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
