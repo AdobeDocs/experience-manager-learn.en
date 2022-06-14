@@ -49,7 +49,7 @@ The developer tool requires a file named `console.json` that contains the necess
 1. Go to the root of the Adobe I/O project and tap __Download All__ in the upper-right corner. 
 1. A file is downloaded as a `.json` file prefixed with the project and workspace, for example: `wkndAemAssetCompute-81368-Development.json`
 1. You can either
-    + Rename the file as `config.json` and move it in the root of your Asset Compute worker project. This is the approach in this tutorial.
+    + Rename the file as `console.json` and move it in the root of your Asset Compute worker project. This is the approach in this tutorial.
     + Move it into an arbitrary folder AND reference that folder from your `.env` file with a configuration entry `ASSET_COMPUTE_INTEGRATION_FILE_PATH`. The file path can be absolute or relative to the root of your project. For example:
         + `ASSET_COMPUTE_INTEGRATION_FILE_PATH=/Users/example-user/secrets/wkndAemAssetCompute-81368-Development.json`
 
