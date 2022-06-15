@@ -14,9 +14,6 @@ kt: 9270
 A common use case is to allow the form fillers to toggle to visibility of the text entered in the password field.
 To accomplish this use case, I have used the eye icon from the [Font Awesome Library](https://fontawesome.com/). The required CSS and the eye.svg are included in the client library created for this demonstration.
 
-## Live Sample
-
-[This capability is available to test here](https://forms.enablementadobe.com/content/dam/formsanddocuments/simpleuitips/jcr:content?wcmmode=disabled)
 
 ## Sample code
 
