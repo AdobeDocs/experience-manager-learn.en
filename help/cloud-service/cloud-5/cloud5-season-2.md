@@ -51,17 +51,19 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
                 Quick insight into using the repository modernizer to restructure existing project packages to discrete packages compatible with AEM as a cloud service.
             </p>
          </td>
-     <td>
-            <img alt="Admin Console" src="./imgs/coming-soon.png"/>
-      <div>
-            <strong>Admin Console</strong>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
-      </div>
-      <p>
-        <br/>
-         Coming 16 June 2022
-      </p>
-   </td> 
+         <td>
+            <a href="season-2/cloud5-admin-console.md">
+                 <img alt="Admin Console" src="./imgs/s2/002-thumb.png"/>
+            </a>
+            <div>
+                  <a href="season-2/cloud5-admin-console.md"><strong>Admin Console</strong></a>
+               <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+            </div>
+            <p>
+            <br/>
+               Darin and James discuss some common things that people should know about admin console, provisioning and access.
+            </p>
+         </td> 
   </tr>
   <tr>
    <td>
