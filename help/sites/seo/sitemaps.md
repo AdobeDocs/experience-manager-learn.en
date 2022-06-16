@@ -40,6 +40,23 @@ Defines the [OSGi factory configuration](http://localhost:4502/system/console/co
 }
 ```
 
+### Absolute sitemap URLs
+
+AEM's sitemap supports absolute URL's by using [Sling mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html). This is done by creating mapping nodes on the AEM services generating sitemaps.
+
+An example Sling mapping node definition for `https://wknd.com` can be defined under `/etc/map/https` as follows:
+
+| Path | Property name | Property type | Property value | 
+|------|----------|---------------|-------|
+| `/etc/map/https/wknd-site` | `jcr:primaryType` | String | `nt:unstructured` |
+| `/etc/map/https/wknd-site` | `sling:internalRedirect` | String | `/content/wknd/(.*)` |
+| `/etc/map/https/wknd-site` | `sling:match` | String | `wknd.com/$1` |
+
+The screenshot below illustrates a similar configuration but for `http://wknd.local` (a local hostname mapping running on `http`).
+
+![Sitemap absolute URLs configuration](../assets/sitemaps/sitemaps-absolute-urls.jpg)
+
+
 ### Dispatcher allow filter rule
 
 Allow HTTP requests for the sitemap index and sitemap files.
