@@ -193,7 +193,7 @@ Check out these other useful resources for understanding AEM indexes, search, an
                <p class="headline is-size-6 has-text-weight-bold"><a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-5/cloud5-aem-search-and-indexing.html" title="Cloud 5 - Search &amp; Indexing">Cloud 5 - Search &amp; Indexing</a></p>
                <p class="is-size-6">The Cloud 5 team shows explores the ins and outs of the search and indexing on AEM as a Cloud Service.</p>
                <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-5/cloud5-aem-search-and-indexing.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                </a>
            </div>
        </div>
@@ -216,7 +216,7 @@ Check out these other useful resources for understanding AEM indexes, search, an
                <p class="headline is-size-6 has-text-weight-bold"><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/indexing.html" title="Content Search and Indexing">Content Search and indexing documentation</a></p>
                <p class="is-size-6">Learn how to create and manage indexes in AEM as a Cloud Service.</p>
                <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/indexing.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                </a>
            </div>
        </div>
@@ -238,7 +238,7 @@ Check out these other useful resources for understanding AEM indexes, search, an
                <p class="headline is-size-6 has-text-weight-bold"><a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/search-and-indexing.html" title="Modernizing your Oak indexes">Modernizing your Oak indexes</a></p>
                <p class="is-size-6">Learn how to convert AEM 6 Oak index definitions to be AEM as a Cloud Service compatible, and maintain indexes going forward.</p>
                <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/search-and-indexing.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                </a>
            </div>
        </div>
@@ -260,7 +260,7 @@ Check out these other useful resources for understanding AEM indexes, search, an
                <p class="headline is-size-6 has-text-weight-bold"><a href="https://jackrabbit.apache.org/oak/docs/query/lucene.html" title="Index definition documentation">Lucene index documentation</a></p>
                <p class="has-ellipsis is-size-6">The Apache Oak Jackrabbit Lucene index reference that documents all supported Lucene index configurations.</p>
                <a href="https://jackrabbit.apache.org/oak/docs/query/lucene.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                </a>
            </div>
        </div>
