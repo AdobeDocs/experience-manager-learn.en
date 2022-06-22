@@ -170,3 +170,5 @@ Here are a few potential pitfalls to avoid:
 * Viewing solutions in a siloed manner. For example, focusing solelyon the technical aspect of AEM implementation will not realize the full business benefits. Instead, we recommendlooking at business use cases and scenarios, then pivoting to architecture and design, as this will provide a greater view of AEM capabilities. Anurandha Pentareddy from Adobe shares: _"One thing I advise is to look at your value objectives up front for the platform you are implementing."_
 
 For a more in-depth discussion of content velocity, listen to this one-hour [panel discussion](https://primetime.bluejeans.com/a2m/events/playback/e63686d4-158f-4f73-aea0-f03ebee4606d) featuring Monique Misrahi (T-Mobile), Amy Bergstrom (Deloitte), and Adobe's Anuradha Pentareddy.
+
+Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
