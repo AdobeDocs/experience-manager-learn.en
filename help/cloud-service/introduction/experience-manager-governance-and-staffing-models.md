@@ -126,3 +126,5 @@ The following are role examples for a light and heavy client scenario:
 **Leverage internal resources** - Gaps may come unexpectedly. You may be able to fill them more quickly by sourcing internal team members, as opposed to searching outside your organization.
 
 For a more in-depth discussion of Governance and Staffing Models &amp; Archetypes, listen to this one-hour panel discussion: [Role Archetypes and Creating an Operational Framework for [!DNL AEM Assets] and [!DNL Sites]](https://adobecustomersuccess.adobeconnect.com/p8ml5nmy0758mp4/)
+
+Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
