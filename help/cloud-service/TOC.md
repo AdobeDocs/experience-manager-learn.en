@@ -14,6 +14,10 @@ team: TM
   + [Evolution](./introduction/evolution.md)
   + [Architecture](./introduction/architecture.md)
   + [Cloud Manager](./introduction/cloud-manager.md)
+  + Strategy & thought leadership{#strategy}
+    + [Experience Manager - Governance and staffing models and archetypes](./introduction/experience-manager-governance-and-staffing-models.md)
+    + [How to drive content velocity with Adobe Experience Manager](./introduction/drive-content-velocity-for-sites.md)
+    + [Accelerate content velocity with AEM style systems](./introduction/accelerate-content-velocity-aem.md)
 + Underlying Technology {#underlying-technology}
   + [AEM Architecture](./underlying-technology/introduction-architecture.md)
   + [OSGi](./underlying-technology/introduction-osgi.md)
