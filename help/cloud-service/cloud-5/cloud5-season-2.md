@@ -66,17 +66,19 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
          </td> 
   </tr>
   <tr>
-   <td>
-            <img alt="Sling Jobs" src="./imgs/coming-soon.png"/>
-      <div>
-            <strong>Sling Jobs</strong>       
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
-      </div>
-      <p>
-        <br/>
-         Coming 24 June 2022
-      </p>
-     </td>   
+         <td>
+            <a href="season-2/cloud5-sling-job-scheduler.md">
+                 <img alt="Sling Jobs" src="./imgs/s2/003-thumb.png"/>
+            </a>
+            <div>
+                  <a href="season-2/cloud5-sling-job-scheduler.md"><strong>Sling Jobs</strong></a>
+               <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+            </div>
+            <p>
+            <br/>
+               Darin and James discuss gotchas and things to look out for job scheduling and consumption in AEM as a cloud service.
+            </p>
+         </td>   
      <td>
         <img alt="Repo Initializer (repoinit)" src="./imgs/coming-soon.png"/>
       <div>
