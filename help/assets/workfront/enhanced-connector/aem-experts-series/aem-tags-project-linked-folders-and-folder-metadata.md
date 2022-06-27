@@ -22,4 +22,4 @@ _Part three of a [four part expert series on the Workfront for Experience Manage
 
 ## Corrections
 
-+ __@ 4:34__ AEM tags syntax is incorrect. Video displays `we-retail:apparel/footwear`. The correct syntax is `["we-retail:apparel/footwear"]` or more generally `["namespace:tag/childtag"]`.
++ __@ 4:34 and 6:20__ AEM tags syntax is incorrect. Video displays `we-retail:apparel/footwear`. The correct syntax is `["we-retail:apparel/footwear"]` or more generally `["namespace:tag/childtag"]`.
