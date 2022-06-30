@@ -78,18 +78,20 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
             <br/>
                Darin and James discuss gotchas and things to look out for job scheduling and consumption in AEM as a cloud service.
             </p>
+         </td> 
+         <td>
+            <a href="season-2/cloud5-repoinit.md">
+                 <img alt="Repo Initializer (repoinit)" src="./imgs/s2/004-thumb.png"/>
+            </a>
+            <div>
+                  <a href="season-2/cloud5-repoinit.md"><strong>Sling Repository Initializer</strong></a>
+               <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+            </div>
+            <p>
+            <br/>
+              Learn a few tricks to unlock the power of using Sling Repository Initializer, a.k.a repoinit.
+            </p>
          </td>   
-     <td>
-        <img alt="Repo Initializer (repoinit)" src="./imgs/coming-soon.png"/>
-      <div>
-        <strong>Repo Initializer (repoinit)</strong>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
-      </div>
-      <p>
-        <br/>
-            Coming 1 July 2022
-      </p>
-   </td>
      <td>
             <img alt="Fix Your... Cache" src="./imgs/coming-soon.png"/>
       <div>
