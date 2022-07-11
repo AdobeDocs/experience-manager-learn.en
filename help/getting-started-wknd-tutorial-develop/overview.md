@@ -1,6 +1,6 @@
 ---
-title: Getting Started with AEM Sites - WKND Tutorial
-description: Getting Started with AEM Sites - WKND Tutorial. The WKND tutorial is a multi-part tutorial designed for developers new to Adobe Experience Manager. The tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, maven archetypes, Core Components, Editable Templates, client libraries, and component development.
+title: Get started with AEM Sites - WKND tutorial
+description: Learn how to implement an AEM site for a fictitious lifestyle brand called WKND. Get a walk-through on fundamental Experience Manager topics like project setup, maven archetypes, Core Components, Editable Templates, client libraries, and component development.
 sub-product: sites
 topics: development
 version: Cloud Service
@@ -17,13 +17,13 @@ level: Beginner
 exl-id: 09a600f4-1ada-4fb7-ae44-586364cff389
 recommendations: disable
 ---
-# Getting Started with AEM Sites - WKND Tutorial {#introduction}
+# Get started with AEM Sites - WKND tutorial {#introduction}
 
-Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, Client-side libraries, and component development with Adobe Experience Manager Sites.
+Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, Client-side libraries, and component development with Adobe Experience Manager Sites.
 
 ## Overview {#wknd-tutorial-overview}
 
-The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial a developer should understand the basic foundation of the platform and with knowledge of common design patterns in AEM.
+The goal for this multi-part tutorial is to teach a developer how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM). After completing this tutorial, a developer should understand the basic foundation of the platform and common design patterns in AEM.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30476?quality=12&learn=on)
 
