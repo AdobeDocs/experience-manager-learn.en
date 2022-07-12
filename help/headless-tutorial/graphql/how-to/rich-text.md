@@ -11,31 +11,31 @@ exl-id: 790a33a9-b4f4-4568-8dfe-7e473a5b68b6
 ---
 # Rich text with AEM Headless
 
-The Multi line text field is a data type of Content Fragments that enables authors to create rich text content. References to other content, such as images or other Content Fragments can be dynamically inserted in-line within the flow of the text. The Single line text field is another data type of Content Fragments that should be used for simple text elements.
+The multi-line text field is a data type of Content Fragments that enables authors to create rich text content. References to other content, such as images or other Content Fragments can be dynamically inserted in-line within the flow of the text. The Single-line text field is another data type of Content Fragments that should be used for simple text elements.
 
 AEM's GraphQL API offers a robust capability to return rich text as HTML, plain text, or as pure JSON. The JSON representation is powerful as it gives the client application full control over how to render the content.
 
-## Multi line editor
+## Multi-line editor
 
 >[!VIDEO](https://video.tv.adobe.com/v/342104/?quality=12&learn=on)
 
-In the Content Fragment Editor, the Multi line text field's menu bar provides authors with standard rich text formatting capabilities, such as **bold**, *italics*, and underline. Opening the Multi line field in full screen mode enables [additional formatting tools like Paragraph type, find and replace, spell check, and more](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html).
+In the Content Fragment Editor, the multi-line text field's menu bar provides authors with standard rich text formatting capabilities, such as **bold**, *italics*, and underline. Opening the multi-line field in full screen mode enables [additional formatting tools like Paragraph type, find and replace, spell check, and more](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html).
 
 >[!NOTE]
 >
-> The rich text plugins in the Multi line editor cannot be customized.
+> The rich text plugins in the multi-line editor cannot be customized.
 
-## Multi line text data type {#multi-line-data-type}
+## Multi-line text data type {#multi-line-data-type}
 
-Use the **Multi line text** data type when defining your Content Fragment Model to enable rich text authoring.
+Use the **Multi-line text** data type when defining your Content Fragment Model to enable rich text authoring.
 
 ![Multi Line rich text data type](assets/rich-text/multi-line-rich-text.png)
 
-Several properties of the Multi line field can be configured.
+Several properties of the multi-line field can be configured.
 
 The **Render as** property can be set to:
 
-* Text Area - renders a single Multi line field
+* Text Area - renders a single multi-line field
 * Multiple Field - renders multiple Mutli line fields
 
 
@@ -49,25 +49,23 @@ The **Default Type** option directly influences the editing experience and deter
 
 You can also [enable in-line references](#insert-fragment-references) to other Content Fragments by checking the **Allow Fragment Reference** and configuring the **Allowed Content Fragment Models**.
 
-If the content will be localized check the **Translatable** box. Only Rich Text and Plain Text can be localized. See [working with localized content for more details](./localized-content.md).
+Check the **Translatable** box, if the content will be localized. Only Rich Text and Plain Text can be localized. See [working with localized content for more details](./localized-content.md).
 
 ## Rich text response with GraphQL API
 
-When creating a GraphQL query, developers can choose different response types from `html`, `plaintext`, `markdown`, and `json` from a Multi line field.
+When creating a GraphQL query, developers can choose different response types from `html`, `plaintext`, `markdown`, and `json` from a multi-line field.
 
 Developers can use the [JSON Preview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-json-preview.html) in the Content Fragment editor to show all values of the current Content Fragment that can be returned using the GraphQL API.
 
-### JSON example
+## GraphQL persisted query 
 
-The `json` response offers the most flexibility for front-end developers when working with rich text content. The rich text content is delivered as an array of JSON node types that can be processed uniquely based on the client platform.
+Selecting the `json` response format for the multi-line field offers the most flexibility when working with rich text content. The rich text content is delivered as an array of JSON node types that can be processed uniquely based on the client platform.
 
 Below is a JSON response type of a multi-line field named `main` that contains a paragraph: "*This is a paragraph that includes **important** content.*" where "important" is marked as **bold**.
 
-**GraphQL query:**
-
 ```graphql
-{
-  articleByPath(_path: "/content/dam/wknd/en/magazine/sample-article")
+query ($path: String!) {
+  articleByPath(_path: $path)
   {
     item {
       _path
@@ -78,6 +76,8 @@ Below is a JSON response type of a multi-line field named `main` that contains a
   }
 }
 ```
+
+The `$path` variable used in the `_path` filter requires the full path to the content fragment (for example `/content/dam/wknd/en/magazine/sample-article`).
 
 **GraphQL response:**
 
@@ -125,11 +125,11 @@ Below are several examples of response types of a multi-line field named `main` 
 
 +++HTML example
 
-**GraphQL query:**
+**GraphQL persisted query:**
 
 ```graphql
-{
-  articleByPath(_path: "/content/dam/wknd/en/magazine/sample-article")
+query ($path: String!) {
+  articleByPath(_path: $path)
   {
     item {
       _path
@@ -162,11 +162,11 @@ Below are several examples of response types of a multi-line field named `main` 
 
 +++Markdown example
 
-**GraphQL query:**
+**GraphQL persisted query:**
 
 ```graphql
-{
-  articleByPath(_path: "/content/dam/wknd/en/magazine/sample-article")
+query ($path: String!) {
+  articleByPath(_path: $path)
   {
     item {
       _path
@@ -199,11 +199,11 @@ Below are several examples of response types of a multi-line field named `main` 
 
 +++Plaintext example
 
-**GraphQL query:**
+**GraphQL persisted query:**
 
 ```graphql
-{
-  articleByPath(_path: "/content/dam/wknd/en/magazine/sample-article")
+query ($path: String!) {
+  articleByPath(_path: $path)
   {
     item {
       _path
@@ -239,9 +239,9 @@ The `plaintext` render option strips out any formatting.
 
 ## Rendering a rich text JSON response {#render-multiline-json-richtext}
 
-The Multi line field's rich text JSON response is structured as a hierarchical tree. Each object or node represents a different HTML block of the rich text.
+The multi-line field's rich text JSON response is structured as a hierarchical tree. Each object or node represents a different HTML block of the rich text.
 
-Below is a sample JSON response of a Multi line text field. Observe that each object, or node, includes a `nodeType` which represents the HTML block from the rich text like `paragraph`, `link`, and `text`. Each node optionally contains `content` which is a subarray containing any children of the current node.
+Below is a sample JSON response of a multi-line text field. Observe that each object, or node, includes a `nodeType` which represents the HTML block from the rich text like `paragraph`, `link`, and `text`. Each node optionally contains `content` which is a subarray containing any children of the current node.
 
 ```json
 "json": [// root "content" or child nodes
@@ -273,7 +273,7 @@ Below is a sample JSON response of a Multi line text field. Observe that each ob
 ]
 ```
 
-The easiest way to render the Multi line `json` response is to process each object or node in the response and then process any children of the current node. A recursive function can be used to traverse the JSON tree. 
+The easiest way to render the multi-line `json` response is to process each object, or node, in the response and then process any children of the current node. A recursive function can be used to traverse the JSON tree. 
 
 Below is sample code that illustrates a recursive traversal approach. The samples are JavaScript based and use React's [JSX](https://reactjs.org/docs/introducing-jsx.html), however the programming concepts can be applied to any language.
 
@@ -292,7 +292,7 @@ function renderNodeList(childNodes) {
 }
 ```
 
-The `renderNodeList` function is the entrypoint into the recursive algorithm. The `renderNodeList` function expects an array of `childNodes`. Each node in the array is then passed to a function `renderNode`.
+`renderNodeList` is a recursive function that takes an array of `childNodes`. Each node in the array is then passed to a function `renderNode`, which in turn calls `renderNodeList` if the node has children.
 
 ```javascript
 // renderNode - renders an individual node
@@ -306,7 +306,7 @@ function renderNode(node) {
 }
 ```
 
-The `renderNode` function expects a single object named `node`. A node may have children which is processed recursively using the `renderNodeList` function described above. Finally, a `nodeMap` is used to render the contents of the node based on its `nodeType`.
+The `renderNode` function expects a single object named `node`. A node may have children which are processed recursively using the `renderNodeList` function described above. Finally, a `nodeMap` is used to render the contents of the node based on its `nodeType`.
 
 ```javascript
 // nodeMap - object literal that maps a JSX response based on a given key (nodeType)
@@ -325,29 +325,29 @@ The `nodeMap` is a JavaScript Object literal that is used as a map. Each of the 
 
 ### Full code example
 
-A re-usable rich text-rendering utility can be found in the [WKND GraphQL React example](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app). 
+A reusable rich text-rendering utility can be found in the [WKND GraphQL React example](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app). 
 
-* [renderRichText.js](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app/src/utils/renderRichText.js) - reusable utility that exposes a function `mapJsonRichText`. This utility can be used by components that want to render a rich text JSON response as React JSX.
+* [renderRichText.js](https://github.com/adobe/aem-guides-wknd-graphql/blob/main/react-app/src/utils/renderRichText.js) - reusable utility that exposes a function `mapJsonRichText`. This utility can be used by components that want to render a rich text JSON response as React JSX.
 * [AdventureDetail.js](https://github.com/adobe/aem-guides-wknd-graphql/blob/main/react-app/src/components/AdventureDetail.js) - Example component that makes a GraphQL request that includes rich text. The component uses the `mapJsonRichText` utility to render the rich text and any references.
 
 
 ## Add in-line references to rich text {#insert-fragment-references}
 
-The Mutli Line field allows authors to insert images or other digital assets from AEM Assets in the flow of the rich text.  
+The Mutliline field allows authors to insert images or other digital assets from AEM Assets in the flow of the rich text.  
 
 ![insert image](assets/rich-text/insert-image.png)
 
-The above screenshot depicts an image inserted in the Multi Line field using the **Insert asset** button.
+The above screenshot depicts an image inserted in the multi-line field using the **Insert asset** button.
 
-References to other Content Fragments can also be linked or inserted in the Multi Line field using the **Insert Content Fragment** button.
+References to other Content Fragments can also be linked or inserted in the multi-line field using the **Insert Content Fragment** button.
 
 ![Insert content fragment reference](assets/rich-text/insert-contentfragment.png)
 
-The above screenshot depicts another Content Fragment, Ultimate Guide to LA Skate Parks, being inserted into the multi-line field. The types of Content Fragments that can be inserted into field is controlled by the **Allowed Content Fragment Models** configuration in the [Multi line data type](#multi-line-data-type) in the Content Fragment Model.
+The above screenshot depicts another Content Fragment, Ultimate Guide to LA Skate Parks, being inserted into the multi-line field. The types of Content Fragments that can be inserted into field is controlled by the **Allowed Content Fragment Models** configuration in the [multi-line data type](#multi-line-data-type) in the Content Fragment Model.
 
 ## Query in-line references with GraphQL
 
-The GraphQL API enables developers to create a query that includes additional properties about any references inserted in a Multi line field. The JSON response includes a separate `_references` object that lists these extra properties. The JSON response gives developers full control of how to render the references or links instead of having to deal with opinionated HTML.
+The GraphQL API enables developers to create a query that includes additional properties about any references inserted in a multi-line field. The JSON response includes a separate `_references` object that lists these extra properties. The JSON response gives developers full control of how to render the references or links instead of having to deal with opinionated HTML.
 
 For example, you might want to:
 
@@ -357,11 +357,11 @@ For example, you might want to:
 
 Use the `json` return type and include the `_references` object when constructing a GraphQL query:
 
-**GraphQL query:**
+**GraphQL persisted query:**
 
 ```graphql
-{
-  articleByPath(_path: "/content/dam/wknd/en/magazine/sample-article")
+query ($path: String!) {
+  articleByPath(_path: $path)
   {
     item {
       _path
@@ -535,7 +535,7 @@ A full example of writing a custom references renderer can be found in [Adventur
 
 The preceding video shows an end-to-end example:
 
-1. Updating a Content Fragment Model's Multi line text field to allow Fragment References
-1. Using the Content Fragment Editor to include an image and reference to another fragment in a Multi line text field.
-1. Creating a GraphQL query that includes the Multi line text response as JSON and any `_references` used.
+1. Updating a Content Fragment Model's multi-line text field to allow Fragment References
+1. Using the Content Fragment Editor to include an image and reference to another fragment in a multi-line text field.
+1. Creating a GraphQL query that includes the multi-line text response as JSON and any `_references` used.
 1. Writing a React SPA that renders the in-line references of the rich text response.
