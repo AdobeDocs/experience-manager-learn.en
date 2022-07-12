@@ -20,10 +20,10 @@ Learn how Content Fragments can be localized and translated with Adobe Experienc
 
 Content Fragments are a recognized content type that AEM extracts to be sent to an external translation service. Several use cases are supported out of the box:
 
-1. A Content Fragment can be selected directly in the Assets console for language copy and translation
-2. Content Fragments referenced on a Sites page are copied to the appropriate language folder and extracted for translation when the Sites page is selected for language copy
+1. A Content Fragment can be [selected directly in the Assets console for language copy and translation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/translate-assets.html).
+2. Content Fragments referenced on a Sites page are copied to the appropriate language folder and extracted for translation when the Sites page is selected for language copy.
 3. Inline media assets embedded inside a content fragment are eligible to be extracted and translated.
-4. Asset collections associated with a content fragment are eligible to be extracted and translated
+4. Asset collections associated with a content fragment are eligible to be extracted and translated.
 
 ## Translation Rules Editor {#translation-rules-editor}
 

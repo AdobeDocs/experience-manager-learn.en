@@ -2,7 +2,7 @@
 title: Android App - AEM Headless Example
 description: Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This Android application demonstrates how to query content using the GraphQL APIs of AEM.
 version: Cloud Service
-mini-toc-levels: 1
+mini-toc-levels: 2
 kt: 9166
 thumbnail: KT-9166.jpg
 feature: Content Fragments, GraphQL API
@@ -172,7 +172,7 @@ query($slug: String!) {
 }
 ```
 
-## Execute GraphQL persisted query
+### Execute GraphQL persisted query
 
 AEM's persisted queries are executed over HTTP GET and thus, the [AEM Headless client for Java](https://github.com/adobe/aem-headless-client-java) is used to execute the persisted GraphQL queries against AEM and load the adventure content into the app.
 
