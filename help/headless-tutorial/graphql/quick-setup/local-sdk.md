@@ -122,7 +122,7 @@ One of the goals of this tutorial is to show how to consume AEM content from an 
 
     >[!NOTE]
     >
-    > In a production scenario the App will connect to an AEM **Publish** environment. This is covered in more detail in the [Production deployment](../multi-step/production-deployment.md) chapter.
+    > In a production scenario the App will connect to an AEM **Publish** environment. This is covered in more detail in the _Production Deployment_ section.
 
 1. Navigate into the `aem-guides-wknd-graphql/react-app` folder. Install and start the app:
 

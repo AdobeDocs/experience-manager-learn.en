@@ -13,7 +13,7 @@ exl-id: 701fae92-f740-4eb6-8133-1bc45a472d0f
 ---
 # Authoring Content Fragment {#authoring-content-fragments}
 
-In this chapter you will create and edit a new Content Fragment based on the [newly defined Contributor Content Fragment Model](./content-fragment-models.md). You will also learn how to create variations of Content Fragments.
+In this chapter you will create and edit a new Content Fragment based on the [newly defined Content Fragment Model](./content-fragment-models.md). You will also learn how to create variations of Content Fragments.
 
 ## Prerequisites {#prerequisites}
 
@@ -24,92 +24,132 @@ This is a multi-part tutorial and it is assumed that the steps outlined in the [
 * Author a Content Fragment based on a Content Fragment Model
 * Create a Content Fragment variation
 
-## Content Fragment Authoring Overview {#overview}
+## Create an Asset Folder
 
->[!VIDEO](https://video.tv.adobe.com/v/22451/?quality=12&learn=on)
+Content Fragments are stored in folders in AEM Assets. To create Content Fragments from the models created in the previous chapter, a folder must be created to store them. A configuration is required on the folder to enable creation of fragments from specific models.
 
-The above video gives a high level overview of authoring Content Fragments.
+1. From the AEM Start screen navigate to **Assets** > **Files**.
+
+    ![Navigate to assets files](assets/author-content-fragments/navigate-assets-files.png)
+
+1. Tap **Create** in the corner and tap **Folder**. In the resulting dialog enter:
+
+    * Title*: **My Project**
+    * Name: **my-project**
+
+    ![Create Folder dialog](assets/author-content-fragments/create-folder-dialog.png)
+
+1. Select the **My Folder** folder and tap **Properties**.
+
+    ![Open folder properties](assets/author-content-fragments/open-folder-properties.png)
+
+1. Tap the **Cloud Services** tab. Under **Cloud Configuration** use the path finder to select the **My Project** configuration. The value should be `/conf/my-project`.
+
+    ![Set Cloud Config](assets/author-content-fragments/set-cloud-config-my-project.png)
+
+    Setting this property will enable Content Fragments to be created using the models created in the previous chapter.
+
+1. Tap the **Policies** tab. Under **Allowed Content Fragment Models** use the path finder to select the **Person** and **Team** model created earlier.
+
+    ![Allowed content Fragment Models](assets/author-content-fragments/allowed-content-fragment-models.png)
+
+    These policies will be inherited by any sub-folders automatically and can be overriden. Note that you can also allow models by tags or enable models from other project configurations (like WKND Shared). This mechanism provides a powerful way to manage your content hierarchy.
+
+1. Tap **Save & Close** to save the changes to the folder properties.
+
+1. Navigate inside the **My Project** folder.
+
+1. Create another folder with the following values:
+
+    * Title*: **English**
+    * Name: **en**
+
+    A best practice is to set up projects for multilingual support. See [the following docs page for more information](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/translate-assets.html).
+
 
 ## Create a Content Fragment {#create-content-fragment}
 
-In the previous chapter, [Defining Content Fragment Models](./content-fragment-models.md), a **Contributor** model was created. Author a new Content Fragment using this model.
+Next several Content Fragments will be created based on the **Team** and **Person** models.
 
-1. From the **AEM Start** menu navigate to **Assets** > **Files**.
-1. Click through the folders to navigate to **WKND Site** > **English** > **Contributors**. This folder contains a list of head shots for Contributors of the WKND brand.
+1. From the AEM Start Screen tap **Content Fragments** to open up the Content Fragments UI.
 
-1. Click **Create** in the upper right and select **Content Fragment**:
+    ![Content Fragment UI](assets/author-content-fragments/cf-fragment-ui.png)
 
-    ![Click Create a new Fragment](assets/author-content-fragments/create-content-fragment-menu.png)
+1. In the left-hand rail expand **My Project** and tap **English**.
+1. Tap **Create** to bring up the **New Content Fragment** dialog and enter the following values:
 
-1. Select the **Contributor** model and click **Next**.
+    * Location: `/content/dam/my-project/en`
+    * Content Fragment model: **Person**
+    * Title: **John Doe**
+    * Name: `john-doe`
 
-    ![Select Contributor Model](assets/author-content-fragments/select-contributor-model.png)
+    ![New Content Fragment](assets/author-content-fragments/new-content-fragment-john-doe.png)
+1. Tap **Create**.
+1. Repeat the above steps to create a new fragment representing **Alison Smith**:
 
-    This is the same **Contributor** model that was created in the previous chapter.
+    * Location: `/content/dam/my-project/en`
+    * Content Fragment model: **Person**
+    * Title: **Alison Smith**
+    * Name: `alison-smith`
 
-1. Enter **Stacey Roswells** for the title and click **Create**.
-1. Click **Open** in the **Success** dialog to open the newly created fragment.
+    Tap **Create** to create the new Person fragment.
 
-    ![New Content Fragment created](assets/author-content-fragments/new-content-fragment.png)
+1. Next, repeat the steps to create a new **Team** fragment representing **Team Alpha**:
 
-    Observe that the fields defined by the model are now available to author this instance of the Content Fragment.
+    * Location: `/content/dam/my-project/en`
+    * Content Fragment model: **Team**
+    * Title: **Team Alpha**
+    * Name: `team-alpha`
 
-1. For **Full Name** enter: **Stacey Roswells**.
-1. For **Biography** enter a brief biography. Need some inspiration? Feel free to re-use this [text file](assets/author-content-fragments/stacey-roswells-bio.txt).
-1. For **Picture Reference** click the **folder** icon and browse to **WKND Site** > **English** > **Contributors** > **stacey-roswells.jpg**. This will evaluate to the path: `/content/dam/wknd/en/contributors/stacey-roswells.jpg`.
-1. For **Occupation** choose **Photographer**.
+    Tap **Create** to create the new Team fragment.
 
-    ![Authored Fragment](assets/author-content-fragments/stacye-roswell-fragment-authored.png)
+1. There should now be three Content Fragments beneath **My Project** > **English**:
 
-1. Click **Save** to save the changes.
+    ![New Content Fragments](assets/author-content-fragments/new-content-fragments.png)
 
-## Create a Content Fragment Variation
+## Edit Person Content Fragments {#edit-person-content-fragments}
 
-All Content Fragments start with a **Master** variation. The **Master** variation can be considered the *default* content of the fragment and is automatically used when the content is exposed via the GraphQL APIs. It is also possible to create variations of a Content Fragment. This feature offers additional flexibility for designing an implementation.
+Next populate the newly created fragments with data.
 
-Variations could be used to target specific channels. For example a **mobile** variation could be created that contains a smaller amount of text or references a channel-specific image. How variations are used is really up to the implementation. Like any feature, careful planning should be done before using.
+1. Tap the checkbox next to **John Doe** and tap **Open**.
 
-Next, create a new variation to get an idea of the capabilities available.
+    ![Open Content Fragment](assets/author-content-fragments/open-fragment-for-editing.png)
 
-1. Re-open the **Stacey Roswells** Content Fragment.
-1. In the left side-rail click **Create Variation**.
-1. In the **New Variation** modal enter a Title of **Summary**.
+1. The Content Fragment Editor contains a form based on the Content Fragment model. Fill out the various fields to add content to the **John Doe** fragment. For Profile Picture, feel free to choose one of the images in WKND Shared or upload your own image to AEM Assets.
 
-    ![New Variation - Summary](assets/author-content-fragments/new-variation-summary.png)
+    ![Content Fragment editor](assets/author-content-fragments/content-fragment-editor-jd.png)
 
-1. Click into the **Biography** multi-line field and click the **Expand** button to enter the full-screen view for the multi-line field.
+1. Next, tap **Create Variation** in the left-rail. In the dialog add type in **Alternate** for the variation name.
 
-    ![Enter Full Screen view](assets/author-content-fragments/enter-full-screen-view.png)
+1. Change some of the elements in the **Alternate** variation.
 
-1. Click **Summarize Text** in the upper right-hand menu.
+    ![Alternate version](assets/author-content-fragments/alternate-variation-john-doe-fragment.png)
 
-1. Enter a **Target** of **50** words and click **Start**.
+    The variation feature enables authors to create different versions of the same Content Fragment. This can be used to provide a summary version of a longform article. By default a single **Master** variation is created. Multi-line textfield elements of a variations can be synced with the master variation.
 
-    ![Summarization preview](assets/author-content-fragments/summarize-text-preview.png)
+1. Tap **Save & Close** to save the changes to the John Doe fragment.
+1. Return to the Content Fragment UI and open the **Alison Smith** file for editing.
+1. Repeat the above steps to populate the **Alison Smith** fragment with content.
 
-    This will open a summarization preview. AEM's machine language processor will attempt to summarize the text based on the target word count. You can also select different sentences to remove.
+## Edit Team Content Fragment {#edit-team-content-fragment}
 
-1. Click **Summarize** when you are happy with the summarization. Click into the multi-line text field and toggle the **Expand** button to return to the main view.
+1. Open the **Team Alpha** Content Fragment using the Content Fragment UI.
+1. Fill out the fields for **Title**, **Short Name**, and **Description**.
+1. Select the **John Doe** and **Alison Smith** Content Fragments to populate the **Team Members** field:
 
-1. Click **Save** to save the changes.
+    ![Set Team members](assets/author-content-fragments/select-team-members.png)
 
-## Create an additional Content Fragment
+    >[!NOTE]
+    >
+    >You can also create new Content Fragments in-line by using the **New Content Fragment** button.
 
-Repeat the steps outlined in [Create a Content Fragment](#create-content-fragment) to create an additional **Contributor**. This will be used in the next chapter as an example of how to query multiple fragments.
+1. Tap **Save & Close** to save the changes to the Team Alpha fragment.
 
-1. In the **Contributors** folder click **Create** in the upper right and select **Content Fragment**:
-1. Select the **Contributor** model and click **Next**.
-1. Enter **Jacob Wester** for the title and click **Create**.
-1. Click **Open** in the **Success** dialog to open the newly created fragment.
-1. For **Full Name** enter: **Jacob Wester**.
-1. For **Biography** enter a brief biography. Need some inspiration? Feel free to re-use this [text file](assets/author-content-fragments/jacob-wester.txt).
-1. For **Picture Reference** click the **folder** icon and browse to **WKND Site** > **English** > **Contributors** > **jacob_wester.jpg**. This will evaluate to the path: `/content/dam/wknd/en/contributors/jacob_wester.jpg`.
-1. For **Occupation** choose **Writer**.
-1. Click **Save** to save the changes. There is no need to create a variation, unless you want to!
+## Explore WKND Content Fragments (Optional) {#explore-wknd-content-fragments}
 
-    ![Additional content fragment](assets/author-content-fragments/additional-content-fragment.png)
+If you [installed the WKND Shared sample content](./overview.md#install-sample-content) you can inspect the content fragments for Adventures, Articles, and Authors models to get more ideas of creating content.
 
-    You should now have two **Contributors** fragments.
+![WKND Content Fragments](assets/author-content-fragments/wknd-content-fragments.png)
 
 ## Congratulations! {#congratulations}
 
@@ -118,3 +158,8 @@ Congratulations, you just authored multiple Content Fragments and created a vari
 ## Next Steps {#next-steps}
 
 In the next chapter, [Explore GraphQL APIs](explore-graphql-api.md), you will explore AEM's GraphQL APIs using the built-in GrapiQL tool. Learn how AEM automatically generates a GraphQL schema based on a Content Fragment model. You will experiment constructing basic queries using the GraphQL syntax.
+
+## Related Documentation
+
+* [Managing Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-managing.html)
+* [Variations - Authoring Fragment Content](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
