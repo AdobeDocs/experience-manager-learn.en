@@ -17,7 +17,7 @@ Example applications are a great way to explore the headless capabilities of Ado
 
 ![iOS SwiftUI app with AEM Headless](./assets/ios-swiftui-app/ios-app.png)
 
-View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/ios-swiftui-app)
+View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/ios-app)
 
 ## Prerequisites {#prerequisites}
 
@@ -44,7 +44,7 @@ The iOS application is designed to connect to an __AEM Publish__ environment, ho
     git clone git@github.com:adobe/aem-guides-wknd-graphql.git
     ```
 
-1. Launch [Xcode](https://developer.apple.com/xcode/) and open the folder `ios-swiftui-app`
+1. Launch [Xcode](https://developer.apple.com/xcode/) and open the folder `ios-app`
 1. Modify the file `Config.xcconfig` file and update `AEM_SCHEME` and `AEM_HOST` to match your target AEM Publish service.
 
     ```plain
@@ -80,7 +80,7 @@ The iOS application is designed to connect to an __AEM Publish__ environment, ho
 
 ## The code
 
-Below is a summary of how the iOS application is built, how it connects to AEM Headless to retrieve content using GraphQL persisted queries, and how that data is presented. The full code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/ios-swiftui-app).
+Below is a summary of how the iOS application is built, how it connects to AEM Headless to retrieve content using GraphQL persisted queries, and how that data is presented. The full code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/ios-app).
 
 ### Persisted queries
 
