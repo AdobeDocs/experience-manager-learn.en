@@ -223,20 +223,7 @@ HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default b
 
 ### HTTP/HTTPS
 
-When creating HTTP/HTTPS connections from AEM, in order to get a dedicated egress IP address or be routed through the VPN, the connection must be made through special host and ports, provided via placeholders.
-
-AEM provides two sets of special Java™ system variables that map to AEM's HTTP/HTTPS proxies.
-
-| Variable name | Use | Java™ code | OSGi configuration | Apache web server mod_proxy configuration |
-| - |  - | - | - | - |
-| `AEM_HTTP_PROXY_HOST` | Proxy host for HTTP connections | `System.getenv("AEM_HTTP_PROXY_HOST")` | `$[env:AEM_HTTP_PROXY_HOST]` | `${AEM_HTTP_PROXY_HOST}` |
-| `AEM_HTTP_PROXY_PORT` | Proxy port for HTTP connections | `System.getenv("AEM_HTTP_PROXY_PORT")` | `$[env:AEM_HTTP_PROXY_PORT]` |  `${AEM_HTTP_PROXY_PORT}` |
-| `AEM_HTTPS_PROXY_HOST` | Proxy host for HTTPS connections | `System.getenv("AEM_HTTPS_PROXY_HOST")` | `$[env:AEM_HTTPS_PROXY_HOST]` | `${AEM_HTTPS_PROXY_HOST}` |
-| `AEM_HTTPS_PROXY_PORT` | Proxy port for HTTPS connections | `System.getenv("AEM_HTTPS_PROXY_PORT")` | `$[env:AEM_HTTPS_PROXY_PORT]` | `${AEM_HTTPS_PROXY_PORT}` |
-
-Requests to HTTP/HTTPS external services should be made by configuring the Java™ HTTP client's proxy configuration via AEM's proxy hosts/ports values.
-
-When making HTTP/HTTPS calls to external services on any port, no corresponding `portForwards` must be defined using Cloud Manager API's `__enableEnvironmentAdvancedNetworkingConfiguration` operation, as the port forwarding "rules" are defined "in code".
+When creating HTTP/HTTPS connections from AEM, when using VPN, HTTP/HTTPS connections are automatically proxied out of AEM. No additional code or configuration is required to support HTTP/HTTPS connections.
 
 >[!TIP]
 >

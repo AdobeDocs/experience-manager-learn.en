@@ -12,13 +12,13 @@ exl-id: a565bc3a-675f-4d5e-b83b-c14ad70a800b
 ---
 # HTTP/HTTPS connections for dedicated egress IP address and VPN
 
-HTTP/HTTPS connections must be proxied out of AEM as a Cloud Service, however they do not need any special `portForwards` rules, and can use AEM's advanced networking's `AEM_HTTP_PROXY_HOST`, `AEM_HTTP_PROXY_PORT`, `AEM_HTTPS_PROXY_HOST`, and `AEM_HTTPS_PROXY_PORT`.
+HTTP/HTTPS connections are automatically proxied out of AEM as a Cloud Service with dedicated egress IP address or VPN, and they do not need any special `portForwards` rules.
 
 ## Advanced networking support
 
 The following code example is supported by the following advanced networking options.
 
-Ensure the the [appropriate](../advanced-networking.md#advanced-networking) advanced networking configuration has been set up prior to following this tutorial.
+Ensure the the [dedicated egress IP address or VPN](../advanced-networking.md#advanced-networking) advanced networking configuration has been set up prior to following this tutorial.
 
 | No advanced networking | [Flexible port egress](../flexible-port-egress.md) | [Dedicated egress IP address](../dedicated-egress-ip-address.md) | [Virtual Private Network](../vpn.md) |
 |:-----:|:-----:|:------:|:---------:|
@@ -30,7 +30,7 @@ Ensure the the [appropriate](../advanced-networking.md#advanced-networking) adva
 
 ## Code example
 
-This Java™ code example is of an OSGi service that can run in AEM as a Cloud Service that makes an HTTP connection to an external web server on 8080. Connections to HTTPS web servers use the `AEM_HTTPS_PROXY_HOST` and `AEM_HTTPS_PROXY_PORT` instead of  `AEM_HTTP_PROXY_HOST` and `AEM_HTTP_PROXY_PORT`.
+This Java™ code example is of an OSGi service that can run in AEM as a Cloud Service that makes an HTTP connection to an external web server on 8080. The HTTPS (or HTTP) connections are automatically proxied out of AEM as a Cloud Service, and do not require special development.
 
 >[!NOTE]
 > It is recommended the [Java™ 11 HTTP APIs](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/package-summary.html) are used to make HTTP/HTTPS calls from AEM.
