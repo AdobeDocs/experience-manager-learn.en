@@ -93,14 +93,16 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
             </p>
          </td>   
      <td>
-            <img alt="Fix Your... Cache" src="./imgs/coming-soon.png"/>
+            <a href="season-2/cloud5-fix-your-cache.md">
+               <img alt="Fix Your Cache" src="./imgs/s2/005-thumb.png"/>
+            </a>
       <div>
-         <strong>Fix Your... Cache</strong>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+         <a href="season-2/cloud5-fix-your-cache.md"><strong>Fix Your... Cache</strong></a>
+         <br/><em>with Damian Langsweirdt & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
-        <br/>
-         Coming 15 July 2022
+         <br/>
+             Explore areas to optimize your cache and speed up your site running on AEM as a Cloud Service.
       </p>
    </td> 
   </tr>
