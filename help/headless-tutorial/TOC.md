@@ -30,9 +30,7 @@ index: y
     + [1 - Defining Content Fragment Models](./graphql/multi-step/content-fragment-models.md)
     + [2 - Authoring Content Fragments](./graphql/multi-step/author-content-fragments.md)
     + [3 - Explore GraphQL APIs](./graphql/multi-step/explore-graphql-api.md)
-    + [4 - Query from an external app](./graphql/multi-step/graphql-and-external-app.md)
-    + [5 - Advanced data modeling with Fragment References](./graphql/multi-step/fragment-references.md)
-    + [6 - Production deployment](./graphql/multi-step/production-deployment.md)
+    + [4 - Build a React app](./graphql/multi-step/graphql-and-react-app.md)    
   + Advanced Tutorial{#advanced-tutorial}
     + [Overview](/help/headless-tutorial/graphql/advanced-graphql/overview.md)
     + [1 - Create Content Fragment Models](/help/headless-tutorial/graphql/advanced-graphql/create-content-fragment-models.md)

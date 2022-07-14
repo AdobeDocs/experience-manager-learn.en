@@ -13,13 +13,15 @@ exl-id: 9400d9f2-f828-4180-95a7-2ac7b74cd3c9
 ---
 # Defining Content Fragment Models {#content-fragment-models}
 
-In this chapter learn how to model content and build a schema with **Content Fragment Models**. You will review existing models and create a new model. You will also learn about the different data types that can be used to define a schema as part of the model.
+In this chapter learn how to model content and build a schema with **Content Fragment Models**. You will learn about the different data types that can be used to define a schema as part of the model.
 
-In this chapter you will create a new model for a **Contributor**, which is the data model for those users that author magazine and adventure content as part of the WKND brand.
+In this chapter two simple models will be created, **Team** and **Person**. The **Team** data model has name, short name and description and references the **Person** data model, which has fullname, bio details, profile picture and occupations list.
+
+You are also welcome to create your own model following the basic steps and tweak the respective steps like GraphQL queries, and React App code or simply follow the steps outlined in these chapters.
 
 ## Prerequisites {#prerequisites}
 
-This is a multi-part tutorial and it is assumed that the steps outlined in the [Quick Setup](../quick-setup/local-sdk.md) have been completed.
+This is a multi-part tutorial and it is assumed that an [AEM author environment is available](./overview.md#prerequisites) and optionally the [WKND Shared sample content has been installed](./overview.md#install-sample-content).
 
 ## Objectives {#objectives}
 
@@ -27,60 +29,42 @@ This is a multi-part tutorial and it is assumed that the steps outlined in the [
 * Identify available data types and validation options for building models.
 * Understand how the Content Fragment Model defines **both** the data schema and the authoring template for a Content Fragment.
 
-## Content Fragment Model Overview {#overview}
+## Create a new project configuration
 
->[!VIDEO](https://video.tv.adobe.com/v/22452/?quality=12&learn=on)
+A project configuration contains all of the Content Fragment models associated with a particular project and provides a means of organizing models. At least one project must be created **before** creating new Content Fragment Model.
 
-The above video gives a high level overview of working with Content Fragment Models.
+1. Login to the AEM **Author** environment.
+1. From the AEM Start screen, navigate to **Tools** > **General** > **Configuration Browser**.
 
->[!CAUTION]
->
-> The above video shows the creation of the **Contributor** model with the name `Contributors`. When performing the steps in your own environment, ensure that the title uses the singular form: `Contributor` without the **s**. The naming of the Content Fragment Model drives the GraphQL API calls that will be performed later in the tutorial.
+    ![Navigate to Configuration Browser](assets/content-fragment-models/navigate-config-browser.png)
+1. Click **Create**.
+1. In the resulting dialog enter:
 
-## Inspect the Adventure Content Fragment Model
+    * Title*: **My Project**
+    * Name*: **my-project** (prefer to use all lowercase using hyphens to separate words. This string will influence the unique GraphQL endpoint that client applications will perform requests against.)
+    * Check **Content Fragment Models**
+    * Check **GraphQL Persistent Queries**
 
-In the previous chapter several Adventures Content Fragments were edited and displayed on an external application. Let's inspect the Adventure Content Fragment Model to understand the underlying data schema of these fragments.
+    ![My Project Configuration](assets/content-fragment-models/my-project-configuration.png)
 
-1. From the **AEM Start** menu navigate to **Tools** > **Assets** > **Content Fragment Models**.
+## Create Content Fragment Models
 
-    ![Navigate to Content Fragment Models](assets/content-fragment-models/content-fragment-model-navigation.png)
+Next, create two models for a **Team** and a **Person**.
 
-1. Navigate into the **WKND Site** folder and hover over the **Adventure** Content Fragment Model and click the **Edit** icon (pencil) to open the model.
+### Create the Person Model
 
-    ![Open the Adventure Content Fragment Model](assets/content-fragment-models/adventure-content-fragment-edit.png)
+Create a new model for a **Person**, which is the data model representing a person that is part of a team.
 
-1. This opens the **Content Fragment Model Editor**. Observe that the fields define the Adventure model include different **Data Types** like **Single line text**, **Multi line text**, **Enumeration**, and **Content Reference**.
+1. From the AEM Start screen, navigate to **Tools** > **General** > **Content Fragment Models**.
 
-1. The right-hand column of the editor lists the  available **Data Types** which define the form fields used for authoring Content Fragments.
+    ![Navigate to Content Fragment Models](assets/content-fragment-models/navigate-cf-models.png)
 
-1. Select the **Title** field in the main panel. In the right-hand column click the **Properties** tab:
+    If you installed the [sample content](overview.md#install-sample-content) then you will see two folders: **My Project** and **WKND Shared**. 
+1. Navigate into the **My Project** folder.
+1. Tap **Create** in the upper right corner to bring up the **Create Model** wizard.
+1. For **Model Title** enter: **Person** and tap **Create**.
 
-    ![Adventure Title Properties](assets/content-fragment-models/adventure-title-properties-tab.png)
-
-    Observe the **Property Name** field is set to `adventureTitle`. This defines the name of the property that is persisted to AEM. The **Property Name** also defines the **key** name for this property as part of the data schema. This **key** will be used when the Content Fragment data is exposed via GraphQL APIs.
-
-    >[!CAUTION]
-    >
-    > Modifying the **Property Name** of a field **after** Content Fragments are derived from the Model, has downstream effects. Field values in existing fragments will no longer be referenced and the data schema exposed by GraphQL will change, impacting existing applications.
-
-1. Scroll down in the **Properties** tab and view the **Validation Type** dropdown.
-
-    ![Validation options available](assets/content-fragment-models/validation-options-available.png)
-
-    Out of the box form validations are available for **E-mail** and **URL**. It is also possible to define a **Custom** validation using a regular expression.
-
-1. Click **Cancel** to close the Content Fragment Model Editor.
-
-## Create a Contributor Model
-
-Next, create a new model for a **Contributor**, which is the data model for those users that author magazine and adventure content as part of the WKND brand.
-
-1. Click **Create** in the upper right corner to bring up the **Create Model** wizard.
-1. For **Model Title** enter: **Contributor** and click **Create**
-
-    ![Content fragment model wizard](assets/content-fragment-models/content-fragment-model-wizard.png)
-
-    Click **Open** to open the newly created model.
+    Tap **Open** in the resulting dialog, to open the newly created model.
 
 1. Drag and Drop a **Single line text** element on to the main panel. Enter the following properties on the **Properties** tab:
 
@@ -90,7 +74,9 @@ Next, create a new model for a **Contributor**, which is the data model for thos
 
     ![Full Name property field](assets/content-fragment-models/full-name-property-field.png)
 
-1. Click the **Data Types** tab and drag and drop a **Multi line text** field beneath the **Full Name** field. Enter the following properties:
+    The **Property Name** defines the name of the property that is persisted to AEM. The **Property Name** also defines the **key** name for this property as part of the data schema. This **key** will be used when the Content Fragment data is exposed via GraphQL APIs.
+
+1. Tap the **Data Types** tab and drag and drop a **Multi line text** field beneath the **Full Name** field. Enter the following properties:
 
     * **Field Label**: **Biography**
     * **Property Name**: `biographyText`
@@ -98,13 +84,11 @@ Next, create a new model for a **Contributor**, which is the data model for thos
 
 1. Click the **Data Types** tab and drag and drop a **Content Reference** field. Enter the following properties:
 
-    * **Field Label**: **Picture Reference**
-    * **Property Name**: `pictureReference`
-    * **Root Path**: `/content/dam/wknd`
+    * **Field Label**: **Profile Picture**
+    * **Property Name**: `profilePicture`
+    * **Root Path**: `/content/dam`
 
-    When configuring the **Root Path** you can click the **folder** icon to bring up a modal to select the path. This will restrict which folders authors can use to populate the path.
-
-    ![Root path configured](assets/content-fragment-models/root-path-configure.png)
+    When configuring the **Root Path** you can click the **folder** icon to bring up a modal to select the path. This will restrict which folders authors can use to populate the path. `/content/dam` is the root in which all AEM assets (images, videos, other Content Fragments) are stored.
 
 1. Add a validation to the **Picture Reference** so that only content types of **Images** can be used to populate the field.
 
@@ -112,6 +96,7 @@ Next, create a new model for a **Contributor**, which is the data model for thos
 
 1. Click the **Data Types** tab and drag and drop an **Enumeration**  data type beneath the **Picture Reference** field. Enter the following properties:
 
+    * **Render As**: **Checkboxes**
     * **Field Label**: **Occupation**
     * **Property Name**: `occupation`
 
@@ -119,28 +104,88 @@ Next, create a new model for a **Contributor**, which is the data model for thos
 
     **Artist**, **Influencer**, **Photographer**, **Traveler**, **Writer**, **YouTuber**
 
-    ![Occupation options values](assets/content-fragment-models/occupation-options-values.png)
+1. The final **Person** model should look like the following:
 
-1. The final **Contributor** model should look like the following:
-
-    ![Final Contributor Model](assets/content-fragment-models/final-contributor-model.png)
+    ![Final Person Model](assets/content-fragment-models/final-author-model.png)
 
 1. Click **Save** to save the changes.
 
-## Enable the Contributor Model
+### Create the Team Model
 
-Content Fragment Models need to be **Enabled** before content authors can use it. It is possible to **Disable** a Content Fragment Model, thus prohibiting authors from using it. Recall that modifying the **Property Name** of a field in the model changes the underlying data schema and can have significant downstream effects on existing fragments and external applications. It is recommended to carefully plan the naming convention used for the **Property Name** of fields before enabling the Content Fragment Model for users.
+Create a new model for a **Team**, which is the data model for a team of people. The Team model will reference the Person model to represent the members of the team.
 
-1. Ensure that the **Contributor** model is currently in an **Enabled** state.
+1. In the **My Project** folder, tap **Create** in the upper right corner to bring up the **Create Model** wizard.
+1. For **Model Title** enter: **Team** and tap **Create**.
 
-     ![Enabled Contributor Model](assets/content-fragment-models/enable-contributor-model.png)
+    Tap **Open** in the resulting dialog, to open the newly created model.
 
-     It is possible to toggle a Content Fragment Model's state by hovering over the card and clicking the **Disable** / **Enable** icon.
+1. Drag and Drop a **Single line text** element on to the main panel. Enter the following properties on the **Properties** tab:
+
+    * **Field Label**: **Title**
+    * **Property Name**: `title`
+    * Check **Required**
+
+1. Tap the **Data Types** tab and drag and Drop a **Single line text** element on to the main panel. Enter the following properties on the **Properties** tab:
+
+    * **Field Label**: **Short Name**
+    * **Property Name**: `shortName`
+    * Check **Required**
+    * Check **Unique**
+    * Under **Validation Type** > choose **Custom**
+    * Under **Custom Validation Regex** > enter `^[a-z0-9\-_]{5,40}$` - this will ensure that only lowercase alphanumeric values and dashes between 5 and 40 characters can be entered.
+
+    The `shortName` property will provide us a way to query an individual team based on a shortened path. The **Unique** setting ensures that the value will always be unique per Content Fragment of this model.
+
+1. Tap the **Data Types** tab and drag and drop a **Multi line text** field beneath the **Short Name** field. Enter the following properties:
+
+    * **Field Label**: **Description**
+    * **Property Name**: `description`
+    * **Default Type**: **Rich Text**
+
+1. Click the **Data Types** tab and drag and drop a **Fragment Reference** field. Enter the following properties:
+
+    * **Render As**: **Multiple Field**
+    * **Field Label**: **Team Members**
+    * **Property Name**: `teamMembers`
+    * **Allowed Content Fragment Models**: Use the folder icon to select the **Person** model.
+
+1. The final **Team** model should look like the following:
+
+    ![Final Team Model](assets/content-fragment-models/final-team-model.png)
+
+1. Click **Save** to save the changes.
+
+1. You should now have two models to work from:
+
+    ![Two Models](assets/content-fragment-models/two-new-models.png)
+
+## Inspect the WKND Content Fragment Models (Optional)
+
+If you [installed the WKND Shared sample content](./overview.md#install-sample-content) you can inspect the Adventure, Article, and Author models to get more ideas of data modeling techniques.
+
+1. From the **AEM Start** menu navigate to **Tools** > **General** > **Content Fragment Models**.
+
+1. Navigate into the **WKND Shared** folder and you should see three models: Article, Adventure, and Author.
+
+1. Inspect the models by hovering over the card and tapping the edit icon (pencil)
+    
+    ![WKND Models](assets/content-fragment-models/wknd-shared-models.png)
+
+1. This opens the **Content Fragment Model Editor** for the model and you can inspect the various data types used.
+
+    >[!CAUTION]
+    >
+    > Modifying the model **after** Content Fragments have been created, has downstream effects. Field values in existing fragments will no longer be referenced and the data schema exposed by GraphQL will change, impacting existing applications.
 
 ## Congratulations! {#congratulations}
 
-Congratulations, you just created your first Content Fragment Model!
+Congratulations, you just created your first Content Fragment Models!
 
 ## Next Steps {#next-steps}
 
 In the next chapter, [Authoring Content Fragment Models](author-content-fragments.md), you will create and edit a new Content Fragment based on a Content Fragment Model. You will also learn how to create variations of Content Fragments.
+
+## Related Documentation
+
+* [Content Fragment Models](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-models.html)
+
