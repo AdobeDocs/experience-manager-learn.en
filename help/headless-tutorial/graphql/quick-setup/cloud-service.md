@@ -26,7 +26,7 @@ The following are required to follow this quick setup:
   + [Node.js v10+](https://nodejs.org/en/)
   + [npm 6+](https://www.npmjs.com/)
   + [Git](https://git-scm.com/)
-  + An IDE (for example, [Microsoft® Visual Studio Code](https://code.visualstudio.com/))
+  + An IDE (for example, [Microsoft&reg; Visual Studio Code](https://code.visualstudio.com/))
 
 ## 1. Create a Cloud Manager Git repository
 
@@ -40,7 +40,8 @@ _Screencast of steps_
 1. Create a Git repository for the WKND Site project
     1. Select __Repositories__ in the top navigation
     1. Select __Add Repository__ in the top action bar
-    1. Name the new Git repository: `aem-headless-quick-setup`
+    1. Name the new Git repository: `aem-headless-quick-setup-wknd`
+        + Git repository names must be unique per Adobe organization, 
     1. Select __Save__, and wait for the Git repository to initialize
 
 ## 2. Push sample WKND Site project to Cloud Manager Git Repository
@@ -65,13 +66,13 @@ _Screencast of steps_
 
         ```shell
         $ cd aem-guides-wknd
-        $ git remote add adobe https://git.cloudmanager.adobe.com/<YOUR ADOBE ORGANIZATION>/aem-headless-quick-setup/
+        $ git remote add adobe https://git.cloudmanager.adobe.com/<YOUR ADOBE ORGANIZATION>/aem-headless-quick-setup-wknd/
         ```
 
 1. Push the sample project's source code from your local Git repository to the Cloud Manager Git repository
 
       ```shell
-      $ git push adobe master:main
+      $ git push adobe main:main
       ```
 
       When prompted for credentials, provide the __Username__ and __Password__ from Cloud Manager's __Repository Info__ modal. 
@@ -97,7 +98,7 @@ _Screencast of steps_
     1. On the __Source Code__ tab
         1. Select __Full Stack Code__ option
         1. Select the __AEM as a Cloud Service development environment__ from the __Eligible Deployment Environments__ select box
-        1. Select `aem-headless-quick-setup` in the __Repository__ select box
+        1. Select `aem-headless-quick-setup-wknd` in the __Repository__ select box
         1. Select `main` from the __Git Branch__ select box
         1. Select __Save__
 1. Run the __Dev Deployment Pipeline__
@@ -107,7 +108,7 @@ _Screencast of steps_
     1. Select __Run__, and confirm in the modal
     1. Select the __...__ to the right of the now-running pipeline
     1. Select __View details__
-1. From the pipeline execution's details, monitor progress until it successfully completed. Pipeline execution should take between 45-60 minutes.
+1. From the pipeline execution's details, monitor progress until it successfully completed. Pipeline execution should take between 30-40 minutes.
 
 ## 4. Download and run WKND React app
 
@@ -120,15 +121,15 @@ _Screencast of steps_
 
     ```shell
     $ cd ~/Code
-    $ git clone --branch tutorial/react git@github.com:adobe/aem-guides-wknd-graphql.git
+    $ git clone git@github.com:adobe/aem-guides-wknd-graphql.git
     ```
 
-1. Open the folder `~/Code/aem-guides-wknd-graphql` in your IDE.
-1. In the IDE, open the file `react-app/.env.development`.
+1. Open the folder `~/Code/aem-guides-wknd-graphql/react-app` in your IDE.
+1. In the IDE, open the file `.env.development`.
 1. Point to the AEM as a Cloud Service __Publish__ service's host URI from the  `REACT_APP_HOST_URI` property.
 
     ```plain
-    REACT_APP_HOST_URI=https://publish-pXXXX-eYYYY.adobeaemcloud.com/
+    REACT_APP_HOST_URI=https://publish-pXXXX-eYYYY.adobeaemcloud.com
     ...
     ```
 
@@ -158,19 +159,19 @@ _Screencast of steps_
 >[!VIDEO](https://video.tv.adobe.com/v/339077/?quality=12&learn=on)
 
 1. Log in to AEM as a Cloud Service Author service
-1. Navigate to __Assets > Files > WKND > English > Adventures__
+1. Navigate to __Assets > Files > WKND Shared > English > Adventures__
 1. Open the __Cycling Southern Utah__ Folder
 1. Select the __Cycling Southern Utah__ Content Fragment, and select __Edit__ from the top action bar
 1. Update some of the fields of the Content Fragment, for example:
     + Title: `Cycling Utah's National Parks`
     + Trip Length: `6 Days`
     + Difficulty: `Intermediate`
-    + Price: `$3500`
-    + Primary Image: `/content/dam/wknd/en/activities/cycling/mountain-biking.jpg`
+    + Price: `3500`
+    + Primary Image: `/content/dam/wknd-shared/en/activities/cycling/mountain-biking.jpg`
 1. Select __Save__ in the top action bar
 1. Select __Quick Publish__ from the top action bar's __...__
 1. Refresh the React App running on [http://localhost:3000](http://localhost:3000).
-1. In the React App, select the now updated and verify the content changes made to the Content Fragment.
+1. In the React App, select the now updated Cycling adventure, and verify the content changes made to the Content Fragment.
 
 1. Using the same approach, in AEM Author service:
     1. Unpublish an existing Adventure Content Fragment, and verify it is removed from the React App experience
