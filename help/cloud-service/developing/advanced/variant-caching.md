@@ -27,6 +27,10 @@ Learn how to set up and use AEM as a cloud service to support caching page varia
 
 + The response sent by AEM Dispatcher must contain an HTTP response header `Vary: x-aem-variant`. This instructs the CDN to store different cache copies for different header values.
 
+>[!TIP]
+>
+>Whenever a cookie is set (eg. Set-Cookie: x-aem-variant=NY) the response should not be cacheable (should have Cache-Control: private or Cache-Control: no-cache)
+
 ## HTTP request flow
 
 ![Variant Cache Request Flow](./assets/variant-cache-request-flow.png)
