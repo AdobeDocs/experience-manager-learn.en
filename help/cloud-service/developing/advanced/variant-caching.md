@@ -4,6 +4,7 @@ description: Learn how to set up and use AEM as a cloud service to support cachi
 role: Architect, Developer
 topic: Development
 feature: CDN Cache, Dispatcher
+exl-id: fdf62074-1a16-437b-b5dc-5fb4e11f1355
 ---
 # Caching page variants
 
@@ -132,4 +133,4 @@ Learn how to set up and use AEM as a cloud service to support caching page varia
 
 >[!NOTE]
 >
->When the variants exceed 200, the CDN will respond with “Too many variants” response instead of the page content.  
+>When the variants exceed 200, the CDN will respond with “Too many variants” response instead of the page content.
