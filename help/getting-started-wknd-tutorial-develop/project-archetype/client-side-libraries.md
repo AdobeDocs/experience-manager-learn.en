@@ -1,6 +1,6 @@
 ---
-title: Client-Side Libraries and Front-end Workflow
-description: Learn how Client-Side Libraries or clientlibs are used to deploy and manage CSS and Javascript for an Adobe Experience Manager (AEM) Sites implementation. This tutorial will also cover how the ui.frontend module, a webpack project, can be integrated into the end-to-end build process.
+title: Client-Side Libraries and Front-End Workflow
+description: Learn how to use Client-Side Libraries or clientlibs to deploy and manage CSS and Javascript for an Adobe Experience Manager (AEM) Sites implementation. Learn how the ui.frontend module, a webpack project, can be integrated into the end-to-end build process.
 sub-product: sites
 version: 6.4, 6.5, Cloud Service
 type: Tutorial
@@ -12,7 +12,7 @@ kt: 4083
 thumbnail: 30359.jpg
 exl-id: 8d3026e9-a7e2-4a76-8a16-a8197a5e04e3
 ---
-# Client-Side Libraries and Front-end Workflow {#client-side-libraries}
+# Client-Side Libraries and Front-End Workflow {#client-side-libraries}
 
 Learn how Client-Side Libraries or clientlibs are used to deploy and manage CSS and Javascript for an Adobe Experience Manager (AEM) Sites implementation. This tutorial will also cover how the [ui.frontend](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uifrontend.html) module, a de-coupled [webpack](https://webpack.js.org/) project, can be integrated into the end-to-end build process.
 

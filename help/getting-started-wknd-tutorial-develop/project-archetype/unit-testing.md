@@ -1,6 +1,6 @@
 ---
-title: Unit Testing
-description: This tutorial covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in the Custom Component tutorial.
+title: Unit testing
+description: Implement a unit test that validates the behavior of the Byline component's Sling Model, created in the Custom Component tutorial.
 sub-product: sites
 version: 6.5, Cloud Service
 type: Tutorial
@@ -15,7 +15,7 @@ exl-id: b926c35e-64ad-4507-8b39-4eb97a67edda
 ---
 # Unit Testing {#unit-testing}
 
-This tutorial covers the implementation of a Unit Test that validates the behavior of the Byline component's Sling Model, created in the [Custom Component](./custom-component.md) tutorial.
+This tutorial covers the implementation of a unit test that validates the behavior of the Byline component's Sling Model, created in the [Custom Component](./custom-component.md) tutorial.
 
 ## Prerequisites {#prerequisites}
 

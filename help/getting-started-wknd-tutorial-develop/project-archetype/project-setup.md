@@ -1,7 +1,6 @@
 ---
-title: Getting Started with AEM Sites - Project Setup
-seo-title: Getting Started with AEM Sites - Project Setup
-description: Covers the creation of a Maven Multi Module Project to manage the code and configurations for an AEM Site.
+title: Get started with AEM Sites - Project Setup
+description: Create a Maven Multi Module Project to manage the code and configurations for an Experience Manager Site.
 sub-product: sites
 version: 6.5, Cloud Service
 type: Tutorial
