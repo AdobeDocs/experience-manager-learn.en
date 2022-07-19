@@ -1,6 +1,6 @@
 ---
 title: Create a site | AEM Quick Site Creation
-description: As part of Quick Site Creation use the Site Creation Wizard in Adobe Experience Manager, AEM, to generate a new website. The Standard Site Template provided by Adobe, is used as a starting point for the new site.
+description: Learn how to use the Site Creation wizard to generate a new website. The Standard Site Template provided by Adobe is a starting point for the new site.
 sub-product: sites
 version: Cloud Service
 type: Tutorial
