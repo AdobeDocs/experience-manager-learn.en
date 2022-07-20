@@ -20,10 +20,6 @@ The AEM Headless SDK is set of libraries that can be used by clients to quickly 
 + [AEM Headless SDK for server-side/Node.js (JavaScript)](https://github.com/adobe/aem-headless-client-nodejs)
 + [AEM Headless SDK for Java&trade;](https://github.com/adobe/aem-headless-client-java)
 
-## GraphQL queries
-
-AEM supports client-defined GraphQL queries, however it is AEM best practice to use [persisted GraphQL queries](#persisted-graphql-queries).
-
 ## Persisted GraphQL queries
 
 Querying AEM using GraphQL using persisted queries (as opposed to [client-defined GraphQL queries](#graphl-queries)) allows developers to persist a query (but not its results) in AEM, and then request the query to be executed by name. Persisted queries are similar to the concept of stored procedures in SQL databases. 
@@ -196,3 +192,8 @@ New `useEffect` hooks can be created for each persisted query the React app uses
 +++
 
 <p>&nbsp;</p>
+
+## GraphQL queries
+
+AEM supports client-defined GraphQL queries, however it is AEM best practice to use [persisted GraphQL queries](#persisted-graphql-queries).
+
