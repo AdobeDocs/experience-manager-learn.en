@@ -4,6 +4,7 @@ description: Learn how to set up and use AEM as a cloud service to support cachi
 role: Architect, Developer
 topic: Development
 feature: CDN Cache, Dispatcher
+exl-id: fdf62074-1a16-437b-b5dc-5fb4e11f1355
 ---
 # Caching page variants
 
@@ -26,6 +27,10 @@ Learn how to set up and use AEM as a cloud service to support caching page varia
 + An Apache rewrite rule modifies the request path to include the header value in the page URL as an Apache Sling Selector (eg. `/page.variant=NY.html`). This allows AEM Publish to serve different content based on the selector and the dispatcher to cache one page per variant.
 
 + The response sent by AEM Dispatcher must contain an HTTP response header `Vary: x-aem-variant`. This instructs the CDN to store different cache copies for different header values.
+
+>[!TIP]
+>
+>Whenever a cookie is set (eg. Set-Cookie: x-aem-variant=NY) the response should not be cacheable (should have Cache-Control: private or Cache-Control: no-cache)
 
 ## HTTP request flow
 
@@ -128,4 +133,4 @@ Learn how to set up and use AEM as a cloud service to support caching page varia
 
 >[!NOTE]
 >
->When the variants exceed 200, the CDN will respond with “Too many variants” response instead of the page content.  
+>When the variants exceed 200, the CDN will respond with “Too many variants” response instead of the page content.

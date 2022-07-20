@@ -1,6 +1,6 @@
 ---
 title: Getting Started with AEM Sites - Pages and Templates
-description: Learn about the relationship between a base page component and editable templates. Understand how Core Components are proxied into the project and learn advanced policy configurations of editable templates to build out a well-structured Article Page template based on a mockup from Adobe XD.
+description: Learn about the relationship between a base page component and editable templates. Understand how Core Components are proxied into the project. Learn advanced policy configurations of editable templates to build out a well-structured article page template based on a mockup from Adobe XD.
 feature: Core Components, Editable Templates, Page Editor
 topic: Content Management, Development
 role: Developer

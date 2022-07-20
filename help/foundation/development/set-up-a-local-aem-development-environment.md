@@ -1,6 +1,6 @@
 ---
-title: Set up a Local AEM Development Environment
-description: Guide to setting up a local development for Adobe Experience Manager, AEM. Covers important topics of local installation, Apache Maven, integrated development environments and debugging/troubleshooting. Development with Eclipse IDE, CRXDE-Lite, Visual Studio Code and IntelliJ are discussed.
+title: Set up a Local AEM development environment
+description: Learn how to set up a local development environment for Experience Manager. Get familiar with local installation, Apache Maven, integrated development environments, and debugging and troubleshooting. Use Eclipse IDE, CRXDE-Lite, Visual Studio Code, and IntelliJ. 
 version: 6.4, 6.5
 feature: Developer Tools
 topics: development

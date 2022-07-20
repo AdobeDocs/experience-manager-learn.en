@@ -64,7 +64,8 @@ team: TM
     + [OSGi Configurations Basics](./developing/osgi-services/configurations.md)
     + [OSGi Configurations using OCD](./developing/osgi-services/configurations-ocd.md)
   + Advanced{#advanced}
-    + [Service Users](./developing/advanced/service-users.md)    
+    + [Service Users](./developing/advanced/service-users.md)
+    + [Caching Page Variants](./developing/advanced/variant-caching.md)    
   + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html)
 + Debugging AEM{#debugging}
   + Debugging the AEM SDK{#debugging-aem-sdk}
@@ -261,6 +262,7 @@ team: TM
       + [Admin Console](./cloud-5/season-2/cloud5-admin-console.md)
       + [REPOINIT](./cloud-5/season-2/cloud5-repoinit.md)
       + [Sling Job Scheduler](./cloud-5/season-2/cloud5-sling-job-scheduler.md)
+      + [Fix Your Cache](./cloud-5/season-2/cloud5-fix-your-cache.md)
 + [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)

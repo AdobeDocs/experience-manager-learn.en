@@ -19,7 +19,7 @@ Asset Templates allows marketers create, manage and deliver digital assets for d
 
 ## Download InDesign Server trial {#download-indesign-server-trial}
 
-Download [InDesign Server trial download Website](https://www.adobe.com/devnet/premiere/sdk/cs5/indesign-server-trial-downloads.html)
+Download [InDesign Server trial download Website](https://www.adobeprerelease.com/)
 
 ## Starting InDesign Server {#starting-indesign-server}
 
