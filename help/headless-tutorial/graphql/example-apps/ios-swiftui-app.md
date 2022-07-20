@@ -3,8 +3,8 @@ title: iOS App - AEM Headless example
 description: Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This iOS application demonstrates how to query content using AEM's GraphQL APIs using persisted queries.
 version: Cloud Service
 mini-toc-levels: 2
-kt: 9166
-thumbnail: KT-9166.jpg
+kt: 10587
+thumbnail: KT-10587.jpg
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
@@ -41,7 +41,7 @@ The iOS application is designed to connect to an __AEM Publish__ environment, ho
 1. Clone the `adobe/aem-guides-wknd-graphql` repository:
 
     ```shell
-    git clone git@github.com:adobe/aem-guides-wknd-graphql.git
+    $ git clone git@github.com:adobe/aem-guides-wknd-graphql.git
     ```
 
 1. Launch [Xcode](https://developer.apple.com/xcode/) and open the folder `ios-app`
@@ -260,7 +260,7 @@ SwiftUI is used for the various views in the application. Apple provides a getti
 
     Displays the details of an adventure including the title, description, price, activity type, and primary image. This view queries AEM for full adventure details using `aem.getAdventureBySlug(slug: slug)`, where the `slug` parameter is passed in based on the select list row.
 
-### Remote Images
+### Remote images
 
 Images referenced by adventure Content Fragments, are served by AEM. This iOS app uses the path `_path` field in the GraphQL response, and prefixes the `AEM_SCHEME` and `AEM_HOST` to create a fully qualified URL.
 

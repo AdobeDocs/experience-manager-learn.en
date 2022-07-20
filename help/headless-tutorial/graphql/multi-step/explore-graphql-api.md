@@ -26,12 +26,370 @@ This is a multi-part tutorial and it is assumed that the steps outlined in the [
 * Learn to use the GraphiQL tool to construct a query using GraphQL syntax.
 * Learn how to query a list of Content Fragments and a single Content Fragment.
 * Learn how to filter and request specific data attributes.
-* Learn how to query a variation of a Content Fragment.
 * Learn how to join a query of multiple Content Fragment models
+* Learn how to Persist GraphQL query.
 
-## Install the GraphiQL Tool {#install-graphiql}
+## Enable GraphQL Endpoint {#enable-graphql-endpoint}
 
-The GraphiQL IDE is a development tool and needed only on lower-level environments like a development or local instance. Therefore it is not included in the AEM project, but comes as a separate package that can be installed on an ad-hoc basis.
+A GraphQL endpoint is needed to be configured to enable GraphQL API queries for Content Fragments.
+
+1. From the AEM Start screen navigate to **Tools** > **General** > **GraphQL**.
+
+    ![Navigate to GraphQL endpoint](assets/explore-graphql-api/navigate-to-graphql-endpoint.png)
+
+1. Tap **Create** in the upper-right-hand corner. In the dialog enter the following values:
+
+    * Name*: **My Project Endpoint**.
+    * Use GraphQL schema provided by ... *: **My Project**
+
+    ![Create GraphQL endpoint](assets/explore-graphql-api/create-graphql-endpoint.png)
+
+    Tap **Create** to save the endpoint.
+
+    GraphQL endpoints created based on a project configuration will only enable queries against models belonging to that project. In this case the only queries against the **Person** and **Team** models can be used.
+
+    >[!NOTE]
+    >
+    > A Global endpoint can also be created that will enable queries against models across projects. For example if you wanted to combine a query involving the models in the **WKND Shared** project and in the **My Project**. This should be used with caution and only if necessary as it potentially opens the environment to additional security vulnerabilities. 
+
+1. You should now see two GraphQL endpoints enabled on your environment (assuming you installed the WKND Shared content).
+
+    ![Enabled graphql endpoints](assets/explore-graphql-api/enabled-graphql-endpoints.png)
+
+## Using the GraphiQL IDE
+
+The [GraphiQL Tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/graphql-api/graphiql-ide.html) enables developers to create and test queries against content on the current AEM environment. The GraphiQL Tool also enables users to **persist** or save queries to be used by client applications in a production setting.
+
+Next, explore the power of AEM's GraphQL API using the built-in GraphiQL IDE.
+
+1. From the AEM Start screen navigate to **Tools** > **General** > **GraphQL Query Editor**.
+
+    ![Navigate to the GraphiQL IDE](assets/explore-graphql-api/navigate-graphql-query-editor.png)
+
+    >[!NOTE]
+    >
+    > For older versions of AEM the GraphiQL IDE may not be built in. It can be installed manually following these [instructions](#install-graphiql).
+
+1. In the upper right-hand corner set the **Endpoint** to **My Project Endpoint**.
+
+    ![Set GraphQL Endpoint](assets/explore-graphql-api/set-my-project-endpoint.png)
+
+    This will scope all queries to models created in the **My Project** project. Notice that there is also an endpoint for **WKND Shared**.
+
+### Query a list of Content Fragments {#query-list-cf}
+
+A common requirement will be to query for multiple Content Fragments.
+
+1. Paste the following query in the main panel (replacing the list of comments):
+
+    ```graphql
+    query allTeams {
+      teamList {
+        items {
+          _path
+          title
+        }
+      }
+    } 
+    ```
+
+1. Press the **Play** button in the top menu to execute the query. You should see the results of the content fragments from the previous chapter:
+
+    ![Person List Results](assets/explore-graphql-api/all-teams-list.png)
+
+1. Position the cursor beneath the `title` text and enter **CTRL+Space** to trigger code hinting. Add `shortname` and `description` to the query.
+
+    ![Update Query with code hiting](assets/explore-graphql-api/update-query-codehinting.png)
+
+1. Execute the query again by pressing the **Play** button and you should see the results include the additional properties of `shortname` and `description`.
+
+    ![shortname and description results](assets/explore-graphql-api/updated-query-shortname-description.png)
+
+    The `shortname` is a simple property and `description` is a multi-line text field and the GraphQL API allows us to choose a variety of formats for the results like `html`, `markdown`, `json` or `plaintext`.
+
+### Query for nested fragments
+
+Next, experiment with querying is retrieving nested fragments, recall that the **Team** model references the **Person** model.
+
+1. Update the query to include the `teamMembers` property. Recall that this is a **Fragment Reference** field to the Person Model. Properties of the Person model can be returned:
+
+    ```graphql
+    query allTeams {
+        teamList {
+            items {
+                _path
+                title
+                shortName
+                description {
+                    plaintext
+                }
+                teamMembers {
+                    fullName
+                    occupation
+                }
+            }
+        }
+    }
+    ```
+
+    JSON Response:
+
+    ```json
+    {
+        "data": {
+            "teamList": {
+            "items": [
+                {
+                "_path": "/content/dam/my-project/en/team-alpha",
+                "title": "Team Alpha",
+                "shortName": "team-alpha",
+                "description": {
+                    "plaintext": "This is a description of Team Alpha!"
+                },
+                "teamMembers": [
+                    {
+                    "fullName": "John Doe",
+                    "occupation": [
+                        "Artist",
+                        "Influencer"
+                    ]
+                    },
+                    {
+                    "fullName": "Alison Smith",
+                    "occupation": [
+                        "Photographer"
+                    ]
+                    }
+                  ]
+            }
+            ]
+            }
+        }
+    }
+    ```
+
+    The ability to query against nested fragments is a powerful of the AEM GraphQL API. In this simple example the nesting is only two levels deep. However its possible to nest fragments even further. For example if there was an **Address** model associated with a **Person** it would be possible to return data from all three models in a single query.
+
+### Filter a List of Content Fragments {#filter-list-cf}
+
+Next, let's look at how it is possible to filter the results to a subset of Content Fragments based on a property value.
+
+1. Enter the following query in the GraphiQL UI:
+
+    ```graphql
+    query personByName($name:String!){
+      personList(
+        filter:{
+          fullName:{
+            _expressions:[{
+              value:$name
+              _operator:EQUALS
+            }]
+          }
+        }
+      ){
+        items{
+          _path
+          fullName
+          occupation
+        }
+      }
+    }  
+    ```
+
+    The above query performs a search against all Person fragments in the system. The added filter to the beginning of the query will perform a comparison on the `name` field and the variable string `$name`.
+
+1. In the **Query Variables** panel enter the following:
+
+    ```json
+    {"name": "John Doe"}
+    ```
+
+1. Execute the query, it is expected that only **Persons** will be returned with a value of "John Doe".
+
+    ![Use Query Variables to filter](assets/explore-graphql-api/using-query-variables-filter.png)
+
+    There are many other options for filtering and creating complex queries, see [Learning to use GraphQL with AEM - Sample Content and Queries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/content-fragments-graphql-samples.html).
+
+1. Enhance above query to fetch profile picture
+
+    ```graphql
+    query personByName($name:String!){
+      personList(
+        filter:{
+          fullName:{
+            _expressions:[{
+              value:$name
+              _operator:EQUALS
+            }]
+          }
+        }
+      ){
+        items{  
+          _path
+          fullName
+          occupation
+          profilePicture{
+            ... on ImageRef{
+              _path
+              _authorUrl
+              _publishUrl
+              height
+              width
+              
+            }
+          }
+        }
+      }
+    } 
+    ```
+
+    The `profilePicture` is a content reference and it is expected to be an image, therefore built-in `ImageRef` object is used. This allows us to request additional data about the image being reference, like the `width` and `height`.
+
+### Query a single Content Fragment {#query-single-cf}
+
+It is also possible to directly query a single Content Fragment. Content in AEM is stored in a hierarchical manner and the unique identifier for a fragment is based on the fragment's path.
+
+1. Enter the following query in the GraphiQL editor:
+
+    ```graphql
+    query personByPath($path: String!) {
+        personByPath(_path: $path) {
+            item {
+            fullName
+            occupation
+            }
+        }
+    }
+    ```
+
+1. Enter the following for the **Query Variables**:
+
+    ```json
+    {"path": "/content/dam/my-project/en/alison-smith"}
+    ```
+
+1. Execute the query and observe that the single result is returned.
+
+## Persist Queries {#persist-queries}
+
+Once a developer is happy with the query and data returned, the next step is to store or persist the query to AEM. [Persisted queries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/graphql-api/persisted-queries.html) is the preferred mechanism for exposing the GraphQL API to client applications. Once a query has been persisted, it can be requested using a GET request and cached at the Dispatcher and CDN layers. The performance of persisted queries is much better. In addition to performance benefits, persisted queries ensure that extra data is not accidentally exposed to client applications. More details about [Persited queries can be found here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/graphql-api/persisted-queries.html).
+
+Next, persist two simple queries, they will be used in the next chapter.
+
+1. In the GraphiQL IDE enter the following query:
+
+    ```graphql
+    query allTeams {
+        teamList {
+            items {
+                _path
+                title
+                shortName
+                description {
+                    plaintext
+                }
+                teamMembers {
+                    fullName
+                    occupation
+                }
+            }
+        }
+    }
+    ```
+
+    Verify that the query works.
+
+1. Next tap **Save As** and enter `all-teams` as the **Query Name**.
+
+    The query should now be shown under **Persisted Queries** in the left rail.
+
+    ![All Teams Persisted Query](assets/explore-graphql-api/all-teams-persisted-query.png)
+1. Next tap the elippses **...** next to the persistent query and tap **Copy URL** to copy the path to your clipboard.
+
+    ![Copy Persistent Query URL](assets/explore-graphql-api/copy-persistent-query-url.png)
+
+1. Open a new tab and paste the copied path in your browser:
+
+    ```plain
+    https://$YOUR-AEMasCS-INSTANCEID$.adobeaemcloud.com/graphql/execute.json/my-project/all-teams
+    ```
+
+    It should look similar to the above path. You should see the JSON results of the query returned.
+
+    Breaking the URL down:
+
+    | Name | Description |
+    | ---------|---------- |
+    | `/graphql/execute.json` | Persistent query endpoint |
+    | `/my-project` | Project configuration for `/conf/my-project` |
+    | `/all-teams` | Name of the peristent query |
+
+1. Return to the GraphiQL IDE and use the plus button **+** to perist the NEW query
+
+    ```graphql
+    query personByName($name: String!) {
+      personList(
+        filter: {
+          fullName:{
+            _expressions: [{
+              value: $name
+              _operator:EQUALS
+            }]
+          }
+        }){
+        items {
+          _path
+          fullName
+          occupation
+          biographyText {
+            json
+          }
+          profilePicture {
+            ... on ImageRef {
+              _path
+              _authorUrl
+              _publishUrl
+              width
+              height
+            }
+          }
+        }
+      }
+    }
+    ```
+
+1. Save the query as: **person-by-name**.
+1. You should have 2 persisted queries saved:
+
+    ![Final persisted queries](assets/explore-graphql-api/final-persisted-queries.png)
+
+## Solution Files {#solution-files}
+
+Download the content, models, and persitent queries created in the last three chapters: [tutorial-solution-content.zip](assets/explore-graphql-api/tutorial-solution-content.zip) 
+
+## Explore WKND Persisted Queries (Optional) {#explore-wknd-content-fragments}
+
+If you [installed the WKND Shared sample content](./overview.md#install-sample-content) you can review and execute Persisted Queries like adventures-all, adventure-by-activity, adventure-by-path, etc.
+
+![WKND Persisted Queries](assets/explore-graphql-api/wknd-persisted-queries.png)
+
+
+## Additional Resources
+
+For many more examples of GraphQL queries see: [Learning to use GraphQL with AEM - Sample Content and Queries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/content-fragments-graphql-samples.html).
+
+## Congratulations! {#congratulations}
+
+Congratulations, you just created and executed several GraphQL queries!
+
+## Next Steps {#next-steps}
+
+In the next chapter, [Build React app](./graphql-and-react-app.md), you will explore how an external application can query AEM's GraphQL endpoints and leverage these two persisted queries. You will also be introduced to some basic error handling.
+
+## Install the GraphiQL Tool (Optional) {#install-graphiql}
+
+For some versions of AEM the GraphiQL IDE tool needs to be manually installed. Follow the instructions below to manually install:
 
 1. Navigate to the **[Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)** > **AEM as a Cloud Service**.
 1. Search for "GraphiQL" (be sure to include the **i** in **GraphiQL**.
@@ -45,252 +403,3 @@ The GraphiQL IDE is a development tool and needed only on lower-level environmen
 1. Click **Upload Package** and choose the package downloaded in the prior step. Click **Install** to install the package.
 
     ![Install GraphiQL Package](assets/explore-graphql-api/install-graphiql-package.png)
-
-## Query a list of Content Fragments {#query-list-cf}
-
-A common requirement will be to query for multiple Content Fragments.
-
-1. Navigate to the GraphiQL IDE at [http://localhost:4502/content/graphiql.html](http://localhost:4502/content/graphiql.html).
-1. Paste the following query in the left panel (below the list of comments):
-
-    ```graphql
-    {
-      contributorList {
-        items {
-            _path
-          }
-      }
-    }
-    ```
-
-1. Press the **Play** button in the top menu to execute the query. You should see the results of the Contributors content fragments from the previous chapter:
-
-    ![Contributor List Results](assets/explore-graphql-api/contributorlist-results.png)
-
-1. Position the cursor beneath the `_path` text and enter **CTRL+Space** to trigger code hinting. Add `fullName` and `occupation` to the query.
-
-    ![Update Query with code hiting](assets/explore-graphql-api/update-query-codehinting.png)
-
-1. Execute the query again by pressing the **Play** button and you should see the results include the additional properties of `fullName` and `occupation`.
-
-    ![Fullname and occupation results](assets/explore-graphql-api/updated-query-fullname-occupation.png)
-
-    `fullName` and `occupation` are simple properties. Recall from the [Defining Content Fragment Models](./content-fragment-models.md) chapter that `fullName` and `occupation` are the values used when defining the **Property Name** of the respective fields.
-
-1. `pictureReference` and `biographyText` represent more complex fields. Update the query with the following to return data about the `pictureReference` and `biographyText` fields.
-
-    ```graphql
-    {
-    contributorList {
-        items {
-          _path
-          fullName
-          occupation
-          biographyText {
-            html
-          }
-          pictureReference {
-            ... on ImageRef {
-                _path
-                width
-                height
-                }
-            }
-        }
-      }
-    }
-    ```
-
-    `biographyText` is a multi-line text field and the GraphQL API allows us to choose a variety of formats for the results like `html`, `markdown`, `json` or `plaintext`.
-
-    `pictureReference` is a content reference and it is expected to be an image, therefore built-in `ImageRef` object is used. This allows us to request additional data about the image being reference, like the `width` and `height`.
-
-1. Next, experiment with querying for a list of **Adventures**. Execute the following query:
-
-    ```graphql
-    {
-      adventureList {
-        items {
-          adventureTitle
-          adventureType
-          adventurePrimaryImage {
-            ...on ImageRef {
-              _path
-              mimeType
-            }
-          }
-        }
-      }
-    }
-    ```
-
-    You should see a list of **Adventures** returned. Feel free to experiment by adding additional fields to the query.
-
-## Filter a List of Content Fragments {#filter-list-cf}
-
-Next, let's look at how it is possible to filter the results to a subset of Content Fragments based on a property value.
-
-1. Enter the following query in the GraphiQL UI:
-
-    ```graphql
-    {
-    contributorList(filter: {
-      occupation: {
-        _expressions: {
-          value: "Photographer"
-          }
-        }
-      }) {
-        items {
-          _path
-          fullName
-          occupation
-        }
-      }
-    }
-    ```
-
-    The above query performs a search against all Contributors in the system. The added filter to the beginning of the query will perform a comparison on the `occupation` field and the string "**Photographer**".
-
-1. Execute the query, it is expected that only a single **Contributor** is returned.
-1. Enter the following query to query a list of **Adventures** where the `adventureActivity` is **not** equal to **"Surfing"**:
-
-    ```graphql
-    {
-      adventureList(filter: {
-        adventureActivity: {
-            _expressions: {
-                _operator: EQUALS_NOT
-                value: "Surfing"
-            }
-        }
-    }) {
-        items {
-        _path
-        adventureTitle
-        adventureActivity
-        }
-      }
-    }
-    ```
-
-1. Execute the query and inspect the results. Observe that none of the results include an `adventureType` equal to **"Surfing"**.
-
-There are many other options for filtering and creating complex queries, above are just a few examples.
-
-## Query a single Content Fragment {#query-single-cf}
-
-It is also possible to directly query a single Content Fragment. Content in AEM is stored in a hierarchical manner and the unique identifier for a fragment is based on the fragment's path. If the goal is to return data about a single fragment it is preferred to use the path and query the model directly. Using this syntax means that the query complexity will be very low and will generate a faster result.
-
-1. Enter the following query in the GraphiQL editor:
-
-    ```graphql
-    {
-     contributorByPath(_path: "/content/dam/wknd/en/contributors/stacey-roswells") {
-        item {
-          _path
-          fullName
-          biographyText {
-            html
-          }
-        }
-      }
-    }
-    ```
-
-1. Execute the query and observe that the single result for the **Stacey Roswells** fragment is returned.
-
-    In the previous exercise, you used a filter to narrow down a list of results. You could use a similar syntax to filter by path, however the above syntax is preferred for performance reasons.
-
-1. Recall in the [Authoring Content Fragments](./author-content-fragments.md) chapter that a **Summary** variation was created for **Stacey Roswells**. Update the query to return the **Summary** variation:
-
-    ```graphql
-    {
-    contributorByPath
-    (
-        _path: "/content/dam/wknd/en/contributors/stacey-roswells"
-        variation: "summary"
-    ) {
-        item {
-          _path
-          fullName
-          biographyText {
-            html
-          }
-        }
-      }
-    }
-    ```
-
-    Even though the variation was named **Summary**, variations are persisted in lowercase and therefore `summary` is used.
-
-1. Execute the query and observe that the `biography` field contains a much shorter `html` result.
-
-## Query for Multiple Content Fragment Models {#query-multiple-models}
-
-It is also possible to combine separate queries into a single query. This is useful for minimizing the number of HTTP requests needed to power the application. For example the *Home* view of an application may display content based on **two** different Content Fragment Models. Rather than executing **two** separate queries, we can combine the queries into a single request.
-
-1. Enter the following query in the GraphiQL editor:
-
-    ```graphql
-    {
-      adventureList {
-        items {
-          _path
-          adventureTitle
-        }
-      }
-      contributorList {
-        items {
-          _path
-          fullName
-        }
-      }
-    }
-    ```
-
-1. Execute the query and observe that the result set contains data from **Adventures** and **Contributors**:
-
-  ```json
-  {
-    "data": {
-      "adventureList": {
-        "items": [
-          {
-            "_path": "/content/dam/wknd/en/adventures/bali-surf-camp/bali-surf-camp",
-            "adventureTitle": "Bali Surf Camp"
-          },
-          {
-            "_path": "/content/dam/wknd/en/adventures/beervana-portland/beervana-in-portland",
-            "adventureTitle": "Beervana in Portland"
-          },
-          ...
-        ]
-      },
-      "contributorList": {
-        "items": [
-          {
-            "_path": "/content/dam/wknd/en/contributors/jacob-wester",
-            "fullName": "Jacob Wester"
-          },
-          {
-            "_path": "/content/dam/wknd/en/contributors/stacey-roswells",
-            "fullName": "Stacey Roswells"
-          }
-        ]
-      }
-    }
-  }
-  ```
-
-## Additional Resources
-
-For many more examples of GraphQL queries see: [Learning to use GraphQL with AEM - Sample Content and Queries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/content-fragments-graphql-samples.html).
-
-## Congratulations! {#congratulations}
-
-Congratulations, you just created and executed several GraphQL queries!
-
-## Next Steps {#next-steps}
-
-In the next chapter, [Querying AEM from a React app](./graphql-and-external-app.md), you will explore how an external application can query AEM's GraphQL endpoints. The external app modifying the sample WKND GraphQL React app to add filtering GraphQL queries, allowing the app's user to filter adventures by activity. You will also be introduced to some basic error handling.

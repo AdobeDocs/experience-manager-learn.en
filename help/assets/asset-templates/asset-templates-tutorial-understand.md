@@ -68,4 +68,4 @@ InDesign template file and supporting Images
 Download [InDesign template file and supporting Images](assets/asset-templates-tutorial-video--supporting-files-1.zip)
 
 * [InDesign CC trial download](https://creative.adobe.com/products/download/indesign)
-* [CC Enterprise customers can contact their Account Executive to request am InDesign Server Trial license](https://www.adobe.com/products/indesignserver/faq.html)
+* InDesign Server trial can be downloaded from [Adobe Prerelease site](https://www.adobeprerelease.com/) or [CC Enterprise customers can contact their Account Executive to request am InDesign Server trial license](https://www.adobe.com/products/indesignserver/faq.html)
