@@ -46,8 +46,6 @@ An Adobe Experience Manager environment is required to complete this tutorial. A
   * [Access to AEM as a Cloud Service and Cloud Manager](/help/cloud-service/accessing/overview.md)
     * **AEM Administrator** access to AEM as a Cloud Service
     * **Cloud Manager - Developer** access to Cloud Manager
-* [Local AEM as a Cloud Service Quickstart SDK](/help/cloud-service/local-development-environment/aem-runtime.md).
-* [AEM 6.5.13+](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html)
 
 ### Install sample content {#install-sample-content}
 
@@ -59,6 +57,7 @@ It can be helpful to have sample content already available on the AEM environmen
 1. From the AEM start screen, navigate to **Tools** > **Deployment** > **Packages**:
 
     ![Navigate package manager](assets/overview/navigate-package-manager.png)
+    
 1. Tap **Upload Package** and choose the `aem-guides-wknd-shared.ui.content-x.x.x.zip` file downloaded previously. Tap **Ok** to upload.
 1. Once the package has finished uploading, tap **Install** to install the content.
 
