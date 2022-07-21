@@ -21,7 +21,7 @@ You are also welcome to create your own model following the basic steps and twea
 
 ## Prerequisites {#prerequisites}
 
-This is a multi-part tutorial and it is assumed that an [AEM author environment is available](./overview.md#prerequisites) and optionally the [WKND Shared sample content has been installed](./overview.md#install-sample-content).
+This is a multi-part tutorial and it is assumed that an [AEM author environment is available](./overview.md#prerequisites)
 
 ## Objectives {#objectives}
 
@@ -33,7 +33,7 @@ This is a multi-part tutorial and it is assumed that an [AEM author environment 
 
 A project configuration contains all of the Content Fragment models associated with a particular project and provides a means of organizing models. At least one project must be created **before** creating new Content Fragment Model.
 
-1. Login to the AEM **Author** environment.
+1. Login to the AEM **Author** environment (ex. `https://author-pYYYY-eXXXX.adobeaemcloud.com/`)
 1. From the AEM Start screen, navigate to **Tools** > **General** > **Configuration Browser**.
 
     ![Navigate to Configuration Browser](assets/content-fragment-models/navigate-config-browser.png)
@@ -59,7 +59,6 @@ Create a new model for a **Person**, which is the data model representing a pers
 
     ![Navigate to Content Fragment Models](assets/content-fragment-models/navigate-cf-models.png)
 
-    If you installed the [sample content](overview.md#install-sample-content) then you will see two folders: **My Project** and **WKND Shared**. 
 1. Navigate into the **My Project** folder.
 1. Tap **Create** in the upper right corner to bring up the **Create Model** wizard.
 1. For **Model Title** enter: **Person** and tap **Create**.
@@ -159,23 +158,23 @@ Create a new model for a **Team**, which is the data model for a team of people.
 
     ![Two Models](assets/content-fragment-models/two-new-models.png)
 
-## Inspect the WKND Content Fragment Models (Optional)
+## Publish Project Configuration & Content Fragment Models
 
-If you [installed the WKND Shared sample content](./overview.md#install-sample-content) you can inspect the Adventure, Article, and Author models to get more ideas of data modeling techniques.
+Upon review and verification, publish the `Project Configuration` & `Content Fragment Model`
 
-1. From the **AEM Start** menu navigate to **Tools** > **General** > **Content Fragment Models**.
+1. From the AEM Start screen, navigate to **Tools** > **General** > **Configuration Browser**.
 
-1. Navigate into the **WKND Shared** folder and you should see three models: Article, Adventure, and Author.
+1. Tap the checkbox next to **My Project** and tap **Publish**
 
-1. Inspect the models by hovering over the card and tapping the edit icon (pencil)
-    
-    ![WKND Models](assets/content-fragment-models/wknd-shared-models.png)
+    ![Publish Project Config](assets/content-fragment-models/publish-project-config.png)
 
-1. This opens the **Content Fragment Model Editor** for the model and you can inspect the various data types used.
+1. From the AEM Start screen, navigate to **Tools** > **General** > **Content Fragment Models**.
 
-    >[!CAUTION]
-    >
-    > Modifying the model **after** Content Fragments have been created, has downstream effects. Field values in existing fragments will no longer be referenced and the data schema exposed by GraphQL will change, impacting existing applications.
+1. Navigate into the **My Project** folder.
+
+1. Tap **Person** and **Team** models and tap **Publish**
+
+    ![Publish Content Fragment Models](assets/content-fragment-models/publish-content-fragment-model.png)
 
 ## Congratulations! {#congratulations}
 
