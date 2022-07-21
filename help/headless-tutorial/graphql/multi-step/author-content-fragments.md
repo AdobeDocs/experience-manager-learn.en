@@ -53,7 +53,7 @@ Content Fragments are stored in folders in AEM Assets. To create Content Fragmen
 
     ![Allowed content Fragment Models](assets/author-content-fragments/allowed-content-fragment-models.png)
 
-    These policies will be inherited by any sub-folders automatically and can be overriden. Note that you can also allow models by tags or enable models from other project configurations (like WKND Shared). This mechanism provides a powerful way to manage your content hierarchy.
+    These policies will be inherited by any sub-folders automatically and can be overriden. Note that you can also allow models by tags or enable models from other project configurations. This mechanism provides a powerful way to manage your content hierarchy.
 
 1. Tap **Save & Close** to save the changes to the folder properties.
 
@@ -115,17 +115,9 @@ Next populate the newly created fragments with data.
 
     ![Open Content Fragment](assets/author-content-fragments/open-fragment-for-editing.png)
 
-1. The Content Fragment Editor contains a form based on the Content Fragment model. Fill out the various fields to add content to the **John Doe** fragment. For Profile Picture, feel free to choose one of the images in WKND Shared or upload your own image to AEM Assets.
+1. The Content Fragment Editor contains a form based on the Content Fragment model. Fill out the various fields to add content to the **John Doe** fragment. For Profile Picture, upload your own image to AEM Assets.
 
     ![Content Fragment editor](assets/author-content-fragments/content-fragment-editor-jd.png)
-
-1. Next, tap **Create Variation** in the left-rail. In the dialog add type in **Alternate** for the variation name.
-
-1. Change some of the elements in the **Alternate** variation.
-
-    ![Alternate version](assets/author-content-fragments/alternate-variation-john-doe-fragment.png)
-
-    The variation feature enables authors to create different versions of the same Content Fragment. This can be used to provide a summary version of a longform article. By default a single **Master** variation is created. Multi-line textfield elements of a variations can be synced with the master variation.
 
 1. Tap **Save & Close** to save the changes to the John Doe fragment.
 1. Return to the Content Fragment UI and open the **Alison Smith** file for editing.
@@ -145,11 +137,16 @@ Next populate the newly created fragments with data.
 
 1. Tap **Save & Close** to save the changes to the Team Alpha fragment.
 
-## Explore WKND Content Fragments (Optional) {#explore-wknd-content-fragments}
+## Publish Content Fragments
 
-If you [installed the WKND Shared sample content](./overview.md#install-sample-content) you can inspect the content fragments for Adventures, Articles, and Authors models to get more ideas of creating content.
+Upon review and verification, publish the authored `Content Fragments`
 
-![WKND Content Fragments](assets/author-content-fragments/wknd-content-fragments.png)
+1. From the AEM Start Screen tap **Content Fragments** to open up the Content Fragments UI.
+
+1. In the left-hand rail expand **My Project** and tap **English**.
+
+1. Tap the checkbox next to the content fragments and tap **Publish**
+    ![Publish Content Fragment](assets/author-content-fragments/publish-content-fragment.png)
 
 ## Congratulations! {#congratulations}
 
