@@ -12,7 +12,7 @@ exl-id: c8cc0385-9e94-4120-9fb1-aeccbfcc8aa4
 ---
 # HTTP/HTTPS connections on non-standard ports for flexible port egress
 
-HTTP/HTTPS connections on non-standard ports (not 80/443) must be proxied out of AEM as a Cloud Service, however they do not need any special `portForwards` rules, and can use AEM's advanced networking's `AEM_PROXY_HOST` and a reserved proxy port `AEM_HTTP_PROXY_HOST` or `AEM_HTTPS_PROXY_HOST` depending on is the destination is HTTP/HTTPS.
+HTTP/HTTPS connections on non-standard ports (not 80/443) must be proxied out of AEM as a Cloud Service, however they do not need any special `portForwards` rules, and can use AEM's advanced networking's `AEM_PROXY_HOST` and a reserved proxy port `AEM_HTTP_PROXY_PORT` or `AEM_HTTPS_PROXY_PORT` depending on is the destination is HTTP/HTTPS.
 
 ## Advanced networking support
 
@@ -62,8 +62,8 @@ public class HttpExternalServiceImpl implements ExternalService {
     public boolean isAccessible() {
         HttpClient client;
 
-        // Use System.getenv("AEM_PROXY_HOST") and proxy port System.getenv("AEM_HTTP_PROXY_HOST") 
-        // or System.getenv("AEM_HTTPS_PROXY_HOST"), depending on if the destination requires HTTP/HTTPS
+        // Use System.getenv("AEM_PROXY_HOST") and proxy port System.getenv("AEM_HTTP_PROXY_PORT") 
+        // or System.getenv("AEM_HTTPS_PROXY_PORT"), depending on if the destination requires HTTP/HTTPS
 
         if (System.getenv("AEM_PROXY_HOST") != null) {
             // Create a ProxySelector that uses to AEM's provided AEM_PROXY_HOST, with a fallback of proxy.tunnel, and proxy port using the AEM_HTTP_PROXY_PORT variable. 
