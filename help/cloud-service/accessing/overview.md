@@ -10,7 +10,7 @@ kt: 5882
 thumbnail: KT-5882.jpg
 exl-id: 4846a394-cf8e-4d52-8f8b-9e874f2f457b
 ---
-# Configuring access to AEM as a Cloud Service
+# Configuring access to AEM as a Cloud Service {#configuring-access-to-aem-as-a-cloud-service}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_adobeims_overview"
