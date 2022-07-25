@@ -10,7 +10,7 @@ role: Developer
 level: Beginner
 exl-id: 6fb3199a-02c9-48bc-a6fa-1f767cfd2f2a
 ---
-# Set up development tools
+# Set up development tools {#set-up-development-tools}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_localdev_devtools"
