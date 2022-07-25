@@ -9,7 +9,7 @@ kt: 5000
 thumbnail: 39156.jpg
 exl-id: 089a557c-5155-489c-bccf-0cb97e95840c
 ---
-# Adobe IMS product profiles
+# Adobe IMS product profiles {#adobe-ims-product-profiles}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_adobeims_productprofiles"

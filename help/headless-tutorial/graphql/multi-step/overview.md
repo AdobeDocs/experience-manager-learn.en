@@ -45,26 +45,6 @@ An Adobe Experience Manager environment is required to complete this tutorial. A
 * AEM as a Cloud Service environment with:
   * [Access to AEM as a Cloud Service and Cloud Manager](/help/cloud-service/accessing/overview.md)
     * **AEM Administrator** access to AEM as a Cloud Service
-    * **Cloud Manager - Developer** access to Cloud Manager
-* [Local AEM as a Cloud Service Quickstart SDK](/help/cloud-service/local-development-environment/aem-runtime.md).
-* [AEM 6.5.13+](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html)
-
-### Install sample content {#install-sample-content}
-
-It can be helpful to have sample content already available on the AEM environment to be used as a reference.
-
-1. Navigate to the [AEM WKND Shared Project](https://github.com/adobe/aem-guides-wknd-shared/releases).
-1. Download the latest released asset: `aem-guides-wknd-shared.ui.content-x.x.x.zip`.
-1. Login to the AEM author environment to be used for the tutorial.
-1. From the AEM start screen, navigate to **Tools** > **Deployment** > **Packages**:
-
-    ![Navigate package manager](assets/overview/navigate-package-manager.png)
-1. Tap **Upload Package** and choose the `aem-guides-wknd-shared.ui.content-x.x.x.zip` file downloaded previously. Tap **Ok** to upload.
-1. Once the package has finished uploading, tap **Install** to install the content.
-
-    ![Install sample content package](assets/overview/install-sample-content-package.png)
-
-1. Sample Content Fragments, Content Fragment Models, images and more will be installed for the ficticious [WKND brand](https://wknd.site/). The sample content will be referenced later in the tutorial.
 
 ## Let's get started!
 
@@ -75,5 +55,3 @@ It can be helpful to have sample content already available on the AEM environmen
 The source code, and content packages are available on the [AEM Guides - WKND GraphQL GitHub Project](https://github.com/adobe/aem-guides-wknd-graphql).
 
 If you find an issue with the tutorial or the code, please leave a [GitHub issue](https://github.com/adobe/aem-guides-wknd-graphql/issues).
-
-Sample Content Fragments, models, and queries can be found in the [AEM WKND Shared Project](https://github.com/adobe/aem-guides-wknd-shared)

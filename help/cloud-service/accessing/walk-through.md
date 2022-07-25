@@ -10,7 +10,7 @@ kt: 6061
 thumbnail: 39155.jpg
 exl-id: 0ca50fa4-0b2a-4e6d-becb-7a91fc6b4166
 ---
-# Configuring access to AEM walk-through
+# Configuring access to AEM walk-through {#configuring-access-to-aem-walkthrough}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_adobeims_aem_walkthrough"

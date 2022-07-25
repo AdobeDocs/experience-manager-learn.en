@@ -10,7 +10,7 @@ kt: 4999
 thumbnail: 39150.jpg
 exl-id: 40ba2368-edb7-4348-9aff-91194200092e
 ---
-# Adobe IMS user groups
+# Adobe IMS user groups {#adobe-ims-user-groups}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_adobeims_usergroups"

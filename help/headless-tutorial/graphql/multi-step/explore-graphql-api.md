@@ -50,9 +50,9 @@ A GraphQL endpoint is needed to be configured to enable GraphQL API queries for 
 
     >[!NOTE]
     >
-    > A Global endpoint can also be created that will enable queries against models across projects. For example if you wanted to combine a query involving the models in the **WKND Shared** project and in the **My Project**. This should be used with caution and only if necessary as it potentially opens the environment to additional security vulnerabilities. 
+    > A Global endpoint can also be created to enable queries against models across multiple configurations. This should be used with caution as it may open the environment to additional security vulnerabilities, and add to overall complexity in managing AEM.
 
-1. You should now see two GraphQL endpoints enabled on your environment (assuming you installed the WKND Shared content).
+1. You should now see one GraphQL endpoints enabled on your environment.
 
     ![Enabled graphql endpoints](assets/explore-graphql-api/enabled-graphql-endpoints.png)
 
@@ -70,11 +70,11 @@ Next, explore the power of AEM's GraphQL API using the built-in GraphiQL IDE.
     >
     > For older versions of AEM the GraphiQL IDE may not be built in. It can be installed manually following these [instructions](#install-graphiql).
 
-1. In the upper right-hand corner set the **Endpoint** to **My Project Endpoint**.
+1. In the upper right-hand corner make sure the **Endpoint** is set to **My Project Endpoint**.
 
     ![Set GraphQL Endpoint](assets/explore-graphql-api/set-my-project-endpoint.png)
 
-    This will scope all queries to models created in the **My Project** project. Notice that there is also an endpoint for **WKND Shared**.
+  This will scope all queries to models created in the **My Project** project.
 
 ### Query a list of Content Fragments {#query-list-cf}
 
@@ -364,16 +364,28 @@ Next, persist two simple queries, they will be used in the next chapter.
 
     ![Final persisted queries](assets/explore-graphql-api/final-persisted-queries.png)
 
+
+## Publish GraphQL Endpoint & Persisted Queries
+
+Upon review and verification, publish the `GraphQL Endpoint` & `Persisted Queries`
+
+1. From the AEM Start screen navigate to **Tools** > **General** > **GraphQL**.
+
+1. Tap the checkbox next to **My Project Endpoint** and tap **Publish**
+
+    ![Publish GraphQL Endpoint](assets/explore-graphql-api/publish-graphql-endpoint.png)
+
+1. From the AEM Start screen navigate to **Tools** > **General** > **GraphQL Query Editor**
+
+1. Tap the *all-teams* from Persisted Queries panel and tap **Publish**
+
+    ![Publish Persisted Queries](assets/explore-graphql-api/publish-persisted-query.png)
+
+1. Repeat above step for `person-by-name` query
+
 ## Solution Files {#solution-files}
 
 Download the content, models, and persitent queries created in the last three chapters: [tutorial-solution-content.zip](assets/explore-graphql-api/tutorial-solution-content.zip) 
-
-## Explore WKND Persisted Queries (Optional) {#explore-wknd-content-fragments}
-
-If you [installed the WKND Shared sample content](./overview.md#install-sample-content) you can review and execute Persisted Queries like adventures-all, adventure-by-activity, adventure-by-path, etc.
-
-![WKND Persisted Queries](assets/explore-graphql-api/wknd-persisted-queries.png)
-
 
 ## Additional Resources
 

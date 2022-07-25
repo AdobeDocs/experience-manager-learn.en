@@ -108,14 +108,16 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
   </tr>
 <tr>
    <td>
-            <img alt="Fix Your... Rewrites" src="./imgs/coming-soon.png"/>
+           <a href="season-2/cloud5-fix-your-rewrites.md">
+               <img alt="Fix Your...Rewrites" src="./imgs/s2/006-thumb.png"/>
+            </a>
       <div>
-            <strong>Fix Your... Rewrites</strong>
+            <a href="season-2/cloud5-fix-your-rewrites.md"><strong>Fix Your... Rewrites</strong></a>
          <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 22 July 2022
+         Quick insight on things that will help speed up your rewrite development and optimization on AEM as a Cloud Service.
       </p>
      </td>   
      <td>
