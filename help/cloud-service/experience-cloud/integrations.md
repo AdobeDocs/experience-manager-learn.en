@@ -8,6 +8,7 @@ role: Leader, Architect, Admin, Developer
 level: Beginner
 kt: 10718
 thumbnail: KT-10718.jpeg
+mini-toc-levels: 1
 exl-id: 9e856dcc-f042-4e9d-bf97-dd4f72e837e3
 ---
 # AEM as a Cloud Service integrations with Adobe Experience Cloud
@@ -99,7 +100,7 @@ Adobe Experience Platform tags (formerly Adobe Launch, DTM) seamlessly integrate
 + [Experience Platform tags user guide](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 + [Experience Platform tags tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html)
 
-## AEM Forms
+### AEM Forms
 
 + [Experience Platform tags user guide](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 + [Experience Platform tags tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html)
@@ -109,7 +110,7 @@ Adobe Experience Platform tags (formerly Adobe Launch, DTM) seamlessly integrate
 
 Adobe Workfront's integrations with AEM s a Cloud Service streamlines the process of digital asset creation, collaboration, and lifecycle management.
 
-## AEM Assets
+### AEM Assets
 
 + [Configure the Workfront enhanced connector](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
 + [Workfront enhanced connector videos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html)
