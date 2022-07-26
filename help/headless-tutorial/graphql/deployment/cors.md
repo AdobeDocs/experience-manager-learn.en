@@ -17,7 +17,7 @@ Adobe Experience Manager as a Cloud Service's Cross-Origin Resource Sharing (COR
 
 >[!TIP]
 >
-> The following configurations are examples. Ensure you adjust them to align to the requirements of myour project.
+> The following configurations are examples. Ensure you adjust them to align to the requirements of your project.
 
 
 
