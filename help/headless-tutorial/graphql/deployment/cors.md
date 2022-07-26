@@ -1,3 +1,16 @@
+---
+title: CORS configuration for AEM GraphQL
+description: Learn how to configure Cross-origin resource sharing (CORS) for use with AEM GraphQL.
+version: Cloud Service
+feature: GraphQL API
+topic: Headless, Content Management
+role: Developer, Architect
+level: Intermediate
+kt: 10587
+thumbnail: KT-10587.jpg
+mini-toc-levels: 2
+---
+
 # Cross-origin resource sharing (CORS) 
 
 Adobe Experience Manager as a Cloud Service's Cross-Origin Resource Sharing (CORS) facilitates non-AEM web properties to make browser-based client-side calls to AEM's GraphQL APIs.
