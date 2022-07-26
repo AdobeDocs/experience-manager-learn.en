@@ -1,4 +1,15 @@
-
+---
+title: Deploying SPA for AEM GraphQL
+description: Learn SPA deployment options in regards to AEM GraphQL, Headless.
+version: Cloud Service
+feature: GraphQL API
+topic: Headless, Content Management
+role: Developer, Architect
+level: Intermediate
+kt: 10587
+thumbnail: KT-10587.jpg
+mini-toc-levels: 2
+---
 
 
 # Deploying a SPA
