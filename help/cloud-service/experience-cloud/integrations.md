@@ -8,8 +8,8 @@ role: Leader, Architect, Admin, Developer
 level: Beginner
 kt: 10718
 thumbnail: KT-10718.jpeg
+exl-id: 9e856dcc-f042-4e9d-bf97-dd4f72e837e3
 ---
-
 # AEM as a Cloud Service integrations with Adobe Experience Cloud
 
 Learn about AEM as a Cloud Service's supported integrations with other Adobe Experience Cloud products. 
