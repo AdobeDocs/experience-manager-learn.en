@@ -38,13 +38,11 @@ In summary SPA deployment architecture has two parts *1. SPA  2. AEM GraphQL API
     Both *SPA & AEM GraphQL API Layer* in this option are deployed to the **Same Domain**. Meaning request to SPA URI `/my-aem-spa.html` & GraphQL API layer `/graphql/execute.json/` are served from exact same domain.
 
 **Different Domain:**               
-    Both *SPA & AEM GraphQL API Layer* in this option are deployed to **Different Domain**. Meaning request to SPA URI `/my-aem-spa.html` is served from a **different domain** than GraphQL API layer `/graphql/execute.json/` requests. Please note as part of this deployment option, you need to configure CORS on the AEM instance, see details here.
+    Both *SPA & AEM GraphQL API Layer* in this option are deployed to **Different Domain**. Meaning request to SPA URI `/my-aem-spa.html` is served from a **different domain** than GraphQL API layer `/graphql/execute.json/` requests. Please note as part of this deployment option, you need to [configure CORS](cors.md) on the AEM instance.
 
 >[!NOTE]
 >
->You MUST properly configure CORS on AEM instance, see.
-
-**TODO: Link to DG's CORS**
+>You MUST properly configure CORS on AEM instance, [see steps here](cors.md).
 
 ### Deploying on Same Domain
 
@@ -56,6 +54,28 @@ Also, SPA build artifacts can be hosted in AEM *but are not recommended.*
 | ---------|---------- | ---------|---------- |
 | **ON AEM Domain** | &#10004; | &#10004; | &#10004; |
 | **OFF AEM Domain** | &#10004; | &#10004; | **N/A** |
+
+
+**HTTPD + Reverse Proxy**
+
+An example config will look like below
+
+ON AEM DOMAIN
+
+    ```
+    ProxyPass "/${YOUR-SPA-URI}"  "http://${SPA-HOST}/"
+    ProxyPassReverse "/${YOUR-SPA-URI}"  "http://${SPA-HOST}/"
+    ```
+
+OFF AEM Domain
+
+    ```
+    ProxyPass "/graphql/execute.json/"  "http://${AEM-HOST}/"
+    ProxyPassReverse "/graphql/execute.json/"  "http://${AEM-HOST}/"
+    ```
+
+
+
 
 ### Deploying on Different Domain
 
