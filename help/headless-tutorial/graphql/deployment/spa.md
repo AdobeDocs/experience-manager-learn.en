@@ -27,6 +27,7 @@ Clearly, this GraphQL API endpoint (`/graphql/execute.json/<PROJECT-CONFIG>/<PER
 
 In summary SPA deployment architecture has two parts *1. SPA  2. AEM GraphQL API Layer*, so let's review the deployment options for these two parts.
 
+
 ## Deployment Options
 
 | Deployment Option | SPA URL | AEM GraphQL API URL | CORS Config Required? |
@@ -79,8 +80,15 @@ OFF AEM Domain
 
 ### Deploying on Different Domain
 
-In this scenario, SPA build artifacts are deployed to a different domain than the AEM GraphQL APIs domain and for end users, they will be delivered from two separate domains thus CORS configuration is MUST on AEM, see details here.
+In this scenario, SPA build artifacts are deployed to a different domain than the AEM GraphQL APIs domain and for end users, they will be delivered from two separate domains thus [CORS configuration](cors.md) is MUST on AEM.
 
-**TODO: Add a Screenshot**
+**Different Domains SPA Delivery**
+
+![Different Domain SPA Delivery](assets/spa/different-domain-spa-delivery.png)
+
+
+**CORS Response Header on AEM GraphQL API**
+
+![CORS Response Header AEM GraphQL API](assets/spa/CORS-response-header-aem-graphql-api.png)
 
 
