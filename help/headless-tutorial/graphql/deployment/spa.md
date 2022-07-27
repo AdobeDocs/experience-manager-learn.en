@@ -11,7 +11,6 @@ thumbnail: KT-10587.jpg
 mini-toc-levels: 2
 ---
 
-
 # Deploying a SPA
 
 In this section, we will review an approach for deploying SPA (React, Vue, Angular, etc) that invokes AEM's GraphQL APIs to load the data, however, before that let's understand the high-level artifacts that one has to deploy.
@@ -60,6 +59,10 @@ Also, SPA build artifacts can be hosted in AEM *but are not recommended.*
 **HTTPD + Reverse Proxy**
 
 An example config will look like below
+
+>[!TIP]
+>
+> The following configurations are examples. Ensure you adjust them to align to the requirements of your project.
 
 ON AEM DOMAIN
 
