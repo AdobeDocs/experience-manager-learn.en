@@ -474,7 +474,7 @@ Review the main `../setupProxy.js` file and within `../proxy/setupProxy.auth.**.
     ...
   ```
 
-However this is not a suitable option for production deployment and more details can be found at _Production Deployment_ section.
+However this is not a suitable option for **production deployment** but works fine during the development, and more details can be found at [_Deployment_](../deployment/spa.md) section.
 
 ## Congratulations!{#congratulations}
 
