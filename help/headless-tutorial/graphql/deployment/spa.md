@@ -82,7 +82,7 @@ OFF AEM Domain
 
 In this scenario, SPA build artifacts are deployed to a different domain than the AEM GraphQL APIs domain and for end users, they will be delivered from two separate domains thus [CORS configuration](cors.md) is MUST on AEM.
 
-**Different Domains SPA Delivery**
+**SPA App Requests via Different Domains**
 
 ![Different Domain SPA Delivery](assets/spa/different-domain-spa-delivery.png)
 
