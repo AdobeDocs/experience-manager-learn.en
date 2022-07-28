@@ -40,15 +40,11 @@ The following are required to follow this tutorial:
 
 ### AEM Environment
 
-An Adobe Experience Manager environment is required to complete this tutorial. Any of the following can be used (screenshots are recorded from an AEM as a Cloud Service environment):
-
-* AEM as a Cloud Service environment with:
-  * [Access to AEM as a Cloud Service and Cloud Manager](/help/cloud-service/accessing/overview.md)
-    * **AEM Administrator** access to AEM as a Cloud Service
+To complete this tutorial, AEM Administrator access to an AEM as a Cloud Service environment is recommended.  If you do not have access to AEM as a Cloud Service environment, you can use the [Local AEM as a Cloud Service Quickstart SDK](/help/cloud-service/local-development-environment/aem-runtime.md). However, it is important to be aware that some product UI screens such as Content Fragment navigation will be different.
 
 ## Let's get started!
 
-1. Start the tutorial with [Defining Content Fragment Models](content-fragment-models.md).
+Start the tutorial with [Defining Content Fragment Models](content-fragment-models.md).
 
 ## GitHub Project
 
