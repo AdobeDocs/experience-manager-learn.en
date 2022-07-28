@@ -265,6 +265,7 @@ team: TM
       + [Sling Job Scheduler](./cloud-5/season-2/cloud5-sling-job-scheduler.md)
       + [Fix Your Cache](./cloud-5/season-2/cloud5-fix-your-cache.md)
       + [Fix Your Rewrites](./cloud-5/season-2/cloud5-fix-your-rewrites.md)
+      + [Cloud Manager - Experience Audit](./cloud-5/season-2/cloud5-MoCM-experience-audit.md)
 + [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)

@@ -121,14 +121,16 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
       </p>
      </td>   
      <td>
-            <img alt="Mysteries of Cloud Manager... Experience Audit" src="./imgs/coming-soon.png"/>
+            <a href="season-2/cloud5-MoCM-experience-audit.md">
+               <img alt="Mysteries of Cloud Manager... Experience Audit" src="./imgs/s2/007-thumb.png"/>
+               </a>
       <div>
-            <strong>Mysteries of Cloud Manager... Experience Audit</strong>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
+            <a href="season-2/cloud5-MoCM-experience-audit.md"><strong>Mysteries of Cloud Manager... Experience Audit</strong></a>
+         <br/><em>with Darin Kuntze, Senior Cloud Architect</em>
       </div>
       <p>
         <br/>
-        Coming 29 July 2022
+        Explore the basics of Cloud Manager and its Experience Audit capabilities.
       </p>
    </td>
      <td>
