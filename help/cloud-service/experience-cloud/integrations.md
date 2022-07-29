@@ -75,12 +75,9 @@ Adobe Campaign Classic integration with AEM as a Cloud Service, lets you manage 
 
 ### AEM Sites
 
-+ [Configure the Adobe Campaign Classic integration](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
-  + __Documentation links to AEM 6.5, however steps are the same on AEM as a Cloud Service__
-+ [Integrate AEM Sites with Adobe Campaign Classic](https://github.com/adobe/aem-core-email-components/wiki/Integrating-AEM-with-ACC)
-+ [Send emails from AEM Sites with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
++ [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-campaign-classic.html#configure-user)
++ [Creating an Adobe Experience Manager Newsletter](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/creating-newsletter.html)
 + [AEM Email Core Components documentation](https://github.com/adobe/aem-core-email-components#aem-email-core-components)
-
 
 ## Adobe Commerce
 
