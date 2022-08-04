@@ -134,14 +134,16 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
       </p>
    </td>
      <td>
-            <img alt="Mysteries of Cloud Manager... Unit Tests" src="./imgs/coming-soon.png"/>
+            <a href="season-2/cloud5-MoCM-unit-tests.md">
+               <img alt="Mysteries of Cloud Manager... Unit Tests" src="./imgs/s2/009-thumb.png"/>
+            </a>
       <div>
-            <strong>Mysteries of Cloud Manager... Unit Tests</strong>
+            <a href="season-2/cloud5-MoCM-unit-tests.md"><strong>Mysteries of Cloud Manager... Unit Tests</strong></a>
          <br/><em>with Darin Kuntze & Bryan Stopp, Senior Cloud Architects</em>
       </div>
       <p>
         <br/>
-         Coming 5 August 2022
+        Darin and Bryan discuss how Cloud Manager integrates unit test execution and code coverage reporting into its CI/CD pipeline to help encourage and promote the best practice of unit testing AEM code.
       </p>
    </td> 
   </tr>
