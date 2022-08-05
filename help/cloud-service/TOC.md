@@ -211,6 +211,7 @@ team: TM
         + [Configure for fill and sign](./forms/forms-and-sign/configure-form-fill-and-sign.md)
     + Integrate with Microsoft Power Automate{#forms-cs-and-power-automate}
         + [Configure the integration](./forms/forms-cs-and-power-automate/integrate-formscs-power-automate.md)
+        + [Parse submitted form data](./forms/forms-cs-and-power-automate/send-email-notification.md)
     + Integrate with Microsoft Dynamics{#formscs-dynamics-crm}
         + [Create Dynamics Application](./forms/formscs-dynamics-crm/create-dynamics-account.md)
         + [Configure Data Source](./forms/formscs-dynamics-crm/configure-odata-data-source.md)
