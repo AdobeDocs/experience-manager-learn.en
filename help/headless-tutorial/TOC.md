@@ -38,15 +38,27 @@ index: y
     + [3 - Explore the AEM GraphQL API](/help/headless-tutorial/graphql/advanced-graphql/explore-graphql-api.md)
     + [4 - Persisted GraphQL Queries](/help/headless-tutorial/graphql/advanced-graphql/graphql-persisted-queries.md)
     + [5 - Client Application Integration](/help/headless-tutorial/graphql/advanced-graphql/client-application-integration.md)
-  + How To {#how-to}
-    + [Rich text](./graphql/how-to/rich-text.md)
-    + [Images](./graphql/how-to/images.md)
-    + [Localized content](./graphql/how-to/localized-content.md)
-    + [AEM Headless SDK](./graphql/how-to/aem-headless-sdk.md)
++ Deployments{#deployments}
+  + [Overview](./graphql/deployment/overview.md)  
+  + [Single-page app](./graphql/deployment/spa.md)  
+  + [Web Component](./graphql/deployment/web-component.md)
+  + [Mobile](./graphql/deployment/mobile.md)  
+  + [Server-to-server](./graphql/deployment/server-to-server.md)
+  + Configurations{#configurations}
+    + [AEM hosts](./graphql/deployment/configurations/aem-hosts.md)
+    + [CORS](./graphql/deployment/configurations/cors.md)
+    + [Dispatcher filters](./graphql/deployment/configurations/dispatcher-filters.md)
++ How To {#how-to}
+  + [Rich text](./graphql/how-to/rich-text.md)
+  + [Images](./graphql/how-to/images.md)
+  + [Localized content](./graphql/how-to/localized-content.md)
+  + [AEM Headless SDK](./graphql/how-to/aem-headless-sdk.md)
   + Examples {#example-apps}
     + [React](./graphql/example-apps/react-app.md)
+    + [Web Component](./graphql/example-apps/web-component.md)
     + [iOS](./graphql/example-apps/ios-swiftui-app.md)
     + [Android](./graphql/example-apps/android-app.md)
+    + [Server-to-server](./graphql/example-apps/server-to-server-app.md)
 + SPA Editor{#spa-editor}
   + React{#react}
     + [Overview](./spa-editor/react/overview.md)

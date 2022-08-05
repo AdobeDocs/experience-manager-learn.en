@@ -55,7 +55,6 @@ The React application is designed to connect to an __AEM Publish__ environment, 
     ```plain
     # Server namespace
     REACT_APP_HOST_URI=http://localhost:4503
-    REACT_APP_GRAPHQL_ENDPOINT=/content/_cq_graphql/wknd-shared/endpoint.json
     
     #AUTH (Choose one method)
     # Authentication methods: 'service-token', 'dev-token', 'basic' or leave blank to use no authentication
