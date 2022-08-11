@@ -19,6 +19,7 @@ Click on the Experience Cloud product for documentation on how to configure and 
 |                                                                   | AEM Sites | AEM Assets | AEM Forms | 
 |-------------------------------------------------------------------|:---------:|:----------:|:---------:|
 | [Acrobat Sign](#adobe-acrobat-sign)                               |           |            | &#10004; |
+| Advertising                                                       |           |            |          |
 | [Analytics](#adobe-analytics)                                     | &#10004;  | &#10004;   | &#10004; |
 | Audience Manager                                                  |           |            |          |
 | [Campaign Classic](#adobe-campaign-classic)                       | &#10004;  |            |          |
@@ -27,7 +28,7 @@ Click on the Experience Cloud product for documentation on how to configure and 
 | Customer Journey Analytics                                        |           |            |          |
 | [Experience Platform tags](#adobe-experience-platform-tags)       | &#10004;  |            | &#10004; |
 | [Journey Optimizer](#adobe-journey-optimizer)                     |           | &#10004;   |          |
-| Learning Manager                                                  |           |            |          |
+| [Learning Manager](#adobe-learning-manager)                       | &#10004;  |            |          |
 | Marketo Engage                                                    |           |            |          |
 | Real-time CDP                                                     |           |            |          |
 | [Sensei](#adobe-sensei)                                           | &#10004;  | &#10004;   | &#10004; |
@@ -102,19 +103,21 @@ Adobe Experience Platform tags (formerly Adobe Launch, DTM) seamlessly integrate
 + [Experience Platform tags user guide](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 + [Experience Platform tags tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html)
 
+## Adobe Journey Optimizer
 
-## Adobe Workfront
+Adobe Journey Optimizer, helps you schedule omnichannel campaigns and one-to-one moments with millions of customers from a single application — and the entire journey is optimized with intelligent decisioning and insights.
 
-Adobe Workfront's integrations with AEM s a Cloud Service streamlines the process of digital asset creation, collaboration, and lifecycle management.
+### AEM Assets 
 
-### AEM Assets
++ [Integrate AEM Assets Essentials with Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)
 
-+ [Configure the Workfront enhanced connector](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
-+ [Workfront enhanced connector videos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html)
-+ AEM Assets Essentials
+## Adobe Learning Manager
 
-  + [Adobe Workfront for Assets Essentials user guide](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)
-  + [Adobe Workfront and Assets Essentials videos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
+Adobe Learning Manager (formerly Adobe Captivate Prime) delivers personalized learning to customers and employees.
+
+### AEM Sites
+
++ [Integrate AEM Sites with Adobe Learning Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-learning-manager.html)
 
 ## Adobe Sensei
 
@@ -152,3 +155,16 @@ Adobe Target integrates with AEM as a Cloud Service to deliver optimized web exp
 
 + [Use AEM Context Hub with Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/audiences.html#creating-an-adobe-target-audience-using-the-audience-console)
 + [AEM Sites and Target tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/target/overview.html)
+
+## Adobe Workfront
+
+Adobe Workfront's integrations with AEM s a Cloud Service streamlines the process of digital asset creation, collaboration, and lifecycle management.
+
+### AEM Assets
+
++ [Configure the Workfront enhanced connector](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
++ [Workfront enhanced connector videos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html)
++ AEM Assets Essentials
+
+  + [Adobe Workfront for Assets Essentials user guide](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)
+  + [Adobe Workfront and Assets Essentials videos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html)
