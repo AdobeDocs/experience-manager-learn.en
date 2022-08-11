@@ -135,7 +135,7 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
    </td>
      <td>
             <a href="season-2/cloud5-MoCM-unit-tests.md">
-               <img alt="Mysteries of Cloud Manager... Unit Tests" src="./imgs/s2/009-thumb.png"/>
+               <img alt="Mysteries of Cloud Manager... Unit Tests" src="./imgs/s2/008-thumb.png"/>
             </a>
       <div>
             <a href="season-2/cloud5-MoCM-unit-tests.md"><strong>Mysteries of Cloud Manager... Unit Tests</strong></a>
@@ -149,13 +149,15 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
   </tr>
     <tr>
         <td>
-                <img alt="Mysteries of Cloud Manager... Functional Tests" src="./imgs/coming-soon.png"/>
+               <a href="season-2/cloud5-MoCM-functional-tests.md">
+                   <img alt="Mysteries of Cloud Manager... Functional Tests" src="./imgs/s2/009-thumb.png"/>
+               </a>
             <div>
-                <strong>Mysteries of Cloud Manager... Functional Tests</strong><br/>        
+                <a href="season-2/cloud5-MoCM-functional-tests.md"><strong>Mysteries of Cloud Manager... Functional Tests</strong><br/></a>        
                 <em>with Darin Kuntze & Bryan Stopp, Senior Cloud Architects</em>
             </div>
             <p><br/>
-                Coming 12 August 2022
+                Darin and Bryan discuss different types of functional testing built into the AEM as a Cloud Service deployment process to ensure quality and reliability of your code.
             </p>
         </td>
         <td></td>
