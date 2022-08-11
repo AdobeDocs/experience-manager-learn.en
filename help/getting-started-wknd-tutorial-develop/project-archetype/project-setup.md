@@ -326,3 +326,11 @@ The same Maven commands used to build the **ui.apps** module can be used to buil
 ## Troubleshooting
 
 If you are having issues generating the project using the AEM Project Archetype see the list of [known issues](https://github.com/adobe/aem-project-archetype#known-issues) and list of open [issues](https://github.com/adobe/aem-project-archetype/issues).
+
+## Congratulations again! {#congratulations-bonus}
+
+Congratulations, on going through the bonus material.
+
+### Next Steps {#next-steps-bonus}
+
+Understand the underlying technology of an Adobe Experience Manager (AEM) Sites Component through a simple `HelloWorld` example with the [Component Basics](component-basics.md) tutorial.
