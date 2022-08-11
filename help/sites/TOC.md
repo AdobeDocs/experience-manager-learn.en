@@ -29,6 +29,7 @@ feature-set: Experience Manager Sites, Experience Manager
 + Components {#components}
   + [Component Development](components/component-development.md)
   + [Core Components](components/core-components-feature-video-understand.md)
+  + [Web Optimized Image Delivery](components/web-optimized-image-delivery.md)
   + [Components Console](components/components-console-feature-video-use.md)
 + Content Fragments {#content-fragments}
   + [Authoring Content Fragments](content-fragments/content-fragments-feature-video-use.md)
