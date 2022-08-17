@@ -15,7 +15,7 @@ exl-id: e5e6204c-d88c-4e79-a7f4-0cfc140bc51c
 
 ![Editable container components](./assets/spa-container-component/intro.png)
 
-In this chapter, we'll add an editable container to the home view allowing authors to compose and layout rich content experiences using AEM React Core Components directly in the SPA.
+In this chapter, we add an editable container to the home view allowing authors to compose and layout rich content experiences using AEM React Core Components directly in the SPA.
 
 ## Update the WKND App 
 
@@ -77,44 +77,44 @@ The `AEMResponsiveGrid.js` file should look like:
 
 Now that AEM's ResponsiveGrid component is registered in and available for use within the SPA, we can place it in the Home view.
 
-1. Open and edit `react-app/src/App.js`
+1. Open and edit `react-app/src/Home.js`
 1. Import the `AEMResponsiveGrid` component and place it above the `<AEMTitle ...>` component.
 1. Set the following attributes on the `<AEMResponsiveGrid...>` component
     + `pagePath = '/content/wknd-app/us/en/home'`
     + `itemPath = 'root/responsivegrid'`
 
-    This instructs this `AEMResponsiveGrid` component to retrieve its content from the AEM resource:
+    This instructs the `AEMResponsiveGrid` component to retrieve its content from the AEM resource:
 
     + `/content/wknd-app/us/en/home/jcr:content/root/responsivegrid`
 
     The `itemPath` maps to the `responsivegrid` node defined in the `Remote SPA Page` AEM Template and is automatically created on new AEM Pages created from the `Remote SPA Page` AEM Template.
 
-    Update `App.js` to add the `<AEMResponsiveGrid...>` component.
+    Update `Home.js` to add the `<AEMResponsiveGrid...>` component.
 
     ```
     ...
-    import AEMResponsiveGrid from './components/aem/AEMResponsiveGrid';
+    import AEMResponsiveGrid from './aem/AEMResponsiveGrid';
     ...
 
     function Home() {
-    return (
-        <div className="Home">
-            <AEMResponsiveGrid
-                pagePath='/content/wknd-app/us/en/home' 
-                itemPath='root/responsivegrid'/>
+        return (
+            <div className="Home">
+                <AEMResponsiveGrid
+                    pagePath='/content/wknd-app/us/en/home' 
+                    itemPath='root/responsivegrid'/>
 
-            <AEMTitle
-                pagePath='/content/wknd-app/us/en/home' 
-                itemPath='title'/>
-            <Adventures />
-        </div>
-    );
+                <AEMTitle
+                    pagePath='/content/wknd-app/us/en/home' 
+                    itemPath='title'/>
+                <Adventures />
+            </div>
+        );
     }
     ```
 
-The `Apps.js` file should look like:
+The `Home.js` file should look like:
 
-![App.js](./assets/spa-container-component/app-js.png)
+![Home.js](./assets/spa-container-component/home-js.png)
 
 ## Create editable components
 
@@ -199,10 +199,10 @@ The `AEMImage.js` and `AEMImage.scss` should look like:
 
 ### Import the editable components
 
-The newly created `AEMText` and `AEMImage` SPA components are referenced in the SPA, and are dynamically instantiated based on the JSON returned by AEM. To ensure that these components are available to the SPA, create import statements for them in `App.js`
+The newly created `AEMText` and `AEMImage` SPA components are referenced in the SPA, and are dynamically instantiated based on the JSON returned by AEM. To ensure that these components are available to the SPA, create import statements for them in `Home.js`
 
 1. Open the SPA project in your IDE
-1. Open the file `src/App.js`
+1. Open the file `src/Home.js`
 1. Add import statements for `AEMText` and `AEMImage`
 
     ```
@@ -215,9 +215,9 @@ The newly created `AEMText` and `AEMImage` SPA components are referenced in the 
 
 The result should look like:
 
-![Apps.js](./assets/spa-container-component/app-js-imports.png)
+![Home.js](./assets/spa-container-component/home-js-imports.png)
 
-If these imports are _not_ added, the `AEMText` and `AEMImage` code will not be invoked by SPA, and thus, the components are not registered against the provided resource types.
+If these imports are _not_ added, the `AEMText` and `AEMImage` code is not be invoked by SPA, and thus, the components are not registered against the provided resource types.
 
 ## Configuring the container in AEM
 
@@ -253,13 +253,13 @@ To configure the Remote SPA Page template's reponsivegrid container:
 
 ## Authoring the container in AEM
 
-With the SPA updated to embed the `<AEMResponsiveGrid...>`, wrappers for three AEM React Core components (`AEMTitle`, `AEMText`, and `AEMImage`), and AEM is updated with a matching Template policy, we can start authoring content in the container component.
+After the SPA updated to embed the `<AEMResponsiveGrid...>`, wrappers for three AEM React Core components (`AEMTitle`, `AEMText`, and `AEMImage`), and AEM is updated with a matching Template policy, we can start authoring content in the container component.
 
 1. Log in to AEM Author 
 1. Navigate to __Sites > WKND App__
 1. Tap __Home__ and select __Edit__ from the top action bar
     + A "Hello World" Text component displays, as this was automatically added when generating the project from the AEM Project archetype
-1. Select __Edit__ from the mode-selector in the top-right of the Page Editor
+1. Select __Edit__ from the mode-selector in the top right of the Page Editor
 1. Locate the __Layout Container__ editable area beneath the Title
 1. Open the __Page Editor's side bar__, and select the __Components view__
 1. Drag the following components into the __Layout Container__
@@ -283,7 +283,7 @@ With the SPA updated to embed the `<AEMResponsiveGrid...>`, wrappers for three A
 1. __Author__ the __Text__ component
     1. Edit the Text component by tapping the Text component, and tapping the __wrench__ icon
     1. Add the following text:  
-        + _Right now, you can get 15% on all 1-week adventures, and 20% off on all adventures that are 2 weeks or longer! At checkout, just add the campaign code SUMMERISCOMING to get your discounts!_
+        + _Right now, you can get 15% on all 1-week adventures, and 20% off on all adventures that are 2 weeks or longer! At checkout, add the campaign code SUMMERISCOMING to get your discounts!_
     1. Tap __Done__
 
 1. Your components are now authored, but stack vertically. 
