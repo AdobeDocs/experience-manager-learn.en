@@ -84,6 +84,8 @@ index: y
     + [3 - Fixed Components](./spa-editor/remote-spa/spa-fixed-component.md)
     + [4 - Container Components](./spa-editor/remote-spa/spa-container-component.md)
     + [5 - Dynamic Routes](./spa-editor/remote-spa/spa-dynamic-routes.md)
+  + How to{#how-to}
+    + [AEM React Editable Components v2](./spa-editor/how-to/react-core-components-v2.md)
 + Token-based authentication {#authentication}
   + [Overview](./authentication/overview.md)
   + [1 - Local Development Access Token](./authentication/local-development-access-token.md)
