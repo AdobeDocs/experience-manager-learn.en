@@ -1,6 +1,6 @@
 ---
 title: Configure AEM for SPA Editor and Remote SPA
-description: An AEM project is required to setup supporting configuration and content requirements to allow AEM SPA Editor to author a Remote SPA.
+description: An AEM project is required to setup-supporting configuration and content requirements to allow AEM SPA Editor to author a Remote SPA.
 topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
 role: Developer, Architect
@@ -44,12 +44,12 @@ $ mv ~/Code/wknd-app/wknd-app ~/Code/wknd-app/com.adobe.aem.guides.wknd-app
 
 _The last command simply renames the AEM project folder so it is clear it's the AEM project, and not to be confused with Remote SPA__
 
-While `frontendModule="react"` is specified, the `ui.frontend` project is not used for the Remote SPA use case. The SPA is developed and managed externally to AEM and only uses AEM as a content API. The `frontendModule="react"` flag is required for the project include the  `spa-project` AEM Java™ dependencies and setup the Remote SPA Page Templates.
+While `frontendModule="react"` is specified, the `ui.frontend` project is not used for the Remote SPA use case. The SPA is developed and managed externally to AEM and only uses AEM as a content API. The `frontendModule="react"` flag is required for the project include the  `spa-project` AEM Java™ dependencies and set up the Remote SPA Page Templates.
 
 The AEM Project Archetype generates the following elements that used to configure AEM for integration with the SPA.
 
-+ __AEM WCM Core Components proxies__ at `ui.content/src/.../apps/wknd-app/components`
-+ __AEM SPA Remote Page proxy__ at `ui.content/src/.../apps/wknd-app/components/remotepage`
++ __AEM WCM Core Components proxies__ at `ui.apps/src/.../apps/wknd-app/components`
++ __AEM SPA Remote Page proxy__ at `ui.apps/src/.../apps/wknd-app/components/remotepage`
 + __AEM Page Templates__ at `ui.content/src/.../conf/wknd-app/settings/wcm/templates`
 + __Subproject to define content mappings__ at `ui.content/src/...`
 + __Baseline Remote SPA AEM pages__ at `ui.content/src/.../content/wknd-app`
@@ -59,7 +59,7 @@ With the base AEM project is generated, a few adjustments ensure SPA Editor comp
 
 ## Remove ui.frontend project
 
-Since the SPA is a Remote SPA, assume it's developed and managed outside of the AEM project. To avoid conflicts, remove the `ui.frontend` project from deploying. If the `ui.frontend` project is not removed, two SPAs, the default SPA provided in the `ui.frontend` project and the Remote SPA, will be loaded at the same time in the AEM SPA Editor.
+Since the SPA is a Remote SPA, assume it's developed and managed outside of the AEM project. To avoid conflicts, remove the `ui.frontend` project from deploying. If the `ui.frontend` project is not removed, two SPAs, the default SPA provided in the `ui.frontend` project and the Remote SPA, is loaded at the same time in the AEM SPA Editor.
 
 1. Open the AEM project (`~/Code/wknd-app/com.adobe.aem.guides.wknd-app`) in your IDE
 1. Open the root `pom.xml`
@@ -119,8 +119,9 @@ The importance of this configuration is explored later.
 The mapping can be done with [Sling Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html#root-level-mappings-1) defined in `/etc/map`.
 
 1. In the IDE, open the `ui.content` subproject
-1. Navigate to  `src/main/content/jcr_root/etc`
-1. Create a folder `map`
+1. Navigate to  `src/main/content/jcr_root`
+1. Create a folder `etc`
+1. In `etc`, create a folder `map`
 1. In `map`, create a folder `http`
 1. In `http`, create a file `.content.xml` with the contents:
 
@@ -188,11 +189,11 @@ The `filter.xml` file should look like:
 
 Now, when the AEM project is deployed, these configurations are automatically included.
 
-The Sling Mapping effects AEM running on `http` and `localhost`, so only support local development. When deploying to AEM as a Cloud Service, similar Sling Mappings must be added that target `https` and the appropriate AEM as a Cloud Service domains. For more information, see the [Sling Mapping documentation](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html).
+The Sling Mapping effects AEM running on `http` and `localhost`, so only support local development. When deploying to AEM as a Cloud Service, similar Sling Mappings must be added that target `https` and the appropriate AEM as a Cloud Service domain/s. For more information, see the [Sling Mapping documentation](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html).
 
 ## Cross-Origin Resource Sharing security policies
 
-Next, configure AEM to protect the content so only this SPA can access the AEM content. C Configure [Cross-Origin Resource Sharing in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/develop-for-cross-origin-resource-sharing.html).
+Next, configure AEM to protect the content so only this SPA can access the AEM content. Configure [Cross-Origin Resource Sharing in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/develop-for-cross-origin-resource-sharing.html).
 
 1. In your IDE, open the `ui.config` Maven subproject
 1. Navigate `src/main/content/jcr_root/apps/wknd-app/osgiconfig/config`
@@ -228,7 +229,7 @@ Next, configure AEM to protect the content so only this SPA can access the AEM c
             "Content-Type",
             "Access-Control-Request-Method",
             "Access-Control-Request-Headers",
-            "Authorization"
+            "authorization"
         ]
     }
     ```
@@ -293,7 +294,7 @@ These changes allow this page, which acts are the SPA's root in AEM, to load the
 
 >[!NOTE]
 >
->If this project was previously to AEM, make sure to delete the AEM page as __Sites > WKND App > us > en > WKND App Home Page__, as the `ui.content`  project is set to __merge__ nodes, rather than __update__.
+>If this project was previously deployed to AEM, make sure to delete the AEM page as __Sites > WKND App > us > en > WKND App Home Page__, as the `ui.content`  project is set to __merge__ nodes, rather than __update__.
 
 This page could also be removed and re-created as a Remote SPA Page in AEM itself, however since this page is auto-created in the `ui.content` project it is best to update it in the code base.
 

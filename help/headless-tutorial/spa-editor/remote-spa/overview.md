@@ -37,13 +37,13 @@ The tutorial is designed to work with **AEM as a Cloud Service** and is composed
 This tutorial requires the following:
 
 + [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en)
-+ [Node.js v14+](https://nodejs.org/en/)
-+ [npm v7+](https://www.npmjs.com/)
++ [Node.js v16+](https://nodejs.org/en/)
++ [npm v8+](https://www.npmjs.com/)
 + [Java™ 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 + [Maven 3.6+](https://maven.apache.org/)
 + [Git](https://git-scm.com/downloads)
-+ [aem-guides-wknd.all.0.3.0.zip or greater](https://github.com/adobe/aem-guides-wknd/releases)
-+ [aem-guides-wknd-graphql source code](https://github.com/adobe/aem-guides-wknd-graphql)
++ [aem-guides-wknd.all-2.1.0.zip or greater](https://github.com/adobe/aem-guides-wknd/releases)
++ [aem-guides-wknd-graphql source code (branch: feature/spa-editor)](https://github.com/adobe/aem-guides-wknd-graphql/tree/feature/spa-editor)
 
 This tutorial assumes:
 
@@ -60,7 +60,7 @@ This tutorial assumes:
 
 ## Quick setup
 
-Quick Setup gets you up and running with the WKND App SPA and AEM SPA Editor in 15 minutes. This accelerated setup takes you directly to the end-state of the tutorial, allowing you to explore authoring the SPA in AEM SPA Editor.
+Quick Setup gets you up and running with the WKND App SPA and AEM SPA Editor in 15 minutes. This accelerated setup takes you directly to the end state of the tutorial, allowing you to explore authoring the SPA in AEM SPA Editor.
 
 + [Learn about quick setup](./quick-setup.md)
 
@@ -96,6 +96,6 @@ Lastly, use the concepts explained in previous chapters to dynamic routes; route
 
 ## Additional resources
 
-+ [Editing an External SPA within AEM Docs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html)
++ [Editing an External SPA within AEM Docs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editing-external-spa.html)
 + [AEM WCM Components - React Core implementation](https://www.npmjs.com/package/@adobe/aem-core-components-react-base)
 + [AEM WCM Components - Spa editor - React Core implementation](https://www.npmjs.com/package/@adobe/aem-core-components-react-spa)

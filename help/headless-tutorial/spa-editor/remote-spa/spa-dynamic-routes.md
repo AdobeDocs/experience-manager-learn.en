@@ -23,7 +23,7 @@ In the previous two chapters, we mapped editable component content from the SPA'
 
 Defining mapping for editable components for the SPA's dynamic routes is similar however we must come up 1:1 mapping scheme between instances of the route and AEM pages.
 
-In this tutorial, we'll take the name of the WKND Adventure Content Fragment, which is the last segment of the path, and map it to a simple path under `/content/wknd-app/us/en/adventure`.
+In this tutorial, we take the name of the WKND Adventure Content Fragment, which is the last segment of the path, and map it to a simple path under `/content/wknd-app/us/en/adventure`.
 
 | Remote SPA route | AEM page path |
 |------------------------------------|--------------------------------------------|
@@ -74,7 +74,7 @@ Then, create the AEM pages that correspond to each of the SPA's URLs that requir
     + __Name__: `beervana-in-portland`
         + This value defines the AEM page's URL, and therefore must match the SPA' route's last segment
 
-These two AEM pages hold the respective authored content for their matching SPA routes. If other SPA routes require authoring, new AEM Pages must be created at their SPA's URL under the Remote SPA page's root page (`/content/wknd-app/us/en/home`) in AEM.
+These two AEM pages hold the respective-authored content for their matching SPA routes. If other SPA routes require authoring, new AEM Pages must be created at their SPA's URL under the Remote SPA page's root page (`/content/wknd-app/us/en/home`) in AEM.
 
 ## Update the WKND App 
 
@@ -90,7 +90,7 @@ Placing the `<AEMResponsiveGrid...>` in the `AdventureDetail` component creates 
     ```
     ...
     // Get the last segment of the Adventure Content Fragment path to used to generate the pagePath for the AEMResponsiveGrid
-    const adventureName = adventureData._path.split('/').pop();
+    const adventureName = _path.split('/').pop();
     ...
     ```
 
@@ -113,7 +113,7 @@ import AEMResponsiveGrid from '../components/aem/AEMResponsiveGrid';
 function AdventureDetail(props) {
     ...
     // Get the last segment of the Adventure Content Fragment path to used to generate the pagePath for the AEMResponsiveGrid
-    const adventureName = adventureData._path.split('/').pop();
+    const adventureName = _path.split('/').pop();
 
     return(
         ...
@@ -158,7 +158,7 @@ With the `<AEMResponsiveGrid...>` in place, and its `pagePath` dynamically set b
 
    ![Remote SPA Bali](./assets/spa-dynamic-routes/remote-spa-final.png) 
 
-When navigating to an adventure detail route that does not have a mapped AEM Page, there will be no authoring ability on that route instance. To enable authoring on these pages, simply make an AEM Page with the matching name under the __Adventure__ page!
+When navigating to an adventure detail route that does not have a mapped AEM Page, there is no authoring ability on that route instance. To enable authoring on these pages, simply make an AEM Page with the matching name under the __Adventure__ page!
 
 ## Congratulations!
 

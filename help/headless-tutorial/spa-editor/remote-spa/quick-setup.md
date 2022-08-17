@@ -24,15 +24,15 @@ _A video walk-through of the quick setup_
 This tutorial requires the following:
 
 + [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en)
-+ [Node.js v14+](https://nodejs.org/en/)
-+ [npm v7+](https://www.npmjs.com/)
++ [Node.js v16+](https://nodejs.org/en/)
++ [npm v8+](https://www.npmjs.com/)
 + [Java™ 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 + [Maven 3.6+](https://maven.apache.org/)
 + [Git](https://git-scm.com/downloads)
 + macOS only prerequisites
-    + [Xcode](https://developer.apple.com/xcode/) or [Xcode command line tools](https://developer.apple.com/xcode/resources/)
-+ [aem-guides-wknd.all.0.3.0.zip or greater](https://github.com/adobe/aem-guides-wknd/releases)
-+ [aem-guides-wknd-graphql source code](https://github.com/adobe/aem-guides-wknd-graphql)
+    + [Xcode](https://developer.apple.com/xcode/) or [Xcode command-line tools](https://developer.apple.com/xcode/resources/)
++ [aem-guides-wknd.all-2.1.0.zip or greater](https://github.com/adobe/aem-guides-wknd/releases)
++ [aem-guides-wknd-graphql source code (branch: feature/spa-editor)](https://github.com/adobe/aem-guides-wknd-graphql/tree/feature/spa-editor)
 
 
 This tutorial assumes:
@@ -57,14 +57,14 @@ Download and install the AEM SDK Quickstart on port 4502, with default `admin/ad
    # Provide `admin` as the admin user's password
    ```
 
-AEM SDK will start and automatically launch on [http://localhost:4502](http://localhost:4502). Log in using the following credentials:
+AEM SDK starts and automatically launches on [http://localhost:4502](http://localhost:4502). Log in using the following credentials:
 
 + Username: `admin`
 + Password: `admin`
 
 ## Download and install WKND Site package
 
-This tutorial has a dependency on __WKND 0.3.0+'s__ project (for content).
+This tutorial has a dependency on __WKND 2.1.0+'s__ project (for content).
 
 1. [Download the latest version of `aem-guides-wknd.all.x.x.x.zip`](https://github.com/adobe/aem-guides-wknd/releases)
 1. Log in to AEM SDK's Package Manager at [http://localhost:4502/crx/packmgr](http://localhost:4502/crx/packmgr) with the `admin` credentials.
@@ -73,10 +73,10 @@ This tutorial has a dependency on __WKND 0.3.0+'s__ project (for content).
 
 ## Download and install WKND App SPA packages
 
-To perform a quick setup, AEM packages are provided that contain the tutorial's final  AEM configuration and content.
+To perform a quick setup, AEM packages are provided here that contain the tutorial's final  AEM configuration and content.
 
 1. [Download `wknd-app.all.x.x.x.zip`](./assets/quick-setup/wknd-app.all-1.0.0-SNAPSHOT.zip)
-1. [Download `wknd-app.ui.content.sample.x.x.x.zip`](./assets/quick-setup/wknd-app.ui.content.sample-1.0.0.zip)
+1. [Download `wknd-app.ui.content.sample.x.x.x.zip`](./assets/quick-setup/wknd-app.ui.content.sample-1.0.1.zip)
 1. Log in to AEM SDK's Package Manager at [http://localhost:4502/crx/packmgr](http://localhost:4502/crx/packmgr) with the `admin` credentials.
 1. __Upload__ the `wknd-app.all.x.x.x.zip` downloaded in step 1
 1. Tap the __Install__ button for the entry `wknd-app.all.x.x.x.zip`

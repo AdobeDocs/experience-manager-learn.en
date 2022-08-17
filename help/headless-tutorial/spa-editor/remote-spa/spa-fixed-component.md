@@ -19,7 +19,7 @@ In this chapter, we replace the Home view's title, "Current Adventures", which i
 
 ## Update the WKND App 
 
-To add a Fixed a component to the Home view:
+To add a __Fixed__ component to the Home view:
 
 + Import the AEM React Core Component Title component and register it to the project's Title's resource type
 + Place the editable Title component on the SPA's Home view
@@ -74,8 +74,8 @@ The `AEMTitle.js` file should look like:
 
 Now that the AEM React Core Component's Title component is registered in and available for use within the React app, replace the hard-coded title text on the Home view.
 
-1. Edit `react-app/src/App.js`
-1. in the `Home()` at the bottom, replace the hard-coded title with the new `AEMTitle` component:
+1. Edit `react-app/src/Home.js`
+1. In the `Home()` at the bottom, replace the hard-coded title with the new `AEMTitle` component:
      
     ```
     <h2>Current Adventures</h2>
@@ -89,11 +89,11 @@ Now that the AEM React Core Component's Title component is registered in and ava
         itemPath='root/title'/>
     ```
 
-    Update `Apps.js` with the following code:
+    Update `Home.js` with the following code:
 
     ```
     ...
-    import { AEMTitle } from './components/aem/AEMTitle';
+    import { AEMTitle } from './aem/AEMTitle';
     ...
     function Home() {
         return (
@@ -109,16 +109,16 @@ Now that the AEM React Core Component's Title component is registered in and ava
     }
     ```
 
-The `Apps.js` file should look like:
+The `Home.js` file should look like:
 
-![App.js](./assets/spa-fixed-component/app-js.png)
+![Home.js](./assets/spa-fixed-component/home-js.png)
 
 ## Author the Title component in AEM
 
 1. Log in to AEM Author
 1. Navigate to __Sites > WKND App__
 1. Tap __Home__ and select __Edit__ from the top action bar
-1. Select __Edit__ from the edit mode selector in the top-right of the Page Editor
+1. Select __Edit__ from the edit mode selector in the top right of the Page Editor
 1. Hover over the default title text below the WKND logo and above the adventures list, until the blue edit outline displays
 1. Tap to expose the component's action bar, and then tap the __wrench__  to edit
 
