@@ -68,14 +68,6 @@ index: y
     + [4 - Navigation and routing](./spa-editor/react/navigation-routing.md)
     + [5 - Custom component](./spa-editor/react/custom-component.md)
     + [6 - Extend component](./spa-editor/react/extend-component.md)
-  + Angular{#angular}
-    + [Overview](./spa-editor/angular/overview.md)
-    + [1 - SPA Editor Project](./spa-editor/angular/create-project.md)
-    + [2 - Integrate the SPA](./spa-editor/angular/integrate-spa.md)
-    + [3 - Map SPA components](./spa-editor/angular/map-components.md)
-    + [4 - Navigation and routing](./spa-editor/angular/navigation-routing.md)
-    + [5 - Custom component](./spa-editor/angular/custom-component.md)
-    + [6 - Extend component](./spa-editor/angular/extend-component.md)
   + Remote SPA{#remote-spa}
     + [Overview](./spa-editor/remote-spa/overview.md)
     + [Quick Setup](./spa-editor/remote-spa/quick-setup.md)

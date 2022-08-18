@@ -87,11 +87,11 @@ Example applications are a great way to explore the headless capabilities of Ado
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/example-apps/android-app.html">
-    <strong>Android™ Example</strong>
+    <strong>Android&trade; Example</strong>
     </a>
     </div>
     <p>
-    <em>An Android™ application powered by AEM's GraphQL APIs.</em>
+    <em>An Android&trade; application powered by AEM's GraphQL APIs.</em>
     </p>
   </td>
   <td>
@@ -156,23 +156,10 @@ Browse the following tutorials based on the technology used. Learn how AEM can g
     <p>
   </td>
 </tr>
-<tr>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/angular/overview.html">
-      <img alt="React - Headless" src="./assets/angular-spa-editor.png" />
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/angular/overview.html">
-    <strong>Angular - SPA Editor</strong>
-    </a>
-    </div>
-    <p>
-    <em>Use the AEM SPA editor to manage the complete Angular app experience.</em>
-    <p>
-  </td>
+<tr>  
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/content-services/overview.html">
-    <img alt="Angular - Content Services" src="./assets/android.png" />
+    <img alt="Andriod - Content Services" src="./assets/android.png" />
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/content-services/overview.html">
@@ -180,7 +167,7 @@ Browse the following tutorials based on the technology used. Learn how AEM can g
     </a>
     </div>
     <p>
-    <em>Use Content Services and REST to power a mobile Android™ application.</em>
+    <em>Use Content Services and REST to power a mobile Android&trade; application.</em>
     </p>
   </td>
   <td>
@@ -196,5 +183,6 @@ Browse the following tutorials based on the technology used. Learn how AEM can g
     <em>Build a Node.js app using developer and service tokens to authenticate.</em>
     <p>
   </td>
+  <td></td>
 </tr>
 </table>

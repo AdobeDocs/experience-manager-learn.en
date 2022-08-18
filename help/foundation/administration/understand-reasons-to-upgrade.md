@@ -483,7 +483,7 @@ Below is a matrix of key Sites features offered by AEM. Some of these features w
         </tr>
         <tr>
             <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/spa-overview.html" target="_blank">SPA Editor</a>:</strong>
-            Create authorable, enaging web experiences using Single-Page Application (SPA) frameworks built on React or     Angular.</td>
+            Create authorable, enaging web experiences using Single-Page Application (SPA) frameworks built on React.</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
