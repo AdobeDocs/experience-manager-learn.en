@@ -14,7 +14,7 @@ mini-toc-levels: 2
 # AEM Headless SPA deployments
 
 
-AEM Headless single-page app (SPA) deployments involve JavaScript-based applications built using frameworks such as React, Vue or Angular, that consume and interact with content in AEM in a headless manner.
+AEM Headless single-page app (SPA) deployments involve JavaScript-based applications built using frameworks such as React or Vue, that consume and interact with content in AEM in a headless manner.
 
 Deploying a SPA that interacts AEM in a headless manner involves hosting the SPA and making it accessible via a web browser.
 

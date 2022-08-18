@@ -16,7 +16,6 @@ index: y
 + Multistep Tutorials {#multi}
   + [Getting Started with AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-react-tutorial/overview.html)
-  + [Getting Started with AEM SPA Editor and Angular](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-angular-tutorial/overview.html)
   + [Getting Started with AEM and Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-target-tutorial/overview.html)
   + [AEM 6.x Dynamic Media Classic Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
   + [AEM 6.x Dispatcher Cache Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/dispatcher-tutorial/overview.html)

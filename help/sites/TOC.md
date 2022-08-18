@@ -45,7 +45,6 @@ feature-set: Experience Manager Sites, Experience Manager
   + [Getting Started with AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Getting Started with AEM Headless](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html)
   + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html)
-  + [Getting Started with AEM SPA Editor and Angular](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/angular/overview.html)
   + [Extending Page Properties](developing/page-properties-technical-video-develop.md)
   + [Developing with the Style System](developing/style-system-technical-video-understand.md)
   + [Style System Best Practices](developing/style-organization-style-system-understand-article.md)
@@ -62,9 +61,7 @@ feature-set: Experience Manager Sites, Experience Manager
   + [Sitemaps](./seo/sitemaps.md)
 + Single Page Applications {#spa-editor}
   + [Using the SPA Editor](spa-editor/spa-editor-framework-feature-video-use.md)
-  + [Hello World Tutorial](spa-editor/spa-editor-helloworld-tutorial-use.md)
   + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html)
-  + [Getting Started with AEM SPA Editor and Angular](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/angular/overview.html)
 + Multi Site Management {#multi-site-management}
   + [Introduction to Language Copy](./multi-site-management/language-copy-overview.md)
   + [Live Copy and Blueprint](./multi-site-management/live-copy-and-blueprint.md)
