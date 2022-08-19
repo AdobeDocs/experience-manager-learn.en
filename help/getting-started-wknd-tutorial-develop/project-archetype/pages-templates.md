@@ -87,7 +87,7 @@ Next, create a new template in AEM that matches the structure of the mockups. Th
 
 >[!VIDEO](https://video.tv.adobe.com/v/330991/?quality=12&learn=on)
 
-High level steps for the video below:
+High level steps for the video above:
 
 ### Structure configurations
 
@@ -155,7 +155,7 @@ The AEM Project Archetype generated a Header and Footer. Next, update the Experi
 
 >[!VIDEO](https://video.tv.adobe.com/v/330992/?quality=12&learn=on)
 
-High level steps for the video below:
+High level steps for the video above:
 
 1. Download the sample content package **[WKND-PagesTemplates-Content-Assets.zip](assets/pages-templates/WKND-PagesTemplates-Content-Assets-1.1.zip)**.
 1. Upload and install the content package using Package Manager at [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp)
@@ -201,7 +201,7 @@ Next, create a new page using the Article Page template. Author the content of t
 
 >[!VIDEO](https://video.tv.adobe.com/v/330993/?quality=12&learn=on)
 
-High level steps for the video below:
+High level steps for the video above:
 
 1. Navigate to the Sites console at [http://localhost:4502/sites.html/content/wknd/us/en/magazine](http://localhost:4502/sites.html/content/wknd/us/en/magazine).
 1. Create a new page beneath **WKND** > **US** > **EN** > **Magazine**.
