@@ -200,7 +200,7 @@ The AEM Project Archetype automatically sets up this integration. Next, explore 
     http://admin:admin@localhost:4502 > OK
     ```
 
-1. The command `npm run watch` ultimately populates the **clientlib-site** and **clientlib-dependencies** in the **ui.apps** module wich is then synced automatically with AEM.
+1. The command `npm run watch` ultimately populates the **clientlib-site** and **clientlib-dependencies** in the **ui.apps** module which is then synced automatically with AEM.
 
     >[!NOTE]
     >
@@ -327,7 +327,7 @@ View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or 
 
 ### Webpack DevServer - Static Markup {#webpack-dev-static}
 
-In the previous couple of exercises we were able to update several Sass files in the **ui.frontend** module and through a build process, ultimately see these changes reflected in AEM. Next we will look at a techniques that leverage a [webpack-dev-server](https://webpack.js.org/configuration/dev-server/) to rapidly develop our front-end styles against **static** HTML.
+In the previous couple of exercises we were able to update several Sass files in the **ui.frontend** module and through a build process, ultimately see these changes reflected in AEM. Next we will look at a technique that leverages a [webpack-dev-server](https://webpack.js.org/configuration/dev-server/) to rapidly develop our front-end styles against **static** HTML.
 
 This technique is handy if the majority of the styles and front-end code will be performed by a dedicated Front End developer who may not have easy access to an AEM environment. This technique also allows the FED to make modifications directly to the HTML, which can then be handed off to an AEM developer to implement as components.
 
@@ -383,9 +383,9 @@ This technique is handy if the majority of the styles and front-end code will be
 
 [**aemfed**](https://aemfed.io/) is an open-source,  command-line  tool that can be used to speed up front-end development. It is powered by  [aemsync](https://www.npmjs.com/package/aemsync), [Browsersync](https://www.npmjs.com/package/browser-sync) and [Sling Log Tracer](https://sling.apache.org/documentation/bundles/log-tracers.html).
 
-At a high level **aemfed** is designed to listen to file changes within the **ui.apps** module and automatically syncs them directly to a running AEM instance. Based on the changes, a local browser will automatically refresh, thereby speeding up front-end development. It also is built to work with Sling Log tracer to automatically display any server-side errors directly in the terminal.
+At a high level **aemfed** is designed to listen to file changes within the **ui.apps** module and automatically sync them directly to a running AEM instance. Based on the changes, a local browser will automatically refresh, thereby speeding up front-end development. It also is built to work with Sling Log tracer to automatically display any server-side errors directly in the terminal.
 
-If you are doing a lot of work within the **ui.apps** module, modifying HTL scripts and creating custom components, **aemfed** can be a very powerful tool to use. [Full documentation can be found here.](https://github.com/abmaonline/aemfed).
+If you are doing a lot of work within the **ui.apps** module, modifying HTL scripts and creating custom components, **aemfed** can be a very powerful tool to use. [Full documentation can be found here](https://github.com/abmaonline/aemfed).
 
 ### Debugging Client-side Libraries {#debugging-clientlibs}
 
