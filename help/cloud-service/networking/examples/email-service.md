@@ -19,12 +19,14 @@ Because (most) mail services do not run over HTTP/HTTPS, connections to mail ser
 + `smtp.host` is set to the OSGi environment variable `$[env:AEM_PROXY_HOST;default=proxy.tunnel]` so it is routed through the egress.
   + `$[env:AEM_PROXY_HOST]` is a reserved variable that AEM as a Cloud Service maps to the internal `proxy.tunnel` host.
   + Do NOT attempt to set the `AEM_PROXY_HOST` via Cloud Manager.
-+ `smtp.port` is set to the `portForward.portOrig` port that maps to the destination email service's host and port. This example uses the mapping: `AEM_PROXY_HOST:30002` &rarr; `smtp.sendgrid.com:465`.
++ `smtp.port` is set to the `portForward.portOrig` port that maps to the destination email service's host and port. This example uses the mapping: `AEM_PROXY_HOST:30465` &rarr; `smtp.sendgrid.com:465`.
   + The `smpt.port` is set to the `portForward.portOrig` port, and NOT the SMTP server's actual port. The mapping between the `smtp.port` and the `portForward.portOrig` port is established by the Cloud Manager `portForwards` rule (as demonstrated below). 
 
 Since secrets must not be stored in code, the email service's username and password are best provided using [secret OSGi configuration variables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#secret-configuration-values), set using AIO CLI, or the Cloud Manager API.
 
 Typically, [flexible port egress](../flexible-port-egress.md) is used to satisfy integrating with an email service unless it is necessary to `allowlist` the Adobe IP, in which case [dedicated egress ip address](../dedicated-egress-ip-address.md) can be used.
+
+Additionaly, review AEM documentation on [sending e-mail](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines.html#sending-email).
 
 ## Advanced networking support
 
@@ -45,7 +47,7 @@ This OSGi configuration example configures AEM's Mail OSGi Service to use an ext
 "portForwards": [{
     "name": "smtp.mymail.com",
     "portDest": 465,
-    "portOrig": 30002
+    "portOrig": 30465
 }]
 ...
 ```
@@ -57,7 +59,7 @@ Configure AEM's [DefaulMailService](https://experienceleague.adobe.com/docs/expe
 ```json
 {
     "smtp.host": "$[env:AEM_PROXY_HOST;default=proxy.tunnel]",
-    "smtp.port": "30002",
+    "smtp.port": "30465",
     "smtp.user": "$[env:EMAIL_USERNAME;default=myApiKey]",
     "smtp.password": "$[secret:EMAIL_PASSWORD]",
     "from.address": "noreply@wknd.site",
