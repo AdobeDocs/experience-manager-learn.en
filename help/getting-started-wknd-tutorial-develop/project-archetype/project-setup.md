@@ -250,7 +250,7 @@ The **[core](https://experienceleague.adobe.com/docs/experience-manager-core-com
 
 The **[ui.apps](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uiapps.html)** maven module contains all of the rendering code needed for the site beneath `/apps`. This includes CSS/JS that will be stored in an AEM format called [clientlibs](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html). This also includes [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) scripts for rendering dynamic HTML. You can think of the **ui.apps** module as a map to the structure in the JCR but in a format that can be stored on a file system and committed to source control. The **ui.apps** module only contains code.
 
-To build the just this module:
+To build just this module:
 
 1. From the command line. Navigate into the `ui.apps` folder (beneath `aem-guides-wknd`):
 
