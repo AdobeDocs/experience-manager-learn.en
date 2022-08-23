@@ -1,7 +1,7 @@
 ---
 title: Develop for Cross-Origin Resource Sharing (CORS) with AEM
 description: A short example of leveraging CORS to access AEM content from an external web application via client-side JavaScript.
-version: 6,4, 6.5
+version: 6.4, 6.5
 topic: Security, Development
 role: Developer
 level: Beginner
