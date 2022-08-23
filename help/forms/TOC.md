@@ -49,6 +49,7 @@ index: y
   + [Custom Functions in Rule Editor](adaptive-forms/custom-functions-aem-forms.md)
   + [Embedding Adaptive Form in web page](adaptive-forms/embed-af-web-page.md)
   + [Creating array of strings](adaptive-forms/converting-comma-seperated-string-to-array.md)
+  + [Item Load Path in AEM Forms](adaptive-forms/using-item-load-path.md)
   + [Using Set Value in XML  in OSGI Workflow](adaptive-forms/setvalue-aem-forms-workflow-tutorial-use.md)
   + [Using Set Value in JSON in OSGI Workflow](adaptive-forms/setvalue-json-data-in-aem-forms-workflow-article-use.md)
   + [Send Email Component in AEM Forms Workflow](adaptive-forms/email-step-aem-workflow-video-use.md)
