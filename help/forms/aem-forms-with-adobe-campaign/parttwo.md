@@ -2,7 +2,7 @@
 title: Creating Campaign Profile on Adaptive Form Submission
 description: This article will explain the steps needed to create a profile in Adobe Campaign Standard on an Adaptive Form submission. This process makes use of custom submit mechanism to handle the Adaptive Form submission.
 feature: Adaptive Forms, Form Data Model
-version: 6.3,6.4,6.5
+version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced

@@ -1,7 +1,7 @@
 ---
 title: Understand Authentication support in AEM
 description: A consolidated view into the authentication (and occasionally authorization) mechanisms supported by AEM.
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 feature: User and Groups
 topics: authentication, security
 activity: understand

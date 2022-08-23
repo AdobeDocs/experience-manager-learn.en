@@ -4,7 +4,7 @@ description: Learn the similarities and differences between Content Fragments an
 sub-product: assets, sites, content services
 feature: Content Fragments, Experience Fragments
 topics: headless
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 doc-type: article
 activity: understand
 audience: all
@@ -37,7 +37,7 @@ exl-id: ccbc68d1-a83e-4092-9a49-53c56c14483e
 <li>Content-centric</li>
 <li>Defined by a <a href="https://experienceleague.adobe.com/docs/experience-manager-65/assets/fragments/content-fragments-models.html?lang=en" target="_blank">structured, form-based, data model.</a></li>
 <li>Design and layout agnostic.</li>
-<li>The channel owns the presentation of the Content Fragment’s content (layout and design)</li>
+<li>The channel owns the presentation of the Content Fragment's content (layout and design)</li>
 </ul>
 </td>
 <td><ul>

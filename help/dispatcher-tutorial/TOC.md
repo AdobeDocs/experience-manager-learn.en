@@ -1,7 +1,7 @@
 ---
 user-guide-title: AEM Dispatcher Cache Tutorial
 user-guide-description: A tutorial that helps you better understand how the Dispatcher works and how you can work with it.
-version: 6.x
+version: 6.4, 6.5
 sub-product: foundation
 doc-type: tutorial
 audience: architect, developer, implementer

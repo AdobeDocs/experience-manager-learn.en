@@ -2,7 +2,7 @@
 title: Generating JSON Web Token and Access Token
 description: This article explains the code needed to generate JWT and Access Token needed for making REST calls to Adobe Campaign Standard
 feature: Adaptive Forms, Form Data Model
-version: 6.3,6.4,6.5
+version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced

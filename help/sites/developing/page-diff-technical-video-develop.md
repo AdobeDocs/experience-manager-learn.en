@@ -6,7 +6,7 @@ topics: development
 audience: developer
 doc-type: technical video
 activity: develop
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Development
 role: Developer
 level: Beginner

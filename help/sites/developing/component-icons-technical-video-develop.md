@@ -5,7 +5,7 @@ topics: components
 audience: administrator, developer
 doc-type: technical video
 activity: develop
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 feature: Core Components
 topic: Development
 role: User

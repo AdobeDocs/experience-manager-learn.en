@@ -1,7 +1,7 @@
 ---
 title: Develop Projects in AEM
 description: A development tutorial illustrating how to develop for AEM Projects.  In this tutorial we will create a custom Project template that can be used to create new Projects within AEM for managing content authoring workflows and tasks.
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 feature: Projects, Workflow
 topics: collaboration, development, governance
 activity: develop

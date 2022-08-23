@@ -6,7 +6,7 @@ topics: localization, authoring, content-architecture
 audience: all
 doc-type: feature video
 activity: use
-version:  6.3, 6.4, 6.5, Cloud Service
+version: 6.4, 6.5, Cloud Service
 kt: 5372
 thumbnail: 36678.jpg
 topic: Localization

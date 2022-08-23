@@ -1,7 +1,7 @@
 ---
 title: Using Smart Translation Search with AEM Assets
 description: Smart Translation Search enables cross-language search and discovery automatically across AEM content, both Assets and Pages, supporting more than 50 languages and reducing the need for manual content translation.
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 feature: Search
 topic: Content Management
 role: User

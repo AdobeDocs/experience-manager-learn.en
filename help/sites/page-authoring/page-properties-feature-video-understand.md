@@ -1,7 +1,7 @@
 ---
 title: Understanding Page Properties in AEM Sites
 description: The following video introduces the page properties metadata associated with a page in Adobe Experience Manager.
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Content Management
 feature: Page Editor
 role: User

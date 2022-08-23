@@ -2,7 +2,7 @@
 title: Using Microsoft Dynamics with AEM Forms
 description: This video walks through a workflow showing how AEM Forms can work with Microsoft Dynamics as a back-end data source to deliver interactive, personalized communications.
 feature: Adaptive Forms
-version: 6.3,6.4,6.5
+version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate

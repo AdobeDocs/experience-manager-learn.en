@@ -3,7 +3,7 @@ title: Using Custom Video Thumbnail with AEM Dynamic Media
 description: AEM Assets custom video thumbnails provide authors with the ability to select an appropriate thumbnail from a set of generated thumbnails. The number of thumbnails generated for a video can be easily customized.
 sub-product: dynamic-media
 feature: Video Profiles
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner

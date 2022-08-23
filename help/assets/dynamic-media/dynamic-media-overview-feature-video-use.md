@@ -3,7 +3,7 @@ title: Overview of Dynamic Media with AEM Assets
 description: This Video series gives you an overview of how media content is managed and accessed using Adobe Experience Manager Dynamic Media as a content serving service. Dynamic Media lets you manage and publish dynamic digital experiences — a feature unique to Experience Manager Assets. Our framework and suite of components allow marketers to customize and deliver interactive, multimedia experiences across all devices.
 sub-product: dynamic-media
 feature: Smart Crop, Video Profiles, Image Profiles, Viewer Presets, 360 VR Video, Image Sets, Spin Sets
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
@@ -73,7 +73,7 @@ This video describes how Image Presets are created and what is an image preset, 
 
 >[!VIDEO](https://video.tv.adobe.com/v/27319/?quality=9&learn=on)
 
-This video describes going beyond resizing images to take advantage of features of the source file itself- background transparency, built in clipping paths and crops and text as variables- with Dynamic Media’s URL modifiers.
+This video describes going beyond resizing images to take advantage of features of the source file itself- background transparency, built in clipping paths and crops and text as variables- with Dynamic Media's URL modifiers.
 
 * Using URL modifiers in Dynamic Media Modifier field
 * Changing background color on images with transparency

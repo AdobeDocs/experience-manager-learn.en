@@ -6,7 +6,7 @@ topics: localization, authoring, content-architecture
 audience: all
 doc-type: feature video
 activity: use
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Localization
 role: User
 level: Beginner

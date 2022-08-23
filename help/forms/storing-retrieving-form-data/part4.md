@@ -3,7 +3,7 @@ title: Storing and Retrieving Form Data from MySQL Database - Create client libr
 description: Multi-Part tutorial to walk you through the steps involved in storing and retrieving form data
 feature: Adaptive Forms
 type: Tutorial
-version: 6.3,6.4,6.5
+version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced

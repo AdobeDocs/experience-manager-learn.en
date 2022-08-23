@@ -6,7 +6,7 @@ topics: integrations
 audience: developer, implementer
 doc-type: technical video
 activity: setup
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Content Management
 role: Developer
 level: Intermediate

@@ -5,7 +5,7 @@ topic: Content Management
 feature: Launches
 level: Intermediate, Experienced
 role: Admin
-version:  6.3, 6.4, 6.5, Cloud Service
+version: 6.4, 6.5, Cloud Service
 kt: 6970
 thumbnail: 331285.jpg
 exl-id: 7e5ba3f5-e755-452a-8e72-be7832e95a49
