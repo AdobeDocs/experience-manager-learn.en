@@ -1,7 +1,7 @@
 ---
 title: Using Search in AEM Assets
 description: In these videos, we look at some enhancements to Assets search introduced in AEM. Authors can boost certain assets in keyword search results by updating respective metadata properties. We also look at some advanced configurations for Assets OmniSearch predicates.
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 ---
 
 # Using Search in AEM Assets{#using-search-in-aem-assets}

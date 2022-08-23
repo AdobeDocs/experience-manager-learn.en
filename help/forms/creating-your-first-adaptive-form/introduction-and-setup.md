@@ -2,7 +2,7 @@
 title: Getting Started With Adaptive Forms
 description: This tutorial will walk you through the steps involved in creating multi-tabbed Adaptive Form. You will learn to use Tables, Accordion Layout, and Rule Editor to author business rules.
 feature: Adaptive Forms
-version: 6.3,6.4,6.5
+version: 6.4,6.5
 topic: Development
 role: Developer
 level: Beginner

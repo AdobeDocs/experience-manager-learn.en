@@ -2,7 +2,7 @@
 title: Using Brand Portal
 description: Video walk-throughs of the AEM Author and AEM Assets Brand Portal integration.
 feature: Brand Portal
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner

@@ -1,7 +1,7 @@
 ---
 title: Java API Best Practices in AEM
 description: AEM is built on a rich open-source software stack that exposes many Java APIs for use during development. This article explores the major APIs and when and why they should be used.
-version: 6.2, 6.3, 6.4, 6.5
+version: 6.4, 6.5
 feature: APIs
 topic: Development
 role: Developer

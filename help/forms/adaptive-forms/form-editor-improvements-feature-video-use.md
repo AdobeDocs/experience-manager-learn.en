@@ -2,7 +2,7 @@
 title: Form Editor Improvements in AEM Forms
 description: AEM 6.3 introduces several new features and enhancements in this release to simplify the authoring experience of adaptive forms and documents. The enhancements help reduce your time to market and enable business users to work with forms and documents
 feature: Adaptive Forms
-version: 6.3,6.4,6.5
+version: 6.4,6.5
 topic: Development
 role: User
 level: Beginner

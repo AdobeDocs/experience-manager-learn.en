@@ -9,7 +9,7 @@ topics: authoring
 audience: author
 doc-type: technical video
 activity: use
-version: 6.3,6.4,6.5.
+version: 6.4,6.5.
 discoiquuid: 51750b3f-1fda-43ae-b3ed-1eede83b19d5
 topic: Administration
 role: Developer

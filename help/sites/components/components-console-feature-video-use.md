@@ -4,7 +4,7 @@ description: The Components Console provides developers and admin a central loca
 topics: components
 audience: all
 doc-type: feature video
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 activity: use
 feature: Core Components
 topic: Content Management

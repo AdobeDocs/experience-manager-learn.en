@@ -3,7 +3,7 @@ title: Understanding the Asset Viewer with AEM Dynamic Media
 description: AEM Dynamic Media Viewer enhancements let AEM authors define and customize the experience assets will be presented to website users.
 sub-product: dynamic media classic
 feature: Viewer Presets, Image Profiles
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Content Management
 role: Developer
 level: Intermediate

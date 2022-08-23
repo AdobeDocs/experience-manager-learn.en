@@ -6,7 +6,7 @@ topics: development
 audience: developer
 doc-type: technical video
 activity: understand
-version:  6.3, 6.4, 6.5, Cloud Service
+version:  6.4, 6.5, Cloud Service
 kt: 4675
 thumbnail: 32550.jpg
 topic: Development

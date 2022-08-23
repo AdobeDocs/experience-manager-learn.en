@@ -2,7 +2,7 @@
 title: Customizing Annotations in AEM Assets
 description: AEM Assets format and style when output to PDF can be configued by AEM Developers.
 feature: Collaboration
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 topic: Collaboration
 role: Developer
 level: Intermediate

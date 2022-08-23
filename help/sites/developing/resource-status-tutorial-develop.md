@@ -5,7 +5,7 @@ topics: development
 audience: developer
 doc-type: tutorial
 activity: develop
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 ---
 
 # Developing Resource Statuses {#developing-resource-statuses-in-aem-sites}

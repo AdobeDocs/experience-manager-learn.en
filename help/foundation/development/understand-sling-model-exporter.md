@@ -1,7 +1,7 @@
 ---
 title: Understand Sling Model Exporter in AEM
 description: Apache Sling Models 1.3.0 introduces Sling Model Exporter, an elegant way to export or serialize Sling Model objects into custom abstractions. This article juxtaposes the traditional use-case of using Sling Models to populate HTL scripts, with leveraging the Sling Model Exporter framework to serialize a Sling Model into JSON.
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 sub-product: foundation, content-services
 feature: APIs
 topics: development, content-delivery, headless
@@ -31,7 +31,7 @@ Common patterns are developing [!DNL Sling Models] that represent AEM Components
 
    Example: `HTTP GET /content/my-resource.html`
 
-1. Based on the request resource’s `sling:resourceType`, the appropriate Script is resolved.  
+1. Based on the request resource's `sling:resourceType`, the appropriate Script is resolved.  
 
 1. The Script adapts the Request or Resource to the desired [!DNL Sling Model].  
 
@@ -51,11 +51,11 @@ The direct serialization of [!DNL Sling Models] allows them to service both norm
 
 *This flow describes the flow using the provided Jackson Exporter to produce JSON output. Use of custom exporters follow the same flow but with their output format.*
 
-1. HTTP GET Request is made for a resource in AEM with the selector and extension registered with the [!DNL Sling Model]’s Exporter.
+1. HTTP GET Request is made for a resource in AEM with the selector and extension registered with the [!DNL Sling Model]'s Exporter.
 
    Example: `HTTP GET /content/my-resource.model.json`
 
-1. Sling resolves the the requested resource’s `sling:resourceType`, selector and extension to a dynamically generated Sling Exporter Servlet, which is mapped to the [!DNL Sling Model] with Exporter.  
+1. Sling resolves the the requested resource's `sling:resourceType`, selector and extension to a dynamically generated Sling Exporter Servlet, which is mapped to the [!DNL Sling Model] with Exporter.  
 1. The resolved Sling Exporter Servlet invokes the [!DNL Sling Model Exporter] against the [!DNL Sling Model] object adapted from the request or resource (as determined by the Sling Models adaptables).
 1. The exporter serializes the [!DNL Sling Model] based on the Exporter Options and Exporter-specific Sling Model annotations and returns the result to the Sling Exporter Servlet.
 1. The Sling Exporter Servlet returns the JSON rendition of the [!DNL Sling Model] in the HTTP Response.

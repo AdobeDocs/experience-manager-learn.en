@@ -2,7 +2,7 @@
 title: Restricting the Rule Editor to specific groups in AEM Forms
 description: Restricting the adaptive form Rule Editor to specific groups in AEM
 feature: Adaptive Forms
-version: 6.3,6.4,6.5
+version: 6.4,6.5
 topic: Administration
 role: User
 level: Beginner

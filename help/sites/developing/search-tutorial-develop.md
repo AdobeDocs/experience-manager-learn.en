@@ -1,7 +1,7 @@
 ---
 title: Simple search implementation guide
 description: The Simple search implementation are the materials from the 2017 Summit lab AEM Search Demystified. This page contains the materials from this lab. For a guided tour of the lab, please view  the Lab workbook in the Presentation section of this page.
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 feature: Search
 topic: Development
 role: Developer

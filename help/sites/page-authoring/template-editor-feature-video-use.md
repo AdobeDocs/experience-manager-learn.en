@@ -8,7 +8,7 @@ topics: authoring
 audience: all
 doc-type: feature video
 activity: use
-version: 6.3, 6.4, 6.5
+version: 6.4, 6.5
 kt: 193
 topic: Content Management
 role: User

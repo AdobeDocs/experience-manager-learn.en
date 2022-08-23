@@ -2,7 +2,7 @@
 title: Storing Adaptive Form Data
 description: Storing Adaptive Form Data into DataBase as part of your AEM Workflow
 feature: Adaptive Forms, Form Data Model
-version: 6.3,6.4,6.5
+version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
@@ -71,34 +71,34 @@ import org.osgi.service.metatype.annotations.Designate;
 @Designate(ocd=InsertFormDataConfiguration.class)
 
 public class InsertFormDataConfigurationService {
-	public String TABLE_NAME;
-	public String DATA_SOURCE_NAME;
-	public String COLUMN_NAME;
-	public String FORM_NAME;
-	@Activate	  
-	  protected final void activate(InsertFormDataConfiguration insertFormDataConfiguration)
-	  {
-		TABLE_NAME = insertFormDataConfiguration.tableName();
-		DATA_SOURCE_NAME = insertFormDataConfiguration.dataSourceName();
-		COLUMN_NAME = insertFormDataConfiguration.columnName();
-		FORM_NAME = insertFormDataConfiguration.formName();
-	  }
-	public String getTABLE_NAME()
-	{
-		return TABLE_NAME;
-	}
-	public String getDATA_SOURCE_NAME()
-	{
-		return DATA_SOURCE_NAME;
-	}
-	public String getCOLUMN_NAME()
-	{
-		return COLUMN_NAME;
-	}
-	public String getFORM_NAME()
-	{
-		return FORM_NAME;
-	}
+    public String TABLE_NAME;
+    public String DATA_SOURCE_NAME;
+    public String COLUMN_NAME;
+    public String FORM_NAME;
+    @Activate      
+      protected final void activate(InsertFormDataConfiguration insertFormDataConfiguration)
+      {
+        TABLE_NAME = insertFormDataConfiguration.tableName();
+        DATA_SOURCE_NAME = insertFormDataConfiguration.dataSourceName();
+        COLUMN_NAME = insertFormDataConfiguration.columnName();
+        FORM_NAME = insertFormDataConfiguration.formName();
+      }
+    public String getTABLE_NAME()
+    {
+        return TABLE_NAME;
+    }
+    public String getDATA_SOURCE_NAME()
+    {
+        return DATA_SOURCE_NAME;
+    }
+    public String getCOLUMN_NAME()
+    {
+        return COLUMN_NAME;
+    }
+    public String getFORM_NAME()
+    {
+        return FORM_NAME;
+    }
 }
 
 ```

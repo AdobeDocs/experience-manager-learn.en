@@ -6,7 +6,7 @@ topics: development
 audience: developer
 doc-type: article
 activity: implement
-version: 6.5.5
+version: 6.5
 kt: 5830
 topic: Development
 role: Developer
