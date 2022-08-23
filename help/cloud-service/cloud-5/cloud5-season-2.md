@@ -9,7 +9,7 @@ exl-id: e2fabf7c-7fda-4391-ae77-709aa9f7dc0a
 # Cloud 5
 
 ![AEM Experts Series](./imgs/masthead-s2.png)
->[!VIDEO](https://video.tv.adobe.com/v/343127)
+>[!VIDEO](https://video.tv.adobe.com/v/346567)
 
 ## Introduction
 
