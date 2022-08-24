@@ -2,7 +2,7 @@
 title: Custom Smart Tags for images in AEM Assets
 description: Learn how to train AEM Assets' Smart Tags to apply custom terms to assets.
 feature: Smart Tags
-version:  6.4, 6.5, Cloud Services
+version: 6.4, 6.5, Cloud Service
 kt: 795
 thumbnail: 22254.jpg
 topic: Content Management
