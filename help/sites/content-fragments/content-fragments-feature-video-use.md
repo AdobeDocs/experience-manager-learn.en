@@ -26,6 +26,11 @@ This video series covers the authoring life-cycle of Content Fragments in AEM. D
 3. Downloading Content Fragments
 4. Editorial capabilities
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_sites_admin_content_fragments"
+>title="Manage Fragments"
+>abstract="Learn how Content Fragments allow you to design, create, curate, and use page-independent content."
+
 ## Defining Content Fragment Models {#defining-content-fragment-models}
 
 >[!VIDEO](https://video.tv.adobe.com/v/22452/?quality=12&learn=on)
