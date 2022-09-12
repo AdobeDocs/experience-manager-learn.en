@@ -213,6 +213,7 @@ team: TM
         + [Configure the integration](./forms/forms-cs-and-power-automate/integrate-formscs-power-automate.md)
         + [Parse submitted form data](./forms/forms-cs-and-power-automate/send-email-notification.md)
         + [Send DoR as an e-mail attachment](./forms/forms-cs-and-power-automate/send-DoR-email-attachment.md)
+        + [Extract form attachments from submitted data](./forms/forms-cs-and-power-automate/send-af-attachments-in-email.md)
     + Integrate with Microsoft Dynamics{#formscs-dynamics-crm}
         + [Create Dynamics Application](./forms/formscs-dynamics-crm/create-dynamics-account.md)
         + [Configure Data Source](./forms/formscs-dynamics-crm/configure-odata-data-source.md)
