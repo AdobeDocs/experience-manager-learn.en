@@ -42,7 +42,7 @@ The React application is designed to connect to an __AEM Publish__ environment, 
 
 ## How to use
 
-1. Clone the `adobbe/aem-guides-wknd-graphql` repository:
+1. Clone the `adobe/aem-guides-wknd-graphql` repository:
 
     ```shell
     $ git clone git@github.com:adobe/aem-guides-wknd-graphql.git
