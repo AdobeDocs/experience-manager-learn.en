@@ -67,7 +67,7 @@ If Content Fragment Models are **not** enabled for a configuration, the **[!UICO
 
 ## Understanding the Content Fragment Model to Create
 
-Before defining out Content Fragment model, let's review the experience we'll be driving to ensure we are capturing all the necessary data points. For this, we'll review out Mobile applications design and map the design elements to content-to-collect.
+Before defining our Content Fragment model, let's review the experience we'll be driving to ensure we are capturing all the necessary data points. For this, we'll review out Mobile applications design and map the design elements to content-to-collect.
 
 We can break out the data points that define an Event as follows:
 
