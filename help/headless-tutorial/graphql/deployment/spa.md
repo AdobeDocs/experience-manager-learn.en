@@ -13,7 +13,6 @@ mini-toc-levels: 2
 
 # AEM Headless SPA deployments
 
-
 AEM Headless single-page app (SPA) deployments involve JavaScript-based applications built using frameworks such as React or Vue, that consume and interact with content in AEM in a headless manner.
 
 Deploying a SPA that interacts AEM in a headless manner involves hosting the SPA and making it accessible via a web browser.
@@ -104,6 +103,27 @@ Adobe provides an example single-page app coded in React.
                <p class="headline is-size-6 has-text-weight-bold"><a href="../example-apps/react-app.md" title="React app">React app</a></p>
                <p class="is-size-6">An example single-page app, written in React, that consumes content from AEM Headless GraphQL APIs.</p>
                <a href="../example-apps/react-app.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View example</span>
+               </a>
+           </div>
+       </div>
+   </div>
+</div>
+<!-- Next.js app -->
+<div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Next.js app" tabindex="0">
+   <div class="card">
+       <div class="card-image">
+           <figure class="image is-16by9">
+               <a href="../example-apps/next-js.md" title="Next.js app" tabindex="-1">
+                   <img class="is-bordered-r-small" src="../example-apps/assets/next-js/next-js-card.png" alt="Next.js app">
+               </a>
+           </figure>
+       </div>
+       <div class="card-content is-padded-small">
+           <div class="content">
+               <p class="headline is-size-6 has-text-weight-bold"><a href="../example-apps/next-js.md" title="Next.js app">Next.js app</a></p>
+               <p class="is-size-6">An example single-page app, written in Next.js, that consumes content from AEM Headless GraphQL APIs.</p>
+               <a href="../example-apps/next-js.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View example</span>
                </a>
            </div>

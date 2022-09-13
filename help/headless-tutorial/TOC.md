@@ -55,10 +55,11 @@ index: y
   + [AEM Headless SDK](./graphql/how-to/aem-headless-sdk.md)
   + Examples {#example-apps}
     + [React](./graphql/example-apps/react-app.md)
+    + [Next.js](./graphql/example-apps/next-js.md)
     + [Web Component](./graphql/example-apps/web-component.md)
     + [iOS](./graphql/example-apps/ios-swiftui-app.md)
     + [Android](./graphql/example-apps/android-app.md)
-    + [Server-to-server](./graphql/example-apps/server-to-server-app.md)
+    + [Node.js](./graphql/example-apps/server-to-server-app.md)
 + SPA Editor{#spa-editor}
   + React{#react}
     + [Overview](./spa-editor/react/overview.md)
