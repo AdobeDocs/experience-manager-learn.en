@@ -26,6 +26,8 @@ feature-set: Experience Manager Sites, Experience Manager
   + [Style System](page-authoring/style-system-feature-video-use.md)
   + [Timewarp](page-authoring/timewarp-feature-video-use.md)
   + [Launches](page-authoring/launches.md)
+  + Expert Advice {#expert-advice}
+    + [Site Hierarchy Tips](page-authoring/expert-advice/site-hierarchy.md)
 + Components {#components}
   + [Component Development](components/component-development.md)
   + [Core Components](components/core-components-feature-video-understand.md)
