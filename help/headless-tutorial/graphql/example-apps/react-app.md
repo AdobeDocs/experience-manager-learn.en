@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 exl-id: b1ab2a13-8b0e-4d7f-82b5-78b1dda248ba
 ---
-# React App
+# React App{#react-app}
 
 Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This React application demonstrates how to query content using AEM's GraphQL APIs using persisted queries. The AEM Headless Client for JavaScript is used to execute the GraphQL persisted queries that power the app.
 
@@ -20,6 +20,11 @@ Example applications are a great way to explore the headless capabilities of Ado
 View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app)
 
 A [full step by step tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/multi-step/overview.html) describing how this React app was build is available.
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_sites_trial_admin_content_fragments_react_app"
+>title="Customize content in a sample React app"
+>abstract="We've set up a modern React app which you can use to learn how to customize content using the headless feature set."
 
 ## Prerequisites {#prerequisites}
 
