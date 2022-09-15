@@ -273,6 +273,7 @@ index: y
   + [Document Services: Steps to tweak bmc pool size for XMLFormService part1](troubleshooting/steps-to-tweak-bmc-pool-size-for-xmlformservice-1.md)
   + [Document Services: Steps to tweak bmc pool size for XMLFormService part2](troubleshooting/steps-to-tweak-bmc-pool-size-for-xmlformservice-2.md)
   + [Document Services: Steps to tweak parameters on JMX console](troubleshooting/steps-to-tweak-parameters-on-jmx-console.md)
+  + [Enable merging of large xml data files with template](troubleshooting/fix-timeout-errors-when-merging-large-xml-wth-template.md)
   + [PDFG: How to change the transaction timeouts in PDFG](troubleshooting/how-to-change-the-transaction-timeout-in-pdfg.md)
   + [PDFG: How to update CORBA timeout in PDFG](troubleshooting/how-to-update-corba-timeout-in-pdfg.md)
   + [PDFG: How to update the timeouts in PDFG](troubleshooting/how-to-update-the-timeouts-in-pdfg.md)
