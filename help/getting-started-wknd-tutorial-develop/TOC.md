@@ -5,7 +5,7 @@ version: Cloud Service
 activity: develop
 audience: developer
 user-guide-title: Getting Started with AEM Sites - WKND Tutorial
-user-guide-description: A multi-part tutorial for developers new to AEM. Implement an AEM site for a fictitious lifestyle brand, the WKND.
+user-guide-description: A multi-part tutorial for developers new to AEM. Implement an AEM site for a fictitious lifestyle brand, the WKND. Enable Front-End pipeline to speed your development to deployment cycle.
 breadcrumb-title: AEM Sites WKND Tutorials
 index: y
 ---
@@ -27,5 +27,9 @@ index: y
   + [1 - Create a Site](./site-template/create-site.md)
   + [2 - Intro to authoring and publishing](./site-template/author-content-publish.md)
   + [3 - UI planning with Adobe XD](./site-template/ui-planning-adobe-xd.md)
-  + [3 - Page Templates](./site-template/page-templates.md)
-  + [4 - Theming](./site-template/theming.md)
+  + [4 - Page Templates](./site-template/page-templates.md)
+  + [5 - Theming](./site-template/theming.md)
++ Enable Front-End Pipeline - DevOps{#enable-frontend-pipeline-devops}
+  + [Overview](./enable-frontend-pipeline/overview.md)
+
+  
