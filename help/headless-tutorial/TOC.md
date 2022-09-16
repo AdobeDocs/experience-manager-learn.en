@@ -100,3 +100,8 @@ index: y
   + [5 - Authoring Content Services Pages](./content-services/chapter-5.md)
   + [6 - Exposing the Content on AEM Publish for Delivery](./content-services/chapter-6.md)
   + [7 - Consuming AEM Content Services from a Mobile App](./content-services/chapter-7.md)
++ Code Samples {#code-samples}
+  + [React app](./graphql/code-samples/react-app.md)
+  + [Angular app](./graphql/code-samples/angular-app.md)
+  + [React component](./graphql/code-samples/react-component.md)
+  + [JavaScript filter](./graphql/code-samples/javascript-filter.md)
