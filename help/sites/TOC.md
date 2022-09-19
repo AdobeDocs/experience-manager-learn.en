@@ -42,6 +42,8 @@ feature-set: Experience Manager Sites, Experience Manager
   + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
   + [Building Blocks](experience-fragments/building-blocks.md)
   + [Content Fragments vs. Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
+  + Expert Advice {#expert-advice}
+    + [Content Fragments Tips](content-fragments/expert-advice/content-fragments.md)
 + Developing {#developing}
   + [AEM Project Archetype](developing/aem-project-archetype.md)
   + [Getting Started with AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
@@ -107,3 +109,8 @@ feature-set: Experience Manager Sites, Experience Manager
     + [Create Target Activity using Experience Fragment Offers](integrations/adobe-target/create-target-activity.md)
     + [Personalization using Visual Experience Composer](integrations/adobe-target/personalization-using-vec.md)
     + [Personalization of full web page experience](integrations/adobe-target/personalization-web-page.md)
++ Expert Resources {#expert-resources}
+  + [AEM Sites Maturity Assessment](expert-resources/maturity-assessment.md)
+  + [Site Maintenance](expert-resources/site-maintenance.md)
+  + [AEM Champion Tips and Tricks: Session 1](expert-resources/champion-tips-1.md)
+  + [AEM Champion Tips and Tricks: Session 2](expert-resources/champion-tips-2.md)
