@@ -5,4 +5,6 @@ hide: yes
 hidefromtoc: yes
 ---
 
-# AEM Champion Tips and Tricks: Session 1
+# AEM Champion Tips and Tricks: Editable Templates
+
+>[!VIDEO](https://video.tv.adobe.com/v/3409424)

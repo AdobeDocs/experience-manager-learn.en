@@ -42,8 +42,7 @@ feature-set: Experience Manager Sites, Experience Manager
   + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
   + [Building Blocks](experience-fragments/building-blocks.md)
   + [Content Fragments vs. Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
-  + Expert Advice {#expert-advice}
-    + [Content Fragments Tips](content-fragments/expert-advice/content-fragments.md)
+  
 + Developing {#developing}
   + [AEM Project Archetype](developing/aem-project-archetype.md)
   + [Getting Started with AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
