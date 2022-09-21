@@ -27,4 +27,5 @@ In most cases, the AEM maturity assessment will help to perform a diagnostic rev
 
 Recommended AEM maturity assessment areas of focus: Design and Architecture, Product management and strategy, Digital Asset Management and Delivery, Analytics, Testing and Security. 
 
-Huge shoutout to AEM Champion Greg Dimeris for aggregating this information from multiple Experience League articles as well as his own best practices! 
+Huge shoutout to AEM Champion Greg Dimeris for aggregating this information from multiple Experience League articles as well as his own best practices!
+ 

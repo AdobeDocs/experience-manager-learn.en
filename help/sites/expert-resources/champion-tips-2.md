@@ -6,3 +6,5 @@ hidefromtoc: yes
 ---
 
 # AEM Champion Tips and Tricks: Session 2
+
+>[!VIDEO](https://video.tv.adobe.com/v/3409427)
