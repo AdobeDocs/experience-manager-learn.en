@@ -31,5 +31,8 @@ index: y
   + [5 - Theming](./site-template/theming.md)
 + Enable Front-End Pipeline - DevOps{#enable-frontend-pipeline-devops}
   + [Overview](./enable-frontend-pipeline/overview.md)
-
+  + [1 - Review Full-stack Project](./enable-frontend-pipeline/review-uifrontend-module.md)
+  + [2 - Update Project to use Front-end Pipeline](./enable-frontend-pipeline/update-project.md)
+  + [3 - Deploy using the Front-End Pipeline](./enable-frontend-pipeline/create-frontend-pipeline.md)
+  + [4 - Considerations](./enable-frontend-pipeline/considerations.md)
   
