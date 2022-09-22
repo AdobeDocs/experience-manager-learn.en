@@ -34,6 +34,7 @@ feature-set: Experience Manager Sites, Experience Manager
   + [Web Optimized Image Delivery](components/web-optimized-image-delivery.md)
   + [Components Console](components/components-console-feature-video-use.md)
 + Content Fragments {#content-fragments}
+  + [Content Fragments console](content-fragments/content-fragments-console.md)
   + [Authoring Content Fragments](content-fragments/content-fragments-feature-video-use.md)
   + [Delivering Content Fragments](content-fragments/content-fragments-delivery-feature-video-use.md)
   + [Translating Content Fragments](content-fragments/content-fragments-translation-feature-video-use.md)
