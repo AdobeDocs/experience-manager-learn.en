@@ -65,6 +65,10 @@ If Content Fragment Models are **not** enabled for a configuration, the **[!UICO
 
 >[!VIDEO](https://video.tv.adobe.com/v/28336/?quality=12&learn=on)
 
+>[!WARNING]
+>
+> __Content Fragment Models__ have moved from __Tools > Assets__ to __Tools > General__.
+
 ## Understanding the Content Fragment Model to Create
 
 Before defining out Content Fragment model, let's review the experience we'll be driving to ensure we are capturing all the necessary data points. For this, we'll review out Mobile applications design and map the design elements to content-to-collect.
@@ -77,7 +81,7 @@ Armed with the mapping we can define out Content Fragment that will be used to c
 
 ## Creating the Content Fragment Model
 
-1. Navigate to **[!UICONTROL Tools] > [!UICONTROL Assets] > [!UICONTROL Content Fragment Models]**.  
+1. Navigate to **[!UICONTROL Tools] > [!UICONTROL General] > [!UICONTROL Content Fragment Models]**.  
 1. Tap the **[!DNL WKND Mobile]** folder to open.  
 1. Tap **[!UICONTROL Create]** to open the Content Fragment Model creation wizard.  
 1. Enter **[!DNL Event]** as the **[!UICONTROL Model Title]** *(description is optional)* and tap **[!UICONTROL Create]** to save.
@@ -86,7 +90,7 @@ Armed with the mapping we can define out Content Fragment that will be used to c
 
 ## Defining the structure of the Content Fragment Model
 
-1. Navigate to **[!UICONTROL Tools] > [!UICONTROL Assets] > [!UICONTROL Content Fragment Models] > [!DNL WKND]**.
+1. Navigate to **[!UICONTROL Tools] > [!UICONTROL General] > [!UICONTROL Content Fragment Models] > [!DNL WKND]**.
 1. Select the **[!DNL Event]** Content Fragment Model and tap **[!UICONTROL Edit]** in the top action bar.
 1. From the **[!UICONTROL Data Types] tab** on the right, drag the **[!UICONTROL Single line text input]** into the left drop-zone to define the **[!DNL Question]** field.
 1. Ensure the new **[!UICONTROL Single line text input]** is selected on the left, and the **[!UICONTROL Properties] tab** is selected on the right. Populate the Properties fields as follows:
