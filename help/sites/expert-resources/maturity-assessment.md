@@ -1,8 +1,9 @@
 ---
-title: Site Hierarchy, Taxonomy, and Tagging Tips
-description: Site Hierarchy, Taxonomy, and Tagging Tips Best Practices
-hide: yes
-hidefromtoc: yes
+title: Your AEM Sites Maturity Assessment
+seo-title: AEM Sites Maturity Assessment
+description: This checklist provides an overview of key questions you and your team should be answering when evaluating the maturity of your AEM Sites instance
+seo-description: This checklist provides an overview of key questions you and your team should be answering when evaluating the maturity of your AEM Sites instance
+audience: author, marketer, developer
 ---
 
 # Your AEM Sites Maturity Assessment Checklist

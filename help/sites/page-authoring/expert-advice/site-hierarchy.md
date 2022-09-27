@@ -1,6 +1,19 @@
 ---
 title: Site Hierarchy, Taxonomy, and Tagging Tips
-description: Site Hierarchy, Taxonomy, and Tagging Tips Best Practices
+seo-title: Overview of Authoring in AEM Sites
+description: The following video provides an overview of basic concepts of authoring in an AEM author environment. It uses the Sites console as a basis.
+seo-description: The following video provides an overview of basic concepts of authoring in an AEM author environment. It uses the Sites console as a basis.
+feature: Page Editor, Editable Templates
+topics: authoring, publishing
+audience: author, marketer
+doc-type: feature video
+activity: use
+version: 6.4, 6.5, Cloud Service
+kt: 4242
+thumbnail: 33594.jpg
+topic: Content Management
+role: User
+level: Beginner
 hide: yes
 hidefromtoc: yes
 ---
@@ -10,8 +23,6 @@ hidefromtoc: yes
 Metadata and tags are key to driving efficiency in AEM. Users, leaders, and management realize the need for holistic strategy, but they find it difficult make headway. Often knowledge is siloed among users, making holistic strategy difficult—and makes adjustments even more problematic. 
 
 What is the difference between metadata and tags? What are the business aspects to take into consideration when driving your strategy?  
-
-A more intensive summary can be found [here](https://adobe.sharepoint.com/:w:/r/sites/ACSSuccessServices/_layouts/15/Doc.aspx?sourcedoc=%7BFE5E873A-A3B6-4F40-BF22-A2C9F1269802%7D&file=AEM_TagTaxonomyAndMetadata_BestPractice_en%20(2).docx&action=default&mobileredirect=true).
 
 ## What is purpose of metadata? 
 
