@@ -22,14 +22,17 @@ Get answers to frequently asked questions about content migration to AEM as a Cl
 + **CTT**: [Content Transfer Tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html)
 + **CAM**: [Cloud Acceleration Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-acceleration-manager/using-cam/getting-started-cam.html)
 + **IMS**: [Identity Management System](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html)
++ **DM**: [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-journey/dm-journey-part1.html)
 
 Please use the below template for providing more details while creating CTT related Adobe support tickets.
 
 ![Content Migration Adobe Support Ticket Template](../../assets/faq/adobe-support-ticket-template.png) { align="center" }
 
+## General content migration questions
+
 ### Q: What are the different methods to migrate content into AEM as Cloud Services?
 
-A: There are three different methods available
+There are three different methods available
 
 + Using Content Transfer Tool (AEM 6.3+ → AEMaaCS)
 + Through Package Manager (AEM → AEMaaCS)
@@ -37,27 +40,27 @@ A: There are three different methods available
 
 ### Q: Is there a limit on the amount of content that can be transferred using CTT?
 
-A: No. CTT as a tool could extract from AEM source and ingest into AEMaaCS. However there are specific limits on AEMaaCS platform that should be considered before migration.
+No. CTT as a tool could extract from AEM source and ingest into AEMaaCS. However there are specific limits on AEMaaCS platform that should be considered before migration.
 
 For more info, refer to [cloud migration prerequisites](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/prerequisites-content-transfer-tool.html).
 
 ### Q: I have the latest BPA report from my source system, what should I do with it?
 
-A: Export the report as CSV and then upload it to Cloud Acceleration Manager, [associated with your IMS Org](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-acceleration-manager/using-cam/getting-started-cam.html). Then go through the review process as [outlined in the Readiness Phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-acceleration-manager/using-cam/cam-readiness-phase.html).
+Export the report as CSV and then upload it to Cloud Acceleration Manager, [associated with your IMS Org](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-acceleration-manager/using-cam/getting-started-cam.html). Then go through the review process as [outlined in the Readiness Phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-acceleration-manager/using-cam/cam-readiness-phase.html).
 
 Please review the code and content complexity assessment provided by the tool and make a note of associated action items that lead to code refactoring backlog or Cloud Migration Assessment.
 
 ### Q: Is it recommended to extract on source author and ingest into AEMaaCS author and publish?
 
-A: It is always recommended to perform 1:1 extraction and ingestion between author and publish tiers. That being said, it is acceptable to extract source production author and ingest that into Dev, Stage, and Production CS.
+It is always recommended to perform 1:1 extraction and ingestion between author and publish tiers. That being said, it is acceptable to extract source production author and ingest that into Dev, Stage, and Production CS.
 
 ### Q: Is there a way to estimate the time, it takes to migrate the content from source AEM into AEMaaCS using CTT?
 
-A: Since the migration process depends on internet band width, heap allocated for CTT process, free memory available, and disk IO which are subjective to each source system, it is recommended to execute Proof Of migrations early on and extrapolate that data points to come up with estimates.
+Since the migration process depends on internet band width, heap allocated for CTT process, free memory available, and disk IO which are subjective to each source system, it is recommended to execute Proof Of migrations early on and extrapolate that data points to come up with estimates.
 
 ### Q: How does my source AEM performance be impacted if I start CTT extraction process?
 
-A: CTT tool runs in its own Java&trade; process which takes up to 4gb heap, which is configurable through OSGi configuration. This number may change but you can grep for the Java&trade; process and find that out.
+CTT tool runs in its own Java&trade; process which takes up to 4gb heap, which is configurable through OSGi configuration. This number may change but you can grep for the Java&trade; process and find that out.
 
 If AZCopy is installed and/or Pre copy option / validation feature enabled, then AZCopy process consumes CPU cycles.
 
@@ -69,7 +72,7 @@ If clone environments are used for migration, then it will not impact the live p
 
 ### Q: In my source author system, we have SSO configured for the users to authenticate into Author instance. Do I have to use User Mapping feature of CTT in this case?
 
-A: The short answer is "**Yes**".
+The short answer is "**Yes**".
 
 The CTT extraction and ingestion **without** user mapping only migrates the content, the associated principles (users, groups) from source AEM to AEMaaCS. But there is a requirement for these users (identities) present in Adobe IMS and have (provisioned with) access to AEMaaCS instance to successfully authenticate. The job of [user-mapping tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/user-mapping-tool/overview-user-mapping-tool.html) is to map the local AEM user to IMS User so that authentication and authorizations work together.
 
@@ -77,7 +80,7 @@ In this case, the SAML identity provider is configured against Adobe IMS to use 
 
 ### Q: In my source author system, we have basic authentication configured for the users to authenticate into Author instance with local AEM users. Do I have to use User Mapping feature of CTT in this case?
 
-A: The short answer is "**Yes**".
+The short answer is "**Yes**".
 
 The CTT extraction and ingestion without user mapping does migrate the content, the associated principles (users, groups) from source AEM to AEMaaCS. But there is a requirement for these users (identities) present in Adobe IMS and have (provisioned with) access to AEMaaCS instance to successfully authenticate. The job of [user-mapping tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/user-mapping-tool/overview-user-mapping-tool.html) is to map the local AEM user to IMS User so that authentication and authorizations work together.
 
@@ -85,13 +88,13 @@ In this case, the users use personal Adobe ID and the Adobe ID is used by IMS ad
 
 ### Q: What do the terms "wipe" and "overwrite" mean in the context of CTT?
 
-A: In the context of [extraction phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-servicemoving/cloud-migration/content-transfer-tool/extracting-content.html), The options are either to overwrite the data in the staging container from previous extraction cycles or add the differential (added/updated/deleted) into it. Staging Container is nothing, but the blob storage container associated with migration set. Each migration set gets their own staging container.
+In the context of [extraction phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-servicemoving/cloud-migration/content-transfer-tool/extracting-content.html), The options are either to overwrite the data in the staging container from previous extraction cycles or add the differential (added/updated/deleted) into it. Staging Container is nothing, but the blob storage container associated with migration set. Each migration set gets their own staging container.
 
 In the context of [ingestion phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/ingesting-content.html), The options are + to replace the entire content repository of AEMaaCS or sync the differential (added/updated/deleted) content from staging migration container.
 
 ### Q: There are multiple websites, associated assets, users, groups in the source system. Is it possible to migrate them in phases to AEMaaCS?
 
-A: Yes, it is possible but requires careful planning regarding:
+Yes, it is possible but requires careful planning regarding:
 
 +   Creating the migration sets assuming the sites, assets are into their respective hierarchies
     + Verify whether it's acceptable to migrate all the assets as part of one migration set and then bring sites that are using them in phases
@@ -102,31 +105,31 @@ Please review the Top up extraction and ingestion process as documented before p
 
 ### Q: Are my websites going to be available for end users even though ingestion happening into either AEMaaCS author or publish instances?
 
-A: Yes. End-user traffic is not interrupted by content migration activity. However, the author ingestion freezes content authoring until it completes.
+Yes. End-user traffic is not interrupted by content migration activity. However, the author ingestion freezes content authoring until it completes.
 
 ### Q: The BPA report shows items related to missing original renditions. Should I clean them up on source before extraction?
 
-A: Yes. The missing original rendition means the asset binary is not properly uploaded in the first place. Considering it as bad data, please review, backup using Package Manager (as required) and remove them from source AEM before running extraction. The bad data will have negative results on the asset processing steps.
+Yes. The missing original rendition means the asset binary is not properly uploaded in the first place. Considering it as bad data, please review, backup using Package Manager (as required) and remove them from source AEM before running extraction. The bad data will have negative results on the asset processing steps.
 
 ### Q: The BPA report has items related to missing `jcr:content` node for folders. What should I do with them?
 
-A: When `jcr:content` is missing at folder level, any action to propagate settings such as processing profiles, etc. from parents will break at this level. Please review the reason for missing `jcr:content`. Even though these folders could be migrated, please note that such folders degrade user experience and cause unnecessary troubleshooting cycles later.
+When `jcr:content` is missing at folder level, any action to propagate settings such as processing profiles, etc. from parents will break at this level. Please review the reason for missing `jcr:content`. Even though these folders could be migrated, please note that such folders degrade user experience and cause unnecessary troubleshooting cycles later.
 
 ### Q: I have created a migration set. is it possible to check the size of it?
 
-A: Yes, there is a [Check Size](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/getting-started-content-transfer-tool.html#migration-set-size) feature which is part of the CTT.
+Yes, there is a [Check Size](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/getting-started-content-transfer-tool.html#migration-set-size) feature which is part of the CTT.
 
 ### Q: I am performing the migration (extraction, ingestion). Is it possible to validate that all my content extracted is ingested into target?
 
-A: Yes, there is a [validation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/validating-content-transfers.html) feature which is part of CTT.
+Yes, there is a [validation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/validating-content-transfers.html) feature which is part of CTT.
  
 ### Q: My customer has a requirement to move content between AEMaaCS environments such as from AEMaaCS Dev to AEMaaCS Stage or to AEMaaCS Prod. Can I use content transfer tool for these use-cases?
 
-A: Unfortunately, No. CTT's use case is to migrate content from On-premises/AMS-hosted AEM 6.3+ source to AEMaaCS cloud environments. [Please read CTT documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html).
+Unfortunately, No. CTT's use case is to migrate content from On-premises/AMS-hosted AEM 6.3+ source to AEMaaCS cloud environments. [Please read CTT documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html).
 
 ### Q: What kind of problems are anticipated during extraction?
 
-A: Extraction Phase is an involved process that requires multiple aspects to work as expected. Being aware of different kind of issues that may occur and how to mitigate them increases the overall success of content migration.
+Extraction Phase is an involved process that requires multiple aspects to work as expected. Being aware of different kind of issues that may occur and how to mitigate them increases the overall success of content migration.
 
 The public documentation is continuously improved based the learnings, but here are some high-level problem categories and possible underlying reasons.
 
@@ -134,7 +137,7 @@ The public documentation is continuously improved based the learnings, but here 
 
 ### Q: What kind of problems are anticipated during ingestion?
 
-A: Ingestion phase completely occurs in cloud platform and requires help from the resources that have access to AEMaaCS infrastructure. Please create a support ticket for more help.
+Ingestion phase completely occurs in cloud platform and requires help from the resources that have access to AEMaaCS infrastructure. Please create a support ticket for more help.
 
 Here are possible issue categories (please do not consider this as an exclusive list)
 
@@ -144,7 +147,7 @@ Here are possible issue categories (please do not consider this as an exclusive 
 
 ### Q: Does my source server need to have outbound internet connection for CTT to work?
 
-A: The short answer is "**Yes**".
+The short answer is "**Yes**".
 
 The CTT process requires connectivity to the below resources:
 
@@ -154,19 +157,19 @@ The CTT process requires connectivity to the below resources:
 
 Refer to the documentation for more information about [source connectivity](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/getting-started-content-transfer-tool.html#source-environment-connectivity).
 
-## Asset Processing Dynamic media Related questions
+## Asset processing Dynamic Media related questions
 
 ### Q: Are assets going to be reprocessed automatically after ingestion in AEMaaCS?
 
-A: No. To process the assets, the request to reprocess must be initiated.
+No. To process the assets, the request to reprocess must be initiated.
 
 ### Q: Are assets going to be reindexed automatically after ingestion in AEMaaCS?
 
-A: Yes. The assets are reindexed based on the index definitions available on AEMaaCS.
+Yes. The assets are reindexed based on the index definitions available on AEMaaCS.
 
 ### Q: The source AEM has an integration with Dynamic Media. Are there any specific things that must be considered before Content Migration?
 
-A: Yes, please consider the following when source AEM has Dynamic Media Integration.
+Yes, please consider the following when source AEM has Dynamic Media Integration.
 
 + AEMaaCS Supports Only Dynamic Media Scene7 Mode. If the source system is on Hybrid Mode, then the DM migration to Scene7 modes is required.
 + If the approach is to migrate from source clone instances, then it is safe to disable DM integration on clone that would be used for CTT. This step is purely to avoid any writes to DM or avoid load on DM traffic.
@@ -174,7 +177,7 @@ A: Yes, please consider the following when source AEM has Dynamic Media Integrat
 
 ### Q: What are different migration approaches when DM integration present on Source AEM?
 
-A: Please read the above question and answer before 
+Please read the above question and answer before 
 
 (These are two possible options but are not limited to only these two). It depends on how customer wants to approach the UAT, Performance testing, the available environment and whether a clone is being used for migration or not. Please consider these two as starting point for discussion
 
@@ -211,7 +214,7 @@ Run a wipe migration from on-premise Dev to AEMaaCS Dev.
 
 The above approach can be used for just measuring the migration duration but requires cleaning it up later.
 
-### Additional resources
+## Additional resources
 
 +   [Tips and Tricks for Migrating to Experience Manager in the Cloud ( Summit 2022)](https://business.adobe.com/summit/2022/sessions/tips-and-tricks-for-migrating-to-experience-manage-tw109.html)
 
