@@ -13,7 +13,7 @@ exl-id: 7a4fd109-514a-41a8-a3fe-53c1de32cb6d
 
 ## Prerequisites {#prerequisites}
 
-In this article, we will walk through the process of creating Data Source with Salesforce
+In this article, we walk through the process of creating Data Source with Salesforce
 
 Prerequisites for this tutorial:
 
@@ -23,20 +23,20 @@ Prerequisites for this tutorial:
     * [Official Documentation for enabling SSL on AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/ssl-by-default.html)
     * [Official Documentation for enabling SSL on AEM 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/ssl-by-default.html)
 
-* You will need to have Salesforce Account
-* You will need to create a Connected App. The official documentation form Salesforce for creating the app is listed [here](https://help.salesforce.com/articleView?id=connected_app_create.htm&type=0).
+* You need to have Salesforce Account
+* You need to create a Connected App. The official documentation form Salesforce for creating the app is listed [here](https://help.salesforce.com/articleView?id=connected_app_create.htm&type=0).
 * Provide appropriate OAuth Scopes for the App(I have selected all the available OAuth Scopes for the purpose of testing)
 * Provide the callback URL. The callback URL in my case was
 
-    * If you are using **AEM Forms 6.3**, the callback URL will be https://gbedekar-w7-1:6443/etc/cloudservices/fdm/createlead.html. In this URL  createlead  is the name of my form data model.
+    * If you are using **AEM Forms 6.3**, the callback URL is https://gbedekar-w7-1:6443/etc/cloudservices/fdm/createlead.html. In this URL  createlead  is the name of my form data model.
     
-    * If you are using** AEM Forms 6.4**, the callback URL will be https://gbedekar-w7-:6443/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html
+    * If you are using** AEM Forms 6.4**, the callback URL is https://gbedekar-w7-:6443/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html
     
 In this example  gbedekar -w7-1:6443 is the name of my server and the port on which AEM is running.
 
-Once you have created the Connected App note the **Consumer Key and Secret Key**. You will need these when creating the data source in AEM Forms.
+Once you have created the Connected App note the **Consumer Key and Secret Key**. You need these when creating the data source in AEM Forms.
 
-Now that you have created your connected app, you will then need to create a swagger file for the operations that you need to perform in salesforce. A sample swagger file is included as part of the downloadable assets. This swagger file allows you to create "Lead" object on Adaptive Form submission. Please explore this swagger file.
+Now that you have created your connected app, you need to create a swagger file for the operations that you need to perform in salesforce. A sample swagger file is included as part of the downloadable assets. This swagger file allows you to create "Lead" object on Adaptive Form submission. Please explore this swagger file.
 
 The next step is to create Data Source in AEM Forms. Please follow the following steps according to your AEM Forms version
 

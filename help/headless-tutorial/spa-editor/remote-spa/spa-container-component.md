@@ -317,4 +317,4 @@ You've added a container component that allows for editable components to be add
 
 ## Next Steps
 
-The next step will be using this same technique to [add an editable component to an Adventure Details route](./spa-dynamic-routes.md) in the SPA.
+The next step uses this same technique to [add an editable component to an Adventure Details route](./spa-dynamic-routes.md) in the SPA.

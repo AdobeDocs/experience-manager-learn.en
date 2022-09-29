@@ -69,11 +69,11 @@ To illustrate this point, let's look at an example of an enterprise organization
 
 The question is, are you going to hold off on re-imagining content until all the brands are operating in a unified manner? Is it wise to solve for change for all of them?
 
-The answer is no. This would increase complexity. Additionally, many of the stakeholders will get frustrated with never-ending conversations around the old, thus frustrating attempts to build the new. One will get locked into a conversation _about_ change, instead of making it.
+The answer is no. This would increase complexity. Additionally, many of the stakeholders will get frustrated with never-ending conversations around the old, thus frustrating attempts to build the new. One gets locked into a conversation _about_ change, instead of making it.
 
 What is needed is a tangible framework. A new paradigm to work for. Something people can see and feel. In the past, content may have been considered a page, a campaign, or anything imagined in the singular. The fundamental shift is to see content as content itself: to be repurposed, re-styled, and recycled back to the authoring team. Core new development should be utilized for target-rich experiences.
 
-For many customers the best way to instill change is to create a mini site, a brand, or a separate section of the site that can be utilized as a test case for the new framework. Choosing one part of the organization to act as Proof-of-Concept will allow you to:
+For many customers the best way to instill change is to create a mini site, a brand, or a separate section of the site that can be utilized as a test case for the new framework. Choosing one part of the organization to act as Proof-of-Concept allows you to:
 
 * Create a built-in group of stakeholders dedicated to understanding the new framework
 * Reduce cyclical discovery sessions and build more quickly
@@ -88,19 +88,19 @@ _"We knew there was too much content coming out. So we did some research with ou
 
 AEM, is an enterprise-level solution that touches many parts of the company or brand and its effectiveness, as a CMS tool, has upstream dependencies.
 
-When building out the framework, there are some common paradigms for which you'll need to find the right solution. Some of these elements might be challenging, but decisions have to be made—this is why the foundational paradigm above is so important. This framework that is being built will be the one that is leveraged to scale across the organization.
+When building out the framework, there are some common paradigms for which you'll need to find the right solution. Some of these elements might be challenging, but decisions have to be made—this is why the foundational paradigm above is so important. This framework that is being built is the one that is leveraged to scale across the organization.
 
 Here are four milestones to build out during the execution phase:
 
 1. **Define the foundations of your organizational global taxonomy.**
 
-    When we talk about taxonomy we are not just referencing the folder structure, but rather an understanding of who will be authoring what and when. Additionally, we will need to consider the [different permission](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/requirements/role-based-permissions.html?lang=en) structures that will need to be architected for each type of author.
+    When we talk about taxonomy we are not just referencing the folder structure, but rather an understanding of who is authoring what and when. Additionally, we will need to consider the [different permission](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/requirements/role-based-permissions.html?lang=en) structures that will need to be architected for each type of author.
 
     At this point, consider whether you want a centralized governance model or a decentralized one.On one hand, a centralized governance model creates a consolidated taxonomic strategy offering tighter quality control and process insights that would be impossible, or at the very least difficult in a decentralized framework.
 
-    On the other hand, a centralized model, especially if coming from an authoring experience that is currently overly flexible, may be too big a hurdle for the team. The structure must allow for common language and regional differentiators as well as practices around quality control. Additionally, there may be less autonomy for each facet of the authoring experience--that is, only certain authors will be allowed to work on specific groups of pages and only limited authors have editable permissions.
+    On the other hand, a centralized model, especially if coming from an authoring experience that is currently overly flexible, may be too big a hurdle for the team. The structure must allow for common language and regional differentiators as well as practices around quality control. Additionally, there may be less autonomy for each facet of the authoring experience--that is, only certain authors are allowed to work on specific groups of pages and only limited authors have editable permissions.
 
-    Although initially a centralized mode of governance may seem slower, in the end, with the process insights gathered, and the transparent accountability across business users that is instigated, the overall trajectory will be quicker.
+    Although initially a centralized mode of governance may seem slower, in the end, with the process insights gathered, and the transparent accountability across business users that is instigated, the overall trajectory is quicker.
 
     The decision on which direction to go will ultimately depend on the overall strategic goal of the organization. It may come down to choosing between enhanced flexibility for business users or a unified experience across brands. Aligning on the proper model is critical for a sound execution.
 
@@ -110,7 +110,7 @@ Here are four milestones to build out during the execution phase:
 
     Interactive content (oftentimes located on the homepage) might require highly interactive experiences, and therefore, will require front-end CSS designers to work with business authors to update. Homepage maintenance would require a different permission structure and approval process than something like a reference page, which would be easier to update. Sound governance, efficiency, and quality begin with clear content ownership. Consider performing a content audit that answers these questions:
 
-    * Who will be authoring what? And when?
+    * Who is authoring what? And when?
     * What are the different permission structures that need to be applied to each kind of content?
     * What are the experiences on the site that will change, and which ones will remain relatively static?
     * Who is going to own what content?
@@ -139,7 +139,7 @@ Here are four milestones to build out during the execution phase:
 Generally, speaking it is best to follow these rules of thumb:
 
 * Aim to have no less than 80% of experiences driven through [Out of the Box Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) and [Style Systems](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/style-system.html?lang=en). Through customer testimony, this will not only create a more scalable foundation enabling you to take advantage of the product roadmap, but will also increase velocity by up to 50%.
-* [Set-up](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=en)[e](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=en)[ditable templates](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=en) and move away from static templates. When setting up editable templates (which are required to use Style Systems), it will be required to assign a template author who will control the different styling available for a page or section of the website. These updates to the template itself are rather minimal in terms of everyday work.
+* [Set-up](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=en)[e](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=en)[ditable templates](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=en) and move away from static templates. When setting up editable templates (which are required to use Style Systems), it is required to assign a template author who will control the different styling available for a page or section of the website. These updates to the template itself are rather minimal in terms of everyday work.
 * Use [Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html?lang=en) where possible. Although the general use case for experience fragments is for multi-channel distribution, they can also be effectively used throughout the site to populate content in one area at one time instead of updating content manually in multiple areas. This can save excessive time and effort and will free up the authoring team to work on more specific and rich experiences.
 * Create richer experiences. By utilizing the 80/20 rule (per above), an organization can utilize specific CSS and back-end development for select experiences instead of common maintenance updates.
 * Opt for a scalable foundation and quick rebrand. Style systems that are executed based upon a modern implementation can allow for an efficient rebranding across one's platform. Updating wide sectors of content through changing CSS skins allows for quick testing and validation and increases the experiential quality of one's site with a direct impact on ROI.
@@ -171,4 +171,4 @@ Here are a few potential pitfalls to avoid:
 
 For a more in-depth discussion of content velocity, listen to this one-hour [panel discussion](https://primetime.bluejeans.com/a2m/events/playback/e63686d4-158f-4f73-aea0-f03ebee4606d) featuring Monique Misrahi (T-Mobile), Amy Bergstrom (Deloitte), and Adobe's Anuradha Pentareddy.
 
-Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.

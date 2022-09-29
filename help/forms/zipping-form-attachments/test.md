@@ -28,4 +28,4 @@ exl-id: ce9b9203-b44c-4a52-821c-ae76e93312d2
 * Deploy the [SendForm workflow.](assets/send-form-attachments-model.zip) This workflow uses send email component to send the form attachments as individual files. Configure the senders and recipients email address according to your needs.
 * Import the [sample form](assets/send-list-attachments-form.zip) from [Forms And Document UI](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * [Preview the form](http://localhost:4502/content/dam/formsanddocuments/sendlistofattachments/jcr:content?wcmmode=disabled) and add a couple of attachments and submit the form.
-* The workflow should get triggered and an email notification with the form attachments will be sent.
+* The workflow should get triggered and an email notification with the form attachments is sent.

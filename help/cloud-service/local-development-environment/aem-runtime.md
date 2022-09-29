@@ -15,7 +15,7 @@ exl-id: 19f72254-2087-450b-909d-2d90c9821486
 >[!CONTEXTUALHELP]
 >id="aemcloud_localdev_aemruntime"
 >title="Local AEM Runtime"
->abstract="Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Service SDK’s Quickstart Jar. This allows developers to deploy to, and test custom code, configuration and content prior to committing it to source control, and deploying it to a AEM as a Cloud Service environment."
+>abstract="Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Service SDK's Quickstart Jar. This allows developers to deploy to, and test custom code, configuration and content prior to committing it to source control, and deploying it to a AEM as a Cloud Service environment."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html" text="AEM as a Cloud Service SDK"
 >additional-url="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html" text="Download AEM as a Cloud Service SDK"
 
@@ -184,7 +184,7 @@ Changing these may require adjustments to AEM SDK configurations
 
 ## Stopping an local AEM runtime
 
-In order to stop a local AEM runtime, either AEM Author or Publish service, open the command line window that was used to start the the AEM Runtime, and tap `Ctrl-C`. Wait for AEM to shutdown. When the shutdown process is complete, the command line prompt will be available.
+In order to stop a local AEM runtime, either AEM Author or Publish service, open the command line window that was used to start the the AEM Runtime, and tap `Ctrl-C`. Wait for AEM to shutdown. When the shutdown process is complete, the command line prompt is available.
 
 ## Optional local AEM runtime set up tasks
 

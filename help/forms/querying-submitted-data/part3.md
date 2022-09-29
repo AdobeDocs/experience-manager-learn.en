@@ -17,7 +17,7 @@ exl-id: 412eea77-3cf4-43bb-9d2f-ae860cd9d3be
 # Storing JSON Schema in Database {#storing-json-schema-in-database}
 
 
-To be able to query on the submitted data, we will need to store the JSON schema associated with the submitted form. The JSON schema will be used in the query builder to build the query.
+To be able to query on the submitted data, we will need to store the JSON schema associated with the submitted form. The JSON schema is used in the query builder to build the query.
 
 When an Adaptive Form is submitted, we check to see if the associated JSON schema is in the database. If the JSON schema does not exist, we fetch the JSON schema and store the schema in the appropriate table. We also associate the form name with the JSON schema. The following screenshot shows you the table where the JSON schemas are stored.
 

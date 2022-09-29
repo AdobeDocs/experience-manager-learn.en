@@ -42,7 +42,7 @@ The execution flow of the Node.js application is as follows:
 1. The Node.js application is invoked from the command line
 1. Command line parameters define:
     + The AEM as a Cloud Service Author service host to connect to (`aem`)
-    + The AEM asset folder whose assets will be updated (`folder`)
+    + The AEM asset folder whose assets are updated (`folder`)
     + The metadata property and value to update (`propertyName` and `propertyValue`)
     + The local path to the file providing the credentials required to access AEM as a Cloud Service (`file`)
 1. The access token used to authenticate to AEM is derived from the JSON file provided via command line parameter `file`

@@ -23,7 +23,7 @@ To accomplish this use case we need to do the following.
 * You can also refer to the video on [configuring Reader Extensions credentials](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/configuring-reader-extension-osgi.html)
 
 
-* Create a custom OSGi service that will render and apply usage rights. The code to accomplish this is listed below
+* Create a custom OSGi service that renders and applies usage rights. The code to accomplish this is listed below
 
 ## Render XDP and Apply usage rights {#render-xdp-and-apply-usage-rights}
 
@@ -78,7 +78,7 @@ To accomplish this use case we need to do the following.
 
 The following screenshot shows you the configuration properties exposed. Most of the common usage rights are exposed through this configuration.
 
-![](assets/configurationproperties.gif)
+![Configuration properties](assets/configurationproperties.gif)
 
 The following code shows you the code that is used to build the OSGi configuration settings
 
@@ -113,12 +113,11 @@ public @interface DocSvcConfiguration {
  String ReaderExtensionAlias() default "";
 
 }
-
 ```
 
 ## Create Servlet to Stream the PDF {#create-servlet-to-stream-the-pdf}
 
-The next step is to create a servlet with a GET method to return the reader extended PDF to the user. In this case, the user will be asked to save the PDF to their file system. This is because the PDF is rendered as dynamic PDF and the pdf viewers that come with the browsers do not handle dynamic pdf's.
+The next step is to create a servlet with a GET method to return the reader extended PDF to the user. In this case, the user is asked to save the PDF to their file system. This is because the PDF is rendered as dynamic PDF and the pdf viewers that come with the browsers do not handle dynamic pdf's.
 
 The following is the code for the servlet. We pass the path of the XDP in the CRX repository to this servlet.
 

@@ -78,7 +78,7 @@ Next, explore the power of AEM's GraphQL API using the built-in GraphiQL IDE.
 
 ### Query a list of Content Fragments {#query-list-cf}
 
-A common requirement will be to query for multiple Content Fragments.
+A common requirement is to query for multiple Content Fragments.
 
 1. Paste the following query in the main panel (replacing the list of comments):
 
@@ -205,7 +205,7 @@ Next, let's look at how it is possible to filter the results to a subset of Cont
     {"name": "John Doe"}
     ```
 
-1. Execute the query, it is expected that only **Persons** will be returned with a value of "John Doe".
+1. Execute the query, it is expected that only **Persons** is returned with a value of "John Doe".
 
     ![Use Query Variables to filter](assets/explore-graphql-api/using-query-variables-filter.png)
 
@@ -275,7 +275,7 @@ It is also possible to directly query a single Content Fragment. Content in AEM 
 
 Once a developer is happy with the query and data returned, the next step is to store or persist the query to AEM. [Persisted queries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/graphql-api/persisted-queries.html) is the preferred mechanism for exposing the GraphQL API to client applications. Once a query has been persisted, it can be requested using a GET request and cached at the Dispatcher and CDN layers. The performance of persisted queries is much better. In addition to performance benefits, persisted queries ensure that extra data is not accidentally exposed to client applications. More details about [Persited queries can be found here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/graphql-api/persisted-queries.html).
 
-Next, persist two simple queries, they will be used in the next chapter.
+Next, persist two simple queries, they are used in the next chapter.
 
 1. In the GraphiQL IDE enter the following query:
 

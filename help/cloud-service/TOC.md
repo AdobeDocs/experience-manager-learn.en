@@ -212,7 +212,7 @@ team: TM
     + Integrate with Microsoft Power Automate{#forms-cs-and-power-automate}
         + [Configure the integration](./forms/forms-cs-and-power-automate/integrate-formscs-power-automate.md)
         + [Parse submitted form data](./forms/forms-cs-and-power-automate/send-email-notification.md)
-        + [Send DoR as an e-mail attachment](./forms/forms-cs-and-power-automate/send-DoR-email-attachment.md)
+        + [Send DoR as an e-mail attachment](./forms/forms-cs-and-power-automate/send-dor-email-attachment.md)
         + [Extract form attachments from submitted data](./forms/forms-cs-and-power-automate/send-af-attachments-in-email.md)
     + Integrate with Microsoft Dynamics{#formscs-dynamics-crm}
         + [Create Dynamics Application](./forms/formscs-dynamics-crm/create-dynamics-account.md)
@@ -270,9 +270,9 @@ team: TM
       + [Sling Job Scheduler](./cloud-5/season-2/cloud5-sling-job-scheduler.md)
       + [Fix Your Cache](./cloud-5/season-2/cloud5-fix-your-cache.md)
       + [Fix Your Rewrites](./cloud-5/season-2/cloud5-fix-your-rewrites.md)
-      + [Cloud Manager - Experience Audit](./cloud-5/season-2/cloud5-MoCM-experience-audit.md)
-      + [Cloud Manager - Unit Tests](./cloud-5/season-2/cloud5-MoCM-unit-tests.md)
-      + [Cloud Manager - Functional Tests](./cloud-5/season-2/cloud5-MoCM-functional-tests.md)
+      + [Cloud Manager - Experience Audit](./cloud-5/season-2/cloud5-mocm-experience-audit.md)
+      + [Cloud Manager - Unit Tests](./cloud-5/season-2/cloud5-mocm-unit-tests.md)
+      + [Cloud Manager - Functional Tests](./cloud-5/season-2/cloud5-mocm-functional-tests.md)
 + [AEM Experts Series](./aem-experts-series.md)
 + Multi-step Tutorials{#multi-step-tutorials}
     + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)

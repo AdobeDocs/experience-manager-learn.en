@@ -25,7 +25,7 @@ Since we are creating the new maven project in the cloudmanager folder which alr
 
 >[!NOTE]
 >
->If you deploy this new project as is the cloud service instance will not have HandleFormSubmission and the SubmitToAEMServlet. This is because every time you deploy a project using cloud manager anything under the apps folder will be deleted and overwritten.
+>If you deploy this new project as is the cloud service instance will not have HandleFormSubmission and the SubmitToAEMServlet. This is because every time you deploy a project using Cloud Manager anything under the `/apps` folder is deleted and overwritten.
 
 ## Copy your java code
 

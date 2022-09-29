@@ -42,7 +42,7 @@ The sample assets provided with this article include the following
  ![click on user profile](assets/snow-1.png)
  
 * Click on Manage instance Password
-* The instance details will be shown as below
+* The instance details is shown as below
 ![instance details](assets/snow-3.png)
 
 ## Test the integration

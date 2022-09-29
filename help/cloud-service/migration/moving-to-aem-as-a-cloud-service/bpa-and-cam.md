@@ -24,7 +24,7 @@ The BPA package should be installed on a clone of the production AEM 6.x environ
 
 ## Key activities
 
-+ Make a clone of your production 6.x environment. As you migrate content and refactor code, having a clone of a production environment will be valuable to test various tools and changes.
++ Make a clone of your production 6.x environment. As you migrate content and refactor code, having a clone of a production environment is valuable to test various tools and changes.
 + Download the latest BPA tool from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) and install on your AEM 6.x cloned environment.
 + Use the BPA tool to generate a report that can be uploaded to Cloud Acceleration Manager (CAM). CAM is accessed through [https://experience.adobe.com/](https://experience.adobe.com/) > **Experience Manager** > **Cloud Acceleration Manager**. 
 + Use CAM to provide guidance on what updates need to be made to the current code base and environment in order to move to AEM as a Cloud Service.

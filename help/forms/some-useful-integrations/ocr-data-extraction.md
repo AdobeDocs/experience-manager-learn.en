@@ -19,7 +19,7 @@ The following steps were followed to implement the OCR data extraction with AEM 
 
 ## Create developer account
 
-Create a developer account with [ID Analyzer](https://portal.idanalyzer.com/signin.html). Make a note of the API Key. This key will be needed to invoke REST API's of the ID Analyzer's service.
+Create a developer account with [ID Analyzer](https://portal.idanalyzer.com/signin.html). Make a note of the API Key. This key is needed to invoke REST API's of the ID Analyzer's service.
 
 ## Create Swagger/OpenAPI file
 

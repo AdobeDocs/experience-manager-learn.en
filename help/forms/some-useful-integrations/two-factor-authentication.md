@@ -19,7 +19,7 @@ The following steps were followed to implement the SMS 2FA with AEM Forms using 
 
 ## Create developer account
 
-Create a developer account with [Nexmo](https://dashboard.nexmo.com/sign-in). Make a note of the API Key and API Secret Key. These keys will be needed to invoke REST API's of the Nexmo's service.
+Create a developer account with [Nexmo](https://dashboard.nexmo.com/sign-in). Make a note of the API Key and API Secret Key. These keys are needed to invoke REST API's of the Nexmo's service.
 
 ## Create Swagger/OpenAPI file
 

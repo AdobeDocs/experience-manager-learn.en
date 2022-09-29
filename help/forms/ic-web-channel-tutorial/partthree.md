@@ -22,7 +22,7 @@ exl-id: 798012e5-5099-4fd0-82ad-a21f64a97aca
 
 Form Data Model is dependent on a correctly configured Data Source. We will use the Data Source configured in the previous step as the basis for this Form Data Model.
 
-Form Data Model is the basis for all your Interactive Communications. The Get/Read operation of the Form Data Model will fetch the data from your backend data source and will be used to populate the Interactive Communications document.
+Form Data Model is the basis for all your Interactive Communications. The Get/Read operation of the Form Data Model will fetch the data from your backend data source and is used to populate the Interactive Communications document.
 
 For more information see [Configuring Data Sources](parttwo.md).
 

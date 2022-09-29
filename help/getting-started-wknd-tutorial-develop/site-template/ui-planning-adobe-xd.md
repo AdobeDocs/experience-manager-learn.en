@@ -30,7 +30,7 @@ To follow along with the videos you will need [Adobe XD](https://www.adobe.com/p
 
 ## What you will build {#what-you-will-build}
 
-In this chapter two Adobe XD files will be inspected, one for the [Standard Site Template](https://github.com/adobe/aem-site-template-standard) and another for the proposed WKND site. The 
+In this chapter two Adobe XD files is inspected, one for the [Standard Site Template](https://github.com/adobe/aem-site-template-standard) and another for the proposed WKND site. The 
 
 ## Standard Site Template UI Kit {#standard-site-template-uikit}
 
@@ -59,6 +59,6 @@ Additional [UI Kits are available](https://www.adobe.com/products/xd/features/ui
 
 ### Next Steps {#next-steps}
 
-In the next chapter a new page template will be created based on the WKND Article design.
+In the next chapter a new page template is created based on the WKND Article design.
 
-Learn how to create and modify [Page Templates](./page-templates.md). Understand the relationship between a Page Template and a Page. Learn how to configure policies of a Page Template to provide granular governance and brand consistency for content.  A well-structured Magazine Article template will be created based on a mockup from Adobe XD.
+Learn how to create and modify [Page Templates](./page-templates.md). Understand the relationship between a Page Template and a Page. Learn how to configure policies of a Page Template to provide granular governance and brand consistency for content.  A well-structured Magazine Article template is created based on a mockup from Adobe XD.

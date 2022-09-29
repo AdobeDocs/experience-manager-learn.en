@@ -50,7 +50,7 @@ The WKND site home page displays local activities or the best thing to do around
 
     ![Element](assets/select-element.png)
 
-1. Change the text from *Camping in Western Australia* to *Adventures of Australia*. A list of changes added to an Experience will be displayed under Modifications. You can click and edit the modified item to view its CSS selector and the new content added to it.
+1. Change the text from *Camping in Western Australia* to *Adventures of Australia*. A list of changes added to an Experience are displayed under Modifications. You can click and edit the modified item to view its CSS selector and the new content added to it.
 
     ![Adventures](assets/adventures.png)
 

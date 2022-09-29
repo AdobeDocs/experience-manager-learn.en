@@ -72,7 +72,7 @@ For this exercise, the following users need to be involved and to perform some t
    13. Provide a name (**WKND Home Page Redesign**) for your Activity and save your changes.
    14. From the Activity details screen, make sure to **Activate** your activity.
     ![Activate Activity](assets/personalization-use-case-2/ab-activate.png)
-   15. Navigate to WKND Home Page (http://localhost:4503/content/wknd/en.html) and you will be redirected to the redesigned WKND Site Home Page (http://localhost:4503/content/wknd/en1.html).
+   15. Navigate to WKND Home Page (http://localhost:4503/content/wknd/en.html) and you are redirected to the redesigned WKND Site Home Page (http://localhost:4503/content/wknd/en1.html).
      ![WKND Home Page Redesigned](assets/personalization-use-case-2/WKND-home-page-redesign.png)
 
 ## Summary

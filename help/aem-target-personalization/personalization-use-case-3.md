@@ -54,7 +54,7 @@ For this exercise, the following users need to be involved and to perform some t
     ![Experience B](assets/personalization-use-case-3/use-case3-experience-b.png)
    8. Click on one of the card layout container (*Best Roasters*) and select **Rearrange** option.
     ![Container Selection](assets/personalization-use-case-3/container-selection.png)
-   9. Click on the container that you would like to rearrange and drag-drop it to the desired location. Let's rearrange the *Best Roasters* container from 1st row 1st column to 1st row 3rd column. Now the *Best Roasters* container will be next to *Photography Exhibitions* container.
+   9. Click on the container that you would like to rearrange and drag-drop it to the desired location. Let's rearrange the *Best Roasters* container from 1st row 1st column to 1st row 3rd column. Now the *Best Roasters* container is next to *Photography Exhibitions* container.
     ![Container Swap](assets/personalization-use-case-3/container-swap.png)
     **After Swap**
     ![Container Swapped](assets/personalization-use-case-3/after-swap-1-3.png)

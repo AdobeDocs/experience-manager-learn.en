@@ -87,9 +87,9 @@ It is a best practice to trigger any custom code based on an event from the data
 
     >[!CAUTION]
     >
-    > It will be important **not** to refresh the browser throughout this exercise, otherwise the console JavaScript will be lost.
+    > It is important **not** to refresh the browser throughout this exercise, otherwise the console JavaScript is lost.
 
-1. Next, enter an event handler that will be called when a **Teaser** component is shown within a **Carousel**.
+1. Next, enter an event handler that is called when a **Teaser** component is shown within a **Carousel**.
 
     ```js
     function teaserShownHandler(event) {
@@ -128,7 +128,7 @@ It is a best practice to trigger any custom code based on an event from the data
 
 1. Return to the page and toggle the carousel slides. Observe that no more statements are logged and that the event is not being listened to.
 
-1. Next, enter an event handler that will be called when page shown event is triggered:
+1. Next, create an event handler that is called when page shown event is triggered:
 
     ```js
     function pageShownHandler(event) {

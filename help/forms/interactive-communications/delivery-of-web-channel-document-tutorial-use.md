@@ -1,12 +1,8 @@
 ---
 title: Delivery of Interactive Communication Document - Web Channel AEM Forms
-seo-title: Delivery of Interactive Communication Document - Web Channel AEM Forms
 description: Delivery of web channel document via link in email
-seo-description: Delivery of web channel document via link in email
 feature: Interactive Communication
-topics: development
 audience: developer
-doc-type: article
 activity: implement
 version: 6.4,6.5
 topic: Development
@@ -18,7 +14,7 @@ exl-id: 50858100-3d0c-42bd-87b8-f626212669e2
 
 Once you have defined and tested your web channel interactive communication document, you need a delivery mechanism to deliver the web channel document to the recipient.
 
-In this article, we take a look at email as a delivery mechanism for web channel document. The recipient will get a link to the web channel document via email.On clicking the link, the user will be asked to authenticate and the web channel document will be populated with the data specific to the logged in user.
+In this article, we take a look at email as a delivery mechanism for web channel document. The recipient will get a link to the web channel document via email.On clicking the link, the user is asked to authenticate and the web channel document is populated with the data specific to the logged in user.
 
 Let's take a look at the following code snippet. This code is part of GET.jsp which gets triggered when the user click's on the link in the email to view the web channel document. We get the logged in user using the jackrabbit UserManager. Once we get the logged in user, we get the value of the accountNumber property associated with the user's profile.
 
@@ -34,16 +30,14 @@ map.put("accountnumber",accountNumber);
 slingRequest.setAttribute("paramMap",map);
 CustomParameterRequest wrapperRequest = new CustomParameterRequest(slingRequest,"GET");
 wrapperRequest.getRequestDispatcher("/content/forms/af/401kstatement/irastatement/channels/web.html").include(wrapperRequest, response);
-
 ```
 
-![includemethod](assets/includemethod.jpg)
+![Include method approach](assets/includemethod.jpg)
 
 Visual representation of Line 7 code
 
-![requestparameter](assets/requestparameter.png)
+![Request parameter configuration](assets/requestparameter.png)
 
 Request Attribute defined for read service of the form data modal
-
 
 [Sample AEM Package](assets/webchanneldelivery.zip).

@@ -10,8 +10,8 @@ exl-id: 404c345b-efc3-44b9-bc38-6d911627ff5a
 ---
 # Creating Adaptive Form Template
 
-Every adaptive form is based on an adaptive form template. The template defines the structure, initial content, theme etc., the adaptive form will inherit. You can create a new adaptive form template or use the out of the box template when creating your adaptive form.
-The template created here will be the basis for our adaptive form going forward.
+Every adaptive form is based on an adaptive form template. The template defines the structure, initial content, theme etc., the adaptive form inherits. You can create a new adaptive form template or use the out of the box template when creating your adaptive form.
+The template created here is the basis for our adaptive form going forward.
 The following video shows you the basic process of creating adaptive form template
 
 >[!VIDEO](https://video.tv.adobe.com/v/37324/quality=9)

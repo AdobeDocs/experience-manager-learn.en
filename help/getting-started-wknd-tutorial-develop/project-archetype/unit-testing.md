@@ -64,7 +64,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 
 In this tutorial, we'll explore how to write [Unit Tests](https://en.wikipedia.org/wiki/Unit_testing) for our Byline component's [Sling Model](https://sling.apache.org/documentation/bundles/models.html) (created in the [Creating a custom AEM Component](custom-component.md)). Unit tests are build-time tests written in Java that verify expected behavior of Java code. Each unit tests is typically small, and validates the output of a method (or units of work) against expected results.
 
-We will be using AEM best practices, and use:
+We use AEM best practices, and employ:
 
 * [JUnit 5](https://junit.org/junit5/)
 * [Mockito Testing Framework](https://site.mockito.org/)
@@ -231,7 +231,7 @@ Since unit tests are executed at build, outside the context of a running AEM ins
 
     This variable, `ctx`, exposes a mock AEM context that provides a number of AEM and Sling abstractions:
 
-    * The BylineImpl Sling Model will be registered into this context
+    * The BylineImpl Sling Model is registered into this context
     * Mock JCR content structures are created in this context
     * Custom OSGi services can be registered in this context
     * Provides a variety of common required mock objects and helpers such as SlingHttpServletRequest objects, a variety of mock Sling and AEM OSGi services such as ModelFactory, PageManager, Page, Template, ComponentManager, Component, TagManager, Tag, etc.
@@ -376,7 +376,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
     * **`@ExtendWith({AemContextExtension.class, MockitoExtension.class})`** marks the Test Case class to be run with the [Mockito JUnit Jupiter Extension](https://www.javadoc.io/page/org.mockito/mockito-junit-jupiter/latest/org/mockito/junit/jupiter/MockitoExtension.html) which allows for the use of the @Mock annotations to define mock objects at the Class level.
     * **`@Mock private Image`** creates a mock object of type `com.adobe.cq.wcm.core.components.models.Image`. Note that this is defined at the class level so that, as needed, `@Test` methods can alter its behavior as needed.
     * **`@Mock private ModelFactory`** creates a mock object of type ModelFactory. Note that this is a pure Mockito mock and has no methods implemented on it. Note that this is defined at the class level so that, as needed, `@Test`methods can alter its behavior as needed.
-    * **`when(modelFactory.getModelFromWrappedRequest(..)`** registers mock behavior for when `getModelFromWrappedRequest(..)` is called on the mock ModelFactory object. The result defined in `thenReturn (..)` is to return the mock Image object. Note that this behavior is only invoked when: the 1st parameter is equal to the `ctx`'s  request object, the 2nd param is any Resource object, and the 3rd param must be the Core Components Image class. We accept any Resource because throughout our tests we will be setting the `ctx.currentResource(...)` to various mock resources defined in the **BylineImplTest.json**. Note that we add the **lenient()** strictness because we will later want to override this behavior of the ModelFactory.
+    * **`when(modelFactory.getModelFromWrappedRequest(..)`** registers mock behavior for when `getModelFromWrappedRequest(..)` is called on the mock ModelFactory object. The result defined in `thenReturn (..)` is to return the mock Image object. Note that this behavior is only invoked when: the 1st parameter is equal to the `ctx`'s  request object, the 2nd param is any Resource object, and the 3rd param must be the Core Components Image class. We accept any Resource because throughout our tests we are setting the `ctx.currentResource(...)` to various mock resources defined in the **BylineImplTest.json**. Note that we add the **lenient()** strictness because we will later want to override this behavior of the ModelFactory.
     * **`ctx.registerService(..)`.** registers the mock ModelFactory object into the AemContext, with the highest service ranking. This is required since the ModelFactory used in the BylineImpl's `init()` is injected via the `@OSGiService ModelFactory model` field. In order for the AemContext to inject **our** mock object, which handles calls to `getModelFromWrappedRequest(..)`, we must register it as the highest ranking Service of that type (ModelFactory).
 
 1. Re-run the test, and again it fails, but this time the message is clear why its failed.
@@ -406,7 +406,7 @@ Now that we have a basic mock context setup, let's write our first test for **By
 
 ## Testing getOccupations() {#testing-get-occupations}
 
-Ok great! Our first test has passed! Let's move on and test `getOccupations()`. Since the initialization of the mock context was does in the `@Before setUp()`method, this will be available to all `@Test` methods in this Test Case, including `getOccupations()`.
+Ok great! Our first test has passed! Let's move on and test `getOccupations()`. Since the initialization of the mock context was does in the `@Before setUp()`method, this is available to all `@Test` methods in this Test Case, including `getOccupations()`.
 
 Remember that this method must return an alphabetically sorted list of occupations (descending) stored in the occupations property.
 
@@ -441,7 +441,7 @@ Remember that this method must return an alphabetically sorted list of occupatio
 
 1. Remember, just like **`getName()`** above, the **BylineImplTest.json** does not define occupations, so this test will fail if we run it, since `byline.getOccupations()` will return an empty list.
 
-    Update **BylineImplTest.json** to include a list of occupations, and they will be set in non-alphabetical order to ensure that our tests validate that the occupations are sorted alphabetically by **`getOccupations()`**.
+    Update **BylineImplTest.json** to include a list of occupations, and they are set in non-alphabetical order to ensure that our tests validate that the occupations are sorted alphabetically by **`getOccupations()`**.
 
     ```json
     {

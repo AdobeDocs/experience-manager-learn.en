@@ -11,7 +11,7 @@ exl-id: 0260d4b6-8615-4d78-a920-b36766a0f8e9
 ---
 # Introduction
 
-Whether you are applying for a mortgage or opening a new bank account you will be required to fill and sign multiple forms. The integration between AEM Forms and Adobe Sign makes it easy to fill and sign multiple forms.
+Whether you are applying for a mortgage or opening a new bank account you are required to fill and sign multiple forms. The integration between AEM Forms and Adobe Sign makes it easy to fill and sign multiple forms.
 The following video walks you through the use case of signing multiple forms.
 
 >[!VIDEO](https://video.tv.adobe.com/v/330165?quality=9&learn=on)

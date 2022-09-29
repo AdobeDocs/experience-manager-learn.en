@@ -87,7 +87,7 @@ Create a new metadata worker JavaScript file in the Asset Compute project at the
 
 ### Install npm modules
 
-Install the extra npm modules ([@adobe/asset-compute-xmp](https://www.npmjs.com/package/@adobe/asset-compute-xmp?activeTab=versions), [get-image-colors](https://www.npmjs.com/package/get-image-colors), and [color-namer](https://www.npmjs.com/package/color-namer)) that will be used in this Asset Compute worker.
+Install the extra npm modules ([@adobe/asset-compute-xmp](https://www.npmjs.com/package/@adobe/asset-compute-xmp?activeTab=versions), [get-image-colors](https://www.npmjs.com/package/get-image-colors), and [color-namer](https://www.npmjs.com/package/color-namer)) that is used in this Asset Compute worker.
 
 ```
 $ npm install @adobe/asset-compute-xmp
@@ -148,7 +148,7 @@ exports.main = worker(async (source, rendition, params) => {
       "wknd:colorsFamily": colorsFamily
     }, {
       // Define any property namespaces used in the above property/value definition
-      // These namespaces will be automatically registered in AEM if they do not yet exist
+      // These namespaces are automatically registered in AEM if they do not yet exist
       namespaces: {
         wknd: "https://wknd.site/assets/1.0/",
       },

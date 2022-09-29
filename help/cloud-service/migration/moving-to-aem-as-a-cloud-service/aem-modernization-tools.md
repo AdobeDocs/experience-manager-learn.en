@@ -85,4 +85,4 @@ Also, make sure you have completed the previous hands-on exercise:
 
 
 1. Deploy the newly modernized wknd-legacy site on the local AEM SDK. AEM ASK available for download here: 
-  + [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html). 
+    + [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html). 

@@ -21,11 +21,11 @@ Learn how to create a custom weather component to be used with the AEM SPA Edito
 
 1. Understand the role of Sling Models in manipulating the JSON model API provided by AEM.
 2. Understand how to create new AEM component dialogs.
-3. Learn to create a **custom** AEM Component that will be compatible with the SPA editor framework.
+3. Learn to create a **custom** AEM Component that is compatible with the SPA editor framework.
 
 ## What you will build
 
-A simple weather component will be built. This component will be able to be added to the SPA by content authors. Using an AEM dialog, authors can set the location for the weather to be displayed.  The implementation of this component illustrates the steps needed to create a net-new AEM component that is compatible with the AEM SPA Editor framework.
+A simple weather component is built. This component is able to be added to the SPA by content authors. Using an AEM dialog, authors can set the location for the weather to be displayed.  The implementation of this component illustrates the steps needed to create a net-new AEM component that is compatible with the AEM SPA Editor framework.
 
 ![Configure the Open Weather Component](assets/custom-component/enter-dialog.png)
 
@@ -59,9 +59,9 @@ An AEM component is defined as a node and properties. In the project these nodes
 
     ![Create Custom Component defintion](assets/custom-component/aem-custom-component-definition.png)
 
-    `jcr:primaryType="cq:Component"` - identifies that this node will be an AEM component.
+    `jcr:primaryType="cq:Component"` - identifies that this node is an AEM component.
 
-    `jcr:title` is the value that will be displayed to Content Authors and the `componentGroup` determines the grouping of components in the authoring UI.
+    `jcr:title` is the value that is displayed to Content Authors and the `componentGroup` determines the grouping of components in the authoring UI.
 
 4. Beneath the `custom-component` folder, create another folder named `_cq_dialog`.
 5. Beneath the `_cq_dialog` folder create a new file named `.content.xml` and populate it with the following:
@@ -131,9 +131,9 @@ An AEM component is defined as a node and properties. In the project these nodes
 
     ![Custom Component definition](assets/custom-component/dialog-custom-component-defintion.png)
 
-    The above XML file generates a very simple dialog for the `Weather Component`. The critical part of the file is the inner `<label>`, `<lat>` and `<lon>` nodes. This dialog will contain two `numberfield`s and a `textfield` that will allow a user to configure the the weather to be displayed.
+    The above XML file generates a very simple dialog for the `Weather Component`. The critical part of the file is the inner `<label>`, `<lat>` and `<lon>` nodes. This dialog contains two `numberfield`s and a `textfield` that allows a user to configure the the weather to be displayed.
 
-    A Sling Model will be created next to expose the value of the `label`,`lat` and `long` properties via the JSON model.
+    A Sling Model is created next to expose the value of the `label`,`lat` and `long` properties via the JSON model.
 
     >[!NOTE]
     >

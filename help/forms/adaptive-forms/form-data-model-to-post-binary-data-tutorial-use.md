@@ -24,9 +24,9 @@ Form Data Model Tab - Properties
 
 In the Service Input tab we map the following
 
-* file(The Binary Object that needs to be stored) with DOR.pdf property relative to payload. What that means is when the Adaptive Form is submitted, the Document Of Record that is generated will be stored in a file called DOR.pdf relative to the workflow payload.**Make sure this DOR.pdf is the same that you provide when configuring the Adaptive Form's submission property.**
+* file(The Binary Object that needs to be stored) with DOR.pdf property relative to payload. What that means is when the Adaptive Form is submitted, the Document Of Record that is generated is stored in a file called DOR.pdf relative to the workflow payload.**Make sure this DOR.pdf is the same that you provide when configuring the Adaptive Form's submission property.**
 
-* fileName - This is the name by which the binary object will be stored in DAM. So you want this property to be dynamically generated, so that each fileName would be unique per submission. For this purpose we have used the process step in the workflow to create metadata property called filename and set its value to combination of Member Name and Account Number of the person submitting the form. For example if the member name of the person is John Jacobs and his account number is 9846, the file name would be John Jacobs_9846.pdf
+* fileName - This is the name by which the binary object is stored in DAM. So you want this property to be dynamically generated, so that each fileName would be unique per submission. For this purpose we have used the process step in the workflow to create metadata property called filename and set its value to combination of Member Name and Account Number of the person submitting the form. For example if the member name of the person is John Jacobs and his account number is 9846, the file name would be John Jacobs_9846.pdf
 
 ![fdmserviceinput](assets/fdminputservice.png)
 

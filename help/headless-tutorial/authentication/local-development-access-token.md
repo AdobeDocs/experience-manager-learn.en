@@ -68,7 +68,7 @@ The key element in programmatically authenticating to AEM using the access token
 
 ## Running the External Application
 
-1. Ensure that [Node.js](/help/cloud-service/local-development-environment/development-tools.md?lang=en#node-js) is installed on your local development machine, which will be used to run the external application
+1. Ensure that [Node.js](/help/cloud-service/local-development-environment/development-tools.md?lang=en#node-js) is installed on your local development machine, which is used to run the external application
 1. Download and unzip the [sample external application](./assets/aem-guides_token-authentication-external-application.zip)
 1. From the command line, in this project's folder, run `npm install`
 1. Copy the [downloaded the Local Development Access Token](#download-local-development-access-token) to a file named `local_development_token.json` in the root of the project
@@ -233,7 +233,7 @@ The key element in programmatically authenticating to AEM using the access token
     The following parameters are passed in:
 
     + `aem`: The scheme and host name of the AEM as a Cloud Service environment the application will interact with (ex. `https://author-p1234-e5678.adobeaemcloud.com`).
-    + `folder`: The asset folder path whose assets will be updated with the `propertyValue`; do NOT add the `/content/dam` prefix (ex. `/wknd/en/adventures/napa-wine-tasting`)
+    + `folder`: The asset folder path whose assets is updated with the `propertyValue`; do NOT add the `/content/dam` prefix (ex. `/wknd/en/adventures/napa-wine-tasting`)
     + `propertyName`: The asset property name to update, relative to `[dam:Asset]/jcr:content` (ex. `metadata/dc:rights`).
     + `propertyValue`: The value to set the `propertyName` to; values with spaces need to be encapsulated with `"` (ex. `"WKND Limited Use"`)
     + `file`: The relative file path to the JSON file downloaded from AEM Developer Console.

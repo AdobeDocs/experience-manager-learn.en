@@ -12,7 +12,7 @@ exl-id: c9ee29d4-a8a5-4e61-bc99-498674887da5
 
 ## Introduction {#introduction}
 
-When multiple teams are deploying their code to the same AEM environments, there are practices they should follow to ensure that teams can work as independently as possible, without stepping on other teams’ toes. Although they can never be fully eliminated, these techniques will minimize cross-team dependencies. For a concurrent development model to be successful, good communication between the development teams is critical.
+When multiple teams are deploying their code to the same AEM environments, there are practices they should follow to ensure that teams can work as independently as possible, without stepping on other teams' toes. Although they can never be fully eliminated, these techniques will minimize cross-team dependencies. For a concurrent development model to be successful, good communication between the development teams is critical.
 
 Additionally, when multiple development teams work on the same AEM environment, there is likely some degree of multi-tenancy at play. Much has been written on the practical considerations of attempting to support multiple tenants in an AEM environment, especially around the challenges faced when managing governance, operations, and development. This paper explores some of the technical challenges around implementing AEM in a multi-tenant environment, but many of these recommendations will apply to any organization with multiple development teams.
 
@@ -47,7 +47,7 @@ When managing Maven project dependencies, it is important that all teams use the
 
 Project A depends on version 1.0 of the library, foo; foo version 1.0 is embedded in their deployment to the server. Project B depends on version 1.1 of the library, foo; foo version 1.1 is embedded in their deployment.
 
-Furthermore, let’s assume that an API has changed in this library between versions 1.0 and 1.1. At this point, one of these two projects will no longer work properly.
+Furthermore, let's assume that an API has changed in this library between versions 1.0 and 1.1. At this point, one of these two projects will no longer work properly.
 
 To address this concern, we recommend making all Maven projects children of one parent reactor project. This reactor project serves two purposes: it allows for the building and deployment of all projects together if so desired, and it contains the dependency declarations for all the child projects. The parent project defines the dependencies and their versions while the child projects only declare the dependencies that they require, inheriting the version from the parent project.
 
@@ -59,7 +59,7 @@ Note that this does not eliminate the need for these teams to share this depende
 
 When working on multiple projects, it is important to ensure that code is not duplicated. Code duplication increases the likelihood of defect occurrences, the cost of changes to the system, and overall rigidity in the code base. To prevent duplication, refactor common logic into reusable libraries that can be used across multiple projects.
 
-To support this need, we recommend the development and maintenance of a core project that all teams can depend on and contribute to. When doing so, it is important to ensure that this core project does not, in turn, depend on any of the individual teams’ projects; this allows for independent deployability while still promoting code reuse.
+To support this need, we recommend the development and maintenance of a core project that all teams can depend on and contribute to. When doing so, it is important to ensure that this core project does not, in turn, depend on any of the individual teams' projects; this allows for independent deployability while still promoting code reuse.
 
 Some examples of code that commonly in a core module include:
 
@@ -86,7 +86,7 @@ To ensure that the changes made to this core package do not disrupt the function
 
 ## Managing Deployment Scope&nbsp {#managing-deployment-scope}
 
-As different teams deploy their code to the same repository, it is important that they do not overwrite each other’s changes. AEM has a mechanism to control this when deploying content packages, the filter. xml file. It is important that there is no overlap between filter.  xml files, otherwise one team’s deployment could potentially erase another team’s previous deployment. To illustrate this point, see the following examples of well-crafted vs. problematic filter files:
+As different teams deploy their code to the same repository, it is important that they do not overwrite each other's changes. AEM has a mechanism to control this when deploying content packages, the filter. xml file. It is important that there is no overlap between filter.  xml files, otherwise one team's deployment could potentially erase another team's previous deployment. To illustrate this point, see the following examples of well-crafted vs. problematic filter files:
 
 /apps/my-company vs. /apps/my-company/my-site
 
@@ -94,7 +94,7 @@ As different teams deploy their code to the same repository, it is important tha
 
 /etc/designs/my-company vs. /etc/designs/my-company/my-site
 
-If each team explicitly configures their filter file down to the site(s) that they are working on, each team can deploy their components, client libraries, and site designs independently without erasing each other’s changes.
+If each team explicitly configures their filter file down to the site(s) that they are working on, each team can deploy their components, client libraries, and site designs independently without erasing each other's changes.
 
 Because it is a global system path and not specific to one site, the following servlet should be included in the core project, as changes made here could potentially impact any team:
 
@@ -102,13 +102,13 @@ Because it is a global system path and not specific to one site, the following s
 
 ### Overlays {#overlays}
 
-Overlays are frequently used to extend or replace out of the box AEM functionality, but using an overlay affects the entire AEM application (that is, any functionality changes will be available for all tenants). This would be further complicated if tenants had different requirements for the overlay. Ideally, business groups should work together to agree on the functionality and appearance of AEM’s administrative consoles.
+Overlays are frequently used to extend or replace out of the box AEM functionality, but using an overlay affects the entire AEM application (that is, any overlaid functionality changes are made available for all tenants). This would be further complicated if tenants had different requirements for the overlay. Ideally, business groups should work together to agree on the functionality and appearance of AEM's administrative consoles.
 
 If consensus cannot be reached amongst the various business units, a possible solution would be to simply not use overlays. Instead, create a custom copy of the functionality and expose it via a different path for each tenant. This allows each tenant to have a completely different user experience, but this approach increases the cost of implementation and subsequent upgrade efforts as well.
 
 ### Workflow Launchers {#workflow-launchers}
 
-AEM uses workflow launchers to automatically trigger workflow execution when specified changes are made in the repository. AEM provides several launchers out of the box, for example, to execute rendition generation and metadata extraction processes on new and updated assets. While it is possible to leave these launchers as-is, in a multitenant environment, if tenants have different launcher and/or workflow model requirements, then it is likely that individual launchers will need to be created and maintained for each tenant. These launchers will need to be configured to execute on their tenant’s updates while leaving content from other tenants untouched. Easily accomplish this is by applying launchers to specified repository paths that are tenant-specific.
+AEM uses workflow launchers to automatically trigger workflow execution when specified changes are made in the repository. AEM provides several launchers out of the box, for example, to execute rendition generation and metadata extraction processes on new and updated assets. While it is possible to leave these launchers as-is, in a multitenant environment, if tenants have different launcher and/or workflow model requirements, then it is likely that individual launchers will need to be created and maintained for each tenant. These launchers will need to be configured to execute on their tenant's updates while leaving content from other tenants untouched. Easily accomplish this is by applying launchers to specified repository paths that are tenant-specific.
 
 ### Vanity URLs {#vanity-urls}
 
@@ -120,13 +120,13 @@ When developing components and templates for multiple authoring groups, it is im
 
 ### Testing {#testing}
 
-While a good architecture and open communication channels can help prevent the introduction of defects into unexpected areas of the site, these approaches are not foolproof. For this reason, it is important to fully test what is being deployed on the platform before releasing anything into production. This requires coordination between teams on their release cycles and reinforces the need for a suite of automated tests that cover as much functionality as possible. Additionally, because one system will be shared by multiple teams, performance, security, and load testing become more important than ever.
+While a good architecture and open communication channels can help prevent the introduction of defects into unexpected areas of the site, these approaches are not foolproof. For this reason, it is important to fully test what is being deployed on the platform before releasing anything into production. This requires coordination between teams on their release cycles and reinforces the need for a suite of automated tests that cover as much functionality as possible. Additionally, because one system is shared by multiple teams, performance, security, and load testing become more important than ever.
 
 ## Operational Considerations {#operational-considerations}
 
 ### Shared Resources {#shared-resources}
 
-AEM runs within a single JVM; any deployed AEM applications inherently share resources with each other, on top of resources already consumed in the normal running of AEM. Within the JVM space itself, there will be no logical separation of threads, and the finite resources available to AEM, such as memory, CPU, and disk i/o will also be shared. Any tenant consuming resources will inevitably affect other system tenants.
+AEM runs within a single JVM; any deployed AEM applications inherently share resources with each other, on top of resources already consumed in the normal running of AEM. Within the JVM space itself, there is no logical separation of threads, and the finite resources available to AEM, such as memory, CPU, and disk I/O is also shared. Any tenant consuming resources will inevitably affect other system tenants.
 
 ### Performance {#performance}
 
@@ -134,7 +134,7 @@ If not following AEM best practices, it is possible to develop applications that
 
 ### Logging {#logging}
 
-AEM provides out of the box interfaces for robust logger configuration that can be used to our advantage in shared development scenarios. By specifying separate loggers for each brand, by package name, we can achieve some degree of log separation. While system-wide operations like replication and authentication will still be logged to a central location, non-shared custom code can be logged separately, easing monitoring and debugging efforts for each brand’s technical team.
+AEM provides out of the box interfaces for robust logger configuration that can be used to our advantage in shared development scenarios. By specifying separate loggers for each brand, by package name, we can achieve some degree of log separation. While system-wide operations like replication and authentication will still be logged to a central location, non-shared custom code can be logged separately, easing monitoring and debugging efforts for each brand's technical team.
 
 ### Backup and Restore {#backup-and-restore}
 

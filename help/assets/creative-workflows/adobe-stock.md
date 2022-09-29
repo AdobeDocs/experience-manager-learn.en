@@ -62,7 +62,7 @@ AEM 6.4.2 provides users the ability to search, preview, save and license Adobe 
 
 >[!NOTE]
 >
->For Adobe Stock Cloud service configuration, you must select the PROD Environment and Licensed asset path point to /content/dam. Environment field would be removed in the next AEM release and the licensed asset path is part of an upcoming feature and support for this field will be introduced in the next AEM release.
+>For Adobe Stock Cloud service configuration, you must select the Production environment and Licensed asset path point to `/content/dam`. Environment field is now removed in AEM.
 
 >[!NOTE]
 >
@@ -90,8 +90,8 @@ AEM 6.4.2 provides users the ability to search, preview, save and license Adobe 
 1. Create a new cloud service configuration for Adobe Stock under **Tools > CLoud Services.**
 2. Select the *Adobe IMS Configuration* created in the above section for your *Adobe Stock Cloud* configuration
 
-3. Make sure you select the **ENVIRONMENT** as PROD. Staging environment is not supported and will be removed in the next release of AEM. 
-4. **Licensed Asset path** can be pointed to any directory under /content/dam. Feature support for this field will be added in the next release of AEM
+3. Make sure you select the **ENVIRONMENT** as PROD. 
+4. **Licensed Asset path** can be pointed to any directory under `/content/dam`. 
 5. Select your locale and complete the setup. 
 6. You can also add users/groups to your Adobe Stock Cloud service to enable access for specific users or groups.
 

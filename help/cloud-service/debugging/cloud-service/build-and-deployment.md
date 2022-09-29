@@ -86,8 +86,8 @@ When multiple OSGi configurations resolve via runmode for the target AEM environ
 
 ```
 [ERROR] Unable to convert content-package [/tmp/packages/enduser.all-1.0-SNAPSHOT.zip]: 
-Configuration ‘com.example.ExampleComponent’ already defined in Feature Model ‘com.example.groupId:example.all:slingosgifeature:xxxxx:X.X’, 
-set the ‘mergeConfigurations’ flag to ‘true’ if you want to merge multiple configurations with same PID
+Configuration 'com.example.ExampleComponent' already defined in Feature Model 'com.example.groupId:example.all:slingosgifeature:xxxxx:X.X', 
+set the 'mergeConfigurations' flag to 'true' if you want to merge multiple configurations with same PID
 ```
 
 #### Cause 1
@@ -104,7 +104,7 @@ set the ‘mergeConfigurations’ flag to ‘true’ if you want to merge multip
 
 Repoinit scripts define baseline content, users, ACLs, etc. In AEM as a Cloud Service, repoinit scripts are applied during Build Image, however on AEM SDK's local quickstart they are applied when the OSGi repoinit factory configuration is activated. Because of this, Repoinit scripts may quietly fail (with logging) on AEM SDK's local quickstart, and but cause the Build Image step to fail, halting deployment.
 
-+ __Cause:__ A repoinit script is malformed. Note this may leave your repository in an incomplete state as any repoinit scripts after the failing script will be executed against the repository.
++ __Cause:__ A repoinit script is malformed. This may leave your repository in an incomplete state as any repoinit scripts after the failing script are not executed against the repository.
 + __Resolution:__ Review the AEM SDK's local quickstart when the repoinit script OSGi configuration is deployed to determine if and what the errors are.
 
 ### Unsatisfied repoinit content dependency

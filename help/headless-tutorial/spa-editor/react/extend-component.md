@@ -237,7 +237,7 @@ Our `Banner` component requires an extra text field in the dialog to capture the
 
 ## Implement SPA Component {#implement-spa-component}
 
-In order to use the Banner component with the SPA Editor, a new SPA component must be created that will map to `wknd-spa-react/components/banner`. This will be done in the `ui.frontend` module.
+In order to use the Banner component with the SPA Editor, a new SPA component must be created that will map to `wknd-spa-react/components/banner`. This is done in the `ui.frontend` module.
 
 1. In the `ui.frontend` module create a new folder for `Banner` at `ui.frontend/src/components/Banner`.
 1. Create a new file named `Banner.js` beneath the `Banner` folder. Populate it with the following:
@@ -320,7 +320,7 @@ In order to use the Banner component with the SPA Editor, a new SPA component mu
 
 ## Add Java Interface {#java-interface}
 
-To ultimately expose the values from the component dialog to the React component we need to update the Sling Model that populates the JSON for the `Banner` component. This will be done in the `core` module that contains all of the Java code for our SPA project. 
+To ultimately expose the values from the component dialog to the React component we need to update the Sling Model that populates the JSON for the `Banner` component. This is done in the `core` module that contains all of the Java code for our SPA project. 
 
 First we will create a new Java interface for `Banner` that extends the `Image` Java interface.
 

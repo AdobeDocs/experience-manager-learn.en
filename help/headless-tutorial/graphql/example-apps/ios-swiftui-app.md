@@ -177,7 +177,7 @@ AEM's persisted queries are executed over HTTP GET and thus, common GraphQL libr
 1. The public func calls a private func `makeRequest(..)` that invokes an asynchronous HTTP GET request to AEM Headless, and returns the JSON data.
 1. Each public func then decodes the JSON data, and performs any required checks or transformations, before returning the Adventure data to the view.
   
-  + AEM's GraphQL JSON data is decoded using the structs/classes defined in `AEM/Models.swift`, which map to the JSON objects returned my AEM Headless. 
+   + AEM's GraphQL JSON data is decoded using the structs/classes defined in `AEM/Models.swift`, which map to the JSON objects returned my AEM Headless. 
 
 ```swift
     /// # getAdventures(..)

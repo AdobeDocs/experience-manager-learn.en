@@ -11,21 +11,21 @@ exl-id: 9ad69407-2413-416f-9cec-43f88989b31d
 ---
 # Converting comma separated string into string array {#setting-value-of-json-data-element-in-aem-forms-workflow}
 
-When your form is based on a form data model which has an array of strings as an input parameter, you will need to manipulate the submitted adaptive form data to insert an array of strings. As an example if you have bound a checkbox field to a form data model element of type string array, the data from the checkbox field will be in a comma separated string format. The sample code listed below shows you how to replace the comma separated string with an array of strings.
+When your form is based on a form data model which has an array of strings as an input parameter, you need to manipulate the submitted adaptive form data to insert an array of strings. As an example if you have bound a checkbox field to a form data model element of type string array, the data from the checkbox field is in a comma separated string format. The sample code listed below shows you how to replace the comma separated string with an array of strings.
 
 ## Create a process step
 
-A process step is used in an AEM workflow when we want our workflow to execute a certain logic. The process step can be associated with a ECMA script or an OSGi service. Our custom process step will execute the OSGi service
+A process step is used in an AEM workflow when we want our workflow to execute a certain logic. The process step can be associated with a ECMA script or an OSGi service. Our custom process step executes the OSGi service.
 
 The submitted data is in the following format. The businessUnits element's value is a comma separated string, that needs to be converted into an array of string.
 
 ![submitted-data](assets/submitted-data-string.png)
 
-The input data for the rest endpoint associated with the form data model expects an array of strings as shown in this screen shot. The custom code in the process step will convert the submitted data in to the correct format.
+The input data for the rest endpoint associated with the form data model expects an array of strings as shown in this screen shot. The custom code in the process step converts the submitted data in to the correct format.
 
 ![fdm-string-array](assets/string-array-fdm.png)
 
-We pass the JSON object path and the element name to the process step. The code in the process step will replace the comma separated values of the element into an array of strings.
+We pass the JSON object path and the element name to the process step. The code in the process step replaces the comma separated values of the element into an array of strings.
  ![process-step](assets/create-string-array.png)
 
 >[!NOTE]

@@ -169,8 +169,3 @@ Congratulations! You've added authoring ability to dynamic routes in the SPA!
 + Authored content on the dynamic Bali Surf Camp route!
 
 You've now completed exploring the first steps of how AEM SPA Editor can be used to add specific editable areas to a Remote SPA! 
-
-
->[!NOTE]
->
->Stay tuned! This tutorial will be expanded to cover Adobe's best practices and recommendations on how to deploy the SPA Editor solution to AEM as a Cloud Service, and production environments.

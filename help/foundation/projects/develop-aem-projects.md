@@ -58,7 +58,7 @@ The full node structure:
 
 ### Project Template Root
 
-The root node of the project template will be of type **cq:Template**. On this node you can configure properties **jcr:title** and **jcr:description** that will be displayed in the Create Project Wizard. There is also a property called **wizard** that points to a form that will populate the Properties of the project. The default value of: **/libs/cq/core/content/projects/wizard/steps/defaultproject.html** should work fine for most cases, as it allows the user to populate the basic Project properties and add group members.
+The root node of the project template is of type **cq:Template**. On this node you can configure properties **jcr:title** and **jcr:description** that is displayed in the Create Project Wizard. There is also a property called **wizard** that points to a form that will populate the Properties of the project. The default value of: **/libs/cq/core/content/projects/wizard/steps/defaultproject.html** should work fine for most cases, as it allows the user to populate the basic Project properties and add group members.
 
 *&#42;Note the Create Project Wizard does not use the Sling POST servlet. Instead values are posted to a custom servlet: **com.adobe.cq.projects.impl.servlet.ProjectServlet**. This should be taken into account when adding custom fields.*
 
@@ -87,7 +87,7 @@ One the most enticing reasons for creating a custom Project Template is that it 
 
 ## Creating a project template {#creating-project-template}
 
-Since we will be primarily copying/configuring nodes we will use CRXDE Lite. In your local AEM instance open up [CRXDE Lite](http://localhost:4502/crx/de/index.jsp).
+Since we are primarily copying/configuring nodes we will use CRXDE Lite. In your local AEM instance open up [CRXDE Lite](http://localhost:4502/crx/de/index.jsp).
 
 1. Start by creating a new folder beneath `/apps/&lt;your-app-folder&gt;` named `projects`. Create another folder beneath that named `templates`.
 
@@ -284,7 +284,7 @@ While Tasks have some advantages over Participant Steps they do carry additional
 
 The above diagram outlines the high level requirements for our sample approval workflow.
 
-The first step will be to create a Task to finish editing a piece of content. We will allow the workflow initiator to choose the assignee of this first task.
+The first step is to create a Task to finish editing a piece of content. We will allow the workflow initiator to choose the assignee of this first task.
 
 Once the first task is complete the assignee will have three options for routing the workflow:
 
@@ -320,7 +320,7 @@ The last step of the workflow makes use of the ootb Activate Page/Asset process 
    >
    >If using AEM 6.4+ the location of Workflow has changed. See [here for more details.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows-best-practices.html#LocationsWorkflowModels)
 
-   If using AEM 6.4+ the workflow model will be created under `/conf/global/settings/workflow/models`. Repeat the above steps with the /conf directory and add a sub-folder named `aem-guides` and move the `content-approval-workflow` beneath it.
+   If using AEM 6.4+ the workflow model is created under `/conf/global/settings/workflow/models`. Repeat the above steps with the /conf directory and add a sub-folder named `aem-guides` and move the `content-approval-workflow` beneath it.
 
    ![Modern workflow definition location](./assets/develop-aem-projects/modern-workflow-definition-location.png)
    Location of workflow model in 6.4+
@@ -341,7 +341,7 @@ The last step of the workflow makes use of the ootb Activate Page/Asset process 
 
    The workflow progress bar as seen from the AEM Inbox.
 
-   Optionally you can upload an **Image** to the Page Properties that will be used as the Workflow thumbnail when users select it. Image dimensions should be 319x319 pixels. Adding a **Description** to the Page Properties will also show up when a user goes to select the workflow.
+   Optionally you can upload an **Image** to the Page Properties that is used as the Workflow thumbnail when users select it. Image dimensions should be 319x319 pixels. Adding a **Description** to the Page Properties will also show up when a user goes to select the workflow.
 
 1. The Create Project Task workflow process is designed to create a Task as a step in the workflow. Only after completing the task will the workflow move forward. A powerful aspect of the Create Project Task step is that it can read workflow meta-data values and use those to dynamically create the task.
 
@@ -370,7 +370,7 @@ The last step of the workflow makes use of the ootb Activate Page/Asset process 
        Due In - Days = "2"
    ```
 
-   The routing tab is an optional dialog that can specify available actions for the user completing the task. These Actions are just string values and will be saved to the workflow's metadata. These values can be read by scripts and/or process steps later in the workflow to dynamically "route" the workflow. Based on the [workflow goals](#goals-tutorial) we will add three actions to this tab:
+   The routing tab is an optional dialog that can specify available actions for the user completing the task. These Actions are just string values and is saved to the workflow's metadata. These values can be read by scripts and/or process steps later in the workflow to dynamically "route" the workflow. Based on the [workflow goals](#goals-tutorial) we will add three actions to this tab:
 
    ```shell
    Routing Tab
@@ -389,7 +389,7 @@ The last step of the workflow makes use of the ootb Activate Page/Asset process 
       Pre-Create Task Script = "/apps/aem-guides/projects/scripts/start-task-config.ecma"
    ```
 
-1. In the previous step we referenced a Pre-Create Task Script. We will create that script now in which we will set the Assignee of the Task based on the value of a workflow metadata value "**assignee**". The **"assignee"** value will be set when the workflow is kicked off. We will also read the workflow metadata to dynamically choose the priority of the task by reading the "**taskPriority"** value of the workflow's metadata as well as the **"taskDueDate" **to dynamically set when the first task is due.
+1. In the previous step we referenced a Pre-Create Task Script. We will create that script now in which we will set the Assignee of the Task based on the value of a workflow metadata value "**assignee**". The **"assignee"** value is set when the workflow is kicked off. We will also read the workflow metadata to dynamically choose the priority of the task by reading the "**taskPriority"** value of the workflow's metadata as well as the **"taskDueDate" **to dynamically set when the first task is due.
 
    For organizational purposes we have created a folder beneath our app folder to hold all our project-related scripts: **/apps/aem-guides/projects-tasks/projects/scripts**. Create a new file beneath this folder named **"start-task-config.ecma"**. &#42;Note make sure the path to your start-task-config.ecma file matches the path set in the Advanced Settings Tab in Step 4.
 
@@ -414,7 +414,7 @@ The last step of the workflow makes use of the ootb Activate Page/Asset process 
    task.setProperty("taskPriority", taskPriority);
    ```
 
-1. Navigate back to the Content Approval Workflow. Drag+Drop the **OR Split** component (found in the Sidekick beneath 'Workflow' category) beneath the **Start Task** Step. On the Common Dialog select the radio button for 3 Branches. The OR Split will read the workflow metadata value **"lastTaskAction"** to determine the route of the workflow. The **"lastTaskAction"** property will be set to one of the values from the Routing Tab configured in Step 4. For each of the Branch tabs fill out the **Script** text area with the following values:
+1. Navigate back to the Content Approval Workflow. Drag+Drop the **OR Split** component (found in the Sidekick beneath 'Workflow' category) beneath the **Start Task** Step. On the Common Dialog select the radio button for 3 Branches. The OR Split will read the workflow metadata value **"lastTaskAction"** to determine the route of the workflow. The **"lastTaskAction"** property is set to one of the values from the Routing Tab configured in Step 4. For each of the Branch tabs fill out the **Script** text area with the following values:
 
    ```
    function check() {
@@ -478,7 +478,7 @@ The last step of the workflow makes use of the ootb Activate Page/Asset process 
 
    Since this is the Normal Approval route the priority of the task is set to Medium. In addition we give the Approvers group 5 days to complete the Task. Assignee is left blank on the Task Tab as we will dynamically assign this in the Advanced Settings Tab. We give the Approvers group two possible routes when completing this task: **"Approve and Publish"** if they approve the content and it can be published and **"Send Back for Revision"** if there are issues that the original editor needs to correct. The approver can leave comments that the original editor will see if the workflow is returned to him/her.
 
-  Earlier in this tutorial we created a Project Template that included an Approvers Role. Each time a new Project is created from this Template a project-specific Group will be created for the Approvers role. Just like a Participant Step a Task can only be assigned to a User or Group. We want to assign this task to the project group that corresponds to the Approvers Group. All workflows that are launched from within a Project will have metadata that maps the Project Roles to the Project specific group.
+  Earlier in this tutorial we created a Project Template that included an Approvers Role. Each time a new Project is created from this Template a project-specific Group is created for the Approvers role. Just like a Participant Step a Task can only be assigned to a User or Group. We want to assign this task to the project group that corresponds to the Approvers Group. All workflows that are launched from within a Project will have metadata that maps the Project Roles to the Project specific group.
 
    Copy+Paste the following code in the **Script** text area of the **Advanced Settings **tab. This code will read the workflow metadata and assign the task to the Project's Approvers group. If it cannot find the approvers group value it will fall back to assigning the task to the Administrators group.
 
@@ -632,7 +632,7 @@ Creating a custom wizard can be very powerful as you can collect critical inform
 
    ![content approval workflow wizard](./assets/develop-aem-projects/content-approval-start-wizard.png)
 
-1. We will add an additional field to the wizard that will be used to set the assignee of the first task in the workflow (see [Create the Workflow Model](#create-workflow-model): Step 5).
+1. We will add an additional field to the wizard that is used to set the assignee of the first task in the workflow (see [Create the Workflow Model](#create-workflow-model): Step 5).
 
    Beneath `../content-approval-start/jcr:content/items/column2/items` create a new node of type `nt:unstructured` named **"assign"**. We will use the Projects User Picker component (which is based off of the [Granite User Picker Component](https://experienceleague.adobe.com/docs/)). This form field makes it easy to restrict the user and group selection to only those belonging to the current project.
 

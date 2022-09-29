@@ -26,7 +26,7 @@ Learn how multiple views in the SPA can be supported by mapping to AEM Pages wit
 
 ## What you will build
 
-This chapter will add navigation to a SPA in AEM. The navigation menu will be driven by the AEM page hierarchy and will make use of the JSON model provided by the [Navigation Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/navigation.html).
+This chapter will add navigation to a SPA in AEM. The navigation menu is driven by the AEM page hierarchy and will make use of the JSON model provided by the [Navigation Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/navigation.html).
 
 ![Navigation added](assets/navigation-routing/navigation-added.png)
 
@@ -144,7 +144,7 @@ Next, inspect the JSON Model that drives the multi-view experience of the SPA.
     }
     ```
 
-    Under `:children` you should see an entry for each of the pages created. The content for all of the pages is in this initial JSON request. With the navigation routing, subsequent views of the SPA will be loaded rapidly, since the content is already available client-side.
+    Under `:children` you should see an entry for each of the pages created. The content for all of the pages is in this initial JSON request. With the navigation routing, subsequent views of the SPA is loaded rapidly, since the content is already available client-side.
 
     It is not wise to load **ALL** of the content of a SPA in the initial JSON request, as this would slow down the initial page load. Next, lets look at how the hierarchy depth of pages are collected.
 

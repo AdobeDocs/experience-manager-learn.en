@@ -70,7 +70,7 @@ To accelerate the tutorial a starter React JS app is provided.
 
     ![POST GraphQL](assets/client-application-integration/post-query-graphql.png)
 
-    You should see a `POST` to the GraphQL endpoint. Viewing the `Payload`, you can see the full GraphQL query that was sent. In the next sections, the app will be updated to use **persisted** queries.
+    You should see a `POST` to the GraphQL endpoint. Viewing the `Payload`, you can see the full GraphQL query that was sent. In the next sections, the app is updated to use **persisted** queries.
 
 
 ## Getting started 

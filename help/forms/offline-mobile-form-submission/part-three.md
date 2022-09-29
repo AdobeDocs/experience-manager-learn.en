@@ -16,7 +16,7 @@ exl-id: a767d8f8-d75e-4472-9139-c08d804ee076
 ---
 # Workflow to review and approve the submitted PDF
 
-The last and final step is to create AEM workflow which will generate a static, or non-interactive, PDF for review and approval. Workflow will be triggered via an AEM Launcher configured on the node `/content/pdfsubmissions`.
+The last and final step is to create AEM workflow which will generate a static, or non-interactive, PDF for review and approval. Workflow is triggered via an AEM Launcher configured on the node `/content/pdfsubmissions`.
 
 The following screenshot shows the steps involved in the workflow.
 

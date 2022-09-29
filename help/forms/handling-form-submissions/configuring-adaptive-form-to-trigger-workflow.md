@@ -32,7 +32,7 @@ The sample form used in this workflow is based on a custom adaptive form templat
 * Download [Adaptive Form](assets/peak-application-form.zip) 
 * Browse to [Form And Documents](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)
 * Click Create -> File Upload
-* The sample adaptive form will be placed in a folder called [Application Forms](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments/applicationforms)
+* The sample adaptive form is placed in a folder called [Application Forms](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments/applicationforms)
 
 The following video explains how to configure an Adaptive Form to trigger an AEM Workflow
 >[!VIDEO](https://video.tv.adobe.com/v/40258/?quality=9&learn=on)

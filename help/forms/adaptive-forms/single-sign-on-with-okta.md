@@ -40,7 +40,7 @@ On adding the certificate to trust store you should get certificate alias as sho
 
 ![Certificate-alias](assets/cert-alias.PNG)
 
-**Make a note of the certificate alias. You will need this in the later steps.**
+**Make a note of the certificate alias. You need this in the later steps.**
 
 ### Configure SAML authentication handler
 
@@ -49,7 +49,7 @@ Search and open "Adobe Granite SAML 2.0 Authentication Handler".
 Provide the following properties as specified below
 The following are the key properties that need to be specified:
 
-* **path** - This is the path where the authentication handler will be triggered
+* **path** - This is the path where the authentication handler is triggered
 * **IdP Url**:This is your IdP url which is provided by OKTA
 * **IDP Certificate Alias**:This the alias you got when you added the IdP certificate into AEM trust store
 * **Service Provider Entity Id**:This is the name of your AEM Server
@@ -59,7 +59,7 @@ The following are the key properties that need to be specified:
 * **Use Encryption**:false
 * **Autocreate CRX Users**:true
 * **Add to Groups**:true
-* **Default Groups**:oktausers(This is the group to which the users will be added. You can provide any existing group within AEM)
+* **Default Groups**:oktausers(This is the group to which the users are added. You can provide any existing group within AEM)
 * **NamedIDPolicy**: Specifies constraints on the name identifier to be used to represent the requested subject. Copy and paste the following highlighted string **urn:oasis:names:tc:SAML:2.0:nameidformat:emailAddress**
 * **Synchronized Attributes** - These are the attributes that are being stored from SAML assertion in AEM profile
 
@@ -71,8 +71,8 @@ Navigate to [configMgr](http://localhost:4502/system/console/configMgr).
 Search and open "Apache Sling Referrer Filter".Set the following properties as specified below:
 
 * **Allow Empty**: false
-* **Allow Hosts**: IdP's hostname(Will be different in your case)
-* **Allow Regexp Host**: IdP's hostname(Will be different in your case)
+* **Allow Hosts**: IdP's hostname (This is different in your case)
+* **Allow Regexp Host**: IdP's hostname (This is different in your case)
 The Sling Referrer Filter Referrer properties screenshot
 
 ![referrer-filter](assets/okta-referrer.png)
@@ -93,8 +93,6 @@ When setting up the OKTA integration on AEM, it can be helpful to review DEBUG l
   * **Log File**: logs/saml.log
   * **Logger**: com.adobe.granite.auth.saml
 * Click on save to save your settings
-
-
 
 #### Test your OKTA configuration
 

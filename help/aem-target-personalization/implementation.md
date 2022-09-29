@@ -58,11 +58,11 @@ AEM author and publish instance is necessary to complete this tutorial. We have 
 4. Make a copy of the Quickstart jar, rename it to `aem-publish-p4503.jar` and place it beneath the `/publish` directory. Add a copy of the `license.properties` file beneath the `/publish` directory.
     ![AEM Publish Instance](assets/implementation/aem-setup-publish.png)
 5. Double click the `aem-author-p4502.jar` file to install the Author instance. This will start the author instance, running on port 4502 on the local computer.
-6. Sign In using the credentials below, and upon successful login, you will be directed to the AEM Home Page Screen.
+6. Sign In using the credentials below, and upon successful login, you are directed to the AEM Home Page Screen.
    username : **admin**
    password : **admin**
     ![AEM Publish Instance](assets/implementation/aem-author-home-page.png)
-7. Double click the `aem-publish-p4503.jar` file to install a publish instance. You can notice a new tab open up in your browser for your publish instance, running on port 4503 and displaying the WeRetail home page. We will be using the WKND reference site for this tutorial and let's install the packages on author instance.
+7. Double click the `aem-publish-p4503.jar` file to install a publish instance. You can notice a new tab open up in your browser for your publish instance, running on port 4503 and displaying the WeRetail home page. We are using the WKND reference site for this tutorial and let's install the packages on author instance.
 8. Navigate to AEM Author in your web browser at `http://localhost:4502`. On the AEM Start screen, navigate to *[Tools > Deployment > Packages](http://localhost:4502/crx/packmgr/index.jsp)*.
 9. Download and Upload the packages for AEM (listed above under *[Prerequisites > AEM](#aem)*)
     * [aem-guides-wknd.ui.apps-0.0.1-SNAPSHOT.zip](https://github.com/adobe/aem-guides-wknd/releases/download/archetype-18.1/aem-guides-wknd.ui.apps-0.0.1-SNAPSHOT.zip)
@@ -74,4 +74,4 @@ AEM author and publish instance is necessary to complete this tutorial. We have 
 10. After installing the packages on AEM Author, select each uploaded package in AEM Package Manager, and select **More > Replicate** to ensure the packages are deployed to AEM Publish.
 11. At this point, you have successfully installed your WKND reference site and all additional packages required for this tutorial.
 
-[NEXT CHAPTER](./using-launch-adobe-io.md): In the next chapter, you will be integrating Launch with AEM.
+[NEXT CHAPTER](./using-launch-adobe-io.md): In the next chapter, you will integrate Launch with AEM.

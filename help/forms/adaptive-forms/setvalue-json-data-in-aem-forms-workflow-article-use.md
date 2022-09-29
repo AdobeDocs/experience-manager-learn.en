@@ -1,6 +1,6 @@
 ---
 title: Setting value of Json Data Element in AEM Forms Workflow
-description: As an Adaptive Form is routed to different users in AEM Workflow, there will be requirements to hide or disable certain fields or panels based on the person reviewing the form. To satisfy these use cases we typically set a value of a hidden field. Based on this hidden field's value business rules can be authored to hide/disable appropriate panels or fields.
+description: As an Adaptive Form is routed to different users in AEM Workflow, there are requirements to hide or disable certain fields or panels based on the person reviewing the form. To satisfy these use cases we typically set a value of a hidden field. Based on this hidden field's value business rules can be authored to hide/disable appropriate panels or fields.
 feature: Adaptive Forms
 version: 6.4
 topic: Development
@@ -10,11 +10,11 @@ exl-id: fbe6d341-7941-46f5-bcd8-58b99396d351
 ---
 # Setting value of JSON Data Element in AEM Forms Workflow {#setting-value-of-json-data-element-in-aem-forms-workflow}
 
-As an Adaptive Form is routed to different users in AEM Workflow, there will be requirements to hide or disable certain fields or panels based on the person reviewing the form. To satisfy these use cases we typically set a value of a hidden field. Based on this hidden field's value business rules can be authored to hide/disable appropriate panels or fields.
+As an Adaptive Form is routed to different users in AEM Workflow, there are requirements to hide or disable certain fields or panels based on the person reviewing the form. To satisfy these use cases we typically set a value of a hidden field. Based on this hidden field's value business rules can be authored to hide/disable appropriate panels or fields.
 
  ![Setting value of an element in json data](assets/capture-3.gif)
  
-In AEM Forms OSGI- we will have to write a custom OSGi bundle to set JSON data element's value. The bundle is provided as part of this tutorial.
+In AEM Forms OSGi - we must create a custom OSGi bundle to set JSON data element's value. The bundle is provided as part of this tutorial.
 
 We use Process Step in AEM workflow. We associate the "Set Value of Element in Json" OSGi bundle with this process step.
 

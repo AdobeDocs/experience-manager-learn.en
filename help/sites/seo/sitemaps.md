@@ -28,7 +28,7 @@ Learn how to help boost your SEO by creating sitemaps for AEM Sites.
 
 ### Sitemap scheduler OSGi configuration
 
-Defines the [OSGi factory configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.sitemap.impl.SitemapScheduler) for the frequency (using [cron expressions](http://www.cronmaker.com)) sitemaps will be re/generated and cached in AEM. 
+Defines the [OSGi factory configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.sitemap.impl.SitemapScheduler) for the frequency (using [cron expressions](http://www.cronmaker.com)) sitemaps are re/generated and cached in AEM. 
 
 `ui.config/src/main/jcr_content/apps/wknd/osgiconfig/config.publish`
 

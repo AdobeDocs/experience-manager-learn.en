@@ -14,7 +14,7 @@ exl-id: 73de0ac4-ada6-4b8e-90a8-33b976032135
 ---
 # Create the main adaptive form
 
-The form **StoreAFWithAttachments** is the main adaptive form. This adaptive form is the entry point to the use case. In this form user details including mobile number are captured. This form also has the ability to add some attachments. When the Save and Exit button is clicked the server side code is executed to store the form data in the database and a unique application id will be generated and presented to the user for safe keeping. This application id will be used to retrieve the mobile number associated with the application.
+The form **StoreAFWithAttachments** is the main adaptive form. This adaptive form is the entry point to the use case. In this form user details including mobile number are captured. This form also has the ability to add some attachments. When the Save and Exit button is clicked the server side code is executed to store the form data in the database and a unique application id is generated and presented to the user for safe keeping. This application id is used to retrieve the mobile number associated with the application.
 
 ![main application form](assets/6552.JPG)
 

@@ -192,13 +192,13 @@ and
 
 `http://domain.com/home.html/suffix.html`
 
-They are absolutely valid in AEM. You wouldn't see any problem on your local development machine (without a Dispatcher). Most likely you also will not encounter any problem in UAT- or load testing. The problem we are facing is so subtle that it slips through most tests.  It will hit you hard when you are at peak time and you will be limited on time to address it, likely have no server access,  nor resources to fix it. We have been there...
+They are absolutely valid in AEM. You wouldn't see any problem on your local development machine (without a Dispatcher). Most likely you also will not encounter any problem in UAT- or load testing. The problem we are facing is so subtle that it slips through most tests.  It will hit you hard when you are at peak time and you are limited on time to address it, likely have no server access,  nor resources to fix it. We have been there...
 
 So... what's the issue?
 
 `home.html` in a filesystem can be either a file or a folder. Not both at the same time as in AEM.
 
-If you request `home.html` first, it will be created as a file.
+If you request `home.html` first, it is created as a file.
 
 Subsequent requests to `home.html/suffix.html` return valid results, but as the file `home.html` "blocks" the position in the filesystem,  `home.html` cannot be created a second time as a folder and thus `home.html/suffix.html` is not cached.
 
@@ -298,7 +298,7 @@ invalidate-path:  /content/dam/path/to/image
 
 Invalidation is that easy: A simple GET request to a special "/invalidate" URL on the Dispatcher. An HTTP-body is not required, the "payload" is just the "invalidate-path" header. Note also, that the invalidate-path in the header is the resource that AEM knows - and not the file or files the Dispatcher has cached. AEM only knows about resources. Extensions, selectors and suffixes are used at runtime when a resource is requested. AEM does not perform any bookkeeping about what selectors have been used on a resource, so the resource path is all it knows for sure when activating a resource.
 
-This is sufficient in our case. If a resource has changed, we can safely assume, that all renditions of that resource have changed as well. In our example, if the image has changed, a new thumbnail will be rendered as well.
+This is sufficient in our case. If a resource has changed, we can safely assume, that all renditions of that resource have changed as well. In our example, if the image has changed, a new thumbnail is rendered as well.
 
 The Dispatcher can safely delete the resource with all renditions that it has cached. It will do something like,
 
@@ -355,7 +355,7 @@ What happened? The Dispatcher stores a static version of a page containing all c
 
 The Dispatcher, being a mere filesystem-based webserver, is fast but also relatively simple. If an included resource changes it doesn't realize that. It still clings to the content that was there when the including page was rendered.
 
-The "Winter Special" page has not been rendered yet, so there is no static version on the Dispatcher and thus will be displayed with the new teaser as it will be freshly rendered upon request.
+The "Winter Special" page has not been rendered yet, so there is no static version on the Dispatcher and thus is displayed with the new teaser as it is freshly rendered upon request.
 
 You might think, that the Dispatcher would keep track of every resource it touches while rendering and flushing all pages which have used this resource, when that resource changes. But the Dispatcher does not render the pages. The rendering is performed by the Publish system. The Dispatcher does not know what resources go into a rendered .html file.
 
@@ -578,7 +578,7 @@ You see? The "M" in DAM stands for "Management" – as in Digital Asset Manageme
 
 From an AEM developer's perspective the pattern looked super elegant. But with the Dispatcher taken into the equation, you might agree, that the naïve approach might not be sufficient.
 
-We leave it up to you to decide whether this is a pattern or an anti-pattern for now. And maybe you already have some good ideas in mind how to mitigate the issues explained above? Good. Then you will be eager to see how other projects have solved these issues.
+We leave it up to you to decide whether this is a pattern or an anti-pattern for now. And maybe you already have some good ideas in mind how to mitigate the issues explained above? Good. Then you should be eager to see how other projects have solved these issues.
 
 ### Solving Common Dispatcher Issues
 
@@ -752,7 +752,7 @@ But here you could face another caveat having URL fingerprints: It ties the URL 
 
 Wow - That's quite a lot of details to be considered, right? And it refuses to be understood, tested and debugged easily. And all for a seemingly elegant solution. Admittedly, it is elegant – but only from an AEM-only perspective. Together with the Dispatcher it becomes nasty.
 
-And still – it does not solve one basic caveat, if an image is used multiple times on different pages, they will be cached under those pages. There is not much caching synergy there.
+And still – it does not solve one basic caveat, if an image is used multiple times on different pages, they are cached under those pages. There is not much caching synergy there.
 
 In general, URL fingerprinting is a good tool to have in your toolkit, but you need to apply it with care, because it can cause new problems while solving only a few existing ones.
 
@@ -1522,7 +1522,7 @@ To mitigate the problem of this "cache invalidation storm" as it is sometimes ca
 
 You can set the Dispatcher to use a `grace period` for auto-invalidation. This would internally add some extra time to the `statfiles` modification date.
 
-Let's say, your `statfile` has a modification time of today 12:00 and your `gracePeriod` is set to 2 minutes. Then all auto-invalidated files will be considered valid at 12:01 and at 12:02. They will be re-rendered after 12:02.
+Let's say, your `statfile` has a modification time of today 12:00 and your `gracePeriod` is set to 2 minutes. Then all auto-invalidated files are considered valid at 12:01 and at 12:02. They are re-rendered after 12:02.
 
 The reference configuration proposes a `gracePeriod` of two minutes for a good reason. You might think "Two minutes? That's almost nothing. I can easily wait 10 minutes for the content to show up…".  So you might be tempted to set a longer period – let's say 10 minutes, assuming that your content shows up at least after these 10 minutes.
 

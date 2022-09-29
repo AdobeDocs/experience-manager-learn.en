@@ -49,7 +49,7 @@ The **Default Type** option directly influences the editing experience and deter
 
 You can also [enable in-line references](#insert-fragment-references) to other Content Fragments by checking the **Allow Fragment Reference** and configuring the **Allowed Content Fragment Models**.
 
-Check the **Translatable** box, if the content will be localized. Only Rich Text and Plain Text can be localized. See [working with localized content for more details](./localized-content.md).
+Check the **Translatable** box, if the content is to be localized. Only Rich Text and Plain Text can be localized. See [working with localized content for more details](./localized-content.md).
 
 ## Rich text response with GraphQL API
 

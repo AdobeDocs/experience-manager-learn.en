@@ -75,7 +75,7 @@ The package contains 3 samples. The following paragraphs explain when to use the
 * **Request Parameters -**
 
     * **xdp_or_pdf_file** : The xdp or pdf file that you want to merge data with
-    * **xmlfile**: The xml data file that will be merged with xdp_or_pdf_file
+    * **xmlfile**: The xml data file that is merged with xdp_or_pdf_file
     * **saveLocation**: The location to save the rendered document on your file system. For example c:\\documents\\sample.pdf
 
 ### Import Data into PDF File
@@ -85,8 +85,8 @@ The package contains 3 samples. The following paragraphs explain when to use the
 * **Request Parameters:**
 
     * **pdffile** : The pdf file that you want to merge data with
-    * **xmlfile**: The xml data file that will be merged with pdf file
-    * **saveLocation**: The location to save the rendered document on your file system. For example c:\\outputsample.pdf.
+    * **xmlfile**: The xml data file that is merged with pdf file
+    * **saveLocation**: The location to save the rendered document on your file system. For example `c:\\outputsample.pdf`.
 
 **Export Data from PDF File**
 * Use FormsService to export data from PDF File

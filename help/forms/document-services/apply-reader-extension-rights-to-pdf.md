@@ -65,9 +65,9 @@ public class ApplyUsageRights implements ReaderExtendPDF {
 
 ## Create servlet to stream the reader extended PDF
 
-The next step is to create a servlet with a POST method to return the reader extended PDF to the user. In this case, the user will be asked to save the PDF to their file system. This is because the PDF is rendered as dynamic PDF and the pdf viewers that come with the browsers do not handle dynamic pdf’s.
+The next step is to create a servlet with a POST method to return the reader extended PDF to the user. In this case, the user is asked to save the PDF to their file system. This is because the PDF is rendered as dynamic PDF and the pdf viewers that come with the browsers do not handle dynamic pdf's.
 
-Following is the code for the servlet. The servlet will be invoked from customsubmit action of Adaptive Form.
+Following is the code for the servlet. The servlet is invoked from customsubmit action of Adaptive Form.
 Servlet creates UsageRights object and sets it properties based on the values entered by the user in the Adaptive Form. The servlet then calls the applyUsageRights method of the service created for this purpose.
 
 ```java

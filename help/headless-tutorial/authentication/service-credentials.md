@@ -1,5 +1,5 @@
 ---
-title: Service Credentials
+title: AEM Developer console service credentials
 description: AEM Service Credentials are used to facilitate external applications, systems and services to programmatically interact with AEM Author or Publish services over HTTP.
 version: Cloud Service
 doc-type: tutorial
@@ -14,7 +14,7 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: e2922278-4d0b-4f28-a999-90551ed65fb4
 ---
-# Service Credentials
+# Service credentials
 
 Integrations with AEM as a Cloud Service must be able to securely authenticate to AEM. AEM's Developer Console grants access to Service Credentials, which are used to facilitate external applications, systems and services to programmatically interact with AEM Author or Publish services over HTTP.
 
@@ -53,7 +53,7 @@ __This is a one-time initialization per AEM as a Cloud Service environment__
 1. Tap the ellipsis next to the environment in the __Environments__ section, and select __Developer Console__
 1. Tap in the __Integrations__ tab
 1. Tap __Get Service Credentials__ button
-1. The Service Credentials will be initialized and displayed as JSON 
+1. The Service Credentials are initialized and displayed as JSON 
 
 ![AEM Developer Console - Integrations - Get Service Credentials](./assets/service-credentials/developer-console.png)
 
@@ -63,7 +63,7 @@ Once the AEM as Cloud Service environment's Service Credentials have been initia
 
 ![Download Service Credentials](assets/service-credentials/download-service-credentials.png)
 
-Downloading the Service Credentials follows the same steps as the initialization. If the initialization has not yet occurred, the user will be presented with an error with tapping the __Get Service Credentials__ button.
+Downloading the Service Credentials follows the same steps as the initialization. If the initialization has not yet occurred, the user is presented with an error with tapping the __Get Service Credentials__ button.
 
 1. Ensure you are logged in as a:
     + Member of the __Cloud Manager - Developer__ IMS Product Profile (which grants access to AEM Developer Console)
@@ -79,7 +79,7 @@ Downloading the Service Credentials follows the same steps as the initialization
 
 ## Install the Service Credentials
 
-The Service Credentials provide the details needed to generate a JWT, which is exchanged for an access token used to authenticate with AEM as a Cloud Service. The Service Credentials must be stored in a secure location accessible by the external applications, systems or services that use it to access AEM. How and where the Service Credentials are managed will be unique per customer.
+The Service Credentials provide the details needed to generate a JWT, which is exchanged for an access token used to authenticate with AEM as a Cloud Service. The Service Credentials must be stored in a secure location accessible by the external applications, systems or services that use it to access AEM. How and where the Service Credentials are managed are unique per customer.
 
 For simplicity, this tutorial passes the Service Credentials in via the command line, however, work with your IT Security team to understand how to store and access these credentials in accordance to your organization's security guidelines.
 

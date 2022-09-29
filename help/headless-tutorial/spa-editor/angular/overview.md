@@ -17,7 +17,7 @@ exl-id: f2cf4063-0b08-4b4f-91e6-70e5a148f931
 ---
 # Create your first Angular SPA in AEM {#introduction}
 
-Welcome to a multi-part tutorial designed for developers new to the **SPA Editor** feature in Adobe Experience Manager (AEM). This tutorial walks through the implementation of a Angular application for a fictitious lifestyle brand, the WKND. The Angular app will be developed and designed to be deployed with AEM's SPA Editor, which maps Angular components to AEM components. The completed SPA, deployed to AEM, can be dynamically authored with traditional in-line editing tools of AEM.
+Welcome to a multi-part tutorial designed for developers new to the **SPA Editor** feature in Adobe Experience Manager (AEM). This tutorial walks through the implementation of a Angular application for a fictitious lifestyle brand, the WKND. The Angular app is developed and designed to be deployed with AEM's SPA Editor, which maps Angular components to AEM components. The completed SPA, deployed to AEM, can be dynamically authored with traditional in-line editing tools of AEM.
 
 ![Final SPA Implemented](assets/wknd-spa-implementation.png)
 
@@ -25,7 +25,7 @@ Welcome to a multi-part tutorial designed for developers new to the **SPA Editor
 
 ## About
 
-The goal for this multi-part tutorial is to teach a developer how to implement an Angular application to work with the SPA Editor feature of AEM. In a real-world scenario the development activities are broken down by persona, often involving a **Front End developer** and a **Back End developer**. We believe it is beneficial for any developer who will be involved in an AEM SPA Editor project to complete this tutorial.
+The goal for this multi-part tutorial is to teach a developer how to implement an Angular application to work with the SPA Editor feature of AEM. In a real-world scenario the development activities are broken down by persona, often involving a **Front End developer** and a **Back End developer**. We believe it is beneficial for any developer  involved in an AEM SPA Editor project to complete this tutorial.
 
 The tutorial is designed to work with **AEM as a Cloud Service** and is backwards compatible with **AEM 6.5.4+** and **AEM 6.4.8+**. The SPA is implemented using:
 

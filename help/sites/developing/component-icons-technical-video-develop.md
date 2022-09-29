@@ -63,7 +63,7 @@ PNG images can be used for component icons. To configure a PNG image as a compon
 
 The PNG should have a transparent background, or a background color set to **#707070**.
 
-The PNG images will be scaled to **20px by 20px**. However to accommodate retina displays **40px** by **40px** might be preferable.
+The PNG images are scaled to **20px by 20px**. However to accommodate retina displays **40px** by **40px** might be preferable.
 
 ```plain
 

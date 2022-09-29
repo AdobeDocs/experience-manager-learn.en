@@ -34,7 +34,7 @@ Adobe Asset Link extension for Adobe Creative Cloud for enterprise extends the c
     + Versions
 + Place, download or drag-n-drop assets into their layout
 + Modify assets by checking them out from AEM and working on them (WIP) within their Creative Cloud Assets account
-+ Check an asset back into AEM after they have finished modifying it, and the new version will be reflected in AEM
++ Check an asset back into AEM after they have finished modifying it, and the new version  reflected in AEM
 + Search for assets in AEM from the Adobe Asset Link In-App panel
 + Browse AEM Assets collections and smart collections directly from the Asset Link panel
 + Add newly created assets to AEM directly from the panel

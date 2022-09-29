@@ -33,9 +33,9 @@ A policy is selected by comparing the
 * `Allowed Origin` with the `Origin` request header
 * and `Allowed Paths` with the request path.
 
-The first policy matching these values will be used. If none is found, any [!DNL CORS] request will be denied.
+The first policy matching these values are used. If none is found, any [!DNL CORS] request is denied.
 
-If no policy is configured at all, [!DNL CORS] requests will also not be answered as the handler will be disabled and thus effectively denied - as long as no other module of the server responds to [!DNL CORS].
+If no policy is configured at all, [!DNL CORS] requests will also not be answered as the handler is disabled and thus effectively denied - as long as no other module of the server responds to [!DNL CORS].
 
 ### Policy properties
 
@@ -149,7 +149,7 @@ To allow the caching of CORS headers, add the following configuration to all sup
 
 Remember to **restart the web server application** after making changes to the `dispatcher.any` file.
 
-It is likely clearing the cache entirely will be required to ensure the headers are appropriately cached on the next request after a `/cache/headers` configuration update.
+It is likely clearing the cache entirely is required to ensure the headers are appropriately cached on the next request after a `/cache/headers` configuration update.
 
 ## Troubleshooting CORS
 

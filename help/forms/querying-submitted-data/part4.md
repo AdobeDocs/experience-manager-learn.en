@@ -17,7 +17,7 @@ exl-id: a8d8118d-f4a1-483f-83b4-77190f6a42a4
 # Querying Submitted Data
 
 
-The next step is to query the submitted data and display the results in tabular fashion. To accomplish this we will be using the following software
+The next step is to query the submitted data and display the results in tabular fashion. To accomplish this we are using the following software:
 
 [QueryBuilder](https://querybuilder.js.org/) - UI component to create queries
 
@@ -58,7 +58,7 @@ public JSONArray getData(String formName) throws SQLException, IOException {
  }
 ```
 
-When GetResult button is clicked a Get call is made to **"/bin/querydata"**. We pass the query built by QueryBuilder UI to the servlet through the query parameter. The servlet then massages this query into SQL query that can be used to query the database. For example, if you are searching to retrieve all products named 'Mouse' the Query Builder query string will be $.productname = 'Mouse'. This query will then be converted into the following
+When GetResult button is clicked a Get call is made to **"/bin/querydata"**. We pass the query built by QueryBuilder UI to the servlet through the query parameter. The servlet then massages this query into SQL query that can be used to query the database. For example, if you are searching to retrieve all products named 'Mouse' the Query Builder query string is `$.productname = 'Mouse'`. This query will then be converted into the following
 
 SELECT &#42; from  aemformswithjson .  formsubmissions  where JSON_EXTRACT(  formsubmissions .formdata,"$.productName ")= 'Mouse'
 

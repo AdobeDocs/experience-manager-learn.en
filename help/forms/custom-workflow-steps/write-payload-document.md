@@ -19,7 +19,7 @@ The custom process takes the following comma separated arguments
 ChangeBeneficiary.pdf,c:\confirmation
 ```
 
-The first argument is the name of the document that you want to save to the file system. The second argument is the folder location you want to save the document. For example in the above use case the document will be written to c:\confirmation\ChangeBeneficiary.pdf
+The first argument is the name of the document that you want to save to the file system. The second argument is the folder location you want to save the document. For example in the above use case the document is written to `c:\confirmation\ChangeBeneficiary.pdf`
 
 The following screen shot shows you the arguments that you need to pass to the custom process step
 ![write-payload-file-system](assets/write-payload-file-system.png)

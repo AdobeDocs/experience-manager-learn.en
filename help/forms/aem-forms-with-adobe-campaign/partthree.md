@@ -10,11 +10,11 @@ exl-id: 502f4bdf-d4af-409f-a611-62b7a1a6065a
 ---
 # Prefilling Adaptive Form using ACS Profile {#prefilling-adaptive-form-using-acs-profile}
 
-In this part, we will pre-fill Adaptive Form with profile information fetched from ACS. AEM Forms has this powerful capability to pre-filling adaptive forms.
+In this part, we pre-fill Adaptive Form with profile information fetched from ACS. AEM Forms has this powerful capability to pre-filling adaptive forms.
 
 To learn more about pre-filling adaptive forms please read this [tutorial](https://helpx.adobe.com/experience-manager/kt/forms/using/prefill-service-adaptive-forms-article-use.html).
 
-To prepopulate Adaptive Form by fetching data from ACS, we will assume that there is profile in ACS which has the same email as the logged in AEM user. For example, if the email id of the person logged into AEM is csimms@adobe.com, we expect to find a profile in ACS whose email is csimms@adobe.com.
+To prepopulate Adaptive Form by fetching data from ACS, we assume that there is profile in ACS which has the same email as the logged in AEM user. For example, if the email id of the person logged into AEM is csimms@adobe.com, we expect to find a profile in ACS whose email is csimms@adobe.com.
 
 The following steps are needed to fetch profile information from ACS using REST API
 
@@ -22,7 +22,7 @@ The following steps are needed to fetch profile information from ACS using REST 
 * Exchange JWT for Access Token
 * Make a REST call to ACS and fetch profile by email
 * Build XML document with the profile information
-* Return InputStream of the XML document that will be consumed by AEM Forms
+* Return InputStream of the XML document that is consumed by AEM Forms
 
 ![prefillservice](assets/prefillserviceaf.gif)
 

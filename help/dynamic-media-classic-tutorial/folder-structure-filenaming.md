@@ -22,9 +22,9 @@ File naming is generally the most important decision you make concerning impleme
 
 ### Folder Hierarchy
 
-Folder hierarchy is important to you and your company for organizational purposes only — your Dynamic Media Classic URLs only reference the asset name, not the folder or path. Regardless of where you upload a file, the URL will be the same. This is quite different from how most people organize their images and content for the web, but with Dynamic Media Classic it makes no difference.
+Folder hierarchy is important to you and your company for organizational purposes only — your Dynamic Media Classic URLs only reference the asset name, not the folder or path. Regardless of where you upload a file, the URL is the same. This is quite different from how most people organize their images and content for the web, but with Dynamic Media Classic it makes no difference.
 
-Another important consideration is the number of assets or folders to store in each folder. If many assets are stored in a folder, performance will degrade when viewing assets in Dynamic Media Classic. Do not store thousands of assets in a folder. Instead, develop an organizational hierarchy with fewer than around 500 assets or folders within a given branch of your hierarchy. This a not a strict requirement, but it will help to maintain acceptable response times when viewing or searching assets. In effect, the recommendation is to create hierarchies that are wide and shallow rather than narrow and deep.
+Another important consideration is the number of assets or folders to store in each folder. If many assets are stored in a folder, performance degrades when viewing assets in Dynamic Media Classic. Do not store thousands of assets in a folder. Instead, develop an organizational hierarchy with fewer than around 500 assets or folders within a given branch of your hierarchy. This a not a strict requirement, but it helps to maintain acceptable response times when viewing or searching assets. In effect, the recommendation is to create hierarchies that are wide and shallow rather than narrow and deep.
 
 The easiest way to create your folders is to upload your entire folder structure using FTP, and enable the option **Include Subfolders**. This option causes Dynamic Media Classic to recreate the folder structure on the FTP site in Dynamic Media Classic.
 

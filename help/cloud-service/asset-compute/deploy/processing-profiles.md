@@ -31,9 +31,9 @@ First create a new Processing Profile that will invoke the worker with the confi
 1. Tap the __Custom__ tab, and tap __Add New__
 1. Define the new service
     + __Rendition name:__ `Circle`
-        + The file name rendition that will be used to identify this rendition in AEM Assets
+        + The rendition's file name that used to identify this rendition in AEM Assets
     + __Extension:__ `png`
-        + The extension of the rendition that will be generated. Set to `png` as this is the supported output format the worker's web service supports, and results in transparent background behind the circle cut out.
+        + The extension of the rendition that is generated. Set to `png` as this is the supported output format the worker's web service supports, and results in transparent background behind the circle cut out.
     + __Endpoint:__ `https://...adobeioruntime.net/api/v1/web/wkndAemAssetCompute-0.0.1/worker`
         + This is th URL to the worker obtained via `aio app get-url`. Ensure the URL points at the correct workspace based on the AEM as a Cloud Service environment.
         + Make sure the worker URL points to the correct workspace. AEM as a Cloud Service Stage should use the Stage workspace URL, and AEM as a Cloud Service Production should use the Production workspace URL.
@@ -50,7 +50,7 @@ First create a new Processing Profile that will invoke the worker with the confi
         + These key/value pairs that are passed into the Asset Compute worker and available via `rendition.instructions` JavaScript object.
     + __Mime Types__
         + __Includes:__ `image/jpeg`, `image/png`, `image/gif`, `image/bmp`, `image/tiff`
-            + These MIME types are the only ones the worker's npm modules. This list limits which assets will be processed by the custom worker.
+            + These MIME types are the only ones the worker's npm modules. This list limits which are processed by the custom worker.
         + __Excludes:__ `Leave blank`
             + Never process assets with these MIME Types using this service configuration. In this case, we only use an allow list.
 1. Tap __Save__ in the top right

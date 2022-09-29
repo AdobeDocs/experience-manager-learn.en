@@ -21,7 +21,7 @@ Visit the [Suggestion Box](https://forms.office.com/r/74P5Xz4UH0) for submitting
 
 ## Season 2
 
-Each season varies in length and will be released on a fixed schedule. Season 2's topics are primarily driven from past requests that we have come across in our day-to-day engagements with customers and partners. Visit this page for weekly updates or follow us on the social network of your choosing.
+Each season varies in length and is released on a fixed schedule. Season 2's topics are primarily driven from past requests that we have come across in our day-to-day engagements with customers and partners. Visit this page for weekly updates or follow us on the social network of your choosing.
 
 <table>
     <tr>
@@ -121,11 +121,11 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
       </p>
      </td>   
      <td>
-            <a href="season-2/cloud5-MoCM-experience-audit.md">
+            <a href="season-2/cloud5-mocm-experience-audit.md">
                <img alt="Mysteries of Cloud Manager... Experience Audit" src="./imgs/s2/007-thumb.png"/>
                </a>
       <div>
-            <a href="season-2/cloud5-MoCM-experience-audit.md"><strong>Mysteries of Cloud Manager... Experience Audit</strong></a>
+            <a href="season-2/cloud5-mocm-experience-audit.md"><strong>Mysteries of Cloud Manager... Experience Audit</strong></a>
          <br/><em>with Darin Kuntze, Senior Cloud Architect</em>
       </div>
       <p>
@@ -134,11 +134,11 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
       </p>
    </td>
      <td>
-            <a href="season-2/cloud5-MoCM-unit-tests.md">
+            <a href="season-2/cloud5-mocm-unit-tests.md">
                <img alt="Mysteries of Cloud Manager... Unit Tests" src="./imgs/s2/008-thumb.png"/>
             </a>
       <div>
-            <a href="season-2/cloud5-MoCM-unit-tests.md"><strong>Mysteries of Cloud Manager... Unit Tests</strong></a>
+            <a href="season-2/cloud5-mocm-unit-tests.md"><strong>Mysteries of Cloud Manager... Unit Tests</strong></a>
          <br/><em>with Darin Kuntze & Bryan Stopp, Senior Cloud Architects</em>
       </div>
       <p>
@@ -149,11 +149,11 @@ Each season varies in length and will be released on a fixed schedule. Season 2'
   </tr>
     <tr>
         <td>
-               <a href="season-2/cloud5-MoCM-functional-tests.md">
+               <a href="season-2/cloud5-mocm-functional-tests.md">
                    <img alt="Mysteries of Cloud Manager... Functional Tests" src="./imgs/s2/009-thumb.png"/>
                </a>
             <div>
-                <a href="season-2/cloud5-MoCM-functional-tests.md"><strong>Mysteries of Cloud Manager... Functional Tests</strong><br/></a>        
+                <a href="season-2/cloud5-mocm-functional-tests.md"><strong>Mysteries of Cloud Manager... Functional Tests</strong><br/></a>        
                 <em>with Darin Kuntze & Bryan Stopp, Senior Cloud Architects</em>
             </div>
             <p><br/>

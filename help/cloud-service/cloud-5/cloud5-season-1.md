@@ -18,7 +18,7 @@ Visit the [Suggestion Box](https://forms.office.com/r/74P5Xz4UH0) for submitting
 
 ## Season 1
 
-Each season varies in length and will be released on a fixed schedule. Season 1's topics are primarily driven from past requests that we have come across in our day-to-day engagements with customers and partners. Visit this page for weekly updates or follow us on the social network of your choosing.
+Each season varies in length and is released on a fixed schedule. Season 1's topics are primarily driven from past requests that we have come across in our day-to-day engagements with customers and partners. Visit this page for weekly updates or follow us on the social network of your choosing.
 
 <table>
   <tr>

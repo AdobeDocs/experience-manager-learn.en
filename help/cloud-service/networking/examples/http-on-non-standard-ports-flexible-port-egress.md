@@ -30,10 +30,10 @@ Ensure the the [appropriate](../advanced-networking.md#advanced-networking) adva
 
 ## Code example
 
-This Java™ code example is of an OSGi service that can run in AEM as a Cloud Service that makes an HTTP connection to an external web server on 8080. Connections to HTTPS web servers use the environment variables `AEM_PROXY_HOST` and `AEM_HTTPS_PROXY_PORT` (default to `proxy.tunnel:3128` in AEM releases < 6094).
+This Java&trade; code example is of an OSGi service that can run in AEM as a Cloud Service that makes an HTTP connection to an external web server on 8080. Connections to HTTPS web servers use the environment variables `AEM_PROXY_HOST` and `AEM_HTTPS_PROXY_PORT` (default to `proxy.tunnel:3128` in AEM releases < 6094).
 
 >[!NOTE]
-> It is recommended the [Java™ 11 HTTP APIs](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/package-summary.html) are used to make HTTP/HTTPS calls from AEM.
+> It is recommended the [Java&trade; 11 HTTP APIs](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/package-summary.html) are used to make HTTP/HTTPS calls from AEM.
 
 + `core/src/com/adobe/aem/wknd/examples/connections/impl/HttpExternalServiceImpl.java`
 
@@ -68,10 +68,10 @@ public class HttpExternalServiceImpl implements ExternalService {
         if (System.getenv("AEM_PROXY_HOST") != null) {
             // Create a ProxySelector that uses to AEM's provided AEM_PROXY_HOST, with a fallback of proxy.tunnel, and proxy port using the AEM_HTTP_PROXY_PORT variable. 
             // If the destination requires HTTPS, then use the variable AEM_HTTPS_PROXY_PORT instead of AEM_HTTP_PROXY_PORT.
-            // The explicit fallback of 3128 will be obsoleted in Jan 2022, and only the AEM_HTTP_PROXY_PORT/AEM_HTTPS_PROXY_PORT variable will be required
+ 
             ProxySelector proxySelector = ProxySelector.of(new InetSocketAddress(
                 System.getenv().getOrDefault("AEM_PROXY_HOST", "proxy.tunnel"), 
-                Integer.parseInt(System.getenv().getOrDefault("AEM_HTTP_PROXY_PORT", "3128"))));
+                Integer.parseInt(System.getenv().get("AEM_HTTP_PROXY_PORT"))));
 
             client = HttpClient.newBuilder().proxy(proxySelector).build();
             log.debug("Using HTTPClient with AEM_PROXY_HOST");

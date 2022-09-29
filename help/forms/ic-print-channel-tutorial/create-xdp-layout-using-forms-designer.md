@@ -22,8 +22,8 @@ exl-id: 1bda648c-01be-44f1-aa73-3f5e7365d094
 
 In this part, we look at the layout file created using AEM Forms Designer.
 
-Every print channel document will be based on a template created using AEM Forms Designer tool. Typically, you will create sections or target areas in your template for holding document fragments, images or layout fragments. Ideally, the layout will not have any content defined. This de-couples the layout from content which is the recommended practice.
+Every print channel document is based on a template created using AEM Forms Designer tool. Typically, you  create sections or target areas in your template for holding document fragments, images or layout fragments. Ideally, the layout does not have any content defined. This de-couples the layout from content which is the recommended practice.
 
-The following video highlights the sections or target areas defined in the layout that will be used in this tutorial.
+The following video highlights the sections or target areas defined in the layout that is used in this tutorial.
 
 >[!VIDEO](https://video.tv.adobe.com/v/37890/?quality=9)

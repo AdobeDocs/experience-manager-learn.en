@@ -48,7 +48,7 @@ MarketoService marketoService;
 
 The  MarketoAuthenticationService implements IAuthentication interface. This interface is part of the AEM Forms Client SDK. The service gets the access token and inserts the token into the HttpHeader of the AuthenticationDetails. Once the HttpHeaders of the AuthenticationDetails object is populated the AuthenticationDetails object is returned to the Dermis layer of Form Data Model.
 
-Please pay attention to the string returned by the method getAuthenticationType. This string will be used when you are configuring your data source.
+Please pay attention to the string returned by the method getAuthenticationType. This string is used when you are configuring your data source.
 
 ### Get Access Token
 

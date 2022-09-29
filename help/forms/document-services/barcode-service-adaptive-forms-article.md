@@ -83,16 +83,13 @@ public class DecodeBarCode extends SlingSafeMethodsServlet {
    // TODO Auto-generated catch block
    e1.printStackTrace();
   }
-
  }
-
 }
-
 ```
 
-The following code is part of the client library that is referenced by Adaptive Form. When a user adds the attachment to the adaptive form, this code will be triggered. The code makes a GET call to the servlet with the path of the attachment passed in the request parameter. The data received from the servlet call is then used to populate the adaptive form.
+The following code is part of the client library that is referenced by Adaptive Form. When a user adds the attachment to the adaptive form, this code is triggered. The code makes a GET call to the servlet with the path of the attachment passed in the request parameter. The data received from the servlet call is then used to populate the adaptive form.
 
-```
+```javascript
 $(document).ready(function()
    {
        guideBridge.on("elementValueChanged",function(event,data){
@@ -134,7 +131,7 @@ Line 12 - Custom code to get service resolver. This bundle is included as part o
 
 Line 23 - Call the DocumentServices extractBarCode method to get the JSON object populated with decoded data
 
-To get this running on your system, please follow the following steps
+To get this running on your system, please follow the following steps:
 
 1. [Download BarcodeService.zip](assets/barcodeservice.zip) and import into AEM using the package manager
 1. [Download and install the Custom DocumentServices Bundle](/help/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)

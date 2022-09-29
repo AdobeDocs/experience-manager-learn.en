@@ -85,7 +85,7 @@ Success events are actions that can be tracked. You determine what a success eve
 
     ![Add new eVars](assets/create-analytics-workspace/add-new-evars.png)
 
-1. Provide an appropriate name and description for each eVars and **Save** your changes. We will be using these eVars to create an Analysis Workspace project in the next section. So, a user-friendly name makes the variables easily discoverable.
+1. Provide an appropriate name and description for each eVars and **Save** your changes. We use these eVars to create an Analysis Workspace project in the next section. So, a user-friendly name makes the variables easily discoverable.
    
    ![eVars](assets/create-analytics-workspace/evars.png)
 

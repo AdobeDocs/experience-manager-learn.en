@@ -24,7 +24,7 @@ Adobe Experience Manager introduces Admin Console support for AEM instances and 
 * AEM Managed Services sync your topology with Admin Console, creating a 1-to-1 mapping between a Product Context and AEM instance.
 * Product Profile in Admin Console will determine which AEM instances a user can access.
 * Authentication support includes customer SAML2 compliant IDPs for SSO.
-* Only Enterprise or Federated IDs (for customer SSO) will be supported (Personal Adobe IDs are not supported).
+* Only Enterprise or Federated IDs (for customer SSO) is supported (Personal Adobe IDs are not supported).
 
 *&#42; This feature is supported for AEM 6.4 SP3 and later for Adobe Managed Services customers.*
 

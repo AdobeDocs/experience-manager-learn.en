@@ -10,7 +10,7 @@ exl-id: 307cc3b2-87e5-4429-8f21-5266cf03b78f
 ---
 # Create your first OSGi bundle
 
-An OSGi bundle is a Java™ archive file that contains Java code, resources, and a manifest that describes the bundle and its dependencies. The bundle is the unit of deployment for an application. This article is meant for developers wanting to create OSGi service or a servlet using AEM Forms 6.4 or 6.5. To build your first OSGi bundle please follow the following steps:
+An OSGi bundle is a Java&trade; archive file that contains Java code, resources, and a manifest that describes the bundle and its dependencies. The bundle is the unit of deployment for an application. This article is meant for developers wanting to create OSGi service or a servlet using AEM Forms 6.4 or 6.5. To build your first OSGi bundle please follow the following steps:
 
 
 ## Install JDK
@@ -50,7 +50,7 @@ Install the latest version of [eclipse](https://www.eclipse.org/downloads/)
 
 ## Create your first project
 
- Archetype is a Maven project templating toolkit. An archetype is defined as an original pattern or model from which all other things of the same kind are made. The name fits as we are trying to provide a system that provides a consistent means of generating Maven projects. Archetype will help authors create Maven project templates for users, and provides users with the means to generate parameterized versions of those project templates.
+ Archetype is a Maven project templating toolkit. An archetype is defined as an original pattern or model from which all other things of the same kind are made. The name fits as we are trying to provide a system that provides a consistent means of generating Maven projects. Archetype helps authors create Maven project templates for users, and provides users with the means to generate parameterized versions of those project templates.
  To create your first maven project, please follow the following steps:
 
 * Create a new folder called `aemformsbundles` in your C drive
@@ -66,7 +66,7 @@ On successful completion you should see a build success message in your command 
 ## Create eclipse project from your maven project
 
 * Change your working directory to `mysite`
-* Execute `mvn eclipse:eclipse` from the command line. The command reads your  pom file and creates Eclipse projects with correct metadata so that Eclipse will understand project types, relationships, classpath, etc.
+* Execute `mvn eclipse:eclipse` from the command line. The command reads your  pom file and creates Eclipse projects with correct metadata so that Eclipse understands project types, relationships, classpath, etc.
 
 ## Import the project into eclipse
 
@@ -87,15 +87,15 @@ Select the  c:\aemformsbundles\mysite by clicking the **Browse** button
 
 Click **Finish** to start the import process
 
-Project is imported into Eclipse and you will see a number of `mysite.xxxx` folders
+Project is imported into Eclipse and you see a number of `mysite.xxxx` folders
 
-Expand the `src/main/java` under the `mysite.core` folder. This is the folder in which you will be writing most of your code.
+Expand the `src/main/java` under the `mysite.core` folder. This is the folder in which you are writing most of your code.
 
 ![data-source](assets/mysite-core-project.png)
 
 ## Include AEMFD Client SDK
 
-You will need to include the AEMFD client sdk in your project to take advantage of various services that come with AEM Forms. Please refer [AEMFD Client SDK](https://mvnrepository.com/artifact/com.adobe.aemfd/aemfd-client-sdk) to include the appropriate client SDK in your Maven project. You will have to include the AEM FD Client SDK in the dependencies section of `pom.xml` of the core project as shown below.
+You need to include the AEMFD client sdk in your project to take advantage of various services that come with AEM Forms. Please refer [AEMFD Client SDK](https://mvnrepository.com/artifact/com.adobe.aemfd/aemfd-client-sdk) to include the appropriate client SDK in your Maven project. You have to include the AEM FD Client SDK in the dependencies section of `pom.xml` of the core project as shown below.
 
 ```xml
 <dependency>
@@ -111,5 +111,5 @@ You will need to include the AEMFD client sdk in your project to take advantage 
 * Open **command prompt window**
 * Navigate to `c:\aemformsbundles\mysite\core`
 * Execute the command `mvn clean install -PautoInstallBundle`
-The above command builds and installs the bundle in the AEM server running on `http://localhost:4502`. The bundle will also be available on the file system at
+The above command builds and installs the bundle in the AEM server running on `http://localhost:4502`. The bundle is also available on the file system at
  `C:\AEMFormsBundles\mysite\core\target` and can be deployed using [Felix web console](http://localhost:4502/system/console/bundles)

@@ -148,4 +148,4 @@ To get this working your system please follow the following steps
 * Refer to the image above for properties. This is assuming you are going to use MySQL as your Database.
 * Deploy the OSGi bundle(s) that are provided as part of this article assets.
 * Preview the form and submit.
-* The JSON data will be stored in the database that was created when you imported "schema.sql" file.
+* The JSON data is stored in the database that was created when you imported "schema.sql" file.

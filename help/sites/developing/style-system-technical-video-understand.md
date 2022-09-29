@@ -174,7 +174,7 @@ jQuery(function ($) {
 * It is better to expose more data and hide it than to expose too little data requiring future back-end development to expose it.
 
   * Implementing author-able content toggles can aid in keeping this HTML lean, whereby authors are able to select which content elements are written to the HTML. The can be especially important when writing images to the HTML that may not be used for all styles.
-  * The exception to this rule is when expensive resources, for example, images, are exposed by default, as event images hidden by CSS will be, in this case, unnecessarily fetched.
+  * The exception to this rule is when expensive resources, for example, images, are exposed by default, as event images hidden by CSS are, in this case, unnecessarily fetched.
 
     * Modern image components often will use JavaScript to select and load the most appropriate image for the use case (viewport).
 
@@ -228,7 +228,7 @@ Example CSS selector structure should be as follows:
  </tbody> 
 </table>
 
-In the case of nested components, the CSS selector depth for these nested Component elements will exceed the 3rd level selector. Repeat the same pattern for the nested component, but scoped by the parent Component's `BLOCK`. Or in other words, start the nested component's `BLOCK` at the 3rd level, and the nested Component's `ELEMENT` will be at the 4th selector level.
+In the case of nested components, the CSS selector depth for these nested Component elements will exceed the 3rd level selector. Repeat the same pattern for the nested component, but scoped by the parent Component's `BLOCK`. Or in other words, start the nested component's `BLOCK` at the 3rd level, and the nested Component's `ELEMENT` is at the 4th selector level.
 
 ### JavaScript best practices {#javascript-best-practices}
 

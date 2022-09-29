@@ -16,10 +16,10 @@ exl-id: 9342bd2f-2ba9-42ee-9224-055649ac3c90
 ---
 # Simple Paid Time Off Request Workflow
 
-In this article, we will look at a simple workflow used for requesting Paid Time Off. The business requirements are as follows:
+In this article, we look at a simple workflow used for requesting Paid Time Off. The business requirements are as follows:
 
 * User A requests time off by filling in an adaptive form. 
-* The form is routed to AEM admin user(In real life it will be routed to the submitter's manager)
+* The form is routed to AEM admin user (In real life it is routed to the submitter's manager)
 * Admin opens the form. Admin should not be able to edit any information filled by the submitter. 
 * Approver section should be visible to the approver(In this case it is the AEM admin user).
 

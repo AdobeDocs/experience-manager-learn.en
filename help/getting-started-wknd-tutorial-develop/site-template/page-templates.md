@@ -1,6 +1,6 @@
 ---
 title: Page templates
-description: Learn how to create and modify Page Templates. Understand the relationship between a Page Template and a Page. Learn how to configure policies of a Page Template to provide granular governance and brand consistency for content.  A well-structured Magazine Article template will be created based on a mockup from Adobe XD.
+description: Learn how to create and modify Page Templates. Understand the relationship between a Page Template and a Page. Learn how to configure policies of a Page Template to provide granular governance and brand consistency for content.  A well-structured Magazine Article template is created based on a mockup from Adobe XD.
 sub-product: sites
 version: Cloud Service
 type: Tutorial
@@ -28,17 +28,17 @@ This is a multi-part tutorial and it is assumed that the steps outlined in the [
 
 ## What you will build {#what-you-will-build}
 
-In this part of the tutorial, you will build a new Magazine Article Page template that can be used to create new magazine articles and aligns with a common structure. The template will be based on designs and a UI Kit produced in AdobeXD. This chapter is only focused on building out the structure or skeleton of the template. No styles will be implemented but the template and pages will be functional.
+In this part of the tutorial, you will build a new Magazine Article Page template that can be used to create new magazine articles and aligns with a common structure. The template is based on designs and a UI Kit produced in AdobeXD. This chapter is only focused on building out the structure or skeleton of the template. No styles are implemented but the template and pages are functional.
 
 ## Create the Magazine Article Page Template
 
-When creating a page you must select a template, which will be used as the basis for creating the new page. The template defines the structure of the resultant page, initial content, and allowed components.
+When creating a page you must select a template, which is used as the basis for creating the new page. The template defines the structure of the resultant page, initial content, and allowed components.
 
 There are 3 main areas of [Page Templates](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html):
 
-1. **Structure** - defines components that are a part of the template. These will not be editable by content authors.
-1. **Initial Content** - defines components that the template will start with, these can be edited and/or deleted by content authors
-1. **Policies** - defines configurations on how components will behave and what options authors will have available.
+1. **Structure** - defines components that are a part of the template. These are not editable by content authors.
+1. **Initial Content** - defines components that the template starts with, these can be edited and/or deleted by content authors
+1. **Policies** - defines configurations on how components behave and what options authors will have available.
 
 Next, create a new template in AEM that matches the structure of the mockups. This will occur in a local instance of AEM. Follow the steps in the video below:
 
