@@ -39,8 +39,8 @@ To test this capability on your system, please follow the following steps:
 
 * Open the task from the inbox and submit the form. Please enter some comments when prompted.
 
-The comments will be stored in the metadata property called managerComments in crx. To check for the comments login to crx as admin. The workflow instances are stored in the following path
+The comments is stored in the metadata property called `managerComments` in AEM's repository. To check for the comments login to crx as admin. The workflow instances are stored in the following path:
 
-/var/workflow/instances/server0
+`/var/workflow/instances/server0`
 
 Select the appropriate workflow instance and check for the property managerComments in the metadata node.

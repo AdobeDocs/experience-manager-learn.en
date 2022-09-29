@@ -26,12 +26,12 @@ To set up watched folder on your system, please follow the steps below:
   * Windows System
 
       * Import the outputservicewatchedfolder.zip into AEM using package manager
-     * This will create a watched folder called outputservicewatchedfolder on your C drive.
+     * This creates a watched folder called outputservicewatchedfolder on your C drive.
   * Non Windows System
     * [Open the configuration setting of the watched folder](http://localhost:4502/crx/de/index.jsp#/etc/fd/watchfolder/config/outputservice)
     * Set the folder path property of the outservice node to point to a suitable location
     * Save your changes
-    * The location mentioned above will be your watched folder.
+    * The location mentioned above is your watched folder.
 
 Drop the SamplePdfFile and SampleXdpFile folders into the input folder of the watched folder. On successful processing of the files, the results are placed under the results folder of your watched folder.
 

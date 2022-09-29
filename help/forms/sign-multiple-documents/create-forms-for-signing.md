@@ -23,11 +23,11 @@ The next step is to create the adaptive forms you want to be included in the pac
 * The submission of the form must be configured to trigger AEM workflow **Update Signature Status**
 * Make sure the Data File Path is set to **Data.xml**. This is very important as the sample code looks for a file called Data.xml in the payload the process the form submission.
 
-Once you have authored your form, include the **commonfields** adaptive form fragment in the form. The fragment will be marked as hidden. This fragment contains the following fields.
+Once you have authored your form, include the **commonfields** adaptive form fragment in the form. The fragment is marked as hidden. This fragment contains the following fields.
 
 * **signed** - The field to hold the status of the signature
 * **guid** - Unique identifier to identify the form in the package
-* **customerEmail** - This field will hold the customer's email
+* **customerEmail** - This field holds the customer's email
 
 
 

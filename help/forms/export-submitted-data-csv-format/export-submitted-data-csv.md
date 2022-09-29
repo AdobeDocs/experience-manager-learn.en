@@ -22,15 +22,17 @@ Customers typically want to export the submitted form data in CSV format. This a
 ![Table Structure](assets/tablestructure.PNG)
 As you can see the name of the schema is aemformstutorial.Inside this schema is the table formsubmissions with the following columns defined
 
-* formdata: This column will hold the submitted formdata
-* formname: This column will hold the name of the form submitted
+* formdata: This column holds the submitted formdata
+* formname: This column holds the name of the form submitted
 * id: This is the primary key and is set to auto-increment
 
 The table name and the two-column names are exposed as OSGi configuration properties as shown in the screenshot below:
 ![osgi-configuration](assets/configuration.PNG)
-The code will read these values and construct the appropriate SQL query to execute. For example the following query will be executed based on the above values
-**SELECT formdata FROM aemformstutorial.formsubmissions where formname=timeoffrequestform**
-In the above query the name of the form(timeoffrequestform) will be passed as request parameter to the servlet.
+The code reads these values and construct the appropriate SQL query to execute. For example the following query is executed based on the above values
+
+`SELECT formdata FROM aemformstutorial.formsubmissions where formname=timeoffrequestform`
+
+In the above query the name of the form(timeoffrequestform) is passed as request parameter to the servlet.
 
 ## **Create OSGi Service**
 

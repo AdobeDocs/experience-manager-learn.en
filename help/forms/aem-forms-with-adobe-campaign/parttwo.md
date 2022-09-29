@@ -264,4 +264,4 @@ Once we have defined the service and the custom submit action, we are ready to t
 * [Import Adaptive Form and Custom Submit Handler using package manager](assets/create-acs-profile-on-af-submission.zip).This package contains Adaptive Form configured to submit to custom submit action.
 * Preview the [form](http://localhost:4502/content/dam/formsanddocuments/createcampaignprofile/jcr:content?wcmmode=disabled)
 * Fill in all the fields and submit
-* A new profile will be created in your ACS instance
+* A new profile is created in your ACS instance

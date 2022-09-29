@@ -21,17 +21,17 @@ Dynamic Media Viewer enhancements in AEM 6.4 includes the addition of Panoramic 
 
 ## Panoramic and Panoramic VR Viewer
 
-An image is considered panoramic based on its aspect ratio or keywords. By default, an image with aspect ratio of 2 will be considered as a panoramic image. Panoramic Image viewer presets will become available for an image preview if it satisfies the above criteria. The panoramic image aspect ratio criterion can be modified in the company's DMS7 configuration by specifying the double property s7PanoramicAR at /conf/global/settings/cloudconfigs/dmscene7/jcr:content. The keywords are stored in the dc:keyword property of the asset's metadata node. If the keywords contain any of the following combination :
+An image is considered panoramic based on its aspect ratio or keywords. By default, an image with aspect ratio of 2 is considered as a panoramic image. Panoramic Image viewer presets become available for an image preview if it satisfies the above criteria. The panoramic image aspect ratio criterion can be modified in the company's DMS7 configuration by specifying the double property s7PanoramicAR at /conf/global/settings/cloudconfigs/dmscene7/jcr:content. The keywords are stored in the dc:keyword property of the asset's metadata node. If the keywords contain any of the following combination :
 
 * equirectangular,
 * spherical + panoramic,
 * spherical + panorama,
 
-it will be considered as a Panoramic Image asset regardless of its aspect ratio.
+it is considered as a Panoramic Image asset regardless of its aspect ratio.
 
 ## Vertical Image Viewer
 
-With horizontal swatches, depending on the consumer’s desktop screen size, sometimes the swatches would not be visible until user scrolls down the page. By using vertical image viewer and placing vertical swatches, it ensures that the swatches are visible no matter what the screen size is. It also maximizes the main image size. With horizontal swatches, it was necessary to reserve space on the page to ensure they have a high likelihood of being visible and would decrease the size of the main image. With a vertical layout, you do not need to worry about allocating this space and therefore can maximize the main image size.
+With horizontal swatches, depending on the consumer's desktop screen size, sometimes the swatches would not be visible until user scrolls down the page. By using vertical image viewer and placing vertical swatches, it ensures that the swatches are visible no matter what the screen size is. It also maximizes the main image size. With horizontal swatches, it was necessary to reserve space on the page to ensure they have a high likelihood of being visible and would decrease the size of the main image. With a vertical layout, you do not need to worry about allocating this space and therefore can maximize the main image size.
 
 <table> 
  <tbody>

@@ -26,9 +26,9 @@ Setting up a local development environment is the first step when developing for
 
 ## Install local AEM Instances
 
-When we refer to a local AEM instance, we are talking about a copy of Adobe Experience Manager that is running on a developer’s personal machine. ***All*** AEM development should start by writing and running code against a local AEM instance.
+When we refer to a local AEM instance, we are talking about a copy of Adobe Experience Manager that is running on a developer's personal machine. ***All*** AEM development should start by writing and running code against a local AEM instance.
 
-If you are new to AEM, there are two basic run modes can be installed: ***Author*** and ***Publish***. The ***Author*** [runmode](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configure-runmodes.html)  is the environment that digital marketers will use to create and manage content. When developing **most** of the time you will be deploying code to an Author instance. This allows you to create new pages as well as add and configure components. AEM Sites is a WYSIWYG authoring CMS and therefore most of the CSS and JavaScript can be tested against an authoring instance.
+If you are new to AEM, there are two basic run modes can be installed: ***Author*** and ***Publish***. The ***Author*** [runmode](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configure-runmodes.html)  is the environment that digital marketers will use to create and manage content. When developing **most** of the time you are deploying code to an Author instance. This allows you to create new pages as well as add and configure components. AEM Sites is a WYSIWYG authoring CMS and therefore most of the CSS and JavaScript can be tested against an authoring instance.
 
 It is also *critical* test code against a local ***Publish*** instance. The ***Publish*** instance is the AEM environment that visitors to your website will interact with. While the ***Publish*** instance is the same technology stack as the ***Author*** instance, there are some major distinctions with configurations and permissions. Code should *always* be tested against a local ***Publish*** instance before being promoted to higher level environments.
 
@@ -103,7 +103,7 @@ All AEM projects should be built off the latest version of the **[!DNL AEM Proje
 
 ## Set Up an Integrated Development Environment
 
-An integrated development environment or IDE is an application that combines a text editor, syntax support and build-tools. Depending on the type of development you are doing, one IDE might be preferable over another. Regardless of the IDE, it will be important to be able to periodically ***push*** code to a local AEM instance in order to test it. It will also be important to occasionally ***pull*** configurations from a local AEM instance into your AEM project in order to persist to a source-control management system like Git.
+An integrated development environment or IDE is an application that combines a text editor, syntax support and build-tools. Depending on the type of development you are doing, one IDE might be preferable over another. Regardless of the IDE, it is important to be able to periodically ***push*** code to a local AEM instance in order to test it. It will also be important to occasionally ***pull*** configurations from a local AEM instance into your AEM project in order to persist to a source-control management system like Git.
 
 Below are a few of the more popular IDEs that are used with AEM development with corresponding videos that show the integration with a local AEM instance.
 
@@ -187,7 +187,7 @@ The **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** is a powerful IDE for p
 
 ## Troubleshooting
 
-***Help!*** My code isn't working! As with all development, there will be times (probably many), where your code is just not working as expected. AEM is a powerful platform, but with great power... comes great complexity. Below are a few high level starting points when it comes to troubleshooting and tracking down issues (but far from an exhaustive list of things that can go wrong):
+***Help!*** My code isn't working! As with all development, there are times (probably many), where your code is just not working as expected. AEM is a powerful platform, but with great power... comes great complexity. Below are a few high level starting points when it comes to troubleshooting and tracking down issues (but far from an exhaustive list of things that can go wrong):
 
 ### Verify Code Deployment
 

@@ -1,5 +1,5 @@
 ---
-title: AEM Service Credentials
+title: AEM Forms Service Credentials
 description: Download service credentials from AEM's Developer Console.
 type: Documentation
 role: Developer
@@ -11,9 +11,9 @@ kt: 8192
 thumbnail: 330519.jpg
 exl-id: 74cb8c30-4c41-426c-a1b5-fc595a3167c8
 ---
-# Service Credentials
+# AEM Forms Service Credentials
 
-Integrations with AEM as a Cloud Service must be able to securely authenticate to AEM. AEM’s Developer Console generates Service Credentials, which are used by external applications, systems, and services to programmatically interact with AEM Author or Publish services over HTTP.
+Integrations with AEM as a Cloud Service must be able to securely authenticate to AEM. AEM's Developer Console generates Service Credentials, which are used by external applications, systems, and services to programmatically interact with AEM Author or Publish services over HTTP.
 
 >[!VIDEO](https://video.tv.adobe.com/v/330519/?quality=12&learn=on)
 

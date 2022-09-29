@@ -46,7 +46,7 @@ This tutorial uses `curl` to make the Cloud Manager API configurations. The prov
 
 Start by enabling the flexible port egress on AEM as a Cloud Service.
 
-1. First, determine the region in which the Advanced Networking will be set up by using the Cloud Manager API [listRegions](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. The `region name` is required to make subsequent Cloud Manager API calls. Typically, the region the Production environment resides in is used.
+1. First, determine the region Advanced Networking is setup in by using the Cloud Manager API [listRegions](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. The `region name` is required to make subsequent Cloud Manager API calls. Typically, the region the Production environment resides in is used.
 
     __listRegions HTTP request__
 
@@ -164,9 +164,9 @@ HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default a
 
 When creating HTTP/HTTPS connections to non-standard ports (not-80/443) from AEM, the connections must be made through special host and ports, provided via placeholders.
 
-AEM provides two sets of special Java™ system variables that map to AEM's HTTP/HTTPS proxies.
+AEM provides two sets of special Java&trade; system variables that map to AEM's HTTP/HTTPS proxies.
 
-| Variable name | Use | Java™ code | OSGi configuration | 
+| Variable name | Use | Java&trade; code | OSGi configuration | 
 | - |  - | - | - |
 | `AEM_PROXY_HOST` | Proxy host for both HTTP/HTTPS connections | `System.getenv().getOrDefault("AEM_PROXY_HOST", "proxy.tunnel")` | `$[env:AEM_PROXY_HOST;default=proxy.tunnel]` |
 | `AEM_HTTP_PROXY_PORT` | Proxy port for HTTPS connections (set fallback to `3128`) | `System.getenv().getOrDefault("AEM_HTTP_PROXY_PORT", 3128)` | `$[env:AEM_HTTP_PROXY_PORT;default=3128]` |
@@ -186,7 +186,7 @@ When making HTTP/HTTPS calls to external services on non-standard ports, no corr
     <a  href="./examples/http-on-non-standard-ports-flexible-port-egress.md"><img alt="HTTP/HTTPS on non-standard ports" src="./assets/code-examples__http.png"/></a>
     <div><strong><a href="./examples/http-on-non-standard-ports-flexible-port-egress.md">HTTP/HTTPS on non-standard ports</a></strong></div>
     <p>
-        Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service on non-standard HTTP/HTTPS ports.
+        Java&trade; code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service on non-standard HTTP/HTTPS ports.
     </p>
 </td>   
 <td></td>   
@@ -198,7 +198,7 @@ When making HTTP/HTTPS calls to external services on non-standard ports, no corr
 
 When creating non-HTTP/HTTPS connections (ex. SQL, SMTP, and so on) from AEM, the connection must be made through a special host name provided by AEM.
 
-| Variable name | Use | Java™ code | OSGi configuration | 
+| Variable name | Use | Java&trade; code | OSGi configuration | 
 | - |  - | - | - |
 | `AEM_PROXY_HOST` | Proxy host for non-HTTP/HTTPS connections | `System.getenv().getOrDefault("AEM_PROXY_HOST", "proxy.tunnel")` | `$[env:AEM_PROXY_HOST;default=proxy.tunnel]` |
 
@@ -216,14 +216,14 @@ Connections to external services are then called through the `AEM_PROXY_HOST` an
       <a  href="./examples/sql-datasourcepool.md"><img alt="SQL connection using JDBC DataSourcePool" src="./assets/code-examples__sql-osgi.png"/></a>
       <div><strong><a href="./examples/sql-datasourcepool.md">SQL connection using JDBC DataSourcePool</a></strong></div>
       <p>
-            Java™ code example connecting to external SQL databases by configuring AEM's JDBC datasource pool.
+            Java&trade; code example connecting to external SQL databases by configuring AEM's JDBC datasource pool.
       </p>
     </td>   
    <td>
       <a  href="./examples/sql-java-apis.md"><img alt="SQL connection using Java APIs" src="./assets/code-examples__sql-java-api.png"/></a>
-      <div><strong><a href="./examples/sql-java-apis.md">SQL connection using Java™ APIs</a></strong></div>
+      <div><strong><a href="./examples/sql-java-apis.md">SQL connection using Java&trade; APIs</a></strong></div>
       <p>
-            Java™ code example connecting to external SQL databases using Java™'s SQL APIs.
+            Java&trade; code example connecting to external SQL databases using Java&trade;'s SQL APIs.
       </p>
     </td>   
    <td>

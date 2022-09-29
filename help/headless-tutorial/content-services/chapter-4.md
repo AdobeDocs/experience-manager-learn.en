@@ -1,8 +1,6 @@
 ---
 title: Chapter 4 - Defining Content Services Templates - Content Services
-seo-title: Getting Started with AEM Headless - Chapter 4 - Defining Content Services Templates
-description: Chapter 4 of the AEM Headless tutorial covers the role of AEM Editable Templates in the context of AEM Content Services. Editable Templates are used to define the JSON content structure AEM Content Services will ultimately expose.
-seo-description: Chapter 4 of the AEM Headless tutorial covers the role of AEM Editable Templates in the context of AEM Content Services. Editable Templates are used to define the JSON content structure AEM Content Services will ultimately expose.
+description: Chapter 4 of the AEM Headless tutorial covers the role of AEM Editable Templates in the context of AEM Content Services. Editable Templates are used to define the JSON content structure AEM Content Services ultimately expose.
 feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
@@ -15,13 +13,13 @@ Chapter 4 of the AEM Headless tutorial covers the role of AEM Editable Templates
 
 ## Understanding the role of Templates in AEM Content Services
 
-AEM Editable Templates are used to define the HTTP end-points that will be accessed to expose the Event content as JSON.
+AEM Editable Templates are used to define the HTTP end-points that is accessed to expose the Event content as JSON.
 
 Traditionally AEM's Editable Templates are used to define Web pages, however this use is simply convention. Editable Templates can be used to compose **any** set of content; how that content is accessed: as a HTML in a browser, as JSON consumed by JavaScript (AEM SPA Editor) or a Mobile App is a function of the how that page is requested.
 
 In AEM Content Services, editable templates are used to define how the JSON data is exposed.
 
-For the [!DNL WKND Mobile] App, we'll create a single Editable Template which will be used to drive a single API endpoint. While this example is simple to illustrate the concepts of AEM Headless, you can create multiple Pages (or Endpoints) each exposing different sets of content to create a more complex, and better organized API.
+For the [!DNL WKND Mobile] App, we'll create a single Editable Template which is used to drive a single API endpoint. While this example is simple to illustrate the concepts of AEM Headless, you can create multiple Pages (or Endpoints) each exposing different sets of content to create a more complex, and better organized API.
 
 ## Understanding the API End-point
 
@@ -37,9 +35,9 @@ As we can see, we have three logical sets of content to provide to the mobile ap
 
 To do this, we can map these requirements to AEM Components (and in our case, AEM WCM Core Components) in order to expose the requisite content as JSON.
 
-1. The **Logo** will be surfaced via an **Image component**
-2. The **Tag Line** will be surfaced via a **Text component**
-3. The list of **Events** will be surfaced via a **Content Fragment List component** that in turn, references a set of Event Content Fragments.
+1. The **Logo** is surfaced via an **Image component**
+2. The **Tag Line** is surfaced via a **Text component**
+3. The list of **Events** is surfaced via a **Content Fragment List component** that in turn, references a set of Event Content Fragments.
 
 >[!NOTE]
 >

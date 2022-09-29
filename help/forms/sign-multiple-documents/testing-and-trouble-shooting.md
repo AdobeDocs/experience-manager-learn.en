@@ -27,7 +27,7 @@ The customer is presented to fill and sign the first form in the package. On suc
 
 ### E-mail notification is not being generated
 
-The E-mail notification are sent by Send Email component in the Sign Multiple Form workflow. If any of the steps in this workflow fail, the e-mail notification will be sent. Make sure the custom process step in the workflow is creating rows in your MySQL database. If the rows are being created then check your Day CQ Mail Service configuration settings
+The E-mail notification are sent by Send Email component in the Sign Multiple Form workflow. If any of the steps in this workflow fail, the e-mail notification is sent. Make sure the custom process step in the workflow is creating rows in your MySQL database. If the rows are being created then check your Day CQ Mail Service configuration settings
 
 ### The link in the e-mail notification not working
 

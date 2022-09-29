@@ -47,7 +47,7 @@ _Click-through of debugging an Asset Compute worker using wskdebug (No audio)_
 1. Ensure [wskdebug](../set-up/development-environment.md#wskdebug) and [ngrok](../set-up/development-environment.md#ngork) npm modules are installed
 1. Ensure [Docker Desktop and the supporting Docker images](../set-up/development-environment.md#docker) are installed  and running
 1. Close any active running instances of Development Tool.
-1. Deploy the latest code using `aio app deploy`  and record the deployed action name (name between the `[...]`). This will be used to update the `launch.json` in step 8.
+1. Deploy the latest code using `aio app deploy`  and record the deployed action name (name between the `[...]`). This is used to update the `launch.json` in step 8.
 
    ```
    ℹ Info: Deploying package [wkndAemAssetCompute-0.0.1]...
@@ -95,7 +95,7 @@ _Click-through of debugging an Asset Compute worker using wskdebug (No audio)_
 1. From the command line, execute `aio app logs`
     + If the workspace is incurring heavy traffic, expand the number of activation logs via the `--limit` flag:
         `$ aio app logs --limit=25`
-1. The most recent (up to the provided `--limit`) activations logs will be returned as the output of the command for review.
+1. The most recent (up to the provided `--limit`) activations logs are returned as the output of the command for review.
    
    ![aio app logs](./assets/debug/aio-app-logs.png)
 

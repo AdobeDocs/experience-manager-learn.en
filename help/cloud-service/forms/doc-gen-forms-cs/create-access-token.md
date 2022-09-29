@@ -1,5 +1,5 @@
 ---
-title: Create an Access Token
+title: Exchange JWT for Access Token
 description: Exchange the JSON Web Token (JWT) with Adobe IMS APIs for an AEM access token.
 type: Documentation
 role: Developer

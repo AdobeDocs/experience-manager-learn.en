@@ -112,7 +112,7 @@ To inject data about the component in the data layer we must first update the co
     import com.adobe.cq.wcm.core.components.util.ComponentUtils;
     ```
 
-    The `fasterxml.jackson` APIs will be used to serialize the data we want to expose as JSON. The `ComponentUtils` of AEM Core Components will be used to check if the data layer is enabled.
+    The `fasterxml.jackson` APIs are used to serialize the data we want to expose as JSON. The `ComponentUtils` of AEM Core Components are used to check if the data layer is enabled.
 
 1. Add the unimplemented method `getData()` to `BylineImple.java`:
 
@@ -169,7 +169,7 @@ To inject data about the component in the data layer we must first update the co
 
 Next, update the `Byline` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/htl/block-statements.html?lang=en#htl). HTL (HTML Template Language) is the template used to render the component's HTML.
 
-A special data attribute `data-cmp-data-layer` on each AEM Component is used to expose its data layer.  JavaScript provided by AEM Core Components looks for this data attribute, whose value will be populated with the JSON String returned by the Byline Sling Model's `getData()` method, and injects the values into the Adobe Client Data layer.
+A special data attribute `data-cmp-data-layer` on each AEM Component is used to expose its data layer.  JavaScript provided by AEM Core Components looks for this data attribute, whose value is populated with the JSON String returned by the Byline Sling Model's `getData()` method, and injects the values into the Adobe Client Data layer.
 
 1. In the IDE open the `aem-guides-wknd` project. Navigate to the `ui.apps` module.
 1. Open the file `byline.html` at `ui.apps/src/main/content/jcr_root/apps/wknd/components/byline/byline.html`.
@@ -282,7 +282,7 @@ Clickable elements are usually a CTA button or a navigation link. Unfortunately 
 
     >[!CAUTION]
     >
-    > It will be important **not** to refresh the browser throughout this exercise, otherwise the console JavaScript will be lost.
+    > It is important **not** to refresh the browser throughout this exercise, otherwise the console JavaScript is lost.
 
 1. In the browser, with the **Console** open, click the name of the author in the Byline component:
 

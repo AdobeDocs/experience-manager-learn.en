@@ -40,7 +40,7 @@ A website is typically broken into pages to form a multi-page experience. AEM st
 
 1. Choose the **Article Page** template and click **Next**.
 
-    Pages in AEM are created based off of a Page Template. Page Templates will be explored in greater detail in the [Page Templates](page-templates.md) chapter.
+    Pages in AEM are created based off of a Page Template. Page Templates are explored in detail in the [Page Templates](page-templates.md) chapter.
 
 1. Under **Properties** enter a **Title** of "Hello World".
 1. Set the **Name** to be `hello-world` and click **Create**.
@@ -81,7 +81,7 @@ Next, author a few components using the AEM Page Editor.
 
     ![Add asset to dialog](assets/author-content-publish/add-asset-dialog.png)
 
-1. Observe that there are components on the page, like the **Title**, **Navigation**, **Search** that are fixed. These areas are configured as part of the Page Template and cannot be modified on an individual page. This will be explored more in the next chapter.
+1. Observe that there are components on the page, like the **Title**, **Navigation**, **Search** that are fixed. These areas are configured as part of the Page Template and cannot be modified on an individual page. This is explored more in the next chapter.
 
 Feel free to experiment with some of the other components. Documentation about each [Core Component can be found here](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html). A detailed video series about [Page authoring can be found here](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/aem-sites-authoring-overview.html).
 

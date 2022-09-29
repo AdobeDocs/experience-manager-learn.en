@@ -44,7 +44,7 @@ $ mv ~/Code/wknd-app/wknd-app ~/Code/wknd-app/com.adobe.aem.guides.wknd-app
 
 _The last command simply renames the AEM project folder so it is clear it's the AEM project, and not to be confused with Remote SPA__
 
-While `frontendModule="react"` is specified, the `ui.frontend` project is not used for the Remote SPA use case. The SPA is developed and managed externally to AEM and only uses AEM as a content API. The `frontendModule="react"` flag is required for the project include the  `spa-project` AEM Java™ dependencies and set up the Remote SPA Page Templates.
+While `frontendModule="react"` is specified, the `ui.frontend` project is not used for the Remote SPA use case. The SPA is developed and managed externally to AEM and only uses AEM as a content API. The `frontendModule="react"` flag is required for the project include the  `spa-project` AEM Java&trade; dependencies and set up the Remote SPA Page Templates.
 
 The AEM Project Archetype generates the following elements that used to configure AEM for integration with the SPA.
 
@@ -155,7 +155,7 @@ The mapping can be done with [Sling Mapping](https://sling.apache.org/documentat
     The 'wknd-app-routes-adventure' mapping, maps requests to the SPA's adventure route 
     to it's corresponding page in AEM at /content/wknd-app/us/en/home/adventure/xxx.
 
-    Note the adventure AEM pages will be created directly in AEM.
+    Note the adventure AEM pages are created directly in AEM.
     -->
 
     <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"

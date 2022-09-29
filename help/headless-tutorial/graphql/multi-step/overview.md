@@ -36,11 +36,11 @@ The following are required to follow this tutorial:
   * [Node.js v10+](https://nodejs.org/en/)
   * [npm 6+](https://www.npmjs.com/)
   * [Git](https://git-scm.com/)
-  * An IDE (for example, [Microsoft® Visual Studio Code](https://code.visualstudio.com/))
+  * An IDE (for example, [Microsoft&reg; Visual Studio Code](https://code.visualstudio.com/))
 
 ### AEM Environment
 
-To complete this tutorial, AEM Administrator access to an AEM as a Cloud Service environment is recommended.  If you do not have access to AEM as a Cloud Service environment, you can use the [Local AEM as a Cloud Service Quickstart SDK](/help/cloud-service/local-development-environment/aem-runtime.md). However, it is important to be aware that some product UI screens such as Content Fragment navigation will be different.
+To complete this tutorial, AEM Administrator access to an AEM as a Cloud Service environment is recommended.  If you do not have access to AEM as a Cloud Service environment, you can use the [Local AEM as a Cloud Service Quickstart SDK](/help/cloud-service/local-development-environment/aem-runtime.md). However, it is important to be aware that some product UI screens such as Content Fragment navigation is different.
 
 ## Let's get started!
 

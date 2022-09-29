@@ -28,7 +28,7 @@ This chapter takes a deeper-dive into the AEM JSON model API and how the JSON co
 
 ## What you will build
 
-This chapter will inspect how the provided `Text` SPA component is mapped to the AEM `Text`component. React Core Components like the `Image` SPA component will be used in the SPA and authored in AEM. Out of the box features of the **Layout Container** and **Template Editor** policies will also be used to create a view that is a little more varied in appearance.
+This chapter inspects how the provided `Text` SPA component is mapped to the AEM `Text`component. React Core Components like the `Image` SPA component is used in the SPA and authored in AEM. Out of the box features of the **Layout Container** and **Template Editor** policies are also be used to create a view that is a little more varied in appearance.
 
 ![Chapter sample final authoring](./assets/map-components/final-page.png)
 
@@ -61,7 +61,7 @@ Let's see how the component works.
 
     `:type` is a reserved property that lists the `sling:resourceType` (or path) of the AEM Component. The value of `:type` is what is used to map the AEM component to the SPA component.
 
-    `text` and `richText` are additional properties that will be exposed to the SPA component.
+    `text` and `richText` are additional properties that are exposed to the SPA component.
 
 1. View the JSON output at [http://localhost:4502/content/wknd-spa-react/us/en.model.json](http://localhost:4502/content/wknd-spa-react/us/en.model.json). You should be able to find an entry similar to:
 
@@ -119,7 +119,7 @@ Let's see how the component works.
     };
     ```
 
-    The above code is responsible for determining when to render the placeholder in the AEM author environment. If the `isEmpty` method returns **true** then the placeholder will be rendered.
+    The above code is responsible for determining when to render the placeholder in the AEM author environment. If the `isEmpty` method returns **true** then the placeholder is rendered.
 
 1. Finally take a look at the `MapTo` call at ~line 62:
 
@@ -277,7 +277,7 @@ The next few steps will take place using the Visual Studio Code IDE and [VSCode 
     </workspaceFilter>
    ```
 
-   The `filter.xml` file is responsible for identifying the paths of nodes that will be installed with the package. Notice the `mode="merge"` on each of the filters which indicates that existing content will not be modified, only new content is added. Since content authors may be updating these paths, it is important that a code deployment does **not** overwrite content. See the [FileVault documentation](https://jackrabbit.apache.org/filevault/filter.html) for more details on working with filter elements.
+   The `filter.xml` file is responsible for identifying the paths of nodes that are installed with the package. Notice the `mode="merge"` on each of the filters which indicates that existing content will not be modified, only new content is added. Since content authors may be updating these paths, it is important that a code deployment does **not** overwrite content. See the [FileVault documentation](https://jackrabbit.apache.org/filevault/filter.html) for more details on working with filter elements.
 
    Compare `ui.content/src/main/content/META-INF/vault/filter.xml` and `ui.apps/src/main/content/META-INF/vault/filter.xml` to understand the different nodes managed by each module.
 
@@ -293,11 +293,11 @@ Before jumping into the SPA code, inspect the JSON model provided by AEM.
 
     ![Image Core Component JSON](./assets/map-components/image-json.png)
 
-    Properties of `src`, `alt`, and `title` will be used to populate the SPA `Image` component.
+    Properties of `src`, `alt`, and `title` are used to populate the SPA `Image` component.
 
     >[!NOTE]
     >
-    > There are other Image properties exposed (`lazyEnabled`, `widths`) that allow a developer to create an adaptive and lazy-loading component. The component built in this tutorial will be simple and will **not** use these advanced properties.
+    > There are other Image properties exposed (`lazyEnabled`, `widths`) that allow a developer to create an adaptive and lazy-loading component. The component built in this tutorial is simple and does **not** use these advanced properties.
 
 ### Implement the Image component
 

@@ -57,7 +57,7 @@ A majority of the tutorial will take place using the **Author Service**.
     >
     >It is recommended to use a **Development** environment for this tutorial.
 
-1. A new tab will be launched to the AEM **Author Service**. Click **Sign in with Adobe** and you should be logged in automatically with the same Experience Cloud credentials.
+1. A new tab is launched to the AEM **Author Service**. Click **Sign in with Adobe** and you should be logged in automatically with the same Experience Cloud credentials.
 
 1. After being redirected and authenticated you should now see the AEM start screen.
 
@@ -77,7 +77,7 @@ A Site Template provides a starting point for a new site. A Site Template includ
 
     ![Basic Site Template Zip](assets/create-site/template-basic-zip-file.png)
 
-    This zip file will be used in the next exercise.
+    This zip file is used in the next exercise.
 
     >[!NOTE]
     >

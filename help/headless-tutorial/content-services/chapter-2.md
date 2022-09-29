@@ -52,7 +52,7 @@ If Content Fragment Models are **not** enabled for a configuration, the **[!UICO
    >    1. Navigate to `/conf/wknd-mobile/settings/dam/cfm`
    >    1. Delete the `models` node
    >    
-   >Any existing Content Fragment Models created under this configuration will be deleted as well as their definitions are stored under `/conf/wknd-mobile/settings/dam/cfm/models`.
+   >Any existing Content Fragment Models created under this configuration is deleted as well as their definitions are stored under `/conf/wknd-mobile/settings/dam/cfm/models`.
 
 1. Apply the **[!DNL WKND Mobile]** configuration to the **[!DNL WKND Mobile] Assets Folder** to allow Content Fragments from Content Fragment Models to be created within that Assets folder hierarchy:
 
@@ -77,7 +77,7 @@ We can break out the data points that define an Event as follows:
 
 ![Creating the Content Fragment Model](assets/chapter-2/design-to-model-mapping.png)
 
-Armed with the mapping we can define out Content Fragment that will be used to collect and ultimately expose the Event data.
+Armed with the mapping we can define out Content Fragment that are used to collect and ultimately expose the Event data.
 
 ## Creating the Content Fragment Model
 
@@ -166,7 +166,7 @@ Repeat these steps using the input definitions defined below to create the rest 
 
 >[!NOTE]
 >
->The **[!UICONTROL Property Name]** denotes the **both** the JCR property name where this value will be stored as well as the key in the JSON file . This should be a semantic name that is will not change over the life of the Content Fragment Model.
+>The **[!UICONTROL Property Name]** denotes the **both** the JCR property name where this value is stored as well as the key in the JSON file . This should be a semantic name that is will not change over the life of the Content Fragment Model.
 
 After completing creating of the Content Fragment Model, you should end up with a definition that looks like:
 

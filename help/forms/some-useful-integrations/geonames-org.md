@@ -24,7 +24,7 @@ The following steps were followed to implement cascading drop down lists in AEM 
 
 ## Create developer account
 
-Create a developer account with [Geonames](https://www.geonames.org/login). Make a note of the username. This username will be needed to invoke REST API's of the geonames.org.
+Create a developer account with [Geonames](https://www.geonames.org/login). Make a note of the username. This username is needed to invoke REST API's of the geonames.org.
 
 ## Create Swagger/OpenAPI file
 

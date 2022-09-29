@@ -57,7 +57,7 @@ If AEM Publish is not being run on **http://localhost:4503** the host and port c
     1. Select a **Pixel 2**.
     1. Click the **Next** button.
     1. Select **Q** with **API Level 29**.
-        * Upon the initial launch of AVD Manager, you will be asked to Download the versioned API. Click the Download link next to the "Q" release, and complete download and installation.
+        * Upon the initial launch of AVD Manager, you are asked to Download the versioned API. Click the Download link next to the "Q" release, and complete download and installation.
     1. Click the **Next** button.
     1. Click the **Finish** button.
 1. Close the **AVD Manager** window.

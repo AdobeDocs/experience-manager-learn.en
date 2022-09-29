@@ -138,7 +138,7 @@ $ aio cloudmanager:download-logs <ENVIRONMENT> <SERVICE> <NAME> <DAYS>
 
 ## Understanding logs
 
-Logs in AEM as a Cloud Service have multiple pods writing log statements into them. Because multiple AEM instances write to the same log file, it is important to understand how to analyze, and reduce noise while debugging. To explain, the following `aemerror` log snippet will be used:
+Logs in AEM as a Cloud Service have multiple pods writing log statements into them. Because multiple AEM instances write to the same log file, it is important to understand how to analyze, and reduce noise while debugging. To explain, the following `aemerror` log snippet is used:
 
 ```
 01.01.2020 12:00:00.000 [cm-p12345-e56789-aem-author-abcdefg-1111] *DEBUG* [qtp2078364989-269] com.example.components.impl.ExampleModelImpl Preparing to collect resources

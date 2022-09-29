@@ -12,7 +12,7 @@ Learn how to set up and use AEM as a cloud service to support caching page varia
 
 ## Example use cases 
 
-+ Any service provider who is offering a different set of service offerings and corresponding pricing options based on the user’s geo location and the cache of pages with dynamic content should be managed at CDN and Dispatcher. 
++ Any service provider who is offering a different set of service offerings and corresponding pricing options based on the user's geo location and the cache of pages with dynamic content should be managed at CDN and Dispatcher. 
 
 + A retail customer has stores across the country and each store has different offers based on where they are located and the cache of pages with dynamic content should be managed at CDN and Dispatcher. 
 
@@ -20,9 +20,9 @@ Learn how to set up and use AEM as a cloud service to support caching page varia
 
 + Identify the variant key and the number of values it may have. In our example, we vary by US state, so the max number is 50. This is small enough to not cause problems with the variant limits at the CDN. [Review variant limitations section](#variant-limitations).
 
-+ AEM code must set the cookie __“x-aem-variant”__ to the visitor’s preferred state (eg. `Set-Cookie: x-aem-variant=NY`) on the initial HTTP request's corresponding HTTP response.
++ AEM code must set the cookie __"x-aem-variant"__ to the visitor's preferred state (eg. `Set-Cookie: x-aem-variant=NY`) on the initial HTTP request's corresponding HTTP response.
 
-+ Subsequent requests from the visitor send that cookie (eg. `“Cookie: x-aem-variant=NY”`) and the cookie will be transformed at the CDN level into a pre-defined header (i.e. `x-aem-variant:NY`) which is passed to the dispatcher.
++ Subsequent requests from the visitor send that cookie (eg. `"Cookie: x-aem-variant=NY"`) and the cookie is transformed at the CDN level into a pre-defined header (i.e. `x-aem-variant:NY`) which is passed to the dispatcher.
 
 + An Apache rewrite rule modifies the request path to include the header value in the page URL as an Apache Sling Selector (eg. `/page.variant=NY.html`). This allows AEM Publish to serve different content based on the selector and the dispatcher to cache one page per variant.
 
@@ -133,4 +133,4 @@ Learn how to set up and use AEM as a cloud service to support caching page varia
 
 >[!NOTE]
 >
->When the variants exceed 200, the CDN will respond with “Too many variants” response instead of the page content.
+>When the variants exceed 200, the CDN will respond with "Too many variants" response instead of the page content.

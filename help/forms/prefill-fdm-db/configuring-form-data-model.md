@@ -50,7 +50,7 @@ The first step in creating RDBMS backed form data model is to configure Apache S
 * Specify the values as shown in the screenshot
 * ![get-service](assets/get-service.png)
 >[!NOTE]
-> The get service expects a value mapped to the empID column of newhire entity.There are multiple ways to pass this value and in this tutorial the empID will be passed through request parameter called empID.
+> The get service expects a value mapped to the empID column of newhire entity.There are multiple ways to pass this value and in this tutorial the empID is passed through request parameter called empID.
 * Click _Done_ to save the arguments for the get service
 * Click _Done_ to save changes to form data model
 

@@ -76,7 +76,7 @@ Before making rules in Launch it is useful to review the [schema for the Button 
 
 ## Create a CTA Clicked rule
 
-The Adobe Client Data Layer is an **event** driven data layer. When the any Core Component is clicked a `cmp:click` event will be dispatched via the data layer. Next create a rule to listen for the `cmp:click` event.
+The Adobe Client Data Layer is an **event** driven data layer. When the any Core Component is clicked a `cmp:click` event is dispatched via the data layer. Next create a rule to listen for the `cmp:click` event.
 
 1. Navigate to Experience Platform Launch and into the Web property integrated with the AEM Site.
 1. Navigate to the **Rules** section in the Launch UI and then and click **Add Rule**.
@@ -117,9 +117,9 @@ The Adobe Client Data Layer is an **event** driven data layer. When the any Core
    });
    ```
 
-   The above code snippet will add an event listener by [pushing a function](https://github.com/adobe/adobe-client-data-layer/wiki#pushing-a-function) into the data layer. When the `cmp:click` event is triggered the `componentClickedHandler` function is called. In this function a few sanity checks are added and a new `event` object is constructed with the latest [state of the data layer](https://github.com/adobe/adobe-client-data-layer/wiki#getstate) for the component that triggered the event.
+   The above code snippet adds an event listener by [pushing a function](https://github.com/adobe/adobe-client-data-layer/wiki#pushing-a-function) into the data layer. When the `cmp:click` event is triggered the `componentClickedHandler` function is called. In this function a few sanity checks are added and a new `event` object is constructed with the latest [state of the data layer](https://github.com/adobe/adobe-client-data-layer/wiki#getstate) for the component that triggered the event.
 
-   After that `trigger(event)` is called. `trigger()` is a reserved name in Launch and will "trigger" the Launch Rule. We pass the `event` object as a parameter which in turn will be exposed by another reserved name in Launch named `event`. Data Elements in Launch can now reference various properties like so: `event.component['someKey']`.
+   After that `trigger(event)` is called. `trigger()` is a reserved name in Launch and "triggers" the Launch Rule. We pass the `event` object as a parameter which in turn is exposed by another reserved name in Launch named `event`. Data Elements in Launch can now reference various properties like so: `event.component['someKey']`.
 
 1. Save the changes.
 1. Next under **Actions** click **Add** to open the **Action Configuration** wizard.

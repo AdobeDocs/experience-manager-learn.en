@@ -12,7 +12,7 @@ exl-id: 33f2fd25-8696-42fd-b496-dd21b88397b2
 ---
 # Collect page data with Adobe Analytics
 
-Learn to use the built-in features of the [Adobe Client Data Layer with AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html) to collect data about a page in Adobe Experience Manager Sites. [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) and the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) will be used to create rules to send page data to Adobe Analytics.
+Learn to use the built-in features of the [Adobe Client Data Layer with AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html) to collect data about a page in Adobe Experience Manager Sites. [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) and the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) are used to create rules to send page data to Adobe Analytics.
 
 ## What you will build
 
@@ -101,7 +101,7 @@ The [WKND Reference project](https://github.com/adobe/aem-guides-wknd) is built 
 
 ## Create a Page Loaded rule
 
-The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Page** data layer is loaded it will trigger an event `cmp:show`. Create a rule that will be triggered based on the `cmp:show` event.
+The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Page** data layer is loaded it will trigger an event `cmp:show`. Create a rule that is triggered based on the `cmp:show` event.
 
 1. Navigate to Experience Platform Launch and into the Web property integrated with the AEM Site.
 1. Navigate to the **Rules** section in the Launch UI and then and click **Create New Rule**.
@@ -147,7 +147,7 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Pa
 
    The above code snippet will add an event listener by [pushing a function](https://github.com/adobe/adobe-client-data-layer/wiki#pushing-a-function) into the data layer. When the `cmp:show` event is triggered the `pageShownEventHandler` function is called. In this function a few sanity checks are added and a new `event` is constructed with the latest [state of the data layer](https://github.com/adobe/adobe-client-data-layer/wiki#getstate) for the component that triggered the event.
 
-   After that `trigger(event)` is called. `trigger()` is a reserved name in Launch and will "trigger" the Launch Rule. We pass the `event` object as a parameter which in turn will be exposed by another reserved name in Launch named `event`. Data Elements in Launch can now reference various properties like so: `event.component['someKey']`.
+   After that `trigger(event)` is called. `trigger()` is a reserved name in Launch and will "trigger" the Launch Rule. We pass the `event` object as a parameter which in turn is exposed by another reserved name in Launch named `event`. Data Elements in Launch can now reference various properties like so: `event.component['someKey']`.
 
 1. Save the changes.
 1. Next under **Actions** click **Add** to open the **Action Configuration** wizard.
@@ -182,7 +182,7 @@ Next create several Data Elements to capture different values from the Adobe Cli
 
 Recall from earlier the [Page schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#page) exposed by the data layer:
 
-Data elements will be mapped to the `@type`, `dc:title`, and `xdm:template` properties.
+Data elements are mapped to the `@type`, `dc:title`, and `xdm:template` properties.
 
 ### Component Resource Type
 

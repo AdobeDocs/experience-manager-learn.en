@@ -53,7 +53,7 @@ Content Fragments are stored in folders in AEM Assets. To create Content Fragmen
 
     ![Allowed content Fragment Models](assets/author-content-fragments/allowed-content-fragment-models.png)
 
-    These policies will be inherited by any sub-folders automatically and can be overriden. Note that you can also allow models by tags or enable models from other project configurations. This mechanism provides a powerful way to manage your content hierarchy.
+    These policies are inherited by any sub-folders automatically and can be overriden. Note that you can also allow models by tags or enable models from other project configurations. This mechanism provides a powerful way to manage your content hierarchy.
 
 1. Tap **Save & Close** to save the changes to the folder properties.
 
@@ -69,7 +69,7 @@ Content Fragments are stored in folders in AEM Assets. To create Content Fragmen
 
 ## Create a Content Fragment {#create-content-fragment}
 
-Next several Content Fragments will be created based on the **Team** and **Person** models.
+Next several Content Fragments are created based on the **Team** and **Person** models.
 
 1. From the AEM Start Screen tap **Content Fragments** to open up the Content Fragments UI.
 

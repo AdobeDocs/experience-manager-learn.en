@@ -57,7 +57,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 
 ## What you will build {#what-you-will-build}
 
-In this part of the tutorial, you will build a new Article Page Template that can be used to create new article pages and aligns with a common structure. The Article Page Template will be based on designs and a UI Kit produced in AdobeXD. This chapter is only focused on building out the structure or skeleton of the template. No styles will be implemented but the template and pages will be functional.
+In this part of the tutorial, you will build a new Article Page Template that can be used to create new article pages and aligns with a common structure. The Article Page Template is based on designs and a UI Kit produced in AdobeXD. This chapter is only focused on building out the structure or skeleton of the template. No styles are implemented but the template and pages are functional.
 
 ![Article Page Design and un-styled version](assets/pages-templates/what-you-will-build.png)
 
@@ -75,13 +75,13 @@ In most cases, planning for a new website starts with mockups and static designs
 
 ## Create the Article Page Template
 
-When creating a page you must select a template, which will be used as the basis for creating the new page. The template defines the structure of the resultant page, initial content, and allowed components.
+When creating a page you must select a template, which is used as the basis for creating the new page. The template defines the structure of the resultant page, initial content, and allowed components.
 
 There are 3 main areas of [Editable Templates](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/page-templates-editable.html):
 
-1. **Structure** - defines components that are a part of the template. These will not be editable by content authors.
-1. **Initial Content** - defines components that the template will start with, these can be edited and/or deleted by content authors
-1. **Policies** - defines configurations on how components will behave and what options authors will have available.
+1. **Structure** - defines components that are a part of the template. These are not editable by content authors.
+1. **Initial Content** - defines components that the template start with, these can be edited and/or deleted by content authors
+1. **Policies** - defines configurations on how components behave and what options authors will have available.
 
 Next, create a new template in AEM that matches the structure of the mockups. This will occur in a local instance of AEM. Follow the steps in the video below:
 
@@ -95,12 +95,12 @@ High level steps for the video above:
 1. Switch into **Structure** mode.
 1. Add an **Experience Fragment** component to act as the **Header** at the top of the template.
     * Configure the component to point to `/content/experience-fragments/wknd/us/en/site/header/master`.
-    * Set the policy to **Page Header** and ensure that the **Default Element** is set to `header`. The `header`element will be targeted with CSS in the next chapter.
+    * Set the policy to **Page Header** and ensure that the **Default Element** is set to `header`. The `header`element is targeted with CSS in the next chapter.
 1. Add an **Experience Fragment** component to act as the **Footer** at the bottom of the template.
     * Configure the component to point to `/content/experience-fragments/wknd/us/en/site/footer/master`.
-    * Set the policy to **Page Footer** and ensure that the **Default Element** is set to `footer`. The `footer` element will be targeted with CSS in the next chapter.
+    * Set the policy to **Page Footer** and ensure that the **Default Element** is set to `footer`. The `footer` element is targeted with CSS in the next chapter.
 1. Lock the **main** container that was included when the template was initially created.
-    * Set the policy to **Page Main** and ensure that the **Default Element** is set to `main`. The `main` element will be targeted with CSS in the next chapter.
+    * Set the policy to **Page Main** and ensure that the **Default Element** is set to `main`. The `main` element is targeted with CSS in the next chapter.
 1. Add an **Image** component to the **main** container.
     * Unlock the **Image** component.
 1. Add a **Breadcrumb** component beneath the **Image** component in the main container.
@@ -124,9 +124,9 @@ High level steps for the video above:
 ### Initial Content configurations
 
 1. Switch to **Initial Content** mode.
-1. Add a **Title** component to the **Content container**. This will act as the Article title. When it is left empty, it will automatically display the current page's Title.
+1. Add a **Title** component to the **Content container**. This acts as the Article title. When it is left empty, it will automatically display the current page's Title.
 1. Add a second **Title** component beneath the first Title component. 
-    * Configure the component with the text: "By Author". This will be a text placeholder.
+    * Configure the component with the text: "By Author". This is a text placeholder.
     * Set the type to be `H4`.
 1. Add a **Text** component beneath the **By Author** Title component.
 1. Add a **Title** component to the **Side Rail Container**.
@@ -342,13 +342,13 @@ The next few steps will take place using the VSCode IDE using the [VSCode AEM Sy
     </workspaceFilter>
     ```
 
-    The `filter.xml` file is responsible for identifying the paths of nodes that will be installed with the package. Notice the `mode="merge"` on each of the filters which indicates that existing content will not be modified, only new content is added. Since content authors may be updating these paths, it is important that a code deployment does **not** overwrite content. See the [FileVault documentation](https://jackrabbit.apache.org/filevault/filter.html) for more details on working with filter elements.
+    The `filter.xml` file is responsible for identifying the paths of nodes that are installed with the package. Notice the `mode="merge"` on each of the filters which indicates that existing content will not be modified, only new content is added. Since content authors may be updating these paths, it is important that a code deployment does **not** overwrite content. See the [FileVault documentation](https://jackrabbit.apache.org/filevault/filter.html) for more details on working with filter elements.
 
     Compare `ui.content/src/main/content/META-INF/vault/filter.xml` and `ui.apps/src/main/content/META-INF/vault/filter.xml` to understand the different nodes managed by each module.
 
     >[!WARNING]
     >
-    > In order to ensure consistent deployments for the WKND Reference site some branches of the project are setup such that `ui.content` will overwrite any changes in the JCR. This is by design, i.e for Solution Branches, since code/styles will be written for specific policies.
+    > In order to ensure consistent deployments for the WKND Reference site some branches of the project are setup such that `ui.content` overwrites any changes in the JCR. This is by design, i.e for Solution Branches, since code/styles are written for specific policies.
 
 ## Congratulations! {#congratulations}
 

@@ -57,7 +57,7 @@ For this exercise, the following users need to be involved and to perform some t
      * Image
      * Text
      * **HTML**
-       * *HTML Offers will be used for this scenario's Activity*
+       * *HTML Offers are used for this scenario's Activity*
      * Link
      * Button
 

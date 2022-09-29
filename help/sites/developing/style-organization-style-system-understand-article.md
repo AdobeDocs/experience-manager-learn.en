@@ -89,7 +89,7 @@ It is even possible to assign a "named" style as the default style, for example,
 
 >[!NOTE]
 >
->Notice the Default layout style does NOT have a Display style name, however, the author will be able to select a Display option in the AEM Style System selection tool.
+>Notice the Default layout style does NOT have a Display style name, however, the author is able to select a Display option in the AEM Style System selection tool.
 >
 >This in violation of the best practice:
 >
@@ -209,7 +209,7 @@ To color the Hero layout style with brand colors, the same display styles used f
 
 Per component, the style name is mapped to the single set of CSS classes, which means the CSS Class names that color the background of the Promo layout style, must color the text and link of the Hero layout style.
 
-This can be trivially achieved by scoping the CSS rules, however, this does require the CSS developers to understand how these permutations will be enacted on AEM.
+This can be trivially achieved by scoping the CSS rules, however, this does require the CSS developers to understand how these permutations are enacted on AEM.
 
 CSS for coloring the background of the **Promote** layout style with the primary (green) color:
 

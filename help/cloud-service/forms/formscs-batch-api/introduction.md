@@ -21,4 +21,4 @@ To use AEM Forms CS batch operation API, the following configurations are needed
 1. Create Batch data store configuration
 1. Execute the Batch API
 
-It is recommended you get familiar with the [API documentation](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/assets/batch-api.yaml?lang=en) before proceeding to use this tutorial.
+It is recommended you get familiar with the [API documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/batch-api.yaml?lang=en) before proceeding to use this tutorial.

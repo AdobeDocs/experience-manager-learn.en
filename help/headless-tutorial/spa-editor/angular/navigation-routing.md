@@ -57,7 +57,7 @@ Review the required tooling and instructions for setting up a [local development
     $ mvn clean install -PautoInstallSinglePackage -Pclassic
     ```
 
-3. Install the finished package for the traditional [WKND reference site](https://github.com/adobe/aem-guides-wknd/releases/latest). The images provided by [WKND reference site](https://github.com/adobe/aem-guides-wknd/releases/latest) will be re-used on the WKND SPA. The package can be installed using [AEM's Package Manager](http://localhost:4502/crx/packmgr/index.jsp).
+3. Install the finished package for the traditional [WKND reference site](https://github.com/adobe/aem-guides-wknd/releases/latest). The images provided by [WKND reference site](https://github.com/adobe/aem-guides-wknd/releases/latest) are re-used on the WKND SPA. The package can be installed using [AEM's Package Manager](http://localhost:4502/crx/packmgr/index.jsp).
 
     ![Package Manager install wknd.all](./assets/map-components/package-manager-wknd-all.png)
 
@@ -65,7 +65,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 
 ## Inspect HeaderComponent updates {#inspect-header}
 
-In previous chapters, the `HeaderComponent` component was added as a pure Angular component included via `app.component.html`. In this chapter, the `HeaderComponent` component is removed from the app and will be added via the [Template Editor](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html). This allows users to configure the navigation menu of the `HeaderComponent` from within AEM.
+In previous chapters, the `HeaderComponent` component was added as a pure Angular component included via `app.component.html`. In this chapter, the `HeaderComponent` component is removed from the app and is added via the [Template Editor](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html). This allows users to configure the navigation menu of the `HeaderComponent` from within AEM.
 
 >[!NOTE]
 >
@@ -207,7 +207,7 @@ Next, create additional pages in AEM that will serve as the different views in t
     }
     ```
 
-    Under `:children` you should see an entry for each of the pages created. The content for all of the pages is in this initial JSON request. Once, the navigation routing is implemented, subsequent views of the SPA will be loaded rapidly, since the content is already available client-side.
+    Under `:children` you should see an entry for each of the pages created. The content for all of the pages is in this initial JSON request. Once, the navigation routing is implemented, subsequent views of the SPA is loaded rapidly, since the content is already available client-side.
 
     It is not wise to load **ALL** of the content of a SPA in the initial JSON request, as this would slow down the initial page load. Next, lets look at how the heirarchy depth of pages are collected.
 
@@ -307,7 +307,7 @@ Next, implement the navigation menu with a new `NavigationComponent`. We could a
     ":type": "wknd-spa-angular/components/header"
     ```
 
-    The hierarchical nature of the AEM pages are modeled in the JSON that can be used to populate a navigation menu. Recall that the `Header` component inherits all of the functionality of the [Navigation Core Component](https://www.aemcomponents.dev/content/core-components-examples/library/core-structure/navigation.html) and the content exposed through the JSON will be automatically mapped to the Angular `@Input` annotation.
+    The hierarchical nature of the AEM pages are modeled in the JSON that can be used to populate a navigation menu. Recall that the `Header` component inherits all of the functionality of the [Navigation Core Component](https://www.aemcomponents.dev/content/core-components-examples/library/core-structure/navigation.html) and the content exposed through the JSON is automatically mapped to the Angular `@Input` annotation.
 
 2. Open a new terminal window and navigate to the `ui.frontend` folder of the SPA project. Create a new `NavigationComponent` using the Angular CLI tool:
 
@@ -359,7 +359,7 @@ Next, implement the navigation menu with a new `NavigationComponent`. We could a
     }
     ```
 
-    This is a simple class to represent an individual navigation link. In the class constructor we expect `data` to be the JSON object passed in from AEM. This class will be used within both the `NavigationComponent` and `HeaderComponent` to easily populate the navigation structure.
+    This is a simple class to represent an individual navigation link. In the class constructor we expect `data` to be the JSON object passed in from AEM. This class is used within both the `NavigationComponent` and `HeaderComponent` to easily populate the navigation structure.
 
     No data transformation is performed, this class is primarily created to strongly type the JSON model. Notice that `this.children` is typed as `NavigationLink[]` and that the constructor recursively creates new `NavigationLink` objects for each of the items in the `children` array. Recall that JSON model for the `Header` is hierarchical.
 
@@ -632,7 +632,7 @@ Now that the navigation has been implemented, inspect the routing in AEM.
 
     `AemPageMatcher` is a custom Angular router [UrlMatcher](https://angular.io/api/router/UrlMatcher), that matches anything that "looks like" a page in AEM that is part of this Angular application.
 
-    `PageComponent` is the Angular Component that represents a Page in AEM, and the matched routes will invoke. The `PageComponent` will be inspected further.
+    `PageComponent` is the Angular Component that represents a Page in AEM, and used to render the the matched routes. The `PageComponent` is reviewed later in the tutorial.
 
     `AemPageDataResolver`, provided by the AEM SPA Editor JS SDK, is a custom [Angular Router Resolver](https://angular.io/api/router/Resolve) used to transform the route URL, which is the path in AEM including the.html extension, to the resource path in AEM, which is the page path less the extension.
 

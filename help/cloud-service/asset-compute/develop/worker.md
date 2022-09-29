@@ -20,7 +20,7 @@ Asset Compute workers are the core of an Asset Compute project as provide custom
 
 The Asset Compute project auto-generates a simple worker that copies the asset's original binary into a named rendition, without any transformations. In this tutorial we'll modify this worker to make a more interesting rendition, to illustrate the power of Asset Compute workers.
 
- We will create an Asset Compute worker that generates a new horizontal image rendition, that covers empty space to the left and right of the asset rendition with a blurred version of the asset. The width, height and blur of the final rendition will be parameterized.
+ We will create an Asset Compute worker that generates a new horizontal image rendition, that covers empty space to the left and right of the asset rendition with a blurred version of the asset. The width, height and blur of the final rendition is parameterized.
 
 ## Logical flow of an Asset Compute worker invocation
 
@@ -346,7 +346,7 @@ Parameters, passed in via Processing Profile configurations, can be simulated in
 >[!WARNING]
 >
 >During local development, values can be passed in using various data types, when passed in from AEM as Cloud Service Processing Profiles as strings, so make sure the correct data types are parsed if needed. 
-> For example, Jimp's `crop(width, height)` function requires its parameters to be `int`'s. If `parseInt(rendition.instructions.size)` is not parsed to an int, then the call to `jimp.crop(SIZE, SIZE)` will fail as the parameters will be incompatible 'String' type.
+> For example, Jimp's `crop(width, height)` function requires its parameters to be `int`'s. If `parseInt(rendition.instructions.size)` is not parsed to an int, then the call to `jimp.crop(SIZE, SIZE)` fails as the parameters are incompatible 'String' type.
 
 Our code accepts parameters for:
 

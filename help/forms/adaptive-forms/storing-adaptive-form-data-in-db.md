@@ -21,18 +21,18 @@ The use case is to trigger a AEM workflow on an Adaptive Form submission and a s
 
   * Search for "JDBC Connection Pool". Create a new Day Commons JDBC Connection Pool. Specify the settings specific to your database.
 
-  * ![jdbc connection pool](assets/aemformstutorial-jdbc.png)
+  * ![JDBC connection pool OSGi configuration](assets/aemformstutorial-jdbc.png)
 
 ## Specify Database Details
 
-  * Search for "**Specify Database details**"
-  * Specify the properties specific to your database.
+* Search for "**Specify Database details**"
+* Specify the properties specific to your database.
     * DataSourceName:Name of the datasource you configured previously.
     * TableName - Name of the table in which you want to store the AF Data
     * FormName - Column name to hold the name of the Form
     * ColumnName - Column name to hold the AF Data
 
-  ![insertdata](assets/specify-database-details.png)
+  ![Specify Database details OSGi configuration](assets/specify-database-details.png)
 
 
 

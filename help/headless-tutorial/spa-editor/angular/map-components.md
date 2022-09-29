@@ -29,7 +29,7 @@ This chapter takes a deeper-dive into the AEM JSON model API and how the JSON co
 
 ## What you will build
 
-This chapter will inspect how the provided `Text` SPA component is mapped to the AEM `Text`component. A new `Image` SPA component will be created that can be used in the SPA and authored in AEM. Out of the box features of the **Layout Container** and **Template Editor** policies will also be used to create a view that is a little more varied in appearance.
+This chapter will inspect how the provided `Text` SPA component is mapped to the AEM `Text`component. A new `Image` SPA component is created that can be used in the SPA and authored in AEM. Out of the box features of the **Layout Container** and **Template Editor** policies will also be used to create a view that is a little more varied in appearance.
 
 ![Chapter sample final authoring](./assets/map-components/final-page.png)
 
@@ -86,7 +86,7 @@ Let's see how the component works.
 
     `:type` is a reserved property that lists the `sling:resourceType` (or path) of the AEM Component. The value of `:type` is what is used to map the AEM component to the SPA component.
 
-    `text` and `richText` are additional properties that will be exposed to the SPA component.
+    `text` and `richText` are additional properties that are exposed to the SPA component.
 
 ### Inspect the Text component
 
@@ -140,7 +140,7 @@ Let's see how the component works.
     };
     ```
 
-    The above code is responsible for determining when to render the placeholder in the AEM author environment. If the `isEmpty` method returns **true** then the placeholder will be rendered.
+    The above code is responsible for determining when to render the placeholder in the AEM author environment. If the `isEmpty` method returns **true** then the placeholder is rendered.
 
 6. Finally take a look at the `MapTo` call at ~line 53:
 
@@ -172,7 +172,7 @@ Let's see how the component works.
 
 8. Inspect **text.component.html** at `ui.frontend/src/app/components/text/text.component.html`.
 
-    This file is empty since the entire contents of the component will be set by the `innerHTML` property.
+    This file is empty since the entire contents of the component is set by the `innerHTML` property.
 
 9. Inspect the **app.module.ts** at `ui.frontend/src/app/app.module.ts`.
 
@@ -205,11 +205,11 @@ Before jumping into the SPA code, inspect the JSON model provided by AEM.
 
     ![Image Core Component JSON](./assets/map-components/image-json.png)
 
-    Properties of `src`, `alt`, and `title` will be used to populate the SPA `Image` component.
+    Properties of `src`, `alt`, and `title` are used to populate the SPA `Image` component.
 
     >[!NOTE]
     >
-    > There are other Image properties exposed (`lazyEnabled`, `widths`) that allow a developer to create an adaptive and lazy-loading component. The component built in this tutorial will be simple and will **not** use these advanced properties.
+    > There are other Image properties exposed (`lazyEnabled`, `widths`) that allow a developer to create an adaptive and lazy-loading component. The component built in this tutorial is simple and does **not** use these advanced properties.
 
 2. Return to your IDE and open up the `en.model.json` at `ui.frontend/src/mocks/json/en.model.json`. Since this is a net-new component for our project we need to "mock" the Image JSON.
 
@@ -238,7 +238,7 @@ Before jumping into the SPA code, inspect the JSON model provided by AEM.
             ],
     ```
 
-    The project includes a sample image at `/mock-content/adobestock-140634652.jpeg` that will be used with the **webpack dev server**.
+    The project includes a sample image at `/mock-content/adobestock-140634652.jpeg` that is used with the **webpack dev server**.
 
     You can view the full [en.model.json here](https://github.com/adobe/aem-guides-wknd-spa/blob/Angular/map-components-solution/ui.frontend/src/mocks/json/en.model.json).
 
@@ -492,6 +492,6 @@ The next few steps will take place using the Visual Studio Code IDE and [VSCode 
     </workspaceFilter>
    ```
 
-   The `filter.xml` file is responsible for identifying the paths of nodes that will be installed with the package. Notice the `mode="merge"` on each of the filters which indicates that existing content will not be modified, only new content is added. Since content authors may be updating these paths, it is important that a code deployment does **not** overwrite content. See the [FileVault documentation](https://jackrabbit.apache.org/filevault/filter.html) for more details on working with filter elements.
+   The `filter.xml` file is responsible for identifying the paths of nodes that are installed with the package. Notice the `mode="merge"` on each of the filters which indicates that existing content will not be modified, only new content is added. Since content authors may be updating these paths, it is important that a code deployment does **not** overwrite content. See the [FileVault documentation](https://jackrabbit.apache.org/filevault/filter.html) for more details on working with filter elements.
 
    Compare `ui.content/src/main/content/META-INF/vault/filter.xml` and `ui.apps/src/main/content/META-INF/vault/filter.xml` to understand the different nodes managed by each module.

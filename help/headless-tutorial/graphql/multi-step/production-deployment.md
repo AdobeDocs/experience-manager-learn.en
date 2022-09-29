@@ -42,9 +42,9 @@ The diagram above depicts this common deployment pattern.
 3. Once content has been approved, it can be **published** to the AEM Publish service.
 4. **End users** interact with the Production version of the application. The Production application connects to the Publish service and use the GraphQL APIs to request and consume content.
 
-The tutorial simulates the above deployment by adding an AEM Publish instance to the current setup. In previous chapters the React App acted as a preview by connecting directly to the Author instance. A production build of the React App will be deployed to a static Node.js server that connects to the new Publish instance.
+The tutorial simulates the above deployment by adding an AEM Publish instance to the current setup. In previous chapters the React App acted as a preview by connecting directly to the Author instance. A production build of the React App is deployed to a static Node.js server that connects to the new Publish instance.
 
-In the end, three local servers will be running:
+In the end, three local servers are running:
 
 * http://localhost:4502 - Author instance
 * http://localhost:4503 - Publish Instance
@@ -363,7 +363,7 @@ Next, experiment with the CORS configuration of the AEM Publish instance.
 
     Observe that two URLs are provided. One using `localhost` and another using the local network IP address.
 
-1. Navigate to the address starting with [http://192.168.86.XXX:5000](http://192.168.86.XXX:5000). The address will be slightly different for each local computer. Observe that there is a CORS error when fetching the data. This is because the current CORS configuration is only allowing requests from `localhost`.
+1. Navigate to the address starting with [http://192.168.86.XXX:5000](http://192.168.86.XXX:5000). The address is slightly different for each local computer. Observe that there is a CORS error when fetching the data. This is because the current CORS configuration is only allowing requests from `localhost`.
 
     ![CORS error](assets/publish-deployment/cors-error-not-fetched.png)
 

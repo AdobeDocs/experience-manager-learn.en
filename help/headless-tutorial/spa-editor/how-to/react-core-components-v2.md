@@ -159,7 +159,7 @@ const EditableExample = (props) => {
 
 /**
  * Map the editable component to a resourceType and export it as default.
- * If this component will be embedded in another editable component (as show below), make sure to 
+ * If this component is embedded in another editable component (as show below), make sure to 
  * import the "non-editable" component instance for use in the embedding component.
  */
 export default MapTo("wknd-examples/components/example")(EditableExample);

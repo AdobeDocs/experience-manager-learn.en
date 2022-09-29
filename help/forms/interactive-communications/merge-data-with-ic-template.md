@@ -1,8 +1,6 @@
 ---
 title: Generating Print Channel Document by Merging Data
-seo-title: Generating Print Channel Document by Merging Data
 description: Learn how to generate print channel document by merging data contained in input stream
-seo-description: Learn how to generate print channel document by merging data contained in input stream
 feature: Interactive Communication
 topics: development
 audience: developer
@@ -20,7 +18,7 @@ exl-id: 3bfbb4ef-0c51-445a-8d7b-43543a5fa191
 
 ## Create prefill service 
 
-The service name "ccm-print-test" will be used to access this service . Once this pre-fill service is defined, you can access this service either in your servlet or workflow process step implementation to generate the print channel document.
+The service name "ccm-print-test" is used to access this service . Once this pre-fill service is defined, you can access this service either in your servlet or workflow process step implementation to generate the print channel document.
 
 ```java
 import java.io.InputStream;

@@ -1,8 +1,6 @@
 ---
 title: Listing Custom Asset Types in AEM Forms
-seo-title: Listing Custom Asset Types in AEM Forms
 description: Part 2 of Listing Custom Asset Types in AEM Forms
-seo-description: Part 2 of Listing Custom Asset Types in AEM Forms
 uuid: 6467ec34-e452-4c21-9bb5-504f9630466a
 feature: Adaptive Forms
 topics: development
@@ -20,8 +18,7 @@ exl-id: f221d8ee-0452-4690-a936-74bab506d7ca
 
 ## Creating custom template {#creating-custom-template}
 
-
-For the purpose of this article, we will be creating a custom template to display the custom asset types and the OOTB asset types on the same page. To create custom template please follow the following instructions
+For the purpose of this article, we are creating a custom template to display the custom asset types and the OOTB asset types on the same page. To create custom template please follow the following instructions
 
 1. Create a sling: folder  under  /apps. Name it "  myportalcomponent "
 1. Add a "fpContentType" property. Set its value to "**/libs/fd/  fp/formTemplate".**  
@@ -112,4 +109,4 @@ Now that you have configured your Search and Lister Portal Component, it is time
 >If your portal is listing custom asset types on a publish server please make sure you give "read" permission to "fd-service" user to the node **/apps/fd/fp/extensions/querybuilder**
 
 ![assettypes](assets/assettypeslistings.png) 
-[Please download and install this package using package manager.](assets/customassettypekt1.zip) This contains sample mp4 and word documents and xdp files that will be used as asset types to list using the search and lister component
+[Please download and install this package using package manager.](assets/customassettypekt1.zip) This contains sample mp4 and word documents and xdp files that is used as asset types to list using the search and lister component

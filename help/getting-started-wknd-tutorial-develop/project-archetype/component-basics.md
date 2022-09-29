@@ -15,7 +15,7 @@ exl-id: 7fd021ef-d221-4113-bda1-4908f3a8629f
 ---
 # Component Basics {#component-basics}
 
-In this chapter we will explore the underlying technology of an Adobe Experience Manager (AEM) Sites Component through a simple `HelloWorld` example. Small modifications will be made to an existing component, covering topics of authoring, HTL, Sling Models, Client-side libraries.
+In this chapter we will explore the underlying technology of an Adobe Experience Manager (AEM) Sites Component through a simple `HelloWorld` example. Small modifications are made to an existing component, covering topics of authoring, HTL, Sling Models, Client-side libraries.
 
 ## Prerequisites {#prerequisites}
 
@@ -276,7 +276,7 @@ Next, we will make some updates to the `HelloWorldModel` Sling Model in order to
 
 Client-Side Libraries, clientlibs for short, provides a mechanism to organize and manage CSS and JavaScript files necessary for an AEM Sites implementation. Client-side libraries are the standard way to include CSS and JavaScript on a page in AEM.
 
-The [ui.frontend](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uifrontend.html) module is a de-coupled [webpack](https://webpack.js.org/) project that is integrated into the build process. This enables the use of popular front-end libraries like Sass, LESS, and TypeScript. The `ui.frontend` module will be explored in more depth in the [Client Side Libraries chapter](/help/getting-started-wknd-tutorial-develop/project-archetype/client-side-libraries.md).
+The [ui.frontend](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/uifrontend.html) module is a de-coupled [webpack](https://webpack.js.org/) project that is integrated into the build process. This enables the use of popular front-end libraries like Sass, LESS, and TypeScript. The `ui.frontend` module is be explored in more depth in the [Client Side Libraries chapter](/help/getting-started-wknd-tutorial-develop/project-archetype/client-side-libraries.md).
 
 Next, update the CSS styles for the `HelloWorld` component.
 

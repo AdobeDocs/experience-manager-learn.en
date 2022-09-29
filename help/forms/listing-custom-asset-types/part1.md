@@ -60,7 +60,7 @@ We have added a new tab(Asset Listing) in the search and lister component. This 
 1. Create overlay node of **/libs/fd/fp/extensions/querybuilder/assettypes**
 
 1. Set the overlay location to "/apps"
-1. Navigate to the new structure created at **/apps/fd/fp/extensions/querybuilder/assettypes  **
+1. Navigate to the new structure created at `/apps/fd/fp/extensions/querybuilder/assettypes`
 
 1. Under this location, create an 'nt:unstructured' node for the type to be registered, name the node **mp4files. Add the following two properties to this mp4files node**
 
@@ -75,7 +75,7 @@ We have added a new tab(Asset Listing) in the search and lister component. This 
     1. name: ./jcr:content/metadata/dc:format
     1. value: video/mp4
 
-1. This means assets having the property dc:format equal to video/mp4 will be considered an asset type "Mp4 Videos". You can use any property listed on the "jcr:content/metadata" node for the search criteria
+1. This means assets having the property dc:format equal to video/mp4 is considered an asset type "Mp4 Videos". You can use any property listed on the "jcr:content/metadata" node for the search criteria
 
 1. **Make sure to save your work**
 
@@ -85,4 +85,4 @@ After performing the above steps, the new asset type(Mp4 Files) will start showi
 
 [If you have problems in getting this to work, you can import the following package.](assets/assettypeskt1.zip) The package has two custom asset types defined. Mp4 Files and Worddocuments. Suggest you take a look at the **/apps/fd/fp/extensions/querybuilder/assettypes**
 
-[Install the customeportal package](assets/customportalpage.zip). This package contains sample portal page. This page will be used in part2 of this tutorial
+[Install the customeportal package](assets/customportalpage.zip). This package contains sample portal page. This page is used in part 2 of this tutorial

@@ -44,7 +44,7 @@ The following video illustrates a common workflow used by creatives working in A
     + Versions
 + Place, download or drag-n-drop assets into their layout
 + Modify assets by checking them out from AEM and working on them (WIP) within their Creative Cloud Assets account
-+ Check an asset back into AEM after they have finished modifying it, and the new version will be reflected in AEM
++ Check an asset back into AEM after they have finished modifying it, and the new version is reflected in AEM
 + Search for assets in AEM from the Adobe Asset Link In-App panel
 + Browse AEM Assets collections and smart collections directly from the Asset Link panel
 + Add newly created assets to AEM directly from the panel
@@ -88,9 +88,9 @@ How Adobe Asset Link authentication works in the context of Adobe Identity Manag
 ![Adobe Asset Link Architecture](assets/adobe-asset-link-article-understand.png)
 
 1. The Adobe Asset Link extension makes an authorization request, via the Adobe Creative Cloud Desktop App, to Adobe Identity Manage Service (IMS), and upon success, receives a Bearer token.
-1. Adobe Asset Link extension connects to AEM Author over HTTP(S), including the Bearer token obtained in **Step 1**, using the scheme (HTTP/HTTPS), host and port provided in the extension’s settings JSON.
-1. AEM’s Bearer Authentication Handler extracts the Bearer token from the request and validates it with Adobe IMS.
-1. Once Adobe IMS validates the Bearer token, a user is created in AEM (if it doesn’t already exist), and syncs profile and group/memberships data from Adobe IMS. The AEM user is issued a standard AEM login token, which is sent back to the Adobe Asset Link extension as a Cookie on the HTTP(S) response.
+1. Adobe Asset Link extension connects to AEM Author over HTTP(S), including the Bearer token obtained in **Step 1**, using the scheme (HTTP/HTTPS), host and port provided in the extension's settings JSON.
+1. AEM's Bearer Authentication Handler extracts the Bearer token from the request and validates it with Adobe IMS.
+1. Once Adobe IMS validates the Bearer token, a user is created in AEM (if it doesn't already exist), and syncs profile and group/memberships data from Adobe IMS. The AEM user is issued a standard AEM login token, which is sent back to the Adobe Asset Link extension as a Cookie on the HTTP(S) response.
 1. Subsequent interactions (ie. browsing, searching, checking in/out assets, etc.) with the Adobe Asset Link extension results in HTTP(S) requests to AEM Author which are validated using the AEM login token, using the standard AEM Token Authentication Handler.
 
 >[!NOTE]

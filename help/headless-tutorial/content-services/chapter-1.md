@@ -56,7 +56,7 @@ If you find an issue with the tutorial or the code, please leave a [GitHub issue
 
 ## Skip to the end
 
-In order to skip to the end of the tutorial, the [com.adobe.aem.guides.wknd-mobile.content.chapter-5.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest) content package can be installed on **both** AEM Author and AEM Publish. Note that content and configuration will not show as published in AEM Author, however due to the manual deployment, all the requisite content and configuration will be available on AEM Publish allowing the [!DNL WKND Mobile App] to access the content.
+In order to skip to the end of the tutorial, the [com.adobe.aem.guides.wknd-mobile.content.chapter-5.zip](https://github.com/adobe/aem-guides-wknd-mobile/releases/latest) content package can be installed on **both** AEM Author and AEM Publish. Note that content and configuration will not show as published in AEM Author, however due to the manual deployment, all the requisite content and configuration is available on AEM Publish allowing the [!DNL WKND Mobile App] to access the content.
 
 
 ## Next step

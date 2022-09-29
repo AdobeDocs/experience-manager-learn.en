@@ -108,7 +108,7 @@ Start Dispatcher Docker container providing the path to the Dispatcher configura
 + Windows: `bin\docker_run src host.docker.internal:4503 8080`
 + macOS / Linux: `./bin/docker_run.sh ./src host.docker.internal:4503 8080`
 
-The AEM as a Cloud Service SDK's Publish Service, running locally on port 4503 will be available through Dispatcher at `http://localhost:8080`.
+The AEM as a Cloud Service SDK's Publish Service, running locally on port 4503 is available through Dispatcher at `http://localhost:8080`.
 
 To run Dispatcher Tools against an Experience Manager project's Dispatcher configuration, point to your project's `dispatcher/src` folder.
 
@@ -203,31 +203,6 @@ Running script /docker_entrypoint.d/10-check-environment.sh
 Running script /docker_entrypoint.d/20-create-docroots.sh
 Running script /docker_entrypoint.d/30-wait-for-backend.sh
 Waiting until host.docker.internal is available
-```
-
-### docker_run fails to start on Windows{#troubleshooting-windows-compatible}
-
-Running `docker_run` on Windows can result in the following error, preventing Dispatcher from starting. This is a reported issue with Dispatcher on Windows and will be fixed in a future release.
-
-#### Example error
-
-```shell
-$ \Users\MyUser\aem-sdk\dispatcher>bin\docker_run src host.docker.internal:4503 8080
-
-Running script /docker_entrypoint.d/10-check-environment.sh
-Running script /docker_entrypoint.d/20-create-docroots.sh
-Running script /docker_entrypoint.d/30-wait-for-backend.sh
-Waiting until host.docker.internal is available
-host.docker.internal resolves to 192.168.65.2
-Running script /docker_entrypoint.d/40-generate-allowed-clients.sh
-Running script /docker_entrypoint.d/50-check-expiration.sh
-Running script /docker_entrypoint.d/60-check-loglevel.sh
-Running script /docker_entrypoint.d/70-check-forwarded-host-secret.sh
-Starting httpd server
-[Sun Feb 09 17:32:22.256020 2020] [dispatcher:warn] [pid 1:tid 140080096570248] Unable to obtain parent directory of /etc/httpd/conf.dispatcher.d/enabled_farms/farms.any: No such file or directory
-[Sun Feb 09 17:32:22.256069 2020] [dispatcher:alert] [pid 1:tid 140080096570248] Unable to import config file: /etc/httpd/conf.dispatcher.d/dispatcher.any
-[Sun Feb 09 17:32:22.256074 2020] [dispatcher:alert] [pid 1:tid 140080096570248] Dispatcher initialization failed.
-AH00016: Configuration Failed
 ```
 
 ## Additional Resources

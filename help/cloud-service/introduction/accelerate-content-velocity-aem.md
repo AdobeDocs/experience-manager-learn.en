@@ -86,4 +86,4 @@ Finally, the use of Style Systems is more art than science. As we discussed, the
 
 For more information, check out our [Customer Success Webinar](https://adobecustomersuccess.adobeconnect.com/pob610c9mffjmp4/) with Will Brisbane and Joseph Van Buskirk.
 
-Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.

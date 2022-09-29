@@ -60,7 +60,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 
 ## What you will build {#byline-component}
 
-In this part of the WKND tutorial, a Byline Component is created that will be used to display authored information about an article's contributor.
+In this part of the WKND tutorial, a Byline Component is created that is used to display authored information about an article's contributor.
 
 ![byline component example](assets/custom-component/byline-design.png)
 
@@ -76,7 +76,7 @@ The implementation of the Byline component includes a dialog that collects the b
 
 First, create the Byline Component node structure and define a dialog. This represents the Component in AEM and implicitly defines the component's resource type by its location in the JCR.
 
-The dialog exposes the interface with which content authors can provide. For this implementation, the AEM WCM Core Component's **Image** component will be leveraged to handle the authoring and rendering of the Byline's image, so it will be set as our component's `sling:resourceSuperType`.
+The dialog exposes the interface with which content authors can provide. For this implementation, the AEM WCM Core Component's **Image** component is leveraged to handle the authoring and rendering of the Byline's image, so it must be set as our component's `sling:resourceSuperType`.
 
 ### Create Component Definition {#create-component-definition}
 
@@ -367,7 +367,7 @@ The Byline Sling Model will rely on several Java APIs provided by AEM. These API
     ...
     ```
 
-    The `uber-jar` is only included when the `classic` profile is invoked, i.e `mvn clean install -PautoInstallSinglePackage -Pclassic`. Again, this is unique to this project. In a real-world project, generated from the AEM Project Archetype the `uber-jar` will be the default if the version of AEM specified is 6.5 or 6.4. 
+    The `uber-jar` is only included when the `classic` profile is invoked, i.e `mvn clean install -PautoInstallSinglePackage -Pclassic`. Again, this is unique to this project. In a real-world project, generated from the AEM Project Archetype the `uber-jar` is the default if the version of AEM specified is 6.5 or 6.4. 
 
     The [uber-jar](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-projects-maven.html#experience-manager-api-dependencies) contains all public Java APIs exposed by AEM 6.x. The version is maintained in the Parent reactor pom located at the root of the project `aem-guides-wknd/pom.xml`.
 
@@ -617,7 +617,7 @@ There are two ways to tackle this:
 
 Check if the `fileReference` JCR property resolves to an asset. *OR* Convert this resource into a Core Component Image Sling Model and ensure the `getSrc()` method is not empty.
 
-We will opt for the **second** approach. The first approach is likely sufficient, but in this tutorial the latter will be used to allow us to explore other features of Sling Models.
+We opt for the **second** approach. The first approach is likely sufficient, but in this tutorial the latter is used to allow us to explore other features of Sling Models.
 
 1. Create a private method that gets the Image. This method is left private because we do not need to expose the Image object in the HTL itself, and its only used to drive `isEmpty().`
 
@@ -706,7 +706,7 @@ We will opt for the **second** approach. The first approach is likely sufficient
 
     Remember, Sling Models are **NOT** OSGi Services, so it is safe to maintain class state. Often `@PostConstruct` derives and sets up Sling Model class state for later use, similar to what a plain constructor does.
 
-    Note that if the `@PostConstruct` method throws an exception, the Sling Model will not instantiate (it will be null).
+    Note that if the `@PostConstruct` method throws an exception, the Sling Model will not instantiate (it is null).
 
 1. **getImage()** can now be updated to simply return the image object.
 
@@ -791,7 +791,7 @@ We will opt for the **second** approach. The first approach is likely sufficient
         /**
         * @PostConstruct is immediately called after the class has been initialized
         * but BEFORE any of the other public methods. 
-        * It is a good method to initialize variables that will be used by methods in the rest of the model
+        * It is a good method to initialize variables that is used by methods in the rest of the model
         *
         */
         @PostConstruct
@@ -1029,7 +1029,7 @@ If the **BylineImpl** is not displayed in this list, then there was is likely an
 
 ## Byline styles {#byline-styles}
 
-The Byline component needs to be styled to align with the creative design for the Byline component. This will be achieved by using SCSS, which AEM provides support for via the **ui.frontend** Maven sub-project.
+The Byline component needs to be styled to align with the creative design for the Byline component. This is achieved by using SCSS, which AEM provides support for via the **ui.frontend** Maven sub-project.
 
 ### Add a default style
 

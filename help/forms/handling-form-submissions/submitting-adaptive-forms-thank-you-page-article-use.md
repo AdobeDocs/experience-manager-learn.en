@@ -22,16 +22,15 @@ Submit to REST endpoint option passes the data filled in the form to a configure
 
 \{fieldName\} = \{parameterName\}. For example, the submitterName is the name of an adaptive form field and submitter is the name of the parameter. In thank you page, you can access the submitter parameter using request.getParameter("submitter") to get hold of the submitter name field's value.
 
-submitterName=submitter
+`submitterName=submitter`
 
-In the screenshot below, we are submitting the adaptive form to thank you page located at /content/thankyou. To this thank you page, we are passing 3 request attributes which will hold the form field values.
+In the screenshot below, we are submitting the adaptive form to thank you page located at /content/thankyou. To this thank you page, we are passing 3 request attributes which holds the form field values.
 
-![thank](assets/thankyoupage.gif)
+![Thank you page](assets/thankyoupage.gif)
 
-You can also submit to the external endpoint via POST. To accomplish that, you just have to select the "enable post request" checkbox and provide the URL for the external endpoint. When you submit your form, you will get thank you page and the POST endpoint will be invoked simultaneously.
+You can also submit to the external endpoint via POST. To accomplish that, you just have to select the "enable post request" checkbox and provide the URL for the external endpoint. When you submit your form, you get a thank you page and the POST endpoint is invoked simultaneously.
 
-![capture](assets/capture.gif)
-
+![Capture configuration](assets/capture.gif)
 
 To test this capability on your server, please follow the instructions mentioned below:
 

@@ -15,7 +15,7 @@ exl-id: 9400d9f2-f828-4180-95a7-2ac7b74cd3c9
 
 In this chapter learn how to model content and build a schema with **Content Fragment Models**. You will learn about the different data types that can be used to define a schema as part of the model.
 
-In this chapter two simple models will be created, **Team** and **Person**. The **Team** data model has name, short name and description and references the **Person** data model, which has fullname, bio details, profile picture and occupations list.
+In this chapter two simple models are created, **Team** and **Person**. The **Team** data model has name, short name and description and references the **Person** data model, which has fullname, bio details, profile picture and occupations list.
 
 You are also welcome to create your own model following the basic steps and tweak the respective steps like GraphQL queries, and React App code or simply follow the steps outlined in these chapters.
 
@@ -73,7 +73,7 @@ Create a new model for a **Person**, which is the data model representing a pers
 
     ![Full Name property field](assets/content-fragment-models/full-name-property-field.png)
 
-    The **Property Name** defines the name of the property that is persisted to AEM. The **Property Name** also defines the **key** name for this property as part of the data schema. This **key** will be used when the Content Fragment data is exposed via GraphQL APIs.
+    The **Property Name** defines the name of the property that is persisted to AEM. The **Property Name** also defines the **key** name for this property as part of the data schema. This **key** is used when the Content Fragment data is exposed via GraphQL APIs.
 
 1. Tap the **Data Types** tab and drag and drop a **Multi line text** field beneath the **Full Name** field. Enter the following properties:
 

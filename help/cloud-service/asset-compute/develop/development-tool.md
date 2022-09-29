@@ -33,7 +33,7 @@ This will start the Development Tool at __http://localhost:9000__, and automatic
 ![Asset Compute Development Tool](./assets/development-tool/asset-compute-dev-tool.png)
 
 1. __Source file:__ The source file selection is used to:
-    +  Selected the asset binary that will be the `source` binary passed to the Asset Compute worker
+    +  Selected the asset binary that acts as the `source` binary passed to the Asset Compute worker
     +  Upload source files
 1. __Asset Compute profile(s) definition:__ Defines the Asset Compute worker to run including parameters: including the worker's URL end-point, the resultant rendition name, and any parameters
 1. __Run:__ The Run button executes the Asset Compute profile as defined in the Asset Compute configuration profile editor
@@ -55,7 +55,7 @@ _Click-through of running an Asset Compute work in Development Tool (No audio)_
 1. Review the __Asset Compute profile definition__ text area
     + The `worker` key defines the URL to the deployed Asset Compute worker
     + The `name` key defines the name of the rendition to generate
-    + Other key/values can be provided in this JSON object, and will be available in the worker under the `rendition.instructions` object
+    + Other key/values can be provided in this JSON object, and are available in the worker under the `rendition.instructions` object
         + Optionally add values for `size`, `contrast` and `brightness`:
 
             ```json

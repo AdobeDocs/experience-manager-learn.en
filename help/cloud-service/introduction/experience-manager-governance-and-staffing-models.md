@@ -127,4 +127,4 @@ The following are role examples for a light and heavy client scenario:
 
 For a more in-depth discussion of Governance and Staffing Models &amp; Archetypes, listen to this one-hour panel discussion: [Role Archetypes and Creating an Operational Framework for [!DNL AEM Assets] and [!DNL Sites]](https://adobecustomersuccess.adobeconnect.com/p8ml5nmy0758mp4/)
 
-Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.
