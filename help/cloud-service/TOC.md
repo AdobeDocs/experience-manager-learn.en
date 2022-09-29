@@ -122,12 +122,12 @@ team: TM
     + Content Migration {#content-migration}
       + [Bulk Import Service](./migration/moving-to-aem-as-a-cloud-service/content-migration/bulk-import-service.md)
       + [Content Transfer Tool](./migration/moving-to-aem-as-a-cloud-service/content-migration/content-transfer-tool.md)
+      + [FAQ](./migration/moving-to-aem-as-a-cloud-service/content-migration/faq.md)
     + [Troubleshooting](./migration/moving-to-aem-as-a-cloud-service/troubleshooting.md)
     + AEM Forms as a Cloud Service {#aem-forms}
       + [Introduction](./migration/moving-to-aem-as-a-cloud-service/aem-forms/introduction.md)
       + [Digital Enrollment](./migration/moving-to-aem-as-a-cloud-service/aem-forms/digital-enrollment.md)
       + [Communications](./migration/moving-to-aem-as-a-cloud-service/aem-forms/communications.md)
-
   + Cloud Acceleration Manager {#cloud-acceleration-manager}
     + [Introduction](./migration/cloud-acceleration-manager/introduction.md)
     + [Readiness and Best Practice Analyzer](./migration/cloud-acceleration-manager/readiness-and-best-practice-analyzer.md)
