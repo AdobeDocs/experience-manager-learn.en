@@ -1,8 +1,8 @@
 ---
-title: AEM Champion Tips and Tricks Session 2
-description: Site Hierarchy, Taxonomy, and Tagging Tips Best Practices
-hide: yes
-hidefromtoc: yes
+title: AEM Champion Tips and Tricks - Editable Templates 2
+seo-title: AEM Champion Tips and Tricks - Editable Templates 2
+description: Learn how AEM Champion Greg Dimeris leveraged editable templates in AEM Sites. Review these quick tips and then give them a try in your instance today.
+seo-description: Learn how AEM Champion Greg Dimeris leveraged editable templates in AEM Sites. Review these quick tips and then give them a try in your instance today.
 ---
 
 # AEM Champion Tips and Tricks: Session 2
