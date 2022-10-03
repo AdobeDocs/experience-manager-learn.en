@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 exl-id: 0056971f-2f89-43b3-bb6f-dd16c2a50370
 ---
-# Getting Started with AEM Headless - GraphQL
+# Getting Started with AEM Headless - GraphQL {#getting-started-with-aem-headless}
 
 AEM's GraphQL APIs for Content Fragments
 supports headless CMS scenarios where external client applications render experiences using content managed in AEM.
@@ -22,6 +22,12 @@ To overcome these challenges GraphQL provides a query-based API allowing clients
 >[!VIDEO](https://video.tv.adobe.com/v/328618/?quality=12&learn=on)
 
 This video is an overview of the GraphQL API implemented in AEM. The GraphQL API in AEM is primarily designed to deliver AEM Content Fragment's to downstream applications as part of a headless deployment.
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_learn_headless_graphql_overview"
+>title="Get started with AEM headless"
+>abstract="Learn how to deliver Content Fragments using GraphQL."
+>additional-url="https://video.tv.adobe.com/v/328618" text="Overview of GraphQL in AEM"
 
 ## AEM Headless GraphQL Video Series
 
