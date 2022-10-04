@@ -1,8 +1,9 @@
 ---
-title: Site Maintenance Tips and Tricks
-description: Site Maintenance Tips and Tricks
-hide: yes
-hidefromtoc: yes
+title: Your Routine Site Maintenance Guide
+seo-title: Your Routine Site Maintenance Guide
+description: Whether you're an admin, author, or developer, site maintenance touches every aspect of your AEM Sites instance. Use this guide to ensure your strategy is set up for success.
+seo-description: Whether you're an admin, author, or developer, site maintenance touches every aspect of your AEM Sites instance. Use this guide to ensure your strategy is set up for success.
+audience: author, marketer, developer
 ---
 
 # Site Maintenance Tips and Tricks
