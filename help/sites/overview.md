@@ -9,6 +9,9 @@ exl-id: cde4ce7f-0afe-4632-8c1c-354586f296d5
 
 Adobe Experience Manager (AEM) Sites are a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
 
+
+<div id="whats-new-section">
+
 ## What's New
 
 * **[Using Launches with AEM Sites (Video)](./page-authoring/launches.md)**
@@ -25,6 +28,8 @@ Adobe Experience Manager (AEM) Sites are a leading experience management platfor
 
 * **[Using the SPA Editor (Video)](./spa-editor/spa-editor-framework-feature-video-use.md)**
     *Learn about AEM's editing capabilities for single page applications (SPA).*
+
+</div>
 
 ## Staff Picks
 
