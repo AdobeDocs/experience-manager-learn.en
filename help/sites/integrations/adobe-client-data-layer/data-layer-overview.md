@@ -7,6 +7,7 @@ role: Developer
 level: Intermediate
 kt: 6261
 thumbnail: 41195.jpg
+last-substantial-update: 2021-01-11
 exl-id: 066693b7-2b87-45e8-93ec-8bd09a7c263e
 ---
 # Using the Adobe Client Data Layer with AEM Core Components {#overview}

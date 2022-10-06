@@ -6,6 +6,7 @@ feature: Content Fragments
 topic: Content Management
 role: Data Architect, User
 level: Beginner
+last-substantial-update: 2022-09-22
 kt: 11164
 thumbnail: 3409492.jpeg
 ---
