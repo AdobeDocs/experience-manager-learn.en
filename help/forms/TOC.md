@@ -209,6 +209,7 @@ index: y
   + [Using PDFG Service in AEM Forms](document-services/using-pdfg-in-aem-forms.md)
   + [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
   + [Using xdp fragments in output service](document-services/using-fragments-in-output-service.md)
+  + [ECMA script to generate pdf with fragments](document-services/using-fragments-in-output-service-watched-folder.md)
   + [Generating multiple pdf's from one data file](document-services/generate-multi-record-pdf.md)
   + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
   + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)
