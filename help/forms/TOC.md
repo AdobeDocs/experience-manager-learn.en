@@ -40,6 +40,7 @@ index: y
   + [Setup your environment](creating-your-first-osgi-bundle/create-your-first-osgi-bundle.md)
   + [Create OSGi Service](creating-your-first-osgi-bundle/create-osgi-service.md)
   + [Create Sling Servlet](creating-your-first-osgi-bundle/create-servlet.md)
+  + [Including third party bundles](creating-your-first-osgi-bundle/include-third-party-jars.md)
 + Adaptive Forms {#adaptive-forms}
   + [Installing AEM Forms on Windows](adaptive-forms/installing-aem-form-on-windows-tutorial-use.md)
   + [Installing 32 bit packages on Linux](adaptive-forms/installing-aem-form-on-linux.md)
