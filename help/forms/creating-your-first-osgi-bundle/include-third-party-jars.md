@@ -55,6 +55,6 @@ mvn clean install -pAutoInstallSinglePackage
 
 If everything goes well, the package is installed along with the third-party bundle into your AEM instance. You can check for the bundle using [felix web console](http://localhost:4502/system/console/bundles). The third-party bundle is available in the /apps folder of the `crx` repository as shown below
 ![third-party](assets/custom-bundle1.png)
-![third-party](assets/custom-bundle1.png)
+
 
 
