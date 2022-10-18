@@ -45,7 +45,8 @@ Although we recommend following the [official documentation](https://helpx.adobe
 * Locate the AEMQuickStart.Jar and move it into AEMForms folder
 * Copy the license.properties file into this AEMForms folder
 * Create a batch file called "StartAemForms.bat" with the following content:
-    * java -d64 -Xmx2048M -jar AEM_6.5_Quickstart.jar -gui. Here AEM_6.5_Quickstart.jar is the name of my AEM quickstart jar.
+    * `java -d64 -Xmx2048M -jar AEM_6.5_Quickstart.jar -gui`
+        * Here AEM_6.5_Quickstart.jar is the name of my AEM quickstart jar.
     * You can rename your jar to any name, but please make sure that name is reflected in the batch file. Save the batch file in the AEMForms Folder.
 
 * Open a new command prompt, and navigate to _c:\aemforms_.

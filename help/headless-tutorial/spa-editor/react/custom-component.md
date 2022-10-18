@@ -147,9 +147,9 @@ Sling Models are annotation driven Java "POJO's" (Plain Old Java Objects) that f
 
 In the context of the SPA Editor, Sling Models expose a component's content through the JSON model through a feature using the [Sling Model Exporter](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html).
 
-1. In the IDE of your choice open the `core` module at `aem-guides-wknd-spa.react/core`.
-1. Create a file named at `OpenWeatherModel.java` at `core/src/main/java/com/adobe/aem/guides/wkndspa/react/core/models`.
-1. Populate `OpenWeatherModel.java` with the following:
+1.  In the IDE of your choice open the `core` module at `aem-guides-wknd-spa.react/core`.
+1.  Create a file named at `OpenWeatherModel.java` at `core/src/main/java/com/adobe/aem/guides/wkndspa/react/core/models`.
+1.  Populate `OpenWeatherModel.java` with the following:
 
     ```java
     package com.adobe.aem.guides.wkndspa.react.core.models;
@@ -158,20 +158,16 @@ In the context of the SPA Editor, Sling Models expose a component's content thro
 
     // Sling Models intended to be used with SPA Editor must extend ComponentExporter interface
     public interface OpenWeatherModel extends ComponentExporter {
-
         public String getLabel();
-
         public double getLat();
-
         public double getLon();
-
     }
     ```
 
     This is the Java interface for our component. In order for our Sling Model to be compatible with the SPA Editor framework it must extend the `ComponentExporter` class.
 
-1. Create a folder named `impl` beneath `core/src/main/java/com/adobe/aem/guides/wkndspa/react/core/models`.
-1. Create a file named `OpenWeatherModelImpl.java` beneath `impl` and populate with the following:
+1.  Create a folder named `impl` beneath `core/src/main/java/com/adobe/aem/guides/wkndspa/react/core/models`.
+1.  Create a file named `OpenWeatherModelImpl.java` beneath `impl` and populate with the following:
 
     ```java
     package com.adobe.aem.guides.wkndspa.react.core.models.impl;
@@ -190,11 +186,11 @@ In the context of the SPA Editor, Sling Models expose a component's content thro
         adapters = { OpenWeatherModel.class, ComponentExporter.class }, 
         resourceType = OpenWeatherModelImpl.RESOURCE_TYPE, 
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
-        )
+    )
     @Exporter( //Exporter annotation that serializes the modoel as JSON
         name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, 
         extensions = ExporterConstants.SLING_MODEL_EXTENSION
-        )
+    )
     public class OpenWeatherModelImpl implements OpenWeatherModel {
 
         @ValueMapValue
@@ -244,15 +240,15 @@ In the context of the SPA Editor, Sling Models expose a component's content thro
 
 Next, update the React code to include the [React Open Weather component](https://www.npmjs.com/package/react-open-weather) and have it map to the AEM component created in the previous steps.
 
-1. Install the React Open Weather component as an **npm** dependency:
+1.  Install the React Open Weather component as an **npm** dependency:
 
     ```shell
     $ cd aem-guides-wknd-spa.react/ui.frontend
     $ npm i react-open-weather
     ```
 
-1. Create a new folder named `OpenWeather` at `ui.frontend/src/components/OpenWeather`.
-1. Add a file named `OpenWeather.js` and populate it with the following:
+1.  Create a new folder named `OpenWeather` at `ui.frontend/src/components/OpenWeather`.
+1.  Add a file named `OpenWeather.js` and populate it with the following:
 
     ```js
     import React from 'react';
@@ -300,7 +296,7 @@ Next, update the React code to include the [React Open Weather component](https:
     export default function OpenWeather(props) {
 
             // render nothing if component not configured
-            if(OpenWeatherEditConfig.isEmpty(props)) {
+            if (OpenWeatherEditConfig.isEmpty(props)) {
                 return null;
             }
 
@@ -314,7 +310,7 @@ Next, update the React code to include the [React Open Weather component](https:
     MapTo('wknd-spa-react/components/open-weather')(OpenWeather, OpenWeatherEditConfig);
     ```
 
-1. Update `import-components.js` at `ui.frontend/src/components/import-components.js` to include the `OpenWeather` component:
+1.  Update `import-components.js` at `ui.frontend/src/components/import-components.js` to include the `OpenWeather` component:
 
     ```diff
       // import-component.js
@@ -323,7 +319,7 @@ Next, update the React code to include the [React Open Weather component](https:
     + import './OpenWeather/OpenWeather';
     ```
 
-1. Deploy all of the updates to a local AEM environment from the root of the project directory, using your Maven skills:
+1.  Deploy all of the updates to a local AEM environment from the root of the project directory, using your Maven skills:
 
     ```shell
     $ cd aem-guides-wknd-spa.react
@@ -334,7 +330,7 @@ Next, update the React code to include the [React Open Weather component](https:
 
 Next, navigate to AEM to verify the updates and allow the `OpenWeather` component to be added to the SPA.
 
-1. Verify the registration of the new Sling Model by navigating to [http://localhost:4502/system/console/status-slingmodels](http://localhost:4502/system/console/status-slingmodels).
+1.  Verify the registration of the new Sling Model by navigating to [http://localhost:4502/system/console/status-slingmodels](http://localhost:4502/system/console/status-slingmodels).
 
     ```plain
     com.adobe.aem.guides.wkndspa.react.core.models.impl.OpenWeatherModelImpl - wknd-spa-react/components/open-weather
@@ -344,8 +340,8 @@ Next, navigate to AEM to verify the updates and allow the `OpenWeather` componen
 
     You should see the above two lines that indicate the `OpenWeatherModelImpl` is associated with the `wknd-spa-react/components/open-weather` component and that it is registered via the Sling Model Exporter.
 
-1. Navigate to the SPA Page Template at [http://localhost:4502/editor.html/conf/wknd-spa-react/settings/wcm/templates/spa-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd-spa-react/settings/wcm/templates/spa-page-template/structure.html).
-1. Update the Layout Container's policy to add the new `Open Weather` as an allowed component:
+1.  Navigate to the SPA Page Template at [http://localhost:4502/editor.html/conf/wknd-spa-react/settings/wcm/templates/spa-page-template/structure.html](http://localhost:4502/editor.html/conf/wknd-spa-react/settings/wcm/templates/spa-page-template/structure.html).
+1.  Update the Layout Container's policy to add the new `Open Weather` as an allowed component:
 
     ![Update Layout Container policy](assets/custom-component/custom-component-allowed.png)
 
@@ -357,22 +353,22 @@ Next, navigate to AEM to verify the updates and allow the `OpenWeather` componen
 
 Next, author the `Open Weather` component using the AEM SPA Editor.
 
-1. Navigate to [http://localhost:4502/editor.html/content/wknd-spa-react/us/en/home.html](http://localhost:4502/editor.html/content/wknd-spa-react/us/en/home.html).
-1. In `Edit` mode, add the `Open Weather` to the `Layout Container`:
+1.  Navigate to [http://localhost:4502/editor.html/content/wknd-spa-react/us/en/home.html](http://localhost:4502/editor.html/content/wknd-spa-react/us/en/home.html).
+1.  In `Edit` mode, add the `Open Weather` to the `Layout Container`:
 
     ![Insert New Component](assets/custom-component/insert-custom-component.png)
 
-1. Open the component's dialog and enter a **Label**, **Latitude**, and **Longitude**. For example **San Diego**, **32.7157**, and **-117.1611**. Western hemisphere and Southern hemisphere numbers are represented as negative numbers with the Open Weather API
+1.  Open the component's dialog and enter a **Label**, **Latitude**, and **Longitude**. For example **San Diego**, **32.7157**, and **-117.1611**. Western hemisphere and Southern hemisphere numbers are represented as negative numbers with the Open Weather API
 
     ![Configure the Open Weather Component](assets/custom-component/enter-dialog.png)
 
     This is the dialog that was created based on the XML file earlier in the chapter.
 
-1. Save the changes. Observe that the weather for **San Diego** is now displayed:
+1.  Save the changes. Observe that the weather for **San Diego** is now displayed:
 
     ![Weather component updated](assets/custom-component/weather-updated.png)
 
-1. View the JSON model by navigating to [http://localhost:4502/content/wknd-spa-react/us/en.model.json](http://localhost:4502/content/wknd-spa-react/us/en.model.json). Search for `wknd-spa-react/components/open-weather`:
+1.  View the JSON model by navigating to [http://localhost:4502/content/wknd-spa-react/us/en.model.json](http://localhost:4502/content/wknd-spa-react/us/en.model.json). Search for `wknd-spa-react/components/open-weather`:
 
     ```json
     "open_weather": {
