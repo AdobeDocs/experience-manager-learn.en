@@ -339,7 +339,7 @@ The changes made to the `Header` are currently only visible through the **webpac
 
 ## Congratulations! {#congratulations}
 
-Congratulations, you have updated the SPA and explored the integration with AEM! You know know how to develop the SPA against the AEM JSON model API using a **webpack-dev-server**.
+Congratulations, you have updated the SPA and explored the integration with AEM! You now know how to develop the SPA against the AEM JSON model API using a **webpack-dev-server**.
 
 ### Next Steps {#next-steps}
 
