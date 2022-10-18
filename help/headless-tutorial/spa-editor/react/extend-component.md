@@ -38,8 +38,8 @@ To extend an existing component set a property named `sling:resourceSuperType` o
 
 If we want to extend the `Image` component at `wknd-spa-react/components/image` we need to update the code in the `ui.apps` module.
 
-1. Create a new folder beneath the `ui.apps` module for `banner` at `ui.apps/src/main/content/jcr_root/apps/wknd-spa-react/components/banner`.
-1. Beneath `banner` create a Component definition (`.content.xml`) like the following:
+1.  Create a new folder beneath the `ui.apps` module for `banner` at `ui.apps/src/main/content/jcr_root/apps/wknd-spa-react/components/banner`.
+1.  Beneath `banner` create a Component definition (`.content.xml`) like the following:
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -56,8 +56,8 @@ If we want to extend the `Image` component at `wknd-spa-react/components/image` 
 
 The `_cq_editConfig.xml` file dictates the drag and drop behavior in the AEM authoring UI. When extending the Image component it is important that the resource type matches the component itself.
 
-1. In the `ui.apps` module create another file beneath `banner` named `_cq_editConfig.xml`.
-1. Populate `_cq_editConfig.xml` with the following XML:
+1.  In the `ui.apps` module create another file beneath `banner` named `_cq_editConfig.xml`.
+1.  Populate `_cq_editConfig.xml` with the following XML:
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -153,7 +153,7 @@ The `_cq_editConfig.xml` file dictates the drag and drop behavior in the AEM aut
     </jcr:root>
     ```
 
-1. The unique aspect of the file is the `<parameters>` node that sets the resourceType to `wknd-spa-react/components/banner`.
+1.  The unique aspect of the file is the `<parameters>` node that sets the resourceType to `wknd-spa-react/components/banner`.
 
     ```xml
     <parameters
@@ -170,8 +170,8 @@ The `_cq_editConfig.xml` file dictates the drag and drop behavior in the AEM aut
 
 Our `Banner` component requires an extra text field in the dialog to capture the `bannerText`. Since we are using Sling inheritance, we can use features of the [Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html) to override or extend portions of the dialog. In this sample a new tab has been added to the dialog to capture additional data from an author to populate the Card Component.
 
-1. In the `ui.apps` module, beneath the `banner` folder, create a folder named `_cq_dialog`.
-1. Beneath `_cq_dialog` create a Dialog definition file `.content.xml`. Populate it with the following:
+1.  In the `ui.apps` module, beneath the `banner` folder, create a folder named `_cq_dialog`.
+1.  Beneath `_cq_dialog` create a Dialog definition file `.content.xml`. Populate it with the following:
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -227,7 +227,7 @@ Our `Banner` component requires an extra text field in the dialog to capture the
 
     The above XML definition will create a new tab named **Text** and order it *before* the existing **Asset** tab. It will contain a single field **Banner Text**.
 
-1. The dialog will look like the following:
+1.  The dialog will look like the following:
 
     ![Banner final dialog](assets/extend-component/banner-dialog.png)
 
@@ -239,15 +239,14 @@ Our `Banner` component requires an extra text field in the dialog to capture the
 
 In order to use the Banner component with the SPA Editor, a new SPA component must be created that will map to `wknd-spa-react/components/banner`. This is done in the `ui.frontend` module.
 
-1. In the `ui.frontend` module create a new folder for `Banner` at `ui.frontend/src/components/Banner`.
-1. Create a new file named `Banner.js` beneath the `Banner` folder. Populate it with the following:
+1.  In the `ui.frontend` module create a new folder for `Banner` at `ui.frontend/src/components/Banner`.
+1.  Create a new file named `Banner.js` beneath the `Banner` folder. Populate it with the following:
 
     ```js
     import React, {Component} from 'react';
     import {MapTo} from '@adobe/aem-react-editable-components';
 
     export const BannerEditConfig = {
-
         emptyLabel: 'Banner',
 
         isEmpty: function(props) {
@@ -275,7 +274,7 @@ In order to use the Banner component with the SPA Editor, a new SPA component mu
         }
 
         render() {
-            if(BannerEditConfig.isEmpty(this.props)) {
+            if (BannerEditConfig.isEmpty(this.props)) {
                 return null;
             }
 
@@ -293,7 +292,7 @@ In order to use the Banner component with the SPA Editor, a new SPA component mu
 
     This SPA component maps to the AEM component `wknd-spa-react/components/banner` created earlier.
 
-1. Update `import-components.js` at `ui.frontend/src/components/import-components.js` to include the new `Banner` SPA component:
+1.  Update `import-components.js` at `ui.frontend/src/components/import-components.js` to include the new `Banner` SPA component:
 
     ```diff
       import './ExperienceFragment/ExperienceFragment';
@@ -301,16 +300,16 @@ In order to use the Banner component with the SPA Editor, a new SPA component mu
     + import './Banner/Banner';
     ```
 
-1. At this point the project can be deployed to AEM and the dialog can be tested. Deploy the project using your Maven skills:
+1.  At this point the project can be deployed to AEM and the dialog can be tested. Deploy the project using your Maven skills:
 
     ```shell
     $ cd aem-guides-wknd-spa.react
     $ mvn clean install -PautoInstallSinglePackage
     ```
 
-1. Update the SPA Template's policy to add the `Banner` component as an **allowed component**. 
+1.  Update the SPA Template's policy to add the `Banner` component as an **allowed component**. 
 
-1. Navigate to a SPA page and add the `Banner` component to one of the SPA pages:
+1.  Navigate to a SPA page and add the `Banner` component to one of the SPA pages:
 
     ![Add Banner component](assets/extend-component/add-banner-component.png)
 
@@ -324,8 +323,8 @@ To ultimately expose the values from the component dialog to the React component
 
 First we will create a new Java interface for `Banner` that extends the `Image` Java interface.
 
-1. In the `core` module create a new file named `BannerModel.java` at `core/src/main/java/com/adobe/aem/guides/wkndspa/react/core/models`.
-1. Populate `BannerModel.java` with the following:
+1.  In the `core` module create a new file named `BannerModel.java` at `core/src/main/java/com/adobe/aem/guides/wkndspa/react/core/models`.
+1.  Populate `BannerModel.java` with the following:
 
     ```java
     package com.adobe.aem.guides.wkndspa.react.core.models;
@@ -347,9 +346,9 @@ First we will create a new Java interface for `Banner` that extends the `Image` 
 
 Next, implement the Sling Model for the `BannerModel` interface.
 
-1. In the `core` module create a new file named `BannerModelImpl.java` at `core/src/main/java/com/adobe/aem/guides/wkndspa/react/core/models/impl`.
+1.  In the `core` module create a new file named `BannerModelImpl.java` at `core/src/main/java/com/adobe/aem/guides/wkndspa/react/core/models/impl`.
 
-1. Populate `BannerModelImpl.java` with the following:
+1.  Populate `BannerModelImpl.java` with the following:
 
     ```java
     package com.adobe.aem.guides.wkndspa.react.core.models.impl;
@@ -370,7 +369,7 @@ Next, implement the Sling Model for the `BannerModel` interface.
         adapters = { BannerModel.class,ComponentExporter.class}, 
         resourceType = BannerModelImpl.RESOURCE_TYPE, 
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
-        )
+    )
     @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
     public class BannerModelImpl implements BannerModel {
 
@@ -414,7 +413,6 @@ Next, implement the Sling Model for the `BannerModel` interface.
             return null != image ? image.getTitle() : null;
         }
 
-
         // method required by `ComponentExporter` interface
         // exposes a JSON property named `:type` with a value of `wknd-spa-react/components/banner`
         // required to map the JSON export to the SPA component props via the `MapTo`
@@ -422,7 +420,6 @@ Next, implement the Sling Model for the `BannerModel` interface.
         public String getExportedType() {
             return BannerModelImpl.RESOURCE_TYPE;
         }
-
     }
     ```
 
@@ -430,7 +427,7 @@ Next, implement the Sling Model for the `BannerModel` interface.
 
     `BannerModelImpl.java` uses the [Delegation pattern for Sling Models](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models) to avoid rewriting all of the logic from the Image core component.
 
-1. Observe the following lines:
+1.  Review the following lines:
 
     ```java
     @Self
@@ -449,7 +446,7 @@ Next, implement the Sling Model for the `BannerModel` interface.
 
     It is then possible to simply use the `image` object to implement methods defined by the `Image` interface, without having to write the logic ourselves. This technique is used for `getSrc()`, `getAlt()` and `getTitle()`.
 
-1. Open a terminal window and deploy just the updates to the `core` module using the Maven `autoInstallBundle` profile from the `core` directory.
+1.  Open a terminal window and deploy just the updates to the `core` module using the Maven `autoInstallBundle` profile from the `core` directory.
 
     ```shell
     $ cd core/
@@ -458,22 +455,22 @@ Next, implement the Sling Model for the `BannerModel` interface.
 
 ## Putting it all together {#put-together}
 
-1. Return to AEM and open the SPA page that has the `Banner` component.
-1. Update the `Banner` component to include **Banner Text**:
+1.  Return to AEM and open the SPA page that has the `Banner` component.
+1.  Update the `Banner` component to include **Banner Text**:
 
     ![Banner Text](assets/extend-component/banner-text-dialog.png)
 
-1. Populate the component with an image:
+1.  Populate the component with an image:
 
     ![Add image to banner dialog](assets/extend-component/banner-dialog-image.png)
 
     Save the dialog updates.
 
-1. You should now see the rendered value of **Banner Text**:
+1.  You should now see the rendered value of **Banner Text**:
 
    ![Banner Text displayed](assets/extend-component/banner-text-displayed.png)
 
-1. View the JSON model response at: [http://localhost:4502/content/wknd-spa-react/us/en.model.json](http://localhost:4502/content/wknd-spa-react/us/en.model.json) and search for the `wknd-spa-react/components/card`:
+1.  View the JSON model response at: [http://localhost:4502/content/wknd-spa-react/us/en.model.json](http://localhost:4502/content/wknd-spa-react/us/en.model.json) and search for the `wknd-spa-react/components/card`:
 
     ```json
     "banner": {

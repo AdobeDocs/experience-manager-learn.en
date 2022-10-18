@@ -30,7 +30,7 @@ This tutorial walks through the creation of a simple Asset Compute worker that c
 
 1. Provision and set up the necessary accounts and services to build and deploy an Asset Compute worker
 1. Create and configure an Asset Compute project
-1. Develop am Asset Compute worker that generates a custom rendition 
+1. Develop an Asset Compute worker that generates a custom rendition 
 1. Write tests for, and learn how to debug the custom Asset Compute worker
 1. Deploy the Asset Compute worker, and integrate it AEM as a Cloud Service Author service via Processing Profiles
 

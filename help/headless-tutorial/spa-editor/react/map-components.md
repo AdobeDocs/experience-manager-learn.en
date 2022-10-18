@@ -107,7 +107,7 @@ Let's see how the component works.
 
     To avoid a potential XSS attack, the rich text is escaped via `DOMPurify` before using [dangerouslySetInnerHTML](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml) to render the content. Recall the `richText` and `text` properties from the JSON model earlier in the exercise.
 
-1. Next take a look at the `TextEditConfig` at ~line 29:
+1. Next, open `ui.frontend/src/components/import-components.js` take a look at the `TextEditConfig` at ~line 86:
 
     ```js
     const TextEditConfig = {
@@ -121,10 +121,10 @@ Let's see how the component works.
 
     The above code is responsible for determining when to render the placeholder in the AEM author environment. If the `isEmpty` method returns **true** then the placeholder is rendered.
 
-1. Finally take a look at the `MapTo` call at ~line 62:
+1. Finally take a look at the `MapTo` call at ~line 94:
 
     ```js
-    export default MapTo('wknd-spa-react/components/text')(Text, TextEditConfig);
+    export default MapTo('wknd-spa-react/components/text')(LazyTextComponent, TextEditConfig);
     ```
 
     `MapTo` is provided by the AEM SPA Editor JS SDK (`@adobe/aem-react-editable-components`). The path `wknd-spa-react/components/text` represents the `sling:resourceType` of the AEM component. This path gets matched with the `:type` exposed by the JSON model observed earlier. `MapTo` takes care of parsing the JSON model response and passing the correct values as `props` to the SPA component.

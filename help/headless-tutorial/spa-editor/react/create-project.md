@@ -36,7 +36,7 @@ Review the required tooling and instructions for setting up a [local development
 
 >[!NOTE]
 >
->This tutorial uses version **27** of the archetype. It is always a best practice to use the **latest** version of the archetype to generate a new project.
+>This tutorial uses version **39** of the archetype. It is always a best practice to use the **latest** version of the archetype to generate a new project.
 
 1. Open up a command line terminal and enter the following Maven command:
 
@@ -44,7 +44,7 @@ Review the required tooling and instructions for setting up a [local development
     mvn -B archetype:generate \
      -D archetypeGroupId=com.adobe.aem \
      -D archetypeArtifactId=aem-project-archetype \
-     -D archetypeVersion=27 \
+     -D archetypeVersion=39 \
      -D appTitle="WKND SPA React" \
      -D appId="wknd-spa-react" \
      -D artifactId="aem-guides-wknd-spa.react" \
@@ -65,18 +65,20 @@ Review the required tooling and instructions for setting up a [local development
 
     ```plain
     |--- aem-guides-wknd-spa.react/
+        |--- LICENSE
+        |--- README.md
         |--- all/
+        |--- archetype.properties
         |--- core/
+        |--- dispatcher/
+        |--- it.tests/
+        |--- pom.xml
         |--- ui.apps/
         |--- ui.apps.structure/
         |--- ui.config/
         |--- ui.content/
         |--- ui.frontend/
         |--- ui.tests /
-        |--- it.tests/
-        |--- dispatcher/
-        |--- pom.xml
-        |--- README.md
         |--- .gitignore
     ```
 

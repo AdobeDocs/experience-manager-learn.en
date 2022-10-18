@@ -14,7 +14,21 @@ exl-id: 310f492c-0095-4015-81a4-27d76f288138
 
 Learn how AEM Modernization Tools are used to upgrade an existing AEM Sites content to be AEM as a Cloud Service compatible and align with best practices.
 
->[!VIDEO](https://video.tv.adobe.com/v/336965/?quality=12&learn=on)
+## All-in-One Converter
+
+>[!VIDEO](https://video.tv.adobe.com/v/338802/?quality=12&learn=on)
+
+## Page conversion
+
+>[!VIDEO](https://video.tv.adobe.com/v/338799/?quality=12&learn=on)
+
+## Component conversion
+
+>[!VIDEO](https://video.tv.adobe.com/v/338788/?quality=12&learn=on)
+
+## Policy import
+
+>[!VIDEO](https://video.tv.adobe.com/v/338797/?quality=12&learn=on)
 
 ## Using AEM Modernization Tools
 
@@ -82,7 +96,6 @@ Also, make sure you have completed the previous hands-on exercise:
 + [Download AEM Modernizations tools](https://github.com/adobe/aem-modernize-tools/releases/latest)
 + [AEM Modernization Tools documentation](https://opensource.adobe.com/aem-modernize-tools/)
 + [AEM Gems - Introducing the AEM Modernization Suite](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/Introducing-the-AEM-Modernization-Suite.html)
-
 
 1. Deploy the newly modernized wknd-legacy site on the local AEM SDK. AEM ASK available for download here: 
     + [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html). 
