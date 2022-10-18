@@ -13,9 +13,9 @@ exl-id: a87ff428-15f7-43c9-ad03-707eab6216a9
 ---
 # Configure Data Source
 
-There are many ways with which AEM enables integration with external database. One of the most common & standard practice of database integration is by using Apache Sling Connection Pooled DataSource configuration properties through the [configMgr](http://localhost:4502/system/console/configMgr).
+There are many ways in which AEM enables integration with an external database. One of the most common & standard practices of database integration is by using Apache Sling Connection Pooled DataSource configuration properties through the [configMgr](http://localhost:4502/system/console/configMgr).
 The first step is to download and deploy the appropriate [MySQL drivers](https://mvnrepository.com/artifact/mysql/mysql-connector-java) to AEM.
-Then set the Sling Connection Pooled DataSource properties specific to your database. The following screenshot shows the settings used for this tutorial. The database schema is provided to you as part of this tutorial assets.
+Then, set the Sling Connection Pooled DataSource properties specific to your database. The following screenshot shows the settings used for this tutorial. The database schema is provided to you as part of this tutorial assets.
 
 ![data-source](assets/data-source.JPG)
 
@@ -30,7 +30,7 @@ Then set the Sling Connection Pooled DataSource properties specific to your data
 ## Create database
 
 
-The following database was used for the purpose of this use case. The database has one table called `formdatawithattachments` with the 4 columns as shown in the screen-shot below.
+The following database was used for the purpose of this use case. The database has one table called `formdatawithattachments` with the 4 columns as shown in the screenshot below.
 ![data-base](assets/table-schema.JPG) 
 
 * The column **afdata** will hold the adaptive form data.
@@ -42,11 +42,11 @@ using MySQL workbench.
 
 ## Create Form Data Model
 
-Create form data model and base it on the datasource created in the previous step.
-Configure the **get** service of this form data model as shown in the screen shot below.
-Make sure you are not returning array in the **get** service.
+Create the form data model and base it on the datasource created in the previous step.
+Configure the **get** service of this form data model as shown in the screenshot below.
+Make sure you are not returning an array in the **get** service.
 
-This **get** service is used to fetch the telephone number associated with the application id.
+The purpose of this **get** service is to fetch the telephone number associated with the application id.
 
 ![get-service](assets/get-service.JPG)
 
