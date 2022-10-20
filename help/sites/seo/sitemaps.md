@@ -43,7 +43,7 @@ Defines the [OSGi factory configuration](http://localhost:4502/system/console/co
 
 ### Absolute sitemap URLs
 
-AEM's sitemap supports absolute URL's by using [Sling mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html). This is done by creating mapping nodes on the AEM services generating sitemaps.
+AEM's sitemap supports absolute URL's by using [Sling mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html). This is done by creating mapping nodes on the AEM services generating sitemaps (typically the AEM Publish service).
 
 An example Sling mapping node definition for `https://wknd.com` can be defined under `/etc/map/https` as follows:
 
