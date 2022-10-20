@@ -1,15 +1,17 @@
 ---
-title: AEM Foundation Videos and Tutorials
+title: AEM Foundation videos and tutorials
 description: Watch our videos and tutorials to get help with Adobe Experience Manager Foundation.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner
 exl-id: af0fe7fb-873b-4d2d-a5a3-59a5a3da9b96
 ---
-# AEM Foundation Videos and Tutorials {#overview}
+# AEM Foundation videos and tutorials {#overview}
 
 Adobe Experience Manager provides a common set of capabilities available to users of AEM Sites, Assets, and Forms.
 
-## What's New
+<div id="whats-new-section">
+
+## What's new
 
 * **[Use Workflow AEM (Video)](./workflow/use-workflow.md)**
     *AEM Workflow provides a way to collaborate, manage, and process content in AEM.*
@@ -23,7 +25,18 @@ Adobe Experience Manager provides a common set of capabilities available to user
 * **[Use the Cloud Manager CI/CD Pipeline (Video)](./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md)**  
     *Learn how to use Cloud Manager's CI/CD pipeline to ensure safe and consistent deployments.*
 
-## Staff Picks
+</div>
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
+
+<div id="staff-picks-section">
+
+## Staff picks
 
 <table>
 <tr>
@@ -69,10 +82,12 @@ Adobe Experience Manager provides a common set of capabilities available to user
 </tr>
 </table>
 
-## Additional Resources
+</div>
+
+## Additional resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [AEM as a Cloud Service Tutorials](/help/cloud-service/overview.md)
-* [AEM Sites Videos and Tutorials](/help/sites/overview.md)
-* [AEM Assets Videos and Tutorials](/help/assets/overview.md)
-* [AEM Forms Videos and Tutorials](/help/forms/overview.md)
+* [AEM as a Cloud Service tutorials](/help/cloud-service/overview.md)
+* [AEM Sites videos and tutorials](/help/sites/overview.md)
+* [AEM Assets videos and tutorials](/help/assets/overview.md)
+* [AEM Forms videos and tutorials](/help/forms/overview.md)

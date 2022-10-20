@@ -1,10 +1,10 @@
 ---
-title: AEM Assets Videos and Tutorials
+title: AEM Assets videos and tutorials
 description: Watch our videos to get AEM Asset support and assistance.
 sub-product: assets, dynamic-media
 exl-id: 1d0b0183-25ee-4cb4-82a5-3506e7c1c908
 ---
-# AEM Assets Videos and Tutorials {#overview}
+# AEM Assets videos and tutorials {#overview}
 
 Adobe Experience Manager (AEM) Assets is a digital asset management tool on AEM Platform that allows users to create, manage, and share their digital assets (images, videos, documents, and audio clips) in a web-based repository. This user guide contains videos and tutorials on the many features and capabilities of AEM Assets.
 
@@ -20,7 +20,16 @@ Watch this end-to-end walk through of AEM Assets that explains what AEM Assets i
 
 >[!VIDEO](https://video.tv.adobe.com/v/336196/?quality=12&learn=on)
 
-## Staff Picks
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
+
+<div id="staff-picks-section">
+
+## Staff picks
 
 <table>
 <td>
@@ -64,11 +73,13 @@ Watch this end-to-end walk through of AEM Assets that explains what AEM Assets i
 </td>
 </table>
 
-## Additional Resources
+</div>
+
+## Additional resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [AEM Assets Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=en)
-* [AEM as a Cloud Service Tutorials](/help/cloud-service/overview.md)
-* [AEM Sites Tutorials](/help/sites/overview.md)
-* [AEM Forms Tutorials](/help/forms/overview.md)
-* [AEM Foundation Tutorials](/help/foundation/overview.md)
+* [AEM Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=en)
+* [AEM as a Cloud Service tutorials](/help/cloud-service/overview.md)
+* [AEM Sites tutorials](/help/sites/overview.md)
+* [AEM Forms tutorials](/help/forms/overview.md)
+* [AEM Foundation tutorials](/help/foundation/overview.md)

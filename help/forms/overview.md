@@ -1,16 +1,18 @@
 ---
-title: AEM Forms Tutorials and Videos
+title: AEM Forms tutorials and videos
 description: Browse our videos and tutorials for AEM Forms, with resources and documentation to answer your queries.
 sub-product: forms
 topic: Development
 role: Developer
 exl-id: c1972937-56c5-47af-9232-f31bdf69dfbe
 ---
-# AEM Forms Tutorials and Videos {#overview}
+# AEM Forms tutorials and videos {#overview}
 
 Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manage, publish, and update complex digital forms while integrating with back-end processes, business rules, and data. This user guide contains videos and tutorials on the many features and capabilities of AEM Forms
 
-## What's New
+<div id="whats-new-section">
+
+## What's new
 
 * **[Handling Error Messages in Invoke Form Data Model Service Step](./adaptive-forms/handling-error-messages-in-invoke-fdm-step.md)**
     *A variable in a workflow model is a way to store a value based on its data type*
@@ -20,8 +22,19 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 * **[Creating reusable workflow models](./adaptive-forms/re-usable-aem-forms-workflow-models-article.md)**
     *Create workflow models not tied to a specific form*
-     
-## Staff Picks
+
+</div>
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
+
+<div id="staff-picks-section">
+
+## Staff picks
 
 <table>
 <tr>
@@ -67,18 +80,19 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 </tr>
 </table>
 
+</div>
 
 
 
 
-## Additional Resources
+## Additional resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [AEM Sites Authoring Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)
-* [AEM Sites Developing Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/home.html)
-* [AEM Sites Administering Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/administering/home.html)
-* [AEM Sites Deploying Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html)
-* [AEM as a Cloud Service Tutorials](/help/cloud-service/overview.md)
-* [AEM Assets Tutorials](/help/assets/overview.md)
-* [AEM Forms Tutorials](/help/forms/overview.md)
-* [AEM Foundation Tutorials](/help/foundation/overview.md)
+* [AEM Sites Authoring documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)
+* [AEM Sites Developing documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/home.html)
+* [AEM Sites Administering documentation](https://experienceleague.adobe.com/docs/experience-manager-65/administering/home.html)
+* [AEM Sites Deploying documentation](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html)
+* [AEM as a Cloud Service tutorials](/help/cloud-service/overview.md)
+* [AEM Assets tutorials](/help/assets/overview.md)
+* [AEM Forms tutorials](/help/forms/overview.md)
+* [AEM Foundation tutorials](/help/foundation/overview.md)
