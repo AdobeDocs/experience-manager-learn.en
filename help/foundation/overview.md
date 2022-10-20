@@ -86,7 +86,6 @@ Adobe Experience Manager provides a common set of capabilities available to user
 
 ## Additional resources
 
-* [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
 * [AEM as a Cloud Service tutorials](/help/cloud-service/overview.md)
 * [AEM Sites videos and tutorials](/help/sites/overview.md)
 * [AEM Assets videos and tutorials](/help/assets/overview.md)
