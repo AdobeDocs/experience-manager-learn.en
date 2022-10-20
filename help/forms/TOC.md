@@ -56,6 +56,7 @@ index: y
   + [Send Email Component in AEM Forms Workflow](adaptive-forms/email-step-aem-workflow-video-use.md)
   + [Generating DocumentOfRecord using API](adaptive-forms/document-of-record-api-tutorial-use.md)
   + [Displaying Inline Images](adaptive-forms/inline-images-adaptive-forms.md)
+  + [Displaying DAM images inline](adaptive-forms/inline-images-from-dam.md)
   + [Using GeoLocation API](adaptive-forms/using-geolocation-api-in-aem-forms-article.md)
   + [Using Transaction Reporting](adaptive-forms/transaction-reporting-aem-forms-article-use.md)
   + [User Profile Data Integration in AEM Forms](adaptive-forms/user-profile-data-integration-feature-video-use.md)
