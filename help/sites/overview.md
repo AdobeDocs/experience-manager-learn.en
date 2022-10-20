@@ -90,12 +90,11 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
    
 ## Additional resources
 
-* [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
-* [AEM Sites Authoring Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)
-* [AEM Sites Developing Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/home.html)
-* [AEM Sites Administering Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/administering/home.html)
-* [AEM Sites Deploying Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html)
-* [AEM as a Cloud Service Tutorials](/help/cloud-service/overview.md)
-* [AEM Assets Tutorials](/help/assets/overview.md)
-* [AEM Forms Tutorials](/help/forms/overview.md)
-* [AEM Foundation Tutorials](/help/foundation/overview.md)
+* [AEM Sites Authoring documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)
+* [AEM Sites Developing documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/home.html)
+* [AEM Sites Administering documentation](https://experienceleague.adobe.com/docs/experience-manager-65/administering/home.html)
+* [AEM Sites Deploying documentation](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html)
+* [AEM as a Cloud Service tutorials](/help/cloud-service/overview.md)
+* [AEM Assets tutorials](/help/assets/overview.md)
+* [AEM Forms tutorials](/help/forms/overview.md)
+* [AEM Foundation tutorials](/help/foundation/overview.md)

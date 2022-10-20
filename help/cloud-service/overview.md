@@ -1,11 +1,11 @@
 ---
-title: Adobe Experience Manager as Cloud Service videos and tutorials
+title: Adobe Experience Manager as a Cloud Service videos and tutorials
 description: A collection of tutorials for Adobe Experience Manager (AEM) as a Cloud Service
 sub-product: sites, cloud-manager, foundation, assets
 kt: 3289
 exl-id: 650ba2d9-6083-4772-84c5-1cdb97b5f0e9
 ---
-# AEM as Cloud Service videos and tutorials {#overview}
+# AEM as a Cloud Service videos and tutorials {#overview}
 
 Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Cloud Service introduces the next generation of the Experience Manager product line, building on past investments and innovations, preserving and extending all use cases and functionalities.
 
@@ -89,5 +89,4 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 ## Additional resources
 
-* [Experience League - Explore Adobe Experience Manager](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
 * [Adobe Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
