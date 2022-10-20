@@ -5,14 +5,14 @@ sub-product: sites, content-services
 topic: Content Management
 exl-id: cde4ce7f-0afe-4632-8c1c-354586f296d5
 ---
-# AEM Sites Videos and Tutorials {#overview}
+# AEM Sites videos and tutorials {#overview}
 
-Adobe Experience Manager (AEM) Sites are a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
+Adobe Experience Manager (AEM) Sites is a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
 
 
 <div id="whats-new-section">
 
-## What's New
+## What's new
 
 * **[Using Launches with AEM Sites (Video)](./page-authoring/launches.md)**
     *Learn about AEM Sites' Launches and how they can be used to prepare web site content for future release.*
@@ -40,7 +40,7 @@ Adobe Experience Manager (AEM) Sites are a leading experience management platfor
 
 <div id="staff-picks-section">
 
-## Staff Picks
+## Staff picks
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ Adobe Experience Manager (AEM) Sites are a leading experience management platfor
 
 </div>
    
-## Additional Resources
+## Additional resources
 
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
 * [AEM Sites Authoring Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)
