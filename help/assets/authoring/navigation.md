@@ -8,6 +8,7 @@ version: Cloud Service
 kt: 4305
 thumbnail: 32046.jpg
 topic: Content Management
+last-substantial-update: 2021-09-23
 exl-id: eba697fc-02ca-4ac8-82d5-7b230ef4d45b
 ---
 # Navigation

@@ -6,6 +6,7 @@ version: 6.5
 topic: Content Management
 role: Developer
 level: Intermediate
+last-substantial-update: 2022-06-23
 exl-id: 2eceb65f-362a-48e1-a8c6-e9f6954dc2a0
 ---
 # Using Connected Assets with AEM Assets{#using-connected-assets-with-aem-assets}

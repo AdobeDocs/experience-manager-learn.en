@@ -8,6 +8,7 @@ thumbnail: 32054.jpg
 topic: Content Management
 role: User
 level: Beginner
+last-substantial-update: 2021-10-02
 exl-id: 7ea8ff25-d7af-4fad-a027-1e6b5440f810
 ---
 # Search{#aem-assets-search}

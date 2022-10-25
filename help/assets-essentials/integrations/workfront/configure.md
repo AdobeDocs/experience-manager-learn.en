@@ -8,6 +8,7 @@ role: User
 level: Beginner
 kt: 7910
 thumbnail: 336254.jpeg
+last-substantial-update: 2022-10-13
 exl-id: c3961fdf-b8aa-410d-9561-520a248ea5b0
 ---
 # Configuring the integration

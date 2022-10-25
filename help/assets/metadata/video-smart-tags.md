@@ -8,6 +8,7 @@ thumbnail: 327005.jpg
 topic: Content Management
 role: User
 level: Beginner
+last-substantial-update: 2022-06-11
 exl-id: 24d62f81-a6a6-4cfd-b529-b071539a2c1d
 ---
 # Video Smart Tags

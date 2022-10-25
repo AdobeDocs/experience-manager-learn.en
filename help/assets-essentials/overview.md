@@ -3,6 +3,8 @@ title: AEM Assets Essentials Videos
 description: A collection of videos for Adobe Experience Manager Assets Essentials
 sub-product: assets
 recommendations: disable
+last-substantial-update: 2022-10-01
+thumbnail: aem-assets-essentials-videos.jpg
 exl-id: 6a8534fa-bc99-438b-9107-2a428e06619c
 ---
 # Assets Essentials Videos

@@ -6,6 +6,7 @@ version: 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+last-substantial-update: 2022-06-26
 exl-id: a3c3a01e-97a6-494f-b7a9-22057e91f4eb
 ---
 # Using Adobe Stock with AEM Assets{#using-adobe-stock-assets-with-aem-assets}

@@ -6,7 +6,7 @@ level: Beginner
 version: Cloud Service
 feature: Brand Portal
 topic: Development
-index: y
+last-substantial-update: 2022-06-19
 exl-id: 78664b38-b64a-4220-bb7a-83f09bdd441a
 ---
 # Enable renditions download in the Brand Portal

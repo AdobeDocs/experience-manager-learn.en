@@ -7,6 +7,7 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner
 kt: 8073
 thumbnail: 336540.jpeg
+last-substantial-update: 2022-09-02
 exl-id: 10e63038-b6d6-4ac6-b6b4-660a05f83d90
 ---
 # Creative Operations

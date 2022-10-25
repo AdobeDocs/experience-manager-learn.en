@@ -7,6 +7,7 @@ role: Admin, User
 level: Beginner
 kt: 9754
 thumbnail: kt-9754.jpeg
+last-substantial-update: 2022-09-02
 exl-id: 4f279c0d-270f-433e-b047-88c02f5b1e78
 ---
 # Workfront for Experience Manager enhanced connector Expert Series

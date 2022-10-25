@@ -9,6 +9,7 @@ thumbnail: 33974.jpg
 topic: Content Management
 role: User
 level: Beginner
+last-substantial-update: 2021-09-18
 exl-id: 1e35da82-08e7-44c2-aec6-79d8ea74d556
 ---
 # Metadata profiles
