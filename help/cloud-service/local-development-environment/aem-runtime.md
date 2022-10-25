@@ -8,6 +8,7 @@ thumbnail: 32551.jpg
 topic: Development
 role: Developer
 level: Beginner
+last-substantial-update: 2022-09-02
 exl-id: 19f72254-2087-450b-909d-2d90c9821486
 ---
 # Set up local AEM Runtime {#set-up-local-aem-runtime}

@@ -12,6 +12,7 @@ thumbnail: KT-5802.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
+last-substantial-update: 2022-08-15
 exl-id: 575b12f9-b57f-41f7-bd39-56d242de4747
 ---
 # Asset Compute microservices extensibility

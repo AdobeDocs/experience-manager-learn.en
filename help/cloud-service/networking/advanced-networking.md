@@ -7,7 +7,8 @@ topic: Development, Integrations, Security
 role: Architect, Developer
 level: Intermediate
 kt: 9354
-thumbnail: KT-9354.jpeg
+thumbnail: KT-9354.png
+last-substantial-update: 2022-10-13
 exl-id: d1c1a3cf-989a-4693-9e0f-c1b545643e41
 ---
 # Advanced networking
@@ -79,22 +80,22 @@ Ensure the the appropriate [advanced networking configuration](#advanced-network
         <a  href="./examples/http-dedicated-egress-ip-vpn.md"><img alt="HTTP/HTTPS" src="./assets/code-examples__http.png"/></a>
         <div><strong><a href="./examples/http-dedicated-egress-ip-vpn.md">HTTP/HTTPS</a></strong></div>
         <p>
-            Java™ code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service using HTTP/HTTPS protocol.
+            Java&trade; code example making HTTP/HTTPS connection from AEM as a Cloud Service to an external service using HTTP/HTTPS protocol.
         </p>
     </td>
     <td>
       <a  href="./examples/sql-datasourcepool.md"><img alt="SQL connection using JDBC DataSourcePool" src="./assets//code-examples__sql-osgi.png"/></a>
       <div><strong><a href="./examples/sql-datasourcepool.md">SQL connection using JDBC DataSourcePool</a></strong></div>
       <p>
-            Java™ code example connecting to external SQL databases by configuring AEM's JDBC datasource pool.
+            Java&trade; code example connecting to external SQL databases by configuring AEM's JDBC datasource pool.
       </p>
     </td>   
     </tr><tr>
     <td>
       <a  href="./examples/sql-java-apis.md"><img alt="SQL connection using Java APIs" src="./assets/code-examples__sql-java-api.png"/></a>
-      <div><strong><a href="./examples/sql-java-apis.md">SQL connection using Java™ APIs</a></strong></div>
+      <div><strong><a href="./examples/sql-java-apis.md">SQL connection using Java&trade; APIs</a></strong></div>
       <p>
-            Java™ code example connecting to external SQL databases using Java™'s SQL APIs.
+            Java&trade; code example connecting to external SQL databases using Java&trade;'s SQL APIs.
       </p>
     </td>   
     <td>
