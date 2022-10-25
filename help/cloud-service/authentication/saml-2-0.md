@@ -8,6 +8,7 @@ role: Architect, Developer
 level: Intermediate
 kt: 9351
 thumbnail: 343040.jpeg
+last-substantial-update: 2022-10-17
 exl-id: 461dcdda-8797-4a37-a0c7-efa7b3f1e23e
 ---
 # SAML 2.0 authentication{#saml-2-0-authentication}

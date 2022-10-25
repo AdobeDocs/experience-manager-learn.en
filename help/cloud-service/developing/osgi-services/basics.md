@@ -7,6 +7,7 @@ topic: Development
 feature: OSGI
 kt: 8227
 thumbnail: 335476.jpeg
+last-substantial-update: 2022-09-16
 exl-id: a3a9bf59-e9a2-4322-ac93-9c12c70b9a75
 ---
 # OSGi Services

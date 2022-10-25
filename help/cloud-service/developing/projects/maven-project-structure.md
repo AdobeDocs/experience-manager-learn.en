@@ -7,6 +7,7 @@ topic: Development
 feature: AEM Project Archetype
 kt: 8123
 thumbnail: 334280.jpg
+last-substantial-update: 2022-09-14
 exl-id: 9e221aa8-d43e-4832-8233-a6cb1b41cc60
 ---
 # AEM Maven project structure

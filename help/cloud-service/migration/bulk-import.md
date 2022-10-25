@@ -12,6 +12,7 @@ thumbnail: 329680.jpg
 topic: Migration
 role: Architect, Developer
 level: Beginner
+last-substantial-update: 2022-10-05
 exl-id: 28644af8-babc-467d-afdb-8538728dc176
 ---
 # Using Bulk Import

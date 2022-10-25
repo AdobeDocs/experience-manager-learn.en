@@ -7,6 +7,7 @@ type: Tutorial
 topic: Architecture
 kt: 6923
 thumbnail: 330546.jpg
+last-substantial-update: 2022-01-01
 exl-id: 8aa97bdf-6a0b-4140-8183-a8f77212992d
 ---
 # What is AEM as a Cloud Service?

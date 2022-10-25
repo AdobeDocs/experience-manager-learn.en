@@ -7,7 +7,8 @@ topic: Integrations
 role: Leader, Architect, Admin, Developer
 level: Beginner
 kt: 10718
-thumbnail: KT-10718.jpeg
+thumbnail: KT-10718.png
+last-substantial-update: 2022-10-02
 mini-toc-levels: 1
 exl-id: 9e856dcc-f042-4e9d-bf97-dd4f72e837e3
 ---
