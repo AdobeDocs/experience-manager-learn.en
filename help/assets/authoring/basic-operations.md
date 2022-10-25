@@ -8,6 +8,7 @@ version: Cloud Service
 kt: 4299
 thumbnail: 32044.jpg
 topic: Content Management
+last-substantial-update: 2021-09-24
 exl-id: d5b25fcc-4c8d-4720-a14e-eaf768873415
 ---
 # Basic Operations

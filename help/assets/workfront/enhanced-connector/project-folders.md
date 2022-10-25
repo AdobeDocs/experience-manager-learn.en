@@ -7,6 +7,7 @@ role: Admin, User
 level: Beginner
 kt: 9127
 thumbnail: 337586.jpeg
+last-substantial-update: 2022-09-02
 exl-id: 0e9d056a-4eec-450c-a941-b9563634fe8a
 ---
 # Workfront enhanced connector project folders

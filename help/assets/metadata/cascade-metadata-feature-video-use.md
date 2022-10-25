@@ -8,6 +8,7 @@ role: User
 level: Intermediate
 kt: 616
 thumbnail: 20702.jpg
+last-substantial-update: 2022-06-08
 exl-id: 73e793e0-a20e-4954-ba1a-471b2cd85120
 ---
 # Using Cascading Metadata in AEM Assets{#using-cascading-metadata-in-aem-assets}

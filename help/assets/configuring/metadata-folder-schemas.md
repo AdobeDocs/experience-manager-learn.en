@@ -9,6 +9,7 @@ thumbnail: 34071.jpg
 topic: Content Management
 role: User
 level: Beginner
+last-substantial-update: 2021-09-19
 exl-id: 81e11e51-205d-4233-a10d-551d5041075c
 ---
 # Metadata folder schemas

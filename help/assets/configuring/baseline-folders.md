@@ -9,6 +9,7 @@ thumbnail: 33496.jpg
 topic: Content Management
 role: User
 level: Beginner
+last-substantial-update: 2021-09-14
 exl-id: 9d11156d-1ea4-42a6-8e0d-cbc4aae4e34c
 ---
 # Baseline folders

@@ -7,6 +7,7 @@ role: Admin, User
 level: Beginner
 kt: 9124
 thumbnail: 337575.jpeg
+last-substantial-update: 2022-09-02
 exl-id: fe9d1305-7add-4434-a4a9-16e0fb805574
 ---
 # Workfront enhanced connector basics

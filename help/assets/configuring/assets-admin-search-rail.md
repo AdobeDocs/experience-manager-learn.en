@@ -9,6 +9,7 @@ thumbnail: 35842.jpg
 topic: Content Management
 role: Admin
 level: Intermediate
+last-substantial-update: 2021-09-20
 exl-id: 7ef59804-b151-486c-9c7d-43058c004f3e
 ---
 # Assets admin search rail

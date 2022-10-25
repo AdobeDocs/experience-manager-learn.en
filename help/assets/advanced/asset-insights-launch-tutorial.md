@@ -6,6 +6,7 @@ version: 6.4, 6.5
 topic: Integrations
 role: Developer
 level: Intermediate
+last-substantial-update: 2022-06-04
 exl-id: 00125fe1-3bb9-4b1a-a83c-61c413403ae2
 ---
 # Set up Asset Insights with AEM Assets and Adobe Experience Platform Launch

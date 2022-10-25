@@ -8,6 +8,7 @@ level: Beginner
 kt: 9720
 thumbnail: 340333.jpeg
 hidefromtoc: false
+last-substantial-update: 2022-09-02
 exl-id: 520a75cd-757a-4ae9-acf6-3c1f5e1f3747
 ---
 # AEM Tags, project linked folders, and folder metadata
