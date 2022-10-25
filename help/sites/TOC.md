@@ -87,6 +87,8 @@ feature-set: Experience Manager Sites, Experience Manager
   + [Setup Translation Rules](translation/translation-rules-editor-technical-video-setup.md)
   + [Translation Enhancements](translation/translation-enhancements-feature-video-use.md)
 + Integrations {#integrations}
+  + Experience Platform {#experience-platform}
+    + [Generate FPIDs](integrations/platform/fpid.md)
   + Experience Platform Launch {#experience-platform-launch}
     + [Overview](integrations/experience-platform-launch/overview.md)
     + [Create a Launch Property](integrations/experience-platform-launch/create-launch-property.md)
