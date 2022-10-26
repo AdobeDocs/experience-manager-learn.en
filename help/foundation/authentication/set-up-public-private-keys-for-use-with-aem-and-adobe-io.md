@@ -1,6 +1,6 @@
 ---
 seo: Set up public and private keys for use with AEM and Adobe I/O
-description: AEM uses public/private key pairs to securely communicate with Adobe I/O and other web services. This short tutorial illustrates how compatible keys and keystores can be generated using the openssl command line tool that works with both AEM and Adobe I/O.
+description: AEM uses public/private key pairs to securely communicate with Adobe I/O and other web services. This short tutorial illustrates how compatible keys and keystores can be generated using the openssl command-line tool that works with both AEM and Adobe I/O.
 version: 6.4, 6.5
 feature: User and Groups
 topics: authentication, integrations
@@ -12,10 +12,12 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 62ed9dcc-6b8a-48ff-8efe-57dabdf4aa66
+last-substantial-update: 2022-07-17
+thumbnail: KT-2450.jpg
 ---
 # Setup public and private keys for use with Adobe I/O
 
-AEM uses public/private key pairs to securely communicate with Adobe I/O and other web services. This short tutorial illustrates how compatible keys and keystores can be generated using the [!DNL openssl] command line tool that works with both AEM and Adobe I/O.
+AEM uses public/private key pairs to securely communicate with Adobe I/O and other web services. This short tutorial illustrates how compatible keys and keystores can be generated using the [!DNL openssl] command-line tool that works with both AEM and Adobe I/O.
 
 >[!CAUTION]
 >
@@ -23,7 +25,7 @@ AEM uses public/private key pairs to securely communicate with Adobe I/O and oth
 
 ## Generate the public/private key pair {#generate-the-public-private-key-pair}
 
-The [[!DNL openssl]](https://www.openssl.org/docs/man1.0.2/man1/openssl.html) command line tool's [[!DNL req] command](https://www.openssl.org/docs/man1.0.2/man1/req.html) can be used to generate a key pair compatible with Adobe I/O and Adobe Experience Manager.
+The [[!DNL openssl]](https://www.openssl.org/docs/man1.0.2/man1/openssl.html) command-line tool's [[!DNL req] command](https://www.openssl.org/docs/man1.0.2/man1/req.html) can be used to generate a key pair compatible with Adobe I/O and Adobe Experience Manager.
 
 ```shell
 $ openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout private.key -out certificate.crt
@@ -71,7 +73,7 @@ The output of this command is a `keystore.p12` file.
 
 ## Verify the keystore contents {#verify-the-keystore-contents}
 
-The Java [[!DNL keytool] command line tool](https://docs.oracle.com/middleware/1213/wls/SECMG/keytool-summary-appx.htm#SECMG818) provides visibility into a keystore to ensure the keys are successfully loaded in the keystore file ([!DNL keystore.p12]).
+The Java&trade; [[!DNL keytool] command-line tool](https://docs.oracle.com/middleware/1213/wls/SECMG/keytool-summary-appx.htm#SECMG818) provides visibility into a keystore to ensure that the keys are successfully loaded in the keystore file ([!DNL keystore.p12]).
 
 ```shell
 $ keytool -keystore keystore.p12 -list
@@ -91,7 +93,7 @@ Certificate fingerprint (SHA1): 7C:6C:25:BD:52:D3:3B:29:83:FD:A2:93:A8:53:91:6A:
 
 ## Adding the keystore to AEM {#adding-the-keystore-to-aem}
 
-AEM uses the generated **private key** to securely communicate with Adobe I/O and other web services. In order for the private key to be accessible to AEM, it must be installed into an AEM user's keystore.
+AEM uses the generated **private key** to securely communicate with Adobe I/O and other web services. For the private key to be accessible to AEM, it must be installed into an AEM user's keystore.
 
 Navigate to **AEM &gt; [!UICONTROL Tools] &gt; [!UICONTROL Security] &gt; [!UICONTROL Users]** and **edit the user** the private key is to be associated with.
 
@@ -100,7 +102,7 @@ Navigate to **AEM &gt; [!UICONTROL Tools] &gt; [!UICONTROL Security] &gt; [!UICO
 ![Create KeyStore in AEM](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io/aem--create-keystore.png)
 *AEM > [!UICONTROL Tools] > [!UICONTROL Security] > [!UICONTROL Users] > Edit user*
 
-If prompted to create a keystore, do so. This keystore will exist only in AEM and is NOT the keystore created via openssl. The password can be anything and does not have to be the same as the password used in the [!DNL openssl] command.
+When prompted to create a keystore, do so. This keystore exists only in AEM and is NOT the keystore created via openssl. The password can be anything and does not have to be the same as the password used in the [!DNL openssl] command.
 
 ### Install the private key via the keystore {#install-the-private-key-via-the-keystore}
 
@@ -117,9 +119,9 @@ In the user's keystore console, click **[!UICONTROL Add Private Key form KeyStor
 
 >[!CAUTION]
 >
->The KeyStore File Password and Private Key Password is the same for both inputs. Entering a mismatched password will result in the key not being imported.
+>The KeyStore File Password and Private Key Password is the same for both inputs. Entering a mismatched password results in the key not being imported.
 
-### Verify the private key is loaded into the AEM keystore {#verify-the-private-key-is-loaded-into-the-aem-keystore}
+### Verify that the private key is loaded into the AEM keystore {#verify-the-private-key-is-loaded-into-the-aem-keystore}
 
 ![Verify Private Key in AEM](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io/aem--keystore.png)
 *[!UICONTROL User] > [!UICONTROL Keystore]*
@@ -130,18 +132,18 @@ When the private key is successfully loaded from the provided keystore into the 
 
 The matching public key must be uploaded to Adobe I/O to allow the AEM service user, who has the public key's corresponding private to securely communicate.
 
-### Create a Adobe I/O new integration {#create-a-adobe-i-o-new-integration}
+### Create an Adobe I/O new integration {#create-a-adobe-i-o-new-integration}
 
 ![Create a Adobe I/O new integration](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io/adobe-io--create-new-integration.png)
 
-*[[!UICONTROL Create Adobe I/O Integration]](https://console.adobe.io/) > [!UICONTROL New Integration]*
+*[[!UICONTROL Create Adobe I/O Integration]](https://developer.adobe.com/console/) > [!UICONTROL New Integration]*
 
-Creating a new integration in Adobe I/O requires uploading a public certificate. Upload the **certificate.crt** generated by the `openssl req` command.
+Creating an integration in Adobe I/O requires uploading a public certificate. Upload the **certificate.crt** generated by the `openssl req` command.
 
-### Verify the public keys are loaded in Adobe I/O {#verify-the-public-keys-are-loaded-in-adobe-i-o}
+### Verify that the public keys are loaded in Adobe I/O {#verify-the-public-keys-are-loaded-in-adobe-i-o}
 
 ![Verify Public Keys in Adobe I/O](assets/set-up-public-private-keys-for-use-with-aem-and-adobe-io/adobe-io--public-keys.png)
 
-The installed public keys and their expiry dates are listed in the [!UICONTROL Integrations] console on Adobe I/O. Multiple public keys can be added via the **[!UICONTROL Add a public key]** button.
+The installed public keys and their expiration dates are listed in the [!UICONTROL Integrations] console on Adobe I/O. Multiple public keys can be added via the **[!UICONTROL Add a public key]** button.
 
-Now AEM hold the private key and the Adobe I/O integration holds the corresponding public key, allowing AEM to securely communicate with Adobe I/O.
+Now AEM holds the private key and the Adobe I/O integration holds the corresponding public key, allowing AEM to securely communicate with Adobe I/O.
