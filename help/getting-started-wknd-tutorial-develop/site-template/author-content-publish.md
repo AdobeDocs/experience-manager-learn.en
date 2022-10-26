@@ -10,6 +10,7 @@ level: Beginner
 kt: 7497
 thumbnail: KT-7497.jpg
 exl-id: 17ca57d1-2b9a-409c-b083-398d38cd6a19
+recommendations: noDisplay, noCatalog
 ---
 # Introduction to authoring and publishing {#author-content-publish}
 

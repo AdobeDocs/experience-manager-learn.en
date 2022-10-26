@@ -10,6 +10,7 @@ level: Beginner
 kt: 4083
 thumbnail: 30359.jpg
 exl-id: 8d3026e9-a7e2-4a76-8a16-a8197a5e04e3
+recommendations: noDisplay, noCatalog
 ---
 # Client libraries and front-end workflow {#client-side-libraries}
 

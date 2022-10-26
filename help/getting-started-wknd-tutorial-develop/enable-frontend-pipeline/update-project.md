@@ -10,7 +10,7 @@ level: Intermediate
 kt: 10689
 mini-toc-levels: 1
 index: y
-recommendations: disable
+recommendations: noDisplay, noCatalog
 ---
 
 # Update full-stack AEM project to use front-end pipeline {#update-project-enable-frontend-pipeline}

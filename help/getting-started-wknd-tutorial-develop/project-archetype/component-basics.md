@@ -11,6 +11,7 @@ mini-toc-levels: 1
 kt: 4081
 thumbnail: 30177.jpg
 exl-id: 7fd021ef-d221-4113-bda1-4908f3a8629f
+recommendations: noDisplay, noCatalog
 ---
 # Component Basics {#component-basics}
 
