@@ -10,7 +10,7 @@ level: Intermediate
 kt: 10689
 mini-toc-levels: 1
 index: y
-recommendations: disable
+recommendations: noDisplay, noCatalog
 ---
 
 # Deploy using the front-end pipeline

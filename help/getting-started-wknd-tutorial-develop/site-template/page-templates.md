@@ -10,6 +10,7 @@ level: Beginner
 kt: 7498
 thumbnail: KT-7498.jpg
 exl-id: 261ec68f-36f4-474f-a6e4-7a2f9cea691b
+recommendations: noDisplay, noCatalog
 ---
 # Page templates {#page-templates}
 

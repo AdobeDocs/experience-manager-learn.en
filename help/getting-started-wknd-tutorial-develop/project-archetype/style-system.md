@@ -12,6 +12,7 @@ kt: 4128
 mini-toc-levels: 1
 thumbnail: 30386.jpg
 exl-id: 5b490132-cddc-4024-92f1-e5c549afd6f1
+recommendations: noDisplay, noCatalog
 ---
 # Developing with the Style System {#developing-with-the-style-system}
 
