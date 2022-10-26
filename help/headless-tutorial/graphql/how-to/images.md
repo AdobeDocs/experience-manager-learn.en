@@ -36,7 +36,7 @@ Use of `_authorUrl` and `_publishUrl` should align with the AEM GraphQL endpoint
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_learn_headless_graphql_images"
->title="Using images"
+>title="Images with AEM Headless"
 >abstract="Learn how AEM Headless supports the management of image assets and their optimized delivery."
 
 ## Content Fragment Model

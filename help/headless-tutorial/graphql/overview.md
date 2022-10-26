@@ -25,7 +25,7 @@ This video is an overview of the GraphQL API implemented in AEM. The GraphQL API
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_learn_headless_graphql_overview"
->title="Get started with AEM headless"
+>title="Getting Started with AEM Headless - GraphQL"
 >abstract="Learn how to deliver Content Fragments using GraphQL."
 >additional-url="https://video.tv.adobe.com/v/328618" text="Overview of GraphQL in AEM"
 
