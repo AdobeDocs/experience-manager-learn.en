@@ -1,7 +1,6 @@
 ---
 title: Metadata profiles
 description: Metadata profiles allow for the automatic application of default metadata to assets within asset folders, helping reduce the burden of metadata management on AEM users, and increasing metadata consistency.
-sub-product: assets
 feature: Metadata
 version: Cloud Service
 kt: 4984

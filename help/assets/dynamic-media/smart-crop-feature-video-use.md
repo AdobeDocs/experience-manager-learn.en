@@ -1,7 +1,6 @@
 ---
 title: Using Smart Crop with AEM Assets Dynamic Media
 description: Smart Crop uses Adobe Sensei to eliminate the time-consuming and costly tasks of cropping content for responsive design.
-sub-product: dynamic-media
 feature: Smart Crop, Image Profiles
 version: 6.4, 6.5
 topic: Content Management

@@ -1,7 +1,6 @@
 ---
 title: Using Image Sharpening with AEM Dynamic Media
 description: This video covers why sharpening an image is critical to maintaining image fidelity and how to use advanced settings to craft the perfect image.
-sub-product: dynamic-media
 feature: Image Profiles, Viewer Presets
 version: 6.4, 6.5
 topic: Content Management

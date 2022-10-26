@@ -1,7 +1,6 @@
 ---
 title: Extend a Core Component | Getting Started with the AEM SPA Editor and React
 description: Learn how to extend the JSON Model for an existing Core Component to be used with the AEM SPA Editor. Understanding how to add properties and content to an existing component is a powerful technique to expand the capabilities of an AEM SPA Editor implementation. Learn to use the delegation pattern for extending Sling Models and features of Sling Resource Merger.
-sub-product: sites
 feature: SPA Editor, Core Components
 doc-type: tutorial
 version: Cloud Service

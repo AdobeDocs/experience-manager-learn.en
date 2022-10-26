@@ -1,7 +1,6 @@
 ---
 title: AEM Forms tutorials and videos
 description: Browse our videos and tutorials for AEM Forms, with resources and documentation to answer your queries.
-sub-product: forms
 topic: Development
 role: Developer
 exl-id: c1972937-56c5-47af-9232-f31bdf69dfbe

@@ -1,7 +1,6 @@
 ---
 title: Comments and Annotations
 description: Learn how to use comments and annotations in AEM to communicate and collaborate on assets.
-sub-product: assets
 feature: Collaboration
 version: Cloud Service
 kt: 4541

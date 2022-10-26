@@ -1,7 +1,8 @@
 ---
 title: AEM Assets videos and tutorials
 description: Watch our videos to get AEM Asset support and assistance.
-sub-product: assets, dynamic-media
+sub-product: Experience Manager Assets
+version: 6.4, 6.5, Cloud Service
 exl-id: 1d0b0183-25ee-4cb4-82a5-3506e7c1c908
 ---
 # AEM Assets videos and tutorials {#overview}

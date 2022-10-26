@@ -1,13 +1,9 @@
 ---
-sub-product: assets
-topics: development
-version: Cloud Service
-doc-type: tutorial
-activity: develop
-audience: developer
 user-guide-title: Introduction to Dynamic Media Classic
 user-guide-description: This tutorial shows how to use Dynamic Media Classic to create, author, and deliver rich media content.
 breadcrumb-title: Dynamic Media Classic Tutorials
+sub-product: Experience Manager Assets
+version: 6.4, 6.5
 index: y
 ---
 

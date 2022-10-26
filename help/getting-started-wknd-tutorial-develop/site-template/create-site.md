@@ -1,7 +1,6 @@
 ---
 title: Create a site | AEM Quick Site Creation
 description: Learn how to use the Site Creation wizard to generate a new website. The Standard Site Template provided by Adobe is a starting point for the new site.
-sub-product: sites
 version: Cloud Service
 type: Tutorial
 topic: Content Management

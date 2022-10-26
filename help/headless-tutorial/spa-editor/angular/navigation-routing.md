@@ -1,7 +1,6 @@
 ---
 title: Add navigation and routing | Getting Started with the AEM SPA Editor and Angular
 description: Learn how multiple views in the SPA are supported using AEM Pages and the SPA Editor SDK. Dynamic navigation is implemented using Angular routes and added to an existing Header component.
-sub-product: sites
 feature: SPA Editor
 topics: development
 doc-type: tutorial

@@ -1,7 +1,6 @@
 ---
 title: Cropping, Adjusted Images, and Zoom Targets
 description: The master image of Dynamic Media Classic supports creating separate cropped versions of each image to show off details or for swatches without having to create separate cropped versions of each image. Learn how to crop images in Dynamic Media Classic and save as a new master file or a virtual image, save virtual Adjusted Images and use them in place of master assets, and create Zoom Targets on your images to show off highlighted details.
-sub-product: dynamic-media
 feature: Dynamic Media Classic
 doc-type: tutorial
 topics: development, authoring, configuring

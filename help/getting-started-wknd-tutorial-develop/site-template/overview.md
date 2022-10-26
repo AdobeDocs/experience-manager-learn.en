@@ -1,7 +1,6 @@
 ---
 title: Getting Started with AEM Sites | AEM Quick Site Creation
 description: Learn how to use a low-code approach to create your first site in Adobe Experience Manager with Quick Site Creation and a pre-defined Site Template. Use out-of-the-box components and templates to quickly get a site up and running. Use an Adobe XD driven theming workflow to apply brand-specific styles and customizations with just CSS and JavaScript. Recommendeded for new projects and developers.
-sub-product: sites
 version: Cloud Service
 type: Tutorial
 topic: Content Management

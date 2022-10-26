@@ -1,7 +1,6 @@
 ---
 title: Development considerations
 description: Consider the impact on the front-end and back-end development process once you enable the front-end pipeline.
-sub-product: sites
 version: Cloud Service
 type: Tutorial
 feature: AEM Project Archetype, Cloud Manager, CI-CD Pipeline
