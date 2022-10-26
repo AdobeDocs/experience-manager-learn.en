@@ -10,6 +10,8 @@ topic: Architecture
 role: Developer
 level: Beginner
 exl-id: d5d59ef5-9343-4ac2-9053-a010decdb9b6
+last-substantial-update: 2022-08-15
+thumbnail: cm-pipeline.jpg
 ---
 # Use the CI/CD Pipeline in Adobe Cloud Manager
 
@@ -21,7 +23,7 @@ A cursory introduction to Cloud Manager and Cloud Manager Programs.
 
 >[!NOTE]
 >
->Throughout these videos, the build, test and deployment times has been sped up to reduce the time of the video. A complete pipeline execution typically takes 45 minutes or more (including the mandatory 30 minute performance testing), depending on the project size, number of AEM instances and UAT processes.
+>Throughout these videos, the build, test, and deployment times have been sped up to reduce the time of the video. A complete pipeline execution typically takes 45 minutes or more (including the mandatory 30-minute performance testing), depending on the project size, number of AEM instances and UAT processes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23082/?quality=12&learn=on)
 
@@ -47,7 +49,7 @@ This video also touches on the [!UICONTROL Activity] console in Cloud Manager, w
 
 ## Supporting materials
 
-* [Cloud Manager User Guide](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [Download code scanning [!DNL SonarQube] rules](https://helpx.adobe.com/experience-manager/cloud-manager/using/understand-your-test-results.html#CodeQualityTesting)
+* [Cloud Manager User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/content/introduction.html)
+* [Download code scanning [!DNL SonarQube] rules](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/content/using/code-quality-testing.html)
   * *XLSX available at the bottom of the linked section*
-* [[!DNL SonarQube] Java rules index](https://rules.sonarsource.com/java/)
+* [[!DNL SonarQube] Java&trade; rules index](https://rules.sonarsource.com/java/)
