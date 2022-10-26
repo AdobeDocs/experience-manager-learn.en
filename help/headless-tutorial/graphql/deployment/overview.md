@@ -8,6 +8,7 @@ role: Developer, Architect
 level: Intermediate
 kt: 10794
 thumbnail: kt-10794.jpg
+last-substantial-update: 2022-08-26
 ---
 
 # AEM Headless deployments

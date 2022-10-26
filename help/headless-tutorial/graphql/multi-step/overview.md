@@ -4,11 +4,12 @@ description: An end-to-end tutorial illustrating how to build-out and expose con
 doc-type: tutorial
 mini-toc-levels: 1
 kt: 6678
-thumbnail: 328618.jpg
+thumbnail: KT-6678.jpg
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+last-substantial-update: 2022-10-17
 exl-id: 41e15a2c-758b-4e7d-9d23-ef671c1dc155
 ---
 # Getting Started with AEM Headless - GraphQL

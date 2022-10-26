@@ -14,6 +14,7 @@ topic: SPA
 role: Developer
 level: Beginner
 exl-id: 38802296-8988-4300-a04a-fcbbe98ac810
+last-substantial-update: 2022-08-25
 ---
 # Create your first React SPA in AEM {#overview}
 

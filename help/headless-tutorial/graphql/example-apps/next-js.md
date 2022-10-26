@@ -9,6 +9,7 @@ role: Developer
 level: Beginner
 kt: 10721
 thumbnail: KT-10721.jpg
+last-substantial-update: 2022-10-03
 ---
 # Next.js App
 
