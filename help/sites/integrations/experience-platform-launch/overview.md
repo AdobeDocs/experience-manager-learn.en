@@ -11,6 +11,7 @@ thumbnail: 39090.jpg
 topic: Integrations
 role: Developer
 level: Intermediate
+last-substantial-update: 2022-07-10
 exl-id: bdae56d8-96e7-4b05-9b8b-3c6c2e998bd8
 ---
 # Integrating Experience Platform Launch and AEM {#overview}

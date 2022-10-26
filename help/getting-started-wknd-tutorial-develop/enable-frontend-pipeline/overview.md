@@ -12,6 +12,8 @@ kt: 10689
 mini-toc-levels: 1
 index: y
 recommendations: disable
+thumbnail: 53409343.jpg
+last-substantial-update: 2022-09-23
 ---
 
 # Enable front-end pipeline for standard AEM project Archetype{#enable-front-end-pipeline-standard-aem-project}
