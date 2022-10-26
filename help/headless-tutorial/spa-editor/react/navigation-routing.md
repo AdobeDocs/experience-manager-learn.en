@@ -1,7 +1,6 @@
 ---
 title: Add navigation and routing | Getting Started with the AEM SPA Editor and React
 description: Learn how multiple views in the SPA can be supported by mapping to AEM Pages with the SPA Editor SDK. Dynamic navigation is implemented using React Router and React Core Components.
-sub-product: sites
 feature: SPA Editor
 topics: development
 version: Cloud Service

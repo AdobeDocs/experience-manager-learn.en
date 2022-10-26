@@ -1,7 +1,6 @@
 ---
 title: Using Adobe Cloud Manager - CI/CD Non-Production Pipeline
 description: CI/CD Non-production pipelines are broken into two categories, Code Quality pipelines, and Deployment pipelines. Code Quality pipelines all code from a Git branch to build and be evaluated against Cloud Manager's code quality scan. Deployment pipelines support the automated deployment of code from the Git repository to any Non-production environment, meaning any provisioned AEM environment that is not Stage or Production.
-sub-product: cloud-manager
 topics: Administration
 audience: administrator
 doc-type: feature video

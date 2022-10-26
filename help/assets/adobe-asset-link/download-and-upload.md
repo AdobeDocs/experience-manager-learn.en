@@ -1,7 +1,6 @@
 ---
 title: Download and Upload
 description: Learn how to download and upload asset files from and to AEM Assets using the Asset Link panel.
-sub-product: assets
 feature: Adobe Asset Link
 version:  6.4, 6.5, Cloud Service
 kt: 4908

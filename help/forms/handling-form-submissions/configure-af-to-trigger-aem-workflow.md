@@ -1,7 +1,6 @@
 ---
 title: Configuring Adaptive Form to trigger AEM Workflow
 description: Understanding the various options in configuring Adaptive Form to trigger AEM Workflow
-sub-product: forms
 feature: Workflow
 topics: integrations
 audience: developer

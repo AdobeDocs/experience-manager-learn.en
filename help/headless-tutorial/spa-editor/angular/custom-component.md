@@ -1,7 +1,6 @@
 ---
 title: Create a Custom Component | Getting Started with the AEM SPA Editor and Angular
 description: Learn how to create a custom component to be used with the AEM SPA Editor. Learn how to develop author dialogs and Sling Models to extend the JSON model to populate a custom component.
-sub-product: sites
 feature: SPA Editor
 doc-type: tutorial
 topics: development

@@ -1,7 +1,6 @@
 ---
 title: Map SPA components to AEM components | Getting Started with the AEM SPA Editor and Angular
 description: Learn how to map Angular components to Adobe Experience Manager (AEM) components with the AEM SPA Editor JS SDK. Component mapping enables users to make dynamic updates to SPA components within the AEM SPA Editor, similar to traditional AEM authoring.
-sub-product: sites
 feature: SPA Editor
 topics: development
 doc-type: tutorial

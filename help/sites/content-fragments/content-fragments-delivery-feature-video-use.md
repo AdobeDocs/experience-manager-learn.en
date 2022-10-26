@@ -3,7 +3,6 @@ title: Delivering Content Fragments in AEM
 seo-title: Delivering Content Fragments in Adobe Experience Manager
 description: Content Fragments, independent of layout, can be used directly in AEM Sites with Core Components or can be delivered in a headless manner to downstream channels.
 seo-description: Content Fragments, independent of layout, can be used directly in AEM Sites with Core Components or can be delivered in a headless manner to downstream channels.
-sub-product: content-services
 feature: Content Fragments
 topics: authoring, content-architecture
 audience: all

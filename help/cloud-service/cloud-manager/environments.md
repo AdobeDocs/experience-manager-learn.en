@@ -1,7 +1,6 @@
 ---
 title: Using Adobe Cloud Manager - Environments
 description: Cloud Manager Environments are composed of AEM Author, AEM Publish and Dispatcher services. Different environments support roles and can be engaged using different CI/CD Pipelines. Cloud Manager environments typically have one Production environment, one Stage environment, and one Development environment.
-sub-product: cloud-manager
 topics: Administration
 audience: administrator
 doc-type: feature video

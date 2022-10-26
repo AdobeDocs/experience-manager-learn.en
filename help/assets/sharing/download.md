@@ -1,7 +1,6 @@
 ---
 title: Download
 description: Learn how to download assets and their renditions to your local machine for use and sharing.
-sub-product: assets
 feature: Asset Management
 version: Cloud Service
 kt: 4300

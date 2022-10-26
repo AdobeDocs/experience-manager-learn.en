@@ -1,7 +1,6 @@
 ---
 title: Get started with AEM Sites - WKND tutorial
 description: Learn how to implement an AEM site for a fictitious lifestyle brand called WKND. Get a walk-through on fundamental Experience Manager topics like project setup, maven archetypes, Core Components, Editable Templates, client libraries, and component development.
-sub-product: sites
 topics: development
 version: Cloud Service
 activity: develop

@@ -1,7 +1,6 @@
 ---
 title: Client libraries and front-end workflow
 description: Learn how to use Client libraries or clientlibs to deploy and manage CSS and Javascript for an Adobe Experience Manager (AEM) Sites implementation. Learn how the ui.frontend module, a webpack project, can be integrated into the end-to-end build process.
-sub-product: sites
 version: 6.4, 6.5, Cloud Service
 type: Tutorial
 feature: Core Components, AEM Project Archetype
