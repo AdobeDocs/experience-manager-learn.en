@@ -36,7 +36,7 @@ The following diagram describes how AEM Publish service manages FPIDs.
 1. If the web page cannot be served from CDN or AEM Dispatcher caches, the request reaches AEM Publish service, which generates the requested web page.
 1. The web page is then returned to the web browser, populating the caches that could not serve the request. With AEM, expect CDN and AEM Dispatcher cache hit rates to be greater than 90%. 
 1. The web page contains JavaScript that makes an uncacheable asynchronous XHR (AJAX) request to a custom FPID servlet in AEM Publish service. Because this is an uncacheable request (by virtue of it's random query parameter and Cache-Control headers), it is never cached by CDN or AEM Dispatcher, and always reaches AEM Publish service to generate the response. 
-1. The custom FPID servlet in AEM Publish service processes the request, generating a new FPID when no existing FPID cookie is found, or extends the live of any existing FPID cookie. The servlet also returns the FPID in the response body for use by client-side JavaScript. Fortunately the custom FPID servlet logic is lightweight, preventing this request from impacting AEM Publish service performance.
+1. The custom FPID servlet in AEM Publish service processes the request, generating a new FPID when no existing FPID cookie is found, or extends the life of any existing FPID cookie. The servlet also returns the FPID in the response body for use by client-side JavaScript. Fortunately the custom FPID servlet logic is lightweight, preventing this request from impacting AEM Publish service performance.
 1. The response for the XHR request returns to the browser with the FPID cookie and the FPID as JSON in the response body for use by the Platform Web SDK.
 
 ## Code sample
@@ -56,7 +56,9 @@ When an HTTP request reaches the servlet, the servlet checks if an FPID cookie e
 + If an FPID cookie does not exist, generate a new FPID cookie, and save the value to write to the response.
 
 The servlet then writes the FPID to the response as a JSON object in the form: `{ fpid: "<FPID VALUE>" }`.
+
 It is important to provide the FPID to the client in the body since the FPID cookie is marked `HttpOnly`, meaning only the server can read its value, and client-side JavaScript cannot.
+
 The FPID value from the response body is used to parameterize calls using the Platform Web SDK.
 
 Below is example code of a AEM servlet endpoint (available via `HTTP GET /bin/aep/fpid`) that generates or refreshes an FPID cookie, and returns the FPID as JSON.
