@@ -6,8 +6,10 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
-kt: kt-11199
-last-substantial-update: 2021-07-17
+kt: 11199
+
+last-substantial-update: 2022-10-02
+thumbnail: string-variable.jpg
 
 ---
 # Extract bound data and save it in a string variable

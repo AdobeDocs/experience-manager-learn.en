@@ -8,6 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 last-substantial-update: 2022-10-20
+thumbnail: inline-dam.jpg
 kt: kt-11307
 
 ---

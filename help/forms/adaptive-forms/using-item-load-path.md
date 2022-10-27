@@ -7,7 +7,10 @@ kt: 10961
 topic: Development
 role: Developer
 level: Beginner
-last-substantial-update: 2020-03-20
+
+last-substantial-update: 2022-09-20
+thumbnail: item-load.jpg
+
 ---
 # Item Load Property in AEM Forms
 
