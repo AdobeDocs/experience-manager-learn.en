@@ -2,8 +2,9 @@
 user-guide-title: Getting Started with AEM Headless
 user-guide-description: An end-to-end tutorial illustrating how to build-out and expose content using AEM Headless.
 breadcrumb-title: AEM Headless Tutorial
-version: Cloud Service
 feature-set: Experience Manager, Experience Manager Assets, Experience Manager Sites
+sub-product: Experience Manager Sites
+version: 6.5, Cloud Service
 kt: 2963
 index: y
 ---
@@ -101,7 +102,9 @@ index: y
   + [6 - Exposing the Content on AEM Publish for Delivery](./content-services/chapter-6.md)
   + [7 - Consuming AEM Content Services from a Mobile App](./content-services/chapter-7.md)
 + Code Samples {#code-samples}
-  + [React app](./graphql/code-samples/react-app.md)
-  + [Angular app](./graphql/code-samples/angular-app.md)
-  + [React component](./graphql/code-samples/react-component.md)
-  + [JavaScript filter](./graphql/code-samples/javascript-filter.md)
+  + [Filtering React app](./graphql/code-samples/filtering-react-app.md)
+  + [Filtering Angular app](./graphql/code-samples/filtering-angular-app.md)
+  + [Filtering Vue app](./graphql/code-samples/filtering-vue-app.md)
+  + [Filtering with jQuery and Handlebars](./graphql/code-samples/filtering-jquery-handlebars.md)
+  + [Basic React app](./graphql/code-samples/basic-react-app.md)
+  + [Basic Next.js app](./graphql/code-samples/basic-nextjs-app.md)
