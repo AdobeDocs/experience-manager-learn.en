@@ -7,6 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 85c9b51e-92bb-4376-8684-57c9c3204b2f
+last-substantial-update: 2021-06-09
 ---
 # Authenticate to AEM Author using OKTA
 

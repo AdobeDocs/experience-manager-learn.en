@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 72728ed7-80a2-48b5-ae7f-d744db8a524d
+last-substantial-update: 2021-04-23
 ---
 # Sling Servlet
 

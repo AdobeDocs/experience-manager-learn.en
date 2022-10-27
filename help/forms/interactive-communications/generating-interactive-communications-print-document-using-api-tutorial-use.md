@@ -13,6 +13,7 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: f5ab4801-cde5-426d-bfe4-ce0a985e25e8
+last-substantial-update: 2019-07-07
 ---
 # Generating Interactive Communications Document for print channel using watch folder mechanism
 

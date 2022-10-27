@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: bc79fcbf-b8b3-4d3a-9cd6-0bcd9321c7d5
+last-substantial-update: 2020-07-07
 ---
 # Using PDFG in AEM Forms{#using-pdfg-in-aem-forms}
 

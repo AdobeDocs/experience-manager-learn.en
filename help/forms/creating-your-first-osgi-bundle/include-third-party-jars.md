@@ -6,7 +6,8 @@ feature: Adaptive Forms
 topic: Development
 role: Developer
 level: Beginner
-kt: kt-11245
+kt: 11245
+last-substantial-update: 2022-10-15
 ---
 # Including third party bundles in your AEM project
 
@@ -25,7 +26,7 @@ In this article we will walk through the steps involved in including 3rd party O
 
 ```
 
-If your OSGi bundle is on your file system the dependency will look something like this
+If your OSGi bundle is on your file system, create a folder called **localjar** under the base directory of your project(C:\aemformsbundles\AEMFormsProcessStep\localjar) the dependency will look something like this
 
 ```java
 <dependency>

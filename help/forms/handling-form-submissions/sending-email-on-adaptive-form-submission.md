@@ -14,6 +14,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 19c5aeec-2893-4ada-b6df-b80c4be2468a
+last-substantial-update: 2020-07-07
 ---
 # Sending Email on Adaptive Form Submission {#sending-email-on-adaptive-form-submission}
 

@@ -8,6 +8,7 @@ role: User
 level: Beginner
 kt: 9685
 exl-id: 07fed661-0995-41ab-90c4-abde35a14a4c
+last-substantial-update: 2021-06-09
 ---
 # Custom functions
 
@@ -41,13 +42,13 @@ Copy the following code into functions.js and save your changes.
 function getCountyNamesList()
 {
     var countyNames= [];
-	countyNames[0] = "Santa Clara";
-	countyNames[1] = "Alameda";
-	countyNames[2] = "Buxor";
+    countyNames[0] = "Santa Clara";
+    countyNames[1] = "Alameda";
+    countyNames[2] = "Buxor";
     countyNames[3] = "Contra Costa";
     countyNames[4] = "Merced";
 
-	return countyNames;
+    return countyNames;
 
 }
 /**
@@ -59,7 +60,7 @@ function getCountyNamesList()
 function convertUTC(strUTCString)
 {
     var dt = new Date(strUTCString);
-	console.log(dt.toLocaleString());
+    console.log(dt.toLocaleString());
     return dt.toLocaleString();
 }
 

@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 3dd552da-fc7c-4fc7-97ec-f20b6cc33df0
+last-substantial-update: 2020-03-20
 ---
 # Storing Adaptive Form Submissions in Database
 

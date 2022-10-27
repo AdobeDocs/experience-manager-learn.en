@@ -13,6 +13,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 65b1af30-9e22-4df0-ab91-479d5406df61
+last-substantial-update: 2019-07-07
 ---
 # Creating your first interactive communication for the web channel
 

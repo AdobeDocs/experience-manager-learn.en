@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: e84b70a0-c51b-4fe3-80e8-f3156931297a
+last-substantial-update: 2020-01-26
 ---
 # Variables in AEM Workflow
 
