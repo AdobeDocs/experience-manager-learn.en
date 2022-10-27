@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 kt: 11245
 last-substantial-update: 2022-10-15
+thumbnail: third-party.jpg
 ---
 # Including third party bundles in your AEM project
 

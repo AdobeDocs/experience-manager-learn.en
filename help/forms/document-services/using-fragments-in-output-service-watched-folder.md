@@ -6,7 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
-last-substantial-update: 2022-07-07
+last-substantial-update: 2022-09-07
+thumbnail: ecma-fragments.jpg
 
 ---
 # Generating pdf document with fragments using ECMA script{#developing-with-output-and-forms-services-in-aem-forms}
