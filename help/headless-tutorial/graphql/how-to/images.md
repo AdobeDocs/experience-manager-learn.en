@@ -110,31 +110,31 @@ AEM Assets administrators define the custom renditions using Processing Profiles
 
 #### Processing Profiles
 
-Asset renditions specifications are defined in [Processing Profiles](../../../assets/configuring//processing-profiles.md) by AEM Assets administrators.
+Asset renditions specifications are defined in [Processing Profiles](../../../assets/configuring/processing-profiles.md) by AEM Assets administrators.
 
 Create or update a Processing Profile and add rendition definitions for the image sizes required by the headless application. Renditions can be named anything, but should be named semantically.
 
-![AEM Headless optimized renditions](./assets/images/processing-profiles.jpg)
+![AEM Headless optimized renditions](./assets/images/processing-profiles.png)
 
 In this example three renditions are created:
 
-| Rendition name | Extension | Max width |
-|----------------|:---------:|----------:|
-| large          | jpeg      | 1200 px   |
-| medium         | jpeg      | 900 px    |
-| small          | jpeg      | 600 px    |
+| Rendition name        | Extension | Max width |
+|-----------------------|:---------:|----------:|
+| web-optimized-large   | webp      | 1200 px   |
+| web-optimized-medium  | webp      | 900 px    |
+| web-optimized-small   | webp      | 600 px    |
 
 The attributes called out in the above table are important:
 
 + __Rendition name__ is used to request the rendition.
-+ __Extension__ is the extension used to request the __rendition name__.
++ __Extension__ is the extension used to request the __rendition name__. Prefer `webp` renditions as these are optimized for web delivery.
 + __Max width__ is used to inform the developer which rendition should be used based on its use in the headless application.
 
 Rendition definitions depend on your headless application's needs, so make sure to define the optimal rendition set for your use case and are named semantically regarding how they are being used.
 
 #### Reprocess assets{#reprocess-assets}
 
-With the Processing Profile created (or updated), reprocess the assets to generate the new renditions defined in the Processing Profile. New renditions will not exist, until assets are processed with the processing profile.
+With the Processing Profile created (or updated), reprocess the assets to generate the new renditions defined in the Processing Profile. New renditions do not exist, until assets are processed with the processing profile.
 
 + Preferably, [assigned the Processing Profile to a folder](../../../assets/configuring//processing-profiles.md) so any new assets uploaded to said folder, automatically generate the renditions. Existing assets must be reprocessed using the ah-hoc approach below.
 
@@ -146,7 +146,7 @@ With the Processing Profile created (or updated), reprocess the assets to genera
 
 Renditions can be validated by [opening an asset's renditions view](../../../assets/authoring/renditions.md), and selecting the new renditions for preview in the renditions rail. If the renditions are missing, [ensure that the assets are processed using the Processing Profile](#reprocess-assets).
 
-![Reviewing renditions](./assets/images/review-renditions.jpg)
+![Reviewing renditions](./assets/images/review-renditions.png)
 
 #### Publish assets
 
@@ -158,9 +158,9 @@ Renditions are accessed directly by appending the __rendition names__ and __rend
 
 | Asset URL | Renditions subpath | Rendition name | Rendition extension | | Rendition URL |
 |-----------|:------------------:|:--------------:|--------------------:|:--:|---|
-| https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg | /_jcr_content/renditions/ | large | .jpeg | → | https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg/_jcr_content/renditions/large.jpeg |
-| https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg | /_jcr_content/renditions/ | medium | .jpeg | → | https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg/_jcr_content/renditions/medium.jpeg |
-| https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg | /_jcr_content/renditions/ | small | .jpeg | → | https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg/_jcr_content/renditions/small.jpeg |
+| https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg | /_jcr_content/renditions/ | web-optimized-large | .webp | → | https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg/_jcr_content/renditions/web-optimized-large.webp |
+| https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg | /_jcr_content/renditions/ | web-optimized-medium | .webp | → | https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg/_jcr_content/renditions/web-optimized-medium.webp |
+| https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg | /_jcr_content/renditions/ | web-optimized-small | .webp | → | https://publish-p123-e789.adobeaemcloud.com/content/dam/example.jpeg/_jcr_content/renditions/web-optimized-small.webp |
 
 {style="table-layout:auto"}
 
@@ -170,7 +170,7 @@ AEM's GraphQL does require extra syntax for requesting image renditions. Instead
 
 ### React example
 
-Let's create a simple React application that displays three renditions, small, medium, and large, of a single image asset.
+Let's create a simple React application that displays three renditions, web-optimized-small, web-optimized-medium, and web-optimized-large, of a single image asset.
 
 ![Image asset renditions React example](./assets/images/react-example-renditions.jpg)
 
@@ -210,7 +210,7 @@ export default function Image({ assetUrl, renditionName, renditionExtension, alt
 
 #### Define the `App.js`{#app-js}
 
-This simple `App.js` queries AEM for an Adventure image, and then display that image's three renditions: small, medium, and large.
+This simple `App.js` queries AEM for an Adventure image, and then display that image's three renditions: web-optimized-small, web-optimized-medium, and web-optimized-large.
 
 Querying against AEM is performed in the custom React hook [useAdventureByPath that uses the AEM Headless SDK](./aem-headless-sdk.md#graphql-persisted-queries).
 
@@ -236,33 +236,33 @@ function App() {
     <div className="app">
       
       <h2>Small rendition</h2>
-      {/* Render the small rendition for the Adventure Primary Image */}
+      {/* Render the web-optimized-small rendition for the Adventure Primary Image */}
       <Image
         assetUrl={data.adventureByPath.item.primaryImage._publishUrl}
-        renditionName="small"
-        renditionExtension="jpeg"
+        renditionName="web-optimized-small"
+        renditionExtension="webp"
         alt={data.adventureByPath.item.title}
       />
 
       <hr />
 
       <h2>Medium rendition</h2>
-      {/* Render the medium rendition for the Adventure Primary Image */}
+      {/* Render the web-optimized-medium rendition for the Adventure Primary Image */}
       <Image
         assetUrl={data.adventureByPath.item.primaryImage._publishUrl}
-        renditionName="medium"
-        renditionExtension="jpeg"
+        renditionName="web-optimized-medium"
+        renditionExtension="webp"
         alt={data.adventureByPath.item.title}
       />
 
       <hr />
 
       <h2>Large rendition</h2>
-      {/* Render the large rendition for the Adventure Primary Image */}
+      {/* Render the web-optimized-large rendition for the Adventure Primary Image */}
       <Image
         assetUrl={data.adventureByPath.item.primaryImage._publishUrl}
-        renditionName="large"
-        renditionExtension="jpeg"
+        renditionName="web-optimized-large"
+        renditionExtension="webp"
         alt={data.adventureByPath.item.title}
       />
     </div>
