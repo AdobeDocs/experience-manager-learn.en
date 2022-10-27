@@ -15,6 +15,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 5363c3f7-9006-4430-b647-f3283a366a64
+last-substantial-update: 2020-07-07
 ---
 # Submitting Adaptive Form to External Server {#submitting-adaptive-form-to-external-server}
 

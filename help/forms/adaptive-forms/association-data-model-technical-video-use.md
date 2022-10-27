@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 81b1c756-df10-409d-ad09-af3b43b07773
+last-substantial-update: 2020-10-20
 ---
 # Using Association Data Models with AEM Forms{#using-association-data-models-with-aem-forms}
 

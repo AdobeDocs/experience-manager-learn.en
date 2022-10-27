@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 2f15782e-b60d-40c6-b95b-6c7aa8290691
+last-substantial-update: 2021-04-23
 ---
 # OSGi Service
 
@@ -25,7 +26,7 @@ import com.adobe.aemfd.docmanager.Document;
 
 public interface MyfirstInterface
 {
-	public Document mergeDataWithXDPTemplate(Document xdpTemplate, Document xmlDocument);
+    public Document mergeDataWithXDPTemplate(Document xdpTemplate, Document xmlDocument);
 }
  
 ```

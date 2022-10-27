@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 kt: kt-11199
+last-substantial-update: 2021-07-17
 
 ---
 # Extract bound data and save it in a string variable

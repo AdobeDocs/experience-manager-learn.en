@@ -13,6 +13,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 0cb74afd-87ff-4e79-a4f4-a4634ac48c51
+last-substantial-update: 2020-07-07
 ---
 # Customize Assign Task Notification
 

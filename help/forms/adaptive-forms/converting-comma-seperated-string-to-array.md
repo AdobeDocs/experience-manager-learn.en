@@ -8,6 +8,7 @@ role: Developer
 level: Intermediate
 kt: 8507
 exl-id: 9ad69407-2413-416f-9cec-43f88989b31d
+last-substantial-update: 2021-06-09
 ---
 # Converting comma separated string into string array {#setting-value-of-json-data-element-in-aem-forms-workflow}
 

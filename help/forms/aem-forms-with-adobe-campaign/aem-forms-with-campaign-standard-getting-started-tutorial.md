@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: e028837b-13d8-4058-ac25-ed095f49524c
+last-substantial-update: 2020-03-20
 ---
 # Getting Started with AEM Forms and Adobe Campaign Standard {#getting-started-with-aem-forms-and-adobe-campaign-standard}
 

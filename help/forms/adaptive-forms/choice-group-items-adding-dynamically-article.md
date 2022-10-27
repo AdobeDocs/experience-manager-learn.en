@@ -7,6 +7,7 @@ topic: Development
 role: User
 level: Beginner
 exl-id: 8fbea634-7949-417f-a4d6-9e551fff63f3
+last-substantial-update: 2021-09-10
 ---
 # Adding items dynamically to choice group component
 

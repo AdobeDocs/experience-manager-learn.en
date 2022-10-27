@@ -9,6 +9,7 @@ role: Developer
 level: Beginner
 kt: 8390
 exl-id: 068e38df-9c71-4f55-b6d6-e1486c29d0a9
+last-substantial-update: 2020-06-09
 ---
 # Embedding Adaptive Form or HTML5 form in web page
 
@@ -25,10 +26,10 @@ The following is the code used to fetch the adaptive form and embed the form in 
 ``` javascript
 $(document).ready(function(){
   
-	var formName = $( "#xfaform" ).val();
+    var formName = $( "#xfaform" ).val();
     $.get("http://localhost/content/dam/formsanddocuments/newslettersubscription/jcr:content?wcmmode=disabled", function(data, status){
-	console.log(formName);
-	$(".right").append(data);
+    console.log(formName);
+    $(".right").append(data);
       
     });
   

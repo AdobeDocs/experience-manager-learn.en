@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 36c38cb6-6f6a-4328-abf5-7a30059b66ce
+last-substantial-update: 2019-03-20
 ---
 # Using Transaction Reporting in AEM Forms{#using-transaction-reporting-in-aem-forms}
 

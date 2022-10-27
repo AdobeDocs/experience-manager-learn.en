@@ -13,6 +13,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 1949aeff-ae56-4abd-8e63-23c2fb4859f2
+last-substantial-update: 2019-08-07
 ---
 # Creating your first interactive communication for the print channel
 

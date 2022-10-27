@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: ce1793d1-f727-4bc4-9994-f495b469d1e3
+last-substantial-update: 2020-07-07
 ---
 # Rendering XDP into PDF with Usage Rights{#rendering-xdp-into-pdf-with-usage-rights}
 

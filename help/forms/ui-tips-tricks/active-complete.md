@@ -9,6 +9,7 @@ role: Developer
 level: Beginner
 kt: 9359
 exl-id: f7c1f991-0486-4355-8502-cd5b038537e3
+last-substantial-update: 2019-07-07
 ---
 # Add icons to indicate active and completed tabs
 

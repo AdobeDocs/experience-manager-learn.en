@@ -15,6 +15,7 @@ topic: Administration
 role: Developer
 level: Beginner
 exl-id: 98a35bd9-a659-41f9-a772-267730c1f579
+last-substantial-update: 2019-06-09
 ---
 # Rule Editor Improvements in AEM Forms {#rule-editor-improvements-in-aem-forms}
 

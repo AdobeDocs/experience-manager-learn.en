@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: 3e51767b-3571-4af7-8f01-5b6c5c74734c
+last-substantial-update: 2021-03-20
 ---
 # Using Microsoft Dynamics with AEM Forms{#using-microsoft-dynamics-with-aem-forms}
 

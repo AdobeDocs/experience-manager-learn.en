@@ -13,6 +13,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 9f1dbd02-774a-4b84-90fa-02d4e468cbac
+last-substantial-update: 2020-07-07
 ---
 # Configuring Adaptive Form to trigger AEM Workflow
 
