@@ -15,7 +15,7 @@ recommendations: noDisplay, noCatalog
 
 # Update full-stack AEM project to use front-end pipeline {#update-project-enable-frontend-pipeline}
 
-In this chapter, we make config changes to the __WKND Sites project__ to use the front-end pipeline to deploy JavaScript and CSS, rather than requiring a complete full-stack pipeline execution. This allows decouples the development and deployment lifecycle of front-end and back-end artifacts, allowing for a more rapid, iterative development process overall.
+In this chapter, we make config changes to the __WKND Sites project__ to use the front-end pipeline to deploy JavaScript and CSS, rather than requiring a complete full-stack pipeline execution. This decouples the development and deployment lifecycle of front-end and back-end artifacts, allowing for a more rapid, iterative development process overall.
 
 ## Objectives {#objectives}
 
@@ -71,7 +71,7 @@ There are three project-related config changes and a style change to deploy for 
 
 1.  Prepare the `ui.frontend` module for the front-end pipeline contract by adding two new webpack config files.
 
-    * Copy the existing `webpack.common.js` as `webpack.theme.common.js`, change `output` property and `MiniCssExtractPlugin`, `CopyWebpackPlugin` plugin config params as below:
+    * Copy the existing `webpack.common.js` as `webpack.theme.common.js`, and change `output` property and `MiniCssExtractPlugin`, `CopyWebpackPlugin` plugin config params as below:
 
     ```javascript
     ...
@@ -83,7 +83,7 @@ There are three project-related config changes and a style change to deploy for 
 
     ...
         new MiniCssExtractPlugin({
-                filename: 'clientlib-[name]/[name].css'
+                filename: 'theme/[name].css'
             }),
         new CopyWebpackPlugin({
             patterns: [
@@ -128,7 +128,7 @@ There are three project-related config changes and a style change to deploy for 
 
 1.  Prepare the `ui.content` module for the front-end pipeline by adding two Sling configs.
 
-    * Create a new file at `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` - this includes all the front-end files that the `ui.frontend` module generates under the `dist` folder using webpack build process.
+    * Create a file at `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` - this includes all the front-end files that the `ui.frontend` module generates under the `dist` folder using webpack build process.
 
     ```xml
     ...
@@ -151,7 +151,7 @@ There are three project-related config changes and a style change to deploy for 
 
     >[!TIP]
     >
-    >    See, the complete [HtmlPageItemsConfig](https://github.com/adobe/aem-guides-wknd/blob/feature/frontend-pipeline/ui.content/src/main/content/jcr_root/conf/wknd/_sling_configs/com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig/.content.xml) in the __AEM WKND Sites project__.
+    >    See the complete [HtmlPageItemsConfig](https://github.com/adobe/aem-guides-wknd/blob/feature/frontend-pipeline/ui.content/src/main/content/jcr_root/conf/wknd/_sling_configs/com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig/.content.xml) in the __AEM WKND Sites project__.
 
 
     *   Second the `com.adobe.aem.wcm.site.manager.config.SiteConfig` with the `themePackageName` value being the same as the `package.json` and `name` property value and `siteTemplatePath` pointing to a `/libs/wcm/core/site-templates/aem-site-template-stub-2.0.0` stub path value.
@@ -185,6 +185,14 @@ Finally, push these changes to your program's Adobe git repository.
 >
 > These changes are available on GitHub inside the [__front-end pipeline__](https://github.com/adobe/aem-guides-wknd/tree/feature/frontend-pipeline) branch of the __AEM WKND Sites project__.
 
+
+## Caution - _Enable Front End Pipeline_ button
+
+The [Rail Selector](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/basic-handling.html) 's [Site](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/basic-handling.html) option shows the **Enable Front End Pipeline** button upon selecting your site root or site page. Clicking **Enable Front End Pipeline** button will override the above **Sling configs**, make sure **you do not click** this button after deploying above changes via Cloud Manager pipeline execution. 
+
+![Enable Front End Pipeline button](assets/enable-front-end-Pipeline-button.png)
+
+If it is clicked by mistake, you have to rerun the pipelines to make sure that front-end pipeline contract and changes are restored.
 
 ## Congratulations! {#congratulations}
 
