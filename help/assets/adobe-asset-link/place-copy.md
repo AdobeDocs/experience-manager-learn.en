@@ -1,7 +1,7 @@
 ---
 title: Using Place Copy asset operation
 description: Learn how to use assets from AEM Assets using the Place Copy operation.
-sub-product: assets
+sub-product: Experience Manager Assets
 feature: Adobe Asset Link
 version: Cloud Service
 kt : 4913

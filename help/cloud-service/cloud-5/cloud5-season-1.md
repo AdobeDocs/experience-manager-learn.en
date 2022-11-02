@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Season 1
 description: Learn about Adobe Experience Manager (AEM) as a Cloud Service from Adobe's own expert engineers who build it, and the expert services who deliver it.
-sub-product: sites, cloud-manager, assets
+sub-product: Experience Manager Sites, Experience Manager Cloud Manager, Experience Manager Assets
 solution: Experience Manager as a Cloud Service, Experience Manager
 recommendations: noDisplay, noCatalog
 exl-id: 210e5483-d79e-47ac-aa09-b6956cca2e62

@@ -1,7 +1,7 @@
 ---
 title: Using AEM Experience Fragments
 description: Experience Fragments enables content authors to reuse content across channels including Sites pages and third-party systems.
-sub-product: sites, content-services
+sub-product: Experience Manager Sites
 feature: Experience Fragments
 topic: Content Management
 role: Architect, Developer, Admin, User

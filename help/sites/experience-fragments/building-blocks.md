@@ -1,7 +1,7 @@
 ---
 title: How to use Experience Fragment Building Blocks
 description: Building blocks are a subfeature of Experience Fragments that enable the reuse of authored components across variations of Experience Fragments.
-sub-product: sites, content-services
+sub-product: Experience Manager Sites
 version: Cloud Service
 feature: Experience Fragments
 topic: Content Management
@@ -13,6 +13,7 @@ thumbnail: 331786.jpg
 exl-id: cc758602-3c20-4eca-9b87-f04b6dc96bfe
 ---
 # Building Blocks with Experience Fragments {#building-blocks}
+
 
 Building blocks are a subfeature of Experience Fragments. Building blocks enable content authors to reuse components across different variations of Experience Fragments.
 

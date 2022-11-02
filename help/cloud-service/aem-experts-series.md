@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Manager as a Cloud Service Experts Series
 description: Learn about Adobe Experience Manager (AEM) as a Cloud Service from Adobe's very own expert engineers who build it, and professional services who deliver it.
-sub-product: sites, cloud-manager, assets
+sub-product: Experience Manager Sites, Experience Manager Cloud Manager, Experience Manager Assets
 exl-id: ae1cdbe3-0863-41de-bb27-2e88c4640866
 ---
 # Adobe Experience Manager as a Cloud Service Experts Series

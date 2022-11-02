@@ -1,7 +1,7 @@
 ---
 title: Review Task
 description: Explore how AEM Assets' Review Task facilitates the most common review and approval workflows.
-sub-product: assets
+sub-product: Experience Manager Assets
 feature: Collaboration
 version: Cloud Service
 kt: 4670
