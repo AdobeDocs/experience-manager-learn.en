@@ -104,6 +104,7 @@ index: y
   + [Space toolbar buttons](ui-tips-tricks/toolbar-buttons.md)
   + [Navigate tabs with nested panels](ui-tips-tricks/nested-panels.md)
   + [Add Icons to navigation tabs](ui-tips-tricks/active-complete.md)
+  + [Auto Complete fields](ui-tips-tricks/auto-complete.md)
 + Customizing inbox{#inbox-customization}
   + [Introduction](inbox-customization/introduction.md)
   + [Add custom column](inbox-customization/add-married-column.md)

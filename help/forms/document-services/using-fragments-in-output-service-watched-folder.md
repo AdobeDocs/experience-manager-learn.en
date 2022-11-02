@@ -1,5 +1,5 @@
 ---
-title: Using fragments in output service
+title: Using fragments in output service with watched folder
 description: Generate pdf documents with fragments residing in crx repository
 feature: Output Service
 version: 6.4,6.5

@@ -1,6 +1,5 @@
 ---
 title: Using Acrobat Sign with AEM Forms
-
 description: Using Acrobat Sign with AEM Forms
 feature: Acrobat Sign
 role: Admin

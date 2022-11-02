@@ -1,6 +1,6 @@
 ---
-title: Displaying inline images in Adaptive Forms
-description: Display uploaded images inline in Adaptive Forms
+title: Displaying DAM images inline in Adaptive Forms
+description: Display DAM images inline in Adaptive Forms
 feature: Adaptive Forms
 topics: development
 version: 6.4,6.5
