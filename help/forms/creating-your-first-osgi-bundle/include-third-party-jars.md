@@ -1,6 +1,6 @@
 ---
-title: Creating your first OSGi bundle with AEM Forms
-description: Build your first OSGi bundle using Maven and Eclipse
+title: Including third party jars
+description: Learn to use third party jar file in your AEM project
 version: 6.4,6.5
 feature: Adaptive Forms
 topic: Development
