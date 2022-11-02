@@ -103,6 +103,7 @@ index: y
   + [7 - Consuming AEM Content Services from a Mobile App](./content-services/chapter-7.md)
 + Code Samples {#code-samples}
   + [Filtering React app](./graphql/code-samples/filtering-react-app.md)
+  + [Filtering Preact app](./graphql/code-samples/filtering-preact-app.md)
   + [Filtering Angular app](./graphql/code-samples/filtering-angular-app.md)
   + [Filtering Vue app](./graphql/code-samples/filtering-vue-app.md)
   + [Filtering with jQuery and Handlebars](./graphql/code-samples/filtering-jquery-handlebars.md)
