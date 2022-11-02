@@ -39,7 +39,7 @@ Click on the Experience Cloud product for documentation on how to configure and 
 
 ## Adobe Acrobat Sign      
 
-Adobe Acrobat Sign (formerly Adobe Sign) enables e-signature workflows for AEM Forms' adaptive forms by improving workflows to process documents for legal, sales, payroll, HR, and other areas.
+Adobe Acrobat Sign (formerly Acrobat Sign) enables e-signature workflows for AEM Forms' adaptive forms by improving workflows to process documents for legal, sales, payroll, HR, and other areas.
 
 ### AEM Forms
 

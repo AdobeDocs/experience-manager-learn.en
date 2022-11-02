@@ -28,5 +28,5 @@ AEM 6.3 introduces several new features and enhancements in this release to simp
 * [Keyboard shortcuts for faster content authoring experience](https://helpx.adobe.com/aem-forms/6-3/keyboard-shortcuts.html#AdaptiveFormEditor)
 * [Support for JSON schema for creating adaptive forms](https://helpx.adobe.com/aem-forms/6-3/adaptive-form-json-schema-form-model.html)
 * [CAPTCHA in adaptive forms](https://helpx.adobe.com/aem-forms/6-3/captcha-adaptive-forms.html)
-* [Enhanced Adobe Sign Integration](https://helpx.adobe.com/aem-forms/6-3/working-with-adobe-sign.html)
+* [Enhanced Acrobat Sign Integration](https://helpx.adobe.com/aem-forms/6-3/working-with-adobe-sign.html)
 * [Asynchronous submissions of forms](https://helpx.adobe.com/aem-forms/6-3/asynchronous-submissions-adaptive-forms.html)

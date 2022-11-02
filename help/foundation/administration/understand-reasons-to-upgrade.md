@@ -1045,8 +1045,8 @@ Below is a matrix of key AEM Forms Add-on features offered by AEM. Some of these
             <td>✔</td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/aem-forms/6-5/whats-new.html#EnhancedintegrationwithAdobeSign" target="_blank">Adobe Sign Integration</a>:</strong>
-            Allow deployment of Adobe Sign integrated forms based signing scenarios.</td>
+            <td><strong><a href="https://helpx.adobe.com/aem-forms/6-5/whats-new.html#EnhancedintegrationwithAdobeSign" target="_blank">Acrobat Sign Integration</a>:</strong>
+            Allow deployment of Acrobat Sign integrated forms based signing scenarios.</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
