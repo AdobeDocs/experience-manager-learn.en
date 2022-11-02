@@ -18,7 +18,8 @@ AEM as a Cloud Service supports multiple of authentication options and varies by
 |                       | AEM Author | AEM Publish | 
 |-----------------------|:----------:|:-----------:|
 | [Adobe IMS](../accessing/overview.md) |  &#10004;  | &#10008;    |
-| [SAML 2.0](./saml-2-0.md) |  &#10008;  | &#10004;    |
+| &#x2022; [SAML 2.0 via Adobe IMS](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html#how-to-set-up) |  &#10004;  | &#10008;    |
+| [SAML 2.0](./saml-2-0.md) | &#10008;  | &#10004;    |
 | [Token authentication](../../headless-tutorial/authentication/overview.md) |  &#10004;  | &#10004;    |
 
 ## Authentication options
