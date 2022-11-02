@@ -1,7 +1,7 @@
 ---
 title: Understand Content Fragments and Experience Fragments
 description: Learn the similarities and differences between Content Fragments and Experience Fragments, and when and how to use each type.
-sub-product: assets, sites, content services
+sub-product: Experience Manager Assets, Experience Manager Sites
 feature: Content Fragments, Experience Fragments
 topics: headless
 version: 6.4, 6.5

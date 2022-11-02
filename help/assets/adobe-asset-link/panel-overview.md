@@ -1,7 +1,7 @@
 ---
 title: Adobe Asset Link Panel Overview
 description: Adobe Asset Link provides creative users with the ability to browse, search, check out, and check in assets stored in AEM Assets using the in-app panel in InDesign, Photoshop, and Illustrator. Get introduced to Adobe Asset Link panel's UI and its capabilities.
-sub-product: assets
+sub-product: Experience Manager Assets
 feature: Adobe Asset Link
 version: Cloud Service
 kt: 4905

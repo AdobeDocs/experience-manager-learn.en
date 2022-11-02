@@ -1,8 +1,6 @@
 ---
 title: Getting Started with AEM and Adobe Target
-seo-title: Getting Started with AEM and Adobe Target
 description: An end-to-end tutorial showing how to create and deliver personalized experiences using Adobe Experience Manager and Adobe Target. In this tutorial, you will also learn about different personas involved in the end to end process and how they collaborate with each other
-seo-description: An end-to-end tutorial showing how to create and deliver personalized experience using Adobe Experience Manager and Adobe Target. In this tutorial, you will also learn about different personas involved in the end to end process and how they collaborate with each other
 feature: Experience Fragments
 topic: Personalization
 role: Developer
@@ -23,7 +21,7 @@ In this tutorial, we cover three different scenarios for AEM and Target, which h
 
 For this scenario, we are going to use AEM and Target. Clearly, both the products have their own strengths, and when it comes to delivering personalized experiences to your site's users, you need **personalized content (content from AEM)** and an **intelligent way (Target)** to serve these content based on a specific user.
 
-AEM helps you create personalized content, bringing together all of your content and assets in a central location to fuel your personalization strategy. AEM lets you easily create content for desktops, tablets, and mobile devices in one place without writing code. There’s no need to create pages for every device—AEM automatically adjusts each experience using your content. You can also export the content from AEM to Adobe Target as offers with push of a button.
+AEM helps you create personalized content, bringing together all of your content and assets in a central location to fuel your personalization strategy. AEM lets you easily create content for desktops, tablets, and mobile devices in one place without writing code. There's no need to create pages for every device—AEM automatically adjusts each experience using your content. You can also export the content from AEM to Adobe Target as offers with push of a button.
 
 We now have personalized content in the form of Offers from AEM in Target. Target lets you deliver these offers at scale based on a combination of rules-based and AI-driven machine learning approaches that incorporate behavioral, contextual, and offline variables.  With Target, you can easily set up and run A/B and Multivariate (MVT) activities to determine the best offers, content, and experiences.
 

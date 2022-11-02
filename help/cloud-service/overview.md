@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Manager as a Cloud Service videos and tutorials
 description: A collection of tutorials for Adobe Experience Manager (AEM) as a Cloud Service
-sub-product: sites, cloud-manager, foundation, assets
+sub-product: Experience Manager Sites, Experience Manager Cloud Manager, Experience Manager, Experience Manager Assets
 kt: 3289
 exl-id: 650ba2d9-6083-4772-84c5-1cdb97b5f0e9
 ---

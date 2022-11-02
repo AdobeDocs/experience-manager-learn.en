@@ -1,7 +1,7 @@
 ---
 title: Assets admin search rail
 description: The Assets admin search rail allows assets to be searched for using custom criteria in Omnisearch.
-sub-product: assets
+sub-product: Experience Manager Assets
 feature: Search
 version: Cloud Service
 kt: 4995
