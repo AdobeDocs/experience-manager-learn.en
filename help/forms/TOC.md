@@ -130,11 +130,11 @@ index: y
 + HTML5 Forms{#html5-forms}
   + [Create HTML5 Form](html5-forms/create-html5-form.md)
   + [Handle HTML5 Form Submission](html5-forms/handle-html5-form-submission.md)
-+ AEM Forms and Adobe Sign{#forms-and-sign}
++ AEM Forms and Acrobat Sign{#forms-and-sign}
   + [Introduction](aem-forms-and-adobe-sign/introduction.md)
   + [Set up SSL](aem-forms-and-adobe-sign/set-up-ssl.md)
-  + [Create Adobe Sign API Application](aem-forms-and-adobe-sign/create-adobe-sign-api-application.md)
-  + [Create Adobe Sign Cloud Configuration](aem-forms-and-adobe-sign/create-adobe-sign-cloud-configuration.md)
+  + [Create Acrobat Sign API Application](aem-forms-and-adobe-sign/create-adobe-sign-api-application.md)
+  + [Create Acrobat Sign Cloud Configuration](aem-forms-and-adobe-sign/create-adobe-sign-cloud-configuration.md)
   + [Create Workflow to send document for signing](aem-forms-and-adobe-sign/create-workflow-to-send-document-for-signing.md)
   + [Create and Configure Adaptive Form](aem-forms-and-adobe-sign/create-and-configure-adaptive-form.md)
   + [Configure Adaptive Form for single signer](aem-forms-and-adobe-sign/configure-adaptive-form-for-single-signer.md)
@@ -142,7 +142,7 @@ index: y
   + [Configure Automated Forms Conversion Service](aem-forms-and-adobe-sign/configure-automated-forms-conversion-service.md)
   + [Convert PDF Form into Adaptive Form](aem-forms-and-adobe-sign/convert-pdf-form-into-adaptive-form.md)
   + [Configure converted Adaptive Form](aem-forms-and-adobe-sign/configure-converted-adaptive-form.md)
-  + [Using XDP templates with Adobe Sign](aem-forms-and-adobe-sign/using-xdp-templates-with-adobe-sign.md)
+  + [Using XDP templates with Acrobat Sign](aem-forms-and-adobe-sign/using-xdp-templates-with-adobe-sign.md)
 + Sign Multiple Forms{#sign-multiple-documents}
   + [Introduction](sign-multiple-documents/introduction.md)
   + [Configure data source](sign-multiple-documents/configure-data-source.md)

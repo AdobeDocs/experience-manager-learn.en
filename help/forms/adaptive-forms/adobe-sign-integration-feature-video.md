@@ -1,8 +1,8 @@
 ---
-title: Using Adobe Sign with AEM Forms
+title: Using Acrobat Sign with AEM Forms
 
-description: Using Adobe Sign with AEM Forms
-feature: Adobe Sign
+description: Using Acrobat Sign with AEM Forms
+feature: Acrobat Sign
 role: Admin
 level: Beginner
 uuid: cbccea0f-969c-445d-9390-a236bb1fd2c4
@@ -17,13 +17,13 @@ snippet: y
 last-substantial-update: 2020-10-20
 ---
 
-# Using Adobe Sign with AEM Forms{#using-adobe-sign-with-aem-forms}
+# Using Acrobat Sign with AEM Forms{#using-adobe-sign-with-aem-forms}
 
-Using Adobe Sign with AEM Forms
+Using Acrobat Sign with AEM Forms
 
 >[!VIDEO](https://video.tv.adobe.com/v/18696?quality=9&learn=on)
 
-*This video walks through the process of setting up the Adobe Sign cloud service and adding multiple signature fields to an AEM Adaptive Form.*
+*This video walks through the process of setting up the Acrobat Sign cloud service and adding multiple signature fields to an AEM Adaptive Form.*
 
 >[!NOTE]
 >

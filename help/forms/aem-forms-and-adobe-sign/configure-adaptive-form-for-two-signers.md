@@ -1,7 +1,7 @@
 ---
 title: Rental Agreement with 2 signers
 description: Rental Agreement with 2 signers. The video explains the various steps needed to configure an adaptive form with 2 signers.
-feature: Adaptive Forms,Adobe Sign
+feature: Adaptive Forms,Acrobat Sign
 thumbnail: 39294.jpg
 kt: 6071
 topic: Development

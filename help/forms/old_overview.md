@@ -131,7 +131,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
     </a>
     </div>
     <p>
-    <em>Rental agreement between tenant and landlord filled and signed using AEM Forms and Adobe Sign</em>
+    <em>Rental agreement between tenant and landlord filled and signed using AEM Forms and Acrobat Sign</em>
     <p>
   </td>
   <td>
@@ -144,7 +144,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
     </a>
     </div>
     <p>
-    <em>Create an NDA dynamically and send for signing using Adobe Sign</em>
+    <em>Create an NDA dynamically and send for signing using Acrobat Sign</em>
     </p>
   </td>
   <td>
@@ -157,7 +157,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
       </a>
     </div>
     <p>
-    <em>Seamlessly sign multiple documents using Forms and Adobe Sign</em>
+    <em>Seamlessly sign multiple documents using Forms and Acrobat Sign</em>
     <p>
   </td>
 </tr>

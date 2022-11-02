@@ -16,7 +16,7 @@ The next step is to create the adaptive forms you want to be included in the pac
 
 * Make sure the forms are based on the **SignMultipleForms** template. This ensures the forms are pre-populated with the data fetched form the database.
 
-* The forms need to be configured to use Adobe Sign and the signer1 field needs to be associated with the Customer Email field
+* The forms need to be configured to use Acrobat Sign and the signer1 field needs to be associated with the Customer Email field
 * The forms also need to be associated with clientLib called **getnextform**
 * The forms need to use Signature Step component.
 * The form must also use the custom **Sign Multiple Form** component. This component allows you to navigate to the next form to sign in the package.
