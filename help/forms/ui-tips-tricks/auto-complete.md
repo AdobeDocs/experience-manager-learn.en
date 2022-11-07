@@ -18,14 +18,11 @@ The sample included with this article uses a variety of data sources(static arra
 
 The code used to accomplish the auto complete capability is associated with the initialize event of the field.
 
-
-## Providing suggestions for country name
-
-![country-suggestions](assets/auto-complete1.png)
-
 ## Providing suggestion for address
 
 ![country-suggestions](assets/auto-complete2.png)
+
+
 
 The following is the code used to provide street address suggestions
 
@@ -55,6 +52,10 @@ $(".streetAddress input").autocomplete({
 
 });
 ```
+
+
+
+
 
 ## Suggestions with emoji's
 
