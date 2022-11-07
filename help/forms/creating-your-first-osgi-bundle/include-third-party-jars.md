@@ -52,7 +52,7 @@ Make a note of the root attribute  of the filter element.
 * Open command prompt. Navigate to your project's folder(c:\aemformsbundles\AEMFormsProcessStep) in my case. Execute the following command
 
 ```java
-mvn clean install -pAutoInstallSinglePackage
+mvn clean install -PautoInstallSinglePackage
 ```
 
 If everything goes well, the package is installed along with the third-party bundle into your AEM instance. You can check for the bundle using [felix web console](http://localhost:4502/system/console/bundles). The third-party bundle is available in the /apps folder of the `crx` repository as shown below
