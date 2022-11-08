@@ -16,7 +16,7 @@ Using Output and Forms Service API in AEM Forms
 In this article we will take a look at the following
 
 * Output Service - Typically this service is used to merge xml data with xdp template or pdf to generate flattened pdf. For more details, please refer to this [javadoc](https://helpx.adobe.com/experience-manager/6-5/forms/javadocs/index.html?com/adobe/fd/output/api/OutputService.html) for the Output service.
-* FormsService - This is a very versatile service which allows you to export/import data from and into PDF file. For more details, please refer to this [javadoc](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/fd/output/api/OutputService.html
+* FormsService - This is a very versatile service which allows you to export/import data from and into PDF file. For more details, please refer to this [javadoc](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/forms/api/FormsService.html
 ) for the the Forms service.
 
 
