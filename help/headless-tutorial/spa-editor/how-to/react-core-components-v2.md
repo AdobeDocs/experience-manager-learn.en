@@ -4,7 +4,6 @@ description: Learn how to use AEM React Editable Components v2 to power a React 
 version: Cloud Service
 topic: Headless
 feature: SPA Editor
-topic: Headless
 role: Developer
 level: Intermediate
 kt: 10900
