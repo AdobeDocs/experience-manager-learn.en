@@ -24,7 +24,7 @@ This chapter also covers how to enhance validation rules for content references 
 
 ## Prerequisites {#prerequisites}
 
-This is an advanced tutorial. Before proceeding with this chapter, please ensure that you have completed the [quick setup](../quick-setup/cloud-service.md). Make sure that you have also read through the previous overview chapter for more information on the setup for the advanced tutorial.
+This is an advanced tutorial. Before proceeding with this chapter, please ensure that you have completed the [quick setup](../quick-setup/cloud-service.md). Make sure that you have also read through the previous [overview](../overview.md) chapter for more information on the setup for the advanced tutorial.
 
 ## Objectives {#objectives}
 
@@ -42,11 +42,11 @@ The following video provides a brief introduction to Content Fragment Models and
 
 Let's create some Content Fragment Models for the WKND app. If you require a basic introduction to creating Content Fragment Models, please see the appropriate chapter in the [basic tutorial](../multi-step/content-fragment-models.md).
 
-1. Navigate to **Tools** > **Assets** > **Content Fragment Models**.
+1. Navigate to **Tools** > **General** > **Content Fragment Models**.
 
     ![Content Fragment Models path](assets/define-content-fragment-models/content-fragment-models-path.png)
 
-1. Select **WKND Site** to view the list of existing Content Fragment Models for the site.
+1. Select **WKND Shared** to view the list of existing Content Fragment Models for the site.
 
 ### Contact Info Model {#contact-info-model}
 
@@ -72,11 +72,9 @@ Once done, select **Save** to confirm your changes and close the Content Fragmen
 
 Next, create a model for an address. 
 
-1. From the **WKND Site**, select **Create** from the top-right corner. 
+1. From the **WKND Shared**, select **Create** from the top-right corner. 
 
-1. Enter a title of "Address" and then select **Create**. 
-
-    i. In the success modal that appears, select **Open** to edit the newly created model. 
+1. Enter a title of "Address" and then select **Create**. In the success modal that appears, select **Open** to edit the newly created model. 
 
 1. Drag and drop a **Single line text** field onto the model and give it a **Field Label** of "Street Address." The property name is then filled in as `streetAddress`. Select the **Required** checkbox. 
 
@@ -108,7 +106,7 @@ Next, create a model that contains information about a person.
 
 1. In the **Properties** tab, under the **Allowed Content Fragment Models** field, select the folder icon and then choose the **Contact Info** fragment model created earlier.
 
-1. Add a **Content Reference** field and give it a **Field Label** of "Profile Picture." Select the folder icon under **Root Path** to open the path selection modal. Select a root path by selecting **content** > **Assets**, then selecting the checkbox for **WKND Site**. Use the **Select** button at the top-right to save the path. The final text path should read `/content/dam/wknd`.
+1. Add a **Content Reference** field and give it a **Field Label** of "Profile Picture." Select the folder icon under **Root Path** to open the path selection modal. Select a root path by selecting **content** > **Assets**, then selecting the checkbox for **WKND Shared**. Use the **Select** button at the top right to save the path. The final text path should read `/content/dam/wknd-shared`.
 
     ![Content reference root path](assets/define-content-fragment-models/content-reference-root-path.png)
 
@@ -123,18 +121,19 @@ Next, create a model that contains information about a person.
 
 1. For **Max**, enter "5", and for **Select Unit**, select "Megabytes (MB)". This validation only allows images that are of the specified size to be chosen.
 
-1. Under **Accept only specified image width**, select "Maximum Width". In the **Max (pixels)** field that appears, enter "500". Select the same options for **Accept only a specified image height**.
+1. Under **Accept only specified image width**, select "Maximum Width". In the **Max (pixels)** field that appears, enter "10000". Select the same options for **Accept only a specified image height**.
 
     These validations ensure that added images do not exceed the specified values. The validation rules should now look like this:
+
     ![Content reference validation rules](assets/define-content-fragment-models/content-reference-validation.png)
 
 1. Add a **Multi line text** field and give it a **Field Label** of "Biography". Leave the **Default Type** dropdown as the default "Rich Text" option.
 
     ![Biography options](assets/define-content-fragment-models/biography.png)
 
-1. Navigate to the **Data Types** tab, then drag an **Enumeration** field underneath "Profile Picture". Instead of the default **Render As** option, select **Dropdown**. Enter a selection of instructor experience level options such as Expert, Advanced, Intermediate. 
+1. Navigate to the **Data Types** tab, then drag an **Enumeration** field underneath "Biography". Instead of the default **Render As** option, select **Dropdown** and give it a **Field Label** of "Instructor Experience Level". Enter a selection of instructor experience level options such as _Expert, Advanced, Intermediate_. 
 
-1. Next, drag another **Enumeration** field under "Instructor Experience Level" and choose "checkboxes" under the **Render As** option. Enter different skills such as Rock Climbing, Surfing, Cycling, Skiing, and Backpacking. The option label and option value should match as below:
+1. Next, drag another **Enumeration** field under "Instructor Experience Level" and choose "checkboxes" under the **Render As** option. Give it a **Field Label** of "Skills". Enter different skills such as Rock Climbing, Surfing, Cycling, Skiing, and Backpacking. The option label and option value should match as below:
 
     ![Skills Enumeration](assets/define-content-fragment-models/skills-enum.png)
 
@@ -154,7 +153,7 @@ The next Content Fragment Model describes a physical location. This model uses t
 
 1. Next, add a **Fragment Reference** field and label it "Contact Info." In the properties tab, under **Allowed Content Fragment Models**, select the **Folder Icon** and choose the "Contact Info" fragment model created earlier.
 
-1. Add a **Content Reference** field under "Contact Info". Label it "Location Image". The **Root Path** should be `/content/dam/wknd.` Under **Accept only specified content types**, select "Image".
+1. Add a **Content Reference** field under "Contact Info". Label it "Location Image". The **Root Path** should be `/content/dam/wknd-shared.` Under **Accept only specified content types**, select "Image".
 
 1. Let's also add a **JSON Object** field under the "Location Image." As this data type is flexible, it can be used to display any data you want to include in your content. In this case, the JSON Object is used to display information about the weather. Label the JSON Object "Weather by Season". In the **Properties** tab, add a **Description** so it's clear to the user what data should be entered here: "JSON data regarding the event location weather by season (Spring, Summer, Fall, Winter)."
 
@@ -162,7 +161,7 @@ The next Content Fragment Model describes a physical location. This model uses t
 
 1. To create the Location Address tab, add a **Tab Placeholder** field to the model and label it "Location Address."
 
-1. Drag and drop a **Fragment Reference** field and from the properties tab, under **Allowed Content Fragment Models**, select the **Address** model.
+1. Drag and drop a **Fragment Reference** field and from the properties tab, label it as "Address", and under **Allowed Content Fragment Models**, select the **Address** model.
 
 1. Select **Save** to confirm your changes and close the Content Fragment Model Editor. The completed Location model should appear as below:
 
@@ -172,7 +171,7 @@ The next Content Fragment Model describes a physical location. This model uses t
 
 Finally, create a model that describes a team of people. 
 
-1. From the **WKND Site** page, select **Create** to make another Content Fragment Model. For the Model Title, enter "Team." As previously, select **Create** followed by **Open** in the success modal that appears.
+1. From the **WKND Shared** page, select **Create** to make another Content Fragment Model. For the Model Title, enter "Team." As previously, select **Create** followed by **Open** in the success modal that appears.
 
 1. Add a **Multi line text** field to the form. Under **Field Label**, enter "Description".
 
@@ -180,7 +179,7 @@ Finally, create a model that describes a team of people.
 
     ![Date and time options](assets/define-content-fragment-models/date-and-time.png)
 
-1. Navigate to the **Data Types** tab. Below the "Team Founding Date", add a **Fragment Reference**. In the **Render As** dropdown, select "multifield". For **Field Label**, enter "Team Members". This field links to the Person model created previously. Since the data type is a multi-field, multiple Person fragments can be added, enabling the creation of a team of people.
+1. Navigate to the **Data Types** tab. Below the "Team Founding Date", add a **Fragment Reference**. In the **Render As** dropdown, select "multifield". For **Field Label**, enter "Team Members". This field links to the _Person_ model created previously. Since the data type is a multi-field, multiple Person fragments can be added, enabling the creation of a team of people.
 
     ![Fragment reference options](assets/define-content-fragment-models/fragment-reference.png)
 
@@ -194,7 +193,7 @@ Finally, create a model that describes a team of people.
 
 Similar to how the Team model has a fragment reference to the Person model, the Team and Location models must be referenced from the Adventure model to display these new models in the WKND app.
 
-1. From the **WKND Site** page, select the **Adventure** model, then select **Edit** from the top navigation.
+1. From the **WKND Shared** page, select the **Adventure** model, then select **Edit** from the top navigation.
 
     ![Adventure edit path](assets/define-content-fragment-models/adventure-edit-path.png)
 
