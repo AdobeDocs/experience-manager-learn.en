@@ -14,7 +14,7 @@ In the [previous chapter](/help/headless-tutorial/graphql/advanced-graphql/creat
 
 ## Prerequisites {#prerequisites}
 
-This document is part of a multi-part tutorial. Please ensure that the previous chapters have been completed before proceeding with this chapter.
+This document is part of a multi-part tutorial. Please ensure that the [previous chapter](create-content-fragment-models.md) has been completed before proceeding with this chapter.
 
 ## Objectives {#objectives}
 
@@ -31,7 +31,7 @@ In this chapter, learn how to:
 
 Install an AEM package that contains several folders and sample images used to accelerate the tutorial.
 
-1. Download [Advanced-GraphQL-Tutorial-Starter-Package-1.0.zip](/help/headless-tutorial/graphql/advanced-graphql/assets/tutorial-files/Advanced-GraphQL-Tutorial-Starter-Package-1.0.zip)
+1. Download [Advanced-GraphQL-Tutorial-Starter-Package-1.1.zip](/help/headless-tutorial/graphql/advanced-graphql/assets/tutorial-files/Advanced-GraphQL-Tutorial-Starter-Package-1.1.zip)
 1. In AEM, navigate to **Tools** > **Deployment** > **Packages** to access **Package Manager**.
 1. Upload and install the package (zip file) downloaded in the previous step.
 
@@ -39,7 +39,7 @@ Install an AEM package that contains several folders and sample images used to a
 
 ## Create folders and set limits using folder policies
 
-From the AEM homepage, select **Assets** > **Files** > **WKND Site** > **English**. Here you can see the various Content Fragment categories, including Adventures and Contributors that were explored in the previous [multi-step GraphQL tutorial](../multi-step/overview.md).
+From the AEM homepage, select **Assets** > **Files** > **WKND Shared** > **English**. Here you can see the various Content Fragment categories, including Adventures and Contributors.
 
 ### Create folders {#create-folders}
 
@@ -65,11 +65,11 @@ AEM allows you to define permissions and policies for Content Fragment folders. 
 
     ![Properties](assets/author-content-fragments/properties.png)
 
-1. Select the **Policies** tab, then de-select **Inherited from /content/dam/wknd**. In the **Allowed Content Fragment Models by Path** field, select the folder icon.
+1. Select the **Policies** tab, then de-select **Inherited from /content/dam/wknd-shared**. In the **Allowed Content Fragment Models by Path** field, select the folder icon.
 
     ![Folder icon](assets/author-content-fragments/folder-icon.png)
 
-1. In the Select Path dialog that opens, follow the path **conf** > **WKND Site**. The Person Content Fragment Model, created in the previous chapter, contains a reference to the Contact Info Content Fragment Model. Both Person and Contact Info models must be allowed in the Instructors folder in order to create an Instructor Content Fragment. Select **Person** and **Contact Info**, then press **Select** to close the dialog.
+1. In the Select Path dialog that opens, follow the path **conf** > **WKND Shared**. The Person Content Fragment Model, created in the previous chapter, contains a reference to the Contact Info Content Fragment Model. Both Person and Contact Info models must be allowed in the Instructors folder in order to create an Instructor Content Fragment. Select **Person** and **Contact Info**, then press **Select** to close the dialog.
 
     ![Select path](assets/author-content-fragments/select-path.png)
 
@@ -83,13 +83,13 @@ AEM allows you to define permissions and policies for Content Fragment folders. 
 
 Navigate into the **Instructors** folder. From here, let's create a nested folder to store the Instructors' contact information. 
 
-Follow the steps outlined in the section on [creating folders](#create-folders) to create a folder titled "Contact Info". Note that the nested folder inherits folder policies of the parent folder. Feel free to configure more specific policies so the newly created folder only allows the Contact Info model to be used.
+Follow the steps outlined in the section on [creating folders](#create-folders) to create a folder titled "Contact Info". The nested folder inherits folder policies of the parent folder. Feel free to configure more specific policies so the newly created folder only allows the Contact Info model to be used.
 
 ### Create an Instructor Content Fragment
 
-Let's create four people that can be added to a team of Adventure Instructors. Reuse the images and names of the Contributors Content Fragments that were created in the previous [multi-step GraphQL tutorial](../multi-step/author-content-fragments.md). While the previous tutorial outlined how to create basic Content Fragments, this tutorial focuses on more advanced features.
+Let's create four people that can be added to a team of Adventure Instructors.
 
-1. From the Instructors folder, create a new Content Fragment based on the Person Content Fragment Model and give it a title of "Jacob Wester".
+1. From the Instructors folder, create a Content Fragment based on the Person Content Fragment Model and give it a title of "Jacob Wester".
 
     The newly created Content Fragment looks like the following:
 
@@ -98,14 +98,14 @@ Let's create four people that can be added to a team of Adventure Instructors. R
 1. Enter the following content into the fields:
 
     * **Full Name**: Jacob Wester
-    * **Biography**: Jacob Wester has been a hiking instructor for ten years and has loved every minute of it! He's an adventure seeker with a talent for rock climbing and backpacking. Jacob is the winner of climbing competitions, including the Battle of the Bay bouldering competition. He currently lives in California.
+    * **Biography**: Jacob Wester has been a hiking instructor for ten years and has loved every minute of it! Jacob is an adventure seeker with a talent for rock climbing and backpacking. Jacob is the winner of climbing competitions, including the Battle of the Bay bouldering competition. Jacob currently lives in California.
     * **Instructor Experience Level**: Expert
     * **Skills**: Rock Climbing, Surfing, Backpacking
-    * **Administrator Details**: Jacob Wester has been coordinating backpacking adventures for 3 years.
+    * **Administrator Details**: Jacob Wester has been coordinating backpacking adventures for three years.
 
-1. In the **Profile Picture** field, add a content reference to an image. Browse to **WKND Site** > **English** > **Contributors** > **jacob_wester.jpg** to create a path to the image.
+1. In the **Profile Picture** field, add a content reference to an image. Browse to **WKND Shared** > **English** > **Contributors** > **jacob_wester.jpg** to create a path to the image.
 
-### Create a new fragment reference from the Content Fragment editor {#fragment-reference-from-editor}
+### Create a fragment reference from the Content Fragment editor {#fragment-reference-from-editor}
 
 AEM allows you to create a fragment reference directly from the Content Fragment editor. Let's create a reference to Jacob's contact information. 
 
@@ -130,7 +130,7 @@ AEM allows you to create a fragment reference directly from the Content Fragment
     * **Phone**: 209-888-0000
     * **Email**: jwester@wknd.com
 
-    When completed, select **Save**. You have now created a new Contact Info Content Fragment.
+    When completed, select **Save**. You have now created a Contact Info Content Fragment.
 
 1. To navigate back to the Instructor Content Fragment, select **Jacob Wester** in the top-left corner of the editor.
 
@@ -152,9 +152,9 @@ Follow through the same process as outlined in the [previous section](#fragment-
 | --- | --- |
 | Content Fragment Title | Stacey Roswells |
 | Full Name | Stacey Roswells |
-| Contact Info | /content/dam/wknd/en/adventures/instructors/contact-info/stacey-roswells-contact-info |
-| Profile Picture | /content/dam/wknd/en/contributors/stacey-roswells.jpg |
-| Biography | Stacey Roswells is an accomplished rock climber and alpine adventurer. Born in Baltimore, Maryland, Stacey is the youngest of six children. Her father was a lieutenant colonel in the US Navy and her mother was a modern dance instructor. Her family moved frequently with her father’s duty assignments, and she took her first pictures when he was stationed in Thailand. This is also where Stacey learned to rock climb. |
+| Contact Info | /content/dam/wknd-shared/en/adventures/instructors/contact-info/stacey-roswells-contact-info |
+| Profile Picture | /content/dam/wknd-shared/en/contributors/stacey-roswells.jpg |
+| Biography | Stacey Roswells is an accomplished rock climber and alpine adventurer. Born in Baltimore, Maryland, Stacey is the youngest of six children. Stacey's father was a lieutenant colonel in the US Navy and mother was a modern dance instructor. Stacey's family moved frequently with father's duty assignments, and took the first pictures when father was stationed in Thailand. This is also where Stacey learned to rock climb. |
 | Instructor Experience Level | Advanced |
 | Skills | Rock Climbing &#124; Skiing &#124; Backpacking |
 
@@ -164,8 +164,8 @@ Follow through the same process as outlined in the [previous section](#fragment-
 | --- | --- |
 | Content Fragment Title | Kumar Selvaraj |
 | Full Name | Kumar Selvaraj |
-| Contact Info | /content/dam/wknd/en/adventures/instructors/contact-info/kumar-selvaraj-contact-info |
-| Profile Picture | /content/dam/wknd/en/contributors/Kumar_Selvaraj.JPG |
+| Contact Info | /content/dam/wknd-shared/en/adventures/instructors/contact-info/kumar-selvaraj-contact-info |
+| Profile Picture | /content/dam/wknd-shared/en/contributors/kumar-selvaraj.jpg |
 | Biography | Kumar Selvaraj is an experienced AMGA Certified professional instructor whose main goal is to help students enhance their climbing and hiking skills. |
 | Instructor Experience Level | Advanced |
 | Skills | Rock Climbing &#124; Backpacking |
@@ -176,9 +176,9 @@ Follow through the same process as outlined in the [previous section](#fragment-
 | --- | --- |
 | Content Fragment Title | Ayo Ogunseinde |
 | Full Name | Ayo Ogunseinde |
-| Contact Info | /content/dam/wknd/en/adventures/instructors/contact-info/ayo-ogunseinde-contact-info |
-| Profile Picture | /content/dam/wknd/en/contributors/ayo-ogunseinde-237739.jpg |
-| Biography | Ayo Ogunseinde is a professional climber and backpacking instructor living in Fresno, Central California. Her goal is to guide hikers on their most epic national park adventures. |
+| Contact Info | /content/dam/wknd-shared/en/adventures/instructors/contact-info/ayo-ogunseinde-contact-info |
+| Profile Picture | /content/dam/wknd-shared/en/contributors/ayo-ogunseinde-237739.jpg |
+| Biography | Ayo Ogunseinde is a professional climber and backpacking instructor living in Fresno, Central California. Ayo's goal is to guide hikers on their most epic-national park adventures. |
 | Instructor Experience Level | Advanced |
 | Skills | Rock Climbing &#124; Cycling &#124; Backpacking |
 
@@ -200,9 +200,9 @@ Navigate into the **Locations** folder. Here, you see two nested folders that ha
 
 ![Locations folder](assets/author-content-fragments/locations-folder.png)
 
-Ignore the Yosemite Valley Lodge folder for now. We will return to it later in this section when we create a new location that will act as a Home Base for our team of instructors.
+Ignore the Yosemite Valley Lodge folder for now. We return to it later in this section when we create a location that acts as a Home Base for our team of instructors.
 
-Navigate into the **Yosemite National Park** folder. Currently, it only contains a picture of Yosemite National Park. Let's create a new Content Fragment using the Location Content Fragment Model and title it "Yosemite National Park".
+Navigate into the **Yosemite National Park** folder. Currently, it only contains a picture of Yosemite National Park. Let's create a Content Fragment using the Location Content Fragment Model and title it "Yosemite National Park".
 
 ### Tab Placeholders
 
@@ -242,22 +242,22 @@ Let's add the rest of the content to the Location Content Fragment in order to q
 1. In the **Location Details** tab, enter the following information into the fields:
 
     * **Name**: Yosemite National Park
-    * **Description**: Yosemite National Park is in California’s Sierra Nevada mountains. It’s famous for its gorgeous waterfalls, giant sequoia trees, and iconic views of El Capitan and Half Dome cliffs. Hiking and camping are the best ways to experience Yosemite. Numerous trails provide endless opportunities for adventure and exploration.
+    * **Description**: Yosemite National Park is in California's Sierra Nevada mountains. It's famous for its gorgeous waterfalls, giant sequoia trees, and iconic views of El Capitan and Half Dome cliffs. Hiking and camping are the best ways to experience Yosemite. Numerous trails provide endless opportunities for adventure and exploration.
 
-1. From the **Contact Info** field, create a new Content Fragment based on the Contact Info model and title it "Yosemite National Park Contact Info". Follow the same process as outlined in the previous section on [creating a new fragment reference from the editor](#fragment-reference-from-editor) and enter the following data into the fields:
+1. From the **Contact Info** field, create a Content Fragment based on the Contact Info model and title it "Yosemite National Park Contact Info". Follow the same process as outlined in the previous section on [creating a fragment reference from the editor](#fragment-reference-from-editor) and enter the following data into the fields:
 
     * **Phone**: 209-999-0000
     * **Email**: yosemite@wknd.com
 
 1. From the **Location Image** field, browse to **Adventures** > **Locations** > **Yosemite National Park** > **yosemite-national-park.jpeg** to create a path to the image.
 
-    Remember that in the previous chapter you configured the image validation, so the Location image's dimensions must be less than 2560 x 1800, and its file size must be less than 3 MB.
+    Remember, in the previous chapter that you configured the image validation, so the Location image's dimensions must be less than 2560 x 1800, and its file size must be less than 3 MB.
 
 1. With all information added, the **Location Details** tab now looks like this:
 
     ![Location Details tab completed](assets/author-content-fragments/location-details-tab-completed.png)
 
-1. Navigate into the **Location Address** tab. From the **Address** field, create a new Content Fragment titled "Yosemite National Park Address" using the Address Content Fragment Model that you created in the previous chapter. Follow the same process as outlined in the section on [creating a new fragment reference from the editor](#fragment-reference-from-editor) and enter the following data into the fields:
+1. Navigate into the **Location Address** tab. From the **Address** field, create a Content Fragment titled "Yosemite National Park Address" using the Address Content Fragment Model that you created in the previous chapter. Follow the same process as outlined in the section on [creating a fragment reference from the editor](#fragment-reference-from-editor) and enter the following data into the fields:
 
     * **Street Address**: 9010 Curry Village Drive
     * **City**: Yosemite Valley
@@ -271,23 +271,23 @@ Let's add the rest of the content to the Location Content Fragment in order to q
 
 1. Select **Save and Close**.
 
-### Create an additional fragment
+### Create one more fragment
 
-1. Navigate into the **Yosemite Valley Lodge** folder. Create a new Content Fragment using the Location Content Fragment Model and title it "Yosemite Valley Lodge".
+1. Navigate into the **Yosemite Valley Lodge** folder. Create a Content Fragment using the Location Content Fragment Model and title it "Yosemite Valley Lodge".
 
 1. In the **Location Details** tab, enter the following information into the fields:
 
     * **Name**: Yosemite Valley Lodge
     * **Description**: Yosemite Valley Lodge is a hub for group meetings and all sorts of activities, such as shopping, dining, fishing, hiking, and many more.
 
-1. From the **Contact Info** field, create a new Content Fragment based on the Contact Info model and title it "Yosemite Valley Lodge Contact Info". Follow the same process as outlined in the section on [creating a new fragment reference from the editor](#fragment-reference-from-editor) and enter the following data into the fields of the new Content Fragment:
+1. From the **Contact Info** field, create a Content Fragment based on the Contact Info model and title it "Yosemite Valley Lodge Contact Info". Follow the same process as outlined in the section on [creating a fragment reference from the editor](#fragment-reference-from-editor) and enter the following data into the fields of the new Content Fragment:
 
     * **Phone**: 209-992-0000
     * **Email**: yosemitelodge@wknd.com
 
     Save the newly created Content Fragment.
 
-1. Navigate back to **Yosemite Valley Lodge** and go to the **Location Address** tab. From the **Address** field, create a new Content Fragment titled "Yosemite Valley Lodge Address" using the Address Content Fragment Model that you created in the previous chapter. Follow the same process as outlined in the section on [creating a new fragment reference from the editor](#fragment-reference-from-editor) and enter the following data into the fields:
+1. Navigate back to **Yosemite Valley Lodge** and go to the **Location Address** tab. From the **Address** field, create a Content Fragment titled "Yosemite Valley Lodge Address" using the Address Content Fragment Model that you created in the previous chapter. Follow the same process as outlined in the section on [creating a fragment reference from the editor](#fragment-reference-from-editor) and enter the following data into the fields:
 
     * **Street Address**: 9006 Yosemite Lodge Drive
     * **City**: Yosemite National Park
@@ -307,7 +307,7 @@ Browse folders to **Teams** > **Yosemite Team**. You can see that the Yosemite T
 
 ![Yosemite Team folder](assets/author-content-fragments/yosemite-team-folder.png)
 
-Let's create a new Content Fragment using the Team Content Fragment Model and title it "Yosemite Team".
+Let's create a Content Fragment using the Team Content Fragment Model and title it "Yosemite Team".
 
 ### Content and fragment references in the multi-line text editor
 
@@ -325,13 +325,13 @@ AEM allows you to add content and fragment references directly into the multi-li
 
     The content reference is now added into the **Description** field.
 
-Remember that in the previous chapter you allowed fragment references to be added to the **Description** field. Let's add one here.
+Remember, in the previous chapter you allowed fragment references to be added to the **Description** field. Let's add one here.
 
 1. Select the **Insert Content Fragment** icon in the toolbar of the multi-line text editor.
 
     ![Insert Content Fragment icon](assets/author-content-fragments/insert-content-fragment-icon.png)
 
-1. Browse to **WKND Site** > **English** > **Adventures** > **Locations** > **Yosemite Valley Lodge** > **Yosemite Valley Lodge**. Press **Select** to insert the Content Fragment.
+1. Browse to **WKND Shared** > **English** > **Adventures** > **Locations** > **Yosemite Valley Lodge** > **Yosemite Valley Lodge**. Press **Select** to insert the Content Fragment.
 
     ![Insert Content Fragment modal](assets/author-content-fragments/insert-content-fragment-modal.png)
 
@@ -357,7 +357,7 @@ Let's add Instructors to the Team Members fragment reference.
 
     ![Add button](assets/author-content-fragments/add-button.png)
 
-1. In the new field that appears, select the folder icon to open the Select Path modal. Browse through folders to **WKND Site** > **English** > **Adventures** > **Instructors**, then select the checkbox beside **jacob-wester**. Press **Select** to save the path.
+1. In the new field that appears, select the folder icon to open the Select Path modal. Browse through folders to **WKND Shared** > **English** > **Adventures** > **Instructors**, then select the checkbox beside **jacob-wester**. Press **Select** to save the path.
 
     ![Fragment Reference path](assets/author-content-fragments/fragment-reference-path.png)
 
@@ -373,11 +373,11 @@ Finally, let's add our newly created Content Fragments to an Adventure.
 
 1. Navigate to **Adventures** > **Yosemite Backpacking** and open the Yosemite Backpacking Content Fragment. At the bottom of the form, you can see the three fields that you have created in the previous chapter: **Location**, **Instructor Team**, and **Administrator**.
 
-1. Add the fragment reference in the **Location** field. The Location path should reference the Yosemite National Park Content Fragment that you created: `/content/dam/wknd/en/adventures/locations/yosemite-national-park/yosemite-national-park`.
+1. Add the fragment reference in the **Location** field. The Location path should reference the Yosemite National Park Content Fragment that you created: `/content/dam/wknd-shared/en/adventures/locations/yosemite-national-park/yosemite-national-park`.
 
-1. Add the fragment reference in the **Instructor Team** field. The Team path should reference the Yosemite Team Content Fragment that you created: `/content/dam/wknd/en/adventures/teams/yosemite-team/yosemite-team`. This is a nested fragment reference. The Team Content Fragment contains a reference to the Person model that references Contact Info and Address models. Therefore, you have nested content fragments three levels down.
+1. Add the fragment reference in the **Instructor Team** field. The Team path should reference the Yosemite Team Content Fragment that you created: `/content/dam/wknd-shared/en/adventures/teams/yosemite-team/yosemite-team`. This is a nested fragment reference. The Team Content Fragment contains a reference to the Person model that references Contact Info and Address models. Therefore, you have nested content fragments three levels down.
 
-1. Add the fragment reference in the **Administrator** field. Let's say that Jacob Wester is an Administrator for the Yosemite Backpacking Adventure. The path should lead to the Jacob Wester Content Fragment and appear as follows: `/content/dam/wknd/en/adventures/instructors/jacob-wester`. 
+1. Add the fragment reference in the **Administrator** field. Let's say that Jacob Wester is an Administrator for the Yosemite Backpacking Adventure. The path should lead to the Jacob Wester Content Fragment and appear as follows: `/content/dam/wknd-shared/en/adventures/instructors/jacob-wester`. 
 
 1. You have now added three fragment references to an Adventure Content Fragment. The fields look like this:
 
@@ -391,6 +391,4 @@ Congratulations! You have now created Content Fragments based on the advanced Co
 
 ## Next steps
 
-In the [next chapter](/help/headless-tutorial/graphql/advanced-graphql/explore-graphql-api.md), you will learn about sending advanced GraphQL queries using the GraphiQL Integrated Development Environment (IDE). These queries will allow us to view the data created in this chapter and eventually add these queries to the WKND app.
-
-While it is optional for this tutorial, make sure to publish all content in real-world production situations. More details about the Author and Publish environments can be found in the [headless video series](/help/headless-tutorial/graphql/video-series/author-publish-architecture.md)
+In the [next chapter](/help/headless-tutorial/graphql/advanced-graphql/explore-graphql-api.md), you learn about sending advanced GraphQL queries using the GraphiQL Integrated Development Environment (IDE). These queries allow us to view the data created in this chapter and eventually add these queries to the WKND app.
