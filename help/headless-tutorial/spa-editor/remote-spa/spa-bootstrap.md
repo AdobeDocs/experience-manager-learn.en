@@ -2,54 +2,40 @@
 title: Bootstrap the Remote SPA for SPA Editor
 description: Learn how to bootstrap a remote SPA for AEM SPA Editor compatibility.
 topic: Headless, SPA, Development
-feature: SPA Editor, Core Components, APIs, Developing
+feature: SPA Editor, APIs, Developing
 role: Developer, Architect
 level: Beginner
 kt: 7633
 thumbnail: kt-7633.jpeg
+last-substantial-update: 2022-11-01
 exl-id: b8d43e44-014c-4142-b89c-ff4824b89c78
 ---
 # Bootstrap the Remote SPA for SPA Editor
 
 Before the editable areas can be added to the Remote SPA, it must be bootstrapped with the AEM SPA Editor JavaScript SDK, and a few other configurations.
 
+## Install AEM SPA Editor JS SDK npm dependencies
 
-## Download the WKND App source
-
-If you have no already done so, download the WKND App's source code from Github.com, and switch the branch containing the changes to the SPA performed in this tutorial.
-
-```
-$ mkdir -p ~/Code/wknd-app
-$ cd ~/Code/wknd-app
-$ git clone --branch feature/spa-editor https://github.com/adobe/aem-guides-wknd-graphql.git
-$ cd aem-guides-wknd-graphql
-```
-
-## Review AEM SPA Editor JS SDK npm dependencies
-
-First, review AEM's SPA npm dependencies to the React project.
+First, review AEM's SPA npm dependencies for the React project, and the install them.
 
 + [`@adobe/aem-spa-page-model-manager`](https://github.com/adobe/aem-spa-page-model-manager) : provides the API for retrieving content from AEM.
 + [`@adobe/aem-spa-component-mapping`](https://github.com/adobe/aem-spa-component-mapping) : provides the API that map AEM content to SPA components.
-+ [`@adobe/aem-react-editable-components`](https://github.com/adobe/aem-react-editable-components) : provides an API for building custom SPA components and provides common-use implementations such as the `AEMPage` React component.
-+ [`@adobe/aem-core-components-react-base`](https://github.com/adobe/aem-react-core-wcm-components-base) : provides a suite of ready-to-use React components that seamlessly integrate with the AEM 
-WCM Core Components and are SPA Editor agnostic. These primarily include content components such as:
-  + Title
-  + Text
-  + Breadcrumbs
-  + And so on.
-+ [`@adobe/aem-core-components-react-spa`](https://github.com/adobe/aem-react-core-wcm-components-spa) : provides a suite of ready-to-use React components that seamlessly integrate with the AEM WCM Core Components and but require SPA Editor. These primarily contain components that contain content components from `@adobe/aem-core-components-react-base`, such as:
-  + Container
-  + Carousel
-  + and so forth.
++ [`@adobe/aem-react-editable-components` v2](https://github.com/adobe/aem-react-editable-components) : provides an API for building custom SPA components and provides common-use implementations such as the `AEMPage` React component.
+
+```shell
+$ cd ~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app
+$ npm install @adobe/aem-spa-page-model-manager 
+$ npm install @adobe/aem-spa-component-mapping
+$ npm install @adobe/aem-react-editable-components 
+```
 
 ## Review SPA environment variables
 
 Several environment variables must be exposed to the Remote SPA so it knows how to interact with AEM.
 
-1. Open Remote SPA project at `~/Code/wknd-app/aem-guides-wknd-graphql/react-app` in your IDE
-1. Open the file `.env.development` 
-1. In the file, pay specific attention to the keys:
+1.  Open Remote SPA project at `~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app` in your IDE
+1.  Open the file `.env.development` 
+1.  In the file, pay specific attention to the keys, and update as needed:
 
     ```
     REACT_APP_HOST_URI=http://localhost:4502
@@ -66,16 +52,16 @@ Several environment variables must be exposed to the Remote SPA so it knows how 
     
     *Remember that custom environment variables in React must be prefixed with `REACT_APP_`.*
 
-    + `REACT_APP_HOST_URI`: the scheme and host of the AEM service the Remote SPA connects to.
+    +   `REACT_APP_HOST_URI`: the scheme and host of the AEM service the Remote SPA connects to.
         + This value changes based on if the AEM environment (local, Dev, Stage, or Production), and the AEM Service type (Author vs. Publish)
-    + `REACT_APP_USE_PROXY`: this avoids CORS issues during development by telling the react development server to proxy AEM requests such as `/content, /graphql, .model.json` using `http-proxy-middleware` module.
-    + `REACT_APP_AUTH_METHOD`: authentication method for AEM served requests, options are 'service-token', 'dev-token', 'basic' or leave blank for no-auth use case
+    +   `REACT_APP_USE_PROXY`: this avoids CORS issues during development by telling the react development server to proxy AEM requests such as `/content, /graphql, .model.json` using `http-proxy-middleware` module.
+    +   `REACT_APP_AUTH_METHOD`: authentication method for AEM served requests, options are 'service-token', 'dev-token', 'basic' or leave blank for no-auth use case
         + Required for use with AEM Author
         + Possibly required for use with AEM Publish (if content is protected)
         + Developing against the AEM SDK supports local accounts via Basic Auth. This is the method used in this tutorial.
         + When integrating with AEM as a Cloud Service, use [access tokens](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html)
-    + `REACT_APP_BASIC_AUTH_USER`: the AEM __username__ by the SPA to authenticate while retrieving AEM content.
-    + `REACT_APP_BASIC_AUTH_PASS`: the AEM __password__ by the SPA to authenticate while retrieving AEM content.
+    +   `REACT_APP_BASIC_AUTH_USER`: the AEM __username__ by the SPA to authenticate while retrieving AEM content.
+    +   `REACT_APP_BASIC_AUTH_PASS`: the AEM __password__ by the SPA to authenticate while retrieving AEM content.
 
 ## Integrate the ModelManager API
 
@@ -83,18 +69,20 @@ With the AEM SPA npm dependencies available to the app, initialize AEM's `ModelM
 
 The [ModelManager](https://github.com/adobe/aem-spa-page-model-manager/blob/master/src/ModelManager.ts) is responsible for connecting to AEM to retrieving editable content.
 
-1. Open the Remote SPA project in your IDE
-1. Open the file `src/index.js`
-1. Add import `ModelManager` and initialize it before the `ReactDOM.render(..)` invocation,
+1.  Open the Remote SPA project in your IDE
+1.  Open the file `src/index.js`
+1.  Add import `ModelManager` and initialize it before the `root.render(..)` invocation,
 
-    ```
+    ```javascript
     ...
     import { ModelManager } from "@adobe/aem-spa-page-model-manager";
 
-    // Initialize the ModelManager before invoking ReactDOM.render(...).
+    // Initialize the ModelManager before invoking root.render(..).
     ModelManager.initializeAsync();
 
-    ReactDOM.render(...);
+    const container = document.getElementById('root');
+    const root = createRoot(container);
+    root.render(<App />);
     ```
 
 The `src/index.js` file should look like:
@@ -103,13 +91,13 @@ The `src/index.js` file should look like:
 
 ## Set up an internal SPA proxy
 
-When sourcing editable content from AEM in the SPA, it is best to set up an [internal proxy in the SPA](https://create-react-app.dev/docs/proxying-api-requests-in-development/#configuring-the-proxy-manually), that is configured to route the appropriate requests to AEM. This is done by using [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware) npm module, which is already installed by the base WKND GraphQL App.
+When creating an editable SPA, it is best to set up an [internal proxy in the SPA](https://create-react-app.dev/docs/proxying-api-requests-in-development/#configuring-the-proxy-manually), that is configured to route the appropriate requests to AEM. This is done by using [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware) npm module, which is already installed by the base WKND GraphQL App.
 
-1. Open the Remote SPA project in your IDE
-1. Open the file at `src/proxy/setupProxy.spa-editor.auth.basic.js`
-1. Review the following code:
+1.  Open the Remote SPA project in your IDE
+1.  Open the file at `src/proxy/setupProxy.spa-editor.auth.basic.js`
+1.  Update the file with the following code:
 
-    ```
+    ```javascript
     const { createProxyMiddleware } = require('http-proxy-middleware');
     const {REACT_APP_HOST_URI, REACT_APP_BASIC_AUTH_USER, REACT_APP_BASIC_AUTH_PASS } = process.env;
 
@@ -147,7 +135,7 @@ When sourcing editable content from AEM in the SPA, it is best to set up an [int
         const pathRewriteToAEM = function (path, req) { 
             if (path === '/.model.json') {
                 return '/content/wknd-app/us/en/home.model.json';
-            } else if (path.startsWith('/adventure:') && path.endsWith('.model.json')) {
+            } else if (path.startsWith('/adventure/') && path.endsWith('.model.json')) {
                 return '/content/wknd-app/us/en/home/adventure/' + path.split('/').pop();
             }    
         }
@@ -162,7 +150,7 @@ When sourcing editable content from AEM in the SPA, it is best to set up an [int
                     target: REACT_APP_HOST_URI,
                     changeOrigin: true,
                     // Pass in credentials when developing against an Author environment
-                    auth: REACT_APP_AUTHORIZATION,
+                    auth: `${REACT_APP_BASIC_AUTH_USER}:${REACT_APP_BASIC_AUTH_PASS}`,
                     pathRewrite: pathRewriteToAEM // Rewrite SPA paths being sent to AEM
                 }
             )
@@ -186,14 +174,14 @@ When sourcing editable content from AEM in the SPA, it is best to set up an [int
 
     This proxy configuration does two main things:
 
-    1. Proxies-specific requests made to the SPA, `http://localhost:3000` to AEM `http://localhost:4502`
+    1.  Proxies specific requests made to the SPA (`http://localhost:3000`) to AEM `http://localhost:4502`
         + It only proxies requests whose paths match patterns that indicate they should be served by AEM, as defined in `toAEM(path, req)`.
         + It rewrites SPA paths to their counterpart AEM pages, as defined in `pathRewriteToAEM(path, req)`
-    1. It adds CORS headers to all requests to allow access to AEM content, as defined by `res.header("Access-Control-Allow-Origin", REACT_APP_HOST_URI);` 
+    1.  It adds CORS headers to all requests to allow access to AEM content, as defined by `res.header("Access-Control-Allow-Origin", REACT_APP_HOST_URI);` 
         + If this is not added, CORS errors occur when loading AEM content in the SPA.
     
-1. Open the file `src/setupProxy.js`
-1. Review the line pointing to the `setupProxy.spa-editor.auth.basic` proxy configuration file:
+1.  Open the file `src/setupProxy.js`
+1.  Review the line pointing to the `setupProxy.spa-editor.auth.basic` proxy configuration file:
 
     ```
     ...
@@ -203,10 +191,6 @@ When sourcing editable content from AEM in the SPA, it is best to set up an [int
     ...
 
     ```
-
-    The `setupProxy.js` file should look like:
-
-    ![src/setupProxy.js](./assets/spa-bootstrap/setup-proxy-js.png)
 
 Note, any changes to the `src/setupProxy.js` or it's referenced files require a restart of the SPA.
 
@@ -218,8 +202,8 @@ Static SPA resources such as the WKND Logo and Loading graphics need to have the
 
 To resolve this issue, make a static resource hosted by the Remote SPA use absolute paths that include the Remote SPA's origin.
 
-1. Open the SPA project in your IDE
-1. Open your SPA's environment variables file `src/.env.development` and add a variable for the SPA's public URI:
+1.  Open the SPA project in your IDE
+1.  Open your SPA's environment variables file `src/.env.development` and add a variable for the SPA's public URI:
 
     ```
     ...
@@ -229,24 +213,24 @@ To resolve this issue, make a static resource hosted by the Remote SPA use absol
 
     _When deploying to AEM as a Cloud Service, you need to the same for the corresponding `.env` files._
 
-1. Open the file `src/App.js`
-1. Import the SPA's public URI from the SPA's environment variables
+1.  Open the file `src/App.js`
+1.  Import the SPA's public URI from the SPA's environment variables
 
-    ```
+    ```javascript
     const {  REACT_APP_PUBLIC_URI } = process.env;
 
     function App() { ... }
     ```
 
-1. Prefix the WKND logo `<img src=.../>` with `REACT_APP_PUBLIC_URI` to force resolution against the SPA.
+1.  Prefix the WKND logo `<img src=.../>` with `REACT_APP_PUBLIC_URI` to force resolution against the SPA.
 
-    ```
+    ```html
     <img src={REACT_APP_PUBLIC_URI + '/' +  logo} className="logo" alt="WKND Logo"/>
     ```
 
-1. Do the same for loading image in `src/components/Loading.js`
+1.  Do the same for loading image in `src/components/Loading.js`
 
-    ```
+    ```javascript
     const { REACT_APP_PUBLIC_URI } = process.env;
 
     class Loading extends Component {
@@ -259,9 +243,9 @@ To resolve this issue, make a static resource hosted by the Remote SPA use absol
     }
     ```
 
-1. And for the __two instances__ of the back button in `src/components/AdventureDetails.js`
+1.  And for the __two instances__ of the back button in `src/components/AdventureDetails.js`
 
-    ```
+    ```javascript
     const { REACT_APP_PUBLIC_URI } = process.env;
 
     function AdventureDetail(props) {
@@ -282,15 +266,15 @@ To support SPA Editor's layout mode for editable areas in the SPA, we must integ
 
 Add the AEM Responsive Grid SCSS files to the SPA.
 
-1. Open the SPA project in your IDE
-1. Download and copy the following two files into `src/styles`
-    + [_grid.scss](./assets/spa-bootstrap/_grid.scss)
+1.  Open the SPA project in your IDE
+1.  Download and copy the following two files into `src/styles`
+    +   [_grid.scss](./assets/spa-bootstrap/_grid.scss)
         + The AEM Responsive Grid SCSS generator
-    + [_grid-init.scss](./assets/spa-bootstrap/_grid-init.scss)
+    +   [_grid-init.scss](./assets/spa-bootstrap/_grid-init.scss)
         + Invokes `_grid.scss` using the SPA's specific breakpoints (desktop and mobile) and columns (12).
-1. Open `src/App.scss` and import `./styles/grid-init.scss`
+1.  Open `src/App.scss` and import `./styles/grid-init.scss`
 
-    ```
+    ```scss
     ...
     @import './styles/grid-init';
     ...
@@ -302,20 +286,31 @@ The `_grid.scss` and `_grid-init.scss` files should look like:
 
 Now the SPA includes the CSS required to support AEM's Layout Mode for components added to an AEM container.
 
+## Utility classes
+
+Copy in the the following utility classes into your React app project. 
+
++ [RoutedLink.js](./assets/spa-bootstrap/RoutedLink.js) to `~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app/src/components/editable/core/RoutedLink.js`
++ [EditorPlaceholder.js](./assets/spa-bootstrap/EditorPlaceholder.js) to `~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app/src/components/editable/core/util/EditorPlaceholder.js`
++ [withConditionalPlaceholder.js](./assets/spa-bootstrap/withConditionalPlaceholder.js) to `~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app/src/components/editable/core/util/withConditionalPlaceholder.js`
++ [withStandardBaseCssClass.js](./assets/spa-bootstrap/withStandardBaseCssClass.js) to `~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app/src/components/editable/core/util/withStandardBaseCssClass.js`
+
+![Remote SPA utility classes](./assets/spa-bootstrap/utility-classes.png)
+
 ## Start the SPA
 
 Now that the SPA is bootstrapped for integration with AEM, let's run the SPA and see what it looks like!
 
-1. On the command line, navigate to the root of the SPA project
-1. Start the SPA using the normal commands (if you have not already done it)
+1.  On the command line, navigate to the root of the SPA project
+1.  Start the SPA using the normal commands (if you have not already done it)
 
-    ```
-    $ cd ~/Code/wknd-app/aem-guides-wknd-graphql/react-app
+    ```shell
+    $ cd ~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app
     $ npm install 
     $ npm run start
     ```
 
-1. Browse the SPA on [http://localhost:3000](http://localhost:3000). Everything should look good!
+1.  Browse the SPA on [http://localhost:3000](http://localhost:3000). Everything should look good!
 
 ![SPA running on http://localhost:3000](./assets/spa-bootstrap/localhost-3000.png)
 
@@ -323,14 +318,14 @@ Now that the SPA is bootstrapped for integration with AEM, let's run the SPA and
 
 With the SPA running on [http://localhost:3000](http://localhost:3000), let's open it using AEM SPA Editor. Nothing is editable in the SPA yet, this only validates the SPA in AEM.
 
-1. Log in to AEM Author
-1. Navigate to __Sites > WKND App > us > en__
-1. Select the __WKND App Home Page__ and tap __Edit__, and the SPA appears.
+1.  Log in to AEM Author
+1.  Navigate to __Sites > WKND App > us > en__
+1.  Select the __WKND App Home Page__ and tap __Edit__, and the SPA appears.
 
     ![Edit WKND App Home Page](./assets/spa-bootstrap/edit-home.png)
 
-1. Switch to __Preview__ using the mode switcher in the top right
-1. Click around the SPA
+1.  Switch to __Preview__ using the mode switcher in the top right
+1.  Click around the SPA
 
     ![SPA running on http://localhost:3000](./assets/spa-bootstrap/spa-editor.png)
 

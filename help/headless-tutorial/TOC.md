@@ -80,7 +80,6 @@ index: y
     + [6 - Extend component](./spa-editor/angular/extend-component.md)    
   + Remote SPA{#remote-spa}
     + [Overview](./spa-editor/remote-spa/overview.md)
-    + [Quick Setup](./spa-editor/remote-spa/quick-setup.md)
     + [1 - Configure AEM](./spa-editor/remote-spa/aem-configure.md)
     + [2 - Bootstrap the SPA](./spa-editor/remote-spa/spa-bootstrap.md)
     + [3 - Fixed Components](./spa-editor/remote-spa/spa-fixed-component.md)
