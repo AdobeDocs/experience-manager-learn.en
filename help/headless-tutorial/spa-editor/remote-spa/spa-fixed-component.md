@@ -1,5 +1,5 @@
 ---
-title: Add Editable Fixed Components to a Remote SPA
+title: Add editable fixed components to a Remote SPA
 description: Learn how to add editable fixed components to a remote SPA.
 topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
@@ -7,6 +7,8 @@ role: Developer, Architect
 level: Beginner
 kt: 7634
 thumbnail: kt-7634.jpeg
+last-substantial-update: 2022-11-11
+recommendations: noDisplay, noCatalog
 exl-id: edd18f2f-6f24-4299-a31a-54ccc4f6d86e
 ---
 # Editable fixed components
@@ -21,87 +23,127 @@ In this chapter, we replace the Home view's title, "Current Adventures", which i
 
 To add a __Fixed__ component to the Home view:
 
-+ Import the AEM React Core Component Title component and register it to the project's Title's resource type
++ Create a custom editable Title component and register it to the project's Title's resource type
 + Place the editable Title component on the SPA's Home view
 
-### Import in the AEM React Core Component's Title component
+### Create an editable React Title component
 
-In the SPA's Home view, replace the hard-coded text `<h2>Current Adventures</h2>` with the AEM React Core Components' Title component. Before the Title component can be used, we have to:
+In the SPA's Home view, replace the hard-coded text `<h2>Current Adventures</h2>` with a custom editable Title component. Before the Title component can be used, we have to:
 
-1. Import the Title component from `@adobe/aem-core-components-react-base` 
-1. Register it using `withMappable` so developers can place it in the SPA
-1. Also, register with `MapTo` so it can be used in [container component later](./spa-container-component.md).
+1. Create a custom Title React component
+1. Decorate the custom Title component using methods from `@adobe/aem-react-editable-components` to make it editable.
+1. Register the editable Title component with `MapTo` so it can be used in [container component later](./spa-container-component.md).
 
 To do this:
 
-1. Open Remote SPA project at `~/Code/wknd-app/aem-guides-wknd-graphql/react-app` in your IDE
-1. Create a React component at `react-app/src/components/aem/AEMTitle.js`
-1. Add the following code to `AEMTitle.js`. 
+1.  Open Remote SPA project at `~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app` in your IDE
+1.  Create a React component at `react-app/src/components/editable/core/Title.js`
+1.  Add the following code to `Title.js`. 
 
+    ```javascript
+    import React from 'react'
+    import { RoutedLink } from "./RoutedLink";
+
+    const TitleLink = (props) => {
+    return (
+        <RoutedLink className={props.baseCssClass + (props.nested ? '-' : '__') + 'link'} 
+            isRouted={props.routed} 
+            to={props.linkURL}>
+        {props.text}
+        </RoutedLink>
+    );
+    };
+
+    const TitleV2Contents = (props) => {
+        if (!props.linkDisabled) {
+            return <TitleLink {...props} />
+        }
+
+        return <>{props.text}</>
+    };
+
+    export const Title = (props) => {
+        if (!props.baseCssClass) {
+            props.baseCssClass = 'cmp-title'
+        }
+
+        const elementType = (!!props.type) ? props.type.toString() : 'h3';
+        return (<div className={props.baseCssClass}>
+            {
+                React.createElement(elementType, {
+                        className: props.baseCssClass + (props.nested ? '-' : '__') + 'text',
+                    },
+                    <TitleV2Contents {...props} />
+                )
+            }
+
+            </div>)
+    }
+
+    export const titleIsEmpty = (props) => props.text == null || props.text.trim().length === 0
     ```
-    // Import the withMappable API provided by the AEM SPA Editor JS SDK
-    import { withMappable, MapTo } from '@adobe/aem-react-editable-components';
 
-    // Import the AEM React Core Components' Title component implementation and it's Empty Function 
-    import { TitleV2, TitleV2IsEmptyFn } from "@adobe/aem-core-components-react-base";
+    Note that this React component is not yet editable using AEM SPA Editor. This base component will be made editable in the next step.
 
-    // The sling:resourceType for which this Core Component is registered with in AEM
+    Read through the code's comments for the implementation details.
+
+1.  Create a React component at `react-app/src/components/editable/EditableTitle.js`
+1.  Add the following code to `EditableTitle.js`. 
+
+    ```javascript
+    // Import the withMappable API provided bu the AEM SPA Editor JS SDK
+    import { EditableComponent, MapTo } from '@adobe/aem-react-editable-components';
+    import React from 'react'
+
+    // Import the AEM the Title component implementation and it's Empty Function
+    import { Title, titleIsEmpty } from "./core/Title";
+    import { withConditionalPlaceHolder } from "./core/util/withConditionalPlaceholder";
+    import { withStandardBaseCssClass } from "./core/util/withStandardBaseCssClass";
+
+    // The sling:resourceType of the AEM component used to collected and serialize the data this React component displays
     const RESOURCE_TYPE = "wknd-app/components/title";
 
     // Create an EditConfig to allow the AEM SPA Editor to properly render the component in the Editor's context
-    const EditConfig = {    
-        emptyLabel: "Title",  // The component placeholder in AEM SPA Editor
-        isEmpty: TitleV2IsEmptyFn, // The function to determine if this component has been authored
+    const EditConfig = {
+        emptyLabel: "Title",        // The component placeholder in AEM SPA Editor
+        isEmpty: titleIsEmpty,      // The function to determine if this component has been authored
         resourceType: RESOURCE_TYPE // The sling:resourceType this component is mapped to
     };
 
+    export const WrappedTitle = (props) => {
+        const Wrapped = withConditionalPlaceHolder(withStandardBaseCssClass(Title, "cmp-title"), titleIsEmpty, "TitleV2")
+        return <Wrapped {...props} />
+    }
+
+    // EditableComponent makes the component editable by the AEM editor, either rendered statically or in a container
+    const EditableTitle = (props) => <EditableComponent config={EditConfig} {...props}><WrappedTitle /></EditableComponent>
+
     // MapTo allows the AEM SPA Editor JS SDK to dynamically render components added to SPA Editor Containers
-    MapTo(RESOURCE_TYPE)(TitleV2, EditConfig);
+    MapTo(RESOURCE_TYPE)(EditableTitle);
 
-    // withMappable allows the component to be hardcoded into the SPA; <AEMTitle .../>
-    const AEMTitle = withMappable(TitleV2, EditConfig);
-
-    export default AEMTitle;
+    export default EditableTitle;
     ```
 
-Read through the code's comments for the implementation details.
+    This `EditableTitle` React component wraps the `Title` React component, wrapping and decorating it to be editable in AEM SPA Editor.
 
-The `AEMTitle.js` file should look like:
+### Use the React EditableTitle component
 
-![AEMTitle.js](./assets/spa-fixed-component/aem-title-js.png)
+Now that the EditableTitle React component is registered in and available for use within the React app, replace the hard-coded title text on the Home view.
 
-### Use the React AEMTitle component
-
-Now that the AEM React Core Component's Title component is registered in and available for use within the React app, replace the hard-coded title text on the Home view.
-
-1. Edit `react-app/src/Home.js`
-1. In the `Home()` at the bottom, replace the hard-coded title with the new `AEMTitle` component:
+1.  Edit `react-app/src/components/Home.js`
+1.  In the `Home()` at the bottom, import `EditableTitle` and replace the hard-coded title with the new `AEMTitle` component:
      
-    ```
-    <h2>Current Adventures</h2>
-    ```
-     
-    with
-     
-    ```
-    <AEMTitle
-        pagePath='/content/wknd-app/us/en/home' 
-        itemPath='root/title'/>
-    ```
-
-    Update `Home.js` with the following code:
-
-    ```
+    ```javascript
     ...
-    import { AEMTitle } from './aem/AEMTitle';
+    import EditableTitle from './editable/EditableTitle';
     ...
     function Home() {
         return (
             <div className="Home">
 
-                <AEMTitle
-                    pagePath='/content/wknd-app/us/en/home' 
-                    itemPath='root/title'/>
+            <EditableTitle
+                pagePath='/content/wknd-app/us/en/home'
+                itemPath='root/title'/>
 
                 <Adventures />
             </div>
@@ -111,28 +153,28 @@ Now that the AEM React Core Component's Title component is registered in and ava
 
 The `Home.js` file should look like:
 
-![Home.js](./assets/spa-fixed-component/home-js.png)
+![Home.js](./assets/spa-fixed-component/home-js-update.png)
 
 ## Author the Title component in AEM
 
-1. Log in to AEM Author
-1. Navigate to __Sites > WKND App__
-1. Tap __Home__ and select __Edit__ from the top action bar
-1. Select __Edit__ from the edit mode selector in the top right of the Page Editor
-1. Hover over the default title text below the WKND logo and above the adventures list, until the blue edit outline displays
-1. Tap to expose the component's action bar, and then tap the __wrench__  to edit
+1.  Log in to AEM Author
+1.  Navigate to __Sites > WKND App__
+1.  Tap __Home__ and select __Edit__ from the top action bar
+1.  Select __Edit__ from the edit mode selector in the top right of the Page Editor
+1.  Hover over the default title text below the WKND logo and above the adventures list, until the blue edit outline displays
+1.  Tap to expose the component's action bar, and then tap the __wrench__  to edit
 
     ![Title component action bar](./assets/spa-fixed-component/title-action-bar.png)
 
-1. Author the Title component:
-    + Title: __WKND Adventures__
-    + Type/Size: __H2__
+1.  Author the Title component:
+    +   Title: __WKND Adventures__
+    +   Type/Size: __H2__
 
         ![Title component dialog](./assets/spa-fixed-component/title-dialog.png)
 
-1. Tap __Done__ to save
-1. Preview your changes in AEM SPA Editor
-1. Refresh the WKND App running locally on [http://localhost:3000](http://localhost:3000) and see the authored title changes immediately reflected.
+1.  Tap __Done__ to save
+1.  Preview your changes in AEM SPA Editor
+1.  Refresh the WKND App running locally on [http://localhost:3000](http://localhost:3000) and see the authored title changes immediately reflected.
 
     ![Title component in SPA](./assets/spa-fixed-component/title-final.png)
 
@@ -140,8 +182,7 @@ The `Home.js` file should look like:
 
 You've added a fixed, editable component to the WKND App! You now know how to:
 
-+ Import from and reuse a AEM React Core Component in the SPA
-+ Add a fixed, but editable, component to the SPA
++ Created a fixed, but editable, component to the SPA
 + Author the fixed component in AEM
 + See the authored content in the Remote SPA
 

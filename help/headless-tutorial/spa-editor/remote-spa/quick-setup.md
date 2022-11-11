@@ -7,6 +7,8 @@ role: Developer, Architect
 level: Beginner
 kt: 7629
 thumbnail: 333181.jpg
+last-substantial-update: 2022-11-11
+recommendations: noDisplay, noCatalog
 exl-id: ef7a1dad-993a-4c47-a9fb-91fa73de9b5d
 ---
 # Quick Setup
@@ -26,7 +28,7 @@ This tutorial requires the following:
 + [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en)
 + [Node.js v16+](https://nodejs.org/en/)
 + [npm v8+](https://www.npmjs.com/)
-+ [Java™ 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
++ [Java&trade; 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 + [Maven 3.6+](https://maven.apache.org/)
 + [Git](https://git-scm.com/downloads)
 + macOS only prerequisites
@@ -37,7 +39,7 @@ This tutorial requires the following:
 
 This tutorial assumes:
 
-+ [Microsoft® Visual Studio Code](https://visualstudio.microsoft.com/) as the IDE
++ [Microsoft&reg; Visual Studio Code](https://visualstudio.microsoft.com/) as the IDE
 + A working directory of `~/Code/wknd-app`
 + Running the AEM SDK as an Author service on `http://localhost:4502`
 + Running the AEM SDK with the local `admin` account with password `admin`
