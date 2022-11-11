@@ -119,7 +119,7 @@ Two AEM **packages** are available and can be installed via [Package Manager](/h
 * [Advanced-GraphQL-Tutorial-Solution-Package-1.2.zip](/help/headless-tutorial/graphql/advanced-graphql/assets/tutorial-files/Advanced-GraphQL-Tutorial-Solution-Package-1.2.zip) contains the finished solution for Chapters 1-4 including new Content Fragment Models, Content Fragments, and Persisted GraphQL queries. Useful for those who want to skip right into the [Client Application Integration](/help/headless-tutorial/graphql/advanced-graphql/client-application-integration.md) chapter.
 
 
-The **React App - Advanced Tutorial - WKND Adventures**(https://github.com/adobe/aem-guides-wknd-graphql/blob/main/advanced-tutorial/README.md) project is available to review and explore the sample application. This sample application retrieves the content from AEM by invoking the persisted GraphQL queries and renders it in an immersive experience.
+The [React App - Advanced Tutorial - WKND Adventures](https://github.com/adobe/aem-guides-wknd-graphql/blob/main/advanced-tutorial/README.md) project is available to review and explore the sample application. This sample application retrieves the content from AEM by invoking the persisted GraphQL queries and renders it in an immersive experience.
 
 ## Getting started
 
