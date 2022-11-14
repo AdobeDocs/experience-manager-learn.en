@@ -47,6 +47,7 @@ index: y
   + [Installing AEM Forms on Windows](adaptive-forms/installing-aem-form-on-windows-tutorial-use.md)
   + [Installing 32 bit packages on Linux](adaptive-forms/installing-aem-form-on-linux.md)
   + [Prefill Service in Adaptive Forms](adaptive-forms/prefill-service-adaptive-forms-article-use.md)
+  + [Populate Adaptive Form using query parameters](adaptive-forms/prepopulating-adaptive-form-using-query-parameters.md)
   + [Custom Submit in Adaptive Forms](adaptive-forms/custom-submit-aem-forms-article.md)
   + [Captcha in Adaptive Forms](adaptive-forms/forms-captcha-feature-video-use.md)
   + [Custom Functions in Rule Editor](adaptive-forms/custom-functions-aem-forms.md)
