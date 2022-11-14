@@ -73,7 +73,7 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
 
     Wait 15 minutes for the Cloud Manager Program to provision the network infrastructure.
 
-1. Check that the environment has finished __dedicated egress IP address__ configuration using the Cloud Manager API [getNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#operation/getNetworkInfrastructure) operation, using the `id` returned from the  createNetworkInfrastructure HTTP request in the previous step.
+1. Check that the program has finished __dedicated egress IP address__ configuration using the Cloud Manager API [getNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#operation/getNetworkInfrastructure) operation, using the `id` returned from the  createNetworkInfrastructure HTTP request in the previous step.
 
      __getNetworkInfrastructure HTTP request__
 
@@ -85,11 +85,11 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
         -H 'Content-Type: application/json'
     ```
 
-    Verify that the HTTP response contains a __status__ of __ready__. If not yet ready recheck the status every few minutes.
+    Verify that the HTTP response contains a __status__ of __ready__. If not yet ready, recheck the status every few minutes.
 
 ## Configure dedicated egress IP address proxies per environment
 
-1. Enable and configure the __dedicated egress IP address__ configuration on each AEM as a Cloud Service environment using the Cloud Manager API [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. 
+1. Configure the __dedicated egress IP address__ configuration on each AEM as a Cloud Service environment using the Cloud Manager API [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. 
 
     __enableEnvironmentAdvancedNetworkingConfiguration HTTP request__
 
@@ -158,6 +158,8 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
     ```
 
     The hostname cannot be `pinged`, as it is an egress and _not_ and ingress.
+    
+    Note the __dedicated egress IP address__ is shared by all AEM as a Cloud Service environments in the program.
 
 1. Now you can use the dedicated egress IP address in your custom AEM code and configuration. Often when using dedicated egress IP address, the external services AEM as a Cloud Service connects to are configured to only allow traffic from this dedicated IP address.
 
