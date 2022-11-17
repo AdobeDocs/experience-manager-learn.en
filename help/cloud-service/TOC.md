@@ -85,6 +85,8 @@ team: TM
     + [Repository Browser](./debugging/cloud-service/repository-browser.md)
     + Risks{#risks}
       + [Traveral warnings](./debugging/cloud-service/risks/traversals.md)
++ Content Delivery{#content-delivery}
+  + [URL Redirects](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/administration/url-redirection.html)
 + Accessing AEM{#accessing}    
   + [Overview](./accessing/overview.md)
   + [Adobe IMS users](./accessing/adobe-ims-users.md)

@@ -14,6 +14,7 @@ index: y
   + [Use oak-run.jar to Manage Indexes](./administration/use-oak-run-jar-to-manage-indexes.md)
   + [Use Online Revision Clean-up](./administration/use-online-revision-clean-up.md)
   + [Use the System Overview Dashboard](./administration/use-the-system-overview-dashboard.md)
+  + [URL Redirects](./administration/url-redirection.md)
 + Authentication {#authentication}
   + [OAuth Authentication](authentication/oauth-code-sample-develop.md)
   + [Set up Public/Private Keys to use with Adobe I/O](authentication/set-up-public-private-keys-for-use-with-aem-and-adobe-io.md)
