@@ -8,7 +8,7 @@ role: Leader, Architect, Admin, Developer
 level: Beginner
 kt: 10718
 thumbnail: KT-10718.png
-last-substantial-update: 2022-10-02
+last-substantial-update: 2022-11-17
 mini-toc-levels: 1
 exl-id: 9e856dcc-f042-4e9d-bf97-dd4f72e837e3
 ---
@@ -23,7 +23,7 @@ Click on the Experience Cloud product for documentation on how to configure and 
 | Advertising                                                       |           |            |          |
 | [Analytics](#adobe-analytics)                                     | &#10004;  | &#10004;   | &#10004; |
 | Audience Manager                                                  |           |            |          |
-| [Campaign Classic](#adobe-campaign-classic)                       | &#10004;  |            |          |
+| Campaign Classic                                                  |           |            |          |
 | Campaign Standard                                                 |           |            |          |
 | [Commerce](#adobe-commerce)                                       | &#10004;  | &#10004;   |          | 
 | Customer Journey Analytics                                        |           |            |          |
@@ -70,10 +70,6 @@ Adobe Analytics integration with AEM as a Cloud Service, lets you track content 
 ### AEM Forms
 
 + [Configure the Adobe Analytics integration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate-aem-forms-with-adobe-analytics.html)
-
-## Adobe Campaign Classic
-
-Adobe Campaign Classic integration with AEM as a Cloud Service, lets you manage email delivery content and forms directly in Adobe Experience Manager, while using Adobe Campaign Classic to personalize and deliver e-mails. 
 
 ### AEM Sites
 
