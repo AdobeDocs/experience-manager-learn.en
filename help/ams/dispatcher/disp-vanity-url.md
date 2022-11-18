@@ -77,7 +77,7 @@ It's important to make sure publishers are only allowing content from the `/cont
 
 Here is the rub, vanity urls live at the base folder of `/` so how do we allow them to reach the publishers while staying secure?
 
-Simple dispatcher has an auto-filter allow mechanism and you have to install an AEM package and then configure the Dispatcher to point to that packages page.
+Simple Dispatcher has an auto-filter allow mechanism and you have to install an AEM package and then configure the Dispatcher to point to that packages page.
 
 [https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/granite/vanityurls-components](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/granite/vanityurls-components)
 

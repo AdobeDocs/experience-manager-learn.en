@@ -1,6 +1,6 @@
 ---
 title: Adobe Managed Services Dispatcher Manual
-description: AMS processes for getting proper support on the dispatcher setup.
+description: AMS processes for getting proper support on the Dispatcher setup.
 version: Adobe Managed Service
 topic: Administration, Performance, Security
 feature: Dispatcher
@@ -11,11 +11,11 @@ thumbnail: xx.jpg
 
 # Adobe Managed Services Dispatcher manual
 
-Below given document will cover our processes for getting proper support on the dispatcher setup.
+Below given document will cover our processes for getting proper support on the Dispatcher setup.
 
 ## Table of Contents
 
-Here are the sub-pages and topics that comprise the dispatcher manual:
+Here are the sub-pages and topics that comprise the Dispatcher manual:
 
 - [What is "The Dispatcher"](./what-is-the-dispatcher.md)
 - [Basic File Layout](./basic-file-layout.md)

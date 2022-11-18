@@ -23,7 +23,7 @@ When AMS provisions a system they roll out a baseline configuration that makes e
 
 The layout doesn't prevent you from altering their behavior and overriding any changes you need.  Instead of you changing these files, you'll overlay your own file that supersedes the original.
 
-This also allows you to be reassured that when AMS patches the dispatchers with the latest fixes and security enhancements, they won't alter your files.  Then you can continue to benefit from the improvements and adopt only the changes you'd like.
+This also allows you to be reassured that when AMS patches the Dispatchers with the latest fixes and security enhancements, they won't alter your files.  Then you can continue to benefit from the improvements and adopt only the changes you'd like.
 ![Shows a bowling lane with a ball rolling down the lane.  The ball has an arrow with the word showing you.  The gutter bumpers are raised and they have the words immutable files above them.](assets/immutable-files/bowling-file-immutability.png "bowling-file-immutability")
 As illustrated in the picture above, immutable files are not stopping you from playing the game.  They just stop you from hurting your performance and keep you in the lane.  This method allows us the few very key features:
 
@@ -33,7 +33,7 @@ As illustrated in the picture above, immutable files are not stopping you from p
 - Testing base install vs customized configurations can be done simultaneously to help discern if the issues are caused by customizations or something else Which Files?
 
 
-Here is a typical list of files deployed with a dispatcher:
+Here is a typical list of files deployed with a Dispatcher:
 
 ```
 /etc/httpd/
@@ -118,7 +118,7 @@ Here is a typical list of files deployed with a dispatcher:
     └── mod_dispatcher.so
 ```
 
-To determine which files are immutable you can run the following command on a dispatcher to see:
+To determine which files are immutable you can run the following command on a Dispatcher to see:
 
 ```
 $ lsattr -Rl /etc/httpd 2>/dev/null | grep Immutable
@@ -207,7 +207,7 @@ You see above that the current value of `DISP_LOG_LEVEL` variable is `info`.  
 
 ### Overlay Method
 
-Please understand the top level include files because these will be your starting place of making any customizations.  To start with a simple example, we have a scenario where we want to add a new domain name that we intend to point at this dispatcher.  The domain example we will use is we-retail.adobe.com.  We will start by copying an existing configuration file to a new one where we can add our changes:
+Please understand the top level include files because these will be your starting place of making any customizations.  To start with a simple example, we have a scenario where we want to add a new domain name that we intend to point at this Dispatcher.  The domain example we will use is we-retail.adobe.com.  We will start by copying an existing configuration file to a new one where we can add our changes:
 
 ```
 $ cp /etc/httpd/conf.d/available_vhosts/aem_publish.vhost /etc/httpd/conf.d/available_vhosts/weretail_publish.vhost
@@ -257,7 +257,7 @@ Now we have updated our `ServerName` and `ServerAlias` to match the new domain n
 $ cd /etc/httpd/conf.d/enabled_vhosts/; ln -s ../available_vhosts/weretail_publish.vhost .
 ```
 
-Now apache webserver knows that domain is something it should yield traffic for, but we still need to inform the dispatcher module it has a new domain name to honor.  We will start by creating a new `*_vhost.any` file `/etc/httpd/conf.dispatcher.d/vhosts/weretail_vhosts.any` and inside that file we will put in the domain name we want to honor:
+Now apache webserver knows that domain is something it should yield traffic for, but we still need to inform the Dispatcher module it has a new domain name to honor.  We will start by creating a new `*_vhost.any` file `/etc/httpd/conf.dispatcher.d/vhosts/weretail_vhosts.any` and inside that file we will put in the domain name we want to honor:
 
 ```
 "we-retail.adobe.com"
