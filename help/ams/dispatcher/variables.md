@@ -15,7 +15,7 @@ thumbnail: xx.jpg
 
 [<- Previous: Understanding Cache](./understanding-cache.md)
 
-This document will explain how you can leverage the power of variables in Apache web server and in your dispatcher module configuration files.
+This document will explain how you can leverage the power of variables in Apache web server and in your Dispatcher module configuration files.
 
 ## Variables
 
@@ -78,7 +78,7 @@ Here is the syntax example that exists in the ams baseline configuration files:
 </IfModule>
 ```
 
-If you need to increase the dispatcher logging level just update the `ams_default.vars` variable `DISP_LOG_LEVEL` to the level you'd like.
+If you need to increase the Dispatcher logging level just update the `ams_default.vars` variable `DISP_LOG_LEVEL` to the level you'd like.
 
 Example Values can be an integer or the word:
 

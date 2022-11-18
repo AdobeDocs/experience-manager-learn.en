@@ -15,11 +15,11 @@ thumbnail: xx.jpg
 
 [<- Previous: Basic File Layout](./basic-file-layout.md)
 
-This document will break down and explain each of the configuration files deployed in a standard built dispatcher server provisioned in Adobe Managed Services. Their use, naming convention, etc...
+This document will break down and explain each of the configuration files deployed in a standard built Dispatcher server provisioned in Adobe Managed Services. Their use, naming convention, etc...
 
 ## Naming Convention
 
-Apache Web Server doesn't actually care what the file extension is of a file when targeting it with an `Include` or `IncludeOptional` statement.  Naming them properly with names that eliminate conflicts and confusion helps a <b>ton</b>. Names used will describe the scope of where the file is applied it makes life easier. If everything is named `.conf` this gets really confusing. We want to avoid poorly named files and extensions.  Below is a list of the different custom file extensions and naming conventions used in a typical AMS configured dispatcher.
+Apache Web Server doesn't actually care what the file extension is of a file when targeting it with an `Include` or `IncludeOptional` statement.  Naming them properly with names that eliminate conflicts and confusion helps a <b>ton</b>. Names used will describe the scope of where the file is applied it makes life easier. If everything is named `.conf` this gets really confusing. We want to avoid poorly named files and extensions.  Below is a list of the different custom file extensions and naming conventions used in a typical AMS configured Dispatcher.
 
 ## Files contained in conf.d/
 
@@ -41,7 +41,7 @@ Apache Web Server doesn't actually care what the file extension is of a file whe
 | FILENAME`_cache.any` | `/etc/httpd/conf.dispatcher.d/cache/` | `*_cache.any` files are included from inside the `conf.dispatcher.d/enabled_farms/*_farm.any` files. These files specify which items are cached and which aren't |
 | FILENAME`_invalidate_allowed.any` | `/etc/httpd/conf.dispatcher.d/cache/` | `*_invalidate_allowed.any` files are included inside the `conf.dispatcher.d/enabled_farms/*_farm.any` files. They specify which IP addresses are allowed to send flush and invalidation requests. |
 | FILENAME`_clientheaders.any` | `/etc/httpd/conf.dispatcher.d/clientheaders/` | `*_clientheaders.any` files are included inside the `conf.dispatcher.d/enabled_farms/*_farm.any` files. They specify which client headers should be passed through to each renderer. |
-| FILENAME`_renders.any` | `/etc/httpd/conf.dispatcher.d/renders/` | `*_renders.any` files are included inside the `conf.dispatcher.d/enabled_farms/*_farm.any` files. They specify IP, port, and timeout settings for each renderer. A proper renderer can be a livecycle server or any AEM systems where the dispatcher can fetch / proxy the requests from |
+| FILENAME`_renders.any` | `/etc/httpd/conf.dispatcher.d/renders/` | `*_renders.any` files are included inside the `conf.dispatcher.d/enabled_farms/*_farm.any` files. They specify IP, port, and timeout settings for each renderer. A proper renderer can be a livecycle server or any AEM systems where the Dispatcher can fetch / proxy the requests from |
 
 ## Avoided Problems
 
@@ -49,7 +49,7 @@ When following the naming convention you can avoid some pretty easy to make mist
 
 ### Problem Example
 
-As a site Example for ExampleCo two configuration files were created by the developers of the dispatcher configurations.
+As a site Example for ExampleCo two configuration files were created by the developers of the Dispatcher configurations.
 
 <b>/etc/httpd/conf.d/exampleco.conf</b>
 
@@ -103,7 +103,7 @@ Using these naming conventions will avoid issues, if a file gets moved into an a
 
 For example putting a file named with `.rules`, `.any`, or `.vhost` in the auto-include folder of `/etc/httpd/conf.d/` wouldn't have any affect.
 
-If a deployment change request says "please deploy exampleco_rewrite.rules to production dispatchers", the person deploying the changes can already know that they aren't adding a new site, they're just updating rewrite rules as indicated by the filename.
+If a deployment change request says "please deploy exampleco_rewrite.rules to production Dispatchers", the person deploying the changes can already know that they aren't adding a new site, they're just updating rewrite rules as indicated by the filename.
 
 ### Include Order
 
@@ -111,7 +111,7 @@ When extending functionality and configurations in Apache Webserver installed on
 
 ### Apache Baseline Includes
 
-![](assets/dispatcher-configuration-files/Apache-Webserver-Baseline-Includes.png)
+![](assets/explanation-config-files/Apache-Webserver-Baseline-Includes.png)
 
 As seen in the diagram above the httpd binary only looks to the httpd.conf file as it's configuration file.  That file contains the following statements in it:
 
@@ -144,7 +144,7 @@ To use the module in our `<VirtualHost />` we drop a configuration file into 
 </IfModule>
 ```
 
-As you can see above this includes the top level `dispatcher.any` file for our dispatcher module to pick up it's configuration files from `/etc/httpd/conf.dispatcher.d/dispatcher.any`
+As you can see above this includes the top level `dispatcher.any` file for our Dispatcher module to pick up it's configuration files from `/etc/httpd/conf.dispatcher.d/dispatcher.any`
 
 Pay attention to the contents of this file:
 
@@ -162,7 +162,7 @@ Later in the `dispatcher_vhost.conf` file mentioned earlier we also do an incl
 IncludeOptional /etc/httpd/conf.d/enabled_vhosts/*.vhost
 ```
 
-In each of our .vhost files you'll note the dispatcher module gets initialized as a default file handler for a directory.  Here is an example .vhost file to show the syntax:
+In each of our .vhost files you'll note the Dispatcher module gets initialized as a default file handler for a directory.  Here is an example .vhost file to show the syntax:
 
 ```
 <VirtualHost *:80> 
@@ -296,7 +296,7 @@ Let's look at the syntax of a few of these includes to get the idea of what each
 "www.weretail.comf"
 ```
 
-As you can see it's a new line seperated list of domain names that should render from this farm over the others.
+As you can see it's a new line separated list of domain names that should render from this farm over the others.
 
 Next let's look at the `/etc/httpd/conf.dispatcher.d/filters/weretail_search_filters.any`:
 

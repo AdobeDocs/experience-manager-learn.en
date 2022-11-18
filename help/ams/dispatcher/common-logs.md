@@ -1,6 +1,6 @@
 ---
 title: Common Logs
-description: Take a look at common log entries from the dispatcher and learning what they mean and how to address them.
+description: Take a look at common log entries from the Dispatcher and learning what they mean and how to address them.
 version: Adobe Managed Service
 topic: Administration, Performance
 feature: Dispatcher
@@ -29,7 +29,7 @@ Please consult the documentation at 'https://www.adobe.com/go/docs_dispatcher_co
 method/url/query/protocol/path/selectors/extension/suffix instead.
 ```
 
-Since dispatcher module 4.2.x they started discouraging people to use the following type of matches in their filters file:
+Since Dispatcher module 4.2.x they started discouraging people to use the following type of matches in their filters file:
 
 ```
 /0041 { /type "allow" /glob "* *.css *"   }
@@ -70,7 +70,7 @@ Fri Jul 20 22:16:55 2018 I pid 128803 "GET /system/console/" ! - 8ms publishfarm
 
 <div style="color: #000;border-left: 6px solid red;background-color:#ddffff;"><b>Caution:</b>
 
-Understand that the dispatcher's rules were set to filter out that request. In this case the page attempted to be visited was rejected on purpose and we wouldn't want to do anything with this.
+Understand that the Dispatcher's rules were set to filter out that request. In this case the page attempted to be visited was rejected on purpose and we wouldn't want to do anything with this.
 </div>
 
 If your log looks like this entry:
@@ -103,7 +103,7 @@ Fri Jul 20 22:31:15 2018 W pid 3648 Unable to connect socket to 10.43.3.40:4502:
 Fri Jul 20 22:31:15 2018 W pid 3648 Unable to connect to any backend in farm authorfarm
 ```
 
-This occurs when you have the wrong IP address configured in the renders section of your farm. That or the AEM instance stopped responding or listening and the dispatcher can't reach it.
+This occurs when you have the wrong IP address configured in the renders section of your farm. That or the AEM instance stopped responding or listening and the Dispatcher can't reach it.
 
 Check your firewall rules and that the AEM instance is running and healthy.
 
@@ -114,7 +114,7 @@ Fri Jul 20 22:32:42 2018 I pid 3648 "GET /favicon.ico" 502 - 54034ms authorfarm/
 Fri Jul 20 22:35:45 2018 I pid 3648 "GET /favicon.ico" 503 - 54234ms authorfarm/-
 ```
 
-This means the AEM instance had an open socket it could reach and timed out with the response. This means your AEM instance was too slow or un-healthy and dispatcher reached it's configured timeout settings in the render section of the farm. Either increase the timeout setting or get your AEM instance healthy.
+This means the AEM instance had an open socket it could reach and timed out with the response. This means your AEM instance was too slow or un-healthy and Dispatcher reached it's configured timeout settings in the render section of the farm. Either increase the timeout setting or get your AEM instance healthy.
 
 ## Caching level
 
@@ -161,7 +161,7 @@ Thu Sep 27 17:35:11 2018 D pid 18936 Vanity URL file (/tmp/vanity_urls) not foun
 Thu Sep 27 17:35:11 2018 W pid 18936 Unable to fetch vanity URLs from 10.43.0.42:4503/libs/granite/dispatcher/content/vanityUrls.html: remote server returned: HTTP/1.1 404 Not Found
 ```
 
-This error occurs when you've configured your dispatcher to use the dynamic auto-filter allow vanity URLs, but not finished the setup by installing the package on the AEM renderer.
+This error occurs when you've configured your Dispatcher to use the dynamic auto-filter allow vanity URLs, but not finished the setup by installing the package on the AEM renderer.
 
 To fix this please install the vanity url feature pack on the AEM instance and allow it to be ready by the anonymous user. Details [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17463.html%3Flang%3Den)
 

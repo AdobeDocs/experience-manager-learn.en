@@ -15,11 +15,11 @@ thumbnail: xx.jpg
 
 [<- Previous: What is "The Dispatcher"](./what-is-the-dispatcher.md)
 
-This document will explain the AMS standard configuration file set and the thinking behind this configuration standard
+This document explains the AMS standard configuration file set and the thinking behind this configuration standard
 
 ## Default Enterprise Linux folder structure
 
-In AMS the base installation uses Enterprise Linux as the base operating system.  When installing Apache Webserver it will have a default install file set.  Here is the default files that get installed by installing the basic RPM's provided by the yum repository
+In AMS the base installation uses Enterprise Linux as the base operating system. When installing Apache Webserver, it has a default install file set. Here are the default files that get installed by installing the basic RPM's provided by the yum repository
 
 ```
 /etc/httpd/ 
@@ -56,15 +56,15 @@ The Adobe Managed Services servers images typically have small Operating System 
 Then we use that volume instead of the defaults for the following default directories
 
 `DocumentRoot`
-  - Default:`/var/www/html`
-  - AMS:`/mnt/var/www/html`
+- Default:`/var/www/html`
+- AMS:`/mnt/var/www/html`
 
 `Log Directory`
-  - Default: `/var/log/httpd`
-  - AMS: `/mnt/var/log/httpd`
+- Default: `/var/log/httpd`
+- AMS: `/mnt/var/log/httpd`
 
 Keep in mind that the old and new directories are mapped back to the original mount point to eliminate confusion.
-Using a seperate volume isn't vital but it's note worthy
+Using a separate volume isn't vital but it's note worthy
 </div>
 
 ## AMS Add-ons
@@ -85,13 +85,13 @@ AMS Default document roots:
 
 The following directories allow you to build out configuration files having a staging area that you can work on files and only enable then when they are ready.
 - `/etc/httpd/conf.d/available_vhosts/`
-   - This folder will host all of your VirtualHost / files called `.vhost`
+   - This folder hosts all of your VirtualHost / files called `.vhost`
 - `/etc/httpd/conf.d/enabled_vhosts/`
-   - When you're ready to use the `.vhost` files you have inside the `available_vhosts` folder symlink them using a relative path into the `enabled_vhosts` directory
+   - When you're ready to use the `.vhost` files, you have inside the `available_vhosts` folder symlink them using a relative path into the `enabled_vhosts` directory
 
 ### Additional `conf.d` Directories
 
-There are additional pieces that are common in Apache configurations and we created sub directories to allow for a clean way to seperate those files and not have all the files in one directory
+There are additional pieces that are common in Apache configurations and we created sub directories to allow for a clean way to separate those files and not have all the files in one directory
 
 #### Rewrites Directory
 
@@ -111,7 +111,7 @@ This directory can contain all of the `.vars` files you create that contain vari
 
 - `/etc/httpd/conf.d/variables/`
 
-### Dispatcher Module Specific Configuration Directory
+### Dispatcher Module-specific Configuration Directory
 
 Apache Web Server is very extensible and when a module has a lot of configuration files it's best practice to create your own configuration directory under the install base directory instead of cluttering up the default one.
 
@@ -125,29 +125,29 @@ We follow the best practice and created our own
 
 The following directories allow you to build out configuration files having a staging area that you can work on files and only enable then when they are ready.
 - `/etc/httpd/conf.dispatcher.d/available_farms/`
-   - This folder will host all of your `/myfarm {` files called `_farm.any`
+   - This folder hosts all of your `/myfarm {` files called `_farm.any`
 - `/etc/httpd/conf.dispatcher.d/enabled_farms/`
-   - When you're ready to use the farm file you have inside the available_farms folder symlink them using a relative path into the enabled_farms directory
+   - When you're ready to use the farm file, you have inside the available_farms folder symlink them using a relative path into the enabled_farms directory
 
 ### Additional `conf.dispatcher.d` Directories
 
-There are additional pieces that are sub sections of the dispatcher farm file configurations and we created sub directories to allow for a clean way to seperate those files and not have a all the files in one directory
+There are additional pieces that are sub sections of the Dispatcher farm file configurations and we created sub directories to allow for a clean way to separate those files and not have a all the files in one directory
 
 #### Cache Directory
 
-This directory contains all of the `_cache.any`, `_invalidate.any` files you create that contain your rules on how you want the module to handle caching elements that come from AEM as well as invalidation rules syntax.  More details on this section is [here](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#configuring-the-dispatcher-cache-cache)
+This directory contains all of the `_cache.any`, `_invalidate.any` files you create that contain your rules on how you want the module to handle caching elements that come from AEM as well as invalidation rules syntax.  More details on this section are here [here](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#configuring-the-dispatcher-cache-cache)
 
 - `/etc/httpd/conf.dispatcher.d/cache/`
 
 #### Client Headers Directory
 
-This directory can contain all of the `_clientheaders.any` files you create that contain lists of Client Headers you want to pass through to AEM when a request comes in.  More details on this section is [here](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)
+This directory can contain all of the `_clientheaders.any` files you create that contain lists of Client Headers you want to pass through to AEM when a request comes in.  More details on this section are here [here](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)
 
 - `/etc/httpd/conf.dispatcher.d/clientheaders/`
 
 #### Filters Directory
 
-This directory can contain all of the `_filters.any` files you create that contain all of your filter rules to block or allow traffic through the dispatcher to reach AEM
+This directory can contain all of the `_filters.any` files you create that contain all of your filter rules to block or allow traffic through the Dispatcher to reach AEM
 
 - `/etc/httpd/conf.dispatcher.d/filters/`
 
@@ -159,7 +159,7 @@ This directory can contain all of the `_renders.any` files you create that conta
 
 #### Vhosts Directory
 
-This directory can contain all of the `_vhosts.any` files you create that contain a list of the domain names and paths to match to a particular farm to a particular back end server
+This directory can contain all of the `_vhosts.any` files you create that contain a list of the domain names and paths to match to a particular farm to a particular back-end server
 
 - `/etc/httpd/conf.dispatcher.d/vhosts/`
 
@@ -268,9 +268,9 @@ The less installed default files you change the better, for reasons that if ther
 
 Instead it creates an `.rpmnew` file next to the original.  This means you'll miss some changes you might have wanted and created more garbage in your configuration folders.
 
-i.e. The RPM during update installation will look at `httpd.conf` if it's in the `unaltered` state it will *replace* the file and you'll get the vital updates.  If the `httpd.conf` was `altered` then it *won't replace* the file and instead it will create a reference file called `httpd.conf.rpmnew` and the much desired fixes will be in that file that doesn't apply on service start up.
+i.e. The RPM during update installation will look at `httpd.conf` if it's in the `unaltered` state it will *replace* the file and you'll get the vital updates.  If the `httpd.conf` was `altered` then it *won't replace* the file and instead it will create a reference file called `httpd.conf.rpmnew` and the many desired fixes will be in that file that doesn't apply on service start-up.
 
-Enterprise Linux was setup properly to handle this use case in a better way.  They give you areas in which you can extend or override the defaults they set for you.  Inside the base installation of httpd you'll find the file `/etc/httpd/conf/httpd.conf`, and it has syntax in it like:
+Enterprise Linux was set up properly to handle this use case in a better way.  They give you areas in which you can extend or override the defaults they set for you.  Inside the base installation of httpd you'll find the file `/etc/httpd/conf/httpd.conf`, and it has syntax in it like:
 
 ```
 Include conf.modules.d/.conf
@@ -279,17 +279,17 @@ IncludeOptional conf.d/.conf
 
 The idea is that Apache wants you to extend the modules and configurations in adding new files to the `/etc/httpd/conf.d/` and `/etc/httpd/conf.modules.d/` directories with a file extension of `.conf`
 
-As the perfect example when adding the dispatcher module to Apache you'd create a module `.so` file in ` /etc/httpd/modules/` and then include it by adding a file in `/etc/httpd/conf.modules.d/02-dispatcher.conf` with the contents to load your module `.so` file
+As the perfect example when adding the Dispatcher module to Apache you'd create a module `.so` file in ` /etc/httpd/modules/` and then include it by adding a file in `/etc/httpd/conf.modules.d/02-dispatcher.conf` with the contents to load your module `.so` file
 
 ```
 LoadModule dispatcher_module modules/mod_dispatcher.so
 ```
 
 <div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Notice:</b>
-we didn't modify any already existing files Apache provided.  Instead just added ours to the directories they were meant to go.
+we didn't modify any already-existing files Apache provided.  Instead just added ours to the directories they were meant to go.
 </div><br/>
 
-Now we consume our module in our file <b>`/etc/httpd/conf.d/dispatcher_vhost.conf`</b> which initializes our module and loads the inital module specific configuration file
+Now we consume our module in our file <b>`/etc/httpd/conf.d/dispatcher_vhost.conf`</b> which initializes our module and loads the initial module-specific configuration file
 
 ```
 <IfModule disp_apache2.c> 
@@ -298,6 +298,6 @@ Now we consume our module in our file <b>`/etc/httpd/conf.d/dispatcher_vhost.co
 </IfModule>
 ```
 
-Again you'll notice we've added files and modules but not altered any original files.  This gives us the desired functionality and protects us from missing wanted patch fixes as well as keeping to the highest level of compatability with each upgrade of the package.
+Again you'll notice we've added files and modules but not altered any original files.  This gives us the desired functionality and protects us from missing wanted patch fixes as well as keeping to the highest level of compatibility with each upgrade of the package.
 
 [Next -> Explanation of Configuration Files](./explanation-config-files.md)

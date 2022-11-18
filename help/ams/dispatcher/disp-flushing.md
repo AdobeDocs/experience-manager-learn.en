@@ -22,15 +22,15 @@ This document will give guidance on how flushing occurs and explain the mechanis
 
 ### Order of Operation
 
-The typical workflow is best described when content authors will activate a page, when publisher receives the new content it triggers a flush request to the dispatcher as shown in the following diagram:
-![author activates content, which triggers publisher to send a request to flush to dispatcher](assets/disp-flushing/dispatcher-flushing-order-of-events.png "dispatcher-flushing-order-of-events")
+The typical workflow is best described when content authors will activate a page, when publisher receives the new content it triggers a flush request to the Dispatcher as shown in the following diagram:
+![author activates content, which triggers publisher to send a request to flush to Dispatcher](assets/disp-flushing/dispatcher-flushing-order-of-events.png "dispatcher-flushing-order-of-events")
 This chaining of events, highlights that we only flush items when they are new or have changed.  This ensures that content has been received by the publisher before clearing the cache to avoid race conditions where the flush could occur before the changes are able to be picked up from publisher.
 
 ## Replication Agents
 
 On author there is a replication agent configured to point at the publisher that when something is activated it triggers to send the file and all of it's dependencies to the publisher.
 
-When the publisher receives the file it has a replication agent configured to point at the dispatcher that triggers on the on-receive event.  It will then serialize a flush request and post it to the dispatcher.
+When the publisher receives the file it has a replication agent configured to point at the Dispatcher that triggers on the on-receive event.  It will then serialize a flush request and post it to the Dispatcher.
 
 ### AUTHOR REPLICATION AGENT
 
@@ -50,7 +50,7 @@ Here is an example screenshots of a configured standard flush replication agent
 
 ### DISPATCHER FLUSH REPLICATION RECEIVING VIRTUAL HOST
 
-The dispatcher module looks for particular headers to know when a POST request is something to pass along to AEM renders or if it's a serialized as a flush request and needs to be handled by the dispatcher handler itself.
+The Dispatcher module looks for particular headers to know when a POST request is something to pass along to AEM renders or if it's a serialized as a flush request and needs to be handled by the Dispatcher handler itself.
 
 Here is a screenshot of the configuration page that shows these values:
 ![picture of the main configuration screen settings tab with the Serialization Type shown to be Dispatcher Flush](assets/disp-flushing/disp-flush-agent1.png "disp-flush-agent1")
@@ -59,9 +59,9 @@ The default setting page shows the `Serialization Type` as `Dispatcher Flush`�
 
 ![Screenshot of transport tab of the replication agent.  This shows the URI to post flush request to.  /dispatcher/invalidate.cache](assets/disp-flushing/disp-flush-agent2.png "disp-flush-agent2")
 
-On the `Transport` tab you can see the `URI` being set to point the IP address of the dispatcher that will receive the flush requests.  The path `/dispatcher/invalidate.cache` isn't how the module determines if it's a flush it's only an obvious endpoint you can see in the access log to know it was a flush request.  On the `Extended` tab we'll go over the things that are there to qualify that this is a flush request to the dispatcher module.
+On the `Transport` tab you can see the `URI` being set to point the IP address of the Dispatcher that will receive the flush requests.  The path `/dispatcher/invalidate.cache` isn't how the module determines if it's a flush it's only an obvious endpoint you can see in the access log to know it was a flush request.  On the `Extended` tab we'll go over the things that are there to qualify that this is a flush request to the Dispatcher module.
 
-![Screenshot of the Extended tab of the replication agent.  Note the headers that get sent with the POST request sent to tell the dispatcher to flush](assets/disp-flushing/disp-flush-agent3.png "disp-flush-agent3")
+![Screenshot of the Extended tab of the replication agent.  Note the headers that get sent with the POST request sent to tell the Dispatcher to flush](assets/disp-flushing/disp-flush-agent3.png "disp-flush-agent3")
 
 The `HTTP Method` for flush requests is just a `GET` request with some special request headers:
 - CQ-Action
@@ -80,7 +80,7 @@ On the `Triggers` tab we'll take note of the toggled triggers we use and what th
 - `Ignore default`
    - This is enabled so the replication agent isn't triggered upon a page activation.  This is something that when an author instance were to make a change to a page would trigger a flush.  Because this is a publisher we don't want to trigger off that type of event.
 - `On Receive`
-   - When a new file is received we want to trigger a flush.  So when the author sends us an updated file we will trigger and send a flush request to dispatcher.
+   - When a new file is received we want to trigger a flush.  So when the author sends us an updated file we will trigger and send a flush request to Dispatcher.
 - `No Versioning`
    - We check this to avoid the publisher from generating new versions because a new file was received.  We'll just replace the file we have and rely on the author to keep track of the versions instead of the publisher.
 
@@ -105,13 +105,13 @@ The flushing mechanism is simple in nature and we want to explain the importance
 
 Inside the `.vhost` and `_farm.any` files we configure a document root directive to specify where the cache is located and where to store / serve files from when a request from an end user comes in.
 
-If you were to run the following command on your dispatcher server you'd start finding `.stat` files
+If you were to run the following command on your Dispatcher server you'd start finding `.stat` files
 
 ```
 $ find /mnt/var/www/html/ -type f -name ".stat"
 ```
 
-Here is a diagram of how this file structure will look when you've got items in the cache and have had a flush request sent and processed by the dispatcher module
+Here is a diagram of how this file structure will look when you've got items in the cache and have had a flush request sent and processed by the Dispatcher module
 
 ![statfiles mixed with content and dates shown with stat levels shown](assets/disp-flushing/dispatcher-statfiles.png "dispatcher-statfiles")
 
@@ -119,9 +119,9 @@ Here is a diagram of how this file structure will look when you've got items in 
 
 Notice that in each directory there was a `.stat` file present.  This is an indicator that a flush has occured.  In the example above the `statfilelevel` setting was set to `3` inside the corresponding farm configuration file.
 
-The `statfilelevel` setting indicates how many folders deep the module will traverse and update a `.stat` file.  The .stat file is empty it's nothing more than a filename with a datestamp and could even be created manually but running the touch command on the command line of the dispatcher server.
+The `statfilelevel` setting indicates how many folders deep the module will traverse and update a `.stat` file.  The .stat file is empty it's nothing more than a filename with a datestamp and could even be created manually but running the touch command on the command line of the Dispatcher server.
 
-If the stat file level setting is set too high then each flush request traverses the directory tree touching stat files.  This can become a major performance hit on large cache trees and can impact the overall performance of your dispatcher.
+If the stat file level setting is set too high then each flush request traverses the directory tree touching stat files.  This can become a major performance hit on large cache trees and can impact the overall performance of your Dispatcher.
 
 Setting this file level too low can cause a flush request to clear more than was intended.  Which in turn would cause the cache to churn more often with less requests being served from cache and can cause performance issues.
 
@@ -174,8 +174,8 @@ We will want to highlight of few of them that pertain to cache flushing
 
 There are two key `document root` directories that will cache files from author and publisher traffic.  To keep those directories up to date with fresh content we will need to flush the cache.  Those flush requests don't want to get tangled up with your normal customer traffic farm configurations that might reject the request or do something un-wanted.  Instead we provide two flush farms for this task:
 
- - `/etc/httpd.conf.d/available_farms/001_ams_author_flush_farm.any`
- - `/etc/httpd.conf.d/available_farms/001_ams_publish_flush_farm.any`
+- `/etc/httpd.conf.d/available_farms/001_ams_author_flush_farm.any`
+- `/etc/httpd.conf.d/available_farms/001_ams_publish_flush_farm.any`
 
 These farm files don't do anything but flush the document root directories.
 
@@ -217,7 +217,7 @@ This configuration entry lives in the following section of the farm file:
         /docroot
 ```
 
-You specify the directory in which you want the dispatcher to populate and managed as a cache directory.
+You specify the directory in which you want the Dispatcher to populate and managed as a cache directory.
 
 <div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
 This directory should match the Apache document root setting for the domain your web server is configured to use.
@@ -285,7 +285,7 @@ This configuration entry lives in the following section of the farm file:
         /allowedClients {
 ```
 
-Inside this configuration is where you put a list of IP addresses that are allowed to send flush requests.  If a flush request comes into the dispatcher it has to come from a trusted IP.  If you have this misconfigured or send a flush request from an untrusted IP addres you'll see the following error in the log file:
+Inside this configuration is where you put a list of IP addresses that are allowed to send flush requests.  If a flush request comes into the Dispatcher it has to come from a trusted IP.  If you have this misconfigured or send a flush request from an untrusted IP addres you'll see the following error in the log file:
 
 ```
 [Mon Nov 11 22:43:05 2019] [W] [pid 3079 (tid 139859875088128)] Flushing rejected from 10.43.0.57
@@ -340,7 +340,7 @@ $ curl -H "CQ-Action: Activate" \
 http://169.254.196.222/dispatcher/invalidate.cache
 ```
 
-Once you've fired off the request command to the dispatcher you'll want to see what it's done in the logs and what it's done with the `.stat files`.  Tail the log file and you should see the following entries to confirm the flush request hit the dispatcher module
+Once you've fired off the request command to the Dispatcher you'll want to see what it's done in the logs and what it's done with the `.stat files`.  Tail the log file and you should see the following entries to confirm the flush request hit the Dispatcher module
 
 ```
 [Wed Nov 13 16:54:12 2019] [I] [pid 19173:tid 140542721578752] Activation detected: action=Activate [/content/dam/logo.jpg] 

@@ -1,6 +1,6 @@
 ---
 title: Dispatcher Understanding caching
-description: Understand how the dispatcher module operates it's cache.
+description: Understand how the Dispatcher module operates it's cache.
 version: Adobe Managed Service
 topic: Administration, Performance
 feature: Dispatcher
@@ -15,7 +15,7 @@ thumbnail: xx.jpg
 
 [<- Previous: Explanation of Configuration Files](./explanation-config-files.md)
 
-This document will explain how dispatcher caching happens and how it can be configured
+This document will explain how Dispatcher caching happens and how it can be configured
 
 ## Caching Directories
 
@@ -26,13 +26,13 @@ We use the following default cache directories in our baseline installations
 - Publisher
    - `/mnt/var/www/html`
 
-When each request traverses the dispatcher the requests follow the configured rules to keep a locally cached version to response of eligible items
+When each request traverses the Dispatcher the requests follow the configured rules to keep a locally cached version to response of eligible items
 
 <div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
 
-We intentionally keep published workload seperate from the author workload because when Apache looks for a file in the DocumentRoot it doesn't know which AEM instance it came from. So even if you have cache disabled in the author farm, if the author's DocumentRoot is the same as publisher it will serve files from the cache when present. Meaning you'll serve author files for from published cache and make for a really awful mix match experience for your visitors. 
+We intentionally keep published workload separate from the author workload because when Apache looks for a file in the DocumentRoot it doesn't know which AEM instance it came from. So even if you have cache disabled in the author farm, if the author's DocumentRoot is the same as publisher it will serve files from the cache when present. Meaning you'll serve author files for from published cache and make for a really awful mix match experience for your visitors. 
 
-Keeping seperate DocumentRoot directories for different published content is also a very bad idea. You'll have to create multiple re-cached items that don't differ between sites like clientlibs as well as having to setup a replication flush agent for each DocumentRoot you setup. Increasing the amount of flush over head with each page activation. Rely on namespace of files and their full cached paths and avoid mutliple DocumentRoot's for published sites.
+Keeping separate DocumentRoot directories for different published content is also a very bad idea. You'll have to create multiple re-cached items that don't differ between sites like clientlibs as well as having to setup a replication flush agent for each DocumentRoot you setup. Increasing the amount of flush over head with each page activation. Rely on namespace of files and their full cached paths and avoid mutliple DocumentRoot's for published sites.
 </div>
 
 ## Configuration Files
@@ -137,7 +137,7 @@ Keep in mind that these rules also cache <b>`/apps`</b> this is where custom app
 
 ## ServeOnStale (AKA Serve on Stale / SOS)
 
-This is one of those gems of a feature of the dispatcher. If the publisher is under load or has become unresponsive it will typically throw a 502 or 503 http response code. If that happens and this feature is enabled the dispatcher will be instructed to still serve what ever content is still in the cache as a best effort even if it's not a fresh copy. It's better to serve something if you've got it rather than just showing an error message that offers no functionality.
+This is one of those gems of a feature of the Dispatcher. If the publisher is under load or has become unresponsive it will typically throw a 502 or 503 http response code. If that happens and this feature is enabled the Dispatcher will be instructed to still serve what ever content is still in the cache as a best effort even if it's not a fresh copy. It's better to serve something if you've got it rather than just showing an error message that offers no functionality.
 
 <div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
 
@@ -180,7 +180,7 @@ Configuring your `ignoreUrlParams` as a allow list will help fix this issue:
     }
 ```
 
-Now when the dispatcher sees the request it will ignore the fact that the request has the `query` parameter of `?` reference and still cache the page
+Now when the Dispatcher sees the request it will ignore the fact that the request has the `query` parameter of `?` reference and still cache the page
 
 <b>Dynamic Example:</b>
 
@@ -254,7 +254,7 @@ Keeping track of these pages does require some upkeep but is well worth the perf
 
 ## Caching response headers
 
-It's pretty obvious that the dispatcher caches `.html` pages and clientlibs (i.e. `.js`, `.css`), but did you know it can also cache particular response headers along side the content in a file with the same name but a `.h` file extension. This allows the next response to not only the content but the response headers that should go with it from cache.
+It's pretty obvious that the Dispatcher caches `.html` pages and clientlibs (i.e. `.js`, `.css`), but did you know it can also cache particular response headers along side the content in a file with the same name but a `.h` file extension. This allows the next response to not only the content but the response headers that should go with it from cache.
 
 AEM can handle more than just UTF-8 encoding
 
@@ -262,7 +262,7 @@ Sometimes items have special headers that help control cache TTL's encoding deta
 
 These values when cached are stripped by default and the Apache httpd webserver will do it's own job of processing the asset with it's normal file handling methods, which normally is limited to mime type guessing based on file extensions.
 
-If you have the dispatcher cache the asset and the desired headers you can expose the proper experience and assure the all the details make it to the clients browser.
+If you have the Dispatcher cache the asset and the desired headers you can expose the proper experience and assure the all the details make it to the clients browser.
 
 Here is an example of a farm with the headers to cache specified:
 
@@ -309,7 +309,7 @@ Here is an example syntax of this feature being configured for 5 second grace pe
 
 ## TTL Based Invalidation
 
-A newer feature of the dispatcher module was `Time To Live (TTL)` based invalidation options for cached items. When an item gets cached it looks for the presence of cache control headers and generates a file in the cache directory with the same name and a `.ttl` extension.
+A newer feature of the Dispatcher module was `Time To Live (TTL)` based invalidation options for cached items. When an item gets cached it looks for the presence of cache control headers and generates a file in the cache directory with the same name and a `.ttl` extension.
 
 Here is an example of the feature being configured in the farm configuration file:
 
@@ -319,7 +319,7 @@ Here is an example of the feature being configured in the farm configuration fil
 ```
 
 <div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-Keep in mind that AEM still needs to be configured to send TTL headers for dispatcher to honor them. Toggling this feature only enables the dispatcher to know when to remove the files that AEM has send cache control headers for. If AEM doesn't start sending TTL headers then dispatcher won't do anything special here.
+Keep in mind that AEM still needs to be configured to send TTL headers for Dispatcher to honor them. Toggling this feature only enables the Dispatcher to know when to remove the files that AEM has send cache control headers for. If AEM doesn't start sending TTL headers then Dispatcher won't do anything special here.
 </div>
 
 ## Cache Filter Rules

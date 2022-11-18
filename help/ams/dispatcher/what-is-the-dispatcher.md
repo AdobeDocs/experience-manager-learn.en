@@ -66,7 +66,7 @@ End User's Browser request
             → Checks for cached request locally if NOT found 
                 → requests content from publisher 
                     → publisher sends content 
-                        → dispatcher adds content to cache and replies 
+                        → Dispatcher adds content to cache and replies 
                             → End User
 ```
 
