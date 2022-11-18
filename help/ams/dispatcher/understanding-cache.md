@@ -1,7 +1,6 @@
 ---
 title: Dispatcher Understanding caching
 description: Understand how the Dispatcher module operates it's cache.
-version: Adobe Managed Service
 topic: Administration, Performance
 version: 6.5
 role: Admin
