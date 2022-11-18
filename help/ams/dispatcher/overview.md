@@ -14,6 +14,7 @@ thumbnail: xx.jpg
 Below given document will cover our processes for getting proper support on the dispatcher setup.
 
 ## Table of Contents
+
 Here are the sub-pages and topics that comprise the dispatcher manual:
 
 - [What is "The Dispatcher"](./what-is-the-dispatcher.md)
