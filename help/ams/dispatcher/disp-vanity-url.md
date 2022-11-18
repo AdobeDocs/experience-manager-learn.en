@@ -1,7 +1,7 @@
 ---
 title: Dispatcher vanity URLs
 description: Understand how AEM deals with vanity URLs and additional techniques using rewrite rules to map content closer to the edge of delivery.
-version: Cloud Service
+version: Adobe Managed Service
 topic: Administration, Performance
 feature: Dispatcher
 role: Admin
@@ -13,7 +13,7 @@ thumbnail: xx.jpg
 
 [Table of Contents](./overview.html)
 
-[<- Previous: Dispatcher Flushing](./dispatcher-flushing.md)
+[<- Previous: Dispatcher Flushing](./disp-flushing.md)
 
 ## Overview
 
@@ -42,11 +42,15 @@ Once they save their changes and activate the page the vanity is now assigned to
 
 #### Touch UI:
 
-![Drop down dialog menu for AEM authoring UI on site editor screen](assets/dispatcher-vanity-urls/aem-page-properties-drop-down.png "aem-page-properties-drop-down")![aem page properties dialog page](assets/aem-page-properties.png "aem-page-properties")
+![Drop down dialog menu for AEM authoring UI on site editor screen](assets/disp-vanity-url/aem-page-properties-drop-down.png "aem-page-properties-drop-down")
+
+![aem page properties dialog page](assets/disp-vanity-url/aem-page-properties.png "aem-page-properties")
 
 #### Classic Content Finder:
 
-![AEM siteadmin classic ui sidekick page properties](assets/aem-page-properties-sidekick.png "aem-page-properties-sidekick")![Classic UI page properties dialog box](assets/aem-page-properties-classic.png "aem-page-properties-classic")
+![AEM siteadmin classic ui sidekick page properties](assets/disp-vanity-url/aem-page-properties-sidekick.png "aem-page-properties-sidekick")
+
+![Classic UI page properties dialog box](assets/disp-vanity-url/aem-page-properties-classic.png "aem-page-properties-classic")
 
 <div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
 Please understand this is very prone to name space issues.
@@ -61,7 +65,7 @@ Each vanity entry is sling map entry for an internal redirect.
 Thes maps are visible by visiting the AEM instances Felix console ( `/system/console/jcrresolver` )
 
 Here is a screenshot of the a map entry created by a vanity entry:
-![console screenshot of a vanity entry in the resource resolving rules](assets/vanity-resource-resolver-entry.png "vanity-resource-resolver-entry")
+![console screenshot of a vanity entry in the resource resolving rules](assets/disp-vanity-url/vanity-resource-resolver-entry.png "vanity-resource-resolver-entry")
 
 In the above example when we ask the AEM instance to visit `/aboutus` it will resolve to `/content/we-retail/us/en/about-us.html`
 
@@ -92,7 +96,7 @@ This configuration tells the Dispatcher to fetch this URL from it's AEM instance
 It stores it's cache of the response in the `/file` argument so in this example `/tmp/vanity_urls`
 
 So if you visit the AEM instance at the URI you'll see what it fetches:
-![screenshot of the content rendered from /libs/granite/dispatcher/content/vanityUrls.html](assets/vanity-url-component.png "vanity-url-component")
+![screenshot of the content rendered from /libs/granite/dispatcher/content/vanityUrls.html](assets/disp-vanity-url/vanity-url-component.png "vanity-url-component")
 
 It's literally a list, super simple
 
@@ -156,4 +160,4 @@ Use both methods but here's the advice and criteria on which one to use when:
 If you want to use the AEM vanity feature and avoid namespace you can make a naming convention.  Using vanity urls that nested like `/brand1/aboutus`, `brand2/aboutus`, `brand3/aboutus`.
 </div>
 
-[Next -> Common Logging](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17914.html)
+[Next -> Common Logging](./common-logs.md)
