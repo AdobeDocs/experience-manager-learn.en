@@ -11,7 +11,7 @@ thumbnail: xx.jpg
 
 # Dispatcher Vanity URLs
 
-[Table of Contents](./overview.html)
+[Table of Contents](./overview.md)
 
 [<- Previous: Using and Understanding Variables](./variables.md)
 

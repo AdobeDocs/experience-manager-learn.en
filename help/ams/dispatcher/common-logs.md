@@ -11,7 +11,7 @@ thumbnail: xx.jpg
 
 # Common Logs
 
-[Table of Contents](./overview.html)
+[Table of Contents](./overview.md)
 
 [<- Previous: Vanity URLs](./disp-vanity-url.md)
 

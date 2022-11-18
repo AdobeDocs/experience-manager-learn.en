@@ -11,7 +11,7 @@ thumbnail: xx.jpg
 
 # Basic File Layout
 
-[Table of Contents](./overview.html)
+[Table of Contents](./overview.md)
 
 [<- Previous: What is "The Dispatcher"](./what-is-the-dispatcher.md)
 
