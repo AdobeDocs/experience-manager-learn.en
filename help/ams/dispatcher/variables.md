@@ -1,5 +1,5 @@
 ---
-title: Dispatcher Using and Understanding Variables
+title: Using and understanding variables in your AEM Dispatcher Configuration
 description: Understand how to use variables in your Apache and Dispatcher modules configuration files to take them to the next level.
 version: 6.5
 topic: Administration, Development

@@ -1,5 +1,5 @@
 ---
-title: Dispatcher Understanding caching
+title: Dispatcher understanding caching
 description: Understand how the Dispatcher module operates it's cache.
 topic: Administration, Performance
 version: 6.5

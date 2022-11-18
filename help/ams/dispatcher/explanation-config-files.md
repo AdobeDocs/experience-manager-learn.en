@@ -1,5 +1,5 @@
 ---
-title: Explanation of Dispatcher Configuration Files
+title: Explanation of Dispatcher configuration files
 description: Understand configuration files, naming conventions and more.
 version: 6.5
 topic: Administration

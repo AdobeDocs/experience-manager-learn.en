@@ -11,7 +11,8 @@ thumbnail: xx.jpg
 
 # Adobe Managed Services Dispatcher manual
 
-Below given document will cover our processes for getting proper support on the Dispatcher setup.
+If your AEM installation is hosted on Adobe Managed Service then you'll want to read through this manual.
+Below given documents will cover AMS processes for properly customizing and working with the provided Dispatcher setup.
 
 ## Table of Contents
 

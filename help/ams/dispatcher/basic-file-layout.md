@@ -1,5 +1,5 @@
 ---
-title: Basic File Layout
+title: AMS Dispatcher Basic File Layout
 description: Understand the basic Apache and Dispatcher file layout.
 version: 6.5
 topic: Administration, Development
