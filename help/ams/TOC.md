@@ -11,9 +11,12 @@ team: TM
 
 + [Overview](./overview.md)
 + Dispatcher{#dispatcher}
-  + [Overview](./dispatcher/overview.md)
-  + [Dispatcher flushing](./dispatcher/dispatcher-flushing.md)
-  + [Dispatcher vanity URLs](./dispatcher/dispatcher-vanity-urls.md)
-  + [Explanation of configuration files](./dispatcher/explanation-of-configuration-files.md)
-  + [Read only or immutable files in AMS](./dispatcher/read-only-or-immutable-files-in-ams.md)
- 
+  + [Dispatcher Manual - Overview](./dispatcher/overview.md)
+  + [Basic File Layout](./dispatcher/basic-file-layout.md)
+  + [Explanation of Configuration Files](./dispatcher/explanation-config-files.md)
+  + [Understanding Caching](./dispatcher/understanding-cache.md)
+  + [Using and Understanding Variables](./dispatcher/variables.md)
+  + [Dispatcher Flushing](./dispatcher/disp-flushing.md)
+  + [Vanity URL](./dispatcher/disp-vanity-url.md)
+  + [Common Logging](./dispatcher/common-logs.md)
+  + [Read-Only Files](./dispatcher/immutable-files.md)
