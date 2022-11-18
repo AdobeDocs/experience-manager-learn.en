@@ -1,8 +1,8 @@
 ---
 title: What is "The Dispatcher"
 description: Understand what a Dispatcher actually is.
-version: Adobe Managed Service
-topic: Administration, Configuration
+version: 6.5
+topic: Administration
 feature: Dispatcher
 role: Admin
 level: Beginner

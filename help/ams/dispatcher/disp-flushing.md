@@ -1,8 +1,8 @@
 ---
 title: Dispatcher Flushing
 description: Understand how AEM invalidates old cache files from the Dispatcher.
-version: Adobe Managed Service
-topic: Administration, Flushing
+version: 6.5
+topic: Administration
 feature: Dispatcher
 role: Admin
 level: Beginner

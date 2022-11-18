@@ -1,7 +1,7 @@
 ---
 title: Common Logs
 description: Take a look at common log entries from the Dispatcher and learning what they mean and how to address them.
-version: Adobe Managed Service
+version: 6.5
 topic: Administration, Performance
 feature: Dispatcher
 role: Admin

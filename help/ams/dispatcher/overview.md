@@ -1,7 +1,7 @@
 ---
 title: Adobe Managed Services Dispatcher Manual
 description: AMS processes for getting proper support on the Dispatcher setup.
-version: Adobe Managed Service
+version: 6.5
 topic: Administration, Performance, Security
 feature: Dispatcher
 role: Admin

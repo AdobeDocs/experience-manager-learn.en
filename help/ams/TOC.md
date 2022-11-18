@@ -12,6 +12,7 @@ team: TM
 + [Overview](./overview.md)
 + Dispatcher{#dispatcher}
   + [Dispatcher Manual - Overview](./dispatcher/overview.md)
+  + [What is "The Dispatcher"](./dispatcher/what-is-the-dispatcher.md)
   + [Basic File Layout](./dispatcher/basic-file-layout.md)
   + [Explanation of Configuration Files](./dispatcher/explanation-config-files.md)
   + [Understanding Caching](./dispatcher/understanding-cache.md)
