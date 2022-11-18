@@ -11,7 +11,7 @@ thumbnail: xx.jpg
 
 # Read Only or Immutable Files in AMS
 
-[Table of Contents](./overview.html)
+[Table of Contents](./overview.md)
 
 [<- Previous: Common Logs](./common-logs.md)
 

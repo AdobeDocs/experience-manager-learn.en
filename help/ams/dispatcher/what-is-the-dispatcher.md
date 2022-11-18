@@ -11,7 +11,7 @@ thumbnail: xx.jpg
 
 # What is "The Dispatcher"
 
-[Table of Contents](./overview.html)
+[Table of Contents](./overview.md)
 
 Starting with the basic description of what entails an AEM Dispatcher.
 

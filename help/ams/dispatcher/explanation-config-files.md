@@ -11,7 +11,7 @@ thumbnail: xx.jpg
 
 # Explanation of Configuration Files
 
-[Table of Contents](./overview.html)
+[Table of Contents](./overview.md)
 
 [<- Previous: Basic File Layout](./basic-file-layout.md)
 

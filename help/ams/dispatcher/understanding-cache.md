@@ -10,7 +10,7 @@ thumbnail: xx.jpg
 
 # Understanding caching
 
-[Table of Contents](./overview.html)
+[Table of Contents](./overview.md)
 
 [<- Previous: Explanation of Configuration Files](./explanation-config-files.md)
 

@@ -11,7 +11,7 @@ thumbnail: xx.jpg
 
 # Using and Understanding Variables
 
-[Table of Contents](./overview.html)
+[Table of Contents](./overview.md)
 
 [<- Previous: Understanding Cache](./understanding-cache.md)
 
