@@ -1,8 +1,8 @@
 ---
 title: Basic File Layout
 description: Understand the basic Apache and Dispatcher file layout.
-version: Adobe Managed Service
-topic: Administration, Configuration
+version: 6.5
+topic: Administration, Development
 feature: Dispatcher
 role: Admin
 level: Beginner

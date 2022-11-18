@@ -1,8 +1,8 @@
 ---
 title: Read Only or Immutable Files in AEM
 description: Understanding why some files are read-only or uneditable and how to make the functional changes you desire
-version: Adobe Managed Service
-topic: Administration, Performance
+version: 6.5
+topic: Administration, Development
 feature: Dispatcher
 role: Admin
 level: Beginner

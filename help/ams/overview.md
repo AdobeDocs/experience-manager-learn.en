@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Manager Managed Services tutorials
 description: A collection of tutorials for Adobe Experience Manager (AEM) Managed Services
-sub-product: Experience Manager Managed Services
+sub-product: Adobe Managed Services
 ---
 # AEM Managed Services tutorials {#overview}
 

@@ -1,8 +1,8 @@
 ---
 title: Explanation of Dispatcher Configuration Files
 description: Understand configuration files, naming conventions and more.
-version: Adobe Managed Service
-topic: Administration, Configuration
+version: 6.5
+topic: Administration
 feature: Dispatcher
 role: Admin
 level: Beginner

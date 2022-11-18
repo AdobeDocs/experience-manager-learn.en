@@ -1,8 +1,8 @@
 ---
 title: Dispatcher Using and Understanding Variables
 description: Understand how to use variables in your Apache and Dispatcher modules configuration files to take them to the next level.
-version: Adobe Managed Service
-topic: Administration, Configuration
+version: 6.5
+topic: Administration, Development
 feature: Dispatcher
 role: Admin
 level: Beginner
