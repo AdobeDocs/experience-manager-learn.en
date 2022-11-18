@@ -1,5 +1,5 @@
 ---
-title: Dispatcher vanity URLs
+title: AEM Dispatcher vanity URLs feature
 description: Understand how AEM deals with vanity URLs and additional techniques using rewrite rules to map content closer to the edge of delivery.
 version: 6.5
 topic: Administration, Performance

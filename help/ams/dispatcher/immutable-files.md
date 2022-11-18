@@ -1,5 +1,5 @@
 ---
-title: Read Only or Immutable Files in AEM
+title: AMS Dispatcher Read Only or Immutable Files
 description: Understanding why some files are read-only or uneditable and how to make the functional changes you desire
 version: 6.5
 topic: Administration, Development

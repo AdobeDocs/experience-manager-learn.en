@@ -1,5 +1,5 @@
 ---
-title: Dispatcher Flushing
+title: AEM Dispatcher Flushing
 description: Understand how AEM invalidates old cache files from the Dispatcher.
 version: 6.5
 topic: Administration
