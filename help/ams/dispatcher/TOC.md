@@ -21,4 +21,4 @@ team: TM
   + [Vanity URL](./dispatcher/disp-vanity-url.md)
   + [Common Logging](./dispatcher/common-logs.md)
   + [Read-Only Files](./dispatcher/immutable-files.md)
-  + [Dispatcher Health Check](./health-check.md)
+  + [Dispatcher Health Check](./dispatcher/health-check.md)
