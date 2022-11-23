@@ -27,3 +27,4 @@ Here are the sub-pages and topics that comprise the Dispatcher manual:
 - [Vanity URL](./disp-vanity-url.md)
 - [Common Logging](./common-logs.md)
 - [Read-Only Files](./immutable-files.md)
+- [Dispatcher Health Check](./health-check.md)
