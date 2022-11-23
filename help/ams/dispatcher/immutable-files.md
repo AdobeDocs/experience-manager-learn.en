@@ -305,3 +305,5 @@ Now we would just reload the webserver service and use our new domain!
 
 Notice we only changed the pieces we needed to change and leveraged the existing includes and code that came with the baseline configuration files.  We only have to delineate on the element we need to change.  Makes thing much easier and allows us to maintain less code
 </div>
+
+[Next -> Dispatcher Health Check](./health-check.md)
