@@ -161,6 +161,10 @@ index: y
   + [Extract node from xml document](custom-workflow-steps/extract-xml-node.md)
   + [Save document to file system](custom-workflow-steps/write-payload-document.md)
   + [Save submitted data in string variable](custom-workflow-steps/save-submitted-data-in-string-variable.md)
++ Custom workflow component{#custom-workflow-component}
+  + [Introduction](custom-workflow-component/introduction.md)
+  + [Write java code](custom-workflow-component/custom-process-step-aem-workflow.md)
+  + [Create workflow component](custom-workflow-component/custom-workflow-component.md)
 + Variables in AEM Workflow{#variables-aem-workflow}
   + [Introduction - Variables in Workflow](variables-aem-workflow/introduction.md)
   + [XML Variables](variables-aem-workflow/part1.md)
