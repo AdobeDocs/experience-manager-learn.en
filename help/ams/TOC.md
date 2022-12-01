@@ -22,3 +22,4 @@ team: TM
   + [Common Logging](./dispatcher/common-logs.md)
   + [Read-Only Files](./dispatcher/immutable-files.md)
   + [Dispatcher Health Check](./dispatcher/health-check.md)
+  + [GIT Symlinks](./dispatcher/git-symlinks.md)
