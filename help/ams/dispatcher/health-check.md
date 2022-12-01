@@ -203,3 +203,5 @@ This script when used will check and log any instances it's fronting but only re
 This script when used will check and log any instances it's fronting but will just return healthy regardless of whether or not AEM is returning an error.
 
 > `Note:` This script is used when the health check is not functioning as desired and allowing an override to keep AEM instances in the load balancer.
+
+[Next -> GIT Symlinks](./git-symlinks.md)
