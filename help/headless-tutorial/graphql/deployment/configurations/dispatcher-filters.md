@@ -33,11 +33,16 @@ The AEM Publish Dispatcher filter configuration defines the URL patterns allowed
 Add an `allow` rule with the URL pattern `/graphql/execute.json/*`, and ensure the file ID (for example `/0600`, is unique in the example farm file). 
 This allows HTTP GET request to the persisted query endpoint, such as `HTTP GET /graphql/execute.json/wknd-shared/adventures-all` through to AEM Publish.
 
+If using Experience Fragments in your AEM Headless experience, do the same for these paths.
+
 + `dispatcher/src/conf.dispatcher.d/filters/filters.any`
 
 ```
 ...
-/0600 { /type "allow" /url "/graphql/execute.json/*" }
+# Allow headless requests for Persisted Query endpoints
+/0600 { /type "allow" /method '(POST|OPTIONS)' /url "/graphql/execute.json/*" }
+# Allow headless requests for Experience Fragments
+/0601 { /type "allow" /method '(GET|OPTIONS)' /url "/content/experience-fragments/*" }
 ...
 ```
 
