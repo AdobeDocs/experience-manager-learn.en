@@ -40,11 +40,12 @@ The example below defines an OSGi configuration for AEM Publish (`../config.publ
 The key configuration properties are:
 
 + `alloworigin` and/or `alloworiginregexp` specifies the origins the client connecting to AEM web runs on.
-+ `allowedpaths` specifies the URL path patterns allowed from the specified origins. To support AEM GraphQL persisted queries, use the following pattern: `"/graphql/execute.json.*"`
-+ `supportedmethods` specifies the allowed HTTP methods for the CORS requests. Add `GET`, to support AEM GraphQL persisted queries.
++ `allowedpaths` specifies the URL path patterns allowed from the specified origins. 
+    + To support AEM GraphQL persisted queries, add the following pattern: `/graphql/execute.json.*`
+    + To support Experience Fragments, add the following pattern: `/content/experience-fragments/.*`
++ `supportedmethods` specifies the allowed HTTP methods for the CORS requests. Add `GET`, to support AEM GraphQL persisted queries (and Experience Fragments).
 
 [Learn more about the CORS OSGi configuration.](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/understand-cross-origin-resource-sharing.html)
-
 
 This example configuration supports use of AEM GraphQL persisted queries. To use client-defined GraphQL queries, add a GraphQL endpoint URL in `allowedpaths` and `POST` to `supportedmethods`. 
 
@@ -59,7 +60,8 @@ This example configuration supports use of AEM GraphQL persisted queries. To use
     "http://localhost:.*"
   ],
   "allowedpaths": [
-    "/graphql/execute.json.*"
+    "/graphql/execute.json.*",
+    "/content/experience-fragments/.*"
   ],
   "supportedheaders": [
     "Origin",
@@ -71,7 +73,8 @@ This example configuration supports use of AEM GraphQL persisted queries. To use
   ],
   "supportedmethods":[
     "GET",
-    "HEAD"
+    "HEAD",
+    "OPTIONS"
   ],
   "maxage:Integer": 1800,
   "supportscredentials": false,
