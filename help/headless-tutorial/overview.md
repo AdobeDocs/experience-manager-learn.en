@@ -1,6 +1,6 @@
 ---
-title: AEM Headless Tutorials
-description: A collection of tutorials on how to use Adobe Experience Manager as a Headless CMS.
+title: Tutorials for Headless in AEM
+description: A collection of Headless CMS tutorials for Adobe Experience Manager. Explore tutorials by API, framework and example applications.
 feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
@@ -8,7 +8,7 @@ level: Beginner
 recommendations: disable, exclude
 exl-id: 57f88d79-9879-4bb9-a3db-9fec95e3a0bd
 ---
-# AEM Headless Tutorials{#aem-headless-tutorials}
+# Tutorials for Headless in AEM{#aem-headless-tutorials}
 
 Adobe Experience Manager (AEM) has multiple options for defining headless endpoints and delivering its content as JSON. Use hands-on tutorials to explore how to use the various options and chose what's right for you.
 
