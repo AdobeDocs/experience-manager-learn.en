@@ -22,11 +22,6 @@ View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphq
 
 A [full step-by-step tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/multi-step/overview.html) describing how this React app was build is available.
 
->[!CONTEXTUALHELP]
->id="aemcloud_sites_trial_admin_content_fragments_react_app"
->title="Customize content in a sample React app"
->abstract="We've set up a modern React app which you can use to learn how to customize content using the headless feature set."
-
 ## Prerequisites {#prerequisites}
 
 The following tools should be installed locally:

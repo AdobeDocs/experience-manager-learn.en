@@ -16,11 +16,6 @@ Adobe Experience Manager (AEM) has multiple options for defining headless endpoi
 >
 >This collection of tutorials are designed for those who prefer to **learn by doing**. If you prefer learning concepts from the ground up, check out the [AEM Headless Developer Journey](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/journeys/developer/overview.html). This set of tutorials and the journey complement each other.
 
->[!CONTEXTUALHELP]
->id="aemcloud_sites_trial_admin_content_fragments_edit_inline_content"
->title="Edit in-line content"
->abstract="Learn how to edit content directly in the page it is referenced from using the headless feature set."
-
 ## Tutorials by API
 
 <table>
