@@ -47,6 +47,18 @@ team: TM
   + [Local AEM Runtime](./local-development-environment/aem-runtime.md)
   + [Local Dispatcher Tools](./local-development-environment/dispatcher-tools.md)
 + Developing{#developing}
+  + Extensibility{#extensibility}
+    + Content Fragment console{#content-fragments}
+      + [Overview](./developing/extensibility/content-fragments/overview.md)
+      + [Extension registration](./developing/extensibility/content-fragments/extension-registration.md)
+      + [Header menu](./developing/extensibility/content-fragments/header-menu.md)
+      + [Action bar](./developing/extensibility/content-fragments/action-bar.md)
+      + [Modal](./developing/extensibility/content-fragments/modal.md)
+      + [Adobe I/O Runtime action](./developing/extensibility/content-fragments/runtime-action.md)
+      + [Test](./developing/extensibility/content-fragments/test.md)
+      + [Deploy](./developing/extensibility/content-fragments/deploy.md)
+      + Example extensions{#example-extensions}
+        + [Bulk property update extension](./developing/extensibility/content-fragments/example-extensions/bulk-property-update.md)
   + Development Basics{#basics}
     + [AEM SDK](./developing/basics/aem-sdk.md)
     + [Local Development Environment](./developing/basics/local-development-environment.md)
