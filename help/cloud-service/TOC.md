@@ -79,7 +79,7 @@ team: TM
     + [OSGi Configurations using OCD](./developing/osgi-services/configurations-ocd.md)
   + Advanced{#advanced}
     + [Service Users](./developing/advanced/service-users.md)
-    + [Customer namespaces](./developing/advanced/custom-namespaces.md)
+    + [Custom namespaces](./developing/advanced/custom-namespaces.md)
     + [Caching Page Variants](./developing/advanced/variant-caching.md)    
   + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html)
 + Debugging AEM{#debugging}
@@ -156,7 +156,6 @@ team: TM
     + [Navigating the Cloud Acceleration Manager](./migration/cloud-acceleration-manager/navigating.md)
     + [Using the Cloud Acceleration Manager](./migration/cloud-acceleration-manager/using.md)
 + Forms{#forms}
-
     + Developing for Forms as a Cloud Service{#developing-for-cloud-service}
         + [Getting started](./forms/developing-for-cloud-service/getting-started.md)
         + [Install IntelliJ](./forms/developing-for-cloud-service/intellij-set-up.md)
@@ -169,7 +168,6 @@ team: TM
         + [Push to Cloud Manager](./forms/developing-for-cloud-service/push-project-to-cloud-manager-git.md)
         + [Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
         + [Updating maven archetype](./forms/developing-for-cloud-service/updating-project-archetype.md)
-       
     + Create Adaptive Form{#create-first-af}
         + [Introduction](./forms/create-first-af/introduction.md)
         + [Create Theme](./forms/create-first-af/create-theme.md)
@@ -211,9 +209,6 @@ team: TM
         + [Store form data in Azure Storage](./forms/forms-cs-azure-portal/create-af.md)
         + [Prefill form](./forms/forms-cs-azure-portal/prefill-af-storage.md)
         + [Query submissions](./forms/forms-cs-azure-portal/query-submitted-data.md)
-
-
-
     + Create Review Workflow{#create-aem-workflow}
         + [Externalizing workflow storage](./forms/create-aem-workflow/externalize-workflow.md)
         + [Create workflow model](./forms/create-aem-workflow/create-workflow.md)
