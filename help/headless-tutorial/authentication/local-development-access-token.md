@@ -1,6 +1,6 @@
 ---
 title: Local Development Access Token
-description: AEM Local Development Access Tokens are used to accelerate the development of integrations with AEM as a Cloud Service that programmatically interact with AEM Author or Publish services over HTTP.
+description: AEM Local Development Access Tokens are used to accelerate the development of integrations with AEM as a Cloud Service that programmatically interacts with AEM Author or Publish services over HTTP.
 version: Cloud Service
 doc-type: tutorial
 topics: Development, Security
@@ -26,16 +26,16 @@ Developers building integrations that require programmatic access to AEM as a Cl
 
 The Local Development Access Token provides access to AEM Author and Publish services as the user who generated the token, along with their permissions. Despite this being a development token, do not share this token, or store in source control.
 
-1. In [Adobe AdminConsole](https://adminconsole.adobe.com/) ensure you, the developer, are a member of:
+1. In [Adobe Admin Console](https://adminconsole.adobe.com/) ensure you, the developer, are a member of:
     + __Cloud Manager - Developer__ IMS Product Profile (grants access to AEM Developer Console)
-    + Either the __AEM Administrators__ or __AEM Users__ IMS Product Profile for the AEM environment's service the access token will integrate with
-    + Sandbox AEM as a Cloud Service environments only require membership in either the __AEM Administrators__ or __AEM Users__ Product Profile
+    + Either the __AEM Administrators__ or __AEM Users__ IMS Product Profile for the AEM environment's service the access token integrates with
+    + Sandbox AEM as a Cloud Service environment only require membership in either the __AEM Administrators__ or __AEM Users__ Product Profile
 1. Log in to [Adobe Cloud Manager](https://my.cloudmanager.adobe.com)
 1. Open the Program containing the AEM as a Cloud Service environment to integrate with
 1. Tap the __ellipsis__ next to the environment in the __Environments__ section, and select __Developer Console__
 1. Tap in the __Integrations__ tab
 1. Tap __Get Local Development Token__ button
-1. Tap on the __download button__ in the top left corner to download the JSON file containing `accessToken` value, and save the JSON file to a safe location on your development machine.
+1. Tap on the __download button__ in the top-left corner to download the JSON file containing `accessToken` value, and save the JSON file to a safe location on your development machine.
     + This is your 24 hour, developer access token to the AEM as a Cloud Service environment. 
 
 ![AEM Developer Console - Integrations - Get Local Development Token](./assets/local-development-access-token/developer-console.png)
@@ -45,7 +45,7 @@ The Local Development Access Token provides access to AEM Author and Publish ser
 ![Local Development Access Token - External Application](assets/local-development-access-token/local-development-access-token-external-application.png)
 
 1. Download the temporary Local Development Access Token from AEM Developer Console
-    + The Local Development Access Token expires every 24 hours, so developers will need to do download new access tokens daily
+    + The Local Development Access Token expires every 24 hours, so developers need to do download new access tokens daily
 1. An External Application is being developed that programmatically interacts with AEM as a Cloud Service
 1. The External Application reads in the Local Development Access Token
 1. The External Application constructs HTTP requests to AEM as a Cloud Service, adding the Local Development Access Token as a Bearer token to the HTTP requests' Authorization header
@@ -53,14 +53,14 @@ The Local Development Access Token provides access to AEM Author and Publish ser
 
 ### The Sample External Application
 
-We'll create a simple external JavaScript application to illustrate how to programmatically access AEM as a Cloud Service over HTTPS using the local developer access token. This illustrates how _any_ application or system running outside of AEM, regardless of framework or language, can use the access token to programmatically authenticate to, and access, AEM as a Cloud Service. In the [next section](./service-credentials.md) we'll update this application code to support the approach for generating a token for production use.
+We'll create a simple external JavaScript application to illustrate how to programmatically access AEM as a Cloud Service over HTTPS using the local developer access token. This illustrates how _any_ application or system running outside of AEM, regardless of framework or language, can use the access token to programmatically authenticate to, and access, AEM as a Cloud Service. In the [next section](./service-credentials.md), we'll update this application code to support the approach for generating a token for production use.
 
 This sample application is run from the command line, and updates AEM asset metadata using AEM Assets HTTP APIs, using the following flow:
 
 1. Reads in parameters from the command line (`getCommandLineParams()`)
 1. Obtains the access token used to authenticate to AEM as a Cloud Service (`getAccessToken(...)`)
-1. Lists all assets in a AEM asset folder specified in a command line parameters (`listAssetsByFolder(...)`)
-1. Update listed assets' metadata with values specified in command line parameters (`updateMetadata(...)`)
+1. Lists all assets in a AEM asset folder specified in a command-line parameters (`listAssetsByFolder(...)`)
+1. Update listed assets' metadata with values specified in command-line parameters (`updateMetadata(...)`)
 
 The key element in programmatically authenticating to AEM using the access token is adding an Authorization HTTP request header to all HTTP requests made to AEM, in the following format:
 
@@ -90,7 +90,7 @@ The key element in programmatically authenticating to AEM using the access token
     * Application entry point function
     */
     (async () => {
-        console.log('Example usage: node index.js aem=https://author-p1234-e5678.adobeaemcloud.com propertyName=metadata/dc:rights "propertyValue=WKND Limited Use" folder=/wknd/en/adventures/napa-wine-tasting file=credentials-file.json' );
+        console.log('Example usage: node index.js aem=https://author-p1234-e5678.adobeaemcloud.com propertyName=metadata/dc:rights "propertyValue=WKND Limited Use" folder=/wknd-shared/en/adventures/napa-wine-tasting file=credentials-file.json' );
 
         // Parse the command line parameters
         params = getCommandLineParams();
@@ -167,7 +167,7 @@ The key element in programmatically authenticating to AEM using the access token
     * - aem = The AEM as a Cloud Service hostname to connect to.
     *              Example: https://author-p12345-e67890.adobeaemcloud.com
     * - folder = The asset folder to update assets in. Note that the Assets HTTP API do NOT use the JCR `/content/dam` path prefix.
-    *              Example: '/wknd/en/adventures/napa-wine-tasting'
+    *              Example: '/wknd-shared/en/adventures/napa-wine-tasting'
     * - propertyName = The asset property name to update. Note this is relative to the [dam:Asset]/jcr:content node of the asset.
     *              Example: metadata/dc:rights
     * - propertyValue = The value to update the asset property (specified by propertyName) with.
@@ -217,14 +217,14 @@ The key element in programmatically authenticating to AEM using the access token
     })...
     ```
 
-    Any HTTP requests to AEM as a Cloud Service, must set the Bearer access token in the Authorization header. Remember, each AEM as a Cloud Service environment requires it's own access token. Development's access token will not work on Stage or Production, Stage's will not work on Development or Production, and Production's will not work on Development or Stage!
+    Any HTTP requests to AEM as a Cloud Service, must set the Bearer access token in the Authorization header. Remember, each AEM as a Cloud Service environment requires its own access token. Development's access token does not work on Stage or Production, Stage's does not work on Development or Production, and Production's does not work on Development or Stage!
 
 1. Using the command line, from the root of the project execute the application, passing in the following parameters:
 
     ```shell
     $ node index.js \
         aem=https://author-p1234-e5678.adobeaemcloud.com \
-        folder=/wknd/en/adventures/napa-wine-tasting \
+        folder=/wknd-shared/en/adventures/napa-wine-tasting \
         propertyName=metadata/dc:rights \
         propertyValue="WKND Limited Use" \
         file=local_development_token.json
@@ -232,8 +232,8 @@ The key element in programmatically authenticating to AEM using the access token
 
     The following parameters are passed in:
 
-    + `aem`: The scheme and host name of the AEM as a Cloud Service environment the application will interact with (ex. `https://author-p1234-e5678.adobeaemcloud.com`).
-    + `folder`: The asset folder path whose assets is updated with the `propertyValue`; do NOT add the `/content/dam` prefix (ex. `/wknd/en/adventures/napa-wine-tasting`)
+    + `aem`: The scheme and host name of the AEM as a Cloud Service environment the application interacts with (ex. `https://author-p1234-e5678.adobeaemcloud.com`).
+    + `folder`: The asset folder path whose assets are updated with the `propertyValue`; do NOT add the `/content/dam` prefix (ex. `/wknd-shared/en/adventures/napa-wine-tasting`)
     + `propertyName`: The asset property name to update, relative to `[dam:Asset]/jcr:content` (ex. `metadata/dc:rights`).
     + `propertyValue`: The value to set the `propertyName` to; values with spaces need to be encapsulated with `"` (ex. `"WKND Limited Use"`)
     + `file`: The relative file path to the JSON file downloaded from AEM Developer Console.
@@ -241,20 +241,20 @@ The key element in programmatically authenticating to AEM using the access token
     A successful execution of the application results output for each asset updated:
 
    ```shell
-   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd/en/adventures/napa-wine-tasting.json
-   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd/en/adventures/napa-wine-tasting/AdobeStock_277654931.jpg.json
-   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd/en/adventures/napa-wine-tasting/AdobeStock_239751461.jpg.json
-   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd/en/adventures/napa-wine-tasting/AdobeStock_280313729.jpg.json
-   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd/en/adventures/napa-wine-tasting/AdobeStock_286664352.jpg.json
+   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd-shared/en/adventures/napa-wine-tasting.json
+   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd-shared/en/adventures/napa-wine-tasting/AdobeStock_277654931.jpg.json
+   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd-shared/en/adventures/napa-wine-tasting/AdobeStock_239751461.jpg.json
+   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd-shared/en/adventures/napa-wine-tasting/AdobeStock_280313729.jpg.json
+   200 - OK @ https://author-p1234-e5678.adobeaemcloud.com/api/assets/wknd-shared/en/adventures/napa-wine-tasting/AdobeStock_286664352.jpg.json
    ```
 
 ### Verify metadata update in AEM
 
-Verify the metadata has been updated, by logging in to the AEM as a Cloud Service environment (ensure the same host passed into the `aem` command line parameter is accessed).
+Verify that the metadata has been updated, by logging in to the AEM as a Cloud Service environment (ensure the same host passed into the `aem` command-line parameter is accessed).
 
-1. Log into the AEM as a Cloud Service environment that the external application interacted with (use the same host provided in the `aem` command line parameter)
+1. Log into the AEM as a Cloud Service environment that the external application interacted with (use the same host provided in the `aem` command-line parameter)
 1. Navigate to the __Assets__ > __Files__
-1. Navigate it the asset folder specified by the `folder` command line parameter, for example __WKND__ > __English__ > __Adventures__ > __Napa Wine Tasting__
+1. Navigate it the asset folder specified by the `folder` command-line parameter, for example __WKND__ > __English__ > __Adventures__ > __Napa Wine Tasting__
 1. Open the __Properties__ for any (non-Content Fragment) asset in the folder
 1. Tap to the __Advanced__ tab
 1. Review the value of the updated property, for example __Copyright__ which is mapped to the updated `metadata/dc:rights` JCR property, which reflects the value provided in the `propertyValue` parameter, for example __WKND Limited Use__
@@ -263,6 +263,6 @@ Verify the metadata has been updated, by logging in to the AEM as a Cloud Servic
 
 ## Next steps
 
-Now that we've programmatically accessed AEM as a Cloud Service using the local development token, we need to update the application to handle using Service Credentials, so this application can be used in a production context.
+Now that we've programmatically accessed AEM as a Cloud Service using the local development token. Next we need to update the application to handle using Service Credentials, so this application can be used in a production context.
 
 + [How to use Service Credentials](./service-credentials.md)
