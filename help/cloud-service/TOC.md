@@ -79,6 +79,7 @@ team: TM
     + [OSGi Configurations using OCD](./developing/osgi-services/configurations-ocd.md)
   + Advanced{#advanced}
     + [Service Users](./developing/advanced/service-users.md)
+    + [Customer namespaces](./developing/advanced/custom-namespaces.md)
     + [Caching Page Variants](./developing/advanced/variant-caching.md)    
   + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html)
 + Debugging AEM{#debugging}
@@ -123,7 +124,6 @@ team: TM
 + Migration {#migration}
   + [Content Transfer Tool](./migration/content-transfer-tool.md)
   + [Bulk Import of assets](./migration/bulk-import.md)
-
   + Moving to AEM as a Cloud Service {#moving-to-aem-as-a-cloud-service}
     + [Introduction](./migration/moving-to-aem-as-a-cloud-service/introduction.md)
     + [Onboarding](./migration/moving-to-aem-as-a-cloud-service/onboarding.md)
