@@ -45,7 +45,7 @@ Adobe Developer contains developer details on AEM Content Fragment Console exten
 
 ## Develop an extension
 
-Follow the steps outlined below to learn how generate, develop, and deploy an AEM Content Fragment Console extension for AEM as a Cloud Service.
+Follow the steps outlined below to learn how to generate, develop, and deploy an AEM Content Fragment Console extension for AEM as a Cloud Service.
 
 <div class="columns is-multiline">
     <!-- Create Adobe Developer Project -->

@@ -72,7 +72,10 @@ This URL is used below when crafting the URLs for development and stage testing.
 
 1. The AEM Content Fragment Console loads with the local version of the extension injected into it for testing, and hot-reload changes for as long as the local App Builder app is running.
 
-Remember, when using this approach, the extension under development only impacts your experience, and all other users of the AEM Content Fragment console access it without the injected extension. 
+>[!IMPORTANT]
+>
+>Remember, when using this approach, the extension under development only impacts your experience, and all other users of the AEM Content Fragment console access it without the injected extension. 
+
 
 ## Test stage builds
 

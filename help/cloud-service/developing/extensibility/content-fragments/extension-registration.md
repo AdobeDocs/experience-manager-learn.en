@@ -49,15 +49,15 @@ function App(props) {
 `ExtensionRegistration.js` must be immediately loaded via the index route of the extension, and acts the registration point of the extension, defining:
 
 1. The extension type; a [header menu](./header-menu.md) or [action bar](./action-bar.md) button.
-    + [Header menu](./header-menu.md) extensions are denoted by the `headerMenu` property under `methods`.
-    + [Action bar](./action-bar.md) extensions are denoted by the `actionBar` property under `methods`.
+    + [Header menu](./header-menu.md#extension-registration) extensions are denoted by the `headerMenu` property under `methods`.
+    + [Action bar](./action-bar.md#extension-registration) extensions are denoted by the `actionBar` property under `methods`.
 1. The extension button's definition, in `getButton()` function. This function returns an object with fields:
     + `id` is a unique ID for the button
     + `label` is the extension button's label in the AEM Content Fragment console
     + `icon` is the extension button's icon in the AEM Content Fragment console. The icon is a [React Spectrum](https://spectrum.adobe.com/page/icons/) icon name, with spaces removed.
 1. The click handler for the button, in defined in a `onClick()` function.
-    + [Header Menu](./header-menu.md) extensions do not pass parameters to the click handler.
-    + [Action Bar](./action-bar.md) extensions provide a list of selected content fragment paths in the `selections` parameter.
+    + [Header Menu](./header-menu.md#extension-registration) extensions do not pass parameters to the click handler.
+    + [Action Bar](./action-bar.md#extension-registration) extensions provide a list of selected content fragment paths in the `selections` parameter.
 
 ### Header Menu extension
 

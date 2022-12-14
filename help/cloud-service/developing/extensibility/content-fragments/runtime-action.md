@@ -43,7 +43,7 @@ Adobe I/O Runtime actions are primarily invoked from two places in an AEM Conten
 
 ### From extension registration
 
-Adobe I/O Runtime actions can be called directly from the extension registration code. The most common use case = is to bind an action to a [header menu](./header-menu.md#no-modal)'s button that does not use [modals](./modal.md).
+Adobe I/O Runtime actions can be called directly from the extension registration code. The most common use case is to bind an action to a [header menu](./header-menu.md#no-modal)'s button that does not use [modals](./modal.md).
 
 + `./src/aem-cf-console-admin-1/web-src/src/components/ExtensionRegistration.js`
 

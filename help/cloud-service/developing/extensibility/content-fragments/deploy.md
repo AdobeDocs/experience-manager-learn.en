@@ -65,7 +65,7 @@ Deploy the extension to the Production workspace. Extensions deployed to the Pro
 1. Select __Submit for approval__
 1. Complete and submit the form, updating the fields as needed.
 
-  + An icon is required. If you do not have an icon, you can use [this icon](./assets/deploy/icon.png).
+Please note an icon is required. If you do not have an icon, you can use [this icon](./assets/deploy/icon.png).
 
 ### Approve the deployment request 
 
