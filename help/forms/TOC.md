@@ -208,6 +208,13 @@ index: y
   + [Part2 - Creating ACS Profile on Form Submission](aem-forms-with-adobe-campaign/parttwo.md)
   + [Part3 - Pre-filling Form using ACS Profile Information](aem-forms-with-adobe-campaign/partthree.md)
   + [Part4 - Create ACS Profile using Form Data Model](aem-forms-with-adobe-campaign/partfour.md)
+
++ Welcome Kit {#welcome-kit}
+  + [Introduction](welcome-kit/introduction.md)
+  + [Create welcome kit component](welcome-kit/create-welcomekit-component.md)
+  + [Create workflow component](welcome-kit/create-workflow-component.md)
+  + [Test the solution](welcome-kit/testing-the-solution.md)
+  
   
 + Document Services {#document-services}
   + [Types of PDF forms](document-services/pdf-forms-and-documents.md)
