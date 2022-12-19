@@ -60,10 +60,12 @@ This URL is used below when crafting the URLs for development and stage testing.
     + `&devMode=true`
     + `&ext=<LOCAL APPLICATION URL>`, usually `&ext=https://localhost:9080`.
 
+    Add the two above query parameters (`devMode` and `ext`) as the __first__ query parameters in the URL, as the Content Fragment Console uses a hash route (`#/@wknd/aem/...`), so incorrectly post-fixing the parameters after the `#` will not work.
+    
     The test URL should look like:
 
       ```
-      https://experience.adobe.com/?repo=author-p1234-e5678.adobeaemcloud.com#/@wknd/aem/cf/admin&devMode=true&ext=https://localhost:9080
+      https://experience.adobe.com/?devMode=true&ext=https://localhost:9080&repo=author-p1234-e5678.adobeaemcloud.com#/@wknd/aem/cf/admin
       ```
 
 1. Copy and paste the test URL into your browser.
@@ -104,10 +106,12 @@ This URL is used below when crafting the URLs for development and stage testing.
     + `&devMode=true`
     + `&ext=<DEPLOYED APPLICATION URL>`
 
+    Add the two above query parameters (`devMode` and `ext`) as the __first__ query parameters in the URL, as the Content Fragment Console uses a hash route (`#/@wknd/aem/...`), so incorrectly post-fixing the parameters after the `#` will not work.
+
     The test URL should look like:
 
     ```
-    https://experience.adobe.com/?repo=author-p1234-e5678.adobeaemcloud.com#/@wknd/aem/cf/admin&devMode=true&ext=https://98765-123aquarat.adobeio-static.net/index.html
+    https://experience.adobe.com/?devMode=true&ext=https://98765-123aquarat.adobeio-static.net/index.html&repo=author-p1234-e5678.adobeaemcloud.com#/@wknd/aem/cf/admin
     ```
 
 1. Copy and paste the test URL into your browser.
