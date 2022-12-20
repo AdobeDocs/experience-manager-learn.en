@@ -221,6 +221,7 @@ index: y
   + [Embed pdf in adaptive form](document-services/embed-pdf-inline.md)
   + [PDF's in carousel component](document-services/display-pdf-in-carousel.md)
   + [Using Assembler Service in AEM Forms](document-services/using-assembler-service-in-aem-forms.md)
+  + [XDP Stitching with Assembler Service](document-services/xdp-stitching-using-assembler-service.md)
   + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
   + [Using Barcode Service in AEM Forms](document-services/barcode-service-adaptive-forms-article.md)
   + [Using PDFG Service in AEM Forms](document-services/using-pdfg-in-aem-forms.md)
