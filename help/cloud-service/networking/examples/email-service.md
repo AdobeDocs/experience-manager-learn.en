@@ -71,7 +71,7 @@ Configure AEM's [DefaulMailService](https://experienceleague.adobe.com/docs/expe
 
 The `EMAIL_USERNAME` and `EMAIL_PASSWORD` OSGi variable and secret can be set per environment, using either:
 
-+ [Cloud Manger Environment Configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/environment-variables.html)
++ [Cloud Manager Environment Configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/environment-variables.html)
 + or using the `aio CLI` command
 
   ```shell
