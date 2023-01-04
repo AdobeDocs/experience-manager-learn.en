@@ -23,11 +23,11 @@ last-substantial-update: 2022-12-09
 | Header menu | Adds a button to the header that displays when __zero__ Content Fragments are selected. | None. |
 | Action bar | Adds a button to the action bar that displays when __one or more__ Content Fragments are selected. | An array of the selected Content Fragments' paths. |
 
-A single AEM Content Fragments Console extension can include zero or one Header menu, and zero or one Action bar extension types. If multiple extension types of the same type are required, multiple AEM Content Fragments Console extensions must be created.
+A single AEM Content Fragments Console extension can include zero or one Header menu, and zero or one Action bar extension type. If multiple extension types of the same type are required, multiple AEM Content Fragments Console extensions must be created.
 
 AEM Content Fragments Console extensions, require an [Adobe Developer Console project](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/#create-a-project-in-adobe-developer-console) and an [App Builder app](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/code-generation) using the `@adobe/aem-cf-admin-ui-ext-tpl` template, associated with the Adobe Developer Console project.
 
-Select from the following capabilities when generating the App Builder app, based on what the extension will do. Any combinations of options can be used in an extension.
+Select from the following capabilities when generating the App Builder app, based on what the extension does. Any combinations of options can be used in an extension.
 
 |                                            | Add button to [Header menu](./header-menu.md) | Add button to [Action Bar](./action-bar.md) | Show [Modal](./modal.md) | Add [server-side handler](./runtime-action.md) |  
 | ------------------------------------------ | :-----------------------: | :----------------------: | :--------: | :--------------------:  |
@@ -61,9 +61,9 @@ Follow the steps outlined below to learn how to generate, develop, and deploy an
             <div class="card-content is-padded-small">
                 <div class="content">
                     <p class="headline is-size-5 has-text-weight-bold">1. Create a project</p>
-                    <p class="is-size-6">Create a Adobe Developer Console project that defines it's access to other Adobe services, and manages its deployments.</p>
+                    <p class="is-size-6">Create an Adobe Developer Console project that defines its access to other Adobe services, and manages its deployments.</p>
                     <a href="https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/#create-a-project-in-adobe-developer-console" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" target="_adobe-developer-com">
-                        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Create a Adobe Developer Project</span>
+                        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Create an Adobe Developer Project</span>
                     </a>
                 </div>
             </div>
@@ -124,7 +124,7 @@ Follow the steps outlined below to learn how to generate, develop, and deploy an
             <div class="card-content is-padded-small">
                 <div class="content">
                     <p class="headline is-size-5 has-text-weight-bold">4a. Header Menu</p>
-                    <p class="is-size-6">Learn how to create an AEM Content Fragment Console header menu extensions.</p>
+                    <p class="is-size-6">Learn how to create an AEM Content Fragment Console header menu extension.</p>
                     <a href="./header-menu.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
                         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Extend the header menu</span>
                     </a>
@@ -145,7 +145,7 @@ Follow the steps outlined below to learn how to generate, develop, and deploy an
             <div class="card-content is-padded-small">
                 <div class="content">
                     <p class="headline is-size-5 has-text-weight-bold">4b. Action Bar</p>
-                    <p class="is-size-6">Learn how to create an AEM Content Fragment Console action bar extensions.</p>
+                    <p class="is-size-6">Learn how to create an AEM Content Fragment Console action bar extension.</p>
                     <a href="./action-bar.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
                         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Extend the action bar</span>
                     </a>
@@ -187,7 +187,7 @@ Follow the steps outlined below to learn how to generate, develop, and deploy an
             <div class="card-content is-padded-small">
                 <div class="content">
                     <p class="headline is-size-5 has-text-weight-bold">6. Adobe I/O Runtime action</p>
-                    <p class="is-size-6">Add an serverless Adobe I/O Runtime action the extension can invoke to interact with Content Fragments and AEM to perform custom business operations.</p>
+                    <p class="is-size-6">Add a serverless Adobe I/O Runtime action that the extension can invoke to interact with Content Fragments and AEM to perform custom business operations.</p>
                     <a href="./runtime-action.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
                         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Add an Adobe I/O Runtime action</span>
                     </a>
@@ -208,7 +208,7 @@ Follow the steps outlined below to learn how to generate, develop, and deploy an
             <div class="card-content is-padded-small">
                 <div class="content">
                     <p class="headline is-size-5 has-text-weight-bold">7. Test</p>
-                    <p class="is-size-6">Test the extensions during development, as well as sharing completed extensions to  QA or UAT testers using a special URL.</p>
+                    <p class="is-size-6">Test the extensions during development, and sharing completed extensions to  QA or UAT testers using a special URL.</p>
                     <a href="./test.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
                         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Test the extension</span>
                     </a>
@@ -265,4 +265,28 @@ Example AEM Content Fragment Console extensions.
             </div>
         </div>
     </div>
+    <!-- Bulk property update extension -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Image generation and upload to AEM extension">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-16by9">
+                    <a href="./example-extensions/image-generation-and-image-upload.md" title="Image generation and upload to AEM extension" tabindex="-1">
+                        <img class="is-bordered-r-small" src="./example-extensions/assets/digital-image-generation/screenshot.png" alt="Image generation and upload to AEM extension">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small">
+                <div class="content">
+                    <p class="headline is-size-5 has-text-weight-bold">Image generation and upload to AEM extension</p>
+                    <p class="is-size-6">Explore an example action bar extension that generates an image using OpenAI, uploads it to AEM and updates image property on the selected Content Fragment.</p>
+                    <a href="./example-extensions/image-generation-and-image-upload.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
+                        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explore the example extension</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    
+
 </div>

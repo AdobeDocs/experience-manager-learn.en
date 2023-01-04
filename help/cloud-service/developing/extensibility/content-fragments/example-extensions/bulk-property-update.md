@@ -26,7 +26,7 @@ The functional flow of the example extension is as follows:
 1. Submitting the form sends the list of selected Content Fragments, and the AEM host to the [custom Adobe I/O Runtime action](#adobe-io-runtime-action).
 1. The [Adobe I/O Runtime action](#adobe-io-runtime-action) validates the inputs and makes HTTP PUT requests to AEM to update the selected Content Fragments.
 1. A series of HTTP PUTs for each Content Fragment to update the specified property.
-1. AEM as a Cloud Service persists the property updates to the Content Fragment and returns success of failure responses to the Adobe I/O Runtime action.
+1. AEM as a Cloud Service persists the property updates to the Content Fragment and returns success or failure responses to the Adobe I/O Runtime action.
 1. The modal received the response from the Adobe I/O Runtime action, and displays a list of successful bulk updates.
 
 This video reviews the example bulk property update extension, how it works and how it is developed.
@@ -63,7 +63,7 @@ There are two logical sets of routes:
     <Route index element={<ExtensionRegistration />} />
     ```
 
-1. The second set of routes maps URLs to React components that render the contents of the extension's modal. The `:selection` param represents a delimited list content fragment paths. 
+1. The second set of routes maps URLs to React components that render the contents of the extension's modal. The `:selection` param represents a delimited list content fragment path. 
 
     If the extension has multiple buttons to invoke discrete actions, each [extension registration](#extension-registration) maps to a route defined here.
 
@@ -141,7 +141,7 @@ In this example app, there is a modal React component (`BulkPropertyUpdateModal.
 Importantly, any interaction with AEM from the extension should be delegated to an [AppBuilder Adobe I/O Runtime action](https://developer.adobe.com/runtime/docs/guides/using/creating_actions/), which is a separate serverless process running in [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/).
 The use of Adobe I/O Runtime actions to communicate with AEM, is to avoid Cross-Origin Resource Sharing (CORS) connectivity issues.
 
-When the Bulk Property Update form is submitted, a custom `onSubmitHandler()` invokes the Adobe I/O Runtime action, passing the current AEM host (domain) and user's AEM access token, which in turn calls the [AEM Content Fragment API](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/content-fragments-api.html) to update the content fragments.
+When the Bulk Property Update form is submitted, a custom `onSubmitHandler()` invokes the Adobe I/O Runtime action, passing the current AEM host (domain) and user's AEM access token, which in turn calls the [AEM Content Fragment API](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/assets-api-content-fragments.html) to update the content fragments.
 
 When the response from the Adobe I/O Runtime action is received, the modal is updated to display the results of the bulk property update operation.
 
@@ -402,7 +402,7 @@ export default function BulkPropertyUpdateModal() {
 
 ## Adobe I/O Runtime action
 
-An AEM extension App Builder app can define or user 0 or many Adobe I/O Runtime actions. 
+An AEM extension App Builder app can define or use 0 or many Adobe I/O Runtime actions. 
 Adobe Runtime actions should be responsible work that requires interacting with AEM, or other Adobe web services.
 
 In this example app, the Adobe I/O Runtime action - which uses the default name `generic` - is responsible for:
