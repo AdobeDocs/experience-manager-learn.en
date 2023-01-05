@@ -50,6 +50,8 @@ team: TM
   + Extensibility{#extensibility}
     + Content Fragment console{#content-fragments}
       + [Overview](./developing/extensibility/content-fragments/overview.md)
+      + [Adobe Developer Console project](./developing/extensibility/content-fragments/adobe-developer-console-project.md)
+      + [App initialization](./developing/extensibility/content-fragments/app-initialization.md)
       + [Extension registration](./developing/extensibility/content-fragments/extension-registration.md)
       + [Header menu](./developing/extensibility/content-fragments/header-menu.md)
       + [Action bar](./developing/extensibility/content-fragments/action-bar.md)

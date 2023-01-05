@@ -53,7 +53,7 @@ Follow the steps outlined below to learn how to generate, develop, and deploy an
         <div class="card">
             <div class="card-image">
                 <figure class="image is-16by9">
-                    <a href="https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/#create-a-project-in-adobe-developer-console" title="Create Adobe Developer Project" tabindex="-1" target="_adobe-developer-com">
+                    <a href="./adobe-developer-console-project.md" title="Create Adobe Developer Project" tabindex="-1">
                         <img class="is-bordered-r-small" src="./assets/project/card.png" alt="Create Adobe Developer Project">
                     </a>
                 </figure>
@@ -61,8 +61,8 @@ Follow the steps outlined below to learn how to generate, develop, and deploy an
             <div class="card-content is-padded-small">
                 <div class="content">
                     <p class="headline is-size-5 has-text-weight-bold">1. Create a project</p>
-                    <p class="is-size-6">Create an Adobe Developer Console project that defines its access to other Adobe services, and manages its deployments.</p>
-                    <a href="https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/#create-a-project-in-adobe-developer-console" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" target="_adobe-developer-com">
+                    <p class="is-size-6">Create an Adobe Developer Console project that defines it's access to other Adobe services, and manages its deployments.</p>
+                    <a href="./adobe-developer-console-project.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
                         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Create an Adobe Developer Project</span>
                     </a>
                 </div>
@@ -74,7 +74,7 @@ Follow the steps outlined below to learn how to generate, develop, and deploy an
         <div class="card">
             <div class="card-image">
                 <figure class="image is-16by9">
-                    <a href="https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/code-generation/#launch-code-generation-during-project-initialization" title="Generate an Extension app" tabindex="-1" target="_adobe-developer-com">
+                    <a href="./app-initialization.md" title="Generate an Extension app" tabindex="-1">
                         <img class="is-bordered-r-small" src="./assets/initialize-app/card.png" alt="Initialize an extension app">
                     </a>
                 </figure>
@@ -83,7 +83,7 @@ Follow the steps outlined below to learn how to generate, develop, and deploy an
                 <div class="content">
                     <p class="headline is-size-5 has-text-weight-bold">2. Initialize an extension app</p>
                     <p class="is-size-6">Initialize an AEM Content Fragment Console extension App Builder app that defines where the extension appears, and the work it performs.</p>
-                    <a href="https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/code-generation/#launch-code-generation-during-project-initialization" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" target="_adobe-developer-com">
+                    <a href="./app-initialization.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
                         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Initialize an extension app</span>
                     </a>
                 </div>
