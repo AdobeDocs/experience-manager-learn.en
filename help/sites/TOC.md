@@ -52,6 +52,7 @@ version: 6.4, 6.5, Cloud Service
   + [Getting Started with AEM Headless](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html)
   + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html)
   + [Extending Page Properties](developing/page-properties-technical-video-develop.md)
+  + [Responsive breakpoints](developing/responsive-breakpoints.md)
   + [Developing with the Style System](developing/style-system-technical-video-understand.md)
   + [Style System Best Practices](developing/style-organization-style-system-understand-article.md)
   + [Developing for Page Difference](developing/page-diff-technical-video-develop.md)
