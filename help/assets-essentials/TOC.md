@@ -12,7 +12,6 @@ team: TM
 
 + [Overview](overview.md)
 
-+ [Provisioning](./provisioning.md)
 + [Getting started](./getting-started.md)
 
 + Basics{#basics}
