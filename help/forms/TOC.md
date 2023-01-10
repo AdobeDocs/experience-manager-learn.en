@@ -94,6 +94,11 @@ index: y
   + [Pre-Populating HTML5 Forms](adaptive-forms/prepopulating-html5-forms-in-aem-forms-article.md)
   + [Form Data Model with Salesforce](adaptive-forms/using-adaptive-forms-with-sales-force-integration-tutorial.md)
   + [Adding Items Dynamically to Choice Component](adaptive-forms/choice-group-items-adding-dynamically-article.md)
++ Select and assemble DAM folder content{#select-dam-folder-content}
+  + [Introduction](display-and-assemble-dam-folder-contents/introduction.md)
+  + [Populate choice group](display-and-assemble-dam-folder-contents/populating-choice-group-with-dam-folder-content.md)
+  + [Assemble selected assets](display-and-assemble-dam-folder-contents/assemble-selected-newsletters.md)
+  + [Deploy the assets locally](display-and-assemble-dam-folder-contents/deploy-on-your-system.md)
 + Prefilling adaptive form using form data model{#prefill-fdm-db}
   + [Introduction](prefill-fdm-db/introduction.md)
   + [Create database tables](prefill-fdm-db/create-database-tables.md)

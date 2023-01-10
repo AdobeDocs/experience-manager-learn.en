@@ -1,0 +1,28 @@
+---
+title: Select and download DAM folder contents
+description: Deploy the tutorial assets on your local AEM instance
+feature: Adaptive Forms
+version: 6.5
+topic: Development
+role: Developer
+level: Beginner
+last-substantial-update: 2023-01-04
+---
+# Deploy on your system
+
+Please follow the steps listed below to get this use case working on your local AEM instance.
+
+* [Configure to use fd-service user by following the steps mentioned in this article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/adaptive-forms/service-user-tutorial-develop.html?lang=en). Make sure you have deployed the DevelopingWithServiceUser bundle.
+
+* [Deploy the newsletters bundle](assets/Newsletters.core-1.0.0-SNAPSHOT.jar). This bundle contains the code to list the folder contents and assemble the selected newsletter(s).
+
+* [Import the package using Package Manager](assets/newsletter.zip). This package contains client library and sample pdf files to test the solution.
+
+* [Import the sample adaptive form](assets/sample-adaptive-form.zip). This form will list the newsletters that can be selected.
+
+* [Preview the form](http://localhost:4502/content/dam/formsanddocuments/downloadarchivednewsletters/jcr:content?wcmmode=disabled).
+Select a couple of newsletters to download.The selected newsletters will be combined into one pdf and returned to you.
+
+
+
+
