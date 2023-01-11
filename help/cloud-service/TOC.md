@@ -60,8 +60,8 @@ team: TM
       + [Test](./developing/extensibility/content-fragments/test.md)
       + [Deploy](./developing/extensibility/content-fragments/deploy.md)
       + Example extensions{#example-extensions}
-        + [Bulk property update extension](./developing/extensibility/content-fragments/example-extensions/bulk-property-update.md)
-        + [Image generation and upload to AEM](./developing/extensibility/content-fragments/example-extensions/image-generation-and-image-upload.md)
+        + [Bulk property update](./developing/extensibility/content-fragments/example-extensions/bulk-property-update.md)
+        + [AEM image asset generation using OpenAI](./developing/extensibility/content-fragments/example-extensions/image-generation-and-image-upload.md)
   + Development Basics{#basics}
     + [AEM SDK](./developing/basics/aem-sdk.md)
     + [Local Development Environment](./developing/basics/local-development-environment.md)
