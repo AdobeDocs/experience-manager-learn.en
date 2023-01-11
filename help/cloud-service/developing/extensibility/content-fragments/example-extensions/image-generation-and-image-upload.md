@@ -1,5 +1,5 @@
 ---
-title: OpenAI-based image generation via Content Fragment Console extension
+title: OpenAI image generation via a custom Content Fragment Console extension
 description: An example AEM Content Fragments Console extension that generates digital image from natural language descriptions using OpenAI or DALL-E 2 and uploads generated image to AEM, and associates it to the Content Fragment.
 feature: Developer Tools
 version: Cloud Service
@@ -11,7 +11,7 @@ thumbnail: KT-11649.png
 last-substantial-update: 2023-01-04
 ---
 
-# OpenAI-based digital image generation, uploading to AEM example extension
+# AEM image asset generation using OpenAI
 
 ![Digital image generation](./assets/digital-image-generation/screenshot.png){align="center"}
 
