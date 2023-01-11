@@ -265,19 +265,19 @@ Example AEM Content Fragment Console extensions.
             </div>
         </div>
     </div>
-    <!-- Bulk property update extension -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Image generation and upload to AEM extension">
+    <!-- Image Generartion update extension -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="OpenAI-based image generation and upload to AEM extension">
         <div class="card">
             <div class="card-image">
                 <figure class="image is-16by9">
-                    <a href="./example-extensions/image-generation-and-image-upload.md" title="Image generation and upload to AEM extension" tabindex="-1">
-                        <img class="is-bordered-r-small" src="./example-extensions/assets/digital-image-generation/screenshot.png" alt="Image generation and upload to AEM extension">
+                    <a href="./example-extensions/image-generation-and-image-upload.md" title="OpenAI-based image generation and upload to AEM extension" tabindex="-1">
+                        <img class="is-bordered-r-small" src="./example-extensions/assets/digital-image-generation/screenshot.png" alt="OpenAI-based image generation and upload to AEM extension">
                     </a>
                 </figure>
             </div>
             <div class="card-content is-padded-small">
                 <div class="content">
-                    <p class="headline is-size-5 has-text-weight-bold">Image generation and upload to AEM extension</p>
+                    <p class="headline is-size-5 has-text-weight-bold">OpenAI-based image generation and upload to AEM extension</p>
                     <p class="is-size-6">Explore an example action bar extension that generates an image using OpenAI, uploads it to AEM and updates image property on the selected Content Fragment.</p>
                     <a href="./example-extensions/image-generation-and-image-upload.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
                         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explore the example extension</span>

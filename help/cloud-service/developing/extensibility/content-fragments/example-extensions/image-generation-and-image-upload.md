@@ -11,7 +11,7 @@ thumbnail: KT-11649.png
 last-substantial-update: 2023-01-04
 ---
 
-# Digital Image generation, uploading to AEM example extension
+# OpenAI-based digital image generation, uploading to AEM example extension
 
 ![Digital image generation](./assets/digital-image-generation/screenshot.png){align="center"}
 
@@ -37,6 +37,10 @@ The functional flow of the example extension is as follows:
 1. Next it initiates the image upload from the App Builder runtime to AEM DAM under a predefined path.
 1. The AEM as a Cloud Service saves image to the DAM and returns success or failure responses to the Adobe I/O Runtime action. The successful upload response updates the selected Content Fragment's image property value using another HTTP request to AEM from the Adobe I/O Runtime action.
 1. The modal receives the response from the Adobe I/O Runtime action, and provides AEM asset details link of the newly generated, uploaded image.
+
+This video reviews the example image generation using OpenAI or DALL.E 2 extension, how it works and how it is developed. The video has chapter markings such as __Functional Demo, Setup, and Tech-Code__ to watch the relevant piece quickly.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3413093/?quality=12&learn=on)
 
 
 ## The App Builder extension app
