@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 kt: 11649
 thumbnail: KT-11649.png
+doc-type: article
 last-substantial-update: 2023-01-04
 ---
 
