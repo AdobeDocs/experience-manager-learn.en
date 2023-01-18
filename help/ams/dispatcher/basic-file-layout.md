@@ -141,7 +141,7 @@ This directory contains all of the `_cache.any`, `_invalidate.any` files you cre
 
 #### Client Headers Directory
 
-This directory can contain all of the `_clientheaders.any` files you create that contain lists of Client Headers you want to pass through to AEM when a request comes in.  More details on this section are here [here](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)
+This directory can contain all of the `_clientheaders.any` files you create that contain lists of Client Headers you want to pass through to AEM when a request comes in.  More details on this section are [here](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en)
 
 - `/etc/httpd/conf.dispatcher.d/clientheaders/`
 

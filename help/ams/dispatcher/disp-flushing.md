@@ -166,7 +166,7 @@ As you can see in this example the file is older than the `.stat` file and will 
 
 ## Farm File Settings
 
-Documentation is all here for the full set of configuration options: [https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#configuring-dispatcher_configuring-the-dispatcher-cache-cache](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#configuring-dispatcher_configuring-the-dispatcher-cache-cache)
+Documentation is all here for the full set of configuration options: [https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#configuring-dispatcher_configuring-the-dispatcher-cache-cache](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en)
 
 We will want to highlight of few of them that pertain to cache flushing
 
@@ -181,29 +181,29 @@ These farm files don't do anything but flush the document root directories.
 
 ```
 /publishflushfarm {  
-	/virtualhosts {
-		"flush"
-	}
-	/cache {
-		/docroot "${PUBLISH_DOCROOT}"
-		/statfileslevel "${DEFAULT_STAT_LEVEL}"
-		/rules {
-			$include "/etc/httpd/conf.dispatcher.d/cache/ams_publish_cache.any"
-		}
-		/invalidate {
-			/0000 {
-				/glob "*"
-				/type "allow"
-			}
-		}
-		/allowedClients {
-			/0000 {
-				/glob "*.*.*.*"
-				/type "deny"
-			}
-			$include "/etc/httpd/conf.dispatcher.d/cache/ams_publish_invalidate_allowed.any"
-		}
-	}
+    /virtualhosts {
+        "flush"
+    }
+    /cache {
+        /docroot "${PUBLISH_DOCROOT}"
+        /statfileslevel "${DEFAULT_STAT_LEVEL}"
+        /rules {
+            $include "/etc/httpd/conf.dispatcher.d/cache/ams_publish_cache.any"
+        }
+        /invalidate {
+            /0000 {
+                /glob "*"
+                /type "allow"
+            }
+        }
+        /allowedClients {
+            /0000 {
+                /glob "*.*.*.*"
+                /type "deny"
+            }
+            $include "/etc/httpd/conf.dispatcher.d/cache/ams_publish_invalidate_allowed.any"
+        }
+    }
 }
 ```
 

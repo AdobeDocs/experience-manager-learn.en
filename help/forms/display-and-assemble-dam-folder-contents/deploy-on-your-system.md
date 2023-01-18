@@ -1,5 +1,5 @@
 ---
-title: Select and download DAM folder contents
+title: Deploy the assets locally
 description: Deploy the tutorial assets on your local AEM instance
 feature: Adaptive Forms
 version: 6.5
