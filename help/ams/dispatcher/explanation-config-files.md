@@ -245,7 +245,7 @@ RewriteRule ^/logo.jpg$ /content/dam/weretail/general/logo.jpg [NC,PT]
 
 When any FILENAME_farm.any files from `/etc/httpd/conf.dispatcher.d/available_farms/` directory get symlinked into the `/etc/httpd/conf.dispatcher.d/enabled_farms/` directory they will be used in the running configuration.
 
-The farm files have sub includes based on [top level sections of the farm](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#defining-farms-farms) like cache, clientheaders, filters, renders, and vhosts.
+The farm files have sub includes based on [top level sections of the farm](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#defining-farms-farms) like cache, clientheaders, filters, renders, and vhosts.
 
 The `FILENAME_farm.any` files will have include statements for each file based on where they need to be included in the farm file.  Here is an example syntax of a `FILENAME_farm.any` file as a good reference:
 
