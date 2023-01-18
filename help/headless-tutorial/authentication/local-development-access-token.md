@@ -12,6 +12,7 @@ thumbnail: 330477.jpg
 topic: Headless, Integrations
 role: Developer
 level: Intermediate, Experienced
+last-substantial-update: 2023-01-12
 exl-id: 197444cb-a68f-4d09-9120-7b6603e1f47d
 ---
 # Local Development Access Token
@@ -34,6 +35,7 @@ The Local Development Access Token provides access to AEM Author and Publish ser
 1. Open the Program containing the AEM as a Cloud Service environment to integrate with
 1. Tap the __ellipsis__ next to the environment in the __Environments__ section, and select __Developer Console__
 1. Tap in the __Integrations__ tab
+1. Tap the __Local token__ tab
 1. Tap __Get Local Development Token__ button
 1. Tap on the __download button__ in the top-left corner to download the JSON file containing `accessToken` value, and save the JSON file to a safe location on your development machine.
     + This is your 24 hour, developer access token to the AEM as a Cloud Service environment. 

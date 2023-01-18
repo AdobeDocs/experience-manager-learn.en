@@ -12,6 +12,7 @@ thumbnail: 330519.jpg
 topic: Headless, Integrations
 role: Developer
 level: Intermediate, Experienced
+last-substantial-update: 2023-01-12
 exl-id: e2922278-4d0b-4f28-a999-90551ed65fb4
 ---
 # Service credentials
@@ -22,10 +23,11 @@ Integrations with Adobe Experience Manager (AEM) as a Cloud Service must be able
 
 Service Credentials may appear similar [Local Development Access Tokens](./local-development-access-token.md) but are different in a few key ways:
 
++ Service Credentials are associated with Technical Accounts. Multiple service credentials can be active for a Technical Account.
 + Service Credentials are _not_ access tokens, rather they are credentials that are used to _obtain_ access tokens.
-+ Service Credentials are more permanent (expire every 365 days), and do not change unless revoked, whereas Local Development Access Tokens expire daily.
++ Service Credentials are more permanent (their certificate's expire every 365 days), and do not change unless revoked, whereas Local Development Access Tokens expire daily.
 + Service Credentials for an AEM as a Cloud Service environment map to a single AEM technical account user, whereas Local Development Access Tokens authenticate as the AEM user who generated the access token.
-+ An AEM as a Cloud Service environment has one Service Credentials that maps to one technical account AEM user. Service Credentials cannot be used to authenticate to the same AEM as a Cloud Service environment as different technical account AEM users.
++ An AEM as a Cloud Service environment can have up to ten technical accounts, each with their own Service Credentials, each mapping to discrete technical account AEM user. 
 
 Both Service Credentials and the access tokens they generate, and Local Development Access Tokens, should be kept secret. As all three can be used to obtain,  access to their respective AEM as a Cloud Service environment.
 
@@ -33,27 +35,27 @@ Both Service Credentials and the access tokens they generate, and Local Developm
 
 Service Credentials generation is broken into two steps:
 
-1. A one-time Service Credentials initialization by an Adobe IMS Org administrator
-1. The download and use of the Service Credentials JSON
+1. A one-time Technical Account creation by an Adobe IMS Org administrator
+1. The download and use of the Technical Account's Service Credentials JSON
 
-### Service Credentials initialization
+### Create a Technical Account
 
-Service Credentials, unlike Local Development Access Tokens, require a _one-time initialization_ by your Adobe Org IMS Administrator before they can be downloaded. 
+Service Credentials, unlike Local Development Access Tokens, require a Technical Account to be created by an Adobe Org IMS Administrator before they can be downloaded. Discrete Technical Accounts should be created for each client that requires programmatic access to AEM.
 
-![Initialize Service Credentials](assets/service-credentials/initialize-service-credentials.png)
+![Create a Technical Account](assets/service-credentials/initialize-service-credentials.png)
 
-__This is a one-time initialization per AEM as a Cloud Service environment__
+Technical Accounts are created once, however the Private Keys uses to manage Service Credentials associated with the Technical Account can be managed over time. For example, new Private Key/Service Credentials must be generated prior to the current Private Key's expiration, to allow for uninterrupted access by a user of the Service Credentials.
 
-1.  Ensure you are logged in as:
-    + Your Adobe IMS Org's Administrator
-    + Member of the __Cloud Manager - Developer__ IMS Product Profile
-    + Member of the __AEM User__ or __AEM Administrators__ IMS Product Profile on __AEM Author__
+1.  Ensure you are logged in as a:
+    + __Adobe IMS Org's Administrator__
+    + Member of the __AEM Administrators__ IMS Product Profile on __AEM Author__
 1.  Log in to [Adobe Cloud Manager](https://my.cloudmanager.adobe.com)
 1.  Open the Program containing the AEM as a Cloud Service environment to integrate set up the Service Credentials for
 1.  Tap the ellipsis next to the environment in the __Environments__ section, and select __Developer Console__
 1.  Tap in the __Integrations__ tab
-1.  Tap __Get Service Credentials__ button
-1.  The Service Credentials are initialized and displayed as JSON 
+1.  Tap the __Technical Accounts__ tab
+1.  Tap __Create new technical account__ button
+1.  The Technical Account's Service Credentials are initialized and displayed as JSON 
 
 ![AEM Developer Console - Integrations - Get Service Credentials](./assets/service-credentials/developer-console.png)
 
@@ -63,20 +65,20 @@ Once the AEM as Cloud Service environment's Service Credentials have been initia
 
 ![Download Service Credentials](assets/service-credentials/download-service-credentials.png)
 
-Downloading the Service Credentials follows the same steps as the initialization. If the initialization has not yet occurred, the user is presented with an error with tapping the __Get Service Credentials__ button.
+Downloading the Service Credentials follows the similar steps as the initialization. 
 
 1.  Ensure you are logged in as a:
-    +   Member of the __Cloud Manager - Developer__ IMS Product Profile (which grants access to AEM Developer Console)
-        + Sandbox AEM as a Cloud Service environment do not require this  __Cloud Manager - Developer__ membership
-    +   Member of the __AEM User__ or __AEM Administrators__ IMS Product Profile on __AEM Author__
+    + __Adobe IMS Org's Administrator__
+    + Member of the __AEM Administrators__ IMS Product Profile on __AEM Author__
 1.  Log in to [Adobe Cloud Manager](https://my.cloudmanager.adobe.com)
 1.  Open the Program containing the AEM as a Cloud Service environment to integrate with
 1.  Tap the ellipsis next to the environment in the __Environments__ section, and select __Developer Console__
 1.  Tap in the __Integrations__ tab
-1.  Tap __Get Service Credentials__ button
-1.  Tap on the download button in the top-left corner to download the JSON file containing the Service Credentials value, and save the file to a safe location.
-
-+ _If Service Credentials are compromised, immediately contact Adobe Support to have them revoked_
+1.  Tap the __Technical Accounts__ tab
+1.  Expand the __Technical Account__ to be used
+1.  Expand the __Private Key__ whose Service Credentials will be downloaded, and verify that the status is __Active__
+1.  Tap on the __...__ > __View__ associated with the __Private Key__, which displays the Service Credentials JSON
+1.  Tap on the download button in the top-left corner to download the JSON file containing the Service Credentials value, and save the file to a safe location
 
 ## Install the Service Credentials
 
@@ -85,7 +87,7 @@ The Service Credentials provide the details needed to generate a JWT, which is e
 For simplicity, this tutorial passes the Service Credentials in via the command line. However, work with your IT Security team to understand how to store and access these credentials in accordance with your organization's security guidelines.
 
 1.  Copy the [downloaded the Service Credentials JSON](#download-service-credentials) to a file named `service_token.json` in the root of the project
-    + But remember, never commit any credentials to Git!
+    + Remember, never commit _any credentials_ to Git!
 
 ## Use Service Credentials 
 
@@ -94,7 +96,7 @@ The Service Credentials, a fully formed JSON object, are not the same as the JWT
 ![Service Credentials - External Application](assets/service-credentials/service-credentials-external-application.png)
 
 1.  Download the Service Credentials from AEM Developer Console to a secure location
-1.  An External Application needs to programmatically interact with AEM as a Cloud Service environment
+1.  The External Application needs to programmatically interact with AEM as a Cloud Service environment
 1.  The External Application reads in the Service Credentials from a secure location
 1.  The External Application uses information from the Service Credentials to construct a JWT Token
 1.  The JWT Token is sent to Adobe IMS to exchange for an access token
@@ -105,22 +107,22 @@ The Service Credentials, a fully formed JSON object, are not the same as the JWT
 
 ### Updates to the External Application
 
-To access AEM as a Cloud Service using the Service Credentials that our external application must be updated in three ways:
+To access AEM as a Cloud Service using the Service Credentials, the external application must be updated in three ways:
 
 1. Read in the Service Credentials
 
-+ For simplicity, we read these from the downloaded JSON file, however in real-use scenarios, Service Credentials must be securely stored in accordance to your organization's security guidelines
++ For simplicity, the Service Credentials are read from the downloaded JSON file, however in real-use scenarios, Service Credentials must be securely stored in accordance to your organization's security guidelines
 
 1. Generate a JWT from the Service Credentials
 1. Exchange the JWT for an access token
 
-+ When Service Credentials are present, our external application uses this access token instead of the Local Development Access Token, when accessing AEM as a Cloud Service
++ When Service Credentials are present, the external application uses this access token instead of the Local Development Access Token, when accessing AEM as a Cloud Service
 
 In this tutorial, Adobe's `@adobe/jwt-auth` npm module is used to both, (1) generate the JWT from the Service Credentials, and (2) exchange it for an access token, in a single function call. If your application is not JavaScript based, please review the [sample code in other languages](https://developer.adobe.com/developer-console/docs/guides/) for how to create a JWT from the Service Credentials, and exchange it for an access token with Adobe IMS.
 
 ## Read the Service Credentials
 
-Review the `getCommandLineParams()` and see that we can read in the Service Credentials JSON files using the same code used to read in the Local Development Access Token JSON. 
+Review the `getCommandLineParams()` so see how the Service Credentials JSON file is read using the same code used to read in the Local Development Access Token JSON. 
 
 ```javascript
 function getCommandLineParams() {
@@ -145,7 +147,7 @@ This example application is Node.js-based, so it's best to use [@adobe/jwt-auth]
 
 1.  Update the `getAccessToken(..)` to inspect the JSON file contents and determine if it represents a Local Development Access Token or Service Credentials. This can be easily achieved by checking for the existence of the `.accessToken` property, which only exists for Local Development Access Token JSON.
 
-    If Service Credentials are provided, the application generates a JWT and exchanges it with Adobe IMS for an access token. We use the [@adobe/jwt-auth](https://www.npmjs.com/package/@adobe/jwt-auth)'s `auth(...)` function which both generate a JWT and exchanges it for an access token in a single function call. The parameters to `auth(..)` method are a [JSON object comprised of specific information](https://www.npmjs.com/package/@adobe/jwt-auth#config-object) available from the Service Credentials JSON, as described below in code.
+    If Service Credentials are provided, the application generates a JWT and exchanges it with Adobe IMS for an access token. Use the [@adobe/jwt-auth](https://www.npmjs.com/package/@adobe/jwt-auth)'s `auth(...)` function which generates a JWT and exchanges it for an access token in a single function call. The parameters to `auth(..)` method are a [JSON object comprised of specific information](https://www.npmjs.com/package/@adobe/jwt-auth#config-object) available from the Service Credentials JSON, as described below in code.
 
    ```javascript
    
@@ -206,7 +208,7 @@ This example application is Node.js-based, so it's best to use [@adobe/jwt-auth]
 
 ## Configure access in AEM
 
-The Service Credentials-derived access token uses a technical account AEM User that has membership in the Contributors AEM user group. 
+The Service Credentials-derived access token uses a technical account AEM User that has membership in the __Contributors__ AEM user group. 
 
 ![Service Credentials - Technical Account AEM User](./assets/service-credentials/technical-account-user.png)
 
