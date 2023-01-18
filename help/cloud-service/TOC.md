@@ -48,6 +48,8 @@ team: TM
   + [Local Dispatcher Tools](./local-development-environment/dispatcher-tools.md)
 + Developing{#developing}
   + Extensibility{#extensibility}
+    + App Builder{#app-builder}
+      + [Generate access token](./developing/extensibility/app-builder/jwt-auth.md)
     + Content Fragment console{#content-fragments}
       + [Overview](./developing/extensibility/content-fragments/overview.md)
       + [Adobe Developer Console project](./developing/extensibility/content-fragments/adobe-developer-console-project.md)
