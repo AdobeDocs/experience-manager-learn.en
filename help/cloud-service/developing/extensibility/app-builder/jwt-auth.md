@@ -64,14 +64,14 @@ The `JWT_PRIVATE_KEY` must be specially formatted as it is natively a multi-line
 
 1. Open `Terminal`
 1. `$ base64 -i /path/to/private.key | pbcopy`
-
-The base64 output is automatically copied the clipboard
+1. The base64 output is automatically copied the clipboard
 
 >[!TAB Windows]
 
 1. Open `Command Prompt`
 1. `$ certutil -encode C:\path\to\private.key C:\path\to\encoded-private.key`
-1. Copy the contents of `encoded-private.key` to the clipboard
+1. `$ findstr /v CERTIFICATE C:\path\to\encoded-private.key`
+1. Copy the base64 output to the clipboard
 
 >[!TAB Linux&reg;]
 
@@ -81,14 +81,14 @@ The base64 output is automatically copied the clipboard
 
 >[!ENDTABS]
 
-For example, the following value might be added to the `JWT_PRIVATE_KEY` key in the `.env`:
+For example, the following base64-encoded private key might be added to the `JWT_PRIVATE_KEY` key in the `.env`:
 
 ```
 ...
 JWT_PRIVATE_KEY=LS0tLS1C..kQgUFJJVkFURSBLRVktLS0tLQ==
 ```
 
-## Extension config
+## Inputs mapping
 
 With the JWT credential value set in the `.env` file, they must be mapped to AppBuilder action inputs to they can be read in the action itself. To do this, add entries for each variable in the `ext.config.yaml` action `inputs` in the format: `INPUT_NAME=$ENV_KEY`.
 
@@ -125,7 +125,7 @@ runtimeManifest:
 The keys defined under `inputs` are available on the `params` object provided to the App Builder action.
 
 
-## Converting JWT credentials to access token
+## JWT credentials to access token
 
 In the App Builder action, the JWT credentials are available in the `params` object, and useable by [`@adobe/jwt-auth`](https://www.npmjs.com/package/@adobe/jwt-auth) to generate an access token, which in turn can access other Adobe APIs and services.
 
