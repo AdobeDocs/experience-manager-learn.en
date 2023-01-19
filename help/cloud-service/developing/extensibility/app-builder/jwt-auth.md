@@ -63,21 +63,24 @@ The `JWT_PRIVATE_KEY` must be specially formatted as it is natively a multi-line
 >[!TAB macOS]
 
 1. Open `Terminal`
-1. `$ base64 -i /path/to/private.key | pbcopy`
+1. Run the comamnd `base64 -i /path/to/private.key | pbcopy`
 1. The base64 output is automatically copied the clipboard
+1. Paste into `.env` as value to corresponding key
 
 >[!TAB Windows]
 
 1. Open `Command Prompt`
-1. `$ certutil -encode C:\path\to\private.key C:\path\to\encoded-private.key`
-1. `$ findstr /v CERTIFICATE C:\path\to\encoded-private.key`
+1. Run the comamnd `certutil -encode C:\path\to\private.key C:\path\to\encoded-private.key`
+1. Run the comamnd `findstr /v CERTIFICATE C:\path\to\encoded-private.key`
 1. Copy the base64 output to the clipboard
+1. Paste into `.env` as value to corresponding key
 
 >[!TAB Linux&reg;]
 
 1. Open terminal
-1. `$ base64 private.key`
+1. Run the comamnd `base64 private.key`
 1. Copy the base64 output to the clipboard
+1. Paste into `.env` as value to corresponding key
 
 >[!ENDTABS]
 
