@@ -41,7 +41,7 @@ Next, explore the power of AEM's GraphQL API using the built-in GraphiQL Explore
 
   >[!IMPORTANT]
   >
-  >In, some versions of AEM (6.X.X) the GraphiQL Explorer (aka GraphiQL IDE) tool needs to be manually installed, follow [instruction from here](../multi-step/explore-graphql-api.md#install-the-graphiql-tool-optional).
+  >In, some versions of AEM (6.X.X) the GraphiQL Explorer (aka GraphiQL IDE) tool needs to be manually installed, follow [instruction from here](../how-to/install-graphiql-aem-6-5.md).
 
 1.  In the top-right corner, make sure that the Endpoint is set to **WKND Shared Endpoint**. Changing the _Endpoint_ dropdown value here displays the existing _Persisted Queries_ in the top-left corner.
 
