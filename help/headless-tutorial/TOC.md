@@ -54,6 +54,7 @@ index: y
   + [Images](./graphql/how-to/images.md)
   + [Localized content](./graphql/how-to/localized-content.md)
   + [AEM Headless SDK](./graphql/how-to/aem-headless-sdk.md)
+  + [Install GraphiQL on AEM 6.5](./graphql/how-to/install-graphiql-aem-6-5.md)
   + Examples {#example-apps}
     + [React](./graphql/example-apps/react-app.md)
     + [Next.js](./graphql/example-apps/next-js.md)

@@ -15,7 +15,7 @@ exl-id: 508b0211-fa21-4a73-b8b4-c6c34e3ba696
 
 The GraphQL API of AEM provides a powerful query language to expose data of Content Fragments to downstream applications. Content Fragment models define the data schema that is used by Content Fragments. Whenever a Content Fragment Model is created or updated, the schema is translated and added to the "graph" that makes up the GraphQL API.
 
-In this chapter, we explore some common GraphQL queries to gather content using an IDE called [GraphiQL](https://github.com/graphql/graphiql). The GraphiQL IDE allows you to quickly test and refine the queries and data returned. It also provides easy access to the documentation, making it easy to learn and understand what methods are available.
+In this chapter, let's explore some common GraphQL queries to gather content using an IDE called [GraphiQL](https://github.com/graphql/graphiql). The GraphiQL IDE allows you to quickly test and refine the queries and data returned. It also provides easy access to the documentation, making it easy to learn and understand what methods are available.
 
 ## Prerequisites {#prerequisites}
 
@@ -401,17 +401,5 @@ In the next chapter, [Build React app](./graphql-and-react-app.md), you explore 
 
 ## Install the GraphiQL Tool (Optional) {#install-graphiql}
 
-In, some versions of AEM (6.X.X) the GraphiQL IDE tool needs to be manually installed, use the following instructions:
+In, some versions of AEM (6.X.X) the GraphiQL IDE tool needs to be manually installed, use the [instructions from here](../how-to/install-graphiql-aem-6-5.md).
 
-1.  Navigate to the **[Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)** > **AEM as a Cloud Service**.
-1.  Search for "GraphiQL" (be sure to include the **i** in **GraphiQL**.
-1.  Download the latest **GraphiQL Content Package v.x.x.x**
-
-    ![Download GraphiQL Package](assets/explore-graphql-api/software-distribution.png)
-
-    The zip file is an AEM package that can be installed directly.
-
-1.  From the AEM Start menu, navigate to **Tools** > **Deployment** > **Packages**.
-1.  Click **Upload Package** and choose the package downloaded in the prior step. Click **Install** to install the package.
-
-    ![Install GraphiQL Package](assets/explore-graphql-api/install-graphiql-package.png)
