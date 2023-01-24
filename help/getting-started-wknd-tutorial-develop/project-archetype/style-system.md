@@ -1,7 +1,7 @@
 ---
 title: Developing with the Style System
 seo-title: Developing with the Style System
-description: Learn how to implement individual styles and re-use Core Components using Experience Manager's Style System. This tutorial covers developing for the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor.
+description: Learn how to implement individual styles and reuse Core Components using Experience Manager's Style System. This tutorial covers developing for the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor.
 version: 6.5, Cloud Service
 type: Tutorial
 feature: Core Components, Style System
@@ -16,7 +16,7 @@ recommendations: noDisplay, noCatalog
 ---
 # Developing with the Style System {#developing-with-the-style-system}
 
-Learn how to implement individual styles and re-use Core Components using Experience Manager's Style System. This tutorial covers developing for the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor.
+Learn how to implement individual styles and reuse Core Components using Experience Manager's Style System. This tutorial covers developing for the Style System to extend Core Components with brand-specific CSS and advanced policy configurations of the Template Editor.
 
 ## Prerequisites {#prerequisites}
 
@@ -28,9 +28,9 @@ It is also recommended to review the [Client-side Libraries and Front-end Workfl
 
 >[!NOTE]
 >
-> If you successfully completed the previous chapter you can re-use the project and skip the steps for checking out the starter project.
+> If you successfully completed the previous chapter, you can reuse the project and skip the steps for checking out the starter project.
 
-Check out the base-line code the tutorial builds on:
+Check out the base-line code that the tutorial builds on:
 
 1. Check out the `tutorial/style-system-start` branch from [GitHub](https://github.com/adobe/aem-guides-wknd)
 
@@ -53,7 +53,7 @@ Check out the base-line code the tutorial builds on:
     $ mvn clean install -PautoInstallSinglePackage -Pclassic
     ```
 
-You can always view the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd/tree/tutorial/style-system-solution) or check the code out locally by switching to the branch `tutorial/style-system-solution`.
+You can always view the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd/tree/tutorial/style-system-solution) or check out the code locally by switching to the branch `tutorial/style-system-solution`.
 
 ## Objective
 
@@ -61,9 +61,9 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 1. Learn about BEM notation and how it can be used to carefully scope styles.
 1. Apply advanced policy configurations with Editable Templates.
 
-## What you will build {#what-you-will-build}
+## What you are going build {#what-build}
 
-In this chapter we will use the [Style System feature](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) to create variations of the **Title** and **Text** components used on the Article page.
+This chapter uses the [Style System feature](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) to create variations of the **Title** and **Text** components used on the Article page.
 
 ![Styles available for Title](assets/style-system/styles-added-title.png)
 
@@ -71,15 +71,15 @@ In this chapter we will use the [Style System feature](https://experienceleague.
 
 ## Background {#background}
 
-The [Style System](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/style-system.html) allows developers and template editors to create multiple visual variations of a component. Authors can then in turn decide which style to use when composing a page. We will leverage the Style System throughout the rest of the tutorial to achieve several unique styles, while leveraging Core Components in a low code approach.
+The [Style System](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/style-system.html) allows developers and template editors to create multiple visual variations of a component. Authors can then in turn decide which style to use when composing a page. The Style System is used throughout the rest of the tutorial to achieve several unique styles while using Core Components in a low code approach.
 
 The general idea with the Style System is that authors can choose various styles of how a component should look. The "styles" are backed by additional CSS classes that are injected into the outer div of a component. In the client libraries CSS rules are added based on these style classes so that the component changes appearance.
 
-You can find [detailed documentation for Style System here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html). There is also a great [technical video for understanding the Style System](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/developing/style-system-technical-video-understand.html).
+You can find [detailed documentation for Style System here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html). There is also a great [technical video for understanding the Style System](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/developing/style-system-technical-video-understand.html).
 
 ## Underline Style - Title {#underline-style}
 
-The [Title Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/title.html) has been proxied into the project under `/apps/wknd/components/title` as part of the **ui.apps** module. The default styles of Heading elements (`H1`, `H2`, `H3`...) have already been implemented in the **ui.frontend** module.
+The [Title Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/wcm-components/title.html) has been proxied into the project under `/apps/wknd/components/title` as part of the **ui.apps** module. The default styles of Heading elements (`H1`, `H2`, `H3`...) have already been implemented in the **ui.frontend** module.
 
 The [WKND Article designs](assets/pages-templates/wknd-article-design.xd) contain a unique style for the Title component with an underline. Instead of creating two components or modifying the component dialog, the Style System can be used to allow authors the option to add an underline style.
 
@@ -87,15 +87,15 @@ The [WKND Article designs](assets/pages-templates/wknd-article-design.xd) contai
 
 ### Add a Title Policy
 
-Add a new policy for Title components to allow content authors to choose the Underline style to apply to specific components. This is done using the Template Editor within AEM.
+Let's add a policy for the Title components to allow content authors to choose the Underline style to apply to specific components. This is done using the Template Editor within AEM.
 
-1. Navigate to the **Article Page** template located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page/structure.html)
+1. Navigate to the **Article Page** template from: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page/structure.html)
 
 1. In **Structure** mode, in the main **Layout Container**, select the **Policy** icon next to the **Title** component listed under *Allowed Components*:
 
     ![Title Policy Configure](assets/style-system/article-template-title-policy-icon.png)
 
-1. Create a new policy for the Title component with the following values:
+1. Create a policy for the Title component with the following values:
 
     *Policy Title &#42;*: **WKND Title**
 
@@ -113,7 +113,7 @@ Add a new policy for Title components to allow content authors to choose the Und
 
 ### Apply the Underline Style
 
-As an author apply the underline style to certain Title Components.
+Being an author let's apply the underline style to certain Title Components.
 
 1. Navigate to the **La Skateparks** article in the AEM Sites editor at: [http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html](http://localhost:4502/editor.html/content/wknd/us/en/magazine/guide-la-skateparks.html)
 1. In **Edit** mode, choose a Title component. Click the **paintbrush** icon and select the **Underline** style:
@@ -122,10 +122,10 @@ As an author apply the underline style to certain Title Components.
 
     >[!NOTE]
     >
-    > At this point no visible change will occur as the `underline` style has not been implemented. In the next exercise this style is implemented.
+    > At this point, no visible change occurs as the `underline` style has not been implemented. In the next exercise, this style is implemented.
 
 1. Click the **Page Information** icon &gt; **View as Published** to inspect the page outside of AEM's editor.
-1. Use your browser developer tools to verify the markup around the Title component has the CSS class `cmp-title--underline` applied to the outer div.
+1. Use your browser developer tools to verify that the markup around the Title component has the CSS class `cmp-title--underline` applied to the outer div.
 
     ![Div with underline class applied](assets/style-system/div-underline-class-applied.png)
 
@@ -140,7 +140,7 @@ As an author apply the underline style to certain Title Components.
 
 ### Implement the Underline Style - ui.frontend
 
-Next, implement the Underline style using the **ui.frontend** module of our project. We will use the webpack development server that is bundled with the **ui.frontend** module to preview the styles *before* deploying to a local instance of AEM.
+Next, implement the Underline style using the **ui.frontend** module of the AEM project. The webpack development server that is bundled with the **ui.frontend** module to preview the styles *before* deploying to a local instance of AEM is used.
 
 1. Start the `watch` process from within the **ui.frontend** module:
 
@@ -149,10 +149,10 @@ Next, implement the Underline style using the **ui.frontend** module of our proj
     $ npm run watch
     ```
 
-    This will start a process that monitors changes in the `ui.frontend` module and sync the changes to the AEM instance.
+    This starts a process that monitors changes in the `ui.frontend` module and sync the changes to the AEM instance.
 
 
-1. Return your IDE and open the file `_title.scss` located at: `ui.frontend/src/main/webpack/components/_title.scss`.
+1. Return your IDE and open the file `_title.scss` from: `ui.frontend/src/main/webpack/components/_title.scss`.
 1. Introduce a new rule targeting the `cmp-title--underline` class:
 
     ```scss
@@ -181,15 +181,15 @@ Next, implement the Underline style using the **ui.frontend** module of our proj
     >
     >All Core Components adhere to **[BEM notation](https://github.com/adobe/aem-core-wcm-components/wiki/css-coding-conventions)**. It is a best practice to target the outer CSS class when creating a default style for a component. Another best practice is to target class names specified by the Core Component BEM notation rather than HTML elements.
 
-1. Return to the browser and the AEM page. You should see the Underline style added:
+1. Return to the browser and the AEM page. You should see that the Underline style added:
 
     ![Underline style visible in webpack dev server](assets/style-system/underline-implemented-webpack.png)
 
-1. In the AEM editor you should now be able to toggle on and off the **Underline** style and see the changes reflected visually.
+1. In the AEM Editor, you should now be able to toggle on and off the **Underline** style and see that the changes reflected visually.
 
 ## Quote block Style - Text {#text-component}
 
-Next, repeat similar steps to apply a unique style to the [Text Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/text.html). The Text component has been proxied into the project under `/apps/wknd/components/text` as part of the **ui.apps** module. The default styles of paragraph elements have already been implemented in the **ui.frontend**.
+Next, repeat similar steps to apply a unique style to the [Text Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/wcm-components/text.html). The Text component has been proxied into the project under `/apps/wknd/components/text` as part of the **ui.apps** module. The default styles of paragraph elements have already been implemented in the **ui.frontend**.
 
 The [WKND Article designs](assets/pages-templates/wknd-article-design.xd) contain a unique style for the Text component with a quote block:
 
@@ -197,9 +197,9 @@ The [WKND Article designs](assets/pages-templates/wknd-article-design.xd) contai
 
 ### Add a Text Policy
 
-Next add a new policy for the Text components.
+Next add a policy for the Text components.
 
-1. Navigate to the **Article Page Template** located at: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page/structure.html).
+1. Navigate to the **Article Page Template** from: [http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page/structure.html](http://localhost:4502/editor.html/conf/wknd/settings/wcm/templates/article-page/structure.html).
 
 1. In **Structure** mode, in the main **Layout Container**, select the **Policy** icon next to the **Text** component listed under *Allowed Components*:
 
@@ -232,7 +232,7 @@ Next add a new policy for the Text components.
 
     ![Apply the Quote Block Style](assets/style-system/quote-block-style-applied.png)
 
-1. Use the browser's developer tools to inspect the markup. You should see the class name `cmp-text--quote` has been added to the outter div of the component:
+1. Use the browser's developer tools to inspect the markup. You should see the class name `cmp-text--quote` has been added to the outer div of the component:
 
     ```html
     <!-- Quote Block style class added -->
@@ -246,7 +246,7 @@ Next add a new policy for the Text components.
 
 ### Implement the Quote Block Style - ui.frontend
 
-Next we will implement the Quote Block style using the **ui.frontend** module of our project.
+Next let's implement the Quote Block style using the **ui.frontend** module of the AEM project.
 
 1. If not already running, start the `watch` process from within the **ui.frontend** module:
 
@@ -254,7 +254,7 @@ Next we will implement the Quote Block style using the **ui.frontend** module of
     $ npm run watch
     ```
 
-1. Update the file `text.scss` located at: `ui.frontend/src/main/webpack/components/_text.scss`:
+1. Update the file `text.scss` from: `ui.frontend/src/main/webpack/components/_text.scss`:
 
     ```css
     /* Default text style */
@@ -296,7 +296,7 @@ Next we will implement the Quote Block style using the **ui.frontend** module of
     >
     > In this case raw HTML elements are targeted by the styles. This is because the Text component provides a Rich Text Editor for content authors. Creating styles directly against RTE content should be done with care and it is even more important to tightly scope the styles.
 
-1. Return to the browser once more and you should see the Quote block style added:
+1. Return to the browser once more and you should see that the Quote block style added:
 
     ![Quote block style visible](assets/style-system/quoteblock-implemented.png)
 
@@ -304,7 +304,7 @@ Next we will implement the Quote Block style using the **ui.frontend** module of
 
 ## Fixed Width - Container (Bonus) {#layout-container}
 
-Container components have been used to create the basic structure of the Article Page Template and provide the drop zones for content authors to add content on a page. Containers can also leverage the Style System, providing content authors with even more options for designing layouts.
+Container components have been used to create the basic structure of the Article Page Template and provide the drop zones for content authors to add content on a page. Containers can also use the Style System, providing content authors with even more options for designing layouts.
 
 The **Main Container** of the Article Page template contains the two author-able containers and has a fixed width.
 
@@ -334,13 +334,13 @@ Instead of targeting the `main` HTML element, the Style System could be used to 
 
 ## Congratulations! {#congratulations}
 
-Congratulations, the Article Page is nearly completely styled and you gained hands-on experience using the AEM Style System.
+Congratulations, the Article Page is nearly styled and you gained hands-on experience using the AEM Style System.
 
 ### Next Steps {#next-steps}
 
-Learn the steps end-to-end to create a [custom AEM Component](custom-component.md) that displays content authored in a Dialog, and explores developing a Sling Model to encapsulate business logic that populates the component's HTL.
+Learn the end-to-end steps to create a [custom AEM Component](custom-component.md) that displays content authored in a Dialog, and explores developing a Sling Model to encapsulate business logic that populates the component's HTL.
 
-View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or review and deploy the code locally at on the Git brach `tutorial/style-system-solution`.
+View the finished code on [GitHub](https://github.com/adobe/aem-guides-wknd) or review and deploy the code locally at on the Git branch `tutorial/style-system-solution`.
 
 1. Clone the [github.com/adobe/aem-wknd-guides](https://github.com/adobe/aem-guides-wknd) repository.
 1. Check out the `tutorial/style-system-solution` branch.
