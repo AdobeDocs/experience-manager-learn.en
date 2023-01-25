@@ -178,6 +178,10 @@ index: y
   + [ArrayList Variable](variables-aem-workflow/part4.md)
   + [Form Data Model Variable](variables-aem-workflow/form-data-model.md)
   + [Rule Editor in AEM Workflow](variables-aem-workflow/part5.md)
++ Review form data{#review-form-data}
+  + [Introduction](review-form-data/introduction.md)
+  + [Create Component](review-form-data/create-component.md)
+  + [Deploy assets](review-form-data/deploy-on-your-system.md)
 + Storing and Retrieving Form Data in MySQL DB{#storing-and-retrieving-form-data}
   + [Introduction](storing-retrieving-form-data/introduction.md)
   + [Configure Data Source](storing-retrieving-form-data/part1.md)
