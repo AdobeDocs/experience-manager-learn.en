@@ -22,6 +22,7 @@ team: TM
   + [Link sharing](basics/link-sharing.md)
 
 + Configuring{#configuring}
+  + [My workspace](configuring/my-workspace.md)
   + [Metadata forms](configuring/metadata-forms.md)
   + [Permissions management](configuring/permissions-management.md)
 
