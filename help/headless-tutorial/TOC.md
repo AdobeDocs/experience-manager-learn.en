@@ -107,5 +107,8 @@ index: y
   + [Filtering Angular app](./graphql/code-samples/filtering-angular-app.md)
   + [Filtering Vue app](./graphql/code-samples/filtering-vue-app.md)
   + [Filtering with jQuery and Handlebars](./graphql/code-samples/filtering-jquery-handlebars.md)
+  + [Filtering SvelteKit app](./graphql/code-samples/filtering-sveltekit-app.md)
+  + [Filtering ExpressJS and Pug app](./graphql/code-samples/filtering-express-pug-app.md)
   + [Basic React app](./graphql/code-samples/basic-react-app.md)
   + [Basic Next.js app](./graphql/code-samples/basic-nextjs-app.md)
+
