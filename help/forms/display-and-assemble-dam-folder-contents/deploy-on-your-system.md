@@ -12,7 +12,9 @@ last-substantial-update: 2023-01-04
 
 Please follow the steps listed below to get this use case working on your local AEM instance.
 
-* [Configure to use fd-service user by following the steps mentioned in this article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/adaptive-forms/service-user-tutorial-develop.html?lang=en). Make sure you have deployed the DevelopingWithServiceUser bundle.
+* [Deploy the DevelopingWithServiceUser Bundle](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/developingwithserviceuser.zip) contained in the zip file.
+
+* Add the following entry in the Apache Sling Service User Mapper Service **DevelopingWithServiceUser.core:getformsresourceresolver=fd-service** using the [configMgr](http://localhost:4502/system/console/configMgr).
 
 * [Deploy the newsletters bundle](assets/Newsletters.core-1.0.0-SNAPSHOT.jar). This bundle contains the code to list the folder contents and assemble the selected newsletter(s).
 

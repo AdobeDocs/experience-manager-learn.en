@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 9a3b2128-a383-46ea-bcdc-6015105c70cc
-last-substantial-update: 2020-06-09
+last-substantial-update: 2023-01-26
 ---
 # Using API to generate Document of Record in AEM Forms {#using-api-to-generate-document-of-record-with-aem-forms}
 
@@ -20,16 +20,40 @@ This article illustrates the use of the `com.adobe.aemds.guide.addon.dor.DoRServ
 1. Invoke the render method of the DoRService and pass the DoROptions object to the render method
 
 ```java
+String dataXml = request.getParameter("data");
+System.out.println("Got " + dataXml);
+Session session;
 com.adobe.aemds.guide.addon.dor.DoRService dorService = sling.getService(com.adobe.aemds.guide.addon.dor.DoRService.class);
-com.adobe.aemds.guide.addon.dor.DoROptions dorOptions =  new com.adobe.aemds.guide.addon.dor.DoROptions();
- dorOptions.setData(dataXml);
- dorOptions.setFormResource(resource);
- java.util.Locale locale = new java.util.Locale("en");
- dorOptions.setLocale(locale);
- com.adobe.aemds.guide.addon.dor.DoRResult dorResult = dorService.render(dorOptions);
- byte[] fileBytes = dorResult.getContent();
- com.adobe.aemfd.docmanager.Document dorDocument = new com.adobe.aemfd.docmanager.Document(fileBytes);
+System.out.println("Got ... DOR Service");
+com.mergeandfuse.getserviceuserresolver.GetResolver aemDemoListings = sling.getService(com.mergeandfuse.getserviceuserresolver.GetResolver.class);
+System.out.println("Got aem DemoListings");
+resourceResolver = aemDemoListings.getFormsServiceResolver();
+session = resourceResolver.adaptTo(Session.class);
+resource = resourceResolver.getResource("/content/forms/af/sandbox/1201-borrower-payments");
+com.adobe.aemds.guide.addon.dor.DoROptions dorOptions = new com.adobe.aemds.guide.addon.dor.DoROptions();
+dorOptions.setData(dataXml);
+dorOptions.setFormResource(resource);
+java.util.Locale locale = new java.util.Locale("en");
+dorOptions.setLocale(locale);
+com.adobe.aemds.guide.addon.dor.DoRResult dorResult = dorService.render(dorOptions);
+byte[] fileBytes = dorResult.getContent();
+com.adobe.aemfd.docmanager.Document dorDocument = new com.adobe.aemfd.docmanager.Document(fileBytes);
+resource = resourceResolver.getResource("/content/usergenerated/content/aemformsenablement");
+Node paydotgov = resource.adaptTo(Node.class);
+java.util.Random r = new java.util.Random();
+String nodeName = Long.toString(Math.abs(r.nextLong()), 36);
+Node fileNode = paydotgov.addNode(nodeName + ".pdf", "nt:file");
 
+System.out.println("Created file Node...." + fileNode.getPath());
+Node contentNode = fileNode.addNode("jcr:content", "nt:resource");
+Binary binary = session.getValueFactory().createBinary(dorDocument.getInputStream());
+contentNode.setProperty("jcr:data", binary);
+JSONWriter writer = new JSONWriter(response.getWriter());
+writer.object();
+writer.key("filePath");
+writer.value(fileNode.getPath());
+writer.endObject();
+session.save();
 ```
 
 To try this on your local system, please follow the following steps
@@ -49,6 +73,6 @@ To try this on your local system, please follow the following steps
 PDF isn't displayed in new browser tab:
 
 1. Make sure you are not blocking popups in your browser
-1. Make you have followed the steps outlined in this [article](service-user-tutorial-develop.md)
+1. Make sure you are starting AEM server as an administrator(at least on windows)
 1. Make sure the 'DevelopingWithServiceUser' bundle is in *active state* 
-1. Make sure the system user ' data ' has Read, Modify, and Create permissions on the following node `/content/usergenerated/content/aemformsenablement`
+1. [Make sure the system user](http://localhost:4502/useradmin) ' fd-service' has Read, Modify, and Create permissions on the following node `/content/usergenerated/content/aemformsenablement`
