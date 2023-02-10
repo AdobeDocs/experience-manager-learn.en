@@ -1,6 +1,6 @@
 ---
 title: OpenAI image generation via a custom Content Fragment Console extension
-description: An example AEM Content Fragments Console extension that generates digital image from natural language descriptions using OpenAI or DALL-E 2 and uploads generated image to AEM, and associates it to the Content Fragment.
+description: Learn how to generate digital image from natural language description using OpenAI or DALL-E 2 and uploads generated image to AEM using a custom Content Fragment Console extension.
 feature: Developer Tools
 version: Cloud Service
 topic: Development
@@ -14,9 +14,11 @@ last-substantial-update: 2023-01-04
 
 # AEM image asset generation using OpenAI
 
-![Digital image generation](./assets/digital-image-generation/screenshot.png){align="center"}
+Learn how to generate an image using OpenAI or DALL.E 2 and upload it to AEM DAM for content velocity.
 
-This example AEM Content Fragment Console extension is an [action bar](../action-bar.md) extension that generates digital image/s from natural language input using [OpenAI API](https://openai.com/api/) or [DALL.E 2](https://openai.com/dall-e-2/). The generated image is uploaded to the AEM DAM and selected Content Fragment's image property is updated to refer this newly generated, uploaded image from DAM.
+![Digital image generation](./assets/digital-image-generation/screenshot.png){width="500" zoomable="yes"}
+
+This example AEM Content Fragment Console extension is an [action bar](../action-bar.md) extension that generates digital image from natural language input using [OpenAI API](https://openai.com/api/) or [DALL.E 2](https://openai.com/dall-e-2/). The generated image is uploaded to the AEM DAM and selected Content Fragment's image property is updated to refer this newly generated, uploaded image from DAM.
 
 In this example you learn:
 
@@ -102,6 +104,12 @@ The generated App Builder extension app is updated as described below.
 1.  Install below Node.js libraries
     1. [The OpenAI Node.js library](https://github.com/openai/openai-node#installation) - to invoke the OpenAI API easily
     1. [AEM Upload](https://github.com/adobe/aem-upload#install) - to upload images to AEM-CS instances.
+
+
+>[!TIP]
+>
+>In the following sections, you learn about the key React and Adobe I/O Runtime action JavaScript files. For your reference the key files from `web-src` and  `actions` folder of the AppBuilder project are provided, see [adobe-appbuilder-cfc-ext-image-generation-code.zip](./assets/digital-image-generation/adobe-appbuilder-cfc-ext-image-generation-code.zip). 
+
 
 ## App routes{#app-routes}
 
@@ -192,7 +200,7 @@ In this example app, there is a modal React component (`GenerateImageModal.js`) 
 1. The response of the image generation operation, providing the AEM asset details link of the newly generated, uploaded image.
 
 Importantly, any interaction with AEM from the extension should be delegated to an [AppBuilder Adobe I/O Runtime action](https://developer.adobe.com/runtime/docs/guides/using/creating_actions/), which is a separate serverless process running in [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/).
-The use of Adobe I/O Runtime actions to communicate with AEM, is to avoid Cross-Origin Resource Sharing (CORS) connectivity issues.
+The use of Adobe I/O Runtime actions to communicate with AEM, and is to avoid Cross-Origin Resource Sharing (CORS) connectivity issues.
 
 When the _Generate Image_ form is submitted, a custom `onSubmitHandler()` invokes the Adobe I/O Runtime action, passing the image description, current AEM host (domain), and user's AEM access token. The action then calls the OpenAI's [Image generation](https://beta.openai.com/docs/guides/images/image-generation-beta) API to generate an image using the submitted image description. Next using [AEM Upload](https://github.com/adobe/aem-upload) node module's `DirectBinaryUpload` class it uploads generated image to AEM and finally uses [AEM Content Fragment API](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/assets-api-content-fragments.html) to update the content fragments.
 
@@ -452,6 +460,11 @@ export default function GenerateImageModal() {
   }
 }
 ```
+
+>[!NOTE]
+>
+>In the `buildAssetDetailsURL()` function, the `aemAssetdetailsURL` variable value assumes that the [Unified Shell](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/aem-cloud-service-on-unified-shell.html#overview) is enabled. If you have disabled the Unified Shell, you need to remove the `/ui#/aem` from the variable value.
+
 
 ## Adobe I/O Runtime action
 
