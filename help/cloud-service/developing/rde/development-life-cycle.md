@@ -35,6 +35,9 @@ The key benefits of RDE to keep the development momentum.
 
 ## Additional resources
 
+
+[Multiple developers collaboration scenario](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/rapid-development-environments.html#multiple-developers-collaborating-on-the-same-rde)
+
 [Local Development Environment Setup](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)
 
 [Using Adobe Cloud Manager - CI/CD Production Pipeline](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-production-pipeline.html)
