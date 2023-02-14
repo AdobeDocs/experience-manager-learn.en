@@ -86,6 +86,11 @@ team: TM
     + [Service Users](./developing/advanced/service-users.md)
     + [Custom namespaces](./developing/advanced/custom-namespaces.md)
     + [Caching Page Variants](./developing/advanced/variant-caching.md)    
+  + Rapid Development Environment{#rde}
+    + [Overview](./developing/rde/overview.md)
+    + [How to setup](./developing/rde/how-to-setup.md)
+    + [How to use](./developing/rde/how-to-use.md)
+    + [Development life cycle](./developing/rde/development-life-cycle.md)
   + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html)
 + Debugging AEM{#debugging}
   + Debugging the AEM SDK{#debugging-aem-sdk}
