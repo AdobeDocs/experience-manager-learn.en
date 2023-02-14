@@ -26,6 +26,9 @@ This video shows:
 
 ## Additional resources
 
+
+[Enabling RDE in a program documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/rapid-development-environments.html#enabling-rde-in-a-program)
+
 Setup of [Adobe I/O Runtime Extensible CLI](https://developer.adobe.com/runtime/docs/guides/tools/cli_install/) also known as the `aio CLI` 
 
 [AIO CLI usage and commands](https://github.com/adobe/aio-cli#usage)
