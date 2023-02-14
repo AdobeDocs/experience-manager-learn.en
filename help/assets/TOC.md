@@ -70,6 +70,7 @@ team: TM
     + [Asset Share Commons](./sharing/asset-share-commons-user-experience-feature-video-understand.md)
     + [Set up Asset Share Commons on local AEM](./sharing/asset-share-commons-technical-video-setup.md)
     + [Theming Asset Share Commons](./sharing/asset-share-commons-feature-video-theming.md)
+    + [Asset Share Commons Asset kits](./sharing/asset-share/asset-share-commons-asset-kits.md)
   + [Connected Assets](./sharing/connected-assets.md)
 
 + Integrating with Creative Workflows{#creative-workflows}
