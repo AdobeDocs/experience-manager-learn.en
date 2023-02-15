@@ -24,6 +24,11 @@ This video shows:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415490/?quality=12&learn=on)
 
+## Next Step
+
+Learn [how to use](./how-to-use.md) an RDE to deploy code and content from your favorite Integrated Development Environment (IDE) for faster development cycles.
+
+
 ## Additional resources
 
 [Enabling RDE in a program documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/rapid-development-environments.html#enabling-rde-in-a-program)
@@ -35,7 +40,3 @@ Setup of [Adobe I/O Runtime Extensible CLI](https://developer.adobe.com/runtime/
 [Adobe I/O Runtime CLI Plugin for interactions with AEM Rapid Development Environments](https://github.com/adobe/aio-cli-plugin-aem-rde#aio-cli-plugin-aem-rde)
 
 [Cloud Manager AIO CLI plugin](https://github.com/adobe/aio-cli-plugin-cloudmanager)
-
-## Next Step
-
-Learn [how to use](./how-to-use.md) an RDE to deploy code and content from your favorite Integrated Development Environment (IDE) for faster development cycles.
