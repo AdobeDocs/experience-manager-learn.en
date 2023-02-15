@@ -27,9 +27,12 @@ Using [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd
 
 ## Additional resources
 
-
 [RDE commands documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/rapid-development-environments.html#rde-cli-commands)
 
 [Adobe I/O Runtime CLI Plugin for interactions with AEM Rapid Development Environments](https://github.com/adobe/aio-cli-plugin-aem-rde#aio-cli-plugin-aem-rde)
 
 [AEM Project setup](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html)
+
+## Next Step
+
+Learn about the [development/deployment life cycle using RDE](./development-life-cycle.md) to deliver features with speed.

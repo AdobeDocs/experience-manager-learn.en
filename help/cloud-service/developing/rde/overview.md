@@ -30,3 +30,7 @@ This video outline:
 [Cloud Manager CI/CD Pipelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html)
 
 [Set up the development IDE](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html)
+
+## Next Step
+
+Learn [how to set up](./how-to-setup.md) an RDE in AEM as a Cloud Service.
