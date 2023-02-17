@@ -24,6 +24,87 @@ This video shows:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415490/?quality=12&learn=on)
 
+## Prerequisite 
+
+The following should be installed locally:
+
+- [Node.js](https://nodejs.org/en/) (LTS - Long-Term Support)
+- [npm 8+](https://docs.npmjs.com/)
+
+## Local setup
+
+To deploy the [WKND Sites Project's](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project) code and content onto the RDE from your local machine, complete the following steps.
+
+### Adobe I/O Runtime Extensible CLI 
+
+Install the Adobe I/O Runtime Extensible CLI, also known as the `aio CLI` by running the following command from the command line. 
+
+    ```shell
+    $ npm install -g @adobe/aio-cli
+    ```
+
+### AEM plugins
+
+Install Cloud Manager and AEM RDE plugins by using the `aio cli`'s `plugins:install` command.
+
+    ```shell
+    $ aio plugins:install @adobe/aio-cli-plugin-cloudmanager
+
+    $ aio plugins:install @adobe/aio-cli-plugin-aem-rde
+    ```
+
+The Cloud Manager plugin, allows developers to interact with Cloud Manager from the command line.
+
+The AEM RDE plugin, allows developers to deploy code and content from the local machine.
+
+Also, to update the plugins use the `aio plugins:update` command.
+
+## Configure AEM plugins
+
+The AEM plugins must be configured to interact with your RDE. First, using the Cloud Manager UI, copy the values of the Organization, Program, and Environment ID.
+
+1.  Organization ID: Copy the value from **Profile Picture > Account info(internal) > Modal Window > Current Org ID**
+
+    ![Organization ID](./assets/Org-ID.png)
+
+1.  Program ID: Copy the value from **Program Overview > Environments > {ProgramName}-rde > Browser URI > numbers between `program/` and `/environment`**
+
+1.  Environment ID: Copy the value from **Program Overview > Environments > {ProgramName}-rde > Browser URI > numbers after `environment/`**
+
+    ![Program and Environment ID](./assets/Program-Environment-Id.png)
+
+1.  Then, by using the `aio cli`'s `config:set` command set these values by running the following command.
+
+    ```shell
+    $ aio config:set cloudmanager_orgid <org-id>
+
+    $ aio config:set cloudmanager_programid <program-id>
+
+    $ aio config:set cloudmanager_environmentid <env-id>
+    ```
+
+You can verify the current config values by running the following command.
+
+    ```shell
+    $ aio config:list
+    ```
+
+Also, to switch or know which organization you are currently logged in to, you can use the below command.
+
+    ```shell
+    $ aio where
+    ```
+
+## Verify RDE access
+
+Verify the AEM RDE plugin installation and configuration by running the following command.
+
+    ```shell
+    $ aio aem:rde:status
+    ```
+
+The RDE status information is displayed like environment status, the list of _your AEM project_ bundles and configurations on author and publish service.
+
 ## Next Step
 
 Learn [how to use](./how-to-use.md) an RDE to deploy code and content from your favorite Integrated Development Environment (IDE) for faster development cycles.
