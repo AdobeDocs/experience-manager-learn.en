@@ -29,16 +29,16 @@ Using [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd
 
 Clone the [WKND Sites](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project) project and open it in your favorite IDE to deploy the AEM artifacts onto the RDE.
 
-    ```shell
-    $ git clone git@github.com:adobe/aem-guides-wknd.git
-    ```
+```shell
+$ git clone git@github.com:adobe/aem-guides-wknd.git
+```
 
 Then, build and deploy it to the local AEM-SDK by running the following maven command.
 
-    ```
-    $ cd aem-guides-wknd/
-    $ mvn clean install -PautoInstallSinglePackage
-    ```
+```
+$ cd aem-guides-wknd/
+$ mvn clean install -PautoInstallSinglePackage
+```
 
 ## Deploy AEM artifacts using the AEM-RDE plugin
 
@@ -48,13 +48,13 @@ Using the `aem:rde:install` command, let's deploy various AEM artifacts.
 
 A common starting point is to first deploy the `all` and `dispatcher` packages by running the following commands.
 
-    ```shell
-    # Install the 'all' package
-    $ aio aem:rde:install all/target/aem-guides-wknd.all-2.1.3-SNAPSHOT.zip
+```shell
+# Install the 'all' package
+$ aio aem:rde:install all/target/aem-guides-wknd.all-2.1.3-SNAPSHOT.zip
 
-    # Install the 'dispatcher' zip
-    $ aio aem:rde:install dispatcher/target/aem-guides-wknd.dispatcher.cloud-2.1.3-SNAPSHOT.zip
-    ```
+# Install the 'dispatcher' zip
+$ aio aem:rde:install dispatcher/target/aem-guides-wknd.dispatcher.cloud-2.1.3-SNAPSHOT.zip
+```
 
 Upon successful deployments, verify the WKND site on both the author and publish services. You should be able to add, and edit the content on the WKND site pages and publish it.
 
@@ -112,9 +112,9 @@ Let's enhance the `Hello World Component` and deploy it to the RDE.
 
 In the above individual file deployment command example, the `-t` and `-p` flags are used to indicate the type and destination of the JCR path respectively. Let's review the available `install` command options by running the following command.
 
-    ```shell
-    $ aio aem:rde:install --help
-    ```
+```shell
+$ aio aem:rde:install --help
+```
 
 The flags are self-explanatory, the `-s` flag is useful to target the deployment just to the author or publish services. Use the `-t` flag when deploying the **content-file or content-xml** files along with the `-p` flag to specify the destination JCR path in the AEM RDE environment.
 
@@ -149,15 +149,15 @@ To learn how to deploy the OSGi bundle, let's enhance the `HelloWorldModel` Java
 
 You can deploy the individual config files or complete config package, for example:
 
-    ```shell
-    # Deploy individual config file
-    $ aio aem:rde:install ui.config/src/main/content/jcr_root/apps/wknd/osgiconfig/config/org.apache.sling.commons.log.LogManager.factory.config~wknd.cfg.json
+```shell
+# Deploy individual config file
+$ aio aem:rde:install ui.config/src/main/content/jcr_root/apps/wknd/osgiconfig/config/org.apache.sling.commons.log.LogManager.factory.config~wknd.cfg.json
 
-    # Or deploy the complete config package
-    $ cd ui.config
-    $ mvn clean package
-    $ aio aem:rde:install target/aem-guides-wknd.ui.config-2.1.3-SNAPSHOT.zip
-    ```
+# Or deploy the complete config package
+$ cd ui.config
+$ mvn clean package
+$ aio aem:rde:install target/aem-guides-wknd.ui.config-2.1.3-SNAPSHOT.zip
+```
 
 >[!TIP]
 >
@@ -196,21 +196,21 @@ The Apache or Dispatcher config files **cannot be deployed individually**, but t
 
 Let's review the additional AEM RDE plugin commands to manage, and interact with the RDE from your local machine.
 
-    ```shell
-    $ aio aem:rde --help
-    Interact with RapidDev Environments.
+```shell
+$ aio aem:rde --help
+Interact with RapidDev Environments.
 
-    USAGE
-    $ aio aem rde COMMAND
+USAGE
+$ aio aem rde COMMAND
 
-    COMMANDS
-    aem rde delete   Delete bundles and configs from the current rde.
-    aem rde history  Get a list of the updates done to the current rde.
-    aem rde install  Install/update bundles, configs, and content-packages.
-    aem rde reset    Reset the RDE
-    aem rde restart  Restart the author and publish of an RDE
-    aem rde status   Get a list of the bundles and configs deployed to the current rde.
-    ```
+COMMANDS
+aem rde delete   Delete bundles and configs from the current rde.
+aem rde history  Get a list of the updates done to the current rde.
+aem rde install  Install/update bundles, configs, and content-packages.
+aem rde reset    Reset the RDE
+aem rde restart  Restart the author and publish of an RDE
+aem rde status   Get a list of the bundles and configs deployed to the current rde.
+```
 
 Using the above commands your RDE can be managed from your favorite IDE for faster development/deployment life cycle.
 
