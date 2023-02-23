@@ -49,7 +49,7 @@ Field types are reviewed in the [Content Fragment Model](https://experienceleagu
 
 ## GraphQL persisted query 
 
-In the GraphQL query, return the field as the `ImageRef` type, and request the appropriate fields `_path`, `_authorUrl`, or `_publishUrl` required by your application. For example, querying an adventure in the [WKND reference demo project](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-site.html) and including image URL for the image asset references in its `primaryImage` field, can be done with a new persisted query `wknd-shared/adventure-image-by-path` defined as:
+In the GraphQL query, return the field as the `ImageRef` type, and request the appropriate fields `_path`, `_authorUrl`, or `_publishUrl` required by your application. For example, querying an adventure in the [WKND Site project](https://github.com/adobe/aem-guides-wknd) and including image URL for the image asset references in its `primaryImage` field, can be done with a new persisted query `wknd-shared/adventure-image-by-path` defined as:
 
 ```graphql
 query ($path: String!) {

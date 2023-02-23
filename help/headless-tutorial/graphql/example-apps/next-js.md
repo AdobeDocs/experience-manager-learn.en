@@ -29,7 +29,7 @@ The following tools should be installed locally:
 
 ## AEM requirements
 
-The Next.js app works with the following AEM deployment options. All deployments requires [WKND Shared v2.1.0+](https://github.com/adobe/aem-guides-wknd-shared/releases/latest), [WKND Site v2.1.0+](https://github.com/adobe/aem-guides-wknd/releases/latest), or the [Reference Demo Add-on](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/overview.html) to be installed on the AEM as a Cloud Service environment.
+The Next.js app works with the following AEM deployment options. All deployments requires [WKND Shared v2.1.0+](https://github.com/adobe/aem-guides-wknd-shared/releases/latest) or [WKND Site v2.1.0+](https://github.com/adobe/aem-guides-wknd/releases/latest) to be installed on the AEM as a Cloud Service environment.
 
 This example Next.js app is designed to connect to __AEM Publish__ service.
 
@@ -83,14 +83,6 @@ The Next.js is designed to connect to __AEM Publish__ service, and access unprot
     NEXT_PUBLIC_AEM_GRAPHQL_ENDPOINT=wknd-shared
     ...
     ```
-
-    When using [Reference Demo Add-on](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/overview.html), use the `aem-demo-assets` GraphQL API endpoint.
-
-    ```plain
-    ...
-    NEXT_PUBLIC_AEM_GRAPHQL_ENDPOINT=aem-demo-assets
-    ...
-    ```  
 
 1.  Open a command prompt and start the Next.js app using the following commands:
 

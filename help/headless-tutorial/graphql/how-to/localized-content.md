@@ -32,7 +32,7 @@ The locale code is also the value used to filter the Content Fragments returned 
 
 ## GraphQL persisted query
 
-AEM provides a `_locale` GraphQL filter that automatically filters content by locale code . For example, querying all English adventures in the [WKND reference demo project](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-site.html) can be done with a new persisted query `wknd-shared/adventures-by-locale` defined as:
+AEM provides a `_locale` GraphQL filter that automatically filters content by locale code . For example, querying all English adventures in the [WKND Site project](https://github.com/adobe/aem-guides-wknd) can be done with a new persisted query `wknd-shared/adventures-by-locale` defined as:
 
 ```graphql
 query($locale: String!) {
