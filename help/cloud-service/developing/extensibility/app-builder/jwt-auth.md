@@ -93,7 +93,7 @@ JWT_PRIVATE_KEY=LS0tLS1C..kQgUFJJVkFURSBLRVktLS0tLQ==
 
 ## Inputs mapping
 
-With the JWT credential value set in the `.env` file, they must be mapped to AppBuilder action inputs to they can be read in the action itself. To do this, add entries for each variable in the `ext.config.yaml` action `inputs` in the format: `INPUT_NAME=$ENV_KEY`.
+With the JWT credential value set in the `.env` file, they must be mapped to AppBuilder action inputs to they can be read in the action itself. To do this, add entries for each variable in the `ext.config.yaml` action `inputs` in the format: `PARAMS_INPUT_NAME: $ENV_KEY`.
 
 For example:
 
