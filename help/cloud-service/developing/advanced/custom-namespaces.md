@@ -16,10 +16,10 @@ Learn how to define and deploy custom [namespaces](https://developer.adobe.com/e
 
 Custom namespaces are the optional part of a JCR property preceding a `:`. AEM uses several namespaces such as:
 
- + `jcr` for JCR system properties
- + `cq` for AEM (formerly known as Adobe CQ) properties
- + `dam` for AEM properties specific to DAM assets
- + `dc` for Dublin Core properties
++ `jcr` for JCR system properties
++ `cq` for AEM (formerly known as Adobe CQ) properties
++ `dam` for AEM properties specific to DAM assets
++ `dc` for Dublin Core properties
 
 ... and many others. 
 

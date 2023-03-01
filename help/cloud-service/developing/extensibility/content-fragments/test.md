@@ -85,11 +85,15 @@ This URL is used below when crafting the URLs for development and stage testing.
 
 1. Open a command line to the root of the extension project.
 1. Ensure that the Stage workspace is active (or whatever Workspace is used for testing).
+
     ```shell
     $ aio app use -w Stage
     ```
+
     Merge any changes to `.env` and `.aio`.
+
 1. Deploy the updated extension App Builder app. If not logged in, run `aio login` first.
+
     ```shell
     $ aio app deploy
     ...
