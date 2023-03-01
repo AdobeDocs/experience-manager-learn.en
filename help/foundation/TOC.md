@@ -16,7 +16,8 @@ index: y
   + [Use the System Overview Dashboard](./administration/use-the-system-overview-dashboard.md)
   + [URL Redirects](./administration/url-redirection.md)
 + Authentication {#authentication}
-  + [OAuth Authentication](authentication/oauth-code-sample-develop.md)
+  + [OKTA and AEM](authentication/okta-saml-integration.md)
+  + [OAuth scopes](authentication/oauth-code-sample-develop.md)
   + [Set up Public/Private Keys to use with Adobe I/O](authentication/set-up-public-private-keys-for-use-with-aem-and-adobe-io.md)
   + [Understanding Authentication](authentication/authentication-support-article-understand.md)
   + [Understand IMS Authentication on AMS](authentication/adobe-ims-authentication-technical-video-understand.md)
