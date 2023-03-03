@@ -148,13 +148,13 @@ Generally, speaking it is best to follow these rules of thumb:
 
 There is no singular answer to what the staffing models of an AEM Sites implementation should look like. However, there are archetypes you should follow for a basic standard.
 
-AEM SItes: basic run & operate
+AEM Sites: basic run & operate
 
 | Technical role | Technical responsibilities | Business responsibilities | Business role |
 | --- | --- | --- | --- |
 | CSS Developer |<ul><li>Web development (CSS or front-end)</li>Reuse components<li>Creating experience artifacts through repurpose or net new</li></ul> |<ul><li>Business owner of solution</li><li>Creates maintenance tasks and enhancements</li><li>Works with BU on marrying technical and strategic visions</li></ul> |Product Owner |
 | Back end developer |<ul><li>Deep experiences not done through simple front-end CSS</li>Architectural oversight<li>Dynamic integrations/align with Product owner on strategic objectives</li></ul> |<ul><li>Assist content authors</li><li>Governance role</li><li>Coordinates launches, manages macro edits</li></ul> |Admin Author|
-| Release Manager |<ul><li>Release management</li><li>Code deploys</li></li>Current Customer Success Engineer</ul>|<ul><li>Applies content (including pre-created styles)</li>Tiered ownership<li>Delivers and communicates issues and concerns as they arise with CSM</li></ul> |Content Author |
+| Release Manager |<ul><li>Release management</li><li>Code deploys</li></li>Adobe Account Team</ul>|<ul><li>Applies content (including pre-created styles)</li>Tiered ownership<li>Delivers and communicates issues and concerns as they arise with CSM</li></ul> |Content Author |
 
 ## Potential pitfalls
 
