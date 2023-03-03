@@ -84,7 +84,7 @@ The following are role examples for a light (sports apparel company) and heavy (
 
     * CSS development - creates experience artifacts though repurposing components with new styles.
     * Back-end development - creates new components or can extend a core component. If done correctly, this role should not have more than one person, unless there is a need for large animation tasks.
-    * Release management - oversees code deployment and serves as the current Customer Success Engineer.
+    * Release management - oversees code deployment and serves as the current Adobe Account Team.
     * Product Owner - collaborates with BU on marrying Technical and Strategic visions; creates maintenance tasks and enhancements and serves as the business owner of the solution.
     * Admin Authors - updates the CSS skin and provides guidance to the authors who are updating and applying content. This role works on workflow configurations and creates guidance documentation for the content authors to apply. NOTE: In release 6.5 Adobe recommends using editable templates.
     * Content Authors - applies content, tiered ownership and delivers communication issues and concerns as they arise with CSM.
