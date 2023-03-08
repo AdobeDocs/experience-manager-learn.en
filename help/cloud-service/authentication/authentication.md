@@ -20,6 +20,8 @@ AEM as a Cloud Service supports multiple of authentication options and varies by
 | [Adobe IMS](../accessing/overview.md) |  &#10004;  | &#10008;    |
 | &#x2022; [SAML 2.0 via Adobe IMS](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html#how-to-set-up) |  &#10004;  | &#10008;    |
 | [SAML 2.0](./saml-2-0.md) | &#10008;  | &#10004;    |
+| [Single-sign On (SSO)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#integration-with-an-idp)  | &#10008;  | &#10004;    |
+| [OAuth](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#integration-with-an-idp)                 | &#10008;  | &#10004;    |
 | [Token authentication](../../headless-tutorial/authentication/overview.md) |  &#10004;  | &#10004;    |
 
 ## Authentication options
