@@ -91,7 +91,7 @@ Access-Control-Request-Method,Access-Control-Request-Headers]"
 To allow the caching and serving of CORS headers on cached content, add following [/clientheaders configuration](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#specifying-the-http-headers-to-pass-through-clientheaders) to all supporting AEM Publish `dispatcher.any` files.
 
 ```
-/cache { 
+/myfarm { 
   ...
   /clientheaders {
       "Access-Control-Allow-Origin"
