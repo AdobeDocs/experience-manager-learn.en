@@ -190,6 +190,11 @@ team: TM
         + [Configure assets panel](./forms/create-first-af/configure-assets-panel.md)
         + [Configure start panel](./forms/create-first-af/configure-start-panel.md)
         + [Add and Configure toolbar](./forms/create-first-af/add-configure-toolbar.md)
+      + AEM Forms and Analytics{#forms-and-analytics}
+        + [Introduction](./forms/form-data-analytics/introduction.md)
+        + [Create Data Elements](./forms/form-data-analytics/data-elements.md)
+        + [Create rules](./forms/form-data-analytics/rules.md)
+        + [Test the solution](./forms/form-data-analytics/test.md)
     + Document Generation in AEM Forms CS{#doc-gen-formscs}
         + [Introduction](./forms/doc-gen-forms-cs/introduction.md)
         + [Create Service Credentials](./forms/doc-gen-forms-cs/service-credentials.md)
