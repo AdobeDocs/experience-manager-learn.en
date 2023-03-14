@@ -178,7 +178,7 @@ Generally, the same considerations for caching content at Dispatcher can be appl
 To allow the caching of CORS headers, add the following configuration to all supporting AEM Publish dispatcher.any files.
 
 ```
-/cache { 
+/myfarm { 
   ...
   /headers {
       "Origin"
