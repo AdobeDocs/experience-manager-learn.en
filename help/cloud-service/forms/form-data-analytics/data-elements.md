@@ -1,5 +1,5 @@
 ---
-title: Report on submitted form data fields using Adobe Anaytics
+title: Report on submitted form data fields using Adobe Analytics
 description: Integrate AEM Forms CS with Adobe Analytics to report on form data fields
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
@@ -12,7 +12,7 @@ kt: 12557
 ---
 # Create appropriate data elements
 
-In the tags property we added two new data elements(ApplicantsStateOfResidence and validationError).
+In the Tags property we added two new data elements(ApplicantsStateOfResidence and validationError).
 ![adaptive-form](assets/data_elements.png)
 
 ## ApplicantStateOfResidence
