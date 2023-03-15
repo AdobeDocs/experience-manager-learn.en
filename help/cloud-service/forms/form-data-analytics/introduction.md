@@ -10,7 +10,7 @@ feature: Adaptive Forms
 topic: Development
 kt: 12557
 ---
-# Report on form data field values and form field validation errors using Adobe Analytic
+# Report on form data field values and form field validation errors using Adobe Analytics
 
 Learn how to implement analytics on your adaptive forms using Tags and Adobe Analytics. This example will guide you through the configuration and implementation steps to produce insightful reports about how visitors interact with your forms.
 

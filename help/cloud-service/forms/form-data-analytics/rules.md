@@ -12,14 +12,18 @@ kt: 12557
 ---
 # Define the rule
 
-In the Tags property we created 2 new [rules](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/add-data-elements-rules.html)(**Field Validation Error and FormSubmit**).
+In the Tags property we created 2 new [rules](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/add-data-elements-rules.html) (**Field Validation Error and FormSubmit**).
+
 ![adaptive-form](assets/rules.png)
 
 
 ## Field Validation Error
 
 The **Field Validation Error** rule gets triggered every time there is validation error in adaptive form field. For example in our form if the telephone number or the email is not in the expected format a validation error message is displayed. 
+
 The Field Validation Error rule is configured by setting the event to _**Adobe Experience Manager Forms-Error**_ as shown in the screen shot
+
+
 
 ![applicant-state-residence](assets/field_validation_error_rule.png)
 
@@ -30,6 +34,7 @@ The Adobe Analytics - Set Variables is configured as follows
 ## Form Submit Rule
 
 The Form Submit rule is triggered every time an Adaptive Form is successfully submitted.
+
 The Form Submit rule is configured using the _**Adobe Experience Manager Forms - Submit**_ event
 
 ![form-submit-rule](assets/form-submit-rule.png)

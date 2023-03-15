@@ -17,7 +17,8 @@ Preview and submit your form using several combinations of form values. Allow se
 ## Report Suite
 
 The form data captured in Adobe Analytics is presented in donut format
-Submissions by State
+
+**Submissions by State**
 
 ![applicantsbystate](assets/donut.png)
 
