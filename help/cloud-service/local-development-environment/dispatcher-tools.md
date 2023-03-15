@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 kt: 4679
 thumbnail: 30603.jpg
-last-substantial-update: 2022-09-01
+last-substantial-update: 2023-03-14
 exl-id: 9320e07f-be5c-42dc-a4e3-aab80089c8f7
 ---
 # Set up local Dispatcher Tools {#set-up-local-dispatcher-tools}
@@ -75,7 +75,7 @@ All commands issued below assume that the current working directory contains the
 
 >[!VIDEO](https://video.tv.adobe.com/v/30601/?quality=12&learn=on)
 
-*This video uses macOS for illustrative purposes. The equivalent Windows/Linux commands can be used to achieve similar results*
+*This video uses macOS for illustrative purposes. The equivalent Windows/Linux commands can be used to achieve similar results.*
 
 ## Understand the Dispatcher configuration files
 
@@ -181,6 +181,11 @@ The recommended Dispatcher Tools version is that which is bundled with the AEM a
 ## How to update the baseline set of Apache and Dispatcher configurations
 
 The baseline set of Apache and Dispatcher configuration is enhanced regularly and released with the AEM as a Cloud Service SDK version. It is best practice to incorporate the baseline configuration enhancements into your AEM project and avoid [local validation](#validate-configurations) and Cloud Manager pipeline failures. Update them using the `update_maven.sh` script from the `.../dispatcher-sdk-x.x.x/bin` folder.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3416744/?quality=12&learn=on)
+
+*This video uses macOS for illustrative purposes. The equivalent Windows/Linux commands can be used to achieve similar results.*
+
 
 Let's assume you created an AEM project in the past using [AEM Project Archetype](https://github.com/adobe/aem-project-archetype), the baseline Apache and Dispatcher configurations were current. Using these baseline configurations your project-specific configurations were created by reusing, and copying the files like `*.vhost`, `*.conf`, `*.farm` and `*.any` from the `dispatcher/src/conf.d` and `dispatcher/src/conf.dispatcher.d` folders. Your local Dispatcher validation and Cloud Manager pipelines were working fine.
 
