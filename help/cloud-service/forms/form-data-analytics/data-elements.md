@@ -13,6 +13,7 @@ kt: 12557
 # Create appropriate data elements
 
 In the Tags property we added two new data elements(ApplicantsStateOfResidence and validationError).
+
 ![adaptive-form](assets/data_elements.png)
 
 ## ApplicantStateOfResidence
