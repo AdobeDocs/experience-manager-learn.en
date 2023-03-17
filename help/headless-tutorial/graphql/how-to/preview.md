@@ -65,7 +65,7 @@ Perform a hard refresh (clearing the browser's local cache) when previewing Cont
 
 Let's explore the WKND App, a simple React application that displays adventures from AEM using AEM Headless GraphQL APIs.
 
-The example code is available on [Github.com](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/preview-app).
+The example code is available on [Github.com](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/preview-tutorial).
 
 ## URLs and routes
 
