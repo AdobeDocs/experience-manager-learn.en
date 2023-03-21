@@ -84,7 +84,7 @@ This does not eliminate the need for multiple teams to depend on and potentially
 
 To ensure that the changes made to this core package do not disrupt the functionality of the system, we recommend that a senior developer or team of developers maintain oversight. One option is to have a single team that manages all the changes to this package; another is to have teams submit pull requests that are reviewed and merged by these resources. It is important that a governance model is designed and agreed to by the teams and that developers follow it.
 
-## Managing Deployment Scope&nbsp {#managing-deployment-scope}
+## Managing Deployment Scope {#managing-deployment-scope}
 
 As different teams deploy their code to the same repository, it is important that they do not overwrite each other’s changes. AEM has a mechanism to control this when deploying content packages, the filter. xml file. It is important that there is no overlap between filter.  xml files, otherwise one team’s deployment could potentially erase another team’s previous deployment. To illustrate this point, see the following examples of well-crafted vs. problematic filter files:
 
