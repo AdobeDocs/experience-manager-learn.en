@@ -92,12 +92,12 @@ version: 6.4, 6.5, Cloud Service
 + Integrations {#integrations}
   + Experience Platform {#experience-platform}
     + [Generate FPIDs](integrations/platform/fpid.md)
-  + Experience Platform Launch {#experience-platform-launch}
-    + [Overview](integrations/experience-platform-launch/overview.md)
-    + [Create a Launch Property](integrations/experience-platform-launch/create-launch-property.md)
-    + [Connect AEM with Launch using Adobe I/O](integrations/experience-platform-launch/connect-aem-launch-adobe-io.md)
-    + [Create a Launch Cloud Service](integrations/experience-platform-launch/create-launch-cloud-service.md)
-    + [Debugging a Launch implementation](integrations/experience-platform-launch/debug-launch-implementation.md)
+  + Experience Platform Data Collection Tags (Launch) {#experience-platform-data-collection-tags}
+    + [Overview](integrations/experience-platform/data-collection/tags/overview.md)
+    + [Create a Tag Property](integrations/experience-platform/data-collection/tags/create-tag-property.md)
+    + [Connect AEM with Tags using Developer Console](integrations/experience-platform/data-collection/tags/connect-aem-tags-using-developer-console.md)
+    + [Create AEM Launch Cloud Service](integrations/experience-platform/data-collection/tags/create-aem-launch-cloud-service.md)
+    + [Debugging a Tags (Launch) implementation](integrations/experience-platform/data-collection/tags/debug-tags-implementation.md)
   + Adobe Client Data Layer {#adobe-client-data-layer}
     + [Using the Adobe Client Data Layer](integrations/adobe-client-data-layer/data-layer-overview.md)
     + [Customize the Adobe Client Data Layer](integrations/adobe-client-data-layer/data-layer-customize.md)
