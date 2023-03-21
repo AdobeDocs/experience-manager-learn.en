@@ -15,7 +15,7 @@ exl-id: aa48ffef-1105-4d0d-b4b4-12ac5d2eea23
 ---
 # Add Target extension to a Launch Property {#adobe-target-extension}
 
-To follow along with this video, you must have already [integrated Experience Platform Launch with AEM](../experience-platform-launch/overview.md).
+To follow along with this video, you must have already [integrated Experience Platform Launch with AEM](../experience-platform/data-collection/tags/overview.md).
 
 Learn how to enable Adobe Target to your AEM web site using Experience Platform Launch.
 

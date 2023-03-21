@@ -37,7 +37,7 @@ The following are required:
 
 >[!NOTE]
 >
-> Need help integrating Launch and your AEM site? [See this video series](../experience-platform-launch/overview.md).
+> Need help integrating Launch and your AEM site? [See this video series](../experience-platform/data-collection/tags/overview.md).
 
 ## Switch Launch Environments for WKND Site
 
