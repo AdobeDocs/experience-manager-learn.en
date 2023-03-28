@@ -1,5 +1,5 @@
 ---
-title: Understand Content Fragments and Experience Fragments
+title: Content Fragments and Experience Fragments
 description: Learn the similarities and differences between Content Fragments and Experience Fragments, and when and how to use each type.
 sub-product: Experience Manager Assets, Experience Manager Sites
 feature: Content Fragments, Experience Fragments
@@ -13,11 +13,11 @@ role: User
 level: Beginner
 exl-id: ccbc68d1-a83e-4092-9a49-53c56c14483e
 ---
-# Understand Content Fragments and Experience Fragments
+# Content Fragments and Experience Fragments
 
  Adobe Experience Manager's Content Fragments and Experience Fragments may seem similar on the surface, but each play key roles in different use cases. Learn how Content Fragments and Experience Fragments are similar, different, and when and how to use each.
 
-## Content Fragments and Experience Fragments comparison
+## Comparison
 
 <table>
 <tbody><tr><td><strong> </strong></td>
@@ -90,13 +90,17 @@ exl-id: ccbc68d1-a83e-4092-9a49-53c56c14483e
 <li>Annotations</li>
 <li>Responsive layout and preview</li>
 <li>Translation/localization</li>
+<li>Complex data-model via Content Fragment references</li>
+<li>In-app preview</li>
 </ul>
 </td>
 </tr><tr><td><strong>Use</strong></td>
 <td><ul>
+<li>JSON export via <a href="https://experienceleague.adobe.com/landing/experience-manager/headless/developer.html">AEM Headless GraphQL APIs</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/content-fragment-component.html" target="_blank">AEM Core Components Content Fragment component</a> for use in AEM Sites, AEM Screens or in Experience Fragments.</li>
 <li>JSON export via <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/content-services/overview.html?lang=en" target="_blank">AEM Content Services</a> for 3rd party consumption</li>
-<li>JSON via AEM HTTP Assets APIs for 3rd party consumption.</li>
+<li>JSON export to Adobe Target for targeted offers</li>
+<li>JSON via AEM HTTP Assets APIs for 3rd party consumption</li>
 </ul>
 </td>
 <td><ul>
@@ -108,7 +112,8 @@ exl-id: ccbc68d1-a83e-4092-9a49-53c56c14483e
 </td>
 </tr><tr><td><strong>Common use cases</strong></td>
 <td><ul>
-<li>Highly structured data-entry/form-based content</li>
+<li>Powering headless use-cases over GraphQL</li>
+<li>Structured data-entry/form-based content</li>
 <li>Long-form editorial content (multi-line element)</li>
 <li>Content managed outside the life cycle of the channels delivering it</li>
 </ul>
@@ -136,20 +141,20 @@ exl-id: ccbc68d1-a83e-4092-9a49-53c56c14483e
 
 The following diagram illustrates the overall architecture for AEM Content Fragments
 
-!![Content Fragments architecture](./assets/content-fragments-architecture.png)
+![Content Fragments architecture](./assets/content-fragments-architecture.png)
 
 + **Content Fragment Models** define the elements (or fields) that define what content the Content Fragment may capture and expose.
 + The **Content Fragment** is an instance of a Content Fragment Model that represents a logical content entity.
 + Content Fragment **variations** adhere to the Content Fragment Model, however, have variations in content.
 + Content Fragments can be exposed/consumed by:
   + Using Content Fragments on **AEM Sites** (or AEM Screens) via the AEM WCM Core Components' Content Fragment component.
-  + Embedding a Content Fragment in an **Experience Fragment** via the AEM WCM Core Components' Content Fragment component, for use in any Experience Fragment use case.
+  + Consume **Content Fragment** from headless apps using AEM Headless GraphQL APIs.
   + Exposing a Content Fragment variations content as JSON via **AEM Content Services** and API Pages for read-only use cases.
   + Directly exposing Content Fragment content (all variations) as JSON via direct calls to AEM Assets via the **AEM Assets HTTP API** for CRUD use cases.
 
 ## Experience Fragments architecture
 
-!![Experience Fragments architecture](./assets/experience-fragments-architecture.png)
+![Experience Fragments architecture](./assets/experience-fragments-architecture.png)
 
 + **Editable Templates**, which in turn are defined by **Editable Template Types** and an **AEM Page component implementation**, define the allowed AEM Components that can be used to compose an Experience Fragment.
 + The **Experience Fragment** is an instance of an Editable Template that represents a logical experience.
@@ -161,15 +166,16 @@ The following diagram illustrates the overall architecture for AEM Content Fragm
   + Exporting Experience Fragments to **Adobe Target** as either HTML or JSON offers.
   + AEM Sites natively supports HTML offers, however, JSON offers require custom development.
 
-## Supporting materials for Content Fragments
+## Supporting resource for Content Fragments
 
 + [Content Fragments User Guide](https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=en&topic=/experience-manager/6-5/assets/morehelp/content-fragments.ug.js)
++ [Introduction to Adobe Experience Manager as a Headless CMS](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/introduction.html)
 + [Using Content Fragments in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html?lang=en)
 + [AEM WCM Core Components' Content Fragment component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/content-fragment-component.html)
 + [Using Content Fragments and AEM Headless](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html?lang=en)
 + [Getting Started with AEM Content Services](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/content-services/overview.html?lang=en)
 
-## Supporting materials for Experience Fragments
+## Supporting resource for Experience Fragments
 
 + [Adobe documentation on Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en)
 + [Understanding AEM Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html?lang=en)
