@@ -95,7 +95,7 @@ version: 6.4, 6.5, Cloud Service
   + Experience Platform Data Collection Tags (Launch) {#experience-platform-data-collection-tags}
     + [Overview](integrations/experience-platform/data-collection/tags/overview.md)
     + [Create a Tag Property](integrations/experience-platform/data-collection/tags/create-tag-property.md)
-    + [Connect AEM with Tags using Developer Console](integrations/experience-platform/data-collection/tags/connect-aem-tags-using-developer-console.md)
+    + [Connect AEM and Tag Property using IMS](integrations/experience-platform/data-collection/tags/connect-aem-tag-property-using-ims.md)
     + [Create AEM Launch Cloud Service](integrations/experience-platform/data-collection/tags/create-aem-launch-cloud-service.md)
     + [Debugging a Tags (Launch) implementation](integrations/experience-platform/data-collection/tags/debug-tags-implementation.md)
   + Adobe Client Data Layer {#adobe-client-data-layer}
