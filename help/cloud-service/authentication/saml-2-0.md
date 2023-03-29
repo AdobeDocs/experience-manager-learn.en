@@ -121,6 +121,21 @@ The Global Trust Store is configured with the IDP's public certificate on AEM Au
 1. Select the __Build__ button for the __Global Trust Store__ package.
 1. Once built, select __More__ > __Replicate__ to activate the Global Trust Store node (`/etc/truststore`) to AEM Publish.
 
+## Create authentication-service keystore{#authentication-service-keystore}
+
+_Creating a keystore for authentication-service is required when the [SAML 2.0 authentication handler OSGi configuration property `handleLogout` is set to `true`](#saml-20-authenticationsaml-2-0-authentication) or when [AuthnRequest signing/SAML assertion ecryption](#install-aem-public-private-key-pair) is required_
+
+1. Log in to AEM Author as an AEM Administrator, to upload the private key.
+1. Navigate to __Tools > Security > Trust Store__, and select __authentication-service__ user, and select __Properties__ from the top action bar.
+1. Navigate to __Tools > Security > Users__, and select __authentication-service__ user, and select __Properties__ from the top action bar.
+1. Select the __Keystore__ tab.
+1. Create or open the keystore. If creating a keystore, keep the password safe.
+    + A [public/private keystore is installed into this keystore](#install-aem-public-private-key-pair) only if AuthnRequest signing/SAML assertion encryption is required.
+    + If this SAML integration supports logout, but not AuthnRequest signing/SAML assertion, then an empty keystore is sufficient.
+1. Select __Save & Close__.
+1. Select __authentication-service__ user, and select __Activate__ from the top action bar.
+
+
 ## Install AEM public/private key pair{#install-aem-public-private-key-pair}
 
 _Installing the AEM public/private key pair is optional_
