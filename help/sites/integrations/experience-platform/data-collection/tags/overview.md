@@ -25,21 +25,28 @@ Learn how to integrate the Experience Platform _Data Collection Tags_ (formerly 
 
 Tags are Adobe Experience Platform's next generation of tag management technology. Tags provide the simplest way to deploy Adobe Analytics, Target, Audience Manager, and many more solutions. Get an overview of Tags and the recommended integration with Adobe Experience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/39090?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417061?quality=12&learn=on)
 
 
 ## Prerequisites
 
-The following are required when integrating Experience Platform Data Collection Tags
+The following are required when integrating Experience Platform Data Collection Tags.
 
-+ AEM Administrator access to AEM as a Cloud Service environment
-+ A reference site like [WKND](https://github.com/adobe/aem-guides-wknd) deployed onto it
++ AEM administrator access to AEM as a Cloud Service environment
++ A reference site like [WKND](https://github.com/adobe/aem-guides-wknd) deployed onto it.
++ Access to Adobe Experience Platform Data Collection solution
 + System Administrator access to [Adobe Developer Console](https://developer.adobe.com/developer-console/)
 
 
+## High-level steps
+
++ In Adobe Experience Platform Data Collection, create a Tag property and edit it to _Add Rule_. Then _Add Library_, select the newly added rule, approve, and publish it.
++ Connect AEM and Tags using existing (or new) IMS configuration
++ In AEM, create a Launch cloud services configuration, then apply it to an existing site and finally verify Tags property and its libraries are loaded on the Published or Author site.
+
 ## Next Steps
 
-[Create a Tag (Launch) Property](create-tag-property.md)
+[Create a Tag Property](create-tag-property.md)
 
 ## Additional Resources {#additional-resources}
 
