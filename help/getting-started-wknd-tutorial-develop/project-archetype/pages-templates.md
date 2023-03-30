@@ -56,7 +56,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 1. Understand the details of Editable Templates and how policies can be used to enforce granular control of page content.
 1. Learn how Templates and Pages are linked
 
-## What you are going build {#what-build}
+## What you are going to build {#what-build}
 
 In this part of the tutorial, you build a new Article Page Template that can be used to create article pages and aligns with a common structure. The Article Page Template is based on designs and a UI Kit produced in Adobe XD. This chapter is only focused on building out the structure or skeleton of the template. No styles are implemented but the template and pages are functional.
 

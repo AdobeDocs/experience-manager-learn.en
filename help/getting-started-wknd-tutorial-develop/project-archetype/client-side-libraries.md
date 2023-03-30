@@ -59,7 +59,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 1. Learn how to use the `ui.frontend` module and a webpack development server for dedicated front-end development.
 1. Understand the end-to-end workflow of delivering compiled CSS and JavaScript to a Sites implementation.
 
-## What you are going build {#what-build}
+## What you are going to build {#what-build}
 
 In this chapter, you add some baseline styles for the WKND site and the Article Page Template to bring the implementation closer to the [UI design mockups](assets/pages-templates/wknd-article-design.xd). You use an advanced front-end workflow to integrate a webpack project into an AEM client library.
 
