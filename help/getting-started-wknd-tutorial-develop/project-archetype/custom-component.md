@@ -57,7 +57,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 1. Learn to encapsulate business logic with Sling Models
 1. Understand how to use a Sling Model from within an HTL Script
 
-## What you are going build {#what-build}
+## What you are going to build {#what-build}
 
 In this part of the WKND tutorial, a Byline Component is created that is used to display authored information about an article's contributor.
 

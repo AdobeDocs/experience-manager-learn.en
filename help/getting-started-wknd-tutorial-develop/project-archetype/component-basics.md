@@ -29,7 +29,7 @@ The IDE used in the videos is [Visual Studio Code](https://code.visualstudio.com
 1. Understand how Dialogs are used to facilitate authoring of content.
 1. Learn the very basics of Client-side libraries to include CSS and JavaScript to support a component.
 
-## What you are going build {#what-build}
+## What you are going to build {#what-build}
 
 In this chapter, you perform several modifications to a simple `HelloWorld` component. While making updates to the `HelloWorld` component, you learn about the key areas of AEM component development.
 

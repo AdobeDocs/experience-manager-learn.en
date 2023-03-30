@@ -61,7 +61,7 @@ You can always view the finished code on [GitHub](https://github.com/adobe/aem-g
 1. Learn about BEM notation and how it can be used to carefully scope styles.
 1. Apply advanced policy configurations with Editable Templates.
 
-## What you are going build {#what-build}
+## What you are going to build {#what-build}
 
 This chapter uses the [Style System feature](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) to create variations of the **Title** and **Text** components used on the Article page.
 
