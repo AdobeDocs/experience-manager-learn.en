@@ -3,6 +3,7 @@ title: Create a Tag Property
 description: Learn how to create a Tag property with the bare-minimum configuration to integrate with AEM. Users are introduced to the Tag UI and learn about extensions, rules, and publishing workflows.
 topics: integrations
 audience: administrator
+solution: Experience Manager, Data Collection, Experience Platform
 doc-type: technical video
 activity: setup
 version: Cloud Service

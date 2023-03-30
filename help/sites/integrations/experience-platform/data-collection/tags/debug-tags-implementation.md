@@ -3,6 +3,7 @@ title: Debugging a Tags implementation
 description: An introduction to some common tools and techniques to debug a Tags implementation. Learn how to use the browser's developer console and the Experience Platform Debugger extension to identify and troubleshoot key aspects of a Tags implementation.
 topics: integrations
 audience: administrator
+solution: Experience Manager, Data Collection, Experience Platform
 doc-type: technical video
 activity: setup
 version: Cloud Service
