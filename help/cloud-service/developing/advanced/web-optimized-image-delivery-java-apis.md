@@ -1,5 +1,5 @@
 ---
-title: Web-optimized delivery Java&trade; APIs
+title: Web-optimized image delivery Java&trade; APIs
 description: Learn how to use AEM as a Cloud Service's web-optimized image delivery Java&trade; APIs to develop highly performant web experiences.
 version: Cloud Service
 feature: APIs, Sling Model, OSGI, HTL or HTML Template Language
@@ -12,7 +12,7 @@ jira: KT-13014
 thumbnail: KT-13014.jpeg
 ---
 
-# Web-optimized delivery Java&trade; APIs
+# Web-optimized image delivery Java&trade; APIs
 
 Learn how to use AEM as a Cloud Service's web-optimized image delivery Java&trade; APIs to develop highly performant web experiences.
 
@@ -24,34 +24,38 @@ AEM as a Cloud Service supports [web-optimized image delivery](https://experienc
 
 This article explores using the web-optimized image Java&trade; APIs in a custom component, in a manner that allows code-based to function on both AEM as a Cloud Service, and the AEM SDK.
 
-## APIs
+## Java&trade; APIs
 
 The [AssetDelivery API](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/com/adobe/cq/wcm/spi/AssetDelivery.html) is an OSGi service that generates web-optimized delivery URLs for image assets. `AssetDelivery.getDeliveryURL(...)` allowed options are [documented here](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/web-optimized-image-delivery.html#can-i-use-web-optimized-image-delivery-with-my-own-component%3F).
 
 The `AssetDelivery` OSGi Service is only satisfied when running in AEM as a Cloud Service. On AEM SDK, references to the `AssetDelivery` OSGi service return `null`. It is best to conditionally use the web-optimized URL when running on AEM as a Cloud Service, and use a fallback image URL on the AEM SDK. Typically the asset's web rendition is a sufficient fallback.
 
 
-### OSGi Service
+### API use in OSGi Service
 
 Mark the`AssetDelivery` reference as optional in custom OSGi Services so the custom OSGi Service remains available on AEM SDK.
 
 ```java
+import com.adobe.cq.wcm.spi.AssetDelivery;
+...
 @Reference(cardinality = ReferenceCardinality.OPTIONAL)
 private volatile AssetDelivery assetDelivery;
 ```
 
-### Sling Model
+### API use in Sling Model
 
 Mark the`AssetDelivery` reference as optional in custom Sling Models so the custom Sling Model remains available on AEM SDK.
 
 ```java
+import com.adobe.cq.wcm.spi.AssetDelivery;
+...
 @OSGiService(injectionStrategy = InjectionStrategy.OPTIONAL)
 private AssetDelivery assetDelivery;
 ```
 
-### Conditionally use AssetDelivery
+### Conditional use of API
 
-Conditionally return the web-optimized image URL or fallback URL based on if the `AssetDelivery` service is available. The conditional use allows for an unbroken experience when running the code on the AEM SDK.
+Conditionally return the web-optimized image URL or fallback URL based on the `AssetDelivery` OSGi service's availability. The conditional use allows for the code to function when running the code on the AEM SDK.
 
 ```java
 if (assetDelivery != null ) {
@@ -72,15 +76,19 @@ When the code runs on AEM as a Cloud Service, the web-optimized webp image rendi
 
 ![Web-optimized images on AEM as a Cloud Service](./assets/web-optimized-image-delivery-java-apis/cloud-service.png)
 
+_AEM as a Cloud Service supports AssetDelivery API, so the web-optimized webp rendition is used_
+
 When the code runs on AEM SDK, the less optimal static web renditions are used, allowing for the component to function during local development.
 
-![Web-optimized fallback images on AEM as a Cloud Service](./assets/web-optimized-image-delivery-java-apis/aem-sdk.png)
+![Web-optimized fallback images on AEM SDK](./assets/web-optimized-image-delivery-java-apis/aem-sdk.png)
+
+_AEM SDK does not support AssetDelivery API, so the fallback static web rendition (PNG or JPEG) is used_
 
 The implementation is broken into three logical pieces:
 
 1. The `WebOptimizedImage` OSGi service acts as a "smart proxy" for the AEM-provided `AssetDelivery` OSGi Service that can handle running in both AEM as a Cloud Service and AEM SDK.
 2. The `ExampleWebOptimizedImages` Sling Model provides business logic of collecting the list of image assets and their web-optimized urls to display.
-3. The `example-web-optimized-images` AEM Component, that implements the HTL to display the list of web-optimized images.
+3. The `example-web-optimized-images` AEM Component, implements the HTL to display the list of web-optimized images.
 
 The example code below can be copied in your code base, and updated as necessary.
 
