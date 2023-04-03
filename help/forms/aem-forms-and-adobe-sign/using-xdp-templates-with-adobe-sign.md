@@ -13,7 +13,7 @@ exl-id: faf0143a-0944-41fb-a211-0d83ae1978d4
 
 Leveraging existing XDP templates with AEM Forms and Sign integration.
 
->[!VIDEO](https://video.tv.adobe.com/v/39705/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/39705?quality=12&learn=on)
 
 Assets related to this video can be downloaded from the following links
 

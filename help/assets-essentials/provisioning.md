@@ -14,4 +14,4 @@ exl-id: ca994bdb-8f59-4504-b623-68d74e559fbb
 
 Learn how to deploy Assets Essentials using Cloud Manager, and provision user access.
 
->[!VIDEO](https://video.tv.adobe.com/v/335952/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335952?quality=12&learn=on)

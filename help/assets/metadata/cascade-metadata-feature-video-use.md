@@ -15,7 +15,7 @@ exl-id: 73e793e0-a20e-4954-ba1a-471b2cd85120
 
 Advanced metadata management allows users to create cascading field rules to form contextual relationships between metadata in AEM Assets. The video below demonstrates new dynamic rules for field requirement, visibility, and contextual choices. The video also details the steps needed for an administrator to apply these rules to a custom metadata schema.
 
->[!VIDEO](https://video.tv.adobe.com/v/20702/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/20702?quality=12&learn=on)
 
 There are three dynamic rule sets that can be enabled for a given metadata field:
 

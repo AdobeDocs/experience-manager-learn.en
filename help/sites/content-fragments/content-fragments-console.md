@@ -15,4 +15,4 @@ thumbnail: 3409492.jpeg
 
 Learn about the basic features and functionalities of AEM as a Cloud Service's Content Fragments authoring console.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409492/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3409492?quality=12&learn=on)

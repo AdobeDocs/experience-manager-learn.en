@@ -13,4 +13,4 @@ exl-id: e76c50da-e7a8-4560-bc53-02cdb13619bb
 
 This video walks through the steps to create Image Presets in Dynamic Media.
 
->[!VIDEO](https://video.tv.adobe.com/v/335459?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335459?quality=12&learn=on)

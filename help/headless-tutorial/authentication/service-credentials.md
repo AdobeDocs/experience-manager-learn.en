@@ -19,7 +19,7 @@ exl-id: e2922278-4d0b-4f28-a999-90551ed65fb4
 
 Integrations with Adobe Experience Manager (AEM) as a Cloud Service must be able to securely authenticate to AEM service. AEM's Developer Console grants access to Service Credentials, which are used to facilitate external applications, systems and services to programmatically interact with AEM Author or Publish services over HTTP.
 
->[!VIDEO](https://video.tv.adobe.com/v/330519/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330519?quality=12&learn=on)
 
 Service Credentials may appear similar [Local Development Access Tokens](./local-development-access-token.md) but are different in a few key ways:
 

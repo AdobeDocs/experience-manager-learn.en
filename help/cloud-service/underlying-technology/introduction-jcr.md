@@ -17,4 +17,4 @@ exl-id: 1e419597-3f60-4110-bafd-a4acb0fad7a0
 
 An introduction to the Java Content Repository (JCR) used by Adobe Experience Manager. The JCR is the base level of the AEM technology stack and is responsible for underlying content persistence, storage, search, access control and much more!
 
->[!VIDEO](https://video.tv.adobe.com/v/32030/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/32030?quality=12&learn=on)

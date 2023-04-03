@@ -14,7 +14,7 @@ Every adaptive form is based on an adaptive form template. The template defines 
 The template created here is the basis for our adaptive form going forward.
 The following video shows you the basic process of creating adaptive form template
 
->[!VIDEO](https://video.tv.adobe.com/v/37324/quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/37324?quality=12&learn=on)
 
 Please refer to [adaptive form template documentation](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-advanced-authoring/template-editor.html) for more details  
 

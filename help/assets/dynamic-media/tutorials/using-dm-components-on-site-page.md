@@ -13,4 +13,4 @@ exl-id: b500261a-5b96-41b8-8270-fb6bde95d48a
 
 This video walks through the process of using Dynamic Media-enabled Core Components on an AEM Sites webpage.
 
->[!VIDEO](https://video.tv.adobe.com/v/335461?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335461?quality=12&learn=on)

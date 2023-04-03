@@ -14,4 +14,4 @@ exl-id: 06793e03-72c1-4566-80d7-c126fc8e3879
 
 Explore how to define and deploy OSGi configuration in AEM as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/330559/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330559?quality=12&learn=on)

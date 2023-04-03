@@ -23,7 +23,7 @@ Using [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd
 - Individual files like HTL, `.content.xml` (dialog XML) deployment
 - Review other RDE commands like `status, reset and delete`
 
->[!VIDEO](https://video.tv.adobe.com/v/3415491/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3415491?quality=12&learn=on)
 
 ## Prerequisite 
 

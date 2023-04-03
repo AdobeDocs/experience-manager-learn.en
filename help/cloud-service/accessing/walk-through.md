@@ -19,4 +19,4 @@ exl-id: 0ca50fa4-0b2a-4e6d-becb-7a91fc6b4166
 
 An abridged walk-though configuring Adobe IMS Users, User Groups and Product Profiles in Adobe AdminConsole, and how to leverage these Adobe IMS abstractions in AEM Author to define and manage specific group-based permissions.
 
->[!VIDEO](https://video.tv.adobe.com/v/39155/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/39155?quality=12&learn=on)

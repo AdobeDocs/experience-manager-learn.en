@@ -20,4 +20,4 @@ Learn about the basics of the Adobe Workfront and Experience Manager Assetsenhan
 + Version assets
 + Auto-publish assets
 
->[!VIDEO](https://video.tv.adobe.com/v/337575/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/337575?quality=12&learn=on)

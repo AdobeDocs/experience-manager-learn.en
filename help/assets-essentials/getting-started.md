@@ -15,4 +15,4 @@ exl-id: a0accb94-ceef-4ecf-b1f6-f47751114242
 
 Learn how to access Assets Essentials and explore the main features of its user interface.
 
->[!VIDEO](https://video.tv.adobe.com/v/336005/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336005?quality=12&learn=on)

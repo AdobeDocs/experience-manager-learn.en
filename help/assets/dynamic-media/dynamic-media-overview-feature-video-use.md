@@ -14,7 +14,7 @@ This multi part video series gives you an overview of how media content is manag
 
 ## Dynamic Media Overview
 
->[!VIDEO](https://video.tv.adobe.com/v/27144/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27144?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ This video describes how media content is managed and accessed using Adobe Exper
 
 ## Dynamic Media with AEM Sites and any other CMS
 
->[!VIDEO](https://video.tv.adobe.com/v/27145/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27145?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ This video describes how media content is managed in Adobe Experience Manager Dy
 
 ## Dynamic Media to build Mixed Media Collection and custom viewer
 
->[!VIDEO](https://video.tv.adobe.com/v/27146/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27146?quality=12&learn=on)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ This video describes the simple creation process for a Mixed Media viewer collec
 
 ## Dynamic Media Image Presets
 
->[!VIDEO](https://video.tv.adobe.com/v/27320/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27320?quality=12&learn=on)
 
 This video describes how Image Presets are created and what is an image preset, a URL shortener to a series of Image Server arguments that operate on an image whenever a URL requests it. Learn valuable techniques to extend and edit Image Presets.
 
@@ -70,7 +70,7 @@ This video describes how Image Presets are created and what is an image preset, 
 
 ## Dynamic Media Advanced URL modifiers
 
->[!VIDEO](https://video.tv.adobe.com/v/27319/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27319?quality=12&learn=on)
 
 This video describes going beyond resizing images to take advantage of features of the source file itself- background transparency, built in clipping paths and crops and text as variables- with Dynamic Media's URL modifiers.
 
@@ -82,7 +82,7 @@ This video describes going beyond resizing images to take advantage of features 
 
 ## Dynamic Media Controlling JPEG file size in Kilobytes
 
->[!VIDEO](https://video.tv.adobe.com/v/27404/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27404?quality=12&learn=on)
 
 
 >[!NOTE]
@@ -93,7 +93,7 @@ Balance jpeg image quality against the resulting file size (in kilobytes) to enh
 
 ## Add CC Closed Captioning to Dynamic Media Video
 
->[!VIDEO](https://video.tv.adobe.com/v/28074/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28074?quality=12&learn=on)
 
 Easily add Closed Captioning to Dynamic Media video by appending the Copy URL to point to an additional Closed Captioning file document, a web.VTT sidecar file, containing the CC info for any video.
 

@@ -25,4 +25,4 @@ The following video demonstrates the feature and the use case
 
 >[!NOTE]
 >The capability demonstrated in this video requires AEM Forms 6.5.13
->[!VIDEO](https://video.tv.adobe.com/v/343762?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343762?quality=12&learn=on)

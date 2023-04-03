@@ -14,4 +14,4 @@ exl-id: 88b4b688-ed71-40e8-bb65-12d3f20cdb6a
 
 A narrated walk-through of using Cloud Acceleration Manager's tools.
 
->[!VIDEO](https://video.tv.adobe.com/v/336699/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336699?quality=12&learn=on)

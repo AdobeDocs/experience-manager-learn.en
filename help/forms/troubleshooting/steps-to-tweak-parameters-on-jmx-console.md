@@ -15,4 +15,4 @@ exl-id: f7a815f0-2c71-452f-baf8-da967b5ed033
 
 *This video walks through the steps to tweak parameters on JMX console.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335554?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335554?quality=12&learn=on)

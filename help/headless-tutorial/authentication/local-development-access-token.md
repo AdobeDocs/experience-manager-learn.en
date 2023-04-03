@@ -19,7 +19,7 @@ exl-id: 197444cb-a68f-4d09-9120-7b6603e1f47d
 
 Developers building integrations that require programmatic access to AEM as a Cloud Service need a simple, quick way to obtain temporary access tokens for AEM to facilitate local development activities. To satisfy this need, AEM's Developer Console allows developers to self-generate temporary access tokens that can be used to programmatically access AEM.
 
->[!VIDEO](https://video.tv.adobe.com/v/330477/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330477?quality=12&learn=on)
 
 ## Generate a Local Development Access Token
 

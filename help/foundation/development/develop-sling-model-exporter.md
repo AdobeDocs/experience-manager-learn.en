@@ -23,25 +23,25 @@ Apache Sling provides a Jackson JSON exporter to cover the most common case of e
 
 ## Configuring AEM for Sling Model Exporter
 
->[!VIDEO](https://video.tv.adobe.com/v/16862/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16862?quality=12&learn=on)
 
 [!DNL Sling Model Exporter] is a feature of the [!DNL Apache Sling] project and not directly bound to the AEM product release cycle. [!DNL Sling Model Exporter] is compatible with AEM 6.3 and later.
 
 ## The use-case for [!DNL Sling Model Exporter]
 
->[!VIDEO](https://video.tv.adobe.com/v/16863/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16863?quality=12&learn=on)
 
 [!DNL Sling Model Exporter] is perfect for leveraging Sling Models that already contain business logic that support HTML renditions via HTL (or formerly JSP), and expose the same business representation as JSON for consumption by programmatic Web services or JavaScript applications.
 
 ## Creating a Sling Model Exporter
 
->[!VIDEO](https://video.tv.adobe.com/v/16864/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16864?quality=12&learn=on)
 
 Enabling [!DNL Exporter] support on a [!DNL Sling Model] is as easy as adding the `@Exporter` annotation to the Java class.
 
 ## Applying Sling Model Exporter options
 
->[!VIDEO](https://video.tv.adobe.com/v/16865/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16865?quality=12&learn=on)
 
 [!DNL Sling Model Exporter] supports passing per-model Exporter options to the Exporter implementation to drive how the [!DNL Sling Model] is finally exported. These options generally apply "globally" to how the [!DNL Sling Model] is exported, versus per data point which can be done via inline annotations described below.
 
@@ -52,7 +52,7 @@ Enabling [!DNL Exporter] support on a [!DNL Sling Model] is as easy as adding th
 
 ## Applying [!DNL Jackson] annotations
 
->[!VIDEO](https://video.tv.adobe.com/v/16866/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16866?quality=12&learn=on)
 
 Exporters implementations may also support annotations that can be applied inline on the [!DNL Sling Model] class, that can provide a finer level of control how the data is exported.
 

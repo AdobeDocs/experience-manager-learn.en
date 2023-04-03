@@ -14,7 +14,7 @@ exl-id: 15eb725c-d6f6-4ab9-8d39-dc05fbba1ff3
 
 Dynamic Media Smart Crop for video uses Adobe Sensei to intelligently track the point-of-interest in the video, ensuring videos look their best on all screen sizes.
 
->[!VIDEO](https://video.tv.adobe.com/v/37958/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/37958?quality=12&learn=on)
 
 >[!NOTE]
 >

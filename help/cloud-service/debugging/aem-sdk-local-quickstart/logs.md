@@ -19,7 +19,7 @@ Accessing the AEM SDK's logs, either the AEM SDK local quickstart Jar's or Dispa
 
 ## AEM Logs
 
->[!VIDEO](https://video.tv.adobe.com/v/34334/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/34334?quality=12&learn=on)
 
 Logs act as the frontline for debugging AEM applications, but are dependent on adequate logging in the deployed AEM application. Adobe recommends keeping local development and AEM as a Cloud Service Dev logging configurations as similar a possible, as it normalizes log visibility on the AEM SDK’s local quickstart and AEM as a Cloud Service's Dev environments, reducing configuration twiddling and re-deployment.
 

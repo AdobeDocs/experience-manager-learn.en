@@ -14,4 +14,4 @@ exl-id: caf413ee-a124-4629-ae02-177f4deff4e6
 
 *This video walks through the steps to run load tests from UI using FormsIVS and OutputIVS samples.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335507?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335507?quality=12&learn=on)

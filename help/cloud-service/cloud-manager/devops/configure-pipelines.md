@@ -20,4 +20,4 @@ exl-id: 05e3f987-e9bf-4b61-93b4-62b43619969e
 
 Explore the different types of pipelines in Cloud Manager and how to configure them for a successful project. 
 
->[!VIDEO](https://video.tv.adobe.com/v/330539/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330539?quality=12&learn=on)

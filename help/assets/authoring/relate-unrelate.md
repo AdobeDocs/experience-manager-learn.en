@@ -15,4 +15,4 @@ exl-id: a05f995e-11bb-4b28-9aed-3033071244f7
 
 Learn how to establish and manage relationships between assets in AEM.
 
->[!VIDEO](https://video.tv.adobe.com/v/331107/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/331107?quality=12&learn=on)

@@ -13,7 +13,7 @@ last-substantial-update: 2020-02-09
 
 AEM 6.3 introduces several new features and enhancements in this release to simplify the authoring experience of adaptive forms and documents. The enhancements help reduce your time to market and enable business users to work with forms and documents
 
->[!VIDEO](https://video.tv.adobe.com/v/19500/)
+>[!VIDEO](https://video.tv.adobe.com/v/19500?quality=12&learn=on)
 
 **Some of the major improvements for Adaptive Form Editor includes:**
 

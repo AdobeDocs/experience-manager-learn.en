@@ -14,7 +14,7 @@ exl-id: 9c641a90-be62-49c1-b8c0-d45d26055b94
 
  Learn about Cloud Manager for AEM as a Cloud Service, and its differences with Cloud Manager for AEM on Adobe Manage Services (AMS).
 
->[!VIDEO](https://video.tv.adobe.com/v/336961/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336961?quality=12&learn=on)
 
 ## Hands-on exercise
 

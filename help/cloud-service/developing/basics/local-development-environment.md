@@ -14,7 +14,7 @@ exl-id: 73fe8fb8-ff8a-4070-bc0c-384387d0a25e
 
 Learn how to download and set up a local development environment using the AEM as a Cloud Service SDK.
 
->[!VIDEO](https://video.tv.adobe.com/v/330558/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330558?quality=12&learn=on)
 
 _The `license.properties` shown in this video is no longer needed to run the AEM SDK._
 

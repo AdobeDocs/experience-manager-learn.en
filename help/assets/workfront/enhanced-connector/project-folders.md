@@ -18,4 +18,4 @@ Learn about Project Folders when using Adobe Workfront and Experience Manager As
 + Folder metadata mapping
 + Folder metadata inheritance
 
->[!VIDEO](https://video.tv.adobe.com/v/337586/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/337586?quality=12&learn=on)

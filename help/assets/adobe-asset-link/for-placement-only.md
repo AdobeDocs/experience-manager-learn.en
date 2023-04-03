@@ -15,4 +15,4 @@ exl-id: 940608db-6e84-441a-b031-e8cf52459597
 
 Explore how to create and use a For Placement Only (FPO) rendition for AEM assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/34259/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34259?quality=12&learn=on)

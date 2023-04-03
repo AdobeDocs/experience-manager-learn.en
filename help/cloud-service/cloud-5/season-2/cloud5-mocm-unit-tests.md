@@ -12,7 +12,7 @@ recommendations: noDisplay, noCatalog
 
 An often overlooked step in the development of software, unit tests are a hugely important activity that every developer should complete. AEM provides many default quality checks natively, but they can't test everything that you may have customized or altered.
 
->[!VIDEO](https://video.tv.adobe.com/v/343623)
+>[!VIDEO](https://video.tv.adobe.com/v/343623?quality=12&learn=on)
 
 ## Content covered in this video
 

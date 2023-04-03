@@ -14,4 +14,4 @@ exl-id: fbcb7ae8-0452-4632-a1fc-896187bb6695
 
 Learn how the Index Converter automatically converts existing AEM index definitions to be AEM as a Cloud Service compatible.
 
->[!VIDEO](https://video.tv.adobe.com/v/336696/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336696?quality=12&learn=on)

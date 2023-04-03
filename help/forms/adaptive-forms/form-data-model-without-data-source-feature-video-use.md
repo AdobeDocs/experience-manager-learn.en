@@ -13,7 +13,7 @@ last-substantial-update: 2020-06-09
 
 Starting with AEM Forms 6.4, we now have the ability to define Form Data Model (FDM) without associating it with a data source. The following video walks through the steps to create FDM without any data source.
 
->[!VIDEO](https://video.tv.adobe.com/v/21414/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/21414?quality=12&learn=on)
 
 This gives you the following advantages:
 

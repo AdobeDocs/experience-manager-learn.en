@@ -15,4 +15,4 @@ exl-id: 67898b75-6307-4933-ad93-e6db2e220fd6
 
  Learn how to access and interact with metadata in AEM Assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/32045/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/32045?quality=12&learn=on)

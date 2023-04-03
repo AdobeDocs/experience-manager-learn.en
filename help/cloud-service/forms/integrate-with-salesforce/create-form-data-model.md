@@ -16,4 +16,4 @@ exl-id: 9dcbf06c-6dd0-4f26-bc5e-9074f4c78ac6
 
 Create a Form Data Model based on the data source configured in the previous step
 
->[!VIDEO](https://video.tv.adobe.com/v/331756/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/331756?quality=12&learn=on)

@@ -21,7 +21,7 @@ Relational databases - MySQL, Microsoft SQL Server, IBM DB2, and Oracle RDBMS
 
 This video walks through a workflow showing how AEM Forms can work with Microsoft Dynamics as a back-end data source to deliver interactive, personalized communications.
 
->[!VIDEO](https://video.tv.adobe.com/v/20971?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/20971?quality=12&learn=on)
 
 >[!NOTE]
 >

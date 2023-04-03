@@ -15,4 +15,4 @@ thumbnail: 3415467.jpeg
 
 Learn how to use Asset Share Common's asset kit functionality to generate bespoke, shareable web pages that list assets from AEM Assets folders or collections.
 
->[!VIDEO](https://video.tv.adobe.com/v/3415467/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3415467?quality=12&learn=on)

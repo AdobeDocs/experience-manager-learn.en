@@ -31,7 +31,7 @@ The reader extensions credential is associated with fd-service user. To add the 
 
 Please follow the video to add the credentials to the fd-service user
 
->[!VIDEO](https://video.tv.adobe.com/v/335849?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335849?quality=12&learn=on)
 
 
 The command to list the details of the pfx file is. The following command assumes you are in the same directory as the pfx file .

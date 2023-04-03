@@ -20,6 +20,6 @@ In this video you will:
 + Learn about the various data types and validations used to build out the Content Fragment Model
 + Understand how the Content Fragment Model drives the GraphQL API
 
->[!VIDEO](https://video.tv.adobe.com/v/332858/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/332858?quality=12&learn=on)
 
 _Download the [Postman Collection](./assets/aem-headless-video-series.postman_collection.json) used throughout the AEM Headless Video Series._

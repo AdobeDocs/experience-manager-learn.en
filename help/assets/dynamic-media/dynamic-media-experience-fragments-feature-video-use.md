@@ -13,7 +13,7 @@ exl-id: c4c1ffe2-d4ea-4b31-b5d5-132fba9d2633
 
 AEM Assets Dynamic Media integrates asset Hotspots with Experience Fragments via Interactive Media viewers. Marketers can author the experience fragment with text, images, and links to populate the custom pop-up and associate that pop-up to hotspots on banners, carousels or videos.
 
->[!VIDEO](https://video.tv.adobe.com/v/22115/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22115?quality=12&learn=on)
 
 >[!NOTE]
 >

@@ -13,4 +13,4 @@ exl-id: e36ecbaf-78fc-4acf-bacb-f19d933fb0fb
 
 *This video walks through the steps to change the value of entropy.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335494?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335494?quality=12&learn=on)

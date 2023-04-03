@@ -15,4 +15,4 @@ exl-id: 404049b8-1646-47e1-b2fd-e4024859ca22
 
 *This video walks through the steps to tweak bmc pool size for XMLFormService(2 of 2).*
 
->[!VIDEO](https://video.tv.adobe.com/v/335553?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335553?quality=12&learn=on)

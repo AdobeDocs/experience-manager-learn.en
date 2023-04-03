@@ -20,7 +20,7 @@ exl-id: faa9ca2d-6cfa-4abf-be5e-3e549202853a
 
 In this part, we install TOMCAT and deploy the sampleRest.war file in TOMCAT. The REST endpoint exposed by this WAR file is the basis for our Data Source and Form Data Model.
 
->[!VIDEO](https://video.tv.adobe.com/v/37815/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/37815?quality=12&learn=on)
 
 To set up tomcat, please follow the following instructions:
 
@@ -40,4 +40,4 @@ To set up tomcat, please follow the following instructions:
 Congratulations !!!. You have setup tomcat and deployed the SampleRest.war file.
 
 The following video explains the deployment of sample application in Tomcat
->[!VIDEO](https://video.tv.adobe.com/v/37815)
+>[!VIDEO](https://video.tv.adobe.com/v/37815?quality=12&learn=on)

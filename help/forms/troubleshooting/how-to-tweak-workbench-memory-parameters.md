@@ -14,4 +14,4 @@ exl-id: e3e3e3ff-c914-4ae0-9d41-1fcbcf6375bf
 
 *This video walks through the process to tweak Workbench memory parameters .*
 
->[!VIDEO](https://video.tv.adobe.com/v/335509?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335509?quality=12&learn=on)

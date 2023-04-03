@@ -17,7 +17,7 @@ AEM Content Fragment Console extensions can be tested against any AEM as a Cloud
 
 Testing an extension is done through a specially crafted URL that instructs the AEM Content Fragment console to load the extension. 
 
->[!VIDEO](https://video.tv.adobe.com/v/3412877/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412877?quality=12&learn=on)
 
 ## AEM Content Fragment Console URL
 

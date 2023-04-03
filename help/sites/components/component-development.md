@@ -14,4 +14,4 @@ exl-id: ad767329-58bc-44ec-83de-2f5e3c8a30a3
 
 An overview of developing components with Adobe Experience Manager Sites. Includes an introduction to Dialogs, Sling Models, HTL Scripts and Client-Side Libraries.
 
->[!VIDEO](https://video.tv.adobe.com/v/32547/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/32547?quality=12&learn=on)

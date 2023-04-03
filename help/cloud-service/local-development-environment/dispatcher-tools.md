@@ -73,7 +73,7 @@ The version of Dispatcher Tools is different from that of the AEM SDK. Ensure th
 
 All commands issued below assume that the current working directory contains the expanding Dispatcher Tools contents.
 
->[!VIDEO](https://video.tv.adobe.com/v/30601/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/30601?quality=12&learn=on)
 
 *This video uses macOS for illustrative purposes. The equivalent Windows/Linux commands can be used to achieve similar results.*
 
@@ -182,7 +182,7 @@ The recommended Dispatcher Tools version is that which is bundled with the AEM a
 
 The baseline set of Apache and Dispatcher configuration is enhanced regularly and released with the AEM as a Cloud Service SDK version. It is best practice to incorporate the baseline configuration enhancements into your AEM project and avoid [local validation](#validate-configurations) and Cloud Manager pipeline failures. Update them using the `update_maven.sh` script from the `.../dispatcher-sdk-x.x.x/bin` folder.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416744/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416744?quality=12&learn=on)
 
 *This video uses macOS for illustrative purposes. The equivalent Windows/Linux commands can be used to achieve similar results.*
 

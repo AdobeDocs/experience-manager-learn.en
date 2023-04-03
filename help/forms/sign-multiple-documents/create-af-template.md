@@ -19,7 +19,7 @@ exl-id: c6e0fb92-28c1-4025-85ef-b99bad46f07a
 We will create a new Adaptive Form template for the purpose of this tutorial. A new page component was also created and associated with this template. The JSP in the page component fetches data from the MySql database which is used to pre-populate the adaptive form.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/27828?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27828?quality=12&learn=on)
 
 [You can follow this article to understand the process of creating an adaptive form template and a page component](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/storing-and-retrieving-form-data/part5.html?lang=en#storing-and-retrieving-form-data)
 

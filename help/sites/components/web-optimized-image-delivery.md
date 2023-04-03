@@ -15,4 +15,4 @@ thumbnail: 346064.jpeg
 
 Learn how to enable web optimized image delivery on AEM as a Cloud Service sites using AEM Core Components.
 
->[!VIDEO](https://video.tv.adobe.com/v/346064/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/346064?quality=12&learn=on)

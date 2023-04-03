@@ -13,7 +13,7 @@ last-substantial-update: 2019-02-20
 
 Improvements to the Theme Editor for adaptive forms in AEM 6.3
 
->[!VIDEO](https://video.tv.adobe.com/v/19497?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/19497?quality=12&learn=on)
 
 >[!NOTE]
 >

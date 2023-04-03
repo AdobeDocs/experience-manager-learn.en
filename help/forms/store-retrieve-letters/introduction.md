@@ -24,7 +24,7 @@ This article uses MySQL database to store the metadata of the letter instance. T
 
 The following video demonstrates the use case:
 
->[!VIDEO](https://video.tv.adobe.com/v/342129/quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/342129?quality=12&learn=on)
 
 ## Prequisites
 

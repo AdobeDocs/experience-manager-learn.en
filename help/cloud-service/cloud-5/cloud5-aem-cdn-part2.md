@@ -13,7 +13,7 @@ exl-id: 3d6f3506-e1ec-4eeb-869f-02db2821b8c6
 
 Part two of using the AEM CDN and deep dive into various options.
 
->[!VIDEO](https://video.tv.adobe.com/v/340994/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340994?quality=12&learn=on)
 
 ## Content covered in part two of this series
 

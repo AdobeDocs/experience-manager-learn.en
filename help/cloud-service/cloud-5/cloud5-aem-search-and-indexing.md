@@ -14,7 +14,7 @@ exl-id: b2571a84-101f-4330-8a5f-9ef5e4344591
 
 A quick dive into the deep waters of search and indexing. A challenging topic that we hope to help educate you deliver on more effectively.
 
->[!VIDEO](https://video.tv.adobe.com/v/342374)
+>[!VIDEO](https://video.tv.adobe.com/v/342374?quality=12&learn=on)
 
 ## Content covered in this video
 

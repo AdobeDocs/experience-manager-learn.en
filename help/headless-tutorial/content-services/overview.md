@@ -17,7 +17,7 @@ AEM Content Services allows for the same content abstractions used for authoring
 
 An end-to-end tutorial illustrating how to build-out and expose content using AEM and consumed by a native mobile app, in a headless CMS scenario.
 
->[!VIDEO](https://video.tv.adobe.com/v/28315/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28315?quality=12&learn=on)
 
 This tutorial explores how AEM Content Services can be used to power the experience of an Mobile App that displays Event information (music, performance, art, etc.) that is curated by the WKND team.
 

@@ -33,7 +33,7 @@ The following are required to follow this quick setup:
 First, create a Cloud Manager Git repository which is used to deploy the WKND Site. The WKND Site is a sample AEM website project that contains content (Content Fragments) and a GraphQL AEM endpoint used by the quick setup's React App.
 
 _Screencast of steps_
->[!VIDEO](https://video.tv.adobe.com/v/339073/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/339073?quality=12&learn=on)
 
 1. Navigate to [https://my.cloudmanager.adobe.com](https://my.cloudmanager.adobe.com)
 1. Select the Cloud Manager __Program__ that contains the AEM as a Cloud Service environment to use for this quick setup
@@ -49,7 +49,7 @@ _Screencast of steps_
 With the Cloud Manager Git repository created, clone the WKND Site project's source code from GitHub and push it to Cloud Manager Git repository. Now Cloud Manager to access, and deploy the WKND Site project to the AEM as a Cloud Service environment.
 
 _Screencast of steps_
->[!VIDEO](https://video.tv.adobe.com/v/339074/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/339074?quality=12&learn=on)
 
 1. From the command line, clone the sample WKND Site project's source code from GitHub
 
@@ -84,7 +84,7 @@ With the WKND Site project pushed to the Cloud Manager Git repository, it cannot
 Keep in mind, the WKND Site project provides sample content that React app consumes over AEM Headless GraphQL APIs.
 
 _Screencast of steps_
->[!VIDEO](https://video.tv.adobe.com/v/339075/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/339075?quality=12&learn=on)
 
 1. Attach a __Non-production deployment pipeline__ to the new Git repository
     1. Select __Pipelines__ in the top navigation
@@ -115,7 +115,7 @@ _Screencast of steps_
 With AEM as a Cloud Service bootstrapped with the content from the WKND Site project, download, and start the sample WKND React App that consumes the WKND Site's content over AEM Headless GraphQL APIs.
 
 _Screencast of steps_
->[!VIDEO](https://video.tv.adobe.com/v/339076/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/339076?quality=12&learn=on)
 
 1. From the command line, clone the React App's source code from GitHub.
 
@@ -156,7 +156,7 @@ _Screencast of steps_
 With the sample WKND React App connecting to and consuming content from the AEM Headless GraphQL APIs, author content in AEM Author service and see how the React App's experience updates in concert.
 
 _Screencast of steps_
->[!VIDEO](https://video.tv.adobe.com/v/339077/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/339077?quality=12&learn=on)
 
 1. Log in to AEM as a Cloud Service Author service
 1. Navigate to __Assets > Files > WKND Shared > English > Adventures__

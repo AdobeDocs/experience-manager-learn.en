@@ -13,4 +13,4 @@ exl-id: cb68afd1-cc5f-430a-8920-9987a3466abb
 
 *This video walks through the steps to configure AEM Assets Brand Portal.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335448?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335448?quality=12&learn=on)

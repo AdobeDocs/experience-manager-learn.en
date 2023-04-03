@@ -17,7 +17,7 @@ Learn the basics of OSGi services development, including:
 + How to convert a Java POJO into an OSGi Service
 + How to bind an OSGi Service to a Java interface
 
->[!VIDEO](https://video.tv.adobe.com/v/335476/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335476?quality=12&learn=on)
 
 ## Resources
 

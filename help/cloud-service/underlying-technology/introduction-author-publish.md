@@ -18,4 +18,4 @@ exl-id: 586d982e-0128-47a1-b945-7d99298db3fd
 
 An introduction to the Author and Publish tiers as part of the architecture in Adobe Experience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/32033/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/32033?quality=12&learn=on)

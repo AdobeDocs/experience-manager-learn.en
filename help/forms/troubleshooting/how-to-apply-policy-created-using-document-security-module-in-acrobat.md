@@ -14,4 +14,4 @@ exl-id: 086afdf4-c9a4-4bb9-b242-e6337281ef9b
 
 *This video walks through the process of applying policy created using document security module in Acrobat.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335486?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335486?quality=12&learn=on)

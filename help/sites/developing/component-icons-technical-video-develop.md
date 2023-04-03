@@ -16,7 +16,7 @@ exl-id: 37dc26aa-0773-4749-8c8b-4544bd4d5e5f
 
 Component Icons allow authors to quickly identify a component with icons or meaningful abbreviations. Authors can now find locate the Components required to build out their Web experiences faster than ever.
 
->[!VIDEO](https://video.tv.adobe.com/v/16778/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16778?quality=12&learn=on)
 
 The Component browser now displays in a consistent grey theme, displaying the:
 

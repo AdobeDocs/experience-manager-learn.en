@@ -35,8 +35,8 @@ The sample form used in this workflow is based on a custom adaptive form templat
 * The sample adaptive form is placed in a folder called [Application Forms](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments/applicationforms)
 
 The following video explains how to configure an Adaptive Form to trigger an AEM Workflow
->[!VIDEO](https://video.tv.adobe.com/v/40258/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/40258?quality=12&learn=on)
 
 The following video shows you the workflow payload and other details in the crx repository
 
->[!VIDEO](https://video.tv.adobe.com/v/40259/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/40259?quality=12&learn=on)

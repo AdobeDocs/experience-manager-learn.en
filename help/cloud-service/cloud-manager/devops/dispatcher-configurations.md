@@ -14,4 +14,4 @@ exl-id: 7d0812b7-2346-42a9-bcd4-ceb394905bea
 
 Use best practices and examples to explore how the dispatcher works with AEM as Cloud Service and Cloud Manager. 
 
->[!VIDEO](https://video.tv.adobe.com/v/330538/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330538?quality=12&learn=on)

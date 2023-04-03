@@ -14,4 +14,4 @@ exl-id: 1a12d267-f9d0-48e1-9263-c53c038e4754
 
 Explore the navigation experience of Cloud Acceleration Manager for Experience Manager as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/336698/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336698?quality=12&learn=on)

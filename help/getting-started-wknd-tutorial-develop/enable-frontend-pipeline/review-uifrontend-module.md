@@ -30,7 +30,7 @@ In, this chapter we review the development, deployment, and delivery of front-en
 >
 >This video explains and demonstrates the front-end flow for both **Full-Stack and Quick Site Creation** projects to outline the subtle difference in the front-end resources build, deploy, and delivery model.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409344/)
+>[!VIDEO](https://video.tv.adobe.com/v/3409344?quality=12&learn=on)
 
 ## Prerequisites {#prerequisites}
 

@@ -17,4 +17,4 @@ exl-id: 386b7d1f-d6aa-4c9f-95ae-d553aaeb9bf3
 
 An introduction to [!DNL OSGi], a dynamic modular architecture for [!DNL Java] applications that is the basis for Adobe Experience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/32031/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/32031?quality=12&learn=on)

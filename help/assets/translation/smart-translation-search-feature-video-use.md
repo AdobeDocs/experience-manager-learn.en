@@ -14,7 +14,7 @@ exl-id: 4f35e3f7-ae29-4f93-bba9-48c60b800238
 
 Smart Translation Search enables cross-language search and discovery automatically across AEM content, both Assets and Pages, supporting more than 50 languages and reducing the need for manual content translation.
 
->[!VIDEO](https://video.tv.adobe.com/v/21297/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/21297?quality=12&learn=on)
 
 AEM Smart Translation Search allows users to perform searches for content in AEM using non-English terms, to match the assets in AEM that have equivalent English terms on them.
 

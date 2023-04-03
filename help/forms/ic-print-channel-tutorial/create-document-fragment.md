@@ -21,7 +21,7 @@ exl-id: 2fe3f950-bc2a-4e91-8d91-00438691727a
 
 In this part, we will create document fragment to hold the recipient name and address.
 
->[!VIDEO](https://video.tv.adobe.com/v/22350/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22350?quality=12&learn=on)
 
 Document fragments hold the text content of interactive communication documents. This text content can be static text or inserted from the underlying data model elements values. For example **Dear _{name}_**, where Dear is static text and name is the form data model element name. At runtime, this will resolve to **Dear Gloria Rios** or **Dear John Jacobs** depending on the value of the name element.
 

@@ -15,7 +15,7 @@ In this video we'll take a look at the anatomy of the CSS (or [!DNL LESS]) and J
 
 ## Understanding how to code for the Style System {#understanding-how-to-code-for-the-style-system}
 
->[!VIDEO](https://video.tv.adobe.com/v/21538/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/21538?quality=12&learn=on)
 
 The provided AEM Package (**technical-review.sites.style-system-1.0.0.zip**) installs the example title style, sample policies for the We.Retail Layout Container and Title components, and a sample page.
 

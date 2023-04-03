@@ -15,7 +15,7 @@ exl-id: 66f627e4-863d-45d7-bc68-7ec108a1c271
 
 Learn how to create and use Service Users in your AEM code to provide controlled, programmatic access to the AEM repository.
 
->[!VIDEO](https://video.tv.adobe.com/v/337530/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/337530?quality=12&learn=on)
 
 ## Resources
 

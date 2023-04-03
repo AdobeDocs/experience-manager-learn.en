@@ -12,7 +12,7 @@ exl-id: 867cf74e-44e7-431b-ac8f-41b63c370635
 
 A short example of leveraging [!DNL CORS] to access AEM content from an external web application via client-side JavaScript.
 
->[!VIDEO](https://video.tv.adobe.com/v/18837/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/18837?quality=12&learn=on)
 
 In this video:
 

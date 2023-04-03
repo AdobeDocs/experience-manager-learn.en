@@ -13,7 +13,7 @@ exl-id: db4fc561-2368-4df8-9b02-fc08afa00805
 
 AEM Dynamic Media Viewer enhancements allow AEM authors to define and customize how assets are presented to website user.
 
->[!VIDEO](https://video.tv.adobe.com/v/17783/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17783?quality=12&learn=on)
 
 Some major enhancements include:
 

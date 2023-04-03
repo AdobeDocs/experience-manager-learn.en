@@ -13,4 +13,4 @@ last-substantial-update: 2020-10-20
 
 Create associations between 2 entities in Form Data Model
 
->[!VIDEO](https://video.tv.adobe.com/v/17737/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17737?quality=12&learn=on)

@@ -16,4 +16,4 @@ thumbnail: 3413809.jpeg
 
 Learn how to work more efficiently using My Workspace's user-configurable widgets.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413809/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3413809?quality=12&learn=on)

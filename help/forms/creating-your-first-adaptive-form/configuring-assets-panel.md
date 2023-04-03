@@ -16,7 +16,7 @@ Configure accordion layout for the Assets panel.The accordion layout provides a 
 
 **Configure Assets Panel**
 
->[!VIDEO](https://video.tv.adobe.com/v/22200?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22200?quality=12&learn=on)
 
 **Set Summary Title**
->[!VIDEO](https://video.tv.adobe.com/v/28387)
+>[!VIDEO](https://video.tv.adobe.com/v/28387?quality=12&learn=on)

@@ -14,4 +14,4 @@ kt: 10828
 
 Send e-mail notification to an adaptive form submitter with Microsoft Power Automate by extracting field values from the form submission.
 
->[!VIDEO](https://video.tv.adobe.com/v/345957/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/345957?quality=12&learn=on)

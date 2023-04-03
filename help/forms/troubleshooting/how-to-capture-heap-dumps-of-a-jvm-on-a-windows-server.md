@@ -13,4 +13,4 @@ exl-id: 50bd13b1-9d74-427b-ab2c-0f2f1161b32d
 
 *This video walks through the steps to capture heap dumps of a JVM on a windows server.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335490?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335490?quality=12&learn=on)

@@ -20,7 +20,7 @@ Asset Compute projects are specially defined App Builder projects, and as such, 
 
 ## Create and set up App Builder in Adobe Developer Console{#set-up}
 
->[!VIDEO](https://video.tv.adobe.com/v/40183/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/40183?quality=12&learn=on)
 
 _Click-through of setting upApp Builder (No audio)_
 

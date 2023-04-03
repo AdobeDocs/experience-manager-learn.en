@@ -25,6 +25,6 @@ In this video you will:
 >The **Create, Update, and Execute Persisted Queries** chapter starting at 2:05 uses [Postman](https://www.postman.com/) to perform the task. However in the newer versions of AEM as Cloud Service, a built-in **GraphiQL Explorer** is provided, see [Using the GraphiQL IDE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/graphql-api/graphiql-ide.html) for more information.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/333429/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/333429?quality=12&learn=on)
 
 _Download the [Postman Collection](./assets/aem-headless-video-series.postman_collection.json) used throughout the AEM Headless Video Series._

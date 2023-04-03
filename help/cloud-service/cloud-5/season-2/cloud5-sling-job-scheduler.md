@@ -13,7 +13,7 @@ exl-id: 8784d77f-1c70-4694-bd08-79b71adbda48
 
 Job Scheduling and consumption is different from a non-clustered AEM deployment. This video shows some gotchas and things to look out for when running these tasks.
 
->[!VIDEO](https://video.tv.adobe.com/v/343473)
+>[!VIDEO](https://video.tv.adobe.com/v/343473?quality=12&learn=on)
 
 ## Content covered in this video
 

@@ -16,7 +16,7 @@ exl-id: 9bfe3142-bfc1-4886-85ea-d1c6de903484
 
 This is a development tutorial illustrating how to develop for [!DNL AEM Projects].  In this tutorial we will create a custom Project template that can be used to create new Projects within AEM for managing content authoring workflows and tasks.
 
->[!VIDEO](https://video.tv.adobe.com/v/16904/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16904?quality=12&learn=on)
 
 *This video gives a brief demo of the finished workflow that is created in the tutorial below.*
 

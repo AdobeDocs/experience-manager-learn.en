@@ -14,4 +14,4 @@ exl-id: 89f485c3-cd6f-4814-8538-de9c07b33ba4
 
 *This video walks through the steps to connect Workbench to AEM Forms server using HTTPS.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335482?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335482?quality=12&learn=on)

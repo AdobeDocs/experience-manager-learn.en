@@ -14,4 +14,4 @@ exl-id: df5e0e46-0255-4a77-b85d-b6520c871879
 
 Learn how the Core Repository Modernizer automatically updates existing AEM Maven projects to be AEM as a Cloud Service compatible.
 
->[!VIDEO](https://video.tv.adobe.com/v/336694/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336694?quality=12&learn=on)

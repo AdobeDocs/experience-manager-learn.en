@@ -13,4 +13,4 @@ exl-id: cfadacf9-ec54-433b-beaa-d38dbe003438
 
 *This video walks through the steps to capture HAR (HTTP archive) logs.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335488?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335488?quality=12&learn=on)

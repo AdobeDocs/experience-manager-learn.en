@@ -14,4 +14,4 @@ exl-id: 9fa0af6f-1124-4c8b-b0d6-4d6aaf158249
 
 Explore how Cloud Manager APIs can be used to extend and integrate with other systems. 
 
->[!VIDEO](https://video.tv.adobe.com/v/330541/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330541?quality=12&learn=on)

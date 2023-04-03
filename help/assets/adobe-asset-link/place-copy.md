@@ -15,4 +15,4 @@ exl-id: b74e7cb3-4a2d-4076-b68a-167bc59e20fb
 
 Learn how to use assets from AEM Assets using the Place Copy operation.
 
->[!VIDEO](https://video.tv.adobe.com/v/34049/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34049?quality=12&learn=on)

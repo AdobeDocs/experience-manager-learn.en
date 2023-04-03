@@ -16,4 +16,4 @@ last-substantial-update: 2020-07-07
 # Configuring Adaptive Form to trigger AEM Workflow
 
 
->[!VIDEO](https://video.tv.adobe.com/v/28316?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28316?quality=12&learn=on)

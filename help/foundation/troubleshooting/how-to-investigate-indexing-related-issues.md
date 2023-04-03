@@ -14,4 +14,4 @@ exl-id: 042a216d-980d-4912-a77b-e2ee04a27cfb
 
 *This video walks through the steps to investigate indexing related issues in AEM.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335465?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335465?quality=12&learn=on)

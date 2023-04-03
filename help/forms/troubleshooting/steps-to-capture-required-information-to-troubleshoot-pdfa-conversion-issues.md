@@ -14,4 +14,4 @@ exl-id: 2753326a-2f8c-49f8-91a4-88cc8d500f66
 
 *This video walks through the steps to capture the required information to troubleshoot PDF/A Conversion and Validation Issues in Forms Assembler service.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335518?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335518?quality=12&learn=on)

@@ -15,7 +15,7 @@ exl-id: a55c1dda-f74a-4914-aa1b-c4de8ad1253e
 
 Learn how to use a low-code approach to create your first site in Adobe Experience Manager with Quick Site Creation and a pre-defined Site Template. Use out-of-the-box components and templates to quickly get a site up and running. Use an Adobe XD driven theming workflow to apply brand-specific styles and customizations with just CSS and JavaScript. Recommended for new projects and developers.
 
->[!VIDEO](https://video.tv.adobe.com/v/333477/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/333477?quality=12&learn=on)
 
 * [Adobe XD UI Kit](https://github.com/adobe/aem-site-template-basic/blob/main/files/wireframe.xd)
 * [AEM Site Template](https://github.com/adobe/aem-site-template-basic)

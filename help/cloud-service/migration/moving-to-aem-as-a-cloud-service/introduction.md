@@ -13,4 +13,4 @@ exl-id: d8c044a1-a208-411c-b66f-ce5b0b3a5e2c
 
 Learn how to think differently about AEM as a Cloud Service implementations.
 
->[!VIDEO](https://video.tv.adobe.com/v/336956/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336956?quality=12&learn=on)

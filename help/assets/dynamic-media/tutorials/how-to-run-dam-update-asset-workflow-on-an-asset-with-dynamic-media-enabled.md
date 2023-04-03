@@ -13,4 +13,4 @@ exl-id: 4e55d3fe-68fd-4d41-a4b1-e73290e0934b
 
 This video walks through the process to run DAM Update Asset workflow on an asset with Dynamic Media enabled.
 
->[!VIDEO](https://video.tv.adobe.com/v/335456?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335456?quality=12&learn=on)

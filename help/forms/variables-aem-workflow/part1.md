@@ -34,13 +34,13 @@ The adaptive form data is stored under the data element as shown above. **_In th
 
 ## Creating XML Variables
 
->[!VIDEO](https://video.tv.adobe.com/v/26440?quality=12?autoplay=1)
+>[!VIDEO](https://video.tv.adobe.com/v/26440?quality=12&learn=on)
 
 ### Using Schema with XML Variable
 
 **Mapping a XML variable with schema. Use this capability with AEM Forms 6.5.1 onwards**
 
->[!VIDEO](https://video.tv.adobe.com/v/28098?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28098?quality=12&learn=on)
 
 #### Using the variable in send email
 

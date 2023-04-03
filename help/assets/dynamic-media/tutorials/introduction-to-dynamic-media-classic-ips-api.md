@@ -13,4 +13,4 @@ exl-id: ef4fd51c-975a-400c-8427-555b77897a09
 
 This video walks through the Dynamic Media classic IPS APIs.
 
->[!VIDEO](https://video.tv.adobe.com/v/335453?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335453?quality=12&learn=on)

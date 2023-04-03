@@ -31,13 +31,13 @@ Android is used for tutorial due to the ability to run an Android Emulator on Wi
 
 ## Mobile App demonstration
 
->[!VIDEO](https://video.tv.adobe.com/v/28345/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28345?quality=12&learn=on)
 
 ### Configuring the Mobile App for non-localhost use
 
 If AEM Publish is not being run on **http://localhost:4503** the host and port can be updated in the Mobile App's [!DNL Settings] to point to the property AEM Publish host/port.
 
->[!VIDEO](https://video.tv.adobe.com/v/28344/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28344?quality=12&learn=on)
 
 ## Running the Mobile App locally
 
@@ -70,7 +70,7 @@ If AEM Publish is not being run on **http://localhost:4503** the host and port c
     * To refresh the content from AEM, pull down from the top until the Refresh icon 
     displays, and release.
 
->[!VIDEO](https://video.tv.adobe.com/v/28341/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28341?quality=12&learn=on)
 
 ## The Mobile App Code
 

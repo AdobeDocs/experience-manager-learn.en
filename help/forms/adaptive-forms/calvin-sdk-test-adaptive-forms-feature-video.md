@@ -13,7 +13,7 @@ last-substantial-update: 2020-09-10
 
 AEM 6.3 Forms introduces the capability to let users create test cases within AEM for Adaptive Forms using Calvin SDK built on top of the hobbes.js framework.
 
->[!VIDEO](https://video.tv.adobe.com/v/19700/)
+>[!VIDEO](https://video.tv.adobe.com/v/19700?quality=12&learn=on)
 
 >[!NOTE]
 >

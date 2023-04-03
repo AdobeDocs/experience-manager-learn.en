@@ -20,4 +20,4 @@ exl-id: 2ddd241a-0e8a-4397-8006-6f807be4fb12
 
 Explore any compilation errors in your code and whether or not this code follows best practices for AEM as a Cloud Service
 
->[!VIDEO](https://video.tv.adobe.com/v/330540/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330540?quality=12&learn=on)

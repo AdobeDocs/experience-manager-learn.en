@@ -15,4 +15,4 @@ exl-id: 5e423f2c-90d2-474f-8bdc-fa15ae976f18
 
 Auto-start workflows extend asset processing in AEM as a Cloud Service by automatically invoking custom workflow upon upload or re-processing.
 
->[!VIDEO](https://video.tv.adobe.com/v/37323/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/37323?quality=12&learn=on)

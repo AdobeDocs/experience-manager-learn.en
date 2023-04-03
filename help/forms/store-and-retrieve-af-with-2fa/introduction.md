@@ -24,7 +24,7 @@ This tutorial will walk you through the steps involved in saving and retrieving 
 
 ## Demonstration of the use case
 
->[!VIDEO](https://video.tv.adobe.com/v/327122?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/327122?quality=12&learn=on)
 
 ## Prerequisites
 

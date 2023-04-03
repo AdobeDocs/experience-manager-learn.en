@@ -13,4 +13,4 @@ exl-id: 0fd4d366-bb7a-4c43-887f-3a83cf60d15b
 
 This video walks through the process of creating video profile to process videos in Dynamic Media.
 
->[!VIDEO](https://video.tv.adobe.com/v/335382?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335382?quality=12&learn=on)

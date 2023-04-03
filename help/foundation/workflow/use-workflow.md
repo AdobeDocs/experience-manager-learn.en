@@ -14,7 +14,7 @@ exl-id: 5a6bf1f2-1dd5-40b4-8ceb-03672a36869d
 
 AEM Workflow provides a way to collaborate, manage, and process content in AEM.
  
- >[!VIDEO](https://video.tv.adobe.com/v/27848/?quality=12&learn=on)
+ >[!VIDEO](https://video.tv.adobe.com/v/27848?quality=12&learn=on)
 
  >[!NOTE]
  >

@@ -14,7 +14,7 @@ exl-id: e95e7530-100d-4495-abae-4c568e7978b3
 
 A quick example of how you can use the dispatcher validator in your AEM development workflows.
 
->[!VIDEO](https://video.tv.adobe.com/v/342358)
+>[!VIDEO](https://video.tv.adobe.com/v/342358?quality=12&learn=on)
 
 ## Content covered in this video
 

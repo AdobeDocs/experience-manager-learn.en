@@ -30,7 +30,7 @@ This video series covers the delivery options for using Content Fragments. Detai
 
 ## Using Content Fragments in Web pages {#using-content-fragments-in-web-pages}
 
->[!VIDEO](https://video.tv.adobe.com/v/22449/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22449?quality=12&learn=on)
 
 Content Fragments can be used on AEM Sites pages, or in a similar fashion, Experience Fragments, using the AEM WCM Core Components' [Content Fragment component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/content-fragment-component.html).
 
@@ -38,7 +38,7 @@ Content Fragment components can be styled using AEM's Style System to display th
 
 ## Exposing Content Fragments as JSON {#exposing-content-fragments-as-json}
 
->[!VIDEO](https://video.tv.adobe.com/v/22448/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22448?quality=12&learn=on)
 
 AEM Content Services facilitates the creation of AEM Page-based HTTP end-points that rendition content into a normalized JSON format.
 
@@ -49,7 +49,7 @@ The above video uses the [Content Fragment Component](https://experienceleague.a
 
 ## Using the Assets HTTP API
 
->[!VIDEO](https://video.tv.adobe.com/v/26390/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26390?quality=12&learn=on)
 
 First introduced in AEM 6.5, is enhanced support for Content Fragments with the Assets HTTP API. This provides an easy way for developers to perform Create, Read, Update, and Delete (CRUD) operations against Content Fragments.
 

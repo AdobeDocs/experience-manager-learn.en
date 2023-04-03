@@ -14,4 +14,4 @@ exl-id: 60f34070-be1f-4621-b697-4df12eaccfe3
 
 *This video walks through the steps to investigate SAML related issues in AEM.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335466?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335466?quality=12&learn=on)

@@ -15,4 +15,4 @@ In Part1 we will create Adaptive Form based on the template created in the earli
 
 **Create your first Adaptive Form**
 
->[!VIDEO](https://video.tv.adobe.com/v/22173/quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22173?quality=12&learn=on)

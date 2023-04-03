@@ -14,4 +14,4 @@ exl-id: 6ccb3053-c28e-4c23-8fc0-e188b3873c36
 
 *This video walks through the process to enable performance Logging in AEM Forms to debug issues related to Forms & output service .*
 
->[!VIDEO](https://video.tv.adobe.com/v/335499?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335499?quality=12&learn=on)

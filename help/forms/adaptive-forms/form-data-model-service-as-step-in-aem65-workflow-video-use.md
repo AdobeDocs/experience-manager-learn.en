@@ -17,7 +17,7 @@ Starting with AEM Forms 6.4, we now have the ability to use Form Data Model Serv
 >![NOTE]The capability demonstrated in this video requires AEM Forms 6.5.1
 
 
->[!VIDEO](https://video.tv.adobe.com/v/28145?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28145?quality=12&learn=on)
 
 To test this capability on your server, follow the below instructions
 

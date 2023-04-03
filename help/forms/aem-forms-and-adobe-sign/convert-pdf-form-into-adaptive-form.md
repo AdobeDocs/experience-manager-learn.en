@@ -15,4 +15,4 @@ AEM Forms Automated Forms Conversion service, powered by Adobe Sensei, automatic
 
 The following video explains the steps needed to convert PDF form into Adaptive Form using Automated Forms Conversion Service
 
->[!VIDEO](https://video.tv.adobe.com/v/39495/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/39495?quality=12&learn=on)

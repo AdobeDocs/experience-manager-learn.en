@@ -13,4 +13,4 @@ exl-id: 090bba8d-3f1c-4370-9bc6-29bf0573bb77
 
 *This video walks through the steps to purge process records from the Job Manager.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335577?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335577?quality=12&learn=on)

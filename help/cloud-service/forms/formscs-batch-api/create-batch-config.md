@@ -18,7 +18,7 @@ To use a batch API, create a batch configuration and execute a run based on that
 >Please make sure the AEM user belongs to ```forms-users``` group to make API calls.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340241/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340241?quality=12&learn=on)
 
 ## Create Batch Configuration
 

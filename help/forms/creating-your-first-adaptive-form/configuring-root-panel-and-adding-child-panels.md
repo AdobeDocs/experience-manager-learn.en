@@ -15,4 +15,4 @@ exl-id: a68c41b8-3e80-4b25-a933-9ceb8aee1e01
 When adding child panels to the root panel, please **Make sure you are in the edit mode. The edit button is located on the top right-hand side of the browser.**
 
 
->[!VIDEO](https://video.tv.adobe.com/v/28536?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28536?quality=12&learn=on)

@@ -13,4 +13,4 @@ Or-Split component is used to do routing in AEM Workflow. Prior to AEM 6.5 relea
 
 The following video will demonstrate the ability to use the rule editor to do conditional processing in your AEM workflow
 
->[!VIDEO](https://video.tv.adobe.com/v/26362/quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/26362?quality=12&learn=on)

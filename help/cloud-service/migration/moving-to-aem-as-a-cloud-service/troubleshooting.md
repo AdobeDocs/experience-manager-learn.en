@@ -13,4 +13,4 @@ exl-id: 905d8be5-ae79-4a25-aaf9-ed7ddb168acb
 
 Learn how to troubleshoot and debug the AEM SDK, AEM as a Cloud Service and, the build and deploy process.
 
->[!VIDEO](https://video.tv.adobe.com/v/336964/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336964?quality=12&learn=on)

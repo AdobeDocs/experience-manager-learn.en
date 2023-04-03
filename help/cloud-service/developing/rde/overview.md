@@ -20,7 +20,7 @@ This video outline:
 - What are RDEs?
 - How they help for faster development to deployment cycles?
 
->[!VIDEO](https://video.tv.adobe.com/v/3414128/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414128?quality=12&learn=on)
 
 ## Next Step
 

@@ -15,4 +15,4 @@ exl-id: c0a875bd-55b6-4f63-a58d-eecb62ae703b
 
 Create a REST backed data source using the swagger file created in the earlier step
 
->[!VIDEO](https://video.tv.adobe.com/v/331755/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/331755?quality=12&learn=on)

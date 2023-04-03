@@ -13,4 +13,4 @@ exl-id: 92bf6bad-4dc0-44aa-9af4-54a3a9088643
 
 *This video walks through the steps to enable debug logging for any classes in AEM Forms OSGi.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335521?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335521?quality=12&learn=on)

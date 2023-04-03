@@ -14,7 +14,7 @@ exl-id: 12d8c0c6-c556-49f4-a6fe-84fccfccf95e
 
 Timewarp is a feature of Adobe Experience Manager Sites that provides authors with a quick way to review the state of a page at specific time in the past.
 
->[!VIDEO](https://video.tv.adobe.com/v/17453/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17453?quality=12&learn=on)
 
 ## More Resources {#more-resources}
 

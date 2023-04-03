@@ -25,7 +25,7 @@ After enabling the front-end pipeline to only deploy the front-end resources in 
 
 ## Local development considerations
 
->[!VIDEO](https://video.tv.adobe.com/v/3409421/)
+>[!VIDEO](https://video.tv.adobe.com/v/3409421?quality=12&learn=on)
 
 
 ## Adjusted development approach

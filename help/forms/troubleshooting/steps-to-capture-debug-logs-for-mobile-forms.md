@@ -14,4 +14,4 @@ exl-id: 0fdfa72d-0e96-4389-86b4-826c37d64982
 
 *This video walks through the steps to capture debug logs for mobile forms.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335516?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335516?quality=12&learn=on)

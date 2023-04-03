@@ -15,7 +15,7 @@ Adobe Experience Manager (AEM) Assets lets you identify assets that share common
 
 ## Multisite Asset Source File Management {#multisite-asset-source-file-management}
 
->[!VIDEO](https://video.tv.adobe.com/v/18331/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/18331?quality=12&learn=on)
 
 Related Assets helps users to manage better, cross-link assets with shared traits, properties and streamline workflows:
 

@@ -17,7 +17,7 @@ Learn about the development/deployment life cycle using RDE and how it delivers 
 
 The below video explores the RDE-based development-through-deployment life cycle. The video outlines key subtasks and development flow for the efficient use of the RDE.
 
->[!VIDEO](https://video.tv.adobe.com/v/3415492/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3415492?quality=12&learn=on)
 
 
 ## Benefits of RDE
@@ -30,7 +30,7 @@ The key benefits of RDE to keep the development momentum.
 - Improved collaboration
 - Increased productivity
 
->[!VIDEO](https://video.tv.adobe.com/v/3415493/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3415493?quality=12&learn=on)
 
 ## Additional resources
 

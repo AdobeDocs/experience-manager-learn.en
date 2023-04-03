@@ -16,4 +16,4 @@ exl-id: fac57513-c5e4-4497-bcb6-9ed3094baa5b
 
 Capture the applicant's assets using repeatable panel with an Accordion layout .
 
->[!VIDEO](https://video.tv.adobe.com/v/336473?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336473?quality=12&learn=on)

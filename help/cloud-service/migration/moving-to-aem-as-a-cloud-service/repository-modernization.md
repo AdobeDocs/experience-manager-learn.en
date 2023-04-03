@@ -14,7 +14,7 @@ exl-id: e9bd9035-1f2d-4a34-a581-9c1ec2c7bc04
 
 Learn about repository modernization, mutable and immutable content, package structure and the repository modernizer CLI tool.
 
->[!VIDEO](https://video.tv.adobe.com/v/336958/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336958?quality=12&learn=on)
 
 ## Repository Modernizer Tool
 
