@@ -17,7 +17,7 @@ exl-id: cc758602-3c20-4eca-9b87-f04b6dc96bfe
 
 Building blocks are a subfeature of Experience Fragments. Building blocks enable content authors to reuse components across different variations of Experience Fragments.
 
->[!VIDEO](https://video.tv.adobe.com/v/331786/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/331786?quality=12&learn=on)
 
 >[!NOTE]
 >

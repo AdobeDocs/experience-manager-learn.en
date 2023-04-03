@@ -32,7 +32,7 @@ The functional flow of the example extension is as follows:
 
 This video reviews the example bulk property update extension, how it works and how it is developed.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412296/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412296?quality=12&learn=on)
 
 ## The App Builder extension app
 

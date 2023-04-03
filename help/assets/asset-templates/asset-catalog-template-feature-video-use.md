@@ -11,7 +11,7 @@ exl-id: 45daa8e3-ce3b-43de-b3d6-276107215dd4
 
 AEM 6.4 Catalog enhancement provides the capability to create catalog pages using AEM Asset Templates and InDesign Server.  A user can create a catalog page using the InDesign template and map product properties to editable fields, which can be later used to create similar pages for different products.
 
->[!VIDEO](https://video.tv.adobe.com/v/22540/)
+>[!VIDEO](https://video.tv.adobe.com/v/22540?quality=12&learn=on)
 
 >[!NOTE]
 >

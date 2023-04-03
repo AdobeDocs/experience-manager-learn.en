@@ -13,4 +13,4 @@ exl-id: 78664b38-b64a-4220-bb7a-83f09bdd441a
 
 *This video walks through the steps to enable the download of renditions in the Brand Portal.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335449?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335449?quality=12&learn=on)

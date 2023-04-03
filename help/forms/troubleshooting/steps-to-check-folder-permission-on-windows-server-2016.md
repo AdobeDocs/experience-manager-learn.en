@@ -14,4 +14,4 @@ exl-id: ec94ea5d-6f65-4c16-af63-d7c7766fe5f6
 
 *This video walks through the additional steps to check Folder Permission in Windows Server 2016.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335519?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335519?quality=12&learn=on)

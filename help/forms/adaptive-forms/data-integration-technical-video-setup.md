@@ -13,7 +13,7 @@ last-substantial-update: 2021-02-09
 
 Setting up data connection to an JDBC data source
 
->[!VIDEO](https://video.tv.adobe.com/v/17724/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17724?quality=12&learn=on)
 
 >[!NOTE]
 >

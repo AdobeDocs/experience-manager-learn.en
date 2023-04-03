@@ -14,4 +14,4 @@ Variables of type document are used to store Document of Record,Adaptive Form at
 
 This video will highlight the use of document type variable to store the generated DoR and then use the document variable in send e-mail step of an AEM Workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/26452)
+>[!VIDEO](https://video.tv.adobe.com/v/26452?quality=12&learn=on)

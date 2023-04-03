@@ -33,7 +33,7 @@ A related [multi-step tutorial](https://experienceleague.adobe.com/docs/experien
 
 ## Overview, benefits, and considerations for front-end pipeline
 
->[!VIDEO](https://video.tv.adobe.com/v/3409343/)
+>[!VIDEO](https://video.tv.adobe.com/v/3409343?quality=12&learn=on)
           
 
 >[!NOTE]

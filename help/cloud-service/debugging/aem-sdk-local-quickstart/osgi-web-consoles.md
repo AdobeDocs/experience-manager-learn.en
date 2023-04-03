@@ -21,7 +21,7 @@ AEM provides many OSGi consoles, each providing key insights into different aspe
 
 ## Bundles
 
->[!VIDEO](https://video.tv.adobe.com/v/34335/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/34335?quality=12&learn=on)
 
 The Bundles console is a catalog of the OSGi bundles, and their details, deployed to AEM, along with the ad hoc ability to start and stop them.
 
@@ -38,7 +38,7 @@ Clicking into each bundle, provides details that help with the debugging your ap
 
 ## Components
 
->[!VIDEO](https://video.tv.adobe.com/v/34336/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/34336?quality=12&learn=on)
 
 The Components console is a catalog of all the OSGi components deployed to AEM, and provides a all information about them, from their defined OSGi component life cycle, to what OSGi services they may reference to 
 
@@ -57,7 +57,7 @@ Key aspects that help with the debugging activities:
 
 ## Sling Models
 
->[!VIDEO](https://video.tv.adobe.com/v/34337/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/34337?quality=12&learn=on)
 
 The Sling Models console is located at:
 

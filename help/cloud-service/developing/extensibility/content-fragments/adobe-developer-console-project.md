@@ -17,6 +17,6 @@ thumbnail: 3412875.jpeg
 
 Create a Adobe Developer Console project that defines it's access to other Adobe services, and manages its deployments.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412875/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412875?quality=12&learn=on)
 
 See the Adobe Developer documentation for a [detailed walk-through of creating an Adobe Developer Console project](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/#create-a-project-in-adobe-developer-console).

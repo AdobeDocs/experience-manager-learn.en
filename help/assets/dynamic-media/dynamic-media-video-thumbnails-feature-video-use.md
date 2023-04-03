@@ -12,11 +12,11 @@ exl-id: da3190bb-f350-420f-bf24-a6dede296efa
 
 AEM Assets custom video thumbnails provide authors with the ability to select an appropriate thumbnail from a set of generated thumbnails. The number of thumbnails generated for a video can be easily customized.
 
->[!VIDEO](https://video.tv.adobe.com/v/16467/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16467?quality=12&learn=on)
 
 ## Customizing Video Thumbnail
 
->[!VIDEO](https://video.tv.adobe.com/v/18867/)
+>[!VIDEO](https://video.tv.adobe.com/v/18867?quality=12&learn=on)
 
 >[!NOTE]
 >

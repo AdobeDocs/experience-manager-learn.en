@@ -16,6 +16,6 @@ A brief guide to getting Asset Share Commons running on a local AEM instance.
 >
 >Asset Share Commons requires a minimum of AEM 6.3 with Service Pack 1 (SP1) installed.
 
->[!VIDEO](https://video.tv.adobe.com/v/20499/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/20499?quality=12&learn=on)
 
 A brief video walk-through of download and installing Asset Share Commons along with its sample content on a local AEM instance.

@@ -22,6 +22,6 @@ exl-id: 1f4d88ad-ace1-4f78-be40-da80b3b4d40c
 
 In this part, we will create a REST backed data source.  The following video walks thru the steps to create the data source.
 
->[!VIDEO](https://video.tv.adobe.com/v/27765/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27765?quality=12&learn=on)
 
 Please use the swagger file provided to you as part of the assets related to this tutorial. The assets are available in [introduction](introduction.md) of this tutorial.

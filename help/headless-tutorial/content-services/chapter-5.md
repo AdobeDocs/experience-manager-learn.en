@@ -26,7 +26,7 @@ Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templat
     1. Tap **Create** in the top action bar to create the page
     1. Tap **Done** to return to the AEM Sites admin
 
->[!VIDEO](https://video.tv.adobe.com/v/28340/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28340?quality=12&learn=on)
 
 ## Authoring the Events API Page
 
@@ -51,7 +51,7 @@ Chapter 5 of the AEM Headless tutorial covers creating the Page from the Templat
     1. Set the following configuration on the **Elements** tab:
         * Remove any listed elements, to ensure ALL elements of the Event Content Fragments are exposed.
 
->[!VIDEO](https://video.tv.adobe.com/v/28339/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28339?quality=12&learn=on)
 
 ## Review the JSON output of the API page
 

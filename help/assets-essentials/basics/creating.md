@@ -15,4 +15,4 @@ exl-id: 18e600b6-bc4f-4045-a932-ed72d4ed3ef3
 
 Learn how to upload assets, create versions and even edit assets using Adobe Photoshop Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/335746/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335746?quality=12&learn=on)

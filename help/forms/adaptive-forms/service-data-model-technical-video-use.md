@@ -13,4 +13,4 @@ last-substantial-update: 2021-06-09
 
 The AEM Adaptive Forms' rule editor can leverage the Services created in the Form Data Model.
 
->[!VIDEO](https://video.tv.adobe.com/v/17739/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17739?quality=12&learn=on)

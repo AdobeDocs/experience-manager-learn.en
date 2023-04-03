@@ -21,8 +21,8 @@ The following screenshot shows you the computed elements StateaandZip and monthl
 
 ## Creating monthly salary computed element
 
->[!VIDEO](https://video.tv.adobe.com/v/23855?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/23855?quality=12&learn=on)
 
 ### Creating StateandZip computed element
 
->[!VIDEO](https://video.tv.adobe.com/v/23856/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/23856?quality=12&learn=on)

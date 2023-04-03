@@ -18,7 +18,7 @@ exl-id: 0cefc336-2a46-4a11-a734-ba1cb63c5cbe
 
 The Content Transfer Tool is the recommended way to migrate content from an on-premise or AMS hosted version of AEM to an AEM as a Cloud Service environment.
 
->[!VIDEO](https://video.tv.adobe.com/v/35460/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/35460?quality=12&learn=on)
 
 ## Additional Resources {#additional-resources}
 

@@ -21,7 +21,7 @@ last-substantial-update: 2019-06-09
 
 The rule editor enables users to add logic to AEM Adaptive Forms. AEM 6.3 improves the rule editor in several ways making it easier and faster for both technical and non-technical users alike to add intelligence.
 
->[!VIDEO](https://video.tv.adobe.com/v/19653?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/19653?quality=12&learn=on)
 
 **Some of the improvements to the Rule Editor include:**
 

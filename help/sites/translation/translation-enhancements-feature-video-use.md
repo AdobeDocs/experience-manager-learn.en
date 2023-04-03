@@ -14,7 +14,7 @@ AEM's robust translation framework allows AEM content to be seamlessly translate
 
 ## Translation Enhancements in AEM 6.5
 
->[!VIDEO](https://video.tv.adobe.com/v/27405?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27405?quality=12&learn=on)
 
 AEM 6.5 translation enhancements includes:
 
@@ -28,7 +28,7 @@ AEM 6.5 translation enhancements includes:
 
 ## Translation Enhancements in AEM 6.4
 
->[!VIDEO](https://video.tv.adobe.com/v/21309?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/21309?quality=12&learn=on)
 
 Authors can now quickly and easily create multi-language translation projects directly from either the Sites admin or the Projects admin, set up those projects to automatically promote launches, and even set schedules for automation.
 

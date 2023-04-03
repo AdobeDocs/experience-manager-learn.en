@@ -14,4 +14,4 @@ exl-id: 3c1a1c09-caae-4b10-94f2-12ab4531dd5a
 
 *This video walks through the process of running and interpretting output of AEM Forms PDFG System Readiness Tool (SRT).*
 
->[!VIDEO](https://video.tv.adobe.com/v/335543?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335543?quality=12&learn=on)

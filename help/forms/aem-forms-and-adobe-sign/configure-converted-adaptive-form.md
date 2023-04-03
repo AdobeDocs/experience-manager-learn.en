@@ -15,4 +15,4 @@ After you convert PDF form into Adaptive Form, you will typically need to make p
 
 The following video explains the steps needed to configure the form for in place signing experience
 
->[!VIDEO](https://video.tv.adobe.com/v/39574/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/39574?quality=12&learn=on)

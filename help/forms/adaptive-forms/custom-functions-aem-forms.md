@@ -86,4 +86,4 @@ If you are having trouble in creating the custom functions, feel free to [downlo
 ## Using the custom functions
 
 The following video walks you through the steps involved in using custom function in the rule editor of an adaptive form
->[!VIDEO](https://video.tv.adobe.com/v/340305?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340305?quality=12&learn=on)

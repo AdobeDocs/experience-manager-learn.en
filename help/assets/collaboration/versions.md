@@ -15,4 +15,4 @@ exl-id: 55f655fa-5091-4382-ad46-a6f7cee92f76
 
 Explore how AEM creates and maintains asset versions.
 
->[!VIDEO](https://video.tv.adobe.com/v/32052/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/32052?quality=12&learn=on)

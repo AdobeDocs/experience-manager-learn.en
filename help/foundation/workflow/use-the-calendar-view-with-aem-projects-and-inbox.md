@@ -20,7 +20,7 @@ level: Beginner
 
 AEM's Calendar View tracks projects and tasks in a calendar view for easier project management and scheduling. With Calendar view, user would have an overall visibility over projects and tasks that are currently in progress, planned, due soon and past due. 
 
->[!VIDEO](https://video.tv.adobe.com/v/16804/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16804?quality=12&learn=on)
 
 Calendar View helps to manage projects and tasks better with the following capabilities:
 

@@ -12,4 +12,4 @@ exl-id: 2a27d8bc-ee7b-4d13-8512-8f3dc1eb8f13
 
 AEM Assets' now has the capability to create interactive videos, where users can split a video into smaller segments or combine small segments to create a large segment, thereby allowing users to associate call-to-action.
 
->[!VIDEO](https://video.tv.adobe.com/v/16516/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16516?quality=12&learn=on)

@@ -17,7 +17,7 @@ exl-id: 84d2b240-5ecc-4230-97a0-6c2faead8d1a
 
 Experience Fragments enables content authors to reuse content across channels including Sites pages and third-party systems.
 
->[!VIDEO](https://video.tv.adobe.com/v/331785/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/331785?quality=12&learn=on)
 
 An Experience Fragment is a grouped set of components that when combined creates an experience. For example, a *Title*, *Image*, *Description*, and *Call To Action Button* can be combined to form a teaser experience.
 

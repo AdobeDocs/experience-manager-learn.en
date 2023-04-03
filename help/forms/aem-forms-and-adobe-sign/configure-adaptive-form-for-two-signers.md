@@ -13,7 +13,7 @@ exl-id: 5d450605-31bb-4c2e-a500-e9219f55b7c7
 
 The video explains the various steps needed to configure an adaptive form with 2 signers.
 
->[!VIDEO](https://video.tv.adobe.com/v/39294/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/39294?quality=12&learn=on)
 
 Assets related to this video can be downloaded from the following links
 

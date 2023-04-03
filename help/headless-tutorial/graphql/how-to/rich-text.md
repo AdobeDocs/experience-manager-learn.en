@@ -17,7 +17,7 @@ AEM's GraphQL API offers a robust capability to return rich text as HTML, plain 
 
 ## Multi-line editor
 
->[!VIDEO](https://video.tv.adobe.com/v/342104/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342104?quality=12&learn=on)
 
 In the Content Fragment Editor, the multi-line text field's menu bar provides authors with standard rich text formatting capabilities, such as **bold**, *italics*, and underline. Opening the multi-line field in full screen mode enables [additional formatting tools like Paragraph type, find and replace, spell check, and more](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html).
 
@@ -531,7 +531,7 @@ A full example of writing a custom references renderer can be found in [Adventur
 
 ## End-to-End example
 
->[!VIDEO](https://video.tv.adobe.com/v/342105/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342105?quality=12&learn=on)
 
 The preceding video shows an end-to-end example:
 

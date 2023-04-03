@@ -13,4 +13,4 @@ exl-id: 2defc3ca-0cdc-4e12-9c73-4fa1a6347b1b
 
 This video walks through the process of creating Image Sets with AEM Dynamic Media.
 
->[!VIDEO](https://video.tv.adobe.com/v/335581?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335581?quality=12&learn=on)

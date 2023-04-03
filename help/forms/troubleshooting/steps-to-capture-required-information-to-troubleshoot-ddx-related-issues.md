@@ -14,4 +14,4 @@ exl-id: 88972dcc-8c0b-4ff3-aab7-6a3ebc173a8b
 
 *This video walks through the steps to capture the required information to troubleshoot DDX related issues in Forms Assembler service.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335517?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335517?quality=12&learn=on)

@@ -13,4 +13,4 @@ exl-id: 10b9b5cd-752a-464b-b38b-c73fb31921fc
 
 *This video walks through the steps to generate a self signed certificate.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335539?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335539?quality=12&learn=on)

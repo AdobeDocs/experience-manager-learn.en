@@ -12,7 +12,7 @@ exl-id: 7be8c3d5-b944-4421-97b3-bd5766c1b1b5
 
 Smart Translation Search allows the use of non-English search terms to resolve to English content. To set up AEM for Smart Translation Search, the Apache Oak Search Machine Translation OSGi bundle must be installed and configured, as well as the pertinent free and open source Apache Joshua language packs that contain the translation rules.
 
->[!VIDEO](https://video.tv.adobe.com/v/21291/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/21291?quality=12&learn=on)
 
 >[!NOTE]
 >

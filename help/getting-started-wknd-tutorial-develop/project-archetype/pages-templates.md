@@ -66,7 +66,7 @@ In this part of the tutorial, you build a new Article Page Template that can be 
 
 Usually, planning for a new website starts with mockups and static designs. [Adobe XD](https://helpx.adobe.com/support/xd.html) is a design tool building user experience. Next let's inspect a UI Kit and mockups to help plan the structure of the Article Page Template.
 
->[!VIDEO](https://video.tv.adobe.com/v/30214/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/30214?quality=12&learn=on)
 
 **Download the [WKND Article Design File](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND-article-design.xd)**.
 
@@ -86,7 +86,7 @@ There are three main areas of [Editable Templates](https://experienceleague.adob
 
 Next, create a template in AEM that matches the structure of the mockups. This occurs in a local instance of AEM. Follow the steps in the video below:
 
->[!VIDEO](https://video.tv.adobe.com/v/330991/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330991?quality=12&learn=on)
 
 High-level steps for the video above:
 
@@ -154,7 +154,7 @@ A common practice when creating global content, such as a header or footer, is t
 
 The AEM Project Archetype generated a Header and Footer. Next, update the Experience Fragments to match the mockups. Follow the steps in the video below:
 
->[!VIDEO](https://video.tv.adobe.com/v/330992/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330992?quality=12&learn=on)
 
 High-level steps for the video above:
 
@@ -200,7 +200,7 @@ High-level steps for the video above:
 
 Next, create a page using the Article Page template. Author the content of the page to match the site mockups. Follow the steps in the video below:
 
->[!VIDEO](https://video.tv.adobe.com/v/330993/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330993?quality=12&learn=on)
 
 High-level steps for the video above:
 

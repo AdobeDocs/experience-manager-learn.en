@@ -14,4 +14,4 @@ exl-id: 7480f507-29b3-4313-8a85-e207a17fb4e4
 
 *This video walks through the process of troubleshooting acrobat specific issues on a Windows setup for AEM Forms PDFG.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335480?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335480?quality=12&learn=on)

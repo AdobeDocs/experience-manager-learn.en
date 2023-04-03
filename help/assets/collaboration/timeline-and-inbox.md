@@ -16,4 +16,4 @@ exl-id: 868dc44b-23ca-4e52-a0bc-229480cfae10
 
 Familiarize yourself with the key web consoles in AEM Assets that are used for collaboration.
 
->[!VIDEO](https://video.tv.adobe.com/v/32051/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/32051?quality=12&learn=on)

@@ -22,7 +22,7 @@ This video shows:
 - Setup of [Adobe I/O Runtime Extensible CLI](https://developer.adobe.com/runtime/docs/guides/tools/cli_install/) also known as the `aio CLI` 
 - Setup and configuration of AEM RDE and Cloud Manager `aio CLI` plugin
 
->[!VIDEO](https://video.tv.adobe.com/v/3415490/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3415490?quality=12&learn=on)
 
 ## Prerequisite 
 

@@ -20,4 +20,4 @@ exl-id: 8fd8eb06-bbd9-489a-b41b-f8785e140f58
 
 Understand best practices and continuous integration using Adobe Cloud Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/330536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330536?quality=12&learn=on)

@@ -15,4 +15,4 @@ exl-id: 9d11156d-1ea4-42a6-8e0d-cbc4aae4e34c
 
 Defining baseline folders in AEM Assets helps establish a solid content architecture and foundation for your digital asset management. 
 
->[!VIDEO](https://video.tv.adobe.com/v/33496/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/33496?quality=12&learn=on)

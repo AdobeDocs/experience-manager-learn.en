@@ -16,6 +16,6 @@ exl-id: 40d76e0c-69f3-4003-9f34-f393e6fb8561
 
 Learn how to configure Workfront and AEM Assets to manage and sync asset metadata using Workfront custom forms, and AEM metadata schemas.
 
->[!VIDEO](https://video.tv.adobe.com/v/340332/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340332?quality=12&learn=on)
 
 _Part two of a [four part expert series on the Workfront for Experience Manager enhanced connector](./overview.md)_

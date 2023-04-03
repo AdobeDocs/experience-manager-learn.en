@@ -14,4 +14,4 @@ exl-id: 9e221aa8-d43e-4832-8233-a6cb1b41cc60
 
 An quick look at an AEM Maven project's structure and sub-projects and what they're used for.
 
->[!VIDEO](https://video.tv.adobe.com/v/334280/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/334280?quality=12&learn=on)

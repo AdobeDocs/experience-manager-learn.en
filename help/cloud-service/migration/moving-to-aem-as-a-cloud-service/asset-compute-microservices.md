@@ -14,7 +14,7 @@ exl-id: 327e8663-086b-4b31-b159-a0cf30480b45
 
 Learn how AEM Assets as a Cloud Service's asset compute microservices allow you to automatically and efficiently generate any rendition for your assets, replacing this role of traditional AEM Workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/336990/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336990?quality=12&learn=on)
 
 ## Workflow Migration Tool
 

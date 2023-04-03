@@ -18,4 +18,4 @@ Learn how to integrate Assets Essentials with Adobe Creative Cloud Libraries, al
 + Files from Assets Essentials to be seamlessly accessed via Creative Cloud Libraries
 + Files from Creative Cloud Libraries to be shared to Assets Essentials
 
->[!VIDEO](https://video.tv.adobe.com/v/336069/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336069?quality=12&learn=on)

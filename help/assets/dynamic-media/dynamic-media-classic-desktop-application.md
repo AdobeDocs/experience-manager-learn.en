@@ -14,7 +14,7 @@ exl-id: 1600c0c0-0054-49ce-9b99-f8e6e29d6132
 
 Adobe introduces a desktop application for Dynamic Media Classic that provides a similar experience to a browser and a functionally equivalent interface that does not depend on Adobe Flash player.
 
->[!VIDEO](https://video.tv.adobe.com/v/36645/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/36645?quality=12&learn=on)
 
 >[!NOTE]
 >

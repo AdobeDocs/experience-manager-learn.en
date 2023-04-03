@@ -14,4 +14,4 @@ exl-id: 7715bf31-9f7c-4ff9-828f-a1b16e35fda7
 
 *This video walks through the process to enable debug output for Workbench .*
 
->[!VIDEO](https://video.tv.adobe.com/v/335497?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335497?quality=12&learn=on)

@@ -17,7 +17,7 @@ exl-id: cc659581-031d-4f2a-90c1-cf721e481689
 
 Page versioning helps content authors to track changes associated with a page by creating a page version and provides an option to preview a version, restore a version, and compare a version with the current version of a page.
 
->[!VIDEO](https://video.tv.adobe.com/v/32151?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/32151?quality=12&learn=on)
 
 Versioning creates a snapshot of a page at a specific point in time. With versioning, you can perform the following actions:
 * Create a new version for a page

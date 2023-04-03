@@ -20,7 +20,7 @@ exl-id: 9c139a36-e3c5-407e-af5d-b4fb8860f5a2
 
 Adobe Experience Manager 6.4 reimagines the personalization workflow between AEM and Target. Experiences created within AEM can now be delivered directly to Adobe Target as HTML Offers. It allows Marketers to seamlessly test and personalize content across different channels.
 
->[!VIDEO](https://video.tv.adobe.com/v/22380/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22380?quality=12&learn=on)
 
 >[!NOTE]
 >

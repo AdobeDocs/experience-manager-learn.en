@@ -16,7 +16,7 @@ thumbnail: 3416906.jpeg
 
 AEM Headless applications support integrated authoring preview. The preview experience links the AEM Author's Content Fragment editor with your custom app (addressable via HTTP), allowing for a deep link into the app that renders the Content Fragment being previewed.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416906/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416906?quality=12&learn=on)
 
 To use Content Fragment preview, several conditions must be satisfied:
 

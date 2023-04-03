@@ -32,7 +32,7 @@ This is a multi-part tutorial and it is assumed that the steps outlined in the [
 
 Next, make changes to the theme sources so that the site matches the look and feel of the WKND Brand.
 
->[!VIDEO](https://video.tv.adobe.com/v/332918/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/332918?quality=12&learn=on)
 
 High level steps for the video:
 
@@ -49,7 +49,7 @@ Download the finished styles for the [WKND Sample Theme](assets/theming/WKND-THE
 
 Deploy updates to a theme to an AEM environment using Cloud Manager's Front End Pipeline.
 
->[!VIDEO](https://video.tv.adobe.com/v/338722/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/338722?quality=12&learn=on)
 
 High level steps for the video:
 

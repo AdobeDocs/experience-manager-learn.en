@@ -17,11 +17,11 @@ Learn how to use the import and export metadata features of Adobe Experience Man
 
 ## Metadata Export {#metadata-export}
 
->[!VIDEO](https://video.tv.adobe.com/v/22132/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22132?quality=12&learn=on)
 
 ## Metadata Import {#metadata-import}
 
->[!VIDEO](https://video.tv.adobe.com/v/21374/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/21374?quality=12&learn=on)
 
 >[!NOTE]
 >

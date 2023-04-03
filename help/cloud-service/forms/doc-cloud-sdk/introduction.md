@@ -15,4 +15,4 @@ exl-id: dbff8764-67d5-43fa-bd41-918c638a9afa
 
 Introduction to the use case for integrating Adobe Experience Manager Forms as a Cloud Service and Document Cloud APIs.
 
->[!VIDEO](https://video.tv.adobe.com/v/333241/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/333241?quality=12&learn=on)

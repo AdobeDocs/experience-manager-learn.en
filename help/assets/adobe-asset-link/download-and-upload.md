@@ -14,4 +14,4 @@ exl-id: dc69a95c-ab0b-4a2c-80a3-43a6a052c545
 
 Learn how to download and upload asset files from and to AEM Assets using the Asset Link panel.
 
->[!VIDEO](https://video.tv.adobe.com/v/33885/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33885?quality=12&learn=on)

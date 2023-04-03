@@ -19,7 +19,7 @@ Learn about OSGi component lifecycle, including how to bind an OSGi service to t
 
 ...lifecycle events.
 
->[!VIDEO](https://video.tv.adobe.com/v/335475/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335475?quality=12&learn=on)
 
 ## Resources
 

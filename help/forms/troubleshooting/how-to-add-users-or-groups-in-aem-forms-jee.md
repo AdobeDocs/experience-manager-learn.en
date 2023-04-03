@@ -13,4 +13,4 @@ exl-id: 595252dd-a882-4faa-938b-7aeb5a383056
 
 *This video walks through the process of adding users and groups in User Management.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335485?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335485?quality=12&learn=on)

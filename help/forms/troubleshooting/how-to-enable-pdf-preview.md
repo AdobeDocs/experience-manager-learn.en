@@ -14,4 +14,4 @@ exl-id: 0d5fb8d1-5aa2-40c7-b1c9-e4b5319e8d36
 
 *This video walks through the steps to enable preview PDF in Designer.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335500?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335500?quality=12&learn=on)

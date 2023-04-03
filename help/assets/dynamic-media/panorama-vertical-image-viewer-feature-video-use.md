@@ -12,7 +12,7 @@ exl-id: 6b2f7533-8ce0-4134-b1ae-b3c5d15a05e6
 
 Dynamic Media Viewer enhancements in AEM 6.4 includes the addition of Panoramic Image Viewer, Panoramic Virtual Reality Image Viewer, and Vertical Image Viewer. Panoramic Viewer provides an easy way to deliver an engaging, immersive experience of the room, property, location or landscape without any custom development.
 
->[!VIDEO](https://video.tv.adobe.com/v/24156/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/24156?quality=12&learn=on)
 
 >[!NOTE]
 >

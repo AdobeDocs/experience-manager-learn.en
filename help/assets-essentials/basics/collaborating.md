@@ -15,4 +15,4 @@ exl-id: 0de60565-1a73-4642-a3b9-1625e25ea2dc
 
 Learn how to collaborate on asset management using comments, annotations and tasks.
 
->[!VIDEO](https://video.tv.adobe.com/v/335856/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335856?quality=12&learn=on)

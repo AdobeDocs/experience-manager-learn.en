@@ -14,7 +14,7 @@ exl-id: 86a67f43-882f-4e97-b528-17492689fcfc
 A fragment is a reusable part of a form. For example, a fragment can include an address block or legal text. Using fragments simplifies and speeds up the creation and maintenance of large numbers of forms.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/37325/quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/37325?quality=12&learn=on)
 
 
 

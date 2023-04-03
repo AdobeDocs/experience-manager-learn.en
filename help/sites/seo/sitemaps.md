@@ -15,7 +15,7 @@ exl-id: 40bb55f9-011d-4261-9f44-b1104a591252
 
 Learn how to help boost your SEO by creating sitemaps for AEM Sites.
 
->[!VIDEO](https://video.tv.adobe.com/v/337960/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/337960?quality=12&learn=on)
 
 ## Resources
 

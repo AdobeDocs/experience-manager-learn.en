@@ -14,4 +14,4 @@ exl-id: 6cb41242-18d3-420a-9e33-87091a648703
 
 *This video walks through the process to tweak Workbench performance parameters .*
 
->[!VIDEO](https://video.tv.adobe.com/v/335511?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335511?quality=12&learn=on)

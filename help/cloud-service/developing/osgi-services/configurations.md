@@ -13,7 +13,7 @@ exl-id: 096b0a95-7039-4570-b567-ba316bfc8709
 
 Learn the low-level approach of using OSGi configuration key/value pairs to define and expose OSGi configuration data to OSGi services.
 
->[!VIDEO](https://video.tv.adobe.com/v/335729/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335729?quality=12&learn=on)
 
 ## Resources
 

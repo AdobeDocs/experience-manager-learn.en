@@ -15,4 +15,4 @@ exl-id: 8ac84d4e-59c1-4dde-a06e-a94458664ba7
 
 AEM Assets provides an enterprise level reporting framework that scales for large repositories through an intuitive user experience.
 
->[!VIDEO](https://video.tv.adobe.com/v/22140/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22140?quality=12&learn=on)

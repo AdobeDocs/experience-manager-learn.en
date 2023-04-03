@@ -14,4 +14,4 @@ exl-id: 28914c67-a1d3-4f85-987e-c84ff348f560
 
 Explore how to create a new AEM application project using the AEM Maven Project archetype, to align to best practices and accelerate the start of AEM development.
 
->[!VIDEO](https://video.tv.adobe.com/v/330551/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330551?quality=12&learn=on)

@@ -14,7 +14,7 @@ exl-id: b90c5c00-ec62-4809-9ab6-047eba2f2bb0
 
 The video explains the various steps needed to configure an adaptive form with single signer.
 
->[!VIDEO](https://video.tv.adobe.com/v/39475/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/39475?quality=12&learn=on)
 
 Assets related to this video can be downloaded from the following link
 

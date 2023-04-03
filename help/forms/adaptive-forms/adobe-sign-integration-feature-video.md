@@ -20,7 +20,7 @@ last-substantial-update: 2020-10-20
 
 Using Acrobat Sign with AEM Forms
 
->[!VIDEO](https://video.tv.adobe.com/v/18696?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/18696?quality=12&learn=on)
 
 *This video walks through the process of setting up the Acrobat Sign cloud service and adding multiple signature fields to an AEM Adaptive Form.*
 

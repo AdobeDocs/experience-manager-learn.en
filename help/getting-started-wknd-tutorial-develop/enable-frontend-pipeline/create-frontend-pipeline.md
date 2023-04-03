@@ -25,7 +25,7 @@ In this chapter, we create and run a front-end pipeline in Adobe Cloud Manager. 
 
 ## Using the front-end pipeline
 
->[!VIDEO](https://video.tv.adobe.com/v/3409420/)
+>[!VIDEO](https://video.tv.adobe.com/v/3409420?quality=12&learn=on)
 
 ## Prerequisites {#prerequisites}
 

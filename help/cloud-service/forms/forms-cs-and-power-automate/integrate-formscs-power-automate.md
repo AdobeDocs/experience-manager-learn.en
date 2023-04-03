@@ -14,4 +14,4 @@ kt: 10782
 
 Invoke your power automate flows on an Adaptive Form submission. The following video shows the steps needed to configure and integrate Forms CS with Microsoft power automate.
 
->[!VIDEO](https://video.tv.adobe.com/v/345675/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/345675?quality=12&learn=on)

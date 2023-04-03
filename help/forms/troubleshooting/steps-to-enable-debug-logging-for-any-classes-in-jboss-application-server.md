@@ -13,4 +13,4 @@ exl-id: e66f17f0-de65-4249-9133-8f65a9eafb49
 
 *This video walks through the steps to enable debug logging for any class in JBoss Application server.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335522?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335522?quality=12&learn=on)

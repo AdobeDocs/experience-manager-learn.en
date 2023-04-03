@@ -20,6 +20,6 @@ In this video you will:
 + Learn how to deep link to other Content Fragments within a rich text field
 + Create GraphQL queries that return data from within referenced Content Fragments
 
->[!VIDEO](https://video.tv.adobe.com/v/332859/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/332859?quality=12&learn=on)
 
 _Download the [Postman Collection](./assets/aem-headless-video-series.postman_collection.json) used throughout the AEM Headless Video Series._

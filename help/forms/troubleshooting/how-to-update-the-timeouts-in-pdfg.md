@@ -14,4 +14,4 @@ exl-id: 669dde4b-777c-4fea-b0e8-50f797c21757
 
 *This video describes the process of updating the server conversion and server Global  timeout in Forms PDFG service.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335514?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335514?quality=12&learn=on)

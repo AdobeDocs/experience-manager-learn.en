@@ -14,4 +14,4 @@ exl-id: a739462e-3d7a-49a2-a740-5c5c9400ea08
 
 *This video walks through the steps to troubleshoot HtmltoPDF specific issues on a Unix setup (PhantomJS).*
 
->[!VIDEO](https://video.tv.adobe.com/v/335546?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335546?quality=12&learn=on)

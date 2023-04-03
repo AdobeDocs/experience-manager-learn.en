@@ -21,15 +21,15 @@ Typically a client library consists of CSS and Javascript file. This client libr
 
 ## Function to Populate Drop Down List {#function-to-populate-drop-down-list}
 
->[!VIDEO](https://video.tv.adobe.com/v/22282?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22282?quality=12&learn=on)
 
 ### Set Summary Title of Panel {#set-the-summary-title-of-panels}
 
->[!VIDEO](https://video.tv.adobe.com/v/28387?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28387?quality=12&learn=on)
 
 #### Validate Panel {#validate-panels-using-rule-editor}
 
->[!VIDEO](https://video.tv.adobe.com/v/28409?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28409?quality=12&learn=on)
 
 The following is the code used to validate panel fields
 

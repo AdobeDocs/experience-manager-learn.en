@@ -28,11 +28,11 @@ To accomplish the above requirement, we use a hidden field called **initialstep*
 
 **Configure Form to Trigger AEM Workflow**
 
->[!VIDEO](https://video.tv.adobe.com/v/28406?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28406?quality=12&learn=on)
 
 **Workflow walkthorugh**
 
->[!VIDEO](https://video.tv.adobe.com/v/28407?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28407?quality=12&learn=on)
 
 **Submitter's view of the Time Off Request form**
 

@@ -13,4 +13,4 @@ exl-id: de4315b4-9e9b-4c5a-8c04-2c225a8b9f73
 
 *This video walks through the process of checking and installing the required 32-bit Microsoft Visual C++ redistributables.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335520?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335520?quality=12&learn=on)

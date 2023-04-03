@@ -21,7 +21,7 @@ exl-id: d35a7892-d707-4a5c-9e97-ec3abba0f30c
 
 Users requiring access to AEM Author service are managed as [Adobe IMS users](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in [Adobe's Admin Console](https://adminconsole.adobe.com). Learn about what Adobe IMS users are, and how they are accessed and managed in Admin Console.
 
->[!VIDEO](https://video.tv.adobe.com/v/39149/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/39149?quality=12&learn=on)
 
 ## Additional resources
 

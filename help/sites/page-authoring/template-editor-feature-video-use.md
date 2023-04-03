@@ -19,7 +19,7 @@ exl-id: 2213d1f2-37ed-4897-a68d-04ef423395a3
 
 Editable templates allow specialized authors to create and update page templates and manage advanced policy configurations with Adobe Experience Manager (AEM) Sites.
 
->[!VIDEO](https://video.tv.adobe.com/v/326784/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326784?quality=12&learn=on)
 
 Editable Templates are the recommendation for building new AEM Sites.
 

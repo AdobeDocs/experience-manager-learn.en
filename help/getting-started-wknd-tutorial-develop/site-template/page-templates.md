@@ -42,7 +42,7 @@ There are 3 main areas of [Page Templates](https://experienceleague.adobe.com/do
 
 Next, create a new template in AEM that matches the structure of the mockups. This will occur in a local instance of AEM. Follow the steps in the video below:
 
->[!VIDEO](https://video.tv.adobe.com/v/332915/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/332915?quality=12&learn=on)
 
 You can use the following thumbnail to identify your template (or upload your own!)
 
@@ -59,7 +59,7 @@ A common practice when creating global content, such as a header or footer, is t
 
 The Site template generated a Header and Footer. Next, update the Experience Fragments to match the mockups. Follow the steps in the video below:
 
->[!VIDEO](https://video.tv.adobe.com/v/332916/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/332916?quality=12&learn=on)
 
 High level steps for the video below:
 
@@ -71,7 +71,7 @@ High level steps for the video below:
 
 Next, create a new page using the Magazine Article Page template. Author the content of the page to match the site mockups. Follow the steps in the video below:
 
->[!VIDEO](https://video.tv.adobe.com/v/332917/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/332917?quality=12&learn=on)
 
 Use the [provided text](./assets/page-templates/la-skateparks-copy.txt) to populate the article body.
 

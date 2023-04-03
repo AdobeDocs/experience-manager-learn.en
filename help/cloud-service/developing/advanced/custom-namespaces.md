@@ -27,7 +27,7 @@ Namespaces can be used to denote the scope and intent of a property. Creating a 
 
 Custom namespaces are managed in [Sling Repository Initialization (repoinit)](https://sling.apache.org/documentation/bundles/repository-initialization.html) scripts, and deploys to AEM as a Cloud Service as OSGi configurations - and added to your [AEM project's](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) `ui.config` project.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412319/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412319?quality=12&learn=on)
 
 ## Resources
 

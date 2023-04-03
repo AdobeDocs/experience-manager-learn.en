@@ -8,4 +8,4 @@ audience: author, marketer
 
 # AEM Champion Tips and Tricks: Editable Templates
 
->[!VIDEO](https://video.tv.adobe.com/v/3409424)
+>[!VIDEO](https://video.tv.adobe.com/v/3409424?quality=12&learn=on)

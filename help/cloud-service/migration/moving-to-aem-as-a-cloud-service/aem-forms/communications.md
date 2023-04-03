@@ -14,4 +14,4 @@ exl-id: ef5864cb-69e1-454b-9d9b-fa14983d80e3
 
 Learn how AEM Forms as a Cloud Service supports the Communication use case.
 
->[!VIDEO](https://video.tv.adobe.com/v/336967/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336967?quality=12&learn=on)

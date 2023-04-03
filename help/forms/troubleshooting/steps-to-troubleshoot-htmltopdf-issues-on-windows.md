@@ -14,4 +14,4 @@ exl-id: 10b32182-3095-45f5-9edf-3cc4804713ab
 
 *This video walks through the process of troubleshooting HtmltoPDF specific issues on a Windows setup.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335545?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335545?quality=12&learn=on)

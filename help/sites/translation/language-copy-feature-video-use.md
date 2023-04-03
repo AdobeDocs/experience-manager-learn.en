@@ -16,7 +16,7 @@ exl-id: 49613808-6369-4e43-bc26-fd3041265339
 
 With AEM 6.3 Create Language Copy Wizard site translation enhancement, users can create a  language copy from master language without having to create a create a root page.
 
->[!VIDEO](https://video.tv.adobe.com/v/17116/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17116?quality=12&learn=on)
 
 ## Additional Resources {#additional-resources}
 

@@ -20,4 +20,4 @@ exl-id: 49ecde63-e53c-41fa-ab9b-d6a4435657b5
 
 Please follow the video to create your Adobe I/O project.
 
->[!VIDEO](https://video.tv.adobe.com/v/333220/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/333220?quality=12&learn=on)

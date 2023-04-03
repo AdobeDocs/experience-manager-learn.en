@@ -14,4 +14,4 @@ exl-id: 32390a8d-8257-44b7-9009-bfa5e518a1e0
 
 Explore the history of AEM and the differences between on premise AEM, Adobe Managed Services AEM, and AEM as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/330543/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330543?quality=12&learn=on)

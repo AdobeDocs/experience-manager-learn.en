@@ -14,4 +14,4 @@ exl-id: 66571dbe-e5bb-4ced-87a5-33ddc160a69a
 
 *This video walks through the steps to investigate search related issues in AEM.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335467?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335467?quality=12&learn=on)

@@ -14,4 +14,4 @@ exl-id: 072f8b81-54b8-4980-9758-b8cd7ceebd6b
 
 Explore the purpose of Cloud Manager and how it works with AEM as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/330545/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330545?quality=12&learn=on)

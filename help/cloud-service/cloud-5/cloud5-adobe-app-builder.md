@@ -14,7 +14,7 @@ exl-id: 799539ba-00aa-40c0-89de-cab38b0066a3
 
 Amol Anand drops in to give us the lowdown on integrations with Adobe App Builder and where and when to use it.
 
->[!VIDEO](https://video.tv.adobe.com/v/342375)
+>[!VIDEO](https://video.tv.adobe.com/v/342375?quality=12&learn=on)
 
 ## Content covered in this video
 

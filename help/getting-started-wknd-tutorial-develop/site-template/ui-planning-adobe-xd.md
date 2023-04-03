@@ -34,7 +34,7 @@ In this chapter two Adobe XD files is inspected, one for the [Standard Site Temp
 
 ## Standard Site Template UI Kit {#standard-site-template-uikit}
 
->[!VIDEO](https://video.tv.adobe.com/v/338680/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/338680?quality=12&learn=on)
 
 High level steps:
 
@@ -44,7 +44,7 @@ High level steps:
 
 ## WKND UI Kit {#wknd-ui-kit}
 
->[!VIDEO](https://video.tv.adobe.com/v/30214/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/30214?quality=12&learn=on)
 
 High level steps:
 

@@ -15,4 +15,4 @@ exl-id: a08ce6b2-532d-4fd4-ada4-3cbec0fde699
 
 Processing profiles define the renditions to be created for assets in AEM as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/35597/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/35597?quality=12&learn=on)

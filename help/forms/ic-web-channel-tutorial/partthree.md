@@ -14,11 +14,11 @@ exl-id: 798012e5-5099-4fd0-82ad-a21f64a97aca
 
 **Creating Form Data Model in AEM Forms 6.4**
 
->[!VIDEO](https://video.tv.adobe.com/v/27763/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27763?quality=12&learn=on)
 
 **Creating Form Data Model in AEM Forms 6.5 and above**
 
->[!VIDEO](https://video.tv.adobe.com/v/27765?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27765?quality=12&learn=on)
 
 Form Data Model is dependent on a correctly configured Data Source. We will use the Data Source configured in the previous step as the basis for this Form Data Model.
 

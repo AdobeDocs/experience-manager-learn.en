@@ -12,7 +12,7 @@ exl-id: a733532b-db64-43f6-bc43-f7d422d5071a
 
 In this video we explore Dynamic Media Color Management, and how it can be used to provide color correction preview capabilities in for AEM Assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/16792/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/16792?quality=12&learn=on)
 
 >[!NOTE]
 >

@@ -7,4 +7,4 @@ seo-description: Learn how AEM Champion Greg Dimeris leveraged editable template
 
 # AEM Champion Tips and Tricks: Session 2
 
->[!VIDEO](https://video.tv.adobe.com/v/3409427)
+>[!VIDEO](https://video.tv.adobe.com/v/3409427?quality=12&learn=on)

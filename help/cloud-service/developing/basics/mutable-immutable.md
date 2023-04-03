@@ -14,4 +14,4 @@ exl-id: 744ac321-2201-4083-9a14-0c0816b50729
 
 Learn about the importance and differences of [mutable and immutable content](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) in the AEM as a Cloud, and how it impacts how you develop.
 
->[!VIDEO](https://video.tv.adobe.com/v/330555/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330555?quality=12&learn=on)

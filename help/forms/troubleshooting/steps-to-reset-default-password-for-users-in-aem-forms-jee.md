@@ -13,4 +13,4 @@ exl-id: e0fe53a3-6881-4a46-8040-3d8815809897
 
 *This video walks through the steps to reset default password for administrator in AEM Forms JEE.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335541?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335541?quality=12&learn=on)

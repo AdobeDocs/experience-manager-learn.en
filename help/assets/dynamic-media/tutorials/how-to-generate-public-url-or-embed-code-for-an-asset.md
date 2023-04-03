@@ -12,4 +12,4 @@ exl-id: 2b526f92-17b4-4a69-9c1c-d8ca42334433
 
 This video walks through the steps to generate public URL or Embed code for an asset.
 
->[!VIDEO](https://video.tv.adobe.com/v/335364?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335364?quality=12&learn=on)

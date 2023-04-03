@@ -15,4 +15,4 @@ exl-id: 83bf8d76-2e36-45d4-bfff-03758e5f7bdc
 
 Learn how to filter, search, and download assets in Assets Essentials.
 
->[!VIDEO](https://video.tv.adobe.com/v/335861/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335861?quality=12&learn=on)

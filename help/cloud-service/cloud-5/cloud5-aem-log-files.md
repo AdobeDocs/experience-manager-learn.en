@@ -13,7 +13,7 @@ exl-id: 1d000b09-52e7-4828-a0b3-32a47131e66c
 
 This is a deep dive into how to access logs in AEM as a Cloud Service, including how to access them via the user interface as well as from APIs.
  
->[!VIDEO](https://video.tv.adobe.com/v/341156/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341156?quality=12&learn=on)
 
 ## Content covered in this video
 

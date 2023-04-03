@@ -23,7 +23,7 @@ In this chapter, we make config changes to the __WKND Sites project__ to use the
 
 ## Overview of configuration changes in the full-stack AEM project
 
->[!VIDEO](https://video.tv.adobe.com/v/3409419/)
+>[!VIDEO](https://video.tv.adobe.com/v/3409419?quality=12&learn=on)
 
 ## Prerequisites {#prerequisites}
 

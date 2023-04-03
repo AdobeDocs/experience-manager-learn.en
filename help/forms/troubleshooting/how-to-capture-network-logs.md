@@ -13,4 +13,4 @@ exl-id: bf2652fc-a52f-4941-80b9-64f0fae3baab
 
 *This video walks through the steps to capture network logs / Tools to be used.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335491?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335491?quality=12&learn=on)

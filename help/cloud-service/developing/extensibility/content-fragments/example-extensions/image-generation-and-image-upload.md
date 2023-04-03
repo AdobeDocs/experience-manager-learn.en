@@ -43,7 +43,7 @@ The functional flow of the example extension is as follows:
 
 This video reviews the example image generation using OpenAI or DALL.E 2 extension, how it works and how it is developed. The video has chapter markings such as __Functional Demo, Setup, and Tech-Code__ to watch the relevant piece quickly.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413093/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3413093?quality=12&learn=on)
 
 
 ## The App Builder extension app

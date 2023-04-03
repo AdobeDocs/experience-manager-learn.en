@@ -13,7 +13,7 @@ exl-id: 72918da0-d5c4-4451-8082-0a0435c28890
 
 Learn how to create and designate ObjectClassDefinitions as OSGi configuration representations in an OSGi service.
 
->[!VIDEO](https://video.tv.adobe.com/v/335730/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335730?quality=12&learn=on)
 
 ## Resources
 

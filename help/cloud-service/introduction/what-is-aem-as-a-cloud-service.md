@@ -14,4 +14,4 @@ exl-id: 8aa97bdf-6a0b-4140-8183-a8f77212992d
 
 Explore what AEM as a Cloud Service is, and how it differs from other version of Adobe Experience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/330546/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330546?quality=12&learn=on)

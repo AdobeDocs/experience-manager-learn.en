@@ -14,4 +14,4 @@ exl-id: 6bcc5978-dac8-4112-8e50-de1722b1c289
 
 Using the Adobe Asset Link panel, you can access file details for assets in AEM Assets, for example thumbnail, basic metadata, and versions from within the panel. Explore how to create, preview, and compare file versions.
 
->[!VIDEO](https://video.tv.adobe.com/v/34048/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34048?quality=12&learn=on)

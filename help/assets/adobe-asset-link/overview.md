@@ -44,7 +44,7 @@ Adobe Asset Link extension for Adobe Creative Cloud for enterprise extends the c
 
 Adobe Asset Link provides InDesign direct linking support between Adobe Asset Link and AEM. With InDesign direct linking support, you can place (__Place Linked__ or __Place Copy__) or drag-n-drop digital assets into InDesign from AEM via the Adobe Asset Link panel. Also, introduces the *For Placement Only+ (FPO) rendition.
 
->[!VIDEO](https://video.tv.adobe.com/v/28988/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28988?quality=12&learn=on)
 
 >[!NOTE]
 >

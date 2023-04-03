@@ -15,6 +15,6 @@ exl-id: b69508c9-4be3-43c9-9d54-84ac0a2b4b6b
 
 Learn how to publish assets and their renditions from AEM Author to AEM Publish.
 
->[!VIDEO](https://video.tv.adobe.com/v/330932/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/330932?quality=12&learn=on)
 
 _Ensure you AEM Assets deployment has an AEM Publish service licensed prior to publishing assets._

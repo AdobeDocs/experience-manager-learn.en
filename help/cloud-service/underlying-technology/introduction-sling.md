@@ -17,4 +17,4 @@ exl-id: 92afc9c4-3d58-4787-86f6-46495d89c4d4
 
 An introduction to [!DNL Sling], an open-source [!DNL RESTful] web framework that is part of Adobe Experience Manager's underlying technology stack.
 
->[!VIDEO](https://video.tv.adobe.com/v/32032/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/32032?quality=12&learn=on)

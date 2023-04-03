@@ -15,4 +15,4 @@ exl-id: b5d0d2e1-22d7-4dd9-9913-c6f4a7cc0234
 
 Learn how to use assets from AEM Assets using the Place Linked operation.
 
->[!VIDEO](https://video.tv.adobe.com/v/34839/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34839?quality=12&learn=on)

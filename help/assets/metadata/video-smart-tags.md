@@ -15,4 +15,4 @@ exl-id: 24d62f81-a6a6-4cfd-b529-b071539a2c1d
 
 Experience Manager Assets leverages Adobe Sensei to intelligently tag video assets with keywords that describe key elements of the video, allowing them to be easily discovered using keyword search by AEM users.
 
->[!VIDEO](https://video.tv.adobe.com/v/327005/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/327005?quality=12&learn=on)

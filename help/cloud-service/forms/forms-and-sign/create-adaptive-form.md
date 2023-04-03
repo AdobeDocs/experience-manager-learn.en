@@ -16,4 +16,4 @@ exl-id: 6bdfb841-3b7e-4c22-8907-a1b98df42ae5
 
 Create an adaptive form to use Acrobat Sign cloud Configuration
 
->[!VIDEO](https://video.tv.adobe.com/v/332438/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/332438?quality=12&learn=on)

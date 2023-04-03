@@ -17,7 +17,7 @@ The embedded adaptive form is fully functional and users can fill and submit the
 
 The following video explains the steps needed to embed an Adaptive or HTML5 form in web page.
 Please refer to the [documentation](https://experienceleague.adobe.com/docs/experience-manager-64/forms/adaptive-forms-basic-authoring/embed-adaptive-form-external-web-page.html?lang=en) for best prerequisites, best practices etc.
->[!VIDEO](https://video.tv.adobe.com/v/335893?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335893?quality=12&learn=on)
 
 You can download the sample files used in the video [from here](assets/embedding-af-web-page.zip)
 

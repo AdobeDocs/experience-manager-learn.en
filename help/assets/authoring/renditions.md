@@ -15,4 +15,4 @@ exl-id: 1df0ffd7-fe22-4eef-9428-b228ed0dcf31
 
 Learn about renditions in AEM Assets, and how they can be previewed.
 
->[!VIDEO](https://video.tv.adobe.com/v/32047/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/32047?quality=12&learn=on)

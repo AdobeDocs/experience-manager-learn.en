@@ -12,4 +12,4 @@ exl-id: 7993e482-3db0-46a0-ae2f-f5a167ac02dc
 
 This video walks through the process of invalidating the CDN cache by way of Dynamic Media.
 
->[!VIDEO](https://video.tv.adobe.com/v/335457?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335457?quality=12&learn=on)

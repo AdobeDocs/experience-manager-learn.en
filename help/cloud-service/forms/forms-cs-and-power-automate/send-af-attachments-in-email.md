@@ -14,7 +14,7 @@ kt: 11077
 
 Extract form attachments and send the attachments in an e-mail in power automate workflow.
 The following video explains the steps needed to form attachments from the submitted data.
->[!VIDEO](https://video.tv.adobe.com/v/3409017/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3409017?quality=12&learn=on)
 
 The following is the attachment object schema  that you need to use in the Parse JSON schema step
 

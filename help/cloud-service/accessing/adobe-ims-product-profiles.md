@@ -19,7 +19,7 @@ exl-id: 089a557c-5155-489c-bccf-0cb97e95840c
 
 Adobe IMS product profiles entitle users to log into an AEM Author service, and provide a baseline of access, depending on the which product profile they are are member of.
 
->[!VIDEO](https://video.tv.adobe.com/v/39156/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/39156?quality=12&learn=on)
 
 ## Additional resources
 

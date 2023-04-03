@@ -14,4 +14,4 @@ exl-id: bc86dda1-18a4-474b-a8ec-d4e7f15ddd10
 
 *This video walks through the process of troubleshooting OpenOffice specific failures on a Unix setup for AEM Forms PDFG.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335551?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335551?quality=12&learn=on)

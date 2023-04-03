@@ -36,7 +36,7 @@ This is an advanced tutorial. Before proceeding with this chapter, please ensure
 
 The following video provides a brief introduction to Content Fragment Models and how they are used in this tutorial. 
 
->[!VIDEO](https://video.tv.adobe.com/v/340037/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340037?quality=12&learn=on)
 
 ## Create Content Fragment Models {#create-models}
 

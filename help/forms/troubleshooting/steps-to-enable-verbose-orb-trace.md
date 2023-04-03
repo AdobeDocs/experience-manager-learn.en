@@ -14,4 +14,4 @@ exl-id: 2ac84ee3-48ca-4c01-9dfe-add77c666ba9
 
 *This video walks through the steps to enable verbose ORB trace.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335526?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335526?quality=12&learn=on)

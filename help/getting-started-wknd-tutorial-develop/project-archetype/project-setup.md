@@ -29,7 +29,7 @@ Review the required tooling and instructions for setting up a [local development
 
 ## What you are going to build {#what-build}
 
->[!VIDEO](https://video.tv.adobe.com/v/30152/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/30152?quality=12&learn=on)
 
 In this chapter, you generate a new Adobe Experience Manager project using the [AEM Project Archetype](https://github.com/adobe/aem-project-archetype). Your AEM project contains complete code, content, and configurations used for a Sites implementation. The project generated in this chapter serves as the basis for an implementation of the WKND Site and are built upon in future chapters.
 

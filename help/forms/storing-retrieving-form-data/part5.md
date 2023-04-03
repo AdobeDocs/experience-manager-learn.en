@@ -14,4 +14,4 @@ exl-id: fcef5adc-10fb-42b2-ab46-c7674e94e805
 
 We will now create a new Adaptive Form template and page component to test this use case. Every Adaptive Form created with this new template will then have the capability to store and retrieve the form data.
 The following video walks through the steps needed to create new Adaptive Form template
->[!VIDEO](https://video.tv.adobe.com/v/27828?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27828?quality=12&learn=on)

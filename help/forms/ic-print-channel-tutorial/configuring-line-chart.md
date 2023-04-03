@@ -32,4 +32,4 @@ Starting with AEM Forms 6.4, it is very easy to display data using various types
 
 The following video walks you through the steps for adding and configuring the chart component
 
->[!VIDEO](https://video.tv.adobe.com/v/22386/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22386?quality=12&learn=on)

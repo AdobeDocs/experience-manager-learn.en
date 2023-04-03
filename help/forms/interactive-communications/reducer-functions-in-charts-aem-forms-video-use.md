@@ -58,4 +58,4 @@ For example, we can use the reducer functions to display the number of transacti
 
 The following video walks through the steps involved in using reducer functions.
 
->[!VIDEO](https://video.tv.adobe.com/v/21368/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/21368?quality=12&learn=on)

@@ -14,4 +14,4 @@ exl-id: 83e09f3f-1058-44d7-b068-a84eeb671e37
 
 *This video walks through the process of installing Designer patches.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335504?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335504?quality=12&learn=on)

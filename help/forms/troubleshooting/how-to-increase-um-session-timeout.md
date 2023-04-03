@@ -14,4 +14,4 @@ exl-id: edb97c88-2689-4508-82a6-256b344133c0
 
 *This video walks through the process of increasing UM session timeout.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335503?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335503?quality=12&learn=on)

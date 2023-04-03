@@ -14,4 +14,4 @@ exl-id: f718470d-d48c-48ae-98b6-f5baf461098d
 
 *This video walks through the additional steps to add AEM Forms PDFG user in Windows 2016.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335479?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335479?quality=12&learn=on)

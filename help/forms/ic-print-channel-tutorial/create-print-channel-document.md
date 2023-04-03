@@ -24,4 +24,4 @@ exl-id: d4355f72-aefa-4ab3-ba7e-ebd7f7b536f0
 
 After defining and configuring Data Source and Form Data Model, we will now create our Interactive Communication for Print Channel
 
->[!VIDEO](https://video.tv.adobe.com/v/37888/?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/37888?quality=12&learn=on)

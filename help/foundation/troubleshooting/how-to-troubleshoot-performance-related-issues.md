@@ -14,4 +14,4 @@ exl-id: 6cb60f32-d366-4677-8745-9da7176b782f
 
 *This video walks through the steps to troubleshoot performance related issues in AEM.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335472?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335472?quality=12&learn=on)

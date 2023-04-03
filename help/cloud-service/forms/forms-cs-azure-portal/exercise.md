@@ -14,5 +14,5 @@ kt: 8481
 
 Enhance the use case as shown in this video
 
->[!VIDEO](https://video.tv.adobe.com/v/335800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335800?quality=12&learn=on)
 

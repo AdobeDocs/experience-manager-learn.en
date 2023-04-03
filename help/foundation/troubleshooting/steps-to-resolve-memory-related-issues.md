@@ -14,4 +14,4 @@ exl-id: 6477e9df-f33f-46b1-aa9b-535063da65dd
 
 *This video walks through the Steps to resolve Memory related issues in AEM.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335473?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335473?quality=12&learn=on)

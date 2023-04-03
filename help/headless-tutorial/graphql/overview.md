@@ -21,7 +21,7 @@ A modern content delivery API is key for efficiency and performance of Javascrip
 
 To overcome these challenges GraphQL provides a query-based API allowing clients to query AEM for only the content it needs, and to receive using a single API call.
 
->[!VIDEO](https://video.tv.adobe.com/v/328618/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/328618?quality=12&learn=on)
 
 This video is an overview of the GraphQL API implemented in AEM. The GraphQL API in AEM is primarily designed to deliver AEM Content Fragment's to downstream applications as part of a headless deployment.
 

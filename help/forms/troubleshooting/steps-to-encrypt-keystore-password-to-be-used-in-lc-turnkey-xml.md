@@ -13,4 +13,4 @@ exl-id: e5b1b526-022e-4a82-9f4b-5f60210bb9ff
 
 *This video walks through the steps to encrypt Keystore password to be used in lc_turnkey.xml.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335538?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335538?quality=12&learn=on)

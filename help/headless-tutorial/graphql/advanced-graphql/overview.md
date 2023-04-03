@@ -38,7 +38,7 @@ This tutorial covers the following topics:
 
 The following video provides a high-level overview of the concepts that are covered in this tutorial. The tutorial includes defining Content Fragment Models with more advanced data types, nesting Content Fragments, and persisting GraphQL queries in AEM.
 
->[!VIDEO](https://video.tv.adobe.com/v/340035/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340035?quality=12&learn=on)
 
 >[!CAUTION]
 >

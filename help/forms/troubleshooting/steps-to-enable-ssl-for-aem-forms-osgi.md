@@ -13,4 +13,4 @@ exl-id: 2ae5e14f-29c6-49c1-89ee-59de8a596aa6
 
 *This video walks through the steps to enable SSL for AEM Forms OSGi instance.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335524?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335524?quality=12&learn=on)

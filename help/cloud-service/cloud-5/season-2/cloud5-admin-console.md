@@ -13,7 +13,7 @@ exl-id: eec1764e-1234-4b4c-993f-6584717e3c9e
 
 Ever wonder why what each item does in the context of AEM within the Admin Console? The team tries to explain some common things that people should know about provisioning and access.
 
->[!VIDEO](https://video.tv.adobe.com/v/342866)
+>[!VIDEO](https://video.tv.adobe.com/v/342866?quality=12&learn=on)
 
 ## Content covered in this video
 

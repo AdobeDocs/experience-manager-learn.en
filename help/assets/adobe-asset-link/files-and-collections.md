@@ -14,4 +14,4 @@ exl-id: eaf9e9fc-2058-442a-bf78-27e82c33386d
 
 Learn how to quickly and easily access AEM Assets Files and Collections from within the Asset Link panel.
 
->[!VIDEO](https://video.tv.adobe.com/v/33884/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33884?quality=12&learn=on)

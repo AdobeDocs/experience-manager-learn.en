@@ -15,4 +15,4 @@ exl-id: d4d80678-e2e2-4e17-8ce5-6db8651ae59e
 
 Learn how AEM Assets Essentials permission management allows organizations to control access to assets, protect their brand, and ensure compliance. 
 
->[!VIDEO](https://video.tv.adobe.com/v/342113/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342113?quality=12&learn=on)

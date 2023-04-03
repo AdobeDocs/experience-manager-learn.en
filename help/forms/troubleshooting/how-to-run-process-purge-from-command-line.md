@@ -13,4 +13,4 @@ exl-id: 1f539f1c-b3be-4e21-b0fe-6f523a453c5f
 
 *This video walks through the steps to run process purge tool from command line.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335508?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335508?quality=12&learn=on)

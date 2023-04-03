@@ -17,7 +17,7 @@ Quick setup is an expedited walk-through illustrating how to install and run the
 
 Quick setup takes you directly to the end state of this tutorial.
 
->[!VIDEO](https://video.tv.adobe.com/v/333181/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/333181?quality=12&learn=on)
 
 _A video walk-through of the quick setup_
 

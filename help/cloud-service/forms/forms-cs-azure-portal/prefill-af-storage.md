@@ -15,4 +15,4 @@ exl-id: 12e0e3bb-d6b2-4c33-9105-18c3637d3e07
 
 Learn how to use AEM Forms' prefill service to populate adaptive forms from Azure Blob Storage.
 
->[!VIDEO](https://video.tv.adobe.com/v/335714/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335714?quality=12&learn=on)

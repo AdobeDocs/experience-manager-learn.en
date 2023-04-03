@@ -15,7 +15,7 @@ exl-id: 62a36ab1-3245-43ac-b943-e28ff95661bf
 
 A brief introduction to Online Revision Clean-up which mitigates the need for frequent Offline Revision Clean-ups.
 
->[!VIDEO](https://video.tv.adobe.com/v/17004/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17004?quality=12&learn=on)
 
 ## Supporting materials
 

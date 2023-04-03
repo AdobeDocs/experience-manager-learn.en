@@ -13,4 +13,4 @@ exl-id: 4d1aea2e-51f5-4752-be41-b08e8ccb6db9
 
 Learn about use cases and features supported by AEM Forms as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/336968/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336968?quality=12&learn=on)

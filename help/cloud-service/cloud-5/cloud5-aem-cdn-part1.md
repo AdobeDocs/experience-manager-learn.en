@@ -15,7 +15,7 @@ exl-id: 8b608b05-48ee-434f-8d5a-6c5ff1969dcf
 
 This is a deep dive into the CDN provided as part of AEM as a Cloud Service, including what it is capable of and whether to bring your own CDN. This is part 1 of 2. 
 
->[!VIDEO](https://video.tv.adobe.com/v/340760/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340760?quality=12&learn=on)
 
 ## Content covered in part one of this series
 

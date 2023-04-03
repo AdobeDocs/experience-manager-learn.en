@@ -15,4 +15,4 @@ exl-id: 7ea8ff25-d7af-4fad-a027-1e6b5440f810
 
 Learn how to use AEM's Omnisearch to quickly discover assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/32054/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/32054?quality=12&learn=on)

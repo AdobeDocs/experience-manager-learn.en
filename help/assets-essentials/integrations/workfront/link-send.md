@@ -15,4 +15,4 @@ exl-id: e1ec3560-2c74-47ac-ba8a-f05412b6b3e5
 
 Learn how to send Workfront documents to to Assets Essentials, and link Assets Essentials assets to Workfront.
 
->[!VIDEO](https://video.tv.adobe.com/v/336255/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336255?quality=12&learn=on)

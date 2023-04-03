@@ -20,4 +20,4 @@ In this course, we will use the document generation microservices to generate a 
 1. Configure access for the technical account in AEM 
 1. Make HTTP calls using the access token
 
->[!VIDEO](https://video.tv.adobe.com/v/334859/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/334859?quality=12&learn=on)

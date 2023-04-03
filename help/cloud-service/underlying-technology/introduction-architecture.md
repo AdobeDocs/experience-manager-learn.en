@@ -17,4 +17,4 @@ exl-id: bb13fc39-fcb7-4241-8504-8ff999a6caa2
 
 Introduces the technologies of [!DNL OSGi], [!DNL JCR], [!DNL Oak], and [!DNL Sling] as part of Adobe Experience Manager's technology stack.
 
->[!VIDEO](https://video.tv.adobe.com/v/32034/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/32034?quality=12&learn=on)

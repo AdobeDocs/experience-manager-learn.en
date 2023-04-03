@@ -15,4 +15,4 @@ exl-id: 5be2fec1-fd65-4ac8-876f-c3d754279b04
 
 Introduction to the integration between Adobe Experience Manager Forms as cloud service and Salesforce.
 
->[!VIDEO](https://video.tv.adobe.com/v/331891/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/331891?quality=12&learn=on)

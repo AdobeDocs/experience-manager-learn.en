@@ -13,7 +13,7 @@ last-substantial-update: 2019-06-09
 
 Restricting the adaptive form Rule Editor to specific groups in AEM
 
->[!VIDEO](https://video.tv.adobe.com/v/19470?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/19470?quality=12&learn=on)
 
 *This video walks through the process of restricting the adaptive form rule editor to specific groups in AEM.*
 

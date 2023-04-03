@@ -14,4 +14,4 @@ exl-id: 00ca88d6-8243-4919-8cb1-7a55e5213e06
 
 *This video walks through the steps to embed Fonts for Forms and output service conversions.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335496?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335496?quality=12&learn=on)

@@ -23,7 +23,7 @@ exl-id: 4e64aa99-0b1c-49e9-95a7-d254017b80f4
 
 **Creating Form Data Model in AEM Forms**
 
->[!VIDEO](https://video.tv.adobe.com/v/27763/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27763?quality=12&learn=on)
 
 Form Data Model is dependent on a correctly configured Data Source. We use the Data Source configured in the previous step as the basis for this Form Data Model.
 

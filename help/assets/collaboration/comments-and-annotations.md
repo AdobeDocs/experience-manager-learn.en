@@ -15,4 +15,4 @@ exl-id: c3b4366b-cbb2-48d6-b101-78effb35130d
 
 Learn how to use comments and annotations in AEM to communicate and collaborate on assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/32049/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/32049?quality=12&learn=on)

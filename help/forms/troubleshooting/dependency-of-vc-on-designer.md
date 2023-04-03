@@ -14,4 +14,4 @@ exl-id: 9cffce45-c853-440f-9ddf-2e179dff6745
 
 *This video walks through the steps to troubleshoot dependency issues with C++ libaries in Designer.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335576?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335576?quality=12&learn=on)

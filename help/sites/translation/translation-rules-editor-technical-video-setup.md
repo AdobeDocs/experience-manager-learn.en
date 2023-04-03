@@ -20,7 +20,7 @@ The Translation Configuration UI allows a user to manage rules for translating c
 >
 > The video below was recorded on AEM 6.3. AEM 6.4+ introduces a new repository structure for storing the translation rules XML file. When using the Translation Configuration UI in AEM 6.4+ the rules are saved to the location `/conf/global/settings/translation/rules/translation_rules.xml`. See [Identifying Content to Translate](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html) for more details.
 
->[!VIDEO](https://video.tv.adobe.com/v/18135/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/18135?quality=12&learn=on)
 
 Translation rules identify content in AEM to be extracted for translation. Out of the box translation rules cover common use cases such as Text components and alt text for Image components. Depending on a projects translation requirements additional rules may be need. In general translation rules allow users to specify:
 

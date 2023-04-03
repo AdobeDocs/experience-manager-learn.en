@@ -15,4 +15,4 @@ exl-id: 6154883b-53e2-4a4f-ba97-9e0730fe3c13
 
 *This video walks through the steps to enable preview HTML in Designer.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335498?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335498?quality=12&learn=on)

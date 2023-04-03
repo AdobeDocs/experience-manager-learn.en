@@ -13,7 +13,7 @@ exl-id: 6428d1c2-8453-449c-9d57-bb860e2e9c1a
 
 Getting started with REPOINIT -- or the Sling Repository Initializer. Learn a few tricks to unlock the power of using this tool and some of its use cases.
 
->[!VIDEO](https://video.tv.adobe.com/v/343474)
+>[!VIDEO](https://video.tv.adobe.com/v/343474?quality=12&learn=on)
 
 ## Content covered in this video
 

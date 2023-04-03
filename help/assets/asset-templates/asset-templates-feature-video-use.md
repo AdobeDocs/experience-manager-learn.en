@@ -27,4 +27,4 @@ This video walks through the concepts and steps for generating print-ready asset
 
 This video provides a more technical overview of AEM Assets Assert Template functionality, and how AEM facilitates the composition of AEM Assets and contents by way of InDesign to create rich, compelling print experiences.
 
->[!VIDEO](https://video.tv.adobe.com/v/17071/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17071?quality=12&learn=on)

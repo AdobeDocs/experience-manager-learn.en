@@ -14,7 +14,7 @@ exl-id: cc4ffbd0-207a-42e4-bfcb-d6c83fb97237
 
 Learn how Content Fragments can be localized and translated with Adobe Experience Manager. Mixed-media assets associated with a Content Fragment are also eligible to be extracted and translated.
 
->[!VIDEO](https://video.tv.adobe.com/v/18131/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/18131?quality=12&learn=on)
 
 ## Content Fragment Translation Use Cases {#content-fragment-translation-use-cases}
 

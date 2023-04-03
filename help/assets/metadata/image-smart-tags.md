@@ -15,14 +15,14 @@ exl-id: c72dc489-70e6-48ca-99a8-663d4c0652ba
 
 AEM Assets' Smart Tags for images augments AEM Assets' search by automatically adding derived metadata tags to image assets, improving the authoring experience by making it easier and faster to find the right image.
 
->[!VIDEO](https://video.tv.adobe.com/v/17019/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17019?quality=12&learn=on)
 
 ## Set up for AEM 6.x{#set-up}
 
 >[!NOTE]
 > Smart Tags for images is automatically provisioned for AEM as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/17023/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17023?quality=12&learn=on)
 
 Before you can use the Smart Content Service, ensure the following to create an integration on Adobe I/O:
 

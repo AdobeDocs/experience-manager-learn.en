@@ -14,7 +14,7 @@ exl-id: f752df86-27d4-4dbf-a3cb-ee97b7d9a17e
 
 Learn about AEM as a Cloud Service's search indexes, how to convert AEM 6 index definitions to be AEM as a Cloud Service compatible, and how to deploy indexes to AEM as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/336963/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336963?quality=12&learn=on)
 
 ## Index Converter Tool
 

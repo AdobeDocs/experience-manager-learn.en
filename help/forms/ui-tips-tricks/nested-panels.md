@@ -29,7 +29,7 @@ The default behavior of this form would be to display all the panels on the left
 
 To change this default behavior we need to do the following
 
->[!VIDEO](https://video.tv.adobe.com/v/338369?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/338369?quality=12&learn=on)
 
 
 Add the following code the click event of the **Next** button using the code editor
@@ -52,7 +52,7 @@ The above code will help you navigate between the tabs and the child panels of e
 
 Use the style editor to hide the title of the tabs child panels.
 
->[!VIDEO](https://video.tv.adobe.com/v/338370?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/338370?quality=12&learn=on)
 
 >[!NOTE]
 >

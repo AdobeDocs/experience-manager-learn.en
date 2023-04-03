@@ -12,7 +12,7 @@ exl-id: 295bbfb6-241f-41c0-972d-d9688863cea1
 
 Smart Crop uses Adobe Sensei to eliminate the time-consuming and costly tasks of cropping content for responsive design.
 
->[!VIDEO](https://video.tv.adobe.com/v/21519/)
+>[!VIDEO](https://video.tv.adobe.com/v/21519?quality=12&learn=on)
 
 >[!NOTE]
 >

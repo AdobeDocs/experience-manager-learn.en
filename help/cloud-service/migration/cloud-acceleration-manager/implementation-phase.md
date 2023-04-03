@@ -14,4 +14,4 @@ exl-id: 35420690-061a-4562-a933-e7bacd9e116d
 
 Review and understand the major implementation phases or moving to AEM as a Cloud Service using Cloud Acceleration Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/336691/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/336691?quality=12&learn=on)

@@ -26,6 +26,6 @@ In this video you will:
 >The **GraphiQL Installation** chapter starting at 1:06 is not required in the newer versions of AEM as Cloud Service. A built-in **GraphiQL Explorer** is provided, see [Using the GraphiQL IDE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/graphql-api/graphiql-ide.html) for more information.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/332860/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/332860?quality=12&learn=on)
 
 _Download the [Postman Collection](./assets/aem-headless-video-series.postman_collection.json) used throughout the AEM Headless Video Series._

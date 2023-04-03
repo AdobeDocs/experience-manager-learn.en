@@ -14,4 +14,4 @@ exl-id: 5c4f9c93-1328-4d06-beb5-500787d987d7
 
 *This video walks through the process of troubleshooting OpenOffice specific failures on a Windows setup.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335481?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335481?quality=12&learn=on)

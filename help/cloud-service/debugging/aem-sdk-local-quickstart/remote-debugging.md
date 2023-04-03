@@ -11,7 +11,7 @@ exl-id: beac60c6-11ae-4d0c-a055-cd3d05aeb126
 ---
 # Remote debugging the AEM SDK
 
->[!VIDEO](https://video.tv.adobe.com/v/34338/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/34338?quality=12&learn=on)
 
 The AEM SDK’s local quickstart allows remote Java debugging from your IDE, allowing you to step through live code execution in AEM  to understand the exact execution flow.
 

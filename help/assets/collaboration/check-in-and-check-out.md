@@ -15,4 +15,4 @@ exl-id: fe8794b6-3fa7-4268-8352-758882705587
 
 Learn how to use AEM's check in and check out features to facilitate multi-user collaboration on assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/32048/?quality=12&learn=on&hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/32048?quality=12&learn=on)

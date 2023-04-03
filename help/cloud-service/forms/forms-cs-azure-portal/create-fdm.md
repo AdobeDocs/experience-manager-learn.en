@@ -15,4 +15,4 @@ exl-id: 3bb4edb9-1b3c-4d9d-a133-16fb2b72f8a5
 
 Create Azure storage backed Form Data Model
 
->[!VIDEO](https://video.tv.adobe.com/v/335385/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335385?quality=12&learn=on)

@@ -13,4 +13,4 @@ exl-id: 787ee0b4-8260-47d2-bcf9-da705e94859a
 
 *This video walks through the steps to add management user for JBoss admin console.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335484?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335484?quality=12&learn=on)

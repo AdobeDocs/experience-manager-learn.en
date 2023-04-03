@@ -17,6 +17,6 @@ thumbnail: 3412876.jpeg
 
 Initialize an AEM Content Fragment Console extension App Builder app that defines where the extension appears, and the work it performs.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412876/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412876?quality=12&learn=on)
 
 See the Adobe Developer documentation for a [detailed walk-through of the app initialization process](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/code-generation/#launch-code-generation-during-project-initialization).

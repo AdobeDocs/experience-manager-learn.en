@@ -18,7 +18,7 @@ exl-id: 88af40fc-deff-4b92-84b1-88df2dbdd90b
 
 Repository Browser is a powerful tool that provides visibility into AEM's underlying data store, allowing for easy debugging of AEM as a Cloud Service environment. Repository Browser supports a read-only view of the resources and properties of AEM on Production, Stage, and Development, as well as Author, Publish, and Preview services.
 
->[!VIDEO](https://video.tv.adobe.com/v/341464/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341464?quality=12&learn=on)
 
 Repository Browser is __ONLY__ available on AEM as a Cloud Service environments (use [CRXDE Lite](../aem-sdk-local-quickstart/other-tools.md#crxde-lite) to debug the local AEM SDK).
 

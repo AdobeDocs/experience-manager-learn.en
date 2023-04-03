@@ -18,7 +18,7 @@ exl-id: 4e69e115-12a6-4a57-90da-b91e345c6723
 
 Adobe Experience Manager's SSL setup wizard to make it easier to set up an AEM instance to run over HTTPS.
 
->[!VIDEO](https://video.tv.adobe.com/v/17993/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17993?quality=12&learn=on)
 
 Open the __SSL Configuration Wizard__ can be opened directly by navigating to __AEM Author > Tools > Security > SSL Configuration__.
 

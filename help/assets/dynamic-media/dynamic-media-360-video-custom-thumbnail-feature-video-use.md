@@ -12,7 +12,7 @@ exl-id: 4ee0b68f-3897-4104-8615-9de8dbb8f327
 
 Dynamic Media Viewer enhancements in AEM 6.5 includes the addition of support for 360 video rendering, 360 media viewers (video360Social and video360VR) and the ability to select custom video thumbnails.
 
->[!VIDEO](https://video.tv.adobe.com/v/26391?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26391?quality=12&learn=on)
 
 >[!NOTE]
 >

@@ -13,7 +13,7 @@ exl-id: 41d78e6b-7076-4f4f-8d2c-4bf969b61024
 
 An depth guide on how to get a login token for Cloud Service integrations and some use cases for doing so.
 
->[!VIDEO](https://video.tv.adobe.com/v/341277/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341277?quality=12&learn=on)
 
 ## Content covered in this video
 

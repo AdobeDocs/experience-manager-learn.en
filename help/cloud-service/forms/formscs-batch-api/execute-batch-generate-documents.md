@@ -24,4 +24,4 @@ A GET request to this unique URL will tell you the status of the batch execution
 
 The following video demonstrates the triggering of the batch configuration
 
->[!VIDEO](https://video.tv.adobe.com/v/340242/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340242?quality=12&learn=on)

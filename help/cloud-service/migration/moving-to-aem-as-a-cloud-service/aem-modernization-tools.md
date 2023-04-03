@@ -16,19 +16,19 @@ Learn how AEM Modernization Tools are used to upgrade an existing AEM Sites cont
 
 ## All-in-One Converter
 
->[!VIDEO](https://video.tv.adobe.com/v/338802/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/338802?quality=12&learn=on)
 
 ## Page conversion
 
->[!VIDEO](https://video.tv.adobe.com/v/338799/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/338799?quality=12&learn=on)
 
 ## Component conversion
 
->[!VIDEO](https://video.tv.adobe.com/v/338788/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/338788?quality=12&learn=on)
 
 ## Policy import
 
->[!VIDEO](https://video.tv.adobe.com/v/338797/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/338797?quality=12&learn=on)
 
 ## Using AEM Modernization Tools
 

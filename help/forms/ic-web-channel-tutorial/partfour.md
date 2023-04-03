@@ -20,10 +20,10 @@ exl-id: d742d77b-a064-46e8-862a-2d3e1cc56f63
 
 In this part, we will create a template for web channel document.
 Creating Web Channel Document Template in AEM Forms 6.4
->[!VIDEO](https://video.tv.adobe.com/v/22342?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22342?quality=12&learn=on)
 
 Creating Web Channel Document Template in AEM Forms 6.5
->[!VIDEO](https://video.tv.adobe.com/v/27807?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27807?quality=12&learn=on)
 
 The template will have target areas/placeholders which will hold various kinds of documents fragments. For example, a template can have target areas for logos and another target area for text content.
 

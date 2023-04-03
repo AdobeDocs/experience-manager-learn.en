@@ -13,7 +13,7 @@ last-substantial-update: 2020-02-09
 
 This video illustrates how to create a Form Data Model based on a JDBC data source, an Adaptive Form based on the Form Data Model, and how to use the "INSERT" operation using Form Data Model.
 
->[!VIDEO](https://video.tv.adobe.com/v/17736/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17736?quality=12&learn=on)
 
 >[!NOTE]
 >

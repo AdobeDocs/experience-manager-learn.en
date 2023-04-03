@@ -32,13 +32,13 @@ This video series covers the authoring life-cycle of Content Fragments in AEM. D
 
 ## Defining Content Fragment Models {#defining-content-fragment-models}
 
->[!VIDEO](https://video.tv.adobe.com/v/22452/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22452?quality=12&learn=on)
 
 AEM Content Fragments Models, the data schemas of Content Fragments, must be enabled via AEM's [[!UICONTROL Configuration Browser]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html), which allows Content Fragment Models to be defined on a per configuration basis.
 
 ## Creating Content Fragments {#creating-content-fragments}
 
->[!VIDEO](https://video.tv.adobe.com/v/22451/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22451?quality=12&learn=on)
 
 AEM configurations are applied to AEM Assets folder hierarchies to allow their Content Fragment Models to be created as Content Fragments. Content Fragments support a rich form-based authoring experience allowing content to be modeled as a collection of elements.
 
@@ -49,7 +49,7 @@ Content Fragments can have multiple variants, each variant addressing a differen
 
 ## Downloading Content Fragments {#downloading-content-fragments}
 
->[!VIDEO](https://video.tv.adobe.com/v/22450/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22450?quality=12&learn=on)
 
 AEM Content Fragments can be downloaded from AEM Author as a Zip file containing Variants, Elements, and Metadata.
 
@@ -58,7 +58,7 @@ AEM Content Fragments can be downloaded from AEM Author as a Zip file containing
 
 ## Content Fragment editorial capabilities {#editorial-capabilities}
 
->[!VIDEO](https://video.tv.adobe.com/v/25891/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/25891?quality=12&learn=on)
 
 >[!NOTE]
 >

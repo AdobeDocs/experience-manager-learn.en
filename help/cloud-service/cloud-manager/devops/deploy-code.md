@@ -21,4 +21,4 @@ exl-id: 82cd6dd5-735f-4641-9848-a5f5144b8624
 
 Integrate the cloud manager git repository with an external git repository and deploy a project to AEM as a Cloud Service
 
->[!VIDEO](https://video.tv.adobe.com/v/330534/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330534?quality=12&learn=on)

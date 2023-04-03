@@ -12,7 +12,7 @@ exl-id: 9ee826cf-389f-4570-bfe1-0d43d3fed3e1
 
 Adobe Experience Manager re-imagines the personalization workflow between AEM and Target. Experiences created within AEM can now be delivered directly to Adobe Target as HTML Offers. It allows Marketers to seamlessly test and personalize content across different channels.
 
->[!VIDEO](https://video.tv.adobe.com/v/22383/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/22383?quality=12&learn=on)
 
 >[!NOTE]
 >

@@ -12,7 +12,7 @@ recommendations: noDisplay, noCatalog
 
 AEM as a Cloud Service completes many functional tests by default with your application built on top. However, these test may not cover all the required testing that you may need. Custom functional tests come to the rescue.
 
->[!VIDEO](https://video.tv.adobe.com/v/343624)
+>[!VIDEO](https://video.tv.adobe.com/v/343624?quality=12&learn=on)
 
 ## Content covered in this video
 

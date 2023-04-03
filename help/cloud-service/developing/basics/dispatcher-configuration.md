@@ -14,4 +14,4 @@ exl-id: f0d74326-f8ba-431f-8b66-494e20b9e710
 
 Overview of the differences in the dispatcher configurations as well as tips and tricks for migrating the dispatcher from Adobe Managed Services (AMS) to AEM as a Cloud Service.
 
->[!VIDEO](https://video.tv.adobe.com/v/330556/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330556?quality=12&learn=on)

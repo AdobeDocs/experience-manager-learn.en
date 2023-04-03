@@ -21,7 +21,7 @@ Relational databases - MySQL, Microsoft SQL Server, IBM DB2, and Oracle RDBMS
 1. OData services
 This article will highlight integrating AEM user profile information with Adaptive Forms.
 
->[!VIDEO](https://video.tv.adobe.com/v/17432/?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/17432?quality=12&learn=on)
 
 >[!NOTE]
 >

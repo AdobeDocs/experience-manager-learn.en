@@ -13,4 +13,4 @@ exl-id: fd7ad4df-4c27-42f2-889f-03e170bac319
 
 *This video walks through the steps to enable debug logging for any class in Websphere Application server.*
 
->[!VIDEO](https://video.tv.adobe.com/v/335523?quality=9&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/335523?quality=12&learn=on)
