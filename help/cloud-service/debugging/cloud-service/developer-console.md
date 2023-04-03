@@ -20,6 +20,18 @@ AEM as a Cloud Service provides a Developer Console for each environment that ex
 
 Each AEM as a Cloud Service environment has it's own Developer Console.
 
+## Navigate to Developer Console
+
+Developer Console is accessed per AEM as a Cloud Service environment via Cloud Manager.
+
+![Navigate to Developer Console](./assets/developer-console/navigate.png)
+
+1. Navigate to __[Cloud Manager](https://my.cloudmanager.adobe.com/)__
+2. Open the __Program__ that contains the AEM as a Cloud Service environment to open Developer Console.
+3. Locate the __Environment__, and select the `...`.
+4. Select __Developer Console__ from the dropdown list.
+
+
 ## Developer Console access
 
 To access and use the Developer Console the following permissions must be given to the developer's Adobe ID via [Adobe's Admin Console](https://adminconsole.adobe.com).
