@@ -111,9 +111,8 @@ It is likely clearing the cache entirely is required to ensure headers are appro
 
 ## Supporting materials {#supporting-materials}
 
-* [AEM OSGi Configuration factory for Cross-Origin Resource Sharing Policies](http://localhost:4502/system/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl)
 * [Jeeves for macOS](https://apps.apple.com/us/app/jeeves-local-http-server/id980824182?mt=12)
-* [Python SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html) (Windows/macOS/Linux compatible)
+* [Python SimpleHTTPServer](https://docs.python.o:qrg/2/library/simplehttpserver.html) (Windows/macOS/Linux compatible)
 
 * [Understanding Cross-Origin Resource Sharing (CORS) in AEM](./understand-cross-origin-resource-sharing.md)
 * [Cross-Origin Resource Sharing (W3C)](https://www.w3.org/TR/cors/)

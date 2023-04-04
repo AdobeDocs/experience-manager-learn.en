@@ -15,33 +15,15 @@ exl-id: 40bb55f9-011d-4261-9f44-b1104a591252
 
 Learn how to help boost your SEO by creating sitemaps for AEM Sites.
 
+>[!WARNING]
+>
+>This video demonstrates use of relative URls in the sitemap. Sitemaps [should use absolute URLs](https://sitemaps.org/protocol.html). See [Configurations](#absolute-sitemap-urls) for how to enable absolute URLs, as this is not covered in the video below.
+
 >[!VIDEO](https://video.tv.adobe.com/v/337960?quality=12&learn=on)
-
-## Resources
-
-+ [AEM Sitemap Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/overview/seo-and-url-management.html?lang=en#building-an-xml-sitemap-on-aem)
-+ [Apache Sling Sitemap documentation](https://github.com/apache/sling-org-apache-sling-sitemap#readme)
-+ [Sitemap.org Sitemap documentation](https://www.sitemaps.org/protocol.html)
-+ [Sitemap.org Sitemap index file documentation](https://www.sitemaps.org/protocol.html#index)
-+ [Cronmaker](http://www.cronmaker.com/)
 
 ## Configurations
 
-### Sitemap scheduler OSGi configuration
-
-Defines the [OSGi factory configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.sitemap.impl.SitemapScheduler) for the frequency (using [cron expressions](http://www.cronmaker.com)) sitemaps are re/generated and cached in AEM. 
-
-`ui.config/src/main/jcr_content/apps/wknd/osgiconfig/config.publish`
-
-```json
-{
-  "scheduler.name": "WKND Sitemaps",
-  "scheduler.expression": "0 0 2 1/1 * ? *",
-  "searchPath": "/content/wknd"
-}
-```
-
-### Absolute sitemap URLs
+### Absolute sitemap URLs{#absolute-sitemap-urls}
 
 AEM's sitemap supports absolute URL's by using [Sling mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html). This is done by creating mapping nodes on the AEM services generating sitemaps (typically the AEM Publish service).
 
@@ -57,6 +39,20 @@ The screenshot below illustrates a similar configuration but for `http://wknd.lo
 
 ![Sitemap absolute URLs configuration](../assets/sitemaps/sitemaps-absolute-urls.jpg)
 
+
+### Sitemap scheduler OSGi configuration
+
+Defines the [OSGi factory configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.sitemap.impl.SitemapScheduler) for the frequency (using [cron expressions](http://www.cronmaker.com)) sitemaps are re/generated and cached in AEM. 
+
+`ui.config/src/main/jcr_content/apps/wknd/osgiconfig/config.publish`
+
+```json
+{
+  "scheduler.name": "WKND Sitemaps",
+  "scheduler.expression": "0 0 2 1/1 * ? *",
+  "searchPath": "/content/wknd"
+}
+```
 
 ### Dispatcher allow filter rule
 
@@ -82,3 +78,11 @@ Ensure `.xml` sitemap HTTP requests are routed to the correct underlying AEM pag
 RewriteCond %{REQUEST_URI} (.html|.jpe?g|.png|.svg|.xml)$
 RewriteRule ^/(.*)$ /content/${CONTENT_FOLDER_NAME}/$1 [PT,L]
 ```
+
+## Resources
+
++ [AEM Sitemap Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/overview/seo-and-url-management.html?lang=en#building-an-xml-sitemap-on-aem)
++ [Apache Sling Sitemap documentation](https://github.com/apache/sling-org-apache-sling-sitemap#readme)
++ [Sitemap.org Sitemap documentation](https://www.sitemaps.org/protocol.html)
++ [Sitemap.org Sitemap index file documentation](https://www.sitemaps.org/protocol.html#index)
++ [Cronmaker](http://www.cronmaker.com/)

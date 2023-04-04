@@ -28,6 +28,11 @@ Learn how Adobe IMS users, groups and product profiles are used in concert with 
 
 Users requiring access to AEM Author service are managed as [Adobe IMS users](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in [Adobe's AdminConsole](https://adminconsole.adobe.com). Learn about what Adobe IMS users are, and how they are accessed and managed in Admin Console.
 
+>[!NOTE]
+>
+>When an IMS user is deleted from AdminConsole, it is not automatically deleted from AEM, but once AEM session(token) is expired they can NOT login to AEM.
+
+
 [Learn about Adobe IMS users](./adobe-ims-users.md)
 
 ## Adobe IMS user groups

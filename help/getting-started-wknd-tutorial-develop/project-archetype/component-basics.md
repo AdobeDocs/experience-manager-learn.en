@@ -249,11 +249,17 @@ Next, let's make some updates to the `HelloWorldModel` Sling Model in order to a
     >
     > For AEM 6.4/6.5 use `mvn clean install -PautoInstallBundle -Pclassic`
 
-1.  Update the file `helloworld.html` at `aem-guides-wknd.ui.apps/src/main/content/jcr_root/apps/wknd/components/content/helloworld/helloworld.html` to use the newly created methods of the `HelloWorld` model:
+1.  Update the file `helloworld.html` at `aem-guides-wknd.ui.apps/src/main/content/jcr_root/apps/wknd/components/content/helloworld/helloworld.html` to use the newly created methods of the `HelloWorld` model.
+
+    The `HelloWorld` model is instantiated for this component instance via the HTL directive: `data-sly-use.model="com.adobe.aem.guides.wknd.core.models.HelloWorldModel"`, saving the instance to the variable `model`.
+
+    The `HelloWorld` model instance is now available in the HTL via the `model` variable using the `HelloWord`. These methods invocations can use shortened method syntax for example: `${model.getTitle()}` can be shorted to `${model.title}`.
+
+    Similarly, all HTL scripts are injected with [global objects](https://experienceleague.adobe.com/docs/experience-manager-htl/content/global-objects.html) that can be accessed using the same syntax as the Sling Model objects.
 
     ```html
-    <div class="cmp-helloworld" data-cmp-is="helloworld"
-    data-sly-use.model="com.adobe.aem.guides.wknd.core.models.HelloWorldModel">
+    <div class="cmp-helloworld" data-cmp-is="helloworld" 
+        data-sly-use.model="com.adobe.aem.guides.wknd.core.models.HelloWorldModel">
         <h1 class="cmp-helloworld__title">${model.title}</h1>
         <div class="cmp-helloworld__item" data-sly-test="${properties.text}">
             <p class="cmp-helloworld__item-label">Text property:</p>
@@ -262,10 +268,6 @@ Next, let's make some updates to the `HelloWorldModel` Sling Model in order to a
         <div class="cmp-helloworld__item" data-sly-test="${model.text}">
             <p class="cmp-helloworld__item-label">Sling Model getText() property:</p>
             <pre class="cmp-helloworld__item-output" data-cmp-hook-helloworld="property">${model.text}</pre>
-        </div>
-        <div class="cmp-helloworld__item"  data-sly-test="${model.message}">
-            <p class="cmp-helloworld__item-label">Model message:</p>
-            <pre class="cmp-helloworld__item-output"data-cmp-hook-helloworld="model">${model.message}</pre>
         </div>
     </div>
     ```

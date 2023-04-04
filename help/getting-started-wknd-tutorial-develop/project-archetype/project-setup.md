@@ -81,6 +81,8 @@ The next series of steps will take place using a UNIX&reg; based command-line  t
     >[!NOTE]
     >
     > To target AEM 6.5.14+ replace `aemVersion="cloud"` with `aemVersion="6.5.14"`.
+    >
+    > Also, always use the latest `archetypeVersion` by referring to the [AEM Project Archetype > Usage](https://github.com/adobe/aem-project-archetype#usage)
 
     A full list of available properties for configuring a project [can be found here](https://github.com/adobe/aem-project-archetype#available-properties).
 

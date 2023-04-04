@@ -29,5 +29,6 @@ The Bulk Import Service is used to transfer files stored in Azure Blob Storage o
 
 ## Other Resources
 
-+ [Adobe Developers Live session on Asset Ingestion](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/feb2021/asset-bulk-ingestion.html?lang=en)
++ [Bulk import service configuration options](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html#configure-bulk-ingestor-tool)
++ [Adobe Developers Live session on Asset Ingestion](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/feb2021/asset-bulk-ingestion.html)
     
