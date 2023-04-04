@@ -19,9 +19,6 @@ Adobe Experience Manager provides a common set of capabilities available to user
 * **[Understand Cloud Manager for AEM (Video)](./cloud-manager/understand-cloud-manager-for-aem.md)**  
     *Cloud Manager for AEM allows easy management, inspection, and self-service of AEM environments.*
 
-* **[Set up public and private keys for use with Adobe I/O (Tutorial)](./authentication/set-up-public-private-keys-for-use-with-aem-and-adobe-io.md)**  
-    *Learn how keys and keystores are generated using [!DNL openssl] that work with AEM and Adobe I/O.*
-
 * **[Use the Cloud Manager CI/CD Pipeline (Video)](./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md)**  
     *Learn how to use Cloud Manager's CI/CD pipeline to ensure safe and consistent deployments.*
 
