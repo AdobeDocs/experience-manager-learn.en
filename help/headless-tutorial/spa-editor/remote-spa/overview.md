@@ -31,7 +31,7 @@ The tutorial is designed to work with **AEM as a Cloud Service** and is composed
 
 ## Latest code
 
-+ The starting point of this tutorial's code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/remote-spa) in the `remote-spa-tutorial` folder. 
++ The starting point of this tutorial's code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/remote-spa-tutorial) in the `remote-spa-tutorial` folder. 
 
 ## Prerequisites
 
