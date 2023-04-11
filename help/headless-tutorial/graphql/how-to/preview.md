@@ -87,15 +87,11 @@ function App() {
             </Link>        
             <hr />
         </header>
-        <Switch>
+        <Routes>
           {/* The route's path must match the Adventure Model's Preview URL expression. In React since the path has `/` you must use wildcards to match instead of the usual `:path` */}
-          <Route path='/adventure/*'>
-            <AdventureDetail />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+          <Route path='/adventure/*' element={<AdventureDetail />}/>
+          <Route path="/" element={<Home />}/>
+        </Routes>
       </div>
     </Router>
   );
@@ -114,11 +110,14 @@ The `AdventureDetail` component simply parses the Content Fragment path, injecte
 ...
 function AdventureDetail() {
 
-    // Read the content fragment path value which is the parameter used to query for the adventure's details
-    
-    // Add the leading '/' back on since the params value captures the `*` wildcard in `/adventure/*`, or everything after the first `/` in the Content Fragment path.
-    const path = '/' + useParams()[0];
+    // Read the `path` value which is the parameter used to query for the adventure's details
+    // since the params value captures the `*` wildcard in `/adventure/*`, or everything after the first `/` in the Content Fragment path.
+    const params = useParams();
+    const pathParam = params["*"];
 
+    // Add the leading '/' back on 
+    const path = '/' + pathParam;
+    
     // Query AEM for the Adventures's details, using the Content Fragment's `path`
     const { adventure, references, error } = useAdventureByPath(path);
 

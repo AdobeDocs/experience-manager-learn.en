@@ -26,8 +26,7 @@ _IDE screenshots in this chapter come from [Visual Studio Code](https://code.vis
 
 The following software must be installed:
 
-- [Node.js v14+](https://nodejs.org/en/)
-- [npm 6.4+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [Node.js v18](https://nodejs.org/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Objectives
@@ -90,7 +89,7 @@ To get the React app:
 
 >[!IMPORTANT]
 >
->   This is a partially implemented React App, following steps take it to completion. The JavaScript files that need implementation work have the following comment, make sure you add/update the code in those files with the code specified in this tutorial.
+>   This React app is partially implemented. Following the steps in this tutorial to complete the implementation. The JavaScript files that need implementation work have the following comment, make sure you add/update the code in those files with the code specified in this tutorial.
 >
 >
 > //*********************************
@@ -100,15 +99,13 @@ To get the React app:
 >  //*********************************
 >
 
-
-
 ## Anatomy of the React app
 
 The sample React app has three main parts:
 
 1.  The `src/api` folder contains files used to make GraphQL queries to AEM.
     - `src/api/aemHeadlessClient.js` initializes and exports the AEM Headless Client used to communicate with AEM
-    - `src/api/usePersistedQueries.js` implements [custom React hooks](https://reactjs.org/docs/hooks-custom.html) return data from AEM GraphQL to the `Teams.js` and `Person.js` view components.
+    - `src/api/usePersistedQueries.js` implements [custom React hooks](https://react.dev/docs/hooks-custom.html) return data from AEM GraphQL to the `Teams.js` and `Person.js` view components.
 
 1.  The `src/components/Teams.js` file displays a list of teams and their members, by using a list query.
 1.  The `src/components/Person.js` file displays the details of a single person, using a parameterized, single-result query.
@@ -142,7 +139,7 @@ Review the `aemHeadlessClient.js` file for how to create the `AEMHeadless` objec
 
 ## Implement to run AEM GraphQL persisted queries
 
-Open the `usePersistedQueries.js` file to implement the generic `fetchPersistedQuery(..)` function to run the AEM GraphQL persisted queries. The `fetchPersistedQuery(..)` function uses the `aemHeadlessClient` object's `runPersistedQuery()` function to run query asynchronously, promise-based behavior.
+To implement the generic `fetchPersistedQuery(..)` function to run the AEM GraphQL persisted queries open the `usePersistedQueries.js` file. The `fetchPersistedQuery(..)` function uses the `aemHeadlessClient` object's `runPersistedQuery()` function to run query asynchronously, promise-based behavior.
 
 Later, custom React `useEffect` hook calls this function to retrieve specific data from AEM.
 
@@ -186,7 +183,7 @@ async function fetchPersistedQuery(persistedQueryName, queryParameters) {
 
 Next, build out the functionality to display the Teams and their members on the React app's main view. This functionality requires:
 
-- A new [custom React useEffect hook](https://reactjs.org/docs/hooks-custom.html) in `src/api/usePersistedQueries.js` that invokes the `my-project/all-teams` persisted query, returning a list of Team Content Fragments in AEM.
+- A new [custom React useEffect hook](https://react.dev/docs/hooks-custom.html) in `src/api/usePersistedQueries.js` that invokes the `my-project/all-teams` persisted query, returning a list of Team Content Fragments in AEM.
 - A React component at `src/components/Teams.js` that invokes the new custom React `useEffect` hook, and renders the teams data.
 
 Once complete, the app's main view populates with the teams data from AEM.
@@ -337,7 +334,7 @@ With the [Teams functionality](#implement-teams-functionality) complete, let's i
 
 This functionality requires:
 
--   A new [custom React useEffect hook](https://reactjs.org/docs/hooks-custom.html) in `src/api/usePersistedQueries.js` that invokes the parameterized `my-project/person-by-name` persisted query, and returns a single person record.
+-   A new [custom React useEffect hook](https://react.dev/docs/hooks-custom.html) in `src/api/usePersistedQueries.js` that invokes the parameterized `my-project/person-by-name` persisted query, and returns a single person record.
 
 -   A React component at `src/components/Person.js` that uses a person's full name as a query parameter, invokes the new custom React `useEffect` hook, and renders the person data.
 
@@ -491,7 +488,7 @@ Review the app [http://localhost:3000/](http://localhost:3000/) and click _Membe
 
 ## Under The Hood
 
-Open the browser's **Developer Tools** > **Network** and _Filter_ for `all-teams` request, you notice the GraphQL API request `/graphql/execute.json/my-project/all-teams` is made against `http://localhost:3000` and **NOT** against the value of `REACT_APP_HOST_URI`(for example, <https://publish-p123-e456.adobeaemcloud.com>), this is because [proxy setup](https://create-react-app.dev/docs/proxying-api-requests-in-development/#configuring-the-proxy-manually) using `http-proxy-middleware` module. 
+Open the browser's **Developer Tools** > **Network** and _Filter_ for `all-teams` request. Notice the GraphQL API request `/graphql/execute.json/my-project/all-teams` is made against `http://localhost:3000` and **NOT** against the value of `REACT_APP_HOST_URI` (for example, <https://publish-p123-e456.adobeaemcloud.com>). The requests are made against the React app's domain because [proxy setup](https://create-react-app.dev/docs/proxying-api-requests-in-development/#configuring-the-proxy-manually) is enabled using `http-proxy-middleware` module. 
 
 
 ![GraphQL API request via Proxy](assets/graphql-and-external-app/graphql-api-request-via-proxy.png)
@@ -506,7 +503,7 @@ Review the main `../setupProxy.js` file and within `../proxy/setupProxy.auth.**.
     ...
   ```
 
-However this is not a suitable option for production deployment and more details can be found at _Production Deployment_ section.
+Using the local proxy is not a suitable option for production deployment and more details can be found at _Production Deployment_ section.
 
 ## Congratulations!{#congratulations}
 

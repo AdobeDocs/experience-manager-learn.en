@@ -17,7 +17,7 @@ index: y
   + [Overview](./graphql/overview.md)
   + Quick setup {#quick-setup}
     + [Cloud Service](./graphql/quick-setup/cloud-service.md)
-    + [Local SDK](./graphql/quick-setup/local-sdk.md)
+    + [AEM SDK](./graphql/quick-setup/local-sdk.md)
   + Video Series{#video-series}
     + [1 - Modeling Basics](./graphql/video-series/modeling-basics.md)
     + [2 - Advanced Modeling](./graphql/video-series/advanced-modeling.md)

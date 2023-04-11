@@ -1,5 +1,5 @@
 ---
-title: AEM Headless quick setup using the local SDK
+title: AEM Headless quick setup using the local AEM SDK
 description: Get started with Adobe Experience Manager (AEM) and GraphQL. Install the AEM SDK, add sample content and deploy an application that consumes content from AEM using its GraphQL APIs. See how AEM powers omni-channel experiences.
 version: Cloud Service
 mini-toc-levels: 1
@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 exl-id: d2da6efa-1f77-4391-adda-e3180c42addc
 ---
-# AEM Headless quick setup using the local SDK {#setup}
+# AEM Headless quick setup using the local AEM SDK {#setup}
 
 The AEM Headless quick setup gets you hands-on with AEM Headless using content from the WKND Site sample project, and a sample React App (a SPA) that consumes the content over AEM Headless GraphQL APIs. This guide uses the [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/aem-as-a-cloud-service-sdk.html).
 
@@ -20,7 +20,7 @@ The AEM Headless quick setup gets you hands-on with AEM Headless using content f
 The following tools should be installed locally:
 
 * [JDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
-* [Node.js v14.x](https://nodejs.org/en/)
+* [Node.js v18](https://nodejs.org/en/)
 * [Git](https://git-scm.com/)
 
 ## 1. Install the AEM SDK {#aem-sdk}

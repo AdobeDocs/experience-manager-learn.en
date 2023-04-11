@@ -23,7 +23,7 @@ View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphq
 
 The following tools should be installed locally:
 
-+ [Xcode 9.3+](https://developer.apple.com/xcode/) (requires macOS)
++ [Xcode](https://developer.apple.com/xcode/) (requires macOS)
 + [Git](https://git-scm.com/)
 
 ## AEM requirements
