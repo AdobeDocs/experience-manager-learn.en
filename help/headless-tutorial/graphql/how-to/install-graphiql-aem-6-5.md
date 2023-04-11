@@ -1,6 +1,6 @@
 ---
-title: Install GraphiQL IDE on AEM 6.5.X
-description: Learn how to install and configure the GraphiQL IDE on AEM 6.5.X version
+title: Install GraphiQL IDE on AEM 6.5
+description: Learn how to install and configure the GraphiQL IDE on AEM 6.5
 version: 6.5
 topic: Headless
 feature: GraphQL API
@@ -10,13 +10,13 @@ kt: 11614
 thumbnail: KT-10253.jpeg
 ---
 
-# Install GraphiQL IDE on AEM 6.5.X
+# Install GraphiQL IDE on AEM 6.5
 
-In AEM 6.5 the GraphiQL IDE tool needs to be manually installed, follow below steps for installation and configurations.
+In AEM 6.5 the GraphiQL IDE tool must be manually installed.
 
 1.  Navigate to the **[Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)** > **AEM as a Cloud Service**.
-1.  Search for "GraphiQL" (be sure to include the **i** in **GraphiQL**.
-1.  Download the latest **GraphiQL Content Package v.x.x.x**
+1.  Search for "GraphiQL" (be sure to include the **i** in **GraphiQL**).
+1.  Download the latest **GraphiQL Content Package v.x.x.x**.
 
     ![Download GraphiQL Package](assets/graphiql/software-distribution.png)
 
@@ -33,6 +33,7 @@ In AEM 6.5 the GraphiQL IDE tool needs to be manually installed, follow below st
 
 1.  Navigate to the **Web Console Configuration** UI > Search for **CSRF Filter** configuration (for example,<http://localhost:4502/system/console/configMgr/com.adobe.granite.csrf.impl.CSRFFilter)>
 1.  In the `Excluded Paths` property name field update, the WKND GraphQL endpoint path to `/content/cq:graphql/wknd-shared/endpoint`.
+
 ![Exclude Paths Property Value Change](assets/graphiql/exclude-paths-value-change.png)
 
 1.  Access the GraphiQL editor using `//HOST:PORT/content/graphiql.html`, and verify you can construct a new query or execute an existing query. (e.g <http://localhost:4502/content/graphiql.html>)
@@ -41,4 +42,4 @@ In AEM 6.5 the GraphiQL IDE tool needs to be manually installed, follow below st
 
 >[!TIP]
 >
->To support your project specific GraphQL schema and query execution, you have to make corresponding changes for the `endpoint` and `Excluded Paths` values in above steps.
+>To support your project-specific GraphQL schema and query execution, you have to make corresponding changes for the `endpoint` and `Excluded Paths` values in above steps.

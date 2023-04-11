@@ -23,8 +23,7 @@ View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphq
 
 The following tools should be installed locally:
 
-+ [Node.js v16+](https://nodejs.org/en/)
-+ [npm 8+](https://www.npmjs.com/)
++ [Node.js v18](https://nodejs.org/)
 + [Git](https://git-scm.com/)
 
 ## AEM requirements

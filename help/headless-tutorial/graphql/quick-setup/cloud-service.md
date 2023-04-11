@@ -23,8 +23,7 @@ The following are required to follow this quick setup:
   + __AEM Administrator__ access to AEM as a Cloud Service
   + __Cloud Manager - Deployment Manager__ access to Cloud Manager
 + The following tools must be installed locally:
-  + [Node.js v10+](https://nodejs.org/en/)
-  + [npm 6+](https://www.npmjs.com/)
+  + [Node.js v18](https://nodejs.org/en/)
   + [Git](https://git-scm.com/)
   + An IDE (for example, [Microsoft&reg; Visual Studio Code](https://code.visualstudio.com/))
 

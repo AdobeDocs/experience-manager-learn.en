@@ -26,8 +26,7 @@ _A video walk-through of the quick setup_
 This tutorial requires the following:
 
 + [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en)
-+ [Node.js v16+](https://nodejs.org/en/)
-+ [npm v8+](https://www.npmjs.com/)
++ [Node.js v18](https://nodejs.org/en/)
 + [Java&trade; 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 + [Maven 3.6+](https://maven.apache.org/)
 + [Git](https://git-scm.com/downloads)

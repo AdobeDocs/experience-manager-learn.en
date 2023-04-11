@@ -27,15 +27,13 @@ This tutorial covers the following topics:
 * To store or persist the GraphQL queries to AEM
 * Consume persisted GraphQL queries from a sample React app
 
-
 ## Prerequisites {#prerequisites}
 
 The following are required to follow this tutorial:
 
 *   Basic HTML and JavaScript skills
 *   The following tools must be installed locally:
-    * [Node.js v14+](https://nodejs.org/en/)
-    * [npm 6+](https://www.npmjs.com/)
+    * [Node.js v18](https://nodejs.org/)
     * [Git](https://git-scm.com/)
     * An IDE (for example, [Microsoft&reg; Visual Studio Code](https://code.visualstudio.com/))
 
@@ -51,4 +49,4 @@ Start the tutorial with [Defining Content Fragment Models](content-fragment-mode
 
 The source code, and content packages are available on the [AEM Guides - WKND GraphQL GitHub Project](https://github.com/adobe/aem-guides-wknd-graphql).
 
-If you find an issue with the tutorial or the code, please leave a [GitHub issue](https://github.com/adobe/aem-guides-wknd-graphql/issues).
+If you find an issue with the tutorial or the code, leave a [GitHub issue](https://github.com/adobe/aem-guides-wknd-graphql/issues).
