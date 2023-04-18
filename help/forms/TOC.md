@@ -224,7 +224,12 @@ index: y
   + [Create workflow component](welcome-kit/create-workflow-component.md)
   + [Test the solution](welcome-kit/testing-the-solution.md)
   
-  
++ React App with Forms and Acrobat Sign {#react-ic-sign}
+  + [Introduction](react-ic-sign/introduction.md)
+  + [Generate IC Document](react-ic-sign/create-ic-document.md)
+  + [Acrobat Sign API Wrapper](react-ic-sign/wrapper-sign-api.md)
+  + [Generate Sign Widget](react-ic-sign/create-servlet-to-expose-endpoint.md)
+  + [Deploy the sample assets](react-ic-sign/deploy-assets-on-your-server.md)
 + Document Services {#document-services}
   + [Types of PDF forms](document-services/pdf-forms-and-documents.md)
   + [Embed pdf in adaptive form](document-services/embed-pdf-inline.md)
