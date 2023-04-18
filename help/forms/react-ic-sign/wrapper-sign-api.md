@@ -21,7 +21,8 @@ A custom AEM bundle was developed to create and return the web form to the end u
 ## Create Acrobat Sign OSGi configuration
 
 Acrobat Sign REST API require the integration key and email associated with the integration key. These two values are provided as an OSGi configuration properties as shown below
-![sign-configuration](assets/sign-configuration.jpg)
+
+![sign-configuration](assets/sign-configuration.png)
 
 ```java
 package com.acrobatsign.core.configuration;
