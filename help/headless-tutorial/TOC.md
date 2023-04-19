@@ -53,6 +53,7 @@ index: y
   + [Rich text](./graphql/how-to/rich-text.md)
   + [Images](./graphql/how-to/images.md)
   + [Localized content](./graphql/how-to/localized-content.md)
+  + [Large result sets](./graphql/how-to/large-result-sets.md)
   + [Preview](./graphql/how-to/preview.md)
   + [AEM Headless SDK](./graphql/how-to/aem-headless-sdk.md)
   + [Install GraphiQL on AEM 6.5](./graphql/how-to/install-graphiql-aem-6-5.md)

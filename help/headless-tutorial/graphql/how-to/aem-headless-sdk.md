@@ -197,3 +197,37 @@ New `useEffect` hooks can be created for each persisted query the React app uses
 
 AEM supports client-defined GraphQL queries, however it is AEM best practice to use [persisted GraphQL queries](#persisted-graphql-queries).
 
+## Webpack 5+
+
+The AEM Headless JS SDK has dependencies on `util` which is not included in Webpack 5+ by default. If you are using Webpack 5+, and receive the following error:
+
+```
+Compiled with problems:
+× ERROR in ./node_modules/@adobe/aio-lib-core-errors/src/AioCoreSDKErrorWrapper.js 12:13-28
+Module not found: Error: Can't resolve 'util' in '/Users/me/Code/wknd-headless-examples/node_modules/@adobe/aio-lib-core-errors/src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+    - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+    - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+    resolve.fallback: { "util": false }
+```
+
+Add the following `devDependencies` to your `package.json` file:
+
+```json
+  "devDependencies": {
+    "buffer": "npm:buffer@^6.0.3",
+    "crypto": "npm:crypto-browserify@^3.12.0",
+    "http": "npm:stream-http@^3.2.0",
+    "https": "npm:https-browserify@^1.0.0",
+    "stream": "npm:stream-browserify@^3.0.0",
+    "util": "npm:util@^0.12.5",
+    "zlib": "npm:browserify-zlib@^0.2.0"
+  },
+```
+
+Then run `npm install` to install the dependencies.
