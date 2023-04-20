@@ -28,9 +28,11 @@ Pagination and sorting can be used against any Content Fragment Model.
 
 When working with large datasets, both offset and limit and cursor-based pagination can be used to retrieve a specific subset of the data. However, there are some differences between the two techniques that may make one more appropriate than the other in certain situations.
 
-### List query
+### Offset/limit
 
 List queries, using `limit` and `offset` provide a straightforward approach that specifies the starting point (`offset`) and the number of records to retrieve (`limit`). This approach allows a subset of results to be selected from anywhere within the full result set, such as jumping to a specific page of results. While it's easy to implement, it can be slow and inefficient when dealing with large result, as retrieving many records requires scanning through all the previous records. This approach can also lead to performance issues when the offset value is high, as it may require retrieving and discarding many results.
+
+#### GraphQL query
 
 ```graphql
 # Retrieves a list of Adventures sorted price descending, and title ascending if there is the prices are the same.
@@ -45,7 +47,7 @@ query adventuresByOffetAndLimit($offset:Int!, $limit:Int) {
   }
 ```
 
-#### Query variables
+##### Query variables
 
 ```json
 {
@@ -54,7 +56,7 @@ query adventuresByOffetAndLimit($offset:Int!, $limit:Int) {
 }
 ```
 
-### List response
+#### GraphQL response
 
 The resulting JSON response contains the 2nd, 3rd, 4th and 5th most expensive Adventures. The first two adventures in the results have the same price (`4500` so the [list query](#list-queries) specifies adventures with the same price is then sorted by title in ascending order.)
 
@@ -93,10 +95,11 @@ The resulting JSON response contains the 2nd, 3rd, 4th and 5th most expensive Ad
 
 Cursor-based pagination, available in Paginated queries, involves using a cursor (a reference to a specific record) to retrieve the next set of results. This approach is more efficient as it avoids the need to scan through all the previous records to retrieve the required subset of data. Paginated queries are great for iterating through large result sets from the beginning, to some point in the middle, or to the end. List queries, using `limit` and `offset` provide a straightforward approach that specifies the starting point (`offset`) and the number of records to retrieve (`limit`). This approach allows a subset of results to be selected from anywhere within the full result set, such as jumping to a specific page of results. While it's easy to implement, it can be slow and inefficient when dealing with large result, as retrieving many records requires scanning through all the previous records. This approach can also lead to performance issues when the offset value is high, as it may require retrieving and discarding many results.
 
+#### GraphQL query
 
 ```graphql
 # Retrieves the most expensive Adventures (sorted by title ascending if there is the prices are the same)
-query adventuresByPaginated($first:Int!, $after:String) {
+query adventuresByPaginated($first:Int, $after:String) {
  adventurePaginated(first: $first, after: $after, sort: "price DESC, title ASC") {
        edges {
           cursor
@@ -114,7 +117,7 @@ query adventuresByPaginated($first:Int!, $after:String) {
   }
 ```
 
-#### Query variables
+##### Query variables
 
 ```json
 {
@@ -122,7 +125,7 @@ query adventuresByPaginated($first:Int!, $after:String) {
 }
 ```
 
-### Paginated response
+#### GraphQL response
 
 The resulting JSON response contains the 2nd, 3rd, 4th and 5th most expensive Adventures. The first two adventures in the results have the same price (`4500` so the [list query](#list-queries) specifies adventures with the same price is then sorted by title in ascending order.)
 
@@ -165,11 +168,11 @@ The resulting JSON response contains the 2nd, 3rd, 4th and 5th most expensive Ad
 }
 ```
 
-### Next set of paginated results
+#### Next set of paginated results
 
 THe next set of results can be fetched using the `after` parameter and the `endCursor` value from the previous query. If there are no more results to fetch, `hasNextPage` is `false`.
 
-#### Query variables
+##### Query variables
 
 ```json
 {
