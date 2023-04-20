@@ -278,6 +278,7 @@ index: y
   + [Two Column Layout in Print Channel Documents](interactive-communications/two-column-layout-aem-forms-article-use.md)
   + [Using Table Component in AEM Forms Print Channel Document](interactive-communications/table-in-print-channel-documents-video-use.md)
   + [Generating Interactive Communications Document for Print Channel using Watch Folders](interactive-communications/generating-interactive-communications-print-document-using-api-tutorial-use.md)
+  + [Customize text editor](interactive-communications/customize-text-editor.md)
 
 + Interactive Communications For Web Channel {#ic-web-channel-tutorial}
   + [Introduction](ic-web-channel-tutorial/introduction.md)
