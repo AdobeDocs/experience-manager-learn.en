@@ -30,7 +30,7 @@ Apache Web Server doesn't actually care what the file extension is of a file whe
 | FILENAME`_rewrite.rules` | `/etc/httpd/conf.d/rewrites/` | `*_rewrite.rules` files store `mod_rewrite` rules to be included and consumed explicitly by a `vhost` file |
 | FILENAME`_whitelist.rules` | `/etc/httpd/conf.d/whitelists/` | `*_ipwhitelist.rules` files are included from inside the `*.vhost` files. It contains IP regex or allow deny rules to allow IP whitelisting. If you're trying to restrict viewing of a virtual host based on IP addresses you'll generate one of these files and include it from your `*.vhost` file |
 
-## Files contained in conf.modules.d/
+## Files contained in conf.dispatcher.d/
 
 | File | File Destination | Description |
 | --- | --- | --- |
