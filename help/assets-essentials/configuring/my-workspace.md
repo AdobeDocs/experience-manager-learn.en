@@ -10,8 +10,8 @@ doc-type: Feature Video
 last-substantial-update: 2023-01-31
 kt: 11800
 thumbnail: 3413809.jpeg
+exl-id: da9363f3-43a9-4396-b8e8-15267fd7a689
 ---
-
 # My Workspace in Assets Essentials
 
 Learn how to work more efficiently using My Workspace's user-configurable widgets.

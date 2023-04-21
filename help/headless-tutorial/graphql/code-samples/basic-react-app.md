@@ -12,8 +12,8 @@ thumbnail: KT-11134.jpg
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 870be37f-68bb-4b0f-9918-e68b09be830e
 ---
-
 # Basic React app
 
 This [React](https://reactjs.org/) app demonstrates how to query content using AEM's GraphQL APIs using persisted queries. This application renders a filterable of WKND Adventures, and upon selecting an adventure, displays the adventures full details.

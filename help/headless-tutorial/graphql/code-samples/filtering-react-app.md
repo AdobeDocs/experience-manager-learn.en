@@ -1,5 +1,5 @@
 ---
-title: Filtering React app 
+title: Filtering React app
 description: A simple React app that filters WKND adventures modeled using Content Fragments.
 version: Cloud Service
 feature: Content Fragments, GraphQL API
@@ -11,8 +11,8 @@ thumbnail: KT-11132.jpg
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 1eb9487e-a82a-4d15-a776-cf004f2e3f01
 ---
-
 # Filtering React app
 
 Explore AEM Headless GraphQL APIs ability to filter data using a [React](https://reactjs.org/) app. This React app creates a list of WKND adventures filterable by Activity Type.

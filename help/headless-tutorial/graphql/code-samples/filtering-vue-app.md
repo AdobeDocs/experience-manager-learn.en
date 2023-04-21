@@ -11,8 +11,8 @@ thumbnail: KT-11366.jpg
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 8f96093a-4449-4249-9257-028e2ffd979b
 ---
-
 # Filtering Vue app
 
 Explore AEM Headless GraphQL APIs ability to filter data using a [Vue](https://vuejs.org/) app. This React app creates a list of WKND adventures filterable by Activity Type.

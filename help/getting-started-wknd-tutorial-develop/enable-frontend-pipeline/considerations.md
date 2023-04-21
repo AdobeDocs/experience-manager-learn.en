@@ -11,8 +11,8 @@ kt: 10689
 mini-toc-levels: 1
 index: y
 recommendations: noDisplay, noCatalog
+exl-id: a3b27d5b-b167-4c60-af49-8f2e8d814c86
 ---
-
 # Development considerations
 
 After enabling the front-end pipeline to only deploy the front-end resources in AEM as a Cloud Service environment, there is some impact on the local AEM development and you have to tweak the git branching model.
@@ -36,6 +36,3 @@ A __solution__ could be to adjust your git branching model and making sure the A
 
 
 *   As part of an ongoing enhancement to your AEM project, if you introduce new components or update an existing component that has changes in both `ui.app` and `ui.frontend` module, you have to run both full-stack and front-end pipelines.
-
-
-

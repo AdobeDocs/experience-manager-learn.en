@@ -10,8 +10,8 @@ doc-type: Code Sample
 last-substantial-update: 2023-03-30
 jira: KT-13014
 thumbnail: KT-13014.jpeg
+exl-id: c6bb9d6d-aef0-42d5-a189-f904bbbd7694
 ---
-
 # Web-optimized image delivery Java&trade; APIs
 
 Learn how to use AEM as a Cloud Service's web-optimized image delivery Java&trade; APIs to develop highly performant web experiences.

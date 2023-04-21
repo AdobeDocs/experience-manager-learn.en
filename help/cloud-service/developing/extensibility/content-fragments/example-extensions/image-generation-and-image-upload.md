@@ -10,8 +10,8 @@ kt: 11649
 thumbnail: KT-11649.png
 doc-type: article
 last-substantial-update: 2023-01-04
+exl-id: f3047f1d-1c46-4aee-9262-7aab35e9c4cb
 ---
-
 # AEM image asset generation using OpenAI
 
 Learn how to generate an image using OpenAI or DALL.E 2 and upload it to AEM DAM for content velocity.
@@ -904,4 +904,3 @@ module.exports = {
 };
 
 ```
-

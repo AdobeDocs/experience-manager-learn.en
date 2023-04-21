@@ -9,6 +9,7 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 12557
+exl-id: 369c563e-c847-438a-a783-bc6a9f81b77c
 ---
 # Report on form data field values and form field validation errors using Adobe Analytics
 
@@ -27,5 +28,3 @@ Learn how to implement analytics on your adaptive forms using Tags and Adobe Ana
 This tutorial uses a simple adaptive form built in AEM Forms and measures form submissions for state of residence values, as well as fields that generate validation errors.
 
 ![adaptive-form](assets/use-case.png)
-
-

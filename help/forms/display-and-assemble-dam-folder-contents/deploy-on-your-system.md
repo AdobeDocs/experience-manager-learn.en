@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 last-substantial-update: 2023-01-04
+exl-id: d23b51ba-1efb-4505-b5b3-44a02177e467
 ---
 # Deploy on your system
 
@@ -24,7 +25,3 @@ Please follow the steps listed below to get this use case working on your local 
 
 * [Preview the form](http://localhost:4502/content/dam/formsanddocuments/downloadarchivednewsletters/jcr:content?wcmmode=disabled).
 Select a couple of newsletters to download.The selected newsletters will be combined into one pdf and returned to you.
-
-
-
-

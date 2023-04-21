@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 kt: 10254
 thumbnail: KT-10254.jpeg
+exl-id: 5e3d115b-f3a1-4edc-86ab-3e0713a36d54
 ---
-
 # Localized content with AEM Headless
 
 AEM provides a [Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/integration-framework.html) for headless content, allowing Content Fragments and supporting assets to be easily translated for use across locales. This is the same framework used to translate other AEM content, such as Pages, Experience Fragments, Assets, and Forms. Once [headless content has been translated](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/headless/journeys/translation/overview.html), and published, it is ready for consumption by headless applications.

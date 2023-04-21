@@ -5,11 +5,11 @@ feature: Developer Tools
 version: Cloud Service
 topic: Development
 role: Developer
-level: Intermediate 
+level: Intermediate
 kt: 11743
 last-substantial-update: 2023-01-17
+exl-id: 9a3fed96-c99b-43d1-9dba-a4311c65e5b9
 ---
-
 # Generate access token in App Builder action
 
 App Builder actions may need to interact with Adobe APIs associated with Adobe Developer Console projects the App Builder app is deployed too.

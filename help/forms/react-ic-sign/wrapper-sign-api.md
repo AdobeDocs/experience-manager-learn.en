@@ -7,8 +7,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 13099
-
 last-substantial-update: 2023-04-13
+exl-id: b7ddc0bd-db93-44e0-83cc-bccde604bd91
 ---
 # Create a wrapper for Acrobat Sign REST API
 

@@ -9,8 +9,8 @@ role: Architect, Developer
 level: Beginner
 kt: 11200
 thumbnail: kt-11200.jpg
+exl-id: bdec6cb0-34a0-4a28-b580-4d8f6a249d01
 ---
-
 # AEM as a Cloud Service content migration FAQ
 
 Get answers to frequently asked questions about content migration to AEM as a Cloud Service.

@@ -13,8 +13,8 @@ index: y
 recommendations: disable
 thumbnail: 53409343.jpg
 last-substantial-update: 2022-09-23
+exl-id: b795e7e8-f611-4fc3-9846-1d3f1a28ccbc
 ---
-
 # Enable front-end pipeline for standard AEM project Archetype{#enable-front-end-pipeline-standard-aem-project}
 
 Learn how to enable the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd) (aka Standard AEM Project) created using [AEM Project Archetype](https://github.com/adobe/aem-project-archetype) to deploy front-end resources such as CSS, JavaScript, Fonts, and Icons using a front-end pipeline for a faster development-to-deployment cycle. The separation of front-end development from full-stack back-end development on AEM. You also learn how these front-end resources are __not__ served from the AEM repository but from the CDN, a change in delivery paradigm.
@@ -51,4 +51,3 @@ Make sure to use the [Sandbox program](https://experienceleague.adobe.com/docs/e
 A step-by-step tutorial walks through the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd) conversion to enable it for the front-end pipeline.
 
 What are you waiting for? Start the tutorial by navigating to the [Review Full-stack Project](review-uifrontend-module.md) chapter and recap the front-end development life cycle in the context of the standard AEM Sites Project.
-

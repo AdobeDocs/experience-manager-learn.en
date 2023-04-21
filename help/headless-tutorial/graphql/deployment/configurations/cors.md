@@ -8,8 +8,8 @@ role: Developer, Architect
 level: Intermediate
 kt: 10830
 thumbnail: KT-10830.jpg
+exl-id: 394792e4-59c8-43c1-914e-a92cdfde2f8a
 ---
-
 # Cross-origin resource sharing (CORS) 
 
 Adobe Experience Manager as a Cloud Service's Cross-Origin Resource Sharing (CORS) facilitates non-AEM web properties to make browser-based client-side calls to AEM's GraphQL APIs.

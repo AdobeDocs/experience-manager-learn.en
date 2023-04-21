@@ -7,8 +7,8 @@ feature: Dispatcher
 role: Admin
 level: Beginner
 thumbnail: xx.jpg
+exl-id: 299b32c3-7922-4eee-aa3a-56039a654f70
 ---
-
 # Using and Understanding Variables
 
 [Table of Contents](./overview.md)

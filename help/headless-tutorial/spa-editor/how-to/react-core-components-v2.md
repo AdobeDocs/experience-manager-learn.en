@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 kt: 10900
 thumbnail: kt-10900.jpeg
+exl-id: e055b356-dd26-4366-8608-5a0ccf5b4c49
 ---
-
 # How to use AEM React Editable Components v2
 
 AEM provides [AEM React Editable Components v2](https://www.npmjs.com/package/@adobe/aem-react-editable-components), an Node.js-based SDK that allows the creation of React components, that support in-context component editing using AEM SPA Editor.
@@ -225,6 +225,3 @@ const EditableEmbedding = (props) => {
 // Export as default the mapped EditableEmbedding
 export default MapTo("wknd-examples/components/embedding")(EditableEmbedding);
 ```
-
-
-

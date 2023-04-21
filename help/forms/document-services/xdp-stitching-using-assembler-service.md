@@ -6,8 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
-
 last-substantial-update: 2022-12-19
+exl-id: e116038f-7d86-41ee-b1b0-7b8569121d6d
 ---
 # XDP Stitching using assembler sevice
 

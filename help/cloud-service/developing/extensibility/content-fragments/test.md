@@ -9,8 +9,8 @@ level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
 last-substantial-update: 2022-12-01
+exl-id: c5c1df23-1c04-4c04-b0cd-e126c31d5acc
 ---
-
 # Test an extension
 
 AEM Content Fragment Console extensions can be tested against any AEM as a Cloud Service environment in the Adobe Org the extension belongs to.
@@ -127,6 +127,3 @@ This URL is used below when crafting the URLs for development and stage testing.
 
 1. Deployed extensions can be updated by running `aio app deploy` again, and these changes automatically reflect when using the test URL.
 1. To remove an extension for testing, run `aio app undeploy`.
-
-
-

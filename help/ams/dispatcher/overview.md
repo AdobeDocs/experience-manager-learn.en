@@ -7,8 +7,8 @@ feature: Dispatcher
 role: Admin
 level: Beginner
 thumbnail: xx.jpg
+exl-id: 4f72d010-f488-490a-83fb-38ff1b1e8183
 ---
-
 # Adobe Managed Services Dispatcher manual
 
 If your AEM installation is hosted on Adobe Managed Service then you'll want to read through this manual.

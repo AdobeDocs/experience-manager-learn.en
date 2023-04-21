@@ -8,8 +8,8 @@ role: Developer, Architect
 level: Intermediate
 kt: 10798
 thumbnail: kt-10798.jpg
+exl-id: d4ae08d9-dc43-4414-ab75-26853186a301
 ---
-
 # AEM Headless server-to-server deployments
 
 AEM Headless server-to-server deployments involve server-side applications or processes that consume and interact with content in AEM in a headless manner.

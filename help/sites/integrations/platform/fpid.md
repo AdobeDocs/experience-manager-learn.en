@@ -9,6 +9,7 @@ level: Beginner
 last-substantial-update: 2022-10-20
 kt: 11336
 thumbnail: kt-11336.jpeg
+exl-id: 18a22f54-da58-4326-a7b0-3b1ac40ea0b5
 ---
 # Generate Experience Platform FPIDs with AEM
 
@@ -197,5 +198,3 @@ Review the following Experience Platform documentation for First-party device ID
 + [Generate first-party device IDs](https://experienceleague.adobe.com/docs/platform-learn/data-collection/edge-network/generate-first-party-device-ids.html)
 + [First-party device IDs in the Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)
 + [Identity data in the Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html)
-
-

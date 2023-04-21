@@ -8,6 +8,7 @@ role: Admin
 level: Experienced
 jira: KT-12305
 last-substantial-update: 2023-03-01
+exl-id: 460e9bfa-1b15-41b9-b8b7-58b2b1252576
 ---
 # Authenticate to AEM Author using OKTA
 

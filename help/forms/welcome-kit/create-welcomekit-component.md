@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 last-substantial-update: 2022-12-14
+exl-id: 66496f0e-c121-4b6d-b371-084393ece3ca
 ---
 # Welcome kit component
 
@@ -35,6 +36,3 @@ The following code lists the assets on the page:
 <sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!ready}"></sly>
 
 ```
-
-
-

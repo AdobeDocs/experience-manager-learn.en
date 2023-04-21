@@ -7,8 +7,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 13099
-
 last-substantial-update: 2023-04-13
+exl-id: d970d58b-77a4-4012-9e72-b97d60ef028a
 ---
 # Create servlet
 

@@ -12,8 +12,8 @@ thumbnail: KT-11135.jpg
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 75ffd84a-62b1-480f-b05f-3664f54bb171
 ---
-
 # Filtering with jQuery and Handlebars
 
 Explore AEM Headless GraphQL APIs ability to filter data using a JavaScript app that uses [jQuery](https://jquery.com/) and [Handlebars](https://handlebarsjs.com/). This app creates a list of WKND adventures filterable by Activity Type.

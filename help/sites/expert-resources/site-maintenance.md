@@ -4,8 +4,8 @@ seo-title: Your Routine Site Maintenance Guide
 description: Whether you're an admin, author, or developer, site maintenance touches every aspect of your AEM Sites instance. Use this guide to ensure your strategy is set up for success.
 seo-description: Whether you're an admin, author, or developer, site maintenance touches every aspect of your AEM Sites instance. Use this guide to ensure your strategy is set up for success.
 audience: author, marketer, developer
+exl-id: 37ee3234-f91c-4f0a-b0b7-b9167e7847a9
 ---
-
 # Site Maintenance Tips and Tricks
 
 There are three options when it comes to installing and maintaining an AEM instance 

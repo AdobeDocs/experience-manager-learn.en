@@ -4,8 +4,8 @@ seo-title: AEM Sites Site Hierarchy, Taxonomy, and Tagging Guide
 description: A full overview of AEM Sites metadata, tagging, taxonomy, and hierarchy. Use this guide to ensure your content strategy is consistent and following best practices
 seo-description: A full overview of AEM Sites metadata, tagging, taxonomy, and hierarchy. Use this guide to ensure your content strategy is consistent and following best practices
 audience: author, marketer
+exl-id: c88c3ec7-9060-43e2-a6a2-d47bba6f7cf3
 ---
-
 # Tags, Taxonomy, and Metadata Best Practices: High-level Summary
 
 Metadata and tags are key to driving efficiency in AEM. Users, leaders, and management realize the need for holistic strategy, but they find it difficult make headway. Often knowledge is siloed among users, making holistic strategy difficult—and makes adjustments even more problematic. 

@@ -7,10 +7,9 @@ kt: 10961
 topic: Development
 role: Developer
 level: Beginner
-
 last-substantial-update: 2022-09-20
 thumbnail: item-load.jpg
-
+exl-id: 89c486c8-95c3-4cd4-bf8e-a1b3558f17d6
 ---
 # Item Load Property in AEM Forms
 

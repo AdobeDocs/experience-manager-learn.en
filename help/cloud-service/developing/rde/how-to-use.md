@@ -9,8 +9,8 @@ level: Beginner
 jira: KT-11862
 thumbnail: KT-11862.png
 last-substantial-update: 2023-02-15
+exl-id: 1d1bcb18-06cd-46fc-be2a-7a3627c1e2b2
 ---
-
 # How to use Rapid Development Environment
 
 Learn **how to use** Rapid Development Environment (RDE) in AEM as a Cloud Service. Deploy code and content for faster development cycles of your near-final code to the RDE, from your favorite Integrated Development Environment (IDE).

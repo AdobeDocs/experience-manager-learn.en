@@ -9,8 +9,8 @@ level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
 last-substantial-update: 2022-12-01
+exl-id: 97d26a1f-f9a7-4e57-a5ef-8bb2f3611088
 ---
-
 # Action bar extension
 
 ![Action bar extension](./assets/action-bar/action-bar.png){align="center"}

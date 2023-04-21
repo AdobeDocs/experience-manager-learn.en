@@ -11,8 +11,8 @@ kt: 10689
 mini-toc-levels: 1
 index: y
 recommendations: noDisplay, noCatalog
+exl-id: d6da05e4-bd65-4625-b9a4-cad8eae3c9d7
 ---
-
 # Deploy using the front-end pipeline
 
 In this chapter, we create and run a front-end pipeline in Adobe Cloud Manager. It only builds the files from `ui.frontend` module and deploys them to the built-in CDN in AEM as a Cloud Service. Thus moving away from the  `/etc.clientlibs` based front-end resources delivery.

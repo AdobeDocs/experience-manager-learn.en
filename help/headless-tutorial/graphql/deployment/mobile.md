@@ -8,8 +8,8 @@ role: Developer, Architect
 level: Intermediate
 kt: 10796
 thumbnail: KT-10796.jpg
+exl-id: 1f536079-b3ce-4807-be88-804378e75d37
 ---
-
 # AEM Headless mobile deployments
 
 AEM Headless mobile deployments are native mobile apps for iOS, Android&trade;, etc. that consume and interact with content in AEM in a headless manner.
@@ -74,5 +74,3 @@ Adobe provides example iOS and Android&trade; mobile apps.
        </div>
     </div>
 </div>
-
-

@@ -1,5 +1,5 @@
 ---
-title: Filtering Preact app 
+title: Filtering Preact app
 description: A simple Preact app that filters WKND adventures modeled using Content Fragments.
 version: Cloud Service
 feature: Content Fragments, GraphQL API
@@ -11,8 +11,8 @@ thumbnail: KT-11389.jpg
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: d2b7e8ab-8bbc-495f-94f1-362ea47b3853
 ---
-
 # Filtering Preact app
 
 Explore AEM Headless GraphQL APIs ability to filter data using a [Preact](https://preactjs.com/) app. This Preact app creates a list of WKND adventures filterable by Activity Type.

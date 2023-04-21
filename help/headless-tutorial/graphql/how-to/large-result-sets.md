@@ -10,8 +10,8 @@ doc-type: Article
 last-substantial-update: 2023-04-14
 jira: KT-13102
 thumbnail: 3418381.jpeg
+exl-id: f47ce344-310f-4b4c-9340-b0506289f468
 ---
-
 # Large result sets in AEM Headless
 
 AEM Headless GraphQL queries can return large results. This article describes how to work with large results in AEM Headless to ensure the best performance for your application. 

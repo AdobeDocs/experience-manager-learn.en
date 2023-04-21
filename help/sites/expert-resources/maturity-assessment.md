@@ -4,8 +4,8 @@ seo-title: AEM Sites Maturity Assessment
 description: This checklist provides an overview of key questions you and your team should be answering when evaluating the maturity of your AEM Sites instance
 seo-description: This checklist provides an overview of key questions you and your team should be answering when evaluating the maturity of your AEM Sites instance
 audience: author, marketer, developer
+exl-id: 22164a0e-7239-43f4-8356-c12f68133255
 ---
-
 # Your AEM Sites Maturity Assessment Checklist
 
 Assessing the current state of your AEM Sites instance can feel overwhelming. Generally, the best place to start is to audit your instance and now you can use this maturity assessment checklist to guide you through that process!  
@@ -29,4 +29,3 @@ In most cases, the AEM maturity assessment will help to perform a diagnostic rev
 Recommended AEM maturity assessment areas of focus: Design and Architecture, Product management and strategy, Digital Asset Management and Delivery, Analytics, Testing and Security. 
 
 Huge shoutout to AEM Champion Greg Dimeris for aggregating this information from multiple Experience League articles as well as his own best practices!
- 

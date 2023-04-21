@@ -8,8 +8,8 @@ role: Developer, Architect
 level: Intermediate
 kt: 10797
 thumbnail: kt-10797.jpg
+exl-id: 9d4aab4c-82af-4917-8c1b-3935f19691e6
 ---
-
 # AEM Headless Web Component deployments
 
 AEM Headless [Web Component](https://developer.mozilla.org/en-US/docs/Web/Web_Components)/JS deployments are pure JavaScript apps that run in a web browser, that consume and interact with content in AEM in a headless manner. Web Component/JS deployments differ from [SPA deployments](./spa.md) in that they don't use a robust SPA framework, and are expected to be embedded in the context of any website, deliver, to surface content from AEM.
