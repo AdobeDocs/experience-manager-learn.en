@@ -9,8 +9,8 @@ level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
 last-substantial-update: 2022-12-01
+exl-id: 2e37165d-c003-4206-8133-54e37ca35b8e
 ---
-
 # Deploy an extension
 
 For use on AEM as a Cloud Service environments, the extension App Builder app must be deployed and approved.

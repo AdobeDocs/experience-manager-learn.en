@@ -10,6 +10,7 @@ level: Beginner
 kt: 10721
 thumbnail: KT-10721.jpg
 last-substantial-update: 2022-10-03
+exl-id: 4f67bb37-416a-49d9-9d7b-06c3573909ca
 ---
 # Next.js App
 
@@ -241,4 +242,3 @@ The Next.js app uses two pages to present the adventure data.
 Next.js apps, especially in the context of Server-side rendering (SSR) and Server-side generation (SSG), do not require advanced security configurations such as Cross-origin Resource Sharing (CORS).
 
 However, if the Next.js does make HTTP requests to AEM from the context of the client, security configurations in AEM may be required. Review the [AEM Headless single-page app deployment tutorial](../deployment/spa.md) for more details.
-

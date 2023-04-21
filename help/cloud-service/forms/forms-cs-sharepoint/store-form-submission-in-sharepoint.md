@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 kt: 11895
-
+exl-id: 7f9ccf2f-fe7c-4a38-b305-ab6937f3d79a
 ---
 # AEM Forms as Cloud Service with Microsoft Sharepoint
 

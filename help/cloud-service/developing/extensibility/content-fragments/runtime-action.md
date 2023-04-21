@@ -9,8 +9,8 @@ level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
 last-substantial-update: 2022-12-01
+exl-id: 3062900a-0461-4c6f-81e6-c76a7f613804
 ---
-
 # Adobe I/O Runtime action
 
 ![AEM Content Fragment extension runtime actions](./assets/runtime-action/action-runtime-flow.png){align="center"}

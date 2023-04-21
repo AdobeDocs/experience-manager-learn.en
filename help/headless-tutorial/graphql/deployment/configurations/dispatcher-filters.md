@@ -8,8 +8,8 @@ role: Developer, Architect
 level: Intermediate
 kt: 10829
 thumbnail: kt-10829.jpg
+exl-id: b76b7c46-5cbd-4039-8fd6-9f0f10a4a84f
 ---
-
 # Dispatcher filters 
 
 Adobe Experience Manager as a Cloud Service uses AEM Publish Dispatcher filters to ensure only requests that should reach AEM do reach AEM. By default all requests are denied, and patterns for allowed URLs must be explicitly added.

@@ -12,8 +12,8 @@ thumbnail: KT-11368.jpg
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 2d4396dc-2346-4561-b040-eba0ab62a96f
 ---
-
 # Basic Next.js app
 
 This [Next.js](https://nextjs.org/) app demonstrates how to query content using AEM's GraphQL APIs using persisted queries. This application renders a filterable of WKND Adventures, and upon selecting an adventure, displays the adventures full details.

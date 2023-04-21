@@ -7,8 +7,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 13099
-
 last-substantial-update: 2023-04-13
+exl-id: d97ff584-7fa0-48bc-9b83-ba45c26b7d87
 ---
 # Generate Interactive Communication Document
 
@@ -311,5 +311,3 @@ public String getWidgetURL(String widgetId) throws ClientProtocolException, IOEx
         
     }
 ```
-
-

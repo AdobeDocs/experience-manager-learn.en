@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 last-substantial-update: 2022-12-14
+exl-id: ba9e80af-aecd-4558-a236-798c823e695c
 ---
 # Workflow component
 
@@ -155,7 +156,3 @@ public class CreatePage implements WorkflowProcess {
   }
 }
 ```
-
-
-
-

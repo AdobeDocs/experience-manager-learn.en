@@ -9,6 +9,7 @@ level: Beginner
 kt: 11245
 last-substantial-update: 2022-10-15
 thumbnail: third-party.jpg
+exl-id: e8841c63-3159-4f13-89a1-d8592af514e3
 ---
 # Including third party bundles in your AEM project
 
@@ -57,6 +58,3 @@ mvn clean install -PautoInstallSinglePackage
 
 If everything goes well, the package is installed along with the third-party bundle into your AEM instance. You can check for the bundle using [felix web console](http://localhost:4502/system/console/bundles). The third-party bundle is available in the /apps folder of the `crx` repository as shown below
 ![third-party](assets/custom-bundle1.png)
-
-
-

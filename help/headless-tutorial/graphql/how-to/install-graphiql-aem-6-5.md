@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 kt: 11614
 thumbnail: KT-10253.jpeg
+exl-id: 04fcc24c-7433-4443-a109-f01840ef1a89
 ---
-
 # Install GraphiQL IDE on AEM 6.5
 
 In AEM 6.5 the GraphiQL IDE tool must be manually installed.

@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-03-17
 jira: KT-10841
 thumbnail: 3416906.jpeg
+exl-id: 247d40a3-ff67-4c1f-86bf-3794d7ce3e32
 ---
-
 # Content Fragment preview
 
 AEM Headless applications support integrated authoring preview. The preview experience links the AEM Author's Content Fragment editor with your custom app (addressable via HTTP), allowing for a deep link into the app that renders the Content Fragment being previewed.

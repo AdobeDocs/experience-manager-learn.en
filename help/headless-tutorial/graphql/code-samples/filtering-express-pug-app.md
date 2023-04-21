@@ -1,5 +1,5 @@
 ---
-title: Filtering Express app 
+title: Filtering Express app
 description: A simple Express app that filters WKND adventures modeled using Content Fragments.
 version: Cloud Service
 feature: Content Fragments, GraphQL API
@@ -12,8 +12,8 @@ index: no
 hide: yes
 hidefromtoc: yes
 recommendations: noCatalog, noDisplay
+exl-id: b64f33ab-cd18-4cbc-a57e-baf505f1442a
 ---
-
 # Filtering Express app
 
 Explore AEM Headless GraphQL APIs ability to filter data using a [Express](https://expressjs.com/) and [Pug](https://pugjs.org/) app. This Express app creates a list of WKND adventures filterable by Activity Type.

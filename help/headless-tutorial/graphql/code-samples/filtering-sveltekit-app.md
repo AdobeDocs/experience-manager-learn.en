@@ -1,5 +1,5 @@
 ---
-title: Simple SvelteKit app 
+title: Simple SvelteKit app
 description: A simple SvelteKit app that displays WKND adventures modeled using Content Fragments.
 version: Cloud Service
 feature: Content Fragments, GraphQL API
@@ -12,8 +12,8 @@ index: no
 hide: yes
 recommendations: noCatalog, noDisplay
 hidefromtoc: yes
+exl-id: 2e5bd50e-c0d7-4292-8097-e0a17f41a91a
 ---
-
 # Filtering SvelteKit app
 
 Explore AEM Headless GraphQL APIs ability to list data using a [SvelteKit](https://kit.svelte.dev/) app. This SvelteKit app creates a list of WKND adventures, that can be selected to display the adventure's details.

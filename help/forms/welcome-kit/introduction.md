@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 last-substantial-update: 2022-12-14
+exl-id: 7aba25d1-0d4d-4c49-8132-f844a288e8f3
 ---
 # Welcome kit
 
@@ -20,6 +21,3 @@ A working instance of AEM with Form Add-on package installed
 Core components installed
 
 [Development environment set up according to this document](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html)
-
-
-

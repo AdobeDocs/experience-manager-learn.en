@@ -9,8 +9,8 @@ level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
 last-substantial-update: 2022-12-01
+exl-id: ef2290d9-ba40-429b-b10d-e82d6c1c20f6
 ---
-
 # Extension registration
 
 AEM Content Fragment Console extensions are specialized App Builder app, based on React and uses the [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/) UI framework. 

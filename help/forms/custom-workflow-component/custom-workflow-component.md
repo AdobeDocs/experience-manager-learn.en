@@ -6,8 +6,8 @@ version: 6.5
 topic: Development
 role: Developer
 level: Experienced
-
 last-substantial-update: 2021-11-28
+exl-id: acc701ec-b57d-4c20-8f97-a5a69bb180cd
 ---
 # Custom Workflow Component
 
@@ -61,9 +61,3 @@ Notice the properties of the cq:formParameters node
 ![from-parameters-properties](assets/form-parameters-properties.png)
 
 The value of the property PROCESS indicates the java code that will be associated with the workflow component.
-
-
-
-
-
-

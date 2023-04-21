@@ -10,8 +10,8 @@ recommendations: noDisplay
 kt: 11603
 thumbnail: KT-11603.png
 last-substantial-update: 2022-12-09
+exl-id: 093c8d83-2402-4feb-8a56-267243d229dd
 ---
-
 # AEM Content Fragments Console extension
 
 [AEM Content Fragments Console](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-console.html) extensions can be added through two extension points: a button in the [Content Fragment Console's](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-console.html) header menu or action bar. The extensions are written in JavaScript that run as App Builder apps - and can implement a custom web UI and serverless Adobe I/O Runtime actions to perform more intensive, long-running work.

@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 last-substantial-update: 2022-12-14
+exl-id: 07a1a9fc-7224-4e2d-8b6d-d935b1125653
 ---
 # Deploy and test the sample assets
 
@@ -18,5 +19,3 @@ Configure the Send Email component of the workflow as per your requirements
 [Preview the form](http://localhost:4502/content/dam/formsanddocuments/co-operators/accountopeningform/jcr:content?wcmmode=disabled)
 Enter your details and select one or more mutual funds and submit the form
 You should get a email with a link to the welcome kit
-
-

@@ -10,8 +10,8 @@ doc-type: Article
 last-substantial-update: 2023-01-05
 kt: 11664
 thumbnail: kt-11664.jpeg
+exl-id: 8b48c28f-ba7f-4255-be96-a7ce18ca208b
 ---
-
 # Responsive breakpoints
 
 Learn how to configure new responsive breakpoints for AEM responsive Page Editor.

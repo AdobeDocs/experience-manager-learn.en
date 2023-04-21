@@ -11,8 +11,8 @@ kt: 10689
 mini-toc-levels: 1
 index: y
 recommendations: noDisplay, noCatalog
+exl-id: 65e8d41e-002a-4d80-a050-5366e9ebbdea
 ---
-
 # Review the full-stack AEM project's 'ui.frontend' module {#aem-full-stack-ui-frontent}
 
 In, this chapter we review the development, deployment, and delivery of front-end artifacts of a full-stack AEM project, by focusing on the 'ui.frontend' module of the __WKND Sites project__.

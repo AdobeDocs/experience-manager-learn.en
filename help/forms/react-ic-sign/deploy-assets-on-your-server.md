@@ -7,8 +7,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 13099
-
 last-substantial-update: 2023-04-13
+exl-id: 44f4261b-d6fe-42ad-a3aa-2a36ca897b5e
 ---
 # Deploy the assets
 
@@ -46,6 +46,3 @@ You will have to change the endpoint URL to match your environment. Open the Eme
 To enable making POST calls to the AEM endpoint from your REACT app, you will need to specify the appropriate entires in the Allowed Origins field in Adobe Granite Cross-Origin Resource Sharing Policy configuration
 
 ![cors-setting](assets/cors-settings.png)
-
-
-

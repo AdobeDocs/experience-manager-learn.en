@@ -11,8 +11,8 @@ recommendations: noDisplay, noCatalog
 last-substantial-update: 2023-01-04
 kt: 11659
 thumbnail: 3412876.jpeg
+exl-id: ef5ad335-7278-4c00-beb6-233a3d1e330e
 ---
-
 # App initialization
 
 Initialize an AEM Content Fragment Console extension App Builder app that defines where the extension appears, and the work it performs.

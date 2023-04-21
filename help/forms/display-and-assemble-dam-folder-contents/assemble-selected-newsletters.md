@@ -6,8 +6,8 @@ version: 6.5
 topic: Development
 role: User
 level: Beginner
-
 last-substantial-update: 2023-01-01
+exl-id: 3a64315f-f699-4538-b999-626e7a998c05
 ---
 # Combine selected newsletters into one pdf
 
@@ -138,8 +138,3 @@ public Document orgw3cDocumentToAEMFDDocument( org.w3c.dom.Document xmlDocument)
                  }
         }
 ```
-
- 
-
-
-

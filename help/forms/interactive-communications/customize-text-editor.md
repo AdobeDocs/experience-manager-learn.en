@@ -3,7 +3,6 @@ title: Customize text editor
 seo-title: Customize text editor
 description: Learn how to customize text editor.
 seo-description: Learn how to customize text editor.
-
 doc-type: article
 activity: implement
 version: 6.5
@@ -13,7 +12,7 @@ level: Beginner
 feature: Interactive Communication
 last-substantial-update: 2023-04-19
 kt: 13126
-
+exl-id: f12ab119-ac8e-4cc8-af86-cbffa30e72c5
 ---
 # Customize text editor{#customize-text-editor}
 

@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 kt: 10797
 thumbnail: kt-10797.jpg
+exl-id: 4f090809-753e-465c-9970-48cf0d1e4790
 ---
-
 # Web Component
 
 Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This Web Component application demonstrates how to query content using AEM's GraphQL APIs using persisted queries and render a portion of UI, accomplished using pure JavaScript code. 

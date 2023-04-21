@@ -7,8 +7,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 13099
-
 last-substantial-update: 2023-04-13
+exl-id: 2ff7be5b-884c-420d-9a06-f0e2a99d3ef3
 ---
 # AEM Forms with Acrobat Sign Web Form
 
@@ -28,4 +28,3 @@ You will require the following for the use case to work:
 
 * An AEM server with Forms add on package
 * An [integration key for an Acrobat Sign application](https://helpx.adobe.com/sign/kb/how-to-create-an-integration-key.html)
-

@@ -11,8 +11,8 @@ thumbnail: KT-11133.jpg
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: c238dd83-65d3-4b04-b90e-19ed250b8e36
 ---
-
 # Filtering Angular app
 
 Explore AEM Headless GraphQL APIs ability to filter data using a [Angular](https://angular.io/) app. This Angular app creates a list of WKND adventures filterable by Activity Type.

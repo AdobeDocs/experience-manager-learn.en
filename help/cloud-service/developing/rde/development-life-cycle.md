@@ -9,8 +9,8 @@ level: Beginner
 jira: KT-11863
 thumbnail: KT-11863.png
 last-substantial-update: 2023-02-15
+exl-id: 062672f6-d03c-44da-9ac5-3d1ecff1a628
 ---
-
 # Development life cycle using Rapid Development Environment
 
 Learn about the development/deployment life cycle using RDE and how it delivers value with speed.
@@ -39,4 +39,3 @@ The key benefits of RDE to keep the development momentum.
 [Local Development Environment Setup](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)
 
 [Using Adobe Cloud Manager - CI/CD Production Pipeline](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-production-pipeline.html)
-

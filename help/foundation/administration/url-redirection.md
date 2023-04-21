@@ -9,8 +9,8 @@ level: Intermediate
 kt: 11466
 last-substantial-update: 2022-10-14
 index: y
+exl-id: 8e64f251-e5fd-4add-880e-9d54f8e501a6
 ---
-
 # URL redirects
 
 URL redirection is a common aspect as part of website operation. Architects and administrators are challenged to find the best solution on how and where to manage the URL redirects that provide flexibility and fast redirect deployment time. 
@@ -76,4 +76,3 @@ Below are a few criteria to determine the right solution. Also, your organizatio
 1. Enabling the marketing team or super users to manage redirect rules without the AEM development team and the AEM deployments.
 1. The Process to manage, verify, track, and revert the changes or risk mitigation.
 1. Availability of _Subject Matter Expertise_ for **At Edge via CDN Service** solution.
-

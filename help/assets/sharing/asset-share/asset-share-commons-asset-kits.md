@@ -9,8 +9,8 @@ doc-type: Feature Video
 last-substantial-update: 2023-02-13
 jira: KT-11868
 thumbnail: 3415467.jpeg
+exl-id: fb8adf75-02d7-44e5-a84e-e0731100dc58
 ---
-
 # Asset Share Commons Asset Kit
 
 Learn how to use Asset Share Common's [asset kit](https://opensource.adobe.com/asset-share-commons/pages/asset-kit/overview/) to generate bespoke, shareable web pages that list assets from AEM Assets folders or collections.

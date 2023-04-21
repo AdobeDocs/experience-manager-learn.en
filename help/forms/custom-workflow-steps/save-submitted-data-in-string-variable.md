@@ -7,10 +7,9 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 11199
-
 last-substantial-update: 2022-10-02
 thumbnail: string-variable.jpg
-
+exl-id: 65dcbfbb-7eb5-4fa3-aeb3-587c59ee2fe9
 ---
 # Extract bound data and save it in a string variable
 

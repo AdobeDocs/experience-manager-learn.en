@@ -9,6 +9,7 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 12557
+exl-id: 43665a1e-4101-4b54-a6e0-d189e825073e
 ---
 # Test your solution
 
@@ -48,8 +49,3 @@ Interact with your form while keeping the console window open. You should see so
  Add the [AEP debugger extension](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) to your browser(you are required to sign in) to get more debugging information
 
 ![platform-debugger](assets/platform-debugger.png)
-
-
-
-
-

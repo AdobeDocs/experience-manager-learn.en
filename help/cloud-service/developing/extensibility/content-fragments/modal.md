@@ -9,8 +9,8 @@ level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
 last-substantial-update: 2022-12-01
+exl-id: e7376eaf-f7d7-48fe-9387-a0e4089806c2
 ---
-
 # Extension modal
 
 ![AEM Content Fragment extension modal](./assets/modal/modal.png){align="center"}

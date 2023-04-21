@@ -11,8 +11,8 @@ kt: 10689
 mini-toc-levels: 1
 index: y
 recommendations: noDisplay, noCatalog
+exl-id: c4a961fb-e440-4f78-b40d-e8049078b3c0
 ---
-
 # Update full-stack AEM project to use front-end pipeline {#update-project-enable-frontend-pipeline}
 
 In this chapter, we make config changes to the __WKND Sites project__ to use the front-end pipeline to deploy JavaScript and CSS, rather than requiring a complete full-stack pipeline execution. This decouples the development and deployment lifecycle of front-end and back-end artifacts, allowing for a more rapid, iterative development process overall.

@@ -9,6 +9,7 @@ topic: Development
 role: Developer
 level: Experienced
 last-substantial-update: 2023-01-22
+exl-id: d537a80a-de61-4d43-bdef-f7d661c43dc8
 ---
 # Create component to summrize the form data
 
@@ -17,4 +18,3 @@ A simple component was created to list the form data for review. The [guidebridg
 For example the screen shot below shows you the table created to list the fields and its values of the **YourDetails**. The last TD in the TR is used to edit the field's value using the fields SOM expression.
 
 ![visit-func](assets/visit-function.png)
-

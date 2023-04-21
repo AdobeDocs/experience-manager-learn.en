@@ -9,8 +9,8 @@ level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
 last-substantial-update: 2022-12-01
+exl-id: 92d6e98e-24d0-4229-9d30-850f6b72ab43
 ---
-
 # Header menu extension
 
 ![Header menu extension](./assets/header-menu/header-menu.png){align="center"}
