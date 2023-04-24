@@ -29,6 +29,11 @@ The `ImageRef` type has four URL options for content references:
 
 The `_dynamicUrl` is the preferred URL to use for image assets and should replace the use of `_path`, `_authorUrl`, and `_publishUrl` whenever possible.
 
+|                                | AEM as a Cloud Service | AEM as a Cloud Service RDE | AEM SDK | AEM 6.5 |
+| ------------------------------ |:----------------------:|:--------------------------:|:-------:|:-------:|
+| Supports web-optimized images? | &#10004;               | &#10004;                   | &#10008;| &#10008;|
+
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_learn_headless_graphql_images"
 >title="Images with AEM Headless"
@@ -46,7 +51,7 @@ Field types are reviewed in the [Content Fragment Model](https://experienceleagu
 
 In the GraphQL query, return the field as the `ImageRef` type, and request the `_dynamicUrl` field. For example, querying an adventure in the [WKND Site project](https://github.com/adobe/aem-guides-wknd) and including image URL for the image asset references in its `primaryImage` field, can be done with a new persisted query `wknd-shared/adventure-image-by-path` defined as:
 
-```graphql
+```graphql {highlight="11"}
 query($path: String!, $assetTransform: AssetTransform!) {
   adventureByPath(
     _path: $path
@@ -94,7 +99,7 @@ The `_assetTransform` defines how the `_dynamicUrl` is constructed to optimize t
 
 The resulting JSON response contains the requested fields containing the web-optimized URL to the image assets.
 
-```json
+```json {highlight="8"}
 {
   "data": {
     "adventureByPath": {
@@ -191,12 +196,12 @@ function App() {
 
   /**
    * Update the dynamic URL with client-specific query parameters
-   * @param {*} dynamicUrl the base dynamic URL for the web-optimized image
+   * @param {*} imageUrl the image URL
    * @param {*} params the AEM web-optimized image query parameters
    * @returns the dynamic URL with the query parameters
    */
-  function setParams(dynamicUrl, params) {
-    let url = new URL(dynamicUrl);
+  function setOptimizedImageUrlParams(imageUrl, params) {
+    let url = new URL(imageUrl);
     Object.keys(params).forEach(key => {
       url.searchParams.set(key, params[key]);
     });
@@ -214,6 +219,9 @@ function App() {
   // Wait for AEM Headless APIs to provide data
   if (!data) { return <></> }
 
+  const alt = data.adventureByPath.item.title;
+  const imageUrl =  AEM_HOST + data.adventureByPath.item.primaryImage._dynamicUrl;
+
   return (
     <div className="app">
       
@@ -224,11 +232,11 @@ function App() {
 
       <img
         alt={alt}
-        src={setParams(dynamicUrl, { width: 1000 })}
+        src={setOptimizedImageUrlParams(imageUrl, { width: 1000 })}
         srcSet={
-            `${setParams(dynamicUrl, { width: 1000 })} 1000w,
-             ${setParams(dynamicUrl, { width: 1600 })} 1600w,
-             ${setParams(dynamicUrl, { width: 2000 })} 2000w`
+            `${setOptimizedImageUrlParams(imageUrl, { width: 1000 })} 1000w,
+             ${setOptimizedImageUrlParams(imageUrl, { width: 1600 })} 1600w,
+             ${setOptimizedImageUrlParams(imageUrl, { width: 2000 })} 2000w`
         }
         sizes="calc(100vw - 10rem)"/>
 
@@ -237,11 +245,11 @@ function App() {
 
         <picture>
           {/* When viewport width is greater than 2001px */}
-          <source srcSet={setParams(dynamicUrl, { width : 2600 })} media="(min-width: 2001px)"/>        
+          <source srcSet={setOptimizedImageUrlParams(imageUrl, { width : 2600 })} media="(min-width: 2001px)"/>        
           {/* When viewport width is between 1000px and 2000px */}
-          <source srcSet={setParams(dynamicUrl, { width : 2000})} media="(min-width: 1000px)"/>
+          <source srcSet={setOptimizedImageUrlParams(imageUrl, { width : 2000})} media="(min-width: 1000px)"/>
           {/* When viewport width is less than 799px */}
-          <img src={setParams(dynamicUrl, { width : 400, crop: "550,300,400,400" })} alt={alt}/>
+          <img src={setOptimizedImageUrlParams(imageUrl, { width : 400, crop: "550,300,400,400" })} alt={alt}/>
         </picture>
     </div>
   );
