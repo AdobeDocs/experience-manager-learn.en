@@ -91,7 +91,7 @@ The `_assetTransform` defines how the `_dynamicUrl` is constructed to optimize t
 
 | GraphQL parameter | URL parameter | Description | Required | GraphQL variable values | URL parameter values | Example URL parameter |  
 |:---------|:----------|:-------------------------------|:--:|:--------------------------|:---|:--|
-| `format` | `format`  | The format of the image asset. | ✔ | `GIF`, `PNG`, `PNG8`, `JPG`, `PJPG`, `BJPG`,  `WEBP`, `WEBPLL`, `WEBPLY`  | N/A | N/A |
+| `format` | N/A  | The format of the image asset. | ✔ | `GIF`, `PNG`, `PNG8`, `JPG`, `PJPG`, `BJPG`,  `WEBP`, `WEBPLL`, `WEBPLY`  | N/A | N/A |
 | `seoName` | N/A | Name of file segment in URL. If not provided the image asset name is used. | ✘ |  Alphanumeric, `-`, or `_` | N/A  | N/A |
 | `crop` | `crop` | Crop frame taken out of the image, must be within the size of the image | ✘ | Positive integers defining a crop region within the bounds of the original image dimensions | Comma-delimited string of numeric coordinates `<X_ORIGIN>,<Y_ORIGIN>,<CROP_WIDTH>,<CROP_HEIGHT>`  | `?crop=10,20,300,400` |
 | `size` | `size` | Size of the output image (both height and width) in pixels. | ✘ | Positive integers | Comma-delimited positive integers in the order `<WIDTH>,<HEIGHT>`  |  `?size=1200,800` |
