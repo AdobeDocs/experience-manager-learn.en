@@ -361,7 +361,7 @@ Use the `json` return type and include the `_references` object when constructin
 
 ```graphql
 query ($path: String!) {
-  articleByPath(_path: $path)
+  articleByPath(_path: $path, _assetTransform: { format: JPG, preferWebp: true })
   {
     item {
       _path
@@ -371,17 +371,14 @@ query ($path: String!) {
     }
     _references {
       ...on ImageRef {
-        _path
-        _publishUrl
-        width
+        _dynamicUrl
         __typename
       }
       ...on ArticleModel {
         _path
         author
         __typename
-      }
-      
+      }  
     }
   }
 }
@@ -455,9 +452,7 @@ In the above query, the `main` field is returned as JSON. The `_references` obje
       },
       "_references": [
         {
-          "_path": "/content/dam/wknd/en/activities/climbing/sport-climbing.jpg",
-          "_publishUrl": "http://publish-p123-e456.adobeaemcloud.com/content/dam/wknd/en/activities/climbing/sport-climbing.jpg",
-          "width": 1920,
+          "_dynamicUrl": "/adobe/dynamicmedia/deliver/dm-aid--dd42d814-88ec-4c4d-b5ef-e3dc4bc0cb42/sport-climbing.jpg?preferwebp=true",
           "__typename": "ImageRef"
         },
         {
@@ -471,7 +466,7 @@ In the above query, the `main` field is returned as JSON. The `_references` obje
 }
 ```
 
-The JSON response includes where the reference was inserted in the rich text with the `"nodeType": "reference"`. The `_references` object then includes each reference with the additional properties requested. For example, the `ImageRef` returns the `width` of the image referenced in the article.
+The JSON response includes where the reference was inserted in the rich text with the `"nodeType": "reference"`. The `_references` object then includes each reference.
 
 ## Rendering in-line references in rich text
 
@@ -487,12 +482,12 @@ const nodeMap = {
             let reference;
             
             // asset reference
-            if(node.data.path) {
+            if (node.data.path) {
                 // find reference based on path
                 reference = references.find( ref => ref._path === node.data.path);
             }
             // Fragment Reference
-            if(node.data.href) {
+            if (node.data.href) {
                 // find in-line reference within _references array based on href and _path properties
                 reference = references.find( ref => ref._path === node.data.href);
             }
@@ -513,7 +508,7 @@ const renderReference = {
     // node contains merged properties of the in-line reference and _references object
     'ImageRef': (node) => {
         // when __typename === ImageRef
-        return <img src={node._publishUrl} alt={'in-line reference'} /> 
+        return <img src={node._dynamicUrl} alt={'in-line reference'} /> 
     },
     'ArticleModel': (node) => {
         // when __typename === ArticleModel
@@ -529,13 +524,18 @@ The `__typename` of the `_references` object can be used to map different refere
 
 A full example of writing a custom references renderer can be found in [AdventureDetail.js](https://github.com/adobe/aem-guides-wknd-graphql/blob/main/react-app/src/components/AdventureDetail.js) as part of the [WKND GraphQL React example](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app).
 
-## End-to-End example
+## End-to-end example
 
 >[!VIDEO](https://video.tv.adobe.com/v/342105?quality=12&learn=on)
+
+>[!NOTE]
+>
+> The above video uses `_publishUrl` to render the image reference. Instead, prefer `_dynamicUrl` as explained in the [web-optimized images how-to](./images.md);
+
 
 The preceding video shows an end-to-end example:
 
 1. Updating a Content Fragment Model's multi-line text field to allow Fragment References
-1. Using the Content Fragment Editor to include an image and reference to another fragment in a multi-line text field.
-1. Creating a GraphQL query that includes the multi-line text response as JSON and any `_references` used.
-1. Writing a React SPA that renders the in-line references of the rich text response.
+2. Using the Content Fragment Editor to include an image and reference to another fragment in a multi-line text field.
+3. Creating a GraphQL query that includes the multi-line text response as JSON and any `_references` used.
+4. Writing a React SPA that renders the in-line references of the rich text response.

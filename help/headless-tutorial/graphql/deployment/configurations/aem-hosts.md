@@ -283,21 +283,25 @@ When building the Android&trade; app for different uses, specify the `env` flavo
 
 The image requests from the headless app to AEM must be configured to interact with the correct AEM service, as described in the [above table](#managing-aem-hosts).
 
-While AEM's GraphQL's `... on ImageRef` provides fields `_authorUrl` and `_publishUrl` containing absolute URLs to the respective AEM services, it's often most straight-forward to use the `_path` field and prefix the AEM service host used to query AEM GraphQL APIs. 
+Adobe recommends using [optimized images](../../how-to/images.md) made available through the `_dynamicUrl` field in AEM's GraphQL APIs. The `_dynamicUrl` field returns an host-less URL that can be prefixed with the AEM service host used to query AEM GraphQL APIs. For the `_dynamicUrl` field in the GraphQL response looks like:
 
-Using `_path` can be especially beneficial if the headless app can connect to AEM Author or AEM Publish based on the deployment context.
-
-If the headless app interacts exclusively with either AEM Author or Publish, `_authorUrl` or `_publishUrl` fields can be used to simplify the implementation, and the guidance in the examples below can be ignored.
+```json
+{
+    ...
+    "_dynamicUrl": "/adobe/dynamicmedia/deliver/dm-aid--dd42d814-88ec-4c4d-b5ef-e3dc4bc0cb42/example.jpg?preferwebp=true",
+    ...
+}
+```
 
 ### Examples
 
-The following are examples of how image URLs can prefix the AEM host value made configurable for various headless app frameworks. The examples assume the use of GraphQL queries that return image references using the `_path` field. 
+The following are examples of how image URLs can prefix the AEM host value made configurable for various headless app frameworks. The examples assume the use of GraphQL queries that return image references using the `_dynamicUrl` field. 
 
 For example:
 
 #### GraphQL persisted query
 
-This GraphQL query returns an image reference's `_path`. As seen in the [GraphQL response](#examples-react-graphql-response) which excludes a host.
+This GraphQL query returns an image reference's `_dynamicUrl`. As seen in the [GraphQL response](#examples-react-graphql-response) which excludes a host.
 
 ```graphql
 query ($path: String!) {
@@ -306,7 +310,7 @@ query ($path: String!) {
       title,
       primaryImage {
         ... on ImageRef {
-          _path
+          _dynamicUrl
         }
       }
     }
@@ -316,7 +320,7 @@ query ($path: String!) {
 
 #### GraphQL response
 
-This GraphQL response returns the image reference's `_path` which excludes a host.
+This GraphQL response returns the image reference's `_dynamicUrl` which excludes a host.
 
 ```json
 {
@@ -324,7 +328,7 @@ This GraphQL response returns the image reference's `_path` which excludes a hos
     "adventureByPath": {
       "item": {
         "adventurePrimaryImage": {
-          "_path": "/content/dam/wknd-shared/en/adventures/bali-surf-camp/adobestock-175749320.jpg",
+          "_dynamicUrl": "/adobe/dynamicmedia/deliver/dm-aid--de43411-88ec-4c4d-b5ef-e3dc4bc0cb42/adobestock-175749320.jpg",
         }
       }
     }
@@ -336,7 +340,7 @@ This GraphQL response returns the image reference's `_path` which excludes a hos
 
 This example, based on the [example AEM Headless React app](../../example-apps/react-app.md), illustrates how image URLs can be configured to connect to the correct AEM Services based on environment variables.
 
-This example shows how prefix the image reference `_path` field, with a configurable `REACT_APP_AEM_HOST` React environment variable.
+This example shows how prefix the image reference `_dynamicUrl` field, with a configurable `REACT_APP_AEM_HOST` React environment variable.
 
 #### React environment file
 
@@ -368,7 +372,7 @@ For example, a React app's `package.json` may contain the following `scripts` co
 
 #### React component
 
-The React component imports the `REACT_APP_AEM_HOST` environment variable, and prefixes the image `_path` value, to provide a fully resolvable image URL.
+The React component imports the `REACT_APP_AEM_HOST` environment variable, and prefixes the image `_dynamicUrl` value, to provide a fully resolvable image URL.
 
 This same `REACT_APP_AEM_HOST` environment variable is used to initialize the AEM Headless client used by `useAdventureByPath(..)` custom useEffect hook used to fetch the GraphQL data from AEM. Using the same variable to construct the GraphQL API request as the image URL, ensure that the React app interacts with the same AEM service for both use cases.
 
@@ -379,12 +383,12 @@ This same `REACT_APP_AEM_HOST` environment variable is used to initialize the AE
 // Import the AEM origin from the app's environment configuration
 const AEM_HOST = env.process.REACT_APP_AEM_HOST; // https://publish-p123-e456.adobeaemcloud.com
 
-let { data, error } = useAdventureByPath('/content/dam/wknd-shared/en/adventures/bali-surf-camp/adobestock-175749320.jpg')
+let { data, error } = useAdventureByPath('/content/dam/wknd-shared/en/adventures/bali-surf-camp/bali-surf-camp')
 
 return (
     // Prefix the image src URL with the AEM host
-    <img src={AEM_HOST + data.adventureByPath.item.primaryImage._path }>
-    {/* Resulting in: <img src="https://publish-p123-e456.adobeaemcloud.com/content/dam/wknd-shared/en/adventures/bali-surf-camp/adobestock-175749320.jpg"/>  */}
+    <img src={AEM_HOST + data.adventureByPath.item.primaryImage._dynamicUrl }>
+    {/* Resulting in: <img src="https://publish-p123-e456.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--de43411-88ec-4c4d-b5ef-e3dc4bc0cb42/adobestock-175749320.jpg"/>  */}
 )
 ```
 
@@ -411,7 +415,7 @@ AEM_HOST = publish-p123-e789.adobeaemcloud.com
 
 #### Image URL generator
 
-In `Aem.swift`, the custom AEM headless client implementation, a custom function `imageUrl(..)` takes the image path as provided in the `_path` field in the GraphLQ response, and prepends it with AEM's host. This function is then invoked in the iOS views whenever an image is rendered.
+In `Aem.swift`, the custom AEM headless client implementation, a custom function `imageUrl(..)` takes the image path as provided in the `_dynamicUrl` field in the GraphQL response, and prepends it with AEM's host. This function is then invoked in the iOS views whenever an image is rendered.
 
 + `WKNDAdventures/AEM/Aem.swift`
 
@@ -426,9 +430,9 @@ class Aem: ObservableObject {
         self.host = host
     }
     ...
-    /// Prefixes AEM image paths wit the AEM scheme/host
-    func imageUrl(path: String) -> URL {
-        return URL(string: "\(self.scheme)://\(self.host)\(path)")!
+    /// Prefixes AEM image dynamicUrl with the AEM scheme/host
+    func imageUrl(dynamicUrl: String) -> URL {
+        return URL(string: "\(self.scheme)://\(self.host)\(dynamicUrl)")!
     }
     ...
 }
@@ -436,7 +440,7 @@ class Aem: ObservableObject {
 
 #### iOS view
 
-The iOS view and prefixes the image `_path` value, to provide a fully resolvable image URL.
+The iOS view and prefixes the image `_dynamicUrl` value, to provide a fully resolvable image URL.
 
 + `WKNDAdventures/Views/AdventureListItemView.swift`
 
@@ -450,8 +454,8 @@ struct AdventureListItemView: View {
     
     var body: some View {
         HStack {
-            // Path the image path to `aem.imageUrl(..)` to prepend the AEM service host     
-            AdventureRowImage(imageUrl: aem.imageUrl(path: adventure.image()))
+            // Path the image dynamicUrl to `aem.imageUrl(..)` to prepend the AEM service host     
+            AdventureRowImage(imageUrl: aem.imageUrl(dynamicUrl: adventure.image()))
             Text(adventure.title)
             Spacer()
         }
@@ -529,17 +533,16 @@ public class RemoteImagesCache implements Html.ImageGetter {
     }
 
     @Override
-    public Drawable getDrawable(String path) {
-        // Get the image data from the cache using the path as the key
-        Drawable drawable = drawablesByPath.get(path);
-        return drawable;
+    public Drawable getDrawable(String dynamicUrl) {
+        // Get the image data from the cache using the dynamicUrl as the key
+        return drawablesByPath.get(dynamicUrl);
     }
 }
 ```
 
 #### Android&trade; view
 
-The Android&trade; view gets the image data by way of the `RemoteImagesCache` using the `_path` value from the GraphQL response.
+The Android&trade; view gets the image data by way of the `RemoteImagesCache` using the `_dynamicUrl` value from the GraphQL response.
 
 + `app/src/main/java/com/adobe/wknd/androidapp/AdventureDetailFragment.java`
 
@@ -552,7 +555,7 @@ public class AdventureDetailFragment extends Fragment implements LoaderManager.L
 
     private void updateContent() {
         ...
-        adventureDetailImage.setImageDrawable(RemoteImagesCache.getInstance().getDrawable(adventure.getPrimaryImagePath()));
+        adventureDetailImage.setImageDrawable(RemoteImagesCache.getInstance().getDrawable(adventure.getPrimaryImageDynamicUrl()));
         ...
     }
 ...
