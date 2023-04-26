@@ -52,10 +52,15 @@ Field types are reviewed in the [Content Fragment Model](https://experienceleagu
 In the GraphQL query, return the field as the `ImageRef` type, and request the `_dynamicUrl` field. For example, querying an adventure in the [WKND Site project](https://github.com/adobe/aem-guides-wknd) and including image URL for the image asset references in its `primaryImage` field, can be done with a new persisted query `wknd-shared/adventure-image-by-path` defined as:
 
 ```graphql {highlight="11"}
-query($path: String!, $assetTransform: AssetTransform!) {
+query($path: String!, $imageFormat: AssetTransformFormat=JPG, $imageSeoName: String, $imageWidth: Int, $imageQuality: Int) {
   adventureByPath(
     _path: $path
-    _assetTransform: $assetTransform
+    _assetTransform: {
+      format: $imageFormat
+      width: $imageWidth
+      quality: $imageQuality
+      preferWebp: true
+    }
   ) {
     item {
       _path
@@ -75,7 +80,8 @@ query($path: String!, $assetTransform: AssetTransform!) {
 ```json
 { 
   "path": "/content/dam/wknd-shared/en/adventures/bali-surf-camp/bali-surf-camp",
-  "assetTransform": { "format": "JPG", "quality": 80, "preferWebp": true}
+  "imageFormat": "JPG",
+  "imageWidth": 1000,
 }
 ```
 
@@ -83,17 +89,17 @@ The `$path` variable used in the `_path` filter requires the full path to the co
 
 The `_assetTransform` defines how the `_dynamicUrl` is constructed to optimize the served image rendition. Web-optimized images URLs can also be adjusted on the client by changing the URL's query parameters.
 
-| GraphQL parameter | URL parameter | Description | Required | GraphQL variable values | URL parameter values | Example GraphQL variable | Example URL parameter |  
-|:---------|:----------|:-------------------------------|:--:|:--------------------------|:---|:---|:--|
-| `format` | `format`  | The format of the image asset. | ✔ | `GIF`, `PNG`, `PNG8`, `JPG`, `PJPG`, `BJPG`,  `WEBP`, `WEBPLL`, `WEBPLY`  | N/A | `{ format: JPG }`  | N/A |
-| `seoName` | N/A | Name of file segment in URL. If not provided the image asset name is used. | ✘ |  Alphanumeric, `-`, or `_` | N/A | `{ seoName: "bali-surf-camp" }` | N/A |
-| `crop` | `crop` | Crop frame taken out of the image, must be within the size of the image | ✘ | Positive integers defining a crop region within the bounds of the original image dimensions | Comma-delimited string of numeric coordinates `<X_ORIGIN>,<Y_ORIGIN>,<CROP_WIDTH>,<CROP_HEIGHT>`  | `{ crop: { xOrigin: 10, yOrigin: 20, width: 300, height: 400} }` | `?crop=10,20,300,400` |
-| `size` | `size` | Size of the output image (both height and width) in pixels. | ✘ | Positive integers | Comma-delimited positive integers in the order `<WIDTH>,<HEIGHT>`  | `{ size: { width: 1200, height: 800 } }` | `?size=1200,800` |
-| `rotation` | `rotate` | Rotation of the image in degrees. | ✘ | `R90`, `R180`, `R270` | `90`, `180`, `270` |  `{ rotation: R90 }` | `?rotate=90` |
-| `flip`  | `flip` | Flip the image. | ✘ | `HORIZONTAL`, `VERTICAL`, `HORIZONTAL_AND_VERTICAL` | `h`, `v`, `hv` | `{ flip: horizontal }` | `?flip=h`|
-| `quality` | `quality` |  Image quality in percent of original quality. | ✘ | 1-100 | 1-100 | `{ quality: 80 }` | `?quality=80` |
-| `width`   | `width` | Width of the output image in pixels. When `size` is provided `width` is ignored. | ✘ |  Positive integer | Positive integer | `{ width: 1600 }` | `?width=1600` |
-| `preferWebP` | `preferwebp` | If `true` and AEM serves a WebP if the browser supports it, regardless of the `format`. | ✘ | `true`, `false` |  `true`, `false` |  `{ preferWebp: true }` | `?preferwebp=true` |
+| GraphQL parameter | URL parameter | Description | Required | GraphQL variable values | URL parameter values | Example URL parameter |  
+|:---------|:----------|:-------------------------------|:--:|:--------------------------|:---|:--|
+| `format` | `format`  | The format of the image asset. | ✔ | `GIF`, `PNG`, `PNG8`, `JPG`, `PJPG`, `BJPG`,  `WEBP`, `WEBPLL`, `WEBPLY`  | N/A | N/A |
+| `seoName` | N/A | Name of file segment in URL. If not provided the image asset name is used. | ✘ |  Alphanumeric, `-`, or `_` | N/A  | N/A |
+| `crop` | `crop` | Crop frame taken out of the image, must be within the size of the image | ✘ | Positive integers defining a crop region within the bounds of the original image dimensions | Comma-delimited string of numeric coordinates `<X_ORIGIN>,<Y_ORIGIN>,<CROP_WIDTH>,<CROP_HEIGHT>`  | `?crop=10,20,300,400` |
+| `size` | `size` | Size of the output image (both height and width) in pixels. | ✘ | Positive integers | Comma-delimited positive integers in the order `<WIDTH>,<HEIGHT>`  |  `?size=1200,800` |
+| `rotation` | `rotate` | Rotation of the image in degrees. | ✘ | `R90`, `R180`, `R270` | `90`, `180`, `270` | `?rotate=90` |
+| `flip`  | `flip` | Flip the image. | ✘ | `HORIZONTAL`, `VERTICAL`, `HORIZONTAL_AND_VERTICAL` | `h`, `v`, `hv` | `?flip=h`|
+| `quality` | `quality` |  Image quality in percent of original quality. | ✘ | 1-100 | 1-100 | `?quality=80` |
+| `width`   | `width` | Width of the output image in pixels. When `size` is provided `width` is ignored. | ✘ |  Positive integer | Positive integer | `?width=1600` |
+| `preferWebP` | `preferwebp` | If `true` and AEM serves a WebP if the browser supports it, regardless of the `format`. | ✘ | `true`, `false` |  `true`, `false` | `?preferwebp=true` |
 
 ## GraphQL response
 
@@ -107,7 +113,7 @@ The resulting JSON response contains the requested fields containing the web-opt
         "_path": "/content/dam/wknd-shared/en/adventures/bali-surf-camp/bali-surf-camp",
         "title": "Bali Surf Camp",
         "primaryImage": {
-          "_dynamicUrl": "/adobe/dynamicmedia/deliver/dm-aid--a38886f7-4537-4791-aa20-3f6ef0ac3fcd/adobestock_175749320.jpg?preferwebp=true&quality=80"
+          "_dynamicUrl": "/adobe/dynamicmedia/deliver/dm-aid--a38886f7-4537-4791-aa20-3f6ef0ac3fcd/adobestock_175749320.jpg?preferwebp=true&width=1000&quality=80"
         }
       }
     }
@@ -213,7 +219,7 @@ function App() {
   // The 2nd parameter define the base GraphQL query parameters used to request the web-optimized image
   let { data, error } = useAdventureByPath(
         "/content/dam/wknd-shared/en/adventures/bali-surf-camp/bali-surf-camp", 
-        { assetTransform: { format: "JPG", preferWebp: true } }
+        { imageFormat: "JPG" }
       );
 
   // Wait for AEM Headless APIs to provide data

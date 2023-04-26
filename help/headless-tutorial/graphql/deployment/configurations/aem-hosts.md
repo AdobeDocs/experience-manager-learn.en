@@ -305,7 +305,7 @@ This GraphQL query returns an image reference's `_dynamicUrl`. As seen in the [G
 
 ```graphql
 query ($path: String!) {
-  adventureByPath(_path: $path) {
+  adventureByPath(_path: $path, _assetTransform: { format: JPG, preferWebp: true }) {
     item {
       title,
       primaryImage {
@@ -328,7 +328,7 @@ This GraphQL response returns the image reference's `_dynamicUrl` which excludes
     "adventureByPath": {
       "item": {
         "adventurePrimaryImage": {
-          "_dynamicUrl": "/adobe/dynamicmedia/deliver/dm-aid--de43411-88ec-4c4d-b5ef-e3dc4bc0cb42/adobestock-175749320.jpg",
+          "_dynamicUrl": "/adobe/dynamicmedia/deliver/dm-aid--de43411-88ec-4c4d-b5ef-e3dc4bc0cb42/adobestock-175749320.jpg?preferwebp=true",
         }
       }
     }
