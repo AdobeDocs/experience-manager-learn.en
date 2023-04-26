@@ -149,7 +149,7 @@ let alt = data.adventureByPath.item.title;
 {/*-- Example img srcset --*/}
 document.body.innerHTML=`<img>
     alt="${alt}"
-    src="${${dynamicUrl}&width=1000}"
+    src="${dynamicUrl}&width=1000}"
     srcset="`
       ${dynamicUrl}&width=1000 1000w,
       ${dynamicUrl}&width=1600 1600w,
