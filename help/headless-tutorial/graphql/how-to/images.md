@@ -135,7 +135,7 @@ let dynamicUrl = AEM_HOST + data.adventureByPath.item.primaryImage._dynamicUrl;
 
 Remember, `_dynamicUrl` does not include the AEM domain, so you must provide the desired origin for the image URL to resolve.
 
-### Responsive URLs
+## Responsive URLs
 
 The above example shows using a single size image, however in web experiences, responsive image sets are often required. Responsive images can be implemented using [img srcsets](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset) or [picture elements](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset). The following code snippet shows how to use the `_dynamicUrl` as a based, and append different width parameters, to power different responsive views. Not only can the `width` query parameter be used, but other query parameters can be added by the client to further optimize the image asset based on its needs.
 
@@ -165,26 +165,26 @@ document.body.innerHTML=`<picture>
     </picture>`;
 ```
 
-### React example
+## React example
 
 Let's create a simple React application that displays web-optimized images following [responsive image patterns](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/). There are two main patterns for responsive images:
 
 + [Img element with srcset](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset) for increased performance
 + [Picture element](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture) for design control
 
-#### Img element with srcset
+### Img element with srcset
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418556/?quality=12&learn=on)
 
 [Img elements with srcset](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset) are used with the `sizes` attribute to provide different image assets for different screen sizes. Img srcsets are useful when providing different image assets for different screen sizes.
 
-#### Picture element
+### Picture element
 
 [Picture elements](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture) are used with multiple `source` elements to provide different image assets for different screen sizes. Picture elements are useful when providing different image renditions for different screen sizes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418555/?quality=12&learn=on)
 
-#### Example code
+### Example code
 
 This simple React app uses the [AEM Headless SDK](./aem-headless-sdk.md) to query AEM Headless APIs for an Adventure content, and displays the web-optimized image using [img element with srcset](#img-element-with-srcset) and [picture element](#picture-element). The `srcset` and `sources` use a custom `setParams` function to append the web-optimized delivery query parameter to the `_dynamicUrl` of the image, so change the image rendition delivered based on the web client's needs.
 
