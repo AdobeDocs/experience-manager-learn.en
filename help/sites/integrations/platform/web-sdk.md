@@ -53,9 +53,9 @@ Learn about XDM Schema and related concepts such as field groups, types, classes
 
 The [XDM System overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) is a great resource to learn about XDM Schema and related concepts such as field groups, types, classes, and data types. It provides a comprehensive understanding of the XDM data model and how to create and manage XDM schemas to standardize data across the enterprise. Explore it to gain a deeper understanding of the XDM schema and how it can benefit your data collection and management processes.
 
-## Create DataStream - Experience Platform
+## Create Datastream - Experience Platform
 
-A DataStream instructs the Platform Edge Network where to send the collected data. For example, it can be sent to Experience Platform or Analytics, or Adobe Target.
+A Datastream instructs the Platform Edge Network where to send the collected data. For example, it can be sent to Experience Platform or Analytics, or Adobe Target.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418895?quality=12&learn=on)
@@ -190,7 +190,7 @@ After the setup of the Web SDK with AEM, particularly on the WKND site, it's tim
 
 ## Summary 
 
-Great job! You have completed the setup of AEM with Adobe Experience Platform (Experience Platform) Web SDK to collect and ingest data from a website. With this foundation, you can now explore further possibilities to enhance and integrate products like Analytics, Target, Customer Journey Analytics (CJA), and many others to create rich, personalized experiences for your customers. Keep learning and exploring to unleash the full potential of Adobe Experience Cloud.
+Great job! You have completed the setup of AEM with Experience Platform Web SDK to collect and ingest data from a website. With this foundation, you can now explore further possibilities to enhance and integrate products like Analytics, Target, Customer Journey Analytics (CJA), and many others to create rich, personalized experiences for your customers. Keep learning and exploring to unleash the full potential of Adobe Experience Cloud.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418900?quality=12&learn=on)
 
