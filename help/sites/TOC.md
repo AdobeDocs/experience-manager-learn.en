@@ -92,6 +92,7 @@ version: 6.4, 6.5, Cloud Service
 + Integrations {#integrations}
   + Experience Platform {#experience-platform}
     + [Generate FPIDs](integrations/platform/fpid.md)
+    + [Web SDK](integrations/platform/web-sdk.md)
   + Experience Platform Data Collection Tags (Launch) {#experience-platform-data-collection-tags}
     + [Overview](integrations/experience-platform/data-collection/tags/overview.md)
     + [Create a Tag Property](integrations/experience-platform/data-collection/tags/create-tag-property.md)
