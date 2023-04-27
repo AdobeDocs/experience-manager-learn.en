@@ -73,6 +73,84 @@ Learn how to create a tag (formerly known as Launch) property in Experience Plat
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418896?quality=12&learn=on)
 
+
++++ Data Element and Rule-Event Code
+
++   The `Page Name` Data Element code.
+
+    ```javascript
+    if(event && event.component && event.component.hasOwnProperty('dc:title')) {
+        // return value of 'dc:title' from the data layer Page object, which is propogated via 'cmp:show` event
+        return event.component['dc:title'];
+    }
+    ```
+
++   The `Site Section` Data Element code.
+
+    ```javascript
+    if(event && event.component && event.component.hasOwnProperty('repo:path')) {
+    let pagePath = event.component['repo:path'];
+    
+    let siteSection = '';
+  
+    //Check of html String in URL.
+    if (pagePath.indexOf('.html') > -1) { 
+     siteSection = pagePath.substring(0, pagePath.lastIndexOf('.html'));
+
+     //replace slash with colon
+     siteSection = siteSection.replaceAll('/', ':');
+     
+     //remove `:content`
+     siteSection = siteSection.replaceAll(':content:','');
+    }
+    
+        return siteSection 
+    }
+    ```
+
++   The `Host Name` Data Element code.
+
+    ```javascript
+    if(window && window.location && window.location.hostname) {
+        return window.location.hostname;
+    }
+    ```
+
++   The `all pages - on load` Rule-Event code
+
+    ```javascript
+    var pageShownEventHandler = function(evt) {
+    // defensive coding to avoid a null pointer exception
+    if(evt.hasOwnProperty("eventInfo") && evt.eventInfo.hasOwnProperty("path")) {
+        //trigger Launch Rule and pass event
+        console.debug("cmp:show event: " + evt.eventInfo.path);
+        var event = {
+            //include the path of the component that triggered the event
+            path: evt.eventInfo.path,
+            //get the state of the component that triggered the event
+            component: window.adobeDataLayer.getState(evt.eventInfo.path)
+        };
+
+        //Trigger the Launch Rule, passing in the new 'event' object
+        // the 'event' obj can now be referenced by the reserved name 'event' by other Launch data elements
+        // i.e 'event.component['someKey']'
+        trigger(event);
+        }
+    }
+
+    //set the namespace to avoid a potential race condition
+    window.adobeDataLayer = window.adobeDataLayer || [];
+
+    //push the event listener for cmp:show into the data layer
+    window.adobeDataLayer.push(function (dl) {
+        //add event listener for 'cmp:show' and callback to the 'pageShownEventHandler' function
+        dl.addEventListener("cmp:show", pageShownEventHandler);
+    });
+    ```
+    
++++
+
+
 The [Tags overview](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) provides in-depth knowledge about important concepts such as Data Elements, Rules, and Extensions. 
 
 For additional information on integrating AEM Core Components with Adobe Client Data Layer, refer to the [Using the Adobe Client Data Layer with AEM Core Components guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
@@ -115,3 +193,12 @@ After the setup of the Web SDK with AEM, particularly on the WKND site, it's tim
 Great job! You have completed the setup of AEM with Adobe Experience Platform (Experience Platform) Web SDK to collect and ingest data from a website. With this foundation, you can now explore further possibilities to enhance and integrate products like Analytics, Target, Customer Journey Analytics (CJA), and many others to create rich, personalized experiences for your customers. Keep learning and exploring to unleash the full potential of Adobe Experience Cloud.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418900?quality=12&learn=on)
+
+## Additional Resources
+
++ [Using the Adobe Client Data Layer with the Core Components](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)
++ [Integrating Experience Platform Data Collection Tags and AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-data-collection-tags/overview.html)
++ [Adobe Experience Platform Web SDK and Edge Network overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/web-sdk/overview.html)
++ [Data Collection tutorials](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html)
++ [Adobe Experience Platform Debugger overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)
+
