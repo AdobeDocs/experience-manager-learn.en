@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-04-26
 jira: KT-13156
 thumbnail: KT-13156.jpeg
+exl-id: b5182d35-ec38-4ffd-ae5a-ade2dd3f856d
 ---
-
 # Integrate Experience Platform Web SDK
 
 Learn how to integrate AEM as a Cloud Service with Experience Platform [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). This foundational step is essential for integrating Adobe Experience Cloud products, such as Adobe Analytics, Target, or recent innovative products like Real-Time Customer Data Platform, Customer Journey Analytics, and Journey Optimizer.
@@ -201,4 +201,3 @@ Great job! You have completed the setup of AEM with Experience Platform Web SDK 
 + [Adobe Experience Platform Web SDK and Edge Network overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/web-sdk/overview.html)
 + [Data Collection tutorials](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html)
 + [Adobe Experience Platform Debugger overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)
-
