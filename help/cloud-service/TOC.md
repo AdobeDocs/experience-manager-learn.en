@@ -10,6 +10,7 @@ team: TM
 # Adobe Experience Manager as a Cloud Service Tutorials {#cloud-service}
 
 + [Overview](./overview.md)
++ [AEM Trials](./aem-trials/index.md)
 + Introduction to AEM as a Cloud Service{#introduction}
   + [What is AEM as a Cloud Service?](./introduction/what-is-aem-as-a-cloud-service.md)
   + [Evolution](./introduction/evolution.md)
