@@ -28,3 +28,7 @@ You will require the following for the use case to work:
 
 * An AEM server with Forms add on package
 * An [integration key for an Acrobat Sign application](https://helpx.adobe.com/sign/kb/how-to-create-an-integration-key.html)
+
+## Next Steps
+
+Write a [custom OSGi service to generate Interactive Communication Document](./create-ic-document.md) using documented API
