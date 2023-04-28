@@ -10,7 +10,7 @@ kt: 13099
 last-substantial-update: 2023-04-13
 exl-id: d970d58b-77a4-4012-9e72-b97d60ef028a
 ---
-# Create servlet
+# Create Acrobat Sign Web Form URL
 
 The following code was written to expose a POST endpoint. This endpoint extracts the icTemplateName from the submitted data and returns an Acrobat Sign web form URL for the end user to sign.
 
@@ -80,3 +80,8 @@ public class GetWidgetUrl extends SlingAllMethodsServlet {
 
 }
 ```
+
+## Next Steps
+
+[Deploy the tutorial assets on your local system](./deploy-assets-on-your-server.md)
+

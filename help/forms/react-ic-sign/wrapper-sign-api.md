@@ -191,3 +191,7 @@ public String getWidgetURL(String widgetId) throws ClientProtocolException, IOEx
         
     }
 ```
+
+## Next Steps
+
+[Generate Acrobat Sign Widget URL](./create-servlet-to-expose-endpoint.md)
