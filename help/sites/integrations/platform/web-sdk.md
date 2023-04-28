@@ -18,7 +18,7 @@ Learn how to integrate AEM as a Cloud Service with Experience Platform [Web SDK]
 
 You also learn how to collect and send [WKND - sample Adobe Experience Manager project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project) pageview data in the [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html).
 
-After completing this setup you can move forward to implement Experience Platform and related applications like [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html) and [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/docs/journey-optimizer.html). To drive a better customer engagement by standardizing the web and customer data.
+After completing this setup, you have implemented a solid foundation. Also, you are ready to advance the Experience Platform implementation using applications like [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html), and [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/docs/journey-optimizer.html). The advanced implementation helps to drive a better customer engagement by standardizing the web and customer data.
 
 ## Prerequisites
 
@@ -46,6 +46,8 @@ In case you do not have necessary permissions, your system administrator using [
 
 The Experience Data Model (XDM) Schema helps you to standardize the customer experience data. To collect the **WKND pageview** data, create an XDM Schema and use the Adobe provided field groups `AEP Web SDK ExperienceEvent` for web data collection.
 
+There are generic and industries specific for example Retail, Financial Services, Healthcare, and more, suite of reference data models, see [Industry data models overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/industries/overview.html) for more information.
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418894?quality=12&learn=on)
 
@@ -70,8 +72,14 @@ Learn how to create a tag (formerly known as Launch) property in Experience Plat
 + Data Elements: The data elements of custom code type that extract page-name, site-section, and host-name using WKND site's Adobe Client Data Layer. Also, the XDM Object type data element that complies with newly created WKND XDM schema build-in earlier [Create XDM Schema](#create-xdm-schema---experience-platform) step.
 + Rule: Send data to Platform Edge Network whenever a WKND webpage is visited using the Adobe Client Data Layer triggered `cmp:show` event.
 
+While building and publishing the tag library using the **Publishing Flow**, you can use the **Add All Changed Resources** button. To select all the resources like Data Element, Rule, and Tag Extensions instead of identifying and picking an individual resource. Also, during the development phase, you can publish the library just to the _Development_ environment, then verify and promote it to the _Stage_ or _Production_ environment.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418896?quality=12&learn=on)
+
+
+>[!TIP]
+>
+>The Data Element and Rule-Event code shown in the video is available for your reference, **expand the below accordion element**. However, if you are NOT using Adobe Client Data Layer, you must modify the below code but the concept of defining the Data Elements and using them in the Rule definition still applies.
 
 
 +++ Data Element and Rule-Event Code
