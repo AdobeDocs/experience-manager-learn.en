@@ -71,14 +71,10 @@ public class WriteFormAttachmentsToFileSystem implements WorkflowProcess {
   throws WorkflowException {
 
     String attachmentsPath = metaDataMap.get("attachmentsPath", String.class);
-<<<<<<< HEAD
-    log.debug("Got Attachments PAth" + attachmentsPath);
-    String saveToLocation = metaDataMap.get("saveToLocation", String.class);
-=======
-    log.debug("Got Attachments Path" + attachmentsPath);
+
+    log.debug("Got attachments path: " + attachmentsPath);
     String saveToLocation = metaDataMap.get("SaveToLocation", String.class);
->>>>>>> 1d85e32dec060b5f5f33607225cd6ceb8d2b21c5
-    log.debug("Got Save Location" + saveToLocation);
+    log.debug("Got save location: " + saveToLocation);
 
     log.debug("The seperator is" + File.separator);
     String payloadPath = workItem.getWorkflowData().getPayload().toString();
