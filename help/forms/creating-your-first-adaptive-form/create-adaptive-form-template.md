@@ -19,3 +19,8 @@ The following video shows you the basic process of creating adaptive form templa
 Please refer to [adaptive form template documentation](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-advanced-authoring/template-editor.html) for more details  
 
 If needed you can download the [adaptive form template](assets/peak-application-template.zip) and import into AEM using the [package manager](http://localhost:4502/crx/packmgr/index.jsp)
+
+## Next Steps
+
+[Create Adaptive Form Fragment](./create-form-fragment.md)
+

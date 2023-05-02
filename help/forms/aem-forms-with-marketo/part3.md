@@ -43,3 +43,8 @@ Point your browser to the [data integrations page.](http://localhost:4502/aem/fo
 1. Select the only service that is listed and click on Test Service
 1. Provide a valid leadId and click on Test. If everything goes well you should get back the lead details as shown in the screenshot below
 ![testresults](assets/testresults.jfif)
+
+## Next Steps
+
+[Putting it all together for testing](./part4.md)
+

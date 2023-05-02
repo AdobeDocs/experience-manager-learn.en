@@ -49,3 +49,7 @@ The first step in the integration of Marketo with AEM Forms is to obtain the API
 1. BlankTemplatePackage.zip - This is the Adaptive Form template. Import this using the package manager.
 1. marketo.json - This is the swagger file that is used to configure the data source.
 1. MarketoAndForms.MarketoAndForms.core-1.0-SNAPSHOT.jar - This is the bundle that does the custom authentication. Feel free to use this if you are unable to complete the tutorial or your bundle is not working as expected.
+
+## Next Steps
+
+[Create custom authentication](./part2.md)

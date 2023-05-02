@@ -11,8 +11,12 @@ exl-id: de3a0444-64ae-45a1-8329-aafa6f5add49
 ---
 # Creating Adaptive Form {#creating-adaptive-form}  
 
-In Part1 we will create Adaptive Form based on the template created in the earlier lesson, and configure toolbar with appropriate buttons.
+We will create Adaptive Form based on the template created in the earlier lesson, and configure toolbar with appropriate buttons.
 
 **Create your first Adaptive Form**
 
 >[!VIDEO](https://video.tv.adobe.com/v/22173?quality=12&learn=on)
+
+## Next Steps
+
+[Add child panels to the root panel](./configuring-root-panel-and-adding-child-panels.md)

@@ -25,3 +25,7 @@ Configure People panel by adding the spouse details fragment. A rule is created 
 **Spouse Details Rules**
 
 >[!VIDEO](https://video.tv.adobe.com/v/22195?quality=12&learn=on)
+
+## Next Steps
+
+[Add table and other components to the income panel](./adding-table-to-income-panel.md)

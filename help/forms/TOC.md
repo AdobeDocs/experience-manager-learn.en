@@ -15,15 +15,15 @@ index: y
 + [Best practices to follow](adaptive-forms/best-practices-adaptive-forms.md)
 + [Setting up OKTA authentication with AEM Author](adaptive-forms/single-sign-on-with-okta.md)
 + Creating your first Adaptive Form {#creating-your-first-adaptive-form}
-  + [Introduction and Setup](creating-your-first-adaptive-form/introduction-and-setup.md)
-  + [Create Adaptive Form template](creating-your-first-adaptive-form/create-adaptive-form-template.md)
-  + [Create form fragment](creating-your-first-adaptive-form/create-form-fragment.md)
-  + [Create Adaptive Form](creating-your-first-adaptive-form/create-adaptive-form.md)
-  + [Configuring root panel and adding child panels](creating-your-first-adaptive-form/configuring-root-panel-and-adding-child-panels.md)
-  + [Adding components to People panel](creating-your-first-adaptive-form/adding-components-to-people-panel.md)
-  + [Adding table to income panel](creating-your-first-adaptive-form/adding-table-to-income-panel.md)
-  + [Configuring assets panel](creating-your-first-adaptive-form/configuring-assets-panel.md)
-  + [Using custom functions and code editor](creating-your-first-adaptive-form/using-custom-functions-and-code-editor.md)
+  + [1 - Introduction and Setup](creating-your-first-adaptive-form/introduction-and-setup.md)
+  + [2 - Create Adaptive Form template](creating-your-first-adaptive-form/create-adaptive-form-template.md)
+  + [3 - Create form fragment](creating-your-first-adaptive-form/create-form-fragment.md)
+  + [4 - Create Adaptive Form](creating-your-first-adaptive-form/create-adaptive-form.md)
+  + [5 - Configuring root panel and adding child panels](creating-your-first-adaptive-form/configuring-root-panel-and-adding-child-panels.md)
+  + [6 - Adding components to People panel](creating-your-first-adaptive-form/adding-components-to-people-panel.md)
+  + [7 - Adding table to income panel](creating-your-first-adaptive-form/adding-table-to-income-panel.md)
+  + [8 - Configuring assets panel](creating-your-first-adaptive-form/configuring-assets-panel.md)
+  + [9 - Using custom functions and code editor](creating-your-first-adaptive-form/using-custom-functions-and-code-editor.md)
 + Handling Form Submissions {#handling-af-form-submissions}
   + [Creating a Review Workflow](handling-form-submissions/creating-a-review-workflow.md)
   + [Configuring Adaptive form to trigger workflow](handling-form-submissions/configuring-adaptive-form-to-trigger-workflow.md)
@@ -167,9 +167,9 @@ index: y
   + [Save document to file system](custom-workflow-steps/write-payload-document.md)
   + [Save submitted data in string variable](custom-workflow-steps/save-submitted-data-in-string-variable.md)
 + Custom workflow component{#custom-workflow-component}
-  + [Introduction](custom-workflow-component/introduction.md)
-  + [Write java code](custom-workflow-component/custom-process-step-aem-workflow.md)
-  + [Create workflow component](custom-workflow-component/custom-workflow-component.md)
+  + [1-Introduction](custom-workflow-component/introduction.md)
+  + [2-Write java code](custom-workflow-component/custom-process-step-aem-workflow.md)
+  + [3-Create workflow component](custom-workflow-component/custom-workflow-component.md)
 + Variables in AEM Workflow{#variables-aem-workflow}
   + [Introduction - Variables in Workflow](variables-aem-workflow/introduction.md)
   + [XML Variables](variables-aem-workflow/part1.md)
@@ -212,11 +212,11 @@ index: y
   + [Part4 - Putting it all together](aem-forms-with-marketo/part4.md)
 
 + AEM Forms with Adobe Campaign Standard{#aem-forms-with-adobe-campaign}
-  + [Introduction](aem-forms-with-adobe-campaign/aem-forms-with-campaign-standard-getting-started-tutorial.md)
-  + [Part1 - Generating Tokens](aem-forms-with-adobe-campaign/partone.md)
-  + [Part2 - Creating ACS Profile on Form Submission](aem-forms-with-adobe-campaign/parttwo.md)
-  + [Part3 - Pre-filling Form using ACS Profile Information](aem-forms-with-adobe-campaign/partthree.md)
-  + [Part4 - Create ACS Profile using Form Data Model](aem-forms-with-adobe-campaign/partfour.md)
+  + [1 - Introduction](aem-forms-with-adobe-campaign/aem-forms-with-campaign-standard-getting-started-tutorial.md)
+  + [2 - Generating Tokens](aem-forms-with-adobe-campaign/partone.md)
+  + [3 - Creating ACS Profile on Form Submission](aem-forms-with-adobe-campaign/parttwo.md)
+  + [4 - Pre-filling Form using ACS Profile Information](aem-forms-with-adobe-campaign/partthree.md)
+  + [5 - Create ACS Profile using Form Data Model](aem-forms-with-adobe-campaign/partfour.md)
 
 + Welcome Kit {#welcome-kit}
   + [Introduction](welcome-kit/introduction.md)
@@ -225,11 +225,11 @@ index: y
   + [Test the solution](welcome-kit/testing-the-solution.md)
   
 + React App with Forms and Acrobat Sign {#react-ic-sign}
-  + [1-Introduction](react-ic-sign/introduction.md)
-  + [2-Generate Document](react-ic-sign/create-ic-document.md)
-  + [3-Acrobat Sign API Wrapper](react-ic-sign/wrapper-sign-api.md)
-  + [4-Generate Sign Widget](react-ic-sign/create-servlet-to-expose-endpoint.md)
-  + [5-Deploy the sample assets](react-ic-sign/deploy-assets-on-your-server.md)
+  + [1 - Introduction](react-ic-sign/introduction.md)
+  + [2 - Generate Document](react-ic-sign/create-ic-document.md)
+  + [3 - Acrobat Sign API Wrapper](react-ic-sign/wrapper-sign-api.md)
+  + [4 - Generate Sign Widget](react-ic-sign/create-servlet-to-expose-endpoint.md)
+  + [5 - Deploy the sample assets](react-ic-sign/deploy-assets-on-your-server.md)
 + Document Services {#document-services}
   + [Types of PDF forms](document-services/pdf-forms-and-documents.md)
   + [Embed pdf in adaptive form](document-services/embed-pdf-inline.md)
