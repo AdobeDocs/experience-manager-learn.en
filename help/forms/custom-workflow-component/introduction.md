@@ -20,3 +20,7 @@ You will need the following:
 * A working instance of AEM with Form Add-on package installed
 
 * [Development environment set up according to this document](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html)
+
+## Next Steps
+
+Write your [custom java code by implementing WorkflowProcess interface](./custom-process-step-aem-workflow.md)

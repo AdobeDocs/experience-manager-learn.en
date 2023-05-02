@@ -32,3 +32,7 @@ To get started please follow the following instructions
 * [Create a service user as mentioned in this article](/help/forms/adaptive-forms/service-user-tutorial-develop.md). Make sure to deploy the OSGi bundle associated with the article.
 * Store the ACS private key in etc/key/campaign/private.key. You will have to create a folder called campaign under etc/key.
 * [Provide read access to the campaign folder to the service user "data".](http://localhost:4502/useradmin)
+
+## Next Steps
+
+[Generate JWT and Access Token](partone.md)

@@ -138,3 +138,8 @@ The QueryBuilder service is used to query nodes of type nt:file under the attach
 
 [Build the bundle as described here](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html)
 [Make sure the bundle is deployed and in active state](http://localhost:4502/system/console/bundles)
+
+## Next Steps
+
+Create your [custom workflow component](./custom-workflow-component.md)
+

@@ -38,3 +38,7 @@ We will add a table to the Income panel. Configure the table rows and use the ru
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/22197?quality=12&learn=on)
+
+## Next Steps
+
+[Configure the Assets Panel](./configuring-assets-panel.md)
