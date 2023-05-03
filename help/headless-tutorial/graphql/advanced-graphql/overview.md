@@ -72,7 +72,7 @@ Observe that the `WKND Shared Endpoint` has already been created. To create an e
 
 >[!NOTE]
 >
-> After saving the endpoint, you will see a modal about visiting the Security Console, which allows you to adjust security settings if you wish to configure access to the endpoint. Security permissions themselves are outside of the scope of this tutorial, however. For more information, refer to the [AEM documentation](https://experienceleague.adobe.com/docs/experience-manager-64/administering/security/security.html).
+> After saving the endpoint, you will see a modal about visiting the Security Console, which allows you to adjust security settings if you wish to configure access to the endpoint. Security permissions themselves are outside of the scope of this tutorial, however. For more information, refer to the [AEM documentation](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html).
 
 ### Review WKND content structure and language root folder
 

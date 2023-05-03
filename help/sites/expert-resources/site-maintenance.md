@@ -38,19 +38,19 @@ Indexes allow queries to run as quickly as they can, freeing up resources for ot
 
 Each update to the repository creates a new content revision. As a result, with each update the size of the repository grows. To avoid uncontrolled repository growth, old revisions need to be cleaned up to free disk resources.
 
-#### [Lucene binaries cleanup](https://experienceleague.adobe.com/docs/experience-manager-64/administering/operations/operations-dashboard.html?lang=en#automated-maintenance-tasks)
+#### [Lucene binaries cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#automated-maintenance-tasks)
 
 Purge lucene binaries and reduce the running data store size requirement.
 
-#### [Data Store Garbage](https://experienceleague.adobe.com/docs/experience-manager-64/administering/operations/data-store-garbage-collection.html?lang=en)
+#### [Data Store Garbage](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html)
 
 When an asset in AEM is deleted, the reference to the underlying data store record may be removed from the node hierarchy, but the data store record itself remains. This unreferenced data store record becomes "garbage" that need not be retained. In instances where a number of unreferenced assets exist, it is beneficial to get rid of them to, preserve space, optimize backup, and filesystem maintenance performance.
 
-#### [Workflow Purge](https://experienceleague.adobe.com/docs/experience-manager-64/administering/operations/workflows-administering.html?lang=en)
+#### [Workflow Purge](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html)
 
 Minimizing the number of workflow instances increases the performance of the workflow engine, so you can regularly purge completed or running workflow instances from the repository.
 
-#### [Audit Log Maintenance](https://experienceleague.adobe.com/docs/experience-manager-64/administering/operations/operations-audit-log.html?lang=en)
+#### [Audit Log Maintenance](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html
 
 AEM events that qualify for audit logging generate a lot of archived data. This data can quickly grow over time due to replications, asset uploads and other system activities.
 
@@ -74,7 +74,7 @@ Style systems allow the core components, and even custom components, to have the
 
 Launches allow for work to be completed for a new Promotion, Sale, or website rollout without impacting the currently deployed pages. In addition, they can be scheduled to go live automatically, without attendance or supervision, allowing Authors to do next week's (or next quarter's) work today and not rush into page development the day before it should go live - it's truly the gift of TIME!)
 
-### [Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-64/assets/fragments/content-fragments.html?lang=en)
+### [Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-65/assets/fragments/content-fragments.html)
 
 Content fragments are customizable "chunks" of information that can be easily reused all over the site. If you need a change you just change the original chunk and the update is seen everywhere it's used - immediately!
 

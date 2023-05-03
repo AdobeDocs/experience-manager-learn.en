@@ -27,7 +27,7 @@ For more details and code samples for AEM React Editable Components v2 review th
 
 ## AEM pages
 
-AEM React Editable Components work with both SPA Editor or Remote SPA React apps. Content populating the editable React components, must be exposed via AEM pages that extend the [SPA Page component](https://experienceleague.adobe.com/docs/experience-manager-64/developing/headless/spas/spa-page-component.html). AEM components, that maps to editable React components, must implement AEM's [Component Exporter framework](https://experienceleague.adobe.com/docs/experience-manager-65/developing/components/json-exporter-components.html) - such as [AEM Core WCM Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html).
+AEM React Editable Components work with both SPA Editor or Remote SPA React apps. Content populating the editable React components, must be exposed via AEM pages that extend the [SPA Page component](https://experienceleague.adobe.com/docs/experience-manager-65/developing/headless/spas/spa-page-component.html). AEM components, that maps to editable React components, must implement AEM's [Component Exporter framework](https://experienceleague.adobe.com/docs/experience-manager-65/developing/components/json-exporter-components.html) - such as [AEM Core WCM Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html).
 
 
 ## Dependencies
