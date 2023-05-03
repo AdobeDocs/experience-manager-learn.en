@@ -1,6 +1,6 @@
 ---
 title: Collect page data with Adobe Analytics
-description: Use the event-driven Adobe Client Data layer to collect data about user activity on a web site built with Adobe Experience Manager. Learn how to use rules in Experience Platform Launch to listen for these events and send data to an Adobe Analytics report suite.
+description: Use the event-driven Adobe Client Data layer to collect data about user activity on a web site built with Adobe Experience Manager. Learn how to use tag rules to listen for these events and send data to an Adobe Analytics report suite.
 version: Cloud Service
 topic: Integrations
 feature: Adobe Client Data Layer
@@ -12,51 +12,56 @@ exl-id: 33f2fd25-8696-42fd-b496-dd21b88397b2
 ---
 # Collect page data with Adobe Analytics
 
-Learn to use the built-in features of the [Adobe Client Data Layer with AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html) to collect data about a page in Adobe Experience Manager Sites. [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) and the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) are used to create rules to send page data to Adobe Analytics.
+>[!NOTE]
+>
+>Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Adobe Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) for a consolidated reference of the terminology changes.
 
-## What you will build
+
+Learn how to use the built-in features of the [Adobe Client Data Layer with AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html) to collect data about a page in Adobe Experience Manager Sites. [Tags in Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) and the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html) are used to create rules to send page data to Adobe Analytics.
+
+## What you are going to build {#what-build}
 
 ![Page Data Tracking](assets/collect-data-analytics/analytics-page-data-tracking.png)
 
-In this tutorial you will trigger a Launch rule based on an event from the Adobe Client Data Layer, add conditions for when the rule should be fired, and send the **Page Name** and **Page Template** of an AEM Page to Adobe Analytics.
+In this tutorial, you are going to trigger a tag rule based on an event from the Adobe Client Data Layer. Also, add conditions for when the rule should be fired, and then send the **Page Name** and **Page Template** values of an AEM Page to Adobe Analytics.
 
 ### Objectives {#objective}
 
-1. Create an event-driven rule in Launch based on changes to the data layer
-1. Map page data layer properties to Data Elements in Launch
-1. Collect page data and send to Adobe Analytics with the page view beacon
+1. Create an event-driven rule in the tag property that captures changes from the data layer
+1. Map page data layer properties to Data Elements in the tag property
+1. Collect and send page data into Adobe Analytics using the page view beacon
 
 ## Prerequisites
 
 The following are required:
 
-* **Experience Platform Launch** Property
-* **Adobe Analytics** test/dev report suite ID and tracking server. See the following documentation for [creating a new report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html).
-* [Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-platform-debugger/introduction-to-the-experience-platform-debugger.html) browser extension. Screenshots in this tutorial captured from the Chrome browser.
-* (Optional) AEM Site with the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation). This tutorial will use the public facing site [https://wknd.site/us/en.html](https://wknd.site/us/en.html) but you are welcome to use your own site.
+* **Tag property** in Experience Platform
+* **Adobe Analytics** test/dev report suite ID and tracking server. See the following documentation for [creating a report suite](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/new-report-suite.html).
+* [Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html) browser extension. Screenshots in this tutorial captured from the Chrome browser.
+* (Optional) AEM Site with the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation). This tutorial uses the public facing [WKND](https://wknd.site/us/en.html) site but you are welcome to use your own site.
 
 >[!NOTE]
 >
-> Need help integrating Launch and your AEM site? [See this video series](../experience-platform/data-collection/tags/overview.md).
+> Need help with integrating tag property and AEM site? [See this video series](../experience-platform/data-collection/tags/overview.md).
 
-## Switch Launch Environments for WKND Site
+## Switch Tag Environment for WKND Site
 
-[https://wknd.site](https://wknd.site) is a public facing site built based on [an open source project](https://github.com/adobe/aem-guides-wknd) designed as a reference and [tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for AEM implementations. 
+The [WKND](http://wknd.site/us/en.html) is a public facing site built based on [an open-source project](https://github.com/adobe/aem-guides-wknd) designed as a reference and [tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for an AEM implementation. 
 
-Instead of setting up an AEM environment and installing the WKND code base, you can use the Experience Platform debugger to **switch** the live [https://wknd.site/](https://wknd.site/) to *your* Launch Property. Of course you can use your own AEM site if it already has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation)
+Instead of setting up an AEM environment and installing the WKND code base, you can use the Experience Platform debugger to **switch** the live [WKND Site](http://wknd.site/us/en.html) to *your* tag property. However, you can use your own AEM site if it already has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation).
 
-1. Login to Experience Platform Launch and [create a Launch Property](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/configure-launch/launch.html) (if you haven't already).
-1. Ensure that an initial Launch [Library has been created](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library) and promoted to a Launch [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html).
-1. Copy the Launch embed code from the environment that your Library has been published to.
+1. Log in to Experience Platform and [create a Tag property](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html) (if you haven't already).
+1. Ensure that an initial tag JavaScript [library has been created](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library) and promoted to the tag [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html).
+1. Copy the JavaScript embed code from the tag environment where your library has been published to.
 
-   ![Copy Launch Embed Code](assets/collect-data-analytics/launch-environment-copy.png)
+   ![Copy Tag Property Embed Code](assets/collect-data-analytics/launch-environment-copy.png)
 
-1. In your browser open a new tab and navigate to [https://wknd.site/](https://wknd.site/)
+1. In your browser, open a new tab and navigate to [WKND Site](http://wknd.site/us/en.html)
 1. Open the Experience Platform Debugger browser extension
 
    ![Experience Platform Debugger](assets/collect-data-analytics/experience-platform-debugger-extension.png)
 
-1. Navigate to **Launch** > **Configuration** and under **Injected Embed Codes** replace the existing Launch embed code with *your* embed code copied from step 3.
+1. Navigate to **Experience Platform Tags** > **Configuration** and under **Injected Embed Codes** replace the existing embed code with *your* embed code copied from step 3.
 
    ![Replace Embed Code](assets/collect-data-analytics/platform-debugger-replace-embed.png)
 
@@ -66,20 +71,20 @@ Instead of setting up an AEM environment and installing the WKND code base, you 
 
 ## Verify Adobe Client Data Layer on WKND Site
 
-The [WKND Reference project](https://github.com/adobe/aem-guides-wknd) is built with AEM Core Components and has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation) by default. Next, verify the Adobe Client Data Layer is enabled.
+The [WKND reference project](https://github.com/adobe/aem-guides-wknd) is built with AEM Core Components and has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation) by default. Next, verify that the Adobe Client Data Layer is enabled.
 
-1. Navigate to [https://wknd.site](https://wknd.site).
-1. Open the browser's developer tools and navigate to the **Console**. Run the following command:
+1.  Navigate to [WKND Site](http://wknd.site/us/en.html).
+1.  Open the browser's developer tools and navigate to the **Console**. Run the following command:
 
     ```js
     adobeDataLayer.getState();
     ```
 
-    This returns the current state of the Adobe Client Data Layer.
+    Above code returns the current state of the Adobe Client Data Layer.
 
     ![Adobe Data Layer state](assets/collect-data-analytics/adobe-data-layer-state.png)
 
-1. Expand the response and inspect the `page` entry. You should see a data schema like the following:
+1.  Expand the response and inspect the `page` entry. You should see a data schema like the following:
 
     ```json
     page-2eee4f8914:
@@ -93,24 +98,26 @@ The [WKND Reference project](https://github.com/adobe/aem-guides-wknd) is built 
         xdm:template: "/conf/wknd/settings/wcm/templates/landing-page-template"
     ```
 
-    We will use standard properties derived from the [Page schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#page),  `dc:title`, `xdm:language` and `xdm:template` of the data layer to send page data to Adobe Analytics.
+    To send page data to Adobe Analytics let's use the standard properties like `dc:title`, `xdm:language`, and `xdm:template` of the data layer.
+
+    For more information, review the [Page Schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#page) from the Core Components Data Schemas. 
 
     >[!NOTE]
     >
-    > Don't see the `adobeDataLayer` javascript object? Ensure that the [Adobe Client Data Layer has been enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation) on your site.
+    > If you don't see the `adobeDataLayer` JavaScript object? Ensure that the [Adobe Client Data Layer has been enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation) on your site.
 
 ## Create a Page Loaded rule
 
-The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Page** data layer is loaded it will trigger an event `cmp:show`. Create a rule that is triggered based on the `cmp:show` event.
+The Adobe Client Data Layer is an **event** driven data layer. When the AEM Page data layer is loaded, it triggers a `cmp:show` event. Create a rule that is triggered when the `cmp:show` event is fired from the page data layer.
 
-1. Navigate to Experience Platform Launch and into the Web property integrated with the AEM Site.
-1. Navigate to the **Rules** section in the Launch UI and then and click **Create New Rule**.
+1. Navigate to Experience Platform and into the tag property integrated with the AEM Site.
+1. Navigate to the **Rules** section in the Tag Property UI and then click **Create New Rule**.
 
    ![Create Rule](assets/collect-data-analytics/analytics-create-rule.png)
 
 1. Name the rule **Page Loaded**.
-1. Click **Events** **Add** to open the **Event Configuration** wizard.
-1. Under **Event Type** select **Custom Code**.
+1. In the **Events** subsection, click **Add** to open the **Event Configuration** wizard.
+1. For **Event Type** field, select **Custom Code**.
 
    ![Name the rule and add the custom code event](assets/collect-data-analytics/custom-code-event.png)
 
@@ -120,7 +127,7 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Pa
    var pageShownEventHandler = function(evt) {
       // defensive coding to avoid a null pointer exception
       if(evt.hasOwnProperty("eventInfo") && evt.eventInfo.hasOwnProperty("path")) {
-         //trigger Launch Rule and pass event
+         //trigger the Tag Rule and pass event
          console.debug("cmp:show event: " + evt.eventInfo.path);
          var event = {
             //include the path of the component that triggered the event
@@ -129,8 +136,8 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Pa
             component: window.adobeDataLayer.getState(evt.eventInfo.path)
          };
 
-         //Trigger the Launch Rule, passing in the new `event` object
-         // the `event` obj can now be referenced by the reserved name `event` by other Launch data elements
+         //Trigger the Tag Rule, passing in the new `event` object
+         // the `event` obj can now be referenced by the reserved name `event` by other Tag data elements
          // i.e `event.component['someKey']`
          trigger(event);
       }
@@ -145,13 +152,13 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Pa
    });
    ```
 
-   The above code snippet will add an event listener by [pushing a function](https://github.com/adobe/adobe-client-data-layer/wiki#pushing-a-function) into the data layer. When the `cmp:show` event is triggered the `pageShownEventHandler` function is called. In this function a few sanity checks are added and a new `event` is constructed with the latest [state of the data layer](https://github.com/adobe/adobe-client-data-layer/wiki#getstate) for the component that triggered the event.
+   The above code snippet adds an event listener by [pushing a function](https://github.com/adobe/adobe-client-data-layer/wiki#pushing-a-function) into the data layer. When `cmp:show` event is triggered the `pageShownEventHandler` function is called. In this function, a few sanity checks are added and a new `event` is constructed with the latest [state of the data layer](https://github.com/adobe/adobe-client-data-layer/wiki#getstate) for the component that triggered the event.
 
-   After that `trigger(event)` is called. `trigger()` is a reserved name in Launch and will "trigger" the Launch Rule. We pass the `event` object as a parameter which in turn is exposed by another reserved name in Launch named `event`. Data Elements in Launch can now reference various properties like so: `event.component['someKey']`.
+   Finally the `trigger(event)` function is called. The `trigger()` function is a reserved name in the tag property and it **triggers** the rule. The `event` object is passed as a parameter which in turn is exposed by another reserved name in the tag property. Data Elements in the tag property can now reference various properties using code snippet like `event.component['someKey']`.
 
 1. Save the changes.
 1. Next under **Actions** click **Add** to open the **Action Configuration** wizard.
-1. Under **Action Type** choose **Custom Code**.
+1. For **Action Type** field, choose **Custom Code**.
 
    ![Custom Code Action Type](assets/collect-data-analytics/action-custom-code.png)
 
@@ -164,36 +171,34 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM **Pa
    console.debug("Page template: " + event.component['xdm:template']);
    ```
 
-   The `event` object is passed from the `trigger()` method called in the custom event. `component` is the current page derived from the data layer `getState` in the the custom event. Recall from earlier the [Page schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#page) exposed by the data layer in order to see the various keys exposed out of the box.
+   The `event` object is passed from the `trigger()` method called in the custom event. Here the `component` is the current page derived from the data layer `getState` in the custom event. 
 
-1. Save the changes and run a [build](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/builds.html) in Launch to promote the code to the [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html) used on your AEM Site.
+1. Save the changes and run a [build](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/builds.html) in the tag property to promote the code to the [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html) used on your AEM Site.
 
    >[!NOTE]
    >
-   > It can be very useful to use the [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-platform-debugger/introduction-to-the-experience-platform-debugger.html) to switch the embed code to a **Development** environment.
+   > It can be useful to use the [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html) to switch the embed code to a **Development** environment.
 
-1. Navigate to your AEM site and open the developer tools to view the console. Refresh the page and you should see that the console messages have been logged:
+1.  Navigate to your AEM site and open the developer tools to view the console. Refresh the page and you should see that the console messages have been logged:
 
    ![Page Loaded Console Messages](assets/collect-data-analytics/page-show-event-console.png)
 
 ## Create Data Elements
 
-Next create several Data Elements to capture different values from the Adobe Client Data Layer. As seen in the previous exercise we have seen it is possible to access the properties of the data layer directly through custom code. The advantage of using Data Elements is that they can be re-used across Launch rules.
-
-Recall from earlier the [Page schema](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#page) exposed by the data layer:
+Next create several Data Elements to capture different values from the Adobe Client Data Layer. As seen in the previous exercise it is possible to access the properties of the data layer directly through custom code. The advantage of using Data Elements is that they can be reused across tag rules.
 
 Data elements are mapped to the `@type`, `dc:title`, and `xdm:template` properties.
 
 ### Component Resource Type
 
-1. Navigate to Experience Platform Launch and into the Web property integrated with the AEM Site.
-1. Navigate to the **Data Elements** section and click **Create New Data Element**.
-1. For **Name** enter **Component Resource Type**.
-1. For **Data Element Type** select **Custom Code**.
+1.  Navigate to Experience Platform and into the tag property integrated with the AEM Site.
+1.  Navigate to the **Data Elements** section and click **Create New Data Element**.
+1.  For the **Name** field, enter the **Component Resource Type**.
+1.  For the **Data Element Type** field, select **Custom Code**.
 
     ![Component Resource Type](assets/collect-data-analytics/component-resource-type-form.png)
 
-1. Click **Open Editor** and enter the following in the custom code editor:
+1.  Click **Open Editor** button and enter the following in the custom code editor:
 
     ```js
     if(event && event.component && event.component.hasOwnProperty('@type')) {
@@ -201,18 +206,18 @@ Data elements are mapped to the `@type`, `dc:title`, and `xdm:template` properti
     }
     ```
 
-    Save the changes.
+1.  Save the changes.
 
     >[!NOTE]
     >
-    > Recall that the `event` object is made available and scoped based on the event that triggered the **Rule** in Launch. The value of a Data Element is not set until the Data Element is *referenced* within a Rule. Therefore it is safe to use this Data Element inside of a Rule like the **Page Loaded** rule created in the previous step *but* would not be safe to use in other contexts.
+    > Recall that the `event` object is made available and scoped based on the event that triggered the **Rule** in tag property. The value of a Data Element is not set until the Data Element is *referenced* within a Rule. Therefore it is safe to use this Data Element inside a Rule like the **Page Loaded** rule created in the previous step *but* would not be safe to use in other contexts.
 
 ### Page Name
 
-1. Click **Add Data Element**.
-1. For **Name** enter **Page Name**.
-1. For **Data Element Type** select **Custom Code**.
-1. Click **Open Editor** and enter the following in the custom code editor:
+1.  Click **Add Data Element** button
+1.  For the **Name** field, enter **Page Name**.
+1.  For the **Data Element Type** field, select **Custom Code**.
+1.  Click **Open Editor** button, and enter the following in the custom code editor:
 
     ```js
     if(event && event.component && event.component.hasOwnProperty('dc:title')) {
@@ -220,14 +225,14 @@ Data elements are mapped to the `@type`, `dc:title`, and `xdm:template` properti
     }
     ```
 
-    Save the changes.
+1.  Save the changes.
 
 ### Page Template
 
-1. Click **Add Data Element**.
-1. For **Name** enter **Page Template**.
-1. For **Data Element Type** select **Custom Code**.
-1. Click **Open Editor** and enter the following in the custom code editor:
+1.  Click the **Add Data Element** button
+1.  For the **Name** field, enter **Page Template**.
+1.  For the **Data Element Type** field, select **Custom Code**.
+1.  Click **Open Editor** button, and enter the following in the custom code editor:
 
     ```js
     if(event && event.component && event.component.hasOwnProperty('xdm:template')) {
@@ -235,23 +240,23 @@ Data elements are mapped to the `@type`, `dc:title`, and `xdm:template` properti
     }
     ```
 
-    Save the changes.
+1.  Save the changes.
 
-1. You should now have three data elements as part of your rule:
+1.  You should now have three data elements as part of your rule:
 
     ![Data Elements in Rule](assets/collect-data-analytics/data-elements-page-rule.png)
 
 ## Add the Analytics Extension
 
-Next add the Analytics extension to your Launch property. We need to send this data somewhere!
+Next add the Analytics extension to your tag property to send data into a report suite.
 
-1. Navigate to Experience Platform Launch and into the Web property integrated with the AEM Site.
+1. Navigate to Experience Platform and into the tag property integrated with the AEM Site.
 1. Go to **Extensions** > **Catalog**
 1. Locate the **Adobe Analytics** extension and click **Install**
 
    ![Adobe Analytics Extension](assets/collect-data-analytics/analytics-catalog-install.png)
 
-1. Under **Library Management** > **Report Suites**, enter the report suite ids you would like to use with each Launch environment.
+1. Under **Library Management** > **Report Suites**, enter the report suite ids you would like to use with each tag environment.
 
     ![Enter the report suite ids](assets/collect-data-analytics/analytics-config-reportSuite.png)
 
@@ -261,13 +266,13 @@ Next add the Analytics extension to your Launch property. We need to send this d
 
     >[!TIP]
     >
-    >We recommend using the *Manage the library for me option* as the Library Management setting as it makes it much easier to keep the `AppMeasurement.js` library up-to-date.
+    >We recommend using the *Manage the library for me option* as the Library Management setting as it makes it much easier to keep the `AppMeasurement.js` library up to date.
 
 1. Check the box to enable **Use Activity Map**.
 
    ![Enable Use Activity Map](assets/track-clicked-component/analytic-track-click.png)
 
-1. Under **General** > **Tracking Server**, enter your tracking server, e.g. `tmd.sc.omtrdc.net`. Enter your SSL Tracking Server if your site supports `https://`
+1. Under **General** > **Tracking Server**, enter your tracking server, for example, `tmd.sc.omtrdc.net`. Enter your SSL Tracking Server if your site supports `https://`
 
     ![Enter the tracking servers](assets/collect-data-analytics/analytics-config-trackingServer.png)
 
@@ -275,11 +280,11 @@ Next add the Analytics extension to your Launch property. We need to send this d
 
 ## Add a condition to the Page Loaded rule
 
-Next, update the **Page Loaded** rule to use the **Component Resource Type** data element to ensure that the rule only fires when the `cmp:show` event is for the **Page**. Other components can fire the `cmp:show` event, for example the Carousel component will fire it when the slides change. Therefore it is important to add a condition for this rule.
+Next, update the **Page Loaded** rule to use the **Component Resource Type** data element to ensure that the rule only fires when the `cmp:show` event is for the **Page**. Other components can fire the `cmp:show` event, for example, the Carousel component fires it when the slides change. Therefore it is important to add a condition for this rule.
 
-1. In the Launch UI, navigate to the **Page Loaded** rule created earlier.
+1. In the Tag Property UI, navigate to the **Page Loaded** rule created earlier.
 1. Under **Conditions** click **Add** to open the **Condition Configuration** wizard.
-1. For **Condition Type** select **Value Comparison**.
+1. For **Condition Type** field, select **Value Comparison** option.
 1. Set the first value in the form field to `%Component Resource Type%`. You can use the Data Element Icon ![data-element icon](assets/collect-data-analytics/cylinder-icon.png) to select the **Component Resource Type** data element. Leave the comparator set to `Equals`.
 1. Set the second value to `wknd/components/page`.
 
@@ -293,18 +298,19 @@ Next, update the **Page Loaded** rule to use the **Component Resource Type** dat
 
 ## Set Analytics Variables and trigger Page View Beacon
 
-Currently the **Page Loaded** rule simply outputs a console statement. Next, use the data elements and the Analytics extension to set Analytics variables as an **action** in the **Page Loaded** rule. We will also set an additional action to trigger the **Page View Beacon** and send the collected data to Adobe Analytics.
+Currently the **Page Loaded** rule simply outputs a console statement. Next, use the data elements and the Analytics extension to set Analytics variables as an **action** in the **Page Loaded** rule. We also set an extra action to trigger the **Page View Beacon** and send the collected data to Adobe Analytics.
 
-1. In the **Page Loaded** rule **remove** the **Core - Custom Code** action (the console statements):
+1. In the Page Loaded rule, **remove** the **Core - Custom Code** action (the console statements):
 
    ![Remove custom code action](assets/collect-data-analytics/remove-console-statements.png)
 
-1. Under Actions, click **Add** to add a new action.
+1. Under Actions subsection, click **Add** to add a new action.
+
 1. Set the **Extension** type to **Adobe Analytics** and set the **Action Type** to  **Set Variables**
 
    ![Set Action Extension to Analytics Set Variables](assets/collect-data-analytics/analytics-set-variables-action.png)
 
-1. In the main panel select an available **eVar** and set as the value of the Data Element **Page Template**. Use the Data Elements icon ![Data elements icon](assets/collect-data-analytics/cylinder-icon.png) to select the **Page Template** element.
+1. In the main panel, select an available **eVar** and set as the value of the Data Element **Page Template**. Use the Data Elements icon ![Data elements icon](assets/collect-data-analytics/cylinder-icon.png) to select the **Page Template** element.
 
    ![Set as eVar Page Template](assets/collect-data-analytics/set-evar-page-template.png)
 
@@ -312,25 +318,26 @@ Currently the **Page Loaded** rule simply outputs a console statement. Next, use
 
    ![Page Name Environment Variable set](assets/collect-data-analytics/page-name-env-variable-set.png)
 
-   Save the changes.
+1. Save the changes.
 
-1. Next, add an additional Action to the right of the **Adobe Analytics - Set Variables** by tapping the **plus** icon:
+1. Next, add an extra Action to the right of the **Adobe Analytics - Set Variables** by tapping the **plus** icon:
 
-    ![Add an additional Launch Action](assets/collect-data-analytics/add-additional-launch-action.png)
+    ![Add an additional Tag Rule Action](assets/collect-data-analytics/add-additional-launch-action.png)
 
-1. Set the **Extension** type to **Adobe Analytics** and set the **Action Type** to  **Send Beacon**. Since this is considered a page view, leave the default tracking set to **`s.t()`**.
+1. Set the **Extension** type to **Adobe Analytics** and set the **Action Type** to  **Send Beacon**. Since this action is considered a page view, leave the default tracking set to **`s.t()`**.
 
    ![Send Beacon Adobe Analytics action](assets/track-clicked-component/send-page-view-beacon-config.png)
 
 1. Save the changes. The **Page Loaded** rule should now have the following configuration:
 
-   ![Final Launch Configuration](assets/collect-data-analytics/final-page-loaded-config.png)
+   ![Final Tag Rule Configuration](assets/collect-data-analytics/final-page-loaded-config.png)
 
    * **1.** Listen for the `cmp:show` event.
    * **2.** Check that the event was triggered by a page.
    * **3.** Set Analytics variables for **Page Name** and **Page Template**
    * **4.** Send the Analytics Page View Beacon
-1. Save all the changes and build your Launch library, promoting to the appropriate Environment.
+
+1. Save all the changes and build your tag library, promoting to the appropriate Environment.
 
 ## Validate the Page View Beacon and Analytics call
 
@@ -338,7 +345,7 @@ Now that the **Page Loaded** rule sends the Analytics beacon, you should be able
 
 1. Open the [WKND Site](https://wknd.site/us/en.html) in your browser.
 1. Click the Debugger icon ![Experience platform Debugger icon](assets/collect-data-analytics/experience-cloud-debugger.png) to open the Experience Platform Debugger.
-1. Make sure the Debugger is mapping the Launch property to *your* Development environment, as described earlier and **Console Logging** is checked.
+1. Make sure that the Debugger is mapping the tag property to *your* Development environment, as described earlier and **Console Logging** is checked.
 1. Open the Analytics menu and verify that the report suite is set to *your* report suite. The Page Name should also be populated:
 
    ![Analytics tab debugger](assets/collect-data-analytics/analytics-tab-debugger.png)
@@ -359,13 +366,13 @@ Now that the **Page Loaded** rule sends the Analytics beacon, you should be able
 
    >[!NOTE]
    >
-   > If you don't see any console logs, ensure that **Console Logging** is checked under **Launch** in the Experience Platform Debugger.
+   > If you don't see any console logs, ensure that **Console Logging** is checked under **Experience Platform Tags** in the Experience Platform Debugger.
 
 1. Navigate to an article page like [Western Australia](https://wknd.site/us/en/magazine/western-australia.html). Observe that Page Name, and Template Type change.
 
 ## Congratulations!
 
-You just used the event-driven Adobe Client Data Layer and Experience Platform Launch to collect data page data from an AEM Site and send it to Adobe Analytics.
+You just used the event-driven Adobe Client Data Layer and Tags in Experience Platform to collect data page data from an AEM Site and send it to Adobe Analytics.
 
 ### Next Steps
 
