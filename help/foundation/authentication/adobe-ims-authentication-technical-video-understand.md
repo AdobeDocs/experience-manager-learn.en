@@ -44,4 +44,4 @@ In, Admin Console users should be granted access via User Groups at the Product 
 
 ### Applying permissions in Adobe Experience Manager
 
-In Adobe Experience Manager, user groups synced from Adobe IMS should be in term added to [AEM-provided user groups](https://experienceleague.adobe.com/docs/experience-manager-64/administering/security/security.html), which come preconfigured with the appropriate permissions to execute specific sets of tasks in AEM. Users synced from Adobe IMS should not be directly added to [AEM-provided user groups](https://experienceleague.adobe.com/docs/experience-manager-64/administering/security/security.html).
+In Adobe Experience Manager, user groups synced from Adobe IMS should be in term added to [AEM-provided user groups](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html), which come preconfigured with the appropriate permissions to execute specific sets of tasks in AEM. Users synced from Adobe IMS should not be directly added to [AEM-provided user groups](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html).

@@ -1,7 +1,7 @@
 ---
 title: Set up a Local AEM development environment
 description: Learn how to set up a local development environment for Experience Manager. Get familiar with local installation, Apache Maven, integrated development environments, and debugging and troubleshooting. Use Eclipse IDE, CRXDE-Lite, Visual Studio Code, and IntelliJ. 
-version: 6.4, 6.5
+version: 6.5
 feature: Developer Tools
 topics: development
 activity: develop
@@ -134,7 +134,7 @@ When, using an IDE please make sure to check `classic` in your Maven Profile tab
 
 ### [!DNL Eclipse] IDE
 
-The **[[!DNL Eclipse] IDE](https://www.eclipse.org/ide/)** is one of the more popular IDEs for Java&trade; development, in large part because it is open source and ***free***! Adobe provides a plugin, **[[!DNL AEM Developer Tools]](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html)**, for [!DNL Eclipse] to allow easier development with a nice GUI to synchronize code with a local AEM instance. The [!DNL Eclipse] IDE is recommended for developers new to AEM in large part because of the GUI support by [!DNL AEM Developer Tools].
+The **[[!DNL Eclipse] IDE](https://www.eclipse.org/ide/)** is one of the more popular IDEs for Java&trade; development, in large part because it is open source and ***free***! Adobe provides a plugin, **[[!DNL AEM Developer Tools]](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html)**, for [!DNL Eclipse] to allow easier development with a nice GUI to synchronize code with a local AEM instance. The [!DNL Eclipse] IDE is recommended for developers new to AEM in large part because of the GUI support by [!DNL AEM Developer Tools].
 
 #### Installation and Setup
 
@@ -190,7 +190,7 @@ The **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** is a powerful IDE for p
 
 ### [!DNL CRXDE Lite]
 
-[CRXDE Lite](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/developing-with-crxde-lite.html) is a browser-based view of the AEM repository. [!DNL CRXDE Lite] is embedded in AEM and allows a developer to perform standard development tasks like editing files, defining components, dialogs, and templates. [!DNL CRXDE Lite] is ***not*** intended to be a full development environment but is effective as a debugging tool. [!DNL CRXDE Lite] is useful when extending or simply understanding product code outside of your code base. [!DNL CRXDE Lite] provides a powerful view of the repository and a way to effectively test and manage permissions.
+[CRXDE Lite](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/developing-with-crxde-lite.html) is a browser-based view of the AEM repository. [!DNL CRXDE Lite] is embedded in AEM and allows a developer to perform standard development tasks like editing files, defining components, dialogs, and templates. [!DNL CRXDE Lite] is ***not*** intended to be a full development environment but is effective as a debugging tool. [!DNL CRXDE Lite] is useful when extending or simply understanding product code outside of your code base. [!DNL CRXDE Lite] provides a powerful view of the repository and a way to effectively test and manage permissions.
 
 [!DNL CRXDE Lite] should be used with other IDEs to test and debug code but never as the primary development tool. It has limited syntax support, no auto-complete capabilities, and limited integration with source control management systems.
 

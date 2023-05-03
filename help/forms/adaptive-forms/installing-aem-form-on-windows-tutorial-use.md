@@ -3,7 +3,7 @@ title: Simplified Steps for Installing AEM Forms on Windows
 description: Quick and easy steps to install AEM Forms on windows
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4,6.5
+version: 6.5
 topic: Development
 role: Admin
 level: Beginner
@@ -79,4 +79,4 @@ Although we recommend following the [official documentation](https://helpx.adobe
   4. Save the changes.
 
 Congratulations!!! You have now installed and configured AEM Forms on your system.
-Depending on your needs you can configure  [Reader Extensions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/configuring-reader-extension-osgi.html?lang=en) or [ PDFG](https://experienceleague.adobe.com/docs/experience-manager-64/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en) on your server
+Depending on your needs you can configure  [Reader Extensions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/configuring-reader-extension-osgi.html) or [ PDFG](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html) on your server
