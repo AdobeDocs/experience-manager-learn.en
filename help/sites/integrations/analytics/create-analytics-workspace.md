@@ -15,9 +15,9 @@ last-substantial-update: 2022-06-15
 
 Learn how to map data captured from an Adobe Experience Manager Site to metrics and dimensions in Adobe Analytics report suites. Learn how to build a detailed reporting dashboard using the Analysis Workspace feature of Adobe Analytics. 
 
-## What you will build
+## What you are going to build {#what-build}
 
-The WKND marketing team wants to understand which Call to Action (CTA) buttons perform best on the home page. In this tutorial, we will create a new project in the Analysis Workspace to visualize the performance of different CTA buttons and understand user behavior on the site. The following information gets captured using Adobe Analytics when a user clicks a Call to Action (CTA) button on the WKND home page.
+The WKND marketing team is interested in knowing which `Call to Action (CTA)` buttons are performing the best on the home page. In this tutorial, create a project in the **Analysis Workspace** to visualize the performance of different CTA buttons and understand user behavior on the site. The following information gets captured using Adobe Analytics when a user clicks a Call to Action (CTA) button on the WKND home page.
 
 **Analytics Variables**
 
@@ -35,8 +35,8 @@ Below are the Analytics variables currently being tracked:
 
 ### Objectives {#objective}
 
-1. Create a new Report Suite or use an existing one.
-1. Configure [Conversion Variables (eVars)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) and [Success Events (Events)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in the Report Suite.
+1. Create a Report Suite or use an existing one.
+1. Configure [Conversion Variables (eVars)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/conversion-var-admin.html) and [Success Events (Events)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html) in the Report Suite.
 1. Create an [Analysis Workspace project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) to analyze data with the help of tools that allows you to build, analyze, and share insights quickly.
 1. Share the Analysis Workspace project with other team members.
 
@@ -44,13 +44,13 @@ Below are the Analytics variables currently being tracked:
 
 This tutorial is a continuation of the [Track clicked component with Adobe Analytics](./track-clicked-component.md) and assumes that you have:
 
-* A **Launch Property** with the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) enabled
-* **Adobe Analytics** test/dev report suite ID and tracking server. See the following documentation for [creating a new report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html).
-* [Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-platform-debugger/introduction-to-the-experience-platform-debugger.html) browser extension configured with your Launch property loaded on [https://wknd.site/us/en.html](https://wknd.site/us/en.html) or an AEM site with the Adobe Data Layer enabled.
+* A **Tag Property** with the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html) enabled
+* **Adobe Analytics** test/dev report suite ID and tracking server. See the following documentation for [creating a report suite](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/new-report-suite.html).
+* [Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html) browser extension configured with a tag property loaded on the [WKND Site](https://wknd.site/us/en.html) or an AEM site with the Adobe Data Layer enabled.
 
 ## Conversion Variables (eVars) and Success Events (Event)
 
-The Custom Insight Conversion Variable (or eVar) is placed in the Adobe code on your site's selected web pages. Its primary purpose is to segment conversion success metrics in custom marketing reports. An eVar can be visit-based and function similarly to cookies. Values passed into eVar variables follow the user for a predetermined period.
+The Custom Insight Conversion Variable (or eVar) is placed in the Adobe code on your site's selected web pages. Its primary purpose is to segment conversion success metrics in custom marketing reports. An eVar can be a visit-based and it functions similarly to cookies. The values passed into eVar variables follow the user for a predetermined period.
 
 When an eVar is set to a visitor's value, Adobe automatically remembers that value until it expires. Any success events that a visitor encounters while the eVar value is active are counted toward the eVar value.
 
@@ -68,7 +68,7 @@ Success events are actions that can be tracked. You determine what a success eve
 
     ![Analytics AEP](assets/create-analytics-workspace/analytics-aep.png)
 
-1. From the Analytics toolbar, click on **Admin** > **Report Suites** and find your Report Suite.
+1. From the Analytics toolbar, click **Admin** > **Report Suites** and find your Report Suite.
 
     ![Analytics Report Suite](assets/create-analytics-workspace/select-report-suite.png)
 
@@ -86,28 +86,28 @@ Success events are actions that can be tracked. You determine what a success eve
 
     ![Add new eVars](assets/create-analytics-workspace/add-new-evars.png)
 
-1. Provide an appropriate name and description for each eVars and **Save** your changes. We use these eVars to create an Analysis Workspace project in the next section. So, a user-friendly name makes the variables easily discoverable.
+1. Provide an appropriate name and description for each eVars and **Save** your changes. In the Analysis Workspace project the eVars with appropriate name is used, thus, a user-friendly name makes the variables easily discoverable.
    
    ![eVars](assets/create-analytics-workspace/evars.png)
 
 ### Configure Success Events
 
-Next, let's create an even to track the CTA Button click.
+Next, let's create an event to track the CTA Button click.
 
 1. From the **Report Suite Manager** window, select the **Report Suite Id** and click **Edit Settings**.
 1. Click **Conversion** > **Success Events**
-1. Using the **Add New** option, create a new custom success event to track the CTA Button click and then **Save** your changes.
+1. Using the **Add New** option, create a custom success event to track the CTA Button click and then **Save** your changes.
     * `Event` : `event8`
     * `Name`:`CTA Click`
     * `Type`:`Counter`
   
    ![eVars](assets/create-analytics-workspace/add-success-event.png)
 
-## Create a new project in Analysis Workspace {#workspace-project}
+## Create a project in Analysis Workspace {#workspace-project}
 
 Analysis Workspace is a flexible browser tool that allows you to build analyses and share insights quickly. Using the drag-and-drop interface, you can craft your analysis, add visualizations to bring data to life, curate a dataset, share, and schedule projects with anyone in your organization. 
 
-Next, create a new [project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html#analysis-workspace) to build a dashboard to analyze the performance of the CTA buttons throughout the site.
+Next, create a [project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html#analysis-workspace) to build a dashboard to analyze the performance of the CTA buttons throughout the site.
 
 1. From the Analytics toolbar, select **Workspace** and click to **Create a New Project**.
 
@@ -115,17 +115,17 @@ Next, create a new [project](https://experienceleague.adobe.com/docs/analytics/a
 
 1. Choose to start from a **blank project** or select one of the pre-built templates, either provided by Adobe or custom templates created by your organization. Several templates are available, depending on the analysis or use case you have in mind. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) about the different template options available.
 
-    In your Workspace project, panels, tables, visualizations, and components are accessed from the left rail. These are your project building blocks.
+    In your Workspace project, panels, tables, visualizations, and components are accessed from the left rail. They makeup building blocks for your project.
 
     * **[Components](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html)** - Components are dimensions, metrics, segments, or date ranges, all of which can be combined in a Freeform table to start answering your business question. Be sure to familiarize yourself with each component type before diving into your analysis. Once you've mastered component terminology, you can begin dragging and dropping to build your analysis in a Freeform table.
     * **[Visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)** - Visualizations, such as a bar or line chart, are then added on top of the data to bring it to life visually. On the far left rail, select the middle Visualizations icon to see the full list of visualizations available.
-    * **[Panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)** - A panel is a collection of tables and visualizations. You can access panels from the top left icon in the Workspace. Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use cases. The following panel types are available in Analysis Workspace:
+    * **[Panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)** - A panel is a collection of tables and visualizations. You can access panels from the top-left icon in the Workspace. Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use cases. The following panel types are available in Analysis Workspace:
 
     ![Template Selection](assets/create-analytics-workspace/workspace-tools.png)
 
 ### Add data visualization with Analysis Workspace
 
-Next, build a table to create a visual representation of how users interact with Call to Action (CTA) buttons on the WKND Site home page. To build such a representation, let's use the data collected in the [Track clicked component with Adobe Analytics](./track-clicked-component.md). Below is a quick summary of data tracked for user interactions with the Call to Action buttons for the WKND Site.
+Next, build a table to create a visual representation of how users interact with `Call to Action (CTA)` buttons on the WKND Site home page. To build such a representation, let's use the data collected in the [Track clicked component with Adobe Analytics](./track-clicked-component.md). Below is a quick summary of data tracked for user interactions with the Call to Action buttons for the WKND Site.
 
 * `eVar5` -  `Page template`
 * `eVar6` - `Page Id`
@@ -143,7 +143,7 @@ Next, build a table to create a visual representation of how users interact with
 
     ![Page Metric - CTA Click](assets/create-analytics-workspace/evar8-cta-click.png)
 
-1. Let's break down the by page by its template type. Select the page template metric from components, and drag-drop the Page Template metric onto the Page Name dimension. You could now view the page name broken down by its template type.
+1. Let's break down the page by its template type. Select the page template metric from components, and drag-drop the Page Template metric onto the Page Name dimension. You could now view the page name broken down by its template type.
 
     * **Before**
         ![eVar5](assets/create-analytics-workspace/evar5.png)
@@ -151,7 +151,7 @@ Next, build a table to create a visual representation of how users interact with
     * **After**
         ![eVar5 Metrics](assets/create-analytics-workspace/evar5-metrics.png)
 
-1. To understand how users interact with CTA Buttons when they are on the WKND Site pages, we need to further breakdown the Page Template metric by adding the Button ID (eVar8) metric. 
+1. To understand how users interact with CTA Buttons when they are on the WKND Site pages, further breakdown by adding the Button ID (eVar8) metric is needed. 
     
     ![eVar8](assets/create-analytics-workspace/evar8.png)
 
@@ -171,13 +171,13 @@ Analytics Classification is a way of categorizing Analytics variable data, then 
 
 Next, let's create a Classification for Analytics variable.
 
-1. From the **Admin** toolbar menu, Select **Report Suites**
+1. From the **Admin** toolbar menu, select **Report Suites**
 1. Select the **Report Suite Id** from the **Report Suite Manager** window and click **Edit Settings** > **Conversion** > **Conversion Classifications**
 
     ![Conversion Classification](assets/create-analytics-workspace/conversion-classification.png)
 
 1. From the **Select Classification Type** drop-down list, select the variable (eVar8-Button ID) to add a classification.
-1. Click on the arrow right next to the Classification variable listed under the Classifications section to add a new Classification.
+1. Click the arrow right next to the Classification variable listed under the Classifications section to add a new Classification.
 
     ![Conversion Classification Type](assets/create-analytics-workspace/select-classification-variable.png)
 
@@ -217,7 +217,7 @@ Next, let's download the Classification Template for the Button Id (eVar8) varia
 1. Configure the Destination for the file import.
    * **Select Report Suite** : WKND Site AEM (Report Suite)
    * **Data Set to be Classified** : Button Id (Conversion Variable eVar8)
-1. Click on the **Choose File** option to upload the tab-delimited file from your system, and then click on **Import File**
+1. Click the **Choose File** option to upload the tab-delimited file from your system, and then click **Import File**
 
     ![File Importer](assets/create-analytics-workspace/file-importer.png)
 
@@ -227,7 +227,7 @@ Next, let's download the Classification Template for the Button Id (eVar8) varia
 
 #### Replace Conversion Variable with Classification Variable
 
-1.  From the Analytics toolbar, select **Workspace** and open the workspace we created in [Create a new project in Analysis Workspace](#workspace-project) section of this tutorial.  
+1.  From the Analytics toolbar, select **Workspace** and open the workspace created in the [Create a project in Analysis Workspace](#create-a-project-in-analysis-workspace) section of this tutorial.  
 
     ![Workspace Button ID](assets/create-analytics-workspace/workspace-report-button-id.png)
 
@@ -241,7 +241,7 @@ Next, let's download the Classification Template for the Button Id (eVar8) varia
       ![Workspace Button After](assets/create-analytics-workspace/wknd-button-after.png)
 
 1. You can notice the Button Id metric that contained the button id of a Call to Action (CTA) button is now replaced with a corresponding name provided in the Classification Template.
-1. Let's compare the Analytics Workspace table to the WKND Home page and understand the CTA Button click count and its analysis. Based on the workspace freeform table data, it is clear that 22 times users have clicked on the **SKI NOW** button and four times for the WKND Home Page Camping in Western Australia **Read More** button. 
+1. Let's compare the Analytics Workspace table to the WKND Home page and understand the CTA Button click count and its analysis. Based on the workspace freeform table data, it is clear that 22 times users have clicked the **SKI NOW** button and four times for the WKND Home Page Camping in Western Australia **Read More** button. 
 
     ![CTA Report](assets/create-analytics-workspace/workspace-report-buttons-wknd.png)
 
@@ -255,4 +255,4 @@ Next, let's download the Classification Template for the Button Id (eVar8) varia
 
 ## Congratulations!
 
-You just learned how to map data captured from an Adobe Experience Manager Site to metrics and dimensions in Adobe Analytics report suites, perform a Classification for the metrics, and build a detailed reporting dashboard using the Analysis Workspace feature of Adobe Analytics.
+You just learned how to map data captured from an Adobe Experience Manager Site to metrics and dimensions in Adobe Analytics report suites. Also, performed a Classification for the metrics, and build a detailed reporting dashboard using the Analysis Workspace feature of Adobe Analytics.
