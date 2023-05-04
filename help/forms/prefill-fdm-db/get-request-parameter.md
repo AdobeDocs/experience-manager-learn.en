@@ -46,3 +46,7 @@ The value of empID is associated with key called empID in paraMap. This map is t
 >[!NOTE]
 >
 >The key empID has to match with the binding value of the newhire entities get service
+
+## Next Steps
+
+[Create an Adaptive Form based on Form Data Model](./create-adaptive-form.md)

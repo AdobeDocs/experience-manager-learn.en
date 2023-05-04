@@ -49,3 +49,7 @@ In the branding customization you can do the following
 * Hide Navigation options
 
 ![inbox-branding](assets/branding-customization.PNG)
+
+## Next Steps
+
+[Add Married Column](./add-married-column.md)

@@ -114,3 +114,8 @@ You need to include the AEMFD client sdk in your project to take advantage of va
 * Execute the command `mvn clean install -PautoInstallBundle`
 The above command builds and installs the bundle in the AEM server running on `http://localhost:4502`. The bundle is also available on the file system at
  `C:\AEMFormsBundles\mysite\core\target` and can be deployed using [Felix web console](http://localhost:4502/system/console/bundles)
+
+## Next Steps
+
+[Create OSGi service](./create-osgi-service.md)
+

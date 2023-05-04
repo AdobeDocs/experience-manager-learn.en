@@ -24,3 +24,7 @@ Form data model can be based on RDBMS, RESTfull, SOAP or OData sources. This cou
   ![beneficiaries](assets/beneficiaries-table.png)
 
 You can import the [sql file](assets/db-schema.sql) using MySQL workbench to create to tables with some sample data.
+
+## Next Steps
+
+[Configure Form Data Model](./configuring-form-data-model.md)

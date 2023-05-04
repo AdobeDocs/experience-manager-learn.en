@@ -28,3 +28,7 @@ To accomplish the use case a custom workflow process step was written. In this c
 To accomplish this use case a custom workflow process step was written. In this custom process step we populate workflow variables of type ArrayList of Documents and ArrayList of Strings.
 
 ![send-list-of-documents](assets/send-list-of-documents.JPG)
+
+## Next Steps
+
+[Zip Form Attachments](./custom-process-step.md)

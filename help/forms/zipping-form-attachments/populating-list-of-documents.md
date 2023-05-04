@@ -12,7 +12,7 @@ exl-id: 09d9eabf-4815-4159-b6c7-cf2ebc8a2df5
 # Custom Process Step
 
 
-A custom process step was implemented to populate Array List workflow variables. If you are not familiar with creating OSGi bundle, please [follow these instructions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html?lang=en)
+A custom process step was implemented to populate workflow variables of type Array List with the attachments and attachment names. This variable is then used in the Send Email workflow component. If you are not familiar with creating OSGi bundle, please [follow these instructions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html?lang=en)
 
 The code in the custom process step does the following
 
@@ -110,3 +110,7 @@ public class PopulateListOfDocuments implements WorkflowProcess {
 > *listOfDocuments* - variable of type ArrayList of Documents
 > *attachmentNames* - variable of type ArrayList of String
 > *no_of_attachments* - variable of type Double
+
+## Next Steps
+
+[Test the solution on your local system](./test.md)
