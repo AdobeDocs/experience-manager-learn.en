@@ -84,3 +84,8 @@ Point your browser to the [servlet resolver URL](http://localhost:4502/system/co
 ## Test the servlet using Postman
 
 ![Test the servlet using Postman](assets/test-servlet-postman.JPG)
+
+## Next Steps
+
+[Include third party jar's](./include-third-party-jars.md)
+

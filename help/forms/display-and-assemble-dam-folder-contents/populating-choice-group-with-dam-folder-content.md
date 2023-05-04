@@ -108,3 +108,7 @@ Create an adaptive form and associate the form with client library **listfoldera
 ![set-options](assets/set-options-newsletter.png) 
 
 We are invoking javascript function called **getDAMFolderAssets** and passing the path of the DAM folder's assets to list in the form.
+
+## Next Steps
+
+[Assemble Selected Assets](./assemble-selected-newsletters.md)

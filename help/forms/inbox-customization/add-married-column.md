@@ -89,3 +89,7 @@ return isMarried(inboxItem);
 Submitting the form will trigger the workflow and a task is assigned to "admin" user. You should see a value under the Married column as shown in this screen shot
 
 ![married-column](assets/married-column.PNG)
+
+## Next Steps
+
+[Display Married Column](./use-sightly-template.md)

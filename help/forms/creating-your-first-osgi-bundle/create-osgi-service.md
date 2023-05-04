@@ -107,3 +107,8 @@ Import and install the package into AEM using the [package manager](http://local
 
 Use postman to make a POST call and provide the input parameters as shown in the screen shot below
 ![postman](assets/test-service-postman.JPG)
+
+## Next Steps
+
+[Create Sling Servlet](./create-servlet.md)
+

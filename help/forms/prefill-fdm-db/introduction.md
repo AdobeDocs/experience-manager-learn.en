@@ -29,3 +29,7 @@ The following video gives you an overview of the course
 * Working instance of AEM Forms
 * Familiar with MySQL database and MySQL workbench
 * Some experience in creating Adaptive Forms
+
+## Next Steps
+
+[Create Database Tables](./create-database-tables.md)
