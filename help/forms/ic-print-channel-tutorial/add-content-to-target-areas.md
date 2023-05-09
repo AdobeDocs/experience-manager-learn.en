@@ -31,3 +31,7 @@ To add content to the print channel document, please follow the video below.
 The video walks you through the steps involved in adding content to the appropriate target areas in the print channel document.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22379?quality=12&learn=on)
+
+## Next Steps
+
+[Configure Line Chart](./configuring-line-chart.md)

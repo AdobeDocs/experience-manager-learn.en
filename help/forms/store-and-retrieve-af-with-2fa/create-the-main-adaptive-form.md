@@ -26,3 +26,8 @@ This form is associated with **bootboxjs540,storeAFWithAttachments** client libr
 * The completed [StoreAfWithAttachments Form](assets/store-af-with-attachments-form.zip) can be downloaded and imported into your AEM instance.
 
 * The [AEM workflow associated with this form](assets/workflow-model-store-af-with-attachments.zip) need to be imported into your AEM instance for the form to work.
+
+
+## Next steps
+
+[Create the form retrieving saved form](./retrieve-saved-form.md)

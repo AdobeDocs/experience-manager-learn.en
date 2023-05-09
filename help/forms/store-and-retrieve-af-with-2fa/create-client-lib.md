@@ -65,3 +65,7 @@ $(document).ready(function () {
 > We have used [bootbox javascript library](http://bootboxjs.com/examples.html) to display dialog box
 
 The client libraries used in this sample can be [downloaded from here](assets/client-libraries.zip)
+
+## Next Steps
+
+[Verify users with OTP service](./verify-users-with-otp.md)

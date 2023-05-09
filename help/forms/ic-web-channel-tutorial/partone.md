@@ -35,3 +35,7 @@ To set up tomcat, please follow the following instructions:
 12. You should get sample data as the result of this call.
 
 Congratulations !!!. You have setup tomcat and deployed the SampleRest.war file.
+
+## Next Steps
+
+[Configure RESTful data soruce](./parttwo.md)

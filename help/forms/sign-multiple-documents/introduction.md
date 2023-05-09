@@ -27,3 +27,7 @@ This course assumes the following:
 * Some experience with AEM/AEM Forms
 
 By following this tutorial and installing the assets provided you will have a working solution to sign multiple forms.
+
+## Next Steps
+
+[Configure database backed data source ](./configure-data-source.md)

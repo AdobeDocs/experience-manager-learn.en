@@ -67,3 +67,7 @@ exl-id: 0dd8a430-9a4e-4dc7-ad75-6ad2490430f2
 **AEM Forms 6.5 - Configuring Estimated Monthly Income Column Chart**
 
 ![forms65](assets/estimatedmonthlyincomechart65.PNG)
+
+## Next Steps
+
+[Configure Pie chart](./parteleven.md)

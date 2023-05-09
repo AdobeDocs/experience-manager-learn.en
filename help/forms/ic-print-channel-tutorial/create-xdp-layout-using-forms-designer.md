@@ -27,3 +27,7 @@ Every print channel document is based on a template created using AEM Forms Desi
 The following video highlights the sections or target areas defined in the layout that is used in this tutorial.
 
 >[!VIDEO](https://video.tv.adobe.com/v/37890?quality=12&learn=on)
+
+## Next Steps
+
+[Create document fragment](./create-document-fragment.md)

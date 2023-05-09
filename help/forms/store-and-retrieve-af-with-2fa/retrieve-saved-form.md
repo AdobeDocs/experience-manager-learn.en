@@ -98,3 +98,7 @@ public class RenderForm extends SlingAllMethodsServlet {
 
 }
 ```
+
+## Next Steps
+
+[Create client lib to invoke the servlet to store form data](./create-client-lib.md)

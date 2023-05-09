@@ -39,3 +39,7 @@ Ability to display tabular data using tables in Interactive Communication Docume
 Configuring table in web channel document - AEM Form 6.5
 
 >[!VIDEO](https://video.tv.adobe.com/v/27847?quality=12&learn=on)
+
+## Next Steps
+
+[Configure Column Chart](./partten.md)

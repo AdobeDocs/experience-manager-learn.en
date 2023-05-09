@@ -27,3 +27,7 @@ We will create a new Adaptive Form template for the purpose of this tutorial. A 
 ## Assets
 
 The template and the page component used in this tutorial can be [downloaded from here](assets/sign-multiple-forms-template.zip)
+
+## Next Steps
+
+[Select the forms to be signed by the used](./create-initial-form.md)

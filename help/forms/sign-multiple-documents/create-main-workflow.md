@@ -116,3 +116,7 @@ The Sign Multiple Forms workflow used in this article can be [downloaded from he
 
 >[!NOTE]
 > Please make sure to configure Day CQ Mail Service in order to send e-mail notification. The e-mail template is also provided in the above package.
+
+## Next Steps
+
+[Update Signature status on document signing](./update-signature-status.md)

@@ -201,3 +201,7 @@ public String getNextFormToSign(int customerID) {
 ## Assets
 
 The OSGi bundle with the above mentioned services can be [downloaded from here](assets/sign-multiple-forms.jar)
+
+## Next Steps
+
+[Create a main workflow to handle the intital form submission](./create-main-workflow.md)

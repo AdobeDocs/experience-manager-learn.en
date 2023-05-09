@@ -41,3 +41,7 @@ Congratulations !!!. You have setup tomcat and deployed the SampleRest.war file.
 
 The following video explains the deployment of sample application in Tomcat
 >[!VIDEO](https://video.tv.adobe.com/v/37815?quality=12&learn=on)
+
+## Next Steps
+
+[Create RESTful data source](./create-data-source.md)

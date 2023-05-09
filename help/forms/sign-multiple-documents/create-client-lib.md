@@ -70,3 +70,7 @@ $(document).ready(function()
 ## Assets
 
 [The clientlib can be downloaded from here](assets/get-next-form-client-lib.zip)
+
+## Next Steps
+
+[Create custom form template for this use case](./create-af-template.md)

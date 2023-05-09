@@ -71,3 +71,7 @@ To generate print channel document using the watched folder mechanism, please fo
 * Drop the xml file into C:\RenderPrintChannel\input
 
 * Check the pdf files in the save location as specified in the ECMA script.
+
+## Next Steps
+
+[Opening agent ui on form submission](./opening-agent-ui-on-form-submission.md)

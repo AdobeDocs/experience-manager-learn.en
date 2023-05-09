@@ -27,3 +27,9 @@ Form Data Model is the basis for all your Interactive Communications. The Get/Re
 For more information see [Configuring Data Sources](parttwo.md).
 
 Once you have created Form Data Model, you can then use it as a basis for creating document fragments and Interactive Communication Documents.
+
+## Next Steps
+
+[Create web channel document template](./partfour.md)
+
+

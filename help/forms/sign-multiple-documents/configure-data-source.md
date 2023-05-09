@@ -35,3 +35,7 @@ Database has one table called formdata with the 3 columns as shown in the screen
 ## Assets
 
 The SQL file to create the schema can be [downloaded from here](assets/sign-multiple-forms.sql). You will need to import this file using MySql workbench to create the schema and the table.
+
+## Next Steps
+
+[Create an OSGi service to store and fetch data in database](./create-osgi-service.md)

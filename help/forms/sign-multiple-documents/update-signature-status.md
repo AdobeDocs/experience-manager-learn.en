@@ -65,3 +65,7 @@ public class UpdateSignatureStatusWorkflowStep implements WorkflowProcess {
 ## Assets
 
 The update signature status workflow can be [downloaded from here](assets/update-signature-status-workflow.zip)
+
+## Next Steps
+
+[Customize summary step to display the next form for signing](./customize-summary-component.md)

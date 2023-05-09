@@ -18,3 +18,7 @@ A simple component was created to list the form data for review. The [guidebridg
 For example the screen shot below shows you the table created to list the fields and its values of the **YourDetails**. The last TD in the TR is used to edit the field's value using the fields SOM expression.
 
 ![visit-func](assets/visit-function.png)
+
+## Next Steps
+
+[Test the solution on your local system](./deploy-on-your-system.md)

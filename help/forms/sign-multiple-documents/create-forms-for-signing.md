@@ -41,3 +41,7 @@ Once all the forms in the package are filled and signed, we need to display the 
 ## Assets
 
 The sample forms including the  used in this tutorial can be [downloaded from here](assets/forms-for-signing.zip)
+
+## Next Steps
+
+[Test the solution on your local system](./testing-and-trouble-shooting.md)

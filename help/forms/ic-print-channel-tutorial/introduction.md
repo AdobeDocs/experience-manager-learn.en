@@ -32,3 +32,8 @@ On completing this tutorial, you will have learned the following:
 * Create Document Fragments
 * Configure Tables and Charts
 * Use Watched Folders to generate documents in batch mode
+
+
+## Next Steps
+
+[Set up Tomcat](./set-up-tomcat.md)
