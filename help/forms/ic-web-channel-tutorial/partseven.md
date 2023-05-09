@@ -29,3 +29,7 @@ To add content to the web channel document, please follow the video below.
 The video walks you through the steps involved in adding content to the appropriate target areas in the web channel document.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22359?quality=12&learn=on)
+
+## Next Steps
+
+[Configure Line Chart](./parteight.md)

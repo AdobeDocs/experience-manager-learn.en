@@ -51,3 +51,7 @@ The purpose of this **get** service is to fetch the telephone number associated 
 ![get-service](assets/get-service.JPG)
 
 This form data model will then be used in the **MyAccountForm** to fetch the telephone number associated with the application id.
+
+## Next Steps
+
+[Write code to save form attachments](./store-form-attachments.md)

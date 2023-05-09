@@ -32,3 +32,7 @@ On completing this tutorial, you have learned the following:
 * Create Document Fragments
 * Configure Tables and Charts
 * Deliver Web Channel Documents
+
+## Next Steps
+
+[Install Tomcat](./partone.md)

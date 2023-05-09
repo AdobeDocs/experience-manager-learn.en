@@ -34,3 +34,8 @@ The audience of this content is expected to have some experience in the followin
 * Form Data Model
 * OSGi services/components
 * AEM Client Libraries
+
+
+## Next Steps
+
+[Configuring Data Source](./configure-data-source.md)

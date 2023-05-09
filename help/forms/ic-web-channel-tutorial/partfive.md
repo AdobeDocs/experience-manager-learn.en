@@ -31,3 +31,7 @@ The document fragment editor also has the ability to insert inline conditions in
 >[!NOTE]
 >
 >Make sure the Form Data Model elements you insert into a document fragments are descendants of the root element. For example in this use case make sure the User object's elements that you select is the child of the balances object
+
+## Next Steps
+
+[Create Interactive Communication Document](./partsix.md)

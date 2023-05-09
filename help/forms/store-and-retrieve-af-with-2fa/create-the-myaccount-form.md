@@ -43,3 +43,7 @@ The code in the servlet mounted on **/bin/renderaf** forwards the request to ren
 * Sample forms are based on [custom adaptive form template](assets/custom-template-with-page-component.zip) that needs to be imported into AEM for the sample forms to render correctly.
 
 * [Custom submit handler](assets/custom-submit-my-account-form.zip) associated with the MyAccountForm submission needs to be imported into AEM.
+
+## Next Steps
+
+[Test the solution by deploying the sample assets](./deploy-this-sample.md)

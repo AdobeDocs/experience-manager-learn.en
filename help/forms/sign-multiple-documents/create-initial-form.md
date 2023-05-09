@@ -28,3 +28,7 @@ Make sure the Data File Path is set to **Data.xml**. This is very important as t
 ## Assets
 
 The initial form (Refinance Form) can be [downloaded from here](assets/refinance-form.zip)
+
+## Next Steps
+
+[Create forms to be used for signing](./create-forms-for-signing.md)

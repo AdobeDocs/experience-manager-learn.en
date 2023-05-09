@@ -28,3 +28,7 @@ Creating Web Channel Document Template in AEM Forms 6.5
 The template will have target areas/placeholders which will hold various kinds of documents fragments. For example, a template can have target areas for logos and another target area for text content.
 
 Once web channel document template is created, you can then create Interactive Communication documents based on the template.
+
+## Next Steps
+
+[Create document fragment](./partfive.md)

@@ -40,3 +40,7 @@ In this part, we will create Interactive Communication for Web Channel.
 
 1. Tap Create
 1. You can either click on Done or Edit to dismiss the dialog box.
+
+## Next Steps
+
+[Add text and image to the document](./partseven.md)

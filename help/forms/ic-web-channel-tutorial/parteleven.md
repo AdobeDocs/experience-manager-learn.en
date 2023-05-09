@@ -51,3 +51,7 @@ In this part, we will add pie charts to display the current and model investment
 * Please note the Data Model Object that is bound to the X and Y axes. You need to select the root element of the form data model and then drill down to select the appropriate element.
 
 * ![assettype](assets/modelassettypechart.png)
+
+## Next Steps
+
+[Prepare to deliver web channel doument](./parttwelve.md)

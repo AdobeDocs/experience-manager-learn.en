@@ -30,3 +30,7 @@ Form Data Model is dependent on a correctly configured Data Source. We use the D
 Form Data Model is the basis for all your Interactive Communications. The Get/Read operation of the Form Data Model fetchs the data from your backend data source and is used to populate the Interactive Communications document.
 
 Once you have created Form Data Model, you can then use it as a basis for creating document fragments and Interactive Communication Documents.
+
+## Next Steps
+
+[Create template using designer](./create-xdp-layout-using-forms-designer.md)

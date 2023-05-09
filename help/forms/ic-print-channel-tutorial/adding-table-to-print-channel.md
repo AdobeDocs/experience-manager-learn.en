@@ -31,4 +31,8 @@ Open the 401KStatementPrint in edit mode.
 
 The following video walks through the steps involved in configuring a table in the print channel document.
 
->[!VIDEO](https://video.tv.adobe.com/v/22387?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27769?quality=12&learn=on)
+
+## Next Steps
+
+[Using watched folder to generate print channel document](./using-watched-folder-to-generate-document.md)

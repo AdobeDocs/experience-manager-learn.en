@@ -68,3 +68,7 @@ Login to AEM Forms.
 >[!NOTE]
 >
 >Please take a look at the **/apps/AEMForms/fetchad/GET.jsp** file in crx. Please make sure the String variable webChannelDocument is pointing to a valid communication document path.
+
+## Next Steps
+
+[Set up E-mail delivery](../interactive-communications/delivery-of-web-channel-document-tutorial-use.md)

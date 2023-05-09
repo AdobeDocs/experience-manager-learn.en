@@ -25,3 +25,7 @@ In this part, we will create a REST backed data source.  The following video wal
 >[!VIDEO](https://video.tv.adobe.com/v/27765?quality=12&learn=on)
 
 Please use the swagger file provided to you as part of the assets related to this tutorial. The assets are available in [introduction](introduction.md) of this tutorial.
+
+## Next Steps
+
+[Create Form Data Model based on the data source](./create-form-data-model.md)

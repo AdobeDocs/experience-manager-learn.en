@@ -50,3 +50,5 @@ AEM Forms data integration provides an intuitive user interface to create and wo
 The completed form data model can be [downloaded from here](assets/sms-2fa-fdm.zip)
 
 ![fdm](assets/2FA-fdm.PNG)
+
+[Create the main form](./create-the-main-adaptive-form.md)

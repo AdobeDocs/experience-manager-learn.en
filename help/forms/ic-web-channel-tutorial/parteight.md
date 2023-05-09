@@ -43,3 +43,7 @@ Please make sure you select the correct form data model element the x and y-axis
 **Line Chart Settings in AEM Forms 6.5**
 
 ![linechart64](assets/linechart65.PNG)
+
+## Next Steps
+
+[Configure Table](./partnine.md)
