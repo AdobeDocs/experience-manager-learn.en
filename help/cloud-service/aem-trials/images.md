@@ -13,3 +13,4 @@ Image files must be put in the `assets` folder that resides next to this file.
 Each image file to be published should be linked from this file using the syntax:
 
 ![Trial ready email image personal account](./assets/select-personal-account.png)
+![Slack email image](./assets/Slack-email-image.png)
