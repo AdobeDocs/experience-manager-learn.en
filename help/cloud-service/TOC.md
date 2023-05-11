@@ -313,3 +313,8 @@ team: TM
     + [SPA Editor (React)](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-react-tutorial/overview.html)
     + [AEM Sites and Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-target-tutorial/overview.html)
     + [Token-based authentication](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html)
++ Expert Resources {#expert-resources}
+  + AEM Champions {#aem-champions}
+    + [Cloud Manager Onboarding Playbook](./expert-resources/onboarding-playbook.md)
+    + [Cloud Manager Environment Types](./expert-resources/environment-types.md)
+    + [Cloud Manager UI](./expert-resources/cloud-manager-ui.md)
