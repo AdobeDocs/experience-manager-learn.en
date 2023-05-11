@@ -13,11 +13,11 @@ jira: KT-13228
 
 # AEM Champion Tips and Tricks - Cloud Manager Onboarding Playbook
 
-The onboarding playbook will help you take charge as a new administrator and developer for AEM as a Cloud Service. In the downloadable spreadsheet, we’ll walk you through the activities you should do your first three weeks on the job as you start your onboarding journey.
+The onboarding playbook will help you take charge as a new administrator and developer for AEM as a Cloud Service. In the downloadable spreadsheet, we'll walk you through the activities you should do your first three weeks on the job as you start your onboarding journey.
 
 >[!TIP]
 >
->Download the [onboarding playbook here.](/help/cloud-service/assets/experts-resources/AEM-Cloud-Manager-Onboarding-Playbook.xlsx)
+>Download the [onboarding playbook here.](./assets/AEM-Cloud-Manager-Onboarding-Playbook.xlsx)
 
 Check out these tips from your fellow technical lead, Rakesh Pasupuleti. Rakesh is an Adobe Experience Manager champion, and he shares ideas about how to use the onboarding playbook.  
 
