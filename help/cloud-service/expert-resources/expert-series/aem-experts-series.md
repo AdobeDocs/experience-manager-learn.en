@@ -6,7 +6,7 @@ exl-id: ae1cdbe3-0863-41de-bb27-2e88c4640866
 ---
 # Adobe Experience Manager as a Cloud Service Experts Series
 
-![AEM Experts Series](./assets/experts-series/masthead.png)
+![AEM Experts Series](./assets/masthead.png)
 
 Learn about Adobe Experience Manager (AEM) as a Cloud Service from Adobe's expert engineers who build it, and professional services team who deliver it. Join Adobe's experts in exploring what AEM as a Cloud Service is, how its the same and different from AEM 6, and how to move from AEM 6 to AEM as a Cloud Service.
 
@@ -20,11 +20,11 @@ Learn the fundamentals of AEM as a Cloud Services, and how it differs from AEM 6
 <table>
   <tr>
    <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/introduction.md">
-      <img alt="Thinking differently" src="./assets/experts-series/thinking-differently.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/introduction.md">
+      <img alt="Thinking differently" src="./assets/thinking-differently.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/introduction.md"><strong>Thinking differently</strong></a>         
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/introduction.md"><strong>Thinking differently</strong></a>         
          <br/><em>with Darin Kuntze, Senior Cloud Architect</em>
       </div>
       <p>
@@ -33,11 +33,11 @@ Learn the fundamentals of AEM as a Cloud Services, and how it differs from AEM 6
       </p>
      </td>   
      <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/onboarding.md">
-      <img alt="Onboarding to AEM as a Cloud Service" src="./assets/experts-series/onboarding.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/onboarding.md">
+      <img alt="Onboarding to AEM as a Cloud Service" src="./assets/onboarding.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/onboarding.md"><strong>Onboarding to AEM as a Cloud Service</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/onboarding.md"><strong>Onboarding to AEM as a Cloud Service</strong></a>
          <br/><em>with Damian Langsweirdt, Senior Cloud Architect</em>
       </div>
       <p>
@@ -47,11 +47,11 @@ Learn the fundamentals of AEM as a Cloud Services, and how it differs from AEM 6
    </td>     
    </td>   
      <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/cloud-manager.md">
-      <img alt="Cloud Manager" src="./assets/experts-series/cloud-manager.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/cloud-manager.md">
+      <img alt="Cloud Manager" src="./assets/cloud-manager.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/cloud-manager.md"><strong>Cloud Manager for AEM as a Cloud Service</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/cloud-manager.md"><strong>Cloud Manager for AEM as a Cloud Service</strong></a>
          <br/><em>with Bryan Stopp, Senior Cloud Architect</em>
       </div>
       <p>
@@ -69,11 +69,11 @@ Planning to move from AEM 6 to AEM as a Cloud Service? Learn about Adobe's metho
 <table>
   <tr>
    <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/bpa-and-cam.md" target="_aem-experts-series-video">
-      <img alt="The Migration Methodology" src="./assets/experts-series/bpa-and-cam.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/bpa-and-cam.md" target="_aem-experts-series-video">
+      <img alt="The Migration Methodology" src="./assets/bpa-and-cam.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/bpa-and-cam.md" target="_aem-experts-series-video"><strong>Migration methodology</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/bpa-and-cam.md" target="_aem-experts-series-video"><strong>Migration methodology</strong></a>
          <br/><em>with Roger Blanton, Adobe Consulting Services Technical Architect</em>
       </div>
       <p>
@@ -82,11 +82,11 @@ Planning to move from AEM 6 to AEM as a Cloud Service? Learn about Adobe's metho
       </p>
    </td>   
      <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/aem-modernization-tools.md" target="_aem-experts-series-video">
-      <img alt="Modernizing your content" src="./assets/experts-series/aem-modernizer-tools.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/aem-modernization-tools.md" target="_aem-experts-series-video">
+      <img alt="Modernizing your content" src="./assets/aem-modernizer-tools.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/aem-modernization-tools.md" target="_aem-experts-series-video"><strong>Modernizing your content</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/aem-modernization-tools.md" target="_aem-experts-series-video"><strong>Modernizing your content</strong></a>
          <br/><em>with Bryan Stopp, Senior Cloud Architect</em>
       </div>
       <p>
@@ -96,11 +96,11 @@ Planning to move from AEM 6 to AEM as a Cloud Service? Learn about Adobe's metho
    </td>     
    </td>   
      <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/repository-modernization.md" target="_aem-experts-series-video">
-      <img alt="Modernizing your AEM Maven project" src="./assets/experts-series/repository-modernizer.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/repository-modernization.md" target="_aem-experts-series-video">
+      <img alt="Modernizing your AEM Maven project" src="./assets/repository-modernizer.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/repository-modernization.md" target="_aem-experts-series-video"><strong>Modernizing your AEM Maven project</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/repository-modernization.md" target="_aem-experts-series-video"><strong>Modernizing your AEM Maven project</strong></a>
          <br/><em>with Varun Mitra, Cloud Architect</em>
       </div>
       <p>
@@ -111,11 +111,11 @@ Planning to move from AEM 6 to AEM as a Cloud Service? Learn about Adobe's metho
   </tr>
   <tr>
    <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/search-and-indexing.md" target="_aem-experts-series-video">
-      <img alt="Modernizing your Oak indexes" src="./assets/experts-series/indexes.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/search-and-indexing.md" target="_aem-experts-series-video">
+      <img alt="Modernizing your Oak indexes" src="./assets/indexes.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/search-and-indexing.md" target="_aem-experts-series-video"><strong>Modernizing your Oak indexes</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/search-and-indexing.md" target="_aem-experts-series-video"><strong>Modernizing your Oak indexes</strong></a>
          <br/><em>with Darin Kuntze, Senior Cloud Architect</em>
       </div>
       <p>
@@ -124,11 +124,11 @@ Planning to move from AEM 6 to AEM as a Cloud Service? Learn about Adobe's metho
       </p>
    </td>   
      <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/dispatcher.md" target="_aem-experts-series-video">
-      <img alt="Modernizing your Dispatcher configuration" src="./assets/experts-series/dispatcher.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/dispatcher.md" target="_aem-experts-series-video">
+      <img alt="Modernizing your Dispatcher configuration" src="./assets/dispatcher.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/dispatcher.md" target="_aem-experts-series-video"><strong>Modernizing your Dispatcher configuration</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/dispatcher.md" target="_aem-experts-series-video"><strong>Modernizing your Dispatcher configuration</strong></a>
          <br/><em>with Bryan Stopp, Senior Cloud Architect</em>
       </div>
       <p>
@@ -138,11 +138,11 @@ Planning to move from AEM 6 to AEM as a Cloud Service? Learn about Adobe's metho
    </td>     
    </td>   
      <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/content-migration/content-transfer-tool.md" target="_aem-experts-series-video">
-      <img alt="Transferring your content to AEM as a Cloud Service" src="./assets/experts-series/content-transfer-tool.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/content-migration/content-transfer-tool.md" target="_aem-experts-series-video">
+      <img alt="Transferring your content to AEM as a Cloud Service" src="./assets/content-transfer-tool.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/content-migration/content-transfer-tool.md" target="_aem-experts-series-video"><strong>Transferring your content to AEM as a Cloud Service</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/content-migration/content-transfer-tool.md" target="_aem-experts-series-video"><strong>Transferring your content to AEM as a Cloud Service</strong></a>
          <br/><em>with Kiran Murugulla, Senior Cloud Architect</em>
       </div>
       <p>
@@ -161,11 +161,11 @@ Learn about AEM as a Cloud Service's unique capabilities from Adobe's experts.
 <table>
   <tr>
    <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/asset-compute-microservices.md" target="_aem-experts-series-video">
-      <img alt="Asset Compute microservices" src="./assets/experts-series/asset-compute-microservices.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/asset-compute-microservices.md" target="_aem-experts-series-video">
+      <img alt="Asset Compute microservices" src="./assets/asset-compute-microservices.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/asset-compute-microservices.md" target="_aem-experts-series-video"><strong>Asset Compute microservices</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/asset-compute-microservices.md" target="_aem-experts-series-video"><strong>Asset Compute microservices</strong></a>
          <br/><em>with Amol Anand, Principal Cloud Architect</em>
       </div>
       <p>
@@ -174,11 +174,11 @@ Learn about AEM as a Cloud Service's unique capabilities from Adobe's experts.
       </p>
    </td>   
    <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/content-migration/bulk-import-service.md" target="_aem-experts-series-video">
-      <img alt="Importing content in bulk" src="./assets/experts-series/bulk-import.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/content-migration/bulk-import-service.md" target="_aem-experts-series-video">
+      <img alt="Importing content in bulk" src="./assets/bulk-import.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/content-migration/bulk-import-service.md" target="_aem-experts-series-video"><strong>Importing content in bulk</strong></a>
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/content-migration/bulk-import-service.md" target="_aem-experts-series-video"><strong>Importing content in bulk</strong></a>
          <br/><em>with Kiran Murugulla, Senior Cloud Architect</em>
       </div>
       <p>
@@ -197,11 +197,11 @@ Learn how to debug and troubleshoot AEM as a Cloud Service and the AEM SDK from 
 <table>
   <tr>
    <td>
-      <a href="./migration/moving-to-aem-as-a-cloud-service/troubleshooting.md" target="_aem-experts-series-video">
-      <img alt="Troubleshooting AEM as a Cloud Service" src="./assets/experts-series/troubleshooting.png"/>
+      <a href="../../migration/moving-to-aem-as-a-cloud-service/troubleshooting.md" target="_aem-experts-series-video">
+      <img alt="Troubleshooting AEM as a Cloud Service" src="./assets/troubleshooting.png"/>
       </a>
       <div>
-         <a href="./migration/moving-to-aem-as-a-cloud-service/troubleshooting.md" 
+         <a href="../../migration/moving-to-aem-as-a-cloud-service/troubleshooting.md" 
          target="_aem-experts-series-video"><strong>Troubleshooting AEM as a Cloud Service</strong></a>
          <br/><em>with Kunwar Saluja, Cloud Architect</em>
       </div>

@@ -106,7 +106,7 @@ First, identify which AEM Publish services are exhibiting traversal warnings. To
 
 ![Download AEM as a Cloud Service logs](./assets/traversals/download-logs.jpg)
 
-Open the log files, and search for the Java™ class `org.apache.jackrabbit.oak.plugins.index.Cursors$TraversingCursor`. The log containing traversal warnings contain a series of statements that look similar to:
+Open the log files, and search for the Java&trade; class `org.apache.jackrabbit.oak.plugins.index.Cursors$TraversingCursor`. The log containing traversal warnings contain a series of statements that look similar to:
 
 ```log
 24.05.2022 14:18:46.146 [cm-p123-e456-aem-author-9876-edcba] *WARN* [192.150.10.214 [1653401908419] GET /content/wknd/us/en/example.html HTTP/1.1] 
@@ -185,7 +185,7 @@ Check out these other useful resources for understanding AEM indexes, search, an
    <div class="card">
        <div class="card-image">
            <figure class="image is-16by9">
-               <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-5/cloud5-aem-search-and-indexing.html" title="Cloud 5 - Search &amp; Indexing" tabindex="-1"><img class="is-bordered-r-small" src="../../../cloud-5/imgs/009-thumb.png" alt="Cloud 5 - Search &amp; Indexing"></a>
+               <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-5/cloud5-aem-search-and-indexing.html" title="Cloud 5 - Search &amp; Indexing" tabindex="-1"><img class="is-bordered-r-small" src="../../../expert-resources/cloud-5/imgs/009-thumb.png" alt="Cloud 5 - Search &amp; Indexing"></a>
            </figure>
        </div>
        <div class="card-content is-padded-small">
