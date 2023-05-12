@@ -36,7 +36,7 @@ version: 6.4, 6.5, Cloud Service
   + [Web Optimized Image Delivery](components/web-optimized-image-delivery.md)
   + [Components Console](components/components-console-feature-video-use.md)
 + Content Fragments {#content-fragments}
-  + [Content Fragments console](content-fragments/content-fragments-console.md)
+  + [Content Fragments console](https://experienceleague.adobe.com/docs/experience-manager-learn/content-fragments-console/overview.html)
   + [Authoring Content Fragments](content-fragments/content-fragments-feature-video-use.md)
   + [Delivering Content Fragments](content-fragments/content-fragments-delivery-feature-video-use.md)
   + [Translating Content Fragments](content-fragments/content-fragments-translation-feature-video-use.md)
