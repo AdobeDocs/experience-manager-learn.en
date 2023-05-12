@@ -1,6 +1,6 @@
 ---
 title: New editor toggle - Content Fragment Editor
-description: Learn New Editor toggle that allows you to switch between the default New CF editor and the classic editor effortlessly.
+description: Learn New Editor toggle that allows you to switch between the default New Content Fragment editor and the classic editor effortlessly.
 version: Cloud Service
 feature: Content Fragments
 topic: Content Management
