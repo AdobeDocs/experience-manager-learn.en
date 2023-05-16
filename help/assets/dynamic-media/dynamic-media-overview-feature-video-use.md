@@ -28,7 +28,7 @@ This video describes how media content is managed and accessed using Adobe Exper
 * Copy URLs to images and responsive viewers
 * Smart Crop variations to URLs
 
-## Dynamic Media with AEM Sites and any other CMS
+## Use with AEM Sites
 
 >[!VIDEO](https://video.tv.adobe.com/v/27145?quality=12&learn=on)
 
@@ -42,7 +42,7 @@ This video describes how media content is managed in Adobe Experience Manager Dy
 * Downloading locally with Image Presets
 * Creating and publishing Interactive Banner
 
-## Dynamic Media to build Mixed Media Collection and custom viewer
+## Build a Mixed Media Collection
 
 >[!VIDEO](https://video.tv.adobe.com/v/27146?quality=12&learn=on)
 
@@ -57,7 +57,7 @@ This video describes the simple creation process for a Mixed Media viewer collec
 * Create Mixed Media Set from Spin Set, Video and photos
 * Edit and use custom Mixed Media viewer
 
-## Dynamic Media Image Presets
+## Image Presets
 
 >[!VIDEO](https://video.tv.adobe.com/v/27320?quality=12&learn=on)
 
@@ -68,7 +68,7 @@ This video describes how Image Presets are created and what is an image preset, 
 * Always use sharpening
 * URL Modifier field to add extra commands to resizing Image Preset
 
-## Dynamic Media Advanced URL modifiers
+## Advanced URL modifiers
 
 >[!VIDEO](https://video.tv.adobe.com/v/27319?quality=12&learn=on)
 
@@ -80,7 +80,7 @@ This video describes going beyond resizing images to take advantage of features 
 * Cropping to an image Path
 * Creating a Text Template from a Photoshop file
 
-## Dynamic Media Controlling JPEG file size in Kilobytes
+## JPEG file size management
 
 >[!VIDEO](https://video.tv.adobe.com/v/27404?quality=12&learn=on)
 
@@ -91,13 +91,13 @@ This video describes going beyond resizing images to take advantage of features 
 
 Balance jpeg image quality against the resulting file size (in kilobytes) to enhance page load speed, using 2 commands to adjust jpeg compression settings. QLT defines the image quality by adjusting jpeg compression quality settings. JPEG Size command allows you to designate what file size needs to be achieved using compression.
 
-## Add CC Closed Captioning to Dynamic Media Video
+## Closed Captioning
 
 >[!VIDEO](https://video.tv.adobe.com/v/28074?quality=12&learn=on)
 
 Easily add Closed Captioning to Dynamic Media video by appending the Copy URL to point to an additional Closed Captioning file document, a web.VTT sidecar file, containing the CC info for any video.
 
-## Using Image Sharpening with AEM Dynamic Media
+## Image Sharpening
 
 This video covers why sharpening an image is critical to maintaining image fidelity and how to use advanced settings to craft the perfect image.
 

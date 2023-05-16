@@ -98,21 +98,26 @@ team: TM
 
 + Dynamic Media{#dynamic-media}
   + [Dynamic Media Overview](dynamic-media/dynamic-media-overview-feature-video-use.md)
-  + [Smart Crop](dynamic-media/smart-crop-feature-video-use.md)
-  + [Experience Fragments](dynamic-media/dynamic-media-experience-fragments-feature-video-use.md)
-  + [Interactive Video](dynamic-media/dynamic-media-interactive-video-feature-video-use.md)
-  + [Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
-  + [360 Video](dynamic-media/dynamic-media-360-video-custom-thumbnail-feature-video-use.md)
-  + [Custom Video Thumbnails](dynamic-media/dynamic-media-video-thumbnails-feature-video-use.md)
-  + [Image Sharpening](dynamic-media/dynamic-media-image-sharpening-feature-video-use.md)
-  + [Color Management](dynamic-media/dynamic-media-color-management-technical-video-setup.md)
-  + [Viewers](dynamic-media/dynamic-media-viewer-feature-video-understand.md)
-  + [Panoramic and Vertical Image Viewers](dynamic-media/panorama-vertical-image-viewer-feature-video-use.md)
-  + [Viewers with Adobe Analytics](dynamic-media/dynamic-media-viewer-extension-use.md)
+  + [Image modifiers and Smart Imaging](dynamic-media/dynamic-media-snapshot.md)
+  + Images {#images}
+    + [Smart Crop](dynamic-media/smart-crop-feature-video-use.md)
+    + [Image Sharpening](dynamic-media/dynamic-media-image-sharpening-feature-video-use.md)
+    + [Color Management](dynamic-media/dynamic-media-color-management-technical-video-setup.md) 
+  + Using with AEM Sites {#dm-with-aem-sites}
+    + [Experience Fragments](dynamic-media/dynamic-media-experience-fragments-feature-video-use.md)
+    + [Dynamic Media Core Components](dynamic-media/dynamic-media-core-components.md)
+  + Video {#video}
+    + [Interactive Video](dynamic-media/dynamic-media-interactive-video-feature-video-use.md)
+    + [Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
+    + [360 Video](dynamic-media/dynamic-media-360-video-custom-thumbnail-feature-video-use.md)
+    + [Custom Video Thumbnails](dynamic-media/dynamic-media-video-thumbnails-feature-video-use.md)
+    + [Dynamic Media Smart Crop Video](dynamic-media/dynamic-media-smart-crop-video.md)
+  + Viewers {#viewers} 
+    + [Viewers](dynamic-media/dynamic-media-viewer-feature-video-understand.md)
+    + [Panoramic and Vertical Image Viewers](dynamic-media/panorama-vertical-image-viewer-feature-video-use.md)
+    + [Viewers with Adobe Analytics](dynamic-media/dynamic-media-viewer-extension-use.md)
   + [Dynamic Media Classic Desktop Application](dynamic-media/dynamic-media-classic-desktop-application.md)
   + [Dynamic Media 3D](dynamic-media/dynamic-media-3d-feature-video.md)
-  + [Dynamic Media Smart Crop Video](dynamic-media/dynamic-media-smart-crop-video.md)
-  + [Dynamic Media Core Components](dynamic-media/dynamic-media-core-components.md)
 
   + Tutorials {#tutorials}
     + [Creating Carousel Sets](dynamic-media/tutorials/creating-different-kinds-of-sets-with-aem-dynamic-media-carousel-sets.md)
