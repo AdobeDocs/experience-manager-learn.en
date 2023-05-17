@@ -19,6 +19,6 @@ In this video you will:
 
 + Learn how to enable GraphQL Persisted Queries
 + Learn how to create, update, and execute GraphQL queries
-+ Understand the pros and cons od server-side vs. client-side queries
++ Understand the benefits of persisted queries over client-side queries
 
 >[!VIDEO](https://video.tv.adobe.com/v/333429?quality=12&learn=on)
