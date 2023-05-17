@@ -19,5 +19,5 @@ In this video you will:
 
 + Understand the AEM Author and Publish architecture and how content is published
 + Learn best practices for headless delivery with an AEM Publish environment
-+ 
+
 >[!VIDEO](https://video.tv.adobe.com/v/333296?quality=12&learn=on)
