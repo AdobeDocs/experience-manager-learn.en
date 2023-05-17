@@ -132,8 +132,21 @@ _Creating a keystore for authentication-service is required when the [SAML 2.0 a
     + A [public/private keystore is installed into this keystore](#install-aem-public-private-key-pair) only if AuthnRequest signing/SAML assertion encryption is required.
     + If this SAML integration supports logout, but not AuthnRequest signing/SAML assertion, then an empty keystore is sufficient.
 1. Select __Save & Close__.
-1. Select __authentication-service__ user, and select __Activate__ from the top action bar.
+1. Create a package containing the updated __authentication-service__ user. 
 
+    _Use the following temporary workaround using packages:_
+
+   1. Navigate to __Tools > Deployment > Packages__.
+   1. Create a package
+       + Package name: `Authentication Service`
+       + Version: `1.0.0`
+       + Group: `com.your.company`
+   1. Edit the new __Authentication Service Key Store__ package.
+   1. Select the __Filters__ tab, and add a filter for the root path `/home/users/system/cq:services/internal/security/<AUTHENTICATION SERVICE UUID>/keystore`.
+        + The `<AUTHENTICATION SERVICE UUID>` can be found by navigating to __Tools > Security > Users__, and selecting __authentication-service__ user. The UUID is the last part of the URL.
+   1. Select __Done__ and then __Save__.
+   1. Select the __Build__ button for the __Authentication Service Key Store__ package.
+   1. Once built, select __More__ > __Replicate__ to activate the Authentication Service key store to AEM Publish.
 
 ## Install AEM public/private key pair{#install-aem-public-private-key-pair}
 
@@ -206,7 +219,21 @@ Both AuthnRequest signing, and SAML assertion encryption are optional, however t
 1. The newly added certificate appears above the __Add certificate from CRT file__ section.
     + Make note of the __alias__ as this is used in the [SAML 2.0 authentication handler OSGi configuration](#saml-20-authentication-handler-osgi-configuration) 
 1. Select __Save & Close__.
-1. Select __authentication-service__ user, and select __Activate__ from the top action bar.
+1. Create a package containing the updated __authentication-service__ user. 
+
+    _Use the following temporary workaround using packages:_
+
+   1. Navigate to __Tools > Deployment > Packages__.
+   1. Create a package
+       + Package name: `Authentication Service`
+       + Version: `1.0.0`
+       + Group: `com.your.company`
+   1. Edit the new __Authentication Service Key Store__ package.
+   1. Select the __Filters__ tab, and add a filter for the root path `/home/users/system/cq:services/internal/security/<AUTHENTICATION SERVICE UUID>/keystore`.
+        + The `<AUTHENTICATION SERVICE UUID>` can be found by navigating to __Tools > Security > Users__, and selecting __authentication-service__ user. The UUID is the last part of the URL.
+   1. Select __Done__ and then __Save__.
+   1. Select the __Build__ button for the __Authentication Service Key Store__ package.
+   1. Once built, select __More__ > __Replicate__ to activate the Authentication Service key store to AEM Publish.
 
 ## Configure SAML 2.0 authentication handler{#configure-saml-2-0-authentication-handler}
 
