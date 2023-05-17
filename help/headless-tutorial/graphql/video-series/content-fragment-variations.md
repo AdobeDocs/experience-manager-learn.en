@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 kt: 7874
 thumbnail: 333295.jpg
+last-substantial-update: 2023-05-17
 exl-id: c7fb28b8-494f-47d6-95b7-01ef444abe99
 ---
 # Content Fragment Variations
@@ -22,4 +23,3 @@ In this video you will:
 
 >[!VIDEO](https://video.tv.adobe.com/v/333295?quality=12&learn=on)
 
-_Download the [Postman Collection](./assets/aem-headless-video-series.postman_collection.json) used throughout the AEM Headless Video Series._
