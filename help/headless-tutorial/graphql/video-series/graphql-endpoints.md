@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 kt: 7875
 thumbnail: 333339.jpg
+last-substantial-update: 2023-05-17
 exl-id: 190623cc-8959-46b3-95de-e7d01bf5acdb
 ---
 # GraphQL Endpoints
@@ -18,8 +19,6 @@ In this video you will:
 
 + Learn how to enable GraphQL Endpoints
 + Learn how to execute GraphQL queries against endpoints
-+ Understand how to publish and secure GraphQL endpoints
++ Understand how to publish GraphQL endpoints
 
 >[!VIDEO](https://video.tv.adobe.com/v/333339?quality=12&learn=on)
-
-_Download the [Postman Collection](./assets/aem-headless-video-series.postman_collection.json) used throughout the AEM Headless Video Series._
