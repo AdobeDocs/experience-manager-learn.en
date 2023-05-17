@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 kt: 7873
 thumbnail: 333296.jpg
+last-substantial-update: 2023-05-17
 exl-id: 7d5f5edb-10e7-43ec-a4e7-4cee8ddba685
 ---
 # Author and Publish Architecture
@@ -18,8 +19,5 @@ In this video you will:
 
 + Understand the AEM Author and Publish architecture and how content is published
 + Learn best practices for headless delivery with an AEM Publish environment
-+ Explore how the author environment can be used as a preview for an application
-
++ 
 >[!VIDEO](https://video.tv.adobe.com/v/333296?quality=12&learn=on)
-
-_Download the [Postman Collection](./assets/aem-headless-video-series.postman_collection.json) used throughout the AEM Headless Video Series._
