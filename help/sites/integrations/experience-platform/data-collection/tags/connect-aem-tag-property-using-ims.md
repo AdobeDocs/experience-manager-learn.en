@@ -6,7 +6,6 @@ audience: administrator
 solution: Experience Manager, Data Collection, Experience Platform
 doc-type: technical video
 activity: setup
-version: Cloud Service
 kt: 5981
 thumbnail: 38555.jpg
 topic: Integrations
