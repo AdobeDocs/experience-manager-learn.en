@@ -8,6 +8,7 @@ role: Admin
 level: Beginner
 kt: 4999
 thumbnail: 39150.jpg
+last-substantial-update: 2023-05-19
 exl-id: 40ba2368-edb7-4348-9aff-91194200092e
 ---
 # Adobe IMS user groups {#adobe-ims-user-groups}
