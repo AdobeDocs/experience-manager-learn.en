@@ -149,7 +149,7 @@ Since we are primarily copying/configuring nodes we will use CRXDE Lite. In your
     1. Add another **nt:unstructured** node labeled approvers as a child of the roles node. 
     1. Add String properties **jcr:title** = "**Approvers**", **roleclass** ="**owner**", **roleid**="**approvers**".
         1. The name of the approvers node, as well as jcr:title and roleid can be any string value (as long as roleid is unique). 
-        1. **roleclass** governs the permissions applied for that role based on the [3 OOTB roles](https://docs.adobe.com/docs/en/aem/6-3/author/projects.html#User Roles in a Project): **owner**, **editor**, and **observer**.
+        1. **roleclass** governs the permissions applied for that role based on the [3 OOTB roles](https://docs.adobe.com/docs/en/aem/6-3/author/projects.html#User%20Roles%20in%20a%20Project): **owner**, **editor**, and **observer**.
         1. In general if the custom role is more of a managerial role then the roleclass can be **owner;** if it is a more specific authoring role like Photographer or Designer then **editor** roleclass should suffice. The big difference between **owner** and **editor** is that project owners can update the project properties and add new users to the project.
 
    ```shell
