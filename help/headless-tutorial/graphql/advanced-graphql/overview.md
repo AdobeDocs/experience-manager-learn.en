@@ -10,6 +10,8 @@ exl-id: daae6145-5267-4958-9abe-f6b7f469f803
 ---
 # Advanced Concepts of AEM Headless
 
+{{aem-headless-trials-promo}}
+
 This end-to-end tutorial continues the [basic tutorial](../multi-step/overview.md) that covered the fundamentals of Adobe Experience Manager (AEM) Headless and GraphQL. The advanced tutorial illustrates in-depth aspects of working with Content Fragment Models, Content Fragments, and the AEM GraphQL persisted queries, including using the GraphQL persisted queries in a client application.
 
 ## Prerequisites
