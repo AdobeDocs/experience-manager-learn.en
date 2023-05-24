@@ -128,7 +128,7 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM Page
       // defensive coding to avoid a null pointer exception
       if(evt.hasOwnProperty("eventInfo") && evt.eventInfo.hasOwnProperty("path")) {
          //trigger the Tag Rule and pass event
-         console.debug("cmp:show event: " + evt.eventInfo.path);
+         console.log("cmp:show event: " + evt.eventInfo.path);
          var event = {
             //include the path of the component that triggered the event
             path: evt.eventInfo.path,
@@ -165,10 +165,10 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM Page
 1. Click **Open Editor** in the main panel and enter the following code snippet:
 
    ```js
-   console.debug("Page Loaded ");
-   console.debug("Page name: " + event.component['dc:title']);
-   console.debug("Page type: " + event.component['@type']);
-   console.debug("Page template: " + event.component['xdm:template']);
+   console.log("Page Loaded ");
+   console.log("Page name: " + event.component['dc:title']);
+   console.log("Page type: " + event.component['@type']);
+   console.log("Page template: " + event.component['xdm:template']);
    ```
 
    The `event` object is passed from the `trigger()` method called in the custom event. Here the `component` is the current page derived from the data layer `getState` in the custom event. 
