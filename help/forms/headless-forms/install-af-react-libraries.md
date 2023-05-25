@@ -24,6 +24,10 @@ Update the package.json to include the following dependencies. At the time of wr
 
 ```
 
+>[!NOTE]
+>
+>The drop-down list and the card layout in this tutorial were created using [Material UI library](https://mui.com/). You will need to download the appropriate Material UI packages to get the code working on your system.
+
 ## Setup Proxy
 
 Cross-Origin Resource Sharing (CORS) is a security mechanism that restricts web browsers from making requests to a different domain than the one the app is hosted on. CORS errors can occur when you try to fetch data from an API hosted on a different domain. By setting up a proxy, you can bypass CORS restrictions and make requests to the API from your React app. I have used the following code in a file called setUpProxy.js in the src folder. **Make sure you change the target to point to your publish instance.**

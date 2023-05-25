@@ -11,8 +11,11 @@ level: Intermediate
 
 # Embedding Headless Adaptive Form
 
-This article will cover the basics of embedding a headless adaptive form in your spa website. This article assumes you have an existing single-page app and would like to embed an adaptive form authored in AEM Forms 6.5.16 using core components.
-Including a form in a Single Page App allows users to input and submit data seamlessly without the need for a page refresh. This enhances the interactivity and efficiency of the application.
+This [tutorial will cover the various headless APIs](https://opensource.adobe.com/aem-forms-af-runtime/api/#section/Introduction) that allow you to list, display and submit the form.
+
+This article will cover the various headless APIs that are provided to allow you to list, display and submit adaptive forms in a headless manner.
+ 
+This article assumes you have an existing single-page app and would like to list and display the headless adaptive forms in your spa web site.
 
 The following screenshot shows a contact us form being embedded in SPA
 

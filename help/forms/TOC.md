@@ -224,10 +224,12 @@ index: y
   + [Create welcome kit component](welcome-kit/create-welcomekit-component.md)
   + [Create workflow component](welcome-kit/create-workflow-component.md)
   + [Test the solution](welcome-kit/testing-the-solution.md)
-+ Embed adaptive form in your SPA {#embed-form-spa}
++ Headless Forms API {#embed-form-spa}
   + [1 - Introduction](headless-forms/introduction.md)
   + [2 - Install Dependencies](headless-forms/install-af-react-libraries.md)
   + [3 - Fetch the form](headless-forms/fetch-the-form.md)
+  + [4 - Select form to fill](headless-forms/select-form-from-drop-down-list.md)
+  + [5 - Display forms in card format](headless-forms/display-forms-card-view.md)
   
 + React App with Forms and Acrobat Sign {#react-ic-sign}
   + [1 - Introduction](react-ic-sign/introduction.md)
