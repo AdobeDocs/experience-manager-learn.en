@@ -70,3 +70,7 @@ export default function Contact(){
 ```
 
 The above code uses native html components which are mapped to the components used in the adaptive form. For example we are mapping the text-input adaptive form component to TextField component. The native components used in the article [can be downloaded from here](./assets/native-components.zip)
+
+## Next Steps
+
+[Select a form from drop-down list](./select-form-from-drop-down-list.md)
