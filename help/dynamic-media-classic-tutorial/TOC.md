@@ -2,6 +2,7 @@
 user-guide-title: Introduction to Dynamic Media Classic
 user-guide-description: This tutorial shows how to use Dynamic Media Classic to create, author, and deliver rich media content.
 breadcrumb-title: Dynamic Media Classic Tutorials
+solution: Experience Manager, Experience Manager Assets
 sub-product: Experience Manager Assets
 version: 6.4, 6.5
 index: y

@@ -3,6 +3,7 @@ feature-set: Experience Manager Forms, Experience Manager
 role: Developer
 user-guide-title: AEM Forms Videos and Tutorials
 user-guide-description: Collection of AEM Forms resources for beginners and experienced AEM Forms developers.
+solution: Experience Manager, Experience Manager Forms
 breadcrumb-title: AEM Forms Tutorials
 sub-product: Experience Manager Forms
 version: 6.4, 6.5
