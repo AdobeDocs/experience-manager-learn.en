@@ -9,7 +9,6 @@ team: TM
  
 # Adobe Experience Manager Managed Services {#ams}
 
-+ [Overview](./overview.md)
 + Dispatcher{#dispatcher}
   + [Dispatcher Manual - Overview](./dispatcher/overview.md)
   + [What is "The Dispatcher"](./dispatcher/what-is-the-dispatcher.md)
