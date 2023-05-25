@@ -3,6 +3,7 @@ user-guide-title: Getting Started with AEM Headless
 user-guide-description: An end-to-end tutorial illustrating how to build-out and expose content using AEM Headless.
 breadcrumb-title: AEM Headless Tutorial
 feature-set: Experience Manager, Experience Manager Assets, Experience Manager Sites
+solution: Experience Manager, Experience Manager Sites
 sub-product: Experience Manager Sites
 version: 6.5, Cloud Service
 kt: 2963

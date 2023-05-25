@@ -2,6 +2,7 @@
 user-guide-title: Adobe Experience Manager as a Cloud Service Tutorials
 user-guide-description: A collection of tutorials for Adobe Experience Manager as a Cloud Service.
 breadcrumb-title: AEM as a Cloud Service Tutorials
+solution: Experience Manager, Experience Manager as a Cloud Service
 sub-product: Experience Manager as a Cloud Service
 version: Cloud Service
 team: TM
