@@ -7,8 +7,8 @@ kt: 13285
 topic: Development
 role: User
 level: Intermediate
+exl-id: a295e04a-d56b-4226-ab0d-b85728b5c1fe
 ---
-
 # Embedding Headless Adaptive Form
 
 This [tutorial will cover the various headless APIs](https://opensource.adobe.com/aem-forms-af-runtime/api/#section/Introduction) that allow you to list, display and submit the form.
@@ -32,4 +32,3 @@ The following screenshot shows a contact us form being embedded in SPA
 ## Next Steps
 
 [Install dependencies](./install-af-react-libraries.md)
-

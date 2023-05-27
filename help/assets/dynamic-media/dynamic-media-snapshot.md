@@ -8,6 +8,7 @@ thumbnail: 3419421.jpeg
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 1307ef4d-7f36-4eb9-af9f-97edb836271a
 ---
 # Dynamic Media Snapshot {#snapshot}
 

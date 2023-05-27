@@ -7,8 +7,8 @@ kt: 13311
 topic: Development
 role: User
 level: Intermediate
+exl-id: 7316ca02-be57-4ecf-b162-43a736b992b3
 ---
-
 # Fetch and display the forms in card format
 
 Card view format is a design pattern that presents information or data in the form of cards. Each card represents a discrete piece of content or data entry and typically consists of a visually distinct container with specific elements arranged within it. In this article, we will use the [listforms API](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/List-Forms/operation/listForms) to fetch the forms and display the forms in card format as shown below

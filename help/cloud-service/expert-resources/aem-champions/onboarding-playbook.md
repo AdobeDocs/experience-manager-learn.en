@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Value Video
 last-substantial-update: 2023-05-11
 jira: KT-13228
+exl-id: a52b253c-14b4-465b-9714-7f321435a945
 ---
-
 # AEM Champion Tips and Tricks - Cloud Manager Onboarding Playbook
 
 The onboarding playbook will help you take charge as a new administrator and developer for AEM as a Cloud Service. In the downloadable spreadsheet, we'll walk you through the activities you should do your first three weeks on the job as you start your onboarding journey.

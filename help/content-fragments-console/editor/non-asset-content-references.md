@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Feature Video
 last-substantial-update: 2023-05-12
 jira: KT-13241
+exl-id: 7dd1a5f9-e2f7-4b36-92ce-ac036637bdf0
 ---
-
 # Non-asset content references
 
 Learn how Content Fragment Content fields supports referencing various types of AEM content, such as Experience Fragments and Pages.

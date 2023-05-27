@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-05-16
 jira: KT-13270
 thumbnail: KT-13270.jpeg
+exl-id: 9cdd77c6-b5ee-4c66-aa38-30f93bdac4e6
 ---
-
 # AEM Headless APIs and React
 
 Welcome to this tutorial chapter where we will explore configuring a React app to connect with Adobe Experience Manager (AEM) Headless APIs using the AEM Headless SDK. We'll cover retrieving Content Fragment data from AEM's GraphQL APIs and displaying it in the React app.

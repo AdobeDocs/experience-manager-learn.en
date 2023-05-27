@@ -7,8 +7,8 @@ kt: 13285
 topic: Development
 role: User
 level: Intermediate
+exl-id: 46b43c2e-ed99-4bfd-88eb-eeea816dfecf
 ---
-
 # Installing the required dependencies
 
 To start using headless adaptive forms in your react project, install the following dependencies in your react project
