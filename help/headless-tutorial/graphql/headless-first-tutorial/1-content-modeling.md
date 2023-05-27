@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-05-16
 jira: KT-13270
 thumbnail: KT-13270.jpeg
+exl-id: 7210a71e-8a38-496d-b37c-9820637ece70
 ---
-
 # Content modeling
 
 Welcome to the tutorial chapter on Content Fragments and GraphQL endpoints in Adobe Experience Manager (AEM). We'll cover leveraging Content Fragments, creating Fragment Models, and using GraphQL endpoints in AEM.

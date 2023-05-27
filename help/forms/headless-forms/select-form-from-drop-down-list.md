@@ -7,8 +7,8 @@ kt: 13346
 topic: Development
 role: User
 level: Intermediate
+exl-id: 31008bb3-316b-4035-89ea-e830b429b927
 ---
-
 # Select a form to fill from a drop-down list
 
 Dropdown lists provide a compact and organized way to present a list of options to users. The items in the drop down list will be populated with the results of [listforms API](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/List-Forms/operation/listForms)
@@ -136,6 +136,3 @@ ${formPath}/jcr:content/guideContainer.model.json`
 ## Next Steps
 
 [Display the forms in card layout](./display-forms-card-view.md)
-
-
-

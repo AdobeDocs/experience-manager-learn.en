@@ -9,6 +9,7 @@ level: Beginner
 last-substantial-update: 2022-09-22
 kt: 11164
 thumbnail: 3409492.jpeg
+exl-id: 3443b54a-a52f-4f66-8b89-abdcf09ab760
 ---
 # Content Fragments Console overview
 

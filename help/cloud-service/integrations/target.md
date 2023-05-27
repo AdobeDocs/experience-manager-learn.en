@@ -10,6 +10,7 @@ doc-type: Tutorial
 last-substantial-update: 2023-05-09
 jira: KT-12433
 thumbnail: KT-12433.jpeg
+exl-id: 60a3e18a-090f-4b0e-8ba0-d4afd30577dd
 ---
 # Personalize AEM Headless experiences with Content Fragments
 

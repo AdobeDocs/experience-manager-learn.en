@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Value Video
 last-substantial-update: 2023-05-11
 jira: KT-13229
+exl-id: 216eb5e9-c4ed-44a7-bfb4-504ee8157b30
 ---
-
 # AEM Champion Tips and Tricks - Cloud Manager Environment Types
 
 Check out these tips from your fellow technical lead, Rakesh Pasupuleti. Rakesh is an Adobe Experience Manager champion, and he explains how to understand Cloud Manager's environment types.

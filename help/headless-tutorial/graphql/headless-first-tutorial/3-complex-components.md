@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-05-16
 jira: KT-13270
 thumbnail: KT-13270.jpeg
+exl-id: bd9df5ed-d55f-45f2-8d54-2501bcaa39bb
 ---
-
 # Build complex component
 
 Welcome to this tutorial chapter where we will explore creating a complex Image List component that renders Content Fragments, nested Content Fragment references, and referenced image assets. We will take it a step further by making the React app editable using the Universal Editor.
@@ -415,4 +415,4 @@ export default Home;
 
 ## Congratulations!
 
-You've successfully created an AEM Headless experience that is fully powered by AEM Headless APIs and is editable with Universal Editor. 
+You've successfully created an AEM Headless experience that is fully powered by AEM Headless APIs and is editable with Universal Editor.

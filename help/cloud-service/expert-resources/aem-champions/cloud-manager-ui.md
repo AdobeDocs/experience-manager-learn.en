@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Value Video
 last-substantial-update: 2023-05-11
 jira: KT-13230
+exl-id: 35f1e1fd-a1e1-43b5-b9b3-2a3803ebe175
 ---
-
 # AEM Champion Tips and Tricks - Cloud Manager UI
 
 Check out these tips from your fellow technical lead, Rakesh Pasupuleti. Rakesh is an Adobe Experience Manager champion, and he explains how navigate and understand Cloud Manager's UI.

@@ -7,8 +7,8 @@ kt: 13285
 topic: Development
 role: User
 level: Intermediate
+exl-id: 5953a1ad-0eaf-43f0-b356-6d20c0b59fee
 ---
-
 # Fetch the JSON of the Form
 
 Login to your AEM Forms author instance and create a new adaptive using the **Blank with Core Components** template. Publish your form to your publish instance.

@@ -8,8 +8,8 @@ role: User
 level: Beginner
 doc-type: Catalog
 last-substantial-update: 2023-05-12
+exl-id: 68caf431-8d81-4a72-a768-7b04082870d3
 ---
-
 # Content Fragments Console videos
 
 ![AEM Content Fragment Editor](./assets/main.png)
@@ -226,5 +226,3 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
       </div>
     </div>
   </div>
-
-  
