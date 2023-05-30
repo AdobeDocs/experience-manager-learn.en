@@ -67,7 +67,7 @@ The SDR document provides a comprehensive overview of the implementation plan, e
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419874?quality=12&learn=on)
 
-For more information on concepts and various elements that should be included in the SDR document visit the [Create and maintain a Solution Design Reference (SDR) Document](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html). You can also download a sample Excel template, however WKND-specific version is also available [here](./assets/Analytics-SDR-Template.xlsx).
+For more information on concepts and various elements that should be included in the SDR document visit the [Create and maintain a Solution Design Reference (SDR) Document](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html). You can also download a sample Excel template, however WKND-specific version is also available [here](./assets/Initial-WKND-WebSDK-BRD-SDR.xlsx).
 
 ## Setup Analytics - report suite, Analysis Workspace
 
@@ -77,7 +77,7 @@ In this tutorial,  `eVar5, eVar6, and eVar7` track  _WKND Page Name, WKND CTA ID
 
 To analyze, gather insights and share those insights with others from the collected data, a project in Analysis Workspace is created. 
 
->[!VIDEO](https://video.tv.adobe.com/v/3419874?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419875?quality=12&learn=on)
 
 To learn more about Analytics setup and concepts, the following resources are highly recommended:
 
@@ -115,6 +115,10 @@ In the [previous tutorial](./web-sdk.md), a tag property is created, it has Data
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419882?quality=12&learn=on)
+
+>[!TIP]
+>
+>The Data Element and Rule-Event code shown in the video is available for your reference, **expand the below accordion element**. However, if you are NOT using Adobe Client Data Layer, you must modify the below code but the concept of defining the Data Elements and using them in the Rule definition still applies.
 
 +++ Data Element and Rule-Event Code
 
@@ -203,6 +207,13 @@ In the [previous tutorial](./web-sdk.md), a tag property is created, it has Data
 
 For additional information on integrating AEM Core Components with Adobe Client Data Layer, refer to the [Using the Adobe Client Data Layer with AEM Core Components guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
 
+
+>[!INFO]
+>
+>For a comprehensive understanding of the **Variable Map** tab property details in the Solution Design Reference (SDR) document, access the completed WKND-specific version for download [here](./assets/Final-WKND-WebSDK-BRD-SDR.xlsx). 
+
+
+
 ## Verify updated Tag property on WKND
 
 To ensure that the updated tag property is built, published, and working correctly on the WKND site pages. Use the Google Chrome web browser's [Adobe Experience Platform Debugger extension](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob):
@@ -229,7 +240,7 @@ The dataset is a storage and management construct for a collection of data like 
 
 Analysis Workspace is a powerful tool within Adobe Analytics that allows to explore and visualize data in a flexible and interactive manner. It provides a drag-and-drop interface to create custom reports, perform advanced segmentation, and apply various data visualizations.
 
-Let's reopen the Analysis Workspace project created in the [Setup Analytics](#setup-analytics---report-suite-analysis-workspace) step. In the **Top Pages** section, examine various metrics such as visits, unique visitors, entries, bounce rate, and more. To assess the performance of WKND pages and home page CTAs, drag-and-drop the WKND-specific dimensions (WKND Page Name, WKND CTA Name) and metrics (WKND CTA Click Event). These insights are valuable for marketers to understand which CTAs are more effective and make data-driven decisions aligned with their business objectives. 
+Let's reopen the Analysis Workspace project created in the [Setup Analytics](#setup-analytics---report-suite-analysis-workspace) step. In the **Top Pages** section, examine various metrics such as visits, unique visitors, entries, bounce rate, and more. To assess the performance of WKND pages and home page CTAs, drag-and-drop the WKND-specific dimensions (WKND Page Name, WKND CTA Name) and metrics (WKND CTA Click Event). These insights are valuable for marketers to understand which CTAs are more effective and make data-driven decisions, aligned with their business objectives. 
 
 To visualize user journeys, use the Flow visualization, starting with the **WKND Page Name** and expanding into various paths.
 
@@ -244,6 +255,12 @@ Implementing Adobe Analytics is crucial for marketing teams to gain insights int
 By implementing the recommended steps and using the provided resources, such as the Solution Design Reference (SDR) document and understanding key Analytics concepts, marketers can effectively collect and analyze data.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419888?quality=12&learn=on)
+
+
+>[!AVAILABILITY]
+>
+>If you prefer the **end-to-end video** that covers the entire integration process instead of individual setup step videos, you can click [here](https://video.tv.adobe.com/v/3419889/) to access it.
+
 
 ## Additional Resources
 
