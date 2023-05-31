@@ -202,6 +202,11 @@ Great job! You have completed the setup of AEM with Experience Platform Web SDK 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418900?quality=12&learn=on)
 
+
+>[!AVAILABILITY]
+>
+>If you prefer the **end-to-end video** that covers the entire integration process instead of individual setup step videos, you can click [here](https://video.tv.adobe.com/v/3418905/) to access it.
+
 ## Additional Resources
 
 + [Using the Adobe Client Data Layer with the Core Components](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)
