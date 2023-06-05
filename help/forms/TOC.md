@@ -230,6 +230,7 @@ index: y
   + [3 - Fetch the form](headless-forms/fetch-the-form.md)
   + [4 - Select form to fill](headless-forms/select-form-from-drop-down-list.md)
   + [5 - Display forms in card format](headless-forms/display-forms-card-view.md)
+  + [6 - Display selected form](headless-forms/open-form-card-view.md)
   
 + React App with Forms and Acrobat Sign {#react-ic-sign}
   + [1 - Introduction](react-ic-sign/introduction.md)

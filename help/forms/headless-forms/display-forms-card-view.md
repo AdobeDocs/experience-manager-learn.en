@@ -11,7 +11,10 @@ exl-id: 7316ca02-be57-4ecf-b162-43a736b992b3
 ---
 # Fetch and display the forms in card format
 
-Card view format is a design pattern that presents information or data in the form of cards. Each card represents a discrete piece of content or data entry and typically consists of a visually distinct container with specific elements arranged within it. In this article, we will use the [listforms API](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/List-Forms/operation/listForms) to fetch the forms and display the forms in card format as shown below
+Card view format is a design pattern that presents information or data in the form of cards. Each card represents a discrete piece of content or data entry and typically consists of a visually distinct container with specific elements arranged within it.
+Clickable cards in React are interactive components that resemble cards or tiles and can be clicked or tapped by the user. When a user clicks or taps on a clickable card, it triggers a specified action or behavior, such as navigating to another page, opening a modal, or updating the UI.
+
+In this article, we will use the [listforms API](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/List-Forms/operation/listForms) to fetch the forms and display the forms in card format and open the adaptive form on the click event.
 
 ![card-view](./assets/card-view-forms.png)
 
@@ -19,38 +22,64 @@ Card view format is a design pattern that presents information or data in the fo
 
 The following code was used to design the card template. The card template is displaying the adaptive form's title and description along with Adobe logo. [Material UI components](https://mui.com/) have been used in creating this layout.
 
-``` javascript
 
-import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Grid";
+
+``` javascript
 import Container from "@mui/material/Container";
-import { Typography } from "@mui/material";
+import Form from './Form';
+import PlainText from './plainText'
+import TextField from './TextField'
+import Button from './Button';
+import { AdaptiveForm } from "@aemforms/af-react-renderer";
+
+import { CardActionArea, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-const FormCard =({headlessForm}) => {
+import { useState,useEffect } from "react";
+import DisplayForm from "../DisplayForm";
+import { Link } from "react-router-dom";
+export default function FormCard({headlessForm}) {
+const extendMappings =
+    {
+        'plain-text' : PlainText,
+        'text-input' : TextField,
+        'button' : Button,
+        'form': Form
+    };
+    const[formPath, setFormPath] = useState('');
+    const [selectedForm, setForm] = useState('');
     return (
-              <Grid item xs={3}>
+        
+            <Grid item xs={3}>
                 <Paper elevation={3}>
                     <img src="/content/dam/formsanddocuments/registrationform/jcr:content/renditions/cq5dam.thumbnail.48.48.png" className="img"/>
                     <Box padding={3}>
-                    <Typography variant="subtititle2" component="h2">
-                        {headlessForm.title}
-                    
-                    </Typography>
-                    <Typography variant="subtititle3" component="h4">
-                        {headlessForm.description}
-                    
-                    </Typography>
+                        <Link style={{ textDecoration: 'none' }} to={`/displayForm${headlessForm.path}`}>
+                            <Typography variant="subtititle2" component="h2">
+                                {headlessForm.title}
+                            </Typography>
+                            <Typography variant="subtititle3" component="h4">
+                                {headlessForm.description}
+                            </Typography>
+                        </Link>
+                
                     </Box>
                 </Paper>
-                </Grid>
-          
-
-
+            </Grid>
     );
     
 
 };
-export default FormCard;
+
+
+
+```
+
+The following route was defined in the Main.js to navigate to DisplayForm.js
+
+```javascript
+
+    <Route path="/displayForm/*" element={<DisplayForm/>} exact/>
+
 ```
 
 ## Fetch the forms
@@ -100,3 +129,7 @@ export default function ListForm(){
 ```
 
  In the above code, we iterate through the fetchedForms using the map function and for every item in the fetchedForms array a FormCard component is created and added to the Grid container. You can now use the ListForm component in your React app as per your requirements.
+
+## Next Steps
+
+[Display the adaptive form when user clicks on a card](./open-form-card-view.md)
