@@ -16,18 +16,18 @@ Example applications are a great way to explore the headless capabilities of Ado
 
 ![Server-to-server Node.js app with AEM Headless](./assets/server-to-server-app/server-to-server-app.png)
 
-View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/server-to-server-app)
+View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/server-to-server)
 
 ## Prerequisites {#prerequisites}
 
 The following tools should be installed locally:
 
-+ [Node.js v18](https://nodejs.org/en/)
++ [Node.js v18](https://nodejs.org/en)
 + [Git](https://git-scm.com/)
 
 ## AEM requirements
 
-The Node.js application works with the following AEM deployment options. All deployments requires the [WKND Site v2.0.0+](https://github.com/adobe/aem-guides-wknd/releases/latest) to be installed.
+The Node.js application works with the following AEM deployment options. All deployments requires the [WKND Site v2.0.0+](https://github.com/adobe/aem-guides-wknd/releases) to be installed.
 
 + [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html)
 + Optionally, [service credentials](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html) if authorizing requests (for example, connecting to AEM Author service).
@@ -71,7 +71,7 @@ This Node.js application can connect to AEM Author or AEM Publish based on the c
 
 ## The code
 
-Below is a summary of how the server-to-server Node.js application is built, how it connects to AEM Headless to retrieve content using GraphQL persisted queries, and how that data is presented. The full code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/server-to-server-app).
+Below is a summary of how the server-to-server Node.js application is built, how it connects to AEM Headless to retrieve content using GraphQL persisted queries, and how that data is presented. The full code can be found on [GitHub](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/server-to-server).
 
 The common use case for server-to-server AEM Headless apps is to sync Content Fragment data from AEM into other systems, however this application is intentionally simple, and prints the JSON results from the persisted query. 
 

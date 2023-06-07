@@ -26,7 +26,7 @@ _IDE screenshots in this chapter come from [Visual Studio Code](https://code.vis
 
 The following software must be installed:
 
-- [Node.js v18](https://nodejs.org/)
+- [Node.js v18](https://nodejs.org/en)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Objectives
@@ -105,7 +105,7 @@ The sample React app has three main parts:
 
 1.  The `src/api` folder contains files used to make GraphQL queries to AEM.
     - `src/api/aemHeadlessClient.js` initializes and exports the AEM Headless Client used to communicate with AEM
-    - `src/api/usePersistedQueries.js` implements [custom React hooks](https://react.dev/docs/hooks-custom.html) return data from AEM GraphQL to the `Teams.js` and `Person.js` view components.
+    - `src/api/usePersistedQueries.js` implements [custom React hooks](https://react.dev/learn/reusing-logic-with-custom-hooks#custom-hooks-sharing-logic-between-components) return data from AEM GraphQL to the `Teams.js` and `Person.js` view components.
 
 1.  The `src/components/Teams.js` file displays a list of teams and their members, by using a list query.
 1.  The `src/components/Person.js` file displays the details of a single person, using a parameterized, single-result query.
@@ -183,7 +183,7 @@ async function fetchPersistedQuery(persistedQueryName, queryParameters) {
 
 Next, build out the functionality to display the Teams and their members on the React app's main view. This functionality requires:
 
-- A new [custom React useEffect hook](https://react.dev/docs/hooks-custom.html) in `src/api/usePersistedQueries.js` that invokes the `my-project/all-teams` persisted query, returning a list of Team Content Fragments in AEM.
+- A new [custom React useEffect hook](https://react.dev/reference/react/useEffect#useeffect) in `src/api/usePersistedQueries.js` that invokes the `my-project/all-teams` persisted query, returning a list of Team Content Fragments in AEM.
 - A React component at `src/components/Teams.js` that invokes the new custom React `useEffect` hook, and renders the teams data.
 
 Once complete, the app's main view populates with the teams data from AEM.
@@ -334,7 +334,7 @@ With the [Teams functionality](#implement-teams-functionality) complete, let's i
 
 This functionality requires:
 
--   A new [custom React useEffect hook](https://react.dev/docs/hooks-custom.html) in `src/api/usePersistedQueries.js` that invokes the parameterized `my-project/person-by-name` persisted query, and returns a single person record.
+-   A new [custom React useEffect hook](https://react.dev/reference/react/useEffect#useeffect) in `src/api/usePersistedQueries.js` that invokes the parameterized `my-project/person-by-name` persisted query, and returns a single person record.
 
 -   A React component at `src/components/Person.js` that uses a person's full name as a query parameter, invokes the new custom React `useEffect` hook, and renders the person data.
 

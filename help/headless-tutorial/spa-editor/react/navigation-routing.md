@@ -20,12 +20,12 @@ Learn how multiple views in the SPA can be supported by mapping to AEM Pages wit
 ## Objective
 
 1. Understand the SPA model routing options available when using the SPA Editor.
-1. Learn to use [React Router](https://reacttraining.com/react-router/) to navigate between different views of the SPA.
+1. Learn to use [React Router](https://reacttraining.com/react-router) to navigate between different views of the SPA.
 1. Use AEM React Core Components to implement a dynamic navigation that is driven by the AEM page hierarchy.
 
 ## What you will build
 
-This chapter will add navigation to a SPA in AEM. The navigation menu is driven by the AEM page hierarchy and will make use of the JSON model provided by the [Navigation Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/navigation.html).
+This chapter will add navigation to a SPA in AEM. The navigation menu is driven by the AEM page hierarchy and will make use of the JSON model provided by the [Navigation Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/wcm-components/navigation.html).
 
 ![Navigation added](assets/navigation-routing/navigation-added.png)
 
@@ -203,9 +203,9 @@ Next, inspect the JSON Model that drives the multi-view experience of the SPA.
 
 ## Inspect React Routing  {#react-routing}
 
-The navigation and routing is implemented with [React Router](https://reactrouter.com/). React Router is a collection of navigation components for React applications. [AEM React Core Components](https://github.com/adobe/aem-react-core-wcm-components-base) uses features of React Router to implement the **Navigation** component used in the previous steps.
+The navigation and routing is implemented with [React Router](https://reactrouter.com/en/main). React Router is a collection of navigation components for React applications. [AEM React Core Components](https://github.com/adobe/aem-react-core-wcm-components-base) uses features of React Router to implement the **Navigation** component used in the previous steps.
 
-Next, inspect how React Router is integrated with the SPA and experiment using React Router's [Link](https://reactrouter.com/web/api/Link) component.
+Next, inspect how React Router is integrated with the SPA and experiment using React Router's [Link](https://reactrouter.com/en/main/components/link) component.
 
 1. In the IDE open the file `index.js` at `ui.frontend/src/index.js`.
 
@@ -232,7 +232,7 @@ Next, inspect how React Router is integrated with the SPA and experiment using R
    });
    ```
 
-   Notice that the `App` is wrapped in the `Router` component from [React Router](https://reacttraining.com/react-router/). The `ModelManager`, provided by the AEM SPA Editor JS SDK, adds the dynamic routes to AEM Pages based on the JSON model API.
+   Notice that the `App` is wrapped in the `Router` component from [React Router](https://reacttraining.com/react-router). The `ModelManager`, provided by the AEM SPA Editor JS SDK, adds the dynamic routes to AEM Pages based on the JSON model API.
 
 1. Open the file `Page.js` at `ui.frontend/src/components/Page/Page.js`
 
@@ -254,7 +254,7 @@ Next, inspect how React Router is integrated with the SPA and experiment using R
     The `Page` SPA component uses the `MapTo` function to map **Pages** in AEM to a corresponding SPA component. The `withRoute` utility helps to dynamically route the SPA to the appropriate AEM Child page based on the `cqPath` property.
 
 1. Open the `Header.js` component at `ui.frontend/src/components/Header/Header.js`.
-1. Update the `Header` to wrap the `<h1>` tag in a [Link](https://reactrouter.com/web/api/Link) to the homepage:
+1. Update the `Header` to wrap the `<h1>` tag in a [Link](https://reactrouter.com/en/main/components/link) to the homepage:
 
     ```diff
       //Header.js

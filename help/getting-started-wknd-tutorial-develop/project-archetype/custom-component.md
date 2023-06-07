@@ -441,7 +441,7 @@ Create a public Java&trade; Interface for the Byline. The `Byline.java` defines 
     import org.osgi.annotation.versioning.Version;
     ```
 
-Whenever a changes are made to the files in this package, the [package version must be adjusted semantically](https://semver.org/). If not, the Maven project's [bnd-baseline-maven-plugin](https://github.com/bndtools/bnd/tree/master/maven/bnd-baseline-maven-plugin) detects an invalid package version and break the built. Luckily, on failure, the Maven plugin reports the invalid Java&trade; package version and the version it should be. Update the `@Version("...")` declaration in the violating Java&trade; package's `package-info.java` to the version recommended by the plugin to fix.
+Whenever a changes are made to the files in this package, the [package version must be adjusted semantically](https://semver.org/). If not, the Maven project's [bnd-baseline-maven-plugin](https://github.com/bndtools/bnd) detects an invalid package version and break the built. Luckily, on failure, the Maven plugin reports the invalid Java&trade; package version and the version it should be. Update the `@Version("...")` declaration in the violating Java&trade; package's `package-info.java` to the version recommended by the plugin to fix.
 
 ### Byline implementation {#byline-implementation}
 

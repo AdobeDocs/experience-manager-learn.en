@@ -12,7 +12,7 @@ exl-id: 817ea20d-d902-4497-83d3-5800ed6aaa8f
 ---
 # Migrating to the Cloud - Part 1
 
-Darin and James discuss the Dispatcher in the AEM Cloud including some best practices and differences from AMS/On-Prem. They also touch upon migration to the cloud. Special guest and cloud expert, [Dr. Applesmith](https://twitter.com/DrApplesmith) makes an appearance.
+Darin and James discuss the Dispatcher in the AEM Cloud including some best practices and differences from AMS/On-Prem. They also touch upon migration to the cloud.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342133?quality=12&learn=on)
 
