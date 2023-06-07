@@ -77,7 +77,7 @@ A consolidated view into the authentication (and occasionally authorization) mec
                 <td>✔</td>
             </tr>
             <tr>
-                <td><a href="https://experienceleague.adobe.com/docs/experience-manager-gems-events/assets/oauth-server-functionality-in-aem-7-23-14.pdf" target="_blank">OAuth 1.0a &amp; 2.0</a></td>
+                <td><a href="https://experienceleague.adobe.com/docs/events/assets/oauth-server-functionality-in-aem-7-23-14.pdf" target="_blank">OAuth 1.0a &amp; 2.0</a></td>
                 <td>✔</td>
                 <td>✔</td>
                 <td>✔</td>

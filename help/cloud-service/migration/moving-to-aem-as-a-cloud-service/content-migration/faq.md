@@ -46,7 +46,7 @@ For more info, refer to [cloud migration prerequisites](https://experienceleague
 
 ### Q: I have the latest BPA report from my source system, what should I do with it?
 
-Export the report as CSV and then upload it to Cloud Acceleration Manager, [associated with your IMS Org](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-acceleration-manager/using-cam/getting-started-cam.html). Then go through the review process as [outlined in the Readiness Phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-acceleration-manager/using-cam/cam-readiness-phase.html).
+Export the report as CSV and then upload it to Cloud Acceleration Manager, [associated with your IMS Org](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-acceleration-manager/using-cam/getting-started-cam.html). Then go through the review process as [outlined in the Readiness Phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-acceleration-manager/using-cam/cam-readiness-phase.html).
 
 Please review the code and content complexity assessment provided by the tool and make a note of associated action items that lead to code refactoring backlog or Cloud Migration Assessment.
 
@@ -74,7 +74,7 @@ If clone environments are used for migration, then it will not impact the live p
 
 The short answer is "**Yes**".
 
-The CTT extraction and ingestion **without** user mapping only migrates the content, the associated principles (users, groups) from source AEM to AEMaaCS. But there is a requirement for these users (identities) present in Adobe IMS and have (provisioned with) access to AEMaaCS instance to successfully authenticate. The job of [user-mapping tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/user-mapping-tool/overview-user-mapping-tool.html) is to map the local AEM user to IMS User so that authentication and authorizations work together.
+The CTT extraction and ingestion **without** user mapping only migrates the content, the associated principles (users, groups) from source AEM to AEMaaCS. But there is a requirement for these users (identities) present in Adobe IMS and have (provisioned with) access to AEMaaCS instance to successfully authenticate. The job of [user-mapping tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/legacy-user-mapping-tool/overview-user-mapping-tool-legacy.html) is to map the local AEM user to IMS User so that authentication and authorizations work together.
 
 In this case, the SAML identity provider is configured against Adobe IMS to use either Federated / Enterprise ID, rather than directly to AEM using Authentication handler.
 
@@ -82,15 +82,15 @@ In this case, the SAML identity provider is configured against Adobe IMS to use 
 
 The short answer is "**Yes**".
 
-The CTT extraction and ingestion without user mapping does migrate the content, the associated principles (users, groups) from source AEM to AEMaaCS. But there is a requirement for these users (identities) present in Adobe IMS and have (provisioned with) access to AEMaaCS instance to successfully authenticate. The job of [user-mapping tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/user-mapping-tool/overview-user-mapping-tool.html) is to map the local AEM user to IMS User so that authentication and authorizations work together.
+The CTT extraction and ingestion without user mapping does migrate the content, the associated principles (users, groups) from source AEM to AEMaaCS. But there is a requirement for these users (identities) present in Adobe IMS and have (provisioned with) access to AEMaaCS instance to successfully authenticate. The job of [user-mapping tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/legacy-user-mapping-tool/overview-user-mapping-tool-legacy.html) is to map the local AEM user to IMS User so that authentication and authorizations work together.
 
 In this case, the users use personal Adobe ID and the Adobe ID is used by IMS admin for providing access to AEMaaCS.
 
 ### Q: What do the terms "wipe" and "overwrite" mean in the context of CTT?
 
-In the context of [extraction phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-servicemoving/cloud-migration/content-transfer-tool/extracting-content.html), The options are either to overwrite the data in the staging container from previous extraction cycles or add the differential (added/updated/deleted) into it. Staging Container is nothing, but the blob storage container associated with migration set. Each migration set gets their own staging container.
+In the context of [extraction phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/getting-started-content-transfer-tool.html?lang=en#extraction-setup-phase), The options are either to overwrite the data in the staging container from previous extraction cycles or add the differential (added/updated/deleted) into it. Staging Container is nothing, but the blob storage container associated with migration set. Each migration set gets their own staging container.
 
-In the context of [ingestion phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/ingesting-content.html), The options are + to replace the entire content repository of AEMaaCS or sync the differential (added/updated/deleted) content from staging migration container.
+In the context of [ingestion phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/ingesting-content.html), The options are + to replace the entire content repository of AEMaaCS or sync the differential (added/updated/deleted) content from staging migration container.
 
 ### Q: There are multiple websites, associated assets, users, groups in the source system. Is it possible to migrate them in phases to AEMaaCS?
 
@@ -218,6 +218,6 @@ The above approach can be used for just measuring the migration duration but req
 
 +   [Tips and Tricks for Migrating to Experience Manager in the Cloud ( Summit 2022)](https://business.adobe.com/summit/2022/sessions/tips-and-tricks-for-migrating-to-experience-manage-tw109.html)
 
-+   [CTT Expert Series Video](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-servicemigration/moving-to-aem-as-a-cloud-service/content-migration/content-transfer-tool.html)
++   [CTT Expert Series Video](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/content-transfer-tool.html)
 
-+   [Expert Series Videos on other AEMaaCS topics](https://experienceleague.adobe.com/docs/experience-manager-learncloud-service/aem-experts-series.html)
++   [Expert Series Videos on other AEMaaCS topics](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/expert-resources/aem-experts-series.html)

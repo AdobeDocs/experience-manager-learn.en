@@ -18,7 +18,7 @@ Adobe Asset Link extension for Adobe Creative Cloud for enterprise extends the c
 
 >[!TIP]
 >
-> Learn more about how the [Adobe XD Premium Training Program](https://spark.adobe.com/page/wU7OXv8qKGugO/) can help you integrate Asset Link with your Adobe Experience Manager workflow.
+> Learn more about how the [Adobe XD Premium Training Program](https://helpx.adobe.com/support/xd.html) can help you integrate Asset Link with your Adobe Experience Manager workflow.
 
 ## Adobe Asset Link and AEM creative workflows
 
@@ -59,7 +59,7 @@ Adobe Asset Link provides InDesign direct linking support between Adobe Asset L
 
 >[!NOTE]
 >
->Use your Adobe Creative Cloud Enterprise ID or Federated ID only. Make sure you [configure AEM for Adobe Asset Link](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/adobe-asset-link.ug.html).
+>Use your Adobe Creative Cloud Enterprise ID or Federated ID only. Make sure you [configure AEM for Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html).
 
 You can place an asset to your InDesign layout using one of the below options:
 
