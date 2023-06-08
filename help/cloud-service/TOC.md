@@ -55,20 +55,22 @@ team: TM
   + Extensibility{#extensibility}
     + App Builder{#app-builder}
       + [Generate access token](./developing/extensibility/app-builder/jwt-auth.md)
-    + Content Fragment console{#content-fragments}
-      + [Overview](./developing/extensibility/content-fragments/overview.md)
-      + [Adobe Developer Console project](./developing/extensibility/content-fragments/adobe-developer-console-project.md)
-      + [App initialization](./developing/extensibility/content-fragments/app-initialization.md)
-      + [Extension registration](./developing/extensibility/content-fragments/extension-registration.md)
-      + [Header menu](./developing/extensibility/content-fragments/header-menu.md)
-      + [Action bar](./developing/extensibility/content-fragments/action-bar.md)
-      + [Modal](./developing/extensibility/content-fragments/modal.md)
-      + [Adobe I/O Runtime action](./developing/extensibility/content-fragments/runtime-action.md)
-      + [Test](./developing/extensibility/content-fragments/test.md)
-      + [Deploy](./developing/extensibility/content-fragments/deploy.md)
-      + Example extensions{#example-extensions}
-        + [Bulk property update](./developing/extensibility/content-fragments/example-extensions/bulk-property-update.md)
-        + [AEM image asset generation using OpenAI](./developing/extensibility/content-fragments/example-extensions/image-generation-and-image-upload.md)
+    + UI Extensibility{#ui}
+      + [Overview](./developing/extensibility/ui/overview.md)
+      + [Adobe Developer Console Project](./developing/extensibility/ui/adobe-developer-console-project.md)
+      + [Initialize App](./developing/extensibility/ui/app-initialization.md)
+      + [Register Extension](./developing/extensibility/ui/extension-registration.md)
+      + [Modal](./developing/extensibility/ui/modal.md)
+      + [Adobe I/O Runtime Action](./developing/extensibility/ui/runtime-action.md)
+      + [Verify](./developing/extensibility/ui/verify.md)
+      + [Deploy](./developing/extensibility/ui/deploy.md)
+      + Content Fragments{#content-fragments}
+        + [Overview](./developing/extensibility/ui/content-fragments/overview.md)
+        + Examples{#examples}
+          + [Bulk Property Update](./developing/extensibility/ui/content-fragments/examples/console-bulk-property-update.md)
+          + [AI Image Generation](./developing/extensibility/ui/content-fragments/examples/console-image-generation-and-image-upload.md)
+          + [Custom Grid Columns](./developing/extensibility/ui/content-fragments/examples/custom-grid-columns.md)
+          + [Export as XML](./developing/extensibility/ui/content-fragments/examples/editor-export-to-xml.md)
   + Development Basics{#basics}
     + [AEM SDK](./developing/basics/aem-sdk.md)
     + [Local Development Environment](./developing/basics/local-development-environment.md)

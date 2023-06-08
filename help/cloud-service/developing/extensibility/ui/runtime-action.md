@@ -1,6 +1,6 @@
 ---
-title: AEM Content Fragment console extension Adobe I/O Runtime actions
-description: Learn how to create an AEM Content Fragment console extension modal.
+title: AEM UI extension Adobe I/O Runtime actions
+description: Learn how to create an AEM UI extension modal.
 feature: Developer Tools
 version: Cloud Service
 topic: Development
@@ -8,17 +8,16 @@ role: Developer
 level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
-last-substantial-update: 2022-12-01
+last-substantial-update: 2023-06-02
 exl-id: 3062900a-0461-4c6f-81e6-c76a7f613804
 ---
 # Adobe I/O Runtime action
 
-![AEM Content Fragment extension runtime actions](./assets/runtime-action/action-runtime-flow.png){align="center"}
+![AEM UI extension runtime actions](./assets/runtime-action/action-runtime-flow.png){align="center"}
 
-AEM Content Fragment extensions can optionally include any number of [Adobe I/O Runtime actions](https://developer.adobe.com/runtime/docs/). 
+AEM UI extensions can optionally include any number of [Adobe I/O Runtime actions](https://developer.adobe.com/runtime/docs/). 
 
-Adobe I/O Runtime actions are serverless functions that can be invoked by the extension. Actions are useful for performing work that requires interacting with AEM, or other Adobe web services. 
-Actions typically are most useful for performing long-running (anything longer than a few seconds) tasks, or making HTTP requests to AEM or other web services.
+Adobe I/O Runtime actions are serverless functions that can be invoked by the extension. Actions are useful for performing work that requires interacting with AEM, or other Adobe web services. Actions typically are most useful for performing long-running (anything longer than a few seconds) tasks, or making HTTP requests to AEM or other web services.
 
 The benefits of using Adobe I/O Runtime actions to perform work are:
 
@@ -26,26 +25,26 @@ The benefits of using Adobe I/O Runtime actions to perform work are:
 + Actions cannot be interrupted by the user (for example, refreshing the browser)
 + Actions are asynchronous, so they can run as long as needed without blocking the user
 
-In the context of AEM Content Fragment extensions, actions are most often used to communicate with AEM as a Cloud Service directly, often:
+In the context of AEM UI extensions, actions are often used to communicate with AEM as a Cloud Service directly:
 
-+ Collecting related data from AEM about the Content Fragments
-+ Performing custom operations on Content Fragments
-+ Bespoke creation of Content Fragments
++ Collecting related data from AEM about the selected or current content
++ Performing custom operations on content
++ Bespoke creation of content
 
-While the AEM Content Fragment extension is surfaced in the Content Fragment console, extensions, and their supporting actions, can invoke any available AEM HTTP API, including custom AEM API endpoints.
+While the AEM UI extension is surfaced in specific AEM UI's, extensions, and their supporting actions, can invoke any available AEM HTTP API, including custom AEM API endpoints.
 
 ## Invoke an action
 
-Adobe I/O Runtime actions are primarily invoked from two places in an AEM Content Fragment extension:
+Adobe I/O Runtime actions are primarily invoked from two places in an AEM UI extension:
 
 1. The [extension registration's](./extension-registration.md) `onClick(..)` handler
 1. Within a [modal](./modal.md)
 
 ### From extension registration
 
-Adobe I/O Runtime actions can be called directly from the extension registration code. The most common use case is to bind an action to a [header menu](./header-menu.md#no-modal)'s button that does not use [modals](./modal.md).
+Adobe I/O Runtime actions can be called directly from the extension registration code. The most common use case is to bind an action to a [header menu](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/api/header-menu/)'s button that does not use [modals](./modal.md).
 
-+ `./src/aem-cf-console-admin-1/web-src/src/components/ExtensionRegistration.js`
++ `./src/aem-ui-extension/web-src/src/components/ExtensionRegistration.js`
 
 ```javascript
 // allActions is an object containing all the actions defined in the extension's manifest
@@ -105,7 +104,7 @@ Adobe I/O Runtime actions can be called directly from modals to perform more inv
 
 Adobe I/O Runtime actions are Node.js based JavaScript applications that run in the serverless Adobe I/O Runtime environment. These actions are addressable via HTTP by the extension SPA.
 
-+ `./src/aem-cf-console-admin-1/web-src/src/components/MyModal.js`
++ `./src/aem-ui-extension/web-src/src/components/MyModal.js`
 
 ```javascript
 import React, { useState, useEffect } from 'react'
@@ -221,7 +220,7 @@ export default function MyModal() {
 
 ## Adobe I/O Runtime action
 
-+ `src/aem-cf-console-admin-1/actions/generic/index.js`
++ `src/aem-ui-extension/actions/generic/index.js`
 
 ```javascript
 const fetch = require('node-fetch')

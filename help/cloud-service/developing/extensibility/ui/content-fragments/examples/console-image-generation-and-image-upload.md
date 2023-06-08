@@ -1,12 +1,12 @@
 ---
 title: OpenAI image generation via a custom Content Fragment Console extension
 description: Learn how to generate digital image from natural language description using OpenAI or DALL-E 2 and uploads generated image to AEM using a custom Content Fragment Console extension.
-feature: Developer Tools
+feature: Developer Tools, Content Fragments
 version: Cloud Service
 topic: Development
 role: Developer
 level: Beginner
-kt: 11649
+jira: KT-11649
 thumbnail: KT-11649.png
 doc-type: article
 last-substantial-update: 2023-01-04
@@ -16,15 +16,15 @@ exl-id: f3047f1d-1c46-4aee-9262-7aab35e9c4cb
 
 Learn how to generate an image using OpenAI or DALL.E 2 and upload it to AEM DAM for content velocity.
 
-![Digital image generation](./assets/digital-image-generation/screenshot.png){width="500" zoomable="yes"}
+>[!VIDEO](https://video.tv.adobe.com/v/3413093?quality=12&learn=on)
 
-This example AEM Content Fragment Console extension is an [action bar](../action-bar.md) extension that generates digital image from natural language input using [OpenAI API](https://openai.com/api/) or [DALL.E 2](https://openai.com/dall-e-2/). The generated image is uploaded to the AEM DAM and selected Content Fragment's image property is updated to refer this newly generated, uploaded image from DAM.
+This example AEM Content Fragment Console extension is an [action bar](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/api/action-bar/) extension that generates digital image from natural language input using [OpenAI API](https://openai.com/api/) or [DALL.E 2](https://openai.com/dall-e-2/). The generated image is uploaded to the AEM DAM and selected Content Fragment's image property is updated to refer this newly generated, uploaded image from DAM.
 
 In this example you learn:
 
 1. Image generation using [OpenAI API](https://beta.openai.com/docs/guides/images/image-generation-beta) or [DALL.E 2](https://openai.com/dall-e-2/)
-1. Uploading images to AEM
-1. Content Fragment property update
+2. Uploading images to AEM
+3. Content Fragment property update
 
 The functional flow of the example extension is as follows:
 
@@ -41,30 +41,33 @@ The functional flow of the example extension is as follows:
 1. The AEM as a Cloud Service saves image to the DAM and returns success or failure responses to the Adobe I/O Runtime action. The successful upload response updates the selected Content Fragment's image property value using another HTTP request to AEM from the Adobe I/O Runtime action.
 1. The modal receives the response from the Adobe I/O Runtime action, and provides AEM asset details link of the newly generated, uploaded image.
 
-This video reviews the example image generation using OpenAI or DALL.E 2 extension, how it works and how it is developed. The video has chapter markings such as __Functional Demo, Setup, and Tech-Code__ to watch the relevant piece quickly.
+## Extension point
 
->[!VIDEO](https://video.tv.adobe.com/v/3413093?quality=12&learn=on)
+This example extends to extension point `actionBar` to add custom button to the Content Fragment Console.
 
+| AEM UI extended | Extension point |
+| ------------------------ | --------------------- | 
+| [Content Fragment Console](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/) | [Action Bar](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/api/action-bar/) | 
 
-## The App Builder extension app
+## Example extension
 
 The example uses an existing Adobe Developer Console project, and the following options when initializing the App Builder app via `aio app init`.
 
 +   What templates do you want to search for?: `All Extension Points`
 +   Choose the template(s) to install:` @adobe/aem-cf-admin-ui-ext-tpl`
 +   What do you want to name your extension?: `Image generation`
-+   Please provide a short description of your extension: `An example action bar extension that generates an image using OpenAI and uploads it to AEM DAM.`
++   Provide a short description of your extension: `An example action bar extension that generates an image using OpenAI and uploads it to AEM DAM.`
 +   What version would you like to start with?: `0.0.1`
 +   What would you like to do next?
     +   `Add a custom button to Action Bar`
-        + Please provide label name for the button: `Generate Image`
-        + Do you need to show a modal for the button? `y`
+        + Provide label name for the button: `Generate Image`
+        + Do you must show a modal for the button? `y`
     +   `Add server-side handler`
         + Adobe I/O Runtime lets you invoke serverless code on demand. How would you like to name this action?: `generate-image`
 
 The generated App Builder extension app is updated as described below.
 
-## Additional setup
+### Initial setup
 
 1.  Sign up for a free [OpenAI API](https://openai.com/api/) account and create an [API key](https://beta.openai.com/account/api-keys)
 1.  Add this key to your App Builder project's `.env` file
@@ -111,7 +114,7 @@ The generated App Builder extension app is updated as described below.
 >In the following sections, you learn about the key React and Adobe I/O Runtime action JavaScript files. For your reference the key files from `web-src` and  `actions` folder of the AppBuilder project are provided, see [adobe-appbuilder-cfc-ext-image-generation-code.zip](./assets/digital-image-generation/adobe-appbuilder-cfc-ext-image-generation-code.zip). 
 
 
-## App routes{#app-routes}
+### App routes{#app-routes}
 
 The `src/aem-cf-console-admin-1/web-src/src/components/App.js` contains the [React router](https://reactrouter.com/en/main). 
 
@@ -134,7 +137,7 @@ There are two logical sets of routes:
         />
     ```
 
-## Extension registration
+### Extension registration
 
 `ExtensionRegistration.js`, mapped to the `index.html` route, is the entry point for the AEM extension and defines:
 
@@ -188,7 +191,7 @@ function ExtensionRegistration() {
   init().catch(console.error)
 ```
 
-## Modal
+### Modal
 
 Each route of the extension, as defined in [`App.js`](#app-routes), maps to a React component that renders in the extension's modal. 
 
@@ -403,7 +406,7 @@ export default function GenerateImageModal() {
    * This function calls the supporting Adobe I/O Runtime actions such as
    * - Call the Generative AI service (DALL.E) with 'image description' to generate an image
    * - Download the AI generated image to App Builder runtime
-   * - Save the downloaded image to AEM DAM and update Content Fragement's image reference property to use this new image
+   * - Save the downloaded image to AEM DAM and update Content Fragment's image reference property to use this new image
    *
    * When invoking the Adobe I/O Runtime actions, the following parameters are passed as they're used by the action to connect to AEM:
    * - AEM Host to connect to
@@ -463,10 +466,10 @@ export default function GenerateImageModal() {
 
 >[!NOTE]
 >
->In the `buildAssetDetailsURL()` function, the `aemAssetdetailsURL` variable value assumes that the [Unified Shell](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/aem-cloud-service-on-unified-shell.html#overview) is enabled. If you have disabled the Unified Shell, you need to remove the `/ui#/aem` from the variable value.
+>In the `buildAssetDetailsURL()` function, the `aemAssetdetailsURL` variable value assumes that the [Unified Shell](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/aem-cloud-service-on-unified-shell.html#overview) is enabled. If you have disabled the Unified Shell, you must remove the `/ui#/aem` from the variable value.
 
 
-## Adobe I/O Runtime action
+### Adobe I/O Runtime action
 
 An AEM extension App Builder app can define or use 0 or many Adobe I/O Runtime actions. 
 Adobe Runtime action is responsible for work that requires interacting with AEM or Adobe or third-party web services.
@@ -479,7 +482,7 @@ In this example app, the `generate-image` Adobe I/O Runtime action is responsibl
 1. Returning the key information of successes and failure for display by the modal (`GenerateImageModal.js`)
 
 
-### The orchestrator - `index.js`
+#### Entry point (`index.js`)
 
 The `index.js` orchestrates above 1 to 3 tasks by using the respective JavaScript modules, namely `generate-image-using-openai, upload-generated-image-to-aem, update-content-fragement`. These modules and associated code is described in the next [subsections](#image-generation-module---generate-image-using-openaijs).
 
@@ -573,11 +576,9 @@ async function main(params) {
 }
 
 exports.main = main;
-
 ```
 
-
-### Image generation module - `generate-image-using-openai.js`
+#### Image generation
 
 This module is responsible for calling OpenAI's [Image Generation](https://beta.openai.com/docs/guides/images/image-generation-beta) endpoint using [openai](https://github.com/openai/openai-node) library. To get the OpenAI API secrete key defined in the `.env` file, it uses `params.OPENAI_API_KEY`.
 
@@ -636,7 +637,7 @@ module.exports = {
 
 ```
 
-### Upload image to AEM module - `upload-generated-image-to-aem.js`
+#### Upload to AEM
 
 This module is responsible for uploading the OpenAI generated image to AEM using [AEM Upload](https://github.com/adobe/aem-upload) library. The generated image is first downloaded to the App Builder runtime using Node.js [File System](https://nodejs.org/api/fs.html) library and once upload to AEM is completed it is deleted. 
 
@@ -831,7 +832,7 @@ module.exports = {
 };
 ```
 
-### Update Content Fragment module - `update-content-fragement.js`
+#### Update Content Fragment
 
 This module is responsible for updating the given Content Fragment's image property with newly uploaded image's DAM path using the AEM Content Fragment API.
 

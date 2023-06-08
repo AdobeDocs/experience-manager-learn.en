@@ -1,6 +1,6 @@
 ---
-title: Deploy an AEM Content Fragment console extension
-description: Learn how to deploy an AEM Content Fragment console extension.
+title: Deploy an AEM UI extension
+description: Learn how to deploy an AEM UI extension.
 feature: Developer Tools
 version: Cloud Service
 topic: Development
@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
-last-substantial-update: 2022-12-01
+last-substantial-update: 2023-06-02
 exl-id: 2e37165d-c003-4206-8133-54e37ca35b8e
 ---
 # Deploy an extension
@@ -34,7 +34,7 @@ The deployment process split into two logical steps:
 1. Deployment of the extension App Builder app to Adobe Developer Console by a developer.
 1. Approval of the extension by a deployment manager or business owner.
 
-### Deploy the extension App Builder app
+### Deploy the extension
 
 Deploy the extension to the Production workspace. Extensions deployed to the Production workspace are automatically added to all AEM as a Cloud Service Author services in Adobe Org that the extension is deployed to.
 
@@ -65,9 +65,7 @@ Deploy the extension to the Production workspace. Extensions deployed to the Pro
 1. Select __Submit for approval__
 1. Complete and submit the form, updating the fields as needed.
 
-Please note an icon is required. If you do not have an icon, you can use [this icon](./assets/deploy/icon.png).
-
-### Approve the deployment request 
+### Deployment approval 
 
 ![Extension approval](./assets/deploy/adobe-exchange.png){align="center"}
 

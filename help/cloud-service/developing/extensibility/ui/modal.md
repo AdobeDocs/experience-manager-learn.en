@@ -1,6 +1,6 @@
 ---
-title: AEM Content Fragment console extension modal
-description: Learn how to create an AEM Content Fragment console extension modal.
+title: AEM UI extension modal
+description: Learn how to create an AEM UI extension modal.
 feature: Developer Tools
 version: Cloud Service
 topic: Development
@@ -8,16 +8,16 @@ role: Developer
 level: Beginner
 recommendations: noDisplay, noCatalog
 kt: 11603
-last-substantial-update: 2022-12-01
+last-substantial-update: 2023-06-02
 exl-id: e7376eaf-f7d7-48fe-9387-a0e4089806c2
 ---
 # Extension modal
 
-![AEM Content Fragment extension modal](./assets/modal/modal.png){align="center"}
+![AEM UI extension modal](./assets/modal/modal.png){align="center"}
 
-AEM Content Fragment extension modal provide a way to attach custom UI to the AEM Content Fragment extensions, be it [Action Bar](./action-bar.md) or [Header Menu](./header-menu.md) buttons. 
+AEM UI extension modal provide a way to attach custom UI to AEM UI extensions.
 
-Modals are React applications, based on [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/), and can create any custom UI required by the extension, including but not limited to:
+Modals are React applications, based on [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/), and can create any custom UI required by the extension, including, but not limited to:
 
 + Confirmation dialogs
 + [Input forms](https://react-spectrum.adobe.com/react-spectrum/#forms)
@@ -33,7 +33,7 @@ The modal experience is defined by the extension App Builder React app defined u
 At least one route is required to generate the initial modal view. This initial route is invoked in the [extension registration](#extension-registration)'s `onClick(..)` function, as shown below.
 
 
-+ `./src/aem-cf-console-admin-1/web-src/src/components/App.js`
++ `./src/aem-ui-extension/web-src/src/components/App.js`
 
 ```javascript
 import MyModal from './MyModal';
@@ -48,17 +48,19 @@ function App(props) {
           {/* 
             Define the entry route to the modal.
 
-            For modals opened from Action Bar extensions, typically a :selection parameter is used to pass in the list of selected Content Fragments.
-            Header Menu extensions do not use a selection parameter.
+            For modals opened from Action Bar extensions.
+            Depending on the extension point, different parameters are passed to the modal.
+            This example illustrates a modal for the AEM Content Fragment Console (list view), where typically a :selection parameter is used to pass in the list of selected Content Fragments.
+            Where as Header Menu extensions do not use a selection parameter.
            */}
           <Route
-            exact path="content-fragment/:selection/my-modal"
+            exact path="aem-ui-extension/:selection/my-modal"
             element={<MyModal />}
           />                    
 
           {/* Define any other routes the modal may need */}
           <Route
-            exact path="content-fragment/my-modal"
+            exact path="aem-ui-extension/my-modal"
             element={<MyOtherModalView />}
           />                    
 
@@ -79,16 +81,14 @@ To open a modal, a call to `guestConnection.host.modal.showUrl(..)` is made frm 
 
 It is imperative that the `url` passed to `guestConnection.host.modal.showUrl(..)` resolves to route in the extension, otherwise nothing displays in the modal.
 
-Review the [header menu](./header-menu.md#modal) and [action bar](./action-bar.md#modal) documentation for how to create modal URLs.
-
-+ `./src/aem-cf-console-admin-1/web-src/src/components/ExtensionRegistration.js`
++ `./src/aem-ui-extension/web-src/src/components/ExtensionRegistration.js`
 
 ```javascript
 function ExtensionRegistration() {
   ...
   onClick() {
     // Create a URL that maps to the React route to be rendered in the modal
-    const modalURL = "/index.html#/content-fragment/my-modal";
+    const modalURL = "/index.html#/aem-ui-extension/my-modal";
 
     // Open the modal and display the React route created above
     guestConnection.host.modal.showUrl({
@@ -108,7 +108,7 @@ A modal can be comprised of any number of React routes, from a simple one-route 
 
 The following illustrates a simple one-route modal, however this modal view could contain React links that invoke other routes or behaviors.
 
-+ `./src/aem-cf-console-admin-1/web-src/src/components/MyModal.js`
++ `./src/aem-ui-extension/web-src/src/components/MyModal.js`
 
 ```javascript
 import React, { useState, useEffect } from 'react'
@@ -178,7 +178,7 @@ export default function MyModal() {
 
 ## Close the modal
 
-![AEM Content Fragment extension modal close button](./assets/modal/close.png){align="center"}
+![AEM UI extension modal close button](./assets/modal/close.png){align="center"}
 
 Modals must provide their own close control. This done by invoking `guestConnection.host.modal.close()`.
 
