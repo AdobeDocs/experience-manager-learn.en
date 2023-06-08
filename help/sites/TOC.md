@@ -29,7 +29,7 @@ version: 6.4, 6.5, Cloud Service
   + [Style System](page-authoring/style-system-feature-video-use.md)
   + [Timewarp](page-authoring/timewarp-feature-video-use.md)
   + [Launches](page-authoring/launches.md)
-  + Expert Advice {#expert-advice}
+  + Learn From Your Peers {#expert-advice}
     + [Site Hierarchy Tips](page-authoring/expert-advice/site-hierarchy.md)
 + Components {#components}
   + [Component Development](components/component-development.md)
@@ -117,7 +117,7 @@ version: 6.4, 6.5, Cloud Service
     + [Create Target Activity using Experience Fragment Offers](integrations/adobe-target/create-target-activity.md)
     + [Personalization using Visual Experience Composer](integrations/adobe-target/personalization-using-vec.md)
     + [Personalization of full web page experience](integrations/adobe-target/personalization-web-page.md)
-+ Expert Resources {#expert-resources}
++ Learn From Your Peers {#expert-resources}
   + [AEM Sites Maturity Assessment](expert-resources/maturity-assessment.md)
   + [Site Maintenance](expert-resources/site-maintenance.md)
   + [AEM Champion Tips and Tricks: Session 1](expert-resources/champion-tips-1.md)

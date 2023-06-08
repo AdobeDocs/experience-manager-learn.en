@@ -4,6 +4,7 @@ seo-title: AEM Sites Maturity Assessment
 description: This checklist provides an overview of key questions you and your team should be answering when evaluating the maturity of your AEM Sites instance
 seo-description: This checklist provides an overview of key questions you and your team should be answering when evaluating the maturity of your AEM Sites instance
 audience: author, marketer, developer
+feature: Learn From Your Peers
 exl-id: 22164a0e-7239-43f4-8356-c12f68133255
 ---
 # Your AEM Sites Maturity Assessment Checklist
