@@ -69,7 +69,7 @@ The SDR document provides a comprehensive overview of the implementation plan, e
 
 For more information on concepts and various elements that should be included in the SDR document visit the [Create and maintain a Solution Design Reference (SDR) Document](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html). You can also download a sample Excel template, however WKND-specific version is also available [here](./assets/Initial-WKND-WebSDK-BRD-SDR.xlsx).
 
-## Setup Analytics - report suite, Analysis Workspace
+## Set up Analytics - report suite, Analysis Workspace
 
 The first step is to set up Adobe Analytics, specifically report suite with conversion variables (or eVar) and success events. The conversion variables are used to measure cause and effect. The success events are used to track actions. 
 
@@ -96,7 +96,7 @@ A Datastream instructs the Platform Edge Network where to send the collected dat
 
 The Experience Data Model (XDM) Schema helps you to standardize the collected data. In the [previous tutorial](./web-sdk.md), an XDM schema with `AEP Web SDK ExperienceEvent` a field group is created. Also, using this XDM schema a Dataset is created to store the collected data in the Experience Platform. 
 
-However, this XDM Schema does not have Adobe Analytics-specific field groups to send the eVar, event data. A new XDM schema is created instead of updating the existing schema to avoid storing the eVar, event data in the platform.
+However, that XDM Schema does not have Adobe Analytics-specific field groups to send the eVar, event data. A new XDM schema is created instead of updating the existing schema to avoid storing the eVar, event data in the platform.
 
 The newly created XDM schema has `AEP Web SDK ExperienceEvent` and `Adobe Analytics ExperienceEvent Full Extension` field groups.
 
