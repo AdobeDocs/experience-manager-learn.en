@@ -19,10 +19,12 @@ The following code snippet fetches the json of the adaptive form called **contac
 
 ``` javascript
 const getForm = async () => {
-        const resp = await fetch('/content/forms/af/contactus/jcr:content/guideContainer.model.json');
+        
+        const resp = await fetch('/adobe/forms/af/L2NvbnRlbnQvZm9ybXMvYWYvZmlyc3RoZWFkbGVzcw==');
+        // Get the form id manually using the listform api
         let formJSON = await resp.json();
-        console.log(formJSON);
-        setForm(formJSON);
+        console.log("The contact form json is "+formJSON);
+        setForm(formJSON.afModelDefinition)
       }
 ```
 
@@ -47,10 +49,10 @@ export default function Contact(){
       };
     const getForm = async () => {
         
-        const resp = await fetch('/content/forms/af/contactus/jcr:content/guideContainer.model.json');
+        const resp = await fetch('/adobe/forms/af/dor/L2NvbnRlbnQvZm9ybXMvYWYvcmlzaGk=');
         let formJSON = await resp.json();
-        console.log(formJSON);
-        setForm(formJSON);
+        setForm(formJSON.afModelDefinition)
+      
       }
       useEffect( ()=>{
         getForm();

@@ -45,15 +45,14 @@ const extendMappings =
         'button' : Button,
         'form': Form
     };
-    const[formPath, setFormPath] = useState('');
-    const [selectedForm, setForm] = useState('');
+   
     return (
         
             <Grid item xs={3}>
                 <Paper elevation={3}>
                     <img src="/content/dam/formsanddocuments/registrationform/jcr:content/renditions/cq5dam.thumbnail.48.48.png" className="img"/>
                     <Box padding={3}>
-                        <Link style={{ textDecoration: 'none' }} to={`/displayForm${headlessForm.path}`}>
+                        <Link style={{ textDecoration: 'none' }} to={`/displayForm${headlessForm.id}`}>
                             <Typography variant="subtititle2" component="h2">
                                 {headlessForm.title}
                             </Typography>
@@ -78,7 +77,7 @@ The following route was defined in the Main.js to navigate to DisplayForm.js
 
 ```javascript
 
-    <Route path="/displayForm/*" element={<DisplayForm/>} exact/>
+    <Route path="/displayForm/:formID" element={<DisplayForm/>} exact/>
 
 ```
 
