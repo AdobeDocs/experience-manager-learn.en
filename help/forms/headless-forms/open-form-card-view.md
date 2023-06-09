@@ -26,7 +26,6 @@ export default function DisplayForm()
 {
    const [selectedForm, setForm] = useState("");
    const params = useParams();
-   const pathParam = params["*"];
    const extendMappings =
     {
         'plain-text' : PlainText,
@@ -35,15 +34,14 @@ export default function DisplayForm()
         'form': Form
     };
     
-    // Add the leading '/' back on 
-   const path = '/' + pathParam;
+    
    const getAFForm = async () =>
     {
            
-        const resp = await fetch(`${path}/jcr:content/guideContainer.model.json`);
+        const resp = await fetch(`/adobe/forms/af/${params.formID}`);
         let formJSON = await resp.json();
         console.log("The contact form json is "+formJSON);
-        setForm(formJSON)
+        setForm(formJSON.afModelDefinition)
     }
     
     useEffect( ()=>{
@@ -57,13 +55,4 @@ export default function DisplayForm()
         </div>
     )
 }
-
-```
-
-In the above code the path of the form that is to be rendered is extracted from the url and used in the fetch call to fetch the JSON of the form. The fetched JSON is then in the following code
-
-```javascript
-        <div>
-           <AdaptiveForm mappings={extendMappings} formJson={selectedForm}/>
-        </div>
 ```
