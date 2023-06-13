@@ -26,7 +26,7 @@ This example extends to extension point `headerBar` to add custom button to the 
 
 | AEM UI extended | Extension point |
 | ------------------------ | --------------------- | 
-| [Content Fragment Console](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Header Menu](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/header-menu/) | 
+| [Content Fragment Editor](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Header Menu](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/header-menu/) | 
 
 ## Example extension
 
