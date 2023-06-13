@@ -14,12 +14,6 @@ exl-id: 60a3e18a-090f-4b0e-8ba0-d4afd30577dd
 ---
 # Personalize AEM Headless experiences with Content Fragments
 
->[!IMPORTANT]
->
-> Adobe Experience Manager Content Fragment export to Adobe Target is availabe in availabe in the AEM as a Cloud Service [prerelease channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features).
-
-
-
 This tutorial explores how AEM Content Fragments are exported to Adobe Target, and then used to personalize headless experiences using the Adobe Web SDK. The [React WKND App](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/how-to/example-apps/react-app.html) is used to explore how a personalized Target activity using Content Fragments Offers can be added to the experience, to promote a WKND adventure.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416585/?quality=12&learn=on)
