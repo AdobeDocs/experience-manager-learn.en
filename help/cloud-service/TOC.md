@@ -67,10 +67,11 @@ team: TM
       + Content Fragments{#content-fragments}
         + [Overview](./developing/extensibility/ui/content-fragments/overview.md)
         + Examples{#examples}
-          + [Bulk Property Update](./developing/extensibility/ui/content-fragments/examples/console-bulk-property-update.md)
           + [AI Image Generation](./developing/extensibility/ui/content-fragments/examples/console-image-generation-and-image-upload.md)
+          + [Bulk Property Update](./developing/extensibility/ui/content-fragments/examples/console-bulk-property-update.md)
           + [Custom Grid Columns](./developing/extensibility/ui/content-fragments/examples/custom-grid-columns.md)
           + [Export as XML](./developing/extensibility/ui/content-fragments/examples/editor-export-to-xml.md)
+          + [RTE Toolbar Button](./developing/extensibility/ui/content-fragments/examples/editor-rte-toolbar.md)
   + Development Basics{#basics}
     + [AEM SDK](./developing/basics/aem-sdk.md)
     + [Local Development Environment](./developing/basics/local-development-environment.md)
