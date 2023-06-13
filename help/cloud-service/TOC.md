@@ -72,6 +72,7 @@ team: TM
           + [Custom Grid Columns](./developing/extensibility/ui/content-fragments/examples/custom-grid-columns.md)
           + [Export as XML](./developing/extensibility/ui/content-fragments/examples/editor-export-to-xml.md)
           + [RTE Toolbar Button](./developing/extensibility/ui/content-fragments/examples/editor-rte-toolbar.md)
+          + [RTE Widget](./developing/extensibility/ui/content-fragments/examples/editor-rte-widget.md)
   + Development Basics{#basics}
     + [AEM SDK](./developing/basics/aem-sdk.md)
     + [Local Development Environment](./developing/basics/local-development-environment.md)
