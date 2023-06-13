@@ -267,4 +267,24 @@ Welcome to a collection of AEM UI extensibility code examples! This resource is 
       </div>
     </div>
   </div>    
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Rich Text Editor toolbar button">
+    <div class="card" style="height: 100%">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <a href="./examples/editor-rte-toolbar.md" title="Rich Text Editor toolbar button" tabindex="-1">
+            <img class="is-bordered-r-small" src="./examples/assets/rte-toolbar/card.png" alt="Rich Text Editor toolbar button">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small">
+        <div class="content">
+          <p class="headline is-size-6 has-text-weight-bold"><a href="./examples/editor-rte-toolbar.md" title="Rich Text Editor toolbar button">Rich Text Editor toolbar button</a></p>
+          <p class="is-size-6">Add custom toolbar buttons to RTE fields in the Content Fragment Editor.</p>
+          <a href="./examples/editor-rte-toolbar.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
+            <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View the example</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>   
 </div>
