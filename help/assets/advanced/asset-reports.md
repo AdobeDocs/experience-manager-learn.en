@@ -18,6 +18,6 @@ AEM Assets provides an enterprise level reporting framework that scales for larg
 >[!VIDEO](https://video.tv.adobe.com/v/22140?quality=12&learn=on)
 
 
->[!ADMINISTRATION]
+>[!IMPORTANT]
 >
 >AEM 6.5 provides the capability to configure [asset reports](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/asset-reports.html#prerequisite-for-reporting), allowing administrators to define what is tracked and included in the reports.
