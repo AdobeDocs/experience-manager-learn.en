@@ -37,3 +37,7 @@ Project structure with fonts module
 
 Fonts module included in the projects POM
 ![fonts-pom](assets/fonts-module-pom.png)
+
+## Next Steps
+
+[Setup Git](./setup-git.md)

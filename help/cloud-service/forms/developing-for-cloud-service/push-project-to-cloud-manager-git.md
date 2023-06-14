@@ -40,3 +40,7 @@ git push -f bankingapp master:"MyFirstAF"
 ```
 
 In the above command we are pushing our master branch from our local git repository into the MyFirstAF branch of the cloud manager repository identified by the bankingapp friendly name.
+
+## Next Steps
+
+[Deploy the project to development environment](./deploy-to-dev-environment.md)

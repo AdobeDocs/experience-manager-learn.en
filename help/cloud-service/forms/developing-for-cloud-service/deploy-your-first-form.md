@@ -22,3 +22,7 @@ Create two folders called(FormTemplates and BankingApplication).Feel free to add
 To sync these assets into your AEM project using IntelliJ and Repo tool, please watch the following video
 
 >[!VIDEO](https://video.tv.adobe.com/v/336937?quality=12&learn=on)
+
+## Next Steps
+
+[Create Custom Submit Handler](./custom-submit-to-servlet.md)

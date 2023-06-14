@@ -79,3 +79,7 @@ Replace the contents in the `.content.xml` with the following XML:
 ```
 
 Once your project is deployed you should be able to use these components in your AEM page to create Forms portal.
+
+## Next Steps
+
+[Include cloud services configuration](./azure-storage-fdm.md)

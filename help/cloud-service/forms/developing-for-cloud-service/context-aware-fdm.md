@@ -64,3 +64,7 @@ Copy the following text into the file you created in the previous step. The code
  ![cloud-config-property](assets/cloud-config-properties.png)
 
 For REST based cloud configuration's with basic authentication you will typically want to create environment variables for serviceEndPoint, userName, and password properties.
+
+## Next Steps
+
+[Push your AEM project to cloud manager](./push-project-to-cloud-manager-git.md)

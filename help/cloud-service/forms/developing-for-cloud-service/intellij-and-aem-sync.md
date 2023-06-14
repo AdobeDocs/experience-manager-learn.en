@@ -20,7 +20,7 @@ Install [Cygwin](https://www.cygwin.com/). I have installed in C:\cygwin64 folde
 
 Create a folder called adoberepo under the c:\cloudmanager. 
 
-[Install the repo tool].(https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo).Installing the repo tool is nothing but copying the repo file and placing it in your c:\cloudmanger\adoberepo folder.
+[Install the repo tool](https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo) Installing the repo tool is nothing but copying the repo file and placing it in your c:\cloudmanger\adoberepo folder.
 
 Add the following to the Path environment variable C:\cygwin64\bin;C:\CloudManager\adoberepo;
 
@@ -84,3 +84,7 @@ enter the following command java -jar aem-author-p4502.jar -gui. This will start
 * Copy the aem-forms-addon-xxxxxx.far into install folder
 * Open command prompt and navigate to c:\aemformscs\aem-sdk\author
 enter the following command java -jar aem-author-p4502.jar -gui. This will deploy the forms add on package in your AEM instance.
+
+## Next Steps
+
+[Sync your AEM forms and templates with AEM project](./deploy-your-first-form.md)
