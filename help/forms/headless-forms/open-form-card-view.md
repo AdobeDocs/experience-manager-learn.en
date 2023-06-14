@@ -56,3 +56,7 @@ export default function DisplayForm()
     )
 }
 ```
+
+## Next Steps
+
+[Display thank you message on form submission](./display-thank-you-message.md)

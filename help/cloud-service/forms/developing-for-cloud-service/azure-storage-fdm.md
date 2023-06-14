@@ -41,3 +41,7 @@ Include the appropriate entry in the ui.content project's filter.xml
 >[!NOTE]
 >
 >Now when you build and deploy your project using cloud manager, you will have to re-enter your Azure access key in the cloud services configuration. To avoid re-entering the access key, it is recommended to create context aware configuration using the environment variables as explained in the [next article](./context-aware-fdm.md)
+
+## Next Steps
+
+[Create context aware configuration](./context-aware-fdm.md)

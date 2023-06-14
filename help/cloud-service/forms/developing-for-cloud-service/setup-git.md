@@ -90,3 +90,7 @@ Check if the remote repository is registered
 git remote -v
 
 ```
+
+## Next Steps
+
+[Sync AEM with AEM Project in IntelliJ](./intellij-and-aem-sync.md)

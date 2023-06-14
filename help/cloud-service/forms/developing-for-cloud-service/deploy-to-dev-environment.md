@@ -34,3 +34,7 @@ Run the pipeline
 ![run-pipeline](assets/run-pipeline.png)
 
 Once the code is deployed, you should see the changes in your cloud service instance of AEM Forms.
+
+## Next Steps
+
+[Updating maven archetype project](./updating-project-archetype.md)
