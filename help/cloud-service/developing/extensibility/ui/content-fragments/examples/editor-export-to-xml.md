@@ -10,8 +10,8 @@ jira: KT-13309
 thumbnail: KT-13309.jpg
 doc-type: article
 last-substantial-update: 2023-06-02
+exl-id: 5738b5ec-3b86-4eed-9d48-8318c748fd38
 ---
-
 # Export Content Fragment to XML
 
 ![Content Fragment Editor header menu extension example](./assets/export-to-xml/hero.png){align="center"}

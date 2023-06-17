@@ -7,7 +7,7 @@ kt: 13372
 topic: Development
 role: User
 level: Intermediate
-
+exl-id: e7cc7e22-9413-4820-9a52-d63ab29aff09
 ---
 # Displaying the form on card click
 

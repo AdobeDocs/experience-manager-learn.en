@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 kt: 8852
-
+exl-id: 832f7e82-3e03-4ac6-9c8b-e96f0efecd32
 ---
 # Create servlet to process the submitted data
 
@@ -57,8 +57,3 @@ You can now configure any Adaptive Form to submit to this custom submit handler 
 ## Next Steps
 
 [Enable Forms Portal Components](./forms-portal-components.md)
-
-
-
-
-

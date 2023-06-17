@@ -10,8 +10,8 @@ jira: KT-13465
 thumbnail: KT-13465.jpg
 doc-type: article
 last-substantial-update: 2023-06-12
+exl-id: be4c0a6a-5c1f-4408-9ac6-56b8f0653d42
 ---
-
 # Add widgets to Rich Text Editor (RTE)
 
 ![Content Fragment Editor widgets example](./assets/rte/rte-widget-hero.png){align="center"}
@@ -226,4 +226,3 @@ const DiscountCodes = () => {
 export default DiscountCodes;
 
 ```
-

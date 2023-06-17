@@ -7,10 +7,10 @@ topic: Development
 role: Developer
 level: Beginner
 recommendations: noDisplay
-thumbnail: 
+thumbnail: null
 last-substantial-update: 2023-06-02
+exl-id: 725df59e-ccb6-44f9-aacd-50eb1c480402
 ---
-
 # AEM UI extensibility
 
 Adobe Experience Manager (AEM) offers a powerful user interface (UI) for creating digital experiences. To customize and extend the UI, Adobe introduced App Builder. This tool empowers developers to enhance the user experience without complex coding using JavaScript and React.
