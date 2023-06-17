@@ -7,7 +7,7 @@ kt: 13490
 topic: Development
 role: User
 level: Intermediate
-
+exl-id: 162663db-c439-4258-9ba1-16cf0771171d
 ---
 # Display the configured thank you message
 
@@ -101,4 +101,3 @@ export default function Contact(){
 ```
 
 The above code uses native html components which are mapped to the components used in the adaptive form. For example we are mapping the text-input adaptive form component to TextField component. The native components used in the article [can be downloaded from here](./assets/native-components.zip)
-

@@ -10,8 +10,8 @@ jira: KT-13453
 thumbnail: KT-13453.jpeg
 doc-type: article
 last-substantial-update: 2023-06-07
+exl-id: 6b31e683-48b8-436f-94a1-82daa7f809d5
 ---
-
 # Custom grid columns
 
 ![Content Fragment Console custom grid column](./assets/custom-grid-columns/hero.png){align="center"}   

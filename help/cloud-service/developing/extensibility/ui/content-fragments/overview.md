@@ -10,6 +10,7 @@ recommendations: noDisplay
 kt: 11603
 thumbnail: KT-11603.png
 last-substantial-update: 2023-06-02
+exl-id: 4e3bb09c-8437-4f1d-bc88-a882a38e246c
 ---
 # AEM Content Fragments extensibility
 
