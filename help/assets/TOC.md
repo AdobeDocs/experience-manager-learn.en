@@ -44,6 +44,7 @@ team: TM
   + [Search Boost](./search-and-discovery/search-boost.md)
 
 + Advanced Capabilities{#advanced}
+  + [3D Assets](./advanced/3d-assets.md) 
   + [Annotations PDF Output](./advanced/customizing-annotations-pdf-output.md)
   + [Asset Insights](./advanced/asset-insights-launch-tutorial.md)
   + [Assets Reports](./advanced/asset-reports.md)
