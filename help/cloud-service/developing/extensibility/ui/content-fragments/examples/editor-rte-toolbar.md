@@ -14,7 +14,7 @@ exl-id: 2b72c282-bce8-4f2a-bce6-f2f31e96ec88
 ---
 # Add custom button to Rich Text Editor (RTE) toolbar
 
-![Content Fragment Editor toolbar extension example](./assets/rte/rte-toolbar-hero.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3420768?quality=12&learn=on)
 
 Custom buttons can be added to the **RTE toolbar** in the Content Fragment Editor using the `rte` extension point. This example shows how to add a custom button called _Add Tip_ to the RTE toolbar and modify the content within the RTE.
 
