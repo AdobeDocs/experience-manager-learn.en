@@ -14,7 +14,7 @@ exl-id: be4c0a6a-5c1f-4408-9ac6-56b8f0653d42
 ---
 # Add widgets to Rich Text Editor (RTE)
 
-![Content Fragment Editor widgets example](./assets/rte/rte-widget-hero.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3420822?quality=12&learn=on)
 
 To add the dynamic content in the Rich Text Editor (RTE), the **widgets** functionality can be used. The widgets help to integrate the simple or complex UI in the RTE and the UI can be created using the JS framework of your choice. They can be thought as dialogs that are opened by pressing `{` special key in the RTE.
 
