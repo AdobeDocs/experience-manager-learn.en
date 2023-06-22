@@ -14,7 +14,7 @@ last-substantial-update: 2023-06-12
 
 # Add badges to Rich Text Editor (RTE)
 
-![Content Fragment Editor badges example](./assets/rte/rte-badge-home.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3420831?quality=12&learn=on)
 
 [Rich Text Editor badge](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-badges/)  are extensions that make text in the Rich Text Editor (RTE) non-editable. This means that a badge declared as such can only be completely removed and cannot be partially edited. These badges also support special coloring within the RTE, clearly indicating to content authors that the text is a badge and therefore not editable. Additionally, they provide visual cues regarding the meaning of the badge text.
 
