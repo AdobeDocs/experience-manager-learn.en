@@ -64,7 +64,7 @@ Open the .gitignore file and add the following towards the bottom of the file an
 
 Select any project within your aem-banking-application project such as ui.content and right click and you should see repo option and under the repo option you will see the 4 commands that we added earlier.
 
-## Setup AEM Author Instance
+## Setup AEM Author Instance{#set-up-aem-author-instance}
 
 The following steps can be followed to quickly setup cloud ready instance on your local system.
 * [Download the latest AEM SDK](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)
