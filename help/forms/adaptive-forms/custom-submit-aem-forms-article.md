@@ -18,11 +18,15 @@ This article will walk you through the steps needed to create a custom submit ac
 * Login to  crx 
 * Create a node of type "sling  :folder " under apps. Let's call this node CustomSubmitHelpx.
 * Save the newly created node.
-* Add the following two properties to the newly created node
-* PropertyName       | Property Value  
-* guideComponentType | fd/af/components/guidesubmittype 
-* guideDataModel     | xfa,xsd,basic
-* jcr :description   | CustomSubmitHelpx
+* Add the following three properties to the newly created node
+
+| Property Name      | Property Value                   |
+|----------------    | ---------------------------------|
+| guideComponentType | fd/af/components/guidesubmittype |
+| guideDataModel     | xfa,xsd,basic                    |
+| jcr :description   | CustomSubmitHelpx                |
+
+
 * Save the changes
 * Create a new file called post.POST.jsp under the CustomSubmitHelpx node.When an adaptive form is submitted, this JSP is called. You can write the JSP code as per your requirement in this file. The following code forwards the request to the servlet.
 

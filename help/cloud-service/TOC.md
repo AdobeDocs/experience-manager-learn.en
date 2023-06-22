@@ -202,6 +202,10 @@ team: TM
         + [Configure assets panel](./forms/create-first-af/configure-assets-panel.md)
         + [Configure start panel](./forms/create-first-af/configure-start-panel.md)
         + [Add and Configure toolbar](./forms/create-first-af/add-configure-toolbar.md)
+    + Custom submit service with headless form{#custom-submit-headless-forms}
+        + [1 - Introduction](./forms/custom-submit-headless-forms/introduction.md)
+        + [2 - Create custom submit service](./forms/custom-submit-headless-forms/custom-submit-service.md)
+        + [3 - Display the response](./forms/custom-submit-headless-forms/handle-response-react-app.md)
     + AEM Forms and Analytics{#forms-and-analytics}
         + [Introduction](./forms/form-data-analytics/introduction.md)
         + [Create Data Elements](./forms/form-data-analytics/data-elements.md)
