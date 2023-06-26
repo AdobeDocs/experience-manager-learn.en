@@ -225,17 +225,17 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
         </div>
       </div>
     </div>
-     <!-- Reference management -->
+     <!-- References -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Reference management" tabindex="7">
+      aria-label="References" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./search/reference-management.md" title="Reference management"
+            <a href="./search/references.md" title="References"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3420950?format=jpeg"
-                alt="Reference management">
+                alt="References">
             </a>
           </figure>
         </div>
@@ -244,10 +244,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">2 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./search/reference-management.md" title="Language copies">Reference management</a>
+              <a href="./search/references.md" title="References">References</a>
             </p>
-            <p class="is-size-6">Manage Content Fragment references and relationships.</p>
-            <a href="./search/reference-management.md" class="spectrum-Button
+            <p class="is-size-6">Understand Content Fragment references and relationships.</p>
+            <a href="./search/references.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap

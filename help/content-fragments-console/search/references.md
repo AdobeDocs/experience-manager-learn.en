@@ -1,5 +1,5 @@
 ---
-title: Reference management - Content Fragments
+title: References - Content Fragments
 description: Learn how AEM's Content Fragment Console and Editor make it easy to manage referenced content.
 version: Cloud Service
 feature: Content Fragments
@@ -12,7 +12,7 @@ jira: KT-13556
 thumbnail: 3420950.jpeg
 ---
 
-# Reference management
+# References
 
 Learn how AEM's Content Fragment Console and Editor make it easy to understand and manage referenced content.
 
