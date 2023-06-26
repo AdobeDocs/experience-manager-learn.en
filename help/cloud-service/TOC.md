@@ -176,6 +176,7 @@ team: TM
     + [Asset Workflow Migration Tool](./migration/cloud-acceleration-manager/asset-workflow-migration-tool.md)
     + [Navigating the Cloud Acceleration Manager](./migration/cloud-acceleration-manager/navigating.md)
     + [Using the Cloud Acceleration Manager](./migration/cloud-acceleration-manager/using.md)
++ [Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/content-fragments-console/overview.html)
 + Forms{#forms}
     + Developing for Forms as a Cloud Service{#developing-for-cloud-service}
         + [1 - Getting started](./forms/developing-for-cloud-service/getting-started.md)
