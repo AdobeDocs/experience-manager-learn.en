@@ -19,6 +19,7 @@ team: TM
   + [Overview](./basics/content-fragments-console.md)
 + Search and discovery{#search}
   + [Fast filtering](search/fast-filtering.md)
+  + [Reference management](search/reference-management.md)
 + Editor{#editor}
   + [Language copies](editor/language-copies.md)
   + [New editor toggle](editor/new-editor-toggle.md)
