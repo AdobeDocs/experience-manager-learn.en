@@ -9,6 +9,7 @@ version: Cloud Service
 kt: 6352
 thumbnail: 6352-personalization-using-vec.jpg
 topic: Integrations
+feature: Integrations
 role: Developer
 level: Intermediate
 exl-id: becf2bed-0541-45e8-9ce2-f9fb023234e0

@@ -9,6 +9,7 @@ activity: setup
 kt: 5979
 thumbnail: 39090.jpg
 topic: Integrations
+feature: Integrations
 role: Developer
 level: Intermediate
 last-substantial-update: 2022-07-10

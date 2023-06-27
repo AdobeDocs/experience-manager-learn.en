@@ -3,6 +3,7 @@ title: Using Asset Templates with AEM Assets and InDesign Server
 description: AEM Assets Template lets marketers create, manage and deliver digital assets for digital and print. Creating marking brochures, business cards, flyers, ads and post cards are much easier with Assets Templates when integrated with InDesign server.
 version: 6.4, 6.5
 topic: Content Management
+feature: Templates
 role: User
 level: Beginner
 last-substantial-update: 2022-09-01

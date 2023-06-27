@@ -9,6 +9,7 @@ version: Cloud Service
 kt: 6131
 thumbnail: 41247.jpg
 topic: Integrations
+feature: Integrations
 role: Developer
 level: Intermediate
 exl-id: aa48ffef-1105-4d0d-b4b4-12ac5d2eea23

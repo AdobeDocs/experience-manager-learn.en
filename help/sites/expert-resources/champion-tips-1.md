@@ -4,6 +4,9 @@ seo-title: AEM Champion Tips and Tricks - Editable Templates 1
 description: Check out these quick tips for Editable Templates in AEM Sites by AEM Champion and expert, Greg Dimeris. Try them out in your instance today.
 seo-description: Check out these quick tips for Editable Templates in AEM Sites by AEM Champion and expert, Greg Dimeris. Try them out in your instance today.
 feature: Learn From Your Peers
+role: User
+level: Beginner, Intermediate
+topic: Content Management
 audience: author, marketer
 exl-id: d5967fb5-c151-478e-a554-41e235de3f83
 ---

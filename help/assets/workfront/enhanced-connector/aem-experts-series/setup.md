@@ -3,6 +3,7 @@ title: Initial setup and configuration of Workfront for AEM enhanced connector
 description: Learn how to set up and configure the Workfront for Experience Manager enhanced connector, unlocking the combined power of AEM Assets and Workfront.
 version: Cloud Service
 topic: Content Management, Integrations
+feature: Asset Management
 role: Admin, Architect, Developer
 level: Beginner
 kt: 9717

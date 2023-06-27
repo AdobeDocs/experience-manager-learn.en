@@ -6,6 +6,7 @@ doc-type: article
 kt: 9985
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
+level: Intermediate
 role: Developer
 exl-id: 790a33a9-b4f4-4568-8dfe-7e473a5b68b6
 ---

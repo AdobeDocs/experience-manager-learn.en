@@ -9,6 +9,7 @@ version: Cloud Service
 kt: 4642
 thumbnail: 32031.jpg
 topic: Architecture
+feature: OSGI
 role: Architect, Developer
 level: Beginner
 exl-id: 386b7d1f-d6aa-4c9f-95ae-d553aaeb9bf3

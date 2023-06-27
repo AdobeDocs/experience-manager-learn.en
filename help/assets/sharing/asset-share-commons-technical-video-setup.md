@@ -3,6 +3,7 @@ title: Set up Asset Share Commons on local AEM
 description: Materials for both the functional and technical understanding Assets Share Commons
 version: 6.4, 6.5
 topic: Content Management
+feature: Asset Distribution
 role: Developer
 level: Intermediate
 last-substantial-update: 2022-06-21

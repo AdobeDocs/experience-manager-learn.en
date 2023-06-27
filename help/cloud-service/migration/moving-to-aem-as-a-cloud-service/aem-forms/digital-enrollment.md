@@ -3,6 +3,7 @@ title: AEM Forms as a Cloud Service Digital Enrollment
 description: Learn how AEM Forms as a Cloud Service supports the Digital Enrollment use case.
 version: Cloud Service
 topic: Migration, Upgrade
+feature: Migration
 role: Developer
 level: Experienced
 kt: 8916

@@ -17,6 +17,7 @@ This tutorial will guide you through the steps needed to create an AEM Forms pro
 
 
 
+
 This tutorial will refer to this folder structure going forward.
 
 * [Install JDK 11](https://www.oracle.com/java/technologies/downloads/#java11-windows). I have downloaded jdk-11.0.6_windows-x64_bin.zip

@@ -3,6 +3,7 @@ title: Content Migration using Bulk Import Service
 description: Learn how AEM as a Cloud Services' Bulk Import Service can be used to import assets from non-AEM sources.
 version: Cloud Service
 topic: Migration, Upgrade
+feature: Migration
 role: Developer
 level: Experienced
 kt: 8918

@@ -3,6 +3,7 @@ title: AEM Forms as a Cloud Service
 description: Learn about use cases and features supported by AEM Forms as a Cloud Service.
 version: Cloud Service
 topic: Migration, Upgrade
+feature: Migration
 role: Developer
 level: Experienced
 kt: 8637

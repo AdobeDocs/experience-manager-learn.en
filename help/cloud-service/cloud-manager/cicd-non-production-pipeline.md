@@ -9,6 +9,7 @@ version: Cloud Service
 kt: 6873
 thumbnail: 26316.jpg
 topic: Architecture
+feature: Cloud Manager, CI-CD Pipeline
 role: Architect, Developer, Admin
 level: Beginner
 exl-id: b28805d3-bb2d-4f66-8daa-9a8eb7ecf0a1

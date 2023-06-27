@@ -7,6 +7,7 @@ doc-type: feature video
 activity: understand
 audience: all
 topic: Architecture
+feature: Cloud Manager
 role: Developer
 level: Beginner
 exl-id: d5d59ef5-9343-4ac2-9053-a010decdb9b6

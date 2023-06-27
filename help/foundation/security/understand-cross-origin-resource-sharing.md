@@ -4,6 +4,7 @@ description: Adobe Experience Manager's Cross-Origin Resource Sharing (CORS) fac
 version: 6.4, 6.5
 sub-product: Experience Manager, Experience Manager Sites
 topics: security, development, content-delivery
+feature: Security, APIs
 activity: understand
 audience: architect, developer
 doc-type: article

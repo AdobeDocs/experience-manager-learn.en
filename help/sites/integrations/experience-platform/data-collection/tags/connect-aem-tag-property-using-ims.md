@@ -9,6 +9,7 @@ activity: setup
 kt: 5981
 thumbnail: 38555.jpg
 topic: Integrations
+feature: Integrations
 role: Developer
 level: Intermediate
 exl-id: 92dbd185-bad4-4a4d-b979-0d8f5d47c54b

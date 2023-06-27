@@ -5,6 +5,7 @@ version: Cloud Service
 role: Developer
 level: Intermediate
 topic: Development
+feature: Carousel Banners
 index: y
 exl-id: 4816c688-abec-4bd5-9215-59c16d8fe65d
 ---

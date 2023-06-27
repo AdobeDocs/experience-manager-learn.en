@@ -9,6 +9,7 @@ version: Cloud Service
 kt: 6044
 thumbnail: 41244.jpg
 topic: Integrations
+feature: Integrations
 role: Admin
 level: Intermediate
 exl-id: dd6c17ae-8e08-4db3-95f9-081cc7dbd86e
