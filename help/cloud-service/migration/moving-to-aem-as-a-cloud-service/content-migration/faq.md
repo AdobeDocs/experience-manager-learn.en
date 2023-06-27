@@ -3,8 +3,8 @@ title: AEM as a Cloud Service content migration FAQ
 description: Get answers to frequently asked questions about content migration to AEM as a Cloud Service.
 version: Cloud Service
 doc-type: article
-feature: Migration
 topic: Migration
+feature: Migration
 role: Architect, Developer
 level: Beginner
 kt: 11200

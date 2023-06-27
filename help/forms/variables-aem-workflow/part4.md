@@ -3,6 +3,7 @@ title: Variables in AEM Workflow[Part4]
 description: Using variables of type XML, JSON, ArrayList, Document in an AEM workflow
 version: 6.5
 topic: Development
+feature: Adaptive Forms, Workflow
 role: Developer
 level: Beginner
 exl-id: 269e43f7-24cf-4786-9439-f51bfe91d39c

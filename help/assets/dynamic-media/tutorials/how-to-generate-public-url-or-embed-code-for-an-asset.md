@@ -5,6 +5,7 @@ role: Developer
 level: Intermediate
 version: Cloud Service
 topic: Development
+feature: Asset Distribution
 index: y
 exl-id: 2b526f92-17b4-4a69-9c1c-d8ca42334433
 ---

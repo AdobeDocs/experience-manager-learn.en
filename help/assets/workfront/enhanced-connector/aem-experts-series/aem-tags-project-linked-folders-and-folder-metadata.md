@@ -3,6 +3,7 @@ title: AEM Tags, project linked folders, and folder metadata for Workfront for A
 description: Learn how to drive AEM Tags use on assets via Workfront data, use project linked folders, and  Workfront data to AEM asset folder metadata schemas.
 version: Cloud Service
 topic: Content Management, Integrations
+feature: Asset Management
 role: Admin, Architect, Developer
 level: Beginner
 kt: 9720

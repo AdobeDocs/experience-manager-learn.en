@@ -1,8 +1,9 @@
 ---
 title: Your Routine Site Maintenance Guide
-seo-title: Your Routine Site Maintenance Guide
 description: Whether you're an admin, author, or developer, site maintenance touches every aspect of your AEM Sites instance. Use this guide to ensure your strategy is set up for success.
-seo-description: Whether you're an admin, author, or developer, site maintenance touches every aspect of your AEM Sites instance. Use this guide to ensure your strategy is set up for success.
+role: Admin
+level: Beginner, Intermediate
+topic: Administration
 audience: author, marketer, developer
 feature: Learn From Your Peers
 exl-id: 37ee3234-f91c-4f0a-b0b7-b9167e7847a9

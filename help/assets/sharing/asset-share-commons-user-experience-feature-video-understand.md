@@ -3,6 +3,7 @@ title: Understanding the User Experience of Asset Share Commons
 description: Materials for both the functional and technical understanding Assets Share Commons
 version: 6.4, 6.5
 topic: Content Management
+feature: Asset Distribution
 role: User
 level: Intermediate
 last-substantial-update: 2022-06-20

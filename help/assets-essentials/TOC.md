@@ -6,6 +6,7 @@ solution: Experience Manager, Experience Manager Assets
 sub-product: Experience Manager Assets
 version: Cloud Service
 feature-set: Experience Manager Assets
+feature: Assets Essentials 
 team: TM
 ---
 

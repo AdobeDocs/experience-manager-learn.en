@@ -7,6 +7,7 @@ role: Developer
 level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
+feature: Adaptive Forms, Integrations
 kt: 7148
 thumbnail: 331755.jpg
 exl-id: c0a875bd-55b6-4f63-a58d-eecb62ae703b

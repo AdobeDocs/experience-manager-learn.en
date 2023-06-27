@@ -3,6 +3,7 @@ title: Workfront for Experience Manager enhanced connector sessions
 description: Learn about the basics of the Adobe Workfront and Experience Manager Assets enhanced connector.
 version: Cloud Service
 topic: Content Management, Integrations
+feature: Asset Management
 role: Admin, User
 level: Beginner
 kt: 9754

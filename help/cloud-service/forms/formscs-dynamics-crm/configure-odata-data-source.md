@@ -5,7 +5,7 @@ type: Documentation
 role: Developer
 level: Beginner, Intermediate
 version: Cloud Service
-feature: Adaptive Forms
+feature: Adaptive Forms, Integrations
 topic: Development
 kt: 9839
 exl-id: de900e83-19aa-4404-a792-af2c6a58eeef

@@ -9,6 +9,7 @@ version: 6.4, 6.5, Cloud Service
 kt: 4630
 thumbnail: 32151.jpg
 topic: Content Management
+feature: Authoring
 role: User
 level: Beginner
 exl-id: cc659581-031d-4f2a-90c1-cf721e481689

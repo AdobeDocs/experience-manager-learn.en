@@ -6,6 +6,7 @@ role: Admin
 level: Intermediate
 version: 6.5
 topic: Administration
+feature: User and Groups
 index: y
 exl-id: 595252dd-a882-4faa-938b-7aeb5a383056
 ---

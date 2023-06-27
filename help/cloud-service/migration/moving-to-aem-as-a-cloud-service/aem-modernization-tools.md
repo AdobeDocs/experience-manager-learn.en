@@ -3,6 +3,7 @@ title: Using AEM Modernization Tools for moving to AEM as a Cloud Service
 description: Learn how AEM Modernization Tools are used to upgrade an existing AEM project and content to be AEM as a Cloud Service compatible.
 version: Cloud Service
 topic: Migration, Upgrade
+feature: Migration
 role: Developer
 level: Experienced
 kt: 8629

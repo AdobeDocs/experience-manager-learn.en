@@ -9,6 +9,7 @@ version: Cloud Service
 kt: 6845
 thumbnail: 26313.jpg
 topic: Architecture
+feature: Cloud Manager, Production Programs, Sandbox Programs
 role: Architect, Developer, Admin
 level: Beginner
 exl-id: 1dcbd6b5-3261-4cb1-ab20-d8812c0d070a
