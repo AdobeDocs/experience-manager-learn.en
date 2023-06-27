@@ -19,6 +19,7 @@ team: TM
   + [Managing](basics/managing.md)
   + [Using](basics/using.md)
   + [Creating content](basics/creating.md)
+  + [Quick access](basics/quick-access.md)
   + [Collaborating](basics/collaborating.md)
   + [Link sharing](basics/link-sharing.md)
 
