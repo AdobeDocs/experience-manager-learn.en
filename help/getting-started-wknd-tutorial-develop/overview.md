@@ -5,7 +5,7 @@ topics: development
 version: Cloud Service
 activity: develop
 audience: developer
-KT: 4132
+jira: KT-13565
 mini-toc-levels: 1
 index: y
 thumbnail: 30476.jpg
