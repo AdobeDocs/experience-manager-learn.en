@@ -37,7 +37,7 @@ Then, build and deploy it to the local AEM-SDK by running the following maven co
 
 ```
 $ cd aem-guides-wknd/
-$ mvn clean install -PautoInstallSinglePackage
+$ mvn clean package
 ```
 
 ## Deploy AEM artifacts using the AEM-RDE plugin
