@@ -101,7 +101,7 @@ The Service Credentials, a fully formed JSON object, are not the same as the JWT
 1.  The External Application uses information from the Service Credentials to construct a JWT Token
 1.  The JWT Token is sent to Adobe IMS to exchange for an access token
 1.  Adobe IMS returns an access token that can be used to access AEM as a Cloud Service
-    + Access tokens can have an expiration requested. It is best to keep the access token's life short, and refresh when needed. 
+    + Access tokens can not change an expiry time. 
 1.  The External Application makes HTTP requests to AEM as a Cloud Service, adding the access token as a Bearer token to the HTTP requests' Authorization header
 1.  AEM as a Cloud Service receives the HTTP request, authenticates the request, and performs the work requested by the HTTP request, and returns an HTTP response back to the External Application
 
