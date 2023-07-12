@@ -176,7 +176,22 @@ Generally, the same considerations for caching content at Dispatcher can be appl
 | No        | AEM Publish | Authenticated         | Avoid caching CORS headers on authenticated requests. This aligns to the common guidance of not caching authenticated requests, as it is difficult to determine how the authentication/authorization status of the requesting user will effect the delivered resource. |
 | Yes        | AEM Publish | Anonymous         | Anonymous requests cache-able at dispatcher can have their response headers cached as well, ensuring future CORS requests can access the cached content. Any CORS configuration change on AEM Publish **must** be followed by an invalidation of affected cached resources. Best practices dictate on code or configuration deployments the dispatcher cache is purged, as it's difficult to determine what cached content may be effected. |
 
-To allow the caching of CORS headers, add the following configuration to all supporting AEM Publish dispatcher.any files.
+### Allowing CORS request headers
+
+To allow the required [HTTP request headers to passthrough to AEM for processing](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#specifying-the-http-headers-to-pass-through-clientheaders), they must be allowed in the Disaptcher's `/clientheaders` configuration.
+
+```
+/clientheaders {
+   ...
+   "Origin"
+   "Access-Control-Request-Method"
+   "Access-Control-Request-Headers"
+}
+```
+
+### Caching CORS resposne headers
+ 
+To allow the caching and serving of CORS headers on cached content, add following [/cache /headers configuration](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers) to the AEM Publish `dispatcher.any` file.
 
 ```
 /publishfarm {
