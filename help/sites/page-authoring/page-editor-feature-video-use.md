@@ -29,6 +29,6 @@ See the [AEM documentation for a complete overview of Page Editor capabilities](
 
 ## Additional Resources {#additional-resources}
 
-* [AEM Page Editor documentation[(https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html)
+* [AEM Page Editor documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html)
 * [Editing page content documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-content.html)
 * [Sites authoring user guide](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)
