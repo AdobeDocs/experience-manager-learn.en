@@ -17,7 +17,7 @@ The onboarding playbook will help you take charge as a new administrator and dev
 
 >[!TIP]
 >
->Download the [onboarding playbook here.](./assets/AEM-Cloud-Manager-Onboarding-Playbook.xlsx)
+>Download the [onboarding playbook here.](./assets/Cloud-Manager-for-AEM-as-a-Cloud-Service.xlsx)
 
 Check out these tips from your fellow technical lead, Rakesh Pasupuleti. Rakesh is an Adobe Experience Manager champion, and he shares ideas about how to use the onboarding playbook.  
 
