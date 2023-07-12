@@ -90,7 +90,7 @@ Access-Control-Request-Method,Access-Control-Request-Headers]"
 
 ### Allowing CORS request headers
 
-To allow the required HTTP request headers to reach AEM for processing, they must be allowed in the Disaptcher's `/clientheaders` configuration.
+To allow the required [HTTP request headers to passthrough to AEM for processing](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#specifying-the-http-headers-to-pass-through-clientheaders), they must be allowed in the Disaptcher's `/clientheaders` configuration.
 
 ```
 /clientheaders {
@@ -103,7 +103,7 @@ To allow the required HTTP request headers to reach AEM for processing, they mus
 
 ### Caching CORS resposne headers
  
-To allow the caching and serving of CORS headers on cached content, add following [/clientheaders configuration](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#specifying-the-http-headers-to-pass-through-clientheaders) to all supporting AEM Publish `dispatcher.any` files.
+To allow the caching and serving of CORS headers on cached content, add following [/cache /headers configuration](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers) to the AEM Publish `dispatcher.any` file.
 
 ```
 /publishfarm {
