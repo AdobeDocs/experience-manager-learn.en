@@ -58,7 +58,7 @@ If no policy is configured at all, [!DNL CORS] requests will also not be answere
 #### [!UICONTROL Exposed Headers]
 
 * `"exposedheaders" <header>`
-* List of header parameters indicating request headers that browsers are allowed to access.
+* List of header parameters indicating response headers that browsers are allowed to access.
 
 #### [!UICONTROL Maximum Age]
 
