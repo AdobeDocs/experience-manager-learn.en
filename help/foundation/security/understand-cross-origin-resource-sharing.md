@@ -58,7 +58,7 @@ If no policy is configured at all, [!DNL CORS] requests will also not be answere
 #### [!UICONTROL Exposed Headers]
 
 * `"exposedheaders" <header>`
-* List of header parameters indicating response headers that browsers are allowed to access.
+* List of header parameters indicating response headers that browsers are allowed to access. For CORS requests (not pre-flight), if not empty these values are copied into the `Access-Control-Expose-Headers` response header. The values in the list (header names) are then made accessible to the browser; without it, those headers are not readable by the browser.
 
 #### [!UICONTROL Maximum Age]
 
@@ -68,7 +68,7 @@ If no policy is configured at all, [!DNL CORS] requests will also not be answere
 #### [!UICONTROL Supported Headers]
 
 * `"supportedheaders" <header>`
-* List of `header` parameters indicating which HTTP headers can be used when making the actual request.
+* List of `header` parameters indicating which HTTP request headers can be used when making the actual request.
 
 #### [!UICONTROL Allowed Methods]
 
@@ -92,8 +92,7 @@ Site 1 is a basic, anonymously accessible, read-only scenario where content is c
   ],
   "supportedmethods":[
     "GET",
-    "HEAD",
-    "OPTIONS"
+    "HEAD"
   ],
   "alloworigin":[
     "http://127.0.0.1:3000",
@@ -134,7 +133,6 @@ Site 2 is more complex and requires authorized and mutating (POST, PUT, DELETE) 
     "HEAD"
     "POST",
     "DELETE",
-    "OPTIONS",
     "PUT"
   ],
   "alloworigin":[
