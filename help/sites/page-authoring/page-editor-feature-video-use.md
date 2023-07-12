@@ -20,35 +20,15 @@ exl-id: b120fb79-729e-4155-ba10-e5f7bb07eefa
 
 AEM Site's Page Editor is a powerful tool for creating and editing web content. The Page Editor's tools and capabilities are accessed from the Page Editor's UI toolbar.
 
-The following video highlights the top features of the Page Editor.
+The following video highlights some of the top features of the Page Editor.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32011?quality=12&learn=on)
 
-Features of the Page editor include:
 
-* Drag and Drop of components and assets
-* Content Tree panel providing an index of all components on the page
-* Page information panel gives you access to additional information and quick actions for a content author
-  * Open properties
-  * Roll out page
-  * Start workflow
-  * Lock Page / Unlock page
-  * Publish / Unpublish a page
-  * Edit Template
-  * View as Published
-  * View in Admin
-  * Help
-* Addition of component icons and description to the component panel
-* Direct link to edit assets in the DAM
-* Emulator for inline content editing and quicker management of components on the responsive grid
-* Page Edit Modes
-  * Edit Mode
-  * Layout Mode
-  * Developer Mode
-* Autocomplete and keyword search for pathfinder form field
-* Workflow status bar for current page
+See the [AEM documentation for a complete overview of Page Editor capabilities](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html).
 
 ## Additional Resources {#additional-resources}
 
-* [Editing Page Content Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-content.html)
-* [Sites Authoring User Guide](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)
+* [AEM Page Editor documentation[(https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html)
+* [Editing page content documentation](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-content.html)
+* [Sites authoring user guide](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/home.html)
