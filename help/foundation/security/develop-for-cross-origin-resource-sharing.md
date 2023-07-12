@@ -88,26 +88,48 @@ Access-Control-Request-Method,Access-Control-Request-Headers]"
 
 ## Dispatcher configuration {#dispatcher-configuration}
 
+### Allowing CORS request headers
+
+To allow the required HTTP request headers to reach AEM for processing, they must be allowed in the Disaptcher's `/clientheaders` configuration.
+
+```
+/clientheaders {
+   ...
+   "Origin"
+   "Access-Control-Request-Method"
+   "Access-Control-Request-Headers"
+}
+```
+
+### Caching CORS resposne headers
+ 
 To allow the caching and serving of CORS headers on cached content, add following [/clientheaders configuration](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#specifying-the-http-headers-to-pass-through-clientheaders) to all supporting AEM Publish `dispatcher.any` files.
 
 ```
-/myfarm { 
-  ...
-  /clientheaders {
-      "Access-Control-Allow-Origin"
-      "Access-Control-Expose-Headers"
-      "Access-Control-Max-Age"
-      "Access-Control-Allow-Credentials"
-      "Access-Control-Allow-Methods"
-      "Access-Control-Allow-Headers"
-  }
-  ...
+/publishfarm {
+    ...
+    /cache {
+        ...
+        # CORS HTTP response headers
+        # https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#the_http_response_headers
+        /headers {
+            ...
+            "Access-Control-Allow-Origin"
+            "Access-Control-Expose-Headers"
+            "Access-Control-Max-Age"
+            "Access-Control-Allow-Credentials"
+            "Access-Control-Allow-Methods"
+            "Access-Control-Allow-Headers"
+        }
+    ...
+    }
+...
 }
 ```
 
 **Restart the web server application** after making changes to the `dispatcher.any` file.
 
-It is likely clearing the cache entirely is required to ensure headers are appropriately cached on the next request after a `/clientheaders` configuration update.
+It is likely clearing the cache entirely is required to ensure headers are appropriately cached on the next request after a `/cache /headers` configuration update.
 
 ## Supporting materials {#supporting-materials}
 
