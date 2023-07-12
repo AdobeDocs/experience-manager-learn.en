@@ -34,7 +34,7 @@ The AEM CORS OSGi configuration factory defines the allow criteria for accepting
 
 | Client connects to                   | AEM Author | AEM Publish   | AEM Preview   |
 |-------------------------------------:|:----------:|:-------------:|:-------------:|
-|Requires CORS OSGi configuration      | &#10004;   | &#10004;      | &#10004;      | 
+| Requires CORS OSGi configuration     | &#10004;   | &#10004;      | &#10004;      | 
 
 
 The example below defines an OSGi configuration for AEM Publish (`../config.publish/..`), but can be added to [any supported run mode folder](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html#runmode-resolution).
@@ -75,7 +75,6 @@ This example configuration supports use of AEM GraphQL persisted queries. To use
   "supportedmethods":[
     "GET",
     "HEAD",
-    "OPTIONS"
   ],
   "maxage:Integer": 1800,
   "supportscredentials": false,
