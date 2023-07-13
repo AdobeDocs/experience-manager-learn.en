@@ -47,7 +47,7 @@ Service Credentials, unlike Local Development Access Tokens, require a Technical
 Technical Accounts are created once, however the Private Keys uses to manage Service Credentials associated with the Technical Account can be managed over time. For example, new Private Key/Service Credentials must be generated prior to the current Private Key's expiration, to allow for uninterrupted access by a user of the Service Credentials.
 
 1.  Ensure you are logged in as a:
-    + __Adobe IMS Org's Administrator__
+    + __Adobe IMS Org's System Administrator__
     + Member of the __AEM Administrators__ IMS Product Profile on __AEM Author__
 1.  Log in to [Adobe Cloud Manager](https://my.cloudmanager.adobe.com)
 1.  Open the Program containing the AEM as a Cloud Service environment to integrate set up the Service Credentials for
