@@ -20,13 +20,20 @@ The following assets/configurations were deployed on a AEM Forms publish server.
 * [Deploy the DevelopingWithServiceUser bundle](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/developingwithserviceuser.zip)
 * Add the following entry in the Apache Sling Service User Mapper Service using the OSGi configMgr 
 **DevelopingWithServiceUser.core:getformsresourceresolver=fd-service**
-* [Sample React App code can be downloaded from here](assets/src.zip)
 
+## Deploy the sample react app
 
+* [Download the sample react app](assets/mult-step-form1.zip)
+* Unzip the contents of the react app in a new folder
+* Navigate to the folder and run the following commands
 
-The sample react app needs to be deployed on your local environment
+``` java
+npm install
+npm start
+```
 
-You will have to change the endpoint URL to match your environment. Open the EmergencyContact.js file and change the URL in the fetch method
+Open the EmergencyContact.js file and change the URL in the fetch method to match your environment.
+
 
 ```javascript
  const getWebForm=async()=>
@@ -43,6 +50,6 @@ You will have to change the endpoint URL to match your environment. Open the Eme
  
 ```
 
-To enable making POST calls to the AEM endpoint from your REACT app, you will need to specify the appropriate entires in the Allowed Origins field in Adobe Granite Cross-Origin Resource Sharing Policy configuration
+To enable making POST calls to the AEM endpoint from your REACT app, you will need to specify the appropriate entires in the Allowed Origins field in Adobe Granite Cross-Origin Resource Sharing Policy configuration.
 
 ![cors-setting](assets/cors-settings.png)
