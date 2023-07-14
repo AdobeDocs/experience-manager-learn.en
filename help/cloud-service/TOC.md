@@ -93,10 +93,11 @@ team: TM
     + [OSGi Configurations Basics](./developing/osgi-services/configurations.md)
     + [OSGi Configurations using OCD](./developing/osgi-services/configurations-ocd.md)
   + Advanced{#advanced}
-    + [Web-optimized image APIs](./developing/advanced/web-optimized-image-delivery-java-apis.md)
-    + [Service Users](./developing/advanced/service-users.md)
-    + [Custom namespaces](./developing/advanced/custom-namespaces.md)
     + [Caching Page Variants](./developing/advanced/variant-caching.md)    
+    + [CSRF Protection](./developing/advanced/csrf-protection.md)
+    + [Custom namespaces](./developing/advanced/custom-namespaces.md)
+    + [Service Users](./developing/advanced/service-users.md)
+    + [Web-optimized image APIs](./developing/advanced/web-optimized-image-delivery-java-apis.md)
   + Rapid Development Environment{#rde}
     + [Overview](./developing/rde/overview.md)
     + [How to setup](./developing/rde/how-to-setup.md)
