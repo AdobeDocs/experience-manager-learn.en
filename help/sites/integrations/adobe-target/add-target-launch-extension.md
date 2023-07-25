@@ -12,6 +12,8 @@ topic: Integrations
 feature: Integrations
 role: Developer
 level: Intermediate
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 exl-id: aa48ffef-1105-4d0d-b4b4-12ac5d2eea23
 ---
 # Add Target extension to a Launch Property {#adobe-target-extension}

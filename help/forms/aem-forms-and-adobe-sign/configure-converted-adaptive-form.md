@@ -7,6 +7,8 @@ kt: 6126
 topic: Development
 role: User
 level: Beginner
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: fba18118-0431-4edd-a5a6-0281e8c12979
 ---
 # Configure converted Adaptive Form
@@ -16,3 +18,8 @@ After you convert PDF form into Adaptive Form, you will typically need to make p
 The following video explains the steps needed to configure the form for in place signing experience
 
 >[!VIDEO](https://video.tv.adobe.com/v/39574?quality=12&learn=on)
+
+## Congratulations
+
+You have successfully configured the converted Adaptive Form to use Acrobat Sign integration for in place signing experience.
+

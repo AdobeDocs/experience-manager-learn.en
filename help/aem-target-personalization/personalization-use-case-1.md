@@ -7,6 +7,8 @@ feature: Experience Fragments
 topic: Personalization
 role: Developer
 level: Intermediate
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Sites 6.5" before-title="false"
 exl-id: 47446e2a-73d1-44ba-b233-fa1b7f16bc76
 ---
 # Personalization using AEM Experience Fragments and Adobe Target

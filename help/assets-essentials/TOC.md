@@ -32,6 +32,7 @@ team: TM
 + [Creative Cloud integration](integrations/creative-cloud.md)
 
 + Adobe Workfront integration{#workfront}
+  + [Overview](./integrations/workfront/overview.md)
   + [Configuring](./integrations/workfront/configure.md)
   + [Mapping metadata](./integrations/workfront/map-metadata.md)
   + [Sending documents and linking assets](./integrations/workfront/link-send.md)

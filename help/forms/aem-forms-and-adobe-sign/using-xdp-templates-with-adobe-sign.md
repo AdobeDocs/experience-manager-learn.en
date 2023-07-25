@@ -7,6 +7,8 @@ kt: 6143
 topic: Development
 role: Developer
 level: Beginner
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: faf0143a-0944-41fb-a211-0d83ae1978d4
 ---
 # Using XDP templates with AEM Forms and Acrobat Sign

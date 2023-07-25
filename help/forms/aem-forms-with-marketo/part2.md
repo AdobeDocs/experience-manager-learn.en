@@ -3,9 +3,11 @@ title: AEM Forms with Marketo(Part 2)
 description: Tutorial to integrate AEM Forms with Marketo using AEM Forms Form Data Model.
 feature: Adaptive Forms, Form Data Model
 version: 6.4,6.5
-topic: Development
+topic: Integrations, Development
 role: Developer
 level: Experienced
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: f8ba3d5c-0b9f-4eb7-8609-3e540341d5c2
 ---
 # Marketo Authentication Service
@@ -199,4 +201,3 @@ public class MarketoConfigurationService {
 ## Next Steps
 
 [Create RESTful service based data source](./part3.md)
-

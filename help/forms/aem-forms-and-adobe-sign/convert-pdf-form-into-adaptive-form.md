@@ -7,6 +7,8 @@ kt: 6115
 topic: Development
 role: User
 level: Beginner
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 9aab3eb0-03a5-4962-a2ff-d44a17dc140e
 ---
 # Convert PDF Form into Adaptive Form
@@ -16,3 +18,7 @@ AEM Forms Automated Forms Conversion service, powered by Adobe Sensei, automatic
 The following video explains the steps needed to convert PDF form into Adaptive Form using Automated Forms Conversion Service
 
 >[!VIDEO](https://video.tv.adobe.com/v/39495?quality=12&learn=on)
+
+## Next steps
+
+[Configure converted Adaptive Form](./configure-converted-adaptive-form.md)
