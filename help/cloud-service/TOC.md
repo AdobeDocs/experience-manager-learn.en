@@ -242,6 +242,15 @@ team: TM
         + [Store form data in Azure Storage](./forms/forms-cs-azure-portal/create-af.md)
         + [Prefill form](./forms/forms-cs-azure-portal/prefill-af-storage.md)
         + [Query submissions](./forms/forms-cs-azure-portal/query-submitted-data.md)
+    + Save and Resume form filling{#prefill-azure-storage}
+        + [1- Introduction](./forms/prefill-azure-storage/introduction.md)
+        + [2- Create Page component](./forms/prefill-azure-storage/page-component.md)
+        + [3- Create Adaptive Form template](./forms/prefill-azure-storage/associate-page-component.md)
+        + [4- Create Azure Storage integration](./forms/prefill-azure-storage/create-fdm.md)
+        + [5 - Create SendGrid integration](./forms/prefill-azure-storage/send-grid-fdm.md)
+        + [6 - Create the Adaptive Form](./forms/prefill-azure-storage/create-af.md)
+        + [7 - Deploy the sample assets](./forms/prefill-azure-storage/deploy-sample-assets.md)
+
     + Create Review Workflow{#create-aem-workflow}
         + [Externalizing workflow storage](./forms/create-aem-workflow/externalize-workflow.md)
         + [Create workflow model](./forms/create-aem-workflow/create-workflow.md)
