@@ -1,6 +1,6 @@
 ---
-title: Integrate Adobe Analytics using Platform Web SDK
-description: Learn the modern approach on how to integrate Adobe Experience Manager (AEM) and Adobe Analytics using Platform Web SDK. This tutorial guides you through collecting pageview and CTA click data to gain data insights in Adobe Analytics Workspace.
+title: Integrate AEM Sites and Adobe Analytics with Platform Web SDK
+description: Integrate AEM Sites and Adobe Analytics using the modern Platform Web SDK approach.
 version: Cloud Service
 feature: Integrations
 topic: Integrations, Architecture
@@ -10,9 +10,11 @@ doc-type: Tutorial
 last-substantial-update: 2023-05-25
 jira: KT-13328
 thumbnail: KT-13328.jpeg
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 exl-id: 9f54995f-4ce7-45f2-9021-6fdfe42ff89a
 ---
-# Integrate Adobe Analytics using Platform Web SDK
+# Integrate AEM Sites and Adobe Analytics with Platform Web SDK
 
 Learn the **modern approach** on how to integrate Adobe Experience Manager (AEM) and Adobe Analytics using the Platform Web SDK. This comprehensive tutorial guides you through the process of seamlessly collecting [WKND](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project) pageview and CTA click data. Gain valuable insights by visualizing the collected data in Adobe Analysis Workspace, where you can explore various metrics and dimensions. Also, explore the Platform Dataset to verify and analyze the data. Join us on this journey to harness the power of AEM and Adobe Analytics for data-driven decision-making.
 

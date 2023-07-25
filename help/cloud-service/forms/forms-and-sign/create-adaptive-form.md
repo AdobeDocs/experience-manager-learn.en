@@ -9,10 +9,11 @@ feature: Adaptive Forms
 topic: Development
 kt: 7431
 thumbnail: 332438.jpg
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 6bdfb841-3b7e-4c22-8907-a1b98df42ae5
 ---
 # Adaptive form with Acrobat Sign
-
 
 Create an adaptive form to use Acrobat Sign cloud Configuration
 

@@ -1,22 +1,24 @@
 ---
-title: Overview of AEM and Adobe Target
-description: Learn how to create and deliver personalized experience using Adobe Experience Manager as a Cloud Service and Adobe Target.
+title: Integrate AEM Sites and Adobe Target
+description: Learn how to integrate AEM Sites and Adobe Target to deliver personalized experiences.
 feature: Experience Fragments, Core Components, Adobe Client Data Layer
-topics: integrations, personalization, administration, development
 audience: all
 doc-type: feature video
-activity: use
 version: Cloud Service
 kt: 6043
 thumbnail: 41241.jpg
-topic: Integrations
+topic: Integrations, Personalization
 role: User
 level: Beginner
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 exl-id: 2bc6cd90-7b23-4dde-bb07-bca0de9fa509
 ---
-# AEM and Adobe Target
+# Integrate AEM Sites and Adobe Target
 
-Adobe Experience Manager (AEM) and Adobe Target are powerful solutions with complimentary capabilities than can be misconstrued as competing. Customers sometimes struggle with understanding how and when to use these products in conjunction to deliver personalized experience. To deliver optimized experience for every end user, different teams within your organization should work closely and define who does what.
+Learn how to integrate AEM Sites and Adobe Target to deliver personalized experiences.
+
+Adobe Experience Manager (AEM) and Adobe Target are powerful solutions with complementary capabilities, providing seamless integration to deliver personalized experiences. However, customers may face challenges in understanding how and when to use these products together effectively. To optimize the experience for every end user, it is essential for different teams within your organization to collaborate closely and define clear roles and responsibilities. By leveraging the integration between AEM and Adobe Target, your teams can work harmoniously to deliver exceptional personalized experiences.
 
 >[!VIDEO](https://video.tv.adobe.com/v/41241?quality=12&learn=on)
 

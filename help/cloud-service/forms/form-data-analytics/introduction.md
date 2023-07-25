@@ -1,30 +1,34 @@
 ---
-title: Report on submitted form data fields using Adobe Analytics
-description: Integrate AEM Forms CS with Adobe Analytics to report on form data fields
+title: Integrate AEM Forms with Adobe Analytics to report on form data fields
+description: Integrate AEM Forms as a Cloud Service with Adobe Analytics to report on form data fields
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
-topic: Development
+topic: Integrations, Development
 kt: 12557
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 369c563e-c847-438a-a783-bc6a9f81b77c
 ---
-# Report on form data field values and form field validation errors using Adobe Analytics
+# Integrate AEM Forms with Adobe Analytics to report on form data fields
 
-Learn how to implement analytics on your adaptive forms using Tags and Adobe Analytics. This example will guide you through the configuration and implementation steps to produce insightful reports about how visitors interact with your forms.
+Learn how to integrate AEM Forms as a Cloud Service with Adobe Analytics on your adaptive forms using Experience Platform tags. This example will guide you through the configuration and implementation steps to produce insightful reports about how visitors interact with your forms.
 
 ## Prerequisites
 
  To get the most out of this tutorial, recommended you meet the following prerequisites:
 
- * Some experience with AEM Forms CS
- * Access to Adobe Tags
+ * Some experience with AEM Forms as a Cloud Service
+ * Access to Experience Platform tags
  * Access to Adobe Analytics
-
-
 
 This tutorial uses a simple adaptive form built in AEM Forms and measures form submissions for state of residence values, as well as fields that generate validation errors.
 
 ![adaptive-form](assets/use-case.png)
+
+## Next steps
+
+[Create Data Elements](./data-elements.md)

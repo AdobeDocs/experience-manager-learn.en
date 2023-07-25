@@ -7,8 +7,10 @@ role: Developer
 level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
-topic: Development
+topic: Integrations, Development
 kt: 12557
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 9982e041-fff7-4be6-91c9-e322d2fd3e01
 ---
 # Define the rule
@@ -46,3 +48,7 @@ The Adobe Analytics - Set variables is configured as follows.
 ![form-submit-rule-set-variables](assets/form-submit-set-variable.png)
 
 When you're ready to test your Tags code,[publish your changes made to the tags](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/publishing-flow.html) using the publishing flow.
+
+## Next steps
+
+[Test the solution](./test.md)

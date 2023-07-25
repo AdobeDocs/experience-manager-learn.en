@@ -1,17 +1,19 @@
 ---
-title: Integrating Adobe Experience Manager with Adobe Target
-seo-title: An article covering different ways to integrate Adobe Experience Manager(AEM) with Adobe Target for delivering personalized content.
+title: Integrating AEM Sites with Adobe Target
+seo-title: An article covering different ways to integrate Adobe Experience Manager (AEM) Sites with Adobe Target for delivering personalized content.
 description: An article covering how to set up Adobe Experience Manager with Adobe Target for different scenarios.
 seo-description: An article covering how to set up Adobe Experience Manager with Adobe Target for different scenarios.
 feature: Experience Fragments
 topic: Personalization
 role: Developer
 level: Intermediate
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Sites 6.5" before-title="false"
 exl-id: 54a30cd9-d94a-4de5-82a1-69ab2263980d
 ---
-# Integrating Adobe Experience Manager with Adobe Target
+# Integrating AEM Sites with Adobe Target
 
-In this section, we will discuss how to set up Adobe Experience Manager with Adobe Target for different scenarios. Based on your scenario and organizational requirements.
+In this section, we will discuss how to set up Adobe Experience Manager Sites with Adobe Target for different scenarios. Based on your scenario and organizational requirements.
 
 * **Add Adobe Target JavaScript Library (required for all scenarios)**
     For sites hosted on AEM, you can add Target libraries to your site using, [Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html). Launch provides a simple way to deploy and manage all tags necessary to power relevant customer experiences.

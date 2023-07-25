@@ -7,6 +7,8 @@ kt: 6114
 topic: Development
 role: Admin
 level: Beginner
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 0715a2cc-c042-4ddc-85a1-7720f420351b
 ---
 # Automated Forms Conversion Service
@@ -32,3 +34,7 @@ You require the following to use the Automated Forms Conversion Service:
 * The video explains the steps needed to connect your local AEM Forms instance to Automated Forms Conversion service on Adobe Cloud.
 
 >[!VIDEO](https://video.tv.adobe.com/v/39493?quality=12&learn=on)
+
+## Next steps
+
+[Convert PDF Form into Adaptive Form](./convert-pdf-form-into-adaptive-form.md)
