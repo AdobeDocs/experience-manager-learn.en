@@ -16,7 +16,10 @@ exl-id: 5e423f2c-90d2-474f-8bdc-fa15ae976f18
 Auto-start workflows extend asset processing in AEM as a Cloud Service by automatically invoking custom workflow upon upload or re-processing once the asset processing is complete.
 
 >[!VIDEO](https://video.tv.adobe.com/v/37323?quality=12&learn=on)
-> `Notice`: Use Auto-start Workflows for customizing assets post-processing rather than using Workflow Launchers. Auto-start workflows are _only_ invoked once an asset is complete processing instead of launchers which may be invoked multiple times during asset processing.
+
+>[!NOTE]
+>
+>Use Auto-start Workflows for customizing assets post-processing rather than using Workflow Launchers. Auto-start workflows are _only_ invoked once an asset is complete processing instead of launchers which may be invoked multiple times during asset processing.
 
 ## Customizing the Post-Processing Workflow
 
@@ -31,7 +34,11 @@ To customize the Post-Processing workflow, copy the default Assets Cloud Post-Pr
     ![Changing the Name](assets/auto-start-workflow-change-name.png)
 6. Add the steps to meet your business requirements, in this case adding a task when assets are complete processing. Make sure that the last step of the workflow is always the _Workflow Complete_ step<br/>
     ![Add Workflow Steps](assets/auto-start-workflow-customize-steps.png)
-    > `Note`: Auto-start workflows run with every asset upload or reprocess so carefully consider the scaling implication of workflow steps, especially for bulk operations such as [Bulk Imports](../../cloud-service/migration/bulk-import.md) or migrations.
+    
+    >[!NOTE]
+    >
+    >Auto-start workflows run with every asset upload or reprocess so carefully consider the scaling implication of workflow steps, especially for bulk operations such as [Bulk Imports](../../cloud-service/migration/bulk-import.md) or migrations.
+
 7. Select the _Sync_ button to save your changes and synchronize the Workflow model
 
 ## Using a Custom Post-Processing Workflow
