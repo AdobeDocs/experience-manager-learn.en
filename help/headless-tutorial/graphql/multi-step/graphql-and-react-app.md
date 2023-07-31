@@ -20,7 +20,7 @@ A simple React app is used to query and display **Team** and **Person** content 
 
 ## Prerequisites
 
-It is assumed that the steps outlined in the previous parts of this multi-part tutorial have been completed, or [tutorial-solution-content.zip](assets/explore-graphql-api/tutorial-solution-content.zip) is installed on your AEM as a Cloud Service Author and Publish services.
+It is assumed that the steps outlined in the previous parts of this multi-part tutorial have been completed, or [basic-tutorial-solution.content.zip](assets/explore-graphql-api/basic-tutorial-solution.content.zip) is installed on your AEM as a Cloud Service Author and Publish services.
 
 _IDE screenshots in this chapter come from [Visual Studio Code](https://code.visualstudio.com/)_
 

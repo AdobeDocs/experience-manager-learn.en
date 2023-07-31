@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 kt: 10721
 thumbnail: KT-10721.jpg
-last-substantial-update: 2022-10-03
+last-substantial-update: 2023-05-10
 exl-id: 4f67bb37-416a-49d9-9d7b-06c3573909ca
 ---
 # Next.js App
@@ -29,7 +29,7 @@ The following tools should be installed locally:
 
 ## AEM requirements
 
-The Next.js app works with the following AEM deployment options. All deployments requires [WKND Shared v2.1.0+](https://github.com/adobe/aem-guides-wknd-shared/releases/latest) or [WKND Site v2.1.0+](https://github.com/adobe/aem-guides-wknd/releases/latest) to be installed on the AEM as a Cloud Service environment.
+The Next.js app works with the following AEM deployment options. All deployments requires [WKND Shared v3.0.0+](https://github.com/adobe/aem-guides-wknd-shared/releases/latest) or [WKND Site v3.0.0+](https://github.com/adobe/aem-guides-wknd/releases/latest) to be installed on the AEM as a Cloud Service environment.
 
 This example Next.js app is designed to connect to __AEM Publish__ service.
 
@@ -106,43 +106,73 @@ Following AEM Headless best practices, the Next.js app uses AEM GraphQL persiste
 + `wknd/adventures-all` persisted query, which returns all adventures in AEM with an abridged set of properties. This persisted query drives the initial view's adventure list.
 
 ```
-# Retrieves a list of all adventures
-{
-    adventureList {
-        items {
-            _path
-            slug
-            title
-            price
-            tripLength
-            primaryImage {
-                ... on ImageRef {
-                _path
-                mimeType
-                width
-                height
-                }
-            }
+# Retrieves a list of all Adventures
+#
+# Optional query variables:
+# - { "offset": 10 }
+# - { "limit": 5 }
+# - { 
+#    "imageFormat": "JPG",
+#    "imageWidth": 1600,
+#    "imageQuality": 90 
+#   }
+query ($offset: Int, $limit: Int, $sort: String, $imageFormat: AssetTransformFormat=JPG, $imageWidth: Int=1200, $imageQuality: Int=80) {
+  adventureList(
+    offset: $offset
+    limit: $limit
+    sort: $sort
+    _assetTransform: {
+      format: $imageFormat
+      width: $imageWidth
+      quality: $imageQuality
+      preferWebp: true
+  }) {
+    items {
+      _path
+      slug
+      title
+      activity
+      price
+      tripLength
+      primaryImage {
+        ... on ImageRef {
+          _path
+          _dynamicUrl
         }
+      }
     }
+  }
 }
 ```
 
 + `wknd/adventure-by-slug` persisted query, which returns a single adventure by `slug` (a custom property that uniquely identifies an adventure) with a complete set of properties. This persisted query powers the adventure detail views.
 
 ```
-# Retrieves an adventure Content Fragment based on it's slug
-# Example query variables: 
-# {"slug": "bali-surf-camp"} 
-# Technically returns an adventure list but since the the slug 
-# property is set to be unique in the CF Model, only a single CF is expected
+# Retrieves an Adventure Fragment based on it's unique slug.
+#
+# Required query variables:
+# - {"slug": "bali-surf-camp"}
+#
+# Optional query variables:
+# - { 
+#     "imageFormat": "JPG",
+#     "imageSeoName": "my-adventure",
+#     "imageWidth": 1600,
+#     "imageQuality": 90 
+#   }
+#  
+# This query returns an adventure list but since the the slug property is set to be unique in the Content Fragment Model, only a single Content Fragment is expected.
 
-query($slug: String!) {
-  adventureList(filter: {
-        slug: {
-          _expressions: [ { value: $slug } ]
-        }
-      }) {
+query ($slug: String!, $imageFormat:AssetTransformFormat=JPG, $imageSeoName: String, $imageWidth: Int=1200, $imageQuality: Int=80) {
+  adventureList(
+    filter: {slug: {_expressions: [{value: $slug}]}}
+    _assetTransform: {
+      format: $imageFormat
+      seoName: $imageSeoName
+      width: $imageWidth
+      quality: $imageQuality
+      preferWebp: true
+  }) {
     items {
       _path
       title
@@ -157,22 +187,22 @@ query($slug: String!) {
       primaryImage {
         ... on ImageRef {
           _path
-          mimeType
-          width
-          height
+          _dynamicUrl
         }
       }
       description {
         json
         plaintext
+        html
       }
       itinerary {
         json
         plaintext
+        html
       }
     }
     _references {
-      ...on AdventureModel {
+      ... on AdventureModel {
         _path
         slug
         title
@@ -213,9 +243,9 @@ async getAllAdventures() {
 
 // And so on, and so forth ... 
 
-async getAdventureSlugs() { ... }
+async getAdventureSlugs(queryVariables) { ... }
 
-async getAdventuresBySlug(slug) { ... }
+async getAdventuresBySlug(slug, queryVariables) { ... }
 ...
 ```
 
@@ -231,7 +261,7 @@ The Next.js app uses two pages to present the adventure data.
 
 +   `src/pages/adventures/[...slug].js` 
 
-    A [Next.js Dynamic Route](https://nextjs.org/docs/routing/dynamic-routes) that displays a single adventure's details. This dynamic route prefetches each adventure's data using [Next.js's getStaticProps()](https://nextjs.org/docs/basic-features/data-fetching/get-static-props) via a call to `getAdventureBySlug(..)` using the `slug` param passed in via the adventure selection on the `adventures/index.js` page.
+    A [Next.js Dynamic Route](https://nextjs.org/docs/routing/dynamic-routes) that displays a single adventure's details. This dynamic route prefetches each adventure's data using [Next.js's getStaticProps()](https://nextjs.org/docs/basic-features/data-fetching/get-static-props) via a call to `getAdventureBySlug(slug, queryVariables)` using the `slug` param passed in via the adventure selection on the `adventures/index.js` page, and `queryVariables` to control the image format, width, and quality.
 
     The dynamic route is able to pre-fetch the details for all adventures by using [Next.js's getStaticPaths()](https://nextjs.org/docs/basic-features/data-fetching/get-static-paths) and populating all possible route permutations based on the full list of adventures returned by the GraphQL query  `getAdventurePaths()`
 
