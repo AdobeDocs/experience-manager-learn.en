@@ -9,6 +9,7 @@ level: Beginner
 kt: 10797
 thumbnail: kt-10797.jpg
 last-substantial-update: 2023-05-10
+badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
 exl-id: 4f090809-753e-465c-9970-48cf0d1e4790
 ---
 # Web Component
