@@ -104,6 +104,7 @@ Following AEM Headless best practices, the iOS application uses AEM GraphQL pers
             primaryImage {
                 ... on ImageRef {
                 _dynamicUrl
+                _path
                 }
             }
         }
@@ -140,6 +141,7 @@ query($slug: String!) {
       primaryImage {
         ... on ImageRef {
           _dynamicUrl
+          _path
         }
       }
       description {
