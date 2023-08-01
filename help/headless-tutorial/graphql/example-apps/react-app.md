@@ -11,6 +11,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2023-05-10
 exl-id: b1ab2a13-8b0e-4d7f-82b5-78b1dda248ba
+badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
 ---
 # React App{#react-app}
 
@@ -31,7 +32,7 @@ The following tools should be installed locally:
 
 ## AEM requirements
 
-The React application works with the following AEM deployment options. All deployments requires the [WKND Site v2.0.0+](https://github.com/adobe/aem-guides-wknd/releases/latest) to be installed.
+The React application works with the following AEM deployment options. All deployments requires the [WKND Site v3.0.0+](https://github.com/adobe/aem-guides-wknd/releases/latest) to be installed.
 
 + [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html)
 + Local set up using [the AEM Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)
