@@ -8,6 +8,8 @@ role: Developer
 level: Beginner
 kt: 10797
 thumbnail: kt-10797.jpg
+last-substantial-update: 2023-05-10
+badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
 exl-id: 4f090809-753e-465c-9970-48cf0d1e4790
 ---
 # Web Component
@@ -22,7 +24,6 @@ View the [source code on GitHub](https://github.com/adobe/aem-guides-wknd-graphq
 
 The following tools should be installed locally:
 
-+ [JDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14) (if connecting to local AEM 6.5 or AEM SDK)
 + [Node.js v18](https://nodejs.org/en/)
 + [Git](https://git-scm.com/)
 
@@ -32,9 +33,9 @@ The Web Component works with the following AEM deployment options.
 
 + [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html)
 + Local set up using [the AEM Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)
-+ [AEM 6.5 SP13+ QuickStart](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=en#install-local-aem-instances)
+    + Requires [JDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14) (if connecting to local AEM 6.5 or AEM SDK)
 
-All deployments require the `tutorial-solution-content.zip` from the [Solution Files](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/multi-step/explore-graphql-api.html#solution-files) to be installed and necessary [Deployment Configurations](../deployment/web-component.md) are performed.
+This example app relies on [basic-tutorial-solution.content.zip](../multi-step/assets/explore-graphql-api/basic-tutorial-solution.content.zip) to be installed and the required [deployment configurations](../deployment/web-component.md) are in place.
 
 
 >[!IMPORTANT]
@@ -61,7 +62,7 @@ All deployments require the `tutorial-solution-content.zip` from the [Solution F
 
     ```plain
     # AEM Server namespace
-    aemHost=https://publish-p65804-e666805.adobeaemcloud.com
+    aemHost=https://publish-p123-e456.adobeaemcloud.com
 
     # AEM GraphQL API and Persisted Query Details
     graphqlAPIEndpoint=graphql/execute.json
@@ -98,7 +99,7 @@ A reusable Web Component (aka custom element) `<person-info>` is added to the `.
 
 ```html
     <person-info 
-        host="https://publish-p65804-e666805.adobeaemcloud.com"
+        host="https://publish-p123-e456.adobeaemcloud.com"
         query-param-value="John Doe">
     </person-info>
 ```
@@ -160,7 +161,8 @@ class PersonInfo extends HTMLElement {
         const personTemplateElement = document.getElementById('person-template');
         const templateContent = personTemplateElement.content;
         const personImgElement = templateContent.querySelector('.person_image');
-        personImgElement.setAttribute('src', host + person.profilePicture._path);
+        personImgElement.setAttribute('src',
+            host + (person.profilePicture._dynamicUrl || person.profilePicture._path));
         personImgElement.setAttribute('alt', person.fullName);
         ...
         this.shadowRoot.appendChild(templateContent.cloneNode(true));
@@ -180,5 +182,3 @@ class PersonInfo extends HTMLElement {
 This Web Component relies on an AEM-based CORS configuration running on the target AEM environment and assumes that the host page runs on `http://localhost:8080` in development mode and below is a sample CORS OSGi configuration for the local AEM Author service. 
 
 Please review [deployment configurations](../deployment/web-component.md) for respective AEM service. 
-
-![CORS configuration](assets/react-app/cross-origin-resource-sharing-configuration.png)

@@ -10,6 +10,8 @@ kt: 9733
 thumbnail: 340397.jpeg
 hidefromtoc: false
 last-substantial-update: 2022-09-02
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"
 exl-id: 7d44e1b7-7216-431d-b866-6adcc8673d53
 ---
 # Advanced settings and workflows

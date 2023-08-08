@@ -8,6 +8,7 @@ role: Developer
 level: Intermediate
 kt: 6296
 thumbnail: KT-6296.jpg
+badgeIntegration: label="Integration" type="positive"
 exl-id: ab051363-d3e8-4c07-b1fa-3a5d24757496
 ---
 # Track clicked component with Adobe Analytics

@@ -1,6 +1,6 @@
 ---
-title: Integrate Experience Platform Web SDK
-description: Learn how to integrate AEM as a Cloud Service with Experience Platform Web SDK. This foundational step is essential for integrating Adobe Experience Cloud products, such as Adobe Analytics, Target, or recent innovative products like Real-Time Customer Data Platform, Customer Journey Analytics, and  Journey Optimizer.
+title: Integrate AEM Sites and Experience Platform Web SDK
+description: Learn how to integrate AEM Sites as a Cloud Service with Experience Platform Web SDK. This foundational step is essential for integrating Adobe Experience Cloud products, such as Adobe Analytics, Target, or recent innovative products like Real-Time Customer Data Platform, Customer Journey Analytics, and  Journey Optimizer.
 version: Cloud Service
 feature: Integrations
 topic: Integrations, Architecture
@@ -10,9 +10,11 @@ doc-type: Tutorial
 last-substantial-update: 2023-04-26
 jira: KT-13156
 thumbnail: KT-13156.jpeg
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Sites as a Cloud Service" before-title="false"
 exl-id: b5182d35-ec38-4ffd-ae5a-ade2dd3f856d
 ---
-# Integrate Experience Platform Web SDK
+# Integrate AEM Sites and Experience Platform Web SDK
 
 Learn how to integrate AEM as a Cloud Service with Experience Platform [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). This foundational step is essential for integrating Adobe Experience Cloud products, such as Adobe Analytics, Target, or recent innovative products like Real-Time Customer Data Platform, Customer Journey Analytics, and Journey Optimizer.
 

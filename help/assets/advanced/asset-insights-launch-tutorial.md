@@ -7,6 +7,8 @@ topic: Integrations
 role: Developer
 level: Intermediate
 last-substantial-update: 2022-06-04
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"
 exl-id: 00125fe1-3bb9-4b1a-a83c-61c413403ae2
 ---
 # Set up Asset Insights with AEM Assets and Adobe Experience Platform Launch

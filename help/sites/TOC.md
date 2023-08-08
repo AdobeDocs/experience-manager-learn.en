@@ -118,6 +118,7 @@ version: 6.4, 6.5, Cloud Service
     + [Personalization using Visual Experience Composer](integrations/adobe-target/personalization-using-vec.md)
     + [Personalization of full web page experience](integrations/adobe-target/personalization-web-page.md)
 + Learn From Your Peers {#expert-resources}
+  + [Overview](expert-resources/learn-from-your-peers-overview.md)
   + [AEM Sites Maturity Assessment](expert-resources/maturity-assessment.md)
   + [Site Maintenance](expert-resources/site-maintenance.md)
   + [AEM Champion Tips and Tricks: Session 1](expert-resources/champion-tips-1.md)

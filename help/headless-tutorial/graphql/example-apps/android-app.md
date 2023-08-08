@@ -9,6 +9,8 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+last-substantial-update: 2023-05-10
+badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
 exl-id: 7873e263-b05a-4170-87a9-59e8b7c65faa
 ---
 # Android App
@@ -29,11 +31,9 @@ The following tools should be installed locally:
 
 ## AEM requirements
 
-The Android application works with the following AEM deployment options. All deployments requires the [WKND Site v2.0.0+](https://github.com/adobe/aem-guides-wknd/releases/latest) to be installed.
+The Android application works with the following AEM deployment options. All deployments requires the [WKND Site v3.0.0+](https://github.com/adobe/aem-guides-wknd/releases/latest) to be installed.
 
 + [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html)
-+ Local set up using [the AEM Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)
-+ [AEM 6.5 SP13+ QuickStart](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=en#install-local-aem-instances)
 
 The Android application is designed to connect to an __AEM Publish__ environment, however it can source content from AEM Author if authentication is provided in the Android application's configuration. 
 
@@ -49,7 +49,7 @@ The Android application is designed to connect to an __AEM Publish__ environment
 1. Modify the file `config.properties` at `app/src/main/assets/config.properties` and update `contentApi.endpoint` to match your target AEM environment:
     
     ```plain
-    contentApi.endpoint=http://10.0.2.2:4503
+    contentApi.endpoint=https://publish-p123-e456.adobeaemcloud.com
     ```
 
     __Basic authentication__
@@ -57,7 +57,7 @@ The Android application is designed to connect to an __AEM Publish__ environment
     The `contentApi.user` and `contentApi.password` authenticate a local AEM user with access to WKND GraphQL content.
 
     ```plain
-    contentApi.endpoint=http://10.0.2.2:4502
+    contentApi.endpoint=https://author-p123-e456.adobeaemcloud.com
     contentApi.user=admin
     contentApi.password=admin
     ```
@@ -68,9 +68,7 @@ The Android application is designed to connect to an __AEM Publish__ environment
 
 ### Connecting to AEM environments
 
-`10.0.2.2` is a [special alias IP](https://developer.android.com/studio/run/emulator-networking) for localhost when using the emulator making `10.0.2.2:4502` is equivalent to `localhost:4502`. If connecting to an AEM publish environment (recommended), no authorization is required and `contentAPi.user` and `contentApi.password` can be left blank. 
-
-If connecting to an AEM author environment [authorization](https://github.com/adobe/aem-headless-client-java#using-authorization) is required. By default the application is set up to use basic authentication with a username and password of `admin:admin`. The [AEMHeadlessClientBuilder](https://github.com/adobe/aem-headless-client-java/blob/main/client/src/main/java/com/adobe/aem/graphql/client/AEMHeadlessClientBuilder.java) provides the ability to use [token-based authentication](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html). To use token-based authentication update client builder in `AdventureLoader.java` and `AdventuresLoader.java`:
+If connecting to an AEM author environment [authorization](https://github.com/adobe/aem-headless-client-java#using-authorization) is required. The [AEMHeadlessClientBuilder](https://github.com/adobe/aem-headless-client-java/blob/main/client/src/main/java/com/adobe/aem/graphql/client/AEMHeadlessClientBuilder.java) provides the ability to use [token-based authentication](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html). To use token-based authentication update client builder in `AdventureLoader.java` and `AdventuresLoader.java`:
 
   ```java
   /* Comment out basicAuth
@@ -105,10 +103,8 @@ Following AEM Headless best practices, the iOS application uses AEM GraphQL pers
             tripLength
             primaryImage {
                 ... on ImageRef {
+                _dynamicUrl
                 _path
-                mimeType
-                width
-                height
                 }
             }
         }
@@ -144,10 +140,8 @@ query($slug: String!) {
       price
       primaryImage {
         ... on ImageRef {
+          _dynamicUrl
           _path
-          mimeType
-          width
-          height
         }
       }
       description {

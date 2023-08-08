@@ -9,6 +9,7 @@ level: Intermediate
 kt: 6409
 thumbnail: KT-6296.jpg
 exl-id: b5722fe2-93bf-4b25-8e08-4cb8206771cb
+badgeIntegration: label="Integration" type="positive"
 last-substantial-update: 2022-06-15
 ---
 # Analyze data with Analysis Workspace

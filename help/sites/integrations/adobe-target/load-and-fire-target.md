@@ -5,13 +5,14 @@ feature: Core Components, Adobe Client Data Layer
 topics: integrations, administration, development
 audience: administrator, developer
 doc-type: technical video
-activity: setup
 version: Cloud Service
 kt: 6133
 thumbnail: 41243.jpg
 topic: Integrations
 role: Developer
 level: Intermediate
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 exl-id: ec048414-2351-4e3d-b5f1-ade035c07897
 ---
 # Load and fire a Target call {#load-fire-target}

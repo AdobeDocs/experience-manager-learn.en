@@ -17,14 +17,18 @@ There are many ways in which AEM enables integration with an external database. 
 The first step is to download and deploy the appropriate [MySQL drivers](https://mvnrepository.com/artifact/mysql/mysql-connector-java) to AEM.
 Then, set the Sling Connection Pooled DataSource properties specific to your database. The following screenshot shows the settings used for this tutorial. The database schema is provided to you as part of this tutorial assets.
 
-![data-source](assets/data-source.JPG)
-
-
-* JDBC Driver Class: `com.mysql.cj.jdbc.Driver`
-* JDBC Connection URI: `jdbc:mysql://localhost:3306/aemformstutorial`
-
 >[!NOTE]
 >Please make sure you name your datasource `StoreAndRetrieveAfData` as this is the name used in the OSGi service.
+
+
+![data-source](assets/data-source.JPG)
+
+| Property Name       | Property Value                                                                     |   |
+|---------------------|------------------------------------------------------------------------------------|---|
+| Datasource name     | StoreAndRetrieveAfData                                                             |   |
+| JDBC drive class    | jdbc:mysql://localhost:3306/aemformstutorial                                       |   |
+| JDBC connection URI | jdbc:mysql://localhost:3306/aemformstutorial?serverTimezone=UTC&autoReconnect=true |   |
+|                     |                                                                                    |   |
 
 
 ## Create database

@@ -25,7 +25,7 @@ This sample uses MySQL database to store the adaptive form data. You will need t
 
 ## Create datasource
 
-You need to create a datasource called **StoreAndRetrieveAfData**. The code in the OSGi bundle use this datasource name
+You need to create a Apache Sling Connection Pooled DataSource called **StoreAndRetrieveAfData** pointing to the  database schema created in the earlier step. The code in the OSGi bundle uses this datasource name.
 
 ## Create Form Data Model
 
@@ -37,13 +37,13 @@ Create a developer account with [Nexmo](https://dashboard.nexmo.com/) for sendin
 
 ## Deploy the following OSGi bundles
 
-Deploy the bundle which has the [code to store and fetch data from database](assets/FetchPartiallyCompletedForm.PartiallyCompletedForm.core-1.0-SNAPSHOT.jar)
+Deploy the bundle which has the [code to store and fetch data from database](assets/SaveAndResume.core-1.0.0-SNAPSHOT.jar)
 Download and unzip the [developingwithserviceuser.zip](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/developingwithserviceuser.zip). 
 Deploy the DevelopingWithServiceUser.jar file using the Felix web console.
 
 ## Deploy the client library
 
-The sample uses 2 client libraries. Import these [client libraries](assets/client-libraries.zip) into AEM.
+The sample uses 2 client libraries. Import these [client libraries](assets/store-af-with-attachments-client-lib.zip) into AEM.
 
 ## Import the custom adaptive form template
 
@@ -53,7 +53,7 @@ The sample forms used in this demo are based on a custom template. Import the [c
 
 The 2 forms that make up this sample need to be imported into AEM. The sample forms can be [downloaded from here](assets/sample-forms.zip)
 
-Open the [MyAccountForm](http://localhost:4502/editor.html/content/forms/af/myaccountform.html) in edit mode. Specify the API Key and API Secret values in the appropriate fields in the adaptive form.
+Open the [MyAccountForm](http://localhost:4502/editor.html/content/forms/af/myaccountform.html) in edit mode. Specify the Vonage API Key and API Secret values  in the appropriate fields in the adaptive form.
 
 ## Test the solution
 
