@@ -10,6 +10,8 @@ feature: Adaptive Forms
 topic: Development
 kt: 7427
 thumbnail: 332436.jpg
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 1eb43bdc-2718-4724-a5b8-d0f22cf84418
 ---
 # Create Acrobat Sign API Application

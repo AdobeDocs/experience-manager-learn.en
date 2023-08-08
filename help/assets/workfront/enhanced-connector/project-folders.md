@@ -9,6 +9,8 @@ level: Beginner
 kt: 9127
 thumbnail: 337586.jpeg
 last-substantial-update: 2022-09-02
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"
 exl-id: 0e9d056a-4eec-450c-a941-b9563634fe8a
 ---
 # Workfront enhanced connector project folders

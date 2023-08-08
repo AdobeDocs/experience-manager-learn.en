@@ -4,7 +4,6 @@ description: Learn how to create an Adobe Target Activity using Visual Experienc
 topics: integrations, authoring, personalization, activity, offers
 audience: all
 doc-type: feature video
-activity: use
 version: Cloud Service
 kt: 6352
 thumbnail: 6352-personalization-using-vec.jpg
@@ -12,6 +11,8 @@ topic: Integrations
 feature: Integrations
 role: Developer
 level: Intermediate
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 exl-id: becf2bed-0541-45e8-9ce2-f9fb023234e0
 ---
 # Personalization using Visual Experience Composer {#personalization-vec}

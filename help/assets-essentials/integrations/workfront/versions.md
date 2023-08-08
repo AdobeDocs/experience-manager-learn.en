@@ -9,6 +9,8 @@ level: Beginner
 kt: 8221
 thumbnail: 336314.jpeg
 last-substantial-update: 2022-10-14
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Assets Essentials" before-title="false"
 exl-id: 42c0e51d-abb2-4445-98bd-65d813f580ca
 ---
 # Maintaining Version History

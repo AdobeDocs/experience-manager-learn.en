@@ -9,6 +9,8 @@ level: Beginner
 kt: 7910
 thumbnail: 336254.jpeg
 last-substantial-update: 2022-10-13
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Assets Essentials" before-title="false"
 exl-id: c3961fdf-b8aa-410d-9561-520a248ea5b0
 ---
 # Configuring the integration

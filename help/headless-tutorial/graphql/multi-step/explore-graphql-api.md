@@ -385,7 +385,7 @@ Upon review and verification, publish the `GraphQL Endpoint` & `Persisted Querie
 
 ## Solution Files {#solution-files}
 
-Download the content, models, and persisted queries created in the last three chapters: [tutorial-solution-content.zip](assets/explore-graphql-api/tutorial-solution-content.zip) 
+Download the content, models, and persisted queries created in the last three chapters: [basic-tutorial-solution.content.zip](assets/explore-graphql-api/basic-tutorial-solution.content.zip) 
 
 ## Additional Resources
 

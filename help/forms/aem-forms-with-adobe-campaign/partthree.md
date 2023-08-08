@@ -3,9 +3,11 @@ title: Prefilling Adaptive Form using ACS Profile
 description: Prefilling Adaptive Forms using ACS profile
 feature: Adaptive Forms, Form Data Model
 version: 6.4,6.5
-topic: Development
+topic: Integrations, Development
 role: Developer
 level: Experienced
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 502f4bdf-d4af-409f-a611-62b7a1a6065a
 ---
 # Prefilling Adaptive Form using ACS Profile {#prefilling-adaptive-form-using-acs-profile}

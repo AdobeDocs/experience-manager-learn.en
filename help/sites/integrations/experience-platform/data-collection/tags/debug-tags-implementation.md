@@ -12,6 +12,8 @@ topic: Integrations
 feature: Integrations
 role: Developer
 level: Intermediate
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 exl-id: 647447ca-3c29-4efe-bb3a-d3f53a936a2a
 ---
 # Debugging a Tags implementation {#debug-tags-implementation}

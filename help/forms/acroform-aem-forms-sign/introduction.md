@@ -6,7 +6,9 @@ topics: development
 audience: developer
 doc-type: tutorial
 activity: implement
-version: 6.4
+version: 6.5
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms 6.5" before-title="false"
 ---
 
 # Creating Adaptive Forms from Acroforms

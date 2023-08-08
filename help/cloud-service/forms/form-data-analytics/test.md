@@ -7,8 +7,10 @@ role: Developer
 level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
-topic: Development
+topic: Integrations, Development
 kt: 12557
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 43665a1e-4101-4b54-a6e0-d189e825073e
 ---
 # Test your solution
@@ -49,3 +51,7 @@ Interact with your form while keeping the console window open. You should see so
  Add the [AEP debugger extension](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) to your browser(you are required to sign in) to get more debugging information
 
 ![platform-debugger](assets/platform-debugger.png)
+
+## Congratulations
+
+You have successfully integrated AEM Forms as a Cloud Service with Adobe Analytics to report on form data fields.
