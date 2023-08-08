@@ -40,7 +40,7 @@ $(document).ready(function () {
             success: function (x) {
               bootbox.alert(
                 "This is your reference number.<br>" +
-                  x.data.path +
+                  x.data.applicationID +
                   " <br>You will need this to retrieve your application",
                 function () {
                   console.log(
@@ -64,7 +64,7 @@ $(document).ready(function () {
 >[!NOTE]
 > We have used [bootbox javascript library](http://bootboxjs.com/examples.html) to display dialog box
 
-The client libraries used in this sample can be [downloaded from here](assets/client-libraries.zip)
+The client libraries used in this sample can be [downloaded from here](assets/store-af-with-attachments-client-lib.zip)
 
 ## Next Steps
 
