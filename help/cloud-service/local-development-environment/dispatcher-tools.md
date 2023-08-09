@@ -67,9 +67,27 @@ The version of Dispatcher Tools is different from that of the AEM SDK. Ensure th
 1. Unzip the downloaded `aem-sdk-xxx.zip` file
 1. Unpack the Dispatcher Tools into `~/aem-sdk/dispatcher`
 
-+   Windows: Unzip `aem-sdk-dispatcher-tools-x.x.x-windows.zip` into `C:\Users\<My User>\aem-sdk\dispatcher` (creating missing folders as needed)
-+   macOS Linux&reg;: Execute the accompanying shell script `aem-sdk-dispatcher-tools-x.x.x-unix.sh` to unpack the Dispatcher Tools
-    + `chmod a+x aem-sdk-dispatcher-tools-x.x.x-unix.sh && ./aem-sdk-dispatcher-tools-x.x.x-unix.sh`
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+```shell
+$ chmod a+x aem-sdk-dispatcher-tools-x.x.x-unix.sh
+$ ./aem-sdk-dispatcher-tools-x.x.x-unix.sh
+```
+
+>[!TAB Windows]
+
+Unzip `aem-sdk-dispatcher-tools-x.x.x-windows.zip` into `C:\Users\<My User>\aem-sdk\dispatcher` (creating missing folders as needed).
+
+>[!TAB Linux]
+
+```shell
+$ chmod a+x aem-sdk-dispatcher-tools-x.x.x-unix.sh
+$ ./aem-sdk-dispatcher-tools-x.x.x-unix.sh
+```
+
+>[!ENDTABS]
 
 All commands issued below assume that the current working directory contains the expanding Dispatcher Tools contents.
 
@@ -92,17 +110,54 @@ A complete description of the configuration files is available in the unpacked D
 
 Optionally, the Dispatcher and Apache Web server configurations (via `httpd -t`) can be validated using the `validate` script (not to be confused with the `validator` executable). The `validate` script provides a convenient way of running the [three phases](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/content-delivery/validation-debug.html?lang=en) of the `validator`.
 
-+   Usage:
-    + Windows: `bin\validate src`
-    + macOS Linux&reg;: `./bin/validate.sh ./src`
+
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+```shell
+$ ./bin/validate.sh ./src
+```
+
+>[!TAB Windows]
+
+```shell
+$ bin\validate src
+```
+
+>[!TAB Linux]
+
+```shell
+$ ./bin/validate.sh ./src
+```
+
+>[!ENDTABS]
 
 ## Run Dispatcher locally
 
 AEM Dispatcher is run locally using Docker against the `src` Dispatcher and Apache Web server configuration files.
 
-+   Usage:
-    + Windows: `bin\docker_run <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>`
-    + macOS Linux&reg;: `./bin/docker_run.sh <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>`
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+```shell
+$ ./bin/docker_run.sh <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>
+```
+
+>[!TAB Windows]
+
+```shell
+$ bin\docker_run <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>
+```
+
+>[!TAB Linux]
+
+```shell
+$ ./bin/docker_run.sh <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>
+```
+
+>[!ENDTABS]
 
 The `<aem-publish-host>` can be set to `host.docker.internal`, a special DNS name Docker provides in the container that resolves to the host machine's IP. If the `host.docker.internal` does not resolve, please see the [troubleshooting](#troubleshooting-host-docker-internal) section below.
 
@@ -110,24 +165,54 @@ For example to start the Dispatcher Docker container using the default configura
 
 Start Dispatcher Docker container providing the path to the Dispatcher configuration src folder:
 
-+ Windows: `bin\docker_run src host.docker.internal:4503 8080`
-+ macOS Linux&reg;: `./bin/docker_run.sh ./src host.docker.internal:4503 8080`
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+```shell
+$ ./bin/docker_run.sh ./src host.docker.internal:4503 8080
+```
+
+>[!TAB Windows]
+
+```shell
+$ bin\docker_run src host.docker.internal:4503 8080
+```
+
+>[!TAB Linux]
+
+```shell
+$ ./bin/docker_run.sh ./src host.docker.internal:4503 8080
+```
+
+>[!ENDTABS]
 
 The AEM as a Cloud Service SDK 's Publish Service, running locally on port 4503 is available through Dispatcher at `http://localhost:8080`.
 
 To run Dispatcher Tools against an Experience Manager project's Dispatcher configuration, point to your project's `dispatcher/src` folder.
 
-+   Windows:
+>[!BEGINTABS]
 
-    ```shell
-    $ bin\docker_run <User Directory>/code/my-project/dispatcher/src host.docker.internal:4503 8080
-    ```
+>[!TAB macOS]
 
-+   macOS Linux&reg;:
+```shell
+$ ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
+```
 
-    ```shell
-    $ ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
-    ```
+>[!TAB Windows]
+
+```shell
+$ bin\docker_run <User Directory>/code/my-project/dispatcher/src host.docker.internal:4503 8080
+```
+
+>[!TAB Linux]
+
+```shell
+$ ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
+```
+
+>[!ENDTABS]
+
 
 ## Dispatcher Tools logs
 
@@ -147,17 +232,27 @@ Useful parameters for debugging Dispatcher include:
 
 One or many parameters, can be passed to `docker_run`
 
-+   Windows:
+>[!BEGINTABS]
 
-  ```shell
-  $ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug bin\docker_run <User Directory>/code/my-project/dispatcher/src host.docker.internal:4503 8080
-  ```
+>[!TAB macOS]
 
-+   macOS Linux&reg;:
+```shell
+$ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
+```
 
-  ```shell
-  $ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
-  ```
+>[!TAB Windows]
+
+```shell
+$ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug bin\docker_run <User Directory>/code/my-project/dispatcher/src host.docker.internal:4503 8080
+```
+
+>[!TAB Linux]
+
+```shell
+$ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
+```
+
+>[!ENDTABS]
 
 ### Log file access
 
@@ -252,15 +347,26 @@ The `host.docker.internal` is a hostname provided to the Docker contain that res
 When `bin/docker_run src host.docker.internal:4503 8080` results in the message __Waiting until host.docker.internal is available__, then:
 
 1.  Ensure that the installed version of Docker is 18.03 or greater
-2.  You may have a local machine set up that is preventing the registration/resolution of the `host.docker.internal` name. Instead use your local IP.
-    +   Windows:
-      +   From the Command Prompt, execute `ipconfig`, and record the host's __IPv4 Address__ of the host machine.
-      +   Then, execute `docker_run` using this IP address:
-    `bin\docker_run src <HOST IP>:4503 8080`
-    +   macOS Linux&reg;: 
-      +   From Terminal, execute `ifconfig` and record the Host __inet__ IP address, usually the __en0__ device.
-      +   Then execute `docker_run` using the host IP address:
-    `bin/docker_run.sh src <HOST IP>:4503 8080`
+1.  You may have a local machine set up that is preventing the registration/resolution of the `host.docker.internal` name. Instead use your local IP.
+    
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
++ From Terminal, execute `ifconfig` and record the Host __inet__ IP address, usually the __en0__ device.
++ Then execute `docker_run` using the host IP address: `$ bin/docker_run.sh src <HOST IP>:4503 8080`
+
+>[!TAB Windows]
+
++ From the Command Prompt, execute `ipconfig`, and record the host's __IPv4 Address__ of the host machine.
++ Then, execute `docker_run` using this IP address: `$ bin\docker_run src <HOST IP>:4503 8080`
+
+>[!TAB Linux]
+
++ From Terminal, execute `ifconfig` and record the Host __inet__ IP address, usually the __en0__ device.
++ Then execute `docker_run` using the host IP address: `$ bin/docker_run.sh src <HOST IP>:4503 8080`
+
+>[!ENDTABS]
 
 #### Example error
 
