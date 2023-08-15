@@ -37,6 +37,7 @@ index: y
   + [Develop for Cross-Origin Resource Sharing (CORS)](./security/develop-for-cross-origin-resource-sharing.md)
   + [Understand Cross-Origin Resource Sharing (CORS)](./security/understand-cross-origin-resource-sharing.md)
   + [Use the SSL Wizard](./security/use-the-ssl-wizard.md)
+  + [ModSecurity CRS DoS Attack Protection](./security/modsecurity-crs-dos-attack-protection.md)
 + Workflow {#workflow}
   + [Use the Workflow Editor](./workflow/use-the-workflow-editor.md)
   + [Use Workflow](./workflow/use-workflow.md)
