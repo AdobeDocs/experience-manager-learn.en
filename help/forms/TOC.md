@@ -40,6 +40,7 @@ index: y
   + [Cascading drop-down lists](some-useful-integrations/geonames-org.md)
   + [Integrate with ServiceNow](some-useful-integrations/service-now.md)
   + [Send e-mails with SendGrid](some-useful-integrations/send-grid.md)
+  + [Store form data in Azure Storage](some-useful-integrations/store-form-data-in-azure-storage.md)
 + Creating OSGi bundle {#creating-your-first-osgi-bundle}
   + [1 - Setup your environment](creating-your-first-osgi-bundle/create-your-first-osgi-bundle.md)
   + [2 - Create OSGi Service](creating-your-first-osgi-bundle/create-osgi-service.md)
