@@ -21,6 +21,10 @@ In the code snippet below we have a class which implements DataXMLProvider inter
 
 This class is then made into OSGi bundle and deployed into AEM. Once the bundle is deployed, this prefill service is then available to be used as prefill service of your Adaptive Form.
 
+>[!NOTE]
+>
+>You can prefill form using xml or json data using the approach listed in this article .
+
 ```java
 package com.aem.prefill.core;
 import com.adobe.forms.common.service.DataXMLOptions;

@@ -181,6 +181,7 @@ index: y
   + [ArrayList Variable](variables-aem-workflow/part4.md)
   + [Form Data Model Variable](variables-aem-workflow/form-data-model.md)
   + [Rule Editor in AEM Workflow](variables-aem-workflow/part5.md)
+  + [Log workflow variables](variables-aem-workflow/part6.md)
 + Review form data{#review-form-data}
   + [1 - Introduction](review-form-data/introduction.md)
   + [2 - Create Component](review-form-data/create-component.md)
