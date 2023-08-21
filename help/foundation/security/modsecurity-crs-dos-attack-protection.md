@@ -16,6 +16,7 @@ last-substantial-update: 2023-08-18
 
 Learn how to enable ModSecurity to protect your site from Denial of Service (DoS) attacks using the **OWASP ModSecurity Core Rule Set (CRS)** on the Adobe Experience Manager (AEM) Publish Dispatcher.
 
+
 >[!VIDEO](https://video.tv.adobe.com/v/3422976?quality=12&learn=on)
 
 ## Overview
