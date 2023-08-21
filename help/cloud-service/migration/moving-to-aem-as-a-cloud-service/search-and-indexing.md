@@ -22,6 +22,8 @@ Learn about AEM as a Cloud Service's search indexes, how to convert AEM 6 index 
 
 As part of refactoring your code base, use the [Index converter tool](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration#command-aio-aem-migrationindex-converter) to convert custom Oak index definitions to AEM as a Cloud Service compatible index definitions.
 
+Review the [index converter documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter.html) for the complete and current set of Index Converter capabilities.
+
 ## Key activities
 
 + Use the [Adobe I/O Workflow Migrator](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration#command-aio-aem-migrationindex-converter) tool to migrate asset processing workflows to use the Asset Compute microservices.
