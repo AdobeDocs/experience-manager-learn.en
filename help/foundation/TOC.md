@@ -38,6 +38,7 @@ index: y
   + [Understand Cross-Origin Resource Sharing (CORS)](./security/understand-cross-origin-resource-sharing.md)
   + [Use the SSL Wizard](./security/use-the-ssl-wizard.md)
   + [ModSecurity CRS DoS Attack Protection](./security/modsecurity-crs-dos-attack-protection.md)
+  + [HTTPS connections to APIs with private certificates](./security/call-internal-apis-having-private-certificate.md)
 + Workflow {#workflow}
   + [Use the Workflow Editor](./workflow/use-the-workflow-editor.md)
   + [Use Workflow](./workflow/use-workflow.md)
