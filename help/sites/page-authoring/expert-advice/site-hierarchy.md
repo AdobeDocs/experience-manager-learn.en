@@ -34,7 +34,7 @@ The following are the categories of which metadata can be generated:
 
 Within the categories listed above there are four major types: 
 
-* Technical & Descriptive Metadata: Provides info about technical details of content (i.e. tite, language, etc.)
+* Technical & Descriptive Metadata: Provides info about technical details of content (i.e. title, language, etc.)
 * Operational Metadata: Documents the lifecycle of an asset (i.e. approved, in creative, campaign)
 * Administrative Metadata: The status or state of an asset within an organization (i.e. license information, ownership)
 * Structural Metadata: Helps categorize assets or pages to smooth business process (applies to most tags and taxonomies) 
