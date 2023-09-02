@@ -55,7 +55,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
     let csrfTokenInput = form.querySelector('input[name=":cq_csrf_token"]');
     if (!csrfTokenInput?.value) {
         // If the form does not have a CSRF token input, add one.
-        form.insertAdjacentHTML('afterend', `<input type="hidden" name=":cq_csrf_token" value="${json.token}">`);
+        form.insertAdjacentHTML('beforeend', `<input type="hidden" name=":cq_csrf_token" value="${json.token}">`);
     } else {
         // If the form already has a CSRF token input, update the value.
         csrfTokenInput.value = json.token;

@@ -29,9 +29,29 @@ Note that `~` is used as shorthand for the User's Directory. In Windows, this is
 Experience Manager is a Java application, and thus requires the Java SDK to support the development and the AEM as a Cloud Service SDK.
 
 1. [Download and install the latest release Java 11 SDK](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
-1. Verify Java 11 SDK is installed by running the command:
-    + Windows: `java -version`
-    + macOS / Linux: `java --version`
+1. Verify Oracle Java 11 SDK is installed by running the command:
+
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+```shell
+$ java --version
+```
+
+>[!TAB Windows]
+
+```shell
+$ java -version
+```
+
+>[!TAB Linux]
+
+```shell
+$ java --version
+```
+
+>[!ENDTABS]
 
 ![Java](./assets/development-tools/java.png)
 
@@ -59,14 +79,21 @@ If you are using Homebrew, follow the __Install using Homebrew__ instructions in
 
 [Git](https://git-scm.com/) is the source control management system used by [Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/requirements/source-code-repository.html), and thus is required for development.
 
-+ Install Git using Homebrew
-    1. Open your Terminal/Command Prompt
-    1. Execute the command: `brew install git`
-    1. Verify Git is installed, using the command: `git --version`
-+ Or, download and install Git (macOS, Linux or Windows)
-    1. [Download and install Git](https://git-scm.com/downloads)
-    1. Open your Terminal/Command Prompt
-    1. Verify Git is installed, using the command: `git --version`
+>[!BEGINTABS]
+
+>[!TAB Install Git using Homebrew]
+
+1. Open your Terminal/Command Prompt
+1. Execute the command: `$ brew install git`
+1. Verify Git is installed, using the command: `$ git --version`
+
+>[!TAB Download and install Git]
+
+1. [Download and install Git](https://git-scm.com/downloads)
+1. Open your Terminal/Command Prompt
+1. Verify Git is installed, using the command: `$ git --version`
+
+>[!ENDTABS]
 
 ![Git](./assets/development-tools/git.png)
 
@@ -74,16 +101,23 @@ If you are using Homebrew, follow the __Install using Homebrew__ instructions in
 
 [Node.js](https://nodejs.org) is a JavaScript runtime environment used to work with the front-end assets of an AEM project's __ui.frontend__ sub-project. Node.js is distributed with [npm](https://www.npmjs.com/), is the defacto Node.js package manager, used to manage JavaScript dependencies.
 
-+ Install Node.js using Homebrew
-    1. Open your Terminal/Command Prompt
-    1. Execute the command: `brew install node`
-    1. Verify Node.js is installed, using the command: `node -v`
-    1. Verify npm is installed, using the command: `npm -v`
-+ Or, download and install Node.js (macOS, Linux or Windows)
-    1. [Download and install Node.js](https://nodejs.org/en/download/)
-    1. Open your Terminal/Command Prompt
-    1. Verify Node.js is installed, using the command: `node -v`
-    1. Verify npm is installed, using the command: `npm -v`
+>[!BEGINTABS]
+
+>[!TAB Install Node.js using Homebrew]
+
+1. Open your Terminal/Command Prompt
+1. Execute the command: `$ brew install node`
+1. Verify Node.js is installed, using the command: `$ node -v`
+1. Verify npm is installed, using the command: `$ npm -v`
+
+>[!TAB Download and install Node.js]
+
+1. [Download and install Node.js](https://nodejs.org/en/download/)
+2. Open your Terminal/Command Prompt
+3. Verify Node.js is installed, using the command: `$ node -v`
+4. Verify npm is installed, using the command: `$ npm -v`
+   
+>[!ENDTABS]
 
 ![Node.js and npm](./assets/development-tools/nodejs-and-npm.png)
 
@@ -97,15 +131,23 @@ If you are using Homebrew, follow the __Install using Homebrew__ instructions in
 
 Apache Maven is the open-source Java command-line tool used to build AEM Projects generated from the AEM Project Maven Archetype. All major IDE's ([IntelliJ IDEA](https://www.jetbrains.com/idea/), [Visual Studio Code](https://code.visualstudio.com/), [Eclipse](https://www.eclipse.org/), etc.) have integrated Maven support.
 
-+ Install Maven using Homebrew
-    1. Open your Terminal/Command Prompt
-    1. Execute the command: `brew install maven`
-    1. Verify Maven is installed, using the command: `mvn -v`
-+ Or, download and install Maven (macOS, Linux or Windows)
-    1. [Download Maven](https://maven.apache.org/download.cgi)
-    1. [Install Maven](https://maven.apache.org/install.html)
-    1. Open your Terminal/Command Prompt
-    1. Verify Maven is installed, using the command: `mvn -v`
+
+>[!BEGINTABS]
+
+>[!TAB Install Maven using Homebrew]
+
+1. Open your Terminal/Command Prompt
+1. Execute the command: `$ brew install maven`
+1. Verify Maven is installed, using the command: `$ mvn -v`
+
+>[!TAB Download and install Maven]
+
+1. [Download Maven](https://maven.apache.org/download.cgi)
+1. [Install Maven](https://maven.apache.org/install.html)
+1. Open your Terminal/Command Prompt
+1. Verify Maven is installed, using the command: `$ mvn -v`
+   
+>[!ENDTABS]
 
 ![Maven](./assets/development-tools/maven.png)
 
@@ -159,7 +201,6 @@ The AEM Rapid Development Environment plugin allows the aio CLI to interact with
 The Adobe I/O Cloud Manager plugin allows the aio CLI to generate and run Asset Compute workers via the `aio asset-compute` command.
 
 1. Execute `aio plugins:install @adobe/aio-cli-plugin-asset-compute` to install the [aio Asset Compute plug-in](https://github.com/adobe/aio-cli-plugin-asset-compute).
-
 
 ## Set up the development IDE
 

@@ -110,36 +110,15 @@ AEM Publish (and Preview) service's Dispatcher must be configured to support COR
 |-------------------------------------:|:----------:|:-------------:|:-------------:|
 |Requires Dispatcher CORS configuration| &#10008;   | &#10004;      | &#10004;      | 
 
-#### Set Dispatcher environment variable
-
-1. Open the global.vars file for AEM Dispatcher configuration, typically at `dispatcher/src/conf.d/variables/global.vars`.
-2. Add the following to the file:
-
-    ```
-    # Enable CORS handling in the dispatcher
-    #
-    # By default, CORS is handled by the AEM publish server.
-    # If you uncomment and define the ENABLE_CORS variable, then CORS will be handled in the dispatcher.
-    # See the default.vhost file for a suggested dispatcher configuration. Note that:
-    #   a. You will need to adapt the regex from default.vhost to match your CORS domains
-    #   b. Remove the "Origin" header (if it exists) from the clientheaders.any file
-    #   c. If you have any CORS domains configured in your AEM publish server origin, you have to move those to the dispatcher
-    #       (i.e. accordingly update regex in default.vhost to match those domains)
-    #
-    Define ENABLE_CORS
-    ```
-
 #### Set CORS headers in vhost
 
 1. Open the vhost configuration file for the AEM Publish service, in your Dispatcher configuration project, typically at `dispatcher/src/conf.d/available_vhosts/<example>.vhost`
 2. Copy the contents of the `<IfDefine ENABLE_CORS>...</IfDefine>` block below, into your enabled vhost configuration file.
 
-    ```{line-numbers="true"}
+    ```{ highlight="19"}
     <VirtualHost *:80>
       ...
       <IfModule mod_headers.c>
-        ...
-        <IfDefine ENABLE_CORS>
           ################## Start of CORS configuration ##################
 
           SetEnvIfExpr "req_novary('Origin') == ''" CORSType=none CORSProcessing=false
@@ -186,8 +165,6 @@ AEM Publish (and Preview) service's Dispatcher must be configured to support COR
           RequestHeader unset Origin
 
           ################## End of CORS configuration ##################
-        </IfDefine>
-        ...
       </IfModule>
       ...
     </VirtualHost>
