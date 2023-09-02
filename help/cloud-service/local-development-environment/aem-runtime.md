@@ -26,12 +26,32 @@ Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Servi
 
 ## Install Java
 
-Experience Manager is a Java application, and thus requires the Java SDK to support the development tooling.
+Experience Manager is a Java application, and thus requires the Oracle Java SDK to support the development tooling.
 
 1. [Download and install the latest Java SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
-1. Verify Java 11 SDK is installed by running the command:
-    + Windows:`java -version`
-    + macOS / Linux: `java --version`
+1. Verify Oracle Java 11 SDK is installed by running the command:
+    
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+```shell
+$ java --version
+```
+
+>[!TAB Windows]
+
+```shell
+$ java -version
+```
+
+>[!TAB Linux]
+
+```shell
+$ java --version
+```
+
+>[!ENDTABS]
 
 ![Java](./assets/aem-runtime/java.png)
 
@@ -63,7 +83,18 @@ The local AEM Author Service provides developers with a local experience digital
     You *cannot* start the AEM as Cloud Service Quickstart Jar [by double-clicking](#troubleshooting-double-click).
 1. Access the local AEM Author Service at [http://localhost:4502](http://localhost:4502) in a Web browser
 
-Windows:
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+  ```shell
+  $ mkdir -p ~/aem-sdk/author
+  $ cp aem-sdk-Quickstart-XXX.jar ~/aem-sdk/author/aem-author-p4502.jar
+  $ cd ~/aem-sdk/author
+  $ java -jar aem-author-p4502.jar
+  ```
+
+>[!TAB Windows]
 
   ```shell
   $ mkdir -p c:\Users\<My User>\aem-sdk\author
@@ -72,7 +103,7 @@ Windows:
   $ java -jar aem-author-p4502.jar
   ```
 
-macOS / Linux:
+>[!TAB Linux]
 
   ```shell
   $ mkdir -p ~/aem-sdk/author
@@ -80,6 +111,9 @@ macOS / Linux:
   $ cd ~/aem-sdk/author
   $ java -jar aem-author-p4502.jar
   ```
+
+>[!ENDTABS]
+
 
 ## Set up local AEM Publish service
 
@@ -94,27 +128,46 @@ The local AEM Publish Service provides developers with the local experience end-
     You *cannot* start the AEM as Cloud Service Quickstart Jar [by double-clicking](#troubleshooting-double-click).
 1. Access the local AEM Publish Service at [http://localhost:4503](http://localhost:4503) in a Web browser
 
-Windows:
+>[!BEGINTABS]
 
-  ```shell
-  $ mkdir -p c:\Users\<My User>\aem-sdk\publish
-  $ copy aem-sdk-Quickstart-XXX.jar c:\Users\<My User>\aem-sdk\publish\aem-publish-p4503.jar
-  $ cd c:\Users\<My User>\aem-sdk\publish
-  $ java -jar aem-publish-p4503.jar
-  ```
+>[!TAB macOS]
 
-macOS / Linux:
+```shell
+$ mkdir -p ~/aem-sdk/publish
+$ cp aem-sdk-Quickstart-XXX.jar ~/aem-sdk/publish/aem-publish-p4503.jar
+$ cd ~/aem-sdk/publish
+$ java -jar aem-publish-p4503.jar
+```
 
-  ```shell
-  $ mkdir -p ~/aem-sdk/publish
-  $ cp aem-sdk-Quickstart-XXX.jar ~/aem-sdk/publish/aem-publish-p4503.jar
-  $ cd ~/aem-sdk/publish
-  $ java -jar aem-publish-p4503.jar
-  ```
+>[!TAB Windows]
+
+```shell
+$ mkdir -p c:\Users\<My User>\aem-sdk\publish
+$ copy aem-sdk-Quickstart-XXX.jar c:\Users\<My User>\aem-sdk\publish\aem-publish-p4503.jar
+$ cd c:\Users\<My User>\aem-sdk\publish
+$ java -jar aem-publish-p4503.jar
+```
+
+>[!TAB Linux]
+
+```shell
+$ mkdir -p ~/aem-sdk/publish
+$ cp aem-sdk-Quickstart-XXX.jar ~/aem-sdk/publish/aem-publish-p4503.jar
+$ cd ~/aem-sdk/publish
+$ java -jar aem-publish-p4503.jar
+```
+
+>[!ENDTABS]
+
 
 ## Set up local AEM services in prerelease mode
 
 The local AEM runtime can be started in [prerelease mode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html) allowing a developer to build against the AEM as a Cloud Service's next release's features. Prerelease is enabled by passing the `-r prerelease` argument on the local AEM runtime's first start. This can be used with both local AEM Author and AEM Publish services.
+
+
+>[!BEGINTABS]
+
+>[!TAB macOS]
 
 ```shell
 # For AEM Author service in prerelease mode
@@ -123,6 +176,28 @@ $ java -jar aem-author-p4502.jar -r prerelease
 # For AEM Publish service in prerelease mode
 $ java -jar aem-publish-p4503.jar -r prerelease
 ```
+
+>[!TAB Windows]
+
+```shell
+# For AEM Author service in prerelease mode
+$ java -jar aem-author-p4502.jar -r prerelease
+
+# For AEM Publish service in prerelease mode
+$ java -jar aem-publish-p4503.jar -r prerelease
+```
+
+>[!TAB Linux]
+
+```shell
+# For AEM Author service in prerelease mode
+$ java -jar aem-author-p4502.jar -r prerelease
+
+# For AEM Publish service in prerelease mode
+$ java -jar aem-publish-p4503.jar -r prerelease
+```
+
+>[!ENDTABS]
 
 ## Simulate Content Distribution {#content-distribution}
 
@@ -221,11 +296,51 @@ This is because AEM as a Cloud Service Quickstart Jar does not support double-cl
 
 To start AEM Author service, `cd` into the directory containing the Quickstart Jar and execute the command:
 
-`$ java -jar aem-author-p4502.jar`
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+```shell
+$ java -jar aem-author-p4502.jar
+```
+
+>[!TAB Windows]
+
+```shell
+$ java -jar aem-author-p4502.jar
+```
+
+>[!TAB Linux]
+
+```shell
+$ java -jar aem-author-p4502.jar
+```
+
+>[!ENDTABS]
 
 or, to start AEM Publish service, `cd` into the directory containing the Quickstart Jar and execute the command:
 
-`$ java -jar aem-publish-p4503.jar`
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+```shell
+$ java -jar aem-author-p4503.jar
+```
+
+>[!TAB Windows]
+
+```shell
+$ java -jar aem-author-p4503.jar
+```
+
+>[!TAB Linux]
+
+```shell
+$ java -jar aem-author-p4503.jar
+```
+
+>[!ENDTABS]
 
 ### Starting the Quickstart Jar from the command line immediately aborts{#troubleshooting-java-8}
 
@@ -243,12 +358,30 @@ Quickstart: aborting
 ```
 
 This is because AEM as a Cloud Service requires Java SDK 11 and you are running a different version, most likely Java 8. To resolve this issue, download and install [Oracle Java SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14).
-Once Java SDK 11 has been installed, verify it is the active version by executing the following from the command line.
 
-Once Java 11 SDK is installed, verify it is the active version by running the command from the command line:
+Once Oracle Java 11 SDK is installed, verify it is the active version by running the command from the command line:
 
-+ Windows: `java -version`
-+ macOS / Linux: `java --version`
+>[!BEGINTABS]
+
+>[!TAB macOS]
+
+```shell
+$ java --version
+```
+
+>[!TAB Windows]
+
+```shell
+$ java -version
+```
+
+>[!TAB Linux]
+
+```shell
+$ java --version
+```
+
+>[!ENDTABS]
 
 ## Additional Resources
 

@@ -40,6 +40,7 @@ index: y
   + [Cascading drop-down lists](some-useful-integrations/geonames-org.md)
   + [Integrate with ServiceNow](some-useful-integrations/service-now.md)
   + [Send e-mails with SendGrid](some-useful-integrations/send-grid.md)
+  + [Store form data in Azure Storage](some-useful-integrations/store-form-data-in-azure-storage.md)
 + Creating OSGi bundle {#creating-your-first-osgi-bundle}
   + [1 - Setup your environment](creating-your-first-osgi-bundle/create-your-first-osgi-bundle.md)
   + [2 - Create OSGi Service](creating-your-first-osgi-bundle/create-osgi-service.md)
@@ -180,6 +181,7 @@ index: y
   + [ArrayList Variable](variables-aem-workflow/part4.md)
   + [Form Data Model Variable](variables-aem-workflow/form-data-model.md)
   + [Rule Editor in AEM Workflow](variables-aem-workflow/part5.md)
+  + [Log workflow variables](variables-aem-workflow/part6.md)
 + Review form data{#review-form-data}
   + [1 - Introduction](review-form-data/introduction.md)
   + [2 - Create Component](review-form-data/create-component.md)

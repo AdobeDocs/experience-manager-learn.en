@@ -53,3 +53,5 @@ Open the EmergencyContact.js file and change the URL in the fetch method to matc
 To enable making POST calls to the AEM endpoint from your REACT app, you will need to specify the appropriate entires in the Allowed Origins field in Adobe Granite Cross-Origin Resource Sharing Policy configuration.
 
 ![cors-setting](assets/cors-settings.png)
+
+See [understanding CORS with AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/understand-cross-origin-resource-sharing.html) for more details on CORS configuration options.

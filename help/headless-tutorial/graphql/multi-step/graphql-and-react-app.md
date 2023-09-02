@@ -486,6 +486,10 @@ Once complete, selecting a person's name in the Teams view, renders the person v
 
 Review the app [http://localhost:3000/](http://localhost:3000/) and click _Members_ links. Also you can add more teams and/ or members to the Team Alpha by adding Content Fragments in AEM.
 
+>[!IMPORTANT]
+>
+>To verify your implementation changes or if you are unable to get the app working after above changes, refer the [basic-tutorial](https://github.com/adobe/aem-guides-wknd-graphql/tree/solution/basic-tutorial) solution branch.
+
 ## Under The Hood
 
 Open the browser's **Developer Tools** > **Network** and _Filter_ for `all-teams` request. Notice the GraphQL API request `/graphql/execute.json/my-project/all-teams` is made against `http://localhost:3000` and **NOT** against the value of `REACT_APP_HOST_URI` (for example, <https://publish-p123-e456.adobeaemcloud.com>). The requests are made against the React app's domain because [proxy setup](https://create-react-app.dev/docs/proxying-api-requests-in-development/#configuring-the-proxy-manually) is enabled using `http-proxy-middleware` module. 
