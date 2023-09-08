@@ -29,6 +29,7 @@ index: y
   + [Creating a Review Workflow](handling-form-submissions/creating-a-review-workflow.md)
   + [Configuring Adaptive form to trigger workflow](handling-form-submissions/configuring-adaptive-form-to-trigger-workflow.md)
   + [Displaying Thank You Page](handling-form-submissions/submitting-adaptive-forms-thank-you-page-article-use.md)
+  + [Customize Thank You Page](handling-form-submissions/thank-you-page-on-fdm-submission.md)
   + [Submitting to External End point](handling-form-submissions/submitting-adaptive-forms-to-external-server-article-use.md)
   + [Sending Email](handling-form-submissions/sending-email-on-adaptive-form-submission.md)
   + [Paid Time Off Request Workflow](handling-form-submissions/paid-time-off-request-workflow.md)
