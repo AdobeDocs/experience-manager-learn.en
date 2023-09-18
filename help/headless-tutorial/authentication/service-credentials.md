@@ -219,6 +219,7 @@ Once the technical account AEM user exists in AEM (after first HTTP request with
    1. Navigate to __Tools__ > __Security__ > __Users__ 
    1. Locate the AEM user with the __Login Name__ identified in Step 1, and open its __Properties__
    1. Navigate to the __Groups__ tab, and add the __DAM Users__ group (whom as write access to assets)
+      + [See the list of AEM provided user groups](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html#built-in-users-and-groups) to add the service user to for the optimal permissions. If no AEM provided user group is sufficient, create your own, and add the appropriate permissions.
    1. Tap __Save and Close__
 
 With the technical account permitted in AEM to have write permissions on assets, rerun the application: 
