@@ -16,7 +16,8 @@ team: TM
 
 + [Overview](overview.md)
 + Basics{#basics} 
-  + [Overview](./basics/content-fragments-console.md)
+  + [Console overview](./basics/content-fragments-console.md)
+  + [Editor overview](./basics/content-fragment-editor.md)
 + Search and discovery{#search}
   + [Fast filtering](search/fast-filtering.md)
   + [References](search/references.md)
