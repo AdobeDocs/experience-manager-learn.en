@@ -22,17 +22,17 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
 
 
 <div class="columns is-multiline">
-    <!-- Overview -->
+    <!-- Console overview -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Overview" tabindex="1">
+      aria-label="Console overview" tabindex="1">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./basics/content-fragments-console.md" title="Overview"
+            <a href="./basics/content-fragments-console.md" title="Console overview"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3409492?format=jpeg"
-                alt="Overview">
+                alt="Console overview">
             </a>
           </figure>
         </div>
@@ -41,7 +41,7 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">5 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./basics/content-fragments-console.md" title="Overview">Overview</a>
+              <a href="./basics/content-fragments-console.md" title="Overview">Console overview</a>
             </p>
             <p class="is-size-6">A brief overview of the Content Fragments
               console.</p>
@@ -55,6 +55,39 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
         </div>
       </div>
     </div>
+    <!-- Editor overview -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
+      aria-label="Editor overview" tabindex="1">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-16by9">
+            <a href="./basics/content-fragment-editor.md" title="Editor overview"
+              tabindex="-1">
+              <img class="is-bordered-r-small"
+                src="https://video.tv.adobe.com/v/3424373?format=jpeg"
+                alt="Editor overview">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content is-padded-small">
+          <div class="content">
+            <p style="float: right;font-style: italic; color: #363636"
+              class="is-size-6">4 minutes</p>
+            <p class="headline is-size-6 has-text-weight-bold">
+              <a href="./basics/content-fragment-editor.md" title="Overview">Editor overview</a>
+            </p>
+            <p class="is-size-6">A brief overview of the Content Fragments
+              editor.</p>
+            <a href="./basics/content-fragment-editor.md" class="spectrum-Button
+              spectrum-Button--outline spectrum-Button--primary
+              spectrum-Button--sizeM">
+              <span class="spectrum-Button-label has-no-wrap
+                has-text-weight-bold">Watch the video</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>    
     <!-- Fast filtering -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
       aria-label="Fast filtering" tabindex="2">
