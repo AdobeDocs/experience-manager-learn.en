@@ -12,8 +12,8 @@ exl-id: 867cf74e-44e7-431b-ac8f-41b63c370635
 
 A short example of leveraging [!DNL CORS] to access AEM content from an external web application via client-side JavaScript. This example uses the CORS OSGi configuration to enable CORS access on AEM. The OSGi configuration approach is viable when:
 
-+ A single origin is accessing AEM Publish content
-+ CORS access is required for AEM Author
+* A single origin is accessing AEM Publish content
+* CORS access is required for AEM Author
 
 If multi-origin access to AEM Publish is required, refer to [this documenation](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/deployments/configurations/cors.html?lang=en#dispatcher-configuration).
 
