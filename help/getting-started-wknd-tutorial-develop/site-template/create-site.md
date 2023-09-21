@@ -20,6 +20,10 @@ As part of Quick Site Creation use the Site Creation Wizard in Adobe Experience 
 
 The steps in this chapter will take place in an Adobe Experience Manager as a Cloud Service environment. Ensure that you have administrative access to the AEM environment. It is recommended to use a [Sandbox program](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/sandbox-programs/introduction-sandbox-programs.html) and [Development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html) when completing this tutorial.
 
+[Production program](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/introduction-production-programs.html) environments can be used for this tutorial as well; however, ensure that the activities of this tutorial will not affect the work being performed on the target environments, as this tutorial deploys content and code to the target AEM environment.
+
+The [AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html) can be used for parts of this tutorial. Aspects of this tutorial that rely on cloud services, such as [deploying themes with Cloud Manager's front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/site-template/theming.html), cannot be performed on the AEM SDK.
+
 Review the [onboarding documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) for more details.
 
 ## Objective {#objective}
