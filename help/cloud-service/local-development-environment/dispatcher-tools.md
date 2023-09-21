@@ -137,13 +137,16 @@ $ ./bin/validate.sh ./src
 
 AEM Dispatcher is run locally using Docker against the `src` Dispatcher and Apache Web server configuration files.
 
+
 >[!BEGINTABS]
 
 >[!TAB macOS]
 
 ```shell
-$ ./bin/docker_run.sh <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>
+$ ./bin/docker_run_hot_reload.sh <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>
 ```
+
+The `docker_run_hot_reload` executable is preferred over `docker_run` as it reloads configuration files as they are changed, without having to manually terminate and restart `docker_run`. Alternatively, `docker_run` can be used however it requires manually terminating and restarting `docker_run` when configuration files are changed.
 
 >[!TAB Windows]
 
@@ -154,8 +157,10 @@ $ bin\docker_run <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-
 >[!TAB Linux]
 
 ```shell
-$ ./bin/docker_run.sh <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>
+$ ./bin/docker_run_hot_reload.sh <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>
 ```
+
+The `docker_run_hot_reload` executable is preferred over `docker_run` as it reloads configuration files as they are changed, without having to manually terminate and restart `docker_run`. Alternatively, `docker_run` can be used however it requires manually terminating and restarting `docker_run` when configuration files are changed.
 
 >[!ENDTABS]
 
@@ -170,7 +175,7 @@ Start Dispatcher Docker container providing the path to the Dispatcher configura
 >[!TAB macOS]
 
 ```shell
-$ ./bin/docker_run.sh ./src host.docker.internal:4503 8080
+$ ./bin/docker_run_hot_reload.sh ./src host.docker.internal:4503 8080
 ```
 
 >[!TAB Windows]
@@ -182,7 +187,7 @@ $ bin\docker_run src host.docker.internal:4503 8080
 >[!TAB Linux]
 
 ```shell
-$ ./bin/docker_run.sh ./src host.docker.internal:4503 8080
+$ ./bin/docker_run_hot_reload.sh ./src host.docker.internal:4503 8080
 ```
 
 >[!ENDTABS]
@@ -196,7 +201,7 @@ To run Dispatcher Tools against an Experience Manager project's Dispatcher confi
 >[!TAB macOS]
 
 ```shell
-$ ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
+$ ./bin/docker_run_hot_reload.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
 ```
 
 >[!TAB Windows]
@@ -208,7 +213,7 @@ $ bin\docker_run <User Directory>/code/my-project/dispatcher/src host.docker.int
 >[!TAB Linux]
 
 ```shell
-$ ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
+$ ./bin/docker_run_hot_reload.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
 ```
 
 >[!ENDTABS]
@@ -237,7 +242,7 @@ One or many parameters, can be passed to `docker_run`
 >[!TAB macOS]
 
 ```shell
-$ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
+$ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug ./bin/docker_run_hot_reload.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
 ```
 
 >[!TAB Windows]
@@ -249,7 +254,7 @@ $ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug bin\docker_run <User Directory>/c
 >[!TAB Linux]
 
 ```shell
-$ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug ./bin/docker_run.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
+$ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug ./bin/docker_run_hot_reload.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
 ```
 
 >[!ENDTABS]
@@ -354,7 +359,7 @@ When `bin/docker_run src host.docker.internal:4503 8080` results in the message 
 >[!TAB macOS]
 
 + From Terminal, execute `ifconfig` and record the Host __inet__ IP address, usually the __en0__ device.
-+ Then execute `docker_run` using the host IP address: `$ bin/docker_run.sh src <HOST IP>:4503 8080`
++ Then execute `docker_run` using the host IP address: `$ bin/docker_run_hot_reload.sh src <HOST IP>:4503 8080`
 
 >[!TAB Windows]
 
@@ -364,7 +369,7 @@ When `bin/docker_run src host.docker.internal:4503 8080` results in the message 
 >[!TAB Linux]
 
 + From Terminal, execute `ifconfig` and record the Host __inet__ IP address, usually the __en0__ device.
-+ Then execute `docker_run` using the host IP address: `$ bin/docker_run.sh src <HOST IP>:4503 8080`
++ Then execute `docker_run` using the host IP address: `$ bin/docker_run_hot_reload.sh src <HOST IP>:4503 8080`
 
 >[!ENDTABS]
 

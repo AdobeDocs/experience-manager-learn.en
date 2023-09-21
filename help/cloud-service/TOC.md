@@ -49,7 +49,7 @@ team: TM
 + Local Development Environment Setup {#local-development-environment-set-up}
   + [Overview](./local-development-environment/overview.md)
   + [Development Tools](./local-development-environment/development-tools.md)
-  + [Local AEM Runtime](./local-development-environment/aem-runtime.md)
+  + [Local AEM SDK](./local-development-environment/aem-runtime.md)
   + [Local Dispatcher Tools](./local-development-environment/dispatcher-tools.md)
 + Developing{#developing}
   + Extensibility{#extensibility}
