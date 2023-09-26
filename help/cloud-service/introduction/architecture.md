@@ -1,6 +1,6 @@
 ---
 title: Architecture of AEM as a Cloud Service
-description: Explore the underlying architecture and important pieces of AEM as a Cloud Service. Deep dives into Cloud Manager and the APIs.
+description: Explore the underlying architecture and important pieces of AEM as a Cloud Service with Edge Delivery Services.
 role: Architect, Developer
 level: Beginner
 type: Tutorial
@@ -14,6 +14,6 @@ exl-id: c7ccfee6-c252-4ba4-831a-1c37b36ac964
 
 {{edge-delivery-services}}
 
-Explore the underlying architecture and important pieces of AEM as a Cloud Service. Deep dives into Cloud Manager and the APIs.
+Explore the underlying architecture and important pieces of AEM as a Cloud Service with Edge Delivery Services.
 
 >[!VIDEO](https://video.tv.adobe.com/v/330542?quality=12&learn=on)
