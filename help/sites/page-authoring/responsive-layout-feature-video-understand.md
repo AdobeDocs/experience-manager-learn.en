@@ -18,6 +18,8 @@ exl-id: c125c0e0-1ed2-463e-bd34-767d009479eb
 ---
 # Understanding Responsive Layout {#understanding-responsive-layout-with-aem-sites}
 
+{{edge-delivery-services-and-page-editor}}
+
 Adobe Experience Manager Sites allows an author to manage the width of a component based on device width in order to facilitate a responsive site design. With Layout Mode and the Layout Container users can create responsive content for different devices and preview the end-user experience, without leaving the AEM UI.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32012?quality=12&learn=on)

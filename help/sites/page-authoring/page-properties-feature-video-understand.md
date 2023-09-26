@@ -12,6 +12,8 @@ exl-id: 41b40982-9796-418e-9bfc-af6fc720e9b8
 ---
 # Understanding page properties {#understanding-page-properties-aem-sites}
 
+{{edge-delivery-services-and-page-editor}}
+
 The following video introduces the page properties associated with a page in Adobe Experience Manager.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32192?quality=12&learn=on)

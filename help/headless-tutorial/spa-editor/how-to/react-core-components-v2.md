@@ -12,6 +12,8 @@ exl-id: e055b356-dd26-4366-8608-5a0ccf5b4c49
 ---
 # How to use AEM React Editable Components v2
 
+{{edge-delivery-services}}
+
 AEM provides [AEM React Editable Components v2](https://www.npmjs.com/package/@adobe/aem-react-editable-components), an Node.js-based SDK that allows the creation of React components, that support in-context component editing using AEM SPA Editor.
 
 + [npm module](https://www.npmjs.com/package/@adobe/aem-react-editable-components)

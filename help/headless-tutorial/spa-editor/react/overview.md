@@ -17,6 +17,8 @@ last-substantial-update: 2022-08-25
 ---
 # Create your first React SPA in AEM {#overview}
 
+{{edge-delivery-services}}
+
 Welcome to a multi-part tutorial designed for developers new to the **SPA Editor** feature in Adobe Experience Manager (AEM). This tutorial walks through the implementation of a React application for a fictitious lifestyle brand, the WKND. The React app is developed and designed to be deployed with AEM's SPA Editor, which maps React components to AEM components. The completed SPA, deployed to AEM, can be dynamically authored with traditional in-line editing tools of AEM.
 
 ![Final SPA Implemented](assets/wknd-spa-implementation.png)

@@ -13,6 +13,8 @@ exl-id: 6dc66195-f438-4366-a5e2-486145e4b6d7
 ---
 # Publishing pages {#using-publication-management-with-aem-sites}
 
+{{edge-delivery-services-and-page-editor}}
+
 AEM Sites provides several options for publishing and un-publishing content. This video explores the various methods and their capabilities.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32193?quality=12&learn=on)
