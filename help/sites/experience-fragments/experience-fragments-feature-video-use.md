@@ -15,6 +15,8 @@ exl-id: 84d2b240-5ecc-4230-97a0-6c2faead8d1a
 ---
 # Using Experience Fragments {#using-aem-experience-fragments}
 
+{{edge-delivery-services-and-page-editor}}
+
 Experience Fragments enables content authors to reuse content across channels including Sites pages and third-party systems.
 
 >[!VIDEO](https://video.tv.adobe.com/v/331785?quality=12&learn=on)

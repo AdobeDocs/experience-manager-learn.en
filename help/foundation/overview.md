@@ -7,6 +7,8 @@ exl-id: af0fe7fb-873b-4d2d-a5a3-59a5a3da9b96
 ---
 # AEM Foundation videos and tutorials {#overview}
 
+{{edge-delivery-services}}
+
 Adobe Experience Manager provides a common set of capabilities available to users of AEM Sites, Assets, and Forms.
 
 <div id="whats-new-section">

@@ -12,6 +12,8 @@ exl-id: c7ccfee6-c252-4ba4-831a-1c37b36ac964
 ---
 # Architecture of AEM as a Cloud Service
 
+{{edge-delivery-services}}
+
 Explore the underlying architecture and important pieces of AEM as a Cloud Service. Deep dives into Cloud Manager and the APIs.
 
 >[!VIDEO](https://video.tv.adobe.com/v/330542?quality=12&learn=on)
