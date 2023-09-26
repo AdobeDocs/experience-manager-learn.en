@@ -7,7 +7,7 @@ type: Tutorial
 topic: Architecture
 kt: 6920
 thumbnail: 330543.jpg
-last-substantial-update: 2022-01-01
+last-substantial-update: 2023-09-26
 exl-id: 32390a8d-8257-44b7-9009-bfa5e518a1e0
 ---
 # Evolution of AEM as a Cloud Service
