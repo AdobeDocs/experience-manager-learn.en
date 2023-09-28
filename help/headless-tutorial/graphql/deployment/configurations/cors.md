@@ -161,8 +161,8 @@ AEM Publish (and Preview) service's Dispatcher must be configured to support COR
           RewriteCond expr "reqenv('CORSProcessing') == 'true' && reqenv('CORSTrusted') == 'false'"
           RewriteRule "^(.*)" - [R=204,L]
 
-          # Remove Origin before sending to AEM Publish
-          RequestHeader unset Origin
+          # Remove Origin before sending to AEM Publish if this configuration handles the CORS
+          RequestHeader unset Origin "expr=reqenv('CORSTrusted') == 'true'"
 
           ################## End of CORS configuration ##################
       </IfModule>
