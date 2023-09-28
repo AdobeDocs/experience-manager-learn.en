@@ -58,6 +58,9 @@ team: TM
   + [Smart Tags for Videos](metadata/video-smart-tags.md)
   + [Import and Export Metadata](metadata/metadata-import-export.md)
 
++ Edge Delivery Services{#edge-delivery-services}
+  + [Sidekick plugin](./edge-delivery-services/sidekick-plugin.md)
+
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
   + [Publish Assets](./sharing/publish.md)
