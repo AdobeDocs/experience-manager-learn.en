@@ -10,8 +10,8 @@ kt: 10385
 thumbnail: KT-10385.png
 doc-type: article
 last-substantial-update: 2023-08-18
+exl-id: 9f689bd9-c846-4c3f-ae88-20454112cf9a
 ---
-
 # Use ModSecurity to protect your AEM site from DoS attacks
 
 Learn how to enable ModSecurity to protect your site from Denial of Service (DoS) attacks using the **OWASP ModSecurity Core Rule Set (CRS)** on the Adobe Experience Manager (AEM) Publish Dispatcher.
@@ -292,4 +292,4 @@ Enabling the ModSecurity and associated rules has some performance implications,
 
 ### Additional Rules
 
-This tutorial only enables and customizes the **DOS-PROTECTION** CRS rule for demonstration purposes. It is recommended to partner with Web Security experts to understand, review, and configure appropriate rules. 
+This tutorial only enables and customizes the **DOS-PROTECTION** CRS rule for demonstration purposes. It is recommended to partner with Web Security experts to understand, review, and configure appropriate rules.

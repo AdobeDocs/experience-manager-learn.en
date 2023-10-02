@@ -10,8 +10,8 @@ doc-type: Article
 last-substantial-update: 2023-08-28
 jira: KT-13858
 thumbnail: KT-13858.jpeg
+exl-id: e76ed4c5-3220-4274-a315-a75e549f8b40
 ---
-
 # AEM as a Cloud Service caching
 
 In AEM as a Cloud Service, understanding caching is crucial. Caching involves storing and reusing previously fetched data to enhance system efficiency and reduce load times. This mechanism significantly accelerates content delivery, boosts website performance, and optimizes user experience.

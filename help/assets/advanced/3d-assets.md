@@ -10,8 +10,8 @@ doc-type: Feature Video
 last-substantial-update: 2023-06-19
 jira: KT-13519
 thumbnail: 3420690.jpeg
+exl-id: b08f662c-e2b2-4643-b92b-a957e1d359e8
 ---
-
 # 3D assets
 
 Learn about 3D asset support in AEM Assets as a Cloud Service.

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Catalog
 last-substantial-update: 2023-05-12
-exl-id: 68caf431-8d81-4a72-a768-7b04082870d3
+exl-id: d92c36e2-fbfa-43a3-8c5f-0371cc99f352
 ---
 # Content Fragments Console videos
 

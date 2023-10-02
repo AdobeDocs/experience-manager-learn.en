@@ -7,7 +7,7 @@ kt: 13311
 topic: Development
 role: User
 level: Intermediate
-exl-id: 7316ca02-be57-4ecf-b162-43a736b992b3
+exl-id: c01ad68e-23c9-4564-8e3e-1924af34a493
 ---
 # Fetch and display the forms in card format
 

@@ -10,7 +10,7 @@ jira: KT-13309
 thumbnail: KT-13309.jpg
 doc-type: article
 last-substantial-update: 2023-06-02
-exl-id: 5738b5ec-3b86-4eed-9d48-8318c748fd38
+exl-id: 70adb2c1-9e08-4a4b-b8f1-16bddd84c23d
 ---
 # Export Content Fragment to XML
 
