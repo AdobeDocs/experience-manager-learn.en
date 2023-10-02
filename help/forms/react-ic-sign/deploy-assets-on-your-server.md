@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 kt: 13099
 last-substantial-update: 2023-04-13
-exl-id: 44f4261b-d6fe-42ad-a3aa-2a36ca897b5e
+exl-id: f12f83fa-673a-454c-aa52-6ea769a182b7
 ---
 # Deploy the assets
 

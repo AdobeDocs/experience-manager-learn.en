@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Value Video
 last-substantial-update: 2023-05-11
 jira: KT-13228
-exl-id: a52b253c-14b4-465b-9714-7f321435a945
+exl-id: d1745cea-906b-46fa-adcc-7da6e7ee95db
 ---
 # AEM Champion Tips and Tricks - Cloud Manager Onboarding Playbook
 

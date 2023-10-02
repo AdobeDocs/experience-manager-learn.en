@@ -12,7 +12,7 @@ jira: KT-12433
 thumbnail: KT-12433.jpeg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
-exl-id: 60a3e18a-090f-4b0e-8ba0-d4afd30577dd
+exl-id: be886c64-9b8e-498d-983c-75f32c34be4b
 ---
 # Integrate AEM Headless and Target
 

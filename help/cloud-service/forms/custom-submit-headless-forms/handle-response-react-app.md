@@ -9,8 +9,8 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 13520
+exl-id: e5f76d6a-2ea8-4909-9cfb-b673077cf8fd
 ---
-
 # Extract the json object from the response
 
 When you submit headless adaptive form to an custom submit handler, the data returned by the submit handler can be extracted and displayed in your react app. The following code snippet shows 
@@ -29,14 +29,3 @@ const onSuccess=(action) =>{
         
       }
 ```
-
-
-
-
-
-
-
-
-
-
-

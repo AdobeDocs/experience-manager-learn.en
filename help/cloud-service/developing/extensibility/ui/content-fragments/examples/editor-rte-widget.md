@@ -10,7 +10,7 @@ jira: KT-13465
 thumbnail: KT-13465.jpg
 doc-type: article
 last-substantial-update: 2023-06-12
-exl-id: be4c0a6a-5c1f-4408-9ac6-56b8f0653d42
+exl-id: 167a4b11-1202-4c7a-b022-f3f996348a4e
 ---
 # Add widgets to Rich Text Editor (RTE)
 

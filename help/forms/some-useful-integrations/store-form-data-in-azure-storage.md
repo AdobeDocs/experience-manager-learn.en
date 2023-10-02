@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2023-08-14
 kt: 13781
+exl-id: 2bec5953-2e0c-4ae6-ae98-34492d4cfbe4
 ---
 # Store form submissions in Azure Storage
 
@@ -68,8 +69,3 @@ The following is function written to store the submitted form data in Azure Stor
 ## Verify stored data in the container
 
 ![form-data-in-container](./assets/form-data-in-container.png)
-
-
-
-
-

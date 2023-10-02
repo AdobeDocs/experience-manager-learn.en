@@ -12,7 +12,7 @@ jira: KT-13328
 thumbnail: KT-13328.jpeg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
-exl-id: 9f54995f-4ce7-45f2-9021-6fdfe42ff89a
+exl-id: 0cc3d3bc-e4ea-4ab2-8878-adbcf0c914f5
 ---
 # Integrate AEM Sites and Adobe Analytics with Platform Web SDK
 

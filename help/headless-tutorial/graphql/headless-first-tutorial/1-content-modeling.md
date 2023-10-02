@@ -10,7 +10,7 @@ doc-type: Tutorial
 last-substantial-update: 2023-05-16
 jira: KT-13270
 thumbnail: KT-13270.jpeg
-exl-id: 7210a71e-8a38-496d-b37c-9820637ece70
+exl-id: 6e5e3cb4-9a47-42af-86af-da33fd80cb47
 ---
 # Content modeling
 

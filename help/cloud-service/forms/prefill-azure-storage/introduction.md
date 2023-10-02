@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 kt: 13717
-
+exl-id: b40b0ef4-efa9-400e-82d8-aa0c7feb7be4
 ---
 # Introduction
 
@@ -33,5 +33,3 @@ To implement the above use case in AEM Forms CS, you will need the following
 ### Next Steps
 
 [Create Page Component](./page-component.md)
-
-

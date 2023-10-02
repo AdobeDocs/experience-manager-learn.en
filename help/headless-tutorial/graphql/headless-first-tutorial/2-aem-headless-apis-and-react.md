@@ -10,7 +10,7 @@ doc-type: Tutorial
 last-substantial-update: 2023-05-16
 jira: KT-13270
 thumbnail: KT-13270.jpeg
-exl-id: 9cdd77c6-b5ee-4c66-aa38-30f93bdac4e6
+exl-id: 2b726473-5a32-4046-bce8-6da3c57a1b60
 ---
 # AEM Headless APIs and React
 

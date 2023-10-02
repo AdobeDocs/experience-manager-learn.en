@@ -10,7 +10,7 @@ doc-type: Article
 last-substantial-update: 2023-04-14
 jira: KT-13102
 thumbnail: 3418381.jpeg
-exl-id: f47ce344-310f-4b4c-9340-b0506289f468
+exl-id: 304b4d80-27bd-4336-b2ff-4b613a30f712
 ---
 # Large result sets in AEM Headless
 

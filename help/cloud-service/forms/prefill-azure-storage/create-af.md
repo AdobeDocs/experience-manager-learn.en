@@ -8,8 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 thumbnail: 335423.jpg
-
-
+exl-id: 0b543c6b-9cfd-4fac-b8d0-33153c036f4b
 ---
 # Putting it all together
 
@@ -33,4 +32,3 @@ The form has the following business rules
 ### Next Steps
 
 [Deploy the sample assets](./deploy-sample-assets.md)
-

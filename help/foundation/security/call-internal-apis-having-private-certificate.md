@@ -10,8 +10,8 @@ kt: 11548
 thumbnail: KT-11548.png
 doc-type: article
 last-substantial-update: 2023-08-25
+exl-id: c88aa724-9680-450a-9fe8-96e14c0c6643
 ---
-
 # Call internal APIs having private certificates
 
 Learn how to make HTTPS calls from AEM to web APIs using private or self-signed certificates.
