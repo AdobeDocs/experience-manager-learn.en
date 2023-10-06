@@ -1,5 +1,5 @@
 ---
-title: Mutual Transport Layer Security (mTLS) authentication
+title: Mutual Transport Layer Security (mTLS) authentication from AEM
 description: Learn how to make HTTPS calls from AEM to web APIs that require Mutual Transport Layer Security (mTLS) authentication.
 feature: Security
 version: 6.5, Cloud Service
@@ -12,7 +12,7 @@ doc-type: article
 last-substantial-update: 2023-10-10
 ---
 
-# Mutual Transport Layer Security (mTLS) authentication
+# Mutual Transport Layer Security (mTLS) authentication from AEM
 
 Learn how to make HTTPS calls from AEM to web APIs that require Mutual Transport Layer Security (mTLS) authentication.
 
@@ -75,7 +75,7 @@ For demo purposes, generate the certificate-related details such as key, certifi
 
 ### Certificate Exchange
 
-If using a self-signed CA for the AEM certificate, like above, exchange the certificate or internal Certification Authority (CA) certificate with the API provider. 
+If using a self-signed CA for the AEM certificate, like above, send the certificate or internal Certification Authority (CA) certificate to the API provider. 
 
 Also, if the API provider is using a self-signed CA certificate, receive the certificate or internal Certification Authority (CA) certificate from the API provider.
 
