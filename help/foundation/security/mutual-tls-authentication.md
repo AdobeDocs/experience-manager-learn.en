@@ -10,8 +10,8 @@ kt: 13881
 thumbnail: KT-13881.png
 doc-type: article
 last-substantial-update: 2023-10-10
+exl-id: 7238f091-4101-40b5-81d9-87b4d57ccdb2
 ---
-
 # Mutual Transport Layer Security (mTLS) authentication from AEM
 
 Learn how to make HTTPS calls from AEM to web APIs that require Mutual Transport Layer Security (mTLS) authentication.
