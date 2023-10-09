@@ -194,7 +194,7 @@ To allow the required [HTTP request headers to passthrough to AEM for processing
 }
 ```
 
-### Caching CORS resposne headers
+### Caching CORS response headers
  
 To allow the caching and serving of CORS headers on cached content, add following [/cache /headers configuration](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers) to the AEM Publish `dispatcher.any` file.
 
