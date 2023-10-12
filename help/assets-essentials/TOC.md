@@ -38,6 +38,6 @@ team: TM
   + [Sending documents and linking assets](./integrations/workfront/link-send.md)
   + [Version history](./integrations/workfront/versions.md)
 
-+ [Adobe Journey Optimizer integration](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)
++ [Adobe Journey Optimizer integration](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html){target=_blank}
 
-+ [Documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)
++ [Documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=_blank}
