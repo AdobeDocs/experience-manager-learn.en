@@ -83,7 +83,7 @@ To get the React app:
    $ npm start
    ```   
 
-1. The React app starts in development mode on [http://localhost:3000/](http://localhost:3000/). Changes made to the React app throughout the tutorial, are reflected immediately.
+1. The React app starts in development mode on [http://localhost:3000/](http://localhost:3000/). Changes made to the React app throughout the tutorial are reflected immediately.
 
   ![Partially implemented React App](./assets/graphql-and-external-app/partially-implemented-react-app.png)
 
@@ -94,7 +94,7 @@ To get the React app:
 >
 > //*********************************
 >
->  // TODO :: Implement this by following the steps from AEM Headless Tutorial 
+>  // TODO  Implement this by following the steps from AEM Headless Tutorial 
 >
 >  //*********************************
 >
@@ -492,7 +492,7 @@ Review the app [http://localhost:3000/](http://localhost:3000/) and click _Membe
 
 ## Under The Hood
 
-Open the browser's **Developer Tools** > **Network** and _Filter_ for `all-teams` request. Notice the GraphQL API request `/graphql/execute.json/my-project/all-teams` is made against `http://localhost:3000` and **NOT** against the value of `REACT_APP_HOST_URI` (for example, <https://publish-p123-e456.adobeaemcloud.com>). The requests are made against the React app's domain because [proxy setup](https://create-react-app.dev/docs/proxying-api-requests-in-development/#configuring-the-proxy-manually) is enabled using `http-proxy-middleware` module. 
+Open the browser's **Developer Tools** > **Network** and _Filter_ for `all-teams` request. Notice the GraphQL API request `/graphql/execute.json/my-project/all-teams` is made against `http://localhost:3000` and **NOT** against the value of `REACT_APP_HOST_URI`, for example `<https://publish-pxxx-exxx.adobeaemcloud.com`. The requests are made against the React app's domain because [proxy setup](https://create-react-app.dev/docs/proxying-api-requests-in-development/#configuring-the-proxy-manually) is enabled using `http-proxy-middleware` module. 
 
 
 ![GraphQL API request via Proxy](assets/graphql-and-external-app/graphql-api-request-via-proxy.png)
