@@ -105,7 +105,7 @@ team: TM
     + [How to setup](./developing/rde/how-to-setup.md)
     + [How to use](./developing/rde/how-to-use.md)
     + [Development life cycle](./developing/rde/development-life-cycle.md)
-  + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html)
+  + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html){target=_blank}
 + Debugging AEM{#debugging}
   + Debugging the AEM SDK{#debugging-aem-sdk}
     + [Overview](./debugging/aem-sdk-local-quickstart/overview.md)
@@ -123,7 +123,7 @@ team: TM
     + Risks{#risks}
       + [Traversal warnings](./debugging/cloud-service/risks/traversals.md)
 + Content Delivery{#content-delivery}
-  + [URL Redirects](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/administration/url-redirection.html)
+  + [URL Redirects](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/administration/url-redirection.html){target=_blank}
 + Caching{#caching}
   + [Overview](./caching/overview.md)
   + [AEM Publish service](./caching/publish.md)
@@ -183,7 +183,7 @@ team: TM
     + [Asset Workflow Migration Tool](./migration/cloud-acceleration-manager/asset-workflow-migration-tool.md)
     + [Navigating the Cloud Acceleration Manager](./migration/cloud-acceleration-manager/navigating.md)
     + [Using the Cloud Acceleration Manager](./migration/cloud-acceleration-manager/using.md)
-+ [Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/content-fragments-console/overview.html)
++ [Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/content-fragments-console/overview.html){target=_blank}
 + Forms{#forms}
     + Developing for Forms as a Cloud Service{#developing-for-cloud-service}
         + [1 - Getting started](./forms/developing-for-cloud-service/getting-started.md)
@@ -311,11 +311,11 @@ team: TM
     + [Troubleshooting](./asset-compute/troubleshooting.md)
 
 + Multi-step Tutorials{#multi-step-tutorials}
-    + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-    + [GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html)
-    + [SPA Editor (React)](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-react-tutorial/overview.html)
-    + [AEM Sites and Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-target-tutorial/overview.html)
-    + [Token-based authentication](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html)
+    + [AEM Sites development](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html){target=_blank}
+    + [GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html){target=_blank}
+    + [SPA Editor (React)](https://experienceleague.adobe.com/docs/experience-manager-learn/spa-react-tutorial/overview.html){target=_blank}
+    + [AEM Sites and Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-target-tutorial/overview.html){target=_blank}
+    + [Token-based authentication](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html){target=_blank}
 + Expert Resources {#expert-resources}
   + AEM Champions {#aem-champions}
     + [Cloud Manager Onboarding Playbook](./expert-resources/aem-champions/onboarding-playbook.md)
