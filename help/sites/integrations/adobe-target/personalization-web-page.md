@@ -21,7 +21,7 @@ Learn how to create an activity to redirect your site pages that are hosted on A
 
 ## Prerequisites
 
-In order to personalize full pages of an AEM web site, the following set up must be completed:
+To personalize full pages of an AEM web site, the following set-up must be completed:
 
 1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
 1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
@@ -41,7 +41,7 @@ WKND site redesigned their home page and would like to redirect their current ho
 
     ![Activity URL](assets/ab-test-url.png)
 
-1. The Visual Experience Composer displays two tabs on the left side after you create a new activity: *Experience A* and *Experience B*. Select an experience from the list. You can add new experiences to the list, by using the **Add Experience** button.
+1. The Visual Experience Composer displays two tabs on the left side after you create an activity: *Experience A* and *Experience B*. Select an experience from the list. You can add new experiences to the list by using the **Add Experience** button.
 
     ![Experience Options](assets/experience-options.png)
 
@@ -76,5 +76,5 @@ As a marketer you were able to create an activity to redirect your site pages th
 
 ## Supporting Links
 
-* [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 
+* [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 
 * [Adobe Experience Cloud Debugger - Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/)

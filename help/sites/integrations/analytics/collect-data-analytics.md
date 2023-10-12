@@ -47,9 +47,9 @@ The following are required:
 
 ## Switch Tag Environment for WKND Site
 
-The [WKND](http://wknd.site/us/en.html) is a public facing site built based on [an open-source project](https://github.com/adobe/aem-guides-wknd) designed as a reference and [tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for an AEM implementation. 
+The [WKND](https://wknd.site/us/en.html) is a public-facing site built based on [an open-source project](https://github.com/adobe/aem-guides-wknd) designed as a reference and [tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for an AEM implementation. 
 
-Instead of setting up an AEM environment and installing the WKND code base, you can use the Experience Platform debugger to **switch** the live [WKND Site](http://wknd.site/us/en.html) to *your* tag property. However, you can use your own AEM site if it already has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation).
+Instead of setting up an AEM environment and installing the WKND code base, you can use the Experience Platform debugger to **switch** the live [WKND Site](https://wknd.site/us/en.html) to *your* tag property. However, you can use your own AEM site if it already has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation).
 
 1. Log in to Experience Platform and [create a Tag property](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html) (if you haven't already).
 1. Ensure that an initial tag JavaScript [library has been created](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library) and promoted to the tag [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html).
@@ -57,7 +57,7 @@ Instead of setting up an AEM environment and installing the WKND code base, you 
 
    ![Copy Tag Property Embed Code](assets/collect-data-analytics/launch-environment-copy.png)
 
-1. In your browser, open a new tab and navigate to [WKND Site](http://wknd.site/us/en.html)
+1. In your browser, open a new tab and navigate to [WKND Site](https://wknd.site/us/en.html)
 1. Open the Experience Platform Debugger browser extension
 
    ![Experience Platform Debugger](assets/collect-data-analytics/experience-platform-debugger-extension.png)
@@ -74,7 +74,7 @@ Instead of setting up an AEM environment and installing the WKND code base, you 
 
 The [WKND reference project](https://github.com/adobe/aem-guides-wknd) is built with AEM Core Components and has the [Adobe Client Data Layer enabled](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html#installation-activation) by default. Next, verify that the Adobe Client Data Layer is enabled.
 
-1.  Navigate to [WKND Site](http://wknd.site/us/en.html).
+1.  Navigate to [WKND Site](https://wknd.site/us/en.html).
 1.  Open the browser's developer tools and navigate to the **Console**. Run the following command:
 
     ```js
@@ -109,7 +109,7 @@ The [WKND reference project](https://github.com/adobe/aem-guides-wknd) is built 
 
 ## Create a Page Loaded rule
 
-The Adobe Client Data Layer is an **event** driven data layer. When the AEM Page data layer is loaded, it triggers a `cmp:show` event. Create a rule that is triggered when the `cmp:show` event is fired from the page data layer.
+The Adobe Client Data Layer is an **event-driven** data layer. When the AEM Page data layer is loaded, it triggers a `cmp:show` event. Create a rule that is triggered when the `cmp:show` event is fired from the page data layer.
 
 1. Navigate to Experience Platform and into the tag property integrated with the AEM Site.
 1. Navigate to the **Rules** section in the Tag Property UI and then click **Create New Rule**.
@@ -172,7 +172,7 @@ The Adobe Client Data Layer is an **event** driven data layer. When the AEM Page
    console.log("Page template: " + event.component['xdm:template']);
    ```
 
-   The `event` object is passed from the `trigger()` method called in the custom event. Here the `component` is the current page derived from the data layer `getState` in the custom event. 
+   The `event` object is passed from the `trigger()` method called in the custom event. Here, the `component` is the current page derived from the data layer `getState` in the custom event. 
 
 1. Save the changes and run a [build](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/builds.html) in the tag property to promote the code to the [environment](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html) used on your AEM Site.
 

@@ -41,9 +41,9 @@ Exporting Experience Fragment to Adobe Target without the correct permissions in
 
 #### Resolution
 
-1. Login to [Admin Console](https://adminconsole.adobe.com/) with administrative rights for the Adobe Target Product Profile used but he AEM integration
+1. Login to [Admin Console](https://adminconsole.adobe.com/) with administrative rights for the Adobe Target Product Profile used but the AEM integration
 2. Select __Products > Adobe Target > Product Profile__
-3. Under __Integrations__ tab, select the integration for your AEM as a Cloud Service environment (same name as the Adobe I/O project)
+3. Under __Integrations__ tab, select the integration for your AEM as a Cloud Service environment (same name as the Adobe Developer project)
 4. Assign __Editor__ or __Approver__ role 
 
     ![Target API Error](assets/target-permissions.png)
@@ -52,5 +52,5 @@ Adding the correct permission to your Adobe Target integration should resolve th
 
 ## Supporting Links
 
-+ [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 
++ [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 
 + [Adobe Experience Cloud Debugger - Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/)

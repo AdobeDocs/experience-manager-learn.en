@@ -1,6 +1,6 @@
 ---
 title: Create client libraries
-description: Create clientlibrary to handle the click event of the "Save and Exit" button
+description: Create client library to handle the click event of the "Save and Exit" button
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
@@ -13,7 +13,7 @@ exl-id: c90eea73-bd44-40af-aa98-d766aa572415
 ---
 # Create client lib
 
-Create [client lib](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html) which will include the code to invoke the method `doAjaxSubmitWithFileAttachment` of the `guideBridge` API on the click event of the button identified by the CSS class **savebutton**.  We pass the adaptive form data, `fileMap`, and the `mobileNumber` to the endpoint listening at `**/bin/storeafdatawithattachments`
+Create [client lib](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html) which will include the code to invoke the method `doAjaxSubmitWithFileAttachment` of the `guideBridge` API on the click event of the button identified by the CSS class **save button**.  We pass the adaptive form data, `fileMap`, and the `mobileNumber` to the endpoint listening at `**/bin/storeafdatawithattachments`
 
 After the form data is saved a unique application id is generated and presented to the user in a dialog box. On dismissing the dialog box the user is taken to the form which allows them to retrieve the saved adaptive form using the unique application id. 
 
@@ -62,9 +62,9 @@ $(document).ready(function () {
 ```
 
 >[!NOTE]
-> We have used [bootbox javascript library](http://bootboxjs.com/examples.html) to display dialog box
+> We have used [bootbox JavaScript library](https://bootboxjs.com/examples.html) to display dialog box
 
-The client libraries used in this sample can be [downloaded from here](assets/store-af-with-attachments-client-lib.zip)
+The client libraries used in this sample can be [downloaded from here.](assets/store-af-with-attachments-client-lib.zip)
 
 ## Next Steps
 
