@@ -16,6 +16,8 @@ exl-id: 7238f091-4101-40b5-81d9-87b4d57ccdb2
 
 Learn how to make HTTPS calls from AEM to web APIs that require Mutual Transport Layer Security (mTLS) authentication.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3424855?quality=12&learn=on)
+
 The mTLS or two-way TLS authentication enhances the security of the TLS protocol by requiring **both the client and the server to authenticate each other**. This authentication is done by using digital certificates. It is commonly used in scenarios where strong security and identity verification are critical.
 
 By default when trying to make an HTTPS connection to a web API that requires mTLS authentication, the connection fails with the error:
@@ -216,3 +218,9 @@ private KeyStore getAEMTrustStore(KeyStoreService keyStoreService, ResourceResol
 A conventional approach to effectively invoke mTLS APIs with private certificates involves modifying the JVM Keystore. It is achieved by importing the private certificates using the Java&trade; [keytool](https://docs.oracle.com/en/java/javase/11/tools/keytool.html#GUID-5990A2E4-78E3-47B7-AE75-6D1826259549) command. 
 
 However, this method is not aligned with security best practices and AEM offers a superior option through the utilization of the **User specific KeyStores and Global TrustStore** and [KeyStoreService](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/com/adobe/granite/keystore/KeyStoreService.html).
+
+## Solution Package
+
+The sample Node.js project demoed in the video can be downloaded from [here](assets/internal-api-call/REST-APIs.zip).
+
+The AEM servlet code is available in the WKND Sites Project's `tutorial/web-api-invocation` branch, [see](https://github.com/adobe/aem-guides-wknd/tree/tutorial/web-api-invocation/core/src/main/java/com/adobe/aem/guides/wknd/core/servlets).
