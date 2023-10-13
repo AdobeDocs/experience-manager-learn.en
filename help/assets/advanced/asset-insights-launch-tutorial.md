@@ -1,6 +1,6 @@
 ---
 title: Set up Asset Insights with AEM Assets and Adobe Launch
-description: In this 5 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Launch By Adobe.
+description: In this five-part video series, let's walk through the setup and configuration of Asset Insights for Experience Manager deployed via Launch By Adobe.
 feature: Asset Insights
 version: 6.4, 6.5
 topic: Integrations
@@ -13,7 +13,7 @@ exl-id: 00125fe1-3bb9-4b1a-a83c-61c413403ae2
 ---
 # Set up Asset Insights with AEM Assets and Adobe Experience Platform Launch
 
-In this 5 part video series, we walk through the setup and configuration of Asset Insights for Experience Manager deployed via Adobe Launch.
+In this five-part video series, let's walk through the setup and configuration of Asset Insights for Experience Manager deployed via Adobe Launch.
 
 ## Part 1: Asset Insights Overview {#overview}
 
@@ -29,7 +29,7 @@ Asset Insights Overview. Install Core Components, Sample Image Component and oth
 >
 >Make sure to download the [latest version of Core Components](https://github.com/adobe/aem-core-wcm-components) for your implementation. 
 
-The video uses Core Components v2.2.2 which not no longer the latest version; be sure to use the latest version before you proceed to the next section.
+The video uses Core Components v2.2.2 which is not the latest version; be sure to use the latest version before you proceed to the next section.
 
 * Download [Asset Insights Sample Image Content](./assets/asset-insights-launch-tutorial/aem-assets-insights-sample.zip)
 * Download [the latest AEM WCM Core Components](https://github.com/adobe/aem-core-wcm-components/releases)
@@ -53,7 +53,7 @@ Core Image component uses ***data-asset-id*** attribute within the parent &lt;di
 
 >[!NOTE]
 >
->*data-aem-asset-id='image.UUID'* and *data-trackable='true'* are the key attributes that needs to be present for Asset Impressions. For Asset Click Insights, in addition to the above data attributes present at the &lt;img&gt; tag, the parent &lt;a&gt; tag must have a valid href value.
+>*data-aem-asset-id='image.UUID'* and *data-trackable='true'* are the key attributes that need to be present for Asset Impressions. For Asset Click Insights, in addition to the above data attributes present at the &lt;img&gt; tag, the parent &lt;a&gt; tag must have a valid href value.
 
 ## Part 3: Adobe Analytics — Creating Report Suite, enabling Real-Time data collection and AEM Assets Reporting {#adobe-analytics-asset-insights}
 
@@ -63,7 +63,7 @@ Report suite with real-time data collection is created for asset tracking. AEM A
 
 >[!NOTE]
 >
->Real Time data collection and AEM Asset Reporting needs to be enabled for your Adobe Analytics Report Suite. Enabling AEM Asset Reporting reserves analytics variables for tracking asset insights.
+>Real-Time data collection and AEM Asset Reporting must be enabled for your Adobe Analytics Report Suite. Enabling AEM Asset Reporting reserves analytics variables for tracking asset insights.
 
 For AEM Assets Insights configuration you need the following credentials
 
@@ -100,10 +100,10 @@ Page tracker implements two call backs (registered in asset-embed-code)
 * **\<code>assetAnalytics.core.assetLoaded\<code>** : called when 'load' event is dispatched for the asset-DOM-element.
 * **\<code>assetAnalytics.core.assetClicked\<code>** : called when 'click' event is dispatched for the asset-DOM-element this is relevant only when the asset-DOM-element has an anchor tag as parent with a valid, external 'href' attribute
 
-Finally, Pagetracker implements an initialization function as.
+Finally, Page tracker implements an initialization function as.
 
-*  **\<code>assetAnalytics.dispatcher.init()\<code>** : called to initialize the Pagetracker component. This MUST be invoked before any of the asset-insights-events (Impressions and/or Clicks) are generated from the webpage.
-* **\<code>assetAnalytics.dispatcher.init()\<code>** : optionally accepts an AppMeasurement object — if provided, it does not attempt to create a new instance of AppMeasurement object.
+*  **\<code>assetAnalytics.dispatcher.init()\<code>** : called to initialize the Page tracker component. This MUST be invoked before any of the asset-insights-events (Impressions and/or Clicks) are generated from the webpage.
+* **\<code>assetAnalytics.dispatcher.init()\<code>** : optionally accepts an AppMeasurement object — if provided, it does not attempt to create an instance of AppMeasurement object.
 
 ### Rule 2: Image Tracker — Action 1 (asset-insights.js) {#rule-image-tracker-action-asset-insights-js}
 
@@ -186,9 +186,9 @@ document.querySelectorAll(".cmp-image__image");
 Two Google Chrome browser extensions are referenced in the video as ways to debug Analytics. Similar extensions are available for other browsers as well.
 
 * [Launch Switch Chrome Extension](https://chrome.google.com/webstore/detail/launch-and-dtm-switch/nlgdemkdapolikbjimjajpmonpbpmipk?hl=en)
-* [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
+* [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)
 
-It is also possible to switch DTM into debug mode with the following Chrome Extension: [Launch and DTM Switch](https://chrome.google.com/webstore/detail/launch-and-dtm-switch/nlgdemkdapolikbjimjajpmonpbpmipk?hl=en). This makes it easier to see if there are any errors related to DTM deployment. In addition, you can manually switch DTM to debug mode via any browsers *developer tools -&gt; JS Console* by adding the following snippet:
+It is also possible to switch DTM into debug mode with the following Chrome Extension: [Launch and DTM Switch](https://chrome.google.com/webstore/detail/launch-and-dtm-switch/nlgdemkdapolikbjimjajpmonpbpmipk?hl=en). This makes it easier to see if there are any errors related to DTM deployment. In addition, you can manually switch DTM to debug mode via any browser *developer tool -&gt; JS Console* by adding the following snippet:
 
 ## Part 5 : Testing Analytic Tracking and Syncing Insight Data{#analytics-tracking-asset-insights}
 

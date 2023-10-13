@@ -7,7 +7,7 @@ feature: Adaptive Forms, Workflow
 role: Developer
 level: Beginner
 kt: 13783
-
+exl-id: 6afb3a52-9879-4393-8efd-ec3e5c303063
 ---
 # Log the variables value in AEM Workflow
 

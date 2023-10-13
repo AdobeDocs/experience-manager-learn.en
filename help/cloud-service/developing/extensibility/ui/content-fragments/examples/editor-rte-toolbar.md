@@ -10,7 +10,7 @@ jira: KT-13464
 thumbnail: KT-13464.jpg
 doc-type: article
 last-substantial-update: 2023-06-12
-exl-id: 2b72c282-bce8-4f2a-bce6-f2f31e96ec88
+exl-id: 6fd93d3b-6d56-43c5-86e6-2e2685deecc9
 ---
 # Add custom button to Rich Text Editor (RTE) toolbar
 

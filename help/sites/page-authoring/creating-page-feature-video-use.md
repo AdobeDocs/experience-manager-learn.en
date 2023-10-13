@@ -18,6 +18,8 @@ exl-id: 2ad1554e-312a-4150-b365-7e00eab1fa43
 ---
 # Creating a Page {#creating-page-aem-sites}
 
+{{edge-delivery-services-and-page-editor}}
+
 Learn how to create site pages using page templates in Adobe Experience Manager.
 
 >[!VIDEO](https://video.tv.adobe.com/v/31827?quality=12&learn=on)

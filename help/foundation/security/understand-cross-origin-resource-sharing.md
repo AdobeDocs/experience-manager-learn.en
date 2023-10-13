@@ -17,6 +17,13 @@ exl-id: 6009d9cf-8aeb-4092-9e8c-e2e6eec46435
 
 Adobe Experience Manager's Cross-Origin Resource Sharing ([!DNL CORS]) facilitates non-AEM web properties to make client-side calls to AEM, both authenticated and unauthenticated, to fetch content or directly interact with AEM.
 
+The OSGI configuration outlined in this document is sufficient for:
+
+1. Single-origin resource sharing on AEM Publish
+2. CORS access to AEM Author
+
+If multi-origin CORS access is required on AEM Publish, refer to [this documentation](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/deployments/configurations/cors.html?lang=en#dispatcher-configuration).
+
 ## Adobe Granite Cross-Origin Resource Sharing Policy OSGi configuration
 
 CORS configurations are managed as OSGi configuration factories in AEM, with each policy being represented as one instance of the factory.

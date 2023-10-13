@@ -10,11 +10,13 @@ kt: 11548
 thumbnail: KT-11548.png
 doc-type: article
 last-substantial-update: 2023-08-25
+exl-id: c88aa724-9680-450a-9fe8-96e14c0c6643
 ---
-
 # Call internal APIs having private certificates
 
 Learn how to make HTTPS calls from AEM to web APIs using private or self-signed certificates.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424853?quality=12&learn=on)
 
 By default when trying to make an HTTPS connection to a web API that uses a self-signed certificate, the connection fails with the error:
 
@@ -54,7 +56,7 @@ The code uses the [Apache HttpComponent](https://hc.apache.org/)'s [HttpClient](
 
 ## HttpClient and load AEM TrustStore material
 
-To call an API endpoint that has _private or self-signed certificate_, the [HttpClient](https://hc.apache.org/httpcomponents-client-4.5.x/index.html)'s `SSLContextBuilder` must be loaded with AEM's TrustStore, and used to faciliate the connection. 
+To call an API endpoint that has _private or self-signed certificate_, the [HttpClient](https://hc.apache.org/httpcomponents-client-4.5.x/index.html)'s `SSLContextBuilder` must be loaded with AEM's TrustStore, and used to facilitate the connection. 
 
 Follow the below steps:
 
@@ -144,3 +146,10 @@ Follow the below steps:
 A conventional approach to effectively invoke internal APIs with private certificates involves modifying the JVM Keystore. It is achieved by importing the private certificates using the Java&trade; [keytool](https://docs.oracle.com/en/java/javase/11/tools/keytool.html#GUID-5990A2E4-78E3-47B7-AE75-6D1826259549) command. 
 
 However, this method is not aligned with security best practices and AEM offers a superior option through the utilization of the **Global Trust Store** and [KeyStoreService](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/com/adobe/granite/keystore/KeyStoreService.html).
+
+
+## Solution Package
+
+The sample Node.js project demoed in the video can be downloaded from [here](assets/internal-api-call/REST-APIs.zip).
+
+The AEM servlet code is available in the WKND Sites Project's `tutorial/web-api-invocation` branch, [see](https://github.com/adobe/aem-guides-wknd/tree/tutorial/web-api-invocation/core/src/main/java/com/adobe/aem/guides/wknd/core/servlets).

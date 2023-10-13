@@ -10,8 +10,8 @@ doc-type: Article
 last-substantial-update: 2023-08-28
 jira: KT-13858
 thumbnail: KT-13858.jpeg
+exl-id: 1a1accbe-7706-4f9b-bf63-755090d03c4c
 ---
-
 # AEM Publish
 
 The AEM Publish service has two primary caching layers, the AEM as a Cloud Service CDN and AEM Dispatcher. Optionally a customer managed CDN can be placed in front of the AEM as a Cloud Service CDN. The AEM as a Cloud Service CDN provides edge delivery of content, ensuring experiences are delivered with low latency to users around the world. AEM Dispatcher provides caching directly in front of AEM Publish, and is used to mitigate unnecessary load on AEM Publish itself.

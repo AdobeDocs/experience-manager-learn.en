@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Feature Video
 last-substantial-update: 2023-05-12
 jira: KT-13240
-exl-id: 35f9995d-50d7-4582-8bcc-16ed1811c41b
+exl-id: 1862d95e-5a39-4d37-8425-fb5eab2b8bd7
 ---
 # New editor toggle
 

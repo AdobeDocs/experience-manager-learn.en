@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Value Video
 last-substantial-update: 2023-05-11
 jira: KT-13230
-exl-id: 35f1e1fd-a1e1-43b5-b9b3-2a3803ebe175
+exl-id: a89860ed-9ea4-494c-bce9-91ec550361fe
 ---
 # AEM Champion Tips and Tricks - Cloud Manager UI
 

@@ -18,6 +18,8 @@ exl-id: 896d378c-c20e-4343-b592-277f4c71065e
 ---
 # AEM Sites UI and navigation {#basic-handling-aem-sites}
 
+{{edge-delivery-services-and-page-editor}}
+
 The following video provides an overview of basic handling when using the AEM author environment. It uses the Sites console as a basis.
 
 >[!VIDEO](https://video.tv.adobe.com/v/31784?quality=12&learn=on)

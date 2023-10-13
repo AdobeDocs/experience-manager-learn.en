@@ -18,6 +18,8 @@ exl-id: a14c511f-504a-48ce-864b-b1a30cbaea9a
 ---
 # Authoring a page {#authoring-page-aem-sites}
 
+{{edge-delivery-services-and-page-editor}}
+
 Learn how to author a page in Adobe Experience Manager Sites using the Site Editor's UI.
 
 >[!VIDEO](https://video.tv.adobe.com/v/31828?quality=12&learn=on)

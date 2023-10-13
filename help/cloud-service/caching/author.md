@@ -10,8 +10,8 @@ doc-type: Article
 last-substantial-update: 2023-08-28
 jira: KT-13858
 thumbnail: KT-13858.jpeg
+exl-id: b8e09820-f1f2-4897-b454-16c0df5a0459
 ---
-
 # AEM Author
 
 AEM Author has limited caching due to the highly dynamic, and permission sensitive nature of the content it serves. In general, it is not recommended to customize caching for AEM Author and instead rely on the cache configurations provided by Adobe to ensure a performant experience.
@@ -44,4 +44,3 @@ The following customer facing resources are cached by the AEM Author CDN, and ha
 ## AEM Dispatcher
 
 AEM Author service does not include AEM Dispatcher, and only uses the [CDN](#cdn) for caching.
-

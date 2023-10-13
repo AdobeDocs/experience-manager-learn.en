@@ -12,6 +12,8 @@ exl-id: 12d8c0c6-c556-49f4-a6fe-84fccfccf95e
 ---
 # Using Timewarp {#using-timewarp-with-aem-sites}
 
+{{edge-delivery-services-and-page-editor}}
+
 Timewarp is a feature of Adobe Experience Manager Sites that provides authors with a quick way to review the state of a page at specific time in the past.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17453?quality=12&learn=on)

@@ -1,6 +1,6 @@
 ---
 title: Create new page component
-description: Create a new page component 
+description: Create a new page component
 feature: Adaptive Forms
 type: Documentation
 role: Developer
@@ -8,8 +8,8 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 kt: 13717
+exl-id: 7469aa7f-1794-40dd-990c-af5d45e85223
 ---
-
 # Page Component
 
 A page component is a regular component responsible for rendering a page. We are going a create a new page component and will be associating this page component with a new adaptive form template. This ensure our code will be excecuted only when an adaptive form is based on this particular template.
@@ -78,5 +78,4 @@ In this code we get the value of the request parameter **guid** and store it in 
 
 ### Next Steps
 
-[Associate the page component with the template](./associate-page-component.md) 
-
+[Associate the page component with the template](./associate-page-component.md)

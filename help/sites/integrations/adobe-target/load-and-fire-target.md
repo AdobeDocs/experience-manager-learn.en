@@ -23,7 +23,7 @@ Learn how to load, pass parameters to page request, and fire a Target call from 
 
 ## Page Load Rule 
 
-The Adobe Client Data Layer is an event driven data layer. When the AEM Page data layer is loaded, it will trigger an event `cmp:show` . In the video, the `Launch Library Loaded` rule is invoked using a custom event. Below, you can find the code snippets used in the video for the custom event as well as for the data elements. 
+The Adobe Client Data Layer is an event-driven data layer. When the AEM Page data layer is loaded, it triggers an event `cmp:show` . In the video, the `Launch Library Loaded` rule is invoked using a custom event. Below, you can find the code snippets used in the video for the custom event and for the data elements. 
 
 ### Custom Page Shown Event{#page-event}
 
@@ -35,7 +35,7 @@ In the Launch property, add a new **Event** to the **Rule**
 + __Event Type:__ Custom Code
 + __Name:__ Page Show Event Handler (or something  descriptive)
 
-Tap the __Open Editor__ button an paste in the following code snippet. This code __must__ be added to the __Event Configuration__ and a subsequent __Action__. 
+Tap the __Open Editor__ button and paste in the following code snippet. This code __must__ be added to the __Event Configuration__ and a subsequent __Action__. 
 
 ```javascript
 // Define the event handler function
@@ -75,7 +75,7 @@ window.adobeDataLayer.push(function (dataLayer) {
 });
 ```
 
-A custom function define the `pageShownEventHandler`, and listens for events emitted by AEM Core Components, derives the relevant information the Core Component, packages it up into an event object, and triggers the Launch Event with the derived event info at its payload.
+A custom function defines the `pageShownEventHandler`, and listens for events emitted by AEM Core Components, derives the relevant information the Core Component, packages it up into an event object, and triggers the Launch Event with the derived event info at its payload.
 
 The Launch Rule is triggered using the Launch's `trigger(...)` function which is __only__ available from within a Rule's Event's Custom Code code snippet definition. 
 
@@ -156,7 +156,7 @@ window.targetGlobalSettings = {
 ## Supporting Links
 
 + [Adobe Client Data Layer Documentation](https://github.com/adobe/adobe-client-data-layer/wiki)
-+ [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 
++ [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 
 + [Adobe Experience Cloud Debugger - Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/)
 + [Using the Adobe Client Data Layer and Core Components Documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html)
-+ [Introduction to the Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-platform-debugger/introduction-to-the-experience-platform-debugger.html)
++ [Introduction to the Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)

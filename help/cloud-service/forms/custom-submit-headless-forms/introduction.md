@@ -9,8 +9,8 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 13520
+exl-id: 78fe677c-d5ab-40f6-a381-800f24e227ae
 ---
-
 # Customize response based on submitted data
 
 After the form is submitted , it is important to provide feedback to the user about the outcome of the submission. The submission response could include an transaction id, or simply a personalized response. To satify this use case, a custom submit service is written in AEM Forms and the headless form is submitted to this custom submit service.

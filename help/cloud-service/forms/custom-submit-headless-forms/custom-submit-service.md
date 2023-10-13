@@ -1,6 +1,6 @@
 ---
 title: Create custom submit service to handle headless adaptive form submission
-description: Return custom response based on the submitted data 
+description: Return custom response based on the submitted data
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
@@ -9,8 +9,8 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 kt: 13520
+exl-id: c23275d7-daf7-4a42-83b6-4d04b297c470
 ---
-
 # Creating custom submit
 
 AEM Forms provides a number of submit options out of the box which satisfy most of the use cases.In additon to these pre-defined submit actions, AEM Forms allows you to write your own custom submit handler to process the form submission as per your needs.
@@ -120,15 +120,3 @@ Once the pipleine has executed successfully, you should be able to associate the
 ## Next Steps
 
 [Display the custom response in your react app](./handle-response-react-app.md)
-
-
-
-
-
-
-
-
-
-
-
-
