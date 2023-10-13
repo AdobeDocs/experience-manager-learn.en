@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 kt: 13099
 last-substantial-update: 2023-04-13
-exl-id: d97ff584-7fa0-48bc-9b83-ba45c26b7d87
+exl-id: d6fb6c80-4bfe-4b9d-b267-7caee3944cc0
 ---
 # Generate Interactive Communication Document
 

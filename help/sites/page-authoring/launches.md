@@ -12,6 +12,8 @@ exl-id: 7e5ba3f5-e755-452a-8e72-be7832e95a49
 ---
 # Launches
 
+{{edge-delivery-services-and-page-editor}}
+
 Launches in AEM Sites provide a way to create, author, and review web site content for future release. During the creation of the launch the production web site can continue to evolve and change day to day as it normally would. 
 
 >[!VIDEO](https://video.tv.adobe.com/v/331285?quality=12&learn=on)

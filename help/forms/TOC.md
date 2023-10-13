@@ -170,6 +170,7 @@ index: y
   + [Extract node from xml document](custom-workflow-steps/extract-xml-node.md)
   + [Save document to file system](custom-workflow-steps/write-payload-document.md)
   + [Save submitted data in string variable](custom-workflow-steps/save-submitted-data-in-string-variable.md)
+  + [Extract document from List of Documents](custom-workflow-steps/extract-document-from-list.md)
 + Custom workflow component{#custom-workflow-component}
   + [1-Introduction](custom-workflow-component/introduction.md)
   + [2-Write java code](custom-workflow-component/custom-process-step-aem-workflow.md)

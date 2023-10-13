@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 kt: 13099
 last-substantial-update: 2023-04-13
-exl-id: d970d58b-77a4-4012-9e72-b97d60ef028a
+exl-id: 3b7632bd-3820-4c1e-aa3f-8a6a4fc26847
 ---
 # Create Acrobat Sign Web Form URL
 
@@ -84,4 +84,3 @@ public class GetWidgetUrl extends SlingAllMethodsServlet {
 ## Next Steps
 
 [Deploy the tutorial assets on your local system](./deploy-assets-on-your-server.md)
-

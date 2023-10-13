@@ -37,7 +37,7 @@ version: 6.4, 6.5, Cloud Service
   + [Web Optimized Image Delivery](components/web-optimized-image-delivery.md)
   + [Components Console](components/components-console-feature-video-use.md)
 + Content Fragments {#content-fragments}
-  + [Content Fragments console](https://experienceleague.adobe.com/docs/experience-manager-learn/content-fragments-console/overview.html)
+  + [Content Fragments console](https://experienceleague.adobe.com/docs/experience-manager-learn/content-fragments-console/overview.html){target=_blank}
   + [Authoring Content Fragments](content-fragments/content-fragments-feature-video-use.md)
   + [Delivering Content Fragments](content-fragments/content-fragments-delivery-feature-video-use.md)
   + [Translating Content Fragments](content-fragments/content-fragments-translation-feature-video-use.md)
@@ -45,13 +45,13 @@ version: 6.4, 6.5, Cloud Service
 + Experience Fragments {#experience-fragments}
   + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
   + [Building Blocks](experience-fragments/building-blocks.md)
-  + [Content Fragments vs. Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html)
+  + [Content Fragments vs. Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}
   
 + Developing {#developing}
   + [AEM Project Archetype](developing/aem-project-archetype.md)
-  + [Getting Started with AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-  + [Getting Started with AEM Headless](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html)
-  + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html)
+  + [Getting Started with AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html){target=_blank}
+  + [Getting Started with AEM Headless](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html){target=_blank}
+  + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html){target=_blank}
   + [Extending Page Properties](developing/page-properties-technical-video-develop.md)
   + [Responsive breakpoints](developing/responsive-breakpoints.md)
   + [Developing with the Style System](developing/style-system-technical-video-understand.md)
@@ -61,7 +61,7 @@ version: 6.4, 6.5, Cloud Service
   + [Social Media Sharing](developing/social-media-sharing-technical-video-use.md)
   + [Customizing Component Icons](developing/component-icons-technical-video-develop.md)
 + Personalization {#personalization}
-  + [Integration with Adobe Target](https://helpx.adobe.com/marketing-cloud/how-to/aem-target.html)
+  + [Integration with Adobe Target](https://helpx.adobe.com/marketing-cloud/how-to/aem-target.html){target=_blank}
   + [Setup Experience Fragments and Adobe Target](personalization/experience-fragment-target-technical-video-setup.md)
   + [Using Experience Fragments with Adobe Target](personalization/experience-fragment-target-offer-feature-video-use.md)
   + [Setup ContextHub](personalization/context-hub-technical-video-setup.md)
@@ -69,7 +69,7 @@ version: 6.4, 6.5, Cloud Service
   + [Sitemaps](./seo/sitemaps.md)
 + Single Page Applications {#spa-editor}
   + [Using the SPA Editor](spa-editor/spa-editor-framework-feature-video-use.md)
-  + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html)
+  + [Getting Started with AEM SPA Editor and React](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html){target=_blank}
 + Multi Site Management {#multi-site-management}
   + [Introduction to Language Copy](./multi-site-management/language-copy-overview.md)
   + [Live Copy and Blueprint](./multi-site-management/live-copy-and-blueprint.md)

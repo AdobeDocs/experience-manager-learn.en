@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 kt: 13099
 last-substantial-update: 2023-04-13
-exl-id: 2ff7be5b-884c-420d-9a06-f0e2a99d3ef3
+exl-id: 64172af3-2905-4bc8-8311-68c2a70fb39e
 ---
 # AEM Forms with Acrobat Sign Web Form
 

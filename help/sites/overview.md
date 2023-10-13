@@ -8,29 +8,26 @@ exl-id: cde4ce7f-0afe-4632-8c1c-354586f296d5
 ---
 # AEM Sites videos and tutorials {#overview}
 
+{{edge-delivery-services}}
+
 Adobe Experience Manager (AEM) Sites is a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
 
-
-<div id="whats-new-section">
+<div id="whats-new-section-skip"></div>
 
 ## What's new
 
-* **[Using Launches with AEM Sites (Video)](./page-authoring/launches.md)**
-    *Learn about AEM Sites' Launches and how they can be used to prepare web site content for future release.*
+* **[Overview of AEM and Edge Delivery Services (Video)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/overview.html)**
+    *Explore the comprehensive world of Adobe Experience Manager (AEM) encompassing AEM Sites, AEM Assets, AEM Headless, AEM Forms, and Edge Delivery Services in this informative overview video.*
 
-* **[Customize the Adobe Client Data Layer with AEM Components (Tutorial)](./integrations/adobe-client-data-layer/data-layer-customize.md)**
-  *Learn how to update the Adobe Client Data Layer with content from custom AEM Components.*
+* **[What are AEM and Edge Delivery Services? (Video)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html)**
+    *Learn about the value Adobe Experience Manager (AEM) and Edge Delivery Services provide.*
 
-* **[Getting Started with AEM Headless GraphQL (Tutorial)](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html)**
-    *How to expose content from AEM to be consumed by a native mobile app using AEM's GraphQL APIs.*
+* **[Learn about the evolution of AEM (Video)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/evolution.html)**
+    *Learn about AEM's evolution and the value it provides, from AEM 6.5 to AEM as a Cloud Service, and finally to Edge Delivery Services.*
 
-* **[Using Content Fragments (Video Series)](./content-fragments/content-fragments-feature-video-use.md)**
-    *Content Fragments are channel agnostic pieces of content able to be reused.*
+* **[AEM with Edge Delivery Services architectural overview (Video)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/architecture.html)**
+    *Learn all about AEM as a Cloud Service's architecture!*
 
-* **[Using the SPA Editor (Video)](./spa-editor/spa-editor-framework-feature-video-use.md)**
-    *Learn about AEM's editing capabilities for single page applications (SPA).*
-
-</div>
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>

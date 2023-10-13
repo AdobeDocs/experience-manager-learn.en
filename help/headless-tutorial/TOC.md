@@ -14,7 +14,7 @@ index: y
 
 + [AEM Headless Overview](./overview.md)
 + GraphQL {#graphql}
-  + [AEM Headless Developer Portal](https://experienceleague.adobe.com/landing/experience-manager/headless/developer.html)
+  + [AEM Headless Developer Portal](https://experienceleague.adobe.com/landing/experience-manager/headless/developer.html){target=_blank}
   + [Overview](./graphql/overview.md)
   + Quick setup {#quick-setup}
     + [Cloud Service](./graphql/quick-setup/cloud-service.md)

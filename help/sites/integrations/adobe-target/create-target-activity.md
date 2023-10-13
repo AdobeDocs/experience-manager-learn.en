@@ -23,7 +23,7 @@ Learn how to create and test an Adobe Target Activity using AEM Experience Fragm
 
 ## Prerequisites
 
-In order to create Adobe Target Activities using Experience Fragment Offers, the following set up must be completed:
+To create Adobe Target Activities using Experience Fragment Offers, the following set-up must be completed:
 
 1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
 1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
@@ -32,5 +32,5 @@ In order to create Adobe Target Activities using Experience Fragment Offers, the
 
 ## Supporting Links
 
-* [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 
+* [Adobe Experience Cloud Debugger - Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 
 * [Adobe Experience Cloud Debugger - Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/)

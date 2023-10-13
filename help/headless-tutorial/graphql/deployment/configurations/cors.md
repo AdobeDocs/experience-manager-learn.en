@@ -115,7 +115,7 @@ AEM Publish (and Preview) service's Dispatcher must be configured to support COR
 1. Open the vhost configuration file for the AEM Publish service, in your Dispatcher configuration project, typically at `dispatcher/src/conf.d/available_vhosts/<example>.vhost`
 2. Copy the contents of the `<IfDefine ENABLE_CORS>...</IfDefine>` block below, into your enabled vhost configuration file.
 
-    ```{ highlight="19"}
+    ```{ highlight="17"}
     <VirtualHost *:80>
       ...
       <IfModule mod_headers.c>
@@ -161,8 +161,8 @@ AEM Publish (and Preview) service's Dispatcher must be configured to support COR
           RewriteCond expr "reqenv('CORSProcessing') == 'true' && reqenv('CORSTrusted') == 'false'"
           RewriteRule "^(.*)" - [R=204,L]
 
-          # Remove Origin before sending to AEM Publish
-          RequestHeader unset Origin
+          # Remove Origin before sending to AEM Publish if this configuration handles the CORS
+          RequestHeader unset Origin "expr=reqenv('CORSTrusted') == 'true'"
 
           ################## End of CORS configuration ##################
       </IfModule>

@@ -7,7 +7,7 @@ kt: 13490
 topic: Development
 role: User
 level: Intermediate
-exl-id: 162663db-c439-4258-9ba1-16cf0771171d
+exl-id: 489970a6-1b05-4616-84e8-52b8c87edcda
 ---
 # Display the configured thank you message
 

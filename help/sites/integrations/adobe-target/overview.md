@@ -16,6 +16,8 @@ exl-id: 2bc6cd90-7b23-4dde-bb07-bca0de9fa509
 ---
 # Integrate AEM Sites and Adobe Target
 
+{{edge-delivery-services-and-page-editor}}
+
 Learn how to integrate AEM Sites and Adobe Target to deliver personalized experiences.
 
 Adobe Experience Manager (AEM) and Adobe Target are powerful solutions with complementary capabilities, providing seamless integration to deliver personalized experiences. However, customers may face challenges in understanding how and when to use these products together effectively. To optimize the experience for every end user, it is essential for different teams within your organization to collaborate closely and define clear roles and responsibilities. By leveraging the integration between AEM and Adobe Target, your teams can work harmoniously to deliver exceptional personalized experiences.

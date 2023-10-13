@@ -13,8 +13,8 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 13900
-
 last-substantial-update: 2023-09-09
+exl-id: 18648914-91cc-470d-8f27-30b750eb2f32
 ---
 # Customize thank you page
 
@@ -50,6 +50,3 @@ Associate this thank you page with your main form
 Modify the jsp code in the [createXml.jsp](http://localhost:4502/apps/thank-you-page-template/component/page/thankyoupage/createxml.jsp) to build the xml needed to prefill your adaptive form.
 Preview and submit your adaptive form. 
 The thank you page should be displayed and prepopulated with data as specified in the XML
-
-
-

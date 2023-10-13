@@ -10,8 +10,8 @@ doc-type: Code Sample
 last-substantial-update: 2023-07-14
 jira: KT-13651
 thumbnail: KT-13651.jpeg
+exl-id: 747322ed-f01a-48ba-a4a0-483b81f1e904
 ---
-
 # CSRF protection
 
 Learn how to generate and add AEM CSRF tokens to allowed POST, PUT, and Delete requests to AEM for authenticated users.

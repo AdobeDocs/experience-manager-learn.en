@@ -12,7 +12,7 @@ jira: KT-13156
 thumbnail: KT-13156.jpeg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service" before-title="false"
-exl-id: b5182d35-ec38-4ffd-ae5a-ade2dd3f856d
+exl-id: 47df99e6-6418-43c8-96fe-85e3c47034d6
 ---
 # Integrate AEM Sites and Experience Platform Web SDK
 

@@ -9,7 +9,7 @@ level: Beginner
 recommendations: noDisplay
 thumbnail: null
 last-substantial-update: 2023-06-02
-exl-id: 725df59e-ccb6-44f9-aacd-50eb1c480402
+exl-id: 73f5d90d-e007-41a0-9bb3-b8f36a9b1547
 ---
 # AEM UI extensibility
 

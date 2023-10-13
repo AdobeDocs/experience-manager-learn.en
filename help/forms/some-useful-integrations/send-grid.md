@@ -8,6 +8,7 @@ topic: Development
 role: Developer
 level: Intermediate
 last-substantial-update: 2023-07-14
+exl-id: 62b73f4b-69d8-4ede-9d57-3d6472d25d5a
 ---
 # Integrate AEM Forms with SendGrid
 
@@ -70,4 +71,3 @@ The sample payload for the service is as follows. Replace the placeholder values
 Ensure that the `template_id` corresponds to the ID of your SendGrid dynamic email template, and the email addresses are valid and verified by SendGrid. The values in the `personalizations` section allow you to personalize the email using the user-entered data from the adaptive form.
 
 By following these steps and customizing the provided payload, you can effectively test the integration of SendGrid dynamic templates with AEM Forms.
-

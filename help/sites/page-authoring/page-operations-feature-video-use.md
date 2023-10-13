@@ -12,6 +12,8 @@ exl-id: d4f33657-d3b1-46d3-848c-8b73ce149797
 ---
 # Basic page operations {#basic-page-operations-aem-sites}
 
+{{edge-delivery-services-and-page-editor}}
+
 Learn how to perform basic page management operations for a Adobe Experience Manager Sites page.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32147?quality=12&learn=on)

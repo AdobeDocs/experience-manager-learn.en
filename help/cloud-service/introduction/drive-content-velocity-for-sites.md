@@ -6,6 +6,8 @@ exl-id: 9d2e05c3-c8eb-4d92-bad0-931e63550438
 ---
 # How to drive content velocity with Adobe Experience Manager
 
+{{edge-delivery-services}}
+
 As a Customer Experience leader, we know how challenging it can be for you to ensure you have the right framework and principles to drive content velocity--components essential to unlocking the true value of your Adobe Experience Manager platform. In this article, we'll review what content velocity is and its value within enterprise organizations. Next, we'll dive into four principles of effective implementation and the pitfalls to look out for along the way.
 
 ## Defining content velocity

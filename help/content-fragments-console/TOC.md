@@ -16,7 +16,8 @@ team: TM
 
 + [Overview](overview.md)
 + Basics{#basics} 
-  + [Overview](./basics/content-fragments-console.md)
+  + [Console overview](./basics/content-fragments-console.md)
+  + [Editor overview](./basics/content-fragment-editor.md)
 + Search and discovery{#search}
   + [Fast filtering](search/fast-filtering.md)
   + [References](search/references.md)
@@ -26,4 +27,4 @@ team: TM
   + [Non-asset content references](editor/non-asset-content-references.md)
   + [RTE variant compare](editor/rte-variant-compare.md)
 + [Extensibility](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/extensibility/content-fragments/overview.html)  
-+ [Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-console.html)
++ [Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-console.html){target=_blank}

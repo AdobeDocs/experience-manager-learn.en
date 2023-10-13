@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Feature Video
 last-substantial-update: 2023-05-12
 jira: KT-13242
-exl-id: 9bac4d55-d5e8-4e98-9392-dbf1048aa96a
+exl-id: 271b0cb9-2fe6-40e3-9bec-06ef3e5863c1
 ---
 # RTE variant compare
 

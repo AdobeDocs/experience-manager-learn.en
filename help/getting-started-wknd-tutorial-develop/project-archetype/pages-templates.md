@@ -13,6 +13,8 @@ recommendations: noDisplay, noCatalog
 ---
 # Pages and Templates {#pages-and-template}
 
+{{edge-delivery-services-and-page-editor}}
+
 In this chapter, let's explore the relationship between a base page component and editable templates. Learn to build out an unstyled Article template based on some mockups from [Adobe XD](https://helpx.adobe.com/support/xd.html). In the process of building out the template, Core Components and advanced policy configurations of the Editable Templates are covered.
 
 ## Prerequisites {#prerequisites}

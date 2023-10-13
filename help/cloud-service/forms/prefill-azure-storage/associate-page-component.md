@@ -1,12 +1,13 @@
 ---
 title: Associate page component with the new adaptive form template
-description: Create a new page component 
+description: Create a new page component
 feature: Adaptive Forms
 type: Documentation
 role: Developer
 level: Beginner
 version: Cloud Service
 topic: Integrations
+exl-id: 7b2b1e1c-820f-4387-a78b-5d889c31eec0
 ---
 # Associate the page component with the template
 
