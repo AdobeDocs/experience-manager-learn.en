@@ -6,7 +6,7 @@ feature: Assets Essentials
 topic: Content Management, Integrations
 role: User
 level: Beginner
-kt: null
+jira: KT-14199
 thumbnail: null
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets Essentials" before-title="false"
