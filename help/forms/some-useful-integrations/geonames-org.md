@@ -42,14 +42,11 @@ To create your first swagger/OpenAPI file, please follow the [OpenAPI documentat
 >[!NOTE] 
 > AEM Forms supports OpenAPI Specification version 2.0 (FKA Swagger).
 
-Use the [swagger editor](https://editor.swagger.io/) to create your swagger file to describe the operations that fetch all countries and child elements of the country or state. The swagger file can be created in JSON or YAML format. The completed swagger file can be downloaded from [here](assets/swagger-files.zip)
-The swagger files describe the following REST API
-* [Get All Countries](http://api.geonames.org/countryInfoJSON?username=yourusername)
-* [Get Children of Geoname object](http://api.geonames.org/childrenJSON?formatted=true&geonameId=6252001&username=yourusername)
+Use the [swagger editor](https://editor.swagger.io/) to create your swagger file to describe the operations that fetch all countries and child elements of the country or state. The swagger file can be created in JSON or YAML format. 
 
 ## Create Data Sources
 
-To integrate AEM/AEM Forms with third party applications, we need to [create data source](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/ic-web-channel-tutorial/parttwo.html) in the cloud services configuration. Please use the [swagger files](assets/swagger-files.zip) to create your data sources.
+To integrate AEM/AEM Forms with third party applications, we need to [create data source](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/ic-web-channel-tutorial/parttwo.html) in the cloud services configuration. Please use the [swagger files](assets/geonames-swagger-files.zip) to create your data sources.
 You will need to create 2 data sources(one to fetch all countries and other to get child elements)
 
 
@@ -79,3 +76,14 @@ We need to populate the State/Province drop-down list based on the country selec
 
 Add 2 drop-down lists called counties and cities in the form to list the counties and city based on the country and state/province selected.
 ![exercise](assets/cascading-drop-down-exercise.png)
+
+
+### Sample Assets
+
+You can download the following assets to get a head start in creating the cascading drop-down list sample
+The completed swagger files can be downloaded from [here](assets/geonames-swagger-files.zip)
+The swagger files describe the following REST API
+* [Get All Countries](http://api.geonames.org/countryInfoJSON?username=yourusername)
+* [Get Children of Geoname object](http://api.geonames.org/children?formatted=true&geonameId=6252001&username=yourusername)
+
+The completed [Form Data Model can be downloaded from here](assets/geonames-api-form-data-model.zip)
