@@ -7,7 +7,7 @@ topic: Security, Administration, Architecture
 role: Admin, Architect
 level: Intermediate
 doc-type: Tutorial
-last-substantial-update: 2023-10-20
+last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
 ---
@@ -80,7 +80,7 @@ Let's analyze the results of the `publish-auth-requests` rule by downloading the
 
 - Copy the downloaded log file (for example, `publish_cdn_2023-10-24.log` in the screenshot below) into the `logs/dev` folder of the Elastic dashboard tool project.
 
-    ![ELK Tool Logs Folder](./assets/elk-tool-logs-folder.png)
+    ![ELK Tool Logs Folder](./assets/elk-tool-logs-folder.png){width="800" zoomable="yes"}
 
 - Refresh the Elastic dashboard tool page. 
   - In the top **Global filter** section, edit the `aem_env_name.keyword` filter and select the `dev` environment value.

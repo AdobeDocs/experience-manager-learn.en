@@ -7,7 +7,7 @@ topic: Security, Administration, Architecture
 role: Admin, Architect
 level: Intermediate
 doc-type: Tutorial
-last-substantial-update: 2023-10-20
+last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
 ---

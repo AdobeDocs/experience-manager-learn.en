@@ -7,6 +7,7 @@ role: User
 level: Beginner, Intermediate
 topic: Content Management
 feature: Learn From Your Peers
+jira: KT-14252
 exl-id: a118dde6-0b25-4cc6-92bf-54b15620bbf4
 ---
 # AEM Champion Tips and Tricks: Session 2

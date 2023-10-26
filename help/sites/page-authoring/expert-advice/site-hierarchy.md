@@ -7,6 +7,7 @@ audience: author, marketer
 topic: Content Management
 feature: Learn From Your Peers
 role: Admin, User
+jira: KT-14254
 level: Beginner, Intermediate
 exl-id: c88c3ec7-9060-43e2-a6a2-d47bba6f7cf3
 ---
