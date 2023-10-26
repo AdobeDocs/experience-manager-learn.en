@@ -8,6 +8,7 @@ role: User
 level: Beginner, Intermediate
 topic: Content Management
 audience: author, marketer
+jira: KT-14251
 exl-id: d5967fb5-c151-478e-a554-41e235de3f83
 ---
 # AEM Champion Tips and Tricks: Editable Templates

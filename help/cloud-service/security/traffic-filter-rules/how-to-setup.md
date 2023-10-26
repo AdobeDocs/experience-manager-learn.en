@@ -7,7 +7,7 @@ topic: Security, Administration, Architecture
 role: Admin, Architect
 level: Intermediate
 doc-type: Tutorial
-last-substantial-update: 2023-10-20
+last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
 ---
@@ -50,7 +50,7 @@ data:
 
 See an example of the `cdn.yaml` file within the AEM Guides WKND Sites Project:
 
-![WKND AEM project rules file and folder](./assets/wknd-rules-file-and-folder.png)
+![WKND AEM project rules file and folder](./assets/wknd-rules-file-and-folder.png){width="800" zoomable="yes"}
 
 ### Deploy rules through Cloud Manager {#deploy-rules-through-cloud-manager}
 
