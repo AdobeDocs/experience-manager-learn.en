@@ -42,6 +42,7 @@ index: y
   + [Integrate with ServiceNow](some-useful-integrations/service-now.md)
   + [Send e-mails with SendGrid](some-useful-integrations/send-grid.md)
   + [Store form data in Azure Storage](some-useful-integrations/store-form-data-in-azure-storage.md)
+  + [Populate form with Azure Blob](some-useful-integrations/fetch-form-data-from-azure-storage.md)
 + Creating OSGi bundle {#creating-your-first-osgi-bundle}
   + [1 - Setup your environment](creating-your-first-osgi-bundle/create-your-first-osgi-bundle.md)
   + [2 - Create OSGi Service](creating-your-first-osgi-bundle/create-osgi-service.md)
@@ -136,6 +137,12 @@ index: y
   + [9 - Create the Main Form](store-and-retrieve-af-with-2fa/create-the-main-adaptive-form.md)
   + [10 - Create the MyAccount Form](store-and-retrieve-af-with-2fa/create-the-myaccount-form.md)
   + [11 - Deploy the sample](store-and-retrieve-af-with-2fa/deploy-this-sample.md)
++ Import data from pdf file{#import-data-from-pdf-form}
+  + [1 - Introduction](import-data-from-pdf-form/introduction.md)
+  + [2 - Create Adaptive Form](import-data-from-pdf-form/create-adaptive-form.md)
+  + [3 - Create OSGi Service](import-data-from-pdf-form/create-osgi-service.md)
+  + [4 - Populate Adaptive Form](import-data-from-pdf-form/populate-adaptive-form.md)
+  + [5 - Test the Solution](import-data-from-pdf-form/test-the-solution.md)
 + Exporting Submitted Data in CSV Format{#export-submitted-data-csv-format}
   + [Export Submitted Data](export-submitted-data-csv-format/export-submitted-data-csv.md)
 + HTML5 Forms{#html5-forms}
