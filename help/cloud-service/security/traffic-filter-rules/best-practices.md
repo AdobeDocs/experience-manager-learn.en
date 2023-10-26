@@ -12,9 +12,9 @@ jira: KT-13148
 thumbnail: KT-13148.jpeg
 ---
 
-# Best practices for Traffic Filter rules including WAF rules
+# Best practices for traffic filter rules including WAF rules
 
-Learn recommended best practices for Traffic Filter rules, including WAF rules. It is important to note that the best practices described in this article are not exhaustive and are not intended to be a substitute for your own security policies and procedures.
+Learn recommended best practices for traffic filter rules, including WAF rules. It is important to note that the best practices described in this article are not exhaustive and are not intended to be a substitute for your own security policies and procedures.
 
 ## General best practices
 
@@ -27,9 +27,9 @@ Learn recommended best practices for Traffic Filter rules, including WAF rules. 
 - To block malicious traffic that you may be aware of after the analysis, add any additional rules. For example, certain IPs that have been attacking your site.
 - Rule creation, deployment, and analysis should be an ongoing, iterative process. It is not a one-time activity.
 
-## Best practices for Traffic Filter rules
+## Best practices for traffic filter rules
 
-Enable below Traffic Filter rules for your AEM project. However the desired values for `rateLimit` and `clientCountry` properties must be determined in collaboration with your security team.
+Enable below traffic filter rules for your AEM project. However the desired values for `rateLimit` and `clientCountry` properties must be determined in collaboration with your security team.
 
 ```yaml
 kind: CDN

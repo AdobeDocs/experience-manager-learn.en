@@ -14,7 +14,7 @@ thumbnail: KT-13148.jpeg
 
 # How to set up Traffic Filter rules including WAF rules
 
-Learn **how to set up** Traffic Filter rules, including WAF rules. Read about creating, deploying, testing, and analyzing results.
+Learn **how to set up** traffic filter rules, including WAF rules. Read about creating, deploying, testing, and analyzing results.
 
 ## Setup
 
@@ -112,7 +112,7 @@ To test rules, there are various third-party tools available and your organizati
 
 After creating, deploying, and testing the rules, you can analyze the results using **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling. It can parse the AEMCS CDN logs, allowing you to visualize the results in the form of various charts and graphs. 
 
-Dashboard tooling can be cloned directly from the [AEMCS-CDN-Log-Analysis-ELK-Tool GitHub repository](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool) and follow the steps to install and load the **Traffic Filter Rules (including WAF)** dashboard.
+Dashboard tooling can be cloned directly from the [AEMCS-CDN-Log-Analysis-ELK-Tool GitHub repository](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool) and follow the steps to install and load the **traffic filter rules (including WAF)** dashboard.
 
 - After loading the sample dashboard, your Elastic dashboard tool page should look like the following:
 
@@ -125,4 +125,4 @@ Dashboard tooling can be cloned directly from the [AEMCS-CDN-Log-Analysis-ELK-To
 
 ## Next step
 
-Learn how to declare Traffic Filter rules including WAF rules in the [Examples and result analysis](./examples-and-analysis.md) chapter, using the AEM WKND Sites Project.
+Learn how to declare traffic filter rules including WAF rules in the [Examples and result analysis](./examples-and-analysis.md) chapter, using the AEM WKND Sites Project.
