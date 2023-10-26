@@ -22,7 +22,7 @@ The setup process involves the following:
 
 - _creating rules_ with an appropriate AEM project structure and configuration file.
 - _deploying rules_ using Adobe Cloud Manage's configuration pipeline.
-- _testing rules_ using various tools to generate traffic
+- _testing rules_ using various tools to generate traffic.
 - _analyzing the results_ using AEMCS CDN logs and dashboard tooling.
 
 ### Create rules in your AEM project
@@ -31,7 +31,7 @@ To create rules, follow these steps:
 
 1. At the top level of your AEM project, create a folder `config`.
 
-1. Within the `config` folder, create a new called `cdn.yaml`.
+1. Within the `config` folder, create a new file called `cdn.yaml`.
 
 1. Add the following metadata to the `cdn.yaml` file:
 
@@ -72,7 +72,7 @@ To deploy rules, follow these steps:
         - **Pipeline Name**: Dev-Config
 
         ![Cloud Manager Config Pipeline dialog](./assets/cloud-manager-config-pipeline-step1-dialog.png)
-    
+
     2. Source Code step:
 
         - **Code to deploy**: Targeted deployment
@@ -110,7 +110,7 @@ To test rules, there are various third-party tools available and your organizati
 
 ### Analyze results using the dashboard tooling
 
-After creating, deploying, and testing the rules, you can analyze the results using **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling. It can parse the AEMCS CDN logs, allowing you to visualize the results in the form of various charts and graphs. 
+After creating, deploying, and testing the rules, you can analyze the results using **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling. It can parse the AEMCS CDN logs, allowing you to visualize the results in the form of various charts and graphs.
 
 Dashboard tooling can be cloned directly from the [AEMCS-CDN-Log-Analysis-ELK-Tool GitHub repository](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool) and follow the steps to install and load the **traffic filter rules (including WAF)** dashboard.
 

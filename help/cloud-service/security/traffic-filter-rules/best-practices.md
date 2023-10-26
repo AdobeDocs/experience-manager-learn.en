@@ -53,7 +53,7 @@ data:
           penalty: 300
           groupBy:
             - reqProperty: clientIp
-        action: block        
+        action: block
     # Block requests coming from OFAC countries
       - name: block-ofac-countries
         when:
@@ -73,14 +73,18 @@ data:
                   - LR
                   - ZW
                   - CU
-                  - CI    
+                  - CI
 ```
+
+>[!WARNING]
+>
+>For your production environment, collaborate with your Web Security team to determine the appropriate values for `rateLimit`,
 
 ## Best practices for WAF rules
 
 Once the WAF is licensed and enabled for your program, traffic matching WAF flags appear in charts and request logs, even if you didn't declare them in a rule. This is so you are always aware of potentially new malicious traffic and can create rules as needed. Look at WAF flags that are not reflected in the declared rules and consider declaring them.
 
-Consider the WAF rules below for your AEM project. However the desired values for `action` and `wafFlags` property must be determined in collaboration with your security team. 
+Consider the WAF rules below for your AEM project. However the desired values for `action` and `wafFlags` property must be determined in collaboration with your security team.
 
 ```yaml
 kind: CDN
@@ -93,10 +97,10 @@ metadata:
 data:
   trafficFilters:
     rules:
-    
+
     # Traffic Filter rules shown in above section
-    ...    
-    
+    ...
+
     # Enable WAF protections (only works if WAF is enabled for your environment)
       - name: block-waf-flags
         when:
@@ -122,7 +126,19 @@ data:
             - CODEINJECTION
             - CMDEXE
             - NO-CONTENT-TYPE
-            - UTF8        
+            - UTF8
+    # Disable protection against CMDEXE on /bin
+      - name: allow-cdmexe-on-root-bin
+        when:
+          allOf:
+            - reqProperty: tier
+              matches: "author|publish"
+            - reqProperty: path
+              matches: "^/bin/.*"
+        action:
+          type: allow
+          wafFlags:
+            - CMDEXE
 ```
 
 ## Summary
