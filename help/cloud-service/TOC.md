@@ -149,6 +149,12 @@ team: TM
     + [SQL connections using DataSourcePool](./networking/examples/sql-datasourcepool.md)
     + [SQL connections using Java SQL APIs](./networking/examples/sql-java-apis.md)
     + [E-mail service](./networking/examples/email-service.md)
++ Security {#security}
+  + Traffic Filter rules including WAF rules{#traffic-filter-and-waf-rules}
+    + [Overview](./security/traffic-filter-rules/overview.md)
+    + [How to setup](./security/traffic-filter-rules/how-to-setup.md)
+    + [Examples and result analysis](./security/traffic-filter-rules/examples-and-analysis.md)
+    + [Best practices](./security/traffic-filter-rules/best-practices.md)
 + Migration {#migration}
   + [Content Transfer Tool](./migration/content-transfer-tool.md)
   + [Bulk Import of assets](./migration/bulk-import.md)
