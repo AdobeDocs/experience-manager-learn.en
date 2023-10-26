@@ -12,11 +12,11 @@ jira: KT-13148
 thumbnail: KT-13148.jpeg
 ---
 
-# Examples and result analysis of Traffic Filter rules including WAF rules
+# Examples and result analysis of traffic filter rules including WAF rules
 
-Learn how to declare various types of Traffic Filter rules and analyze the results using Adobe Experience Manager as a Cloud Service (AEMCS) CDN logs and dashboard tooling.
+Learn how to declare various types of traffic filter rules and analyze the results using Adobe Experience Manager as a Cloud Service (AEMCS) CDN logs and dashboard tooling.
 
-In this section, you explore practical examples of Traffic Filter rules, including WAF rules. You learn how to log, allow, and block requests based on URI (or path), IP address, the number of requests, and different attack types using the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).
+In this section, you explore practical examples of traffic filter rules, including WAF rules. You learn how to log, allow, and block requests based on URI (or path), IP address, the number of requests, and different attack types using the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).
 
 Furthermore, you discover how to use dashboard tooling that ingests AEMCS CDN logs to visualize essential metrics through Adobe provided sample dashboards. 
 
@@ -24,7 +24,7 @@ To align with your specific requirements, you can enhance and create custom dash
 
 ## Examples
 
-Let's explore various examples of Traffic Filter rules, including WAF rules. Make sure you have completed the required setup process as described in the earlier [how to set up](./how-to-setup.md) chapter and you have cloned the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).
+Let's explore various examples of traffic filter rules, including WAF rules. Make sure you have completed the required setup process as described in the earlier [how to set up](./how-to-setup.md) chapter and you have cloned the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).
 
 ### Logging requests
 
@@ -216,7 +216,7 @@ The traffic filter rule examples so far can be configured by all Sites and Forms
 
 Next, let's explore the experience for a customer who has procured an enhanced Security or WAF-DDoS Protection license. This entitles you to configure advanced rules to protect your AEM sites from more sophisticated attacks. 
 
-Before continuing on, enable the WAF-DDoS Protection for your program, as described in the Traffic Filter Rules documentation [setup steps](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html?lang=en#setup).
+Before continuing on, enable the WAF-DDoS Protection for your program, as described in the traffic filter rules documentation [setup steps](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html?lang=en#setup).
 
 #### Without WAFFlags
 
