@@ -21,7 +21,7 @@ Learn **how to set up** traffic filter rules, including WAF rules. Read about cr
 The setup process involves the following:
 
 - _creating rules_ with an appropriate AEM project structure and configuration file.
-- _deploying rules_ using Adobe Cloud Manage's configuration pipeline.
+- _deploying rules_ using Adobe Cloud Manager's configuration pipeline.
 - _testing rules_ using various tools to generate traffic.
 - _analyzing the results_ using AEMCS CDN logs and dashboard tooling.
 
@@ -112,7 +112,7 @@ To test rules, there are various third-party tools available and your organizati
 
 After creating, deploying, and testing the rules, you can analyze the results using **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling. It can parse the AEMCS CDN logs, allowing you to visualize the results in the form of various charts and graphs.
 
-Dashboard tooling can be cloned directly from the [AEMCS-CDN-Log-Analysis-ELK-Tool GitHub repository](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool) and follow the steps to install and load the **traffic filter rules (including WAF)** dashboard.
+Dashboard tooling can be cloned directly from the [AEMCS-CDN-Log-Analysis-ELK-Tool GitHub repository](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool) and follow the steps to install and load the **Traffic Filter Rules (including WAF)** dashboard.
 
 - After loading the sample dashboard, your Elastic dashboard tool page should look like the following:
 
