@@ -24,12 +24,13 @@ Traffic filter rules are deployed to the [built-in CDN](https://experienceleague
 
 This tutorial guides you through the process of creating, deploying, testing, and analyzing the results of traffic filter rules, including WAF rules. 
 
-You can read more about traffic filter rules in [this article](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html?lang=en)
+You can read more about traffic filter rules in [this article](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html?lang=en).
 
 >[!IMPORTANT]
 >
-> A subcategory of traffic filter rules called "WAF rules" require a WAF-DDoS Protection license
+> A subcategory of traffic filter rules called "WAF rules" require a WAF-DDoS Protection or Enhanced Security license.
 
+We invite you to give feedback or ask questions about traffic filter rules by emailing **aemcs-waf-adopter@adobe.com**.
 
 ## Next step
 

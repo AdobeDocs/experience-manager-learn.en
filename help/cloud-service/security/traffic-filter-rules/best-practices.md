@@ -29,7 +29,7 @@ Learn recommended best practices for traffic filter rules, including WAF rules. 
 
 ## Best practices for traffic filter rules
 
-Enable below traffic filter rules for your AEM project. However the desired values for `rateLimit` and `clientCountry` properties must be determined in collaboration with your security team.
+Enable the traffic filter rules below for your AEM project. However the desired values for `rateLimit` and `clientCountry` properties must be determined in collaboration with your security team.
 
 ```yaml
 kind: CDN
@@ -78,7 +78,7 @@ data:
 
 >[!WARNING]
 >
->For your production environment, collaborate with your Web Security team to determine the appropriate values for `rateLimit`,
+>For your production environment, collaborate with your Web Security team to determine the appropriate values for `rateLimit`
 
 ## Best practices for WAF rules
 

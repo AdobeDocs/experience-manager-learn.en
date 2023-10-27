@@ -16,15 +16,15 @@ thumbnail: KT-13148.jpeg
 
 Learn how to declare various types of traffic filter rules and analyze the results using Adobe Experience Manager as a Cloud Service (AEMCS) CDN logs and dashboard tooling.
 
-In this section, you explore practical examples of traffic filter rules, including WAF rules. You learn how to log, allow, and block requests based on URI (or path), IP address, the number of requests, and different attack types using the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).
+In this section, you will explore practical examples of traffic filter rules, including WAF rules. You will learn how to log, allow, and block requests based on URI (or path), IP address, the number of requests, and different attack types using the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).
 
-Furthermore, you discover how to use dashboard tooling that ingests AEMCS CDN logs to visualize essential metrics through Adobe provided sample dashboards. 
+Furthermore, you will discover how to use dashboard tooling that ingests AEMCS CDN logs to visualize essential metrics through Adobe provided sample dashboards. 
 
-To align with your specific requirements, you can enhance and create custom dashboards thus gaining deeper insights and optimizing the rule configurations for your AEM sites.
+To align with your specific requirements, you can enhance and create custom dashboards, thus gaining deeper insights and optimizing the rule configurations for your AEM sites.
 
 ## Examples
 
-Let's explore various examples of traffic filter rules, including WAF rules. Make sure you have completed the required setup process as described in the earlier [how to set up](./how-to-setup.md) chapter and you have cloned the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).
+Let's explore various examples of traffic filter rules, including WAF rules. Make sure you have completed the required setup process as described in the earlier [how to set up](./how-to-setup.md) chapter and that you have cloned the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).
 
 ### Logging requests
 
@@ -62,7 +62,7 @@ data:
 
     ![Cloud Manager Config Pipeline](./assets/cloud-manager-config-pipeline.png)
 
-- Test the rule by signing in and signing out of your program's WKND site on Publish service (for example, `https://publish-pXXXX-eYYYY.adobeaemcloud.com/us/en.html`). You can use `asmith/asmith` as the username and password.
+- Test the rule by signing in and signing out of your program's WKND site on the Publish service (for example, `https://publish-pXXXX-eYYYY.adobeaemcloud.com/us/en.html`). You can use `asmith/asmith` as the username and password.
 
   ![WKND Login](./assets/wknd-login.png)
 
@@ -98,11 +98,11 @@ Let's analyze the results of the `publish-auth-requests` rule by downloading the
 
 ### Blocking requests 
 
-In this example, let's add a page in an _internal_ folder at `/content/wknd/internal` path in the deployed WKND project. Then declare a traffic filter rule that **blocks traffic** to subpages from anywhere other than a specified IP address that matches your organization (for example, a corporate VPN). 
+In this example, let's add a page in an _internal_ folder at the path `/content/wknd/internal` in the deployed WKND project. Then declare a traffic filter rule that **blocks traffic** to subpages from anywhere other than a specified IP address that matches your organization (for example, a corporate VPN). 
 
-You can create your own internal page (for example, `demo-page.html`) or use the [attached package](./assets/demo-internal-pages-package.zip)
+You can either create your own internal page (for example, `demo-page.html`) or use the [attached package](./assets/demo-internal-pages-package.zip).
 
-- Add the following rule in the WKND project's `/config/cdn.yaml` file. 
+- Add the following rule in the WKND project's `/config/cdn.yaml` file:
 
 ```yaml
 kind: CDN
@@ -194,7 +194,7 @@ data:
     $ echo "GET https://publish-pXXXX-eYYYY.adobeaemcloud.com/us/en.html" | vegeta attack -rate=120 -duration=5s | vegeta report
     ```
 
-    This command makes 120 requests for 5 seconds and outputs a report. As you can see that the success rate is 32.5% and for the rest a 406 HTTP response code is received, demonstrating that traffic was blocked.
+    This command makes 120 requests for 5 seconds and outputs a report. As you can see, the success rate is 32.5%; a 406 HTTP response code is received for the rest, demonstrating that traffic was blocked.
 
     ![Vegeta DoS Attack](./assets/vegeta-dos-attack.png)
 
@@ -206,7 +206,7 @@ This time you should see many **Blocked requests** and corresponding values in t
 
 ![ELK Tool Dashboard DoS Request](./assets/elk-tool-dashboard-dos.png)
 
-Also, the **Top 100 attacks by client IP, country, and user-agent** panel shows additional details, which can be used to further optimize the rules configuration.
+Also, the **Top 100 attacks by client IP, country, and user-agent** panels show additional details, which can be used to further optimize the rules configuration.
 
 ![ELK Tool Dashboard DoS Top 100 Requests](./assets/elk-tool-dashboard-dos-top-100.png)
 
@@ -214,7 +214,7 @@ Also, the **Top 100 attacks by client IP, country, and user-agent** panel shows 
 
 The traffic filter rule examples so far can be configured by all Sites and Forms customers.
 
-Next, let's explore the experience for a customer who has procured an enhanced Security or WAF-DDoS Protection license. This entitles you to configure advanced rules to protect your AEM sites from more sophisticated attacks. 
+Next, let's explore the experience for a customer who has procured an Enhanced Security or WAF-DDoS Protection license, which lets them configure advanced rules to protect websites from more sophisticated attacks. 
 
 Before continuing on, enable the WAF-DDoS Protection for your program, as described in the traffic filter rules documentation [setup steps](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html?lang=en#setup).
 
@@ -222,7 +222,7 @@ Before continuing on, enable the WAF-DDoS Protection for your program, as descri
 
 Let's first see the experience even before WAF Rules are declared. When the WAF-DDoS is enabled on your program, your CDN logs by default log any matches of malicious traffic, so you have the right information to come up with appropriate rules.
 
-Let's begin by attacking the WKND site without adding WAF rule (or using the `wafFlags` property) and analyze the results.
+Let's begin by attacking the WKND site without adding a WAF rule (or using the `wafFlags` property) and analyze the results.
 
 - To simulate an attack, use the [Nikto](https://github.com/sullo/nikto) command below, which it sends around 700 malicious requests in 6 minutes.
 
@@ -242,7 +242,7 @@ However, this time you should see the **Flagged requests** and corresponding val
 
 ![ELK Tool Dashboard WAF Flagged Request](./assets/elk-tool-dashboard-waf-flagged.png)
 
-Note how the **WAF Flags distribution and Top attacks** panels show additional details, which can be used to further optimize the rule configuration.
+Note how the **WAF Flags distribution** and **Top attacks** panels show additional details, which can be used to further optimize the rule configuration.
 
 ![ELK Tool Dashboard WAF Flags Attacks Request](./assets/elk-tool-dashboard-waf-flagged-top-attacks-1.png)
 
@@ -313,7 +313,7 @@ This time you should see entries under **Blocked requests** and the correspondin
 
 ![ELK Tool Dashboard WAF Blocked Request](./assets/elk-tool-dashboard-waf-blocked.png)
 
-Also, the **WAF Flags distribution and Top attacks** panels show additional details.
+Also, the **WAF Flags distribution** and **Top attacks** panels show additional details.
 
 ![ELK Tool Dashboard WAF Flags Attacks Request](./assets/elk-tool-dashboard-waf-blocked-top-attacks-1.png)
 
@@ -321,7 +321,7 @@ Also, the **WAF Flags distribution and Top attacks** panels show additional deta
 
 ### Comprehensive analysis
 
-In the above _analysis_ sections, you learned how to analyze the results of the **specific rule** using the dashboard tool. You can further explore analyzing results using other dashboard panels, including:
+In the above _analysis_ sections, you learned how to analyze the results of specific rules using the dashboard tool. You can further explore analyzing results using other dashboard panels, including:
 
 
 - Analyzed, Flagged, and Blocked requests
