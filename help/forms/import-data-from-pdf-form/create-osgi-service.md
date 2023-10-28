@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 14196
-
+exl-id: c3032669-154c-4565-af6e-32d94e975e37
 ---
 # Export Data
 
@@ -76,4 +76,3 @@ The extracted data is stored under the /content/exporteddata node in the crx rep
 ## Next Steps
 
 [Import data from pdf file](./populate-adaptive-form.md)
-

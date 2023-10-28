@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 14196
-
+exl-id: b286c3e9-70df-46e8-b0bc-21599ab1ec06
 ---
 # Introduction
 
@@ -43,8 +43,3 @@ Form the exported data, you will have to extract the **_topmostSubform_** node w
 ## Next Steps
 
 [Create OSGi service](./create-osgi-service.md)
-
-
-
-
-

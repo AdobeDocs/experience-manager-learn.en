@@ -6,6 +6,7 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
+exl-id: f21753b2-f065-4556-add4-b1983fb57031
 ---
 # Deploy the sample assets
 

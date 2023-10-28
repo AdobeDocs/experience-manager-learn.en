@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
+exl-id: e6d67204-2f76-441c-a178-a34798fe266d
 ---
-
 # Protecting websites with traffic filter rules (including WAF rules)
 
 Learn about **traffic filter rules**, including its subcategory of **Web Application Firewall (WAF) rules** in AEM as a Cloud Service (AEMCS). Read about how to create, deploy, and test the rules. Also, analyze the results to protect your AEM sites.
@@ -35,6 +35,3 @@ We invite you to give feedback or ask questions about traffic filter rules by em
 ## Next step
 
 Learn [how to set up](./how-to-setup.md) the feature so you can create, deploy, and test traffic filter rules. Read about setting up the **Elasticsearch, Logstash, and Kibana (ELK)** stack dashboard tooling to analyze the results of your AEMCS CDN logs.
-
-
-

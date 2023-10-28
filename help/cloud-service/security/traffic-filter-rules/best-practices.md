@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
+exl-id: 4a7acdd2-f442-44ee-8560-f9cb64436acf
 ---
-
 # Best practices for traffic filter rules including WAF rules
 
 Learn recommended best practices for traffic filter rules, including WAF rules. It is important to note that the best practices described in this article are not exhaustive and are not intended to be a substitute for your own security policies and procedures.
