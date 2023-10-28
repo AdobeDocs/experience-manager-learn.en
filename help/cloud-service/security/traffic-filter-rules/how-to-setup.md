@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
+exl-id: b67bf642-3341-48d0-8ea9-5f262febf414
 ---
-
 # How to set up Traffic Filter rules including WAF rules
 
 Learn **how to set up** traffic filter rules, including WAF rules. Read about creating, deploying, testing, and analyzing results.

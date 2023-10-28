@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 kt: 14196
-
+exl-id: f380d589-6520-4955-a6ac-2d0fcd5aaf3f
 ---
 # Make Ajax Call
 
@@ -58,5 +58,3 @@ The [GuideBridge setData](https://developer.adobe.com/experience-manager/referen
 ## Next Steps
 
 [Deploy the sample assets](./test-the-solution.md)
-
-

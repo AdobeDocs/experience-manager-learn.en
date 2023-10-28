@@ -10,8 +10,8 @@ doc-type: Feature Video
 last-substantial-update: 2023-10-26
 jira: KT-14192
 thumbnail: 3425193.jpeg
+exl-id: 4da1b1ff-5472-4282-a998-ae344e7b8309
 ---
-
 # Adobe Express integration
 
 Learn how to optimize content supply chains with AEM Assets and [Adobe Express](https://www.adobe.com/express/), enhancing productivity and accessibility for all team members.
