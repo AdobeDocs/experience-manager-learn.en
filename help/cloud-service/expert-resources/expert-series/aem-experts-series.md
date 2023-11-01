@@ -6,9 +6,7 @@ topic: Administration, Development
 feature: Developer Tools
 exl-id: ae1cdbe3-0863-41de-bb27-2e88c4640866
 ---
-# Adobe Experience Manager as a Cloud Service Experts Series
-
-![AEM Experts Series](./assets/masthead.png)
+# AEM as a Cloud Service Experts Series
 
 Learn about Adobe Experience Manager (AEM) as a Cloud Service from Adobe's expert engineers who build it, and professional services team who deliver it. Join Adobe's experts in exploring what AEM as a Cloud Service is, how its the same and different from AEM 6, and how to move from AEM 6 to AEM as a Cloud Service.
 
