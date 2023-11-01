@@ -8,8 +8,6 @@ exl-id: 210e5483-d79e-47ac-aa09-b6956cca2e62
 ---
 # Cloud 5
 
-![AEM Experts Series](./imgs/masthead.png)
-
 ## Introduction
 
 Welcome to the Cloud 5 Series from AEM Engineering. One of the primary problems in the implementation phase of any product is having enough code samples and/or live demonstrations of those samples, tool, or APIs. The goal of this series is to deliver useful information about AEM as a Cloud Service in 5 minutes or less.
