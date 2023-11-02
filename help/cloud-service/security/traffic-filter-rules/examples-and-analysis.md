@@ -22,6 +22,8 @@ Furthermore, you will discover how to use dashboard tooling that ingests AEMCS C
 
 To align with your specific requirements, you can enhance and create custom dashboards, thus gaining deeper insights and optimizing the rule configurations for your AEM sites.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3425404?quality=12&learn=on)
+
 ## Examples
 
 Let's explore various examples of traffic filter rules, including WAF rules. Make sure you have completed the required setup process as described in the earlier [how to set up](./how-to-setup.md) chapter and that you have cloned the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).

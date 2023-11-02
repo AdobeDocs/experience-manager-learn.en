@@ -16,6 +16,8 @@ exl-id: 4a7acdd2-f442-44ee-8560-f9cb64436acf
 
 Learn recommended best practices for traffic filter rules, including WAF rules. It is important to note that the best practices described in this article are not exhaustive and are not intended to be a substitute for your own security policies and procedures.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3425408?quality=12&learn=on)
+
 ## General best practices
 
 - To determine which rules are appropriate for your organization, collaborate with your security team.
@@ -144,3 +146,6 @@ data:
 ## Summary
 
 In conclusion, this tutorial has equipped you with the knowledge and tools needed to bolster the security of your web applications in Adobe Experience Manager as a Cloud Service (AEMCS). With practical rule examples and insights into result analysis, you can effectively protect your website and applications.
+
+
+
