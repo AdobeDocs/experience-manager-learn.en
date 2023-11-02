@@ -16,6 +16,8 @@ exl-id: b67bf642-3341-48d0-8ea9-5f262febf414
 
 Learn **how to set up** traffic filter rules, including WAF rules. Read about creating, deploying, testing, and analyzing results.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3425407?quality=12&learn=on)
+
 ## Setup
 
 The setup process involves the following:
