@@ -15,7 +15,6 @@ team: TM
   + [Images](./aem-trials/images.md)
 + Introduction to AEM as a Cloud Service{#introduction}
   + [What is AEM as a Cloud Service?](./introduction/what-is-aem-as-a-cloud-service.md)
-  + [Evolution](./introduction/evolution.md)
   + [Architecture](./introduction/architecture.md)
   + [Cloud Manager](./introduction/cloud-manager.md)
   + Strategy & thought leadership{#strategy}
