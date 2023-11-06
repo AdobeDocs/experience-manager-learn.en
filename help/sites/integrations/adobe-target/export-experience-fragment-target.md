@@ -33,11 +33,11 @@ Learn how to export AEM Experience Fragment as Adobe Target Offers.
 
 Exporting Experience Fragment to Adobe Target without the correct permissions in Adobe Admin Console, results in the following error on the AEM Author service:      
 
-    ![Target API UI Error](assets/error-target-offer.png)
+![Target API UI Error](assets/error-target-offer.png)
 
 ... and the following log messages in the `aemerror` log:
 
-    ![Target API Console Error](assets/target-console-error.png)
+![Target API Console Error](assets/target-console-error.png)
 
 #### Resolution
 
