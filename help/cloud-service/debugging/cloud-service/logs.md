@@ -197,7 +197,7 @@ This requires updating the logging OSGi configurations to use the environment sp
 This approach has downsides that must be taken into account:
 
 + [A limited number of environment variables are allowed](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#number-of-variables), and creating a variable to manage the log level will use one.
-+ Environment variables can only be managed programmatically via [Adobe I/O CLI](https://github.com/adobe/aio-cli-plugin-cloudmanager#aio-cloudmanagerset-environment-variables-environmentid) or [Cloud Manager HTTP APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#cloud-manager-api-format-for-setting-properties).
++ Environment variables can be managed programmatically via [Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/environment-variables.html), [Adobe I/O CLI](https://github.com/adobe/aio-cli-plugin-cloudmanager#aio-cloudmanagerset-environment-variables-environmentid), and [Cloud Manager HTTP APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#cloud-manager-api-format-for-setting-properties).
 + Changes to environment variables must be manually reset by a supported tool. Forgetting to reset a high traffic environment, such as Production, to a less verbose log level may flood the logs and impact AEM's performance.
 
 _Environment specific variables do not work for Apache web server or Dispatcher log configurations as these are not configured via OSGi configuration._
