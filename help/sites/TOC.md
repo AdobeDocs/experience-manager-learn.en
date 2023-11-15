@@ -11,6 +11,23 @@ version: 6.4, 6.5, Cloud Service
 # AEM Sites Videos and Tutorials {#sites}
 
 + [Overview](overview.md)
++ Document Authoring {#document-authoring}
+  + [Set up](document-authoring/set-up.md)
+  + [Preview and publish](document-authoring/preview-and-publish.md)
+  + [Document structure](document-authoring/document-structure.md)
+  + [Blocks and autoblocks](document-authoring/blocks-and-auto-blocks.md)
+  + [Redirects](document-authoring/redirects.md)
+  + [Bulk metadata](document-authoring/bulk-metadata.md)
+  + [Page metadata](document-authoring/page-metadata.md)
+  + [Responsive navigation](document-authoring/responsive-navigation.md)
+  + How to{#how-to}
+    + [Document audit](./document-authoring/how-to/document-audit.md)
+    + [Document permissions](./document-authoring/how-to/document-permissions.md)
+    + [Document versions](./document-authoring/how-to/document-versions.md) 
+    + [Document workflows](./document-authoring/how-to/document-workflows.md)
+    + [Embed iFrames](./document-authoring/how-to/iframes.md)
+    + [Image alt text](./document-authoring/how-to/image-alt-text.md)
+    + [Prevent search engine indexing](./document-authoring/how-to/no-index.md)
 + Page Authoring {#page-authoring}
   + [Authoring](page-authoring/aem-sites-authoring-overview.md)
   + [Navigation](page-authoring/basic-handling-sites-feature-video-use.md)
@@ -46,8 +63,19 @@ version: 6.4, 6.5, Cloud Service
   + [Using Experience Fragments](experience-fragments/experience-fragments-feature-video-use.md)
   + [Building Blocks](experience-fragments/building-blocks.md)
   + [Content Fragments vs. Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}
-  
++ Edge Delivery Services{#edge-delivery-services}
+  + Developing{#developing}
+    + [Prerequisites](./edge-delivery-services/developing/prerequisites.md)
+    + [Content repository](./edge-delivery-services/developing/content-repository.md)
+    + [Preview and publish](./edge-delivery-services/developing/preview-and-publish.md)
+    + [AEM Sidekick](./edge-delivery-services/developing/sidekick.md)
+    + [Document structure](./edge-delivery-services/developing/document-structure.md)
+    + [Local development](./edge-delivery-services/developing/local-development.md)
+    + [Git](./edge-delivery-services/developing/git.md)
+  + How-to{#how-to}
+    + [RSS feeds](./edge-delivery-services/how-to/rss.md)
 + Developing {#developing}
+  + [Edge Delivery Services](developing/edge-delivery-services.md)
   + [AEM Project Archetype](developing/aem-project-archetype.md)
   + [Getting Started with AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html){target=_blank}
   + [Getting Started with AEM Headless](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html){target=_blank}
