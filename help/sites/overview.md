@@ -12,7 +12,7 @@ exl-id: cde4ce7f-0afe-4632-8c1c-354586f296d5
 
 Adobe Experience Manager (AEM) Sites is a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
 
-<div id="whats-new-section-skip"></div>
+<div id="whats-new-section">
 
 ## What's new
 
@@ -24,7 +24,8 @@ Adobe Experience Manager (AEM) Sites is a leading experience management platform
 
 * **[AEM with Edge Delivery Services architectural overview (Video)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/architecture.html)**
     *Learn all about AEM as a Cloud Service's architecture!*
-
+   
+</div>   
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
