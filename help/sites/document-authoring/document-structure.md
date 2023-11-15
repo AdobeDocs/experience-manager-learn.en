@@ -1,0 +1,21 @@
+---
+title: Exploring the structure of a document
+description: Explore how an document authoring is put together.
+version: 6.5, Cloud Service
+feature: Authoring
+topic: Content Management
+role: User
+level: Beginner
+doc-type: Feature Video
+last-substantial-update: 2023-11-15
+jira: KT-14467
+thumbnail: 3425701.jpeg
+---
+
+# Exploring the structure of a document
+
+{{edge-delivery-services}}
+
+Explore how document authoring is put together using default content, blocks and more.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425701/?learn=on)
