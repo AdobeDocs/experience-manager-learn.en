@@ -61,6 +61,7 @@ version: 6.4, 6.5, Cloud Service
 + Edge Delivery Services{#edge-delivery-services}
   + Developing{#developing}
     + [Prerequisites](./edge-delivery-services/developing/prerequisites.md)
+    + [AEM boilerplate](./edge-delivery-services/developing/aem-boilerplate.md)
     + [Content repository](./edge-delivery-services/developing/content-repository.md)
     + [Preview and publish](./edge-delivery-services/developing/preview-and-publish.md)
     + [AEM Sidekick](./edge-delivery-services/developing/sidekick.md)
