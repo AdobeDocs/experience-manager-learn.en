@@ -15,7 +15,7 @@ exl-id: fe9d1305-7add-4434-a4a9-16e0fb805574
 ---
 # Workfront enhanced connector basics
 
-Learn about the basics of the Adobe Workfront and Experience Manager Assetsenhanced connector, including how to:
+Learn about the basics of the Adobe Workfront and Experience Manager Assets enhanced connector, including how to:
 
 + Link assets and folders
 + Define metadata mappings
