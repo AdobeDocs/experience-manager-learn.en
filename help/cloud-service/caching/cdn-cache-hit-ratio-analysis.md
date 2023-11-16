@@ -14,10 +14,12 @@ thumbnail: KT-13312.jpeg
 
 # CDN cache hit ratio analysis
 
-Learn how to analyze the AEM as a Cloud Service provided **CDN logs** and gain insights such as **cache hit ratio**, and **top URLs of _MISS_ and _PASS_ cache types** for optimization purposes.
+Content cached at the CDN reduces the latency experienced by website users, who do not need to wait for the request to make its way back to the Apache/dispatcher or AEM publish. With that in mind, it is worthwhile to optimize the CDN cache hit ratio to maximize the amount of content cacheable at the CDN.
+
+Learn how to analyze the AEM as a Cloud Service provided **CDN logs** and gain insights such as **cache hit ratio**, and **top URLs of _MISS_ and _PASS_ cache types**, for optimization purposes.
 
 
-The CDN logs are available in JSON format, which contains various fields including `url`, `cache`, for more information, see the [CDN Log Format](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/logging.html?lang=en#cdn-log:~:text=Toggle%20Text%20Wrapping-,Log%20Format,-The%20CDN%20logs). The `cache` field provides information about _state of the cache_ and its possible values are HIT, MISS, or PASS. Let's review the details of possible values.
+The CDN logs are available in JSON format, which contains various fields including `url`, `cache`. For more information, see the [CDN Log Format](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/logging.html?lang=en#cdn-log:~:text=Toggle%20Text%20Wrapping-,Log%20Format,-The%20CDN%20logs). The `cache` field provides information about _state of the cache_ and its possible values are HIT, MISS, or PASS. Let's review the details of possible values.
 
 | State of Cache </br> Possible Value                                                   | Description |
 |------------------------------------|:-----------------------------------------------------:|
@@ -25,7 +27,12 @@ The CDN logs are available in JSON format, which contains various fields includi
 | MISS | The requested data is _not found in the CDN cache and has to be requested_ from the AEM server. |
 | PASS | The requested data is _explicitly set to not be cached_ and always be retrieved from the AEM server. |
 
-For this tutorial purpose, the [AEM WKND project](https://github.com/adobe/aem-guides-wknd) is deployed to the AEM as a Cloud Service environment and a small performance test is triggered using [Apache JMeter](https://jmeter.apache.org/).
+For the purpose of this tutorial, the [AEM WKND project](https://github.com/adobe/aem-guides-wknd) is deployed to the AEM as a Cloud Service environment and a small performance test is triggered using [Apache JMeter](https://jmeter.apache.org/).
+
+This tutorial is structured to take you through the following process:
+1. Downloading CDN logs via Cloud Manager
+1. Analyzing those CDN logs, which can be performed with two approaches: a locally installed dashboard or a remotely accessed Jupityer Notebook (for those who license Adobe Experience Platform)
+1. Optimizing CDN cache configuration
 
 ## Download CDN logs
 
@@ -46,12 +53,12 @@ If the downloaded log file is from _today_ the file extension is `.log` otherwis
 
 ## Analyze downloaded CDN logs
 
-To gain insights such as cache hit ratio, and top URLs of MISS and PASS cache types analyze the downloaded CDN log file. These insights help to optimize the [CDN cache configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching.html) and enhance the site performance.
+To gain insights such as cache hit ratio, and top URLs of MISS and PASS cache types, analyze the downloaded CDN log file. These insights help to optimize the [CDN cache configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching.html) and enhance the site performance.
 
-To analyze the CDN logs, this article uses the **Elasticsearch, Logstash, and Kibana (ELK)** [dashboard tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool) and [Jupyter Notebook](https://jupyter.org/).
+To analyze the CDN logs, this article presents two options: the **Elasticsearch, Logstash, and Kibana (ELK)** [dashboard tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool) and [Jupyter Notebook](https://jupyter.org/). The ELK dashboard tooling can be installed locally onto your laptop, while the Jupityr Notebook tooling can be accessed remotely [as part of Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/jupyterlab/analyze-your-data.html?lang=en) without installing additional software, for those who have licensed Adobe Experience Platform.
 
 
-### Using dashboard tooling
+### Option 1: Using ELK dashboard tooling
 
 The [ELK stack](https://www.elastic.co/elastic-stack) is a set of tools that provide a scalable solution to search, analyze, and visualize the data. It consists of Elasticsearch, Logstash, and Kibana.
 
@@ -63,7 +70,7 @@ To identify the key details, let's use the [ AEMCS-CDN-Log-Analysis-ELK-Tool](ht
 
     1. Copy the downloaded CDN log file/s inside the environment-specific folder.
 
-    1. Open the **CDN Cache Hit Ratio** dashboard by clicking Hamburger Menu > Analytics > Dashboard > CDN Cache Hit Ratio.
+    1. Open the **CDN Cache Hit Ratio** dashboard by clicking the top-left corner Navigation Menu > Analytics > Dashboard > CDN Cache Hit Ratio.
 
         ![CDN Cache Hit Ratio - Kibana Dashboard](assets/cdn-logs-analysis/cdn-cache-hit-ratio-dashboard.png){width="500" zoomable="yes"}
 
@@ -112,26 +119,24 @@ To filter the ingested logs by hostname, follow the below steps:
 
 Likewise add more filters to the dashboard based on the analysis requirements.
 
-### Using Jupyter Notebook
+### Option 2: Using Jupyter Notebook
 
-The [Jupyter Notebook](https://jupyter.org/) is an open-source web application that lets you create documents that contain code, text, and visualization. It is used for data transformation, visualization, and statistical modeling.
+For those who would rather not install software locally (i.e., the ELK dashboard tooling from the previous section), there is another option, but it requires a license to Adobe Experience Platform.
 
-To accelerate the CDN logs analysis, download the [AEM-as-a-CloudService - CDN Logs Analysis - Jupyter Notebook](./assets/cdn-logs-analysis/aemcs_cdn_logs_analysis.ipynb) file. 
+The [Jupyter Notebook](https://jupyter.org/) is an open-source web application that lets you create documents that contain code, text, and visualization. It is used for data transformation, visualization, and statistical modeling. It can be accessed remotely [as part of Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/jupyterlab/analyze-your-data.html?lang=en).
 
-The downloaded `aemcs_cdn_logs_analysis.ipynb` "Interactive Python Notebook" file is self-explanatory, however, the key highlights of each section are:
+#### Downloading the Interactive Python Notebook file
+
+First, download the [AEM-as-a-CloudService - CDN Logs Analysis - Jupyter Notebook](./assets/cdn-logs-analysis/aemcs_cdn_logs_analysis.ipynb) file, which will help with the CDN logs analysis. This "Interactive Python Notebook" file is self-explanatory, however, the key highlights of each section are:
 
 - **Install additional libraries**: installs the `termcolor` and `tabulate` Python libraries.
-- **Load CDN logs**: loads the CDN log file using `log_file` variable value, make sure to update its value. It also transforms this CDN log into the [Pandas DataFrame](https://pandas.pydata.org/docs/reference/frame.html).
-- **Perform analysis**: the first code block is _Display Analysis Result for Total, HTML, JS/CSS and Image Requests_, it provides cache hit ratio percentage, bar, and pie charts.
-The second code block is _Top 5 MISS and PASS Request URLs for HTML, JS/CSS, and Image_, it displays URLs and their counts in table format.
+- **Load CDN logs**: loads the CDN log file using `log_file` variable value; make sure to update its value. It also transforms this CDN log into the [Pandas DataFrame](https://pandas.pydata.org/docs/reference/frame.html).
+- **Perform analysis**: the first code block is _Display Analysis Result for Total, HTML, JS/CSS and Image Requests_; it provides cache hit ratio percentage, bar, and pie charts.
+The second code block is _Top 5 MISS and PASS Request URLs for HTML, JS/CSS, and Image_; it displays URLs and their counts in table format.
 
-#### Run the Jupyter Notebook in Experience Platform
+#### Running the Jupyter Notebook
 
->[!IMPORTANT]
->
->If you are using or licensed the Experience Platform, you can run the Jupyter Notebook without installing additional software.
-
-To run the Jupyter Notebook in Experience Platform, follow these steps:
+Next, run the Jupyter Notebook in Adobe Experience Platform, by following these steps:
 
 1. Login to the [Adobe Experience Cloud](https://experience.adobe.com/), in the Home page > **Quick access** section > click the **Experience Platform**
 
@@ -165,7 +170,7 @@ To run the Jupyter Notebook in Experience Platform, follow these steps:
 
 You can enhance the Jupyter Notebook to analyze the CDN logs based on your requirements.
 
-## Optimize CDN cache configuration
+## Optimizing CDN cache configuration
 
 After analyzing the CDN logs, you can optimize the CDN cache configuration to improve the site performance. The AEM best practice is to have a cache hit ratio of 90% or higher.
 
