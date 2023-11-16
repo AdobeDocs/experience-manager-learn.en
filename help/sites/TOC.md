@@ -19,7 +19,6 @@ version: 6.4, 6.5, Cloud Service
   + [Redirects](document-authoring/redirects.md)
   + [Bulk metadata](document-authoring/bulk-metadata.md)
   + [Page metadata](document-authoring/page-metadata.md)
-  + [Responsive navigation](document-authoring/responsive-navigation.md)
   + How to{#how-to}
     + [Document audit](./document-authoring/how-to/document-audit.md)
     + [Document permissions](./document-authoring/how-to/document-permissions.md)
@@ -28,6 +27,7 @@ version: 6.4, 6.5, Cloud Service
     + [Embed iFrames](./document-authoring/how-to/iframes.md)
     + [Image alt text](./document-authoring/how-to/image-alt-text.md)
     + [Prevent search engine indexing](./document-authoring/how-to/no-index.md)
+    + [Responsive navigation](document-authoring/how-to/responsive-navigation.md)
 + Page Authoring {#page-authoring}
   + [Authoring](page-authoring/aem-sites-authoring-overview.md)
   + [Navigation](page-authoring/basic-handling-sites-feature-video-use.md)
@@ -48,11 +48,6 @@ version: 6.4, 6.5, Cloud Service
   + [Launches](page-authoring/launches.md)
   + Learn From Your Peers {#expert-advice}
     + [Site Hierarchy Tips](page-authoring/expert-advice/site-hierarchy.md)
-+ Components {#components}
-  + [Component Development](components/component-development.md)
-  + [Core Components](components/core-components-feature-video-understand.md)
-  + [Web Optimized Image Delivery](components/web-optimized-image-delivery.md)
-  + [Components Console](components/components-console-feature-video-use.md)
 + Content Fragments {#content-fragments}
   + [Content Fragments console](https://experienceleague.adobe.com/docs/experience-manager-learn/content-fragments-console/overview.html){target=_blank}
   + [Authoring Content Fragments](content-fragments/content-fragments-feature-video-use.md)
@@ -93,6 +88,11 @@ version: 6.4, 6.5, Cloud Service
   + [Setup Experience Fragments and Adobe Target](personalization/experience-fragment-target-technical-video-setup.md)
   + [Using Experience Fragments with Adobe Target](personalization/experience-fragment-target-offer-feature-video-use.md)
   + [Setup ContextHub](personalization/context-hub-technical-video-setup.md)
++ Components {#components}
+  + [Component Development](components/component-development.md)
+  + [Core Components](components/core-components-feature-video-understand.md)
+  + [Web Optimized Image Delivery](components/web-optimized-image-delivery.md)
+  + [Components Console](components/components-console-feature-video-use.md)
 + SEO {#seo}
   + [Sitemaps](./seo/sitemaps.md)
 + Single Page Applications {#spa-editor}
