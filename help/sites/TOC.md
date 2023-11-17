@@ -16,6 +16,7 @@ version: 6.4, 6.5, Cloud Service
   + [Preview and publish](document-authoring/preview-and-publish.md)
   + [Document structure](document-authoring/document-structure.md)
   + [Default content and sections](document-authoring/default-content-and-sections.md)
+  + [Blocks and autoblocks](document-authoring/blocks-and-autoblocks.md)
   + [Redirects](document-authoring/redirects.md)
   + [Bulk metadata](document-authoring/bulk-metadata.md)
   + [Page metadata](document-authoring/page-metadata.md)
