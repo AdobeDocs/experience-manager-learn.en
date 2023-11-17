@@ -1,6 +1,6 @@
 ---
-title: Previewing and publishing content
-description: A step by step guide on how to create and publish content using document authoring.
+title: Preview and publish content
+description: How to create and publish content using document authoring.
 version: 6.5, Cloud Service
 feature: Authoring
 topic: Content Management
@@ -12,7 +12,7 @@ jira: KT-14466
 thumbnail: 3425700.jpeg
 ---
 
-# Previewing and publishing content
+# Preview and publish content
 
 {{edge-delivery-services}}
 
