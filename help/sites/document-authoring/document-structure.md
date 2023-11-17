@@ -1,5 +1,5 @@
 ---
-title: Exploring the structure of a document
+title: Document structure for document authoring
 description: Explore how an document authoring is put together.
 version: 6.5, Cloud Service
 feature: Authoring
@@ -12,7 +12,7 @@ jira: KT-14467
 thumbnail: 3425701.jpeg
 ---
 
-# Exploring the structure of a document
+# Document structure
 
 {{edge-delivery-services}}
 
