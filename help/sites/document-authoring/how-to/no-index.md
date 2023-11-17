@@ -16,6 +16,6 @@ thumbnail: 3425726.jpeg
 
 {{edge-delivery-services}}
 
-Explore how to prevent pages authoring using AEM document authoring from being indexed by search engines.
+Explore how to prevent web pages authored using AEM document authoring from being indexed by search engines.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425726/?learn=on)
