@@ -1,5 +1,5 @@
 ---
-title: Setting up document authoring
+title: Set up document authoring
 description: A guide on how to set up the environment for authors for document authoring.
 version: 6.5, Cloud Service
 feature: Authoring
@@ -12,10 +12,10 @@ jira: KT-14465
 thumbnail: 3425699.jpeg
 ---
 
-# Setting up document authoring
+# Set up document authoring
 
 {{edge-delivery-services}}
 
-A guide on how to set up the environment for authors for document authoring.
+A guide on how to set up document authoring for authors.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425699/?learn=on)
