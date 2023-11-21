@@ -325,19 +325,19 @@ or, to start AEM Publish service, `cd` into the directory containing the Quickst
 >[!TAB macOS]
 
 ```shell
-$ java -jar aem-author-p4503.jar
+$ java -jar aem-publish-p4503.jar
 ```
 
 >[!TAB Windows]
 
 ```shell
-$ java -jar aem-author-p4503.jar
+$ java -jar aem-publish-p4503.jar
 ```
 
 >[!TAB Linux]
 
 ```shell
-$ java -jar aem-author-p4503.jar
+$ java -jar aem-publish-p4503.jar
 ```
 
 >[!ENDTABS]
