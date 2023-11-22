@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-11-10
 jira: KT-13312
 thumbnail: KT-13312.jpeg
+exl-id: 43aa7133-7f4a-445a-9220-1d78bb913942
 ---
-
 # CDN cache hit ratio analysis
 
 Content cached at the CDN reduces the latency experienced by website users, who do not need to wait for the request to make its way back to the Apache/dispatcher or AEM publish. With that in mind, it is worthwhile to optimize the CDN cache hit ratio to maximize the amount of content cacheable at the CDN.
