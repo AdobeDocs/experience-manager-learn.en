@@ -57,4 +57,4 @@ You can now configure any Adaptive Form to submit to this custom submit handler 
 
 ## Next Steps
 
-[Enable Forms Portal Components](./forms-portal-components.md)
+[Register servlet using resource type](./registering-servlet-using-resourcetype.md)
