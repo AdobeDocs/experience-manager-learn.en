@@ -112,7 +112,6 @@ data:
           type: block
           wafFlags:
             - SANS
-            - SIGSCI-IP
             - TORNODE
             - NOUA
             - SCANNER
