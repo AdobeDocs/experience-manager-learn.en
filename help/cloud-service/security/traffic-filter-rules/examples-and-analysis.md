@@ -18,7 +18,7 @@ Learn how to declare various types of traffic filter rules and analyze the resul
 
 In this section, you will explore practical examples of traffic filter rules, including WAF rules. You will learn how to log, allow, and block requests based on URI (or path), IP address, the number of requests, and different attack types using the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project).
 
-Furthermore, you will discover how to use dashboard tooling that ingests AEMCS CDN logs to visualize essential metrics through Adobe provided sample dashboards. 
+Furthermore, you will discover how to use dashboard tooling that ingests AEMCS CDN logs to visualize essential metrics through Adobe provided sample dashboards.
 
 To align with your specific requirements, you can enhance and create custom dashboards, thus gaining deeper insights and optimizing the rule configurations for your AEM sites.
 
@@ -32,7 +32,7 @@ Let's explore various examples of traffic filter rules, including WAF rules. Mak
 
 Begin by **logging requests of WKND login and logout paths** against the AEM Publish service.
 
-- Add the following rule to the WKND project's `/config/cdn.yaml` file. 
+- Add the following rule to the WKND project's `/config/cdn.yaml` file.
 
 ```yaml
 kind: CDN
@@ -45,7 +45,7 @@ metadata:
 data:
   trafficFilters:
     rules:
-    # On AEM Publish service log WKND Login and Logout requests 
+    # On AEM Publish service log WKND Login and Logout requests
       - name: publish-auth-requests
         when:
           allOf:
@@ -70,7 +70,7 @@ data:
 
 #### Analyzing{#analyzing}
 
-Let's analyze the results of the `publish-auth-requests` rule by downloading the AEMCS CDN logs from Cloud Manager and using the [dashboard tooling](how-to-setup.md#analyze-results-using-elk-dashboard-tool), which you set up in the earlier chapter. 
+Let's analyze the results of the `publish-auth-requests` rule by downloading the AEMCS CDN logs from Cloud Manager and using the [dashboard tooling](how-to-setup.md#analyze-results-using-elk-dashboard-tool), which you set up in the earlier chapter.
 
 - From [Cloud Manager](https://my.cloudmanager.adobe.com/)'s **Environments** card, download the AEMCS **Publish** service's CDN logs.
 
@@ -78,13 +78,13 @@ Let's analyze the results of the `publish-auth-requests` rule by downloading the
 
     >[!TIP]
     >
-    >    It may take up to 5 minutes for the new requests to appear in the CDN logs.  
+    >    It may take up to 5 minutes for the new requests to appear in the CDN logs.
 
 - Copy the downloaded log file (for example, `publish_cdn_2023-10-24.log` in the screenshot below) into the `logs/dev` folder of the Elastic dashboard tool project.
 
     ![ELK Tool Logs Folder](./assets/elk-tool-logs-folder.png){width="800" zoomable="yes"}
 
-- Refresh the Elastic dashboard tool page. 
+- Refresh the Elastic dashboard tool page.
   - In the top **Global filter** section, edit the `aem_env_name.keyword` filter and select the `dev` environment value.
 
       ![ELK Tool Global Filter](./assets/elk-tool-global-filter.png)
@@ -98,9 +98,9 @@ Let's analyze the results of the `publish-auth-requests` rule by downloading the
     ![ELK Tool Dashboard](./assets/elk-tool-dashboard.png)
 
 
-### Blocking requests 
+### Blocking requests
 
-In this example, let's add a page in an _internal_ folder at the path `/content/wknd/internal` in the deployed WKND project. Then declare a traffic filter rule that **blocks traffic** to subpages from anywhere other than a specified IP address that matches your organization (for example, a corporate VPN). 
+In this example, let's add a page in an _internal_ folder at the path `/content/wknd/internal` in the deployed WKND project. Then declare a traffic filter rule that **blocks traffic** to subpages from anywhere other than a specified IP address that matches your organization (for example, a corporate VPN).
 
 You can either create your own internal page (for example, `demo-page.html`) or use the [attached package](./assets/demo-internal-pages-package.zip).
 
@@ -145,7 +145,7 @@ data:
 
 #### Analyzing
 
-To analyze the results of the `block-internal-paths` rule, follow the same steps as described in the [earlier example](#analyzing). 
+To analyze the results of the `block-internal-paths` rule, follow the same steps as described in the [earlier example](#analyzing).
 
 However, this time you should see the **Blocked requests** and corresponding values in the client IP (cli_ip), host, URL, action (waf_action), and rule-name (waf_match) columns.
 
@@ -154,9 +154,9 @@ However, this time you should see the **Blocked requests** and corresponding val
 
 ### Prevent DoS attacks
 
-Let's **prevent DoS attacks** by blocking requests from an IP address making 100 requests per second, causing it to be blocked for 5 minutes. 
+Let's **prevent DoS attacks** by blocking requests from an IP address making 100 requests per second, causing it to be blocked for 5 minutes.
 
-- Add the following [rate limit traffic filter rule](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html#ratelimit-structure) in the WKND project's `/config/cdn.yaml` file. 
+- Add the following [rate limit traffic filter rule](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html#ratelimit-structure) in the WKND project's `/config/cdn.yaml` file.
 
 ```yaml
 kind: CDN
@@ -181,16 +181,16 @@ data:
           penalty: 300
           groupBy:
             - reqProperty: clientIp
-        action: block     
+        action: block
 ```
 
 >[!WARNING]
 >
->For your production environment, collaborate with your Web Security team to determine the appropriate values for `rateLimit`, 
+>For your production environment, collaborate with your Web Security team to determine the appropriate values for `rateLimit`,
 
 - Commit, push, and deploy changes as mentioned in the [earlier examples](#logging-requests).
 
-- To simulate the DoS attack, use the following [Vegeta](https://github.com/tsenart/vegeta) command. 
+- To simulate the DoS attack, use the following [Vegeta](https://github.com/tsenart/vegeta) command.
 
     ```shell
     $ echo "GET https://publish-pXXXX-eYYYY.adobeaemcloud.com/us/en.html" | vegeta attack -rate=120 -duration=5s | vegeta report
@@ -202,7 +202,7 @@ data:
 
 #### Analyzing
 
-To analyze the results of the `prevent-dos-attacks` rule, follow the same steps as described in the [earlier example](#analyzing). 
+To analyze the results of the `prevent-dos-attacks` rule, follow the same steps as described in the [earlier example](#analyzing).
 
 This time you should see many **Blocked requests** and corresponding values in the client IP (cli_ip), host, url, action (waf_action), and rule-name (waf_match) columns.
 
@@ -216,7 +216,7 @@ Also, the **Top 100 attacks by client IP, country, and user-agent** panels show 
 
 The traffic filter rule examples so far can be configured by all Sites and Forms customers.
 
-Next, let's explore the experience for a customer who has procured an Enhanced Security or WAF-DDoS Protection license, which lets them configure advanced rules to protect websites from more sophisticated attacks. 
+Next, let's explore the experience for a customer who has procured an Enhanced Security or WAF-DDoS Protection license, which lets them configure advanced rules to protect websites from more sophisticated attacks.
 
 Before continuing on, enable the WAF-DDoS Protection for your program, as described in the traffic filter rules documentation [setup steps](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html?lang=en#setup).
 
@@ -257,7 +257,7 @@ Let's now add a WAF rule that contains `wafFlags` property as part of the `actio
 
 From a syntax perspective, the WAF rules are similar to those seen earlier, however, the `action` property references one or more `wafFlags` values. To learn more about the `wafFlags`, review the [WAF Flags List](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf.html#waf-flags-list) section.
 
-- Add the following rule in the WKND project's `/config/cdn.yaml` file. Note how the `block-waf-flags` rule includes some of the wafFlags that had appeared in the dashboard tooling when attacked with simulated malicious traffic. Indeed, it is good practice over time to analyze logs to determine what new rules to declare, as the threat landscape evolves. 
+- Add the following rule in the WKND project's `/config/cdn.yaml` file. Note how the `block-waf-flags` rule includes some of the wafFlags that had appeared in the dashboard tooling when attacked with simulated malicious traffic. Indeed, it is good practice over time to analyze logs to determine what new rules to declare, as the threat landscape evolves.
 
 ```yaml
 kind: CDN
@@ -270,7 +270,7 @@ metadata:
 data:
   trafficFilters:
     rules:
-    ...     
+    ...
     # Enable WAF protections (only works if WAF is enabled for your environment)
       - name: block-waf-flags
         when:
@@ -280,7 +280,6 @@ data:
           type: block
           wafFlags:
             - SANS
-            - SIGSCI-IP
             - TORNODE
             - NOUA
             - SCANNER
@@ -296,7 +295,7 @@ data:
             - CODEINJECTION
             - CMDEXE
             - NO-CONTENT-TYPE
-            - UTF8        
+            - UTF8
 ```
 
 - Commit, push, and deploy changes as mentioned in the [earlier examples](#logging-requests).
@@ -330,7 +329,7 @@ In the above _analysis_ sections, you learned how to analyze the results of spec
 - WAF Flags distribution over time
 - Triggered traffic filter rules over time
 - Top attacks by WAF Flag ID
-- Top triggered traffic filter 
+- Top triggered traffic filter
 - Top 100 attackers by client IP, country, and user-agent
 
 ![ELK Tool Dashboard Comprehensive Analysis](./assets/elk-tool-dashboard-comprehensive-analysis-1.png)
