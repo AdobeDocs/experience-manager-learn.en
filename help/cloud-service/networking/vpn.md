@@ -39,7 +39,7 @@ The following are required when setting up Virtual Private Network:
   + Access Token (aka Bearer Token)
 + The Cloud Manager Program ID
 + The Cloud Manager Environment IDs
-+ A Virtual Private Network, with access to all necessary connection parameters.
++ A **Route-Based** Virtual Private Network, with access to all necessary connection parameters.
 
 For more details watch the following walkthrough for how to setup, configure, and obtain Cloud Manger API credentials, and how to use them to make a Cloud Manager API call.
 
