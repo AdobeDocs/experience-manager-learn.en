@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2023-10-23
 kt: 14238
-exl-id: 77f93aad-0cab-4e52-b0fd-ae5af23a13d0
+
 ---
 # Fetch data from Azure storage
 
@@ -41,18 +41,18 @@ public String getBlobData(String blobID) {
 
     } catch (ClientProtocolException e) {
 
-        log.error("Got Client Protocol Exception " + e.getMessage());
+        log.debug("Got Client Protocol Exception " + e.getMessage());
     } catch (IOException e) {
 
-        log.error("Got IOEXception " + e.getMessage());
+        log.debug("Got IOEXception " + e.getMessage());
     }
 
     return null;
 }
 ```
 
-When an adaptive form is rendered with a `guid` parameter in the URL, the custom page component associated with the template fetches and populates the adaptive form with the data from Azure storage.
-The page component associated with the template has the following JSP code.
+When an adaptive form is rendered with a guid parameter in the url, the custom page component associated with the template fetches and populates the adaptive form with the data from Azure storage.
+The following is the code in the jsp of the page component asscoiated with the template
 
 ```java
 com.aemforms.saveandfetchfromazure.StoreAndFetchDataFromAzureStorage azureStorage = sling.getService(com.aemforms.saveandfetchfromazure.StoreAndFetchDataFromAzureStorage.class);
@@ -77,8 +77,11 @@ if(guid!=null&&!guid.isEmpty())
 
 * [Import the sample adaptive form](./assets/bank-account-sample-form.zip)
 
-* Specify the appropriate values in the Azure Portal Configuration using the OSGi configuration console
+* Specify the appropriate values in the Azure Portal Configuration using the OSGi configuration console.
+
 * [Preview and submit the BankAccount form](http://localhost:4502/content/dam/formsanddocuments/azureportalstorage/bankaccount/jcr:content?wcmmode=disabled)
 
 * Verify the data is stored in the Azure storage container of your choice. Copy the Blob ID.
+
 * [Preview the BankAccount form](http://localhost:4502/content/dam/formsanddocuments/azureportalstorage/bankaccount/jcr:content?wcmmode=disabled&guid=dba8ac0b-8be6-41f2-9929-54f627a649f6) and specify the Blob ID as a guid parameter in the URL for the form to be prepopulated with the data from Azure storage
+
