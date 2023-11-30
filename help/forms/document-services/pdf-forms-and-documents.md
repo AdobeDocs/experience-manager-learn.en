@@ -8,7 +8,6 @@ version: 6.4, 6.5
 feature: PDF Generator
 kt: 7071
 topic: Development
-exl-id: ffa9d243-37e5-420c-91dc-86c73a824083
 last-substantial-update: 2020-07-07
 ---
 # PDF
@@ -53,6 +52,8 @@ Dynamic XFA PDFs can change their layout at runtime, so the commenting and marku
 
 * Dynamic forms support client-side scripts that change the layout and pagination of the form. For instance, the Purchase Order.xdp will expand and paginate to accommodate an endless amount of data if you save it as a dynamic form
 * Dynamic forms support all the properties of your form at runtime, whereas static forms support only a subset
+
+* [Refer to this document to understand the differences between static and dynamic pdf forms](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/pdf-forms-and-documents.html#:~:text=Dynamic%20forms%20support%20all%20the,forms%20support%20only%20a%20subset)
 
 >[!NOTE]
 >
