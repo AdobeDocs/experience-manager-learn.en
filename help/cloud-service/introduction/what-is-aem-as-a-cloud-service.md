@@ -5,6 +5,7 @@ role: Architect, Developer
 level: Beginner
 type: Tutorial
 topic: Architecture
+feature: Edge Delivery Services
 kt: 6923
 thumbnail: 330546.jpg
 last-substantial-update: 2023-09-26
