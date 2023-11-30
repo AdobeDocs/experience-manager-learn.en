@@ -4,10 +4,7 @@ description: This technical walk through walks through setting up AEM for use wi
 version: 6.4, 6.5
 sub-product: Experience Manager, Experience Manager Sites
 feature: APIs
-topics: content-delivery, development, headless
-activity: develop
-audience: developer
-doc-type: technical video
+doc-type: Technical Video
 topic: Development
 role: Developer
 level: Intermediate

@@ -4,7 +4,7 @@ description: Verify the mobile number associated with the application number usi
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
-kt: 6594
+jira: KT-6594
 thumbnail: 6594.jpg
 topic: Development
 role: Developer

@@ -2,12 +2,9 @@
 title: Updating a Language Copy with Launches
 description: Learn how to update, review, and approve changes in a Language Copy with the help of Launches.
 feature: Language Copy, Multi Site Manager
-topics: localization, authoring, content-architecture
-audience: all
-doc-type: feature video
-activity: use
+doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
-kt: 5367
+jira: KT-5367
 thumbnail: 36683.jpg
 topic: Localization
 role: User

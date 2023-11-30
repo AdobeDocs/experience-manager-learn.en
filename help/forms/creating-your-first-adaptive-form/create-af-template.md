@@ -5,7 +5,7 @@ feature: Adaptive Forms
 topic: Development
 role: Developer
 level: Beginner
-kt: 5859
+jira: KT-5859
 thumbnail: 37324.jpg
 ---
 

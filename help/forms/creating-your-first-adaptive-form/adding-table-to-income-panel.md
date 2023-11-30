@@ -4,7 +4,7 @@ description: We will add a table to the Income panel. Configure the table rows a
 feature: Adaptive Forms
 version: 6.4,6.5
 thumbnail: 22198.jpg
-kt: 4211
+jira: KT-4211
 topic: Development
 role: Developer
 level: Beginner

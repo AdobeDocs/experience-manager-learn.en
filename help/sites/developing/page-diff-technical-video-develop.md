@@ -2,14 +2,11 @@
 title: Developing for Page Difference in AEM Sites
 description: This video shows how to provide custom styles for AEM Sites' Page Difference functionality.
 feature: Authoring
-topics: development
-audience: developer
-doc-type: technical video
-activity: develop
 version: 6.4, 6.5
 topic: Development
 role: Developer
 level: Beginner
+doc-type: Technical Video
 exl-id: 7d600b16-bbb3-4f21-ae33-4df59b1bb39d
 ---
 # Developing for Page Difference {#developing-for-page-difference}

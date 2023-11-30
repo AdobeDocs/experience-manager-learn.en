@@ -6,7 +6,7 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
-kt: 11133
+jira: KT-11133
 thumbnail: KT-11133.jpg
 index: no
 hide: yes

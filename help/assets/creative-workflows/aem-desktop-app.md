@@ -6,9 +6,10 @@ topic: Content Management
 feature: Desktop App
 role: User
 level: Beginner
-kt: 2551
+jira: KT-2551
 thumbnail: 28868.jpeg
 last-substantial-update: 2022-06-24
+doc-type: Feature Video
 exl-id: 6765758f-0719-4ed9-83be-8ed192a75b41
 ---
 # Use AEM Desktop App

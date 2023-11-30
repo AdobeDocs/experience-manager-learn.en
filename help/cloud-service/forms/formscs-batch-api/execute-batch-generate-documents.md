@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Output Service
 topic: Development
-kt: 9674
+jira: KT-9674
 exl-id: 17f91f81-96d8-49d6-b1e3-53d8899695ae
 ---
 # Execute Batch Configuration

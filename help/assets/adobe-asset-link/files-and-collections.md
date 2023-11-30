@@ -8,6 +8,7 @@ thumbnail: 33884.jpg
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: eaf9e9fc-2058-442a-bf78-27e82c33386d
 ---
 # Files and Collections {#files-and-collections}

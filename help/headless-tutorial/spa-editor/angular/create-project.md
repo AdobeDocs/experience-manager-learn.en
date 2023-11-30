@@ -4,14 +4,14 @@ description: Learn how to use an Adobe Experience Manager (AEM) Maven project as
 feature: SPA Editor, AEM Project Archetype
 topics: development
 version: Cloud Service
-doc-type: tutorial
 activity: develop
 audience: developer
-kt: 5309
+jira: KT-5309
 thumbnail: 5309-spa-angular.jpg
 topic: SPA
 role: Developer
 level: Beginner
+doc-type: Tutorial
 exl-id: 49fcd603-ab1a-4f1e-ae1f-49d3ff373439
 ---
 # SPA Editor Project {#create-project}

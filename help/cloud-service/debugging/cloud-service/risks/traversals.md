@@ -5,7 +5,7 @@ topics: Migration
 feature: Migration
 role: Architect, Developer
 level: Beginner
-kt: 10427
+jira: KT-10427
 hidefromtoc: yes
 hide: yes
 index: no

@@ -7,7 +7,7 @@ level: Intermediate
 version: 6.5
 feature: Output Service,Forms Service
 topic: Administration
-kt: 11091
+jira: KT-11091
 exl-id: 933ec5f6-3e9c-4271-bc35-4ecaf6dbc434
 ---
 # How to enable creation of pdf files by merging large xml data files with xdp templates

@@ -6,7 +6,7 @@ feature-set: Experience Manager, Experience Manager Assets, Experience Manager S
 solution: Experience Manager, Experience Manager Sites
 sub-product: Experience Manager Sites
 version: 6.5, Cloud Service
-kt: 2963
+jira: KT-2963
 index: y
 ---
  

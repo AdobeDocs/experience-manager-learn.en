@@ -4,11 +4,12 @@ description: Adobe Experience Manager assets can now be used by designers and cr
 sub-product: Experience Manager Assets
 feature: Adobe Asset Link
 version: Cloud Service
-kt: 4916
+jira: KT-4916
 thumbnail: 34259.jpg
 topic: Content Management
 role: User
 level: Intermediate
+doc-type: Feature Video
 exl-id: 940608db-6e84-441a-b031-e8cf52459597
 ---
 # For Placement Only (FPO) Rendition{#for-placement-only-rendition}

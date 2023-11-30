@@ -4,10 +4,7 @@ description: Apache Sling Models 1.3.0 introduces Sling Model Exporter, an elega
 version: 6.4, 6.5
 sub-product: Experience Manager, Experience Manager Sites
 feature: APIs
-topics: development, content-delivery, headless
-activity: understand
-audience: developer, architect
-doc-type: article
+doc-type: Article
 topic: Development
 role: Developer
 level: Beginner

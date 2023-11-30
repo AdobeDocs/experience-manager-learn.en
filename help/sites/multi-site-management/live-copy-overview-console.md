@@ -2,12 +2,9 @@
 title: Live Copy console
 description: The following video explains how to view or manage inheritance across a site or perform rollout operations using the Live Copy Overview console.
 feature: Language Copy, Multi Site Manager
-topics: localization, authoring, content-architecture
-audience: all
-doc-type: feature video
-activity: use
+doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
-kt: 5373
+jira: KT-5373
 thumbnail: 36680.jpg
 topic: Localization
 role: User

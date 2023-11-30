@@ -2,13 +2,13 @@
 title: Page templates
 description: Learn how to create and modify Page Templates. Understand the relationship between a Page Template and a Page. Learn how to configure policies of a Page Template to provide granular governance and brand consistency for content.  A well-structured Magazine Article template is created based on a mockup from Adobe XD.
 version: Cloud Service
-type: Tutorial
 topic: Content Management
 feature: Core Components, Editable Templates, Page Editor
 role: Developer
 level: Beginner
-kt: 7498
+jira: KT-7498
 thumbnail: KT-7498.jpg
+doc-type: Tutorial
 exl-id: 261ec68f-36f4-474f-a6e4-7a2f9cea691b
 recommendations: noDisplay, noCatalog
 ---

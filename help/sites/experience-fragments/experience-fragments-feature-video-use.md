@@ -6,9 +6,9 @@ feature: Experience Fragments
 topic: Content Management
 role: Architect, Developer, Admin, User
 level: Beginner
-doc-type: feature video
+doc-type: Feature Video
 version: Cloud Service
-kt: 194
+jira: KT-194
 thumbnail: 331785.jpg
 last-substantial-update: 2021-06-09
 exl-id: 84d2b240-5ecc-4230-97a0-6c2faead8d1a

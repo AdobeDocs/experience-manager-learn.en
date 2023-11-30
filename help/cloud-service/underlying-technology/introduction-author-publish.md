@@ -6,7 +6,7 @@ audience: administrator, developer
 doc-type: technical video
 activity: understand
 version: Cloud Service
-kt: 4639
+jira: KT-4639
 thumbnail: 32033.jpg
 feature: Publishing
 topic: Architecture

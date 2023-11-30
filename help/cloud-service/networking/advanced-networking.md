@@ -6,7 +6,7 @@ feature: Security
 topic: Development, Integrations, Security
 role: Architect, Developer
 level: Intermediate
-kt: 9354
+jira: KT-9354
 thumbnail: KT-9354.png
 last-substantial-update: 2022-10-13
 exl-id: d1c1a3cf-989a-4693-9e0f-c1b545643e41

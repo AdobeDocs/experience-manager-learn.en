@@ -7,7 +7,7 @@ version: Cloud Service
 activity: develop
 audience: developer
 doc-type: tutorial
-kt: 6268
+jira: KT-6268
 thumbnail: 40183.jpg
 topic: Integrations, Development
 role: Developer

@@ -6,8 +6,9 @@ topic: Integrations
 feature: Adobe Client Data Layer
 role: User
 level: Intermediate
-kt: 6409
+jira: KT-6409
 thumbnail: KT-6296.jpg
+doc-type: Tutorial
 exl-id: b5722fe2-93bf-4b25-8e08-4cb8206771cb
 badgeIntegration: label="Integration" type="positive"
 last-substantial-update: 2022-06-15

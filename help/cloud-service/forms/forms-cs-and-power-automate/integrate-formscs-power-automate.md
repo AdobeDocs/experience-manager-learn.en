@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
 topic: Development
-kt: 10782
+jira: KT-10782
 exl-id: 67ccf040-013c-4641-96df-d5e494efdaeb
 ---
 # Forms CS and Microsoft Power Automate

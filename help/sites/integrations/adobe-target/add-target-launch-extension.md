@@ -1,12 +1,8 @@
 ---
 title: Add Target extension to a Launch Property
 description: Learn how to add the Adobe Target extension to an Adobe Experience Platform Launch Property.
-topics: integrations, administration, development
-audience: administrator, developer
-doc-type: technical video
-activity: setup
 version: Cloud Service
-kt: 6131
+jira: KT-6131
 thumbnail: 41247.jpg
 topic: Integrations
 feature: Integrations
@@ -14,6 +10,7 @@ role: Developer
 level: Intermediate
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
+doc-type: Tutorial
 exl-id: aa48ffef-1105-4d0d-b4b4-12ac5d2eea23
 ---
 # Add Target extension to a Launch Property {#adobe-target-extension}

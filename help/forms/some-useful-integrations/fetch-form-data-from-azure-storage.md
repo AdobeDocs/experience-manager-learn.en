@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 last-substantial-update: 2023-10-23
-kt: 14238
+jira: KT-14238
 
 ---
 # Fetch data from Azure storage

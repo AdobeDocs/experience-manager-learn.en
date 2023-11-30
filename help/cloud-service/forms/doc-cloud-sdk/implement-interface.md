@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 thumbnail: 7826.jpg
-kt: 7826
+jira: KT-7826
 exl-id: c1fd02aa-577b-453f-8948-ca50e3e8f89b
 ---
 # Interface implementation

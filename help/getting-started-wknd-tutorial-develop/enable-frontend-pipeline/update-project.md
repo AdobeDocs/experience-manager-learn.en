@@ -2,15 +2,15 @@
 title: Update full-stack AEM project to use front-end pipeline
 description: Learn how to update full-stack AEM project to enable it for the front-end pipeline, so it only builds and deploys the front-end artifacts.
 version: Cloud Service
-type: Tutorial
 feature: AEM Project Archetype, Cloud Manager, CI-CD Pipeline
 topic: Content Management, Development, Development, Architecture
 role: Developer, Architect, Admin
 level: Intermediate
-kt: 10689
+jira: KT-10689
 mini-toc-levels: 1
 index: y
 recommendations: noDisplay, noCatalog
+doc-type: Tutorial
 exl-id: c4a961fb-e440-4f78-b40d-e8049078b3c0
 ---
 # Update full-stack AEM project to use front-end pipeline {#update-project-enable-frontend-pipeline}

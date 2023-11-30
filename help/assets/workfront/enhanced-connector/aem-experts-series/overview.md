@@ -6,7 +6,7 @@ topic: Content Management, Integrations
 feature: Asset Management
 role: Admin, User
 level: Beginner
-kt: 9754
+jira: KT-9754
 thumbnail: kt-9754.jpeg
 last-substantial-update: 2022-09-02
 badgeIntegration: label="Integration" type="positive"

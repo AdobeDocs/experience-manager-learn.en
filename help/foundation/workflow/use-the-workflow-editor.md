@@ -6,7 +6,8 @@ feature: Workflow
 topic: Content Management
 level: Intermediate
 role: Admin, Developer
-kt: 657
+jira: KT-657
+doc-type: Feature Video
 exl-id: 8ec12629-3acd-4958-b25c-0ae0b97ce244
 last-substantial-update: 2022-08-10
 thumbnail: KT-657.jpg

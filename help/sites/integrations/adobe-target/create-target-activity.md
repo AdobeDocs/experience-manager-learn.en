@@ -2,17 +2,15 @@
 title: Create a Target Activity using Experience Fragment Offers
 description: Learn how to create and test an Adobe Target Activity using AEM Experience Fragment offers.
 feature: Experience Fragments
-topics: integrations, authoring, personalization, activity, offers
-audience: all
-doc-type: feature video
 version: Cloud Service
-kt: 6351
+jira: KT-6351
 thumbnail: 41246.jpg
 topic: Integrations
 role: User
 level: Intermediate
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
+doc-type: Tutorial
 exl-id: f581a4fb-1182-44bb-8c46-4250cf37b55f
 ---
 # Create Adobe Target Activity using Experience Fragment Offers {#target-activity-experience-fragment}

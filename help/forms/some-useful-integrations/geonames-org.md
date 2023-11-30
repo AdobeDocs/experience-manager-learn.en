@@ -3,7 +3,7 @@ title: Cascading drop down-lists
 description: Populate drop down lists based on a previous drop down list selection.
 feature: Adaptive Forms
 version: 6.4,6.5
-kt: 9724
+jira: KT-9724
 topic: Development
 role: Developer
 level: Intermediate

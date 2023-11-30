@@ -6,7 +6,7 @@ topic: Migration, Upgrade
 feature: Migration
 role: Developer
 level: Experienced
-kt: 8919
+jira: KT-8919
 thumbnail: 336970.jpeg
 exl-id: c51ce8e3-e83c-4f8b-a835-70335ed3a5b9
 ---

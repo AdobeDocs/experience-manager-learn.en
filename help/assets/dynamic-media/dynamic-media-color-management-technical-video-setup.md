@@ -6,6 +6,7 @@ version: 6.4, 6.5
 topic: Content Management
 role: Developer
 level: Intermediate
+doc-type: Feature Video
 exl-id: a733532b-db64-43f6-bc43-f7d422d5071a
 ---
 # Understanding Color Management with AEM Dynamic Media{#understanding-color-management-with-aem-dynamic-media}

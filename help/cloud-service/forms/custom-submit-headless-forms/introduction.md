@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
 topic: Development
-kt: 13520
+jira: KT-13520
 exl-id: 78fe677c-d5ab-40f6-a381-800f24e227ae
 ---
 # Customize response based on submitted data

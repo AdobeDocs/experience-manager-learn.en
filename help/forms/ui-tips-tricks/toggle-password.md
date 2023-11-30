@@ -7,7 +7,7 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
-kt: 9270
+jira: KT-9270
 exl-id: 13b9cd28-2797-4da9-a300-218e208cd21b
 last-substantial-update: 2019-07-07
 ---

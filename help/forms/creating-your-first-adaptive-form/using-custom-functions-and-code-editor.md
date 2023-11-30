@@ -3,7 +3,7 @@ title: Using functions and code editor
 description: Using functions and code editor to author business rule
 feature: Adaptive Forms
 version: 6.4,6.5
-kt: 4270
+jira: KT-4270
 thumbnail: 22282.jpg
 topic: Development
 role: Developer

@@ -7,6 +7,7 @@ feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+doc-type: Tutorial
 exl-id: f24a75f6-9062-498c-b782-7d9011aa0bcf
 ---
 # Tutorial Set up

@@ -4,7 +4,7 @@ description: Create servlet to handle the POST requests to save the form data
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
-kt: 6539
+jira: KT-6539
 thumbnail: 6539.pg
 topic: Development
 role: Developer

@@ -2,12 +2,9 @@
 title: Manage Live Copy Inheritance on a component
 description: Understand how to manage inheritance between a Live Copy and its Blueprint at a component level
 feature: Language Copy, Multi Site Manager
-topics: localization, authoring, content-architecture
-audience: all
-doc-type: feature video
-activity: use
+doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
-kt: 5372
+jira: KT-5372
 thumbnail: 36678.jpg
 topic: Localization
 role: User

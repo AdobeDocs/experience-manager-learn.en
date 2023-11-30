@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
 topic: Development
-kt: 13520
+jira: KT-13520
 exl-id: e5f76d6a-2ea8-4909-9cfb-b673077cf8fd
 ---
 # Extract the json object from the response

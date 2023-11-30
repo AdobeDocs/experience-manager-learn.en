@@ -3,7 +3,7 @@ title: Send documents for signature using workflow
 description: Send documents for signature using workflow. Create an AEM workflow using sign document component. Utilize the auto-generated DoR to send for signatures using the sign component. The video explains the various steps needed to create effective workflow to send documents for signature.
 feature: Adaptive Forms,Acrobat Sign
 thumbnail: 38182.jpg
-kt: 6035
+jira: KT-6035
 topic: Development
 role: Developer
 level: Intermediate

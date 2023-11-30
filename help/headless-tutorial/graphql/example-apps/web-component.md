@@ -6,7 +6,7 @@ feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer
 level: Beginner
-kt: 10797
+jira: KT-10797
 thumbnail: kt-10797.jpg
 last-substantial-update: 2023-05-10
 badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"

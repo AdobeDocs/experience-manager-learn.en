@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 thumbnail: 7836.jpg
-kt: 7836
+jira: KT-7836
 exl-id: 548a21b9-5487-4b48-9782-19b537a48f98
 ---
 # Create Analyzer Requests

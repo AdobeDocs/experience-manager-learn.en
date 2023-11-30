@@ -7,7 +7,7 @@ topic: Integrations, Personalization, Development
 role: Developer
 level: Beginner
 last-substantial-update: 2022-10-20
-kt: 11336
+jira: KT-11336
 thumbnail: kt-11336.jpeg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"

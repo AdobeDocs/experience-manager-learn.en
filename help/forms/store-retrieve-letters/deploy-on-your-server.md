@@ -10,7 +10,7 @@ version: 6.5
 topic: Development
 role: Developer
 level: Intermediate
-kt: 10208
+jira: KT-10208
 exl-id: 9053ee29-436a-439a-b592-c3fef9852ea4
 ---
 # Deploy the sample assets on your server

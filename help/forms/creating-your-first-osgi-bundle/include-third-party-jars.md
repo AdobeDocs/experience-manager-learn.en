@@ -6,7 +6,7 @@ feature: Adaptive Forms
 topic: Development
 role: Developer
 level: Beginner
-kt: 11245
+jira: KT-11245
 last-substantial-update: 2022-10-15
 thumbnail: third-party.jpg
 exl-id: e8841c63-3159-4f13-89a1-d8592af514e3

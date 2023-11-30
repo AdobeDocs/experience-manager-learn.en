@@ -5,6 +5,7 @@ feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
+doc-type: Tutorial
 exl-id: 873d8e69-5a05-44ac-8dae-bba21f82b823
 ---
 # Chapter 5 - Authoring Content Services Pages

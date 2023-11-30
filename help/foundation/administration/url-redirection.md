@@ -6,9 +6,10 @@ topic: Development, Administration
 feature: Operations, Dispatcher
 role: Developer, Architect
 level: Intermediate
-kt: 11466
+jira: KT-11466
 last-substantial-update: 2022-10-14
 index: y
+doc-type: Article
 exl-id: 8e64f251-e5fd-4add-880e-9d54f8e501a6
 ---
 # URL redirects

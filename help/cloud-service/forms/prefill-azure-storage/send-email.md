@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 version: Cloud Service
 topic: Integrations
-kt: 8474
+jira: KT-8474
 ---
 # Send e-mail
 

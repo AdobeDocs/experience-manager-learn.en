@@ -6,7 +6,7 @@ topic: Development
 role: Developer
 level: Beginner
 version: 6.4,6.5
-kt: 6899
+jira: KT-6899
 thumbnail: 6899.jpg
 exl-id: 2e851ae5-6caa-42e3-8af2-090766a6f36a
 ---

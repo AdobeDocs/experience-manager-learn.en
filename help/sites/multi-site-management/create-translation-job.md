@@ -2,12 +2,9 @@
 title: Translation Jobs
 description: Learn how to add a translation job to an existing translation Project.
 feature: Language Copy, Multi Site Manager
-topics: localization, authoring, content-architecture
-audience: all
-doc-type: feature video
-activity: use
+doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
-kt: 5366
+jira: KT-5366
 thumbnail: 36488.jpg
 topic: Localization
 role: User

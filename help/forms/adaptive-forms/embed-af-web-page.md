@@ -7,7 +7,7 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
-kt: 8390
+jira: KT-8390
 exl-id: 068e38df-9c71-4f55-b6d6-e1486c29d0a9
 last-substantial-update: 2020-06-09
 ---

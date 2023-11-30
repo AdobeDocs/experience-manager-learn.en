@@ -7,6 +7,7 @@ version: Cloud Service
 feature: Brand Portal
 topic: Development
 last-substantial-update: 2022-06-17
+doc-type: Feature Video
 exl-id: 4f5c1e04-8b98-454c-b410-1b1d0e110798
 ---
 # Configuring asset sourcing with the Brand Portal

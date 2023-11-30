@@ -8,6 +8,7 @@ thumbnail: 34048.jpg
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: 6bcc5978-dac8-4112-8e50-de1722b1c289
 ---
 # File Versioning and Comments{#file-versioning-and-comments}

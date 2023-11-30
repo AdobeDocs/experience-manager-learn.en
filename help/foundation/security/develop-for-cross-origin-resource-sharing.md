@@ -6,6 +6,7 @@ topic: Security, Development
 role: Developer
 level: Beginner
 feature: Security
+doc-type: Technical Video
 exl-id: 867cf74e-44e7-431b-ac8f-41b63c370635
 ---
 # Develop for Cross-Origin Resource Sharing (CORS)

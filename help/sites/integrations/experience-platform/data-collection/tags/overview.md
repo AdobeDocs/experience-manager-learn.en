@@ -1,12 +1,8 @@
 ---
 title: Integrating Experience Platform Data Collection Tags (Launch) and AEM
 description: Tags in Experience Platform Data Collection is Adobe's next-generation tag management solution and the best way to deploy Adobe Analytics, Target, Audience Manager, and many more solutions. Get an overview of Tags (formerly know as Launch) and the recommended integration with Adobe Experience Manager.
-topics: integrations
-audience: administrator
 solution: Experience Manager, Data Collection, Experience Platform
-doc-type: technical video
-activity: setup
-kt: 5979
+jira: KT-5979
 thumbnail: 39090.jpg
 topic: Integrations
 feature: Integrations
@@ -15,6 +11,7 @@ level: Intermediate
 last-substantial-update: 2022-07-10
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
+doc-type: Tutorial
 exl-id: bdae56d8-96e7-4b05-9b8b-3c6c2e998bd8
 ---
 # Integrating Experience Platform Data Collection Tags and AEM {#overview}

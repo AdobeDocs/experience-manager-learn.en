@@ -3,7 +3,7 @@ title: React App - AEM Headless Example
 description: Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This React application demonstrates how to query content using AEM's GraphQL APIs using persisted queries.
 version: Cloud Service
 mini-toc-levels: 1
-kt: 10715
+jira: KT-10715
 thumbnail: KT-10715.jpg
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management

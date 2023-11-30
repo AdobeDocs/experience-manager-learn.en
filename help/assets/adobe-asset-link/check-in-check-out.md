@@ -4,11 +4,12 @@ description: Adobe Asset Link lets you check out AEM Assets directly from the cr
 sub-product: Experience Manager Assets
 feature: Adobe Asset Link
 version:  6.4, 6.5, Cloud Service
-kt: 4910
+jira: KT-4910
 thumbnail: 33886.jpg
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: b89ea04b-56dd-494f-a454-644166660a2a
 ---
 # Check-In Check-Out {#check-in-check-out}

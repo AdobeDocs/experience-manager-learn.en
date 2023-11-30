@@ -4,7 +4,7 @@ description: Servlet to render the adaptive form with saved data
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
-kt: 6553
+jira: KT-6553
 thumbnail: 6553.jpg
 topic: Development
 role: Developer

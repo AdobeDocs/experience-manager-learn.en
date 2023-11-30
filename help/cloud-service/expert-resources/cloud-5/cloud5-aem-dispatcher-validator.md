@@ -4,7 +4,7 @@ description: This episode focuses a bit deeper on the dispatcher validator and t
 version: Cloud Service
 role: Admin, Developer
 level: Intermediate
-kt: 10271
+jira: KT-10271
 thumbnail: 342358.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog

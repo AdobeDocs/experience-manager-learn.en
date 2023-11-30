@@ -3,7 +3,7 @@ title: Display thank you message on form submission
 description: Use onSubmitSuccess handler to display the configured thank you message in the react app
 feature: Adaptive Forms
 version: 6.5
-kt: 13490
+jira: KT-13490
 topic: Development
 role: User
 level: Intermediate

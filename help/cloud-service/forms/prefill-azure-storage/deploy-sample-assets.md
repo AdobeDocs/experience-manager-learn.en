@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 version: Cloud Service
 topic: Integrations
-kt: 13717
+jira: KT-13717
 exl-id: ae8104fa-7af2-49c2-9e6b-704152d49149
 ---
 # Deploy the sample assets

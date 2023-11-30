@@ -7,7 +7,7 @@ role: Developer
 level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
-kt: 8842
+jira: KT-8842
 exl-id: 274018b9-91fe-45ad-80f2-e7826fddb37e
 ---
 # Installing the required software

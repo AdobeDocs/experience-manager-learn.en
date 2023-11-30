@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 thumbnail: 335385.jpg
-kt: 8229
+jira: KT-8229
 exl-id: 3bb4edb9-1b3c-4d9d-a133-16fb2b72f8a5
 ---
 # Create Azure storage backed Form Data Model

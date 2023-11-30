@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 version: Cloud Service
 topic: Integrations
-kt: 13717
+jira: KT-13717
 exl-id: 4b2d1e50-9fa1-4934-820b-7dae984cee00
 ---
 # Integrate with SendGrid

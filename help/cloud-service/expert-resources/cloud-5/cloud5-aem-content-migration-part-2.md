@@ -4,7 +4,7 @@ description: In the second video covering content migration, James and Darin dis
 version: Cloud Service
 role: Admin, Developer
 level: Intermediate
-kt: 10258
+jira: KT-10258
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 thumbnail: 342268.jpeg

@@ -6,8 +6,9 @@ feature: Workflow
 topic: Content Management
 role: User
 level: Intermediate
-kt: 2557
+jira: KT-2557
 thumbnail: 27848.jpg
+doc-type: Feature Video
 exl-id: 5a6bf1f2-1dd5-40b4-8ceb-03672a36869d
 ---
 # Use Workflow

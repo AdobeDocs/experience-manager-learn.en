@@ -7,8 +7,10 @@ topic: Performance, Administration
 role: Developer
 level: Intermediate
 last-substantial-update: 2022-08-11
-kt: 10843
+jira: KT-10843
 thumbnail: 346064.jpeg
+duration: 357
+doc-type: Feature Video
 exl-id: d16c0c7b-3d0e-4e4f-a1e0-baa8a44cc366
 ---
 # Web optimized image delivery

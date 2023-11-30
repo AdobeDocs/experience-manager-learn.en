@@ -8,6 +8,7 @@ version:  6.5, Cloud Service
 feature: Developer Tools
 topic: Administration
 index: y
+doc-type: Technical Video
 exl-id: 60f34070-be1f-4621-b697-4df12eaccfe3
 ---
 # How to investigate SAML related issues

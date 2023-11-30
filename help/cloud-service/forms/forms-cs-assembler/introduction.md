@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Output Service
 topic: Development
-kt: 9980
+jira: KT-9980
 exl-id: 713c4e9e-95ac-48e1-a7fc-2b3ec0b145e5
 ---
 # Introduction

@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 feature: Developer Tools
-kt: 9006
+jira: KT-9006
 exl-id: 77c00a35-43bf-485f-ac12-0fffb307dc16
 ---
 # Include cloud services configuration in your project

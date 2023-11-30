@@ -2,13 +2,10 @@
 title: Video Overview
 description: Dynamic Media Classic comes with automatic conversion of video on upload, video streaming to desktop and mobile devices, and adaptive video sets optimized for playback based on device and bandwidth. Learn more about video in Dynamic Media Classic and get a primer on video concepts and terminology. Then deep dive into learning how to upload and encode video, choose video presets for uploading, add or edit a video preset, preview videos in a video viewer, deploy video to web and mobile sites, add captions and chapter markers to video, and publish video viewers to desktop and mobile users.
 feature: Dynamic Media Classic, Video Profiles, Viewer Presets
-doc-type: tutorial
-topics: development, authoring, configuring, videos, video-profiles
-audience: all
-activity: use
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Tutorial
 exl-id: dfbf316f-3922-4bc7-b3f3-2a5bbdeb7063
 ---
 # Video Overview {#video-overview}

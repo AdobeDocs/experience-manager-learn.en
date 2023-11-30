@@ -2,17 +2,15 @@
 title: Export Experience Fragments to Adobe Target
 description: Learn how to publish and export AEM Experience Fragment as Adobe Target Offers.
 feature: Experience Fragments
-topics: integrations, authoring
-audience: all
-doc-type: feature video
 version: Cloud Service
-kt: 6350
+jira: KT-6350
 thumbnail: 41245.jpg
 topic: Integrations
 role: User
 level: Intermediate
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
+doc-type: Tutorial
 exl-id: 2c01cda8-f72f-47f7-a36b-95afd241906e
 ---
 # Export Experience Fragment to Adobe Target {#experience-fragment-target}

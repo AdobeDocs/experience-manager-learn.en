@@ -6,7 +6,7 @@ audience: administrator, developer
 doc-type: technical video
 activity: understand
 version: Cloud Service
-kt: 4260
+jira: KT-4260
 thumbnail: 32034.jpg
 topic: Architecture
 role: Architect, Developer

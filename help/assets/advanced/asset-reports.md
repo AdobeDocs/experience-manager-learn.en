@@ -6,9 +6,10 @@ topic: Administration
 role: User
 level: Intermediate
 version:  6.4, 6.5, Cloud Service
-kt: 648
+jira: KT-648
 thumbnail: 22140.jpg
 last-substantial-update: 2022-06-05
+doc-type: Feature Video
 exl-id: 8ac84d4e-59c1-4dde-a06e-a94458664ba7
 ---
 # Assets Reports{#using-reports-in-aem-assets}

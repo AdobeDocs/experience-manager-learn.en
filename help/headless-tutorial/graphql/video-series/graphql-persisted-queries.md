@@ -6,7 +6,7 @@ topic: Headless, Content Management
 feature: GraphQL API
 role: Developer
 level: Beginner
-kt: 7872
+jira: KT-7872
 thumbnail: 333429.jpeg
 last-substantial-update: 2023-05-17
 exl-id: 06ba38c4-95fe-4ff5-b4d9-237ef9dec944

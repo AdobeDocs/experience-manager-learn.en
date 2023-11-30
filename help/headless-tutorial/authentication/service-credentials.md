@@ -2,17 +2,17 @@
 title: Service credentials
 description: Learn how to use Service Credentials that are used to facilitate external applications, systems, and services to programmatically interact with Author or Publish services over HTTP.
 version: Cloud Service
-doc-type: tutorial
 topics: Development, Security
 feature: APIs
 activity: develop
 audience: developer
-kt: 6785
+jira: KT-6785
 thumbnail: 330519.jpg
 topic: Headless, Integrations
 role: Developer
 level: Intermediate, Experienced
 last-substantial-update: 2023-01-12
+doc-type: Tutorial
 exl-id: e2922278-4d0b-4f28-a999-90551ed65fb4
 ---
 # Service credentials

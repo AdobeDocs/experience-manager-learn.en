@@ -6,7 +6,7 @@ feature: Onboarding
 topic: Migration, Upgrade
 role: Developer
 level: Experienced
-kt: 8631
+jira: KT-8631
 thumbnail: 336959.jpeg
 exl-id: 9d2004e5-e928-4190-8298-695635c8e92c
 ---

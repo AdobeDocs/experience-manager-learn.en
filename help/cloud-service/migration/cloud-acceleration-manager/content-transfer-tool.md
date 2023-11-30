@@ -6,7 +6,7 @@ feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer
 level: Intermediate
-kt: 8661
+jira: KT-8661
 thumbnail: 336692.jpeg
 exl-id: c9504888-f3df-4004-bab7-89f5903685e2
 ---

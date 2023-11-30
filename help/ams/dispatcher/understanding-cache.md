@@ -6,6 +6,7 @@ version: 6.5
 role: Admin
 level: Beginner
 thumbnail: xx.jpg
+doc-type: Article
 exl-id: 66ce0977-1b0d-4a63-a738-8a2021cf0bd5
 ---
 # Understanding caching

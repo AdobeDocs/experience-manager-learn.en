@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 feature: Developer Tools
-kt: 10423
+jira: KT-10423
 exl-id: 2ce0c07b-1316-4170-a84d-23430437a9cc
 ---
 # Context Aware Cloud Configurations

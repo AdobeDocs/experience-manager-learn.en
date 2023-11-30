@@ -4,7 +4,7 @@ description: We dip our toes into the ocean that is search and indexing
 version: Cloud Service
 role: Admin, Developer
 level: Intermediate
-kt: 10275
+jira: KT-10275
 thumbnail: 342374.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog

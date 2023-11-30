@@ -6,8 +6,9 @@ topic: Content Management
 feature: Asset Processing, Renditions
 role: Leader, Architect, Developer, Admin, User
 level: Beginner
-kt: 7803
+jira: KT-7803
 thumbnail: 333197.jpeg
+doc-type: Catalog
 exl-id: be5ca0e7-54fb-4d19-bf7a-8985b11b3aba
 ---
 # Overview of Content Automation with Creative Cloud services

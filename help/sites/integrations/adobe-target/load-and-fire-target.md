@@ -2,17 +2,15 @@
 title: Load and fire a Target call
 description: Learn how to load, pass parameters to page request, and fire a Target call from your site page using a Launch Rule. Page information is retrieved and passed as parameters using the Adobe Client Data Layer that lets you collect and store data about visitors' experience on a webpage and then make it easy to access this data.
 feature: Core Components, Adobe Client Data Layer
-topics: integrations, administration, development
-audience: administrator, developer
-doc-type: technical video
 version: Cloud Service
-kt: 6133
+jira: KT-6133
 thumbnail: 41243.jpg
 topic: Integrations
 role: Developer
 level: Intermediate
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
+doc-type: Tutorial
 exl-id: ec048414-2351-4e3d-b5f1-ade035c07897
 ---
 # Load and fire a Target call {#load-fire-target}

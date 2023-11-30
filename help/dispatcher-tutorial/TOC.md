@@ -3,7 +3,7 @@ user-guide-title: AEM Dispatcher Cache Tutorial
 user-guide-description: A tutorial that helps you better understand how the Dispatcher works and how you can work with it.
 sub-product: Experience Manager
 version: 6.4, 6.5
-kt: 2233
+jira: KT-2233
 index: y
 team: TM
 ---

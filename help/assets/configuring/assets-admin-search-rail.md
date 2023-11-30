@@ -4,12 +4,13 @@ description: The Assets admin search rail allows assets to be searched for using
 sub-product: Experience Manager Assets
 feature: Search
 version: Cloud Service
-kt: 4995
+jira: KT-4995
 thumbnail: 35842.jpg
 topic: Content Management
 role: Admin
 level: Intermediate
 last-substantial-update: 2021-09-20
+doc-type: Feature Video
 exl-id: 7ef59804-b151-486c-9c7d-43058c004f3e
 ---
 # Assets admin search rail

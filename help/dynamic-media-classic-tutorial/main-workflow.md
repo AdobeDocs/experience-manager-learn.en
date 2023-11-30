@@ -2,13 +2,10 @@
 title: Dynamic Media Classic Main Workflow and Previewing Assets
 description: Learn about the main workflow in Dynamic Media Classic, which includes the three steps - Create (and Upload), Author (and Publish), and Deliver. Then learn how to preview assets in Dynamic Media Classic.
 feature: Dynamic Media Classic
-doc-type: tutorial
-topics: development, authoring, configuring, architecture, publishing
-audience: all
-activity: use
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Tutorial
 exl-id: 04aacd81-bbb2-4742-9306-f0eabc665a41
 ---
 # Dynamic Media Classic Main Workflow and Previewing Assets {#main-workflow}

@@ -7,6 +7,7 @@ version: Cloud Service
 feature: Image Presets
 topic: Development
 index: y
+doc-type: Tutorial
 exl-id: e76c50da-e7a8-4560-bc53-02cdb13619bb
 ---
 # Creating Image Presets with AEM Dynamic Media

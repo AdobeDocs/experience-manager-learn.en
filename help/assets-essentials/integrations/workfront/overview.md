@@ -11,6 +11,7 @@ thumbnail: null
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets Essentials" before-title="false"
 last-substantial-update: 2022-10-13
+doc-type: Catalog
 exl-id: b8d9b213-867e-457d-932d-1fedc4e1b1d7
 ---
 # Integrate Adobe Workfront and AEM Assets Essentials

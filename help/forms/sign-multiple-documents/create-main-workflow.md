@@ -4,7 +4,7 @@ description: Create workflow to store the forms for signature in the database
 feature: Adaptive Forms
 version: 6.4,6.5
 thumbnail: 6887.jpg
-kt: 6887
+jira: KT-6887
 topic: Development
 role: Developer
 level: Intermediate

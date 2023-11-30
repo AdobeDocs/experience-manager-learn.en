@@ -6,9 +6,10 @@ feature: Search
 role: User
 level: Intermediate
 version:  6.4, 6.5, Cloud Service
-kt: 103
+jira: KT-103
 thumbnail: 16766.jpg
 last-substantial-update: 2022-06-02
+doc-type: Feature Video
 exl-id: 3020f040-4d61-4cb6-ad46-e8a188335cec
 ---
 # Search Boost

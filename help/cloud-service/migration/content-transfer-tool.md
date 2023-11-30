@@ -7,7 +7,7 @@ topics: migration
 feature: Migration
 activity: develop
 audience: developer
-kt: 5352
+jira: KT-5352
 thumbnail: kt-5352.jpg
 topic: Migration
 role: Architect, Developer

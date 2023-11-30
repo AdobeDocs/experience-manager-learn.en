@@ -4,6 +4,7 @@ description: A collection of videos for Adobe Experience Manager Assets Essentia
 recommendations: disable
 last-substantial-update: 2022-10-01
 thumbnail: aem-assets-essentials-videos.jpg
+doc-type: Catalog
 exl-id: 6a8534fa-bc99-438b-9107-2a428e06619c
 ---
 # Assets Essentials Videos

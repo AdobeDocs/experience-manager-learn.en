@@ -6,6 +6,7 @@ version: 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: 4ee0b68f-3897-4104-8615-9de8dbb8f327
 ---
 # Using Dynamic Media 360 Videos and Custom Video thumbnail with AEM Assets

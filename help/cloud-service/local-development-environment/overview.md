@@ -4,7 +4,7 @@ description: Adobe Experience Manager (AEM) local development environment overvi
 feature: Developer Tools
 version: Cloud Service
 doc-type: article
-kt: 3290
+jira: KT-3290
 thumbnail: 32565.jpg
 topic: Development
 role: Developer

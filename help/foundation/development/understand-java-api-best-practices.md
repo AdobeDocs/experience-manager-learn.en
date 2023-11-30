@@ -6,6 +6,7 @@ feature: APIs
 topic: Development
 role: Developer
 level: Beginner
+doc-type: Article
 exl-id: b613aa65-f64b-4851-a2af-52e28271ce88
 last-substantial-update: 2022-06-24
 thumbnail: aem-java-bp.jpg

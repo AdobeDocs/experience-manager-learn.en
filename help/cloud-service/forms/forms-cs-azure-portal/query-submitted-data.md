@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 thumbnail: 335717.jpg
-kt: 8370
+jira: KT-8370
 exl-id: 45738615-4f15-43b0-bdaa-8b72288925ee
 ---
 # Query submitted data

@@ -6,9 +6,10 @@ topic: Integrations
 feature: Adobe Client Data Layer
 role: Developer
 level: Intermediate
-kt: 6296
+jira: KT-6296
 thumbnail: KT-6296.jpg
 badgeIntegration: label="Integration" type="positive"
+doc-type: Tutorial
 exl-id: ab051363-d3e8-4c07-b1fa-3a5d24757496
 ---
 # Track clicked component with Adobe Analytics

@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms, Integrations
 topic: Development
-kt: 9839
+jira: KT-9839
 exl-id: cb26970f-f975-4405-bef6-782d27ab2906
 ---
 # Create and configure Form Data Model

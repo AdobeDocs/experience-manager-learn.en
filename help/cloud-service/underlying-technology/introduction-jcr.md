@@ -6,7 +6,7 @@ audience: administrator, developer
 doc-type: technical video
 activity: understand
 version: Cloud Service
-kt: 4643
+jira: KT-4643
 thumbnail: 32030.jpg
 topic: Architecture
 feature: JCR

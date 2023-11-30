@@ -4,7 +4,7 @@ description: Create the myaccount form to retrieve the partially completed form 
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
-kt: 6599
+jira: KT-6599
 thumbnail: 6599.jpg
 topic: Development
 role: User

@@ -5,7 +5,7 @@ role: Developer
 level: Beginner
 topic: Development
 feature: OSGI
-kt: 8268
+jira: KT-8268
 thumbnail: 335729.jpeg
 exl-id: 096b0a95-7039-4570-b567-ba316bfc8709
 ---

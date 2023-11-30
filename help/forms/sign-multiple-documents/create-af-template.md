@@ -7,7 +7,7 @@ audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.4,6.5
-kt: 6891
+jira: KT-6891
 thumbnail: 6891.jpg
 topic: Development
 role: Developer

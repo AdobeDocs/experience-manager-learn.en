@@ -6,7 +6,7 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
-kt: 8507
+jira: KT-8507
 exl-id: 9ad69407-2413-416f-9cec-43f88989b31d
 last-substantial-update: 2021-06-09
 ---

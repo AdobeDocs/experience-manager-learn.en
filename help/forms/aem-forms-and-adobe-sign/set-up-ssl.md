@@ -4,7 +4,7 @@ description: Use the Adobe Experience Manager's SSL setup wizard to set up an AE
 feature: Adaptive Forms
 version: 6.4,6.5
 thumbnail: 17993.jpg
-kt: 6046
+jira: KT-6046
 topic: Development
 role: Admin
 level: Intermediate

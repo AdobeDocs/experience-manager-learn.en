@@ -6,7 +6,7 @@ feature: Search
 topic: Migration, Upgrade
 role: Developer
 level: Experienced
-kt: 8634
+jira: KT-8634
 thumbnail: 336963.jpeg
 exl-id: f752df86-27d4-4dbf-a3cb-ee97b7d9a17e
 ---

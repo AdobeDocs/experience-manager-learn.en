@@ -4,11 +4,12 @@ description: Adobe Asset Link provides creative users with the ability to browse
 sub-product: Experience Manager Assets
 feature: Adobe Asset Link
 version: Cloud Service
-kt: 4905
+jira: KT-4905
 thumbnail: 33734.jpg
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: ba8d0cd1-b7d2-4628-a069-5ef21cc214c6
 ---
 # Adobe Asset Link Panel Overview {#adobe-asset-link-panel-overview}

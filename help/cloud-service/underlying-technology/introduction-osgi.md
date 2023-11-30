@@ -6,7 +6,7 @@ audience: administrator, developer
 doc-type: technical video
 activity: understand
 version: Cloud Service
-kt: 4642
+jira: KT-4642
 thumbnail: 32031.jpg
 topic: Architecture
 feature: OSGI

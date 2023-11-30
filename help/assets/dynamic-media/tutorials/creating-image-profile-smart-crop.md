@@ -6,6 +6,7 @@ role: Developer
 level: Intermediate
 feature: Smart Crop
 topic: Development
+doc-type: Tutorial
 exl-id: 117e4ba4-2d60-40a6-b267-c2e1d99df808
 ---
 # Creating Smart Crop Image Profiles in AEM Dynamic Media

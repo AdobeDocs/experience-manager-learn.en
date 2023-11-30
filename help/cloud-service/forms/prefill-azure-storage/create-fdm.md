@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 version: Cloud Service
 topic: Integrations
-kt: 13717
+jira: KT-13717
 exl-id: afc0df42-b4fc-4d04-a36e-63e5a9438597
 ---
 # Create the integration with Azure Storage

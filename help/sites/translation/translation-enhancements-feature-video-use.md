@@ -6,6 +6,7 @@ topic: Localization
 feature: Multi Site Manager, Language Copy
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: 21633308-ffe4-4023-affe-59269504da69
 ---
 # Translation Enhancements with Multi-Site Manager {#translation-enhancements}

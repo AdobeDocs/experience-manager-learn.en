@@ -6,7 +6,7 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
-kt: 14196
+jira: KT-14196
 exl-id: b286c3e9-70df-46e8-b0bc-21599ab1ec06
 ---
 # Introduction

@@ -3,7 +3,7 @@ title: Integrate AEM Forms with SendGrid
 description: Leverage SengGrid cloud-based email delivery platform using AEM Forms.
 feature: Adaptive Forms
 version: 6.4,6.5
-kt: 13605
+jira: KT-13605
 topic: Development
 role: Developer
 level: Intermediate

@@ -6,7 +6,7 @@ feature: Integrations
 topic: Integrations
 role: Leader, Architect, Admin, Developer
 level: Beginner
-kt: 10718
+jira: KT-10718
 thumbnail: KT-10718.png
 last-substantial-update: 2022-11-17
 mini-toc-levels: 1

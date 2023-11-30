@@ -2,7 +2,7 @@
 title: Creating Adaptive Form
 description: In Part1 we will create Adaptive Form, add and configure toolbar with appropriate buttons.
 feature: Adaptive Forms
-kt: 4208
+jira: KT-4208
 thumbnail: 22173.jpg
 topic: Development
 role: Developer

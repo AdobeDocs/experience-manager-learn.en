@@ -4,7 +4,7 @@ description: Create DataSource pointing to the MySQL database
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
-kt: 6541
+jira: KT-6541
 thumbnail: 6541.jpg
 topic: Development
 role: Developer

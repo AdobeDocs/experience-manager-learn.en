@@ -6,7 +6,7 @@ feature: Cloud Manager
 topic: Migration, Upgrade
 role: Architect, Developer
 level: Intermediate, Experienced
-kt: 8632
+jira: KT-8632
 thumbnail: 336961.jpeg
 exl-id: 9c641a90-be62-49c1-b8c0-d45d26055b94
 ---

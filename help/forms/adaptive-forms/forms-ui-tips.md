@@ -7,7 +7,7 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
-kt: 9270
+jira: KT-9270
 last-substantial-update: 2019-06-09
 ---
 # Toggle password field visibility

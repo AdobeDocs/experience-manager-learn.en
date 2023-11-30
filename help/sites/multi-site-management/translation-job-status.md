@@ -1,15 +1,10 @@
 ---
 title: Translation Job Status
-seo-title: Translation Job Status
 description: Understand the different statuses associated with a Translation Job or an item in the job.
-seo-description: Understand the different statuses associated with a Translation Job or an item in the job.
 feature: Language Copy, Multi Site Manager
-topics: localization, authoring, content-architecture
-audience: all
-doc-type: feature video
-activity: use
+doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
-kt: 5846
+jira: KT-5846
 thumbnail: 36685.jpg
 topic: Localization
 role: User

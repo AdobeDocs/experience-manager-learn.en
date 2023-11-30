@@ -1,15 +1,12 @@
 ---
 title: Customizing Component Icons in Adobe Experience Manager Sites
 description: Component Icons allow authors to quickly identify a component with icons or meaningful abbreviations. Authors can now find locate the Components required to build out their Web experiences faster than ever.
-topics: components
-audience: administrator, developer
-doc-type: technical video
-activity: develop
 version: 6.4, 6.5
 feature: Core Components
 topic: Development
 role: User
 level: Intermediate
+doc-type: Technical Video
 exl-id: 37dc26aa-0773-4749-8c8b-4544bd4d5e5f
 ---
 # Customizing Component Icons {#developing-component-icons-in-aem-sites}
