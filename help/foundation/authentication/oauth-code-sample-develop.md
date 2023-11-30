@@ -6,6 +6,7 @@ feature: User and Groups
 topic: Development
 role: Developer
 level: Experienced
+doc-type: Article
 exl-id: dd37355e-cfc7-4581-ac22-d89c951c22cf
 ---
 # Developing OAuth Scopes

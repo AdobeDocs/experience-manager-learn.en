@@ -3,12 +3,13 @@ title: Comments and Annotations
 description: Learn how to use comments and annotations in AEM to communicate and collaborate on assets.
 feature: Collaboration
 version: Cloud Service
-kt: 4541
+jira: KT-4541
 thumbnail: 32049.jpg
 topic: Collaboration
 role: User
 level: Beginner
 last-substantial-update: 2021-09-29
+doc-type: Feature Video
 exl-id: c3b4366b-cbb2-48d6-b101-78effb35130d
 ---
 # Comments and Annotations

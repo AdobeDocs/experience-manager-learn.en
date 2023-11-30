@@ -5,10 +5,11 @@ topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
 role: Developer, Architect
 level: Beginner
-kt: 7634
+jira: KT-7634
 thumbnail: kt-7634.jpeg
 last-substantial-update: 2022-11-11
 recommendations: noDisplay, noCatalog
+doc-type: Tutorial
 exl-id: edd18f2f-6f24-4299-a31a-54ccc4f6d86e
 ---
 # Editable fixed components

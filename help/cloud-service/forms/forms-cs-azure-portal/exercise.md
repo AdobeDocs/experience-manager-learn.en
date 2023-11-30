@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrationa
 thumbnail: 335800.jpg
-kt: 8481
+jira: KT-8481
 ---
 # Test your understanding
 

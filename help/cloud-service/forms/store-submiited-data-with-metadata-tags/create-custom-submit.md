@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 version: Cloud Service
 topic: Integrations
-kt: 14501
+jira: KT-14501
 ---
 # Create custom submit to handle the form submission
 

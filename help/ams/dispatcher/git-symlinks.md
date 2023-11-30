@@ -7,6 +7,7 @@ feature: Dispatcher
 role: Admin
 level: Beginner
 thumbnail: xx.jpg
+doc-type: Article
 exl-id: 6e751586-e92e-482d-83ce-6fcae4c1102c
 ---
 # Adding Symlinks into GIT

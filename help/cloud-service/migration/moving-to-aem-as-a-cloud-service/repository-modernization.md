@@ -6,7 +6,7 @@ feature: Developer Tools
 topic: Migration, Upgrade
 role: Developer
 level: Experienced
-kt: 8630
+jira: KT-8630
 thumbnail: 336958.jpeg
 exl-id: e9bd9035-1f2d-4a34-a581-9c1ec2c7bc04
 ---

@@ -5,10 +5,11 @@ topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
 role: Developer, Architect
 level: Beginner
-kt: 7631
+jira: KT-7631
 thumbnail: kt-7631.jpeg
 last-substantial-update: 2022-11-11
 recommendations: noDisplay, noCatalog
+doc-type: Tutorial
 exl-id: 0bdb93c9-5070-483c-a34c-f2b348bfe5ae
 ---
 # Configure AEM for SPA Editor

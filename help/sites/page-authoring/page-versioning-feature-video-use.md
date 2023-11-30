@@ -1,17 +1,14 @@
 ---
 title: Creating Page Versions for AEM Site pages
 description: The following video highlights how to create a page version, preview, restore a page version, and compare the current page version with a saved page versions.
-topics: authoring
-audience: author, marketer
-doc-type: feature video
-activity: use
 version: 6.4, 6.5, Cloud Service
-kt: 4630
+jira: KT-4630
 thumbnail: 32151.jpg
 topic: Content Management
 feature: Authoring
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: cc659581-031d-4f2a-90c1-cf721e481689
 ---
 # Creating page versions {#creating-page-versions-aem-sites}

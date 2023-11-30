@@ -7,6 +7,7 @@ level: Intermediate
 feature: Video Profiles
 topic: Development
 index: y
+doc-type: Tutorial
 exl-id: 0fd4d366-bb7a-4c43-887f-3a83cf60d15b
 ---
 # Creating Video Profiles in AEM Dynamic Media

@@ -4,7 +4,7 @@ description: Multi-Part tutorial to walk you through the steps involved in stori
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
-kt: 6593
+jira: KT-6593
 thumbnail: 327122.jpg
 topic: Development
 role: Developer

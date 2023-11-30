@@ -7,8 +7,8 @@ feature: Experience Fragments
 topic: Content Management
 level: Beginner, Intermediate
 role: Architect, Developer, Admin, User
-doc-type: feature video
-kt: 660
+doc-type: Feature Video
+jira: KT-660
 thumbnail: 331786.jpg
 exl-id: cc758602-3c20-4eca-9b87-f04b6dc96bfe
 ---

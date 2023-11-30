@@ -10,7 +10,7 @@ audience: developer
 doc-type: tutorial
 activity: implement
 version: 6.4,6.5
-kt: 6168
+jira: KT-6168
 thumbnail: 40122.jpg
 topic: Development
 role: Developer

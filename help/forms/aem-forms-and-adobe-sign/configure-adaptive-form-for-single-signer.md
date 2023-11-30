@@ -3,7 +3,7 @@ title: Adaptive Form with single signer
 description: Adaptive Form with single signer. The video explains the various steps needed to configure an adaptive form with single signer.
 feature: Adaptive Forms,Acrobat Sign
 thumbnail: 39475.jpg
-kt: 6103
+jira: KT-6103
 topic: Development
 role: User
 level: Beginner

@@ -10,7 +10,7 @@ doc-type: tutorial
 activity: implement
 version: 6.4,6.5
 discoiquuid: 47d3aa97-0bff-48e0-8a65-55e5332f811b
-kt: 5958
+jira: KT-5958
 thumbnail: 22350.jpg
 topic: Development
 role: Developer

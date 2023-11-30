@@ -6,6 +6,7 @@ version: 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: da3190bb-f350-420f-bf24-a6dede296efa
 ---
 # Using Custom Video Thumbnail with AEM Dynamic Media{#using-custom-video-thumbnail-with-aem-dynamic-media}

@@ -4,7 +4,7 @@ description: Darin and James discuss migrating to the AEM Cloud and demo some te
 version: Cloud Service
 role: Admin, Developer
 level: Intermediate
-kt: 10207
+jira: KT-10207
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 thumbnail: 342133.jpeg

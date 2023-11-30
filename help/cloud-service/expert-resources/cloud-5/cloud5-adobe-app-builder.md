@@ -4,7 +4,7 @@ description: This episode digs into the external integration pattern which uses 
 version: Cloud Service
 role: Admin, Developer
 level: Intermediate
-kt: 10279
+jira: KT-10279
 thumbnail: 342375.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog

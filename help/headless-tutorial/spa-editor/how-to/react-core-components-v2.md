@@ -6,8 +6,9 @@ topic: Headless
 feature: SPA Editor
 role: Developer
 level: Intermediate
-kt: 10900
+jira: KT-10900
 thumbnail: kt-10900.jpeg
+doc-type: Tutorial
 exl-id: e055b356-dd26-4366-8608-5a0ccf5b4c49
 ---
 # How to use AEM React Editable Components v2

@@ -3,7 +3,7 @@ title: Set up the development tools for AEM as a Cloud Service development
 description: Set up a local development machine with all the baseline tooling required to develop against AEM locally.
 feature: Developer Tools
 version: Cloud Service
-kt: 4267
+jira: KT-4267
 thumbnail: 25907.jpg
 topic: Development
 role: Developer

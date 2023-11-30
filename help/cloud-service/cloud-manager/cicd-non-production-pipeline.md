@@ -6,7 +6,7 @@ audience: administrator
 doc-type: feature video
 activity: use
 version: Cloud Service
-kt: 6873
+jira: KT-6873
 thumbnail: 26316.jpg
 topic: Architecture
 feature: Cloud Manager, CI-CD Pipeline

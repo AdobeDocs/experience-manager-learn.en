@@ -33,7 +33,6 @@ index: y
   + [Develop AEM Projects](./projects/develop-aem-projects.md)
   + [Use Project Masters](./projects/use-project-masters.md)
 + Security {#security}
-  + [AEM Security Notification (November 2018)](./security/aem-security-notification-2018-11.md)
   + [Develop for Cross-Origin Resource Sharing (CORS)](./security/develop-for-cross-origin-resource-sharing.md)
   + [Understand Cross-Origin Resource Sharing (CORS)](./security/understand-cross-origin-resource-sharing.md)
   + [Use the SSL Wizard](./security/use-the-ssl-wizard.md)

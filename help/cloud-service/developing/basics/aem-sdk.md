@@ -6,7 +6,7 @@ level: Beginner
 type: Tutorial
 topic: Development
 feature: Developer Tools
-kt: 6927
+jira: KT-6927
 thumbnail: 330552.jpg
 exl-id: 6c0c7814-fa7a-47d3-a811-b15a7cb51780
 ---

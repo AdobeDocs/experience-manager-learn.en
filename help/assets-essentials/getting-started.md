@@ -6,9 +6,10 @@ feature: Assets Essentials
 topic: Content Management
 role: User
 level: Beginner
-kt: 8021
+jira: KT-8021
 thumbnail: 336005.jpeg
 last-substantial-update: 2022-10-03
+doc-type: Feature Video
 exl-id: a0accb94-ceef-4ecf-b1f6-f47751114242
 ---
 # Getting started with Assets Essentials

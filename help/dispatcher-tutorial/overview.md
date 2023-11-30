@@ -5,6 +5,7 @@ feature: Dispatcher
 topic: Architecture
 role: Architect
 level: Beginner
+doc-type: Catalog
 exl-id: 9780870e-9ac6-46f9-abc4-87c9470ef7e7
 ---
 # AEM Dispatcher Cache Tutorial

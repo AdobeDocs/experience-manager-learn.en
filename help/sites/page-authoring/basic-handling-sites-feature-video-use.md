@@ -1,19 +1,14 @@
 ---
 title: Basic Handling in AEM Sites
-seo-title: Create a new page in Adobe Experience Manager Sites
 description: The following video provides an overview of basic handling when using the AEM author environment. It uses the Sites console as a basis.
-seo-description: The following video provides an overview of basic handling when using the AEM author environment. It uses the Sites console as a basis.
 feature: Page Editor, Editable Templates
-topics: authoring, publishing
-audience: author, marketer
-doc-type: feature video
-activity: use
 version: 6.4, 6.5, Cloud Service
-kt: 4495
+jira: KT-4495
 thumbnail: 31784.jpg
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: 896d378c-c20e-4343-b592-277f4c71065e
 ---
 # AEM Sites UI and navigation {#basic-handling-aem-sites}

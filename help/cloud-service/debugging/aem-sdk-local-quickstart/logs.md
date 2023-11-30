@@ -7,7 +7,7 @@ version: Cloud Service
 doc-type: tutorial
 activity: develop
 audience: developer
-kt: 5252
+jira: KT-5252
 topic: Development
 role: Developer
 level: Beginner, Intermediate

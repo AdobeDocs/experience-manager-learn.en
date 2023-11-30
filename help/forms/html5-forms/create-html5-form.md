@@ -7,7 +7,7 @@ audience: developer
 doc-type: article
 activity: implement
 version: 6.5
-kt: 4419
+jira: KT-4419
 thumbnail: kt-4419.jpg
 topic: Development
 role: User

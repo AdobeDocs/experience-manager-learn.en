@@ -2,12 +2,9 @@
 title: Manage Live Copy inheritance on a page
 description: Learn how to manage inheritance between a Live Copy and its Blueprint at a page level
 feature: Language Copy, Multi Site Manager
-topics: localization, authoring, content-architecture
-audience: all
-doc-type: feature video
-activity: use
+doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
-kt: 5374
+jira: KT-5374
 thumbnail: 36679.jpg
 topic: Localization
 role: User

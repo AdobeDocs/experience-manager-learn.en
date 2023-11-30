@@ -2,13 +2,10 @@
 title: Introduction to Basic Templates
 description: Learn about Basic Templates in Dynamic Media Classic, image-based templates called from the Image Server and consisting of images and rendered text. A template can be changed dynamically via the URL after the template has been published. You'll learn how to upload a Photoshop PSD to Dynamic Media Classic to use it as the basis of a template. Create a simple merchandising Basic Template consisting of image layers. Add text layers and make them variable through the use of parameters. Construct a template URL and manipulate the image dynamically through the web browser.
 feature: Dynamic Media Classic
-doc-type: tutorial
-topics: development, authoring, configuring
-audience: all
-activity: use
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Tutorial
 exl-id: d4e16b45-0095-44b4-8c16-89adc15e0cf9
 ---
 # Introduction to Basic Templates {#basic-templates}

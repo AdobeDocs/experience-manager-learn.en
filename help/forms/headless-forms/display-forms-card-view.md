@@ -3,7 +3,7 @@ title: Display the fetched forms in card view
 description: Use the listforms API to display the forms
 feature: Adaptive Forms
 version: 6.5
-kt: 13311
+jira: KT-13311
 topic: Development
 role: User
 level: Intermediate

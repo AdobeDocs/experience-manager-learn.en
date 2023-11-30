@@ -6,11 +6,12 @@ feature: Assets Essentials
 topic: Content Management, Integrations
 role: User
 level: Beginner
-kt: 8220
+jira: KT-8220
 thumbnail: 336255.jpeg
 last-substantial-update: 2022-10-14
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets Essentials" before-title="false"
+doc-type: Feature Video
 exl-id: e1ec3560-2c74-47ac-ba8a-f05412b6b3e5
 ---
 # Sending documents and Linking assets

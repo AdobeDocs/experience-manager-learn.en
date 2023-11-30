@@ -6,7 +6,7 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
-kt: 13099
+jira: KT-13099
 last-substantial-update: 2023-04-13
 exl-id: f12f83fa-673a-454c-aa52-6ea769a182b7
 ---

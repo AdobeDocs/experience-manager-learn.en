@@ -2,13 +2,13 @@
 title: Theming workflow | AEM Quick Site Creation
 description: Learn how to update the theme sources of an Adobe Experience Manager Site to apply brand specific styles. Learn how to use a proxy server to view a live preview of CSS and Javascript updates. This tutorial will also cover how to deploy theme updates to an AEM Site using Adobe Cloud Manager's Front End Pipeline.
 version: Cloud Service
-type: Tutorial
 feature: Core Components
 topic: Content Management, Development
 role: Developer
 level: Beginner
-kt: 7498
+jira: KT-7498
 thumbnail: KT-7498.jpg
+doc-type: Tutorial
 exl-id: 98946462-1536-45f9-94e2-9bc5d41902d4
 recommendations: noDisplay, noCatalog
 ---

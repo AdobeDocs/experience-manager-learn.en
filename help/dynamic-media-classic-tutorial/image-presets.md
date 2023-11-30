@@ -2,13 +2,10 @@
 title: Image Presets
 description: Image Presets in Dynamic Media Classic contain all the settings needed to create an image at a specific size, format, quality, and sharpening. Image Presets are a key component of dynamic sizing. When you look at a URL in Dynamic Media Classic, you can easily see if an Image Preset is in use. Learn about Image Presets, why they're so useful, and how to create one.
 feature: Dynamic Media Classic, Image Presets
-doc-type: tutorial
-topics: development, authoring, configuring
-audience: all
-activity: use
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Tutorial
 exl-id: e472db7c-ac3f-4f66-85af-5a4c68ba609e
 ---
 # Image Presets {#image-presets}

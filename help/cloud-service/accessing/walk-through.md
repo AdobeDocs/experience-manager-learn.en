@@ -6,7 +6,7 @@ topic: Administration, Security
 feature: User and Groups
 role: Admin
 level: Beginner
-kt: 6061
+jira: KT-6061
 thumbnail: 39155.jpg
 last-substantial-update: 2023-05-19
 exl-id: 0ca50fa4-0b2a-4e6d-becb-7a91fc6b4166

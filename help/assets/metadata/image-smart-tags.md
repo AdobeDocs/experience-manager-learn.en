@@ -6,9 +6,10 @@ feature: Smart Tags
 role: User
 level: Intermediate
 version:  6.4, 6.5, Cloud Service
-kt: 645
+jira: KT-645
 thumbnail: 17019.jpg
 last-substantial-update: 2022-06-09
+doc-type: Feature Video
 exl-id: c72dc489-70e6-48ca-99a8-663d4c0652ba
 ---
 # Smart Tags for Images

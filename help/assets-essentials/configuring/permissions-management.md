@@ -6,9 +6,10 @@ feature: Assets Essentials
 topic: Content Management
 role: User
 level: Beginner
-kt: 9818
+jira: KT-9818
 thumbnail: 342113.jpeg
 last-substantial-update: 2022-10-11
+doc-type: Feature Video
 exl-id: d4d80678-e2e2-4e17-8ce5-6db8651ae59e
 ---
 # Permissions management in Assets Essentials

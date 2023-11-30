@@ -2,12 +2,9 @@
 title: Create a Language Copy
 description: Explore how to create a Language Copy for your AEM site using the Create Language Copy wizard.
 feature: Language Copy, Multi Site Manager
-topics: localization, authoring, content-architecture
-audience: all
-doc-type: feature video
-activity: use
+doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
-kt: 5371
+jira: KT-5371
 thumbnail: 36483.jpg
 topic: Localization
 role: User

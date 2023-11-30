@@ -5,10 +5,11 @@ topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
 role: Developer, Architect
 level: Beginner
-kt: 7629
+jira: KT-7629
 thumbnail: 333181.jpg
 last-substantial-update: 2022-11-11
 recommendations: noDisplay, noCatalog
+doc-type: Tutorial
 exl-id: ef7a1dad-993a-4c47-a9fb-91fa73de9b5d
 ---
 # Quick Setup

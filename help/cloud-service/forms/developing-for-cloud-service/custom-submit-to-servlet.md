@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 feature: Developer Tools
-kt: 8852
+jira: KT-8852
 exl-id: 983e0394-7142-481f-bd5e-6c9acefbfdd0
 ---
 # Create servlet to process the submitted data

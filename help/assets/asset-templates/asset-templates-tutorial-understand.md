@@ -6,6 +6,7 @@ topic: Content Management
 feature: Templates
 role: User
 level: Intermediate
+doc-type: Tutorial
 exl-id: c418e94a-b18e-429a-b41c-2bf32e158598
 ---
 # Understanding InDesign files and Asset Templates in AEM Assets {#understanding-indesign-files-and-asset-templates-in-aem-assets}

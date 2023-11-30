@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Output Service
 topic: Development
-kt: 7432
+jira: KT-7432
 thumbnail: 334859.jpg
 exl-id: 08dd141d-9d25-4dd5-a810-70e3835deae4
 ---

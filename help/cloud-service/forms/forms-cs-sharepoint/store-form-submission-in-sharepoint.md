@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 version: Cloud Service
 topic: Integrations
-kt: 11895
+jira: KT-11895
 exl-id: cc5bf24c-97c5-4383-8c35-f7512e594445
 ---
 # AEM Forms as Cloud Service with Microsoft Sharepoint

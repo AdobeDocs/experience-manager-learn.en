@@ -6,7 +6,7 @@ level: Beginner
 type: Tutorial
 topic: Development
 feature: Developer Tools, Dispatcher
-kt: 6915
+jira: KT-6915
 thumbnail: 330538.jpg
 exl-id: 7d0812b7-2346-42a9-bcd4-ceb394905bea
 ---

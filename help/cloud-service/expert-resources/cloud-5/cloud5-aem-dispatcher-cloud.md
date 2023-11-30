@@ -4,7 +4,7 @@ description: Darin and James discuss the Dispatcher in the AEM Cloud including s
 version: Cloud Service
 role: Admin, Developer
 level: Intermediate
-kt: 10054
+jira: KT-10054
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 thumbnail: 342067.jpeg

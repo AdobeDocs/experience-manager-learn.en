@@ -6,9 +6,9 @@ version: 6.5, Cloud Service
 topic: Security, Development
 role: Admin, Architect
 level: Experienced
-kt: 10385
+jira: KT-10385
 thumbnail: KT-10385.png
-doc-type: article
+doc-type: Article
 last-substantial-update: 2023-08-18
 exl-id: 9f689bd9-c846-4c3f-ae88-20454112cf9a
 ---

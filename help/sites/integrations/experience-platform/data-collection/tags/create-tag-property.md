@@ -1,12 +1,8 @@
 ---
 title: Create a Tag Property
 description: Learn how to create a Tag property with the bare-minimum configuration to integrate with AEM. Users are introduced to the Tag UI and learn about extensions, rules, and publishing workflows.
-topics: integrations
-audience: administrator
 solution: Experience Manager, Data Collection, Experience Platform
-doc-type: technical video
-activity: setup
-kt: 5980
+jira: KT-5980
 thumbnail: 38553.jpg
 topic: Integrations
 feature: Integrations
@@ -14,6 +10,7 @@ role: Developer
 level: Intermediate
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
+doc-type: Tutorial
 exl-id: d5de62ef-a2aa-4283-b500-e1f7cb5dec3b
 ---
 # Create a Tag Property {#create-tag-property}

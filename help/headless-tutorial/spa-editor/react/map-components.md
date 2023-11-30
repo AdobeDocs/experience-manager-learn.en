@@ -6,11 +6,12 @@ topics: development
 version: Cloud Service
 activity: develop
 audience: developer
-kt: 4854
+jira: KT-4854
 thumbnail: 4854-spa-react.jpg
 topic: SPA
 role: Developer
 level: Beginner
+doc-type: Tutorial
 exl-id: 497ce6d7-cd39-4fb3-b5e0-6c60845f7648
 ---
 # Map SPA components to AEM components {#map-components}

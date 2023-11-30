@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms, Integrations
 topic: Development
-kt: 7193
+jira: KT-7193
 thumbnail: 331892.jpg
 exl-id: 7b21f24d-d694-489e-a8f6-c5e16445dde3
 ---

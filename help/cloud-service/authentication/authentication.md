@@ -6,7 +6,7 @@ feature: Security
 topic: Development, Integrations, Security
 role: Architect, Developer
 level: Intermediate
-kt: 10436
+jira: KT-10436
 thumbnail: KT-10436.png
 last-substantial-update: 2022-10-14
 exl-id: 4dba6c09-2949-4153-a9bc-d660a740f8f7

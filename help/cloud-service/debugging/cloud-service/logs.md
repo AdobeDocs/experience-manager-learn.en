@@ -7,7 +7,7 @@ version: Cloud Service
 doc-type: tutorial
 activity: develop
 audience: developer
-kt: 5432
+jira: KT-5432
 thumbnail: kt-5432.jpg
 topic: Development
 role: Developer

@@ -3,7 +3,7 @@ title: Integrating with [!DNL ServiceNow]
 description: Create and display all the incidents using form data model.
 feature: Adaptive Forms
 version: 6.4,6.5
-kt: 9957
+jira: KT-9957
 topic: Development
 role: Developer
 level: Intermediate

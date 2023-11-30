@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 feature: Code Deployment
-kt: 8851
+jira: KT-8851
 exl-id: daf7d316-e9ec-41b5-89c8-fe4f4ada9701
 ---
 # Deploy to development environment

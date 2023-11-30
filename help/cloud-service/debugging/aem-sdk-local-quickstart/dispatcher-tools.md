@@ -2,7 +2,7 @@
 title: Debugging Dispatcher Tools
 description: The Dispatcher Tools provides a containerized Apache Web Server environment that can be used to simulate AEM as a Cloud Services' AEM Publish service's Dispatcher locally. Debugging Dispatcher Tools' logs and cache contents can be vital in ensuring the end-to-end AEM application and supporting cache and security configurations are correct.
 feature: Dispatcher
-kt: 5918
+jira: KT-5918
 topic: Development
 role: Developer
 level: Beginner, Intermediate

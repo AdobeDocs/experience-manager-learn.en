@@ -6,11 +6,12 @@ feature: Assets Essentials
 topic: Content Management, Integrations
 role: User
 level: Beginner
-kt: 8222
+jira: KT-8222
 thumbnail: 336458.jpeg
 last-substantial-update: 2022-10-13
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets Essentials" before-title="false"
+doc-type: Feature Video
 exl-id: 60724863-c464-4f6e-9b49-d882e2eb2294
 ---
 # Mapping Metadata

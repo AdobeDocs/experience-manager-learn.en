@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 recommendations: noDisplay, noCatalog
-kt: 11603
+jira: KT-11603
 last-substantial-update: 2023-06-02
 exl-id: 3062900a-0461-4c6f-81e6-c76a7f613804
 ---

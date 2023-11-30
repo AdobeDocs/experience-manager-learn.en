@@ -3,11 +3,12 @@ title: Explore Dynamic Media imaging with Snapshot
 description: Dynamic Media Snapshot is a visual demonstration tool, designed to illustrate the power of Dynamic Media for optimized and dynamic image delivery.
 feature: Smart Services, Image Sets, Image Profiles
 version: Cloud Service
-kt: 13269
+jira: KT-13269
 thumbnail: 3419421.jpeg
 topic: Content Management
 role: User
 level: Intermediate
+doc-type: Feature Video
 exl-id: 3f2f3fe4-a3cf-4494-a318-bf82aee20dc7
 ---
 # Dynamic Media Snapshot {#snapshot}

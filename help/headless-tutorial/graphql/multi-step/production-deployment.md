@@ -7,7 +7,7 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 mini-toc-levels: 1
-kt: 7131
+jira: KT-7131
 thumbnail: KT-7131.jpg
 exl-id: 8c8b2620-6bc3-4a21-8d8d-8e45a6e9fc70
 ---

@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Output Service
 topic: Development
-kt: 9958
+jira: KT-9958
 thumbnail: 332439.jpg
 
 ---

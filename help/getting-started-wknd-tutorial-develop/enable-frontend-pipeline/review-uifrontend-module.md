@@ -2,15 +2,15 @@
 title: Review full-stack project's ui.frontend module
 description: Review the front-end development, deployment, and delivery life cycle of a maven-based full-stack AEM Sites Project.
 version: Cloud Service
-type: Tutorial
 feature: AEM Project Archetype, Cloud Manager, CI-CD Pipeline
 topic: Content Management, Development, Development, Architecture
 role: Developer, Architect, Admin
 level: Intermediate
-kt: 10689
+jira: KT-10689
 mini-toc-levels: 1
 index: y
 recommendations: noDisplay, noCatalog
+doc-type: Tutorial
 exl-id: 65e8d41e-002a-4d80-a050-5366e9ebbdea
 ---
 # Review the full-stack AEM project's 'ui.frontend' module {#aem-full-stack-ui-frontent}

@@ -2,14 +2,14 @@
 title: Get started with AEM Sites - Project Setup
 description: Create a Maven Multi Module Project to manage the code and configurations for an Experience Manager Site.
 version: 6.5, Cloud Service
-type: Tutorial
 feature: AEM Project Archetype
 topic: Content Management, Development
 role: Developer
 level: Beginner
 mini-toc-levels: 1
-kt: 3418
+jira: KT-3418
 thumbnail: 30152.jpg
+doc-type: Tutorial
 exl-id: bb0cae58-79bd-427f-9116-d46afabdca59
 recommendations: noDisplay, noCatalog
 ---

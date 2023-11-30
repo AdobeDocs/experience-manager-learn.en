@@ -6,9 +6,10 @@ feature: Core Components
 topic: Content Management
 role: Developer
 level: Intermediate
-kt: 9165
+jira: KT-9165
 thumbnail: 337960.jpeg
 last-substantial-update: 2022-10-03
+doc-type: Technical Video
 exl-id: 40bb55f9-011d-4261-9f44-b1104a591252
 ---
 # Sitemaps

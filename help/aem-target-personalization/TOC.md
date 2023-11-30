@@ -5,7 +5,7 @@ product: experience manager
 sub-product: Experience Manager Sites
 version: 6.5
 index: y
-kt: 2214
+jira: KT-2214
 ---
  
 # Getting Started with AEM and Target {#aem-target-tutorial}

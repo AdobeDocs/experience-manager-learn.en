@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
 topic: Development
-kt: 9542
+jira: KT-9542
 exl-id: 06621fc7-afde-4073-8f15-fe9eeab1d084
 ---
 # Externalize storage of workflow data in AEM Forms CS

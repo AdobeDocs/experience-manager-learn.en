@@ -8,6 +8,7 @@ version:  6.5, Cloud Service
 feature: Developer Tools
 topic: Administration
 index: y
+doc-type: Technical Video
 exl-id: 042a216d-980d-4912-a77b-e2ee04a27cfb
 ---
 # How to investigate indexing related issues in AEM

@@ -6,8 +6,9 @@ topic: Collaboration
 feature: Workflow
 role: User
 level: Intermediate
-kt: 159
+jira: KT-159
 thumbnail: 16827.jpg
+doc-type: Feature Video
 exl-id: bc1e0187-e8bd-4d56-91d0-2f1465b5e95c
 ---
 # Using the Inbox in AEM

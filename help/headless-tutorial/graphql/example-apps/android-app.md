@@ -3,7 +3,7 @@ title: Android App - AEM Headless Example
 description: Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This Android application demonstrates how to query content using the GraphQL APIs of AEM.
 version: Cloud Service
 mini-toc-levels: 2
-kt: 10588
+jira: KT-10588
 thumbnail: KT-10588.jpg
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management

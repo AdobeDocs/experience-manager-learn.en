@@ -6,7 +6,7 @@ topic: Development
 feature: Dispatcher, Developer Tools
 role: Developer
 level: Beginner
-kt: 4679
+jira: KT-4679
 thumbnail: 30603.jpg
 last-substantial-update: 2023-03-14
 exl-id: 9320e07f-be5c-42dc-a4e3-aab80089c8f7

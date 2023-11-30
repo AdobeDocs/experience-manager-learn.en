@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Technical Video
 recommendations: noDisplay, noCatalog
 last-substantial-update: 2023-06-02
-kt: 11658
+jira: KT-11658
 thumbnail: 3412875.jpeg
 exl-id: 06afb6d0-6ae6-47d4-a3d9-c48bb7d572f6
 ---

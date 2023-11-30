@@ -6,7 +6,7 @@ audience: administrator
 doc-type: feature video
 activity: use
 version: Cloud Service
-kt: 6871
+jira: KT-6871
 thumbnail: 26318.jpg
 topic: Architecture
 feature: Cloud Manager, Environments

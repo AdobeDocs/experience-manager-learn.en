@@ -3,7 +3,7 @@ title: Customize Summary Component
 description: Extend the summary step component to include the capability to navigate to the next form in the package.
 feature: Adaptive Forms
 version: 6.4,6.5
-kt: 6894
+jira: KT-6894
 thumbnail: 6894.jpg
 topic: Development
 role: Developer

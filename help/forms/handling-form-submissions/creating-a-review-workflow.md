@@ -7,7 +7,7 @@ audience: developer
 doc-type: article
 activity: setup
 version: 6.4,6.5
-kt: 4271
+jira: KT-4271
 thumbnail: 40242.jpg
 topic: Development
 role: Developer

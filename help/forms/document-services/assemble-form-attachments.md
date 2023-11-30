@@ -3,7 +3,7 @@ title: Assemble form attachments
 description: Assemble form attachments in the specified order
 feature: Assembler
 version: 6.4,6.5
-kt: 6406
+jira: KT-6406
 thumbnail: kt-6406.jpg
 topic: Development
 role: Developer

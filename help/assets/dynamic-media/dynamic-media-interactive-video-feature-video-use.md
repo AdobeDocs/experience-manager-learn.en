@@ -6,6 +6,7 @@ version: 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: 2a27d8bc-ee7b-4d13-8512-8f3dc1eb8f13
 ---
 # Using Interactive Video with AEM Dynamic Media{#using-interactive-video-with-aem-dynamic-media}

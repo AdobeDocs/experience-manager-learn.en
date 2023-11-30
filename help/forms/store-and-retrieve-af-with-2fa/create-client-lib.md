@@ -4,7 +4,7 @@ description: Create client library to handle the click event of the "Save and Ex
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
-kt: 6597
+jira: KT-6597
 thumbnail: 6597.pg
 topic: Development
 role: Developer

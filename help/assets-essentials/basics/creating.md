@@ -6,9 +6,10 @@ feature: Assets Essentials
 topic: Content Management
 role: User
 level: Beginner
-kt: 7914
+jira: KT-7914
 thumbnail: 335746.jpeg
 last-substantial-update: 2022-10-06
+doc-type: Feature Video
 exl-id: 18e600b6-bc4f-4045-a932-ed72d4ed3ef3
 ---
 # Creating content using Assets Essentials

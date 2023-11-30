@@ -4,7 +4,7 @@ description: Extract the form attachments and store in a new location in the CRX
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
-kt: 6537
+jira: KT-6537
 thumbnail: 6537.jpg
 topic: Development
 role: Developer

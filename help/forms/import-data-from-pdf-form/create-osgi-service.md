@@ -6,7 +6,7 @@ version: 6.5
 topic: Development
 role: Developer
 level: Beginner
-kt: 14196
+jira: KT-14196
 exl-id: c3032669-154c-4565-af6e-32d94e975e37
 ---
 # Export Data

@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
 topic: Development
-kt: 11077
+jira: KT-11077
 exl-id: 1be90d9b-3669-44a0-84fb-cbdec44074d8
 ---
 # Extract form attachments from submitted form data

@@ -6,10 +6,10 @@ feature: Assets Essentials
 topic: Content Management
 role: Admin, User
 level: Beginner
-doc-type: Feature Video
 last-substantial-update: 2023-01-31
-kt: 11800
+jira: KT-11800
 thumbnail: 3413809.jpeg
+doc-type: Feature Video
 exl-id: da9363f3-43a9-4396-b8e8-15267fd7a689
 ---
 # My Workspace in Assets Essentials

@@ -6,7 +6,7 @@ audience: administrator
 doc-type: feature video
 activity: use
 version: Cloud Service
-kt: 6874
+jira: KT-6874
 thumbnail: 26319.jpg
 topic: Architecture
 feature: Cloud Manager, Code Deployment

@@ -5,6 +5,7 @@ feature: Dispatcher
 topic: Architecture
 role: Architect
 level: Beginner
+doc-type: Tutorial
 exl-id: a25b6f74-3686-40a9-a148-4dcafeda032f
 ---
 # Chapter 2 - Infrastructure

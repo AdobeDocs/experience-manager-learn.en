@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
 feature: Core Components
-kt: 10373
+jira: KT-10373
 exl-id: ab01573a-e95f-4041-8ccf-16046d723aba
 ---
 # Forms Portal Components

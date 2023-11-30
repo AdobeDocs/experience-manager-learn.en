@@ -6,7 +6,7 @@ version: 6.4,6.5
 topic: Development
 role: User
 level: Intermediate
-kt: 6892
+jira: KT-6892
 thumbnail: 6892.jpg
 exl-id: d7c55dc8-d886-4629-bb50-d927308d12e3
 ---

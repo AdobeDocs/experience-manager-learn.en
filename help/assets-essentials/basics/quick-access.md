@@ -6,10 +6,10 @@ feature: Assets Essentials
 topic: Content Management
 role: User
 level: Beginner
-doc-type: Feature Video
 last-substantial-update: 2023-06-27
 jira: KT-13223
 thumbnail: 3420975.jpeg
+doc-type: Feature Video
 exl-id: 0f62da34-b6d7-42ac-a6f6-08a50483fb25
 ---
 # Quick access

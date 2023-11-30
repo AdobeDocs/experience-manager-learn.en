@@ -7,6 +7,7 @@ feature: Dispatcher
 role: Admin
 level: Beginner
 thumbnail: xx.jpg
+doc-type: Article
 exl-id: 299b32c3-7922-4eee-aa3a-56039a654f70
 ---
 # Using and Understanding Variables
@@ -266,7 +267,7 @@ Example Configuration
 
 ```
 <VirtualHost *:80> 
-	DocumentRoot	${PUBLISH_DOCROOT} 
+    DocumentRoot    ${PUBLISH_DOCROOT} 
 ```
 
 Now run the commands to see the compiled output

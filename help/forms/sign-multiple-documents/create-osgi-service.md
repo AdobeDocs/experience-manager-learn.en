@@ -4,7 +4,7 @@ description: Create OSGi service to store the forms to sign
 feature: Workflow
 version: 6.4,6.5
 thumbnail: 6886.jpg
-kt: 6886
+jira: KT-6886
 topic: Development
 role: Developer
 level: Experienced

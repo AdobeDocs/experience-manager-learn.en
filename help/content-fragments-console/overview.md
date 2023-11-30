@@ -7,8 +7,8 @@ topic: Content Management
 role: User
 level: Beginner
 jira: KT-14200
-doc-type: Catalog
 last-substantial-update: 2023-05-12
+doc-type: Catalog
 exl-id: d92c36e2-fbfa-43a3-8c5f-0371cc99f352
 ---
 # Content Fragments Console videos

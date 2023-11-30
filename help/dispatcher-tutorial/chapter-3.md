@@ -5,6 +5,7 @@ feature: Dispatcher
 topic: Architecture
 role: Architect
 level: Intermediate
+doc-type: Tutorial
 exl-id: 7c7df08d-02a7-4548-96c0-98e27bcbc49b
 ---
 # Chapter 3 - Advanced Caching Topics

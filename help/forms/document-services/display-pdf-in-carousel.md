@@ -6,7 +6,7 @@ feature: Adaptive Forms
 topic: Development
 role: Developer
 level: Experienced
-kt: 10292
+jira: KT-10292
 exl-id: c1d248c3-8208-476e-b0ae-cab25575cd6a
 last-substantial-update: 2021-10-12
 ---

@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Output Service
 topic: Development
-kt: 9673
+jira: KT-9673
 exl-id: db25e5a2-e1a8-40ad-af97-35604d515450
 ---
 # Create batch configuration

@@ -4,12 +4,9 @@ seo-title: Translation Projects
 description: Learn how to create, edit and manage a translation project for your Language Copy.
 seo-description: Learn how to create, edit and manage a translation project for your Language Copy.
 feature: Language Copy, Multi Site Manager
-topics: localization, authoring, content-architecture
-audience: all
-doc-type: feature video
-activity: use
+doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
-kt: 5369
+jira: KT-5369
 thumbnail: 36486.jpg
 topic: Localization
 role: User

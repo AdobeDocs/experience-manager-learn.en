@@ -6,7 +6,7 @@ level: Beginner
 type: Tutorial
 topic: Development
 feature: AEM Project Archetype
-kt: 6928
+jira: KT-6928
 thumbnail: 330550.jpg
 exl-id: af0da906-87ea-4b52-9c9c-343fb29d3fcc
 ---

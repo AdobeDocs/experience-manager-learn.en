@@ -6,8 +6,9 @@ topic: Development
 feature: Sling Model, HTL or HTML Template Language
 role: Developer
 level: Beginner
-kt: 4235
+jira: KT-4235
 thumbnail: 32547.jpg
+doc-type: Technical Video
 exl-id: ad767329-58bc-44ec-83de-2f5e3c8a30a3
 ---
 # Introduction to Component Development

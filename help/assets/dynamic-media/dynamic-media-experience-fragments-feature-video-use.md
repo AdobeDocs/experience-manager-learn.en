@@ -7,6 +7,7 @@ version: 6.4, 6.5
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: c4c1ffe2-d4ea-4b31-b5d5-132fba9d2633
 ---
 # Using Experience Fragments with AEM Assets Dynamic Media{#using-experience-fragments-with-aem-assets-dynamic-media}

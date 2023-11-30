@@ -6,7 +6,7 @@ topic: Content Management, Integrations
 feature: Asset Management
 role: Admin, Architect, Developer
 level: Beginner
-kt: 9717
+jira: KT-9717
 thumbnail: 340331.jpeg
 hidefromtoc: false
 last-substantial-update: 2022-09-02

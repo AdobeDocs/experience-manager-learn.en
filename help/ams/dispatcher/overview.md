@@ -7,6 +7,7 @@ feature: Dispatcher
 role: Admin
 level: Beginner
 thumbnail: xx.jpg
+doc-type: Catalog
 exl-id: 4f72d010-f488-490a-83fb-38ff1b1e8183
 ---
 # Adobe Managed Services Dispatcher manual

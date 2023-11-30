@@ -6,6 +6,7 @@ feature: Search
 topic: Content Management
 role: Developer
 level: Beginner
+doc-type: Technical Video
 exl-id: 7be8c3d5-b944-4421-97b3-bd5766c1b1b5
 ---
 # Set up Smart Translation Search with AEM Assets{#set-up-smart-translation-search-with-aem-assets}

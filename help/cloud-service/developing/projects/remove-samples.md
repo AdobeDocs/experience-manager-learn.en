@@ -6,7 +6,7 @@ topic: Development
 feature: AEM Project Archetype
 role: Developer
 level: Beginner
-kt: 9092
+jira: KT-9092
 thumbnail: 337263.jpeg
 exl-id: 4e10c2b7-41b6-41a0-b8d4-9207a9d3f9c8
 ---

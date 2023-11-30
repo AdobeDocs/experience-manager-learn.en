@@ -1,19 +1,14 @@
 ---
 title: Using the Page Editor with AEM Sites
-seo-title: Using the Page Editor with Adobe Experience Manager Sites
 description: The following video highlights several of the top features of the Touch-UI Sites editor in Adobe Experience Manager.
-seo-description: The following video highlights several of the top features of the Touch-UI Sites editor in Adobe Experience Manager.
 feature: Page Editor
-topics: authoring
-audience: author, marketer
-doc-type: feature video
-activity: use
 version: 6.4, 6.5, Cloud Service
-kt: 4248
+jira: KT-4248
 thumbnail: 32011.jpg
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: b120fb79-729e-4155-ba10-e5f7bb07eefa
 ---
 # Using the Page Editor {#using-page-editor-with-aem-sites}

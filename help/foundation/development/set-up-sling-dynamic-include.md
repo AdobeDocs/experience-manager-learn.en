@@ -4,10 +4,7 @@ description: A video walk-through of installing and using Apache Sling Dynamic I
 version: 6.4, 6.5
 sub-product: Experience Manager, Experience Manager Sites
 feature: APIs
-topics: caching
-activity: develop
-audience: architect, developer
-doc-type: technical video
+doc-type: Technical Video
 topic: Development
 role: Developer
 level: Experienced

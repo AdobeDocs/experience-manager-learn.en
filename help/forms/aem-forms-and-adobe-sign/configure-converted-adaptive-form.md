@@ -3,7 +3,7 @@ title: Configure converted Adaptive Form
 description: Configure converted Adaptive Form
 feature: Adaptive Forms
 thumbnail: 39574.jpg
-kt: 6126
+jira: KT-6126
 topic: Development
 role: User
 level: Beginner

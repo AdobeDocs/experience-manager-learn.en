@@ -12,7 +12,7 @@ activity: implement
 version: 6.4,6.5
 targetaudience: target-audience ongoing
 thumbnail: 27765.jpg
-kt: 5954
+jira: KT-5954
 topic: Development
 role: Developer
 level: Beginner

@@ -5,9 +5,10 @@ topic: Headless, SPA, Development
 feature: SPA Editor, APIs, Developing
 role: Developer, Architect
 level: Beginner
-kt: 7633
+jira: KT-7633
 thumbnail: kt-7633.jpeg
 last-substantial-update: 2022-11-01
+doc-type: Tutorial
 exl-id: b8d43e44-014c-4142-b89c-ff4824b89c78
 ---
 # Bootstrap the Remote SPA for SPA Editor

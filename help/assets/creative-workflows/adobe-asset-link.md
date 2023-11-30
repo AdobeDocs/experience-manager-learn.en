@@ -9,6 +9,7 @@ level: Beginner
 thumbnail: 28988.jpg
 jira: KT-8413, KT-3707
 last-substantial-update: 2022-06-25
+doc-type: Feature Video
 exl-id: 6c49f8c2-f468-4b29-b7b6-029c8ab39ce9
 ---
 # Adobe Asset Link 3.0

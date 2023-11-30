@@ -8,6 +8,7 @@ role: User
 level: Intermediate
 last-substantial-update: 2022-09-02
 thumbnail: 18331.jpg
+doc-type: Feature Video
 exl-id: 19155d51-18a7-42ca-9a73-1b5fa1355d58
 ---
 # Using Source File Translation with AEM Assets {#using-source-file-translation-with-aem-assets}

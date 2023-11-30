@@ -3,7 +3,7 @@ title: Create Client Library
 description: Client library code to fetch the next form to sign
 feature: Adaptive Forms
 version: 6.4,6.5
-kt: 6907
+jira: KT-6907
 thumbnail: 6907.jpg
 topic: Development
 role: Developer

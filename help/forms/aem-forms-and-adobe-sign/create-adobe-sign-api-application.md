@@ -2,7 +2,7 @@
 title: Create Acrobat Sign API Application
 description: The Acrobat Sign API Application allows you to integrate AEM Forms with Acrobat Sign
 feature: Adaptive Forms,Acrobat Sign
-kt: 6032
+jira: KT-6032
 thumbnail: 38178.jpg
 topic: Development
 role: Admin

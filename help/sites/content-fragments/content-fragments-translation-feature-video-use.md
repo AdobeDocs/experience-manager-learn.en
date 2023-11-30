@@ -6,8 +6,9 @@ topic: Localization
 role: User
 level: Intermediate
 version: 6.4, 6.5, Cloud Service
-kt: 201
+jira: KT-201
 thumbnail: 18131.jpg
+doc-type: Feature Video
 exl-id: cc4ffbd0-207a-42e4-bfcb-d6c83fb97237
 ---
 # Translation support for AEM Content Fragments {#translation-support-content-fragments}

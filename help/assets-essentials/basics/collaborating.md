@@ -6,9 +6,10 @@ feature: Assets Essentials
 topic: Content Management
 role: User
 level: Beginner
-kt: 7916
+jira: KT-7916
 thumbnail: 335856.jpeg
 last-substantial-update: 2022-10-07
+doc-type: Feature Video
 exl-id: 0de60565-1a73-4642-a3b9-1625e25ea2dc
 ---
 # Collaboration in Assets Essentials

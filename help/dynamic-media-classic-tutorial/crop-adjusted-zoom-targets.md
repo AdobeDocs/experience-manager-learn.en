@@ -2,13 +2,10 @@
 title: Cropping, Adjusted Images, and Zoom Targets
 description: The master image of Dynamic Media Classic supports creating separate cropped versions of each image to show off details or for swatches without having to create separate cropped versions of each image. Learn how to crop images in Dynamic Media Classic and save as a new master file or a virtual image, save virtual Adjusted Images and use them in place of master assets, and create Zoom Targets on your images to show off highlighted details.
 feature: Dynamic Media Classic
-doc-type: tutorial
-topics: development, authoring, configuring
-audience: all
-activity: use
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Tutorial
 exl-id: a1d83c77-a9e4-4ed1-9b00-65fb002164c0
 ---
 # Cropping, Adjusted Images, and Zoom Targets {#crop-adjusted-zoom-targets}
@@ -120,7 +117,7 @@ _Adjusted Views for master image ASIAN_BR_MAIN_
 
 ## Zoom Targets
 
-Zoom Targets are also found on the **Edit** menu and **Details** page of an image. They allow you to set “hot spots” to highlight specific merchandising features of a zoom image. Instead of creating separate images by cropping a large master, the zoom viewer can serve up the details on top of the image, along with a short label that you create.
+Zoom Targets are also found on the **Edit** menu and **Details** page of an image. They allow you to set "hot spots" to highlight specific merchandising features of a zoom image. Instead of creating separate images by cropping a large master, the zoom viewer can serve up the details on top of the image, along with a short label that you create.
 
 ![image](assets/crop-adjusted-zoom-targets/arm-with-watch.jpg)
 
@@ -170,7 +167,7 @@ When you load the Zoom Target tool, the view size is displayed next to the name 
 
 ![image](assets/crop-adjusted-zoom-targets/view-size.jpg)
 
-You can see the built-in preset has a size of 900 x 550, which means that the target can never get smaller than that rather large size. That’s probably too large — if you have a 2000-pixel image, you can only call out a feature that is a minimum of 900 pixels across. The user can manually zoom further, but you can’t guide them any closer. Setting a view size to 350 x 350 allows targets to zoom in pretty closely or be resized larger. But if you want a larger zoom image in your viewer, you’d need to create a new preset because yours is locked at 350 pixels.
+You can see the built-in preset has a size of 900 x 550, which means that the target can never get smaller than that rather large size. That's probably too large — if you have a 2000-pixel image, you can only call out a feature that is a minimum of 900 pixels across. The user can manually zoom further, but you can't guide them any closer. Setting a view size to 350 x 350 allows targets to zoom in pretty closely or be resized larger. But if you want a larger zoom image in your viewer, you'd need to create a new preset because yours is locked at 350 pixels.
 
 ### Creating or Editing a Viewer Preset That Supports Zoom Targets
 

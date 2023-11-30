@@ -9,6 +9,7 @@ thumbnail: 33733.jpg
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: 261135af-4d26-4b07-8ec9-6e9875a158ba
 ---
 # Access Adobe Asset Link {#access-adobe-asset-link}

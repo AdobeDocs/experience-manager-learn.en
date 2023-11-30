@@ -3,11 +3,12 @@ title: Using Dynamic Media Classic Desktop Application
 description: Adobe introduces a desktop application for Dynamic Media Classic users that no longer relies on Adobe Flash technology in the browser.
 feature: Dynamic Media Classic
 version: 6.5
-kt: 5808
+jira: KT-5808
 thumbnail: 36645.jpg
 topic: Content Management
 role: User
 level: Beginner
+doc-type: Feature Video
 exl-id: 1600c0c0-0054-49ce-9b99-f8e6e29d6132
 ---
 # Using Dynamic Media Classic Desktop Application{#using-dynamic-media-desktop-application}

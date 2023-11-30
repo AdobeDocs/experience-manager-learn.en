@@ -5,7 +5,7 @@ feature: Adaptive Forms
 type: Tutorial
 activity: implement
 version: 6.4,6.5
-kt: 6552
+jira: KT-6552
 thumbnail: 6552.jpg
 topic: Development
 role: User

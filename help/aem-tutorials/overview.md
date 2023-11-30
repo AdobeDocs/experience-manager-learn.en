@@ -2,6 +2,7 @@
 title: AEM Tutorials
 description: A collection of videos and tutorials for Adobe Experience Manager.
 exl-id: fe83a2dc-b43a-4e71-9b03-d31ec4f6a6ff
+doc-type: Catalog
 ---
 # Experience Manager tutorials {#overview}
 

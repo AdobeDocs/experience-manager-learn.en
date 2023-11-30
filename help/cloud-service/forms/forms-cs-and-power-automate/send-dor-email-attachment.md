@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
 topic: Development
-kt: 11019
+jira: KT-11019
 exl-id: 9ded508c-9408-4d41-b8c6-cd85d1e4cf17
 ---
 # Send DoR as an e-mail attachment

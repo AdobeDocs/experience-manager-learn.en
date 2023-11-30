@@ -3,11 +3,12 @@ title: Custom Smart Tags for images in AEM Assets
 description: Learn how to train AEM Assets' Smart Tags to apply custom terms to assets.
 feature: Smart Tags
 version: 6.4, 6.5, Cloud Service
-kt: 795
+jira: KT-795
 thumbnail: 22254.jpg
 topic: Content Management
 role: Developer
 level: Intermediate
+doc-type: Feature Video
 exl-id: 06f2ae4d-c18e-45ed-96d7-ddc6f9c8d829
 ---
 # Custom Smart Tags for images 

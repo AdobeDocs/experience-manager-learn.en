@@ -7,6 +7,7 @@ version: Cloud Service
 feature: Image Profiles, Video Profiles, Viewer Presets
 topic: Development
 index: y
+doc-type: Tutorial
 exl-id: a36c3299-20a0-4dd7-a5cd-9ff4387c8b53
 ---
 # Deleting an AEM Dynamic Media configuration

@@ -3,7 +3,7 @@ title: Click on card to display the form
 description: Drill down on form from card view
 feature: Adaptive Forms
 version: 6.5
-kt: 13372
+jira: KT-13372
 topic: Development
 role: User
 level: Intermediate

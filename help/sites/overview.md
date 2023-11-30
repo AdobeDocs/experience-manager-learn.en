@@ -4,6 +4,7 @@ description: Learn about Experience Manager Sites from our videos and tutorials.
 solution: Experience Manager, Experience Manager Sites
 sub-product: Experience Manager Sites
 topic: Content Management
+doc-type: Catalog
 exl-id: cde4ce7f-0afe-4632-8c1c-354586f296d5
 ---
 # AEM Sites videos and tutorials {#overview}

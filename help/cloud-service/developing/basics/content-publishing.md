@@ -6,7 +6,7 @@ level: Beginner
 type: Tutorial
 topic: Development
 feature: Publishing
-kt: 6911
+jira: KT-6911
 thumbnail: 330554.jpg
 exl-id: 53327d54-152b-4b89-8540-181e433f312b
 ---

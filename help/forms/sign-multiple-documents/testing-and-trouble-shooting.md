@@ -3,7 +3,7 @@ title: Troubleshoot Signing Multiple Documents Solution
 description: Test and trouble shoot the solution
 feature: Adaptive Forms
 version: 6.4,6.5
-kt: 6960
+jira: KT-6960
 thumbnail: 6960.jpg
 topic: Development
 role: Developer

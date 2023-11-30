@@ -7,7 +7,7 @@ topic: Migration
 feature: Migration
 role: Architect, Developer
 level: Beginner
-kt: 11200
+jira: KT-11200
 thumbnail: kt-11200.jpg
 exl-id: bdec6cb0-34a0-4a28-b580-4d8f6a249d01
 ---

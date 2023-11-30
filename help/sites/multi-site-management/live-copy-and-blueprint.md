@@ -2,12 +2,9 @@
 title: Understand the relation between a Live Copy and it's Blueprint
 description: The following video explains how a Live Copy is related to it's Blueprint in AEM Sites.
 feature: Language Copy, Multi Site Manager
-topics: localization, authoring, content-architecture
-audience: all
-doc-type: feature video
-activity: use
+doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
-kt: 5376
+jira: KT-5376
 thumbnail: 36676.jpg
 topic: Localization
 role: User

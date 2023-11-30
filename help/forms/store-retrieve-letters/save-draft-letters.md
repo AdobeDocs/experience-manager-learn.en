@@ -10,7 +10,7 @@ version: 6.5
 topic: Development
 role: Developer
 level: Intermediate
-kt: 10208
+jira: KT-10208
 exl-id: dc6f64a0-7059-4392-9c29-e66bdef4fd4d
 ---
 # Save and retrieve draft letters

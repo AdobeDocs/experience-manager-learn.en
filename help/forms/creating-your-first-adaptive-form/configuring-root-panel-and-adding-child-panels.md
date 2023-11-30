@@ -4,7 +4,7 @@ description: Configuring root panel layout to "Tabs on Left" and add child panel
 feature: Adaptive Forms
 version: 6.4,6.5
 thumbnail: 28536.jpg
-kt: 4209
+jira: KT-4209
 topic: Development
 role: Developer
 level: Beginner

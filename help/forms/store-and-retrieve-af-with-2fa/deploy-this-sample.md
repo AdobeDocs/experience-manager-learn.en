@@ -4,7 +4,7 @@ description: Get use case running on your local AEM Forms instance
 feature: Adaptive Forms
 type: Tutorial
 version: 6.4,6.5
-kt: 6602
+jira: KT-6602
 thumbnail: 6602.jpg
 topic: Development
 role: Developer

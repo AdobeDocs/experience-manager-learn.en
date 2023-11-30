@@ -1,12 +1,8 @@
 ---
 title: Create a Launch Cloud Service configuration in AEM Sites
 description: Learn how to create a Launch Cloud Service configuration in AEM. The Launch Cloud Service configuration can then be applied to an existing Site and the Tag libraries can be observed loading in both Author and Publish environments.
-topics: integrations
-audience: administrator
 solution: Experience Manager, Data Collection, Experience Platform
-doc-type: technical video
-activity: setup
-kt: 5982
+jira: KT-5982
 thumbnail: 38566.jpg
 topic: Integrations
 feature: Integrations
@@ -14,6 +10,7 @@ role: Developer
 level: Intermediate
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
+doc-type: Tutorial
 exl-id: a72ddced-37de-4b62-9e28-fa5b6c8ce5b7
 ---
 # Create a Launch Cloud Service configuration in AEM {#create-launch-cloud-service}

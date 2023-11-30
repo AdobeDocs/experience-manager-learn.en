@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
 topic: Development
-kt: 13520
+jira: KT-13520
 exl-id: c23275d7-daf7-4a42-83b6-4d04b297c470
 ---
 # Creating custom submit

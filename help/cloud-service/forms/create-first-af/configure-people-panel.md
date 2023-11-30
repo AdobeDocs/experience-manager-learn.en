@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Adaptive Forms
 topic: Development
-kt: 7378
+jira: KT-7378
 thumbnail: 332234.jpg
 exl-id: b7d0b192-1bbf-4735-8dc6-dd4cb1dc052a
 ---

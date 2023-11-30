@@ -7,7 +7,7 @@ role: Developer
 level: Beginner, Intermediate
 version: Cloud Service
 topic: Development
-kt: 8851
+jira: KT-8851
 exl-id: e61cea37-b931-49c6-9e5d-899628535480
 ---
 # Push AEM project to cloud manager git repo
