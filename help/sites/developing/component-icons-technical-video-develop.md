@@ -8,6 +8,7 @@ role: User
 level: Intermediate
 doc-type: Technical Video
 exl-id: 37dc26aa-0773-4749-8c8b-4544bd4d5e5f
+duration: 411
 ---
 # Customizing Component Icons {#developing-component-icons-in-aem-sites}
 

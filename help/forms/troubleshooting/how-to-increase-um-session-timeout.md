@@ -9,6 +9,7 @@ topic: Administration
 feature: Operations
 index: y
 exl-id: edb97c88-2689-4508-82a6-256b344133c0
+duration: 65
 ---
 
 # How to increase UM Session timeout

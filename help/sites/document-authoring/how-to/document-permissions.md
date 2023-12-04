@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14490
 thumbnail: 3425724.jpeg
+duration: 100
 ---
 
 # Document permissions

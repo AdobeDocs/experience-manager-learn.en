@@ -12,6 +12,7 @@ level: Beginner
 last-substantial-update: 2023-05-10
 exl-id: b1ab2a13-8b0e-4d7f-82b5-78b1dda248ba
 badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
+duration: 374
 ---
 # React App{#react-app}
 

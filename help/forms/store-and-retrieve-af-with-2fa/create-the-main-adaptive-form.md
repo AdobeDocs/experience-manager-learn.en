@@ -3,7 +3,6 @@ title: Create the main adaptive form
 description: Create the adaptive forms to capture applicant information and adaptive form to retrieve the saved adaptive form
 feature: Adaptive Forms
 type: Tutorial
-activity: implement
 version: 6.4,6.5
 jira: KT-6552
 thumbnail: 6552.jpg
@@ -11,6 +10,7 @@ topic: Development
 role: User
 level: Beginner
 exl-id: 73de0ac4-ada6-4b8e-90a8-33b976032135
+duration: 60
 ---
 # Create the main adaptive form
 

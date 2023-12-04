@@ -4,6 +4,7 @@ description: Collection of AEM Forms resources for beginners and experienced AEM
 topic: Development
 role: Developer
 exl-id: c1972937-56c5-47af-9232-f31bdf69dfbe
+duration: 152
 ---
 # AEM Forms Tutorials and Videos {#overview}
 

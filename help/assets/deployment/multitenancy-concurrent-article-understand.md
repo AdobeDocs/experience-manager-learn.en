@@ -8,6 +8,7 @@ role: Developer
 level: Intermediate
 doc-type: Article
 exl-id: c9ee29d4-a8a5-4e61-bc99-498674887da5
+duration: 543
 ---
 # Understanding Multitenancy and Concurrent Development {#understanding-multitenancy-and-concurrent-development}
 

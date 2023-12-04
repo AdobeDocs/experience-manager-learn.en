@@ -10,6 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: 95d3d5a7-a73f-4261-b496-b91a9ff7fe8d
+duration: 264
 ---
 # Create a Language Copy page {#create-language-copy-page}
 

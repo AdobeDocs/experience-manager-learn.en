@@ -8,6 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: e5b1b526-022e-4a82-9f4b-5f60210bb9ff
+duration: 156
 ---
 # Steps to encrypt keystore password to be used in lc_turnkey.xml
 

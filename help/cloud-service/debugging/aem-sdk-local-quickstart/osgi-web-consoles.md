@@ -2,16 +2,14 @@
 title: Debugging AEM SDK using the OSGi web console
 description: The AEM SDK’s local quickstart has an OSGi web console that provides a variety of information and introspections into the local AEM runtime that are useful to understand how your application is recognized by, and functions within AEM.
 feature: Developer Tools
-topics: development
 version: Cloud Service
-doc-type: tutorial
-activity: develop
-audience: developer
+doc-type: Tutorial
 kt: 5265, 5366, 5267
 topic: Development
 role: Developer
 level: Beginner, Intermediate
 exl-id: 0929bc1a-376c-4e16-a540-a276fd5af164
+duration: 516
 ---
 # Debugging AEM SDK using the OSGi web console
 

@@ -1,13 +1,8 @@
 ---
 title: Save and resume letters
-seo-title: Save and resume letters
 description: Learn how to save and retrieve draft letters
-seo-description: Learn how to save and retrieve draft letters
 feature: Interactive Communication
-topics: development
-audience: developer
 doc-type: article
-activity: implement
 version: 6.5
 topic: Development
 role: Developer
@@ -15,6 +10,7 @@ level: Intermediate
 jira: KT-10208
 exl-id: e032070b-7332-4c2f-97ee-7e887a61aa7a
 last-substantial-update: 2022-01-07
+duration: 176
 ---
 # Introduction
 

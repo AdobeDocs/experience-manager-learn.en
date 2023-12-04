@@ -6,6 +6,7 @@ doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
 jira: KT-5377
 thumbnail: 33594.jpg
+duration: 221
 ---
 
 # Overview of Multi-site Management

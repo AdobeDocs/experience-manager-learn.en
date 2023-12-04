@@ -10,6 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: c91356d4-8f59-498e-bb57-d75906581f6d
+duration: 534
 ---
 # Live Copy console {#live-copy-console}
 

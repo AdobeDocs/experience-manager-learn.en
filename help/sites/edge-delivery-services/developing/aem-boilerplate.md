@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-16
 jira: KT-14479
 thumbnail: 3425713.jpeg
+duration: 99
 ---
 
 # AEM boilerplate

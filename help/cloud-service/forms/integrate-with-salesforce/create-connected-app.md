@@ -11,6 +11,7 @@ topic: Development
 jira: KT-7152
 thumbnail: 331757.jpg
 exl-id: 6e130397-9747-4d60-9975-4c45c5aab87b
+duration: 30
 ---
 # Create Connected App
 

@@ -9,6 +9,7 @@ feature: PDF Generator
 topic: Development
 index: y
 exl-id: 2fddb3a9-570c-4b50-a685-4287a1ddafe1
+duration: 122
 ---
 # Steps to troubleshoot Multi-User PDFG Conversion issues on a Windows setup
 

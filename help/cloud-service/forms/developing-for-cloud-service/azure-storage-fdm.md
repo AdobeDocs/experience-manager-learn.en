@@ -10,6 +10,7 @@ topic: Development
 feature: Developer Tools
 jira: KT-9006
 exl-id: 77c00a35-43bf-485f-ac12-0fffb307dc16
+duration: 67
 ---
 # Include cloud services configuration in your project
 

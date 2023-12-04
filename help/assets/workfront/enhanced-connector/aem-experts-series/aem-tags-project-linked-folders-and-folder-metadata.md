@@ -13,6 +13,7 @@ last-substantial-update: 2022-09-02
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"
 exl-id: 520a75cd-757a-4ae9-acf6-3c1f5e1f3747
+duration: 2647
 ---
 # AEM Tags, project linked folders, and folder metadata
 

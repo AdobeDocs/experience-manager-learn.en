@@ -1,14 +1,8 @@
 ---
 title: Configuring line chart for your first interactive communication document
-seo-title: Configuring line chart for your first interactive communication document
 description: This is part 8 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will add a Line chart to display the account balance.
-seo-description: This is part 8 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will add a Line chart to display the account balance.
-uuid: a4394874-a080-4b6a-a3eb-ffc71504919d
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 discoiquuid: 9110e5c6-50ee-4c3e-a779-b680ff49ef23
 jira: KT-5993
@@ -17,6 +11,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 86a955e2-2463-4973-8d3c-4c694db8c787
+duration: 154
 ---
 # Configuring line chart for your first interactive communication document {#configuring-line-chart-for-your-first-interactive-communication-document}
 

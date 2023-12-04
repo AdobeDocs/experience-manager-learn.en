@@ -1,14 +1,8 @@
 ---
 title: Generating Print Channel Documents Using Watched Folder
-seo-title: Generating Print Channel Documents Using Watched Folder
 description: This is part 10 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will generate print channel documents using the watched folder mechanism.
-seo-description: This is part 10 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will generate print channel documents using the watched folder mechanism.
-uuid: 9e39f4e3-1053-4839-9338-09961ac54f81
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 contentOwner: gbedekar
 discoiquuid: 23fbada3-d776-4b77-b381-22d3ec716ae9
@@ -16,6 +10,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 9bb05c94-2a7b-4149-b567-186eb08b1c66
+duration: 98
 ---
 # Generating Print Channel Documents Using Watched Folder
 

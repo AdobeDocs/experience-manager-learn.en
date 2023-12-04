@@ -7,6 +7,7 @@ role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: d4e16b45-0095-44b4-8c16-89adc15e0cf9
+duration: 1644
 ---
 # Introduction to Basic Templates {#basic-templates}
 

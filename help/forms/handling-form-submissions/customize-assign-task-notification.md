@@ -2,10 +2,7 @@
 title: Customize Assign Task Notification
 description: Include form data in the assign task notification e-mails
 feature: Workflow
-topics: integrations
-audience: developer
 doc-type: article
-activity: setup
 version: 6.4,6.5
 jira: KT-6279
 thumbnail: KT-6279.jpg
@@ -14,6 +11,7 @@ role: Developer
 level: Experienced
 exl-id: 0cb74afd-87ff-4e79-a4f4-a4634ac48c51
 last-substantial-update: 2020-07-07
+duration: 213
 ---
 # Customize Assign Task Notification
 

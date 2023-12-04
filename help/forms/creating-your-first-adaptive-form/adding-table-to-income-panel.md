@@ -9,6 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: e7674c46-259f-4dbd-96db-c40369534911
+duration: 371
 ---
 # Adding components to Income panel {#adding-components-to-income-panel}
 

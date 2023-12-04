@@ -2,16 +2,14 @@
 title: Generating Print Channel Document by Merging Data
 description: Learn how to generate print channel document by merging data contained in input stream
 feature: Interactive Communication
-topics: development
-audience: developer
 doc-type: article
-activity: implement
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
 exl-id: 3bfbb4ef-0c51-445a-8d7b-43543a5fa191
 last-substantial-update: 2019-07-07
+duration: 223
 ---
 # Generate Print Channel Documents using submitted data
 

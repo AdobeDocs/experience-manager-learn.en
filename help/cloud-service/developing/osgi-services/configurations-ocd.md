@@ -8,6 +8,7 @@ feature: OSGI
 jira: KT-8269
 thumbnail: 335730.jpeg
 exl-id: 72918da0-d5c4-4451-8082-0a0435c28890
+duration: 739
 ---
 # OSGi Configurations as ObjectClassDefinition Objects
 

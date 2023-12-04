@@ -12,6 +12,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: 2c01cda8-f72f-47f7-a36b-95afd241906e
+duration: 237
 ---
 # Export Experience Fragment to Adobe Target {#experience-fragment-target}
 

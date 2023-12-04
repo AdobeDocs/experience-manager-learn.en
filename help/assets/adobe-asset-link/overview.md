@@ -1,12 +1,13 @@
 ---
 title: Adobe Asset Link and AEM
-description: Adobe Experience Manager assets can be used by designers and creative users within their favorite Adobe Creative Cloud desktop applications. Adobe Asset Link extension for Adobe Creative Cloud for enterprise extends the capability to search and browse, sort, preview, upload assets, check out, modify, check-in, and view metadata of AEM assets within Creative Cloud tools like Adobe XD, Photoshop, InDesign, and Illustrator. 
+description: Adobe Experience Manager assets can be used by designers and creative users within their favorite Adobe Creative Cloud desktop applications. Adobe Asset Link extension for Adobe Creative Cloud for enterprise extends the capability to search and browse, sort, preview, upload assets, check out, modify, check-in, and view metadata of AEM assets within Creative Cloud tools like Adobe XD, Photoshop, InDesign, and Illustrator.
 feature: Adobe Asset Link
-version:  6.4, 6.5, Cloud Service
+version: 6.4, 6.5, Cloud Service
 topic: Content Management
 role: User
 level: Beginner
 thumbnail: 28988.jpg
+duration: 734
 ---
 
 # Adobe Asset Link 3.0

@@ -13,6 +13,7 @@ last-substantial-update: 2022-09-02
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"
 exl-id: f0018d16-af96-4b92-b0fc-6130d812bf8f
+duration: 2492
 ---
 # Initial setup and configuration
 

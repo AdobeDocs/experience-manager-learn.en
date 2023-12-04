@@ -1,10 +1,7 @@
 ---
 title: Using Adobe Cloud Manager - Activity
 description: Cloud Manager provides a consolidated view into a Program's activity, listing all CI/CD Pipeline executions, both production and non-production. This allows users to view any pipelines currently in progress and review previous deployments.
-topics: Administration
-audience: administrator
 doc-type: feature video
-activity: use
 version: Cloud Service
 jira: KT-6874
 thumbnail: 26319.jpg
@@ -13,6 +10,7 @@ feature: Cloud Manager, Code Deployment
 role: Architect, Developer, Admin
 level: Beginner
 exl-id: 82a9d00f-abe6-4600-92b1-41b5f0b5e352
+duration: 62
 ---
 # Using Adobe Cloud Manager - Activity
 

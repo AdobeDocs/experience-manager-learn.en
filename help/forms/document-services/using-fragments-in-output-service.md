@@ -8,6 +8,7 @@ role: Developer
 level: Intermediate
 last-substantial-update: 2022-07-09
 exl-id: d7887e2e-c2d4-4f0c-b117-ba7c41ea539a
+duration: 147
 ---
 # Generating pdf documents using fragments{#developing-with-output-and-forms-services-in-aem-forms}
 

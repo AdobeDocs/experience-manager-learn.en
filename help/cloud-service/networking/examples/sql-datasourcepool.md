@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-9355
 thumbnail: KT-9355.jpeg
 exl-id: c1a26dcb-b2ae-4015-b865-2ce32f4fa869
+duration: 182
 ---
 # SQL connections using JDBC DataSourcePool
 

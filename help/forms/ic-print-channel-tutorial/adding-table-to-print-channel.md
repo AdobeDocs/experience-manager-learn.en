@@ -1,14 +1,8 @@
 ---
 title: Adding table to contributions section
-seo-title: Adding table to contributions section
 description: This is part 9 of multistep tutorial for creating your first interactive communication document.In this part, we will add a table to the contributions section.
-seo-description: This is part 9 of multistep tutorial for creating your first interactive communication document.In this part, we will add a table to the contributions section.
-uuid: 9475e769-a3f8-4aec-9b46-e0dc182b78a0
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 jira: KT-5994
 thumbnail: 37953.jpg
@@ -17,6 +11,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: b5a6c1c9-2be1-4622-b85b-a1996fb86a2f
+duration: 260
 ---
 # Adding table to contributions section
 

@@ -10,6 +10,7 @@ role: User
 level: Intermediate
 doc-type: Feature Video
 exl-id: 12490c29-91f4-4bb7-b7b6-7ed7cd3fb76d
+duration: 236
 ---
 # Using the Style System {#using-the-style-system-with-aem-sites}
 

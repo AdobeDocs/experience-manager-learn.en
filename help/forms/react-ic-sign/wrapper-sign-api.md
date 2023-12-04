@@ -9,6 +9,7 @@ level: Beginner
 jira: KT-13099
 last-substantial-update: 2023-04-13
 exl-id: 15364571-070c-4497-a256-f0483d6f9585
+duration: 185
 ---
 # Create a wrapper for Acrobat Sign REST API
 

@@ -5,6 +5,7 @@ index: no
 hidefromtoc: yes
 hide: yes
 exl-id: c2ee05f0-9e10-4a3b-8ecb-0366116356e8
+duration: 22
 ---
 # AEM Trials image index
 

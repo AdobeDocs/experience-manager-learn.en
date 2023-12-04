@@ -9,6 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 7b2a4075-bfdf-49f3-b507-34d86193bf64
+duration: 481
 ---
 # Using custom functions and code editor {#using-functions-and-code-editor}
 

@@ -10,6 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-11-15
 jira: KT-14466
 thumbnail: 3425700.jpeg
+duration: 148
 ---
 
 # Preview and publish content

@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14486
 thumbnail: 3425719.jpeg
+duration: 106
 ---
 
 # Embed content with iFrames

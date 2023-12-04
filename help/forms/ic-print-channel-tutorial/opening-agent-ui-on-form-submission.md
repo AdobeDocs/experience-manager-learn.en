@@ -1,14 +1,8 @@
 ---
 title: Opening Agent UI On POST Submission
-seo-title: Opening Agent UI On POST Submission
 description: This is part 11 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will launch the agent ui interface for creating ad-hoc correspondence on form submission.
-seo-description: This is part 11 of multistep tutorial for creating your first interactive communications document for the print channel. In this part, we will launch the agent ui interface for creating ad-hoc correspondence on form submission.
-uuid: 96f34986-a5c3-400b-b51b-775da5d2cbd7
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 jira: KT-6168
 thumbnail: 40122.jpg
@@ -16,6 +10,7 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: 509b4d0d-9f3c-46cb-8ef7-07e831775086
+duration: 199
 ---
 # Opening Agent UI On POST Submission
 

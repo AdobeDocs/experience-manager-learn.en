@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14481
 thumbnail: 3425715.jpeg
+duration: 147
 ---
 
 # AEM Sidekick

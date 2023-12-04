@@ -10,6 +10,7 @@ topic: Development
 role: User
 level: Beginner
 exl-id: 1ecd8bc0-068f-4557-bce4-85347c295ce0
+duration: 76
 ---
 # Create the MyAccountForm
 

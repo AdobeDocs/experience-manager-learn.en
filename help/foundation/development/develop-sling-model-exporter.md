@@ -9,6 +9,7 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: fc321ed1-5cf7-4bbe-adc6-c4905af7b43c
+duration: 962
 ---
 # Develop Sling Model Exporters
 

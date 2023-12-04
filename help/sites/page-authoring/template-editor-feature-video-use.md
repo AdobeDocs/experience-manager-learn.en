@@ -9,6 +9,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 2213d1f2-37ed-4897-a68d-04ef423395a3
+duration: 389
 ---
 # Using Editable Page Templates{#using-template-editor-with-aem-sites}
 

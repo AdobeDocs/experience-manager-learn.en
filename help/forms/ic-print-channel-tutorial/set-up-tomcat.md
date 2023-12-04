@@ -1,13 +1,8 @@
 ---
 title: Install and Configure Tomcat video
-seo-title: Install and Configure Tomcat
 description: This is part 1 of multistep tutorial for creating your first interactive communications document.
-uuid: 835e2342-82b6-4f0c-9a6b-467bbbd8527a
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 thumbnail: 37815.jpg
 discoiquuid: 5f68be3d-aa35-4a3f-aaea-b8ee213c87ae
@@ -15,6 +10,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: faa9ca2d-6cfa-4abf-be5e-3e549202853a
+duration: 259
 ---
 # Install and Configure Tomcat {#install-and-configure-tomcat}
 

@@ -9,6 +9,7 @@ level: Beginner
 jira: KT-784
 doc-type: Feature Video
 exl-id: 295bbfb6-241f-41c0-972d-d9688863cea1
+duration: 464
 ---
 # Using Smart Crop with AEM Assets Dynamic Media{#using-smart-crop-with-aem-assets-dynamic-media}
 

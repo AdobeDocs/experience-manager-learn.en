@@ -11,6 +11,7 @@ thumbnail: 342154.jpeg
 last-substantial-update: 2022-10-10
 doc-type: Feature Video
 exl-id: 9e68efbb-38bd-4538-b899-5fd356c9322d
+duration: 659
 ---
 # Metadata Forms in Assets Essentials
 

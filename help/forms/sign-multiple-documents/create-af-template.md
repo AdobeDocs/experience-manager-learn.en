@@ -2,10 +2,7 @@
 title: Create AF Template
 description: Create an AF template and associate it with page rendering component
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 jira: KT-6891
 thumbnail: 6891.jpg
@@ -13,6 +10,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: c6e0fb92-28c1-4025-85ef-b99bad46f07a
+duration: 261
 ---
 # Create AF template
 

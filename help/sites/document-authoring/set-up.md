@@ -10,6 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-11-15
 jira: KT-14465
 thumbnail: 3425699.jpeg
+duration: 118
 ---
 
 # Set up document authoring

@@ -2,7 +2,6 @@
 title: Create a Custom Weather Component | Getting Started with the AEM SPA Editor and React
 description: Learn how to create a custom weather component to be used with the AEM SPA Editor. Learn how to develop author dialogs and Sling Models to extend the JSON model to populate a custom component. The Open Weather API and React Open Weather components are used.
 feature: SPA Editor
-topics: development
 version: Cloud Service
 jira: KT-5878
 thumbnail: 5878-spa-react.jpg
@@ -11,6 +10,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 82466e0e-b573-440d-b806-920f3585b638
+duration: 472
 ---
 # Create a Custom WeatherComponent {#custom-component}
 

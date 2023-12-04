@@ -1,15 +1,12 @@
 ---
 title: Acroforms with AEM Forms
-seo-title: Merge Adaptive Form data with Acroform
 description: Part 2 of integrating Acroforms with AEM Forms. Create a schema from an Acroform.
 feature: adaptive-forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.5
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
+duration: 54
 ---
 
 # Create Schema from the acroform

@@ -7,6 +7,7 @@ role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: 04aacd81-bbb2-4742-9306-f0eabc665a41
+duration: 700
 ---
 # Dynamic Media Classic Main Workflow and Previewing Assets {#main-workflow}
 

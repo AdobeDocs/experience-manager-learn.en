@@ -10,6 +10,7 @@ jira: KT-11245
 last-substantial-update: 2022-10-15
 thumbnail: third-party.jpg
 exl-id: e8841c63-3159-4f13-89a1-d8592af514e3
+duration: 78
 ---
 # Including third party bundles in your AEM project
 

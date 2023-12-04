@@ -8,6 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: e0fe53a3-6881-4a46-8040-3d8815809897
+duration: 75
 ---
 # Steps to reset default password for administrator in AEM Forms JEE
 

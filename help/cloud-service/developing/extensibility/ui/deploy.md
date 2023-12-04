@@ -10,6 +10,7 @@ recommendations: noDisplay, noCatalog
 jira: KT-11603
 last-substantial-update: 2023-06-02
 exl-id: 2e37165d-c003-4206-8133-54e37ca35b8e
+duration: 228
 ---
 # Deploy an extension
 

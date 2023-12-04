@@ -12,6 +12,7 @@ level: Intermediate
 last-substantial-update: 2021-09-20
 doc-type: Feature Video
 exl-id: 7ef59804-b151-486c-9c7d-43058c004f3e
+duration: 315
 ---
 # Assets admin search rail
 

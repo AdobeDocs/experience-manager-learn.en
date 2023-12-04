@@ -1,14 +1,8 @@
 ---
 title: Creating DataSource Configuration in AEM Forms
-seo-title: Creating DataSource Configuration in AEM Forms
 description: This is part 2 of multistep tutorial for creating your first interactive communications document. In this part, we will create a REST backed data source.  The following video walks thru the steps to create the data source.
-seo-description: This is part 2 of multistep tutorial for creating your first interactive communications document. In this part, we will create a REST backed data source.  The following video walks thru the steps to create the data source.
-uuid: b9d5c220-3e86-4e7d-8ea0-a7f604dde925
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 targetaudience: target-audience ongoing
 thumbnail: 27765.jpg
@@ -17,6 +11,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 1f4d88ad-ace1-4f78-be40-da80b3b4d40c
+duration: 181
 ---
 # Creating DataSource Configuration in AEM Forms{#creating-datasource-configuration-in-aem-forms}
 

@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Development
 jira: KT-8851
 exl-id: e61cea37-b931-49c6-9e5d-899628535480
+duration: 50
 ---
 # Push AEM project to cloud manager git repo
 

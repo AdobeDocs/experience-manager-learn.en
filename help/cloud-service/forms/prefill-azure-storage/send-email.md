@@ -8,6 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-8474
+duration: 41
 ---
 # Send e-mail
 

@@ -11,6 +11,7 @@ topic: Development
 jira: KT-7380
 thumbnail: 22200.jpg
 exl-id: fac57513-c5e4-4497-bcb6-9ed3094baa5b
+duration: 197
 ---
 # Configure assets panel
 

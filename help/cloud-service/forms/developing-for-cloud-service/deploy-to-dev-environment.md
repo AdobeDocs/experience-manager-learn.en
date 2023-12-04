@@ -10,6 +10,7 @@ topic: Development
 feature: Code Deployment
 jira: KT-8851
 exl-id: daf7d316-e9ec-41b5-89c8-fe4f4ada9701
+duration: 38
 ---
 # Deploy to development environment
 

@@ -11,6 +11,7 @@ jira: KT-13519
 thumbnail: 3420690.jpeg
 doc-type: Feature Video
 exl-id: b08f662c-e2b2-4643-b92b-a957e1d359e8
+duration: 127
 ---
 # 3D assets
 

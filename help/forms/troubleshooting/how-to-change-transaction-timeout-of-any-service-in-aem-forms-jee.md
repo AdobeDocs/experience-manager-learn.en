@@ -8,6 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: 3f30b17b-2e69-4b77-97fc-3df5a273d002
+duration: 72
 ---
 # How to change transaction timeout of a service in AEM Forms JEE
 

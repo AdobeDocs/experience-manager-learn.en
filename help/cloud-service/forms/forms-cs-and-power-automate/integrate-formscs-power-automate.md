@@ -10,6 +10,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-10782
 exl-id: 67ccf040-013c-4641-96df-d5e494efdaeb
+duration: 861
 ---
 # Forms CS and Microsoft Power Automate
 

@@ -1,19 +1,15 @@
 ---
 title: Install and Configure Tomcat
-seo-title: Install and Configure Tomcat
 description: This is part 1 of multistep tutorial for creating your first interactive communications document.In this part, we will install TOMCAT and deploy the sampleRest.war file in TOMCAT.
-uuid: c6d4c74c-ea16-4c63-92c9-182d087fd88c
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 discoiquuid: 4f400c22-6c96-4018-851c-70d988ce7c6c
 topic: Development
 role: Developer
 level: Beginner
 exl-id: f0f19838-1ade-4eda-b736-a9703a3916c2
+duration: 66
 ---
 # Install and Configure Tomcat {#install-and-configure-tomcat}
 

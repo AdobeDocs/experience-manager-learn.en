@@ -7,6 +7,7 @@ topic: Headless, Content Management
 role: Developer
 level: Intermediate
 exl-id: bd7916be-8caa-4321-add0-4c9031306d60
+duration: 628
 ---
 # Explore the AEM GraphQL API
 

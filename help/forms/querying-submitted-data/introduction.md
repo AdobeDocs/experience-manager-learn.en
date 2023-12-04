@@ -1,19 +1,15 @@
 ---
 title: AEM Forms with JSON Schema and Data
-seo-title: AEM Forms with JSON Schema and Data
 description: Multi-Part tutorial to walk you through the steps involved in creating Adaptive Form with JSON schema and querying the submitted data.
-seo-description: Multi-Part tutorial to walk you through the steps involved in creating Adaptive Form with JSON schema and querying the submitted data.
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
 exl-id: 014506e5-a7c9-4220-a429-71c961af36ba
 last-substantial-update: 2021-07-07
+duration: 33
 ---
 # AEM Forms with JSON Schema and Data
 

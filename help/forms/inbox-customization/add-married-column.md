@@ -2,16 +2,14 @@
 title: Add custom columns
 description: Add custom columns to display additional data of workflow
 feature: Adaptive Forms
-topics: development
-audience: developer
 doc-type: article
-activity: implement
 version: 6.5
 jira: KT-5830
 topic: Development
 role: Developer
 level: Experienced
 exl-id: 0b141b37-6041-4f87-bd50-dade8c0fee7d
+duration: 112
 ---
 # Add custom columns
 

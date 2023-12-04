@@ -8,6 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-14501
+duration: 122
 ---
 # Create custom submit to handle the form submission
 

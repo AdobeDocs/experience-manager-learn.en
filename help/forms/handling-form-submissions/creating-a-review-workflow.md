@@ -2,10 +2,7 @@
 title: Creating workflow to review submitted data
 description: Creating AEM Workflow model using AEM Forms workflow components to review submitted data.
 feature: Workflow
-topics: integrations
-audience: developer
 doc-type: article
-activity: setup
 version: 6.4,6.5
 jira: KT-4271
 thumbnail: 40242.jpg
@@ -14,6 +11,7 @@ role: Developer
 level: Beginner
 exl-id: 0aafd97a-2e72-4257-ad4d-e0993263b11f
 last-substantial-update: 2020-07-07
+duration: 1061
 ---
 # Creating workflow to review submitted data
 

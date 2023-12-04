@@ -1,14 +1,13 @@
 ---
 title: Chapter 3 - Authoring Event Content Fragments - Content Services
-seo-title: Getting Started with AEM Content Services - Chapter 3 - Authoring Event Content Fragments
 description: Chapter 3 of the AEM Headless tutorial covers creating and authoring Event Content Fragments from the Content Fragment Model created in Chapter 2.
-seo-description: Chapter 3 of the AEM Headless tutorial covers creating and authoring Event Content Fragments from the Content Fragment Model created in Chapter 2.
 feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 46ef11a2-81bd-4ff7-b9ef-9f8cba52c6a8
+duration: 205
 ---
 # Chapter 3 - Authoring Event Content Fragments
 

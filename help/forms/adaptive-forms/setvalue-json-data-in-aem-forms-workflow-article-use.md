@@ -8,6 +8,7 @@ role: Developer
 level: Experienced
 exl-id: fbe6d341-7941-46f5-bcd8-58b99396d351
 last-substantial-update: 2021-06-09
+duration: 167
 ---
 # Setting value of JSON Data Element in AEM Forms Workflow {#setting-value-of-json-data-element-in-aem-forms-workflow}
 

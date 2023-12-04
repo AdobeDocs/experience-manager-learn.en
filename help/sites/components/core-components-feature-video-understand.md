@@ -3,13 +3,14 @@ title: Understanding Core Components
 description: AEM Core Components are a standard set components to be used with Adobe Experience Manager. Built with Adobe's best practices and standards, Core Components provide a baseline set of functionality for any Sites implementation.
 feature: Core Components
 doc-type: Feature Video
-version:  6.4, 6.5, Cloud Service
+version: 6.4, 6.5, Cloud Service
 jira: KT-4676
 thumbnail: 18926.jpg
 topic: Development
 role: User
 level: Beginner
 exl-id: 097216b7-b345-4fcb-bab3-e660d74252a6
+duration: 671
 ---
 # Understanding Core Components{#understanding-core-components}
 

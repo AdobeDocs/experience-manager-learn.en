@@ -1,19 +1,15 @@
 ---
 title: Creating two column layouts for print channel documents
-seo-title: Creating two column layouts for print channel documents
 description: Create 2 column layouts for print channel document
-seo-description: Create 2 column layouts for print channel document
 feature: Interactive Communication
-topics: development
-audience: developer
 doc-type: article
-activity: implement
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
 exl-id: 416e3401-ba9f-4da3-8b07-2d39f9128571
 last-substantial-update: 2019-07-07
+duration: 64
 ---
 # Two Column Layouts in Print Channel Document
 

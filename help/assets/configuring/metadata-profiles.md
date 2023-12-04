@@ -11,6 +11,7 @@ level: Beginner
 last-substantial-update: 2021-09-18
 doc-type: Feature Video
 exl-id: 1e35da82-08e7-44c2-aec6-79d8ea74d556
+duration: 457
 ---
 # Metadata profiles
 

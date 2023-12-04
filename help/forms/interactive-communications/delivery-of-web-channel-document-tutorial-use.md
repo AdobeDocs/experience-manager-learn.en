@@ -2,14 +2,13 @@
 title: Delivery of Interactive Communication Document - Web Channel AEM Forms
 description: Delivery of web channel document via link in email
 feature: Interactive Communication
-audience: developer
-activity: implement
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
 exl-id: 50858100-3d0c-42bd-87b8-f626212669e2
 last-substantial-update: 2019-07-07
+duration: 85
 ---
 # Email Delivery of Web Channel Document
 

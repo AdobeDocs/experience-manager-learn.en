@@ -1,19 +1,15 @@
 ---
 title: Creating your first interactive communication for the print channel
-seo-title: Creating your first interactive communication for the print channel
 description: Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
-seo-description: Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Beginner
 exl-id: 1949aeff-ae56-4abd-8e63-23c2fb4859f2
 last-substantial-update: 2019-08-07
+duration: 49
 ---
 # Creating your first interactive communication for the print channel
 

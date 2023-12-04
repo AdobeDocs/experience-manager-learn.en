@@ -11,6 +11,7 @@ last-substantial-update: 2022-11-11
 recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: edd18f2f-6f24-4299-a31a-54ccc4f6d86e
+duration: 246
 ---
 # Editable fixed components
 

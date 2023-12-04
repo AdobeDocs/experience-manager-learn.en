@@ -10,6 +10,7 @@ exl-id: e028837b-13d8-4058-ac25-ed095f49524c
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 last-substantial-update: 2020-03-20
+duration: 66
 ---
 # Integrate AEM Forms and Adobe Campaign Standard
 

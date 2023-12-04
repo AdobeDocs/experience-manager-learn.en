@@ -9,6 +9,7 @@ feature: PDF Generator
 topic: Administration
 index: y
 exl-id: f718470d-d48c-48ae-98b6-f5baf461098d
+duration: 115
 ---
 # Steps to add AEM Forms PDFG users in Windows Server 2016.
 

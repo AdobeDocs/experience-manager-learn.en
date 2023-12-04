@@ -1,7 +1,7 @@
 ---
 title: Getting Started with AEM Headless Hands-on Tutorial - GraphQL
 description: An end-to-end tutorial illustrating how to build-out and expose content using AEM GraphQL APIs.
-doc-type: tutorial
+doc-type: Tutorial
 mini-toc-levels: 1
 jira: KT-6678
 thumbnail: KT-6678.jpg
@@ -11,6 +11,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2022-10-17
 exl-id: 41e15a2c-758b-4e7d-9d23-ef671c1dc155
+duration: 81
 ---
 # Getting Started with AEM Headless - GraphQL
 

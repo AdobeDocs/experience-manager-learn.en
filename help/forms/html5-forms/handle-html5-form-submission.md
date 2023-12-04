@@ -2,10 +2,7 @@
 title: Handle HTML5 Form Submission
 description: Create HTML5 Form submission handler
 feature: Mobile Forms
-topics: development
-audience: developer
 doc-type: article
-activity: implement
 version: 6.4,6.5
 jira: KT-5269
 thumbnail: kt-5269.jpg
@@ -14,6 +11,7 @@ role: Developer
 level: Experienced
 exl-id: 93e1262b-0e93-4ba8-aafc-f9c517688ce9
 last-substantial-update: 2020-07-07
+duration: 99
 ---
 # Handle HTML5 Form Submission
 

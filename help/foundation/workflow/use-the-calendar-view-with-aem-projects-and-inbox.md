@@ -1,12 +1,13 @@
 ---
 title: Use the Calendar View with AEM Projects and Inbox
-description: AEM's Calendar View tracks projects and tasks in a calendar view for easier project management and scheduling. With Calendar view, user would have an overall visibility over projects and tasks that are currently in progress, planned, due soon and past due. 
+description: AEM's Calendar View tracks projects and tasks in a calendar view for easier project management and scheduling. With Calendar view, user would have an overall visibility over projects and tasks that are currently in progress, planned, due soon and past due.
 version: 6.4, 6.5
 feature: Workflow, Projects
 doc-type: Feature Video
 topic: Collaboration
 role: User
 level: Beginner
+duration: 495
 ---
 
 # Use the Calendar View with AEM Projects and Inbox

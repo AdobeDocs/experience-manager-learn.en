@@ -11,6 +11,7 @@ thumbnail: 338680.jpg
 doc-type: Tutorial
 exl-id: 3155e0fa-56b7-4a52-8eef-fee488e95f68
 recommendations: noDisplay, noCatalog
+duration: 674
 ---
 # UI Planning with Adobe XD {#ui-planning-adobe-xd}
 

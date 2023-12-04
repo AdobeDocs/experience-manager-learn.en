@@ -9,6 +9,7 @@ feature: Carousel Banners
 index: y
 doc-type: Tutorial
 exl-id: 4816c688-abec-4bd5-9215-59c16d8fe65d
+duration: 93
 ---
 # Creating Carousel sets with AEM Dynamic Media
 

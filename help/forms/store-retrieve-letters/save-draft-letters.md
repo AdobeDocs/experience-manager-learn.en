@@ -2,16 +2,14 @@
 title: Save and retrieve draft letters
 description: Learn how to save and retrieve draft letters
 feature: Interactive Communication
-topics: development
-audience: developer
 doc-type: article
-activity: implement
 version: 6.5
 topic: Development
 role: Developer
 level: Intermediate
 jira: KT-10208
 exl-id: dc6f64a0-7059-4392-9c29-e66bdef4fd4d
+duration: 180
 ---
 # Save and retrieve draft letters
 

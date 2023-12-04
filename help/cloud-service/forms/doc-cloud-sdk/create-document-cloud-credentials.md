@@ -10,6 +10,7 @@ topic: Development
 thumbnail: 7820.jpg
 jira: KT-7820
 exl-id: 49ecde63-e53c-41fa-ab9b-d6a4435657b5
+duration: 144
 ---
 # Create an Adobe I/O project
 

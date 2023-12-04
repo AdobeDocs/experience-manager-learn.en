@@ -9,6 +9,7 @@ feature: PDF Generator
 topic: Development
 index: y
 exl-id: 10b32182-3095-45f5-9edf-3cc4804713ab
+duration: 119
 ---
 # Steps to troubleshoot HtmltoPDF specific issues on a Windows setup
 

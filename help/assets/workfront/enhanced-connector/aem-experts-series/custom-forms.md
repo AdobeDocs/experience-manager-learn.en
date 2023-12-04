@@ -12,6 +12,7 @@ hidefromtoc: false
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"
 exl-id: 40d76e0c-69f3-4003-9f34-f393e6fb8561
+duration: 3326
 ---
 # Workfront custom forms and metadata mapping
 

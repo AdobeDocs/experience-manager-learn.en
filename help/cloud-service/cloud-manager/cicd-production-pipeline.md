@@ -1,10 +1,7 @@
 ---
 title: Using Adobe Cloud Manager - CI/CD Production Pipeline
 description: The CI/CD Production Pipeline is used to build and deploy code through Stage to the Production environment, decreasing time to value. The CI/CD Production Pipeline configuration defines the trigger that will initiate the pipeline, parameters controlling the production deployment and performance test parameters.
-topics: Administration
-audience: administrator
 doc-type: feature video
-activity: use
 version: Cloud Service
 kt: 6872, 6875
 thumbnail: 26317.jpg
@@ -13,6 +10,7 @@ feature: Cloud Manager, CI-CD Pipeline
 role: Architect, Developer, Admin
 level: Beginner
 exl-id: c4f5667a-0da2-490b-9d55-9fbde21db595
+duration: 423
 ---
 # Using Adobe Cloud Manager - CI/CD Production Pipeline {#using-adobe-cloud-manager-ci-cd-production-pipeline}
 

@@ -10,6 +10,7 @@ topic: Administration
 index: y
 doc-type: Technical Video
 exl-id: aa520806-3937-4100-b75a-78c2460c1b2f
+duration: 118
 ---
 # Steps to resolve replication issues in AEM
 

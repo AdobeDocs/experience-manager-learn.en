@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: f9782684-3a74-4080-9680-589d3f901617
+duration: 590
 ---
 # XML Variables in AEM Workflow
 

@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14493
 thumbnail: 3425726.jpeg
+duration: 103
 ---
 
 # Prevent search engine indexing

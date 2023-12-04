@@ -1,14 +1,8 @@
 ---
 title: Registering Custom Asset Types
-seo-title: Registering Custom Asset Types
 description: Enabling custom asset types for listing in AEMForms Portal
-seo-description: Enabling custom asset types for listing in AEMForms Portal
-uuid: eaf29eb0-a0f6-493e-b267-1c5c4ddbe6aa
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 discoiquuid: 99944f44-0985-4320-b437-06c5adfc60a1
 topic: Development
@@ -16,6 +10,7 @@ role: Developer
 level: Experienced
 exl-id: da613092-e03b-467c-9b9e-668142df4634
 last-substantial-update: 2019-07-11
+duration: 173
 ---
 # Registering Custom Asset Types {#registering-custom-asset-types}
 

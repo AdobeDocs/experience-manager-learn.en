@@ -1,20 +1,15 @@
 ---
 title: Adding table to account balance panel
-seo-title: Adding table to account balance panel
 description: This is part 9 of multistep tutorial for creating your first interactive communication document.In this part, we will add a table to the Account Balance panel.
-seo-description: This is part 9 of multistep tutorial for creating your first interactive communication document.In this part, we will add a table to the Account Balance panel.
-uuid: 8f268c73-c543-418d-b65e-5beaf9660e42
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 discoiquuid: 28a9d88d-635b-47a2-8a78-54ddeabc4406
 topic: Development
 role: Developer
 level: Beginner
 exl-id: 1e43c459-8824-40e8-8f05-24b8b0646346
+duration: 323
 ---
 # Adding table to account balance panel{#adding-table-to-account-balance-panel}
 

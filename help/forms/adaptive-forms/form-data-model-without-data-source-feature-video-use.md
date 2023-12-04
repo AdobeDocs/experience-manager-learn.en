@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 exl-id: b43568e7-99f0-425d-9601-c671ecdaff69
 last-substantial-update: 2020-06-09
+duration: 203
 ---
 # Creating Form Data Model Without Data Source {#creating-form-data-model-without-data-source}
 

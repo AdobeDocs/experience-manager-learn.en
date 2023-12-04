@@ -1,20 +1,15 @@
 ---
 title: Sending Email on Adaptive Form Submission
-seo-title: Sending Email on Adaptive Form Submission
 description: Send confirmation email on adaptive form submission using the send email component
-seo-description: Send confirmation email on adaptive form submission using the send email component
-uuid: 6c9549ba-cb56-4d69-902c-45272a8fd17e
 feature: Adaptive Forms
-topics: authoring, integrations
-audience: developer
 doc-type: article
-activity: use
 discoiquuid: 1187357f-2f36-4a04-b708-44bb9c174fb5
 topic: Development
 role: Developer
 level: Beginner
 exl-id: 19c5aeec-2893-4ada-b6df-b80c4be2468a
 last-substantial-update: 2020-07-07
+duration: 60
 ---
 # Sending Email on Adaptive Form Submission {#sending-email-on-adaptive-form-submission}
 

@@ -11,6 +11,7 @@ last-substantial-update: 2023-03-17
 jira: KT-10841
 thumbnail: 3416906.jpeg
 exl-id: 247d40a3-ff67-4c1f-86bf-3794d7ce3e32
+duration: 532
 ---
 # Content Fragment preview
 

@@ -11,6 +11,7 @@ last-substantial-update: 2023-08-28
 jira: KT-13858
 thumbnail: KT-13858.jpeg
 exl-id: b8e09820-f1f2-4897-b454-16c0df5a0459
+duration: 83
 ---
 # AEM Author
 

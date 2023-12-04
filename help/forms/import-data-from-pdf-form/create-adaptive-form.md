@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 jira: KT-14196
 exl-id: b286c3e9-70df-46e8-b0bc-21599ab1ec06
+duration: 61
 ---
 # Introduction
 

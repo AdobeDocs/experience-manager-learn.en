@@ -9,6 +9,7 @@ topic: Development
 role: User
 level: Beginner
 exl-id: c8d4eed8-9e2b-458c-90d8-832fc9e0ad3f
+duration: 176
 ---
 # Create Adaptive Form
 

@@ -9,6 +9,7 @@ topic: Development
 feature: Code Deployment
 jira: KT-8852
 exl-id: 81a53f52-2a6c-44ef-a13f-ac372b4a33b9
+duration: 325
 ---
 # Sync Adaptive Forms with AEM Project
 

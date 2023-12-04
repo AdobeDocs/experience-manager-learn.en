@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Development
 feature: Developer Tools
 jira: KT-14581
+duration: 136
 ---
 # Introduction
 

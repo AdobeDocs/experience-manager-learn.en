@@ -10,6 +10,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 19a8917c-a1e7-4293-9ce1-9f4c1a565861
+duration: 711
 ---
 # Map SPA components to AEM components {#map-components}
 

@@ -1,12 +1,8 @@
 ---
 title: Listing Custom Asset Types in AEM Forms
 description: Part 2 of Listing Custom Asset Types in AEM Forms
-uuid: 6467ec34-e452-4c21-9bb5-504f9630466a
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 discoiquuid: 4b940465-0bd7-45a2-8d01-e4d640c9aedf
 topic: Development
@@ -14,6 +10,7 @@ role: Developer
 level: Experienced
 exl-id: f221d8ee-0452-4690-a936-74bab506d7ca
 last-substantial-update: 2019-07-10
+duration: 184
 ---
 # Listing Custom Asset Types in AEM Forms {#listing-custom-asset-types-in-aem-forms}
 

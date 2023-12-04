@@ -2,16 +2,14 @@
 title: Deploy the tutorial assets
 description: Tutorial for creating summary component for reviewing form data before submission.
 feature: Adaptive Forms
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
 last-substantial-update: 2023-01-22
 exl-id: 98c2759a-6995-4664-9c96-9062b049caf4
+duration: 24
 ---
 # Deploy assets on your system
 

@@ -9,6 +9,7 @@ feature: PDF Generator
 topic: Administration
 index: y
 exl-id: 2ac84ee3-48ca-4c01-9dfe-add77c666ba9
+duration: 122
 ---
 # Steps to enable verbose ORB trace
 

@@ -13,6 +13,7 @@ thumbnail: KT-13156.jpeg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service" before-title="false"
 exl-id: 47df99e6-6418-43c8-96fe-85e3c47034d6
+duration: 1398
 ---
 # Integrate AEM Sites and Experience Platform Web SDK
 

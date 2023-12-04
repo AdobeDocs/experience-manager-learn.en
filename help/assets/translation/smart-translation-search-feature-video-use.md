@@ -10,6 +10,7 @@ last-substantial-update: 2022-09-03
 thumbnail: 21297.jpg
 doc-type: Feature Video
 exl-id: 4f35e3f7-ae29-4f93-bba9-48c60b800238
+duration: 211
 ---
 # Using Smart Translation Search with AEM Assets{#using-smart-translation-search-with-aem-assets}
 

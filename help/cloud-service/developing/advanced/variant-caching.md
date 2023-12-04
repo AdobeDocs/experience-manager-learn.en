@@ -5,6 +5,7 @@ role: Architect, Developer
 topic: Development
 feature: CDN Cache, Dispatcher
 exl-id: fdf62074-1a16-437b-b5dc-5fb4e11f1355
+duration: 213
 ---
 # Caching page variants
 

@@ -2,11 +2,8 @@
 title: Asset Compute microservices extensibility for AEM as a Cloud Service
 description: This tutorial walks through the creation of a simple Asset Compute worker that creates an asset rendition by cropping the original asset to a circle, and applies configurable contrast and brightness. While the worker itself is basic, this tutorial uses it to explore creating, developing, and deploying a custom Asset Compute worker for use with AEM as a Cloud Service.
 feature: Asset Compute Microservices
-topics: renditions, development
 version: Cloud Service
-doc-type: tutorial
-activity: develop
-audience: developer
+doc-type: Tutorial
 jira: KT-5802
 thumbnail: KT-5802.jpg
 topic: Integrations, Development
@@ -14,6 +11,7 @@ role: Developer
 level: Intermediate, Experienced
 last-substantial-update: 2022-08-15
 exl-id: 575b12f9-b57f-41f7-bd39-56d242de4747
+duration: 340
 ---
 # Asset Compute microservices extensibility
 

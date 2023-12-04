@@ -13,6 +13,7 @@ thumbnail: 332706.jpg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: bc66c8fb-d1ce-47dc-af6d-dda0c37347e4
+duration: 107
 ---
 # Introduction video
 

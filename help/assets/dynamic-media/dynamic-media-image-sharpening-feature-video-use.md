@@ -8,6 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 3b3002db-f739-486c-b25f-6b7918a9d9a4
+duration: 19
 ---
 # Using Image Sharpening with AEM Dynamic Media{#using-image-sharpening-with-aem-dynamic-media}
 

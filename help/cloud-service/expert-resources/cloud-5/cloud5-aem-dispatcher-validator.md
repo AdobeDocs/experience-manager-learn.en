@@ -9,6 +9,7 @@ thumbnail: 342358.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: e95e7530-100d-4495-abae-4c568e7978b3
+duration: 324
 ---
 # Cloud 5 AEM Dispatcher Validator
 

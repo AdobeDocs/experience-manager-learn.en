@@ -3,10 +3,7 @@ title: Using Bulk Import with AEM Assets
 description: The Bulk Import tool in AEM as a Cloud Service allows administrators to import assets in bulk from cloud storage (Azure Blob Storage or Amazon S3) in a safe and efficient manner.
 version: Cloud Service
 doc-type: technical-video
-topics: Migration
 feature: Migration
-activity: develop
-audience: developer
 jira: KT-6729
 thumbnail: 329680.jpg
 topic: Migration
@@ -14,6 +11,7 @@ role: Architect, Developer
 level: Beginner
 last-substantial-update: 2022-10-05
 exl-id: 28644af8-babc-467d-afdb-8538728dc176
+duration: 38
 ---
 # Using Bulk Import
 

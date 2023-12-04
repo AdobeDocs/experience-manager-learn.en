@@ -2,12 +2,12 @@
 title: Determine Your Folder Structure and File Naming Convention
 description: File naming is perhaps the most important decision you'll make when implementing Dynamic Media Classic. Folder structure is likewise important. Learn why it is so important and possible approaches to take for your folder structure and file names.
 feature: Dynamic Media Classic
-activity: develop
 topic: Content Management
 role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: 15121896-9196-4ce0-aff2-9178563326b4
+duration: 330
 ---
 # Determine Your Folder Structure and File Naming Convention {#folder-structure-filenaming}
 

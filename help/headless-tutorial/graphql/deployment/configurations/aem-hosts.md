@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-10831
 thumbnail: KT-10831.jpg
 exl-id: a932147c-2245-4488-ba1a-99c58045ee2b
+duration: 714
 ---
 # Managing AEM hosts
 

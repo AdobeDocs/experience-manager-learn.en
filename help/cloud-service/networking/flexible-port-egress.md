@@ -1,6 +1,6 @@
 ---
 title: Flexible port egress
-description: Learn how to set up and use flexible port egress to support external connections from AEM as a Cloud Service to external services.
+description: Learn how to set up and use flexible port egress to support external connections from AEM as a Cloud Service to external services.
 version: Cloud Service
 feature: Security
 topic: Development, Security
@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-9350
 thumbnail: KT-9350.jpeg
 exl-id: 5c1ff98f-d1f6-42ac-a5d5-676a54ef683c
+duration: 946
 ---
 # Flexible port egress
 

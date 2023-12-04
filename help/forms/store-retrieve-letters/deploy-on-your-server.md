@@ -2,16 +2,14 @@
 title: Deploy the sample assets on your server
 description: Test the save as draft functionality for Interactive Communications
 feature: Interactive Communication
-topics: development
-audience: developer
 doc-type: article
-activity: implement
 version: 6.5
 topic: Development
 role: Developer
 level: Intermediate
 jira: KT-10208
 exl-id: 9053ee29-436a-439a-b592-c3fef9852ea4
+duration: 46
 ---
 # Deploy the sample assets on your server
 

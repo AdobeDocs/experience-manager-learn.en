@@ -9,6 +9,7 @@ topic: Development
 index: y
 doc-type: Tutorial
 exl-id: 0fd4d366-bb7a-4c43-887f-3a83cf60d15b
+duration: 165
 ---
 # Creating Video Profiles in AEM Dynamic Media
 

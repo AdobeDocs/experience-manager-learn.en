@@ -8,6 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 49613808-6369-4e43-bc26-fd3041265339
+duration: 312
 ---
 # Using Language Copy {#using-language-copy}
 

@@ -10,6 +10,7 @@ exl-id: 0be61f04-c3ed-4ecb-bab7-73fd308c14e0
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 last-substantial-update: 2020-03-20
+duration: 49
 ---
 # Integrate AEM Forms with Acrobat Sign
 

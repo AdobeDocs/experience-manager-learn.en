@@ -10,6 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: e71b106d-a44b-44af-ba85-7fb5806cdb83
+duration: 226
 ---
 # Authoring overview {#authoring-overview}
 
