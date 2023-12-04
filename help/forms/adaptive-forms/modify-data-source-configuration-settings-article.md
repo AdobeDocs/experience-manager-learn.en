@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 6c63787c-e511-4764-9a03-2c85c394bcc0
 last-substantial-update: 2019-06-09
+duration: 44
 ---
 # Ability to modify Data Source Configuration Settings{#ability-to-modify-data-source-configuration-settings}
 

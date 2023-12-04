@@ -9,6 +9,7 @@ feature: Forms Service, Output Service
 topic: Development
 index: y
 exl-id: 982ad9d4-845a-4542-91ac-6645c7d6bdc3
+duration: 147
 ---
 # How to capture collaterals to debug Fonts related issue with Forms and Output service conversions
 

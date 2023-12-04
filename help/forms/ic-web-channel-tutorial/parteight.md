@@ -1,20 +1,15 @@
 ---
 title: Configuring line chart for your first interactive communication document part 8
-seo-title: Configuring line chart for your first interactive communication document
 description: This is part 8 of multistep tutorial for creating your first interactive communications document. In this part, we will add a Line chart to the account progress panel.
-seo-description: This is part 8 of multistep tutorial for creating your first interactive communications document. In this part, we will add a Line chart to the account progress panel.
-uuid: 08c3e7af-e3cb-4ee0-bdc1-d112bfa70e40
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 discoiquuid: 4292303c-3ef4-4df2-b537-fdb011412670
 topic: Development
 role: Developer
 level: Beginner
 exl-id: ba9ce6a2-f6e8-4e84-a23a-f4803879f635
+duration: 55
 ---
 # Configuring line chart for your first interactive communication document
 

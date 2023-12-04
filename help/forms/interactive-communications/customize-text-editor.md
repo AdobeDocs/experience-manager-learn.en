@@ -1,10 +1,7 @@
 ---
 title: Customize text editor
-seo-title: Customize text editor
 description: Learn how to customize text editor.
-seo-description: Learn how to customize text editor.
 doc-type: article
-activity: implement
 version: 6.5
 topic: Development
 role: Developer
@@ -13,6 +10,7 @@ feature: Interactive Communication
 last-substantial-update: 2023-04-19
 jira: KT-13126
 exl-id: e551ac8d-0bfc-4c94-b773-02ff9bba202e
+duration: 193
 ---
 # Customize text editor{#customize-text-editor}
 

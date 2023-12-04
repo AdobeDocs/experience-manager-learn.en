@@ -7,6 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: f21753b2-f065-4556-add4-b1983fb57031
+duration: 36
 ---
 # Deploy the sample assets
 

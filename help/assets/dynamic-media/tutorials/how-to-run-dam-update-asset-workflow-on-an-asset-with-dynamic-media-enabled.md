@@ -9,6 +9,7 @@ topic: Development
 index: y
 doc-type: Tutorial
 exl-id: 4e55d3fe-68fd-4d41-a4b1-e73290e0934b
+duration: 71
 ---
 # Processing assets for AEM Dynamic Media
 

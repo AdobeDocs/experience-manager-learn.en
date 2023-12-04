@@ -10,6 +10,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 31416399-6a4e-47d1-8ed8-be842a01a727
+duration: 570
 ---
 # Integrate the SPA {#developer-workflow}
 

@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14483
 thumbnail: 3425717.jpeg
+duration: 196
 ---
 
 # Set up a local development environment

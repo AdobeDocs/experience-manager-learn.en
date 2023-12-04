@@ -8,6 +8,7 @@ role: User
 level: Beginner
 exl-id: 6518aacb-97bf-4038-ab3c-1dbc2277eb9e
 last-substantial-update: 2019-02-20
+duration: 490
 ---
 # Theme Editor Improvements in AEM Forms{#theme-editor-improvements-in-aem-forms}
 

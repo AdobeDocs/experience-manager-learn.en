@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-8661
 thumbnail: 336692.jpeg
 exl-id: c9504888-f3df-4004-bab7-89f5903685e2
+duration: 487
 ---
 # Content Transfer Tool
 

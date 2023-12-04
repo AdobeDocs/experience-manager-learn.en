@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14487
 thumbnail: 3425720.jpeg
+duration: 103
 ---
 
 # Document workflows

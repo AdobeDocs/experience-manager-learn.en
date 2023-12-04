@@ -1,5 +1,5 @@
 ---
-doc-type: tutorial
+doc-type: Tutorial
 user-guide-title: AEM Tutorials
 sub-product: Experience Manager
 version: 6.4, 6.5, Cloud Service

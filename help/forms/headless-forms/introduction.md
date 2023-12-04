@@ -8,6 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: 7b457ce8-f11a-4e2b-8548-6ac3910cb61e
+duration: 40
 ---
 # Embedding Headless Adaptive Form
 

@@ -10,6 +10,7 @@ topic: Integrations
 thumbnail: 335385.jpg
 jira: KT-8229
 exl-id: 3bb4edb9-1b3c-4d9d-a133-16fb2b72f8a5
+duration: 548
 ---
 # Create Azure storage backed Form Data Model
 

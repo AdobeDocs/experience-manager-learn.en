@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2023-10-23
 jira: KT-14238
-
+duration: 108
 ---
 # Fetch data from Azure storage
 

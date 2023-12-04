@@ -11,6 +11,7 @@ thumbnail: 335733.jpeg
 last-substantial-update: 2022-10-04
 doc-type: Feature Video
 exl-id: 394fc981-9593-492d-9961-b81a627730b1
+duration: 646
 ---
 # Managing Assets Essentials
 

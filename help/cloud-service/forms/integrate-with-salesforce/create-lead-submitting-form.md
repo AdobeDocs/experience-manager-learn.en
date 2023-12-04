@@ -11,6 +11,7 @@ topic: Development
 jira: KT-7151
 thumbnail: 331758.jpg
 exl-id: fa00822f-075a-47df-941f-c7370bd1d4f4
+duration: 19
 ---
 # Test lead generation from form submission 
 

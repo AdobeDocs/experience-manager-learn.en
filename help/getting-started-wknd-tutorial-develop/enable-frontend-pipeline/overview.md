@@ -14,6 +14,7 @@ thumbnail: 53409343.jpg
 last-substantial-update: 2022-09-23
 doc-type: Tutorial
 exl-id: b795e7e8-f611-4fc3-9846-1d3f1a28ccbc
+duration: 234
 ---
 # Enable front-end pipeline for standard AEM project Archetype{#enable-front-end-pipeline-standard-aem-project}
 

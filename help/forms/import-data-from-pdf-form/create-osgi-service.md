@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 jira: KT-14196
 exl-id: c3032669-154c-4565-af6e-32d94e975e37
+duration: 84
 ---
 # Export Data
 

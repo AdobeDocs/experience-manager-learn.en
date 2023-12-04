@@ -10,6 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: bf4427f7-1b7b-4e60-90a8-ab428dc65251
+duration: 355
 ---
 # Tagging pages {#using-page-tagging-with-aem-sites}
 

@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Integrationa
 thumbnail: 335800.jpg
 jira: KT-8481
+duration: 61
 ---
 # Test your understanding
 

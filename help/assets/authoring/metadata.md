@@ -11,6 +11,7 @@ topic: Content Management
 last-substantial-update: 2021-09-25
 doc-type: Feature Video
 exl-id: 67898b75-6307-4933-ad93-e6db2e220fd6
+duration: 180
 ---
 # Metadata
 

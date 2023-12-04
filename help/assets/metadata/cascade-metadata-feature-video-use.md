@@ -1,7 +1,7 @@
 ---
 title: Using Cascading Metadata in AEM Assets
 description: Advanced metadata management allows users to create cascading field rules to form contextual relationships between metadata in AEM Assets. The video below demonstrates new dynamic rules for field requirement, visibility, and contextual choices. The video also details the steps needed for an administrator to apply these rules to a custom metadata schema.
-version:  6.4, 6.5, Cloud Service
+version: 6.4, 6.5, Cloud Service
 topic: Content Management
 feature: Metadata
 role: User
@@ -11,6 +11,7 @@ thumbnail: 20702.jpg
 last-substantial-update: 2022-06-08
 doc-type: Feature Video
 exl-id: 73e793e0-a20e-4954-ba1a-471b2cd85120
+duration: 361
 ---
 # Using Cascading Metadata in AEM Assets{#using-cascading-metadata-in-aem-assets}
 

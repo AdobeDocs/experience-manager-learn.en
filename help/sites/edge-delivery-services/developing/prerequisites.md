@@ -1,5 +1,5 @@
 ---
-title: Edge Delivery Services developer prerequisites 
+title: Edge Delivery Services developer prerequisites
 description: This video describes all the pieces a developer will need to begin developing for Edge Delivery Services.
 version: 6.5, Cloud Service
 feature: Edge Delivery Services
@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14475, KT-14476
 thumbnail: 3425709.jpeg
+duration: 199
 ---
 
 # Edge Delivery Services developer prerequisites 

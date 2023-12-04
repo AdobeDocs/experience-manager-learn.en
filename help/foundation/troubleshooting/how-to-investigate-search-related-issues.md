@@ -4,12 +4,13 @@ description: Steps to investigate issues related to search
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version:  6.5, Cloud Service
+version: 6.5, Cloud Service
 feature: Search, Developer Tools
 topic: Administration
 index: y
 doc-type: Technical Video
 exl-id: 66571dbe-e5bb-4ced-87a5-33ddc160a69a
+duration: 137
 ---
 # How to investigate search related issues in AEM
 

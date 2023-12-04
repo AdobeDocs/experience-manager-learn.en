@@ -9,6 +9,7 @@ feature: Adaptive Forms, Integrations
 topic: Development
 jira: KT-9839
 exl-id: ec4ed3e1-98ae-41ce-9891-09da3321edd5
+duration: 420
 ---
 # Create and configure Dynamics account
 

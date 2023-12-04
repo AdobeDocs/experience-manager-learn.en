@@ -10,6 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-11-15
 jira: KT-14470
 thumbnail: 3425704.jpeg
+duration: 109
 ---
 
 # Redirects

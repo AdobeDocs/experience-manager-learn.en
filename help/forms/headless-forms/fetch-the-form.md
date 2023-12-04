@@ -8,6 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: ee534724-54ea-48e1-8c92-de1c56a928d4
+duration: 80
 ---
 # Fetch the JSON of the Form
 

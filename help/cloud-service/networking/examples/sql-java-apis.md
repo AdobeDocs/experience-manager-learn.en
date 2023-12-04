@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-9356
 thumbnail: KT-9356.jpeg
 exl-id: ec9d37cb-70b6-4414-a92b-3b84b3f458ab
+duration: 196
 ---
 # SQL connections using Java™ APIs
 

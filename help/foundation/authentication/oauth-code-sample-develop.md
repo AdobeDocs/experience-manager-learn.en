@@ -8,6 +8,7 @@ role: Developer
 level: Experienced
 doc-type: Article
 exl-id: dd37355e-cfc7-4581-ac22-d89c951c22cf
+duration: 43
 ---
 # Developing OAuth Scopes
 

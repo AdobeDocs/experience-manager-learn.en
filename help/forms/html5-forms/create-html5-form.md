@@ -2,10 +2,7 @@
 title: Create HTML5 Forms
 description: Create and configure HTML5 forms
 feature: Mobile Forms
-topics: development
-audience: developer
 doc-type: article
-activity: implement
 version: 6.5
 jira: KT-4419
 thumbnail: kt-4419.jpg
@@ -14,6 +11,7 @@ role: User
 level: Beginner
 exl-id: 67a01c41-d284-4518-adb5-21702e22ccfa
 last-substantial-update: 2019-07-07
+duration: 133
 ---
 # Create HTML5 forms
 

@@ -10,6 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: 44540dee-909b-4140-b007-402ef9af58c4
+duration: 320
 ---
 # Create a Live Copy {#create-livecopy}
 

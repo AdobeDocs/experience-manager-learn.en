@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 2f15782e-b60d-40c6-b95b-6c7aa8290691
 last-substantial-update: 2021-04-23
+duration: 126
 ---
 # OSGi Service
 

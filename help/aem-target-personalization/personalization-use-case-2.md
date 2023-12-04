@@ -1,8 +1,6 @@
 ---
 title: Personalization using Adobe Target
-seo-title: Personalization using Adobe Target
 description: An end-to-end tutorial showing how to create and deliver personalized experience using Adobe Target.
-seo-description: An end-to-end tutorial showing how to create and deliver personalized experience using Adobe Target.
 feature: Experience Fragments
 topic: Personalization
 role: Developer
@@ -11,6 +9,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: 53cafd06-3a0a-4995-947d-179146b89234
+duration: 165
 ---
 # Personalization of Full Web Page Experiences using Adobe Target
 

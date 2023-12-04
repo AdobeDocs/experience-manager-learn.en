@@ -10,6 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-11-15
 jira: KT-14468
 thumbnail: 3425702.jpeg
+duration: 130
 ---
 
 # Blocks and autoblocks

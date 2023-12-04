@@ -11,6 +11,7 @@ thumbnail: 335746.jpeg
 last-substantial-update: 2022-10-06
 doc-type: Feature Video
 exl-id: 18e600b6-bc4f-4045-a932-ed72d4ed3ef3
+duration: 446
 ---
 # Creating content using Assets Essentials
 

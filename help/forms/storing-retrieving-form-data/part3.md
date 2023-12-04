@@ -8,6 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 9cce47e7-07b4-43c3-8746-197620855c3f
+duration: 135
 ---
 # Create OSGi Service to fetch data
 

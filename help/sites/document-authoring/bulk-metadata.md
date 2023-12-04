@@ -10,6 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-11-15
 jira: KT-14471
 thumbnail: 3425705.jpeg
+duration: 107
 ---
 
 # Bulk metadata

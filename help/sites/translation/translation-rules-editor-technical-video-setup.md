@@ -8,6 +8,7 @@ role: User
 level: Beginner
 doc-type: Technical Video
 exl-id: 359da531-839c-4680-abf9-c880cc700159
+duration: 566
 ---
 # Setup Translation Rules {#set-up-translation-rules-in-aem}
 

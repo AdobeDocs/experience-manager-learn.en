@@ -12,6 +12,7 @@ index: no
 hide: yes
 hidefromtoc: yes
 exl-id: c238dd83-65d3-4b04-b90e-19ed250b8e36
+duration: 42
 ---
 # Filtering Angular app
 

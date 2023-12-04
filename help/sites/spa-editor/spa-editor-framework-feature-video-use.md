@@ -1,7 +1,7 @@
 ---
 title: Using the SPA Editor with AEM Sites
 description: AEM's Single Page Application editor framework provides authors the ability to edit content for a Single Page Application or SPA. Developers using either React frameworks create a SPA and then map areas of the SPA to AEM components, allowing authors to use familiar AEM Sites editing tools.
-version:  6.4, 6.5, Cloud Service
+version: 6.4, 6.5, Cloud Service
 topic: SPA
 feature: SPA Editor
 role: Developer
@@ -10,6 +10,7 @@ jira: KT-1047
 thumbnail: 22229.jpg
 doc-type: Feature Video
 exl-id: 645b6986-830f-4409-b46c-ddf15c33e84c
+duration: 492
 ---
 # Using the SPA Editor with AEM Sites {#using-the-spa-editor-with-aem-sites}
 

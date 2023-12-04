@@ -10,6 +10,7 @@ jira: KT-10587
 thumbnail: KT-10587.jpg
 mini-toc-levels: 2
 exl-id: 3fe175f7-6213-439a-a02c-af3f82b6e3b7
+duration: 224
 ---
 # AEM Headless SPA deployments
 

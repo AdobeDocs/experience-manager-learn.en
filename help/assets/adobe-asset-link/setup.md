@@ -10,6 +10,7 @@ jira: KT-9401
 thumbnail: 338824.jpg
 doc-type: Feature Video
 exl-id: a62e936f-c231-474d-9671-58815b2cb652
+duration: 2440
 ---
 # Adobe Asset Link setup
 

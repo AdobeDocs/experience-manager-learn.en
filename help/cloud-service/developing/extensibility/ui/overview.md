@@ -7,9 +7,9 @@ topic: Development
 role: Developer
 level: Beginner
 recommendations: noDisplay
-thumbnail: null
 last-substantial-update: 2023-06-02
 exl-id: 73f5d90d-e007-41a0-9bb3-b8f36a9b1547
+duration: 72
 ---
 # AEM UI extensibility
 

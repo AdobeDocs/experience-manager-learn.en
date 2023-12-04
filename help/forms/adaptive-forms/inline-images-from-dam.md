@@ -2,7 +2,6 @@
 title: Displaying DAM images inline in Adaptive Forms
 description: Display DAM images inline in Adaptive Forms
 feature: Adaptive Forms
-topics: development
 version: 6.4,6.5
 topic: Development
 role: Developer
@@ -11,6 +10,7 @@ last-substantial-update: 2022-10-20
 thumbnail: inline-dam.jpg
 kt: kt-11307
 exl-id: 339eb16e-8ad8-4b98-939c-b4b5fd04d67e
+duration: 92
 ---
 # Display DAM image in Adaptive Forms
 

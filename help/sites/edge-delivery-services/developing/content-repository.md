@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14477, KT-14478
 thumbnail: 3425712.jpeg
+duration: 423
 ---
 
 # Content repository

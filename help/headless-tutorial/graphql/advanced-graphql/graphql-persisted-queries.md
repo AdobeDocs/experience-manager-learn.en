@@ -7,6 +7,7 @@ topic: Headless, Content Management
 role: Developer
 level: Intermediate
 exl-id: 6a8e90ae-0765-4066-9df4-a3e4d2cda285
+duration: 253
 ---
 # Persisted GraphQL queries
 

@@ -7,9 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 jira: KT-6630
-thumbnail : 329331.jpg
+thumbnail: 329331.jpg
 doc-type: Feature Video
 exl-id: 12fa3622-428a-40c1-b47f-fa55c2858896
+duration: 27
 ---
 # Using Dynamic Media with AEM Sites Core Components {#dynamic-media-sites-core-components}
 

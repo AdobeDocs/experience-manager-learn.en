@@ -8,6 +8,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: de3a0444-64ae-45a1-8329-aafa6f5add49
+duration: 241
 ---
 # Creating Adaptive Form {#creating-adaptive-form}  
 

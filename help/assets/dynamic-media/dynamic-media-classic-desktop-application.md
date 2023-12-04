@@ -10,6 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 1600c0c0-0054-49ce-9b99-f8e6e29d6132
+duration: 208
 ---
 # Using Dynamic Media Classic Desktop Application{#using-dynamic-media-desktop-application}
 

@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 8c90fe1c-0c83-4287-9766-08d806b8815a
 last-substantial-update: 2020-02-10
+duration: 59
 ---
 # Getting Started With Adaptive Forms {#getting-started-with-adaptive-forms}
 

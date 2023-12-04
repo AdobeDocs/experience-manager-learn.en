@@ -11,6 +11,7 @@ topic: Content Management
 last-substantial-update: 2021-09-26
 doc-type: Feature Video
 exl-id: 1df0ffd7-fe22-4eef-9428-b228ed0dcf31
+duration: 104
 ---
 # Renditions
 

@@ -9,6 +9,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 49e7bd65-33fb-44d4-aaa2-50832dffffb0
+duration: 224
 ---
 # Create OSGi service
 

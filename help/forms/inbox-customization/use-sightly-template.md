@@ -2,16 +2,14 @@
 title: Using sightly template to display inbox data
 description: Add custom columns to display additional data of workflow using sightly template
 feature: Adaptive Forms
-topics: development
-audience: developer
 doc-type: article
-activity: implement
 version: 6.5
 jira: KT-5830
 topic: Development
 role: Developer
 level: Experienced
 exl-id: d09b46ed-3516-44cf-a616-4cb6e9dfdf41
+duration: 103
 ---
 # Using sightly template to display inbox data
 

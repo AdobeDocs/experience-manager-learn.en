@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 exl-id: ba5a250d-b2ee-4d1b-807c-e144b805c61a
 last-substantial-update: 2021-02-09
+duration: 247
 ---
 # Set up Data Integration with AEM Forms {#set-up-data-integration-with-aem-forms}
 

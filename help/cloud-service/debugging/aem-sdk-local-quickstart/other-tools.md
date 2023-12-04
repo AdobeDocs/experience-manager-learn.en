@@ -2,16 +2,14 @@
 title: Other tools for debugging AEM SDK
 description: A variety of other tools can aid in debugging the AEM SDK's local quickstart.
 feature: Developer Tools
-topics: development
 version: Cloud Service
-doc-type: tutorial
-activity: develop
-audience: developer
+doc-type: Tutorial
 jira: KT-5251
 topic: Development
 role: Developer
 level: Beginner, Intermediate
 exl-id: 11fb83e9-dbaf-46e5-8102-ae8cc716c6ba
+duration: 148
 ---
 # Other tools for debugging AEM SDK
 

@@ -1,9 +1,6 @@
 ---
 title: Site Hierarchy, Taxonomy, and Tagging Guide
-seo-title: AEM Sites Site Hierarchy, Taxonomy, and Tagging Guide
 description: A full overview of AEM Sites metadata, tagging, taxonomy, and hierarchy. Use this guide to ensure your content strategy is consistent and following best practices
-seo-description: A full overview of AEM Sites metadata, tagging, taxonomy, and hierarchy. Use this guide to ensure your content strategy is consistent and following best practices
-audience: author, marketer
 topic: Content Management
 feature: Learn From Your Peers
 role: Admin, User
@@ -11,6 +8,7 @@ jira: KT-14254
 level: Beginner, Intermediate
 doc-type: Article
 exl-id: c88c3ec7-9060-43e2-a6a2-d47bba6f7cf3
+duration: 549
 ---
 # Tags, Taxonomy, and Metadata Best Practices: High-level Summary
 

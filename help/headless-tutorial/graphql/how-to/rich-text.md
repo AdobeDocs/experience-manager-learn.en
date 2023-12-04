@@ -9,6 +9,7 @@ topic: Headless, Content Management
 level: Intermediate
 role: Developer
 exl-id: 790a33a9-b4f4-4568-8dfe-7e473a5b68b6
+duration: 952
 ---
 # Rich text with AEM Headless
 

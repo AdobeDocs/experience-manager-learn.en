@@ -2,15 +2,14 @@
 title: Review form data before submitting
 description: Tutorial for creating summary component for reviewing form data before submission.
 feature: Adaptive Forms
-topics: development
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
 last-substantial-update: 2023-01-22
 exl-id: fa971850-0e89-4f74-a747-ec99051be2f1
+duration: 31
 ---
 # Review form data before submission
 

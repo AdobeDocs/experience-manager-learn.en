@@ -8,6 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: fd7ad4df-4c27-42f2-889f-03e170bac319
+duration: 85
 ---
 # Steps to enable debug logging for any classes in Websphere Application server
 

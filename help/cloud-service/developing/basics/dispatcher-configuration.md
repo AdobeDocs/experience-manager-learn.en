@@ -9,6 +9,7 @@ feature: Dispatcher
 jira: KT-6931
 thumbnail: 330556.jpg
 exl-id: f0d74326-f8ba-431f-8b66-494e20b9e710
+duration: 20
 ---
 # Migrate the Dispatcher configuration from AMS
 

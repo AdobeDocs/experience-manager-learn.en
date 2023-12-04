@@ -9,6 +9,7 @@ jira: KT-5000
 thumbnail: 39156.jpg
 last-substantial-update: 2023-05-19
 exl-id: 089a557c-5155-489c-bccf-0cb97e95840c
+duration: 327
 ---
 # Adobe IMS product profiles {#adobe-ims-product-profiles}
 

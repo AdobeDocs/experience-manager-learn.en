@@ -12,6 +12,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: f581a4fb-1182-44bb-8c46-4250cf37b55f
+duration: 277
 ---
 # Create Adobe Target Activity using Experience Fragment Offers {#target-activity-experience-fragment}
 

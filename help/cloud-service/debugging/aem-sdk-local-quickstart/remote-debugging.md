@@ -8,6 +8,7 @@ role: Developer
 level: Beginner, Intermediate
 thumbnail: 34338.jpeg
 exl-id: beac60c6-11ae-4d0c-a055-cd3d05aeb126
+duration: 452
 ---
 # Remote debugging the AEM SDK
 

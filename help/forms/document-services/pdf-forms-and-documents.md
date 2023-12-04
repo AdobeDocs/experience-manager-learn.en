@@ -9,6 +9,7 @@ feature: PDF Generator
 jira: KT-7071
 topic: Development
 last-substantial-update: 2020-07-07
+duration: 347
 ---
 # PDF
 

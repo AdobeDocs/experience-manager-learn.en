@@ -11,6 +11,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: dd6c17ae-8e08-4db3-95f9-081cc7dbd86e
+duration: 331
 ---
 # Create Adobe Target Cloud Service account {#adobe-target-cloud-service}
 

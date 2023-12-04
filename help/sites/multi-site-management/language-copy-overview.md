@@ -1,8 +1,6 @@
 ---
 title: Introduction to Language Copy
-seo-title: Introduction to Language Copy
 description: Get an overview of how to create a multilingual site using Language Copy in AEM Sites
-seo-description: Get an overview of how to create a multilingual site using Language Copy in AEM Sites
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
 version: 6.4, 6.5, Cloud Service
@@ -12,6 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: 9085d60e-0e88-46ab-8f1f-4999063e48d2
+duration: 602
 ---
 # Introduction to Language Copy {#introduction-language-copy}
 

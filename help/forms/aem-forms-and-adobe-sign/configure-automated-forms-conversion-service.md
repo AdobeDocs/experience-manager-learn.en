@@ -10,6 +10,7 @@ level: Beginner
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 0715a2cc-c042-4ddc-85a1-7720f420351b
+duration: 592
 ---
 # Automated Forms Conversion Service
 

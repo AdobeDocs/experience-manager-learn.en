@@ -10,6 +10,7 @@ topic: Development
 thumbnail: 7837.jpg
 jira: KT-7837
 exl-id: 24a788bb-f0dc-4774-91ab-26fde2de098f
+duration: 94
 ---
 # Custom Process Step
 

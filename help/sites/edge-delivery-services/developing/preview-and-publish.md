@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14480
 thumbnail: 3425714.jpeg
+duration: 146
 ---
 
 # Preview and publish content

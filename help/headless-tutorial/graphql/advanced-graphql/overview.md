@@ -7,6 +7,7 @@ topic: Headless, Content Management
 role: Developer
 level: Intermediate
 exl-id: daae6145-5267-4958-9abe-f6b7f469f803
+duration: 508
 ---
 # Advanced Concepts of AEM Headless
 

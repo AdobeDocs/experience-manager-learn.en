@@ -10,6 +10,7 @@ level: Beginner
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: fba18118-0431-4edd-a5a6-0281e8c12979
+duration: 817
 ---
 # Configure converted Adaptive Form
 

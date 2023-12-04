@@ -11,6 +11,7 @@ level: Beginner
 last-substantial-update: 2022-06-14
 doc-type: Feature Video
 exl-id: b69508c9-4be3-43c9-9d54-84ac0a2b4b6b
+duration: 19
 ---
 # Publish 
 

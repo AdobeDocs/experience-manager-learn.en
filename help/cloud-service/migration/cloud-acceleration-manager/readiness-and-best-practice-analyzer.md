@@ -1,6 +1,6 @@
 ---
 title: Readiness and Best Practice Analyzer
-description: Learn how the Best Practice Analyzer can help ready your application to be moved to Experience Manager as a Cloud Service
+description: Learn how the Best Practice Analyzer can help ready your application to be moved to Experience Manager as a Cloud Service
 version: Cloud Service
 feature: Migration
 topic: Migration, Upgrade
@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-8659
 thumbnail: 336690.jpeg
 exl-id: b8905917-c385-4a79-99df-9a0fad98dc87
+duration: 243
 ---
 # Readiness and Best Practice Analyzer
 

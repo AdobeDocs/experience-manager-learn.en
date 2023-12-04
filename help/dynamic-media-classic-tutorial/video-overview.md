@@ -7,6 +7,7 @@ role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: dfbf316f-3922-4bc7-b3f3-2a5bbdeb7063
+duration: 1587
 ---
 # Video Overview {#video-overview}
 

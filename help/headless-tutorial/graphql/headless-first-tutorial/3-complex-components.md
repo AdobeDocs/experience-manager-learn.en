@@ -11,6 +11,7 @@ last-substantial-update: 2023-05-16
 jira: KT-13270
 thumbnail: KT-13270.jpeg
 exl-id: ad06b0f3-afa7-4661-aa66-0674d2e6bb43
+duration: 1162
 ---
 # Build complex component
 

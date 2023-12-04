@@ -9,6 +9,7 @@ level: Beginner
 thumbnail: xx.jpg
 doc-type: Article
 exl-id: 69b4e469-52cc-441b-b6e5-2fe7ef18da90
+duration: 355
 ---
 # AMS Dispatcher Health Check
 

@@ -9,6 +9,7 @@ level: Experienced
 jira: KT-8627
 thumbnail: 336957.jpeg
 exl-id: f8289dd4-b293-4b8f-b14d-daec091728c0
+duration: 717
 ---
 # Best Practices Analyzer and Cloud Acceleration Manager
 

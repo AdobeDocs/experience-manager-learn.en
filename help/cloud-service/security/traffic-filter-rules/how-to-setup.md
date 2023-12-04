@@ -11,6 +11,7 @@ last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
 exl-id: b67bf642-3341-48d0-8ea9-5f262febf414
+duration: 344
 ---
 # How to set up Traffic Filter rules including WAF rules
 

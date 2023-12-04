@@ -8,6 +8,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2022-12-14
 exl-id: 07a1a9fc-7224-4e2d-8b6d-d935b1125653
+duration: 45
 ---
 # Deploy and test the sample assets
 

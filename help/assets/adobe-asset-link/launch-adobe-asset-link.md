@@ -4,13 +4,14 @@ description: Adobe Asset Link strengthens collaboration between creatives and ma
 sub-product: Experience Manager Assets
 feature: Adobe Asset Link
 version: Cloud Service
-kt : 4904
+kt: 4904
 thumbnail: 33733.jpg
 topic: Content Management
 role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 261135af-4d26-4b07-8ec9-6e9875a158ba
+duration: 232
 ---
 # Access Adobe Asset Link {#access-adobe-asset-link}
 

@@ -1,13 +1,8 @@
 ---
 title: Display submission id  on form submission
-seo-title: Display submission id on form submission
 description: Display the response of an form data model submission in thank you page
-seo-description: Display the response of an form data model submission in thank you page
 feature: Adaptive Forms
-topics: developing
-audience: implementer
 doc-type: article
-activity: setup
 version: 6.4,6.5
 topic: Development
 role: Developer
@@ -15,6 +10,7 @@ level: Beginner
 jira: KT-13900
 last-substantial-update: 2023-09-09
 exl-id: 18648914-91cc-470d-8f27-30b750eb2f32
+duration: 98
 ---
 # Customize thank you page
 

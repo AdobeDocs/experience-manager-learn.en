@@ -9,6 +9,7 @@ feature: PDF Generator
 topic: Administration
 index: y
 exl-id: 397f5580-d982-46f3-b63a-7fc6def07ec5
+duration: 140
 ---
 # How to update CORBA timeout in PDFG to mitigate transaction rollback issues
 

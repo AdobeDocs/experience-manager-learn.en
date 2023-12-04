@@ -8,6 +8,7 @@ role: Developer
 level: Intermediate
 exl-id: d268d5d6-f24f-4db9-b8e0-07dd769c6005
 last-substantial-update: 2020-07-07
+duration: 164
 ---
 # Developing with Output and Forms Services in AEM Forms{#developing-with-output-and-forms-services-in-aem-forms}
 

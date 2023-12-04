@@ -4,12 +4,13 @@ description: Steps to investigate issues related to performance
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version:  6.5, Cloud Service
+version: 6.5, Cloud Service
 feature: Developer Tools
 topic: Administration
 index: y
 doc-type: Technical Video
 exl-id: 6cb60f32-d366-4677-8745-9da7176b782f
+duration: 116
 ---
 # How to troubleshoot performance related issues in AEM
 

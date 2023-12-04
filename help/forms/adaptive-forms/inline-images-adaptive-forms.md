@@ -2,13 +2,13 @@
 title: Displaying inline images in Adaptive Forms
 description: Display uploaded images inline in Adaptive Forms
 feature: Adaptive Forms
-topics: development
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
 exl-id: 4a69513d-992c-435a-a520-feb9085820e7
 last-substantial-update: 2020-06-09
+duration: 87
 ---
 # Inline images in Adaptive Forms
 

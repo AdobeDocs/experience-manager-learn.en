@@ -8,6 +8,7 @@ role: User
 level: Beginner
 exl-id: 86ef4a13-5540-40c6-8d91-2e8b64341f5b
 last-substantial-update: 2019-06-09
+duration: 273
 ---
 # Restricting the Rule Editor to specific groups in AEM Forms {#restricting-the-rule-editor-to-specific-groups-in-aem-forms}
 

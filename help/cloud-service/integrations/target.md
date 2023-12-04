@@ -13,6 +13,7 @@ thumbnail: KT-12433.jpeg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
 exl-id: be886c64-9b8e-498d-983c-75f32c34be4b
+duration: 1721
 ---
 # Integrate AEM Headless and Target
 

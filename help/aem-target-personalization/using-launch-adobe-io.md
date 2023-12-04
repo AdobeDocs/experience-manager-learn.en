@@ -9,6 +9,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: b1d7ce04-0127-4539-a5e1-802d7b9427dd
+duration: 748
 ---
 # Using Adobe Experience Platform Launch via Adobe Developer Console
 

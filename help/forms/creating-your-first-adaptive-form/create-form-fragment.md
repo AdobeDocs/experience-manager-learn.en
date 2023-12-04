@@ -8,6 +8,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 86a67f43-882f-4e97-b528-17492689fcfc
+duration: 247
 ---
 # Creating Form Fragment
 

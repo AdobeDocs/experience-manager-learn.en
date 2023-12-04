@@ -13,6 +13,7 @@ hide: yes
 recommendations: noCatalog, noDisplay
 hidefromtoc: yes
 exl-id: 2e5bd50e-c0d7-4292-8097-e0a17f41a91a
+duration: 37
 ---
 # Filtering SvelteKit app
 

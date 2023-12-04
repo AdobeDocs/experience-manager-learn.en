@@ -1,20 +1,15 @@
 ---
 title: Setting up the delivery of web channel document
-seo-title: Setting up the delivery of web channel document
 description: This is the final part of a multistep tutorial for creating your first interactive communications document. In this part, we look at the delivery of web channel document via email.
-seo-description: This is the final part of a multistep tutorial for creating your first interactive communications document. In this part, we look at the delivery of web channel document via email.
-uuid: c1066600-1abd-4401-b04f-b93c28603cc7
 feature: Interactive Communication
-topics: development
-audience: developer
-doc-type: tutorial
-activity: implement
+doc-type: Tutorial
 version: 6.4,6.5
 discoiquuid: 1a7cf095-c5d8-4d92-a018-883cda76fe70
 topic: Development
 role: Developer
 level: Beginner
 exl-id: 510d1782-59b9-41a6-a071-a16170f2cd06
+duration: 97
 ---
 # Setting up the delivery of web channel document {#setting-up-the-delivery-of-web-channel-document}
 

@@ -10,6 +10,7 @@ thumbnail: 41195.jpg
 last-substantial-update: 2021-01-11
 doc-type: Tutorial
 exl-id: 066693b7-2b87-45e8-93ec-8bd09a7c263e
+duration: 848
 ---
 # Using the Adobe Client Data Layer with AEM Core Components {#overview}
 

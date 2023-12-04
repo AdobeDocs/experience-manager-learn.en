@@ -11,6 +11,7 @@ thumbnai: 335861.jpeg
 last-substantial-update: 2022-10-05
 doc-type: Feature Video
 exl-id: 83bf8d76-2e36-45d4-bfff-03758e5f7bdc
+duration: 433
 ---
 # Using Assets Essentials
 

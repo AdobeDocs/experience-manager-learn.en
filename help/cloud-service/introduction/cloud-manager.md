@@ -9,6 +9,7 @@ jira: KT-6922
 thumbnail: 330545.jpg
 last-substantial-update: 2022-01-01
 exl-id: 072f8b81-54b8-4980-9758-b8cd7ceebd6b
+duration: 17
 ---
 # Cloud Manager and AEM as a Cloud Service
 

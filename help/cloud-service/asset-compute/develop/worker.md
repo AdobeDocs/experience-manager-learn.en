@@ -2,17 +2,15 @@
 title: Develop an Asset Compute worker
 description: Asset Compute workers are the core of an Asset Compute projects as provide custom functionality that performs, or orchestrates, the work performed on an asset to create a new rendition.
 feature: Asset Compute Microservices
-topics: renditions, development
 version: Cloud Service
-activity: develop
-audience: developer
-doc-type: tutorial
+doc-type: Tutorial
 jira: KT-6282
 thumbnail: KT-6282.jpg
 topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: 7d51ec77-c785-4b89-b717-ff9060d8bda7
+duration: 652
 ---
 # Develop an Asset Compute worker
 

@@ -2,17 +2,15 @@
 title: Debugging AEM with Repository Browser
 description: Repository Browser is a powerful tool that provides visibility into AEM's underlying data store, allowing for easy debugging of AEM as a Cloud Service environment.
 feature: Developer Tools
-topics: development
 version: Cloud Service
-doc-type: tutorial
-activity: develop
-audience: developer
+doc-type: Tutorial
 jira: KT-10004
 thumbnail: 341464.jpg
 topic: Development
 role: Developer
 level: Beginner
 exl-id: 88af40fc-deff-4b92-84b1-88df2dbdd90b
+duration: 328
 ---
 # Debugging AEM as a Cloud Service with Repository Browser
 

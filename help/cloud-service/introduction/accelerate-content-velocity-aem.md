@@ -3,6 +3,7 @@ title: Accelerate content velocity with AEM style systems
 description: Learn how to use AEM Style Systems to empower designers, content authors, and developers in your organization to create and deliver experiences at the speed and scale that your customers expect.
 solution: Experience Manager
 exl-id: 449cd133-6ab6-456e-a0ad-30e3dea9b75b
+duration: 230
 ---
 # Accelerate content velocity with AEM style systems
 

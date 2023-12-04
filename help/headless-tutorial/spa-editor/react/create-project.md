@@ -10,6 +10,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 57c8fc16-fed5-4af4-b98b-5c3f0350b240
+duration: 344
 ---
 # Create Project {#spa-editor-project}
 

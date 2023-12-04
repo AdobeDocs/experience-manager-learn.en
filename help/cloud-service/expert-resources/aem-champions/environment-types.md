@@ -10,6 +10,7 @@ doc-type: Value Video
 last-substantial-update: 2023-05-11
 jira: KT-13229
 exl-id: 66159aac-a5ca-47fb-b374-f0fe5f8e1198
+duration: 319
 ---
 # AEM Champion Tips and Tricks - Cloud Manager Environment Types
 

@@ -1,14 +1,13 @@
 ---
 title: Chapter 1 - Tutorial Set up and Downloads - Content Services
-seo-title: Getting Started with AEM Content Services - Chapter 1 -  Tutorial Set up
 description: Chapter 1 of the AEM Headless tutorial the baseline setup for the AEM instance for the tutorial.
-seo-description: Chapter 1 of the AEM Headless tutorial the baseline setup for the AEM instance for the tutorial.
 feature: Content Fragments, APIs
 topic: Headless, Content Management
 role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: f24a75f6-9062-498c-b782-7d9011aa0bcf
+duration: 118
 ---
 # Tutorial Set up
 

@@ -4,10 +4,10 @@ description: Whether you're an admin, author, or developer, site maintenance tou
 role: Admin
 level: Beginner, Intermediate
 topic: Administration
-audience: author, marketer, developer
 feature: Learn From Your Peers
 jira: KT-14255
 exl-id: 37ee3234-f91c-4f0a-b0b7-b9167e7847a9
+duration: 266
 ---
 # Site Maintenance Tips and Tricks
 

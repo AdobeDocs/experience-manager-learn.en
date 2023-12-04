@@ -2,14 +2,14 @@
 title: Create a component to list the form data
 description: Tutorial for creating summary component for reviewing form data before submission.
 feature: Adaptive Forms
-topics: development
-doc-type: tutorial
+doc-type: Tutorial
 version: 6.4,6.5
 topic: Development
 role: Developer
 level: Experienced
 last-substantial-update: 2023-01-22
 exl-id: d537a80a-de61-4d43-bdef-f7d661c43dc8
+duration: 49
 ---
 # Create component to summrize the form data
 

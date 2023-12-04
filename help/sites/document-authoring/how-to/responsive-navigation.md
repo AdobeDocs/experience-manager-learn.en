@@ -10,6 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-11-15
 jira: KT-14473
 thumbnail: 3425707.jpeg
+duration: 101
 ---
 
 # Responsive navigation

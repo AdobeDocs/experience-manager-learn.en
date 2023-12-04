@@ -7,6 +7,7 @@ feature: Adaptive Forms, Workflow
 role: Developer
 level: Beginner
 exl-id: ecd43765-455c-4f8b-acf2-6ea34495c311
+duration: 253
 ---
 # Rule-Editor in AEM Workflow
 

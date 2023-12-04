@@ -4,12 +4,13 @@ description: Steps to investigate and resolves issues related to memory
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version:  6.5, Cloud Service
+version: 6.5, Cloud Service
 feature: Developer Tools
 topic: Administration
 index: y
 doc-type: Technical Video
 exl-id: 6477e9df-f33f-46b1-aa9b-535063da65dd
+duration: 119
 ---
 # Steps to resolve memory related issues in AEM
 

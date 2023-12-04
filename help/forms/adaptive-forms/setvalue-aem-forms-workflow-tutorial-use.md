@@ -7,6 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 3919efee-6998-48e8-85d7-91b6943d23f9
 last-substantial-update: 2020-01-09
+duration: 140
 ---
 # Using setvalue in AEM Forms workflow
 

@@ -10,6 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14484
 thumbnail: 3425718.jpeg
+duration: 158
 ---
 
 # Configure Git

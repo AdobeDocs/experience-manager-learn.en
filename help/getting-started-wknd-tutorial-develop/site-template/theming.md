@@ -11,6 +11,7 @@ thumbnail: KT-7498.jpg
 doc-type: Tutorial
 exl-id: 98946462-1536-45f9-94e2-9bc5d41902d4
 recommendations: noDisplay, noCatalog
+duration: 1311
 ---
 # Theming workflow {#theming}
 

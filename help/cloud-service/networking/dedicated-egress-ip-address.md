@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-9351
 thumbnail: KT-9351.jpeg
 exl-id: 311cd70f-60d5-4c1d-9dc0-4dcd51cad9c7
+duration: 961
 ---
 # Dedicated egress IP address
 

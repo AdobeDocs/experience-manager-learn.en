@@ -4,7 +4,6 @@ description: Using Acrobat Sign with AEM Forms
 feature: Acrobat Sign
 role: Admin
 level: Beginner
-uuid: cbccea0f-969c-445d-9390-a236bb1fd2c4
 product: Experience Manager
 topic-tags: forms, adaptive_forms
 topic: Integrations
@@ -14,6 +13,7 @@ index: y
 internal: n
 snippet: y
 last-substantial-update: 2020-10-20
+duration: 641
 ---
 
 # Using Acrobat Sign with AEM Forms{#using-adobe-sign-with-aem-forms}

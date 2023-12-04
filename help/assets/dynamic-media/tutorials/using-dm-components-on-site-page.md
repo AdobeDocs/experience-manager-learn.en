@@ -9,6 +9,7 @@ topic: Development
 index: y
 doc-type: Tutorial
 exl-id: b500261a-5b96-41b8-8270-fb6bde95d48a
+duration: 123
 ---
 # Using Dynamic Media Core Components
 
