@@ -28,7 +28,7 @@ Remote debugging of Java code running in AEM SDK's local quickstart allows for t
 
 ## OSGi web consoles
 
-The AEM SDK’s local quickstart has an OSGi web console that provides a variety of information and introspections into the local AEM runtime that are useful to understand how your application is recognized by, and functions within AEM.
+The AEM SDK's local quickstart has an OSGi web console that provides a variety of information and introspections into the local AEM runtime that are useful to understand how your application is recognized by, and functions within AEM.
 
 [Debugging the AEM SDK using the OSGi web console](./osgi-web-consoles.md)
 
