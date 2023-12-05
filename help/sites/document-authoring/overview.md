@@ -8,6 +8,7 @@ role: User
 level: Beginner
 jira: KT-14609
 doc-type: Catalog
+duration: 40
 last-substantial-update: 2023-12-01
 ---
 
