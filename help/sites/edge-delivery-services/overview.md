@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 doc-type: Catalog
-duration: 60
+duration: 30
 last-substantial-update: 2023-05-12
 ---
 # Edge Delivery Services videos
