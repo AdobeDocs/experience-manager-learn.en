@@ -12,6 +12,7 @@ version: 6.4, 6.5, Cloud Service
 
 + [Overview](overview.md)
 + Document Authoring {#document-authoring}
+  + [Overview](document-authoring/overview.md)
   + [Set up](document-authoring/set-up.md)
   + [Preview and publish](document-authoring/preview-and-publish.md)
   + [Document structure](document-authoring/document-structure.md)
@@ -60,6 +61,7 @@ version: 6.4, 6.5, Cloud Service
   + [Building Blocks](experience-fragments/building-blocks.md)
   + [Content Fragments vs. Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}
 + Edge Delivery Services{#edge-delivery-services}
+  + [Overview](./edge-delivery-services/overview.md)
   + Developing{#developing}
     + [Prerequisites](edge-delivery-services/developing/prerequisites.md)
     + [AEM boilerplate](edge-delivery-services/developing/aem-boilerplate.md)
