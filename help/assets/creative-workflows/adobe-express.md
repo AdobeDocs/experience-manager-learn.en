@@ -1,20 +1,22 @@
 ---
-title: Adobe Express integration
-description: Learn how to optimize content supply chains with AEM Assets and Adobe Express, enhancing productivity and accessibility for all team members.
+title: AEM Assets and Adobe Express
+description: Discover how to effortlessly create and edit content within AEM Assets using Adobe Express.
 version: Cloud Service
 feature: Integrations
-topic: Integrations, Content Management
-role: User
-level: Intermediate
-last-substantial-update: 2023-10-26
-jira: KT-14192
-thumbnail: 3425193.jpeg
+topic: Integrations, Content Management, Content Supply Chain
+role: Admin, User
+level: Beginner
 doc-type: Feature Video
-exl-id: 4da1b1ff-5472-4282-a998-ae344e7b8309
-duration: 610
+duration: 500
+last-substantial-update: 2023-12-06
+jira: KT-14645
+thumbnail: 3425972.jpeg
 ---
-# Adobe Express integration
 
-Learn how to optimize content supply chains with AEM Assets and [Adobe Express](https://www.adobe.com/express/), enhancing productivity and accessibility for all team members.
+# AEM Assets and Adobe Express
 
->[!VIDEO](https://video.tv.adobe.com/v/3425193/?learn=on)
+Discover how to effortlessly create and edit content within Adobe Experience Manager Assets using Adobe Express. This video guides you through enhancing content workflows, demonstrating both the editing of existing assets and the creation of new ones, all streamlined for efficiency and user-friendliness.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425972/?learn=on)
+
+Learn how to setup the [AEM Assets add-on for Adobe Express](./adobe-express-aem-assets-add-on.md) to seamlessly access AEM Assets from Adobe Express.
