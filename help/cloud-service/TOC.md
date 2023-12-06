@@ -128,6 +128,9 @@ team: TM
   + [AEM Publish service](./caching/publish.md)
   + [AEM Author service](./caching/author.md)
   + [CDN Cache Hit Ratio Analysis](./caching/cdn-cache-hit-ratio-analysis.md)
+  + How to{#how-to}
+    + [Enable caching](./caching/how-to/enable-caching.md)
+    + [Disable caching](./caching/how-to/disable-caching.md)  
 + Accessing AEM{#accessing}    
   + [Overview](./accessing/overview.md)
   + [Adobe IMS users](./accessing/adobe-ims-users.md)
