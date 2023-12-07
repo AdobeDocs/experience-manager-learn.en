@@ -41,23 +41,23 @@ Let's review each of these options.
 
 This option is the recommended approach for enabling caching however it is only available for AEM Publish. To update the cache headers, use the `mod_headers` module and `<LocationMatch>` directive in the Apache HTTP Server's vhost file. The general syntax is as follows:
 
-    ```conf
-    <LocationMatch "$URL$ || $URL_REGEX$">
-        # Removes the response header of this name, if it exists. If there are multiple headers of the same name, all will be removed.
-        Header unset Cache-Control
-        Header unset Surrogate-Control
-        Header unset Expires
+```
+<LocationMatch "$URL$ || $URL_REGEX$">
+    # Removes the response header of this name, if it exists. If there are multiple headers of the same name, all will be removed.
+    Header unset Cache-Control
+    Header unset Surrogate-Control
+    Header unset Expires
 
-        # Instructs the web browser and CDN to cache the response for 'max-age' value (XXX) seconds. The 'stale-while-revalidate' and 'stale-if-error' attributes controls the stale state treatment at CDN layer.
-        Header set Cache-Control "max-age=XXX,stale-while-revalidate=XXX,stale-if-error=XXX"
-        
-        # Instructs the CDN to cache the response for 'max-age' value (XXX) seconds. The 'stale-while-revalidate' and 'stale-if-error' attributes controls the stale state treatment at CDN layer.
-        Header set Surrogate-Control "max-age=XXX,stale-while-revalidate=XXX,stale-if-error=XXX"
-        
-        # Instructs the web browser and CDN to cache the response until the specified date and time.
-        Header set Expires "Sun, 31 Dec 2023 23:59:59 GMT"
-    </LocationMatch>
-    ```
+    # Instructs the web browser and CDN to cache the response for 'max-age' value (XXX) seconds. The 'stale-while-revalidate' and 'stale-if-error' attributes controls the stale state treatment at CDN layer.
+    Header set Cache-Control "max-age=XXX,stale-while-revalidate=XXX,stale-if-error=XXX"
+    
+    # Instructs the CDN to cache the response for 'max-age' value (XXX) seconds. The 'stale-while-revalidate' and 'stale-if-error' attributes controls the stale state treatment at CDN layer.
+    Header set Surrogate-Control "max-age=XXX,stale-while-revalidate=XXX,stale-if-error=XXX"
+    
+    # Instructs the web browser and CDN to cache the response until the specified date and time.
+    Header set Expires "Sun, 31 Dec 2023 23:59:59 GMT"
+</LocationMatch>
+```
 
 The following summarizes the purpose of each **header** and applicable **attributes** for the header.
 
@@ -81,15 +81,16 @@ To increase the web browser and CDN cache life of the **HTML content type** to _
 1. In your AEM project, locate the desired vhsot file from `dispatcher/src/conf.d/available_vhosts` directory.
 1. Update the vhost (e.g `wknd.vhost`) file as follows:
 
-        ```conf
-        <LocationMatch "^/content/.*\.(html)$">
-            # Removes the response header if present
-            Header unset Cache-Control
-            
-            # Instructs the web browser and CDN to cache the response for max-age value (600) seconds.
-            Header set Cache-Control "max-age=600"
-        </LocationMatch>
-        ```
+    ```
+    <LocationMatch "^/content/.*\.(html)$">
+        # Removes the response header if present
+        Header unset Cache-Control
+        
+        # Instructs the web browser and CDN to cache the response for max-age value (600) seconds.
+        Header set Cache-Control "max-age=600"
+    </LocationMatch>
+    ```
+
     The vhost files in `dispatcher/src/conf.d/enabled_vhosts` directory are **symlinks** to the files in `dispatcher/src/conf.d/available_vhosts` directory, so make sure to create symlinks if not present.
 1. Deploy the vhost changes to desired AEM as a Cloud Service environment using the [Cloud Manager - Web Tier Config Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?#web-tier-config-pipelines) or [RDE Commands](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/rde/how-to-use.html?lang=en#deploy-apache-or-dispatcher-configuration).
 
@@ -103,13 +104,13 @@ This option is available for both AEM Publish and Author. However, it is not rec
 
 To update the cache headers, use the `HttpServletResponse` object in custom Java&trade; code (Sling servlet, Sling servlet filter). The general syntax is as follows:
 
-    ```java
-    // Instructs the web browser and CDN to cache the response for 'max-age' value (XXX) seconds. The 'stale-while-revalidate' and 'stale-if-error' attributes controls the stale state treatment at CDN layer.
-    response.setHeader("Cache-Control", "max-age=XXX,stale-while-revalidate=XXX,stale-if-error=XXX");
+```java
+// Instructs the web browser and CDN to cache the response for 'max-age' value (XXX) seconds. The 'stale-while-revalidate' and 'stale-if-error' attributes controls the stale state treatment at CDN layer.
+response.setHeader("Cache-Control", "max-age=XXX,stale-while-revalidate=XXX,stale-if-error=XXX");
 
-    // Instructs the CDN to cache the response for 'max-age' value (XXX) seconds. The 'stale-while-revalidate' and 'stale-if-error' attributes controls the stale state treatment at CDN layer.
-    response.setHeader("Surrogate-Control", "max-age=XXX,stale-while-revalidate=XXX,stale-if-error=XXX");
+// Instructs the CDN to cache the response for 'max-age' value (XXX) seconds. The 'stale-while-revalidate' and 'stale-if-error' attributes controls the stale state treatment at CDN layer.
+response.setHeader("Surrogate-Control", "max-age=XXX,stale-while-revalidate=XXX,stale-if-error=XXX");
 
-    // Instructs the web browser and CDN to cache the response until the specified date and time.
-    response.setHeader("Expires", "Sun, 31 Dec 2023 23:59:59 GMT");
-    ```
+// Instructs the web browser and CDN to cache the response until the specified date and time.
+response.setHeader("Expires", "Sun, 31 Dec 2023 23:59:59 GMT");
+```
