@@ -11,8 +11,8 @@ duration: 500
 last-substantial-update: 2023-12-06
 jira: KT-14645
 thumbnail: 3425972.jpeg
+exl-id: d73c4bdc-c1ff-498c-9584-93e6e39f5e39
 ---
-
 # AEM Assets and Adobe Express
 
 Discover how to effortlessly create and edit content within Adobe Experience Manager Assets using Adobe Express. This video guides you through enhancing content workflows, demonstrating both the editing of existing assets and the creation of new ones, all streamlined for efficiency and user-friendliness.

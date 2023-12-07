@@ -11,8 +11,8 @@ last-substantial-update: 2023-11-15
 jira: KT-14481
 thumbnail: 3425715.jpeg
 duration: 147
+exl-id: 47fc8774-43c1-4e0b-8101-cff628059b09
 ---
-
 # AEM Sidekick
 
 Use the AEM Sidekick in Edge Delivery Services to take content live.

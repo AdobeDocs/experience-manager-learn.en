@@ -1,6 +1,6 @@
 ---
 title: Document authoring videos
-description: Learn how to setup and configure document authoring in AEM. 
+description: Learn how to setup and configure document authoring in AEM.
 version: Cloud Service
 feature: Authoring
 topic: Content Management
@@ -10,8 +10,8 @@ jira: KT-14609
 doc-type: Catalog
 duration: 40
 last-substantial-update: 2023-12-01
+exl-id: 172a477f-d277-43c1-8e47-68870b02203c
 ---
-
 # Document authoring videos
 
 Understand how to configure document authoring allowing AEM authors to edit and publish documents using Microsoft Word or Google Docs. 

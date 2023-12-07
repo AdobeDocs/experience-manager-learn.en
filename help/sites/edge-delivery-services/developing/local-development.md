@@ -11,8 +11,8 @@ last-substantial-update: 2023-11-15
 jira: KT-14483
 thumbnail: 3425717.jpeg
 duration: 196
+exl-id: 0f3e50f0-88d8-46be-be8b-0f547c3633a6
 ---
-
 # Set up a local development environment
 
 How to setup a local development environment for development for Edge Delivery Services.
@@ -55,4 +55,3 @@ How to setup a local development environment for development for Edge Delivery S
     ```    
 
 1. Open http://localhost:3000/ your web browser to see your AEM web site.
-

@@ -10,6 +10,7 @@ jira: KT-14643
 doc-type: Catalog
 duration: 30
 last-substantial-update: 2023-05-12
+exl-id: 4f08bc07-0c9c-42fc-af42-3d51af9f37c4
 ---
 # Edge Delivery Services videos
 

@@ -11,8 +11,8 @@ last-substantial-update: 2023-11-15
 jira: KT-14475, KT-14476
 thumbnail: 3425709.jpeg
 duration: 199
+exl-id: 12b2ad4d-ee66-4eb0-b8e6-05b4b6e41d76
 ---
-
 # Edge Delivery Services developer prerequisites 
 
 This video describes all the pieces a developer will need to begin developing for Edge Delivery Services.

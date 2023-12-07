@@ -11,8 +11,8 @@ last-substantial-update: 2023-11-15
 jira: KT-14477, KT-14478
 thumbnail: 3425712.jpeg
 duration: 423
+exl-id: 290184ea-88cb-401e-b784-77c8322c77de
 ---
-
 # Content repository
 
 To integrate Adobe Experience Manager (AEM) with Edge Delivery Services, start by setting up [SharePoint](#sharepoint) or [Google Drive](#google-drive) as your content repository. Both platforms work well with AEM, allowing for smooth content management and delivery. Choose the one that aligns with your preferences and follow the steps to get it up and running with AEM and Edge Delivery Services.

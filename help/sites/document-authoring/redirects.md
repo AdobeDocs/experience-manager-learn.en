@@ -11,8 +11,8 @@ last-substantial-update: 2023-11-15
 jira: KT-14470
 thumbnail: 3425704.jpeg
 duration: 109
+exl-id: efbb5a79-0427-46fd-b869-906a8ee044ee
 ---
-
 # Redirects
 
 {{edge-delivery-services}}
