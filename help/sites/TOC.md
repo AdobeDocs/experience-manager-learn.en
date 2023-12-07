@@ -73,6 +73,8 @@ version: 6.4, 6.5, Cloud Service
     + [Git](edge-delivery-services/developing/git.md)
   + How-to{#how-to}
     + [RSS feeds](edge-delivery-services/how-to/rss.md)
+    + [Social media sharing](edge-delivery-services/how-to/social-media-sharing.md)
+    + [Deleting pages](edge-delivery-services/how-to/delete-page.md)
 + Developing {#developing}
   + [Edge Delivery Services](developing/edge-delivery-services.md)
   + [AEM Project Archetype](developing/aem-project-archetype.md)
