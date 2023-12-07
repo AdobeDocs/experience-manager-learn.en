@@ -42,16 +42,16 @@ Let's review each of these options.
 
 This option is the recommended approach for disabling caching however it is only available for AEM Publish. To update the cache headers, use the `mod_headers` module and `<LocationMatch>` directive in the Apache HTTP Server's vhost file. The general syntax is as follows:
 
-    ```conf
-    <LocationMatch "$URL$ || $URL_REGEX$">
-        # Removes the response header of this name, if it exists. If there are multiple headers of the same name, all will be removed.
-        Header unset Cache-Control
-        Header unset Expires
+```
+<LocationMatch "$URL$ || $URL_REGEX$">
+    # Removes the response header of this name, if it exists. If there are multiple headers of the same name, all will be removed.
+    Header unset Cache-Control
+    Header unset Expires
 
-        # Instructs the CDN to not cache the response.
-        Header set Cache-Control "private"
-    </LocationMatch>
-    ```
+    # Instructs the CDN to not cache the response.
+    Header set Cache-Control "private"
+</LocationMatch>
+```
 
 #### Example
 
@@ -62,16 +62,17 @@ Note that, to bypass the existing CSS cache, a change in the CSS file is require
 1. In your AEM project, locate the desired vhsot file from `dispatcher/src/conf.d/available_vhosts` directory.
 1. Update the vhost (e.g `wknd.vhost`) file as follows:
 
-        ```conf
-        <LocationMatch "^/etc.clientlibs/.*\.(css)$">
-            # Removes the response header of this name, if it exists. If there are multiple headers of the same name, all will be removed.
-            Header unset Cache-Control
-            Header unset Expires
+    ```
+    <LocationMatch "^/etc.clientlibs/.*\.(css)$">
+        # Removes the response header of this name, if it exists. If there are multiple headers of the same name, all will be removed.
+        Header unset Cache-Control
+        Header unset Expires
 
-            # Instructs the CDN to not cache the response.
-            Header set Cache-Control "private"
-        </LocationMatch>
-        ```
+        # Instructs the CDN to not cache the response.
+        Header set Cache-Control "private"
+    </LocationMatch>
+    ```
+
     The vhost files in `dispatcher/src/conf.d/enabled_vhosts` directory are **symlinks** to the files in `dispatcher/src/conf.d/available_vhosts` directory, so make sure to create symlinks if not present.
 1. Deploy the vhost changes to desired AEM as a Cloud Service environment using the [Cloud Manager - Web Tier Config Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?#web-tier-config-pipelines) or [RDE Commands](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/rde/how-to-use.html?lang=en#deploy-apache-or-dispatcher-configuration).
 
@@ -79,6 +80,6 @@ Note that, to bypass the existing CSS cache, a change in the CSS file is require
 
 This option is available for both AEM Publish and Author. To update the cache headers, use the `SlingHttpServletResponse` object in custom Java&trade; code (Sling servlet, Sling servlet filter). The general syntax is as follows:
 
-    ```java
-    response.setHeader("Cache-Control", "private");
-    ```
+```java
+response.setHeader("Cache-Control", "private");
+```
