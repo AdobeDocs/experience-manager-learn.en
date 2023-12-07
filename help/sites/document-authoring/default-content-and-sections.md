@@ -11,8 +11,8 @@ last-substantial-update: 2023-11-15
 jira: KT-14468
 thumbnail: 3425702.jpeg
 duration: 102
+exl-id: 17c7919e-3216-4f71-a553-bc5b2e1b6014
 ---
-
 # Default content and sections
 
 {{edge-delivery-services}}

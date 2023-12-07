@@ -11,8 +11,8 @@ last-substantial-update: 2023-11-15
 jira: KT-14482
 thumbnail: 3425716.jpeg
 duration: 205
+exl-id: f6e9822b-1803-4aff-aac4-714146568f91
 ---
-
 # Document structure
 
 Explore how an Edge Delivery Services document is put together using sections, default content and more.

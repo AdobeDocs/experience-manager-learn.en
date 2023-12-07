@@ -11,8 +11,8 @@ last-substantial-update: 2023-11-15
 jira: KT-14490
 thumbnail: 3425724.jpeg
 duration: 100
+exl-id: a8686bf8-b10a-4fbe-a8f6-d74c2c458d3a
 ---
-
 # Document permissions
 
 {{edge-delivery-services}}

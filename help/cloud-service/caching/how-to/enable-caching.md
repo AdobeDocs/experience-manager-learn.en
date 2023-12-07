@@ -1,6 +1,6 @@
 ---
-title: How to enable CDN caching 
-description: Learn how to enable the caching of HTTP responses in AEM as a Cloud Service's CDN. 
+title: How to enable CDN caching
+description: Learn how to enable the caching of HTTP responses in AEM as a Cloud Service's CDN.
 version: Cloud Service
 feature: Operations, CDN Cache
 topic: Administration, Performance
@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-11-17
 jira: KT-14224
 thumbnail: KT-14224.jpeg
+exl-id: 544c3230-6eb6-4f06-a63c-f56d65c0ff4b
 ---
-
 # How to enable CDN caching
 
 Learn how to enable the caching of HTTP responses in AEM as a Cloud Service's CDN. The caching of responses is controlled by `Cache-Control`, `Surrogate-Control`, or `Expires` HTTP response cache headers. 

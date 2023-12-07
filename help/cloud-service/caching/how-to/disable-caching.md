@@ -1,6 +1,6 @@
 ---
-title: How to disable CDN caching 
-description: Learn how to disable the caching of HTTP responses in AEM as a Cloud Service's CDN. 
+title: How to disable CDN caching
+description: Learn how to disable the caching of HTTP responses in AEM as a Cloud Service's CDN.
 version: Cloud Service
 feature: Operations, CDN Cache
 topic: Administration, Performance
@@ -10,8 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-11-30
 jira: KT-14224
 thumbnail: KT-14224.jpeg
+exl-id: 22b1869e-5bb5-437d-9cb5-2d27f704c052
 ---
-
 # How to disable CDN caching
 
 Learn how to disable the caching of HTTP responses in AEM as a Cloud Service's CDN. The caching of responses is controlled by `Cache-Control`, `Surrogate-Control`, or `Expires` HTTP response cache headers.

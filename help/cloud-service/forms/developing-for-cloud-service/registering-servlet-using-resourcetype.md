@@ -10,6 +10,7 @@ topic: Development
 feature: Developer Tools
 jira: KT-14581
 duration: 136
+exl-id: 2a33a9a9-1eef-425d-aec5-465030ee9b74
 ---
 # Introduction
 
@@ -119,6 +120,3 @@ You can now push your changes to an AEM as a Cloud Service environment using Clo
 ## Next Steps
 
 [Enable Forms Portal Components](./forms-portal-components.md)
-
-
-

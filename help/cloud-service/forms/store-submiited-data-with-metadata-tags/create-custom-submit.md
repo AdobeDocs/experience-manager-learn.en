@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-14501
 duration: 122
+exl-id: 5cd5e37e-9881-4fce-a0cb-402d738f83ae
 ---
 # Create custom submit to handle the form submission
 
@@ -140,4 +141,3 @@ public class CustomAFSubmitService implements FormSubmitActionService {
     }
 
 ```
-

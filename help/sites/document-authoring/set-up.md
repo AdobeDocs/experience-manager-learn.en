@@ -11,8 +11,8 @@ last-substantial-update: 2023-11-15
 jira: KT-14465
 thumbnail: 3425699.jpeg
 duration: 118
+exl-id: 3a378f4a-1d08-4f77-997a-d7cd19ad7021
 ---
-
 # Set up document authoring
 
 {{edge-delivery-services}}

@@ -9,6 +9,7 @@ level: Beginner
 last-substantial-update: 2023-10-23
 jira: KT-14238
 duration: 108
+exl-id: 77f93aad-0cab-4e52-b0fd-ae5af23a13d0
 ---
 # Fetch data from Azure storage
 
@@ -84,4 +85,3 @@ if(guid!=null&&!guid.isEmpty())
 * Verify the data is stored in the Azure storage container of your choice. Copy the Blob ID.
 
 * [Preview the BankAccount form](http://localhost:4502/content/dam/formsanddocuments/azureportalstorage/bankaccount/jcr:content?wcmmode=disabled&guid=dba8ac0b-8be6-41f2-9929-54f627a649f6) and specify the Blob ID as a guid parameter in the URL for the form to be prepopulated with the data from Azure storage
-

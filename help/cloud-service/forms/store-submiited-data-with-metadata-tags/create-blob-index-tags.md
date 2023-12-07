@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-14501
 duration: 71
+exl-id: eb9bcd1b-c86f-4894-bcf8-9c17e74dd6ec
 ---
 # Add blob index tags 
 
@@ -74,5 +75,3 @@ The following code creates the blob index data tags string with its correspondin
 ## Next Steps
 
 [Create custom submit handler](./create-custom-submit.md)
-
-
