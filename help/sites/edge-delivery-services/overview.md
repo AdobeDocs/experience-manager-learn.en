@@ -343,4 +343,68 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
         </div>
       </div>
     </div>
+    <!--Social Media Sharing -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
+      aria-label="Social Media Sharing" tabindex="7">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-16by9">
+            <a href="./how-to/social-media-sharing.md" title="Social Media Sharing"
+              tabindex="-1">
+              <img class="is-bordered-r-small"
+                src="https://video.tv.adobe.com/v/3425974/?format=jpeg"
+                alt="Social Media Sharing">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content is-padded-small">
+          <div class="content">
+            <p style="float: right;font-style: italic; color: #363636"
+              class="is-size-6">2 minutes</p>
+            <p class="headline is-size-6 has-text-weight-bold">
+              <a href="./how-to/social-media-sharing.md" title="Social Media Sharing">Social Media Sharing</a>
+            </p>
+            <p class="is-size-6">Learn how to optimize your content for social media sharing.</p>
+            <a href="./how-to/social-media-sharing.md" class="spectrum-Button
+              spectrum-Button--outline spectrum-Button--primary
+              spectrum-Button--sizeM">
+              <span class="spectrum-Button-label has-no-wrap
+                has-text-weight-bold">Watch the video</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Delete a Page -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
+      aria-label="Deleting Pages" tabindex="7">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-16by9">
+            <a href="./how-to/delete-page.md" title="Deleting Pages"
+              tabindex="-1">
+              <img class="is-bordered-r-small"
+                src="https://video.tv.adobe.com/v/3425973/?format=jpeg"
+                alt="Deleting Pages">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content is-padded-small">
+          <div class="content">
+            <p style="float: right;font-style: italic; color: #363636"
+              class="is-size-6">2 minutes</p>
+            <p class="headline is-size-6 has-text-weight-bold">
+              <a href="./how-to/delete-page.md" title="Deleting Pages">Deleting Pages</a>
+            </p>
+            <p class="is-size-6">Learn how to delete pages.</p>
+            <a href="./how-to/delete-page.md" class="spectrum-Button
+              spectrum-Button--outline spectrum-Button--primary
+              spectrum-Button--sizeM">
+              <span class="spectrum-Button-label has-no-wrap
+                has-text-weight-bold">Watch the video</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>    
   </div>
