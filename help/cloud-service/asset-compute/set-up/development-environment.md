@@ -34,7 +34,7 @@ The following is an abridge set up instructions. Details on these development to
 1.  Install the required npm modules and Adobe I/O CLI plug-ins from the command line:
 
     ```
-    $ npm i -g @adobe/aio-cli@7.1.0 @openwhisk/wskdebug ngrok --unsafe-perm=true \
+    $ npm i -g @adobe/aio-cli @openwhisk/wskdebug ngrok --unsafe-perm=true \
     && aio plugins:install @adobe/aio-cli-plugin-asset-compute
     ```
 
@@ -70,11 +70,8 @@ Asset Compute workers are [Node.js](https://nodejs.org/)-based, and thus require
 [Install the Adobe I/O CLI](../../local-development-environment/development-tools.md#aio-cli), or __aio__ is an command-line (CLI) npm module that facilitates use of and interaction with Adobe I/O technologies, and is used for both generate and locally develop custom Asset Compute workers. 
 
 ```
-$ npm install -g @adobe/aio-cli@7.1.0
+$ npm install -g @adobe/aio-cli
 ```
-
-_Adobe I/O CLI version 7.1.0 is required. Later versions of Adobe I/O CLI are not supported at this time._
-
 
 ## Install the Adobe I/O CLI Asset Compute plugin{#aio-asset-compute}
 
