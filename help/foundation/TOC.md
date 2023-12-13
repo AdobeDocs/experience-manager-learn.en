@@ -22,7 +22,8 @@ index: y
   + [Understand IMS Authentication on AMS](authentication/adobe-ims-authentication-technical-video-understand.md)
 + Adobe Cloud Manager{#cloud-manager}
   + [Understand Adobe Cloud Manager](./cloud-manager/understand-cloud-manager-for-aem.md)
-  + [Use the CI/CD Pipeline in Adobe Cloud Manager](./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md)
+  + [CI/CD Pipelines](./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md)
+  + [Custom permissions](./cloud-manager/cloud-permissions.md)
 + Development {#development}
   + [Develop Sling Model Exporters](./development/develop-sling-model-exporter.md)
   + [Set up a local AEM Development Environment](./development/set-up-a-local-aem-development-environment.md)
