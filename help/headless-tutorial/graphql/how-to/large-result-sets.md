@@ -171,7 +171,7 @@ The resulting JSON response contains the 2nd, 3rd, 4th and 5th most expensive Ad
 
 #### Next set of paginated results
 
-THe next set of results can be fetched using the `after` parameter and the `endCursor` value from the previous query. If there are no more results to fetch, `hasNextPage` is `false`.
+The next set of results can be fetched using the `after` parameter and the `endCursor` value from the previous query. If there are no more results to fetch, `hasNextPage` is `false`.
 
 ##### Query variables
 
