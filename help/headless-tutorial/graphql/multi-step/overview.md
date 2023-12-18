@@ -42,7 +42,7 @@ The following are required to follow this tutorial:
 
 ### AEM Environment
 
-To complete this tutorial, AEM Administrator access to an AEM as a Cloud Service environment is recommended. If you do not have access to AEM as a Cloud Service environment, you can use the [Local AEM as a Cloud Service Quickstart SDK](/help/cloud-service/local-development-environment/aem-runtime.md). However, it is important to note that some product UI screens such as Content Fragment navigation is different.
+To complete this tutorial, it is recommended that you have AEM Administrator access to an AEM as a Cloud Service environment. If you do not have access to an AEM as a Cloud Service environment, please [sign up for the AEM Headless trial](https://commerce.adobe.com/business-trial/sign-up?items%5B0%5D%5Bid%5D=649A1AF5CBC5467A25E84F2561274821&cli=headless_exl_banner_campaign&co=US&lang=en) to explore AEM's headless capabilities.
 
 ## Let's get started!
 
