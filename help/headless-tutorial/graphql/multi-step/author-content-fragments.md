@@ -70,6 +70,10 @@ Content Fragments are stored in folders in AEM Assets. To create Content Fragmen
 
 ## Create a Content Fragment {#create-content-fragment}
 
+>[!TIP]
+>
+>For local AEM SDK users: Utilize the AEM Assets UI to create and author Content Fragments, instead of the Content Fragments UI outlined below. For detailed instructions, refer to the [AEM documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-managing.html).
+
 Next several Content Fragments are created based on the **Team** and **Person** models.
 
 1.  From the AEM Start Screen, tap **Content Fragments** to open up the Content Fragments UI.
@@ -139,6 +143,10 @@ Next populate the newly created fragments with data.
 1.  Tap **Save & Close** to save the changes to the Team Alpha fragment.
 
 ## Publish Content Fragments
+
+>[!TIP]
+>
+>For local AEM SDK users: Utilize the AEM Assets UI to publish Content Fragments, instead of the Content Fragments UI outlined below. For detailed instructions, refer to the [AEM documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-managing.html#publishing-and-referencing-a-fragment).
 
 Upon review and verification, publish the authored `Content Fragments`
 
