@@ -258,6 +258,10 @@ team: TM
         + [Create OSGi configuration](./forms/store-submiited-data-with-metadata-tags/create-osgi-configuration.md)
         + [Create index tags](./forms/store-submiited-data-with-metadata-tags/create-blob-index-tags.md)
         + [Create custom submit](./forms/store-submiited-data-with-metadata-tags/create-custom-submit.md)
+    + Prefill core component based form{#prefill-core-component-based-form}
+        + [Introduction](./forms/prefill-core-component-form/introduction.md)
+        + [Write prefill service](./forms/prefill-core-component-form/pre-fill-service.md)
+        + [Test the solution](./forms/prefill-core-component-form/test-solution.md)
     + Azure Portal Storage{#forms-cs-azure-portal}
         + [Introduction](./forms/forms-cs-azure-portal/introduction.md)
         + [Create Form Data Model](./forms/forms-cs-azure-portal/create-fdm.md)
