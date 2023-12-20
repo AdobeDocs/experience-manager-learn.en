@@ -17,20 +17,20 @@ duration: 563
 >[!CONTEXTUALHELP]
 >id="aemcloud_localdev_aemruntime"
 >title="Local AEM Runtime"
->abstract="Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Service SDK's Quickstart Jar. This allows developers to deploy to, and test custom code, configuration and content prior to committing it to source control, and deploying it to a AEM as a Cloud Service environment."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html" text="AEM as a Cloud Service SDK"
+>abstract="Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Service SDK's Quickstart Jar. This allows developers to deploy to, and test custom code, configuration, and content before committing it to source control, and deploying it to a AEM as a Cloud Service environment."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/aem-as-a-cloud-service-sdk.html" text="AEM as a Cloud Service SDK"
 >additional-url="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html" text="Download AEM as a Cloud Service SDK"
 
-Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Service SDK's Quickstart Jar. This allows developers to deploy to, and test custom code, configuration and content prior to committing it to source control, and deploying it to a AEM as a Cloud Service environment.
+Adobe Experience Manager (AEM) can be run locally using the AEM as a Cloud Service SDK's Quickstart Jar. This allows developers to deploy to, and test custom code, configuration, and content before committing it to source control, and deploying it to a AEM as a Cloud Service environment.
 
  Note that `~` is used as shorthand for the User's Directory. In Windows, this is the equivalent of `%HOMEPATH%`.
 
-## Install Java
+## Install Java&trade;
 
-Experience Manager is a Java application, and thus requires the Oracle Java SDK to support the development tooling.
+Experience Manager is a Java&trade; application, and thus requires the Oracle Java&trade; SDK to support the development tooling.
 
-1. [Download and install the latest Java SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
-1. Verify Oracle Java 11 SDK is installed by running the command:
+1. [Download and install the latest Java&trade; SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
+1. Verify that Oracle Java&trade; 11 SDK is installed by running the command:
     
 >[!BEGINTABS]
 
@@ -46,7 +46,7 @@ $ java --version
 $ java -version
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ java --version
@@ -79,7 +79,7 @@ The local AEM Author Service provides developers with a local experience digital
 1. Copy the __Quickstart JAR__ file to  `~/aem-sdk/author` and rename it to `aem-author-p4502.jar`
 1. Start the local AEM Author Service by executing the following from the command line:
    + `java -jar aem-author-p4502.jar`
-     + Provide the admin password as `admin`. Any admin password is acceptable, however its recommend to use the default for local development to reduce the need to re-configure.
+     + Provide the admin password as `admin`. Any admin password is acceptable, however it is recommend to use the default for local development to reduce the need to reconfigure.
 
     You *cannot* start the AEM as Cloud Service Quickstart Jar [by double-clicking](#troubleshooting-double-click).
 1. Access the local AEM Author Service at [http://localhost:4502](http://localhost:4502) in a Web browser
@@ -104,7 +104,7 @@ The local AEM Author Service provides developers with a local experience digital
   $ java -jar aem-author-p4502.jar
   ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
   ```shell
   $ mkdir -p ~/aem-sdk/author
@@ -124,7 +124,7 @@ The local AEM Publish Service provides developers with the local experience end-
 1. Copy the __Quickstart JAR__ file to  `~/aem-sdk/publish` and rename it to `aem-publish-p4503.jar`
 1. Start the local AEM Publish Service by executing the following from the command line:
    + `java -jar aem-publish-p4503.jar`
-      + Provide the admin password as `admin`. Any admin password is acceptable, however its recommend to use the default for local development to reduce the need to re-configure.
+      + Provide the admin password as `admin`. Any admin password is acceptable, however it is recommend to use the default for local development to reduce the need to reconfigure.
 
     You *cannot* start the AEM as Cloud Service Quickstart Jar [by double-clicking](#troubleshooting-double-click).
 1. Access the local AEM Publish Service at [http://localhost:4503](http://localhost:4503) in a Web browser
@@ -149,7 +149,7 @@ $ cd c:\Users\<My User>\aem-sdk\publish
 $ java -jar aem-publish-p4503.jar
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ mkdir -p ~/aem-sdk/publish
@@ -188,7 +188,7 @@ $ java -jar aem-author-p4502.jar -r prerelease
 $ java -jar aem-publish-p4503.jar -r prerelease
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 # For AEM Author service in prerelease mode
@@ -311,7 +311,7 @@ $ java -jar aem-author-p4502.jar
 $ java -jar aem-author-p4502.jar
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ java -jar aem-author-p4502.jar
@@ -335,7 +335,7 @@ $ java -jar aem-publish-p4503.jar
 $ java -jar aem-publish-p4503.jar
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ java -jar aem-publish-p4503.jar
@@ -358,9 +358,9 @@ java.lang.Exception: Quickstart requires a Java Specification 11 VM, but your VM
 Quickstart: aborting
 ```
 
-This is because AEM as a Cloud Service requires Java SDK 11 and you are running a different version, most likely Java 8. To resolve this issue, download and install [Oracle Java SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14).
+This is because AEM as a Cloud Service requires Java&trade; SDK 11 and you are running a different version, most likely Java&trade; 8. To resolve this issue, download and install [Oracle Java&trade; SDK 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14).
 
-Once Oracle Java 11 SDK is installed, verify it is the active version by running the command from the command line:
+Once Oracle Java&trade; 11 SDK is installed, verify it is the active version by running the command from the command line:
 
 >[!BEGINTABS]
 
@@ -376,7 +376,7 @@ $ java --version
 $ java -version
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ java --version
