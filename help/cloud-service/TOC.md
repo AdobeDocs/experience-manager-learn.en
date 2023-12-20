@@ -158,6 +158,11 @@ team: TM
     + [How to setup](./security/traffic-filter-rules/how-to-setup.md)
     + [Examples and result analysis](./security/traffic-filter-rules/examples-and-analysis.md)
     + [Best practices](./security/traffic-filter-rules/best-practices.md)
++ AEM Eventing{#aem-eventing}
+  + [Overview](./eventing/overview.md)
+  + Examples{#examples}
+    + [Webhook - Receive AEM Events](./eventing/examples/webhook.md)
+    + [Journaling - Load AEM Events](./eventing/examples/journaling.md)
 + Migration {#migration}
   + [Content Transfer Tool](./migration/content-transfer-tool.md)
   + [Bulk Import of assets](./migration/bulk-import.md)

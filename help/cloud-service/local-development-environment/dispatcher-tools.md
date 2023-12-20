@@ -17,13 +17,13 @@ duration: 765
 >[!CONTEXTUALHELP]
 >id="aemcloud_localdev_dispatcher"
 >title="Local Dispatcher Tools"
->abstract="Dispatcher is an integral part of the overall Experience Manager architecture and should be part of local development setup. The AEM as a Cloud Service SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating, and simulating Dispatcher locally."
+>abstract="Dispatcher is an integral part of the overall Experience Manager architecture and should be part of local development setup. The AEM as a Cloud Service SDK includes the recommended Dispatcher Tools version that facilitates configuring validating, and simulating Dispatcher locally."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/content-delivery/disp-overview.html" text="Dispatcher in the Cloud"
->additional-url="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html" text="Download AEM as a Cloud Service SDK"
+>additional-url="https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html" text="Download AEM as a Cloud Service SDK"
 
 Adobe Experience Manager (AEM)'s Dispatcher is an Apache HTTP Web server module that provides a security and performance layer between the CDN and AEM Publish tier. Dispatcher is an integral part of the overall Experience Manager architecture and should be part of local development setup.
 
-The AEM as a Cloud Service SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating, and simulating Dispatcher locally. Dispatcher Tools is comprised of:
+The AEM as a Cloud Service SDK includes the recommended Dispatcher Tools version that facilitates configuring validating, and simulating Dispatcher locally. Dispatcher Tools is composed of:
 
 + a baseline set of Apache HTTP Web server and Dispatcher configuration files, located at `.../dispatcher-sdk-x.x.x/src`
 + a configuration validator CLI tool, located at `.../dispatcher-sdk-x.x.x/bin/validate` 
@@ -41,7 +41,7 @@ Note that `~` is used as shorthand for the User's Directory. In Windows, this is
 ## Prerequisites
 
 1. Windows users must use Windows 10 Professional (or a version that supports Docker)
-1. Install [Experience Manager Publish Quickstart Jar](./aem-runtime.md) on the local develop machine.
+1. Install [Experience Manager Publish Quickstart Jar](./aem-runtime.md) on the local development machine.
 
 + Optionally, install the  latest [AEM reference web site](https://github.com/adobe/aem-guides-wknd/releases) on the local AEM Publish service. This web site is used in this tutorial to visualize a working Dispatcher.
 
@@ -81,7 +81,7 @@ $ ./aem-sdk-dispatcher-tools-x.x.x-unix.sh
 
 Unzip `aem-sdk-dispatcher-tools-x.x.x-windows.zip` into `C:\Users\<My User>\aem-sdk\dispatcher` (creating missing folders as needed).
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ chmod a+x aem-sdk-dispatcher-tools-x.x.x-unix.sh
@@ -103,7 +103,7 @@ All commands issued below assume that the current working directory contains the
 
 The Dispatcher Tools provides a set of Apache HTTP Web server and Dispatcher configuration files that define behavior for all environments, including local development.
 
-These files are intended to be copied into an Experience Manager Maven project to the `dispatcher/src` folder, if they do not already exist in the Experience Manager Maven project.
+These files are intended to be copied into an Experience Manager Maven project to the `dispatcher/src` folder, if they do not exist in the Experience Manager Maven project.
 
 A complete description of the configuration files is available in the unpacked Dispatcher Tools as `dispatcher-sdk-x.x.x/docs/Config.html`.
 
@@ -126,7 +126,7 @@ $ ./bin/validate.sh ./src
 $ bin\validate src
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ ./bin/validate.sh ./src
@@ -155,7 +155,7 @@ The `docker_run_hot_reload` executable is preferred over `docker_run` as it relo
 $ bin\docker_run <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ ./bin/docker_run_hot_reload.sh <src-folder> <aem-publish-host>:<aem-publish-port> <dispatcher-port>
@@ -185,7 +185,7 @@ $ ./bin/docker_run_hot_reload.sh ./src host.docker.internal:4503 8080
 $ bin\docker_run src host.docker.internal:4503 8080
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ ./bin/docker_run_hot_reload.sh ./src host.docker.internal:4503 8080
@@ -211,7 +211,7 @@ $ ./bin/docker_run_hot_reload.sh ~/code/my-project/dispatcher/src host.docker.in
 $ bin\docker_run <User Directory>/code/my-project/dispatcher/src host.docker.internal:4503 8080
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ ./bin/docker_run_hot_reload.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
@@ -252,7 +252,7 @@ $ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug ./bin/docker_run_hot_reload.sh ~/
 $ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug bin\docker_run <User Directory>/code/my-project/dispatcher/src host.docker.internal:4503 8080
 ```
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 ```shell
 $ DISP_LOG_LEVEL=Debug REWRITE_LOG_LEVEL=Debug ./bin/docker_run_hot_reload.sh ~/code/my-project/dispatcher/src host.docker.internal:4503 8080
@@ -326,7 +326,7 @@ Now, when validating your project-specific Dispatcher configurations against the
 
 +   Verify the updated immutable files like `dispatcher_vhost.conf`, `default.vhost`, and `default.farm` and if needed make relevant changes in your custom files which are derived from these files.
 
-+   Revalidate the configurations, it should pass
++   Revalidate the configuration, it should pass
 
   ```shell
   $ ./bin/validate.sh ${YOUR-AEM-PROJECT}/dispatcher/src
@@ -367,7 +367,7 @@ When `bin/docker_run src host.docker.internal:4503 8080` results in the message 
 + From the Command Prompt, execute `ipconfig`, and record the host's __IPv4 Address__ of the host machine.
 + Then, execute `docker_run` using this IP address: `$ bin\docker_run src <HOST IP>:4503 8080`
 
->[!TAB Linux]
+>[!TAB Linux&reg;]
 
 + From Terminal, execute `ifconfig` and record the Host __inet__ IP address, usually the __en0__ device.
 + Then execute `docker_run` using the host IP address: `$ bin/docker_run_hot_reload.sh src <HOST IP>:4503 8080`
