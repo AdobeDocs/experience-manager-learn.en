@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Tutorial
 duration: 0
 last-substantial-update: 2023-12-07
-jira: KT-14649
-thumbnail: KT-14649.jpeg
+jira: KT-14734
+thumbnail: KT-14734.jpeg
 ---
 
 # Journaling and AEM Events
@@ -75,4 +75,6 @@ To keep things simple, this hosted web application only fetches the first batch 
 
 ## Additional resources
 
-- [Glitch webhook source code](https://glitch.com/edit/#!/indigo-speckle-antler)
+- [Glitch webhook source code](https://glitch.com/edit/#!/indigo-speckle-antler) is available for reference. It is a simple React application that uses [Adobe React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html) components to render the UI.
+
+- [Adobe I/O Events Journaling API](https://developer.adobe.com/events/docs/guides/api/journaling_api/) provides detailed information about the API like first, next, and last batch of events, pagination, and more. 

@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Tutorial
 duration: 0
 last-substantial-update: 2023-12-07
-jira: KT-14649
-thumbnail: KT-14649.jpeg
+jira: KT-14732
+thumbnail: KT-14732.jpeg
 ---
 
 # Webhooks and AEM Events
@@ -146,4 +146,4 @@ You can see that the AEM event details have all the necessary information to pro
 
 ## Additional resources
 
-- [Glitch webhook source code](https://glitch.com/edit/#!/lovely-ancient-coaster)
+- [Glitch webhook source code](https://glitch.com/edit/#!/lovely-ancient-coaster) is available for reference.
