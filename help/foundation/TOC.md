@@ -30,6 +30,7 @@ index: y
   + [Set up Sling Dynamic Include](./development/set-up-sling-dynamic-include.md)
   + [Understand Java API Best Practices](./development/understand-java-api-best-practices.md)
   + [Understand Sling Model Exporter](./development/understand-sling-model-exporter.md)
+  + [Understand Oak Indexing Best Practices](./development/understand-indexing-best-practices.md)
 + Projects {#projects}
   + [Develop AEM Projects](./projects/develop-aem-projects.md)
   + [Use Project Masters](./projects/use-project-masters.md)
