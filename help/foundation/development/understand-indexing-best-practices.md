@@ -43,7 +43,9 @@ At times, you must create custom indexes to support your search requirements. Ho
 
 ### Customize the OOTB index
 
-- When customizing the OOTB index use **\<OOTBIndexName>-\<productVersion>-custom-\<customVersion>** naming convention. For example, `cqPageLucene-custom-1` or `damAssetLucene-8-custom-1`. This helps to merge the customized index definition whenever the OOTB index is updated. See [Changes to Out-of-the-Box Indexes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/indexing.html?#changes-to-out-of-the-box-indexes) for more details.
+- In **AEMCS**, when customizing the OOTB index use **\<OOTBIndexName>-\<productVersion>-custom-\<customVersion>** naming convention. For example, `cqPageLucene-custom-1` or `damAssetLucene-8-custom-1`. This helps to merge the customized index definition whenever the OOTB index is updated. See [Changes to Out-of-the-Box Indexes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/indexing.html?#changes-to-out-of-the-box-indexes) for more details.
+
+- In **AEM 6.X**, the above naming _does not work_, however simply update the OOTB index with additional properties in the `indexRules` node.
 
 - Always copy the latest OOTB index definition from the AEM instance using the CRX DE Package Manager (/crx/packmgr/), rename it and add customizations inside the XML file.
 
@@ -51,11 +53,13 @@ At times, you must create custom indexes to support your search requirements. Ho
 
 ### Fully custom index
 
-- When creating a fully custom index, use **\<prefix>.\<customIndexName>-\<version>-custom-\<customVersion>** naming convention. For example, `wknd.adventures-1-custom-1`. This helps to avoid naming conflicts. Here, `wknd` is the prefix and `adventures` is the custom index name.
+Creating fully custom index must be your last option and only if the above option does not work.
+
+- When creating a fully custom index, use **\<prefix>.\<customIndexName>-\<version>-custom-\<customVersion>** naming convention. For example, `wknd.adventures-1-custom-1`. This helps to avoid naming conflicts. Here, `wknd` is the prefix and `adventures` is the custom index name. This convention is applicable for both AEM 6.X and AEMCS and helps to prepare for future migration to AEMCS.
 
 - AEMCS only supports Lucene indexes, so to prepare for future migration to AEMCS, always use Lucene indexes. See [Lucene Indexes vs Property Indexes](https://experienceleague.adobe.com/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing.html?#lucene-or-property-indexes) for more details.
 
-- Do not create a custom index on the `dam:Asset` node type but customize the OOTB `damAssetLucene` index. It has been a common root cause of performance and functional issues.
+- Avoid creating a custom index on the same node type as the OOTB index. Instead, customize the OOTB index with additional properties in the `indexRules` node. For example, do not create a custom index on the `dam:Asset` node type but customize the OOTB `damAssetLucene` index. _It has been a common root cause of performance and functional issues_.
 
 - Also, avoid adding multiple node types for example `cq:Page` and `cq:Tag` under the indexing rules (`indexRules`) node. Instead, create separate indexes for each node type.
 
@@ -64,7 +68,7 @@ At times, you must create custom indexes to support your search requirements. Ho
 - The index definition guidelines are:
     - The node type (`jcr:primaryType`) should be `oak:QueryIndexDefinition`
     - The index type (`type`) should be `lucene`
-    - The async property (`async`) should be `async, rt`
+    - The async property (`async`) should be `async,nrt`
     - Use `includedPaths` and avoid `excludedPaths` property. Always set `queryPaths` value to the same value as `includedPaths` value. 
     - To enforce the path restriction, use `evaluatePathRestrictions` property and set it to `true`.
     - Use `tags` property to tag the index and while querying specify this tags value to use the index. The general query syntax is `<query> option(index tag <tagName>)`.
@@ -74,7 +78,7 @@ At times, you must create custom indexes to support your search requirements. Ho
         - jcr:primaryType = "oak:QueryIndexDefinition"
         - type = "lucene"
         - compatVersion = 2
-        - async = ["async", "rt"]
+        - async = ["async", "nrt"]
         - includedPaths = ["/content/wknd"]
         - queryPaths = ["/content/wknd"]
         - evaluatePathRestrictions = true
@@ -84,7 +88,7 @@ At times, you must create custom indexes to support your search requirements. Ho
 
 ### Examples
 
-Let's review few examples to understand the best practices.
+To understand the best practices, let's review few examples.
 
 #### Improper use of tags property
 
