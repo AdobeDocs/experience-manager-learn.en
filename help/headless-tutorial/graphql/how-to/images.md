@@ -127,6 +127,7 @@ To load the web-optimized image of th  referenced image in your application, use
 In React, displaying a web-optimized image from AEM Publish looks like:
 
 ```jsx
+// The AEM host is usually read from a environment variable of the SPA.
 const AEM_HOST = "https://publish-p123-e456.adobeaemcloud.com";
 ...
 let dynamicUrl = AEM_HOST + data.adventureByPath.item.primaryImage._dynamicUrl;
@@ -141,6 +142,7 @@ Remember, `_dynamicUrl` does not include the AEM domain, so you must provide the
 The above example shows using a single size image, however in web experiences, responsive image sets are often required. Responsive images can be implemented using [img srcsets](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset) or [picture elements](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset). The following code snippet shows how to use the `_dynamicUrl` as a based, and append different width parameters, to power different responsive views. Not only can the `width` query parameter be used, but other query parameters can be added by the client to further optimize the image asset based on its needs.
 
 ```javascript
+// The AEM host is usually read from a environment variable of the SPA.
 const AEM_HOST = "https://publish-p123-e456.adobeaemcloud.com";
 ...
 // Read the data from GraphQL response
