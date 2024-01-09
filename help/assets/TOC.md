@@ -42,6 +42,7 @@ team: TM
   + [Search](./search-and-discovery/search.md)             
   + [Collections](./search-and-discovery/collections.md) 
   + [Search Boost](./search-and-discovery/search-boost.md)
+  + [Find Similar Images](./search-and-discovery/find-similar-images.md)
 
 + Advanced Capabilities{#advanced}
   + [3D Assets](./advanced/3d-assets.md) 
