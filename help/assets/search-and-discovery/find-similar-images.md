@@ -1,5 +1,5 @@
 ---
-title: Find Similar Image in AEM Assets
+title: Find Similar Images in AEM Assets
 description: Learn how AEM Assets' Find Similar Image makes it easy to find the best image for your needs.
 version: Cloud Service
 topic: Content Management
@@ -13,7 +13,7 @@ jira: KT-14752
 thumbnail: 3426796.jpeg
 ---
 
-# Find Similar Image
+# Find Similar Images
 
 Learn how AEM Assets' Find Similar Image makes it easy to find the best image for your needs.
 
