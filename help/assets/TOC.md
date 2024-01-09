@@ -25,6 +25,7 @@ team: TM
   + [Auto-start Workflows](configuring/auto-start-workflows.md)
 
 + Authoring{#authoring}
+  + [Switch Views](./authoring/switch-views.md)
   + [Navigation](./authoring/navigation.md)
   + [Basic Operations](./authoring/basic-operations.md)
   + [Metadata](./authoring/metadata.md)
