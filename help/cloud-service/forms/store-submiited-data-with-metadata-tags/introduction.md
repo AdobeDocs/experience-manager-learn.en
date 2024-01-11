@@ -13,13 +13,12 @@ exl-id: a8531e82-18cd-4b32-8148-d6fc5f6e51c6
 ---
 # Introduction
 
-In this tutorial we will implement a simple use case of storing form submissions in Azure storage with blob index tags. Blob index tags provide data management and discovery capabilities by using key-value index tag attributes. You can categorize and find objects within a single container or across all containers in your storage account.
+In this tutorial, you learn how to implement a simple use case of storing form submissions in Azure storage with blob index tags. Blob index tags provide data management and discovery capabilities by using key-value index tag attributes. You can categorize and find objects within a single container or across all containers in your storage account.
 ![blob-index-tags](assets/blob-with-index-tags.png)
 
 ## Pre-requisites
 
-* Experience with AEM Forms CS 
-.
+* Experience with AEM Forms CS.
 * Experience in deploying code using cloud manager.
 * Access to cloud ready instance of AEM Forms CS.
 
