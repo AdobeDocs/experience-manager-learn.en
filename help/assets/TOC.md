@@ -50,6 +50,7 @@ team: TM
   + [Annotations PDF Output](./advanced/customizing-annotations-pdf-output.md)
   + [Asset Insights](./advanced/asset-insights-launch-tutorial.md)
   + [Assets Reports](./advanced/asset-reports.md)
+  + [Blocked Tags](./advanced/blocked-tags.md)
   + [Extract Archive](./advanced/extract-archive.md)
   + [Permissions (CUGs)](./advanced/closed-user-groups.md)
   + [Watermarks](./advanced/watermarks.md)
