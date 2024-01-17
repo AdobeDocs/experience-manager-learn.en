@@ -30,7 +30,7 @@ duration: 242
 <li>A re-usable, composite of one or more AEM Components defining content and presentation that forms an <strong>experience</strong> which makes sense on its own</li>
 </ul>
 </td>
-</tr><tr><td><strong>Core Tenants</strong></td>
+</tr><tr><td><strong>Core Tenets</strong></td>
 <td><ul>
 <li>Content-centric</li>
 <li>Defined by a <a href="https://experienceleague.adobe.com/docs/experience-manager-65/assets/fragments/content-fragments-models.html?lang=en" target="_blank">structured, form-based, data model.</a></li>
