@@ -313,6 +313,7 @@ team: TM
     + Store form submissions in one drive and sharepoint{#one-drive}
         + [Store form data in one drive](./forms/forms-cs-one-drive/store-form-submission-one-drive.md)
         + [Store form data in sharepoint](./forms/forms-cs-sharepoint/store-form-submission-in-sharepoint.md)
+        + [Prefill form with data from SharePoint list](./forms/forms-cs-sharepoint/prefill-data-from-sharepoint-list.md)
 + Asset Compute Extensibility{#asset-compute}
     + [Overview](./asset-compute/overview.md)
     + Set up{#set-up}
