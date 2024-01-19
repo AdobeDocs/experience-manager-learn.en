@@ -12,7 +12,7 @@ duration: 96
 ---
 # Using Transaction Reporting in AEM Forms{#using-transaction-reporting-in-aem-forms}
 
-Transaction reporting to capture the number of Form submissions, rendering of documents using document services and rendering of interactive communications(Web and Print channels) has been introduced with AEM Forms 6.4.1. This capability is primarily for customers wanting to license the software based on the number of form submissions and/or documents rendered. This capability is currently available on AEM Forms OSGI stack only.
+Transaction reporting to capture the number of Form submissions, rendering of documents using document services and rendering of interactive communications(Web and Print channels) has been introduced with AEM Forms 6.4.1. This capability is currently available on AEM Forms OSGI stack only.
 
 ## Enabling Transaction Reporting {#enabling-transaction-reporting}
 
