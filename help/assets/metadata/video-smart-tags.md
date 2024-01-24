@@ -11,7 +11,7 @@ level: Beginner
 last-substantial-update: 2022-06-11
 doc-type: Feature Video
 exl-id: 24d62f81-a6a6-4cfd-b529-b071539a2c1d
-duration: 20
+duration: 9
 ---
 # Video Smart Tags
 

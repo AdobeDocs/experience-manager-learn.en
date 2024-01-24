@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 00746678-da23-4d0a-b775-e1de4ed87c56
-duration: 523
+duration: 511
 ---
 # Using Multi Site Manager {#using-multi-site-manager-with-aem-sites}
 

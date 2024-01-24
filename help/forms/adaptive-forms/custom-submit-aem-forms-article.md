@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: 64b586a6-e9ef-4a3d-8528-55646ab03cc4
 last-substantial-update: 2021-04-09
-duration: 74
+duration: 57
 ---
 # Writing a Custom Submit in AEM Forms {#writing-a-custom-submit-in-aem-forms}
 

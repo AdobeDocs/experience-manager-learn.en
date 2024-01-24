@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: 4a69513d-992c-435a-a520-feb9085820e7
 last-substantial-update: 2020-06-09
-duration: 87
+duration: 68
 ---
 # Inline images in Adaptive Forms
 

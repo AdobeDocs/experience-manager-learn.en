@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 jira: KT-10208
 exl-id: 9053ee29-436a-439a-b592-c3fef9852ea4
-duration: 46
+duration: 37
 ---
 # Deploy the sample assets on your server
 

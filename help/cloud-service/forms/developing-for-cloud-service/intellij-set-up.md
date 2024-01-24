@@ -9,7 +9,7 @@ version: Cloud Service
 topic: Development
 jira: KT-8843
 exl-id: 34840d28-ad47-4a69-b15d-cd9593626527
-duration: 65
+duration: 48
 ---
 # Installing IntelliJ
 

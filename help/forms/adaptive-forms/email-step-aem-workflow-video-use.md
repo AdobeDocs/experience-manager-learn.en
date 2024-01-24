@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 21e58bbc-c1d6-4d41-a4d4-f522a3a5d4a7
 last-substantial-update: 2020-06-09
-duration: 345
+duration: 326
 ---
 # Using Send Email Step of  Forms Workflow {#using-send-email-step-of-forms-workflow}
 

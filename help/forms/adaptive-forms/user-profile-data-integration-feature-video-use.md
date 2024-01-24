@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 4f2b6669-d61e-400d-8657-dddb28ae35f4
 last-substantial-update: 2019-03-20
-duration: 368
+duration: 356
 ---
 # Using User Profile Data Integration with AEM Forms{#using-user-profile-data-integration-with-aem-forms}
 

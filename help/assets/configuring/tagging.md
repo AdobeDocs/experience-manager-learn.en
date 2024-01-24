@@ -11,7 +11,7 @@ level: Beginner
 last-substantial-update: 2022-09-16
 doc-type: Feature Video
 exl-id: e80f4289-8199-481b-85ba-2252e84b9753
-duration: 284
+duration: 274
 ---
 # Tagging
 

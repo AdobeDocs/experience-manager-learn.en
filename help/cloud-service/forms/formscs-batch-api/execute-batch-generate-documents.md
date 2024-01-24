@@ -9,7 +9,7 @@ feature: Output Service
 topic: Development
 jira: KT-9674
 exl-id: 17f91f81-96d8-49d6-b1e3-53d8899695ae
-duration: 233
+duration: 221
 ---
 # Execute Batch Configuration
 

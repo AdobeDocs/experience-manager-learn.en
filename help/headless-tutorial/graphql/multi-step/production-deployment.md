@@ -10,7 +10,7 @@ mini-toc-levels: 1
 jira: KT-7131
 thumbnail: KT-7131.jpg
 exl-id: 8c8b2620-6bc3-4a21-8d8d-8e45a6e9fc70
-duration: 655
+duration: 591
 ---
 # Production deployment with an AEM Publish service
 

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 95795102-4278-4556-8e0f-1b8a359ab093
 last-substantial-update: 2019-07-07
-duration: 253
+duration: 239
 ---
 # Storing and Retrieving Adaptive Form Data from MySQL Database
 

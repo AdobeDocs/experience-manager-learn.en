@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 1136244a-c3e6-45f6-8af8-eb3c100f838e
-duration: 36
+duration: 25
 ---
 # Create Database Tables
 

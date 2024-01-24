@@ -10,7 +10,7 @@ jira: KT-243
 thumbnail: 25173.jpg
 doc-type: Technical Video
 exl-id: 500f4e07-2686-42a2-8e44-d96dde02a112
-duration: 505
+duration: 492
 ---
 # Extending Page Properties {#extending-page-properties-in-aem-sites}
 

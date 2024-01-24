@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: e960c149-13e2-4861-b99e-6419fac85222
-duration: 141
+duration: 130
 ---
 # How to capture Thread dumps of a JVM on a windows server
 

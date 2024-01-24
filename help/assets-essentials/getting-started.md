@@ -11,7 +11,7 @@ thumbnail: 336005.jpeg
 last-substantial-update: 2022-10-03
 doc-type: Feature Video
 exl-id: a0accb94-ceef-4ecf-b1f6-f47751114242
-duration: 262
+duration: 252
 ---
 # Getting started with Assets Essentials
 

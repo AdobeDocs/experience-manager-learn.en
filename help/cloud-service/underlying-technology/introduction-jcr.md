@@ -10,7 +10,7 @@ feature: JCR
 role: Architect, Developer
 level: Beginner
 exl-id: 1e419597-3f60-4110-bafd-a4acb0fad7a0
-duration: 333
+duration: 322
 ---
 # Introduction to the Java Content Repository (JCR) {#introduction-jcr}
 

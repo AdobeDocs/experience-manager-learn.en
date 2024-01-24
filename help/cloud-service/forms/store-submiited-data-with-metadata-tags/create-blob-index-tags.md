@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-14501
-duration: 71
+duration: 54
 exl-id: eb9bcd1b-c86f-4894-bcf8-9c17e74dd6ec
 ---
 # Add blob index tags 

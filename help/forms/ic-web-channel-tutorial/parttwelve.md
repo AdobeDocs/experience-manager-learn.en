@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 510d1782-59b9-41a6-a071-a16170f2cd06
-duration: 97
+duration: 79
 ---
 # Setting up the delivery of web channel document {#setting-up-the-delivery-of-web-channel-document}
 

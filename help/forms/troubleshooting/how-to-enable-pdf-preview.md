@@ -9,7 +9,7 @@ feature: Designer
 topic: Development
 index: y
 exl-id: 0d5fb8d1-5aa2-40c7-b1c9-e4b5319e8d36
-duration: 50
+duration: 40
 ---
 # How to enable Preview PDF
 

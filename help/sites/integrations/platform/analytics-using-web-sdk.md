@@ -13,7 +13,7 @@ thumbnail: KT-13328.jpeg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 exl-id: 0cc3d3bc-e4ea-4ab2-8878-adbcf0c914f5
-duration: 2373
+duration: 2319
 ---
 # Integrate AEM Sites and Adobe Analytics with Platform Web SDK
 

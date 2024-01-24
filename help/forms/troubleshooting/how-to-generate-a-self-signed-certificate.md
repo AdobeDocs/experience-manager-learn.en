@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: 10b9b5cd-752a-464b-b38b-c73fb31921fc
-duration: 101
+duration: 91
 ---
 # How to generate a self signed certificate
 

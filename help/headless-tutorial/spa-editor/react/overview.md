@@ -11,7 +11,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 38802296-8988-4300-a04a-fcbbe98ac810
 last-substantial-update: 2022-08-25
-duration: 100
+duration: 81
 ---
 # Create your first React SPA in AEM {#overview}
 

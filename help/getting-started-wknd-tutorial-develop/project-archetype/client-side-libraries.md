@@ -11,7 +11,7 @@ thumbnail: 30359.jpg
 doc-type: Tutorial
 exl-id: 8d3026e9-a7e2-4a76-8a16-a8197a5e04e3
 recommendations: noDisplay, noCatalog
-duration: 752
+duration: 680
 ---
 # Client libraries and front-end workflow {#client-side-libraries}
 

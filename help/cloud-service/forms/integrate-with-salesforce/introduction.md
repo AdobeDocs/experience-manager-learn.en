@@ -11,7 +11,7 @@ feature: Adaptive Forms, Integrations
 thumbnail: 331891.jpg
 jira: KT-7192
 exl-id: 5be2fec1-fd65-4ac8-876f-c3d754279b04
-duration: 76
+duration: 66
 ---
 # Introduction
 

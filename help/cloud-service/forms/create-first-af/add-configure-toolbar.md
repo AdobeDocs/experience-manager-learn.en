@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7389
 thumbnail: 332236.jpg
 exl-id: 3155059c-fbe6-4b9a-8ef3-8f152658e1af
-duration: 116
+duration: 105
 ---
 # Add and configure toolbar
 

@@ -10,7 +10,7 @@ role: Developer
 level: Beginner
 exl-id: 85e1b450-39c0-4bb8-be5d-d7f50b102f3d
 last-substantial-update: 2020-07-07
-duration: 74
+duration: 57
 ---
 # Submitting To Thank You Page {#submitting-to-thank-you-page}
 

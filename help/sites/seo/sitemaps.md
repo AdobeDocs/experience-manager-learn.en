@@ -11,7 +11,7 @@ thumbnail: 337960.jpeg
 last-substantial-update: 2022-10-03
 doc-type: Technical Video
 exl-id: 40bb55f9-011d-4261-9f44-b1104a591252
-duration: 975
+duration: 954
 ---
 # Sitemaps
 

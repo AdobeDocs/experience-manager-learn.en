@@ -10,7 +10,7 @@ topic: Development
 jira: KT-7193
 thumbnail: 331892.jpg
 exl-id: 7b21f24d-d694-489e-a8f6-c5e16445dde3
-duration: 261
+duration: 251
 ---
 # Test the integration 
 

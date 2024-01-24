@@ -9,7 +9,7 @@ feature: Workbench
 topic: Administration
 index: y
 exl-id: 89f485c3-cd6f-4814-8538-de9c07b33ba4
-duration: 64
+duration: 53
 ---
 # Steps to connect Workbench to AEM Forms server using HTTPS
 

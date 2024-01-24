@@ -9,7 +9,7 @@ last-substantial-update: 2023-05-12
 jira: KT-13238
 thumbnail: 3419310.jpeg
 exl-id: cf1a3f0b-1d0e-4526-a9eb-013a3c73401f
-duration: 69
+duration: 58
 ---
 # Fast filtering
 

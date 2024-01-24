@@ -6,7 +6,7 @@ doc-type: Tutorial
 version: 6.5
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
-duration: 54
+duration: 38
 ---
 
 # Create Schema from the acroform

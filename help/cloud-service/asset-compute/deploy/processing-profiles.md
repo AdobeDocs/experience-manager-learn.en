@@ -10,7 +10,7 @@ topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b398c8c-6b4e-4046-b61e-b44c45f973ef
-duration: 179
+duration: 150
 ---
 # Integrate with AEM Processing Profiles
 

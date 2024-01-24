@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 3354a58b-d58e-4ddb-8f90-648554a64db8
 last-substantial-update: 2020-06-09
-duration: 83
+duration: 63
 ---
 # Create Re-Usable AEM Forms Workflow Models{#create-re-usable-aem-forms-workflow-models}
 

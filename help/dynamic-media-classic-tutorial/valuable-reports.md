@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 doc-type: Tutorial
 exl-id: c3fbfb0b-3222-46ff-9248-dea70ce85a23
-duration: 85
+duration: 67
 ---
 # Valuable Reports for Administrators {#valuable-reports}
 

@@ -9,7 +9,7 @@ thumbnail: 342375.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 799539ba-00aa-40c0-89de-cab38b0066a3
-duration: 325
+duration: 314
 ---
 # Cloud 5 Adobe App Builder
 

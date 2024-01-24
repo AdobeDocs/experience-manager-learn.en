@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: a6f62d9e-0263-4843-8521-93e8c3c5be5b
-duration: 58
+duration: 48
 ---
 # Steps to bootstrap manually if the database initialize is not working
 

@@ -9,7 +9,7 @@ feature: Output Service, Forms Service
 topic: Development
 index: y
 exl-id: caf413ee-a124-4629-ae02-177f4deff4e6
-duration: 153
+duration: 142
 ---
 # How to run load tests using  FormsIVS and OutputIVS
 

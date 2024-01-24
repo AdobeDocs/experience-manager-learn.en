@@ -9,7 +9,7 @@ level: Experienced
 jira: KT-8918
 thumbnail: 336969.jpeg
 exl-id: 4944d3d9-52a0-4255-9e6c-eb119160e400
-duration: 670
+duration: 656
 ---
 # Bulk Import Service
 

@@ -10,7 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: db8e2169-7e67-4466-888e-ad85887f4ed1
-duration: 261
+duration: 251
 ---
 # Create a country site {#create-country-site}
 

@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7378
 thumbnail: 332234.jpg
 exl-id: b7d0b192-1bbf-4735-8dc6-dd4cb1dc052a
-duration: 420
+duration: 410
 ---
 # Configure people panel
 

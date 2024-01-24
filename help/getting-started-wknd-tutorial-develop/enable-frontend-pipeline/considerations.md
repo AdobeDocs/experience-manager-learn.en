@@ -12,7 +12,7 @@ index: y
 recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: a3b27d5b-b167-4c60-af49-8f2e8d814c86
-duration: 99
+duration: 84
 ---
 # Development considerations
 

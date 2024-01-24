@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: a767d8f8-d75e-4472-9139-c08d804ee076
-duration: 50
+duration: 37
 ---
 # Workflow to review and approve the submitted PDF
 

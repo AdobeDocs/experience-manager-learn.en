@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 doc-type: Technical Video
 exl-id: 89308dd3-a7e5-4fec-bffb-5f0974125c0a
-duration: 385
+duration: 366
 ---
 # Setup ContextHub for Personalization {#set-up-contexthub}
 

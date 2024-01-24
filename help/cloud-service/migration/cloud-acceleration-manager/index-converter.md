@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-8665
 thumbnail: 336696.jpeg
 exl-id: fbcb7ae8-0452-4632-a1fc-896187bb6695
-duration: 178
+duration: 168
 ---
 # Index Converter
 

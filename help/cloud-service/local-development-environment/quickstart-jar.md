@@ -5,7 +5,7 @@ topic: Development
 version: Cloud Service
 jira: KT-4677
 thumbnail: 32551.jpg
-duration: 425
+duration: 414
 ---
 
 # Using the AEM Quickstart Jar

@@ -12,7 +12,7 @@ last-substantial-update: 2023-06-02
 jira: KT-11658
 thumbnail: 3412875.jpeg
 exl-id: 06afb6d0-6ae6-47d4-a3d9-c48bb7d572f6
-duration: 176
+duration: 165
 ---
 # Adobe Developer Console project creation
 

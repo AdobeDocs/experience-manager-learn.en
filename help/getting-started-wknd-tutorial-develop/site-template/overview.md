@@ -10,7 +10,7 @@ jira: KT-7985
 thumbnail: 333477.jpg
 doc-type: Tutorial
 exl-id: a55c1dda-f74a-4914-aa1b-c4de8ad1253e
-duration: 445
+duration: 430
 ---
 # Getting Started with AEM Sites - Quick Site Creation {#site-template}
 

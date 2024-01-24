@@ -10,7 +10,7 @@ jira: KT-8020
 thumbnail: 335952.jpeg
 doc-type: Feature Video
 exl-id: ca994bdb-8f59-4504-b623-68d74e559fbb
-duration: 315
+duration: 305
 ---
 # Provisioning Assets Essentials
 

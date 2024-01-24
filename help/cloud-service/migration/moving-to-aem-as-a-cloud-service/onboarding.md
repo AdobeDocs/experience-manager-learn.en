@@ -9,7 +9,7 @@ level: Experienced
 jira: KT-8631
 thumbnail: 336959.jpeg
 exl-id: 9d2004e5-e928-4190-8298-695635c8e92c
-duration: 536
+duration: 521
 ---
 # Onboarding to AEM as a Cloud Service 
 

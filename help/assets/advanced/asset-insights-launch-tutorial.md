@@ -11,7 +11,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: 00125fe1-3bb9-4b1a-a83c-61c413403ae2
-duration: 2096
+duration: 2056
 ---
 # Set up Asset Insights with AEM Assets and Adobe Experience Platform Launch
 

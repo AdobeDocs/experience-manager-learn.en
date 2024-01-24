@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 1f6f1bb6-3437-4fae-b5a1-698ab357ff23
 last-substantial-update: 2020-09-10
-duration: 391
+duration: 378
 ---
 # Creating Computed Form Data Model Elements in AEM Forms{#creating-computed-form-data-model-elements-in-aem-forms}
 

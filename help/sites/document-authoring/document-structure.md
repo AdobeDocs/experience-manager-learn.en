@@ -10,7 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-11-15
 jira: KT-14467
 thumbnail: 3425701.jpeg
-duration: 114
+duration: 104
 exl-id: 637a2d44-554d-45e4-aad2-a9e64feb511b
 ---
 # Document structure

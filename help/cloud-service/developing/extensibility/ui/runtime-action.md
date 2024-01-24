@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 jira: KT-11603
 last-substantial-update: 2023-06-02
 exl-id: 3062900a-0461-4c6f-81e6-c76a7f613804
-duration: 371
+duration: 321
 ---
 # Adobe I/O Runtime action
 

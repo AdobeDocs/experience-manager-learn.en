@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 21633308-ffe4-4023-affe-59269504da69
-duration: 701
+duration: 683
 ---
 # Translation Enhancements with Multi-Site Manager {#translation-enhancements}
 

@@ -11,7 +11,7 @@ thumbnail: 342113.jpeg
 last-substantial-update: 2022-10-11
 doc-type: Feature Video
 exl-id: d4d80678-e2e2-4e17-8ce5-6db8651ae59e
-duration: 439
+duration: 428
 ---
 # Permissions management in Assets Essentials
 

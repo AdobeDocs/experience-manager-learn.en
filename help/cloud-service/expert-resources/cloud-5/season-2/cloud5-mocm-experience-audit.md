@@ -8,7 +8,7 @@ thumbnail: 343620.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 895766fe-aedd-4ae5-b3ba-2ebe769f2db3
-duration: 323
+duration: 312
 ---
 # Cloud 5 - Mysteries of Cloud Manager - Experience Audit
 

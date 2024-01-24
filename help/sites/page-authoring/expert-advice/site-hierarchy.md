@@ -8,7 +8,7 @@ jira: KT-14254
 level: Beginner, Intermediate
 doc-type: Article
 exl-id: c88c3ec7-9060-43e2-a6a2-d47bba6f7cf3
-duration: 549
+duration: 473
 ---
 # Tags, Taxonomy, and Metadata Best Practices: High-level Summary
 

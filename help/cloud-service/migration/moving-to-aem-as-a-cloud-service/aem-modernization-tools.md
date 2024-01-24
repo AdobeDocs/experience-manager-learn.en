@@ -9,7 +9,7 @@ level: Experienced
 jira: KT-8629
 thumbnail: 336965.jpeg
 exl-id: 310f492c-0095-4015-81a4-27d76f288138
-duration: 2545
+duration: 2527
 ---
 
 # AEM Modernization Tools

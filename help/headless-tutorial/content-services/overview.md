@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 5aa32791-861a-48e3-913c-36028373b788
-duration: 342
+duration: 322
 ---
 # Getting Started with AEM Headless - Content Services
 

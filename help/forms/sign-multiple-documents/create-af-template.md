@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: c6e0fb92-28c1-4025-85ef-b99bad46f07a
-duration: 261
+duration: 249
 ---
 # Create AF template
 

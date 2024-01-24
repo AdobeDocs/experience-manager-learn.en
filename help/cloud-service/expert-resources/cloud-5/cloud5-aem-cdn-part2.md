@@ -8,7 +8,7 @@ jira: KT-9904
 thumbnail: 340994.jpeg
 hidefromtoc: yes
 exl-id: 3d6f3506-e1ec-4eeb-869f-02db2821b8c6
-duration: 325
+duration: 313
 ---
 # Cloud 5 AEM CDN Part2
 

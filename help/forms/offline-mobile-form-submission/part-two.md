@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: eafeafe1-7a72-4023-b5bb-d83b056ba207
-duration: 182
+duration: 151
 ---
 # Handle PDF Submission
 

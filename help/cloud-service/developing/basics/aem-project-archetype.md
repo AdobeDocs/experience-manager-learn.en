@@ -9,7 +9,7 @@ feature: AEM Project Archetype
 jira: KT-6929
 thumbnail: 330551.jpg
 exl-id: 28914c67-a1d3-4f85-987e-c84ff348f560
-duration: 20
+duration: 9
 ---
 # Create AEM project using the AEM project archetype
 

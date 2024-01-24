@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 9bb05c94-2a7b-4149-b567-186eb08b1c66
-duration: 98
+duration: 80
 ---
 # Generating Print Channel Documents Using Watched Folder
 

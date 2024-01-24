@@ -10,7 +10,7 @@ level: Beginner
 jira: KT-7593
 exl-id: b9809561-e9bd-4c67-bc18-5cab3e4aa138
 last-substantial-update: 2019-06-09
-duration: 264
+duration: 216
 ---
 # Installing 32 bit version of shared libraries
 

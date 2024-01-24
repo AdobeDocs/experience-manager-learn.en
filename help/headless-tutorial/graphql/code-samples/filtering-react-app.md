@@ -12,7 +12,7 @@ index: no
 hide: yes
 hidefromtoc: yes
 exl-id: 1eb9487e-a82a-4d15-a776-cf004f2e3f01
-duration: 42
+duration: 28
 ---
 # Filtering React app
 

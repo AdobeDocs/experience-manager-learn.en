@@ -9,7 +9,7 @@ level: Beginner
 jira: KT-13099
 last-substantial-update: 2023-04-13
 exl-id: 3b7632bd-3820-4c1e-aa3f-8a6a4fc26847
-duration: 67
+duration: 50
 ---
 # Create Acrobat Sign Web Form URL
 

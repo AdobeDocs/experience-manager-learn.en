@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 0056971f-2f89-43b3-bb6f-dd16c2a50370
 thumbnail: 328618.jpg
 last-substantial-update: 2022-07-20
-duration: 654
+duration: 638
 ---
 # Getting Started with AEM Headless - GraphQL {#getting-started-with-aem-headless}
 

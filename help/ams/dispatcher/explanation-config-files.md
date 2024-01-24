@@ -9,7 +9,7 @@ level: Beginner
 thumbnail: xx.jpg
 doc-type: Article
 exl-id: ec8e2804-1fd6-4e95-af6d-07d840069c8b
-duration: 559
+duration: 465
 ---
 # Explanation of Configuration Files
 

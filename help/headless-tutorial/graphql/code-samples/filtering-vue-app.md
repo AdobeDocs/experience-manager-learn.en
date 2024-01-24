@@ -12,7 +12,7 @@ index: no
 hide: yes
 hidefromtoc: yes
 exl-id: 8f96093a-4449-4249-9257-028e2ffd979b
-duration: 42
+duration: 28
 ---
 # Filtering Vue app
 

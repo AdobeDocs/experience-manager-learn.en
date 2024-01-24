@@ -10,7 +10,7 @@ level: Intermediate
 jira: KT-10208
 exl-id: e032070b-7332-4c2f-97ee-7e887a61aa7a
 last-substantial-update: 2022-01-07
-duration: 176
+duration: 163
 ---
 # Introduction
 

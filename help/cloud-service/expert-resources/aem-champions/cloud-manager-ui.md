@@ -10,7 +10,7 @@ doc-type: Value Video
 last-substantial-update: 2023-05-11
 jira: KT-13230
 exl-id: a89860ed-9ea4-494c-bce9-91ec550361fe
-duration: 316
+duration: 305
 ---
 # AEM Champion Tips and Tricks - Cloud Manager UI
 

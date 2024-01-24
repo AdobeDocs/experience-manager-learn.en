@@ -10,7 +10,7 @@ level: Beginner
 jira: KT-11374
 last-substantial-update: 2022-11-01
 exl-id: e9a696f9-ba63-462d-93a8-e9a7a1e94e72
-duration: 74
+duration: 57
 ---
 # Implementing Auto Complete
 

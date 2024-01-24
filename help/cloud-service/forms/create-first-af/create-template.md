@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7382
 thumbnail: 332223.jpg
 exl-id: 3e6dc8c4-d080-4a95-9fb2-52747fda69d7
-duration: 237
+duration: 226
 ---
 # Create an Adaptive Form template
 

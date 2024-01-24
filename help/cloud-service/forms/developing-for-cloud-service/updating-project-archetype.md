@@ -10,7 +10,7 @@ topic: Development
 feature: AEM Project Archetype
 jira: KT-9534
 exl-id: c2cd9c52-6f00-4cfe-a972-665093990e5d
-duration: 94
+duration: 75
 ---
 # Migrating from old aem archetype 
 

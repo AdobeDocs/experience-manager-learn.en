@@ -11,7 +11,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: b74e7cb3-4a2d-4076-b68a-167bc59e20fb
-duration: 244
+duration: 234
 ---
 # Place Copy {#place-copy}
 

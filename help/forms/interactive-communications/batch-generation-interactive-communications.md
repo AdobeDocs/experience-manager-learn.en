@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 exl-id: 2cdf37e6-42ad-469a-a6e4-a693ab2ca908
 last-substantial-update: 2019-07-07
-duration: 109
+duration: 90
 ---
 # Batch API
 

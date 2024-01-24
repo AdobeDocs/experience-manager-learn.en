@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 exl-id: 7b2b1e1c-820f-4387-a78b-5d889c31eec0
-duration: 45
+duration: 30
 ---
 # Associate the page component with the template
 

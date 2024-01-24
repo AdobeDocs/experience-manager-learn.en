@@ -11,7 +11,7 @@ thumbnail: KT-11649.png
 doc-type: article
 last-substantial-update: 2023-01-04
 exl-id: f3047f1d-1c46-4aee-9262-7aab35e9c4cb
-duration: 1773
+duration: 1656
 ---
 # AEM image asset generation using OpenAI
 

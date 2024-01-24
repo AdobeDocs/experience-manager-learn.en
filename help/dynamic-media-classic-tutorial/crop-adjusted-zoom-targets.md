@@ -7,7 +7,7 @@ role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: a1d83c77-a9e4-4ed1-9b00-65fb002164c0
-duration: 686
+duration: 602
 ---
 # Cropping, Adjusted Images, and Zoom Targets {#crop-adjusted-zoom-targets}
 

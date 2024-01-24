@@ -10,7 +10,7 @@ jira: KT-9113
 thumbnail: 337530.jpeg
 last-substantial-update: 2022-10-10
 exl-id: 66f627e4-863d-45d7-bc68-7ec108a1c271
-duration: 1102
+duration: 1080
 ---
 # Service Users
 

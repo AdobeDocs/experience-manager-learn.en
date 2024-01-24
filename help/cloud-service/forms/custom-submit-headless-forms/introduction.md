@@ -10,7 +10,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-13520
 exl-id: 78fe677c-d5ab-40f6-a381-800f24e227ae
-duration: 44
+duration: 29
 ---
 # Customize response based on submitted data
 

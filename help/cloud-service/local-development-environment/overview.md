@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2022-09-01
 exl-id: 8b12f34c-be98-4f47-853c-411bb601990c
-duration: 879
+duration: 851
 ---
 # Local Development Environment Set up {#local-development-environment-set-up}
 

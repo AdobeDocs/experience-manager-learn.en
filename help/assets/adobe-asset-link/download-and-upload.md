@@ -10,7 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: dc69a95c-ab0b-4a2c-80a3-43a6a052c545
-duration: 209
+duration: 198
 ---
 # Download and Upload {#download-and-upload}
 

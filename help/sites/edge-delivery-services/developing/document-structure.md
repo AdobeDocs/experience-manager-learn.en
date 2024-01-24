@@ -10,7 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14482
 thumbnail: 3425716.jpeg
-duration: 205
+duration: 195
 exl-id: f6e9822b-1803-4aff-aac4-714146568f91
 ---
 # Document structure

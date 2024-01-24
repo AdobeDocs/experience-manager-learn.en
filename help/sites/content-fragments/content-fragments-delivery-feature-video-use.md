@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 525cd30c-05bf-4f17-b61b-90609ce757ea
-duration: 913
+duration: 890
 ---
 # Delivering Content Fragments {#delivering-content-fragments}
 

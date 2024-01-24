@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 doc-type: Feature Video
-duration: 241
+duration: 250
 last-substantial-update: 2023-12-13
 jira: KT-14684
 thumbnail: 3426368.jpeg

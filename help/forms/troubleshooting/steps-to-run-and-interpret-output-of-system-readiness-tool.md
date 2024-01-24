@@ -9,7 +9,7 @@ feature: PDF Generator
 topic: Development
 index: y
 exl-id: 3c1a1c09-caae-4b10-94f2-12ab4531dd5a
-duration: 67
+duration: 57
 ---
 # Steps to run and interpret output of AEM Forms PDFG System Readiness Tool
 

@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: c588bdca-b8a8-4de2-97e0-ba08b195699f
-duration: 70
+duration: 54
 ---
 # Create Adaptive Form based on JSON Schema
 

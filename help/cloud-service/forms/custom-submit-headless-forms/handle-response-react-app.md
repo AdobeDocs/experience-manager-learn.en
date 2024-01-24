@@ -10,7 +10,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-13520
 exl-id: e5f76d6a-2ea8-4909-9cfb-b673077cf8fd
-duration: 33
+duration: 20
 ---
 # Extract the json object from the response
 

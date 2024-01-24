@@ -9,7 +9,7 @@ hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 thumbnail: 342067.jpeg
 exl-id: 90c61bfb-46ff-4941-b89e-ce38d1025de8
-duration: 324
+duration: 314
 ---
 
 # Using the Dispatcher in the Cloud

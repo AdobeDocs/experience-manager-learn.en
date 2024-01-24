@@ -9,7 +9,7 @@ level: Experienced
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 502f4bdf-d4af-409f-a611-62b7a1a6065a
-duration: 217
+duration: 184
 ---
 # Prefilling Adaptive Form using ACS Profile {#prefilling-adaptive-form-using-acs-profile}
 

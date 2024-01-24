@@ -9,7 +9,7 @@ version: Cloud Service
 topic: Development
 jira: KT-8848
 exl-id: 31487027-d528-48ea-b626-a740b94dceb8
-duration: 74
+duration: 57
 ---
 # Install Git
 

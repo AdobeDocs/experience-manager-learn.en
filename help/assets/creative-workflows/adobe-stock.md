@@ -9,7 +9,7 @@ level: Beginner
 last-substantial-update: 2022-06-26
 doc-type: Feature Video
 exl-id: a3c3a01e-97a6-494f-b7a9-22057e91f4eb
-duration: 1137
+duration: 1104
 ---
 # Using Adobe Stock with AEM Assets{#using-adobe-stock-assets-with-aem-assets}
 

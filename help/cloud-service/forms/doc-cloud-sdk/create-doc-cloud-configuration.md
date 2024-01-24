@@ -10,7 +10,7 @@ topic: Development
 thumbnail: 7818.jpg
 jira: KT-7818
 exl-id: 1f34c356-6c0c-46ff-9cea-7baacfc4bb7f
-duration: 41
+duration: 28
 ---
 # Introduction
 

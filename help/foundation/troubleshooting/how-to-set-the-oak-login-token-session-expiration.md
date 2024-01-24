@@ -9,7 +9,7 @@ feature: Developer Tools
 topic: Administration
 doc-type: Technical Video
 exl-id: 940d3cca-6052-40b6-b4f7-c0689ad21c94
-duration: 72
+duration: 62
 ---
 # How to set the Oak login token session expiration
 

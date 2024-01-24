@@ -9,7 +9,7 @@ thumbnail: 342374.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: b2571a84-101f-4330-8a5f-9ef5e4344591
-duration: 299
+duration: 288
 ---
 # Cloud 5 AEM Search and Indexing
 

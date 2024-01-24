@@ -9,7 +9,7 @@ feature: Workbench
 topic: Administration
 index: y
 exl-id: 7715bf31-9f7c-4ff9-828f-a1b16e35fda7
-duration: 60
+duration: 50
 ---
 # How to enable debug output for Workbench
 

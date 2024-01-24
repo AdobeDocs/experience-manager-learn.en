@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7388
 thumbnail: 332235.jpg
 exl-id: f3c01af3-bce1-4a7b-84b7-5e0889bebe28
-duration: 142
+duration: 132
 ---
 # Configure start panel
 

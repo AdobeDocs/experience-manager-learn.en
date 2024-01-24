@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: af8f499c-4955-44b5-8f21-085263ca31a3
-duration: 389
+duration: 372
 ---
 # Use the System Overview Dashboard
 

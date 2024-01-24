@@ -9,7 +9,7 @@ version: Cloud Service
 topic: Development
 jira: KT-8844
 exl-id: 9a7ed792-ca0d-458f-b8dd-9129aba37df6
-duration: 125
+duration: 105
 ---
 # Installing Cygwin
 

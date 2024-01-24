@@ -9,7 +9,7 @@ feature: PDF Generator
 topic: Development
 index: y
 exl-id: 5c4f9c93-1328-4d06-beb5-500787d987d7
-duration: 52
+duration: 41
 ---
 # Steps to troubleshoot OpenOffice specific failures on a Windows setup for AEM Forms PDFG Conversion
 

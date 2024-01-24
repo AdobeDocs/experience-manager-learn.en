@@ -12,7 +12,7 @@ jira: KT-194
 thumbnail: 331785.jpg
 last-substantial-update: 2021-06-09
 exl-id: 84d2b240-5ecc-4230-97a0-6c2faead8d1a
-duration: 243
+duration: 230
 ---
 # Using Experience Fragments {#using-aem-experience-fragments}
 

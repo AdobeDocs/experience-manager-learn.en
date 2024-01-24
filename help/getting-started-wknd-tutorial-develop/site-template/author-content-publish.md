@@ -11,7 +11,7 @@ thumbnail: KT-7497.jpg
 doc-type: Tutorial
 exl-id: 17ca57d1-2b9a-409c-b083-398d38cd6a19
 recommendations: noDisplay, noCatalog
-duration: 350
+duration: 314
 ---
 # Introduction to authoring and publishing {#author-content-publish}
 

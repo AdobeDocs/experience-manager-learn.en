@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 exl-id: 4e69e115-12a6-4a57-90da-b91e345c6723
 last-substantial-update: 2023-08-08
-duration: 615
+duration: 593
 ---
 # Use the SSL Wizard in AEM
 

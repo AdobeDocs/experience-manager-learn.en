@@ -12,7 +12,7 @@ thumbnail: 30207.jpg
 doc-type: Tutorial
 exl-id: b926c35e-64ad-4507-8b39-4eb97a67edda
 recommendations: noDisplay, noCatalog
-duration: 955
+duration: 851
 ---
 # Unit Testing {#unit-testing}
 

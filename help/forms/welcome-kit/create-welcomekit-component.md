@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2022-12-14
 exl-id: 66496f0e-c121-4b6d-b371-084393ece3ca
-duration: 36
+duration: 23
 ---
 # Welcome kit component
 

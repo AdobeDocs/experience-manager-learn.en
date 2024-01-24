@@ -10,7 +10,7 @@ topic: Migration
 role: Architect, Developer
 level: Beginner
 exl-id: 0cefc336-2a46-4a11-a734-ba1cb63c5cbe
-duration: 1074
+duration: 1063
 ---
 # Using the Content Transfer Tool
 
