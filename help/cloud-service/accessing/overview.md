@@ -10,7 +10,7 @@ jira: KT-5882
 thumbnail: KT-5882.jpg
 last-substantial-update: 2022-10-06
 exl-id: 4846a394-cf8e-4d52-8f8b-9e874f2f457b
-duration: 148
+duration: 126
 ---
 # Configuring access to AEM as a Cloud Service {#configuring-access-to-aem-as-a-cloud-service}
 

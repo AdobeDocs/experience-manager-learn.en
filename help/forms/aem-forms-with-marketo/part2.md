@@ -9,7 +9,7 @@ level: Experienced
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: f8ba3d5c-0b9f-4eb7-8609-3e540341d5c2
-duration: 205
+duration: 172
 ---
 # Marketo Authentication Service
 

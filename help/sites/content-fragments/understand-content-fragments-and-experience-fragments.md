@@ -9,7 +9,7 @@ role: User
 level: Beginner
 doc-type: Article
 exl-id: ccbc68d1-a83e-4092-9a49-53c56c14483e
-duration: 242
+duration: 204
 ---
 # Content Fragments and Experience Fragments
 

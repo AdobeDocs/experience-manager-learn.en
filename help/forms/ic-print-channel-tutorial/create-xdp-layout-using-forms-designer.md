@@ -11,7 +11,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 1bda648c-01be-44f1-aa73-3f5e7365d094
-duration: 156
+duration: 143
 ---
 # Create Layout using Forms Designer {#create-layout-using-forms-designer}
 

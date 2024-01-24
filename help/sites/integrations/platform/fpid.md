@@ -12,7 +12,7 @@ thumbnail: kt-11336.jpeg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 exl-id: 18a22f54-da58-4326-a7b0-3b1ac40ea0b5
-duration: 365
+duration: 316
 ---
 # Generate Experience Platform FPIDs with AEM Sites
 

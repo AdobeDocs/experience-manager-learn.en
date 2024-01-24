@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: f221d8ee-0452-4690-a936-74bab506d7ca
 last-substantial-update: 2019-07-10
-duration: 184
+duration: 156
 ---
 # Listing Custom Asset Types in AEM Forms {#listing-custom-asset-types-in-aem-forms}
 

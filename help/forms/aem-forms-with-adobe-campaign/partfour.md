@@ -9,7 +9,7 @@ level: Experienced
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 59d5ba6d-91c1-48c7-8c87-8e0caf4f2d7e
-duration: 157
+duration: 129
 ---
 # Create Campaign Profile Using Form Data Model {#create-campaign-profile-using-form-data-model}
 

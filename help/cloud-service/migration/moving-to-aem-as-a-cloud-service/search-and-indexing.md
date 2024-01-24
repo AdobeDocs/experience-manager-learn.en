@@ -9,7 +9,7 @@ level: Experienced
 jira: KT-8634
 thumbnail: 336963.jpeg
 exl-id: f752df86-27d4-4dbf-a3cb-ee97b7d9a17e
-duration: 1265
+duration: 1247
 ---
 # Search and indexing
 

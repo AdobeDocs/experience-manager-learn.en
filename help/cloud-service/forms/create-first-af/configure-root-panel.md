@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7377
 thumbnail: 332238.jpg
 exl-id: e5c2c53e-bcb2-46a4-a780-fca0dd03a00b
-duration: 278
+duration: 268
 ---
 # Configure root panel
 

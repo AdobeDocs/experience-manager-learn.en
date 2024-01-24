@@ -10,7 +10,7 @@ level: Beginner
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 7a62ae37-d391-4136-99f3-b32181afd475
-duration: 230
+duration: 218
 ---
 # Create Acrobat Sign Cloud Configuration
 

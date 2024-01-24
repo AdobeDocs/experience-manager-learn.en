@@ -8,7 +8,7 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 exl-id: 5139aa84-58d5-40e3-936a-0505bd407ee8
-duration: 80
+duration: 61
 ---
 # Import Eclipse Project
 

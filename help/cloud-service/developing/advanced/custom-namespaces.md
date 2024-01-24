@@ -10,7 +10,7 @@ jira: KT-11618
 thumbnail: 3412319.jpg
 last-substantial-update: 2022-12-14
 exl-id: e86ddc9d-ce44-407a-a20c-fb3297bb0eb2
-duration: 520
+duration: 504
 ---
 # Custom namespaces
 

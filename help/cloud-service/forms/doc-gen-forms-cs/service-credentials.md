@@ -10,7 +10,7 @@ topic: Development
 jira: KT-8192
 thumbnail: 330519.jpg
 exl-id: 74cb8c30-4c41-426c-a1b5-fc595a3167c8
-duration: 468
+duration: 455
 ---
 # AEM Forms Service Credentials
 

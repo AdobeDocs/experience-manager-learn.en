@@ -10,7 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 292c61db-f8d2-424b-8c42-12d1d3b06167
-duration: 208
+duration: 196
 ---
 # Asset Search {#asset-search}
 

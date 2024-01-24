@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7147
 thumbnail: 331754.jpg
 exl-id: e406fe4d-f0b6-4e5d-9e18-c28d30a456c7
-duration: 17
+duration: 7
 ---
 # Create Swagger file
 

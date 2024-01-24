@@ -7,7 +7,7 @@ feature: Adaptive Forms, Workflow
 role: Developer
 level: Beginner
 exl-id: 849bfe6c-6b7f-44d0-85bc-5df0287a9bca
-duration: 252
+duration: 241
 ---
 # Document Type Variable in AEM Workflow
 

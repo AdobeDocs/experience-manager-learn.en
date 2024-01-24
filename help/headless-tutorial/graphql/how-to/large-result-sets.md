@@ -11,7 +11,7 @@ last-substantial-update: 2023-04-14
 jira: KT-13102
 thumbnail: 3418381.jpeg
 exl-id: 304b4d80-27bd-4336-b2ff-4b613a30f712
-duration: 439
+duration: 379
 ---
 # Large result sets in AEM Headless
 

@@ -10,7 +10,7 @@ jira: KT-4321
 thumbnail: 32192.jpg
 doc-type: Feature Video
 exl-id: 41b40982-9796-418e-9bfc-af6fc720e9b8
-duration: 433
+duration: 416
 ---
 # Understanding page properties {#understanding-page-properties-aem-sites}
 

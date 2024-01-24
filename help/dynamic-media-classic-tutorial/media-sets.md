@@ -7,7 +7,7 @@ role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: 45c86ff2-d991-46a7-a8d1-25c9fec142d9
-duration: 353
+duration: 307
 ---
 # Image, Swatch, Spin, and Mixed Media Sets {#media-sets}
 

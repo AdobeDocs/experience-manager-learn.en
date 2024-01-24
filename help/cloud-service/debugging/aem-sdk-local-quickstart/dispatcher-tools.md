@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner, Intermediate
 exl-id: f0adf7a6-c7c2-449a-9fa5-402c54b812e5
-duration: 87
+duration: 67
 ---
 # Debugging Dispatcher Tools
 

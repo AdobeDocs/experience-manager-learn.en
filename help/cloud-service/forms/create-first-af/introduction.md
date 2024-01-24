@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7464
 thumbnail: 332571.jpg
 exl-id: 61c83104-7253-4636-b4d6-d8eec8db1cde
-duration: 92
+duration: 82
 ---
 # Introduction video
 

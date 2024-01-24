@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-10829
 thumbnail: kt-10829.jpg
 exl-id: b76b7c46-5cbd-4039-8fd6-9f0f10a4a84f
-duration: 79
+duration: 64
 ---
 # Dispatcher filters 
 

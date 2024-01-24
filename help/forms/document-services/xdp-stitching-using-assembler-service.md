@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 last-substantial-update: 2022-12-19
 exl-id: e116038f-7d86-41ee-b1b0-7b8569121d6d
-duration: 130
+duration: 106
 ---
 # XDP Stitching using assembler sevice
 

@@ -10,7 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: 9734f891-9d0a-46f7-ba13-1970531a8171
-duration: 608
+duration: 598
 ---
 # Translation Jobs {#translation-jobs}
 

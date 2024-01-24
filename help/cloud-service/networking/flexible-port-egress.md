@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-9350
 thumbnail: KT-9350.jpeg
 exl-id: 5c1ff98f-d1f6-42ac-a5d5-676a54ef683c
-duration: 946
+duration: 893
 ---
 # Flexible port egress
 

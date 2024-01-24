@@ -7,7 +7,7 @@ version: 6.4,6.5
 role: Developer
 level: Beginner
 exl-id: 798012e5-5099-4fd0-82ad-a21f64a97aca
-duration: 423
+duration: 410
 ---
 # Creating Form Data Model
 

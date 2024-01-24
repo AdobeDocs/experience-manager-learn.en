@@ -10,7 +10,7 @@ exl-id: 58851624-71c9-4745-aaaf-305acf6ccb14
 last-substantial-update: 2022-07-20
 doc-type: Tutorial
 thumbnail: aem-local-dev-env.jpg
-duration: 4693
+duration: 4612
 ---
 # Set up a Local AEM Development Environment 
 

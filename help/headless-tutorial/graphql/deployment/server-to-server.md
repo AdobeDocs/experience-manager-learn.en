@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-10798
 thumbnail: kt-10798.jpg
 exl-id: d4ae08d9-dc43-4414-ab75-26853186a301
-duration: 90
+duration: 73
 ---
 # AEM Headless server-to-server deployments
 

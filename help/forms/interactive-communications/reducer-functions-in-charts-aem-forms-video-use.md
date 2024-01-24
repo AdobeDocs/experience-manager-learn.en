@@ -10,7 +10,7 @@ role: Developer
 level: Intermediate
 exl-id: 866749d9-0f62-470b-afeb-4dece4e0b169
 last-substantial-update: 2019-07-07
-duration: 198
+duration: 186
 ---
 # Using Reducer Functions in AEM Forms - Charts{#using-reducer-functions-in-aem-forms-charts}
 

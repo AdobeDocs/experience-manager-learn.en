@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: f24a75f6-9062-498c-b782-7d9011aa0bcf
-duration: 118
+duration: 97
 ---
 # Tutorial Set up
 

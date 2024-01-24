@@ -8,7 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: c01ad68e-23c9-4564-8e3e-1924af34a493
-duration: 134
+duration: 110
 ---
 # Fetch and display the forms in card format
 

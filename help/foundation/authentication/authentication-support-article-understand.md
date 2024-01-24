@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 96c542ae-6ab6-4d8a-94df-a58b03469320
 last-substantial-update: 2022-09-10
 thumbnail: KT-406.jpg
-duration: 48
+duration: 34
 ---
 # Understand Authentication Support in AEM 6.x
 

@@ -8,7 +8,7 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner
 doc-type: Article
 exl-id: bf4030b0-67c4-4b00-af95-f63e6f79e995
-duration: 820
+duration: 716
 ---
 # Understanding Reasons to Upgrade
 

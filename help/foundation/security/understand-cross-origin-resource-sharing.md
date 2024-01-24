@@ -9,7 +9,7 @@ topic: Security
 role: Developer
 level: Intermediate
 exl-id: 6009d9cf-8aeb-4092-9e8c-e2e6eec46435
-duration: 336
+duration: 283
 ---
 # Understand Cross-Origin Resource Sharing ([!DNL CORS])
 

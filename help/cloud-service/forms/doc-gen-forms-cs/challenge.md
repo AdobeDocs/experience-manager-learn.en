@@ -8,7 +8,7 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 exl-id: f150566f-33e5-48d3-b248-bd5602e96af8
-duration: 19
+duration: 8
 ---
 # Exercises
 

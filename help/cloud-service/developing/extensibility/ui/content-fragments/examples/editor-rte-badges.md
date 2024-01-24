@@ -11,7 +11,7 @@ thumbnail: KT-13466.jpg
 doc-type: article
 last-substantial-update: 2023-06-12
 exl-id: 83acbddb-9168-4d8b-84b5-97577d8a1ead
-duration: 664
+duration: 614
 ---
 # Add badges to Rich Text Editor (RTE)
 

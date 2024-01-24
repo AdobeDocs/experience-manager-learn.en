@@ -11,7 +11,7 @@ level: Beginner
 last-substantial-update: 2022-06-14
 doc-type: Feature Video
 exl-id: 76ff5acd-63e3-4266-8458-30735e90e2e2
-duration: 150
+duration: 140
 ---
 # Download
 

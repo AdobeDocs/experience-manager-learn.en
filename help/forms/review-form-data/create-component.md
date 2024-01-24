@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 last-substantial-update: 2023-01-22
 exl-id: d537a80a-de61-4d43-bdef-f7d661c43dc8
-duration: 49
+duration: 35
 ---
 # Create component to summrize the form data
 

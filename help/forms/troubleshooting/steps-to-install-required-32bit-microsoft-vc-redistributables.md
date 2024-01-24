@@ -9,7 +9,7 @@ topic: Administration
 feature: Operations
 index: y
 exl-id: 896d75ab-de97-445f-bbe1-6be6cade9ee4
-duration: 65
+duration: 54
 ---
 # Steps to check and install the required 32-bit Microsoft Visual C++ redistributables
 

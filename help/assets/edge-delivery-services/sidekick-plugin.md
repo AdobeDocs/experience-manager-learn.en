@@ -11,7 +11,7 @@ last-substantial-update: 2023-09-28
 jira: KT-14070
 thumbnail: 3424615.jpeg
 exl-id: e8ed49a5-4ad2-4759-bf0f-1dae8478d996
-duration: 160
+duration: 150
 ---
 # AEM Assets Sidekick plugin and Edge Delivery Services
 

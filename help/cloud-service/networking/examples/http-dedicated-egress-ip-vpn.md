@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-9354
 thumbnail: KT-9354.jpeg
 exl-id: a565bc3a-675f-4d5e-b83b-c14ad70a800b
-duration: 111
+duration: 92
 ---
 # HTTP/HTTPS connections for dedicated egress IP address and VPN
 

@@ -9,7 +9,7 @@ level: Beginner
 thumbnail: xx.jpg
 doc-type: Article
 exl-id: 299b32c3-7922-4eee-aa3a-56039a654f70
-duration: 364
+duration: 294
 ---
 # Using and Understanding Variables
 

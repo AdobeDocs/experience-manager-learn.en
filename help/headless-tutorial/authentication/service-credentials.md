@@ -11,7 +11,7 @@ level: Intermediate, Experienced
 last-substantial-update: 2023-01-12
 doc-type: Tutorial
 exl-id: e2922278-4d0b-4f28-a999-90551ed65fb4
-duration: 1037
+duration: 957
 ---
 # Service credentials
 

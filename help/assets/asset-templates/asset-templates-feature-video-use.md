@@ -10,7 +10,7 @@ last-substantial-update: 2022-09-01
 thumbnail: 25170.jpg
 doc-type: Feature Video
 exl-id: 45e0f3d5-db56-44e7-ad68-4d60991a6d77
-duration: 753
+duration: 740
 ---
 # Using Asset Templates with AEM Assets and InDesign Server{#using-asset-templates-with-aem-assets-and-indesign-server}
 

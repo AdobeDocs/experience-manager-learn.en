@@ -9,7 +9,7 @@ feature: Publishing
 jira: KT-6911
 thumbnail: 330554.jpg
 exl-id: 53327d54-152b-4b89-8540-181e433f312b
-duration: 17
+duration: 6
 ---
 # Content publishing
 

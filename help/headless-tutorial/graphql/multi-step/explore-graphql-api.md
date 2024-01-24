@@ -10,7 +10,7 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 exl-id: 508b0211-fa21-4a73-b8b4-c6c34e3ba696
-duration: 463
+duration: 408
 ---
 # Explore GraphQL APIs {#explore-graphql-apis}
 

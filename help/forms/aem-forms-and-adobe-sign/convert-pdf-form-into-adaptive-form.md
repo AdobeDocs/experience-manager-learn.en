@@ -10,7 +10,7 @@ level: Beginner
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 9aab3eb0-03a5-4962-a2ff-d44a17dc140e
-duration: 409
+duration: 397
 ---
 # Convert PDF Form into Adaptive Form
 

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: a2d21f2e-3dbb-454f-8a02-101dc3af9b1e
 last-substantial-update: 2020-02-09
-duration: 539
+duration: 528
 ---
 # Form Editor Improvements in AEM Forms {#form-editor-improvements-in-aem-forms}
 

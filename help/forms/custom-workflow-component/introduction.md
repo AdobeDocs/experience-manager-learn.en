@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2022-11-28
 exl-id: 9f00a2f9-d388-4bcc-bdd6-66531dbb3ed2
-duration: 26
+duration: 14
 ---
 # Creating custom workflow components
 

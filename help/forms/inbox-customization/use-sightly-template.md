@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: d09b46ed-3516-44cf-a616-4cb6e9dfdf41
-duration: 103
+duration: 83
 ---
 # Using sightly template to display inbox data
 

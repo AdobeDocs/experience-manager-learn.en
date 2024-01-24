@@ -9,7 +9,7 @@ feature: Mobile Forms
 topic: Development
 index: y
 exl-id: 28fa5597-bab5-4fb9-8d30-e9fd41820749
-duration: 67
+duration: 57
 ---
 # How to make web service call from HTML5 form
 

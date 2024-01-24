@@ -10,7 +10,7 @@ topic: Administration
 index: y
 doc-type: Technical Video
 exl-id: 9025f5a7-1602-47d2-8287-42b5cfd18265
-duration: 92
+duration: 81
 ---
 # How to troubleshoot issues related to Jetty configuration in AEM
 

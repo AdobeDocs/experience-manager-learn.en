@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: fbfc74d7-ba7c-495a-9e3b-63166a3025ab
 last-substantial-update: 2020-09-10
-duration: 83
+duration: 65
 ---
 # Best Practices
 

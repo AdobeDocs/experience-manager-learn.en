@@ -9,7 +9,7 @@ level: Beginner
 last-substantial-update: 2023-08-14
 jira: KT-13781
 exl-id: 2bec5953-2e0c-4ae6-ae98-34492d4cfbe4
-duration: 181
+duration: 154
 ---
 # Store form submissions in Azure Storage
 

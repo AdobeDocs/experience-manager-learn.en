@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Intermediate
 doc-type: Technical Video
 exl-id: 9c139a36-e3c5-407e-af5d-b4fb8860f5a2
-duration: 257
+duration: 242
 ---
 # Setup Experience Fragments and Adobe Target Integration{#set-up-experience-fragments-and-adobe-target-integration}
 

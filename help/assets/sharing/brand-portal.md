@@ -9,7 +9,7 @@ level: Beginner
 last-substantial-update: 2022-06-15
 doc-type: Feature Video
 exl-id: 42f13a19-52bf-413d-a141-63f1f0910dce
-duration: 2561
+duration: 2494
 ---
 # Using Brand Portal with AEM Assets{#using-brand-portal-with-aem-assets}
 

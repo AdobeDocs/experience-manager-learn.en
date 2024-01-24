@@ -8,7 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: 0ed44016-d52a-4980-a0b1-06da149c3cb1
-duration: 72
+duration: 54
 ---
 # Installing the required dependencies
 

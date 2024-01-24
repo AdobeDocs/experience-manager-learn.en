@@ -12,7 +12,7 @@ thumbnail: KT-10721.jpg
 last-substantial-update: 2023-05-10
 badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
 exl-id: 4f67bb37-416a-49d9-9d7b-06c3573909ca
-duration: 303
+duration: 264
 ---
 # Next.js App
 

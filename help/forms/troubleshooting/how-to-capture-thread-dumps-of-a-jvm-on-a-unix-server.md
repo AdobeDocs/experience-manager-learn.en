@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: cfd42f2c-71d0-4e1d-adc9-2c45ea6954d4
-duration: 68
+duration: 57
 ---
 # How to capture Thread dumps of a JVM on a unix server
 

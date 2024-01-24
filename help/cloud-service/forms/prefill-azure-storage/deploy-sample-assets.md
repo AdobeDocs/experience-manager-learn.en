@@ -9,7 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-13717
 exl-id: ae8104fa-7af2-49c2-9e6b-704152d49149
-duration: 57
+duration: 44
 ---
 # Deploy the sample assets
 

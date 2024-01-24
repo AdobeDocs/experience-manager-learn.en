@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 exl-id: 416e3401-ba9f-4da3-8b07-2d39f9128571
 last-substantial-update: 2019-07-07
-duration: 64
+duration: 49
 ---
 # Two Column Layouts in Print Channel Document
 

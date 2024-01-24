@@ -10,7 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 51347f65-bed1-44da-ade3-69209fa443c4
-duration: 211
+duration: 201
 ---
 # Content structure and hierarchy {#content-hierarchy}
 

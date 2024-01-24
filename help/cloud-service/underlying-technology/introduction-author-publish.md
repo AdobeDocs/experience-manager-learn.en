@@ -10,7 +10,7 @@ topic: Architecture
 role: Architect, Developer
 level: Beginner
 exl-id: 586d982e-0128-47a1-b945-7d99298db3fd
-duration: 376
+duration: 366
 ---
 # Introduction to Author and Publish Tier {#introduction-author-publish}
 

@@ -8,7 +8,7 @@ thumbnail: 343600.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 38580af1-e5ad-431a-b41d-634fb136ce64
-duration: 302
+duration: 291
 ---
 # Cloud 5 - Fix Your... Rewrites
 

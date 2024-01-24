@@ -10,7 +10,7 @@ doc-type: Value Video
 last-substantial-update: 2023-05-11
 jira: KT-13228
 exl-id: d1745cea-906b-46fa-adcc-7da6e7ee95db
-duration: 132
+duration: 118
 ---
 # AEM Champion Tips and Tricks - Cloud Manager Onboarding Playbook
 

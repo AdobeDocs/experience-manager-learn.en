@@ -5,7 +5,7 @@ topic: Development
 role: Developer
 sub-product: Experience Manager Forms
 exl-id: c1972937-56c5-47af-9232-f31bdf69dfbe
-duration: 98
+duration: 78
 ---
 # AEM Forms tutorials and videos {#overview}
 

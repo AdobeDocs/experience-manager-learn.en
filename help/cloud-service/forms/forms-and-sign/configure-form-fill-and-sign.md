@@ -12,7 +12,7 @@ thumbnail: 332439.jpg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: feab7e1d-3998-41ba-8326-bbff14564494
-duration: 215
+duration: 204
 ---
 # Configure Adaptive form for fill and sign scenario
 

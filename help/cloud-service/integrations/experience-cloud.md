@@ -13,7 +13,7 @@ mini-toc-levels: 1
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM as a Cloud Service" before-title="false"
 exl-id: 9e856dcc-f042-4e9d-bf97-dd4f72e837e3
-duration: 211
+duration: 193
 ---
 # AEM as a Cloud Service integrations with Adobe Experience Cloud
 

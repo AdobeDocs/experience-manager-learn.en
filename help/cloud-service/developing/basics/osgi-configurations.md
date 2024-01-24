@@ -9,7 +9,7 @@ feature: APIs
 jira: KT-6934
 thumbnail: 330559.jpg
 exl-id: 06793e03-72c1-4566-80d7-c126fc8e3879
-duration: 15
+duration: 5
 ---
 # OSGi configurations
 

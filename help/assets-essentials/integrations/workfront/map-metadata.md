@@ -13,7 +13,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets Essentials" before-title="false"
 doc-type: Feature Video
 exl-id: 60724863-c464-4f6e-9b49-d882e2eb2294
-duration: 1001
+duration: 990
 ---
 # Mapping Metadata
 

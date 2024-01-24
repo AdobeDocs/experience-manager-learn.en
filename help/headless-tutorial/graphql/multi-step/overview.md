@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2022-10-17
 exl-id: 41e15a2c-758b-4e7d-9d23-ef671c1dc155
-duration: 81
+duration: 59
 ---
 # Getting Started with AEM Headless - GraphQL
 

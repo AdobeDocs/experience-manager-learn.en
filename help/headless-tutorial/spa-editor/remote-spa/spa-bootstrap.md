@@ -10,7 +10,7 @@ thumbnail: kt-7633.jpeg
 last-substantial-update: 2022-11-01
 doc-type: Tutorial
 exl-id: b8d43e44-014c-4142-b89c-ff4824b89c78
-duration: 478
+duration: 421
 ---
 # Bootstrap the Remote SPA for SPA Editor
 

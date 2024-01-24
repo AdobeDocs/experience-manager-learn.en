@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 59462cb4-d379-4e58-b786-ff8dbae6191c
-duration: 2306
+duration: 2275
 ---
 # Using Dynamic Media with AEM Assets {#understanding-aem-dynamic-media}
 

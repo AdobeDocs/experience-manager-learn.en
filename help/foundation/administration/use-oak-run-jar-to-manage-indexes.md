@@ -8,7 +8,7 @@ topic: Performance
 role: Developer
 level: Experienced
 exl-id: be49718e-f1f5-4ab2-9c9d-6430a52bb439
-duration: 766
+duration: 745
 ---
 # Use oak-run.jar to Manage Indexes
 

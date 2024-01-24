@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: dd82f309-dd4e-42ce-8856-e51c898024f5
-duration: 75
+duration: 57
 ---
 # Servlet to store form data
 

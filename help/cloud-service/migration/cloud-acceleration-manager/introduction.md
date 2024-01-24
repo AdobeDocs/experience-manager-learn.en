@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-8658
 thumbnail: 336689.jpeg
 exl-id: 87f1ef0c-dc47-49a7-bb7a-513d4c260dd8
-duration: 540
+duration: 530
 ---
 # Introduction to Cloud Acceleration Manager
 

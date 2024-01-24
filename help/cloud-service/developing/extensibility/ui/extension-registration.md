@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 jira: KT-11603
 last-substantial-update: 2023-06-02
 exl-id: ef2290d9-ba40-429b-b10d-e82d6c1c20f6
-duration: 126
+duration: 104
 ---
 # Extension registration
 

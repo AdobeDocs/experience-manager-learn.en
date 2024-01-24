@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 774d7a6e-2b8f-4a70-98c5-e7712478ff75
-duration: 97
+duration: 78
 ---
 # Configuring Investment Mix Panel
 

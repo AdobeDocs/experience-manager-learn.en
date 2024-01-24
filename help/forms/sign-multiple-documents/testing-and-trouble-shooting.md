@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: 99cba29e-4ae3-4160-a4c7-a5b6579618c0
-duration: 109
+duration: 86
 ---
 # Test and troubleshoot
 

@@ -11,7 +11,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: b5a6c1c9-2be1-4622-b85b-a1996fb86a2f
-duration: 260
+duration: 248
 ---
 # Adding table to contributions section
 

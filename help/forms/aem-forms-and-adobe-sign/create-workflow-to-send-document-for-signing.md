@@ -10,7 +10,7 @@ level: Intermediate
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 20093733-2d19-4405-b453-1a8c2722adeb
-duration: 403
+duration: 392
 ---
 # Send documents for signature using workflow
 

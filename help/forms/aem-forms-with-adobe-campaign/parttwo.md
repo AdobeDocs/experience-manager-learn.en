@@ -9,7 +9,7 @@ level: Experienced
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: deef09d9-82ec-4e61-b7ee-e72d1cd4e9e0
-duration: 280
+duration: 238
 ---
 # Creating Campaign Profile on Adaptive Form Submission {#creating-campaign-profile-on-adaptive-form-submission}
 

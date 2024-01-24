@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: c2c55406-6da6-42be-bcc0-f34426b3291a
 last-substantial-update: 2021-07-07
-duration: 152
+duration: 127
 ---
 # Verify users using their mobile phone numbers
 

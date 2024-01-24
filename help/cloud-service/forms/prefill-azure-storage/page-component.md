@@ -9,7 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-13717
 exl-id: 7469aa7f-1794-40dd-990c-af5d45e85223
-duration: 105
+duration: 82
 ---
 # Page Component
 

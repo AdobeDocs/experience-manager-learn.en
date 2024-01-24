@@ -12,7 +12,7 @@ doc-type: Tutorial
 exl-id: b5722fe2-93bf-4b25-8e08-4cb8206771cb
 badgeIntegration: label="Integration" type="positive"
 last-substantial-update: 2022-06-15
-duration: 596
+duration: 538
 ---
 # Analyze data with Analysis Workspace
 

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 88295af5-3022-4462-9194-46d8c979bc8b
 last-substantial-update: 2021-04-07
-duration: 360
+duration: 345
 ---
 # Downloading partially completed mobile form and submitting to AEM workflow
 

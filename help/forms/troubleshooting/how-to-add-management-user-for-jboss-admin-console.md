@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: 787ee0b4-8260-47d2-bcf9-da705e94859a
-duration: 85
+duration: 75
 ---
 # How to add management user for JBoss admin console
 

@@ -11,7 +11,7 @@ topic: Content Management
 last-substantial-update: 2021-09-24
 doc-type: Feature Video
 exl-id: d5b25fcc-4c8d-4720-a14e-eaf768873415
-duration: 271
+duration: 261
 ---
 # Basic Operations
 

@@ -9,7 +9,7 @@ topic: Development
 last-substantial-update: 2022-06-19
 doc-type: Feature Video
 exl-id: 78664b38-b64a-4220-bb7a-83f09bdd441a
-duration: 104
+duration: 94
 ---
 # Enable renditions download in the Brand Portal
 

@@ -8,7 +8,7 @@ thumbnail: 342864.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: bfd455c4-9a51-4537-ae6d-548d552e13e6
-duration: 290
+duration: 280
 ---
 # Cloud 5 - Fragments
 

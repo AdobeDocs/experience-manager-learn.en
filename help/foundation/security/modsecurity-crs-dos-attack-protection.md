@@ -11,7 +11,7 @@ thumbnail: KT-10385.png
 doc-type: Article
 last-substantial-update: 2023-08-18
 exl-id: 9f689bd9-c846-4c3f-ae88-20454112cf9a
-duration: 925
+duration: 874
 ---
 # Use ModSecurity to protect your AEM site from DoS attacks
 

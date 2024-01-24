@@ -12,7 +12,7 @@ jira: KT-12557
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 43665a1e-4101-4b54-a6e0-d189e825073e
-duration: 58
+duration: 44
 ---
 # Test your solution
 

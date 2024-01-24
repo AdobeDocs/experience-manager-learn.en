@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: d33c033a-9577-4d4e-99be-f3c7e2a4ce73
-duration: 693
+duration: 676
 ---
 # Authoring Content Fragments {#authoring-content-fragments}
 

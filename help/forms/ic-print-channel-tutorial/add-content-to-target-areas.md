@@ -11,7 +11,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 49080c16-617f-4840-8bb4-7b080fa291c4
-duration: 172
+duration: 159
 ---
 # Adding text and image content to print channel document
 

@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2023-01-04
 exl-id: 91fbea23-4886-4892-87ad-1bc4fff5896a
-duration: 31
+duration: 19
 ---
 # Introduction
 

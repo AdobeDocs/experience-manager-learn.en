@@ -7,7 +7,7 @@ feature: Adaptive Forms, Workflow
 role: Developer
 level: Beginner
 exl-id: e7d3e0be-5194-47c2-a668-ce78e727986e
-duration: 376
+duration: 360
 ---
 # Variables of type JSON in AEM Workflow
 

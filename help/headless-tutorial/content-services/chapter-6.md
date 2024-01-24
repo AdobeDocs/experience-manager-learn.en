@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: b33d1509-531d-40c3-9b26-1d18c8d86a97
-duration: 235
+duration: 210
 ---
 # Chapter 6 - Exposing the Content on AEM Publish for Delivery
 

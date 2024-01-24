@@ -10,7 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-05-12
 jira: KT-13240
 exl-id: 1862d95e-5a39-4d37-8425-fb5eab2b8bd7
-duration: 79
+duration: 68
 ---
 # New editor toggle
 

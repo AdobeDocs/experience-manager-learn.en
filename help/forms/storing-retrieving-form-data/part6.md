@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 version: 6.4,6.5
 exl-id: f520e7a4-d485-4515-aebc-8371feb324eb
-duration: 74
+duration: 59
 ---
 # Deploy this on your server
 
