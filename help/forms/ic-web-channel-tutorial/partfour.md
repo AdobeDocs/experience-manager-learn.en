@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: d742d77b-a064-46e8-862a-2d3e1cc56f63
-duration: 802
+duration: 805
 ---
 # Creating Web Channel Document Template AEM Forms {#creating-web-channel-document-template-aem-forms}
 

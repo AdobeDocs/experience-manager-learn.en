@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2023-10-23
 jira: KT-14238
-duration: 88
+duration: 81
 exl-id: 77f93aad-0cab-4e52-b0fd-ae5af23a13d0
 ---
 # Fetch data from Azure storage

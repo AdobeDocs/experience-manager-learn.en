@@ -9,7 +9,7 @@ level: Experienced
 jira: KT-8917
 thumbnail: 336967.jpeg
 exl-id: ef5864cb-69e1-454b-9d9b-fa14983d80e3
-duration: 401
+duration: 402
 ---
 # Communications (Output Service)
 

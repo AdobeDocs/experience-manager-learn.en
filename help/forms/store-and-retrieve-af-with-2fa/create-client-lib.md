@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: c90eea73-bd44-40af-aa98-d766aa572415
-duration: 53
+duration: 45
 ---
 # Create client lib
 

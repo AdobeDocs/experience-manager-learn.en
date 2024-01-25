@@ -10,7 +10,7 @@ jira: KT-6923
 thumbnail: 330546.jpg
 last-substantial-update: 2023-09-26
 exl-id: 8aa97bdf-6a0b-4140-8183-a8f77212992d
-duration: 411
+duration: 412
 ---
 # What is AEM as a Cloud Service?
 

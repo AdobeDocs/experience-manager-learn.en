@@ -9,7 +9,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: 53cafd06-3a0a-4995-947d-179146b89234
-duration: 140
+duration: 159
 ---
 # Personalization of Full Web Page Experiences using Adobe Target
 

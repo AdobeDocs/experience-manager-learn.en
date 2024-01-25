@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7376
 thumbnail: 332237.jpg
 exl-id: 26d26ea5-7781-42fa-97ad-713543a8d132
-duration: 115
+duration: 116
 ---
 # Create an Adaptive Form 
 

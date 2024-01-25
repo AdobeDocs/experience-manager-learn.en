@@ -9,7 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-11895
 exl-id: cc5bf24c-97c5-4383-8c35-f7512e594445
-duration: 526
+duration: 527
 ---
 # AEM Forms as Cloud Service with Microsoft Sharepoint
 

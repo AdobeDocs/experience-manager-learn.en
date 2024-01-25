@@ -9,7 +9,7 @@ level: Beginner
 jira: KT-13099
 last-substantial-update: 2023-04-13
 exl-id: d6fb6c80-4bfe-4b9d-b267-7caee3944cc0
-duration: 223
+duration: 118
 ---
 # Generate Interactive Communication Document
 

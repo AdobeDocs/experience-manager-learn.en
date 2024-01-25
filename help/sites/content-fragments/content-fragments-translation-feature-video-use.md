@@ -10,7 +10,7 @@ jira: KT-201
 thumbnail: 18131.jpg
 doc-type: Feature Video
 exl-id: cc4ffbd0-207a-42e4-bfcb-d6c83fb97237
-duration: 229
+duration: 235
 ---
 # Translation support for AEM Content Fragments {#translation-support-content-fragments}
 

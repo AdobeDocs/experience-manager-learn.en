@@ -10,7 +10,7 @@ topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: 4dea9cc4-2133-4ceb-8ced-e9b9874f6d89
-duration: 260
+duration: 268
 ---
 # Debug an Asset Compute worker
 

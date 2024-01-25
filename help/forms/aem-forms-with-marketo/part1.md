@@ -10,7 +10,7 @@ exl-id: 45047852-4fdb-4702-8a99-faaad7213b61
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 last-substantial-update: 2020-03-20
-duration: 83
+duration: 94
 ---
 # Integrate AEM Forms and Marketo
 

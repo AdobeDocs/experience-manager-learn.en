@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 16170f0d-6933-47f2-aefa-951599d163c0
-duration: 626
+duration: 629
 ---
 # Adding components to People panel {#adding-components-to-people-panel}
 

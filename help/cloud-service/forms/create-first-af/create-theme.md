@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7386
 thumbnail: 332229.jpg
 exl-id: c8c04528-384b-48b3-abba-04db16fd87c5
-duration: 59
+duration: 61
 ---
 # Create theme
 

@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 0dd8a430-9a4e-4dc7-ad75-6ad2490430f2
-duration: 82
+duration: 93
 ---
 # Configuring Retirement Outlook Panel{#configuring-retirement-outlook-panel}
 

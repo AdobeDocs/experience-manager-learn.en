@@ -9,7 +9,7 @@ hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 thumbnail: 342268.jpeg
 exl-id: 8b31c415-bf12-420f-a81a-6065c56ccbed
-duration: 307
+duration: 310
 ---
 # Migrating to the Cloud - Part 2
 

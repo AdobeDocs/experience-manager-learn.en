@@ -7,7 +7,7 @@ role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: e472db7c-ac3f-4f66-85af-5a4c68ba609e
-duration: 138
+duration: 157
 ---
 # Image Presets {#image-presets}
 

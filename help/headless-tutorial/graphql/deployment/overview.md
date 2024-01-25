@@ -10,7 +10,7 @@ jira: KT-10794
 thumbnail: kt-10794.jpg
 last-substantial-update: 2022-08-26
 exl-id: 6de58ca0-9444-4272-9487-15a9e3c89231
-duration: 120
+duration: 136
 ---
 # AEM Headless deployments
 

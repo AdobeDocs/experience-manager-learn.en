@@ -10,7 +10,7 @@ jira: KT-12305
 last-substantial-update: 2023-03-01
 doc-type: Tutorial
 exl-id: 460e9bfa-1b15-41b9-b8b7-58b2b1252576
-duration: 175
+duration: 198
 ---
 # Authenticate to AEM Author using OKTA
 

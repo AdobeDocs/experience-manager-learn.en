@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-9352
 thumbnail: KT-9352.jpeg
 exl-id: 74cca740-bf5e-4cbd-9660-b0579301a3b4
-duration: 939
+duration: 948
 ---
 # Virtual Private Network (VPN)
 

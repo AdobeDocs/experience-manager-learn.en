@@ -9,7 +9,7 @@ feature: Operations
 index: y
 doc-type: Tutorial
 exl-id: 7993e482-3db0-46a0-ae2f-f5a167ac02dc
-duration: 84
+duration: 85
 ---
 # Invalidating the CDN Cache for AEM Dynamic Media
 

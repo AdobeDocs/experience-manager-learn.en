@@ -11,7 +11,7 @@ thumbnail: 5332-collect-data-analytics.jpg
 badgeIntegration: label="Integration" type="positive"
 doc-type: Tutorial
 exl-id: 33f2fd25-8696-42fd-b496-dd21b88397b2
-duration: 629
+duration: 668
 ---
 # Integrate AEM Sites and Adobe Analytics
 

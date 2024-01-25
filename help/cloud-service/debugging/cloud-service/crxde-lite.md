@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: f3f2c89f-6ec1-49d3-91c7-10a42b897780
-duration: 140
+duration: 157
 ---
 # Debugging AEM as a Cloud Service with CRXDE Lite
 

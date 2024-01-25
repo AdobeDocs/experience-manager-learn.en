@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: fcef5adc-10fb-42b2-ab46-c7674e94e805
-duration: 240
+duration: 242
 ---
 # Create Adaptive Form Template and Page Component
 

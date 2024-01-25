@@ -11,7 +11,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: b89ea04b-56dd-494f-a454-644166660a2a
-duration: 245
+duration: 247
 ---
 # Check-In Check-Out {#check-in-check-out}
 

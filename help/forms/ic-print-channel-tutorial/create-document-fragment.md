@@ -11,7 +11,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 2fe3f950-bc2a-4e91-8d91-00438691727a
-duration: 220
+duration: 227
 ---
 # Creating Document Fragment
 

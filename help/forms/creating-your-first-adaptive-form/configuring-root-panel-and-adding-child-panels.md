@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: a68c41b8-3e80-4b25-a933-9ceb8aee1e01
-duration: 188
+duration: 191
 ---
 # Adding Child Panels to Root Panel {#adding-child-panels-to-root-panel}
 

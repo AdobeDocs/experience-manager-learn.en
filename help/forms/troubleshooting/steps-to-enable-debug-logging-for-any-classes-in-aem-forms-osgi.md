@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: 92bf6bad-4dc0-44aa-9af4-54a3a9088643
-duration: 57
+duration: 58
 ---
 # Steps to enable debug logging for any classes in AEM Forms OSGi
 

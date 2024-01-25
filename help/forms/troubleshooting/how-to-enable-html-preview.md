@@ -9,7 +9,7 @@ feature: Designer
 topic: Development
 index: y
 exl-id: 6154883b-53e2-4a4f-ba97-9e0730fe3c13
-duration: 43
+duration: 44
 ---
 
 # How to enable Preview HTML

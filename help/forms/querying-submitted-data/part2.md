@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 29195c70-af12-4a22-8484-3c87a1e07378
-duration: 136
+duration: 110
 ---
 # Storing Submitted Data in Database
 

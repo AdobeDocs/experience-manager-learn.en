@@ -11,7 +11,7 @@ topic: Content Management
 last-substantial-update: 2021-09-23
 doc-type: Feature Video
 exl-id: eba697fc-02ca-4ac8-82d5-7b230ef4d45b
-duration: 102
+duration: 103
 ---
 # Navigation
 

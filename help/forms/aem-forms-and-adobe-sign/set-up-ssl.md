@@ -11,7 +11,7 @@ level: Intermediate
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: e94cde31-e589-4b71-b5de-bcd898393b8a
-duration: 474
+duration: 476
 ---
 # Enable SSL for AEM
 

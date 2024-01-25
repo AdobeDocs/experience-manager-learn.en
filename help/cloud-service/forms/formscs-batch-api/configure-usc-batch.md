@@ -9,7 +9,7 @@ feature: Output Service
 topic: Development
 jira: KT-9667
 exl-id: 521084fc-d70b-4a89-8e17-714820341e21
-duration: 300
+duration: 302
 ---
 # Batch data configuration
 

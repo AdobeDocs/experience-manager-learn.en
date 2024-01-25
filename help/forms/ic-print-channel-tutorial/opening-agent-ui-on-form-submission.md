@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: 509b4d0d-9f3c-46cb-8ef7-07e831775086
-duration: 180
+duration: 183
 ---
 # Opening Agent UI On POST Submission
 

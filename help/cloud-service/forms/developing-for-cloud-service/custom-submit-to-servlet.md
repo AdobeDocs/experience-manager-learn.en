@@ -10,7 +10,7 @@ topic: Development
 feature: Developer Tools
 jira: KT-8852
 exl-id: 983e0394-7142-481f-bd5e-6c9acefbfdd0
-duration: 60
+duration: 58
 ---
 # Create servlet to process the submitted data
 

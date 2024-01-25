@@ -9,7 +9,7 @@ feature: Developer Tools
 jira: KT-6933
 thumbnail: 330558.jpg
 exl-id: 73fe8fb8-ff8a-4070-bc0c-384387d0a25e
-duration: 14
+duration: 16
 ---
 # Set up local development environment
 

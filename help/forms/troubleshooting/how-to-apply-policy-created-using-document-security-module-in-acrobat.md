@@ -9,7 +9,7 @@ feature: Document Security
 topic: Development
 index: y
 exl-id: 086afdf4-c9a4-4bb9-b242-e6337281ef9b
-duration: 134
+duration: 135
 ---
 # How to apply policy created using document security module in Acrobat
 

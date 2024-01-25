@@ -10,7 +10,7 @@ jira: KT-7875
 thumbnail: 333339.jpg
 last-substantial-update: 2023-05-17
 exl-id: 190623cc-8959-46b3-95de-e7d01bf5acdb
-duration: 200
+duration: 202
 ---
 # GraphQL Endpoints
 

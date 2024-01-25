@@ -6,7 +6,7 @@ topic: Development
 role: Developer
 level: Beginner
 thumbnail: 30476.jpeg
-duration: 416
+duration: 424
 ---
 
 # Getting Started Developing AEM Sites - WKND Tutorial{#getting-started-developing-aem-sites-wknd-tutorial}

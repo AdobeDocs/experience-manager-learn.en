@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 kt: kt-8049
 exl-id: 1131dca8-882d-4904-8691-95468fb708b7
-duration: 100
+duration: 66
 ---
 # Custom Process Step
 

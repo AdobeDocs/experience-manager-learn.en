@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: d6b6d425-842a-43a9-9041-edf78e51d962
-duration: 512
+duration: 532
 ---
 # Chapter 7 - Consuming AEM Content Services from a Mobile App
 

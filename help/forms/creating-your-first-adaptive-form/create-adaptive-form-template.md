@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 404c345b-efc3-44b9-bc38-6d911627ff5a
-duration: 266
+duration: 270
 ---
 # Creating Adaptive Form Template
 

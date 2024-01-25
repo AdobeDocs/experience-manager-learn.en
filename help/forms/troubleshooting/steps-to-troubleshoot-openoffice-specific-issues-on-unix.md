@@ -9,7 +9,7 @@ feature: PDF Generator
 topic: Development
 index: y
 exl-id: bc86dda1-18a4-474b-a8ec-d4e7f15ddd10
-duration: 87
+duration: 88
 ---
 # Steps to troubleshoot OpenOffice specific failures on a Unix setup
 

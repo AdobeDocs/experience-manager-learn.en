@@ -9,7 +9,7 @@ feature: Output Service
 topic: Development
 jira: KT-9980
 exl-id: 0e4fd0a0-eaa8-490d-b036-713b25974d60
-duration: 42
+duration: 30
 ---
 # Exchange JWT for Access Token
 

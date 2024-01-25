@@ -9,7 +9,7 @@ level: Intermediate
 last-substantial-update: 2022-06-20
 doc-type: Feature Video
 exl-id: 500a9b10-462a-4f41-9b07-67138955cc3d
-duration: 471
+duration: 475
 ---
 # Understanding the User Experience of Asset Share Commons{#understanding-asset-share-commons}
 

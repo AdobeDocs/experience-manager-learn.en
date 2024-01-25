@@ -12,7 +12,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: ec048414-2351-4e3d-b5f1-ade035c07897
-duration: 629
+duration: 610
 ---
 # Load and fire a Target call {#load-fire-target}
 

@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 doc-type: Technical Video
 exl-id: 5b764d86-8ced-46ed-838e-4bd2e75fd64c
-duration: 431
+duration: 433
 ---
 # Set up Asset Templates with AEM Assets and InDesign Server{#set-up-asset-templates-with-aem-assets-and-indesign-server}
 

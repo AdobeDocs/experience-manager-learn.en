@@ -9,7 +9,7 @@ feature: Output Service,Forms Service
 topic: Administration
 jira: KT-11091
 exl-id: 933ec5f6-3e9c-4271-bc35-4ecaf6dbc434
-duration: 42
+duration: 45
 ---
 # How to enable creation of pdf files by merging large xml data files with xdp templates
 

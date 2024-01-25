@@ -11,7 +11,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: d4355f72-aefa-4ab3-ba7e-ebd7f7b536f0
-duration: 123
+duration: 125
 ---
 # Create Interactive Communication For Print Channel {#create-interactive-communication-for-print-channel}
 

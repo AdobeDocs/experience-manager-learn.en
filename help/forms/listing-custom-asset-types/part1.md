@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: da613092-e03b-467c-9b9e-668142df4634
 last-substantial-update: 2019-07-11
-duration: 146
+duration: 165
 ---
 # Registering Custom Asset Types {#registering-custom-asset-types}
 

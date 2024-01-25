@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: d486d5de-efd9-4dd3-9d9c-1bef510c6073
-duration: 92
+duration: 104
 ---
 # Verify users with OTP
 

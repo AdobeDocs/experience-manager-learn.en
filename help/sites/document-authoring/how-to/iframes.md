@@ -10,7 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14486
 thumbnail: 3425719.jpeg
-duration: 96
+duration: 97
 exl-id: 59195777-e2fc-4654-8361-bd449cc19e5a
 ---
 # Embed content with iFrames

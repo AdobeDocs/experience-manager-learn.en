@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 014506e5-a7c9-4220-a429-71c961af36ba
 last-substantial-update: 2021-07-07
-duration: 21
+duration: 24
 ---
 # AEM Forms with JSON Schema and Data
 

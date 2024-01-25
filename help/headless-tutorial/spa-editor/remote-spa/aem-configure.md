@@ -11,7 +11,7 @@ last-substantial-update: 2022-11-11
 recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: 0bdb93c9-5070-483c-a34c-f2b348bfe5ae
-duration: 376
+duration: 378
 ---
 # Configure AEM for SPA Editor
 

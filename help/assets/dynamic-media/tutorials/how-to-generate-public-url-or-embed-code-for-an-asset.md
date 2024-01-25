@@ -9,7 +9,7 @@ feature: Asset Distribution
 index: y
 doc-type: Tutorial
 exl-id: 2b526f92-17b4-4a69-9c1c-d8ca42334433
-duration: 115
+duration: 117
 ---
 # Generating URLs and Embed Codes for AEM Dynamic Media assets
 

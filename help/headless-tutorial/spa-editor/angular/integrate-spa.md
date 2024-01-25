@@ -10,7 +10,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: e9386885-86de-4e43-933c-2f0a2c04a2f2
-duration: 687
+duration: 649
 ---
 # Integrate a SPA {#integrate-spa}
 

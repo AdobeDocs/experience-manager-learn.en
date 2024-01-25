@@ -10,7 +10,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 44433595-08bc-4a82-9232-49d46c31b07b
-duration: 409
+duration: 350
 ---
 # Extend a Core Component {#extend-component}
 

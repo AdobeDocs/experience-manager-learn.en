@@ -9,7 +9,7 @@ feature: Designer
 topic: Administration
 index: y
 exl-id: 83e09f3f-1058-44d7-b068-a84eeb671e37
-duration: 83
+duration: 84
 ---
 # How to install Designer Patches
 

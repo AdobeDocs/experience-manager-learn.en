@@ -11,7 +11,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 6dc66195-f438-4366-a5e2-486145e4b6d7
-duration: 404
+duration: 408
 ---
 # Publishing pages {#using-publication-management-with-aem-sites}
 

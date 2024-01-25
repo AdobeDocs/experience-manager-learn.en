@@ -9,7 +9,7 @@ feature: Output Service, Forms Service
 topic: Development
 index: y
 exl-id: acfa77ec-eb30-4b8a-83d1-5f62a9b17586
-duration: 126
+duration: 128
 ---
 # How to update  custom XDPs and data files in FormsIVS and OutputIVS
 

@@ -11,7 +11,7 @@ jira: KT-11164
 thumbnail: 3409492.jpeg
 doc-type: Feature Video
 exl-id: 06164830-ec82-440f-bb45-63862c222508
-duration: 339
+duration: 340
 ---
 # Content Fragments Console overview
 

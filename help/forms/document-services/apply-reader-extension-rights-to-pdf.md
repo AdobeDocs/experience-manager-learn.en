@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: ea433667-81db-40f7-870d-b16630128871
 last-substantial-update: 2020-07-07
-duration: 162
+duration: 127
 ---
 # Applying Reader Extensions
 

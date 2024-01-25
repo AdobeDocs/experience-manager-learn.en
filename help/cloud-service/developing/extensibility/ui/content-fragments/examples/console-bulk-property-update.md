@@ -11,7 +11,7 @@ thumbnail: KT-11604.png
 doc-type: article
 last-substantial-update: 2022-12-09
 exl-id: fbfb5c10-95f8-4875-88dd-9a941d7a16fd
-duration: 1475
+duration: 1319
 ---
 # Bulk property update example extension
 

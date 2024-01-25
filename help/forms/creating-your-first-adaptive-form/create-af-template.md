@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 jira: KT-5859
 thumbnail: 37324.jpg
-duration: 266
+duration: 270
 ---
 
 # Creating Adaptive Form Template

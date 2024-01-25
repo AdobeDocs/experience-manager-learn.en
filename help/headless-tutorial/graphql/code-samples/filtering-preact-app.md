@@ -12,7 +12,7 @@ index: no
 hide: yes
 hidefromtoc: yes
 exl-id: d2b7e8ab-8bbc-495f-94f1-362ea47b3853
-duration: 28
+duration: 32
 ---
 # Filtering Preact app
 

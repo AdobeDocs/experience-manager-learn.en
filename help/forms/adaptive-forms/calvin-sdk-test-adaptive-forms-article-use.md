@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 exl-id: 5a1364f3-e81c-4c92-8972-4fdc24aecab1
 last-substantial-update: 2020-09-10
-duration: 117
+duration: 124
 ---
 # Using Automated Tests with AEM Adaptive Forms {#using-automated-tests-with-aem-adaptive-forms}
 

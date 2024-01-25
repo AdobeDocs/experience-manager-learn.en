@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: dccca658-3373-4de2-8589-21ccba2b7ba6
-duration: 43
+duration: 49
 ---
 # Configure Data Source
 

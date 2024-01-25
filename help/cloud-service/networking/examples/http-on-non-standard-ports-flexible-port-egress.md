@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-9354
 thumbnail: KT-9354.jpeg
 exl-id: c8cc0385-9e94-4120-9fb1-aeccbfcc8aa4
-duration: 115
+duration: 88
 ---
 # HTTP/HTTPS connections on non-standard ports for flexible port egress
 

@@ -9,7 +9,7 @@ feature: Workbench
 topic: Administration
 index: y
 exl-id: 6cb41242-18d3-420a-9e33-87091a648703
-duration: 66
+duration: 67
 ---
 # How to tweak Workbench performance parameters
 

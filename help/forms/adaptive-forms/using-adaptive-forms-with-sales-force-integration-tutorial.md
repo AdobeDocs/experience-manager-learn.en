@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: 7a4fd109-514a-41a8-a3fe-53c1de32cb6d
 last-substantial-update: 2020-02-14
-duration: 202
+duration: 228
 ---
 # Configuring DataSource with Salesforce in AEM Forms 6.3 and 6.4{#configuring-datasource-with-salesforce-in-aem-forms-and}
 

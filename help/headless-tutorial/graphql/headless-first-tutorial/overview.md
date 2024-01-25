@@ -11,7 +11,7 @@ last-substantial-update: 2023-05-16
 jira: KT-13270
 thumbnail: KT-13270.jpeg
 exl-id: b0ac4b50-5fe5-41a1-9530-8e593d7000c9
-duration: 99
+duration: 112
 ---
 # AEM Headless first tutorial
 

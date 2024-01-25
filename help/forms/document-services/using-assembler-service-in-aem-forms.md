@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: 18da12ea-b1ea-48e4-979e-3cb59584dfbd
 last-substantial-update: 2020-07-07
-duration: 98
+duration: 74
 ---
 # Using Assembler Service in AEM Forms{#using-assembler-service-in-aem-forms}
 

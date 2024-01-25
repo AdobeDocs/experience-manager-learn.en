@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 62a36ab1-3245-43ac-b943-e28ff95661bf
-duration: 111
+duration: 112
 ---
 # Use Online Revision Clean-up
 

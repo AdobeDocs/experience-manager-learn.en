@@ -8,7 +8,7 @@ feature: Asset Compute Microservices
 role: Developer
 level: Intermediate, Experienced
 exl-id: ebb11eab-1412-4af5-bc09-e965b9116ac9
-duration: 198
+duration: 212
 ---
 # Create an Asset Compute project
 

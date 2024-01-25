@@ -10,7 +10,7 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 exl-id: 9400d9f2-f828-4180-95a7-2ac7b74cd3c9
-duration: 271
+duration: 305
 ---
 # Defining Content Fragment Models {#content-fragment-models}
 

@@ -8,7 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: 49b6a172-8c96-4fc6-8d31-c2109f65faac
-duration: 110
+duration: 91
 ---
 # Select a form to fill from a drop-down list
 

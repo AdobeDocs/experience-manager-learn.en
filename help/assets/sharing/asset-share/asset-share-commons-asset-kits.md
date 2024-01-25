@@ -11,7 +11,7 @@ last-substantial-update: 2023-02-13
 jira: KT-11868
 thumbnail: 3415467.jpeg
 exl-id: fb8adf75-02d7-44e5-a84e-e0731100dc58
-duration: 644
+duration: 646
 ---
 # Asset Share Commons Asset Kit
 

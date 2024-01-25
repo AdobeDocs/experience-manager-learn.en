@@ -10,7 +10,7 @@ last-substantial-update: 2022-10-20
 thumbnail: inline-dam.jpg
 kt: kt-11307
 exl-id: 339eb16e-8ad8-4b98-939c-b4b5fd04d67e
-duration: 72
+duration: 64
 ---
 # Display DAM image in Adaptive Forms
 

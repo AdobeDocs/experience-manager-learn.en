@@ -12,7 +12,7 @@ index: y
 recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: d6da05e4-bd65-4625-b9a4-cad8eae3c9d7
-duration: 251
+duration: 270
 ---
 # Deploy using the front-end pipeline
 

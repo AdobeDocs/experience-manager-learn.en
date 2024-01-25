@@ -9,7 +9,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: 9b191211-2030-4b62-acad-c7eb45b807ca
-duration: 346
+duration: 357
 ---
 # Using AEM Legacy Cloud Services
 

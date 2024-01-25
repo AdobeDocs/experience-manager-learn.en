@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 last-substantial-update: 2023-07-14
 exl-id: 62b73f4b-69d8-4ede-9d57-3d6472d25d5a
-duration: 129
+duration: 142
 ---
 # Integrate AEM Forms with SendGrid
 

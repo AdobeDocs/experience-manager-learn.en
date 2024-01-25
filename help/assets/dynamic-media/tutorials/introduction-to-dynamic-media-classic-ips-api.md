@@ -9,7 +9,7 @@ topic: Development
 index: y
 doc-type: Tutorial
 exl-id: ef4fd51c-975a-400c-8427-555b77897a09
-duration: 103
+duration: 104
 ---
 # AEM Dynamic Media Classic IPS APIs
 

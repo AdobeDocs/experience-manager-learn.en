@@ -10,7 +10,7 @@ role: Developer
 level: Intermediate
 doc-type: Feature Video
 exl-id: 06f2ae4d-c18e-45ed-96d7-ddc6f9c8d829
-duration: 755
+duration: 760
 ---
 # Custom Smart Tags for images 
 

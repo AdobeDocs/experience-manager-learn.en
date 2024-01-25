@@ -7,7 +7,7 @@ role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: 975b85af-ca6a-419e-ab2a-6e1781bfee4a
-duration: 187
+duration: 212
 ---
 # Dynamic Media Classic Best Practices Tutorial
 

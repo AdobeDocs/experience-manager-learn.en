@@ -9,7 +9,7 @@ feature: Developer Tools, Dispatcher
 jira: KT-6915
 thumbnail: 330538.jpg
 exl-id: 7d0812b7-2346-42a9-bcd4-ceb394905bea
-duration: 8
+duration: 9
 ---
 # Manage Dispatcher Configurations in AEM Cloud Manager
 

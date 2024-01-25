@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: cd8e5fad-d17a-4f80-b4f6-0d43be4dfb80
-duration: 315
+duration: 316
 ---
 # Adding components to Assets panel {#adding-components-to-assets-section}
 

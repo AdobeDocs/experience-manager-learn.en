@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 53279cbb-70c8-4319-b5bb-9a7d350a7f72
 last-substantial-update: 2022-05-10
 thumbnail: understand-cloud-manager.jpg
-duration: 1026
+duration: 1040
 ---
 # Understand Adobe Cloud Manager
 

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 45daa8e3-ce3b-43de-b3d6-276107215dd4
-duration: 463
+duration: 468
 ---
 # Using Asset Catalog with AEM Commerce and InDesign Server{#using-asset-catalog-with-aem-commerce-and-indesign-server}
 

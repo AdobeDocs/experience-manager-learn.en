@@ -11,7 +11,7 @@ doc-type: Feature Video
 exl-id: 8ec12629-3acd-4958-b25c-0ae0b97ce244
 last-substantial-update: 2022-08-10
 thumbnail: KT-657.jpg
-duration: 434
+duration: 436
 ---
 # Use the Workflow Editor
 

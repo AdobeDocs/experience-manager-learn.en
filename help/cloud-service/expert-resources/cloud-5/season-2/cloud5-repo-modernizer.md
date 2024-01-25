@@ -8,7 +8,7 @@ thumbnail: 342865.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: de4c2a3b-e5a3-4b2c-aaa0-c0f7028dd61e
-duration: 308
+duration: 309
 ---
 # Cloud 5 - Repository Modernizer
 

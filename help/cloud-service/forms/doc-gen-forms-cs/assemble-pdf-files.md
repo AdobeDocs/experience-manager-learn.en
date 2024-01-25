@@ -9,7 +9,7 @@ feature: Output Service
 topic: Development
 jira: KT-9958
 thumbnail: 332439.jpg
-duration: 63
+duration: 47
 ---
 # Manipulate PDF files using the invoke DDX endpoint
 

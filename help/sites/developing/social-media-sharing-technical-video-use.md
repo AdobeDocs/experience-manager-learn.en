@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 doc-type: Technical Video
 exl-id: 569069e8-7964-49f1-96ed-7dfa4f8ed96c
-duration: 518
+duration: 523
 ---
 # Using Social Media Sharing {#using-social-media-sharing-in-aem-sites}
 

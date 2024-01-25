@@ -11,7 +11,7 @@ topic: Content Management
 last-substantial-update: 2021-09-27
 doc-type: Feature Video
 exl-id: a05f995e-11bb-4b28-9aed-3033071244f7
-duration: 5
+duration: 6
 ---
 # Relate and Unrelate 
 

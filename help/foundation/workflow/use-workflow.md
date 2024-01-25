@@ -10,7 +10,7 @@ jira: KT-2557
 thumbnail: 27848.jpg
 doc-type: Feature Video
 exl-id: 5a6bf1f2-1dd5-40b4-8ceb-03672a36869d
-duration: 205
+duration: 207
 ---
 # Use Workflow
 

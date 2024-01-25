@@ -9,7 +9,7 @@ level: Beginner
 kt: kt-13918
 last-substantial-update: 2023-09-12
 exl-id: b0baac71-3074-49d5-9686-c9955b096abb
-duration: 63
+duration: 72
 ---
 # Extract document from list of documents
 

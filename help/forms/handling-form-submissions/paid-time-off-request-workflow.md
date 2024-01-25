@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 9342bd2f-2ba9-42ee-9224-055649ac3c90
 last-substantial-update: 2020-07-07
-duration: 601
+duration: 611
 ---
 # Simple Paid Time Off Request Workflow
 

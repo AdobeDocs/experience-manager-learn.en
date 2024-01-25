@@ -7,7 +7,7 @@ role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: 678671c3-af25-4da1-bc14-cbc4cc19be8d
-duration: 139
+duration: 158
 ---
 # Smart Imaging {#smart-imaging}
 

@@ -11,7 +11,7 @@ last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
 exl-id: e6d67204-2f76-441c-a178-a34798fe266d
-duration: 170
+duration: 177
 ---
 # Protecting websites with traffic filter rules (including WAF rules)
 

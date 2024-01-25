@@ -11,7 +11,7 @@ last-substantial-update: 2023-11-10
 jira: KT-13312
 thumbnail: KT-13312.jpeg
 exl-id: 43aa7133-7f4a-445a-9220-1d78bb913942
-duration: 342
+duration: 383
 ---
 # CDN cache hit ratio analysis
 

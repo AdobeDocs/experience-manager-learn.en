@@ -10,7 +10,7 @@ jira: KT-10253
 thumbnail: KT-10253.jpeg
 last-substantial-update: 2023-04-19
 exl-id: 6dbeec28-b84c-4c3e-9922-a7264b9e928c
-duration: 409
+duration: 377
 ---
 # Optimized images with AEM Headless {#images-with-aem-headless}
 
