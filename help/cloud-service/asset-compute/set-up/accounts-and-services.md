@@ -10,7 +10,7 @@ topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: 707657ad-221e-4dab-ac2a-46a4fcbc55bc
-duration: 228
+duration: 247
 ---
 # Set up accounts and services
 

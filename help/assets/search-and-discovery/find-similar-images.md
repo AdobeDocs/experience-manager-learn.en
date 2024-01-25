@@ -7,7 +7,7 @@ feature: Search
 role: User
 level: Beginner
 doc-type: Feature Video
-duration: 97
+duration: 98
 last-substantial-update: 2024-01-08
 jira: KT-14752
 thumbnail: 3426796.jpeg

@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 exl-id: abb74d44-d1b9-44d6-a49f-36c01acfecb4
 last-substantial-update: 2020-07-07
-duration: 94
+duration: 107
 ---
 # Using Watched Folders in AEM Forms{#using-watched-folders-in-aem-forms}
 

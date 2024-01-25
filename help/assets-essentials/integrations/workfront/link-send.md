@@ -13,7 +13,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets Essentials" before-title="false"
 doc-type: Feature Video
 exl-id: e1ec3560-2c74-47ac-ba8a-f05412b6b3e5
-duration: 431
+duration: 433
 ---
 # Sending documents and Linking assets
 

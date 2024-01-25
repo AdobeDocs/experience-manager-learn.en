@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: e36ecbaf-78fc-4acf-bacb-f19d933fb0fb
-duration: 79
+duration: 80
 ---
 # How to change the value of entropy
 

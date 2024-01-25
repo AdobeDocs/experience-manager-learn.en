@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-14675
-duration: 133
+duration: 77
 ---
 # Implement DataProvider interface
 

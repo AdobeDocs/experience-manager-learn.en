@@ -10,7 +10,7 @@ topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: 2b1d8786-592e-41f2-80cc-bc0b1c7e1b49
-duration: 216
+duration: 230
 ---
 # Set up App Builder
 

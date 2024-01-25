@@ -10,7 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: cc659581-031d-4f2a-90c1-cf721e481689
-duration: 290
+duration: 294
 ---
 # Creating page versions {#creating-page-versions-aem-sites}
 

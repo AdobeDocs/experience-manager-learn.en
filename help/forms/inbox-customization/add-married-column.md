@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 0b141b37-6041-4f87-bd50-dade8c0fee7d
-duration: 91
+duration: 85
 ---
 # Add custom columns
 

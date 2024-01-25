@@ -12,7 +12,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: d5de62ef-a2aa-4283-b500-e1f7cb5dec3b
-duration: 624
+duration: 640
 ---
 # Create a Tag Property {#create-tag-property}
 

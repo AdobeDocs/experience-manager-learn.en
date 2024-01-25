@@ -10,7 +10,7 @@ feature: Sling Model
 role: Architect, Developer
 level: Beginner
 exl-id: 92afc9c4-3d58-4787-86f6-46495d89c4d4
-duration: 242
+duration: 244
 ---
 # Introduction to [!DNL Sling] {#introduction-sling}
 

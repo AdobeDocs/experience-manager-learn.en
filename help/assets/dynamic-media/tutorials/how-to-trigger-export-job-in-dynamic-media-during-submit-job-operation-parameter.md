@@ -9,7 +9,7 @@ feature: Operations
 index: y
 doc-type: Tutorial
 exl-id: 2df133dc-8c9d-445c-895b-d2fb43cbd39e
-duration: 78
+duration: 80
 ---
 # Triggering an export job in AEM Dynamic Media
 

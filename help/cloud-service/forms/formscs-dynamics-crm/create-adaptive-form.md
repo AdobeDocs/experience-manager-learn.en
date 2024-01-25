@@ -9,7 +9,7 @@ feature: Adaptive Forms, Integrations
 topic: Development
 jira: KT-9839
 exl-id: 804b2fad-34a3-4bcb-913c-9070393a6c9c
-duration: 346
+duration: 347
 ---
 # Create and configure Adaptive Form 
 

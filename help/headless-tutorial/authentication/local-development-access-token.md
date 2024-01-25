@@ -11,7 +11,7 @@ level: Intermediate, Experienced
 last-substantial-update: 2023-01-12
 doc-type: Tutorial
 exl-id: 197444cb-a68f-4d09-9120-7b6603e1f47d
-duration: 653
+duration: 603
 ---
 # Local Development Access Token
 

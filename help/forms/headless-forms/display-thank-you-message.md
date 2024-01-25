@@ -8,7 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: 489970a6-1b05-4616-84e8-52b8c87edcda
-duration: 76
+duration: 60
 ---
 # Display the configured thank you message
 

@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: a0a0c8dc-5302-446c-9fec-e23fe1320e34
-duration: 38
+duration: 43
 ---
 # Create Interactive Communication for Web Channel 
 

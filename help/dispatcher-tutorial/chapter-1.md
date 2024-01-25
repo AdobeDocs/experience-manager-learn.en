@@ -7,7 +7,7 @@ role: Architect
 level: Beginner
 doc-type: Tutorial
 exl-id: 3bdb6e36-4174-44b5-ba05-efbc870c3520
-duration: 4266
+duration: 4722
 ---
 # Chapter 1 - Dispatcher Concepts, Patterns and Antipatterns
 

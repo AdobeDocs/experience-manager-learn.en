@@ -10,7 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14488
 thumbnail: 3425721.jpeg
-duration: 102
+duration: 103
 exl-id: 9577aa66-25a7-4092-984d-52eb2662c4ff
 ---
 # Image alt text

@@ -11,7 +11,7 @@ role: Developer
 level: Experienced
 exl-id: 93e1262b-0e93-4ba8-aafc-f9c517688ce9
 last-substantial-update: 2020-07-07
-duration: 78
+duration: 75
 ---
 # Handle HTML5 Form Submission
 

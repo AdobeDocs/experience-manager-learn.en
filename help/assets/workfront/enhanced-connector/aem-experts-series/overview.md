@@ -12,7 +12,7 @@ last-substantial-update: 2022-09-02
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"
 exl-id: 4f279c0d-270f-433e-b047-88c02f5b1e78
-duration: 76
+duration: 87
 ---
 # Integrate Workfront and AEM Assets with the enhanced connector
 

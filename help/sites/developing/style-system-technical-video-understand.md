@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate, Experienced
 doc-type: Technical Video
 exl-id: 8fbc3819-3214-4c58-8629-a27eb6f0c545
-duration: 1072
+duration: 1061
 ---
 # Understanding how to code for the Style System{#understanding-how-to-code-for-the-aem-style-system}
 

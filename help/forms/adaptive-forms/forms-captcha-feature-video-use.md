@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 exl-id: 7e5dcc6e-fe56-49af-97e3-7dfaa9c8738f
 last-substantial-update: 2019-06-09
-duration: 266
+duration: 272
 ---
 # Using CAPTCHAs with AEM Adaptive Forms{#using-captchas-with-aem-adaptive-forms}
 

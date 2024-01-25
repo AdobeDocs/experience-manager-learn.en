@@ -9,7 +9,7 @@ feature: PDF Generator
 topic: Administration
 index: y
 exl-id: ec190f18-1ab8-4fac-adec-3b64caee290a
-duration: 83
+duration: 84
 ---
 # How to change the transaction timeout of an application server in PDFG service
 

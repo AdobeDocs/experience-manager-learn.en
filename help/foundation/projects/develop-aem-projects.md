@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 9bfe3142-bfc1-4886-85ea-d1c6de903484
-duration: 1587
+duration: 1603
 ---
 # Develop Projects in AEM
 

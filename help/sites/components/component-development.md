@@ -10,7 +10,7 @@ jira: KT-4235
 thumbnail: 32547.jpg
 doc-type: Technical Video
 exl-id: ad767329-58bc-44ec-83de-2f5e3c8a30a3
-duration: 740
+duration: 742
 ---
 # Introduction to Component Development
 

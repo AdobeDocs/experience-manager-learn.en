@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: a24ea445-3997-4324-99c4-926b17c8d2ac
-duration: 53
+duration: 36
 ---
 # Create servlet
 

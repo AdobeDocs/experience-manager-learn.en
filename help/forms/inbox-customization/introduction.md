@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 3e1d86ab-e0c4-45d4-b998-75a44a7e4a3f
 last-substantial-update: 2020-07-07
-duration: 47
+duration: 54
 ---
 # AEM Inbox
 

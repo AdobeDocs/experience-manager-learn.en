@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7424
 thumbnail: 332434.pg
 exl-id: 21139665-eef2-4582-a360-bd4b8dafaf6c
-duration: 642
+duration: 643
 ---
 # Create an AEM Workflow
 

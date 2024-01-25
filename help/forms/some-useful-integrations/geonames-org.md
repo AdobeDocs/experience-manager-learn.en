@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 exl-id: f1f2cacc-9ec4-46d6-a6af-dac3f663de78
 last-substantial-update: 2021-02-07
-duration: 199
+duration: 218
 ---
 # Cascading drop down lists
 

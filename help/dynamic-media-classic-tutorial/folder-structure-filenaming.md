@@ -7,7 +7,7 @@ role: User
 level: Beginner
 doc-type: Tutorial
 exl-id: 15121896-9196-4ce0-aff2-9178563326b4
-duration: 275
+duration: 311
 ---
 # Determine Your Folder Structure and File Naming Convention {#folder-structure-filenaming}
 

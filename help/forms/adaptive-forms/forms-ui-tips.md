@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 jira: KT-9270
 last-substantial-update: 2019-06-09
-duration: 46
+duration: 43
 ---
 # Toggle password field visibility
 

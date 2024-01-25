@@ -10,7 +10,7 @@ feature: Cloud Manager, Environments
 role: Architect, Developer, Admin
 level: Beginner
 exl-id: f4311522-b8fb-4375-9ecc-73e0207a63b2
-duration: 193
+duration: 195
 ---
 # Using Adobe Cloud Manager - Environments
 

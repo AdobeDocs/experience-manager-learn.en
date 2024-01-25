@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 doc-type: Feature Video
 exl-id: 940608db-6e84-441a-b031-e8cf52459597
-duration: 231
+duration: 232
 ---
 # For Placement Only (FPO) Rendition{#for-placement-only-rendition}
 

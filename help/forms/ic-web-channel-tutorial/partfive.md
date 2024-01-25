@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 1d7093a8-3765-46ec-912a-b5a5503fd5af
-duration: 222
+duration: 229
 ---
 # Creating Document Fragments to hold the recipient name and address {#creating-document-fragments-to-hold-the-recipient-name-and-address}
 

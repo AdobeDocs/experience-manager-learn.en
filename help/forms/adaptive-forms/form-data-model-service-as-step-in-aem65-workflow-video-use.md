@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 exl-id: 1f13d82e-c1d0-4c8c-8468-b4a4c5897c71
 last-substantial-update: 2021-02-09
-duration: 246
+duration: 253
 ---
 # Using Form Data Model Service as Step in AEM 6.5 Workflow {#using-form-data-model-service-as-step-in-workflow}
 

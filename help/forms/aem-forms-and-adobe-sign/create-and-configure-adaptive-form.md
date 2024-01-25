@@ -10,7 +10,7 @@ level: Beginner
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: ee3dc77d-a888-473f-b2a6-7f7a4e969358
-duration: 644
+duration: 646
 ---
 # Create and configure adaptive form
 

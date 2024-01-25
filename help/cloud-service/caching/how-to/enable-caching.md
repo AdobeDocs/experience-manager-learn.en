@@ -11,7 +11,7 @@ last-substantial-update: 2023-11-17
 jira: KT-14224
 thumbnail: KT-14224.jpeg
 exl-id: 544c3230-6eb6-4f06-a63c-f56d65c0ff4b
-duration: 213
+duration: 200
 ---
 # How to enable CDN caching
 

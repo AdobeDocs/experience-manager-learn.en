@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 03cdf5d1-3253-44c9-ae1f-ec5d3c562427
-duration: 150
+duration: 170
 ---
 # Understand [!DNL Sling Model Exporter]
 

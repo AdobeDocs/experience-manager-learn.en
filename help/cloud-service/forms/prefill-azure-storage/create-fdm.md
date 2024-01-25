@@ -9,7 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-13717
 exl-id: afc0df42-b4fc-4d04-a36e-63e5a9438597
-duration: 550
+duration: 552
 ---
 # Create the integration with Azure Storage
 

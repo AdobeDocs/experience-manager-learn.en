@@ -10,7 +10,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: f2cf4063-0b08-4b4f-91e6-70e5a148f931
-duration: 141
+duration: 152
 ---
 # Create your first Angular SPA in AEM {#introduction}
 

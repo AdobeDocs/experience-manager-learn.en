@@ -10,7 +10,7 @@ topic: Development
 thumbnail: 7826.jpg
 jira: KT-7826
 exl-id: c1fd02aa-577b-453f-8948-ca50e3e8f89b
-duration: 167
+duration: 80
 ---
 # Interface implementation
 

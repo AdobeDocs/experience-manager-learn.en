@@ -9,7 +9,7 @@ version: Cloud Service
 topic: Integrations
 thumbnail: 335423.jpg
 exl-id: 0b543c6b-9cfd-4fac-b8d0-33153c036f4b
-duration: 64
+duration: 73
 ---
 # Putting it all together
 

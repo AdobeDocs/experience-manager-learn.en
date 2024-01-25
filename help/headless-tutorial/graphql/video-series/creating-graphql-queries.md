@@ -10,7 +10,7 @@ jira: KT-7621
 thumbnail: 332860.jpg
 last-substantial-update: 2023-05-17
 exl-id: c4f2e8f5-6acf-4efb-bdec-84d264568856
-duration: 649
+duration: 652
 ---
 # Creating GraphQL Queries
 

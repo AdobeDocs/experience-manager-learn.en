@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 doc-type: Feature Video
 exl-id: c125c0e0-1ed2-463e-bd34-767d009479eb
-duration: 368
+duration: 371
 ---
 # Understanding Responsive Layout {#understanding-responsive-layout-with-aem-sites}
 

@@ -11,7 +11,7 @@ mini-toc-levels: 1
 thumbnail: 30181.jpg
 doc-type: Tutorial
 exl-id: f54f3dc9-6ec6-4e55-9043-7a006840c905
-duration: 1270
+duration: 1209
 ---
 # Custom Component {#custom-component}
 

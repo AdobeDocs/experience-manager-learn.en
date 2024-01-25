@@ -9,7 +9,7 @@ role: Admin
 level: Beginner
 exl-id: 1f16acfd-e8fd-4b0d-85c4-ed860def6d02
 last-substantial-update: 2020-08-01
-duration: 311
+duration: 317
 ---
 # Add Reader Extensions credential{#configuring-reader-extension-osgi}
 

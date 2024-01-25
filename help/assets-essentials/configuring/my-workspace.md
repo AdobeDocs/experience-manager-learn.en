@@ -11,7 +11,7 @@ jira: KT-11800
 thumbnail: 3413809.jpeg
 doc-type: Feature Video
 exl-id: da9363f3-43a9-4396-b8e8-15267fd7a689
-duration: 144
+duration: 145
 ---
 # My Workspace in Assets Essentials
 

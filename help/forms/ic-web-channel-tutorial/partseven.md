@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 3babebd8-3c17-4583-9201-d93bae82f134
-duration: 176
+duration: 180
 ---
 # Adding text and image content to web channel document 
 

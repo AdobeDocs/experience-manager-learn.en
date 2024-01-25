@@ -10,7 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 4d365957-9a5a-44f8-a117-95c1c0dd757d
-duration: 506
+duration: 509
 ---
 # Using the Page Difference feature {#using-page-difference-with-aem-sites}
 

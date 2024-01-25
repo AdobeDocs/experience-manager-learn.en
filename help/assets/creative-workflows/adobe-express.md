@@ -7,7 +7,7 @@ topic: Integrations, Content Management, Content Supply Chain
 role: Admin, User
 level: Beginner
 doc-type: Feature Video
-duration: 517
+duration: 520
 last-substantial-update: 2023-12-06
 jira: KT-14645
 thumbnail: 3425972.jpeg

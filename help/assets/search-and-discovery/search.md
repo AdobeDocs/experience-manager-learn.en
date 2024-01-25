@@ -11,7 +11,7 @@ level: Beginner
 last-substantial-update: 2021-10-02
 doc-type: Feature Video
 exl-id: 7ea8ff25-d7af-4fad-a027-1e6b5440f810
-duration: 180
+duration: 181
 ---
 # Search{#aem-assets-search}
 

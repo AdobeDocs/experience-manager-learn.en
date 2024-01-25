@@ -8,7 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: c8684cd9-b9c5-4b5b-b990-27c5700cea9f
-duration: 36
+duration: 25
 ---
 # Displaying the form on card click
 

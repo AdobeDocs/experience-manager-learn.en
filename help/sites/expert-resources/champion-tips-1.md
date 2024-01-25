@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 topic: Content Management
 jira: KT-14251
 exl-id: d5967fb5-c151-478e-a554-41e235de3f83
-duration: 120
+duration: 121
 ---
 # AEM Champion Tips and Tricks: Editable Templates
 

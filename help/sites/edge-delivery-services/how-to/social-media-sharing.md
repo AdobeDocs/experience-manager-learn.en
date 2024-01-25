@@ -7,7 +7,7 @@ topic: Development
 role: Developer
 level: Beginner
 doc-type: Technical Video
-duration: 117
+duration: 118
 last-substantial-update: 2023-12-07
 jira: KT-14647
 thumbnail: 3425974.jpeg

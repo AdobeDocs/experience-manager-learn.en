@@ -9,7 +9,7 @@ feature: PDF Generator
 topic: Development
 index: y
 exl-id: a739462e-3d7a-49a2-a740-5c5c9400ea08
-duration: 76
+duration: 77
 ---
 # Steps to troubleshoot HtmltoPDF specific issues on a Unix setup (PhantomJS)
 

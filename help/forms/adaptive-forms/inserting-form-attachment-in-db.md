@@ -9,7 +9,7 @@ level: Experienced
 jira: KT-10488
 exl-id: e8a6cab8-423b-4a8e-b2b7-9b24ebe23834
 last-substantial-update: 2020-06-09
-duration: 93
+duration: 98
 ---
 # Inserting form attachment in database
 

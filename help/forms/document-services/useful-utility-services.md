@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 exl-id: add06b73-18bb-4963-b91f-d8e1eb144842
 last-substantial-update: 2020-07-07
-duration: 41
+duration: 39
 ---
 # Useful utility services
 

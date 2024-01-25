@@ -3,7 +3,7 @@ title: Governance and staffing models & archetypes
 description: Learn ways to operationalize your Adobe Experience Manager (AEM) platform and get the most value from your efforts.
 solution: Experience Manager
 exl-id: 808ab7a6-5ec5-4bbd-9a6e-cfc0b447430d
-duration: 283
+duration: 320
 ---
 # Adobe Experience Manager (AEM) - Governance and staffing models & archetypes
 

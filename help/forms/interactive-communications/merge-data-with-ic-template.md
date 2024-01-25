@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 exl-id: 3bfbb4ef-0c51-445a-8d7b-43543a5fa191
 last-substantial-update: 2019-07-07
-duration: 190
+duration: 157
 ---
 # Generate Print Channel Documents using submitted data
 

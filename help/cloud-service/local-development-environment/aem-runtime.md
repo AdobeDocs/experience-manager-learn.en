@@ -10,7 +10,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2022-09-02
 exl-id: 19f72254-2087-450b-909d-2d90c9821486
-duration: 511
+duration: 529
 ---
 # Set up local AEM SDK {#set-up-local-aem-sdk}
 

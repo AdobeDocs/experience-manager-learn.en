@@ -5,7 +5,7 @@ sub-product: Experience Manager Sites, Experience Manager Cloud Manager, Experie
 topic: Administration, Development
 feature: Developer Tools
 exl-id: ae1cdbe3-0863-41de-bb27-2e88c4640866
-duration: 202
+duration: 228
 ---
 # AEM as a Cloud Service Experts Series
 

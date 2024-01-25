@@ -11,7 +11,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 261135af-4d26-4b07-8ec9-6e9875a158ba
-duration: 221
+duration: 223
 ---
 # Access Adobe Asset Link {#access-adobe-asset-link}
 

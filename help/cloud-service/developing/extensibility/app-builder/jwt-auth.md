@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-11743
 last-substantial-update: 2023-01-17
 exl-id: 9a3fed96-c99b-43d1-9dba-a4311c65e5b9
-duration: 194
+duration: 161
 ---
 # Generate access token in App Builder action
 

@@ -9,7 +9,7 @@ level: Beginner
 kt: kt-9859
 exl-id: bab7c403-ba42-4a91-8c86-90b43ca6026c
 last-substantial-update: 2020-07-07
-duration: 29
+duration: 33
 ---
 # Write the document to the file system
 

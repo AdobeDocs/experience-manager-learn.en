@@ -9,7 +9,7 @@ feature: Adaptive Forms, Integrations
 topic: Development
 jira: KT-9839
 exl-id: cb26970f-f975-4405-bef6-782d27ab2906
-duration: 179
+duration: 180
 ---
 # Create and configure Form Data Model
 

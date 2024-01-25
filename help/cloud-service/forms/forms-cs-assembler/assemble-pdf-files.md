@@ -9,7 +9,7 @@ feature: Output Service
 topic: Development
 jira: KT-9980
 exl-id: 693dac88-84f3-4051-8e46-3105093711a3
-duration: 71
+duration: 50
 ---
 # Make the POST call
 

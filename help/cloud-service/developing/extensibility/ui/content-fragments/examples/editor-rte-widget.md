@@ -11,7 +11,7 @@ thumbnail: KT-13465.jpg
 doc-type: article
 last-substantial-update: 2023-06-12
 exl-id: 167a4b11-1202-4c7a-b022-f3f996348a4e
-duration: 529
+duration: 475
 ---
 # Add widgets to Rich Text Editor (RTE)
 

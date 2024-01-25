@@ -9,7 +9,7 @@ feature: Workbench
 topic: Development
 index: y
 exl-id: c0078e02-34b0-496c-9c06-b7b5fc0304f7
-duration: 35
+duration: 37
 ---
 # Gathering Workbench logs from the Help Menu
 

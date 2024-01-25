@@ -11,7 +11,7 @@ thumbnail: 22132.jpg
 last-substantial-update: 2022-06-13
 doc-type: Feature Video
 exl-id: 0681e2c4-8661-436c-9170-9aa841a6fa27
-duration: 431
+duration: 437
 ---
 # Using Metadata Import and Export in AEM Assets {#metadata-import-and-export}
 

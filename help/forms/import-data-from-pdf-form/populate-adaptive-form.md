@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 jira: KT-14196
 exl-id: f380d589-6520-4955-a6ac-2d0fcd5aaf3f
-duration: 38
+duration: 33
 ---
 # Make Ajax Call
 

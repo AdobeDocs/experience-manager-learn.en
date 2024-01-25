@@ -10,7 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: 0a640096-f5ed-467d-9919-4280c2d9c4e9
-duration: 360
+duration: 361
 ---
 # Live Copy and Blue Print {#livecopy-blueprint}
 

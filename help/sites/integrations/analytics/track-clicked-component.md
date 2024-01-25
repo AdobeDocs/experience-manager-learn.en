@@ -11,7 +11,7 @@ thumbnail: KT-6296.jpg
 badgeIntegration: label="Integration" type="positive"
 doc-type: Tutorial
 exl-id: ab051363-d3e8-4c07-b1fa-3a5d24757496
-duration: 509
+duration: 527
 ---
 # Track clicked component with Adobe Analytics
 

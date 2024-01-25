@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner, Intermediate
 exl-id: 0929bc1a-376c-4e16-a540-a276fd5af164
-duration: 496
+duration: 507
 ---
 # Debugging AEM SDK using the OSGi web console
 
