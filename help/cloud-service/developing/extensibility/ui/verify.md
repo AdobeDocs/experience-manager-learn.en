@@ -33,9 +33,9 @@ To create a URL that mounts the non-production extension into AEM, the URL of th
 For example, to preview an extension for the Content Fragment console:
 
 1. Log in to the desired AEM as a Cloud Service env.
-2. Select the __Content Fragments__ icon.
-3. Wait for the AEM Content Fragment Console to load in the browser.
-4. Copy the AEM Content Fragment Console's URL from the browser's address bar, it should resemble:
+1. Select the __Content Fragments__ icon.
+1. Wait for the AEM Content Fragment Console to load in the browser.
+1. Copy the AEM Content Fragment Console's URL from the browser's address bar, it should resemble:
 
     ```
     https://experience.adobe.com/?repo=author-p1234-e5678.adobeaemcloud.com#/@wknd/aem/cf/admin
@@ -74,11 +74,11 @@ This URL is used below when crafting the URLs for development and stage verifica
       https://experience.adobe.com/?devMode=true&ext=https://localhost:9080&repo=author-p1234-e5678.adobeaemcloud.com#/@wknd/aem/cf/admin
       ```
 
-2. Copy and paste the preview URL into your browser.
+1. Copy and paste the preview URL into your browser.
   
     + You may have to initially, and then periodically, [accept the HTTPS certificate](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/#accepting-the-certificate-first-time-users) for the local application's host (`https://localhost:9080`).
 
-3. The AEM UI loads with the local version of the extension injected into it for verification.
+1. The AEM UI loads with the local version of the extension injected into it for verification.
 
 >[!IMPORTANT]
 >
@@ -138,9 +138,9 @@ To ease the creation of preview and preview URLs described above, a JavaScript b
 The bookmarklet below previews the [local development builds](#verify-local-development-builds) of the extension on `https://localhost:9080`. To preview [stage builds](#verify-stage-builds), create a bookmarklet with the `previewApp` variable set to the URL of the deployed App Builder app.
 
 1. Create a bookmark in your browser.
-2. Edit the bookmark.
-3. Give a bookmark a meaningful name, such as `AEM UI Extension Preview (localhost:9080)`.
-4. Set the bookmark's URL to the following code:
+1. Edit the bookmark.
+1. Give a bookmark a meaningful name, such as `AEM UI Extension Preview (localhost:9080)`.
+1. Set the bookmark's URL to the following code:
 
     ```javascript
     javascript: (() => {
@@ -155,7 +155,7 @@ The bookmarklet below previews the [local development builds](#verify-local-deve
     })();
     ```
 
-5. Navigate to an extensible AEM UI to load the preview extension on, and then click the bookmarklet.
+1. Navigate to an extensible AEM UI to load the preview extension on, and then click the bookmarklet.
 
 >[!TIP]
 >
