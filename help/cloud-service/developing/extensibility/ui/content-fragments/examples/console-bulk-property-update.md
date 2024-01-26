@@ -102,17 +102,17 @@ function ExtensionRegistration() {
           getButton() {
             return {
               'id': 'bulk-property-update',     // Unique ID for the button
-              'label': 'Bulk property update',  // Button label 
+              'label': 'Bulk property update',  // Button label
               'icon': 'Edit'                    // Button icon; get name from: https://spectrum.adobe.com/page/icons/ (Remove spaces, keep uppercase)
             }
           },
 
           // Click handler for the extension button
           onClick(selections) {
-            // Collect the selected content fragment paths 
+            // Collect the selected content fragment paths
             const selectionIds = selections.map(selection => selection.id);
 
-            // Create a URL that maps to the 
+            // Create a URL that maps to the
             const modalURL = "/index.html#" + generatePath(
               "/content-fragment/:selection/bulk-property-update",
               {
@@ -127,12 +127,12 @@ function ExtensionRegistration() {
               url: modalURL
             })
           }
-        },
-
+        },        
       }
     })
   }
-  init().catch(console.error)
+}
+init().catch(console.error)
 ```
 
 ### Modal
