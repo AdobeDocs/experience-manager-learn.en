@@ -8,13 +8,15 @@ role: Developer
 level: Beginner
 recommendations: noDisplay, noCatalog
 jira: KT-11603
-last-substantial-update: 2023-06-02
+last-substantial-update: 2024-01-26
 exl-id: 2e37165d-c003-4206-8133-54e37ca35b8e
 duration: 214
 ---
 # Deploy an extension
 
 For use on AEM as a Cloud Service environments, the extension App Builder app must be deployed and approved.
+
+![Adobe Exchange](./assets/deploy/adobe-exchange.png){align="center"}
 
 There are several considerations to be aware of when deploying extension App Builder apps:
 
@@ -71,9 +73,9 @@ Deploy the extension to the Production workspace. Extensions deployed to the Pro
 ![Extension approval](./assets/deploy/adobe-exchange.png){align="center"}
 
 1. Log in to [Adobe Exchange](https://exchange.adobe.com/)
-1. Navigate to __Manage__ > __Apps pending review__
-1. __Review__ the extension App Builder app
-1. If the extension changes are acceptable __Accept__ the review. This immediately injects the extension on all AEM as a Cloud Service Author services within the Adobe Org.
+2. Navigate to __Manage__ > __Experience Cloud Applications__
+3. __Review__ the extension App Builder app
+4. If the extension changes are acceptable __Accept__ the review. This immediately injects the extension on all AEM as a Cloud Service Author services within the Adobe Org.
 
 Once the extension request is approved, the extension immediately becomes active in the AEM as a Cloud Service Author services.
 
@@ -86,7 +88,7 @@ Updating and extension App Builder app follows the same process as the [initial 
 To deploy a new version of an extension, it must first be revoked (or removed). While the extension is Revoked, it is not available in AEM consoles.
 
 1. Log in to [Adobe Exchange](https://exchange.adobe.com/)
-1. Navigate to __Manage__ > __App Builder Apps__
+1. Navigate to __Manage__ > __Experience Cloud Applications__
 1. __Revoke__ the Extension to update
 
 ### Deploy the extension
@@ -122,10 +124,10 @@ Deploy the extension to the Production workspace. Extensions deployed to the Pro
 
 #### Approve the deployment request 
 
-![Extension approval](./assets/deploy/adobe-exchange.png){align="center"}
+![Extension approval](./assets/deploy/review.png){align="center"}
 
 1. Log in to [Adobe Exchange](https://exchange.adobe.com/)
-1. Navigate to __Manage__ > __Apps pending review__
+1. Navigate to __Manage__ > __Experience Cloud Applications__
 1. __Review__ the extension App Builder app
 1. If the extension changes are acceptable __Accept__ the review. This immediately injects the extension on all AEM as a Cloud Service Author services within the Adobe Org.
 
@@ -138,5 +140,5 @@ Once the extension request is approved, the extension immediately becomes active
 To remove an extension, revoke (or remove) it from Adobe Exchange. When the extension is revoked, it is removed from all AEM as a Cloud Service Author services.
 
 1. Log in to [Adobe Exchange](https://exchange.adobe.com/)
-1. Navigate to __Manage__ > __App Builder Apps__
+1. Navigate to __Manage__ > __Experience Cloud Applications__
 1. __Revoke__ the Extension to remove

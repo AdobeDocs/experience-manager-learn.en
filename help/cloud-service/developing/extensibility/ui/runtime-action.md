@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 recommendations: noDisplay, noCatalog
 jira: KT-11603
-last-substantial-update: 2023-06-02
+last-substantial-update: 2024-01-26
 exl-id: 3062900a-0461-4c6f-81e6-c76a7f613804
 duration: 220
 ---
@@ -48,6 +48,7 @@ Adobe I/O Runtime actions can be called directly from the extension registration
 + `./src/aem-ui-extension/web-src/src/components/ExtensionRegistration.js`
 
 ```javascript
+...
 // allActions is an object containing all the actions defined in the extension's manifest
 import allActions from '../config.json'
 
@@ -57,39 +58,39 @@ import actionWebInvoke from '../utils'
 function ExtensionRegistration() {
   const init = async () => {
     const guestConnection = await register({
-      id: extensionId, // A unique ID for the extension
+      id: extensionId, // A unique ID for the extension, usually defined in Constants.js
       methods: {
         // Configure your header menu button here
         headerMenu: {
-          getButton() {
-            return {
+          getButtons() {
+            return [{
               'id': 'example.my-header-menu-extension',  // Unique ID for the button
               'label': 'My header menu extension',       // Button label 
-              'icon': 'Edit'                             // Button icon from https://spectrum.adobe.com/page/icons/
-            }
-          },
+              'icon': 'Edit',                             // Button icon from https://spectrum.adobe.com/page/icons/
 
-          // Click handler for the extension button
-          onClick() {
-            // Set the HTTP headers required to access the Adobe I/O runtime action
-            const headers = {
-              'Authorization': 'Bearer ' + guestConnection.sharedContext.get('auth').imsToken,
-              'x-gw-ims-org-id': guestConnection.sharedContext.get('auth').imsOrg
-            };
+              // Click handler for the extension button
+              onClick() {
+                // Set the HTTP headers required to access the Adobe I/O runtime action
+                const headers = {
+                  'Authorization': 'Bearer ' + guestConnection.sharedContext.get('auth').imsToken,
+                  'x-gw-ims-org-id': guestConnection.sharedContext.get('auth').imsOrg
+                };
 
-            // Set the parameters to pass to the Adobe I/O Runtime action
-            const params = {
-              aemHost: `https://${guestConnection.sharedContext.get('aemHost')}`, // Pass in the AEM host if the action interacts with AEM
-              aemAccessToken: guestConnection.sharedContext.get('auth').imsToken
-            };
+                // Set the parameters to pass to the Adobe I/O Runtime action
+                const params = {
+                  aemHost: `https://${guestConnection.sharedContext.get('aemHost')}`, // Pass in the AEM host if the action interacts with AEM
+                  aemAccessToken: guestConnection.sharedContext.get('auth').imsToken
+                };
 
-            try {
-              // Invoke Adobe I/O Runtime action named `generic`, with the configured headers and parameters.
-              const actionResponse = await actionWebInvoke(allActions['generic'], headers, params);
-            } catch (e) {
-              // Log and store any errors
-              console.error(e)
-            }           
+                try {
+                  // Invoke Adobe I/O Runtime action named `generic`, with the configured headers and parameters.
+                  const actionResponse = await actionWebInvoke(allActions['generic'], headers, params);
+                } catch (e) {
+                  // Log and store any errors
+                  console.error(e)
+                }           
+              }
+            }]
           }
         }
       }
@@ -97,6 +98,8 @@ function ExtensionRegistration() {
   }
   init().catch(console.error);
 }
+
+export default ExtensionRegistration;
 ```
 
 ### From modal

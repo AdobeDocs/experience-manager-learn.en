@@ -44,6 +44,7 @@ This example uses the [Luxon](https://moment.github.io/luxon/) library to comput
 + The values for each custom column, by row
 
 ```javascript
+import React from "react";
 import { generatePath } from "react-router";
 import { Text } from "@adobe/react-spectrum";
 import { register } from "@adobe/uix-guest";

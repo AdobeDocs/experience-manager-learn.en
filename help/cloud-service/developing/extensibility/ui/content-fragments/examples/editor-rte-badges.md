@@ -63,46 +63,48 @@ Also, see the key details of the RTE widget:
 `src/aem-cf-editor-1/web-src/src/components/ExtensionRegistration.js`
 
 ```javascript
+import React from "react";
 import { Text } from "@adobe/react-spectrum";
 import { register } from "@adobe/uix-guest";
 import { extensionId } from "./Constants";
 
 // This function is called when the extension is registered with the host and runs in an iframe in the Content Fragment Editor browser window.
 function ExtensionRegistration() {
-
   const init = async () => {
     const guestConnection = await register({
       id: extensionId,
       methods: {
         rte: {
-
           // RTE Badges
           getBadges: () => [
             {
-              id: "phoneNumber",                    // Provide a unique ID for the badge
-              prefix: "#",                          // Provide a Badge starting character
-              suffix: "#",                          // Provide a Badge ending character
-              backgroundColor: "",                  // Provide HEX or text CSS color code for the background
-              textColor: "#071DF8"                  // Provide HEX or text CSS color code for the text
-            }
+              id: "phoneNumber",
+              prefix: "#",
+              suffix: "#",
+              backgroundColor: "",
+              textColor: "#071DF8",
+            },
           ],
 
           // RTE Widgets
           getWidgets: () => [
             {
-              id: "largegroup-contact-list-widget",       // Provide a unique ID for the widget
-              label: "Large Group Bookings Customer Service",          // Provide a label for the widget
-              url: "/index.html#/largeBookingsCustomerService",     // Provide the "relative" URL to the widget content. It will be resolved as `/index.html#/largeBookingsCustomerService`
+              id: "largegroup-contact-list-widget",
+              label: "Large Group Bookings Customer Service",
+              url: "/index.html#/largeBookingsCustomerService",
             },
           ],
-      }
+        },
+      },
     });
   };
-  
+
   init().catch(console.error);
 
   return <Text>IFrame for integration with Host (AEM)...</Text>;
 }
+
+export default ExtensionRegistration;
 ```
 
 ### Add `largeBookingsCustomerService` route in `App.js`{#add-widgets-route}

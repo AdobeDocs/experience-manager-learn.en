@@ -53,7 +53,6 @@ Based on the AEM UI extension template selected when [initializing the App Build
 
 + [Content Fragments UI extension points](./content-fragments/overview.md#extension-points)
 
-
 ## Conditionally include extensions
 
 AEM UI extensions can execute custom logic to limit the AEM environments the extension appears in. This check is performed before the `register` call in the `ExtensionRegistration` component, and immediately returns if the extension should not be displayed.

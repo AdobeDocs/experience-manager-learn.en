@@ -54,39 +54,45 @@ The `insertContent` value is a HTML string, `<div class=\"cmp-contentfragment__e
 `src/aem-cf-editor-1/web-src/src/components/ExtensionRegistration.js`
 
 ```javascript
+import React from "react";
 import { Text } from "@adobe/react-spectrum";
 import { register } from "@adobe/uix-guest";
 import { extensionId } from "./Constants";
 
 // This function is called when the extension is registered with the host and runs in an iframe in the Content Fragment Editor browser window.
 function ExtensionRegistration() {
-
   const init = async () => {
     const guestConnection = await register({
       id: extensionId,
       methods: {
         rte: {
-
           // RTE Toolbar custom button
-          getCustomButtons: () => ([
+          getCustomButtons: () => [
             {
-              id: "wknd-cf-tip",       // Provide a unique ID for the custom button
-              tooltip: "Add Tip",      // Provide a label for the custom button
-              icon: 'Note',            // Provide an icon for the button (see https://spectrum.adobe.com/page/icons/ for a list of available icons)
-              onClick: (state) => {    // Provide a click handler function that returns the instructions array with type and value. This example inserts the HTML snippet for TIP content.
-                return [{
-                  type: "insertContent",
-                  value: "<div class=\"cmp-contentfragment__element-tip\"><div>TIP</div><div>Add your tip text here...</div></div>"
-                }];
+              id: "wknd-cf-tip", // Provide a unique ID for the custom button
+              tooltip: "Add Tip", // Provide a label for the custom button
+              icon: "Note", // Provide an icon for the button (see https://spectrum.adobe.com/page/icons/ for a list of available icons)
+              onClick: (state) => {
+                // Provide a click handler function that returns the instructions array with type and value. This example inserts the HTML snippet for TIP content.
+                return [
+                  {
+                    type: "insertContent",
+                    value:
+                      '<div class="cmp-contentfragment__element-tip"><div>TIP</div><div>Add your tip text here...</div></div>',
+                  },
+                ];
               },
             },
-          ]),
-      }
+          ],
+        },
+      },
     });
   };
-  
+
   init().catch(console.error);
 
   return <Text>IFrame for integration with Host (AEM)...</Text>;
 }
+
+export default ExtensionRegistration;
 ```

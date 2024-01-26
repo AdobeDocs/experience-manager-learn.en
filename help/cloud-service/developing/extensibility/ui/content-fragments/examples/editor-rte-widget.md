@@ -53,35 +53,37 @@ The WKND content authors can find, select, and add current Adventure-specific di
 `src/aem-cf-editor-1/web-src/src/components/ExtensionRegistration.js`
 
 ```javascript
+import React from "react";
 import { Text } from "@adobe/react-spectrum";
 import { register } from "@adobe/uix-guest";
 import { extensionId } from "./Constants";
 
 // This function is called when the extension is registered with the host and runs in an iframe in the Content Fragment Editor browser window.
 function ExtensionRegistration() {
-
   const init = async () => {
     const guestConnection = await register({
       id: extensionId,
       methods: {
         rte: {
-
           // RTE Widgets
           getWidgets: () => [
             {
-              id: "discountcode-list-widget",       // Provide a unique ID for the widget
-              label: "Discount Code List",          // Provide a label for the widget
-              url: "/index.html#/discountCodes",     // Provide the "relative" URL to the widget content. It will be resolved as `/index.html#/discountCodes`
+              id: "discountcode-list-widget", // Provide a unique ID for the widget
+              label: "Discount Code List", // Provide a label for the widget
+              url: "/index.html#/discountCodes", // Provide the "relative" URL to the widget content. It will be resolved as `/index.html#/discountCodes`
             },
           ],
-      }
+        }, // Add a comma here
+      },
     });
   };
-  
+
   init().catch(console.error);
 
   return <Text>IFrame for integration with Host (AEM)...</Text>;
 }
+
+export default ExtensionRegistration;
 ```
 
 ### Add `discountCodes` route in `App.js`{#add-widgets-route}
