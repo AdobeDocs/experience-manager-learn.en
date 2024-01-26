@@ -95,7 +95,7 @@ There are two logical sets of routes:
 function ExtensionRegistration() {
   const init = async () => {
     const guestConnection = await register({
-      id: extensionId,
+      id: extensionId,  // This is the unique id of this extension (you can make this up as long as its unique) .. in this case its `bulk-property-update` pulled out into Constants.js so it can be easily re-used in BulkPropertyUpdateModal.js
       methods: {
         // Configure your Action Bar button here
         actionBar: {
@@ -207,6 +207,7 @@ export default function BulkPropertyUpdateModal() {
   // Asynchronously attach the extension to AEM, we must wait or the guestConnection to be set before doing anything in the modal
   useEffect(() => {
     (async () => {
+       // extensionId is the unique id of this extension (you can make this up as long as its unique) .. in this case its `bulk-property-update` pulled out into Constants.js as it is also referenced in ExtensionRegistration.js
       const guestConnection = await attach({ id: extensionId })
       setGuestConnection(guestConnection);
     })()
