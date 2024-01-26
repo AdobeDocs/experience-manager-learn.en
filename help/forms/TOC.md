@@ -125,6 +125,11 @@ index: y
   + [2 - Zip Form Attachments](zipping-form-attachments/custom-process-step.md)
   + [3 - Email Form Attachments](zipping-form-attachments/populating-list-of-documents.md)
   + [4 - Test the solution](zipping-form-attachments/test.md)
++ Prefilling form with data and attachments{#prefill-form-with-data-attachments}
+  + [1 - Introduction](prefill-form-with-data-attachments/introduction.md)
+  + [2 - Create custom submit](prefill-form-with-data-attachments/create-custom-submit.md)
+  + [3 - Create OSGi configuration](prefill-form-with-data-attachments/create-osgi-configuration.md)
+  + [4 - Create prefill service](prefill-form-with-data-attachments/create-prefill-service.md)
 + Storing and Retrieving Adaptive Form{#store-and-retrieve-af-with-2fa}
   + [1 - Introduction](store-and-retrieve-af-with-2fa/introduction.md)
   + [2 - Configure Data Source](store-and-retrieve-af-with-2fa/configure-data-source.md)
