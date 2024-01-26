@@ -56,7 +56,7 @@ function ExtensionRegistration() {
 
   const init = async () => {
     const guestConnection = await register({
-      id: extensionId,
+      id: extensionId, // This is the unique id of this extension (you can make this up as long as its unique) .. in this case its `editor-export-to-xml` pulled out into Constants.js.
       methods: {
         headerMenu: {
           getButtons() {
