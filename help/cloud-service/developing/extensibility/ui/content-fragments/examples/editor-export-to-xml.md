@@ -46,6 +46,7 @@ The code shows how the Content Fragment's content can be obtained in the extensi
 `src/aem-ui-extension/web-src/src/components/ExtensionRegistration.js`
 
 ```javascript
+import React from "react";
 import { Text } from "@adobe/react-spectrum";
 import { register } from "@adobe/uix-guest";
 import { extensionId } from "./Constants";
@@ -112,6 +113,7 @@ function ExtensionRegistration() {
 
   return <Text>IFrame for integration with Host (AEM)...</Text>;
 }
+
 
 /**
  * This function triggers a download of the content fragment export.
