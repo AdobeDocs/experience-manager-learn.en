@@ -61,6 +61,7 @@ This URL is used below when crafting the URLs for development and stage verifica
 
   Take note of the local application URL, shown above as `-> https://localhost:9080`
 
+1. Initially (and whenever you see a Connection Error) open `https://localhost:9080` (or whatever your local application URL is) in your web browser, and manually accept [the HTTPS certificate](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/#accepting-the-certificate-first-time-users).
 1. Add the following two query params to the [AEM UI's URL](#aem-ui-url)
     + `&devMode=true`
     + `&ext=<LOCAL APPLICATION URL>`, usually `&ext=https://localhost:9080`.
