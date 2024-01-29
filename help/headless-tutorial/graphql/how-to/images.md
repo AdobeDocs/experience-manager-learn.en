@@ -21,14 +21,14 @@ Content Fragments used in AEM Headless content modeling, often reference image a
 The `ImageRef` type has four URL options for content references:
 
 + `_path` is the referenced path in AEM, and does not include an AEM origin (host name)
-+ `_dynamicUrl` is the full URL to the preferred, web-optimized image asset.
++ `_dynamicUrl` is the URL to for image asset's web-optimized delivery.
   + The `_dynamicUrl` does not include a AEM origin, so the domain (AEM Author or AEM Publish service) must be provided by the client application.
 + `_authorUrl` is the full URL to the image asset on AEM Author 
   + [AEM Author](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-author-publish.html) can be used to provide a preview experience of the headless application.
 + `_publishUrl` is the full URL to the image asset on AEM Publish
   + [AEM Publish](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-author-publish.html) is typically where the production deployment of the headless application displays images from.
 
-The `_dynamicUrl` is the preferred URL to use for image assets and should replace the use of `_path`, `_authorUrl`, and `_publishUrl` whenever possible.
+The `_dynamicUrl` is the recommended URL to use for image asset delivery and should replace the use of `_path`, `_authorUrl`, and `_publishUrl` whenever possible.
 
 |                                | AEM as a Cloud Service | AEM as a Cloud Service RDE | AEM SDK | AEM 6.5 |
 | ------------------------------ |:----------------------:|:--------------------------:|:-------:|:-------:|
@@ -90,17 +90,17 @@ The `$path` variable used in the `_path` filter requires the full path to the co
 
 The `_assetTransform` defines how the `_dynamicUrl` is constructed to optimize the served image rendition. Web-optimized images URLs can also be adjusted on the client by changing the URL's query parameters.
 
-| GraphQL parameter | URL parameter | Description | Required | GraphQL variable values | URL parameter values | Example URL parameter |  
-|:---------|:----------|:-------------------------------|:--:|:--------------------------|:---|:--|
-| `format` | N/A  | The format of the image asset. | ✔ | `GIF`, `PNG`, `PNG8`, `JPG`, `PJPG`, `BJPG`,  `WEBP`, `WEBPLL`, `WEBPLY`  | N/A | N/A |
-| `seoName` | N/A | Name of file segment in URL. If not provided the image asset name is used. | ✘ |  Alphanumeric, `-`, or `_` | N/A  | N/A |
-| `crop` | `crop` | Crop frame taken out of the image, must be within the size of the image | ✘ | Positive integers defining a crop region within the bounds of the original image dimensions | Comma-delimited string of numeric coordinates `<X_ORIGIN>,<Y_ORIGIN>,<CROP_WIDTH>,<CROP_HEIGHT>`  | `?crop=10,20,300,400` |
-| `size` | `size` | Size of the output image (both height and width) in pixels. | ✘ | Positive integers | Comma-delimited positive integers in the order `<WIDTH>,<HEIGHT>`  |  `?size=1200,800` |
-| `rotation` | `rotate` | Rotation of the image in degrees. | ✘ | `R90`, `R180`, `R270` | `90`, `180`, `270` | `?rotate=90` |
-| `flip`  | `flip` | Flip the image. | ✘ | `HORIZONTAL`, `VERTICAL`, `HORIZONTAL_AND_VERTICAL` | `h`, `v`, `hv` | `?flip=h`|
-| `quality` | `quality` |  Image quality in percent of original quality. | ✘ | 1-100 | 1-100 | `?quality=80` |
-| `width`   | `width` | Width of the output image in pixels. When `size` is provided `width` is ignored. | ✘ |  Positive integer | Positive integer | `?width=1600` |
-| `preferWebP` | `preferwebp` | If `true` and AEM serves a WebP if the browser supports it, regardless of the `format`. | ✘ | `true`, `false` |  `true`, `false` | `?preferwebp=true` |
+| GraphQL parameter | Description | Required | GraphQL variable values |  
+|:---------|:----------|:-------------------------------|:--:|:--------------------------|
+| `format` | The format of the image asset. | ✔ | `GIF`, `PNG`, `PNG8`, `JPG`, `PJPG`, `BJPG`, `WEBP`, `WEBPLL`, `WEBPLY` |
+| `seoName` | Name of file segment in URL. If not provided the image asset name is used. | ✘ |  Alphanumeric, `-`, or `_` |
+| `crop` | Crop frame taken out of the image, must be within the size of the image | ✘ | Positive integers defining a crop region within the bounds of the original image dimensions |
+| `size` | Size of the output image (both height and width) in pixels. | ✘ | Positive integers |
+| `rotation` | Rotation of the image in degrees. | ✘ | `R90`, `R180`, `R270` |
+| `flip`  | Flip the image. | ✘ | `HORIZONTAL`, `VERTICAL`, `HORIZONTAL_AND_VERTICAL` |
+| `quality` | Image quality in percent of original quality. | ✘ | 1-100 |
+| `width`   | Width of the output image in pixels. When `size` is provided `width` is ignored. | ✘ |  Positive integer |
+| `preferWebP` | If `true` and AEM serves a WebP if the browser supports it, regardless of the `format`. | ✘ | `true`, `false` |
 
 ## GraphQL response
 
@@ -122,7 +122,7 @@ The resulting JSON response contains the requested fields containing the web-opt
 }
 ```
 
-To load the web-optimized image of th  referenced image in your application, used the `_dynamicUrl` of the `primaryImage` as the image's source URL.
+To load the web-optimized image of the referenced image in your application, used the `_dynamicUrl` of the `primaryImage` as the image's source URL.
 
 In React, displaying a web-optimized image from AEM Publish looks like:
 
@@ -139,7 +139,7 @@ Remember, `_dynamicUrl` does not include the AEM domain, so you must provide the
 
 ## Responsive URLs
 
-The above example shows using a single size image, however in web experiences, responsive image sets are often required. Responsive images can be implemented using [img srcsets](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset) or [picture elements](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset). The following code snippet shows how to use the `_dynamicUrl` as a based, and append different width parameters, to power different responsive views. Not only can the `width` query parameter be used, but other query parameters can be added by the client to further optimize the image asset based on its needs.
+The above example shows using a single size image, however in web experiences, responsive image sets are often required. Responsive images can be implemented using [img srcsets](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset) or [picture elements](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset). The following code snippet shows how to use the `_dynamicUrl` as a base. `width` is a URL parameter that you can then append to `_dynamicUrl` for powering different responsive views.
 
 ```javascript
 // The AEM host is usually read from a environment variable of the SPA.
