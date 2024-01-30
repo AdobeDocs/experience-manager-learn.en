@@ -90,17 +90,18 @@ The `$path` variable used in the `_path` filter requires the full path to the co
 
 The `_assetTransform` defines how the `_dynamicUrl` is constructed to optimize the served image rendition. Web-optimized images URLs can also be adjusted on the client by changing the URL's query parameters.
 
-| GraphQL parameter | Description | Required | GraphQL variable values |  
-|:---------|:----------|:-------------------------------|:--:|:--------------------------|
-| `format` | The format of the image asset. | ✔ | `GIF`, `PNG`, `PNG8`, `JPG`, `PJPG`, `BJPG`, `WEBP`, `WEBPLL`, `WEBPLY` |
-| `seoName` | Name of file segment in URL. If not provided the image asset name is used. | ✘ |  Alphanumeric, `-`, or `_` |
-| `crop` | Crop frame taken out of the image, must be within the size of the image | ✘ | Positive integers defining a crop region within the bounds of the original image dimensions |
-| `size` | Size of the output image (both height and width) in pixels. | ✘ | Positive integers |
-| `rotation` | Rotation of the image in degrees. | ✘ | `R90`, `R180`, `R270` |
-| `flip`  | Flip the image. | ✘ | `HORIZONTAL`, `VERTICAL`, `HORIZONTAL_AND_VERTICAL` |
-| `quality` | Image quality in percent of original quality. | ✘ | 1-100 |
-| `width`   | Width of the output image in pixels. When `size` is provided `width` is ignored. | ✘ |  Positive integer |
-| `preferWebP` | If `true` and AEM serves a WebP if the browser supports it, regardless of the `format`. | ✘ | `true`, `false` |
+| GraphQL parameter | Description                                                                                          | Required | GraphQL variable values                                      |
+|-------------------|------------------------------------------------------------------------------------------------------|----------|-------------------------------------------------------------|
+| `format`          | The format of the image asset.                                                                       | ✔        | `GIF`, `PNG`, `PNG8`, `JPG`, `PJPG`, `BJPG`, `WEBP`, `WEBPLL`, `WEBPLY` |
+| `seoName`         | Name of file segment in URL. If not provided the image asset name is used.                           | ✘        | Alphanumeric, `-`, or `_`                                   |
+| `crop`            | Crop frame taken out of the image, must be within the size of the image                              | ✘        | Positive integers defining a crop region within the bounds of the original image dimensions |
+| `size`            | Size of the output image (both height and width) in pixels.                                          | ✘        | Positive integers                                           |
+| `rotation`        | Rotation of the image in degrees.                                                                    | ✘        | `R90`, `R180`, `R270`                                       |
+| `flip`            | Flip the image.                                                                                      | ✘        | `HORIZONTAL`, `VERTICAL`, `HORIZONTAL_AND_VERTICAL`         |
+| `quality`         | Image quality in percent of original quality.                                                        | ✘        | 1-100                                                       |
+| `width`           | Width of the output image in pixels. When `size` is provided `width` is ignored.                     | ✘        | Positive integer                                            |
+| `preferWebP`      | If `true` and AEM serves a WebP if the browser supports it, regardless of the `format`.              | ✘        | `true`, `false`                                             |
+
 
 ## GraphQL response
 
