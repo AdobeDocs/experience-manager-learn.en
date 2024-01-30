@@ -6,9 +6,8 @@ version: 6.4,6.5
 topic: Development
 role: Developer
 level: Intermediate
-exl-id: d268d5d6-f24f-4db9-b8e0-07dd769c6005
-last-substantial-update: 2020-07-07
-duration: 152
+last-substantial-update: 2024-01-29
+
 ---
 # Developing with Output and Forms Services in AEM Forms{#developing-with-output-and-forms-services-in-aem-forms}
 
@@ -16,9 +15,8 @@ Using Output and Forms Service API in AEM Forms
 
 In this article we will take a look at the following
 
-* Output Service - Typically this service is used to merge xml data with xdp template or pdf to generate flattened pdf. For more details, please refer to this [javadoc](https://helpx.adobe.com/experience-manager/6-5/forms/javadocs/index.html?com/adobe/fd/output/api/OutputService.html) for the Output service.
-* FormsService - This is a very versatile service which allows you to export/import data from and into PDF file. For more details, please refer to this [javadoc](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/forms/api/FormsService.html
-) for the the Forms service.
+* [Output Service](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/fd/output/api/OutputService.html) - Typically this service is used to merge xml data with xdp template or pdf to generate flattened pdf. 
+* [FormsService](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/forms/api/FormsService.html) - This is a very versatile service which allows you to render xdp as pdf and  export/import data from and into PDF file.
 
 
 The following code snippet exports data from PDF file
@@ -42,7 +40,7 @@ Line 6 exports the xmlData from the PDF File
 
 **To test the sample package on your system**
 
-[Download and install the package using the AEM package manager](assets/outputandformsservice.zip)
+[Download and install the package using the AEM package manager](assets/using-output-and-form-service-api.zip)
 
 
 
@@ -56,6 +54,7 @@ Line 6 exports the xmlData from the PDF File
 1. /content/AemFormsSamples/mergedata 
 1. /content/AemFormsSamples/exportdata 
 1. /content/AemFormsSamples/outputservice 
+1. /content/AemFormsSamples/renderxdp
 1. Search for "Sling Referrer filter"
 1. Check the "Allow Empty" check box. (This setting should be for testing purposes only)
 There are a number of ways to test the sample code. The quickest and easiest is to use Postman app. Postman allows you to make POST requests to your server. Install Postman app on your system. 
@@ -68,9 +67,9 @@ Navigate to the "Body" tab and specify the request parameters as shown in the im
 ![export](assets/postexport.png)
 Then click the Send button
 
-The package contains 3 samples. The following paragraphs explain when to use the output service or Forms Service, the  url  of the service ,input parameters that each service expects
+The package contains 4 samples. The following paragraphs explain when to use the output service or Forms Service, the  url  of the service ,input parameters that each service expects
 
-## Merge Data and Flatten Output
+## Using OutputService to merge data with xdp template
 
 * Use Output Service to merge data with  xdp  or pdf document to generate flattened pdf
 * **POST URL**: http://localhost:4502/content/AemFormsSamples/outputservice.html
@@ -80,22 +79,34 @@ The package contains 3 samples. The following paragraphs explain when to use the
     * **xmlfile**: The xml data file that is merged with xdp_or_pdf_file
     * **saveLocation**: The location to save the rendered document on your file system. For example c:\\documents\\sample.pdf
 
-### Import Data into PDF File
+### Using FormsService API
 
-* Use FormsService to import data into PDF file  
+#### Import Data
+
+* Use FormsService importData to import data into PDF file  
 * **POST URL** - http://localhost:4502/content/AemFormsSamples/mergedata.html
+
 * **Request Parameters:**
 
     * **pdffile** : The pdf file that you want to merge data with
     * **xmlfile**: The xml data file that is merged with pdf file
     * **saveLocation**: The location to save the rendered document on your file system. For example `c:\\outputsample.pdf`.
 
-**Export Data from PDF File**
-* Use FormsService to export data from PDF File
-* **POST UR**L - http://localhost:4502/content/AemFormsSamples/exportdata.html
+#### Export Data
+
+* Use FormsService exportData API to export data from PDF File
+* **POST URL** - http://localhost:4502/content/AemFormsSamples/exportdata.html
 * **Request Parameters:**
 
     * **pdffile** : The pdf file that you want to export data from
     * **saveLocation**: The location to save the exported data on your file system. For example c:\\documents\\exported_data.xml
 
-[You could import this postman collection to test the API](assets/document-services-postman-collection.json)
+#### Render XDP 
+
+* Render XDP template as static/dynamic pdf
+* Use FormsService renderPDFForm API to render xdp template as PDF
+* **POST URL** - http://localhost:4502/content/AemFormsSamples/renderxdp?xdpName=f1040.xdp
+* Request parameter:
+    * xdpName: Name of the xdp file to render as a pdf
+
+[You could import this postman collection to test the API](assets/UsingDocumentServicesInAEMForms.postman_collection.json)
