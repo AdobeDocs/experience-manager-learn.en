@@ -8,7 +8,7 @@ role: Architect, Developer
 level: Beginner
 doc-type: Tutorial
 duration: 156
-last-substantial-update: 2023-12-07
+last-substantial-update: 2023-01-29
 jira: KT-14732
 thumbnail: KT-14732.jpeg
 ---
@@ -16,6 +16,8 @@ thumbnail: KT-14732.jpeg
 # Webhooks and AEM Events
 
 Learn how to receive AEM events on a webhook and review the event details such as payload, headers, and metadata.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427051?quality=12&learn=on)
 
 In this example, utilizing an Adobe-provided _hosted webhook_ allows you to receive AEM events without the need to set up your own webhook. This Adobe-provided webhook is hosted on [Glitch](https://glitch.com/), a platform known for offering a web-based environment conducive to building and deploying web applications. However, the option to use your own webhook is also available if preferred.
 
