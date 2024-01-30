@@ -8,7 +8,7 @@ role: Architect, Developer
 level: Beginner
 doc-type: Tutorial
 duration: 163
-last-substantial-update: 2023-12-07
+last-substantial-update: 2023-01-29
 jira: KT-14734
 thumbnail: KT-14734.jpeg
 ---
@@ -16,6 +16,8 @@ thumbnail: KT-14734.jpeg
 # Journaling and AEM Events
 
 Learn how to retrieve the initial set of AEM Events from the journal and explore the details about each event.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427052?quality=12&learn=on)
 
 Journaling is a pull method to consume AEM Events, and a journal is an ordered list of events. Using Adobe I/O Events Journaling API, you can fetch the AEM Events from the journal and process them in your application. This approach allows you to manage events based on a specified cadence and efficiently process them in bulk. Refer to the [Journaling](https://developer.adobe.com/events/docs/guides/journaling_intro/) for in-depth insights, including essential considerations like retention periods, pagination, and more.
 
