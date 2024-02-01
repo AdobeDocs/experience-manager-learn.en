@@ -14,7 +14,10 @@ exl-id: 77f93aad-0cab-4e52-b0fd-ae5af23a13d0
 # Fetch data from Azure storage
 
 This article shows you how to populate an adaptive form with the data stored in Azure storage.
-It is assumed that you have stored the adaptive form data in Azure storage and now want to prepopulate your adaptive form with that data.
+It is assumed that you have stored the adaptive form data in Azure storage and now want to prefill your adaptive form with that data.
+>[!NOTE]
+>The code in this article does not work with core components based adaptive form.[The equivalent article for core component based adaptive form is available here](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/prefill-form-with-data-attachments/introduction.html?lang=en)
+
 
 ## Create GET request
 
@@ -78,7 +81,7 @@ if(guid!=null&&!guid.isEmpty())
 
 * [Import the sample adaptive form](./assets/bank-account-sample-form.zip)
 
-* Specify the appropriate values in the Azure Portal Configuration using the OSGi configuration console.
+* [Specify the appropriate values in the Azure Portal Configuration using the OSGi configuration console.](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/some-useful-integrations/store-form-data-in-azure-storage.html?lang=en#provide-the-blob-sas-token-and-storage-uri)
 
 * [Preview and submit the BankAccount form](http://localhost:4502/content/dam/formsanddocuments/azureportalstorage/bankaccount/jcr:content?wcmmode=disabled)
 

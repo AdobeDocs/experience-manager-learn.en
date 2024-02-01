@@ -57,15 +57,17 @@ Line 6 exports the xmlData from the PDF File
 1. /content/AemFormsSamples/renderxdp
 1. Search for "Sling Referrer filter"
 1. Check the "Allow Empty" check box. (This setting should be for testing purposes only)
-There are a number of ways to test the sample code. The quickest and easiest is to use Postman app. Postman allows you to make POST requests to your server. Install Postman app on your system. 
-Launch the app and enter the following URL to test the export data API
 
-Make sure you have selected "POST" from the drop down list
-http://localhost:4502/content/AemFormsSamples/exportdata.html
-Make sure you specify "Authorization" as "Basic Auth". Specify the AEM Server username and password
-Navigate to the "Body" tab and specify the request parameters as shown in the image below
-![export](assets/postexport.png)
-Then click the Send button
+## Testing the samples
+
+There are a number of ways to test the sample code. The quickest and easiest is to use Postman app. Postman allows you to make POST requests to your server. 
+
+* Install Postman app on your system. 
+* Launch the app and enter the the appropriate URL
+* Make sure you have selected "POST" from the drop down list
+* Make sure you specify "Authorization" as "Basic Auth". Specify the AEM Server username and password
+* Specify the request parameters in the body tab
+* Click the Send button
 
 The package contains 4 samples. The following paragraphs explain when to use the output service or Forms Service, the  url  of the service ,input parameters that each service expects
 
