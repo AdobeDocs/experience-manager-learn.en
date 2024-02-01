@@ -14,6 +14,11 @@ duration: 59
 
 Quick and easy way to create your own custom submit action for Adaptive Form
 
+>[!NOTE]
+>The code in this article does not work with core components based adaptive form.
+>[The equivalent article for core component based adaptive form is available here](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/custom-submit-headless-forms/custom-submit-service.html?lang=en)
+
+
 This article will walk you through the steps needed to create a custom submit action for handling Adaptive Forms submission.
 
 * Login to  crx 

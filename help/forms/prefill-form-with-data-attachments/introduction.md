@@ -23,7 +23,7 @@ In this tutorial, you learn how to implement a simple use case of prefilling **c
 
 To implement the above use case in AEM Forms, you will need the following
 
-* AEM Forms 6.5.19 instance
+* AEM Forms 6.5.19 instance or later
 * [Azure portal account](https://portal.azure.com/)
 
 

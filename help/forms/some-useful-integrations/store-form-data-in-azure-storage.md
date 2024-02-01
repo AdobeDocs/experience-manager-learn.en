@@ -16,6 +16,10 @@ duration: 159
 This article shows you how to make REST calls to store submitted AEM Forms data in Azure Storage.
 To be able to store submitted form data in Azure Storage, the following steps must be followed.
 
+>[!NOTE]
+>The code in this article does not work with core components based adaptive form. [The equivalent article for core component based adaptive form is available here](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/prefill-form-with-data-attachments/introduction.html?lang=en)
+
+
 ## Create Azure Storage account
 
 [Login to your Azure portal account and create a storage account](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal#create-a-storage-account-1). Provide a meaningful name to your storage account, click Review and then click Create. This creates your storage account with all the default values. For the purpose of this article we have named our storage account `aemformstutorial`.
@@ -39,6 +43,7 @@ Navigate to the container in the storage account, click on the ellipsis and sele
 ## Provide the Blob SAS token and Storage URI
 
  To make the code more generic, the two properties can be configured using the OSGi configuration as shown below. The _**aemformstutorial**_ is the name of the storage account, _**formsubmissions**_ is the container in which the data will be stored.
+ Please make sure you have / at the end of the storage uri and the SAS token starts with?
  ![osgi-configuration](./assets/azure-portal-osgi-configuration.png)
 
 
@@ -94,7 +99,8 @@ The following is function written to store the submitted form data in Azure Stor
 
 * [Import the sample adaptive form](./assets/bank-account-sample-form.zip)
 
-* Specify the appropriate values in the Azure Portal Configuration using the OSGi configuration console
+* [Specify the appropriate values in the Azure Portal Configuration using the OSGi configuration console](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/some-useful-integrations/store-form-data-in-azure-storage.html?lang=en#provide-the-blob-sas-token-and-storage-uri)
+
 * [Preview and submit the BankAccount form](http://localhost:4502/content/dam/formsanddocuments/azureportalstorage/bankaccount/jcr:content?wcmmode=disabled)
 
 * Verify the data is stored in the Azure storage container of your choice. Copy the Blob ID.
