@@ -33,6 +33,10 @@ To complete this tutorial, you need:
 
 - [Adobe Developer Console project configured for AEM Events](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#how-to-subscribe-to-aem-events-in-the-adobe-developer-console).
 
+>[!IMPORTANT]
+>
+>AEM as a Cloud Service Eventing is only available to registered users in pre-release mode. To enable AEM eventing on your AEM as a Cloud Service environment, contact [AEM-Eventing team](mailto:grp-aem-events@adobe.com).
+
 ## Access web application
 
 To access the Adobe-provided web application, follow these steps:
