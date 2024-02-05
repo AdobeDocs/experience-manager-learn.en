@@ -24,6 +24,7 @@ AEM as a Cloud Service supports multiple of authentication options and varies by
 | [Single-sign On (SSO)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#integration-with-an-idp)  | &#10008;  | &#10004;    |
 | [OAuth](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#integration-with-an-idp)                 | &#10008;  | &#10004;    |
 | [Token authentication](../../headless-tutorial/authentication/overview.md) |  &#10004;  | &#10004;    |
+| Basic authentication | &#10008;  | &#10008;    |
 
 ## Authentication options
 
