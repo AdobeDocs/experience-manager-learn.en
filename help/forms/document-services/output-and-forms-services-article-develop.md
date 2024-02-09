@@ -1,6 +1,6 @@
 ---
 title: Developing with Output and Forms Services in AEM Forms
-description: Using Output and Forms Service API in AEM Forms
+description: Learn about developing with Output and Forms Service API in AEM Forms.
 feature: Output Service
 version: 6.4,6.5
 topic: Development
@@ -11,7 +11,7 @@ last-substantial-update: 2024-01-29
 ---
 # Developing with Output and Forms Services in AEM Forms{#developing-with-output-and-forms-services-in-aem-forms}
 
-Using Output and Forms Service API in AEM Forms
+Learn about developing with Output and Forms Service API in AEM Forms.
 
 In this article we will take a look at the following
 
