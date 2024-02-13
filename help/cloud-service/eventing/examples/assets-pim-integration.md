@@ -96,7 +96,7 @@ To update the asset metadata in AEM from the above ADC project, configure AEM Au
 
 To perform the metadata retrieval and update, start by updating the auto created _generic_ action code in `src/dx-excshell-1/actions/generic` folder. 
 
-Refer to the attached WKND-Assets-PIM-Integration.zip file for the complete code, and below section highlights the key files.
+Refer to the attached [WKND-Assets-PIM-Integration.zip](../assets/examples/assets-pim-integration/WKND-Assets-PIM-Integration.zip) file for the complete code, and below section highlights the key files.
 
 - The `src/dx-excshell-1/actions/generic/mockPIMCommunicator.js` file mocks the PIM API call to retrieve additional metadata like SKU and supplier name.
 
