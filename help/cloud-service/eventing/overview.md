@@ -125,4 +125,13 @@ For more information, see [AEM Events processing via Adobe I/O Events](https://d
         </p>
       </td>
   </tr>    
+  <tr>
+    <td>
+        <a  href="./examples/assets-pim-integration.md"><img alt="AEM Assets events for PIM integration" src="./assets/examples/assets-pim-integration/PIM-integration-tile.png"/></a>
+        <div><strong><a href="./examples/assets-pim-integration.md">AEM Assets events for PIM integration</a></strong></div>
+        <p>
+          Learn how to integrate AEM Assets and Product Information Management (PIM) systems for metadata updates.
+        </p>
+      </td>
+  </tr>  
 </table>

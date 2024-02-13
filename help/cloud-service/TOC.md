@@ -165,6 +165,7 @@ team: TM
     + [Journaling - Load AEM Events](./eventing/examples/journaling.md)
     + [Adobe I/O Runtime Action - Receive AEM Events](./eventing/examples/runtime-action.md)
     + [Adobe I/O Runtime Action - Process AEM Events](./eventing/examples/event-processing-using-runtime-action.md)
+    + [AEM Assets Events - PIM Integration](./eventing/examples/assets-pim-integration.md)
 + Migration {#migration}
   + [Content Transfer Tool](./migration/content-transfer-tool.md)
   + [Bulk Import of assets](./migration/bulk-import.md)
