@@ -9,7 +9,7 @@ feature: Developer Tools
 jira: KT-6914
 thumbnail: 330536.jpg
 exl-id: 8fd8eb06-bbd9-489a-b41b-f8785e140f58
-duration: 13
+duration: 333
 ---
 # Continuous Integration and Cloud Manager {#continuous-integration-and-cloud-manager}
 

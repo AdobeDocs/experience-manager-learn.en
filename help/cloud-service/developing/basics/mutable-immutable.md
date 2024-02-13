@@ -9,7 +9,7 @@ feature: Developer Tools
 jira: KT-6930
 thumbnail: 330555.jpg
 exl-id: 744ac321-2201-4083-9a14-0c0816b50729
-duration: 9
+duration: 194
 ---
 # Mutable and immutable content
 

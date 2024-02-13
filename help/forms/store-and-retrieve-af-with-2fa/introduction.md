@@ -11,7 +11,7 @@ role: Developer
 level: Experienced
 exl-id: b278652f-6c09-4abc-b92e-20bfaf2e791a
 last-substantial-update: 2020-11-07
-duration: 52
+duration: 159
 ---
 # Storing and Retrieving Adaptive Form Data with 2FA
 
