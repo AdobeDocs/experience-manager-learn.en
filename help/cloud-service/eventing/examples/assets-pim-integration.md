@@ -15,15 +15,19 @@ thumbnail: KT-14901.jpeg
 
 # AEM Assets events for PIM integration
 
-** NOTE: This tutorial uses experimental AEM as a Cloud Service APIs.  To gain access to these APIs, you will need to accept a pre-release software agreement and have these APIs manually enabled for your environment by Adobe engineering.  Please reach out to Adobe support to request access. **
+>[!IMPORTANT]
+>
+>This tutorial uses experimental AEM as a Cloud Service APIs. To gain access to these APIs, you must accept a pre-release software agreement and have these APIs manually enabled for your environment by Adobe engineering. To request access reach out to Adobe support.
 
-Learn how to integrate AEM Assets with a third-party system, such as a Product Information Management (PIM) or Product Line Management (PLM) system, to update asset metadata **using native AEM IO events**. Upon receiving an AEM Assets event, the asset metadata can be updated in AEM, the PIM, or both systems, based on the business requirements. However, in this example, we will demonstratre updating the asset metadata in AEM. 
+Learn how to integrate AEM Assets with a third-party system, such as a Product Information Management (PIM) or Product Line Management (PLM) system, to update asset metadata **using native AEM IO events**. Upon receiving an AEM Assets event, the asset metadata can be updated in AEM, the PIM, or both systems, based on the business requirements. However, this example demonstrates updating the asset metadata in AEM. 
 
-To run the asset metadata update **code outside of AEM**, we will leverage [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/what_is_runtime/), a serverless platform. The event processing flow is as follows:
+To run the asset metadata update **code outside of AEM**, the [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/what_is_runtime/), a serverless platform is used. 
+
+The event processing flow is as follows:
 
 ![AEM Assets events for PIM integration](../assets/examples/assets-pim-integration/aem-assets-pim-integration.png)
 
-1. The AEM Author service triggers an _Asset Processing Completed_ event when an asset upload is completed and all asset processing activities have completed.  Waiting for processing to complete ensures that any out-of-the-box processing, such as metadata extraction, has completed before we proceed. 
+1. The AEM Author service triggers an _Asset Processing Completed_ event when an asset upload is completed and all asset processing activities have completed. Waiting for processing to complete ensures that any out-of-the-box processing, such as metadata extraction, has completed. 
 1. The event is sent to the [Adobe I/O Events](https://developer.adobe.com/events/) service.
 1. The Adobe I/O Events service passes the event to the [Adobe I/O Runtime Action](https://developer.adobe.com/runtime/docs/guides/using/creating_actions/) for processing.
 1. The Adobe I/O Runtime Action calls the API of the PIM system to retrieve additional metadata like SKU, supplier information, or other details.
@@ -48,7 +52,7 @@ The high-level development steps are:
 1. Configure the project in ADC
 1. Configure the AEM Author service to enable ADC project communication
 1. Develop a runtime action that orchestrates metadata retrieval and update
-1. Upload an asset to the AEM Author service and verify the metadata has been updated
+1. Upload an asset to the AEM Author service and verify that the metadata has been updated
 
 For details on steps 1-2, refer to the [Adobe I/O Runtime Action and AEM Events](./runtime-action.md#) example, and for steps 3-6 refer to the following sections.
 
@@ -100,7 +104,7 @@ To perform the metadata retrieval and update, start by updating the auto created
 
 Refer to the attached [WKND-Assets-PIM-Integration.zip](../assets/examples/assets-pim-integration/WKND-Assets-PIM-Integration.zip) file for the complete code, and below section highlights the key files.
 
-- The `src/dx-excshell-1/actions/generic/mockPIMCommunicator.js` file mocks the PIM API call to retrieve additional metadata like SKU and supplier name.  This file is used for demo purposes.  Once you have the end-to-end flow working, replace this function with a call to your real PIM system to retrieve metadata for the asset.
+- The `src/dx-excshell-1/actions/generic/mockPIMCommunicator.js` file mocks the PIM API call to retrieve additional metadata like SKU and supplier name. This file is used for demo purposes. Once you have the end-to-end flow working, replace this function with a call to your real PIM system to retrieve metadata for the asset.
 
     ```javascript
     /**
@@ -203,7 +207,7 @@ Refer to the attached [WKND-Assets-PIM-Integration.zip](../assets/examples/asset
 
 - The `src/dx-excshell-1/actions/model` folder contains `aemAssetEvent.js` and `errors.js` files, which are used by the action to parse the received event and handle errors respectively.
 
-- The `src/dx-excshell-1/actions/generic/index.js` file uses the aforementioned modules to orchestrate the metadata retrieval and update.
+- The `src/dx-excshell-1/actions/generic/index.js` file uses the previously mentioned modules to orchestrate the metadata retrieval and update.
 
     ```javascript
     ...
@@ -271,7 +275,7 @@ Deploy the updated action to Adobe I/O Runtime using the following command:
 
 To verify the AEM Assets and PIM integration, follow these steps:
 
-- To view the mock PIM provided metadata like SKU, and Supplier Name, create metadata schema in AEM Assets see [Metadata schemas](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/metadata-schemas.html) that displays the SKU and supplier name metadata properties.
+- To view the mock PIM provided metadata like SKU, and Supplier Name, create metadata schema in AEM Assets see [Metadata schema](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/metadata-schemas.html) that displays the SKU and supplier name metadata properties.
 
 - Upload an asset in AEM Author service and verify the metadata update. 
 
@@ -285,5 +289,5 @@ The asset metadata synchronization between AEM and other systems like PIM are of
 - The newly introduced Assets Author API is used to update the asset metadata in AEM.
 - The API authentication uses OAuth server-to-server (aka client credentials flow), see [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
 - Instead of Adobe I/O Runtime Actions, other webhooks or Amazon EventBridge can be used to receive the AEM Assets event and process the metadata update.
-- Asset Events via AEM Eventing empowers businesses to automate and streamline critical processes, fostering efficiency and coherence across content ecosystem.
+- Asset Events via AEM Eventing empower businesses to automate and streamline critical processes, fostering efficiency and coherence across content ecosystem.
 
