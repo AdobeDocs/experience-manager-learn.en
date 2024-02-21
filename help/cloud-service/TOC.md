@@ -354,6 +354,7 @@ team: TM
     + [Introduction](./expert-resources/cloud-5/cloud5-introduction.md)
     + [Season 1](./expert-resources/cloud-5/cloud5-season-1.md)
     + [Season 2](./expert-resources/cloud-5/cloud5-season-2.md)
+    + [Season 3](./expert-resources/cloud-5/cloud5-season-3.md)
     + [AEM CDN Part 1](./expert-resources/cloud-5/cloud5-aem-cdn-part1.md)
     + [AEM CDN Part 2](./expert-resources/cloud-5/cloud5-aem-cdn-part2.md)
     + [AEM Log Files](./expert-resources/cloud-5/cloud5-aem-log-files.md)
@@ -375,3 +376,5 @@ team: TM
       + [Cloud Manager - Experience Audit](./expert-resources/cloud-5/season-2/cloud5-mocm-experience-audit.md)
       + [Cloud Manager - Unit Tests](./expert-resources/cloud-5/season-2/cloud5-mocm-unit-tests.md)
       + [Cloud Manager - Functional Tests](./expert-resources/cloud-5/season-2/cloud5-mocm-functional-tests.md)
+    + Season 3{#season-3}
+      + [3rd Party Search](./expert-resources/cloud-5/season-3/cloud5-3rd-party-search.md)
