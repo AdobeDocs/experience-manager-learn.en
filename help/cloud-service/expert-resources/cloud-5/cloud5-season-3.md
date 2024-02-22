@@ -36,8 +36,20 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore how 3rd party search can best be integrated into Edge Delivery Services.
             </p>
         </td>   
-         <td>           
-         </td>
+        <td>
+            <a href="./season-3/cloud5-rum.md">
+                <img alt="Real User Monitoring (RUM)" src="https://video.tv.adobe.com/v/3427495?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-rum.md">
+                <strong>Real User Monitoring (RUM)</strong></a>        
+                <br/><em>with James Talbot & Varun Mitra, AEM Engineering</em>
+            </div>
+            <p>
+                <br/>
+                Explore Real User Monitoring (RUM) works with Edge Delivery Services.
+            </p>
+        </td>   
          <td>           
          </td> 
   </tr>  

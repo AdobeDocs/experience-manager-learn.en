@@ -378,3 +378,4 @@ team: TM
       + [Cloud Manager - Functional Tests](./expert-resources/cloud-5/season-2/cloud5-mocm-functional-tests.md)
     + Season 3{#season-3}
       + [3rd Party Search](./expert-resources/cloud-5/season-3/cloud5-3rd-party-search.md)
+      + [Real User Monitoring (RUM)](./expert-resources/cloud-5/season-3/cloud5-rum.md)
