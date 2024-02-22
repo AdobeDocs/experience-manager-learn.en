@@ -93,11 +93,27 @@ Dispatcher has a configuration section in its farm file:
 }
 ```
 
-This configuration tells the Dispatcher to fetch this URL from its AEM instance it fronts every 300 seconds to fetch the list of items we want to allow through.
+The `/delay` parameter, measured in seconds, does not operate on a fixed interval basis but rather on a condition-based check. The Dispatcher assesses the modification timestamp of the `/file` (which stores the list of recognized vanity URLs) upon receiving a request for an unlisted URL. The `/file` will not be refreshed if the time difference between the current moment and the `/file`'s last modification is less than the `/delay` duration. Refreshing the `/file` occurs under two conditions:
+
+1. The incoming request is for a URL not cached or listed in the `/file`.
+1. At least `/delay` seconds have passed since the `/file` was last updated.
+
+This mechanism is designed to protect against Denial of Service (DoS) attacks, which could otherwise overwhelm the Dispatcher with requests, exploiting the Vanity URLs feature.
+
+In simpler terms, the `/file` containing vanity URLs is updated only if a request arrives for a URL not already in the `/file` and if the `/file`'s last modification was longer ago than the `/delay` period.
+
+To explicitly trigger a refresh of the `/file`, you can request a non-existent URL after ensuring the required `/delay` time has passed since the last update. Example URLs for this purpose include:
+
+- `https://dispatcher-host-name.com/this-vanity-url-does-not-exist`
+- `https://dispatcher-host-name.com/please-hand-me-that-planet-maestro`
+- `https://dispatcher-host-name.com/random-vanity-url`
+
+This approach forces the Dispatcher to update the `/file`, provided the specified `/delay` interval has elapsed since its last modification.
 
 It stores its cache of the response in the `/file` argument so in this example `/tmp/vanity_urls`
 
 So if you visit the AEM instance at the URI you see what it fetches:
+
 ![screenshot of the content rendered from /libs/granite/dispatcher/content/vanityUrls.html](assets/disp-vanity-url/vanity-url-component.png "vanity-url-component")
 
 It's literally a list, super simple
