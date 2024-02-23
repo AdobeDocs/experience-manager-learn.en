@@ -29,12 +29,11 @@ We use the following default cache directories in our baseline installations
 
 When each request traverses the Dispatcher the requests follow the configured rules to keep a locally cached version to response of eligible items
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-We intentionally keep published workload separate from the author workload because when Apache looks for a file in the DocumentRoot it doesn't know which AEM instance it came from. So even if you have cache disabled in the author farm, if the author's DocumentRoot is the same as publisher it will serve files from the cache when present. Meaning you'll serve author files for from published cache and make for a really awful mix match experience for your visitors. 
-
-Keeping separate DocumentRoot directories for different published content is also a very bad idea. You'll have to create multiple re-cached items that don't differ between sites like clientlibs as well as having to setup a replication flush agent for each DocumentRoot you setup. Increasing the amount of flush over head with each page activation. Rely on namespace of files and their full cached paths and avoid mutliple DocumentRoot's for published sites.
-</div>
+>[!NOTE]
+>
+>We intentionally keep published workload separate from the author workload because when Apache looks for a file in the DocumentRoot it doesn't know which AEM instance it came from. So even if you have cache disabled in the author farm, if the author's DocumentRoot is the same as publisher it will serve files from the cache when present. Meaning you'll serve author files for from published cache and make for a really awful mix match experience for your visitors. 
+>
+>Keeping separate DocumentRoot directories for different published content is also a very bad idea. You'll have to create multiple re-cached items that don't differ between sites like clientlibs as well as having to setup a replication flush agent for each DocumentRoot you setup. Increasing the amount of flush over head with each page activation. Rely on namespace of files and their full cached paths and avoid mutliple DocumentRoot's for published sites.
 
 ## Configuration Files
 
@@ -89,10 +88,9 @@ Here is a base author `/cache {` section of our author farm file:
 
 The important things to note here are that the `/docroot` is set to the cache directory for author.
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-Make sure your `DocumentRoot` in the author's `.vhost` file matches the farms `/docroot` parameter
-</div>
+>[!NOTE]
+>
+>Make sure your `DocumentRoot` in the author's `.vhost` file matches the farms `/docroot` parameter
 
 The cache rules include statement includes the file `/etc/httpd/conf.dispatcher.d/cache/ams_author_cache.any` which contains these rules:
 
@@ -130,20 +128,17 @@ The cache rules include statement includes the file `/etc/httpd/conf.dispatcher.
 In an author scenario, content is changing all the time and on purpose. You only want to cache items that are not going to change frequently.
 We have rules to cache `/libs` because they are part of the baseline AEM install and would change until you have installed a Service Pack, Cumulative Fix Pack, Upgrade, or Hotfix. So caching these elements make a ton of sense and really have huge benefits of the author experience of end users who use the site.
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-Keep in mind that these rules also cache <b>`/apps`</b> this is where custom application code lives. If you're developing your code on this instance then it will prove to be very confusing when you save your file and don't see if reflect in the UI due to it serving up a cached copy. The intention here is that if you do a deployment of your code into AEM it too would be infrequent and part of your deployment steps should be to clear the author cache. Again the benefit is huge making your cacheable code run faster for the end users.
-</div>
-
+>[!NOTE]
+>
+>Keep in mind that these rules also cache <b>`/apps`</b> this is where custom application code lives. If you're developing your code on this instance then it will prove to be very confusing when you save your file and don't see if reflect in the UI due to it serving up a cached copy. The intention here is that if you do a deployment of your code into AEM it too would be infrequent and part of your deployment steps should be to clear the author cache. Again the benefit is huge making your cacheable code run faster for the end users.
 
 ## ServeOnStale (AKA Serve on Stale / SOS)
 
 This is one of those gems of a feature of the Dispatcher. If the publisher is under load or has become unresponsive it will typically throw a 502 or 503 http response code. If that happens and this feature is enabled the Dispatcher will be instructed to still serve what ever content is still in the cache as a best effort even if it's not a fresh copy. It's better to serve something if you've got it rather than just showing an error message that offers no functionality.
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-Keep in mind that if the publisher renderer is having a socket timeout or 500 error message this feature will not trigger. If AEM is just unreachable this feature does nothing
-</div>
+>[!NOTE]
+>
+>Keep in mind that if the publisher renderer is having a socket timeout or 500 error message this feature will not trigger. If AEM is just unreachable this feature does nothing
 
 This setting can be set in any farm but only makes sense to apply it on the publish farm files. Here is a syntax example of the feature enabled in a farm file:
 
@@ -154,11 +149,9 @@ This setting can be set in any farm but only makes sense to apply it on the publ
 
 ## Caching pages with Query params / Arguments
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-One of the normal behaviors of the Dispatcher module is that if a request has a query parameter in the URI (typically shown like `/content/page.html?myquery=value`) it will skip caching the file and go directly to the AEM instance. It's considering this request a dynamic page and shouldn't be cached. This can cause ill effects on cache efficiency.
-</div>
-<br/>
+>[!NOTE]
+>
+>One of the normal behaviors of the Dispatcher module is that if a request has a query parameter in the URI (typically shown like `/content/page.html?myquery=value`) it will skip caching the file and go directly to the AEM instance. It's considering this request a dynamic page and shouldn't be cached. This can cause ill effects on cache efficiency.
 
 See this [article](https://github.com/adobe/aem-dispatcher-optimizer-tool/blob/main/docs/Rules.md#dot---the-dispatcher-publish-farm-cache-should-have-its-ignoreurlparams-rules-configured-in-an-allow-list-manner) showing how important query parameters can affect your site performance.
 
@@ -166,7 +159,7 @@ By default you want to set the `ignoreUrlParams` rules to allow `*`.  Meaning th
 
 Here is an example where someone has built a social media deep link reference mechanism that uses the argument reference in the URI to know where the person came from.
 
-<b>Ignorable Example:</b>
+*Ignorable Example:*
 
 - https://www.we-retail.com/home.html?reference=android
 - https://www.we-retail.com/home.html?reference=facebook
@@ -247,11 +240,9 @@ Example:
 
 Pages that use query parameters via Javascript will still fully function ignoring the paramters in this setting.  Because they don't change the html file at rest.  They use javascript to update the browsers dom realtime on the local browser.  Meaning that if you consume the query parameters with javascript it's highly likely you can ignore this parameter for page caching.  Allow that page to cache and enjoy the performance gain!
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-Keeping track of these pages does require some upkeep but is well worth the performance gains.  You can ask your CSE to run a report on your websites traffic to give you a list of all pages using query parameters over the last 90 days for you to analyze and make sure you know which pages to look at and which query paramters to not ignore
-</div>
-<br/>
+>[!NOTE]
+>
+>Keeping track of these pages does require some upkeep but is well worth the performance gains.  You can ask your CSE to run a report on your websites traffic to give you a list of all pages using query parameters over the last 90 days for you to analyze and make sure you know which pages to look at and which query paramters to not ignore
 
 ## Caching response headers
 
@@ -283,11 +274,9 @@ Here is an example of a farm with the headers to cache specified:
 
 In the example they have configured AEM to serve up headers the CDN looks for to know when to invalidate it's cache. Meaning now AEM can properly dictate which files get invalidated based on headers.
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-Keep in mind you cannot use regular expressions or glob matching. It's a literal list of the headers to cache. Only put in a list of the literal headers you want it to cache.
-</div>
-
+>[!NOTE]
+>
+>Keep in mind you cannot use regular expressions or glob matching. It's a literal list of the headers to cache. Only put in a list of the literal headers you want it to cache.
 
 ## Auto-Invalidate Grace Period
 
@@ -319,9 +308,9 @@ Here is an example of the feature being configured in the farm configuration fil
     /enableTTL "1"
 ```
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-Keep in mind that AEM still needs to be configured to send TTL headers for Dispatcher to honor them. Toggling this feature only enables the Dispatcher to know when to remove the files that AEM has send cache control headers for. If AEM doesn't start sending TTL headers then Dispatcher won't do anything special here.
-</div>
+>[!NOTE]
+>
+>Keep in mind that AEM still needs to be configured to send TTL headers for Dispatcher to honor them. Toggling this feature only enables the Dispatcher to know when to remove the files that AEM has send cache control headers for. If AEM doesn't start sending TTL headers then Dispatcher won't do anything special here.
 
 ## Cache Filter Rules
 

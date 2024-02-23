@@ -127,16 +127,17 @@ If the stat file level setting is set too high then each flush request traverses
 
 Setting this file level too low can cause a flush request to clear more than was intended.  Which in turn would cause the cache to churn more often with less requests being served from cache and can cause performance issues.
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
+>[!BEGINSHADEBOX "Note"]
 
-Set the `statfilelevel` at a reasonable level.  Look at your folder structure and make sure it's setup to allow concise flushes without having to traverse too many directories.   Test it and make sure it fits your needs during a performance test of the system.
+Set the `statfilelevel` at a reasonable level. Look at your folder structure and make sure it's setup to allow concise flushes without having to traverse too many directories. Test it and make sure it fits your needs during a performance test of the system.
 
-A good example is a site that supports languages.  The typical content tree would have the following directories
+A good example is a site that supports languages. The typical content tree would have the following directories
 
 `/content/brand1/en/us/`
 
-In this example use a stat file level setting of 4.  This will assure when you flush content that lives under the <b>`us`</b> folder that it won't cause the language folders to get flushed as well.
-</div>
+In this example use a stat file level setting of 4. This will assure when you flush content that lives under the **`us`** folder that it won't cause the language folders to get flushed as well.
+
+>[!ENDSHADEBOX]
 
 ### STAT FILE TIMESTAMP HANDSHAKE
 
@@ -221,11 +222,11 @@ This configuration entry lives in the following section of the farm file:
 
 You specify the directory in which you want the Dispatcher to populate and managed as a cache directory.
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-This directory should match the Apache document root setting for the domain your web server is configured to use.
-
-Having nested docroot folders per each farm that live a sub folders of the Apache document root is a terrible idea for many reasons.
-</div>
+>[!NOTE]
+>
+>This directory should match the Apache document root setting for the domain your web server is configured to use.
+>
+>Having nested docroot folders per each farm that live a sub folders of the Apache document root is a terrible idea for many reasons.
 
 ### Stat Files Level
 
@@ -269,13 +270,11 @@ This setting gauges how deep `.stat` files will need to be generated when a flus
    - `/var/www/html/content/damn/brand1/en/.stat`
    - `/var/www/html/content/damn/brand1/en/us/.stat`
 
-
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-Keep in mind that when the timestamp handshake happens it looks for the closest `.stat` file.
-
-having a `.stat` file level 0 and a stat file only at `/var/www/html/.stat` meanst that content that lives under `/var/www/html/content/dam/brand1/en/us/` would look for the nearest `.stat` file and traverse up 5 folders to find the only `.stat` file that exists at level 0 and compare dates to that.  Meaning that one flush at that high of a level would essentially invalidate all items cached.
-</div>
+>[!NOTE]
+>
+>Keep in mind that when the timestamp handshake happens it looks for the closest `.stat` file.
+>
+>Having a `.stat` file level 0 and a stat file only at `/var/www/html/.stat` meanst that content that lives under `/var/www/html/content/dam/brand1/en/us/` would look for the nearest `.stat` file and traverse up 5 folders to find the only `.stat` file that exists at level 0 and compare dates to that. Meaning that one flush at that high of a level would essentially invalidate all items cached.
 
 ### Invalidation Allowed
 
