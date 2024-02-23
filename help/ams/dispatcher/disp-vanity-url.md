@@ -176,9 +176,8 @@ Use both methods but here's the advice and criteria on which one to use when:
 - If the vanity is a staple endpoint that doesn't change often and has frequent use then use a `mod_rewrite` rule.
 - If the vanity namespace (for example: `/aboutus`) has to be reused for lots of brands on the same AEM instance then use rewrite rules.
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-If you want to use the AEM vanity feature and avoid namespace you can make a naming convention. Using vanity urls that nested like `/brand1/aboutus`, `brand2/aboutus`, `brand3/aboutus`.
-</div>
+>[!NOTE]
+>
+>If you want to use the AEM vanity feature and avoid namespace you can make a naming convention. Using vanity urls that nested like `/brand1/aboutus`, `brand2/aboutus`, `brand3/aboutus`.
 
 [Next -> Common Logging](./common-logs.md)

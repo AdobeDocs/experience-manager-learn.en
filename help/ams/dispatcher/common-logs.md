@@ -53,10 +53,9 @@ Doing either of the suggested methods would get rid of that error message from t
 
 ## Filter Rejects
 
-
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-These entries don't always show up even if rejections are happening if the log level is set too low. Set it to Info or debug to assure you can see if the filters are rejecting the requests.
-</div>
+>[!NOTE]
+>
+>These entries don't always show up even if rejections are happening if the log level is set too low. Set it to Info or debug to assure you can see if the filters are rejecting the requests.
 
 Sample Log entry:
 
@@ -70,10 +69,9 @@ or:
 Fri Jul 20 22:16:55 2018 I pid 128803 "GET /system/console/" ! - 8ms publishfarm/-
 ```
 
-<div style="color: #000;border-left: 6px solid red;background-color:#ddffff;"><b>Caution:</b>
-
-Understand that the Dispatcher's rules were set to filter out that request. In this case the page attempted to be visited was rejected on purpose and we wouldn't want to do anything with this.
-</div>
+>[!CAUTION]
+>
+>Understand that the Dispatcher's rules were set to filter out that request. In this case the page attempted to be visited was rejected on purpose and we wouldn't want to do anything with this.
 
 If your log looks like this entry:
 
@@ -130,9 +128,9 @@ This means your fetching from render level vs from cache is measured. You want t
 
 To get this number as high as possible.
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-Even if you have your cache settings in the farm file to cache everything you might be flushing too often or too agressively that can cause a lower percentage cache hit ratio to occur
-</div>
+>[!NOTE]
+>
+>Even if you have your cache settings in the farm file to cache everything you might be flushing too often or too agressively that can cause a lower percentage cache hit ratio to occur
 
 ## Missing Directory
 

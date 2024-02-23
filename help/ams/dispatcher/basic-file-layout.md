@@ -53,7 +53,8 @@ When following and honoring the installation design / structure we gain the foll
 - Allows patching cycles that are fully supported by the Operating System without any conflicts or manual adjustments
 - Avoids SELinux violations of mislabeled file contexts
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
+>[!BEGINSHADEBOX "Note"]
+
 The Adobe Managed Services servers images typically have small Operating System root drives.  We put our data in a separate volume which is typically mounted in `/mnt` 
 Then we use that volume instead of the defaults for the following default directories
 
@@ -62,12 +63,13 @@ Then we use that volume instead of the defaults for the following default direct
 - AMS:`/mnt/var/www/html`
 
 `Log Directory`
-- Default: `/var/log/httpd`
-- AMS: `/mnt/var/log/httpd`
+- Default: `/var/log/httpd`
+- AMS: `/mnt/var/log/httpd`
 
 Keep in mind that the old and new directories are mapped back to the original mount point to eliminate confusion.
 Using a separate volume isn't vital but it's note worthy
-</div>
+
+>[!ENDSHADEBOX]
 
 ## AMS Add-ons
 
@@ -287,9 +289,9 @@ As the perfect example when adding the Dispatcher module to Apache you'd create 
 LoadModule dispatcher_module modules/mod_dispatcher.so
 ```
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Notice:</b>
-we didn't modify any already-existing files Apache provided.  Instead just added ours to the directories they were meant to go.
-</div><br/>
+>[!NOTE]
+>
+>We didn't modify any already-existing files Apache provided. Instead, we just added ours to the directories they were meant to go.
 
 Now we consume our module in our file <b>`/etc/httpd/conf.d/dispatcher_vhost.conf`</b> which initializes our module and loads the initial module-specific configuration file
 

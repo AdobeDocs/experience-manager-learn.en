@@ -303,9 +303,8 @@ $ cd /etc/httpd/conf.dispatcher.d/enabled_farms/; ln -s ../available_farms/400_w
 
 Now we would just reload the webserver service and use our new domain!
 
-<div style="color: #000;border-left: 6px solid #2196F3;background-color:#ddffff;"><b>Note:</b>
-
-Notice we only changed the pieces we needed to change and leveraged the existing includes and code that came with the baseline configuration files.  We only have to delineate on the element we need to change.  Makes thing much easier and allows us to maintain less code
-</div>
+>[!NOTE]
+>
+>Notice we only changed the pieces we needed to change and leveraged the existing includes and code that came with the baseline configuration files.  We only have to delineate on the element we need to change.  Makes thing much easier and allows us to maintain less code
 
 [Next -> Dispatcher Health Check](./health-check.md)
