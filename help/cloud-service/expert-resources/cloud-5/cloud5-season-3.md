@@ -43,7 +43,7 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
             <div>
                 <a href="./season-3/cloud5-rum.md">
                 <strong>Real User Monitoring (RUM)</strong></a>        
-                <br/><em>with James Talbot & Varun Mitra, AEM Engineering</em>
+                <br/><em>with James Talbot & Damian Langsweirdt, AEM Engineering</em>
             </div>
             <p>
                 <br/>
