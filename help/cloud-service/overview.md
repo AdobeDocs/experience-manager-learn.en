@@ -15,27 +15,6 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 
 >[!VIDEO](https://video.tv.adobe.com/v/31085?quality=12&learn=on)
 
-<div id="whats-new-section">
-
-## What's new
-
-* **[Protecting websites with traffic filter rules including WAF rules (Tutorial)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/security/traffic-filter-and-waf-rules/overview.html)**
-    *Learn how to use traffic filter rules including WAF rules to protect websites*
-
-* **[Token-based authentication (Tutorial)](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html)**
-    *Learn how to use token-based authentication to interact with AEM as a Cloud Service over HTTP*
-
-* **[Headless GraphQL (Tutorial)](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html)**
-    *Learn how to use AEM's GraphQL APIs to power experiences in an external application.*
-
-* **[Asset Compute metadata worker (Tutorial)](./asset-compute/advanced/metadata.md)**
-    *Learn how to write asset metadata back to AEM from an Asset Compute worker*
-
-* **[Asset Compute microservices extensibility (Tutorial)](./asset-compute/overview.md)**
-    *Learn how to develop  Asset Compute workers to generate custom asset renditions*
-
-</div>
-
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
 <div id="recs-overview-body-3"></div>
