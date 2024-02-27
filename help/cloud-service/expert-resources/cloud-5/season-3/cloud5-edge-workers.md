@@ -1,0 +1,16 @@
+---
+title: Cloud 5 - Edge Workers
+description: Explore the importance of edge workers in AEM Sites and Edge Delivery Services and how to integrate them with your back end systems.
+feature: Edge Delivery Services
+topic: Development
+version: Cloud Service
+role: Admin, Developer
+level: Intermediate
+hidefromtoc: yes
+recommendations: noDisplay, noCatalog
+---
+# Cloud 5 - Edge workers
+
+Explore the importance of edge workers in AEM Sites and Edge Delivery Services and how to integrate them with your back end systems.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427589?learn=on)

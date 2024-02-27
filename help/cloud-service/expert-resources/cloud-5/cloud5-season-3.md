@@ -50,7 +50,19 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore Real User Monitoring (RUM) works with Edge Delivery Services.
             </p>
         </td>   
-         <td>           
-         </td> 
+ <td>
+            <a href="./season-3/cloud5-edge-workers.md">
+                <img alt="Edge workers" src="https://video.tv.adobe.com/v/3427589?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-edge-workers.md">
+                <strong>Edge workers</strong></a>        
+                <br/><em>with James Talbot & Amol Anand, AEM Engineering</em>
+            </div>
+            <p>
+                <br/>
+                Explore the importance of edge workers with Edge Delivery Services.
+            </p>
+        </td>   
   </tr>  
 </table>
