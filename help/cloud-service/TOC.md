@@ -380,3 +380,4 @@ team: TM
     + Season 3{#season-3}
       + [3rd Party Search](./expert-resources/cloud-5/season-3/cloud5-3rd-party-search.md)
       + [Real User Monitoring (RUM)](./expert-resources/cloud-5/season-3/cloud5-rum.md)
+      + [Edge workers](./expert-resources/cloud-5/season-3/cloud5-edge-workers.md)

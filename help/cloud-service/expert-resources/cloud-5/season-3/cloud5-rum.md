@@ -2,6 +2,8 @@
 title: Cloud 5 - Real User Monitoring (RUM)
 description: Explore Real User Monitoring (RUM) works with Edge Delivery Services.
 version: Cloud Service
+feature: Edge Delivery Services
+topic: Development
 role: Admin, Developer
 level: Intermediate
 hidefromtoc: yes
