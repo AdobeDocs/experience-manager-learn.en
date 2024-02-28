@@ -21,6 +21,8 @@ thumbnail: KT-14901.jpeg
 
 Learn how to integrate AEM Assets with a third-party system, such as a Product Information Management (PIM) or Product Line Management (PLM) system, to update asset metadata **using native AEM IO events**. Upon receiving an AEM Assets event, the asset metadata can be updated in AEM, the PIM, or both systems, based on the business requirements. However, this example demonstrates updating the asset metadata in AEM. 
 
+>[!VIDEO](https://video.tv.adobe.com/v/3427592?quality=12&learn=on)
+
 To run the asset metadata update **code outside of AEM**, the [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/what_is_runtime/), a serverless platform is used. 
 
 The event processing flow is as follows:
