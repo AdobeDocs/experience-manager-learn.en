@@ -270,6 +270,7 @@ index: y
   + [ECMA script to generate pdf with fragments](document-services/using-fragments-in-output-service-watched-folder.md)
   + [Generating multiple pdf's from one data file](document-services/generate-multi-record-pdf.md)
   + [Generate PDF on Mobile Form Submission](document-services/generate-pdf-from-mobile-form-submission-article.md)
+  + [Generate PDF on Core Component based form submission](document-services/generate-pdf-from-core-component-form-submission.md)
   + [Generate Interactive PDF from Mobile Form](document-services/render-interactive-form-using-api.md)
   + [Generate Interactive DoR from Adaptive Form](document-services/generate-interactive-dor.md)
   + [Configure Reader Extensions Credential](document-services/configuring-reader-extension-osgi.md)
