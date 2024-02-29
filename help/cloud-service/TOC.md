@@ -54,7 +54,8 @@ team: TM
 + Developing{#developing}
   + Extensibility{#extensibility}
     + App Builder{#app-builder}
-      + [Generate access token](./developing/extensibility/app-builder/jwt-auth.md)
+      + [Generate JWT access token](./developing/extensibility/app-builder/jwt-auth.md)
+      + [Generate server-to-server access token](./developing/extensibility/app-builder/server-to-server-auth.md)
     + UI Extensibility{#ui}
       + [Overview](./developing/extensibility/ui/overview.md)
       + [Adobe Developer Console Project](./developing/extensibility/ui/adobe-developer-console-project.md)

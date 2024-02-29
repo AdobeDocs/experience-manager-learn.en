@@ -1,6 +1,6 @@
 ---
-title: Generate access token in App Builder action
-description: Learn how to generate an access token using JWT credentials for use in an App Builder action.
+title: Generate JWT access token in App Builder action
+description: Learn how to generate an access token by using JWT credentials for use in an App Builder action.
 feature: Developer Tools
 version: Cloud Service
 topic: Development
@@ -11,11 +11,11 @@ last-substantial-update: 2023-01-17
 exl-id: 9a3fed96-c99b-43d1-9dba-a4311c65e5b9
 duration: 161
 ---
-# Generate access token in App Builder action
+# Generate JWT access token in App Builder action
 
 App Builder actions may need to interact with Adobe APIs associated with Adobe Developer Console projects the App Builder app is deployed too.
 
-This may require the App Builder action to generate its own access token associated with the desired Adobe Developer Console project.
+This may require the App Builder action to generate its own JWT access token associated with the desired Adobe Developer Console project.
 
 >[!IMPORTANT]
 >
@@ -64,22 +64,22 @@ The `JWT_PRIVATE_KEY` must be specially formatted as it is natively a multi-line
 >[!TAB macOS]
 
 1. Open `Terminal`
-1. Run the comamnd `base64 -i /path/to/private.key | pbcopy`
+1. Run the command `base64 -i /path/to/private.key | pbcopy`
 1. The base64 output is automatically copied the clipboard
 1. Paste into `.env` as value to corresponding key
 
 >[!TAB Windows]
 
 1. Open `Command Prompt`
-1. Run the comamnd `certutil -encode C:\path\to\private.key C:\path\to\encoded-private.key`
-1. Run the comamnd `findstr /v CERTIFICATE C:\path\to\encoded-private.key`
+1. Run the command `certutil -encode C:\path\to\private.key C:\path\to\encoded-private.key`
+1. Run the command `findstr /v CERTIFICATE C:\path\to\encoded-private.key`
 1. Copy the base64 output to the clipboard
 1. Paste into `.env` as value to corresponding key
 
 >[!TAB Linux&reg;]
 
 1. Open terminal
-1. Run the comamnd `base64 private.key`
+1. Run the command `base64 private.key`
 1. Copy the base64 output to the clipboard
 1. Paste into `.env` as value to corresponding key
 
