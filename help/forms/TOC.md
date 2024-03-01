@@ -279,6 +279,14 @@ index: y
   + [Certify Documents](document-services/certifying-documents-aem-forms-tutorial.md)
   + [Assemble Form Attachments](document-services/assemble-form-attachments.md)
   + [Useful Utility Services](document-services/useful-utility-services.md)
++ Forms Designer{#forms-designer}
+  + [Create your first form](forms-designer/create-simple-form.md)
+  + [Scripting your form](forms-designer/first-script-designer.md)
+  + [XML data binding](forms-designer/xml-data-binding.md)
+  + [Database binding](forms-designer/binding-to-mysql-db.md)
+  + [Using scribble signature](forms-designer/scribble-signature-form.md)
+  + [Using digital signature](forms-designer/adding-dig-signature-field.md)
+  + [Reader extending form](forms-designer/reader-extending-j2ee.md)
 + Interactive Communications for Print Channel 
 {#ic-print-channel-tutorial}
   + [1 - Introduction](ic-print-channel-tutorial/introduction.md)
