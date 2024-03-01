@@ -33,6 +33,7 @@ team: TM
   + [Relate and Unrelate](./authoring/relate-unrelate.md)
 
 + Collaboration{#collaboration}
+  + [Watch](./collaboration/watch.md)
   + [Timeline and Inbox](./collaboration/timeline-and-inbox.md)
   + [Comments and Annotations](./collaboration/comments-and-annotations.md)
   + [Check in and Check out](./collaboration/check-in-and-check-out.md)
