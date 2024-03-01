@@ -109,15 +109,15 @@ async function main(params) {
     };
 
     // Make a POST request to the Adobe IMS token endpoint to get the access token
-    const response = await fetch(adobeIMSV3TokenEndpointURL, options);
-    const responseJSON = await response.json();
+    const tokenResponse = await fetch(adobeIMSV3TokenEndpointURL, options);
+    const tokenResponseJSON = await tokenResponse.json();
 
     // The 24-hour IMS Access Token is used to call the AEM Data Service API
     // Can look at caching this token for 24 hours to reduce calls
-    const accessToken = responseJSON.access_token;
+    const accessToken = tokenResponseJSON.access_token;
 
     // Invoke an AEM Data Service API using the access token
-    const res = await fetch(`https://api.adobeaemcloud.com/adobe/stats/statistics/contentRequestsQuota?imsOrgId=${IMS_ORG_ID}&current=true`, {
+    const aemDataResponse = await fetch(`https://api.adobeaemcloud.com/adobe/stats/statistics/contentRequestsQuota?imsOrgId=${IMS_ORG_ID}&current=true`, {
       headers: {
         'X-Adobe-Accept-Experimental': '1',
         'x-gw-ims-org-id': IMS_ORG_ID,
@@ -127,10 +127,10 @@ async function main(params) {
       method: "GET",
     });
 
-    if (!res.ok) { throw new Error("Request to API failed with status code " + res.status);}
+    if (!aemDataResponse.ok) { throw new Error("Request to API failed with status code " + aemDataResponse.status);}
 
     // API data
-    let data = await res.json();
+    let data = await aemDataResponse.json();
 
     const response = {
       statusCode: 200,
