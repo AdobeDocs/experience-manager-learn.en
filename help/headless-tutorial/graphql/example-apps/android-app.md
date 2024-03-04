@@ -59,8 +59,8 @@ The Android application is designed to connect to an __AEM Publish__ environment
 
     ```plain
     contentApi.endpoint=https://author-p123-e456.adobeaemcloud.com
-    contentApi.user=admin
-    contentApi.password=admin
+    contentApi.user=my-special-android-app-user
+    contentApi.password=password123
     ```
 
 1. Download an [Android Virtual Device](https://developer.android.com/studio/run/managing-avds) (minimum API 28).
