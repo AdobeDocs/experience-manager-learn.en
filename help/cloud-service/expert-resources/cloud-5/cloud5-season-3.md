@@ -1,6 +1,6 @@
 ---
 title: Cloud 5 - Season 3
-description: Season three lets you learn about AEM Edge Delivery service through in depth interviews with experts who have worked on complicated projects
+description: Season three lets you learn about AEM Edge Delivery service through in-depth interviews with experts who have worked on complicated projects
 sub-product: Experience Manager Sites, Experience Manager Cloud Manager, Experience Manager Assets
 solution: Experience Manager as a Cloud Service, Experience Manager
 recommendations: noDisplay, noCatalog
@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 
 ## Introduction
 
-Welcome to season three's Cloud 5 Series from AEM Engineering. One of the primary problems in the implementation phase of any product is having enough code samples and/or live demonstrations of those samples, tool, or APIs. The goal of this series is to deliver useful information about AEM Edge Delivery services in 5 minutes or less.
+Welcome to season three's Cloud 5 Series from AEM Engineering. One of the primary problems in the implementation phase of any product is having enough code samples and/or live demonstrations of those samples, tools, or APIs. The goal of this series is to deliver useful information about AEM Edge Delivery Services in 5 minutes or less.
 
 ## Suggestion Box
 
@@ -50,7 +50,7 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore Real User Monitoring (RUM) works with Edge Delivery Services.
             </p>
         </td>   
- <td>
+        <td>
             <a href="./season-3/cloud5-edge-workers.md">
                 <img alt="Edge workers" src="https://video.tv.adobe.com/v/3427589?format=jpeg"/>
             </a>
@@ -64,5 +64,21 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore the importance of edge workers with Edge Delivery Services.
             </p>
         </td>   
-  </tr>  
+    </tr>
+    <tr>
+        <td>
+            <a href="./season-3/cloud5-publish-events.md">
+                <img alt="Publish, unpublish events in Edge Delivery Services" src="https://video.tv.adobe.com/v/3427681?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-publish-events.md">
+                <strong>Publish, unpublish events in Edge Delivery Services</strong></a>        
+                <br/><em>with James Talbot & Amol Anand, AEM Engineering</em>
+            </div>
+            <p>
+                <br/>
+                Explore events that are triggered upon publish and unpublish in Edge Delivery Services as well as use cases and examples for using these events.
+            </p>
+        </td>   
+    </tr>  
 </table>
