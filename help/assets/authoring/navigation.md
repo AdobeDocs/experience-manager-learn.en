@@ -5,7 +5,7 @@ feature: Asset Management
 role: User
 level: Beginner
 version: Cloud Service
-jira: KT-4305
+jira: KT-4832
 thumbnail: 32046.jpg
 topic: Content Management
 last-substantial-update: 2021-09-23
