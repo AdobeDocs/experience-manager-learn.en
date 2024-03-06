@@ -5,6 +5,7 @@ version: 6.4, 6.5
 topic: Content Management
 feature: Translation
 role: User
+jira: KT-213
 level: Intermediate
 last-substantial-update: 2022-09-02
 thumbnail: 18331.jpg
