@@ -8,9 +8,8 @@ topic: Development
 role: Developer
 level: Experienced
 jira: kt-14884
-
 last-substantial-update: 2024-03-03
-
+exl-id: b814097c-0066-44da-bba5-6914dee0df75
 ---
 # Create custom submit
 
@@ -31,4 +30,3 @@ The custom submit code is in **_StoreFormDataWithBlobIndexTagsInAzure_** and the
 ## Next Steps
 
 [Build query interface](./part3.md)
-
