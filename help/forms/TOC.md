@@ -214,12 +214,13 @@ index: y
   + [Handle PDF Submission](offline-mobile-form-submission/part-two.md)
   + [Workflow to Review PDF](offline-mobile-form-submission/part-three.md)
   + [Deploy on your system](offline-mobile-form-submission/part-four.md)
-+ Querying Submitted Data{#querying-submitted-data}
-  + [Introduction](querying-submitted-data/introduction.md)
-  + [Creating Form based on JSON Schema](querying-submitted-data/part1.md)
-  + [Store the submitted data](querying-submitted-data/part2.md)
-  + [Store the JSON Schema](querying-submitted-data/part3.md)
-  + [Query the submitted data](querying-submitted-data/part4.md)
++ Querying Form Submissions{#query-form-submissions}
+  + [Introduction](query-form-submissions/introduction.md)
+  + [Create searchable fields](query-form-submissions/part1.md)
+  + [Create custom submit](query-form-submissions/part2.md)
+  + [Build query interface](query-form-submissions/part3.md)
+  + [Write prefill service](query-form-submissions/part4.md)
+  + [Deploy the sample](query-form-submissions/part5.md)
 + Listing Custom Asset Types in Forms Portal{#listing-custom-asset-types}
   + [Part1-Registering Custom Asset Types](listing-custom-asset-types/part1.md)
   + [Part2 - Creating Custom Template](listing-custom-asset-types/part2.md)
@@ -280,7 +281,9 @@ index: y
   + [Assemble Form Attachments](document-services/assemble-form-attachments.md)
   + [Useful Utility Services](document-services/useful-utility-services.md)
 + Forms Designer{#forms-designer}
+  + [Design view](forms-designer/design-view.md)
   + [Create your first form](forms-designer/create-simple-form.md)
+  + [Create form template](forms-designer/creating-form-template.md)
   + [Scripting your form](forms-designer/first-script-designer.md)
   + [XML data binding](forms-designer/xml-data-binding.md)
   + [Database binding](forms-designer/binding-to-mysql-db.md)
