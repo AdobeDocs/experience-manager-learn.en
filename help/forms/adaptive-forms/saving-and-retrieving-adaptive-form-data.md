@@ -26,11 +26,11 @@ This article will walk you through the steps involved in saving and retrieving A
 
  Apache Sling Connection Pooled DataSource is configured to point to the database that is going to be used to store the Adaptive Form data. The following screenshot shows the configuration for my instance. The following properties can be copied and pasted
 
-* Datasource Name:aemformstutorial - This is the name used in my code.
+* `Datasource Name:aemformstutorial` - This is the name used in my code.
 
-* JDBC Driver Class:com.mysql.jdbc.Driver
+* `JDBC Driver Class:com.mysql.jdbc.Driver`
 
-* JDBC Connection URL:jdbc:mysql://localhost:3306/aemformstutorial
+* `JDBC Connection URL:jdbc:mysql://localhost:3306/aemformstutorial`
 
 ![connectionpool](assets/storingdata.PNG)
 

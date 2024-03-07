@@ -29,9 +29,9 @@ Database has one table called formdata with the 3 columns as shown in the screen
 
 | Property Name| Value |
 | ------------------------|--------------------------------------- |
-| Datasource Name| SaveAndContinue |
-| JDBC Driver Class| com.mysql.cj.jdbc.Driver |
-| JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial |
+| Datasource Name| `SaveAndContinue` |
+| JDBC Driver Class| `com.mysql.cj.jdbc.Driver` |
+| JDBC connection uri| `jdbc:mysql://localhost:3306/aemformstutorial` |
 
 ## Assets
 
