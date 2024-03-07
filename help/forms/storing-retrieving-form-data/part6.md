@@ -30,9 +30,9 @@ To test this capability on your AEM Forms instance, please follow the following 
 
 | Property Name| Value |
 | ------------------------|---------------------------------------|
-| Datasource Name| SaveAndContinue |
-| JDBC Driver Class| com.mysql.cj.jdbc.Driver |
-| JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial |
+| Datasource Name| `SaveAndContinue` |
+| JDBC Driver Class| `com.mysql.cj.jdbc.Driver` |
+| JDBC connection uri| `jdbc:mysql://localhost:3306/aemformstutorial` |
 
 * Open the [Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/demostoreandretrieveformdata/jcr:content?wcmmode=disabled)
 * Fill in some details and click on the "Save And Continue Later" button.

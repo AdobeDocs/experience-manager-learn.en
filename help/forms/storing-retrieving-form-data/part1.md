@@ -28,6 +28,6 @@ The sql file to create the schema can be [downloaded from here](assets/form-data
 
 | Property Name| Value |
 | ------------------------|---------------------------------------|
-| Datasource Name| SaveAndContinue |
-| JDBC Driver Class| com.mysql.cj.jdbc.Driver |
-| JDBC connection uri| jdbc:mysql://localhost:3306/aemformstutorial |
+| Datasource Name| `SaveAndContinue` |
+| JDBC Driver Class| `com.mysql.cj.jdbc.Driver` |
+| JDBC connection uri| `jdbc:mysql://localhost:3306/aemformstutorial` |
