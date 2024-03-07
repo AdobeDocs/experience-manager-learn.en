@@ -9,6 +9,7 @@ role: Developer
 level: Experienced
 jira: KT-14884
 last-substantial-update: 2024-03-03
+exl-id: 08c97626-73a9-43d2-955c-b97fbb5f2e9a
 ---
 # Overview of the use case
 
@@ -39,7 +40,3 @@ The following steps were involved in creating the solution
 ## Next Steps
 
 [Make fields searchable](./part1.md)
-
-
-
-

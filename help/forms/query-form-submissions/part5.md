@@ -8,9 +8,8 @@ topic: Development
 role: Developer
 level: Experienced
 jira: kt-14884
-
 last-substantial-update: 2024-03-03
-
+exl-id: 44841a3c-85e0-447f-85e2-169a451d9c68
 ---
 # Deploy the sample on your local server
 
@@ -29,4 +28,3 @@ To get this usecase working on your local server, please follow the steps listed
 * Preview and submit [ContactUs form](http://localhost:4502/content/dam/formsanddocuments/azureportal/contactus/jcr:content?wcmmode=disabled)
 
 * [Query your form submission](http://localhost:4502/content/dam/formsanddocuments/azureportal/queryformsubmissions/jcr:content?wcmmode=disabled)
-
