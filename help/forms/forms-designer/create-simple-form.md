@@ -15,6 +15,10 @@ exl-id: ac482951-9941-4c14-95b2-29d274fa610e
 ---
 # Create Simple Form using AEM Forms Designer
 
+Introduction
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427622/?learn=on)
+
 Part 1
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427620/?learn=on)
