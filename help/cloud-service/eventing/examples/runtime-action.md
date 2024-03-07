@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-01-29
 jira: KT-14878
 thumbnail: KT-14878.jpeg
+exl-id: b1c127a8-24e7-4521-b535-60589a1391bf
 ---
-
 # Adobe I/O Runtime Action and AEM Events
 
 Learn how to receive AEM Events using [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/what_is_runtime/) Action and review the event details such as payload, headers, and metadata.
@@ -170,4 +170,3 @@ You can review the event details in the **Debug Tracing** tab of the Event Regis
 ## Next steps
 
 In next example let's enhance this action to process AEM Events, call back AEM author service to get content details, store details in Adobe I/O Runtime storage, and display them via Single Page Application (SPA).
-

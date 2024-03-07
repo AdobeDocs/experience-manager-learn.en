@@ -11,8 +11,8 @@ duration: 112
 last-substantial-update: 2024-02-29
 jira: KT-15056
 thumbnail: 3427623.jpeg
+exl-id: 9110589e-a325-479f-b89b-a13e6bdde91d
 ---
-
 # AEM Forms Shorts Create Simple Form Dig Sig
 
 Short Video which describes adding Digital Signatures to AEM Forms

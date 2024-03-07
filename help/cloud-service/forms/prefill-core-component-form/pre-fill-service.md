@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-14675
 duration: 77
+exl-id: 1cd385b3-7e00-4f75-b728-1b47f7a8fb2a
 ---
 # Implement DataProvider interface
 

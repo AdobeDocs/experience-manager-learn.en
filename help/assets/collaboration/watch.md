@@ -11,8 +11,8 @@ duration: 116
 last-substantial-update: 2024-02-29
 jira: KT-15000
 thumbnail: 3427646.jpeg
+exl-id: 33531e51-dcbc-4a02-adb1-4abc70a02a28
 ---
-
 # Watch assets, folders, and collections
 
 Learn how to receive notifications whenever a watched asset, folder, or collection is changed in AEM Assets.

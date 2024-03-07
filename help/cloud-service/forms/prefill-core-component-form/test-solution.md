@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-14675
 duration: 28
+exl-id: a94deebd-e86e-4360-b0ed-193f13197ee2
 ---
 # Test the solution
 

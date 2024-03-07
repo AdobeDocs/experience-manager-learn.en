@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-14675
 duration: 20
+exl-id: cf2aa174-5e88-4656-8b66-a46fa8c20967
 ---
 # Introduction
 

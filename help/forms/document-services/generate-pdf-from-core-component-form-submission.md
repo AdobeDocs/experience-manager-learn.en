@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 jira: KT-15025
 last-substantial-update: 2024-02-26
-
+exl-id: cae160f2-21a5-409c-942d-53061451b249
 ---
 # Generate PDF with data from core component based form submission
 
@@ -120,4 +120,3 @@ To test this on your local server, follow these streamlined steps:
 1. Complete a few form fields.
 1. Submit the form to initiate the AEM workflow.
 1. Find the rendered PDF in the workflow's payload folder.
-
