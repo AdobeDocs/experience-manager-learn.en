@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-01-30
 jira: KT-14879
 thumbnail: KT-14879.jpeg
+exl-id: c362011e-89e4-479c-9a6c-2e5caa3b6e02
 ---
-
 # AEM Events processing using Adobe I/O Runtime Action
 
 Learn how to process received AEM Events using [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/what_is_runtime/) Action. This example enhances the earlier example [Adobe I/O Runtime Action and AEM Events](runtime-action.md), make sure you have completed it before proceeding with this one.
@@ -257,8 +257,3 @@ The event processing requirements differ from project to project, however the ke
 - The event processing can be done using Adobe I/O Runtime Action.
 - The Runtime Action can communicate with systems such as your internal applications, third-party solutions, and Adobe solutions.
 - The runtime action serves as the entry point to a business process designed around a content change.
-
-
-
-
-

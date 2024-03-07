@@ -11,8 +11,8 @@ duration: 163
 last-substantial-update: 2023-01-29
 jira: KT-14734
 thumbnail: KT-14734.jpeg
+exl-id: 33eb0757-f0ed-4c2d-b8b9-fa6648e87640
 ---
-
 # Journaling and AEM Events
 
 Learn how to retrieve the initial set of AEM Events from the journal and explore the details about each event.
@@ -83,4 +83,4 @@ To keep things simple, this hosted web application only fetches the first batch 
 
 - [Glitch webhook source code](https://glitch.com/edit/#!/indigo-speckle-antler) is available for reference. It is a simple React application that uses [Adobe React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html) components to render the UI.
 
-- [Adobe I/O Events Journaling API](https://developer.adobe.com/events/docs/guides/api/journaling_api/) provides detailed information about the API like first, next, and last batch of events, pagination, and more. 
+- [Adobe I/O Events Journaling API](https://developer.adobe.com/events/docs/guides/api/journaling_api/) provides detailed information about the API like first, next, and last batch of events, pagination, and more.

@@ -11,8 +11,8 @@ duration: 128
 last-substantial-update: 2024-02-29
 jira: KT-15053
 thumbnail: 3427620.jpeg
+exl-id: ac482951-9941-4c14-95b2-29d274fa610e
 ---
-
 # Create Simple Form using AEM Forms Designer
 
 Part 1
@@ -22,4 +22,3 @@ Part 1
 Part 2
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427621/?learn=on)
-

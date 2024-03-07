@@ -10,8 +10,8 @@ duration: 0
 last-substantial-update: 2024-02-27
 jira: KT-14903
 thumbnail: KT-14903.jpeg
+exl-id: 563bab0e-21e3-487c-9bf3-de15c3a81aba
 ---
-
 # Custom fields
 
 Learn how to create custom fields in the AEM Content Fragment Editor.

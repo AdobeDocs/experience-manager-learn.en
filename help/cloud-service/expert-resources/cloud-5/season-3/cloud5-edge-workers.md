@@ -8,6 +8,7 @@ role: Admin, Developer
 level: Intermediate
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 7b39d955-9f8a-45cc-bc36-be6d454f5578
 ---
 # Cloud 5 - Edge workers
 

@@ -12,8 +12,8 @@ duration: 389
 last-substantial-update: 2024-01-04
 jira: KT-14745
 thumbnail: KT-14745.jpeg
+exl-id: 3fd4c404-18e9-44e5-958f-15235a3091d5
 ---
-
 # Indexing best practices in AEM
 
 Learn about indexing best practices in Adobe Experience Manager (AEM). Apache [Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/query.html) powers the content search in AEM and the following are key points:

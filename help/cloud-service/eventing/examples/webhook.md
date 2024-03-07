@@ -11,8 +11,8 @@ duration: 156
 last-substantial-update: 2023-01-29
 jira: KT-14732
 thumbnail: KT-14732.jpeg
+exl-id: 00954d74-c4c7-4dac-8d23-7140c49ae31f
 ---
-
 # Webhooks and AEM Events
 
 Learn how to receive AEM events on a webhook and review the event details such as payload, headers, and metadata.

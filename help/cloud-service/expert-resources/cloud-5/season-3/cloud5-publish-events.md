@@ -12,8 +12,8 @@ last-substantial-update: 2024-03-05
 jira: KT-15083
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 5f122412-ab70-4b54-b20b-726bc6138b2b
 ---
-
 # Cloud 5 - Publish, unpublish events in Edge Delivery Services
 
 Explore events that are triggered upon publish and unpublish in Edge Delivery Services as well as use cases and examples for using these events.

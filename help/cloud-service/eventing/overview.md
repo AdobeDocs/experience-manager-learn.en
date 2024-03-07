@@ -11,8 +11,8 @@ duration: 573
 last-substantial-update: 2023-12-07
 jira: KT-14649
 thumbnail: KT-14649.jpeg
+exl-id: 142ed6ae-1659-4849-80a3-50132b2f1a86
 ---
-
 # AEM Eventing
 
 Learn about AEM eventing, what it is, why and when to use it and examples of it.

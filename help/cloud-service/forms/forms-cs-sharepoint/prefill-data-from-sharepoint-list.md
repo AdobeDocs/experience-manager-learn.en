@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-14795
 duration: 60
+exl-id: 9abe9f9d-8fb3-4e01-a830-1dad1c27274d
 ---
 # Prefill adaptive form with share point list data
 
@@ -46,7 +47,3 @@ Preview the form by including the `submissionid` in the URL as shown below
 ```html
 http://localhost:4502/content/dam/formsanddocuments/contactusform/jcr:content?wcmmode=disabled&submissionid=57e12249-751a-4a38-a81f-0a4422b24412
 ```
-
-
-
-

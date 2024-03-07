@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-02-13
 jira: KT-14901
 thumbnail: KT-14901.jpeg
+exl-id: 070cbe54-2379-448b-bb7d-3756a60b65f0
 ---
-
 # AEM Assets events for PIM integration
 
 >[!IMPORTANT]
@@ -292,4 +292,3 @@ The asset metadata synchronization between AEM and other systems like PIM are of
 - The API authentication uses OAuth server-to-server (aka client credentials flow), see [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
 - Instead of Adobe I/O Runtime Actions, other webhooks or Amazon EventBridge can be used to receive the AEM Assets event and process the metadata update.
 - Asset Events via AEM Eventing empower businesses to automate and streamline critical processes, fostering efficiency and coherence across content ecosystem.
-

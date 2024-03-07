@@ -11,8 +11,8 @@ duration: 119
 last-substantial-update: 2024-02-29
 jira: KT-15058
 thumbnail: 3427625.jpeg
+exl-id: 11b4f319-9285-478b-a2ed-7967f02108c6
 ---
-
 # Create XML data Binding in AEM Forms Designer
 
 Short Video which describes binding an AEM Form to an XML Data Source
