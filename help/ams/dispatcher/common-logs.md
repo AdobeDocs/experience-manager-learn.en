@@ -124,7 +124,7 @@ Sample Log entry:
 Fri Jul 20 23:00:19 2018 I pid 16004 (tid 140134145820416) Current cache hit ratio: 87.94 %
 ```
 
-This means your fetching from render level vs from cache is measured. You want to hit 80+ percent from cache, and you should follow the help [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17458.html%3Flang%3Den):
+This means your fetching from render level vs from cache is measured. You want to hit 80+ percent from cache, and you should follow the help [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17458.html):
 
 To get this number as high as possible.
 
@@ -163,7 +163,7 @@ Thu Sep 27 17:35:11 2018 W pid 18936 Unable to fetch vanity URLs from 10.43.0.42
 
 This error occurs when you've configured your Dispatcher to use the dynamic auto-filter allow vanity URLs, but not finished the setup by installing the package on the AEM renderer.
 
-To fix this please install the vanity url feature pack on the AEM instance and allow it to be ready by the anonymous user. Details [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17463.html%3Flang%3Den)
+To fix this please install the vanity url feature pack on the AEM instance and allow it to be ready by the anonymous user. Details [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17463.html)
 
 A working vanity URL set up looks like this:
 
