@@ -39,6 +39,7 @@ team: TM
   + [CI/CD Production Pipeline](./cloud-manager/cicd-production-pipeline.md)
   + [CI/CD Non-Production Pipeline](./cloud-manager/cicd-non-production-pipeline.md)
   + [Activity](./cloud-manager/activity.md)
+  + [Custom Domain Names](./cloud-manager/custom-domain-names.md)
   + Dev Ops{#devops}
     + [Deploying Code](./cloud-manager/devops/deploy-code.md)
     + [Merge Projects](./cloud-manager/devops/merge-projects.md)
