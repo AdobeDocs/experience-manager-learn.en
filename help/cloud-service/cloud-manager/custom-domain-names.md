@@ -19,7 +19,7 @@ Learn how to add a custom domain name to AEM as a Cloud Service web site.
 
 In this tutorial, the branding of the sample [AEM WKND](https://github.com/adobe/aem-guides-wknd) site is enhanced by adding an HTTPS-addressable custom domain name `wknd.enablementadobe.com` with Transport Layer Security (TLS).
 
->[!VIDEO](https://video.tv.adobe.com/v/3427817?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3427903?quality=12&learn=on)
 
 The high-level steps are:
 
@@ -27,16 +27,20 @@ The high-level steps are:
 
 ## Prerequisites
 
+>[!VIDEO](https://video.tv.adobe.com/v/3427909?quality=12&learn=on)
+
 - [OpenSSL](https://www.openssl.org/) and [dig](https://www.isc.org/blogs/dns-checker/) are installed on your local machine.
 - Access to third-party services:
     - Certificate Authority (CA) -  to request the signed certificate for your site domain, like [DigitCert](https://www.digicert.com/) 
     - Domain Name System (DNS) hosting service - to add DNS records for your custom domain, like Azure DNS, or AWS Route 53. 
 - Access to [Adobe Cloud Manager](https://my.cloudmanager.adobe.com/) as Business Owner or Deployment Manager role.
-- Sample [AEM WKND](https://github.com/adobe/aem-guides-wknd) site is deployed to AEMCS environment of [production program](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/introduction-production-programs.html) type.
+- Sample [AEM WKND](https://github.com/adobe/aem-guides-wknd) site is deployed to AEMCS environment of [production program](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/introduction-production-programs) type.
 
 If you do not have access to third-party services, _collaborate with your security or hosting team to complete the steps_.
 
 ## Generate SSL certificate
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427908?quality=12&learn=on)
 
 You have two options:
 
@@ -72,14 +76,18 @@ In this tutorial, the [DigitCert](https://www.digicert.com/) signed certificate 
 
 ## Add SSL certificate in Cloud Manager
 
-To add the SSL certificate in Cloud Manager, follow the [Add SSL Certificate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-ssl-certificates/add-ssl-certificate.html) documentation.
+>[!VIDEO](https://video.tv.adobe.com/v/3427906?quality=12&learn=on)
+
+To add the SSL certificate in Cloud Manager, follow the [Add SSL Certificate](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-ssl-certificates/add-ssl-certificate) documentation.
 
 ## Domain name verification
 
+>[!VIDEO](https://video.tv.adobe.com/v/3427905?quality=12&learn=on)
+
 To verify the domain name follow these steps:
 
-- Add domain name in Cloud Manager by following the [Add Custom Domain Name](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name.html) documentation.
-- Add an AEM-specific [TXT record](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-text-record.html) in your DNS hosting service.
+- Add domain name in Cloud Manager by following the [Add Custom Domain Name](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name) documentation.
+- Add an AEM-specific [TXT record](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-text-record) in your DNS hosting service.
 - Verify the above steps by querying the DNS servers using the `dig` command.
 
 ```bash
@@ -115,15 +123,17 @@ _aemverification.wknd.enablementadobe.com. 3600    IN TXT "adobe-aem-verificatio
 
 In this tutorial, Azure DNS is used as an example. To add the TXT record, you must follow the documentation of your DNS hosting service.
 
-Review the [Checking Domain Name Status](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/check-domain-name-status.html) documentation if there is an issue.
+Review the [Checking Domain Name Status](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/check-domain-name-status) documentation if there is an issue.
 
 ## Configure DNS record
 
+>[!VIDEO](https://video.tv.adobe.com/v/3427907?quality=12&learn=on)
+
 To configure the DNS record for your custom domain follow these steps,
 
-- Determine the DNS record type (CNAME or APEX) based on the domain type, like root domain (APEX) or subdomain (CNAME), and follow the [Configuring DNS Settings](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/configure-dns-settings.html) documentation.
+- Determine the DNS record type (CNAME or APEX) based on the domain type, like root domain (APEX) or subdomain (CNAME), and follow the [Configuring DNS Settings](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/configure-dns-settings) documentation.
 - Add the DNS record in your DNS hosting service.
-- Trigger the DNS record validation by following the [Checking DNS Record Status](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/check-dns-record-status.html) documentation.
+- Trigger the DNS record validation by following the [Checking DNS Record Status](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/check-dns-record-status) documentation.
 
 In this tutorial, as a **subdomain** `wknd.enablementadobe.com` is used, the CNAME record type that points to `cdn.adobeaemcloud.com` is added. 
 
@@ -131,6 +141,14 @@ However, if you are using the **root domain**, you must add APEX record type (ak
 
 ## Site verification
 
+>[!VIDEO](https://video.tv.adobe.com/v/3427904?quality=12&learn=on)
+
 To verify the site is accessible using the custom domain name, open a web browser and navigate to the custom domain URL. Make sure that the site is accessible and the browser shows a secure connection with the padlock icon.
+
+## End to end video
+
+You can also watch the end-to-end video that demonstrates the overview, prerequisites, and above steps to add a custom domain name to AEM as a Cloud Service-hosted site.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427817?quality=12&learn=on)
 
 
