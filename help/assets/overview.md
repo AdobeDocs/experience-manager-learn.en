@@ -20,9 +20,9 @@ Adobe Experience Manager (AEM) Assets is a digital asset management tool on AEM 
 
 ## AEM Assets walk-through
 
-Learn what AEM Assets is and how it might be used to achieve your organization's business goals.
+Learn what AEM Assets is and how can be used to achieve your organization's business goals.
 
->[!VIDEO](https://video.tv.adobe.com/v/336196?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3427944?learn=on)
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
