@@ -82,16 +82,16 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
         </td>  
         <td>
             <a href="./season-3/cloud5-query-indexes.md">
-                <img alt="Query indexes and Excel formulas" src="https://video.tv.adobe.com/v/3427787?format=jpeg"/>
+                <img alt="Query indexes and Excel formulas in Edge Delivery Services" src="https://video.tv.adobe.com/v/3427787?format=jpeg"/>
             </a>
             <div>
                 <a href="./season-3/cloud5-query-indexes.md">
-                <strong>Query indexes and Excel formulas</strong></a>        
+                <strong>Query indexes and Excel formulas </strong></a>        
                 <br/><em>with James Talbot & Varun Mitra, AEM Engineering</em>
             </div>
             <p>
                 <br/>
-                Explore query indexes and how to write Excel formulas for manipulating and sorting datasets.
+                Explore query indexes and how to write Excel formulas for manipulating and sorting datasets in Edge Delivery Services.
             </p>
         </td>   
     </tr>  
