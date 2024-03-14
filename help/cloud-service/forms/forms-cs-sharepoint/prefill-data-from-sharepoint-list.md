@@ -15,11 +15,11 @@ exl-id: 9abe9f9d-8fb3-4e01-a830-1dad1c27274d
 
 In the previous version of AEM Form(6.5), custom code had to be written to prefill form data model backed adaptive form using request attribute. In AEM Forms as cloud service, the need to write custom code is not longer required.
 
-This article explains the steps required to prefill/pre-populate adaptive form with data fetched from sharepoint list using the form data model prefill service. 
+This article explains the steps required to prefill/pre-populate adaptive form with data fetched from SharePoint list using the form data model prefill service. 
 
-This article assumes you have [successfully configured adaptive form to submit data to sharepoint list.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=en#connect-af-sharepoint-list)
+This article assumes you have [successfully configured adaptive form to submit data to SharePoint list.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=en#connect-af-sharepoint-list)
 
-The following is the data in the sharepoint list
+The following is the data in the SharePoint list
 ![sharepoint-list](assets/list-data.png) 
 
 To prefill an adaptive form with the data associated with a particular guid the following steps need to be performed
