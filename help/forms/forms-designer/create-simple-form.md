@@ -26,3 +26,8 @@ Part 1
 Part 2
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427621/?learn=on)
+
+Accessing help content
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427622/?learn=on)
+
