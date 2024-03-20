@@ -16,7 +16,7 @@ Adobe Experience Manager (AEM) Assets is a digital asset management tool on AEM 
 >id="aemcloud_assets_overview"
 >title="AEM Assets"
 >abstract="Learn how to quickly find and edit the assets you need."
->additional-url="https://video.tv.adobe.com/v/336196" text="AEM Assets walk-through"
+>additional-url="https://video.tv.adobe.com/v/3427944" text="AEM Assets walk-through"
 
 ## AEM Assets walk-through
 
