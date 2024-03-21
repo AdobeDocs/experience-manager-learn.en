@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-15126
-
+exl-id: b369ed05-ba25-4b0e-aa3b-e7fc1621067d
 ---
 # Insert data into SharePoint list using invoke FDM workflow step
 
@@ -60,4 +60,3 @@ This article assumes you have [successfully configured adaptive form to submit d
 ## Test the form
 
 Preview the form created in the previous step. Fill out the form and submit. The data from the form should get inserted into the SharePoint list.
-

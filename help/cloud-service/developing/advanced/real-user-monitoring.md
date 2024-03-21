@@ -1,6 +1,6 @@
 ---
 title: Real User Monitoring (RUM)
-description: Learn about Real User Monitoring (RUM) in AEM as a Cloud Service website. 
+description: Learn about Real User Monitoring (RUM) in AEM as a Cloud Service website.
 version: Cloud Service
 feature: Operations
 topic: Performance
@@ -11,8 +11,8 @@ duration: 0
 jira: KT-11861
 thumbnail: KT-11861.png
 last-substantial-update: 2024-03-18
+exl-id: 37f1091d-d9b2-47a4-a179-d96ffeb87045
 ---
-
 # Real User Monitoring (RUM)
 
 Learn about Real User Monitoring (RUM) in AEM as a Cloud Service website. Understand how to enable RUM, what data is collected and how to use RUM data to optimize the user experience on your website.

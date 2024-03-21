@@ -12,8 +12,8 @@ hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 last-substantial-update: 2024-03-13
 jira: KT-15104
+exl-id: ac9583fc-26f8-4107-ac8d-1c828b242112
 ---
-
 # Query indexes and Excel formulas
 
 Explore query indexes and how to write Excel formulas for manipulating and sorting datasets with Edge Delivery Services.
