@@ -7,12 +7,12 @@ topic: Administration, Architecture
 role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
-duration: 
+duration: null
 last-substantial-update: 2024-03-12
 jira: KT-15121
 thumbnail: KT-15121.jpeg
+exl-id: 8936c3ae-2daf-4d0f-b260-28376ae28087
 ---
-
 # Add custom domain name
 
 Learn how to add a custom domain name to AEM as a Cloud Service web site. 
@@ -150,5 +150,3 @@ To verify the site is accessible using the custom domain name, open a web browse
 You can also watch the end-to-end video that demonstrates the overview, prerequisites, and above steps to add a custom domain name to AEM as a Cloud Service-hosted site.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427817?quality=12&learn=on)
-
-
