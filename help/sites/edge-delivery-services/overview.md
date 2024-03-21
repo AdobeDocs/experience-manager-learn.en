@@ -1,6 +1,6 @@
 ---
 title: Edge Delivery Services videos
-description: Learn how to make web sites fast with Edge Delivery.
+description: Learn how to make web sites fast with Edge Delivery Services.
 version: Cloud Service
 feature: Edge Delivery Services
 topic: Development
