@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-10830
 thumbnail: KT-10830.jpg
 exl-id: 394792e4-59c8-43c1-914e-a92cdfde2f8a
-last-substantial-update: 2023-08-08
+last-substantial-update: 2024-03-22
 duration: 215
 ---
 # Cross-origin resource sharing (CORS) 
@@ -127,7 +127,8 @@ AEM Publish (and Preview) service's Dispatcher must be configured to support COR
 
           SetEnvIfExpr "req_novary('Access-Control-Request-Method') == '' && %{REQUEST_METHOD} == 'OPTIONS' && req_novary('Origin') != ''" CORSType=invalidpreflight CORSProcessing=false
           SetEnvIfExpr "req_novary('Access-Control-Request-Method') != '' && %{REQUEST_METHOD} == 'OPTIONS' && req_novary('Origin') != ''" CORSType=preflight CORSProcessing=true CORSTrusted=false
-          SetEnvIfExpr "req_novary('Origin') -strcmatch '%{REQUEST_SCHEME}://%{HTTP_HOST}*'" CORSType=samedomain CORSProcessing=false
+          SetEnvIfExpr "req_novary('Origin') -strcmatch 'http://%{HTTP_HOST}*'" CORSType=samedomain CORSProcessing=false
+          SetEnvIfExpr "req_novary('Origin') -strcmatch 'https://%{HTTP_HOST}*'" CORSType=samedomain CORSProcessing=false
 
           # For requests that require CORS processing, check if the Origin can be trusted
           SetEnvIfExpr "%{HTTP_HOST} =~ /(.*)/ " ParsedHost=$1
