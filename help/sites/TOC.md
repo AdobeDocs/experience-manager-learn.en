@@ -50,6 +50,8 @@ version: 6.4, 6.5, Cloud Service
   + [Launches](page-authoring/launches.md)
   + Learn From Your Peers {#expert-advice}
     + [Site Hierarchy Tips](page-authoring/expert-advice/site-hierarchy.md)
++ Generative AI {#generative-ai}
+  + [Generate Variations](./generative-ai/generate-variations.md)
 + Content Fragments {#content-fragments}
   + [Content Fragments console](https://experienceleague.adobe.com/docs/experience-manager-learn/content-fragments-console/overview.html){target=_blank}
   + [Authoring Content Fragments](content-fragments/content-fragments-feature-video-use.md)
