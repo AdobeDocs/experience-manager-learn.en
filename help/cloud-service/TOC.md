@@ -101,7 +101,6 @@ team: TM
     + [Custom namespaces](./developing/advanced/custom-namespaces.md)
     + [Service Users](./developing/advanced/service-users.md)
     + [Web-optimized image APIs](./developing/advanced/web-optimized-image-delivery-java-apis.md)
-    + [Real User Monitoring](./developing/advanced/real-user-monitoring.md)
   + Rapid Development Environment{#rde}
     + [Overview](./developing/rde/overview.md)
     + [How to setup](./developing/rde/how-to-setup.md)
