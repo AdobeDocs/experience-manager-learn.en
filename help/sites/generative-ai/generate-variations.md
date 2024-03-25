@@ -9,8 +9,8 @@ doc-type: Feature Video
 duration: 407
 last-substantial-update: 2024-03-14
 jira: KT-14911
+exl-id: 1055c45c-7f04-4f8e-bca8-a4a085a718c8
 ---
-
 # Generate Variations
 
 Generate Variations in Adobe Experience Manager is a dynamic tool that optimizes text and images for any experiences, seamlessly integrating creativity with efficiency.
