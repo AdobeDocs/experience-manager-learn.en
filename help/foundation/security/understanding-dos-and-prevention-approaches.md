@@ -10,8 +10,8 @@ doc-type: Article
 duration: 0
 last-substantial-update: 2024-03-30
 jira: KT-15219
+exl-id: 1d7dd829-e235-4884-a13f-b6ea8f6b4b0b
 ---
-
 # Understanding DoS/DDoS prevention in AEM
 
 Learn about the options available to prevent and mitigate DoS and DDoS attacks on your AEM environment. Before diving into the prevention mechanisms, a brief overview of [DoS](https://developer.mozilla.org/en-US/docs/Glossary/DOS_attack) and [DDoS](https://developer.mozilla.org/en-US/docs/Glossary/Distributed_Denial_of_Service).
@@ -61,4 +61,3 @@ While there isn't a one-size-fits-all standard flow for identifying and preventi
 
 - Identify the root cause of the DoS/DDoS attack by conducting a post-incident analysis, including reviewing logs, network traffic, and system configurations.
 - Improve prevention mechanisms based on the findings from the post-incident analysis.
-
