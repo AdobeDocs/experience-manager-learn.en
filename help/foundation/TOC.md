@@ -35,6 +35,7 @@ index: y
   + [Develop AEM Projects](./projects/develop-aem-projects.md)
   + [Use Project Masters](./projects/use-project-masters.md)
 + Security {#security}
+  + [Understanding DoS/DDoS prevention](./security/understanding-dos-and-prevention-approaches.md)
   + [Develop for Cross-Origin Resource Sharing (CORS)](./security/develop-for-cross-origin-resource-sharing.md)
   + [Understand Cross-Origin Resource Sharing (CORS)](./security/understand-cross-origin-resource-sharing.md)
   + [Use the SSL Wizard](./security/use-the-ssl-wizard.md)
