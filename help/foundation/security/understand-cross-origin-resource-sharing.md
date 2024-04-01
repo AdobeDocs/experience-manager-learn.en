@@ -120,7 +120,7 @@ Site 1 is a basic, anonymously accessible, read-only scenario where content is c
     "X-Requested-With",
     "Content-Type",
     "Access-Control-Request-Method",
-    "Access-Control-Request-Headers",
+    "Access-Control-Request-Headers"
   ]
 }
 ```
