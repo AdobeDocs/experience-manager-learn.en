@@ -131,12 +131,12 @@ version: 6.4, 6.5, Cloud Service
     + [Generate FPIDs](integrations/platform/fpid.md)
     + [Web SDK](integrations/platform/web-sdk.md)
     + [Analytics using Platform Web SDK](integrations/platform/analytics-using-web-sdk.md)
-  + Experience Platform Data Collection Tags (Launch) {#experience-platform-data-collection-tags}
+  + Tags in Adobe Experience Platform {#experience-platform-data-collection-tags}
     + [Overview](integrations/experience-platform/data-collection/tags/overview.md)
     + [Create a Tag Property](integrations/experience-platform/data-collection/tags/create-tag-property.md)
     + [Connect AEM and Tag Property using IMS](integrations/experience-platform/data-collection/tags/connect-aem-tag-property-using-ims.md)
-    + [Create AEM Launch Cloud Service](integrations/experience-platform/data-collection/tags/create-aem-launch-cloud-service.md)
-    + [Debugging a Tags (Launch) implementation](integrations/experience-platform/data-collection/tags/debug-tags-implementation.md)
+    + [Create AEM Tags Cloud Service](integrations/experience-platform/data-collection/tags/create-aem-launch-cloud-service.md)
+    + [Debugging a Tags implementation](integrations/experience-platform/data-collection/tags/debug-tags-implementation.md)
   + Adobe Client Data Layer {#adobe-client-data-layer}
     + [Using the Adobe Client Data Layer](integrations/adobe-client-data-layer/data-layer-overview.md)
     + [Customize the Adobe Client Data Layer](integrations/adobe-client-data-layer/data-layer-customize.md)
@@ -146,7 +146,7 @@ version: 6.4, 6.5, Cloud Service
     + [Analyze data with Analysis Workspace](integrations/analytics/create-analytics-workspace.md)
   + Adobe Target {#target}
     + [Overview](integrations/adobe-target/overview.md)
-    + [Add Target extension to Launch Property](integrations/adobe-target/add-target-launch-extension.md)
+    + [Add Target extension to Tags Property](integrations/adobe-target/add-target-launch-extension.md)
     + [Load and fire a Target call](integrations/adobe-target/load-and-fire-target.md)
     + [Create Adobe Target Cloud Service account](integrations/adobe-target/setup-aem-target-cloud-service.md)
     + [Export Experience Fragments to Adobe Target](integrations/adobe-target/export-experience-fragment-target.md)

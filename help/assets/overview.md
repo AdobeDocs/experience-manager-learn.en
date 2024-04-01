@@ -55,7 +55,7 @@ Learn what AEM Assets is and how can be used to achieve your organization's busi
    </a>
    <div>
       <a href="./advanced/asset-insights-launch-tutorial.md">
-      <strong>Using AEM Asset Insights with Launch</strong>
+      <strong>Using AEM Asset Insights with tags</strong>
       </a>
    </div>
    <p>

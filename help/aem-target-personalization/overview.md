@@ -40,7 +40,7 @@ We now have personalized content in the form of Offers from AEM in Target. Targe
 
 **To implement this scenario, you need to:**
 
-* [Integrate AEM and Adobe Target using Launch and Adobe I/O](./implementation.md#integrating-aem-target-options)
+* [Integrate AEM and Adobe Target using tags and Adobe I/O](./implementation.md#integrating-aem-target-options)
 * [AEM and Adobe Target using Legacy Cloud Services](./implementation.md#integrating-aem-target-options)
 
 ***After implementing the above integrations, lets explore the [scenario in detail](./personalization-use-case-1.md).***
@@ -61,7 +61,7 @@ VEC is one of the main features of Adobe Target. The VEC lets marketers and desi
 
 **To implement this scenario, you need to:**
 
-* [Integrate AEM and Adobe Target using Launch and Adobe I/O](./implementation.md#integrating-aem-target-options)
+* [Integrate AEM and Adobe Target using tags and Adobe I/O](./implementation.md#integrating-aem-target-options)
 
 ***After implementing the above integration, lets explore the [scenario in detail.](./personalization-use-case-3.md)***
 
@@ -79,6 +79,6 @@ Integrating Adobe Experience Manager with Adobe Target helps you deliver a perso
 
 **To implement this scenario, you need to:**
 
-* [Integrate AEM and Adobe Target using Launch and Adobe I/O](./implementation.md#integrating-aem-target-options)
+* [Integrate AEM and Adobe Target using tags and Adobe I/O](./implementation.md#integrating-aem-target-options)
 
 ***After implementing the above integration, lets explore the [scenario in detail.](./personalization-use-case-2.md)***

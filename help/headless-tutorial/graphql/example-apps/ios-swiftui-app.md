@@ -46,7 +46,7 @@ The iOS application is designed to connect to an __AEM Publish__ environment, ho
     $ git clone git@github.com:adobe/aem-guides-wknd-graphql.git
     ```
 
-1. Launch [Xcode](https://developer.apple.com/xcode/) and open the folder `ios-app`
+1. Open [Xcode](https://developer.apple.com/xcode/) and open the folder `ios-app`
 1. Modify the file `Config.xcconfig` file and update `AEM_SCHEME` and `AEM_HOST` to match your target AEM Publish service.
 
     ```plain

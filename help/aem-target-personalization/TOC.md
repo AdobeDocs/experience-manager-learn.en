@@ -16,5 +16,5 @@ jira: KT-2214
 + [Personalization of Full Web Page Experiences](./personalization-use-case-2.md)
 + Implementation {#aem-target-implementation}
   + [Introduction](./implementation.md)
-  + [AEM and Adobe Target using Launch and Adobe I/O](./using-launch-adobe-io.md)
+  + [AEM and Adobe Target using tags and Adobe I/O](./using-launch-adobe-io.md)
   + [AEM and Adobe Target using Legacy Cloud Services](./using-aem-cloud-services.md)

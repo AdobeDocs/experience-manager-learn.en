@@ -39,7 +39,7 @@ In **Experience Platform**:
 + Access to **Schemas** under Data Management
 + Access to **Datasets** under Data Management
 + Access to **Datastreams** under Data Collection
-+ Access to **Tags** (formerly known as Launch) under Data Collection
++ Access to **Tags** under Data Collection
 
 In case you do not have necessary permissions, your system administrator using [Adobe Admin Console](https://adminconsole.adobe.com/) can grant necessary permissions.
 
@@ -69,7 +69,7 @@ Familiarize yourself with the concept of Datastreams and related topics such as 
 
 ## Create Tag property - Experience Platform
 
-Learn how to create a tag (formerly known as Launch) property in Experience Platform to add the Web SDK JavaScript library to the WKND website. The newly defined tag property has following resources:
+Learn how to create a tag property in Experience Platform to add the Web SDK JavaScript library to the WKND website. The newly defined tag property has following resources:
 
 + Tag Extensions: [Core](https://exchange.adobe.com/apps/ec/100223/adobe-launch-core-extension) and [Adobe Experience Platform Web SDK](https://exchange.adobe.com/apps/ec/106387/aep-web-sdk)
 + Data Elements: The data elements of custom code type that extract page-name, site-section, and host-name using WKND site's Adobe Client Data Layer. Also, the XDM Object type data element that complies with newly created WKND XDM schema build-in earlier [Create XDM Schema](#create-xdm-schema---experience-platform) step.
@@ -133,26 +133,26 @@ While building and publishing the tag library using the **Publishing Flow**, you
     var pageShownEventHandler = function(evt) {
     // defensive coding to avoid a null pointer exception
     if(evt.hasOwnProperty("eventInfo") && evt.eventInfo.hasOwnProperty("path")) {
-        //trigger Launch Rule and pass event
+        // trigger tags Rule and pass event
         console.debug("cmp:show event: " + evt.eventInfo.path);
         var event = {
-            //include the path of the component that triggered the event
+            // include the path of the component that triggered the event
             path: evt.eventInfo.path,
-            //get the state of the component that triggered the event
+            // get the state of the component that triggered the event
             component: window.adobeDataLayer.getState(evt.eventInfo.path)
         };
 
-        //Trigger the Launch Rule, passing in the new 'event' object
-        // the 'event' obj can now be referenced by the reserved name 'event' by other Launch data elements
+        // Trigger the tags Rule, passing in the new 'event' object
+        // the 'event' obj can now be referenced by the reserved name 'event' by other tags data elements
         // i.e 'event.component['someKey']'
         trigger(event);
         }
     }
 
-    //set the namespace to avoid a potential race condition
+    // set the namespace to avoid a potential race condition
     window.adobeDataLayer = window.adobeDataLayer || [];
 
-    //push the event listener for cmp:show into the data layer
+    // push the event listener for cmp:show into the data layer
     window.adobeDataLayer.push(function (dl) {
         //add event listener for 'cmp:show' and callback to the 'pageShownEventHandler' function
         dl.addEventListener("cmp:show", pageShownEventHandler);
@@ -168,9 +168,9 @@ For additional information on integrating AEM Core Components with Adobe Client 
 
 ## Connect Tag property to AEM
 
-Discover how to link the recently created tag property to AEM through Adobe IMS and Adobe Launch Configuration in AEM. When an AEM as a Cloud Service environment is established, several Adobe IMS Technical Account configurations are automatically generated, including Adobe Launch. However, for AEM 6.5 version, you must configure one manually.
+Discover how to link the recently created tag property to AEM through Adobe IMS and tags in Adobe Experience Platform Configuration in AEM. When an AEM as a Cloud Service environment is established, several Adobe IMS Technical Account configurations are automatically generated, including tags. However, for AEM 6.5 version, you must configure one manually.
 
-After linking the tag property, the WKND site is able to load the tag property's JavaScript library onto the web pages using the Adobe Launch cloud service configuration.
+After linking the tag property, the WKND site is able to load the tag property's JavaScript library onto the web pages using the tags in Adobe Experience Platform cloud service configuration.
 
 ### Verify Tag property loading on WKND 
 

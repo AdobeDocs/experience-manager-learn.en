@@ -26,7 +26,7 @@ You can customize an Experience Manager Inbox to change the default title of a c
 
 ## Column customization
 
-[Launch AEM inbox](http://localhost:4502/aem/inbox)
+[Open AEM inbox](http://localhost:4502/aem/inbox)
 Open the Admin Control by clicking on the _List View_ icon and then selecting _Admin Control_ as shown in the screen shot below
 
 ![admin-control](assets/open-customization.png)

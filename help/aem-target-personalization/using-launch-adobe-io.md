@@ -1,6 +1,6 @@
 ---
-title: Integrating Adobe Experience Manager with Adobe Target using Experience Platform Launch and Adobe Developer
-description: Step-by-step walk-through on how to integrate Adobe Experience Manager with Adobe Target using Experience Platform Launch and Adobe Developer
+title: Integrating Adobe Experience Manager with Adobe Target using tags and Adobe Developer
+description: Step-by-step walk-through on how to integrate Adobe Experience Manager with Adobe Target using tags and Adobe Developer
 feature: Experience Fragments
 topic: Personalization
 role: Developer
@@ -11,7 +11,7 @@ doc-type: Tutorial
 exl-id: b1d7ce04-0127-4539-a5e1-802d7b9427dd
 duration: 747
 ---
-# Using Adobe Experience Platform Launch via Adobe Developer Console
+# Using tags via Adobe Developer Console
 
 ## Prerequisites
 
@@ -19,18 +19,17 @@ duration: 747
 * **Experience Cloud**
   * Access to your organizations Adobe Experience Cloud - `https://<yourcompany>.experiencecloud.adobe.com`
   * Experience Cloud provision with the following solutions
-    * [Adobe Experience Platform Launch](https://experiencecloud.adobe.com)
+    * [Data Collection](https://experiencecloud.adobe.com)
     * [Adobe Target](https://experiencecloud.adobe.com)
     * [Adobe Developer Console](https://developer.adobe.com/console/)
   
     >[!NOTE]
-    >You should have permission to Develop, Approve, Publish, Manage Extensions, and Manage Environments in Launch. If you are unable to complete any of these steps because the user interface options are not available to you, reach out to your Experience Cloud Administrator to request access. For more information on Launch permissions, [see the documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html).
+    >You should have permission to Develop, Approve, Publish, Manage Extensions, and Manage Environments in Data Collection. If you are unable to complete any of these steps because the user interface options are not available to you, reach out to your Experience Cloud Administrator to request access. For more information on tags permissions, [see the documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html).
 
-* **Browser Plugins**
-  * Adobe Experience Cloud Debugger ([Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob))
-  * Launch and DTM Switch ([Chrome](https://chrome.google.com/webstore/detail/launch-and-dtm-switch/nlgdemkdapolikbjimjajpmonpbpmipk))
+* **Chrome browser extensions**
+  * Adobe Experience Cloud Debugger(https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)
 
-## Users Involved
+## Users involved
 
 For this integration, the following audiences must be involved, and to perform some tasks, you might need administrative access.
 
@@ -40,12 +39,12 @@ For this integration, the following audiences must be involved, and to perform s
 
 ## Introduction
 
-AEM offers an out of the box integration with Experience Platform Launch. This integration allows AEM administrators to easily configure Experience Platform Launch via an easy-to-use interface, thereby reducing the level of effort and number of errors, when configuring these two tools. And just by adding Adobe Target extension to Experience Platform Launch will help us use all features of Adobe Target on the AEM web page(s).
+AEM offers an out of the box integration with tags. This integration allows AEM administrators to easily configure tags via an easy-to-use interface, thereby reducing the level of effort and number of errors, when configuring these two tools. And just by adding Adobe Target extension to tags will help us use all features of Adobe Target on the AEM web page(s).
 
 In this section, we would be cover the following integration steps:
 
-* Launch
-  * Create a Launch Property
+* Tags
+  * Create a tags Property
   * Adding Target Extension
   * Create a Data Element
   * Create a Page Rule
@@ -55,34 +54,34 @@ In this section, we would be cover the following integration steps:
   * Create a Cloud Service
   * Create
 
-### Launch
+### Tags
 
-#### Create a Launch Property
+#### Create a tags property
 
 A property is a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site.
 
 1. Navigate to your organizations [Adobe Experience Cloud](https://experiencecloud.adobe.com/) (`https://<yourcompany>.experiencecloud.adobe.com`)
-2. Log in using your Adobe ID, and make sure you are in the right organization.
-3. From the solution switcher, click on **Launch** and then select the **Go To Launch** button.
+1. Log in using your Adobe ID, and make sure you are in the right organization.
+1. From the solution switcher, click on **Experience Platform**, then the **Data Collection** section, and select **Tags**.
 
-    ![Experience Cloud - Launch](assets/using-launch-adobe-io/exc-cloud-launch.png)
+  ![Experience Cloud - tags](assets/using-launch-adobe-io/exc-cloud-launch.png)
 
-4. Make sure you are in the right organization and then proceed with creating a Launch property.
-  ![Experience Cloud - Launch](assets/using-launch-adobe-io/launch-create-property.png)
+1. Make sure you are in the right organization and then proceed with creating a tags property.
+  ![Experience Cloud - tags](assets/using-launch-adobe-io/launch-create-property.png)
   
     *For more information on creating properties, see [Create a Property](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en#create-or-configure-a-property) in the product documentation.*
-5. Click on the **New Property** button
-6. Provide a name for your property (For example, *AEM Target Tutorial*)
-7. As the domain, enter *localhost.com* since this is the domain where the WKND demo site is running on. Although the '*Domain*' field is required, the Launch property will work on any domain where it's implemented. Primary purpose of this field is to pre-populate menu options in the Rule builder.
-8. Click the **Save** button.
+1. Click on the **New Property** button
+1. Provide a name for your property (For example, *AEM Target Tutorial*)
+1. As the domain, enter *localhost.com* since this is the domain where the WKND demo site is running on. Although the '*Domain*' field is required, the tags property will work on any domain where it's implemented. Primary purpose of this field is to pre-populate menu options in the Rule builder.
+1. Click the **Save** button.
 
-    ![Launch - New Property](assets/using-launch-adobe-io/exc-launch-property.png)
+    ![tags - New Property](assets/using-launch-adobe-io/exc-launch-property.png)
 
-9. Open the property that you just created and click on the Extensions tab.
+1. Open the property that you just created and click on the Extensions tab.
 
-#### Adding Target Extension
+#### Adding Target extension
 
-The Adobe Target extension supports client-side implementations using Target JavaScript SDK for the modern web, `at.js`. Customers still using Target older library, `mbox.js`, [should upgrade to at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html) to use Launch.
+The Adobe Target extension supports client-side implementations using Target JavaScript SDK for the modern web, `at.js`. Customers still using Target older library, `mbox.js`, [should upgrade to at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html) to use tags.
 
 The Target extension consists of two main parts:
 
@@ -93,17 +92,17 @@ The Target extension consists of two main parts:
   * Add Params to Global Mbox
   * Fire Global Mbox
 
-1. Under **Extensions**, you can see the list of Extensions that are already installed for your Launch property. ([Experience Platform Launch Core Extension](https://exchange.adobe.com/apps/ec/100223/adobe-launch-core-extension) is installed by default)
+1. Under **Extensions**, you can see the list of Extensions that are already installed for your tags property. ([Adobe Launch Core Extension](https://exchange.adobe.com/apps/ec/100223/adobe-launch-core-extension) is installed by default)
 2. Click on the **Extension Catalog** option, and search for Target in the filter.
 3. Select the latest version of Adobe Target at.js and Click on **Install** option.
-    ![Launch -New Property](assets/using-launch-adobe-io/launch-target-extension.png)
+    ![Tags - New Property](assets/using-launch-adobe-io/launch-target-extension.png)
 
 4. Click on **Configure** button, and you can notice the configuration window with your Target account credentials imported, and the at.js version for this extension.
      ![Target - Extension Config](assets/using-launch-adobe-io/launch-target-extension-2.png)
 
-    When Target is deployed via asynchronous Launch embed codes, you should hard-code a pre-hiding snippet on your pages before the Launch embed codes in order to manage content flicker. We will learn more about the pre-hiding snipper later. You can download the pre-hiding snippet [here](assets/using-launch-adobe-io/prehiding.js)
+    When Target is deployed via asynchronous tags embed codes, you should hard-code a pre-hiding snippet on your pages before the tags embed codes in order to manage content flicker. We will learn more about the pre-hiding snipper later. You can download the pre-hiding snippet [here](assets/using-launch-adobe-io/prehiding.js)
 
-5. Click **Save** to complete adding the Target extension to your Launch property, and you should now be able to see the Target extension listed under the **Installed** extensions list.
+5. Click **Save** to complete adding the Target extension to your tags property, and you should now be able to see the Target extension listed under the **Installed** extensions list.
 
 6. Repeat the steps above to search for "Experience Cloud ID Service" extension and install it.
    ![Extension - Experience Cloud ID Service](assets/using-launch-adobe-io/launch-extension-experience-cloud.png)
@@ -135,13 +134,12 @@ The Target extension consists of two main parts:
 > Grant the Adobe Developer integration the access to select workspaces with the appropriate [role to allow a central team to make API-driven changes in only a few workspaces](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/configure-adobe-io-integration.html).
 
 1. Create IMS integration in AEM using credentials from Adobe Developer. (01:12 to 03:55)
-2. In Experience Platform Launch, create a property. (covered [above](#create-launch-property))
-3. Using the IMS integration from Step 1, create Experience Platform Launch integration to import your Launch property.
-4. In AEM, map the Experience Platform Launch integration to a site using browser configuration. (05:28 to 06:14)
+2. In Data Collection, create a property. (covered [above](#create-launch-property))
+3. Using the IMS integration from Step 1, create tags integration to import your tags property.
+4. In AEM, map the tags integration to a site using browser configuration. (05:28 to 06:14)
 5. Validate integration manually. (06:15 to 06:33)
-6. Using Launch/DTM browser plugin. (06:34 to 06:50)
-7. Using Adobe Experience Cloud Debugger browser plugin. (06:51 to 07:22)
+6. Using Adobe Experience Cloud Debugger browser plugin. (06:51 to 07:22)
 
-At this point, you have successfully integrated [AEM with Adobe Target using Adobe Experience Platform Launch](./using-aem-cloud-services.md#integrating-aem-target-options) as detailed in Option 1.
+At this point, you have successfully integrated [AEM with Adobe Target using tags](./using-aem-cloud-services.md#integrating-aem-target-options) as detailed in Option 1.
 
 For using AEM Experience Fragment offers to power you personalization activities, lets proceed to the next chapter, and integrate AEM with Adobe Target using the legacy cloud services.

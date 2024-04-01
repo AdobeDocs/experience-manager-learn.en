@@ -1,6 +1,6 @@
 ---
-title: Set up Asset Insights with AEM Assets and Adobe Launch
-description: In this five-part video series, let's walk through the setup and configuration of Asset Insights for Experience Manager deployed via Launch By Adobe.
+title: Set up Asset Insights with AEM Assets and tags
+description: In this five-part video series, let's walk through the setup and configuration of Asset Insights for Experience Manager deployed via tags.
 feature: Asset Insights
 version: 6.4, 6.5
 topic: Integrations
@@ -13,9 +13,9 @@ doc-type: Tutorial
 exl-id: 00125fe1-3bb9-4b1a-a83c-61c413403ae2
 duration: 2051
 ---
-# Set up Asset Insights with AEM Assets and Adobe Experience Platform Launch
+# Set up Asset Insights with AEM Assets and tags
 
-In this five-part video series, let's walk through the setup and configuration of Asset Insights for Experience Manager deployed via Adobe Launch.
+In this five-part video series, let's walk through the setup and configuration of Asset Insights for Experience Manager deployed via tags.
 
 ## Part 1: Asset Insights Overview {#overview}
 
@@ -75,9 +75,9 @@ For AEM Assets Insights configuration you need the following credentials
 * Shared Secret (can be obtained from *Adobe Analytics &gt; Admin &gt; Company Settings &gt; Web Service*).
 * Report Suite (Make sure to select the right Report Suite that is used for Asset Reporting)
 
-## Part 4: Using Adobe Experience Platform Launch for adding Adobe Analytics extension {#part-using-launch-by-adobe-for-adding-adobe-analytics-extension}
+## Part 4: Using tags for adding Adobe Analytics extension {#part-using-launch-by-adobe-for-adding-adobe-analytics-extension}
 
-Adding Adobe Analytics Extension, Creating Page Load rules and Integrating AEM with Launch with Adobe IMS technical account.
+Adding Adobe Analytics Extension, Creating Page Load rules and Integrating AEM with tags with Adobe IMS technical account.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25946?quality=12&learn=on)
 
@@ -172,13 +172,13 @@ document.querySelectorAll('[data-aem-asset-id]').forEach(function(element) {
 ### Console debug statements {#console-debug-statements}
 
 ```javascript
-//Launch Build Info
+// Tags build info
 _satellite.buildInfo
 
 //Enables debug messages
 _satellite.setDebug(true);
 
-//Asset Insight JS Object
+//Asset Insight JavaScript Object
 assetAnalytics
 
 //List of trackable images
@@ -187,10 +187,8 @@ document.querySelectorAll(".cmp-image__image");
 
 Two Google Chrome browser extensions are referenced in the video as ways to debug Analytics. Similar extensions are available for other browsers as well.
 
-* [Launch Switch Chrome Extension](https://chrome.google.com/webstore/detail/launch-and-dtm-switch/nlgdemkdapolikbjimjajpmonpbpmipk?hl=en)
-* [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)
+* [Adobe Experience Platform Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)
 
-It is also possible to switch DTM into debug mode with the following Chrome Extension: [Launch and DTM Switch](https://chrome.google.com/webstore/detail/launch-and-dtm-switch/nlgdemkdapolikbjimjajpmonpbpmipk?hl=en). This makes it easier to see if there are any errors related to DTM deployment. In addition, you can manually switch DTM to debug mode via any browser *developer tool -&gt; JS Console* by adding the following snippet:
 
 ## Part 5 : Testing Analytic Tracking and Syncing Insight Data{#analytics-tracking-asset-insights}
 

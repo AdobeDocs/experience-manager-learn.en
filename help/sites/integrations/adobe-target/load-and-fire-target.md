@@ -1,6 +1,6 @@
 ---
 title: Load and fire a Target call
-description: Learn how to load, pass parameters to page request, and fire a Target call from your site page using a Launch Rule. Page information is retrieved and passed as parameters using the Adobe Client Data Layer that lets you collect and store data about visitors' experience on a webpage and then make it easy to access this data.
+description: Learn how to load, pass parameters to page request, and fire a Target call from your site page using a tags Rule.
 feature: Core Components, Adobe Client Data Layer
 version: Cloud Service
 jira: KT-6133
@@ -16,19 +16,19 @@ duration: 610
 ---
 # Load and fire a Target call {#load-fire-target}
 
-Learn how to load, pass parameters to page request, and fire a Target call from your site page using a Launch Rule. Web page information is retrieved and passed as parameters using the Adobe Client Data Layer that lets you collect and store data about visitors' experience on a webpage and then make it easy to access this data.
+Learn how to load, pass parameters to page request, and fire a Target call from your site page using a tags Rule. Web page information is retrieved and passed as parameters using the Adobe Client Data Layer that lets you collect and store data about visitors' experience on a webpage and then make it easy to access this data.
 
 >[!VIDEO](https://video.tv.adobe.com/v/41243?quality=12&learn=on)
 
 ## Page Load Rule 
 
-The Adobe Client Data Layer is an event-driven data layer. When the AEM Page data layer is loaded, it triggers an event `cmp:show` . In the video, the `Launch Library Loaded` rule is invoked using a custom event. Below, you can find the code snippets used in the video for the custom event and for the data elements. 
+The Adobe Client Data Layer is an event-driven data layer. When the AEM Page data layer is loaded, it triggers an event `cmp:show` . In the video, the `tags Library Loaded` rule is invoked using a custom event. Below, you can find the code snippets used in the video for the custom event and for the data elements. 
 
 ### Custom Page Shown Event{#page-event}
 
 ![Page shown event configuration and custom code](assets/load-and-fire-target-call.png)
 
-In the Launch property, add a new **Event** to the **Rule**
+In the tags property, add a new **Event** to the **Rule**
 
 + __Extension:__ Core
 + __Event Type:__ Custom Code
@@ -47,7 +47,7 @@ var pageShownEventHandler = function(coreComponentEvent) {
         // Debug the AEM Component path the show event is associated with
         console.debug("cmp:show event: " + coreComponentEvent.eventInfo.path);
 
-        // Create the Launch Event object
+        // Create the tags Event object
         var launchEvent = {
             // Include the ID of the AEM Component that triggered the event
             id: coreComponentEvent.eventInfo.path,
@@ -55,14 +55,14 @@ var pageShownEventHandler = function(coreComponentEvent) {
             component: window.adobeDataLayer.getState(coreComponentEvent.eventInfo.path)
         };
 
-        //Trigger the Launch Rule, passing in the new `event` object
-        // the `event` obj can now be referenced by the reserved name `event` by other Launch data elements
+        // Trigger the tags Rule, passing in the new `event` object
+        // the `event` obj can now be referenced by the reserved name `event` by other tags data elements
         // i.e `event.component['someKey']`
         trigger(launchEvent);
    }
 }
 
-// With the AEM Core Component event handler, that proxies the event and relevant information to Adobe Launch, defined above...
+// With the AEM Core Component event handler, that proxies the event and relevant information to Data Collection, defined above...
 
 // Initialize the adobeDataLayer global object in a safe way
 window.adobeDataLayer = window.adobeDataLayer || [];
@@ -74,20 +74,20 @@ window.adobeDataLayer.push(function (dataLayer) {
 });
 ```
 
-A custom function defines the `pageShownEventHandler`, and listens for events emitted by AEM Core Components, derives the relevant information the Core Component, packages it up into an event object, and triggers the Launch Event with the derived event info at its payload.
+A custom function defines the `pageShownEventHandler`, and listens for events emitted by AEM Core Components, derives the relevant information the Core Component, packages it up into an event object, and triggers the tags Event with the derived event info at its payload.
 
-The Launch Rule is triggered using the Launch's `trigger(...)` function which is __only__ available from within a Rule's Event's Custom Code code snippet definition. 
+The tags Rule is triggered using the tags's `trigger(...)` function which is __only__ available from within a Rule's Event's Custom Code code snippet definition. 
 
-The `trigger(...)` function takes an event object as a parameter which in turn is exposed in Launch Data Elements, by another reserved name in Launch named `event`. Data Elements in Launch can now reference data from this event object from the `event` object using syntax like `event.component['someKey']`.
+The `trigger(...)` function takes an event object as a parameter which in turn is exposed in tags Data Elements, by another reserved name in tags named `event`. Data Elements in tags can now reference data from this event object from the `event` object using syntax like `event.component['someKey']`.
 
-If `trigger(...)` is used outside the context of an Event's Custom Code event type (for example, in an Action), the JavaScript error `trigger is undefined` is thrown on the Web site integrated with the Launch property.
+If `trigger(...)` is used outside the context of an Event's Custom Code event type (for example, in an Action), the JavaScript error `trigger is undefined` is thrown on the Web site integrated with the tags property.
 
 
 ### Data Elements 
 
 ![Data Elements](assets/data-elements.png)
 
-Adobe Launch Data Elements map the data from the event object [triggered in the custom Page Shown event](#page-event) to variables available in Adobe Target, via the Core extension's Custom Code Data Element Type.
+Tags Data Elements map the data from the event object [triggered in the custom Page Shown event](#page-event) to variables available in Adobe Target, via the Core extension's Custom Code Data Element Type.
 
 #### Page ID Data Element
 

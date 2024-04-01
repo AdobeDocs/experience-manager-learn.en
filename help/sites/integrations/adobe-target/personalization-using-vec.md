@@ -23,7 +23,7 @@ Learn how to create an A/B Test Target Activity using Visual Experience Composer
 To use VEC on an AEM web site, the following set-up must be completed:
 
 1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
-1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
+1. [Trigger an Adobe Target call from tags](./load-and-fire-target.md)
 
 ## Scenario Overview
 

@@ -15,10 +15,6 @@ duration: 527
 ---
 # Track clicked component with Adobe Analytics
 
->[!NOTE]
->
->Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Adobe Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) for a consolidated reference of the terminology changes.
-
 Use the event-driven [Adobe Client Data Layer with AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/data-layer/overview.html) to track clicks of specific components on an Adobe Experience Manager site. Learn how to use rules in the tag property to listen for click events, filter by component and send the data to an Adobe Analytics with a track link beacon.
 
 ## What you are going to build {#what-build}
