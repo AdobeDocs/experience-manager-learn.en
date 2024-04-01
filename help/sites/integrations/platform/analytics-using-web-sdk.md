@@ -51,7 +51,7 @@ In **Experience Platform**:
 + Access to **Schemas** under Data Management
 + Access to **Datasets** under Data Management
 + Access to **Datastreams** under Data Collection
-+ Access to **Tags** (formerly known as Launch) under Data Collection
++ Access to **Tags**  under Data Collection
 
 In case you do not have necessary permissions, your system administrator using [Adobe Admin Console](https://adminconsole.adobe.com/) can grant necessary permissions.
 

@@ -46,7 +46,7 @@ The Android application is designed to connect to an __AEM Publish__ environment
     $ git clone git@github.com:adobe/aem-guides-wknd-graphql.git
     ```
 
-1. Launch [Android Studio](https://developer.android.com/studio) and open the folder `android-app`
+1. Open [Android Studio](https://developer.android.com/studio) and open the folder `android-app`
 1. Modify the file `config.properties` at `app/src/main/assets/config.properties` and update `contentApi.endpoint` to match your target AEM environment:
     
     ```plain

@@ -1,6 +1,6 @@
 ---
-title: Using Dynamic Media Viewers with Adobe Analytics and Adobe Launch
-description: The Dynamic Media Viewers extension for Adobe Launch, along with the release of Dynamic Media Viewers 5.13, lets customers of Dynamic Media, Adobe Analytics, and Adobe Launch use events and data specific for the Dynamic Media Viewers in their Adobe Launch configuration.
+title: Using Dynamic Media Viewers with Adobe Analytics and tags
+description: The Dynamic Media Viewers extension for tags, along with the release of Dynamic Media Viewers 5.13, lets customers of Dynamic Media, Adobe Analytics, and tags use events and data specific for the Dynamic Media Viewers in their tags configuration.
 sub-product: Dynamic Media
 feature: Asset Insights
 version: 6.4, 6.5
@@ -11,7 +11,7 @@ doc-type: Feature Video
 exl-id: 9d807f4c-999c-45e6-a9db-6c1776bddda1
 duration: 637
 ---
-# Using Dynamic Media Viewers with Adobe Analytics and Adobe Launch{#using-dynamic-media-viewers-adobe-analytics-launch}
+# Using Dynamic Media Viewers with Adobe Analytics and tags{#using-dynamic-media-viewers-adobe-analytics-tags}
 
 For customers with Dynamic Media and Adobe Analytics, you can now track usage of Dynamic Media Viewers on your website using the Dynamic Media Viewer Extension.
 
@@ -19,13 +19,13 @@ For customers with Dynamic Media and Adobe Analytics, you can now track usage of
 
 >[!NOTE]
 >
-> Run Adobe Experience Manager in Dynamic Media Scene7 mode for this functionality. You also need to [integrate Adobe Experience Platform Launch with your AEM instance](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html).
+> Run Adobe Experience Manager in Dynamic Media Scene7 mode for this functionality. You also need to [integrate tags with your AEM instance](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html).
 
 With the introduction of the Dynamic Media Viewer extension, Adobe Experience Manager now offers advanced analytics support for assets delivered with Dynamic Media viewers (5.13), providing more granular control over event tracking when a Dynamic Media Viewer is used on a Sites page.
 
-If you already have AEM Assets and Sites, you can integrate your Launch property with your AEM author instance. Once your launch integration is associated with your website, you can add a dynamic media components to your page with event tracking for viewers enabled.
+If you already have AEM Assets and Sites, you can integrate your tags property with your AEM author instance. Once your launch integration is associated with your website, you can add a dynamic media components to your page with event tracking for viewers enabled.
 
-For AEM Assets-only customers or Dynamic Media Classic customers, user can get embed code for a viewer and add it to the page. Launch Script libraries can then be manually added to the page for viewer event tracking.
+For AEM Assets-only customers or Dynamic Media Classic customers, user can get embed code for a viewer and add it to the page. Tags Script libraries can then be manually added to the page for viewer event tracking.
 
 The following table lists Dynamic Media Viewer events and their supported arguments:
 
@@ -160,6 +160,6 @@ The following table lists Dynamic Media Viewer events and their supported argume
 
 ## Additional Resources{#additional-resources}
 
-* [Integrating Adobe Experience Manager with Adobe Launch](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html)
+* [Integrating AEM with tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html)
 * [Running Adobe Experience Manager on Dynamic Media Scene7 mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en)
-* [Integrating Dynamic Media Viewers with Adobe Analytics and Adobe Launch](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-viewer-extension-use.html)
+* [Integrating Dynamic Media Viewers with Adobe Analytics using tags](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-viewer-extension-use.html)

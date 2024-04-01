@@ -11,24 +11,24 @@ doc-type: Tutorial
 exl-id: 53cafd06-3a0a-4995-947d-179146b89234
 duration: 159
 ---
-# Personalization of Full Web Page Experiences using Adobe Target
+# Personalization of full web page experiences using Adobe Target
 
 In the previous chapter, we learned how to create a geo-location based activity within Adobe Target using content created as Experience Fragments and exported from AEM as HTML Offers.
 
 In this chapter, we'll explore creating activity to redirect your site pages that are hosted on AEM to a new page using Adobe Target.
 
-## Scenario Overview
+## Scenario overview
 
 WKND site redesigned their home page and would like to redirect their current home page visitors to the new home page. At the same time, also understand how the redesigned home page helps to improve user engagement and revenue. As a marketer, you have been assigned the task to create an activity to redirect the visitors to the new home page. Let us explore the WKND site home page and learn how to create an activity using Adobe Target.
 
-### Users Involved
+### Users involved
 
 For this exercise, the following users need to be involved and to perform some tasks you might need administrative access.
 
 * **Content Producer/Content Editor** (Adobe Experience Manager)
 * **Marketer** (Adobe Target / Optimization Team)
 
-### WKND Site Home Page
+### WKND site home page
 
  ![AEM Target Scenario 1](assets/personalization-use-case-2/aem-target-use-case-2.png)
 
@@ -36,19 +36,19 @@ For this exercise, the following users need to be involved and to perform some t
 
 * **AEM**
   * [AEM author and publish instance](./implementation.md#getting-aem) running on localhost 4502 and 4503 respectively.
-  * [AEM integrated with Adobe Target using Adobe Experience Platform Launch](./using-launch-adobe-io.md#aem-target-using-launch-by-adobe)
+  * [AEM integrated with Adobe Target using tags](./using-launch-adobe-io.md#aem-target-using-launch-by-adobe)
 * **Experience Cloud**
   * Access to your organizations Adobe Experience Cloud - `https://<yourcompany>.experiencecloud.adobe.com`
   * Experience Cloud provisioned with the following solutions
     * [Adobe Target](https://experiencecloud.adobe.com)
 
-## Content Editor Activities
+## Content editor activities
 
 1. The Marketer initiates the WKND Home Page redesign discussion with AEM Content Editor and details the requirements.
    * ***Requirement*** : Redesign WKND Site Home Page with card-based design.
 2. Based on the requirements, AEM Content Editor then creates a new WKND Site home page with a card-based design and publishes the new home page.
 
-## Marketer Activities
+## Marketer activities
 
 1. Marketer creates an A/B target activity with the redirect offer as an Experience and 100% website traffic allotted to the new home page with success goal and metrics added.
    1. From your Adobe Target window, navigate to **Activities** tab.

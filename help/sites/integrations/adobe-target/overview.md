@@ -29,7 +29,7 @@ In this video, we discuss three approaches for using AEM and Target, and help yo
 * __Scenario 1:__ Personalization using AEM Experience Fragment Offers
 
     1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
-    1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
+    1. [Trigger an Adobe Target call from tags](./load-and-fire-target.md)
     1. [Integrate AEM Author service with Adobe Target](./setup-aem-target-cloud-service.md)
     1. [Export AEM Experience Fragments to Adobe Target](./export-experience-fragment-target.md)
     1. [Personalize part of a web page using Experience Fragment Offers](./create-target-activity.md)
@@ -37,11 +37,11 @@ In this video, we discuss three approaches for using AEM and Target, and help yo
 * __Scenario 2:__ Personalization using Visual Experience Composer (VEC)
 
     1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
-    1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
+    1. [Trigger an Adobe Target call from tags](./load-and-fire-target.md)
     1. [Personalize part of a web page using Visual Experience Composer](./personalization-using-vec.md)
 
 * __Scenario 3:__ Personalization of full web page experiences
 
     1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
-    1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
+    1. [Trigger an Adobe Target call from tags](./load-and-fire-target.md)
     1. [Personalize the full web page experience](./personalization-web-page.md)

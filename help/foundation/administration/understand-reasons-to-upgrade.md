@@ -617,7 +617,7 @@ Below is a matrix of key Sites features offered by AEM. Some of these features w
             <td>✔</td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/experience-manager/using/aem_launch_adobeio_integration.html" target="_blank">Adobe Launch Integration</a>:</strong>
+            <td><strong><a href="https://helpx.adobe.com/experience-manager/using/aem_launch_adobeio_integration.html" target="_blank">Tags in Adobe Experience Platform Integration</a>:</strong>
             Integrate with Adobe's next-generation tag management cloud service.</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

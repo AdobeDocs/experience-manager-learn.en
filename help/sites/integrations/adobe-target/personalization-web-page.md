@@ -22,7 +22,7 @@ Learn how to create an activity to redirect your site pages that are hosted on A
 To personalize full pages of an AEM web site, the following set-up must be completed:
 
 1. [Add Adobe Target to your AEM web site](./add-target-launch-extension.md)
-1. [Trigger an Adobe Target call from Launch](./load-and-fire-target.md)
+1. [Trigger an Adobe Target call from tags](./load-and-fire-target.md)
 
 ## Scenario overview
 

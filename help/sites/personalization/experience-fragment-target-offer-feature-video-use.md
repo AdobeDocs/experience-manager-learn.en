@@ -18,7 +18,7 @@ Adobe Experience Manager re-imagines the personalization workflow between AEM an
 
 >[!NOTE]
 >
->Recommended to use `at.js` client library and the best practice is to use tag management solutions like Launch By Adobe, Adobe DTM or any 3rd party tag management solution to add target libraries to your site pages
+>Recommended to use `at.js` client library and the best practice is to use tag management solutions like tags in Adobe Experience Platform or any 3rd party tag management solution to add target libraries to your site pages
 
 
 * Adobe Experience Manager's easy-to-use and powerful content creating mechanism along with Adobe Target's Artificial Intelligence(AI) and Machine Learning helps content authors to create and manage content for all channels in a centralized location. With the ability to export Experience Fragments into Adobe Target as HTML offers, marketers now have more flexibility to create a more personalized experience using these offers and can now test and scale each experience they create. 
