@@ -31,7 +31,7 @@ Configuring how the CDN caches content is limited to setting cache headers on HT
 
 AEM as a Cloud Service CDN caches only HTTP responses, and all the following criteria must be met:
 
-+ HTTP request status is `2xx` or `3xx`
++ HTTP response status is `2xx` or `3xx`
 + HTTP request method is `GET` or `HEAD`
 + At least one of the following HTTP response headers is present: `Cache-Control`, `Surrogate-Control`, or  `Expires`
 + The HTTP response can be any content types, including HTML, JSON, CSS, JS, and binary files.
