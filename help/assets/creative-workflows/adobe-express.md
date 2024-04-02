@@ -19,4 +19,4 @@ Discover how to effortlessly create and edit content within Adobe Experience Man
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425972/?learn=on)
 
-Learn how to setup the [AEM Assets add-on for Adobe Express](./adobe-express-aem-assets-add-on.md) to seamlessly access AEM Assets from Adobe Express.
+Learn how to setup the [AEM Assets native integration with Adobe Express](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integration-adobe-express/native-integration-adobe-express) to seamlessly access AEM Assets from Adobe Express.
