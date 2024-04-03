@@ -8,8 +8,8 @@ role: Developer, Architect
 level: Intermediate
 jira: KT-15233
 last-substantial-update: 2024-04-01
+exl-id: c4b093d4-39b8-4f0b-b759-ecfbb6e9e54f
 ---
-
 # Protecting content in AEM Headless
 
 Ensuring the integrity and security of your data when serving AEM Headless content from AEM Publish is crucial when serving sensitive content. This how-to walks through securing the content served by AEM Headless GraphQL API endpoints.
@@ -108,4 +108,3 @@ Note that this will incur a performance penalty as the content will not be cache
 ## Protecting AEM Headless GraphQL API endpoints
 
 This guide does not address securing the [AEM Headless GraphQL API endpoints](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/headless/graphql-api/graphql-endpoint) themselves, but rather focuses on securing the content served by them. All users, including anonymous users, can access the endpoints containing protected content. Only the content accessible by the user's Closed User Groups will be returned. If no content is accessible, the AEM Headless API response will still have a 200 HTTP response status code, but the results will be empty. Typically, securing the content is sufficient, as the endpoints themselves do not inherently expose sensitive data. If you need to secure the endpoints, apply ACLs to them on AEM Publish via [Sling Repository Initialization (repoinit) scripts](https://sling.apache.org/documentation/bundles/repository-initialization.html#repoinit-parser-test-scenarios).
-
