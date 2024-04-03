@@ -27,7 +27,7 @@ The user enters the Lead Id  and on tabbing out the Marketo service to get the l
 
 The following screenshot explains the rule editor settings
 
-![ruleeditor](assets/ruleeditor.jfif)
+![ruleeditor](assets/ruleeditor.png)
 
 ## Debugging
 

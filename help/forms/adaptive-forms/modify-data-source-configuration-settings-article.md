@@ -22,4 +22,4 @@ The screenshots below show the data source configuration settings in AEM Forms 6
 
 ![64DataSource Configuration](assets/64release.gif)
 **Editable Data Source Configuration in AEM 6.5 and above**
-![65DataSource Configuration](assets/modifiabledatasource.jfif)
+![65DataSource Configuration](assets/modifiable_data_source.png)
