@@ -22,7 +22,7 @@ AEM Forms Data Integration allows you to configure and connect to disparate data
 1. OData services
 
 For the integrating AEM Forms with Marketo, we are using RESTful web services. The first step in integrating is to configure a [data source.](https://helpx.adobe.com/experience-manager/6-4/forms/using/configure-data-sources.html#ConfigureRESTfulwebservices) Please use the swagger file provided as part of this tutorial. The following screenshot shows you the important properties that need to be specified while configuring the data source.
-![datasource](assets/datasource.jfif)
+![datasource](assets/datasource.png)
 
 The "marketo.json" is the swagger file and is provided to you as part of this tutorial's assets.
 Property Host is specific to your Marketo instance.
@@ -45,7 +45,7 @@ Point your browser to the [data integrations page.](http://localhost:4502/aem/fo
 1. Tab to the Services tab
 1. Select the only service that is listed and click on Test Service
 1. Provide a valid leadId and click on Test. If everything goes well you should get back the lead details as shown in the screenshot below
-![testresults](assets/testresults.jfif)
+![testresults](assets/testresults.png)
 
 ## Next Steps
 

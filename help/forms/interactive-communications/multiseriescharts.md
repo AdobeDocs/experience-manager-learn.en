@@ -15,11 +15,11 @@ duration: 446
 
 AEM Forms 6.5 introduced the ability to create and configure multiple series charts. The multiple series charts are typically used in association with Line,Bar,Column chart type. The following chart is an good example of multi series chart. The chart shows the growth of $10,000 USD in 3 different mutual funds over a period of time. To be able to create and use charts of these kind in AEM Forms, you will need to create the appropriate Form Data Model.
 
-![Multi-series chart](assets/seriescharts.jfif)
+![Multi-series chart](assets/series_charts.png)
 
 To create multi-series charts in AEM Forms, you need to create an appropriate Form Data Model with necessary entities and associations between the entities. The following screenshot highlights the entities and the associations between the 3 entities. At the top level, we have an entity called "Organization", which has a one-to-many association with Fund entity. The Fund entity, in turn, has a one-to-many association with the Performance entity.
 
-![Form data model](assets/formdatamodel.jfif)
+![Form data model](assets/form_data_model.png)
 
 ## Create Form Data Model for Multi Series Charts
 
