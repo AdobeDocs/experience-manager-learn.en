@@ -61,6 +61,7 @@ index: y
   + [Localized content](./graphql/how-to/localized-content.md)
   + [Large result sets](./graphql/how-to/large-result-sets.md)
   + [Preview](./graphql/how-to/preview.md)
+  + [Protected content](./graphql/how-to/protected-content.md)
   + [AEM Headless SDK](./graphql/how-to/aem-headless-sdk.md)
   + [Install GraphiQL on AEM 6.5](./graphql/how-to/install-graphiql-aem-6-5.md)
   + Examples {#example-apps}
