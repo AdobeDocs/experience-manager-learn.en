@@ -61,3 +61,4 @@ While there isn't a one-size-fits-all standard flow for identifying and preventi
 
 - Identify the root cause of the DoS/DDoS attack by conducting a post-incident analysis, including reviewing logs, network traffic, and system configurations.
 - Improve prevention mechanisms based on the findings from the post-incident analysis.
+
