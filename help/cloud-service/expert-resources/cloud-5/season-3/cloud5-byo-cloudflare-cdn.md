@@ -17,3 +17,4 @@ jira: KT-15271
 Explore how to configure your own Cloudflare CDN into Edge Delivery Services.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428100/?quality=12&learn=on)
+
