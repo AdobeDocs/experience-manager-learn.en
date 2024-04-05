@@ -93,6 +93,20 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 <br/>
                 Explore query indexes and how to write Excel formulas for manipulating and sorting datasets in Edge Delivery Services.
             </p>
-        </td>   
+        </td>  
+        <td>
+            <a href="./season-3/cloud5-byo-cloudflare-cdn.md">
+                <img alt="Bring your own Cloudflare CDN" src="https://video.tv.adobe.com/v/3428100?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-byo-cloudflare-cdn.md">
+                <strong>Bring your own Cloudflare CDN</strong></a>        
+                <br/><em>with James Talbot & Kunwar Saluja, AEM Engineering</em>
+            </div>
+            <p>
+                <br/>
+                Explore how to configure your own Cloudflare CDN into Edge Delivery Services.
+            </p>
+        </td>           
     </tr>  
 </table>
