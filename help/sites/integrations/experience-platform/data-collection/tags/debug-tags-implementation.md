@@ -38,11 +38,11 @@ To enable the client-side debugging, call the `setDebug(true)` method on the `_s
 
 ## Debugging via Adobe Experience Platform Debugger 
 
-Adobe provides Adobe Experience Platform Debugger [Chrome extension](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) and [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/) to debug, understand, and get insight into the integration.
+Adobe provides Adobe Experience Platform Debugger [Chrome extension](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) to debug, understand, and get insight into the integration.
 
 1.  Open the Adobe Experience Platform Debugger extension and open the site page on the Publish instance
 
-1.  In the **Adobe Experience Platform Debugger > Summary > Adobe Experience Platform Tags** section, verify your Tag property details such as Name, Version, Build Date, Environment, and Extensions.
+2.  In the **Adobe Experience Platform Debugger > Summary > Adobe Experience Platform Tags** section, verify your Tag property details such as Name, Version, Build Date, Environment, and Extensions.
 
     ![Adobe Experience Platform Debugger and Tag Property Details](assets/tag-property-details.png)
 

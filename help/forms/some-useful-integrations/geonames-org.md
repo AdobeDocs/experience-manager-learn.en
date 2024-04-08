@@ -19,7 +19,7 @@ A cascading drop-down list is a series of dependent DropDownList controls in whi
 
 >[!VIDEO](https://video.tv.adobe.com/v/340344?quality=12&learn=on)
 
-For the purpose of this tutorial, I have used [Geonames REST API](http://api.geonames.org/) to demonstrate this capability.
+For the purpose of this tutorial, I have used [Geonames REST API](https://www.geonames.org/export/web-services.html) to demonstrate this capability.
 There are a number of organizations providing this kind of service and as long as they have well documented REST API's you can easily integrate with AEM Forms using the data integration capability
 
 The following steps were followed to implement cascading drop down lists in AEM Forms
@@ -84,7 +84,7 @@ Add 2 drop-down lists called counties and cities in the form to list the countie
 You can download the following assets to get a head start in creating the cascading drop-down list sample
 The completed swagger files can be downloaded from [here](assets/geonames-swagger-files.zip)
 The swagger files describe the following REST API
-* [Get All Countries](http://api.geonames.org/countryInfoJSON?username=yourusername)
-* [Get Children of Geoname object](http://api.geonames.org/children?formatted=true&geonameId=6252001&username=yourusername)
+* [Get All Countries](https://secure.geonames.org/countryInfoJSON?username=yourusername)
+* [Get Children of Geoname object](https://secure.geonames.org/children?formatted=true&geonameId=6252001&username=yourusername)
 
 The completed [Form Data Model can be downloaded from here](assets/geonames-api-form-data-model.zip)

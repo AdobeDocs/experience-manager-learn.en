@@ -20,9 +20,9 @@ This is a development tutorial illustrating how to develop for [!DNL AEM Project
 
 ## Introduction {#introduction}
 
-[[!DNL AEM Projects]](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/projects/projects.html) is a feature of AEM designed to make it easier to manage and group all of the workflows and tasks associated with content creation as part of an AEM Sites or Assets implementation.
+[[!DNL AEM Projects]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/projects/projects) is a feature of AEM designed to make it easier to manage and group all of the workflows and tasks associated with content creation as part of an AEM Sites or Assets implementation.
 
-AEM Projects comes with several [OOTB project templates](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/projects/projects.html). When creating a project, authors can choose from these available templates. Large AEM implementations with unique business requirements will want to create custom Project templates, tailored to meet their needs. By creating a custom Project template developers can configure the project dashboard, hook into custom workflows, and create additional business roles for a project. We will look at the structure of a Project Template and create a sample one.
+AEM Projects comes with several [OOTB project templates](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/projects/projects). When creating a project, authors can choose from these available templates. Large AEM implementations with unique business requirements will want to create custom Project templates, tailored to meet their needs. By creating a custom Project template developers can configure the project dashboard, hook into custom workflows, and create additional business roles for a project. We will look at the structure of a Project Template and create a sample one.
 
 ![Custom Project Card](./assets/develop-aem-projects/custom-project-card.png)
 
@@ -33,7 +33,7 @@ This tutorial will step through the code necessary to create a custom Project te
 * [Finished Tutorial Package](./assets/develop-aem-projects/projects-tasks-guide.ui.apps-0.0.1-SNAPSHOT.zip)
 * [Full Code Repository on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides/tree/feature/projects-tasks-guide)
 
-This tutorial assumes some basic knowledge of [AEM development practices](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/the-basics.html) and some familiarity with [AEM Maven project setup](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html). All code mentioned is intended to be used as a reference and should only be deployed to a [local development AEM instance](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/deploy.html).
+This tutorial assumes some basic knowledge of [AEM development practices](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics) and some familiarity with [AEM Maven project setup](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html). All code mentioned is intended to be used as a reference and should only be deployed to a [local development AEM instance](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/deploy).
 
 ## Structure of a project template
 
@@ -64,11 +64,11 @@ An example of a custom wizard can be found for the Translation Project Template:
 
 ### Gadgets {#gadgets}
 
-There are no additional properties on this node but the children of the gadgets node control which Project Tiles populate the Project's dashboard when a new Project is created. [The Project Tiles](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/projects/projects.html) (also known as gadgets or pods) are simple cards that populate the workplace of a Project. A full list of ootb tiles can be found under: **/libs/cq/gui/components/projects/admin/pod. **Project owners can always add/remove tiles after a project has been created.
+There are no additional properties on this node but the children of the gadgets node control which Project Tiles populate the Project's dashboard when a new Project is created. [The Project Tiles](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/projects/projects) (also known as gadgets or pods) are simple cards that populate the workplace of a Project. A full list of ootb tiles can be found under: **/libs/cq/gui/components/projects/admin/pod. **Project owners can always add/remove tiles after a project has been created.
 
 ### Roles {#roles}
 
-There are three [default Roles](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/projects/projects.html) for every project: **Observers**, **Editors**, and **Owners**. By adding child nodes beneath the roles node, you can add additional business-specific Project Roles for the template. You can then tie these roles to specific workflows associated with the project.
+There are three [default Roles](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/projects/projects) for every project: **Observers**, **Editors**, and **Owners**. By adding child nodes beneath the roles node, you can add additional business-specific Project Roles for the template. You can then tie these roles to specific workflows associated with the project.
 
 ### Workflows {#workflows}
 
@@ -147,7 +147,7 @@ Since we are primarily copying/configuring nodes, we will use CRXDE Lite. In you
     1. Add another **nt:unstructured** node labeled approvers as a child of the roles node. 
     1. Add String properties **jcr:title** = "**Approvers**", **roleclass** ="**owner**", **roleid**="**approvers**".
         1. The name of the approvers node, as well as jcr:title and roleid can be any string value (as long as roleid is unique). 
-        1. **roleclass** governs the permissions applied for that role based on the [three OOTB roles](https://docs.adobe.com/content/docs/en/aem/6-3/author/projects.html): **owner**, **editor**, and **observer**.
+        1. **roleclass** governs the permissions applied for that role based on the [three OOTB roles](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/projects/projects): **owner**, **editor**, and **observer**.
         1. In general if the custom role is more of a managerial role then the roleclass can be **owner;** if it is a more specific authoring role like Photographer or Designer then **editor** roleclass should suffice. The big difference between **owner** and **editor** is that project owners can update the project properties and add new users to the project.
 
    ```shell
@@ -304,7 +304,7 @@ The last step of the workflow makes use of the ootb Activate Page/Asset process 
 
    ![Workflow create dialog](./assets/develop-aem-projects/workflow-create-dialog.png)
 
-   [For more information related to creating workflows, read here](https://docs.adobe.com/content/help/en/experience-manager-65/developing/extending-aem/extending-workflows/workflows-models.html). 
+   [For more information related to creating workflows, read here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/extending-aem/extending-workflows/workflows-models). 
 
 1. As a best practice custom workflows should be grouped in their own folder beneath /etc/workflow/models. In CRXDE Lite, create a **'nt:folder'** beneath /etc/workflow/models named **"aem-guides"**. Adding a subfolder ensures that custom workflows are not accidentally overwritten during upgrades or Service Pack installations.
 
@@ -316,7 +316,7 @@ The last step of the workflow makes use of the ootb Activate Page/Asset process 
 
    >[!NOTE]
    >
-   >If using AEM 6.4+ the location of Workflow has changed. See [here for more details.](https://docs.adobe.com/content/help/en/experience-manager-65/developing/extending-aem/extending-workflows/workflows-best-practices.html)
+   >If using AEM 6.4+ the location of Workflow has changed. See [here for more details.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/extending-aem/extending-workflows/workflows-best-practices)
 
    If using AEM 6.4+ the workflow model is created under `/conf/global/settings/workflow/models`. Repeat the above steps with the /conf directory and add a subfolder named `aem-guides` and move the `content-approval-workflow` beneath it.
 
@@ -735,7 +735,7 @@ The Workflow configuration is an area of a Project Template that specifies the a
    >If using AEM 6.4 the location of Workflow has changed. Point the `modelId` property to the location of the runtime workflow model under `/var/workflow/models/aem-guides/content-approval-workflow`
    >
    >
-   >See [here for more details about the change in location of workflow.](https://docs.adobe.com/content/help/en/experience-manager-65/developing/extending-aem/extending-workflows/workflows-best-practices.html)
+   >See [here for more details about the change in location of workflow.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/extending-aem/extending-workflows/workflows-best-practices)
 
    ```xml
    <contentapproval
@@ -751,4 +751,4 @@ The Workflow configuration is an area of a Project Template that specifies the a
 
 * [Download Finished Tutorial Package](./assets/develop-aem-projects/projects-tasks-guide.ui.apps-0.0.1-SNAPSHOT.zip)
 * [Full Code Repository on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides/tree/feature/projects-tasks-guide)
-* [AEM Projects Documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/projects/projects.html)
+* [AEM Projects Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/projects/projects)
