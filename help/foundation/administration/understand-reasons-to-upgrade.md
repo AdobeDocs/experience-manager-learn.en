@@ -711,7 +711,7 @@ Below is a matrix of key Assets features offered by AEM. Some of these features 
             <td>✔<sup>+</sup></td>
         </tr>
         <tr>
-            <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/task-content.html" target="_blank">Task</a> and <a href="https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/projects-with-workflows.html" target="_blank">Workflow</a> Management:</strong>
+            <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/task-content.html" target="_blank">Task</a> and Workflow Management:</strong>
             Pre-built workflows and tasks for review and approval of digital assets leveraging AEM Projects.</td>
             <td>&nbsp;</td>
             <td>✔</td>

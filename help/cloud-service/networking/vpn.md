@@ -34,7 +34,7 @@ A Cloud Manager Program can only have a __single__ network infrastructure type. 
 The following are required when setting up Virtual Private Network:
 
 + Adobe account with [Cloud Manager Business Owner permissions](https://developer.adobe.com/experience-cloud/cloud-manager/guides/getting-started/permissions/)
-+ Access to [Cloud Manager API's authentication credentials](https://developer.adobe.com/experience-cloud/cloud-manager/guides/getting-started/authentication/)
++ Access to [Cloud Manager API's authentication credentials](https://developer.adobe.com/experience-cloud/cloud-manager/guides/getting-started/create-api-integration/)
   + Organization ID (aka IMS Org ID)
   + Client ID (aka API Key)
   + Access Token (aka Bearer Token)

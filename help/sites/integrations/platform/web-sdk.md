@@ -174,7 +174,7 @@ After linking the tag property, the WKND site is able to load the tag property's
 
 ### Verify Tag property loading on WKND 
 
-Using Adobe Experience Platform Debugger [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/) extension, verify if the tag property is loading on WKND pages. You can verify,
+Using Adobe Experience Platform Debugger [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) extension, verify if the tag property is loading on WKND pages. You can verify,
 
 + Tag property details such as extension, version, name and more.
 + Platform Web SDK library version, Datastream ID
