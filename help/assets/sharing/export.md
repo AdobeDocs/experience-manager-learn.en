@@ -16,7 +16,7 @@ thumbnail: KT-15313.jpeg
 
 Learn how to export assets to your local machine using a customizable Node.js script. This export script provides an example of how to programmatically download assets from AEM using [AEM Assets HTTP APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/mac-api-assets), specifically focusing on the original renditions to ensure the highest quality. It's designed to replicate AEM Assets' folder structure on your local drive, making easy to back up or migrate assets.
 
-The script only downloads asset's original renditions, without associated metadata, unless that metadata has been embedded into the asset as XMP. This means any descriptive information, categorizations, or tags stored in AEM but not integrated into the asset files are not included in the download. Other renditions can be downloaded as well by modifying the script to include them.
+The script only downloads asset's original renditions, without associated metadata, unless that metadata has been embedded into the asset as XMP. This means any descriptive information, categorizations, or tags stored in AEM but not integrated into the asset files are not included in the download. Other renditions can be downloaded as well by modifying the script to include them. Ensure you have enough space to store the exported assets.
 
 The script is typically run against AEM Author, however can be run against AEM Publish as well, as long as the AEM Assets HTTP API endpoints and asset renditions are accessible via Dispatcher.
 
