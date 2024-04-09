@@ -35,21 +35,21 @@ At times, you must create custom indexes to support your search requirements. Ho
 
 - Understand the search requirements and check if the OOTB indexes can support the search requirements. Use **Query Performance Tool**, available at [local SDK](http://localhost:4502/libs/granite/operations/content/diagnosistools/queryPerformance.html) and AEMCS via the Developer Console or `https://author-pXXXX-eYYYY.adobeaemcloud.com/ui#/aem/libs/granite/operations/content/diagnosistools/queryPerformance.html?appId=aemshell`.
 
-- Define an optimal query, use the [optimizing queries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/query-and-indexing-best-practices.html?#optimizing-queries) flow chart and [JCR Query Cheat Sheet](https://experienceleague.adobe.com/docs/experience-manager-65/assets/JCR_query_cheatsheet-v1.1.pdf?lang=en) for reference.
+- Define an optimal query, use the [optimizing queries](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/query-and-indexing-best-practices) flow chart and [JCR Query Cheat Sheet](https://experienceleague.adobe.com/docs/experience-manager-65/assets/JCR_query_cheatsheet-v1.1.pdf?lang=en) for reference.
 
-- If the OOTB indexes cannot support the search requirements, you have two options. However, review the [Tips for Creating Efficient Indexes](https://experienceleague.adobe.com/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing.html?#should-i-create-an-index)
+- If the OOTB indexes cannot support the search requirements, you have two options. However, review the [Tips for Creating Efficient Indexes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing)
     - Customize the OOTB index: Preferred option as it is easy to maintain and upgrade.
     - Fully custom index: Only if the above option does not work.
 
 ### Customize the OOTB index
 
-- In **AEMCS**, when customizing the OOTB index use **\<OOTBIndexName>-\<productVersion>-custom-\<customVersion>** naming convention. For example, `cqPageLucene-custom-1` or `damAssetLucene-8-custom-1`. This helps to merge the customized index definition whenever the OOTB index is updated. See [Changes to Out-of-the-Box Indexes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/indexing.html?#changes-to-out-of-the-box-indexes) for more details.
+- In **AEMCS**, when customizing the OOTB index use **\<OOTBIndexName>-\<productVersion>-custom-\<customVersion>** naming convention. For example, `cqPageLucene-custom-1` or `damAssetLucene-8-custom-1`. This helps to merge the customized index definition whenever the OOTB index is updated. See [Changes to Out-of-the-Box Indexes](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing) for more details.
 
-- In **AEM 6.X**, the above naming _does not work_, however simply update the OOTB index with additional properties in the `indexRules` node.
+- In **AEM 6.X**, the above naming _does not work_, however simply update the OOTB index with necessary properties in the `indexRules` node.
 
 - Always copy the latest OOTB index definition from the AEM instance using the CRX DE Package Manager (/crx/packmgr/), rename it and add customizations inside the XML file.
 
-- Store index definition into the AEM project at `ui.apps/src/main/content/jcr_root/_oak_index` and deploy it using Cloud Manager CI/CD pipelines. See [Deploying Custom Index Definitions](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/indexing.html?#deploying-custom-index-definitions) for more details.
+- Store index definition into the AEM project at `ui.apps/src/main/content/jcr_root/_oak_index` and deploy it using Cloud Manager CI/CD pipelines. See [Deploying Custom Index Definitions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing) for more details.
 
 ### Fully custom index
 
@@ -57,13 +57,13 @@ Creating fully custom index must be your last option and only if the above optio
 
 - When creating a fully custom index, use **\<prefix>.\<customIndexName>-\<version>-custom-\<customVersion>** naming convention. For example, `wknd.adventures-1-custom-1`. This helps to avoid naming conflicts. Here, `wknd` is the prefix and `adventures` is the custom index name. This convention is applicable for both AEM 6.X and AEMCS and helps to prepare for future migration to AEMCS.
 
-- AEMCS only supports Lucene indexes, so to prepare for future migration to AEMCS, always use Lucene indexes. See [Lucene Indexes vs Property Indexes](https://experienceleague.adobe.com/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing.html?#lucene-or-property-indexes) for more details.
+- AEMCS only supports Lucene indexes, so to prepare for future migration to AEMCS, always use Lucene indexes. See [Lucene Indexes vs Property Indexes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing) for more details.
 
-- Avoid creating a custom index on the same node type as the OOTB index. Instead, customize the OOTB index with additional properties in the `indexRules` node. For example, do not create a custom index on the `dam:Asset` node type but customize the OOTB `damAssetLucene` index. _It has been a common root cause of performance and functional issues_.
+- Avoid creating a custom index on the same node type as the OOTB index. Instead, customize the OOTB index with necessary properties in the `indexRules` node. For example, do not create a custom index on the `dam:Asset` node type but customize the OOTB `damAssetLucene` index. _It has been a common root cause of performance and functional issues_.
 
 - Also, avoid adding multiple node types for example `cq:Page` and `cq:Tag` under the indexing rules (`indexRules`) node. Instead, create separate indexes for each node type.
 
-- As mentioned in above section, store index definition into the AEM project at `ui.apps/src/main/content/jcr_root/_oak_index` and deploy it using Cloud Manager CI/CD pipelines. See [Deploying Custom Index Definitions](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/indexing.html?#deploying-custom-index-definitions) for more details.
+- As mentioned in above section, store index definition into the AEM project at `ui.apps/src/main/content/jcr_root/_oak_index` and deploy it using Cloud Manager CI/CD pipelines. See [Deploying Custom Index Definitions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing) for more details.
 
 - The index definition guidelines are:
     - The node type (`jcr:primaryType`) should be `oak:QueryIndexDefinition`
@@ -100,7 +100,7 @@ Below image shows custom and OOTB index definition, highlighting the `tags` prop
 
 This is an improper use of the `tags` property on the custom index. The Oak query engine picks the custom index over the OOTB index cause of the lowest estimated cost.
 
-The correct way is to customize the OOTB index and add additional properties in the `indexRules` node. See [Customizing the OOTB index](#customize-the-ootb-index) for more details.
+The correct way is to customize the OOTB index and add necessary properties in the `indexRules` node. See [Customizing the OOTB index](#customize-the-ootb-index) for more details.
 
 #### Index on the `dam:Asset` node type
 
@@ -112,7 +112,7 @@ Below image shows custom index for the `dam:Asset` node type with the `includedP
 
 If you perform omnisearch on Assets, it returns incorrect results cause the custom index has lower estimated cost.
 
-Do not create a custom index on the `dam:Asset` node type but customize the OOTB `damAssetLucene` index with additional properties in the `indexRules` node. 
+Do not create a custom index on the `dam:Asset` node type but customize the OOTB `damAssetLucene` index with necessary properties in the `indexRules` node. 
 
 #### Multiple node types under indexing rules
 
@@ -124,7 +124,7 @@ Below image shows custom index with multiple node types under the `indexRules` n
 
  It is not recommended to add multiple node types in a single index, however, it is fine to index node types in the same index if the node types are closely related, for example, `cq:Page` and `cq:PageContent`.
 
- A valid solution is to customize the OOTB `cqPageLucene` and `damAssetLucene` index, add additional properties under the existing `indexRules` node. 
+ A valid solution is to customize the OOTB `cqPageLucene` and `damAssetLucene` index, add necessary properties under the existing `indexRules` node. 
 
 #### Absence of `queryPaths` property
 
@@ -160,6 +160,78 @@ Below image shows custom index with `suggestion` node for achieving the advanced
 
 It is a valid use case to create a custom index for the [advanced search](https://jackrabbit.apache.org/oak/docs/query/lucene.html#advanced-search-features) functionality. However, index name should follow the **\<prefix>.\<customIndexName>-\<version>-custom-\<customVersion>** naming convention.
 
+## Index optimization by disabling Apache Tika
+
+AEM uses [Apache Tika](https://tika.apache.org/) for _extracting metadata and text content from file_ types like PDF, Word, Excel, and more. The extracted content is stored in the repository and indexed by the Oak Lucene index.
+
+At times users do not require the ability to search within the content of a file/asset, in such cases, you can improve the indexing performance by disabling the Apache Tika. The advantages are:
+
+- Faster indexing
+- Index size reduction
+- Less hardware usage
+
+>[!CAUTION]
+>
+>Before disabling the Apache Tika, ensure that the search requirements do not require the ability to search within the content of an asset.
+
+
+### Disable by mime type
+
+To disable Apache Tika by mime type, use following steps:
+
+- Add the `tika` node of `nt:unstructured` type under custom or OOBT index definition. In following example, the PDF mime type is disabled for OOTB `damAssetLucene` index.
+
+```xml
+/oak:index/damAssetLucene
+    - jcr:primaryType = "oak:QueryIndexDefinition"
+    - type = "lucene"
+    ...
+    <tika jcr:primaryType="nt:unstructured">
+        <config.xml/>
+    </tika>
+```
+
+- Add the `config.xml` with following details under the `tika` node.
+
+```xml
+<properties>
+  <parsers>
+    <parser class="org.apache.tika.parser.EmptyParser">
+      <mime>application/pdf</mime>
+      <!-- Add more mime types to disable -->
+  </parsers>
+</properties>
+```
+
+- To refresh the stored index, set the `refresh` property to `true` under the index definition node, see [Index Definition Properties](https://jackrabbit.apache.org/oak/docs/query/lucene.html#index-definition:~:text=Defaults%20to%2010000-,refresh,-Optional%20boolean%20property) for more details.
+
+The following image shows the OOTB `damAssetLucene` index with the `tika` node and `config.xml` file that disables the PDF and other mime types.
+
+![OOTB damAssetLucene index with tika node](./assets/understand-indexing-best-practices/ootb-index-with-tika-node.png)
+
+### Disable completely
+
+To disable Apache Tika completely, follow below steps:
+
+- Add `includePropertyTypes` property at `/oak:index/<INDEX-NAME>/indexRules/<NODE-TYPE>` and set the value to `String`. For example in below image, the `includePropertyTypes` property is added for the `dam:Asset` node type of the OOBT `damAssetLucene` index.
+
+![IncludePropertyTypes property](./assets/understand-indexing-best-practices/includePropertyTypes-prop.png)
+
+- Add `data` with below properties under the `properties` node, make sure it is first node above the property definition. For example see below image:
+
+```xml
+/oak:index/<INDEX-NAME>/indexRules/<NODE-TYPE>/properties/data
+    - jcr:primaryType = "nt:unstructured"
+    - type = "String"
+    - name = "jcr:data"
+    - nodeScopeIndex = false
+    - propertyIndex = false
+    - analyze = false
+```
+
+![Data property](./assets/understand-indexing-best-practices/data-prop.png)
+
+- Reindex the updated index definition by setting the `reindex` property to `true` under the index definition node.
 
 ## Helpful tools
 
@@ -195,6 +267,6 @@ Most of the below are applicable for AEM 6.X and local troubleshooting purposes.
 
 Refer to the following documentation for more information:
 
-- [Oak Queries and Indexing](https://experienceleague.adobe.com/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing.html)
-- [Query and Indexing Best Practices](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/query-and-indexing-best-practices.html)
-- [Best Practices for Queries and Indexing](https://experienceleague.adobe.com/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing.html)
+- [Oak Queries and Indexing](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)
+- [Query and Indexing Best Practices](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/query-and-indexing-best-practices)
+- [Best Practices for Queries and Indexing](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing)
