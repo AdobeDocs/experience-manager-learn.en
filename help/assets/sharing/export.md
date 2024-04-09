@@ -10,8 +10,8 @@ last-substantial-update: 2024-04-08
 doc-type: Tutorial
 jira: KT-15313
 thumbnail: KT-15313.jpeg
+exl-id: d04c3316-6f8f-4fd1-9df1-3fe09d44f735
 ---
-
 # Export assets
 
 Learn how to export assets to your local machine using a customizable Node.js script. This export script provides an example of how to programmatically download assets from AEM using [AEM Assets HTTP APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/mac-api-assets), specifically focusing on the original renditions to ensure the highest quality. It's designed to replicate AEM Assets' folder structure on your local drive, making easy to back up or migrate assets.
