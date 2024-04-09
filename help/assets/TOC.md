@@ -68,6 +68,7 @@ team: TM
 
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
+  + [Export Assets](./sharing/export.md)
   + [Publish Assets](./sharing/publish.md)
   
   + Brand Portal{#brand-portal}
