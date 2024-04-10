@@ -13,7 +13,7 @@ jira: KT-15056
 thumbnail: 3427623.jpeg
 exl-id: 9110589e-a325-479f-b89b-a13e6bdde91d
 ---
-# AEM Forms Shorts Create Simple Form Dig Sig
+# Adding a Digital Signature Field
 
 Short Video which describes adding Digital Signatures to AEM Forms
 
