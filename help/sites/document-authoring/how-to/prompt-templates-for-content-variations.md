@@ -12,7 +12,8 @@ last-substantial-update: 2024-04-11
 jira: KT-15322
 ---
 
-# Use generative AI prompt templates
+
+# Generative AI prompt templates in Edge Delivery Services
 
 {{edge-delivery-services}}
 

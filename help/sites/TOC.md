@@ -30,7 +30,11 @@ version: 6.4, 6.5, Cloud Service
     + [Image alt text](./document-authoring/how-to/image-alt-text.md)
     + [Prevent search engine indexing](./document-authoring/how-to/no-index.md)
     + [Responsive navigation](document-authoring/how-to/responsive-navigation.md)
+    + [Generate Variations](./document-authoring/how-to/generate-variations.md)
+    + [Configure Sidekick for Generate Variations](./document-authoring/how-to/generate-variations-sidekick-config.md)
     + [GenAI prompt templates](./document-authoring/how-to/prompt-templates-for-content-variations.md)
+    + [GenAI custom prompt templates](./document-authoring/how-to/custom-prompt-templates.md)
+    + [GenAI save custom prompt templates](./document-authoring/how-to/save-custom-prompt-template.md)
 + Page Authoring {#page-authoring}
   + [Authoring](page-authoring/aem-sites-authoring-overview.md)
   + [Navigation](page-authoring/basic-handling-sites-feature-video-use.md)
