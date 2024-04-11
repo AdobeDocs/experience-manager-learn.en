@@ -109,5 +109,21 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
             </p>
         </td>           
     </tr>  
+    <tr>
+        <td>
+            <a href="./season-3/cloud5-integrate-assets.md">
+                <img alt="Integrate AEM Assets with Edge Delivery Services document authoring" src="https://video.tv.adobe.com/v/3428302?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-integrate-assets.md">
+                <strong>Integrate AEM Assets with document authoring</strong></a>        
+                <br/><em>with James Talbot & Darin Kuntze, AEM Engineering</em>
+            </div>
+            <p>
+                <br/>
+                Explore how to integrate AEM Assets with document authoring.
+            </p>
+        </td>        
+    </tr>      
 </table>
 
