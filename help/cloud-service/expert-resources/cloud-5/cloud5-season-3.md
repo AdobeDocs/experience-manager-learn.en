@@ -112,7 +112,7 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
     <tr>
         <td>
             <a href="./season-3/cloud5-integrate-assets.md">
-                <img alt="Integrate AEM Assets with Edge Delivery Services document authoring" src="https://video.tv.adobe.com/v/3428302?format=jpeg"/>
+                <img alt="Integrate AEM Assets with document authoring" src="https://video.tv.adobe.com/v/3428302?format=jpeg"/>
             </a>
             <div>
                 <a href="./season-3/cloud5-integrate-assets.md">
