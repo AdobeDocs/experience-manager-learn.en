@@ -504,7 +504,7 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
         </div>
       </div>
     </div>
-      <!-- No Index -->
+    <!-- No Index -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
       aria-label="No Index" tabindex="7">
       <div class="card">
@@ -536,4 +536,36 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
         </div>
       </div>
     </div>
+    <!-- GenAI Prompt Templates -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
+      aria-label="Use GenAI Prompt Templates" tabindex="7">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-16by9">
+            <a href="./how-to/prompt-templates-for-content-variations.md" title="Use GenAI Prompt Templates"
+              tabindex="-1">
+              <img class="is-bordered-r-small"
+                src="https://video.tv.adobe.com/v/3428307/?format=jpeg"
+                alt="Use GenAI Prompt Templates">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content is-padded-small">
+          <div class="content">
+            <p style="float: right;font-style: italic; color: #363636"
+              class="is-size-6">2 minutes</p>
+            <p class="headline is-size-6 has-text-weight-bold">
+              <a href="./how-to/prompt-templates-for-content-variations.md" title="Use GenAI Prompt Templates">GenAI prompt templates</a>
+            </p>
+            <p class="is-size-6">Explore how to use the generative AI prompt templates for generating content variations.</p>
+            <a href="./how-to/prompt-templates-for-content-variations.md" class="spectrum-Button
+              spectrum-Button--outline spectrum-Button--primary
+              spectrum-Button--sizeM">
+              <span class="spectrum-Button-label has-no-wrap
+                has-text-weight-bold">Watch the video</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>    
   </div>
