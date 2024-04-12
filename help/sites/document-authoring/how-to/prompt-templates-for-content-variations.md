@@ -19,3 +19,4 @@ exl-id: b32f342f-653b-4446-983a-0539a8e1eade
 Explore how to use the generative AI prompt templates in Edge Delivery Services document authoring for generating content variations.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428307/?learn=on)
+
