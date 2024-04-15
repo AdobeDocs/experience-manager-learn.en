@@ -34,11 +34,7 @@ Adobe Experience Manager introduces Admin Console support for AEM instances and 
 
 Applying permissions and access at the user level should be avoided in both Admin Console and in Adobe Experience Manager.
 
-In, Admin Console users should be granted access via User Groups at the Product Context level. User groups are typically best expressed by logical role within the organization to promote the groups' reusability across Adobe Experience Cloud products.
-
->[!NOTE]
->
-> If using AEM as a Cloud Service, assign Admin Console users directly to Product Profiles. Transitive permissions between Admin Console users to Product Profiles via Admin Console user groups is not supported for AEM as a Cloud Service.
+In Admin Console, users should be granted access via User Groups at the Product Context level. User groups are typically best expressed by logical role within the organization to promote the groups' reusability across Adobe Experience Cloud products.
 
 ### Applying permissions in Adobe Experience Manager
 
