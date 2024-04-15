@@ -436,15 +436,6 @@ After successful authentication to the IDP, the IDP will orchestrate an HTTP POS
 
 If URL rewriting at the Apache webserver is configured (`dispatcher/src/conf.d/rewrites/rewrite.rules`), ensure that requests to the `.../saml_login` end points are not accidentally mangled.
 
-## Enable data synchronization and encapsulate tokens
-
-Once the SAML authentication flow creates a user in AEM Publish, the AEM user node authenticatable across the AEM Publish service tier.
-This requires [data synchronization](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#data-synchronization) and [encapsulated tokens](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html#sticky-sessions-and-encapsulated-tokens) to be enabled by Adobe Support on the AEM Publish service. 
-
-Send a request to Adobe Customer Support (via [AdminConsole](https://adminconsole.adobe.com) > Support) requesting: 
-
-> Data synchronization and encapsulated tokens are enabled on AEM Publish service for Program X and Environment Y.
-
 ## Deploying SAML configuration
 
 The OSGi configurations must be committed to Git and deployed to AEM as a Cloud Service using Cloud Manager.
