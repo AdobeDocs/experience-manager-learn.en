@@ -13,7 +13,7 @@ exl-id: 099aaeaf-2514-4459-81a7-2843baa1c981
 # Using GuideBridge API to POST form data
 
 The "save and resume" for a form involves allowing users to save the progress of filling out the form and resume it at a later time. 
-The following steps were followed to use the Geolocation API in Adaptive Forms. To accomplish this use case, we need to access and send the form data using the GuideBridge API to the REST endpoint for storage and retrieval.
+To accomplish this use case, we need to access and send the form data using the GuideBridge API to the REST endpoint for storage and retrieval.
 
 The form data is saved on the click event of a button using the rule editor
 ![rule-editor](assets/rule-editor.png)
@@ -27,34 +27,38 @@ The following JavaScript function was written to send the data to the specified 
 * @param {string} endpoint in Stringformat
 * @return {string} 
  */
-
-function submitFormDataAndAttachments(endpoint) {
-
+ 
+ function submitFormDataAndAttachments(endpoint) {
     guideBridge.getFormDataObject({
         success: function(resultObj) {
-            afFormData = resultObj.data.data;
-            var formData = new FormData();
+            const afFormData = resultObj.data.data;
+            const formData = new FormData();
             formData.append("dataXml", afFormData);
-            for (i = 0; i < resultObj.data.attachments.length; i++) {
-                var attachment = resultObj.data.attachments[i];
+            resultObj.data.attachments.forEach(attachment => {
                 console.log(attachment.name);
                 formData.append(attachment.name, attachment.data);
-            }
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
+            });
+            fetch(endpoint, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
                     console.log("successfully saved");
-                    var fld = guideBridge.resolveNode("$form.confirmation");
-                    return " Form data was saved successfully";
-
+                    const fld = guideBridge.resolveNode("$form.confirmation");
+                    return "Form data was saved successfully";
+                } else {
+                    throw new Error('Failed to save form data');
                 }
-            };
-            xhttp.open('POST', endpoint)
-            xhttp.send(formData);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
         }
     });
-
 }
+
+
 ```
 
 
