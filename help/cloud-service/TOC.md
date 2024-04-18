@@ -155,6 +155,7 @@ team: TM
     + [SQL connections using Java SQL APIs](./networking/examples/sql-java-apis.md)
     + [E-mail service](./networking/examples/email-service.md)
 + Security {#security}
+  + [Blocking DoS/DDoS attacks using traffic filter rules](./security/dos/blocking-dos-attack-using-traffic-filter-rules.md)
   + Traffic Filter rules including WAF rules{#traffic-filter-and-waf-rules}
     + [Overview](./security/traffic-filter-rules/overview.md)
     + [How to setup](./security/traffic-filter-rules/how-to-setup.md)
