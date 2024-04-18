@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-03-18
 jira: KT-15184
 thumbnail: KT-15184.jpeg
+exl-id: 60c2306f-3cb6-4a6e-9588-5fa71472acf7
 ---
-
 # Blocking DoS and DDoS attacks using traffic filter rules
 
 Learn how to block Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks using **rate limit traffic filter** rules and other strategies at the AEM as a Cloud Service (AEMCS) managed CDN. These attacks cause traffic spikes at the CDN and potentially at the AEM Publish service (aka origin) and can impact site responsiveness and availability.
@@ -253,4 +253,3 @@ The above command makes 120 requests for 5 seconds and outputs a report. Assumin
 ### Origin requests
 
 To bypass the CDN cache and make requests to the origin (AEM Publish service), you can add a unique query parameter to the URL. Refer to the sample Apache JMeter script from the [Simulate DoS attack using JMeter script](https://experienceleague.adobe.com/en/docs/experience-manager-learn/foundation/security/modsecurity-crs-dos-attack-protection#simulate-dos-attack-using-jmeter-script)
-
