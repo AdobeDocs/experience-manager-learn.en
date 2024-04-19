@@ -8,7 +8,7 @@ role: Admin, Architect
 level: Intermediate
 doc-type: Tutorial
 duration: 0
-last-substantial-update: 2024-03-18
+last-substantial-update: 2024-04-19
 jira: KT-15184
 thumbnail: KT-15184.jpeg
 exl-id: 60c2306f-3cb6-4a6e-9588-5fa71472acf7
