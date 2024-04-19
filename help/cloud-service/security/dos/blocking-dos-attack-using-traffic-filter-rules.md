@@ -253,3 +253,4 @@ The above command makes 120 requests for 5 seconds and outputs a report. Assumin
 ### Origin requests
 
 To bypass the CDN cache and make requests to the origin (AEM Publish service), you can add a unique query parameter to the URL. Refer to the sample Apache JMeter script from the [Simulate DoS attack using JMeter script](https://experienceleague.adobe.com/en/docs/experience-manager-learn/foundation/security/modsecurity-crs-dos-attack-protection#simulate-dos-attack-using-jmeter-script)
+
