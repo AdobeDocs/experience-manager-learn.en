@@ -213,7 +213,7 @@ Also, the **Top 100 attacks by client IP, country, and user-agent** panels show 
 
 ![ELK Tool Dashboard DoS Top 100 Requests](./assets/elk-tool-dashboard-dos-top-100.png)
 
-For more information on how to prevent DoS and DDoS attacks, review the [Blocking DoS and DDoS attacks using traffic filter rules](../dos/blocking-dos-attack-using-traffic-filter-rules.md) tutorial.
+For more information on how to prevent DoS and DDoS attacks, review the [Blocking DoS and DDoS attacks using traffic filter rules](../blocking-dos-attack-using-traffic-filter-rules.md) tutorial.
 
 ### WAF rules
 
