@@ -54,6 +54,7 @@ team: TM
   + [Blocked Tags](./advanced/blocked-tags.md)
   + [Extract Archive](./advanced/extract-archive.md)
   + [Permissions (CUGs)](./advanced/closed-user-groups.md)
+  + [Metadata-Driven Permissions (CUGs)](./advanced/metadata-driven-permissions.md)
   + [Watermarks](./advanced/watermarks.md)
 
 + Advanced Metadata Management{#metadata}
