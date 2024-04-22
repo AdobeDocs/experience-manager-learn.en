@@ -7,7 +7,7 @@ jira: KT-15344
 topic: Development
 role: User
 level: Intermediate
-
+exl-id: 3c304b0a-33f8-49ed-a576-883df4759076
 ---
 # Parse ChatBot data
 
@@ -36,6 +36,3 @@ To merge the data with the XDP template, we need to create the following XML. No
 ## Next Steps
 
 [Merge data with XDP template](./merge-data-with-template.md)
-
-
-
