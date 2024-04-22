@@ -1,6 +1,6 @@
 ---
 title: Metadata-Driven Permissions in AEM Assets
-description: Metadata-Driven Permissions is a feature used to restrict access based  on asset metadata properties rather than folder structure. 
+description: Metadata-Driven Permissions is a feature used to restrict access based  on asset metadata properties rather than folder structure.
 version: Cloud Service
 topic: Administration, Security
 feature: User and Groups
@@ -8,7 +8,8 @@ role: Admin
 level: Intermediate
 jira: KT-13757
 thumbnail: xx.jpg
-doc-type: Tutorial 
+doc-type: Tutorial
+exl-id: 57478aa1-c9ab-467c-9de0-54807ae21fb1
 ---
 # Metadata-Driven Permissions{#metadata-driven-permissions}
 
