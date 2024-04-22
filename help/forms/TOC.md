@@ -99,6 +99,10 @@ index: y
   + [Pre-Populating HTML5 Forms](adaptive-forms/prepopulating-html5-forms-in-aem-forms-article.md)
   + [Form Data Model with Salesforce](adaptive-forms/using-adaptive-forms-with-sales-force-integration-tutorial.md)
   + [Adding Items Dynamically to Choice Component](adaptive-forms/choice-group-items-adding-dynamically-article.md)
++ Fill a PDF form with ChatBot{#chatbot-and-aem-forms}
+  + [1 - Introduction](chatbot-and-aem-forms/introduction.md)
+  + [2 - Parse ChatBot data](chatbot-and-aem-forms/parse-chat-bot-data.md)
+  + [3 - Create PDF](chatbot-and-aem-forms/merge-data-with-template.md)
 + Core- Components based forms{#core-component-based-forms}
   + [Access form data using GuideBridge API](core-components/submit-data-using-guidebridge-api.md)
 + Select and assemble DAM folder content{#select-dam-folder-content}
