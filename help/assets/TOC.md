@@ -41,7 +41,8 @@ team: TM
   + [Review Task](./collaboration/review-task.md)
 
 + Search and Discovery{#search-and-discovery}
-  + [Search](./search-and-discovery/search.md)             
+  + [Search](./search-and-discovery/search.md)           
+  + [Contextual Search](./search-and-discovery/contextual-search.md)  
   + [Collections](./search-and-discovery/collections.md) 
   + [Search Boost](./search-and-discovery/search-boost.md)
   + [Find Similar Images](./search-and-discovery/find-similar-images.md)
