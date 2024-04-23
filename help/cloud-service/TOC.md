@@ -389,3 +389,4 @@ team: TM
       + [Query indexes and Excel formulas](./expert-resources/cloud-5/season-3/cloud5-query-indexes.md)
       + [Bring your own Cloudflare CDN](./expert-resources/cloud-5/season-3/cloud5-byo-cloudflare-cdn.md)
       + [Integrate AEM Assets](./expert-resources/cloud-5/season-3/cloud5-integrate-assets.md)
+      + [Generative AI for AEM Sites](./expert-resources/cloud-5/season-3/cloud5-generative-ai-for-aem-sites.md)

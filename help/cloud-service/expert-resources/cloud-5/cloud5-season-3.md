@@ -124,5 +124,19 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore how to integrate AEM Assets with document authoring.
             </p>
         </td>        
+        <td>
+            <a href="./season-3/cloud5-generative-ai-for-aem-sites.md">
+                <img alt="Generative AI in AEM Sites" src="https://video.tv.adobe.com/v/3428436?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-generative-ai-for-aem-sites.md">
+                <strong>Generative AI in AEM Sites</strong></a>        
+                <br/><em>with James Talbot & Karthik Muralidharan, AEM Product Marketing</em>
+            </div>
+            <p>
+                <br/>                
+                Explore the new Generative AI features available in AEM Sites document authoring.
+            </p>
+        </td>                
     </tr>      
 </table>
