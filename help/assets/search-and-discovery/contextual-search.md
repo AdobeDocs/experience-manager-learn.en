@@ -14,6 +14,6 @@ jira: KT-15377
 
 # Contextual search
 
-Learn how to use Contextual Search in Adobe Experience Manager Assets to efficiently find and reuse assets with natural language queries.
+Learn how to use Contextual Search in Adobe Experience Manager Assets to efficiently find assets with natural language queries.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428667/?learn=on)
