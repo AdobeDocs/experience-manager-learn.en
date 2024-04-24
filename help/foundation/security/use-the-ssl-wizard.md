@@ -64,7 +64,7 @@ To update the _hostname_ and _port_ use the __SSL Connector__ wizard step.
 ### Verify the SSL setup
 
 1. To verify the SSL, click the __Go to HTTPS URL__ button.
-1. If using selg-signed certificate, you see `Your connection is not private` error.
+1. If using self-signed certificate, you see `Your connection is not private` error.
 
     ![SSL Setup - Verify AEM over HTTPS](assets/use-the-ssl-wizard/verify-aem-over-ssl.png)
 
