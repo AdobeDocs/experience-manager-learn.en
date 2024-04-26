@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-9350
 thumbnail: KT-9350.jpeg
 exl-id: 5c1ff98f-d1f6-42ac-a5d5-676a54ef683c
+last-substantial-update: 2024-04-26
 duration: 906
 ---
 # Flexible port egress
@@ -19,15 +20,16 @@ Learn how to set up and use flexible port egress to support external connections
 
 Flexible port egress allows for custom, specific port forwarding rules to be attached to AEM as a Cloud Service, allowing connections from AEM to external services to be made.
 
-A Cloud Manager Program can only have a __single__ network infrastructure type. Ensure that dedicated egress IP address is the most [appropriate type of network infrastructure](./advanced-networking.md)  for your AEM as a Cloud Service before executing the following commands.
+A Cloud Manager Program can only have a __single__ network infrastructure type. Ensure that flexible port egress is the most [appropriate type of network infrastructure](./advanced-networking.md) for your AEM as a Cloud Service before executing the following commands.
 
 >[!MORELIKETHIS]
 >
-> Read the AEM as a Cloud Service [advanced network configuration documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking.html#flexible-port-egress) for more details on flexible port egress.
+> Read the AEM as a Cloud Service [advanced network configuration documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking) for more details on flexible port egress.
+
 
 ## Prerequisites
 
-The following are required when setting up flexible port egress:
+The following are required when setting or configuring flexible port egress using Cloud Manager APIs:
 
 + Adobe Developer Console project with Cloud Manager API enabled and [Cloud Manager Business Owner permissions](https://developer.adobe.com/experience-cloud/cloud-manager/guides/getting-started/permissions/)
 + Access to [Cloud Manager API's authentication credentials](https://developer.adobe.com/experience-cloud/cloud-manager/guides/getting-started/create-api-integration/)
@@ -43,13 +45,45 @@ For more details watch the following walkthrough for how to setup, configure, an
 
 This tutorial uses `curl` to make the Cloud Manager API configurations. The provided `curl` commands assume a Linux/macOS syntax. If using the Windows command prompt, replace the `\` line-break character with `^`.
 
+
 ## Enable flexible port egress per program
 
 Start by enabling the flexible port egress on AEM as a Cloud Service.
 
-1. First, determine the region Advanced Networking is setup in by using the Cloud Manager API [listRegions](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. The `region name` is required to make subsequent Cloud Manager API calls. Typically, the region the Production environment resides in is used.
+>[!BEGINTABS]
 
-    Find your AEM as a Cloud Service environment's region in [Cloud Manager](https://my.cloudmanager.adobe.com) under the [environment's details](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-environments.html?lang=en#viewing-environment). The region name displayed in Cloud Manager can be [mapped to the region code](https://developer.adobe.com/experience-cloud/cloud-manager/guides/api-usage/creating-programs-and-environments/#creating-aem-cloud-service-environments) used in the Cloud Manager API.
+>[!TAB Cloud Manager]
+
+Flexible port egress can be enabled using Cloud Manager. The following steps outline how to enable flexible port egress on AEM as a Cloud Service using the Cloud Manager.
+
+1. Log in to the [Adobe Experience Manager Cloud Manager](https://experience.adobe.com/cloud-manager/) as a Cloud Manager Business Owner.
+1. Navigate to the desired Program.
+1. In the left menu, navigate to __Services > Network Infrastructures__.
+1. Select the __Add network infrastructure__ button.
+
+    ![Add network infrastructure](./assets/cloud-manager__add-network-infrastructure.png)
+
+1. In the __Add network infrastructure__ dialog, select the __Flexible port egress__ option, and select the __Region__ to create the dedicated egress IP address.
+
+    ![Add flexible port egress](./assets/flexible-port-egress/select-type.png)
+
+1. Select __Save__ to confirm the addition of the flexible port egress.
+
+    ![Confirm flexible port egress creation](./assets/flexible-port-egress/confirmation.png)
+
+1. Wait for the network infrastructure to be created and marked as __Ready__. This process can take up to 1 hour.
+
+    ![Flexible port egress creation status](./assets/flexible-port-egress/ready.png)
+
+With the flexible port egress created, you can now configure the port forwarding rules using the Cloud Manager APIs as described below.
+
+>[!TAB Cloud Manager APIs]
+
+Flexible port egress can be enabled using Cloud Manager APIs. The following steps outline how to enable flexible port egress on AEM as a Cloud Service using the Cloud Manager API.
+
+1. First, determine the region Advanced Networking is set up in by using the Cloud Manager API [listRegions](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. The `region name` is required to make subsequent Cloud Manager API calls. Typically, the region the Production environment resides in is used.
+
+    Find your AEM as a Cloud Service environment's region in [Cloud Manager](https://my.cloudmanager.adobe.com) under the [environment's details](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-environments). The region name displayed in Cloud Manager can be [mapped to the region code](https://developer.adobe.com/experience-cloud/cloud-manager/guides/api-usage/creating-programs-and-environments/#creating-aem-cloud-service-environments) used in the Cloud Manager API.
   
     __listRegions HTTP request__
 
@@ -61,7 +95,7 @@ Start by enabling the flexible port egress on AEM as a Cloud Service.
         -H 'Content-Type: application/json' 
     ```
 
-1. Enable flexible port egress for a Cloud Manager Program using the Cloud Manager API [createNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. Use the appropriate `region` code obtained from the Cloud Manager API `listRegions` operation.
+2. Enable flexible port egress for a Cloud Manager Program using the Cloud Manager API [createNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. Use the appropriate `region` code obtained from the Cloud Manager API `listRegions` operation.
 
     __createNetworkInfrastructure HTTP request__
 
@@ -76,7 +110,7 @@ Start by enabling the flexible port egress on AEM as a Cloud Service.
 
     Wait 15 minutes for the Cloud Manager Program to provision the network infrastructure.
 
-1. Check that the environment has finished __flexible port egress__ configuration using the Cloud Manager API [getNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#operation/getNetworkInfrastructure) operation, using the `id` returned from the  createNetworkInfrastructure HTTP request in the previous step.
+3. Check that the environment has finished __flexible port egress__ configuration using the Cloud Manager API [getNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#operation/getNetworkInfrastructure) operation, using the `id` returned from the `createNetworkInfrastructure` HTTP request in the previous step.
 
      __getNetworkInfrastructure HTTP request__
 
@@ -88,8 +122,12 @@ Start by enabling the flexible port egress on AEM as a Cloud Service.
         -H 'Content-Type: application/json'
     ```
 
-    Verify that the HTTP response contains a __status__ of __ready__. If not yet ready recheck the status every few minutes.
+    Verify that the HTTP response contains a __status__ of __ready__. If not yet ready, recheck the status every few minutes.
 
+With the flexible port egress created, you can now configure the port forwarding rules using the Cloud Manager APIs as described below.
+
+>[!ENDTABS]
+    
 ## Configure flexible port egress proxies per environment
 
 1. Enable and configure the __flexible port egress__ configuration on each AEM as a Cloud Service environment using the Cloud Manager API [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. 
@@ -148,7 +186,7 @@ Start by enabling the flexible port egress on AEM as a Cloud Service.
 
 1. Flexible port egress configurations can be updated using the Cloud Manager API [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. Remember `enableEnvironmentAdvancedNetworkingConfiguration` is a `PUT` operation, so all rules must be provided with every invocation of this operation.
 
-1. Now you can use the flexible port egress configuration in your custom AEM code and configuration.
+1. Now, you can use the flexible port egress configuration in your custom AEM code and configuration.
 
 
 ## Connecting to external services over flexible port egress
@@ -179,7 +217,7 @@ When making HTTP/HTTPS calls to external services on non-standard ports, no corr
 
 >[!TIP]
 >
-> See AEM as a Cloud Service's flexible port egress documentation for [the full set of routing rules](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking.html#flexible-port-egress-traffic-routing).
+> See AEM as a Cloud Service's flexible port egress documentation for [the full set of routing rules](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking).
 
 #### Code examples
 
@@ -233,7 +271,7 @@ Connections to external services are then called through the `AEM_PROXY_HOST` an
       <a  href="./examples/email-service.md"><img alt="Virtual Private Network (VPN)" src="./assets/code-examples__email.png"/></a>
       <div><strong><a href="./examples/email-service.md">E-mail service</a></strong></div>
       <p>
-        OSGi configuration example using AEM's to connect to external e-mail services.
+        OSGi configuration example using AEM to connect to external e-mail services.
       </p>
     </td>   
 </tr></table>

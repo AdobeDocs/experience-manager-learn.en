@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-9351
 thumbnail: KT-9351.jpeg
 exl-id: 311cd70f-60d5-4c1d-9dc0-4dcd51cad9c7
+last-substantial-update: 2024-04-26
 duration: 926
 ---
 # Dedicated egress IP address
@@ -19,15 +20,15 @@ duration: 926
 
 Dedicated egress IP address allows requests from AEM as a Cloud Service to use a dedicated IP address, allowing the external services to filter incoming requests by this IP address. Like [flexible egress ports](./flexible-port-egress.md), dedicated egress IP lets you egress on non-standard ports.
 
-A Cloud Manager Program can only have a __single__ network infrastructure type. Ensure that dedicated egress IP address is the most [appropriate type of network infrastructure](./advanced-networking.md)  for your AEM as a Cloud Service before executing the following commands.
+A Cloud Manager Program can only have a __single__ network infrastructure type. Ensure dedicated egress IP address is the most [appropriate type of network infrastructure](./advanced-networking.md) for your AEM as a Cloud Service before executing the following commands.
 
 >[!MORELIKETHIS]
 >
-> Read the AEM as a Cloud Service [advanced network configuration documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking.html#dedicated-egress-IP-address) for more details on dedicated egress IP address.
+> Read the AEM as a Cloud Service [advanced network configuration documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking) for more details on dedicated egress IP address.
 
 ## Prerequisites
 
-The following are required when setting up dedicated egress IP address:
+The following are required when setting up dedicated egress IP address using Cloud Manager APIs:
 
 + Cloud Manager API with [Cloud Manager Business Owner permissions](https://developer.adobe.com/experience-cloud/cloud-manager/guides/getting-started/permissions/)
 + Access to [Cloud Manager API authentication credentials](https://developer.adobe.com/experience-cloud/cloud-manager/guides/getting-started/create-api-integration/)
@@ -47,9 +48,41 @@ This tutorial uses `curl` to make the Cloud Manager API configurations. The prov
 
 Start by enabling and configuring the dedicated egress IP address on AEM as a Cloud Service.
 
+>[!BEGINTABS]
+
+>[!TAB Cloud Manager]
+
+Dedicated egress IP address can be enabled using Cloud Manager. The following steps outline how to enable dedicated egress IP address on AEM as a Cloud Service using the Cloud Manager.
+
+1. Log in to the [Adobe Experience Manager Cloud Manager](https://experience.adobe.com/cloud-manager/) as a Cloud Manager Business Owner.
+1. Navigate to the desired Program.
+1. In the left menu, navigate to __Services > Network Infrastructures__.
+1. Select the __Add network infrastructure__ button.
+
+    ![Add network infrastructure](./assets/cloud-manager__add-network-infrastructure.png)
+
+1. In the __Add network infrastructure__ dialog, select the __Dedicated egress IP address__ option, and select the __Region__ to create the dedicated egress IP address.
+
+    ![Add dedicated egress IP address](./assets/dedicated-egress-ip-address/select-type.png)
+
+1. Select __Save__ to confirm the addition of the dedicated egress IP address. 
+
+    ![Confirm dedicated egress IP address creation](./assets/dedicated-egress-ip-address/confirmation.png)
+
+1. Wait for the network infrastructure to be created and marked as __Ready__. This process can take up to 1 hour.
+
+    ![Dedicated egress IP address creation status](./assets/dedicated-egress-ip-address/ready.png)
+
+With the Dedicated egress IP address created, you can now configure it using the Cloud Manager APIs as described below.
+
+>[!TAB Cloud Manager APIs]
+
+Dedicated egress IP address can be enabled using Cloud Manager APIs. The following steps outline how to enable Dedicated egress IP address on AEM as a Cloud Service using the Cloud Manager API.
+
+
 1. First, determine the region in which the Advanced Networking is needed, by using the Cloud Manager API [listRegions](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. The `region name` is required to make subsequent Cloud Manager API calls. Typically, the region the Production environment resides in is used.
 
-    Find your AEM as a Cloud Service environment's region in [Cloud Manager](https://my.cloudmanager.adobe.com) under the [environment's details](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-environments.html?lang=en#viewing-environment). The region name displayed in Cloud Manager can be [mapped to the region code](https://developer.adobe.com/experience-cloud/cloud-manager/guides/api-usage/creating-programs-and-environments/#creating-aem-cloud-service-environments) used in the Cloud Manager API.
+    Find your AEM as a Cloud Service environment's region in [Cloud Manager](https://my.cloudmanager.adobe.com) under the [environment's details](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-environments). The region name displayed in Cloud Manager can be [mapped to the region code](https://developer.adobe.com/experience-cloud/cloud-manager/guides/api-usage/creating-programs-and-environments/#creating-aem-cloud-service-environments) used in the Cloud Manager API.
     
     __listRegions HTTP request__
 
@@ -61,7 +94,7 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
         -H 'Content-Type: application/json' 
     ```
 
-1. Enable dedicated egress IP address for a Cloud Manager Program using the Cloud Manager API [createNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. Use the appropriate `region` code obtained from the Cloud Manager API `listRegions` operation.
+2. Enable dedicated egress IP address for a Cloud Manager Program using the Cloud Manager API [createNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. Use the appropriate `region` code obtained from the Cloud Manager API `listRegions` operation.
 
     __createNetworkInfrastructure HTTP request__
 
@@ -76,7 +109,7 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
 
     Wait 15 minutes for the Cloud Manager Program to provision the network infrastructure.
 
-1. Check that the program has finished __dedicated egress IP address__ configuration using the Cloud Manager API [getNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#operation/getNetworkInfrastructure) operation, using the `id` returned from the  createNetworkInfrastructure HTTP request in the previous step.
+3. Check that the program has finished __dedicated egress IP address__ configuration using the Cloud Manager API [getNetworkInfrastructure](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#operation/getNetworkInfrastructure) operation, using the `id` returned from the `createNetworkInfrastructure` HTTP request in the previous step.
 
      __getNetworkInfrastructure HTTP request__
 
@@ -89,6 +122,11 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
     ```
 
     Verify that the HTTP response contains a __status__ of __ready__. If not yet ready, recheck the status every few minutes.
+
+With the Dedicated egress IP address created, you can now configure it using the Cloud Manager APIs as described below.
+
+>[!ENDTABS]
+
 
 ## Configure dedicated egress IP address proxies per environment
 
@@ -107,7 +145,7 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
 
     Define the JSON parameters in a `dedicated-egress-ip-address.json` and provided to curl via `... -d @./dedicated-egress-ip-address.json`.
 
-    [Download the example dedicated-egress-ip-address.json](./assets/dedicated-egress-ip-address.json). This file only an example. Configure your file as required based on the optional/required fields documented at [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/). 
+    [Download the example dedicated-egress-ip-address.json](./assets/dedicated-egress-ip-address.json). This file is only an example. Configure your file as required based on the optional/required fields documented at [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/). 
 
     ```json
     {
@@ -132,7 +170,7 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
 
     Dedicated egress IP address configuration's HTTP signature only differs from [flexible egress port](./flexible-port-egress.md#enable-dedicated-egress-ip-address-per-environment) in that it also supports the optional `nonProxyHosts` configuration.
 
-    `nonProxyHosts` declares a set of hosts for which port 80 or 443 should be routed through the default shared IP address ranges rather than the dedicated egress IP. `nonProxyHosts` may be useful as traffic egressing through shared IPs may be further optimized automatically by Adobe.
+    `nonProxyHosts` declares a set of hosts for which port 80 or 443 should be routed through the default shared IP address ranges rather than the dedicated egress IP. `nonProxyHosts` may be useful as traffic egressing through shared IPs is optimized automatically by Adobe.
 
     For each `portForwards` mapping, the advanced networking defines the following forwarding rule:
 
@@ -162,9 +200,9 @@ Start by enabling and configuring the dedicated egress IP address on AEM as a Cl
 
     The hostname cannot be `pinged`, as it is an egress and _not_ and ingress.
     
-    Note the __dedicated egress IP address__ is shared by all AEM as a Cloud Service environments in the program.
+    Note that the dedicated egress IP address is shared by all AEM as a Cloud Service environments in the program.
 
-1. Now you can use the dedicated egress IP address in your custom AEM code and configuration. Often when using dedicated egress IP address, the external services AEM as a Cloud Service connects to are configured to only allow traffic from this dedicated IP address.
+1. Now, you can use the dedicated egress IP address in your custom AEM code and configuration. Often when using dedicated egress IP address, the external services AEM as a Cloud Service connects to are configured to only allow traffic from this dedicated IP address.
 
 ## Connecting to external services over dedicated egress IP address
 
@@ -175,11 +213,11 @@ With the dedicated egress IP address enabled, AEM code and configuration can use
 1. non-HTTP/HTTPS calls to external services
     + Includes any non-HTTP calls, such as connections with Mail servers, SQL databases, or services that run on other non-HTTP/HTTPS protocols.
 
-HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default but they will not use the dedicated egress IP address if not configured appropriately as described below.
+HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default but they do not use the dedicated egress IP address if not configured appropriately as described below.
 
 >[!TIP]
 >
-> See AEM as a Cloud Service's dedicated egress IP address documentation for [the full set of routing rules](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking.html#dedcated-egress-ip-traffic-routing=).
+> See AEM as a Cloud Service's dedicated egress IP address documentation for [the full set of routing rules](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking).
 
 
 ### HTTP/HTTPS
@@ -238,7 +276,7 @@ Connections to external services are then called through the `AEM_PROXY_HOST` an
       <a  href="./examples/email-service.md"><img alt="Virtual Private Network (VPN)" src="./assets/code-examples__email.png"/></a>
       <div><strong><a href="./examples/email-service.md">E-mail service</a></strong></div>
       <p>
-        OSGi configuration example using AEM's to connect to external e-mail services.
+        OSGi configuration example using AEM to connect to external e-mail services.
       </p>
     </td>   
 </tr></table>
