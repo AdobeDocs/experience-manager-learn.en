@@ -37,15 +37,14 @@ To implement Metadata-Driven Permissions:
     ```json
     {
       "restrictionPropertyNames":[
-        "status"
+        "status",
+        "brand"
       ],
-      "restrictionPaths":[
-        "/content/dam"
-      ]
+      "enabled":true
     }
     ```
 
-1. Replace the property names and restriction paths with the required values.
+1. Replace the property names with the required values.
 
 
 Before adding restriction-based Access Control Entries, a new top-level entry should be added to first deny read access to all groups that are subject to permission evaluation for Assets (e.g. "contributors" or similar):
