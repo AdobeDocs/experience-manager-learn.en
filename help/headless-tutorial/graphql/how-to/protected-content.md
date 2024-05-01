@@ -7,12 +7,18 @@ feature: GraphQL API
 role: Developer, Architect
 level: Intermediate
 jira: KT-15233
-last-substantial-update: 2024-04-01
+last-substantial-update: 2024-05-01
 exl-id: c4b093d4-39b8-4f0b-b759-ecfbb6e9e54f
 ---
 # Protecting content in AEM Headless
 
 Ensuring the integrity and security of your data when serving AEM Headless content from AEM Publish is crucial when serving sensitive content. This how-to walks through securing the content served by AEM Headless GraphQL API endpoints.
+
+The guidance in this tutorial where there are stringent requirements for content to be exclusively available to specific users or user groups. It is imperative to distinguish between personalized marketing content and private content, such as PII or personal financial data, to avoid confusion and unintended outcomes. This tutorial addresses protecting private content. 
+
+When discussing marketing content, we are referring to content tailored for individual users or groups, which is not intended for general consumption. However, it's essential to understand that while this content may be targeted for certain users, its exposure outside the intended context (e.g., through manipulation of HTTP requests) does not pose a security, legal, or reputational risk.
+
+It is emphasized that all content addressed in this article is assumed to be private, and may only be viewed by designated users or groups. Marketing content often does not require protection, rather its delivery to specific users can be managed by the application, and cached for performance.
 
 This how-to does not cover:
 
