@@ -71,22 +71,6 @@ The amount of resources the CTT extraction process takes depends on the number o
 
 If clone environments are used for migration, then it will not impact the live production server resource utilization but has its own downsides regarding synching content between Live production and clone
 
-### Q: In my source author system, we have SSO configured for the users to authenticate into Author instance. Do I have to use User Mapping feature of CTT in this case?
-
-The short answer is "**Yes**".
-
-The CTT extraction and ingestion **without** user mapping only migrates the content, the associated principles (users, groups) from source AEM to AEMaaCS. But there is a requirement for these users (identities) present in Adobe IMS and have (provisioned with) access to AEMaaCS instance to successfully authenticate. The job of [user-mapping tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/legacy-user-mapping-tool/overview-user-mapping-tool-legacy.html) is to map the local AEM user to IMS User so that authentication and authorizations work together.
-
-In this case, the SAML identity provider is configured against Adobe IMS to use either Federated / Enterprise ID, rather than directly to AEM using Authentication handler.
-
-### Q: In my source author system, we have basic authentication configured for the users to authenticate into Author instance with local AEM users. Do I have to use User Mapping feature of CTT in this case?
-
-The short answer is "**Yes**".
-
-The CTT extraction and ingestion without user mapping does migrate the content, the associated principles (users, groups) from source AEM to AEMaaCS. But there is a requirement for these users (identities) present in Adobe IMS and have (provisioned with) access to AEMaaCS instance to successfully authenticate. The job of [user-mapping tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/legacy-user-mapping-tool/overview-user-mapping-tool-legacy.html) is to map the local AEM user to IMS User so that authentication and authorizations work together.
-
-In this case, the users use personal Adobe ID and the Adobe ID is used by IMS admin for providing access to AEMaaCS.
-
 ### Q: What do the terms "wipe" and "overwrite" mean in the context of CTT?
 
 In the context of [extraction phase](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/getting-started-content-transfer-tool.html?lang=en#extraction-setup-phase), The options are either to overwrite the data in the staging container from previous extraction cycles or add the differential (added/updated/deleted) into it. Staging Container is nothing, but the blob storage container associated with migration set. Each migration set gets their own staging container.
@@ -101,10 +85,11 @@ Yes, it is possible but requires careful planning regarding:
     + Verify whether it's acceptable to migrate all the assets as part of one migration set and then bring sites that are using them in phases
 +   In the current state, the author ingestion process makes the author instance unavailable for content authoring even though publish tier can still serve the content
     + This means until the ingestion completes into author, content-authoring activities are frozen
++   Users are no longer migrated, though groups are
 
 Please review the Top up extraction and ingestion process as documented before planning the migrations.
 
-### Q: Are my websites going to be available for end users even though ingestion happening into either AEMaaCS author or publish instances?
+### Q: Are my websites going to be available for end users even though ingestion is happening into either AEMaaCS author or publish instances?
 
 Yes. End-user traffic is not interrupted by content migration activity. However, the author ingestion freezes content authoring until it completes.
 
@@ -154,7 +139,6 @@ The CTT process requires connectivity to the below resources:
 
 + The target AEM as a Cloud Service environment: `author-p<program_id>-e<env_id>.adobeaemcloud.com`
 + The Azure blob storage service: `casstorageprod.blob.core.windows.net`
-+ The User Mapping IO endpoint: `usermanagement.adobe.io`
 
 Refer to the documentation for more information about [source connectivity](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/cloud-migration/content-transfer-tool/getting-started-content-transfer-tool.html#source-environment-connectivity).
 
@@ -192,7 +176,7 @@ If the number of assets / nodes in the source environment are on lower end (~100
 +   Continue working on on-premise / AMS Prod author
 +   From now on, run all other proof of migration cycles with `wipe=true`
     + Note this operation migrates full node store, but only modified blobs as opposed to entire blobs. The previous set of blobs are there in the Azure blob store of target AEMaaCS instance.
-    + Use this proof of migrations for measuring the migration duration, user mapping, Testing, validation of all other functionalities
+    + Use this proof of migrations for measuring the migration duration, testing, validation of all other functionalities
 +   Finally, before the week of go-live, perform a wipe=true migration
     + Connect the Dynamic Media on AEMaaCS
     + Disconnect DM config from AEM on-premises source
