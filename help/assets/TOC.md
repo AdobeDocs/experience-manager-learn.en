@@ -120,11 +120,12 @@ team: TM
     + [Image Sharpening](dynamic-media/dynamic-media-image-sharpening-feature-video-use.md)
     + [Color Management](dynamic-media/dynamic-media-color-management-technical-video-setup.md) 
   + Video {#video}
-    + [Interactive Video](dynamic-media/dynamic-media-interactive-video-feature-video-use.md)
-    + [Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
     + [360 Video](dynamic-media/dynamic-media-360-video-custom-thumbnail-feature-video-use.md)
     + [Custom Video Thumbnails](dynamic-media/dynamic-media-video-thumbnails-feature-video-use.md)
+    + [DASH adaptive streaming](dynamic-media/dynamic-media-dash.md)
     + [Dynamic Media Smart Crop Video](dynamic-media/dynamic-media-smart-crop-video.md)
+    + [Interactive Video](dynamic-media/dynamic-media-interactive-video-feature-video-use.md)
+    + [Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
   + Viewers {#viewers} 
     + [Viewers](dynamic-media/dynamic-media-viewer-feature-video-understand.md)
     + [Panoramic and Vertical Image Viewers](dynamic-media/panorama-vertical-image-viewer-feature-video-use.md)
