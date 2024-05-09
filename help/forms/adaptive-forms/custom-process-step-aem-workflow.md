@@ -1,6 +1,6 @@
 ---
 title: Implementing Custom Process Step
-description: Writing Adaptive Form attachments to file system using custom process step
+description: Writing Adaptive Form attachments to the file system using a custom process step
 feature: Workflow
 version: 6.5
 topic: Development
@@ -12,9 +12,9 @@ duration: 226
 ---
 # Custom Process Step
 
-This tutorial is intended for AEM Forms customers needing to implement custom process step. A process step can execute ECMA script or call custom java code to perform operations. This tutorial will explain the steps needed to implement WorkflowProcess that gets executed by the process step.
+This tutorial is intended for AEM Forms customers needing to implement a custom process step. A process step can execute an ECMA script or call custom Java&trade; code to perform operations. This tutorial will explain the steps needed to implement the WorkflowProcess that gets executed by the process step.
 
-The main reason for implementing custom process step is to extend the AEM Workflow. For example, if you are using AEM Forms components in your workflow model, you may want to perform the following operations
+The main reason for implementing a custom process step is to extend the AEM Workflow. For example, if you are using AEM Forms components in your workflow model, you may want to perform the following operations
 
 * Save the Adaptive Form attachment(s) to the file system
 * Manipulate the submitted data
@@ -23,26 +23,30 @@ To accomplish the above use case, you will typically write an OSGi service that 
 
 ## Create Maven Project
 
-The first step is to create an maven project using the appropriate Adobe Maven Archetype. The detailed steps are listed in this [article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html). Once you have your maven project imported into eclipse, you are ready to start writing your first OSGi component that can be used in your process step.
+The first step is to create a maven project using the appropriate Adobe Maven Archetype. The detailed steps are listed in this [article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html). Once you have your Maven project imported into Eclipse, you are ready to start writing your first OSGi component that can be used in your process step.
 
 
 ### Create class that implements WorkflowProcess
 
-Open the maven project in your eclipse IDE. Expand **projectname** > **core** folder. Expand the src/main/java folder. You should see a package that ends with "core". Create Java class that implements WorkflowProcess in this package. You will need to override execute method. The signature of execute method is as follows
-public void execute(WorkItem workItem, WorkflowSession workflowSession, MetaDataMap processArguments)throws WorkflowException 
-The execute method gives access to the following 3 variables
+Open the Maven project in your Eclipse IDE. Expand **projectname** > **core** folder. Expand the `src/main/java` folder. You should see a package that ends with `core`. Create a Java&trade; class that implements WorkflowProcess in this package. You will need to override the execute method. The signature of the execute method is as follows:
+
+``` java
+public void execute(WorkItem workItem, WorkflowSession workflowSession, MetaDataMap processArguments) throws WorkflowException 
+```
+
+The execute method gives access to the following 3 variables:
 
 **WorkItem**: The workItem variable will give access to data related to workflow. The public API documentation is available [here.](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/reference-materials/diff-previous/changes/com.adobe.granite.workflow.WorkflowSession.html)
 
- **WorkflowSession**: This workflowSession variable will give you the ability to control workflow. The public API documentation is available [here](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/reference-materials/diff-previous/changes/com.adobe.granite.workflow.WorkflowSession.html)
+ **WorkflowSession**: This workflowSession variable will give you the ability to control the workflow. The public API documentation is available [here](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/reference-materials/diff-previous/changes/com.adobe.granite.workflow.WorkflowSession.html).
 
  **MetaDataMap**: All the metadata associated with the workflow. Any process arguments that are passed to the process step are available using the MetaDataMap object.[API Documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/metadata/MetaDataMap.html)
 
 In this tutorial, we are going to write the attachments added to Adaptive Form to the file system as part of the AEM Workflow.
 
-To accomplish this use case, the following java class was written
+To accomplish this use case, the following Java&trade; class was written
 
-Let's take a look at this code
+Let's look at this code
 
 ``` java
 package com.learningaemforms.adobe.core;
@@ -123,7 +127,7 @@ public class WriteFormAttachmentsToFileSystem implements WorkflowProcess {
             }
 ```
 
-Line 1 - defines the properties for our component. The process.label property is what you will see when associating OSGi component with the process step as shown in one of the screenshots below.
+Line 1 - defines the properties for our component. The `process.label` property is what you will see when associating OSGi component with the process step as shown in one of the screenshots below.
 
 Lines 13-15 - The process arguments passed to this OSGi component are split using the "," separator. The values for attachmentPath and saveToLocation are then extracted from the string array.
 
@@ -135,12 +139,12 @@ These two values are passed as process arguments as shown in the screenshot belo
 
 ![ProcessStep](assets/implement-process-step.gif)
 
-The QueryBuilder service is used to query nodes of type nt:file under the attachmentsPath folder. The rest of the code iterates through the search results to create Document object and save it to the file system
+The QueryBuilder service is used to query nodes of type `nt:file` under the attachmentsPath folder. The rest of the code iterates through the search results to create Document object and save it to the file system.
 
 
 >[!NOTE]
 >
->Since we are using Document object which is specific to AEM Forms, it is required that you include the aemfd-client-sdk dependency in your maven project. The group Id is com.adobe.aemfd and artefact id is aemfd-client-sdk.
+>Since we are using a Document object that is specific to AEM Forms, it is required that you include the aemfd-client-sdk dependency in your maven project. The group Id is `com.adobe.aemfd` and artifacts id is `aemfd-client-sdk`.
 
 #### Build and Deploy
 
