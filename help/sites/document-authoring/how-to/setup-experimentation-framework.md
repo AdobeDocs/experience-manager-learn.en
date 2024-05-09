@@ -10,8 +10,8 @@ doc-type: Technical Video
 duration: 106
 last-substantial-update: 2024-05-08
 jira: KT-15479
+exl-id: 9e767bd7-b86d-4dee-b980-77bd3485d307
 ---
-
 # Setting up experimentation framework in Edge Delivery Services
 
 Explore how to set up the experimentation framework in Edge Delivery Services
