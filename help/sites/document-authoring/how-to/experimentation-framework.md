@@ -10,8 +10,8 @@ doc-type: Feature Video
 duration: 77
 last-substantial-update: 2024-05-08
 jira: KT-15478
+exl-id: c2de104f-c0fb-4cf2-a1ad-3a711caeb30b
 ---
-
 # Overview of experimentation framework in Edge Delivery Services
 
 Explore the experimentation framework which allows marketers to test which Generative AI variations are most effective in Edge Delivery Services.
