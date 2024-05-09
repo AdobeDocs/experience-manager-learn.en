@@ -43,6 +43,7 @@ team: TM
 + Search and Discovery{#search-and-discovery}
   + [Search](./search-and-discovery/search.md)           
   + [Contextual Search](./search-and-discovery/contextual-search.md)  
+  + [Adobe Firefly integration](./search-and-discovery/adobe-firefly.md)
   + [Collections](./search-and-discovery/collections.md) 
   + [Search Boost](./search-and-discovery/search-boost.md)
   + [Find Similar Images](./search-and-discovery/find-similar-images.md)
