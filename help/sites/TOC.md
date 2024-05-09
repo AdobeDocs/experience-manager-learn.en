@@ -41,7 +41,7 @@ version: 6.4, 6.5, Cloud Service
     + [Generative Variation actions](./document-authoring/how-to/generate-variations-actions.md)
     + [Customizing prompts using metadata](./document-authoring/how-to/customizing-prompts-using-metadata.md)
     + [GenAI trust and privacy](./document-authoring/how-to/generate-variations-trust-privacy.md)
-    + [Expertimentation framework](./document-authoring/how-to/experimentation-framework.md)
+    + [Experimentation framework](./document-authoring/how-to/experimentation-framework.md)
     + [Setup experimentation framework](./document-authoring/how-to/setup-experimentation-framework.md)
 + Page Authoring {#page-authoring}
   + [Authoring](page-authoring/aem-sites-authoring-overview.md)
