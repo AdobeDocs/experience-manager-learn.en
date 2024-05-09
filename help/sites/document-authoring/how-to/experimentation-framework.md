@@ -1,0 +1,19 @@
+---
+title: Overview of experimentation framework in Edge Delivery Services
+description: Explore the experimentation framework which allows marketers to test which Generative AI variations are most effective in Edge Delivery Services.
+version: Cloud Service
+feature: Authoring
+topic: Content Management
+role: Admin, Developer, Leader, User
+level: Beginner, Intermediate, Experienced
+doc-type: Feature Video
+duration: 77
+last-substantial-update: 2024-05-08
+jira: KT-15478
+---
+
+# Overview of experimentation framework in Edge Delivery Services
+
+Explore the experimentation framework which allows marketers to test which Generative AI variations are most effective in Edge Delivery Services.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3429061/?learn=on)

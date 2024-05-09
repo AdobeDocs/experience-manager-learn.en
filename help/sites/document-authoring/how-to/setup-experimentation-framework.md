@@ -1,0 +1,19 @@
+---
+title: Setting up experimentation framework in Edge Delivery Services
+description: Explore how to set up the experimentation framework in Edge Delivery Services
+version: Cloud Service
+feature: Authoring
+topic: Content Management
+role: Admin, Developer, Leader, User
+level: Beginner, Intermediate, Experienced
+doc-type: Technical Video
+duration: 106
+last-substantial-update: 2024-05-08
+jira: KT-15479
+---
+
+# Setting up experimentation framework in Edge Delivery Services
+
+Explore how to set up the experimentation framework in Edge Delivery Services
+
+>[!VIDEO](https://video.tv.adobe.com/v/3429062/?learn=on)
