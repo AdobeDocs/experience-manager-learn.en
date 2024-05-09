@@ -10,8 +10,8 @@ doc-type: Value Video
 duration: 155
 last-substantial-update: 2024-05-09
 jira: KT-15487
+exl-id: db65da7a-56dd-4edb-a6e4-a0c55402c55e
 ---
-
 # Dynamic Media and DASH adaptive streaming
 
 Learn how AEM Assets Dynamic Media's DASH adaptive streaming protocol ensuring that delivered videos adapt to available bandwidth and ensure a smooth playback experience.
