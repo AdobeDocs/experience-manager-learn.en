@@ -9,6 +9,8 @@ level: Beginner, Intermediate, Experienced
 doc-type: Technical Video
 duration: 422
 last-substantial-update: 2024-04-23
+hidefromtoc: yes
+recommendations: noDisplay, noCatalog
 jira: KT-15348
 exl-id: c7020e3e-2664-42f1-a3b4-c23eb17cbf4b
 ---
