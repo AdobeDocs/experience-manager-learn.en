@@ -172,6 +172,7 @@ index: y
   + [Convert PDF Form into Adaptive Form](aem-forms-and-adobe-sign/convert-pdf-form-into-adaptive-form.md)
   + [Configure converted Adaptive Form](aem-forms-and-adobe-sign/configure-converted-adaptive-form.md)
   + [Using XDP templates with Acrobat Sign](aem-forms-and-adobe-sign/using-xdp-templates-with-adobe-sign.md)
+  + [Using Acrobat Sign helper methods](aem-forms-and-adobe-sign/send-documents-signing-using-sign-api.md)
 + Sign Multiple Forms{#sign-multiple-documents}
   + [1 - Introduction](sign-multiple-documents/introduction.md)
   + [2 - Configure data source](sign-multiple-documents/configure-data-source.md)
