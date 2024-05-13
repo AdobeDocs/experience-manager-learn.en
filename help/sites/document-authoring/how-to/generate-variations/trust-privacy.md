@@ -1,0 +1,19 @@
+---
+title: Generate Variations - Trust and Privacy in Edge Delivery Services
+description: Exploring how Adobe handles trust and privacy for Generate Variations in Edge Delivery Services document authoring.
+version: Cloud Service
+feature: Authoring
+topic: Content Management
+role: Admin, Developer, Leader, User
+level: Beginner, Intermediate, Experienced
+doc-type: Feature Video
+duration: 123
+last-substantial-update: 2024-05-08
+jira: KT-15477
+exl-id: b105e133-b026-4c2b-b166-eda48e4b5b16
+---
+# Generate Variations - Trust and Privacy in Edge Delivery Services
+
+Exploring how Adobe handles trust and privacy for Generate Variations in Edge Delivery Services document authoring.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3429060/?learn=on)
