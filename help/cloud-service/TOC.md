@@ -106,6 +106,11 @@ team: TM
     + [How to setup](./developing/rde/how-to-setup.md)
     + [How to use](./developing/rde/how-to-use.md)
     + [Development life cycle](./developing/rde/development-life-cycle.md)
+  + Universal Editor{#universal-editor}
+    + React App Editing{#react-app-editing}
+      + [Overview](./developing/universal-editor/react-app/overview.md)
+      + [Local development setup](./developing/universal-editor/react-app/local-development-setup.md)
+      + [Instrument React App](./developing/universal-editor/react-app/instrument-to-edit-content.md)
   + [AEM SDK API JavaDocs](https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html){target=_blank}
 + Debugging AEM{#debugging}
   + Debugging the AEM SDK{#debugging-aem-sdk}
