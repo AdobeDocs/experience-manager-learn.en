@@ -542,7 +542,7 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/generate-variations.md" title="Generate Variations"
+            <a href="./how-to/generate-variations/overview.md" title="Generate Variations"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3428307/?format=jpeg"
@@ -555,10 +555,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">2 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/generate-variations.md" title="Generate Variations">Generate Variations</a>
+              <a href="./how-to/generate-variations/overview.md" title="Generate Variations">Generate Variations</a>
             </p>
             <p class="is-size-6">Introduction to Generate Variations in Edge Delivery Services and understanding how it can be useful to marketers.</p>
-            <a href="./how-to/generate-variations.md" class="spectrum-Button
+            <a href="./how-to/generate-variations/overview.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -570,15 +570,15 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
     </div>  
     <!--  Configure Sidekick for Generative Variations  -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Configure Sidekick for Generate Variations" tabindex="7">
+      aria-label="Generate Variations - Configure Sidekick" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/generate-variations-sidekick-config.md" title="Configure Sidekick for Generate Variations"
+            <a href="./how-to/generate-variations/configure-sidekick.md" title="Generate Variations - Configure Sidekick"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3428306/?format=jpeg"
-                alt="Configure Sidekick for Generate Variations">
+                alt="Generate Variations - Configure Sidekick">
             </a>
           </figure>
         </div>
@@ -587,10 +587,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">1 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/generate-variations-sidekick-config.md" title="Configure Sidekick for Generate Variations">Configure Sidekick for Generate Variations</a>
+              <a href="./how-to/generate-variations/configure-sidekick.md" title="Generate Variations - Configure Sidekick">Generate Variations - Configure Sidekick</a>
             </p>
             <p class="is-size-6">Explore how to configure sidekick for Generate Variations in Edge Delivery Services document authoring.</p>
-            <a href="./how-to/generate-variations-sidekick-config.md" class="spectrum-Button
+            <a href="./how-to/generate-variations/configure-sidekick.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -602,15 +602,15 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
     </div>          
     <!-- GenAI Prompt Templates -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Use GenAI Prompt Templates" tabindex="7">
+      aria-label="Generate Variations - Prompt templates" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/prompt-templates-for-content-variations.md" title="Use GenAI Prompt Templates"
+            <a href="./how-to/generate-variations/prompt-templates.md" title="Generate Variations - Prompt templates"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3428307/?format=jpeg"
-                alt="Use GenAI Prompt Templates">
+                alt="Generate Variations - Prompt templates">
             </a>
           </figure>
         </div>
@@ -619,10 +619,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">2 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/prompt-templates-for-content-variations.md" title="Use GenAI Prompt Templates">GenAI prompt templates</a>
+              <a href="./how-to/generate-variations/prompt-templates.md" title="Generate Variations - Prompt templates">Generate Variations - Prompt templates</a>
             </p>
-            <p class="is-size-6">Explore how to use the generative AI prompt templates for generating content variations.</p>
-            <a href="./how-to/prompt-templates-for-content-variations.md" class="spectrum-Button
+            <p class="is-size-6">Explore how to use prompt templates for Generate Variations.</p>
+            <a href="./how-to/generate-variations/prompt-templates.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -634,15 +634,15 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
     </div>    
     <!-- Custom Prompt Templates -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="GenAI Custom Prompt Templates" tabindex="7">
+      aria-label="Generate Variations - Custom prompt templates" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/custom-prompt-templates.md" title="GenAI Custom Prompt Templates"
+            <a href="./how-to/generate-variations/custom-prompt-templates.md" title="Generate Variations - Custom prompt templates"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3428316/?format=jpeg"
-                alt="GenAI Custom Prompt Templates">
+                alt="Generate Variations - Custom prompt templates">
             </a>
           </figure>
         </div>
@@ -651,10 +651,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">2 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/custom-prompt-templates.md" title="GenAI Custom Prompt Templates">GenAI custom prompt templates</a>
+              <a href="./how-to/generate-variations/custom-prompt-templates.md" title="Generate Variations - Custom prompt templates">Generate Variations - Custom prompt templates</a>
             </p>
-            <p class="is-size-6">Explore how to build the generative AI custom prompt templates for generating content variations.</p>
-            <a href="./how-to/custom-prompt-templates.md" class="spectrum-Button
+            <p class="is-size-6">Explore how to build the custom prompt templates for Generate Variations.</p>
+            <a href="./how-to/generate-variations/custom-prompt-templates.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -666,15 +666,15 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
     </div>    
     <!-- Saving Custom Prompt Templates -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="GenAI Save Prompt Templates" tabindex="7">
+      aria-label="Generate Variations - Save custom prompt templates" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/save-custom-prompt-template.md" title="GenAI Save Prompt Templates"
+            <a href="./how-to/generate-variations/custom-prompt-templates.md" title="Generate Variations - Save custom prompt templates"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3428317/?format=jpeg"
-                alt="GenAI Save Prompt Templates">
+                alt="Generate Variations - Save custom prompt templates">
             </a>
           </figure>
         </div>
@@ -683,10 +683,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">2 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/save-custom-prompt-template.md" title="GenAI Save Prompt Templates">GenAI save prompt templates</a>
+              <a href="./how-to/generate-variations/custom-prompt-templates.md" title="Generate Variations - Save custom prompt templates">Generate Variations - Save custom prompt templates</a>
             </p>
-            <p class="is-size-6">Explore how to save the generative AI custom prompt templates for generating content variations.</p>
-            <a href="./how-to/save-custom-prompt-template.md" class="spectrum-Button
+            <p class="is-size-6">Explore how to save the custom prompt templates for Generate Variations.</p>
+            <a href="./how-to/generate-variations/custom-prompt-templates.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -698,15 +698,15 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
     </div>
     <!-- Using Adobe Target Audiences for Generate Variations -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Using Adobe Target audiences for Generate Variations" tabindex="7">
+      aria-label="Generate Variations - Using Adobe Target audiences" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/using-target-audiences-in-generate-variations.md" title="Using Adobe Target audiences for Generate Variations"
+            <a href="./how-to/generate-variations/using-target-audiences.md" title="Generate Variations - Using Adobe Target audiences"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3428792/?format=jpeg"
-                alt="Using Adobe Target audiences for Generate Variations">
+                alt="Generate Variations - Using Adobe Target audiences">
             </a>
           </figure>
         </div>
@@ -715,10 +715,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">2 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/using-target-audiences-in-generate-variations.md" title="Using Adobe Target audiences for Generate Variations">Using Adobe Target audiences for Generate Variations</a>
+              <a href="./how-to/generate-variations/using-target-audiences.md" title="Generate Variations - Using Adobe Target audiences">Generate Variations - Using Adobe Target audiences</a>
             </p>
             <p class="is-size-6">Explore how to use Adobe Target audiences in order to target the right audience for your content variations.</p>
-            <a href="./how-to/using-target-audiences-in-generate-variations.md" class="spectrum-Button
+            <a href="./how-to/generate-variations/using-target-audiences.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -730,15 +730,15 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
     </div>
     <!-- Using audience CSV files for Generate Variations -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Using audience CSV files for Generate Variations" tabindex="7">
+      aria-label="Generate Variations - Using CSV file audiences" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/using-audiences-csv-file-in-generate-variations.md" title="Using audience CSV files for Generate Variations"
+            <a href="./how-to/generate-variations/using-csv-file-audiences.md" title="Generate Variations - Using CSV file audiences"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3428793/?format=jpeg"
-                alt="Using audience CSV files for Generate Variations">
+                alt="Generate Variations - Using CSV file audiences">
             </a>
           </figure>
         </div>
@@ -747,10 +747,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">1 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/using-audiences-csv-file-in-generate-variations.md" title="Using audience CSV files for Generate Variations">Using audience CSV files for Generate Variations</a>
+              <a href="./how-to/generate-variations/using-csv-file-audiences.md" title="Generate Variations - Using CSV file audiences">Generate Variations - Using CSV file audiences</a>
             </p>
             <p class="is-size-6">Explore how to use audience CSV files in order to target the right audience for your content variations.</p>
-            <a href="./how-to/using-audiences-csv-file-in-generate-variations.md" class="spectrum-Button
+            <a href="./how-to/generate-variations/using-csv-file-audiences.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -762,15 +762,15 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
     </div>   
     <!-- Use Adobe Firefly to create images -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Use Adobe Firefly to create images for Generate Variations" tabindex="7">
+      aria-label="Generate Variations - Use Adobe Firefly" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/using-adobe-firefly-for-images-in-generate-variations.md" title="Use Adobe Firefly to create images for Generate Variations"
+            <a href="./how-to/generate-variations/using-adobe-firefly-for-images.md" title="Generate Variations - Use Adobe Firefly"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3428794/?format=jpeg"
-                alt="Use Adobe Firefly to create images for Generate Variations">
+                alt="Generate Variations - Use Adobe Firefly">
             </a>
           </figure>
         </div>
@@ -779,10 +779,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">1 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/using-adobe-firefly-for-images-in-generate-variations.md" title="Use Adobe Firefly to create images for Generate Variations">Use Adobe Firefly to create images for Generate Variations</a>
+              <a href="./how-to/generate-variations/using-adobe-firefly-for-images.md" title="Generate Variations - Use Adobe Firefly">Generate Variations - Use Adobe Firefly</a>
             </p>
-            <p class="is-size-6">Explore how to use Adobe Firefly to create images for your content variations.</p>
-            <a href="./how-to/using-adobe-firefly-for-images-in-generate-variations.md" class="spectrum-Button
+            <p class="is-size-6">Explore how to use Adobe Firefly to create images used in the content variations.</p>
+            <a href="./how-to/generate-variations/using-adobe-firefly-for-images.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -794,15 +794,15 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
     </div>  
     <!-- Generate Variations Actions -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Generative Variation actions" tabindex="7">
+      aria-label="Generate Variations - Actions on a generated variation" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/generate-variations-actions.md" title="Generative Variation actions"
+            <a href="./how-to/generate-variations/actions.md" title="Generate Variations - Actions on a generated variation"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3428795/?format=jpeg"
-                alt="Generative Variation actions">
+                alt="Generate Variations - Actions on a generated variation">
             </a>
           </figure>
         </div>
@@ -811,10 +811,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">1 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/generate-variations-actions.md" title="Generative Variation actions">Generative Variation actions</a>
+              <a href="./how-to/generate-variations/actions.md" title="Generate Variations - Actions on a generated variation">Generate Variations - Actions on a generated variation</a>
             </p>
-            <p class="is-size-6">Explore the actions that can be used on a generated variation</p>
-            <a href="./how-to/generate-variations-actions.md" class="spectrum-Button
+            <p class="is-size-6">Explore the actions that can be used on a generated content variation.</p>
+            <a href="./how-to/generate-variations/actions.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -824,49 +824,17 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
         </div>
       </div>
     </div>    
-    <!-- Customizing prompts using metadata -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Customizing prompts using metadata" tabindex="7">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-16by9">
-            <a href="./how-to/customizing-prompts-using-metadata.md" title="Customizing prompts using metadata"
-              tabindex="-1">
-              <img class="is-bordered-r-small"
-                src="https://video.tv.adobe.com/v/3428796/?format=jpeg"
-                alt="Customizing prompts using metadata">
-            </a>
-          </figure>
-        </div>
-        <div class="card-content is-padded-small">
-          <div class="content">
-            <p style="float: right;font-style: italic; color: #363636"
-              class="is-size-6">2 minutes</p>
-            <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/customizing-prompts-using-metadata.md" title="Customizing prompts using metadata">Customizing prompts using metadata</a>
-            </p>
-            <p class="is-size-6">Explore the use of metadata in custom prompts</p>
-            <a href="./how-to/customizing-prompts-using-metadata.md" class="spectrum-Button
-              spectrum-Button--outline spectrum-Button--primary
-              spectrum-Button--sizeM">
-              <span class="spectrum-Button-label has-no-wrap
-                has-text-weight-bold">Watch the video</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>  
     <!-- Trust and privacy in Generative AI -->
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
-      aria-label="Trust and privacy in Generative AI" tabindex="7">
+      aria-label="Generate Variations - Trust and Privacy" tabindex="7">
       <div class="card">
         <div class="card-image">
           <figure class="image is-16by9">
-            <a href="./how-to/generate-variations-trust-privacy.md" title="Trust and privacy in Generative AI"
+            <a href="./how-to/generate-variations/trust-privacy.md" title="Generate Variations - Trust and Privacy"
               tabindex="-1">
               <img class="is-bordered-r-small"
                 src="https://video.tv.adobe.com/v/3429060/?format=jpeg"
-                alt="Trust and privacy in Generative AI">
+                alt="Generate Variations - Trust and Privacy">
             </a>
           </figure>
         </div>
@@ -875,10 +843,10 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p style="float: right;font-style: italic; color: #363636"
               class="is-size-6">2 minutes</p>
             <p class="headline is-size-6 has-text-weight-bold">
-              <a href="./how-to/generate-variations-trust-privacy.md" title="Trust and privacy in Generative AI">Trust and privacy in Generative AI</a>
+              <a href="./how-to/generate-variations/trust-privacy.md" title="Generate Variations - Trust and Privacy">Generate Variations - Trust and Privacy</a>
             </p>
-            <p class="is-size-6">Exploring how Adobe handles trust and privacy in it's use of Generative AI</p>
-            <a href="./how-to/generate-variations-trust-privacy.md" class="spectrum-Button
+            <p class="is-size-6">Exploring how Adobe handles trust and privacy for Generate Variations.</p>
+            <a href="./how-to/generate-variations/trust-privacy.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
               <span class="spectrum-Button-label has-no-wrap
@@ -909,7 +877,7 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p class="headline is-size-6 has-text-weight-bold">
               <a href="./how-to/experimentation-framework.md" title="Overview of experimentation framework">Overview of experimentation framework</a>
             </p>
-            <p class="is-size-6">Explore the experimentation framework which allows marketers to test which content variations are most effective.</p>
+            <p class="is-size-6">Explore the experimentation framework that allows marketers to test which content variations are most effective.</p>
             <a href="./how-to/experimentation-framework.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
@@ -941,7 +909,7 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
             <p class="headline is-size-6 has-text-weight-bold">
               <a href="./how-to/setup-experimentation-framework.md" title="Setting up experimentation framework">Setting up experimentation framework</a>
             </p>
-            <p class="is-size-6">Explore how to set up the experimentation framework in Edge Delivery Services.</p>
+            <p class="is-size-6">Explore how to set up the experimentation framework in Edge Delivery Services document authoring.</p>
             <a href="./how-to/setup-experimentation-framework.md" class="spectrum-Button
               spectrum-Button--outline spectrum-Button--primary
               spectrum-Button--sizeM">
@@ -951,6 +919,38 @@ Review the [documentation](https://experienceleague.adobe.com/docs/experience-ma
           </div>
         </div>
       </div>
-    </div>                            
+    </div>
+    <!-- Adding metadata for experimentation -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen"
+      aria-label="Adding metadata for experimentation" tabindex="7">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-16by9">
+            <a href="./how-to/experimentation-add-metadata.md" title="Adding metadata for experimentation"
+              tabindex="-1">
+              <img class="is-bordered-r-small"
+                src="https://video.tv.adobe.com/v/3428796/?format=jpeg"
+                alt="Adding metadata for experimentation">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content is-padded-small">
+          <div class="content">
+            <p style="float: right;font-style: italic; color: #363636"
+              class="is-size-6">2 minutes</p>
+            <p class="headline is-size-6 has-text-weight-bold">
+              <a href="./how-to/experimentation-add-metadata.md" title="Adding metadata for experimentation">Adding metadata for experimentation</a>
+            </p>
+            <p class="is-size-6">Explore adding metadata for experimentation</p>
+            <a href="./how-to/experimentation-add-metadata.md" class="spectrum-Button
+              spectrum-Button--outline spectrum-Button--primary
+              spectrum-Button--sizeM">
+              <span class="spectrum-Button-label has-no-wrap
+                has-text-weight-bold">Watch the video</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>                                
   </div>
 
