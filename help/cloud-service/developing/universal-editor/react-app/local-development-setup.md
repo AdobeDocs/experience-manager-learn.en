@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-04-19
 jira: KT-15359
 thumbnail: KT-15359.png
+exl-id: 47bef697-5253-493a-b9f9-b26c27d2db56
 ---
-
 # Local development setup
 
 Learn how to set up a local development environment to edit the contents of a React app using the AEM Universal Editor.
