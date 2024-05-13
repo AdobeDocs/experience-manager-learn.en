@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-04-19
 jira: KT-15359
 thumbnail: KT-15359.png
+exl-id: 69ed610e-2eff-43b3-98f9-3dc40594e879
 ---
-
 # React app editing using Universal Editor
 
 Learn how to edit the contents of a sample React app using Universal Editor. The contents are stored within Content Fragments in AEM and are fetched using GraphQL APIs.

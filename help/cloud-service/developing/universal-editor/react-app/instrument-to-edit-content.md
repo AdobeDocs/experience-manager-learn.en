@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-04-19
 jira: KT-15359
 thumbnail: KT-15359.png
+exl-id: 2a25cd44-cbd1-465e-ae3f-d3876e915114
 ---
-
 # Instrument React app to edit content using Universal Editor
 
 Learn how to instrument the React app to edit the content using Universal Editor.
