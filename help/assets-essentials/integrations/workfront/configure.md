@@ -19,4 +19,5 @@ duration: 324
 
 Learn how to configure the Adobe Workfront and Assets Essentials integration.
 
+
 >[!VIDEO](https://video.tv.adobe.com/v/336254?quality=12&learn=on)
