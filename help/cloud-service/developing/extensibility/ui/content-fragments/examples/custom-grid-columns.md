@@ -11,7 +11,7 @@ thumbnail: KT-13453.jpeg
 doc-type: article
 last-substantial-update: 2023-06-07
 exl-id: 87143cf9-e932-4ad6-afe2-cce093c520f4
-duration: 182
+duration: 198
 ---
 # Custom grid columns
 

@@ -6,7 +6,7 @@ level: Intermediate
 topic: Administration
 feature: Learn From Your Peers
 exl-id: 22164a0e-7239-43f4-8356-c12f68133255
-duration: 76
+duration: 61
 ---
 # Your AEM Sites Maturity Assessment Checklist
 

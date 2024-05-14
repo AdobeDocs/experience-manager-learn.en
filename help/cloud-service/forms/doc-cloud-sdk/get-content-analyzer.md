@@ -10,7 +10,7 @@ topic: Development
 thumbnail: 7836.jpg
 jira: KT-7836
 exl-id: 548a21b9-5487-4b48-9782-19b537a48f98
-duration: 21
+duration: 23
 ---
 # Create Analyzer Requests
 

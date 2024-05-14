@@ -10,6 +10,7 @@ level: Experienced
 jira: kt-14884
 last-substantial-update: 2024-03-03
 exl-id: b814097c-0066-44da-bba5-6914dee0df75
+duration: 32
 ---
 # Create custom submit
 

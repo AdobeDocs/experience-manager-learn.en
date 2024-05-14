@@ -10,7 +10,7 @@ jira: KT-3307
 thumbnail: 17453.jpg
 doc-type: Feature Video
 exl-id: 12d8c0c6-c556-49f4-a6fe-84fccfccf95e
-duration: 177
+duration: 173
 ---
 # Using Timewarp {#using-timewarp-with-aem-sites}
 

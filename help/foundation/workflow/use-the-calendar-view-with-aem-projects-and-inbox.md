@@ -7,7 +7,7 @@ doc-type: Feature Video
 topic: Collaboration
 role: User
 level: Beginner
-duration: 485
+duration: 478
 ---
 
 # Use the Calendar View with AEM Projects and Inbox

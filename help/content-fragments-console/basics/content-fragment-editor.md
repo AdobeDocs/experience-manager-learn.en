@@ -11,7 +11,7 @@ jira: KT-13961
 thumbnail: 3424373.jpeg
 doc-type: Feature Video
 exl-id: 842622c7-4a1c-42bb-88e9-42717e3dac8e
-duration: 226
+duration: 224
 ---
 # Content Fragment editor
 

@@ -9,7 +9,7 @@ level: Experienced
 jira: KT-10292
 exl-id: c1d248c3-8208-476e-b0ae-cab25575cd6a
 last-substantial-update: 2021-10-12
-duration: 84
+duration: 66
 ---
 # Display multiple pdf documents in a carousel
 

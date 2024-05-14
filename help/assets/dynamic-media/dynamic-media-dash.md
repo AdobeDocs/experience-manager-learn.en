@@ -7,7 +7,7 @@ topic: Content Management
 role: Admin, Leader, User
 level: Beginner
 doc-type: Value Video
-duration: 155
+duration: 163
 last-substantial-update: 2024-05-09
 jira: KT-15487
 exl-id: db65da7a-56dd-4edb-a6e4-a0c55402c55e

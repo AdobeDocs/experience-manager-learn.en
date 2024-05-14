@@ -10,7 +10,7 @@ topic: Administration
 index: y
 doc-type: Technical Video
 exl-id: d50f626b-ced8-4320-91c2-738687bec295
-duration: 97
+duration: 96
 ---
 # How to enable Asset download report
 

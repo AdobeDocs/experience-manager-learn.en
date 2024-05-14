@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 412eea77-3cf4-43bb-9d2f-ae860cd9d3be
-duration: 99
+duration: 106
 ---
 # Storing JSON Schema in Database {#storing-json-schema-in-database}
 

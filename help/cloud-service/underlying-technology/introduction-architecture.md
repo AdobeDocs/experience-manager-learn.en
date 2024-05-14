@@ -9,7 +9,7 @@ topic: Architecture
 role: Architect, Developer
 level: Beginner
 exl-id: bb13fc39-fcb7-4241-8504-8ff999a6caa2
-duration: 192
+duration: 190
 ---
 # Introduction to the AEM Architecture Stack {#introduction-architecture}
 

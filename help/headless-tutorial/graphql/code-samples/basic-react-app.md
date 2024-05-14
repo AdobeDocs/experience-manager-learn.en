@@ -13,7 +13,7 @@ index: no
 hide: yes
 hidefromtoc: yes
 exl-id: 870be37f-68bb-4b0f-9918-e68b09be830e
-duration: 21
+duration: 17
 ---
 # Basic React app
 

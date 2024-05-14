@@ -11,6 +11,7 @@ doc-type: Tutorial
 jira: KT-15313
 thumbnail: KT-15313.jpeg
 exl-id: d04c3316-6f8f-4fd1-9df1-3fe09d44f735
+duration: 256
 ---
 # Export assets
 

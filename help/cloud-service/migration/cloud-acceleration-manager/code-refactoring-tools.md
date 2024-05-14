@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-8662
 thumbnail: 336693.jpeg
 exl-id: 9a607307-4f00-41db-a9e2-64bd7c18e3f8
-duration: 180
+duration: 179
 ---
 # Code Refactoring Tools
 

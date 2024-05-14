@@ -9,7 +9,7 @@ level: Beginner
 thumbnail: xx.jpg
 doc-type: Article
 exl-id: 96c8dd09-e0a7-4abc-b04b-a805aaa67502
-duration: 80
+duration: 73
 ---
 # What is "The Dispatcher"
 

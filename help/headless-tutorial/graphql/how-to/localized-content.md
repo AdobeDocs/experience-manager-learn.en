@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-10254
 thumbnail: KT-10254.jpeg
 exl-id: 5e3d115b-f3a1-4edc-86ab-3e0713a36d54
-duration: 149
+duration: 130
 ---
 # Localized content with AEM Headless
 

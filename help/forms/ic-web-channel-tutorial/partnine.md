@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 1e43c459-8824-40e8-8f05-24b8b0646346
-duration: 462
+duration: 454
 ---
 # Adding table to account balance panel{#adding-table-to-account-balance-panel}
 

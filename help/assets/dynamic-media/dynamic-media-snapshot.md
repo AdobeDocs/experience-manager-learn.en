@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 doc-type: Feature Video
 exl-id: 3f2f3fe4-a3cf-4494-a318-bf82aee20dc7
-duration: 222
+duration: 214
 ---
 # Dynamic Media Snapshot {#snapshot}
 

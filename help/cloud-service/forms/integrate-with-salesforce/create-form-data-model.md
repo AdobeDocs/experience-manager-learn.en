@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7149
 thumbnail: 331756.jpg
 exl-id: 9dcbf06c-6dd0-4f26-bc5e-9074f4c78ac6
-duration: 188
+duration: 186
 ---
 # Create Form Data Model
 

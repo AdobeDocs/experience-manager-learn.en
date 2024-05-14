@@ -9,7 +9,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 9d807f4c-999c-45e6-a9db-6c1776bddda1
-duration: 637
+duration: 576
 ---
 # Using Dynamic Media Viewers with Adobe Analytics and tags{#using-dynamic-media-viewers-adobe-analytics-tags}
 

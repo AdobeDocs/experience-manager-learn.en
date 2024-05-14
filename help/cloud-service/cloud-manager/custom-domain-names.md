@@ -7,7 +7,7 @@ topic: Administration, Architecture
 role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
-duration: null
+duration: 1042
 last-substantial-update: 2024-03-12
 jira: KT-15121
 thumbnail: KT-15121.jpeg

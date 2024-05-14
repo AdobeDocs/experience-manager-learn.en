@@ -9,7 +9,7 @@ feature: Assembler
 topic: Development
 index: y
 exl-id: 2753326a-2f8c-49f8-91a4-88cc8d500f66
-duration: 122
+duration: 120
 ---
 # Steps to troubleshoot PDFA Conversion and Validation Issues 
 

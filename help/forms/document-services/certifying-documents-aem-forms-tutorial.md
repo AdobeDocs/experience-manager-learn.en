@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 exl-id: 1471929f-d269-4adc-88ad-2ad3682305e1
 last-substantial-update: 2019-07-07
-duration: 96
+duration: 75
 ---
 # Certifying Document in AEM Forms
 

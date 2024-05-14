@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: ece0bf0d-c4af-4962-9c00-f2849c2d8f6f
-duration: 293
+duration: 245
 ---
 # Chapter 4 - Defining Content Services Templates
 

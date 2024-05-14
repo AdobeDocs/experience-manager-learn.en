@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-14795
-duration: 60
+duration: 46
 exl-id: 9abe9f9d-8fb3-4e01-a830-1dad1c27274d
 ---
 # Prefill adaptive form with share point list data

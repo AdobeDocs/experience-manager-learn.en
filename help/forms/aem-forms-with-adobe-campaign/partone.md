@@ -9,7 +9,7 @@ level: Experienced
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: a5e5aad4-064f-4638-a53a-88dfb1d27c8f
-duration: 125
+duration: 151
 ---
 # Generating JSON Web Token and Access Token {#generating-json-web-token-and-access-token}
 

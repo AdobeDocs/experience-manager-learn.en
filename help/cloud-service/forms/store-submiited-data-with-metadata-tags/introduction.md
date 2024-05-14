@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-14501
-duration: 31
+duration: 24
 exl-id: a8531e82-18cd-4b32-8148-d6fc5f6e51c6
 ---
 # Introduction

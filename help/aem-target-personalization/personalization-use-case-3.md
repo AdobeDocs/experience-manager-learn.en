@@ -9,7 +9,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: 1550e6a7-04b5-4a40-9d7b-88074283402f
-duration: 165
+duration: 112
 ---
 # Personalization using Visual Experience Composer
 

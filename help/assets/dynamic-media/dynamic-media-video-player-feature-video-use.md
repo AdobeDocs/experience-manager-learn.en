@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 7e4cb782-836d-4ec0-97d0-645b91ea43e0
-duration: 608
+duration: 568
 ---
 
 # Using the Video Player in AEM Dynamic Media{#using-the-video-player-in-aem-dynamic-media}

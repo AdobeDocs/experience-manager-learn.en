@@ -11,7 +11,7 @@ level: Beginner
 last-substantial-update: 2021-09-15
 doc-type: Feature Video
 exl-id: b2ac2332-4d98-4866-8688-831f0282a736
-duration: 623
+duration: 621
 ---
 # Baseline permissions
 

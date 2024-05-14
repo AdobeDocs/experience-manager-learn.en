@@ -6,7 +6,7 @@ doc-type: Tutorial
 version: 6.5
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
-duration: 156
+duration: 144
 ---
 
 # Creating Acroform

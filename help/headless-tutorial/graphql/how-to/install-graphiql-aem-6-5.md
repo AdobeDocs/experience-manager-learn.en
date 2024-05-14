@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-11614
 thumbnail: KT-10253.jpeg
 exl-id: 04fcc24c-7433-4443-a109-f01840ef1a89
-duration: 61
+duration: 41
 ---
 # Install GraphiQL IDE on AEM 6.5
 

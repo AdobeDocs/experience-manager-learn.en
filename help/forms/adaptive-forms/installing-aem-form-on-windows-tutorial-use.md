@@ -9,7 +9,7 @@ role: Admin
 level: Beginner
 exl-id: 80288765-0b51-44a9-95d3-3bdb2da38615
 last-substantial-update: 2020-06-09
-duration: 149
+duration: 113
 ---
 # Simplified Steps for Installing AEM Forms on Windows
 

@@ -7,7 +7,7 @@ feature: Search
 role: User
 level: Beginner
 doc-type: Feature Video
-duration: 105
+duration: 120
 last-substantial-update: 2024-05-08
 jira: KT-15377
 exl-id: 34e9186b-890f-4ffe-b158-171c42c563c5

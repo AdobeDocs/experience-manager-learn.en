@@ -9,6 +9,7 @@ version: Cloud Service
 topic: Integrations
 jira: KT-15126
 exl-id: b369ed05-ba25-4b0e-aa3b-e7fc1621067d
+duration: 52
 ---
 # Insert data into SharePoint list using invoke FDM workflow step
 

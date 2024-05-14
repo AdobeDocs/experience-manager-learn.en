@@ -7,7 +7,7 @@ topic: Development, Architecture, Content Management
 role: Architect, Developer
 level: Beginner
 doc-type: Tutorial
-duration: 0
+duration: 761
 last-substantial-update: 2024-02-13
 jira: KT-14901
 thumbnail: KT-14901.jpeg

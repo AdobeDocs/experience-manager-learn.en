@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: eef3df8f-1a49-44af-9feb-44be62bd83e8
 last-substantial-update: 2021-06-09
-duration: 576
+duration: 574
 ---
 # Using Service Data Models with AEM Forms{#using-service-data-models-with-aem-forms}
 

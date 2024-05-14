@@ -10,7 +10,7 @@ jira: KT-159
 thumbnail: 16827.jpg
 doc-type: Feature Video
 exl-id: bc1e0187-e8bd-4d56-91d0-2f1465b5e95c
-duration: 359
+duration: 356
 ---
 # Using the Inbox in AEM
 

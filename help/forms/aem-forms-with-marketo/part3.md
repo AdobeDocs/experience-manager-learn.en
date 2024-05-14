@@ -9,7 +9,7 @@ level: Experienced
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 7096340b-8ccf-4f5e-b264-9157232e96ba
-duration: 97
+duration: 78
 ---
 # Configure Data Source
 

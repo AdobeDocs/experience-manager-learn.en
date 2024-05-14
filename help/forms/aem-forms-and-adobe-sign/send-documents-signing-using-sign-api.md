@@ -9,6 +9,7 @@ level: Beginner
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 3400b728-58ca-44c3-a882-e3170755f845
+duration: 74
 ---
 # Using Adobe Sign helper methods
 

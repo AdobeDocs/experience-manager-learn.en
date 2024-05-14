@@ -10,7 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: 1e406454-885d-4215-9304-13e476788c2c
-duration: 396
+duration: 394
 ---
 # Translation Projects {#translation-projects}
 

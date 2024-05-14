@@ -10,7 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 15eb725c-d6f6-4ab9-8d39-dc05fbba1ff3
-duration: 401
+duration: 397
 ---
 # Using Dynamic Media Smart Crop for video {#using-smart-crop-video}
 

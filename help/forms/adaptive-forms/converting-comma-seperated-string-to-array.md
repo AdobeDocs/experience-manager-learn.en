@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-8507
 exl-id: 9ad69407-2413-416f-9cec-43f88989b31d
 last-substantial-update: 2021-06-09
-duration: 113
+duration: 115
 ---
 # Converting comma separated string into string array {#setting-value-of-json-data-element-in-aem-forms-workflow}
 

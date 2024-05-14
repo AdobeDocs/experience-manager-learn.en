@@ -9,7 +9,7 @@ level: Experienced
 jira: KT-9411
 exl-id: 327ffe26-e88e-49f0-9f5a-63e2a92e1c8a
 last-substantial-update: 2021-07-07
-duration: 171
+duration: 165
 ---
 # Display DoR inline
 

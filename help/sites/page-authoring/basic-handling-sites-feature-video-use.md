@@ -10,7 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 896d378c-c20e-4343-b592-277f4c71065e
-duration: 289
+duration: 269
 ---
 # AEM Sites UI and navigation {#basic-handling-aem-sites}
 

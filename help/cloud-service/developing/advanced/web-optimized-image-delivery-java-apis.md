@@ -11,7 +11,7 @@ last-substantial-update: 2023-03-30
 jira: KT-13014
 thumbnail: KT-13014.jpeg
 exl-id: c6bb9d6d-aef0-42d5-a189-f904bbbd7694
-duration: 331
+duration: 352
 ---
 # Web-optimized image delivery Java&trade; APIs
 

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 9ee826cf-389f-4570-bfe1-0d43d3fed3e1
-duration: 588
+duration: 574
 ---
 # Using Experience Fragment Offers within Adobe Target{#using-experience-fragment-offers-within-adobe-target}
 

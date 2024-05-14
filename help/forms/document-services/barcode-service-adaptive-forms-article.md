@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 exl-id: f89cd02d-3ffe-42c6-b547-c0445f912ee8
 last-substantial-update: 2020-02-07
-duration: 119
+duration: 115
 ---
 # Barcode Service With Adaptive Forms{#barcode-service-with-adaptive-forms}
 

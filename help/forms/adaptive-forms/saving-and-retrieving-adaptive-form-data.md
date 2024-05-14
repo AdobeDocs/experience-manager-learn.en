@@ -7,7 +7,7 @@ role: Developer
 type: Tutorial
 version: 6.4,6.5
 last-substantial-update: 2019-06-09
-duration: 691
+duration: 711
 ---
 
 # Saving and Retrieving Adaptive Form Data 

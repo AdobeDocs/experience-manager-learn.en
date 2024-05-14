@@ -9,6 +9,7 @@ version: 6.5
 topic: Integrations
 jira: KT-14794
 exl-id: 488ef5ff-c67d-40e1-b69d-6f2a968d642b
+duration: 17
 ---
 # Introduction
 

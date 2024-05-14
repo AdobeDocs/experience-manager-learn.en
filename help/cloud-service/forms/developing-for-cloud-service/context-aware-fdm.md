@@ -10,7 +10,7 @@ topic: Development
 feature: Developer Tools
 jira: KT-10423
 exl-id: 2ce0c07b-1316-4170-a84d-23430437a9cc
-duration: 99
+duration: 80
 ---
 # Context Aware Cloud Configurations
 

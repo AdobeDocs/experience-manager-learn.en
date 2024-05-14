@@ -10,7 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 2ad1554e-312a-4150-b365-7e00eab1fa43
-duration: 143
+duration: 141
 ---
 # Creating a Page {#creating-page-aem-sites}
 

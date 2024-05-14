@@ -13,7 +13,7 @@ index: no
 hide: yes
 hidefromtoc: yes
 exl-id: 75ffd84a-62b1-480f-b05f-3664f54bb171
-duration: 33
+duration: 26
 ---
 # Filtering with jQuery and Handlebars
 

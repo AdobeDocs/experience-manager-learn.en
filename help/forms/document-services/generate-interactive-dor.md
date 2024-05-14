@@ -9,7 +9,7 @@ level: Experienced
 jira: KT-9226
 exl-id: d9618cc8-d399-4850-8714-c38991862045
 last-substantial-update: 2020-02-07
-duration: 181
+duration: 177
 ---
 # Download Interactive DoR
 

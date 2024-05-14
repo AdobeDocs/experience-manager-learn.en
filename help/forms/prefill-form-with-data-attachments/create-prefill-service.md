@@ -9,6 +9,7 @@ version: 6.5
 topic: Integrations
 jira: KT-14794
 exl-id: 291a3a19-7227-42e0-a4eb-09f4704fb966
+duration: 62
 ---
 # Create prefill service
 

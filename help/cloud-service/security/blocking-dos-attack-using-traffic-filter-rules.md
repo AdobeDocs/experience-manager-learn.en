@@ -7,7 +7,7 @@ topic: Security, Administration, Performance
 role: Admin, Architect
 level: Intermediate
 doc-type: Tutorial
-duration: 0
+duration: 436
 last-substantial-update: 2024-04-19
 jira: KT-15184
 thumbnail: KT-15184.jpeg

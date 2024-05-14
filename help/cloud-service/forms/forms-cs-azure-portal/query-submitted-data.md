@@ -10,7 +10,7 @@ topic: Integrations
 thumbnail: 335717.jpg
 jira: KT-8370
 exl-id: 45738615-4f15-43b0-bdaa-8b72288925ee
-duration: 447
+duration: 445
 ---
 # Query submitted data
 

@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 50858100-3d0c-42bd-87b8-f626212669e2
 last-substantial-update: 2019-07-07
-duration: 73
+duration: 60
 ---
 # Email Delivery of Web Channel Document
 

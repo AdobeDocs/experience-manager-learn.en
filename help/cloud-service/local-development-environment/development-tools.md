@@ -10,7 +10,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2022-09-03
 exl-id: 6fb3199a-02c9-48bc-a6fa-1f767cfd2f2a
-duration: 3592
+duration: 3508
 ---
 # Set up development tools {#set-up-development-tools}
 

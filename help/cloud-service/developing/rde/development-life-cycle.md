@@ -10,7 +10,7 @@ jira: KT-11863
 thumbnail: KT-11863.png
 last-substantial-update: 2023-02-15
 exl-id: 062672f6-d03c-44da-9ac5-3d1ecff1a628
-duration: 159
+duration: 153
 ---
 # Development life cycle using Rapid Development Environment
 

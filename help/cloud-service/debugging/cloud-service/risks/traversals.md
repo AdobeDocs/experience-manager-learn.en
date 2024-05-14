@@ -10,7 +10,7 @@ hide: yes
 index: no
 thumbnail: kt-10427.jpg
 exl-id: 8fcc9364-b84c-4458-82e2-66b47429cd4b
-duration: 303
+duration: 155
 ---
 # Traversal warnings
 

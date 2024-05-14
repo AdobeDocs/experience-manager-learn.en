@@ -10,7 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: 9085d60e-0e88-46ab-8f1f-4999063e48d2
-duration: 593
+duration: 592
 ---
 # Introduction to Language Copy {#introduction-language-copy}
 

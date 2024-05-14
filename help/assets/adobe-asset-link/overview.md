@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 thumbnail: 28988.jpg
-duration: 723
+duration: 673
 ---
 
 # Adobe Asset Link 3.0

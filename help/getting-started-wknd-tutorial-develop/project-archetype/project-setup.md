@@ -12,7 +12,7 @@ thumbnail: 30152.jpg
 doc-type: Tutorial
 exl-id: bb0cae58-79bd-427f-9116-d46afabdca59
 recommendations: noDisplay, noCatalog
-duration: 578
+duration: 502
 ---
 # Project Setup {#project-setup}
 

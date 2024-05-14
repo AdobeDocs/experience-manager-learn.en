@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 exl-id: 1532a865-4664-40d9-964a-e64463b49587
 last-substantial-update: 2019-07-07
-duration: 179
+duration: 145
 ---
 # OCR Data Extraction
 

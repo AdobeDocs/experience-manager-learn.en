@@ -11,7 +11,7 @@ last-substantial-update: 2023-08-28
 jira: KT-13858
 thumbnail: KT-13858.jpeg
 exl-id: 1a1accbe-7706-4f9b-bf63-755090d03c4c
-duration: 325
+duration: 240
 ---
 # AEM Publish
 

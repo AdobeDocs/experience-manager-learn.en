@@ -10,7 +10,7 @@ feature: OSGI
 role: Architect, Developer
 level: Beginner
 exl-id: 386b7d1f-d6aa-4c9f-95ae-d553aaeb9bf3
-duration: 422
+duration: 420
 ---
 # Introduction to [!DNL OSGi] {#introduction-osgi}
 

@@ -11,7 +11,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: ba8d0cd1-b7d2-4628-a069-5ef21cc214c6
-duration: 378
+duration: 376
 ---
 # Adobe Asset Link Panel Overview {#adobe-asset-link-panel-overview}
 

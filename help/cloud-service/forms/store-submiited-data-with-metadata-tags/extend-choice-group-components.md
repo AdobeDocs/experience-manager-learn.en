@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-14501
-duration: 34
+duration: 32
 exl-id: 94454327-86d9-468e-9f08-50b8a9c530f3
 ---
 # Extend choice group components

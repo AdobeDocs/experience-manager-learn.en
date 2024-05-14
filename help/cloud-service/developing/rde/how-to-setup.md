@@ -10,7 +10,7 @@ jira: KT-11861
 thumbnail: KT-11861.png
 last-substantial-update: 2023-02-15
 exl-id: ab9ee81a-176e-4807-ba39-1ea5bebddeb2
-duration: 512
+duration: 485
 ---
 # How to set up Rapid Development Environment
 

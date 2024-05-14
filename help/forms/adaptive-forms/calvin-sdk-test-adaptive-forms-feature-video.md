@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 6122859a-35eb-49d9-a146-3b304fa40413
 last-substantial-update: 2020-09-10
-duration: 430
+duration: 425
 ---
 # Understanding Automated Forms Testing with AEM Forms{#understanding-automated-forms-testing-with-aem-forms}
 

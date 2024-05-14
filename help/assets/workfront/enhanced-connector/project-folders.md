@@ -13,7 +13,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"
 doc-type: Feature Video
 exl-id: 0e9d056a-4eec-450c-a941-b9563634fe8a
-duration: 1225
+duration: 1222
 ---
 # Workfront enhanced connector project folders
 

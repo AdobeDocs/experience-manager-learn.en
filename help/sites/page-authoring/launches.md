@@ -10,7 +10,7 @@ jira: KT-6970
 thumbnail: 331285.jpg
 doc-type: Feature Video
 exl-id: 7e5ba3f5-e755-452a-8e72-be7832e95a49
-duration: 398
+duration: 395
 ---
 # Launches
 

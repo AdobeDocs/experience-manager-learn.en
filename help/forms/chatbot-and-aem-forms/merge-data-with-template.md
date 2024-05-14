@@ -8,6 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: 6a865402-db3d-4e0e-81a0-a15dace6b7ab
+duration: 15
 ---
 # Merge data with the XDP template
 

@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 8b05fc02-c0c5-48ad-a53e-d73b805ee91f
-duration: 453
+duration: 378
 ---
 # Chapter 2 - Using Content Fragment Models
 

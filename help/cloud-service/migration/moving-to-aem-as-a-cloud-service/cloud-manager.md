@@ -9,7 +9,7 @@ level: Intermediate, Experienced
 jira: KT-8632
 thumbnail: 336961.jpeg
 exl-id: 9c641a90-be62-49c1-b8c0-d45d26055b94
-duration: 861
+duration: 843
 ---
 # Cloud Manager
 

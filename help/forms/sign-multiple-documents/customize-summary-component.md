@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: fb68579d-241c-414d-92f4-13194f4d1923
-duration: 48
+duration: 38
 ---
 # Customize summary step
 

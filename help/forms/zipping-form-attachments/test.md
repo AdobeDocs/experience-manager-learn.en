@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 kt: kt-8049
 exl-id: ce9b9203-b44c-4a52-821c-ae76e93312d2
-duration: 53
+duration: 41
 ---
 # Steps needed to test the two approaches
 

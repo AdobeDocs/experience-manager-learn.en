@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 52dd8a3f-6461-4acb-87ca-5dd9567d15a6
 last-substantial-update: 2022-10-01
 thumbnail: KT-781.jpg
-duration: 431
+duration: 405
 ---
 # Understanding Adobe IMS authentication with AEM on Adobe Managed Services{#understanding-adobe-ims-authentication-with-aem-on-adobe-managed-services}
 

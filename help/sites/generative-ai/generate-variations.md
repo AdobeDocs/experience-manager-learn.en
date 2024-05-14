@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
-duration: 407
+duration: 421
 last-substantial-update: 2024-03-14
 jira: KT-14911
 exl-id: 1055c45c-7f04-4f8e-bca8-a4a085a718c8

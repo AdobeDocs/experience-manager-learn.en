@@ -8,7 +8,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-05-12
 jira: KT-13239
 exl-id: e2241a9b-1c50-45d8-b909-ee8a917b4d7c
-duration: 68
+duration: 66
 ---
 # Language copies
 

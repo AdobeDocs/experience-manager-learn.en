@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: a8d8118d-f4a1-483f-83b4-77190f6a42a4
-duration: 116
+duration: 99
 ---
 # Querying Submitted Data
 

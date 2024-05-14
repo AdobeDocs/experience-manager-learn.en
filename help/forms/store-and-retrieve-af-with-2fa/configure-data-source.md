@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: a87ff428-15f7-43c9-ad03-707eab6216a9
-duration: 87
+duration: 64
 ---
 # Configure Data Source
 

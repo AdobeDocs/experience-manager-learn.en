@@ -7,7 +7,7 @@ topic: Collaboration
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
-duration: 116
+duration: 131
 last-substantial-update: 2024-02-29
 jira: KT-15000
 thumbnail: 3427646.jpeg

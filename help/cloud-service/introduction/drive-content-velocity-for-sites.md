@@ -3,7 +3,7 @@ title: How to drive content velocity with Adobe Experience Manager
 description: Learn about content velocity and its value within enterprise organizations. Dive into four principles of effective implementation and the pitfalls to look out for along the way.
 solution: Experience Manager
 exl-id: 9d2e05c3-c8eb-4d92-bad0-931e63550438
-duration: 718
+duration: 589
 ---
 # How to drive content velocity with Adobe Experience Manager
 

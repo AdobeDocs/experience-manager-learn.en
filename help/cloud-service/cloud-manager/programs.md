@@ -10,7 +10,7 @@ feature: Cloud Manager, Production Programs, Sandbox Programs
 role: Architect, Developer, Admin
 level: Beginner
 exl-id: 1dcbd6b5-3261-4cb1-ab20-d8812c0d070a
-duration: 117
+duration: 114
 ---
 # Using Adobe Cloud Manager - Programs
 

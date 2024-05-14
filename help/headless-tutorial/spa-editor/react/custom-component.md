@@ -10,7 +10,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 82466e0e-b573-440d-b806-920f3585b638
-duration: 364
+duration: 323
 ---
 # Create a Custom WeatherComponent {#custom-component}
 

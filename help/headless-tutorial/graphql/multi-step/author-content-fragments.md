@@ -10,7 +10,7 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 exl-id: 701fae92-f740-4eb6-8133-1bc45a472d0f
-duration: 242
+duration: 173
 ---
 # Authoring Content Fragment {#authoring-content-fragments}
 

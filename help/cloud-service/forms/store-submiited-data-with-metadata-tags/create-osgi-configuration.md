@@ -8,7 +8,7 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-14501
-duration: 35
+duration: 39
 exl-id: 6a3af59d-f916-451f-887c-0f4580cbcb3e
 ---
 # Create OSGi configuration

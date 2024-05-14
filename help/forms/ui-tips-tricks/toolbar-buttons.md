@@ -10,7 +10,7 @@ level: Beginner
 jira: KT-9291
 exl-id: 1b55b6d2-3bab-4907-af89-c81a3b1a44cb
 last-substantial-update: 2019-07-07
-duration: 50
+duration: 39
 ---
 # Space the toolbar button
 

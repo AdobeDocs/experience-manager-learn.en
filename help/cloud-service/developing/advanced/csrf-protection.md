@@ -11,7 +11,7 @@ last-substantial-update: 2023-07-14
 jira: KT-13651
 thumbnail: KT-13651.jpeg
 exl-id: 747322ed-f01a-48ba-a4a0-483b81f1e904
-duration: 135
+duration: 125
 ---
 # CSRF protection
 

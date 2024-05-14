@@ -9,7 +9,7 @@ topic: Development
 index: y
 doc-type: Tutorial
 exl-id: e76c50da-e7a8-4560-bc53-02cdb13619bb
-duration: 95
+duration: 93
 ---
 # Creating Image Presets with AEM Dynamic Media
 

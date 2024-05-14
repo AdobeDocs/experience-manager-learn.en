@@ -9,7 +9,7 @@ feature: Designer
 topic: Development
 index: y
 exl-id: 9cffce45-c853-440f-9ddf-2e179dff6745
-duration: 46
+duration: 45
 ---
 # How to troubleshoot dependency issues with C++ libaries in Designer
 

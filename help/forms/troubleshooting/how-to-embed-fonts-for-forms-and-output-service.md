@@ -9,7 +9,7 @@ feature: Forms Service, Output Service
 topic: Development
 index: y
 exl-id: 00ca88d6-8243-4919-8cb1-7a55e5213e06
-duration: 50
+duration: 49
 ---
 # How to embed Fonts for Forms and output service conversions
 

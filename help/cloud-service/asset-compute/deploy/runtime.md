@@ -10,7 +10,7 @@ topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: 0327cf61-fd51-4fa7-856d-3febd49c01a0
-duration: 165
+duration: 128
 ---
 # Deploy to Adobe I/O Runtime
 

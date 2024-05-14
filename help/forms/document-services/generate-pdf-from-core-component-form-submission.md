@@ -9,6 +9,7 @@ level: Experienced
 jira: KT-15025
 last-substantial-update: 2024-02-26
 exl-id: cae160f2-21a5-409c-942d-53061451b249
+duration: 97
 ---
 # Generate PDF with data from core component based form submission
 

@@ -12,7 +12,7 @@ thumbnail: 30386.jpg
 doc-type: Tutorial
 exl-id: 5b490132-cddc-4024-92f1-e5c549afd6f1
 recommendations: noDisplay, noCatalog
-duration: 462
+duration: 358
 ---
 # Developing with the Style System {#developing-with-the-style-system}
 

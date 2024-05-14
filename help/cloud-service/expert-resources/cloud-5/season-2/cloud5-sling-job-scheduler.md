@@ -8,7 +8,7 @@ thumbnail: 343473.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 8784d77f-1c70-4694-bd08-79b71adbda48
-duration: 312
+duration: 309
 ---
 # Cloud 5 - Sling Job Scheduler
 

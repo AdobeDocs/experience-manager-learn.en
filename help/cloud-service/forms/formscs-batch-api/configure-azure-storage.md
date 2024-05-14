@@ -9,7 +9,7 @@ feature: Output Service
 topic: Development
 jira: KT-9666
 exl-id: 8d010107-8cea-41f0-9ff4-7746744a250c
-duration: 230
+duration: 227
 ---
 # Introduction
 

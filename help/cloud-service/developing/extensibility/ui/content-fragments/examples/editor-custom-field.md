@@ -6,7 +6,7 @@ version: Cloud Service
 role: Developer
 level: Intermediate
 doc-type: Tutorial
-duration: 0
+duration: 315
 last-substantial-update: 2024-02-27
 jira: KT-14903
 thumbnail: KT-14903.jpeg

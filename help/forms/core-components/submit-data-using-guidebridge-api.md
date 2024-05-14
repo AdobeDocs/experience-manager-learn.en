@@ -9,6 +9,7 @@ level: Experienced
 jira: KT-15286
 last-substantial-update: 2024-04-05
 exl-id: 099aaeaf-2514-4459-81a7-2843baa1c981
+duration: 68
 ---
 # Using GuideBridge API to POST form data
 

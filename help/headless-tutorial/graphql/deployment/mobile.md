@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-10796
 thumbnail: KT-10796.jpg
 exl-id: 1f536079-b3ce-4807-be88-804378e75d37
-duration: 75
+duration: 31
 ---
 # AEM Headless mobile deployments
 

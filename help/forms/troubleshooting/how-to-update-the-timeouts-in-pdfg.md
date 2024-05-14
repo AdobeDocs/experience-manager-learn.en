@@ -9,7 +9,7 @@ feature: PDF Generator
 topic: Administration
 index: y
 exl-id: 669dde4b-777c-4fea-b0e8-50f797c21757
-duration: 99
+duration: 97
 ---
 # How to update the server conversion and global timeout in PDFG service
 

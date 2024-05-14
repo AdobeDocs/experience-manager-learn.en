@@ -8,7 +8,7 @@ version: 6.4,6.5
 level: Intermediate
 exl-id: 2e9754ff-49fe-4260-b911-796bcc4fd266
 last-substantial-update: 2021-09-18
-duration: 137
+duration: 111
 ---
 # Using LDAP with AEM Forms Workflow 
 

@@ -10,6 +10,7 @@ jira: KT-13757
 doc-type: Tutorial
 last-substantial-update: 2024-05-03
 exl-id: 57478aa1-c9ab-467c-9de0-54807ae21fb1
+duration: 158
 ---
 # Metadata-Driven Permissions{#metadata-driven-permissions}
 

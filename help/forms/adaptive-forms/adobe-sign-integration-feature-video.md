@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 last-substantial-update: 2020-10-20
-duration: 632
+duration: 628
 ---
 
 # Using Acrobat Sign with AEM Forms{#using-adobe-sign-with-aem-forms}

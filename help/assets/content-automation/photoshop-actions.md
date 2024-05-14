@@ -11,7 +11,7 @@ thumbnail: 336539.jpeg
 last-substantial-update: 2022-09-02
 doc-type: Feature Video
 exl-id: 7af14c0f-5a13-49ab-95ea-53ea8cf472f3
-duration: 288
+duration: 286
 ---
 # Photoshop Actions
 

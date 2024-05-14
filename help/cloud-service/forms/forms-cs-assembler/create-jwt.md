@@ -9,7 +9,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-9980
 exl-id: 0e3e186b-9fbe-40ad-a6cc-bdbf58b23009
-duration: 45
+duration: 52
 ---
 # Create a JSON Web Token (JWT)
 

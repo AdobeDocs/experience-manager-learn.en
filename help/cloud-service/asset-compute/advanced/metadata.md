@@ -10,7 +10,7 @@ topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: 6ece6e82-efe9-41eb-adf8-78d9deed131e
-duration: 500
+duration: 432
 ---
 # Develop an Asset Compute metadata worker
 

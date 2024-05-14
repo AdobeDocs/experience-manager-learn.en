@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: f0f19838-1ade-4eda-b736-a9703a3916c2
-duration: 54
+duration: 44
 ---
 # Install and Configure Tomcat {#install-and-configure-tomcat}
 

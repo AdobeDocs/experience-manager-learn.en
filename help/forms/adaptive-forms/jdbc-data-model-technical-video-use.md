@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 2ee1efe7-ba7a-42a1-baaf-8c3b9d4e69ec
 last-substantial-update: 2020-02-09
-duration: 384
+duration: 378
 ---
 # Using JDBC-based Form Data Models with AEM Forms {#using-jdbc-based-form-data-models-with-aem-forms}
 

@@ -10,7 +10,7 @@ role: Developer
 level: Beginner
 doc-type: Technical Video
 exl-id: 9f46ce7e-9c6d-429d-9d8a-c93c274f70d7
-duration: 708
+duration: 704
 ---
 # [!DNL AEM Project Archetype] {#aem-project-archetype}
 

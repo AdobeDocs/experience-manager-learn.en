@@ -9,7 +9,7 @@ feature: PDF Generator
 topic: Development
 index: y
 exl-id: 6afe3b69-1422-4832-a189-57cbc0658ac1
-duration: 122
+duration: 120
 ---
 # Steps to troubleshoot HtmltoPDF specific issues on a Unix setup (WebKit conversion)
 

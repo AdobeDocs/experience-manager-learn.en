@@ -11,7 +11,7 @@ level: Beginner
 last-substantial-update: 2021-09-19
 doc-type: Feature Video
 exl-id: 81e11e51-205d-4233-a10d-551d5041075c
-duration: 321
+duration: 319
 ---
 # Metadata folder schemas
 

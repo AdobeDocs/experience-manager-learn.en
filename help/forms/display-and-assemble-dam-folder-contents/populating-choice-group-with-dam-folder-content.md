@@ -8,7 +8,7 @@ role: User
 level: Beginner
 last-substantial-update: 2023-01-01
 exl-id: 29f56d13-c2e2-4bc2-bfdc-664c848dd851
-duration: 81
+duration: 80
 ---
 # Adding items dynamically to choice group component
 

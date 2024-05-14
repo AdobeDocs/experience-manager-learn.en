@@ -10,7 +10,7 @@ topic: Development
 role: User
 level: Beginner
 exl-id: 73de0ac4-ada6-4b8e-90a8-33b976032135
-duration: 52
+duration: 41
 ---
 # Create the main adaptive form
 

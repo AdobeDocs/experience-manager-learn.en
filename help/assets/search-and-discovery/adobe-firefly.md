@@ -7,7 +7,7 @@ feature: Search, Generative AI
 role: User
 level: Beginner
 doc-type: Feature Video
-duration: 89
+duration: 104
 last-substantial-update: 2024-05-09
 jira: KT-15486
 exl-id: 4da5eb7e-fd8c-4a27-a824-1fb72c95933e

@@ -10,7 +10,7 @@ feature: Cloud Manager, Code Deployment
 role: Architect, Developer, Admin
 level: Beginner
 exl-id: 82a9d00f-abe6-4600-92b1-41b5f0b5e352
-duration: 53
+duration: 50
 ---
 # Using Adobe Cloud Manager - Activity
 

@@ -10,7 +10,7 @@ topic: Administration
 index: y
 doc-type: Technical Video
 exl-id: 6477e9df-f33f-46b1-aa9b-535063da65dd
-duration: 110
+duration: 109
 ---
 # Steps to resolve memory related issues in AEM
 

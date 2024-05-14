@@ -9,7 +9,7 @@ topic: Development
 last-substantial-update: 2022-06-16
 doc-type: Feature Video
 exl-id: cb68afd1-cc5f-430a-8920-9987a3466abb
-duration: 175
+duration: 174
 ---
 # Configure AEM Assets Brand Portal
 

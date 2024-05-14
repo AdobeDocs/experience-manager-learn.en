@@ -10,7 +10,7 @@ jira: KT-256
 thumbnail: 17740.jpg
 doc-type: Feature Video
 exl-id: 78ff62ad-1017-4a02-80e9-81228f9e01eb
-duration: 279
+duration: 260
 ---
 # Use Project Masters
 

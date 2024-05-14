@@ -9,7 +9,7 @@ level: Beginner, Intermediate, Experienced
 jira: KT-8628
 thumbnail: 336956.jpeg
 exl-id: d8c044a1-a208-411c-b66f-ce5b0b3a5e2c
-duration: 1018
+duration: 1016
 ---
 # Introduction to AEM as a Cloud Service
 

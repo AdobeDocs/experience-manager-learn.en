@@ -8,6 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: 8c51a374-7444-4a6a-99ed-dce671dc57cb
+duration: 161
 ---
 # Fill out a PDF form using ChatBot
 

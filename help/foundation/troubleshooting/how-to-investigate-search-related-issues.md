@@ -10,7 +10,7 @@ topic: Administration
 index: y
 doc-type: Technical Video
 exl-id: 66571dbe-e5bb-4ced-87a5-33ddc160a69a
-duration: 128
+duration: 127
 ---
 # How to investigate search related issues in AEM
 

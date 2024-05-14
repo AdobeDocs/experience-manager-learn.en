@@ -10,7 +10,7 @@ jira: KT-10830
 thumbnail: KT-10830.jpg
 exl-id: 394792e4-59c8-43c1-914e-a92cdfde2f8a
 last-substantial-update: 2024-03-22
-duration: 215
+duration: 184
 ---
 # Cross-origin resource sharing (CORS) 
 

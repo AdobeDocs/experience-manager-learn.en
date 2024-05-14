@@ -11,7 +11,7 @@ topic: Development
 jira: KT-7383
 thumbnail: 332231.jpg
 exl-id: 845383f2-71e4-44fb-8637-323e956b2808
-duration: 104
+duration: 102
 ---
 # Create an Adaptive Form fragments
 

@@ -9,7 +9,7 @@ feature: Output Service,Forms Service
 topic: Administration
 index: y
 exl-id: 6ccb3053-c28e-4c23-8fc0-e188b3873c36
-duration: 124
+duration: 122
 ---
 # How to enable Performance Logging in AEM Forms to debug issues related to Forms & output service 
 

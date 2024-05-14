@@ -9,6 +9,7 @@ version: 6.5
 topic: Integrations
 jira: KT-14794
 exl-id: a90267b3-2eb2-4731-9cc9-e04c48979a1a
+duration: 39
 ---
 # Create OSGi configuration
 

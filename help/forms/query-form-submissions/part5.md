@@ -10,6 +10,7 @@ level: Experienced
 jira: kt-14884
 last-substantial-update: 2024-03-03
 exl-id: 44841a3c-85e0-447f-85e2-169a451d9c68
+duration: 20
 ---
 # Deploy the sample on your local server
 

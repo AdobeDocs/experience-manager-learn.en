@@ -11,7 +11,7 @@ thumbnail: 17019.jpg
 last-substantial-update: 2022-06-09
 doc-type: Feature Video
 exl-id: c72dc489-70e6-48ca-99a8-663d4c0652ba
-duration: 585
+duration: 574
 ---
 # Smart Tags for Images
 

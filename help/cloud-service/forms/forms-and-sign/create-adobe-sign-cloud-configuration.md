@@ -13,7 +13,7 @@ thumbnail: 332437.jpg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: a55773a5-0486-413f-ada6-bb589315f0b1
-duration: 229
+duration: 222
 ---
 # Create Acrobat Sign Cloud Configuration
 

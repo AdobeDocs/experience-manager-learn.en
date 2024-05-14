@@ -9,7 +9,7 @@ level: Beginner
 jira: KT-9442
 thumbnail: 339073.jpg
 exl-id: 62e807b7-b1a4-4344-9b1e-2c626b869e10
-duration: 850
+duration: 781
 ---
 # AEM Headless quick setup for AEM as a Cloud Service
 
