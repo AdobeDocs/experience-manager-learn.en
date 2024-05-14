@@ -9,7 +9,7 @@ topic: Development
 index: y
 doc-type: Tutorial
 exl-id: 2defc3ca-0cdc-4e12-9c73-4fa1a6347b1b
-duration: 78
+duration: 77
 ---
 # Creating Image sets with AEM Dynamic Media
 

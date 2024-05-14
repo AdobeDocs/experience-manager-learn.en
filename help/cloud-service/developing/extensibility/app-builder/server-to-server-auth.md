@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 jira: KT-14724
 last-substantial-update: 2024-02-29
-duration: null
+duration: 122
 exl-id: 919cb9de-68f8-4380-940a-17274183298f
 ---
 # Generate server-to-server access token in App Builder action

@@ -9,7 +9,7 @@ topic: Development
 feature: Core Components
 jira: KT-10373
 exl-id: ab01573a-e95f-4041-8ccf-16046d723aba
-duration: 92
+duration: 78
 ---
 # Forms Portal Components
 

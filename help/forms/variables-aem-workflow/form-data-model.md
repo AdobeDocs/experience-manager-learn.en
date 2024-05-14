@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: ca972ad4-bb23-43ab-8676-f2cccf1765ba
-duration: 710
+duration: 708
 ---
 # Variables of type form data model
 

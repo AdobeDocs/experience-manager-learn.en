@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 75852a4b-7008-4c65-bab1-cc5dbf525e20
-duration: 40
+duration: 42
 ---
 # Update signature status
 

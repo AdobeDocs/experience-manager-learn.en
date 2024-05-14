@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 6c504710-be8f-4b44-bd8a-aaf480ae6d8a
-duration: 874
+duration: 863
 ---
 # Set up [!DNL Sling Dynamic Include]
 

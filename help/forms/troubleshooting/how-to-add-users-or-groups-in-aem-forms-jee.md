@@ -9,7 +9,7 @@ topic: Administration
 feature: User and Groups
 index: y
 exl-id: 595252dd-a882-4faa-938b-7aeb5a383056
-duration: 132
+duration: 130
 ---
 # How to add users and groups in AEM JEE
 

@@ -10,7 +10,7 @@ feature: Cloud Manager, CI-CD Pipeline
 role: Architect, Developer, Admin
 level: Beginner
 exl-id: c4f5667a-0da2-490b-9d55-9fbde21db595
-duration: 415
+duration: 408
 ---
 # Using Adobe Cloud Manager - CI/CD Production Pipeline {#using-adobe-cloud-manager-ci-cd-production-pipeline}
 

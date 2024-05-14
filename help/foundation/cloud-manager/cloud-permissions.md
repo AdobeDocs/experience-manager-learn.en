@@ -10,7 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-11-30
 jira: KT-14608
 thumbnail: 3425892.jpeg
-duration: 361
+duration: 358
 exl-id: d659fc1e-fb4b-4e15-8167-8b035d92eae1
 ---
 # Cloud Manager custom permissions

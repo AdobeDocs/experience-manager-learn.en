@@ -1,6 +1,6 @@
 ---
 title: Connect AEM Sites with Tag Property using IMS
-description: Learn how to connect AEM Sites with Tag Property using IMS configuration in AEM. 
+description: Learn how to connect AEM Sites with Tag Property using IMS configuration in AEM.
 solution: Experience Manager, Data Collection, Experience Platform
 jira: KT-5981
 thumbnail: 38555.jpg
@@ -12,7 +12,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: 92dbd185-bad4-4a4d-b979-0d8f5d47c54b
-duration: 72
+duration: 50
 ---
 # Connect AEM Sites with Tag Property using IMS{#connect-aem-and-tag-property-using-ims}
 

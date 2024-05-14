@@ -11,7 +11,7 @@ level: Beginner
 last-substantial-update: 2021-09-29
 doc-type: Feature Video
 exl-id: c3b4366b-cbb2-48d6-b101-78effb35130d
-duration: 83
+duration: 81
 ---
 # Comments and Annotations
 

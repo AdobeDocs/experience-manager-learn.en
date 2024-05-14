@@ -10,7 +10,7 @@ topic: Development
 role: User
 level: Beginner
 exl-id: 097216b7-b345-4fcb-bab3-e660d74252a6
-duration: 663
+duration: 656
 ---
 # Understanding Core Components{#understanding-core-components}
 

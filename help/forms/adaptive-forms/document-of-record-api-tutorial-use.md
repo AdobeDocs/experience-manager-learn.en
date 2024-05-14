@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: 9a3b2128-a383-46ea-bcdc-6015105c70cc
 last-substantial-update: 2023-01-26
-duration: 74
+duration: 67
 ---
 # Using API to generate Document of Record in AEM Forms {#using-api-to-generate-document-of-record-with-aem-forms}
 

@@ -9,7 +9,7 @@ feature: PDF Generator
 jira: KT-7071
 topic: Development
 last-substantial-update: 2020-07-07
-duration: 336
+duration: 273
 exl-id: ffa9d243-37e5-420c-91dc-86c73a824083
 ---
 # PDF

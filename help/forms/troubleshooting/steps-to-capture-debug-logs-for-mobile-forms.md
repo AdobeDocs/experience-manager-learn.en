@@ -9,7 +9,7 @@ feature: Mobile Forms
 topic: Administration
 index: y
 exl-id: 0fdfa72d-0e96-4389-86b4-826c37d64982
-duration: 102
+duration: 101
 ---
 # Steps to capture debug logs for mobile forms
 

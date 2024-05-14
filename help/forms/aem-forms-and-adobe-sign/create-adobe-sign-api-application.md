@@ -10,7 +10,7 @@ level: Beginner
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 0fea826c-b481-4c8f-872f-e429430ed3a6
-duration: 111
+duration: 106
 ---
 # Create Acrobat Sign API Application
 

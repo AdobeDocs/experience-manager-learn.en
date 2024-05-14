@@ -8,7 +8,7 @@ version: Cloud Service
 feature: Output Service
 topic: Development
 exl-id: 165e2884-4399-4970-81ff-1f2f8b041a10
-duration: 32
+duration: 26
 ---
 # Introduction
 

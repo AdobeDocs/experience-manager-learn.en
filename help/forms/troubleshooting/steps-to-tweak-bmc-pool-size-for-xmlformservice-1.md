@@ -9,7 +9,7 @@ feature: Output Service,Forms Service
 topic: Development
 index: y
 exl-id: 1aead631-8ed5-41c8-9b0e-a081c793cee5
-duration: 106
+duration: 104
 ---
 
 # Steps to tweak bmc pool size for XMLFormService (1 of 2)

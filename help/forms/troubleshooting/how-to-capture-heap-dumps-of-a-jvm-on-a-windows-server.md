@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: 50bd13b1-9d74-427b-ab2c-0f2f1161b32d
-duration: 88
+duration: 86
 ---
 # How to capture heap dumps of a JVM on a windows server
 

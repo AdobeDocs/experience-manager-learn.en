@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate, Experienced
 doc-type: Article
 exl-id: c51da742-5ce7-499a-83da-227a25fb78c9
-duration: 432
+duration: 328
 ---
 # Understanding Style System Best Practices{#understanding-style-organization-with-the-aem-style-system}
 

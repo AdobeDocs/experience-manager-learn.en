@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 doc-type: Feature Video
 exl-id: 6f33f121-5564-4c46-ab56-7ea382a0ab5a
-duration: 232
+duration: 224
 ---
 # Using the Components Console {#using-the-components-console-with-aem-sites}
 

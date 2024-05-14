@@ -7,7 +7,7 @@ feature: Adaptive Forms, Workflow
 role: Developer
 level: Beginner
 exl-id: 269e43f7-24cf-4786-9439-f51bfe91d39c
-duration: 120
+duration: 102
 ---
 # ArrayList Variable in AEM Workflow
 

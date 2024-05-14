@@ -10,7 +10,7 @@ topic: Localization
 role: User
 level: Beginner
 exl-id: c29f64a3-56cd-4594-9265-692974f4c01a
-duration: 472
+duration: 470
 ---
 # Updating a Language Copy with Launches {#update-language-copy-launch}
 

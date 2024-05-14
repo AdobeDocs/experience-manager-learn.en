@@ -11,7 +11,7 @@ thumbnail: KT-7498.jpg
 doc-type: Tutorial
 exl-id: 261ec68f-36f4-474f-a6e4-7a2f9cea691b
 recommendations: noDisplay, noCatalog
-duration: 1593
+duration: 1561
 ---
 # Page templates {#page-templates}
 

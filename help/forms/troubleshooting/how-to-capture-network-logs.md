@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: bf2652fc-a52f-4941-80b9-64f0fae3baab
-duration: 94
+duration: 93
 ---
 # How to capture network logs / Tools to be used
 

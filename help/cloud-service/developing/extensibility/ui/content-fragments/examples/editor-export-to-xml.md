@@ -11,7 +11,7 @@ thumbnail: KT-13309.jpg
 doc-type: article
 last-substantial-update: 2023-06-02
 exl-id: 70adb2c1-9e08-4a4b-b8f1-16bddd84c23d
-duration: 236
+duration: 307
 ---
 # Export Content Fragment to XML
 

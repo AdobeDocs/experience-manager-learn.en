@@ -10,7 +10,7 @@ jira: KT-1047
 thumbnail: 22229.jpg
 doc-type: Feature Video
 exl-id: 645b6986-830f-4409-b46c-ddf15c33e84c
-duration: 483
+duration: 473
 ---
 # Using the SPA Editor with AEM Sites {#using-the-spa-editor-with-aem-sites}
 

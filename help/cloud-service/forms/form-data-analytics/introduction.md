@@ -12,7 +12,7 @@ jira: KT-12557
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 369c563e-c847-438a-a783-bc6a9f81b77c
-duration: 34
+duration: 27
 ---
 # Integrate AEM Forms with Adobe Analytics to report on form data fields
 

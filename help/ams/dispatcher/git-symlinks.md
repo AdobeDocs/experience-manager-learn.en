@@ -9,7 +9,7 @@ level: Beginner
 thumbnail: xx.jpg
 doc-type: Article
 exl-id: 6e751586-e92e-482d-83ce-6fcae4c1102c
-duration: 365
+duration: 295
 ---
 # Adding Symlinks into GIT
 

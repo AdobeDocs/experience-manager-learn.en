@@ -10,7 +10,7 @@ topic: Development
 thumbnail: 333241.jpg
 jira: KT-7857
 exl-id: dbff8764-67d5-43fa-bd41-918c638a9afa
-duration: 91
+duration: 89
 ---
 # Introduction
 

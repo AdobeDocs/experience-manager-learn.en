@@ -8,7 +8,7 @@ role: Developer, Leader, User
 level: Intermediate, Experienced
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
-duration: 490
+duration: 495
 last-substantial-update: 2024-04-05
 jira: KT-15271
 exl-id: dc841125-641b-47c0-a88f-d166a088e0ec

@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 doc-type: Feature Video
 exl-id: db4fc561-2368-4df8-9b02-fc08afa00805
-duration: 260
+duration: 254
 ---
 # Understanding the Asset Viewer with AEM Dynamic Media{#understanding-the-asset-viewer-with-aem-dynamic-media}
 

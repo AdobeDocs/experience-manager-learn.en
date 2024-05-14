@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-8660
 thumbnail: 336691.jpeg
 exl-id: 35420690-061a-4562-a933-e7bacd9e116d
-duration: 99
+duration: 97
 ---
 # The implementation phases of Cloud Acceleration Manager
 

@@ -8,7 +8,7 @@ thumbnail: 342866.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: eec1764e-1234-4b4c-993f-6584717e3c9e
-duration: 321
+duration: 317
 ---
 # Cloud 5 - Admin Console
 

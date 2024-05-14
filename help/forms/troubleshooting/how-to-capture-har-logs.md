@@ -8,7 +8,7 @@ version: 6.5
 topic: Administration
 index: y
 exl-id: cfadacf9-ec54-433b-beaa-d38dbe003438
-duration: 119
+duration: 117
 ---
 # How to capture HAR (HTTP archive) logs
 

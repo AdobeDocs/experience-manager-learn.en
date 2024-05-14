@@ -9,7 +9,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: 54a30cd9-d94a-4de5-82a1-69ab2263980d
-duration: 173
+duration: 130
 ---
 # Integrating AEM Sites with Adobe Target
 

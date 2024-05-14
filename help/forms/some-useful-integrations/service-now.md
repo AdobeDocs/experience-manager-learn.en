@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 exl-id: 93a177b0-7852-44da-89cc-836d127be4e7
 last-substantial-update: 2022-07-07
-duration: 64
+duration: 47
 ---
 # Integrate AEM Forms with [!DNL ServiceNow]
 

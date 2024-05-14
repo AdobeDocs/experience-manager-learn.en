@@ -9,7 +9,7 @@ level: Intermediate
 last-substantial-update: 2022-06-21
 doc-type: Technical Video
 exl-id: ab16d5e0-71d9-4518-a03b-4aa5d2ec95a7
-duration: 180
+duration: 176
 ---
 # Set up Asset Share Commons on local AEM {#setup-asset-share-commons}
 

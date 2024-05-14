@@ -7,7 +7,7 @@ topic: Development
 role: User
 level: Beginner
 doc-type: Value Video
-duration: 112
+duration: 116
 last-substantial-update: 2024-02-29
 jira: KT-15056
 thumbnail: 3427623.jpeg

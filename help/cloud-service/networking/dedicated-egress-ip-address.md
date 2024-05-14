@@ -10,7 +10,7 @@ jira: KT-9351
 thumbnail: KT-9351.jpeg
 exl-id: 311cd70f-60d5-4c1d-9dc0-4dcd51cad9c7
 last-substantial-update: 2024-04-26
-duration: 926
+duration: 891
 ---
 # Dedicated egress IP address
 

@@ -10,7 +10,7 @@ feature: Dispatcher
 role: Architect, Developer
 level: Beginner
 exl-id: 06954993-c8bb-47f3-8ab6-76d6b1b8e8b0
-duration: 354
+duration: 351
 ---
 # Introduction to [!DNL Dispatcher] {#introduction-dispatcher}
 

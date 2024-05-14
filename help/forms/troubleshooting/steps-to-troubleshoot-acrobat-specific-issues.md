@@ -9,7 +9,7 @@ feature: PDF Generator
 topic: Development
 index: y
 exl-id: 7480f507-29b3-4313-8a85-e207a17fb4e4
-duration: 119
+duration: 117
 ---
 # Steps to troubleshoot acrobat specific issues on a Windows setup
 

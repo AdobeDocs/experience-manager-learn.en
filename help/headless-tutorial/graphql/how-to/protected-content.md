@@ -9,6 +9,7 @@ level: Intermediate
 jira: KT-15233
 last-substantial-update: 2024-05-01
 exl-id: c4b093d4-39b8-4f0b-b759-ecfbb6e9e54f
+duration: 254
 ---
 # Protecting content in AEM Headless
 

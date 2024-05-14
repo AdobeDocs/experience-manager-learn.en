@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 exl-id: f4af7cb9-cc3b-4bec-9428-ab4f1a3cf41a
 last-substantial-update: 2019-07-07
-duration: 446
+duration: 430
 ---
 # Multi Series Charts
 

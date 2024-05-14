@@ -9,7 +9,7 @@ level: Intermediate
 jira: KT-9353
 thumbnail: KT-9353.jpeg
 exl-id: 5f919d7d-e51a-41e5-90eb-b1f6a9bf77ba
-duration: 99
+duration: 76
 ---
 # Email service
 

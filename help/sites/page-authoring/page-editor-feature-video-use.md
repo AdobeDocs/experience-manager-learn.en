@@ -10,7 +10,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: b120fb79-729e-4155-ba10-e5f7bb07eefa
-duration: 401
+duration: 395
 ---
 # Using the Page Editor {#using-page-editor-with-aem-sites}
 

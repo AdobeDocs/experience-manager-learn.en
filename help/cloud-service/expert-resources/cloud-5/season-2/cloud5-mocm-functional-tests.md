@@ -8,7 +8,7 @@ thumbnail: 343624.jpeg
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 5d9d70ab-3aaa-4e88-b0f8-e8cfe73cc617
-duration: 315
+duration: 310
 ---
 # Cloud 5 - Mysteries of Cloud Manager - Functional Tests
 

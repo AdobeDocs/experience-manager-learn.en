@@ -11,7 +11,7 @@ last-substantial-update: 2022-11-11
 recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: e5e6204c-d88c-4e79-a7f4-0cfc140bc51c
-duration: 374
+duration: 306
 ---
 # Editable container components
 

@@ -9,7 +9,7 @@ level: Beginner
 jira: KT-9685
 exl-id: 07fed661-0995-41ab-90c4-abde35a14a4c
 last-substantial-update: 2021-06-09
-duration: 300
+duration: 286
 ---
 # Custom functions
 

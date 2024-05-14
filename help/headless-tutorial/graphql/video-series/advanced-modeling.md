@@ -10,7 +10,7 @@ jira: KT-7620
 thumbnail: 332859.jpg
 last-substantial-update: 2023-05-17
 exl-id: 7f17d829-544e-4cf2-bd75-b179ffb89bf5
-duration: 338
+duration: 334
 ---
 # Advanced Modeling for GraphQL
 

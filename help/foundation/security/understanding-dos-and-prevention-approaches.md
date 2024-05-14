@@ -7,7 +7,7 @@ topic: Security, Development
 role: Admin, Architect, Developer
 level: Beginner
 doc-type: Article
-duration: 0
+duration: 75
 last-substantial-update: 2024-03-30
 jira: KT-15219
 exl-id: 1d7dd829-e235-4884-a13f-b6ea8f6b4b0b

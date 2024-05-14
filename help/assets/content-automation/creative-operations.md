@@ -10,7 +10,7 @@ thumbnail: 336540.jpeg
 last-substantial-update: 2022-09-02
 doc-type: Feature Video
 exl-id: 10e63038-b6d6-4ac6-b6b4-660a05f83d90
-duration: 637
+duration: 635
 ---
 # Creative Operations
 

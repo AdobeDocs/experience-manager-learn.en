@@ -11,7 +11,7 @@ last-substantial-update: 2023-05-16
 jira: KT-13270
 thumbnail: KT-13270.jpeg
 exl-id: 6e5e3cb4-9a47-42af-86af-da33fd80cb47
-duration: 242
+duration: 175
 ---
 # Content modeling
 

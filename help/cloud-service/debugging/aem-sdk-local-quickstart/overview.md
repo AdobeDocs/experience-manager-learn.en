@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Beginner, Intermediate
 exl-id: e27cf3de-ef89-44d7-819b-157f85f5a80f
-duration: 50
+duration: 41
 ---
 # Debugging AEM SDK
 

@@ -10,7 +10,7 @@ jira: KT-6919
 thumbnail: 330542.jpg
 last-substantial-update: 2023-09-26
 exl-id: c7ccfee6-c252-4ba4-831a-1c37b36ac964
-duration: 376
+duration: 375
 ---
 # Architecture of AEM as a Cloud Service
 

@@ -7,7 +7,7 @@ version: Cloud Service
 role: Admin, Developer, Leader, User
 level: Beginner, Intermediate
 doc-type: Technical Video
-duration: 230
+duration: 239
 last-substantial-update: 2024-03-05
 jira: KT-15083
 hidefromtoc: yes

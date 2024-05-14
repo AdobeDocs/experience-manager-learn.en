@@ -11,7 +11,7 @@ doc-type: Feature Video
 jira: KT-660
 thumbnail: 331786.jpg
 exl-id: cc758602-3c20-4eca-9b87-f04b6dc96bfe
-duration: 184
+duration: 179
 ---
 # Building Blocks with Experience Fragments {#building-blocks}
 

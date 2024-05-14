@@ -7,7 +7,7 @@ topic: Content Management
 role: Admin, Developer, Leader, User
 level: Beginner
 doc-type: Feature Video
-duration: 138
+duration: 145
 last-substantial-update: 2024-04-11
 jira: KT-15322
 exl-id: b32f342f-653b-4446-983a-0539a8e1eade

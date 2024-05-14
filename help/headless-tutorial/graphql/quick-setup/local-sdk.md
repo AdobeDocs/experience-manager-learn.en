@@ -10,7 +10,7 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 exl-id: d2da6efa-1f77-4391-adda-e3180c42addc
-duration: 327
+duration: 242
 ---
 # AEM Headless quick setup using the local AEM SDK {#setup}
 

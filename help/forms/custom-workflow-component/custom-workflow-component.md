@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 last-substantial-update: 2021-11-28
 exl-id: acc701ec-b57d-4c20-8f97-a5a69bb180cd
-duration: 89
+duration: 70
 ---
 # Custom Workflow Component
 

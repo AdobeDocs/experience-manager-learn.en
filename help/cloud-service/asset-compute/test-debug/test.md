@@ -10,7 +10,7 @@ topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: 04992caf-b715-4701-94a8-6257e9bd300c
-duration: 182
+duration: 142
 ---
 # Test an Asset Compute worker
 

@@ -12,7 +12,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 doc-type: Tutorial
 exl-id: a72ddced-37de-4b62-9e28-fa5b6c8ce5b7
-duration: 139
+duration: 99
 ---
 # Create a tags Cloud Service configuration in AEM {#create-launch-cloud-service}
 

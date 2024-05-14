@@ -5,6 +5,7 @@ sub-product: Experience Manager Sites, Experience Manager Cloud Manager, Experie
 solution: Experience Manager as a Cloud Service, Experience Manager
 recommendations: noDisplay, noCatalog
 exl-id: 3bd7b9f5-5775-4572-8b4a-4d09619e20b9
+duration: 74
 ---
 # Cloud 5 season 3
 

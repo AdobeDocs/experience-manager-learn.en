@@ -10,7 +10,7 @@ doc-type: Technical Video
 last-substantial-update: 2023-11-15
 jira: KT-14489
 thumbnail: 3425722.jpeg
-duration: 78
+duration: 77
 exl-id: 85e3303d-f59a-4b71-bfb7-09470b9ab3c6
 ---
 # Document audit

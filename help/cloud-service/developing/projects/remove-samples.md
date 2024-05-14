@@ -9,7 +9,7 @@ level: Beginner
 jira: KT-9092
 thumbnail: 337263.jpeg
 exl-id: 4e10c2b7-41b6-41a0-b8d4-9207a9d3f9c8
-duration: 344
+duration: 341
 ---
 # Removing samples from an AEM Maven project
 

@@ -13,7 +13,7 @@ hide: yes
 hidefromtoc: yes
 recommendations: noCatalog, noDisplay
 exl-id: b64f33ab-cd18-4cbc-a57e-baf505f1442a
-duration: 36
+duration: 29
 ---
 # Filtering Express app
 

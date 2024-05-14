@@ -11,7 +11,7 @@ jira: KT-13223
 thumbnail: 3420975.jpeg
 doc-type: Feature Video
 exl-id: 0f62da34-b6d7-42ac-a6f6-08a50483fb25
-duration: 203
+duration: 200
 ---
 # Quick access
 

@@ -10,7 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-11-15
 jira: KT-14472
 thumbnail: 3425706.jpeg
-duration: 94
+duration: 92
 exl-id: e01f08d6-415d-4b15-8d40-cb5b2eb7de8a
 ---
 # Page metadata

@@ -11,7 +11,7 @@ thumbnail: 30214.jpg
 doc-type: Tutorial
 exl-id: e9d06dc2-ac3b-48c5-ae00-fdaf5bb45b54
 recommendations: noDisplay, noCatalog
-duration: 2217
+duration: 2049
 ---
 # Pages and Templates {#pages-and-template}
 

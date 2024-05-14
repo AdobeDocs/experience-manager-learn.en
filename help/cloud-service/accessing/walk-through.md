@@ -10,7 +10,7 @@ jira: KT-6061
 thumbnail: 39155.jpg
 last-substantial-update: 2023-05-19
 exl-id: 0ca50fa4-0b2a-4e6d-becb-7a91fc6b4166
-duration: 508
+duration: 504
 ---
 # Configuring access to AEM walk-through {#configuring-access-to-aem-walkthrough}
 

@@ -10,7 +10,7 @@ level: Beginner
 exl-id: d5d59ef5-9343-4ac2-9053-a010decdb9b6
 last-substantial-update: 2022-08-15
 thumbnail: cm-pipeline.jpg
-duration: 635
+duration: 619
 ---
 # Use the CI/CD Pipeline in Adobe Cloud Manager
 

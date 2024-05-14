@@ -10,7 +10,7 @@ feature: Interactive Communication
 last-substantial-update: 2023-04-19
 jira: KT-13126
 exl-id: e551ac8d-0bfc-4c94-b773-02ff9bba202e
-duration: 173
+duration: 139
 ---
 # Customize text editor{#customize-text-editor}
 

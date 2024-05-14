@@ -10,7 +10,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: b4985c30-3e5e-470e-b68d-0f6c5cbf4690
-duration: 671
+duration: 534
 ---
 # Debugging AEM as a Cloud Service build and deployments 
 

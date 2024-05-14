@@ -7,7 +7,7 @@ topic: Content Management
 role: Admin, Developer, Leader, User
 level: Beginner, Intermediate, Experienced
 doc-type: Technical Video
-duration: 106
+duration: 112
 last-substantial-update: 2024-05-08
 jira: KT-15479
 exl-id: 9e767bd7-b86d-4dee-b980-77bd3485d307

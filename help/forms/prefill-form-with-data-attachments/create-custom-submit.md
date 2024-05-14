@@ -9,6 +9,7 @@ version: 6.5
 topic: Integrations
 jira: KT-14794
 exl-id: c4257567-76bd-417e-a1a2-38a0647767d9
+duration: 147
 ---
 # Create custom submit to handle the form submission
 

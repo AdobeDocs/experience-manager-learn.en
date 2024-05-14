@@ -12,7 +12,7 @@ index: y
 recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: 65e8d41e-002a-4d80-a050-5366e9ebbdea
-duration: 396
+duration: 364
 ---
 # Review the full-stack AEM project's 'ui.frontend' module {#aem-full-stack-ui-frontent}
 

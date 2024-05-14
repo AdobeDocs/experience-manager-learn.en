@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: da3190bb-f350-420f-bf24-a6dede296efa
-duration: 381
+duration: 376
 ---
 # Using Custom Video Thumbnail with AEM Dynamic Media{#using-custom-video-thumbnail-with-aem-dynamic-media}
 

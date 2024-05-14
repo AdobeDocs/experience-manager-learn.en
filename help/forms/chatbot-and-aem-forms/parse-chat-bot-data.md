@@ -8,6 +8,7 @@ topic: Development
 role: User
 level: Intermediate
 exl-id: 3c304b0a-33f8-49ed-a576-883df4759076
+duration: 22
 ---
 # Parse ChatBot data
 

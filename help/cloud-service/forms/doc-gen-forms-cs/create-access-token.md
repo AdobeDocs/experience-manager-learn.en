@@ -10,7 +10,7 @@ topic: Development
 jira: KT-8185
 thumbnail: KT-8185.jpg
 exl-id: ab7b8a06-3009-477d-9e98-590912e8e176
-duration: 30
+duration: 33
 ---
 # Exchange JWT for Access Token
 

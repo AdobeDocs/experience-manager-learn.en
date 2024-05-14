@@ -9,7 +9,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-9980
 exl-id: 6bd47a37-5a4e-47a9-9be7-782f611d8f13
-duration: 7
+duration: 6
 ---
 # Exercises
 

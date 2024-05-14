@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 11145e87-7eef-4183-ac6f-efc8d35d0670
-duration: 155
+duration: 151
 ---
 # Creating DataSource Configuration in AEM Forms{#creating-datasource-configuration-in-aem-forms}
 

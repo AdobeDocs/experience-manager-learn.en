@@ -9,7 +9,7 @@ feature: Output Service, Forms Service
 topic: Development
 index: y
 exl-id: f7a815f0-2c71-452f-baf8-da967b5ed033
-duration: 99
+duration: 97
 ---
 
 # Steps to tweak parameters on JMX console

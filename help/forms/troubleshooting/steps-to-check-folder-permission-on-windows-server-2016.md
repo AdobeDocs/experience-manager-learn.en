@@ -9,7 +9,7 @@ feature: PDF Generator
 topic: Administration
 index: y
 exl-id: ec94ea5d-6f65-4c16-af63-d7c7766fe5f6
-duration: 66
+duration: 64
 ---
 # Steps to check Folder Permission in Windows Server 2016 for AEM Forms PDFG
 

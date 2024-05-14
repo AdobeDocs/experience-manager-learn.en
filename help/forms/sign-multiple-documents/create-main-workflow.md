@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: 338d9522-f6da-4aa7-b5d8-b9fff39ea94b
-duration: 66
+duration: 70
 ---
 # Create main workflow
 

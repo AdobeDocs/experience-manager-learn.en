@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: 91b4a134-44a7-474e-b769-fe45562105b2
 last-substantial-update: 2020-01-07
-duration: 152
+duration: 132
 ---
 # Generate PDF from HTM5 Form Submission {#generate-pdf-from-htm-form-submission}
 

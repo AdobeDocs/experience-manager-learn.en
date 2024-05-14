@@ -10,7 +10,7 @@ level: Intermediate
 jira: KT-10537
 exl-id: 570de1e6-7221-4b8d-b226-a43317bfc166
 last-substantial-update: 2019-06-09
-duration: 287
+duration: 281
 ---
 # Override Form Data Model Properties{#using-form-data-model-service-as-step-in-workflow}
 

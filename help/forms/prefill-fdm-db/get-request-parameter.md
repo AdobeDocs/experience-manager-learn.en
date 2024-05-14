@@ -9,7 +9,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: a640539d-c67f-4224-ad81-dd0b62e18c79
-duration: 49
+duration: 40
 ---
 # Get request parameter
 

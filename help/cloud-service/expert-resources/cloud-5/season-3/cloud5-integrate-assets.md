@@ -6,7 +6,7 @@ feature: Edge Delivery Services
 topic: Content Management
 role: Admin, Developer, Leader, User
 level: Beginner
-duration: 316
+duration: 323
 last-substantial-update: 2024-04-11
 jira: KT-15318
 hidefromtoc: yes

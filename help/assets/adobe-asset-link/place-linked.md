@@ -11,7 +11,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: b5d0d2e1-22d7-4dd9-9913-c6f4a7cc0234
-duration: 218
+duration: 216
 ---
 # Place Linked{#place-linked}
 

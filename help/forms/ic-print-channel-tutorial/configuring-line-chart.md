@@ -11,7 +11,7 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 86a955e2-2463-4973-8d3c-4c694db8c787
-duration: 145
+duration: 140
 ---
 # Configuring line chart for your first interactive communication document {#configuring-line-chart-for-your-first-interactive-communication-document}
 

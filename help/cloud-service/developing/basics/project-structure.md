@@ -9,7 +9,7 @@ feature: AEM Project Archetype
 jira: KT-6932
 thumbnail: 330557.jpg
 exl-id: abd75b0b-8c3e-4612-bb8a-bfad50946294
-duration: 213
+duration: 211
 ---
 # AEM project structure
 

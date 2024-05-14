@@ -9,7 +9,7 @@ level: Intermediate
 last-substantial-update: 2022-06-03
 doc-type: Feature Video
 exl-id: 972737dd-8ca6-47b4-a4ec-b73355c09cec
-duration: 14
+duration: 13
 ---
 # Customizing Annotations in AEM Assets{#using-annotations-in-aem-assets}
 

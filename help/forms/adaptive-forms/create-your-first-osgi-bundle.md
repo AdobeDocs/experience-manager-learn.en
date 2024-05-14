@@ -8,7 +8,7 @@ topic: Development
 role: Developer
 level: Beginner
 last-substantial-update: 2021-06-09
-duration: 224
+duration: 177
 ---
 
 # Create your first OSGi bundle

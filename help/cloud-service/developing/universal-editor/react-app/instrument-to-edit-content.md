@@ -7,7 +7,7 @@ topic: Development, Content Management
 role: Architect, Developer
 level: Intermediate
 doc-type: Tutorial
-duration: 0
+duration: 421
 last-substantial-update: 2024-04-19
 jira: KT-15359
 thumbnail: KT-15359.png

@@ -10,7 +10,7 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 exl-id: 772b595d-2a25-4ae6-8c6e-69a646143147
-duration: 436
+duration: 410
 ---
 
 # Build a React app that use AEM's GraphQL APIs

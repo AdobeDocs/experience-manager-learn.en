@@ -11,7 +11,7 @@ last-substantial-update: 2023-10-26
 jira: KT-13148
 thumbnail: KT-13148.jpeg
 exl-id: 49becbcb-7965-4378-bb8e-b662fda716b7
-duration: 626
+duration: 532
 ---
 # Examples and result analysis of traffic filter rules including WAF rules
 

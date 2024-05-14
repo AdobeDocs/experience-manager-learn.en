@@ -10,6 +10,7 @@ level: Experienced
 jira: kt-14884
 last-substantial-update: 2024-03-03
 exl-id: 570a8176-ecf8-4a57-ab58-97190214c53f
+duration: 25
 ---
 # Build query interface
 

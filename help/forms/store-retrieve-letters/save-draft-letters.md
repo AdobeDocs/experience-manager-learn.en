@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 jira: KT-10208
 exl-id: dc6f64a0-7059-4392-9c29-e66bdef4fd4d
-duration: 103
+duration: 116
 ---
 # Save and retrieve draft letters
 

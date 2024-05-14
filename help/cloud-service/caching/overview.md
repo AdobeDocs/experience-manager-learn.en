@@ -11,7 +11,7 @@ last-substantial-update: 2023-08-28
 jira: KT-13858
 thumbnail: KT-13858.jpeg
 exl-id: e76ed4c5-3220-4274-a315-a75e549f8b40
-duration: 81
+duration: 36
 ---
 # AEM as a Cloud Service caching
 

@@ -10,7 +10,7 @@ jira: KT-7872
 thumbnail: 333429.jpeg
 last-substantial-update: 2023-05-17
 exl-id: 06ba38c4-95fe-4ff5-b4d9-237ef9dec944
-duration: 284
+duration: 281
 ---
 # GraphQL Persisted Queries
 

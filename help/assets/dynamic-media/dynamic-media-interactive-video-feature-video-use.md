@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: 2a27d8bc-ee7b-4d13-8512-8f3dc1eb8f13
-duration: 495
+duration: 492
 ---
 # Using Interactive Video with AEM Dynamic Media{#using-interactive-video-with-aem-dynamic-media}
 

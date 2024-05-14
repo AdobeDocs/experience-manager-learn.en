@@ -8,7 +8,7 @@ doc-type: Article
 topic: Development
 role: Developer, Architect
 level: Beginner
-duration: 389
+duration: 373
 last-substantial-update: 2024-01-04
 jira: KT-14745
 thumbnail: KT-14745.jpeg

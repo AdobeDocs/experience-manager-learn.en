@@ -10,7 +10,7 @@ role: Developer
 level: Intermediate, Experienced
 doc-type: Tutorial
 exl-id: 63c23f22-533d-486c-846b-fae22a4d68db
-duration: 288
+duration: 253
 ---
 # Token-based authentication to AEM as a Cloud Service
 

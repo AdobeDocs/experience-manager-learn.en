@@ -10,7 +10,7 @@ topic: Integrations, Development
 role: Developer
 level: Intermediate, Experienced
 exl-id: d851d315-ed0e-46b8-bcd8-417e1e58c0c4
-duration: 335
+duration: 260
 ---
 # Troubleshoot Asset Compute extensibility
 

@@ -10,6 +10,7 @@ jira: KT-14997
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: ee5182fd-b995-419b-be18-a59484f18147
+duration: 371
 ---
 # Cloud 5 - Real User Monitoring (RUM)
 

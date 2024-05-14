@@ -9,6 +9,7 @@ level: Intermediate
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 0f41b049-bbbb-47c8-a3f8-25b5c68bdd39
+duration: 515
 ---
 # Cloud 5 - Third-party search
 
