@@ -50,16 +50,16 @@ Learn what AEM Assets is and how can be used to achieve your organization's busi
    </p>
 </td>
 <td>
-   <a href="./advanced/asset-insights-launch-tutorial.md">
-   <img alt="AEM Assets Insights" src="./assets/overview/asset-insights.png"/>
+   <a href="../assets-essentials/overview.md">
+   <img alt="AEM Assets Essentials" src="../assets-essentials/assets/overview/getting-started.png"/>
    </a>
    <div>
-      <a href="./advanced/asset-insights-launch-tutorial.md">
-      <strong>Using AEM Asset Insights with tags</strong>
+      <a href="../assets-essentials/overview.md">
+      <strong>Getting started with Assets Essentials</strong>
       </a>
    </div>
    <p>
-      <em>Gain insights into how assets are used</em>
+      <em>Speed up experience creation from concept to design to delivery.</em>
    <p>
 </td>
 <td>
