@@ -57,7 +57,7 @@ See an example of the `cdn.yaml` file within the AEM Guides WKND Sites Project:
 
 ### Deploy rules through Cloud Manager {#deploy-rules-through-cloud-manager}
 
-To deploy rules, follow these steps:
+To deploy the rules, follow these steps:
 
 1. Log into Cloud Manager at [my.cloudmanager.adobe.com](https://my.cloudmanager.adobe.com/) and select the appropriate organization and program.
 
@@ -89,11 +89,11 @@ To deploy rules, follow these steps:
 
 ### Test rules by generating traffic
 
-To test rules, there are various third-party tools available and your organization may have a preferred tool. For demo purpose, let's use the following tools:
+To test rules, there are various third-party tools available and your organization may have a preferred tool. For the demo purpose, let's use the following tools:
 
 - [Curl](https://curl.se/) for basic testing like invoking a URL and checking the response code.
 
-- [Vegeta](https://github.com/tsenart/vegeta) to perform denial of service (DOS). Follow installation instructions from the [Vegeta GitHub](https://github.com/tsenart/vegeta#install).
+- [Vegeta](https://github.com/tsenart/vegeta) to perform denial of service (DOS). Follow the installation instructions from the [Vegeta GitHub](https://github.com/tsenart/vegeta#install).
 
 - [Nikto](https://github.com/sullo/nikto/wiki) to find potential problems and security vulnerabilities like XSS, SQL injection, and more. Follow installation instructions from the [Nikto GitHub](https://github.com/sullo/nikto).
 
@@ -113,9 +113,11 @@ To test rules, there are various third-party tools available and your organizati
 
 ### Analyze results using the dashboard tooling
 
-After creating, deploying, and testing the rules, you can analyze the results using **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling. It can parse the AEMCS CDN logs, allowing you to visualize the results in the form of various charts and graphs.
+After creating, deploying, and testing the rules, you can analyze the results using **CDN** logs and **AEMCS-CDN-Log-Analysis-Tooling**. The tooling provides a set of dashboards to visualize the results for Splunk and ELK (Elasticsearch, Logstash, and Kibana) stack.
 
-Dashboard tooling can be cloned directly from the [AEMCS-CDN-Log-Analysis-ELK-Tool GitHub repository](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool) and follow the steps to install and load the **Traffic Filter Rules (including WAF)** dashboard.
+The tooling can be cloned from the [AEMCS-CDN-Log-Analysis-Tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling) GitHub repository. Then, follow the instructions to install and load the **CDN Traffic Dashboard** and **WAF Dashboard** dashboards for your preferred observability tool.
+
+In this tutorial, let's use the ELK stack. Follow the [ELK Docker container for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/ELK/README.md) instructions to set up the ELK stack.
 
 - After loading the sample dashboard, your Elastic dashboard tool page should look like the following:
 

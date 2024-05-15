@@ -26,13 +26,13 @@ Learn recommended best practices for traffic filter rules, including WAF rules. 
 - When declaring and validating rules, always start with `action` type `log` to ensure that the rule is not blocking legitimate traffic.
 - For certain rules, the transition from `log` to `block` should be purely based on analysis of sufficient site traffic.
 - Introduce rules incrementally, and consider involving your testing teams (QA, performance, penetration testing) in the process.
-- Analyze the impact of rules regularly using the [dashboard tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool). Depending on your site's traffic volume, the analysis can be done daily, weekly, or monthly.
+- Analyze the impact of rules regularly using the [dashboard tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling). Depending on your site's traffic volume, the analysis can be done daily, weekly, or monthly.
 - To block malicious traffic that you may be aware of after the analysis, add any additional rules. For example, certain IPs that have been attacking your site.
 - Rule creation, deployment, and analysis should be an ongoing, iterative process. It is not a one-time activity.
 
 ## Best practices for traffic filter rules
 
-Enable the traffic filter rules below for your AEM project. However the desired values for `rateLimit` and `clientCountry` properties must be determined in collaboration with your security team.
+Enable the traffic filter rules below for your AEM project. However, the desired values for `rateLimit` and `clientCountry` properties must be determined in collaboration with your security team.
 
 ```yaml
 kind: CDN
@@ -85,9 +85,9 @@ data:
 
 ## Best practices for WAF rules
 
-Once the WAF is licensed and enabled for your program, traffic matching WAF flags appear in charts and request logs, even if you didn't declare them in a rule. This is so you are always aware of potentially new malicious traffic and can create rules as needed. Look at WAF flags that are not reflected in the declared rules and consider declaring them.
+Once the WAF is licensed and enabled for your program, traffic matching WAF flags appear in charts and request logs, even if you didn't declare them in a rule. So, you are always aware of potentially new malicious traffic and can create rules as needed. Look at WAF flags that are not reflected in the declared rules and consider declaring them.
 
-Consider the WAF rules below for your AEM project. However the desired values for `action` and `wafFlags` property must be determined in collaboration with your security team.
+Consider the WAF rules below for your AEM project. However, the desired values for `action` and `wafFlags` property must be determined in collaboration with your security team.
 
 ```yaml
 kind: CDN
