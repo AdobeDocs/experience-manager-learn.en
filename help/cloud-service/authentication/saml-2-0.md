@@ -8,9 +8,9 @@ role: Architect, Developer
 level: Intermediate
 jira: KT-9351
 thumbnail: 343040.jpeg
-last-substantial-update: 2022-10-17
+last-substantial-update: 2024-05-15
 exl-id: 461dcdda-8797-4a37-a0c7-efa7b3f1e23e
-duration: 2177
+duration: 2200
 ---
 # SAML 2.0 authentication{#saml-2-0-authentication}
 
@@ -450,3 +450,66 @@ $ git push adobe saml-auth:develop
 ```
 
 Deploy the target Cloud Manager Git branch (in this example, `develop`), using a Full Stack deployment pipeline.
+
+## Invoking the SAML authentication
+
+The SAML authentication flow can be invoked from an AEM Site web page, by creating a specially crafted links, or a buttons. The parameters described below can be programmatically set as needed, so for instance, a log in button may set the `saml_request_path`, which is where the user is taken upon successful SAML authentication, to different AEM pages, based on the context of the button.
+
+### GET request
+
+SAML authentication can be invoked by creating a HTTP GET request in the format:
+
+`HTTP GET /system/sling/login`
+
+and providing query parameters:
+
+| Query parameter name | Query parameter value |
+|----------------------|-----------------------|
+| `resource`           | Any JCR path, or sub-path, that is the SAML authentication handler listens on, as defined in the [Adobe Granite SAML 2.0 Authentication Handler OSGi configuration's](#configure-saml-2-0-authentication-handler) `path` property. |
+| `saml_request_path`  | The URL path the user should be taken to after successful SAML authentication.   |
+
+For example, this HTML link will trigger the SAML log in flow, and upon success take the user to `/content/wknd/us/en/protected/page.html`. These query parameters can be programmaticaly set as needed.
+
+```html
+<a href="/system/sling/login?resource=/content/wknd&saml_request_path=/content/wknd/us/en/protected/page.html">
+    Log in using SAML
+</a>
+```
+
+## POST request
+
+SAML authentication can be invoked by creating a HTTP POST request in the format:
+
+`HTTP POST /system/sling/login`
+
+and providing the form data:
+
+| Form data name | Form data value |
+|----------------------|-----------------------|
+| `resource`           | Any JCR path, or sub-path, that is the SAML authentication handler listens on, as defined in the [Adobe Granite SAML 2.0 Authentication Handler OSGi configuration's](#configure-saml-2-0-authentication-handler) `path` property. |
+| `saml_request_path`  | The URL path the user should be taken to after successful SAML authentication.   |
+
+
+For example, this HTML button will use a HTTP POST to trigger the SAML log in flow, and upon success, take the user to `/content/wknd/us/en/protected/page.html`. These form data parameters can be programmaticaly set as needed.
+
+```html
+<form action="/system/sling/login" method="POST">
+    <input type="hidden" name="resource" value="/content/wknd">
+    <input type="hidden" name="saml_request_path" value="/content/wknd/us/en/protected/page.html">
+    <input type="submit" value="Log in using SAML">
+</form>
+```
+
+### Dispatcher configuration
+
+Both the HTTP GET and POST methods require client access to AEM's `/system/sling/login` endpoints, and thus they must be allowed via AEM Dispatcher.
+
+Allow the necessary URL patterns based on if GET or POST isused
+
+```
+# Allow GET-based SAML authentication invocation
+/0191 { /type "allow" /method "GET" /url "/system/sling/login" /query="*" }
+
+# Allow POST-based SAML authentication invocation
+/0192 { /type "allow" /method "POST" /url "/system/sling/login" }
+```
