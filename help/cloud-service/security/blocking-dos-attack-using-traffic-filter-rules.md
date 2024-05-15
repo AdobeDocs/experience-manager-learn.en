@@ -28,7 +28,7 @@ Let's understand the default DDoS protections for your AEM website:
 - **Blocking:** The Adobe CDN blocks traffic to the origin if it exceeds an Adobe-defined rate from a particular IP address, per CDN PoP (Point of Presence).
 - **Alerting:** The Actions Center sends a traffic spike at origin alert notification when traffic exceeds a certain rate. This alert fires off when traffic to any given CDN PoP exceeds an _Adobe-defined_ request rate per IP address. See [Traffic Filter Rules Alerts](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf#traffic-filter-rules-alerts) for more details.
 
-These built-in protections should be considered a baseline for an organization's ability to minimize the performance impact of a DDoS attack. Since each website has different performance characteristics and may see performance degradation before the Adobe-defined rate limit is met, it is recommended to extend the default protections through _customer configuration_.
+These built-in protections should be considered a baseline for an organization's ability to minimize the performance impact of a DDoS attack. Since each website has different performance characteristics and may see that performance degradation before the Adobe-defined rate limit is met, it is recommended to extend the default protections through _customer configuration_.
 
 Let's look at some additional, recommended measures that customers can take to protect their websites from DDoS attacks:
 
@@ -70,14 +70,20 @@ Adobe sends a traffic spike at origin alert as an [Actions Center Notification](
 
 ## Analyzing traffic patterns {#analyze-traffic}
 
-If your site is already live, you can analyze the traffic patterns using CDN logs and one of the following methods:
+If your site is already live, you can analyze the traffic patterns using CDN logs and Adobe provided dashboards.
+
+- **CDN Traffic Dashboard**: provides insights into the traffic via CDN and Origin request rate, 4xx and 5xx error rates, and non-cached requests. Also provides max CND and Origin requests per second per client IP address and more insights to optimize the CDN configurations.
+
+- **CDN Cache Hit Ratio**: provides insights into the total cache hit ratio and total count of requests by HIT, PASS, and MISS status. Also provides top HIT, PASS, and MISS URLs.
+
+Configure the dashboard tooling using _one of the following options_:
 
 ### ELK - configuring dashboard tooling
 
 The **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling provided by Adobe can be used to analyze the CDN logs. This tooling includes a dashboard that visualizes the traffic patterns, making it easier to determine the optimal thresholds for your rate limit traffic filter rules.
 
-- Clone the [AEMCS-CDN-Log-Analysis-ELK-Tool](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool) GitHub repository. 
-- Set up the tooling by following the [How to set up the ELK Docker container](https://github.com/adobe/AEMCS-CDN-Log-Analysis-ELK-Tool?tab=readme-ov-file#how-to-set-up-the-elk-docker-container) steps.
+- Clone the [AEMCS-CDN-Log-Analysis-Tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling) GitHub repository. 
+- Set up the tooling by following the [How to set up the ELK Docker container](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/ELK/README.md#how-to-set-up-the-elk-docker-containerhow-to-setup-the-elk-docker-container) steps.
 - As part of the setup, import the `traffic-filter-rules-analysis-dashboard.ndjson` file to visualize the data. The _CDN Traffic_ dashboard includes visualizations that show the maximum number of requests per IP/POP at the CDN Edge and Origin.
 - From the [Cloud Manager](https://my.cloudmanager.adobe.com/)'s _Environments_ card, download the AEMCS Publish service's CDN logs.
 
@@ -89,9 +95,9 @@ The **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling provided by 
   
 ### Splunk - configuring dashboard tooling
 
-Customers who have [Splunk Log forwarding enabled](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/logging#splunk-logs) can create a new dashboard to analyze the traffic patterns. The following XML file helps you create a dashboard at Splunk:
+Customers who have [Splunk Log forwarding enabled](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/logging#splunk-logs) can create new dashboards to analyze the traffic patterns. 
 
-- [CDN - Traffic dashboard](./assets/traffic-dashboard.xml): This dashboard provides insights into the traffic patterns at the CDN Edge and Origin. It includes visualizations that show the maximum number of requests per IP/POP at the CDN Edge and Origin.
+To create dashboards in Splunk, follow [Splunk dashboards for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/READEME.md#splunk-dashboards-for-aemcs-cdn-log-analysis) steps.
 
 ### Looking at data
 
