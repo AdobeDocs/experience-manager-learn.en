@@ -47,6 +47,7 @@ team: TM
     + [Continuous Integration](./cloud-manager/devops/continuous-integration.md)
     + [Analyze Test Results](./cloud-manager/devops/analyze-test-results.md)
     + [Dispatcher Configurations](./cloud-manager/devops/dispatcher-configurations.md)
+    + [CDN Log Analysis](./cloud-manager/devops/cdn-log-analysis.md)
 + Local Development Environment Setup {#local-development-environment-set-up}
   + [Overview](./local-development-environment/overview.md)
   + [Development Tools](./local-development-environment/development-tools.md)
