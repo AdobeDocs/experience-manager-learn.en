@@ -33,8 +33,9 @@ This article assumes you have [successfully configured adaptive form to submit d
 * Configure the invoke FDM step to use the form data model created in the previous step.
 * ![associate-fdm](assets/fdm-insert-1.png)
 
-* ![map-input-parameters](assets/fdm-insert-2.png)
-* Notice the use of JSON dot notation. The submitted data is in the format below, and we are extracting the ContactUS object from the submitted data.
+## Adaptive Form based on core components
+
+The submitted data is in the following format. We need to extract the ContactUS object using dot notation in the invoke Form Data Model Service workflow step as shown in the screenshot 
 
 ```json
 {
@@ -48,6 +49,42 @@ This article assumes you have [successfully configured adaptive form to submit d
 ```
 
 
+* ![map-input-parameters](assets/fdm-insert-2.png)
+
+
+## Adaptive Form based on foundation components
+
+The submitted data is in the following format. Extract the ContactUS JSON object using the dot notation in the invoke Form Data Model Service workflow step
+
+```json
+{
+    "afData": {
+        "afUnboundData": {
+            "data": {}
+        },
+        "afBoundData": {
+            "data": {
+                "ContactUS": {
+                    "Title": "Lord",
+                    "HighNetWorth": "true",
+                    "SubmitterName": "John Doe",
+                    "Products": "Forms"
+                }
+            }
+        },
+        "afSubmissionInfo": {
+            "lastFocusItem": "guide[0].guide1[0].guideRootPanel[0].afJsonSchemaRoot[0]",
+            "stateOverrides": {},
+            "signers": {},
+            "afPath": "/content/dam/formsanddocuments/foundationform",
+            "afSubmissionTime": "20240517100126"
+        }
+    }
+}
+
+```
+
+![foundation-based-form](assets/foundation-based-form.png)
 
 ## Configure Adaptive Form to trigger AEM workflow
 
