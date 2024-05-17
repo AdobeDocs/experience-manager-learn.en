@@ -11,8 +11,8 @@ duration: 219
 last-substantial-update: 2024-05-17
 jira: KT-15505
 thumbnail: KT-15505.jpeg
+exl-id: 830c2486-099b-454f-bc07-6bf36e81ac8d
 ---
-
 # CDN log analysis tooling
 
 Learn about the _AEM Cloud Service CDN Log Analysis Tooling_ that Adobe provides and how it helps to get insights into both your CDN performance and AEM implementation.
@@ -62,5 +62,3 @@ You can get started using the [Splunk dashboards for AEMCS CDN Log Analysis](htt
 The [ELK stack](https://www.elastic.co/elastic-stack), comprising Elasticsearch, Logstash, and Kibana, is another powerful option for log analysis. It is useful for organizations that do not have access to a Splunk setup or log forwarding capabilities. Setting up the ELK stack locally is straightforward, the tooling provides the Docker Compose file to get started quickly. Then, you can import the pre-built dashboards and ingest the CDN logs that are downloaded using the Adobe Cloud Manager.
 
 You can get started using the [ELK Docker container for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/ELK/README.md#elk-docker-container-for-aemcs-cdn-log-analysis)
-
-
