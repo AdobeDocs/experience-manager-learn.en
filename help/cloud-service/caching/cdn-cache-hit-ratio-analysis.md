@@ -60,7 +60,7 @@ To gain insights such as cache hit ratio, and top URLs of MISS and PASS cache ty
 To analyze the CDN logs, this tutorial presents three options:  
 
 1. **Elasticsearch, Logstash, and Kibana (ELK)**: The [ELK dashboard tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/ELK/README.md) can be installed locally. 
-1. **Splunk**: The [Splunk dashboard tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/READEME.md) requires access to Splunk and [AEMCS log forwarding enabled](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/logging#splunk-logs) to ingest the CDN logs.
+1. **Splunk**: The [Splunk dashboard tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/README.md) requires access to Splunk and [AEMCS log forwarding enabled](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/logging#splunk-logs) to ingest the CDN logs.
 1. **Jupyter Notebook**: It can be accessed remotely as part of [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/data-science-workspace/jupyterlab/analyze-your-data) without installing additional software, for customers who have licensed Adobe Experience Platform.
 
 ### Option 1: Using ELK dashboard tooling
@@ -130,7 +130,7 @@ The [Splunk](https://www.splunk.com/) is a popular log analysis tool that helps 
 
 To identify the key details, let's use the [AEMCS-CDN-Log-Analysis-Tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling) project. This project provides a Splunk dashboard to analyze the CDN logs.
 
-1. Follow the steps from [Splunk dashboards for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/READEME.md) and make sure to import the **CDN Cache Hit Ratio** Splunk dashboard.
+1. Follow the steps from [Splunk dashboards for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/README.md) and make sure to import the **CDN Cache Hit Ratio** Splunk dashboard.
 1. If needed, update the _Index, Source Type and other_ filter values in the Splunk dashboard.
 
     ![Splunk Dashboard](assets/cdn-logs-analysis/splunk-CHR-dashboard.png){width="500" zoomable="yes"}

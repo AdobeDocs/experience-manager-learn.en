@@ -97,7 +97,7 @@ The **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling provided by 
 
 Customers who have [Splunk Log forwarding enabled](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/logging#splunk-logs) can create new dashboards to analyze the traffic patterns. 
 
-To create dashboards in Splunk, follow [Splunk dashboards for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/READEME.md#splunk-dashboards-for-aemcs-cdn-log-analysis) steps.
+To create dashboards in Splunk, follow [Splunk dashboards for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/README.md#splunk-dashboards-for-aemcs-cdn-log-analysis) steps.
 
 ### Looking at data
 
