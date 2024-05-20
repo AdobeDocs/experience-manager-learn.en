@@ -46,7 +46,7 @@ To download the CDN logs, follow these steps:
 
     ![Download Logs - Cloud Manager](assets/cdn-logs-analysis/download-logs.png){width="500" zoomable="yes"}
 
-1. In the **Download Logs** dialog, select the **Publish** Service from the drop-down menu, then click the download icon next to the **cdn** row.
+1. In the **Download Logs** dialog, select the **Publish** Service from the drop-down menu, then click the download icon next to the **CDN** row.
 
     ![CDN Logs - Cloud Manager](assets/cdn-logs-analysis/download-cdn-logs.png){width="500" zoomable="yes"}
 
@@ -61,7 +61,7 @@ To analyze the CDN logs, this tutorial presents three options:
 
 1. **Elasticsearch, Logstash, and Kibana (ELK)**: The [ELK dashboard tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/ELK/README.md) can be installed locally. 
 1. **Splunk**: The [Splunk dashboard tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/READEME.md) requires access to Splunk and [AEMCS log forwarding enabled](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/logging#splunk-logs) to ingest the CDN logs.
-1. [Jupyter Notebook](https://jupyter.org/): It can be accessed remotely as part of [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/data-science-workspace/jupyterlab/analyze-your-data) without installing additional software, for customers who have licensed Adobe Experience Platform.
+1. **Jupyter Notebook**: It can be accessed remotely as part of [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/data-science-workspace/jupyterlab/analyze-your-data) without installing additional software, for customers who have licensed Adobe Experience Platform.
 
 ### Option 1: Using ELK dashboard tooling
 
@@ -134,6 +134,10 @@ To identify the key details, let's use the [AEMCS-CDN-Log-Analysis-Tooling](http
 1. If needed, update the _Index, Source Type and other_ filter values in the Splunk dashboard.
 
     ![Splunk Dashboard](assets/cdn-logs-analysis/splunk-CHR-dashboard.png){width="500" zoomable="yes"}
+
+>[!NOTE]
+>
+>The UI and graphs in the splunk dashboard differ from the ELK dashboard, however, the key details are similar.
 
 ### Option 3: Using Jupyter Notebook
 

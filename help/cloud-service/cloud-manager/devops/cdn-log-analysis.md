@@ -61,4 +61,4 @@ You can get started using the [Splunk dashboards for AEMCS CDN Log Analysis](htt
 
 The [ELK stack](https://www.elastic.co/elastic-stack), comprising Elasticsearch, Logstash, and Kibana, is another powerful option for log analysis. It is useful for organizations that do not have access to a Splunk setup or log forwarding capabilities. Setting up the ELK stack locally is straightforward, the tooling provides the Docker Compose file to get started quickly. Then, you can import the pre-built dashboards and ingest the CDN logs that are downloaded using the Adobe Cloud Manager.
 
-You can get started using the [ELK Docker container for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/ELK/README.md#elk-docker-container-for-aemcs-cdn-log-analysis)
+You can get started using the [ELK Docker container for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/ELK/README.md#elk-docker-container-for-aemcs-cdn-log-analysis) guide.
