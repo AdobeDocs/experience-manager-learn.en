@@ -54,7 +54,7 @@ To quickstart the log analysis, Adobe provides pre-built dashboards for both Spl
 
 For organizations leveraging [Splunk](https://www.splunk.com/en_us/products/observability-cloud.html) and who have enabled AEMCS log forwarding to their Splunk instances can quickly import pre-built dashboards. This setup facilitates accelerated log analysis, providing actionable insights to optimize AEM implementations and mitigate security threats such as DOS attacks.
 
-You can get started using the [Splunk dashboards for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/READEME.md#splunk-dashboards-for-aemcs-cdn-log-analysis) guide.
+You can get started using the [Splunk dashboards for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/README.md#splunk-dashboards-for-aemcs-cdn-log-analysis) guide.
 
 
 ## ELK integration
