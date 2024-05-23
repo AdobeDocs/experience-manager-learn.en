@@ -87,7 +87,8 @@ team: TM
   + [Connected Assets](./sharing/connected-assets.md)
 
 + Creative Workflows{#creative-workflows}
-  + [Adobe Express](./creative-workflows/adobe-express.md)
+  + [Adobe Express integration](./creative-workflows/adobe-express.md)
+  + [Adobe Express and AEM Assets](./creative-workflows/adobe-express-aem-assets.md)
   + [AEM Desktop App](./creative-workflows/aem-desktop-app.md)
   + [Adobe Asset Link](./creative-workflows/adobe-asset-link.md)
   + [Adobe Stock](./creative-workflows/adobe-stock.md)
