@@ -255,6 +255,8 @@ team: TM
         + [Merge Data with Template](./forms/doc-gen-forms-cs/merge-data-with-template.md)
         + [Test the solution](./forms/doc-gen-forms-cs/test.md)
         + [Challenge](./forms/doc-gen-forms-cs/challenge.md)
+    + Using DocAssurance API{#doc-assurance-api}
+        +[Sample code snippets](./forms/doc-assurance-api/using-doc-assurance-api.md)
     + Document Generation using Batch API{#formscs-batch-api}
         + [Introduction](./forms/formscs-batch-api/introduction.md)
         + [Configure Azure Storage](./forms/formscs-batch-api/configure-azure-storage.md)
