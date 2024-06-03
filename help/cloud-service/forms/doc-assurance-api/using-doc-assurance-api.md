@@ -8,7 +8,7 @@ version: Cloud Service
 feature: Document Services
 topic: Development
 jira: KT-15508
-
+exl-id: 40617082-4d23-4c91-a016-2d947187052b
 ---
 # Using DocAssurance API
 

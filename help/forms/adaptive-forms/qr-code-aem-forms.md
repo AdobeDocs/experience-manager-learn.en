@@ -9,6 +9,7 @@ role: Developer
 level: Beginner
 jira: KT-15603
 last-substantial-update: 2024-05-28
+exl-id: 0c6079f4-601e-4a82-976c-71dbb2faa671
 ---
 # Sample QR Code component
 
@@ -59,5 +60,3 @@ $(document).ready(function()
 * [Download and install the QR code component using Package Manager.](assets/qrcode.zip)
 * [Download and install the sample adaptive form using Package Manager.](assets/form-with-qr-code.zip)
 * [Preview the form](http://localhost:4502/content/dam/formsanddocuments/qrcode/w9form/jcr:content?wcmmode=disabled). The help section of the form has the QR code.
-
-

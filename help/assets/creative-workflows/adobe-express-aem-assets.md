@@ -10,6 +10,7 @@ last-substantial-update: 2024-05-23
 jira: KT-15375
 doc-type: Feature Video
 duration: 583
+exl-id: 951bb255-e3e7-4bd5-9d48-7ff0469860af
 ---
 # Adobe Express integration with AEM Assets
 
