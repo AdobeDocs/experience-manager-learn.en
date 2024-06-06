@@ -96,7 +96,7 @@ It is a best practice to trigger any custom code based on an event from the data
 
     ```js
     function teaserShownHandler(event) {
-        var dataObject = getDataObjectHelper(event, {"@type": "wknd/components/teaser"});
+        var dataObject = getDataObjectHelper(event, {"@type": "wknd/components/carousel/item"});
         if(dataObject != null) {
             console.log("Teaser Shown: " + dataObject['dc:title']);
             console.log(dataObject);
@@ -104,7 +104,7 @@ It is a best practice to trigger any custom code based on an event from the data
     }
     ```
 
-    The `teaserShownHandler` function calls the `getDataObjectHelper` function and passes a filter of `wknd/components/teaser` as the `@type` to filter out events triggered by other components.
+    The `teaserShownHandler` function calls the `getDataObjectHelper` function and passes a filter of `wknd/components/carousel/item` as the `@type` to filter out events triggered by other components.
 
 1.  Next, push an event listener onto the data layer to listen for the `cmp:show` event.
 
