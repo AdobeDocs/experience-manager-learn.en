@@ -84,7 +84,6 @@ team: TM
     + [Set up Asset Share Commons on local AEM](./sharing/asset-share-commons-technical-video-setup.md)
     + [Theming Asset Share Commons](./sharing/asset-share-commons-feature-video-theming.md)
     + [Asset Share Commons Asset kits](./sharing/asset-share/asset-share-commons-asset-kits.md)
-  + [Connected Assets](./sharing/connected-assets.md)
 
 + Creative Workflows{#creative-workflows}
   + [Adobe Express integration](./creative-workflows/adobe-express.md)
@@ -124,7 +123,6 @@ team: TM
     + [Custom Video Thumbnails](dynamic-media/dynamic-media-video-thumbnails-feature-video-use.md)
     + [DASH adaptive streaming](dynamic-media/dynamic-media-dash.md)
     + [Dynamic Media Smart Crop Video](dynamic-media/dynamic-media-smart-crop-video.md)
-    + [Interactive Video](dynamic-media/dynamic-media-interactive-video-feature-video-use.md)
     + [Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
   + Viewers {#viewers} 
     + [Viewers](dynamic-media/dynamic-media-viewer-feature-video-understand.md)
