@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 jira: KT-15714
 last-substantial-update: 2023-06-06
+exl-id: 5492dc7b-f034-4a7f-924d-79e083349e26
 ---
-
 # Github.com webhook verification
 
 Webhooks allow you to build or set up integrations that subscribe to certain events on GitHub.com. When one of those events is triggered, GitHub sends an HTTP POST payload to the webhook's configured URL. However, for security reasons, it is important to verify that the incoming webhook request is actually from GitHub and not from a malicious actor. This tutorial guides you through the steps to verify a GitHub.com webhook request in an Adobe App Builder action using a shared secret.
