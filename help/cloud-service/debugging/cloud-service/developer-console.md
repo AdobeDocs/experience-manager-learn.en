@@ -34,13 +34,21 @@ Developer Console is accessed per AEM as a Cloud Service environment via Cloud M
 
 To access and use the Developer Console the following permissions must be given to the developer's Adobe ID via [Adobe's Admin Console](https://adminconsole.adobe.com).
 
-1. Ensure the Adobe Org that has effected Cloud Manger and AEM as a Cloud Service products is active in the Adobe Org switcher.
-1. The developer must be a member of the [Cloud Manager Product's __Developer - Cloud Service__ Product Profile](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-cloud-manager.html#assign-developer).
-    + If this membership does not exist, the developer will not be able to log in to Developer Console.
+1. Ensure the in the Adobe Org switcher, you can see the Adobe Org related to the environments you want to inspect in the Developer Console.
+1. To be able to login in to the Developer Console, the developer must be a member of any of the following roles:
+    + [Cloud Manager Product's __Developer - Cloud Service__ Product Profile](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-cloud-manager.html#assign-developer): In this case, the developer will see the full list of environments available under the selected Developer Console URL; if a Development environment or RDE had been selected in Cloud Manager, other Development environment or RDEs in that same Program may appear.
+    + [__AEM Administrators__ Product Profile on __AEM Author__](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-aem.html#aem-product-profiles): In this case, the list of environments described in the previous bullet  will be limited to the related product profiles where this role is assigned.
 1. The developer must be a member of the [__AEM Users__ or __AEM Administrators__ Product Profile on AEM Author and/or Publish](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-aem.html#aem-product-profiles). 
     + If this membership does not exist, the [status](#status) dumps will timeout with a 401 Unauthorized error.
 
 ### Troubleshooting Developer Console access
+
+#### When I login I do not see listed the environment I'm looking for
+
+Ensure the following:
+
++ You have selected the correct Developer Console URL by clicking on the three dots for the selected environment via Cloud Manager and select Developer Console.
++ You either have [Cloud Manager Product's __Developer - Cloud Service__ Product Profile](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-cloud-manager.html#assign-developer) to see the full list of environments or you are part of the [__AEM Administrators__ Product Profile on __AEM Author__](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-aem.html#aem-product-profiles) for the environment you do not find. 
 
 #### 401 Unauthorized error when dumping status
 
