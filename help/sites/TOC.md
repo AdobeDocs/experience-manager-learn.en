@@ -21,6 +21,7 @@ version: 6.4, 6.5, Cloud Service
   + [Redirects](document-authoring/redirects.md)
   + [Bulk metadata](document-authoring/bulk-metadata.md)
   + [Page metadata](document-authoring/page-metadata.md)
+  + [Author authentication](document-authoring/author-authentication.md)
   + How to{#how-to}
     + [Document audit](./document-authoring/how-to/document-audit.md)
     + [Document permissions](./document-authoring/how-to/document-permissions.md)
@@ -30,6 +31,10 @@ version: 6.4, 6.5, Cloud Service
     + [Image alt text](./document-authoring/how-to/image-alt-text.md)
     + [Prevent search engine indexing](./document-authoring/how-to/no-index.md)
     + [Responsive navigation](document-authoring/how-to/responsive-navigation.md)
+    + [Dynamic Media](./document-authoring/how-to/using-dynamic-media.md)
+    + [Site migration using Importer](./document-authoring/how-to/migration-using-importer.md)
+    + [Customizing the Importer](./document-authoring/how-to/customizing-importer.md)
+    + [Bulk importing using Importer](./document-authoring/how-to/bulk-importing-using-importer.md)
     + Generate Variations{#generate-variations}
       + [Overview](./document-authoring/how-to/generate-variations/overview.md)
       + [Configure Sidekick](./document-authoring/how-to/generate-variations/configure-sidekick.md)
