@@ -179,6 +179,16 @@ The AEM Project Archetype automatically sets up this integration. Next, explore 
     >
     >`npm install` run is needed only once, like after a new clone or generation of the project.
 
+1. Open `ui.frontend/package.json` and in the **scripts** **start** command add `--env writeToDisk=true`.
+
+    ```json
+    {
+      "scripts": { 
+        "start": "webpack-dev-server --open --config ./webpack.dev.js --env writeToDisk=true",
+      }
+    }
+    ```
+
 1. Start the webpack dev server in **watch** mode by running the following command:
 
     ```shell
