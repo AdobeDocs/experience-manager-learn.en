@@ -1,6 +1,6 @@
 ---
 title: Generate Variations - Trust and Privacy in Edge Delivery Services
-description: Exploring how Adobe handles trust and privacy for Generate Variations in Edge Delivery Services document authoring.
+description: Explore how Adobe handles trust and privacy for Generate Variations in Edge Delivery Services document authoring.
 version: Cloud Service
 feature: Authoring
 topic: Content Management
@@ -14,6 +14,6 @@ exl-id: b105e133-b026-4c2b-b166-eda48e4b5b16
 ---
 # Generate Variations - Trust and Privacy in Edge Delivery Services
 
-Exploring how Adobe handles trust and privacy for Generate Variations in Edge Delivery Services document authoring.
+Explore how Adobe handles trust and privacy for Generate Variations in Edge Delivery Services document authoring.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3429060/?learn=on)
