@@ -75,7 +75,6 @@ team: TM
   
   + Brand Portal{#brand-portal}
     + [Brand Portal](./sharing/brand-portal.md)
-    + [Configure AEM Brand Portal](brand-portal/configure.md)
     + [Configure Asset Sourcing](brand-portal/configure-asset-sourcing.md)
     + [Enable Rendition Downloads](brand-portal/enable-renditions-download.md)
 
