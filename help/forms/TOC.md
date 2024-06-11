@@ -298,6 +298,10 @@ index: y
   + [Using scribble signature](forms-designer/scribble-signature-form.md)
   + [Using digital signature](forms-designer/adding-dig-signature-field.md)
   + [Reader extending form](forms-designer/reader-extending-j2ee.md)
++ AEM Forms Workbench{#forms-workbench}
+  + [Introduction to Workbench](aem-forms-workbench/workbench-introduction.md)
+  + [Creating form process](aem-forms-workbench/workbench-creating-a-process.md)
+  + [Debuggin process](aem-forms-workbench/workbench-recording-and-testing-process.md)
 + Interactive Communications for Print Channel 
 {#ic-print-channel-tutorial}
   + [1 - Introduction](ic-print-channel-tutorial/introduction.md)
