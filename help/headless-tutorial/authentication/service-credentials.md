@@ -17,6 +17,8 @@ duration: 881
 
 Integrations with Adobe Experience Manager (AEM) as a Cloud Service must be able to securely authenticate to AEM service. AEM's Developer Console grants access to Service Credentials, which are used to facilitate external applications, systems and services to programmatically interact with AEM Author or Publish services over HTTP.
 
+AEM integrates with other Adobe products using [S2S OAuth managed via the Adobe Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/setting-up-ims-integrations-for-aem-as-a-cloud-service). For custom integrations with service accounts, JWT credentials are used and managed in the AEM Developer Console.
+
 >[!VIDEO](https://video.tv.adobe.com/v/330519?quality=12&learn=on)
 
 Service Credentials may appear similar [Local Development Access Tokens](./local-development-access-token.md) but are different in a few key ways:
