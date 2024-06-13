@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Value Video
 last-substantial-update: 2024-06-11
 jira: KT-15638
-
+exl-id: d384627c-4b2f-4850-a599-e2b0e8f53320
 ---
 # Record and playback Workbench process
 

@@ -10,8 +10,8 @@ doc-type: Technical Video
 duration: 104
 last-substantial-update: 2024-06-07
 jira: KT-15673
+exl-id: 6a722682-7d9e-4ef0-abd7-5fce27601d3a
 ---
-
 # Using Dynamic Media in Edge Delivery Services
 
 {{edge-delivery-services}}

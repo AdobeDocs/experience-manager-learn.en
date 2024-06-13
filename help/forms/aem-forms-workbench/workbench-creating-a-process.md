@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Value Video
 last-substantial-update: 2024-06-11
 jira: KT-15637
-
+exl-id: cc266378-ad34-471c-a5e4-f9abae9069ee
 ---
 # Creating a simple forms process in Workbench
 

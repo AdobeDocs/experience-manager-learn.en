@@ -10,8 +10,8 @@ doc-type: Technical Video
 duration: 89
 last-substantial-update: 2024-06-07
 jira: KT-15674
+exl-id: 12738182-69e4-43a7-adf9-7771b0d92773
 ---
-
 # Author Authentication
 
 {{edge-delivery-services}}

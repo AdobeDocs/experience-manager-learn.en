@@ -10,8 +10,8 @@ doc-type: Technical Video
 duration: 208
 last-substantial-update: 2024-06-07
 jira: KT-15677
+exl-id: 8c40c16d-b5c4-4796-aae8-dfb838de574f
 ---
-
 # Bulk importing using the Importer
 
 {{edge-delivery-services}}
