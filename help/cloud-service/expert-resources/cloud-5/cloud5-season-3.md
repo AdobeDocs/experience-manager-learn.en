@@ -139,5 +139,19 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore the new Generative AI features available in AEM Sites document authoring.
             </p>
         </td>                
+        <td>
+            <a href="./season-3/cloud5-exploring-universal-editor.md">
+                <img alt="Exploring Universal Editor" src="https://video.tv.adobe.com/v/3429656?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-exploring-universal-editor.md">
+                <strong>Exploring Universal Editor</strong></a>        
+                <br/><em>with James Talbot & Dirk Rudolph, AEM Engineering</em>
+            </div>
+            <p>
+                <br/>                
+                 Learn about Universal Editor and AEM with Edge Delivery Services.
+            </p>
+        </td>                    
     </tr>      
 </table>
