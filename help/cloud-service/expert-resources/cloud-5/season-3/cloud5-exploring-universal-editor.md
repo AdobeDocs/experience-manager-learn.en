@@ -10,8 +10,8 @@ doc-type: Technical Video
 duration: 532
 last-substantial-update: 2024-06-13
 jira: KT-15715
+exl-id: 2f029feb-7273-48e4-91a4-2ac0bf697356
 ---
-
 # Exploring the Universal Editor
 
 Dirk Rudolph from AEM engineering is interviewed about the Universal Editor and how it works with Edge Delivery Services and AEM.
