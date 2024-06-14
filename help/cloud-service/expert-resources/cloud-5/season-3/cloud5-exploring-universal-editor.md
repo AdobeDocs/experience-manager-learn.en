@@ -7,6 +7,8 @@ topic: Development
 role: Developer, Leader, User
 level: Beginner, Intermediate, Experienced
 doc-type: Technical Video
+hidefromtoc: yes
+recommendations: noDisplay, noCatalog
 duration: 532
 last-substantial-update: 2024-06-13
 jira: KT-15715
