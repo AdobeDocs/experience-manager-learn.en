@@ -12,8 +12,8 @@ recommendations: noDisplay, noCatalog
 duration: 388
 last-substantial-update: 2024-06-13
 jira: KT-15734
+exl-id: 6650922d-755c-466e-a882-4f6038839125
 ---
-
 # Cloud 5 - Real User Monitoring (RUM) Explorer
 
 Learn about Real User Monitoring (RUM) Explorer and how to get access to it.
