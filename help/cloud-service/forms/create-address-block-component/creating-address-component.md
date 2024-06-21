@@ -1,5 +1,5 @@
 ---
-title: Creating address component 
+title: Creating address component
 description: Creating new address core component in AEM Forms Cloud Service
 type: Documentation
 role: Developer
@@ -8,9 +8,8 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 jira: KT-15752
-
+exl-id: 280c9a30-e017-4bc0-9027-096aac82c22c
 ---
-
 # Create address component
 
 Login to CRXDE of your local cloud ready instance of AEM Forms.
@@ -71,7 +70,3 @@ The final addressblock component will look like this
 ## Next Steps
 
 [Deploy the project](./deploy-your-project.md)
-
-
-
-

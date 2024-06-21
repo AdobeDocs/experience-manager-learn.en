@@ -1,5 +1,5 @@
 ---
-title: Creating address component 
+title: Creating address component
 description: Creating new address core component in AEM Forms Cloud Service
 type: Documentation
 role: Developer
@@ -8,9 +8,8 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 jira: KT-15752
-
+exl-id: 6f2b280d-c2b5-4b75-88e4-2296329d69e7
 ---
-
 # Set up development environment
 
 If you already have set up the development environment, you can safely skip this part of the tutorial.
@@ -26,4 +25,3 @@ If you already have set up the development environment, you can safely skip this
 ## Next Steps
 
 [Create address component](./creating-address-component.md)
-

@@ -1,5 +1,5 @@
 ---
-title: Creating address component 
+title: Creating address component
 description: Creating new address core component in AEM Forms Cloud Service
 type: Documentation
 role: Developer
@@ -8,9 +8,8 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 jira: KT-15752
-
+exl-id: 21b6640e-5cfa-4902-9660-a2b1c91b285d
 ---
-
 # Creating new core component in AEM Forms
 
 In Adobe Experience Manager (AEM), components are the building blocks used to create pages and forms. They provide a simple and powerful way for authors to create and manage content, while also providing developers with the flexibility and extensibility needed to create custom components. These are designed to speed up development time and reduce maintenance costs for websites and forms, be flexible and can be easily customized to match the specific needs of a website and form.
