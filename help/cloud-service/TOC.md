@@ -243,6 +243,11 @@ team: TM
         + [1 - Introduction](./forms/custom-submit-headless-forms/introduction.md)
         + [2 - Create custom submit service](./forms/custom-submit-headless-forms/custom-submit-service.md)
         + [3 - Display the response](./forms/custom-submit-headless-forms/handle-response-react-app.md)
+    + Create address block component{#create-address-block}
+        + [1 - Introduction](./forms/create-address-block-component/introduction.md)
+        + [2 - Setup](./forms/create-address-block-component/set-up.md)
+        + [3 - Create component](./forms/create-address-block-component/creating-address-component.md)
+        + [4 - Deploy component](./forms/create-address-block-component/deploy-your-project.md)
     + AEM Forms and Analytics{#forms-and-analytics}
         + [Introduction](./forms/form-data-analytics/introduction.md)
         + [Create Data Elements](./forms/form-data-analytics/data-elements.md)
