@@ -51,6 +51,7 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore Real User Monitoring (RUM) works with Edge Delivery Services.
             </p>
         </td>   
+        <!--
         <td>
             <a href="./season-3/cloud5-rum-explorer.md">
                 <img alt="Real User Monitoring (RUM) Explorer" src="https://video.tv.adobe.com/v/3429772?format=jpeg"/>
@@ -65,6 +66,7 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Learn about Real User Monitoring (RUM) Explorer and how to access it.
             </p>
         </td>   
+        -->
         <td>
             <a href="./season-3/cloud5-edge-workers.md">
                 <img alt="Edge workers" src="https://video.tv.adobe.com/v/3427589?format=jpeg"/>

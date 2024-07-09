@@ -399,7 +399,6 @@ team: TM
     + Season 3{#season-3}
       + [3rd Party Search](./expert-resources/cloud-5/season-3/cloud5-3rd-party-search.md)
       + [Real User Monitoring (RUM)](./expert-resources/cloud-5/season-3/cloud5-rum.md)
-      + [Real User Monitoring (RUM) Explorer](./expert-resources/cloud-5/season-3/cloud5-rum-explorer.md)
       + [Edge workers](./expert-resources/cloud-5/season-3/cloud5-edge-workers.md)
       + [Publish, unpublish events in Edge Delivery Services](./expert-resources/cloud-5/season-3/cloud5-publish-events.md)
       + [Query indexes and Excel formulas](./expert-resources/cloud-5/season-3/cloud5-query-indexes.md)
