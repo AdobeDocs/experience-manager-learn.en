@@ -25,7 +25,7 @@ Learn how to use the import and export metadata features of Adobe Experience Man
 >
 > When opening metadata export CSV file in Excel, use the [Excel importer](https://support.microsoft.com/en-us/office/import-data-from-a-csv-html-or-text-file-b62efe49-4d5b-4429-b788-e1211b5e90f6) rather than double-clicking the file to avoid issues with UTF-8 encoded CSV files.
 >
-> To import the metadata export CSV to Excel, follow these steps:
+> To open the metadata export CSV file in Excel, follow these steps:
 > 
 > 1. Open Microsoft Excel 
 > 1. Select __File > New__ to create an empty spreadsheet
