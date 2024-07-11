@@ -21,13 +21,29 @@ Learn how to use the import and export metadata features of Adobe Experience Man
 
 >[!VIDEO](https://video.tv.adobe.com/v/22132?quality=12&learn=on)
 
+>[!TIP]
+>
+> When opening metadata export CSV file in Excel, use the [Excel importer](https://support.microsoft.com/en-us/office/import-data-from-a-csv-html-or-text-file-b62efe49-4d5b-4429-b788-e1211b5e90f6) rather than double-clicking the file to avoid issues with UTF-8 encoded CSV files.
+>
+> To import the metadata export CSV to Excel, follow these steps:
+> 
+> 1. Open Microsoft Excel 
+> 1. Select __File > New__ to create an empty spreadsheet
+> 1. With the empty spreadsheet open, select __File > Import__
+> 1. Select __Text__ file and click __Import__
+> 1. Select the exported CSV file from the file system and click __Get Data__
+> 1. On step 1 of the import wizard, select __Delimited__ and set __File origin__ to __Unicode (UTF-8)__, and click __Next__
+> 1. On step 2, set the __Delimiters__ to __Comma__, and click __Next__
+> 1. On step 3, leave the __Column data format__ as is, and click __Finish__
+> 1. Select __Import__ to add the data to spreadsheet 
+
 ## Metadata Import {#metadata-import}
 
 >[!VIDEO](https://video.tv.adobe.com/v/21374?quality=12&learn=on)
 
 >[!NOTE]
 >
-> When preparing a CSV file to import, it is easier to generate a CSV with the list of assets by using the Metadata Export feature. You can then modify the generated CSV file and import it using the Import feature.
+> When preparing a CSV file to import, it is easier to generate a CSV with the list of assets by using the Metadata Export feature. You can then modify the generated CSV file and import it using the Import feature. 
 
 ## Metadata CSV File Format {#metadata-file-format}
 
