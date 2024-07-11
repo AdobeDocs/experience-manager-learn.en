@@ -10,7 +10,7 @@ feature: Assets Essentials
 team: TM
 ---
 
-# AEM Assets Essentials Videos {#assets-essentials}
+# AEM Assets Essentials videos {#assets-essentials}
 
 + [Overview](overview.md)
 
@@ -28,6 +28,7 @@ team: TM
   + [My workspace](configuring/my-workspace.md)
   + [Metadata forms](configuring/metadata-forms.md)
   + [Permissions management](configuring/permissions-management.md)
+  + [Taxonomy management](configuring/taxonomy-management.md)
 
 + [Creative Cloud integration](integrations/creative-cloud.md)
 
