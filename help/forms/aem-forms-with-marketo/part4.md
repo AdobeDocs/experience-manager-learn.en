@@ -11,13 +11,17 @@ badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 6b44e6b2-15f7-45b2-8d21-d47f122c809d
 duration: 68
 ---
-# Creating Adaptive Form using Form Data Model
+# Test the integration
 
-The next step is to create an Adaptive Form and base it on the  Form Data Model created in the earlier step.
-The user enters the Lead Id  and on tabbing out the Marketo service to get the leads by id is invoked. The results of the service operation are then mapped to the appropriate fields of the Adaptive Forms.
+We will test the integraton by creating a simple form fetch and display a Lead object from Market.
+>[!NOTE]
+>
+>This functionality was tested on form based on foundation components.
+
+## Create Adaptive Form
 
 1. Create an Adaptive Form and base it on "Blank Form Template", associate it with the Form Data Model created in the earlier step.
-1. Open the form in edit mode
+1. Open the form in edit mode.
 1. Drag and drop a TextField component and a Panel component on to the Adaptive Form. Set the title of  the TextField component "Enter Lead Id" and set its name to "LeadId"
 1. Drag and drop 2 TextField components on to the Panel component
 1. Set the Name and Title of the 2 Textfield components as FirstName and LastName
@@ -29,12 +33,6 @@ The following screenshot explains the rule editor settings
 
 ![ruleeditor](assets/ruleeditor.png)
 
-## Debugging
-
-If you are using the bundles provided with this article, you may want to enable [debug logs](http://localhost:4502/system/console/slinglog) for the following classes:
-
-+ `com.marketoandforms.core.impl.MarketoServiceImpl`
-+ `com.marketoandforms.core.MarketoConfigurationService`
 
 ## Congratulations
 
