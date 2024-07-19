@@ -85,7 +85,7 @@ Yes, it is possible but requires careful planning regarding:
     + Verify whether it's acceptable to migrate all the assets as part of one migration set and then bring sites that are using them in phases
 +   In the current state, the author ingestion process makes the author instance unavailable for content authoring even though publish tier can still serve the content
     + This means until the ingestion completes into author, content-authoring activities are frozen
-+   Users are no longer migrated, though groups are
++   Users are no longer migrated, though groups are.
 
 Please review the Top up extraction and ingestion process as documented before planning the migrations.
 
