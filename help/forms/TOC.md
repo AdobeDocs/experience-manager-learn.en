@@ -234,8 +234,8 @@ index: y
   + [Part2 - Creating Custom Template](listing-custom-asset-types/part2.md)
 + AEM Forms With Marketo{#aem-forms-with-marketo}
   + [Part1- Introduction](aem-forms-with-marketo/part1.md)
-  + [Part2 - Custom Authentication](aem-forms-with-marketo/part2.md)
-  + [Part3 - Data Source](aem-forms-with-marketo/part3.md)
+  + [Part2 - Data Source](aem-forms-with-marketo/part2.md)
+  + [Part3 - Form Data Model](aem-forms-with-marketo/part3.md)
   + [Part4 - Putting it all together](aem-forms-with-marketo/part4.md)
 
 + AEM Forms with Adobe Campaign Standard{#aem-forms-with-adobe-campaign}

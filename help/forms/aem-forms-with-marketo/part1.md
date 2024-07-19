@@ -41,7 +41,6 @@ The first step in the integration of Marketo with AEM Forms is to obtain the API
 1. client_id
 1. client_secret
 1. identity_endpoint
-1. authentication URL
 
 [Please follow the official Marketo documentation to get the above-mentioned properties.](https://developers.marketo.com/rest-api/) Alternatively, you can also contact the administrator of your Marketo instance.
 

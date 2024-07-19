@@ -11,26 +11,9 @@ badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 7096340b-8ccf-4f5e-b264-9157232e96ba
 duration: 78
 ---
-# Configure Data Source
+# Create Form Data Model
 
-AEM Forms Data Integration allows you to configure and connect to disparate data sources. The following types are supported out-of-the-box. However, with a little customization, you can integrate with other data sources as well.
-
-1. Relational databases - MySQL, Microsoft SQL Server, IBM DB2, and Oracle RDBMS
-1. AEM user profile
-1. RESTful web services
-1. SOAP-based web services
-1. OData services
-
-For the integrating AEM Forms with Marketo, we are using RESTful web services. The first step in integrating is to configure a [data source.](https://helpx.adobe.com/experience-manager/6-4/forms/using/configure-data-sources.html#ConfigureRESTfulwebservices) Please use the swagger file provided as part of this tutorial. The following screenshot shows you the important properties that need to be specified while configuring the data source.
-![datasource](assets/datasource.png)
-
-The "marketo.json" is the swagger file and is provided to you as part of this tutorial's assets.
-Property Host is specific to your Marketo instance.
-Authentication Type is custom and Authentication Implementation has to match "AemForms With Marketo". (Unless you have changed this in your code).
-
-## Create Form Data Model
-
-After, configuring the data source the next step is to create a Form Data Model which is based on the data source configured in the earlier step. To create Form Data Model please follow the following steps:
+After configuring the data source the next step is to create a Form Data Model based on the data source configured in the earlier step. To create Form Data Model please follow the following steps:
 
 Point your browser to the [data integrations page.](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-fdm) This lists all the data integrations created on your AEM instance. 
 
