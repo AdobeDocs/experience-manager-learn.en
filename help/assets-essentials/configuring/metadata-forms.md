@@ -1,20 +1,18 @@
 ---
-title: Assets Essentials Metadata Forms
-description: Learn how Assets Essentials Metadata Forms can be quickly and easily configured to tailor asset metadata.
+title: Metadata Forms
+description: Learn how AEM Assets Metadata Forms can be quickly and easily configured to tailor asset metadata.
 version: Cloud Service
-feature: Assets Essentials
 topic: Content Management
 role: Admin
 level: Beginner
-jira: KT-10230
-thumbnail: 342154.jpeg
-last-substantial-update: 2022-10-10
+jira: KT-15654
+last-substantial-update: 2024-07-19
 doc-type: Feature Video
 exl-id: 9e68efbb-38bd-4538-b899-5fd356c9322d
-duration: 648
+duration: 489
 ---
-# Metadata Forms in Assets Essentials
+# Metadata Forms
 
-Learn how Assets Essentials Metadata Forms can be quickly and easily configured to tailor asset.
+Learn how Metadata Forms can be quickly and easily configured to tailor the asset metadata available in AEM Assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/342154?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3431686?quality=12&learn=on)

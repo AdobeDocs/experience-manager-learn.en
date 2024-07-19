@@ -15,6 +15,6 @@ duration: 161
 ---
 # Public link sharing
 
-Learn how Assets Essentials' Share Link allows users to share assets with internal and external stakeholders while minimizing the risk of sharing wrong assets or information.
+Learn how AEM Assets' Share Link allows users to share assets with internal and external stakeholders while minimizing the risk of sharing wrong assets or information.
 
 >[!VIDEO](https://video.tv.adobe.com/v/341025?quality=12&learn=on)

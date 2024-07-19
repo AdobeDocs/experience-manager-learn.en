@@ -13,8 +13,8 @@ doc-type: Feature Video
 exl-id: d4d80678-e2e2-4e17-8ce5-6db8651ae59e
 duration: 428
 ---
-# Permissions management in Assets Essentials
+# Permissions management
 
-Learn how AEM Assets Essentials permission management allows organizations to control access to assets, protect their brand, and ensure compliance. 
+Learn how AEM Assets permission management allows organizations to control access to assets, protect their brand, and ensure compliance. 
 
 >[!VIDEO](https://video.tv.adobe.com/v/342113?quality=12&learn=on)
