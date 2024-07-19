@@ -13,7 +13,7 @@ doc-type: Feature Video
 exl-id: 394fc981-9593-492d-9961-b81a627730b1
 duration: 635
 ---
-# Managing Assets Essentials
+# Managing Assets view
 
 Learn the basics of creating a folder structure, and basic operations such as move, copy and rename.
 

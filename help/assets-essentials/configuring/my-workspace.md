@@ -13,7 +13,7 @@ doc-type: Feature Video
 exl-id: da9363f3-43a9-4396-b8e8-15267fd7a689
 duration: 143
 ---
-# My Workspace in Assets Essentials
+# My Workspace
 
 Learn how to work more efficiently using My Workspace's user-configurable widgets.
 

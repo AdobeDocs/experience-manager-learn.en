@@ -13,7 +13,7 @@ doc-type: Feature Video
 exl-id: 0de60565-1a73-4642-a3b9-1625e25ea2dc
 duration: 357
 ---
-# Collaboration in Assets Essentials
+# Collaboration
 
 Learn how to collaborate on asset management using comments, annotations and tasks.
 

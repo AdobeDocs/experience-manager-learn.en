@@ -13,7 +13,7 @@ doc-type: Feature Video
 exl-id: 18e600b6-bc4f-4045-a932-ed72d4ed3ef3
 duration: 435
 ---
-# Creating content using Assets Essentials
+# Creating content
 
 Learn how to upload assets, create versions and even edit assets using Adobe Photoshop Express.
 
