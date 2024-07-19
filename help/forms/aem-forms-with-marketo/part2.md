@@ -44,4 +44,4 @@ Marketo's REST APIs are authenticated with 2-legged OAuth 2.0. We can easily cre
 
 ## Next Steps
 
-[Create RESTful service based data source](./part3.md)
+[Create Form Data Model](./part3.md)
