@@ -274,6 +274,7 @@ index: y
   + [Using Watched Folder in AEM Forms](document-services/watched-folders-document-services-article-use.md)
   + [Using Barcode Service in AEM Forms](document-services/barcode-service-adaptive-forms-article.md)
   + [Using PDFG Service in AEM Forms](document-services/using-pdfg-in-aem-forms.md)
+  + [Encrypt PDF with permissions password](document-services/encrypt-pdf-permissions-password.md)
   + [Using Output and Forms Service in AEM Forms](document-services/output-and-forms-services-article-develop.md)
   + [Using xdp fragments in output service](document-services/using-fragments-in-output-service.md)
   + [ECMA script to generate pdf with fragments](document-services/using-fragments-in-output-service-watched-folder.md)
