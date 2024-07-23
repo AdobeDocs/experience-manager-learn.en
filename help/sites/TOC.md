@@ -106,6 +106,7 @@ version: 6.4, 6.5, Cloud Service
   + [Responsive breakpoints](developing/responsive-breakpoints.md)
   + [Developing with the Style System](developing/style-system-technical-video-understand.md)
   + [Style System Best Practices](developing/style-organization-style-system-understand-article.md)
+  + [Accelerate content velocity with AEM style systems](developing/accelerate-content-velocity-aem-style-system.md)
   + [Developing for Page Difference](developing/page-diff-technical-video-develop.md)
   + [Implementing Simple Search](developing/search-tutorial-develop.md)
   + [Social Media Sharing](developing/social-media-sharing-technical-video-use.md)
