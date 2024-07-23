@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 jira: KT-15849
 last-substantial-update: 2024-07-19
-
+exl-id: 5df8581c-a44c-449c-bf3b-8cdf57635c4d
 ---
 # Encrypt PDF with a permission password
 
