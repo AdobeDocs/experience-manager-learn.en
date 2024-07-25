@@ -277,6 +277,10 @@ team: TM
         + [PDF/A Utilities](./forms/forms-cs-assembler/pdfa-utilities.md)
         + [Test the solution](./forms/forms-cs-assembler/test.md)
         + [Challenge](./forms/forms-cs-assembler/challenge.md)
+    + Integrate with Marketo{#froms-cs-with-marketo}
+        + [Introduction](./forms/forms-cs-with-marketo/part1.md)
+        + [Create Data Source](./forms/forms-cs-with-marketo/part2.md)
+        + [Create Form Data Model](./forms/forms-cs-with-marketo/part3.md)
     + Store Form Submissions with Blob Index Tags{#store-submiited-data-with-metadata-tags}
         + [Introduction](./forms/store-submiited-data-with-metadata-tags/introduction.md)
         + [Extend choice group component](./forms/store-submiited-data-with-metadata-tags/extend-choice-group-components.md)
