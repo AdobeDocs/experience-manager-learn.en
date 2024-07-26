@@ -36,10 +36,6 @@ Let's look at some additional, recommended measures that customers can take to p
 - Configure **alerts** on rate limit traffic filter rules through an "alert action" so when the rule is triggered, an Actions Center notification is sent.
 - Increase cache coverage by declaring **request transformations** to ignore query parameters.
 
->[!NOTE]
->
->The [traffic filter rule alerts](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf#traffic-filter-rules-alerts) feature has not yet been released. To gain access through the early adopter program, email **<aemcs-waf-adopter@adobe.com>**.
-
 ### Rate Limit Traffic Rules Variations {#rate-limit-variations}
 
 There are two variations of rate limit traffic rules:
@@ -66,7 +62,6 @@ As mentioned previously, Adobe by default blocks traffic at the CDN that exceeds
 Ideally, you would configure the rules before going live to production. In practice, many organizations reactively declare rules only once alerted to a traffic spike indicating a likely attack.
 
 Adobe sends a traffic spike at origin alert as an [Actions Center Notification](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/actions-center) when a default threshold of traffic from a single IP address is exceeded, for a given PoP. If you received such an alert, it is recommended to configure a rate limit traffic filter rule. This default alert is different from the alerts that must be explicitly enabled by customers when defining traffic filter rules, which you will learn about in a future section.
-
 
 ## Analyzing traffic patterns {#analyze-traffic}
 
