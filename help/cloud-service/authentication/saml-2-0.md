@@ -436,6 +436,107 @@ After successful authentication to the IDP, the IDP will orchestrate an HTTP POS
 
 If URL rewriting at the Apache webserver is configured (`dispatcher/src/conf.d/rewrites/rewrite.rules`), ensure that requests to the `.../saml_login` end points are not accidentally mangled.
 
+### How to enable Dynamic Group Membership for SAML Users in new environments
+
+To significantly enhance group evaluation performance in new AEM as a Cloud Service environments, the activation of the Dynamic Group Membership feature is recommended in new environments. 
+This is also a necessary step when data synchronization is activated. More details [here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier) .
+To do this, add the following property to the OSGI configuration file:  
+
+`/apps/example/osgiconfig/config.publish/com.adobe.granite.auth.saml.SamlAuthenticationHandler~example.cfg.json`
+
+With this configuration, users and groups are created as [Oak External Users](https://jackrabbit.apache.org/oak/docs/security/authentication/identitymanagement.html). In AEM, external users and groups have a default `rep:principalName` composed by `[user name];[idp]` or `[group name];[idp]`.
+Remark that Access Control Lists (ACL) are associated with the PrincipalName of users or groups.
+When deploying this configuration in an existing deployment where previously `identitySyncType` was not specified or set to `default`, new users and groups will be created and ACL must be applied to these new users and groups. Note that external groups cannot contain local users. [Repoinit](https://sling.apache.org/documentation/bundles/repository-initialization.html) can be used to create ACL for SAML External groups, even if they will be only created when the user will perform a login.
+To avoid this refactoring on ACL, a standard [migration feature](#automatic-migration-to-dynamic-group-membership-for-existing-environments) has been implemented.
+
+### How memberships are stored in local and external groups with dynamic group membership
+
+On local groups the group members are stored in the oak attribute: `rep:members`. The attribute contains the list of uid of every member of the group. Additional details can be found [here](https://jackrabbit.apache.org/oak/docs/security/user/membership.html#member-representation-in-the-repository).
+Example:
+
+```
+{
+  "jcr:primaryType": "rep:Group",
+  "rep:principalName": "operators",
+  "rep:managedByIdp": "SAML",
+  "rep:members": [
+    "635afa1c-beeb-3262-83c4-38ea31e5549e",
+    "5e496093-feb6-37e9-a2a1-7c87b1cec4b0",
+    ...
+  ],
+   ...
+}
+```
+
+External groups with dynamic group membership do not store any member in the group entry.
+The group membership is instead stored in the users entries. Additional documentation can be found [here](https://jackrabbit.apache.org/oak/docs/security/authentication/external/dynamic.html). For example this is the OAK node for the group:
+
+```
+{
+  "jcr:primaryType": "rep:Group",
+  "jcr:mixinTypes": [
+    "rep:AccessControllable"
+  ],
+  "jcr:createdBy": "",
+  "jcr:created": "Tue Jul 16 2024 08:58:47 GMT+0000",
+  "rep:principalName": "GROUP_1;aem-saml-idp-1",
+  "rep:lastSynced": "Tue Jul 16 2024 08:58:47 GMT+0000",
+  "jcr:uuid": "d9c6af8a-35c0-3064-899a-59af55455cd0",
+  "rep:externalId": "GROUP_1;aem-saml-idp-1",
+  "rep:authorizableId": "GROUP_1;aem-saml-idp-1"
+}
+```
+
+This is the node for a user member of that group:
+
+```
+{
+  "jcr:primaryType": "rep:User",
+  "jcr:mixinTypes": [
+    "rep:AccessControllable"
+  ],
+  "surname": "Test",
+  "rep:principalName": "testUser",
+  "rep:externalId": "test;aem-saml-idp-1",
+  "rep:authorizableId": "test",
+  "rep:externalPrincipalNames": [
+    "projects-users;aem-saml-idp-1",
+    "GROUP_2;aem-saml-idp-1",
+    "GROUP_1;aem-saml-idp-1",
+    "operators;aem-saml-idp-1"
+  ],
+  ...
+}
+```
+
+### Automatic migration to dynamic group membership for existing environments
+
+When this migration is enabled, it is carried out during user authentication and consists of the following steps:
+1. The local user is migrated to an external user while maintaining the original username. This implies that migrated local users, now acting as external users, retain their original username instead of following the naming syntax mentioned in the previous section. One additional property will be added called: `rep:externalId` with the value of `[user name];[idp]`. The user `PrincipalName` is not modified.
+2. For each external group received in the SAML Assertion, an external group is created. If a corresponding local group exists, the external group is added to the local group as a member. 
+3. The user is added as member of the external group.
+4. The local user is then removed from all the Saml local groups he was member of. Saml local groups are identified by the OAK property: `rep:managedByIdp`. This property is set by the Saml Authentication handler when the attribute `syncType` is not specified or set to `default`. 
+
+For instance, if before the migration `user1` is a local user and a member of local group `group1`, after the migration the following changes will occur:
+`user1` becomes an external user. The attribute `rep:externalId` is added to his profile.
+`user1` becomes member of external group: `group1;idp`
+`user1` is no longer a direct member of local group: `group1`
+`group1;idp` is a member of the local group: `group1`.
+`user1` is then a member of the local group: `group1` though inheritance
+
+The group membership for external groups is stored in the user profile in the attribute `rep:authorizableId`
+
+### How to configure automatic migration to dynamic group membership
+
+1. Enable the property `"identitySyncType": "idp_dynamic_simplified_id"` in SAML OSGI configuration file: `com.adobe.granite.auth.saml.SamlAuthenticationHandler~...cfg.json` :
+2. Configure the new OSGI service with PID: `com.adobe.granite.auth.saml.migration.SamlDynamicGroupMembershipMigration~...` with the property:
+
+  ```
+  {
+    "idpIdentifier": "<vaule of identitySyncType of saml configuration to be migrated>"
+  }
+  ```
+
 ## Deploying SAML configuration
 
 The OSGi configurations must be committed to Git and deployed to AEM as a Cloud Service using Cloud Manager.
