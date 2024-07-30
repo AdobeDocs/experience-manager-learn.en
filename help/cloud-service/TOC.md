@@ -101,6 +101,7 @@ team: TM
     + [Caching Page Variants](./developing/advanced/variant-caching.md)    
     + [CSRF Protection](./developing/advanced/csrf-protection.md)
     + [Custom namespaces](./developing/advanced/custom-namespaces.md)
+    + [Secrets](./developing/advanced/secrets.md)
     + [Service Users](./developing/advanced/service-users.md)
     + [Web-optimized image APIs](./developing/advanced/web-optimized-image-delivery-java-apis.md)
   + Rapid Development Environment{#rde}
