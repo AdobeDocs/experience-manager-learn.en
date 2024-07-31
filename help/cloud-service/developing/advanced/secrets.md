@@ -1,10 +1,11 @@
 ---
-title: Managing secrets in AEM as a Cloud Service
-description: Learn best practices for managing secrets within AEM as a Cloud Service. We'll cover the tools and techniques provided by AEM to safeguard your sensitive information, ensuring your application remains secure and confidential.
+title: Manage secrets in AEM as a Cloud Service
+description: Learn best practices for managing secrets within AEM as a Cloud Service, using tools and techniques provided by AEM to safeguard your sensitive information, ensuring your application remains secure and confidential.
 version: Cloud Service
 topic: Development, Security
 feature: OSGI, Cloud Manager
 role: Developer
+jira: KT-15880
 level: Intermediate, Experienced
 ---
 
