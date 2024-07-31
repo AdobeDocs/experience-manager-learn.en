@@ -33,10 +33,6 @@ To complete this tutorial, you need:
 
 - Locally initialized project from the earlier example [Adobe I/O Runtime Action and AEM Events](./runtime-action.md#initialize-project-for-local-development).
 
->[!IMPORTANT]
->
->AEM as a Cloud Service Eventing is only available to registered users in pre-release mode. To enable AEM eventing on your AEM as a Cloud Service environment, contact [AEM-Eventing team](mailto:grp-aem-events@adobe.com).
-
 ## AEM Events processor action
 
 In this example, the event processor [action](https://developer.adobe.com/runtime/docs/guides/using/creating_actions/) performs following tasks:
