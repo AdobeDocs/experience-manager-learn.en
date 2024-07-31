@@ -66,6 +66,7 @@ Select the ``state`` node and set its properties as shown below. Notice the fiel
 ## Set default values for the state field
 
 Select the ``state`` node and add the following properties.
+
 | Name     | Type     | Value               |
 |----------|----------|---------------------|
 | enum     | String[] | CA,NY               |
