@@ -19,10 +19,6 @@ Learn about AEM eventing, what it is, why and when to use it and examples of it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426686?quality=12&learn=on)
 
->[!IMPORTANT]
->
->AEM as a Cloud Service Eventing is only available to registered users in pre-release mode. To enable AEM eventing on your AEM as a Cloud Service environment, contact the <a href="mailto:grp-aem-events@adobe.com">AEM-Eventing team</a>.
-
 ## What it is
 
 AEM Eventing is a cloud-native eventing system that enables subscriptions to AEM Events for processing in external systems. An AEM Event is a state change notification sent by AEM whenever a specific action occurs. For example, this can include events when a content fragment is created, updated, or deleted.

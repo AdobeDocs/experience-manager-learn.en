@@ -41,10 +41,6 @@ To complete this tutorial, you need:
 
 - [Adobe Developer CLI](https://developer.adobe.com/runtime/docs/guides/tools/cli_install/) installed on your local machine.
 
->[!IMPORTANT]
->
->AEM as a Cloud Service Eventing is only available to registered users in pre-release mode. To enable AEM eventing on your AEM as a Cloud Service environment, contact [AEM-Eventing team](mailto:grp-aem-events@adobe.com).
-
 ## Create project in Adobe Developer Console
 
 To create a project in Adobe Developer Console, follow these steps:
