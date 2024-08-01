@@ -20,6 +20,7 @@ Navigate to /conf/AzurePortalStorage/settings/wcm/templates/storeandrestorefroma
 | sling:resourceType | String            | azureportalpagecomponent/component/page/storeandfetch |
 
 Navigate to /conf/AzurePortalStorage/settings/wcm/templates/storeandrestorefromazure/structure/jcr:content node,add the following property and save the changes.
+
 | **Property Name**  | **Property Type** | **Property Value**                                    |
 |--------------------|-------------------|-------------------------------------------------------|
 | sling:resourceType | String            | azureportalpagecomponent/component/page/storeandfetch |
