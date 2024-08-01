@@ -32,6 +32,7 @@ You are in the default state when you open the style editor for the tab as shown
 ![navigation-tab](assets/navigation-tab.png)
 
 Set the CSS properties for the default state as shown below
+
 | Category | Property Name  |  Property Value |
 |:---|:---|:---|
 | Dimensions and Position | Width | 50px |
