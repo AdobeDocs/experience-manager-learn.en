@@ -23,7 +23,7 @@ team: TM
   + [Quick access](basics/quick-access.md)
   + [Collaborating](basics/collaborating.md)
   + [Link sharing](basics/link-sharing.md)
-
+  + [Reports](basics/reports.md)
 + Configuring{#configuring}
   + [My workspace](configuring/my-workspace.md)
   + [Metadata forms](configuring/metadata-forms.md)
