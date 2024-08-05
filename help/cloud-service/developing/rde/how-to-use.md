@@ -43,17 +43,19 @@ $ mvn clean package
 
 ## Deploy AEM artifacts using the AEM-RDE plugin
 
-Using the `aem:rde:install` command, let's deploy various AEM artifacts. 
+First, ensure you have the [latest `aio` CLI module installed](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools#aio-cli).
+
+Then, use the `aio aem:rde:install` command to deploy various AEM artifacts. Now that you must  
 
 ### Deploy `all` and `dispatcher` packages
 
 A common starting point is to first deploy the `all` and `dispatcher` packages by running the following commands.
 
 ```shell
-# Install the 'all' package
+# Install the 'all' content package (zip file)
 $ aio aem:rde:install all/target/aem-guides-wknd.all-2.1.3-SNAPSHOT.zip
 
-# Install the 'dispatcher' zip
+# Install the 'dispatcher' deployment artifact (zip file)
 $ aio aem:rde:install dispatcher/target/aem-guides-wknd.dispatcher.cloud-2.1.3-SNAPSHOT.zip
 ```
 
@@ -88,12 +90,13 @@ Let's enhance the `Hello World Component` and deploy it to the RDE.
     ...
     ```
 
-1.  Verify the changes on local AEM-SDK by performing the maven build or syncing individual files.
+1.  Verify the changes on local AEM SDK by performing the Maven build or syncing individual files.
 
-1.  Deploy the changes to the RDE via `ui.apps` package or by deploying the individual Dialog and HTL files.
+1.  Deploy the changes to the RDE via `ui.apps` package or by deploying the individual Dialog and HTL files:
 
     ```shell
     # Using 'ui.apps' package
+    
     $ cd ui.apps
     $ mvn clean package
     $ aio aem:rde:install target/aem-guides-wknd.ui.apps-2.1.3-SNAPSHOT.zip
