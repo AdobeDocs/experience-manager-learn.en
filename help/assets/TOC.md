@@ -162,8 +162,6 @@ team: TM
 
 + Translation {#translation}
   + [Source File Translation](translation/source-file-translation-feature-video-use.md)
-  + [Smart Translation Search](translation/smart-translation-search-feature-video-use.md)
-  + [Set up Smart Translation Search](translation/smart-translation-search-technical-video-setup.md)
 
 + Asset Templates{#asset-templates}
   + [Understanding Asset Templates](asset-templates/asset-templates-tutorial-understand.md)
