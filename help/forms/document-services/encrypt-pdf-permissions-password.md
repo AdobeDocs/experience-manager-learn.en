@@ -1,5 +1,5 @@
 ---
-title: Encrypt PDF with a permissions password
+title: Encrypt PDF with a Permissions Password
 description: Use DocAssuranceService to encrypt a PDF
 feature: Document Services
 version: 6.4,6.5
@@ -12,7 +12,7 @@ exl-id: 5df8581c-a44c-449c-bf3b-8cdf57635c4d
 ---
 # Encrypt PDF with a permission password
 
-A permissions password, also known as an owner or master password, is required to copy, edit, or print a PDF document. Learn to use the [DocAssuranceService](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/fd/docassurance/client/api/DocAssuranceService.html) API to apply a permission password to a PDF programmatically
+A permissions password, also known as an owner or master password, is required to copy, edit, or print a PDF document. Learn to use the [DocAssuranceService](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/fd/docassurance/client/api/DocAssuranceService.html) API to apply a permission password to a PDF programmatically.
 
 The following JSP code encrypts a PDF with a permissions password:
 
