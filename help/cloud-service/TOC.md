@@ -39,7 +39,6 @@ team: TM
   + [CI/CD Production Pipeline](./cloud-manager/cicd-production-pipeline.md)
   + [CI/CD Non-Production Pipeline](./cloud-manager/cicd-non-production-pipeline.md)
   + [Activity](./cloud-manager/activity.md)
-  + [Custom Domain Names](./cloud-manager/custom-domain-names.md)
   + Dev Ops{#devops}
     + [Deploying Code](./cloud-manager/devops/deploy-code.md)
     + [Merge Projects](./cloud-manager/devops/merge-projects.md)
@@ -133,6 +132,10 @@ team: TM
     + Risks{#risks}
       + [Traversal warnings](./debugging/cloud-service/risks/traversals.md)
 + Content Delivery{#content-delivery}
+  + [Custom domain name](./content-delivery/custom-domain-names.md)
+  + [Custom domain name with Adobe managed CDN](./content-delivery/custom-domain-name-with-adobe-managed-cdn.md)
+  + [Custom domain name with Customer CDN](./content-delivery/custom-domain-names-with-customer-managed-cdn.md)
+  + [Caching](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/caching/overview){target=_blank}
   + [URL Redirects](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/administration/url-redirection.html){target=_blank}
 + Caching{#caching}
   + [Overview](./caching/overview.md)
