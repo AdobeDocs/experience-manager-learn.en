@@ -39,6 +39,7 @@ team: TM
   + [CI/CD Production Pipeline](./cloud-manager/cicd-production-pipeline.md)
   + [CI/CD Non-Production Pipeline](./cloud-manager/cicd-non-production-pipeline.md)
   + [Activity](./cloud-manager/activity.md)
+  + [Custom Domain Names](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/content-delivery/custom-domain-names){target=_blank}
   + Dev Ops{#devops}
     + [Deploying Code](./cloud-manager/devops/deploy-code.md)
     + [Merge Projects](./cloud-manager/devops/merge-projects.md)

@@ -4,11 +4,11 @@ description: Learn how to implement a custom domain name to the AEM as a Cloud S
 version: Cloud Service
 feature: Cloud Manager, Operations
 topic: Administration, Architecture
-role: Admin, Developer
+role: Admin, Architect, Developer
 level: Intermediate
 doc-type: Tutorial
 duration: 1042
-last-substantial-update: 2024-03-12
+last-substantial-update: 2024-08-12
 jira: KT-15121
 thumbnail: KT-15121.jpeg
 exl-id: 8936c3ae-2daf-4d0f-b260-28376ae28087
