@@ -4,14 +4,14 @@ description: Learn how to manage and implement custom domain names for your AEM 
 version: Cloud Service
 feature: Cloud Manager, Custom Domain Names
 topic:  Architecture, Migration
-role: Developer, Architect
+role: Admin, Architect, Developer
 level: Intermediate
-doc-type: Article
-duration: 0
+doc-type: Tutorial
+duration: 130
 last-substantial-update: 2024-08-09
-jira: KT-15615
+jira: KT-15946
+thumbnail: KT-15946.jpeg
 ---
-
 # Custom domain name options
 
 Learn how to manage and implement domain names for your AEM as a Cloud Service hosted website.
