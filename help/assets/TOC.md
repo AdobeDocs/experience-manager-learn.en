@@ -56,6 +56,7 @@ team: TM
   + [Extract Archive](./advanced/extract-archive.md)
   + [Permissions (CUGs)](./advanced/closed-user-groups.md)
   + [Metadata-Driven Permissions](./advanced/metadata-driven-permissions.md)
+  + [Video Closed Captions](./advanced/video-closed-captions.md)
   + [Watermarks](./advanced/watermarks.md)
 
 + Advanced Metadata Management{#metadata}
