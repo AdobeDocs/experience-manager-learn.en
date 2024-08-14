@@ -18,7 +18,7 @@ Make a copy of the ``/apps/bankingapplication/components/adaptiveForm/button`` n
 
 >[!NOTE]
 >
-> ``bankingapplication`` is the appId that was provided when creating the Maven project. This appId could be different in your environemt. You can make a copy of any component, I just happened to make a copy of the button component
+> ``bankingapplication`` is the appId that was provided when creating the Maven project. This appId could be different in your environment. You can make a copy of any component, I just happened to make a copy of the button component
 
 
 ![address-bloc](assets/address-properties.png)

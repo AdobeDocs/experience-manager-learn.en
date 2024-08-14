@@ -253,6 +253,10 @@ team: TM
         + [2 - Setup](./forms/create-address-block-component/set-up.md)
         + [3 - Create component](./forms/create-address-block-component/creating-address-component.md)
         + [4 - Deploy component](./forms/create-address-block-component/deploy-your-project.md)
+    + Create clickable image component{#clickable-image-component}
+        + [1 - Introduction](./forms/clickable-image-component/introduction.md)
+        + [2 - Create component](./forms/clickable-image-component/create-component.md)
+        + [3 - Handle click event](./forms/clickable-image-component/handle-click-event.md)
     + AEM Forms and Analytics{#forms-and-analytics}
         + [Introduction](./forms/form-data-analytics/introduction.md)
         + [Create Data Elements](./forms/form-data-analytics/data-elements.md)

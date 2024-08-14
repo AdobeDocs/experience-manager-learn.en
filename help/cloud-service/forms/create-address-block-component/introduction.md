@@ -9,6 +9,8 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-15752
 exl-id: 21b6640e-5cfa-4902-9660-a2b1c91b285d
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+
 ---
 # Creating new core component in AEM Forms
 
