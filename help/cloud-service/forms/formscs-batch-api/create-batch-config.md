@@ -8,6 +8,8 @@ version: Cloud Service
 feature: Output Service
 topic: Development
 jira: KT-9673
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+
 exl-id: db25e5a2-e1a8-40ad-af97-35604d515450
 duration: 233
 ---
@@ -33,12 +35,12 @@ The following is the minimum configuration that needs to be specified when creat
 
 ```
 {
-	"configName": "monthlystatements",
-	"dataSourceConfigUri": "/conf/batchapi/settings/forms/usc/batch/batchapitutorial",
-	"outputTypes": [
-		"PDF"
-	],
-	"template": "crx:///content/dam/formsanddocuments/formtemplates/custom_fonts.xdp"
+    "configName": "monthlystatements",
+    "dataSourceConfigUri": "/conf/batchapi/settings/forms/usc/batch/batchapitutorial",
+    "outputTypes": [
+        "PDF"
+    ],
+    "template": "crx:///content/dam/formsanddocuments/formtemplates/custom_fonts.xdp"
 
 }
 

@@ -7,7 +7,7 @@ topic: Integrations, Development
 role: Developer
 level: Experienced
 badgeIntegration: label="Integration" type="positive"
-badgeVersions: label="AEM Forms 6.5" before-title="false"
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 6b44e6b2-15f7-45b2-8d21-d47f122c809d
 duration: 68
 ---
