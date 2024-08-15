@@ -145,7 +145,8 @@ team: TM
   + [CDN Cache Hit Ratio Analysis](./caching/cdn-cache-hit-ratio-analysis.md)
   + How to{#how-to}
     + [Enable caching](./caching/how-to/enable-caching.md)
-    + [Disable caching](./caching/how-to/disable-caching.md)  
+    + [Disable caching](./caching/how-to/disable-caching.md)
+    + [Purge cache](./caching/how-to/purge-cache.md)
 + Accessing AEM{#accessing}    
   + [Overview](./accessing/overview.md)
   + [Adobe IMS users](./accessing/adobe-ims-users.md)
