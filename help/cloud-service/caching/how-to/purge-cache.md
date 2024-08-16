@@ -18,6 +18,8 @@ Learn how to purge or remove the cached HTTP response from the AEM as a Cloud Se
 
 In this tutorial, you learn how to set up and use the Purge API Token to purge the CDN cache of the sample [AEM WKND](https://github.com/adobe/aem-guides-wknd) site using the self-service feature.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3432948?quality=12&learn=on)
+
 ## Cache invalidation vs explicit purge
 
 There are two ways to remove the cached resources from the CDN:
