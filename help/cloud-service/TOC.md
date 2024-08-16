@@ -420,3 +420,4 @@ team: TM
       + [Integrate AEM Assets](./expert-resources/cloud-5/season-3/cloud5-integrate-assets.md)
       + [Generative AI for AEM Sites](./expert-resources/cloud-5/season-3/cloud5-generative-ai-for-aem-sites.md)
       + [Exploring Universal Editor](./expert-resources/cloud-5/season-3/cloud5-exploring-universal-editor.md)
+      + [Import sites](./expert-resources/cloud-5/season-3/cloud5-import-sites-to-edge-delivery-services.md)
