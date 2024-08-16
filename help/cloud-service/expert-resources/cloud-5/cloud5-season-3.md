@@ -168,6 +168,21 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 <br/>                
                  Learn about Universal Editor and AEM with Edge Delivery Services.
             </p>
-        </td>                    
+        </td>
+        <td>
+            <a href="./season-3/cloud5-import-sites-to-edge-delivery-services.md">
+                <img alt="Import sites to AEM Sites with Edge Delivery Services" 
+                     src="https://video.tv.adobe.com/v/3431603?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-import-sites-to-edge-delivery-services.md">
+                <strong>Import sites</strong></a>        
+                <br/><em>with James Talbot & Varun Mitra, Cloud Architect</em>
+            </div>
+            <p>
+                <br/>                
+                 Learn about importing sites to AEM Sites with Edge Delivery Services.
+            </p>
+        </td>
     </tr>      
 </table>
