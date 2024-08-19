@@ -20,6 +20,7 @@ index: y
   + [OAuth scopes](authentication/oauth-code-sample-develop.md)
   + [Understanding Authentication](authentication/authentication-support-article-understand.md)
   + [Understand IMS Authentication on AMS](authentication/adobe-ims-authentication-technical-video-understand.md)
+  + [JWT-To-OAuth credential migration](authentication/jwt-to-oauth-migration.md)
 + Adobe Cloud Manager{#cloud-manager}
   + [Understand Adobe Cloud Manager](./cloud-manager/understand-cloud-manager-for-aem.md)
   + [CI/CD Pipelines](./cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.md)
