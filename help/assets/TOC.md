@@ -69,6 +69,9 @@ team: TM
 + Edge Delivery Services{#edge-delivery-services}
   + [Sidekick plugin](./edge-delivery-services/sidekick-plugin.md)
 
++ Content Hub{#content-hub}
+  + [Uploading Assets and Approval Process](./content-hub/uploading-assets-and-approval-process.md)
+
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
   + [Export Assets](./sharing/export.md)
