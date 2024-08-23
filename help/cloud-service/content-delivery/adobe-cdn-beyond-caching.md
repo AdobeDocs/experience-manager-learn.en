@@ -1,6 +1,6 @@
 ---
 title: Adobe CDN - Advanced features beyond caching
-description: Learn about advanced features of Adobe CDN beyond caching, such as configuring traffic at the CDN, CDN error pages and more.
+description: Learn about advanced features of Adobe CDN beyond caching, such as configuring traffic at the CDN, setting up tokens and credentials, CDN error pages and more.
 version: Cloud Service
 feature: Website Performance, CDN Cache
 topic: Architecture, Performance, Content Management
@@ -15,7 +15,7 @@ thumbnail: KT-15123.jpeg
 
 # Adobe CDN - Advanced features beyond caching
 
-Learn about advanced features of Adobe CDN beyond caching, such as configuring traffic at the CDN, CDN error pages and more.
+Learn about advanced features of Adobe Content Delivery Network (CDN) beyond caching, such as configuring traffic at the CDN, setting up tokens and credentials, CDN error pages and more.
 
 Beyond caching content, Adobe CDN offers several advanced features that can help to optimize your website performance. These features include:
 
@@ -44,8 +44,7 @@ Let's understand the key capabilities related to _Configuring CDN credentials an
 
 - **Purge API Token**: Enables you to create your own purge key for purging a single or group or all resources from the cache.
 - **Basic Authentication**: A lightweight authentication mechanism when you want to restrict access to your website or a part of it. Mostly required as part of various review processes before going live.
-- **HTTP Header validation**: Used when a customer managed CDN is routing traffic to Adobe CDN. The Adobe CDN validates the incoming request based on the `X-AEM-Edge-Key` header value.
-Enables you to create your own value for the `X-AEM-Edge-Key` header.
+- **HTTP Header validation**: Used when a customer managed CDN is routing traffic to Adobe CDN. The Adobe CDN validates the incoming request based on the `X-AEM-Edge-Key` header value. Enables you to create your own value for the `X-AEM-Edge-Key` header.
 
 ## CDN error pages
 
@@ -81,7 +80,7 @@ data:
           location: /us/en/top3.html
 ```
 
-## Additional resources
+## Related Tutorials
 
 [Protecting websites with traffic filter rules](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/security/traffic-filter-and-waf-rules/overview)
 
@@ -94,7 +93,3 @@ data:
 [Configuring CDN Credentials and Authentication](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-credentials-authentication)
 
 [Configuring CDN Error Pages](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-error-pages)
-
-
-
-
