@@ -9,6 +9,7 @@ index: y
 # AEM Foundation Videos and Tutorials {#foundation}
 
 + [Overview](./overview.md)
++ [POC](./poc.md)
 + Administration {#administration}
   + [Understand Reasons to Upgrade AEM](./administration/understand-reasons-to-upgrade.md)
   + [Use oak-run.jar to Manage Indexes](./administration/use-oak-run-jar-to-manage-indexes.md)
