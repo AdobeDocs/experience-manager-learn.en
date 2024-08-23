@@ -86,6 +86,6 @@ FPO
 
 >[!TAB Quiz]
 
-Test your knowledge by taking this [short quiz](https://ezpwo74vees.typeform.com/to/vsPYgbwa).
+Test your knowledge by taking this [short quiz](https://ezpwo74vees.typeform.com/to/vsPYgbwa){target="_blank"}.
 
 >[!ENDTABS]
