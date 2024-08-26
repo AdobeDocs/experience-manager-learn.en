@@ -264,6 +264,10 @@ team: TM
         + [Create Data Elements](./forms/form-data-analytics/data-elements.md)
         + [Create Rules](./forms/form-data-analytics/rules.md)
         + [Test the solution](./forms/form-data-analytics/test.md)
+    + Using vertical tabs{#using-vertical-tabs}
+        + [1. Introduction](./forms/using-vertical-tabs/introduction.md)
+        + [2. Create Form](./forms/using-vertical-tabs/create-af.md)
+        + [3. Navigating](./forms/using-vertical-tabs/navigation.md)
     + Document Generation in AEM Forms CS{#doc-gen-formscs}
         + [Introduction](./forms/doc-gen-forms-cs/introduction.md)
         + [Create Service Credentials](./forms/doc-gen-forms-cs/service-credentials.md)

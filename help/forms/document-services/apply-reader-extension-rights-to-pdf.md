@@ -190,10 +190,18 @@ public class GetReaderExtendedPDF extends SlingAllMethodsServlet {
 
 To test this on your local server, please follow the following steps:
 1. [Download and Install the DevelopingWithServiceUser Bundle](/help/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar)
-1. [Download and install the ares.ares.core-ares Bundle](assets/ares.ares.core-ares.jar). This has the custom service and the servlet to apply usage rights and stream the pdf back
+
+1. Add the following entry to Apache Sling User Mapper Service using the configMgr console as shown below
+
+```
+       DevelopingWithServiceUser.core:getformsresourceresolver=fd-service
+```
+
+![user-mapper](assets/user-mapper-service.PNG)
+1. [Download and install the ares.ares.core-ares Bundle](assets/ares.ares.core-ares.jar). This has the custom service and the servlet to apply usage rights and stream the pdf back.
 1. [Import the client libs and custom submit](assets/applyaresdemo.zip)
 1. [Import the Adaptive Form](assets/applyaresform.zip)
-1. Add Reader Extensions certificate to "fd-service" user. Make sure the alias is "ares".
+1. Add Reader Extensions certificate to "fd-service" user. Make sure the alias is "**ares**".
 1. [Preview Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/applyreaderextensions/jcr:content?wcmmode=disabled)
 1. Select the appropriate rights and upload PDF file
 1. Click Submit to get Reader Extended PDF
