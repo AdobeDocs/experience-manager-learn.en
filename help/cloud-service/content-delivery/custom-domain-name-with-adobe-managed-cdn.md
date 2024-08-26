@@ -144,7 +144,7 @@ However, if you are using the **root domain**, you must add an APEX record type 
 
 To verify the site is accessible using the custom domain name, open a web browser and navigate to the custom domain URL. Make sure that the site is accessible and the browser shows a secure connection with the padlock icon.
 
-## End to end video
+## End-to-end video
 
 You can also watch the end-to-end video that demonstrates the overview, prerequisites, and above steps to add a custom domain name to AEM as a Cloud Service-hosted site.
 
