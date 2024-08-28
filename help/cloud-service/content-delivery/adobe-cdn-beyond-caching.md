@@ -25,12 +25,13 @@ Beyond caching content, Adobe CDN offers several advanced features that can help
 
 These features are **self-service** features. Configured in the `cdn.yaml` file of your AEM project and deployed using the Cloud Manager config pipeline.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3433104?quality=12&learn=on)
+
 ## Configuring traffic at the CDN
 
 Let's understand the key capabilities related to _Configuring traffic at the CDN_:
 
-- **DoS attack prevention:** Adobe CDN absorbs DoS attacks at the network
-layer, preventing them from reaching your origin server.
+- **DoS attack prevention:** Adobe CDN absorbs DoS attacks at the network layer, preventing them from reaching your origin server.
 - **Rate limiting:** To protect your origin server from being overwhelmed with too many requests, you can configure rate limiting on the CDN.
 - **Web Application Firewall (WAF):** The WAF protects your website from common web application vulnerabilities, such as SQL injection, cross-site scripting, and more. The Enhanced Security license or WAF-DDoS Protection license is required to use this feature.
 - **Request transformation:** Modify incoming requests such as setting or unsetting headers, modifying query parameters, cookies and more.
