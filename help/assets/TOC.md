@@ -71,6 +71,7 @@ team: TM
 
 + Content Hub{#content-hub}
   + [Uploading Assets and Approval Process](./content-hub/uploading-assets-and-approval-process.md)
+  + [Accessing and Downloading Assets](./content-hub/accessing-and-downloading-assets.md)
 
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
