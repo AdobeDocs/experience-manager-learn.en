@@ -12,8 +12,8 @@ last-substantial-update: 2024-08-16
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 jira: KT-15844
+exl-id: 82b607e9-8f2e-4e81-b3ee-a50a660be9a0
 ---
-
 # Import sites into AEM Sites with Edge Delivery Services
 
 This video discusses best practices for using and customizing the Importer tool to make it easy to import existing sites into AEM Sites with Edge Delivery Services. With Varun Mitra, Cloud Architect.

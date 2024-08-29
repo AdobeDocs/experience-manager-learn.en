@@ -7,8 +7,8 @@ feature: OSGI, Cloud Manager
 role: Developer
 jira: KT-15880
 level: Intermediate, Experienced
+exl-id: 856b7da4-9ee4-44db-b245-4fdd220e8a4e
 ---
-
 # Managing secrets in AEM as a Cloud Service
 
 Managing secrets, such as API keys and passwords, is crucial for maintaining application security. Adobe Experience Manager (AEM) as a Cloud Service offers robust tools to handle secrets securely.

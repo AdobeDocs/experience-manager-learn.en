@@ -11,6 +11,7 @@ duration: 0
 last-substantial-update: 2024-08-13
 jira: KT-15963
 thumbnail: KT-15963.jpeg
+exl-id: 5d81f6ee-a7df-470f-84b9-12374c878a1b
 ---
 # How to purge the CDN cache
 

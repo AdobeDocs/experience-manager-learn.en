@@ -7,8 +7,8 @@ feature: Sling Model
 role: Developer
 jira: KT-15923
 level: Intermediate, Experienced
+exl-id: 5d852617-720a-4a00-aecd-26d0ab77d9b3
 ---
-
 # Parameterize Sling Models from HTL
 
 Adobe Experience Manager (AEM) offers a robust framework for building dynamic and adaptable web applications. One of its powerful features is the ability to parameterize Sling Models, enhancing their flexibility and reusability. This tutorial will guide you through creating a parameterized Sling Model and using it in HTL (HTML Template Language) to render dynamic content.
@@ -121,4 +121,3 @@ With parameters `"Hello"` and `"World"`, the HTL script generates the following 
 ```
 
 This demonstrates how parameterized Sling Models in AEM can be influenced based on input parameters provided via HTL.
-

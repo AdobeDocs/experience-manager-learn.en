@@ -11,6 +11,7 @@ feature: Adaptive Forms
 thumbnail: 331891.jpg
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16023
+exl-id: c5bbd35e-fd15-4293-901e-c81faf6025f9
 ---
 # Navigating between the tabs
 
@@ -45,4 +46,3 @@ The following is the rule editor for the Next and Previous buttons
 **Previous Button**
 
 ![prev-button](assets/prev-button.png)
-

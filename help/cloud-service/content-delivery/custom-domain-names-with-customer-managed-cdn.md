@@ -11,6 +11,7 @@ duration: 0
 last-substantial-update: 2024-06-21
 jira: KT-15945
 thumbnail: KT-15945.jpeg
+exl-id: fa9ee14f-130e-491b-91b6-594ba47a7278
 ---
 # Custom domain name with customer-managed CDN
 

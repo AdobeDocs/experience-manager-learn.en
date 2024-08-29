@@ -11,9 +11,8 @@ feature: Adaptive Forms
 thumbnail: 331891.jpg
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16023
-
+exl-id: 4f7b05c6-3088-467a-b9b1-dfab971982fe
 ---
-
 # Create Adaptive Form
 
 Create an core component based adaptive form and insert a vertical tab component onto your form.

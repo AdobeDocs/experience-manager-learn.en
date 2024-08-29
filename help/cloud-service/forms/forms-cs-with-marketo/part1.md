@@ -10,7 +10,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 last-substantial-update: 2024-07-24
 jira: KT-15876
-
+exl-id: c3145149-bfa4-4dcb-acde-c359e9348f99
 ---
 # Integrate AEM Forms and Marketo
 
