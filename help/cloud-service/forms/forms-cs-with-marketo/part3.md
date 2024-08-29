@@ -10,7 +10,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 last-substantial-update: 2024-07-24
 jira: KT-15876
-
+exl-id: 43737765-b1ea-4594-853a-d78f41136b5e
 ---
 # Create Form Data Model
 

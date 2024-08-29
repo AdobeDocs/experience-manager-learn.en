@@ -9,6 +9,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-15968
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+exl-id: 54344a6d-51d3-4a63-b1f1-283bddbc0f8f
 ---
 # Handle click event
 

@@ -8,6 +8,7 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 jira: KT-15968
+exl-id: b635f171-775d-480e-bf7a-c92ab4af0aee
 ---
 # Create component
 

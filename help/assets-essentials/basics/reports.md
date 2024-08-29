@@ -10,8 +10,8 @@ doc-type: Feature Video
 duration: 196
 last-substantial-update: 2024-08-05
 jira: KT-15656
+exl-id: 0ed7aea8-67b6-438a-bf1f-0f4ebd7c95aa
 ---
-
 # Reports
 
 Learn how to use assets reports in AEM Assets to gain insights into your DAM activity.

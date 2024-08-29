@@ -11,9 +11,8 @@ feature: Adaptive Forms
 thumbnail: 331891.jpg
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16023
-
+exl-id: 84c03212-47dc-4398-a197-e69e3f3bf77e
 ---
-
 # Introduction
 
 Vertical tabs are used to organize and display content in a compact, easy-to-navigate format. Vertical provide the following benefits 

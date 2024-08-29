@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-08-21
 jira: KT-15123
 thumbnail: KT-15123.jpeg
+exl-id: 8948a900-01e9-49ed-9ce5-3a057f5077e4
 ---
-
 # Adobe CDN - Advanced features beyond caching
 
 Learn about advanced features of Adobe Content Delivery Network (CDN) beyond caching, such as configuring traffic at the CDN, setting up tokens and credentials, CDN error pages and more.

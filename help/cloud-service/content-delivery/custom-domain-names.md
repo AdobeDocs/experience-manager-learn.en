@@ -3,7 +3,7 @@ title: Custom domain name options
 description: Learn how to manage and implement custom domain names for your AEM as a Cloud Service hosted website.
 version: Cloud Service
 feature: Cloud Manager, Custom Domain Names
-topic:  Architecture, Migration
+topic: Architecture, Migration
 role: Admin, Architect, Developer
 level: Intermediate
 doc-type: Tutorial
@@ -11,6 +11,7 @@ duration: 130
 last-substantial-update: 2024-08-09
 jira: KT-15946
 thumbnail: KT-15946.jpeg
+exl-id: e11ff38c-e823-4631-a5b0-976c2d11353e
 ---
 # Custom domain name options
 
@@ -77,4 +78,3 @@ Now that you understand the domain name management process, you can implement cu
 
 **[Custom Domain Names with Adobe-managed CDN](./custom-domain-name-with-adobe-managed-cdn.md)**: In this tutorial, you learn how to add a custom domain name to an **AEM as a Cloud Service website with Adobe-managed CDN**.
 **[Custom Domain Names with Customer-managed CDN](./custom-domain-names-with-customer-managed-cdn.md)**: In this tutorial, you learn how to add a custom domain name to an **AEM as a Cloud Service website with customer-managed CDN**.
-

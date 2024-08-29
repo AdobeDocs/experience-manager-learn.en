@@ -9,6 +9,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-15968
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+exl-id: c451472f-d282-4662-9852-8a3e73c5c853
 ---
 # Introduction
 
