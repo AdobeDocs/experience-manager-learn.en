@@ -121,9 +121,19 @@ public Document generateMultiplePdfs(HashMap < String, String > templateMap, Has
 
 To test this capability on your server, please follow the below instructions:
 
-* [Download and extract zip file contents to your file system](assets/mult-records-template-and-xml-file.zip).This zip file contains the template and xml data file.
+* [Download the sample assets](assets/mult-records-template-and-xml-file.zip).This zip file contains the template and xml data file.
+* [Import the]
 * [Point your browser to Felix web console](http://localhost:4502/system/console/bundles)
 * [Deploy DevelopingWithServiceUser Bundle](/help/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar). 
+* Add the following entry in the Apache Sling Service User Mapper Service using configMgr.
+
+``` java
+DevelopingWithServiceUser.core:getformsresourceresolver=fd-service
+
+``` 
+
+![user-mapper-service](assets/user-mapper-service-fd-service.png)
+
 * [Deploy Custom AEMFormsDocumentServices Bundle](/help/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar).Custom bundle which generates the pdf's using the OutputService API
 * [Point your browser to package manager](http://localhost:4502/crx/packmgr/index.jsp)
 * [Import and install the package](assets/generate-multiple-pdf-from-xml.zip). This package contains html page which allows you to drop the template and data files.
