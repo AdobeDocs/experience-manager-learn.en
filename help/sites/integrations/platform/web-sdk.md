@@ -1,6 +1,6 @@
 ---
 title: Integrate AEM Sites and Experience Platform Web SDK
-description: Learn how to integrate AEM Sites as a Cloud Service with Experience Platform Web SDK. This foundational step is essential for integrating Adobe Experience Cloud products, such as Adobe Analytics, Target, or recent innovative products like Real-Time Customer Data Platform, Customer Journey Analytics, and  Journey Optimizer.
+description: Learn how to integrate AEM Sites as a Cloud Service with Experience Platform Web SDK. This foundational step is essential for integrating Adobe Experience Cloud products, such as Adobe Analytics, Target, or recent innovative products like Real-Time Customer Data Platform, Customer Journey Analytics, and Journey Optimizer.
 version: Cloud Service
 feature: Integrations
 topic: Integrations, Architecture
@@ -17,11 +17,11 @@ duration: 1303
 ---
 # Integrate AEM Sites and Experience Platform Web SDK
 
-Learn how to integrate AEM as a Cloud Service with Experience Platform [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). This foundational step is essential for integrating Adobe Experience Cloud products, such as Adobe Analytics, Target, or recent innovative products like Real-Time Customer Data Platform, Customer Journey Analytics, and Journey Optimizer.
+Learn how to integrate AEM as a Cloud Service with Experience Platform [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html). This foundational step is essential for integrating Adobe Experience Cloud products, such as Adobe Analytics, Target, or recent innovative products like Real-Time Customer Data Platform, Customer Journey Analytics, and Journey Optimizer.
 
-You also learn how to collect and send [WKND - sample Adobe Experience Manager project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project) pageview data in the [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html).
+You also learn how to collect and send [WKND - sample Adobe Experience Manager project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project) pageview data in the [Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home).
 
-After completing this setup, you have implemented a solid foundation. Also, you are ready to advance the Experience Platform implementation using applications like [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html), and [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/docs/journey-optimizer.html). The advanced implementation helps to drive a better customer engagement by standardizing the web and customer data.
+After completing this setup, you have implemented a solid foundation. Also, you are ready to advance the Experience Platform implementation using applications like [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html), [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/customer-journey-analytics), and [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/en/docs/journey-optimizer). The advanced implementation helps to drive better customer engagement by standardizing the web and customer data.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ In **Experience Platform**:
 + Access to **Datastreams** under Data Collection
 + Access to **Tags** under Data Collection
 
-In case you do not have necessary permissions, your system administrator using [Adobe Admin Console](https://adminconsole.adobe.com/) can grant necessary permissions.
+In case you do not have the necessary permissions, your system administrator using [Adobe Admin Console](https://adminconsole.adobe.com/) can grant the necessary permissions.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418856?quality=12&learn=on)
 
@@ -49,14 +49,14 @@ In case you do not have necessary permissions, your system administrator using [
 
 The Experience Data Model (XDM) Schema helps you to standardize the customer experience data. To collect the **WKND pageview** data, create an XDM Schema and use the Adobe provided field groups `AEP Web SDK ExperienceEvent` for web data collection.
 
-There are generic and industries specific for example Retail, Financial Services, Healthcare, and more, suite of reference data models, see [Industry data models overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/industries/overview.html) for more information.
+There are generic and industries specific for example Retail, Financial Services, Healthcare, and more, suite of reference data models, see [Industry data models overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/industries/overview) for more information.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418894?quality=12&learn=on)
 
-Learn about XDM Schema and related concepts such as field groups, types, classes, and data types from [XDM System overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+Learn about XDM Schema and related concepts such as field groups, types, classes, and data types from the [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home).
 
-The [XDM System overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) is a great resource to learn about XDM Schema and related concepts such as field groups, types, classes, and data types. It provides a comprehensive understanding of the XDM data model and how to create and manage XDM schemas to standardize data across the enterprise. Explore it to gain a deeper understanding of the XDM schema and how it can benefit your data collection and management processes.
+The [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) is a great resource to learn about XDM Schema and related concepts such as field groups, types, classes, and data types. It provides a comprehensive understanding of the XDM data model and how to create and manage XDM Schemas to standardize data across the enterprise. Explore it to gain a deeper understanding of the XDM Schema and how it can benefit your data collection and management processes.
 
 ## Create Datastream - Experience Platform
 
@@ -65,14 +65,14 @@ A Datastream instructs the Platform Edge Network where to send the collected dat
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418895?quality=12&learn=on)
 
-Familiarize yourself with the concept of Datastreams and related topics such as data governance and configuration by visiting the [Datastreams overview](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) page.
+Familiarize yourself with the concept of Datastreams and related topics such as data governance and configuration by visiting the [Datastreams overview](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) page.
 
 ## Create Tag property - Experience Platform
 
-Learn how to create a tag property in Experience Platform to add the Web SDK JavaScript library to the WKND website. The newly defined tag property has following resources:
+Learn how to create a tag property in Experience Platform to add the Web SDK JavaScript library to the WKND website. The newly defined tag property has the following resources:
 
 + Tag Extensions: [Core](https://exchange.adobe.com/apps/ec/100223/adobe-launch-core-extension) and [Adobe Experience Platform Web SDK](https://exchange.adobe.com/apps/ec/106387/aep-web-sdk)
-+ Data Elements: The data elements of custom code type that extract page-name, site-section, and host-name using WKND site's Adobe Client Data Layer. Also, the XDM Object type data element that complies with newly created WKND XDM schema build-in earlier [Create XDM Schema](#create-xdm-schema---experience-platform) step.
++ Data Elements: The data elements of custom code type that extract page-name, site-section, and host-name using WKND site's Adobe Client Data Layer. Also, the XDM Object type data element that complies with the newly created WKND XDM Schema build-in earlier [Create XDM Schema](#create-xdm-schema---experience-platform) step.
 + Rule: Send data to Platform Edge Network whenever a WKND webpage is visited using the Adobe Client Data Layer triggered `cmp:show` event.
 
 While building and publishing the tag library using the **Publishing Flow**, you can use the **Add All Changed Resources** button. To select all the resources like Data Element, Rule, and Tag Extensions instead of identifying and picking an individual resource. Also, during the development phase, you can publish the library just to the _Development_ environment, then verify and promote it to the _Stage_ or _Production_ environment.
@@ -162,19 +162,23 @@ While building and publishing the tag library using the **Publishing Flow**, you
 +++
 
 
-The [Tags overview](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) provides in-depth knowledge about important concepts such as Data Elements, Rules, and Extensions. 
+The [Tags overview](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) provides in-depth knowledge about important concepts such as Data Elements, Rules, and Extensions. 
 
-For additional information on integrating AEM Core Components with Adobe Client Data Layer, refer to the [Using the Adobe Client Data Layer with AEM Core Components guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
+For additional information on integrating AEM Core Components with Adobe Client Data Layer, refer to the [Using the Adobe Client Data Layer with AEM Core Components guide](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview).
 
 ## Connect Tag property to AEM
 
-Discover how to link the recently created tag property to AEM through Adobe IMS and tags in Adobe Experience Platform Configuration in AEM. When an AEM as a Cloud Service environment is established, several Adobe IMS Technical Account configurations are automatically generated, including tags. However, for AEM 6.5 version, you must configure one manually.
+Discover how to link the recently created tag property to AEM through Adobe IMS and tags in Adobe Experience Platform Configuration in AEM. When an AEM as a Cloud Service environment is established, several Adobe IMS Technical Account configurations are automatically generated, including tags. For step-by-step instructions, see [Connect AEM Sites with Tag Property using IMS](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/integrations/experience-platform-data-collection-tags/connect-aem-tag-property-using-ims).
+
+However, for AEM 6.5 version, you must configure one manually.
+
+
 
 After linking the tag property, the WKND site is able to load the tag property's JavaScript library onto the web pages using the tags in Adobe Experience Platform cloud service configuration.
 
 ### Verify Tag property loading on WKND 
 
-Using Adobe Experience Platform Debugger [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) extension, verify if the tag property is loading on WKND pages. You can verify,
+Using the Adobe Experience Platform Debugger [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) extension, verify if the tag property is loading on WKND pages. You can verify,
 
 + Tag property details such as extension, version, name and more.
 + Platform Web SDK library version, Datastream ID
@@ -184,12 +188,12 @@ Using Adobe Experience Platform Debugger [Chrome](https://chrome.google.com/webs
 
 ## Create Dataset - Experience Platform
 
-The pageview data collected using Web SDK is stored in Experience Platform data lake as datasets. The dataset is a storage and management construct for a collection of data like a database table that follows a schema. Learn how to create a Dataset and configure the earlier created Datastream to send data to the Experience Platform.
+The pageview data collected using Web SDK is stored in the Experience Platform data lake as datasets. The dataset is a storage and management construct for a collection of data like a database table that follows a schema. Learn how to create a Dataset and configure the earlier created Datastream to send data to the Experience Platform.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418898?quality=12&learn=on)
 
-The [Datasets overview](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) provides more information on concepts, configurations, and other ingestion capabilities.
+The [Datasets overview](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) provides more information on concepts, configurations, and other ingestion capabilities.
 
 
 ## WKND pageview data in Experience Platform
@@ -212,8 +216,8 @@ Great job! You have completed the setup of AEM with Experience Platform Web SDK 
 
 ## Additional Resources
 
-+ [Using the Adobe Client Data Layer with the Core Components](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)
-+ [Integrating Experience Platform Data Collection Tags and AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-data-collection-tags/overview.html)
-+ [Adobe Experience Platform Web SDK and Edge Network overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/web-sdk/overview.html)
-+ [Data Collection tutorials](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html)
-+ [Adobe Experience Platform Debugger overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)
++ [Using the Adobe Client Data Layer with the Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview)
++ [Integrating Experience Platform Data Collection Tags and AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/integrations/experience-platform-data-collection-tags/overview)
++ [Adobe Experience Platform Web SDK and Edge Network overview](https://experienceleague.adobe.com/en/docs/platform-learn/data-collection/web-sdk/overview)
++ [Data Collection tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/data-collection/overview)
++ [Adobe Experience Platform Debugger overview](https://experienceleague.adobe.com/en/docs/platform-learn/data-collection/debugger/overview)
