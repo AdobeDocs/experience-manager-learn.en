@@ -1,5 +1,5 @@
 ---
-title: Trigger AEM workflow on HTM5 Form Submission introduction
+title: Trigger AEM workflow on HTML5 Form Submission introduction
 description: Continue filling mobile form in offline mode and submit mobile form to trigger AEM workflow
 feature: Mobile Forms
 doc-type: article
@@ -9,6 +9,8 @@ role: Developer
 level: Experienced
 exl-id: 88295af5-3022-4462-9194-46d8c979bc8b
 last-substantial-update: 2021-04-07
+jira: kt-16133
+badgeVersions: label="AEM Forms 6.5" before-title="false"
 duration: 342
 ---
 # Downloading partially completed mobile form and submitting to AEM workflow
@@ -20,8 +22,12 @@ A common use case is to have the ability to render the XDP as HTML for data capt
 * Handle the PDF submission from Acrobat/Reader
 * Trigger Adobe Experience Manager (AEM) workflow to review the submitted PDF
 
-This tutorial walks through the steps needed to accomplish the above use case. Sample code and assets related to this tutorial are [available here.](part-four.md)
+This tutorial walks through the steps needed to accomplish the above use case. Sample code and assets related to this tutorial are [available here.](./deploy-assets.md)
 
 The following video gives you an overview of the use case
 
 >[!VIDEO](https://video.tv.adobe.com/v/29677?quality=12&learn=on)
+
+## Next Steps
+
+[Create Custom Profile](./custom-profile.md)

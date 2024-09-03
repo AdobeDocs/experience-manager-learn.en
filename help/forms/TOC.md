@@ -218,10 +218,11 @@ index: y
   + [Deploy sample assets](storing-retrieving-form-data/part6.md)
 + Triggering AEM Workflow from Mobile Form submission{#offline-mobile-form-submission}
   + [Introduction](offline-mobile-form-submission/introduction.md)
-  + [Custom Profile](offline-mobile-form-submission/part-one.md)
-  + [Handle PDF Submission](offline-mobile-form-submission/part-two.md)
-  + [Workflow to Review PDF](offline-mobile-form-submission/part-three.md)
-  + [Deploy on your system](offline-mobile-form-submission/part-four.md)
+  + [Custom Profile](offline-mobile-form-submission/custom-profile.md)
+  + [Handle Form Submission](offline-mobile-form-submission/handle-form-submission.md)
+  + [Store Submitted Data](offline-mobile-form-submission/author-servlet.md)
+  + [Workflow to Review PDF](offline-mobile-form-submission/review-workflow.md)
+  + [Deploy on your system](offline-mobile-form-submission/deploy-assets.md)
 + Querying Form Submissions{#query-form-submissions}
   + [Introduction](query-form-submissions/introduction.md)
   + [Create searchable fields](query-form-submissions/part1.md)
