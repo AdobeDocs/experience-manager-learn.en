@@ -62,6 +62,8 @@ data:
            type: authenticate # The type of the action, must be authenticate
            authenticator: purge-auth # The name of the authenticator to be used, must match the name from the above authenticators list               
 ```
+  
+  In above rule, both `purgeKey1` and `purgeKey2` are added from the beginning to support the rotation of secrets without any interruptions. However, you can start with only `purgeKey1` and add `purgeKey2` later when rotating the secrets.
 
 1. Save, commit, and push the changes to the Adobe upstream repository.
 
