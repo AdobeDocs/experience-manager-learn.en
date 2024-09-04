@@ -169,6 +169,8 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                  Learn about Universal Editor and AEM with Edge Delivery Services.
             </p>
         </td>
+    </tr>  
+    <tr>
         <td>
             <a href="./season-3/cloud5-import-sites-to-edge-delivery-services.md">
                 <img alt="Import sites to AEM Sites with Edge Delivery Services" 
@@ -184,5 +186,20 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                  Learn about importing sites to AEM Sites with Edge Delivery Services.
             </p>
         </td>
-    </tr>      
+        <td>
+            <a href="./season-3/cloud5-using-admin-api.md">
+                <img alt="Using the Admin API with Edge Delivery Services" 
+                     src="https://video.tv.adobe.com/v/3433158?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-using-admin-api.md">
+                <strong>Using the Admin API</strong></a>        
+                <br/><em>with James Talbot & Varun Mitra, Cloud Architect</em>
+            </div>
+            <p>
+                <br/>                
+                 Learn about using the Admin API in Edge Delivery Services to manage the lifecycle of content and code.
+            </p>
+        </td>    
+    </tr>    
 </table>
