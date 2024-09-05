@@ -1,6 +1,6 @@
 ---
 title: Trigger AEM workflow on HTML5 Form Submission - Handle PDF submission
-description: Handle the HTML5/PDF form submission 
+description: Handle the HTML5/PDF form submission
 feature: Mobile Forms
 doc-type: article
 version: 6.4,6.5
@@ -9,7 +9,7 @@ role: Developer
 jira: kt-16133
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 level: Experienced
-
+exl-id: ef8ed87d-37c1-4d01-8df6-7a78c328703d
 ---
 # Handle Form Submission
 
