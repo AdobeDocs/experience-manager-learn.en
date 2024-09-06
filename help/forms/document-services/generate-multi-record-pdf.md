@@ -9,6 +9,9 @@ level: Experienced
 exl-id: 58582acd-cabb-4e28-9fd3-598d3cbac43c
 last-substantial-update: 2020-01-07
 duration: 138
+jira: KT-16142
+badgeVersions: label="AEM Forms 6.5" before-title="false"
+
 ---
 # Generate a set of PDF Documents from one xml data file
 
@@ -122,7 +125,6 @@ public Document generateMultiplePdfs(HashMap < String, String > templateMap, Has
 To test this capability on your server, please follow the below instructions:
 
 * [Download the sample assets](assets/mult-records-template-and-xml-file.zip).This zip file contains the template and xml data file.
-* [Import the]
 * [Point your browser to Felix web console](http://localhost:4502/system/console/bundles)
 * [Deploy DevelopingWithServiceUser Bundle](/help/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar). 
 * Add the following entry in the Apache Sling Service User Mapper Service using configMgr.
@@ -131,6 +133,8 @@ To test this capability on your server, please follow the below instructions:
 DevelopingWithServiceUser.core:getformsresourceresolver=fd-service
 
 ``` 
+
+
 
 ![user-mapper-service](assets/user-mapper-service-fd-service.png)
 
