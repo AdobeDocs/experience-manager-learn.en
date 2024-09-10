@@ -70,9 +70,10 @@ team: TM
   + [Sidekick plugin](./edge-delivery-services/sidekick-plugin.md)
 
 + Content Hub{#content-hub}
+  + [Setting Up Content Hub](./content-hub/settingup-content-hub.md)
   + [Uploading Assets and Approval Process](./content-hub/uploading-assets-and-approval-process.md)
   + [Accessing and Downloading Assets](./content-hub/accessing-and-downloading-assets.md)
-
+  
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
   + [Export Assets](./sharing/export.md)
