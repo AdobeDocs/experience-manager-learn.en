@@ -200,6 +200,21 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 <br/>                
                  Learn about using the Admin API in Edge Delivery Services to manage the lifecycle of content and code.
             </p>
-        </td>    
+        </td>   
+        <td>
+            <a href="./season-3/cloud5-lighthouse-score-optimization.md">
+                <img alt="Lighthouse Score Optimization" 
+                     src="https://video.tv.adobe.com/v/3433378?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-lighthouse-score-optimization.md">
+                <strong>Lighthouse Score Optimization</strong></a>        
+                <br/><em>with James Talbot & Varun Mitra, Cloud Architect</em>
+            </div>
+            <p>
+                <br/>                
+                 Learn about what a lighthouse score is and techniques for getting the best possible lighthouse score.
+            </p>
+        </td>            
     </tr>    
 </table>
