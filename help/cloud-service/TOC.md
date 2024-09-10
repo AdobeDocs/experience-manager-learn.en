@@ -427,3 +427,4 @@ team: TM
       + [Exploring Universal Editor](./expert-resources/cloud-5/season-3/cloud5-exploring-universal-editor.md)
       + [Import sites](./expert-resources/cloud-5/season-3/cloud5-import-sites-to-edge-delivery-services.md)
       + [Using Admin API](./expert-resources/cloud-5/season-3/cloud5-using-admin-api.md)
+      + [Lighthouse Score Optimization](./expert-resources/cloud-5/season-3/cloud5-lighthouse-score-optimization.md)
