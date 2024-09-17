@@ -1,5 +1,5 @@
 ---
-title: Lighthouse Score Optimization
+title: Lighthouse Score Optimization - Part 1
 description: Learn about what a lighthouse score is and techniques for getting the best possible lighthouse score in Edge Delivery Services.
 version: Cloud Service
 feature: Edge Delivery Services
@@ -14,7 +14,7 @@ last-substantial-update: 2024-09-10
 jira: KT-16146
 ---
 
-# Lighthouse Score Optimization
+# Lighthouse Score Optimization - Part 1
 
 Learn about what a lighthouse score is and techniques for getting the best possible lighthouse score in Edge Delivery Services, with Varun Mitra, Cloud Architect.
 
