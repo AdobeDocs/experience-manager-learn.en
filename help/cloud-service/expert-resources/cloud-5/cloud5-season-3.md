@@ -202,13 +202,13 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
             </p>
         </td>   
         <td>
-            <a href="./season-3/cloud5-lighthouse-score-optimization.md">
-                <img alt="Lighthouse Score Optimization" 
+            <a href="./season-3/cloud5-lighthouse-score-optimization-part1.md">
+                <img alt="Lighthouse Score Optimization - Part 1" 
                      src="https://video.tv.adobe.com/v/3433378?format=jpeg"/>
             </a>
             <div>
-                <a href="./season-3/cloud5-lighthouse-score-optimization.md">
-                <strong>Lighthouse Score Optimization</strong></a>        
+                <a href="./season-3/cloud5-lighthouse-score-optimization-part1.md">
+                <strong>Lighthouse Score Optimization - Part 1</strong></a>
                 <br/><em>with James Talbot & Varun Mitra, Cloud Architect</em>
             </div>
             <p>
@@ -216,5 +216,22 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                  Learn about what a lighthouse score is and techniques for getting the best possible lighthouse score.
             </p>
         </td>            
-    </tr>    
+    </tr> 
+    <tr>
+        <td>
+            <a href="./season-3/cloud5-lighthouse-score-optimization-part2.md">
+                <img alt="Lighthouse Score Optimization - Part 2"
+                     src="https://video.tv.adobe.com/v/3434042?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-lighthouse-score-optimization-part2.md">
+                <strong>Lighthouse Score Optimization - Part 2</strong></a>
+                <br/><em>with James Talbot & Varun Mitra, Cloud Architect</em>
+            </div>
+            <p>
+                <br/>                
+                 Learn about techniques to improve total blocking time.
+            </p>
+        </td>            
+    </tr>        
 </table>
