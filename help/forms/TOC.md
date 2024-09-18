@@ -216,13 +216,19 @@ index: y
   + [Client Library](storing-retrieving-form-data/part4.md)
   + [Adaptive Form Template](storing-retrieving-form-data/part5.md)
   + [Deploy sample assets](storing-retrieving-form-data/part6.md)
-+ Triggering AEM Workflow from Mobile Form submission{#offline-mobile-form-submission}
-  + [Introduction](offline-mobile-form-submission/introduction.md)
-  + [Custom Profile](offline-mobile-form-submission/custom-profile.md)
-  + [Handle Form Submission](offline-mobile-form-submission/handle-form-submission.md)
-  + [Store Submitted Data](offline-mobile-form-submission/author-servlet.md)
-  + [Workflow to Review PDF](offline-mobile-form-submission/review-workflow.md)
-  + [Deploy on your system](offline-mobile-form-submission/deploy-assets.md)
++ Triggering AEM Workflow on PDF Form submission{#offline-mobile-form-submission}
+  + [Part - 1](offline-mobile-form-submission/introduction.md)
+  + [Part - 2](offline-mobile-form-submission/custom-profile.md)
+  + [Part - 3](offline-mobile-form-submission/handle-form-submission.md)
+  + [Part - 4](offline-mobile-form-submission/author-servlet.md)
+  + [Part - 5](offline-mobile-form-submission/review-workflow.md)
+  + [Part - 6](offline-mobile-form-submission/deploy-assets.md)
++ Trigger AEM workflow on Mobile Form Submission{#trigger-aem-workflow-on-mobile-form-submission}
+  + [Part - 1](trigger-aem-workflow-on-mobile-form-submission/introduction.md)
+  + [Part - 2](trigger-aem-workflow-on-mobile-form-submission/handle-form-submission.md)
+  + [Part - 3](trigger-aem-workflow-on-mobile-form-submission/author-servlet.md)
+  + [Part - 4](trigger-aem-workflow-on-mobile-form-submission/review-workflow.md)
+  + [Part - 5](trigger-aem-workflow-on-mobile-form-submission/deploy-assets.md)
 + Querying Form Submissions{#query-form-submissions}
   + [Introduction](query-form-submissions/introduction.md)
   + [Create searchable fields](query-form-submissions/part1.md)

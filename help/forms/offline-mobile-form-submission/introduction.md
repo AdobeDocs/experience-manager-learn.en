@@ -1,5 +1,5 @@
 ---
-title: Trigger AEM workflow on HTML5 Form Submission introduction
+title: Trigger AEM workflow on PDF Form Submission
 description: Continue filling mobile form in offline mode and submit mobile form to trigger AEM workflow
 feature: Mobile Forms
 doc-type: article
@@ -13,7 +13,7 @@ jira: kt-16133
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 duration: 342
 ---
-# Downloading partially completed mobile form and submitting to AEM workflow
+# Downloading partially completed mobile form and submitting to trigger an AEM workflow
 
 A common use case is to have the ability to render the XDP as HTML for data capture activities. This works well when the forms are simple and can be filled and submitted online. However, if the form is complex the users may not be able to complete the form online, we need to provide the ability to allow the form fillers to download interactive version of the form to be filled in using Acrobat/Reader in offline manner. Once the form is filled, the user can be online to submit the form.
  To accomplish this use case we need to perform the following steps:
