@@ -138,6 +138,7 @@ team: TM
   + [Custom domain name with Customer CDN](./content-delivery/custom-domain-names-with-customer-managed-cdn.md)
   + [Caching](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/caching/overview){target=_blank}
   + [Adobe CDN - beyond caching](./content-delivery/adobe-cdn-beyond-caching.md) 
+  + [Custom Error Pages](./content-delivery/custom-error-pages.md)
   + [URL Redirects](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/administration/url-redirection.html){target=_blank}
 + Caching{#caching}
   + [Overview](./caching/overview.md)
