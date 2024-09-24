@@ -186,7 +186,7 @@ For demo purposes, let's use [React](https://react.dev/), however, you can use a
     - `src/App.css`: Style the error page content.
 
       ```css
-          .App {
+      .App {
         text-align: left;
       }
 
