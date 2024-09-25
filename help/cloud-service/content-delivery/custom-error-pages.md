@@ -20,7 +20,7 @@ Learn how to implement custom error pages for your AEM as a Cloud Service hosted
 In this tutorial, you learn:
 
 - Default error pages
-- Error pages served from
+- From where error pages are served
   - AEM service type - author, publish, preview
   - Adobe-managed CDN
 - Options to customize error pages
@@ -44,8 +44,14 @@ The default error page _gets served_ from the _AEM service type_(author, publish
 
 | Error page served from | Details |
 |---------------------|:-----------------------:|
-| AEM service type - author, publish, preview    |  When the page request is served by the AEM service type, the error page is served from the AEM service type. |
-| Adobe-managed CDN   | When the Adobe-managed CDN _cannot reach the AEM service type_ (origin server), the error page is served from the Adobe-managed CDN. **It is an unlikely event but worth mentioning.** |
+| AEM service type - author, publish, preview    |  When the page request is served by the AEM service type and any of the above error scenarios occur, the error page is served from the AEM service type. |
+| Adobe-managed CDN   | When the Adobe-managed CDN _cannot reach the AEM service type_ (origin server), the error page is served from the Adobe-managed CDN. **It is an unlikely event but worth planning for.** |
+
+
+For example, the default error pages served from the AEM service type and Adobe-managed CDN are as follows:
+
+  ![Default AEM Error Pages](./assets/aem-default-error-pages.png)
+
 
 However, you can _customize both AEM service type and Adobe-managed_ CDN error pages to match your brand and provide a better user experience.
 
@@ -83,9 +89,13 @@ In this tutorial, you learn how to customize error pages using the _ErrorDocumen
 
 - Verify that the WKND site pages render correctly.
 
-## ErrorDocument Apache directive to customize error pages{#errordocument-directive}
+## ErrorDocument Apache directive to customize AEM served error pages{#errordocument}
 
-Let's review how [AEM WKND](https://github.com/adobe/aem-guides-wknd) project uses the `ErrorDocument` Apache directive to display custom error pages.
+To customize AEM served error pages, use the `ErrorDocument` Apache directive. 
+
+In AEM as a Cloud Service, the `ErrorDocument` Apache directive option is only applicable to the publish and preview service types. It is not applicable to the author service type as Apache + Dispatcher is not part of the deployment architecture.
+
+Let's review how the [AEM WKND](https://github.com/adobe/aem-guides-wknd) project uses the `ErrorDocument` Apache directive to display custom error pages.
 
 - The `ui.content.sample` module contains the branded [error pages](https://github.com/adobe/aem-guides-wknd/tree/main/ui.content.sample/src/main/content/jcr_root/content/wknd/language-masters/en/errors) @ `/content/wknd/language-masters/en/errors`. Review them in your [local AEM](http://localhost:4502/sites.html/content/wknd/language-masters/en/errors) or AEM as a Cloud Service `https://author-p<ID>-e<ID>.adobeaemcloud.com/ui#/aem/sites.html/content/wknd/language-masters/en/errors` environment.
 
@@ -117,28 +127,61 @@ Let's review how [AEM WKND](https://github.com/adobe/aem-guides-wknd) project us
 
 - Review the WKND site's custom error pages by entering an incorrect page name or path in your environment, for example [https://publish-p105881-e991000.adobeaemcloud.com/us/en/foo/bar.html](https://publish-p105881-e991000.adobeaemcloud.com/us/en/foo/bar.html).
     
-## ACS AEM Commons-Error Page Handler to customize error pages{#acs-aem-commons-error-page-handler}
+## ACS AEM Commons-Error Page Handler to customize AEM served error pages{#acs-aem-commons}
 
-To customize error pages using the ACS AEM Commons Error Page Handler, review the [How to Use](https://adobe-consulting-services.github.io/acs-aem-commons/features/error-handler/index.html#how-to-use) section.
+To customize AEM served error pages across _all AEM service types_, you can use the [ACS AEM Commons Error Page Handler](https://adobe-consulting-services.github.io/acs-aem-commons/features/error-handler/index.html) option.
 
-## CDN error pages to customize error pages{#cdn-error-pages}
+. For detailed step-by-step instructions, see the [How to Use](https://adobe-consulting-services.github.io/acs-aem-commons/features/error-handler/index.html#how-to-use) section.
+
+## CDN error pages to customize CDN served error pages{#cdn-error-pages}
+
+To customize error pages served by the Adobe-managed CDN, use the CDN error pages option. 
 
 Let's implement CDN error pages to customize error pages when the Adobe-managed CDN cannot reach the AEM service type (origin server).
 
 >[!IMPORTANT]
 >
-> Note that the Adobe-managed CDN cannot reach the AEM service type (origin server) is an unlikely event but worth planning for.
+> The _Adobe-managed CDN cannot reach the AEM service type_ (origin server) is an **unlikely event** but worth planning for.
+
+The high-level steps to implement CDN error pages are:
+
+- Develop a custom error page content as a Single Page Application (SPA).
+- Host the static files required for the CDN error page in a publicly accessible location.
+- Configure the CDN rule (errorPages) and reference the above static files.
+- Deploy the configured CDN rule to the AEM as a Cloud Service environment using the Cloud Manager pipeline.
+- Test the CDN error pages.
 
 
 ### CDN error pages overview
 
-The CDN error page is implemented as a Single Page Application (SPA) by the Adobe-managed CDN.
+The CDN error page is implemented as a Single Page Application (SPA) by the Adobe-managed CDN. The SPA HTML document delivered by the Adobe-managed CDN contains the bare minimum HTML snippet. The custom error page content is generated dynamically using a JavaScript file. The JavaScript file must be developed and hosted in a publicly accessible location by the customer.
 
-The WKND specific branded content must be generated dynamically using the JavaScript file. The JavaScript file must be hosted in a publicly accessible location. Thus, the following static files must be developed and hosted in a publicly accessible location:
+The HTML snippet delivered by the Adobe-managed CDN has the following structure:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    ...
+
+    <title>{title}</title>
+    <link rel="icon" href="{icoUrl}">
+    <link rel="stylesheet" href="{cssUrl}">
+  </head>
+  <body>
+    <script src="{jsUrl}"></script>
+  </body>
+</html>
+```
+
+The HTML snippet contains the following placeholders:
 
 1. **jsUrl**: The absolute URL of the JavaScript file to render the error page content by creating HTML elements dynamically.
 1. **cssUrl**: The absolute URL of the CSS file to style the error page content.
 1. **icoUrl**: The absolute URL of the favicon.
+
+
 
 ### Develop a custom error page
 
@@ -334,9 +377,11 @@ To test the CDN error pages, follow the below steps:
 
 ## Summary
 
-In this tutorial, you learned how to implement custom error pages for your AEM as a Cloud Service hosted website. 
+In this tutorial, you learned about default error pages, where error pages are served from, and options to customize error pages. You learned how to implement custom error pages using the `ErrorDocument` Apache directive, the `ACS AEM Commons Error Page Handler`, and the `CDN Error Pages` options.
 
-You also learned the detailed steps for the CDN error pages option to customize error pages when the Adobe-managed CDN cannot reach the AEM service type (origin server).
+## Additional Resources
 
+- [Configuring CDN Error Pages](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-error-pages)
 
+- [Cloud Manager - Config pipelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines#config-deployment-pipeline)
 
