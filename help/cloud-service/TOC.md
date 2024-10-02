@@ -211,7 +211,6 @@ team: TM
     + [Introduction](./migration/cloud-acceleration-manager/introduction.md)
     + [Readiness and Best Practice Analyzer](./migration/cloud-acceleration-manager/readiness-and-best-practice-analyzer.md)
     + [Implementation phase](./migration/cloud-acceleration-manager/implementation-phase.md)
-    + [Content Transfer Tool](./migration/cloud-acceleration-manager/content-transfer-tool.md)
     + [Code Refactoring tools](./migration/cloud-acceleration-manager/code-refactoring-tools.md)
     + [Code Repository Modernizer](./migration/cloud-acceleration-manager/code-repository-modernizer.md)
     + [Dispatcher Converter](./migration/cloud-acceleration-manager/dispatcher-converter.md)
