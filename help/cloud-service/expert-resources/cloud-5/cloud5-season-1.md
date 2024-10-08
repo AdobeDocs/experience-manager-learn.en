@@ -102,47 +102,6 @@ Each season varies in length and is released on a fixed schedule. Season 1's top
       </p>
    </td> 
   </tr>
-<tr>
-   <td>
-        <a href="./cloud5-aem-content-migration-part-2.md">
-            <img alt="Migration (part 2)" src="./imgs/007-thumb.png"/>
-        </a>
-      <div>
-        <a href="./cloud5-aem-content-migration-part-2.md"><strong>Migration (part 2)</strong></a>     
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
-      </div>
-      <p>
-        <br/>
-         Part two (of two) of our tips and tricks for migrating to the cloud. Part two is primarily about using the available tools for migration.
-      </p>
-     </td>   
-     <td>
-        <a href="./cloud5-aem-dispatcher-validator.md">
-            <img alt="Dispatcher Validator" src="./imgs/008-thumb.png"/>
-        </a>
-      <div>
-         <a href="./cloud5-aem-dispatcher-validator.md"><strong>Dispatcher Validator</strong></a>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
-      </div>
-      <p>
-        <br/>
-         An offshoot of the earlier migration discussions, we take a look at the dispatcher validator and some of the tasks it can accomplish.
-      </p>
-   </td>
-     <td>
-        <a href="./cloud5-aem-search-and-indexing.md">
-            <img alt="Indexing and Search Tips" src="./imgs/009-thumb.png"/>
-        </a>
-      <div>
-         <a href="./cloud5-aem-search-and-indexing.md"><strong>Indexing and Search Tips</strong></a>
-         <br/><em>with Darin Kuntze & James Talbot, Senior Cloud Architects</em>
-      </div>
-      <p>
-        <br/>
-         For something as complex as indexing and search, the team shows you some easy wins for optimizing your development time and solving things before they become problems.
-      </p>
-   </td> 
-  </tr>
     <tr>
         <td>
             <a href="./cloud5-adobe-app-builder.md">

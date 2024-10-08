@@ -400,7 +400,6 @@ team: TM
     + [Login Tokens](./expert-resources/cloud-5/cloud5-getting-login-token-integrations.md)
     + [Cloud Dispatcher](./expert-resources/cloud-5/cloud5-aem-dispatcher-cloud.md)
     + [Migration 1](./expert-resources/cloud-5/cloud5-aem-content-migration-part-1.md)
-    + [Migration 2](./expert-resources/cloud-5/cloud5-aem-content-migration-part-2.md)
     + [Dispatcher Validator](./expert-resources/cloud-5/cloud5-aem-dispatcher-validator.md)
     + [Search and Indexing](./expert-resources/cloud-5/cloud5-aem-search-and-indexing.md)
     + [Adobe App Builder](./expert-resources/cloud-5/cloud5-adobe-app-builder.md)
