@@ -233,5 +233,20 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                  Learn about techniques to improve total blocking time.
             </p>
         </td>            
+        <td>
+            <a href="./season-3/cloud5-lighthouse-score-optimization-part3.md">
+                <img alt="Lighthouse Score Optimization - Part 3"
+                     src="https://video.tv.adobe.com/v/3435001?format=jpeg"/>
+            </a>
+            <div>
+                <a href="./season-3/cloud5-lighthouse-score-optimization-part3.md">
+                <strong>Lighthouse Score Optimization - Part 3</strong></a>
+                <br/><em>with James Talbot & Varun Mitra, Cloud Architect</em>
+            </div>
+            <p>
+                <br/>                
+                 Learn about techniques to improve Largest Contentful Paint (LCP).
+            </p>
+        </td>            
     </tr>        
 </table>

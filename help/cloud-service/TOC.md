@@ -428,4 +428,5 @@ team: TM
       + [Using Admin API](./expert-resources/cloud-5/season-3/cloud5-using-admin-api.md)
       + [Lighthouse Score Optimization - Part1](./expert-resources/cloud-5/season-3/cloud5-lighthouse-score-optimization-part1.md)
       + [Lighthouse Score Optimization - Part2](./expert-resources/cloud-5/season-3/cloud5-lighthouse-score-optimization-part2.md)
+      + [Lighthouse Score Optimization - Part3](./expert-resources/cloud-5/season-3/cloud5-lighthouse-score-optimization-part3.md)
       
