@@ -73,6 +73,7 @@ team: TM
   + [Setting Up Content Hub](./content-hub/settingup-content-hub.md)
   + [Uploading Assets and Approval Process](./content-hub/uploading-assets-and-approval-process.md)
   + [Accessing and Downloading Assets](./content-hub/accessing-and-downloading-assets.md)
+  + [Creating Image Variants using Adobe Express](./content-hub/creating-image-variants-using-adobe-express.md)
   
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
