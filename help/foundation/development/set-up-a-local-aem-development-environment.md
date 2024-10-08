@@ -177,6 +177,7 @@ The **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** is a powerful IDE for p
 * **[repo](https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo#integration-into-visual-studio-code)** - FTP-like tool for JCR content
 * **[aemfed](https://aemfed.io/)** - Speed up your AEM front-end workflow
 * **[AEM Sync](https://marketplace.visualstudio.com/items?itemName=Yinkai15.aemsync)** - Community supported&#42; extension for Visual Studio Code
+* **[WKND project](https://github.com/adobe/aem-guides-wknd)** - Example AEM project shown in this video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25907?quality=12&learn=on)
 
