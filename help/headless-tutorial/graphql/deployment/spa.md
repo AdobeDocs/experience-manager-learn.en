@@ -47,7 +47,7 @@ How SPA and AEM traffic is routed on the shared domain, is up to you: CDN with m
 
 Below are deployment configurations required for SPA production deployments, when hosted on the same domain as AEM.
 
-| SPA connects to                                    | AEM Author | AEM Publish | AEM Preview |
+| SPA connects to →                                  | AEM Author | AEM Publish | AEM Preview |
 |---------------------------------------------------:|:----------:|:-----------:|:-----------:|
 | [Dispatcher filters](./configurations/dispatcher-filters.md)      | &#10008;   | &#10004;    | &#10004;    |
 | Cross-origin resource sharing (CORS)                              | &#10008;   | &#10008;    | &#10008;    |
@@ -64,7 +64,7 @@ Since AEM and the SPA are accessed from different domains, web browsers enforce 
 
 Below are deployment configurations required for SPA production deployments, when hosted on a different domain than AEM.
 
-| SPA connects to                                    | AEM Author | AEM Publish | AEM Preview |
+| SPA connects to →                                  | AEM Author | AEM Publish | AEM Preview |
 |---------------------------------------------------:|:----------:|:-----------:|:-----------:|
 | [Dispatcher filters](./configurations/dispatcher-filters.md)      | &#10008;   | &#10004;    | &#10004;    |
 | [Cross-origin resource sharing (CORS)](./configurations/cors.md)  | &#10004;   | &#10004;    | &#10004;    |
