@@ -20,7 +20,7 @@ AEM Headless [Web Component](https://developer.mozilla.org/en-US/docs/Web/Web_Co
 
 The following deployment configuration must be in-place for Web Component/JS deployments.
 
-| Web Component/JS app connects to              | AEM Author | AEM Publish | AEM Preview |
+| Web Component/JS app connects to →            | AEM Author | AEM Publish | AEM Preview |
 |---------------------------------------------------:|:----------:|:-----------:|:-----------:|
 | [Dispatcher filters](./configurations/dispatcher-filters.md)      | &#10008;   | &#10004;    | &#10004;    |
 | [Cross-origin resource sharing (CORS)](./configurations/cors.md)  | &#10004;   | &#10004;    | &#10004;    |
