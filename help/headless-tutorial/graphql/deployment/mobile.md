@@ -21,7 +21,7 @@ Mobile deployments require minimal configuration, as HTTP connections to AEM Hea
 
 The following deployment configuration must be in-place for mobile app deployments.
 
-| Mobile app connects to                             | AEM Author | AEM Publish | AEM Preview |
+| Mobile app connects to →                           | AEM Author | AEM Publish | AEM Preview |
 |---------------------------------------------------:|:----------:|:-----------:|:-----------:|
 | [Dispatcher filters](./configurations/dispatcher-filters.md)      | &#10008;   | &#10004;    | &#10004;    |
 | Cross-origin resource sharing (CORS)              | &#10008;   | &#10008;    | &#10008;    |
