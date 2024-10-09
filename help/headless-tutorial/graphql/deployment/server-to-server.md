@@ -21,7 +21,7 @@ Server-to-server deployments require minimal configuration, as HTTP connections 
 
 The following deployment configuration must be in-place for server-to-server app deployments.
 
-| Server-to-server app connects to                               | AEM Author | AEM Publish | AEM Preview |
+| Server-to-server app connects to →                             | AEM Author | AEM Publish | AEM Preview |
 |---------------------------------------------------------------:|:----------:|:-----------:|:-----------:|
 | [Dispatcher filters](./configurations/dispatcher-filters.md)   | &#10008;   | &#10004;    | &#10004;    |
 | Cross-origin resource sharing (CORS)                           | &#10008;   | &#10008;    | &#10008;    |
