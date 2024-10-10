@@ -10,6 +10,8 @@ doc-type: Technical Video
 duration: 616
 last-substantial-update: 2024-10-08
 jira: KT-16300
+hidefromtoc: yes
+recommendations: noDisplay, noCatalog
 ---
 
 # Lighthouse Score Optimization - Part 3
