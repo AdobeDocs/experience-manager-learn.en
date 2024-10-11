@@ -263,6 +263,11 @@ team: TM
         + [Create Data Elements](./forms/form-data-analytics/data-elements.md)
         + [Create Rules](./forms/form-data-analytics/rules.md)
         + [Test the solution](./forms/form-data-analytics/test.md)
+    + Creating Button Variations{#style-system}
+        + [Introduction](./forms/style-system/introduction.md)
+        + [Define Policy](./forms/style-system/style-policy.md)
+        + [Define Variations](./forms/style-system/create-variations.md)
+        + [Test Variations](./forms/style-system/build.md)
     + Using vertical tabs{#using-vertical-tabs}
         + [1. Introduction](./forms/using-vertical-tabs/introduction.md)
         + [2. Create Form](./forms/using-vertical-tabs/create-af.md)
