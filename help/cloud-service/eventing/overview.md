@@ -61,13 +61,12 @@ AEM Eventing offers numerous advantages for system architecture and operational 
 AEM Eventing, while powerful, has certain limitations to consider:
 
 - **Availability restricted to AEM as a Cloud Service**: Currently, AEM Eventing is exclusively available for AEM as a Cloud Service.
-- **Limited event support**: As of now, only AEM Content Fragment events are supported. However, the scope is expected to expand with the addition of more events in the future.
+
+- **Available event types**: Review the current list of available event types [here](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#available-event-types).
 
 ## How to enable
 
-AEM Eventing is enabled per AEM as a Cloud Service environment and only available to environments in pre-release mode. Contact the <a href="mailto:grp-aem-events@adobe.com">AEM-Eventing team</a> to enable your AEM environment with AEM Eventing.
-
-If already enabled, see [Enable AEM Events on your AEM Cloud Service Environment](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#enable-aem-events-on-your-aem-cloud-service-environment) for next steps.
+See [Enable AEM Events on your AEM Cloud Service Environment](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#enable-aem-events-on-your-aem-cloud-service-environment) for next steps.
 
 ## How to subscribe
 
