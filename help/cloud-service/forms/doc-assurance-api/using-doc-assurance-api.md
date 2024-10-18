@@ -7,11 +7,8 @@ level: Beginner, Intermediate
 version: Cloud Service
 feature: Document Services
 topic: Development
-badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
-
 jira: KT-15508
-badgeVersions: label="AEM Forms Cloud Service" before-title="false"
-
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 40617082-4d23-4c91-a016-2d947187052b
 ---
 # Using DocAssurance API
@@ -25,9 +22,9 @@ This article provides you  java code snippets to get you started using the API.T
 
 ## Prerequistes
 
-* Experience with AEM Forms Cloud Service
+* Experience with AEM Forms as a Cloud Service
 * Experience in using [Apache HTTP Components](https://hc.apache.org/httpcomponents-client-4.5.x/)
-* Access to AEM Forms Cloud Service environment
+* Access to AEM Forms as a Cloud Service environment
 
 ## Inspect Document
 

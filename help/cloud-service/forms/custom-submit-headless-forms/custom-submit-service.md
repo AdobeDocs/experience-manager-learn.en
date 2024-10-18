@@ -20,7 +20,7 @@ To write a custom submit service, the following steps were followed
 
 ## Create AEM Project
 
-If you already have an existing AEM Forms Cloud Service project you can [jump to writing custom submit service](#Write-the-custom-submit-service)
+If you already have an existing AEM Forms as a Cloud Service project you can [jump to writing custom submit service](#Write-the-custom-submit-service)
 
 * Create a folder called cloudmanager on your c drive.
 * Navigate to this newly created folder

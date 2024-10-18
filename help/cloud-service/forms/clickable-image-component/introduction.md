@@ -1,6 +1,6 @@
 ---
 title: Create a Clickable Image Component
-description: Create clickable image components in AEM Forms Cloud Service.
+description: Create clickable image components in AEM Forms as a Cloud Service.
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

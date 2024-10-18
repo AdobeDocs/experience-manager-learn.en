@@ -1,6 +1,6 @@
 ---
 title: Creating address component
-description: Creating new address core component in AEM Forms Cloud Service
+description: Creating new address core component in AEM Forms as a Cloud Service
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
@@ -12,7 +12,7 @@ exl-id: be25be52-2914-4820-9356-678a326f8edc
 ---
 # Deploy your project
 
-Before you start to deploy the project to your AEM Forms Cloud Service, it is recommended to deploy the project to your local cloud ready instance of AEM Forms.
+Before you start to deploy the project to your AEM Forms as a Cloud Service, it is recommended to deploy the project to your local cloud ready instance of AEM Forms.
 
 ## Synchronize changes with your AEM project 
 

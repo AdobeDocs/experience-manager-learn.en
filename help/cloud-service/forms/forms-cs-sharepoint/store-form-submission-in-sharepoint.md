@@ -8,11 +8,8 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-11895
-badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
-
 exl-id: cc5bf24c-97c5-4383-8c35-f7512e594445
-badgeVersions: label="AEM Forms Cloud Service" before-title="false"
-
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 duration: 525
 ---
 # AEM Forms as Cloud Service with Microsoft Sharepoint
