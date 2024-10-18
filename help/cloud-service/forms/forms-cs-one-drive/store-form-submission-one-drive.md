@@ -8,6 +8,8 @@ level: Beginner
 version: Cloud Service
 topic: Integrations
 jira: KT-11893
+badgeVersions: label="AEM Forms Cloud Service" before-title="false"
+
 exl-id: 8d3697a6-3a2f-4501-9eea-35cd9e555292
 duration: 393
 ---

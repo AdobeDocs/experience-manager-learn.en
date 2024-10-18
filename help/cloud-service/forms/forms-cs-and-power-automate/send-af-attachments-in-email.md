@@ -11,6 +11,8 @@ topic: Development
 jira: KT-11077
 exl-id: 1be90d9b-3669-44a0-84fb-cbdec44074d8
 duration: 391
+badgeVersions: label="AEM Forms Cloud Service" before-title="false"
+
 ---
 # Extract form attachments from submitted form data
 

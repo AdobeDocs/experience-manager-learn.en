@@ -63,7 +63,7 @@ Select the ``zip`` node and set its properties as shown below.
 Select the ``state`` node and set its properties as shown below. Notice the fieldType of state - it is set to be a dropdown
 ![state](assets/state.png)
 
-## Set default values for the state field
+## Set options for the state field
 
 Select the ``state`` node and add the following properties.
 
