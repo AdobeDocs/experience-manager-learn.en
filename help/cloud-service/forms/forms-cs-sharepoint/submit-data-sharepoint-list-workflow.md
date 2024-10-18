@@ -9,6 +9,8 @@ version: Cloud Service
 topic: Integrations
 jira: KT-15126
 exl-id: b369ed05-ba25-4b0e-aa3b-e7fc1621067d
+badgeVersions: label="AEM Forms Cloud Service" before-title="false"
+
 duration: 52
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 

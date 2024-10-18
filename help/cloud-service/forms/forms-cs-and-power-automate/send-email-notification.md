@@ -10,6 +10,8 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-10828
 exl-id: 6e9b91a0-327f-4af1-8308-c938fc9a13b9
+badgeVersions: label="AEM Forms Cloud Service" before-title="false"
+
 duration: 430
 ---
 # Extract form field values in Power Automate flow
