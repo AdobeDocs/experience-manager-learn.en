@@ -20,11 +20,11 @@ Learn how to integrate AEM Forms as a Cloud Service with Adobe Analytics on your
 
 ## Prerequisites
 
- To get the most out of this tutorial, recommended you meet the following prerequisites:
+To get the most out of this tutorial, recommended you meet the following prerequisites:
 
- * Some experience with AEM Forms as a Cloud Service
- * Access to Experience Platform tags
- * Access to Adobe Analytics
+* Some experience with AEM Forms as a Cloud Service
+* Access to Experience Platform tags
+* Access to Adobe Analytics
 
 This tutorial uses a simple adaptive form built in AEM Forms and measures form submissions for state of residence values, as well as fields that generate validation errors.
 

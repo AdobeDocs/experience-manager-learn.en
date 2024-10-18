@@ -10,7 +10,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-7424
 thumbnail: 332434.pg
-badgeVersions: label="AEM Forms Cloud Service" before-title="false"
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 
 exl-id: 21139665-eef2-4582-a360-bd4b8dafaf6c
 duration: 641

@@ -1,6 +1,6 @@
 ---
 title: Creating address component
-description: Creating new address core component in AEM Forms Cloud Service
+description: Creating new address core component in AEM Forms as a Cloud Service
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
@@ -8,11 +8,8 @@ version: Cloud Service
 feature: Adaptive Forms
 topic: Development
 jira: KT-15752
-badgeVersions: label="AEM Forms Cloud Service" before-title="false"
-
 exl-id: 21b6640e-5cfa-4902-9660-a2b1c91b285d
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
-
 ---
 # Creating new core component in AEM Forms
 
@@ -24,7 +21,7 @@ In this tutorial, we will be creating an address block component. The address bl
 
 ## Prerequisites
 
-* Access to AEM Forms Cloud Service Instance
+* Access to AEM Forms as a Cloud Service Instance
 * Some experience in developing forms using AEM Forms module
 * Experience in setting up development environment for AEM/AEM Forms(Git,IntelliJ,etc)
 

@@ -1,5 +1,5 @@
 ---
-title: Use Vertical Tabs in AEM Forms Cloud Service
+title: Use Vertical Tabs in AEM Forms as a Cloud Service
 description: Create an Adaptive Form using vertical tabs.
 solution: Experience Manager, Experience Manager Forms
 type: Documentation

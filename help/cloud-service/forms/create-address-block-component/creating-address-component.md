@@ -1,6 +1,6 @@
 ---
 title: Creating address component
-description: Creating new address core component in AEM Forms Cloud Service
+description: Creating new address core component in AEM Forms as a Cloud Service
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

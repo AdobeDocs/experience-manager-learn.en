@@ -100,8 +100,8 @@ Enabling CORS on AEM Publish (and Preview) services are different from the AEM A
 
 When configuring CORS on AEM Publish, ensure:
 
-  + The `Origin` HTTP request header cannot be sent to AEM Publish service, by removing the `Origin` header (if previously added) from the AEM Dispatcher project's `clientheaders.any` file. Any `Access-Control-` headers should be removed from the `clientheaders.any` file and Dispatcher manages them, not AEM Publish service.
-  + If you have any [CORS OSGi configurations](#osgi-configuration) enabled on your AEM Publish service, you have to remove them and migrate their configurations to the [Dispatcher vhost configuration](#set-cors-headers-in-vhost) outlined below.
++ The `Origin` HTTP request header cannot be sent to AEM Publish service, by removing the `Origin` header (if previously added) from the AEM Dispatcher project's `clientheaders.any` file. Any `Access-Control-` headers should be removed from the `clientheaders.any` file and Dispatcher manages them, not AEM Publish service.
++ If you have any [CORS OSGi configurations](#osgi-configuration) enabled on your AEM Publish service, you have to remove them and migrate their configurations to the [Dispatcher vhost configuration](#set-cors-headers-in-vhost) outlined below.
   
 ### Dispatcher configuration
 

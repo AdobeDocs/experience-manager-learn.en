@@ -1,5 +1,5 @@
 ---
-title: Integrate AEM Forms Cloud Service and Marketo
+title: Integrate AEM Forms as a Cloud Service and Marketo
 description: Learn how to integrate AEM Forms and Marketo using AEM Forms Form Data Model.
 feature: Form Data Model,Integration
 version: Cloud Service
@@ -28,7 +28,7 @@ To get started it is highly recommended that you are familiar with the following
 
 ## Prerequisite
 
- 1. Access to AEM Forms Cloud Service instance 
+ 1. Access to AEM Forms as a Cloud Service instance 
  1. Familiar with Form Data Model
  1. Basic knowledge of Swagger Files
  1. Creating Adaptive Forms
