@@ -272,6 +272,8 @@ team: TM
         + [1. Introduction](./forms/using-vertical-tabs/introduction.md)
         + [2. Create Form](./forms/using-vertical-tabs/create-af.md)
         + [3. Navigating](./forms/using-vertical-tabs/navigation.md)
+    + Using output and forms service{#forms-cs-output-and-forms-service}
+        + [Generate PDF](./forms/forms-cs-output-and-forms-service/outputservice.md)
     + Document Generation in AEM Forms CS{#doc-gen-formscs}
         + [Introduction](./forms/doc-gen-forms-cs/introduction.md)
         + [Create Service Credentials](./forms/doc-gen-forms-cs/service-credentials.md)
