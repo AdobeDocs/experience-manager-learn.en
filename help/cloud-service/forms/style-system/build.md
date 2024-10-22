@@ -15,9 +15,11 @@ jira: KT-16276
 # Test the changes
 
 Create an adaptive form based on the **"Blank with Core Components"** template. Drag and drop 3 buttons on the form and label them "Corporate","Marketing", and "Default".
-Assign the appropriate style variants to the Corporate and Marketing buttons by selecting the paint brush as shown
+Assign the appropriate style variants to the Corporate and Marketing buttons by selecting the paint brush as shown below.
 
 ![styles](assets/marketing-variation.png)
+
+The third button will have the default style applied.
 
 ## Build the theme project
 
