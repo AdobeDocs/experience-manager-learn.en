@@ -7,7 +7,7 @@ feature: Operations, Dispatcher
 role: Developer, Architect
 level: Intermediate
 jira: KT-11466
-last-substantial-update: 2022-10-14
+last-substantial-update: 2024-10-22
 index: y
 doc-type: Article
 exl-id: 8e64f251-e5fd-4add-880e-9d54f8e501a6
@@ -31,7 +31,7 @@ AEM's URL redirect solutions are as follows:
 | [At Edge via AEM-managed CDN](#at-edge-via-aem-managed-cdn)                                   | &#10004;                | &#10008;             | &#10004;             | Edge/CDN (Built-in) |
 | [At Edge via bring your own CDN (BYOCDN)](#at-edge-via-bring-your-own-cdn)                                   | &#10008;                | &#10008;             | &#10004;             | Edge/CDN (BYOCDN) |
 | [Apache `mod_rewrite` rules as Dispatcher config ](#apache-mod_rewrite-module)  | &#10004;                | &#10008;             | &#10004;             | Dispatcher |
-| [ACS Commons - Redirect Map Manager](#redirect-map-manager)                | &#10008;                | &#10004;             | &#10008;             |Dispatcher |
+| [ACS Commons - Redirect Map Manager](#redirect-map-manager)                | &#10008;                | &#10004;             | &#10004;             |Dispatcher |
 | [ACS Commons - Redirect Manager](#redirect-manager)                    | &#10008;                | &#10004;             | &#10004;              |AEM |
 | [The `Redirect` page property](#the-redirect-page-property)                    | &#10008;                | &#10004;             | &#10004;              |AEM |
 
@@ -70,7 +70,7 @@ There are two features available within [ACS AEM Commons](https://adobe-consulti
 
 #### Redirect Map Manager
 
-[Redirect Map Manager](https://adobe-consulting-services.github.io/acs-aem-commons/features/redirect-map-manager/index.html) helps AEM 6.x administrators to easily maintain and publish [Apache RewriteMap](https://httpd.apache.org/docs/2.4/rewrite/rewritemap.html) files without directly accessing the Apache Web server or requiring an Apache Web server restart. This feature allows permissions users to create, update, and delete redirect rules from a console in AEM, without the help of the development team or an AEM deployment. Redirect Map Manager is **NOT AEM as a Cloud Service compatible**.  
+[Redirect Map Manager](https://adobe-consulting-services.github.io/acs-aem-commons/features/redirect-map-manager/index.html) helps AEM administrators to easily maintain and publish [Apache RewriteMap](https://httpd.apache.org/docs/2.4/rewrite/rewritemap.html) files without directly accessing the Apache Web server or requiring an Apache Web server restart. This feature allows permissions users to create, update, and delete redirect rules from a console in AEM, without the help of the development team or an AEM deployment. Redirect Manager is both **AEM as a Cloud Service** and **AEM 6.x** compatible.
 
 #### Redirect Manager
 
