@@ -1,5 +1,5 @@
 ---
-title: Creating image variants using Adobe Express
+title: Create image variants using Adobe Express in AEM Assets Content Hub
 description: Learn how to create and edit image variants using Adobe Express within the Experience Manager Assets Content Hub.
 version: Cloud Service
 feature: Asset Management
@@ -13,7 +13,7 @@ jira: KT-15991
 thumbnail: KT-15991.jpeg
 ---
 
-# Creating image variants using Adobe Express
+# Create image variants using Adobe Express in AEM Assets Content Hub
 
 Learn how to create and edit image variants using Adobe Express within the Experience Manager Assets Content Hub.
 
