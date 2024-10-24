@@ -70,10 +70,12 @@ team: TM
   + [Sidekick plugin](./edge-delivery-services/sidekick-plugin.md)
 
 + Content Hub{#content-hub}
-  + [Setting Up Content Hub](./content-hub/settingup-content-hub.md)
-  + [Uploading Assets and Approval Process](./content-hub/uploading-assets-and-approval-process.md)
-  + [Accessing and Downloading Assets](./content-hub/accessing-and-downloading-assets.md)
-  + [Creating Image Variants using Adobe Express](./content-hub/creating-image-variants-using-adobe-express.md)
+  + [Set Up](./content-hub/set-up.md)
+  + [Add Assets](./content-hub/add-assets.md)
+  + [Download Assets](./content-hub/download-assets.md)
+  + [Image Variants using Adobe Express](./content-hub/image-variants.md)
+  + [Collections](./content-hub/collections.md)
+  + [Sharing](./content-hub/share.md)
   
 + Sharing and Distribution{#sharing}
   + [Download Assets](./sharing/download.md)
