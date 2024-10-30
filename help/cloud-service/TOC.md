@@ -273,6 +273,7 @@ team: TM
         + [1. Introduction](./forms/using-vertical-tabs/introduction.md)
         + [2. Create Form](./forms/using-vertical-tabs/create-af.md)
         + [3. Navigating](./forms/using-vertical-tabs/navigation.md)
+        + [4. Adding Icons](./forms/using-vertical-tabs/icons.md)
     + Using output and forms service{#forms-cs-output-and-forms-service}
         + [Generate PDF](./forms/forms-cs-output-and-forms-service/outputservice.md)
     + Document Generation in AEM Forms CS{#doc-gen-formscs}

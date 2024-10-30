@@ -23,7 +23,7 @@ The third button will have the default style applied.
 
 ## Build the theme project
 
-The next step is to build the theme project. Navigate to the root folder of your theme project and run the command _**npm run build**_ as shown in the screenshot below
+The next step is to build the theme project. Navigate to the root folder of your theme project and run the command _**npm run build**_ as shown in the screenshot below.
 
 ![build-theme](assets/build-theme.png)
 
@@ -40,4 +40,8 @@ Once the theme project is built successfully, your are ready to test the changes
 * The buttons should get updated with the appropriate styles as shown below.
 
 ![final-buttons](assets/final-state-buttons.png) 
+
+## Push the changes
+
+If you are satisfied with the changes, you can push the changes to your cloud instance using the [front-end pipeline](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/enable-frontend-pipeline-devops/create-frontend-pipeline) 
 
