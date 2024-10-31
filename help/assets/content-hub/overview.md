@@ -254,7 +254,7 @@ Explore Content Hub's product documentation to help you understand and make full
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/frequently-asked-questions-content-hub" title="Content Hub FAQ">Content Hub FAQ</a>
                     </p>
-                    <p class="is-size-6">Get responses to some of the most frquently asked questions (FAQs) for Content Hub.</p>
+                    <p class="is-size-6">Get responses to some of the most frequently asked questions (FAQs) for Content Hub.</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/frequently-asked-questions-content-hub" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Read the documentation</span>
