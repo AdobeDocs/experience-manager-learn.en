@@ -6,7 +6,7 @@ feature: Asset Management, Marketing Campaigns, Metadata
 topic: Content Supply Chain, Content Management
 role: User
 level: Beginner
-doc-type: Tutorial
+doc-type: Feature Video
 duration: 196
 last-substantial-update: 2024-08-28
 jira: KT-15986

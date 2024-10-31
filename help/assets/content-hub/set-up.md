@@ -1,12 +1,12 @@
 ---
 title: Set up AEM Assets Content Hub
-description: Learn how to set up the Experience Manager Assets Content Hub using the Adobe Cloud Manager program and assets add-on. Also learn how to configure access for users using product profiles.
+description: Learn how to set up the Adobe Experience Manager Assets Content Hub on AEM as a Cloud Service.
 version: Cloud Service
 feature: Configuration, Asset Management
 topic: Content Supply Chain, Administration
 role: Admin
 level: Beginner
-doc-type: Tutorial
+doc-type: Feature Video
 duration: 374
 last-substantial-update: 2024-09-10
 jira: KT-15989

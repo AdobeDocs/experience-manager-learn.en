@@ -50,7 +50,7 @@ This video series covers everything you need to work effectively with AEM Assets
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/content-hub/set-up" title="Set up">Set up</a>
                     </p>
-                    <p class="is-size-6">Learn how to set up Content Hub</p>
+                    <p class="is-size-6">Learn how to set up the Experience Manager Assets Content Hub using the Adobe Cloud Manager program and assets add-on. Also learn how to configure access for users using product profiles.</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/content-hub/set-up" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Take the tutorial</span>
@@ -177,6 +177,8 @@ This video series covers everything you need to work effectively with AEM Assets
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 
+
+
 ## Content Hub documentation
 
 Explore Content Hub's product documentation to help you understand and make full use of AEM Assets Content Hub. These resources provide detailed guidance on using its features and functions, ensuring you have the support you need for efficient asset management.
@@ -191,12 +193,12 @@ Explore Content Hub's product documentation to help you understand and make full
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Content Hub Overview">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Content Hub documentation">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview" title="Content Hub Overview">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview./media_1ef4ad26652365b140f1a06c31df8ebc6546850df.png?width=400&format=png&optimize=medium" alt="Content Hub Overview"
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview" title="Content Hub documentation">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview./media_1ef4ad26652365b140f1a06c31df8ebc6546850df.png?width=400&format=png&optimize=medium" alt="Content Hub documentation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -204,7 +206,7 @@ Explore Content Hub's product documentation to help you understand and make full
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview" title="Content Hub Overview">Content Hub Overview</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview" title="Content Hub documentation">Content Hub documentation</a>
                     </p>
                     <p class="is-size-6">Learn more about Content Hub, its key benefits, how to access it, and how to provide feedback around the options available in Content Hub.</p>
                 </div>
@@ -262,3 +264,5 @@ Explore Content Hub's product documentation to help you understand and make full
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+
