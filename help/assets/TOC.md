@@ -70,6 +70,7 @@ team: TM
   + [Sidekick plugin](./edge-delivery-services/sidekick-plugin.md)
 
 + Content Hub{#content-hub}
+  + [Overview](./content-hub/overview.md)
   + [Set Up](./content-hub/set-up.md)
   + [Add Assets](./content-hub/add-assets.md)
   + [Download Assets](./content-hub/download-assets.md)
