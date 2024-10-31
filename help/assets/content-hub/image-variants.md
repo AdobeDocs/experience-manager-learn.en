@@ -6,7 +6,7 @@ feature: Asset Management
 topic: Content Supply Chain, Content Management, Artificial Intelligence
 role: User
 level: Beginner
-doc-type: Tutorial
+doc-type: Feature Video
 duration: 196
 last-substantial-update: 2024-10-08
 jira: KT-15991
