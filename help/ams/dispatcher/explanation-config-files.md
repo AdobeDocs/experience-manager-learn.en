@@ -113,7 +113,7 @@ When extending functionality and configurations in Apache Webserver installed on
 
 ### Apache Baseline Includes
 
-![](assets/explanation-config-files/Apache-Webserver-Baseline-Includes.png)
+![Apache HTTPD web server baseline includes](assets/explanation-config-files/Apache-Webserver-Baseline-Includes.png)
 
 As seen in the diagram above the httpd binary only looks to the httpd.conf file as it's configuration file.  That file contains the following statements in it:
 
