@@ -33,7 +33,7 @@ Check out these videos on how to use Assets Essentials to manage your assets, an
 </td>
 <td>
    <a href="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html">
-   <img alt="" src="./assets/overview/assets-essentials-docs.png"/>
+   <img alt="Assets Essentials documentation" src="./assets/overview/assets-essentials-docs.png"/>
    </a>
    <div>
       <a href="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html">
@@ -46,7 +46,7 @@ Check out these videos on how to use Assets Essentials to manage your assets, an
 </td>
 <td>
    <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html">
-   <img alt="Adobe Journey Optimizer" src="./assets/overview/adobe-journey-optimizer.png" />
+   <img alt="Adobe Journey Optimizer and Assets Essentials" src="./assets/overview/adobe-journey-optimizer.png" />
    </a>
    <div>
       <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html">
