@@ -39,7 +39,7 @@ Below are the Analytics variables currently being tracked:
 ### Objectives {#objective}
 
 1. Create a Report Suite or use an existing one.
-1. Configure [Conversion Variables (eVars)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/conversion-var-admin.html) and [Success Events (Events)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html) in the Report Suite.
+1. Configure [Conversion Variables (eVars)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/conversion-var-admin.html) and [Success Events (Events)](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event) in the Report Suite.
 1. Create an [Analysis Workspace project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) to analyze data with the help of tools that allows you to build, analyze, and share insights quickly.
 1. Share the Analysis Workspace project with other team members.
 
