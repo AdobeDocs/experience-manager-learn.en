@@ -609,7 +609,7 @@ Allow the necessary URL patterns based on if GET or POST isused
 
 ```
 # Allow GET-based SAML authentication invocation
-/0191 { /type "allow" /method "GET" /url "/system/sling/login" /query="*" }
+/0191 { /type "allow" /method "GET" /url "/system/sling/login" /query "*" }
 
 # Allow POST-based SAML authentication invocation
 /0192 { /type "allow" /method "POST" /url "/system/sling/login" }
