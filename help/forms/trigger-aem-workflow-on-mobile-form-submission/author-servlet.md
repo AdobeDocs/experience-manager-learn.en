@@ -9,8 +9,8 @@ role: Developer
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 level: Experienced
 jira: kt-16215
+exl-id: e0bde892-1da0-4b72-a408-ad7b84086939
 ---
-
 # Store submitted data
 
 The next step is to store the submitted data in the AEM Author's repository. The servlet mounted on `/bin/startworkflow` saves the submitted data.
@@ -120,4 +120,3 @@ public class StartWorkflow extends SlingAllMethodsServlet {
 ## Next Steps
 
 [Workflow launcher and workflow](./review-workflow.md)
-

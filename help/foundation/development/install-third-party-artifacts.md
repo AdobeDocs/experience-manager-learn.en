@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-09-13
 jira: KT-16207
 thumbnail: KT-16207.jpeg
+exl-id: 0cec14b3-4be5-4666-a36c-968ea2fc634f
 ---
-
 # Install third party artifacts - not available in the public Maven repository
 
 Learn how to install third-party artifacts that are *not available in the public Maven repository* when building and deploying an AEM project.

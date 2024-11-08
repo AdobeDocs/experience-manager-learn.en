@@ -1,5 +1,5 @@
 ---
-title: Using style system in AEM Forms 
+title: Using style system in AEM Forms
 description: Define the style policy for the button component
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
@@ -10,6 +10,7 @@ topic: Development
 feature: Adaptive Forms
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16276
+exl-id: 52205a93-d03c-430c-a707-b351ab333939
 ---
 # Define the style in the policy for the component
 

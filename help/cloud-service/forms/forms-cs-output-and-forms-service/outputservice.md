@@ -9,8 +9,8 @@ feature: Output Service
 topic: Development
 jira: KT-16384
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+exl-id: 8a5a4d11-12a2-462d-8684-a0c6ec0cac0e
 ---
-
 # Generate PDF documents using output service
 
 The [Output service](https://javadoc.io/static/com.adobe.aem/aem-forms-sdk-api/2024.07.31.00-240800/com/adobe/fd/output/api/OutputService.html) is an OSGi service that is part of AEM Document Services. It supports various output formats and design features of AEM Forms Designer. The Output service converts XFA templates and XML data to generate print documents in different formats.

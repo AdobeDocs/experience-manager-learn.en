@@ -12,8 +12,8 @@ last-substantial-update: 2024-10-08
 jira: KT-16300
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 0f74a746-b16e-4b95-97f1-55e3002d7f7f
 ---
-
 # Lighthouse Score Optimization - Part 3
 
 Learn about techniques to improve Largest Contentful Paint (LCP) and get the highest possible lighthouse scores on your Edge Delivery Services project.

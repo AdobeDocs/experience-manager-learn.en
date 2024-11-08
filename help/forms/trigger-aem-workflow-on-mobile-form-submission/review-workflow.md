@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 jira: kt-16215
 badgeVersions: label="AEM Forms 6.5" before-title="false"
-
+exl-id: ec60d017-8b29-4185-a097-d809e18df4a7
 ---
 # Workflow to review and approve the submitted PDF
 

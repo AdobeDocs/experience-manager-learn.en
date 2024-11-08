@@ -1,5 +1,5 @@
 ---
-title: Using style system in AEM Forms 
+title: Using style system in AEM Forms
 description: Build the theme project
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
@@ -10,8 +10,8 @@ topic: Development
 feature: Adaptive Forms
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16276
+exl-id: 4a02f494-ca0e-42d4-bbb9-6223ff8685e3
 ---
-
 # Test the changes
 
 Create an adaptive form based on the **"Blank with Core Components"** template. Drag and drop 3 buttons on the form and label them "Corporate","Marketing", and "Default".
@@ -43,5 +43,4 @@ Once the theme project is built successfully, your are ready to test the changes
 
 ## Push the changes
 
-If you are satisfied with the changes, you can push the changes to your cloud instance using the [front-end pipeline](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/enable-frontend-pipeline-devops/create-frontend-pipeline) 
-
+If you are satisfied with the changes, you can push the changes to your cloud instance using the [front-end pipeline](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/enable-frontend-pipeline-devops/create-frontend-pipeline)

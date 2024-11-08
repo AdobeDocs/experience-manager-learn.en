@@ -10,7 +10,7 @@ level: Experienced
 last-substantial-update: 2024-09-17
 jira: kt-16215
 badgeVersions: label="AEM Forms 6.5" before-title="false"
-
+exl-id: ce51b25f-6069-4799-9a61-98c0a672e821
 ---
 # Trigger AEM workflow on a Mobile Form Submission
 

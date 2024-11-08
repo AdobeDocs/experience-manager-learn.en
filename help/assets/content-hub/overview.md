@@ -1,5 +1,5 @@
 ---
-title: AEM Assets Content Hub 
+title: AEM Assets Content Hub
 description: Learn about AEN Assets as a Cloud Service's Content Hub.
 version: Cloud Service
 feature: Asset Management, Upload, Marketing Campaigns
@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Catalog
 duration: 45
 last-substantial-update: 2024-10-31
+exl-id: ea7b852e-b40d-44ef-ba63-69081e68456e
 ---
-
 # AEM Assets Content Hub
 
 ![AEM Assets Content Hub](./assets/overview/hero.png){align=center}
@@ -268,9 +268,3 @@ Explore Content Hub's product documentation to help you understand and make full
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
-
-
-
-

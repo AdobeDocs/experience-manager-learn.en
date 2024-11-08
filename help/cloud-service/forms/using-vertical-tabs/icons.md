@@ -11,6 +11,7 @@ feature: Adaptive Forms
 thumbnail: 331891.jpg
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16418
+exl-id: 20e44be0-5490-4414-9183-bb2d2a80bdf0
 ---
 # Adding custom icons 
 
