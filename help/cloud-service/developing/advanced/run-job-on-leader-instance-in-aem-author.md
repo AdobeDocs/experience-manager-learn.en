@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2024-10-23
 jira: KT-16399
 thumbnail: KT-16399.jpeg
+exl-id: b8b88fc1-1de1-4b5e-8c65-d94fcfffc5a5
 ---
-
 # How to run a job on leader instance in AEM as a Cloud Service
 
 Learn how to run a job on the leader instance in the AEM Author service as part of AEM as a Cloud Service, and understand how to configure it to run only once.

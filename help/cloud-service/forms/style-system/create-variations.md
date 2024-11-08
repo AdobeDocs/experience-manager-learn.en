@@ -1,5 +1,5 @@
 ---
-title: Using style system in AEM Forms 
+title: Using style system in AEM Forms
 description: Define the CSS classes for the variations
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
@@ -10,6 +10,7 @@ topic: Development
 feature: Adaptive Forms
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16276
+exl-id: 68030c25-1674-4a64-9f5f-c1a74a38e3ca
 ---
 # Create variations for the button component
 
@@ -88,5 +89,3 @@ The _mixins.scss file is defined under src->site as shown in the screenshot belo
 ## Next Steps
 
 [Test the variations](./build.md)
-
-

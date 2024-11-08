@@ -9,7 +9,7 @@ role: Developer
 jira: kt-16215
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 level: Experienced
-
+exl-id: 5fbc0cb9-5b55-4269-9172-039414db89cc
 ---
 # Handle Form Submission
 
