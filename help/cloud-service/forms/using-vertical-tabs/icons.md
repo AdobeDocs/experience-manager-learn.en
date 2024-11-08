@@ -1,5 +1,5 @@
 ---
-title: Using vertical tabs in AEM Forms as a Cloud Service
+title: Adding custom icons
 description: Add custom icons to vertical tabs
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
@@ -19,7 +19,7 @@ Adding custom icons to tabs can improve user experience and visual appeal in a f
 
 * Enhanced Usability: Icons can quickly convey the purpose of each tab, making it easier for users to find what they're looking for at a glance. Visual cues like icons help users navigate more intuitively.
 
-* Visual Hierarchy and Focus: Icons create a more distinct separation between tabs, improving visual hierarchy. This can help important tabs stand out and guide users' attention more effectively.
+* Visual Hierarchy and Focus: Icons create a more distinct separation between tabs, improving visual hierarchy. This can help important tabs stand out and effectively guide users' attention.
 By following this article, you should be able to place the icons as shown below
 
 ![icons](assets/icons.png)
@@ -37,9 +37,9 @@ The icons marked in red are the new icons added.
 
 ## Create icon-map to store the icons
 
-Create the icon-map to the _variable.scss file. The SCSS map $icon-map is a collection of key-value pairs, where each key represents an icon name (like home, family, etc.), and each value is the path to the image file associated with that icon.
+Create the icon-map in the _variable.scss file. The SCSS map $icon-map is a collection of key-value pairs, where each key represents an icon name (like home, family, etc.), and each value is the path to the image file associated with that icon.
 
-![variable-scss](assets/variable.scss)
+![variable-scss](assets/variable_scss.png)
 
 ``` css
 $icon-map: (
@@ -80,8 +80,7 @@ Add the following code to the _mixin.scss
 
 The add-icon-to-vertical-tab mixin is designed to add a custom icon next to the text on a vertical tab. It allows you to easily include an image as an icon on tabs, positioning it beside the text and styling it to ensure consistency and alignment.
 
-Breakdown of the Mixin
-Here's what each part of the mixin does:
+Breakdown of the Mixin, here's what each part of the mixin does:
 
 Parameters:
 
