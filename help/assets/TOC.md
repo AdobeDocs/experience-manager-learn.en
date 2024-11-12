@@ -13,6 +13,10 @@ team: TM
 
 + [Overview](overview.md)
 
++ Video playlists{#video-playlists}
+  + [Admin view](playlists/admin-view.md)
+  + [Assets view](playlists/assets-view.md)
+
 + Configuring{#configuring}
   + [Baseline folders](configuring/baseline-folders.md)
   + [Baseline permissions](configuring/baseline-permissions.md)
@@ -22,79 +26,79 @@ team: TM
   + [Metadata folder schemas](configuring/metadata-folder-schemas.md)
   + [Assets admin search rail](configuring/assets-admin-search-rail.md)
   + [Processing profiles](configuring/processing-profiles.md)
-  + [Auto-start Workflows](configuring/auto-start-workflows.md)
+  + [Auto-start workflows](configuring/auto-start-workflows.md)
 
 + Authoring{#authoring}
-  + [Switch Views](./authoring/switch-views.md)
+  + [Switch views](./authoring/switch-views.md)
   + [Navigation](./authoring/navigation.md)
-  + [Basic Operations](./authoring/basic-operations.md)
+  + [Basic operations](./authoring/basic-operations.md)
   + [Metadata](./authoring/metadata.md)
   + [Renditions](./authoring/renditions.md)
-  + [Relate and Unrelate](./authoring/relate-unrelate.md)
+  + [Relate and unrelate](./authoring/relate-unrelate.md)
 
 + Collaboration{#collaboration}
   + [Watch](./collaboration/watch.md)
-  + [Timeline and Inbox](./collaboration/timeline-and-inbox.md)
-  + [Comments and Annotations](./collaboration/comments-and-annotations.md)
-  + [Check in and Check out](./collaboration/check-in-and-check-out.md)
+  + [Timeline and inbox](./collaboration/timeline-and-inbox.md)
+  + [Comments and annotations](./collaboration/comments-and-annotations.md)
+  + [Check in and check out](./collaboration/check-in-and-check-out.md)
   + [Versions](./collaboration/versions.md)
-  + [Review Task](./collaboration/review-task.md)
+  + [Review task](./collaboration/review-task.md)
 
-+ Search and Discovery{#search-and-discovery}
++ Search and discovery{#search-and-discovery}
   + [Search](./search-and-discovery/search.md)           
-  + [Contextual Search](./search-and-discovery/contextual-search.md)  
+  + [Contextual search](./search-and-discovery/contextual-search.md)  
   + [Adobe Firefly integration](./search-and-discovery/adobe-firefly.md)
   + [Collections](./search-and-discovery/collections.md) 
-  + [Search Boost](./search-and-discovery/search-boost.md)
-  + [Find Similar Images](./search-and-discovery/find-similar-images.md)
+  + [Search boost](./search-and-discovery/search-boost.md)
+  + [Find similar images](./search-and-discovery/find-similar-images.md)
 
-+ Advanced Capabilities{#advanced}
-  + [3D Assets](./advanced/3d-assets.md) 
-  + [Annotations PDF Output](./advanced/customizing-annotations-pdf-output.md)
-  + [Assets Reports](./advanced/asset-reports.md)
-  + [Blocked Tags](./advanced/blocked-tags.md)
-  + [Extract Archive](./advanced/extract-archive.md)
++ Advanced capabilities{#advanced}
+  + [3D assets](./advanced/3d-assets.md) 
+  + [Annotations PDF output](./advanced/customizing-annotations-pdf-output.md)
+  + [Assets reports](./advanced/asset-reports.md)
+  + [Blocked tags](./advanced/blocked-tags.md)
+  + [Extract archive](./advanced/extract-archive.md)
   + [Permissions (CUGs)](./advanced/closed-user-groups.md)
-  + [Metadata-Driven Permissions](./advanced/metadata-driven-permissions.md)
-  + [Video Closed Captions](./advanced/video-closed-captions.md)
+  + [Metadata-driven permissions](./advanced/metadata-driven-permissions.md)
+  + [Video closed captions](./advanced/video-closed-captions.md)
   + [Watermarks](./advanced/watermarks.md)
 
-+ Advanced Metadata Management{#metadata}
-  + [Cascading Metadata](metadata/cascade-metadata-feature-video-use.md)
-  + [Smart Tags for Images](metadata/image-smart-tags.md)
-  + [Custom Smart Tags for Images](metadata/custom-smart-tags.md)
-  + [Smart Tags for Videos](metadata/video-smart-tags.md)
-  + [Import and Export Metadata](metadata/metadata-import-export.md)
++ Advanced metadata management{#metadata}
+  + [Cascading metadata](metadata/cascade-metadata-feature-video-use.md)
+  + [Smart Tags for images](metadata/image-smart-tags.md)
+  + [Custom Smart Tags for images](metadata/custom-smart-tags.md)
+  + [Smart Tags for videos](metadata/video-smart-tags.md)
+  + [Import and export metadata](metadata/metadata-import-export.md)
 
 + Edge Delivery Services{#edge-delivery-services}
   + [Sidekick plugin](./edge-delivery-services/sidekick-plugin.md)
 
 + Content Hub{#content-hub}
   + [Overview](./content-hub/overview.md)
-  + [Set Up](./content-hub/set-up.md)
-  + [Add Assets](./content-hub/add-assets.md)
-  + [Download Assets](./content-hub/download-assets.md)
-  + [Image Variants using Adobe Express](./content-hub/image-variants.md)
+  + [Set up](./content-hub/set-up.md)
+  + [Add assets](./content-hub/add-assets.md)
+  + [Download assets](./content-hub/download-assets.md)
+  + [Image variants using Adobe Express](./content-hub/image-variants.md)
   + [Collections](./content-hub/collections.md)
   + [Sharing](./content-hub/share.md)
   
-+ Sharing and Distribution{#sharing}
-  + [Download Assets](./sharing/download.md)
-  + [Export Assets](./sharing/export.md)
-  + [Publish Assets](./sharing/publish.md)
++ Sharing and distribution{#sharing}
+  + [Download assets](./sharing/download.md)
+  + [Export assets](./sharing/export.md)
+  + [Publish assets](./sharing/publish.md)
   
   + Brand Portal{#brand-portal}
     + [Brand Portal](./sharing/brand-portal.md)
-    + [Configure Asset Sourcing](brand-portal/configure-asset-sourcing.md)
-    + [Enable Rendition Downloads](brand-portal/enable-renditions-download.md)
+    + [Configure asset sourcing](brand-portal/configure-asset-sourcing.md)
+    + [Enable rendition downloads](brand-portal/enable-renditions-download.md)
 
-  + Asset Share{#assets-share}
+  + Asset share{#assets-share}
     + [Asset Share Commons](./sharing/asset-share-commons-user-experience-feature-video-understand.md)
     + [Set up Asset Share Commons on local AEM](./sharing/asset-share-commons-technical-video-setup.md)
     + [Theming Asset Share Commons](./sharing/asset-share-commons-feature-video-theming.md)
-    + [Asset Share Commons Asset kits](./sharing/asset-share/asset-share-commons-asset-kits.md)
+    + [Asset Share Commons asset kits](./sharing/asset-share/asset-share-commons-asset-kits.md)
 
-+ Creative Workflows{#creative-workflows}
++ Creative workflows{#creative-workflows}
   + [Adobe Express integration](./creative-workflows/adobe-express.md)
   + [Adobe Express and AEM Assets](./creative-workflows/adobe-express-aem-assets.md)
   + [AEM Desktop App](./creative-workflows/aem-desktop-app.md)
@@ -102,76 +106,76 @@ team: TM
   + [Adobe Stock](./creative-workflows/adobe-stock.md)
 
 + Adobe Asset Link{#adobe-asset-link}
-  + [Setup](./adobe-asset-link/setup.md)
+  + [Set up](./adobe-asset-link/setup.md)
   + [Access Adobe Asset Link](./adobe-asset-link/launch-adobe-asset-link.md)
-  + [Panel Overview](./adobe-asset-link/panel-overview.md)
-  + [Files and Collections](./adobe-asset-link/files-and-collections.md)
-  + [Download and Upload](./adobe-asset-link/download-and-upload.md)
-  + [Check-In Check-Out](./adobe-asset-link/check-in-check-out.md)
-  + [Versioning and Comments](./adobe-asset-link/file-versioning-and-comments.md)
-  + [Place Copy](./adobe-asset-link/place-copy.md)
-  + [Place Linked](./adobe-asset-link/place-linked.md)
-  + [For Placements Only (FPO)](./adobe-asset-link/for-placement-only.md)
-  + [Asset Search](./adobe-asset-link/asset-search.md)
+  + [Panel overview](./adobe-asset-link/panel-overview.md)
+  + [Files and collections](./adobe-asset-link/files-and-collections.md)
+  + [Download and upload](./adobe-asset-link/download-and-upload.md)
+  + [Check-in check-out](./adobe-asset-link/check-in-check-out.md)
+  + [Versioning and comments](./adobe-asset-link/file-versioning-and-comments.md)
+  + [Place copy](./adobe-asset-link/place-copy.md)
+  + [Place linked](./adobe-asset-link/place-linked.md)
+  + [For placements only (FPO)](./adobe-asset-link/for-placement-only.md)
+  + [Asset search](./adobe-asset-link/asset-search.md)
 
-+ Content Automation{#content-automation}
++ Content automation{#content-automation}
   + [Overview](./content-automation/overview.md)
-  + [Creative Operations](./content-automation/creative-operations.md)
-  + [Photoshop Actions](./content-automation/photoshop-actions.md)
+  + [Creative operations](./content-automation/creative-operations.md)
+  + [Photoshop actions](./content-automation/photoshop-actions.md)
 
 + Dynamic Media{#dynamic-media}
-  + [Dynamic Media Overview](dynamic-media/dynamic-media-overview-feature-video-use.md)
-  + [Dynamic Media Classic Desktop Application](dynamic-media/dynamic-media-classic-desktop-application.md)
+  + [Dynamic Media overview](dynamic-media/dynamic-media-overview-feature-video-use.md)
+  + [Dynamic Media Classic Desktop application](dynamic-media/dynamic-media-classic-desktop-application.md)
   + Images {#images}
-    + [Dynamic Media Snapshot](dynamic-media/dynamic-media-snapshot.md)
+    + [Dynamic Media snapshot](dynamic-media/dynamic-media-snapshot.md)
     + [Smart Crop](dynamic-media/smart-crop-feature-video-use.md)
-    + [Image Sharpening](dynamic-media/dynamic-media-image-sharpening-feature-video-use.md)
-    + [Color Management](dynamic-media/dynamic-media-color-management-technical-video-setup.md) 
+    + [Image sharpening](dynamic-media/dynamic-media-image-sharpening-feature-video-use.md)
+    + [Color management](dynamic-media/dynamic-media-color-management-technical-video-setup.md) 
   + Video {#video}
-    + [360 Video](dynamic-media/dynamic-media-360-video-custom-thumbnail-feature-video-use.md)
-    + [Custom Video Thumbnails](dynamic-media/dynamic-media-video-thumbnails-feature-video-use.md)
+    + [360 video](dynamic-media/dynamic-media-360-video-custom-thumbnail-feature-video-use.md)
+    + [Custom video thumbnails](dynamic-media/dynamic-media-video-thumbnails-feature-video-use.md)
     + [DASH adaptive streaming](dynamic-media/dynamic-media-dash.md)
-    + [Dynamic Media Smart Crop Video](dynamic-media/dynamic-media-smart-crop-video.md)
-    + [Video Player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
+    + [Dynamic Media Smart Crop video](dynamic-media/dynamic-media-smart-crop-video.md)
+    + [Video player](dynamic-media/dynamic-media-video-player-feature-video-use.md)
   + Viewers {#viewers} 
     + [Viewers](dynamic-media/dynamic-media-viewer-feature-video-understand.md)
-    + [Panoramic and Vertical Image Viewers](dynamic-media/panorama-vertical-image-viewer-feature-video-use.md)
+    + [Panoramic and vertical image viewers](dynamic-media/panorama-vertical-image-viewer-feature-video-use.md)
     + [Viewers with Adobe Analytics](dynamic-media/dynamic-media-viewer-extension-use.md)
   + 3D {#3d}
     + [Dynamic Media 3D](dynamic-media/dynamic-media-3d-feature-video.md)
   + Using with AEM Sites {#dm-with-aem-sites}
-    + [Experience Fragments](dynamic-media/dynamic-media-experience-fragments-feature-video-use.md)
+    + [Experience fragments](dynamic-media/dynamic-media-experience-fragments-feature-video-use.md)
     + [Dynamic Media Core Components](dynamic-media/dynamic-media-core-components.md)
 
   + Tutorials {#tutorials}
-    + [Creating Carousel Sets](dynamic-media/tutorials/creating-different-kinds-of-sets-with-aem-dynamic-media-carousel-sets.md)
-    + [Creating Image Sets](dynamic-media/tutorials/creating-different-kinds-of-sets-with-aem-dynamic-media-image-sets.md)
-    + [Creating Image Presets](dynamic-media/tutorials/creating-image-presets.md)
-    + [Creating Smart Crop Image Profiles](dynamic-media/tutorials/creating-image-profile-smart-crop.md)
-    + [Creating Video Profiles](dynamic-media/tutorials/creating-video-profile-to-process-videos-in-dynamic-media.md)
-    + [Processing Assets](dynamic-media/tutorials/how-to-run-dam-update-asset-workflow-on-an-asset-with-dynamic-media-enabled.md)
+    + [Creating Carousel sets](dynamic-media/tutorials/creating-different-kinds-of-sets-with-aem-dynamic-media-carousel-sets.md)
+    + [Creating Image sets](dynamic-media/tutorials/creating-different-kinds-of-sets-with-aem-dynamic-media-image-sets.md)
+    + [Creating Image presets](dynamic-media/tutorials/creating-image-presets.md)
+    + [Creating Smart Crop image profiles](dynamic-media/tutorials/creating-image-profile-smart-crop.md)
+    + [Creating Video profiles](dynamic-media/tutorials/creating-video-profile-to-process-videos-in-dynamic-media.md)
+    + [Processing assets](dynamic-media/tutorials/how-to-run-dam-update-asset-workflow-on-an-asset-with-dynamic-media-enabled.md)
     + [Configuring a Secure Preview Server](dynamic-media/tutorials/adding-test-image-server-details-in-dynamic-media-for-secure-preview.md)
-    + [Generating URLs and Embed Codes](dynamic-media/tutorials/how-to-generate-public-url-or-embed-code-for-an-asset.md)
-    + [Triggering an Export Job](dynamic-media/tutorials/how-to-trigger-export-job-in-dynamic-media-during-submit-job-operation-parameter.md)
-    + [Invalidating the CDN Cache](dynamic-media/tutorials/invalidating-the-cdn-cache-by-way-of-dynamic-media.md)
+    + [Generating URLs and embed codes](dynamic-media/tutorials/how-to-generate-public-url-or-embed-code-for-an-asset.md)
+    + [Triggering an export job](dynamic-media/tutorials/how-to-trigger-export-job-in-dynamic-media-during-submit-job-operation-parameter.md)
+    + [Invalidating the CDN cache](dynamic-media/tutorials/invalidating-the-cdn-cache-by-way-of-dynamic-media.md)
     + [Using Dynamic Media Core Components](dynamic-media/tutorials/using-dm-components-on-site-page.md)
-    + [Deleting Dynamic Media Configuration](dynamic-media/tutorials/deleting-dynamic-media-configuration.md)
+    + [Deleting Dynamic Media configuration](dynamic-media/tutorials/deleting-dynamic-media-configuration.md)
     + [Downloading Assets in Dynamic Media Classic App](dynamic-media/tutorials/how-to-download-asset-in-dynamic-media-classic-app.md)
     + [Dynamic Media Classic IPS APIs](dynamic-media/tutorials/introduction-to-dynamic-media-classic-ips-api.md)
 
-+ Workfront Integration{#workfront}
++ Workfront integration{#workfront}
   + Enhanced connector{#enhanced-connector}
-    + [Enhanced Connector basics](./workfront/enhanced-connector/basics.md)
+    + [Enhanced connector basics](./workfront/enhanced-connector/basics.md)
     + [Project folders](./workfront/enhanced-connector/project-folders.md)
-    + AEM Experts Series{#aem-experts-series}
+    + AEM Experts series{#aem-experts-series}
       + [Overview](./workfront/enhanced-connector/aem-experts-series/overview.md)
-      + [Setup](./workfront/enhanced-connector/aem-experts-series/setup.md)
+      + [Set up](./workfront/enhanced-connector/aem-experts-series/setup.md)
       + [Workfront forms and AEM metadata](./workfront/enhanced-connector/aem-experts-series/custom-forms.md)
       + [Tags, project linked folders, and folder metadata](./workfront/enhanced-connector/aem-experts-series/aem-tags-project-linked-folders-and-folder-metadata.md)
       + [Advanced settings and workflows](./workfront/enhanced-connector/aem-experts-series/advanced-settings-and-workflows.md)
 
 + Translation {#translation}
-  + [Source File Translation](translation/source-file-translation-feature-video-use.md)
+  + [Source File translation](translation/source-file-translation-feature-video-use.md)
 
 + Asset Templates{#asset-templates}
   + [Understanding Asset Templates](asset-templates/asset-templates-tutorial-understand.md)
@@ -180,6 +184,6 @@ team: TM
   + [Using Asset Catalogs](asset-templates/asset-catalog-template-feature-video-use.md)
 
 + Deployment{#deployment}
-  + [Multi-tenancy and Concurrent Development](deployment/multitenancy-concurrent-article-understand.md)
+  + [Multi-tenancy and concurrent development](deployment/multitenancy-concurrent-article-understand.md)
 
 + [Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html){target=_blank}

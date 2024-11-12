@@ -13,6 +13,8 @@ team: TM
 + [Overview](./overview.md)
 + AEM Trials {#aem-trials}
   + [Images](./aem-trials/images.md)
++ Playlists{#playlists}
+  + [AEM development](./playlists/development.md)
 + Introduction to AEM as a Cloud Service{#introduction}
   + [What is AEM as a Cloud Service?](./introduction/what-is-aem-as-a-cloud-service.md)
   + [Architecture](./introduction/architecture.md)
