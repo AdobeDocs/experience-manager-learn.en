@@ -8,8 +8,8 @@ level: Beginner
 last-substantial-update: 2024-11-01
 doc-type: Catalog
 duration: 60
+exl-id: 76af4062-4d8d-4908-bd3d-ce5a8af2111a
 ---
-
 # AEM Assets Assets view playlists
 
 Explore these playlists to master the AEM Assets as a Cloud Service Admin view—covering configuration, optimization, usage, and seamless integration with creative workflows. Get the insights you need to succeed with AEM Assets as a Cloud Service.
@@ -178,5 +178,3 @@ Unlock smooth collaboration by integrating AEM Assets as a Cloud Service with yo
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
