@@ -6,8 +6,8 @@ level: Beginner
 topic: Development
 last-substantial-update: 2024-11-01
 duration: 60
+exl-id: 13dcc312-ca66-4bfc-af31-516b543c61b0
 ---
-
 # AEM development playlists
 
 Explore essential resources and guides designed for AEM as a Cloud Service developers. From foundational concepts to practical use cases, this page provides the tools and knowledge needed to enhance your AEM development skills and tackle real-world challenges.
