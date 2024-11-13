@@ -76,7 +76,7 @@ You can use any of the free online tools to [generate XSD](https://www.freeforma
 
 ### Create Adaptive Form
 
-Create adaptive form based on the XSD from the previous step. Associate the form to use the client lib "irs". This client library has the code to make a POST call to the servlet which return the PDF to the calling application
+Create an adaptive form based on the XSD from the previous step. Associate the form to use the client lib "irs". This client library has the code to make a POST call to the servlet which return the PDF to the calling application.
 The following code gets triggered when the _Download PDF_ is clicked 
 
 ``` javascript
@@ -205,7 +205,7 @@ public class GenerateIInteractiveDor extends SlingAllMethodsServlet {
 }
 ```
 
-In the sample code, we extract the xdp Name and other parameters from the request object. If the form is not based XSD, the xml document to merge with the xdp is created.If the form is based on XSD we simply extract the appropriate node from the adaptive form submitted data to generate xml document to merge with the xdp template. 
+In this sample code, the xdp name and other parameters are extracted from the request object. If the form is not based on an XSD, a new XML document is created to merge with the xdp. However, if the form is XSD-based, the relevant node is extracted directly from the adaptive form's submitted data, and an XML document is generated to merge with the xdp template accordingly.
 
 ## Deploy the sample on your server
 
@@ -220,6 +220,11 @@ To test this on your local server, please follow the following steps:
 1. [Preview Adaptive Form](http://localhost:4502/content/dam/formsanddocuments/f8918complete/jcr:content?wcmmode=disabled)
 1. Fill in few of the form fields.
 1. Click Download PDF to get the PDF. You may have to wait a few seconds for the PDF to download.
+
+>[!NOTE]
+>
+>When you open the downloaded PDF using the browser's pdf viewer, you will not see the data in the pdf. Open the downloaded PDF using Adobe Acrobat or Adobe Reader. 
+
 
 >[!NOTE]
 >
