@@ -43,9 +43,7 @@ The following are required when setting up a Virtual Private Network using Cloud
 + The Cloud Manager Environment IDs
 + A **Route-Based** Virtual Private Network, with access to all necessary connection parameters.
 
-For more details watch the following walkthrough for how to setup, configure, and obtain Cloud Manger API credentials, and how to use them to make a Cloud Manager API call.
-
->[!VIDEO](https://video.tv.adobe.com/v/342235?quality=12&learn=on)
+For more details [review how to setup, configure, and obtain Cloud Manger API credentials](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/developing/extensibility/app-builder/server-to-server-auth),to use them to make a Cloud Manager API call.
 
 This tutorial uses `curl` to make the Cloud Manager API configurations. The provided `curl` commands assume a Linux/macOS syntax. If using the Windows command prompt, replace the `\` line-break character with `^`.
 
