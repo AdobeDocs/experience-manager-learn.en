@@ -1,5 +1,5 @@
 ---
-title: AEM Assets Admin view playlists
+title: AEM Assets Admin view video playlists
 description: Learn how to harness AEM Assets as a Cloud Service Admin capabilities with this collection of video playlists designed to enhance your product skills.
 version: Cloud Service
 topic: Content Management
