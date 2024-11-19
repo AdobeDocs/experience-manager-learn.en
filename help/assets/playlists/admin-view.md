@@ -12,7 +12,7 @@ exl-id: 924b3bab-e0ed-4b07-bded-344aab61eac5
 ---
 # Video playlists for Admin view 
 
-![AEM Assets Admin view](./assets/admin-view.png){align=center}
+![AEM Assets Admin view](./assets/admin-view.png){align="center"}
 
 Explore these playlists to master the AEM Assets as a Cloud Service Admin view—covering configuration, optimization, usage, and seamless integration with creative workflows. Get the insights you need to succeed with AEM Assets as a Cloud Service.
 
