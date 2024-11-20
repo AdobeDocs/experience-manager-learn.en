@@ -11,8 +11,8 @@ jira: KT-16516
 thumbnail: KT-16516.jpeg
 last-substantial-update: 2024-11-20
 duration: 0
+exl-id: 24c641e7-ab4b-45ee-bbc7-bf6b88b40276
 ---
-
 # How to invoke OpenAPI-based AEM APIs{#invoke-openapi-based-aem-apis}
 
 Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications.
@@ -496,4 +496,3 @@ The key callouts from the sample NodeJS application code are:
 
 In this tutorial, you learned how to invoke OpenAPI-based AEM APIs from custom applications. You enabled AEM APIs access, created and configured an Adobe Developer Console (ADC) project. 
 In the ADC Project, you added the AEM APIs, configured its authentication type, and associated the Product Profile. You also configured the AEM instance to enable ADC Project communication and developed a sample NodeJS application that calls the Assets Author API.
-

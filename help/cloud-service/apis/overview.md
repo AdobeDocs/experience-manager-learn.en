@@ -11,8 +11,8 @@ jira: KT-16515
 thumbnail: KT-16515.jpeg
 last-substantial-update: 2024-11-20
 duration: 0
+exl-id: 23b2be0d-a8d4-4521-96ba-78b70f4e9cba
 ---
-
 # AEM APIs overview{#aem-apis-overview}
 
 Learn about the different types of APIs in Adobe Experience Manager (AEM) as a Cloud Service and get an overview of [OpenAPI Specification (OAS)](https://swagger.io/specification/) based AEM APIs, commonly known as OpenAPI-based AEM APIs.
