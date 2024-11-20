@@ -10,10 +10,11 @@ role: User
 level: Beginner
 doc-type: Feature Video
 exl-id: eaf9e9fc-2058-442a-bf78-27e82c33386d
-duration: 276
+duration: 277
 ---
 # Files and Collections {#files-and-collections}
 
 Learn how to quickly and easily access AEM Assets Files and Collections from within the Asset Link panel.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33884?quality=12&learn=on)
+
