@@ -7,7 +7,7 @@ topic: Content Supply Chain, Content Management
 role: User
 level: Beginner
 doc-type: Catalog
-duration: 45
+duration: 60
 last-substantial-update: 2024-11-20
 exl-id: ea7b852e-b40d-44ef-ba63-69081e68456e
 ---
