@@ -16,4 +16,4 @@ exl-id: d04d584e-ecad-498d-a94d-36ac60b7f2c0
 
 Learn how to navigate the available tabs and customize configuration options to meet your organization's needs. This video will assist administrators in understanding the different settings and provide high-level instructions on tailoring them for optimal performance and alignment with organizational goals.
 
->[!VIDEO](https://video.tv.adobe.com/v/3439311/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439311/?learn=on&enablevpops)
