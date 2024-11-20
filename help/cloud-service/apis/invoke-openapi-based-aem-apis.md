@@ -1,6 +1,6 @@
 ---
 title: How to invoke OpenAPI-based AEM APIs
-description: Learn how to invoke OpenAPI-based AEM APIs from your application.
+description: Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications.
 version: Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
@@ -15,7 +15,7 @@ exl-id: 24c641e7-ab4b-45ee-bbc7-bf6b88b40276
 ---
 # How to invoke OpenAPI-based AEM APIs{#invoke-openapi-based-aem-apis}
 
-Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications.
+Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications.
 
 >[!AVAILABILITY]
 >
