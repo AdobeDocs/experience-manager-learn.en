@@ -135,6 +135,9 @@ team: TM
     + [Repository Browser](./debugging/cloud-service/repository-browser.md)
     + Risks{#risks}
       + [Traversal warnings](./debugging/cloud-service/risks/traversals.md)
++ AEM APIs{#aem-apis}
+  + [Overview](./apis/overview.md)
+  + [Invoke OpenAPI-based AEM APIs](./apis/invoke-openapi-based-aem-apis.md)
 + Content Delivery{#content-delivery}
   + [Custom domain name](./content-delivery/custom-domain-names.md)
   + [Custom domain name with Adobe managed CDN](./content-delivery/custom-domain-name-with-adobe-managed-cdn.md)
