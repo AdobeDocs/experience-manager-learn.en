@@ -14,8 +14,8 @@ team: TM
 + [Overview](overview.md)
 
 + Video playlists{#video-playlists}
-  + [Admin view](playlists/admin-view.md)
   + [Assets view](playlists/assets-view.md)
+  + [Admin view](playlists/admin-view.md)
 
 + Configuring{#configuring}
   + [Baseline folders](configuring/baseline-folders.md)
@@ -76,6 +76,7 @@ team: TM
 + Content Hub{#content-hub}
   + [Overview](./content-hub/overview.md)
   + [Set up](./content-hub/set-up.md)
+  + [Configure](./content-hub/configure.md)
   + [Add assets](./content-hub/add-assets.md)
   + [Download assets](./content-hub/download-assets.md)
   + [Image variants using Adobe Express](./content-hub/image-variants.md)
