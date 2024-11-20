@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Catalog
 duration: 45
-last-substantial-update: 2024-10-31
+last-substantial-update: 2024-11-20
 exl-id: ea7b852e-b40d-44ef-ba63-69081e68456e
 ---
 # AEM Assets Content Hub
