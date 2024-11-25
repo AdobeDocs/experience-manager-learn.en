@@ -11,8 +11,8 @@ jira: KT-16515
 thumbnail: KT-16515.jpeg
 last-substantial-update: 2024-11-20
 duration: 0
+exl-id: 23b2be0d-a8d4-4521-96ba-78b70f4e9cba
 ---
-
 # AEM APIs overview{#aem-apis-overview}
 
 Learn about the different types of APIs in Adobe Experience Manager (AEM) as a Cloud Service and get an overview of [OpenAPI Specification (OAS)](https://swagger.io/specification/) based AEM APIs, commonly known as OpenAPI-based AEM APIs.
@@ -65,7 +65,7 @@ The [OpenAPI Specification](https://swagger.io/specification/) (formerly known a
 
 **Forms**
 
-- [Forms Acrobat Services](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/document/): APIs for working with forms and documents.
+- [Forms Communications APIs](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/document/): APIs for working with forms and documents.
 
 In future releases, more OpenAPI-based AEM APIs will be added to support additional use cases.
 
@@ -83,7 +83,7 @@ The OpenAPI-based AEM APIs supports the following authentication methods:
 
 Before accessing Adobe APIs, it's essential to understand these key concepts:
 
-- **[Adobe Developer Console](https://developer.adobe.com/)**: The developer hub for accessing Adobe APIs, SDKs, real-time events, serverless functions, and more. Note that this is different from the _AEM_ Developer Console, which is used for debugging AEM applications.
+- **[Adobe Developer Console](https://developer.adobe.com/)**: The developer hub for accessing Adobe APIs, SDKs, real-time events, serverless functions, and more. Note that it is different from the _AEM_ Developer Console, which is used for debugging AEM applications.
 
 - **[Adobe Developer Console Project](https://developer.adobe.com/developer-console/docs/guides/projects/)**: Central place for managing API integrations, events, and runtime functions. Here, you configure APIs, set authentication, and generate required credentials.
 

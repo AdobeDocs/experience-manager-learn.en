@@ -1,11 +1,11 @@
 ---
-title: AEM Assets Assets view video playlists
-description: Learn how to use AEM Assets as a Cloud Service in Assets view with this collection of video playlists designed to boost your product expertise.
+title: Video playlists for AEM Assets Assets view
+description: Discover how to navigate AEM Assets as a Cloud Service in the Assets view with this curated selection of video playlists aimed at enhancing your product knowledge.
 version: Cloud Service
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2024-11-01
+last-substantial-update: 2024-11-20
 doc-type: Catalog
 duration: 60
 exl-id: 76af4062-4d8d-4908-bd3d-ce5a8af2111a
