@@ -38,36 +38,6 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
             </p>
         </td>   
         <td>
-            <a href="./season-3/cloud5-rum.md">
-                <img alt="Real User Monitoring (RUM)" src="https://video.tv.adobe.com/v/3427495?format=jpeg"/>
-            </a>
-            <div>
-                <a href="./season-3/cloud5-rum.md">
-                <strong>Real User Monitoring (RUM)</strong></a>        
-                <br/><em>with James Talbot & Damian Langsweirdt, AEM Engineering</em>
-            </div>
-            <p>
-                <br/>
-                Explore Real User Monitoring (RUM) works with Edge Delivery Services.
-            </p>
-        </td>   
-        <!--
-        <td>
-            <a href="./season-3/cloud5-rum-explorer.md">
-                <img alt="Real User Monitoring (RUM) Explorer" src="https://video.tv.adobe.com/v/3429772?format=jpeg"/>
-            </a>
-            <div>
-                <a href="./season-3/cloud5-rum-explorer.md">
-                <strong>Real User Monitoring (RUM) Explorer</strong></a>        
-                <br/><em>with James Talbot & Damian Langsweirdt, AEM Engineering</em>
-            </div>
-            <p>
-                <br/>
-                Learn about Real User Monitoring (RUM) Explorer and how to access it.
-            </p>
-        </td>   
-        -->
-        <td>
             <a href="./season-3/cloud5-edge-workers.md">
                 <img alt="Edge workers" src="https://video.tv.adobe.com/v/3427589?format=jpeg"/>
             </a>
@@ -81,8 +51,6 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore the importance of edge workers with Edge Delivery Services.
             </p>
         </td>   
-    </tr>
-    <tr>
         <td>
             <a href="./season-3/cloud5-publish-events.md">
                 <img alt="Publish, unpublish events in Edge Delivery Services" src="https://video.tv.adobe.com/v/3427681?format=jpeg"/>
@@ -97,6 +65,8 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore events that are triggered upon publish and unpublish in Edge Delivery Services as well as use cases and examples for using these events.
             </p>
         </td>  
+    </tr>
+    <tr>
         <td>
             <a href="./season-3/cloud5-query-indexes.md">
                 <img alt="Query indexes and Excel formulas in Edge Delivery Services" src="https://video.tv.adobe.com/v/3427787?format=jpeg"/>
@@ -125,8 +95,6 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 Explore how to configure your own Cloudflare CDN into Edge Delivery Services.
             </p>
         </td>           
-    </tr>  
-    <tr>
         <td>
             <a href="./season-3/cloud5-integrate-assets.md">
                 <img alt="Integrate AEM Assets with document authoring" src="https://video.tv.adobe.com/v/3428302?format=jpeg"/>
@@ -140,7 +108,9 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 <br/>
                 Explore how to integrate AEM Assets with document authoring.
             </p>
-        </td>        
+        </td>
+    </tr>
+    <tr>
         <td>
             <a href="./season-3/cloud5-generative-ai-for-aem-sites.md">
                 <img alt="Generative AI in AEM Sites" src="https://video.tv.adobe.com/v/3428436?format=jpeg"/>
@@ -169,8 +139,6 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                  Learn about Universal Editor and AEM with Edge Delivery Services.
             </p>
         </td>
-    </tr>  
-    <tr>
         <td>
             <a href="./season-3/cloud5-import-sites-to-edge-delivery-services.md">
                 <img alt="Import sites to AEM Sites with Edge Delivery Services" 
@@ -186,6 +154,8 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                  Learn about importing sites to AEM Sites with Edge Delivery Services.
             </p>
         </td>
+    </tr>
+    <tr>
         <td>
             <a href="./season-3/cloud5-using-admin-api.md">
                 <img alt="Using the Admin API with Edge Delivery Services" 
@@ -216,8 +186,6 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                  Learn about what a lighthouse score is and techniques for getting the best possible lighthouse score.
             </p>
         </td>            
-    </tr> 
-    <tr>
         <td>
             <a href="./season-3/cloud5-lighthouse-score-optimization-part2.md">
                 <img alt="Lighthouse Score Optimization - Part 2"
@@ -232,7 +200,9 @@ Each season varies in length and is released on a fixed schedule. Season 3's top
                 <br/>                
                  Learn about techniques to improve total blocking time.
             </p>
-        </td>            
+        </td>   
+    </tr>
+    <tr>
         <td>
             <a href="./season-3/cloud5-lighthouse-score-optimization-part3.md">
                 <img alt="Lighthouse Score Optimization - Part 3"
