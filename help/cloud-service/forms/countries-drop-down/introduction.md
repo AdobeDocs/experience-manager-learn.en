@@ -10,7 +10,7 @@ topic: Development
 feature: Adaptive Forms
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16517
-
+exl-id: aef151bc-daf1-4abd-914a-6299f3fb58e4
 ---
 # Create a countries drop down component based on a drop down component
 

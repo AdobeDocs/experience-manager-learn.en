@@ -10,6 +10,7 @@ topic: Development
 feature: Adaptive Forms
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16517
+exl-id: e1e5745e-96fb-46c6-aa7f-43cdf2dfddbc
 ---
 # Create the Dialog for the countires component
 
