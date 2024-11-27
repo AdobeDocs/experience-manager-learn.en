@@ -10,6 +10,7 @@ topic: Development
 feature: Adaptive Forms
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16517
+exl-id: ab9bd406-e25e-4e3c-9f67-ad440a8db57e
 ---
 # Build, Deploy and Test the countries component
 
@@ -33,4 +34,3 @@ String jsonPath = "/content/dam/mydata/" + getContinent() + ".json"; // Update p
 * Configure the Countries component using the dialog editor and set the various properties including the continent
 ![conitnent](assets/select-continent.png)
 * Preview the form and ensure the countries drop down works as expected
-

@@ -10,9 +10,8 @@ topic: Development
 feature: Adaptive Forms
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16517
-
+exl-id: f4a18f02-61a2-4fa3-bfbb-41bf696cd2a8
 ---
-
 # Create a Sling Model for the component
 
 A Sling Model in AEM is a Java-based framework used to simplify the development of back-end logic for components. It allows developers to map data from AEM resources (JCR nodes) to Java objects using annotations, providing a clean and efficient way to handle dynamic data for components.
