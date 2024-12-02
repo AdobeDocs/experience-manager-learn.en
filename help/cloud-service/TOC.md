@@ -269,6 +269,12 @@ team: TM
         + [Create Data Elements](./forms/form-data-analytics/data-elements.md)
         + [Create Rules](./forms/form-data-analytics/rules.md)
         + [Test the solution](./forms/form-data-analytics/test.md)
+    + Creating Countries Dropdown Component{#countries-drop-down}
+        + [Introduction](./forms/countries-drop-down/introduction.md)
+        + [Create Component](./forms/countries-drop-down/component.md)
+        + [Create Dialog](./forms/countries-drop-down/dialog.md)
+        + [Create Sling Model](./forms/countries-drop-down/slingmodel.md)
+        + [Build and Test](./forms/countries-drop-down/build.md)
     + Creating Button Variations{#style-system}
         + [Introduction](./forms/style-system/introduction.md)
         + [Define Policy](./forms/style-system/style-policy.md)
@@ -429,7 +435,6 @@ team: TM
       + [Cloud Manager - Functional Tests](./expert-resources/cloud-5/season-2/cloud5-mocm-functional-tests.md)
     + Season 3{#season-3}
       + [3rd Party Search](./expert-resources/cloud-5/season-3/cloud5-3rd-party-search.md)
-      + [Real User Monitoring (RUM)](./expert-resources/cloud-5/season-3/cloud5-rum.md)
       + [Edge workers](./expert-resources/cloud-5/season-3/cloud5-edge-workers.md)
       + [Publish, unpublish events in Edge Delivery Services](./expert-resources/cloud-5/season-3/cloud5-publish-events.md)
       + [Query indexes and Excel formulas](./expert-resources/cloud-5/season-3/cloud5-query-indexes.md)
