@@ -70,9 +70,6 @@ team: TM
   + [Smart Tags for videos](metadata/video-smart-tags.md)
   + [Import and export metadata](metadata/metadata-import-export.md)
 
-+ Edge Delivery Services{#edge-delivery-services}
-  + [Sidekick plugin](./edge-delivery-services/sidekick-plugin.md)
-
 + Content Hub{#content-hub}
   + [Overview](./content-hub/overview.md)
   + [Set up](./content-hub/set-up.md)
@@ -82,7 +79,13 @@ team: TM
   + [Image variants using Adobe Express](./content-hub/image-variants.md)
   + [Collections](./content-hub/collections.md)
   + [Sharing](./content-hub/share.md)
-  
+
++ Edge Delivery Services{#edge-delivery-services}
+  + [Sidekick plugin](./edge-delivery-services/sidekick-plugin.md)
+
++ Adobe GenStudio{#adobe-genstudio}
+  + [AEM Assets and GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/integrations-learn/experience-cloud/tutorials/genstudio-for-performance-marketing-experience-manager/overview)
+
 + Sharing and distribution{#sharing}
   + [Download assets](./sharing/download.md)
   + [Export assets](./sharing/export.md)
