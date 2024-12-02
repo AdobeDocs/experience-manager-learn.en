@@ -253,3 +253,4 @@ The event processing requirements differ from project to project, however the ke
 - The event processing can be done using Adobe I/O Runtime Action.
 - The Runtime Action can communicate with systems such as your internal applications, third-party solutions, and Adobe solutions.
 - The runtime action serves as the entry point to a business process designed around a content change.
+
