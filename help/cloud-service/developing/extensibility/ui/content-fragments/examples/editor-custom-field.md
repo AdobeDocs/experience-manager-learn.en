@@ -268,4 +268,3 @@ const SkuField = (props) => {
 
 export default SkuField;
 ```
-
