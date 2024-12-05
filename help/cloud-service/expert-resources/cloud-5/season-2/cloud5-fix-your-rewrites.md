@@ -20,3 +20,7 @@ Part two of the series, we explore some things that you can look at that will sp
 
 + mod_rewrite overview
 + [mod_rewrite docs](https://httpd.apache.org/docs/current/mod/mod_rewrite.html)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 2](../cloud5-season-2.md) page.

@@ -19,3 +19,7 @@ exl-id: 93a8a2b5-ddd2-43f7-a02b-63036b450614
 Learn about using the [AEM Admin API](https://www.aem.live/docs/admin.html) in Edge Delivery Services to manage the lifecycle of content and code, with Varun Mitra, Cloud Architect.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433158/?learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.

@@ -23,3 +23,7 @@ A quick example of how you can use the dispatcher validator in your AEM developm
 + [Dispatcher Tools](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/content-delivery/validation-debug.html)
 + Troubleshooting Errors
 + Using the dispatcher logs and runmodes for debugging
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 1](cloud5-season-1.md) page. 

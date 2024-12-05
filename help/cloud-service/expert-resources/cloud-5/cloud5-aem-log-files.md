@@ -24,3 +24,7 @@ This is a deep dive into how to access logs in AEM as a Cloud Service, including
   + [Adobe I/O Extensible CLI](https://github.com/adobe/aio-cli)
   + [aio-cli-plugin-cloudmanager](https://github.com/adobe/aio-cli-plugin-cloudmanager/blob/main/README.md)
 + Tailing Log Files
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 1](cloud5-season-1.md) page. 

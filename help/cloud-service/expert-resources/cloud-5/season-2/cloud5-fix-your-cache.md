@@ -20,3 +20,7 @@ In a two-part season two series, we explore some things that you can look at tha
 
 + [Caching & Content Delivery](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching.html)
 + [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 2](../cloud5-season-2.md) page.
