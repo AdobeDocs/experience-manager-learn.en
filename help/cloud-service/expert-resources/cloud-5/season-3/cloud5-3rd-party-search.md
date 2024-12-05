@@ -16,3 +16,7 @@ duration: 515
 Explore how third-party search can best be integrated into Edge Delivery Services.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427040?quality=12&learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.

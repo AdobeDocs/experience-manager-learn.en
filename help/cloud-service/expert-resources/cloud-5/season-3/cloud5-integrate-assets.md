@@ -19,3 +19,7 @@ Explore how to integrate AEM Assets with document authoring to deliver exception
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428302/?quality=12&learn=on)
 
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.

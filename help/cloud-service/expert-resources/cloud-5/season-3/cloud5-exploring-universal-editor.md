@@ -19,3 +19,7 @@ exl-id: 2f029feb-7273-48e4-91a4-2ac0bf697356
 Dirk Rudolph from AEM engineering is interviewed about the Universal Editor and how it works with Edge Delivery Services and AEM.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3429656/?learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.

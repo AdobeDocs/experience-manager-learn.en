@@ -20,4 +20,8 @@ AEM as a Cloud Service completes many functional tests by default with your appl
 
 + [Functional Testing](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/test-results/functional-testing.html)
 + [AEM Smoke Tests](https://github.com/adobe/aem-test-samples/)
-+ [AEM Testing Clients](https://github.com/adobe/aem-testing-clients/ )
++ [AEM Testing Clients](https://github.com/adobe/aem-testing-clients/)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 2](../cloud5-season-2.md) page.

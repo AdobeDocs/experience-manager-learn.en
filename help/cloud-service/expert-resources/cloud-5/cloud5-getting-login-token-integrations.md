@@ -27,3 +27,7 @@ An depth guide on how to get a login token for Cloud Service integrations and so
 + Simple usage of a generated token
 
 For a more detailed look on this topic, you can reference the tutorial on [token-based authentication](/help/headless-tutorial/authentication/overview.md).
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 1](cloud5-season-1.md) page. 
