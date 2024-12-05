@@ -24,3 +24,7 @@ Amol Anand drops in to give us the lowdown on integrations with Adobe App Builde
 + [Logging and Monitoring](https://adobedocs.github.io/adobeio-runtime/guides/logging_monitoring.html#retrieving-activations-for-blocking-successful-calls)
 + Setting [System Limits](https://adobedocs.github.io/adobeio-runtime/guides/system_settings.html)
 + [Local Development](https://developer.adobe.com/app-builder/docs/resources/debugging/) Tips
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 1](cloud5-season-1.md) page. 

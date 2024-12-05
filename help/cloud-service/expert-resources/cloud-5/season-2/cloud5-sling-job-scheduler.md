@@ -20,3 +20,7 @@ Job Scheduling and consumption is different from a non-clustered AEM deployment.
 
 + Overview of jobs in the cloud
 + Job Consumer and scheduler code examples
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 2](../cloud5-season-2.md) page.

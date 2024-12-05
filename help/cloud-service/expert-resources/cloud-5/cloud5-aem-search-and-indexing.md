@@ -22,3 +22,8 @@ A quick dive into the deep waters of search and indexing. A challenging topic th
 + Search and Index [Overview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/operations/indexing.html)
 + AEM [Index Converter](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter.html)
 + Expert Series [Deep Dive](../../../cloud-service/migration/moving-to-aem-as-a-cloud-service/search-and-indexing.md)
+
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 1](cloud5-season-1.md) page. 

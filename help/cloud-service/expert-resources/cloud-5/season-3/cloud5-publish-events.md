@@ -19,3 +19,7 @@ exl-id: 5f122412-ab70-4b54-b20b-726bc6138b2b
 Explore events that are triggered upon publish and unpublish in Edge Delivery Services as well as use cases and examples for using these events.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427681?learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.

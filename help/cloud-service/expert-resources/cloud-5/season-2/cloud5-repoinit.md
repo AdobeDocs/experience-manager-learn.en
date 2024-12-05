@@ -20,3 +20,7 @@ Getting started with REPOINIT -- or the Sling Repository Initializer. Learn a fe
 
 + REPOINIT Overview
 + [REPOINIT Syntax](https://sling.apache.org/documentation/bundles/repository-initialization.html#appendix-a-repoinit-syntax-parser-test-scenarios-1)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 2](../cloud5-season-2.md) page.

@@ -19,3 +19,7 @@ exl-id: 0f74a746-b16e-4b95-97f1-55e3002d7f7f
 Learn about techniques to improve Largest Contentful Paint (LCP) and get the highest possible lighthouse scores on your Edge Delivery Services project.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435001/?learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.

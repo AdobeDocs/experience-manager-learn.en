@@ -16,3 +16,7 @@ duration: 282
 Explore the importance of edge workers in AEM Sites and Edge Delivery Services and how to integrate them with your back end systems.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427589?learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.
