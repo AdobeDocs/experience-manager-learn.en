@@ -8,7 +8,7 @@ role: Developer
 level: Beginner, Intermediate
 doc-type: Tutorial
 duration: 0
-last-substantial-update: 2024-09-24
+last-substantial-update: 2024-12-04
 jira: KT-15123
 thumbnail: KT-15123.jpeg
 exl-id: c3bfbe59-f540-43f9-81f2-6d7731750fc6
@@ -44,14 +44,18 @@ The default error page _gets served_ from the _AEM service type_(author, publish
 
 | Error page served from | Details |
 |---------------------|:-----------------------:|
-| AEM service type - author, publish, preview    |  When the page request is served by the AEM service type and any of the above error scenarios occur, the error page is served from the AEM service type. |
+| AEM service type - author, publish, preview    |  When the page request is served by the AEM service type and any of the above error scenarios occur, the error page is served from the AEM service type. By default, the 5XX error page is overridden by the Adobe-managed CDN error page unless the `x-aem-error-pass: true` header is set. |
 | Adobe-managed CDN   | When the Adobe-managed CDN _cannot reach the AEM service type_ (origin server), the error page is served from the Adobe-managed CDN. **It is an unlikely event but worth planning for.** |
+
+>[!NOTE]
+>
+>In AEM as Cloud Service, the CDN serves a generic error page when a 5XX error is received from the backend. To allow the actual response of the backend to pass through, you need to add the following header to the response: `x-aem-error-pass: true`.
+>This works only for responses coming from AEM or the Apache/Dispatcher layer. Other unexpected errors coming from intermediate infrastructure layers still display the generic error page.
 
 
 For example, the default error pages served from the AEM service type and Adobe-managed CDN are as follows:
 
   ![Default AEM Error Pages](./assets/aem-default-error-pages.png)
-
 
 However, you can _customize both AEM service type and Adobe-managed_ CDN error pages to match your brand and provide a better user experience.
 
@@ -104,22 +108,33 @@ Let's review how the [AEM WKND](https://github.com/adobe/aem-guides-wknd) projec
     - The [DispatcherPassError](https://github.com/adobe/aem-guides-wknd/blob/main/dispatcher/src/conf.d/available_vhosts/wknd.vhost#L133) value is set to 1 so the Dispatcher let Apache handle all errors.
 
     ```
+    # In `wknd.vhost` file:
+    
     ...
-    # ErrorDocument directive in wknd.vhost file
+    
+    ## ErrorDocument directive
     ErrorDocument 404 ${404_PAGE}
     ErrorDocument 500 ${500_PAGE}
     ErrorDocument 502 ${500_PAGE}
     ErrorDocument 503 ${500_PAGE}
     ErrorDocument 504 ${500_PAGE}
 
+    ## Add Header for 5XX error page response
+    <IfModule mod_headers.c>
+      ### By default, CDN overrides 5XX error pages. To allow the actual response of the backend to pass through, add the header x-aem-error-pass: true
+      Header set x-aem-error-pass "true" "expr=%{REQUEST_STATUS} >= 500 && %{REQUEST_STATUS} < 600"
+    </IfModule>
+
     ...
-    # DispatcherPassError value in wknd.vhost file
+    ## DispatcherPassError directive
     <IfModule disp_apache2.c>
         ...
         DispatcherPassError        1
     </IfModule>
 
-    # Custom error pages path in custom.vars file
+    # In `custom.vars` file
+    ...
+    ## Define the error page paths
     Define 404_PAGE /content/wknd/us/en/errors/404.html
     Define 500_PAGE /content/wknd/us/en/errors/500.html
     ...
@@ -365,7 +380,7 @@ Finally, deploy the configured CDN rule to the AEM as a Cloud Service environmen
 
 To test the CDN error pages, follow the below steps:
 
-- Open the browser and navigate to the Publish environment URL, append the `cdnstatus?code=404` to the URL, for example, [https://publish-p105881-e991000.adobeaemcloud.com/cdnstatus?code=404](https://publish-p105881-e991000.adobeaemcloud.com/cdnstatus?code=404) or access using the [custom domain URL](https://wknd.enablementadobe.com/cdnstatus?code=404)
+- In the browser, navigate to the AEM as a Cloud Service's Publish URL, append the `cdnstatus?code=404` to the URL, for example, [https://publish-p105881-e991000.adobeaemcloud.com/cdnstatus?code=404](https://publish-p105881-e991000.adobeaemcloud.com/cdnstatus?code=404) or access using the [custom domain URL](https://wknd.enablementadobe.com/cdnstatus?code=404)
 
   ![WKND - CDN Error Page](./assets/wknd-cdn-error-page.png)
 
