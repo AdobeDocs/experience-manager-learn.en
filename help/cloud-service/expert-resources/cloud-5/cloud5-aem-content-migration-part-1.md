@@ -25,3 +25,7 @@ Darin and James discuss the Dispatcher in the AEM Cloud including some best prac
 + [repostats](https://github.com/chetanmeh/oak-console-scripts/tree/master/src/main/groovy/repostats)
 + [AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/)
 + [Cloud Service Migration Tools](https://github.com/adobe/aem-cloud-service-source-migration)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 1](cloud5-season-1.md) page. 

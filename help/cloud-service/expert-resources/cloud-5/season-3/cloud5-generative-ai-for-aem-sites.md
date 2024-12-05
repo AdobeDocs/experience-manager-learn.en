@@ -19,3 +19,7 @@ exl-id: c7020e3e-2664-42f1-a3b4-c23eb17cbf4b
 Explore the new Generative AI features available in AEM Sites document authoring. We cover the functionality, integration with Adobe Firefly and Adobe Express as well as the technology used on the back end, the data models used, and how these models are trained.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428436/?learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.

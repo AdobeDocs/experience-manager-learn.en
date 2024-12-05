@@ -19,3 +19,7 @@ exl-id: ac9583fc-26f8-4107-ac8d-1c828b242112
 Explore query indexes and how to write Excel formulas for manipulating and sorting datasets with Edge Delivery Services.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427787/?learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.

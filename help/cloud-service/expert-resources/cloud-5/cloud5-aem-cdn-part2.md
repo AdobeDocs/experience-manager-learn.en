@@ -24,3 +24,7 @@ Part two of using the AEM CDN and deep dive into various options.
 + Bring your own CDN (BYOCDN)
 
 [View Part One](cloud5-aem-cdn-part1.md)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 1](cloud5-season-1.md) page. 

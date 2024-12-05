@@ -20,3 +20,7 @@ In part one of a three-part series, we explore the basics of Cloud Manager and d
 
 + Cloud Manager Overview
 + Interface Familiarization
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 2](../cloud5-season-2.md) page.

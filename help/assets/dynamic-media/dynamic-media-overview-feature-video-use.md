@@ -14,7 +14,13 @@ duration: 2516
 
 This multi part video series gives you an overview of how media content is managed and accessed using Adobe Experience Manager Dynamic Media as a content serving service. Dynamic Media lets you manage and publish dynamic digital experiences — a feature unique to Experience Manager Assets. Our framework and suite of components allow marketers to customize and deliver interactive, multimedia experiences across all devices.
 
-## Dynamic Media Overview
+## Dynamic Media live demo
+
+[![AEM Assets Dynamic Media live demo](./assets/overview/live-demo.png)](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+Explore the possibilities of Adobe Dynamic Media with our [**Live Demo**](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html), where cutting-edge solutions come to life. Learn how [**Dynamic Assets**](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/dynamic-assets.html) streamline workflows and elevate content management, and discover [**Interactive Experiences**](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/interactive-experiences.html) that captivate audiences across every channel. [See how Dynamic Media can transform your content strategy](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)!
+
+## Dynamic Media overview
 
 >[!VIDEO](https://video.tv.adobe.com/v/27144?quality=12&learn=on)
 

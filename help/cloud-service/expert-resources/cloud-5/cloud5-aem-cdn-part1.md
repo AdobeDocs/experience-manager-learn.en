@@ -26,3 +26,7 @@ This is a deep dive into the CDN provided as part of AEM as a Cloud Service, inc
 + DDOS Protections
 
 [View Part Two](cloud5-aem-cdn-part2.md)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 1](cloud5-season-1.md) page. 

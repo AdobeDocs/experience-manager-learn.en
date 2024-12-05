@@ -19,3 +19,7 @@ exl-id: 32ffe5fd-48b6-4bc6-b79c-5b14a335ecfd
 Learn about what a lighthouse score is and techniques for getting the best possible lighthouse score in Edge Delivery Services, with Varun Mitra, Cloud Architect.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433378/?learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.

@@ -20,3 +20,7 @@ Ever wonder why what each item does in the context of AEM within the Admin Conso
 
 + [Understand the Admin Console](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/onboarding-concepts/admin-console.html)
 + [Admin Console Overview](https://helpx.adobe.com/enterprise/using/admin-console.html)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 2](../cloud5-season-2.md) page.

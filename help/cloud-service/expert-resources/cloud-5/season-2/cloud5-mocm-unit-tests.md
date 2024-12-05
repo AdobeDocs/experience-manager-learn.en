@@ -20,3 +20,7 @@ An often overlooked step in the development of software, unit tests are a hugely
 
 + Automated Checks Overview
 + [Custom Code Quality Rules](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/test-results/custom-code-quality-rules.html)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 2](../cloud5-season-2.md) page.

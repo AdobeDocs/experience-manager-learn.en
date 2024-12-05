@@ -18,3 +18,7 @@ exl-id: dc841125-641b-47c0-a88f-d166a088e0ec
 Explore how to configure your own Cloudflare CDN into Edge Delivery Services.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428100/?quality=12&learn=on)
+
+## Additional Resources
+
+Watch related videos on the [Cloud 5 season 3](../cloud5-season-3.md) page.
