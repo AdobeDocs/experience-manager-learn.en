@@ -64,7 +64,7 @@ Get started with essential setup and configurations to make AEM Assets as a Clou
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-assets-essentials" target="_blank" rel="referrer" title="Get Started with AEM Assets Essentials">Get Started with AEM Assets Essentials</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-assets-essentials" target="_blank" rel="referrer" title="Get Started with Assets view">Get started with Assets view</a>
                     </p>
                     <p class="is-size-6">Learn how AEM Assets Essentials can streamline asset management for your department.</p>
                 </div>
