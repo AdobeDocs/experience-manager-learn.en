@@ -23,7 +23,7 @@ Get started with essential setup and configurations to make AEM Assets as a Clou
 <!-- CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-all-configure-administrative-access
-* https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-assets-essentials
+* https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-assets-essentials {title=Get started with Assets view}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
