@@ -23,7 +23,7 @@ Get started with essential setup and configurations to make AEM Assets as a Clou
 <!-- CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-all-configure-administrative-access
-* https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-assets-essentials
+* https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-assets-essentials {title=Get started with Assets view}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -64,7 +64,7 @@ Get started with essential setup and configurations to make AEM Assets as a Clou
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-assets-essentials" target="_blank" rel="referrer" title="Get Started with AEM Assets Essentials">Get Started with AEM Assets Essentials</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-assets-essentials" target="_blank" rel="referrer" title="Get Started with Assets view">Get started with Assets view</a>
                     </p>
                     <p class="is-size-6">Learn how AEM Assets Essentials can streamline asset management for your department.</p>
                 </div>
@@ -156,6 +156,8 @@ Unlock smooth collaboration by integrating AEM Assets as a Cloud Service with yo
 <!-- CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-manage-creative-workflows-with-workfront-and-assets-essentials
+  { title = Manage Creative Workflows Using Workfront and AEM Assets }
+  { description = Learn how Adobe Workfront and AEM Assets help your organization manage the creative workflow. }
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -173,9 +175,9 @@ Unlock smooth collaboration by integrating AEM Assets as a Cloud Service with yo
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/experience-manager-assets-manage-creative-workflows-with-workfront-and-assets-essentials" target="_blank" rel="referrer" title="Manage Creative Workflows Using Workfront and Assets Essentials">Manage Creative Workflows Using Workfront and Assets Essentials</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/experience-manager-assets-manage-creative-workflows-with-workfront-and-assets-essentials" target="_blank" rel="referrer" title="Manage Creative Workflows Using Workfront and Assets Essentials">Manage Creative Workflows Using Workfront and AEM Assets</a>
                     </p>
-                    <p class="is-size-6">Learn how Adobe Workfront and Experience Manager Assets Essentials help your organization manage the creative workflow.</p>
+                    <p class="is-size-6">Learn how Adobe Workfront and AEM Assets help your organization manage the creative workflow.</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/en/playlists/experience-manager-assets-manage-creative-workflows-with-workfront-and-assets-essentials" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>

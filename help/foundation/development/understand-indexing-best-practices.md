@@ -35,7 +35,7 @@ At times, you must create custom indexes to support your search requirements. Ho
 
 - Understand the search requirements and check if the OOTB indexes can support the search requirements. Use **Query Performance Tool**, available at [local SDK](http://localhost:4502/libs/granite/operations/content/diagnosistools/queryPerformance.html) and AEMCS via the Developer Console or `https://author-pXXXX-eYYYY.adobeaemcloud.com/ui#/aem/libs/granite/operations/content/diagnosistools/queryPerformance.html?appId=aemshell`.
 
-- Define an optimal query, use the [optimizing queries](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/query-and-indexing-best-practices) flow chart and [JCR Query Cheat Sheet](https://experienceleague.adobe.com/docs/experience-manager-65/assets/JCR_query_cheatsheet-v1.1.pdf?lang=en) for reference.
+- Define an optimal query, use the [optimizing queries](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/query-and-indexing-best-practices) flow chart and [JCR Query Cheat Sheet](https://experienceleague.adobe.com/docs/experience-manager-65/assets/JCR_query_cheatsheet-v1.1.pdf) for reference.
 
 - If the OOTB indexes cannot support the search requirements, you have two options. However, review the [Tips for Creating Efficient Indexes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing)
     - Customize the OOTB index: Preferred option as it is easy to maintain and upgrade.
