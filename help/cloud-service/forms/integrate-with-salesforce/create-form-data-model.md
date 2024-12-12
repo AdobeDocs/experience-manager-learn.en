@@ -10,7 +10,7 @@ feature: Adaptive Forms, Integrations
 topic: Development
 jira: KT-7149
 thumbnail: 331756.jpg
-exl-id: 9dcbf06c-6dd0-4f26-bc5e-9074f4c78ac6
+exl-id: 22f3d7ef-6c55-45cb-9253-9f4645f2d820
 duration: 186
 ---
 # Create Form Data Model

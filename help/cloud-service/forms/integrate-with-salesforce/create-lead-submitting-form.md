@@ -10,7 +10,7 @@ feature: Adaptive Forms, Integrations
 topic: Development
 jira: KT-7151
 thumbnail: 331758.jpg
-exl-id: fa00822f-075a-47df-941f-c7370bd1d4f4
+exl-id: bfda4959-3d22-492e-a4e9-54d2b56f9b54
 duration: 288
 ---
 # Test lead generation from form submission 
