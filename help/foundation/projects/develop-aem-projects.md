@@ -33,7 +33,7 @@ This tutorial will step through the code necessary to create a custom Project te
 * [Finished Tutorial Package](./assets/develop-aem-projects/projects-tasks-guide.ui.apps-0.0.1-SNAPSHOT.zip)
 * [Full Code Repository on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-guides/tree/feature/projects-tasks-guide)
 
-This tutorial assumes some basic knowledge of [AEM development practices](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics) and some familiarity with [AEM Maven project setup](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-projects-maven.html?lang=en). All code mentioned is intended to be used as a reference and should only be deployed to a [local development AEM instance](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/deploy).
+This tutorial assumes some basic knowledge of [AEM development practices](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics) and some familiarity with [AEM Maven project setup](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-projects-maven.html). All code mentioned is intended to be used as a reference and should only be deployed to a [local development AEM instance](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/deploy).
 
 ## Structure of a project template
 

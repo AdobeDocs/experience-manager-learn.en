@@ -10,7 +10,7 @@ feature: Adaptive Forms, Integrations
 topic: Development
 jira: KT-7152
 thumbnail: 331757.jpg
-exl-id: 6e130397-9747-4d60-9975-4c45c5aab87b
+exl-id: d9e6a4de-ba2c-4565-86aa-117646d665f5
 duration: 243
 ---
 # Create Connected App
