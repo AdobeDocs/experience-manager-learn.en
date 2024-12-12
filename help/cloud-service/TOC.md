@@ -410,9 +410,10 @@ team: TM
   + [AEM Experts Series](./expert-resources/expert-series/aem-experts-series.md)
   + Cloud 5{#cloud-5}
     + [Introduction](./expert-resources/cloud-5/cloud5-introduction.md)
+    + [Season 4](./expert-resources/cloud-5/cloud5-season-4.md)
     + [Season 1](./expert-resources/cloud-5/cloud5-season-1.md)
-    + [Season 2](./expert-resources/cloud-5/cloud5-season-2.md)
     + [Season 3](./expert-resources/cloud-5/cloud5-season-3.md)
+    + [Season 2](./expert-resources/cloud-5/cloud5-season-2.md)
     + [AEM CDN Part 1](./expert-resources/cloud-5/cloud5-aem-cdn-part1.md)
     + [AEM CDN Part 2](./expert-resources/cloud-5/cloud5-aem-cdn-part2.md)
     + [AEM Log Files](./expert-resources/cloud-5/cloud5-aem-log-files.md)
@@ -447,4 +448,7 @@ team: TM
       + [Lighthouse Score Optimization - Part1](./expert-resources/cloud-5/season-3/cloud5-lighthouse-score-optimization-part1.md)
       + [Lighthouse Score Optimization - Part2](./expert-resources/cloud-5/season-3/cloud5-lighthouse-score-optimization-part2.md)
       + [Lighthouse Score Optimization - Part3](./expert-resources/cloud-5/season-3/cloud5-lighthouse-score-optimization-part3.md)
-      
+    + Season 4{#season-4}
+      + [Best Practices](./expert-resources/cloud-5/season-4/cloud5-edge-delivery-services-best-practices.md)
+      + [Search optimizations](./expert-resources/cloud-5/season-4/cloud5-search-optimization.md)
+      + [Google Maps](./expert-resources/cloud-5/season-4/cloud5-google-maps.md)
