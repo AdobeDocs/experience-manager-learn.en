@@ -411,9 +411,9 @@ team: TM
   + Cloud 5{#cloud-5}
     + [Introduction](./expert-resources/cloud-5/cloud5-introduction.md)
     + [Season 4](./expert-resources/cloud-5/cloud5-season-4.md)
-    + [Season 1](./expert-resources/cloud-5/cloud5-season-1.md)
     + [Season 3](./expert-resources/cloud-5/cloud5-season-3.md)
     + [Season 2](./expert-resources/cloud-5/cloud5-season-2.md)
+    + [Season 1](./expert-resources/cloud-5/cloud5-season-1.md)
     + [AEM CDN Part 1](./expert-resources/cloud-5/cloud5-aem-cdn-part1.md)
     + [AEM CDN Part 2](./expert-resources/cloud-5/cloud5-aem-cdn-part2.md)
     + [AEM Log Files](./expert-resources/cloud-5/cloud5-aem-log-files.md)
