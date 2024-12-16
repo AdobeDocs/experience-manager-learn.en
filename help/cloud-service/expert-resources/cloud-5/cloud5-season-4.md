@@ -5,7 +5,7 @@ sub-product: Experience Manager Sites, Experience Manager Cloud Manager, Experie
 solution: Experience Manager as a Cloud Service, Experience Manager
 recommendations: noDisplay, noCatalog
 duration: 30
-last-substantial-update: 2024-12-16
+last-substantial-update: 2024-12-15
 exl-id: ede3fb19-d803-4b21-8c03-4283f7b4f7f4
 ---
 # Cloud 5 season 4
