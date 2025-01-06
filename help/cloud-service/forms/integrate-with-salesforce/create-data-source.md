@@ -10,7 +10,7 @@ topic: Development
 feature: Adaptive Forms, Integrations
 jira: KT-7148
 thumbnail: 331755.jpg
-exl-id: c0a875bd-55b6-4f63-a58d-eecb62ae703b
+exl-id: e2d56e91-c13e-4787-a97f-255938b5d290
 duration: 173
 ---
 # Create Data Source

@@ -9,7 +9,7 @@ feature: Adaptive Forms, Integrations
 topic: Development
 jira: KT-7193
 thumbnail: 331892.jpg
-exl-id: 7b21f24d-d694-489e-a8f6-c5e16445dde3
+exl-id: 35d4b62a-b2e7-48a4-b4e6-ff1d19c4f3de
 duration: 250
 ---
 # Test the integration 
