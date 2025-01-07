@@ -73,11 +73,21 @@ In future releases, more OpenAPI-based AEM APIs will be added to support additio
 
 The OpenAPI-based AEM APIs supports the following authentication methods:
 
-- **OAuth Server-to-Server Credential**: Ideal for backend services needing API access without user interaction. It uses the _client_credentials_ grant type, enabling secure access management at the server level. For more information, see [OAuth Server-to-Server credential](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/#oauth-server-to-server-credential).
+- **OAuth Server-to-Server credential**: Ideal for backend services needing API access without user interaction. It uses the _client_credentials_ grant type, enabling secure access management at the server level. For more information, see [OAuth Server-to-Server credential](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/#oauth-server-to-server-credential).
 
 - **OAuth Web App credential**: Suitable for web applications with frontend and _backend_ components accessing AEM APIs on behalf of users. It uses the _authorization_code_ grant type, where the backend server securely manages secrets and tokens. For more information, see [OAuth Web App credential](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation/#oauth-web-app-credential).
 
 - **OAuth Single Page App credential**: Designed for SPAs running in the browser, which needs to access APIs on behalf of a user without a backend server. It uses the _authorization_code_ grant type and relies on client-side security mechanisms using PKCE (Proof Key for Code Exchange) to secure the authorization code flow. For more information, see [OAuth Single Page App credential](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation/#oauth-single-page-app-credential).
+
+### Difference between OAuth Server-to-Server and OAuth Web App/Single Page App credentials{#difference-between-oauth-server-to-server-and-oauth-web-app-single-page-app-credentials}
+
+| | OAuth server-to-server | OAuth user authentication (web-app) |
+| --- | --- | --- |
+| Authentication Purpose| Designed for machine-to-machine interactions.  | Designed for user-driven interactions.  |
+| Token Behavior | Issues access tokens that represent the client application itself. | Issues access tokens on behalf of an authenticated user. |
+| Use Cases | Backend services needing API access without user interaction. | Web applications with frontend and backend components accessing APIs on behalf of users. |
+| Security Considerations | Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems. | User's authenticate and are granted their own temporary access token. Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems.   |
+| Grant Type | _client_credentials_ | _authorization_code_ |
 
 ## Accessing Adobe APIs and related concepts{#accessing-adobe-apis-and-related-concepts}
 
@@ -96,4 +106,7 @@ Before accessing Adobe APIs, it's essential to understand these key concepts:
 With an understanding of the different AEM API types, including 
 OpenAPI-based AEM APIs, and the key concepts of accessing Adobe APIs, you are now ready to start building custom applications that interact with AEM.
 
-Let's get started with the [How to invoke OpenAPI-based AEM APIs](invoke-openapi-based-aem-apis.md) tutorial.
+Let's get started with:
+
+- [Invoke OpenAPI-based AEM APIs for server to server authentication](invoke-openapi-based-aem-apis.md) tutorial, which demonstrates how to access OpenAPI-based AEM APIs _using OAuth Server-to-Server credentials_.
+- [Invoke OpenAPI-based AEM APIs with user authentication from a web app](invoke-openapi-based-aem-apis-from-web-app.md) tutorial, which demonstrates how to access OpenAPI-based AEM APIs from a _web application using OAuth Web App credentials_.
