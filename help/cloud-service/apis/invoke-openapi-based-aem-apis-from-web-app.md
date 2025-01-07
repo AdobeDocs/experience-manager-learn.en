@@ -11,8 +11,8 @@ jira: KT-16718
 thumbnail: KT-16718.jpeg
 last-substantial-update: 2024-12-17
 duration: 0
+exl-id: dc35256a-3873-413f-b282-90948efd5f31
 ---
-
 # Invoke OpenAPI-based AEM APIs with user authentication from a web app{#invoke-openapi-based-aem-apis-from-web-app}
 
 Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service using user-based authentication from an external web app with OAuth Web App authentication.
