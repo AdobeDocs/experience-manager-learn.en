@@ -1,5 +1,5 @@
 ---
-title: How to invoke OpenAPI-based AEM APIs from a web app
+title: Invoke OpenAPI-based AEM APIs with user authentication from a web app
 description: Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from a custom web app using OAuth Web App authentication.
 version: Cloud Service
 feature: Developing
@@ -9,7 +9,7 @@ level: Intermediate
 doc-type: Tutorial
 jira: KT-16718
 thumbnail: KT-16718.jpeg
-last-substantial-update: 2024-12-17
+last-substantial-update: 2025-01-09
 duration: 0
 exl-id: dc35256a-3873-413f-b282-90948efd5f31
 ---
@@ -30,6 +30,8 @@ Before you start, let's understand the sample web app, WKND Product Information 
 The WKND PIM app is a sample web application designed to manage product attributes and its asset metadata stored within AEM as a Cloud Service. This example demonstrates how web apps can seamlessly integrate with Adobe APIs to deliver efficient, user-centric workflows.
 
 The Adobe Developer Console (ADC) project is configured to access the Assets Author API using the OAuth Web App authentication. It provides the necessary _client_id_ and _client_secret_ to the WKND-PIM web app to initiate the _authorization_code_ grant flow.
+
+>[!VIDEO](https://video.tv.adobe.com/v/34260?quality=12&learn=on)
 
 The following diagram illustrates the functional flow of the WKND-PIM web app _getting user-specific access tokens to interact with the Assets Author API_.
 
@@ -60,7 +62,7 @@ Before you start, make sure you reviewed the [Accessing Adobe APIs and related c
 
 ## How to use this tutorial{#how-to-use-this-tutorial}
 
-You can either [Review web app key code snippets](#review-web-app-key-code-snippets) section to understand OAuth Web App authentication flow and API calls code snippets used in the WKND-PIM web app. Or directly proceed to the [Setup and run web app](#setup-run-web-app) section to setup and run the WKND-PIM web app on your local machine.
+You can either [Review web app key code snippets](#review-web-app-key-code-snippets) section to understand the OAuth Web App authentication flow and API calls code snippets used in the WKND-PIM web app. Or directly proceed to the [Setup and run web app](#setup-run-web-app) section to set up and run the WKND-PIM web app on your local machine.
 
 ## Review web app key code snippets{#review-web-app-key-code-snippets}
 
@@ -398,6 +400,11 @@ The OpenAPI-based AEM API calls are made from the server-side (Express middlewar
 
 To refresh the access token before it expires, you can implement the refresh token flow. However, to keep the tutorial simple, the WKND-PIM web app does not implement the refresh token flow.
 
+
+>[!TIP]
+>
+>You can follow next section to try out the WKND-PIM web app on your local machine and get hands-on experience with the OAuth Web App authentication flow and API calls.
+
 ## Setup and run web app
 
 Let's configure and run the WKND-PIM web app on your local machine to understand the OAuth Web App authentication flow and API calls.
@@ -516,11 +523,11 @@ It is done by defining the configuration in the `config.yaml` file in the AEM Pr
 
 By default, the WKND Sites project does not have the required asset metadata schema to store product attributes. Let's create and apply the asset metadata schema to an asset folder in the AEM instance.
 
-1. Login to the AEM as a Cloud Service Asset instance. Using the [Asset view](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/authoring/switch-views) navigate to the `/content/dam/wknd-shared/en` folder.
+1. Log in to the AEM as a Cloud Service Asset instance. Using the [Asset view](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/authoring/switch-views) navigate to the `/content/dam/wknd-shared/en` folder.
 
     ![Navigate to folder](assets/web-app/navigate-to-folder.png)
 
-1. Create **PIM** and within it create the **Camping** folder, then upload [sample images](./assets/web-app/camping-gear-imgs.zip) in the **Camping** folder.
+1. Create a **PIM** and within it create the **Camping** folder, then upload [sample images](./assets/web-app/camping-gear-imgs.zip) in the **Camping** folder.
 
     ![PIM Folder](assets/web-app/pim-folder.png)
 
@@ -638,7 +645,7 @@ With the above steps, the assets from the **PIM** folder are ready to store the 
 
 >[!IMPORTANT]
 >
->If the authenticated user lacks the necessary permissions to review or update asset metadata, the OpenAPI-based AEM APIs will return a 403 Forbidden error. This ensures that, even if the user is authenticated and possesses a valid IMS access token, they cannot access AEM resources without the required permissions.
+>If the authenticated user lacks the necessary permissions to review or update asset metadata, the OpenAPI-based AEM APIs return a 403 Forbidden error. It ensures that, even if the user is authenticated and possesses a valid IMS access token, they cannot access AEM resources without the required permissions.
 
 
 ### Review the application code
