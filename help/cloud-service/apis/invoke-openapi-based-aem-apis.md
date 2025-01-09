@@ -1,5 +1,5 @@
 ---
-title: How to invoke OpenAPI-based AEM APIs
+title:  Invoke OpenAPI-based AEM APIs for server to server authentication
 description: Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications using OAuth Server-to-Server authentication.
 version: Cloud Service
 feature: Developing
