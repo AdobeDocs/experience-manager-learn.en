@@ -37,7 +37,7 @@ The typical flow of an AEM Publish SAML integration is as follows:
     + User is prompted by the IDP for credentials.
     + User is already authenticated with the IDP and does not have to provide further credentials.
 1. IDP generates a SAML assertion containing the user's data, and signs it using the IDP's private certificate.
-1. IDP sends the SAML assertion via HTTP POST, by way of the user's web browser, to AEM Publish.
+1. IDP sends the SAML assertion via HTTP POST, by way of the user's web browser (RESPECTIVE_PROTECTED_PATH/saml_login), to AEM Publish.
 1. AEM Publish receives the SAML assertion, and validates the SAML assertion's integrity and authenticity using the IDP public certificate. 
 1. AEM Publish manages the AEM user record based on the SAML 2.0 OSGi configuration, and the contents of the SAML Assertion.
     + Creates user
@@ -434,6 +434,9 @@ After successful authentication to the IDP, the IDP will orchestrate an HTTP POS
 /0190 { /type "allow" /method "POST" /url "*/saml_login" }
 ```
 
+>[!NOTE]
+>When deploying multiple SAML configurations in AEM for various protected paths and distinct IDP endpoints, ensure that the IDP posts to the RESPECTIVE_PROTECTED_PATH/saml_login endpoint to select the appropriate SAML configuration on the AEM side. If there are duplicate SAML configurations for the same protected path, the selection of the SAML configuration will occur randomly.
+    
 If URL rewriting at the Apache webserver is configured (`dispatcher/src/conf.d/rewrites/rewrite.rules`), ensure that requests to the `.../saml_login` end points are not accidentally mangled.
 
 ### How to enable Dynamic Group Membership for SAML Users in new environments
@@ -555,6 +558,12 @@ Deploy the target Cloud Manager Git branch (in this example, `develop`), using a
 ## Invoking the SAML authentication
 
 The SAML authentication flow can be invoked from an AEM Site web page, by creating a specially crafted links, or a buttons. The parameters described below can be programmatically set as needed, so for instance, a log in button may set the `saml_request_path`, which is where the user is taken upon successful SAML authentication, to different AEM pages, based on the context of the button.
+
+## Secured Caching while using SAML
+
+On the AEM publish instance, most pages are typically cached. However, for SAML-protected paths, caching should either be disabled or secured caching enabled using the auth_checker configuration. For more information, please refer to the details provided [here](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/permissions-cache)
+
+Please be aware that if you cache protected paths without enabling the auth_checker, you may experience unpredictable behavior.
 
 ### GET request
 
