@@ -439,6 +439,10 @@ After successful authentication to the IDP, the IDP will orchestrate an HTTP POS
     
 If URL rewriting at the Apache webserver is configured (`dispatcher/src/conf.d/rewrites/rewrite.rules`), ensure that requests to the `.../saml_login` end points are not accidentally mangled.
 
+## Dynamic Group Membership
+
+Dynamic Group Membership is a feature in [Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/security/authentication/external/dynamic.html) that increases the performance of group evaluation and provisioning. This section describes how users and groups are stored when this feature is enabled and how to modify the configuration of the SAML Authentication Handler to enable it for new or existing environments.
+
 ### How to enable Dynamic Group Membership for SAML Users in new environments
 
 To significantly enhance group evaluation performance in new AEM as a Cloud Service environments, the activation of the Dynamic Group Membership feature is recommended in new environments. 
@@ -512,7 +516,17 @@ This is the node for a user member of that group:
 }
 ```
 
-### Automatic migration to dynamic group membership for existing environments
+### How to enable Dynamic Group Membership for SAML Users in existing environments
+
+As explained in the previous section, the format of external users and groups is slightly different from the one used for local users and groups. It's possible to define a new ACL for external groups and provision new external users, or use the migration tool as described below.
+
+#### Enabling dynamic group membership for existing environments with external users
+
+The SAML Authentication handler creates external users when the following property is specified: `"identitySyncType": "idp"`. In this case, dynamic group membership can be enabled modifying this property to: `"identitySyncType": "idp_dynamic"`. No migration is required.
+
+#### Automatic migration to dynamic group membership for existing environments with local users
+
+The SAML Authentication handler creates local users when the following property is specified: `"identitySyncType": "default"`. This is also the default value when the property is not specified. In this section we describe the steps performed by the automatic migration procedure.
 
 When this migration is enabled, it is carried out during user authentication and consists of the following steps:
 1. The local user is migrated to an external user while maintaining the original username. This implies that migrated local users, now acting as external users, retain their original username instead of following the naming syntax mentioned in the previous section. One additional property will be added called: `rep:externalId` with the value of `[user name];[idp]`. The user `PrincipalName` is not modified.
@@ -527,18 +541,20 @@ For instance, if before the migration `user1` is a local user and a member of lo
 `group1;idp` is a member of the local group: `group1`.
 `user1` is then a member of the local group: `group1` though inheritance
 
-The group membership for external groups is stored in the user profile in the attribute `rep:authorizableId`
+The group membership for external groups is stored in the user profile in the property `rep:externalPrincipalNames`
 
 ### How to configure automatic migration to dynamic group membership
 
-1. Enable the property `"identitySyncType": "idp_dynamic_simplified_id"` in SAML OSGI configuration file: `com.adobe.granite.auth.saml.SamlAuthenticationHandler~...cfg.json` :
-2. Configure the new OSGI service with PID: `com.adobe.granite.auth.saml.migration.SamlDynamicGroupMembershipMigration~...` with the property:
+1. Enable the property `"identitySyncType": "idp_dynamic_simplified_id"` in SAML OSGi configuration file: `com.adobe.granite.auth.saml.SamlAuthenticationHandler~...cfg.json` :
+2. Configure the new OSGi service with Factory PID starting with: `com.adobe.granite.auth.saml.migration.SamlDynamicGroupMembershipMigration~`. For example, a PID can be: `com.adobe.granite.auth.saml.migration.SamlDynamicGroupMembershipMigration~myIdP`. Set the following property:
 
   ```
   {
-    "idpIdentifier": "<vaule of identitySyncType of saml configuration to be migrated>"
+    "idpIdentifier": "<value of IDP Identifier (idpIdentifier)" property from the "com.adobe.granite.auth.saml.SamlAuthenticationHandler" configuration to be migrated>"
   }
   ```
+  
+To migrate multiple SAML configurations, multiple OSGi factory configurations for `com.adobe.granite.auth.saml.migration.SamlDynamicGroupMembershipMigration` must be created, each specifying an `idpIdentifier` to migrate.
 
 ## Deploying SAML configuration
 
