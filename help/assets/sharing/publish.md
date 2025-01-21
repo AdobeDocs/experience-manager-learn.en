@@ -3,7 +3,7 @@ title: How to Publish Assets using AEM
 description: Learn how to publish assets and their renditions from AEM Author to AEM Publish.
 feature: Asset Management
 version: Cloud Service
-jira: KT-330932
+jira: KT-6968
 thumbnail: 32194.jpg
 topic: Content Management
 role: User
