@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Catalog
 jira: KT-15832
 duration: 89
+exl-id: aeac08a2-75a0-4adb-b32e-0e7f85e7eb1d
 ---
-
 # Edge Delivery Services and Universal Editor developer tutorial
 
 ![Edge Delivery Services and Universal Editor developer tutorial](./assets/0-overview/hero.png)

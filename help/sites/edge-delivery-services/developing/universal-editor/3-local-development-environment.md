@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-15832
 duration: 700
+exl-id: 187c305a-eb86-4229-9896-a74f5d9d822e
 ---
-
 # Setup a local development environment
 
 A local development environment is essential for quickly developing websites delivered by Edge Delivery Services. The environment uses locally developed code while sourcing content from Edge Delivery Services, allowing developers to instantly view code changes. Such a setup supports fast, iterative development and testing.
@@ -202,4 +202,3 @@ The following script entries can be added to the `package.json` `scripts` array.
 ```
 
 >[!ENDTABS]
-

@@ -9,9 +9,8 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-15832
 duration: 900
-
+exl-id: 14cda9d4-752b-4425-a469-8b6f283ce1db
 ---
-
 # Develop a block with CSS
 
 Blocks in Edge Delivery Services are styled using CSS. The CSS file for a block is stored in the block's directory and has the same name as the block. For example, the CSS file for a block named `teaser` is located at `blocks/teaser/teaser.css`.
@@ -234,4 +233,3 @@ $ git push origin teaser
 Now, you can preview the changes in the Universal Editor, when you add the `?ref=teaser` query parameter.
 
 ![Teaser in Universal Editor](./assets/7a-block-css/universal-editor-preview.png)
-

@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-15832
 duration: 900
+exl-id: 41c4cfcf-0813-46b7-bca0-7c13de31a20e
 ---
-
 # Develop a block with CSS and JavaScript
 
 In the [previous chapter](./7b-block-js-css.md), styling a block using only CSS was covered. Now, the focus shifts to developing a block with both JavaScript and CSS.
@@ -333,4 +333,3 @@ $ git push origin teaser
 Now, you can preview the changes in the Universal Editor, when you add the `?ref=teaser` query parameter.
 
 ![Teaser in Universal Editor](./assets/7b-block-js-css/universal-editor-preview.png)
-
