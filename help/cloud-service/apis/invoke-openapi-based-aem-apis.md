@@ -1,6 +1,6 @@
 ---
-title: How to invoke OpenAPI-based AEM APIs
-description: Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications.
+title:  Invoke OpenAPI-based AEM APIs for server to server authentication
+description: Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications using OAuth Server-to-Server authentication.
 version: Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
@@ -13,9 +13,11 @@ last-substantial-update: 2024-11-20
 duration: 0
 exl-id: 24c641e7-ab4b-45ee-bbc7-bf6b88b40276
 ---
-# How to invoke OpenAPI-based AEM APIs{#invoke-openapi-based-aem-apis}
+# Invoke OpenAPI-based AEM APIs for server to server authentication{#invoke-openapi-based-aem-apis}
 
-Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications.
+Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications using _OAuth Server-to-Server_ authentication.
+
+The OAuth Server-to-Server authentication is ideal for backend services needing API access without user interaction. It uses the OAuth 2.0 _client_credentials_ grant type to authenticate the client application.
 
 >[!AVAILABILITY]
 >
@@ -24,7 +26,7 @@ Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Servi
 In this tutorial, you learn how to:
 
 - Enable OpenAPI-based AEM APIs access for your AEM as a Cloud Service environment.
-- Create and configure an Adobe Developer Console (ADC) project to access AEM APIs using OAuth Server-to-Server authentication.
+- Create and configure an Adobe Developer Console (ADC) project to access AEM APIs using _OAuth Server-to-Server authentication_.
 - Develop a sample NodeJS application that calls the Assets Author API to retrieve metadata for a specific asset.
 
 Before you start, make sure you reviewed the [Accessing Adobe APIs and related concepts](overview.md#accessing-adobe-apis-and-related-concepts) section.

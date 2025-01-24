@@ -31,9 +31,9 @@ AEM's URL redirect solutions are as follows:
 | [At Edge via AEM-managed CDN](#at-edge-via-aem-managed-cdn)                                   | &#10004;                | &#10008;             | &#10004;             | Edge/CDN (Built-in) |
 | [At Edge via bring your own CDN (BYOCDN)](#at-edge-via-bring-your-own-cdn)                                   | &#10008;                | &#10008;             | &#10004;             | Edge/CDN (BYOCDN) |
 | [Apache `mod_rewrite` rules as Dispatcher config ](#apache-mod_rewrite-module)  | &#10004;                | &#10008;             | &#10004;             | Dispatcher |
-| [ACS Commons - Redirect Map Manager](#redirect-map-manager)                | &#10008;                | &#10004;             | &#10004;             |Dispatcher |
-| [ACS Commons - Redirect Manager](#redirect-manager)                    | &#10008;                | &#10004;             | &#10004;              |AEM |
-| [The `Redirect` page property](#the-redirect-page-property)                    | &#10008;                | &#10004;             | &#10004;              |AEM |
+| [ACS Commons - Redirect Map Manager](#redirect-map-manager)                | &#10008;                | &#10004;             | &#10004;             | Dispatcher |
+| [ACS Commons - Redirect Manager](#redirect-manager)                    | &#10008;                | &#10004;             | &#10004;              | AEM / Dispatcher |
+| [The `Redirect` page property](#the-redirect-page-property)                    | &#10008;                | &#10004;             | &#10004;              | AEM |
 
 
 ## Solution options
@@ -75,6 +75,8 @@ There are two features available within [ACS AEM Commons](https://adobe-consulti
 #### Redirect Manager
 
 [Redirect Manager](https://adobe-consulting-services.github.io/acs-aem-commons/features/redirect-manager/index.html) allows the users in AEM to easily maintain and publish redirects from AEM. The implementation is based on Java&trade; servlet filter, thus typical JVM resource consumption. This feature also eliminates the dependency on the AEM development team and the AEM deployments. Redirect Manager is both **AEM as a Cloud Service** and **AEM 6.x** compatible. While the initial redirected request must hit the AEM Publish service to generate the 301/302 (most) CDNs' cache 301/302 by default, allowing subsequent requests to be redirected at the edge/CDN.
+
+[Redirect Manager](https://adobe-consulting-services.github.io/acs-aem-commons/features/redirect-manager/index.html) also supports [Pipeline-free URL Redirects](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/pipeline-free-url-redirects) strategy for **AEM as a Cloud Service** by [compiling redirects into a text file](https://adobe-consulting-services.github.io/acs-aem-commons/features/redirect-manager/subpages/rewritemap.html) for [Apache RewriteMap](https://httpd.apache.org/docs/2.4/rewrite/rewritemap.html), so it allows for updating redirects used in Apache Web server without directly accessing it or requiring its restart. In this scenario the initial redirect request hits Apache Web server, and not AEM Publish service.
 
 ### The `Redirect` page property
 

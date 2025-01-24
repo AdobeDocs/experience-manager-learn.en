@@ -37,7 +37,7 @@ The typical flow of an AEM Publish SAML integration is as follows:
     + User is prompted by the IDP for credentials.
     + User is already authenticated with the IDP and does not have to provide further credentials.
 1. IDP generates a SAML assertion containing the user's data, and signs it using the IDP's private certificate.
-1. IDP sends the SAML assertion via HTTP POST, by way of the user's web browser, to AEM Publish.
+1. IDP sends the SAML assertion via HTTP POST, by way of the user's web browser (RESPECTIVE_PROTECTED_PATH/saml_login), to AEM Publish.
 1. AEM Publish receives the SAML assertion, and validates the SAML assertion's integrity and authenticity using the IDP public certificate. 
 1. AEM Publish manages the AEM user record based on the SAML 2.0 OSGi configuration, and the contents of the SAML Assertion.
     + Creates user
@@ -434,7 +434,14 @@ After successful authentication to the IDP, the IDP will orchestrate an HTTP POS
 /0190 { /type "allow" /method "POST" /url "*/saml_login" }
 ```
 
+>[!NOTE]
+>When deploying multiple SAML configurations in AEM for various protected paths and distinct IDP endpoints, ensure that the IDP posts to the RESPECTIVE_PROTECTED_PATH/saml_login endpoint to select the appropriate SAML configuration on the AEM side. If there are duplicate SAML configurations for the same protected path, the selection of the SAML configuration will occur randomly.
+    
 If URL rewriting at the Apache webserver is configured (`dispatcher/src/conf.d/rewrites/rewrite.rules`), ensure that requests to the `.../saml_login` end points are not accidentally mangled.
+
+## Dynamic Group Membership
+
+Dynamic Group Membership is a feature in [Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/security/authentication/external/dynamic.html) that increases the performance of group evaluation and provisioning. This section describes how users and groups are stored when this feature is enabled and how to modify the configuration of the SAML Authentication Handler to enable it for new or existing environments.
 
 ### How to enable Dynamic Group Membership for SAML Users in new environments
 
@@ -509,7 +516,17 @@ This is the node for a user member of that group:
 }
 ```
 
-### Automatic migration to dynamic group membership for existing environments
+### How to enable Dynamic Group Membership for SAML Users in existing environments
+
+As explained in the previous section, the format of external users and groups is slightly different from the one used for local users and groups. It's possible to define a new ACL for external groups and provision new external users, or use the migration tool as described below.
+
+#### Enabling dynamic group membership for existing environments with external users
+
+The SAML Authentication handler creates external users when the following property is specified: `"identitySyncType": "idp"`. In this case, dynamic group membership can be enabled modifying this property to: `"identitySyncType": "idp_dynamic"`. No migration is required.
+
+#### Automatic migration to dynamic group membership for existing environments with local users
+
+The SAML Authentication handler creates local users when the following property is specified: `"identitySyncType": "default"`. This is also the default value when the property is not specified. In this section we describe the steps performed by the automatic migration procedure.
 
 When this migration is enabled, it is carried out during user authentication and consists of the following steps:
 1. The local user is migrated to an external user while maintaining the original username. This implies that migrated local users, now acting as external users, retain their original username instead of following the naming syntax mentioned in the previous section. One additional property will be added called: `rep:externalId` with the value of `[user name];[idp]`. The user `PrincipalName` is not modified.
@@ -524,18 +541,20 @@ For instance, if before the migration `user1` is a local user and a member of lo
 `group1;idp` is a member of the local group: `group1`.
 `user1` is then a member of the local group: `group1` though inheritance
 
-The group membership for external groups is stored in the user profile in the attribute `rep:authorizableId`
+The group membership for external groups is stored in the user profile in the property `rep:externalPrincipalNames`
 
 ### How to configure automatic migration to dynamic group membership
 
-1. Enable the property `"identitySyncType": "idp_dynamic_simplified_id"` in SAML OSGI configuration file: `com.adobe.granite.auth.saml.SamlAuthenticationHandler~...cfg.json` :
-2. Configure the new OSGI service with PID: `com.adobe.granite.auth.saml.migration.SamlDynamicGroupMembershipMigration~...` with the property:
+1. Enable the property `"identitySyncType": "idp_dynamic_simplified_id"` in SAML OSGi configuration file: `com.adobe.granite.auth.saml.SamlAuthenticationHandler~...cfg.json` :
+2. Configure the new OSGi service with Factory PID starting with: `com.adobe.granite.auth.saml.migration.SamlDynamicGroupMembershipMigration~`. For example, a PID can be: `com.adobe.granite.auth.saml.migration.SamlDynamicGroupMembershipMigration~myIdP`. Set the following property:
 
   ```
   {
-    "idpIdentifier": "<vaule of identitySyncType of saml configuration to be migrated>"
+    "idpIdentifier": "<value of IDP Identifier (idpIdentifier)" property from the "com.adobe.granite.auth.saml.SamlAuthenticationHandler" configuration to be migrated>"
   }
   ```
+  
+To migrate multiple SAML configurations, multiple OSGi factory configurations for `com.adobe.granite.auth.saml.migration.SamlDynamicGroupMembershipMigration` must be created, each specifying an `idpIdentifier` to migrate.
 
 ## Deploying SAML configuration
 
@@ -555,6 +574,12 @@ Deploy the target Cloud Manager Git branch (in this example, `develop`), using a
 ## Invoking the SAML authentication
 
 The SAML authentication flow can be invoked from an AEM Site web page, by creating a specially crafted links, or a buttons. The parameters described below can be programmatically set as needed, so for instance, a log in button may set the `saml_request_path`, which is where the user is taken upon successful SAML authentication, to different AEM pages, based on the context of the button.
+
+## Secured Caching while using SAML
+
+On the AEM publish instance, most pages are typically cached. However, for SAML-protected paths, caching should either be disabled or secured caching enabled using the auth_checker configuration. For more information, please refer to the details provided [here](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/permissions-cache)
+
+Please be aware that if you cache protected paths without enabling the auth_checker, you may experience unpredictable behavior.
 
 ### GET request
 

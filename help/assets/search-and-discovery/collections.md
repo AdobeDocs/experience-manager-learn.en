@@ -3,7 +3,7 @@ title: Collections
 description: Learn how collections provides and alternative view into AEM Assets.
 feature: Collections
 version: Cloud Service
-jira: KT-4301
+jira: KT-4543
 thumbnail: 32053.jpg
 topic: Content Management
 role: User
