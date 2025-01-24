@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-15832
 duration: 500
+exl-id: ca356d38-262d-4c30-83a0-01c8a1381ee6
 ---
-
 # Author a block
 
 After pushing the [teaser block's JSON](./5-new-block.md) to the `teaser` branch, the block becomes editable in the AEM Universal Editor.

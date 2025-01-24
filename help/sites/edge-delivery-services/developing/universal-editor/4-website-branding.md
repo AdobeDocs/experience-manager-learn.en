@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-15832
 duration: 900
+exl-id: a5cd9906-7e7a-43dd-a6b2-e80f67d37992
 ---
-
 # Add website branding
 
 Begin by setting up the overall branding by updating global styles, defining CSS variables, and adding web fonts. These foundational elements ensure that the website remains consistent and maintainable and should be applied consistently across the site.

@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-15832
 duration: 900
+exl-id: e1fb7a58-2bba-4952-ad53-53ecf80836db
 ---
-
 # Create an Edge Delivery Services code project
 
 To build AEM websites for Edge Delivery Services and Universal Editor, use Adobe's [AEM Boilerplate XWalk project template](https://github.com/adobe-rnd/aem-boilerplate-xwalk). This template creates a new code project that contains the CSS and JavaScript used to create the website experience. This template creates a new GitHub repository, and loads it with Adobe's boilerplate code and configuration, providing a solid foundation for your AEM website project.

@@ -9,8 +9,8 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-15832
 duration: 900
+exl-id: 9698c17a-0ac8-426d-bccb-729b048cabd1
 ---
-
 # Create a new block
 
 This chapter covers the process of creating a new, editable teaser block for an Edge Delivery Services website using the Universal Editor.
@@ -428,4 +428,4 @@ $ git commit -m "Add teaser block JSON files so it is available in Universal Edi
 $ git push origin teaser
 ```
 
-When the Universal Editor is opened with the query parameter `?ref=teaser`, the new `teaser` block appears in the block palette. Note that the block has no styling; it renders the block's fields as semantic HTML, styled only via the [global CSS](./4-website-branding.md#global-css).  
+When the Universal Editor is opened with the query parameter `?ref=teaser`, the new `teaser` block appears in the block palette. Note that the block has no styling; it renders the block's fields as semantic HTML, styled only via the [global CSS](./4-website-branding.md#global-css).

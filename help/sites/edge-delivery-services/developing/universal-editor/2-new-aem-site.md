@@ -9,6 +9,7 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-15832
 duration: 500
+exl-id: d1ebcaf4-cea6-4820-8b05-3a0c71749d33
 ---
 # Create an AEM site
 
