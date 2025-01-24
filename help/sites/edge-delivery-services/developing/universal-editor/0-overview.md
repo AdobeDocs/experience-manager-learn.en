@@ -21,21 +21,20 @@ In this tutorial, you'll learn the fundamentals of building an AEM website that 
 
 Learn how to create a code project and configure a new site in AEM as a Cloud Service. This setup enables seamless development with the Universal Editor for content creation and fast content delivery through Edge Delivery Services. 
 
-<!-- CARDS 
+<!-- XCARDS 
 
 * ./1-new-code-project.md
-  {}
 * ./2-new-aem-site.md
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Create a new project">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Create a code project">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./1-new-code-project.md" title="Create a new project" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/1-new-project/new-project.png" alt="Create a new project"
+                    <a href="./1-new-code-project.md" title="Create a code project" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/1-new-project/new-project.png" alt="Create a code project"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -43,9 +42,9 @@ Learn how to create a code project and configure a new site in AEM as a Cloud Se
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./1-new-code-project.md" target="_blank" rel="referrer" title="Create a new project">Create a new project</a>
+                        <a href="./1-new-code-project.md" target="_blank" rel="referrer" title="Create a code project">Create a code project</a>
                     </p>
-                    <p class="is-size-6">Create a new project for Edge Delivery Services for Universal Editor</p>
+                    <p class="is-size-6">Create a code project for Edge Delivery Services, editable using the Universal Editor.</p>
                 </div>
                 <a href="./1-new-code-project.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -53,12 +52,12 @@ Learn how to create a code project and configure a new site in AEM as a Cloud Se
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Create a new site">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Create an AEM site">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./2-new-aem-site.md" title="Create a new site" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/2-new-aem-site/new-site.png" alt="Create a new site"
+                    <a href="./2-new-aem-site.md" title="Create an AEM site" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/2-new-aem-site/new-site.png" alt="Create an AEM site"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -66,9 +65,9 @@ Learn how to create a code project and configure a new site in AEM as a Cloud Se
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./2-new-aem-site.md" target="_blank" rel="referrer" title="Create a new site">Create a new site</a>
+                        <a href="./2-new-aem-site.md" target="_blank" rel="referrer" title="Create an AEM site">Create an AEM site</a>
                     </p>
-                    <p class="is-size-6">Create a new site in AEM Sites for Edge Delivery Services for Universal Editor</p>
+                    <p class="is-size-6">Create a site in AEM Sites for Edge Delivery Services, editable using the Universal Editor.</p>
                 </div>
                 <a href="./2-new-aem-site.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -82,7 +81,7 @@ Learn how to create a code project and configure a new site in AEM as a Cloud Se
 ## Development setup
 
 Learn how to configure your local development environment to enable fast website development. This setup allows for seamless site creation with the Universal Editor and efficient content delivery through Edge Delivery Services, ensuring a smooth and optimized development workflow.
-<!-- CARDS 
+<!-- XCARDS 
 
 * ./3-local-development-environment.md
 * ./4-website-branding.md
@@ -90,12 +89,12 @@ Learn how to configure your local development environment to enable fast website
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Set up a local dev environment">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Set up a local development environment">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./3-local-development-environment.md" title="Set up a local dev environment" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/3-local-development-environment/aem-up.png" alt="Set up a local dev environment"
+                    <a href="./3-local-development-environment.md" title="Set up a local development environment" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/3-local-development-environment/github-clone.png" alt="Set up a local development environment"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -103,9 +102,9 @@ Learn how to configure your local development environment to enable fast website
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./3-local-development-environment.md" target="_blank" rel="referrer" title="Set up a local dev environment">Set up a local dev environment</a>
+                        <a href="./3-local-development-environment.md" target="_blank" rel="referrer" title="Set up a local development environment">Set up a local development environment</a>
                     </p>
-                    <p class="is-size-6">Create a new project for Edge Delivery Services for Universal Editor</p>
+                    <p class="is-size-6">Set up a local development environment for sites delivered with Edge Delivery Services and editable with Universal Editor.</p>
                 </div>
                 <a href="./3-local-development-environment.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -113,12 +112,12 @@ Learn how to configure your local development environment to enable fast website
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Website branding">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Add website branding">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./4-website-branding.md" title="Website branding" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/4-website-branding/github-issues.png" alt="Website branding"
+                    <a href="./4-website-branding.md" title="Add website branding" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/4-website-branding/github-issues.png" alt="Add website branding"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -126,9 +125,9 @@ Learn how to configure your local development environment to enable fast website
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./4-website-branding.md" target="_blank" rel="referrer" title="Website branding">Website branding</a>
+                        <a href="./4-website-branding.md" target="_blank" rel="referrer" title="Add website branding">Add website branding</a>
                     </p>
-                    <p class="is-size-6">Setup global CSS, CSS variables and web fonts.</p>
+                    <p class="is-size-6">Define global CSS, CSS variables and web fonts for an Edge Delivery Services site.</p>
                 </div>
                 <a href="./4-website-branding.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -145,20 +144,20 @@ Learn how to create a new block by defining its content model and setting up sam
 
 <!-- CARDS 
 
-* ./5-new-block.md
-* ./6-author-block.md
-* ./7a-block-css.md
-* ./7b-block-js-css.md
+* ./5-new-block.md {image = ./assets/5-new-block/card.png}
+* ./6-author-block.md {image = ./assets/6-author-block/card.png}
+* ./7a-block-css.md {image = ./assets/7a-block-css/card.png}
+* ./7b-block-js-css.md {image = ./assets/7b-block-js-css/card.png}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Create a new block for Universal Editor">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Create a block">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./5-new-block.md" title="Create a new block for Universal Editor" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/5-new-block/teaser-block.png" alt="Create a new block for Universal Editor"
+                    <a href="./5-new-block.md" title="Create a block" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/5-new-block/teaser-block.png" alt="Create a block"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -166,9 +165,9 @@ Learn how to create a new block by defining its content model and setting up sam
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./5-new-block.md" target="_blank" rel="referrer" title="Create a new block for Universal Editor">Create a new block for Universal Editor</a>
+                        <a href="./5-new-block.md" target="_blank" rel="referrer" title="Create a block">Create a block</a>
                     </p>
-                    <p class="is-size-6">Build a new block.</p>
+                    <p class="is-size-6">Build a block for an Edge Delivery Services website that is editable with Universal Editor.</p>
                 </div>
                 <a href="./5-new-block.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -176,12 +175,12 @@ Learn how to create a new block by defining its content model and setting up sam
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Author the block">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Author a block">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./6-author-block.md" title="Author the block" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/6-author-block/open-new-site.png" alt="Author the block"
+                    <a href="./6-author-block.md" title="Author a block" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/6-author-block/open-new-site.png" alt="Author a block"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -189,9 +188,9 @@ Learn how to create a new block by defining its content model and setting up sam
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./6-author-block.md" target="_blank" rel="referrer" title="Author the block">Author the block</a>
+                        <a href="./6-author-block.md" target="_blank" rel="referrer" title="Author a block">Author a block</a>
                     </p>
-                    <p class="is-size-6">Author the new block so it can develop against it.</p>
+                    <p class="is-size-6">Author a Edge Delivery Services block with Universal Editor.</p>
                 </div>
                 <a href="./6-author-block.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -199,12 +198,12 @@ Learn how to create a new block by defining its content model and setting up sam
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Block development with CSS">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Develop a block with CSS">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./7a-block-css.md" title="Block development with CSS" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/7a-block-css/inspect-block-dom.png" alt="Block development with CSS"
+                    <a href="./7a-block-css.md" title="Develop a block with CSS" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/7a-block-css/inspect-block-dom.png" alt="Develop a block with CSS"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -212,9 +211,9 @@ Learn how to create a new block by defining its content model and setting up sam
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./7a-block-css.md" target="_blank" rel="referrer" title="Block development with CSS">Block development with CSS</a>
+                        <a href="./7a-block-css.md" target="_blank" rel="referrer" title="Develop a block with CSS">Develop a block with CSS</a>
                     </p>
-                    <p class="is-size-6">Build the block using only CSS.</p>
+                    <p class="is-size-6">Develop a block with CSS for Edge Delivery Services, editable using the Universal Editor.</p>
                 </div>
                 <a href="./7a-block-css.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -222,12 +221,12 @@ Learn how to create a new block by defining its content model and setting up sam
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Block development with CSS and JS">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Develop a block with CSS and JS">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./7b-block-js-css.md" title="Block development with CSS and JS" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/7a-block-css/inspect-block-dom.png" alt="Block development with CSS and JS"
+                    <a href="./7b-block-js-css.md" title="Develop a block with CSS and JS" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/7a-block-css/inspect-block-dom.png" alt="Develop a block with CSS and JS"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -235,9 +234,9 @@ Learn how to create a new block by defining its content model and setting up sam
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./7b-block-js-css.md" target="_blank" rel="referrer" title="Block development with CSS and JS">Block development with CSS and JS</a>
+                        <a href="./7b-block-js-css.md" target="_blank" rel="referrer" title="Develop a block with CSS and JS">Develop a block with CSS and JS</a>
                     </p>
-                    <p class="is-size-6">Build a block using CSS and JS.</p>
+                    <p class="is-size-6">Develop a block with CSS and JavaScript for Edge Delivery Services, editable using the Universal Editor.</p>
                 </div>
                 <a href="./7b-block-js-css.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
