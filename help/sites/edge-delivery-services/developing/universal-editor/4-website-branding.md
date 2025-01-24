@@ -337,8 +337,8 @@ As you add CSS, the AEM CLI's local development environment automatically reload
 
 You can download the updated CSS files from the links below:
 
-* [`styles.css`](https://adobe.com#TODO)
-* [`fonts.css`](https://adobe.com#TODO)
+* [`styles.css`](https://raw.githubusercontent.com/davidjgonzalez/aem-wknd-eds-ue/refs/heads/main/styles/styles.css)
+* [`fonts.css`](https://raw.githubusercontent.com/davidjgonzalez/aem-wknd-eds-ue/refs/heads/main/styles/fonts.css)
 
 ## Lint the CSS files
 
