@@ -17,8 +17,8 @@ duration: 315
 >id="aemcloud_adobeims_aem_users_groups"
 >title="AEM Users, Groups & Permissions"
 >abstract="Adobe Experience Manager builds on Adobe IMS users, user groups, and product profiles in order to provide users customizable access to AEM. Learn how to define AEM groups and permissions and how they work in concert with Adobe IMS abstractions to provide seamless and customizable access to AEM."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en" text="IMS Support for Adobe Experience Manager as a Cloud Service"
->additional-url="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html" text="AEM-provided user groups and their permissions"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=en" text="IMS Support for Adobe Experience Manager as a Cloud Service"
+>additional-url="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.html" text="AEM-provided user groups and their permissions"
 
 Adobe Experience Manager builds on Adobe IMS users, user groups, and product profiles in order to provide users customizable access to AEM. Learn how to define AEM groups and permissions, that build upon [AEM's provided user groups](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#built-in-users-and-groups),  and how they work in concert with Adobe IMS abstractions to provide seamless and customizable access to AEM.
 
@@ -26,5 +26,5 @@ Adobe Experience Manager builds on Adobe IMS users, user groups, and product pro
 
 ## Additional resources
 
-+ [IMS Support for Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html)
-+ [AEM-provided user groups and their permissions](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html#built-in-users-and-groups)
++ [IMS Support for Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html)
++ [AEM-provided user groups and their permissions](https://experienceleague.adobe.com/docs/experience-manager-65/content/security/security.html)

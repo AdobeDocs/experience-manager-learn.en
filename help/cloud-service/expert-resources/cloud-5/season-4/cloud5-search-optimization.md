@@ -10,7 +10,7 @@ hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 doc-type: Technical Video
 duration: 308
-last-substantial-update: 2024-12-12
+last-substantial-update: 2024-12-16
 jira: KT-16665
 exl-id: e69c5c99-ce3a-4a8c-a59b-0bf67fdbd7ce
 ---

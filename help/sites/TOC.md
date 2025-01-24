@@ -92,6 +92,16 @@ version: 6.4, 6.5, Cloud Service
     + [Document structure](edge-delivery-services/developing/document-structure.md)
     + [Local development](edge-delivery-services/developing/local-development.md)
     + [Git](edge-delivery-services/developing/git.md)
+    + Universal Editor {#universal-editor}
+      + [Overview](./edge-delivery-services/developing/universal-editor/0-overview.md)
+      + [New code project](./edge-delivery-services/developing/universal-editor/1-new-code-project.md)
+      + [New AEM site](./edge-delivery-services/developing/universal-editor/2-new-aem-site.md)
+      + [Local development environment](./edge-delivery-services/developing/universal-editor/3-local-development-environment.md)
+      + [Website branding](./edge-delivery-services/developing/universal-editor/4-website-branding.md)
+      + [New block](./edge-delivery-services/developing/universal-editor/5-new-block.md)
+      + [Author the block](./edge-delivery-services/developing/universal-editor/6-author-block.md)
+      + [Block with only CSS](./edge-delivery-services/developing/universal-editor/7a-block-css.md)
+      + [Block with CSS and JS](./edge-delivery-services/developing/universal-editor/7b-block-js-css.md)
   + How-to{#how-to}
     + [RSS feeds](edge-delivery-services/how-to/rss.md)
     + [Social media sharing](edge-delivery-services/how-to/social-media-sharing.md)

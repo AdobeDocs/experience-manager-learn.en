@@ -56,6 +56,7 @@ team: TM
   + [3D assets](./advanced/3d-assets.md) 
   + [Annotations PDF output](./advanced/customizing-annotations-pdf-output.md)
   + [Assets reports](./advanced/asset-reports.md)
+  + [Content credentials](./advanced/content-credentials.md)
   + [Blocked tags](./advanced/blocked-tags.md)
   + [Extract archive](./advanced/extract-archive.md)
   + [Permissions (CUGs)](./advanced/closed-user-groups.md)

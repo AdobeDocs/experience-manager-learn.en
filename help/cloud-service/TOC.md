@@ -137,7 +137,8 @@ team: TM
       + [Traversal warnings](./debugging/cloud-service/risks/traversals.md)
 + AEM APIs{#aem-apis}
   + [Overview](./apis/overview.md)
-  + [Invoke OpenAPI-based AEM APIs](./apis/invoke-openapi-based-aem-apis.md)
+  + [OpenAPI-based AEM APIs (server-to-server)](./apis/invoke-openapi-based-aem-apis.md)
+  + [OpenAPI-based AEM APIs (user authenticated)](./apis/invoke-openapi-based-aem-apis-from-web-app.md)
 + Content Delivery{#content-delivery}
   + [Custom domain name](./content-delivery/custom-domain-names.md)
   + [Custom domain name with Adobe managed CDN](./content-delivery/custom-domain-name-with-adobe-managed-cdn.md)
@@ -190,6 +191,7 @@ team: TM
     + [Journaling - Load AEM Events](./eventing/examples/journaling.md)
     + [Adobe I/O Runtime Action - Receive AEM Events](./eventing/examples/runtime-action.md)
     + [Adobe I/O Runtime Action - Process AEM Events](./eventing/examples/event-processing-using-runtime-action.md)
+    + [AEM Assets Events - PIM Integration](./eventing/examples/assets-pim-integration.md)
 + Migration {#migration}
   + [Content Transfer Tool](./migration/content-transfer-tool.md)
   + [Bulk Import of assets](./migration/bulk-import.md)

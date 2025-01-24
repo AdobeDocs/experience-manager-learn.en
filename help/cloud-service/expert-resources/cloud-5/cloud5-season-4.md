@@ -5,7 +5,7 @@ sub-product: Experience Manager Sites, Experience Manager Cloud Manager, Experie
 solution: Experience Manager as a Cloud Service, Experience Manager
 recommendations: noDisplay, noCatalog
 duration: 30
-last-substantial-update: 2024-12-16
+last-substantial-update: 2024-12-15
 exl-id: ede3fb19-d803-4b21-8c03-4283f7b4f7f4
 ---
 # Cloud 5 season 4
@@ -31,12 +31,12 @@ Each season varies in length and is released on a fixed schedule. Visit this pag
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label=""Development best practices for Edge Delivery Services"">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Development best practices for Edge Delivery Services">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./season-4/cloud5-edge-delivery-services-best-practices.md" title=""Development best practices for Edge Delivery Services"" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3440978/?format=jpeg&nocache=1734040055526" alt=""Development best practices for Edge Delivery Services""
+                    <a href="./season-4/cloud5-edge-delivery-services-best-practices.md" title="Development best practices for Edge Delivery Services" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3440978/?format=jpeg&nocache=1734040055526" alt="Development best practices for Edge Delivery Services"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -44,7 +44,7 @@ Each season varies in length and is released on a fixed schedule. Visit this pag
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./season-4/cloud5-edge-delivery-services-best-practices.md" target="_blank" rel="referrer" title=""Development best practices for Edge Delivery Services"">"Development best practices for Edge Delivery Services"</a>
+                        <a href="./season-4/cloud5-edge-delivery-services-best-practices.md" target="_blank" rel="referrer" title="Development best practices for Edge Delivery Services">Development best practices for Edge Delivery Services</a>
                     </p>
                     <p class="is-size-6">Explore techniques for developing in Edge Delivery Services with a seasoned architect.</p>
                 </div>
