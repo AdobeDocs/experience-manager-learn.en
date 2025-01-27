@@ -14,6 +14,6 @@ exl-id: 951bb255-e3e7-4bd5-9d48-7ff0469860af
 ---
 # Adobe Express integration with AEM Assets
 
-Learn how to use[Adobe Express'](https://www.adobe.com/express/) integration with AEM Assets to optimize content supply chains and enhance productivity and accessibility for all team members.
+Learn how to use the [Adobe Express](https://www.adobe.com/express/) integration with AEM Assets to optimize content supply chains and enhance productivity and accessibility for all team members.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425193/?learn=on)
