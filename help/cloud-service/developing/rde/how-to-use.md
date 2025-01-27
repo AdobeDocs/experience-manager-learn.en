@@ -14,13 +14,13 @@ duration: 792
 ---
 # How to use Rapid Development Environment
 
-Learn **how to use** Rapid Development Environment (RDE) in AEM as a Cloud Service. Deploy code and content for faster development cycles of your near-final code to the RDE, from your favorite Integrated Development Environment (IDE).
+Learn **how to use** the Rapid Development Environment (RDE) in AEM as a Cloud Service. Deploy code and content for faster development cycles of your near-final code to the RDE, from your favorite Integrated Development Environment (IDE).
 
 Using [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd#aem-wknd-sites-project) you learn how to deploy various AEM artifacts to the RDE by running AEM-RDE's `install` command from your favorite IDE.
 
 - AEM code & content package (all, ui.apps) deployment
 - OSGi bundle and config file deployment
-- Apache and Dispatcher configs deployment as a zip file
+- Apache and Dispatcher configurations deployment as a zip file
 - Individual files like HTL, `.content.xml` (dialog XML) deployment
 - Review other RDE commands like `status, reset and delete`
 
@@ -65,8 +65,8 @@ Upon successful deployments, verify the WKND site on both the author and publish
 
 Let's enhance the `Hello World Component` and deploy it to the RDE.
 
-1.  Open the dialog XML (`.content.xml`) file from `ui.apps/src/main/content/jcr_root/apps/wknd/components/helloworld/_cq_dialog/` folder
-1.  Add the `Description` text field after the existing `Text` dialog field
+1. Open the dialog XML (`.content.xml`) file from `ui.apps/src/main/content/jcr_root/apps/wknd/components/helloworld/_cq_dialog/` folder
+1. Add the `Description` text field after the existing `Text` dialog field
 
     ```xml
     ...
@@ -78,8 +78,8 @@ Let's enhance the `Hello World Component` and deploy it to the RDE.
     ...
     ```
 
-1.  Open the `helloworld.html` file from `ui.apps/src/main/content/jcr_root/apps/wknd/components/helloworld` folder
-1.  Render the `Description` property after the existing `<div>` element of the `Text` property.
+1. Open the `helloworld.html` file from `ui.apps/src/main/content/jcr_root/apps/wknd/components/helloworld` folder
+1. Render the `Description` property after the existing `<div>` element of the `Text` property.
     
     ```html
     ...
@@ -90,9 +90,9 @@ Let's enhance the `Hello World Component` and deploy it to the RDE.
     ...
     ```
 
-1.  Verify the changes on local AEM SDK by performing the Maven build or syncing individual files.
+1. Verify the changes on the local AEM SDK by performing the Maven build or syncing individual files.
 
-1.  Deploy the changes to the RDE via `ui.apps` package or by deploying the individual Dialog and HTL files:
+1. Deploy the changes to the RDE via `ui.apps` package or by deploying the individual Dialog and HTL files:
 
     ```shell
     # Using 'ui.apps' package
@@ -110,7 +110,7 @@ Let's enhance the `Hello World Component` and deploy it to the RDE.
     $ aio aem:rde:install ui.apps/src/main/content/jcr_root/apps/wknd/components/helloworld/_cq_dialog/.content.xml -t content-xml -p /apps/wknd/components/helloworld/_cq_dialog/.content.xml
     ```
 
-1.  Verify changes on the RDE by adding or editing the `Hello World Component` on a WKND site page.
+1. Verify changes on the RDE by adding or editing the `Hello World Component` on a WKND site page.
 
 ### Review the `install` command options
 
@@ -126,8 +126,8 @@ The flags are self-explanatory, the `-s` flag is useful to target the deployment
 
 To learn how to deploy the OSGi bundle, let's enhance the `HelloWorldModel` Java&trade; class and deploy it to the RDE.
 
-1.  Open the `HelloWorldModel.java` file from `core/src/main/java/com/adobe/aem/guides/wknd/core/models` folder
-1.  Update the `init()` method as below:
+1. Open the `HelloWorldModel.java` file from `core/src/main/java/com/adobe/aem/guides/wknd/core/models` folder
+1. Update the `init()` method as below:
 
     ```java
     ...
@@ -138,8 +138,8 @@ To learn how to deploy the OSGi bundle, let's enhance the `HelloWorldModel` Java
     ...
     ```
 
-1.  Verify the changes on local AEM-SDK by deploying the `core` bundle via maven command
-1.  Deploy the changes to the RDE by running the following command
+1. Verify the changes on local AEM-SDK by deploying the `core` bundle via maven command
+1. Deploy the changes to the RDE by running the following command
 
     ```shell
     $ cd core
@@ -147,7 +147,7 @@ To learn how to deploy the OSGi bundle, let's enhance the `HelloWorldModel` Java
     $ aio aem:rde:install target/aem-guides-wknd.core-2.1.3-SNAPSHOT.jar
     ```
 
-1.  Verify changes on the RDE by adding or editing the `Hello World Component` on a WKND site page.
+1. Verify changes on the RDE by adding or editing the `Hello World Component` on a WKND site page.
 
 ### Deploy OSGi configuration
 
@@ -172,7 +172,7 @@ $ aio aem:rde:install target/aem-guides-wknd.ui.config-2.1.3-SNAPSHOT.zip
 
 The Apache or Dispatcher config files **cannot be deployed individually**, but the entire Dispatcher folder structure needs to be deployed in the form of a ZIP file.
 
-1.  Make a desired change in the config file of the `dispatcher` module, for demo purposes, update the `dispatcher/src/conf.d/available_vhosts/wknd.vhost` to cache the `html` files only for 60 seconds.
+1. Make a desired change in the config file of the `dispatcher` module, for demo purposes, update the `dispatcher/src/conf.d/available_vhosts/wknd.vhost` to cache the `html` files only for 60 seconds.
     
     ```
     ...
@@ -185,8 +185,8 @@ The Apache or Dispatcher config files **cannot be deployed individually**, but t
     ...
     ```
     
-1.  Verify the changes locally, see [Run Dispatcher locally](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html#run-dispatcher-locally) for more details.
-1.  Deploy the changes to the RDE by running the following command:
+1. Verify the changes locally, see [Run Dispatcher locally](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools) for more details.
+1. Deploy the changes to the RDE by running the following command:
 
     ```shell
     $ cd dispatcher
@@ -194,7 +194,49 @@ The Apache or Dispatcher config files **cannot be deployed individually**, but t
     $ aio aem:rde:install target/aem-guides-wknd.dispatcher.cloud-2.1.3-SNAPSHOT.zip
     ```
     
-1.  Verify changes on the RDE 
+1. Verify changes on the RDE.
+
+### Deploy configuration (YAML) files
+
+The CDN, maintenance tasks, log forwarding and AEM API authentication configuration files can be deployed to the RDE using the `install` command. These configurations are managed as YAML files in the `config` folder of the AEM project, see [Supported Configurations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline#configurations) for more details.
+
+To learn how to deploy the configuration files, let's enhance the `cdn` configuration file and deploy it to the RDE.
+
+1. Open the `cdn.yaml` file from the `config` folder
+1. Update the desired configuration, for example, update the rate limit to 200 requests per second
+
+    ```yaml
+    kind: "CDN"
+    version: "1"
+    metadata:
+      envTypes: ["dev", "stage", "prod"]
+    data:
+      trafficFilters:
+        rules:
+        #  Block client for 5m when it exceeds an average of 100 req/sec to origin on a time window of 10sec
+        - name: limit-origin-requests-client-ip
+          when:
+            reqProperty: tier
+            equals: 'publish'
+          rateLimit:
+            limit: 200 # updated rate limit
+            window: 10
+            count: fetches
+            penalty: 300
+            groupBy:
+              - reqProperty: clientIp
+          action: log
+    ...
+    ```    
+
+1. Deploy the changes to the RDE by running the following command  
+
+    ```shell
+    $ aio aem:rde:install -t env-config ./config/cdn.yaml
+    ```
+    
+1. Verify changes on the RDE    
+
 
 ## Additional AEM RDE plugin commands
 
@@ -216,7 +258,7 @@ aem rde restart  Restart the author and publish of an RDE
 aem rde status   Get a list of the bundles and configs deployed to the current rde.
 ```
 
-Using the above commands your RDE can be managed from your favorite IDE for faster development/deployment life cycle.
+Using the above commands your RDE can be managed from your favorite IDE for a faster development/deployment life cycle.
 
 ## Next Step
 
@@ -225,8 +267,8 @@ Learn about the [development/deployment life cycle using RDE](./development-life
 
 ## Additional resources
 
-[RDE commands documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/rapid-development-environments.html#rde-cli-commands)
+[RDE commands documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/rapid-development-environments)
 
 [Adobe I/O Runtime CLI Plugin for interactions with AEM Rapid Development Environments](https://github.com/adobe/aio-cli-plugin-aem-rde#aio-cli-plugin-aem-rde)
 
-[AEM Project setup](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html)
+[AEM Project setup](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
