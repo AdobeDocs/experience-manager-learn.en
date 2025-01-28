@@ -131,6 +131,12 @@ The teaser consists of two logical areas: image and text. To simplify the code n
 
 If you are not familiar with [field collapse](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/content-modeling#field-collapse), [element grouping](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/content-modeling#element-grouping), or [type inference](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/content-modeling#type-inference) review the linked documentation before continuing, as they are essential to creating a well-structured block model.
 
+In the example below:
+
+- [Type inference](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/content-modeling#type-inference)  is used to automatically create an `<img>` HTML element from the `image` field. Field collapsing is used with the `image` and `imageAlt` fields to create an `<img>` HTML element. The `src` attribute is set to the value of the `image` field, while the `alt` attribute is set to the value of the `imageAlt` field.
+- `textContent` is a group name used to categorize fields. It should be semantic, but can be anything unique to this block. This informs the Universal Editor to render all fields with this prefix inside the same `<div>` element in the final HTML output.
+- Field collapsing is also applied within the `textContent` group for the call-to-action (CTA). The CTA is created as a `<a>` via [type inference](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/content-modeling#type-inference). The `cta` field is used to set the `href` attribute of the `<a>` element, and the `ctaText` field provides the text content for the link inside the `<a ...>` tags.
+
 [!BADGE /blocks/teaser/_teaser.json]{type=Neutral tooltip="File name of code sample below."}
 
 ```json
