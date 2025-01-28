@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 doc-type: Catalog
 jira: KT-15832
-duration: 89
+duration: 88
 exl-id: aeac08a2-75a0-4adb-b32e-0e7f85e7eb1d
 ---
 # Edge Delivery Services and Universal Editor developer tutorial
@@ -21,7 +21,7 @@ In this tutorial, you'll learn the fundamentals of building an AEM website that 
 
 Learn how to create a code project and configure a new site in AEM as a Cloud Service. This setup enables seamless development with the Universal Editor for content creation and fast content delivery through Edge Delivery Services. 
 
-<!-- XCARDS 
+<!-- CARDS 
 
 * ./1-new-code-project.md
 * ./2-new-aem-site.md
@@ -81,7 +81,7 @@ Learn how to create a code project and configure a new site in AEM as a Cloud Se
 ## Development setup
 
 Learn how to configure your local development environment to enable fast website development. This setup allows for seamless site creation with the Universal Editor and efficient content delivery through Edge Delivery Services, ensuring a smooth and optimized development workflow.
-<!-- XCARDS 
+<!-- CARDS 
 
 * ./3-local-development-environment.md
 * ./4-website-branding.md
@@ -157,7 +157,7 @@ Learn how to create a new block by defining its content model and setting up sam
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./5-new-block.md" title="Create a block" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/5-new-block/teaser-block.png" alt="Create a block"
+                        <img class="is-bordered-r-small" src="./assets/5-new-block/card.png" alt="Create a block"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -180,7 +180,7 @@ Learn how to create a new block by defining its content model and setting up sam
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./6-author-block.md" title="Author a block" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/6-author-block/open-new-site.png" alt="Author a block"
+                        <img class="is-bordered-r-small" src="./assets/6-author-block/card.png" alt="Author a block"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -203,7 +203,7 @@ Learn how to create a new block by defining its content model and setting up sam
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./7a-block-css.md" title="Develop a block with CSS" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/7a-block-css/inspect-block-dom.png" alt="Develop a block with CSS"
+                        <img class="is-bordered-r-small" src="./assets/7a-block-css/card.png" alt="Develop a block with CSS"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -226,7 +226,7 @@ Learn how to create a new block by defining its content model and setting up sam
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./7b-block-js-css.md" title="Develop a block with CSS and JS" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/7a-block-css/inspect-block-dom.png" alt="Develop a block with CSS and JS"
+                        <img class="is-bordered-r-small" src="./assets/7b-block-js-css/card.png" alt="Develop a block with CSS and JS"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
