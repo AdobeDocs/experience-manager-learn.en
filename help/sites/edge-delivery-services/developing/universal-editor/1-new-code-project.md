@@ -26,7 +26,7 @@ Follow the steps below to create an Edge Delivery Services code project whose co
 3. **Install the AEM Code Sync GitHub app** and grant access to the repository. You can find the [app here](https://github.com/apps/aem-code-sync).
 4. **Configure your new project's `fstab.yaml`** to point to the correct AEM Author service.
 
-    * To experiment, you can use lower AEM as a Cloud Service environments (Stage, Dev, or RDE), however real websites implementations should be configured to use a production AEM Author service.
+    * To experiment, you can use lower AEM as a Cloud Service environments (Stage or Dev), however real websites implementations should be configured to use a production AEM service.
 
 5. **Edit your new project's `paths.json`** to map the AEM Author service path to your website's root.
 
