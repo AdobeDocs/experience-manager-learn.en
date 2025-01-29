@@ -38,3 +38,4 @@ After creating the site in AEM Author, publish it to the Edge Delivery Services 
 3. Choose **Preview** under **Destinations** and click **Next**.
 4. Under **Include Children Settings**, select **Include children**, deselect other options, and click **OK**.
 5. Click **Publish** to publish the site's contents to preview.
+6. Once published to preview, the pages are available on the Edge Delivery Services preview environment (the pages will not appear on the AEM Preview service).  
