@@ -59,7 +59,7 @@ Before starting development, install the following on your machine:
 
 ## Clone the GitHub repository
 
-Clone the [GitHub repository](./1-new-code-project.md) containing the AEM Edge Delivery Services code project to your local development environment.
+Clone the [GitHub repository created in the new code project chapter](./1-new-code-project.md) that contains the AEM Edge Delivery Services code project to your local development environment.
 
 ![GitHub repository clone](./assets/3-local-development-environment/github-clone.png)
 
@@ -114,6 +114,8 @@ info: Enabled reverse proxy to https://main--aem-wknd-eds-ue--<YOUR_ORG>.aem.pag
 ```
 
 The AEM CLI opens the website in your browser at `http://localhost:3000/`. Changes in the project are automatically hot-reloaded in the web browser, while content changes [require publishing to the preview environment](./6-author-block.md) and refreshing the web browser.
+
+If the web site opens with a 404 page, it's likely the [fstab.yaml or paths.json](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/edge-dev-getting-started#create-github-project) updated in [new code project](./1-new-code-project.md) are incorrectly configured, or the changes have not been committed to the `main` branch. 
 
 ## Build JSON fragments
 
