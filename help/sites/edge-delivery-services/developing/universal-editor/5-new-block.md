@@ -316,6 +316,8 @@ The block definition register the block in Universal Editor. Here's a breakdown 
 | `definition.plugins.xwalk.page.resourceType` | Defines the Sling resource type for rendering the component in the Universal Editor. Always use a `core/franklin/components/block/v#/block` resource type. |
 | `definition.plugins.xwalk.page.template.name` | The name of the block. It should be lower-cased and hyphenated to match the block's folder name. This value is also used to label the instance of the block in the Universal Editor. |
 | `definition.plugins.xwalk.page.template.model` | Links this definition to its `model` definition, which controls the authoring fields displayed for the block in the Universal Editor. The value here must match a `model.id` value. |
+| `definition.plugins.xwalk.page.template.classes` | Optional property, whose value is added to the block HTML element's `class` attribute. This allows for variants of the same block. The `classes` value can be made made editable by [adding a classes field](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/create-block#block-options) to the block's [model](#block-model).  |
+
 
 Here's an example JSON for the block definition:
 
