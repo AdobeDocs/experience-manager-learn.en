@@ -19,7 +19,7 @@ Remember, [AEM websites delivered by Edge Delivery Services](https://experiencel
 
 ![New Edge Delivery Services project](./assets/1-new-project/new-project.png)
 
-Follow the steps below to create an Edge Delivery Services code project whose content is editable in Universal Editor:
+Follow the [detailed steps outlined in documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/edge-dev-getting-started#create-github-project)  an Edge Delivery Services code project whose content is editable in Universal Editor.  Below is a summarized list of the steps, including the values used in this tutorial.
 
 1. **Set up a GitHub account.** If you're creating a project for your organization, make sure that the organization has a GitHub account, and you're a member.
 2. **Create a new code project** using the [AEM Boilerplate XWalk project template](https://github.com/adobe-rnd/aem-boilerplate-xwalk).
@@ -30,4 +30,4 @@ Follow the steps below to create an Edge Delivery Services code project whose co
 
 5. **Edit your new project's `paths.json`** to map the AEM Author service path to your website's root.
 
-For more detailed instructions, check out the [create your GitHub project section](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/edge-dev-getting-started#create-github-project) in the getting started guide.
+This Git repository is cloned in the [local development environment](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/edge-delivery-services/developing/universal-editor/3-local-development-environment) chapter, and where code is developed.
