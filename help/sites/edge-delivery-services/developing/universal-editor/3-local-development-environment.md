@@ -181,8 +181,8 @@ These scripts do not come pre-configured with the AEM Boilerplate XWalk template
 
 | NPM script       | Command                                        | Description                                           |
 |------------------|------------------------------------------------|-------------------------------------------------------|
-| `lint:js:fix`    | `npm run lint:js --fix`                        | Automatically fixes JavaScript linting issues.        |
-| `lint:css:fix`   | `stylelint blocks/**/*.css styles/*.css --fix` | Automatically fixes CSS linting issues.               |
+| `lint:js:fix`    | `npm run lint:js -- --fix`                        | Automatically fixes JavaScript linting issues.        |
+| `lint:css:fix`   | `stylelint blocks/**/*.css styles/*.css -- --fix` | Automatically fixes CSS linting issues.               |
 | `lint:fix`       | `npm run lint:js:fix && npm run lint:css:fix`   | Runs both JS and CSS fix scripts for quick cleanup.   |
 
 >[!TAB package.json example]
@@ -194,8 +194,8 @@ The following script entries can be added to the `package.json` `scripts` array.
   ...
   "scripts": [
     ...,
-    "lint:js:fix": "npm run lint:js --fix",
-    "lint:css:fix": "npm run lint:css --fix",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint:css:fix": "npm run lint:css -- --fix",
     "lint:fix": "npm run lint:js:fix && npm run lint:css:fix",
     ...
   ]
