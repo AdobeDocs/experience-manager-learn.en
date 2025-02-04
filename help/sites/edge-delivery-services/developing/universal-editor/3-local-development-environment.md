@@ -19,7 +19,11 @@ The development tools and processes for an Edge Delivery Services website projec
 
 ## Development topology
 
-The development topology for an Edge Delivery Services website project that is editable with Universal Editor consists of the following aspects:
+This video provides an overview of the development topology for an Edge Delivery Services website project that is editable with Universal Editor.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443978/?learn=on&enablevpops)
+
++++See additional development topology details
 
 - **GitHub repository**:  
    - **Purpose**: Hosts the website's code (CSS and JavaScript).  
@@ -48,6 +52,8 @@ The development topology for an Edge Delivery Services website project that is e
      - A local clone of the **GitHub repository** for branch-based development.  
      - The **AEM CLI**, which acts as a development server, applies local code changes to the **Preview environment** for a hot-reload experience.  
    - **Workflow**: Developers write code locally, commit changes to a working branch, push the branch to GitHub, validate it in the **Universal Editor** (using the specified branch), and merge it into the **main branch** when ready for production deployment.  
+
++++
 
 ## Prerequisites
 
