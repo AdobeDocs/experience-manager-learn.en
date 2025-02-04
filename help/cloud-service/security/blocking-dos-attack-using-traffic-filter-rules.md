@@ -17,7 +17,7 @@ exl-id: 60c2306f-3cb6-4a6e-9588-5fa71472acf7
 
 Learn how to block Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks using **rate limit traffic filter** rules and other strategies at the AEM as a Cloud Service (AEMCS) managed CDN. These attacks cause traffic spikes at the CDN and potentially at the AEM Publish service (aka origin) and can impact site responsiveness and availability.
 
-This tutorial serves as a guide on _how to analyze your traffic patterns and configure rate limit [traffic filter rules](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf)_ to mitigate those attacks. The tutorial also describes how to [configure alerts](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf#traffic-filter-rules-alerts) so that you are notified when there is a suspected attack. 
+This tutorial serves as a guide on _how to analyze your traffic patterns and configure rate limit [traffic filter rules](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf)_ to mitigate those attacks. The tutorial also describes how to [configure alerts](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf#traffic-filter-rules-alerts) so that you are notified when there is a suspected attack.
 
 ## Understanding protection
 
@@ -45,12 +45,12 @@ There are two variations of rate limit traffic rules:
 
 ## Customer journey
 
-The steps below reflect the likely process through which customers should go about protecting their websites. 
+The steps below reflect the likely process through which customers should go about protecting their websites.
 
 1. Recognize the need for a rate limit traffic filter rule. This might be the result of receiving Adobe's out-of-the-box traffic spike at origin alert, or it may be a proactive decision to take precautions to reduce the risk of a successful DDoS.
-1. Analyze traffic patterns using a dashboard, if your site is already live, to determine the optimal thresholds for your rate limit traffic filter rules. If your site is not yet live, pick values based on your traffic expectations. 
-1. Using the values from the previous step, configure rate limit traffic filter rules. Make sure to enable the corresponding alerts so you are notified whenever the threshold is met. 
-1. Receive traffic filter rules alerts whenever traffic spikes occur, providing you with valuable insight about whether your organization is potentially being targeted by malicious actors. 
+1. Analyze traffic patterns using a dashboard, if your site is already live, to determine the optimal thresholds for your rate limit traffic filter rules. If your site is not yet live, pick values based on your traffic expectations.
+1. Using the values from the previous step, configure rate limit traffic filter rules. Make sure to enable the corresponding alerts so you are notified whenever the threshold is met.
+1. Receive traffic filter rules alerts whenever traffic spikes occur, providing you with valuable insight about whether your organization is potentially being targeted by malicious actors.
 1. Act on the alert, as necessary. Analyze the traffic to determine if the spike reflects legitimate requests rather than an attack. Increase the thresholds if the traffic is legitimate, or lower them if not.
 
 The rest of this tutorial guides you through this process.
@@ -77,7 +77,7 @@ Configure the dashboard tooling using _one of the following options_:
 
 The **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling provided by Adobe can be used to analyze the CDN logs. This tooling includes a dashboard that visualizes the traffic patterns, making it easier to determine the optimal thresholds for your rate limit traffic filter rules.
 
-- Clone the [AEMCS-CDN-Log-Analysis-Tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling) GitHub repository. 
+- Clone the [AEMCS-CDN-Log-Analysis-Tooling](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling) GitHub repository.
 - Set up the tooling by following the [How to set up the ELK Docker container](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/ELK/README.md#how-to-set-up-the-elk-docker-containerhow-to-setup-the-elk-docker-container) steps.
 - As part of the setup, import the `traffic-filter-rules-analysis-dashboard.ndjson` file to visualize the data. The _CDN Traffic_ dashboard includes visualizations that show the maximum number of requests per IP/POP at the CDN Edge and Origin.
 - From the [Cloud Manager](https://my.cloudmanager.adobe.com/)'s _Environments_ card, download the AEMCS Publish service's CDN logs.
@@ -87,10 +87,10 @@ The **Elasticsearch, Logstash, and Kibana (ELK)** dashboard tooling provided by 
     >[!TIP]
     >
     > It may take up to 5 minutes for the new requests to appear in the CDN logs.
-  
+
 ### Splunk - configuring dashboard tooling
 
-Customers who have [Splunk Log forwarding enabled](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/logging#splunk-logs) can create new dashboards to analyze the traffic patterns. 
+Customers who have [Splunk Log forwarding enabled](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/logging#splunk-logs) can create new dashboards to analyze the traffic patterns.
 
 To create dashboards in Splunk, follow [Splunk dashboards for AEMCS CDN Log Analysis](https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling/blob/main/Splunk/README.md#splunk-dashboards-for-aemcs-cdn-log-analysis) steps.
 
@@ -99,15 +99,15 @@ To create dashboards in Splunk, follow [Splunk dashboards for AEMCS CDN Log Anal
 The following visualizations are available in the ELK and Splunk dashboards:
 
 - **Edge RPS per Client IP and POP**: This visualization shows the maximum number of requests per IP/POP **at the CDN Edge**. The peak in the visualization indicates the maximum request number.
-  
+
     **ELK Dashboard**:
     ![ELK dashboard - Max Requests per IP/POP](./assets/elk-edge-max-per-ip-pop.png)
 
-    **Splunk Dashboard**:  
+    **Splunk Dashboard**:
     ![Splunk dashboard - Max Requests per IP/POP](./assets/splunk-edge-max-per-ip-pop.png)
-  
+
 - **Origin RPS per Client IP and POP**: This visualization shows the maximum number of requests per IP/POP **at the origin**. The peak in the visualization indicates the maximum request number.
-  
+
     **ELK Dashboard**:
     ![ELK dashboard - Max Origin Requests per IP/POP](./assets/elk-origin-max-per-ip-pop.png)
 
@@ -122,21 +122,21 @@ The threshold values for rate limit traffic filter rules should be based on the 
 | :--------- | :------- |
 | Origin    | Take the highest value of the Max Origin Requests per IP/POP under **normal** traffic conditions (that is, not the rate at the time of a DDoS) and increase it by a multiple |
 | Edge    | Take the highest value of the Max Edge Requests per IP/POP under **normal** traffic conditions (that is, not the rate at the time of a DDoS) and increase it by a multiple |
-    
+
 The multiple to use depends on your expectations of normal spikes in traffic due to organic traffic, campaigns, and other events. A multiple between 5-10 may be reasonable.
 
 If your site is not yet live, there is no data to analyze, and you should make an educated guess on the appropriate values to set for your rate limit traffic filter rules. For example:
 
-| Variation                          | Value | 
+| Variation                          | Value |
 |------------------------------ |:-----------:|
 | Edge    | 500 |
 | Origin    | 100 |
-    
+
 ## Configuring rules {#configure-rules}
 
 Configure the **rate limit traffic filter** rules in your AEM project's `/config/cdn.yaml` file, with values based on the discussion above. If needed, consult with your Web Security team to make sure the rate limit values are appropriate and do not block legitimate traffic.
 
-Refer to [Create rules in your AEM project](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/security/traffic-filter-and-waf-rules/how-to-setup#create-rules-in-your-aem-project) for more details. 
+Refer to [Create rules in your AEM project](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/security/traffic-filter-and-waf-rules/how-to-setup#create-rules-in-your-aem-project) for more details.
 
   ```yaml
   kind: CDN
@@ -162,10 +162,10 @@ Refer to [Create rules in your AEM project](https://experienceleague.adobe.com/e
             count: all # count all requests
             groupBy:
               - reqProperty: clientIp
-          action: 
+          action:
             type: log
-            experimental_alert: true
-      #  Prevent attack at origin by blocking client for 5 minutes if they make more than 100 requests per second on average            
+            alert: true
+      #  Prevent attack at origin by blocking client for 5 minutes if they make more than 100 requests per second on average
         - name: prevent-dos-attacks-origin
           when:
             reqProperty: tier
@@ -177,17 +177,13 @@ Refer to [Create rules in your AEM project](https://experienceleague.adobe.com/e
             count: fetches # count only fetches
             groupBy:
               - reqProperty: clientIp
-          action: 
+          action:
             type: log
-            experimental_alert: true   
-            
+            alert: true
+
   ```
 
 Note that both origin and edge rules are declared, and that the alert property is set to `true` so you can receive alerts whenever the threshold is met, likely indicating an attack.
-
->[!NOTE]
->
->The _experimental_ prefix_ in front of experimental_alert will be removed when the alert feature is released. To join the early adopter program, email **<aemcs-waf-adopter@adobe.com>**.
 
 It is recommended that the action type is set to log initially so you can monitor traffic for a few hours or days, ensuring that legitimate traffic does not exceed these rates. After a few days, change to block mode.
 
@@ -199,19 +195,19 @@ Follow the below steps to deploy the changes to your AEMCS environment:
 
 ### Configuring request transformation rules {#configure-request-transform-rules}
 
-In addition to rate limit traffic filter rules, it is recommended to use [request transformations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#request-transformations) to unset query parameters not needed by the application to minimize ways to bypass the cache through cache busting techniques. For example, if you only want to allow `search` and `campaignId` query parameters, the following rule can be declared: 
+In addition to rate limit traffic filter rules, it is recommended to use [request transformations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#request-transformations) to unset query parameters not needed by the application to minimize ways to bypass the cache through cache busting techniques. For example, if you only want to allow `search` and `campaignId` query parameters, the following rule can be declared:
 
 ```yaml
 kind: "CDN"
 version: "1"
 metadata:
-  envTypes: 
+  envTypes:
     - dev
     - stage
-    - prod  
-data:  
-  experimental_requestTransformations:
-    rules:            
+    - prod
+data:
+  requestTransformations:
+    rules:
       - name: unset-all-query-params-except-those-needed
         when:
           reqProperty: tier
@@ -219,11 +215,11 @@ data:
         actions:
           - type: unset
             queryParamMatch: ^(?!search$|campaignId$).*$
-```            
+```
 
 ## Receiving traffic filter rules alerts {#receiving-alerts}
 
-As mentioned above, if the traffic filter rule includes *experimental_alert: true*, an alert is received when the rule is matched. 
+As mentioned above, if the traffic filter rule includes *alert: true*, an alert is received when the rule is matched.
 
 ## Acting on alerts {#acting-on-alerts}
 
@@ -236,7 +232,7 @@ This section describes methods to simulate a DoS attack, which can be used to ge
 >[!CAUTION]
 >
 > Do not perform these steps in a production environment. The following steps are for simulation purposes only.
-> 
+>
 >If you received an alert indicating a spike in traffic, proceed to the [Analyzing traffic patterns](#analyzing-traffic-patterns) section.
 
 To simulate an attack, tools like [Apache Benchmark](https://httpd.apache.org/docs/2.4/programs/ab.html), [Apache JMeter](https://jmeter.apache.org/), [Vegeta](https://github.com/tsenart/vegeta), and others can be used.

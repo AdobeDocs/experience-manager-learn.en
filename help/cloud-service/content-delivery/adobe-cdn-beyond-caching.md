@@ -71,7 +71,7 @@ version: "1"
 metadata:
   envTypes: ["dev", "stage", "prod"]
 data:
-  experimental_redirects:
+  redirects:
     rules:
       - name: redirect-top3-adventures
         when: { reqProperty: path, equals: "/top3" }
