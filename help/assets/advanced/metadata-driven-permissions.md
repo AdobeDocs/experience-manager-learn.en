@@ -14,13 +14,13 @@ duration: 158
 ---
 # Metadata-Driven Permissions{#metadata-driven-permissions}
 
-Metadata-Driven Permissions is a feature used to allow access control decisions on AEM Assets Author to be based on asset metadata properties rather than folder structure. With this capability, you can define access control policies that evaluate attributes such as asset status, type, or any custom metadata property you define.
+Metadata-Driven Permissions is a feature used to allow access control decisions on AEM Assets Author to be based on asset content or metadata properties rather than folder structure. With this capability, you can define access control policies that evaluate attributes such as asset status, type, or any custom property you define.
 
-Let's see an example. Creatives upload their work to AEM Assets to the campaign related folder, it might be a work in progress asset which has not been approved for use. We want to make sure that marketeers see only approved assets for this campaign. We can utilize metadata property to indicate that an asset has been approved and can be used by the marketeers.
+Let's see an example. Creatives upload their work to AEM Assets to the campaign related folder, it might be a work in progress asset which has not been approved for use. We want to make sure that marketeers see only approved assets for this campaign. We can utilize a metadata property to indicate that an asset has been approved and can be used by the marketeers.
 
 ## How It Works
 
-Enabling Metadata-Driven Permissions involves defining which asset metadata properties will drive access restrictions, such as "status" or "brand." These properties can then be used to create access control entries that specify which user groups have access to assets with specific property values.
+Enabling Metadata-Driven Permissions involves defining which asset content or metadata properties will drive access restrictions, such as "status" or "brand." These properties can then be used to create access control entries that specify which user groups have access to assets with specific property values.
 
 ## Prerequisites
 
@@ -28,9 +28,9 @@ Access to an AEM as a Cloud Service environment updated to the latest version is
 
 ## OSGi configuration {#configure-permissionable-properties}
 
-To implement Metadata-Driven Permissions a developer must deploy an OSGi configuration to AEM as a Cloud Service, that enables specific asset metadata properties to power metadata-driven permissions.
+To implement Metadata-Driven Permissions a developer must deploy an OSGi configuration to AEM as a Cloud Service, that enables specific asset content or metadata properties to power metadata-driven permissions.
 
-1. Determine which asset metadata properties will be used for access control. The property names are the JCR property names on the asset's `jcr:content/metadata` resource. In our case it going to be a property called `status`.
+1. Determine which asset content or metadata properties will be used for access control. The property names are the JCR property names on the asset's `jcr:content` or `jcr:content/metadata` resource. In our case it going to be a property called `status`.
 1. Create an OSGi configuration `com.adobe.cq.dam.assetmetadatarestrictionprovider.impl.DefaultRestrictionProviderConfiguration.cfg.json` in your AEM Maven project.
 1. Paste the following JSON into the created file:
 
@@ -40,11 +40,12 @@ To implement Metadata-Driven Permissions a developer must deploy an OSGi configu
         "status",
         "brand"
       ],
+      "restrictionContentPropertyNames":[],
       "enabled":true
     }
     ```
 
-1. Replace the property names with the required values.
+1. Replace the property names with the required values.  The `restrictionContentPropertyNames` configuration property is used to enable permissions on `jcr:content` resource properties, while the `restrictionPropertyNames` configuration property enables permissions on `jcr:content/metadata` resource properties for assets.
 
 ## Reset base asset permissions
 
@@ -84,7 +85,7 @@ Example folder contains a couple of assets.
 
 ![Admin View](./assets/metadata-driven-permissions/admin-view.png)
 
-Once you configure permissions and set the asset metadata properties accordingly users (Marketeer User in our case) will see only approved asset.
+Once you configure permissions and set the asset metadata properties accordingly, users (Marketeer User in our case) will see only approved asset.
 
 ![Marketeer View](./assets/metadata-driven-permissions/marketeer-view.png)
 
@@ -94,13 +95,13 @@ Benefits of Metadata-Driven Permissions include:
 
 - Fine-grained control over asset access based on specific attributes.
 - Decoupling of access control policies from folder structure, allowing for more flexible asset organization.
-- Ability to define complex access control rules based on multiple metadata properties.
+- Ability to define complex access control rules based on multiple content or metadata properties.
 
 >[!NOTE]
 >
 > It's important to note:
 > 
-> - Metadata properties are evaluated against the restrictions using __String equality__ (`=`)  (other data types or operators are not yet supported, for greater than (`>`) or Date properties)
+> - Properties are evaluated against the restrictions using __String equality__ (`=`)  (other data types or operators are not yet supported, for greater than (`>`) or Date properties)
 > - To allow multiple values for a restriction property, additional restrictions can be added to the Access Control Entry by selecting the same property from the "Select Type" dropdown and entering a new Restriction Value (e.g. `status=approved`, `status=wip`) and clicking "+" to add the restriction to the entry
 > ![Allow Multiple Values](./assets/metadata-driven-permissions/allow-multiple-values.png)
 > - __AND restrictions__ are supported, via multiple restrictions in a single Access Control Entry with different property names (e.g. `status=approved`, `brand=Adobe`) will be evaluated as an AND condition, i.e. the selected user group will be granted read access to assets with `status=approved AND brand=Adobe`
