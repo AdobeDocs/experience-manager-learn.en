@@ -15,6 +15,7 @@ index: y
   + [Use Online Revision Clean-up](./administration/use-online-revision-clean-up.md)
   + [Use the System Overview Dashboard](./administration/use-the-system-overview-dashboard.md)
   + [URL Redirects](./administration/url-redirection.md)
+  + [URL redirects using pipeline-free configurations](./administration/url-redirects-using-pipeline-free-configurations.md)
 + Authentication {#authentication}
   + [OKTA and AEM](authentication/okta-saml-integration.md)
   + [OAuth scopes](authentication/oauth-code-sample-develop.md)
