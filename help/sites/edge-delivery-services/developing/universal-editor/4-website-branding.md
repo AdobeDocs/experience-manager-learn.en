@@ -287,6 +287,8 @@ Web fonts often impact performance due to their size, potentially increasing Cum
 
 To select the best fallback font, use Adobe's [Helix Font Fallback Chrome extension](https://www.aem.live/developer/font-fallback), which determines a closely matching font for browsers to use before the custom font loads. The resulting fallback font declarations should be added to the `styles/styles.css` file to improve performance and ensure a seamless experience for users.
 
+![Helix Font Fallback Chrome extension](./assets/4-website-branding/font-fallback-chrome-plugin.png){align=center}
+
 To use the [Helix Font Fallback Chrome extension](https://www.aem.live/developer/font-fallback), ensure that the web page has web fonts applied in the same variations used on the Edge Delivery Services website. This tutorial demonstrates the extension on [wknd.site](http://wknd.site/us/en.html). When developing a website, apply the extension to the site being worked on rather than to [wknd.site](http://wknd.site/us/en.html).
 
 ```css
