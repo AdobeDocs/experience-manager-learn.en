@@ -404,7 +404,7 @@ To refresh the access token before it expires, you can implement the refresh tok
 
 >[!TIP]
 >
->You can follow next section to try out the WKND-PIM web app on your local machine and get hands-on experience with the OAuth Web App authentication flow and API calls.
+>You can follow the next section to try out the WKND-PIM web app on your local machine and get hands-on experience with the OAuth Web App authentication flow and API calls.
 
 ## Setup and run web app
 
@@ -513,6 +513,11 @@ It is done by defining the configuration in the `config.yaml` file in the AEM Pr
     ```
 
     Replace `<ADC Project's OAuth Web App credential ClientID>` with the actual ClientID of the ADC Project's OAuth Web App credential. The API endpoint that is used in this tutorial is available only on the author tier, but for other APIs, the yaml config can also have a _publish_ or _preview_ node.
+
+    >[!CAUTION]
+    >
+    > For demo purposes, the same ClientID is used for all environments. It is recommended to use separate ClientID per environment (dev, stage, prod) for better security and control.
+
 
 1. Commit the config changes to the Git repository and push the changes to the remote repository.
 

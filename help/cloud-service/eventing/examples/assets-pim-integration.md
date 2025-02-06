@@ -121,6 +121,11 @@ It is done by defining the configuration in the `config.yaml` file in the AEM Pr
 
     Replace `<ADC Project's OAuth Server-to-Server credential ClientID>` with the actual ClientID of the ADC Project's OAuth Server-to-Server credential.
 
+  >[!CAUTION]
+  >
+  > For demo purposes, the same ClientID is used for all environments. It is recommended to use separate ClientID per environment (dev, stage, prod) for better security and control.
+
+
 - Commit the config changes to the Git repository and push the changes to the remote repository.
 
 - Deploy the above changes using the Config Pipeline in the Cloud Manager. Note that the `config.yaml` file can also be installed in an RDE, using command line tooling.
