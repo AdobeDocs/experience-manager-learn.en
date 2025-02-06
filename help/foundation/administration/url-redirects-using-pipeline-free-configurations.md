@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2025-02-05
 jira: KT-15739
 thumbnail: KT-15739.jpeg
+exl-id: dd62fb0f-b661-4829-9488-932dd14a3727
 ---
-
 # URL redirects using pipeline-free configurations
 
 Learn how to manage URL redirects without using the AEM code or config pipelines whenever you need to add or update a redirect. Thus, enabling the marketing team to manage the redirects without needing a developer.
