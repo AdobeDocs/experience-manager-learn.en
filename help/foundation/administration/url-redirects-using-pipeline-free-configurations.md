@@ -230,10 +230,13 @@ Once the deployment is successful, the URL redirects are active and the marketin
 
 Let's test the URL redirects using the browser or `curl` command. Access the `/ski/westcoast` URL and verify that it redirects to `/us/en/adventures/tahoe-skiing.html`.
 
-
 ## Summary
 
 In this tutorial, you learned how to manage URL redirects using pipeline-free configurations in AEM as a Cloud Service environment. 
 
 The marketing team can manage the URL redirects as key-value pairs in a text file and upload them to the DAM or use the ACS Commons - Redirect Map Manager or Redirect Manager. The Dispatcher configurations are updated to load the URL redirects as a RewriteMap and apply them to the incoming requests.
 
+## Additional resources
+
+- [Pipeline-free URL Redirects](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/pipeline-free-url-redirects)
+- [URL redirects](url-redirection.md)

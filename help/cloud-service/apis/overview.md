@@ -69,7 +69,7 @@ The [OpenAPI Specification](https://swagger.io/specification/) (formerly known a
 
 In future releases, more OpenAPI-based AEM APIs will be added to support additional use cases.
 
-## Authentication support{#authentication-support}
+### Authentication support{#authentication-support}
 
 The OpenAPI-based AEM APIs supports the following authentication methods:
 
@@ -89,7 +89,7 @@ The OpenAPI-based AEM APIs supports the following authentication methods:
 | Security Considerations | Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems. | User's authenticate and are granted their own temporary access token. Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems.   |
 | Grant Type | _client_credentials_ | _authorization_code_ |
 
-## Accessing Adobe APIs and related concepts{#accessing-adobe-apis-and-related-concepts}
+### Accessing Adobe APIs and related concepts{#accessing-adobe-apis-and-related-concepts}
 
 Before accessing Adobe APIs, it's essential to understand these key concepts:
 
