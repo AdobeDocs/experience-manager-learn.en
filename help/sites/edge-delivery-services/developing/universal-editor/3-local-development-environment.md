@@ -132,7 +132,10 @@ Edge Delivery Services projects, created using the [AEM Boilerplate XWalk templa
   - **Definition fragments**: Stored at `/blocks/example/_example.json`.  
   - **Filter fragments**: Stored at `/blocks/example/_example.json`.  
 
-NPM scripts compile these JSON fragments and place them in the appropriate locations in the project root. To build JSON files, use the provided NPM scripts. For example, to compile all fragments, run:  
+
+The [AEM Boilerplate XWalk project template](https://github.com/adobe-rnd/aem-boilerplate-xwalk) includes a [Husky](https://typicode.github.io/husky/) pre-commit hook that detects changes to JSON fragments and compiles them into the appropriate `component-*.json` files upon `git commit`.  
+
+While the following NPM scripts can be run manually via `npm run` to build the JSON files, this is usually unnecessary since the husky pre-commit hook handles it automatically.
 
 ```bash
 # ~/Code/aem-wknd-eds-ue
