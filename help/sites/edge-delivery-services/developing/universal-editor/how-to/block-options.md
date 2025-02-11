@@ -7,10 +7,10 @@ topic: Development
 role: Developer
 level: Beginner
 doc-type: Tutorial
-jira: 
+jira: null
 duration: 700
+exl-id: f41dff22-bd47-4ea0-98cc-f5ca30b22c4b
 ---
-
 # Develop a block with options
 
 This tutorial builds on the Edge Delivery Services and Universal Editor tutorial, guiding you through the process of adding block options to a block. By defining block options, you can customize a block's appearance and functionality, enabling different variations to suit various content needs. This allows for greater flexibility and reusability within your site's design system. 
