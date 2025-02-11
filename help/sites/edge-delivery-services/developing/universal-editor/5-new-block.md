@@ -414,15 +414,11 @@ $ npm run lint:js
 
 ## Build the project JSON
 
-After configuring the block JSON files (`blocks/teaser/_teaser.json`, `models/_section.json`), they must be compiled into the project's `component-models.json`, `component-definitions.json`, and `component-filters.json` files. Compilation is done by running the project's [build JSON](./3-local-development-environment.md#build-json-fragments) npm scripts.
+After configuring the block JSON files (e.g., `blocks/teaser/_teaser.json`, `models/_section.json`), they are automatically compiled into the project's `component-models.json`, `component-definitions.json`, and `component-filters.json` files. This compilation is handled automatically by a [Husky](https://typicode.github.io/husky/) pre-commit hook included in the [AEM Boilerplate XWalk project template](https://github.com/adobe-rnd/aem-boilerplate-xwalk).  
 
-```bash
-# ~/Code/aem-wknd-eds-ue
+Builds can also be triggered manually or programmatically using the project's [build JSON](./3-local-development-environment.md#build-json-fragments) NPM scripts.
 
-$ npm run build:json
-```
-
-## Deploy the block definition
+## Deploy the block JSON
 
 To make the block available in the Universal Editor, the project must be commit and pushed to a GitHub repository's branch, in this case the `teaser` branch. 
 
@@ -433,6 +429,7 @@ The exact branch name Universal Editor uses can be adjusted, per user, via the U
 
 $ git add .
 $ git commit -m "Add teaser block JSON files so it is available in Universal Editor"
+# JSON files are compiled automatically and added to the commit via a husky precommit hook
 $ git push origin teaser
 ```
 
