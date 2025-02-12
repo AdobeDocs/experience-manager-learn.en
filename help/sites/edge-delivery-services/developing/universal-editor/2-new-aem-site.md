@@ -15,7 +15,7 @@ exl-id: d1ebcaf4-cea6-4820-8b05-3a0c71749d33
 
 The AEM site is where the website's content is edited, managed, and published from. To create an AEM site delivered via Edge Delivery Services and authored using Universal Editor, use the [Edge Delivery Services with AEM authoring site template](https://github.com/adobe-rnd/aem-boilerplate-xwalk/releases) to create a new site on AEM Author.
 
-The AEM site is where the website's content is stored and authored. The final experience is a combination of the AEM site content with the [website's code](./1-new-code-project.md)
+The AEM site is where the website's content is stored and authored. The final experience is a combination of the AEM site content with the [website's code](./1-new-code-project.md).
 
 ![New AEM Site for Edge Delivery Services and Universal Editor](./assets/2-new-aem-site/new-site.png)
 

@@ -1,13 +1,13 @@
 ---
 title: Block options
-description: Develop a block that can be toggled to have different looks and behaviors.
+description: Learn how to build a block with multiple display options.
 version: Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer
 level: Beginner
 doc-type: Tutorial
-jira: null
+jira: KT-17296
 duration: 700
 exl-id: f41dff22-bd47-4ea0-98cc-f5ca30b22c4b
 ---
