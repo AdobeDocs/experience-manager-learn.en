@@ -94,7 +94,7 @@ Learn how to configure your local development environment to enable fast website
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./3-local-development-environment.md" title="Set up a local development environment" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/3-local-development-environment/github-clone.png" alt="Set up a local development environment"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3443978/?format=jpeg&nocache=1739374885708" alt="Set up a local development environment"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -239,6 +239,43 @@ Learn how to create a new block by defining its content model and setting up sam
                     <p class="is-size-6">Develop a block with CSS and JavaScript for Edge Delivery Services, editable using the Universal Editor.</p>
                 </div>
                 <a href="./7b-block-js-css.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+## Next steps
+
+Now that you've completed this tutorial, build on what you've learned with these focused how-tos. These guides expand on the code and concepts covered here, exploring role-specific use cases, advanced techniques, and additional tips to enhance Edge Delivery Services and Universal Editor development skills.
+
+<!-- CARDS 
+
+* ./how-to/block-options.md
+
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Block options">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./how-to/block-options.md" title="Block options" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="how-to/assets/block-options/main.png" alt="Block options"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./how-to/block-options.md" target="_blank" rel="referrer" title="Block options">Block options</a>
+                    </p>
+                    <p class="is-size-6">Learn how to build a block with multiple display options.</p>
+                </div>
+                <a href="./how-to/block-options.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                 </a>
             </div>
