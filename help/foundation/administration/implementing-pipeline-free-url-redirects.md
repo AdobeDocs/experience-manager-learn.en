@@ -11,8 +11,8 @@ duration: 0
 last-substantial-update: 2025-02-05
 jira: KT-15739
 thumbnail: KT-15739.jpeg
+exl-id: 3b0f5971-38b8-4b9e-b90e-9de7432e0e9d
 ---
-
 # Implementing pipeline-free URL redirects
 
 Learn how to implement [pipeline-free URL redirects](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/pipeline-free-url-redirects) in AEM as a Cloud Service to enable the marketing team to manage the redirects without needing a developer.
@@ -244,4 +244,3 @@ The marketing team can manage the URL redirects as key-value pairs in a text fil
 
 - [Pipeline-free URL Redirects](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/pipeline-free-url-redirects)
 - [URL redirects](url-redirection.md)
-
