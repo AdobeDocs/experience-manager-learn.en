@@ -1,6 +1,6 @@
 ---
-title: Creating your first interactive communication for the print channel
-description: Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
+title: Create your First Interactive Communication for the Print Channel
+description: Learn the steps needed to create an interactive communication for the print channel. Interactive Communications is new to AEM Forms 6.4. 
 feature: Interactive Communication
 doc-type: Tutorial
 version: 6.4,6.5
@@ -11,7 +11,7 @@ exl-id: 1949aeff-ae56-4abd-8e63-23c2fb4859f2
 last-substantial-update: 2019-08-07
 duration: 31
 ---
-# Creating your first interactive communication for the print channel
+# Create your first interactive communication for the print channel
 
 Interactive Communications is new to AEM Forms 6.4. This document will walk you through the steps needed to create an interactive communication for the print channel.
 
@@ -30,6 +30,6 @@ On completing this tutorial, you will have learned the following:
 * Use Watched Folders to generate documents in batch mode
 
 
-## Next Steps
+## Next steps
 
 [Set up Tomcat](./set-up-tomcat.md)
