@@ -232,7 +232,7 @@ To learn how to deploy the configuration files, let's enhance the `cdn` configur
 1. Deploy the changes to the RDE by running the following command  
 
     ```shell
-    $ aio aem:rde:install -t env-config ./config/cdn.yaml
+    $ aio aem:rde:install -t env-config ./config
     ```
     
 1. Verify changes on the RDE    
