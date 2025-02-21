@@ -156,14 +156,18 @@ Next, configure the ADC Project to add AEM APIs, configure its authentication, a
 1. Select the **AEM Administrators - author - Program XXX - Environment XXX** Product Profile and click **Save**. As you can see, only the Product Profile associated with the AEM Assets API Users Service is available for selection.
 
     ![Select Product Profile](assets/select-product-profile.png)
+    
+    >[!CAUTION]
+    >
+    >    Note that the service account (aka technical account) user gets FULL access as it is associated with the **AEM Administrators - XX - XX** Product Profile.
+
 
 1. Review the AEM API and authentication configuration.
 
     ![AEM API configuration](assets/aem-api-configuration.png)
 
     ![Authentication configuration](assets/authentication-configuration.png)
-
-
+    
 ## Configure AEM instance to enable ADC Project communication
 
 To enable the ADC Project's OAuth Server-to-Server credential ClientID to communication with the AEM instance, you need to configure the AEM instance.
