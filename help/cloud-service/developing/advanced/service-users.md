@@ -116,6 +116,8 @@ public class ContentStatisticsImpl implements ContentStatistics {
 
 ### org.apache.sling.jcr.repoinit.RepositoryInitializer-wknd-examples-statistics.config
 
+Not all Sling Repository Initializer directives are supported with the `.config` extension, such as `ACLOptions`. To use advanced directives, use the `.cfg.json` format, where each line of the Sling Repository Initializer directive is a separate string literal.
+
 `/ui.config/src/main/content/jcr_root/apps/wknd-examples/osgiconfig/config.author/org.apache.sling.jcr.repoinit.RepositoryInitializer-wknd-examples-statistics.config`
 
 ```
