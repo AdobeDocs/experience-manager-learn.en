@@ -15,6 +15,16 @@ duration: 173
 ---
 # Create Data Source
 
-Create a REST backed data source using the swagger file created in the earlier step
+Create a REST backed data source using the swagger file created in the earlier step.
 
 >[!VIDEO](https://video.tv.adobe.com/v/331755?quality=12&learn=on)
+
+| Setting             | Value                                                           |
+|---------------------|-----------------------------------------------------------------|
+| OAuth URL           | https://login.salesforce.com/services/oauth2/authorize          |
+| Authorization Scope | api chatter_api full id openid refresh_token visualforce web    |
+| Refresh Token URL   | https://newfocus-dev-ed.my.salesforce.com/services/oauth2/token |
+| Access Token URL    | https://newfocus-dev-ed.my.salesforce.com/services/oauth2/token |
+
+
+**The Refresh and Access Token URL's domain names will have to change to match your Salesforce account settings**
