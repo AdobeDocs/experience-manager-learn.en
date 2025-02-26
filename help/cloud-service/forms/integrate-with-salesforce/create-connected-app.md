@@ -16,8 +16,9 @@ duration: 243
 # Create Connected App
 
 A connected app is a framework that enables an external application to integrate with Salesforce using APIs and standard protocols, such as SAML, OAuth, and OpenID Connect. Connected apps use these protocols to authenticate, authorize, and provide single sign-on (SSO) for external apps.
+<!--- 331757 was the old video -->
 
->[!VIDEO](https://video.tv.adobe.com/v/331757?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447257?quality=12&learn=on)
 
 >[!NOTE]
 >Please make sure you create an account in the [Salesforce Developer Edition](https://developer.salesforce.com/signup) as the REST API's are enabled by default in the developer edition.
