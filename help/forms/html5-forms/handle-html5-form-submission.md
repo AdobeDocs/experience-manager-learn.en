@@ -1,6 +1,6 @@
 ---
-title: Handle HTML5 Form Submission
-description: Create HTML5 Form submission handler
+title: Handle a HTML5 Form Submission
+description: Create HTML5 Form submission handler.
 feature: Mobile Forms
 doc-type: article
 version: 6.4,6.5
@@ -13,15 +13,14 @@ exl-id: 93e1262b-0e93-4ba8-aafc-f9c517688ce9
 last-substantial-update: 2020-07-07
 duration: 66
 ---
-# Handle HTML5 Form Submission
 
-HTML5 forms can be submitted to servlet hosted in AEM. The submitted data can be accessed in the servlet as an input stream. To submit your HTML5 form you need to add "HTTP Submit Button" on your form template using AEM Forms Designer
+# Handle HTML5 form submission
+
+HTML5 forms can be submitted to a servlet hosted in AEM. The submitted data can be accessed in the servlet as an input stream. To submit your HTML5 form, add an "HTTP Submit Button" on your form template using AEM Forms Designer.
 
 ## Create your submit handler
 
-A simple servlet can be created to handle the HTML5 form submission. The submitted data can then be extracted by using the following code. This [servlet](assets/html5-submit-handler.zip) is made available to you as part of this tutorial. Please install the [servlet](assets/html5-submit-handler.zip) using [package manager](http://localhost:4502/crx/packmgr/index.jsp)
-
-The code from line 9 can be used to invoke J2EE process. Please make sure you have configured [Adobe LiveCycle Client SDK Configuration](https://helpx.adobe.com/aem-forms/6/submit-form-data-livecycle-process.html) if you intend to use the code to invoke J2EE process.
+A simple servlet can handle the HTML5 form submission. Extract the submitted data using the following code snippet. Download the [servlet](assets/html5-submit-handler.zip) provided in this tutorial. Install the [servlet](assets/html5-submit-handler.zip) using the [package manager](http://localhost:4502/crx/packmgr/index.jsp).
 
 ```java
 StringBuffer stringBuffer = new StringBuffer();
@@ -32,50 +31,33 @@ while ((line = reader.readLine()) != null) {
     stringBuffer.append(line);
 }
 System.out.println("The submitted form data is " + stringBuffer.toString());
-/*
-        * java.util.Map params = new java.util.HashMap();
-        * params.put("in",stringBuffer.toString());
-        * com.adobe.livecycle.dsc.clientsdk.ServiceClientFactoryProvider scfp =
-        * sling.getService(com.adobe.livecycle.dsc.clientsdk.
-        * ServiceClientFactoryProvider.class);
-        * com.adobe.idp.dsc.clientsdk.ServiceClientFactory serviceClientFactory =
-        * scfp.getDefaultServiceClientFactory(); com.adobe.idp.dsc.InvocationRequest ir
-        * = serviceClientFactory.createInvocationRequest("Test1/NewProcess1", "invoke",
-        * params, true);
-        * ir.setProperty(com.adobe.livecycle.dsc.clientsdk.InvocationProperties.
-        * INVOKER_TYPE,com.adobe.livecycle.dsc.clientsdk.InvocationProperties.
-        * INVOKER_TYPE_SYSTEM); com.adobe.idp.dsc.InvocationResponse response1 =
-        * serviceClientFactory.getServiceClient().invoke(ir);
-        * System.out.println("The response is "+response1.getInvocationId());
-        */
-
-
 ```
 
+Ensure you have configured the [Adobe LiveCycle Client SDK Configuration](https://helpx.adobe.com/aem-forms/6/submit-form-data-livecycle-process.html) if you plan to use the code to invoke a J2EE process.
 
 ## Configure the Submit URL of the HTML5 form
 
-![submit-url](assets/submit-url.PNG)
+![Submit URL](assets/submit-url.PNG)
 
-* Tap on the xdp and click _Properties_->_Advanced_
-* copy http://localhost:4502/content/AemFormsSamples/handlehml5formsubmission.html and paste this in the Submit URL text field
-* Click _SaveAndClose_ button.
+- Open the xdp and navigate to _Properties_->_Advanced_.
+- Copy http://localhost:4502/content/AemFormsSamples/handlehml5formsubmission.html and paste it into the Submit URL text field.
+- Click the _SaveAndClose_ button.
 
 ### Add entry in the Exclude Paths
 
-* Navigate to [configMgr](http://localhost:4502/system/console/configMgr).
-* Search for _Adobe Granite CSRF Filter_
-* Add the following entry in the Excluded Paths section
-* _/content/AemFormsSamples/handlehml5formsubmission_
-* Save your changes
+- Go to [configMgr](http://localhost:4502/system/console/configMgr).
+- Search for _Adobe Granite CSRF Filter_.
+- Add the following entry in the Excluded Paths section: _/content/AemFormsSamples/handlehml5formsubmission_.
+- Save your changes.
 
 ### Test the form
 
-* Tap on the xdp template. 
-* Click on _Preview_->Preview as HTML
-* Enter some data in the form and click submit
-* You should see the submitted data written to your server's stdout.log file
+- Open the xdp template.
+- Click on _Preview_->Preview as HTML.
+- Enter data in the form and click submit.
+- Check the server's stdout.log file for the submitted data.
 
 ### Additional Reading
 
-This [article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-pdf-from-mobile-form-submission-article.html) on generating PDF from HTML5 form submission is also recommended.
+For more information on generating PDFs from HTML5 form submissions, refer to this [article](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-pdf-from-mobile-form-submission-article.html).
+

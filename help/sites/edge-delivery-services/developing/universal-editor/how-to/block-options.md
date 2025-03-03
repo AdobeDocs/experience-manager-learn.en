@@ -398,7 +398,7 @@ Optionally, add two **Teaser** blocks—one set to **Default** and the other to 
 
 ### Publish to preview  
 
-Once the Teaser block is added to the page, [publish the page to preview](../6-author-block.md) using **Manage Publications** and AEM Author's Site Admin.
+Once the Teaser block is added to the page, [publish the page to preview](../6-author-block.md) using **Publish** button and choosing publish to **Preview** in Universal Editor.
 
 ## Block HTML
 

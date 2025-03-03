@@ -1,6 +1,6 @@
 ---
-title: Custom process step to populate list variables
-description: Custom process step to populate list variables of type document and string
+title: Custom Process Step to Populate List Variables
+description: Learn how to create a custom process step to populate list variables of type document and string in Adobe Experience Manager.
 feature: Workflow
 topic: Development
 version: 6.5
@@ -10,22 +10,22 @@ kt: kt-8063
 exl-id: 09d9eabf-4815-4159-b6c7-cf2ebc8a2df5
 duration: 68
 ---
+
 # Custom Process Step
 
+This guide will walk you through creating a custom process step to populate list variables of type Array List with attachments and attachment names in Adobe Experience Manager. These variables are essential for the Send Email workflow component.
 
-A custom process step was implemented to populate workflow variables of type Array List with the attachments and attachment names. This variable is then used in the Send Email workflow component. If you are not familiar with creating OSGi bundle, please [follow these instructions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html?lang=en)
+If you are unfamiliar with creating an OSGi bundle, follow these [instructions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-osgi-bundle/create-your-first-osgi-bundle.html?lang=en).
 
-The code in the custom process step does the following
+The code in the custom process step performs the following actions:
 
-* Query for all the adaptive form attachments under the payload folder. Folder name is passed as a process argument to the process step.
-
-* Populate `listOfDocuments` workflow variable
-* Populate `attachmentNames` workflow variable
-* Set the value of workflow variable (`no_of_attachments`)
+1. Queries for all adaptive form attachments under the payload folder. The folder name is passed as a process argument to the step.
+2. Populates the `listOfDocuments` workflow variable.
+3. Populates the `attachmentNames` workflow variable.
+4. Sets the value of the workflow variable `no_of_attachments`.
 
 ```java
-
- package com.aemforms.formattachments.core;
+package com.aemforms.formattachments.core;
 
 import java.io.InputStream;
 import java.util.HashMap;
@@ -52,9 +52,8 @@ import com.day.cq.search.result.SearchResult;
 
 @Component(property = {
         Constants.SERVICE_DESCRIPTION + "=PopulateListOfDocuments",
-        "process.label" + "=PopulateListOfDocuments"
+        "process.label=PopulateListOfDocuments"
 })
-
 public class PopulateListOfDocuments implements WorkflowProcess {
 
         private static final Logger log = LoggerFactory.getLogger(PopulateListOfDocuments.class);
@@ -65,7 +64,7 @@ public class PopulateListOfDocuments implements WorkflowProcess {
         public void execute(WorkItem workItem, WorkflowSession workflowSession, MetaDataMap processArguments) throws WorkflowException
         {
                 String payloadPath = workItem.getWorkflowData().getPayload().toString();
-                log.debug("The payload path  is" + payloadPath);
+                log.debug("The payload path is" + payloadPath);
                 MetaDataMap metaDataMap = workItem.getWorkflow().getWorkflowData().getMetaDataMap();
                 Session session = workflowSession.adaptTo(Session.class);
                 Map < String, String > map = new HashMap < String, String > ();
@@ -107,10 +106,11 @@ public class PopulateListOfDocuments implements WorkflowProcess {
 
 >[!NOTE]
 >
-> Please make sure you have the following variables defined in your workflow for the code to work
-> *listOfDocuments* - variable of type ArrayList of Documents
-> *attachmentNames* - variable of type ArrayList of String
-> *no_of_attachments* - variable of type Double
+> Ensure that the following variables are defined in your workflow for the code to work:
+> 
+> - `listOfDocuments`: variable of type ArrayList of Documents
+> - `attachmentNames`: variable of type ArrayList of String
+> - `no_of_attachments`: variable of type Double
 
 ## Next Steps
 
