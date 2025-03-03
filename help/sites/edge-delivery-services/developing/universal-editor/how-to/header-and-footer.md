@@ -9,8 +9,8 @@ level: Intermediate, Experienced
 doc-type: Tutorial
 jira: KT-17470
 duration: 300
+exl-id: 70ed4362-d4f1-4223-8528-314b2bf06c7c
 ---
-
 # Develop a header and footer
 
 ![Header and footer](./assets/header-and-footer/hero.png){align="center"}
