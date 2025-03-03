@@ -104,6 +104,7 @@ version: 6.4, 6.5, Cloud Service
       + [Block with CSS and JS](./edge-delivery-services/developing/universal-editor/7b-block-js-css.md)
       + How-to{#how-to}
         + [Block options](./edge-delivery-services/developing/universal-editor/how-to/block-options.md)
+        + [Header and footer](./edge-delivery-services/developing/universal-editor/how-to/header-and-footer.md)
   + How-to{#how-to}
     + [RSS feeds](edge-delivery-services/how-to/rss.md)
     + [Social media sharing](edge-delivery-services/how-to/social-media-sharing.md)
