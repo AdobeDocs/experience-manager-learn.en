@@ -365,7 +365,7 @@ The footer should be implemented with a three-column layout containing:
 
 ![Footer previews](./assets/header-and-footer/footer-preview.png){align="center"}
 
->[!TAB Author the footer]
+>[!TAB Footer content]
 
 Use columns block in the Footer page to create the three-column effect.
 
