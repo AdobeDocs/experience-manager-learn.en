@@ -11,8 +11,8 @@ jira: KT-17429
 thumbnail: KT-17429.jpeg
 last-substantial-update: 2025-02-28
 duration: 0
+exl-id: 3230a8e7-6342-4497-9163-1898700f29a4
 ---
-
 # Product Profile and Services user group permission management
 
 Lean how to manage permissions for the Product Profile and Services user groups in AEM as a Cloud Service.

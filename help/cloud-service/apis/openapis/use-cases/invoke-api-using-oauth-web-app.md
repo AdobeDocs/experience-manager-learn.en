@@ -11,6 +11,7 @@ jira: KT-16718
 thumbnail: KT-16718.jpeg
 last-substantial-update: 2025-02-28
 duration: 0
+exl-id: 9cf7c318-2be4-4b26-bd6f-0c80d002db45
 ---
 # Invoke OpenAPI-based AEM APIs using OAuth Web App authentication
 
@@ -649,4 +650,3 @@ You can use the tutorial as a reference to integrate the OpenAPI-based AEM APIs 
  - [Authorize Request](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/IMS/#authorize-request)
  - [Fetching Access tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/IMS/#fetching-access-tokens)
  - [Refreshing Access tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/IMS/#refreshing-access-tokens)
- 
