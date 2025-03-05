@@ -1,6 +1,6 @@
 ---
-title:  Invoke OpenAPI-based AEM APIs for server to server authentication
-description: Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications using OAuth Server-to-Server authentication.
+title: Invoke OpenAPI-based AEM APIs using OAuth Server-to-Server authentication
+description: Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications using OAuth Server-to-Server authentication.
 version: Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
@@ -9,13 +9,12 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-16516
 thumbnail: KT-16516.jpeg
-last-substantial-update: 2024-11-20
+last-substantial-update: 2025-02-28
 duration: 0
-exl-id: 24c641e7-ab4b-45ee-bbc7-bf6b88b40276
 ---
-# Invoke OpenAPI-based AEM APIs for server to server authentication{#invoke-openapi-based-aem-apis}
+# Invoke OpenAPI-based AEM APIs using OAuth Server-to-Server authentication
 
-Learn how to configure and invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications using _OAuth Server-to-Server_ authentication.
+Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom applications using _OAuth Server-to-Server_ authentication.
 
 The OAuth Server-to-Server authentication is ideal for backend services needing API access without user interaction. It uses the OAuth 2.0 _client_credentials_ grant type to authenticate the client application.
 
@@ -23,13 +22,18 @@ The OAuth Server-to-Server authentication is ideal for backend services needing 
 >
 >OpenAPI-based AEM APIs are available as part of an early access program. If you are interested in accessing them, we encourage you to email [aem-apis@adobe.com](mailto:aem-apis@adobe.com) with a description of your use case.
 
+## What you learn{#what-you-learn}
+
 In this tutorial, you learn how to:
 
-- Enable OpenAPI-based AEM APIs access for your AEM as a Cloud Service environment.
-- Create and configure an Adobe Developer Console (ADC) project to access AEM APIs using _OAuth Server-to-Server authentication_.
+- Configure an Adobe Developer Console (ADC) project to access the Assets Author API using _OAuth Server-to-Server authentication_.
+
 - Develop a sample NodeJS application that calls the Assets Author API to retrieve metadata for a specific asset.
 
-Before you start, make sure you reviewed the [Accessing Adobe APIs and related concepts](overview.md#accessing-adobe-apis-and-related-concepts) section.
+Before you start, make sure you reviewed the following:
+
+- [Accessing Adobe APIs and related concepts](../overview.md#accessing-adobe-apis-and-related-concepts) section.
+- [Set up OpenAPI-based AEM APIs](../setup.md) article.
 
 ## Prerequisites
 
@@ -38,6 +42,8 @@ To complete this tutorial, you need:
 - Modernized AEM as a Cloud Service environment with the following:
     - AEM Release `2024.10.18459.20241031T210302Z` or later.
     - New style Product Profiles (if environment was created before November 2024)
+
+    See [Set up OpenAPI-based AEM APIs](../setup.md) article for more details.
 
 - The sample [WKND Sites](https://github.com/adobe/aem-guides-wknd?#aem-wknd-sites-project) project must be deployed on to it.
 
@@ -49,159 +55,49 @@ To complete this tutorial, you need:
 
 The high-level development steps are:
 
-1. Modernization of AEM as a Cloud Service environment.
-1. Enable AEM APIs access.
-1. Create Adobe Developer Console (ADC) Project.
 1. Configure ADC Project
-    1. Add desired AEM APIs
-    1. Configure its authentication
+    1. Add the Assets Author API
+    1. Configure its authentication method as OAuth Server-to-Server
     1. Associate Product Profile with the authentication configuration
 1. Configure the AEM instance to enable ADC Project communication
 1. Develop a sample NodeJS application
 1. Verify the end-to-end flow
 
-## Modernization of AEM as a Cloud Service environment
-
-Let's start by modernizing the AEM as a Cloud Service environment. This step is only needed if the environment is not modernized.
-
-Modernization of the AEM as a Cloud Service environment is a two-step process, 
-
-- Update to the latest AEM release version 
-- Add new Product Profiles to it.
-
-### Update AEM instance
-
-To update the AEM instance, in the Adobe [Cloud Manager](https://my.cloudmanager.adobe.com/)'s _Environments_ section, select the _ellipsis_ icon next to the environment name and select **Update** option.
-
-![Update AEM instance](assets/update-aem-instance.png)
-
-Then click the **Submit** button and run the suggested Fullstack Pipeline.
-
-![Select latest AEM release version](assets/select-latest-aem-release.png)
-
-In my case, the name of Fullstack Pipeline is _Dev :: Fullstack-Deploy_ and the AEM environment name is _wknd-program-dev_ it may vary in your case.
-
-### Add new Product Profiles
-
-To add new Product Profiles to the AEM instance, in the Adobe [Cloud Manager](https://my.cloudmanager.adobe.com/)'s _Environments_ section, select the _ellipsis_ icon next to the environment name and select the **Add Product Profiles** option. 
-
-![Add new Product Profiles](assets/add-new-product-profiles.png)
-
-You can review the newly added Product Profiles by clicking on the _ellipsis_ icon next to the environment name and selecting **Manage Access** > **Author Profiles**.
-
-The _Admin Console_ window displays the newly added Product Profiles.
-
-![Review new Product Profiles](assets/review-new-product-profiles.png)
-
-The above steps complete the modernization of the AEM as a Cloud Service environment.
-
-## Enable AEM APIs access
-
-New Product Profiles enable OpenAPI-based AEM API access in the Adobe Developer Console (ADC).
-
-The newly added Product Profiles are associated with the _Services_ that represent AEM user groups with predefined Access Control Lists (ACLs). The _Services_ are used to control the level of access to the AEM APIs.
-
-You can also select or deselect the _Services_ associated with the Product Profile to reduce or increase the level of access.
-
-Review the association by clicking on the _View Details_ icon next to the Product Profile name. 
-
-![Review services associated with Product Profile](assets/review-services-associated-with-product-profile.png)
-
-By default, the **AEM Assets API Users** Service is not associated with any Product Profile. Let's associate it with the newly added **AEM Administrators - author - Program XXX - Environment XXX** Product Profile. After this association, the ADC Project's _Asset Author API_ can setup the OAuth Server-to-Server authentication and associate the authentication account with the Product Profile.
-
-![Associate AEM Assets API Users Service with Product Profile](assets/associate-aem-assets-api-users-service-with-product-profile.png)
-
-It is important to note that before the modernization, in AEM Author instance, two Product Profiles were available, **AEM Administrators-XXX** and **AEM Users-XXX**. It is also possible to associate these existing Product Profiles with the new Services.
-
-## Create Adobe Developer Console (ADC) Project
-
-Next, create an ADC Project to access AEM APIs.
-
-1. Login to the [Adobe Developer Console](https://developer.adobe.com/console) using your Adobe ID.
-
-    ![Adobe Developer Console](assets/adobe-developer-console.png)
-
-1. From the _Quick Start_ section, click on the **Create new project** button. 
-
-    ![Create new project](assets/create-new-project.png)
-
-1. It creates a new project with the default name.
-
-    ![New project created](assets/new-project-created.png)
-
-1. Edit the project name by clicking the **Edit project** button in the top right corner. Provide a meaningful name and click **Save**.
-
-    ![Edit project name](assets/edit-project-name.png)
-
 ## Configure ADC Project
 
-Next, configure the ADC Project to add AEM APIs, configure its authentication, and associate the Product Profile.
+The configure ADC Project step is _repeated_ from the [Setup OpenAPI-based AEM APIs](../setup.md). It is repeated to add the Assets Author API and configure its authentication method as OAuth Server-to-Server.
+
+1. From the [Adobe Developer Console](https://developer.adobe.com/console/projects), open the desired project.
 
 1. To add AEM APIs, click on the **Add API** button.
 
-    ![Add API](assets/add-api.png)
+    ![Add API](../assets/s2s/add-api.png)
 
 1. In the _Add API_ dialog, filter by _Experience Cloud_ and select the **AEM Assets Author API** card and click **Next**.
 
-    ![Add AEM API](assets/add-aem-api.png)
+    ![Add AEM API](../assets/s2s/add-aem-api.png)
 
 1. Next, in the _Configure API_ dialog, select the **Server-to-Server** authentication option and click **Next**. The Server-to-Server authentication is ideal for backend services needing API access without user interaction.
 
-    ![Select authentication](assets/select-authentication.png)
+    ![Select authentication](../assets/s2s/select-authentication.png)
 
 1. Rename the credential for easier identification (if needed) and click **Next**. For demo purposes, the default name is used.
 
-    ![Rename credential](assets/rename-credential.png)
+    ![Rename credential](../assets/s2s/rename-credential.png)
     
-1. Select the **AEM Administrators - author - Program XXX - Environment XXX** Product Profile and click **Save**. As you can see, only the Product Profile associated with the AEM Assets API Users Service is available for selection.
+1. Select the **AEM Assets Collaborator Users - author - Program XXX - Environment XXX** Product Profile and click **Save**. As you can see, only the Product Profile associated with the AEM Assets API Users Service is available for selection.
 
-    ![Select Product Profile](assets/select-product-profile.png)
-    
-    >[!CAUTION]
-    >
-    >    Note that the service account (aka technical account) user gets FULL access as it is associated with the **AEM Administrators - XX - XX** Product Profile.
-
+    ![Select Product Profile](../assets/s2s/select-product-profile.png)
 
 1. Review the AEM API and authentication configuration.
 
-    ![AEM API configuration](assets/aem-api-configuration.png)
+    ![AEM API configuration](../assets/s2s/aem-api-configuration.png)
 
-    ![Authentication configuration](assets/authentication-configuration.png)
-    
+    ![Authentication configuration](../assets/s2s/authentication-configuration.png)
+
 ## Configure AEM instance to enable ADC Project communication
 
-To enable the ADC Project's OAuth Server-to-Server credential ClientID to communication with the AEM instance, you need to configure the AEM instance.
-
-It is done by defining the configuration in the `config.yaml` file in the AEM Project. Then, deploy the `config.yaml` file using the Config Pipeline in the Cloud Manager.
-
-1. In AEM Project, locate or create the `config.yaml` file from the `config` folder.
-
-    ![Locate config YAML](assets/locate-config-yaml.png)
-
-1. Add the following configuration to the `config.yaml` file.
-
-    ```yaml
-    kind: "API"
-    version: "1.0"
-    metadata: 
-        envTypes: ["dev", "stage", "prod"]
-    data:
-        allowedClientIDs:
-            author:
-            - "<ADC Project's OAuth Server-to-Server credential ClientID>"
-    ```
-
-    Replace `<ADC Project's OAuth Server-to-Server credential ClientID>` with the actual ClientID of the ADC Project's OAuth Server-to-Server credential. The API endpoint that is used in this tutorial is available only on the author tier, but for other APIs, the yaml config can also have a _publish_ or _preview_ node.
-
-    >[!CAUTION]
-    >
-    > For demo purposes, the same ClientID is used for all environments. It is recommended to use separate ClientID per environment (dev, stage, prod) for better security and control.
-
-1. Commit the config changes to the Git repository and push the changes to the remote repository.
-
-1. Deploy the above changes using the Config Pipeline in the Cloud Manager. Note that the `config.yaml` file can also be installed in an RDE, using command line tooling.
-
-    ![Deploy config.yaml](assets/config-pipeline.png)
+Follow the instructions from the [Setup OpenAPI-based AEM APIs](../setup.md#configure-the-aem-instance-to-enable-adc-project-communication) article to configure the AEM instance to enable ADC Project communication.
 
 ## Develop a sample NodeJS application
 
@@ -213,10 +109,10 @@ For testing purposes, you can use the [Postman](https://www.postman.com/), [curl
 
 ### Review the API
 
-Before developing the application, let's review [deliver the specified asset's metadata](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/assets/author/#operation/getAssetMetadata) endpoint from the _Assets Author API_. The API syntax is:
+Before developing the application, let's review [deliver the specified asset's metadata](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/../assets/author/#operation/getAssetMetadata) endpoint from the _Assets Author API_. The API syntax is:
 
 ```http
-GET https://{bucket}.adobeaemcloud.com/adobe/assets/{assetId}/metadata
+GET https://{bucket}.adobeaemcloud.com/adobe/../assets/{assetId}/metadata
 ```
 
 To retrieve the metadata of a specific asset, you need the `bucket` and `assetId` values. The `bucket` is the AEM instance name without the Adobe domain name (.adobeaemcloud.com), for example, `author-p63947-e1420428`. 
@@ -227,36 +123,38 @@ The `assetId` is the JCR UUID of the asset with the `urn:aaid:aem:` prefix, for 
 
 - Alternatively, you can get the `assetId` by inspecting the asset in the browser's element inspector. Look for the `data-id="urn:aaid:aem:..."` attribute.
 
-    ![Inspect asset](assets/inspect-asset.png)
+    ![Inspect asset](../assets/s2s/inspect-asset.png)
 
 ### Invoke the API using the browser
 
-Before developing the application, let's invoke the API using the **Try it** feature in the [API documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/assets/author/#operation/getAssetMetadata). 
+Before developing the application, let's invoke the API using the **Try it** feature in the [API documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/assets/author/). 
 
-1. Open the [Assets Author API documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/assets/author) in the browser.
+1. Open the [Assets Author API documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/assets/author/) in the browser.
 
 1. Expand the _Metadata_ section and click on the **Delivers the specified asset's metadata** option.
 
 1. In the right pane, click on the **Try it** button.
-    ![API documentation](assets/api-documentation.png)
+    ![API documentation](../assets/s2s/api-documentation.png)
 
 1. Enter the following values:
-    1. The `bucket` value is the AEM instance name without the Adobe domain name (.adobeaemcloud.com), for example, `author-p63947-e1420428`.
-    
-    1. The **Security** section related `Bearer Token` and `X-Api-Key` values are obtained from the ADC Project's OAuth Server-to-Server credential. Click **Generate access token** to get the `Bearer Token` value and use the `ClientID` value as the `X-Api-Key`.
-        ![Generate access token](assets/generate-access-token.png)
 
-    1. The **Parameters** section related `assetId` value is the unique identifier for the asset in AEM. The `X-Adobe-Accept-Experimental` is set to 1.
+    | Section | Parameter | Value |
+    | --- | --- | --- |
+    || bucket | The AEM instance name without the Adobe domain name (.adobeaemcloud.com), for example, `author-p63947-e1420428`. |
+    | **Security** | Bearer Token | Use the access token from the ADC Project's OAuth Server-to-Server credential. |
+    | **Security** | X-Api-Key | Use the `ClientID` value from the ADC Project's OAuth Server-to-Server credential. |
+    | **Parameters** | assetId | The unique identifier for the asset in AEM, for example, `urn:aaid:aem:a200faf1-6d12-4abc-bc16-1b9a21f870da` |
+    | **Parameters** | X-Adobe-Accept-Experimental | 1 |
 
-        ![Invoke API - input values](assets/invoke-api-input-values.png)
+    ![Invoke API - access token](../assets/s2s/generate-access-token.png)
 
-1. Click **Send** to invoke the API.
+    ![Invoke API - input values](../assets/s2s/invoke-api-input-values.png)
 
-1. Review the **Response** tab to see the API response.
+1. Click **Send** to invoke the API, and review the response in the **Response** tab.
 
-    ![Invoke API - response](assets/invoke-api-response.png)
+    ![Invoke API - response](../assets/s2s/invoke-api-response.png)
 
-The above steps confirm the modernization of the AEM as a Cloud Service environment, enabling AEM APIs access. It also confirms the successful configuration of the ADC Project, and the OAuth Server-to-Server credential ClientID communication with the AEM author instance.
+The above steps confirm the modernization of the AEM as a Cloud Service environment, enabling AEM APIs access. It also confirms the successful configuration of the ADC Project, and the OAuth Server-to-Server credential ClientID communication with the AEM Author instance.
 
 ### Sample NodeJS application
 
@@ -264,12 +162,11 @@ Let's develop a sample NodeJS application.
 
 To develop the application, you can either use the _Run-the-sample-application_ or the _Step-by-step-development_ instructions.
 
-
 >[!BEGINTABS]
 
 >[!TAB Run-the-sample-application]
 
-1. Download the sample [demo-nodejs-app-to-invoke-aem-openapi](assets/demo-nodejs-app-to-invoke-aem-openapi.zip) application zip file and extract it.
+1. Download the sample [demo-nodejs-app-to-invoke-aem-openapi](../assets/s2s/demo-nodejs-app-to-invoke-aem-openapi.zip) application zip file and extract it.
 
 1. Navigate to the extracted folder and install the dependencies.
 
@@ -383,7 +280,7 @@ To develop the application, you can either use the _Run-the-sample-application_ 
 
         // Invoke the Assets Author API to retrieve metadata for a specific asset
         const resp = await fetch(
-            `https://${bucket}.adobeaemcloud.com/adobe/assets/${assetId}/metadata`, // Construct the URL with bucket and asset ID
+            `https://${bucket}.adobeaemcloud.com/adobe/../assets/${assetId}/metadata`, // Construct the URL with bucket and asset ID
             {
             method: "GET",
             headers: {
@@ -482,7 +379,7 @@ The key callouts from the sample NodeJS application code are:
 
         // Invoke the Assets Author API to retrieve metadata for a specific asset
         const resp = await fetch(
-            `https://${bucket}.adobeaemcloud.com/adobe/assets/${assetId}/metadata`, // Construct the URL with bucket and asset ID
+            `https://${bucket}.adobeaemcloud.com/adobe/../assets/${assetId}/metadata`, // Construct the URL with bucket and asset ID
             {
             method: "GET",
             headers: {
@@ -502,7 +399,69 @@ The key callouts from the sample NodeJS application code are:
     ...
     ```
 
+## Under the hood
+
+Upon successful API invocation, a user representing the ADC Project's OAuth Server-to-Server credential is created in the AEM Author service, along with the user groups that match the Product Profile and Services configuration. The _technical account user_ is associated with the Product Profile and _Services_ user group, which has the necessary permissions to _READ_ the asset metadata.
+
+To verify the technical account user and user group creation, follow these steps:
+
+- In the ADC Project, navigate to the **OAuth Server-to-Server** credential configuration. Note the **Technical Account Email** value.
+
+    ![Technical Account Email](../assets/s2s/technical-account-email.png)
+
+- In the AEM Author service, navigate to the **Tools** > **Security** > **Users** and search for the **Technical Account Email** value.
+
+    ![Technical Account User](../assets/s2s/technical-account-user.png)
+
+- Click on the technical account user to view the user details, like **Groups** membership. As shown below, the technical account user is associated with the **AEM Assets Collaborator Users - author - Program XXX - Environment XXX** and **AEM Assets Collaborator Users - Service** user groups.
+
+    ![Technical Account User Membership](../assets/s2s/technical-account-user-membership.png)
+
+- Note that the technical account user is associated with the **AEM Assets Collaborator Users - author - Program XXX - Environment XXX** Product Profile. The Product Profile is associated with the **AEM Assets API Users** and **AEM Assets Collaborator Users** Services.
+
+    ![Technical Account User Product Profile](../assets/s2s/technical-account-user-product-profile.png)
+
+- The Product Profile and technical account user association can be verified in the **Product Profiles** 's **API credentials** tab.
+
+    ![Product Profile API credentials](../assets/s2s/product-profile-api-credentials.png)
+
+## 403 error for non-GET requests
+
+To _READ_ the asset metadata, the technical account user created for the OAuth Server-to-Server credential has the necessary permissions via the Services user group (for example, AEM Assets Collaborator Users - Service). 
+
+However, to _Create, Update, Delete_ (CUD) the asset metadata, the technical account user requires additional permissions. You can verify it by invoking the API with a non-GET request (for example, PATCH, DELETE) and observe the 403 error response.
+
+Let's invoke the _PATCH_ request to update the asset metadata and observe the 403 error response.
+
+- Open the [Assets Author API documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/assets/author/) in the browser.
+
+- Enter the following values:
+
+    | Section | Parameter | Value |
+    | --- | --- | --- |
+    |**Bucket**|  | The AEM instance name without the Adobe domain name (.adobeaemcloud.com), for example, `author-p63947-e1420428`. |
+    | **Security** | Bearer Token | Use the access token from the ADC Project's OAuth Server-to-Server credential. |
+    | **Security** | X-Api-Key | Use the `ClientID` value from the ADC Project's OAuth Server-to-Server credential. |
+    | **Body** |  | `[{ "op": "add", "path": "foo","value": "bar"}]` |
+    | **Parameters** | assetId | The unique identifier for the asset in AEM, for example, `urn:aaid:aem:a200faf1-6d12-4abc-bc16-1b9a21f870da` |
+    | **Parameters** | X-Adobe-Accept-Experimental| * |
+    | **Parameters** | X-Adobe-Accept-Experimental | 1 |
+
+- Click **Send** to invoke the _PATCH_ request and observe the 403 error response.
+
+    ![Invoke API - PATCH request](../assets/s2s/invoke-api-patch-request.png)
+
+To fix the 403 error, you have two options:
+
+- In ADC Project, update the OAuth Server-to-Server credential's associated Product Profile with an appropriate Product Profile that has the necessary permissions to _Create, Update, Delete_ (CUD) the asset metadata, for example, **AEM Administrators - author - Program XXX - Environment XXX**. For more information, see [How To - API's connected credentials and Product Profile management](../how-to/credentials-and-product-profile-management.md) article.
+
+- Using AEM Project, update the associated AEM Service user group's (for example, AEM Assets Collaborator Users - Service) permissions in AEM Author to allow _Create, Update, Delete_ (CUD) of the asset metadata. For more information, see [How To - AEM Service user group permission management](../how-to/services-user-group-permission-management.md) article.
+
 ## Summary
 
 In this tutorial, you learned how to invoke OpenAPI-based AEM APIs from custom applications. You enabled AEM APIs access, created and configured an Adobe Developer Console (ADC) project. 
 In the ADC Project, you added the AEM APIs, configured its authentication type, and associated the Product Profile. You also configured the AEM instance to enable ADC Project communication and developed a sample NodeJS application that calls the Assets Author API.
+
+## Additional resources
+
+- [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)

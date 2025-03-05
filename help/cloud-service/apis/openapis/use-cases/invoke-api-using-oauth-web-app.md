@@ -1,6 +1,6 @@
 ---
-title: Invoke OpenAPI-based AEM APIs with user authentication from a web app
-description: Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from a custom web app using OAuth Web App authentication.
+title: Invoke OpenAPI-based AEM APIs using OAuth Web App authentication
+description: Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service using user-based authentication from a custom web app that uses OAuth Web App.
 version: Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
@@ -9,23 +9,38 @@ level: Intermediate
 doc-type: Tutorial
 jira: KT-16718
 thumbnail: KT-16718.jpeg
-last-substantial-update: 2025-01-09
+last-substantial-update: 2025-02-28
 duration: 0
-exl-id: dc35256a-3873-413f-b282-90948efd5f31
 ---
-# Invoke OpenAPI-based AEM APIs with user authentication from a web app{#invoke-openapi-based-aem-apis-from-web-app}
+# Invoke OpenAPI-based AEM APIs using OAuth Web App authentication
 
-Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service using user-based authentication from an external web app with OAuth Web App authentication.
+Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service using user-based authentication from a custom web app that uses OAuth Web App.
 
-The OAuth Web App authentication is ideal for web applications with frontend and _backend_ components that need to **access AEM APIs on behalf of a user**. It uses the OAuth 2.0 _authorization_code_ grant type to obtain an access token on behalf of the user to access the AEM APIs. For more information, see [Difference between OAuth Server-to-Server and OAuth Web App/Single Page App credentials](./overview.md#difference-between-oauth-server-to-server-and-oauth-web-appsingle-page-app-credentials)
+The OAuth Web App authentication is ideal for web applications with frontend and _backend_ components that need to **access AEM APIs on behalf of a user**. It uses the OAuth 2.0 _authorization_code_ grant type to obtain an access token on behalf of the user to access the AEM APIs. For more information, see [Difference between OAuth Server-to-Server and OAuth Web App/Single Page App credentials](../overview.md#difference-between-oauth-server-to-server-and-oauth-web-appsingle-page-app-credentials).
 
 >[!AVAILABILITY]
 >
 >OpenAPI-based AEM APIs are available as part of an early access program. If you are interested in accessing them, we encourage you to email [aem-apis@adobe.com](mailto:aem-apis@adobe.com) with a description of your use case.
 
+## What you learn{#what-you-learn}
+
+In this tutorial, you learn how to:
+
+- Configure an Adobe Developer Console (ADC) project to access the Assets Author API using _OAuth Web App_ authentication.
+
+- Implement the OAuth Web App authentication flow in a custom web app.
+    - IMS user authentication and app authorization.
+    - User-specific access token retrieval.
+    - Accessing OpenAPI-based AEM APIs using the user-specific access token.
+
+Before you start, make sure you reviewed the following:
+
+- [Accessing Adobe APIs and related concepts](../overview.md#accessing-adobe-apis-and-related-concepts) section.
+- [Set up OpenAPI-based AEM APIs](../setup.md) article.
+
 ## Sample web app: WKND-PIM overview and functional flow
 
-Before you start, let's understand the sample web app, WKND Product Information Management (PIM), and its functional flow.
+Let's understand the sample web app, WKND Product Information Management (PIM), and its functional flow.
 
 The WKND PIM app is a sample web application designed to manage product attributes and its asset metadata stored within AEM as a Cloud Service. This example demonstrates how web apps can seamlessly integrate with Adobe APIs to deliver efficient, user-centric workflows.
 
@@ -36,7 +51,7 @@ The Adobe Developer Console (ADC) project is configured to access the Assets Aut
 
 The following diagram illustrates the functional flow of the WKND-PIM web app _getting user-specific access tokens to interact with the Assets Author API_.
 
-![WKND-PIM Web App Flow](./assets/web-app/wknd-pim-web-app-flow.png)
+![WKND-PIM Web App Flow](../assets/web-app/wknd-pim-web-app-flow.png)
 
 1. The web app initiates the process by redirecting the user to the Adobe Identity Management System (IMS) for authentication.
 1. Along with the redirect, the web app passes the required _client_id_ and _redirect_uri_ to the IMS.
@@ -49,21 +64,9 @@ The WKND-PIM web app is developed using [Node.js](https://nodejs.org/en) and [Ex
 
 Other web stacks (Java, Python, .NET-based, etc.) can be used to create web apps that integrate with the Adobe APIs using the approaches illustrated in this tutorial.
 
-## What you learn{#what-you-learn}
-
-In this tutorial, you learn how to:
-
-- Create and configure an Adobe Developer Console (ADC) project to access OpenAPI-based AEM APIs using _OAuth Web App_ authentication.
-- Implement the OAuth Web App authentication flow in a custom web app.
-    - IMS user authentication and app authorization.
-    - User-specific access token retrieval.
-    - Accessing OpenAPI-based AEM APIs using the user-specific access token.
-
-Before you start, make sure you reviewed the [Accessing Adobe APIs and related concepts](overview.md#accessing-adobe-apis-and-related-concepts) section.
-
 ## How to use this tutorial{#how-to-use-this-tutorial}
 
-You can either [Review web app key code snippets](#review-web-app-key-code-snippets) section to understand the OAuth Web App authentication flow and API calls code snippets used in the WKND-PIM web app. Or directly proceed to the [Setup and run web app](#setup-run-web-app) section to set up and run the WKND-PIM web app on your local machine.
+You can either [Review web app key code snippets](#review-web-app-key-code-snippets) section to understand the OAuth Web App authentication flow and API calls code snippets used in the WKND-PIM web app. Or directly proceed to the [Setup and run web app](#setup-run-web-app) section to set up and run the WKND-PIM web app on your local machine to understand the OAuth Web App authentication flow and API calls.
 
 ## Review web app key code snippets{#review-web-app-key-code-snippets}
 
@@ -71,7 +74,7 @@ Let's review the key code snippets used in the WKND-PIM web app to understand th
 
 ### Download the WKND-PIM web app code
 
-1. Download the [WKND-PIM web app](./assets/web-app/wknd-pim-demo-web-app.zip) zip file and extract it.
+1. Download the [WKND-PIM web app](../assets/web-app/wknd-pim-demo-web-app.zip) zip file and extract it.
 
 1. Navigate to the extracted folder and open the `.env.example` file in your favorite code editor. Review the required configuration parameters.
 
@@ -114,7 +117,7 @@ Let's review the code that initiates the IMS user authentication and app authori
 
 On the very first login attempt, the user must provide the consent to allow the WKND-PIM web app to access the Assets Author API on their behalf.
 
-![First Login and Consent](./assets/web-app/first-login-consent.png)
+![First Login and Consent](../assets/web-app/first-login-consent.png)
 
 1. The `routes/update-product-attributes.js` file verifies if the user's [Express session](https://www.npmjs.com/package/express-session) has an access token. If not, it redirects the user to the `/auth` route.
 
@@ -418,6 +421,8 @@ To complete this tutorial, you need:
     - AEM Release `2024.10.18459.20241031T210302Z` or later.
     - New style Product Profiles (if environment was created before November 2024)
 
+  See [Set up OpenAPI-based AEM APIs](../setup.md) article for more details.
+
 - The sample [WKND Sites](https://github.com/adobe/aem-guides-wknd?#aem-wknd-sites-project) project must be deployed on to it.
 
 - Access to the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/).
@@ -426,116 +431,72 @@ To complete this tutorial, you need:
 
 - Install a [local-ssl-proxy](https://www.npmjs.com/package/local-ssl-proxy#local-ssl-proxy) on your local machine to create a local SSL HTTP proxy using a self-signed certificate.
 
+
 ### Development steps
 
 The high-level development steps are:
 
-1. Modernization of AEM as a Cloud Service environment.
-1. Enable AEM APIs access.
-1. Create Adobe Developer Console (ADC) Project.
 1. Configure ADC Project
-    1. Add desired OpenAPI-based AEM APIs
+    1. Add the Assets Author API
     1. Configure OAuth Web App credential
 1. Configure the AEM instance to enable ADC Project communication
-1. Create and apply asset metadata schema
+1. In AEM, create and apply asset metadata schema
 1. Configure and run the WKND-PIM web app
 1. Verify the end-to-end flow
 
-### Modernization of AEM as a Cloud Service environment
-
-Refer to the [Modernization of AEM as a Cloud Service environment](invoke-openapi-based-aem-apis.md#modernization-of-aem-as-a-cloud-service-environment) section from the [How to invoke OpenAPI-based AEM APIs](invoke-openapi-based-aem-apis.md) tutorial.
-
-### Enable AEM APIs access
-
-Refer to the [Enable AEM APIs access](invoke-openapi-based-aem-apis.md#enable-aem-apis-access) section from the [How to invoke OpenAPI-based AEM APIs](invoke-openapi-based-aem-apis.md) tutorial.
-
-### Create Adobe Developer Console (ADC) Project
-
-Refer to the [Create Adobe Developer Console (ADC) Project](invoke-openapi-based-aem-apis.md#create-adobe-developer-console-adc-project) section from the [How to invoke OpenAPI-based AEM APIs](invoke-openapi-based-aem-apis.md) tutorial.
-
 ### Configure ADC Project
 
-Next, configure the ADC Project to access the Assets Author API using the OAuth Web App authentication.
+The configure ADC Project step is _repeated_ from the [Setup OpenAPI-based AEM APIs](../setup.md). It is repeated to add the Assets Author API and configure its authentication method as OAuth Web App.
+
+1. From the [Adobe Developer Console](https://developer.adobe.com/console/projects), open the desired project.
 
 1. To add AEM APIs, click on the **Add API** button.
 
-    ![Add API](./assets/web-app/add-api.png)
+    ![Add API](../assets/s2s/add-api.png)
 
 1. In the _Add API_ dialog, filter by _Experience Cloud_ and select the **AEM Assets Author API** card and click **Next**.
 
-    ![Add AEM API](./assets/web-app/add-aem-api.png)
+    ![Add AEM API](../assets/s2s/add-aem-api.png)
 
 1. Next, in the _Configure API_ dialog, select the **User Authentication** authentication option and click **Next**.
 
-    ![Configure AEM API](./assets/web-app/configure-aem-api.png)
+    ![Configure AEM API](../assets/web-app/configure-aem-api.png)
 
 1. In the next _Configure API_ dialog, select the **OAuth Web App** authentication option and click **Next**.
 
-    ![Configure OAuth Web App](./assets/web-app/configure-oauth-web-app.png)
+    ![Configure OAuth Web App](../assets/web-app/configure-oauth-web-app.png)
 
 1. In the _Configure OAuth Web App_ dialog, enter the following details and click **Next**.
     - Default redirect URI: `https://localhost:3001/callback`
     - Redirect URI pattern: `https://localhost:3001/callback`
 
-    ![Configure OAuth Web App](./assets/web-app/configure-oauth-web-app-details.png)
+    ![Configure OAuth Web App](../assets/web-app/configure-oauth-web-app-details.png)
 
 1. Review the available scopes and click **Save configured API**.
 
-    ![Save configured API](./assets/web-app/save-configured-api.png)
+    ![Save configured API](../assets/web-app/save-configured-api.png)
 
 1. Review the AEM API and authentication configuration.
 
-    ![AEM API configuration](assets/web-app/aem-api-configuration.png)
+    ![AEM API configuration](../assets/web-app/aem-api-configuration.png)
 
-    ![Authentication configuration](assets/web-app/authentication-configuration.png)
+    ![Authentication configuration](../assets/web-app/authentication-configuration.png)
 
-### Configure the AEM instance to enable ADC Project communication
+### Configure AEM instance to enable ADC Project communication
 
-To enable the ADC Project's OAuth Web App credential ClientID to communicate with the AEM instance, you need to configure the AEM instance.
-
-It is done by defining the configuration in the `config.yaml` file in the AEM Project. Then, deploy the `config.yaml` file using the Config Pipeline in the Cloud Manager.
-
-1. In AEM Project, locate or create the `config.yaml` file from the `config` folder.
-
-    ![Locate config YAML](assets/web-app/locate-config-yaml.png)
-
-1. Add the following configuration to the `config.yaml` file.
-
-    ```yaml
-    kind: "API"
-    version: "1.0"
-    metadata: 
-        envTypes: ["dev", "stage", "prod"]
-    data:
-        allowedClientIDs:
-            author:
-            - "<ADC Project's OAuth Web App credential ClientID>"
-    ```
-
-    Replace `<ADC Project's OAuth Web App credential ClientID>` with the actual ClientID of the ADC Project's OAuth Web App credential. The API endpoint that is used in this tutorial is available only on the author tier, but for other APIs, the yaml config can also have a _publish_ or _preview_ node.
-
-    >[!CAUTION]
-    >
-    > For demo purposes, the same ClientID is used for all environments. It is recommended to use separate ClientID per environment (dev, stage, prod) for better security and control.
-
-
-1. Commit the config changes to the Git repository and push the changes to the remote repository.
-
-1. Deploy the above changes using the Config Pipeline in the Cloud Manager. Note that the `config.yaml` file can also be installed in an RDE, using command line tooling.
-
-    ![Deploy config.yaml](assets/deploy-config-yaml.png)
+Follow the instructions from the [Setup OpenAPI-based AEM APIs](../setup.md#configure-the-aem-instance-to-enable-adc-project-communication) article to configure the AEM instance to enable ADC Project communication.
 
 ### Create and apply asset metadata schema
 
-By default, the WKND Sites project does not have the required asset metadata schema to store product attributes. Let's create and apply the asset metadata schema to an asset folder in the AEM instance.
+By default, the WKND Sites project does not have the required asset metadata schema to display the product attributes. Let's create and apply the asset metadata schema to an asset folder in the AEM instance.
 
 1. Log in to the AEM as a Cloud Service Asset instance. Using the [Asset view](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/authoring/switch-views) navigate to the `/content/dam/wknd-shared/en` folder.
 
-    ![Navigate to folder](assets/web-app/navigate-to-folder.png)
+    ![Navigate to folder](../assets/web-app/navigate-to-folder.png)
 
-1. Create a **PIM** and within it create the **Camping** folder, then upload [sample images](./assets/web-app/camping-gear-imgs.zip) in the **Camping** folder.
+1. Create a **PIM** and within it create the **Camping** folder, then upload [sample images](../assets/web-app/camping-gear-imgs.zip) in the **Camping** folder.
 
-    ![PIM Folder](assets/web-app/pim-folder.png)
+    ![PIM Folder](../assets/web-app/pim-folder.png)
 
 Next, let's create the PIM attribute specific metadata schema and apply it to the **PIM** folder.
 
@@ -546,11 +507,11 @@ Next, let's create the PIM attribute specific metadata schema and apply it to th
     - Use existing form structure as template: `Check`
     - Choose from: `default`
 
-    ![Create Metadata Form](assets/web-app/create-metadata-form.png)
+    ![Create Metadata Form](../assets/web-app/create-metadata-form.png)
 
 1. Click the **+** icon to add a new **PIM** tab and add **Single Line Text** components to it. The metadata property names should start with `pim:` prefix.
 
-    ![Add PIM Tab](assets/web-app/add-pim-tab.png)
+    ![Add PIM Tab](../assets/web-app/add-pim-tab.png)
 
     | Label | Placeholder | Metadata property |
     | --- | --- | --- |
@@ -565,13 +526,13 @@ Next, let's create the PIM attribute specific metadata schema and apply it to th
 
 1. Finally, apply the **PIM** metadata schema to the **PIM** folder.
 
-    ![Apply Metadata Schema](assets/web-app/apply-metadata-schema.png)
+    ![Apply Metadata Schema](../assets/web-app/apply-metadata-schema.png)
 
 With the above steps, the assets from the **PIM** folder are ready to store the product attributes metadata.
 
 ### Configure and run the WKND-PIM web app
 
-1. Download the [WKND-PIM web app](./assets/web-app/wknd-pim-demo-web-app.zip) zip file and extract it.
+1. Download the [WKND-PIM web app](../assets/web-app/wknd-pim-demo-web-app.zip) zip file and extract it.
 
 1. Navigate to the extracted folder and copy the `.env.example` file to `.env`.
 
@@ -609,7 +570,7 @@ With the above steps, the assets from the **PIM** folder are ready to store the 
     EXPRESS_SESSION_SECRET=1234554321
     ```    
 
-    The `AEM_ASSET_IDS` are the `jcr:uuid` property value of the uploaded images in the **Camping** folder. Refer to this [section](invoke-openapi-based-aem-apis.md#review-the-api) for more details.
+    The `AEM_ASSET_IDS` are the `jcr:uuid` property value of the uploaded images in the **Camping** folder. Refer to this [section](./invoke-api-using-oauth-s2s.md#review-the-api) for more details.
 
 1. Open a terminal and navigate to the extracted folder. Install the required dependencies using the following command.
 
@@ -635,7 +596,7 @@ With the above steps, the assets from the **PIM** folder are ready to store the 
 
 1. Open a browser and navigate to `https://localhost:3001` to access the WKND-PIM web app. Accept the self-signed certificate warning.
 
-    ![WKND-PIM Web App](./assets/web-app/wknd-pim-web-app.png)
+    ![WKND-PIM Web App](../assets/web-app/wknd-pim-web-app.png)
 
 1. Click **Try Now** to review and update the product attributes metadata. It initiates the IMS user authentication and app authorization flow.
 
@@ -643,11 +604,11 @@ With the above steps, the assets from the **PIM** folder are ready to store the 
 
 1. From the `https://localhost:3001/update-product-attributes` route/page, click the **AEM Asset Attributes** tab. From the **Asset ID** dropdown, select an Asset ID to view the asset metadata.
 
-    ![Get Asset Metadata](./assets/web-app/get-asset-metadata.png)
+    ![Get Asset Metadata](../assets/web-app/get-asset-metadata.png)
 
 1. Update the asset metadata and click **Update AEM Asset Attributes** to update the asset metadata.
 
-    ![Update Asset Metadata](./assets/web-app/update-asset-metadata.png)
+    ![Update Asset Metadata](../assets/web-app/update-asset-metadata.png)
 
 >[!IMPORTANT]
 >
@@ -688,4 +649,4 @@ You can use the tutorial as a reference to integrate the OpenAPI-based AEM APIs 
  - [Authorize Request](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/IMS/#authorize-request)
  - [Fetching Access tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/IMS/#fetching-access-tokens)
  - [Refreshing Access tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/IMS/#refreshing-access-tokens)
- - [How to invoke OpenAPI-based AEM APIs](invoke-openapi-based-aem-apis.md)
+ 
