@@ -137,8 +137,14 @@ team: TM
       + [Traversal warnings](./debugging/cloud-service/risks/traversals.md)
 + AEM APIs{#aem-apis}
   + [Overview](./apis/overview.md)
-  + [OpenAPI-based AEM APIs (server-to-server)](./apis/invoke-openapi-based-aem-apis.md)
-  + [OpenAPI-based AEM APIs (user authenticated)](./apis/invoke-openapi-based-aem-apis-from-web-app.md)
+  + OpenAPIs{#openapis}
+    + [Overview](./apis/openapis/overview.md)
+    + [How to setup](./apis/openapis/setup.md)
+    + [Server-to-server authentication](./apis/openapis/use-cases/invoke-api-using-oauth-s2s.md)
+    + [User authentication (web app)](./apis/openapis/use-cases/invoke-api-using-oauth-web-app.md)
+    + How to{#how-to}
+      + [Credentials and Product Profile management](./apis/openapis/how-to/credentials-and-product-profile-management.md)
+      + [Permission management](./apis/openapis/how-to/services-user-group-permission-management.md)
 + Content Delivery{#content-delivery}
   + [Custom domain name](./content-delivery/custom-domain-names.md)
   + [Custom domain name with Adobe managed CDN](./content-delivery/custom-domain-name-with-adobe-managed-cdn.md)
