@@ -11,8 +11,8 @@ jira: KT-17426
 thumbnail: KT-17426.jpeg
 last-substantial-update: 2025-02-28
 duration: 0
+exl-id: 1df4c816-b354-4803-bb6c-49aa7d7404c6
 ---
-
 # Set up OpenAPI-based AEM APIs
 
 Learn how to set up your AEM as a Cloud Service environment to enable access to the OpenAPI-based AEM APIs.
@@ -237,4 +237,3 @@ Once the AEM instance is configured to enable ADC Project communication, you can
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-

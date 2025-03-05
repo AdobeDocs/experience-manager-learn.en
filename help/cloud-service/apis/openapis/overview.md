@@ -8,11 +8,11 @@ role: Architect, Developer, Leader
 level: Beginner
 doc-type: Article
 jira: KT-16515
-thumbnail:  KT-16515.jpeg
+thumbnail: KT-16515.jpeg
 last-substantial-update: 2025-02-28
 duration: 0
+exl-id: 0eb0054d-0c0a-4ac0-b7b2-fdaceaa6479b
 ---
-
 # OpenAPI-based AEM APIs
 
 >[!IMPORTANT]
@@ -182,4 +182,3 @@ Learn how to use the OpenAPI-based AEM APIs using different OAuth authentication
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-

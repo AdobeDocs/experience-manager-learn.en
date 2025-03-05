@@ -11,6 +11,7 @@ jira: KT-16516
 thumbnail: KT-16516.jpeg
 last-substantial-update: 2025-02-28
 duration: 0
+exl-id: 8338a905-c4a2-4454-9e6f-e257cb0db97c
 ---
 # Invoke OpenAPI-based AEM APIs using OAuth Server-to-Server authentication
 

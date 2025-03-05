@@ -11,8 +11,8 @@ jira: KT-17428
 thumbnail: KT-17428.jpeg
 last-substantial-update: 2025-02-28
 duration: 0
+exl-id: 277b4789-b035-4904-b489-c827c970fb55
 ---
-
 # API Credentials and Product Profile management
 
 Learn how to manage _Credentials and Product Profile_ for OpenAPI-based AEM APIs.
