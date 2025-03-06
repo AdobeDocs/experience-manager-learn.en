@@ -303,8 +303,12 @@ team: TM
         + [Merge Data with Template](./forms/doc-gen-forms-cs/merge-data-with-template.md)
         + [Test the solution](./forms/doc-gen-forms-cs/test.md)
         + [Challenge](./forms/doc-gen-forms-cs/challenge.md)
-    + Using DocAssurance API{#doc-assurance-api}
-        + [Sample code snippets](./forms/doc-assurance-api/using-doc-assurance-api.md)
+    + Using Forms Document Services API{#forms-document-services-api}
+        + [Introduction](./forms/forms-document-services/introduction.md)
+        + [Configure OpenAPI](./forms/forms-document-services/using-open-api.md)
+        + [Generate Access Token](./forms/forms-document-services/generate-access-token.md)
+        + [Apply Usage Rights](./forms/forms-document-services/make-api-calls.md)
+        + [Sample Code](./forms/forms-document-services/sample-project.md)
     + Document Generation using Batch API{#formscs-batch-api}
         + [Introduction](./forms/formscs-batch-api/introduction.md)
         + [Configure Azure Storage](./forms/formscs-batch-api/configure-azure-storage.md)
