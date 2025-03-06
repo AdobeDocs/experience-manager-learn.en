@@ -9,6 +9,7 @@ feature: Document Services
 topic: Development
 jira: KT-17479
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+exl-id: 7d8755de-c227-40e9-a533-0b20c91f1610
 ---
 # Using Forms Document Services API
 

@@ -9,7 +9,7 @@ feature: Document Services
 topic: Development
 jira: KT-17479
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
-
+exl-id: 100cab4b-16bd-4358-b0f0-61dbfd64d412
 ---
 # Generate Access Token
 

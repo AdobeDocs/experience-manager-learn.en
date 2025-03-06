@@ -9,6 +9,7 @@ feature: Document Services
 topic: Development
 jira: KT-17479
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+exl-id: b9c0b04b-6131-4752-b2f0-58e1fb5f40aa
 ---
 # Configure OpenAPI-based AEM Forms Communication APIs on AEM Forms as a Cloud Service
 
