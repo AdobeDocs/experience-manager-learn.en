@@ -9,9 +9,8 @@ feature: Document Services
 topic: Development
 jira: KT-17479
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
-
+exl-id: f1fcc4bb-cc31-45e8-b7bb-688ef6a236bb
 ---
-
 # Test it on your local environment
 
 *   Import the project
@@ -32,4 +31,3 @@ badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 
 *   Verify execution
     * Verify the output in the terminal window
-
