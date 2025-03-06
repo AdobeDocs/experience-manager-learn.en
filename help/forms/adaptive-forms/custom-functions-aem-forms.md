@@ -38,18 +38,11 @@ Copy the following code into functions.js and save your changes.
 /**
 * Get List of County names
 * @name getCountyNamesList Get list of county names
-* @return {OPTIONS} drop down options 
+* @returns {string[]} An array of county names
  */
 function getCountyNamesList()
 {
-    var countyNames= [];
-    countyNames[0] = "Santa Clara";
-    countyNames[1] = "Alameda";
-    countyNames[2] = "Buxor";
-    countyNames[3] = "Contra Costa";
-    countyNames[4] = "Merced";
-
-    return countyNames;
+    return ["Santa Clara", "Alameda", "Buxor", "Contra Costa", "Merced"];
 
 }
 /**
