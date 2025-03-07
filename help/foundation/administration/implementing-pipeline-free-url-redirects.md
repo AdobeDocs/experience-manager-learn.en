@@ -155,8 +155,8 @@ maps:
 RewriteMap skicampaign dbm=sdbm:/tmp/rewrites/skicampaign.map
 
 # Apply the RewriteMap for matching request URIs
-RewriteCond ${skicampaign:%{$1}} !=""
-RewriteRule ^(.*)$ ${skicampaign:%{$1}|/} [L,R=301]
+RewriteCond ${skicampaign:$1} !=""
+RewriteRule ^(.*)$ ${skicampaign:$1|/} [L,R=301]
 
 ...
 ```
@@ -182,8 +182,8 @@ maps:
 RewriteMap skicampaign dbm=sdbm:/tmp/rewrites/skicampaign.map
 
 # Apply the RewriteMap for matching request URIs
-RewriteCond ${skicampaign:%{$1}} !=""
-RewriteRule ^(.*)$ ${skicampaign:%{$1}|/} [L,R=301]
+RewriteCond ${skicampaign:$1} !=""
+RewriteRule ^(.*)$ ${skicampaign:$1|/} [L,R=301]
 
 ...
 ```
@@ -209,8 +209,8 @@ maps:
 RewriteMap skicampaign dbm=sdbm:/tmp/rewrites/skicampaign.map
 
 # Apply the RewriteMap for matching request URIs
-RewriteCond ${skicampaign:%{$1}} !=""
-RewriteRule ^(.*)$ ${skicampaign:%{$1}|/} [L,R=301]
+RewriteCond ${skicampaign:$1} !=""
+RewriteRule ^(.*)$ ${skicampaign:$1|/} [L,R=301]
 
 ...
 ```
