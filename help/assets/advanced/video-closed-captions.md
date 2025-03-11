@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 doc-type: Feature Video
 duration: 233
-last-substantial-update: 2024-08-14
+last-substantial-update: 2025-03-11
 jira: KT-15930
 exl-id: ffbe2da8-1ffe-4d61-a3fa-c76136933dc2
 ---
