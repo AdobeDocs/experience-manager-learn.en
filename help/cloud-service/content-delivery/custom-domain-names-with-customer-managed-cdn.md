@@ -31,9 +31,9 @@ The high-level steps are:
 
 - [OpenSSL](https://www.openssl.org/) and [dig](https://www.isc.org/blogs/dns-checker/) are installed on your local machine.
 - Access to third-party services:
-    - Certificate Authority (CA) -  to request the signed certificate for your site domain, like [DigitCert](https://www.digicert.com/) 
+    - Certificate Authority (CA) -  to request the signed certificate for your site domain, like [DigitCert](https://www.digicert.com/)
     - Customer CDN - to set up the customer CDN and add SSL certificates and domain details, like AWS CloudFront, Azure CDN, or Akamai.
-    - Domain Name System (DNS) hosting service - to add DNS records for your custom domain, like Azure DNS, or AWS Route 53. 
+    - Domain Name System (DNS) hosting service - to add DNS records for your custom domain, like Azure DNS, or AWS Route 53.
 - Access to [Adobe Cloud Manager](https://my.cloudmanager.adobe.com/) to deploy HTTP Header validation CDN rule to the AEM as a Cloud Service environment.
 - Sample [AEM WKND](https://github.com/adobe/aem-guides-wknd) site is deployed to the AEM as a Cloud Service environment of [production program](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/introduction-production-programs) type.
 
@@ -48,7 +48,7 @@ You have two options:
 1. Using `openssl` command-line tool - you can generate a private key and a Certificate Signing Request (CSR) for your site domain. To request a signed certificate, submit the CSR to a Certificate Authority (CA).
 1. Your hosting team provides the required private key and signed certificate for your site.
 
-Let's review the steps for the first option. 
+Let's review the steps for the first option.
 
 To generate a private key and a CSR, run the following commands and provide the required information when prompted:
 
@@ -68,7 +68,7 @@ Reviewing the signed certificate before adding it to the Cloud Manager is a good
 $ openssl crl2pkcs7 -nocrl -certfile <YOUR-SIGNED-CERT>.crt | openssl pkcs7 -print_certs -noout
 ```
 
-The signed certificate may contain the certificate chain, which includes the root and intermediate certificates along with the end-entity certificate. 
+The signed certificate may contain the certificate chain, which includes the root and intermediate certificates along with the end-entity certificate.
 
 The Adobe Cloud Manager accepts the end-entity certificate and the certificate chain _in separate form fields_, so you must extract the end-entity certificate and the certificate chain from the signed certificate.
 
@@ -98,8 +98,8 @@ This tutorial adds a CNAME record to Azure DNS for the custom domain `wkndviaaws
 
 ### Site verification
 
-Verify the custom domain name by accessing the site using the custom domain name. 
-It may or may not work depending on the vhhost configuration in the AEM as a Cloud Service environment. 
+Verify the custom domain name by accessing the site using the custom domain name.
+It may or may not work depending on the vhhost configuration in the AEM as a Cloud Service environment.
 
 A crucial security step is to deploy the HTTP Header validation CDN rule to the AEM as a Cloud Service environment. The rule ensures that the request is coming from the customer CDN and not from any other source.
 
@@ -195,16 +195,16 @@ To configure and deploy the HTTP Header validation CDN rule, follow these steps:
     kind: "CDN"
     version: "1"
     metadata:
-    envTypes: ["prod"]
+      envTypes: ["prod"]
     data:
-    authentication:
+      authentication:
         authenticators:
-        - name: edge-auth
+          - name: edge-auth
             type: edge
             edgeKey1: ${{CDN_EDGEKEY_080124}}
             edgeKey2: ${{CDN_EDGEKEY_110124}}
         rules:
-        - name: edge-auth-rule
+          - name: edge-auth-rule
             when: { reqProperty: tier, equals: "publish" }
             action:
             type: authenticate
