@@ -27,11 +27,12 @@ Setting up a local development environment is the first step when developing for
 
 ## Install local AEM Instances
 
-When we refer to a local AEM instance, we are talking about a copy of Adobe Experience Manager that is running on a developer's personal machine. ***All*** AEM development should start by writing and running code against a local AEM instance.
+When we refer to a local AEM instance, we are describing a copy of Adobe Experience Manager that is active on a developer's assigned machine. ***All*** AEM development should start with writing and running code, against a local AEM instance.
 
-If you are new to AEM, there are two basic run modes can be installed: ***Author*** and ***Publish***. The ***Author*** [runmode](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configure-runmodes.html?lang=en)  is the environment that digital marketers use to create and manage content. When developing most of the time, you are deploying code to an Author instance. This allows you to create pages and add and configure components. AEM Sites is a WYSIWYG authoring CMS and therefore most of the CSS and JavaScript can be tested against an authoring instance.
+If you are new to AEM, then there are two basic run modes that can be installed, they are: 1. ***Author*** and 2. ***Publish***. 
+  1. The ***Author*** [runmode](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configure-runmodes.html?lang=en)  is the environment that digital creators use to author and manage content. When developing, most often, Creators are deploying code to an ***Author*** instance. This allows creation of pages and ability to add & configure components. AEM Sites are a 'WYSIWYG' Authoring Content Management System, therefore most of the CSS and JavaScript can be tested against an ***Author*** instance.
 
-It is also *critical* test code against a local ***Publish*** instance. The ***Publish*** instance is the AEM environment that visitors to your website interact with. While the ***Publish*** instance is the same technology stack as the ***Author*** instance, there are some major distinctions with configurations and permissions. The code must be tested against a local ***Publish*** instance before being promoted to higher-level environments.
+ 2. It is also *critical* to test code against a local ***Publish*** instance. The ***Publish*** instance is the AEM environment that visitors to your website interact with. While the ***Publish*** instance is the same technology stack as the ***Author*** instance, there are some major distinctions with configurations and permissions. The code must be tested against a local ***Publish*** instance before being promoted to higher-level environments.
 
 ### Steps
 
