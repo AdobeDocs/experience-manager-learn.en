@@ -48,7 +48,7 @@ Authoring a block in development is important for several reasons:
 
     ![Universal Editor - Author Block](./assets/6-author-block/author-block.png)
 
-8. After completing authoring, switch to the previous browser tab (AEM Sites Admin), select the Teaser page, click **Manage Publications**, choose **Preview**, and publish the changes to the preview environment. The changes are then published to the `aem.page` domain for the website.
+8. After completing authoring, select the **Publish** button in the top right of Universal Editor, choose publish to **Preview**, and publish the changes to the preview environment. The changes are then published to the `aem.page` domain for the website.
     ![AEM Sites - Publish or Preview](./assets/6-author-block/publish-to-preview.png)
 
 9. Wait for the changes to publish to preview, then open the webpage via the [AEM CLI](./3-local-development-environment.md#install-the-aem-cli) at [http://localhost:3000/branches/teaser](http://localhost:3000/branches/teaser).
