@@ -199,28 +199,13 @@ In order for the Adobe I/O CLI to communicate with Cloud Manager, a [Cloud Manag
     + If creating a new project, select "Empty Project" if prompted (vs. "Create from Template")
     + Adobe I/O Console programs are different concepts to Cloud Manager programs
 1. Create a new Cloud Manager API integration
-    + Select the deprecated "Service Account (JWT)" authentication type (OAuth is not supported for the CLI at this time).
-    + Create or upload keys.
-    + Select the "Developer - Cloud Service" product profile
-1. Obtain the Service Account (JWT) credentials needs to populate Adobe I/O CLI's [config.json](https://github.com/adobe/aio-cli-plugin-cloudmanager#authentication)
-
-     ```json
-     //config.json 
-     {
-        "client_id": "Client ID from Service Account (JWT) credential",
-        "client_secret": "Client Secret from Service Account (JWT) credential",
-        "technical_account_id": "Technical Account ID from Service Account (JWT) credential",
-        "ims_org_id": "Organization ID from Service Account (JWT) credential",
-        "meta_scopes": [
-          "ent_cloudmgr_sdk"
-        ]
-     }
-     ```
-     
+    + Select "Oauth Server-to-server" credential type.
+    + Select the "Deployment Manager - Cloud Service" product profile.
+    + Save configured API
+1. Obtain the credentials needs to populate Adobe I/O CLI's [config.json](https://github.com/adobe/aio-cli-plugin-cloudmanager#authentication) by opening the newly created "OAuth Server-to-server" credentials, and selecting "Download JSON" from the top right action bar.
+1. Open the downloaded JSON file, and renamed all keys to lowecase. For example, `CLIENT_ID` becomes `client_id`.
 1. Load the `config.json` file into the Adobe I/O CLI
-    + `$ aio config:set ims.contexts.aio-cli-plugin-cloudmanager ./path/to/config.json --file --json`
-1. Load the `private.key` file into the Adobe I/O CLI
-    + `$ aio config:set ims.contexts.aio-cli-plugin-cloudmanager.private_key ./path/to/private.key --file`
+    + `$ aio config:set ims.contexts.aio-cli-plugin-cloudmanager /path/to/downloaded/json --file --json`
 
 Begin [executing commands](https://github.com/adobe/aio-cli-plugin-cloudmanager#commands) for Cloud Manager via the Adobe I/O CLI.
 
