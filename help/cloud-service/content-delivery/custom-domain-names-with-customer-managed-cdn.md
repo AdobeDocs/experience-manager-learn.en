@@ -207,8 +207,8 @@ To configure and deploy the HTTP Header validation CDN rule, follow these steps:
           - name: edge-auth-rule
             when: { reqProperty: tier, equals: "publish" }
             action:
-            type: authenticate
-            authenticator: edge-auth
+              type: authenticate
+              authenticator: edge-auth
     ```
 
 - Create secret-type environment variables (CDN_EDGEKEY_080124, CDN_EDGEKEY_110124) using the Cloud Manager UI.
