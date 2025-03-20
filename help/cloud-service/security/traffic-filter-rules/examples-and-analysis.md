@@ -194,7 +194,7 @@ data:
 - To simulate the DoS attack, use the following [Vegeta](https://github.com/tsenart/vegeta) command.
 
     ```shell
-    $ echo "GET https://publish-pXXXX-eYYYY.adobeaemcloud.com/us/en.html" | vegeta attack -rate=120 -duration=5s | vegeta report
+    $ echo "GET https://publish-pXXXX-eYYYY.adobeaemcloud.com/us/en.html" | vegeta attack -rate=120 -duration=60s | vegeta report
     ```
 
     This command makes 120 requests for 5 seconds and outputs a report. As you can see, the success rate is 32.5%; a 406 HTTP response code is received for the rest, demonstrating that traffic was blocked.

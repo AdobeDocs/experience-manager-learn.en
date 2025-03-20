@@ -242,7 +242,7 @@ To simulate an attack, tools like [Apache Benchmark](https://httpd.apache.org/do
 Using the following [Vegeta](https://github.com/tsenart/vegeta) command you can make many requests to your website:
 
 ```shell
-$ echo "GET https://<YOUR-WEBSITE-DOMAIN>" | vegeta attack -rate=120 -duration=5s | vegeta report
+$ echo "GET https://<YOUR-WEBSITE-DOMAIN>" | vegeta attack -rate=120 -duration=60s | vegeta report
 ```
 
 The above command makes 120 requests for 5 seconds and outputs a report. Assuming the website is not rate limited, this can cause a spike in traffic.
