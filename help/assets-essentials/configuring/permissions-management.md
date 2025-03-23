@@ -1,7 +1,7 @@
 ---
 title: Assets Essentials Permissions Management
 description: Learn how AEM Assets Essentials permission management allows organizations to control access to assets, protect their brand, and ensure compliance.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: User

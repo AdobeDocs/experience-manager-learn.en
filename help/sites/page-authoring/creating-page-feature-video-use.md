@@ -2,7 +2,7 @@
 title: Creating a new page in AEM Sites
 description: The following video highlights how to create a site page based on a template in Adobe Experience Manager.
 feature: Page Editor, Editable Templates
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4244
 thumbnail: 31827.jpg
 topic: Content Management

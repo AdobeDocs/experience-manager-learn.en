@@ -1,7 +1,7 @@
 ---
 title: Create an Adobe Developer Console project for AEM UI extensibility
 description: Learn how to create a Adobe Developer Console project that defines it's access to other Adobe services, and manages its deployments.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developer Tools
 topic: Development
 role: Developer

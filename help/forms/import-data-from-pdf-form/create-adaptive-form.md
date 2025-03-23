@@ -2,7 +2,7 @@
 title: Create schema
 description: Create a schema based on the data that needs to be imported into the adaptive form
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

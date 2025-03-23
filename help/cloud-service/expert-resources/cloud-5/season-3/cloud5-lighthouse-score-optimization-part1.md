@@ -1,7 +1,7 @@
 ---
 title: Lighthouse Score Optimization - Part 1
 description: Learn about what a lighthouse score is and techniques for getting the best possible lighthouse score in Edge Delivery Services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer, Leader, User

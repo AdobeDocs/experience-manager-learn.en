@@ -4,7 +4,7 @@ description: Capture HTTP archive logs for troubleshooting network related issue
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: cfadacf9-ec54-433b-beaa-d38dbe003438

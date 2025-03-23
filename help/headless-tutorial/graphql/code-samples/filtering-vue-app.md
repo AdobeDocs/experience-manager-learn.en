@@ -1,7 +1,7 @@
 ---
 title: Filtering Vue app
 description: A simple Vue app that filters WKND adventures modeled using Content Fragments.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer

@@ -1,7 +1,7 @@
 ---
 title: Service Users
 description: Learn how to create and use Service Users in your AEM code to provide controlled, programmatic access to the AEM repository.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 feature: OSGI, Security
 role: Developer

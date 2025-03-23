@@ -1,7 +1,7 @@
 ---
 title: AEM Champion Tips and Tricks - Cloud Manager Onboarding Playbook
 description: Check out these tips for Cloud Manager onbarding and the onboarding playbook by AEM champion and expert, Rakesh Pasupuleti.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Cloud Manager
 topic: Administration
 role: Admin, Architect

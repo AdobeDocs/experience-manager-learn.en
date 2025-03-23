@@ -2,7 +2,7 @@
 title: Select and download DAM folder contents
 description: Tutorial to populate checkbox component with DAM folder content and allow the user to download selected content.
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

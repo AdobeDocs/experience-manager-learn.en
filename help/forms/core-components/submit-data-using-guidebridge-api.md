@@ -3,7 +3,7 @@ title: Using GuideBridge API to Post Form Data
 description: Learn how to access and send form data using GuideBridge API for adaptive forms. Save and retrieve form data with ease.
 duration: 68
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

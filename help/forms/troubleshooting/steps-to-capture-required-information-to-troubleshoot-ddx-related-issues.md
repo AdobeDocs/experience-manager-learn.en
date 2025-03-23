@@ -4,7 +4,7 @@ description: Capture required details to troubleshoot issues related to Assemble
 type: Troubleshooting
 role: Developer
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Assembler
 topic: Development
 index: y

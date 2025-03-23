@@ -2,7 +2,7 @@
 title: Develop an Asset Compute worker
 description: Asset Compute workers are the core of an Asset Compute projects as provide custom functionality that performs, or orchestrates, the work performed on an asset to create a new rendition.
 feature: Asset Compute Microservices
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: Tutorial
 jira: KT-6282
 thumbnail: KT-6282.jpg

@@ -4,7 +4,7 @@ description: Configure and trigger batch operations to generate documents.
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Output Service
 topic: Development
 exl-id: 165e2884-4399-4970-81ff-1f2f8b041a10

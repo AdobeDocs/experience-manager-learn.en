@@ -2,7 +2,7 @@
 doc-type: Tutorial
 user-guide-title: AEM Tutorials
 sub-product: Experience Manager
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 index: y
 ---
 

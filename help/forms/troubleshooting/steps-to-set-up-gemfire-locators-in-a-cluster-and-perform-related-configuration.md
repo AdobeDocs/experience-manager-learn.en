@@ -4,7 +4,7 @@ description: Configue gemfire locators in a cluster
 type: Troubleshooting
 role: Admin
 level: Experienced
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: 798dd056-c1a1-416a-94ad-be6287e769e7

@@ -1,7 +1,7 @@
 ---
 title: Local Development Access Token
 description: AEM Local Development Access Tokens are used to accelerate the development of integrations with AEM as a Cloud Service that programmatically interacts with AEM Author or Publish services over HTTP.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: APIs
 jira: KT-6785
 thumbnail: 330477.jpg

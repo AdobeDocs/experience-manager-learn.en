@@ -3,7 +3,7 @@ title: Triggering an export job in AEM Dynamic Media
 description: Steps to trigger export job during submit job operation in Dynamic Media.
 role: Developer
 level: Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 feature: Operations
 index: y

@@ -1,7 +1,7 @@
 ---
 title: Basic React app
 description: A basic React app that displays a list of WKND adventures and their details
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 mini-toc-levels: 1
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management

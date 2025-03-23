@@ -1,7 +1,7 @@
 ---
 title: Web optimized image delivery
 description: Learn how to enable web optimized image delivery on AEM as a Cloud Service sites using AEM Core Components.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Core Components, Configuring, Editable Templates
 topic: Performance, Administration
 role: Developer

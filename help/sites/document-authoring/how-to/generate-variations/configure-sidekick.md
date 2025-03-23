@@ -1,7 +1,7 @@
 ---
 title: Generate Variations - Configure Sidekick in Edge Delivery Services
 description: Explore how to configure sidekick for Generate Variations in Edge Delivery Services document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Admin, Developer, Leader, User

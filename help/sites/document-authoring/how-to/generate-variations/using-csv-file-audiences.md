@@ -1,7 +1,7 @@
 ---
 title: Generate Variations - Using CSV file audiences in Edge Delivery Services
 description: Explore how to use the CSV file audiences to target the right audience with the relevant content in Edge Delivery Services document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Admin, Developer, Leader, User

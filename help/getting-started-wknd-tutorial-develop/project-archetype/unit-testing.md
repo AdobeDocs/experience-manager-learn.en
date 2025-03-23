@@ -1,7 +1,7 @@
 ---
 title: Unit testing
 description: Implement a unit test that validates the behavior of the Byline component's Sling Model, created in the Custom Component tutorial.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: APIs, AEM Project Archetype
 topic: Content Management, Development
 role: Developer

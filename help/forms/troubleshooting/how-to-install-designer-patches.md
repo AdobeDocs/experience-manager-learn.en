@@ -4,7 +4,7 @@ description: This article will walk you through the steps to install AEM Forms D
 type: Troubleshooting
 role: Admin
 level: Beginner
-version: 6.5
+version: Experience Manager 6.5
 feature: Designer
 topic: Administration
 index: y

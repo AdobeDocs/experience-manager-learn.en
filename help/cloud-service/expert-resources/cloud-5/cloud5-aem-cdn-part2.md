@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 AEM CDN Part 2
 description: part two of using the AEM CDN and deep dive into various options.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 jira: KT-9904

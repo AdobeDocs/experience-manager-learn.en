@@ -2,7 +2,7 @@
 title: Using Editable Page Templates with AEM Sites
 description: Editable templates allow specialized authors to create and update page templates and manage advanced policy configurations with AEM Sites.
 feature: Editable Templates
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-193
 topic: Content Management
 role: User

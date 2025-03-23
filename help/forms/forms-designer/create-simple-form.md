@@ -1,7 +1,7 @@
 ---
 title: Create simple form using designer
 description: Short Video (under 2 minutes) that describes creating a simple form
-version: 6.5
+version: Experience Manager 6.5
 feature: Forms Designer,Designer
 topic: Development
 role: User

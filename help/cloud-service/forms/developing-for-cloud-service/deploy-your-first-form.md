@@ -4,7 +4,7 @@ description: Synchronize the AEM Forms assets  into the AEM project
 solution: Experience Manager
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 feature: Code Deployment
 jira: KT-8852

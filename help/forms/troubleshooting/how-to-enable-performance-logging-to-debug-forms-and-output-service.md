@@ -4,7 +4,7 @@ description: Steps to enable performance logging to debug issues related to Form
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Output Service,Forms Service
 topic: Administration
 index: y

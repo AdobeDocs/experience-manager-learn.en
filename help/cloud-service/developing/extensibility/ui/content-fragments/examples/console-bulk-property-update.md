@@ -2,7 +2,7 @@
 title: Bulk property update example AEM Content Fragment Console extension
 description: An example AEM Content Fragments Console extension that bulk updates a property of Content Fragments.
 feature: Developer Tools, Content Fragments
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

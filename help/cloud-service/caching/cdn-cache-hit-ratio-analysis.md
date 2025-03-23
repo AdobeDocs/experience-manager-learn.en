@@ -1,7 +1,7 @@
 ---
 title: CDN cache hit ratio analysis
 description: Learn how to analyze the AEM as a Cloud Service provided CDN logs. Gain insights such as cache hit ratio, and top URLs of MISS and PASS cache types for optimization purposes.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Operations, CDN Cache
 topic: Administration, Performance
 role: Admin, Architect, Developer

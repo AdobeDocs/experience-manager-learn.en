@@ -1,7 +1,7 @@
 ---
 title: Integrate AEM Sites with Adobe Analytics with Adobe Analytics tags extension
 description: Integrate AEM Sites with Adobe Analytics, using the event-driven Adobe Client Data layer to collect data about user activity on a web site built with Adobe Experience Manager. Learn how to use tag rules to listen for these events and send data to an Adobe Analytics report suite.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Integrations
 feature: Adobe Client Data Layer
 role: Developer

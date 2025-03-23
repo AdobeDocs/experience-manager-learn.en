@@ -3,7 +3,7 @@ title: Check-In Check-Out
 description: Adobe Asset Link lets you check out AEM Assets directly from the creative app you are working on, and can immediately begin making edits. You can easily check in assets back to AEM Assets with proper versioning and comments after you have finished editing them in your Creative Cloud app.
 sub-product: Experience Manager Assets
 feature: Adobe Asset Link
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4910
 thumbnail: 33886.jpg
 topic: Content Management

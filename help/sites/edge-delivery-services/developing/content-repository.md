@@ -1,7 +1,7 @@
 ---
 title: Set up a content repository for Edge Delivery Services
 description: Set up Sharepoint or Google Drive with Edge Delivery Services
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

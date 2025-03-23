@@ -1,7 +1,7 @@
 ---
 title: Migrating to the Cloud - Part 1
 description: Darin and James discuss migrating to the AEM Cloud and demo some techniques and best practices.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 jira: KT-10207

@@ -2,7 +2,7 @@
 title: Set up local AEM SDK for AEM as a Cloud Service Development
 description: Set up the local AEM SDK runtime using the AEM as a Cloud Service SDK's Quickstart Jar.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 kt: 4678, 4677
 thumbnail: 32551.jpg
 topic: Development

@@ -2,7 +2,7 @@
 title: Dispatcher understanding caching
 description: Understand how the Dispatcher module operates it's cache.
 topic: Administration, Performance
-version: 6.5
+version: Experience Manager 6.5
 role: Admin
 level: Beginner
 thumbnail: xx.jpg

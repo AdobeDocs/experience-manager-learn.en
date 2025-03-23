@@ -2,7 +2,7 @@
 title: Add custom button to Rich Text Editor (RTE) toolbar
 description: Learn how to add a custom button to Rich Text Editor (RTE) toolbar in the AEM Content Fragment Editor
 feature: Developer Tools, Content Fragments
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

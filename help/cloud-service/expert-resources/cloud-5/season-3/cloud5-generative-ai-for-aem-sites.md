@@ -1,7 +1,7 @@
 ---
 title: Generative AI in AEM Sites
 description: Explore the new Generative AI features available for AEM document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Generative AI, Edge Delivery Services
 topic: Content Management
 role: Admin, Developer, Leader, User

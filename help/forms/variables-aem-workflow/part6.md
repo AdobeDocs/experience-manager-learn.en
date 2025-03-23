@@ -1,7 +1,7 @@
 ---
 title: Logging Variables in AEM Workflow[Part6]
 description: Log the value of AEM workflow variables
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 feature: Adaptive Forms, Workflow
 role: Developer

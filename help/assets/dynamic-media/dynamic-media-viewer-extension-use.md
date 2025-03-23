@@ -3,7 +3,7 @@ title: Using Dynamic Media Viewers with Adobe Analytics and tags
 description: The Dynamic Media Viewers extension for tags, along with the release of Dynamic Media Viewers 5.13, lets customers of Dynamic Media, Adobe Analytics, and tags use events and data specific for the Dynamic Media Viewers in their tags configuration.
 sub-product: Dynamic Media
 feature: Asset Insights
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Content Management
 role: User
 level: Beginner

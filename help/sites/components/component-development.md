@@ -1,7 +1,7 @@
 ---
 title: Component Development in Adobe Experience Manager Sites
 description: An overview of developing components with Adobe Experience Manager Sites. Includes an introduction to Dialogs, Sling Models, HTL Scripts and Client-Side Libraries.
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 topic: Development
 feature: Sling Model, HTL or HTML Template Language
 role: Developer

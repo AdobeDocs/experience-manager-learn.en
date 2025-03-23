@@ -4,7 +4,7 @@ description: Steps to tweak the Workbench performance parameters
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Workbench
 topic: Administration
 index: y

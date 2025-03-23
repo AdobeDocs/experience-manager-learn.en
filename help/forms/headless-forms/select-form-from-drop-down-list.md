@@ -2,7 +2,7 @@
 title: Select a form from a list of available forms
 description: Use the listforms API to populate drop down list
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 jira: KT-13346
 topic: Development
 role: User

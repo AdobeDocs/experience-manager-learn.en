@@ -1,7 +1,7 @@
 ---
 title: AEM Headless first tutorial
 description: Learn how to be an AEM Headless first application.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Development
 role: Developer

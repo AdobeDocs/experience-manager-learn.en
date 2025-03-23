@@ -1,7 +1,7 @@
 ---
 title: Dispatcher filters for AEM GraphQL
 description: Learn how to configure AEM Publish Dispatcher filters for use with AEM GraphQL.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
 role: Developer, Architect

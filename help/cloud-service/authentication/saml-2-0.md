@@ -1,7 +1,7 @@
 ---
 title: SAML 2.0 on AEM as a Cloud Service
 description: Learn how to configure SAML 2.0 authentication on AEM as a Cloud Service Publish service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Architect, Developer

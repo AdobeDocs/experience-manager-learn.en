@@ -3,7 +3,7 @@ title: Translation Job Status
 description: Understand the different statuses associated with a Translation Job or an item in the job.
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5846
 thumbnail: 36685.jpg
 topic: Localization

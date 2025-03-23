@@ -1,7 +1,7 @@
 ---
 title: Create your first script in AEM Forms Designer
 description: Short Video which describes creating and testing scripts in AEM Forms Designer
-version: 6.5
+version: Experience Manager 6.5
 feature: Forms Designer,Designer
 topic: Development
 role: User

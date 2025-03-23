@@ -1,7 +1,7 @@
 ---
 title: Quick access
 description: Learn how Quick Access can boost your productivity and streamline your workflow by serving as your personal lens into AEM Assets, keeping all the assets you need for your assigned tasks at your fingertips.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: User

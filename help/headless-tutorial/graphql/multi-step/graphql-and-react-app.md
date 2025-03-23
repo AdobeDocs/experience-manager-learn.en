@@ -1,7 +1,7 @@
 ---
 title: Build a React app which Queries AEM using GraphQL API - Getting Started with AEM Headless - GraphQL
 description: Get started with Adobe Experience Manager (AEM) and GraphQL. Build React app that fetches content/data from AEM GraphQL API, also see how AEM Headless JS SDK is used.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 mini-toc-levels: 1
 jira: KT-6716
 thumbnail: KT-6716.jpg

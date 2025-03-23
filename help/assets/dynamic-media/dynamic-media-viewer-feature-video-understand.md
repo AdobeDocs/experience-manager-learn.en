@@ -3,7 +3,7 @@ title: Understanding the Asset Viewer with AEM Dynamic Media
 description: AEM Dynamic Media Viewer enhancements allow AEM authors to define and customize how assets are presented to website user.
 sub-product: Experience Manager Assets
 feature: Viewer Presets, Image Profiles
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Content Management
 role: Developer
 level: Intermediate

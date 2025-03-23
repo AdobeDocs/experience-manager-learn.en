@@ -3,7 +3,7 @@ title: Timeline and Inbox
 description: Familiarize yourself with the key web consoles in AEM Assets that are used for collaboration.
 sub-product: Experience Manager Assets
 feature: Workflow
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4540
 thumbnail: 32051.jpg
 topic: Collaboration

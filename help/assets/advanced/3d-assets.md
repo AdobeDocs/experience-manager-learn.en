@@ -1,7 +1,7 @@
 ---
 title: 3D Assets
 description: Learn about 3D asset support in AEM Assets as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: 3D Assets
 topic: Content Management
 role: User

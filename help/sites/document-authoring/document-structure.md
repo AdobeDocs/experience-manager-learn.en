@@ -1,7 +1,7 @@
 ---
 title: Document structure for document authoring
 description: Explore how an document authoring is put together.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User

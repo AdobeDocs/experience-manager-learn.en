@@ -1,7 +1,7 @@
 ---
 title: Using Page Difference with AEM Sites
 description: AEM Sites' page difference capabilities show provides a quick, color-coded view of what content has changed in a page (version, live copy, launches, language copy).
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-4633
 thumbnail: 32152.jpg
 topic: Content Management

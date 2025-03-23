@@ -2,7 +2,7 @@
 title: Create a Target Activity using Experience Fragment Offers
 description: Learn how to create and test an Adobe Target Activity using AEM Experience Fragment offers.
 feature: Experience Fragments
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-6351
 thumbnail: 41246.jpg
 topic: Integrations

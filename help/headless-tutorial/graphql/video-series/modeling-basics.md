@@ -1,7 +1,7 @@
 ---
 title: GraphQL Modeling Basics
 description: Learn how to define and use Content Fragments in Adobe Experience Manager (AEM) for use with GraphQL.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Headless, Content Management
 feature: Content Fragments, GraphQL API
 role: Developer

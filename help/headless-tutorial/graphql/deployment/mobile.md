@@ -1,7 +1,7 @@
 ---
 title: AEM Headless mobile deployments
 description: Learn about deployment considerations for mobile AEM Headless deployments.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
 role: Developer, Architect

@@ -1,7 +1,7 @@
 ---
 title: AMS Dispatcher Basic File Layout
 description: Understand the basic Apache and Dispatcher file layout.
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration, Development
 feature: Dispatcher
 role: Admin

@@ -2,7 +2,7 @@
 title: Search
 description: Learn how to use AEM's Omnisearch to quickly discover assets.
 feature: Search
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4312
 thumbnail: 32054.jpg
 topic: Content Management

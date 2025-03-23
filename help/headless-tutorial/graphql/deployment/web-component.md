@@ -1,7 +1,7 @@
 ---
 title: AEM Headless Web Component deployments
 description: Learn about deployment considerations for Web Component/pure JS-based AEM Headless deployments.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
 role: Developer, Architect

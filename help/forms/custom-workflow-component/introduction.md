@@ -2,7 +2,7 @@
 title: Create custom workflow component with dialog
 description: This tutorial will walk you through the steps involved in creating custom workflow component.
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

@@ -1,7 +1,7 @@
 ---
 title: Setting up experimentation framework in Edge Delivery Services
 description: Explore how to set up the experimentation framework in Edge Delivery Services document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Admin, Developer, Leader, User

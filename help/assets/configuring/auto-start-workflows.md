@@ -2,7 +2,7 @@
 title: Auto-start Workflows
 description: Auto-start workflows extend asset processing by automatically invoking custom workflow upon upload or re-processing.
 feature: Asset Compute Microservices, Workflow
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4994
 thumbnail: 37323.jpg
 topic: Development

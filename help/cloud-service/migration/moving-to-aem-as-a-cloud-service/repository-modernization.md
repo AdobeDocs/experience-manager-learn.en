@@ -1,7 +1,7 @@
 ---
 title: Repository modernization
 description: Learn about repository modernization, mutable and immutable content, package structure and the repository modernizer CLI tool.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developer Tools
 topic: Migration, Upgrade
 role: Developer

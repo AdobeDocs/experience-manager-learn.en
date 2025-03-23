@@ -1,7 +1,7 @@
 ---
 title: Asset Share Commons Asset Kit
 description: Learn how to use Asset Share Common's asset kit to generate bespoke, shareable web pages that list assets from AEM Assets folders or collections.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 feature: Asset Distribution
 role: Admin, Architect, Developer, User

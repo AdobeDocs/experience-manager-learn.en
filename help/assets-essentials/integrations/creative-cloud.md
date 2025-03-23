@@ -1,7 +1,7 @@
 ---
 title: Creative Cloud and AEM Assets
 description: Learn how AEM Assets integrates with the Adobe Creative Cloud Libraries.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: User

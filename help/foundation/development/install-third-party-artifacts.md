@@ -1,7 +1,7 @@
 ---
 title: Install third party artifacts - not available in the public Maven repository
 description: Learn how to install third-party artifacts that are *not available in the public Maven repository* when building and deploying an AEM project.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: OSGI
 topic: Development
 role: Architect, Developer

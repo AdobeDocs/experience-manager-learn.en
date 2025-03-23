@@ -1,7 +1,7 @@
 ---
 title: Protecting websites with traffic filter rules (including WAF rules)
 description: Learn about Traffic Filter rules, including its subcategory of Web Application Firewall (WAF) rules. How to create, deploy, and test the rules. Also, analyze the results to protect your AEM sites.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Security, Administration, Architecture
 role: Admin, Architect

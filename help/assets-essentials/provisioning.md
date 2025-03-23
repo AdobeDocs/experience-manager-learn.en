@@ -1,7 +1,7 @@
 ---
 title: Provisioning Assets Essentials
 description: Learn how to deploy Assets Essentials using Cloud Manager, and provision user access.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: User

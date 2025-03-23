@@ -1,7 +1,7 @@
 ---
 title: Author Authentication
 description: Learn how to configure author authentication to use Sidekick in Edge Delivery.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Developer, User

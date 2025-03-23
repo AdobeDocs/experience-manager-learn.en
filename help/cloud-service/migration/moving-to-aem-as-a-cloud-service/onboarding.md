@@ -1,7 +1,7 @@
 ---
 title: Onboarding to AEM as a Cloud Service
 description: Learn about onboarding to AEM as a Cloud Service, starting from the contract phase all the way to setting up environments using Cloud Manager.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Onboarding
 topic: Migration, Upgrade
 role: Developer

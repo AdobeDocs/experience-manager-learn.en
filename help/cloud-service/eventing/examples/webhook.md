@@ -1,7 +1,7 @@
 ---
 title: Webhooks and AEM Events
 description: Learn how to receive AEM Events on a webhook and review the event details such as payload, headers, and metadata.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing, App Builder
 topic: Development, Architecture, Content Management
 role: Architect, Developer

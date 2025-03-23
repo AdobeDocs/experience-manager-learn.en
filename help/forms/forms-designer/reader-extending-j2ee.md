@@ -1,7 +1,7 @@
 ---
 title: Reader extending PDF forms in AEM Forms J2EE
 description: Short Video which describes to to use AEM Forms Reader Extensions so that end users can fill and save PDF forms from Adobe/Acrobat Reader
-version: 6.5
+version: Experience Manager 6.5
 feature: Reader Extensions
 topic: Development
 role: User

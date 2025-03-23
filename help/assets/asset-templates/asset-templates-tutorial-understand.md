@@ -1,7 +1,7 @@
 ---
 title: Understanding InDesign files and Asset Templates in AEM Assets
 description: This video tutorial walks through defining an InDesign file, and all the accompanying considerations, for use in AEM Assets' Asset Templates feature.
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Content Management
 feature: Templates
 role: User

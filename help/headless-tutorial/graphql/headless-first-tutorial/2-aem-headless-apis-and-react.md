@@ -1,7 +1,7 @@
 ---
 title: AEM Headless APIs and React - AEM Headless first tutorial
 description: Learn how to cover retrieving Content Fragment data from AEM's GraphQL APIs and displaying it in the React app.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Development
 role: Developer

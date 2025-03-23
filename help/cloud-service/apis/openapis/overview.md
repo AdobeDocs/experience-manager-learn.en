@@ -1,7 +1,7 @@
 ---
 title: OpenAPI-based AEM APIs
 description: Learn about the OpenAPI-based AEM APIs, including authentication support, key concepts, and how to access Adobe APIs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
 role: Architect, Developer, Leader

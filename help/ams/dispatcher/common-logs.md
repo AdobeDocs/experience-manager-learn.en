@@ -1,7 +1,7 @@
 ---
 title: AEM Dispatcher Common Logs
 description: Take a look at common log entries from the Dispatcher and learning what they mean and how to address them.
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration, Performance
 feature: Dispatcher
 role: Admin

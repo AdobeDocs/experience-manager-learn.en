@@ -1,7 +1,7 @@
 ---
 title: Assets reports
 description: Learn how to use assets reports in AEM Assets to gain insights into your DAM activity.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: Admin, Leader, User

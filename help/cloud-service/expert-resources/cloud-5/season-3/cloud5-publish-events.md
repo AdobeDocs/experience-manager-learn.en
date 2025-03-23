@@ -3,7 +3,7 @@ title: Cloud 5 - Publish, unpublish events in Edge Delivery Services
 description: Explore events that are triggered upon publish and unpublish in Edge Delivery Services as well as use cases and examples for using these events.
 feature: Edge Delivery Services
 topic: Development
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer, Leader, User
 level: Beginner, Intermediate
 doc-type: Technical Video

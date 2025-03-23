@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Admin Console
 description: The Adobe Admin Console and how it fits into AEM
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 thumbnail: 342866.jpeg

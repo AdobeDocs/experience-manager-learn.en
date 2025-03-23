@@ -1,7 +1,7 @@
 ---
 title: Client Application Integration - Advanced Concepts of AEM Headless - GraphQL
 description: Implement persisted queries and integrate it into the WKND app.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer

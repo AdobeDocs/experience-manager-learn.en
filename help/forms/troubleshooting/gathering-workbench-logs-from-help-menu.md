@@ -4,7 +4,7 @@ description: Steps to gather the Workbench logs from the Help Menu
 type: Troubleshooting
 role: Developer
 level: Beginner
-version: 6.5
+version: Experience Manager 6.5
 feature: Workbench
 topic: Development
 index: y

@@ -4,7 +4,7 @@ description: Steps to tweak Workbench memory parameters
 type: Troubleshooting
 role: Admin
 level: Beginner
-version: 6.5
+version: Experience Manager 6.5
 feature: Workbench
 topic: Administration
 index: y

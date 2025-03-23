@@ -1,7 +1,7 @@
 ---
 title: Integrate AEM Sites and Experience Platform Web SDK
 description: Learn how to integrate AEM Sites as a Cloud Service with Experience Platform Web SDK. This foundational step is essential for integrating Adobe Experience Cloud products, such as Adobe Analytics, Target, or recent innovative products like Real-Time Customer Data Platform, Customer Journey Analytics, and Journey Optimizer.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Integrations
 topic: Integrations, Architecture
 role: Admin, Architect, Data Architect, Developer

@@ -1,7 +1,7 @@
 ---
 title: Adding Symlinks into GIT properly
 description: Instructions on how and where to add symlinks when working on your Dispatcher configurations.
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 feature: Dispatcher
 role: Admin

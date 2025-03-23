@@ -1,7 +1,7 @@
 ---
 title: Navigating Cloud Acceleration Manager
 description: Explore the navigation experience of Cloud Acceleration Manager for Experience Manager as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer

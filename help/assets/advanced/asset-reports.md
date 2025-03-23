@@ -5,7 +5,7 @@ feature: Asset Reports
 topic: Administration
 role: User
 level: Intermediate
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-648
 thumbnail: 22140.jpg
 last-substantial-update: 2022-06-05

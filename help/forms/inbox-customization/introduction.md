@@ -3,7 +3,7 @@ title: AEM Inbox
 description: Customize inbox by adding new columns  based on workflow data
 feature: Adaptive Forms
 doc-type: article
-version: 6.5
+version: Experience Manager 6.5
 jira: KT-5830
 topic: Development
 role: Developer

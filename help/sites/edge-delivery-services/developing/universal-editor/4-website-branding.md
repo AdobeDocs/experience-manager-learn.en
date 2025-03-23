@@ -1,7 +1,7 @@
 ---
 title: Add website branding
 description: Define global CSS, CSS variables and web fonts for an Edge Delivery Services site.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

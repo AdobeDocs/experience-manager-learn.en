@@ -5,7 +5,7 @@ breadcrumb-title: AEM Headless Tutorial
 feature-set: Experience Manager, Experience Manager Assets, Experience Manager Sites
 solution: Experience Manager, Experience Manager Sites
 sub-product: Experience Manager Sites
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-2963
 index: y
 ---

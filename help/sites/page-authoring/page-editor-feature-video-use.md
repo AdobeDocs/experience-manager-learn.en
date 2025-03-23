@@ -2,7 +2,7 @@
 title: Using the Page Editor with AEM Sites
 description: The following video highlights several of the top features of the Touch-UI Sites editor in Adobe Experience Manager.
 feature: Page Editor
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4248
 thumbnail: 32011.jpg
 topic: Content Management

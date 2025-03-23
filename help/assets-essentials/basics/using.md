@@ -1,7 +1,7 @@
 ---
 title: Using Assets Essentials
 description: Learn how to discover how to download assets in Assets Essentials.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: User

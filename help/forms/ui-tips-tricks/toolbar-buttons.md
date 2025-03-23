@@ -3,7 +3,7 @@ title: Space the next and previous buttons of the toolbar
 description: Space the toolbar buttons
 feature: Adaptive Forms
 type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

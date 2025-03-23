@@ -1,7 +1,7 @@
 ---
 title: Service credentials
 description: Learn how to use Service Credentials that are used to facilitate external applications, systems, and services to programmatically interact with Author or Publish services over HTTP.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: APIs
 jira: KT-6785
 thumbnail: 330519.jpg

@@ -2,7 +2,7 @@
 title: Deploy the assets locally
 description: Deploy the tutorial assets on your local AEM instance
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

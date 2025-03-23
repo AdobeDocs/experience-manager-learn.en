@@ -1,7 +1,7 @@
 ---
 title: Indexing best practices in AEM
 description: Learn about indexing best practices in AEM.
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 sub-product: Experience Manager, Experience Manager Sites
 feature: Search
 doc-type: Article

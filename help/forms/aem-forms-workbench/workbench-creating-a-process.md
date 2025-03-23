@@ -1,7 +1,7 @@
 ---
 title: Creating simple forms process in Workbench
 description: Creating simple forms process in Workbench
-version: 6.5
+version: Experience Manager 6.5
 feature: Workbench
 topic: Development
 role: User

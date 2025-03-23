@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 Adobe App Builder
 description: This episode digs into the external integration pattern which uses Adobe App Builder
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 jira: KT-10279

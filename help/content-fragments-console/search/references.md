@@ -1,7 +1,7 @@
 ---
 title: References - Content Fragments
 description: Learn how AEM's Content Fragment Console and Editor make it easy to manage referenced content.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Content Management
 role: Data Architect, User

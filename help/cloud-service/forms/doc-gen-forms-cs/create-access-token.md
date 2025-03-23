@@ -4,7 +4,7 @@ description: Exchange the JSON Web Token (JWT) with Adobe IMS APIs for an AEM ac
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Output Service
 topic: Development
 jira: KT-8185

@@ -2,7 +2,7 @@
 title: Publishing Pages with AEM Sites
 description: Adobe Experience Manager Sites provides a several options for publishing and un-publishing content. This video explores the various methods and their capabilities.
 feature-set: Experience Manager
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4322
 thumbnail: 32193.jpg
 feature: Publishing

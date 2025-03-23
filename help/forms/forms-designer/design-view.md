@@ -1,7 +1,7 @@
 ---
 title: AEM Forms design view
 description: Short video on design view
-version: 6.5
+version: Experience Manager 6.5
 feature: Forms Designer,Designer
 topic: Development
 role: User

@@ -1,7 +1,7 @@
 ---
 title: Block options
 description: Learn how to build a block with multiple display options.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

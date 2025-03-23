@@ -4,7 +4,7 @@ description: Consume the document generation microservices from an external appl
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Output Service
 topic: Development
 jira: KT-7432

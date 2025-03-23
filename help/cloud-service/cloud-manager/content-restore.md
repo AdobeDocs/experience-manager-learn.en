@@ -1,7 +1,7 @@
 ---
 title: Content restore in AEM as a Cloud Service
 description: Learn how to restore content in AEM as a Cloud Service with this video. Understand when and how to recover prior content efficiently, ensuring content integrity.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Architecture
 feature: Cloud Manager
 role: Admin

@@ -1,7 +1,7 @@
 ---
 title: Content Fragment editor
 description: A brief introduction to AEM's Content Fragment editor.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Content Management
 role: User

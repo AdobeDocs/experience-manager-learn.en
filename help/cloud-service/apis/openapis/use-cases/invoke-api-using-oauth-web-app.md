@@ -1,7 +1,7 @@
 ---
 title: Invoke OpenAPI-based AEM APIs using OAuth Web App authentication
 description: Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service using user-based authentication from a custom web app that uses OAuth Web App.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
 role: Architect, Developer, Leader

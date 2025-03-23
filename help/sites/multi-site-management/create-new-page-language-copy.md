@@ -3,7 +3,7 @@ title: Create a Language Copy page
 description: Learn how to create a page in an existing Language Copy, and then translate the content to another Language Copy.
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5848
 thumbnail: 36682.jpg
 topic: Localization

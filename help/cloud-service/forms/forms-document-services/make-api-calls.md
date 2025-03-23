@@ -4,7 +4,7 @@ description: Sample code to Apply Usage Rights to the supplied PDF
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Document Services
 topic: Development
 jira: KT-17479

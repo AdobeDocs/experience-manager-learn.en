@@ -3,7 +3,7 @@ title: Style the left navigation tabs with icons
 description: Add icons to indicate active and completed tabs
 feature: Adaptive Forms
 type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

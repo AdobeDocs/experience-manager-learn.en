@@ -2,7 +2,7 @@
 title: Combining selected newsletters into one file
 description: Combine selected newsletters using assembler service
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: User
 level: Beginner

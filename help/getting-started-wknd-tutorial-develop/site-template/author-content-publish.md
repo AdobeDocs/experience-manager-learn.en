@@ -1,7 +1,7 @@
 ---
 title: Introduction to authoring and publishing | AEM Quick Site Creation
 description: Use the Page editor in Adobe Experience Manager, AEM, to update content of the website. Learn how Components are used to facilitate authoring. Understand the difference between an AEM Author and Publish environments and learn how to publish changes to the live site.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 feature: Core Components, Page Editor
 role: Developer

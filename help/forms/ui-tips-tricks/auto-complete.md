@@ -3,7 +3,7 @@ title: Auto complete capability in AEM Forms
 description: Enables users to quickly find and select from a pre-populated list of values as they type, leveraging searching and filtering.
 feature: Adaptive Forms
 type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

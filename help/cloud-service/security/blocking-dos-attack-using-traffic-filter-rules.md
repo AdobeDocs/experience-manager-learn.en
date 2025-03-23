@@ -1,7 +1,7 @@
 ---
 title: Blocking DoS and DDoS attacks using traffic filter rules
 description: Learn how to block DoS and DDoS attacks using traffic filter rules at the AEM as a Cloud Service provided CDN.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security, Operations
 topic: Security, Administration, Performance
 role: Admin, Architect

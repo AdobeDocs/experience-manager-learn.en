@@ -1,7 +1,7 @@
 ---
 title: CORS APIs
 description: Understand which AEM related APIs are protected by CORs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Developer

@@ -2,7 +2,7 @@
 title: Content Fragment Console  - Custom fields
 description: Learn how to create a custom field in the AEM Content Fragment Editor.
 feature: Developer Tools, Content Fragments
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Developer
 level: Intermediate
 doc-type: Tutorial

@@ -1,7 +1,7 @@
 ---
 title: Assets Essentials public link sharing
 description: Learn how Assets Essentials' Share Link allows users to share assets with internal and external stakeholders while minimizing the risk of sharing wrong assets … (Descriptions should be between 60 and 160 characters)
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: User

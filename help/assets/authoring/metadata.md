@@ -4,7 +4,7 @@ description: Learn how to access and interact with metadata in AEM Assets.
 feature: Metadata
 role: User
 level: Beginner
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4303
 thumbnail: 32045.jpg
 topic: Content Management

@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 AEM Search and Indexing
 description: We dip our toes into the ocean that is search and indexing
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 jira: KT-10275

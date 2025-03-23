@@ -1,7 +1,7 @@
 ---
 title: API Credentials and Product Profile management
 description: Learn how to manage Credentials and Product Profiles for AEM APIs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
 role: Architect, Developer, Leader

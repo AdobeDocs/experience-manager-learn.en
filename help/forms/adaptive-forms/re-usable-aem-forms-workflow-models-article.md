@@ -2,7 +2,7 @@
 title: Re-usable AEM Forms Workflow Models
 description: Learn how to create workflow models independent of Adaptive Forms.
 feature: Workflow
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

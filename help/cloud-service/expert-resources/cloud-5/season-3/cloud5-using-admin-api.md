@@ -1,7 +1,7 @@
 ---
 title: Using the Admin API with Edge Delivery Services
 description: Learn about using the Admin API in Edge Delivery Services to manage the lifecycle of content and code.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Admin, Developer, Leader, User

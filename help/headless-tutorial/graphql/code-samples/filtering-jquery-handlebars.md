@@ -1,7 +1,7 @@
 ---
 title: Filtering with jQuery and Handlebars
 description: A JavaScript implementation using jQuery and Handlebars that filters WKND Adventures to display. .
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 mini-toc-levels: 1
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management

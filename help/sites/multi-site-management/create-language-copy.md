@@ -3,7 +3,7 @@ title: Create a Language Copy
 description: Explore how to create a Language Copy for your AEM site using the Create Language Copy wizard.
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5371
 thumbnail: 36483.jpg
 topic: Localization

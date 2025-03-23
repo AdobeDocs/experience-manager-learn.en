@@ -2,7 +2,7 @@
 title: Introduction to Dispatcher
 description: An introduction to the capabilities and features of the dispatcher as part of the AEM architecture.
 doc-type: technical video
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4644
 thumbnail: 32029.jpg
 topic: Architecture, Performance

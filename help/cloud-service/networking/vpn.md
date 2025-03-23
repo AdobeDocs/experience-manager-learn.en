@@ -1,7 +1,7 @@
 ---
 title: Virtual Private Network (VPN)
 description: Learn how to connect AEM as a Cloud Service with your VPN to create secure communication channels between AEM and internal services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Architect, Developer

@@ -2,7 +2,7 @@
 title: Overview of Authoring in AEM Sites
 description: The following video provides an overview of basic concepts of authoring in an AEM author environment. It uses the Sites console as a basis.
 feature: Page Editor, Editable Templates
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4242
 thumbnail: 33594.jpg
 topic: Content Management

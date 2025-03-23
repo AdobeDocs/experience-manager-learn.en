@@ -2,7 +2,7 @@
 title: AEM UI extensibility
 description: Learn about AEM UI extensibility using App Builder to create extensions.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

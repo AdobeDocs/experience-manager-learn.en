@@ -1,7 +1,7 @@
 ---
 title: Integrate AEM Sites and Adobe Analytics with Platform Web SDK
 description: Integrate AEM Sites and Adobe Analytics using the modern Platform Web SDK approach.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Integrations
 topic: Integrations, Architecture
 role: Admin, Architect, Data Architect, Developer

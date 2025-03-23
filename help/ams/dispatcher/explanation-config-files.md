@@ -1,7 +1,7 @@
 ---
 title: Explanation of Dispatcher configuration files
 description: Understand configuration files, naming conventions and more.
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 feature: Dispatcher
 role: Admin

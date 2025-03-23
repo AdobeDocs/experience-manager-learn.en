@@ -1,7 +1,7 @@
 ---
 title: Maintaining Version History with Adobe Workfront and Assets Essentials
 description: Learn how Adobe Workfront and Experience Manager Assets Essentials helps you maintain versions of Workfront documents and Assets Essentials assets.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management, Integrations
 role: User

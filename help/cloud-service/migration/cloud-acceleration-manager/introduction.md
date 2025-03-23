@@ -1,7 +1,7 @@
 ---
 title: Introduction to Cloud Acceleration Manager
 description: Learn how Cloud Acceleration Manager can help you quickly and easily move to Experience Manager as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer

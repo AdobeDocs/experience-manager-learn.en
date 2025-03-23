@@ -4,7 +4,7 @@ description: Steps to debug Fonts related issue with Forms and Output service
 type: Troubleshooting
 role: Developer
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Forms Service, Output Service
 topic: Development
 index: y

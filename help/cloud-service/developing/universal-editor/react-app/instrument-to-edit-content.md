@@ -1,7 +1,7 @@
 ---
 title: Instrument React app to edit content using Universal Editor
 description: Learn how to instrument React app to edit the content using Universal Editor.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developer Tools, Headless
 topic: Development, Content Management
 role: Architect, Developer

@@ -2,7 +2,7 @@
 title: Comments and Annotations
 description: Learn how to use comments and annotations in AEM to communicate and collaborate on assets.
 feature: Collaboration
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4541
 thumbnail: 32049.jpg
 topic: Collaboration

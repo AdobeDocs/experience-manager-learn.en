@@ -3,7 +3,7 @@ title: Installing AEM Forms on Linux
 description: Learn how to install 32-bit libraries for AEM Forms to work on Linux installation.
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

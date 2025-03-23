@@ -1,7 +1,7 @@
 ---
 title: Generate Variations - Trust and Privacy in Edge Delivery Services
 description: Explore how Adobe handles trust and privacy for Generate Variations in Edge Delivery Services document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Admin, Developer, Leader, User

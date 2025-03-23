@@ -1,7 +1,7 @@
 ---
 title: Metadata Forms
 description: Learn how AEM Assets Metadata Forms can be quickly and easily configured to tailor asset metadata.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 role: Admin
 level: Beginner

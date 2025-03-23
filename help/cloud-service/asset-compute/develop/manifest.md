@@ -2,7 +2,7 @@
 title: Configure the manifest.yml of an Asset Compute project
 description: The Asset Compute project's manifest.yml, describes all the workers in this project to be deployed.
 feature: Asset Compute Microservices
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: Tutorial
 jira: KT-6281
 thumbnail: KT-6281.jpg

@@ -1,7 +1,7 @@
 ---
 title: Content Fragment Variations
 description: Learn how to create variations of Content Fragments and explore some common use cases.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Headless, Content Management
 feature: Content Fragments, GraphQL API
 role: Developer

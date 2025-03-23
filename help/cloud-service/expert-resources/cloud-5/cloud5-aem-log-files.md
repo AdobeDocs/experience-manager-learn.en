@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 AEM Log Files
 description: This is a deep dive into how to access logs in AEM as a Cloud Service, including how to access them via the user interface as well as from APIs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 jira: KT-9927

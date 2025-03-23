@@ -2,7 +2,7 @@
 title: Custom functions in AEM Forms
 description: Create and use custom functions in Adaptive Form
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: User
 level: Beginner

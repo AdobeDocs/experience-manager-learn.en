@@ -1,7 +1,7 @@
 ---
 title: New editor toggle - Content Fragment Editor
 description: Learn New Editor toggle that allows you to switch between the default New Content Fragment editor and the classic editor effortlessly.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Content Management
 role: User

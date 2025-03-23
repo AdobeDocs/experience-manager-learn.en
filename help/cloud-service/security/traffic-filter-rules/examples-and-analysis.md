@@ -1,7 +1,7 @@
 ---
 title: Examples and result analysis of Traffic Filter rules including WAF rules
 description: Learn various Traffic Filter rules including WAF rules examples. Also, how to analyze the results using AEM as a Cloud Service (AEMCS) CDN logs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Security, Administration, Architecture
 role: Admin, Architect

@@ -4,7 +4,7 @@ user-guide-description: A collection of videos for Adobe Experience Manager Asse
 breadcrumb-title: AEM Assets Essentials Videos
 solution: Experience Manager, Experience Manager Assets
 sub-product: Experience Manager Assets
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature-set: Experience Manager Assets
 feature: Assets Essentials 
 team: TM

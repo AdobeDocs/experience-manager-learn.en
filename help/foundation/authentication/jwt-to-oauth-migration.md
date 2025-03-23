@@ -1,7 +1,7 @@
 ---
 title: JWT-To-OAuth credential migration for AEM
 description: Learn how to migrate other Adobe solutions to the new OAuth Server-to-Server credentials.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Integrations, Migration, Security
 topic: Integrations, Migration, Security
 role: Admin, Developer

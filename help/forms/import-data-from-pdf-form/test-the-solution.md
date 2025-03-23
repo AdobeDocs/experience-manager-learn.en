@@ -2,7 +2,7 @@
 title: Import data from a PDF file into Adaptive Form
 description: Tutorial to populate an adaptive form by importing a PDF file
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

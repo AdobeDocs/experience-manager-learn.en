@@ -2,7 +2,7 @@
 title: AEM Content Fragments extensions
 description: Learn how to build and deploy AEM as a Cloud Service Content Fragment extensions
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

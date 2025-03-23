@@ -1,7 +1,7 @@
 ---
 title: AEM Forms Workbench introduction
 description: Short Video introducing the UI of Workbench
-version: 6.5
+version: Experience Manager 6.5
 feature: Workbench
 topic: Development
 role: User

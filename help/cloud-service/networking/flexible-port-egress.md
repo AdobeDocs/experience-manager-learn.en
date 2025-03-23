@@ -1,7 +1,7 @@
 ---
 title: Flexible port egress
 description: Learn how to set up and use flexible port egress to support external connections from AEM as a Cloud Service to external services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Architect, Developer

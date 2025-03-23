@@ -3,7 +3,7 @@ title: Override Form Data Model properties using OSGi configuration
 description: AEM Forms 6.5.13 introduced the ability to override form data model properties to make it easier to test one form data model against different endpoints.
 feature: Adaptive Forms
 type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

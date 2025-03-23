@@ -2,7 +2,7 @@
 title: Export Content Fragment to XML
 description: Learn how a Content Fragment can be exported from the AEM Content Fragment Editor
 feature: Developer Tools, Content Fragments
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

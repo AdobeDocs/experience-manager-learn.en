@@ -1,7 +1,7 @@
 ---
 title: Overview of experimentation framework in Edge Delivery Services
 description: Explore the experimentation framework that allows marketers to test which content variations are most effective in Edge Delivery Services document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Admin, Developer, Leader, User

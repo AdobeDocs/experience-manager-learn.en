@@ -2,7 +2,7 @@
 title: Create workflow component to save form attachments to file system
 description: Writing Adaptive Form attachments to file system using custom workflow component
 feature: Workflow
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

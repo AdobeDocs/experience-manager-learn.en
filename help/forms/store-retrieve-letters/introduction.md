@@ -3,7 +3,7 @@ title: Save and resume letters
 description: Learn how to save and retrieve draft letters
 feature: Interactive Communication
 doc-type: article
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

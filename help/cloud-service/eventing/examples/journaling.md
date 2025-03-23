@@ -1,7 +1,7 @@
 ---
 title: Journaling and AEM Events
 description: Learn how to retrieve the initial set of AEM Events from the journal and explore the details about each event.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing, App Builder
 topic: Development, Architecture, Content Management
 role: Architect, Developer

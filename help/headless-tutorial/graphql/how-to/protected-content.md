@@ -1,7 +1,7 @@
 ---
 title: Protected content in AEM Headless
 description: Learn how to protect content in AEM Headless.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Headless
 feature: GraphQL API
 role: Developer, Architect

@@ -4,7 +4,7 @@ description: Configure debug logs for debugging issues related to Mobile forms
 type: Troubleshooting
 role: Admin
 level: Beginner
-version: 6.5
+version: Experience Manager 6.5
 feature: Mobile Forms
 topic: Administration
 index: y

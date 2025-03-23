@@ -1,7 +1,7 @@
 ---
 title: Product Profile and Services user group permission management
 description: Learn how to manage permissions for the Product Profile and Services user groups in AEM as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
 role: Architect, Developer, Leader

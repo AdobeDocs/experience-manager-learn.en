@@ -2,7 +2,7 @@
 title: Store form submission in Azure Storage
 description: Store form data in Azure Storage using REST API
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

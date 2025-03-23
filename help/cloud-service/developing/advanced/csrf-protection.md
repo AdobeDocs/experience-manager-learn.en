@@ -1,7 +1,7 @@
 ---
 title: CSRF protection
 description: Learn how to generate and add AEM CSRF tokens to allowed POST, PUT, and Delete requests to AEM for authenticated users.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Developer

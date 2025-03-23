@@ -4,7 +4,7 @@ description: Steps to bootstrap database manually if the database initialize is 
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: a6f62d9e-0263-4843-8521-93e8c3c5be5b

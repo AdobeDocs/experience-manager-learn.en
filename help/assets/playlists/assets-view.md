@@ -1,7 +1,7 @@
 ---
 title: Video playlists for AEM Assets Assets view
 description: Discover how to navigate AEM Assets as a Cloud Service in the Assets view with this curated selection of video playlists aimed at enhancing your product knowledge.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 role: User
 level: Beginner

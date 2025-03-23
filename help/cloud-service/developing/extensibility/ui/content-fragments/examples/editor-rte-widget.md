@@ -2,7 +2,7 @@
 title: Add widgets to Rich Text Editor (RTE)
 description: Learn how to add widgets to Rich Text Editor (RTE) in the AEM Content Fragment Editor
 feature: Developer Tools, Content Fragments
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

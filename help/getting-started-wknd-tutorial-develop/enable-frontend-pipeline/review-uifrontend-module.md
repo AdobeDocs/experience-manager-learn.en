@@ -1,7 +1,7 @@
 ---
 title: Review full-stack project's ui.frontend module
 description: Review the front-end development, deployment, and delivery life cycle of a maven-based full-stack AEM Sites Project.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: AEM Project Archetype, Cloud Manager, CI-CD Pipeline
 topic: Content Management, Development, Development, Architecture
 role: Developer, Architect, Admin

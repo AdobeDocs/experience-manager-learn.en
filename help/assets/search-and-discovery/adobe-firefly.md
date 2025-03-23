@@ -1,7 +1,7 @@
 ---
 title: Search and Adobe Firefly
 description: Learn how AEM Assets, integrated with Adobe Firefly, transforms empty search results into a productive asset-generation experience.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 feature: Search, Generative AI
 role: User

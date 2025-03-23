@@ -1,7 +1,7 @@
 ---
 title: Creating Page Versions for AEM Site pages
 description: The following video highlights how to create a page version, preview, restore a page version, and compare the current page version with a saved page versions.
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4630
 thumbnail: 32151.jpg
 topic: Content Management

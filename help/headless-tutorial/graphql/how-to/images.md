@@ -1,7 +1,7 @@
 ---
 title: Using optimized images with AEM Headless
 description: Learn how to request optimized image URLs with AEM Headless.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Headless
 feature: GraphQL API
 role: Developer

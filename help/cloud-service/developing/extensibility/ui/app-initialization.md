@@ -1,7 +1,7 @@
 ---
 title: Initialize an App Builder app for AEM UI
 description: Learn how to initialize an AEM UI extension App Builder app that defines where the extension appears, and the work it performs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developer Tools
 topic: Development
 role: Developer

@@ -3,7 +3,7 @@ title: Embedding Adaptive Forms/HTML5 forms in web page
 description: Configuration steps needed to embed Adaptive Forms or HTML5 forms in a non AEM web page.
 feature: Adaptive Forms
 type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

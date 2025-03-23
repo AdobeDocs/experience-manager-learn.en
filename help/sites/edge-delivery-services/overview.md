@@ -1,7 +1,7 @@
 ---
 title: Edge Delivery Services videos
 description: Learn how to make web sites fast with Edge Delivery Services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

@@ -2,7 +2,7 @@
 title: Introduction to AEM Sites Content Hierarchy
 description: The following video highlights how site pages are stored within AEM for your organization.
 feature: Page Editor
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4243
 thumbnail: 31785.jpg
 topic: Content Management

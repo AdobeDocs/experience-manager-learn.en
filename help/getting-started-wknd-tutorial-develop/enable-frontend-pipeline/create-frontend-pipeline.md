@@ -1,7 +1,7 @@
 ---
 title: Deploy using the front-end pipeline
 description: Learn how to create and run a front-end pipeline that builds front-end resources and deploys to the built-in CDN in AEM as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: AEM Project Archetype, Cloud Manager, CI-CD Pipeline
 topic: Content Management, Development, Development, Architecture
 role: Developer, Architect, Admin

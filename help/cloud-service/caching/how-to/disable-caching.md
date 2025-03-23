@@ -1,7 +1,7 @@
 ---
 title: How to disable CDN caching
 description: Learn how to disable the caching of HTTP responses in AEM as a Cloud Service's CDN.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Operations, CDN Cache
 topic: Administration, Performance
 role: Admin, Architect, Developer

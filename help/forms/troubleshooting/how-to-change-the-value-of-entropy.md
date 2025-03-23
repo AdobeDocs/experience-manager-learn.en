@@ -4,7 +4,7 @@ description: Steps to change the value of entropy at the operating system level
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: e36ecbaf-78fc-4acf-bacb-f19d933fb0fb

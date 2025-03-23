@@ -1,7 +1,7 @@
 ---
 title: Personalization using Visual Experience Composer
 description: Learn how to create an Adobe Target Activity using Visual Experience Composer.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-6352
 thumbnail: 6352-personalization-using-vec.jpg
 topic: Integrations

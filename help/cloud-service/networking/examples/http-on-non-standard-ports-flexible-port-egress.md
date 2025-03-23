@@ -1,7 +1,7 @@
 ---
 title: HTTP/HTTPS connections on non-standard ports for flexible port egress
 description: Learn how to make HTTP/HTTPS requests from AEM as a Cloud Service to external web services running on non-standard ports for Flexible Port Egress.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Architect, Developer

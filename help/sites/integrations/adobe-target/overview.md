@@ -2,7 +2,7 @@
 title: Integrate AEM Sites and Adobe Target
 description: Learn how to integrate AEM Sites and Adobe Target to deliver personalized experiences.
 feature: Experience Fragments, Core Components, Adobe Client Data Layer
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-6043
 thumbnail: 41241.jpg
 topic: Integrations, Personalization

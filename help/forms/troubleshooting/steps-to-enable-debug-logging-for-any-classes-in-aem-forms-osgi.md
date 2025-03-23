@@ -4,7 +4,7 @@ description: Configure debug logging for troubleshooting AEM Forms OSGi
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: 92bf6bad-4dc0-44aa-9af4-54a3a9088643

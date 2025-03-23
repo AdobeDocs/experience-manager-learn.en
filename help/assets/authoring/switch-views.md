@@ -1,7 +1,7 @@
 ---
 title: Switch views in AEM Assets
 description: Learn how to efficiently switch between views in AEM Assets as a Cloud Service, ensuring seamless asset management.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management
 topic: Content Management
 role: User

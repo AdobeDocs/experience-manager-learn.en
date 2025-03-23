@@ -3,7 +3,7 @@ title: Some useful UI tips and tricks
 description: Document to demonstrate some useful user interface tips
 feature: Adaptive Forms
 type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

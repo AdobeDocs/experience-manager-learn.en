@@ -3,7 +3,7 @@ title: Understand the relation between a Live Copy and it's Blueprint
 description: The following video explains how a Live Copy is related to it's Blueprint in AEM Sites.
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5376
 thumbnail: 36676.jpg
 topic: Localization

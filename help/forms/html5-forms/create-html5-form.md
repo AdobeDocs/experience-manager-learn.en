@@ -3,7 +3,7 @@ title: Create HTML5 Forms
 description: Create and configure HTML5 forms
 feature: Mobile Forms
 doc-type: article
-version: 6.5
+version: Experience Manager 6.5
 jira: KT-4419
 thumbnail: kt-4419.jpg
 topic: Development

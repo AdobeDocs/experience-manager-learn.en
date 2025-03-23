@@ -1,7 +1,7 @@
 ---
 title: Collaboration in Assets Essentials
 description: Learn how to collaborate inside asset management using comments, annotations and tasks.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: User

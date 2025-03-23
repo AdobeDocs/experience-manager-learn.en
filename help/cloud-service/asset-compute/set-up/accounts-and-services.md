@@ -2,7 +2,7 @@
 title: Set up accounts and services for Asset Compute extensibility
 description: Developing Asset Compute workers require access to accounts and services including AEM as a Cloud Service, App Builder, and cloud storage provided by Microsoft or Amazon.
 feature: Asset Compute Microservices
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: Tutorial
 jira: KT-6264
 thumbnail: 40377.jpg

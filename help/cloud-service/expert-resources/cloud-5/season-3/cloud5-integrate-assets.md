@@ -1,7 +1,7 @@
 ---
 title: Integrate AEM Assets with document authoring
 description: Explore how to integrate AEM Assets with document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Content Management
 role: Admin, Developer, Leader, User

@@ -1,7 +1,7 @@
 ---
 title: Generate Variations - Use Adobe Firefly to create images in Edge Delivery Services
 description: Explore how to use Adobe Firefly to create images used in the content variations to target the right audience in Edge Delivery Services document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Admin, Developer, Leader, User

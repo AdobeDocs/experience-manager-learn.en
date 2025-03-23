@@ -1,7 +1,7 @@
 ---
 title: Import Sites into AEM Sites with Edge Delivery Services
 description: Learn about the Importer tool, making it easy to import sites into AEM Sites with Edge Delivery Services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Admin, Developer, Leader, User

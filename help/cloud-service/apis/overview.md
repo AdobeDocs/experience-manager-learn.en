@@ -1,7 +1,7 @@
 ---
 title: AEM APIs overview
 description: Learn about the different types of APIs in Adobe Experience Manager (AEM) and understand which API to choose for your integration.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
 role: Architect, Developer, Leader

@@ -2,7 +2,7 @@
 title: Using AEM Forms with Chatbot
 description: Parse ChatBot data
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 jira: KT-15344
 topic: Development
 role: User

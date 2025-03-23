@@ -1,7 +1,7 @@
 ---
 title: AEM Desktop App
 description: Use AEM Desktop App to simplify access to any asset managed in AEM on desktop, for any application and file format.
-version: 6.5, 6.4
+version: Experience Manager 6.5, Experience Manager 6.4
 topic: Content Management
 feature: Desktop App
 role: User

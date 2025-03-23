@@ -1,7 +1,7 @@
 ---
 title: Non-asset Content References - Content Fragment Editor
 description: Learn how Content Fragment Content fields supports referencing various types of AEM content, such as Experience Fragments and Pages.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Content Management
 role: User

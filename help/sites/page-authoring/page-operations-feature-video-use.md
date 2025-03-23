@@ -1,7 +1,7 @@
 ---
 title: Basic page operations in AEM Sites
 description: The following video highlights how to perform basic page management operations for a Adobe Experience Manager Sites page.
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Content Management
 feature: Page Editor, Editable Templates
 role: User

@@ -1,7 +1,7 @@
 ---
 title: UI Planning with Adobe XD | AEM Quick Site Creation
 description: Learn how Adobe XD UI Kits can be used to design and accelerate your Adobe Experience Manager Sites implementation.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 feature: Core Components
 role: Developer

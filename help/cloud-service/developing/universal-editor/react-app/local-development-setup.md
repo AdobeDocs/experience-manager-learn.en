@@ -1,7 +1,7 @@
 ---
 title: Local development setup
 description: Learn how to set up a local development environment for Universal Editor so you can edit the content of a sample React app.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developer Tools, Headless
 topic: Development, Content Management
 role: Architect, Developer

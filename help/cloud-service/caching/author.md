@@ -1,7 +1,7 @@
 ---
 title: AEM Author service caching
 description: General overview of AEM as a Cloud Service Author service caching.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developer Tools
 topic: Performance
 role: Architect, Developer

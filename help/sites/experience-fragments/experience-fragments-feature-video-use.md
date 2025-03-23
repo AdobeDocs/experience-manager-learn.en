@@ -7,7 +7,7 @@ topic: Content Management
 role: Architect, Developer, Admin, User
 level: Beginner
 doc-type: Feature Video
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-194
 thumbnail: 331785.jpg
 last-substantial-update: 2021-06-09

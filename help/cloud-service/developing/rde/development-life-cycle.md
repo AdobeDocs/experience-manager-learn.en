@@ -2,7 +2,7 @@
 title: Development life cycle using Rapid Development Environment
 description: Learn how new development life cycle looks like using Rapid Development Environment and key benefits of RDE.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

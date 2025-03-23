@@ -3,7 +3,7 @@ title: Acroforms with AEM Forms
 description: A tutorial that walks through creating an Adaptive Form using Acroform and merging the data to obtain a PDF. The PDF with the merged data can then be sent for signing using Acrobat Sign.
 feature: adaptive-forms
 doc-type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 duration: 45

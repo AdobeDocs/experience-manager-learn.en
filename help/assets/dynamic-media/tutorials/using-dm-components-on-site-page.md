@@ -3,7 +3,7 @@ title: Using Dynamic Media Core Components
 description: Steps use Dynamic Media components on Sites page
 role: Developer
 level: Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Core Components
 topic: Development
 index: y

@@ -1,7 +1,7 @@
 ---
 title: Block and autoblocks in document authoring
 description: How blocks and autoblocks are used in document authoring.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User

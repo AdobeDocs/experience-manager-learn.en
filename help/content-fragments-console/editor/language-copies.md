@@ -1,7 +1,7 @@
 ---
 title: Language copies - Content Fragment Editor
 description: Learn how AEM's Content Fragment UI makes it easy to locate Content Fragments using fast filtering. With this feature, finding specific content fragments becomes quick and effortless.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: User
 level: Beginner
 doc-type: Feature Video

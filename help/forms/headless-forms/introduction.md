@@ -2,7 +2,7 @@
 title: Using headless adaptive form in SPA
 description: Implement a headless contact us form in SPA
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 jira: KT-13285
 topic: Development
 role: User

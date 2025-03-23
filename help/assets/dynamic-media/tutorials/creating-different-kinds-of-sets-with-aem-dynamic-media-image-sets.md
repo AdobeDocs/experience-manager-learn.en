@@ -3,7 +3,7 @@ title: Creating Image sets with AEM Dynamic Media
 description: Configure Image set with Dynamic Media
 role: Developer
 level: Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Image Sets
 topic: Development
 index: y

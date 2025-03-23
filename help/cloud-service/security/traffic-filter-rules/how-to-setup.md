@@ -1,7 +1,7 @@
 ---
 title: How to set up Traffic Filter rules including WAF rules
 description: Learn how to set up to create, deploy, test, and analyze the results of Traffic Filter rules including WAF rules.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Security, Administration, Architecture
 role: Admin, Architect

@@ -3,7 +3,7 @@ title: Navigate nested panels
 description: Navigate nested panels
 feature: Adaptive Forms
 type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

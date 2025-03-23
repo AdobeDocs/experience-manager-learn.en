@@ -1,7 +1,7 @@
 ---
 title: Set up your BPA and CAM project
 description: Learn how Best Practices Analyzer and Cloud Acceleration Manager provides a customized guide for migrating to AEM as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developer Tools
 topic: Migration, Upgrade
 role: Developer

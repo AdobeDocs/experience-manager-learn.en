@@ -4,7 +4,7 @@ description: Create and validate PDF/A files in Forms CA using the HTTP endpoint
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Output Service
 topic: Development
 jira: KT-10105

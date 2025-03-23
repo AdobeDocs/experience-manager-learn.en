@@ -1,7 +1,7 @@
 ---
 title: Advanced Modeling for GraphQL
 description: Learn how to create relationships between Content Fragment Models in Adobe Experience Manager (AEM) and how to leverage these relationships in GraphQL queries.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Headless, Content Management
 feature: Content Fragments, GraphQL API
 role: Developer

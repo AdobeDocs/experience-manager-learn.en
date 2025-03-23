@@ -2,7 +2,7 @@
 title: Adding items to choice group component
 description: Add items to choice group component dynamically
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: User
 level: Beginner

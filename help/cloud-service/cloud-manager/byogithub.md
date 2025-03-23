@@ -1,7 +1,7 @@
 ---
 title: Github.com repositories and AEM Cloud Manager
 description: Connect a private GitHub repo to AEM Cloud Manager to streamline code quality checks, automate workflows, and enhance development efficiency.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Architecture
 feature: Cloud Manager, CI-CD Pipeline
 role: Admin, Developer

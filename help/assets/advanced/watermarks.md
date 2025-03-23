@@ -2,7 +2,7 @@
 title: Watermarks in AEM Assets
 description: AEM as a Cloud Service's watermarking capabilities allows custom image renditions to be watermarked using any PNG image.
 feature: Asset Compute Microservices
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-6357
 thumbnail: 41536.jpg
 topic: Content Management

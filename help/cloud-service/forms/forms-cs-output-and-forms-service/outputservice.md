@@ -4,7 +4,7 @@ description: Merge data with XDP template to generate non-interactive PDF's
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Output Service
 topic: Development
 jira: KT-16384

@@ -1,7 +1,7 @@
 ---
 title: Persisted GraphQL Queries - Advanced Concepts of AEM Headless - GraphQL
 description: In this chapter of Advanced concepts of Adobe Experience Manager (AEM) Headless, learn how to create and update persisted GraphQL queries with parameters. Learn how to pass cache-control parameters in persisted queries.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
 role: Developer

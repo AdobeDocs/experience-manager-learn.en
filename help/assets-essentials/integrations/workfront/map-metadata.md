@@ -1,7 +1,7 @@
 ---
 title: Mapping Metadata between Adobe Workfront and AEM Assets Essentials
 description: Learn how to configure metadata mapping between Workfront fields and Assets Essentials properties, as well as configuring Assets Essentials to display the mapped metadata.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management, Integrations
 role: User

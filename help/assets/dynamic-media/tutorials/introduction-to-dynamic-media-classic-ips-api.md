@@ -1,7 +1,7 @@
 ---
 title: AEM Dynamic Media Classic IPS APIs
 description: Introduction to Dynamic Media Classic IPS APIs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Developer
 level: Intermediate
 feature: Dynamic Media Classic, APIs

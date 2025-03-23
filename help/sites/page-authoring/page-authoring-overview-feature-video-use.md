@@ -2,7 +2,7 @@
 title: Authoring a page in AEM Sites
 description: The following video highlights how to author a new page in Adobe Experience Manager Sites using the Site Editor's UI
 feature: Page Editor, Editable Templates
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-4497
 thumbnail: 31828.jpg
 topic: Content Management

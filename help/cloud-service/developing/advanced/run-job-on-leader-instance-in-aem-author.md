@@ -1,7 +1,7 @@
 ---
 title: How to run a job on leader instance in AEM as a Cloud Service
 description: Learn how to run a job on the leader instance in AEM as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 feature: OSGI, Cloud Manager
 role: Architect, Developer

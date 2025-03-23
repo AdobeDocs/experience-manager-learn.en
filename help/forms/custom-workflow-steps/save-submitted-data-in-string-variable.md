@@ -2,7 +2,7 @@
 title: Save submitted data in string variable
 description: Custom process step to extract bound data and save it in a workflow variable of type string
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

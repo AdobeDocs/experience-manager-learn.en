@@ -4,7 +4,7 @@ description: Configure the management user for JBOSS admin console
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: 787ee0b4-8260-47d2-bcf9-da705e94859a

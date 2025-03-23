@@ -2,7 +2,7 @@
 title: Versions
 description: Explore how AEM creates and maintains asset versions.
 feature: Asset Management
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4671
 thumbnail: 32052.jpg
 topic: Content Management

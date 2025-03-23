@@ -1,7 +1,7 @@
 ---
 title: Assets Essentials My Workspace
 description: Learn how to work more efficiently using My Workspace's user-configurable widgets.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: Admin, User

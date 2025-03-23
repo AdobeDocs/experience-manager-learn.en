@@ -1,7 +1,7 @@
 ---
 title: Download assets in AEM Assets Content Hub
 description: Learn how to navigate, search for assets, filter the assets, and download them in Adobe Experience Manager Assets Content Hub.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management, Marketing Campaigns, Metadata
 topic: Content Supply Chain, Content Management
 role: User

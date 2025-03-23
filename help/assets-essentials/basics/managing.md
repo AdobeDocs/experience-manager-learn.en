@@ -1,7 +1,7 @@
 ---
 title: Manage assets in Assets view
 description: Learn the basics of creating a folder structure, and basic operations such as move, copy and rename.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 role: User
 level: Beginner

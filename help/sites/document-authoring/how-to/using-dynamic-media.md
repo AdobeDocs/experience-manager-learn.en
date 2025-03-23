@@ -1,7 +1,7 @@
 ---
 title: Using Dynamic Media in Edge Delivery Services
 description: Learn how to use Dynamic Media in Edge Delivery Services for optimized image and video delivery.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Developer, User

@@ -1,7 +1,7 @@
 ---
 title: Edge Delivery Services developer prerequisites
 description: This video describes all the pieces a developer will need to begin developing for Edge Delivery Services.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

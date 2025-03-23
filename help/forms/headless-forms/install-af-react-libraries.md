@@ -2,7 +2,7 @@
 title: Install the required adaptive form react libraries
 description: Add the required dependencies to your react project
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 jira: KT-13285
 topic: Development
 role: User

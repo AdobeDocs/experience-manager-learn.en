@@ -1,7 +1,7 @@
 ---
 title: HTTP/HTTPS connections for dedicated egress IP address and VPN
 description: Learn how to make HTTP/HTTPS requests from AEM as a Cloud Service to external web services running for Dedicated Egress IP address and VPN
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Architect, Developer

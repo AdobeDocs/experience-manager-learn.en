@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - REPOINIT
 description: Using REPOINIT to initialize your AEM repo
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 thumbnail: 343474.jpeg

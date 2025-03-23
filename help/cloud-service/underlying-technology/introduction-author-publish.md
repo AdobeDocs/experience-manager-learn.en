@@ -2,7 +2,7 @@
 title: Introduction to Author and Publish Tier
 description: An introduction to the Author and Publish tiers as part of the architecture in Adobe Experience Manager.
 doc-type: technical video
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4639
 thumbnail: 32033.jpg
 feature: Publishing

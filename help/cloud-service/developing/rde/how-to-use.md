@@ -2,7 +2,7 @@
 title: How to use Rapid Development Environment
 description: Learn how to use up Rapid Development Environment to deploy code and content from your local machine.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

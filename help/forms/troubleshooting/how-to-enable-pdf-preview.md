@@ -4,7 +4,7 @@ description: Steps to configure PDF Preview in Designer
 type: Troubleshooting
 role: Developer
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Designer
 topic: Development
 index: y

@@ -5,7 +5,7 @@ topic: Content Management
 feature: Search
 role: User
 level: Intermediate
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-103
 thumbnail: 16766.jpg
 last-substantial-update: 2022-06-02

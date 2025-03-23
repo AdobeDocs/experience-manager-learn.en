@@ -1,7 +1,7 @@
 ---
 title: Workfront Enhanced Connector Project Folders
 description: Learn about Project Folders when using Adobe Workfront and Experience Manager Assets enhanced connector.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management, Integrations
 feature: Asset Management
 role: Admin, User

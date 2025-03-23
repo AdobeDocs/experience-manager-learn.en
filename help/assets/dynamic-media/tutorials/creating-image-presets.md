@@ -3,7 +3,7 @@ title: Creating image presets with AEM Dynamic Media
 description: Configure Image presets with Dynamic Media
 role: Developer
 level: Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Image Presets
 topic: Development
 index: y

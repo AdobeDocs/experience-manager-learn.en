@@ -2,7 +2,7 @@
 title: Export Experience Fragments to Adobe Target
 description: Learn how to publish and export AEM Experience Fragment as Adobe Target Offers.
 feature: Experience Fragments
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-6350
 thumbnail: 41245.jpg
 topic: Integrations

@@ -1,7 +1,7 @@
 ---
 title: Authentication in AEM as a Cloud Service
 description: Learn about authentication in AEM as a Cloud Service's.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Integrations, Security
 role: Architect, Developer

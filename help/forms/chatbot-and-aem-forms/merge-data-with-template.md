@@ -2,7 +2,7 @@
 title: Merge data with the XDP template
 description: Create PDF document by merging data with the template
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 jira: KT-15344
 topic: Development
 role: User

@@ -1,7 +1,7 @@
 ---
 title: Asset Workflow Migration Tool
 description: Learn how the Asset Workflow Migration tool helps migrate your existing AEM Assets Workflows to AEM as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer

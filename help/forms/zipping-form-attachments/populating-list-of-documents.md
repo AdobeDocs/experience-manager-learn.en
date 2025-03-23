@@ -3,7 +3,7 @@ title: Custom Process Step to Populate List Variables
 description: Learn how to create a custom process step to populate list variables of type document and string in Adobe Experience Manager.
 feature: Workflow
 topic: Development
-version: 6.5
+version: Experience Manager 6.5
 role: Developer
 level: Beginner
 kt: kt-8063

@@ -1,7 +1,7 @@
 ---
 title: What is "The Dispatcher"
 description: Understand what a Dispatcher actually is.
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 feature: Dispatcher
 role: Admin

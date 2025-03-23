@@ -1,7 +1,7 @@
 ---
 title: Best practices for Traffic Filter rules including WAF rules
 description: Learn recommended best practices for Traffic Filter rules including WAF rules.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Security, Administration, Architecture
 role: Admin, Architect

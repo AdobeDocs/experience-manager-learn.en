@@ -4,7 +4,7 @@ description: This article explains the steps to connect the Workbench to AEM For
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Workbench
 topic: Administration
 index: y
