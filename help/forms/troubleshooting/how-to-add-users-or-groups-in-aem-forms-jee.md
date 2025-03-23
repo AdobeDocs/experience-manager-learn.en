@@ -4,7 +4,7 @@ description: Steps to add the users and groups in AEM Forms JEE
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 feature: User and Groups
 index: y

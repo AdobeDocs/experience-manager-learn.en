@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 AEM Dispatcher Validator
 description: This episode focuses a bit deeper on the dispatcher validator and the nuances that it provides.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 jira: KT-10271

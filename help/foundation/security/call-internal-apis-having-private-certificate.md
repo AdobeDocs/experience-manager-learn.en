@@ -2,7 +2,7 @@
 title: Call internal APIs having private certificates
 description: Learn how to call internal APIs having private or self-signed certificates.
 feature: Security
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 topic: Security, Development
 role: Admin, Architect, Developer
 level: Experienced

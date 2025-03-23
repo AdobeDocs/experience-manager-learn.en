@@ -3,7 +3,7 @@ title: Create a country site
 description: Learn how to create a country site from existing Language Copies using the Create Site wizard.
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5849
 thumbnail: 36684.jpg
 topic: Localization

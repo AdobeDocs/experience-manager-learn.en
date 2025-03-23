@@ -4,7 +4,7 @@ description: Steps to investigate and resolve issues related to replication
 type: Troubleshooting
 role: Admin
 level: Beginner
-version: 6.5
+version: Experience Manager 6.5
 feature: Developer Tools
 topic: Administration
 index: y

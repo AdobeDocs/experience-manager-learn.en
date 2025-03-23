@@ -5,7 +5,7 @@ topic: Development
 feature: Core Components
 role: Developer
 level: Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-243
 thumbnail: 25173.jpg
 doc-type: Technical Video

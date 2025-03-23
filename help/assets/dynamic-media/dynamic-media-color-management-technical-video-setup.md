@@ -2,7 +2,7 @@
 title: Understanding Color Management with AEM Dynamic Media
 description: In this video we explore Dynamic Media Color Management, and how it can be used to provide color correction preview capabilities in for AEM Assets.
 feature: Image Profiles, Video Profiles
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Content Management
 role: Developer
 level: Intermediate

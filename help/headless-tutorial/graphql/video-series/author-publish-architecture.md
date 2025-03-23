@@ -1,7 +1,7 @@
 ---
 title: Author and Publish Architecture with AEM GraphQL
 description: Learn how and when to leverage AEM Author and Publish environments when using AEM's GraphQL APIs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Headless, Content Management
 feature: Content Fragments, GraphQL API
 role: Developer

@@ -4,7 +4,7 @@ description: Make a POST request to the end point with the necessary parameters
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Output Service
 topic: Development
 jira: KT-8185

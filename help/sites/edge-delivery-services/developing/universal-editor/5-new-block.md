@@ -1,7 +1,7 @@
 ---
 title: Create a block
 description: Build a block for an Edge Delivery Services website that is editable with Universal Editor.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

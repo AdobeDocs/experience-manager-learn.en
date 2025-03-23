@@ -4,7 +4,7 @@ user-guide-description: This tutorial shows how to use Dynamic Media Classic to 
 breadcrumb-title: Dynamic Media Classic Tutorials
 solution: Experience Manager, Experience Manager Assets
 sub-product: Experience Manager Assets
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 index: y
 ---
 

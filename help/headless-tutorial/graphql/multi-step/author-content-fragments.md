@@ -1,7 +1,7 @@
 ---
 title: Authoring Content Fragments - Getting Started with AEM Headless - GraphQL
 description: Get started with Adobe Experience Manager (AEM) and GraphQL. Create and edit a new Content Fragment based on a Content Fragment Model. Learn how to create variations of Content Fragments.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 mini-toc-levels: 1
 jira: KT-6713
 thumbnail: 22451.jpg

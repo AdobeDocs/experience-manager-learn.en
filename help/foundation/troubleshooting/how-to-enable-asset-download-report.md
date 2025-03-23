@@ -4,7 +4,7 @@ description: Steps to enable the asset download report
 type: Troubleshooting
 role: Admin
 level: Beginner
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Adobe Asset Link
 topic: Administration
 index: y

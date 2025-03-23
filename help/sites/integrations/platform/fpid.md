@@ -1,7 +1,7 @@
 ---
 title: Generate Adobe Experience Platform FPIDs with AEM Sites
 description: Learn how to generate or refresh Adobe Experience Platform FPID cookies using AEM Sites.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Integrations, APIs, Dispatcher
 topic: Integrations, Personalization, Development
 role: Developer

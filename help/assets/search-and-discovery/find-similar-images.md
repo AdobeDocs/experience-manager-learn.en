@@ -1,7 +1,7 @@
 ---
 title: Find Similar Images in AEM Assets
 description: Learn how AEM Assets' Find Similar Image makes it easy to find the best image for your needs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 feature: Search
 role: User

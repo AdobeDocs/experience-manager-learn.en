@@ -1,7 +1,7 @@
 ---
 title: Custom domain name options
 description: Learn how to manage and implement custom domain names for your AEM as a Cloud Service hosted website.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Cloud Manager, Custom Domain Names
 topic: Architecture, Migration
 role: Admin, Architect, Developer

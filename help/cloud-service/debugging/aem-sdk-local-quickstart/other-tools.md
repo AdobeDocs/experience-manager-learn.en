@@ -2,7 +2,7 @@
 title: Other tools for debugging AEM SDK
 description: A variety of other tools can aid in debugging the AEM SDK's local quickstart.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: Tutorial
 jira: KT-5251
 topic: Development

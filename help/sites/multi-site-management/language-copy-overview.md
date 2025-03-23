@@ -3,7 +3,7 @@ title: Introduction to Language Copy
 description: Get an overview of how to create a multilingual site using Language Copy in AEM Sites
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5370
 thumbnail: 36487.jpg
 topic: Localization

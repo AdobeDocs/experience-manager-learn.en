@@ -4,7 +4,7 @@ description: Make a POST request to invoke DDX endpoint with the necessary param
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Output Service
 topic: Development
 jira: KT-9980

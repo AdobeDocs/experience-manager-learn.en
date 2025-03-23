@@ -4,7 +4,7 @@ description: Sample project that can be imported and executed in your environmen
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Document Services
 topic: Development
 jira: KT-17479

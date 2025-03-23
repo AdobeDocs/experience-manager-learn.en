@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 Introduction
 description: Introduction to the AEM Engineering Cloud 5 series.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developer Tools
 role: Admin, Developer
 level: Intermediate

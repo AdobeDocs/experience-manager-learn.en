@@ -4,7 +4,7 @@ description: Configure load tests using FormsIVS and OutputIVS
 type: Troubleshooting
 role: Developer
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Output Service, Forms Service
 topic: Development
 index: y

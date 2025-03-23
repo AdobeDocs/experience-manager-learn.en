@@ -1,7 +1,7 @@
 ---
 title: Understand Cross-Origin Resource Sharing (CORS) with AEM
 description: Adobe Experience Manager's Cross-Origin Resource Sharing (CORS) facilitates non-AEM web properties to make client-side calls to AEM, both authenticated and unauthenticated, to fetch content or directly interact with AEM.
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 sub-product: Experience Manager, Experience Manager Sites
 feature: Security, APIs
 doc-type: Article

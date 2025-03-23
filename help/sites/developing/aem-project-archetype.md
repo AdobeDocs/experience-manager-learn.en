@@ -2,7 +2,7 @@
 title: AEM Project Archetype
 description: The AEM Project Archetype creates a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects.
 feature: AEM Project Archetype
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4675
 thumbnail: 32550.jpg
 topic: Development

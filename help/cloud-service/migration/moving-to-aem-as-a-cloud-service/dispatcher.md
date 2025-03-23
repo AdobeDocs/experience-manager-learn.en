@@ -1,7 +1,7 @@
 ---
 title: Configuring Dispatcher when moving to AEM as a Cloud Service
 description: Learn about notable changes to AEM Dispatcher for AEM as a Cloud Service, the Dispatcher conversion tool and how to use the Dispatcher Tools SDK.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Dispatcher
 topic: Migration, Upgrade
 role: Developer

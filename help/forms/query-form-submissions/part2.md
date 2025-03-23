@@ -3,7 +3,7 @@ title: Querying form submission
 description: Multi-part tutorial to walk you through the steps involved in querying form submissions stored in Azure portal
 feature: Adaptive Forms
 doc-type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

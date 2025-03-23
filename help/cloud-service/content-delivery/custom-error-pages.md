@@ -1,7 +1,7 @@
 ---
 title: Custom error pages
 description: Learn how to implement custom error pages for your AEM as a Cloud Service hosted website.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Brand Experiences, Configuring, Developing
 topic: Content Management, Development
 role: Developer

@@ -1,7 +1,7 @@
 ---
 title: Development considerations
 description: Consider the impact on the front-end and back-end development process once you enable the front-end pipeline.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: AEM Project Archetype, Cloud Manager, CI-CD Pipeline
 topic: Content Management, Development, Development, Architecture
 role: Developer, Architect, Admin

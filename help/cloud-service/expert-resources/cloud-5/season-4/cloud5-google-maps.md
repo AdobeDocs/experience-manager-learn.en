@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Integrate with Google Maps
 description: Explore how to integrate Edge Delivery Services with Google Maps.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer, Leader, User

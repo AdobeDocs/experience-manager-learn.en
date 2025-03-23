@@ -2,7 +2,7 @@
 title: Understanding Responsive Layout with AEM Sites
 description: AEM allows you to have a responsive layout for your pages by using the Layout Container component. With the Responsive Layout, the content authors can create responsive content for different devices and preview end user experience within AEM.
 feature: Page Editor, Editable Templates
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-4252
 thumbnail: 32012.jpg
 topic: Content Management

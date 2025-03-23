@@ -1,7 +1,7 @@
 ---
 title: SQL connections using Java™ APIs
 description: Learn how to connect to SQL databases from AEM as a Cloud Service using Java™ SQL APIs and egress ports.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Architect, Developer

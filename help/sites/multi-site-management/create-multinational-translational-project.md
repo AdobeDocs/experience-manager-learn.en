@@ -3,7 +3,7 @@ title: Create a multilingual Translation Project
 description: Learn how to create, edit and manage a multi-language translation project for your Language Copy from AEM's Project console
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5368
 thumbnail: 36485.jpg
 topic: Localization

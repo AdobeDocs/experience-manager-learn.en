@@ -1,7 +1,7 @@
 ---
 title: Integrate Adobe Workfront and AEM Assets Essentials
 description: Learn how to integrate Workfront and AEM Assets Essentials.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management, Integrations
 role: User

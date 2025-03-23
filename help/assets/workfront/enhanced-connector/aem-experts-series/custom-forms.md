@@ -1,7 +1,7 @@
 ---
 title: Workfront custom forms and metadata mapping with Workfront for AEM enhanced connector
 description: Learn how to configure Workfront and AEM Assets to manage and sync asset metadata using Workfront custom forms, and AEM metadata schemas.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management, Integrations
 feature: Asset Management
 role: Admin, Architect, Developer

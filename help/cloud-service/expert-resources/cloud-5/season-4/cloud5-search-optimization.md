@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Search optimization in Edge Delivery Services
 description: Get your lighthouse score to 100 buy using query and search optimization when dealing with large numbers of records.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer, Leader, User

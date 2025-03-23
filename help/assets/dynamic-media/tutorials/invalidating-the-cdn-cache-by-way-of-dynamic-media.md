@@ -3,7 +3,7 @@ title: Invalidating the CDN Cache for AEM Dynamic Media
 description: Steps to invalidate CDN cache for AEM Dynamic Media
 role: Developer
 level: Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 feature: Operations
 index: y

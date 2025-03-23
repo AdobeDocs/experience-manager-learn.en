@@ -1,7 +1,7 @@
 ---
 title: Contextual search
 description: Learn how to use Contextual Search in AEM Assets to efficiently find assets with natural language queries.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 feature: Search
 role: User

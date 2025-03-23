@@ -1,7 +1,7 @@
 ---
 title: How to purge the CDN cache
 description: Learn how to purge or remove the cached HTTP response from the AEM as a Cloud Service's CDN.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Operations, CDN Cache
 topic: Administration, Performance
 role: Admin, Architect, Developer

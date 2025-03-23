@@ -1,7 +1,7 @@
 ---
 title: Create image variants using Adobe Express in AEM Assets Content Hub
 description: Learn how to create and edit image variants using Adobe Express within the Experience Manager Assets Content Hub.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management
 topic: Content Supply Chain, Content Management, Artificial Intelligence
 role: User

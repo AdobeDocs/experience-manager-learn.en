@@ -1,7 +1,7 @@
 ---
 title: Email service
 description: Learn how to configure AEM as a Cloud Service to connect with an email service using egress ports.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Architect, Developer

@@ -1,7 +1,7 @@
 ---
 title: How to work with large result sets in AEM Headless
 description: Learn how to work with large result sets with AEM Headless.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Headless
 feature: GraphQL API
 role: Architect, Developer

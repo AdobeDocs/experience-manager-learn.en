@@ -2,7 +2,7 @@
 title: Export assets
 description: Learn how to bulk export and download assets to your local machine.
 feature: Asset Management
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 role: Developer
 level: Experienced

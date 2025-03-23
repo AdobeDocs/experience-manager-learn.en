@@ -1,7 +1,7 @@
 ---
 title: The implementation phases of Cloud Acceleration Manager
 description: Review and understand the major implementation phases or moving to AEM as a Cloud Service using Cloud Acceleration Manager.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer

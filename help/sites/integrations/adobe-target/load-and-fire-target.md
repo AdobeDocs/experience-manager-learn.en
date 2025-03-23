@@ -2,7 +2,7 @@
 title: Load and fire a Target call
 description: Learn how to load, pass parameters to page request, and fire a Target call from your site page using a tags Rule.
 feature: Core Components, Adobe Client Data Layer
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-6133
 thumbnail: 41243.jpg
 topic: Integrations

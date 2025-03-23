@@ -3,7 +3,7 @@ title: Processing assets for AEM Dynamic Media
 description: Steps to run DAM update asset workflow on an asset that has Dynamic Media Enabled.
 role: Developer
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Workflow
 topic: Development
 index: y

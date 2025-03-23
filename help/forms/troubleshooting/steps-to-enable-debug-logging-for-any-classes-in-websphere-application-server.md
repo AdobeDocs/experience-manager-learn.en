@@ -4,7 +4,7 @@ description: Configure debug logging for troubleshooting issues related to WebSp
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: fd7ad4df-4c27-42f2-889f-03e170bac319

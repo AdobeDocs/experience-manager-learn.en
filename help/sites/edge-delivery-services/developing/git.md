@@ -1,7 +1,7 @@
 ---
 title: Working with Git
 description: How to configure your Edge Delivery Services development environment with Git.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

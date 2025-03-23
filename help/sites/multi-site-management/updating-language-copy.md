@@ -3,7 +3,7 @@ title: Updating a Language Copy with Launches
 description: Learn how to update, review, and approve changes in a Language Copy with the help of Launches.
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5367
 thumbnail: 36683.jpg
 topic: Localization

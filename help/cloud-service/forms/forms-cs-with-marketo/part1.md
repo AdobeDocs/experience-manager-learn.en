@@ -2,7 +2,7 @@
 title: Integrate AEM Forms as a Cloud Service and Marketo
 description: Learn how to integrate AEM Forms and Marketo using AEM Forms Form Data Model.
 feature: Form Data Model,Integration
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Integrations, Development
 role: Developer
 level: Experienced

@@ -2,7 +2,7 @@
 title: Using Language Copy with AEM Sites
 description: With AEM Create Language Copy Wizard site translation enhancement, users can create a  language copy from master language without having to create a create a root page.
 feature: Language Copy
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Localization
 role: User
 level: Beginner

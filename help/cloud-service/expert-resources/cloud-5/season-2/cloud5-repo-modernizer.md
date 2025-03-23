@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Repository Modernizer
 description: AEM Repository Modernization and how it works
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 thumbnail: 342865.jpeg

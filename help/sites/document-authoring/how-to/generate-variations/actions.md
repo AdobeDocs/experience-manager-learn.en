@@ -1,7 +1,7 @@
 ---
 title: Generate Variations - Actions on a generated variation in Edge Delivery Services
 description: Explore the actions that can be used on a generated content variation including saving, copying, rating and more in Edge Delivery Services document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Admin, Developer, Leader, User

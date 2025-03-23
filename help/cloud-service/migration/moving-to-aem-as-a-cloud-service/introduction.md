@@ -1,7 +1,7 @@
 ---
 title: Introduction to to AEM as a Cloud Service
 description: Learn how to think differently about AEM as a Cloud Service implementations.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Migration, Upgrade
 feature: Migration
 role: Developer

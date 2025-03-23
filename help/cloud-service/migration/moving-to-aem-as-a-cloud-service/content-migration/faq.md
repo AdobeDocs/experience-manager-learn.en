@@ -1,7 +1,7 @@
 ---
 title: AEM as a Cloud Service content migration FAQ
 description: Get answers to frequently asked questions about content migration to AEM as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: article
 topic: Migration
 feature: Migration

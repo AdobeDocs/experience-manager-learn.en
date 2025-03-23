@@ -1,7 +1,7 @@
 ---
 title: Adobe CDN - Advanced features beyond caching
 description: Learn about advanced features of Adobe CDN beyond caching, such as configuring traffic at the CDN, setting up tokens and credentials, CDN error pages and more.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Website Performance, CDN Cache
 topic: Architecture, Performance, Content Management
 role: Developer, Architect, User, Leader

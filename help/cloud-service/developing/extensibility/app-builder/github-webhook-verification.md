@@ -2,7 +2,7 @@
 title: Github.com webhook verification
 description: Learn how to verify a webhook request from Github.com in an App Builder action.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Intermediate

@@ -2,7 +2,7 @@
 title: Introduction to Sling
 description: An introduction to Sling, an open-source RESTful web framework that is part of Adobe Experience Manager's underlying technology stack.
 doc-type: technical video
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4641
 thumbnail: 32032.jpg
 topic: Architecture

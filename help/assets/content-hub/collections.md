@@ -1,7 +1,7 @@
 ---
 title: Use collections in AEM Assets Content Hub
 description: Learn how to create and use collections in AEM Assets Content Hub to streamline asset access, and promote collaborative resource sharing, ensuring efficient and organized teamwork across various projects.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management, Marketing Campaigns, Metadata
 topic: Content Supply Chain, Content Management
 role: User

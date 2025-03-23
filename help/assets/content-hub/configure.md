@@ -1,7 +1,7 @@
 ---
 title: Configure AEM Assets Content Hub
 description: Learn how to navigate the available tabs and customize configuration options to meet your organization's needs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management, Marketing Campaigns, Metadata
 topic: Content Supply Chain, Content Management
 role: Admin

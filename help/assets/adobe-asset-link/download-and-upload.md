@@ -2,7 +2,7 @@
 title: Download and Upload
 description: Learn how to download and upload asset files from and to AEM Assets using the Asset Link panel.
 feature: Adobe Asset Link
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4908
 thumbnail: 33885.jpg
 topic: Content Management

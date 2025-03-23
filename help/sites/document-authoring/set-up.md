@@ -1,7 +1,7 @@
 ---
 title: Set up document authoring
 description: A guide on how to set up the environment for authors for document authoring.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User

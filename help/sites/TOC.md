@@ -5,7 +5,7 @@ breadcrumb-title: AEM Sites Tutorials
 feature-set: Experience Manager Sites, Experience Manager
 solution: Experience Manager, Experience Manager Sites
 sub-product: Experience Manager Sites
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 ---
 
 # AEM Sites Videos and Tutorials {#sites}

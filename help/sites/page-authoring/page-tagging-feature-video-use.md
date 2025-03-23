@@ -2,7 +2,7 @@
 title: Using Page Tagging with AEM Sites
 description: The following video highlights how to quickly and easily classify content within a website in Adobe Experience Manager using page tags.
 feature: Page Editor
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-4632
 thumbnail: 32150.jpg
 topic: Content Management

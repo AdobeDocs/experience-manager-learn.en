@@ -1,7 +1,7 @@
 ---
 title: Site migration to Edge Delivery Service using the Importer
 description: Learn how to use and configure the AEM Importer tool to migrate sites to Edge Delivery Services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Developer, User, Architect

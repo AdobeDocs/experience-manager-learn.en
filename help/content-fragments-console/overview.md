@@ -1,7 +1,7 @@
 ---
 title: Content Fragments Console videos
 description: Learn about AEM's Content Fragments Console that makes managing and authoring Content Fragments easy!
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Content Management
 role: User

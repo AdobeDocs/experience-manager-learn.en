@@ -2,7 +2,7 @@
 title: Check in and Check out
 description: Learn how to use AEM's check in and check out features to facilitate multi-user collaboration on assets.
 feature: Asset Management
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4542
 thumbnail: 32048.jpg
 topic: Collaboration

@@ -1,7 +1,7 @@
 ---
 title: Exploring the Universal Editor
 description: Dirk Rudolph from AEM engineering is interviewed about the Universal Editor and Edge Delivery Services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer, Leader, User

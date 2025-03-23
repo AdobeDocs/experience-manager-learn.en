@@ -2,7 +2,7 @@
 title: Write the payload document to file system
 description: Custom process step to add write document residing under the payload folder to the file system
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

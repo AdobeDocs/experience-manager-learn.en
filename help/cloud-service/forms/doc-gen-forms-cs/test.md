@@ -4,7 +4,7 @@ description: Run the Main.java to test the solution
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Adaptive Forms
 topic: Development
 exl-id: f6536af2-e4b8-46ca-9b44-a0eb8f4fdca9

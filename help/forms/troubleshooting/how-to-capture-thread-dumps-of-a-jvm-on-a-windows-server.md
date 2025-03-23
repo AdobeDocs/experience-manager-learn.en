@@ -4,7 +4,7 @@ description: Steps to capture the Thread dumps of a Java process on a windows se
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: e960c149-13e2-4861-b99e-6419fac85222

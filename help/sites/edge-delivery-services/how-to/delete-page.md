@@ -1,7 +1,7 @@
 ---
 title: How to delete a page in Edge Delivery Services
 description: Learn how to delete a page in Edge Delivery Services.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Content Management
 role: User

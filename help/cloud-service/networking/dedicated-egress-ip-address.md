@@ -1,7 +1,7 @@
 ---
 title: Dedicated egress IP address
 description: Learn how to set up and use dedicated egress IP address, which allows outbound connections from AEM to originate from a dedicated IP.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
 role: Architect, Developer

@@ -2,7 +2,7 @@
 title: Metadata profiles
 description: Metadata profiles allow for the automatic application of default metadata to assets within asset folders, helping reduce the burden of metadata management on AEM users, and increasing metadata consistency.
 feature: Metadata
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4984
 thumbnail: 33974.jpg
 topic: Content Management

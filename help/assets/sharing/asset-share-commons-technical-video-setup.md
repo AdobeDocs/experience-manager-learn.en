@@ -1,7 +1,7 @@
 ---
 title: Set up Asset Share Commons on local AEM
 description: Materials for both the functional and technical understanding Assets Share Commons
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Content Management
 feature: Asset Distribution
 role: Developer

@@ -2,7 +2,7 @@
 title: Download
 description: Learn how to download assets and their renditions to your local machine for use and sharing.
 feature: Asset Management
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4300
 thumbnail: 32194.jpg
 topic: Content Management

@@ -2,7 +2,7 @@
 title: Generate server-to-server access token in App Builder action
 description: Learn how to generate an access token by using OAuth Server-to-Server credentials for use in an App Builder action.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Intermediate

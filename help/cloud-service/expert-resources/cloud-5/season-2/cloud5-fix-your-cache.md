@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Fix Your... Cache
 description: Some easy tips to optimize your cache and speed up your site
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 thumbnail: 343475.jpeg

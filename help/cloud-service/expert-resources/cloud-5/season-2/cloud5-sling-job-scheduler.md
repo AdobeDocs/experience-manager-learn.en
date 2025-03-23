@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Sling Job Scheduler
 description: AEM Job Scheduling in the cloud
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 thumbnail: 343473.jpeg

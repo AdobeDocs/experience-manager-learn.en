@@ -1,7 +1,7 @@
 ---
 title: Getting Started with AEM Sites - Component Basics
 description: Understand the underlying technology of an Adobe Experience Manager (AEM) Sites Component through a simple `HelloWorld` example. Topics of HTL, Sling Models, Client-side libraries and author dialogs are explored.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Core Components, Developer Tools
 topic: Content Management, Development
 role: Developer

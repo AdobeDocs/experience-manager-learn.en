@@ -1,7 +1,7 @@
 ---
 title: Deploying SPA for AEM GraphQL
 description: Learn about deployment considerations for single-page app (SPA) AEM Headless deployments.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
 role: Developer, Architect

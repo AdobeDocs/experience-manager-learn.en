@@ -2,7 +2,7 @@
 title: Custom grid columns in the Content Fragment Console
 description: Learn how a custom grid column can be added to the Content Fragment Console.
 feature: Developer Tools, Content Fragments
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

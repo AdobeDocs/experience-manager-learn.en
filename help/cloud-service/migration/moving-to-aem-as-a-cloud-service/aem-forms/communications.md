@@ -1,7 +1,7 @@
 ---
 title: AEM Forms as a Cloud Service Communications
 description: Learn how AEM Forms as a Cloud Service supports the Communications use-case.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Output Service
 topic: Migration, Upgrade
 role: Developer

@@ -3,7 +3,7 @@ title: Translation Jobs
 description: Learn how to add a translation job to an existing translation Project.
 feature: Language Copy, Multi Site Manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5366
 thumbnail: 36488.jpg
 topic: Localization

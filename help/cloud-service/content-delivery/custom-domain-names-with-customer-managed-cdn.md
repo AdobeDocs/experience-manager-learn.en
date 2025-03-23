@@ -1,7 +1,7 @@
 ---
 title: Custom domain name with customer-managed CDN
 description: Learn how to implement a custom domain name to the AEM as a Cloud Service web site that uses a customer-managed CDN.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Cloud Manager, Operations
 topic: Administration, Architecture
 role: Admin, Architect, Developer

@@ -2,7 +2,7 @@
 title: Dynamic Media Templates
 description: Explore Dynamic Media Templates and best practices to optimize media management and content delivery for better performance.
 feature: Smart Services, Image Sets, Image Profiles
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video

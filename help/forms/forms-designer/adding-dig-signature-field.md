@@ -1,7 +1,7 @@
 ---
 title: Adding digital signature field to a form
 description: Short Video which describes adding Digital Signatures to an AEM Form
-version: 6.5
+version: Experience Manager 6.5
 feature: Designer,Forms Designer
 topic: Development
 role: User

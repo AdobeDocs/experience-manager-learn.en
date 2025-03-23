@@ -4,7 +4,7 @@ user-guide-description: A multi-part tutorial for developers new to AEM. Impleme
 breadcrumb-title: AEM Sites WKND Tutorials
 solution: Experience Manager, Experience Manager Sites
 sub-product: Experience Manager Sites
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 activity: develop
 audience: developer
 index: y

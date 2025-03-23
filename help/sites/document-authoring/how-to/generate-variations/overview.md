@@ -1,7 +1,7 @@
 ---
 title: Generate Variations in Edge Delivery Services
 description: Introduction to Generate Variations in Edge Delivery Services and understanding how it can be useful to marketers.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Admin, Developer, Leader, User

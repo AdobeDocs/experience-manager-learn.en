@@ -1,7 +1,7 @@
 ---
 title: Integrate AEM Headless and Target
 description: Learn how to integrate AEM Headless and Adobe Target to personalize headless experiences using the Experience Platform Web SDK.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, Integrations
 topic: Personalization, Headless
 role: Admin, Developer

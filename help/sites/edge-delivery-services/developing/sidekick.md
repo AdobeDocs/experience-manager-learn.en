@@ -1,7 +1,7 @@
 ---
 title: AEM Sidekick and Edge Delivery Services
 description: Using the Sidekick in Edge Delivery Services to take content live.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

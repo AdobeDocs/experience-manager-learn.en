@@ -4,7 +4,7 @@ description: Steps to capture network logs for troubleshooting network related i
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: bf2652fc-a52f-4941-80b9-64f0fae3baab

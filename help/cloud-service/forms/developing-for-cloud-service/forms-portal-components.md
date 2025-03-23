@@ -4,7 +4,7 @@ description: Build an AEM Forms Portal using core components
 solution: Experience Manager
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 feature: Core Components
 jira: KT-10373

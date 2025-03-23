@@ -4,7 +4,7 @@ description: PDF is actually a family of file formats, and this article describe
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 feature: PDF Generator
 jira: KT-7071
 topic: Development

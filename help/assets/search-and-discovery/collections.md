@@ -2,7 +2,7 @@
 title: Collections
 description: Learn how collections provides and alternative view into AEM Assets.
 feature: Collections
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4543
 thumbnail: 32053.jpg
 topic: Content Management

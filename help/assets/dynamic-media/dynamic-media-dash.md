@@ -1,7 +1,7 @@
 ---
 title: Dynamic Media and DASH adaptive streaming
 description: Learn how Dynamic Media's DASH streaming protocol ensures smooth video playback.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Image Profiles, Viewer Presets
 topic: Content Management
 role: Admin, Leader, User

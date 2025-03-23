@@ -4,7 +4,7 @@ description: Learn about the basic operations of AEM Assets including how to cre
 feature: Asset Management
 role: User
 level: Beginner
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4299
 thumbnail: 32044.jpg
 topic: Content Management

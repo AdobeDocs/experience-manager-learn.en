@@ -4,7 +4,7 @@ description: Encrypt Keystore password to configure in lc_turnkey.xml file
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: e5b1b526-022e-4a82-9f4b-5f60210bb9ff

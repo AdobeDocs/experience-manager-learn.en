@@ -1,7 +1,7 @@
 ---
 title: Using rich text with AEM Headless
 description: Learn to author content and embed referenced content using a multi-line rich text editor with Adobe Experience Manager Content Fragments, and how rich text is delivered by AEM's GraphQL APIs as JSON to be consumed by headless applications.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: article
 jira: KT-9985
 feature: Content Fragments, GraphQL API

@@ -4,7 +4,7 @@ description: Steps to reset default password for admin in AEM Forms OSGi
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: 21daa263-2a11-402c-ba34-79b76fc9e3d1

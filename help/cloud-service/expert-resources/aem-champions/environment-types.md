@@ -1,7 +1,7 @@
 ---
 title: AEM Champion Tips and Tricks - Cloud Manager Environment Types
 description: Check out these tips about Cloud Manager's environment types from AEM champion and expert, Rakesh Pasupuleti.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Cloud Manager
 topic: Administration
 role: Admin, Architect

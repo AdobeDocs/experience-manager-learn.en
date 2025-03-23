@@ -1,7 +1,7 @@
 ---
 title: AEM Publish service caching
 description: General overview of AEM as a Cloud Service Publish service caching.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Dispatcher, Developer Tools
 topic: Performance
 role: Architect, Developer

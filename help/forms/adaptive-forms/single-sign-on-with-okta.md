@@ -2,7 +2,7 @@
 title: Configuring OKTA with AEM
 description: Understand various configuration settings for using single sign-on using okta
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 role: Admin
 level: Experienced

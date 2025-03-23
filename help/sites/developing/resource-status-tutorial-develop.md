@@ -2,7 +2,7 @@
 title: Developing Resource Statuses in AEM Sites
 description: Adobe Experience Manager's Resource Status API's, is a pluggable framework for exposing status messaging in AEM's various editor Web UIs.
 doc-type: Tutorial
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 duration: 88
 ---
 

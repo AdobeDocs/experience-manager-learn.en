@@ -1,7 +1,7 @@
 ---
 title: Sitemaps
 description: Learn how to help boost your SEO by creating sitemaps for AEM Sites.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Core Components
 topic: Content Management
 role: Developer

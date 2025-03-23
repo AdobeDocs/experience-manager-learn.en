@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Mysteries of Cloud Manager - Functional Tests
 description: How and why to create custom functional tests
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 thumbnail: 343624.jpeg

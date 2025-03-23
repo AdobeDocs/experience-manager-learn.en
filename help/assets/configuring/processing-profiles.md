@@ -2,7 +2,7 @@
 title: Processing profiles
 description: Processing profiles define the renditions to be created for assets in AEM as a Cloud Service.
 feature: Asset Compute Microservices
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4993
 thumbnail: 35597.jpg
 topic: Integrations

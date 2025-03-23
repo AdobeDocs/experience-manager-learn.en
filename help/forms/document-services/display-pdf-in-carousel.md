@@ -1,7 +1,7 @@
 ---
 title: Display multiple pdf documents
 description: Cycle through multiple pdf documents in an adaptive form.
-version: 6.5
+version: Experience Manager 6.5
 feature: Adaptive Forms
 topic: Development
 role: Developer

@@ -1,7 +1,7 @@
 ---
 title: Using the AEM Headless SDK
 description: Learn how to make GraphQL queries using the AEM Headless SDK.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Headless
 feature: GraphQL API
 role: Developer

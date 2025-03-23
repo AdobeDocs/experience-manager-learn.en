@@ -2,7 +2,7 @@
 title: Metadata schemas
 description: Metadata schemas define the interface users interact with asset metadata in AEM, and their definition and application to assets are critical to digital asset management.
 feature: Metadata
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4981
 thumbnail: 33696.jpg
 topic: Content Management

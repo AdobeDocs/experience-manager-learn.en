@@ -1,7 +1,7 @@
 ---
 title: Binding form fields to an Mysql backed data source in Forms Designer
 description: Short Video which describes binding an AEM Form to a MySql Database
-version: 6.5
+version: Experience Manager 6.5
 feature: Forms Designer,Designer
 topic: Development
 role: User

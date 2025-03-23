@@ -4,7 +4,7 @@ description: Configure debug logging for troubleshooting issues related to JBoss
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: e66f17f0-de65-4249-9133-8f65a9eafb49

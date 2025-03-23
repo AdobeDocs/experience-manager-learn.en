@@ -1,7 +1,7 @@
 ---
 title: Getting a Login Token for Integrations
 description: An depth guide on how to get a login token for Cloud Service integrations and some use cases for doing so.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 jira: KT-9981

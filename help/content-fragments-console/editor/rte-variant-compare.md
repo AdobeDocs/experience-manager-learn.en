@@ -1,7 +1,7 @@
 ---
 title: RTE variant compare - Content Fragment Editor
 description: Learn how AEM allows you to effortlessly compare and synchronize RTE field within Content Fragment variations. By comparing and syncing these variations, you can ensure consistent messaging across all channels that use the content fragment.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Content Management
 role: User

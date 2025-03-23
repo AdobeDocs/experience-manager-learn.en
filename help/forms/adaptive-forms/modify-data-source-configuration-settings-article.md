@@ -2,7 +2,7 @@
 title: Modify Data Source Configuration Settings.
 description: Modify the host name and other settings in Data Source Configuration Settings.
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

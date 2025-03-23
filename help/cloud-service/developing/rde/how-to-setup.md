@@ -2,7 +2,7 @@
 title: How to set up Rapid Development Environment
 description: Learn how to set up Rapid Development Environment for AEM as a Cloud Service.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

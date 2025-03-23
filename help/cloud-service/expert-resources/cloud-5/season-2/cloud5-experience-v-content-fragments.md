@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Experience versus Content Fragments
 description: A versus take on what the differences are between an experience fragment and a content fragment
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 thumbnail: 342864.jpeg

@@ -2,7 +2,7 @@
 title: Testing the welcome kit solution
 description: Deploying the solution assets to test the solution
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

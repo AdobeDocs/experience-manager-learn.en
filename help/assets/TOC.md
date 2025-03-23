@@ -4,7 +4,7 @@ user-guide-description: A collection of videos and tutorials for Adobe Experienc
 breadcrumb-title: AEM Assets Tutorials
 solution: Experience Manager, Experience Manager Assets
 sub-product: Experience Manager Assets
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 feature-set: Experience Manager Assets, Experience Manager Sites, Experience Manager
 team: TM
 ---

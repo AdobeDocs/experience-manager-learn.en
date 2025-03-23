@@ -1,7 +1,7 @@
 ---
 title: Index Converter
 description: Learn how the Index Converter automatically converts existing AEM index definitions to be AEM as a Cloud Service compatible.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer

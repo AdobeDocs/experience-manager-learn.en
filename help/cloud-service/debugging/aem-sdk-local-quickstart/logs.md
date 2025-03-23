@@ -2,7 +2,7 @@
 title: Debugging AEM SDK using logs
 description: Logs act as the frontline for debugging AEM applications, but are dependent on adequate logging in the deployed AEM application.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: Tutorial
 jira: KT-5252
 topic: Development

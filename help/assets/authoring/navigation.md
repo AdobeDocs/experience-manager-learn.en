@@ -4,7 +4,7 @@ description: Explore the basics for navigation AEM Assets.
 feature: Asset Management
 role: User
 level: Beginner
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4832
 thumbnail: 32046.jpg
 topic: Content Management

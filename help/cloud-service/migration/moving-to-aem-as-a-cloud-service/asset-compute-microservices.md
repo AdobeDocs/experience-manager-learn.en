@@ -1,7 +1,7 @@
 ---
 title: AEM Assets Microservices and moving to AEM as a Cloud Service
 description: Learn how AEM Assets as a Cloud Service's asset compute microservices allow you to automatically and efficiently generate any rendition for your assets, replacing this role of traditional AEM Workflow.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Compute Microservices
 topic: Migration, Upgrade
 role: Developer

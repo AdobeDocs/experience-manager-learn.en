@@ -1,7 +1,7 @@
 ---
 title: AEM Eventing
 description: Learn about AEM eventing, what it is, why and when to use it and examples of it.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing, App Builder
 topic: Development, Architecture, Content Management
 role: Architect, Developer

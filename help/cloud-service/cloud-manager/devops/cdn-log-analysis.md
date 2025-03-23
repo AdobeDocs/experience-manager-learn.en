@@ -1,7 +1,7 @@
 ---
 title: CDN log analysis tooling
 description: Learn about the AEM Cloud Service CDN Log Analysis Tooling that Adobe provides and how it helps to get insights into both your CDN performance and AEM implementation.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developer Tools
 topic: Development
 role: Developer, Architect, Admin

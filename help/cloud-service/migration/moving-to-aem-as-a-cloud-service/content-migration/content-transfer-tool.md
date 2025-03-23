@@ -1,7 +1,7 @@
 ---
 title: Content Migration using Content Transfer Tool
 description: Learn how Content Transfer Tool helps you migrate content to AEM as a Cloud Service from AEM 6.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Migration, Upgrade
 feature: Migration
 role: Developer

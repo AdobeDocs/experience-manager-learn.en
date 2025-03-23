@@ -1,7 +1,7 @@
 ---
 title: Content Fragment preview
 description: Learn how to use Content Fragment preview to all authors to quickly see how content changes impact your AEM Headless experiences.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Headless, Content Management, Development
 role: Architect, Developer

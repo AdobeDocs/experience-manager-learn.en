@@ -1,7 +1,7 @@
 ---
 title: AEM Headless quick setup for AEM as a Cloud Service
 description: The AEM Headless quick setup gets you hands-on with AEM Headless using content from the WKND Site sample project, and a React App that consumes the content over AEM Headless GraphQL APIs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer

@@ -1,7 +1,7 @@
 ---
 title: How to optimize for social media sharing in Edge Delivery Services
 description: Learn how to optimize your content for social media sharing using Edge Delivery Services.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

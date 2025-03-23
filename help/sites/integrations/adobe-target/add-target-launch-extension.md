@@ -1,7 +1,7 @@
 ---
 title: Add Target extension to a tags property
 description: Learn how to add the Adobe Target extension to an tags property.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-6131
 thumbnail: 41247.jpg
 topic: Integrations

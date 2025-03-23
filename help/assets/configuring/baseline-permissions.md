@@ -2,7 +2,7 @@
 title: Baseline permissions
 description: Managing user access on the baseline asset folders is a critical aspect in governance, and ensures the processes can be properly supported.
 feature: Asset Management
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4870
 thumbnail: 37696.jpg
 topic: Content Management

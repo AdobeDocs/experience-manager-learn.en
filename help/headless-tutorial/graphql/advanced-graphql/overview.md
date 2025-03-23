@@ -1,7 +1,7 @@
 ---
 title: Advanced Concepts of AEM Headless - GraphQL
 description: An end-to-end tutorial illustrating advanced concepts of Adobe Experience Manager (AEM) GraphQL APIs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer

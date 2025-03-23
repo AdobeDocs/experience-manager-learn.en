@@ -2,7 +2,7 @@
 title: Deploy an AEM UI extension
 description: Learn how to deploy an AEM UI extension.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

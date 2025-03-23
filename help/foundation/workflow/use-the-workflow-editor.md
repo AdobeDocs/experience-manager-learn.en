@@ -1,7 +1,7 @@
 ---
 title: How to create Workflows in AEM
 description: Workflow enables business process management in Experience Manager, and is used for automatic processing of content and well as facilitating governance and process requiring human decision making.
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Workflow
 topic: Content Management
 level: Intermediate

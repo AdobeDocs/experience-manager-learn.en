@@ -2,7 +2,7 @@
 title: Edge Delivery Services development
 description: Learn how to develop AEM web sites that are delivered using Edge Delivery Services.
 feature: Edge Delivery Services
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

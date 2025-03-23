@@ -4,7 +4,7 @@ description: Configure SSL on AEM Forms OSGI to access AEM over HTTPS
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: 2ae5e14f-29c6-49c1-89ee-59de8a596aa6

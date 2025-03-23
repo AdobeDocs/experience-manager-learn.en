@@ -1,7 +1,7 @@
 ---
 title: Create a code project
 description: Create a code project for Edge Delivery Services, editable using the Universal Editor.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

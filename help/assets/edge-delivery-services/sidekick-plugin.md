@@ -1,7 +1,7 @@
 ---
 title: AEM Assets Sidekick plugin and Edge Delivery Services
 description: Learn how the AEM Assets Sidekick plugin can be utilized to incorporate managed assets into high-impact experiences delivered through Edge Delivery Services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services, Selectors
 topic: Content Management
 role: User

@@ -2,7 +2,7 @@
 title: Test an Asset Compute worker
 description: The Asset Compute project defines a pattern for easily creating and executing tests of Asset Compute workers.
 feature: Asset Compute Microservices
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: Tutorial
 jira: KT-6284
 thumbnail: KT-6284.jpg

@@ -2,7 +2,7 @@
 title: AEM UI extension modal
 description: Learn how to create an AEM UI extension modal.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

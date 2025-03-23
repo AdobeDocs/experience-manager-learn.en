@@ -1,7 +1,7 @@
 ---
 title: Code Repository Modernizer
 description: Learn how the Core Repository Modernizer automatically updates existing AEM Maven projects to be AEM as a Cloud Service compatible.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer

@@ -1,7 +1,7 @@
 ---
 title: Using the Content Transfer Tool
 description: The Content Transfer Tool is the recommended way to migrate content from an on-premise or AMS hosted version of AEM to an AEM as a Cloud Service environment.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: technical-video
 feature: Migration
 jira: KT-5352

@@ -1,7 +1,7 @@
 ---
 title: Configuring a Secure Preview Server for AEM Dynamic Media
 description: Configure test image server for secure preview using AEM Dynamic Media Classic App.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Developer
 level: Intermediate
 topic: Development

@@ -2,7 +2,7 @@
 title: Variables of type form data model
 description: Using variables of type form data model in an AEM workflow.
 feature: Adaptive Forms, Workflow
-version: 6.5
+version: Experience Manager 6.5
 jira: KT-6347
 thumbnail: 41238.jpg
 topic: Development

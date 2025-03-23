@@ -1,7 +1,7 @@
 ---
 title: Using Cloud Acceleration Manager's tools
 description: A narrated walk-through of using  Cloud Acceleration Manager's tools.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer

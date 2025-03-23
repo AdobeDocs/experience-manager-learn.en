@@ -1,7 +1,7 @@
 ---
 title: Authentication support in AEM 6.x
 description: A consolidated view into the authentication mechanisms supported by AEM 6.x.
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 feature: User and Groups
 doc-type: Article
 jira: KT-406

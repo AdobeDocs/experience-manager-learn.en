@@ -2,7 +2,7 @@
 title: Click on card to display the form
 description: Drill down on form from card view
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 jira: KT-13372
 topic: Development
 role: User

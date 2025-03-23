@@ -1,7 +1,7 @@
 ---
 title: Adobe Express integration with AEM Assets
 description: Learn how to use Adobe Express' integration with AEM Assets to optimize content supply chains, enhancing productivity and accessibility for all team members.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Integrations
 topic: Integrations, Content Management, Content Supply Chain
 role: User

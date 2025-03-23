@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Fix Your... Rewrites
 description: Some easy tips to optimize your rewrites and speed up your site
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 thumbnail: 343600.jpeg

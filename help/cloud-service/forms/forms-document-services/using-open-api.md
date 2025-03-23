@@ -4,7 +4,7 @@ description: Configure OpenAPI-based AEM Forms Communication APIs for server-to-
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Document Services
 topic: Development
 jira: KT-17479

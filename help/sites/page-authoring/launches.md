@@ -5,7 +5,7 @@ topic: Content Management
 feature: Launches
 level: Intermediate, Experienced
 role: Admin
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-6970
 thumbnail: 331285.jpg
 doc-type: Feature Video

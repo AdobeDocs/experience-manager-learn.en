@@ -1,7 +1,7 @@
 ---
 title: AMS Dispatcher Health Check
 description: AMS provides a health check cgi-bin script that the cloud load balancers will run to see if AEM is healthy and should stay in service for public traffic.
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 feature: Dispatcher
 role: Admin

@@ -3,7 +3,7 @@ title: Overview of Multi-site Management in AEM Sites
 description: The following video provides an overview of basic concepts of multi site management in AEM Sites.
 feature: language-copy, live-copy, multi-site-manager
 doc-type: Feature Video
-version: 6.4, 6.5, Cloud Service
+version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-5377
 thumbnail: 33594.jpg
 duration: 210

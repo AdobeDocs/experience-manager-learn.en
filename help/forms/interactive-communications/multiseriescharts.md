@@ -3,7 +3,7 @@ title: Multi Series Charts in AEM Forms
 description: Create appropriate Form Data Model to create multi series charts in print and web channel documents.
 feature: Interactive Communication
 doc-type: article
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

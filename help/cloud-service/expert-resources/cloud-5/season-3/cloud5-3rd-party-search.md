@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Third-party search
 description: Explore how third-party search can best be integrated into Edge Delivery Services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Admin, Developer

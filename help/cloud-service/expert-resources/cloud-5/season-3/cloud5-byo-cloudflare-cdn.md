@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Bring your own Cloudflare CDN
 description: Explore how to configure your own Cloudflare CDN into Edge Delivery Services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer, Leader, User

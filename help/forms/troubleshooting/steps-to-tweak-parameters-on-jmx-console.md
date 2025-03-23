@@ -4,7 +4,7 @@ description: Configure JMX Console parameters
 type: Troubleshooting
 role: Developer
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Output Service, Forms Service
 topic: Development
 index: y

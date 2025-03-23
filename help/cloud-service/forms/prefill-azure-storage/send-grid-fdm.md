@@ -5,7 +5,7 @@ feature: Adaptive Forms
 type: Documentation
 role: Developer
 level: Beginner
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Integrations
 jira: KT-13717
 exl-id: 4b2d1e50-9fa1-4934-820b-7dae984cee00

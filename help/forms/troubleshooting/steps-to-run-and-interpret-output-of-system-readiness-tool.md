@@ -4,7 +4,7 @@ description: Interprer the results of PDF Generator readiness utility.
 type: Troubleshooting
 role: Developer
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: PDF Generator
 topic: Development
 index: y

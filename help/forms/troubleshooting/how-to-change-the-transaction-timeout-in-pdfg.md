@@ -4,7 +4,7 @@ description: Steps to increase or decrease the transaction timeout of an applica
 type: Troubleshooting
 role: Admin
 level: Beginner
-version: 6.5
+version: Experience Manager 6.5
 feature: PDF Generator
 topic: Administration
 index: y

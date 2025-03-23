@@ -4,7 +4,7 @@ description: Steps to resolve the exception "ForcedDisconnectException - This me
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: c40f040a-6e9e-498e-a8b3-749ba70fc229

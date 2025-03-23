@@ -2,7 +2,7 @@
 title: Customize text editor
 description: Learn how to customize text editor.
 doc-type: article
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

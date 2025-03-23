@@ -1,7 +1,7 @@
 ---
 title: Header and Footer
 description: Learn how header and footers are developed in Edge Delivery Services and Universal Editor.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

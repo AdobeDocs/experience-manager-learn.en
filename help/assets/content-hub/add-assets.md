@@ -1,7 +1,7 @@
 ---
 title: Upload, manage, and approve assets in AEM Assets Content Hub
 description: Learn how to upload assets, apply tags, and understand the approval workflow in Adobe Experience Manager Assets Content Hub.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management, Upload, Marketing Campaigns
 topic: Content Supply Chain, Content Management
 role: User

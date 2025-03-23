@@ -1,7 +1,7 @@
 ---
 title: Share assets and collections
 description: Learn how to share assets and collections with team members in AEM Assets Content Hub, promoting effective teamwork and secure asset sharing.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Configuration, Asset Management
 topic: Content Supply Chain, Administration
 role: User

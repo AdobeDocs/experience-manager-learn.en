@@ -1,7 +1,7 @@
 ---
 title: AEM Events processing using Adobe I/O Runtime Action
 description: Learn how to process received AEM Events using Adobe I/O Runtime Action.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing, App Builder
 topic: Development, Architecture, Content Management
 role: Architect, Developer

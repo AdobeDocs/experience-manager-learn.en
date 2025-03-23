@@ -1,7 +1,7 @@
 ---
 title: Implementing pipeline-free URL redirects
 description: Learn how to implement pipeline-free URL redirects in AEM as a Cloud Service to enable the marketing team to manage the redirects without needing a developer.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Operations, Dispatcher
 topic: Development, Content Management, Administration
 role: Architect, Developer, User

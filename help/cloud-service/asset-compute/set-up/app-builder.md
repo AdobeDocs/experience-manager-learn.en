@@ -2,7 +2,7 @@
 title: Set up App Builder for Asset Compute extensibility
 description: Asset Compute projects are specially defined App Builder projects, and as such, require access to App Builder in the Adobe Developer Console in order to set up and deploy them.
 feature: Asset Compute Microservices
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: Tutorial
 jira: KT-6268
 thumbnail: 40183.jpg

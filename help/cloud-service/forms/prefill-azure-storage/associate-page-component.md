@@ -5,7 +5,7 @@ feature: Adaptive Forms
 type: Documentation
 role: Developer
 level: Beginner
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Integrations
 exl-id: 7b2b1e1c-820f-4387-a78b-5d889c31eec0
 duration: 25

@@ -1,7 +1,7 @@
 ---
 title: Taxonomy management in Assets view
 description: Learn how to manage your tagging taxonomy in the AEM Assets Assets view.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management
 role: Admin

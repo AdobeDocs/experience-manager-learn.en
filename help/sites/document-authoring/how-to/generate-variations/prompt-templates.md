@@ -1,7 +1,7 @@
 ---
 title: Generate Variations - Prompt templates in Edge Delivery Services
 description: Explore how to use prompt templates for Generate Variations in Edge Delivery Services document authoring.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: Admin, Developer, Leader, User

@@ -1,7 +1,7 @@
 ---
 title: Set up a local development environment
 description: Set up a local development environment for sites delivered with Edge Delivery Services and editable with Universal Editor.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

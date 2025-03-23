@@ -2,7 +2,7 @@
 title: Verify an AEM UI extension
 description: Learn how to preview, test, and verify an AEM UI extension before deploying to production.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

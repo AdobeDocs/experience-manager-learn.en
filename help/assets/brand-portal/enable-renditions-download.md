@@ -3,7 +3,7 @@ title: How to enable the download of renditions in the Brand Portal.
 description: Steps to enable  download of rendition in Brand Portal
 role: Developer
 level: Beginner
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Brand Portal
 topic: Development
 last-substantial-update: 2022-06-19

@@ -1,7 +1,7 @@
 ---
 title: How to use AEM React Editable Components v2
 description: Learn how to use AEM React Editable Components v2 to power a React app.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Headless
 feature: SPA Editor
 role: Developer

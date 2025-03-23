@@ -4,7 +4,7 @@ description: Reset password of Administrator user from the default password
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 index: y
 exl-id: e0fe53a3-6881-4a46-8040-3d8815809897

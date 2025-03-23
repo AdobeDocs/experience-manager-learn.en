@@ -1,7 +1,7 @@
 ---
 title: Generate Variations
 description: Generate Variations in Adobe Experience Manager optimizes text and images for any experiences.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 role: User
 level: Beginner, Intermediate

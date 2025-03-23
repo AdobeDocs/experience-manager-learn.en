@@ -4,7 +4,7 @@ description: Steps to investigate issues related to jetty configuration
 type: Troubleshooting
 role: Admin
 level: Intermediate
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Developer Tools
 topic: Administration
 index: y

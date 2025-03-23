@@ -1,7 +1,7 @@
 ---
 title: Query Indexes and Excel Formulas
 description: Explore query indexes and how to write Excel formulas for manipulating and sorting datasets with Edge Delivery Services.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Admin, Developer, Leader, User

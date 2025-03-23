@@ -1,7 +1,7 @@
 ---
 title: Responsive breakpoints
 description: Learn how to configure new responsive breakpoints for AEM responsive Page Editor.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Page Editor
 topic: Mobile, Development
 role: Developer

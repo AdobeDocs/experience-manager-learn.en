@@ -1,7 +1,7 @@
 ---
 title: Customizing the Importer
 description: Learn how to customize the AEM Importer to achieve maximum results during site migration.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Content Management
 role: Developer, User, Architect

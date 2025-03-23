@@ -1,7 +1,7 @@
 ---
 title: How to customize the Edge Delivery Services Sidekick
 description: Learn how to customize the Edge Delivery Services Sidekick.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

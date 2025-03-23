@@ -1,7 +1,7 @@
 ---
 title: Get started with AEM Sites - Project Setup
 description: Create a Maven Multi Module Project to manage the code and configurations for an Experience Manager Site.
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: AEM Project Archetype
 topic: Content Management, Development
 role: Developer

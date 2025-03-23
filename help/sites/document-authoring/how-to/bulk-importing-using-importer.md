@@ -1,7 +1,7 @@
 ---
 title: Bulk importing using the Importer
 description: Learn how to bulk import web pages using the AEM Importer tool during site migration.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Content Management
 role: Developer, User, Architect

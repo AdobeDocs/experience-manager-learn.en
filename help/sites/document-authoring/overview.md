@@ -1,7 +1,7 @@
 ---
 title: Document authoring videos
 description: Learn how to setup and configure document authoring in AEM.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User

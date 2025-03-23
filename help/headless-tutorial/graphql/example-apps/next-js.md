@@ -1,7 +1,7 @@
 ---
 title: Next.js - AEM Headless Example
 description: Example applications are a great way to explore the headless capabilities of Adobe Experience Manager (AEM). This Next.js application demonstrates how to query content using AEM's GraphQL APIs using persisted queries.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 mini-toc-levels: 1
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management

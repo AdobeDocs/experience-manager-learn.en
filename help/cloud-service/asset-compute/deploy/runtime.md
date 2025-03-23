@@ -2,7 +2,7 @@
 title: Deploy Asset Compute workers to Adobe I/O Runtime for use with AEM as a Cloud Service
 description: Asset Compute projects, and the workers they contain, must be deployed to Adobe I/O Runtime to be used by AEM as a Cloud Service.
 feature: Asset Compute Microservices
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 doc-type: Tutorial
 jira: KT-6286
 thumbnail: KT-6286.jpg

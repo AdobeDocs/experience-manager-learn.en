@@ -1,7 +1,7 @@
 ---
 title: AEM Assets events for PIM integration
 description: Learn how to integrate AEM Assets and Product Information Management (PIM) systems for asset metadata updates.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing, App Builder
 topic: Development, Architecture, Content Management
 role: Architect, Developer

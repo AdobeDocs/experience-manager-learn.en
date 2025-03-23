@@ -2,7 +2,7 @@
 title: Rapid Development Environments
 description: Learn about AEM Rapid Development Environments, what are they and how they can help for faster development to deployment cycles.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

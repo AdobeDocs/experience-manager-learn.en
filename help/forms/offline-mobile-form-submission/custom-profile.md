@@ -3,7 +3,7 @@ title: Trigger AEM workflow on HTML5 Form Submission - Create custom profile
 description: Create custom profile to download an interactive pdf with the data from the partially filled HTML5 form
 feature: Mobile Forms
 doc-type: article
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

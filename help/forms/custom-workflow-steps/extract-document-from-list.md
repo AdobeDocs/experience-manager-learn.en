@@ -2,7 +2,7 @@
 title: Extract document from list of documents in an AEM workflow
 description: Custom workflow component to extract a specific document from a list of documents
 feature: Adaptive Forms
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

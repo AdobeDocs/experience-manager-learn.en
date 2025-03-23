@@ -1,7 +1,7 @@
 ---
 title: Build a complex Image List component - AEM Headless first tutorial
 description: Learn how to work with Content Fragment, content references, and images.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Development
 role: Developer

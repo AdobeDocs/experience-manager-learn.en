@@ -2,7 +2,7 @@
 title: Using Social Media Sharing in AEM Sites
 description: Explore setting up and using the Social Media Sharing component.
 feature: Core Components
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Content Management
 role: Developer
 level: Intermediate

@@ -4,7 +4,7 @@ description: Configure Acrobat to apply policy to a document using document secu
 type: Troubleshooting
 role: Developer
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 feature: Document Security
 topic: Development
 index: y

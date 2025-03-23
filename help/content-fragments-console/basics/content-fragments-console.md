@@ -1,7 +1,7 @@
 ---
 title: Content Fragments Console overview
 description: Learn about the basic features and functionalities of AEM as a Cloud Service's Content Fragments authoring console.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Content Management
 role: Data Architect, User

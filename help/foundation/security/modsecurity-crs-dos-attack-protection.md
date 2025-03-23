@@ -2,7 +2,7 @@
 title: Use ModSecurity to protect your AEM site from DoS Attack
 description: Learn how to enable the ModSecurity to protect your site from Denial of Service (DoS) attack using the OWASP ModSecurity Core Rule Set (CRS).
 feature: Security
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 topic: Security, Development
 role: Admin, Architect
 level: Experienced

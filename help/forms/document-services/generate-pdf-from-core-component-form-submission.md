@@ -1,7 +1,7 @@
 ---
 title: Generate PDF with data from core component based adaptive form
 description: Merge data from core component based form submission with XDP template in workflow
-version: 6.5
+version: Experience Manager 6.5
 feature: Forms Service
 topic: Development
 role: Developer

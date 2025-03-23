@@ -1,7 +1,7 @@
 ---
 title: AEM Dispatcher Flushing
 description: Understand how AEM invalidates old cache files from the Dispatcher.
-version: 6.5
+version: Experience Manager 6.5
 topic: Administration
 feature: Dispatcher
 role: Admin

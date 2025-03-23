@@ -2,7 +2,7 @@
 title: Introduction to OSGi
 description: An introduction to OSGi, a dynamic modular architecture for Java applications that is the basis for Adobe Experience Manager.
 doc-type: technical video
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 jira: KT-4642
 thumbnail: 32031.jpg
 topic: Architecture

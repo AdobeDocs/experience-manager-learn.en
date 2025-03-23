@@ -1,7 +1,7 @@
 ---
 title: Parameterize Sling Models from HTL
 description: Learn how to pass in parameters from HTL to a Sling Model in AEM.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 feature: Sling Model
 role: Developer

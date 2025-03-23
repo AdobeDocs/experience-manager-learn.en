@@ -1,7 +1,7 @@
 ---
 title: Blocked Tags
 description: Learn how to enhance asset management in AEM as a Cloud Service by using Blocked Tags to prevent the application of culturally sensitive, irrelevant, or controversial Smart Tags.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management
 topic: Content Management
 role: Admin, User

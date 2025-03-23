@@ -3,7 +3,7 @@ user-guide-title: Adobe Experience Manager Managed Services Tutorials
 user-guide-description: A collection of tutorials for Adobe Experience Manager Managed Services.
 breadcrumb-title: AEM Managed Services Tutorials
 sub-product: Experience Manager
-version: 6.5
+version: Experience Manager 6.5
 feature: Dispatcher
 team: TM
 ---

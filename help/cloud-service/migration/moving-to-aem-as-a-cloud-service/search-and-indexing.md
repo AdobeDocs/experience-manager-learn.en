@@ -1,7 +1,7 @@
 ---
 title: Search and indexing in AEM as a Cloud Service
 description: Learn about AEM as a Cloud Service's search indexes, how to convert AEM 6 index definitions, and how to deploy indexes.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Search
 topic: Migration, Upgrade
 role: Developer

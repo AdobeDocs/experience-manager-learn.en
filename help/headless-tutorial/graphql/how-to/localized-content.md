@@ -1,7 +1,7 @@
 ---
 title: Using localized content with AEM Headless
 description: Learn how to use GraphQL to query AEM for localized content.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless
 role: Developer

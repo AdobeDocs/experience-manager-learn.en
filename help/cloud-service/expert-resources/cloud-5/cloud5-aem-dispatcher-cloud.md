@@ -1,7 +1,7 @@
 ---
 title: Using the Dispatcher in the Cloud
 description: Darin and James discuss the Dispatcher in the AEM Cloud including some best practices and differences from AMS/On-Prem. They also touch upon migration to the cloud.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 jira: KT-10054

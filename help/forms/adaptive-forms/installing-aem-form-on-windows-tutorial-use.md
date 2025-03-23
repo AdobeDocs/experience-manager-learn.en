@@ -3,7 +3,7 @@ title: Simplified Steps for Installing AEM Forms on Windows
 description: Quick and easy steps to install AEM Forms on windows
 feature: Adaptive Forms
 type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Admin
 level: Beginner

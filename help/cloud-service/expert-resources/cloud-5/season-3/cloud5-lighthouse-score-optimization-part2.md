@@ -1,7 +1,7 @@
 ---
 title: Lighthouse Score Optimization - Part 2
 description: Learn about techniques to improve total blocking time and get the highest possible lighthouse scores on your Edge Delivery Services project.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer, Leader, User

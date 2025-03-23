@@ -4,7 +4,7 @@ description: Steps to run process purge tool from command line to delete records
 type: Troubleshooting
 role: Developer
 level: Intermediate
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 index: y
 exl-id: 1f539f1c-b3be-4e21-b0fe-6f523a453c5f

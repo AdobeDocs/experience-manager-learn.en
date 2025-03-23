@@ -1,7 +1,7 @@
 ---
 title: Preview and publish content with Edge Delivery Services
 description: Preview and publish content with Edge Delivery Services with the AEM Sidekick
-version: 6.5, Cloud Service
+version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

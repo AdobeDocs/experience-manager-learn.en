@@ -2,7 +2,7 @@
 title: Adobe Asset Link setup
 description: Learn how to set up Adobe Asset Link at no cost, which connects your Creative Cloud apps including Photoshop, Illustrator, InDesign, and XD to Adobe Experience Manager Assets.
 feature: Adobe Asset Link
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Content Management
 role: Admin, User
 level: Beginner

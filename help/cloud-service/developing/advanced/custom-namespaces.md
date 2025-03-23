@@ -1,7 +1,7 @@
 ---
 title: Custom namespaces
 description: Learn how to define and deploy custom namespaces to AEM as a Cloud Service.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development, Content Management
 feature: Metadata
 role: Developer

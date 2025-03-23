@@ -1,7 +1,7 @@
 ---
 title: Cloud 5 - Development best practices for Edge Delivery Services
 description: Explore techniques for developing in Edge Delivery Services with a seasoned architect.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer, Leader, User

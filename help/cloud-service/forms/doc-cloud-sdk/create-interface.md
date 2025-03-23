@@ -5,7 +5,7 @@ solution: Experience Manager
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 thumbnail: 7825.jpg
 jira: KT-7825

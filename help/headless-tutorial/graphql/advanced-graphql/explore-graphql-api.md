@@ -1,7 +1,7 @@
 ---
 title: Explore the AEM GraphQL API - Advanced Concepts of AEM Headless - GraphQL
 description: Send GraphQL queries using the GraphiQL IDE. Learn about advanced queries using filters, variables, and directives. Query for fragment and content references including references from multi-line text fields.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Content Management
 role: Developer

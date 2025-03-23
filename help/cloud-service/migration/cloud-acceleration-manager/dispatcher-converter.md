@@ -1,7 +1,7 @@
 ---
 title: Dispatcher Converter
 description: Learn how how the Dispatcher Converter automatically updates existing AEM Dispatcher configurations to be AEM as a Cloud Service compatible.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer

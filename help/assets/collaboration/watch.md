@@ -1,7 +1,7 @@
 ---
 title: Watch assets, folders, and collections
 description: Learn to get notifications for changes in AEM Assets' asset, folder, or collection.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management
 topic: Collaboration
 role: User

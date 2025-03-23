@@ -6,7 +6,7 @@ user-guide-description: Collection of AEM Forms resources for beginners and expe
 solution: Experience Manager, Experience Manager Forms
 breadcrumb-title: AEM Forms Tutorials
 sub-product: Experience Manager Forms
-version: 6.4, 6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 index: y
 ---
 

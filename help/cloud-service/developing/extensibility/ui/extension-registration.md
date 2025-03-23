@@ -2,7 +2,7 @@
 title: AEM UI extension registration
 description: Learn how to register an AEM UI extension.
 feature: Developer Tools
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 topic: Development
 role: Developer
 level: Beginner

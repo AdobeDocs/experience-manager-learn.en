@@ -1,7 +1,7 @@
 ---
 title: Author a block
 description: Author a Edge Delivery Services block with Universal Editor.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

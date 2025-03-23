@@ -1,7 +1,7 @@
 ---
 title: AEM Assets and Adobe Express
 description: Discover how to create and edit content within AEM Assets using Adobe Express.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Integrations
 topic: Integrations, Content Management, Content Supply Chain
 role: Admin, User

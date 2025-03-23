@@ -3,7 +3,7 @@ title: Deploy the sample assets on your server
 description: Test the save as draft functionality for Interactive Communications
 feature: Interactive Communication
 doc-type: article
-version: 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

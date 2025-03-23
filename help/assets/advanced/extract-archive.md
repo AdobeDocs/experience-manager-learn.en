@@ -1,7 +1,7 @@
 ---
 title: Extract Archive
 description: Learn how to master efficient digital asset management in AEM Assets with our informative video, showcasing the Extract ZIP feature for effortlessly organizing and uploading your asset hierarchies directly into the DAM.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management
 topic: Content Management
 role: User

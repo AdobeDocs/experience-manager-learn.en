@@ -4,7 +4,7 @@ description: Create and configure form data model to interact with entities in M
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Adaptive Forms, Integrations
 topic: Development
 jira: KT-9839

@@ -1,7 +1,7 @@
 ---
 title: Readiness and Best Practice Analyzer
 description: Learn how the Best Practice Analyzer can help ready your application to be moved to Experience Manager as a Cloud Service
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
 role: Architect, Developer

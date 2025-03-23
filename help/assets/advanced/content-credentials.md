@@ -1,7 +1,7 @@
 ---
 title: Content credentials
 description: Learn how AEM Assets content credentials provide verifiable metadata to ensure the authenticity and integrity of digital assets.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Asset Management
 role: Leader, User
 level: Intermediate

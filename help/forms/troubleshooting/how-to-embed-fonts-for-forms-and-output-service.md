@@ -4,7 +4,7 @@ description: Steps to embed fonts for Forms and output service conversions
 type: Troubleshooting
 role: Admin
 level: Experienced
-version: 6.5
+version: Experience Manager 6.5
 feature: Forms Service, Output Service
 topic: Development
 index: y

@@ -1,7 +1,7 @@
 ---
 title: Web-optimized image delivery Java&trade; APIs
 description: Learn how to use AEM as a Cloud Service's web-optimized image delivery Java&trade; APIs to develop highly performant web experiences.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: APIs, Sling Model, OSGI, HTL or HTML Template Language
 topic: Performance, Development
 role: Architect, Developer

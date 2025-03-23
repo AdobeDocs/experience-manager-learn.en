@@ -1,7 +1,7 @@
 ---
 title: Install GraphiQL IDE on AEM 6.5
 description: Learn how to install and configure the GraphiQL IDE on AEM 6.5
-version: 6.5
+version: Experience Manager 6.5
 topic: Headless
 feature: GraphQL API
 role: Developer

@@ -1,7 +1,7 @@
 ---
 title: Set up OpenAPI-based AEM APIs
 description: Learn how to set up your AEM as a Cloud Service environment to enable access to the OpenAPI-based AEM APIs.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
 role: Architect, Developer, Leader

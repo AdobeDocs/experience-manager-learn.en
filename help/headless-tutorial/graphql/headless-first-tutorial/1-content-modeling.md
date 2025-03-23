@@ -1,7 +1,7 @@
 ---
 title: Content modeling - AEM Headless first tutorial
 description: Learn how to leverage Content Fragments, creating Fragment Models, and using GraphQL endpoints in AEM.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Content Fragments, GraphQL API
 topic: Headless, Development
 role: Developer

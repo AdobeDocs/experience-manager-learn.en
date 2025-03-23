@@ -1,7 +1,7 @@
 ---
 title: Develop a block with CSS
 description: Develop a block with CSS for Edge Delivery Services, editable using the Universal Editor.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
 role: Developer

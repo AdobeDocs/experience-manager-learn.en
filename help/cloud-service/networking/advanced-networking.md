@@ -1,7 +1,7 @@
 ---
 title: Advanced networking
 description: Learn about AEM as a Cloud Service's advanced networking options.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Integrations, Security
 role: Architect, Developer

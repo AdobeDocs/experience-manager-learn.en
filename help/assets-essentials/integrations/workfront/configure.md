@@ -1,7 +1,7 @@
 ---
 title: Configuring the Adobe Workfront and Assets Essentials integration
 description: Learn how to configure the Workfront and Assets Essentials integration.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management, Integrations
 role: User

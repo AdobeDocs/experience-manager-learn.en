@@ -3,7 +3,7 @@ title: Acroforms with AEM Forms
 description: Part 1 of integrating Acroforms with AEM Forms. Creating an Adaptive Form using Acroform and merging the data to obtain a PDF.
 feature: adaptive-forms
 doc-type: Tutorial
-version: 6.5
+version: Experience Manager 6.5
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 duration: 144
