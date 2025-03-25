@@ -90,7 +90,7 @@ The local AEM Author Service provides developers with a local experience digital
 
   ```shell
   $ mkdir -p ~/aem-sdk/author
-  $ cp aem-sdk-Quickstart-XXX.jar ~/aem-sdk/author/aem-author-p4502.jar
+  $ cp aem-sdk-quickstart-XXX.jar ~/aem-sdk/author/aem-author-p4502.jar
   $ cd ~/aem-sdk/author
   $ java -jar aem-author-p4502.jar
   ```
@@ -99,7 +99,7 @@ The local AEM Author Service provides developers with a local experience digital
 
   ```shell
   $ mkdir -p c:\Users\<My User>\aem-sdk\author
-  $ copy aem-sdk-Quickstart-XXX.jar c:\Users\<My User>\aem-sdk\author\aem-author-p4502.jar
+  $ copy aem-sdk-quickstart-XXX.jar c:\Users\<My User>\aem-sdk\author\aem-author-p4502.jar
   $ cd c:\Users\<My User>\aem-sdk\author
   $ java -jar aem-author-p4502.jar
   ```
@@ -108,7 +108,7 @@ The local AEM Author Service provides developers with a local experience digital
 
   ```shell
   $ mkdir -p ~/aem-sdk/author
-  $ cp aem-sdk-Quickstart-XXX.jar ~/aem-sdk/author/aem-author-p4502.jar
+  $ cp aem-sdk-quickstart-XXX.jar ~/aem-sdk/author/aem-author-p4502.jar
   $ cd ~/aem-sdk/author
   $ java -jar aem-author-p4502.jar
   ```
@@ -135,7 +135,7 @@ The local AEM Publish Service provides developers with the local experience end-
 
 ```shell
 $ mkdir -p ~/aem-sdk/publish
-$ cp aem-sdk-Quickstart-XXX.jar ~/aem-sdk/publish/aem-publish-p4503.jar
+$ cp aem-sdk-quickstart-XXX.jar ~/aem-sdk/publish/aem-publish-p4503.jar
 $ cd ~/aem-sdk/publish
 $ java -jar aem-publish-p4503.jar
 ```
@@ -144,7 +144,7 @@ $ java -jar aem-publish-p4503.jar
 
 ```shell
 $ mkdir -p c:\Users\<My User>\aem-sdk\publish
-$ copy aem-sdk-Quickstart-XXX.jar c:\Users\<My User>\aem-sdk\publish\aem-publish-p4503.jar
+$ copy aem-sdk-quickstart-XXX.jar c:\Users\<My User>\aem-sdk\publish\aem-publish-p4503.jar
 $ cd c:\Users\<My User>\aem-sdk\publish
 $ java -jar aem-publish-p4503.jar
 ```
@@ -153,7 +153,7 @@ $ java -jar aem-publish-p4503.jar
 
 ```shell
 $ mkdir -p ~/aem-sdk/publish
-$ cp aem-sdk-Quickstart-XXX.jar ~/aem-sdk/publish/aem-publish-p4503.jar
+$ cp aem-sdk-quickstart-XXX.jar ~/aem-sdk/publish/aem-publish-p4503.jar
 $ cd ~/aem-sdk/publish
 $ java -jar aem-publish-p4503.jar
 ```
