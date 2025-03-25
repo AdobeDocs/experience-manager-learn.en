@@ -2,7 +2,7 @@
 title: Create Main workflow to trigger the Signature Process
 description: Create workflow to store the forms for signature in the database
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 thumbnail: 6887.jpg
 jira: KT-6887
 topic: Development

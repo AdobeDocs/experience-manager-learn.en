@@ -3,7 +3,7 @@ title: Adding table to account balance panel
 description: This is part 9 of multistep tutorial for creating your first interactive communication document.In this part, we will add a table to the Account Balance panel.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 28a9d88d-635b-47a2-8a78-54ddeabc4406
 topic: Development
 role: Developer

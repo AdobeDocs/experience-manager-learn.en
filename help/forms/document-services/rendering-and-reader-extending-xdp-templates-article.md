@@ -1,7 +1,7 @@
 ---
 title: Rendering XDP into PDF with Usage Rights
 description: Apply usage rights to pdf
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 feature: Forms Service
 topic: Development
 role: Developer

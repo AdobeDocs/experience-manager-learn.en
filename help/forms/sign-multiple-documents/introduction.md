@@ -2,7 +2,7 @@
 title: Introduction
 description: Video demonstration of the sign multiple forms use case
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 thumbnail: 330165.jpg
 topic: Development
 role: Developer

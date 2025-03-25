@@ -2,7 +2,7 @@
 title: Create database tables
 description: Create database to be used by form data model
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-5811
 thumbnail: kt-5811.jpg
 topic: Development

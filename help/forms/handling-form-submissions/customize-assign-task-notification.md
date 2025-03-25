@@ -3,7 +3,7 @@ title: Customize Assign Task Notification
 description: Include form data in the assign task notification e-mails
 feature: Workflow
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6279
 thumbnail: KT-6279.jpg
 topic: Development

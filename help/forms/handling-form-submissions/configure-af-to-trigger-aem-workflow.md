@@ -3,7 +3,7 @@ title: Configuring Adaptive Form to trigger AEM Workflow
 description: Understanding the various options in configuring Adaptive Form to trigger AEM Workflow
 feature: Workflow
 doc-type: technical video
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

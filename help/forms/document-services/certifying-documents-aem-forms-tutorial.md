@@ -2,7 +2,7 @@
 title: Certifying Document in AEM Forms
 description: Using the Docassurance service to certify PDF documents in AEM Forms
 feature: Document Security
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

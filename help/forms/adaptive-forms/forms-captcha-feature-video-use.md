@@ -2,7 +2,7 @@
 title: Using CAPTCHAs with AEM Adaptive Forms
 description: Adding and using a CAPTCHA with AEM Adaptive Forms.
 feature: Adaptive Forms,Workflow
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

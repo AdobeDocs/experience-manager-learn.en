@@ -2,7 +2,7 @@
 title: Create a webform to be presented to the user for signing
 description: Create AEM bundle to expose the Acrobat sign methods necessary for the use case.
 feature: Adaptive Forms,Acrobat Sign
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

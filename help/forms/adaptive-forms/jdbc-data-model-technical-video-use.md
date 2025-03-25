@@ -2,7 +2,7 @@
 title: Using JDBC-based Form Data Models with AEM Forms
 description: This video illustrates how to create a Form Data Model based on a JDBC data source, an Adaptive Form based on the Form Data Model, and how to use the "INSERT" operation using Form Data Model.
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

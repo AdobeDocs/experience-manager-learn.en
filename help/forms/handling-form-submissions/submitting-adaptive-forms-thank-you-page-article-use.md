@@ -3,7 +3,7 @@ title: Submitting To Thank You Page
 description: Display a thank you page on submitting Adaptive Form
 feature: Adaptive Forms
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 58c6bf42-efe5-41a3-8023-d84f3675f689
 topic: Development
 role: Developer

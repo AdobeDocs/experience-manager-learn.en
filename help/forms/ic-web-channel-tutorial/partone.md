@@ -3,7 +3,7 @@ title: Install and Configure Tomcat
 description: This is part 1 of multistep tutorial for creating your first interactive communications document.In this part, we will install TOMCAT and deploy the sampleRest.war file in TOMCAT.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 4f400c22-6c96-4018-851c-70d988ce7c6c
 topic: Development
 role: Developer

@@ -2,7 +2,7 @@
 title: Get request parameter
 description: Access the request parameter a form data model's prefill service
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-5815
 thumbnail: kt-5815.jpg
 topic: Development

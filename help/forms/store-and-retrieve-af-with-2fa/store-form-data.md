@@ -3,7 +3,7 @@ title: Store form data
 description: Store form data along with the new attachments map in the database
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6538
 thumbnail: 6538.jpg
 topic: Development

@@ -2,7 +2,7 @@
 title: SMS Two Factor Authentication
 description: Add an extra layer of security to help confirm a user's identity when they want to perform certain activities
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6317
 topic: Development
 role: Developer

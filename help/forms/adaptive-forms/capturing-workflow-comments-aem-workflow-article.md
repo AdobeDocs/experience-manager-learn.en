@@ -2,7 +2,7 @@
 title: Capturing workflow comments in Adaptive Forms Workflow
 description: Capturing workflow comments in AEM Workflow
 feature: Workflow
-version: 6.4
+version: Experience Manager 6.4
 topic: Development
 role: Developer
 level: Experienced

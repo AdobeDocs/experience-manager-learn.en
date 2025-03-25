@@ -3,7 +3,7 @@ title: Creating two column layouts for print channel documents
 description: Create 2 column layouts for print channel document
 feature: Interactive Communication
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

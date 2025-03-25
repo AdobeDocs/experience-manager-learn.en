@@ -3,7 +3,7 @@ title: Creating Document Fragments to hold the recipient name and address
 description: This is part 5 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create document fragment to hold the recipient name and address.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 404eed65-ec55-492a-85b5-59773896b217
 topic: Development
 role: Developer

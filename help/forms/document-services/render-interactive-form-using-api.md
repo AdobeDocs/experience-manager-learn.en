@@ -2,7 +2,7 @@
 title: Rendering Interactive PDF using Forms Services in AEM Forms
 description: Using Forms Service API in AEM Forms to render interactive PDF
 feature: Forms Service
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

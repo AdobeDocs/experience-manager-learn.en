@@ -2,7 +2,7 @@
 title: Encrypt PDF with a Permissions Password
 description: Use DocAssuranceService to encrypt a PDF
 feature: Document Services
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

@@ -2,7 +2,7 @@
 title: Create Campaign Profile Using Form Data Model
 description: Steps involved in creating Adobe Campaign Standard profile using  AEM Forms Form Data Model
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Integrations, Development
 role: Developer
 level: Experienced

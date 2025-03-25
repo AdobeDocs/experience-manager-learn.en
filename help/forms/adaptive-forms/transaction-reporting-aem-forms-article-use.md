@@ -2,7 +2,7 @@
 title: Using Transaction Reporting in AEM Forms
 description: Transaction reports in AEM Forms allow you to keep a count of all transactions taken place since a specified date on your AEM Forms deployment.
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

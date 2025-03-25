@@ -2,7 +2,7 @@
 title: Integrate AEM Forms and Marketo
 description: Learn how to integrate AEM Forms and Marketo using AEM Forms Form Data Model.
 feature: Adaptive Forms, Form Data Model
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Integrations, Development
 role: Developer
 level: Experienced

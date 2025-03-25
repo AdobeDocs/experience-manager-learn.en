@@ -2,7 +2,7 @@
 title: Update the Signature Status of the Form in the Database
 description: Update the signature status of the signed form in the database using the AEM workflow
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6888
 thumbnail: 6888.jpg
 topic: Development

@@ -3,7 +3,7 @@ title: Install and Configure Tomcat video
 description: This is part 1 of multistep tutorial for creating your first interactive communications document.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 thumbnail: 37815.jpg
 discoiquuid: 5f68be3d-aa35-4a3f-aaea-b8ee213c87ae
 topic: Development

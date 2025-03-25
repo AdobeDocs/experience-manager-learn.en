@@ -3,7 +3,7 @@ title: Create Layout using Forms Designer
 description: This is part 4 of multipart tutorial for creating your first interactive communication document for the print channel.In this part, we look at the layout file created using AEM Forms Designer.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 17f4cdbb-079b-4fe3-861d-cfa0c03d30dd
 jira: KT-5957
 thumbnail: 37890.jpg

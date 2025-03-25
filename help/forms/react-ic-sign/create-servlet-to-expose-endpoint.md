@@ -2,7 +2,7 @@
 title: Expose endpoint that can be invoked to return the web form url
 description: Create AEM servlet to return the web form url
 feature: Adaptive Forms,Acrobat Sign
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

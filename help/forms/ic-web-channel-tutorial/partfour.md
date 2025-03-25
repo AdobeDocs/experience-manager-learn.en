@@ -3,7 +3,7 @@ title: Creating Web Channel Document Template AEM Forms
 description: This is part 4 of the multistep tutorial for creating your first interactive communications document. In this part, we will create a template for web channel document.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 95ca401b-69ea-49e2-a9ae-e144444e481e
 topic: Development
 role: Developer

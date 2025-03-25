@@ -3,7 +3,7 @@ title: Listing Custom Asset Types in AEM Forms
 description: Part 2 of Listing Custom Asset Types in AEM Forms
 feature: Adaptive Forms
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 4b940465-0bd7-45a2-8d01-e4d640c9aedf
 topic: Development
 role: Developer

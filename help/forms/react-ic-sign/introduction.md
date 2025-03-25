@@ -2,7 +2,7 @@
 title: React app with AEM Forms and Acrobat Sign
 description: Acrobat Sign and AEM Forms lets automate complex transactions and include legal e-signatures as part of a seamless digital experience.
 feature: Adaptive Forms,Acrobat Sign
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

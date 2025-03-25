@@ -2,7 +2,7 @@
 title: Using Geolocation API's in Adaptive Forms
 description: Populate address fields on your form using the geolocation API's
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

@@ -2,7 +2,7 @@
 title: Developing with Output and Forms Services in AEM Forms
 description: Learn about developing with Output and Forms Service API in AEM Forms.
 feature: Output Service
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

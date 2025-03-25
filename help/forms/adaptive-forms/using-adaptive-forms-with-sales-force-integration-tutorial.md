@@ -2,7 +2,7 @@
 title: Configuring DataSource with Salesforce in AEM Forms 6.3 and 6.4
 description: Integrating AEM Forms With Salesforce using Form Data Model
 feature: Adaptive Forms, Form Data Model
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

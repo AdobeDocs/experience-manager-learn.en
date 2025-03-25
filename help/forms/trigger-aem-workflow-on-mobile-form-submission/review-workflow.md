@@ -3,7 +3,7 @@ title: Trigger AEM workflow on HTML5 Form Submission - Review and approve PDF
 description: Workflow to review the submitted PDF
 feature: Mobile Forms
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

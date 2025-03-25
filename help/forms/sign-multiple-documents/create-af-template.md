@@ -3,7 +3,7 @@ title: Create AF Template
 description: Create an AF template and associate it with page rendering component
 feature: Adaptive Forms
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6891
 thumbnail: 6891.jpg
 topic: Development

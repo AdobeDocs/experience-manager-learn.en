@@ -3,7 +3,7 @@ title: Retrieve saved adaptive form
 description: Servlet to render the adaptive form with saved data
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6553
 thumbnail: 6553.jpg
 topic: Development

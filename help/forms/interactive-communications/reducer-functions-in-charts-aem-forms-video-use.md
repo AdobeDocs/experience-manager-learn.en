@@ -4,7 +4,7 @@ description: Reducer functions are used to aggregate or group values that are di
 discoiquuid: 6fef8341-8fd5-4d82-9f69-2b8be7cd22db
 feature: Interactive Communication
 doc-type: technical video
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

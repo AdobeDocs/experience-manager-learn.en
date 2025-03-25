@@ -2,7 +2,7 @@
 title: Adding components to People panel
 description: Configure People panel by adding the spouse details fragment. A rule is created to display the spouse details fragment if the applicants marital status is married.
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-4210
 thumbail: 28385.jpg
 topic: Development

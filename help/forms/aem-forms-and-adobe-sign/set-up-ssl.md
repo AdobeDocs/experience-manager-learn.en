@@ -2,7 +2,7 @@
 title: Enable SSL for AEM
 description: Use the Adobe Experience Manager's SSL setup wizard to set up an AEM instance to run over HTTPS.
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 thumbnail: 17993.jpg
 jira: KT-6046
 topic: Development
