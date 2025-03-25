@@ -3,7 +3,7 @@ title: Generating Interactive Communications Document for print channel using wa
 description: Use watched folder to generate print channel documents
 feature: Interactive Communication
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

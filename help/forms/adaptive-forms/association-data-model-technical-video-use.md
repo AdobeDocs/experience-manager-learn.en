@@ -2,7 +2,7 @@
 title: Using Association Data Models with AEM Forms
 description: Add associations between entities in Form Data Model
 feature: Adaptive Forms, Form Data Model
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

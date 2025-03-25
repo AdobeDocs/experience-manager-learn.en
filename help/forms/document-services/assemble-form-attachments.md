@@ -2,7 +2,7 @@
 title: Assemble form attachments
 description: Assemble form attachments in the specified order
 feature: Assembler
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6406
 thumbnail: kt-6406.jpg
 topic: Development

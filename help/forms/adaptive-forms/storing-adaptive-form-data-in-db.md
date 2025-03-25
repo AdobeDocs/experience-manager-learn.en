@@ -2,7 +2,7 @@
 title: Storing Adaptive Form Data
 description: Storing Adaptive Form Data into DataBase as part of your AEM Workflow
 feature: Adaptive Forms, Form Data Model
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

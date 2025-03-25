@@ -3,7 +3,7 @@ title: Create servlet
 description: Create servlet to handle the POST requests to save the form data
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6539
 thumbnail: 6539.pg
 topic: Development

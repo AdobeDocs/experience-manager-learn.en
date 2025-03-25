@@ -2,7 +2,7 @@
 title: Using fragments in output service with watched folder
 description: Generate pdf documents with fragments residing in crx repository
 feature: Output Service
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

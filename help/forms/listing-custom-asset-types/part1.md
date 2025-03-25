@@ -3,7 +3,7 @@ title: Registering Custom Asset Types
 description: Enabling custom asset types for listing in AEMForms Portal
 feature: Adaptive Forms
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 99944f44-0985-4320-b437-06c5adfc60a1
 topic: Development
 role: Developer

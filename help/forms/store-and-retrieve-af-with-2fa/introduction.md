@@ -3,7 +3,7 @@ title: Storing and Retrieving Form Data with attachments from MySQL Database
 description: Multi-Part tutorial to walk you through the steps involved in storing and retrieving form data with attachments
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6593
 thumbnail: 327122.jpg
 topic: Development

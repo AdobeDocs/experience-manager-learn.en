@@ -2,7 +2,7 @@
 title: Integrate AEM Forms with Acrobat Sign
 description: Integrate Acrobat Sign and AEM Forms to automate complex transactions and include legal e-signatures as part of a seamless digital experience.
 feature: Adaptive Forms, Acrobat Sign
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Integrations, Development
 role: Developer
 level: Beginner

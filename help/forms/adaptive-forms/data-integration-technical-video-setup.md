@@ -2,7 +2,7 @@
 title: Set up Data Integration with AEM Forms
 description: Setting up data connection to an JDBC data source
 feature: Adaptive Forms,Workflow
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

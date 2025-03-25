@@ -3,7 +3,7 @@ title: Simple Paid Time Off Request Workflow
 description: Hide and Show Adaptive Form Panels in AEM Workflow
 feature: Adaptive Forms
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 1c4822e6-76ce-446b-98cb-408900d68b24
 topic: Development
 role: Developer

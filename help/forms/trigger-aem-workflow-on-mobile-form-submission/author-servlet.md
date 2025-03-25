@@ -3,7 +3,7 @@ title: Trigger AEM workflow on HTML5 Form Submission - Handle form submission
 description: Learn how to trigger AEM workflow when the HTML5 form is submitted and store the submitted data in the repository.
 feature: Mobile Forms
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 badgeVersions: label="AEM Forms 6.5" before-title="false"

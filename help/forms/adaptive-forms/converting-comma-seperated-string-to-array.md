@@ -2,7 +2,7 @@
 title: Converting comma separated string to array of strings in AEM Forms Workflow
 description: when your form data model has an array of strings as one of the input parameter, you will need to massage the data generated from submit action of an Adaptive Form before invoking submit action of the form data model.
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate

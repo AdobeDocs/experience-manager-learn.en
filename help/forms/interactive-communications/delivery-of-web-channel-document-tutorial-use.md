@@ -2,7 +2,7 @@
 title: Delivery of Interactive Communication Document - Web Channel AEM Forms
 description: Delivery of web channel document via link in email
 feature: Interactive Communication
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

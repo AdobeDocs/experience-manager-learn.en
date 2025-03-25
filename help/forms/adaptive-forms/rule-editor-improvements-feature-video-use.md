@@ -3,7 +3,7 @@ title: Rule Editor Improvements in AEM Forms
 description: The rule editor enables users to add logic to AEM Adaptive Forms. AEM 6.3 improves the rule editor in several ways making it easier and faster for both technical and non-technical users alike to add intelligence.
 feature: Adaptive Forms
 doc-type: technical video
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 51750b3f-1fda-43ae-b3ed-1eede83b19d5
 topic: Administration
 role: Developer

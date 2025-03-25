@@ -3,7 +3,7 @@ title: Create Interactive Communication For Print Channel
 description: This is part 6 of multipart tutorial for creating your first interactive communication document for the print channel. In this part, Interactive Communication Document for Print channel is created.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 6e3f9c8c-8ec4-4084-bf35-1c97a5b463f1
 jira: KT-5972
 thumbnail: 37888.jpg

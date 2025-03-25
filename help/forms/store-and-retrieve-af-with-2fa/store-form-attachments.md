@@ -3,7 +3,7 @@ title: Store form attachments
 description: Extract the form attachments and store in a new location in the CRX repository.
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6537
 thumbnail: 6537.jpg
 topic: Development

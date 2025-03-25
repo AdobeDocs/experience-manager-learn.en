@@ -3,7 +3,7 @@ title: Display submission id  on form submission
 description: Display the response of an form data model submission in thank you page
 feature: Adaptive Forms
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

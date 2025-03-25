@@ -2,7 +2,7 @@
 title: Create adaptive form
 description: Create and configure adaptive form to use form data model's prefill service
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-5813
 thumbnail: kt-5813.jpg
 topic: Development

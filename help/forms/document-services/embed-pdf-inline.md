@@ -1,7 +1,7 @@
 ---
 title: Display Document of Record inline
 description: Merge adaptive form data with XDP template and display the PDF inline using document cloud embed pdf API.
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 feature: Forms Service
 topic: Development
 role: Developer

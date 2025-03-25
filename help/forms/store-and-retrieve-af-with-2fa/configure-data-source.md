@@ -3,7 +3,7 @@ title: Configure Data Source
 description: Create DataSource pointing to the MySQL database
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6541
 thumbnail: 6541.jpg
 topic: Development

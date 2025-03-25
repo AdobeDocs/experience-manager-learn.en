@@ -2,7 +2,7 @@
 title: Creating Form Data Model Without Data Source
 description: Starting with AEM Forms 6.4, we now have the ability to define Form Data Model (FDM) without associating it with a data source. The following video walks through the steps to create FDM without any data source.
 feature: Workflow
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

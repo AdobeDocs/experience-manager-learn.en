@@ -1,7 +1,7 @@
 ---
 title: Generate interactive DoR with Adaptive Form data
 description: Merge adaptive form data with XDP template to generate downloadable pdf
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 feature: Forms Service
 topic: Development
 role: Developer

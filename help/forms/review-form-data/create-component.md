@@ -3,7 +3,7 @@ title: Create a component to list the form data
 description: Tutorial for creating summary component for reviewing form data before submission.
 feature: Adaptive Forms
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

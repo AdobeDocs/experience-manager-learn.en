@@ -2,7 +2,7 @@
 title: Create Forms for Signing
 description: Create forms that need to be included in the signing package.
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6893
 thumbnail: 6893.jpg
 topic: Development

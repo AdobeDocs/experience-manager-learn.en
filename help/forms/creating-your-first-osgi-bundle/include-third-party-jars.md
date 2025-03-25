@@ -1,7 +1,7 @@
 ---
 title: Including third party jars
 description: Learn to use third party jar file in your AEM project
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 feature: Adaptive Forms
 topic: Development
 role: Developer

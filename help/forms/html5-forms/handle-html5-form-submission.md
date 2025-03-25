@@ -3,7 +3,7 @@ title: Handle a HTML5 Form Submission
 description: Create HTML5 Form submission handler.
 feature: Mobile Forms
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-5269
 thumbnail: kt-5269.jpg
 topic: Development

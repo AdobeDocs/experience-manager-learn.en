@@ -3,7 +3,7 @@ title: Creating DataSource Configuration in AEM Forms
 description: This is part 2 of multistep tutorial for creating your first interactive communications document. In this part, we will create a REST backed data source.  The following video walks thru the steps to create the data source.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 targetaudience: target-audience ongoing
 thumbnail: 27765.jpg
 jira: KT-5954

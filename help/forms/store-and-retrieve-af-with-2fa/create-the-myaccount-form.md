@@ -3,7 +3,7 @@ title: Create the MyAccountForm
 description: Create the myaccount form to retrieve the partially completed form on succesful verification of application id and telephone number.
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6599
 thumbnail: 6599.jpg
 topic: Development

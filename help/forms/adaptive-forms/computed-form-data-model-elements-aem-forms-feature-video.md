@@ -2,7 +2,7 @@
 title: Creating Computed Form Data Model Elements in AEM Forms
 description: Creating Computed Form Data Model Elements
 feature: Workflow
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

@@ -3,7 +3,7 @@ title: Submitting Adaptive Form to External Server
 description: Submitting Adaptive Form to REST endpoint running on external server
 feature: Adaptive Forms
 doc-type: article
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 9e936885-4e10-4c05-b572-b8da56fcac73
 topic: Development
 role: Developer

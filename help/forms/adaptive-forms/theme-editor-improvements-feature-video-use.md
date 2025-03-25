@@ -2,7 +2,7 @@
 title: Theme Editor Improvements in AEM Forms
 description: Improvements to the Theme Editor for adaptive forms in AEM 6.3
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: User
 level: Beginner

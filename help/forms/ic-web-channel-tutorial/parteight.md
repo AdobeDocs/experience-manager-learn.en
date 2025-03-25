@@ -3,7 +3,7 @@ title: Configuring line chart for your first interactive communication document 
 description: This is part 8 of multistep tutorial for creating your first interactive communications document. In this part, we will add a Line chart to the account progress panel.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 4292303c-3ef4-4df2-b537-fdb011412670
 topic: Development
 role: Developer

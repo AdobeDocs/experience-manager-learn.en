@@ -1,7 +1,7 @@
 ---
 title: Creating your first OSGi bundle with AEM Forms
 description: Build your first OSGi bundle using Maven and Eclipse
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 feature: Adaptive Forms
 topic: Development
 role: Developer

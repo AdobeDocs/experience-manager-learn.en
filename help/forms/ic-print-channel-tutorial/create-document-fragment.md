@@ -3,7 +3,7 @@ title: Creating Document Fragment
 description: This is part 5 of a multi-step tutorial for creating your first interactive communications document. In this part, we will create document fragment to hold the recipient name and address.
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: 47d3aa97-0bff-48e0-8a65-55e5332f811b
 jira: KT-5958
 thumbnail: 22350.jpg

@@ -2,7 +2,7 @@
 title: Using API to generate Document of Record with AEM Forms
 description: Generate Document Of Record (DOR) programmatically
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

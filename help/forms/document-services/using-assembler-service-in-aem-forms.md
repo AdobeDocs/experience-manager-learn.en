@@ -2,7 +2,7 @@
 title: Using Assembler Service in AEM Forms
 description: Using Assembler Service in AEM Forms to assemble multiple pdf files
 feature: Assembler
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

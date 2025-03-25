@@ -2,7 +2,7 @@
 title: Adding Child Panels to Root Panel
 description: Configuring root panel layout to "Tabs on Left" and add child panels to the root panel.
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 thumbnail: 28536.jpg
 jira: KT-4209
 topic: Development

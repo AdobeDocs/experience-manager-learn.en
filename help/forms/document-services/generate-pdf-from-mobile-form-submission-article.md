@@ -2,7 +2,7 @@
 title: Generate PDF from HTM5 Form Submission
 description: Generate PDF from Mobile Form submission
 feature: Mobile Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced

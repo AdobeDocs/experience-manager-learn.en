@@ -2,7 +2,7 @@
 title: OCR Data Extraction
 description: Extract data from government issued documents to populate forms.
 feature: Barcoded Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6679
 topic: Development
 role: Developer

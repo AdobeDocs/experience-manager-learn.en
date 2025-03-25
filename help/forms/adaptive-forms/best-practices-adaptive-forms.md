@@ -2,7 +2,7 @@
 title: Naming conventions and best practices to be followed when creating adaptive forms
 description: Naming conventions and best practices to be followed when creating adaptive forms
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner

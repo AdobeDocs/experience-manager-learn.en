@@ -3,7 +3,7 @@ title: Create client libraries
 description: Create client library to handle the click event of the "Save and Exit" button
 feature: Adaptive Forms
 type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-6597
 thumbnail: 6597.pg
 topic: Development

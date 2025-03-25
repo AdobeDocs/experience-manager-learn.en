@@ -3,7 +3,7 @@ title: Adding text and image content to print channel document
 description: This is part 7 of a multi-step tutorial for creating your first interactive communications document. In this part, we will add images and text content to the target areas defined in the layout(xdp).
 feature: Interactive Communication
 doc-type: Tutorial
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 discoiquuid: a79bf219-2423-4819-89fc-dcfe976e08b7
 jira: KT-5992
 thumbnail: 22379.jpg

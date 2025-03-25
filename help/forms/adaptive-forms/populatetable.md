@@ -2,7 +2,7 @@
 title: Populate Adaptive Form Table
 description: Populate Adaptive Form table with the results from Form Data Model Service Invocations
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: User
 level: Intermediate

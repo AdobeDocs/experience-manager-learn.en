@@ -2,7 +2,7 @@
 title: Adding components to Income panel
 description: We will add a table to the Income panel. Configure the table rows and use the rule editor to calculate the grand total.
 feature: Adaptive Forms
-version: 6.4,6.5
+version: Experience Manager 6.4, Experience Manager 6.5
 thumbnail: 22198.jpg
 jira: KT-4211
 topic: Development
