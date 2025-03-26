@@ -16,7 +16,13 @@ duration: 919
 
 Learn how to connect AEM as a Cloud Service with your VPN to create secure communication channels between AEM and internal services.
 
-## What is Virtual Private Network?
+>[!IMPORTANT]
+>
+>You can configure VPNs and port forwarding either through the Cloud Manager UI or using API calls. This tutorial focuses on the API method. 
+>
+>If you prefer using the UI, see [Configure Advanced Networking for AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking).
+
+## What is a Virtual Private Network?
 
 Virtual Private Network (VPN) allows an AEM as a Cloud Service customer to connect **the AEM environments** within a Cloud Manager Program to an existing, [supported](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking) VPN. VPN allows secure and controlled connections between AEM as a Cloud Service and services within the customer's network.
 
@@ -43,9 +49,13 @@ The following are required when setting up a Virtual Private Network using Cloud
 + The Cloud Manager Environment IDs
 + A **Route-Based** Virtual Private Network, with access to all necessary connection parameters.
 
-For more details [review how to setup, configure, and obtain Cloud Manger API credentials](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/developing/extensibility/app-builder/server-to-server-auth),to use them to make a Cloud Manager API call.
+For more details [review how to setup, configure, and obtain Cloud Manger API credentials](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/developing/extensibility/app-builder/server-to-server-auth), to use them to make a Cloud Manager API call.
 
-This tutorial uses `curl` to make the Cloud Manager API configurations. The provided `curl` commands assume a Linux/macOS syntax. If using the Windows command prompt, replace the `\` line-break character with `^`.
+>[!IMPORTANT]
+>
+>This tutorial uses `curl` to make the Cloud Manager API configurations&mdash;*if you prefer a programmatic approach*. The provided `curl` commands assume a Linux&reg; or macOS syntax. If using the Windows command prompt, replace the `\` line-break character with `^`. 
+>
+>Alternatively, you can complete the same task through the Cloud Manager UI. *If you prefer the UI approach*, see [Configure Advanced Networking for AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking).
 
 ## Enable Virtual Private Network per program
 
@@ -65,7 +75,7 @@ Flexible port egress can be enabled using Cloud Manager. The following steps out
 
     ![Add network infrastructure](./assets/cloud-manager__add-network-infrastructure.png)
 
-1. In the __Add network infrastructure__ dialog, select the __Virtual private network__ option. Fill out the fields and select __Continue__. Work with your organization's network administrator to obtain the correct values.
+1. In the __Add network infrastructure__ dialog box, select the __Virtual private network__ option. Fill out the fields and select __Continue__. Work with your organization's network administrator to obtain the correct values.
 
     ![Add VPN](./assets/vpn/select-type.png)
 
@@ -122,7 +132,7 @@ Virtual Private Network can be enabled using Cloud Manager APIs. The following s
         -d @./vpn-create.json
     ```
 
-    Define the JSON parameters in a `vpn-create.json` and provided to curl via `... -d @./vpn-create.json`.
+    Define the JSON parameters in a `vpn-create.json` and provided to curl by way of `... -d @./vpn-create.json`.
 
     [Download the example vpn-create.json](./assets/vpn-create.json).  This file is only an example. Configure your file as required based on the optional/required fields documented at [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/). 
 
@@ -209,7 +219,7 @@ With the VPN created, you can now configure it using the Cloud Manager APIs as d
         -d @./vpn-configure.json
     ```
 
-    Define the JSON parameters in a `vpn-configure.json` and provided to curl via `... -d @./vpn-configure.json`.
+    Define the JSON parameters in a `vpn-configure.json` and provided to curl by way of `... -d @./vpn-configure.json`.
 
     [Download the example vpn-configure.json](./assets/vpn-configure.json)
 
@@ -234,7 +244,7 @@ With the VPN created, you can now configure it using the Cloud Manager APIs as d
     }
     ```
 
-    `nonProxyHosts` declares a set of hosts for which port 80 or 443 should be routed through the default shared IP address ranges rather than the dedicated egress IP. `nonProxyHosts` may be useful as traffic egressing through shared IPs is optimized automatically by Adobe.
+    `nonProxyHosts` declares a set of hosts for which port 80 or 443 should be routed through the default shared IP address ranges rather than the dedicated egress IP. `nonProxyHosts` may be useful as traffic egressing through shared IPs that Adobe optimizes automatically.
 
     For each `portForwards` mapping, the advanced networking defines the following forwarding rule:
 
@@ -257,18 +267,18 @@ With the VPN created, you can now configure it using the Cloud Manager APIs as d
         -H 'Content-Type: application/json'
     ```
 
-3. Virtual private network proxy configurations can be updated using the Cloud Manager API's [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. Remember `enableEnvironmentAdvancedNetworkingConfiguration` is a `PUT` operation, so all rules must be provided with every invocation of this operation.
+3. Virtual Private Network proxy configurations can be updated using the Cloud Manager API's [enableEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation. Remember `enableEnvironmentAdvancedNetworkingConfiguration` is a `PUT` operation, so all rules must be provided with every invocation of this operation.
 
 4. Now, you can use the Virtual Private Network egress configuration in your custom AEM code and configuration.
 
 ## Connecting to external services over the Virtual Private Network
 
-With the Virtual Private Network enabled, AEM code and configuration can use them to make calls to external services via the VPN. There are two flavors of external calls that AEM treats differently:
+With the Virtual Private Network enabled, AEM code and configuration can use them to make calls to external services through the VPN. There are two flavors of external calls that AEM treats differently:
 
 1. HTTP/HTTPS calls to external services
-    + Includes HTTP/HTTPS calls made to services running on ports other than the standard 80 or 443 ports.
-1. non-HTTP/HTTPS calls to external services
-    + Includes any non-HTTP calls, such as connections with Mail servers, SQL databases, or services that run on other non-HTTP/HTTPS protocols.
+    + These external services include HTTP/HTTPS calls made to services running on ports other than the standard ports 80 or 443.
+1. Non-HTTP/HTTPS calls to external services
+    + These external services include any non-HTTP calls, such as connections to mail servers, SQL databases, or services that use protocols other than HTTP/HTTPS.
 
 HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default but do not use the VPN connection if not configured appropriately as described below.
 
@@ -338,7 +348,7 @@ Connections to external services are then called through the `AEM_PROXY_HOST` an
     </td>
 </tr></table>
 
-### Limit access to AEM as a Cloud Service via VPN
+### Limit access to AEM as a Cloud Service through the VPN
 
 The Virtual Private Network configuration limits access to AEM as a Cloud Service environments to a VPN.
 
