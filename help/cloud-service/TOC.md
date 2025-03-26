@@ -21,7 +21,6 @@ team: TM
   + [Cloud Manager](./introduction/cloud-manager.md)
   + Strategy & thought leadership{#strategy}
     + [Experience Manager - Governance and staffing models and archetypes](./introduction/experience-manager-governance-and-staffing-models.md)
-    + [How to drive content velocity with Adobe Experience Manager](./introduction/drive-content-velocity-for-sites.md)
 + Experience Cloud integrations{#integrations}
   + [Integrations](./integrations/experience-cloud.md)
   + [Adobe Target](./integrations/target.md)
