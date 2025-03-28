@@ -11,8 +11,8 @@ jira: KT-17430
 thumbnail: KT-17430.jpg
 last-substantial-update: 2025-03-28
 duration: 0
+exl-id: 9fb92127-9dea-4a1d-b1f7-8fb98cabf188
 ---
-
 # Invoke OpenAPI-based AEM APIs using OAuth Single Page App
 
 Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service using **OAuth Single Page App authentication**. It follows the OAuth 2.0 PKCE (Proof Key for Code Exchange) flow for user-based authentication in a Single Page Application (SPA).
