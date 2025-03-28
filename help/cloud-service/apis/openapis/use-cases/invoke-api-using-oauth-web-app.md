@@ -89,9 +89,9 @@ Let's review the key code snippets used in the WKND-PIM web app to understand th
     ADOBE_IMS_USERINFO_ENDPOINT=https://ims-na1.adobelogin.com/ims/userinfo/v2
 
     # Adobe Developer Console (ADC) Project's OAuth Web App credential
-    ADC_CLIENT_ID=<ADC Project OAuth Server-to-Server credential ClientID>
-    ADC_CLIENT_SECRET=<ADC Project OAuth Server-to-Server credential Client Secret>
-    ADC_SCOPES=<ADC Project OAuth Server-to-Server credential Scopes>
+    ADC_CLIENT_ID=<ADC Project OAuth Web App credential ClientID>
+    ADC_CLIENT_SECRET=<ADC Project OAuth Web App credential Client Secret>
+    ADC_SCOPES=<ADC Project OAuth Web App credential credential Scopes>
 
     # AEM Assets Information
     AEM_ASSET_HOSTNAME=<AEM Assets Hostname, e.g., https://author-p63947-e1502138.adobeaemcloud.com/>

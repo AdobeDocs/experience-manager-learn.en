@@ -142,6 +142,7 @@ team: TM
     + [How to setup](./apis/openapis/setup.md)
     + [Server-to-server authentication](./apis/openapis/use-cases/invoke-api-using-oauth-s2s.md)
     + [User authentication (web app)](./apis/openapis/use-cases/invoke-api-using-oauth-web-app.md)
+    + [User authentication (SPA)](./apis/openapis/use-cases/invoke-api-using-oauth-single-page-app.md)
     + How to{#how-to}
       + [Credentials and Product Profile management](./apis/openapis/how-to/credentials-and-product-profile-management.md)
       + [Permission management](./apis/openapis/how-to/services-user-group-permission-management.md)
