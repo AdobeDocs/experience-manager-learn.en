@@ -53,15 +53,18 @@ The OpenAPI-based AEM APIs supports OAuth 2.0 authentication, including the foll
 
 - **OAuth Single Page App credential**: Designed for SPAs running in the browser, which needs to access APIs on behalf of a user without a backend server. It uses the _authorization_code_ grant type and relies on client-side security mechanisms using PKCE (Proof Key for Code Exchange) to secure the authorization code flow. For more information, see [OAuth Single Page App credential](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation/#oauth-single-page-app-credential).
 
-## Difference between OAuth Server-to-Server and OAuth Web App/Single Page App credentials{#difference-between-oauth-server-to-server-and-oauth-web-app-single-page-app-credentials}
+## Difference between OAuth Server-to-Server vs Web App vs Single Page App credentials{#difference-between-oauth-server-to-server-vs-web-app-vs-single-page-app-credentials}
 
-| | OAuth server-to-server | OAuth user authentication (web-app) |
-| --- | --- | --- |
-| Authentication Purpose| Designed for machine-to-machine interactions.  | Designed for user-driven interactions.  |
-| Token Behavior | Issues access tokens that represent the client application itself. | Issues access tokens on behalf of an authenticated user. |
-| Use Cases | Backend services needing API access without user interaction. | Web applications with frontend and backend components accessing APIs on behalf of users. |
-| Security Considerations | Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems. | User's authenticate and are granted their own temporary access token. Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems.   |
-| Grant Type | _client_credentials_ | _authorization_code_ |
+The following table summarizes the differences between the three OAuth authentication methods supported by OpenAPI-based AEM APIs:
+
+|  | OAuth Server-to-Server | OAuth Web App | OAuth Single Page App (SPA) |
+| --- | --- | --- | --- |
+| **Authentication Purpose** | Designed for machine-to-machine interactions. | Designed for user-driven interactions in a web app with a _backend_. | Designed for user-driven interactions in a _client-side JavaScript application_. |
+| **Token Behavior** | Issues access tokens that represent the client application itself. | Issues access tokens on behalf of an authenticated user _via a backend_. | Issues access tokens on behalf of an authenticated user _via a frontend-only flow_. |
+| **Use Cases** | Backend services needing API access without user interaction. | Web applications with frontend and backend components accessing APIs on behalf of users. | Pure frontend (JavaScript) applications accessing APIs on behalf of users without a backend. |
+| **Security Considerations** | Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems. | After user authentication, they are granted their own _temporary access token via a backend call_. Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems to exchange authorization code for access token. | After user authentication, they are granted their own _temporary access token via a frontend call_. Does not use `client_secret`, as it's unsafe to store in frontend apps. Relies on PKCE to exchange authorization code for access token. |
+| **Grant Type** | _client_credentials_ | _authorization_code_ | _authorization_code_ with **PKCE** |
+| **Adobe Developer Console Credential Type** | OAuth Server-to-Server | OAuth Web App  | OAuth Single-Page App  |
 
 ## Accessing Adobe APIs and related concepts{#accessing-adobe-apis-and-related-concepts}
 
