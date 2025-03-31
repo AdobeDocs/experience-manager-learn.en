@@ -117,7 +117,7 @@ After creating the ADC Project, you have to add the desired AEM APIs, set up its
 
     ![Select authentication](./assets/s2s/select-authentication.png)
 
-    The Server-to-Server authentication is ideal for backend services needing API access without user interaction. The Web App and Single Page App authentication options are suitable for applications needing API access on behalf of users. See [Difference between OAuth Server-to-Server and OAuth Web App/Single Page App credentials](./overview.md#difference-between-oauth-server-to-server-and-oauth-web-app-single-page-app-credentials) for more information.
+    The Server-to-Server authentication is ideal for backend services needing API access without user interaction. The Web App and Single Page App authentication options are suitable for applications needing API access on behalf of users. See [Difference between OAuth Server-to-Server vs Web App vs Single Page App credentials](./overview.md#difference-between-oauth-server-to-server-vs-web-app-vs-single-page-app-credentials) for more information.
 
 1. If needed, you can rename the API for easier identification. For demo purposes, the default name is used.
 

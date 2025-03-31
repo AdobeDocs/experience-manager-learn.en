@@ -17,7 +17,7 @@ exl-id: 9cf7c318-2be4-4b26-bd6f-0c80d002db45
 
 Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service using user-based authentication from a custom web app that uses OAuth Web App.
 
-The OAuth Web App authentication is ideal for web applications with frontend and _backend_ components that need to **access AEM APIs on behalf of a user**. It uses the OAuth 2.0 _authorization_code_ grant type to obtain an access token on behalf of the user to access the AEM APIs. For more information, see [Difference between OAuth Server-to-Server and OAuth Web App/Single Page App credentials](../overview.md#difference-between-oauth-server-to-server-and-oauth-web-appsingle-page-app-credentials).
+The OAuth Web App authentication is ideal for web applications with frontend and _backend_ components that need to **access AEM APIs on behalf of a user**. It uses the OAuth 2.0 _authorization_code_ grant type to obtain an access token on behalf of the user to access the AEM APIs. For more information, see [Difference between OAuth Server-to-Server vs Web App vs Single Page App credentials](../overview.md#difference-between-oauth-server-to-server-vs-web-app-vs-single-page-app-credentials).
 
 >[!AVAILABILITY]
 >
