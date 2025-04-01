@@ -15,8 +15,6 @@ duration: 54
 ---
 # Getting Started with AEM Headless - GraphQL
 
-{{aem-headless-trials-promo}}
-
 An end-to-end tutorial illustrating how to build-out and expose content using AEM's GraphQL APIs and consumed by an external app, in a headless CMS scenario.
 
 This tutorial explores how AEM's GraphQL APIs and headless capabilities can be used to power the experiences surfaced in an external app.

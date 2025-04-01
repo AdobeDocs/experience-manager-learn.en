@@ -15,8 +15,6 @@ duration: 89
 ---
 # AEM Headless first tutorial
 
-{{aem-headless-trials-promo}}
-
 Welcome to the tutorial on building a web experience using React, fully powered by AEM Headless APIs and GraphQL. In this tutorial, we'll guide you through the process of creating a dynamic and interactive web application by combining the power of React, Adobe Experience Manager (AEM) Headless APIs, and GraphQL.
 
 React is a popular JavaScript library for building user interfaces, known for its simplicity, reusability, and component-based architecture. AEM provides robust content management capabilities and exposes Headless APIs that allow developers to access content and data stored in AEM through a variety of channels and applications.
