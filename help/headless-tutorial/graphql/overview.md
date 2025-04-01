@@ -12,8 +12,6 @@ duration: 626
 ---
 # Getting Started with AEM Headless - GraphQL {#getting-started-with-aem-headless}
 
-{{aem-headless-trials-promo}}
-
 AEM's GraphQL APIs for Content Fragments
 supports headless CMS scenarios where external client applications render experiences using content managed in AEM.
 

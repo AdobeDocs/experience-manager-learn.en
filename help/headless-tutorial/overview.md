@@ -11,8 +11,6 @@ exl-id: 57f88d79-9879-4bb9-a3db-9fec95e3a0bd
 ---
 # Tutorials for Headless in AEM{#aem-headless-tutorials}
 
-{{aem-headless-trials-promo}}
-
 Adobe Experience Manager (AEM) has multiple options for defining headless endpoints and delivering its content as JSON. Use hands-on tutorials to explore how to use the various options and chose what's right for you.
 
 >[!TIP]
