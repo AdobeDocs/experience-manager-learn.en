@@ -87,25 +87,26 @@ For example, when AEM Assets Author API invocation receives [403 error for non-G
 
 To add Product Profiles for an AEM API, click **Edit product profiles** in the **APIs** section of the ADC project, select the desired Product Profile in the **Configure API** dialog, and save your changes.
 
-    ![Edit product profiles](../assets/how-to/edit-product-profiles.png)
+![Edit product profiles](../assets/how-to/edit-product-profiles.png)
 
 Select the desired Product Profile (e.g., **AEM Administrators - author - Program XXX - Environment XXX**) associated with the required services, then save your changes.
 
-    ![Select Product Profile](../assets/how-to/select-product-profile.png)
+![Select Product Profile](../assets/how-to/select-product-profile.png)
 
 Note that the **AEM Administrators - author - Program XXX - Environment XXX** Product Profile is associated with both the **AEM Administrators** service and the **AEM Assets API Users** service. Without the latter, the Product Profile will not appear in the list of available Product Profiles.
 
-    ![Product Profile Services](../assets/how-to/product-profile-services.png)
+![Product Profile Services](../assets/how-to/product-profile-services.png)
 
 The **PATCH** request to update the asset metadata should now work without issues.
 
-    ![PATCH Request](../assets/how-to/patch-request.png)
+![PATCH Request](../assets/how-to/patch-request.png)
 
 
 >[!TAB Remove Product Profiles]
 
 To remove Product Profiles for an AEM API, click **Edit product profiles** in the **APIs** section of the ADC project, deselect the desired Product Profile in the **Configure API** dialog, and save your changes.
-    ![Deselect Product Profile](../assets/how-to/deselect-product-profile.png)
+
+![Deselect Product Profile](../assets/how-to/deselect-product-profile.png)
 
 >[!ENDTABS]
 
