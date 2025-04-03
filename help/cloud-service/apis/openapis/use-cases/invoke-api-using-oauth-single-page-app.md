@@ -56,7 +56,9 @@ The Adobe Developer Console (ADC) project is configured to enable OAuth Single P
 >
 >The ADC Project does NOT provide a _client_secret_. Instead, the SPA generates a _code_verifier_ and _code_challenge_ to securely exchange the authorization code for an _access token_. It eliminates the need to store a client secret on the client side, enhancing security.
 
+
 >[!VIDEO](https://video.tv.adobe.com/v/3456964?quality=12&learn=on)
+
 
 
 The following diagram illustrates the functional flow of the WKND SPA _getting user-specific access token to invoke OpenAPI-based AEM APIs_:
