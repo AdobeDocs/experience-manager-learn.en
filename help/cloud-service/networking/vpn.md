@@ -362,12 +362,6 @@ The Virtual Private Network configuration limits access to AEM as a Cloud Servic
             Configure an IP allowlist such that only VPN traffic can access AEM.
       </p>
     </td>
-   <td>
-      <a  href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking"><img alt="Path-based VPN access restrictions to AEM Publish" src="./assets/code_examples__vpn-path-allow-list.png"/></a>
-      <div><strong><a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking">Path-based VPN access restrictions to AEM Publish</a></strong></div>
-      <p>
-            Require VPN access for specific paths on AEM Publish.
-      </p>
     </td>
    <td></td>
 </tr></table>
