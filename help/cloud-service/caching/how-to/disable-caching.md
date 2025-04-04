@@ -21,7 +21,10 @@ These cache headers are typically set in AEM Dispatcher vhost configurations usi
 
 ## Default caching behavior
 
-Review the default caching behavior for AEM Publish and Author when an [AEM Project Archetype](./enable-caching.md#default-caching-behavior) based AEM project is deployed.
+Caching of HTTP responses in AEM as a Cloud Service’s CDN is controlled by the following HTTP response headers from the origin `Cache-Control`, `Surrogate-Control`, or `Expires`.  Origin responses that contain `private`, `no-cache` or `no-store` in  `Cache-Control` are not cached.
+
+Review the [default caching behavior](./enable-caching.md#default-caching-behavior) for AEM Publish and Author when an AEM Project Archetype based AEM project is deployed.
+
 
 ## Disable caching
 
@@ -47,10 +50,14 @@ This option is the recommended approach for disabling caching however it is only
 <LocationMatch "$URL$ || $URL_REGEX$">
     # Removes the response header of this name, if it exists. If there are multiple headers of the same name, all will be removed.
     Header unset Cache-Control
+    Header unset Surroagate-Control
     Header unset Expires
 
-    # Instructs the CDN to not cache the response.
-    Header set Cache-Control "private"
+    # Instructs the Browser and the CDN to not cache the response.
+    Header always set Cache-Control "private"
+
+    # Instructs only the CDN to not cache the response.
+    Header always set Surrogate-Control "private"
 </LocationMatch>
 ```
 
@@ -69,8 +76,8 @@ Note that, to bypass the existing CSS cache, a change in the CSS file is require
         Header unset Cache-Control
         Header unset Expires
 
-        # Instructs the CDN to not cache the response.
-        Header set Cache-Control "private"
+        # Instructs the Browser and the CDN to not cache the response.
+        Header always set Cache-Control "private"
     </LocationMatch>
     ```
 
