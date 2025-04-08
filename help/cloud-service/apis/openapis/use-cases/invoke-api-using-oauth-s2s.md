@@ -68,6 +68,11 @@ The high-level development steps are:
 
 The configure ADC Project step is _repeated_ from the [Setup OpenAPI-based AEM APIs](../setup.md). It is repeated to add the Assets Author API and configure its authentication method as OAuth Server-to-Server.
 
+>[!TIP]
+>
+>Make sure you have completed the **Enable AEM APIs access** step from the [Setup OpenAPI-based AEM APIs](../setup.md#enable-aem-apis-access) article. Without it, the Server-to-Server authentication option is not available.
+
+
 1. From the [Adobe Developer Console](https://developer.adobe.com/console/projects), open the desired project.
 
 1. To add AEM APIs, click on the **Add API** button.
