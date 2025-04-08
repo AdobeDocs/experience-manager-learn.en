@@ -62,12 +62,11 @@ The _Admin Console_ window displays the newly added Product Profiles.
 
 The above steps complete the modernization of the AEM as a Cloud Service environment.
 
-## Enable AEM APIs access
+## Enable AEM APIs access{#enable-aem-apis-access}
 
 The presence of the _new Product Profiles_ enable OpenAPI-based AEM API access in the Adobe Developer Console (ADC). Recall that [Adobe Developer Console (ADC)](./overview.md#accessing-adobe-apis-and-related-concepts) is the developer hub for accessing Adobe APIs, SDKs, real-time events, serverless functions, and more.
 
-The newly added Product Profiles are associated with the _Services_ that represent _AEM user groups with predefined Access Control Lists (ACLs)_. 
-The _Services_ are used to control the level of access to the AEM APIs.
+The newly added Product Profiles are associated with the _Services_ that represent _AEM user groups with predefined Access Control Lists (ACLs)_. The _Services_ are used to control the level of access to the AEM APIs.
 
 You can also select or deselect the _Services_ associated with the Product Profile to reduce or increase the level of access.
 
@@ -75,9 +74,13 @@ Review the association by clicking on the _View Details_ icon next to the Produc
 
 ![Review services associated with Product Profile](./assets/setup/review-services-associated-with-product-profile.png)
 
-By default, the **AEM Assets API Users** Service is not associated with any Product Profile. Let's associate it with the newly added **AEM Assets Collaborator Users - author - Program XXX - Environment XXX** Product Profile. After this association, the ADC Project's _Asset Author API_ can setup the desired authentication and associate the authentication account with the Product Profile.
+By default, the **AEM Assets API Users** Service is not associated with any Product Profile. Let's associate it with the newly added **AEM Assets Collaborator Users - author - Program XXX - Environment XXX** Product Profile. After this association, the ADC Project's _Asset Author API_ can setup the desired Server-to-Server authentication and associate the authentication account from ADC project (created in next step) with the Product Profile.
 
 ![Associate AEM Assets API Users Service with Product Profile](./assets/setup/associate-aem-assets-api-users-service-with-product-profile.png)
+
+>[!IMPORTANT]
+>
+>The above step is critical to enable the Server-to-Server authentication for the AEM Assets API. Without this association, the AEM Assets API cannot be used with the Server-to-Server authentication method.
 
 ## Create Adobe Developer Console (ADC) Project
 
