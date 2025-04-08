@@ -161,14 +161,7 @@ __Pod cm-p12345-e56789-aem-author-abcdefg-2222__
 
 ## Recommended log levels{#log-levels}
 
-Adobe's general guidance on log levels per AEM as a Cloud Service environment are:
-
-+ Local Development (AEM SDK): `DEBUG`
-+ Development: `DEBUG`
-+ Stage: `WARN` 
-+ Production: `ERROR`
-
-Setting the most appropriate log level for each environment type is with AEM as a Cloud Service, log levels are maintained in code
+Adobe's general guidance on log levels per AEM as a Cloud Service environment is to stick with the default log settings of AEM (with the default log level of `INFO`). Adobe recommends that also the custom code is instrumented with log statements, which allows to run it with the log level of `INFO`. The log levels are maintained in code
 
 + Java log configurations is maintained in OSGi configurations
 + Apache web server and Dispatcher log levels in the the dispatcher project
