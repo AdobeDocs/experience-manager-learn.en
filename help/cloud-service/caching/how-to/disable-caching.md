@@ -50,7 +50,7 @@ This option is the recommended approach for disabling caching however it is only
 <LocationMatch "$URL$ || $URL_REGEX$">
     # Removes the response header of this name, if it exists. If there are multiple headers of the same name, all will be removed.
     Header unset Cache-Control
-    Header unset Surroagate-Control
+    Header unset Surrogate-Control
     Header unset Expires
 
     # Instructs the Browser and the CDN to not cache the response.
