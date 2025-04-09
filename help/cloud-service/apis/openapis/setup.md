@@ -21,6 +21,9 @@ Learn how to set up your AEM as a Cloud Service environment to enable access to 
 >
 >OpenAPI-based AEM APIs are available as part of an early access program. If you are interested in accessing them, we encourage you to email [aem-apis@adobe.com](mailto:aem-apis@adobe.com) with a description of your use case.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3457510?quality=12&learn=on)
+
+
 The high-level set up process involves the following steps:
 
 1. Modernization of AEM as a Cloud Service environment.
@@ -29,14 +32,14 @@ The high-level set up process involves the following steps:
 1. Configure ADC Project
 1. Configure the AEM instance to enable ADC Project communication.
 
-## Modernization of AEM as a Cloud Service environment
+## Modernization of AEM as a Cloud Service environment{#modernization-of-aem-as-a-cloud-service-environment}
 
 The modernization of AEM as a Cloud Service environment is a one-time per environment activity that involves the following steps:
 
 - Update to the AEM Release **2024.10.18459.20241031T210302Z** or later.
 - Add new Product Profiles to it, if environment was created before the release 2024.10.18459.20241031T210302Z.
 
-### Update AEM instance
+### Update AEM instance{#update-aem-instance}
 
 To update the AEM instance, in the Adobe [Cloud Manager](https://my.cloudmanager.adobe.com/)'s _Environments_ section, select the _ellipsis_ icon next to the environment name and select **Update** option.
 
@@ -48,7 +51,7 @@ Then click the **Submit** button and run the _suggested_ Fullstack Pipeline.
 
 In my case, the Fullstack Pipeline is named **Dev :: Fullstack-Deploy**, and the AEM environment is called **wknd-program-dev**. Your names may be different.
 
-### Add new Product Profiles
+### Add new Product Profiles{#add-new-product-profiles}
 
 To add new Product Profiles to the AEM instance, in the Adobe [Cloud Manager](https://my.cloudmanager.adobe.com/)'s _Environments_ section, select the _ellipsis_ icon next to the environment name and select the **Add Product Profiles** option. 
 
@@ -82,7 +85,7 @@ By default, the **AEM Assets API Users** Service is not associated with any Prod
 >
 >The above step is critical to enable the Server-to-Server authentication for the AEM Assets API. Without this association, the AEM Assets API cannot be used with the Server-to-Server authentication method.
 
-## Create Adobe Developer Console (ADC) Project
+## Create Adobe Developer Console (ADC) Project{#adc-project}
 
 The ADC Project is used to add the desired APIs, set up its authentication, and associate the authentication account with the Product Profile.
 
@@ -104,7 +107,7 @@ To create an ADC Project:
 
     ![Edit project name](./assets/setup/edit-project-name.png)
 
-## Configure ADC Project
+## Configure ADC Project{#configure-adc-project}
 
 After creating the ADC Project, you have to add the desired AEM APIs, set up its authentication, and associate the authentication account with the Product Profile.
 
@@ -138,7 +141,7 @@ After creating the ADC Project, you have to add the desired AEM APIs, set up its
 
 If you choose the **OAuth Web App** or **OAuth Single Page App** authentication method, the Product Profile association is not prompted but application redirect URI is required. The application redirect URI is used to redirect the user to the application after authentication with an authorization code. The relevent use cases tutorials outline such authentication specific configurations.
 
-## Configure the AEM instance to enable ADC Project communication
+## Configure the AEM instance to enable ADC Project communication{#configure-aem-instance}
 
 To enable the ADC Project's ClientID to communication with the AEM instance, you need to configure the AEM instance.
 
