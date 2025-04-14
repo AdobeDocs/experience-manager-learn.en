@@ -220,7 +220,7 @@ HTTP/HTTPS requests from AEM on standard ports (80/443) are allowed by default b
 
 ### HTTP/HTTPS
 
-When creating HTTP/HTTPS connections from AEM, when using dedicated egress IP address, HTTP/HTTPS connections are automatically proxied out of AEM using the dedicated egress IP address. No additional code or configuration is required to support HTTP/HTTPS connections.
+When creating HTTP/HTTPS connections from AEM, when using dedicated egress IP address, HTTP/HTTPS connections are automatically proxied out of AEM using the dedicated egress IP address. No additional code or configuration is required to support HTTP/HTTPS connections, other than setting up dedicated egress IP address advanced networking.
 
 #### Code examples
 
