@@ -29,7 +29,7 @@ The high-level set up process involves the following steps:
 1. Modernization of AEM as a Cloud Service environment.
 1. Enable AEM APIs access.
 1. Create Adobe Developer Console (ADC) Project.
-1. Configure ADC Project
+1. Configure ADC Project.
 1. Configure the AEM instance to enable ADC Project communication.
 
 ## Modernization of AEM as a Cloud Service environment{#modernization-of-aem-as-a-cloud-service-environment}
