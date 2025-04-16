@@ -111,7 +111,7 @@ Example applications are a great way to explore the headless capabilities of Ado
 </tr>
 </table>
 
-## Tutorials by framework
+## Tutorials
 
 Browse the following tutorials based on the technology used. Learn how AEM can go beyond a pure headless use case, with options for in-context authoring and experience management.
 
@@ -131,6 +131,19 @@ Browse the following tutorials based on the technology used. Learn how AEM can g
     <p>
   </td>
   <td>
+    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/developing/universal-editor/react-app-editing/overview">
+      <img alt="React - Edit Content via Universal Editor" src="./assets/react-universal-editor.png" />
+    </a>
+     <div>
+      <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/developing/universal-editor/react-app-editing/overview">
+        <strong>React - Edit Content via Universal Editor</strong>
+      </a>
+    </div>
+    <p>
+    <em>Use the Universal Editor to edit content of a React application.</em>
+    <p>
+  </td>  
+  <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/overview.html">
     <img alt="React - Remote editor" src="./assets/react-remote.png" />
     </a>
@@ -143,6 +156,8 @@ Browse the following tutorials based on the technology used. Learn how AEM can g
     <em>Author in-context a portion of a remotely hosted React application.</em>
     </p>
   </td>
+</tr>
+<tr>  
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/react/overview.html">
       <img alt="React - SPA Editor" src="./assets/react-spa-editor.png" />
@@ -156,8 +171,6 @@ Browse the following tutorials based on the technology used. Learn how AEM can g
     <em>Use the AEM SPA editor to manage the complete React app experience.</em>
     <p>
   </td>
-</tr>
-<tr>  
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/content-services/overview.html">
     <img alt="Andriod - Content Services" src="./assets/android.png" />
@@ -184,6 +197,5 @@ Browse the following tutorials based on the technology used. Learn how AEM can g
     <em>Build a Node.js app using developer and service tokens to authenticate.</em>
     <p>
   </td>
-  <td></td>
 </tr>
 </table>
