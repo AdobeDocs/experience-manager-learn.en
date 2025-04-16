@@ -1,6 +1,6 @@
 ---
 title: Closed Captions for Video in Dynamic Media
-description: Closed captions are auto-generated once a video file is uploaded to Dynamic Media.
+description: Learn to create captions for videos via AI. Closed captions are auto-generated once a video file is uploaded to Dynamic Media.
 version: Experience Manager as a Cloud Service
 feature: Dynamic Media
 role: User
