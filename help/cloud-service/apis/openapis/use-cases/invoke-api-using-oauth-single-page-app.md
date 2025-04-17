@@ -21,10 +21,6 @@ OAuth Single Page App authentication is ideal for JavaScript-based applications 
 
 The PKCE flow extends the OAuth 2.0 _authorization_code_ grant type, enhancing security by preventing authorization code interception. For more information, see the [Difference between OAuth Server-to-Server vs Web App vs Single Page App credentials](../overview.md#difference-between-oauth-server-to-server-vs-web-app-vs-single-page-app-credentials) section.
 
->[!AVAILABILITY]
->
->OpenAPI-based AEM APIs are available as part of an early access program. If you are interested in accessing them, we encourage you to email [aem-apis@adobe.com](mailto:aem-apis@adobe.com) with a description of your use case.
-
 ## What you learn{#what-you-learn}
 
 In this tutorial, you learn how to:

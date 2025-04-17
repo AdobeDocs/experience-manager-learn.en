@@ -17,12 +17,7 @@ exl-id: 1df4c816-b354-4803-bb6c-49aa7d7404c6
 
 Learn how to set up your AEM as a Cloud Service environment to enable access to the OpenAPI-based AEM APIs.
 
->[!AVAILABILITY]
->
->OpenAPI-based AEM APIs are available as part of an early access program. If you are interested in accessing them, we encourage you to email [aem-apis@adobe.com](mailto:aem-apis@adobe.com) with a description of your use case.
-
 >[!VIDEO](https://video.tv.adobe.com/v/3457510?quality=12&learn=on)
-
 
 The high-level set up process involves the following steps:
 
@@ -145,14 +140,13 @@ If you choose the **OAuth Web App** or **OAuth Single Page App** authentication 
 
 To enable the ADC Project's ClientID to communication with the AEM instance, you need to configure the AEM instance.
 
-It is done by defining the API configuration in the `config.yaml` file of
-the AEM Project and deploying it using the Config Pipeline in the Cloud Manager.
+It is done by defining the API configuration in a YAML file and deploying it using the Config Pipeline in the Cloud Manager. The YAML file defines the allowed ClientIDs from the ADC Project that can communicate with the AEM instance. 
 
-1. In AEM Project, locate or create the `config.yaml` file from the `config` folder.
+1. In AEM Project, locate or create the `api.yaml` file from the `config` folder.
 
-    ![Locate config YAML](./assets/setup/locate-config-yaml.png)
+    ![Locate API YAML](./assets/setup/locate-api-yaml.png){width="500" zoomable="no"}
 
-1. Add the following configuration to the `config.yaml` file.
+1. Add the following configuration to the `api.yaml` file.
 
     ```yaml
     kind: "API"
@@ -173,9 +167,9 @@ the AEM Project and deploying it using the Config Pipeline in the Cloud Manager.
 
 1. Commit the config changes and push the changes to the remote Git repository the Cloud Manager pipeline is connected to.
 
-1. Deploy the above changes using the Config Pipeline in the Cloud Manager. Note that the `config.yaml` file can also be installed in an RDE, using command line tooling.
+1. Deploy the above changes using the Config Pipeline in the Cloud Manager. Note that the `api.yaml` file can also be installed in an RDE, using command line tooling.
 
-    ![Deploy config.yaml](./assets/setup/config-pipeline.png)
+    ![Deploy YAML](./assets/setup/config-pipeline.png)
 
 ## Next steps
 

@@ -19,10 +19,6 @@ Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service from custom
 
 The OAuth Server-to-Server authentication is ideal for backend services needing API access without user interaction. It uses the OAuth 2.0 _client_credentials_ grant type to authenticate the client application.
 
->[!AVAILABILITY]
->
->OpenAPI-based AEM APIs are available as part of an early access program. If you are interested in accessing them, we encourage you to email [aem-apis@adobe.com](mailto:aem-apis@adobe.com) with a description of your use case.
-
 ## What you learn{#what-you-learn}
 
 In this tutorial, you learn how to:
