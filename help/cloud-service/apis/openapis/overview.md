@@ -61,6 +61,7 @@ The following table summarizes the differences between the three OAuth authentic
 | **Security Considerations** | Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems. | After user authentication, they are granted their own _temporary access token via a backend call_. Securely store sensitive credentials (`client_id`, `client_secret`) in backend systems to exchange authorization code for access token. | After user authentication, they are granted their own _temporary access token via a frontend call_. Does not use `client_secret`, as it's unsafe to store in frontend apps. Relies on PKCE to exchange authorization code for access token. |
 | **Grant Type** | _client_credentials_ | _authorization_code_ | _authorization_code_ with **PKCE** |
 | **Adobe Developer Console Credential Type** | OAuth Server-to-Server | OAuth Web App  | OAuth Single-Page App  |
+| **Tutorial** | [Invoke API using Server-to-Server authentication](./use-cases/invoke-api-using-oauth-s2s.md) | [Invoke API using Web App authentication](./use-cases/invoke-api-using-oauth-web-app.md) | [Invoke API using Single Page App authentication](./use-cases/invoke-api-using-oauth-single-page-app.md) |
 
 ## Accessing Adobe APIs and related concepts{#accessing-adobe-apis-and-related-concepts}
 
