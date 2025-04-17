@@ -23,7 +23,7 @@ team: TM
     + [Experience Manager - Governance and staffing models and archetypes](./introduction/experience-manager-governance-and-staffing-models.md)
 + Experience Cloud integrations{#integrations}
   + [Integrations](./integrations/experience-cloud.md)
-  + [Adobe Target](./integrations/target.md)
+  + [AEM Headless and Target](./integrations/target.md)
 + Underlying Technology {#underlying-technology}
   + [AEM Architecture](./underlying-technology/introduction-architecture.md)
   + [OSGi](./underlying-technology/introduction-osgi.md)
