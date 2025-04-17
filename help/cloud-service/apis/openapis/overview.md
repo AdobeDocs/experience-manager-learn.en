@@ -39,10 +39,6 @@ The [OpenAPI Specification](https://swagger.io/specification/) (formerly known a
 
 In future releases, more OpenAPI-based AEM APIs will be added to support additional use cases.
 
->[!AVAILABILITY]
->
->OpenAPI-based AEM APIs are available as part of an early access program. If you are interested in accessing them, we encourage you to email [aem-apis@adobe.com](mailto:aem-apis@adobe.com) with a description of your use case.
-
 ## Authentication support{#authentication-support}
 
 The OpenAPI-based AEM APIs supports OAuth 2.0 authentication, including the following grant types:

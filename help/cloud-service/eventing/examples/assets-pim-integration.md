@@ -100,13 +100,13 @@ To receive AEM Assets Events and execute the Adobe I/O Runtime Action created in
 
 To enable the ADC Project's OAuth Server-to-Server credential ClientID to communication with the AEM instance, you need to configure the AEM instance.
 
-It is done by defining the configuration in the `config.yaml` file in the AEM Project. Then, deploy the `config.yaml` file using the Config Pipeline in the Cloud Manager.
+It is done by defining the configuration in the `api.yaml` file in the AEM Project. Then, deploy the `api.yaml` file using the Config Pipeline in the Cloud Manager.
 
-- In AEM Project, locate or create the `config.yaml` file from the `config` folder.
+- In AEM Project, locate or create the `api.yaml` file from the `config` folder.
 
-    ![Locate config YAML](../assets/examples/assets-pim-integration/locate-config-yaml.png)
+    ![Locate API YAML](../assets/examples/assets-pim-integration/locate-api-yaml.png)
 
-- Add the following configuration to the `config.yaml` file.
+- Add the following configuration to the `api.yaml` file.
 
     ```yaml
     kind: "API"
@@ -128,9 +128,9 @@ It is done by defining the configuration in the `config.yaml` file in the AEM Pr
 
 - Commit the config changes to the Git repository and push the changes to the remote repository.
 
-- Deploy the above changes using the Config Pipeline in the Cloud Manager. Note that the `config.yaml` file can also be installed in an RDE, using command line tooling.
+- Deploy the above changes using the Config Pipeline in the Cloud Manager. Note that the `api.yaml` file can also be installed in an RDE, using command line tooling.
 
-    ![Deploy config.yaml](../assets/examples/assets-pim-integration/config-pipeline.png)
+    ![Deploy API YAML](../assets/examples/assets-pim-integration/config-pipeline.png)
 
 ### Develop runtime action
 
