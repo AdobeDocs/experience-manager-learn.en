@@ -389,14 +389,6 @@ This technique is handy if most the styles and front-end code is performed by a 
 
 1. You can **stop** the webpack server from the command line by typing `CTRL+C`.
 
-### aemfed {#develop-aemfed}
-
-**[aemfed](https://aemfed.io/)** is an open-source, command-line  tool that can be used to speed up front-end development. It is powered by [aemsync](https://www.npmjs.com/package/aemsync), [Browsersync](https://browsersync.io/), and [Sling Log Tracer](https://sling.apache.org/documentation/bundles/log-tracers.html).
-
-At a high level, the `aemfed`is designed to listen to file changes within the **ui.apps** module and automatically sync them directly to a running AEM instance. Based on the changes, a local browser automatically refreshes, thus speeding up front-end development. It is also built to work with Sling Log tracer to automatically display any server-side errors directly in the terminal.
-
-If you are doing much work within the **ui.apps** module, modifying HTL scripts, and creating custom components, **aemfed** can be a powerful tool to use. [Full documentation can be found here](https://github.com/abmaonline/aemfed).
-
 ### Debugging Client-side Libraries {#debugging-clientlibs}
 
 Using different methods of **categories** and **embeds** to include multiple client libraries it can be cumbersome to troubleshoot. AEM exposes several tools to help with this. One of the most important tools is **Rebuild Client Libraries** which forces AEM to recompile any LESS files and generate the CSS.

@@ -244,7 +244,6 @@ Visual Studio Code is the ideal choice for front-end developers primarily creati
 
 + [Download Visual Studio Code](https://code.visualstudio.com/Download)
 + [Download the Repo tool](https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo#integration-into-visual-studio-code)
-+ [Download aemfed VS Code extension](https://aemfed.io/)
 + [Download AEM Sync VS Code extension](https://marketplace.visualstudio.com/items?itemName=Yinkai15.aemsync)
 
 ### Eclipse

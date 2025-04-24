@@ -175,7 +175,6 @@ The **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** is a powerful IDE for p
 
 * [**Download**](https://code.visualstudio.com/Download) **Visual Studio Code**
 * **[repo](https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo#integration-into-visual-studio-code)** - FTP-like tool for JCR content
-* **[aemfed](https://aemfed.io/)** - Speed up your AEM front-end workflow
 * **[AEM Sync](https://marketplace.visualstudio.com/items?itemName=Yinkai15.aemsync)** - Community supported&#42; extension for Visual Studio Code
 * **[WKND project](https://github.com/adobe/aem-guides-wknd)** - Example AEM project shown in this video.
 
@@ -185,8 +184,7 @@ The **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** is a powerful IDE for p
 * 00:53 - Build and deploy source code with Maven  
 * 04:03 - Push code changes with Repo command-line tool  
 * 08:29 - Pull code changes with Repo command-line tool  
-* 10:40 - Push code changes with aemfed tool  
-* 14:24 - Troubleshooting, Rebuild Client Libraries
+* 10:32 - Troubleshooting, Rebuild Client Libraries
 
 ### [!DNL CRXDE Lite]
 
