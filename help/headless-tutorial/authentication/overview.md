@@ -67,5 +67,5 @@ Service Credentials are the bonafide credentials used in any non-development sce
 
 + [Download the example application](./assets/aem-guides_token-authentication-external-application.zip)
 + Other code samples of JWT creation and exchange
-    + [Node.js, Java, Python, C#.NET, and PHP code samples](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/samples/)
+    + [Node.js, Java, Python, C#.NET, and PHP code samples](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/samples)
     + [JavaScript/Axios-based code sample](https://github.com/adobe/aemcs-api-client-lib)

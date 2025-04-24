@@ -422,7 +422,7 @@ To complete this tutorial, you need:
 
 - The sample [WKND Sites](https://github.com/adobe/aem-guides-wknd?#aem-wknd-sites-project) project must be deployed on to it.
 
-- Access to the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/).
+- Access to the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started).
 
 - Install [Node.js](https://nodejs.org/en/) on your local machine to run the sample NodeJS application.
 
@@ -642,7 +642,7 @@ You can use the tutorial as a reference to integrate the OpenAPI-based AEM APIs 
 
 ## Additional resources
 
- - [User Authentication Implementation Guide](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation/)
- - [Authorize Request](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/IMS/#authorize-request)
- - [Fetching Access tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/IMS/#fetching-access-tokens)
- - [Refreshing Access tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/IMS/#refreshing-access-tokens)
+ - [User Authentication Implementation Guide](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation)
+ - [Authorize Request](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/ims#authorize-request)
+ - [Fetching Access tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/ims#fetching-access-tokens)
+ - [Refreshing Access tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/ims#refreshing-access-tokens)

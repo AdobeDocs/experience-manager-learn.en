@@ -44,7 +44,7 @@ The values for `JWT_CLIENT_ID`, `JWT_CLIENT_SECRET`, `JWT_TECHNICAL_ACCOUNT_ID`,
 
 ### Metascopes
 
-Determine the Adobe APIs and their metascopes the App Builder action interacts with. List metascopes with comma delimiters in the `JWT_METASCOPES` key. Valid metascopes are listed in [Adobe's JWT Metascope documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/Scopes/).
+Determine the Adobe APIs and their metascopes the App Builder action interacts with. List metascopes with comma delimiters in the `JWT_METASCOPES` key. Valid metascopes are listed in [Adobe's JWT Metascope documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/scopes).
 
 
 For example, the following value might be added to the `JWT_METASCOPES` key in the `.env`:

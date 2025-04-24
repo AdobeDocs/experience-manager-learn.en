@@ -44,7 +44,7 @@ To complete this tutorial, you need:
 
 - The sample [WKND Sites](https://github.com/adobe/aem-guides-wknd?#aem-wknd-sites-project) project must be deployed on to it.
 
-- Access to the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/).
+- Access to the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started).
 
 - Install [Node.js](https://nodejs.org/en/) on your local machine to run the sample NodeJS application. 
 
@@ -111,7 +111,7 @@ For testing purposes, you can use the [Postman](https://www.postman.com/), [curl
 
 ### Review the API
 
-Before developing the application, let's review [deliver the specified asset's metadata](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/../assets/author/#operation/getAssetMetadata) endpoint from the _Assets Author API_. The API syntax is:
+Before developing the application, let's review [deliver the specified asset's metadata](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/assets/author/#operation/getAssetMetadata) endpoint from the _Assets Author API_. The API syntax is:
 
 ```http
 GET https://{bucket}.adobeaemcloud.com/adobe/../assets/{assetId}/metadata
@@ -466,4 +466,4 @@ In the ADC Project, you added the AEM APIs, configured its authentication type, 
 
 ## Additional resources
 
-- [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+- [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)
