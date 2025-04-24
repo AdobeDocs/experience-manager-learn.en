@@ -43,7 +43,7 @@ To complete this tutorial, you need:
 
 - AEM as a Cloud Service environment with [AEM Eventing enabled](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#enable-aem-events-on-your-aem-cloud-service-environment). Also, the sample [WKND Sites](https://github.com/adobe/aem-guides-wknd?#aem-wknd-sites-project) project must be deployed on to it.
 
-- Access to the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/).
+- Access to the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started).
 
 - [Adobe Developer CLI](https://developer.adobe.com/runtime/docs/guides/tools/cli_install/) installed on your local machine.
 
@@ -329,6 +329,6 @@ The asset metadata synchronization between AEM and other systems like PIM are of
 
 - The asset metadata retrieval code is executed outside of AEM, avoiding the load on the AEM Author service, thus an event-driven architecture that scales independently.
 - The newly introduced Assets Author API is used to update the asset metadata in AEM.
-- The API authentication uses OAuth server-to-server (aka client credentials flow), see [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
+- The API authentication uses OAuth server-to-server (aka client credentials flow), see [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation).
 - Instead of Adobe I/O Runtime Actions, other webhooks or Amazon EventBridge can be used to receive the AEM Assets event and process the metadata update.
 - Asset Events via AEM Eventing empower businesses to automate and streamline critical processes, fostering efficiency and coherence across the content ecosystem.

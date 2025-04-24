@@ -143,7 +143,7 @@ function getCommandLineParams() {
 
 Once the Service Credentials are read, they are used to generate a JWT which is then exchanged with Adobe IMS APIs for an access token. This access token can then be used to access AEM as a Cloud Service.
 
-This example application is Node.js-based, so it's best to use [@adobe/jwt-auth](https://www.npmjs.com/package/@adobe/jwt-auth) npm module to facilitate the (1) JWT generation and (20 exchange with Adobe IMS. If your application is developed using another language, please review [the appropriate code samples](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/samples/) on how to construct the HTTP request to Adobe IMS using other programming languages.
+This example application is Node.js-based, so it's best to use [@adobe/jwt-auth](https://www.npmjs.com/package/@adobe/jwt-auth) npm module to facilitate the (1) JWT generation and (20 exchange with Adobe IMS. If your application is developed using another language, please review [the appropriate code samples](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/samples) on how to construct the HTTP request to Adobe IMS using other programming languages.
 
 1.  Update the `getAccessToken(..)` to inspect the JSON file contents and determine if it represents a Local Development Access Token or Service Credentials. This can be easily achieved by checking for the existence of the `.accessToken` property, which only exists for Local Development Access Token JSON.
 

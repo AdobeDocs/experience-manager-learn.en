@@ -27,7 +27,7 @@ To complete this tutorial, you need:
 
 - AEM as a Cloud Service environment with [AEM Eventing enabled](https://developer.adobe.com/experience-cloud/experience-manager-apis/guides/events/#enable-aem-events-on-your-aem-cloud-service-environment). Also, the sample [WKND Sites](https://github.com/adobe/aem-guides-wknd?#aem-wknd-sites-project) project must be deployed on to it.
 
-- Access to [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/).
+- Access to [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started).
 
 - [Adobe Developer CLI](https://developer.adobe.com/runtime/docs/guides/tools/cli_install/) installed on your local machine.
 
