@@ -89,6 +89,22 @@ To deploy a new version of an extension, it must first be revoked (or removed). 
 1. Navigate to __Manage__ > __App Builder Apps__
 1. __Revoke__ the Extension to update
 
+After revoking extension, it is still visible with revoked status in Extention Manager. To remove it completely you needs to remove the project.
+
+The button to remove project is on top right:
+
+![Delete button](./assets/deploy/extension-delete-button.png){align="center"}
+
+Until the extension is not revoked it will not be possible to delete the project:
+
+![Project can not be delete](./assets/deploy/extension-can-not-delete-project.png){align="center"}
+
+When extension is revoked then the project can be removed:
+
+![Project can not be delete](./assets/deploy/extension-delete-procject.png){align="center"}
+
+After removing the project, the extension is not visible anymore in Extension Manager.
+
 ### Deploy the extension
 
 Deploy the extension to the Production workspace. Extensions deployed to the Production workspace are automatically added to all AEM as a Cloud Service Author services in Adobe Org that the extension is deployed to.
