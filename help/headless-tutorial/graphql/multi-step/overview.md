@@ -40,7 +40,7 @@ The following are required to follow this tutorial:
 
 ### AEM Environment
 
-To complete this tutorial, it is recommended that you have AEM Administrator access to an AEM as a Cloud Service environment. If you do not have access to an AEM as a Cloud Service environment, please [sign up for the AEM Headless trial](https://commerce.adobe.com/business-trial/sign-up?items%5B0%5D%5Bid%5D=649A1AF5CBC5467A25E84F2561274821&cli=headless_exl_banner_campaign&co=US&lang=en) to explore AEM's headless capabilities.
+To complete this tutorial, it is recommended that you have AEM Administrator access to an AEM as a Cloud Service environment.
 
 ## Let's get started!
 
