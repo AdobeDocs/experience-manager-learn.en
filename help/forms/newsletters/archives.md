@@ -1,7 +1,8 @@
 ---
 title: Experience League Monthly Newsletters Archive.
 description: Download archived versions of the newsletter.
-
+hidefromtoc: yes
+hide: yes
 ---
 # Experience League Monthly Newsletters Archive
 
