@@ -49,6 +49,15 @@ The OpenAPI-based AEM APIs supports OAuth 2.0 authentication, including the foll
 
 - **OAuth Single Page App credential**: Designed for SPAs running in the browser, which needs to access APIs on behalf of a user without a backend server. It uses the _authorization_code_ grant type and relies on client-side security mechanisms using PKCE (Proof Key for Code Exchange) to secure the authorization code flow. For more information, see [OAuth Single Page App credential](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation#oauth-single-page-app-credential).
 
+## Which Authentication method to use{#auth-method-decision}
+
+When deciding which authentication method to use, consider the following:
+
+![Which Authentication method to use?](./assets/overview/which-authentication-method-to-use.png)
+
+User Authentication (Web App or Single Page App) should be the default choice whenever AEM user context is involved. This ensures that all actions in the repository are properly attributed to the authenticated user and that the user is restricted to only the permissions they are entitled to.
+Using the Server-to-Server (or technical system account) to perform actions on behalf of an individual user bypasses the security model and introduces risks such as privilege escalation and inaccurate auditing.
+
 ## Difference between OAuth Server-to-Server vs Web App vs Single Page App credentials{#difference-between-oauth-server-to-server-vs-web-app-vs-single-page-app-credentials}
 
 The following table summarizes the differences between the three OAuth authentication methods supported by OpenAPI-based AEM APIs:
