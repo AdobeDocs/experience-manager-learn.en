@@ -23,7 +23,7 @@ Learn about indexing best practices in Adobe Experience Manager (AEM). Apache [J
 - AEM as a Cloud Service only supports Oak Lucene indexes. 
 - Index configuration should be managed in the AEM project codebase and deployed using Cloud Manager CI/CD pipelines.
 - If multiple indexes are available for a given query, the **index with the lowest estimated cost is used**.
-- If no index is available for a given query, the content tree is traversed to find the matching content. However, the default limit via `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` is to traverse only 10,0000 nodes.
+- If no index is available for a given query, the content tree is traversed to find the matching content. However, the default limit via `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` is to traverse only 100,000 nodes.
 - The results of a query are **filtered at last** to ensure that the current user has read access. This means that the query results may be smaller than the number of indexed nodes.
 - The reindexing of the repository after index definition changes requires time and it depends on the size of the repository.
 
