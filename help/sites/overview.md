@@ -1,6 +1,6 @@
 ---
-title: AEM Sites videos and tutorials
-description: Adobe Experience Manager (AEM) Sites is a leading experience management platform. This user guide contains videos and tutorials on the many features and capabilities of AEM Sites.
+title: AEM Sites Videos and Tutorials
+description: Browse videos and tutorials about the features and capabilities of Adobe Experience Manager Sites. AEM Sites is a leading experience management platform.
 solution: Experience Manager, Experience Manager Sites
 sub-product: Experience Manager Sites
 topic: Content Management
