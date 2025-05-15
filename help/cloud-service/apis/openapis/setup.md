@@ -17,6 +17,8 @@ exl-id: 1df4c816-b354-4803-bb6c-49aa7d7404c6
 
 Learn how to set up your AEM as a Cloud Service environment to enable access to the OpenAPI-based AEM APIs.
 
+In this example, the AEM Assets API using the Server-to-Server authentication method is used to demonstrate the setup process. The same steps can be followed for other OpenAPI-based AEM APIs.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3457510?quality=12&learn=on)
 
 The high-level set up process involves the following steps:
@@ -72,13 +74,25 @@ Review the association by clicking on the _View Details_ icon next to the Produc
 
 ![Review services associated with Product Profile](./assets/setup/review-services-associated-with-product-profile.png)
 
-By default, the **AEM Assets API Users** Service is not associated with any Product Profile. Let's associate it with the newly added **AEM Assets Collaborator Users - author - Program XXX - Environment XXX** Product Profile. After this association, the ADC Project's _Asset Author API_ can setup the desired Server-to-Server authentication and associate the authentication account from ADC project (created in next step) with the Product Profile.
+### Enable AEM Assets APIs access{#enable-aem-assets-apis-access}
+
+By default, the **AEM Assets API Users** Service is not associated with any Product Profile. Let's associate it with the newly added **AEM Assets Collaborator Users - author - Program XXX - Environment XXX** Product Profile or any other Product Profile that you want to use for AEM Assets API access.
 
 ![Associate AEM Assets API Users Service with Product Profile](./assets/setup/associate-aem-assets-api-users-service-with-product-profile.png)
 
+### Enable Server-to-Server authentication
+
+To enable the Server-to-Server authentication for the desired AEM APIs, the user setting up integration using the Adobe Developer Console (ADC) must be added as a Developer to the Product Profile where the Service is associated.
+
+For example, to enable the Server-to-Server authentication for the AEM Assets API, the user must be added as a Developer to the **AEM Assets Collaborator Users - author - Program XXX - Environment XXX** Product Profile.
+
+![Associate Developer to Product Profile](./assets/setup/associate-developer-to-product-profile.png)
+
+After this association, the ADC Project's _Asset Author API_ can setup the desired Server-to-Server authentication and associate the authentication account from ADC project (created in next step) with the Product Profile.
+
 >[!IMPORTANT]
 >
->The above step is critical to enable the Server-to-Server authentication for the AEM Assets API. Without this association, the AEM Assets API cannot be used with the Server-to-Server authentication method.
+>The above step is critical to enable the Server-to-Server authentication for the desired AEM API. Without this association, the AEM API cannot be used with the Server-to-Server authentication method.
 
 ## Create Adobe Developer Console (ADC) Project{#adc-project}
 
@@ -119,6 +133,11 @@ After creating the ADC Project, you have to add the desired AEM APIs, set up its
     ![Select authentication](./assets/s2s/select-authentication.png)
 
     The Server-to-Server authentication is ideal for backend services needing API access without user interaction. The Web App and Single Page App authentication options are suitable for applications needing API access on behalf of users. See [Difference between OAuth Server-to-Server vs Web App vs Single Page App credentials](./overview.md#difference-between-oauth-server-to-server-vs-web-app-vs-single-page-app-credentials) for more information.
+
+    >[!TIP]
+    >
+    >If you do not see the Server-to-Server authentication option, it means that the user setting up the integration is not added as a Developer to the Product Profile where the Service is associated. See [Enable Server-to-Server authentication](#enable-server-to-server-authentication) for more information.
+
 
 1. If needed, you can rename the API for easier identification. For demo purposes, the default name is used.
 
