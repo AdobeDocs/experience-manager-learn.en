@@ -83,6 +83,10 @@ The configure ADC Project step is _repeated_ from the [Setup OpenAPI-based AEM A
 
     ![Select authentication](../assets/s2s/select-authentication.png)
 
+    >[!TIP]
+    >
+    >If you do not see the Server-to-Server authentication option, it means that the user setting up the integration is not added as a Developer to the Product Profile where the Service is associated. See [Enable Server-to-Server authentication](../setup.md#enable-server-to-server-authentication) for more information.
+
 1. Rename the credential for easier identification (if needed) and click **Next**. For demo purposes, the default name is used.
 
     ![Rename credential](../assets/s2s/rename-credential.png)
