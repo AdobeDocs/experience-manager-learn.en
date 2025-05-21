@@ -215,7 +215,7 @@ Refer to the attached [WKND-Assets-PIM-Integration.zip](../assets/examples/asset
           'Content-Type': 'application/json-patch+json',
           'If-Match': '*',
           'X-Adobe-Accept-Experimental': '1',
-          'X-Api-Key': 'aem-assets-management-api', // temporary value
+          'X-Api-Key': '12345676', // Use the `ClientID` value from the ADC Project's credentials section
           Authorization: `Bearer ${access_token}`,
         },
         body: JSON.stringify(transformedMetadata),
