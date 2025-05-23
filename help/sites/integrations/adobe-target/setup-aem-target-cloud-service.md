@@ -19,6 +19,11 @@ The following video provides a walk through on how to connect AEM as a Cloud Ser
 
 This integration allows the AEM Author service to communicate directly with Adobe Target, and push Experience Fragments from AEM to Target as offers.  This integration does *not* add Adobe Target JavaScript (AT.js) to AEM Sites web pages, for that integrate [AEM and tags using the Target extension](../experience-platform/data-collection/tags/connect-aem-tag-property-using-ims.md).
 
+>[!WARNING]
+>
+>The video shows deprecated JWT authentication method to connect AEM to Adobe Target. However, the recommended method is to use the OAuth Server-to-Server authentication method. For more information, see [JWT-To-OAuth credential migration for AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/foundation/authentication/jwt-to-oauth-migration.html). We are working on updating the video to reflect this change.
+
+
 >[!VIDEO](https://video.tv.adobe.com/v/41244?quality=12&learn=on)
 
 >[!CAUTION]
