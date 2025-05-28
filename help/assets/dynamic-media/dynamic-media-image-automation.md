@@ -9,8 +9,8 @@ doc-type: Feature Video
 duration: 560
 last-substantial-update: 2025-05-28
 jira: KT-18197
+exl-id: 13a09ad3-bf55-4524-bf43-f1cdad368034
 ---
-
 # Dynamic Media for transparency and Content Automation batch processing
 
 Learn how to use Dynamic Media in AEM to create virtual renditions, manage transparency, and automate image processing for scalable content reuse.
