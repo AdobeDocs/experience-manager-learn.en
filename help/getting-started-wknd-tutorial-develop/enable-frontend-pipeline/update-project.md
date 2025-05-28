@@ -88,7 +88,7 @@ There are three project-related config changes and a style change to deploy for 
             }),
         new CopyWebpackPlugin({
             patterns: [
-                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './clientlib-site' }
+                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './theme' }
             ]
         })
     ...
