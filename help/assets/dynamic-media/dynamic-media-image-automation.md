@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate, Experienced
 doc-type: Feature Video
-duration: 542
+duration: 560
 last-substantial-update: 2025-05-28
 jira: KT-18197
 ---
