@@ -134,6 +134,7 @@ team: TM
   + [Dynamic Media overview](dynamic-media/dynamic-media-overview-feature-video-use.md)
   + [Dynamic Media Classic Desktop application](dynamic-media/dynamic-media-classic-desktop-application.md)
   + Images {#images}
+    + [Image automation](dynamic-media/dynamic-media-image-automation.md)
     + [Dynamic Media Templates](dynamic-media/dynamic-media-templates.md)
     + [Dynamic Media snapshot](dynamic-media/dynamic-media-snapshot.md)
     + [Smart Crop](dynamic-media/smart-crop-feature-video-use.md)
