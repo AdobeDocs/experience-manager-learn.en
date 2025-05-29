@@ -188,7 +188,6 @@ version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a
     + [Personalization of full web page experience](integrations/adobe-target/personalization-web-page.md)
 + Learn From Your Peers {#expert-resources}
   + [Overview](expert-resources/learn-from-your-peers-overview.md)
-  + [Creating Authoring Guide In AEM Sites](expert-resources/authoring-guide-in-sites.md)
   + [AEM Sites Maturity Assessment](expert-resources/maturity-assessment.md)
   + [Site Maintenance](expert-resources/site-maintenance.md)
   + [AEM Champion Tips and Tricks: Session 1](expert-resources/champion-tips-1.md)
