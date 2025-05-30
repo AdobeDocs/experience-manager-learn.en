@@ -13,8 +13,8 @@ feature: APIs, Cloud Manager, Generative AI, Search, Onboarding
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 5a799ef6-9770-4cf1-a288-80a9bbb26faf
 ---
-
 # AEM AI Assistant Overview
 
 Learn how the AEM AI Assistant simplifies finding product knowledge and automates support ticket creation.

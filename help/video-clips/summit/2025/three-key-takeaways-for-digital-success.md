@@ -13,8 +13,8 @@ feature: Generative AI, Operations, Personalization
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 39ed523f-abcd-49b5-978f-b795e109d7f5
 ---
-
 # Three Key Takeaways for Digital Success
 
 Explore the three key principles for optimizing digital experiences: fixing the basics, leveraging AI, and empowering strategic leaders.

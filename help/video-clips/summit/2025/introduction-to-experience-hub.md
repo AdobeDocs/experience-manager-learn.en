@@ -13,8 +13,8 @@ feature: Personalization, Onboarding, Security
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 8f2826fe-d330-42f5-be29-7bc3a2f26deb
 ---
-
 # Introduction to Experience Hub
 
 Discover the unified starting point for AEM users with Experience Hub, designed to enhance productivity and personalization.

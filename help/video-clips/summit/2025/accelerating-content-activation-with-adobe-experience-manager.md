@@ -13,8 +13,8 @@ feature: Brand Experiences, Content Personalization, Marketing Campaigns, Multic
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 177150b3-6be3-4594-b1ca-f7f080effdfd
 ---
-
 # Accelerating Content Activation with Adobe Experience Manager
 
 Learn how Adobe Experience Manager helps brands accelerate content activation while maintaining trust, personalization, and ROI.

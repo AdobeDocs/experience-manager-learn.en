@@ -13,8 +13,8 @@ feature: Generate Variations, Generative AI, Personalization
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 58a249c2-e4d1-4221-ad9d-3b19856b3048
 ---
-
 # Generate Variations Demo
 
 A live demonstration of the Generate Variations tool, showcasing its capabilities in creating on-brand content variations quickly and efficiently.

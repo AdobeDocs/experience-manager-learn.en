@@ -13,8 +13,8 @@ feature: Generate Variations, Generative AI, Publishing
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 885dd083-79f1-49c4-88cc-7594aaa3fdbf
 ---
-
 # Generate Variations with Content AI
 
 See how Content AI enables you to create engaging content variations quickly and efficiently.

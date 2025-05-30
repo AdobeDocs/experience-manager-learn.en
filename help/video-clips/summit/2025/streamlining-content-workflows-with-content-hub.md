@@ -13,8 +13,8 @@ feature: Asset Management, Collections, Metadata, Rulesets
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 5f7de18c-8859-4201-be24-4fa2ae4aeb8d
 ---
-
 # Streamlining Content Workflows with Content Hub
 
 Discover how Content Hub simplifies content access, permissions, and localization for regional teams, ensuring efficiency and relevance.

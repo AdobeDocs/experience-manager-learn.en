@@ -13,8 +13,8 @@ feature: Generate Variations, Generative AI, Personalization
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: df0a03c1-d278-4c45-afff-bfbdaffe83bd
 ---
-
 # Real-World Success with Generate Variations
 
 Emily Kellman shares how Adobe.com used Generate Variations to increase content velocity, reduce timelines, and boost conversions.

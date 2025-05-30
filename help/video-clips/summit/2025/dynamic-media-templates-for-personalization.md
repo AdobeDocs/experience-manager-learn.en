@@ -13,8 +13,8 @@ feature: Generate Variations, Personalization, Rich Text Editor, Integrations
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: d4458e36-348a-4903-9990-1382443f128b
 ---
-
 # Dynamic Media Templates for Personalization
 
 See how Dynamic Media Templates enable on-the-fly personalization of banners, making it easy to create variations for different audiences.

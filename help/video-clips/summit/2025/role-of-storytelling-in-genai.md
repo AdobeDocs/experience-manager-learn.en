@@ -13,8 +13,8 @@ feature: Generative AI
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: f3902c6e-7f32-49ce-982a-76d264b87fd0
 ---
-
 # The Role of Storytelling in GenAI
 
 Discover how storytelling principles in country music relate to the design of GenAI tools for digital experiences.

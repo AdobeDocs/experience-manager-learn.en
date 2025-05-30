@@ -13,8 +13,8 @@ feature: Content Fragments, Content Personalization, Asset Management
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 07b2d50c-9243-4142-9357-29c36856c29d
 ---
-
 # Content Discovery and Reuse Challenges
 
 Understand the difficulties organizations face in discovering and reusing content, and how Experience Generation addresses these issues.

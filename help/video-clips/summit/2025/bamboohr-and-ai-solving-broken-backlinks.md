@@ -13,8 +13,8 @@ feature: Generative AI
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 3b3ef9c2-f4e0-45fa-a2a4-3e7130b4d6ce
 ---
-
 # BambooHR and AI: Solving Broken Backlinks
 
 Learn how BambooHR used AI to identify and fix broken backlinks, leading to a 4% increase in organic traffic.

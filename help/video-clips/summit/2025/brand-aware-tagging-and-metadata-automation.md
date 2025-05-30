@@ -13,8 +13,8 @@ feature: Asset Management, Metadata, Smart Tags, Asset Processing
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: a9ed4c09-307c-42f1-9d3c-37481b305bf2
 ---
-
 # Brand-Aware Tagging and Metadata Automation
 
 Discover how brand-aware tagging automates metadata generation, enhancing search and discovery for content managers.
