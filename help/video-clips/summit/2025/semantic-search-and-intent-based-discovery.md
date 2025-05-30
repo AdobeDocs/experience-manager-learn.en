@@ -13,8 +13,8 @@ feature: Generative AI, Search, Tagging
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: c726c62a-d3a9-471f-8091-4fb00010a7d9
 ---
-
 # Semantic Search and Intent-Based Discovery
 
 Discover how semantic search and intent-based discovery revolutionize finding assets, even with typos, synonyms, or in multiple languages.

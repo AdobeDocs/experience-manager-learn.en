@@ -13,8 +13,8 @@ feature: Generative AI, Integrations, Onboarding
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: 71a64094-efca-400a-a6fa-cc801cbec664
 ---
-
 # Challenges in Scaling GenAI Adoption
 
 Explore the key challenges organizations face in adopting and scaling GenAI, including insufficient context, unclear use cases, and governance concerns.

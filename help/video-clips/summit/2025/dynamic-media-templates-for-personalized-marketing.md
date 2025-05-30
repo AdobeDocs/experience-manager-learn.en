@@ -13,8 +13,8 @@ feature: Dynamic Media, Content Personalization, Templates, Publishing
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: e875feab-bf5b-47ab-b3be-ee0c2e418f50
 ---
-
 # Dynamic Media Templates for Personalized Marketing
 
 Explore how Dynamic Media Templates enable marketers to create live, customizable content for personalized campaigns.

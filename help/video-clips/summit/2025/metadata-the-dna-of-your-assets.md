@@ -13,8 +13,8 @@ feature: Search, Tagging, Workflow
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: dcc6c975-dd7e-402d-844c-eccf888d9b2c
 ---
-
 # Metadata: The DNA of Your Assets
 
 Learn how metadata drives workflows, search, and insights, and how automation can enrich metadata to align with brand standards.

@@ -13,8 +13,8 @@ feature: APIs, Integrations, Personalization, Search, Workflow
 index: no
 hide: yes
 hidefromtoc: yes
+exl-id: eac1d731-6860-4af4-aba4-bc93abb40073
 ---
-
 # Content Hub Innovations and Unified Search
 
 Explore Content Hub's new features, including attribute-based access control, branded landing pages, and unified search across platforms.
