@@ -5,7 +5,7 @@ user-guide-description: Hidden collection
 auto-video-transcripts: true
 ---
 
-# Adobe Experience Manager Video Shorts {#video-shorts}
+# Adobe Experience Manager Video Shorts {#video-clips}
 
 + Adobe Summit {#summit}
     + 2025 {#2025}
