@@ -133,9 +133,9 @@ The `assetId` is the JCR UUID of the asset with the `urn:aaid:aem:` prefix, for 
 
 ### Invoke the API using the browser
 
-Before developing the application, let's invoke the API using the **Try it** feature in the [API documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/assets/author/). 
+Before developing the application, let's invoke the API using the **Try it** feature in the [API documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/assets/author/). 
 
-1. Open the [Assets Author API documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/assets/author/) in the browser.
+1. Open the [Assets Author API documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/assets/author/) in the browser.
 
 1. Expand the _Metadata_ section and click on the **Delivers the specified asset's metadata** option.
 
