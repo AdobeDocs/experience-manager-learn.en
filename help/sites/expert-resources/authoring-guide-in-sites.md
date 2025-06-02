@@ -10,8 +10,8 @@ doc-type: Technical Video
 duration: 847
 last-substantial-update: 2025-05-28
 jira: KT-18192
+exl-id: 8efe69a9-32d2-4b9e-8b8a-c7b7520f968a
 ---
-
 # Creating A Live Authoring Guide In AEM Sites
 
 AEM Champion Brett Birschbach shares best practices for building a live authoring guide within Adobe Experience Manager (AEM) Sites.
