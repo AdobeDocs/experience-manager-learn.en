@@ -15,7 +15,7 @@ duration: 74
 ---
 # Getting Started with AEM Sites - Project Archetype {#project-archetype}
 
-{{edge-delivery-services-and-page-editor}}
+{{traditional-aem}}
 
 Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand the WKND.
 
