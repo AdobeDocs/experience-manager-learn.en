@@ -16,7 +16,7 @@ recommendations: disable
 ---
 # Get started with AEM Sites - WKND tutorial {#introduction}
 
-{{edge-delivery-services}}
+{{traditional-aem}}
 
 Welcome to a multi-part tutorial designed for developers new to Adobe Experience Manager (AEM). This tutorial walks through the implementation of an AEM site for a fictitious lifestyle brand, the WKND. The tutorial covers fundamental topics like project setup, Core Components, Editable Templates, Client-side libraries, and component development with Adobe Experience Manager Sites.
 
