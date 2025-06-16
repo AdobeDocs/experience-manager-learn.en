@@ -11,8 +11,11 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 197a0c1f-4d0a-4b99-ba89-cdff2e6ac4ec
 duration: 669
+hide: yes
 ---
 # Add navigation and routing {#navigation-routing}
+
+{{spa-editor-deprecation}}
 
 Learn how multiple views in the SPA are supported using AEM Pages and the SPA Editor SDK. Dynamic navigation is implemented using Angular routes and added to an existing Header component.
 

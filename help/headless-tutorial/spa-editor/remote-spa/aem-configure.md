@@ -12,17 +12,20 @@ recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: 0bdb93c9-5070-483c-a34c-f2b348bfe5ae
 duration: 297
+hide: yes
 ---
 # Configure AEM for SPA Editor
 
+{{spa-editor-deprecation}}
+
 While the SPA codebase is managed outside of AEM, an AEM project is required to setup supporting configuration and content requirements. This chapter walks through the creation of an AEM project that contains necessary configurations:
 
-+ AEM WCM Core Components proxies
-+ AEM Remote SPA Page proxy
-+ AEM Remote SPA Page Templates
-+ Baseline Remote SPA AEM pages
-+ Subproject to define SPA to AEM URL mappings
-+ OSGi configuration folders
+* AEM WCM Core Components proxies
+* AEM Remote SPA Page proxy
+* AEM Remote SPA Page Templates
+* Baseline Remote SPA AEM pages
+* Subproject to define SPA to AEM URL mappings
+* OSGi configuration folders
 
 ## Download the base project from GitHub
 
@@ -54,18 +57,18 @@ $ mvn -B archetype:generate \
 $ mv ~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/wknd-app ~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/com.adobe.aem.guides.wknd-app
 ```
 
-_The last command simply renames the AEM project folder so it is clear it's the AEM project, and not to be confused with Remote SPA__
+_The last command simply renames the AEM project folder so it is clear it's the AEM project, and not to be confused with Remote SPA**
 
 While `frontendModule="react"` is specified, the `ui.frontend` project is not used for the Remote SPA use case. The SPA is developed and managed externally to AEM and only uses AEM as a content API. The `frontendModule="react"` flag is required for the project include the  `spa-project` AEM Java&trade; dependencies and set up the Remote SPA Page Templates.
 
 The AEM Project Archetype generates the following elements that used to configure AEM for integration with the SPA.
 
-+ __AEM WCM Core Components proxies__ at `ui.apps/src/.../apps/wknd-app/components`
-+ __AEM SPA Remote Page proxy__ at `ui.apps/src/.../apps/wknd-app/components/remotepage`
-+ __AEM Page Templates__ at `ui.content/src/.../conf/wknd-app/settings/wcm/templates`
-+ __Subproject to define content mappings__ at `ui.content/src/...`
-+ __Baseline Remote SPA AEM pages__ at `ui.content/src/.../content/wknd-app`
-+ __OSGi configuration folders__ at `ui.config/src/.../apps/wknd-app/osgiconfig`
+* **AEM WCM Core Components proxies** at `ui.apps/src/.../apps/wknd-app/components`
+* **AEM SPA Remote Page proxy** at `ui.apps/src/.../apps/wknd-app/components/remotepage`
+* **AEM Page Templates** at `ui.content/src/.../conf/wknd-app/settings/wcm/templates`
+* **Subproject to define content mappings** at `ui.content/src/...`
+* **Baseline Remote SPA AEM pages** at `ui.content/src/.../content/wknd-app`
+* **OSGi configuration folders** at `ui.config/src/.../apps/wknd-app/osgiconfig`
 
 With the base AEM project is generated, a few adjustments ensure SPA Editor compatibility with Remote SPAs.
 
@@ -252,20 +255,20 @@ The `com.adobe.granite.cors.impl.CORSPolicyImpl~wknd-app_remote-spa.cfg.json` fi
 
 The key configuration elements are: 
 
-+ `alloworigin` specifies which hosts are allowed to retrieve content from AEM.
-  + `localhost:3000` is added to support the SPA running locally
-  +  `https://external-hosted-app` acts as a placeholder to be replaced with the domain that Remote SPA is hosted on.
-+ `allowedpaths` specify which paths in AEM are covered by this CORS configuration. The default allows access to all content in AEM, however this can be scoped to only the specific paths the SPA can access, for example: `/content/wknd-app`.    
+* `alloworigin` specifies which hosts are allowed to retrieve content from AEM.
+  * `localhost:3000` is added to support the SPA running locally
+  * `https://external-hosted-app` acts as a placeholder to be replaced with the domain that Remote SPA is hosted on.
+* `allowedpaths` specify which paths in AEM are covered by this CORS configuration. The default allows access to all content in AEM, however this can be scoped to only the specific paths the SPA can access, for example: `/content/wknd-app`.    
 
 ## Set AEM Page as Remote SPA Page Template 
 
-The AEM Project Archetype generates a project primed for AEM's integration with a Remote SPA, but requires a small, but important adjustment to auto-generated AEM page structure. The auto-generated AEM page must have its type changed to __Remote SPA page__, rather than a __SPA page__.
+The AEM Project Archetype generates a project primed for AEM's integration with a Remote SPA, but requires a small, but important adjustment to auto-generated AEM page structure. The auto-generated AEM page must have its type changed to **Remote SPA page**, rather than a **SPA page**.
 
 1. In your IDE, open the `ui.content` subproject
 1. Open to `src/main/content/jcr_root/content/wknd-app/us/en/home/.content.xml`
 1. Update this `.content.xml` file with:
 
-    ```
+    ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
             jcr:primaryType="cq:Page">
@@ -295,8 +298,8 @@ The AEM Project Archetype generates a project primed for AEM's integration with 
 
 The key changes are updates to the `jcr:content` node's:
 
-+ `cq:template` to `/conf/wknd-app/settings/wcm/templates/spa-remote-page`
-+ `sling:resourceType` to `wknd-app/components/remotepage`
+* `cq:template` to `/conf/wknd-app/settings/wcm/templates/spa-remote-page`
+* `sling:resourceType` to `wknd-app/components/remotepage`
 
 The `src/main/content/jcr_root/content/wknd-app/us/en/home/.content.xml` file should look like:
 
@@ -306,7 +309,7 @@ These changes allow this page, which acts are the SPA's root in AEM, to load the
 
 >[!NOTE]
 >
->If this project was previously deployed to AEM, make sure to delete the AEM page as __Sites > WKND App > us > en > WKND App Home Page__, as the `ui.content`  project is set to __merge__ nodes, rather than __update__.
+>If this project was previously deployed to AEM, make sure to delete the AEM page as **Sites > WKND App > us > en > WKND App Home Page**, as the `ui.content`  project is set to **merge** nodes, rather than **update**.
 
 This page could also be removed and re-created as a Remote SPA Page in AEM itself, however since this page is auto-created in the `ui.content` project it is best to update it in the code base.
 
@@ -327,21 +330,21 @@ This page could also be removed and re-created as a Remote SPA Page in AEM itsel
 With the AEM Project deployed, there is one last step to prepare SPA Editor to load our Remote SPA. In AEM, mark the AEM page that corresponds to the SPA's root,`/content/wknd-app/us/en/home`, generated by the AEM Project Archetype.
 
 1. Log in to AEM Author
-1. Navigate to __Sites > WKND App > us > en__
-1. Select the __WKND App Home Page__, and tap __Properties__
+1. Navigate to **Sites > WKND App > us > en**
+1. Select the **WKND App Home Page**, and tap **Properties**
 
     ![WKND App Home Page - Properties](./assets/aem-content/edit-home-properties.png)
 
-1. Navigate to the __SPA__ tab
-1. Fill out the __Remote SPA Configuration__
-    + __SPA Host URL__: `http://localhost:3000`
-       + The URL to the root of the Remote SPA
+1. Navigate to the **SPA** tab
+1. Fill out the **Remote SPA Configuration**
+    1. **SPA Host URL**: `http://localhost:3000`
+       1. The URL to the root of the Remote SPA
 
     ![WKND App Home Page - Remote SPA Configuration](./assets/aem-content/remote-spa-configuration.png)
 
-1. Tap __Save & Close__         
+1. Tap **Save & Close**         
 
-Remember that we changed this page's type to that of a __Remote SPA Page__, which is what allows us to see the __SPA__ tab in its __Page Properties__.
+Remember that we changed this page's type to that of a **Remote SPA Page**, which is what allows us to see the **SPA** tab in its **Page Properties**.
 
 This configuration only must be set on the AEM page that corresponds to the root of the SPA. All AEM pages beneath this page inherit the value.
 
@@ -349,11 +352,11 @@ This configuration only must be set on the AEM page that corresponds to the root
 
 You've now prepared AEM's configurations and deployed them to your local AEM author! You now know how to:
 
-+ Remove the AEM Project Archetype-generated SPA, by commenting out the dependencies in `ui.frontend`
-+ Add Sling Mappings to AEM that map the SPA routes to resources in AEM
-+ Set up AEM's Cross-Origin Resource Sharing security policies that allow the Remote SPA to consume content from AEM
-+ Deploy the AEM project to your local AEM SDK Author service
-+ Mark an AEM Page as the Remote SPA's root using the SPA Host URL page property
+* Remove the AEM Project Archetype-generated SPA, by commenting out the dependencies in `ui.frontend`
+* Add Sling Mappings to AEM that map the SPA routes to resources in AEM
+* Set up AEM's Cross-Origin Resource Sharing security policies that allow the Remote SPA to consume content from AEM
+* Deploy the AEM project to your local AEM SDK Author service
+* Mark an AEM Page as the Remote SPA's root using the SPA Host URL page property
 
 ## Next Steps
 

@@ -12,8 +12,11 @@ recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: ef7a1dad-993a-4c47-a9fb-91fa73de9b5d
 duration: 647
+hide: yes
 ---
 # Quick Setup
+
+{{spa-editor-deprecation}}
 
 Quick setup is an expedited walk-through illustrating how to install and run the WKND App and as a Remote SPA, and author it using AEM SPA Editor.
 
