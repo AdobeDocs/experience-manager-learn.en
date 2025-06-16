@@ -24,8 +24,6 @@ This code:
 + Connects to an AEM Publish service, and does not require authentication
 + Uses the WKND's persisted queries: `wknd-shared/adventures-all` and `wknd-shared/adventures-by-slug`
 
-For a more indepth review of how this Next.js app is built, review the [example Next.js app documentation](../example-apps/next-js.md).
-
 >[!IMPORTANT]
 >
 > Codesandbox.io does not support editting of Next.js application in the embedded IDE. To edit this code sample, [open the Next.js app directly on codesandbox.io](https://codesandbox.io/s/wknd-next-js-app-u8x5f8).

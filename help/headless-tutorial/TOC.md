@@ -66,20 +66,11 @@ index: y
   + [Install GraphiQL on AEM 6.5](./graphql/how-to/install-graphiql-aem-6-5.md)
   + Examples {#example-apps}
     + [React](./graphql/example-apps/react-app.md)
-    + [Next.js](./graphql/example-apps/next-js.md)
     + [Web Component](./graphql/example-apps/web-component.md)
     + [iOS](./graphql/example-apps/ios-swiftui-app.md)
     + [Android](./graphql/example-apps/android-app.md)
     + [Node.js](./graphql/example-apps/server-to-server-app.md)
 + SPA Editor{#spa-editor}
-  + React{#react}
-    + [Overview](./spa-editor/react/overview.md)
-    + [1 - Create Project](./spa-editor/react/create-project.md)
-    + [2 - Integrate the SPA](./spa-editor/react/integrate-spa.md)
-    + [3 - Map SPA components](./spa-editor/react/map-components.md)
-    + [4 - Navigation and routing](./spa-editor/react/navigation-routing.md)
-    + [5 - Custom component](./spa-editor/react/custom-component.md)
-    + [6 - Extend component](./spa-editor/react/extend-component.md)
   + Angular{#angular}
     + [Overview](./spa-editor/angular/overview.md)
     + [1 - SPA Editor Project](./spa-editor/angular/create-project.md)
