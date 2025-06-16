@@ -11,8 +11,11 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 57c8fc16-fed5-4af4-b98b-5c3f0350b240
 duration: 250
+hide: yes
 ---
 # Create Project {#spa-editor-project}
+
+{{spa-editor-deprecation}}
 
 Learn how to generate an Adobe Experience Manager (AEM) Maven project as a starting point for a React application integrated with the AEM SPA Editor.
 

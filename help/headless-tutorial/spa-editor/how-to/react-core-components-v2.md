@@ -11,23 +11,24 @@ thumbnail: kt-10900.jpeg
 doc-type: Tutorial
 exl-id: e055b356-dd26-4366-8608-5a0ccf5b4c49
 duration: 190
+hide: yes
 ---
 # How to use AEM React Editable Components v2
 
-{{edge-delivery-services}}
+{{spa-editor-deprecation}}
 
 AEM provides [AEM React Editable Components v2](https://www.npmjs.com/package/@adobe/aem-react-editable-components), an Node.js-based SDK that allows the creation of React components, that support in-context component editing using AEM SPA Editor.
 
-+ [npm module](https://www.npmjs.com/package/@adobe/aem-react-editable-components)
-+ [Github project](https://github.com/adobe/aem-react-editable-components)
-+ [Adobe documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/spas/spa-reference-materials.html)
+* [npm module](https://www.npmjs.com/package/@adobe/aem-react-editable-components)
+* [Github project](https://github.com/adobe/aem-react-editable-components)
+* [Adobe documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/spas/spa-reference-materials.html)
 
 
 For more details and code samples for AEM React Editable Components v2 review the technical documentation:
 
-+ [Integration with AEM documentation](https://github.com/adobe/aem-react-editable-components/tree/master/src/core)
-+ [Editable component documentation](https://github.com/adobe/aem-react-editable-components/tree/master/src/components)
-+ [Helpers documentation](https://github.com/adobe/aem-react-editable-components/tree/master/src/api)
+* [Integration with AEM documentation](https://github.com/adobe/aem-react-editable-components/tree/master/src/core)
+* [Editable component documentation](https://github.com/adobe/aem-react-editable-components/tree/master/src/components)
+* [Helpers documentation](https://github.com/adobe/aem-react-editable-components/tree/master/src/api)
 
 ## AEM pages
 
@@ -40,8 +41,7 @@ Ensure that the React app is running on Node.js 14+.
 
 The minimal set of dependencies for the React app to use AEM React Editable Components v2 are: `@adobe/aem-react-editable-components`, `@adobe/aem-spa-component-mapping`, and  `@adobe/aem-spa-page-model-manager`.
 
-
-+ `package.json`
+* `package.json`
 
 ```json
 {
@@ -69,7 +69,7 @@ When using the AEM React Editable Components with a SPA Editor-based React app, 
 
 Wrap the React app with an initialized ModelManager, and render the React app. The React app should contain one instance of the `<Page>` component exported from `@adobe/aem-react-editable-components`. The `<Page>` component has logic to dynamically create React components based on the `.model.json` provided by AEM.
 
-+ `src/index.js`
+* `src/index.js`
 
 ```javascript
 import { Constants, ModelManager } from '@adobe/aem-spa-page-model-manager';
@@ -101,7 +101,7 @@ The `<Page>` is passed as the AEM page's representation as JSON, via the `pageMo
 
 The `<Page>` is passed the AEM page's representation as JSON, via the `ModelManager`. The `<Page>` component then dynamically creates React components for each object in the JSON by matching the JS object's `resourceType` value with a React component that registers itself to the resource type via the component's `MapTo(..)` invocation. For example, the following would be used to instantiate an instance 
 
-+ `HTTP GET /content/.../home.model.json`
+* `HTTP GET /content/.../home.model.json`
 
 ```json
 ...
@@ -175,7 +175,7 @@ Editable components can be reused and embedded in each other. There are two key 
 1. The JSON content from AEM for the embedding component must contain the content to satisfy the embedded components. This is done by creating a dialog for the AEM component that collects the requisite data. 
 1. The "non-editable" instance of the React component must be embedded, rather than the "editable" instance which is wrapped with `<EditableComponent>`. The reason is, if the embedded component has the `<EditableComponent>` wrapper, the SPA Editor attempts to dress the inner component with the edit chrome (blue hover box), rather than the outer embedding component.
 
-+ `HTTP GET /content/.../home.model.json`
+* `HTTP GET /content/.../home.model.json`
 
 ```json
 ...

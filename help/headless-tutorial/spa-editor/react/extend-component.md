@@ -11,8 +11,11 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 44433595-08bc-4a82-9232-49d46c31b07b
 duration: 316
+hide: yes
 ---
 # Extend a Core Component {#extend-component}
+
+{{spa-editor-deprecation}}
 
 Learn how to extend an existing Core Component to be used with the AEM SPA Editor. Understanding how to extend an existing component is a powerful technique to customize and expand the capabilities of an AEM SPA Editor implementation.
 

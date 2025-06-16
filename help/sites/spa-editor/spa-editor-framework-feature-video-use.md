@@ -11,8 +11,11 @@ thumbnail: 22229.jpg
 doc-type: Feature Video
 exl-id: 645b6986-830f-4409-b46c-ddf15c33e84c
 duration: 473
+hide: yes
 ---
-# Using the SPA Editor with AEM Sites {#using-the-spa-editor-with-aem-sites}
+# Using the SPA Editor with AEM Sites 
+
+{{spa-editor-deprecation}}
 
 Video overview of authoring content for a Single Page Application in AEM Sites.
 

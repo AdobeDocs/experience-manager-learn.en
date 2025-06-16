@@ -12,8 +12,11 @@ recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: edd18f2f-6f24-4299-a31a-54ccc4f6d86e
 duration: 164
+hide: yes
 ---
 # Editable fixed components
+
+{{spa-editor-deprecation}}
 
 Editable React components can be "fixed", or hard-coded into the SPA's views. This allows developers to place SPA Editor-compatible components into the SPA views, and allow users to author the components' content in AEM SPA Editor.
 
@@ -25,8 +28,8 @@ In this chapter, we replace the Home view's title, "Current Adventures", which i
 
 To add a __Fixed__ component to the Home view:
 
-+ Create a custom editable Title component and register it to the project's Title's resource type
-+ Place the editable Title component on the SPA's Home view
+* Create a custom editable Title component and register it to the project's Title's resource type
+* Place the editable Title component on the SPA's Home view
 
 ### Create an editable React Title component
 
@@ -38,9 +41,9 @@ In the SPA's Home view, replace the hard-coded text `<h2>Current Adventures</h2>
 
 To do this:
 
-1.  Open Remote SPA project at `~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app` in your IDE
-1.  Create a React component at `react-app/src/components/editable/core/Title.js`
-1.  Add the following code to `Title.js`. 
+1. Open Remote SPA project at `~/Code/aem-guides-wknd-graphql/remote-spa-tutorial/react-app` in your IDE
+1. Create a React component at `react-app/src/components/editable/core/Title.js`
+1. Add the following code to `Title.js`. 
 
     ```javascript
     import React from 'react'
@@ -89,8 +92,8 @@ To do this:
 
     Read through the code's comments for the implementation details.
 
-1.  Create a React component at `react-app/src/components/editable/EditableTitle.js`
-1.  Add the following code to `EditableTitle.js`. 
+1. Create a React component at `react-app/src/components/editable/EditableTitle.js`
+1. Add the following code to `EditableTitle.js`. 
 
     ```javascript
     // Import the withMappable API provided bu the AEM SPA Editor JS SDK
@@ -132,8 +135,8 @@ To do this:
 
 Now that the EditableTitle React component is registered in and available for use within the React app, replace the hard-coded title text on the Home view.
 
-1.  Edit `react-app/src/components/Home.js`
-1.  In the `Home()` at the bottom, import `EditableTitle` and replace the hard-coded title with the new `AEMTitle` component:
+1. Edit `react-app/src/components/Home.js`
+1. In the `Home()` at the bottom, import `EditableTitle` and replace the hard-coded title with the new `AEMTitle` component:
      
     ```javascript
     ...
@@ -159,24 +162,24 @@ The `Home.js` file should look like:
 
 ## Author the Title component in AEM
 
-1.  Log in to AEM Author
-1.  Navigate to __Sites > WKND App__
-1.  Tap __Home__ and select __Edit__ from the top action bar
-1.  Select __Edit__ from the edit mode selector in the top right of the Page Editor
-1.  Hover over the default title text below the WKND logo and above the adventures list, until the blue edit outline displays
-1.  Tap to expose the component's action bar, and then tap the __wrench__  to edit
+1. Log in to AEM Author
+1. Navigate to __Sites > WKND App__
+1. Tap __Home__ and select __Edit__ from the top action bar
+1. Select __Edit__ from the edit mode selector in the top right of the Page Editor
+1. Hover over the default title text below the WKND logo and above the adventures list, until the blue edit outline displays
+1. Tap to expose the component's action bar, and then tap the __wrench__  to edit
 
     ![Title component action bar](./assets/spa-fixed-component/title-action-bar.png)
 
-1.  Author the Title component:
-    +   Title: __WKND Adventures__
-    +   Type/Size: __H2__
+1. Author the Title component:
+    1. Title: __WKND Adventures__
+    1. Type/Size: __H2__
 
         ![Title component dialog](./assets/spa-fixed-component/title-dialog.png)
 
-1.  Tap __Done__ to save
-1.  Preview your changes in AEM SPA Editor
-1.  Refresh the WKND App running locally on [http://localhost:3000](http://localhost:3000) and see the authored title changes immediately reflected.
+1. Tap __Done__ to save
+1. Preview your changes in AEM SPA Editor
+1. Refresh the WKND App running locally on [http://localhost:3000](http://localhost:3000) and see the authored title changes immediately reflected.
 
     ![Title component in SPA](./assets/spa-fixed-component/title-final.png)
 
@@ -184,9 +187,9 @@ The `Home.js` file should look like:
 
 You've added a fixed, editable component to the WKND App! You now know how to:
 
-+ Created a fixed, but editable, component to the SPA
-+ Author the fixed component in AEM
-+ See the authored content in the Remote SPA
+* Created a fixed, but editable, component to the SPA
+* Author the fixed component in AEM
+* See the authored content in the Remote SPA
 
 ## Next steps
 

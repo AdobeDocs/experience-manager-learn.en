@@ -11,8 +11,11 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 6c1c7f2b-f574-458c-b744-b92419c46f23
 duration: 308
+hide: yes
 ---
 # Create a Custom Component {#custom-component}
+
+{{spa-editor-deprecation}}
 
 Learn how to create a custom component to be used with the AEM SPA Editor. Learn how to develop author dialogs and Sling Models to extend the JSON model to populate a custom component.
 
