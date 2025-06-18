@@ -21,7 +21,7 @@ In this example, the AEM Assets API using the Server-to-Server authentication me
 
 >[!VIDEO](https://video.tv.adobe.com/v/3457510?quality=12&learn=on)
 
-The high-level set up process involves the following steps:
+The high-level setup process involves the following steps:
 
 1. Modernization of AEM as a Cloud Service environment.
 1. Enable AEM APIs access.
@@ -34,7 +34,7 @@ The high-level set up process involves the following steps:
 The modernization of AEM as a Cloud Service environment is a one-time per environment activity that involves the following steps:
 
 - Update to the AEM Release **2024.10.18459.20241031T210302Z** or later.
-- Add new Product Profiles to it, if environment was created before the release 2024.10.18459.20241031T210302Z.
+- Add new Product Profiles to it, if the environment was created before the release 2024.10.18459.20241031T210302Z.
 
 ### Update AEM instance{#update-aem-instance}
 
@@ -64,7 +64,7 @@ The above steps complete the modernization of the AEM as a Cloud Service environ
 
 ## Enable AEM APIs access{#enable-aem-apis-access}
 
-The presence of the _new Product Profiles_ enable OpenAPI-based AEM API access in the Adobe Developer Console (ADC). Recall that [Adobe Developer Console (ADC)](./overview.md#accessing-adobe-apis-and-related-concepts) is the developer hub for accessing Adobe APIs, SDKs, real-time events, serverless functions, and more.
+The presence of the _new Product Profiles_ enable OpenAPI-based AEM API access in the Adobe Developer Console (ADC). Recall that the [Adobe Developer Console (ADC)](./overview.md#accessing-adobe-apis-and-related-concepts) is the developer hub for accessing Adobe APIs, SDKs, real-time events, serverless functions, and more.
 
 The newly added Product Profiles are associated with the _Services_ that represent _AEM user groups with predefined Access Control Lists (ACLs)_. The _Services_ are used to control the level of access to the AEM APIs.
 
@@ -88,7 +88,7 @@ For example, to enable the Server-to-Server authentication for the AEM Assets AP
 
 ![Associate Developer to Product Profile](./assets/setup/associate-developer-to-product-profile.png)
 
-After this association, the ADC Project's _Asset Author API_ can setup the desired Server-to-Server authentication and associate the authentication account from ADC project (created in next step) with the Product Profile.
+After this association, the ADC Project's _Asset Author API_ can set up the desired Server-to-Server authentication and associate the authentication account from the ADC Project (created in the next step) with the Product Profile.
 
 >[!IMPORTANT]
 >
@@ -128,6 +128,10 @@ After creating the ADC Project, you have to add the desired AEM APIs, set up its
 
     ![Add AEM API](./assets/s2s/add-aem-api.png)
 
+    >[!TIP]
+    >
+    >    If the desired **AEM API card** is disabled and _Why is this disabled?_ information shows the **License required** message one of the reasons could be that you have NOT modernized your AEM as a Cloud Service environment, see [Modernization of AEM as a Cloud Service environment](#modernization-of-aem-as-a-cloud-service-environment) for more information.
+
 1. Next, in the _Configure API_ dialog, select the desired authentication option. For example, in this case, the **Server-to-Server** authentication option is selected.
 
     ![Select authentication](./assets/s2s/select-authentication.png)
@@ -153,7 +157,7 @@ After creating the ADC Project, you have to add the desired AEM APIs, set up its
 
     ![Authentication configuration](./assets/s2s/authentication-configuration.png)
 
-If you choose the **OAuth Web App** or **OAuth Single Page App** authentication method, the Product Profile association is not prompted but application redirect URI is required. The application redirect URI is used to redirect the user to the application after authentication with an authorization code. The relevent use cases tutorials outline such authentication specific configurations.
+If you choose the **OAuth Web App** or **OAuth Single Page App** authentication method, the Product Profile association is not prompted but application redirect URI is required. The application redirect URI is used to redirect the user to the application after authentication with an authorization code. The relevant use cases tutorials outline such authentication specific configurations.
 
 ## Configure the AEM instance to enable ADC Project communication{#configure-aem-instance}
 

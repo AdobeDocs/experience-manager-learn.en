@@ -455,6 +455,10 @@ The configure ADC Project step is _repeated_ from the [Setup OpenAPI-based AEM A
 
     ![Add AEM API](../assets/s2s/add-aem-api.png)
 
+    >[!TIP]
+    >
+    >If the desired **AEM API card** is disabled and _Why is this disabled?_ information shows the **License required** message one of the reasons could be that you have NOT modernized your AEM as a Cloud Service environment, see [Modernization of AEM as a Cloud Service environment](../setup.md#modernization-of-aem-as-a-cloud-service-environment) for more information.
+
 1. Next, in the _Configure API_ dialog, select the **User Authentication** authentication option and click **Next**.
 
     ![Configure AEM API](../assets/web-app/configure-aem-api.png)
