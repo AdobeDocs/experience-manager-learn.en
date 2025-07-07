@@ -183,7 +183,7 @@ const SkuField = (props) => {
    * In these cases adjust the Content Fragment Editor's iframe's height so the field doesn't get cut off.     *
    * @param {*} isOpen true if the picker is open, false if it's closed
    */
-  const onOpenChange = async (isOpen) => {
+  const onOpenChange = (isOpen) => {
     if (isOpen) {
       // Calculate the height of the picker box and its label, and surrounding padding.
       const pickerHeight = Number(document.body.clientHeight.toFixed(0));
@@ -196,12 +196,15 @@ const SkuField = (props) => {
       const height = Math.min(pickerHeight + optionsHeight, 400);
 
       // Set the height of the iframe in the Content Fragment Editor
-      await connection.host.field.setHeight(height);
+      connection.host.field.setStyles({
+        current: { height, },
+        parent: { height, },
+      })
     } else {
-      // Set the height of the iframe in the Content Fragment Editor to the height of the closed picker.
-      await connection.host.field.setHeight(
-        Number(document.body.clientHeight.toFixed(0))
-      );
+      connection.host.field.setStyles({
+        current: { height: 74 },
+        parent: { height: 74 },
+      })
     }
   };
 
