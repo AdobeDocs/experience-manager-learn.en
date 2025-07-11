@@ -92,9 +92,9 @@ To set up the **local** Universal Editor service, follow the steps below:
 
     ```bash
     # The port on which the Universal Editor service runs
-    EXPRESS_PORT=8000
+    UES_PORT=8000
     # Disable SSL verification
-    NODE_TLS_REJECT_UNAUTHORIZED=0
+    UES_TLS_REJECT_UNAUTHORIZED=false
     ```
 
 1. Start the local Universal Editor service.
