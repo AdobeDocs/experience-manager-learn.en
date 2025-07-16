@@ -9,9 +9,9 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04
 jira: KT-13148
-thumbnail: 
+thumbnail: null
+exl-id: e6d67204-2f76-441c-a178-a34798fe266d
 ---
-
 # Overview - Protecting AEM websites
 
 Learn how to protect your AEM websites from Denial of Service (DoS), Distributed Denial of Service (DDoS), malicious traffic and sophisticated attacks using **traffic filter rules**, including its subcategory of **Web Application Firewall (WAF)** rules in AEM as a Cloud Service.

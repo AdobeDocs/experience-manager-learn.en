@@ -9,7 +9,8 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04
 jira: KT-18313
-thumbnail: 
+thumbnail: null
+exl-id: eee81cd6-9090-45d6-b77f-a266de1d9826
 ---
 # Normalizing requests
 
@@ -62,4 +63,3 @@ data:
 - In AEM logs (`aemrequest.log`), you should see that the request is transformed to `https://publish-pXXXX-eYYYY.adobeaemcloud.com/us/en.html?search=foo&campaignId=bar`, with the `otherParam` removed.
 
   ![WKND request transformation](../assets/how-to/aemrequest-log-transformation.png)
-

@@ -9,7 +9,8 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04
 jira: KT-18310
-thumbnail: 
+thumbnail: null
+exl-id: 4a7acdd2-f442-44ee-8560-f9cb64436acf
 ---
 # Best practices for traffic filter rules including WAF rules
 
@@ -128,4 +129,3 @@ Learn how to implement traffic filter rules and WAF rules in AEM as a Cloud Serv
 - [Traffic Filter Rules Including WAF Rules](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf)
 - [Understanding DoS/DDoS prevention in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/foundation/security/understanding-dos-and-prevention-approaches)
 - [Blocking DoS and DDoS attacks using traffic filter rules](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/security/blocking-dos-attack-using-traffic-filter-rules)
-

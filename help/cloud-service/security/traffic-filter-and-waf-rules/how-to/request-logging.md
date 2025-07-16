@@ -9,7 +9,8 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04
 jira: KT-18311
-thumbnail: 
+thumbnail: null
+exl-id: 8fa0488f-b901-49bf-afa5-5ed29242355f
 ---
 # Monitoring sensitive requests 
 
@@ -98,4 +99,3 @@ Let's analyze the results of the `publish-auth-requests` rule by downloading the
 - Review the updated dashboard's  **Analyzed requests**, **Flagged requests**, and **Flagged requests details** panels. For matching CDN log entries, it should show the values of each entry's client IP (cli_ip), host, url, action (waf_action), and rule-name (waf_match).
 
     ![ELK Tool Dashboard](../assets/how-to/elk-tool-dashboard.png)
-

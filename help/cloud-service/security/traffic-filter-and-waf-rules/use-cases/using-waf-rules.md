@@ -10,7 +10,8 @@ doc-type: Tutorial
 last-substantial-update: 2025-06-04
 badgeLicense: label="Requires a license" type="positive" before-title="true"
 jira: KT-18308
-thumbnail: 
+thumbnail: null
+exl-id: b87c27e9-b6ab-4530-b25c-a98c55075aef
 ---
 # Protecting AEM websites using WAF rules
 

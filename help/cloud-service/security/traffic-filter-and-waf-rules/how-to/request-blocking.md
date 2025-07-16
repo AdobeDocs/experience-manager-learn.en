@@ -9,7 +9,8 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04
 jira: KT-18312
-thumbnail: 
+thumbnail: null
+exl-id: 53cb8996-4944-4137-a979-6cf86b088d42
 ---
 # Restricting access
 
