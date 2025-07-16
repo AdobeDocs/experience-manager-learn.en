@@ -186,11 +186,16 @@ team: TM
     + [E-mail service](./networking/examples/email-service.md)
 + Security {#security}
   + [Blocking DoS/DDoS attacks using traffic filter rules](./security/blocking-dos-attack-using-traffic-filter-rules.md)
-  + Traffic Filter rules including WAF rules{#traffic-filter-and-waf-rules}
-    + [Overview](./security/traffic-filter-rules/overview.md)
-    + [How to setup](./security/traffic-filter-rules/how-to-setup.md)
-    + [Examples and result analysis](./security/traffic-filter-rules/examples-and-analysis.md)
-    + [Best practices](./security/traffic-filter-rules/best-practices.md)
+  + Traffic filter rules including WAF rules {#traffic-filter-and-waf-rules}
+    + [Protecting AEM websites](./security/traffic-filter-and-waf-rules/overview.md)
+    + [How to set up](./security/traffic-filter-and-waf-rules/setup.md)
+    + [Using traffic filter rules](./security/traffic-filter-and-waf-rules/use-cases/using-traffic-filter-rules.md)
+    + [Using WAF rules](./security/traffic-filter-and-waf-rules/use-cases/using-waf-rules.md)
+    + [Best practices](./security/traffic-filter-and-waf-rules/best-practices.md)
+    + How to{#how-to}
+      + [Monitoring sensitive requests](./security/traffic-filter-and-waf-rules/how-to/request-logging.md)
+      + [Restricting access](./security/traffic-filter-and-waf-rules/how-to/request-blocking.md)
+      + [Normalizing requests](./security/traffic-filter-and-waf-rules/how-to/request-transformation.md)
 + AEM Eventing{#aem-eventing}
   + [Overview](./eventing/overview.md)
   + Examples{#examples}

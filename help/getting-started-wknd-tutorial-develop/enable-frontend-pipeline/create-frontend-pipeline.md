@@ -43,7 +43,7 @@ Ensure you have [privileges to create, and deploy pipelines in Cloud Manager](ht
 
 Also in the __Source Code__ tab, make sure that Repository and Git Branch field values are correct and the branch has your front-end pipeline contract changes.
 
-![Source Code Configuration Pipeline](assets/fullstack-wknd-source-code-config.png)
+![Source Code Config Pipeline](assets/fullstack-wknd-source-code-config.png)
 
 
 ## Create a front-end pipeline
