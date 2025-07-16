@@ -9,9 +9,9 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04
 jira: KT-18307
-thumbnail: 
+thumbnail: null
+exl-id: 5e235220-82f6-46e4-b64d-315f027a7024
 ---
-
 # Protecting AEM websites using standard traffic filter rules
 
 Learn how to protect AEM websites from Denial of Service (DoS), Distributed Denial of Service (DDoS), and bot abuse using _Adobe-recommended_ **standard traffic filter rules** in AEM as a Cloud Service.
@@ -383,5 +383,3 @@ For more advanced scenarios, you can explore the following use cases that demons
 ## Additional resources
 
 - [Recommended starter rules](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf#recommended-starter-rules)
-
-

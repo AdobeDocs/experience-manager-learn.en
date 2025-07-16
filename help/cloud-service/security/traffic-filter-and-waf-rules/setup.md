@@ -9,7 +9,8 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04
 jira: KT-18306
-thumbnail: 
+thumbnail: null
+exl-id: 0a738af8-666b-48dc-8187-9b7e6a8d7e1b
 ---
 # How to set up traffic filter rules including WAF rules
 
