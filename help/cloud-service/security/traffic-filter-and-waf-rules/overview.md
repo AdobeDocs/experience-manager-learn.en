@@ -22,6 +22,9 @@ You also learn about the differences between standard traffic filter and WAF tra
 >
 > WAF traffic filter rules require an additional **WAF-DDoS Protection** or **Enhanced Security** license. Standard traffic filter rules are available to Sites and Forms customers by default.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469394/?quality=12&learn=on)
+
 ## Introduction to traffic security in AEM as a Cloud Service
 
 AEM as a Cloud Service leverages an integrated CDN layer to protect and optimize the delivery of your website. One of the most critical components of the CDN layer is the ability to define and enforce traffic rules. These rules act as a protective shield to help secure your site from abuse, misuse, and attacks—without sacrificing performance.
