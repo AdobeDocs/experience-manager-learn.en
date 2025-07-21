@@ -23,6 +23,9 @@ The sophisticated attacks are characterized by high request rates, complex patte
 >
 > WAF traffic filter rules require an additional **WAF-DDoS Protection** or **Enhanced Security** license. Standard traffic filter rules are available to Sites and Forms customers by default.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469397/?quality=12&learn=on)
+
 ## Learning objectives
 
 - Review the Adobe-recommended WAF rules.

@@ -16,6 +16,9 @@ exl-id: 5e235220-82f6-46e4-b64d-315f027a7024
 
 Learn how to protect AEM websites from Denial of Service (DoS), Distributed Denial of Service (DDoS), and bot abuse using _Adobe-recommended_ **standard traffic filter rules** in AEM as a Cloud Service.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469395/?quality=12&learn=on)
+
 ## Learning objectives
 
 - Review the Adobe-recommended standard traffic filter rules.
