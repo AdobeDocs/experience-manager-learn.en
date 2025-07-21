@@ -18,7 +18,7 @@ Learn **how to set up** traffic filter rules including Web Application Firewall 
 
 To demonstrate the setup process, the tutorial uses the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd).
 
->[!VIDEO](https://video.tv.adobe.com/v/3469396/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469395/?quality=12&learn=on)
 
 ## Setup overview
 
