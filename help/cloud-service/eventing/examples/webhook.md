@@ -17,9 +17,17 @@ exl-id: 00954d74-c4c7-4dac-8d23-7140c49ae31f
 
 Learn how to receive AEM events on a webhook and review the event details such as payload, headers, and metadata.
 
+
 >[!VIDEO](https://video.tv.adobe.com/v/3427051?quality=12&learn=on)
 
-In this example, utilizing an Adobe-provided _hosted webhook_ allows you to receive AEM events without the need to set up your own webhook. This Adobe-provided webhook is hosted on [Glitch](https://glitch.com/), a platform known for offering a web-based environment conducive to building and deploying web applications. However, the option to use your own webhook is also available if preferred.
+
+>[!IMPORTANT]
+>
+>The live demo endpoints in this tutorial were previously hosted on [Glitch](https://glitch.com/). As of July 2025, Glitch has discontinued its hosting service, and the endpoints are no longer accessible.
+>We are actively working on migrating the demos to an alternative platform. The tutorial content remains accurate, and updated links will be provided soon.
+>Thank you for your understanding and patience.
+
+Use your own webhook till the live demo endpoints are available again.
 
 ## Prerequisites
 
@@ -149,4 +157,4 @@ You can see that the AEM event details have all the necessary information to pro
 
 ## Additional resources
 
-- [Glitch webhook source code](https://glitch.com/edit/#!/lovely-ancient-coaster) is available for reference.
+- [AEM-Eventing Webhook](../assets/examples/webhook/aemeventing-webhook.tgz) source code is available for your reference.

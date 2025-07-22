@@ -23,7 +23,13 @@ Journaling is a pull method to consume AEM Events, and a journal is an ordered l
 
 Within the Adobe Developer Console project, every event registration is automatically enabled for journaling, enabling seamless integration.
 
-In this example, utilizing an Adobe-provided _hosted web application_ allows you to fetch the first batch of AEM Events from the journal without the need to set up your application. This Adobe-provided web application is hosted on [Glitch](https://glitch.com/), a platform known for offering a web-based environment conducive to building and deploying web applications. However, the option to use your own application is also available if preferred.
+>[!IMPORTANT]
+>
+>The live demo endpoints in this tutorial were previously hosted on [Glitch](https://glitch.com/). As of July 2025, Glitch has discontinued its hosting service, and the endpoints are no longer accessible.
+>We are actively working on migrating the demos to an alternative platform. The tutorial content remains accurate, and updated links will be provided soon.
+>Thank you for your understanding and patience.
+
+Use your own application till the live demo endpoints are available again.
 
 ## Prerequisites
 
@@ -76,7 +82,5 @@ To keep things simple, this hosted web application only fetches the first batch 
     ![Complete AEM Event Payload](../assets/examples/journaling/complete-journal-data.png)
 
 ## Additional resources
-
-- [Glitch webhook source code](https://glitch.com/edit/#!/indigo-speckle-antler) is available for reference. It is a simple React application that uses [Adobe React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html) components to render the UI.
 
 - [Adobe I/O Events Journaling API](https://developer.adobe.com/events/docs/guides/api/journaling_api/) provides detailed information about the API like first, next, and last batch of events, pagination, and more.
