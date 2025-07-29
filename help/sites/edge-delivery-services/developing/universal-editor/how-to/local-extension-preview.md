@@ -8,8 +8,8 @@ role: Developer
 level: Beginner, Intermediate, Experienced
 doc-type: Tutorial
 jira: KT-18658
+exl-id: 27b6626d-b291-4b88-9350-a32cdbd0cf63
 ---
-
 # Preview a local Universal Editor extension
 
 >[!TIP]
@@ -97,4 +97,3 @@ Universal Editor will now load your local extension—only in your browser sessi
 Any code changes you make locally will be reflected immediately.
 
 ![Local extension loaded](./assets/local-extension-preview/extension-loaded.png)
-
