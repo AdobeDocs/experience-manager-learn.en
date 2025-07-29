@@ -94,7 +94,7 @@ Learn how to configure your local development environment to enable fast website
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./3-local-development-environment.md" title="Set up a local development environment" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3443978/?format=jpeg&nocache=1741027443737" alt="Set up a local development environment"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3443978/?format=jpeg&nocache=1753811862249" alt="Set up a local development environment"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -255,6 +255,7 @@ Now that you've completed this tutorial, build on what you've learned with these
 
 * ./how-to/block-options.md
 * ./how-to/header-and-footer.md
+* ./how-to/local-extension-preview.md {image = ./how-to/assets/local-extension-preview/extension-loaded.png}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -297,9 +298,32 @@ Now that you've completed this tutorial, build on what you've learned with these
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./how-to/header-and-footer.md" target="_blank" rel="referrer" title="Header and Footer">Header and Footer</a>
                     </p>
-                    <p class="is-size-6">Learn how header and footers are used in Edge Delivery Services and Universal Editor.</p>
+                    <p class="is-size-6">Learn how header and footers are developed in Edge Delivery Services and Universal Editor.</p>
                 </div>
                 <a href="./how-to/header-and-footer.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Preview a Universal Editor extension">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./how-to/local-extension-preview.md" title="Preview a Universal Editor extension" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./how-to/assets/local-extension-preview/extension-loaded.png" alt="Preview a Universal Editor extension"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./how-to/local-extension-preview.md" target="_blank" rel="referrer" title="Preview a Universal Editor extension">Preview a Universal Editor extension</a>
+                    </p>
+                    <p class="is-size-6">Learn how to preview a locally running Universal Editor extension during development.</p>
+                </div>
+                <a href="./how-to/local-extension-preview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                 </a>
             </div>
