@@ -105,7 +105,7 @@ version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a
       + How-to{#how-to}
         + [Block options](./edge-delivery-services/developing/universal-editor/how-to/block-options.md)
         + [Header and footer](./edge-delivery-services/developing/universal-editor/how-to/header-and-footer.md)
-        + [Preview a Universal Editor extension](./edge-delivery-services/developing/universal-editor/how-to/local-extension-preview.md)
+        + [Local extension preview](./edge-delivery-services/developing/universal-editor/how-to/local-extension-preview.md)
   + How-to{#how-to}
     + [RSS feeds](edge-delivery-services/how-to/rss.md)
     + [Social media sharing](edge-delivery-services/how-to/social-media-sharing.md)
