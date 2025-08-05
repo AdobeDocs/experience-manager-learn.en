@@ -1,6 +1,6 @@
 ---
 title: AEM Assets Content Hub
-description: Learn about AEN Assets as a Cloud Service's Content Hub.
+description: Learn about AEM Assets as a Cloud Service's Content Hub.
 version: Experience Manager as a Cloud Service
 feature: Asset Management, Upload, Marketing Campaigns
 topic: Content Supply Chain, Content Management
