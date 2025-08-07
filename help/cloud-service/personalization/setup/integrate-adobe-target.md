@@ -9,9 +9,9 @@ level: Beginner
 doc-type: Tutorial
 last-substantial-update: 2025-08-07
 jira: KT-18718
-thumbnail: 
+thumbnail: null
+exl-id: 86767e52-47ce-442c-a620-bc9e7ac2eaf3
 ---
-
 # Integrate Adobe Target
 
 Learn how to integrate AEM as a Cloud Service (AEMCS) with Adobe Target to activate personalized content, such as Experience Fragments, as offers in Adobe Target.
