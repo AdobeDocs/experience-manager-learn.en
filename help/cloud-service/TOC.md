@@ -135,6 +135,13 @@ team: TM
     + [Repository Browser](./debugging/cloud-service/repository-browser.md)
     + Risks{#risks}
       + [Traversal warnings](./debugging/cloud-service/risks/traversals.md)
++ Personalization {#personalization}
+  + [Overview](./personalization/overview.md)
+  + Setup{#setup}
+    + [Integrate Adobe Target](./personalization/setup/integrate-adobe-target.md)
+    + [Integrate Tags](./personalization/setup/integrate-adobe-tags.md)
+  + Use Cases {#use-cases}
+    + [Experimentation (A/B Testing)](./personalization/use-cases/experimentation.md)
 + AEM APIs{#aem-apis}
   + [Overview](./apis/overview.md)
   + OpenAPIs{#openapis}
