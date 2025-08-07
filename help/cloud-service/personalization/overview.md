@@ -9,7 +9,8 @@ level: Beginner
 doc-type: Tutorial
 last-substantial-update: 2025-08-07
 jira: KT-18717
-thumbnail: 
+thumbnail: null
+exl-id: c4fb11b9-b613-4522-b9da-18d7ae0826ec
 ---
 # Personalization Overview
 
@@ -141,22 +142,3 @@ Explore the following common personalization use cases supported by AEMCS, Adobe
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

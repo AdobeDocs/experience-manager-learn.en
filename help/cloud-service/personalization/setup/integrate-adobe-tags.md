@@ -9,9 +9,9 @@ level: Beginner
 doc-type: Tutorial
 last-substantial-update: 2025-08-07
 jira: KT-18719
-thumbnail: 
+thumbnail: null
+exl-id: 71cfb9f5-57d9-423c-bd2a-f6940cc0b4db
 ---
-
 # Integrate Tags in Adobe Experience Platform
 
 Learn how to integrate AEM as a Cloud Service (AEMCS) with Tags in Adobe Experience Platform. The Tags (aka Launch) integration enables you to deploy the Adobe Web SDK and inject custom JavaScript for data collection and personalization into your AEM pages.

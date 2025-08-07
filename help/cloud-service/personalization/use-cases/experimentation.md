@@ -9,9 +9,9 @@ level: Beginner
 doc-type: Tutorial
 last-substantial-update: 2025-08-07
 jira: KT-18720
-thumbnail:
+thumbnail: null
+exl-id: c8a4f0bf-1f80-4494-abe6-9fbc138e4039
 ---
-
 # Experimentation (A/B Testing)
 
 Learn how to test different content variations on an AEM as a Cloud Service (AEMCS) website using Adobe Target.
