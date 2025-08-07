@@ -31,54 +31,6 @@ Learn what AEM Assets is and how can be used to achieve your organization's busi
 <div id="recs-overview-body-5"></div>
 <div id="recs-overview-body-6"></div>
 
-<div id="staff-picks-section">
-
-## Staff picks
-
-<table>
-<td>
-   <a href="./creative-workflows/aem-desktop-app.md">
-   <img alt="Enhanced Smart Tags" src="./assets/overview/desktop-app.png" />
-   </a>
-   <div>
-      <a href="./creative-workflows/aem-desktop-app.md">
-      <strong>Using AEM Desktop App</strong>
-      </a>
-   </div>
-   <p>
-      <em>Access assets in AEM directly from the desktop</em>
-   </p>
-</td>
-<td>
-   <a href="../assets-essentials/overview.md">
-   <img alt="AEM Assets Essentials" src="../assets-essentials/assets/overview/getting-started.png"/>
-   </a>
-   <div>
-      <a href="../assets-essentials/overview.md">
-      <strong>Getting started with Assets Essentials</strong>
-      </a>
-   </div>
-   <p>
-      <em>Speed up experience creation from concept to design to delivery.</em>
-   <p>
-</td>
-<td>
-   <a href="./dynamic-media/dynamic-media-overview-feature-video-use.md">
-   <img alt="Dynamic Media Overview" src="./assets/overview/dynamic-media.png" />
-   </a>
-   <div>
-      <a href="./dynamic-media/dynamic-media-overview-feature-video-use.md">
-      <strong>Dynamic Media Overview</strong>
-      </a>
-   </div>
-   <p>
-      <em>Manage and access media content using Dynamic Media</em>
-   <p>
-</td>
-</table>
-
-</div>
-
 ## Additional resources
 
 * [AEM Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=en)
