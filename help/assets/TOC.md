@@ -141,6 +141,7 @@ team: TM
     + [Image sharpening](dynamic-media/dynamic-media-image-sharpening-feature-video-use.md)
     + [Color management](dynamic-media/dynamic-media-color-management-technical-video-setup.md) 
   + Video {#video}
+    + [Best practices](dynamic-media/dynamic-media-video-best-practices.md)
     + [360 video](dynamic-media/dynamic-media-360-video-custom-thumbnail-feature-video-use.md)
     + [Custom video thumbnails](dynamic-media/dynamic-media-video-thumbnails-feature-video-use.md)
     + [DASH adaptive streaming](dynamic-media/dynamic-media-dash.md)
