@@ -8,8 +8,8 @@ doc-type: Feature Video
 duration: 667
 last-substantial-update: 2025-08-07
 jira: KT-18713
+exl-id: 11191fbd-0fec-4ec9-b1ce-af789de216dd
 ---
-
 # Dynamic Media video and viewer best practices
 
 Learn about best practices for publishing and optimizing video in AEM Dynamic Media, including adaptive streaming, smart cropping for different screen sizes, custom viewer presets, and support for captions, audio tracks, and chapter markers. It emphasizes how to enhance viewer experience, accessibility, and marketing impact across devices.
