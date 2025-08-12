@@ -76,6 +76,9 @@ The configure ADC Project step is _repeated_ from the [Setup OpenAPI-based AEM A
     ![Add API](../assets/s2s/add-api.png)
 
 1. In the _Add API_ dialog, filter by _Experience Cloud_ and select the **AEM Assets Author API** card and click **Next**.
+    If you need a different OpenAPI-based AEM API, refer to the [Adobe Developer Documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/#openapi-based-apis) to find the one that matches your use case.
+
+    The example below walks through adding the **AEM Assets Author API**.
 
     ![Add AEM API](../assets/s2s/add-aem-api.png)
 
