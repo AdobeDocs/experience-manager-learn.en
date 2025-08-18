@@ -478,3 +478,4 @@ In the ADC Project, you added the AEM APIs, configured its authentication type, 
 ## Additional resources
 
 - [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)
+
