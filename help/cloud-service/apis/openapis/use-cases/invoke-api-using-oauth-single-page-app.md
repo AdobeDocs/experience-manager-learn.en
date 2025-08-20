@@ -1,7 +1,7 @@
 ---
 title: Invoke OpenAPI-based AEM APIs using OAuth Single Page App
 description: Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Service using user-based authentication from a custom Single Page App (SPA) via OAuth 2.0 PKCE flow.
-version: Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
 role: Architect, Developer, Leader

@@ -2,7 +2,7 @@
 title: Streamlining Content Workflows with Content Hub
 description: Discover how Content Hub simplifies content access, permissions, and localization for regional teams, ensuring efficiency and relevance.
 cloud: Experience Cloud
-solution: Experience Manager Assets, Sensei
+solution: Experience Manager Assets
 feature-set: Experience Manager Assets
 role: User, Leader, Admin, Developer, Architect
 level: Beginner, Intermediate, Experienced

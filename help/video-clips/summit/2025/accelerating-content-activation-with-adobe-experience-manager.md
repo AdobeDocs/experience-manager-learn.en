@@ -2,7 +2,7 @@
 title: Accelerating Content Activation with Adobe Experience Manager
 description: Learn how Adobe Experience Manager helps brands accelerate content activation while maintaining trust, personalization, and ROI.
 cloud: Experience Cloud
-solution: Experience Manager Assets, Sensei
+solution: Experience Manager Assets
 feature-set: Experience Manager Assets
 role: User, Leader, Admin, Developer, Architect
 level: Beginner, Intermediate, Experienced
