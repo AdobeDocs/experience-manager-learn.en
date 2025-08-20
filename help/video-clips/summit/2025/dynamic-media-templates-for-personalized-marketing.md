@@ -2,7 +2,7 @@
 title: Dynamic Media Templates for Personalized Marketing
 description: Explore how Dynamic Media Templates enable marketers to create live, customizable content for personalized campaigns.
 cloud: Experience Cloud
-solution: Experience Manager Assets, Sensei
+solution: Experience Manager Assets
 feature-set: Experience Manager Assets
 role: User, Leader, Admin, Developer, Architect
 level: Beginner, Intermediate, Experienced

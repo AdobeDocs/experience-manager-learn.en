@@ -2,7 +2,7 @@
 title: Challenges in Scaling GenAI Adoption
 description: Explore the key challenges organizations face in adopting and scaling GenAI, including insufficient context, unclear use cases, and governance concerns.
 cloud: Experience Cloud
-solution: Experience Manager, Experience Manager Assets, Experience Manager Forms, Experience Manager Sites, Sensei
+solution: Experience Manager, Experience Manager Assets, Experience Manager Forms, Experience Manager Sites
 feature-set: Experience Manager, Experience Manager Assets, Experience Manager Forms, Experience Manager Sites
 role: Leader, User, Developer, Admin, Architect
 level: Beginner, Intermediate, Experienced
