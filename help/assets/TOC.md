@@ -111,6 +111,7 @@ team: TM
   + [AEM Desktop App](./creative-workflows/aem-desktop-app.md)
   + [Adobe Asset Link](./creative-workflows/adobe-asset-link.md)
   + [Adobe Stock](./creative-workflows/adobe-stock.md)
+  + [Figma](./creative-workflows/figma.md)
 
 + Adobe Asset Link{#adobe-asset-link}
   + [Set up](./adobe-asset-link/setup.md)

@@ -17,4 +17,4 @@ exl-id: 83ca35c5-1db4-4297-afc7-67b6e7d2f085
 
 Learn how to set up the Experience Manager Assets Content Hub using the Adobe Cloud Manager program and assets add-on. Also learn how to configure access for users using product profiles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433513/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3472918/?learn=on)
