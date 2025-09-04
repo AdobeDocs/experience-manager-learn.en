@@ -28,11 +28,17 @@ In this tutorial, you configure A/B testing for the **Camping in Western Austral
 
 The variations are displayed on the WKND homepage, allowing you to measure performance and determine which version drives better engagement and conversions.
 
-Visit the [WKND Enablement website](https://wknd.enablementadobe.com/us/en.html) to see the A/B test in action.
+![A/B Test](../assets/use-cases/experiment/view-ab-test-variations.png)
+
+### Live Demo
+
+Visit the [WKND Enablement website](https://wknd.enablementadobe.com/us/en.html) to see the A/B test in action. In the video below, you see all three variations of **Camping in Western Australia** displayed on the homepage via different browsers.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3473005/?learn=on&enablevpops)
 
 ## Prerequisites
 
-Before proceeding with this experimentation use case, ensure you have completed the following:
+Before proceeding with the experimentation use case, ensure you have completed the following:
 
 - [Integrate Adobe Target](../setup/integrate-adobe-target.md): Enables your team to create and manage personalized content centrally in AEM and activate it as offers in Adobe Target.
 - [Integrate Tags in Adobe Experience Platform](../setup/integrate-adobe-tags.md): Allows your team to manage and deploy JavaScript for personalization and data collection without needing to redeploy AEM code.
