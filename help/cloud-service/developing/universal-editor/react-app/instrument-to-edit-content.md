@@ -53,7 +53,7 @@ For this tutorial, let's use the Script tag approach.
                       Loads the LATEST Universal Editor library
                     */}
                     <script
-                        src="https://universal-editor-service.experiencecloud.live/corslib/LATEST"
+                        src="https://universal-editor-service.adobe.io/cors.js"
                         async
                     />
                 </Helmet>
@@ -100,7 +100,7 @@ return (
                     Loads the LATEST Universal Editor library
                 */}
                 <script
-                    src="https://universal-editor-service.experiencecloud.live/corslib/LATEST"
+                    src="https://universal-editor-service.adobe.io/cors.js"
                     async
                 />
                 {/* AEM Universal Editor :: Connection metadata 
@@ -145,7 +145,7 @@ function App() {
               Loads the LATEST Universal Editor library
           */}
           <script
-            src="https://universal-editor-service.experiencecloud.live/corslib/LATEST"
+            src="https://universal-editor-service.adobe.io/cors.js"
             async
           />
           {/* AEM Universal Editor :: Connection metadata 
