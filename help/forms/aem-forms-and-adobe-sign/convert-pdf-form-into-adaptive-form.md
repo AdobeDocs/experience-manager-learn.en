@@ -1,6 +1,6 @@
 ---
 title: Convert PDF Form into Adaptive Form
-description: AEM Forms Automated Forms Conversion service, powered by Adobe Sensei, automatically converts your PDF forms to device-friendly and responsive adaptive forms. Whether you are using non-interactive PDF forms, Acro Forms, or XFA-based PDF forms, the Automated Forms Conversion service can easily convert these forms into adaptive forms.
+description: AEM Forms Automated Forms Conversion service automatically converts your PDF forms to device-friendly and responsive adaptive forms. Whether you are using non-interactive PDF forms, Acro Forms, or XFA-based PDF forms, the Automated Forms Conversion service can easily convert these forms into adaptive forms.
 feature: Adaptive Forms
 thumbnail: 39495.jpg
 jira: KT-6115
@@ -14,7 +14,7 @@ duration: 395
 ---
 # Convert PDF Form into Adaptive Form
 
-AEM Forms Automated Forms Conversion service, powered by Adobe Sensei, automatically converts your PDF forms to device-friendly and responsive adaptive forms. Whether you are using non-interactive PDF forms, Acro Forms, or XFA-based PDF forms, the Automated Forms Conversion service can easily convert these forms into adaptive forms.
+AEM Forms Automated Forms Conversion service automatically converts your PDF forms to device-friendly and responsive adaptive forms. Whether you are using non-interactive PDF forms, Acro Forms, or XFA-based PDF forms, the Automated Forms Conversion service can easily convert these forms into adaptive forms.
 
 The following video explains the steps needed to convert PDF form into Adaptive Form using Automated Forms Conversion Service
 

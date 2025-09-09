@@ -25,7 +25,7 @@ Adobe Experience Manager re-imagines the personalization workflow between AEM an
 * The main difference between the HTML offers and Experience Fragment offers is that editing for the later can only be done in AEM and then synchronized with Adobe Target
 * Target Cloud service configuration applied to Experience Fragment folder inherits to all Experience Fragments created directly under the parent folder. Child folder doesn't inherit the parent cloud services configuration. 
 * To create a personalized offer we can now easily leverage content stored within AEM.
-* You can create types of Target activities, including the Sensei-powered activities like Auto-allocate, Auto Target, and Automated Personalization
+* You can create types of Target activities, including the AI-powered activities like Auto-allocate, Auto Target, and Automated Personalization
 
 ## Additional Resources {#additional-resources}
 

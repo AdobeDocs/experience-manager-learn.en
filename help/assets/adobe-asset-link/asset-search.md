@@ -1,6 +1,6 @@
 ---
 title: Asset Search
-description: With Adobe Asset Link panel creative users can search for assets stored in AEM Assets using keywords or perform a search under a specific location. In addition to the basic search options, Adobe Asset Link also allows you to use an asset to search visually similar results within AEM Assets. Powered by machine-learning with Adobe Sensei, the visual search displays results with aesthetic characteristics related to your target image.
+description: With Adobe Asset Link panel creative users can search for assets stored in AEM Assets using keywords or perform a search under a specific location. In addition to the basic search options, Adobe Asset Link also allows you to use an asset to search visually similar results within AEM Assets. Visual search displays results with aesthetic characteristics related to your target image.
 feature: Adobe Asset Link
 version: Experience Manager as a Cloud Service
 kt: 4917
@@ -14,6 +14,6 @@ duration: 195
 ---
 # Asset Search {#asset-search}
 
-With Adobe Asset Link panel creative users can search for assets stored in AEM Assets using keywords or perform a search under a specific location. In addition to the basic search options, Adobe Asset Link also allows you to use an asset to search visually similar results within AEM Assets. Powered by machine-learning with Adobe Sensei, the visual search displays results with aesthetic characteristics related to your target image.
+With Adobe Asset Link panel creative users can search for assets stored in AEM Assets using keywords or perform a search under a specific location. In addition to the basic search options, Adobe Asset Link also allows you to use an asset to search visually similar results within AEM Assets. Visual search displays results with aesthetic characteristics related to your target image.
 
 >[!VIDEO](https://video.tv.adobe.com/v/34260?quality=12&learn=on)

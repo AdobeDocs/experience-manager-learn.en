@@ -35,6 +35,19 @@ Adobe Experience Manager (AEM) has multiple options for defining headless endpoi
     <p>
   </td>
   <td>
+    <a href="./open-api/basic/overview.md">
+      <img alt="OpenAPIs" src="./assets/content-services.png" />
+    </a>
+     <div>
+      <a href="./open-api/basic/overview.md">
+        <strong>OpenAPI</strong>
+      </a>
+    </div>
+    <p>
+    <em>Learn how an application can use a OpenAPI-based REST APIs to consume content.</em>
+    <p>
+  </td>
+  <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html">
     <img alt="Token-based authentication" src="./assets/token-auth-icon.png" />
     </a>
@@ -46,20 +59,7 @@ Adobe Experience Manager (AEM) has multiple options for defining headless endpoi
     <p>
     <em>Learn how an application can securely authenticate with AEM.</em>
     </p>
-  </td>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/content-services/overview.html">
-      <img alt="Content Services" src="./assets/content-services.png" />
-    </a>
-     <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/content-services/overview.html">
-        <strong>Content Services</strong>
-      </a>
-    </div>
-    <p>
-    <em>Learn how an application can use a REST API to consume content.</em>
-    <p>
-  </td>
+  </td>  
 </tr>
 </table>
 

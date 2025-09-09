@@ -35,7 +35,6 @@ Click on the Experience Cloud product for documentation on how to configure and 
 | [Learning Manager](#adobe-learning-manager)                       | &#10004;  |            |          |
 | Marketo Engage                                                    |           |            |          |
 | Real-time CDP                                                     |           |            |          |
-| [Sensei](#adobe-sensei)                                           | &#10004;  | &#10004;   | &#10004; |
 | [Target](#adobe-target)                                           | &#10004;  |            |          |
 | [Workfront](#adobe-workfront)                                     |           | &#10004;   |          |
 
@@ -118,11 +117,6 @@ Adobe Learning Manager (formerly Adobe Captivate Prime) delivers personalized le
 ### AEM Sites
 
 + [Integrate AEM Sites with Adobe Learning Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-learning-manager.html)
-
-## Adobe Sensei
-
-Adobe Sensei provides AI and machine learning technology to transform the process of content management via Smart Tags, Smart
-Crop, Visual Search and more!
 
 ### AEM Sites
  

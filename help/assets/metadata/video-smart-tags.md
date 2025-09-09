@@ -1,6 +1,6 @@
 ---
 title: Video Smart Tags in AEM Assets
-description: Experience Manager Assets leverages Adobe Sensei to intelligently tag video assets with keywords that describe key elements of the video, allowing them to be easily discovered using keyword search by AEM users.
+description: Experience Manager Assets intelligently tags video assets with keywords that describe key elements of the video, allowing them to be easily discovered using keyword search by AEM users.
 feature: Smart Tags
 version: Experience Manager as a Cloud Service
 jira: KT-6445
@@ -15,6 +15,6 @@ duration: 69
 ---
 # Video Smart Tags
 
-Experience Manager Assets leverages Adobe Sensei to intelligently tag video assets with keywords that describe key elements of the video, allowing them to be easily discovered using keyword search by AEM users.
+Experience Manager Assets intelligently tags video assets with keywords that describe key elements of the video, allowing them to be easily discovered using keyword search by AEM users.
 
 >[!VIDEO](https://video.tv.adobe.com/v/327005?quality=12&learn=on)

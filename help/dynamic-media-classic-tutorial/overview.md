@@ -34,7 +34,7 @@ In this guide we'll discuss the following core capabilities of Dynamic Media Cla
 
 - **Dynamic Imaging.** The umbrella term for real-time editing, formatting and sizing, and interactive zoom and pan; color and texture swatching; 360-degree spin; image templates; and multimedia viewers.
 - **Video.** Upload final videos, publish them, and progressively download them into configurable video viewers.
-- **Smart Imaging.** Technology that leverages Adobe Sensei AI capabilities and works with existing "Image Presets" to enhance image delivery performance by automatically optimizing image format, size, and quality based on client browser capabilities.
+- **Smart Imaging.** Technology that works with existing "Image Presets" to enhance image delivery performance by automatically optimizing image format, size, and quality based on client browser capabilities.
 
 To discover additional capabilities of the solution, visit the [Documentation for Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/introduction.html).
 

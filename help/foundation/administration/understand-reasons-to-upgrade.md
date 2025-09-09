@@ -800,7 +800,7 @@ Below is a matrix of key Assets features offered by AEM. Some of these features 
         </tr>
         <tr>
             <td><strong><a href="https://helpx.adobe.com/experience-manager/6-5/assets/using/enhanced-smart-tags.html" target="_blank">Smart Tags and Moderation</a>:</strong>
-            Leverage Adobe Sensei to tag images automatically with useful metadata.</td>
+            Leverage Adobe AI to tag images automatically with useful metadata.</td>
             <td>&nbsp;</td>
             <td></td>
             <td>&nbsp;</td>
