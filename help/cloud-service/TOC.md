@@ -142,6 +142,7 @@ team: TM
     + [Integrate Tags](./personalization/setup/integrate-adobe-tags.md)
   + Use Cases {#use-cases}
     + [Experimentation (A/B Testing)](./personalization/use-cases/experimentation.md)
+    + [Behavioral Targeting](./personalization/use-cases/behavioral-targeting.md)
 + AEM APIs{#aem-apis}
   + [Overview](./apis/overview.md)
   + OpenAPIs{#openapis}
