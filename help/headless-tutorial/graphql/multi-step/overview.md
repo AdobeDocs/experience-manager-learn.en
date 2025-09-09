@@ -32,15 +32,15 @@ This tutorial covers the following topics:
 
 The following are required to follow this tutorial:
 
-*   Basic HTML and JavaScript skills
-*   The following tools must be installed locally:
+* Basic HTML and JavaScript skills
+* The following tools must be installed locally:
     * [Node.js v18](https://nodejs.org/)
     * [Git](https://git-scm.com/)
     * An IDE (for example, [Microsoft&reg; Visual Studio Code](https://code.visualstudio.com/))
 
 ### AEM Environment
 
-To complete this tutorial, it is recommended that you have AEM Administrator access to an AEM as a Cloud Service environment.
+To complete this tutorial, it is recommended you have AEM Administrator access to an AEM as a Cloud Service environment. 
 
 ## Let's get started!
 

@@ -1,6 +1,6 @@
 ---
 title: Using Dynamic Media Smart Crop for video
-description: Dynamic Media Smart Crop for video uses Adobe Sensei to intelligently track the point-of-interest in the video, ensuring videos look their best on all screen sizes.
+description: Dynamic Media Smart Crop for video intelligently tracks the point-of-interest in the video, ensuring videos look their best on all screen sizes.
 feature: Smart Crop, Video Profiles, Viewer Presets
 version: Experience Manager as a Cloud Service
 jira: KT-5977
@@ -14,7 +14,7 @@ duration: 397
 ---
 # Using Dynamic Media Smart Crop for video {#using-smart-crop-video}
 
-Dynamic Media Smart Crop for video uses Adobe Sensei to intelligently track the point-of-interest in the video, ensuring videos look their best on all screen sizes.
+Dynamic Media Smart Crop for video intelligently tracks the point-of-interest in the video, ensuring videos look their best on all screen sizes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/37958?quality=12&learn=on)
 

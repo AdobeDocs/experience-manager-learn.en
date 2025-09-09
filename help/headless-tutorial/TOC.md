@@ -13,6 +13,14 @@ index: y
 # Getting Started with AEM Headless{#getting-started-with-aem-headless}
 
 + [AEM Headless Overview](./overview.md)
++ OpenAPI {#open-api}
+  + Basic tutorials {#basic}
+    + [Overview](./open-api/basic/overview.md)
+    + [1 - Define Content Fragment Models](./open-api/basic/1-content-fragment-models.md)
+    + [2 - Author Content Fragments](./open-api/basic/2-author-content-fragments.md)
+    + [3 - Explore OpenAPI APIs](./open-api/basic/3-explore-openapis.md)
+    + [4 - Build a React app](./open-api/basic/4-react-app.md)
+    + [5 - Universal Editor integration](./open-api/basic/5-universal-editor.md)
 + GraphQL {#graphql}
   + [AEM Headless Developer Portal](https://experienceleague.adobe.com/landing/experience-manager/headless/developer.html){target=_blank}
   + [Overview](./graphql/overview.md)
