@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 duration: 430
 ---
-# Defining Content Fragment Models
+# Create Content Fragment Models
 
 In this chapter, learn how to model content and build a schema with **Content Fragment Models**, and about the different data types that define a Content Fragment Model.
 
