@@ -1,5 +1,5 @@
 ---
-title: Make React App Editable with Universal Editor | Headless Tutorial Part 5
+title: Edit the React App with Universal Editor | Headless Tutorial Part 5
 description: Learn how to make your React app editable in AEM Universal Editor by adding the necessary instrumentation and configuration.
 version: Experience Manager as a Cloud Service
 mini-toc-levels: 1
@@ -10,7 +10,7 @@ level: Beginner
 duration: 800
 ---
 
-# Make the React app editable with Universal Editor
+# Edit the React app with Universal Editor
 
 In this chapter, you learn how to make the React app built in the [previous chapter](./4-react-app.md) editable using AEM Universal Editor. Universal Editor allows content authors to edit content directly within the context of the React app experience while maintaining the seamless experience of a headless application.
 
