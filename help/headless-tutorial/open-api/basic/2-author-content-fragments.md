@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 duration: 700
 ---
-# Authoring Content Fragments
+# Author Content Fragments
 
 In this chapter, you create and edit new Content Fragments based on the [Team and Person Content Fragment Models](./1-content-fragment-models.md). These Content Fragments will be the content that is consumed by the React app using the AEM Content Fragment Delivery with OpenAPI APIs. 
 
