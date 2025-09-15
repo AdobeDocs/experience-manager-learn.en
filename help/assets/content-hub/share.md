@@ -16,4 +16,4 @@ exl-id: db898193-6075-49c6-87df-0fcc86b5c4b3
 
 Learn how to share assets and collections with team members in AEM Assets Content Hub, promoting effective teamwork and secure asset sharing.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435685/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3474890/?learn=on&enablevpops=on)
