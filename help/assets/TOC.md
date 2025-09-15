@@ -65,6 +65,7 @@ team: TM
   + [Watermarks](./advanced/watermarks.md)
 
 + Advanced metadata management{#metadata}
+  + [GenAI metadata](metadata/genai-metadata.md)
   + [Cascading metadata](metadata/cascade-metadata-feature-video-use.md)
   + [Smart Tags for images](metadata/image-smart-tags.md)
   + [Custom Smart Tags for images](metadata/custom-smart-tags.md)
