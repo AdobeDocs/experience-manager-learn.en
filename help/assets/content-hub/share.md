@@ -7,8 +7,8 @@ topic: Content Supply Chain, Administration
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
-duration: 182
-last-substantial-update: 2024-10-24
+duration: 251
+last-substantial-update: 2025-09-15
 jira: KT-15987
 exl-id: db898193-6075-49c6-87df-0fcc86b5c4b3
 ---
