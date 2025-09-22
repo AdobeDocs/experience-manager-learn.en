@@ -10,6 +10,7 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 duration: 430
+exl-id: 05eb3604-275a-4836-b65f-61090841ef65
 ---
 # Create Content Fragment Models
 
@@ -155,4 +156,3 @@ In the next chapter, [Authoring Content Fragment Models](2-author-content-fragme
 ## Related documentation
 
 * [Content Fragment Models](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-models.html)
-

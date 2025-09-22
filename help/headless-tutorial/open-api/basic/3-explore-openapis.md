@@ -8,8 +8,8 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 duration: 400
+exl-id: 3187144f-1293-4775-980a-80667b8d18ea
 ---
-
 # Explore AEM OpenAPI-based Content Fragment Delivery APIs
 
 The [AEM Content Fragment Delivery with OpenAPI APIs](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentfragments/delivery/) in AEM provide a powerful way to deliver structured content to any application or channel. In this chapter, we explore how to use the OpenAPIs to retrieve Content Fragments via the documentation's **Try It** functionality.
@@ -133,4 +133,3 @@ Congratulations, you created and executed several AEM Content Fragment Delivery 
 ## Next Steps
 
 In the next chapter, [Build a React app](./4-react-app.md), you explore how an external application can interact with AEM Content Fragment Delivery with OpenAPI APIs.
-
