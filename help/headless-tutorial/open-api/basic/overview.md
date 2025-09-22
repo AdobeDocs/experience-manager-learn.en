@@ -11,6 +11,7 @@ role: Developer
 level: Beginner
 last-substantial-update: 2022-10-17
 duration: 54
+exl-id: 1bb7c415-58f8-4f6c-a0bc-38bdbdb521cf
 ---
 # Get started with AEM Content Fragment Delivery with OpenAPI APIs
 

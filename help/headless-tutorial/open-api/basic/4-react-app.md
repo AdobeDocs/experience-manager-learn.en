@@ -8,8 +8,8 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 duration: 900
+exl-id: ced704d4-5098-4553-812f-9734da0c5777
 ---
-
 # Build a React app with AEM's Content Fragment Delivery OpenAPIs
 
 In this chapter, you explore how AEM Content Fragment Delivery with OpenAPI APIs can drive the experience in external applications.

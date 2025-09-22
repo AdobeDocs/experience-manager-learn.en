@@ -10,8 +10,8 @@ doc-type: Feature Video
 duration: 215
 last-substantial-update: 2025-09-02
 jira: KT-18994
+exl-id: d362378c-5c52-4e4c-81fa-dbc510199239
 ---
-
 # AEM Assets and Figma integration
 
 Learn how to integrate Experience Manager Assets with Figma to streamline design workflows, ensure brand consistency, and give creative teams direct access to approved assets while designing.

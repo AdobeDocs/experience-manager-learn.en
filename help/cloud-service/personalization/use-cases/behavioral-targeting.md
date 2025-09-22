@@ -10,6 +10,7 @@ doc-type: Tutorial
 last-substantial-update: 2025-09-10
 jira: KT-19113
 thumbnail: KT-19113.jpeg
+exl-id: fd7204fa-03f2-40df-9f0a-487a5aec2891
 ---
 # Behavioral Targeting
 

@@ -10,6 +10,7 @@ topic: Headless, Content Management
 role: Developer
 level: Beginner
 duration: 700
+exl-id: 7c62a17e-e79b-4b8e-a363-0fb1681b7efe
 ---
 # Author Content Fragments
 
@@ -187,5 +188,4 @@ With the Content Fragments published, you can now access them via the AEM Conten
 
 ## Next steps
 
-In the next chapter, [Explore OpenAPIs](3-explore-openapis.md), you will explore AEM Content Fragment Delivery with OpenAPI APIs using the **Try It** capability built into the API documentation. 
-
+In the next chapter, [Explore OpenAPIs](3-explore-openapis.md), you will explore AEM Content Fragment Delivery with OpenAPI APIs using the **Try It** capability built into the API documentation.
