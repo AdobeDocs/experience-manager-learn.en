@@ -13,7 +13,7 @@ exl-id: cde4ce7f-0afe-4632-8c1c-354586f296d5
 
 Adobe Experience Manager (AEM) Sites is Adobe's experience management platform, enabling the authoring, management, and delivery of digital experiences, be it through a web site, mobile app, or any other digital channel. 
 
-## Three ways to delivery experiences with AEM Sites
+## Three ways to deliver experiences with AEM Sites
 
 AEM Sites provides three ways to build, author and deliver experiences. Whether you're building web sites, optimizing for edge performance, or powering headless apps, AEM Sites offers flexible options to match your project needs:
 
