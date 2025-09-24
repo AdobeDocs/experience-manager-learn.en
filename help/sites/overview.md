@@ -17,15 +17,15 @@ Adobe Experience Manager (AEM) Sites is Adobe's experience management platform, 
 
 AEM Sites provides three ways to build, author and deliver experiences. Whether you're building web sites, optimizing for edge performance, or powering headless apps, AEM Sites offers flexible options to match your project needs:
 
-1. **Edge Delivery Services** experiences use Adobe’s Edge Network to deliver content with high speed and low latency. The service automatically optimizes content for the consuming device, searching engines, and GenAI agents. Authors create content using Adobe Universal Editor or document-based authoring.  
+1. **Edge Delivery Services** experiences use Adobe's Edge Network to deliver content with high speed and low latency. The service automatically optimizes content for the consuming device, searching engines, and GenAI agents. Authors create content using Adobe Universal Editor or document-based authoring.  
 1. **Headless/API-first** experiences use AEM Publish to deliver content as JSON over HTTP APIs for mobile apps, single-page applications (SPAs), or other headless clients. Authors create content using Content Fragment Editor or Universal Editor.  
-1. **Traditional AEM** experiences use AEM Publish to deliver content as HTML webpages. Authors create content using AEM Author’s Page Editor. This option is best for existing projects or projects already migrated.  
+1. **Traditional AEM** experiences use AEM Publish to deliver content as HTML webpages. Authors create content using AEM Author's Page Editor. This option is best for existing projects or projects already migrated.  
 
 All three options are strong approaches, and the best choice depends on your use case and organizational needs. Each approach allows teams to deliver personalized, engaging experiences at speed and scale across any channel or device.
 
 >[!IMPORTANT]
 >
-> **Edge Delivery Services** is the newest and most advanced way to deliver websites with AEM. It combines the speed and scalability of Adobe’s Edge Network with modern authoring options. While Edge Delivery Services is  recommended for new projects, AEM Sites continues to support headless and traditional approaches, so you can choose the path that best fits your needs.
+> **Edge Delivery Services** is the newest and most advanced way to deliver websites with AEM. It combines the speed and scalability of Adobe's Edge Network with modern authoring options. While Edge Delivery Services is  recommended for new projects, AEM Sites continues to support headless and traditional approaches, so you can choose the path that best fits your needs.
 
 The following diagram depicts the different options for building experiences with AEM Sites:
 
@@ -48,7 +48,7 @@ The following table provides a high-level comparison of the three paths. It focu
 
 ## Migrating from AMS or On-Premise
 
-If you are migrating from AMS or on-premise (OTP) to AEM as a Cloud Service, Adobe encourages you to evaluate moving directly to Edge Delivery Services. The effort is typically no greater than migrating to AEM as a Cloud Service Publish, while providing faster performance and greater scalability. If you decide that Edge Delivery Services isn’t the right choice for you at this time, or if the other approaches better meet your needs, they remain fully supported and valid options for your project.
+If you are migrating from AMS or on-premise (OTP) to AEM as a Cloud Service, Adobe encourages you to evaluate moving directly to Edge Delivery Services. The effort is typically no greater than migrating to AEM as a Cloud Service Publish, while providing faster performance and greater scalability. If you decide that Edge Delivery Services isn't the right choice for you at this time, or if the other approaches better meet your needs, they remain fully supported and valid options for your project.
 
 ## Tutorials
 
