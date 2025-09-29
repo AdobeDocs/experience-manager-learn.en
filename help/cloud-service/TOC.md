@@ -21,6 +21,7 @@ team: TM
   + [Cloud Manager](./introduction/cloud-manager.md)
   + Strategy & thought leadership{#strategy}
     + [Experience Manager - Governance and staffing models and archetypes](./introduction/experience-manager-governance-and-staffing-models.md)
++ [Experience Hub](./experience-hub.md)
 + Experience Cloud integrations{#integrations}
   + [Integrations](./integrations/experience-cloud.md)
   + [AEM Headless and Target](./integrations/target.md)
