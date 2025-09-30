@@ -45,7 +45,7 @@ $ mvn clean package
 
 First, ensure you have the [latest `aio` CLI module installed](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools#aio-cli).
 
-Then, use the `aio aem:rde:install` command to deploy various AEM artifacts. Now that you must  
+Then, use the `aio aem:rde:install` command to deploy various AEM artifacts.
 
 ### Deploy `all` and `dispatcher` packages
 
