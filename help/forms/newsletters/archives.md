@@ -19,4 +19,5 @@ Our monthly Experience League Content Newsletters are available for download on 
 | [June](assets/June-Newsletter.pdf)|
 | [July](assets/July-Newsletter.pdf)|
 | [August](assets/August-Newsletter.pdf)|
+| [September](assets/Sept-Newsletter.pdf)|
 
