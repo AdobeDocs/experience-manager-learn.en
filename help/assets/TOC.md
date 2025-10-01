@@ -81,6 +81,7 @@ team: TM
   + [Image variants using Adobe Express](./content-hub/image-variants.md)
   + [Collections](./content-hub/collections.md)
   + [Sharing](./content-hub/share.md)
+  + [Attribute-based access control](./content-hub/attribute-based-access-control.md)
   + Use cases{#use-cases}
     + [Manage assets](./content-hub/use-cases/manage-assets.md)
 
