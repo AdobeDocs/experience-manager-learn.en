@@ -18,3 +18,5 @@ jira: KT-19332
 Learn how to set up and control access to assets in AEM Assets Content Hhub using attribute-based access control (ABAC).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475413/?learn=on&enablevpops)
+
+[Download the attribute-based access control definition spreadsheet](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/attribute-based-access-control) from the AEM Assets Content Hub Attribute-based access control documentation.
