@@ -46,7 +46,7 @@ The screenshot below illustrates a similar configuration but for `http://wknd.lo
 
 Defines the [OSGi factory configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.sitemap.impl.SitemapScheduler) for the frequency (using [cron expressions](https://cron.help/)) sitemaps are re/generated and cached in AEM. 
 
-`ui.config/src/main/jcr_content/apps/wknd/osgiconfig/config.publish`
+`ui.config/src/main/jcr_content/apps/wknd/osgiconfig/config.author`
 
 ```json
 {
