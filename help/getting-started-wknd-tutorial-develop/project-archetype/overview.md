@@ -10,7 +10,7 @@ mini-toc-levels: 1
 index: y
 doc-type: Tutorial
 exl-id: 90d14734-f644-4a45-9361-1e47a5b52fff
-recommendations: disable
+recommendations: display, noCatalog
 duration: 74
 ---
 # Getting Started with AEM Sites - Project Archetype {#project-archetype}
