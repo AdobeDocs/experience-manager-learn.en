@@ -81,7 +81,7 @@ The behavioral targeting setup process involves steps across Adobe Experience Pl
 
 4. **Verify the behavioral targeting implementation on your AEM pages**
 
-The AEP's various solutions are used to collect, manage, and harvest behavioral data to create audiences. These audiences are then activated in Adobe Target. Using activities in Adobe Target, personalized experiences are delivered to the users.
+The AEP's various solutions are used to collect, manage, and harvest behavioral data to create audiences. These audiences are then activated in Adobe Target. Using activities in Adobe Target, personalized experiences are delivered to the users that match the audiences criteria.
 
 ## Adobe Experience Platform Steps
 

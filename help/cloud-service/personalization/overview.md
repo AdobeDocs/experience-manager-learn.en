@@ -14,7 +14,7 @@ exl-id: c4fb11b9-b613-4522-b9da-18d7ae0826ec
 ---
 # Personalization Overview
 
-Learn how AEM as a Cloud Service (AEMCS) integrates with Adobe Target and Adobe Experience Platform (AEP). Discover how to deliver personalized experiences using A/B testing, targeting users based on their behavior, or personalizing content using customer profiles.
+Learn how AEM as a Cloud Service (AEMCS) integrates with Adobe Target and Adobe Experience Platform (AEP) to deliver personalized experiences. Using Experience Fragments as personalized content, discover how to run A/B tests, target users based on real-time behavior, or personalize content using unified customer profiles built from data across systems.
 
 ## Prerequisites
 
@@ -32,14 +32,14 @@ To demonstrate various personalization scenarios, this tutorial uses the sample 
 
 ## Get Started
 
-Before exploring specific use cases, you first configure AEM as a Cloud Service for personalization. Begin by integrating Adobe Target and Tags to enable client-side personalization using the AEP Web SDK. These foundational steps allow your AEM pages to support experimentation, audience targeting, and real-time personalization.
+Before exploring specific use cases, you first configure AEM as a Cloud Service for personalization. Begin by integrating Adobe Target and Tags to enable client-side personalization using the Web SDK. These foundational steps allow your AEM pages to support experimentation, audience targeting, and real-time personalization.
 
 <!-- CARDS
 {target = _self}
 
 * ./setup/integrate-adobe-target.md
   {title = Integrate Adobe Target}
-  {description = Integrate AEMCS with Adobe Target to activate personalized content as Adobe Target offers.}
+  {description = Integrate AEMCS with Adobe Target to activate personalized content, such as Experience Fragments, as offers.}
   {image = ./assets/setup/integrate-target.png}
   {cta = Integrate Target}
 
@@ -48,6 +48,7 @@ Before exploring specific use cases, you first configure AEM as a Cloud Service 
   {description = Integrate AEMCS with Tags to inject the Web SDK and custom JavaScript for data collection and personalization.}
   {image = ./assets/setup/integrate-tags.png}
   {cta = Integrate Tags}
+  
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -66,7 +67,7 @@ Before exploring specific use cases, you first configure AEM as a Cloud Service 
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./setup/integrate-adobe-target.md" target="_self" rel="referrer" title="Integrate Adobe Target">Integrate Adobe Target</a>
                     </p>
-                    <p class="is-size-6">Integrate AEMCS with Adobe Target to activate personalized content as Adobe Target offers.</p>
+                    <p class="is-size-6">Integrate AEMCS with Adobe Target to activate personalized content, such as Experience Fragments, as offers.</p>
                 </div>
                 <a href="./setup/integrate-adobe-target.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Integrate Target</span>
@@ -111,7 +112,7 @@ Explore the following common personalization use cases supported by AEMCS, Adobe
 
 * ./use-cases/experimentation.md
     {title = Experimentation (A/B Testing)}
-    {description = Learn how to test different content variations in AEMCS using Adobe Target for A/B testing.}
+    {description = Learn how to test different content variations on an AEMCS website using Adobe Target for A/B testing.}
     {image = ./assets/use-cases/experiment/experimentation.png}
     {cta = Learn Experimentation}
 
@@ -120,6 +121,12 @@ Explore the following common personalization use cases supported by AEMCS, Adobe
     {description = Learn how to personalize content based on user behavior using Adobe Experience Platform and Adobe Target.}
     {image = ./assets/use-cases/behavioral-targeting/behavioral-targeting.png}
     {cta = Learn Behavioral Targeting}
+
+* ./use-cases/known-user-personalization.md
+    {title = Known-user personalization}
+    {description = Learn how to personalize content based on known user data by stitching information from multiple systems into a complete customer profile.}
+    {image = ./assets/use-cases/known-user-personalization/known-user-personalization.png}
+    {cta = Learn Known-user personalization}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -138,7 +145,7 @@ Explore the following common personalization use cases supported by AEMCS, Adobe
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./use-cases/experimentation.md" target="_self" rel="referrer" title="Experimentation (A/B Testing)">Experimentation (A/B Testing)</a>
                     </p>
-                    <p class="is-size-6">Learn how to test different content variations in AEMCS using Adobe Target for A/B testing.</p>
+                    <p class="is-size-6">Learn how to test different content variations on an AEMCS website using Adobe Target for A/B testing.</p>
                 </div>
                 <a href="./use-cases/experimentation.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn Experimentation</span>
@@ -165,6 +172,29 @@ Explore the following common personalization use cases supported by AEMCS, Adobe
                 </div>
                 <a href="./use-cases/behavioral-targeting.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn Behavioral Targeting</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Known-user personalization">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./use-cases/known-user-personalization.md" title="Known-user personalization" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="./assets/use-cases/known-user-personalization/known-user-personalization.png" alt="Known-user personalization"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./use-cases/known-user-personalization.md" target="_self" rel="referrer" title="Known-user personalization">Known-user personalization</a>
+                    </p>
+                    <p class="is-size-6">Learn how to personalize content based on known user data by stitching information from multiple systems into a complete customer profile.</p>
+                </div>
+                <a href="./use-cases/known-user-personalization.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn Known-user personalization</span>
                 </a>
             </div>
         </div>
