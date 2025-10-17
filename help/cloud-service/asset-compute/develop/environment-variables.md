@@ -18,6 +18,7 @@ duration: 121
 
 Before beginning development of Asset Compute workers, ensure the project is configured with Adobe I/O and cloud storage information. This information is stored in the project's `.env`  which is used only for local development, and not save in Git. The `.env` file provides a convenient way to expose key/values pairs to the local Asset Compute local development environment. When [deploying](../deploy/runtime.md) Asset Compute workers to Adobe I/O Runtime, the `.env` file is not used, but rather a subset of values are passed in via environment variables. Other custom parameters and secrets can be stored in the `.env` file as well, such as development credentials for 3rd party web services.
 
+<!--
 ## Reference the `private.key`
 
 ![private key](assets/environment-variables/private-key.png)
@@ -38,6 +39,7 @@ For example, on macOS this might look like:
 ASSET_COMPUTE_PRIVATE_KEY_FILE_PATH=/Users/example-user/credentials/aem-guides-wknd-asset-compute/private.key
 ...
 ```
+-->
 
 ## Configure Cloud Storage credentials
 
