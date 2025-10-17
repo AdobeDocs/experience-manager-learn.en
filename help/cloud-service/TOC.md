@@ -145,6 +145,7 @@ team: TM
   + Use Cases {#use-cases}
     + [Experimentation (A/B Testing)](./personalization/use-cases/experimentation.md)
     + [Behavioral Targeting](./personalization/use-cases/behavioral-targeting.md)
+    + [Known-user Personalization](./personalization/use-cases/known-user-personalization.md)
 + AEM APIs{#aem-apis}
   + [Overview](./apis/overview.md)
   + OpenAPIs{#openapis}
