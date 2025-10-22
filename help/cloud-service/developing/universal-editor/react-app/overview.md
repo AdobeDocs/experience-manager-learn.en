@@ -1,6 +1,7 @@
 ---
 title: React app editing using Universal Editor
 description: Learn how to edit the contents of a sample React app using Universal Editor.
+short-description: Learn how to edit the contents of a sample React app using Universal Editor. The contents are stored within Content Fragments in AEM and are fetched using GraphQL APIs.
 version: Experience Manager as a Cloud Service
 feature: Developer Tools, Headless
 topic: Development, Content Management
