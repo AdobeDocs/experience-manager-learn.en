@@ -1,6 +1,7 @@
 ---
 title: AEM Headless OpenAPI Tutorial | Content Fragment Delivery
 description: An end-to-end tutorial illustrating how to build-out and expose content using AEM's OpenAPI-based Content Fragment Delivery APIs.
+short-description: A tutorial illustrating how to build-out and expose AEM content using Content Fragment Delivery with OpenAPI APIs and consume it in an external app for headless CMS scenarios.
 doc-type: Tutorial
 mini-toc-levels: 1
 jira: KT-6678

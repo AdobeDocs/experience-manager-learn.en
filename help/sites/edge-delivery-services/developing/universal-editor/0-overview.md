@@ -1,6 +1,7 @@
 ---
 title: Edge Delivery Services and Universal Editor developer tutorial
 description: Learn the basics of developing a new website authored in AEM Universal Editor and delivered using Edge Delivery Services.
+short-description: A developer tutorial for building AEM websites that combine powerful authoring with Universal Editor and lightning-fast delivery using Edge Delivery Services. Learn how to create a new project, set up a local development environment, and build custom blocks.
 version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development
