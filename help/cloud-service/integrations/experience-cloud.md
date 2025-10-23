@@ -141,14 +141,16 @@ Adobe Target integrates with AEM as a Cloud Service to deliver optimized web exp
 
 ### AEM Sites
 
-+ [Configure the Adobe Target integration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html)
++ [Configure the Adobe Target integration](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/personalization/setup/integrate-adobe-target)
+
++[Personalization Use Cases](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/personalization/overview#use-cases)
+
 + Experience Fragments to Target
    
   + [Publish Experience Fragments to Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html)
   + [Publish Experience Fragments as JSON to Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html)
 
 + [Use AEM Context Hub with Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/personalization/audiences.html#creating-an-adobe-target-audience-using-the-audience-console)
-+ [AEM Sites and Target tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/target/overview.html)
 
 ## Adobe Workfront
 
