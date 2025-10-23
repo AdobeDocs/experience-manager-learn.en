@@ -27,6 +27,8 @@ Your organization might have different use cases for known-user personalization.
 
 ## Example use case
 
+![VIDEO](https://video.tv.adobe.com/v/3476105/?learn=on&enablevpops)
+
 In this tutorial, using the [sample WKND site](https://github.com/adobe/aem-guides-wknd), the process demonstrates how **logged in users** who have purchased any **Ski** adventure see a personalized hero on the **WKND home page**.
 
 The hero experience tries to _upsell_ the essential ski equipment to the users who have purchased any **Ski** adventure. The users who have not purchased any **Ski** adventure see the default hero content. Thus, the hero experience is personalized to the users based on their purchase history and login status. To enable this personalization, data from different systems is stitched together to create a complete customer profile and used for personalization activities.
