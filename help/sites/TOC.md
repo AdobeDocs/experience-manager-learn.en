@@ -165,6 +165,7 @@ version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a
     + [Generate FPIDs](integrations/platform/fpid.md)
     + [Web SDK](integrations/platform/web-sdk.md)
     + [Analytics using Platform Web SDK](integrations/platform/analytics-using-web-sdk.md)
+    + [Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/personalization/overview)
   + Tags in Adobe Experience Platform {#experience-platform-data-collection-tags}
     + [Overview](integrations/experience-platform/data-collection/tags/overview.md)
     + [Create a Tag Property](integrations/experience-platform/data-collection/tags/create-tag-property.md)
@@ -179,14 +180,9 @@ version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a
     + [Track clicked component with Adobe Analytics](integrations/analytics/track-clicked-component.md)
     + [Analyze data with Analysis Workspace](integrations/analytics/create-analytics-workspace.md)
   + Adobe Target {#target}
-    + [Overview](integrations/adobe-target/overview.md)
-    + [Add Target extension to Tags Property](integrations/adobe-target/add-target-launch-extension.md)
-    + [Load and fire a Target call](integrations/adobe-target/load-and-fire-target.md)
-    + [Create Adobe Target Cloud Service account](integrations/adobe-target/setup-aem-target-cloud-service.md)
-    + [Export Experience Fragments to Adobe Target](integrations/adobe-target/export-experience-fragment-target.md)
-    + [Create Target Activity using Experience Fragment Offers](integrations/adobe-target/create-target-activity.md)
-    + [Personalization using Visual Experience Composer](integrations/adobe-target/personalization-using-vec.md)
-    + [Personalization of full web page experience](integrations/adobe-target/personalization-web-page.md)
+    + [Overview](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/personalization/overview)
+    + [Setup](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/personalization/setup/integrate-adobe-tags)
+    + [Use Cases](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/personalization/overview#use-cases)
 + Learn From Your Peers {#expert-resources}
   + [Overview](expert-resources/learn-from-your-peers-overview.md)
   + [Creating Authoring Guide In AEM Sites](expert-resources/authoring-guide-in-sites.md)
