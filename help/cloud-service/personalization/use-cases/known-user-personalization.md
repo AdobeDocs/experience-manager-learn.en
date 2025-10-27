@@ -27,7 +27,8 @@ Your organization might have different use cases for known-user personalization.
 
 ## Example use case
 
-![VIDEO](https://video.tv.adobe.com/v/3476105/?learn=on&enablevpops)
+>![VIDEO](https://video.tv.adobe.com/v/3476105/?learn=on&enablevpops)
+
 
 In this tutorial, using the [sample WKND site](https://github.com/adobe/aem-guides-wknd), the process demonstrates how **logged in users** who have purchased any **Ski** adventure see a personalized hero on the **WKND home page**.
 
