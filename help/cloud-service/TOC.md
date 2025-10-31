@@ -139,6 +139,7 @@ team: TM
       + [Traversal warnings](./debugging/cloud-service/risks/traversals.md)
 + Personalization {#personalization}
   + [Overview](./personalization/overview.md)
+  + [Live Demo](./personalization/live-demo.md)
   + Setup{#setup}
     + [Integrate Adobe Target](./personalization/setup/integrate-adobe-target.md)
     + [Integrate Tags](./personalization/setup/integrate-adobe-tags.md)
