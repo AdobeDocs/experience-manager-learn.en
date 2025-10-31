@@ -30,6 +30,51 @@ To demonstrate various personalization scenarios, this tutorial uses the sample 
 
 - The [AEM WKND](https://github.com/adobe/aem-guides-wknd/) project deployed to your AEM as a Cloud Service environment.
 
+## Live Demo of Personalization Use Cases
+
+Experience personalization in action on the [WKND Enablement website](https://wknd.enablementadobe.com/us/en.html){target="_blank"}. The demo site demonstrates three types of personalization: A/B testing, behavioral targeting, and known-user personalization.
+
+>[!TIP]
+>
+> Exploring the live demo first helps you understand the value and capabilities of each personalization technique before investing time in setup and implementation.
+
+<!-- CARDS
+{target = _self}
+
+* ./live-demo.md
+  {title = Live Demo of Personalization Use Cases}
+  {description = Experience personalization in action on the [WKND Enablement website](https://wknd.enablementadobe.com/us/en.html). The demo site demonstrates three types of personalization: A/B testing, behavioral targeting, and known-user personalization.}
+  {image = ./assets/live-demo/live-demo.png}
+  {cta = Live Demo}
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Live Demo of Personalization Use Cases">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./live-demo.md" title="Live Demo of Personalization Use Cases" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="./assets/live-demo/live-demo.png" alt="Live Demo of Personalization Use Cases"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./live-demo.md" target="_self" rel="referrer" title="Live Demo of Personalization Use Cases">Live Demo of Personalization Use Cases</a>
+                    </p>
+                    <p class="is-size-6">Experience personalization in action on the WKND Enablement website. The demo site demonstrates three types of personalization: A/B testing, behavioral targeting, and known-user personalization.</p>
+                </div>
+                <a href="./live-demo.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Live Demo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 ## Get Started
 
 Before exploring specific use cases, you first configure AEM as a Cloud Service for personalization. Begin by integrating Adobe Target and Tags to enable client-side personalization using the Web SDK. These foundational steps allow your AEM pages to support experimentation, audience targeting, and real-time personalization.
