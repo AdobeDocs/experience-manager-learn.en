@@ -7,13 +7,15 @@ topic: Personalization, Integrations
 role: Developer, Architect, Leader, User
 level: Beginner
 doc-type: Tutorial
-last-substantial-update: 2025-11-01
+last-substantial-update: 2025-11-03
 jira: KT-19546
 thumbnail: KT-19546.jpeg
 ---
 # Live Demo of Personalization Use Cases
 
 Visit the [WKND Enablement website](https://wknd.enablementadobe.com/us/en.html){target="wknd"} to see real-world examples of A/B testing, behavioral targeting, and known-user personalization.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476461/?learn=on&enablevpops)
 
 This page guides you through hands-on demonstrations of each personalization scenario. Use it to explore what's possible before building these capabilities on your own AEM site.
 
