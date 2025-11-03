@@ -32,7 +32,7 @@ To demonstrate various personalization scenarios, this tutorial uses the sample 
 
 ## Live Demo of Personalization Use Cases
 
-Experience personalization in action on the [WKND Enablement website](https://wknd.enablementadobe.com/us/en.html){target="_blank"}. The demo site demonstrates three types of personalization: A/B testing, behavioral targeting, and known-user personalization.
+Experience personalization in action on the [WKND Enablement website](https://wknd.enablementadobe.com/us/en.html){target="wknd"}. The demo site demonstrates three types of personalization: A/B testing, behavioral targeting, and known-user personalization.
 
 >[!TIP]
 >
