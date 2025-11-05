@@ -70,7 +70,7 @@ The WKND homepage hero banner is personalized based on authenticated user profil
 
 | Page | What You'll See | How to Test | Profile Context | Experience |
 |------|-----------------|-------------|-----------------|------------|
-| [Home](https://wknd.enablementadobe.com/us/en.html){target="wknd"} | A ski shop interior showcasing **premium ski equipment with "EXTRA 25% OFF"** promotion, featuring expert packing tips to prepare for their upcoming ski adventure | Sign in with `teddy/teddy` or `asmith/asmith`and refresh the page | Recently purchased ski adventures, thus upselling ski gear | ![Home - Ski Gear Upsell](./assets/live-demo/known-user-ski-gear-hero.png){width="200" zoomable="yes"} |
+| [Home](https://wknd.enablementadobe.com/us/en.html){target="wknd"} | A ski shop interior showcasing **premium ski equipment with "EXTRA 25% OFF"** promotion, featuring expert packing tips to prepare for their upcoming ski adventure | Sign in with `rwilson/rwilson` and refresh the page | Recently purchased ski adventures, thus upselling ski gear | ![Home - Ski Gear Upsell](./assets/live-demo/known-user-ski-gear-hero.png){width="200" zoomable="yes"} |
 
 **Learn More:** Ready to implement known-user personalization on your own AEM site? Start with the [Known-user Personalization Tutorial](./use-cases/known-user-personalization.md) to learn the complete setup process.
 
