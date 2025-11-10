@@ -32,7 +32,7 @@ The Simple search implementation are the materials from the **Adobe Summit lab A
 * [CRXDE Lite](http://localhost:4502/crx/de/index.jsp#/oak%3Aindex/cqPageLucene) &gt; /oak:index/cqPageLucene
 * [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)
 * [QueryBuilder Debugger](http://localhost:4502/libs/cq/search/content/querydebug.html?)
-* [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index)
+* [Oak Index Definition Generator](https://thomasmueller.github.io/oakTools/indexDefGenerator.html)
 
 ### Chapters {#chapters}
 
