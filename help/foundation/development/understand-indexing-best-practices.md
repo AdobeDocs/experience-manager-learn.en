@@ -237,13 +237,13 @@ To disable Apache Tika completely, follow below steps:
 
 Let's review few tools that can help you to define, analyze, and optimize the indexes.
 
-### Index creation tool
+### Index creation tool and Oak tools
 
-The [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index) tool helps **to generate the index definition** based on the input queries. It is a good starting point to create a custom index.
+The [Oak Index Definition Generator](https://thomasmueller.github.io/oakTools/indexDefGenerator.html) tool helps **to generate the index definition** based on the input queries. It is a good starting point to create a custom index.
 
-### Analyze index tool
-
-The [Index Definition Analyzer](https://oakutils.appspot.com/analyze/index) tool helps **to analyze the index definition** and provides recommendations to improve the index definition.
+The [Oak Tools](https://thomasmueller.github.io/oakTools/index.html) also contain other
+utilities related to indexing and querying, for example to convert indexes between JSON and XML format,
+to convert XPath queries to SQL-2, and to compare indexes.
 
 ### Query performance tool
 
