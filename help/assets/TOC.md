@@ -63,6 +63,7 @@ team: TM
   + [Metadata-driven permissions](./advanced/metadata-driven-permissions.md)
   + [Video closed captions](./advanced/video-closed-captions.md)
   + [Watermarks](./advanced/watermarks.md)
+  + [Programmatic asset upload](./advanced/programmatic-asset-upload.md)
 
 + Advanced metadata management{#metadata}
   + [GenAI metadata](metadata/genai-metadata.md)
