@@ -16,6 +16,10 @@ thumbnail: KT-19571.png
 
 Learn how to upload assets to AEM as a Cloud Service environment using the client application that uses the [aem-upload](https://github.com/adobe/aem-upload) Node.js library.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476952?quality=12&learn=on)
+
+
 ## What you learn
 
 In this tutorial, you learn:
