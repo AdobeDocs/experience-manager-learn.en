@@ -118,7 +118,7 @@ To access AEM as a Cloud Service using the Service Credentials, the external app
 
 + When Service Credentials are present, the external application uses this access token instead of the Local Development Access Token, when accessing AEM as a Cloud Service
 
-In this tutorial, Adobe's `@adobe/jwt-auth` npm module is used to both, (1) generate the JWT from the Service Credentials, and (2) exchange it for an access token, in a single function call. If your application is not JavaScript based, please review the [sample code in other languages](https://developer.adobe.com/developer-console/docs/guides/authentication/JWT/samples/) for how to create a JWT from the Service Credentials, and exchange it for an access token with Adobe IMS.
+In this tutorial, Adobe's `@adobe/jwt-auth` npm module is used to both, (1) generate the JWT from the Service Credentials, and (2) exchange it for an access token, in a single function call. If your application is not JavaScript based, you can develop custom code in your language of choice that creates the JWT from the Service Credentials, and exchanges it for an access token with Adobe IMS.
 
 ## Read the Service Credentials
 
