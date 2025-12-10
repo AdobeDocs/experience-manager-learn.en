@@ -92,6 +92,7 @@ version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a
     + [Document structure](edge-delivery-services/developing/document-structure.md)
     + [Local development](edge-delivery-services/developing/local-development.md)
     + [Git](edge-delivery-services/developing/git.md)
+    + [Configuration pipeline](edge-delivery-services/developing/cloud-manager-configuration-pipeline.md)
     + Universal Editor {#universal-editor}
       + [Overview](./edge-delivery-services/developing/universal-editor/0-overview.md)
       + [New code project](./edge-delivery-services/developing/universal-editor/1-new-code-project.md)
