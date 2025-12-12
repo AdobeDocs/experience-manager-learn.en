@@ -4,7 +4,7 @@ description: Learn how to call internal APIs having private or self-signed certi
 feature: Security
 version: Experience Manager 6.5, Experience Manager as a Cloud Service
 topic: Security, Development
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Experienced
 jira: KT-11548
 thumbnail: KT-11548.png

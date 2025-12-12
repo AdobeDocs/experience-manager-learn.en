@@ -4,7 +4,7 @@ description: Learn how to make HTTP/HTTPS requests from AEM as a Cloud Service t
 version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-9354
 thumbnail: KT-9354.jpeg

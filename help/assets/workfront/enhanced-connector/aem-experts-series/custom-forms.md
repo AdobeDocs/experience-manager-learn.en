@@ -4,7 +4,7 @@ description: Learn how to configure Workfront and AEM Assets to manage and sync 
 version: Experience Manager as a Cloud Service
 topic: Content Management, Integrations
 feature: Asset Management
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Beginner
 jira: KT-9718
 thumbnail: 340332.jpeg

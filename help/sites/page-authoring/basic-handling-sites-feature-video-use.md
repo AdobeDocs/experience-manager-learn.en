@@ -28,7 +28,9 @@ In this video, the following capabilities or features are covered:
 
     | Console | Purpose |
     |---|---|
-    | Assets | These consoles let you import and manage digital assets such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance    | Communities | This console allows you to create and manage community sites for engagement and enablement    | Commerce | This allows you to manage products, product catalogs and orders related to your Commerce sites |
+    | Assets | These consoles let you import and manage digital assets such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance  |
+    | Communities | This console allows you to create and manage community sites for engagement and enablement |
+    | Commerce | This allows you to manage products, product catalogs and orders related to your Commerce sites |
     | Experience Fragments | An experience fragment is a stand-alone experience that can be re-used across channels and have variations, saving the trouble of repeatedly copying and pasting experiences or parts of experiences |
     | Forms | This console allows you to create, manage, and process your forms and documents |
     | Personalization | This console provides a framework of tools for authoring targeted content and presenting personalized experiences |
@@ -36,6 +38,7 @@ In this video, the following capabilities or features are covered:
     | Sites | The Sites consoles let you create, view and manage websites running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages |
 
   * Tools - Represented by a hammer 
+  
 * Omni Search
 * Solution Switcher
 * Help

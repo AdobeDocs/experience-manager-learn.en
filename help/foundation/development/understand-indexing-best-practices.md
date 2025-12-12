@@ -6,7 +6,7 @@ sub-product: Experience Manager, Experience Manager Sites
 feature: Search
 doc-type: Article
 topic: Development
-role: Developer, Architect
+role: Developer
 level: Beginner
 duration: 373
 last-substantial-update: 2024-01-04

@@ -4,7 +4,7 @@ description: Learn about the AEM Cloud Service CDN Log Analysis Tooling that Ado
 version: Experience Manager as a Cloud Service
 feature: Developer Tools
 topic: Development
-role: Developer, Architect, Admin
+role: Developer, Admin
 level: Beginner
 doc-type: Tutorial
 duration: 219

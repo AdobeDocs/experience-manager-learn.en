@@ -4,7 +4,7 @@ description: Learn how to upload assets to AEM as a Cloud Service using the @ado
 version: Experience Manager as a Cloud Service
 topic: Development, Content Management
 feature: Asset Management
-role: Developer, Architect
+role: Developer
 level: Intermediate
 last-substantial-update: 2025-11-14
 doc-type: Tutorial

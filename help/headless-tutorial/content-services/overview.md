@@ -39,7 +39,7 @@ If you find an issue with the tutorial or the code, please leave a [GitHub issue
 
 ## AEM GraphQL vs. AEM Content Services
 
-|                                | AEM GraphQL APIs | AEM Content Services | 
+|                                | AEM GraphQL APIs | AEM Content Services |
 |--------------------------------|:-----------------|:---------------------|
 | Schema definition | Structured Content Fragment Models | AEM Components |
 | Content | Content Fragments | AEM Components |

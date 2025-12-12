@@ -4,7 +4,7 @@ description: Learn how to configure SAML 2.0 authentication on AEM as a Cloud Se
 version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-9351
 thumbnail: 343040.jpeg
@@ -20,7 +20,7 @@ Learn how to set up and authenticate end-users (not AEM authors) to a SAML 2.0 c
 
 SAML 2.0 integration with AEM Publish (or Preview), allows end users of an AEM-based web experience to authenticate to a non-Adobe IDP (Identity Provider), and access AEM as a named, authorized user.
 
-|                       | AEM Author | AEM Publish | 
+|                       | AEM Author | AEM Publish |
 |-----------------------|:----------:|:-----------:|
 | SAML 2.0 support      |  &#10008;  | &#10004;    |
 
@@ -245,12 +245,12 @@ The configuration is an OSGi factory configuration, meaning a single AEM as a Cl
 
 ### Adobe Granite SAML 2.0 Authentication Handler OSGi configuration{#configure-saml-2-0-authentication-handler-osgi-configuration}
 
-|                                   | OSGi property                 | Required | Value format          | Default value             | Description | 
+|                                   | OSGi property                 | Required | Value format          | Default value             | Description |
 |-----------------------------------|-------------------------------|:--------:|:---------------------:|---------------------------|-------------|
-| Paths                             | `path`                        | &#10004; | String array          | `/`                       | AEM paths this authentication handler is used for. | 
+| Paths                             | `path`                        | &#10004; | String array          | `/`                       | AEM paths this authentication handler is used for. |
 | IDP URL                           | `idpUrl`                      | &#10004; | String                |                           | IDP URL the SAML authentication request is sent. |
 | IDP certificate alias             | `idpCertAlias`                | &#10004; | String                |                           | The alias of the IDP certificate found in the AEM's Global Trust Store |
-| IDP HTTP redirect                 | `idpHttpRedirect`             | &#10008; | Boolean               | `false`                   | Indicates if an HTTP Redirect to the IDP URL instead of sending an AuthnRequest. Set to `true` for IDP initiated authentication. | 
+| IDP HTTP redirect                 | `idpHttpRedirect`             | &#10008; | Boolean               | `false`                   | Indicates if an HTTP Redirect to the IDP URL instead of sending an AuthnRequest. Set to `true` for IDP initiated authentication. |
 | IDP identifier                    | `idpIdentifier`               | &#10008; | String                |                           | Unique IDP Id to ensure AEM user and group uniqueness. If empty, the `serviceProviderEntityId` is used instead. |
 | Assertion consumer service URL    | `assertionConsumerServiceURL` | &#10008; | String                |                           | The `AssertionConsumerServiceURL` URL attribute in the AuthnRequest specifying where the `<Response>` message must be sent to AEM. |
 | SP entity Id                      | `serviceProviderEntityId`     | &#10004; | String                |                           | Uniquely identifies AEM to the IDP; usually the AEM host name. |
@@ -271,9 +271,9 @@ The configuration is an OSGi factory configuration, meaning a single AEM as a Cl
 | Logout URL                        | `logoutUrl`                   | &#10008; | String                |                           | IDP's URL where the SAML logout request is sent to. Required if `handleLogout` is set to `true`. |
 | Clock tolerance                   | `clockTolerance`              | &#10008; | Integer               | `60`                      | IDP and AEM (SP) clock skew tolerance when validating SAML assertions. |
 | Digest method                     | `digestMethod`                | &#10008; | String                | `http://www.w3.org/2001/04/xmlenc#sha256`             | The digest algorithm that the IDP uses when signing a SAML message. |
-| Signature method                  | `signatureMethod`             | &#10008; | String                | `http://www.w3.org/2001/04/xmldsig-more#rsa-sha256`   | The signature algorithm that the IDP uses when signing a SAML message.  | 
-| Identity sync type                | `identitySyncType`            | &#10008; | `default` or `idp`    | `default`                                             | Do not change `from` default for AEM as a Cloud Service. | 
-| Service ranking                   | `service.ranking`             | &#10008; | Integer               | `5002`                    | Higher ranking configurations are preferred for the same `path`. | 
+| Signature method                  | `signatureMethod`             | &#10008; | String                | `http://www.w3.org/2001/04/xmldsig-more#rsa-sha256`   | The signature algorithm that the IDP uses when signing a SAML message.  |
+| Identity sync type                | `identitySyncType`            | &#10008; | `default` or `idp`    | `default`                                             | Do not change `from` default for AEM as a Cloud Service. |
+| Service ranking                   | `service.ranking`             | &#10008; | Integer               | `5002`                    | Higher ranking configurations are preferred for the same `path`. |
 
 ### AEM user attributes{#aem-user-attributes}
 

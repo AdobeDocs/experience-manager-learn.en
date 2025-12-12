@@ -4,7 +4,7 @@ description: Apply Photoshop and Lightroom capabilities with Adobe Experience Ma
 version: Experience Manager as a Cloud Service
 topic: Content Management
 feature: Asset Processing, Renditions
-role: Leader, Architect, Developer, Admin, User
+role: Leader, Developer, Admin, User
 level: Beginner
 jira: KT-7803
 thumbnail: 333197.jpeg

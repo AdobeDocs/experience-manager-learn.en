@@ -4,7 +4,7 @@ description: Learn how about advanced settings for the Workfront for AEM enhance
 version: Experience Manager as a Cloud Service
 topic: Content Management, Integrations
 feature: Asset Management
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Beginner
 jira: KT-9733
 thumbnail: 340397.jpeg

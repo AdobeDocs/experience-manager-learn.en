@@ -1,7 +1,7 @@
 ---
 title: What is AEM as a Cloud Service?
 description: Explore what AEM as a Cloud Service and Edge Delivery Services are, and the value they deliver.
-role: Architect, Developer
+role: Developer
 level: Beginner
 type: Tutorial
 topic: Architecture

@@ -46,7 +46,7 @@ Explore AEM's GraphQL capabilities by building out a React App that consumes Con
 
 ## AEM GraphQL vs. AEM Content Services
 
-|                                | AEM GraphQL APIs | AEM Content Services | 
+|                                | AEM GraphQL APIs | AEM Content Services |
 |--------------------------------|:-----------------|:---------------------|
 | Schema definition | Structured Content Fragment Models | AEM Components |
 | Content | Content Fragments | AEM Components |

@@ -4,7 +4,7 @@ description: Learn how to invoke OpenAPI-based AEM APIs on AEM as a Cloud Servic
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
-role: Architect, Developer, Leader
+role: Developer, Leader
 level: Beginner
 doc-type: Tutorial
 jira: KT-16516

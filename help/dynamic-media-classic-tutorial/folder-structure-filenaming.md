@@ -71,7 +71,7 @@ This is a very simple system, and good if you have modest needs. However it is n
 | AA123   | Alt views               | AA123_1.tif AA123_2.tif AA123_3.tif         | AA123_1 AA123_2 AA123_3         |
 |         | Colored views           | AA123_BLU.tif AA123_RED.tif AA123_BROWN.tif | AA123_BLU AA123_RED AA123_BROWN |
 |         | Swatches                | AA123_BLU_SW.tif                            | AA123_BLU_SW                    |
-|         | Image Set or Swatch Set |                                             | AA123 or AA123_SET              | -- |
+|         | Image Set or Swatch Set |                                             | AA123 or AA123_SET              |
 
 When dealing with set collections, such as Image Sets and Swatch Sets, the set itself must also have a unique name. So in this case, the set could be given the base SKU as its name, or the SKU with a "_SET"extension.
 

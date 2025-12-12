@@ -6,7 +6,7 @@ feature: User and Groups
 doc-type: Article
 jira: KT-406
 topic: Architecture
-role: Architect
+role: Developer
 level: Experienced
 exl-id: 96c542ae-6ab6-4d8a-94df-a58b03469320
 last-substantial-update: 2022-09-10

@@ -47,8 +47,8 @@ The functional flow of the example extension is as follows:
 This example extends to extension point `actionBar` to add custom button to the Content Fragment Console.
 
 | AEM UI extended | Extension point |
-| ------------------------ | --------------------- | 
-| [Content Fragment Console](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/) | [Action Bar](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/api/action-bar/) | 
+| ------------------------ | --------------------- |
+| [Content Fragment Console](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/) | [Action Bar](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/api/action-bar/) |
 
 ## Example extension
 

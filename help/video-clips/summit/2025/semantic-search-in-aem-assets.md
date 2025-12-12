@@ -4,7 +4,7 @@ description: Explore how Semantic Search in AEM Assets helps you find content th
 cloud: Experience Cloud
 solution: Experience Manager
 feature-set: Experience Manager
-role: Developer, Leader, Admin, Architect
+role: Developer, Leader, Admin
 level: Beginner, Intermediate, Experienced
 type: Event
 doc-type: Video Clip

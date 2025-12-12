@@ -4,7 +4,7 @@ description: Learn how the Best Practice Analyzer can help ready your applicatio
 version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-8659
 thumbnail: 336690.jpeg

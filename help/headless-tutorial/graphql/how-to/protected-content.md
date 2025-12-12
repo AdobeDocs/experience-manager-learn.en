@@ -4,7 +4,7 @@ description: Learn how to protect content in AEM Headless.
 version: Experience Manager as a Cloud Service
 topic: Headless
 feature: GraphQL API
-role: Developer, Architect
+role: Developer
 level: Intermediate
 jira: KT-15233
 last-substantial-update: 2024-05-01

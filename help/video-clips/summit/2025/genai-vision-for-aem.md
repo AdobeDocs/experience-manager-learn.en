@@ -4,7 +4,7 @@ description: Learn about Adobe's approach to lowering barriers to entry, unifyin
 cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Assets, Experience Manager Forms, Experience Manager Sites
 feature-set: Experience Manager, Experience Manager Assets, Experience Manager Forms, Experience Manager Sites
-role: Leader, User, Developer, Admin, Architect
+role: Leader, User, Developer, Admin
 level: Beginner, Intermediate, Experienced
 type: Event
 doc-type: Video Clip

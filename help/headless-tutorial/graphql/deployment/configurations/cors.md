@@ -4,7 +4,7 @@ description: Learn how to configure Cross-origin resource sharing (CORS) for use
 version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
-role: Developer, Architect
+role: Developer
 level: Intermediate
 jira: KT-10830
 thumbnail: KT-10830.jpg
@@ -38,7 +38,7 @@ The AEM CORS OSGi configuration factory defines the allow criteria for accepting
 
 | Client connects to                   | AEM Author | AEM Publish   | AEM Preview   |
 |-------------------------------------:|:----------:|:-------------:|:-------------:|
-| Requires CORS OSGi configuration     | &#10004;   | &#10008;      | &#10008;      | 
+| Requires CORS OSGi configuration     | &#10004;   | &#10008;      | &#10008;      |
 
 
 The example below defines an OSGi configuration for AEM Author (`../config.author/..`) so it is only active on AEM Author service.
@@ -109,7 +109,7 @@ AEM Publish (and Preview) service's Dispatcher must be configured to support COR
 
 | Client connects to                   | AEM Author | AEM Publish   | AEM Preview   |
 |-------------------------------------:|:----------:|:-------------:|:-------------:|
-|Requires Dispatcher CORS configuration| &#10008;   | &#10004;      | &#10004;      | 
+|Requires Dispatcher CORS configuration| &#10008;   | &#10004;      | &#10004;      |
 
 #### Set CORS headers in vhost
 

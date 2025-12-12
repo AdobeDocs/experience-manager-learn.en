@@ -7,7 +7,7 @@ feature: Migration
 jira: KT-6729, KT-14796
 thumbnail: 329680.jpg
 topic: Migration
-role: Architect, Developer
+role: Developer
 level: Beginner
 last-substantial-update: 2024-01-16
 exl-id: 28644af8-babc-467d-afdb-8538728dc176

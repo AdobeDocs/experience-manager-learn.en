@@ -4,7 +4,7 @@ description: Learn about the various options to perform URL redirection in AEM.
 version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 topic: Development, Administration
 feature: Operations, Dispatcher
-role: Developer, Architect
+role: Developer
 level: Intermediate
 jira: KT-11466
 last-substantial-update: 2024-10-22

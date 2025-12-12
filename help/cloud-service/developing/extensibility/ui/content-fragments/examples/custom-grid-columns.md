@@ -24,8 +24,8 @@ Custom grid columns can be added to the Content Fragment Console using the  `con
 This example extends to extension point `contentFragmentGrid` to add a custom column to the Content Fragment Console.
 
 | AEM UI extended | Extension point |
-| ------------------------ | --------------------- | 
-| [Content Fragment Console](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/) | [Grid Columns](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/api/grid-columns/) | 
+| ------------------------ | --------------------- |
+| [Content Fragment Console](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/) | [Grid Columns](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/api/grid-columns/) |
 
 ## Example extension
 

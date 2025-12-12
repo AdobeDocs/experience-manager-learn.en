@@ -4,7 +4,7 @@ description: Learn how to retrieve the initial set of AEM Events from the journa
 version: Experience Manager as a Cloud Service
 feature: Developing, App Builder
 topic: Development, Architecture, Content Management
-role: Architect, Developer
+role: Developer
 level: Beginner
 doc-type: Tutorial
 duration: 280

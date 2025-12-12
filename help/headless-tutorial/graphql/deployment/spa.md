@@ -4,7 +4,7 @@ description: Learn about deployment considerations for single-page app (SPA) AEM
 version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
-role: Developer, Architect
+role: Developer
 level: Intermediate
 jira: KT-10587
 thumbnail: KT-10587.jpg

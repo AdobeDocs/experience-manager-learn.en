@@ -4,7 +4,7 @@ description: Learn how to integrate AEM Assets and Product Information Managemen
 version: Experience Manager as a Cloud Service
 feature: Developing, App Builder
 topic: Development, Architecture, Content Management
-role: Architect, Developer
+role: Developer
 level: Beginner
 doc-type: Tutorial
 duration: 761

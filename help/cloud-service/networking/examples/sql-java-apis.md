@@ -4,7 +4,7 @@ description: Learn how to connect to SQL databases from AEM as a Cloud Service u
 version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-9356
 thumbnail: KT-9356.jpeg

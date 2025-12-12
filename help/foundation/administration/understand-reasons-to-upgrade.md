@@ -4,7 +4,7 @@ description: A high-level breakdown of key features for customers considering up
 version: Experience Manager 6.5
 topic: Upgrade
 feature: Release Information
-role: Leader, Architect, Developer, Admin, User
+role: Leader, Developer, Admin, User
 level: Beginner
 doc-type: Article
 exl-id: bf4030b0-67c4-4b00-af95-f63e6f79e995

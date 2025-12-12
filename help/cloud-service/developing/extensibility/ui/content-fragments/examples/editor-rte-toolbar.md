@@ -30,8 +30,8 @@ This example shows how to insert a highlighted note or tip using custom _Add Tip
 This example extends to extension point `rte` to add custom button to RTE toolbar in the Content Fragment Editor.
 
 | AEM UI extended | Extension point |
-| ------------------------ | --------------------- | 
-| [Content Fragment Editor](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Rich Text Editor Toolbar](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-toolbar/) | 
+| ------------------------ | --------------------- |
+| [Content Fragment Editor](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Rich Text Editor Toolbar](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-toolbar/) |
 
 ## Example extension
 

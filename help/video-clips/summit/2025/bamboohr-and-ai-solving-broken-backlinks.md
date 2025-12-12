@@ -4,7 +4,7 @@ description: Learn how BambooHR used AI to identify and fix broken backlinks, le
 cloud: Experience Cloud
 solution: Experience Manager
 feature-set: Experience Manager
-role: Leader, User, Developer, Admin, Architect
+role: Leader, User, Developer, Admin
 level: Beginner, Intermediate, Experienced
 type: Event
 doc-type: Video Clip

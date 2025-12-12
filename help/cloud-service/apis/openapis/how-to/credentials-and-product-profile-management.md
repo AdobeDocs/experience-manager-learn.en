@@ -4,7 +4,7 @@ description: Learn how to manage Credentials and Product Profiles for AEM APIs.
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
-role: Architect, Developer, Leader
+role: Developer, Leader
 level: Beginner
 doc-type: Article
 jira: KT-17428

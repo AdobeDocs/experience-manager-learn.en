@@ -4,7 +4,7 @@ description: Learn how Adobe Experience Manager helps brands accelerate content 
 cloud: Experience Cloud
 solution: Experience Manager Assets
 feature-set: Experience Manager Assets
-role: User, Leader, Admin, Developer, Architect
+role: User, Leader, Admin, Developer
 level: Beginner, Intermediate, Experienced
 type: Event
 doc-type: Video Clip

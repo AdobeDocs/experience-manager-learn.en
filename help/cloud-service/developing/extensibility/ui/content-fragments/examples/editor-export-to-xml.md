@@ -26,8 +26,8 @@ Header buttons can exist as a single button, or as a button with subitems. This 
 This example extends to extension point `headerBar` to add custom button to the Content Fragment Editor.
 
 | AEM UI extended | Extension point |
-| ------------------------ | --------------------- | 
-| [Content Fragment Editor](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Header Menu](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/header-menu/) | 
+| ------------------------ | --------------------- |
+| [Content Fragment Editor](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Header Menu](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/header-menu/) |
 
 ## Example extension
 

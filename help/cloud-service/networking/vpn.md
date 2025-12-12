@@ -4,7 +4,7 @@ description: Learn how to connect AEM as a Cloud Service with your VPN to create
 version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-9352
 thumbnail: KT-9352.jpeg

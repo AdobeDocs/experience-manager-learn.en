@@ -4,7 +4,7 @@ description: Learn how to set up and use dedicated egress IP address, which allo
 version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-9351
 thumbnail: KT-9351.jpeg
@@ -172,9 +172,9 @@ With the Dedicated egress IP address created, you can now configure it using the
 
     For each `portForwards` mapping, the advanced networking defines the following forwarding rule:
 
-    | Proxy host  | Proxy port |  | External host | External port | 
+    | Proxy host  | Proxy port |  | External host | External port |
     |---------------------------------|----------|----------------|------------------|----------|
-    | `AEM_PROXY_HOST` | `portForwards.portOrig` | &rarr; | `portForwards.name` | `portForwards.portDest` |    
+    | `AEM_PROXY_HOST` | `portForwards.portOrig` | &rarr; | `portForwards.name` | `portForwards.portDest` |
 
 1. For each environment, validate the egress rules are in effect using the Cloud Manager API [getEnvironmentAdvancedNetworkingConfiguration](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/) operation.
 
@@ -242,14 +242,14 @@ When creating HTTP/HTTPS connections from AEM, when using dedicated egress IP ad
 
 When creating non-HTTP/HTTPS connections (ex. SQL, SMTP, and so on) from AEM, the connection must be made through a special host name provided by AEM.
 
-| Variable name | Use | Java&trade; code | OSGi configuration | 
+| Variable name | Use | Java&trade; code | OSGi configuration |
 | - |  - | - | - |
 | `AEM_PROXY_HOST` | Proxy host for non-HTTP/HTTPS connections | `System.getenv("AEM_PROXY_HOST")` | `$[env:AEM_PROXY_HOST]` |
 
 
 Connections to external services are then called through the `AEM_PROXY_HOST` and the mapped port (`portForwards.portOrig`), which AEM then routes to the mapped external hostname (`portForwards.name`) and port (`portForwards.portDest`).
 
-| Proxy host  | Proxy port |  | External host | External port | 
+| Proxy host  | Proxy port |  | External host | External port |
 |---------------------------------|----------|----------------|------------------|----------|
 | `AEM_PROXY_HOST` | `portForwards.portOrig` | &rarr; | `portForwards.name` | `portForwards.portDest` |
 

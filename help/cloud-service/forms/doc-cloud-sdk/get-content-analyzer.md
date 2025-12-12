@@ -31,64 +31,64 @@ package com.aemforms.doccloud.core.impl;
 import com.google.gson.JsonObject;
 
 public class GetContentAnalyser {
-	public static String getContentAnalyserRequest(String fileName)
-	{
-		JsonObject outerWrapper = new JsonObject();
-		
-		
-		JsonObject documentIn = new JsonObject();
-		documentIn.addProperty("cpf:location", "InputFile0");
+    public static String getContentAnalyserRequest(String fileName)
+    {
+        JsonObject outerWrapper = new JsonObject();
+        
+        
+        JsonObject documentIn = new JsonObject();
+        documentIn.addProperty("cpf:location", "InputFile0");
 
-		if(fileName.endsWith(".pptx"))
-		{
-			documentIn.addProperty("dc:format","application/vnd.openxmlformats-officedocument.presentationml.presentation");
-		}
+        if(fileName.endsWith(".pptx"))
+        {
+            documentIn.addProperty("dc:format","application/vnd.openxmlformats-officedocument.presentationml.presentation");
+        }
 
-		if(fileName.endsWith(".docx"))
-		{
-			
-			documentIn.addProperty("dc:format","application/vnd.openxmlformats-officedocument.wordprocessingml.document");
-		}
-		if(fileName.endsWith(".xlsx"))
-		{
-			documentIn.addProperty("dc:format","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
-		}
-		if(fileName.endsWith(".xml"))
-		{
-			documentIn.addProperty("dc:format","text/plain");
-		}
-		if(fileName.endsWith(".jpg"))
-		{
-			documentIn.addProperty("dc:format","image/jpeg");
-		}
+        if(fileName.endsWith(".docx"))
+        {
+            
+            documentIn.addProperty("dc:format","application/vnd.openxmlformats-officedocument.wordprocessingml.document");
+        }
+        if(fileName.endsWith(".xlsx"))
+        {
+            documentIn.addProperty("dc:format","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+        }
+        if(fileName.endsWith(".xml"))
+        {
+            documentIn.addProperty("dc:format","text/plain");
+        }
+        if(fileName.endsWith(".jpg"))
+        {
+            documentIn.addProperty("dc:format","image/jpeg");
+        }
 
-		JsonObject cpfinputs = new JsonObject();
-		cpfinputs.add("documentIn", documentIn);
-		
-		
-		//documentInWrapper.add("documentIn",documentIn);
-		JsonObject cpfengine = new JsonObject();
-		cpfengine.addProperty("repo:assetId", "urn:aaid:cpf:Service-1538ece812254acaac2a07799503a430");
-		
-		JsonObject documentOut = new JsonObject();
-		
-		documentOut.addProperty("cpf:location", "multipartLabelOut");
-		documentOut.addProperty("dc:format", "application/pdf");
-		JsonObject documentOutWrapper = new JsonObject();
-		documentOutWrapper.add("documentOut",documentOut);
-	
-		outerWrapper.add("cpf:inputs",cpfinputs);
-		outerWrapper.add("cpf:engine", cpfengine);
-		outerWrapper.add("cpf:outputs", documentOutWrapper);
-		System.out.println("The content Analyser is "+outerWrapper.toString());
-		
-		return outerWrapper.toString();
-		
-		
-		
-		
-		
-	}
+        JsonObject cpfinputs = new JsonObject();
+        cpfinputs.add("documentIn", documentIn);
+        
+        
+        //documentInWrapper.add("documentIn",documentIn);
+        JsonObject cpfengine = new JsonObject();
+        cpfengine.addProperty("repo:assetId", "urn:aaid:cpf:Service-1538ece812254acaac2a07799503a430");
+        
+        JsonObject documentOut = new JsonObject();
+        
+        documentOut.addProperty("cpf:location", "multipartLabelOut");
+        documentOut.addProperty("dc:format", "application/pdf");
+        JsonObject documentOutWrapper = new JsonObject();
+        documentOutWrapper.add("documentOut",documentOut);
+    
+        outerWrapper.add("cpf:inputs",cpfinputs);
+        outerWrapper.add("cpf:engine", cpfengine);
+        outerWrapper.add("cpf:outputs", documentOutWrapper);
+        System.out.println("The content Analyser is "+outerWrapper.toString());
+        
+        return outerWrapper.toString();
+        
+        
+        
+        
+        
+    }
 
 }
 

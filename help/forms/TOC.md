@@ -310,8 +310,7 @@ index: y
   + [Introduction to Workbench](aem-forms-workbench/workbench-introduction.md)
   + [Creating form process](aem-forms-workbench/workbench-creating-a-process.md)
   + [Debuggin process](aem-forms-workbench/workbench-recording-and-testing-process.md)
-+ Interactive Communications for Print Channel 
-{#ic-print-channel-tutorial}
++ Interactive Communications for Print Channel {#ic-print-channel-tutorial}
   + [1 - Introduction](ic-print-channel-tutorial/introduction.md)
   + [2 - Set up Tomcat](ic-print-channel-tutorial/set-up-tomcat.md)
   + [3 - Create Data Source](ic-print-channel-tutorial/create-data-source.md)

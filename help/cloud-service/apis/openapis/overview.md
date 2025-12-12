@@ -4,7 +4,7 @@ description: Learn about the OpenAPI-based AEM APIs, including authentication su
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
-role: Architect, Developer, Leader
+role: Developer, Leader
 level: Beginner
 doc-type: Article
 jira: KT-16515

@@ -7,7 +7,7 @@ feature: Migration
 jira: KT-5352
 thumbnail: kt-5352.jpg
 topic: Migration
-role: Architect, Developer
+role: Developer
 level: Beginner
 exl-id: 0cefc336-2a46-4a11-a734-ba1cb63c5cbe
 duration: 1062

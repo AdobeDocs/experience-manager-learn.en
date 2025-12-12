@@ -4,7 +4,7 @@ description: Learn how to block DoS, DDoS and sophisticated attacks using traffi
 version: Experience Manager as a Cloud Service
 feature: Security, Operations
 topic: Security, Administration, Performance
-role: Admin, Architect
+role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
 duration: 436

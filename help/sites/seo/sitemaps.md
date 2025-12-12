@@ -31,7 +31,7 @@ AEM's sitemap supports absolute URL's by using [Sling mapping](https://sling.apa
 
 An example Sling mapping node definition for `https://wknd.com` can be defined under `/etc/map/https` as follows:
 
-| Path | Property name | Property type | Property value | 
+| Path | Property name | Property type | Property value |
 |------|----------|---------------|-------|
 | `/etc/map/https/wknd-site` | `jcr:primaryType` | String | `nt:unstructured` |
 | `/etc/map/https/wknd-site` | `sling:internalRedirect` | String | `/content/wknd/(.*)` |

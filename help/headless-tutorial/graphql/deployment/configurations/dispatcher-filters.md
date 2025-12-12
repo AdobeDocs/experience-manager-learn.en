@@ -4,7 +4,7 @@ description: Learn how to configure AEM Publish Dispatcher filters for use with 
 version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
-role: Developer, Architect
+role: Developer
 level: Intermediate
 jira: KT-10829
 thumbnail: kt-10829.jpg
@@ -29,7 +29,7 @@ The AEM Publish Dispatcher filter configuration defines the URL patterns allowed
 
 | Client connects to                        | AEM Author | AEM Publish   | AEM Preview   |
 |------------------------------------------:|:----------:|:-------------:|:-------------:|
-| Requires Dispatcher filters configuration | &#10008;   | &#10004;      | &#10004;      | 
+| Requires Dispatcher filters configuration | &#10008;   | &#10004;      | &#10004;      |
 
 Add an `allow` rule with the URL pattern `/graphql/execute.json/*`, and ensure the file ID (for example `/0600`, is unique in the example farm file). 
 This allows HTTP GET request to the persisted query endpoint, such as `HTTP GET /graphql/execute.json/wknd-shared/adventures-all` through to AEM Publish.

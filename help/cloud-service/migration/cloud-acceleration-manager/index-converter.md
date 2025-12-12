@@ -4,7 +4,7 @@ description: Learn how the Index Converter automatically converts existing AEM i
 version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-8665
 thumbnail: 336696.jpeg

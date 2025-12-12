@@ -4,7 +4,7 @@ description: Learn about AEM as a Cloud Service's advanced networking options.
 version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Integrations, Security
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-9354
 thumbnail: KT-9354.png

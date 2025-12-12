@@ -6,7 +6,7 @@ version: Experience Manager as a Cloud Service
 jira: KT-4260
 thumbnail: 32034.jpg
 topic: Architecture
-role: Architect, Developer
+role: Developer
 level: Beginner
 exl-id: bb13fc39-fcb7-4241-8504-8ff999a6caa2
 duration: 190

@@ -6,7 +6,7 @@ feature: User and Groups
 doc-type: Technical Video
 jira: KT-781
 topic: Architecture
-role: Architect
+role: Developer
 level: Experienced
 exl-id: 52dd8a3f-6461-4acb-87ca-5dd9567d15a6
 last-substantial-update: 2022-10-01

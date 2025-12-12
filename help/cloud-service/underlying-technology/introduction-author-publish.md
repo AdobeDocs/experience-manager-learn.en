@@ -7,7 +7,7 @@ jira: KT-4639
 thumbnail: 32033.jpg
 feature: Publishing
 topic: Architecture
-role: Architect, Developer
+role: Developer
 level: Beginner
 exl-id: 586d982e-0128-47a1-b945-7d99298db3fd
 duration: 365

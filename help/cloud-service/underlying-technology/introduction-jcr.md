@@ -7,7 +7,7 @@ jira: KT-4643
 thumbnail: 32030.jpg
 topic: Architecture
 feature: JCR
-role: Architect, Developer
+role: Developer
 level: Beginner
 exl-id: 1e419597-3f60-4110-bafd-a4acb0fad7a0
 duration: 321

@@ -4,7 +4,7 @@ description: Learn how to set up and use flexible port egress to support externa
 version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-9350
 thumbnail: KT-9350.jpeg
@@ -164,7 +164,7 @@ With the flexible port egress created, you can now configure the port forwarding
 
     For each `portForwards` mapping, the advanced networking defines the following forwarding rule:
 
-    | Proxy host  | Proxy port |  | External host | External port | 
+    | Proxy host  | Proxy port |  | External host | External port |
     |---------------------------------|----------|----------------|------------------|----------|
     | `AEM_PROXY_HOST` | `portForwards.portOrig` | &rarr; | `portForwards.name` | `portForwards.portDest` |
 
@@ -205,7 +205,7 @@ When creating HTTP/HTTPS connections to non-standard ports (not-80/443) from AEM
 
 AEM provides two sets of special Java&trade; system variables that map to AEM's HTTP/HTTPS proxies.
 
-| Variable name | Use | Java&trade; code | OSGi configuration | 
+| Variable name | Use | Java&trade; code | OSGi configuration |
 | - |  - | - | - |
 | `AEM_PROXY_HOST` | Proxy host for both HTTP/HTTPS connections | `System.getenv().getOrDefault("AEM_PROXY_HOST", "proxy.tunnel")` | `$[env:AEM_PROXY_HOST;default=proxy.tunnel]` |
 | `AEM_HTTP_PROXY_PORT` | Proxy port for HTTPS connections (set fallback to `3128`) | `System.getenv().getOrDefault("AEM_HTTP_PROXY_PORT", 3128)` | `$[env:AEM_HTTP_PROXY_PORT;default=3128]` |
@@ -237,14 +237,14 @@ When making HTTP/HTTPS calls to external services on non-standard ports, no corr
 
 When creating non-HTTP/HTTPS connections (ex. SQL, SMTP, and so on) from AEM, the connection must be made through a special host name provided by AEM.
 
-| Variable name | Use | Java&trade; code | OSGi configuration | 
+| Variable name | Use | Java&trade; code | OSGi configuration |
 | - |  - | - | - |
 | `AEM_PROXY_HOST` | Proxy host for non-HTTP/HTTPS connections | `System.getenv().getOrDefault("AEM_PROXY_HOST", "proxy.tunnel")` | `$[env:AEM_PROXY_HOST;default=proxy.tunnel]` |
 
 
 Connections to external services are then called through the `AEM_PROXY_HOST` and the mapped port (`portForwards.portOrig`), which AEM then routes to the mapped external hostname (`portForwards.name`) and port (`portForwards.portDest`).
 
-| Proxy host  | Proxy port |  | External host | External port | 
+| Proxy host  | Proxy port |  | External host | External port |
 |---------------------------------|----------|----------------|------------------|----------|
 | `AEM_PROXY_HOST` | `portForwards.portOrig` | &rarr; | `portForwards.name` | `portForwards.portDest` |
 

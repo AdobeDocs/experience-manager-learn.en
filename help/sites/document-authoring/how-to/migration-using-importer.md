@@ -4,7 +4,7 @@ description: Learn how to use and configure the AEM Importer tool to migrate sit
 version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
-role: Developer, User, Architect
+role: Developer, User
 level: Beginner, Intermediate
 doc-type: Technical Video
 duration: 156

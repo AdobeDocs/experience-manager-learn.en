@@ -3,7 +3,7 @@ title: Chapter 1 - Dispatcher Concepts, Patterns and Antipatterns
 description: This chapter provides a brief introduction over the Dispatcher's history and mechanics and discusses how this influences how an AEM developer would design his components.
 feature: Dispatcher
 topic: Architecture
-role: Architect
+role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: 3bdb6e36-4174-44b5-ba05-efbc870c3520

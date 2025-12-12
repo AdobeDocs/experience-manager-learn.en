@@ -4,7 +4,7 @@ description: Learn how content authors can perform Photoshop actions within AEM 
 version: Experience Manager as a Cloud Service
 topic: Content Management
 feature: Asset Processing, Renditions
-role: Leader, Architect, Developer, Admin, User
+role: Leader, Developer, Admin, User
 level: Beginner
 jira: KT-8074
 thumbnail: 336539.jpeg

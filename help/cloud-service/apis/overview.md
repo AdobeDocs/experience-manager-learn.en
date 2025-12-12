@@ -4,7 +4,7 @@ description: Learn about the different types of APIs in Adobe Experience Manager
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Content Management
-role: Architect, Developer, Leader
+role: Developer, Leader
 level: Beginner
 doc-type: Article
 jira: KT-17425

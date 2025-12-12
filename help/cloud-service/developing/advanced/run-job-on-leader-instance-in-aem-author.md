@@ -4,7 +4,7 @@ description: Learn how to run a job on the leader instance in AEM as a Cloud Ser
 version: Experience Manager as a Cloud Service
 topic: Development
 feature: OSGI, Cloud Manager
-role: Architect, Developer
+role: Developer
 level: Intermediate, Experienced
 doc-type: Article
 duration: 0

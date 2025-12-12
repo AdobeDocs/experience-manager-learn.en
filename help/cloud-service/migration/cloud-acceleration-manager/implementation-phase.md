@@ -4,7 +4,7 @@ description: Review and understand the major implementation phases or moving to 
 version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-8660
 thumbnail: 336691.jpeg

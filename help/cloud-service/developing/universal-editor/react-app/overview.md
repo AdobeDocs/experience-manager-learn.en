@@ -5,7 +5,7 @@ short-description: Learn how to edit the contents of a sample React app using Un
 version: Experience Manager as a Cloud Service
 feature: Developer Tools, Headless
 topic: Development, Content Management
-role: Architect, Developer
+role: Developer
 level: Intermediate
 doc-type: Tutorial
 duration: 87

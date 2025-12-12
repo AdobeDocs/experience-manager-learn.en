@@ -4,7 +4,7 @@ description: Learn about Cloud Manager for AEM as a Cloud Service, and its diffe
 version: Experience Manager as a Cloud Service
 feature: Cloud Manager
 topic: Migration, Upgrade
-role: Architect, Developer
+role: Developer
 level: Intermediate, Experienced
 jira: KT-8632
 thumbnail: 336961.jpeg

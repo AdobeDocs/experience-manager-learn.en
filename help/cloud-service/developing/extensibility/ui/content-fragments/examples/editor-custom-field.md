@@ -25,8 +25,8 @@ AEM UI extensions should be developed using the [Adobe React Spectrum](https://r
 This example replaces an existing filed in the Content Fragment Editor with a custom implementation.
 
 | AEM UI extended | Extension point |
-| ------------------------ | --------------------- | 
-| [Content Fragment Editor](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Custom form element rendering](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/custom-fields/) | 
+| ------------------------ | --------------------- |
+| [Content Fragment Editor](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Custom form element rendering](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/custom-fields/) |
 
 ## Example extension
 
