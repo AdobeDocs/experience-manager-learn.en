@@ -3,7 +3,7 @@ title: AEM Dispatcher Cache Tutorial
 description: The goal of this tutorial is to help you better understand how the Dispatcher works and how you can work with it.
 feature: Dispatcher
 topic: Architecture
-role: Architect
+role: Developer
 level: Beginner
 doc-type: Catalog
 exl-id: 9780870e-9ac6-46f9-abc4-87c9470ef7e7

@@ -3,7 +3,7 @@ title: Getting started with SPA Editor and Remote SPA  - Overview
 description: Welcome to the multi-part tutorial for developers looking to augment an existing Remote SPAs with editable AEM content using AEM SPA Editor.
 topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
-role: Developer, Architect
+role: Developer
 level: Beginner
 jira: KT-7630
 thumbnail: 333272.jpeg

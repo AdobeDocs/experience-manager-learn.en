@@ -4,7 +4,7 @@ description: A narrated walk-through of using  Cloud Acceleration Manager's tool
 version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-8668
 thumbnail: 336699.jpeg

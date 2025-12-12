@@ -3,7 +3,7 @@ title: Bootstrap the Remote SPA for SPA Editor
 description: Learn how to bootstrap a remote SPA for AEM SPA Editor compatibility.
 topic: Headless, SPA, Development
 feature: SPA Editor, APIs, Developing
-role: Developer, Architect
+role: Developer
 level: Beginner
 jira: KT-7633
 thumbnail: kt-7633.jpeg
@@ -123,7 +123,7 @@ When creating an editable SPA, it is best to set up an [internal proxy in the SP
         * @returns true if the SPA request should be re-routed to AEM
         */
         const toAEM = function(path, req) {
-            return path.startsWith('/content') || 
+            return path.startsWith('/content') ||
                 path.startsWith('/graphql') ||
                 path.endsWith('.model.json')
         }

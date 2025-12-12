@@ -7,7 +7,7 @@ jira: KT-4641
 thumbnail: 32032.jpg
 topic: Architecture
 feature: Sling Model
-role: Architect, Developer
+role: Developer
 level: Beginner
 exl-id: 92afc9c4-3d58-4787-86f6-46495d89c4d4
 duration: 242

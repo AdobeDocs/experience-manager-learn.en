@@ -24,9 +24,9 @@ import java.io.InputStream;
 
 import com.adobe.aemfd.docmanager.Document;
 
-public interface DocumentCloudSDKService {	
-	public Document getPDF(String location,String accessToken,String fileName);
-	
+public interface DocumentCloudSDKService {    
+    public Document getPDF(String location,String accessToken,String fileName);
+    
     public Document createPDFFromInputStream(InputStream is,String fileName);
 }
 ```

@@ -3,7 +3,7 @@ title: Configure AEM for SPA Editor and Remote SPA
 description: An AEM project is required to setup-supporting configuration and content requirements to allow AEM SPA Editor to author a Remote SPA.
 topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
-role: Developer, Architect
+role: Developer
 level: Beginner
 jira: KT-7631
 thumbnail: kt-7631.jpeg

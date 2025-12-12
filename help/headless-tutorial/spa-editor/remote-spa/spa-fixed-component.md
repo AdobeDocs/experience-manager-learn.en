@@ -3,7 +3,7 @@ title: Add editable fixed components to a Remote SPA
 description: Learn how to add editable fixed components to a remote SPA.
 topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
-role: Developer, Architect
+role: Developer
 level: Beginner
 jira: KT-7634
 thumbnail: kt-7634.jpeg

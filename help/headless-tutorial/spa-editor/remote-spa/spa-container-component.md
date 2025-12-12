@@ -3,7 +3,7 @@ title: Add editable React container components to a Remote SPA
 description: Learn how to add editable container components to a remote SPA that allow AEM authors drag and drop components into them.
 topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
-role: Developer, Architect
+role: Developer
 level: Beginner
 jira: KT-7635
 thumbnail: kt-7635.jpeg

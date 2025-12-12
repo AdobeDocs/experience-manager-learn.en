@@ -3,7 +3,7 @@ title: Add Editable Components to Remote SPA's Dynamic Routes
 description: Learn how to add editable components to dynamic routes in a remote SPA.
 topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
-role: Developer, Architect
+role: Developer
 level: Beginner
 jira: KT-7636
 thumbnail: kt-7636.jpeg

@@ -4,7 +4,7 @@ description: Learn about deployment considerations for server-to-server AEM Head
 version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
-role: Developer, Architect
+role: Developer
 level: Intermediate
 jira: KT-10798
 thumbnail: kt-10798.jpg

@@ -4,7 +4,7 @@ description: Learn how to enable the caching of HTTP responses in AEM as a Cloud
 version: Experience Manager as a Cloud Service
 feature: Operations, CDN Cache
 topic: Administration, Performance
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Beginner
 doc-type: Tutorial
 last-substantial-update: 2023-11-17

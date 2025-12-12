@@ -39,7 +39,7 @@ Note that `/apps`, `/libs` and `/oak:index` are immutable, meaning they cannot b
 + Double-clicking a file node in the left navigation, opens the file's content in the top right pane
 + Tap the Save All button in the top left to persist changed, or the down arrow next to Save All to Revert any unsaved changes.
 
-![CRXDE Lite - Debugging Content](./assets/crxde-lite/debugging-content.png)
+![CRXDE Lite - Debugging Content](/help/cloud-service/debugging/cloud-service/assets/crxde-lite/debugging-content.png)
 
 Making changes to mutable content at runtime in AEM as a Cloud Service development environments via CRXDE Lite must be done with care. 
 Any changes made directly to AEM via CRXDE Lite may be difficult to track and govern. As appropriate, ensure changes made via CRXDE Lite make their way back to the AEM project's mutable content packages (`ui.content`) and committed to Git, in order to ensure the issue is resolved. Ideally, all application content changes originate from the code base and flow into AEM via deployments, rather than making changes directly to the AEM via CRXDE Lite.

@@ -1,7 +1,7 @@
 ---
 title: Caching page variants with AEM as a Cloud Service
 description: Learn how to set up and use AEM as a cloud service to support caching page variants.
-role: Architect, Developer
+role: Developer
 topic: Development
 feature: CDN Cache, Dispatcher
 exl-id: fdf62074-1a16-437b-b5dc-5fb4e11f1355

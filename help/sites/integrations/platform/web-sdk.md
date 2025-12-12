@@ -4,7 +4,7 @@ description: Learn how to integrate AEM Sites as a Cloud Service with Experience
 version: Experience Manager as a Cloud Service
 feature: Integrations
 topic: Integrations, Architecture
-role: Admin, Architect, Data Architect, Developer
+role: Admin, Developer
 level: Beginner, Intermediate
 doc-type: Tutorial
 last-substantial-update: 2023-04-26

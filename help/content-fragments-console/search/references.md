@@ -4,7 +4,7 @@ description: Learn how AEM's Content Fragment Console and Editor make it easy to
 version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Content Management
-role: Data Architect, User
+role: Developer, User
 level: Beginner
 doc-type: Feature Video
 last-substantial-update: 2024-01-10

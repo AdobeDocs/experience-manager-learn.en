@@ -4,7 +4,7 @@ description: Learn about deployment considerations for Web Component/pure JS-bas
 version: Experience Manager as a Cloud Service
 feature: GraphQL API
 topic: Headless, Content Management
-role: Developer, Architect
+role: Developer
 level: Intermediate
 jira: KT-10797
 thumbnail: kt-10797.jpg

@@ -4,7 +4,7 @@ description: Learn about AEM eventing, what it is, why and when to use it and ex
 version: Experience Manager as a Cloud Service
 feature: Developing, App Builder
 topic: Development, Architecture, Content Management
-role: Architect, Developer
+role: Developer
 level: Beginner
 doc-type: Tutorial
 duration: 540

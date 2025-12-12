@@ -4,7 +4,7 @@ description: Learn how to use Content Fragment preview to all authors to quickly
 version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Headless, Content Management, Development
-role: Architect, Developer
+role: Developer
 level: Beginner
 doc-type: Tutorial
 last-substantial-update: 2023-03-17

@@ -5,7 +5,7 @@ sub-product: Experience Manager Cloud Manager, Experience Manager
 doc-type: Feature Video
 topic: Architecture
 feature: Cloud Manager
-role: Architect
+role: Developer
 level: Beginner
 exl-id: 53279cbb-70c8-4319-b5bb-9a7d350a7f72
 last-substantial-update: 2022-05-10

@@ -3,7 +3,7 @@ title: Quick setup SPA Editor and Remote SPA
 description: Learn how to get up and running with a remote SPA and AEM SPA Editor in 15 mins!
 topic: Headless, SPA, Development
 feature: SPA Editor, Core Components, APIs, Developing
-role: Developer, Architect
+role: Developer
 level: Beginner
 jira: KT-7629
 thumbnail: 333181.jpg

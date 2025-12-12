@@ -3,7 +3,7 @@ title: Chapter 2 - Dispatcher infrastructure
 description: Understand the publish and dispatcher topology. Learn about the most common topologies and setups.
 feature: Dispatcher
 topic: Architecture
-role: Architect
+role: Developer
 level: Beginner
 doc-type: Tutorial
 exl-id: a25b6f74-3686-40a9-a148-4dcafeda032f

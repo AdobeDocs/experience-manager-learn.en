@@ -4,7 +4,7 @@ description: Learn how to set up and configure the Workfront for Experience Mana
 version: Experience Manager as a Cloud Service
 topic: Content Management, Integrations
 feature: Asset Management
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Beginner
 jira: KT-9717
 thumbnail: 340331.jpeg

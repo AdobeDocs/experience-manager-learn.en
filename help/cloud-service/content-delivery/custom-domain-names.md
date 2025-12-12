@@ -4,7 +4,7 @@ description: Learn how to manage and implement custom domain names for your AEM 
 version: Experience Manager as a Cloud Service
 feature: Cloud Manager, Custom Domain Names
 topic: Architecture, Migration
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
 duration: 130
@@ -55,9 +55,9 @@ Typically, customers use a custom domain name for Prod environments (AEM as a Cl
 
 | AEM service type  | Custom domain supported? |
 |---------------------|:-----------------------:|
-| Author              | &#10008;                | 
-| Preview             | &#10004;                | 
-| Publish             | &#10004;                | 
+| Author              | &#10008;                |
+| Preview             | &#10004;                |
+| Publish             | &#10004;                |
 
 ## Implementing domain names
 

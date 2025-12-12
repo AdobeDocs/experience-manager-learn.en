@@ -4,7 +4,7 @@ description: Learn how to receive AEM Events using Adobe I/O Runtime action and 
 version: Experience Manager as a Cloud Service
 feature: Developing, App Builder
 topic: Development, Architecture, Content Management
-role: Architect, Developer
+role: Developer
 level: Beginner
 doc-type: Tutorial
 duration: 457

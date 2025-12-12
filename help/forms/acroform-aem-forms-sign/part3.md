@@ -1,7 +1,7 @@
 ---
 title: Acroforms with AEM Forms
 description: Part 3 of a tutorial integrating Acroforms with AEM Forms. Test the workflow and Adaptive Form on your system.
-feature: adaptive-forms
+feature: Adaptive Forms
 doc-type: Tutorial
 version: Experience Manager 6.5
 badgeIntegration: label="Integration" type="positive"

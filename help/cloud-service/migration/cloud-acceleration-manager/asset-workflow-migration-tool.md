@@ -4,7 +4,7 @@ description: Learn how the Asset Workflow Migration tool helps migrate your exis
 version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-8666
 thumbnail: 336697.jpeg

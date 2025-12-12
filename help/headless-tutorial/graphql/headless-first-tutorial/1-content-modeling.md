@@ -49,8 +49,8 @@ Throughout the tutorial, we'll provide explanations, code examples, and practica
     | Datatype | Name | Required | Options |
     |----------|------|----------|---------|
     | Content Reference | Asset | yes | Add a default image if you'd like. Ex: /content/dam/wknd-headless/assets/AdobeStock_307513975.mp4 |
-    | Single line text | Title | yes |
-    | Single line text | Pre-Title | no |
+    | Single line text | Title | yes | |
+    | Single line text | Pre-Title | no | |
     | Multi line text | Description | no | Ensure that default type is rich text |
     | Enumeration | Style | yes | Render as dropdown. Options are Hero -> hero and Featured -> featured |
 

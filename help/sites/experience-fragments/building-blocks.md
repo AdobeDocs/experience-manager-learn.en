@@ -6,7 +6,7 @@ version: Experience Manager as a Cloud Service
 feature: Experience Fragments
 topic: Content Management
 level: Beginner, Intermediate
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 doc-type: Feature Video
 jira: KT-660
 thumbnail: 331786.jpg

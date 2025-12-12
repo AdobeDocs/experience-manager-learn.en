@@ -16,12 +16,9 @@ In this article, we will take a look at using Google's Geolocation API to popula
 
 The following steps were followed to use the Geolocation API in Adaptive Forms.
 
- 1. [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) from Google to use the Google Maps platform. You can get a trial key which is valid for 1 year.
-
+1. [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) from Google to use the Google Maps platform. You can get a trial key which is valid for 1 year.
 1. Adaptive Form fragment was created with fields to hold the current address
-
 1. The Geolocation API was invoked on the click event of the image object of Adaptive Form
-
 1. The JSON data returned by the API call was parsed and the Adaptive Form fields values were set accordingly.
 
 ```javascript
@@ -89,7 +86,11 @@ The JSON returned by the API is then parsed to set the Adaptive Form fields.
 To get this capability on to your server, please follow the following steps
 
 * Install and start  AEM  Forms server. 
->![NOTE] This capability was tested on AEM Forms 6.3 and above
+
+  >[!NOTE]
+  >
+  >This capability was tested on AEM Forms 6.3 and above
+
 * [Get  Google  API Key](https://developers.google.com/maps/documentation/javascript/get-api-key).
 * [Import the assets related to this article into AEM.](assets/geolocationapi.zip) 
 * [Open the Adaptive Form fragment in edit mode.](http://localhost:4502/editor.html/content/forms/af/currentaddressfragment.html)

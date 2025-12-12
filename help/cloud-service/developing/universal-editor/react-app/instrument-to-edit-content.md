@@ -4,7 +4,7 @@ description: Learn how to instrument React app to edit the content using Univers
 version: Experience Manager as a Cloud Service
 feature: Developer Tools, Headless
 topic: Development, Content Management
-role: Architect, Developer
+role: Developer
 level: Intermediate
 doc-type: Tutorial
 duration: 421

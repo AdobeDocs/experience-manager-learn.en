@@ -4,7 +4,7 @@ description: Learn how to implement pipeline-free URL redirects in AEM as a Clou
 version: Experience Manager as a Cloud Service
 feature: Operations, Dispatcher
 topic: Development, Content Management, Administration
-role: Architect, Developer, User
+role: Developer, User
 level: Beginner, Intermediate
 doc-type: Article
 duration: 0

@@ -4,7 +4,7 @@ description: Learn how to use Asset Share Common's asset kit to generate bespoke
 version: Experience Manager as a Cloud Service
 topic: Content Management
 feature: Asset Distribution
-role: Admin, Architect, Developer, User
+role: Admin, Developer, User
 level: Intermediate
 doc-type: Feature Video
 last-substantial-update: 2023-02-13

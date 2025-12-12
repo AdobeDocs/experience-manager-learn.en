@@ -4,7 +4,7 @@ description: Learn how to configure AEM as a Cloud Service to connect with an em
 version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Security
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-9353
 thumbnail: KT-9353.jpeg

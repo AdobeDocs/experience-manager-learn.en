@@ -39,7 +39,7 @@ Set the CSS properties for the default state as shown below
 | Text | Font Weight| Bold |
 | Text | Color | #FFF |
 |Text | Line Height| 3 |
-|Text  | Text Align | Left | 
+|Text  | Text Align | Left |
 |Background| Color | #056dae |
 
 Save your changes
@@ -54,7 +54,7 @@ Make sure you are in the Active state and style the following CSS properties
 | Text | Font Weight| Bold |
 | Text | Color | #FFF |
 |Text | Line Height| 3 |
-|Text  | Text Align | Left | 
+|Text  | Text Align | Left |
 |Background| Color | #056dae |
 
 Style the background image as shown in the screen shot below
@@ -75,7 +75,7 @@ Make sure you are in the visited state and style the following properties
 | Text | Font Weight| Bold |
 | Text | Color | #FFF |
 |Text | Line Height| 3 |
-|Text  | Text Align | Left | 
+|Text  | Text Align | Left |
 |Background| Color | #056dae |
 
 Style the background image as shown in the screen shot below

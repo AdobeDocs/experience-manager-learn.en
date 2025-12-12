@@ -4,7 +4,7 @@ description: Learn how AEM's Code Refactoring Tools help automate the conversion
 version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-8662
 thumbnail: 336693.jpeg

@@ -7,7 +7,7 @@ jira: KT-6871
 thumbnail: 26318.jpg
 topic: Architecture
 feature: Cloud Manager, Environments
-role: Architect, Developer, Admin
+role: Developer, Admin
 level: Beginner
 exl-id: f4311522-b8fb-4375-9ecc-73e0207a63b2
 duration: 192

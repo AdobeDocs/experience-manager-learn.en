@@ -4,7 +4,7 @@ description: Learn about authentication in AEM as a Cloud Service's.
 version: Experience Manager as a Cloud Service
 feature: Security
 topic: Development, Integrations, Security
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-10436
 thumbnail: KT-10436.png
@@ -16,7 +16,7 @@ duration: 28
 
 AEM as a Cloud Service supports multiple of authentication options and varies by service type. 
 
-|                       | AEM Author | AEM Publish | 
+|                       | AEM Author | AEM Publish |
 |-----------------------|:----------:|:-----------:|
 | [Adobe IMS](../accessing/overview.md) |  &#10004;  | &#10004;    |
 | [OpenID Connect (OIDC)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/open-id-connect-support-for-aem-as-a-cloud-service-on-publish-tier) | &#10008;  | &#10004;    |

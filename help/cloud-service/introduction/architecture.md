@@ -1,7 +1,7 @@
 ---
 title: Architecture of AEM as a Cloud Service
 description: Explore the underlying architecture and important pieces of AEM as a Cloud Service with Edge Delivery Services.
-role: Architect, Developer
+role: Developer
 level: Beginner
 type: Tutorial
 topic: Architecture

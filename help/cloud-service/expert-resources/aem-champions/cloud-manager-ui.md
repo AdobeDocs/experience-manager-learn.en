@@ -4,7 +4,7 @@ description: Check out these tips about how to use Cloud Manager's UI from AEM c
 version: Experience Manager as a Cloud Service
 feature: Cloud Manager
 topic: Administration
-role: Admin, Architect
+role: Admin, Developer
 level: Beginner
 doc-type: Value Video
 last-substantial-update: 2023-05-11

@@ -34,8 +34,8 @@ To keep things simple, this example uses the [Adobe React Spectrum](https://reac
 This example extends to extension point `rte` to add a widget to the RTE in the Content Fragment Editor.
 
 | AEM UI extended | Extension point |
-| ------------------------ | --------------------- | 
-| [Content Fragment Editor](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Rich Text Editor Widgets](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-widgets/) | 
+| ------------------------ | --------------------- |
+| [Content Fragment Editor](https://developer.adobe.com/uix/docs/services/aem-cf-editor/) | [Rich Text Editor Widgets](https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-widgets/) |
 
 ## Example extension
 

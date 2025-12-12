@@ -4,7 +4,7 @@ description: Learn how to drive AEM Tags use on assets via Workfront data, use p
 version: Experience Manager as a Cloud Service
 topic: Content Management, Integrations
 feature: Asset Management
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Beginner
 jira: KT-9720
 thumbnail: 340333.jpeg

@@ -15,7 +15,9 @@ duration: 239
 
 Starting with AEM Forms 6.4, we now have the ability to use Form Data Model Service as part of AEM Workflow. The following video walks thru the steps needed to configure Form Data Model step in AEM Workflow
 
->![NOTE]The capability demonstrated in this video requires AEM Forms 6.5.1
+>[!NOTE]
+>
+>The capability demonstrated in this video requires AEM Forms 6.5.1
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/28145?quality=12&learn=on)
@@ -24,7 +26,7 @@ To test this capability on your server, follow the below instructions
 
 * Setup tomcat with SampleRest.war file as described [here](https://helpx.adobe.com/experience-manager/kt/forms/using/preparing-datasource-for-form-data-model-tutorial-use.html).The war file deployed in Tomcat has the code to return the applicant's credit score.The credit score is random number between 200 and 800
 
-* [ Import the assets into AEM using package manager](assets/aem65-loanapplication.zip)
+* [Import the assets into AEM using package manager](assets/aem65-loanapplication.zip)
 * The package contains the following:
 
   * Workflow model which uses FDM step.
@@ -32,5 +34,6 @@ To test this capability on your server, follow the below instructions
   * Adaptive form to trigger the workflow on submission.
 * Open the [MortgageApplicationForm](http://localhost:4502/content/dam/formsanddocuments/loanapplication/jcr:content?wcmmode=disabled). Fill in the details and submit. On the form submission the [loanapplication workflow](http://http://localhost:4502/editor.html/conf/global/settings/workflow/models/LoanApplication2.html) is triggered.
 
-![ workflow ](assets/invokefdm651.PNG).
- The workflow utilizes Or Split component to route the application to admin if the credit score is over 500. If the credit score is less than 500 the application is routed to cavery.
+![workflow](assets/invokefdm651.PNG).
+
+The workflow utilizes Or Split component to route the application to admin if the credit score is over 500. If the credit score is less than 500 the application is routed to cavery.

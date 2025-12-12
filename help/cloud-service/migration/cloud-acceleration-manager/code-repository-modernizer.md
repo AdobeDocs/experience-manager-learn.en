@@ -4,7 +4,7 @@ description: Learn how the Core Repository Modernizer automatically updates exis
 version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-8663
 thumbnail: 336694.jpeg

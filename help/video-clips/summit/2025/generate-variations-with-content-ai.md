@@ -4,7 +4,7 @@ description: See how Content AI enables you to create engaging content variation
 cloud: Experience Cloud
 solution: Experience Manager
 feature-set: Experience Manager
-role: Developer, Leader, Admin, Architect
+role: Developer, Leader, Admin
 level: Beginner, Intermediate, Experienced
 type: Event
 doc-type: Video Clip

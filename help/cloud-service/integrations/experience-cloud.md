@@ -4,7 +4,7 @@ description: Learn about AEM as a Cloud Service's supported integrations with ot
 version: Experience Manager as a Cloud Service
 feature: Integrations
 topic: Integrations
-role: Leader, Architect, Admin, Developer
+role: Leader, Admin, Developer
 level: Beginner
 jira: KT-10718
 thumbnail: KT-10718.png
@@ -20,7 +20,7 @@ duration: 135
 Learn about AEM as a Cloud Service's supported integrations with other Adobe Experience Cloud products. 
 Click on the Experience Cloud product for documentation on how to configure and use the integrations.
 
-|                                                                   | AEM Sites | AEM Assets | AEM Forms | 
+|                                                                   | AEM Sites | AEM Assets | AEM Forms |
 |-------------------------------------------------------------------|:---------:|:----------:|:---------:|
 | [Acrobat Sign](#adobe-acrobat-sign)                               |           |            | &#10004; |
 | Advertising                                                       |           |            |          |
@@ -28,7 +28,7 @@ Click on the Experience Cloud product for documentation on how to configure and 
 | Audience Manager                                                  |           |            |          |
 | Campaign Classic                                                  |           |            |          |
 | Campaign Standard                                                 |           |            |          |
-| [Commerce](#adobe-commerce)                                       | &#10004;  | &#10004;   |          | 
+| [Commerce](#adobe-commerce)                                       | &#10004;  | &#10004;   |          |
 | Customer Journey Analytics                                        |           |            |          |
 | [Experience Platform tags](#adobe-experience-platform-tags)       | &#10004;  |            | &#10004; |
 | [Journey Optimizer](#adobe-journey-optimizer)                     |           | &#10004;   |          |

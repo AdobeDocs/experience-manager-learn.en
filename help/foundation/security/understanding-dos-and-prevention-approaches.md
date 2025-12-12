@@ -4,7 +4,7 @@ description: Learn how to prevent and mitigate DoS and DDoS attacks against AEM.
 version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Security
 topic: Security, Development
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Beginner
 doc-type: Article
 duration: 75

@@ -4,7 +4,7 @@ description: Learn about the basic features and functionalities of AEM as a Clou
 version: Experience Manager as a Cloud Service
 feature: Content Fragments
 topic: Content Management
-role: Data Architect, User
+role: Developer, User
 level: Beginner
 last-substantial-update: 2022-09-22
 jira: KT-11164

@@ -2,7 +2,7 @@
 title: Traversal warnings in AEM as a Cloud Service
 description: Learn how to mitigate traversal warnings in AEM as a Cloud Service.
 feature: Migration
-role: Architect, Developer
+role: Developer
 level: Beginner
 jira: KT-10427
 hidefromtoc: yes

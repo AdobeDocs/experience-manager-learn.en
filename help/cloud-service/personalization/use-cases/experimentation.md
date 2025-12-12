@@ -4,7 +4,7 @@ description: Learn how to test different content variations in AEM as a Cloud Se
 version: Experience Manager as a Cloud Service
 feature: Personalization
 topic: Personalization,Content Management, Integrations
-role: Developer, Architect, Leader
+role: Developer, Leader
 level: Beginner
 doc-type: Tutorial
 last-substantial-update: 2025-08-07

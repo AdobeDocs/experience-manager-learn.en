@@ -4,7 +4,7 @@ description: Learn how how the Dispatcher Converter automatically updates existi
 version: Experience Manager as a Cloud Service
 feature: Migration
 topic: Migration, Upgrade
-role: Architect, Developer
+role: Developer
 level: Intermediate
 jira: KT-8664
 thumbnail: 336695.jpeg

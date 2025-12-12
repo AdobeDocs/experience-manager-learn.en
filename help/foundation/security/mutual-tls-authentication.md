@@ -4,7 +4,7 @@ description: Learn how to make HTTPS calls from AEM to web APIs that require Mut
 feature: Security
 version: Experience Manager 6.5, Experience Manager as a Cloud Service
 topic: Security, Development
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Experienced
 jira: KT-13881
 thumbnail: KT-13881.png

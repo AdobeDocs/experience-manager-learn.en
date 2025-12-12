@@ -20,8 +20,8 @@ When using the Assembler service, use an XML-based language called Document Desc
 ```xml
 <DDX xmlns="http://ns.adobe.com/DDX/1.0/">
 <PDF result="doc3.pdf"> 
-	<PDF source="CA-Drivers-Handbook.pdf"/>
- 	<PDF source="CA-Parent-Teen-Handbook.pdf"/>
+  <PDF source="CA-Drivers-Handbook.pdf"/>
+  <PDF source="CA-Parent-Teen-Handbook.pdf"/>
   </PDF>
 </DDX>
 ```

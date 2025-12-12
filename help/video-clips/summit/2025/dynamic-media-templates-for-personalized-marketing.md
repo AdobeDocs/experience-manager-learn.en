@@ -4,7 +4,7 @@ description: Explore how Dynamic Media Templates enable marketers to create live
 cloud: Experience Cloud
 solution: Experience Manager Assets
 feature-set: Experience Manager Assets
-role: User, Leader, Admin, Developer, Architect
+role: User, Leader, Admin, Developer
 level: Beginner, Intermediate, Experienced
 type: Event
 doc-type: Video Clip
