@@ -138,6 +138,7 @@ team: TM
   + [Dynamic Media overview](dynamic-media/dynamic-media-overview-feature-video-use.md)
   + [Dynamic Media Classic Desktop application](dynamic-media/dynamic-media-classic-desktop-application.md)
   + Images {#images}
+    + [URL syntax and Image Presets](dynamic-media/dynamic-media-urls-and-image-presets.md)
     + [Image automation](dynamic-media/dynamic-media-image-automation.md)
     + [Dynamic Media Templates](dynamic-media/dynamic-media-templates.md)
     + [Dynamic Media snapshot](dynamic-media/dynamic-media-snapshot.md)

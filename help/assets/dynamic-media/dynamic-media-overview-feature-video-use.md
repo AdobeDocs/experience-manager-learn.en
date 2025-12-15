@@ -99,18 +99,9 @@ This video describes going beyond resizing images to take advantage of features 
 
 Balance jpeg image quality against the resulting file size (in kilobytes) to enhance page load speed, using 2 commands to adjust jpeg compression settings. QLT defines the image quality by adjusting jpeg compression quality settings. JPEG Size command allows you to designate what file size needs to be achieved using compression.
 
-## Closed Captioning
+## Closed captioning
 
 >[!VIDEO](https://video.tv.adobe.com/v/28074?quality=12&learn=on)
 
 Easily add Closed Captioning to Dynamic Media video by appending the Copy URL to point to an additional Closed Captioning file document, a web.VTT sidecar file, containing the CC info for any video.
 
-## Image Sharpening
-
-This video covers why sharpening an image is critical to maintaining image fidelity and how to use advanced settings to craft the perfect image.
-
-<!--
-This link is broken
-
->[!VIDEO](https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/VideoViewer.html?asset=%2Fcontent%2Fdam%2Fdm-public-facing-upgrade-portal-video%2F04_DynamicImagery_AdvancedSettings_071917_BH.mp4&config=/etc/dam/presets/viewer/Video_social&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&posterimage=/content/dam/dm-public-facing-upgrade-portal-video/04_DynamicImagery_AdvancedSettings_071917_BH.mp4)
--->
