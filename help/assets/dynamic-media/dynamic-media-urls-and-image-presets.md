@@ -16,3 +16,5 @@ jira: KT-20006
 Explore the AEM Assets Dynamic Media URL syntax and learn how to maximize your value using Image Presets. Enhance your asset management capabilities and improve your workflow efficiency.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3477924/?learn=on&enablevpops)
+
+Watch this short video on [how to create image presets in AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/tutorials/creating-image-presets).
