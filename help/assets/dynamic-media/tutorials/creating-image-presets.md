@@ -16,3 +16,5 @@ duration: 93
 This video walks through the steps to create Image Presets in Dynamic Media.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335459?quality=12&learn=on)
+
+Learn the best practices for creating Dynamic Media URLs and Image Presets in AEM Assets, and understand how it all works! [Watch the video here](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-urls-and-image-presets).
