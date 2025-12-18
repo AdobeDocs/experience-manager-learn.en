@@ -44,10 +44,11 @@ To complete this tutorial, it is recommended you have AEM Administrator access t
 
 ## Let's get started!
 
-Start the tutorial with [Defining Content Fragment Models](content-fragment-models.md).
+Start the tutorial with [defining Content Fragment Models](content-fragment-models.md).
 
 ## GitHub Project
 
-The source code, and content packages are available on the [AEM Guides - WKND GraphQL GitHub Project](https://github.com/adobe/aem-guides-wknd-graphql).
+The source code, and content packages are available in the `basic-tutorial` folder in the [AEM Guides - WKND GraphQL GitHub Project](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/basic-tutorial). 
+
 
 If you find an issue with the tutorial or the code, leave a [GitHub issue](https://github.com/adobe/aem-guides-wknd-graphql/issues).
