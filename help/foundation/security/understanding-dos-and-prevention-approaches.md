@@ -36,7 +36,7 @@ The following table describes how to prevent and mitigate DoS and DDoS attacks:
             <td>Web Application Firewall (WAF)</td>
             <td>A security solution designed to protect web applications from various types of attacks.</td>
             <td>
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/security/traffic-filter-and-waf-rules/examples-and-analysis#waf-rules" target="_blank">WAF-DDoS Protection license</a></td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/security/traffic-filter-and-waf-rules/examples-and-analysis#waf-rules" target="_blank">Extended Security (formerly named WAF-DDoS Protection) license</a></td>
             <td><a href="https://docs.aws.amazon.com/waf/" target="_blank">AWS</a> or <a href="https://azure.microsoft.com/en-us/products/web-application-firewall" target="_blank">Azure</a> WAF via AMS contract.</td>
             <td>Your preferred WAF</td>
         </tr>

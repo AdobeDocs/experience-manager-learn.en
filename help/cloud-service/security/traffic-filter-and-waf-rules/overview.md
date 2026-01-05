@@ -20,7 +20,7 @@ You also learn about the differences between standard traffic filter and WAF tra
 
 >[!IMPORTANT]
 >
-> WAF traffic filter rules require an additional **WAF-DDoS Protection** or **Enhanced Security** license. Standard traffic filter rules are available to Sites and Forms customers by default.
+> WAF traffic filter rules require an additional Extended Security (formerly named WAF-DDoS Protection) or Extended Security for Healthcare (formerly named Enhanced Security) license. Standard traffic filter rules are available to Sites and Forms customers by default.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3469394/?quality=12&learn=on)
