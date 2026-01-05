@@ -37,7 +37,7 @@ These built-in protections should be considered a baseline for an organization's
 Let's look at some additional, recommended measures that customers can take to protect their websites from DDoS attacks:
 
 - Implement Adobe-recommended [standard traffic filter rules](./traffic-filter-and-waf-rules/use-cases/using-traffic-filter-rules.md) to identify potentially malicious traffic patterns by logging and alerting on suspicious behavior.
-- Use the **WAF-DDoS Protection** or **Enhanced Security** add-on and implement Adobe-recommended [WAF Traffic Filter Rules](./traffic-filter-and-waf-rules/use-cases/using-waf-rules.md) to defend against sophisticated attacks, including those using advanced protocol or payload-based techniques.
+- Use the Extended Security (formerly named WAF-DDoS Protection) or Extended Security for Healthcare (formerly named Enhanced Security) add-on and implement Adobe-recommended [WAF Traffic Filter Rules](./traffic-filter-and-waf-rules/use-cases/using-waf-rules.md) to defend against sophisticated attacks, including those using advanced protocol or payload-based techniques.
 - Increase cache coverage by configuring [request transformations](./traffic-filter-and-waf-rules/how-to/request-transformation.md) to ignore unnecessary query parameters.
 
 ## Get Started

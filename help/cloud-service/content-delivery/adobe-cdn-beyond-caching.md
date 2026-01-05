@@ -33,7 +33,7 @@ Let's understand the key capabilities related to _Configuring traffic at the CDN
 
 - **DoS attack prevention:** Adobe CDN absorbs DoS attacks at the network layer, preventing them from reaching your origin server.
 - **Rate limiting:** To protect your origin server from being overwhelmed with too many requests, you can configure rate limiting on the CDN.
-- **Web Application Firewall (WAF):** The WAF protects your website from common web application vulnerabilities, such as SQL injection, cross-site scripting, and more. The Enhanced Security license or WAF-DDoS Protection license is required to use this feature.
+- **Web Application Firewall (WAF):** The WAF protects your website from common web application vulnerabilities, such as SQL injection, cross-site scripting, and more. The Extended Security (formerly named WAF-DDoS Protection) or Extended Security for Healthcare (formerly named Enhanced Security) license is required to use this feature.
 - **Request transformation:** Modify incoming requests such as setting or unsetting headers, modifying query parameters, cookies and more.
 - **Response transformation:** Modify outgoing responses such as setting or unsetting headers.
 - **Origin selection:** Route traffic to different origin servers (Adobe and non-Adobe) based on the request URL.
