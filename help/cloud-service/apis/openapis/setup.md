@@ -173,7 +173,9 @@ If you choose the **OAuth Web App** or **OAuth Single Page App** authentication 
 
 ## Configure the AEM instance to enable ADC Project communication{#configure-aem-instance}
 
-Next, you need to configure the AEM instance to enable above ADC Project communication. With this configuration, the ADC Project's ClientID can NOT communicate with the AEM instance and results in a 403 Forbidden error. Think of this configuration as a firewall rule to allow only the allowed ClientIDs to communicate with the AEM instance.
+Next, you need to configure the AEM instance to enable above ADC Project communication. 
+
+Without this configuration, the ADC Project's ClientID can NOT communicate with the AEM instance and results in a 403 Forbidden error. Think of this configuration as a firewall rule to allow only the allowed ClientIDs to communicate with the AEM instance.
 
 Let's follow the steps to configure the AEM instance to enable above ADC Project communication.
 
@@ -209,6 +211,11 @@ Let's follow the steps to configure the AEM instance to enable above ADC Project
     ![Deploy YAML](./assets/setup/config-pipeline.png)
 
 Note that the `api.yaml` file can also be installed in an [RDE](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/developing/rde/overview), [using command line tooling](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/developing/rde/how-to-use#deploy-configuration-yaml-files). This is useful for testing the configuration changes before deploying them to the production environment.
+
+>[!CAUTION]
+>
+>The YAML (`api.yaml`) file is the only way to configure the AEM instance to enable communication with the ADC Project. Other methods, such as using environment variables, are not supported for this configuration.
+
 
 ## Next steps
 
