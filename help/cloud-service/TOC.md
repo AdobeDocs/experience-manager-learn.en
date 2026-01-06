@@ -22,7 +22,11 @@ team: TM
   + Strategy & thought leadership{#strategy}
     + [Experience Manager - Governance and staffing models and archetypes](./introduction/experience-manager-governance-and-staffing-models.md)
 + [Experience Hub](./experience-hub.md)
-+ [AEM AI Assistant](./aem-ai-assisstant.md)
++ AI {#ai}
+  + [Overview](./ai/overview.md)
+  + [Set up and Provisioning](./ai/setup.md)
+  + [AI Assistant](./ai/ai-assistant.md)
+  + [Agents](./ai/agents-in-aem.md)
 + Experience Cloud integrations{#integrations}
   + [Integrations](./integrations/experience-cloud.md)
   + [AEM Headless and Target](./integrations/target.md)

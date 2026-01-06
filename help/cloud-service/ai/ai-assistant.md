@@ -2,7 +2,7 @@
 title: AEM AI Assistant
 description: Simplify AEM with the AI Assistant. Discover features, best practices, and fix issues while boosting productivity with AI-powered support.
 version: Experience Manager as a Cloud Service
-role: Admin, Developer, Leader, User
+role: Leader, User
 level: Beginner
 doc-type: Feature Video
 duration: 205
@@ -16,9 +16,4 @@ Learn how the [AEM AI Assistant](https://experienceleague.adobe.com/en/docs/expe
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475357/?learn=on&enablevpops)
 
-
-## Set up access to AEM AI Assistant
- 
-Learn how to configure access to the AI Assistant in Adobe Experience Manager using [Adobe Admin Console](https://adminconsole.adobe.com). This step is necessary for enabling users to get responses from the Assistant and leverage automatic ticket creation.
-
->[!VIDEO](https://video.tv.adobe.com/v/3474066/?learn=on&enablevpops)
+*To access the AEM AI Assistant, ensure you have set up access in your AEM environment by following the [setup guide](./setup.md#aem-ai-assistant).*
