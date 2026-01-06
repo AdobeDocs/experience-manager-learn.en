@@ -21,7 +21,7 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
     {title = Set up AI in AEM}
     {description = Learn what access is needed to use AI in AEM.}
     {cta = Set up}
-* ./aem-ai-assistant.md
+* ./ai-assistant.md
     {title = AEM AI Assistant}
     {description = Learn how AI Assistant provides product knowledge and support in AEM.}
     {cta = Watch}
