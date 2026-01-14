@@ -1,7 +1,7 @@
 ---
 title: Redirects
 description: A deep dive into how redirects work in document authoring and how authors can easily set up redirects with no technical expertise.
-version: Experience Manager 6.5, Experience Manager as a Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User

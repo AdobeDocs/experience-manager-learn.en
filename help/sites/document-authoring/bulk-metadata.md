@@ -1,7 +1,7 @@
 ---
 title: Bulk metadata
 description: Explore how bulk metadata is handled in document authoring.
-version: Experience Manager 6.5, Experience Manager as a Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User

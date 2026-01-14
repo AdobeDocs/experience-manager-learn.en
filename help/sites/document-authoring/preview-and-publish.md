@@ -1,7 +1,7 @@
 ---
 title: Preview and publish content
 description: How to create and publish content using document authoring.
-version: Experience Manager 6.5, Experience Manager as a Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User

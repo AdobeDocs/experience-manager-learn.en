@@ -1,7 +1,7 @@
 ---
 title: Add image alt text with AEM document authoring
 description: Explore how to use alt text to images in document authoring.
-version: Experience Manager 6.5, Experience Manager as a Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User, Developer

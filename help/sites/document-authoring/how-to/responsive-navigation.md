@@ -1,7 +1,7 @@
 ---
 title: Responsive navigation
 description: Explore how to perform responsive navigation in Edge Delivery Document authoring.
-version: Experience Manager 6.5, Experience Manager as a Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User

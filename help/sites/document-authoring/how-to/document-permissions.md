@@ -1,7 +1,7 @@
 ---
 title: Permission documents with AEM document authoring
 description: Learn how to content permissions are managed with AEM document authoring.
-version: Experience Manager 6.5, Experience Manager as a Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User, Developer
