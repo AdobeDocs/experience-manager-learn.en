@@ -1,7 +1,7 @@
 ---
 title: Default content and sections
 description: Perform a deep dive into the document authoring concepts of default content and sections.
-version: Experience Manager 6.5, Experience Manager as a Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User

@@ -1,7 +1,7 @@
 ---
 title: Prevent search engine indexing with AEM document authoring
 description: Prevent pages served by Edge Delivery Services from being indexed by search engines.
-version: Experience Manager 6.5, Experience Manager as a Cloud Service
+version: Experience Manager as a Cloud Service
 feature: Authoring
 topic: Content Management
 role: User, Developer
