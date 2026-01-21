@@ -89,3 +89,9 @@ This four part expert series follows a group of Adobe experts - from product man
    </td>
   </tr>  
 </tbody></table>
+
+## Connect via Workfront Fusion
+
+If you are using Workfront Fusion to link Workfront and AEM Assets, to automate project creation and workflow orchestration, refer to the Workfron Fustion and AEM Assets integration documentation.
+
+[Use Workfront Fusion to convert a Workfront issue into a project with AEM workflows](https://experienceleague.adobe.com/en/docs/workfront/using/documents/wf-aem-integrations/wf-aem-essentials/use-fusion-to-create-project-with-workflows)
