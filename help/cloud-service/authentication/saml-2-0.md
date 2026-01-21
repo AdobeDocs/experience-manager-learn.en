@@ -321,7 +321,7 @@ AEM uses the following user attributes, which can be populated via the `synchron
     }
     ```
 
-1. Update the values as required by your project. See the __SAML 2.0 Authentication Handler OSGi configuration glossary__ above for configuration property descriptions
+1. Update the values as required by your project. See the __SAML 2.0 Authentication Handler OSGi configuration glossary__ above for configuration property descriptions. The `path` should contain the content trees that are protected by Closed User Groups (CUGs) and require authentication and this authentication handler should be responsible for protecting.
 1. It is recommended, but not required, to use OSGi environment variables and secrets, when values may change out of sync with the release cycle, or when the values different between similar environment types/service tiers. Default values can be set using the `$[env:..;default=the-default-value]"` syntax as shown above.
 
 OSGi configurations per environment (`config.publish.dev`, `config.publish.stage`, and `config.publish.prod`) can be defined with specific attributes if the SAML configuration varies between environments.
