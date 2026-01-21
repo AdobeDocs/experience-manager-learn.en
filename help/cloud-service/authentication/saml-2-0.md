@@ -62,6 +62,7 @@ The following are required when setting up SAML 2.0 authentication:
 + AEM Administrator access to AEM as a Cloud Service environment
 + Administrator access to the IDP
 + Optionally, access to a public/private keypair used to encryption SAML payloads
++ AEM Sites pages (or page trees), published to AEM Publish, and [protected by Closed User Groups (CUGs)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#permissions)
 
 SAML 2.0 is only supported to authenticate uses to AEM Publish or Preview. To manage the authentication of AEM Author using and IDP, [integrate the IDP with Adobe IMS](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
