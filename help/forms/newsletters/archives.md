@@ -9,7 +9,7 @@ exl-id: 16133400-b4c6-4d86-9c28-d5e230d55839
 
 Our monthly Experience League Content Newsletters are available for download on this page. Please select a month to access and download the corresponding edition.
 
-| 2025- Newsletters |
+| 2025 newsletters |
 |------------|
 | [January](assets/Jan-Newsletter.pdf)|
 | [February](assets/Feb-Newsletter.pdf)|
@@ -23,4 +23,10 @@ Our monthly Experience League Content Newsletters are available for download on 
 | [October](assets/Oct-Newsletter.pdf)|
 | [November](assets/Nov-Newsletter.pdf)|
 | [December](assets/Dec-Newsletter.pdf)|
+
+
+| 2026 newsletters |
+|------------|
+| [January](assets/Jan-2026.pdf)|
+
 
