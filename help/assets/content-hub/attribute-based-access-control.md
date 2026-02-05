@@ -10,9 +10,8 @@ doc-type: Feature Video
 duration: 323
 last-substantial-update: 2025-10-01
 jira: KT-19332
-
+exl-id: 7a7077ff-03b9-4938-a351-64b579c8ac96
 ---
-
 # Attribute-based Access Control in Content Hub
 
 Learn how to set up and control access to assets in AEM Assets Content Hhub using attribute-based access control (ABAC).

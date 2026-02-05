@@ -8,8 +8,8 @@ doc-type: Feature Video
 duration: 205
 last-substantial-update: 2025-12-04
 jira: KT-19319
+exl-id: 6912f267-e014-4e49-8e10-b74eaf80a6d6
 ---
-
 # Set up AI in AEM
 
 In order to use AEM AI Assistant and Agents in AEM, you need to set up access in your Adobe Experience Manager environment. This guide will walk you through the necessary steps to enable these AI-powered features. You can also experiment with the AI Assistant in a playground environment.

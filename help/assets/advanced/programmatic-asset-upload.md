@@ -10,8 +10,8 @@ last-substantial-update: 2025-11-14
 doc-type: Tutorial
 jira: KT-19571
 thumbnail: KT-19571.png
+exl-id: 6227cb28-db63-48fe-a8b0-6e4f08b61251
 ---
-
 # Programmatic asset upload to AEM as a Cloud Service
 
 Learn how to upload assets to AEM as a Cloud Service environment using the client application that uses the [aem-upload](https://github.com/adobe/aem-upload) Node.js library.

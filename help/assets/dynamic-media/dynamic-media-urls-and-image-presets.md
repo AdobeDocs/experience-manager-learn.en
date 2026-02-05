@@ -9,8 +9,8 @@ doc-type: Feature Video
 duration: 533
 last-substantial-update: 2025-12-15
 jira: KT-20006
+exl-id: f59e9f0b-0964-4321-a2dd-356ab831c046
 ---
-
 # Dynamic Media URL syntax and Image Presets best practices
 
 Explore the AEM Assets Dynamic Media URL syntax and learn how to maximize your value using Image Presets. Enhance your asset management capabilities and improve your workflow efficiency.
