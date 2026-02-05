@@ -8,8 +8,8 @@ doc-type: Feature Video
 duration: 205
 last-substantial-update: 2025-12-04
 jira: KT-19319
+exl-id: d8b993db-ff7d-4c0c-8327-4ad7692485b9
 ---
-
 # AEM AI Assistant
 
 Learn how the [AEM AI Assistant](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/ai-assistant/ai-assistant-in-aem#) simplifies your Adobe Experience Manager workflows. From finding features, learning about best practices, troubleshooting issues and even creating support tickets, it's your intelligent companion in AEM. Boost productivity with AI-powered guidance, insights, and support - all in one place.

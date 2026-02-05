@@ -10,8 +10,8 @@ doc-type: Technical Video
 duration: 120
 last-substantial-update: 2025-12-10
 jira: KT-18126
+exl-id: 6abe2bf6-d9d7-4fcc-b108-0323c7b3d86f
 ---
-
 # Edge Delivery configuration pipeline
 
 Discover how to create and execute an Edge Delivery configuration pipeline in Adobe [Cloud Manager](https://my.cloudmanager.adobe.com), allowing for the controlled deployment of configurations such as CDN rules, WAF filters, or log forwarding.

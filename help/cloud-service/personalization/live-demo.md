@@ -10,6 +10,7 @@ doc-type: Tutorial
 last-substantial-update: 2025-11-03
 jira: KT-19546
 thumbnail: KT-19546.jpeg
+exl-id: e8fa0785-f488-4a0e-a1a4-c8ae25b41fb0
 ---
 # Live demonstration of personalization use cases
 
@@ -92,5 +93,3 @@ The WKND homepage runs an active A/B test with three variations of the _Camping 
 ## Next steps
 
 Ready to implement personalization on your own AEM site? Start with the [Personalization Overview](./overview.md) to learn the complete setup process.
-
-

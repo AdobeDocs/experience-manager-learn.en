@@ -10,6 +10,7 @@ doc-type: Tutorial
 last-substantial-update: 2025-10-17
 jira: KT-16331
 thumbnail: KT-16331.jpeg
+exl-id: e53bd90d-a95c-4596-b695-40ca8508e572
 ---
 # Known-user personalization
 

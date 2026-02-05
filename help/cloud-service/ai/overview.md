@@ -7,8 +7,8 @@ level: Beginner
 doc-type: Catalog
 duration: 30
 last-substantial-update: 2026-01-05
+exl-id: cc255744-bb86-49cb-88ca-1266d28985a5
 ---
-
 # AI in Experience Manager
 
 ![AI in Experience Manager](./assets/overview/hero.png)
@@ -131,4 +131,3 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
