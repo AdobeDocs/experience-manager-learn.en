@@ -5,12 +5,12 @@ version: Experience Manager as a Cloud Service
 role: Developer, Admin
 level: Beginner
 doc-type: tutorial
-duration: 
+duration: null
 jira: KT-20279
 thumbnail: KT-20279.png
-last-substantial-update: 
+last-substantial-update: null
+exl-id: 7807929d-079c-478e-baab-921c74026a50
 ---
-
 # Troubleshoot CI/CD Pipeline using AEM Development Agent
 
 Learn how to troubleshoot and fix a failed CI/CD pipeline using the AEM Development Agent. 
