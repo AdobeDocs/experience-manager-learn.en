@@ -8,7 +8,7 @@ role: Admin
 level: Beginner
 jira: KT-4999
 thumbnail: 39150.jpg
-last-substantial-update: 2023-05-19
+last-substantial-update: 2026-02-08
 exl-id: 40ba2368-edb7-4348-9aff-91194200092e
 duration: 160
 ---
