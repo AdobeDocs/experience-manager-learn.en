@@ -27,6 +27,7 @@ team: TM
   + [Set up and Provisioning](./ai/setup.md)
   + [AI Assistant](./ai/ai-assistant.md)
   + [Agents](./ai/agents-in-aem.md)
+  + [Troubleshoot CI/CD Pipeline using AEM Development Agent](./ai/development-agent-troubleshoot-ci-cd-pipeline.md)
 + Experience Cloud integrations{#integrations}
   + [Integrations](./integrations/experience-cloud.md)
   + [AEM Headless and Target](./integrations/target.md)
