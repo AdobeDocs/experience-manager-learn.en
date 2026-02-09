@@ -5,12 +5,12 @@ version: Experience Manager as a Cloud Service
 role: Developer, Architect
 level: Beginner
 doc-type: tutorial
-duration: 
+duration: null
 jira: KT-20288
 thumbnail: KT-20288.png
 last-substantial-update: 2026-02-09
+exl-id: 287894ea-9cc1-4c27-ac7e-967ad46f4789
 ---
-
 # Find and remove deprecated APIs in AEM as a Cloud Service
 
 Learn how to find and remove deprecated APIs in AEM as a Cloud Service.
@@ -129,4 +129,3 @@ Fixing deprecated APIs early keeps your project **upgrade-safe and deployment-re
 
 - [AEM Analyser Maven Plugin](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md)
 - [Deprecated and Removed Features and APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/deprecated-removed-features#api-removal-guidance)
-
