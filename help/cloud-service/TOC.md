@@ -115,6 +115,7 @@ team: TM
     + [Service Users](./developing/advanced/service-users.md)
     + [Web-optimized image APIs](./developing/advanced/web-optimized-image-delivery-java-apis.md)
     + [Run job on leader instance in AEM Author](./developing/advanced/run-job-on-leader-instance-in-aem-author.md)
+    + [Find and remove deprecated APIs](./developing/advanced/deprecated-apis-find-removal.md)
   + Rapid Development Environment{#rde}
     + [Overview](./developing/rde/overview.md)
     + [How to setup](./developing/rde/how-to-setup.md)
