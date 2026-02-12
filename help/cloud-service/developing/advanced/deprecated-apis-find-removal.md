@@ -17,7 +17,7 @@ Learn how to find and remove deprecated APIs in AEM as a Cloud Service.
 
 ## Overview
 
-AEM as a Cloud Service **Action Center** notifies you about _deprecated APIs_ in your project. To get the latest features, security updates, and smooth deployments of your code to AEM as a Cloud Service using Cloud Manager pipelines, remove deprecated APIs from your project.
+AEM as a Cloud Service **Actions Center** notifies you about _deprecated APIs_ in your project. To ensure that your application is secure and performant and that you can continue deploying code using Cloud Manager pipelines, remove deprecated APIs from your project.
 
 In this tutorial, you learn how to find and remove deprecated APIs in your AEM as a Cloud Service environment using the [AEM Analyser Maven Plugin](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md).
 
