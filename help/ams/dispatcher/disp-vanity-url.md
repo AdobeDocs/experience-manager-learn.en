@@ -89,9 +89,12 @@ Dispatcher has a configuration section in its farm file:
 /vanity_urls { 
     /url    "/libs/granite/dispatcher/content/vanityUrls.html" 
     /file   "/tmp/vanity_urls" 
-    /delay  300 
+    /delay  300
+    /loadOnStartup 0
 }
 ```
+
+The `/loadOnStartup` parameter should be either `0` or `1`; if the flag is set to `1`, the `/file` will be created when the httpd first starts up, before it forks to a non-priviledged user; this can create an issue where the httpd is later not able to replace the file with new contents. When set to `0` the file will not be created until the first time a request comes in which needs to evaluate the file contents.
 
 The `/delay` parameter, measured in seconds, does not operate on a fixed interval basis but rather on a condition-based check. The Dispatcher assesses the modification timestamp of the `/file` (which stores the list of recognized vanity URLs) upon receiving a request for an unlisted URL. The `/file` will not be refreshed if the time difference between the current moment and the `/file`'s last modification is less than the `/delay` duration. Refreshing the `/file` occurs under two conditions:
 
