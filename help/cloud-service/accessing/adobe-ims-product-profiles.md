@@ -7,7 +7,7 @@ role: Admin
 level: Beginner
 jira: KT-5000
 thumbnail: 39156.jpg
-last-substantial-update: 2026-02-06
+last-substantial-update: 2026-02-18
 exl-id: 089a557c-5155-489c-bccf-0cb97e95840c
 duration: 312
 ---
