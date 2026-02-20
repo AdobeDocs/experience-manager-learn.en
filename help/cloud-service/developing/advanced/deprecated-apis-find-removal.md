@@ -17,9 +17,29 @@ Learn how to find and remove deprecated APIs in AEM as a Cloud Service.
 
 ## Overview
 
-AEM as a Cloud Service **Actions Center** notifies you about _deprecated APIs_ in your project. To ensure that your application is secure and performant and that you can continue deploying code using Cloud Manager pipelines, remove deprecated APIs from your project.
+To ensure that your application is secure and performant and that you can continue deploying code using Cloud Manager pipelines, remove deprecated APIs from your project.
 
 In this tutorial, you learn how to find and remove deprecated APIs in your AEM as a Cloud Service environment using the [AEM Analyser Maven Plugin](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md).
+
+## Notifications about deprecated APIs
+
+The deprecated APIs usage and attention to fix it is reported regularly, let's review some examples.
+
+- AEM as a Cloud Service **Actions Center** notifies you about _deprecated APIs_ in your project. 
+    ![Deprecated APIs in Actions Center](./assets/deprecated-apis/actions-center-deprecated-apis.png)
+
+- The **Code Scanning** step in the Cloud Manager pipeline reports deprecated APIs in your project, review the **Download Details** report to see the full list of deprecated APIs.
+    ![Deprecated APIs in Code Scanning](./assets/deprecated-apis/code-scanning-summary.png)
+
+- The **Artifact Preparation** step in the Cloud Manager pipeline reports deprecated APIs in your project, **Download log** and look for _Analyser warnings_ in the log file.
+     
+    ```
+    2026-02-20 15:40:48.376 Analyser warnings have been found 
+    2026-02-20 15:40:48.376 The analyser found the following warnings for author and publish : 
+    2026-02-20 15:40:48.376 [region-deprecated-api] com.adobe.aem.guides:aem-guides-wknd.core:4.0.5-SNAPSHOT: Usage of deprecated package found : org.apache.commons.lang : Commons Lang 2 is in maintenance mode. Commons Lang 3 should be used instead. Deprecated since 2021-04-30 For removal : 2021-12-31 (com.adobe.aem.guides:aem-guides-wknd.all:4.0.5-SNAPSHOT)
+    2026-02-20 15:40:56.458 Convert Merge Analyse finished.
+    ```
+
 
 ## How to find deprecated APIs
 
@@ -33,7 +53,7 @@ Follow these steps to find deprecated APIs in your AEM as a Cloud Service projec
 
         ```xml
         ...
-        <aemanalyser.version>1.6.14</aemanalyser.version> <!-- Latest released version as of 09-Feb-2026 -->
+        <aemanalyser.version>1.6.16</aemanalyser.version> <!-- Latest released version as of 20-Feb-2026 -->
         ...
         <!-- AEM Analyser Plugin -->
         <plugin>
@@ -49,7 +69,7 @@ Follow these steps to find deprecated APIs in your AEM as a Cloud Service projec
 
         ```xml
         ...
-        <aem.sdk.api>2026.2.24288.20260204T121510Z-260100</aem.sdk.api> <!-- Latest available AEM SDK version as of 09-Feb-2026 -->
+        <aem.sdk.api>2026.2.24464.20260214T050318Z-260100</aem.sdk.api> <!-- Latest available AEM SDK version as of 20-Feb-2026 -->
         ...
         ```
 
