@@ -46,7 +46,7 @@ team: TM
 
 + Search and discovery{#search-and-discovery}
   + [Search](./search-and-discovery/search.md)           
-  + [Contextual search](./search-and-discovery/contextual-search.md)  
+  + [AI search](./search-and-discovery/ai-search.md)  
   + [Adobe Firefly integration](./search-and-discovery/adobe-firefly.md)
   + [Collections](./search-and-discovery/collections.md) 
   + [Search boost](./search-and-discovery/search-boost.md)
