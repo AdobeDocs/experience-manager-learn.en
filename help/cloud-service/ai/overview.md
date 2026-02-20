@@ -7,8 +7,8 @@ level: Beginner
 doc-type: Catalog
 duration: 30
 last-substantial-update: 2026-01-05
-exl-id: cc255744-bb86-49cb-88ca-1266d28985a5
 ---
+
 # AI in Experience Manager
 
 ![AI in Experience Manager](./assets/overview/hero.png)
@@ -33,6 +33,10 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
     {title = Generate Variations}
     {description = Generate Variations in Adobe Experience Manager optimizes text and images for any experiences.}
     {cta = Watch}
+* ../../assets/search-and-discovery/ai-search.md
+    {title = AI Search}
+    {description = Learn how AEM Assets AI Search enhances search by intelligently surfacing relevant assets and enabling smarter search experiences.}
+    {cta = Watch}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -42,7 +46,7 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./setup.md" title="Set up AI in AEM" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3474066/?format=jpeg&nocache=1769184550491" alt="Set up AI in AEM"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3474066/?format=jpeg&nocache=1771440888392" alt="Set up AI in AEM"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -65,7 +69,7 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./ai-assistant.md" title="AEM AI Assistant" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3475357/?format=jpeg&nocache=1769184550481" alt="AEM AI Assistant"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3475357/?format=jpeg&nocache=1771440888441" alt="AEM AI Assistant"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -88,7 +92,7 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./agents-in-aem.md" title="Agents in AEM" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3478455/?format=jpeg&nocache=1769184550500" alt="Agents in AEM"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3478455/?format=jpeg&nocache=1771440888404" alt="Agents in AEM"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -111,7 +115,7 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../../sites/generative-ai/generate-variations.md" title="Generate Variations" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3427946/?format=jpeg&nocache=1769184550510" alt="Generate Variations"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3427946/?format=jpeg&nocache=1771440888429" alt="Generate Variations"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -124,6 +128,29 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
                     <p class="is-size-6">Generate Variations in Adobe Experience Manager optimizes text and images for any experiences.</p>
                 </div>
                 <a href="../../sites/generative-ai/generate-variations.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AI Search">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../../assets/search-and-discovery/ai-search.md" title="AI Search" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3479989/?format=jpeg&nocache=1771440888416" alt="AI Search"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../../assets/search-and-discovery/ai-search.md" target="_blank" rel="referrer" title="AI Search">AI Search</a>
+                    </p>
+                    <p class="is-size-6">Learn how AEM Assets AI Search enhances search by intelligently surfacing relevant assets and enabling smarter search experiences.</p>
+                </div>
+                <a href="../../assets/search-and-discovery/ai-search.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
                 </a>
             </div>
