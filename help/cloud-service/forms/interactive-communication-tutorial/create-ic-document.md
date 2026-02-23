@@ -9,8 +9,8 @@ doc-type: Technical Video
 duration: 143
 last-substantial-update: 2026-02-20
 jira: KT-20358
+exl-id: 7b5fd015-64b6-4826-b921-601666726d23
 ---
-
 # Create IC Document Using Templates
 
 Create Interactive Communication documents using predefined templates and reusable fragments. This ensures consistency and efficiency in document creation. Embed dynamic data by selecting the correct form data model (FDM) and inserting fragments into designated target areas. Test the final output for accuracy and formatting.

@@ -9,8 +9,8 @@ doc-type: Technical Video
 duration: 178
 last-substantial-update: 2026-02-20
 jira: KT-20356
+exl-id: c13e3ee1-f425-4e4c-9f6c-bfae269dcb66
 ---
-
 # Create Reusable Interactive Communication Fragments
 
 Learn how to develop reusable fragments for interactive communication documents. Optimize layouts and ensure dynamic data binding for customer address and letter body sections. Enhance document design with formatting, positioning, and margin controls.

@@ -9,8 +9,8 @@ doc-type: Technical Video
 duration: 143
 last-substantial-update: 2026-02-20
 jira: KT-20358
+exl-id: 88a07900-0b08-4c1d-a32e-fd3f79a2b5d2
 ---
-
 # Getting started with Interactive Communications
 
 >[!NOTE]
