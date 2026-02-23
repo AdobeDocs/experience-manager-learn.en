@@ -319,6 +319,13 @@ team: TM
         + [4. Adding Icons](./forms/using-vertical-tabs/icons.md)
     + Using output and forms service{#forms-cs-output-and-forms-service}
         + [Generate PDF](./forms/forms-cs-output-and-forms-service/outputservice.md)
+    + Interactive Communication Tutorial{#interactive-communication-tutorial}
+        + [1. Introduction](./forms/interactive-communication-tutorial/introduction.md)
+        + [2. Create FDM](./forms/interactive-communication-tutorial/create-form-data-model.md)
+        + [3. Create Template](./forms/interactive-communication-tutorial/create-template.md)
+        + [4. Create Fragments](./forms/interactive-communication-tutorial/create-fragments.md)
+        + [5. Create IC Document](./forms/interactive-communication-tutorial/create-ic-document.md)
+        + [6. Generate IC Document](./forms/interactive-communication-tutorial/test-document-generation.md)
     + Document Generation in AEM Forms CS{#doc-gen-formscs}
         + [Introduction](./forms/doc-gen-forms-cs/introduction.md)
         + [Create Service Credentials](./forms/doc-gen-forms-cs/service-credentials.md)
