@@ -15,10 +15,6 @@ exl-id: 070cbe54-2379-448b-bb7d-3756a60b65f0
 ---
 # AEM Assets events for PIM integration
 
->[!IMPORTANT]
->
->This tutorial uses OpenAPI-based AEM APIs. They are available as part of an early access program, if you are interested in accessing them, we encourage you to email [aem-apis@adobe.com](mailto:aem-apis@adobe.com) with a description of your use case.
-
 Learn how to receive an AEM Event and act on it to update the content state in AEM using the OpenAPI-based Assets Author API.
 
 How to process the received event depends on the business requirements. For example, the event data can be used to update the third-party system, or AEM, or both. 
