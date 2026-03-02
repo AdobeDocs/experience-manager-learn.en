@@ -28,5 +28,6 @@ Our monthly Experience League Content Newsletters are available for download on 
 | 2026 newsletters |
 |------------|
 | [January](assets/Jan-2026.pdf)|
+| [February](assets/Feb-2026.pdf)|
 
 
