@@ -34,7 +34,7 @@ For simplicity, this tutorial introduces a unit test failure in the `BylineImpl.
 
 To follow this tutorial, you need:
 
-- AI Assistant and Agents in AEM enabled. See [Set up AI in AEM](./setup.md) for details, and note that playgrounds mentioned in that article won't have AEM Development Agent capabilities.
+- AI Assistant and Agents in AEM enabled. See [Set up AI in AEM](../setup.md) for details, and note that playgrounds mentioned in that article won't have AEM Development Agent capabilities.
 - Access to Adobe [Cloud Manager](https://my.cloudmanager.adobe.com/) with a Developer or Program Manager role. See [role definitions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/requirements/users-and-roles#role-definitions) for more information.
 - An AEM as a Cloud Service environment
 - Access to Agents in AEM via the [Beta program](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current#aem-beta-programs)
@@ -94,11 +94,11 @@ This tutorial uses the WKND Sites Project's `tutorial/dev-agent/unit-test-failur
     - Click **Add Repository** in the top right corner.
     - Enter a **Repository Name** (for example, "wknd-site-tutorial") and click **Save**. Wait for the repository to be created.
 
-        ![Add Repository](./assets/dev-agent/add-repository.png)
+        ![Add Repository](./assets/development-agent-troubleshoot-ci-cd-pipeline/add-repository.png)
     
     - Click **Access Repo Info** in the top right corner and copy the repository URL.
     
-        ![Access Repo Info](./assets/dev-agent/access-repo-info.png)
+        ![Access Repo Info](./assets/development-agent-troubleshoot-ci-cd-pipeline/access-repo-info.png)
     
     - Add the newly created Cloud Manager Git repository as a remote to your local Git repository:
     
@@ -125,7 +125,7 @@ This tutorial uses a Code Quality pipeline (non-production) to trigger the pipel
         - Keep the default values like **Pipeline Type** as `Code Quality Pipeline` and **Deployment Trigger** as `Manual`.
         - For **Non-Production Pipeline Name**, enter `Code Quality::Fullstack`
 
-        ![Add Non-Production Pipeline Configuration](./assets/dev-agent/add-non-production-pipeline-configuration.png)
+        ![Add Non-Production Pipeline Configuration](./assets/development-agent-troubleshoot-ci-cd-pipeline/add-non-production-pipeline-configuration.png)
 
     - **Source Code** step:
         - Select **Full Stack Code**
@@ -133,11 +133,11 @@ This tutorial uses a Code Quality pipeline (non-production) to trigger the pipel
         - For **Git Branch**, select `tutorial/dev-agent/unit-test-failure`
         - Click **Save**
 
-        ![Add Non-Production Pipeline Source Code](./assets/dev-agent/add-non-production-pipeline-source-code.png)
+        ![Add Non-Production Pipeline Source Code](./assets/development-agent-troubleshoot-ci-cd-pipeline/add-non-production-pipeline-source-code.png)
 
 - Run the newly created Code Quality pipeline by clicking **Run** in the three-dot menu of the pipeline entry.
 
-    ![Run Code Quality Pipeline](./assets/dev-agent/run-code-quality-pipeline.png)
+    ![Run Code Quality Pipeline](./assets/development-agent-troubleshoot-ci-cd-pipeline/run-code-quality-pipeline.png)
 
     
 >[!IMPORTANT]
@@ -149,7 +149,7 @@ This tutorial uses a Code Quality pipeline (non-production) to trigger the pipel
 
 The Code Quality pipeline fails in the **Artifact Preparation** step with an error:
 
-![Failed Pipeline Execution](./assets/dev-agent/failed-pipeline-execution.png)
+![Failed Pipeline Execution](./assets/development-agent-troubleshoot-ci-cd-pipeline/failed-pipeline-execution.png)
 
 Without the AEM Development Agent, this pipeline failure requires manual troubleshooting. A developer would need to check the logs and review the code—a tedious and time-consuming process.
 
@@ -167,7 +167,7 @@ You can invoke the AEM Development Agent using the AI Assistant in AEM by descri
     I have a failed pipeline execution on %PROGRAM-NAME% program, help me to troubleshoot and fix it.
     ```
 
-    ![Invoke AEM Development Agent](./assets/dev-agent/invoke-aem-development-agent.png)
+    ![Invoke AEM Development Agent](./assets/development-agent-troubleshoot-ci-cd-pipeline/invoke-aem-development-agent.png)
 
     The **AEM Development Agent** is invoked to troubleshoot and fix the failed pipeline execution.
 
@@ -177,13 +177,13 @@ You can invoke the AEM Development Agent using the AI Assistant in AEM by descri
 
 - Once the reasoning is complete, click the **Open in full screen** icon to view the detailed troubleshooting process.
 
-    ![Open in full screen](./assets/dev-agent/open-in-full-screen.png)
+    ![Open in full screen](./assets/development-agent-troubleshoot-ci-cd-pipeline/open-in-full-screen.png)
 
     The results contain valuable insights including error details, the source file, line number, and a **How to Fix** section with clear steps to resolve the issue.
 
 - In this case, the agent correctly suggested either changing the implementation (`getName()` method) or updating the unit test (`getNameTest()` method) to fix the issue. It avoided hallucination and used a human-in-the-loop approach while providing actionable code changes for the developer.
 
-    ![Copy code changes](./assets/dev-agent/copy-code-changes.png)
+    ![Copy code changes](./assets/development-agent-troubleshoot-ci-cd-pipeline/copy-code-changes.png)
 
 - Update the `BylineImpl.java` file with the suggested code changes, then commit and push the changes to the Cloud Manager Git repository. 
 
@@ -202,7 +202,7 @@ You can invoke the AEM Development Agent using the AI Assistant in AEM by descri
 
 The WKND Sites Project includes additional examples of broken code and configuration issues, such as missing dependencies and incorrect configuration. You can explore these examples by checking out the [branches that start with `tutorial/dev-agent/`](https://github.com/adobe/aem-guides-wknd/branches/all?query=tutorial%2Fdev-agent&lastTab=overview). To see the breaking changes, you can compare the `tutorial/dev-agent/unit-test-failure` branch with the `main` branch by clicking the **Compare** button. Then look for the _changed file_ section.
 
-![Compare branches](./assets/dev-agent/compare-branches.png)
+![Compare branches](./assets/development-agent-troubleshoot-ci-cd-pipeline/compare-branches.png)
 
 Also see the [Sample prompts](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/development/overview#sample-prompts) to get more ideas on how to use the AEM Development Agent.
 
@@ -214,7 +214,7 @@ Start using the AEM Development Agent and other Agents in AEM to accelerate your
 
 ## Additional Resources
 
-- [AI in Experience Manager](./overview.md)
+- [AI in Experience Manager](../overview.md)
 - [Overview of Agents in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 - [Development Agent overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/development/overview)
 - [Overview of Agents in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
