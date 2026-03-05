@@ -8,6 +8,7 @@ doc-type: Article
 duration: 0
 last-substantial-update: 2026-03-04
 jira: KT-20473
+exl-id: 7f2e4e37-6440-423e-9ba9-9228fe03600b
 ---
 # MCP Servers in AEM
 

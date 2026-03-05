@@ -5,11 +5,11 @@ version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
 level: Beginner
 doc-type: tutorial
-duration: 
+duration: null
 last-substantial-update: 2026-03-04
 jira: KT-20474
+exl-id: 843209cb-2f31-466c-b5b1-a9fb26965bc0
 ---
-
 # Accelerate AEM Content Operations Using the Content MCP Server
 
 Use the **Content MCP Server** from an AI-powered IDE such as [Cursor IDE](https://www.cursor.com/) to work with AEM content in natural language, no low-level API code or UI navigation. 
