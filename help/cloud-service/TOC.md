@@ -26,10 +26,12 @@ team: TM
   + [Overview](./ai/overview.md)
   + [Set up and Provisioning](./ai/setup.md)
   + [AI Assistant](./ai/ai-assistant.md)
-  + Agents #{#agents}
+  + Agents {#agents}
     + [Overview](./ai/agents/agents-in-aem.md)
     + [Dev Agent and CI/CD Troubleshooting](./ai/agents/development-agent-troubleshoot-ci-cd-pipeline.md)
-  + MCP Servers {#mcp-server}
+  + MCP Servers {#mcp-servers}
+    + [Overview](./ai/mcp/overview.md)
+    + [Accelerate AEM Content Operations with the MCP Server](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
     + [Cloud Manager MCP Server](./ai/mcp/cloud-manager.md)
 + Experience Cloud integrations{#integrations}
   + [Integrations](./integrations/experience-cloud.md)
