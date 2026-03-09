@@ -8,8 +8,8 @@ doc-type: Feature Video
 duration: 285
 last-substantial-update: 2026-03-05
 jira: KT-20476
+exl-id: df6d555e-ed64-455c-ba64-e9eb9035e2f6
 ---
-
 # Key capabilities of AI Assistant
 
 Learn how AI Assistant accelerates AEM workflows by providing instant guidance, code snippets, and troubleshooting steps. This reduces support effort and helps teams deliver content faster and with higher quality.

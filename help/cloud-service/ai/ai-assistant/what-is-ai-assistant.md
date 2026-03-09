@@ -8,8 +8,8 @@ doc-type: Feature Video
 duration: 321
 last-substantial-update: 2026-03-05
 jira: KT-20477
+exl-id: 1f0e3d18-e868-453f-8f0c-bfc3e25045ee
 ---
-
 # What is AI Assistant?
 
 AI Assistant accelerates AEM tasks, gives instant answers, guides feature use, troubleshoots problems, and creates support tickets—all from the Experience Manager interface. It helps teams deliver content faster, cut down on documentation searches, and improve operational efficiency.
