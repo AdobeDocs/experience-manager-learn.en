@@ -14,4 +14,8 @@ exl-id: 0811742a-7f1b-4659-8ab0-982ef1527483
 
 Cloud Manager MCP Server lets AEM Developers run pipelines, debug failures, and access Cloud Manager tools directly in their IDE - no context switching.
 
+>[!AVAILABILITY]
+>
+> Cloud Manager MCP Server is now in beta. To request access, email [aemcs-mcp-feedback@adobe.com](mailto:aemcs-mcp-feedback@adobe.com) with a description of your use case.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
