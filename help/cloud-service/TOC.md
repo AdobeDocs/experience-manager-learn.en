@@ -25,7 +25,11 @@ team: TM
 + AI {#ai}
   + [Overview](./ai/overview.md)
   + [Set up and Provisioning](./ai/setup.md)
-  + [AI Assistant](./ai/ai-assistant.md)
+  + AI Assistant {#ai-assistant}
+    + [Overview](./ai/ai-assistant/overview.md)
+    + [What is AI Assistant?](./ai/ai-assistant/what-is-ai-assistant.md)
+    + [Who is AI Assistant for?](./ai/ai-assistant/who-is-ai-assistant-for.md)
+    + [Key Capabilities](./ai/ai-assistant/key-capabilities.md)
   + Agents {#agents}
     + [Overview](./ai/agents/agents-in-aem.md)
     + [Dev Agent and CI/CD Troubleshooting](./ai/agents/development-agent-troubleshoot-ci-cd-pipeline.md)

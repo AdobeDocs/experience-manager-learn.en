@@ -12,7 +12,7 @@ exl-id: e5b50205-d348-46b3-b564-50c3967c73b0
 ---
 # Agents in AEM
 
-Learn how to use Agents, exposed through the [AEM AI Assistant](../ai-assistant.md), to automate tasks and streamline workflows. Discover what Agents are, how they work, and where they fit into the work you do in AEM. 
+Learn how to use Agents, exposed through the [AEM AI Assistant](../ai-assistant/overview.md), to automate tasks and streamline workflows. Discover what Agents are, how they work, and where they fit into the work you do in AEM. 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3478455/?learn=on&enablevpops)
 

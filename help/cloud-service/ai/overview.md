@@ -17,59 +17,39 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
 
 <!-- CARDS 
 
-* ./setup.md   
-    {title = Set up AI in AEM}
-    {description = Learn what access is needed to use AI in AEM.}
-    {cta = Set up}
-* ./ai-assistant.md
+* ./ai-assistant/overview.md
     {title = AEM AI Assistant}
     {description = Learn how AI Assistant provides product knowledge and support in AEM.}
-    {cta = Watch}
-* ./agents/agents-in-aem.md
+    {cta = Learn}
+
+* ./agents/overview.md
     {title = Agents in AEM}
     {description = Discover how AI-powered agents automate tasks and enhance workflows in AEM.}
-    {cta = Watch}
+    {cta = Learn}
+
+* ./mcp/overview.md
+    {title = AEM MCP Servers}
+    {description = Learn how to extend AEM into your favorite AI-tools.}
+    {cta = Learn}    
+
 * ../../sites/generative-ai/generate-variations.md
     {title = Generate Variations}
     {description = Generate Variations in Adobe Experience Manager optimizes text and images for any experiences.}
     {cta = Watch}
+    
 * ../../assets/search-and-discovery/ai-search.md
     {title = AI Search}
     {description = Learn how AEM Assets AI Search enhances search by intelligently surfacing relevant assets and enabling smarter search experiences.}
     {cta = Watch}
-
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Set up AI in AEM">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="./setup.md" title="Set up AI in AEM" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3474066/?format=jpeg&nocache=1772461889360" alt="Set up AI in AEM"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./setup.md" target="_blank" rel="referrer" title="Set up AI in AEM">Set up AI in AEM</a>
-                    </p>
-                    <p class="is-size-6">Learn what access is needed to use AI in AEM.</p>
-                </div>
-                <a href="./setup.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Set up</span>
-                </a>
-            </div>
-        </div>
-    </div>
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM AI Assistant">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./ai-assistant.md" title="AEM AI Assistant" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3475357/?format=jpeg&nocache=1772461889318" alt="AEM AI Assistant"
+                    <a href="./ai-assistant/overview.md" title="AEM AI Assistant" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3475357/?format=jpeg&nocache=1773082651757" alt="AEM AI Assistant"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -77,22 +57,22 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./ai-assistant.md" target="_blank" rel="referrer" title="AEM AI Assistant">AEM AI Assistant</a>
+                        <a href="./ai-assistant/overview.md" target="_blank" rel="referrer" title="AEM AI Assistant">AEM AI Assistant</a>
                     </p>
                     <p class="is-size-6">Learn how AI Assistant provides product knowledge and support in AEM.</p>
                 </div>
-                <a href="./ai-assistant.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
+                <a href="./ai-assistant/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Agents in AEM">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM MCP Servers">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./agents/agents-in-aem.md" title="Agents in AEM" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3478455/?format=jpeg&nocache=1772461889348" alt="Agents in AEM"
+                    <a href="./mcp/overview.md" title="AEM MCP Servers" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/content-mcp-server/update-adventure-price-prompt-response.png" alt="AEM MCP Servers"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -100,12 +80,12 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./agents/agents-in-aem.md" target="_blank" rel="referrer" title="Agents in AEM">Agents in AEM</a>
+                        <a href="./mcp/overview.md" target="_blank" rel="referrer" title="AEM MCP Servers">AEM MCP Servers</a>
                     </p>
-                    <p class="is-size-6">Discover how AI-powered agents automate tasks and enhance workflows in AEM.</p>
+                    <p class="is-size-6">Learn how to extend AEM into your favorite AI-tools.</p>
                 </div>
-                <a href="./agents/agents-in-aem.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
+                <a href="./mcp/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn</span>
                 </a>
             </div>
         </div>
@@ -115,7 +95,7 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../../sites/generative-ai/generate-variations.md" title="Generate Variations" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3427946/?format=jpeg&nocache=1772461889329" alt="Generate Variations"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3427946/?format=jpeg&nocache=1773082651737" alt="Generate Variations"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -138,7 +118,7 @@ Experience Manager as a Cloud Service provides advanced AI capabilities to enhan
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../../assets/search-and-discovery/ai-search.md" title="AI Search" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3479989/?format=jpeg&nocache=1772461889339" alt="AI Search"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3479989/?format=jpeg&nocache=1773082651746" alt="AI Search"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>

@@ -16,4 +16,4 @@ Learn how the [AEM AI Assistant](https://experienceleague.adobe.com/en/docs/expe
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475357/?learn=on&enablevpops)
 
-*To access the AEM AI Assistant, ensure you have set up access in your AEM environment by following the [setup guide](./setup.md#aem-ai-assistant).*
+*To access the AEM AI Assistant, ensure you have set up access in your AEM environment by following the [setup guide](../setup.md#aem-ai-assistant).*
