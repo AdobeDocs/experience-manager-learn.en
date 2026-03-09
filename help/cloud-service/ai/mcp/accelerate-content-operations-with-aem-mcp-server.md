@@ -16,6 +16,8 @@ Use the **Content MCP Server** from an AI-powered IDE such as [Cursor IDE](https
 
 In this tutorial you _review_ Adventure content fragment details, _update_ a fragment (for example, an adventure's price), and _verify_ the change in the [WKND Adventures React app](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app) all from your IDE against a _lower AEM environment_ (RDE or Development) without leaving the MCP flow.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3480895/?learn=on&enablevpops)
+
 ## Overview
 
 AEM as a Cloud Service provides _MCP Servers_ so your IDE or chat app can work with AEM securely. The **Content MCP Server** supports pages, fragments, and assets. See [MCP Servers in AEM](./overview.md) for more information.
