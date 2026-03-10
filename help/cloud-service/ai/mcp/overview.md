@@ -64,14 +64,8 @@ Simply put, **Host** is your IDE or Chat-based application, **Client** is the co
 
 ## Setup
 
-AEM MCP Servers are designed to work with a defined set of MCP-compatible applications. The following applications are officially supported:
-
-- [Anthropic Claude](https://claude.com/product/overview)
-- [Cursor](https://www.cursor.com/)
-- [OpenAI ChatGPT](https://chatgpt.com/)
-- [Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio)
-
-See [Setup Overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service#setup-overview) for more information.
+AEM MCP Servers are designed to work with a defined set of MCP-compatible applications. 
+To setup the AEM MCP Servers in your preferred IDE or Chat-based application, see [Supported MCP Applications](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/using-mcp-with-aem-as-a-cloud-service#supported-mcp-applications) for more information.
 
 ## Use Cases
 
