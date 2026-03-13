@@ -8,8 +8,8 @@ role: Developer
 level: Intermediate
 last-substantial-update: 2025-03-11
 duration: 520
+exl-id: a401823a-416c-4b35-9cdb-bd432f066279
 ---
-
 # SAML 2.0 login hook   
 
 Learn how to develop a custom SAML 2.0 login hook for AEM. This tutorial provides step-by-step instructions to create a custom login hook that integrates with a SAML 2.0 identity provider, allowing users to authenticate using their SAML credentials.
