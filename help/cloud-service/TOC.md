@@ -200,6 +200,7 @@ team: TM
 + Authentication{#authentication}
   + [Overview](./authentication/authentication.md)
   + [SAML 2.0](./authentication/saml-2-0.md)
+  + [SAML login hooks](./authentication/saml-2-0-login-hook.md)
 + Advanced Networking{#networking}
   + [Overview](./networking/advanced-networking.md)
   + [Flexible port egress](./networking/flexible-port-egress.md)
