@@ -329,6 +329,9 @@ team: TM
         + [4. Adding Icons](./forms/using-vertical-tabs/icons.md)
     + Using output and forms service{#forms-cs-output-and-forms-service}
         + [Generate PDF](./forms/forms-cs-output-and-forms-service/outputservice.md)
+    + Create profile in AEP on form submission{#aep-integration}
+        + [Create cloud configuration](./forms/aep-integration/create-cloud-configuration.md)
+        + [Configure form for AEP submission](./forms/aep-integration/create-integration-with-aep.md)
     + Interactive Communication Tutorial{#interactive-communication-tutorial}
         + [1. Introduction](./forms/interactive-communication-tutorial/introduction.md)
         + [2. Create FDM](./forms/interactive-communication-tutorial/create-form-data-model.md)
