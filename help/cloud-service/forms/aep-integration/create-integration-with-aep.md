@@ -10,8 +10,8 @@ doc-type: Technical Video
 duration: 340
 last-substantial-update: 2026-03-16
 jira: KT-20540
+exl-id: f7b280b8-1fad-425c-aa3d-a960b257d5ec
 ---
-
 # Integrate AEM Forms with Adobe Experience Platform
 
 Learn how to create and manage profiles in Adobe Experience Platform through AEM Forms submissions. This integration streamlines data management and enhances user experiences.
