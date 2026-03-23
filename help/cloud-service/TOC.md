@@ -330,6 +330,7 @@ team: TM
     + Using output and forms service{#forms-cs-output-and-forms-service}
         + [Generate PDF](./forms/forms-cs-output-and-forms-service/outputservice.md)
     + Create profile in AEP on form submission{#aep-integration}
+        + [Introduction](./forms/aep-integration/introduction.md)
         + [Create cloud configuration](./forms/aep-integration/create-cloud-configuration.md)
         + [Configure form for AEP submission](./forms/aep-integration/create-integration-with-aep.md)
     + Interactive Communication Tutorial{#interactive-communication-tutorial}

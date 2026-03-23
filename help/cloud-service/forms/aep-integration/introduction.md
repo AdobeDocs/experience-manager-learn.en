@@ -6,7 +6,6 @@ feature: Interactive Communication
 role: Developer
 level: Intermediate
 doc-type: Technical Video
-
 last-substantial-update: 2026-03-16
 jira: KT-20539
 
