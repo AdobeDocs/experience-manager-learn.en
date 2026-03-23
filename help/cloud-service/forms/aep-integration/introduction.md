@@ -8,7 +8,7 @@ level: Intermediate
 doc-type: Technical Video
 last-substantial-update: 2026-03-16
 jira: KT-20539
-
+exl-id: 1d4c3cf4-3217-4824-863a-31bb05cb0493
 ---
 # Integrate AEM Forms with Adobe Experience Platform(AEP)
 
