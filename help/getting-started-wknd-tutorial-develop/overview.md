@@ -4,7 +4,7 @@ description: Learn how to implement an AEM site for a fictitious lifestyle brand
 version: Experience Manager as a Cloud Service
 jira: KT-13565
 mini-toc-levels: 1
-index: y
+index: true
 thumbnail: 30476.jpg
 feature: Core Components, Page Editor, Editable Templates, AEM Project Archetype
 topic: Content Management, Development

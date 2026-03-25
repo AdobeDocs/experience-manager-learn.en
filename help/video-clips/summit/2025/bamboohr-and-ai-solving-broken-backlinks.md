@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 95
 feature: Generative AI
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: 3b3ef9c2-f4e0-45fa-a2a4-3e7130b4d6ce

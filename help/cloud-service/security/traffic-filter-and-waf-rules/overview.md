@@ -89,7 +89,8 @@ Examples include:
 
 Learn how to define, deploy, test and analyze traffic filter rules, including WAF rules, in AEM as a Cloud Service by following the setup guide and use cases below. This gives you the background knowledge so you can later confidently apply the Adobe-recommended rules. 
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./setup.md
@@ -130,7 +131,8 @@ Learn how to define, deploy, test and analyze traffic filter rules, including WA
 
 This guide provides step-by-step instructions to set up and deploy Adobe-recommended  standard traffic filter and WAF traffic filter rules in your AEM as a Cloud Service environment.
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./use-cases/using-traffic-filter-rules.md
@@ -200,7 +202,8 @@ This guide provides step-by-step instructions to set up and deploy Adobe-recomme
 
 For more advanced scenarios, you can explore the following use cases that demonstrate how to implement custom traffic filter rules based on specific business requirements:
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./how-to/request-logging.md

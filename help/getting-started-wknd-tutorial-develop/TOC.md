@@ -7,7 +7,7 @@ sub-product: Experience Manager Sites
 version: Experience Manager as a Cloud Service
 activity: develop
 audience: developer
-index: y
+index: true
 ---
 
 # Getting Started with AEM Sites - WKND Tutorial {#getting-started-wknd-tutorial-develop}

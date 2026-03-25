@@ -4,7 +4,7 @@ user-guide-description: A tutorial that helps you better understand how the Disp
 sub-product: Experience Manager
 version: Experience Manager 6.4, Experience Manager 6.5
 jira: KT-2233
-index: y
+index: true
 team: TM
 ---
  

@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 topic: Development
 feature: Operations
-index: y
+index: true
 doc-type: Tutorial
 exl-id: 7c12fc14-cdaf-45eb-807a-64de86a2a36a
 duration: 74

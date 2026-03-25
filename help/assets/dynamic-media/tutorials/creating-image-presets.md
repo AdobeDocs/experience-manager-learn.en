@@ -6,7 +6,7 @@ level: Intermediate
 version: Experience Manager as a Cloud Service
 feature: Image Presets
 topic: Development
-index: y
+index: true
 doc-type: Tutorial
 exl-id: e76c50da-e7a8-4560-bc53-02cdb13619bb
 duration: 93

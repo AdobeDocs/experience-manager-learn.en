@@ -88,7 +88,8 @@ In this example, the SPA is deployed to a Netlify domain (`https://main--sparkly
 
 Adobe provides an example single-page app coded in React.
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * ../example-apps/react-app.md
 

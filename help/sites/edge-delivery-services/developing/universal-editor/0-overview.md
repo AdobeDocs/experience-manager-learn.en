@@ -22,7 +22,8 @@ In this tutorial, you'll learn the fundamentals of building an AEM website that 
 
 Learn how to create a code project and configure a new site in AEM as a Cloud Service. This setup enables seamless development with the Universal Editor for content creation and fast content delivery through Edge Delivery Services. 
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * ./1-new-code-project.md
 * ./2-new-aem-site.md
@@ -82,7 +83,8 @@ Learn how to create a code project and configure a new site in AEM as a Cloud Se
 ## Development setup
 
 Learn how to configure your local development environment to enable fast website development. This setup allows for seamless site creation with the Universal Editor and efficient content delivery through Edge Delivery Services, ensuring a smooth and optimized development workflow.
-<!-- CARDS 
+<!-- 
+CARDS
 
 * ./3-local-development-environment.md
 * ./4-website-branding.md
@@ -143,7 +145,8 @@ Learn how to configure your local development environment to enable fast website
 
 Learn how to create a new block by defining its content model and setting up sample content for testing and development. Explore two methods for rendering the block and understand how to structure it for optimal performance and flexibility in AEM and Edge Delivery Services.
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * ./5-new-block.md {image = ./assets/5-new-block/card.png}
 * ./6-author-block.md {image = ./assets/6-author-block/card.png}
@@ -252,7 +255,8 @@ Learn how to create a new block by defining its content model and setting up sam
 
 Now that you've completed this tutorial, build on what you've learned with these focused how-tos. These guides expand on the code and concepts covered here, exploring role-specific use cases, advanced techniques, and additional tips to enhance Edge Delivery Services and Universal Editor development skills.
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * ./how-to/block-options.md
 * ./how-to/header-and-footer.md

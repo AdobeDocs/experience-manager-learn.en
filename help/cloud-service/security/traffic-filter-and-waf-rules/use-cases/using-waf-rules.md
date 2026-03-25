@@ -229,7 +229,8 @@ In this tutorial, you learned how to protect AEM websites from sophisticated thr
 
 For more advanced scenarios, you can explore the following use cases that demonstrate how to implement custom traffic filter rules based on specific business requirements:
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ../how-to/request-logging.md

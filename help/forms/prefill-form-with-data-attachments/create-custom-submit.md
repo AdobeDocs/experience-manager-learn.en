@@ -56,11 +56,7 @@ The custom submit service extracts and stores the attachments in Azure portal.  
     },
     "Message": "We would like to renew our annual contract "
 }
-``
-
-
 ```
-
 
 [The sample custom submit handler for core components based adaptive form is available here](https://github.com/adobe/aem-core-forms-components/blob/master/it/core/src/main/java/com/adobe/cq/forms/core/components/it/service/CustomAFSubmitService.java#L56). The following custom submit was written to handle the form submission
 

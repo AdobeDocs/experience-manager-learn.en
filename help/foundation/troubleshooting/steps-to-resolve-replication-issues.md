@@ -7,7 +7,7 @@ level: Beginner
 version: Experience Manager 6.5
 feature: Developer Tools
 topic: Administration
-index: y
+index: true
 doc-type: Technical Video
 exl-id: aa520806-3937-4100-b75a-78c2460c1b2f
 duration: 107

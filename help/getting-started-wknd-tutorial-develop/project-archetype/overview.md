@@ -7,7 +7,7 @@ topic: Content Management, Development
 role: Developer
 level: Beginner
 mini-toc-levels: 1
-index: y
+index: true
 doc-type: Tutorial
 exl-id: 90d14734-f644-4a45-9361-1e47a5b52fff
 recommendations: display, noCatalog

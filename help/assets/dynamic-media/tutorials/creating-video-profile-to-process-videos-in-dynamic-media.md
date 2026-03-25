@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 feature: Video Profiles
 topic: Development
-index: y
+index: true
 doc-type: Tutorial
 exl-id: 0fd4d366-bb7a-4c43-887f-3a83cf60d15b
 duration: 154

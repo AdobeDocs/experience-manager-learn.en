@@ -22,7 +22,8 @@ Learn how to upload assets, apply tags, and understand the approval workflow in 
 These videos cover AEM Assets Content Hub's key features -- from managing assets to collaborating with your team, each video provides clear steps and practical tips to help you make the most of AEM Assets Content Hub in your daily work.
 
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/content-hub/set-up {title = Set up}
 * https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/content-hub/configure {title = Configure}
@@ -228,7 +229,8 @@ These videos cover AEM Assets Content Hub's key features -- from managing assets
 
 Explore use cases and scenarios that demonstrate how AEM Assets Content Hub can be effectively utilized in various contexts. These examples provide insights into the practical applications of Content Hub, showcasing its versatility and adaptability to different asset management needs.
 
-<!-- CARDS
+<!-- 
+CARDS
 * ./use-cases/manage-assets.md
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -265,7 +267,8 @@ Explore use cases and scenarios that demonstrate how AEM Assets Content Hub can 
 Explore Content Hub's product documentation to help you understand and make full use of AEM Assets Content Hub. These resources provide detailed guidance on using its features and functions, ensuring you have the support you need for efficient asset management.
 
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview {title=Content Hub documentation} {description=This documentation serves as your entry point to learn about Content Hub's key benefits, access methods, and how to provide feedback on the available options.}
 * https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub {description=Learn how to deploy and activate Content Hub, providing users with various privileges, including asset uploads and administrator access.}

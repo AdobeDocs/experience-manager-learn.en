@@ -7,7 +7,7 @@ level: Intermediate
 version: Experience Manager 6.5
 feature: Assembler
 topic: Development
-index: y
+index: true
 exl-id: 2753326a-2f8c-49f8-91a4-88cc8d500f66
 duration: 120
 ---

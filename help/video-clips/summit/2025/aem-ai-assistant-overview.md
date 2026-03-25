@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 152
 feature: APIs, Cloud Manager, Generative AI, Search, Onboarding
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: 5a799ef6-9770-4cf1-a288-80a9bbb26faf

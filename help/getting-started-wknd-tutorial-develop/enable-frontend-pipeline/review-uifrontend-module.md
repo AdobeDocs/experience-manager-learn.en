@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate
 jira: KT-10689
 mini-toc-levels: 1
-index: y
+index: true
 recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: 65e8d41e-002a-4d80-a050-5366e9ebbdea

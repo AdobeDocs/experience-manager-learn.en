@@ -6,7 +6,7 @@ level: Intermediate
 version: Experience Manager 6.5
 feature: Workflow
 topic: Development
-index: y
+index: true
 doc-type: Tutorial
 exl-id: 4e55d3fe-68fd-4d41-a4b1-e73290e0934b
 duration: 60

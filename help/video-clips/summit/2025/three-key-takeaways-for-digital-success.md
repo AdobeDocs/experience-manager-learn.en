@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 64
 feature: Generative AI, Operations, Personalization
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: 39ed523f-abcd-49b5-978f-b795e109d7f5

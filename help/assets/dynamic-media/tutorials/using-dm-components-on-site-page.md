@@ -6,7 +6,7 @@ level: Intermediate
 version: Experience Manager as a Cloud Service
 feature: Core Components
 topic: Development
-index: y
+index: true
 doc-type: Tutorial
 exl-id: b500261a-5b96-41b8-8270-fb6bde95d48a
 duration: 112

@@ -5,7 +5,7 @@ breadcrumb-title: Dynamic Media Classic Tutorials
 solution: Experience Manager, Experience Manager Assets
 sub-product: Experience Manager Assets
 version: Experience Manager 6.4, Experience Manager 6.5
-index: y
+index: true
 ---
 
 # Introduction to Dynamic Media Classic {#dynamic-media-classic-tutorial}

@@ -15,7 +15,8 @@ exl-id: cc255744-bb86-49cb-88ca-1266d28985a5
 
 Experience Manager as a Cloud Service provides advanced AI capabilities to enhance content management, streamline workflows, and improve user experiences. By integrating AI-powered features such as the AEM AI Assistant and AEM AI Agents, users can automate tasks, gain insights, and optimize content delivery.
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * ./ai-assistant/overview.md
     {title = AEM AI Assistant}

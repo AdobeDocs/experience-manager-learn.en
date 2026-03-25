@@ -22,7 +22,8 @@ Visit the [Suggestion Box](https://forms.office.com/r/74P5Xz4UH0) for submitting
 
 Each season varies in length and is released on a fixed schedule. Visit this page for weekly updates or follow us on the social network of your choosing.
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * ./season-4/cloud5-edge-delivery-services-best-practices.md {title=Development best practices for Edge Delivery Services}
 * ./season-4/cloud5-search-optimization.md {title=Search optimization in Edge Delivery Services}

@@ -7,7 +7,7 @@ level: Intermediate
 version: Experience Manager 6.5
 feature: Designer
 topic: Development
-index: y
+index: true
 exl-id: 9cffce45-c853-440f-9ddf-2e179dff6745
 duration: 45
 ---

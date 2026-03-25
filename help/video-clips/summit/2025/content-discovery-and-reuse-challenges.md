@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 56
 feature: Content Fragments, Content Personalization, Asset Management
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: 07b2d50c-9243-4142-9357-29c36856c29d

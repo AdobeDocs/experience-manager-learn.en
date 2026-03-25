@@ -221,7 +221,8 @@ Note that the `api.yaml` file can also be installed in an [RDE](https://experien
 
 Once the AEM instance is configured to enable ADC Project communication, you can start using the OpenAPI-based AEM APIs. Learn how to use the OpenAPI-based AEM APIs using different OAuth authentication methods:
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./use-cases/invoke-api-using-oauth-s2s.md

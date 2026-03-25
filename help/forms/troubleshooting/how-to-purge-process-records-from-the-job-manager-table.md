@@ -6,7 +6,7 @@ role: Developer
 level: Experienced
 version: Experience Manager 6.5
 topic: Development
-index: y
+index: true
 exl-id: 090bba8d-3f1c-4370-9bc6-29bf0573bb77
 duration: 78
 ---

@@ -23,7 +23,8 @@ Review the [documentation](https://experienceleague.adobe.com/en/docs/experience
 
 ## Edge Delivery Services developer tutorials
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build/tutorial
   {title = Document-based authoring and Edge Delivery Services tutorial}

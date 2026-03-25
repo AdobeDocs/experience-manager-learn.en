@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 jira: KT-11366
 thumbnail: KT-11366.jpg
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: 8f96093a-4449-4249-9257-028e2ffd979b

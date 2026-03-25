@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 112
 feature: Asset Management, Metadata, Smart Tags, Asset Processing
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: a9ed4c09-307c-42f1-9d3c-37481b305bf2

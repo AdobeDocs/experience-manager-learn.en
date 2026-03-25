@@ -58,7 +58,8 @@ Learn recommended best practices for configuring traffic filter rules including 
 
 Learn how to implement traffic filter rules and WAF rules in AEM as a Cloud Service:
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./use-cases/using-traffic-filter-rules.md

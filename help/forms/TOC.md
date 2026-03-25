@@ -7,7 +7,7 @@ solution: Experience Manager, Experience Manager Forms
 breadcrumb-title: AEM Forms Tutorials
 sub-product: Experience Manager Forms
 version: Experience Manager 6.4, Experience Manager 6.5
-index: y
+index: true
 ---
 
 # AEM Forms Videos and Tutorials {#forms}

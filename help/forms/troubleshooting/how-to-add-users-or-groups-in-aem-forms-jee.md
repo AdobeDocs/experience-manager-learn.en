@@ -7,7 +7,7 @@ level: Intermediate
 version: Experience Manager 6.5
 topic: Administration
 feature: User and Groups
-index: y
+index: true
 exl-id: 595252dd-a882-4faa-938b-7aeb5a383056
 duration: 130
 ---

@@ -20,7 +20,8 @@ Explore these playlists to master the AEM Assets as a Cloud Service Admin view�
 
 Get started with essential setup and configurations to make AEM Assets as a Cloud Service work seamlessly for your team and projects.
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-all-configure-administrative-access
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-configure-administrators
@@ -88,7 +89,8 @@ Get started with essential setup and configurations to make AEM Assets as a Clou
 
 Navigate the admin interface like a pro — learn the tools and techniques to manage assets efficiently.
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-business-users  
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-understand-metadata
@@ -204,7 +206,8 @@ Navigate the admin interface like a pro — learn the tools and techniques to ma
 
 Unlock smooth collaboration by integrating AEM Assets as a Cloud Service with your creative tools, ensuring cohesive and efficient workflows.
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-create-renditions-content-automation
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-use-creative-operations-with-content-automation

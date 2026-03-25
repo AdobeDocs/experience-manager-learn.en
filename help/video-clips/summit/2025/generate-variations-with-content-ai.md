@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 145
 feature: Generate Variations, Generative AI, Publishing
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: 885dd083-79f1-49c4-88cc-7594aaa3fdbf

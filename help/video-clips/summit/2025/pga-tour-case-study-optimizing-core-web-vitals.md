@@ -9,7 +9,7 @@ level: Beginner, Intermediate, Experienced
 type: Event
 doc-type: Video Clip
 duration: 95
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: 8b13fb6c-f16f-45ba-aca1-c72c7e218b95

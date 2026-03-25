@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 115
 feature: Generative AI, Migration, Onboarding, Developer Tools, Projects
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: da9a0a9b-000b-4dd6-895e-8b20ade31664

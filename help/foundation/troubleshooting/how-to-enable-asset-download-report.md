@@ -7,7 +7,7 @@ level: Beginner
 version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Adobe Asset Link
 topic: Administration
-index: y
+index: true
 doc-type: Technical Video
 exl-id: d50f626b-ced8-4320-91c2-738687bec295
 duration: 96

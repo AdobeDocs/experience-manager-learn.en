@@ -69,7 +69,8 @@ To setup the AEM MCP Servers in your preferred IDE or Chat-based application, se
 
 ## Use Cases
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./accelerate-content-operations-with-aem-mcp-server.md    

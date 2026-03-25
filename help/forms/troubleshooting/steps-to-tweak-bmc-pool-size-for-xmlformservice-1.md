@@ -7,7 +7,7 @@ level: Intermediate
 version: Experience Manager 6.5
 feature: Output Service,Forms Service
 topic: Development
-index: y
+index: true
 exl-id: 1aead631-8ed5-41c8-9b0e-a081c793cee5
 duration: 104
 ---

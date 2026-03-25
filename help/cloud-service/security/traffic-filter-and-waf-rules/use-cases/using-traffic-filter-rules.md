@@ -257,7 +257,8 @@ In this tutorial, you learned how to protect AEM websites from Denial of Service
 
 Learn how to implement Adobe recommended WAF rules to protect your AEM websites from sophisticated threats that use advanced techniques to bypass traditional security measures.
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./using-waf-rules.md
@@ -299,7 +300,8 @@ Learn how to implement Adobe recommended WAF rules to protect your AEM websites 
 
 For more advanced scenarios, you can explore the following use cases that demonstrate how to implement custom traffic filter rules based on specific business requirements:
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ../how-to/request-logging.md

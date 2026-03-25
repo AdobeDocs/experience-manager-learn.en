@@ -54,7 +54,8 @@ If you are migrating from AMS or on-premise (OTP) to AEM as a Cloud Service, Ado
 
 Explore the three approaches to building with AEM Sites in more detail. The tutorials below walk you through how each option works, the tools involved, and when to use them.
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://www.aem.live/docs/
   {title = Edge Delivery Services - Guides}

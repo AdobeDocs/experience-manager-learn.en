@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 jira: KT-11466
 last-substantial-update: 2024-10-22
-index: y
+index: true
 doc-type: Article
 exl-id: 8e64f251-e5fd-4add-880e-9d54f8e501a6
 duration: 164

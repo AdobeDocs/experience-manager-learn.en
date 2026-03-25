@@ -2,7 +2,7 @@
 title: Find and remove deprecated APIs in AEM as a Cloud Service
 description: Learn how to find and remove deprecated APIs in AEM as a Cloud Service.
 version: Experience Manager as a Cloud Service
-role: Developer, Architect
+role: Developer
 level: Beginner
 doc-type: tutorial
 duration: null

@@ -7,7 +7,7 @@ level: Beginner
 version: Experience Manager 6.5
 feature: Designer
 topic: Administration
-index: y
+index: true
 exl-id: 83e09f3f-1058-44d7-b068-a84eeb671e37
 duration: 82
 ---

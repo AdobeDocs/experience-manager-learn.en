@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 488
 feature: APIs, Integrations, Personalization, Search, Workflow
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: eac1d731-6860-4af4-aba4-bc93abb40073

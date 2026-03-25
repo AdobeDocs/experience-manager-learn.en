@@ -7,7 +7,7 @@ level: Beginner
 version: Experience Manager 6.5
 feature: Mobile Forms
 topic: Administration
-index: y
+index: true
 exl-id: 0fdfa72d-0e96-4389-86b4-826c37d64982
 duration: 101
 ---

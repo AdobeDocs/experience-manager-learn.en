@@ -88,7 +88,8 @@ Before accessing Adobe APIs, it's essential to understand these key constructs:
 
 Learn how to set up your AEM as a Cloud Service environment and an Adobe Developer Console project to enable access to the OpenAPI-based AEM APIs. Also access AEM API using brower to verify the setup and review the request and response.
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./setup.md
@@ -129,7 +130,8 @@ Learn how to set up your AEM as a Cloud Service environment and an Adobe Develop
 
 Learn how to use the OpenAPI-based AEM APIs using different OAuth authentication methods:
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./use-cases/invoke-api-using-oauth-s2s.md

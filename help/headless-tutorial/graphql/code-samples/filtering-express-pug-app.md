@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 jira: KT-11812
 thumbnail: KT-11812.jpg
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 recommendations: noCatalog, noDisplay

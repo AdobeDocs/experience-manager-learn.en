@@ -20,7 +20,8 @@ Explore these playlists to master the AEM Assets as a Cloud Service Assets view�
 
 Get started with essential setup and configurations to make AEM Assets as a Cloud Service work seamlessly for your team and projects.
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-all-configure-administrative-access
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-get-started-assets-essentials {title=Get started with Assets view}
@@ -90,7 +91,8 @@ Get started with essential setup and configurations to make AEM Assets as a Clou
 
 Navigate the Assets view interface like a pro — learn the tools and techniques to manage assets efficiently.
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-generate-image-assets-with-adobe-firefly
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-assets-view-search-use
@@ -153,7 +155,8 @@ Navigate the Assets view interface like a pro — learn the tools and techniques
 
 Unlock smooth collaboration by integrating AEM Assets as a Cloud Service with your creative tools, ensuring cohesive and efficient workflows.
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-assets-manage-creative-workflows-with-workfront-and-assets-essentials
   { title = Manage Creative Workflows Using Workfront and AEM Assets }

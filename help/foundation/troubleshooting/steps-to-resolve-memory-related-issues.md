@@ -7,7 +7,7 @@ level: Intermediate
 version: Experience Manager 6.5, Experience Manager as a Cloud Service
 feature: Developer Tools
 topic: Administration
-index: y
+index: true
 doc-type: Technical Video
 exl-id: 6477e9df-f33f-46b1-aa9b-535063da65dd
 duration: 109

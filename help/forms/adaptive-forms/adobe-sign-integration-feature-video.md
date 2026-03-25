@@ -9,7 +9,7 @@ topic-tags: forms, adaptive_forms
 topic: Integrations
 discoiquuid: aec562a4-4405-4e6f-9ad5-7477fa1d078f
 targetaudience: target-audience advanced
-index: y
+index: true
 internal: n
 snippet: y
 last-substantial-update: 2020-10-20

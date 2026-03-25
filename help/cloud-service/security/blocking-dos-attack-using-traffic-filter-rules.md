@@ -44,7 +44,8 @@ Let's look at some additional, recommended measures that customers can take to p
 
 Explore the following tutorials to configure Adobe-recommneded rules to block attacks.
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./traffic-filter-and-waf-rules/setup.md

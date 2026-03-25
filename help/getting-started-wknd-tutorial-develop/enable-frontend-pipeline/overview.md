@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate
 jira: KT-10689
 mini-toc-levels: 1
-index: y
+index: true
 recommendations: disable
 thumbnail: 53409343.jpg
 last-substantial-update: 2022-09-23

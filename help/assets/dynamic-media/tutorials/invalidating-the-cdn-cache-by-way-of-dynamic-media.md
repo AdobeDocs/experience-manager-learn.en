@@ -6,7 +6,7 @@ level: Intermediate
 version: Experience Manager as a Cloud Service
 topic: Development
 feature: Operations
-index: y
+index: true
 doc-type: Tutorial
 exl-id: 7993e482-3db0-46a0-ae2f-f5a167ac02dc
 duration: 83

@@ -6,7 +6,7 @@ role: Admin
 level: Intermediate
 version: Experience Manager 6.5
 topic: Administration
-index: y
+index: true
 exl-id: 10b9b5cd-752a-464b-b38b-c73fb31921fc
 duration: 90
 ---

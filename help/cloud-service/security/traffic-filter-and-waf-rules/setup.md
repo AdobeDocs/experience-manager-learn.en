@@ -174,7 +174,8 @@ You have successfully set up the groundwork for implementing traffic filter rule
 
 Learn how to implement the Adobe recommended rules using the following tutorials:
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./use-cases/using-traffic-filter-rules.md
@@ -244,7 +245,8 @@ Learn how to implement the Adobe recommended rules using the following tutorials
 
 Beyond the Adobe-recommended standard traffic filter and WAF rules, you can implement advanced scenarios to achieve specific business requirements. These scenarios include:
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./how-to/request-logging.md

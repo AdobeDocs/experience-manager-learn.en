@@ -7,7 +7,7 @@ level: Intermediate
 version: Experience Manager 6.5
 feature: Mobile Forms
 topic: Development
-index: y
+index: true
 exl-id: 28fa5597-bab5-4fb9-8d30-e9fd41820749
 duration: 56
 ---

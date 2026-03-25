@@ -7,7 +7,7 @@ level: Intermediate
 version: Experience Manager 6.5
 feature: PDF Generator
 topic: Administration
-index: y
+index: true
 exl-id: 397f5580-d982-46f3-b63a-7fc6def07ec5
 duration: 128
 ---

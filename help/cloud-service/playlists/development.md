@@ -16,7 +16,8 @@ Explore essential resources and guides designed for AEM as a Cloud Service devel
 
 Master the essential skills and best practices for developing in AEM as a Cloud Service, from setting up your environment to understanding core frameworks and structures.
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-sites-understand-architects
 * https://experienceleague.adobe.com/en/playlists/experience-manager-all-understand-back-end-development
@@ -126,7 +127,8 @@ Master the essential skills and best practices for developing in AEM as a Cloud 
 
 Learn how to use Cloud Manager to deploy code AEM as a Cloud Service.
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-cloud-manager-understand
 * https://experienceleague.adobe.com/en/playlists/experience-manager-cloud-manager-deploy-ci-cd
@@ -188,7 +190,8 @@ Learn how to use Cloud Manager to deploy code AEM as a Cloud Service.
 
 Dive into practical development use cases and step-by-step guides, helping you tackle common tasks and create powerful custom solutions in AEM as a Cloud Service.
 
-<!-- CARDS 
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-all-develop-osgi-services
 * https://experienceleague.adobe.com/en/playlists/experience-manager-all-prevent-dos-and-doss-attacks
@@ -346,7 +349,8 @@ Dive into practical development use cases and step-by-step guides, helping you t
 
 Explore how to integrate AEM as a Cloud Service with external systems, tools, and APIs to extend functionality and streamline workflows across your digital ecosystem.
 
-<!-- CARDS
+<!-- 
+CARDS
 
 * https://experienceleague.adobe.com/en/playlists/experience-manager-forms-integrate-adobe-sign
 * https://experienceleague.adobe.com/en/playlists/experience-manager-forms-integrate-salesforce

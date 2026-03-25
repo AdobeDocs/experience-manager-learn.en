@@ -7,7 +7,7 @@ level: Intermediate
 version: Experience Manager 6.5
 feature: Workbench
 topic: Administration
-index: y
+index: true
 exl-id: 7715bf31-9f7c-4ff9-828f-a1b16e35fda7
 duration: 49
 ---

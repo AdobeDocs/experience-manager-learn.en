@@ -38,7 +38,8 @@ Experience personalization in action on the [WKND Enablement website](https://wk
 >
 > Exploring the live demo first helps you understand the value and capabilities of each personalization technique before investing time in setup and implementation.
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./live-demo.md
@@ -79,7 +80,8 @@ Experience personalization in action on the [WKND Enablement website](https://wk
 
 Before exploring specific use cases, you first configure AEM as a Cloud Service for personalization. Begin by integrating Adobe Target and Tags to enable client-side personalization using the Web SDK. These foundational steps allow your AEM pages to support experimentation, audience targeting, and real-time personalization.
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./setup/integrate-adobe-target.md
@@ -152,7 +154,8 @@ Before exploring specific use cases, you first configure AEM as a Cloud Service 
 
 Explore the following common personalization use cases supported by AEMCS, Adobe Target, and Adobe Experience Platform.
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./use-cases/experimentation.md

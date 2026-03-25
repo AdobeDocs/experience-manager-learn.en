@@ -7,7 +7,7 @@ solution: Experience Manager, Experience Manager Sites
 sub-product: Experience Manager Sites
 version: Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-2963
-index: y
+index: true
 ---
  
 # Getting Started with AEM Headless{#getting-started-with-aem-headless}

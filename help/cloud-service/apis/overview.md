@@ -68,7 +68,8 @@ Learn more about the OpenAPI-based AEM APIs and the important concepts of access
 
 ### Use Cases
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * ./openapis/use-cases/invoke-api-using-oauth-s2s.md
@@ -166,7 +167,8 @@ Learn more about the GraphQL APIs and how to use them in the [Getting Started wi
 
 ### Use Cases
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/deployments/spa#example-single-page-app
@@ -262,7 +264,8 @@ Learn more about the RESTful APIs, such as [Assets HTTP API](https://experiencel
 
 ### Use Cases
 
-<!-- CARDS
+<!-- 
+CARDS
 {target = _self}
 
 * https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/content-services/overview

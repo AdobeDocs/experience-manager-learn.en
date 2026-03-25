@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 feature: Dynamic Media Classic
 topic: Development
-index: y
+index: true
 doc-type: Tutorial
 exl-id: 9e845b1c-2045-4755-b6f0-3526396d3126
 duration: 64

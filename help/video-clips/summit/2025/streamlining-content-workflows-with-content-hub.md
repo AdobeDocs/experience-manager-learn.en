@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 99
 feature: Asset Management, Collections, Metadata, Rulesets
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: 5f7de18c-8859-4201-be24-4fa2ae4aeb8d

@@ -10,7 +10,7 @@ type: Event
 doc-type: Video Clip
 duration: 138
 feature: Brand Experiences, Content Personalization, Multichannel Delivery, Renditions, Templates
-index: no
+index: false
 hide: yes
 hidefromtoc: yes
 exl-id: 71c0c58e-5789-417b-9a61-f290ca1b4ae5

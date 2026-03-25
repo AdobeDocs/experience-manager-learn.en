@@ -7,7 +7,7 @@ level: Intermediate
 version: Experience Manager 6.5
 topic: Administration
 feature: Operations
-index: y
+index: true
 exl-id: edb97c88-2689-4508-82a6-256b344133c0
 duration: 55
 ---
