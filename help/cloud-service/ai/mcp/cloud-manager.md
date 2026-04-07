@@ -1,6 +1,6 @@
 ---
 title: Cloud Manager MCP Server
-description: Cloud Manager MCP Server lets AEM Developers run pipelines, debug failures, and access Cloud Manager tools directly in their IDE - no context switching.
+description: Learn how the Cloud Manager MCP server lets AI tools interact with AEM as a Cloud Service to manage programs, environments, repositories, and pipelines.
 version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate, Experienced
