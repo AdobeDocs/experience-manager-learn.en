@@ -30,6 +30,7 @@ team: TM
     + [What is AI Assistant?](./ai/ai-assistant/what-is-ai-assistant.md)
     + [Who is AI Assistant for?](./ai/ai-assistant/who-is-ai-assistant-for.md)
     + [Key Capabilities](./ai/ai-assistant/key-capabilities.md)
+    + [AI Assistant and Agentic AI](./ai/ai-assistant/ai-assistant-and-agentic-ai.md)
   + Agents {#agents}
     + [Overview](./ai/agents/agents-in-aem.md)
     + [Dev Agent and CI/CD Troubleshooting](./ai/agents/development-agent-troubleshoot-ci-cd-pipeline.md)
