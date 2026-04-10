@@ -9,7 +9,9 @@ duration: 149
 ---
 # Caching page variants
 
-Learn how to set up and use AEM as a cloud service to support caching page variants.
+Web experiences often need to adapt content for different audiences—whether by geography, personalization, or experimentation. In this tutorial, you’ll learn how to configure Adobe Experience Manager (AEM) as a Cloud Service to efficiently cache and serve multiple page variants using the `x-aem-variant` cookie, ensuring both flexibility and high performance at scale.
+
+At a high level, the approach involves your project's code setting a visitor-specific `x-aem-variant` cookie (for example, based on location), which is then transformed into a request header at the CDN. This value is incorporated into the request URL via a dispatcher rewrite rule, allowing AEM to render the correct variant while enabling the CDN and dispatcher to cache a separate version of the page for each variant.
 
 ## Example use cases 
 
@@ -21,7 +23,7 @@ Learn how to set up and use AEM as a cloud service to support caching page varia
 
 + Identify the variant key and the number of values it may have. In our example, we vary by US state, so the max number is 50. This is small enough to not cause problems with the variant limits at the CDN. [Review variant limitations section](#variant-limitations).
 
-+ AEM code must set the cookie __"x-aem-variant"__ to the visitor's preferred state (eg. `Set-Cookie: x-aem-variant=NY`) on the initial HTTP request's corresponding HTTP response.
++ Project code must set the cookie __"x-aem-variant"__ to the visitor's preferred state (eg. `Set-Cookie: x-aem-variant=NY`) on the initial HTTP request's corresponding HTTP response. AEM and the Adobe-managed CDN do not automatically determine or set `x-aem-variant`. If this header/cookie is present, it is because your application has set it. This header can be set via an custom AEM Servlet or AEM Servlet Filter (as shown in the code sample below).
 
 + Subsequent requests from the visitor send that cookie (eg. `"Cookie: x-aem-variant=NY"`) and the cookie is transformed at the CDN level into a pre-defined header (i.e. `x-aem-variant:NY`) which is passed to the dispatcher.
 
@@ -49,7 +51,7 @@ Learn how to set up and use AEM as a cloud service to support caching page varia
 
 1. AEM's CDN automatically transforms `x-aem-variant` cookie into an HTTP header of the same name. 
 
-1. Add an Apache Web server mod_rewrite rule to your `dispatcher` project, that modifies the request path to include the variant selector.
+1. Add an Apache Web server `mod_rewrite` rule to your `dispatcher` project, that modifies the request path to include the variant selector.
 
 1. Deploy the filter and rewrite rules using Cloud Manager.
 
