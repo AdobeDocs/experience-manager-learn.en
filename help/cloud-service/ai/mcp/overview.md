@@ -18,8 +18,8 @@ Learn how to use the AEM _Model Context Protocol (MCP) Servers_ from your prefer
 
 All AEM MCP Servers are available under `https://mcp.adobeaemcloud.com/adobe/mcp/`. See [Using MCP with AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) for more information.
 
-- **Content** (`/content`) — Full access to create, read, update, and delete pages, fragments, and assets.
-- **Content (read-only)** (`/content-readonly`) — Read-only to list and get pages, fragments, and assets (no changes).
+- **Content** (`/content`) — Content operations including create, read, update, and delete (CRUD) for pages and content fragments, plus asset importing.
+- **Content (read-only)** (`/content-readonly`) — Read-only content operations (Get, List/Search) for pages and content fragments.
 - **Cloud Manager** (`/cloudmanager`) — To manage Adobe Cloud Manager programs, environments, repositories and pipelines.
 
 >[!TIP]

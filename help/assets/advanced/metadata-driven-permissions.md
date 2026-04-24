@@ -40,7 +40,9 @@ To implement Metadata-Driven Permissions a developer must deploy an OSGi configu
         "status",
         "brand"
       ],
-      "restrictionContentPropertyNames":[],
+      "restrictionContentPropertyNames":[
+        "dam:rightsManaged"
+      ],
       "enabled":true
     }
     ```
