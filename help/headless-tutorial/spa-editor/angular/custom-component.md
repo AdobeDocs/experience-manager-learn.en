@@ -11,7 +11,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 6c1c7f2b-f574-458c-b744-b92419c46f23
 duration: 308
-hide: yes
+hide: true
 ---
 # Create a Custom Component {#custom-component}
 

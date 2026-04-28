@@ -11,7 +11,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 497ce6d7-cd39-4fb3-b5e0-6c60845f7648
 duration: 477
-hide: yes
+hide: true
 ---
 # Map SPA components to AEM components {#map-components}
 

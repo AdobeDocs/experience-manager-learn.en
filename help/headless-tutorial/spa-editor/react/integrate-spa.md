@@ -11,7 +11,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 31416399-6a4e-47d1-8ed8-be842a01a727
 duration: 409
-hide: yes
+hide: true
 ---
 # Integrate the SPA {#developer-workflow}
 

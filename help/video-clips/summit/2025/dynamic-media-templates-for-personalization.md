@@ -11,7 +11,7 @@ doc-type: Video Clip
 duration: 319
 feature: Generate Variations, Personalization, Rich Text Editor, Integrations
 index: false
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: d4458e36-348a-4903-9990-1382443f128b
 ---

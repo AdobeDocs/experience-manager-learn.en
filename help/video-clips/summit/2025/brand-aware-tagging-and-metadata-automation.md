@@ -11,7 +11,7 @@ doc-type: Video Clip
 duration: 112
 feature: Asset Management, Metadata, Smart Tags, Asset Processing
 index: false
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: a9ed4c09-307c-42f1-9d3c-37481b305bf2
 ---

@@ -11,7 +11,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 49fcd603-ab1a-4f1e-ae1f-49d3ff373439
 duration: 252
-hide: yes
+hide: true
 ---
 # SPA Editor Project {#create-project}
 

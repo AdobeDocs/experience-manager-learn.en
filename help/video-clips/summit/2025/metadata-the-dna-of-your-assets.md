@@ -11,7 +11,7 @@ doc-type: Video Clip
 duration: 122
 feature: Search, Tagging, Workflow
 index: false
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: dcc6c975-dd7e-402d-844c-eccf888d9b2c
 ---

@@ -12,7 +12,7 @@ recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: 4accc1ca-6f4b-449e-bf2e-06f19d2fe17d
 duration: 202
-hide: yes
+hide: true
 ---
 # Dynamic routes and editable components
 

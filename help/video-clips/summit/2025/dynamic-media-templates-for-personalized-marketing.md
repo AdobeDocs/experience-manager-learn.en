@@ -11,7 +11,7 @@ doc-type: Video Clip
 duration: 155
 feature: Dynamic Media, Content Personalization, Templates, Publishing
 index: false
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: e875feab-bf5b-47ab-b3be-ee0c2e418f50
 ---

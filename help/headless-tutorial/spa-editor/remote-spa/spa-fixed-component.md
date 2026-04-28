@@ -12,7 +12,7 @@ recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: edd18f2f-6f24-4299-a31a-54ccc4f6d86e
 duration: 164
-hide: yes
+hide: true
 ---
 # Editable fixed components
 

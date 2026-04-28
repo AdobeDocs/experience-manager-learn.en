@@ -11,7 +11,7 @@ thumbnail: 22229.jpg
 doc-type: Feature Video
 exl-id: 645b6986-830f-4409-b46c-ddf15c33e84c
 duration: 473
-hide: yes
+hide: true
 ---
 # Using the SPA Editor with AEM Sites 
 
