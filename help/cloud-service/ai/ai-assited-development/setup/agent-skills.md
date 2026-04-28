@@ -10,8 +10,8 @@ duration: 0
 last-substantial-update: 2026-04-24
 jira: KT-20900
 thumbnail: KT-20900.png
+exl-id: c92d9124-4b92-4ee1-b04f-b6d1f82d53aa
 ---
-
 # Set up AEM Agent Skills
 
 Learn how to set up AEM Agent Skills for AI-assisted development.

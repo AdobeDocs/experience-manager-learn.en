@@ -10,8 +10,8 @@ duration: 0
 last-substantial-update: 2026-04-24
 jira: KT-20899
 thumbnail: KT-20899.pngKT-20899
+exl-id: 19b7ab0b-2f47-434a-a141-17701f432fac
 ---
-
 # AI-assisted development
 
 AI-assisted development uses an AI-powered IDE or coding agents along with `AGENTS.md`, Agent Skills, and MCP servers to help produce high-quality, production-ready code for AEM as a Cloud Service projects.

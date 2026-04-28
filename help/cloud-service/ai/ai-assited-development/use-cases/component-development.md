@@ -10,8 +10,8 @@ duration: 0
 last-substantial-update: 2026-04-24
 jira: KT-20901
 thumbnail: KT-20901.png
+exl-id: bd9b74e8-81ab-4d42-bd0a-5443248b5770
 ---
-
 # Component development using AEM Agent Skills
 
 Learn how to develop an AEM component using AEM Agent Skills as part of [AI-assisted development](../overview.md).
