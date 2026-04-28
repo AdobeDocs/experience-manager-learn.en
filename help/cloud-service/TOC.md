@@ -38,6 +38,12 @@ team: TM
     + [Overview](./ai/mcp/overview.md)
     + [Accelerate AEM Content Operations with the MCP Server](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
     + [Cloud Manager MCP Server](./ai/mcp/cloud-manager.md)
+  + AI-assisted development {#ai-assisted-development}
+    + [Overview](./ai/ai-assited-development/overview.md)
+    + Setup{#setup}
+      + [Agent Skills](./ai/ai-assited-development/setup/agent-skills.md)
+    + Use Cases{#use-cases}
+      + [Component Development](./ai/ai-assited-development/use-cases/component-development.md)
 + Experience Cloud integrations{#integrations}
   + [Integrations](./integrations/experience-cloud.md)
   + [AEM Headless and Target](./integrations/target.md)
