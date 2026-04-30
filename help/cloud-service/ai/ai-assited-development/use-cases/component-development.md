@@ -18,6 +18,8 @@ Learn how to develop an AEM component using AEM Agent Skills as part of [AI-assi
 
 In this walkthrough, you use natural language in an AI-powered IDE (for example, Cursor) to develop a **Promo Banner** component in the [WKND Sites Project](https://github.com/adobe/aem-guides-wknd). The coding agent applies the `create-component` AEM Agent Skill to generate the implementation.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3484952/?learn=on&enablevpops)
+
 ## Prerequisites
 
 To follow this tutorial, you need the following:

@@ -22,6 +22,8 @@ Adobe provides the AEM Agent Skills via the [Adobe Skills](https://github.com/ad
 
 In this tutorial, you install the skills on a local clone of the [WKND Sites Project](https://github.com/adobe/aem-guides-wknd). You can use the same steps for your own AEM as a Cloud Service project.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3484940/?learn=on&enablevpops)
+
 ## Prerequisites
 
 To follow this tutorial, you need the following:
