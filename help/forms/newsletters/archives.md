@@ -2,7 +2,7 @@
 title: Experience League Monthly Newsletters Archive.
 description: Download archived versions of the newsletter.
 hidefromtoc: yes
-hide: true
+hide: yes
 exl-id: 16133400-b4c6-4d86-9c28-d5e230d55839
 ---
 # Experience League Monthly Newsletters Archive
@@ -30,5 +30,6 @@ Our monthly Experience League Content Newsletters are available for download on 
 | [January](assets/Jan-2026.pdf)|
 | [February](assets/Feb-2026.pdf)|
 | [March](assets/March-2026.pdf)|
+| [April](assets/April-2026.pdf)|
 
 
