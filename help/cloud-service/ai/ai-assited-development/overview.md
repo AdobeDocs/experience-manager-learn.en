@@ -3,7 +3,7 @@ title: AI-assisted development
 description: Learn about AI-assisted development that uses an AI-powered IDE or coding agents along with AGENTS.md, Agent Skills, and MCP servers to help produce high-quality, production-ready code for projects on AEM as a Cloud Service.
 version: Experience Manager as a Cloud Service
 feature: Developer Tools
-role: Developer, Architect
+role: Developer
 level: Beginner
 doc-type: Article
 duration: 0

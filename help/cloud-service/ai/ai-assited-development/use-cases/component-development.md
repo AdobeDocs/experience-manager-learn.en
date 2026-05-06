@@ -3,7 +3,7 @@ title: Component development using AEM Agent Skills
 description: Learn how to develop an AEM component using AEM Agent Skills as part of AI-assisted development.
 version: Experience Manager as a Cloud Service
 feature: Developer Tools
-role: Developer, Architect
+role: Developer
 level: Beginner
 doc-type: Article
 duration: 0
