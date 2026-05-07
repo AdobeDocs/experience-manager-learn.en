@@ -12,7 +12,6 @@ duration: 174
 feature: Generative AI, Search, Tagging
 index: false
 hide: true
-hidefromtoc: yes
 exl-id: c726c62a-d3a9-471f-8091-4fb00010a7d9
 ---
 # Semantic Search and Intent-Based Discovery

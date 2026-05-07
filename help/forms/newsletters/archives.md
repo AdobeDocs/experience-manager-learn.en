@@ -1,7 +1,6 @@
 ---
 title: Experience League Monthly Newsletters Archive.
 description: Download archived versions of the newsletter.
-hidefromtoc: yes
 hide: true
 exl-id: 16133400-b4c6-4d86-9c28-d5e230d55839
 ---

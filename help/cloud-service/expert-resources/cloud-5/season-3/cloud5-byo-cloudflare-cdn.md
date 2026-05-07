@@ -6,7 +6,6 @@ feature: Edge Delivery Services
 topic: Development
 role: Developer, Leader, User
 level: Intermediate, Experienced
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 duration: 495
 last-substantial-update: 2024-04-05
