@@ -2,7 +2,6 @@
 title: AEM Trials image index
 description: This file contains reference to images used in the AEM trials marketing materials.
 index: false
-hidefromtoc: yes
 hide: true
 exl-id: c2ee05f0-9e10-4a3b-8ecb-0366116356e8
 duration: 8

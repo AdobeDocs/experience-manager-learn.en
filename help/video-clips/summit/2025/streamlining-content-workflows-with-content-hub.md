@@ -12,7 +12,6 @@ duration: 99
 feature: Asset Management, Collections, Metadata, Rulesets
 index: false
 hide: true
-hidefromtoc: yes
 exl-id: 5f7de18c-8859-4201-be24-4fa2ae4aeb8d
 ---
 # Streamlining Content Workflows with Content Hub

@@ -11,7 +11,6 @@ doc-type: Video Clip
 duration: 95
 index: false
 hide: true
-hidefromtoc: yes
 exl-id: 8b13fb6c-f16f-45ba-aca1-c72c7e218b95
 ---
 # PGA TOUR Case Study: Optimizing Core Web Vitals

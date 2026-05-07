@@ -12,7 +12,6 @@ duration: 115
 feature: Generative AI, Migration, Onboarding, Developer Tools, Projects
 index: false
 hide: true
-hidefromtoc: yes
 exl-id: da9a0a9b-000b-4dd6-895e-8b20ade31664
 ---
 # Experience Catalyst: Migrating to AEM Cloud Services

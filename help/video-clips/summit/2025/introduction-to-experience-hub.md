@@ -12,7 +12,6 @@ duration: 121
 feature: Personalization, Onboarding, Security
 index: false
 hide: true
-hidefromtoc: yes
 exl-id: 8f2826fe-d330-42f5-be29-7bc3a2f26deb
 ---
 # Introduction to Experience Hub

@@ -11,7 +11,6 @@ jira: KT-11135
 thumbnail: KT-11135.jpg
 index: false
 hide: true
-hidefromtoc: yes
 exl-id: 75ffd84a-62b1-480f-b05f-3664f54bb171
 duration: 26
 ---

@@ -12,7 +12,6 @@ duration: 166
 feature: Generate Variations, Generative AI, Personalization
 index: false
 hide: true
-hidefromtoc: yes
 exl-id: 58a249c2-e4d1-4221-ad9d-3b19856b3048
 ---
 # Generate Variations Demo
