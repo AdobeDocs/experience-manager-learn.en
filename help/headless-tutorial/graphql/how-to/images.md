@@ -35,7 +35,6 @@ The `_dynamicUrl` is the recommended URL to use for image asset delivery and sho
 | Supports web-optimized images? | &#10004;               | &#10004;                   | &#10008;| &#10008;|
 
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_learn_headless_graphql_images"
 >title="Images with AEM Headless"

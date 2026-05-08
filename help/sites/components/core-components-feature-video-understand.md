@@ -14,7 +14,6 @@ duration: 656
 ---
 # Understanding Core Components{#understanding-core-components}
 
-
 >[!CONTEXTUALHELP]
 >id="intro_core_components"
 >title="Introduction to Core Components in AEM as a Cloud Service"

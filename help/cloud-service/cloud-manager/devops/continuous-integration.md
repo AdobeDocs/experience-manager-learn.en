@@ -13,7 +13,6 @@ duration: 329
 ---
 # Continuous Integration and Cloud Manager {#continuous-integration-and-cloud-manager}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_devops_cicd"
 >title="Continuous Integration and Cloud Manager"

@@ -13,7 +13,6 @@ duration: 174
 ---
 # Adobe IMS users {#adobe-ims-users}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_adobeims_users"
 >title="Adobe IMS Users"

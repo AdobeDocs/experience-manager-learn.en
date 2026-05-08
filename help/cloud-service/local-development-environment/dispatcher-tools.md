@@ -14,7 +14,6 @@ duration: 624
 ---
 # Set up local Dispatcher Tools {#set-up-local-dispatcher-tools}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_localdev_dispatcher"
 >title="Local Dispatcher Tools"

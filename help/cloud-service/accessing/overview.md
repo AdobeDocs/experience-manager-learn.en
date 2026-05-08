@@ -14,7 +14,6 @@ duration: 113
 ---
 # Configuring access to AEM as a Cloud Service {#configuring-access-to-aem-as-a-cloud-service}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_adobeims_overview"
 >title="Introduction to Adobe IMS"
