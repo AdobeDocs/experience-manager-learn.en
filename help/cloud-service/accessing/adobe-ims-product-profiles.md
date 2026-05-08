@@ -13,7 +13,6 @@ duration: 312
 ---
 # Adobe IMS product profiles {#adobe-ims-product-profiles}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_adobeims_productprofiles"
 >title="Adobe IMS Product Profiles"

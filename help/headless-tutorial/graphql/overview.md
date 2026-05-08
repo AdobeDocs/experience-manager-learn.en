@@ -26,7 +26,6 @@ To overcome these challenges GraphQL provides a query-based API allowing clients
 
 This video is an overview of the GraphQL API implemented in AEM. The GraphQL API in AEM is primarily designed to deliver AEM Content Fragment's to downstream applications as part of a headless deployment.
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_learn_headless_graphql_overview"
 >title="Getting Started with AEM Headless - GraphQL"
