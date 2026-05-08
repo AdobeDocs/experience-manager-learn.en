@@ -23,6 +23,7 @@ This video series covers the authoring life-cycle of Content Fragments in AEM. D
 3. Downloading Content Fragments
 4. Editorial capabilities
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_sites_admin_content_fragments"
 >title="Manage Fragments"

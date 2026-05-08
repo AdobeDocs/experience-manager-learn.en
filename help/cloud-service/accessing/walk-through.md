@@ -14,6 +14,7 @@ duration: 504
 ---
 # Configuring access to AEM walk-through {#configuring-access-to-aem-walkthrough}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_adobeims_aem_walkthrough"
 >title="Configuring access to AEM walk-through"

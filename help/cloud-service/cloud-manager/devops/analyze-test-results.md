@@ -13,6 +13,7 @@ duration: 342
 ---
 # Analyze test results {#analyze-test-results}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_devops_testresult"
 >title="Analyze test results"
