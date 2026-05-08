@@ -14,6 +14,7 @@ duration: 160
 ---
 # Adobe IMS user groups {#adobe-ims-user-groups}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_adobeims_usergroups"
 >title="Adobe IMS User Groups"

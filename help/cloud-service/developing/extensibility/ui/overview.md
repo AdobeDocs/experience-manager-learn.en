@@ -17,6 +17,7 @@ Adobe Experience Manager (AEM) offers a powerful user interface (UI) for creatin
 
 App Builder provides an implementation layer for creating extensions that are bound to well define extension points in AEM. App Builder seamlessly integrates with AEM, allowing real-time preview and testing. Deploying changes to AEM is quick and streamlined. By using App Builder, developers save time and effort, enabling rapid prototyping and collaboration with stakeholders.
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_learn_extensibility_app_builder"
 >title="Getting started with Adobe Developer App Builder and AEM Headless"

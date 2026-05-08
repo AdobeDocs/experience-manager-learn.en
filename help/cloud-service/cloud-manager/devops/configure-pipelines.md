@@ -13,6 +13,7 @@ duration: 323
 ---
 # Configure pipelines {#configure-pipelines}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_devops_configurepipeline"
 >title="Configure pipelines"
