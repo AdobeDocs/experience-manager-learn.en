@@ -3,6 +3,11 @@ user-guide-title: AEM Assets Essentials Videos
 user-guide-description: A collection of videos for Adobe Experience Manager Assets Essentials.
 breadcrumb-title: AEM Assets Essentials Videos
 solution: Experience Manager, Experience Manager Assets
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    label: "Experience Manager"
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    label: "Experience Manager Assets"
 sub-product: Experience Manager Assets
 version: Experience Manager as a Cloud Service
 feature-set: Experience Manager Assets

@@ -7,6 +7,9 @@ product: experience manager
 index: true
 type: Tutorial
 solution: Experience Manager
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    label: "Experience Manager"
 feature-set: Experience Manager, Experience Manager Assets, Experience Manager Cloud Manager, Experience Manager Forms, Experience Manager Screens, Experience Manager Sites
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
