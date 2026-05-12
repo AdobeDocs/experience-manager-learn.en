@@ -84,6 +84,12 @@ CARDS
   {description = Learn how to use the AEM Cloud Manager MCP Server from Cursor IDE to streamline and accelerate your AEM cloud manager work.}
   {image = ../assets/cm-mcp-server/start-pipeline.png}
   {cta = Learn Cloud Manager MCP Server}
+
+* ./experience-governance-mcp-server.md
+  {title = Experience Governance MCP Server}
+  {description = Learn how to use the AEM Experience Governance MCP Server from Chat-based AI application to manage brand integrity and compliance requirements for your website.}
+  {image = ../assets/governance-mcp-server/site-on-brand-check.png}
+  {cta = Learn Experience Governance MCP Server}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -129,6 +135,31 @@ CARDS
                 </div>
                 <a href="./cloud-manager.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn Cloud Manager MCP Server</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Experience Governance MCP Server">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./experience-governance-mcp-server.md" title="Experience Governance MCP Server" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/governance-mcp-server/site-on-brand-check.png" alt="Experience Governance MCP Server"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./experience-governance-mcp-server.md" target="_self" rel="referrer" title="Experience Governance MCP Server">Experience Governance MCP Server</a>
+                    </p>
+                    <p class="is-size-6">Learn how to use the AEM Experience Governance MCP Server from Chat-based AI application to manage brand integrity and compliance requirements for your website.</p>
+                </div>
+                <a href="./experience-governance-mcp-server.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn Experience Governance MCP Server</span>
                 </a>
             </div>
         </div>
