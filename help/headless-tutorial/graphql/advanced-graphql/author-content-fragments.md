@@ -157,7 +157,7 @@ Follow through the same process as outlined in the [previous section](#fragment-
 | Profile Picture | /content/dam/wknd-shared/en/contributors/stacey-roswells.jpg |
 | Biography | Stacey Roswells is an accomplished rock climber and alpine adventurer. Born in Baltimore, Maryland, Stacey is the youngest of six children. Stacey's father was a lieutenant colonel in the US Navy and mother was a modern dance instructor. Stacey's family moved frequently with father's duty assignments, and took the first pictures when father was stationed in Thailand. This is also where Stacey learned to rock climb. |
 | Instructor Experience Level | Advanced |
-| Skills | Rock Climbing &#124; Skiing &#124; Backpacking |
+| Skills | Rock Climbing / Skiing / Backpacking |
 
 **Kumar Selvaraj**
 
@@ -169,7 +169,7 @@ Follow through the same process as outlined in the [previous section](#fragment-
 | Profile Picture | /content/dam/wknd-shared/en/contributors/kumar-selvaraj.jpg |
 | Biography | Kumar Selvaraj is an experienced AMGA Certified professional instructor whose main goal is to help students enhance their climbing and hiking skills. |
 | Instructor Experience Level | Advanced |
-| Skills | Rock Climbing &#124; Backpacking |
+| Skills | Rock Climbing / Backpacking |
 
 **Ayo Ogunseinde**
 
@@ -181,7 +181,7 @@ Follow through the same process as outlined in the [previous section](#fragment-
 | Profile Picture | /content/dam/wknd-shared/en/contributors/ayo-ogunseinde-237739.jpg |
 | Biography | Ayo Ogunseinde is a professional climber and backpacking instructor living in Fresno, Central California. Ayo's goal is to guide hikers on their most epic-national park adventures. |
 | Instructor Experience Level | Advanced |
-| Skills | Rock Climbing &#124; Cycling &#124; Backpacking |
+| Skills | Rock Climbing / Cycling / Backpacking |
 
 Leave the **Additional Information** field empty.
 

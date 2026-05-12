@@ -6,7 +6,6 @@ feature: Edge Delivery Services
 topic: Development
 role: Developer, Leader, User
 level: Intermediate, Experienced
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 doc-type: Technical Video
 duration: 308

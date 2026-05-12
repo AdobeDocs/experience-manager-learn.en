@@ -6,7 +6,6 @@ feature: Developer Tools
 role: Admin, Developer
 level: Intermediate
 recommendations: noDisplay
-hidefromtoc: yes
 jira: KT-9797
 thumbnail: 340760.jpeg
 exl-id: 8b608b05-48ee-434f-8d5a-6c5ff1969dcf

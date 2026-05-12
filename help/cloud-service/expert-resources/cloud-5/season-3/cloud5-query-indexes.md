@@ -8,7 +8,6 @@ role: Admin, Developer, Leader, User
 level: Beginner, Intermediate, Experienced
 doc-type: Technical Video
 duration: 685
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 last-substantial-update: 2024-03-13
 jira: KT-15104

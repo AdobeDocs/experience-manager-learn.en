@@ -12,7 +12,6 @@ duration: 195
 feature: Generate Variations, Generative AI, Search, Tagging
 index: false
 hide: true
-hidefromtoc: yes
 exl-id: 1666878c-11ee-4f94-a307-605d96e21619
 ---
 # Semantic Search in AEM Assets

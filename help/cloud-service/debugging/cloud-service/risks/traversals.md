@@ -5,7 +5,6 @@ feature: Migration
 role: Developer
 level: Beginner
 jira: KT-10427
-hidefromtoc: yes
 hide: true
 index: false
 thumbnail: kt-10427.jpg
