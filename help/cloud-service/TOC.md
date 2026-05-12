@@ -38,6 +38,7 @@ team: TM
     + [Overview](./ai/mcp/overview.md)
     + [Accelerate AEM Content Operations with the MCP Server](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
     + [Cloud Manager MCP Server](./ai/mcp/cloud-manager.md)
+    + [Governance MCP Server](./ai/mcp/experience-governance-mcp-server.md)
   + AI-assisted development {#ai-assisted-development}
     + [Overview](./ai/ai-assited-development/overview.md)
     + Setup{#setup}
