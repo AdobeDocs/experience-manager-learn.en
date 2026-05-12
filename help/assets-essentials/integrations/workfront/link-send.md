@@ -1,6 +1,6 @@
 ---
 title: Sending Workfront documents and Linking Assets Essentials assets
-description: Learn how to send Workfront documents to to Assets Essentials, and link Assets Essentials assets to Workfront.
+description: Learn how to send Workfront documents to Assets Essentials, and link Assets Essentials assets to Workfront.
 version: Experience Manager as a Cloud Service
 feature: Assets Essentials
 topic: Content Management, Integrations
@@ -17,6 +17,6 @@ duration: 431
 ---
 # Sending documents and Linking assets
 
-Learn how to send Workfront documents to to Assets Essentials, and link Assets Essentials assets to Workfront.
+Learn how to send Workfront documents to Assets Essentials and link Assets Essentials assets to Workfront.
 
 >[!VIDEO](https://video.tv.adobe.com/v/336255?quality=12&learn=on)
