@@ -10,6 +10,21 @@ jira: KT-10797
 thumbnail: kt-10797.jpg
 exl-id: 9d4aab4c-82af-4917-8c1b-3935f19691e6
 duration: 31
+TQID: https://experienceleague.adobe.com/F2OY7IC-mwOsX5SEtpw404PSciUEN8meILdY1L-ne-s
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # AEM Headless Web Component deployments
 

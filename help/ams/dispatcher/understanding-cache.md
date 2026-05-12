@@ -9,6 +9,21 @@ thumbnail: xx.jpg
 doc-type: Article
 exl-id: 66ce0977-1b0d-4a63-a738-8a2021cf0bd5
 duration: 407
+TQID: https://experienceleague.adobe.com/cTX82lXS9KNUXecW2CabwLe-AXr3qzCy9hHcACr1s0I
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Understanding caching
 

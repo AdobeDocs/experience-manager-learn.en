@@ -4,6 +4,36 @@ description: Learn about content velocity and its value within enterprise organi
 solution: Experience Manager
 exl-id: 9d2e05c3-c8eb-4d92-bad0-931e63550438
 duration: 589
+TQID: https://experienceleague.adobe.com/TAv8K9tzMhGiaTIZw6QrPoYamxGJ8UPxgflUrULgKCg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 ---
 # How to drive content velocity with Adobe Experience Manager
 

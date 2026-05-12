@@ -10,6 +10,18 @@ role: Developer
 level: Experienced
 exl-id: 75852a4b-7008-4c65-bab1-cc5dbf525e20
 duration: 42
+TQID: https://experienceleague.adobe.com/b3TYTRBbt46jzFQ8e7qBqPagyaj95KrTM2iPFc4T3GY
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Update signature status
 

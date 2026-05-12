@@ -5,6 +5,25 @@ role: Leader, Developer, Admin, User
 level: Beginner
 doc-type: Catalog
 exl-id: af0fe7fb-873b-4d2d-a5a3-59a5a3da9b96
+TQID: https://experienceleague.adobe.com/7lIpoJbD7TcoYpZgFjaszNO9b9FKTkR9rzsjquS5G40
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # AEM Foundation videos and tutorials {#overview}
 

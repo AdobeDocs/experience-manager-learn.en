@@ -9,6 +9,18 @@ role: Developer
 level: Experienced
 exl-id: be49718e-f1f5-4ab2-9c9d-6430a52bb439
 duration: 726
+TQID: https://experienceleague.adobe.com/wvrV5iYONVpCYsoK9yBxD-zMCoNLUuh30djyct21MkQ
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use oak-run.jar to Manage Indexes
 

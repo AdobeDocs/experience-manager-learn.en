@@ -11,6 +11,19 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: 162e10e5-fcb0-4f16-b6d1-b951826209d9
 duration: 96
+TQID: https://experienceleague.adobe.com/gXRAFI-w1cEMBtm5a55WftKRO-V0un682XBulgWXSec
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Set up local development environment
 

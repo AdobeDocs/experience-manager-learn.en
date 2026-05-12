@@ -11,10 +11,24 @@ mini-toc-levels: 1
 index: true
 recommendations: disable
 thumbnail: 53409343.jpg
-last-substantial-update: 2022-09-23
+last-substantial-update: 2022-09-23T00:00:00.000Z
 doc-type: Tutorial
 exl-id: b795e7e8-f611-4fc3-9846-1d3f1a28ccbc
 duration: 206
+TQID: https://experienceleague.adobe.com/ESTOcoZojwd-ONj-vZWfyBYmYuBrDO5aTmWDFbM4bEs
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Enable front-end pipeline for standard AEM project Archetype{#enable-front-end-pipeline-standard-aem-project}
 

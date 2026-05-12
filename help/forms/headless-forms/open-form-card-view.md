@@ -9,6 +9,18 @@ role: User
 level: Intermediate
 exl-id: c8684cd9-b9c5-4b5b-b990-27c5700cea9f
 duration: 28
+TQID: https://experienceleague.adobe.com/YKNsyw79dTcHHFIH7P-dSPz-C7W4WITG-wPJH3TvlQ8
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Displaying the form on card click
 

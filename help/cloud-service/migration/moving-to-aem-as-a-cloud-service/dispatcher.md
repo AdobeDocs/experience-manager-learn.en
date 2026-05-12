@@ -10,8 +10,22 @@ jira: KT-8633
 thumbnail: 336962.jpeg
 exl-id: 81397b21-b4f3-4024-a6da-a9b681453eff
 duration: 1618
+TQID: https://experienceleague.adobe.com/iqmBXSk8XsmZxvYmZOdYRYtUQPGfi1j0xZdd5XOCtD0
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
-
 # Dispatcher
 
 Learn about AEM Dispatcher for AEM as a Cloud Service, focusing on notable changes from Dispatcher for AEM 6, the Dispatcher conversion tool and how to use the Dispatcher Tools SDK.

@@ -7,11 +7,33 @@ role: Developer
 level: Beginner
 jira: KT-7633
 thumbnail: kt-7633.jpeg
-last-substantial-update: 2022-11-01
+last-substantial-update: 2022-11-01T00:00:00.000Z
 doc-type: Tutorial
 exl-id: b8d43e44-014c-4142-b89c-ff4824b89c78
 duration: 327
 hide: true
+TQID: https://experienceleague.adobe.com/rtfTyE7YsWdqu6A8xFLxvOqj4XYks88lafqJm7-JR7E
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a453562e-8e72-4640-9a69-9cf95930bcee
+    internal-label: Universal Editor
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Bootstrap the Remote SPA for SPA Editor
 

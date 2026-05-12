@@ -9,6 +9,18 @@ level: Beginner
 jira: KT-14196
 exl-id: b286c3e9-70df-46e8-b0bc-21599ab1ec06
 duration: 41
+TQID: https://experienceleague.adobe.com/WX9ulscXwrOk9HHSk7vWDfKV22P1B2ykp-Cb6KYfy7c
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Introduction
 

@@ -7,8 +7,20 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: fbe6d341-7941-46f5-bcd8-58b99396d351
-last-substantial-update: 2021-06-09
+last-substantial-update: 2021-06-09T00:00:00.000Z
 duration: 126
+TQID: https://experienceleague.adobe.com/eohHLKH2468wcfYWe5dsXirnu6UFKPy5-KJx-3sEMqc
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Setting value of JSON Data Element in AEM Forms Workflow {#setting-value-of-json-data-element-in-aem-forms-workflow}
 

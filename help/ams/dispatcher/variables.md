@@ -10,6 +10,19 @@ thumbnail: xx.jpg
 doc-type: Article
 exl-id: 299b32c3-7922-4eee-aa3a-56039a654f70
 duration: 260
+TQID: https://experienceleague.adobe.com/DhvEuTg7zsZ1FafCqFJNDJu1pbdUFSEIEcmctPCXubw
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Using and Understanding Variables
 

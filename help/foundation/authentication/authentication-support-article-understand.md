@@ -9,9 +9,19 @@ topic: Architecture
 role: Developer
 level: Experienced
 exl-id: 96c542ae-6ab6-4d8a-94df-a58b03469320
-last-substantial-update: 2022-09-10
+last-substantial-update: 2022-09-10T00:00:00.000Z
 thumbnail: KT-406.jpg
 duration: 22
+TQID: https://experienceleague.adobe.com/uHEiEcToGIwvFOc3ja-6qMI5tLGPyBlYm6D-UX9rMmA
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Authentication support in AEM 6.x
 

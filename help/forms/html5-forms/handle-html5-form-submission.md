@@ -10,10 +10,18 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 93e1262b-0e93-4ba8-aafc-f9c517688ce9
-last-substantial-update: 2020-07-07
+last-substantial-update: 2020-07-07T00:00:00.000Z
 duration: 66
+TQID: https://experienceleague.adobe.com/kizgeeZuaPw0ZpLUIFfdIKFAg5UGIq0DHyxDU6BtdtA
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Handle HTML5 form submission
 
 HTML5 forms can be submitted to a servlet hosted in AEM. The submitted data can be accessed in the servlet as an input stream. To submit your HTML5 form, add an "HTTP Submit Button" on your form template using AEM Forms Designer.

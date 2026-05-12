@@ -11,6 +11,18 @@ role: Developer
 level: Beginner
 exl-id: 9bb05c94-2a7b-4149-b567-186eb08b1c66
 duration: 70
+TQID: https://experienceleague.adobe.com/p1Rt7M4WDqdh-oyL2gEnfyE7Ou7M3JZYONU50pLz4TU
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Generating Print Channel Documents Using Watched Folder
 

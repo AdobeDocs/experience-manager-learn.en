@@ -8,9 +8,29 @@ role: Developer
 level: Intermediate
 jira: KT-9351
 thumbnail: 343040.jpeg
-last-substantial-update: 2025-03-11
+last-substantial-update: 2025-03-11T00:00:00.000Z
 exl-id: 461dcdda-8797-4a37-a0c7-efa7b3f1e23e
 duration: 2200
+TQID: https://experienceleague.adobe.com/HqqeUXCem2pwD4X2Nstf7sjp5by4fxDFdl-hXbkgLXo
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 ---
 # SAML 2.0 authentication
 

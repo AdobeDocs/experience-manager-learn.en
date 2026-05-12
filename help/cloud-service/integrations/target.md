@@ -7,13 +7,49 @@ topic: Personalization, Headless
 role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
-last-substantial-update: 2023-05-09
+last-substantial-update: 2023-05-09T00:00:00.000Z
 jira: KT-12433
 thumbnail: KT-12433.jpeg
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
 exl-id: be886c64-9b8e-498d-983c-75f32c34be4b
 duration: 1549
+TQID: https://experienceleague.adobe.com/PNNoHvcgfkoOJs-ZSJ-zh4HyC7ehIhrcVIdyYEGOzcI
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Integrate AEM Headless and Target
 

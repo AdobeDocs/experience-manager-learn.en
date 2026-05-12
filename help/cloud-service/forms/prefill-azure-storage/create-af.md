@@ -10,6 +10,19 @@ topic: Integrations
 thumbnail: 335423.jpg
 exl-id: 0b543c6b-9cfd-4fac-b8d0-33153c036f4b
 duration: 60
+TQID: https://experienceleague.adobe.com/HK7IVPPpt9X29DNkI-1c8SCCxNCwriL7fXLBnHJHU0k
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Putting it all together
 

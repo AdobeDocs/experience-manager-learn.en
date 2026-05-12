@@ -8,10 +8,25 @@ thumbnail: 37323.jpg
 topic: Development
 role: Developer
 level: Intermediate
-last-substantial-update: 2023-05-14
+last-substantial-update: 2023-05-14T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 5e423f2c-90d2-474f-8bdc-fa15ae976f18
 duration: 385
+TQID: https://experienceleague.adobe.com/ICG-9wtOHeIL3YBpRL5lxoJZgSZE8ci9FPz6BJznhBM
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Auto-start Workflows
 

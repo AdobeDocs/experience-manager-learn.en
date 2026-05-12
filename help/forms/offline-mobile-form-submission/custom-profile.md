@@ -11,6 +11,15 @@ jira: kt-16133
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: b6e3acee-4a07-4d00-b3a1-f7aedda21e6e
 duration: 102
+TQID: https://experienceleague.adobe.com/yzftGfx6rsN3PCLd-MooO-t-LMyeOnzclG5TigWbwmg
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Create Custom Profile
 

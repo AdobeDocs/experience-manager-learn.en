@@ -7,9 +7,24 @@ topic: Content Management
 role: User
 level: Beginner
 jira: KT-14200
-last-substantial-update: 2023-05-12
+last-substantial-update: 2023-05-12T00:00:00.000Z
 doc-type: Catalog
 exl-id: d92c36e2-fbfa-43a3-8c5f-0371cc99f352
+TQID: https://experienceleague.adobe.com/QgmETRQ4qW-GpNUBUJr56fgRW3gDZQjr6cF-bIj95VM
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Content Fragments Console videos
 

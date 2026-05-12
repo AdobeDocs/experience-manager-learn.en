@@ -8,12 +8,44 @@ role: Leader, Admin, Developer
 level: Beginner
 jira: KT-10718
 thumbnail: KT-10718.png
-last-substantial-update: 2022-11-17
+last-substantial-update: 2022-11-17T00:00:00.000Z
 mini-toc-levels: 1
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM as a Cloud Service" before-title="false"
 exl-id: 9e856dcc-f042-4e9d-bf97-dd4f72e837e3
 duration: 135
+TQID: https://experienceleague.adobe.com/UpLim6CNN3Yz5JDKywYqM5BoOPzuIl9NvV19VOnXIOE
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 ---
 # AEM as a Cloud Service integrations with Adobe Experience Cloud
 

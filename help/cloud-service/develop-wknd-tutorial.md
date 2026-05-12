@@ -7,8 +7,17 @@ role: Developer
 level: Beginner
 thumbnail: 30476.jpeg
 duration: 411
+TQID: https://experienceleague.adobe.com/nTXLAEuZyrPDL7SHU4zJN4bJRZ2XYcx7afGaDXMDlO8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
-
 # Getting Started Developing AEM Sites - WKND Tutorial{#getting-started-developing-aem-sites-wknd-tutorial}
 
 ## Overview {#overview}

@@ -7,10 +7,22 @@ topic: Development
 role: Developer
 level: Beginner
 feature: Interactive Communication
-last-substantial-update: 2023-04-19
+last-substantial-update: 2023-04-19T00:00:00.000Z
 jira: KT-13126
 exl-id: e551ac8d-0bfc-4c94-b773-02ff9bba202e
 duration: 139
+TQID: https://experienceleague.adobe.com/KylgsUu6YX36MUUZwJRROIV34-zOPQRrOkwLBA5YI5g
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Customize text editor{#customize-text-editor}
 

@@ -10,6 +10,23 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 59d5ba6d-91c1-48c7-8c87-8e0caf4f2d7e
 duration: 110
+TQID: https://experienceleague.adobe.com/EV3sP-FGwhw2dz4e56Xe68t2IRYLa9GlowtdWw3oXwI
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a1df6763-63b5-45b4-8c8a-155a692a2b3e
+    internal-label: Integrations
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Create Campaign Profile Using Form Data Model {#create-campaign-profile-using-form-data-model}
 

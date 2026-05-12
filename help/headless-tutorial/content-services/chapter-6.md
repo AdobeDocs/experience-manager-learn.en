@@ -8,6 +8,23 @@ level: Beginner
 doc-type: Tutorial
 exl-id: b33d1509-531d-40c3-9b26-1d18c8d86a97
 duration: 196
+TQID: https://experienceleague.adobe.com/dmJzOdwtwcF9r97KNHJI2v13Xud3A1tohrSXze3YLRI
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Chapter 6 - Exposing the Content on AEM Publish for Delivery
 

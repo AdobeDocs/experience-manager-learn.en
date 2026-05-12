@@ -10,6 +10,16 @@ jira: KT-8918
 thumbnail: 336969.jpeg
 exl-id: 4944d3d9-52a0-4255-9e6c-eb119160e400
 duration: 650
+TQID: https://experienceleague.adobe.com/NB3AubDFGZryAWTFcy4d0uRmgxRqxxuppZ-mjwwyR0Y
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Bulk Import Service
 

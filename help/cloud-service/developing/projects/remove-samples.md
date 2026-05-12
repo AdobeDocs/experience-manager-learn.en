@@ -10,6 +10,16 @@ jira: KT-9092
 thumbnail: 337263.jpeg
 exl-id: 4e10c2b7-41b6-41a0-b8d4-9207a9d3f9c8
 duration: 341
+TQID: https://experienceleague.adobe.com/ipgLw5lM9WLh0Gc5cbYHTaOoWS5bIjMUnNRQl-jamcI
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Removing samples from an AEM Maven project
 

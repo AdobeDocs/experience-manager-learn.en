@@ -9,6 +9,18 @@ role: User
 level: Intermediate
 exl-id: 489970a6-1b05-4616-84e8-52b8c87edcda
 duration: 61
+TQID: https://experienceleague.adobe.com/eDxCinRGC-oOIx3Z5U-HUyPsMQQmP2hEiOxe9T36yis
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Display the configured thank you message
 

@@ -9,6 +9,21 @@ level: Beginner
 doc-type: Technical Video
 exl-id: 359da531-839c-4680-abf9-c880cc700159
 duration: 542
+TQID: https://experienceleague.adobe.com/dwUsGQvIbcHIKh9d-kaGTPsi8U-8QE0lJw4mpWQUZHo
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Setup Translation Rules {#set-up-translation-rules-in-aem}
 

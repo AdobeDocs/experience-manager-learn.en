@@ -6,9 +6,26 @@ version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner
-last-substantial-update: 2022-12-14
+last-substantial-update: 2022-12-14T00:00:00.000Z
 exl-id: ba9e80af-aecd-4558-a236-798c823e695c
 duration: 91
+TQID: https://experienceleague.adobe.com/h6aO4AyAE-cLO3LOkLaPukXtnhZz-Rax23o9rENxj5g
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Workflow component
 

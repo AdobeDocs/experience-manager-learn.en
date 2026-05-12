@@ -9,6 +9,16 @@ jira: KT-8228
 thumbnail: 335475.jpeg
 exl-id: 5a65dbcd-649b-464c-9c78-d31c2b6c49c3
 duration: 377
+TQID: https://experienceleague.adobe.com/XpyjM906V7vklOB353Hh4yZ8spikGAZ2mm0DwBP6Bbc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # OSGi component lifecycle
 

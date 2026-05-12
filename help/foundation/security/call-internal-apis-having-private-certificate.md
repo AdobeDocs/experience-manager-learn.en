@@ -9,9 +9,24 @@ level: Experienced
 jira: KT-11548
 thumbnail: KT-11548.png
 doc-type: Article
-last-substantial-update: 2023-08-25
+last-substantial-update: 2023-08-25T00:00:00.000Z
 exl-id: c88aa724-9680-450a-9fe8-96e14c0c6643
 duration: 332
+TQID: https://experienceleague.adobe.com/a-Q835i1NGAw69B-QY0mr5l99Yig0l7eZzX8Loq346M
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Call internal APIs having private certificates
 

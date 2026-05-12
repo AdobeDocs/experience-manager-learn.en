@@ -7,8 +7,25 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 50858100-3d0c-42bd-87b8-f626212669e2
-last-substantial-update: 2019-07-07
+last-substantial-update: 2019-07-07T00:00:00.000Z
 duration: 60
+TQID: https://experienceleague.adobe.com/lI-ihmwGm-gxEZ1b2tLUBNUaUcDEllq8MHhi8bsZyVc
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Email Delivery of Web Channel Document
 

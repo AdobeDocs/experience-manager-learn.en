@@ -8,10 +8,27 @@ role: Developer
 level: Beginner, Intermediate
 doc-type: Tutorial
 duration: 0
-last-substantial-update: 2024-12-04
+last-substantial-update: 2024-12-04T00:00:00.000Z
 jira: KT-15123
 thumbnail: KT-15123.jpeg
 exl-id: c3bfbe59-f540-43f9-81f2-6d7731750fc6
+TQID: https://experienceleague.adobe.com/RhVsHxrpLkSi4MTni9i3Z5octCuH-mI2UQbC7hhLrY0
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Custom error pages
 

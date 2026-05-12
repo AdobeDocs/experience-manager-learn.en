@@ -9,8 +9,27 @@ level: Intermediate
 jira: KT-9352
 thumbnail: KT-9352.jpeg
 exl-id: 74cca740-bf5e-4cbd-9660-b0579301a3b4
-last-substantial-update: 2024-04-27
+last-substantial-update: 2024-04-27T00:00:00.000Z
 duration: 919
+TQID: https://experienceleague.adobe.com/iQOHdCZpowXCPZ1n10KYuujABFaDrRCOpSRocWAzN88
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+subfeature_v2:
+  - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
+    internal-label: Cloud Manager APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Virtual Private Network (VPN)
 

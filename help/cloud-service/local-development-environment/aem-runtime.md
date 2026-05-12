@@ -8,9 +8,27 @@ thumbnail: 32551.jpg
 topic: Development
 role: Developer
 level: Beginner
-last-substantial-update: 2022-09-02
+last-substantial-update: 2022-09-02T00:00:00.000Z
 exl-id: 19f72254-2087-450b-909d-2d90c9821486
 duration: 411
+TQID: https://experienceleague.adobe.com/N-l-Q258AkRIlHM4UQ6D-32rzt9Zf9aGI39mtVD8x60
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Set up local AEM SDK {#set-up-local-aem-sdk}
 

@@ -9,6 +9,21 @@ level: Beginner
 doc-type: Technical Video
 exl-id: 7d600b16-bbb3-4f21-ae33-4df59b1bb39d
 duration: 281
+TQID: https://experienceleague.adobe.com/aiQUm2UPR2Xsq-Jr2e0T4ofs9eunV-LjI2YShPZ1yYs
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Developing for Page Difference {#developing-for-page-difference}
 

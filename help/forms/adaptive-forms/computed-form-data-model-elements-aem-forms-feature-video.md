@@ -7,8 +7,20 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 1f6f1bb6-3437-4fae-b5a1-698ab357ff23
-last-substantial-update: 2020-09-10
+last-substantial-update: 2020-09-10T00:00:00.000Z
 duration: 374
+TQID: https://experienceleague.adobe.com/pIz2PzjhudmHT5ivTozRjTMY3-eVI8Dvp-1h0s0I8rQ
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Creating Computed Form Data Model Elements in AEM Forms{#creating-computed-form-data-model-elements-in-aem-forms}
 

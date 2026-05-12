@@ -10,6 +10,18 @@ role: Developer
 level: Intermediate
 exl-id: 99cba29e-4ae3-4160-a4c7-a5b6579618c0
 duration: 81
+TQID: https://experienceleague.adobe.com/Fwxx0U8QCuACPZ7ERqFa4Glp0cttXPe-4Ala2-XIf6M
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Test and troubleshoot
 

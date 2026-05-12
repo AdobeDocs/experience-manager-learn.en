@@ -7,11 +7,23 @@ topic: Development
 role: Developer
 level: Beginner
 doc-type: Technical Video
-last-substantial-update: 2023-11-15
+last-substantial-update: 2023-11-15T00:00:00.000Z
 jira: KT-14475, KT-14476
 thumbnail: 3425709.jpeg
 duration: 185
 exl-id: 12b2ad4d-ee66-4eb0-b8e6-05b4b6e41d76
+TQID: https://experienceleague.adobe.com/2gdpLvb1WR-NB3LzzBSFmpE28FdK24E1OQOo8h-ZyYI
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Edge Delivery Services developer prerequisites 
 

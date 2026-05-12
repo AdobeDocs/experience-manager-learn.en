@@ -10,9 +10,28 @@ doc-type: Feature Video
 version: Experience Manager as a Cloud Service
 jira: KT-194
 thumbnail: 331785.jpg
-last-substantial-update: 2021-06-09
+last-substantial-update: 2021-06-09T00:00:00.000Z
 exl-id: 84d2b240-5ecc-4230-97a0-6c2faead8d1a
 duration: 228
+TQID: https://experienceleague.adobe.com/vMsOppm-pJtm0ZsvLaf-2qzSZgF41SsZpJzN14rMpxI
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Using Experience Fragments {#using-aem-experience-fragments}
 

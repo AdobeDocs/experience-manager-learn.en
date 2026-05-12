@@ -9,8 +9,27 @@ level: Intermediate
 jira: KT-9350
 thumbnail: KT-9350.jpeg
 exl-id: 5c1ff98f-d1f6-42ac-a5d5-676a54ef683c
-last-substantial-update: 2024-04-26
+last-substantial-update: 2024-04-26T00:00:00.000Z
 duration: 870
+TQID: https://experienceleague.adobe.com/voh-f8cf2ZsgPTPN994kpdZZfHj6kyZC1d-GaH0XNWg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+subfeature_v2:
+  - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
+    internal-label: Cloud Manager APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Flexible port egress
 

@@ -10,6 +10,18 @@ role: User
 level: Beginner
 exl-id: 565d81a4-2918-44ea-a3e9-ed79f246f08a
 duration: 71
+TQID: https://experienceleague.adobe.com/wFUw-kmZX7dpbBe0pUeOGJk-weGenjbdxhnu-eRjdUE
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Create forms for signing
 

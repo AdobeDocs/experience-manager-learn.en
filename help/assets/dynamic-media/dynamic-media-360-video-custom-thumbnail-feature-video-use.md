@@ -9,6 +9,38 @@ level: Beginner
 doc-type: Feature Video
 exl-id: 4ee0b68f-3897-4104-8615-9de8dbb8f327
 duration: 656
+TQID: https://experienceleague.adobe.com/9TMsjbnUN16u-7BVIdsnZKMFuD3ILKgT4CILIXwRYkU
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
+    internal-label: Components
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+    internal-label: Hybrid mode
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
+  - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
+    internal-label: Viewer presets
+  - id: d8ea7e82-d45e-442f-bb04-b3788a7abcb0
+    internal-label: Video profiles
+  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+    internal-label: Scene7 mode
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Using Dynamic Media 360 Videos and Custom Video thumbnail with AEM Assets
 

@@ -6,10 +6,38 @@ version: Experience Manager 6.5
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2022-06-26
+last-substantial-update: 2022-06-26T00:00:00.000Z
 doc-type: Feature Video
 exl-id: a3c3a01e-97a6-494f-b7a9-22057e91f4eb
 duration: 1079
+TQID: https://experienceleague.adobe.com/U1Sva3GjoRTpgiiupxG5SiL4xhoInHm1-R-CL9nBsXE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: e17747bc-9b7b-44e6-a443-f54229a02620
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Using Adobe Stock with AEM Assets{#using-adobe-stock-assets-with-aem-assets}
 

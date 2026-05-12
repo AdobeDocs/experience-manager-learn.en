@@ -9,6 +9,19 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: ebb11eab-1412-4af5-bc09-e965b9116ac9
 duration: 177
+TQID: https://experienceleague.adobe.com/k1TtCwsn36B0qqTTXBftRltf-FXOLEQlSurQg-lIx2k
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Create an Asset Compute project
 

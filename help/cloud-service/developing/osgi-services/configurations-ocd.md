@@ -9,6 +9,19 @@ jira: KT-8269
 thumbnail: 335730.jpeg
 exl-id: 72918da0-d5c4-4451-8082-0a0435c28890
 duration: 706
+TQID: https://experienceleague.adobe.com/B1fyAfmHOPYbEO216xTbvAgR-DdS0wI35LkNjjQmJXw
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # OSGi Configurations as ObjectClassDefinition Objects
 

@@ -8,10 +8,30 @@ role: User
 level: Beginner
 thumbnail: 28988.jpg
 jira: KT-8413, KT-3707
-last-substantial-update: 2022-06-25
+last-substantial-update: 2022-06-25T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 6c49f8c2-f468-4b29-b7b6-029c8ab39ce9
 duration: 1027
+TQID: https://experienceleague.adobe.com/WFc9fKqHg7e5SW7ZNBu2C5Wgi0uE7vlx3fQ9Isr-1ME
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
 ---
 # Adobe Asset Link 3.0
 

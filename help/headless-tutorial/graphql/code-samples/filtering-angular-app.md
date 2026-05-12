@@ -12,6 +12,21 @@ index: false
 hide: true
 exl-id: c238dd83-65d3-4b04-b90e-19ed250b8e36
 duration: 26
+TQID: https://experienceleague.adobe.com/3DSknYIHSf0JmS9yA7d1fIB2wRILV-l-ydvsyw7ueZw
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Filtering Angular app
 

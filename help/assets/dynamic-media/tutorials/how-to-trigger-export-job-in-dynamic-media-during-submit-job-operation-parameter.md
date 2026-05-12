@@ -10,6 +10,21 @@ index: true
 doc-type: Tutorial
 exl-id: 2df133dc-8c9d-445c-895b-d2fb43cbd39e
 duration: 78
+TQID: https://experienceleague.adobe.com/PqhUalgyF4m-UZ8mstvrDAW8jipcSZ3uQprcLCoUR8A
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Triggering an export job in AEM Dynamic Media
 

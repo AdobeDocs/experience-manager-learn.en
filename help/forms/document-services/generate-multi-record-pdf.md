@@ -7,11 +7,22 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 58582acd-cabb-4e28-9fd3-598d3cbac43c
-last-substantial-update: 2020-01-07
+last-substantial-update: 2020-01-07T00:00:00.000Z
 duration: 138
 jira: KT-16142
 badgeVersions: label="AEM Forms 6.5" before-title="false"
-
+TQID: https://experienceleague.adobe.com/FU8Bi-SOVX39bvNSGJzIScT5lRlngMJxY1-OHacjtTU
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Generate a set of PDF Documents from one xml data file
 

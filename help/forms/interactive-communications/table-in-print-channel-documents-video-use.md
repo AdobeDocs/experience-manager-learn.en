@@ -8,8 +8,20 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: 54afd047-c6e6-4557-9336-39420f30df88
-last-substantial-update: 2019-07-07
+last-substantial-update: 2019-07-07T00:00:00.000Z
 duration: 277
+TQID: https://experienceleague.adobe.com/aN8Rhwxy-l3qBh8WPD9zXqsXiFdaUoyIxDflNF5pOkg
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Using Table Component in AEM Forms Print Channel Document {#using-table-component-in-aem-forms-print-channel-document}
 

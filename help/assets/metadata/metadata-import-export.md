@@ -8,10 +8,28 @@ role: Admin
 level: Intermediate
 kt: 647, 917
 thumbnail: 22132.jpg
-last-substantial-update: 2022-06-13
+last-substantial-update: 2022-06-13T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 0681e2c4-8661-436c-9170-9aa841a6fa27
 duration: 419
+TQID: https://experienceleague.adobe.com/OV-DC4CKLo-ejAyRCnewNL-bbsAt1eSTXDbx5xFa8Cw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Using Metadata Import and Export in AEM Assets {#metadata-import-and-export}
 

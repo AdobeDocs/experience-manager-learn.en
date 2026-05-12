@@ -8,8 +8,17 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 95795102-4278-4556-8e0f-1b8a359ab093
-last-substantial-update: 2019-07-07
+last-substantial-update: 2019-07-07T00:00:00.000Z
 duration: 236
+TQID: https://experienceleague.adobe.com/CYza1ebxfjD8yBJouuHJvWi8hY9wUr3fgYEHPZphtw0
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Storing and Retrieving Adaptive Form Data from MySQL Database
 

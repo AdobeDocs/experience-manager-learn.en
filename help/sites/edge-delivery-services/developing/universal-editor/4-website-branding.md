@@ -10,6 +10,18 @@ doc-type: Tutorial
 jira: KT-15832
 duration: 900
 exl-id: a5cd9906-7e7a-43dd-a6b2-e80f67d37992
+TQID: https://experienceleague.adobe.com/mAhtmTizqLh7BxVbsCsvTbr6hVJWRQFTbH7qcUJy2Hc
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Add website branding
 

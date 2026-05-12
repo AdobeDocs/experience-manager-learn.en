@@ -9,6 +9,23 @@ level: Beginner
 doc-type: Feature Video
 exl-id: 21633308-ffe4-4023-affe-59269504da69
 duration: 677
+TQID: https://experienceleague.adobe.com/0aHaL2jwjKMdiK2XDSTQHkqy9ubTUqTvVLf2NpTjres
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Translation Enhancements with Multi-Site Manager {#translation-enhancements}
 

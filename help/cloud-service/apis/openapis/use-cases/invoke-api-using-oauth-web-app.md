@@ -9,9 +9,29 @@ level: Intermediate
 doc-type: Tutorial
 jira: KT-16718
 thumbnail: KT-16718.jpeg
-last-substantial-update: 2025-02-28
+last-substantial-update: 2025-02-28T00:00:00.000Z
 duration: 0
 exl-id: 9cf7c318-2be4-4b26-bd6f-0c80d002db45
+TQID: https://experienceleague.adobe.com/JsKAqS-TwBP--W9yE8eMmHAmPllLl1OUyLWjqYhqKg4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Invoke OpenAPI-based AEM APIs using OAuth Web App authentication
 

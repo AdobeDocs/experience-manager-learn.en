@@ -8,10 +8,36 @@ role: Admin
 level: Intermediate
 jira: KT-649
 thumbnail: 22155.jpg
-last-substantial-update: 2022-06-06
+last-substantial-update: 2022-06-06T00:00:00.000Z
 doc-type: Feature Video
 exl-id: a2bf8a82-15ee-478c-b7c3-de8a991dfeb8
 duration: 321
+TQID: https://experienceleague.adobe.com/mQ4O5-6QMPLqL0x5ywUZ13r1SmI9Putz-spFelrFJ7E
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+    internal-label: Administration
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Closed User Groups{#using-closed-user-groups-with-aem-assets}
 

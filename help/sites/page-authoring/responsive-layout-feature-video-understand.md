@@ -11,6 +11,26 @@ level: Intermediate
 doc-type: Feature Video
 exl-id: c125c0e0-1ed2-463e-bd34-767d009479eb
 duration: 367
+TQID: https://experienceleague.adobe.com/hu35jxMqefNAE1BhSEG-rMW6XcyqHkTuu650zAjA000
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+subfeature_v2:
+  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+    internal-label: Page editor
+  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Understanding Responsive Layout {#understanding-responsive-layout-with-aem-sites}
 

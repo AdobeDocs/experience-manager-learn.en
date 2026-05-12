@@ -7,8 +7,26 @@ topic: Development
 role: Developer
 level: Intermediate
 jira: KT-15714
-last-substantial-update: 2023-06-06
+last-substantial-update: 2023-06-06T00:00:00.000Z
 exl-id: 5492dc7b-f034-4a7f-924d-79e083349e26
+TQID: https://experienceleague.adobe.com/vi9hKmgRIPzKTM2jeocZYY2--oEP1eaBm1aKke9dTvk
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Github.com webhook verification
 

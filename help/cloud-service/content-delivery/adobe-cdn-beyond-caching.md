@@ -8,10 +8,31 @@ role: Developer, User, Leader
 level: Beginner
 doc-type: Article
 duration: 0
-last-substantial-update: 2024-08-21
+last-substantial-update: 2024-08-21T00:00:00.000Z
 jira: KT-15123
 thumbnail: KT-15123.jpeg
 exl-id: 8948a900-01e9-49ed-9ce5-3a057f5077e4
+TQID: https://experienceleague.adobe.com/1hycOEAqvlmuv9Nbwf-5SOZsywUA7TSwpiEshYjCA9k
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Adobe CDN - Advanced features beyond caching
 

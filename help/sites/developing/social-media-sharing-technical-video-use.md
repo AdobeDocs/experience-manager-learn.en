@@ -9,6 +9,18 @@ level: Intermediate
 doc-type: Technical Video
 exl-id: 569069e8-7964-49f1-96ed-7dfa4f8ed96c
 duration: 511
+TQID: https://experienceleague.adobe.com/OQ9yqza1mR1bUK9d6Nn9doKVZae2Fzdh-XpLHglptcI
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Using Social Media Sharing {#using-social-media-sharing-in-aem-sites}
 

@@ -11,6 +11,21 @@ thumbnail: 18131.jpg
 doc-type: Feature Video
 exl-id: cc4ffbd0-207a-42e4-bfcb-d6c83fb97237
 duration: 223
+TQID: https://experienceleague.adobe.com/X1NshwHYGHVh38qutEIbjIZW8Pir2BNlBRtj9-2kK50
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Translation support for AEM Content Fragments {#translation-support-content-fragments}
 

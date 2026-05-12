@@ -8,8 +8,20 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: 2cdf37e6-42ad-469a-a6e4-a693ab2ca908
-last-substantial-update: 2019-07-07
+last-substantial-update: 2019-07-07T00:00:00.000Z
 duration: 77
+TQID: https://experienceleague.adobe.com/f5vr1AeFvwafhgKMT1IoNcbAtEiJSP0GIlopMBSgf7g
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Batch API
 
