@@ -1,7 +1,7 @@
 ---
 title: Content Fragments Tips and Tricks
 description: Site Hierarchy, Taxonomy, and Tagging Tips Best Practices
-hide: yes
+hide: true
 hidefromtoc: yes
 duration: 2
 ---

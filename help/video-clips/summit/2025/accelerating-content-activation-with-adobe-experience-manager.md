@@ -11,8 +11,7 @@ doc-type: Video Clip
 duration: 56
 feature: Brand Experiences, Content Personalization, Marketing Campaigns, Multichannel Delivery
 index: false
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 177150b3-6be3-4594-b1ca-f7f080effdfd
 ---
 # Accelerating Content Activation with Adobe Experience Manager

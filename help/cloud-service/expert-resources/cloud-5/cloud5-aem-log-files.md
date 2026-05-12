@@ -5,7 +5,6 @@ version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 jira: KT-9927
-hidefromtoc: yes
 thumbnail: 341156.jpeg
 exl-id: 1d000b09-52e7-4828-a0b3-32a47131e66c
 duration: 314

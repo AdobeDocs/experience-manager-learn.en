@@ -11,8 +11,7 @@ doc-type: Video Clip
 duration: 64
 feature: Generative AI, Operations, Personalization
 index: false
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 39ed523f-abcd-49b5-978f-b795e109d7f5
 ---
 # Three Key Takeaways for Digital Success

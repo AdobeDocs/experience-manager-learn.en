@@ -10,8 +10,7 @@ level: Beginner
 jira: KT-11368
 thumbnail: KT-11368.jpg
 index: false
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 2d4396dc-2346-4561-b040-eba0ab62a96f
 duration: 22
 ---

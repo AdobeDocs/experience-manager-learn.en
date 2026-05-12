@@ -9,8 +9,7 @@ level: Beginner
 jira: KT-11812
 thumbnail: KT-11812.jpg
 index: false
-hide: yes
-hidefromtoc: yes
+hide: true
 recommendations: noCatalog, noDisplay
 exl-id: b64f33ab-cd18-4cbc-a57e-baf505f1442a
 duration: 29

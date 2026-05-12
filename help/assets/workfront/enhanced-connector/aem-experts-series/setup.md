@@ -8,7 +8,6 @@ role: Admin, Developer
 level: Beginner
 jira: KT-9717
 thumbnail: 340331.jpeg
-hidefromtoc: false
 last-substantial-update: 2022-09-02
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-title="false"

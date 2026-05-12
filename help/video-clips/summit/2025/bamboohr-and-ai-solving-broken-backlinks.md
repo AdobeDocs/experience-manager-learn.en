@@ -11,8 +11,7 @@ doc-type: Video Clip
 duration: 95
 feature: Generative AI
 index: false
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 3b3ef9c2-f4e0-45fa-a2a4-3e7130b4d6ce
 ---
 # BambooHR and AI: Solving Broken Backlinks

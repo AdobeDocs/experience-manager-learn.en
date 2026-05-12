@@ -11,8 +11,7 @@ doc-type: Video Clip
 duration: 66
 feature: Generative AI, Integrations, Onboarding, Operations
 index: false
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 193543f3-5200-479b-8735-3b529291ff7c
 ---
 # Adobe's GenAI Vision for AEM

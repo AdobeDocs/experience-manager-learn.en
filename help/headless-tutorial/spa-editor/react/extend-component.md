@@ -11,7 +11,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 44433595-08bc-4a82-9232-49d46c31b07b
 duration: 316
-hide: yes
+hide: true
 ---
 # Extend a Core Component {#extend-component}
 

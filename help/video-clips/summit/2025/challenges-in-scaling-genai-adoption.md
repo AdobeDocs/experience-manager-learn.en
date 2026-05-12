@@ -11,8 +11,7 @@ doc-type: Video Clip
 duration: 62
 feature: Generative AI, Integrations, Onboarding
 index: false
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 71a64094-efca-400a-a6fa-cc801cbec664
 ---
 # Challenges in Scaling GenAI Adoption

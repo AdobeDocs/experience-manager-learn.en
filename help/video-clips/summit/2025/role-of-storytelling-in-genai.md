@@ -11,8 +11,7 @@ doc-type: Video Clip
 duration: 54
 feature: Generative AI
 index: false
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: f3902c6e-7f32-49ce-982a-76d264b87fd0
 ---
 # The Role of Storytelling in GenAI

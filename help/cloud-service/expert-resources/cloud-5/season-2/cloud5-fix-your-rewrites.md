@@ -5,7 +5,6 @@ version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate
 thumbnail: 343600.jpeg
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 38580af1-e5ad-431a-b41d-634fb136ce64
 duration: 290

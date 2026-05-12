@@ -11,7 +11,7 @@ thumbnail: kt-10900.jpeg
 doc-type: Tutorial
 exl-id: e055b356-dd26-4366-8608-5a0ccf5b4c49
 duration: 190
-hide: yes
+hide: true
 ---
 # How to use AEM React Editable Components v2
 

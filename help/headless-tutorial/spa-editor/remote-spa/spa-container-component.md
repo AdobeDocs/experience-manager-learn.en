@@ -12,7 +12,7 @@ recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: e5e6204c-d88c-4e79-a7f4-0cfc140bc51c
 duration: 306
-hide: yes
+hide: true
 ---
 # Editable container components
 

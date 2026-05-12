@@ -11,8 +11,7 @@ doc-type: Video Clip
 duration: 145
 feature: Generate Variations, Generative AI, Publishing
 index: false
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 885dd083-79f1-49c4-88cc-7594aaa3fdbf
 ---
 # Generate Variations with Content AI
