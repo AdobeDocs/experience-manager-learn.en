@@ -9,8 +9,25 @@ level: Beginner
 exl-id: 0be61f04-c3ed-4ecb-bab7-73fd308c14e0
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
-last-substantial-update: 2020-03-20
+last-substantial-update: 2020-03-20T00:00:00.000Z
 duration: 31
+TQID: https://experienceleague.adobe.com/pgDPRcEY7lb8NzlK3WkDvXoVKoplTU34URtsK0Lz4t8
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a1df6763-63b5-45b4-8c8a-155a692a2b3e
+    internal-label: Integrations
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Integrate AEM Forms with Acrobat Sign
 

@@ -9,8 +9,20 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 5363c3f7-9006-4430-b647-f3283a366a64
-last-substantial-update: 2020-07-07
+last-substantial-update: 2020-07-07T00:00:00.000Z
 duration: 78
+TQID: https://experienceleague.adobe.com/zAInpyYxCqCEHpVWJnfnRMu58j2MFqgdbg7zO4br-Z8
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Submitting Adaptive Form to External Server {#submitting-adaptive-form-to-external-server}
 

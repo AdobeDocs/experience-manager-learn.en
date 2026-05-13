@@ -7,8 +7,25 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 21e58bbc-c1d6-4d41-a4d4-f522a3a5d4a7
-last-substantial-update: 2020-06-09
+last-substantial-update: 2020-06-09T00:00:00.000Z
 duration: 314
+TQID: https://experienceleague.adobe.com/p-DmFpYlzCszCw31Qdq9uQSc4vv9xgvmheW4M-MInbg
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 ---
 # Using Send Email Step of  Forms Workflow {#using-send-email-step-of-forms-workflow}
 

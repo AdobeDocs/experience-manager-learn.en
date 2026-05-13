@@ -10,6 +10,23 @@ level: Intermediate
 jira: KT-10208
 exl-id: dc6f64a0-7059-4392-9c29-e66bdef4fd4d
 duration: 116
+TQID: https://experienceleague.adobe.com/bMcmGmNDKFiSfCNui1lID4L-Jm75JJ-jfPDXwWh9E7k
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Save and retrieve draft letters
 

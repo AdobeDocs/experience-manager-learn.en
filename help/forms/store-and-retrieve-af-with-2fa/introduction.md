@@ -10,8 +10,17 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: b278652f-6c09-4abc-b92e-20bfaf2e791a
-last-substantial-update: 2020-11-07
+last-substantial-update: 2020-11-07T00:00:00.000Z
 duration: 148
+TQID: https://experienceleague.adobe.com/hCBsM0WEe7EivsDDc1KHNb7-6FE0G3ul1cp6HW3aqHw
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Storing and Retrieving Adaptive Form Data with 2FA
 

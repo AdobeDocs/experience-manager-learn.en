@@ -9,8 +9,35 @@ level: Beginner
 jira: KT-14609
 doc-type: Catalog
 duration: 40
-last-substantial-update: 2023-12-01
+last-substantial-update: 2023-12-01T00:00:00.000Z
 exl-id: 172a477f-d277-43c1-8e47-68870b02203c
+TQID: https://experienceleague.adobe.com/3NPqE1ImrzZg9RWWyvIFGyvbD7SuzpN98RqOLCZqwRo
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+    internal-label: Generative AI
+subfeature_v2:
+  - id: e56728f4-5c82-49ef-8986-4b5f27301f7a
+    internal-label: Generate Variations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Document authoring videos
 

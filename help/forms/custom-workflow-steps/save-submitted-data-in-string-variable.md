@@ -7,10 +7,25 @@ topic: Development
 role: Developer
 level: Beginner
 jira: KT-11199
-last-substantial-update: 2022-10-02
+last-substantial-update: 2022-10-02T00:00:00.000Z
 thumbnail: string-variable.jpg
 exl-id: 65dcbfbb-7eb5-4fa3-aeb3-587c59ee2fe9
 duration: 74
+TQID: https://experienceleague.adobe.com/luBy63edM6CiHT9D0idJT4Pp1tTTOD2-d7YPRgTJ38Q
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Extract bound data and save it in a string variable
 

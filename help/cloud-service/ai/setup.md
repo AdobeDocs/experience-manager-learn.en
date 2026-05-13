@@ -6,9 +6,22 @@ role: Admin
 level: Beginner
 doc-type: Feature Video
 duration: 205
-last-substantial-update: 2025-12-04
+last-substantial-update: 2025-12-04T00:00:00.000Z
 jira: KT-19319
 exl-id: 6912f267-e014-4e49-8e10-b74eaf80a6d6
+TQID: https://experienceleague.adobe.com/u-DCRkGtN2Hd5hOLHkK5XRMHVjhiX-g9VcRaW95zs8w
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Set up AI in AEM
 

@@ -9,8 +9,20 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: da613092-e03b-467c-9b9e-668142df4634
-last-substantial-update: 2019-07-11
+last-substantial-update: 2019-07-11T00:00:00.000Z
 duration: 129
+TQID: https://experienceleague.adobe.com/a8xQKJjTmY1yOHMQ0FO1Z384mQgTjE24X9a5eUyxFTE
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Registering Custom Asset Types {#registering-custom-asset-types}
 

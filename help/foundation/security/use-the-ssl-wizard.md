@@ -8,8 +8,21 @@ topic: Security
 role: Developer
 level: Beginner
 exl-id: 4e69e115-12a6-4a57-90da-b91e345c6723
-last-substantial-update: 2023-08-08
+last-substantial-update: 2023-08-08T00:00:00.000Z
 duration: 564
+TQID: https://experienceleague.adobe.com/Taf73Atgfc9r7JyvlwXbOOvrHtvgAIeJ3riiamKBmMc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Use the SSL Wizard in AEM
 

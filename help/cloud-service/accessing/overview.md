@@ -8,9 +8,24 @@ role: Admin
 level: Beginner
 jira: KT-5882
 thumbnail: KT-5882.jpg
-last-substantial-update: 2022-10-06
+last-substantial-update: 2022-10-06T00:00:00.000Z
 exl-id: 4846a394-cf8e-4d52-8f8b-9e874f2f457b
 duration: 113
+TQID: https://experienceleague.adobe.com/Asj3IE6jH-RJH4phx5Z8MK2YxcAVlh-ghyNNF5-s2YU
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configuring access to AEM as a Cloud Service {#configuring-access-to-aem-as-a-cloud-service}
 

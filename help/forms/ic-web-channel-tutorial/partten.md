@@ -10,6 +10,18 @@ role: Developer
 level: Beginner
 exl-id: 0dd8a430-9a4e-4dc7-ad75-6ad2490430f2
 duration: 71
+TQID: https://experienceleague.adobe.com/1xsk4grUuJqz6TlFK1mTYCrQ0XmgEhoHZ0YqoPNyFNI
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Configuring Retirement Outlook Panel{#configuring-retirement-outlook-panel}
 

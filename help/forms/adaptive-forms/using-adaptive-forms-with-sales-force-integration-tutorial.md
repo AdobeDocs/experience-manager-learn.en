@@ -7,8 +7,20 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 7a4fd109-514a-41a8-a3fe-53c1de32cb6d
-last-substantial-update: 2020-02-14
+last-substantial-update: 2020-02-14T00:00:00.000Z
 duration: 175
+TQID: https://experienceleague.adobe.com/EofsJkQP3H1dExdPUlNdPuHqJBbJGuSCJ-N4GC1-G30
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 ---
 # Configuring DataSource with Salesforce in AEM Forms 6.3 and 6.4{#configuring-datasource-with-salesforce-in-aem-forms-and}
 

@@ -8,8 +8,20 @@ topic: Development
 role: Admin
 level: Beginner
 exl-id: 80288765-0b51-44a9-95d3-3bdb2da38615
-last-substantial-update: 2020-06-09
+last-substantial-update: 2020-06-09T00:00:00.000Z
 duration: 113
+TQID: https://experienceleague.adobe.com/Jy9knaAS6uMGP6pjxVZjLvfqQDeL6ig2oEbWNUAf9rM
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Simplified Steps for Installing AEM Forms on Windows
 

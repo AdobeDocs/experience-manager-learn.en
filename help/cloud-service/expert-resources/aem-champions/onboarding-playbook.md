@@ -7,10 +7,27 @@ topic: Administration
 role: Admin, Developer
 level: Beginner
 doc-type: Value Video
-last-substantial-update: 2023-05-11
+last-substantial-update: 2023-05-11T00:00:00.000Z
 jira: KT-13228
 exl-id: d1745cea-906b-46fa-adcc-7da6e7ee95db
 duration: 115
+TQID: https://experienceleague.adobe.com/1edMCQ28wbli-SkswelmUH2X47rlh-rdGajA6d-FqZc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # AEM Champion Tips and Tricks - Cloud Manager Onboarding Playbook
 

@@ -7,8 +7,25 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 85c9b51e-92bb-4376-8684-57c9c3204b2f
-last-substantial-update: 2021-06-09
+last-substantial-update: 2021-06-09T00:00:00.000Z
 duration: 153
+TQID: https://experienceleague.adobe.com/aXHyiLF-ZzevwicSs6NXz6f22tNUuZ3D4ZarwsWnRYY
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d49d6117-dd89-469c-a774-cc96b7eee433
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Authenticate to AEM Author using OKTA
 

@@ -7,9 +7,21 @@ topic: Development
 role: Developer
 level: Beginner
 kt: kt-13918
-last-substantial-update: 2023-09-12
+last-substantial-update: 2023-09-12T00:00:00.000Z
 exl-id: b0baac71-3074-49d5-9686-c9955b096abb
 duration: 56
+TQID: https://experienceleague.adobe.com/O44cPCgDXmP3AXnsDtxl-es5hKXlYHDumfR1v9aWb8c
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Extract document from list of documents
 

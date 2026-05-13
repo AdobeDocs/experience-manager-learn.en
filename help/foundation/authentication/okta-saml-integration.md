@@ -7,10 +7,25 @@ feature: Integrations
 role: Admin
 level: Experienced
 jira: KT-12305
-last-substantial-update: 2023-03-01
+last-substantial-update: 2023-03-01T00:00:00.000Z
 doc-type: Tutorial
 exl-id: 460e9bfa-1b15-41b9-b8b7-58b2b1252576
 duration: 157
+TQID: https://experienceleague.adobe.com/GgdjROUb3DIhgBDbUvzVA-p72oabGgCaPxkp3ot4-w0
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Authenticate to AEM Author using OKTA
 

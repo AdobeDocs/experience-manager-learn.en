@@ -9,9 +9,24 @@ level: Beginner
 jira: KT-11649
 thumbnail: KT-11649.png
 doc-type: article
-last-substantial-update: 2024-01-26
+last-substantial-update: 2024-01-26T00:00:00.000Z
 exl-id: f3047f1d-1c46-4aee-9262-7aab35e9c4cb
 duration: 1438
+TQID: https://experienceleague.adobe.com/UEHo1qbsX1UQydHweD-d3v5X62F9Lhnp-5UoF4ZUOXo
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+    internal-label: Generative AI
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # AEM image asset generation using OpenAI
 

@@ -13,6 +13,21 @@ hide: true
 recommendations: noCatalog, noDisplay
 exl-id: 2e5bd50e-c0d7-4292-8097-e0a17f41a91a
 duration: 22
+TQID: https://experienceleague.adobe.com/JhSWUxFsphhCt9z-hdvDUzCmL9Frc-t1LB3Pk-1jwJw
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Filtering SvelteKit app
 

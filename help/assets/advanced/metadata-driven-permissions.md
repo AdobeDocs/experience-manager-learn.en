@@ -8,9 +8,33 @@ role: Admin
 level: Intermediate
 jira: KT-13757
 doc-type: Tutorial
-last-substantial-update: 2024-05-03
+last-substantial-update: 2024-05-03T00:00:00.000Z
 exl-id: 57478aa1-c9ab-467c-9de0-54807ae21fb1
 duration: 158
+TQID: https://experienceleague.adobe.com/A7rcrXV6Lrop85zo71tR35FATGt7uN9IuICByZ9l0rA
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+    internal-label: Administration
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Metadata-Driven Permissions{#metadata-driven-permissions}
 

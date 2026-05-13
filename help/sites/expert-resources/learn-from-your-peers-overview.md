@@ -4,6 +4,19 @@ description: Learn From Your Peers overview
 feature: Learn From Your Peers
 exl-id: 83f09377-5103-4466-a260-d99b2cbedece
 duration: 12
+TQID: https://experienceleague.adobe.com/9aEYD67nOBPX3Ez2PXCxRpn8NHxfnAkcPNXejjWWAS8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 ---
 # Learn From Your Peers overview
 

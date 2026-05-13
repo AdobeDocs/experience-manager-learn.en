@@ -7,10 +7,22 @@ topic: Development
 role: Developer
 level: Beginner
 jira: KT-11245
-last-substantial-update: 2022-10-15
+last-substantial-update: 2022-10-15T00:00:00.000Z
 thumbnail: third-party.jpg
 exl-id: e8841c63-3159-4f13-89a1-d8592af514e3
 duration: 53
+TQID: https://experienceleague.adobe.com/p3QbcbPAHxKc216ioUIqaDmsHnqrz4GUsdxDgDm5uXI
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Including third party bundles in your AEM project
 

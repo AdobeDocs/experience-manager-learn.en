@@ -8,9 +8,29 @@ role: Developer
 level: Intermediate
 jira: KT-10436
 thumbnail: KT-10436.png
-last-substantial-update: 2022-10-14
+last-substantial-update: 2022-10-14T00:00:00.000Z
 exl-id: 4dba6c09-2949-4153-a9bc-d660a740f8f7
 duration: 28
+TQID: https://experienceleague.adobe.com/sMhfnt2IVKldWexct6smvKf--S8H0I-1PgPEjfqwGvI
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # AEM as a Cloud Service authentication
 

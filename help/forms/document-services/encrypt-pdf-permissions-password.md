@@ -7,8 +7,20 @@ topic: Development
 role: Developer
 level: Intermediate
 jira: KT-15849
-last-substantial-update: 2024-07-19
+last-substantial-update: 2024-07-19T00:00:00.000Z
 exl-id: 5df8581c-a44c-449c-bf3b-8cdf57635c4d
+TQID: https://experienceleague.adobe.com/mdok4-iJ1Kl-6FxNxqHr-p3Aq4QShkQqQIrsE8NbUUs
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Encrypt PDF with a permission password
 

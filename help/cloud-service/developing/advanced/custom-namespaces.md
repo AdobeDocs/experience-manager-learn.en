@@ -8,9 +8,24 @@ role: Developer
 level: Intermediate
 jira: KT-11618
 thumbnail: 3412319.jpg
-last-substantial-update: 2022-12-14
+last-substantial-update: 2022-12-14T00:00:00.000Z
 exl-id: e86ddc9d-ce44-407a-a20c-fb3297bb0eb2
 duration: 496
+TQID: https://experienceleague.adobe.com/dSgNWLLCxMtU-eYF43kC42Hvh1nCplYgDdOSKXbTJDc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Custom namespaces
 

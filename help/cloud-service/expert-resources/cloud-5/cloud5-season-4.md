@@ -5,8 +5,22 @@ sub-product: Experience Manager Sites, Experience Manager Cloud Manager, Experie
 solution: Experience Manager as a Cloud Service, Experience Manager
 recommendations: noDisplay, noCatalog
 duration: 30
-last-substantial-update: 2024-12-15
+last-substantial-update: 2024-12-15T00:00:00.000Z
 exl-id: ede3fb19-d803-4b21-8c03-4283f7b4f7f4
+TQID: https://experienceleague.adobe.com/ToN8V3LKkmONAeStl68MVA0KOQ1q42oxp2jNBcKjeas
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Cloud 5 season 4
 

@@ -7,8 +7,20 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 5c250bbb-bac6-427d-8aca-1fbb1229e02c
-last-substantial-update: 2020-10-10
+last-substantial-update: 2020-10-10T00:00:00.000Z
 duration: 73
+TQID: https://experienceleague.adobe.com/wv45LjL98I0GTT6pXnvZ-8YhBpndp8D-CMj-8MPP-5Y
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Capturing workflow comments in Adaptive Forms Workflow{#capturing-workflow-comments-in-adaptive-forms-workflow}
 

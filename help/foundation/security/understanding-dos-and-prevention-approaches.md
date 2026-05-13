@@ -8,9 +8,24 @@ role: Admin, Developer
 level: Beginner
 doc-type: Article
 duration: 75
-last-substantial-update: 2024-03-30
+last-substantial-update: 2024-03-30T00:00:00.000Z
 jira: KT-15219
 exl-id: 1d7dd829-e235-4884-a13f-b6ea8f6b4b0b
+TQID: https://experienceleague.adobe.com/Z7Cv0RVvbB9ym6-ub3f5JXxhJPpLnJRFRrZZNgcr33o
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Understanding DoS/DDoS prevention in AEM
 

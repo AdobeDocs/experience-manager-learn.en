@@ -7,10 +7,22 @@ jira: KT-10961
 topic: Development
 role: Developer
 level: Beginner
-last-substantial-update: 2022-09-20
+last-substantial-update: 2022-09-20T00:00:00.000Z
 thumbnail: item-load.jpg
 exl-id: 89c486c8-95c3-4cd4-bf8e-a1b3558f17d6
 duration: 34
+TQID: https://experienceleague.adobe.com/LpfYhYtJA9GPGRzYT2Qv4UpC-50TSH2LDXDMkzeq9to
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Item Load Property in AEM Forms
 

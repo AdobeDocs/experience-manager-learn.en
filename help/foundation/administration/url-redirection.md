@@ -7,11 +7,28 @@ feature: Operations, Dispatcher
 role: Developer
 level: Intermediate
 jira: KT-11466
-last-substantial-update: 2024-10-22
+last-substantial-update: 2024-10-22T00:00:00.000Z
 index: true
 doc-type: Article
 exl-id: 8e64f251-e5fd-4add-880e-9d54f8e501a6
 duration: 164
+TQID: https://experienceleague.adobe.com/JLLCtrislohwSfHW1SdSmIfybbvAmLGeCiRPDs-Blb8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # URL redirects
 

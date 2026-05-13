@@ -10,8 +10,17 @@ jira: KT-8919
 thumbnail: 336970.jpeg
 exl-id: c51ce8e3-e83c-4f8b-a835-70335ed3a5b9
 duration: 1362
+TQID: https://experienceleague.adobe.com/zMNJUOTjFG7t7UafnApXfV0xPnbknS56yklABjX4g0M
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
-
 # Content Transfer Tool
 
 Learn how Content Transfer Tool helps you migrate content to AEM as a Cloud Service from AEM 6.3+.

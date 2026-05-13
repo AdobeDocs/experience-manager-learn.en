@@ -3,6 +3,15 @@ title: Experience League Monthly Newsletters Archive.
 description: Download archived versions of the newsletter.
 hide: true
 exl-id: 16133400-b4c6-4d86-9c28-d5e230d55839
+TQID: https://experienceleague.adobe.com/Xxhs-2LEvhwNBF-XuU8nAwh4xZDzHxNRJhT2q7XazoY
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Experience League Monthly Newsletters Archive
 

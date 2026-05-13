@@ -8,9 +8,24 @@ role: Developer
 level: Beginner
 recommendations: noDisplay, noCatalog
 jira: KT-11603
-last-substantial-update: 2024-01-26
+last-substantial-update: 2024-01-26T00:00:00.000Z
 exl-id: 3062900a-0461-4c6f-81e6-c76a7f613804
 duration: 240
+TQID: https://experienceleague.adobe.com/lSlIByW9GRAkFXiOyGC0GzPeku7gKz2xSG769SiR-8U
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Adobe I/O Runtime action
 

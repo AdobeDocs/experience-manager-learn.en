@@ -7,9 +7,27 @@ topic: Development
 role: Developer
 level: Intermediate
 jira: KT-11743
-last-substantial-update: 2023-01-17
+last-substantial-update: 2023-01-17T00:00:00.000Z
 exl-id: 9a3fed96-c99b-43d1-9dba-a4311c65e5b9
 duration: 151
+TQID: https://experienceleague.adobe.com/iA3qEdxMe3zOVWHN4TgxL3o7VnULa7aCXS6rlHpg9JQ
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Generate JWT access token in App Builder action
 

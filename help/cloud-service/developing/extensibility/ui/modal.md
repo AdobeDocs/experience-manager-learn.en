@@ -8,9 +8,22 @@ role: Developer
 level: Beginner
 recommendations: noDisplay, noCatalog
 jira: KT-11603
-last-substantial-update: 2023-06-02
+last-substantial-update: 2023-06-02T00:00:00.000Z
 exl-id: e7376eaf-f7d7-48fe-9387-a0e4089806c2
 duration: 127
+TQID: https://experienceleague.adobe.com/mZAn6D6y5Mnl2mGYWsVDaVV2vfB7cin1QzjcRm6rkcU
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Extension modal
 

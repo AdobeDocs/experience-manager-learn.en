@@ -9,9 +9,25 @@ level: Beginner
 jira: KT-13309
 thumbnail: KT-13309.jpg
 doc-type: article
-last-substantial-update: 2023-06-02
+last-substantial-update: 2023-06-02T00:00:00.000Z
 exl-id: 70adb2c1-9e08-4a4b-b8f1-16bddd84c23d
 duration: 307
+TQID: https://experienceleague.adobe.com/3X0nbJLkQ7W0JCmMSSX-4rYAc7tNbaIPxhNQr6b-idc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Export Content Fragment to XML
 

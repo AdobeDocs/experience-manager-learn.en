@@ -7,8 +7,23 @@ topic: Development
 role: Developer
 level: Intermediate
 exl-id: bc79fcbf-b8b3-4d3a-9cd6-0bcd9321c7d5
-last-substantial-update: 2020-07-07
+last-substantial-update: 2020-07-07T00:00:00.000Z
 duration: 52
+TQID: https://experienceleague.adobe.com/-qL1D6lxl9-ukb37XLIbM434x6-wDIt-md6UyAcrzjo
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Using PDFG in AEM Forms{#using-pdfg-in-aem-forms}
 

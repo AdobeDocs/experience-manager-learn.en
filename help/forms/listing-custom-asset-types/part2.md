@@ -9,8 +9,17 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: f221d8ee-0452-4690-a936-74bab506d7ca
-last-substantial-update: 2019-07-10
+last-substantial-update: 2019-07-10T00:00:00.000Z
 duration: 136
+TQID: https://experienceleague.adobe.com/CW658uY3ftLF-enVJHgy-roAmeCUsMZslAaBSBh5Unk
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Listing Custom Asset Types in AEM Forms {#listing-custom-asset-types-in-aem-forms}
 

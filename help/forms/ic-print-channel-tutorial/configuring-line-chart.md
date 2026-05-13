@@ -12,6 +12,18 @@ role: Developer
 level: Beginner
 exl-id: 86a955e2-2463-4973-8d3c-4c694db8c787
 duration: 140
+TQID: https://experienceleague.adobe.com/lptmMDeHX0gR8CAwr0rYb5mLksENmJKRSMKUXekRSRY
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Configuring line chart for your first interactive communication document {#configuring-line-chart-for-your-first-interactive-communication-document}
 

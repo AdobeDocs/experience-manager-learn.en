@@ -7,8 +7,20 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 3354a58b-d58e-4ddb-8f90-648554a64db8
-last-substantial-update: 2020-06-09
+last-substantial-update: 2020-06-09T00:00:00.000Z
 duration: 58
+TQID: https://experienceleague.adobe.com/FNqHW0xRdWGbh-eFXo90t7PCupxNS03NNo-C-tLqlkQ
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Create Re-Usable AEM Forms Workflow Models{#create-re-usable-aem-forms-workflow-models}
 

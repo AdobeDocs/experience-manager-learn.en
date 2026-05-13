@@ -9,9 +9,25 @@ level: Intermediate, Experienced
 doc-type: Technical Video
 duration: 749
 recommendations: noDisplay, noCatalog
-last-substantial-update: 2024-09-04
+last-substantial-update: 2024-09-04T00:00:00.000Z
 jira: KT-16087
 exl-id: 93a8a2b5-ddd2-43f7-a02b-63036b450614
+TQID: https://experienceleague.adobe.com/OBYEYu0YSE0R5WavLMOayzJ9AR4S4glUoewtQ62TtAs
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Using the Admin API with Edge Delivery Services
 

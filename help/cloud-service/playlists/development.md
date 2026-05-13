@@ -4,9 +4,27 @@ description: A collection of playlists about AEM as a Cloud Service development.
 role: Developer
 level: Beginner
 topic: Development
-last-substantial-update: 2024-11-01
+last-substantial-update: 2024-11-01T00:00:00.000Z
 duration: 60
 exl-id: 13dcc312-ca66-4bfc-af31-516b543c61b0
+TQID: https://experienceleague.adobe.com/zDD--lYetIvLfa6MRy7wLEr7oKDIq3U8DMFicHtMCPg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # AEM development playlists
 

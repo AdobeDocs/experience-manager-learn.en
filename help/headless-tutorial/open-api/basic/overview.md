@@ -10,9 +10,26 @@ feature: Content Fragments
 topic: Headless, Content Management
 role: Developer
 level: Beginner
-last-substantial-update: 2022-10-17
+last-substantial-update: 2022-10-17T00:00:00.000Z
 duration: 54
 exl-id: 1bb7c415-58f8-4f6c-a0bc-38bdbdb521cf
+TQID: https://experienceleague.adobe.com/6IB0iHT17guhH5IaLXmuI2qb8hcQneW4rmxbPsro1os
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a453562e-8e72-4640-9a69-9cf95930bcee
+    internal-label: Universal Editor
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Get started with AEM Content Fragment Delivery with OpenAPI APIs
 

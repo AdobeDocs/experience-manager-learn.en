@@ -9,9 +9,26 @@ level: Experienced
 jira: KT-10385
 thumbnail: KT-10385.png
 doc-type: Article
-last-substantial-update: 2023-08-18
+last-substantial-update: 2023-08-18T00:00:00.000Z
 exl-id: 9f689bd9-c846-4c3f-ae88-20454112cf9a
 duration: 783
+TQID: https://experienceleague.adobe.com/-DxMruZE3czqe1rhOMnQ0txf76x9RPAg0uoa1r0Sygs
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Use ModSecurity to protect your AEM site from DoS attacks
 

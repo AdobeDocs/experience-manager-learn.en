@@ -7,9 +7,21 @@ topic: Development
 role: Developer
 level: Beginner
 jira: KT-13099
-last-substantial-update: 2023-04-13
+last-substantial-update: 2023-04-13T00:00:00.000Z
 exl-id: 15364571-070c-4497-a256-f0483d6f9585
 duration: 118
+TQID: https://experienceleague.adobe.com/nqSnJIzPXNLCw-2Sgb9-cgF6U8Ne74PxzIZ29aflWxk
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Create a wrapper for Acrobat Sign REST API
 
