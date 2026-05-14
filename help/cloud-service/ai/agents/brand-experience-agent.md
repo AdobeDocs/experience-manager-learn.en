@@ -16,7 +16,7 @@ exl-id:
 
 Learn how the Brand Experience Agent automates high-volume, high-level operational tasks like content updates, form creation, site migration, and technical troubleshooting.
 
-The example use case shows how content authors or marketers achieve the **hero image replacement** on their website using _natural language through AI Assistant_. The Brand Experience Agent performs the image replacement, asks for confirmation thus keeping the _human in the loop_.
+The example use case shows how content authors or marketers achieve the **hero image replacement** on their website using _natural language through the AI Assistant_. The Brand Experience Agent performs the image replacement, asks for confirmation, thus keeping the _human in the loop_.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491119/?learn=on&enablevpops)
 
