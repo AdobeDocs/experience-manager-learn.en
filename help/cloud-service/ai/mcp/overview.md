@@ -139,8 +139,6 @@ CARDS
             </div>
         </div>
     </div>
-</div>
-<div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Experience Governance MCP Server">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
