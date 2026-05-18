@@ -335,12 +335,13 @@ Update them to the correct relative path.
 
 Example:
 
+
 | Find | Replace with |
 |---|---|
-| `./resources/` | `components/adaptiveform/resources/` |
-| `url(resources/` | `url(components/adaptiveform/resources/` |
-| `url('resources/` | `url('components/adaptiveform/resources/` |
-| `url(../resources/` | `url(components/adaptiveform/resources/` |
+| ./resources/ | components/adaptiveform/resources/ |
+| url(resources/ | url(components/adaptiveform/resources/ |
+| url('resources/ | url('components/adaptiveform/resources/ |
+| url(../resources/ | url(components/adaptiveform/resources/ |
 
 
 ## Step 12 — Install Dependencies
