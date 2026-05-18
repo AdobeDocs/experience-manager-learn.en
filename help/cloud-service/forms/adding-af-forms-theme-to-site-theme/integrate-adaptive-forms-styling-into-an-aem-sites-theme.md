@@ -144,8 +144,8 @@ src/
 
 ## Step 4 — Download the Adaptive Forms Canvas Theme
 
-For embedding Adaptive Forms styling in AEM Sites, we downloaded the [Canvas theme,](https://github.com/adobe/aem-forms-theme-canvas) but you can  download and use other available Adaptive Forms themes such as [WKND](https://github.com/adobe/aem-forms-theme-wknd) or [EASEL.](https://github.com/adobe/aem-forms-theme-easel)
-
+For embedding Adaptive Forms styling in AEM Sites, we downloaded the [Canvas theme,](https://github.com/adobe/aem-forms-theme-canvas)
+ 
 Download the Adaptive Forms Canvas Theme from GitHub:
 
 ```text
