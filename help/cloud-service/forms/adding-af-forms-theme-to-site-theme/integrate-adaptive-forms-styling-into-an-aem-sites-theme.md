@@ -145,7 +145,7 @@ src/
 ## Step 4 — Download the Adaptive Forms Canvas Theme
 
 For embedding Adaptive Forms styling in AEM Sites, we downloaded the [Canvas theme,](https://github.com/adobe/aem-forms-theme-canvas)
- 
+
 Download the Adaptive Forms Canvas Theme from GitHub:
 
 ```text
@@ -334,6 +334,7 @@ These paths usually break after embedding the Forms theme into the Site Theme.
 Update them to the correct relative path.
 
 Example:
+
 | Find | Replace with |
 |---|---|
 | `./resources/` | `components/adaptiveform/resources/` |
