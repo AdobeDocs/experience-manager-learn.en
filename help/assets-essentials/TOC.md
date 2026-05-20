@@ -5,9 +5,10 @@ breadcrumb-title: AEM Assets Essentials Videos
 solution: Experience Manager, Experience Manager Assets
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-    label: "Experience Manager"
+    internal-label: "Experience Manager"
   - id: d09181b5-a36a-43de-ba01-36641440bc43
-    label: "Experience Manager Assets"
+    internal-label: "Experience Manager Assets"
+usetq: true
 sub-product: Experience Manager Assets
 version: Experience Manager as a Cloud Service
 feature-set: Experience Manager Assets
