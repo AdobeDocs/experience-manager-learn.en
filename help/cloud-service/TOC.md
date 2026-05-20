@@ -288,7 +288,7 @@ team: TM
         + [9 - Include Cloud Services and FDM](./forms/developing-for-cloud-service/azure-storage-fdm.md)
         + [10 - Context aware cloud configuration](./forms/developing-for-cloud-service/context-aware-fdm.md)
         + [11 - Push to Cloud Manager](./forms/developing-for-cloud-service/push-project-to-cloud-manager-git.md)
-        + [12 - Embed Adaptive Forms Themes in an AEM Sites](./forms/adding-af-forms-theme-to-site-theme/integrate-adaptive-forms-styling-into-an-aem-sites-theme.md)
+        + [12 - Embed Adaptive Forms theme in an AEM Sites theme](./forms/adding-af-forms-theme-to-site-theme/integrate-adaptive-forms-styling-into-an-aem-sites-theme.md)
         + [13 - Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
         + [14 - Updating maven archetype](./forms/developing-for-cloud-service/updating-project-archetype.md)
     + Create Adaptive Form{#create-first-af}

@@ -241,14 +241,14 @@ site_theme_root/src/components/adaptiveform
 Result:
 
 ```text
-forms_theme_root/src/components/adaptiveform/_variables.scss
-forms_theme_root/src/components/adaptiveform/_mixins.scss
+site_theme_root/src/components/adaptiveform/_variables.scss
+site_theme_root/src/components/adaptiveform/_mixins.scss
 ```
 
 
 ## Step 8 — Copy Images
 
-Create resources folder and a images folder inside the resources folder in the site theme project folder 
+Create resources folder and a images folder inside the site theme project folder 
 
 ```text
 site_theme_root/src/components/adaptiveform/resources/images
@@ -315,15 +315,15 @@ Add:
 @import './components/adaptiveform/_adaptiveform.scss';
 ```
 
-**This is the critical step that merges Adaptive Forms styling into the Site Theme.
+This is the critical step that merges Adaptive Forms styling into the Site Theme.
 
 Without this import, the forms remain unstyled even though the build succeeds.
-**
+
 
 
 ## Step 11 — Fix Image Paths
 
-Some copied SCSS files may reference images like:
+Some copied SCSS files into the site theme project may reference images like:
 
 ```scss
 url('./resources/images/menu.png')
