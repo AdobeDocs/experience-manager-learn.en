@@ -309,11 +309,11 @@ team: TM
         + [3 - Display the response](./forms/custom-submit-headless-forms/handle-response-react-app.md)
     + Reminding users to submit form{#form-completion-reminder}
         + [1 - Introduction](./forms/form-completion-reminder/introduction.md)
-        + [2 - Event Schema](./forms/form-completion-reminder/event_schema.md)
-        + [3 - Datastream](./forms/form-completion-reminder/dataset_and_datastream.md)
+        + [2 - Event Schema](./forms/form-completion-reminder/event-schema.md)
+        + [3 - Datastream](./forms/form-completion-reminder/dataset-and-datastream.md)
         + [4 - AJO Events](./forms/form-completion-reminder/create-custom-events-ajo.md)
         + [5 - Create Journey](./forms/form-completion-reminder/create-journey.md)
-        + [6 - Create AEM Page](./forms/form-completion-reminder/create_page_form.md)
+        + [6 - Create AEM Page](./forms/form-completion-reminder/create-page-form.md)
     + Create address block component{#create-address-block}
         + [1 - Introduction](./forms/create-address-block-component/introduction.md)
         + [2 - Setup](./forms/create-address-block-component/set-up.md)
