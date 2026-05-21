@@ -1,5 +1,5 @@
 ---
-title: Create journey
+title: Create Journey
 description: Define a journey to handle form submissions and abandoned form scenarios
 solution: Experience Manager, Experience Manager Forms, Journey Optimizer
 type: Documentation
