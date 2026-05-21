@@ -34,6 +34,7 @@ team: TM
   + Agents {#agents}
     + [Overview](./ai/agents/agents-in-aem.md)
     + [Brand Experience Agent](./ai/agents/brand-experience-agent.md)
+    + [Content Advisor Agent](./ai/agents/content-advisor-agent.md)
     + [Dev Agent and CI/CD Troubleshooting](./ai/agents/development-agent-troubleshoot-ci-cd-pipeline.md)
   + MCP Servers {#mcp-servers}
     + [Overview](./ai/mcp/overview.md)
