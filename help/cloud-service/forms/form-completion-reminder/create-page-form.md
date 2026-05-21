@@ -24,7 +24,7 @@ The following steps were performed to integrate AEM Sites with Adobe Experience 
 
 
 1.  **Add an Adaptive Form to an AEM Sites Page**  
-   Please [follow this documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page) to embed an adaptive form to an sites page
+   Please [follow this documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page) to embed an adaptive form into a Sites page
 2.  **Create the Adaptive Form**  
    An Adaptive Form was created to capture customer information and form interaction events.
 
