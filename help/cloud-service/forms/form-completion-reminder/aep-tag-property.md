@@ -119,7 +119,7 @@ console.log(
 
 ### form.identity
 
-An **form.identity** data element was created in Adobe Experience Platform Tags using the **Adobe Experience Platform Web SDK** extension. This data element is responsible for defining and passing customer identity information along with form interaction events sent to Adobe Experience Platform.
+A **form.identity** data element was created in Adobe Experience Platform Tags using the **Adobe Experience Platform Web SDK** extension. This data element is responsible for defining and passing customer identity information along with form interaction events sent to Adobe Experience Platform.
 
 The form.identity data element enables Adobe Experience Platform to recognize and stitch events belonging to the same user across sessions and channels, which is essential for Real-Time Customer Profile and Adobe Journey Optimizer.
 
