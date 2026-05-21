@@ -9,6 +9,18 @@ level: Beginner
 doc-type: Feature Video
 exl-id: 00746678-da23-4d0a-b775-e1de4ed87c56
 duration: 507
+TQID: https://experienceleague.adobe.com/Ip-x98VzhlRcmTTE3qgJzfecbIHStB2c2iMtdtlc2Tg
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Using Multi Site Manager {#using-multi-site-manager-with-aem-sites}
 

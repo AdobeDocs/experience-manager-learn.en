@@ -7,11 +7,29 @@ topic: Headless, Development
 role: Developer
 level: Intermediate
 doc-type: Tutorial
-last-substantial-update: 2023-05-16
+last-substantial-update: 2023-05-16T00:00:00.000Z
 jira: KT-13270
 thumbnail: KT-13270.jpeg
 exl-id: b0ac4b50-5fe5-41a1-9530-8e593d7000c9
 duration: 89
+TQID: https://experienceleague.adobe.com/vv-jLxTZaYr8zWBMpd4f6pdklrrnFGniWq2wivOnf9Q
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 ---
 # AEM Headless first tutorial
 

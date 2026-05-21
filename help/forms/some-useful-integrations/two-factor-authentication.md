@@ -8,8 +8,31 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: c2c55406-6da6-42be-bcc0-f34426b3291a
-last-substantial-update: 2021-07-07
+last-substantial-update: 2021-07-07T00:00:00.000Z
 duration: 115
+TQID: https://experienceleague.adobe.com/KpbxtgXadXKUwMRLyxAU-YEysjUaOgv5ZTwGJVEmdfQ
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a1df6763-63b5-45b4-8c8a-155a692a2b3e
+    internal-label: Integrations
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 ---
 # Verify users using their mobile phone numbers
 

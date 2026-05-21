@@ -8,8 +8,22 @@ role: Developer
 level: Experienced
 jira: KT-10292
 exl-id: c1d248c3-8208-476e-b0ae-cab25575cd6a
-last-substantial-update: 2021-10-12
+last-substantial-update: 2021-10-12T00:00:00.000Z
 duration: 66
+TQID: https://experienceleague.adobe.com/GXh8VQwVdfrt-4K0mbNN2B9bOqQvVmzB-SOlrvglX1U
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Display multiple pdf documents in a carousel
 

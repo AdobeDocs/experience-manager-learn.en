@@ -7,10 +7,27 @@ topic: Security, Administration, Architecture
 role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
-last-substantial-update: 2025-06-04
+last-substantial-update: 2025-06-04T00:00:00.000Z
 jira: KT-18310
 thumbnail: null
 exl-id: 4a7acdd2-f442-44ee-8560-f9cb64436acf
+TQID: https://experienceleague.adobe.com/Mjd4wAjDWGU5f0cl573rh7wAwbjn4GQyDC-fmObOSK4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Best practices for traffic filter rules including WAF rules
 

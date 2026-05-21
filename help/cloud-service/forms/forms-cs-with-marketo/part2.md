@@ -8,9 +8,21 @@ role: Developer
 level: Experienced
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
-last-substantial-update: 2024-07-24
+last-substantial-update: 2024-07-24T00:00:00.000Z
 jira: KT-15876
 exl-id: 75e589fa-f7fc-4d0b-98c8-ce4d603ef2f7
+TQID: https://experienceleague.adobe.com/V0JgrwS6xOh-iqz35a9OuY-KIkdkYY3L0ByaUMre-xc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Create Data Source
 

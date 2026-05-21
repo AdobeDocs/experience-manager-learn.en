@@ -11,6 +11,15 @@ role: Developer
 level: Experienced
 exl-id: 2bd9fe63-8f42-4b89-95a0-13ade49bc31b
 duration: 38
+TQID: https://experienceleague.adobe.com/xGTtuLBHajVXHga8WSVPfWyMrl6BOCaP-EczEOx0WgM
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Store form data
 

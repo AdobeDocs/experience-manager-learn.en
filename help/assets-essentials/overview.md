@@ -2,10 +2,16 @@
 title: AEM Assets Essentials Videos
 description: A collection of videos for Adobe Experience Manager Assets Essentials
 recommendations: disable
-last-substantial-update: 2022-10-01
+last-substantial-update: 2022-10-01T00:00:00.000Z
 thumbnail: aem-assets-essentials-videos.jpg
 doc-type: Catalog
 exl-id: 6a8534fa-bc99-438b-9107-2a428e06619c
+TQID: https://experienceleague.adobe.com/bem-EElJRZgC-VaRKe60WykYL52STgTvu0KCOXKqsZM
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # Assets Essentials Videos
 

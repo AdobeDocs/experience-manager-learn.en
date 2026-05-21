@@ -10,6 +10,24 @@ topic: Integrations
 jira: KT-14501
 duration: 75
 exl-id: 5cd5e37e-9881-4fce-a0cb-402d738f83ae
+TQID: https://experienceleague.adobe.com/cBoTl6rJlCpfpwM6-eVPl-u-DQ7WfyGpzbm0Yh2pnmU
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Create custom submit to handle the form submission
 

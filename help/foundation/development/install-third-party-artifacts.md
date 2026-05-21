@@ -8,10 +8,20 @@ role: Developer
 level: Intermediate
 doc-type: Tutorial
 duration: 0
-last-substantial-update: 2024-09-13
+last-substantial-update: 2024-09-13T00:00:00.000Z
 jira: KT-16207
 thumbnail: KT-16207.jpeg
 exl-id: 0cec14b3-4be5-4666-a36c-968ea2fc634f
+TQID: https://experienceleague.adobe.com/a3r-ao6ObXx6agC6NdJ-snRJrcjcTcP-U8RZjrM43T4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Install third party artifacts - not available in the public Maven repository
 

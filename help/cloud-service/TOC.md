@@ -33,11 +33,13 @@ team: TM
     + [AI Assistant and Agentic AI](./ai/ai-assistant/ai-assistant-and-agentic-ai.md)
   + Agents {#agents}
     + [Overview](./ai/agents/agents-in-aem.md)
+    + [Brand Experience Agent](./ai/agents/brand-experience-agent.md)
     + [Dev Agent and CI/CD Troubleshooting](./ai/agents/development-agent-troubleshoot-ci-cd-pipeline.md)
   + MCP Servers {#mcp-servers}
     + [Overview](./ai/mcp/overview.md)
     + [Accelerate AEM Content Operations with the MCP Server](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
     + [Cloud Manager MCP Server](./ai/mcp/cloud-manager.md)
+    + [Governance MCP Server](./ai/mcp/experience-governance-mcp-server.md)
   + AI-assisted development {#ai-assisted-development}
     + [Overview](./ai/ai-assited-development/overview.md)
     + Setup{#setup}
@@ -286,8 +288,9 @@ team: TM
         + [9 - Include Cloud Services and FDM](./forms/developing-for-cloud-service/azure-storage-fdm.md)
         + [10 - Context aware cloud configuration](./forms/developing-for-cloud-service/context-aware-fdm.md)
         + [11 - Push to Cloud Manager](./forms/developing-for-cloud-service/push-project-to-cloud-manager-git.md)
-        + [12 - Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
-        + [13 - Updating maven archetype](./forms/developing-for-cloud-service/updating-project-archetype.md)
+        + [12 - Embed Adaptive Forms theme in an AEM Sites theme](./forms/adding-af-forms-theme-to-site-theme/integrate-adaptive-forms-styling-into-an-aem-sites-theme.md)
+        + [13 - Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
+        + [14 - Updating maven archetype](./forms/developing-for-cloud-service/updating-project-archetype.md)
     + Create Adaptive Form{#create-first-af}
         + [Introduction](./forms/create-first-af/introduction.md)
         + [Create Theme](./forms/create-first-af/create-theme.md)

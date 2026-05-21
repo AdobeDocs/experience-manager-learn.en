@@ -9,9 +9,25 @@ level: Beginner
 jira: KT-13465
 thumbnail: KT-13465.jpg
 doc-type: article
-last-substantial-update: 2023-06-12
+last-substantial-update: 2023-06-12T00:00:00.000Z
 exl-id: 167a4b11-1202-4c7a-b022-f3f996348a4e
 duration: 476
+TQID: https://experienceleague.adobe.com/6LKS4qJhr2pEko-uch9O4rbg7wmFGW-f6y7Bhr7yDJQ
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Add widgets to Rich Text Editor (RTE)
 

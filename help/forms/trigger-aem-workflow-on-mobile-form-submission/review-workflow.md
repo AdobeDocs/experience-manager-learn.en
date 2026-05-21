@@ -10,6 +10,15 @@ level: Experienced
 jira: kt-16215
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: ec60d017-8b29-4185-a097-d809e18df4a7
+TQID: https://experienceleague.adobe.com/dkR7dyJ9LblUqK1dzmVE7oHRXjRMeK3hjqvu9mmBtFE
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Workflow to review and approve the submitted PDF
 

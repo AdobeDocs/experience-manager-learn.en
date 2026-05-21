@@ -8,10 +8,27 @@ role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
 duration: 1042
-last-substantial-update: 2024-08-12
+last-substantial-update: 2024-08-12T00:00:00.000Z
 jira: KT-15121
 thumbnail: KT-15121.jpeg
 exl-id: 8936c3ae-2daf-4d0f-b260-28376ae28087
+TQID: https://experienceleague.adobe.com/r0cYB-RSh-D6mP87oSiE2DHSR9FobuYTgA0wXuOqmNQ
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Custom domain name with Adobe CDN
 

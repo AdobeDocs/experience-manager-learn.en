@@ -9,9 +9,27 @@ level: Beginner
 doc-type: Article
 jira: KT-17428
 thumbnail: KT-17428.jpeg
-last-substantial-update: 2025-02-28
+last-substantial-update: 2025-02-28T00:00:00.000Z
 duration: 0
 exl-id: 277b4789-b035-4904-b489-c827c970fb55
+TQID: https://experienceleague.adobe.com/inbnfMSWj4iSylnDoR26GSEFxBlAqptdnFbn-aCQvSQ
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # API Credentials and Product Profile management
 

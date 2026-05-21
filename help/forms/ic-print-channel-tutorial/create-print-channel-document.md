@@ -12,6 +12,18 @@ role: Developer
 level: Beginner
 exl-id: d4355f72-aefa-4ab3-ba7e-ebd7f7b536f0
 duration: 122
+TQID: https://experienceleague.adobe.com/KHCuAjKHqav37gnfrTzalDiQWoGip6vBPA4TFUgDdiI
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Create Interactive Communication For Print Channel {#create-interactive-communication-for-print-channel}
 

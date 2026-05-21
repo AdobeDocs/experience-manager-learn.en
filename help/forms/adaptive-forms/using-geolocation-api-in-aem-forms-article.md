@@ -7,8 +7,25 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 50db6155-ee83-4ddb-9e3a-56e8709222db
-last-substantial-update: 2020-03-20
+last-substantial-update: 2020-03-20T00:00:00.000Z
 duration: 88
+TQID: https://experienceleague.adobe.com/TWM3TOsMzQw6PZ6a-HdgDCPH5-x6LBCX0QAgBasWXDI
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Using Geolocation API's in Adaptive Forms{#using-geolocation-api-s-in-adaptive-forms}
 

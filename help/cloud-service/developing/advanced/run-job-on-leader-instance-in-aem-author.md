@@ -8,10 +8,28 @@ role: Developer
 level: Intermediate, Experienced
 doc-type: Article
 duration: 0
-last-substantial-update: 2024-10-23
+last-substantial-update: 2024-10-23T00:00:00.000Z
 jira: KT-16399
 thumbnail: KT-16399.jpeg
 exl-id: b8b88fc1-1de1-4b5e-8c65-d94fcfffc5a5
+TQID: https://experienceleague.adobe.com/8uNO9-Qf90HmJjxBec-68GFloYkF8ZSdQLiHg2GgphA
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # How to run a job on leader instance in AEM as a Cloud Service
 

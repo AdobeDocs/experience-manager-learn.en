@@ -10,6 +10,22 @@ topic: Integrations
 jira: KT-14675
 duration: 98
 exl-id: 1cd385b3-7e00-4f75-b728-1b47f7a8fb2a
+TQID: https://experienceleague.adobe.com/aFFkDEsg4VOVkG6amJDIBYEY9KCSNqOfkiJfwpcc34s
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Implement DataProvider interface
 

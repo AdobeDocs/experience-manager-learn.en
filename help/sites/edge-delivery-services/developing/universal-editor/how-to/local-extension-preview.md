@@ -9,6 +9,23 @@ level: Beginner, Intermediate, Experienced
 doc-type: Tutorial
 jira: KT-18658
 exl-id: 27b6626d-b291-4b88-9350-a32cdbd0cf63
+TQID: https://experienceleague.adobe.com/zf2dxzzrylab38ZhX0TiDAaqByfDG3Vgia6ZPbpKhpM
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a453562e-8e72-4640-9a69-9cf95930bcee
+    internal-label: Universal Editor
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Preview a local Universal Editor extension
 

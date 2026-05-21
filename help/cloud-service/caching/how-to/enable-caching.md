@@ -7,11 +7,26 @@ topic: Administration, Performance
 role: Admin, Developer
 level: Beginner
 doc-type: Tutorial
-last-substantial-update: 2023-11-17
+last-substantial-update: 2023-11-17T00:00:00.000Z
 jira: KT-14224
 thumbnail: KT-14224.jpeg
 exl-id: 544c3230-6eb6-4f06-a63c-f56d65c0ff4b
 duration: 174
+TQID: https://experienceleague.adobe.com/EKO1-ZItHmqROzGbl2jpu7JINfbkzP1QClHwch87Oko
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # How to enable CDN caching
 

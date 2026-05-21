@@ -8,10 +8,27 @@ role: Developer
 level: Intermediate
 jira: KT-9165
 thumbnail: 337960.jpeg
-last-substantial-update: 2022-10-03
+last-substantial-update: 2022-10-03T00:00:00.000Z
 doc-type: Technical Video
 exl-id: 40bb55f9-011d-4261-9f44-b1104a591252
 duration: 937
+TQID: https://experienceleague.adobe.com/jWw-CQp-YeLMzjISDwc2zRfSNzvrMKMk9zEzN1zEc7c
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Sitemaps
 

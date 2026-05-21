@@ -9,9 +9,31 @@ level: Beginner
 doc-type: Tutorial
 jira: KT-16516
 thumbnail: KT-16516.jpeg
-last-substantial-update: 2025-02-28
+last-substantial-update: 2025-02-28T00:00:00.000Z
 duration: 0
 exl-id: 8338a905-c4a2-4454-9e6f-e257cb0db97c
+TQID: https://experienceleague.adobe.com/q6fQccCHxtysPKTPAEdvBZ2XwdNY7oTNhhhsX6eef-M
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Invoke OpenAPI-based AEM APIs using OAuth Server-to-Server authentication
 

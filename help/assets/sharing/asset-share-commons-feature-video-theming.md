@@ -6,10 +6,25 @@ topic: Content Management
 feature: Asset Distribution
 role: Developer
 level: Intermediate
-last-substantial-update: 2022-06-22
+last-substantial-update: 2022-06-22T00:00:00.000Z
 doc-type: Tutorial
 exl-id: b7d0b6b1-145a-4987-a9dc-7263efa4d9fb
 duration: 734
+TQID: https://experienceleague.adobe.com/6oBMurcDBLNQAsTF51cz4NRaWjveR7A48-BmPV06ZPw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Introduction to Theming in Asset Share Commons {#asset-share-commons-theme}
 

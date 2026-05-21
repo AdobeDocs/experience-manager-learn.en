@@ -6,11 +6,23 @@ version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Experienced
-last-substantial-update: 2022-10-20
+last-substantial-update: 2022-10-20T00:00:00.000Z
 thumbnail: inline-dam.jpg
 kt: kt-11307
 exl-id: 339eb16e-8ad8-4b98-939c-b4b5fd04d67e
 duration: 60
+TQID: https://experienceleague.adobe.com/oTyoi2rjZRWh2qgf-20ORiWxktnjtc-t6Bb5L447nD8
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Display DAM image in Adaptive Forms
 

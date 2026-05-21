@@ -6,9 +6,21 @@ version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner
-last-substantial-update: 2023-01-04
+last-substantial-update: 2023-01-04T00:00:00.000Z
 exl-id: d23b51ba-1efb-4505-b5b3-44a02177e467
 duration: 27
+TQID: https://experienceleague.adobe.com/mqC2qU1AdwEao5vUkCcF3l1JLlrkLX48nlVg7H3Z1Mg
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Deploy on your system
 

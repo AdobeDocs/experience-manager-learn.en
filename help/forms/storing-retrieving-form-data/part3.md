@@ -9,6 +9,15 @@ role: Developer
 level: Experienced
 exl-id: 9cce47e7-07b4-43c3-8746-197620855c3f
 duration: 81
+TQID: https://experienceleague.adobe.com/l3OX6KyxDBT10IPVPiOXFGHXoWYmDBeRCgh2Xe4UwP0
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Create OSGi Service to fetch data
 

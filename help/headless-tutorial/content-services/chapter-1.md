@@ -8,6 +8,21 @@ level: Beginner
 doc-type: Tutorial
 exl-id: f24a75f6-9062-498c-b782-7d9011aa0bcf
 duration: 85
+TQID: https://experienceleague.adobe.com/GayMCTpxLCcRyxawatT1Tx6lP-6A6GD2qESTOH3N2mg
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Tutorial Set up
 

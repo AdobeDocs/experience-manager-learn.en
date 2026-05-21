@@ -6,8 +6,27 @@ role: Leader, User, Developer, Admin
 level: Beginner
 doc-type: Catalog
 duration: 30
-last-substantial-update: 2026-01-05
+last-substantial-update: 2026-01-05T00:00:00.000Z
 exl-id: cc255744-bb86-49cb-88ca-1266d28985a5
+TQID: https://experienceleague.adobe.com/E3GI4g7XokC1RLpVXuWNvKfkT-X4X-9apX7AjBDd82o
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # AI in Experience Manager
 
@@ -23,7 +42,7 @@ CARDS
     {description = Learn how AI Assistant provides product knowledge and support in AEM.}
     {cta = Learn}
 
-* ./agents/overview.md
+* ./agents/agents-in-aem.md
     {title = Agents in AEM}
     {description = Discover how AI-powered agents automate tasks and enhance workflows in AEM.}
     {cta = Learn}
@@ -56,7 +75,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./ai-assistant/overview.md" title="AEM AI Assistant" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3475357/?format=jpeg&nocache=1773082651757" alt="AEM AI Assistant"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3475357/?format=jpeg&nocache=1778779897137" alt="AEM AI Assistant"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -69,6 +88,29 @@ CARDS
                     <p class="is-size-6">Learn how AI Assistant provides product knowledge and support in AEM.</p>
                 </div>
                 <a href="./ai-assistant/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Agents in AEM">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./agents/agents-in-aem.md" title="Agents in AEM" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3478455/?format=jpeg&nocache=1778779897192" alt="Agents in AEM"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./agents/agents-in-aem.md" target="_blank" rel="referrer" title="Agents in AEM">Agents in AEM</a>
+                    </p>
+                    <p class="is-size-6">Discover how AI-powered agents automate tasks and enhance workflows in AEM.</p>
+                </div>
+                <a href="./agents/agents-in-aem.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn</span>
                 </a>
             </div>
@@ -125,7 +167,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../../sites/generative-ai/generate-variations.md" title="Generate Variations" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3427946/?format=jpeg&nocache=1773082651737" alt="Generate Variations"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3427946/?format=jpeg&nocache=1778779897176" alt="Generate Variations"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -148,7 +190,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../../assets/search-and-discovery/ai-search.md" title="AI Search" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3479989/?format=jpeg&nocache=1773082651746" alt="AI Search"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3479989/?format=jpeg&nocache=1778779897184" alt="AI Search"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>

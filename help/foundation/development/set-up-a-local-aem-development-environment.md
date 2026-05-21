@@ -7,10 +7,35 @@ topic: Development
 role: Developer
 level: Beginner
 exl-id: 58851624-71c9-4745-aaaf-305acf6ccb14
-last-substantial-update: 2022-07-20
+last-substantial-update: 2022-07-20T00:00:00.000Z
 doc-type: Tutorial
 thumbnail: aem-local-dev-env.jpg
 duration: 4537
+TQID: https://experienceleague.adobe.com/AeI97NVAjSmBJVbNyux0MqsthilbQMD85hL3z0DukxA
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
+    internal-label: Java Content Repository
+  - id: cd7050e9-a158-4a12-a0ee-0be3ebb0d687
+    internal-label: HTML Template Language
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Set up a Local AEM Development Environment 
 

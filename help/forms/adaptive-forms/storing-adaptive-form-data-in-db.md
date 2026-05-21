@@ -7,8 +7,20 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 3dd552da-fc7c-4fc7-97ec-f20b6cc33df0
-last-substantial-update: 2020-03-20
+last-substantial-update: 2020-03-20T00:00:00.000Z
 duration: 146
+TQID: https://experienceleague.adobe.com/r3ZnFQtc6HcAUUXbdYB4etpYP-MSRqp3FR0EXZ62ZKU
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Storing Adaptive Form Submissions in Database
 

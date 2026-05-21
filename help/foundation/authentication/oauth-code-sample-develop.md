@@ -9,6 +9,13 @@ level: Experienced
 doc-type: Article
 exl-id: dd37355e-cfc7-4581-ac22-d89c951c22cf
 duration: 27
+TQID: https://experienceleague.adobe.com/oPSp-a712PXIZVF-wdqESaB8Q4mMYkxtZnaNccQWdLU
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Developing OAuth Scopes
 

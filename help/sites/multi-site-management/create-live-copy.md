@@ -11,6 +11,18 @@ role: User
 level: Beginner
 exl-id: 44540dee-909b-4140-b007-402ef9af58c4
 duration: 309
+TQID: https://experienceleague.adobe.com/4RyjLrXIGEQz6iW8wdTniiZp0SItNKNAnvzUxNbhCFk
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Create a Live Copy {#create-livecopy}
 

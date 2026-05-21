@@ -9,9 +9,22 @@ level: Beginner
 jira: KT-13466
 thumbnail: KT-13466.jpg
 doc-type: article
-last-substantial-update: 2023-06-12
+last-substantial-update: 2023-06-12T00:00:00.000Z
 exl-id: 83acbddb-9168-4d8b-84b5-97577d8a1ead
 duration: 538
+TQID: https://experienceleague.adobe.com/LmBjhSuR847ohy-6fS7Qo6zR5n3xDcj--0OBm8MWcqI
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Add badges to Rich Text Editor (RTE)
 

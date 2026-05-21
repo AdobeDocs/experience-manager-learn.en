@@ -7,11 +7,23 @@ topic: Mobile, Development
 role: Developer
 level: Intermediate
 doc-type: Article
-last-substantial-update: 2023-01-05
+last-substantial-update: 2023-01-05T00:00:00.000Z
 jira: KT-11664
 thumbnail: kt-11664.jpeg
 exl-id: 8b48c28f-ba7f-4255-be96-a7ce18ca208b
 duration: 52
+TQID: https://experienceleague.adobe.com/7ldThw2HhIvPMzP2x22sbQTmHwav73OxsgVJ6YvXFPA
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Responsive breakpoints
 

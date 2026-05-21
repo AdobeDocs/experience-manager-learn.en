@@ -9,6 +9,26 @@ level: Intermediate
 doc-type: Technical Video
 exl-id: 5b764d86-8ced-46ed-838e-4bd2e75fd64c
 duration: 428
+TQID: https://experienceleague.adobe.com/kv7VqGa0KlQvD6MJCK71Bv7APDLhe39lbXs0u9dZOTM
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Set up Asset Templates with AEM Assets and InDesign Server{#set-up-asset-templates-with-aem-assets-and-indesign-server}
 

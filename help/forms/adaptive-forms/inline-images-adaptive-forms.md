@@ -7,8 +7,17 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 4a69513d-992c-435a-a520-feb9085820e7
-last-substantial-update: 2020-06-09
+last-substantial-update: 2020-06-09T00:00:00.000Z
 duration: 58
+TQID: https://experienceleague.adobe.com/FwuiU16Jefy9TE88jUEZauGkYPB1oWZ1aIt4n9OGJLM
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Inline images in Adaptive Forms
 

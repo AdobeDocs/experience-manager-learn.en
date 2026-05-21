@@ -6,9 +6,21 @@ version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate
-last-substantial-update: 2024-01-29
+last-substantial-update: 2024-01-29T00:00:00.000Z
 exl-id: d268d5d6-f24f-4db9-b8e0-07dd769c6005
 duration: 122
+TQID: https://experienceleague.adobe.com/4B4zeblBjYFXFMD3FTGunwUWqL3zhONW-wpPJ31uadQ
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Developing with Output and Forms Services in AEM Forms{#developing-with-output-and-forms-services-in-aem-forms}
 

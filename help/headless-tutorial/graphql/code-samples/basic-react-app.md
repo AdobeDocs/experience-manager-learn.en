@@ -13,6 +13,21 @@ index: false
 hide: true
 exl-id: 870be37f-68bb-4b0f-9918-e68b09be830e
 duration: 17
+TQID: https://experienceleague.adobe.com/SXe3McLuTFnq8g7AMEVLjCqtpVJJ3WnZdWx6Bf9dtTc
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Basic React app
 

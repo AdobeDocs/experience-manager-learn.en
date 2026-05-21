@@ -6,10 +6,25 @@ topic: Content Management
 feature: Asset Distribution
 role: User
 level: Intermediate
-last-substantial-update: 2022-06-20
+last-substantial-update: 2022-06-20T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 500a9b10-462a-4f41-9b07-67138955cc3d
 duration: 468
+TQID: https://experienceleague.adobe.com/ssF4q0lPUGfSOP3wj1V-3k0zqFt6WfTE0l6DypCH6M0
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Understanding the User Experience of Asset Share Commons{#understanding-asset-share-commons}
 

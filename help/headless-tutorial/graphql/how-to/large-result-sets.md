@@ -7,11 +7,23 @@ feature: GraphQL API
 role: Developer
 level: Intermediate
 doc-type: Article
-last-substantial-update: 2023-04-14
+last-substantial-update: 2023-04-14T00:00:00.000Z
 jira: KT-13102
 thumbnail: 3418381.jpeg
 exl-id: 304b4d80-27bd-4336-b2ff-4b613a30f712
 duration: 308
+TQID: https://experienceleague.adobe.com/-MjCevXwzuTcEquhfOI8YkqUZdG0zZTJKoPgoqHs9Rc
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Large result sets in AEM Headless
 

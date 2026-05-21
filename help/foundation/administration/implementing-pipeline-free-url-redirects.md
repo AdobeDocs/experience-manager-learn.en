@@ -8,10 +8,29 @@ role: Developer, User
 level: Beginner, Intermediate
 doc-type: Article
 duration: 0
-last-substantial-update: 2025-02-05
+last-substantial-update: 2025-02-05T00:00:00.000Z
 jira: KT-15739
 thumbnail: KT-15739.jpeg
 exl-id: 3b0f5971-38b8-4b9e-b90e-9de7432e0e9d
+TQID: https://experienceleague.adobe.com/BNgUUEFwrWYnqPXc4HkJ2zGg8hTPjAbtwxGoTqDINfE
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Implementing pipeline-free URL redirects
 

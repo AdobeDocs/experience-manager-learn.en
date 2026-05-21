@@ -8,6 +8,30 @@ level: Beginner
 doc-type: Tutorial
 exl-id: a1d83c77-a9e4-4ed1-9b00-65fb002164c0
 duration: 554
+TQID: https://experienceleague.adobe.com/-YbTPciZTqcmagPEibCvZ6PVbBX55BgdGem-Z1h3Hxg
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+subfeature_v2:
+  - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
+    internal-label: Dynamic Media Classic
+  - id: c2cf8157-20fd-47bf-ac53-eebf06e4d253
+    internal-label: Zoom Viewer
+  - id: e42cd24a-0815-4b0e-bfd6-9997547c3fc1
+    internal-label: Mixed Media Sets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Cropping, Adjusted Images, and Zoom Targets {#crop-adjusted-zoom-targets}
 

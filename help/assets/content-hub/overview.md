@@ -8,8 +8,30 @@ role: User
 level: Beginner
 doc-type: Catalog
 duration: 60
-last-substantial-update: 2024-11-20
+last-substantial-update: 2024-11-20T00:00:00.000Z
 exl-id: ea7b852e-b40d-44ef-ba63-69081e68456e
+TQID: https://experienceleague.adobe.com/tjw8pu8MecrDhp3LPbQsNJmvc5NAGI2UIr---lVP-Tk
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # AEM Assets Content Hub
 

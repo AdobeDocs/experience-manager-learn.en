@@ -9,6 +9,19 @@ role: Admin
 level: Intermediate
 exl-id: 62a36ab1-3245-43ac-b943-e28ff95661bf
 duration: 108
+TQID: https://experienceleague.adobe.com/4GS6675XOefdwTNF8aaVIzsW8AgvxYjuui1eTD7rYiQ
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Use Online Revision Clean-up
 

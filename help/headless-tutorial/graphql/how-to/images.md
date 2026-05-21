@@ -8,9 +8,27 @@ role: Developer
 level: Intermediate
 jira: KT-10253
 thumbnail: KT-10253.jpeg
-last-substantial-update: 2023-04-19
+last-substantial-update: 2023-04-19T00:00:00.000Z
 exl-id: 6dbeec28-b84c-4c3e-9922-a7264b9e928c
 duration: 300
+TQID: https://experienceleague.adobe.com/L010wk0ftJDXtvqpjKfdtkAiROzhwfXGQQPhw6U5uD4
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 ---
 # Optimized images with AEM Headless {#images-with-aem-headless}
 
