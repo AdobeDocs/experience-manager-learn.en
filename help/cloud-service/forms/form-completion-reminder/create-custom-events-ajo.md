@@ -41,7 +41,7 @@ The event is triggered when the incoming eventType equals `form.submit`.
 ![submit-form-event](assets/submit_form_event.png)
 
 
-Both Tthe events  include 9 selected fields from the schema for downstream personalization, segmentation, and journey logic as shown in the screen shot.All fields under the organization's custom tenant field group, along with the eventType field and the required identity fields from identityMap, were selected for the event configuration. These fields provide the form interaction context and customer identity information needed for journey qualification, identity resolution, and personalized re-engagement communication.
+Both events include 9 selected fields from the schema for downstream personalization, segmentation, and journey logic, as shown in the screenshot. All fields under the organization's custom tenant field group, along with the `eventType` field and the required identity fields from `identityMap`, were selected for the event configuration. These fields provide the form interaction context and customer identity information needed for journey qualification, identity resolution, and personalized re-engagement communication.
 
 ![events_fields](assets/schema_fields_event.png) 
 
