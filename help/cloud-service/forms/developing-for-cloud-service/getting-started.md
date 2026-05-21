@@ -40,7 +40,12 @@ This tutorial will refer to this folder structure going forward.
  
 * Create a folder called **cloudmanager**(you can give it any name) in your c drive
 * Open your command prompt window and navigate to **c:\cloudmanager**
-* Copy and paste the content of the [text file](./assets/creating-maven-project.txt) in your command prompt window. You may have to change the DarchetypeVersion=56 depending on the [latest version](https://github.com/adobe/aem-project-archetype/releases). The latest version was 56 at the time of writing this article. 
+* Execute the following command. You may have to change `-D archetypeVersion="56"` depending on the [latest version](https://github.com/adobe/aem-project-archetype/releases). The latest version was 56 at the time of writing this article. 
+
+```bash
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.3.1:generate -D archetypeGroupId=com.adobe.aem -D archetypeArtifactId=aem-project-archetype -D archetypeVersion="56" -D appTitle=BankingApplication -D appId=bankingapplication -D groupId=com.aem.bankingapplication -D includeFormsenrollment="y" -D aemVersion="cloud" -DartifactId="aem-banking-application"
+```
+
 * Execute the command by hitting enter key.If everything goes correctly you should see build success message.
 
 ## Next Steps
