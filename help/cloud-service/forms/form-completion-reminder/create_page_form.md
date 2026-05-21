@@ -1,7 +1,6 @@
 ---
 title: AEM Sites and AEP Tags Integration Setup
-description: This solution demonstrates how to recover abandoned form submissions by integrating AEM Forms, Adobe Experience Platform Launch, and Adobe Journey Optimizer (AJO) to deliver automated reminder emails to users who start filling out a form but do not complete the submission process.
-
+description: Integrate AEP Tags(Launch) with the sites page
 solution: Experience Manager, Experience Manager Forms, Journey Optimizer
 type: Documentation
 role: Developer
@@ -18,6 +17,10 @@ badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 # AEM Sites and AEP Tags Integration Setup
 
 The following steps were performed to integrate AEM Sites with Adobe Experience Platform (AEP) Tags for the abandoned-form re-engagement use case:
+
+>[!NOTE]
+>
+> This tutorial assumes that you have already created and deployed an AEM Forms project using the latest AEM Archetype through Cloud Manager.
 
 
 1.  **Add an Adaptive Form to an AEM Sites Page**  

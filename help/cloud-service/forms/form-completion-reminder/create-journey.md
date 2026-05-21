@@ -1,6 +1,6 @@
 ---
 title: Create journey
-description: The first step in building the abandoned form re-engagement journey in Adobe Journey Optimizer (AJO) is to define the custom events that will drive the journey orchestration
+description: Define a journey to handle form submissins and abandoned form scenarios
 solution: Experience Manager, Experience Manager Forms, Journey Optimizer
 type: Documentation
 role: Developer
@@ -18,7 +18,7 @@ badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 
 Using the custom events created earlier, this journey is designed to handle both successful form submissions and abandoned form scenarios.
 
-The journey begins when a customer triggers the StartFormFillingEvent, indicating that they have started interacting with the form. The email address captured from the form is available in the `event's contextual data` and is used by Adobe Journey Optimizer for customer identification and email delivery.
+The journey begins when a customer triggers the `StartFormFillingEvent`, indicating that they have started interacting with the form. To trigger this event, the customer must complete the email address field in the form. The captured email address is available in the `event's contextual data` and is used by Adobe Journey Optimizer for customer identification and email delivery.
 
 The journey then listens for the FormSubmittedEvent, which represents a successful form submission.
 
@@ -30,6 +30,10 @@ If the session ID does not match, the customer is routed to the alternate path.
 If no form submission event is received within 5 minutes after the form-start event, the customer is considered to have abandoned the form. In this case, the journey sends a reminder email encouraging the customer to return and complete the form, after which the journey ends.
 
 The following screenshot illustrates the completed journey configuration in Adobe Journey Optimizer using the custom events created earlier.
+
+>[!NOTE]
+>
+>To use the Email activity in the journey, ensure that you have a valid email channel configuration set up in Adobe Journey Optimizer.
 
 ![journey-diagram](assets/journey-diagram.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Custom Events
-description: The first step in building the abandoned form re-engagement journey in Adobe Journey Optimizer (AJO) is to define the custom events that will drive the journey orchestration
+description: The first step in building the abandoned form re-engagement journey in Adobe Journey Optimizer (AJO) is to define the custom events that will drive the journey orchestration.
 solution: Experience Manager, Experience Manager Forms, Journey Optimizer
 type: Documentation
 role: Developer
@@ -19,6 +19,8 @@ badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 The first step in building the abandoned form re-engagement journey in Adobe Journey Optimizer (AJO) is to define the custom events that will drive the journey orchestration.
 
 These custom events capture key user interactions during the form lifecycle and are sent to Adobe Experience Platform (AEP) from AEP Tags whenever users interact with the form on the website.
+
+If you are not familiar with creating custom events in Adobe Journey Optimizer (AJO), please [review the documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configure-journeys/events-journeys/about-creating#configure-an-event) before proceeding.
 
 For this use case, two custom events are created based on the `FormInteractionSchema`:
 
