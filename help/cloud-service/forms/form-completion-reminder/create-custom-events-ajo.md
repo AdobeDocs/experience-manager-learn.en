@@ -35,7 +35,7 @@ The event is triggered when the incoming eventType equals `form.start`.
 
 ## FormSubmittedEvent
 
-`FormSubmittedEven`t is a custom Adobe Journey Optimizer (AJO) event is triggered when the user successfully submits the form.
+`FormSubmittedEvent` is a custom Adobe Journey Optimizer (AJO) event is triggered when the user successfully submits the form.
 
 The event is triggered when the incoming eventType equals `form.submit`.
 ![submit-form-event](assets/submit_form_event.png)
