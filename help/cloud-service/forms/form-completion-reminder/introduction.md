@@ -1,7 +1,6 @@
 ---
 title: User Re-Engagement for Unsubmitted Forms
 description: This solution demonstrates how to recover abandoned form submissions by integrating AEM Forms, Adobe Experience Platform Launch, and Adobe Journey Optimizer (AJO) to deliver automated reminder emails to users who start filling out a form but do not complete the submission process.
-
 solution: Experience Manager, Experience Manager Forms, Journey Optimizer
 type: Documentation
 role: Developer
@@ -12,7 +11,6 @@ topic: Integrations, Development
 jira: KT-21185
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
-
 ---
 
 # User Re-Engagement for Unsubmitted Forms
