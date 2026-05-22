@@ -42,4 +42,4 @@ The following steps were performed to integrate AEM Sites with Adobe Experience 
    Both the AEM Sites page and the associated AEP Tags (Launch) configuration must be published to ensure that the Launch library and tags are loaded correctly on the published website pages.
 
 
-Once the configuration is complete, AEP Tags can capture form interaction events from the embedded Adaptive Form and send them to Adobe Experience Platform, where they are used to trigger journeys in Adobe Journey Optimizer.
+Once the configuration is complete, AEP Tags can capture form interaction events from the embedded Adaptive Form and send them to Adobe Experience Platform, where they are used to trigger journeys in Adobe Journey Optimizer(AJO).
