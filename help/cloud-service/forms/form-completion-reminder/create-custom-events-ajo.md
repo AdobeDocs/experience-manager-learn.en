@@ -1,7 +1,7 @@
 ---
 title: Custom Events
 description: The first step in building the abandoned form re-engagement journey in Adobe Journey Optimizer (AJO) is to define the custom events that will drive the journey orchestration.
-solution: Experience Manager, Experience Manager Forms, Journey Optimizer
+solution: Journey Optimizer
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

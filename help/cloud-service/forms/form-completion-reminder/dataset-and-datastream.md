@@ -28,12 +28,7 @@ The event dataset is primarily used for:
 - Triggering real-time journeys in Adobe Journey Optimizer
 - Tracking form abandonment behavior
 
-Typical events captured include:
 
-- Form Started
-- Form In Progress
-- Form Abandoned
-- Form Submitted
 
 ## Profile Dataset
 

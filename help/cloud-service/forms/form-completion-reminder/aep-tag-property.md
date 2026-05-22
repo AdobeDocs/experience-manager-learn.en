@@ -2,7 +2,7 @@
 title: Adobe Experience Platform Tags Configuration
 description: Create an AEP Tags property to capture and stream user interactions from AEM Forms to Adobe Experience Platform.
 
-solution: Experience Manager, Experience Manager Forms, Journey Optimizer
+solution: Experience Manager Forms, Journey Optimizer
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

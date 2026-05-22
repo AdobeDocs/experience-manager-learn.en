@@ -29,7 +29,7 @@ If the session ID does not match, the customer is routed to the alternate path.
 
 If no form submission event is received within 5 minutes after the form-start event, the customer is considered to have abandoned the form. In this case, the journey sends a reminder email encouraging the customer to return and complete the form, after which the journey ends.
 
-The following screenshot illustrates the completed journey configuration in Adobe Journey Optimizer using the custom events created earlier.
+The following screenshot illustrates the completed journey configuration in Adobe Journey Optimizer(AJO) using the custom events created earlier.
 
 >[!NOTE]
 >
