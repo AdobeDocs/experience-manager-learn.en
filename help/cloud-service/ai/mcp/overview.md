@@ -22,6 +22,7 @@ All AEM MCP Servers are available under `https://mcp.adobeaemcloud.com/adobe/mcp
 - **Content (read-only)** (`/content-readonly`) — Read-only content operations (Get, List/Search) for pages and content fragments, plus assets search.
  Send an email to `aemcs-mcp-feedback@adobe.com` to have the asset search enabled for you. Include the organization name along with the use case in the email.
 - **Cloud Manager** (`/cloudmanager`) — To manage Adobe Cloud Manager programs, environments, repositories and pipelines.
+- **Experience Governance** (`/experience-governance`) — To manage brand integrity and compliance requirements for your website.
 
 >[!TIP]
 >
