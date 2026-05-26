@@ -80,7 +80,7 @@ The following are required when setting up SAML 2.0 authentication:
 + AEM Administrator access to AEM as a Cloud Service environment
 + Administrator access to the IDP
 + Optionally, access to a public/private keypair used to encryption SAML payloads
-+ AEM Sites pages (or page trees), published to AEM Publish, and [protected by Closed User Groups (CUGs)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#permissions)
++ AEM Sites pages (or page trees), published to AEM Publish, and [protected by Closed User Groups (CUGs)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#permissions) with [authentication requirement enabled](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#authentication).
 
 SAML 2.0 is only supported to authenticate uses to AEM Publish or Preview. To manage the authentication of AEM Author using and IDP, [integrate the IDP with Adobe IMS](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
@@ -605,7 +605,15 @@ Deploy the target Cloud Manager Git branch (in this example, `develop`), using a
 
 The SAML authentication flow can be invoked from an AEM Site web page, by creating a specially crafted links, or a buttons. The parameters described below can be programmatically set as needed, so for instance, a log in button may set the `saml_request_path`, which is where the user is taken upon successful SAML authentication, to different AEM pages, based on the context of the button.
 
-## Secured Caching while using SAML
+## Content protection
+
+For the SAML authentication flow to trigger the following is required:
+
++ The content must be denied read access by [CUGs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#permissions) or [ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#permissions).
+  + If the content is an AEM page, the page or its content tree must have [authentication support](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#authentication) enabled with a login page set.
+  + If the content is an AEM asset, the asset's folder, or parent folder, must have [Closed Users Groups (CUGS), authentication requirement enabled, and a login page set](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/advanced/closed-user-groups).
+  
+## Secure caching with SAML
 
 On the AEM publish instance, most pages are typically cached. However, for SAML-protected paths, caching should either be disabled or secured caching enabled using the auth_checker configuration. For more information, please refer to the details provided [here](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/permissions-cache)
 
