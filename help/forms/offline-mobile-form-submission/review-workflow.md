@@ -30,7 +30,7 @@ The following screenshot shows the steps involved in the workflow.
 
 ## Generate Non-Interactive PDF workflow step
 
-The XDP template and the data to be merged with the template is specified here. The data to be merged is the submitted data from the PDF. This submitted data is stored under the node ```/content/formsubmissions```
+The XDP template and the data to be merged with the template is specified here. The data to be merged is the submitted data from the PDF. This submitted data is stored under the node `/content/formsubmissions`
 
 ![workflow](assets/generate-pdf1.PNG)
 

@@ -45,17 +45,17 @@ Since we are creating the new maven project in the cloudmanager folder which alr
 
 Once your project is successfully created, you can then start copying code/configurations etc., from old project to this new project
 
-* Copy the HandleFormSubmission servlet from ```C:\CloudManager\aem-banking-application\core\src\main\java\com\aem\bankingapplication\core\servlets``` 
+* Copy the HandleFormSubmission servlet from `C:\CloudManager\aem-banking-application\core\src\main\java\com\aem\bankingapplication\core\servlets` 
 to
-```C:\CloudManager\aem-banking-application1\core\src\main\java\com\aem\bankingapplication\core\servlets```
+`C:\CloudManager\aem-banking-application1\core\src\main\java\com\aem\bankingapplication\core\servlets`
 
 * Copy the CustomSubmit from
-```C:\CloudManager\aem-banking-application\ui.apps\src\main\content\jcr_root\apps\bankingapplication\SubmitToAEMServlet``` from aem-banking-application to aem-banking-application1 project
+`C:\CloudManager\aem-banking-application\ui.apps\src\main\content\jcr_root\apps\bankingapplication\SubmitToAEMServlet` from aem-banking-application to aem-banking-application1 project
 
 * import the new project into IntelliJ
 
 * Update the filter.xml in the ui.apps module  of the aem-banking-application1 project to include the following line
-```<filter root="/apps/bankingapplication/SubmitToAEMServlet"/>```
+`<filter root="/apps/bankingapplication/SubmitToAEMServlet"/>`
 
 After you have copied all the code to your new project, you can push this project to cloud manager.
 

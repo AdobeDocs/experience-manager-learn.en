@@ -51,7 +51,7 @@ The sample assets provided with this article include the following
 
 * Download the [sample assets](assets/service-now.zip)
 * Import the assets into AEM using [package manager](http://localhost:4502/crx/packmgr/index.jsp)
-* The swagger file used for this integration is located under the ```/conf/9957/settings/cloudconfigs/fdm``` folder in crx repository
+* The swagger file used for this integration is located under the `/conf/9957/settings/cloudconfigs/fdm` folder in crx repository
 * Edit the [CreateIncident cloud service configuration](http://localhost:4502/mnt/overlay/fd/fdm/gui/components/admin/fdmcloudservice/properties.html?item=%2Fconf%2F9957%2Fsettings%2Fcloudconfigs%2Ffdm%2Fcreateincident)to match your ServiceNow instance.
 * Edit the [GetAllIncidents cloud service configuration](http://localhost:4502/mnt/overlay/fd/fdm/gui/components/admin/fdmcloudservice/properties.html?item=%2Fconf%2F9957%2Fsettings%2Fcloudconfigs%2Ffdm%2Fgetallincidents) to match your ServiceNow instance. You will need to change the host,username and password to match your ServiceNow instance credentials.
 

@@ -41,7 +41,7 @@ If you want to make use of custom fonts in your PDF file, you will need to push 
 * Extract the contents of [font.zip](assets/fonts.zip) into the newly created fonts folder
 * Included in the fonts module are some custom fonts.You can add your organization's custom fonts to the C:\CloudManager\aem-banking-application\fonts\src\main\resources folder of the fonts module
 * Open the C:\CloudManager\aem-banking-application\pom.xml file
-* Add the following line  ```<module>fonts</module>``` in the modules section of the pom.xml
+* Add the following line `<module>fonts</module>` in the modules section of the pom.xml
 * Save your pom.xml
 * Refresh the aem-banking-application project in IntelliJ
 
