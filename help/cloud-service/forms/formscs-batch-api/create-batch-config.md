@@ -34,7 +34,7 @@ level_v2:
 To use a batch API, create a batch configuration and execute a run based on that configuration. The following video shows a demonstration of creating batch configuration using the API
 
 >[!NOTE]
->Please make sure the AEM user belongs to ```forms-users``` group to make API calls.
+>Please make sure the AEM user belongs to `forms-users` group to make API calls.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/340241?quality=12&learn=on)

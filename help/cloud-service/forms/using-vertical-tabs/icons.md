@@ -135,7 +135,7 @@ For the purpose of the article , I created a new css class(cmp-verticaltabs--mar
 
 ## Modify the verticaltabs component
 
-Copy the verticaltabs.html file from ```/apps/core/fd/components/form/verticaltabs/v1/verticaltabs/verticaltabs.html``` and paste it under the verticaltabs component of your project. Add the following line ```data-icon-name="${tab.name}"``` to the copied file  under the li role as shown in the image below
+Copy the verticaltabs.html file from `/apps/core/fd/components/form/verticaltabs/v1/verticaltabs/verticaltabs.html` and paste it under the verticaltabs component of your project. Add the following line `data-icon-name="${tab.name}"` to the copied file  under the li role as shown in the image below
 ![data-icon](assets/data-icons.png)
 we are setting a custom data attribute called data-icon-name with the value of the tab name.If the tab name matches an image name in the icon map, the corresponding image is associated with the tab.
 

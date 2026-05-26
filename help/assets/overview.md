@@ -4,6 +4,7 @@ description: Watch our videos to get AEM Asset support and assistance.
 sub-product: Experience Manager Assets
 version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 doc-type: Catalog
+last-substantial-update: 2026-05-26
 exl-id: 1d0b0183-25ee-4cb4-82a5-3506e7c1c908
 TQID: https://experienceleague.adobe.com/nn11K1DaacO-2-I5WUpaTYE2syZ7BDcZD3JE74tt14s
 product_v2:
