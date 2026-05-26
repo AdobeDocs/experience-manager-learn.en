@@ -305,7 +305,7 @@ AEM uses the following user attributes, which can be populated via the `synchron
 
 | User attribute                 | Relative property path from `rep:User` node |
 |--------------------------------|--------------------------|
-| Title (for example, `Mrs`)             | `profile/title`          |
+| Title (for example, `Mrs`)     | `profile/title`          |
 | Given name (i.e. first name)   | `profile/givenName`      |
 | Family name (i.e. last name)   | `profile/familyName`     |
 | Job title                      | `profile/jobTitle`       |
@@ -404,7 +404,7 @@ During the SAML authentication process, the IDP initiates a client-side HTTP POS
             "$[env:SAML_IDP_REFERRER;default=dev-123567890.okta.com]"
         ],
         "filter.methods": [
-            "POST",
+            "POST"
         ],
         "exclude.agents.regexp": [ ]
     }
@@ -416,7 +416,7 @@ OSGi configurations per environment (`config.publish.dev`, `config.publish.stage
 
 ## Configure Cross-Origin Resource Sharing (CORS)
 
-During the SAML authentication process, the IDP initiates a client-side HTTP POST to AEM Publish's `.../saml_login` end point. If the IDP and AEM Publish exist on different hosts/domains, AEM Publish's __CRoss-Origin Resource Sharing (CORS)__ must be configured to allow HTTP POSTs from the IDP's host/domain.
+During the SAML authentication process, the IDP initiates a client-side HTTP POST to AEM Publish's `.../saml_login` end point. If the IDP and AEM Publish exist on different hosts/domains, AEM Publish's __Cross-Origin Resource Sharing (CORS)__ must be configured to allow HTTP POSTs from the IDP's host/domain.
 
 This HTTP POST request's `Origin` header usually has a different value than the AEM Publish host, thus requiring CORS configuration. 
 
@@ -559,11 +559,12 @@ When this migration is enabled, it is carried out during user authentication and
 4. The local user is then removed from all the Saml local groups he was member of. Saml local groups are identified by the OAK property: `rep:managedByIdp`. This property is set by the Saml Authentication handler when the attribute `syncType` is not specified or set to `default`. 
 
 For instance, if before the migration `user1` is a local user and a member of local group `group1`, after the migration the following changes will occur:
-`user1` becomes an external user. The attribute `rep:externalId` is added to his profile.
-`user1` becomes member of external group: `group1;idp`
-`user1` is no longer a direct member of local group: `group1`
-`group1;idp` is a member of the local group: `group1`.
-`user1` is then a member of the local group: `group1` though inheritance
+
++ `user1` becomes an external user. The attribute `rep:externalId` is added to his profile.
++ `user1` becomes member of external group: `group1;idp`
++ `user1` is no longer a direct member of local group: `group1`
++ `group1;idp` is a member of the local group: `group1`.
++ `user1` is then a member of the local group: `group1` though inheritance
 
 The group membership for external groups is stored in the user profile in the property `rep:externalPrincipalNames`
 
