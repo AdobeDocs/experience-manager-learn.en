@@ -612,7 +612,7 @@ For the SAML authentication flow to trigger the following is required:
 
 + The content must be denied read access by [CUGs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#permissions) or [ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#permissions).
   + If the content is an AEM page, the page or its content tree must have [authentication support](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/sites-console/page-properties#authentication) enabled with a login page set.
-  + If the content is an AEM asset, the asset's folder, or parent folder, must have [Closed Users Groups (CUGS), authentication requirement enabled, and a login page set](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/advanced/closed-user-groups).
+  + If the content is an AEM asset, the asset's folder, or parent folder, must have [Closed Users Groups (CUGS) and authentication requirement enabled](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/advanced/closed-user-groups).
   
 ## Secure caching with SAML
 
