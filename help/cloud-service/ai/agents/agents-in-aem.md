@@ -25,7 +25,7 @@ CARDS
 
 * ./brand-governance-agent.md
 * ./content-advisor-agent.md
-* ./governace-agent.md
+* ./governance-agent.md
 * ./development-agent-troubleshoot-ci-cd-pipeline.md
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -35,7 +35,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./content-advisor-agent.md" title="Content Advisor Agent" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3491411/?format=jpeg&nocache=1780075435019" alt="Content Advisor Agent"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3491411/?format=jpeg&nocache=1780076491938" alt="Content Advisor Agent"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -57,8 +57,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./governace-agent.md" title="Governance Agent" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3491621/?format=jpeg&nocache=1780075435049" alt="Governance Agent"
+                    <a href="./governance-agent.md" title="Governance Agent" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3491621/?format=jpeg&nocache=1780076491926" alt="Governance Agent"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -66,11 +66,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./governace-agent.md" target="_blank" rel="referrer" title="Governance Agent">Governance Agent</a>
+                        <a href="./governance-agent.md" target="_blank" rel="referrer" title="Governance Agent">Governance Agent</a>
                     </p>
                     <p class="is-size-6">Discover the basics of AEM's Governance Agent, designed to ensure compliance and control of content.</p>
                 </div>
-                <a href="./governace-agent.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./governance-agent.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
                 </a>
             </div>
