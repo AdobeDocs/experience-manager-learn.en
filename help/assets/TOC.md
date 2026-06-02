@@ -50,6 +50,7 @@ team: TM
   + [Review task](./collaboration/review-task.md)
 
 + Search and discovery{#search-and-discovery}
+  + [Discovery](./search-and-discovery/discovery.md)
   + [Search](./search-and-discovery/search.md)           
   + [AI search](./search-and-discovery/ai-search.md)  
   + [Adobe Firefly integration](./search-and-discovery/adobe-firefly.md)
@@ -78,6 +79,26 @@ team: TM
   + [Smart Tags for videos](metadata/video-smart-tags.md)
   + [Import and export metadata](metadata/metadata-import-export.md)
 
++ Governance{#governance}
+  + [Asset governance](./governance/governance.md)
+
++ Activation and sharing{#sharing}
+  + [Activation](./sharing/activation.md)
+  + [Download assets](./sharing/download.md)
+  + [Export assets](./sharing/export.md)
+  + [Publish assets](./sharing/publish.md)
+  
+  + Brand Portal{#brand-portal}
+    + [Brand Portal](./sharing/brand-portal.md)
+    + [Configure asset sourcing](brand-portal/configure-asset-sourcing.md)
+    + [Enable rendition downloads](brand-portal/enable-renditions-download.md)
+
+  + Asset share{#assets-share}
+    + [Asset Share Commons](./sharing/asset-share-commons-user-experience-feature-video-understand.md)
+    + [Set up Asset Share Commons on local AEM](./sharing/asset-share-commons-technical-video-setup.md)
+    + [Theming Asset Share Commons](./sharing/asset-share-commons-feature-video-theming.md)
+    + [Asset Share Commons asset kits](./sharing/asset-share/asset-share-commons-asset-kits.md)
+
 + Content Hub{#content-hub}
   + [Overview](./content-hub/overview.md)
   + [Set up](./content-hub/set-up.md)
@@ -97,21 +118,6 @@ team: TM
 + Adobe GenStudio{#adobe-genstudio}
   + [AEM Assets and GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/integrations-learn/experience-cloud/tutorials/genstudio-for-performance-marketing-experience-manager/overview)
 
-+ Sharing and distribution{#sharing}
-  + [Download assets](./sharing/download.md)
-  + [Export assets](./sharing/export.md)
-  + [Publish assets](./sharing/publish.md)
-  
-  + Brand Portal{#brand-portal}
-    + [Brand Portal](./sharing/brand-portal.md)
-    + [Configure asset sourcing](brand-portal/configure-asset-sourcing.md)
-    + [Enable rendition downloads](brand-portal/enable-renditions-download.md)
-
-  + Asset share{#assets-share}
-    + [Asset Share Commons](./sharing/asset-share-commons-user-experience-feature-video-understand.md)
-    + [Set up Asset Share Commons on local AEM](./sharing/asset-share-commons-technical-video-setup.md)
-    + [Theming Asset Share Commons](./sharing/asset-share-commons-feature-video-theming.md)
-    + [Asset Share Commons asset kits](./sharing/asset-share/asset-share-commons-asset-kits.md)
 
 + Creative workflows{#creative-workflows}
   + [Adobe Express integration](./creative-workflows/adobe-express.md)
