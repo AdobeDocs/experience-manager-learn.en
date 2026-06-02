@@ -42,6 +42,7 @@ Let's set up the Content MCP Server in Cursor with these steps.
 
     ```json
     {
+        // You do not need both but just content-readonly or content is fine. The content server includes everything the content-readonly server offers. For demo purposes, we added both.
         "mcpServers": {
             // Use this for create, read, update, and delete operations
             "AEM-RDE-Content": {
