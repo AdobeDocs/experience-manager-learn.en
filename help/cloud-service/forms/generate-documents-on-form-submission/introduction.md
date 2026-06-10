@@ -10,9 +10,9 @@ last-substantial-update: 2026-03-16
 jira: KT-20539
 
 ---
-# Integrate AEM Forms with Adobe Experience Platform(AEP)
+# Generate and Deliver Interactive Communications with AEM Forms and AJO
 
-In this use case, a customer submits a adaptive form to express interest in one or more Adobe Cloud Solutions. The form captures the customer's contact information and solution preferences, which are used to create or update a customer profile.
+In this use case, a customer submits an adaptive form to express interest in one or more Adobe cloud solutions. The form captures the customer's contact information and solution preferences, which are used to create or update a customer profile.
 
 Once the profile qualifies for the target audience, an Adobe Journey Optimizer journey is triggered. As part of the journey, a custom action invokes a service that retrieves the customer's profile information and generates a personalized Interactive Communication (IC) document using AEM Forms APIs.
 
