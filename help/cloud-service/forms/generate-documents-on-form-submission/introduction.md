@@ -19,7 +19,7 @@ Once the profile qualifies for the target audience, an Adobe Journey Optimizer j
 The generated document is based on a predefined Interactive Communication template and is populated with profile-specific data and content relevant to the customer's selected cloud solution interests. The document is then emailed to the customer as a PDF attachment, providing a personalized and automated communication experience.
 
 This use case demonstrates how AEM Forms and Adobe Journey Optimizer can work together to automate the generation and delivery of personalized communications based on customer interests captured through a form submission.
-This tutorial walks you through the steps involved in creating the integration between AEM Forms and AEP
+This tutorial walks you through the steps involved in creating the integration between AEM Forms and AEP.
 
 ## Next Steps
 
