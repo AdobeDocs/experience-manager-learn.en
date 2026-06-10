@@ -1,6 +1,6 @@
 ---
 title: Create AEP and AEM Cloud Configuration
-description: Learn how to create a cloud configuration in AEM Forms securely connect with Adobe Experience Platform using Adobe Developer Console credentials.
+description: Learn how to create a cloud configuration in AEM Forms to securely connect with Adobe Experience Platform using Adobe Developer Console credentials.
 version: Experience Manager as a Cloud Service
 feature: Adaptive Forms
 topic: Integrations
