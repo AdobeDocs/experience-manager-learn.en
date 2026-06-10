@@ -349,7 +349,7 @@ team: TM
     + Using output and forms service{#forms-cs-output-and-forms-service}
         + [Generate PDF](./forms/forms-cs-output-and-forms-service/outputservice.md)
     + Send personalized documents on form submission{#generate-documents-on-form-submission}
-        + [Inrtoduction](./forms/generate-documents-on-form-submission/introduction.md)
+        + [Introduction](./forms/generate-documents-on-form-submission/introduction.md)
         + [Create cloud configuration](./forms/generate-documents-on-form-submission/create-cloud-configuration.md)
         + [Create AEP Integration](./forms/generate-documents-on-form-submission/create-integration-with-aep.md)
         + [Create Form Data Model](./forms/generate-documents-on-form-submission/create-form-data-model.md)
