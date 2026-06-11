@@ -348,6 +348,16 @@ team: TM
         + [4. Adding Icons](./forms/using-vertical-tabs/icons.md)
     + Using output and forms service{#forms-cs-output-and-forms-service}
         + [Generate PDF](./forms/forms-cs-output-and-forms-service/outputservice.md)
+    + Send personalized documents on form submission{#generate-documents-on-form-submission}
+        + [Introduction](./forms/generate-documents-on-form-submission/introduction.md)
+        + [Create cloud configuration](./forms/generate-documents-on-form-submission/create-cloud-configuration.md)
+        + [Create AEP Integration](./forms/generate-documents-on-form-submission/create-integration-with-aep.md)
+        + [Create Form Data Model](./forms/generate-documents-on-form-submission/create-form-data-model.md)
+        + [Create Fragments](./forms/generate-documents-on-form-submission/create-interactive-communication-fragments.md)
+        + [Create IC Template](./forms/generate-documents-on-form-submission/create-interactive-communication-template.md)
+        + [Create IC Document](./forms/generate-documents-on-form-submission/add-fragments-to-documents.md)
+        + [Create custom action in AJO](./forms/generate-documents-on-form-submission/create-custom-action-ajo.md)
+        + [Create Journey to send documents](./forms/generate-documents-on-form-submission/create-journey-to-send-documents.md)
     + Create profile in AEP on form submission{#aep-integration}
         + [Introduction](./forms/aep-integration/introduction.md)
         + [Create cloud configuration](./forms/aep-integration/create-cloud-configuration.md)
