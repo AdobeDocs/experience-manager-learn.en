@@ -24,6 +24,6 @@ An instructional video is embedded below for detailed guidance.
 
 ## Next Steps
 
-[Create Interactive Communication Document ](./add-fragments-to-documents.md)
+[Create Interactive Communication Document](./add-fragments-to-documents.md)
 
 
