@@ -37,6 +37,12 @@ topic_v2:
 
 Learn **how to set up** traffic filter rules including Web Application Firewall (WAF) rules. In this tutorial, we set up the groundwork for subsequent tutorials, where you will configure and deploy rules, followed by testing and analyzing of the results. 
 
+>[!IMPORTANT]
+>
+> WAF traffic filter rules require an additional Extended Security (formerly named WAF-DDoS Protection) or Extended Security for Healthcare (formerly named Enhanced Security) license. If and when they are licensed, they *MUST* be enabled in the Cloud Manager.
+>
+> Standard traffic filter rules are available to Sites and Forms customers by default.
+
 To demonstrate the setup process, the tutorial uses the [AEM WKND Sites Project](https://github.com/adobe/aem-guides-wknd).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3469395/?quality=12&learn=on)
