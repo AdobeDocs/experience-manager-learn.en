@@ -14,7 +14,7 @@ jira: KT-20539
 ---
 # Create cloud configuration for AEP and AEM integration
 
-Learn how to set up a cloud configuration in AEM Forms securely integrate with Adobe Experience Platform. Use Adobe Developer Console credentials to enable seamless data submission and retrieval for your forms. This guide provides step-by-step instructions to configure the connection efficiently.
+Learn how to set up a cloud configuration in AEM Forms to securely integrate with Adobe Experience Platform. Use Adobe Developer Console credentials to enable seamless data submission and retrieval for your forms. This guide provides step-by-step instructions to configure the connection efficiently.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3481496/?learn=on&enablevpops)
 
