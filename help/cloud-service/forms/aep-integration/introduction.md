@@ -12,9 +12,6 @@ exl-id: 1d4c3cf4-3217-4824-863a-31bb05cb0493
 ---
 # Integrate AEM Forms with Adobe Experience Platform(AEP)
 
->[!NOTE]
->
->The capability to connect Adaptive Forms (AEM Forms) with Adobe Experience Platform (AEP) is under the early access program.Send an email from your work address to aem-forms-ea@adobe.com to request access.
 
 You can connect AEM Forms with Adobe Experience Platform to transform your form experiences. This powerful integration enables organizations to leverage real-time customer profiles for personalized form experiences, streamline AEM Forms data submission to Experience Platform, and create unified customer records across the Adobe ecosystem.
 
