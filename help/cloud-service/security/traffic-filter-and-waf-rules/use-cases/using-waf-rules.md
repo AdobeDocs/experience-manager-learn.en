@@ -42,8 +42,9 @@ The sophisticated attacks are characterized by high request rates, complex patte
 
 >[!IMPORTANT]
 >
-> WAF traffic filter rules require an additional Extended Security (formerly named WAF-DDoS Protection) or Extended Security for Healthcare (formerly named Enhanced Security) license. Standard traffic filter rules are available to Sites and Forms customers by default.
-
+> WAF traffic filter rules require an additional Extended Security (formerly named WAF-DDoS Protection) or Extended Security for Healthcare (formerly named Enhanced Security) license. If and when they are licensed, they *MUST* be enabled in the Cloud Manager.
+>
+> Standard traffic filter rules are available to Sites and Forms customers by default.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3469397/?quality=12&learn=on)
 
