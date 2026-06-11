@@ -1,6 +1,6 @@
 ---
 title: Creating Custom Actions in AJO
-description: Learn to create custom actions in Adobe Journey Optimizer based on a REST API exposed by Node.js application
+description: Learn to create custom actions in Adobe Journey Optimizer based on a REST API exposed by a Node.js application
 role: Developer
 level: Intermediate
 doc-type: Technical Video
