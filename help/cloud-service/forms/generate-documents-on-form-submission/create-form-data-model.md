@@ -21,6 +21,6 @@ Learn how to build a Form Data Model (FDM) in Adobe Experience Manager (AEM) For
 
 ## Next Steps
 
-[Create Interactive Communication Fragments ](./create-interactive-communication-fragments.md)
+[Create Interactive Communication Fragments](./create-interactive-communication-fragments.md)
 
 
