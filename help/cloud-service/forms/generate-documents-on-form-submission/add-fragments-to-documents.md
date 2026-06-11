@@ -20,4 +20,4 @@ Learn how to add fragments and logos to your master pages effectively. This guid
 
 ## Next Steps
 
-[Create Custom Action in Journey Optimizer ](./create-custom-action-ajo.md)
+[Create Custom Action in Journey Optimizer](./create-custom-action-ajo.md)
