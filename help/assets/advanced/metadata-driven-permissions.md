@@ -48,7 +48,9 @@ Enabling Metadata-Driven Permissions involves defining which asset content or me
 
 ## Prerequisites
 
-Access to an AEM as a Cloud Service environment updated to the latest version is required for setting up metadata-driven permissions.
+* Access to an AEM as a Cloud Service environment updated to the latest version.
+
+* The user or the user group must have `jcr:modifyAccessControl` to set metadata-driven permissions.
 
 ## OSGi configuration {#configure-permissionable-properties}
 
@@ -119,18 +121,18 @@ Once you configure permissions and set the asset metadata properties accordingly
 
 Benefits of Metadata-Driven Permissions include:
 
-- Fine-grained control over asset access based on specific attributes.
-- Decoupling of access control policies from folder structure, allowing for more flexible asset organization.
-- Ability to define complex access control rules based on multiple content or metadata properties.
+* Fine-grained control over asset access based on specific attributes.
+* Decoupling of access control policies from folder structure, allowing for more flexible asset organization.
+* Ability to define complex access control rules based on multiple content or metadata properties.
 
 >[!NOTE]
 >
 > It's important to note:
 > 
-> - Properties are evaluated against the restrictions using __String equality__ (`=`)  (other data types or operators are not yet supported, for greater than (`>`) or Date properties)
-> - To allow multiple values for a restriction property, additional restrictions can be added to the Access Control Entry by selecting the same property from the "Select Type" dropdown and entering a new Restriction Value (e.g. `status=approved`, `status=wip`) and clicking "+" to add the restriction to the entry
+> * Properties are evaluated against the restrictions using __String equality__ (`=`)  (other data types or operators are not yet supported, for greater than (`>`) or Date properties)
+> * To allow multiple values for a restriction property, additional restrictions can be added to the Access Control Entry by selecting the same property from the "Select Type" dropdown and entering a new Restriction Value (e.g. `status=approved`, `status=wip`) and clicking "+" to add the restriction to the entry
 > ![Allow Multiple Values](./assets/metadata-driven-permissions/allow-multiple-values.png)
-> - __AND restrictions__ are supported, via multiple restrictions in a single Access Control Entry with different property names (e.g. `status=approved`, `brand=Adobe`) will be evaluated as an AND condition, i.e. the selected user group will be granted read access to assets with `status=approved AND brand=Adobe`
+> * __AND restrictions__ are supported, via multiple restrictions in a single Access Control Entry with different property names (e.g. `status=approved`, `brand=Adobe`) will be evaluated as an AND condition, i.e. the selected user group will be granted read access to assets with `status=approved AND brand=Adobe`
 > ![Allow Multiple Restrictions](./assets/metadata-driven-permissions/allow-multiple-restrictions.png)
-> - __OR restrictions__ are supported by adding a new Access Control Entry with a metadata property restriction will establish an OR condition for the entries, e.g. a single entry with restriction `status=approved` and a single entry with `brand=Adobe` will be evaluated as `status=approved OR brand=Adobe`
+> * __OR restrictions__ are supported by adding a new Access Control Entry with a metadata property restriction will establish an OR condition for the entries, e.g. a single entry with restriction `status=approved` and a single entry with `brand=Adobe` will be evaluated as `status=approved OR brand=Adobe`
 > ![Allow Multiple Restrictions](./assets/metadata-driven-permissions/allow-multiple-aces.png)
