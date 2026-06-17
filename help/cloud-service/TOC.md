@@ -358,7 +358,7 @@ team: TM
         + [Create IC document](./forms/generate-documents-on-form-submission/add-fragments-to-documents.md)
         + [Create custom action in AJO](./forms/generate-documents-on-form-submission/create-custom-action-ajo.md)
         + [Create Journey to send documents](./forms/generate-documents-on-form-submission/create-journey-to-send-documents.md)
-        + [Review sample code](./forms/generate-documents-on-form-submission/test-solution.md)
+        + [Deploy and test](./forms/generate-documents-on-form-submission/test-solution.md)
     + Create profile in AEP on form submission{#aep-integration}
         + [Introduction](./forms/aep-integration/introduction.md)
         + [Create cloud configuration](./forms/aep-integration/create-cloud-configuration.md)
