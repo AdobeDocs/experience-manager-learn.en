@@ -8,6 +8,7 @@ nudge: true
 
 # Adobe Experience Manager Video Shorts {#video-clips}
 
++ [Overview](video-overview.md)
 + Adobe Summit {#summit}
     + 2025 {#2025}
         + {hide-from-toc} [Video clip](./summit/2025/accelerating-content-activation-with-adobe-experience-manager.md)
