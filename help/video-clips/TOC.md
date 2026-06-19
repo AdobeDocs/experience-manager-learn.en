@@ -3,6 +3,7 @@ user-guide-title: Adobe Experience Manager Video Shorts
 breadcrumb-title: Video Shorts
 user-guide-description: Hidden collection
 auto-video-transcripts: true
+nudge: true
 ---
 
 # Adobe Experience Manager Video Shorts {#video-clips}
