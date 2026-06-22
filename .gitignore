@@ -4,3 +4,5 @@
 *.code-workspace
 .history/
 .cursor/
+.claude/
+CLAUDE.md
