@@ -191,3 +191,4 @@ version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a
   + [Site Maintenance](expert-resources/site-maintenance.md)
   + [AEM Champion Tips and Tricks: Session 1](expert-resources/champion-tips-1.md)
   + [AEM Champion Tips and Tricks: Session 2](expert-resources/champion-tips-2.md)
+

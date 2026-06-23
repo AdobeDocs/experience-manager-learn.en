@@ -51,3 +51,4 @@ Follow the [detailed steps outlined in documentation](https://experienceleague.a
 5. **Edit your new project's `paths.json`** to map the AEM Author service path to your website's root.
 
 This Git repository is cloned in the [local development environment](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/edge-delivery-services/developing/universal-editor/3-local-development-environment) chapter, and where code is developed.
+
