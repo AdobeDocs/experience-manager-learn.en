@@ -1,6 +1,6 @@
 ---
 title: Set up AEM Edge Functions on AEM as a Cloud Service
-description: Learn how to set up AEM Edge Functions on AEM as a Cloud Service, from installing the CLI and creating a project from the boilerplate template to deploying a working endpoint.
+description: Learn how to set up AEM Edge Functions on AEM as a Cloud Service, from installing the CLI and deploying your AEM site to creating a project from the boilerplate template and deploying a working endpoint.
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture
@@ -9,9 +9,8 @@ level: Intermediate
 doc-type: Tutorial
 jira: KT-XXXXX
 thumbnail: KT-XXXXX.jpeg
-last-substantial-update: 2026-06-12
+last-substantial-update: 2026-06-22
 duration: 0
-exl-id: TODO-REPLACE-WITH-GENERATED-EXLID
 ---
 # Set up AEM Edge Functions on AEM as a Cloud Service
 
@@ -19,60 +18,31 @@ exl-id: TODO-REPLACE-WITH-GENERATED-EXLID
 >
 >AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
 
-Learn how to set up [AEM Edge Functions](overview.md) on AEM as a Cloud Service.  
+Learn how to set up AEM Edge Functions on AEM as a Cloud Service environment.
 
-This tutorial walks through the steps from installing the Adobe CLI and AEM Edge Functions plugin, to creating a project from the boilerplate template, to deploying a working endpoint.
+This tutorial covers CLI installation, AEM site deployment, project setup from the boilerplate template, CDN configuration, and deployment of a working endpoint on AEM as a Cloud Service.
 
-This tutorial uses the [WKND Sites project](https://github.com/adobe/aem-guides-wknd) as the demo site and Rapid Development Environment (RDE) for deployment. You can follow the same steps with your own site and environment.
+This tutorial uses the [WKND Sites project](https://github.com/adobe/aem-guides-wknd) as the demo site. You can follow the same steps with your own site and environment.
+
+## What you'll build
+
+AEM Edge Functions are JavaScript modules that run on Adobe CDN at the edge, not on your AEM origin. You deploy one edge function named `my-edge-function` with two routes:
+
+- `/hello-world` returns a greeting from the edge
+- `/weather` detects the visitor's location at the edge, calls the [Open-Meteo API](https://open-meteo.com/en/docs), and returns the current temperature for their city
+
+During development, you test your edge function locally with the dev server. Then you copy CDN configuration into your AEM site project, deploy through Cloud Manager or an RDE, push the function to Adobe CDN, and verify both endpoints in a browser or with `curl`.
 
 The high-level steps:
 
 1. Install Adobe CLI and AEM Edge Functions plugin
+1. Deploy your AEM site to an RDE or Dev environment
 1. Set up AEM Edge Functions on your AEM as a Cloud Service environment
 1. Create the AEM Edge Functions project from the boilerplate template
 1. Clone, review, and run the AEM Edge Functions project locally
 1. Review, manage, and deploy CDN configuration
 1. Build and deploy AEM Edge Functions to Adobe CDN
 1. Verify the endpoint is working
-
-## Before you begin
-
-This tutorial assumes the WKND site (or your own site) is already deployed to an RDE or Development environment.
-
->[!BEGINTABS]
-
->[!TAB RDE]
-
-For RDE environments, run the following commands to set up and deploy the site to the RDE:
-
-- From the root of the WKND or your own site project, run the following commands to set up and deploy the site to the RDE:
-
-```bash
-# Set up the RDE 
-$ aio aem:rde:setup
-
-# Build the site
-$ mvn clean install
-$ aio aem:rde:install all/target/aem-guides-wknd.all-X.Y.Z-SNAPSHOT.zip
-$ aio aem:rde:install dispatcher/target/aem-guides-wknd.dispatcher.cloud-X.Y.Z-SNAPSHOT.zip
-
-# Verify the RDE and site are deployed
-$ aio aem:rde:status
-```
-
-- In the browser, verify the site is accessible at `https://publish-pXXXXX-eYYYYY.adobeaemcloud.com/`.
-
-For a complete walkthrough, see [Rapid Development Environment](../developing/rde/overview.md).
-
->[!TAB Dev environment]
-
-- Deploy WKND or your own site to the Dev environment using the Full Stack pipeline in Cloud Manager.
-
-- In the browser, verify the site is accessible at `https://publish-pXXXXX-eYYYYY.adobeaemcloud.com/`.
-
-For a complete walkthrough, see [Full-stack pipelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines#full-stack-pipeline).
-
->[!ENDTABS]
 
 ## Prerequisites
 
@@ -81,12 +51,13 @@ Ensure the following are in place before starting.
 - [Node.js](https://nodejs.org/) and npm installed locally
 - A GitHub account to create a project from the boilerplate template
 - Access to an AEM as a Cloud Service environment with **Cloud Manager** Deployment Manager role, or **AEM Administrator** Product Profile on the author instance
+- The [WKND Sites project](https://github.com/adobe/aem-guides-wknd) or your own AEM site project cloned locally
 
 >[!NOTE]
 >
->AEM as a Cloud Service supports **one AEM Edge Function per environment**. Plan accordingly if you intend to use multiple services.
+>For AEM as a Cloud Service, you can deploy **one AEM Edge Function per environment**.
 
-## Step 1: Install Adobe CLI and AEM Edge Functions plugin
+## Step 1: Install CLI and plugins
 
 Install or update the Adobe `aio` [CLI](https://github.com/adobe/aio-cli), the AEM Edge Functions and RDE plugins.
 
@@ -128,7 +99,44 @@ For example, the output should look like the following screenshot:
 
 ![CLI version output](./assets/setup/aemcs/aio-cli-version.png)
 
-## Step 2: Set up AEM Edge Functions on your AEM as a Cloud Service environment
+## Step 2: Deploy your AEM site
+
+Before you set up AEM Edge Functions, deploy your AEM site to a target environment. If your site is already deployed, verify it is accessible and skip to Step 3.
+
+>[!BEGINTABS]
+
+>[!TAB RDE]
+
+- From the root of the WKND or your own site project, run the following commands to set up and deploy the site to the RDE:
+
+```bash
+# Set up the RDE
+$ aio aem:rde:setup
+
+# Build the site
+$ mvn clean install
+$ aio aem:rde:install all/target/aem-guides-wknd.all-X.Y.Z-SNAPSHOT.zip
+$ aio aem:rde:install dispatcher/target/aem-guides-wknd.dispatcher.cloud-X.Y.Z-SNAPSHOT.zip
+
+# Verify the RDE and site are deployed
+$ aio aem:rde:status
+```
+
+- Verify the site is accessible at `https://publish-pXXXXX-eYYYYY.adobeaemcloud.com/`.
+
+For a complete walkthrough, see [Rapid Development Environment](../developing/rde/overview.md).
+
+>[!TAB Dev environment]
+
+- Deploy the WKND or your own site to the Dev environment using the Full Stack pipeline in Cloud Manager.
+
+- Verify the site is accessible at `https://publish-pXXXXX-eYYYYY.adobeaemcloud.com/`.
+
+For a complete walkthrough, see [Full-stack pipelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines#full-stack-pipeline).
+
+>[!ENDTABS]
+
+## Step 3: Set up AEM Edge Functions on your environment
 
 Run the following command from the root of the WKND (or your own) AEM project:
 
@@ -136,23 +144,23 @@ Run the following command from the root of the WKND (or your own) AEM project:
 $ aio aem edge-functions setup
 ```
 
-If you are not already logged in, the command opens an IMS browser login first.
+If you are not already logged in to Adobe IMS, the command triggers login flow.
 
-The command prompts for program, environment, site type, and ADC project config details.
+The setup process prompts for program, environment, site type, and ADC project config details.
 
 ![AEM Edge Functions setup prompts](./assets/setup/aemcs/aio-aem-edge-functions-setup-prompts.png)
 
-Use the following command to view the AEM Edge Functions setup details:
+Use the following command to review the AEM Edge Functions setup details:
 
 ```bash
 $ aio aem edge-functions info
 ```
 
-The output should look like the following screenshot:
+The output should look like the following:
 
 ![AEM Edge Functions info output](./assets/setup/aemcs/aio-aem-edge-functions-info-output.png)
 
-## Step 3: Create the AEM Edge Functions project from the boilerplate template
+## Step 4: Create AEM Edge Functions project
 
 Create the AEM Edge Functions project from the [aem-edge-functions-boilerplate](https://github.com/adobe/aem-edge-functions-boilerplate) GitHub template. The boilerplate includes the files and configuration you need to get started.
 
@@ -166,18 +174,18 @@ Create the AEM Edge Functions project from the [aem-edge-functions-boilerplate](
 
     ![AEM Edge Functions create repository details](./assets/setup/aemcs/github-create-repository-details.png)
 
-## Step 4: Clone, review, and run the AEM Edge Functions project locally
+## Step 5: Clone, review, and run AEM Edge Functions project
 
 ### Clone the AEM Edge Functions project
 
-Clone the repository you created in Step 3, then open it alongside the WKND (or your own) project in your IDE. Most editors support workspaces or multi-root views that let you work in both projects at the same time.
+Clone the repository you created in Step 4, then open it alongside the WKND (or your own) project in your IDE. Most editors support workspaces or multi-root views that let you work in both projects at the same time.
 
 ```bash
 # Clone the repository
 $ git clone https://github.com/<your-org>/<your-project-name>.git
 ```
 
-For example, open the WKND and WKND Edge Functions projects in a single IDE workspace:
+For example, open the WKND Sites project and WKND Edge Functions project in a single IDE workspace:
 
 ![Both WKND and WKND Edge Functions projects as workspace in IDE](./assets/setup/aemcs/ide-workspace-with-both-projects.png)
 
@@ -218,11 +226,13 @@ Before making changes or deploying the AEM Edge Functions project, review the ke
     }
     ```
 
+    A single AEM Edge Function can handle multiple routes through the `if` statements in `handleRequest`.
+
 1. `fastly.toml` configures the local development server. For more information, see the [Fastly.toml reference](https://www.fastly.com/documentation/reference/compute/fastly-toml/).
 
-1. `config/` contains the config files for the AEM Edge Function service and CDN routing rules. Deploy these files to your AEM as a Cloud Service environment using the Cloud Manager config pipeline. Step 5 covers that process.
+1. `config/` contains the config files for the AEM Edge Function service and CDN routing rules. Deploy these files to your AEM as a Cloud Service environment using the Cloud Manager config pipeline. Step 6 covers that process.
 
-Review the remaining project files to understand the full setup.
+Review the remaining project files such as `test/`, `src/lib/`, and `README.md` to understand the full setup.
 
 ### Run the AEM Edge Functions project locally
 
@@ -245,11 +255,13 @@ For example, the output should look like the following screenshot:
 
 ![Local development server output](./assets/setup/aemcs/local-development-server-output.png)
 
-## Step 5: Review, manage, and deploy CDN configuration
+## Step 6: Review and deploy CDN configuration
+
+The AEM Edge Functions project includes CDN configuration files in the `config/` directory. Review them before you copy them into your AEM site project.
 
 ### Review CDN configuration
 
-Review the config files in the `config/` directory of the WKND (or your own) AEM Edge Functions project.
+Review the CDN configuration files in the `config/` directory of the AEM Edge Functions project.
 
 1. `config/edgeFunctions.yaml` declares the AEM Edge Function service. For example, the following code is from the WKND Edge Functions project:
 
@@ -285,21 +297,17 @@ data:
           skipCache: true
 ```
 
-For more information, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors).
-
-The `cdn.yaml` file also supports traffic filter rules, request and response transformation, and other CDN features. For more information, see [Configuring traffic at the CDN](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#initial-setup).
+For more information, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors). Note that the `cdn.yaml` file also supports traffic filter rules, request and response transformation, and other CDN features. For more information, see [Configuring traffic at the CDN](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#initial-setup).
 
 ### Manage CDN configuration
 
-Copy the CDN configuration from your Edge Functions project into your AEM site project. Without this configuration, you cannot deploy AEM Edge Functions code to Adobe CDN.
+Keep all CDN configuration in your AEM site project's `config/` directory, as your site may already include WAF rules, traffic filters, and other settings in `cdn.yaml`. This keeps all CDN configuration in one place.
 
-Do not deploy the configuration from the Edge Functions project directly. Instead, copy the files into the **WKND (or your own) AEM project's** `config/` directory. This keeps all CDN configuration, including any existing WAF or traffic filter rules, in one place.
+1. Copy `edgeFunctions.yaml` from the Edge Functions project to the _AEM site project_'s `config/` directory.
 
-Copy the `edgeFunctions.yaml` from the **Edge Functions** project to the **WKND (or your own) AEM project's** `config/` directory. 
+1. Merge the `originSelectors` section from the Edge Functions project's `cdn.yaml` into your _AEM site project_'s `cdn.yaml`.
 
-Then merge the `originSelectors` section from the **Edge Functions** project's `cdn.yaml` file into the **WKND (or your own) AEM project's** `cdn.yaml` file.
-
-For example, the CDN config files in the WKND project look like this:
+For example, the CDN config files in the WKND site project look like this:
 
 ![CDN config files in WKND project](./assets/setup/aemcs/wknd-cdn-config-files.png)
 
@@ -343,7 +351,7 @@ The output should list `my-edge-function` (or whatever name you declared in `edg
 
 ![AEM Edge Functions list output](./assets/setup/aemcs/aio-aem-edge-functions-list.png)
 
-## Step 6: Build and deploy AEM Edge Functions to Adobe CDN
+## Step 7: Build and deploy AEM Edge Functions project
 
 Build and deploy the Edge Functions project from the project root:
 
@@ -364,7 +372,7 @@ For example, the output should look like the following screenshot:
 
 ![AEM Edge Functions build and deploy output](./assets/setup/aemcs/aio-aem-edge-functions-build-and-deploy.png)
 
-## Step 7: Verify the endpoint is working
+## Step 8: Verify the endpoint
 
 Verify the deployed endpoints in a browser or with curl:
 
@@ -383,100 +391,8 @@ For example, the responses look like the following screenshot:
 >
 >The `edgefunction-pXXXXX-eYYYYY-<edge-function-name>.adobeaemcloud.com` domain is available for debugging only and is not guaranteed to be stable. In production, requests reach the AEM Edge Function through your site's domain via the CDN routing rules in `cdn.yaml`.
 
-## Next steps
+In real-world scenarios, use AEM Edge Functions for server-side logic at the CDN and call them from your site through the routed paths defined in `cdn.yaml`. See the [AEM Edge Functions product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions) for advanced configuration.
 
-With AEM Edge Functions deployed and routing confirmed, proceed to the use cases:
+## Summary
 
-<!-- 
-CARDS
-{target = _self}
-
-* ./use-cases/geolocation-based-personalization.md
-  {title = Geolocation-based personalization}
-  {description = Serve locale-specific content at the edge using CDN geo signals.}
-  {image = ./assets/use-cases/use-case.png}
-  {cta = Learn more}
-* ./use-cases/api-aggregation-with-secrets.md
-  {title = API aggregation with secrets}
-  {description = Fan out to multiple backends using server-side secrets and return a combined response.}
-  {image = ./assets/use-cases/use-case.png}
-  {cta = Learn more}
-* ./use-cases/kv-store-feature-flags.md
-  {title = Feature flags with KV store}
-  {description = Toggle feature flags at the edge using the runtime KV store.}
-  {image = ./assets/use-cases/use-case.png}
-  {cta = Learn more}
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Geolocation-based personalization">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="./use-cases/geolocation-based-personalization.md" title="Geolocation-based personalization" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/use-cases/use-case.png" alt="Geolocation-based personalization"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./use-cases/geolocation-based-personalization.md" target="_self" rel="referrer" title="Geolocation-based personalization">Geolocation-based personalization</a>
-                    </p>
-                    <p class="is-size-6">Serve locale-specific content at the edge using CDN geo signals.</p>
-                </div>
-                <a href="./use-cases/geolocation-based-personalization.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="API aggregation with secrets">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="./use-cases/api-aggregation-with-secrets.md" title="API aggregation with secrets" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/use-cases/use-case.png" alt="API aggregation with secrets"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./use-cases/api-aggregation-with-secrets.md" target="_self" rel="referrer" title="API aggregation with secrets">API aggregation with secrets</a>
-                    </p>
-                    <p class="is-size-6">Fan out to multiple backends using server-side secrets and return a combined response.</p>
-                </div>
-                <a href="./use-cases/api-aggregation-with-secrets.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Feature flags with KV store">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="./use-cases/kv-store-feature-flags.md" title="Feature flags with KV store" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/use-cases/use-case.png" alt="Feature flags with KV store"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./use-cases/kv-store-feature-flags.md" target="_self" rel="referrer" title="Feature flags with KV store">Feature flags with KV store</a>
-                    </p>
-                    <p class="is-size-6">Toggle feature flags at the edge using the runtime KV store.</p>
-                </div>
-                <a href="./use-cases/kv-store-feature-flags.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+You've successfully set up AEM Edge Functions on your AEM as a Cloud Service environment, created a project from the boilerplate template, cloned it, reviewed the project files, run it locally, reviewed and deployed the CDN configuration, built and deployed the project, and verified the endpoint.

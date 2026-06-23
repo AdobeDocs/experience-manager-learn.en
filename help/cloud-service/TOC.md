@@ -65,10 +65,6 @@ team: TM
   + Set up {#edge-functions-setup}
     + [AEM as a Cloud Service](./edge-functions/setup-aemcs.md)
     + [Edge Delivery Services](./edge-functions/setup-eds.md)
-  + Use Cases {#edge-functions-use-cases}
-    + [Geolocation-based personalization](./edge-functions/use-cases/geolocation-based-personalization.md)
-    + [API aggregation with secrets](./edge-functions/use-cases/api-aggregation-with-secrets.md)
-    + [Feature flags with KV store](./edge-functions/use-cases/kv-store-feature-flags.md)
 + Cloud Manager {#cloud-manager}
   + [Programs](./cloud-manager/programs.md)
   + [Environments](./cloud-manager/environments.md)
