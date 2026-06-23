@@ -15,8 +15,6 @@ exl-id: TODO-REPLACE-WITH-GENERATED-EXLID
 ---
 # AEM Edge Functions
 
-![AEM Edge Functions](./assets/hero.png)
-
 >[!IMPORTANT]
 >
 >AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
@@ -53,9 +51,7 @@ Use the following guide when choosing between edge functions and other AEM exten
 
 An edge function sits between the CDN cache and your backends. It processes matching requests before they reach origin.
 
-```
-Browser → CDN Cache → Edge Function → Fetch Cache → Backend (AEM / external API)
-```
+![AEM Edge Functions request flow](./assets/overview/how-it-works.png){align="center"}
 
 Two independent cache layers exist: the **CDN cache** (what the browser sees) and the **fetch cache** (what the edge function sees when calling backends). Invalidate each layer separately when underlying data changes.
 
