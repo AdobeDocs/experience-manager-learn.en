@@ -414,3 +414,11 @@ In real-world scenarios, use AEM Edge Functions for server-side logic at the CDN
 ## Summary
 
 You onboarded the Frescopa Edge Delivery site to Cloud Manager, installed the CLI, set up AEM Edge Functions on Edge Delivery Services, created and ran the project locally, deployed CDN configuration, built and deployed the function, and verified the endpoint.
+
+## Additional resources
+
+- [AEM Edge Functions product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions)
+- [Caching in AEM Edge Functions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions-caching)
+- [Traffic Filter and WAF Rules](../security/traffic-filter-and-waf-rules/overview.md)
+- [CDN configuration in AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic)
+- [Use config pipelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline)

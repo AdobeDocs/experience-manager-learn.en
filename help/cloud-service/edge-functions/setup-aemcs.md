@@ -399,3 +399,11 @@ In real-world scenarios, use AEM Edge Functions for server-side logic at the CDN
 ## Summary
 
 You've successfully set up AEM Edge Functions on your AEM as a Cloud Service environment, created a project from the boilerplate template, cloned it, reviewed the project files, run it locally, reviewed and deployed the CDN configuration, built and deployed the project, and verified the endpoint.
+
+## Additional resources
+
+- [AEM Edge Functions product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions)
+- [Caching in AEM Edge Functions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions-caching)
+- [Traffic Filter and WAF Rules](../security/traffic-filter-and-waf-rules/overview.md)
+- [CDN configuration in AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic)
+- [Use config pipelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline)

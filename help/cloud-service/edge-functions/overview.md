@@ -57,6 +57,8 @@ An edge function sits between the CDN cache and your backends. It processes matc
 
 Two independent cache layers exist: the **CDN cache** (what the browser sees) and the **fetch cache** (what the edge function sees when calling backends). Invalidate each layer separately when underlying data changes.
 
+For more information, see [Caching in AEM Edge Functions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions-caching).
+
 ## How to get started
 
 Choose if you are using AEM as a Cloud Service or Edge Delivery Services site and follow the setup tutorial. You deploy a JavaScript edge function with `/hello-world` and `/weather` routes, configure CDN routing, push the code to Adobe CDN, and verify responses from the edge.
@@ -143,5 +145,7 @@ For the complete list of limitations, see [Limitations](https://experienceleague
 ## Additional resources
 
 - [AEM Edge Functions product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions)
+- [Caching in AEM Edge Functions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions-caching)
 - [Traffic Filter and WAF Rules](../security/traffic-filter-and-waf-rules/overview.md)
 - [CDN configuration in AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic)
+- [Use config pipelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline)
