@@ -374,6 +374,9 @@ Build and deploy the Edge Functions project from the project root:
 # Navigate to the Edge Functions project directory (replace with your project name)
 $ cd frescopa-edge-functions
 
+# Review to make sure you are deploying to the correct Edge Delivery Services site
+$ aio aem edge-functions info
+
 # Build the project
 $ aio aem edge-functions build
 
@@ -392,8 +395,8 @@ For example, the output should look like the following screenshot:
 Verify the deployed endpoints in a browser or with curl:
 
 ```bash
-curl https://myfrescopa.enablementadobe.com/hello-world
-curl https://myfrescopa.enablementadobe.com/weather
+$ curl https://myfrescopa.enablementadobe.com/hello-world
+$ curl https://myfrescopa.enablementadobe.com/weather
 ```
 
 Replace the domain with your Edge Delivery site domain from Step 1.
@@ -404,7 +407,7 @@ For example, the responses look like the following screenshot:
 
 >[!NOTE]
 >
->The `edgefunction-pXXXXX-eYYYYY-<edge-function-name>.adobeaemcloud.com` domain is available for debugging only and is not guaranteed to be stable. In production, requests reach the AEM Edge Function through your site's domain via the CDN routing rules in `cdn.yaml`.
+>The `edgefunction-pXXXXX-dYYYYY-<edge-function-name>.adobeaemcloud.com` domain is available for debugging only and is not guaranteed to be stable. In production, requests reach the AEM Edge Function through your site's custom domain via the CDN routing rules in `cdn.yaml`. 
 
 In real-world scenarios, use AEM Edge Functions for server-side logic at the CDN and call them from your site's [block](https://www.aem.live/docs/exploring-blocks) JavaScript. See the [AEM Edge Functions product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions) for advanced configuration.
 

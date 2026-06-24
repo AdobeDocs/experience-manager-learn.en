@@ -27,6 +27,17 @@ AEM Edge Functions are JavaScript modules deployed to and executed on Adobe CDN 
 
 Common patterns include server-rendered personalization, secure API proxying, and response aggregation.
 
+## When to use AEM Edge Functions
+
+Use the following guide when choosing between edge functions and other AEM extensibility options.
+
+| Scenario | Recommended approach |
+| --- | --- |
+| Run custom logic, call external APIs, personalize responses at the edge | AEM Edge Functions |
+| Complex business logic with full AEM context at the origin | OSGi service or Sling servlet |
+
+Prefer AEM Edge Functions for dynamic content or data that needs speed, security and scalability without a round trip to origin.
+
 ## Why use AEM Edge Functions
 
 AEM Edge Functions address four common challenges when building dynamic, CDN-delivered experiences.
@@ -38,15 +49,6 @@ AEM Edge Functions address four common challenges when building dynamic, CDN-del
 | **Security** | API credentials and secrets stay server-side and are never exposed in client JavaScript |
 | **Personalization** | Customize content by geo, device, or audience before the page loads |
 
-## When to use AEM Edge Functions
-
-Use the following guide when choosing between edge functions and other AEM extensibility options.
-
-| Scenario | Recommended approach |
-| --- | --- |
-| Run custom logic, call external APIs, personalize responses | **AEM Edge Functions** |
-| Complex business logic with full AEM context | OSGi service or Sling servlet at origin |
-
 ## How it works
 
 An edge function sits between the CDN cache and your backends. It processes matching requests before they reach origin.
@@ -57,7 +59,7 @@ Two independent cache layers exist: the **CDN cache** (what the browser sees) an
 
 ## How to get started
 
-Choose your environment and follow the setup tutorial. You deploy a JavaScript edge function with `/hello-world` and `/weather` routes, configure CDN routing, push the code to Adobe CDN, and verify responses from the edge.
+Choose if you are using AEM as a Cloud Service or Edge Delivery Services site and follow the setup tutorial. You deploy a JavaScript edge function with `/hello-world` and `/weather` routes, configure CDN routing, push the code to Adobe CDN, and verify responses from the edge.
 
 <!-- 
 CARDS
@@ -132,8 +134,8 @@ Keep the following limits in mind when you design edge function logic.
 | Limit | Value |
 | --- | --- |
 | Max outbound fetch calls per invocation | 32 |
-| Max edge functions (AEM as a Cloud Service) | 4 per program (one per environment: RDE, dev, stage, prod) |
-| Max edge functions (Edge Delivery Services) | 3 per program (main, stage, dev branch of your code repository) |
+| Max edge functions (AEM as a Cloud Service) | 1 per environment |
+| Max edge functions (Edge Delivery Services) | 3 per program (main, stage, dev branch of your Edge Delivery Services project) |
 | Config, secret, and KV stores (sandbox programs) | Not available |
 
 For the complete list of limitations, see [Limitations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions#limitations) in the AEM Edge Functions product documentation.

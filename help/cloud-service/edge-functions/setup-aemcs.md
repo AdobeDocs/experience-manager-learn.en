@@ -359,6 +359,9 @@ Build and deploy the Edge Functions project from the project root:
 # Navigate to the Edge Functions project directory (replace with your project name)
 $ cd wknd-edge-functions
 
+# Review to make sure you are deploying to the correct AEM as a Cloud Service environment
+$ aio aem edge-functions info
+
 # Build the project
 $ aio aem edge-functions build
 
