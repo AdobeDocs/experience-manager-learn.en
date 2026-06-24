@@ -4,13 +4,12 @@ description: Learn how to set up AEM Edge Functions on AEM as a Cloud Service, f
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture
-role: Developer
+role: Admin, Architect, Developer
 level: Intermediate
 doc-type: Tutorial
-jira: KT-XXXXX
-thumbnail: KT-XXXXX.jpeg
-last-substantial-update: 2026-06-22
-duration: 0
+jira: KT-21734
+thumbnail: KT-21734.jpeg
+last-substantial-update: 2026-06-24
 ---
 # Set up AEM Edge Functions on AEM as a Cloud Service
 
@@ -26,12 +25,12 @@ This tutorial uses the [WKND Sites project](https://github.com/adobe/aem-guides-
 
 ## What you'll build
 
-AEM Edge Functions are JavaScript modules that run on Adobe CDN at the edge, not on your AEM origin. You deploy one edge function named `my-edge-function` with two routes:
+AEM Edge Functions are JavaScript modules that run on Adobe CDN at the edge, not on your AEM origin. You deploy one AEM Edge Function named `my-edge-function` with two routes:
 
 - `/hello-world` returns a greeting from the edge
 - `/weather` detects the visitor's location at the edge, calls the [Open-Meteo API](https://open-meteo.com/en/docs), and returns the current temperature for their city
 
-During development, you test your edge function locally with the dev server. Then you copy CDN configuration into your AEM site project, deploy through Cloud Manager or an RDE, push the function to Adobe CDN, and verify both endpoints in a browser or with `curl`.
+During development, you test your AEM Edge Function locally with the dev server. Then you copy CDN configuration into your AEM site project, deploy through Cloud Manager or an RDE, push the AEM Edge Function (JavaScript module) to Adobe CDN, and verify both endpoints in a browser or with `curl`.
 
 The high-level steps:
 
@@ -185,9 +184,9 @@ Clone the repository you created in Step 4, then open it alongside the WKND (or 
 $ git clone https://github.com/<your-org>/<your-project-name>.git
 ```
 
-For example, open the WKND Sites project and WKND Edge Functions project in a single IDE workspace:
+For example, open the WKND Sites project and WKND AEM Edge Functions project in a single IDE workspace:
 
-![Both WKND and WKND Edge Functions projects as workspace in IDE](./assets/setup/aemcs/ide-workspace-with-both-projects.png)
+![Both WKND and WKND AEM Edge Functions projects as workspace in IDE](./assets/setup/aemcs/ide-workspace-with-both-projects.png)
 
 ### Review the AEM Edge Functions project
 
@@ -236,7 +235,7 @@ Review the remaining project files such as `test/`, `src/lib/`, and `README.md` 
 
 ### Run the AEM Edge Functions project locally
 
-From the Edge Functions project directory, install dependencies and start the local development server:
+From the AEM Edge Functions project directory, install dependencies and start the local development server:
 
 ```bash
 # Navigate to the project directory (replace with your project name)
@@ -263,7 +262,7 @@ The AEM Edge Functions project includes CDN configuration files in the `config/`
 
 Review the CDN configuration files in the `config/` directory of the AEM Edge Functions project.
 
-1. `config/edgeFunctions.yaml` declares the AEM Edge Function service. For example, the following code is from the WKND Edge Functions project:
+1. `config/edgeFunctions.yaml` declares the AEM Edge Function service. For example, the following code is from the WKND AEM Edge Functions project:
 
 ```yaml
 kind: "EdgeFunctions"
@@ -275,7 +274,7 @@ data:
 
 For more information on supported properties, see [edgeFunctions.yaml reference](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions#declare-functions).
 
-1. `config/cdn.yaml` declares the CDN routing rules that direct traffic to the AEM Edge Function service. For example, the following code is from the WKND Edge Functions project:
+1. `config/cdn.yaml` declares the CDN routing rules that direct traffic to the AEM Edge Function service. For example, the following code is from the WKND AEM Edge Functions project:
 
 ```yaml
 kind: 'CDN'
@@ -303,9 +302,9 @@ For more information, see [Origin selectors](https://experienceleague.adobe.com/
 
 Keep all CDN configuration in your AEM site project's `config/` directory, as your site may already include WAF rules, traffic filters, and other settings in `cdn.yaml`. This keeps all CDN configuration in one place.
 
-1. Copy `edgeFunctions.yaml` from the Edge Functions project to the _AEM site project_'s `config/` directory.
+1. Copy `edgeFunctions.yaml` from the AEM Edge Functions project to the _AEM site project_'s `config/` directory.
 
-1. Merge the `originSelectors` section from the Edge Functions project's `cdn.yaml` into your _AEM site project_'s `cdn.yaml`.
+1. Merge the `originSelectors` section from the AEM Edge Functions project's `cdn.yaml` into your _AEM site project_'s `cdn.yaml`.
 
 For example, the CDN config files in the WKND site project look like this:
 
@@ -353,10 +352,10 @@ The output should list `my-edge-function` (or whatever name you declared in `edg
 
 ## Step 7: Build and deploy AEM Edge Functions project
 
-Build and deploy the Edge Functions project from the project root:
+Build and deploy the AEM Edge Functions project from the project root:
 
 ```bash
-# Navigate to the Edge Functions project directory (replace with your project name)
+# Navigate to the AEM Edge Functions project directory (replace with your project name)
 $ cd wknd-edge-functions
 
 # Review to make sure you are deploying to the correct AEM as a Cloud Service environment

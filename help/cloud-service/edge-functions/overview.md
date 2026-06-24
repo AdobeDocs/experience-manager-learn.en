@@ -4,14 +4,12 @@ description: Learn how AEM Edge Functions enable JavaScript execution at the CDN
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Performance
-role: Developer, Architect
+role: Admin, Architect, Developer
 level: Intermediate
 doc-type: Article
-jira: KT-XXXXX
-thumbnail: KT-XXXXX.jpeg
-last-substantial-update: 2026-06-22
-duration: 0
-exl-id: TODO-REPLACE-WITH-GENERATED-EXLID
+jira: KT-21733
+thumbnail: KT-21733.jpeg
+last-substantial-update: 2026-06-24
 ---
 # AEM Edge Functions
 
@@ -23,13 +21,13 @@ AEM Edge Functions let you run JavaScript on Adobe CDN at the edge, close to you
 
 ## What are AEM Edge Functions
 
-AEM Edge Functions are JavaScript modules deployed to and executed on Adobe CDN (powered by Fastly Compute). When a request matches a CDN routing rule in `cdn.yaml`, the edge function intercepts it, reads headers, calls backends, transforms responses, and returns the result from the edge.
+AEM Edge Functions are JavaScript modules deployed to and executed on Adobe CDN (powered by Fastly Compute). When a request matches a CDN routing rule in `cdn.yaml`, the AEM Edge Function intercepts it, reads headers, calls backends, transforms responses, and returns the result from the edge.
 
 Common patterns include server-rendered personalization, secure API proxying, and response aggregation.
 
 ## When to use AEM Edge Functions
 
-Use the following guide when choosing between edge functions and other AEM extensibility options.
+Use the following guide when choosing between AEM Edge Functions and other AEM extensibility options.
 
 | Scenario | Recommended approach |
 | --- | --- |
@@ -51,17 +49,17 @@ AEM Edge Functions address four common challenges when building dynamic, CDN-del
 
 ## How it works
 
-An edge function sits between the CDN cache and your backends. It processes matching requests before they reach origin.
+An AEM Edge Function sits between the CDN cache and your backends. It processes matching requests before they reach origin.
 
 ![AEM Edge Functions request flow](./assets/overview/how-it-works.png){align="center"}
 
-Two independent cache layers exist: the **CDN cache** (what the browser sees) and the **fetch cache** (what the edge function sees when calling backends). Invalidate each layer separately when underlying data changes.
+Two independent cache layers exist: the **CDN cache** (what the browser sees) and the **fetch cache** (what the AEM Edge Function sees when calling backends). Invalidate each layer separately when underlying data changes.
 
 For more information, see [Caching in AEM Edge Functions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions-caching).
 
 ## How to get started
 
-Choose if you are using AEM as a Cloud Service or Edge Delivery Services site and follow the setup tutorial. You deploy a JavaScript edge function with `/hello-world` and `/weather` routes, configure CDN routing, push the code to Adobe CDN, and verify responses from the edge.
+Choose if you are using AEM as a Cloud Service or Edge Delivery Services site and follow the setup tutorial. You deploy a JavaScript AEM Edge Function with `/hello-world` and `/weather` routes, configure CDN routing, push the code to Adobe CDN, and verify responses from the edge.
 
 <!-- 
 CARDS
@@ -69,12 +67,12 @@ CARDS
 
 * ./setup-aemcs.md
   {title = Set up on AEM as a Cloud Service}
-  {description = Install the CLI, deploy WKND (or your site), configure CDN routing, and verify edge function endpoints on AEM as a Cloud Service.}
+  {description = Install the CLI, deploy WKND (or your site), configure CDN routing, and verify AEM Edge Function endpoints on AEM as a Cloud Service.}
   {image = ./assets/setup/setup-cs.png}
   {cta = Set up}
 * ./setup-eds.md
   {title = Set up on Edge Delivery Services}
-  {description = Onboard your Edge Delivery site in Cloud Manager, link your repository, and deploy edge function endpoints on Edge Delivery Services.}
+  {description = Onboard your Edge Delivery site in Cloud Manager, link your repository, and deploy AEM Edge Function endpoints on Edge Delivery Services.}
   {image = ./assets/setup/setup-eds.png}
   {cta = Set up}
 -->
@@ -95,7 +93,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./setup-aemcs.md" target="_self" rel="referrer" title="Set up on AEM as a Cloud Service">Set up on AEM as a Cloud Service</a>
                     </p>
-                    <p class="is-size-6">Install the CLI, deploy WKND (or your site), configure CDN routing, and verify edge function endpoints on AEM as a Cloud Service.</p>
+                    <p class="is-size-6">Install the CLI, deploy WKND (or your site), configure CDN routing, and verify AEM Edge Function endpoints on AEM as a Cloud Service.</p>
                 </div>
                 <a href="./setup-aemcs.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Set up</span>
@@ -118,7 +116,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./setup-eds.md" target="_self" rel="referrer" title="Set up on Edge Delivery Services">Set up on Edge Delivery Services</a>
                     </p>
-                    <p class="is-size-6">Onboard your Edge Delivery site in Cloud Manager, link your repository, and deploy edge function endpoints on Edge Delivery Services.</p>
+                    <p class="is-size-6">Onboard your Edge Delivery site in Cloud Manager, link your repository, and deploy AEM Edge Function endpoints on Edge Delivery Services.</p>
                 </div>
                 <a href="./setup-eds.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Set up</span>
@@ -131,13 +129,13 @@ CARDS
 
 ## Platform limits
 
-Keep the following limits in mind when you design edge function logic.
+Keep the following limits in mind when you design AEM Edge Function logic.
 
 | Limit | Value |
 | --- | --- |
 | Max outbound fetch calls per invocation | 32 |
-| Max edge functions (AEM as a Cloud Service) | 1 per environment |
-| Max edge functions (Edge Delivery Services) | 3 per program (main, stage, dev branch of your Edge Delivery Services project) |
+| Max AEM Edge Functions (AEM as a Cloud Service) | 1 per environment |
+| Max AEM Edge Functions (Edge Delivery Services) | 3 per program (main, stage, dev branch of your Edge Delivery Services project) |
 | Config, secret, and KV stores (sandbox programs) | Not available |
 
 For the complete list of limitations, see [Limitations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions#limitations) in the AEM Edge Functions product documentation.

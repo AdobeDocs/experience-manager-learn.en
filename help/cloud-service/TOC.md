@@ -60,7 +60,7 @@ team: TM
   + [Dispatcher](./underlying-technology/introduction-dispatcher.md)
 + Edge Delivery Services {#edge-delivery-services}
   + [AEM Assets Sidekick plugin](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/edge-delivery-services/sidekick-plugin.html){target=_blank}
-+ Edge Functions {#edge-functions}
++ AEM Edge Functions {#edge-functions}
   + [Overview](./edge-functions/overview.md)
   + Set up {#edge-functions-setup}
     + [AEM as a Cloud Service](./edge-functions/setup-aemcs.md)

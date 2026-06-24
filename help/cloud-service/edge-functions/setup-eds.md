@@ -4,13 +4,12 @@ description: Learn how to set up AEM Edge Functions on Edge Delivery Services, f
 version: Experience Manager as a Cloud Service
 feature: Developing, Edge Delivery Services
 topic: Development, Architecture
-role: Developer
+role: Admin, Architect, Developer
 level: Intermediate
 doc-type: Tutorial
-jira: KT-XXXXX
-thumbnail: KT-XXXXX.jpeg
-last-substantial-update: 2026-06-22
-duration: 0
+jira: KT-21735
+thumbnail: KT-21735.jpeg
+last-substantial-update: 2026-06-24
 ---
 # Set up AEM Edge Functions on Edge Delivery Services
 
@@ -26,12 +25,12 @@ This tutorial uses the [Frescopa Site Project](https://github.com/aem-showcase/f
 
 ## What you'll build
 
-AEM Edge Functions are JavaScript modules that run on Adobe CDN at the edge, not on your Edge Delivery origin. You deploy one edge function named `my-edge-function` with two routes:
+AEM Edge Functions are JavaScript modules that run on Adobe CDN at the edge, not on your Edge Delivery origin. You deploy one AEM Edge Function named `my-edge-function` with two routes:
 
 - `/hello-world` returns a greeting from the edge
 - `/weather` detects the visitor's location at the edge, calls the [Open-Meteo API](https://open-meteo.com/en/docs), and returns the current temperature for their city
 
-During development, you test your edge function locally with the dev server. Then you deploy `edgeFunctions.yaml` and `cdn.yaml` through the Edge Delivery configuration pipeline, push the function to Adobe CDN, and verify both endpoints on your site domain (for example, `https://myfrescopa.enablementadobe.com/hello-world`).
+During development, you test your AEM Edge Function locally with the dev server. Then you deploy `edgeFunctions.yaml` and `cdn.yaml` through the Edge Delivery configuration pipeline, push the AEM Edge Function (JavaScript module) to Adobe CDN, and verify both endpoints on your site domain (for example, `https://myfrescopa.enablementadobe.com/hello-world`).
 
 The high-level steps:
 
@@ -190,9 +189,9 @@ Clone the repository you created in Step 4, then open it alongside the Frescopa 
 $ git clone https://github.com/<your-org>/<your-project-name>.git
 ```
 
-For example, see the Frescopa Edge Delivery site project and Frescopa Edge Functions project as workspace in IDE:
+For example, see the Frescopa Edge Delivery site project and Frescopa AEM Edge Functions project as workspace in IDE:
 
-![Frescopa Edge Delivery site project and Frescopa Edge Functions project as workspace in IDE](./assets/setup/eds/ide-workspace-with-frescopa-projects-eds.png)
+![Frescopa Edge Delivery site project and Frescopa AEM Edge Functions project as workspace in IDE](./assets/setup/eds/ide-workspace-with-frescopa-projects-eds.png)
 
 ### Review the AEM Edge Functions project
 
@@ -241,7 +240,7 @@ Review the remaining project files such as `test/`, `src/lib/`, and `README.md` 
 
 ### Run the AEM Edge Functions project locally
 
-From the Edge Functions project directory, install dependencies and start the local development server:
+From the AEM Edge Functions project directory, install dependencies and start the local development server:
 
 ```bash
 # Navigate to the project directory (replace with your project name)
@@ -306,13 +305,13 @@ For more information, see [Origin selectors](https://experienceleague.adobe.com/
 
 ### Manage CDN configuration
 
-Deploy CDN configuration through the Cloud Manager configuration pipeline. First, make the `config/` files from your Edge Functions project available to Cloud Manager. You have two options:
+Deploy CDN configuration through the Cloud Manager configuration pipeline. First, make the `config/` files from your AEM Edge Functions project available to Cloud Manager. You have two options:
 
 1. **Adobe repository**: Create a new repository in Cloud Manager for your program.
 
 1. **Private repository**: Link your existing GitHub repository to Cloud Manager.
 
-This tutorial uses the Frescopa Edge Functions project from Step 4 as a private repository.
+This tutorial uses the Frescopa AEM Edge Functions project from Step 4 as a private repository.
 
 1. In Cloud Manager, open **Repositories** and select **Add Repository**.
 
@@ -328,9 +327,9 @@ This tutorial uses the Frescopa Edge Functions project from Step 4 as a private 
 
         ![Cloud Manager for AEM repository access](./assets/setup/eds/cloud-manager-for-aem-repository-access-eds.png)
 
-    1. Store the validation secret in your Edge Functions project repository:
+    1. Store the validation secret in your AEM Edge Functions project repository:
 
-        ![Secret stored in Edge Functions project repository](./assets/setup/eds/secret-stored-in-edge-functions-project-repository-eds.png)
+        ![Secret stored in AEM Edge Functions project repository](./assets/setup/eds/secret-stored-in-edge-functions-project-repository-eds.png)
 
 After validation completes, the private repository appears in the **Repositories** table.
 
@@ -368,10 +367,10 @@ The output should list `my-edge-function` (or whatever name you declared in `edg
 
 ## Step 7: Build and deploy AEM Edge Functions project
 
-Build and deploy the Edge Functions project from the project root:
+Build and deploy the AEM Edge Functions project from the project root:
 
 ```bash
-# Navigate to the Edge Functions project directory (replace with your project name)
+# Navigate to the AEM Edge Functions project directory (replace with your project name)
 $ cd frescopa-edge-functions
 
 # Review to make sure you are deploying to the correct Edge Delivery Services site
@@ -413,7 +412,7 @@ In real-world scenarios, use AEM Edge Functions for server-side logic at the CDN
 
 ## Summary
 
-You onboarded the Frescopa Edge Delivery site to Cloud Manager, installed the CLI, set up AEM Edge Functions on Edge Delivery Services, created and ran the project locally, deployed CDN configuration, built and deployed the function, and verified the endpoint.
+You onboarded the Frescopa Edge Delivery site to Cloud Manager, installed the CLI, set up AEM Edge Functions on Edge Delivery Services, created and ran the project locally, deployed CDN configuration, built and deployed the AEM Edge Function, and verified the endpoint.
 
 ## Additional resources
 
