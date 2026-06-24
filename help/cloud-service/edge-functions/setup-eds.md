@@ -4,7 +4,7 @@ description: Learn how to set up AEM Edge Functions on Edge Delivery Services, f
 version: Experience Manager as a Cloud Service
 feature: Developing, Edge Delivery Services
 topic: Development, Architecture
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
 jira: KT-21735

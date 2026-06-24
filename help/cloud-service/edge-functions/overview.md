@@ -4,7 +4,7 @@ description: Learn how AEM Edge Functions enable JavaScript execution at the CDN
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, Performance
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Intermediate
 doc-type: Article
 jira: KT-21733
