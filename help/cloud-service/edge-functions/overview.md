@@ -135,10 +135,10 @@ Keep the following limits in mind when you design AEM Edge Function logic.
 | --- | --- |
 | Max outbound fetch calls per invocation | 32 |
 | Max AEM Edge Functions (AEM as a Cloud Service) | 1 per environment |
-| Max AEM Edge Functions (Edge Delivery Services) | 3 per program (main, stage, dev branch of your Edge Delivery Services project) |
+| Max AEM Edge Functions (Edge Delivery Services) | 3 per program (for main, stage, and dev branch of your Edge Delivery Services project that are mapped to Production, Staging and Development sites respectively) |
 | Config, secret, and KV stores (sandbox programs) | Not available |
 
-For the complete list of limitations, see [Limitations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions#limitations) in the AEM Edge Functions product documentation.
+For the **complete list of limitations**, see [Limitations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions#limitations) in the AEM Edge Functions product documentation.
 
 ## Additional resources
 

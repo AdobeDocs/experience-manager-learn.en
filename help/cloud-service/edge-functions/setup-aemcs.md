@@ -145,15 +145,13 @@ Run the following command from the root of the WKND (or your own) AEM project:
 $ aio aem edge-functions setup
 ```
 
-If you are not already logged in to Adobe IMS, the command triggers login flow.
-
-The setup process prompts for program, environment, site type, and ADC project config details.
+If you are not already logged in to Adobe IMS, the command triggers login flow. The setup process prompts for program, environment, site type, and ADC project config details. The setup details are stored in the `.aio` file, it provides the context for the AEM Edge Functions CLI commands hereafter.
 
 ![AEM Edge Functions setup prompts](./assets/setup/aemcs/aio-aem-edge-functions-setup-prompts.png)
 
 >[!IMPORTANT]
 >
->The configuration of Adobe Developer Console (ADC) project for API credentials is not done as part of this tutorial. However, it must be done when you want to deploy the AEM Edge Functions projects from your CI/CD system. See [Adobe Developer Console Integration](https://github.com/adobe/aio-cli-plugin-aem-edge-functions#adobe-developer-console-integration) and [CI/CD Setup](https://github.com/adobe/aio-cli-plugin-aem-edge-functions#cicd-setup) for more information.
+>The configuration of Adobe Developer Console (ADC) project for API credentials - that includes the AEM Content Delivery Network (CDN) API card - is not done as part of this tutorial. However, it must be done when you want to deploy the AEM Edge Functions projects from your CI/CD system. See [Adobe Developer Console Integration](https://github.com/adobe/aio-cli-plugin-aem-edge-functions#adobe-developer-console-integration) and [CI/CD Setup](https://github.com/adobe/aio-cli-plugin-aem-edge-functions#cicd-setup) for more information.
 
 
 Use the following command to review the AEM Edge Functions setup details:
@@ -364,7 +362,7 @@ The output should list `my-edge-function` (or whatever name you declared in `edg
 
 ## Step 7: Build and deploy AEM Edge Functions project
 
-Build and deploy the AEM Edge Functions project from the project root:
+Build and deploy the AEM Edge Functions project using following commands, the commands use the context stored in the `.aio` file.
 
 ```bash
 # Navigate to the AEM Edge Functions project directory (replace with your project name)
@@ -380,7 +378,7 @@ $ aio aem edge-functions build
 $ aio aem edge-functions deploy my-edge-function
 ```
 
-The name passed to `deploy` must match the `name` declared in `config/edgeFunctions.yaml`. Also you must be part of the _AEM Administrator - author_ product profile on the author instance.
+The name passed to `deploy` must match the `name` declared in `config/edgeFunctions.yaml`. Also you must be part of the _AEM Administrator - author_ product profile on the author instance. 
 
 For example, the output should look like the following screenshot:
 
@@ -388,7 +386,7 @@ For example, the output should look like the following screenshot:
 
 >[!IMPORTANT]
 >
->To deploy the AEM Edge Functions project from your CI/CD system, you need Adobe Developer Console (ADC) project for API credentials. See [Adobe Developer Console Integration](https://github.com/adobe/aio-cli-plugin-aem-edge-functions#adobe-developer-console-integration) and [CI/CD Setup](https://github.com/adobe/aio-cli-plugin-aem-edge-functions#cicd-setup) for more information.
+>To deploy the AEM Edge Functions project from your CI/CD system, you need Adobe Developer Console (ADC) project for API credentials - that includes the AEM Content Delivery Network (CDN) API card. See [Adobe Developer Console Integration](https://github.com/adobe/aio-cli-plugin-aem-edge-functions#adobe-developer-console-integration) and [CI/CD Setup](https://github.com/adobe/aio-cli-plugin-aem-edge-functions#cicd-setup) for more information.
 
 ## Step 8: Verify the endpoint
 
