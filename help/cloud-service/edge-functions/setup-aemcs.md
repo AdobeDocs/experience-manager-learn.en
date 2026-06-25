@@ -10,7 +10,6 @@ doc-type: Tutorial
 jira: KT-21734
 thumbnail: KT-21734.jpeg
 last-substantial-update: 2026-06-24
-hold: true
 ---
 # Set up AEM Edge Functions on AEM as a Cloud Service
 

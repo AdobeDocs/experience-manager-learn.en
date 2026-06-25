@@ -10,7 +10,6 @@ doc-type: Article
 jira: KT-21733
 thumbnail: KT-21733.jpeg
 last-substantial-update: 2026-06-24
-hold: true
 ---
 # AEM Edge Functions
 
