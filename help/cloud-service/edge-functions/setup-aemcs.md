@@ -138,6 +138,8 @@ For a complete walkthrough, see [Full-stack pipelines](https://experienceleague.
 
 ## Step 3: Set up AEM Edge Functions on your environment
 
+The AEM Edge Functions must be set up on the AEM as a Cloud Service environment. It allows you to deploy code and config files to Adobe CDN so you can invoke the routes supported by AEM Edge Functions from JavaScript code in your site.
+
 Run the following command from the root of the WKND (or your own) AEM project:
 
 ```bash
@@ -236,7 +238,7 @@ Review the remaining project files such as `test/`, `src/lib/`, and `README.md` 
 
 ### Run the AEM Edge Functions project locally
 
-From the AEM Edge Functions project directory, install dependencies and start the local development server:
+To iterate quickly, you can run the AEM Edge Functions project locally. From the AEM Edge Functions project directory, install dependencies and start the local development server:
 
 ```bash
 # Navigate to the project directory (replace with your project name)
@@ -296,6 +298,11 @@ data:
           originName: edgefunction-my-edge-function
           skipCache: true
 ```
+
+Key call outs:
+    - The `originName` must follow the pattern `edgefunction-<edge-function-name>`, where `<edge-function-name>` is the name of the AEM Edge Function declared in `edgeFunctions.yaml`.
+    - The `type` must be `selectAemOrigin`.
+    - The `skipCache` is set to `true` to bypass the CDN cache for the request.
 
 For more information, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors). Note that the `cdn.yaml` file also supports traffic filter rules, request and response transformation, and other CDN features. For more information, see [Configuring traffic at the CDN](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#initial-setup).
 
@@ -369,7 +376,7 @@ $ aio aem edge-functions build
 $ aio aem edge-functions deploy my-edge-function
 ```
 
-The name passed to `deploy` must match the `name` declared in `config/edgeFunctions.yaml`.
+The name passed to `deploy` must match the `name` declared in `config/edgeFunctions.yaml`. Also you must be part of the _AEM Administrator - author_ product profile on the author instance.
 
 For example, the output should look like the following screenshot:
 

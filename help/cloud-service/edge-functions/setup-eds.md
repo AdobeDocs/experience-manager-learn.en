@@ -56,7 +56,7 @@ Ensure the following are in place before starting.
 
 >[!NOTE]
 >
->Edge Delivery Services supports up to **three AEM Edge Functions per program**.
+>Edge Delivery Services supports up to **three AEM Edge Functions per program**, intended to support dev, staging, and prod branches of your site(s).
 
 ## Step 1: Onboard your Edge Delivery site to Cloud Manager
 
@@ -72,12 +72,18 @@ The following steps use the [Frescopa Site Project](https://github.com/SachinMal
 
     1. **Add Edge Delivery site**:
         - **Site name**: `Frescopa`
-        - **Edge Delivery origin**: `https://main--frescopa--aem-showcase.aem.live`
+        - **Edge Delivery origin**: `https://main--frescopa--sachinmali.aem.live/`
+
+        The format is `https://<branch>--<site-name>--<organization-name>.aem.live/` where `<branch>`, `<site-name>` and `<organization-name>` are the branch, site name and organization name of the Edge Delivery Services site project respectively. 
+        
+        Ideally you try to set up the `dev` branch of the Edge Delivery Services site project.However, see below screenshot for our demo site.
 
         ![Add Edge Delivery site](./assets/setup/eds/cloud-manager-add-edge-delivery-site.png)
 
     1. **Add domain**:
         - **Domain name**: `myfrescopa.enablementadobe.com`
+
+        You must have a custom domain name set up to deploy the AEM Edge Functions project even if you are trying on dev site mapped to the dev branch of Edge Delivery Services site project.
 
     1. **Add SSL certificate**:
         - **Certificate type**: Customer managed (OV/EV)
@@ -87,6 +93,8 @@ The following steps use the [Frescopa Site Project](https://github.com/SachinMal
         - **Certificate chain**: The certificate chain file content between `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`
 
         ![Add SSL certificate](./assets/setup/eds/cloud-manager-add-ssl-certificate.png)
+
+        You can use Adobe managed (DV) certificate as well, for tutorial purpose we are using a customer managed (OV/EV) certificate as an example.
 
     1. **Add a DNS record** in your DNS hosting service for `myfrescopa.enablementadobe.com`.
 
@@ -140,6 +148,8 @@ For example, the successful installation of the CLI and AEM Edge Functions plugi
 ![CLI version output](./assets/setup/eds/cli-version-output-eds.png)
 
 ## Step 3: Set up AEM Edge Functions
+
+The AEM Edge Functions must be set up on the Edge Delivery Services site domain. It allows you to deploy code and config files to Adobe CDN so you can invoke the routes supported by AEM Edge Functions from JavaScript code in your site.
 
 To set up AEM Edge Functions, run the following command:
 
@@ -241,7 +251,7 @@ Review the remaining project files such as `test/`, `src/lib/`, and `README.md` 
 
 ### Run the AEM Edge Functions project locally
 
-From the AEM Edge Functions project directory, install dependencies and start the local development server:
+To iterate quickly, you can run the AEM Edge Functions project locally. From the AEM Edge Functions project directory, install dependencies and start the local development server:
 
 ```bash
 # Navigate to the project directory (replace with your project name)
@@ -301,6 +311,11 @@ data:
           originName: edgefunction-my-edge-function
           skipCache: true
 ```
+
+Key call outs:
+    - The `originName` must follow the pattern `edgefunction-<edge-function-name>`, where `<edge-function-name>` is the name of the AEM Edge Function declared in `edgeFunctions.yaml`.
+    - The `type` must be `selectAemOrigin`.
+    - The `skipCache` is set to `true` to bypass the CDN cache for the request.
 
 For more information, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors).
 
@@ -384,7 +399,7 @@ $ aio aem edge-functions build
 $ aio aem edge-functions deploy my-edge-function
 ```
 
-The name passed to `deploy` must match the `name` declared in `config/edgeFunctions.yaml`.
+The name passed to `deploy` must match the `name` declared in `config/edgeFunctions.yaml`. Also you must be part of the _Cloud Manager Deployment Manager_ product profile.
 
 For example, the output should look like the following screenshot:
 
