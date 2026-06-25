@@ -9,7 +9,7 @@ level: Intermediate
 doc-type: Tutorial
 jira: KT-21735
 thumbnail: KT-21735.jpeg
-last-substantial-update: 2026-06-24
+last-substantial-update: 2026-06-25
 ---
 # Set up AEM Edge Functions on Edge Delivery Services
 
