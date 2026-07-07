@@ -540,4 +540,3 @@ team: TM
       + {hide-from-toc} [Best Practices](./expert-resources/cloud-5/season-4/cloud5-edge-delivery-services-best-practices.md)
       + {hide-from-toc} [Search optimizations](./expert-resources/cloud-5/season-4/cloud5-search-optimization.md)
       + {hide-from-toc} [Google Maps](./expert-resources/cloud-5/season-4/cloud5-google-maps.md)
-
