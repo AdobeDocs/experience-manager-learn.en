@@ -133,7 +133,7 @@ Code-focused guides for common AEM Edge Function patterns.
 
 | Topic | Description |
 | --- | --- |
-| [Host an API or route](./how-to/api-or-route.md) | Expose HTTP endpoints with the fetch handler, CDN origin selectors, compute-bound routes, and network-bound fetch calls |
+| [Build an API endpoint with Edge Functions](./how-to/build-api-endpoint.md) | Expose HTTP endpoints with the fetch event handler, CDN origin selectors, and optional outbound fetch calls |
 
 ## Platform limits
 
