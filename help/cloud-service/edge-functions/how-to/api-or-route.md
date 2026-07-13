@@ -192,7 +192,7 @@ Network-bound handlers follow this pattern:
 Platform limits apply. Each invocation supports up to **32 outbound fetch calls**. For cache behavior on fetch calls, see [Caching in AEM Edge Functions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions-caching).
 
 
-## Compare handler patterns
+## More code examples```
 
 For complete working examples, see the [AEM Edge Functions boilerplate](https://github.com/adobe/aem-edge-functions-boilerplate).
 
