@@ -26,5 +26,8 @@ team: TM
   + [New editor toggle](editor/new-editor-toggle.md)
   + [Non-asset content references](editor/non-asset-content-references.md)
   + [RTE variant compare](editor/rte-variant-compare.md)
++ Delivery{#delivery}
+  + [Visual Content Fragments](delivery/visual-content-fragments.md)
+  + [GraphQL API](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics)
 + [Extensibility](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/extensibility/content-fragments/overview.html)  
 + [Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-console.html){target=_blank}
