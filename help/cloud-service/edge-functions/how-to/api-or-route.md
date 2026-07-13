@@ -11,7 +11,7 @@ jira: KT-21976
 thumbnail: KT-21976.jpeg
 last-substantial-update: 2026-07-13
 ---
-# Host an API or route
+# Build an API endpoint
 
 >[!IMPORTANT]
 >
