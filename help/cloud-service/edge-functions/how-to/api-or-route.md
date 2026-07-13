@@ -1,5 +1,5 @@
 ---
-title: Host an API or route
+title: Build an API endpoint with Edge Functions
 description: Learn how to expose HTTP endpoints with AEM Edge Functions using the fetch handler, route matching, CDN origin selectors, and outbound fetch calls.
 version: Experience Manager as a Cloud Service
 feature: Developing
