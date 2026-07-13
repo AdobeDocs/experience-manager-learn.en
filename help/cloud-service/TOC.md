@@ -65,6 +65,8 @@ team: TM
   + Set up {#edge-functions-setup}
     + [AEM as a Cloud Service](./edge-functions/setup-aemcs.md)
     + [Edge Delivery Services](./edge-functions/setup-eds.md)
+  + How to{#edge-functions-how-to}
+    + [Host an API or route](./edge-functions/how-to/api-or-route.md)
 + Cloud Manager {#cloud-manager}
   + [Programs](./cloud-manager/programs.md)
   + [Environments](./cloud-manager/environments.md)

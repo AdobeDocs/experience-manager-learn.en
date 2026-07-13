@@ -127,6 +127,14 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
+## How to
+
+Code-focused guides for common AEM Edge Function patterns.
+
+| Topic | Description |
+| --- | --- |
+| [Host an API or route](./how-to/api-or-route.md) | Expose HTTP endpoints with the fetch handler, CDN origin selectors, compute-bound routes, and network-bound fetch calls |
+
 ## Platform limits
 
 Keep the following limits in mind when you design AEM Edge Function logic.
