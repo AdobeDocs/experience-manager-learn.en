@@ -28,7 +28,7 @@ This page covers the contract, the key files, and two common handler patterns, c
 
 For first-time setup, see [Set up on AEM as a Cloud Service](../setup-aemcs.md) or [Set up on Edge Delivery Services](../setup-eds.md).
 
-## How a route reaches your code
+## How a HTTP request reaches your code
 
 A request hits your AEM Edge Function service in two steps: CDN routing, then JavaScript handling.
 
