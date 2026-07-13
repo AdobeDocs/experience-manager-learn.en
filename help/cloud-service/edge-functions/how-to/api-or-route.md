@@ -78,7 +78,7 @@ Each path you expose needs its own origin selector rule in `cdn.yaml`. One AEM E
 
 For more information on origin selector options, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors).
 
-## The fetch handler contract
+## Handle requests
 
 Every AEM Edge Function registers a fetch listener. Adobe CDN (Fastly Compute) invokes your handler for each matching request. The handler reads the incoming `Request`, runs logic, and returns a `Response`.
 
