@@ -133,7 +133,8 @@ Code-focused guides for common AEM Edge Function patterns.
 
 | Topic | Description |
 | --- | --- |
-| [Build an API endpoint with Edge Functions](./how-to/build-api-endpoint.md) | Expose HTTP endpoints with the fetch event handler, CDN origin selectors, and optional outbound fetch calls |
+| [Build an API endpoint](./how-to/build-api-endpoint.md) | Expose HTTP endpoints with the fetch event handler, CDN origin selectors, and optional outbound fetch or third-party API calls |
+| [Serve multiple endpoints](./how-to/multiple-endpoints.md) | One function can expose many endpoints; organize handler logic as your API grows |
 
 ## Platform limits
 

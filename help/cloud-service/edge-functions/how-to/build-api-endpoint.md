@@ -1,6 +1,6 @@
 ---
 title: Build an API endpoint with Edge Functions
-description: Learn how to expose HTTP endpoints with AEM Edge Functions using the fetch event handler, route matching, CDN origin selectors, and outbound fetch calls.
+description: Learn how to expose HTTP endpoints with AEM Edge Functions using the fetch event handler, endpoint matching, CDN origin selectors, and outbound fetch calls.
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture
@@ -30,7 +30,7 @@ For first-time setup, see [Set up on AEM as a Cloud Service](../setup-aemcs.md) 
 
 ## How an HTTP request reaches your code
 
-A request reaches your AEM Edge Function in two steps: the CDN origin selector routes the path, then your fetch event handler runs.
+A request reaches your AEM Edge Function in two steps: the CDN origin selector routes the endpoint to the function, then your fetch event handler runs.
 
 ```text
 Browser → CDN origin selector (cdn.yaml) → AEM Edge Function (index.js) → Your handler logic (optional fetch to other systems)
@@ -40,7 +40,7 @@ Browser → CDN origin selector (cdn.yaml) → AEM Edge Function (index.js) → 
 | --- | --- | --- |
 | CDN | `config/cdn.yaml` | Match a path and forward the request to the AEM Edge Function |
 | Function | `config/edgeFunctions.yaml` | Declare the AEM Edge Function name and optional `configs`, `secrets`, or `kvs` |
-| Code | `src/index.js` | Match routes, run handler logic, and return a `Response` |
+| Code | `src/index.js` | Match endpoints, run handler logic, and return a `Response` |
 
 The origin selector and the function name must align. If `edgeFunctions.yaml` declares `my-edge-function`, the origin selector uses `edgefunction-my-edge-function` in `cdn.yaml`.
 
@@ -60,8 +60,8 @@ version: '1'
 data:
   originSelectors:
     rules:
-      - name: route-my-route-to-edge-function # logical name for the origin selector rule
-        when: { reqProperty: path, equals: "/my-route" } # path to match
+      - name: route-status-endpoint-to-edge-function # logical name for the origin selector rule
+        when: { reqProperty: path, equals: "/status" } # path to match
         action:
           type: selectAemOrigin
           originName: edgefunction-my-edge-function # edgefunction-<name-of-the-function>
@@ -74,7 +74,7 @@ data:
           skipCache: true # true to bypass the CDN cache for this path
 ```
 
-Each path you expose needs its own origin selector rule in `cdn.yaml`. One AEM Edge Function can serve multiple routes, but the CDN must route each path to that function. Set `skipCache: false` to allow CDN caching for stable responses, or `skipCache: true` to bypass the CDN cache for dynamic or personalized responses.
+Each endpoint needs its own origin selector rule in `cdn.yaml`. One AEM Edge Function can serve multiple endpoints, but the CDN must forward each path to that function. Set `skipCache: false` to allow CDN caching for stable responses, or `skipCache: true` to bypass the CDN cache for dynamic or personalized responses.
 
 For origin selector options, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors).
 
@@ -96,13 +96,13 @@ async function handleRequest(event) {
   const url = new URL(req.url);
 
   try {
-    // route matching
-    if (url.pathname === "/my-route" && req.method === "GET") {
+    // endpoint matching
+    if (url.pathname === "/status" && req.method === "GET") {
       return new Response("OK", { status: 200 });
     } else if (url.pathname === "/my-api" && req.method === "GET") {
       return await myApiHandler(req, event.client);
     }
-    // add more routes here
+    // add more endpoints here
 
     return response.notFound();
   } catch (err) {
@@ -119,19 +119,19 @@ Key points:
 | Entry point | `addEventListener("fetch", ...)` wires every request to your fetch event handler, see [FetchEvent.respondWith](https://js-compute-reference-docs.edgecompute.app/docs/globals/FetchEvent/prototype/respondWith) |
 | Request | `event.request` is a standard Fetch API `Request` (method, URL, headers, body), see [Request reference](https://js-compute-reference-docs.edgecompute.app/docs/globals/Request/) |
 | Response | Return `new Response(body, { status, headers })` to control status, content type, and cache headers, see [Response reference](https://js-compute-reference-docs.edgecompute.app/docs/globals/Response/) |
-| Route matching | Match on `url.pathname`, HTTP method, headers, or query parameters inside `handleRequest` |
+| Endpoint matching | Match on `url.pathname`, HTTP method, headers, or query parameters inside `handleRequest` |
 | Client metadata | `event.client` exposes connection details such as the client IP address, see [FetchEvent.client](https://js-compute-reference-docs.edgecompute.app/docs/globals/FetchEvent/) |
 
-Route matching lives in `index.js`. As your routes grow, move handler logic into separate files and import them, as `my-api.js` does in the example above.
+Endpoint matching lives in `index.js`. As your endpoints grow, move handler logic into separate files and import them, as `my-api.js` does in the example above. See [Serve multiple endpoints with Edge Functions](./multiple-endpoints.md) for patterns as your API surface expands.
 
 ## Write your handler logic
 
-Inside each route, you can run any JavaScript that fits the edge runtime. Keep the work fast and short-lived. Prefer lightweight transforms, geo lookups, simple JSON or HTML responses, and small aggregations over long-running or heavy compute.
+Inside each endpoint handler, you can run any JavaScript that fits the edge runtime. Keep the work fast and short-lived. Prefer lightweight transforms, geo lookups, simple JSON or HTML responses, and small aggregations over long-running or heavy compute.
 
 A minimal response looks like this:
 
 ```js
-if (url.pathname === "/my-route" && req.method === "GET") {
+if (url.pathname === "/status" && req.method === "GET") {
   return new Response("OK", { status: 200 });
 }
 ```
@@ -196,8 +196,10 @@ For complete working examples, see the [AEM Edge Functions boilerplate](https://
 | Simple response | [`src/index.js`](https://github.com/adobe/aem-edge-functions-boilerplate/blob/main/src/index.js) | Route matching and a response built in the handler |
 | External API | [`src/weather.js`](https://github.com/adobe/aem-edge-functions-boilerplate/blob/main/src/weather.js) | Geo lookup plus outbound `fetch()` |
 
-## Next steps
+## Additional resources
 
-- [Set up on AEM as a Cloud Service](../setup-aemcs.md): deploy the boilerplate end to end
+- [Serve multiple endpoints with Edge Functions](./multiple-endpoints.md)
+- [Set up AEM Edge Functions on AEM as a Cloud Service](../setup-aemcs.md)
+- [Set up AEM Edge Functions on Edge Delivery Services](../setup-eds.md)
 - [AEM Edge Functions product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions)
-- [AEM Edge Functions boilerplate](https://github.com/adobe/aem-edge-functions-boilerplate): full project with tests, secrets, config store, and KV store examples
+- [AEM Edge Functions boilerplate](https://github.com/adobe/aem-edge-functions-boilerplate)
