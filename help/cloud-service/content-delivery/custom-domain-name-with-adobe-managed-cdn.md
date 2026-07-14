@@ -98,44 +98,9 @@ To add the SSL certificate in Cloud Manager, follow the [add SSL Certificate](ht
 
 ## Domain name verification
 
->[!VIDEO](https://video.tv.adobe.com/v/3427905?quality=12&learn=on)
-
 To verify the domain name follow these steps:
 
 - Add a domain name in Cloud Manager by following the [add custom domain name](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name) documentation.
-- Add an AEM-specific [TXT record](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-text-record) in your DNS hosting service.
-- Verify the above steps by querying the DNS servers using the `dig` command.
-
-```bash
-# General syntax, the `_aemverification` is prefix provided by Adobe
-$ dig _aemverification.[YOUR-DOMAIN-NAME] -t txt
-
-# This tutorial specific example, as the subdomain `wknd.enablementadobe.com` is used
-$ dig _aemverification.wknd.enablementadobe.com -t txt
-```
-
-The sample successful response looks like this:
-
-```bash
-; <<>> DiG 9.10.6 <<>> _aemverification.wknd.enablementadobe.com -t txt
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8636
-;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1220
-;; QUESTION SECTION:
-;_aemverification.wknd.enablementadobe.com. IN TXT
-
-;; ANSWER SECTION:
-_aemverification.wknd.enablementadobe.com. 3600    IN TXT "adobe-aem-verification=wknd.enablementadobe.com/105881/991000/bef0e843-9280-4385-9984-357ed9a4217b"
-
-;; Query time: 81 msec
-;; SERVER: 153.32.14.247#53(153.32.14.247)
-;; WHEN: Tue Mar 12 15:54:25 EDT 2024
-;; MSG SIZE  rcvd: 181
-```
 
 This tutorial uses Azure DNS, however any DNS provider can be used. To add the TXT record, you must follow the documentation of your DNS hosting service.
 
