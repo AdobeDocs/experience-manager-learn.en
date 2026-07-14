@@ -67,6 +67,7 @@ team: TM
     + [Edge Delivery Services](./edge-functions/setup-eds.md)
   + How to{#edge-functions-how-to}
     + [Build an API endpoint](./edge-functions/how-to/build-api-endpoint.md)
+    + [Serve multiple endpoints](./edge-functions/how-to/multiple-endpoints.md)
 + Cloud Manager {#cloud-manager}
   + [Programs](./cloud-manager/programs.md)
   + [Environments](./cloud-manager/environments.md)
