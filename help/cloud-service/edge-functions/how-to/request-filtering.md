@@ -1,6 +1,6 @@
 ---
 title: HTTP request filters with Edge Functions
-description: Learn how to implement an HTTP request filter that lets you rewrite or redirect request, or modify HTTP responses.
+description: Learn how to implement an HTTP request filter that lets you rewrite or redirect requests, or modify HTTP responses.
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture
@@ -11,51 +11,43 @@ jira: KT-22059
 thumbnail: KT-22059.jpeg
 last-substantial-update: 2026-07-15
 ---
-# HTTP request filters using Edge Functions
+# HTTP request filters with Edge Functions
 
 >[!IMPORTANT]
 >
 >AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
 
-Learn why and when to intercept _broader request sets_ at the CDN such as HTML pages or navigation requests. Also learn what traffic to route to your AEM Edge Function, and how to configure filtering rules in `config/cdn.yaml` and avoid infinite loops on CDN loopback.
+Learn how to implement HTTP request filtering with AEM Edge Functions to rewrite or redirect requests, or modify HTTP responses.
 
-## How request filtering works
+## When to filter HTTP requests with Edge Functions
 
-Every request arrives at the CDN and is evaluated by the CDN's origin selector `when` conditions before it forwards traffic to your AEM Edge Function or the origin.
+An AEM Edge Function can act as a reverse proxy that performs advanced processing on the request and response before they reach the origin or client.
 
-- **Match:** request routes to your AEM Edge Function
-- **No match:** request follows normal routing to the origin
+The two scenarios are:
 
-![AEM Edge Functions request filtering flow](../assets/how-to/request-filtering-flow.png){width="900" align="center"}
+### Adjust the request before it reaches the origin
 
-When a request matches, your AEM Edge Function can compute at the edge, call a third-party API, fetch from the origin, or combine these. Your AEM Edge Function participates only in the requests it was designed to handle.
+Intercept traffic on the way to the origin to:
 
-## Why and when to filter
+- **Rewrite the request origin, path, or query.** Route the request to a different backend, path, or query string so the origin receives the correct resource.
+- **Rewrite request headers.** Add, remove, or modify headers before the request reaches the origin. For example, add a geo or access header the origin expects, remove headers the origin ignores, or change a header value to alter request behavior.
 
-Develop a request filtering Edge Function when an origin exists that ultimately handles the request, however either the HTTP request or HTTP response needs adjusting to ensure appropriate handling.
+### Modify the response before it reaches the client
 
-A few common uses include:
+Intercept traffic on the way back to the visitor to:
 
-
-- **Change the response HTML** by injecting JavaScript, personalized content, rewrite links, or stitch in a header and footer before the page reaches the browser.
-- **Redirect at the edge** to serve a large set of legacy-to-new URL redirects from the CDN, especially when the redirect rules require programmatic logic. 
-- **Personalize response by request context** to vary a page or section of a page by geolocation, device, or audience for public visitors. This applies to publish traffic on your site domain, not to author traffic.
-- **Add request headers** - such as geo, or access headers, to ensure the origin can properly handle the request.
+- **Change the response HTML.** Inject JavaScript, personalized content, rewrite links, or stitch in a header and footer before the page reaches the browser.
+- **Redirect at the edge.** Serve a large set of legacy-to-new URL redirects from the CDN, especially when the redirect rules require programmatic logic.
+- **Personalize by request context.** Vary a page or section of a page by geolocation, device, or audience for public visitors. This applies to publish traffic on your site domain, not to author traffic.
 
 
-## What to filter
+## Implement HTTP request filtering
 
-Match the traffic your AEM Edge Function acts on, and skip the rest. What that means depends on the scenario.
+HTTP request filtering uses two files. `config/cdn.yaml` decides which traffic to intercept and route to your AEM Edge Function. `src/index.js` performs the request or response adjustment.
 
-| Scenario | Route | Skip |
-| --- | --- | --- |
-| HTML transformation | Publish page URLs (`.html`, extensionless paths) | Static assets (`.css`, `.js`, images, fonts) |
-| Redirect lookup | `GET` and `HEAD` on page URLs | `POST`, `PUT`, and other methods with request bodies |
-| Personalization | Publish page URLs on your site domain | Author traffic, static assets |
+The origin selector and the function name must align. If `edgeFunctions.yaml` declares `my-edge-function`, the origin selector uses `edgefunction-my-edge-function` in `cdn.yaml`.
 
-##  Configure a filter rule
-
-Request filtering is configured in `config/cdn.yaml`. Each origin selector rule has a `when` block. The CDN routes the request to your AEM Edge Function only when every condition in `allOf` matches.
+### Configure the CDN filter
 
 ```yaml
 # config/cdn.yaml (origin selector excerpt)
@@ -67,37 +59,100 @@ data:
       - name: route-to-edge-function
         when:
           allOf:
-            - { reqProperty: tier, equals: "publish" }
-            - { reqProperty: domain, equals: "www.example.com" }
-            - { reqProperty: originalPath, matches: "(/[^./]+|\\.html|/)$" }
-            - { reqHeader: x-edgefunction-request, exists: false } # Exclude loopback requests
+            - { reqProperty: tier, equals: "publish" } # publish traffic only; skip author
+            - { reqProperty: domain, equals: "www.example.com" } # your site hostname
+            - { reqProperty: originalPath, matches: "(/[^./]+|\\.html|/)$" } # page URLs; skip static assets (.css, .js, images, fonts)
+            # - { reqProperty: method, in: ["GET", "HEAD"] } # optional: navigation only; skip POST, PUT, and other methods with bodies
+            - { reqHeader: x-edgefunction-request, exists: false } # skip loopback requests to prevent infinite loops
         action:
           type: selectAemOrigin
-          originName: edgefunction-my-edge-function
+          originName: edgefunction-my-edge-function # edgefunction-<name-of-the-function>
 ```
 
-If any condition fails, the request never reaches your function. For all supported properties and operators, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors).
+If any condition fails, the request never reaches your AEM Edge Function. Start with the fewest conditions your function needs and add more only to make routing more precise. For all supported properties and operators, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors).
 
-### Common filtering conditions
+### Implement the handler
 
-Most request filters are built by combining a few simple conditions.
+Every AEM Edge Function registers a fetch event handler. Use the handler to adjust the request before it reaches the origin, modify the response before it reaches the client, or both.
 
-| Match | Typical use |
+The following code snippet demonstrates request filtering and response modification in an AEM Edge Function.
+
+```js
+// src/index.js
+addEventListener("fetch", (event) => event.respondWith(handleRequest(event)));
+
+async function handleRequest(event) {
+  const req = event.request;
+  const url = new URL(req.url);
+
+  try {
+    // ------------------------------------------------------------
+    // --- Request filtering: adjust before origin ---
+    // ------------------------------------------------------------
+
+    // Example: Rewrite origin, path, or query
+    // Replace origin based on some criteria such as path or query
+    const newOriginRequest = new Request(`https://origin.example.com${url.pathname}${url.search}`);
+    const newOriginResponse = await fetch(newOriginRequest);
+    // Return the new origin response
+    return newOriginResponse;
+
+    ...
+
+    // Example: Rewrite request headers before reaching the origin
+    const originRequest = new Request(req, {
+      headers: new Headers({ ...Object.fromEntries(req.headers), "Authorization": "Bearer <token>" }),
+    });
+    const originResponse = await fetch(originRequest);
+    return originResponse;
+
+    ...
+
+    // ------------------------------------------------------------
+    // --- Response filtering: modify before client ---
+    // ------------------------------------------------------------
+
+    // Example: Change response HTML (fetch from origin, transform the body)
+    const originRequest = new Request(`https://origin.example.com${url.pathname}`);
+    const originResponse = await fetch(originRequest);
+    const transformedHtml = transformHtml(await originResponse.text());
+    return new Response(transformedHtml, { status: 200, headers: originResponse.headers });
+
+    ...
+
+    // Example: Redirect at the edge
+    return Response.redirect("https://www.example.com/new-path", 301);
+
+    ...
+
+    // Example: Personalize by request context (geo, device, or audience)
+    const originRequest = new Request(`https://origin.example.com${url.pathname}`);
+    const originResponse = await fetch(originRequest);
+    const personalizedHtml = personalizeHtml(await originResponse.text());
+    return new Response(personalizedHtml, { status: 200, headers: originResponse.headers });
+
+    return new Response("Not implemented", { status: 501 });
+  } catch (err) {
+    console.log(err);
+    return new Response("Error", { status: 500 });
+  }
+}
+```
+
+Key points:
+
+| Concept | Detail |
 | --- | --- |
-| `tier` | Publish traffic only |
-| `domain` | A specific hostname |
-| `originalPath` | A set of page URLs via regular expression |
-| `method` | `GET` or `HEAD` only |
-| Request headers | Exclude loopback or internal requests |
-
-Start with the fewest conditions your function needs. Add more only to make routing more precise.
+| CDN filter | `when` + `allOf` in `cdn.yaml` routes only matching traffic to your AEM Edge Function |
+| Request filtering | Build a new `Request` with a different origin, path, query, or headers before `fetch()` to origin |
+| Response filtering | Return a new `Response` with transformed HTML, a redirect, or personalized content |
+| CDN loopback | Set a sentinel header on internal `fetch()` calls so the CDN routes loopback traffic to origin |
 
 ## Design guidelines
 
 - Keep filters as narrow as practical.
-- Exclude static assets unless your function processes them.
 - Restrict navigation functions to `GET` and `HEAD`.
-- Test matching and non-matching paths before production deploy.
+- Avoid infinite loops on CDN loopback by setting a sentinel header on internal `fetch()` calls.
 - Deploy updated `cdn.yaml` through your Cloud Manager config pipeline.
 
 ### Prevent infinite loops on CDN loopback
@@ -109,7 +164,11 @@ To prevent this, you can exclude loopback requests from your origin selector rul
 The following code and config snippets demonstrate how to prevent infinite loops on CDN loopback.
 
 ```js
-// In the AEM Edge Function handler: set the sentinel on the loopback fetch
+// src/index.js
+addEventListener("fetch", (event) => event.respondWith(handleRequest(event)));
+...
+
+// In the handler: set the sentinel on the loopback fetch
 const loopbackRequest = new Request(`https://www.example.com${url.pathname}`, {
   headers: { "x-edgefunction-request": "true" },
 });
@@ -119,8 +178,18 @@ await fetch(loopbackRequest);
 See [AEM Edge Functions examples](https://github.com/search?q=repo%3Aadobe%2Faem-edge-functions-examples%20x-edgefunction-request&type=code) for how to set the sentinel header in the AEM Edge Function handler.
 
 ```yaml
-# In the CDN config/cdn.yaml: skip requests that already carry the sentinel
-- { reqHeader: x-edgefunction-request, exists: false }
+# config/cdn.yaml (origin selector excerpt)
+kind: "CDN"
+version: "1"
+data:
+  originSelectors:
+    rules:
+      - name: route-to-edge-function
+        when:
+          allOf:
+            ...
+            - { reqHeader: x-edgefunction-request, exists: false } # skip loopback requests to prevent infinite loops
+            ...
 ```
 
 See [AEM Edge Functions examples](https://github.com/search?q=repo%3Aadobe%2Faem-edge-functions-examples+exists%3A+false&type=code) for how to exclude requests that already carry the sentinel header in the CDN config.
