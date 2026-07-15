@@ -1,6 +1,6 @@
 ---
 title: HTTP request filters with Edge Functions
-description: Learn why and when to intercept broader request sets at the CDN (such as HTML pages or navigation requests), what traffic to route to your AEM Edge Function, and how to configure filtering rules in cdn.yaml.
+description: Learn how to implement an HTTP request filter that lets you rewrite or redirect request, or modify HTTP responses.
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture
