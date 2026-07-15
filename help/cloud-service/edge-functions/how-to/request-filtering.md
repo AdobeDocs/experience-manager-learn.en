@@ -42,7 +42,6 @@ A few common uses include:
 - **Personalize response by request context** to vary a page or section of a page by geolocation, device, or audience for public visitors. This applies to publish traffic on your site domain, not to author traffic.
 - **Add request headers** - such as geo, or access headers, to ensure the origin can properly handle the request.
 
-Each scenario targets a broad set of requests of one kind, such as HTML pages or navigation requests. A request filter is how you tell the CDN which set to route to your AEM Edge Function.
 
 ## What to filter
 
