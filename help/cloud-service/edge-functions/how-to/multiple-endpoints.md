@@ -7,6 +7,8 @@ topic: Development, Architecture
 role: Developer
 level: Intermediate
 doc-type: Article
+jira: KT-22030
+thumbnail: KT-22030.jpeg
 last-substantial-update: 2026-07-14
 ---
 # Serve multiple endpoints with Edge Functions
