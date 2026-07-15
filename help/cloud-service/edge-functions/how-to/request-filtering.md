@@ -53,7 +53,7 @@ Match the traffic your AEM Edge Function acts on, and skip the rest. What that m
 | Redirect lookup | `GET` and `HEAD` on page URLs | `POST`, `PUT`, and other methods with request bodies |
 | Personalization | Publish page URLs on your site domain | Author traffic, static assets |
 
-## How to filter
+##  Configure a filter rule
 
 Request filtering is configured in `config/cdn.yaml`. Each origin selector rule has a `when` block. The CDN routes the request to your AEM Edge Function only when every condition in `allOf` matches.
 
