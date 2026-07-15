@@ -11,7 +11,7 @@ jira: KT-22059
 thumbnail: KT-22059.jpeg
 last-substantial-update: 2026-07-15
 ---
-# Filter requests for response transformation with Edge Functions
+# HTTP request filters using Edge Functions
 
 >[!IMPORTANT]
 >
