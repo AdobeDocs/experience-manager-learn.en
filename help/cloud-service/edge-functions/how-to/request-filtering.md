@@ -36,9 +36,11 @@ Develop a request filtering Edge Function when an origin exists that ultimately 
 
 A few common uses include:
 
-- **Transform or enrich HTML.** Inject a JavaScript snippet, personalized content, rewrite links, or stitch in a header and footer before the page reaches the browser.
-- **Redirect at the edge.** Serve a large set of legacy-to-new URL redirects from the CDN so a matched path never touches origin. This applies to page navigation (`GET` and `HEAD`), not to form posts or API writes.
-- **Personalize by request context.** Vary a page or section of a page by geolocation, device, or audience for public visitors. This applies to publish traffic on your site domain, not to author traffic.
+
+- **Change the response HTML** by injecting JavaScript, personalized content, rewrite links, or stitch in a header and footer before the page reaches the browser.
+- **Redirect at the edge** to serve a large set of legacy-to-new URL redirects from the CDN, especially when the redirect rules require programmatic logic. 
+- **Personalize response by request context** to vary a page or section of a page by geolocation, device, or audience for public visitors. This applies to publish traffic on your site domain, not to author traffic.
+- **Add request headers** - such as geo, or access headers, to ensure the origin can properly handle the request.
 
 Each scenario targets a broad set of requests of one kind, such as HTML pages or navigation requests. A request filter is how you tell the CDN which set to route to your AEM Edge Function.
 
