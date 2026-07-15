@@ -32,7 +32,9 @@ When a request matches, your AEM Edge Function can compute at the edge, call a t
 
 ## Why and when to filter
 
-Architecture-wise, you decide to develop an AEM Edge Function when you want to change a response at the edge, close to the visitor and without a round trip to origin. A few common situations:
+Develop a request filtering Edge Function when an origin exists that ultimately handles the request, however either the HTTP request or HTTP response needs adjusting to ensure appropriate handling.
+
+A few common uses include:
 
 - **Transform or enrich HTML.** Inject a JavaScript snippet, personalized content, rewrite links, or stitch in a header and footer before the page reaches the browser.
 - **Redirect at the edge.** Serve a large set of legacy-to-new URL redirects from the CDN so a matched path never touches origin. This applies to page navigation (`GET` and `HEAD`), not to form posts or API writes.
