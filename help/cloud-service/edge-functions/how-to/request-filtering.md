@@ -34,7 +34,7 @@ Intercept traffic on the way to the origin to:
 
 ### Modify the response before it reaches the client
 
-Intercept traffic on the way back to the visitor to:
+Intercept traffic on the way back to the client (visitor) to:
 
 - **Change the response HTML.** Inject JavaScript, personalized content, rewrite links, or stitch in a header and footer before the page reaches the browser.
 - **Redirect at the edge.** Serve a large set of legacy-to-new URL redirects from the CDN, especially when the redirect rules require programmatic logic.
@@ -43,7 +43,7 @@ Intercept traffic on the way back to the visitor to:
 
 ## Implement HTTP request filtering
 
-HTTP request filtering uses two files. `config/cdn.yaml` decides which traffic to intercept and route to your AEM Edge Function. `src/index.js` performs the request or response adjustment.
+HTTP request filtering uses two files. The `config/cdn.yaml` file decides which traffic to intercept and route to your AEM Edge Function. The `src/index.js` file performs the request or response adjustment.
 
 The origin selector and the function name must align. If `edgeFunctions.yaml` declares `my-edge-function`, the origin selector uses `edgefunction-my-edge-function` in `cdn.yaml`.
 
@@ -100,6 +100,7 @@ async function handleRequest(event) {
     ...
 
     // Example: Rewrite request headers before reaching the origin
+    // Add or modify headers before the request reaches the origin, like adding an authorization token based on exchange with an external service.
     const originRequest = new Request(req, {
       headers: new Headers({ ...Object.fromEntries(req.headers), "Authorization": "Bearer <token>" }),
     });
@@ -113,6 +114,7 @@ async function handleRequest(event) {
     // ------------------------------------------------------------
 
     // Example: Change response HTML (fetch from origin, transform the body)
+    // Fetch the response from the origin, transform the body, and return the transformed response.
     const originRequest = new Request(`https://origin.example.com${url.pathname}`);
     const originResponse = await fetch(originRequest);
     const transformedHtml = transformHtml(await originResponse.text());
@@ -121,11 +123,13 @@ async function handleRequest(event) {
     ...
 
     // Example: Redirect at the edge
+    // Redirect the client to a new path, like a legacy URL to a new URL.
     return Response.redirect("https://www.example.com/new-path", 301);
 
     ...
 
     // Example: Personalize by request context (geo, device, or audience)
+    // Fetch the response from the origin, personalize the body, and return the personalized response.
     const originRequest = new Request(`https://origin.example.com${url.pathname}`);
     const originResponse = await fetch(originRequest);
     const personalizedHtml = personalizeHtml(await originResponse.text());
