@@ -64,31 +64,45 @@ There are several items you need to monitor to ensure trouble-free operation:
 
 ### Routine Maintenance
 
-#### [index maintenance](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/practices/best-practices-for-queries-and-indexing.html?lang=en)
+#### index maintenance
+
+[index maintenance](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/practices/best-practices-for-queries-and-indexing.html?lang=en)
 
 Indexes allow queries to run as quickly as they can, freeing up resources for other operations. Ensure your indexes are in tip-top shape! AEM cancels queries that travere instead of using an index to keep one bad query from affecting overall AEM performance.
 
-#### [Tar Compaction/ Revision cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)
+#### Tar Compaction/ Revision cleanup
+
+[Tar Compaction/ Revision cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)
 
 Each update to the repository creates a new content revision. As a result, with each update the size of the repository grows. To avoid uncontrolled repository growth, old revisions need to be cleaned up to free disk resources.
 
-#### [Lucene binaries cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#automated-maintenance-tasks)
+#### Lucene binaries cleanup
+
+[Lucene binaries cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#automated-maintenance-tasks)
 
 Purge lucene binaries and reduce the running data store size requirement.
 
-#### [Data Store Garbage](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html)
+#### Data Store Garbage
+
+[Data Store Garbage](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html)
 
 When an asset in AEM is deleted, the reference to the underlying data store record may be removed from the node hierarchy, but the data store record itself remains. This unreferenced data store record becomes "garbage" that need not be retained. In instances where a number of unreferenced assets exist, it is beneficial to get rid of them to, preserve space, optimize backup, and filesystem maintenance performance.
 
-#### [Workflow Purge](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html)
+#### Workflow Purge
+
+[Workflow Purge](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html)
 
 Minimizing the number of workflow instances increases the performance of the workflow engine, so you can regularly purge completed or running workflow instances from the repository.
 
-#### [Audit Log Maintenance](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html
+#### Audit Log Maintenance
+
+[Audit Log Maintenance](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html)
 
 AEM events that qualify for audit logging generate a lot of archived data. This data can quickly grow over time due to replications, asset uploads and other system activities.
 
-#### [Security](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security-checklist.html?lang=en)
+#### Security
+
+[Security](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security-checklist.html?lang=en)
 
 Ensure the Security Checklist best practices are followed closely to ensure the most secure instance of AEM.
 
@@ -100,19 +114,27 @@ Monitor diskspace to ensure you have enough for the JCR Repository, plus about h
 
 Try not to use custom components - use [core components](https://www.aemcomponents.dev/). Your goal should be to use core components 80-90% of the time and custom components only sparingly. This often requires a new way of looking at the components on a page - you must realize the components can be restyled easily by a front-end developer using CSS. Also keep in mind that those core components can be embedded in each other to achieve quite complex results. Get creative!
 
-### [Style Systems](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/style-system.html?lang=en)
+### Style Systems
+
+[Style Systems](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/style-system.html?lang=en)
 
 Style systems allow the core components, and even custom components, to have their look and feel change at the Authors discretion to create completely new looking components. These stylistic changes generally only involve a front-end designer and a knowledgeable author (often referred to a 'Super Author')
 
-### [Launches](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/launches/overview.html?lang=en) 
+### Launches
+
+[Launches](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/launches/overview.html?lang=en)
 
 Launches allow for work to be completed for a new Promotion, Sale, or website rollout without impacting the currently deployed pages. In addition, they can be scheduled to go live automatically, without attendance or supervision, allowing Authors to do next week's (or next quarter's) work today and not rush into page development the day before it should go live - it's truly the gift of TIME!)
 
-### [Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-65/assets/fragments/content-fragments.html)
+### Content Fragments
+
+[Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-65/assets/fragments/content-fragments.html)
 
 Content fragments are customizable "chunks" of information that can be easily reused all over the site. If you need a change you just change the original chunk and the update is seen everywhere it's used - immediately!
 
-### [Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html?lang=en)
+### Experience Fragments
+
+[Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html?lang=en)
 
 While sounding almost identical to Content Fragments, Experience Fragments are small, visible, pieces of a page. These can also be reused widely across your site and maintained in a central location within AEM to ease the task of making potentially global changes across your site in seconds, not days or weeks.
 
