@@ -136,6 +136,7 @@ Code-focused guides for common AEM Edge Function patterns.
 | [Build an API endpoint](./how-to/build-api-endpoint.md) | Expose HTTP endpoints with the fetch event handler, CDN origin selectors, and optional outbound fetch or third-party API calls |
 | [Serve multiple endpoints](./how-to/multiple-endpoints.md) | One function can expose many endpoints; organize handler logic as your API grows |
 | [HTTP request filters](./how-to/request-filtering.md) | Adjust HTTP requests or responses at the CDN with origin selector rules and a fetch handler |
+| [Use configs and secrets](./how-to/configs-and-secrets.md) | Pass non-sensitive configs and sensitive secrets to a function through `edgeFunctions.yaml` and read them in code |
 
 ## Platform limits
 
