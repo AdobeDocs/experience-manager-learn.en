@@ -68,6 +68,7 @@ team: TM
   + How to{#edge-functions-how-to}
     + [Build an API endpoint](./edge-functions/how-to/build-api-endpoint.md)
     + [Serve multiple endpoints](./edge-functions/how-to/multiple-endpoints.md)
+    + [HTTP request filters](./edge-functions/how-to/request-filtering.md)
 + Cloud Manager {#cloud-manager}
   + [Programs](./cloud-manager/programs.md)
   + [Environments](./cloud-manager/environments.md)
