@@ -65,6 +65,11 @@ team: TM
   + Set up {#edge-functions-setup}
     + [AEM as a Cloud Service](./edge-functions/setup-aemcs.md)
     + [Edge Delivery Services](./edge-functions/setup-eds.md)
+  + How to{#edge-functions-how-to}
+    + [Build an API endpoint](./edge-functions/how-to/build-api-endpoint.md)
+    + [Serve multiple endpoints](./edge-functions/how-to/multiple-endpoints.md)
+    + [HTTP request filters](./edge-functions/how-to/request-filtering.md)
+    + [Use configs and secrets](./edge-functions/how-to/configs-and-secrets.md)
 + Cloud Manager {#cloud-manager}
   + [Programs](./cloud-manager/programs.md)
   + [Environments](./cloud-manager/environments.md)
@@ -541,4 +546,3 @@ team: TM
       + {hide-from-toc} [Best Practices](./expert-resources/cloud-5/season-4/cloud5-edge-delivery-services-best-practices.md)
       + {hide-from-toc} [Search optimizations](./expert-resources/cloud-5/season-4/cloud5-search-optimization.md)
       + {hide-from-toc} [Google Maps](./expert-resources/cloud-5/season-4/cloud5-google-maps.md)
-

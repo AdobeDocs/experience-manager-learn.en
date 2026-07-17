@@ -10,7 +10,7 @@ doc-type: Catalog
 duration: 60
 last-substantial-update: 2024-11-20T00:00:00.000Z
 exl-id: ea7b852e-b40d-44ef-ba63-69081e68456e
-TQID: https://experienceleague.adobe.com/tjw8pu8MecrDhp3LPbQsNJmvc5NAGI2UIr---lVP-Tk
+TQID: https://experienceleague.adobe.com/tjw8pu8MecrDhp3LPbQsNJmvc5NAGI2UIr%2D%2D%2DlVP-Tk
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
