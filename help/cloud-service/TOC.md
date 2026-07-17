@@ -380,6 +380,7 @@ team: TM
         + [4. Create Fragments](./forms/interactive-communication-tutorial/create-fragments.md)
         + [5. Create IC Document](./forms/interactive-communication-tutorial/create-ic-document.md)
         + [6. Generate IC Document](./forms/interactive-communication-tutorial/test-document-generation.md)
+        + [7. Use Associate UI](./forms/interactive-communication-tutorial/use-associate-ui.md)
     + Document Generation in AEM Forms CS{#doc-gen-formscs}
         + [Introduction](./forms/doc-gen-forms-cs/introduction.md)
         + [Create Service Credentials](./forms/doc-gen-forms-cs/service-credentials.md)
