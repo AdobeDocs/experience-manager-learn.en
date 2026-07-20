@@ -137,6 +137,7 @@ Code-focused guides for common AEM Edge Function patterns.
 | [Serve multiple endpoints](./how-to/multiple-endpoints.md) | One function can expose many endpoints; organize handler logic as your API grows |
 | [HTTP request filters](./how-to/request-filtering.md) | Adjust HTTP requests or responses at the CDN with origin selector rules and a fetch handler |
 | [Use configs and secrets](./how-to/configs-and-secrets.md) | Pass non-sensitive configs and sensitive secrets to a function through `edgeFunctions.yaml` and read them in code |
+| [Store data at the edge](./how-to/data-storage.md) | Enable a KV store to read and write runtime key-value data that persists at the edge across function invocations |
 
 ## Platform limits
 
