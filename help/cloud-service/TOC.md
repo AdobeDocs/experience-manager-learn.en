@@ -70,6 +70,7 @@ team: TM
     + [Serve multiple endpoints](./edge-functions/how-to/multiple-endpoints.md)
     + [HTTP request filters](./edge-functions/how-to/request-filtering.md)
     + [Use configs and secrets](./edge-functions/how-to/configs-and-secrets.md)
+    + [Store data at the edge](./edge-functions/how-to/data-storage.md)
 + Cloud Manager {#cloud-manager}
   + [Programs](./cloud-manager/programs.md)
   + [Environments](./cloud-manager/environments.md)
