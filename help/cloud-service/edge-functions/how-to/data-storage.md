@@ -54,7 +54,7 @@ Deploy the updated configuration through the Cloud Manager config pipeline, or w
 
 ## Read and write in code
 
-Open the `kv_default` store, then call `get()` and `put()`. Both calls are asynchronous. Values are strings, so serialize objects with `JSON.stringify()` and parse them on read.
+Open the `kv_default` store, then call `get(key)` and `put(key, value)`. Both calls are asynchronous. Values are strings, so serialize objects with `JSON.stringify()` and parse them on read.
 
 ```js
 // src/index.js or handler file
