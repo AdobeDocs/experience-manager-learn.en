@@ -22,6 +22,7 @@ All AEM MCP Servers are available under `https://mcp.adobeaemcloud.com/adobe/mcp
 - **Content (read-only)** (`/content-readonly`) — Read-only content operations (Get, List/Search) for pages and content fragments, plus assets search (minimum required AEM release version is `26309`).
 - **Cloud Manager** (`/cloudmanager`) — To manage Adobe Cloud Manager programs, environments, repositories and pipelines.
 - **Experience Governance** (`/experience-governance`) — To manage brand integrity and compliance requirements for your website.
+- **Content AI** (`/content-ai`) — To search and analyze Content AI indexes using keyword, semantic, hybrid, and natural language search.
 
 >[!TIP]
 >
@@ -91,6 +92,12 @@ CARDS
   {description = Learn how to use the AEM Experience Governance MCP Server from Chat-based AI application to manage brand integrity and compliance requirements for your website.}
   {image = ../assets/governance-mcp-server/site-on-brand-check.png}
   {cta = Learn Experience Governance MCP Server}
+
+* ./content-ai-mcp-server.md
+  {title = Content AI MCP Server}
+  {description = Learn how to use the AEM Content AI MCP Server from Adobe CX Coworker to search and analyze Content AI indexes using keyword, semantic, hybrid, and natural language search.}
+  {image = ../assets/content-ai-mcp-server/indexconfig-response.png}
+  {cta = Learn Content AI MCP Server}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -159,6 +166,29 @@ CARDS
                 </div>
                 <a href="./experience-governance-mcp-server.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn Experience Governance MCP Server</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Content AI MCP Server">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./content-ai-mcp-server.md" title="Content AI MCP Server" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/content-ai-mcp-server/indexconfig-response.png" alt="Content AI MCP Server"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./content-ai-mcp-server.md" target="_self" rel="referrer" title="Content AI MCP Server">Content AI MCP Server</a>
+                    </p>
+                    <p class="is-size-6">Learn how to use the AEM Content AI MCP Server from Adobe CX Coworker to search and analyze Content AI indexes using keyword, semantic, hybrid, and natural language search.</p>
+                </div>
+                <a href="./content-ai-mcp-server.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn Content AI MCP Server</span>
                 </a>
             </div>
         </div>
