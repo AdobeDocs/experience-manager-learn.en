@@ -73,7 +73,7 @@ const value = entry ? await entry.json() : null;
 
 ## Cache data with a KV store
 
-A common pattern is cache-aside. The handler reads from the KV store first, and only calls the backend on a miss. By default an entry stays until you overwrite or delete it, so this example stores an expiry with the value on write and checks it on read.
+A common pattern is cache-aside. The handler reads from the KV store first, and calls the backend only on a miss. Pass a `ttl` (in seconds) to `put()` and the store expires the entry for you, so you do not track expiry yourself.
 
 ```js
 // src/lib/cache.js
@@ -81,25 +81,15 @@ import { KVStore } from "fastly:kv-store";
 
 const kv = new KVStore("kv_default");
 
-// Get a cached value from the KV store, or null if missing or expired
+// Read a cached value, or null when the key is missing or expired
 export async function getCached(key) {
   const entry = await kv.get(key);
-  if (!entry) {
-    return null;
-  }
-
-  // Parse the value and check the stored expiry
-  const cached = await entry.json();
-  if (Date.now() > cached.expiresAt) {
-    return null;
-  }
-  return cached.payload;
+  return entry ? await entry.json() : null;
 }
 
-// Set a value in the KV store with an expiry ttlSeconds from now
+// Cache a value; the store expires it after ttlSeconds
 export async function setCached(key, payload, ttlSeconds) {
-  const expiresAt = Date.now() + ttlSeconds * 1000;
-  await kv.put(key, JSON.stringify({ expiresAt, payload }));
+  await kv.put(key, JSON.stringify(payload), { ttl: ttlSeconds });
 }
 ```
 
@@ -109,13 +99,9 @@ In a handler, read the cache, fall back to the backend on a miss, then write the
 let data = await getCached("inventory:west");
 if (!data) {
   data = await fetchFromBackend();
-  await setCached("inventory:west", data, 60); // cache for 60 seconds
+  await setCached("inventory:west", data, 60); // store expires the entry after 60 seconds
 }
 ```
-
->[!TIP]
->
->`put()` also accepts a native `ttl` option in seconds, for example `kv.put(key, value, { ttl: 60 })`, which expires the entry for you so you can skip the manual expiry check.
 
 ## Populate the KV store
 
