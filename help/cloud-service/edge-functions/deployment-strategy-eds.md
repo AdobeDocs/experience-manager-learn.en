@@ -4,7 +4,7 @@ description: Learn how AEM Edge Functions bind to Edge Delivery Services sites a
 version: Experience Manager as a Cloud Service
 feature: Developing
 topic: Development, Architecture, DevOps
-role: Developer, Architect
+role: Developer
 level: Intermediate
 doc-type: Article
 jira: KT-22146

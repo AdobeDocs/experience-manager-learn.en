@@ -3,8 +3,8 @@ title: AEM Edge Function deployment strategy on AEM as a Cloud Service
 description: Learn how AEM Edge Functions bind to AEM as a Cloud Service environments, and how to promote, manage secrets, and test around that scope.
 version: Experience Manager as a Cloud Service
 feature: Developing
-topic: Development, Architecture, DevOps
-role: Developer, Architect
+topic: Development, DevOps
+role: Developer
 level: Intermediate
 doc-type: Article
 jira: KT-22145
