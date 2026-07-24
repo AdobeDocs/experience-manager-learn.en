@@ -25,7 +25,7 @@ Learn how to pass non-sensitive _configs_ and sensitive _secrets_ to an AEM Edge
 
 ## Configs vs secrets
 
-Both `configs` and `secrets` are key/value pairs that you expose to your AEM Edge Function. 
+Both `configs` and `secrets` are key/value pairs that you expose to your AEM Edge Function.
 
 The difference is where the value lives and how sensitive it is.
 
@@ -98,9 +98,11 @@ Two names are involved, and they are different on purpose.
 | `TRIPS_API_TOKEN` (the `key`) | `edgeFunctions.yaml` and your code | The name your code passes to `getSecret()` |
 | `WKND_TRIPS_API_TOKEN` (inside `${{ }}`) | Cloud Manager secret | The Cloud Manager secret that holds the actual value |
 
-### Add the secret in Cloud Manager
+This example uses one key and one secret, the pattern for AEM as a Cloud Service. On Edge Delivery Services, you repeat the pattern once per site, since one config pipeline serves all three sites.
 
-Define the Cloud Manager secret and run the config pipeline before you use it in your AEM Edge Function.
+### Add the secret on AEM as a Cloud Service
+
+Define the Cloud Manager secret and run the config pipeline before you use it in your AEM Edge Function. Each environment (RDE, Dev, Stage, Prod) has its own Configuration tab, so a secret you add to Dev does not exist in Stage or Prod until you add it there too.
 
 1. In Cloud Manager, navigate to your **Program** > **Environment** > **Configuration** tab.
     ![Cloud Manager Configuration tab](../assets/how-to/cloud-manager-configuration-tab.png)
@@ -108,22 +110,65 @@ Define the Cloud Manager secret and run the config pipeline before you use it in
     ![Cloud Manager Environment Configuration modal](../assets/how-to/cloud-manager-environment-configuration-modal.png)
 1. Select **+Add**, then **Save**.
 
+### Add the secret on Edge Delivery Services
+
+Edge Delivery Services has one config pipeline per program, not one per site. It deploys a single `edgeFunctions.yaml` for the whole program, shared by every site, rather than a separate file per site.
+
+The Dev, Stage, and Prod sites all share that one pipeline, so you cannot add the same variable name three times with three different values, and you cannot rely on a branch-specific `edgeFunctions.yaml` to pick the right one.
+
+Prefix each variable name with its site so the three sites never collide, for example `DEV_TRIPS_API_TOKEN`, `STAGE_TRIPS_API_TOKEN`, and `MAIN_TRIPS_API_TOKEN`. Declare all three in the same `edgeFunctions.yaml`, then let your code pick the right one at runtime.
+
+1. In Cloud Manager, navigate to your **Program** > **Edge Delivery** > **Pipelines** section. Select the ellipsis (`...`) next to the pipeline, then **View/Edit variables**.
+    ![Cloud Manager config pipeline variables](../assets/how-to/eds-cloud-manager-config-pipeline-variables.png)
+1. Add one variable per site, using the site prefix, and set the type to _Secret_.
+    ![Cloud Manager secret prefix](../assets/how-to/eds-cloud-manager-secrete-prefix.png)
+1. Declare all three prefixed secrets in the single `edgeFunctions.yaml`, since the pipeline deploys it once for every site.
+
+```yaml
+# config/edgeFunctions.yaml
+secrets:
+  - key: TRIPS_API_TOKEN_DEV
+    value: ${{DEV_TRIPS_API_TOKEN}}
+  - key: TRIPS_API_TOKEN_STAGE
+    value: ${{STAGE_TRIPS_API_TOKEN}}
+  - key: TRIPS_API_TOKEN_MAIN
+    value: ${{MAIN_TRIPS_API_TOKEN}}
+```
+
+The AEM Edge Function must decide which key to read at runtime, based on the site it's currently serving. The next section shows the lookup.
+
 ### Read secrets in code
 
-Read the secret at runtime through the `SecretStoreManager` helper that the boilerplate provides in `src/lib/config.js`. It reads from the `secret_default` store. The call is asynchronous.
+Read the secret at runtime through the `SecretStoreManager` helper that the boilerplate provides in `src/lib/config.js`. It reads from the `secret_default` store. The call is asynchronous on both platforms, but the key you look up differs.
+
+**On AEM as a Cloud Service**, the key is fixed, since each environment has its own secret behind the same key name:
 
 ```js
 // src/index.js or handler file
 import { SecretStoreManager } from "./lib/config";
 
-...
 const token = await SecretStoreManager.getSecret("TRIPS_API_TOKEN");
 if (!token) {
   throw new Error("TRIPS_API_TOKEN is not configured");
 }
+```
 
-...
+**On Edge Delivery Services**, build the key from the current site first, since one shared `edgeFunctions.yaml` declares a separate key per site:
 
+```js
+// src/index.js or handler file
+import { SecretStoreManager } from "./lib/config";
+
+const site = getCurrentSite(); // for example, "DEV", "STAGE", or "MAIN" based on the origin header
+const token = await SecretStoreManager.getSecret(`TRIPS_API_TOKEN_${site}`);
+if (!token) {
+  throw new Error(`TRIPS_API_TOKEN_${site} is not configured`);
+}
+```
+
+Once you have the token, use it in your outbound request the same way on both platforms:
+
+```js
 // use the token in an outbound request, never in a response to the client
 const request = new Request("https://api.example.com/trips", {
   headers: { Authorization: `Bearer ${token}` },
@@ -138,6 +183,7 @@ Keep the secret inside the AEM Edge Function. Do not return it to the client or 
 - Match key names exactly. All key names are case-sensitive.
 - Cast config values before use, because every config value is a string.
 - Add the Cloud Manager secret before the pipeline runs, or the `${{SECRET_NAME}}` reference fails to resolve.
+- On Edge Delivery Services, prefix each secret and variable name with its site (`DEV_`, `STAGE_`, `MAIN_`). One config pipeline serves all three sites, so unprefixed names collide, and your code must pick the right prefix at runtime.
 
 ## Additional resources
 

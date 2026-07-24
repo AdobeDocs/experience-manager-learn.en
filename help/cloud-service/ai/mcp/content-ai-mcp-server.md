@@ -133,6 +133,7 @@ With the server connected, discover and search public indexes the same way as au
     ```text
     List all Content AI indexes available in my environment.
     ```
+    
     The server searches only public indexes for this request and returns matching results.
 
 ## Summary
