@@ -139,3 +139,4 @@ With the server connected, discover and search public indexes the same way as au
 ## Summary
 
 You set up the AEM Content AI MCP Server in Adobe CX Coworker and used it to search Content AI indexes. You discovered available indexes and searched them in natural language, using keyword, semantic, hybrid, and natural language search. You also learned how to search **public indexes** anonymously with an API key, and how to reduce response size with field selection. You can use the same human-centric flow from CX Coworker to search and analyze Content AI indexes without switching to a UI or writing low-level search API code.
+
