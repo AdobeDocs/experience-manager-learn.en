@@ -54,8 +54,6 @@ Let's create a simple React application that controls what Adventure content to 
 
 When __English__ is selected in the locale selector, then English Adventure Content Fragments under `/content/dam/wknd/en` are returned, when __Spanish__ is selected, then Spanish Content Fragments under `/content/dam/wknd/es`, and so on, and so forth.
 
-![Localized React example app](./assets/localized-content/react-example.png)
-
 ### Create a `LocaleContext`{#locale-context}
 
 First, create a [React context](https://reactjs.org/docs/context.html) to allow the locale to be used across the React application's components. 
