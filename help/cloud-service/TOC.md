@@ -71,6 +71,9 @@ team: TM
     + [HTTP request filters](./edge-functions/how-to/request-filtering.md)
     + [Use configs and secrets](./edge-functions/how-to/configs-and-secrets.md)
     + [Store data at the edge](./edge-functions/how-to/data-storage.md)
+  + Deployment strategy {#edge-functions-deployment-strategy}
+    + [AEM as a Cloud Service](./edge-functions/deployment-strategy-aemcs.md)
+    + [Edge Delivery Services](./edge-functions/deployment-strategy-eds.md)  
 + Cloud Manager {#cloud-manager}
   + [Programs](./cloud-manager/programs.md)
   + [Environments](./cloud-manager/environments.md)
