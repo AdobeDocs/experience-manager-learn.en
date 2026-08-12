@@ -141,7 +141,7 @@ Execute these steps to create a blank canvas:
 * ![template to create banners rapidly](./assets/templates/Zoom-out.svg): Click ![template to create banners rapidly](./assets/templates/Zoom-out.svg) or use keyboard shortcut, **Ctrl** + **-** (Windows) or **Cmd** + **-** (Mac) to zoom out the canvas.
 * Press **backspace** or **delete** to delete the selected layer if no text or property is being edited.
 
-Click ![template to create flyers rapidly](./assets/templates/show-layers-list.svg) and select more options (![](./assets/templates/three-dots.svg)) on the Canvas layer to edit the canvas dimensions anytime while creating the template.
+Click ![template to create flyers rapidly](./assets/templates/show-layers-list.svg) and select more options (![](./assets/templates/three-dots.svG)) on the Canvas layer to edit the canvas dimensions anytime while creating the template.
 ![](./assets/templates/edit-canvas1.png)
 
    >[!NOTE]
@@ -165,7 +165,12 @@ Execute these steps to add text layers to the canvas:
 
 1. Click ![creating new banners quickly](./assets/templates/add-text.svg) to add a text layer to the canvas and open the Properties panel. 
 1. Select the layer and click the text to update it. 
-1. Select **[!UICONTROL Smart Text Resize]** in the Properties panel to  automatically adjust the text length and font size to optimally fit in the designated area. 
+1. Select **[!UICONTROL Smart Text Resize]** in the Properties panel to automatically adjust the text length and font size to optimally fit in the designated area. 
+
+>[!NOTE]
+>
+>The Design canvas and Preview/Delivery output may show minor differences in text position or size due to differences in rendering technologies.
+
 ![best customizable banners](./assets/templates/add-text-layer.png)
 
 See the [**[!UICONTROL Properties Panel]**](#reposition-resize-delete-a-layer) to reposition, resize, rotate or delete the layer. Format your text to the required font, size, color, style, alignment (in the layer) by changing their values in the respective fields under the **[!UICONTROL Text]** section of the panel. The **[!UICONTROL Font Family]** field displays [!UICONTROL Adobe Sans F2] default font, the reprocessed existing fonts and the newly uploaded and published fonts. See point 5 in the [Before you begin](#prerequisites-for-dynamic-media-wysiwyg-template) section above for more information.
