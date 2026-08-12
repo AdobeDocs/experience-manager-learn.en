@@ -6,9 +6,6 @@ role: Leader, User, Developer
 level: Beginner
 doc-type: tutorial
 duration: null
-last-substantial-update: 2026-07-17
-jira: KT-XXXXX
-exl-id: 
 ---
 # Search AEM Content Using the Content AI MCP Server
 

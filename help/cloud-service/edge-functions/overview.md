@@ -127,6 +127,48 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
+## Build a dynamic Edge Delivery Services block
+
+Once your AEM Edge Function is set up, learn how to connect it to an Edge Delivery Services block. Combine two upstream API calls into one response, connect the block to the endpoint with environment-aware URL switching and CORS for local dev, then deploy both projects together.
+
+<!--
+CARDS
+{target = _self}
+
+* ./development/edge-delivery-services/overview.md
+  {title = Build a dynamic Edge Delivery Services block with an AEM Edge Function}
+  {description = Build an estimated delivery checker block that calls an AEM Edge Function, using a real two-repo local dev and deployment workflow.}
+  {image = ./assets/development/edge-delivery-services/frescopa-estimated-delivery-block-on-dev-site.png}
+  {cta = Start tutorial}
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Build a dynamic Edge Delivery Services block with an AEM Edge Function">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./development/edge-delivery-services/overview.md" title="Build a dynamic Edge Delivery Services block with an AEM Edge Function" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="./assets/development/edge-delivery-services/frescopa-estimated-delivery-block-on-dev-site.png" alt="Build a dynamic Edge Delivery Services block with an AEM Edge Function"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./development/edge-delivery-services/overview.md" target="_self" rel="referrer" title="Build a dynamic Edge Delivery Services block with an AEM Edge Function">Build a dynamic Edge Delivery Services block with an AEM Edge Function</a>
+                    </p>
+                    <p class="is-size-6">Build an estimated delivery checker block that calls an AEM Edge Function, using a real two-repo local dev and deployment workflow.</p>
+                </div>
+                <a href="./development/edge-delivery-services/overview.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Start tutorial</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 ## How to
 
 Code-focused guides for common AEM Edge Function patterns.

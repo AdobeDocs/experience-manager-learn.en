@@ -43,6 +43,7 @@ team: TM
     + [Accelerate AEM Content Operations with the MCP Server](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
     + [Cloud Manager MCP Server](./ai/mcp/cloud-manager.md)
     + [Governance MCP Server](./ai/mcp/experience-governance-mcp-server.md)
+    + [Content AI MCP Server](./ai/mcp/content-ai-mcp-server.md)
   + AI-assisted development {#ai-assisted-development}
     + [Overview](./ai/ai-assited-development/overview.md)
     + Setup{#setup}
@@ -66,12 +67,22 @@ team: TM
   + Set up {#edge-functions-setup}
     + [AEM as a Cloud Service](./edge-functions/setup-aemcs.md)
     + [Edge Delivery Services](./edge-functions/setup-eds.md)
+  + Developing{#developing}
+    + Edge Delivery Services{#edge-delivery-services}
+      + [Overview](./edge-functions/development/edge-delivery-services/overview.md)
+      + [Develop AEM Edge Function](./edge-functions/development/edge-delivery-services/develop-edge-function.md)
+      + [Develop Edge Delivery Services block](./edge-functions/development/edge-delivery-services/develop-block.md)
+      + [Connect the block and function](./edge-functions/development/edge-delivery-services/connect-block-and-function.md)
+      + [Deploy and verify](./edge-functions/development/edge-delivery-services/deploy-and-verify.md)
   + How to{#edge-functions-how-to}
     + [Build an API endpoint](./edge-functions/how-to/build-api-endpoint.md)
     + [Serve multiple endpoints](./edge-functions/how-to/multiple-endpoints.md)
     + [HTTP request filters](./edge-functions/how-to/request-filtering.md)
     + [Use configs and secrets](./edge-functions/how-to/configs-and-secrets.md)
     + [Store data at the edge](./edge-functions/how-to/data-storage.md)
+  + Deployment strategy {#edge-functions-deployment-strategy}
+    + [AEM as a Cloud Service](./edge-functions/deployment-strategy-aemcs.md)
+    + [Edge Delivery Services](./edge-functions/deployment-strategy-eds.md)  
 + Cloud Manager {#cloud-manager}
   + [Programs](./cloud-manager/programs.md)
   + [Environments](./cloud-manager/environments.md)
