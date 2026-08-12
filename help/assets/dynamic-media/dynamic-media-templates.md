@@ -141,7 +141,7 @@ Execute these steps to create a blank canvas:
 * ![template to create banners rapidly](./assets/templates/Zoom-out.svg): Click ![template to create banners rapidly](./assets/templates/Zoom-out.svg) or use keyboard shortcut, **Ctrl** + **-** (Windows) or **Cmd** + **-** (Mac) to zoom out the canvas.
 * Press **backspace** or **delete** to delete the selected layer if no text or property is being edited.
 
-Click ![template to create flyers rapidly](./assets/templates/show-layers-list.svg) and select more options (![](./assets/templates/three-dots.svG)) on the Canvas layer to edit the canvas dimensions anytime while creating the template.
+Click ![template to create flyers rapidly](./assets/templates/show-layers-list.svg) and select more options (![](./assets/templates/three-dots.svg)) on the Canvas layer to edit the canvas dimensions anytime while creating the template.
 ![](./assets/templates/edit-canvas1.png)
 
    >[!NOTE]
