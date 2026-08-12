@@ -331,6 +331,8 @@ team: TM
         + [1 - Introduction](./forms/custom-submit-headless-forms/introduction.md)
         + [2 - Create custom submit service](./forms/custom-submit-headless-forms/custom-submit-service.md)
         + [3 - Display the response](./forms/custom-submit-headless-forms/handle-response-react-app.md)
+    + Automate Forms Portal Reminders with AJO{#automate-forms-portal-reminder-emails}
+        + [Implementation Steps](./forms/forms-completion-reminder-portal/use-case-implementation.md)
     + Reminding users to submit form{#form-completion-reminder}
         + [1 - Introduction](./forms/form-completion-reminder/introduction.md)
         + [2 - Event Schema](./forms/form-completion-reminder/event-schema.md)
