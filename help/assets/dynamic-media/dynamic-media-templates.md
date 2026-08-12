@@ -159,13 +159,39 @@ Execute these steps to add images to the canvas:
 1. Enable the **[!UICONTROL Uniform Radius]** toggle and use the **[!UICONTROL Corner Radius]** slider to adjust the roundness of all four corners of an image uniformly. Disable the toggle to customize the corner roundness by assigning specific radius values to each corner.
 ![adjust corner roundness of image](./assets/templates/enable-uniform-radius-image.png)
 
+#### Stretch an image to fit the layer
+
+You can stretch an image to fit the layer dimensions exactly.
+
+1. Select an image layer on the canvas and expand the **[!UICONTROL Fit]** section in the Properties panel.
+1. Toggle **[!UICONTROL Stretch To Fit Image]** on.
+   
+   ![Stretch To Fit Image toggle](./assets/templates/stretch-to-fit-image.png)
+
+1. Resize the image using the interactive resize handle that appears on the canvas.
+   
+   ![Accept crop and Cancel crop buttons](./assets/templates/stretch-to-fit-resize.png)
+
+1. Click **[!UICONTROL Accept crop]** to apply the new width and height and reload the image to fit the resized area.
+1. Click **[!UICONTROL Cancel crop]** to discard the changes.
+1. Alternatively, enter the exact **[!UICONTROL Stretch Width]** and **[!UICONTROL Stretch Height]** values in the Properties panel.
+   
+   ![Stretch Width and Stretch Height](./assets/templates/stretch-width-height.png)
+
+When you accept the changes, the image is re-rendered at the specified width and height to fill the layer dimensions.
+
 ### Add text layers to the canvas{#add-text-to-the-canvas}
 
 Execute these steps to add text layers to the canvas:
 
 1. Click ![creating new banners quickly](./assets/templates/add-text.svg) to add a text layer to the canvas and open the Properties panel. 
 1. Select the layer and click the text to update it. 
-1. Select **[!UICONTROL Smart Text Resize]** in the Properties panel to  automatically adjust the text length and font size to optimally fit in the designated area. 
+1. Select **[!UICONTROL Smart Text Resize]** in the Properties panel to automatically adjust the text length and font size to optimally fit in the designated area. 
+
+>[!NOTE]
+>
+>The Design canvas and Preview/Delivery output may show minor differences in text position or size due to differences in rendering technologies.
+
 ![best customizable banners](./assets/templates/add-text-layer.png)
 
 See the [**[!UICONTROL Properties Panel]**](#reposition-resize-delete-a-layer) to reposition, resize, rotate or delete the layer. Format your text to the required font, size, color, style, alignment (in the layer) by changing their values in the respective fields under the **[!UICONTROL Text]** section of the panel. The **[!UICONTROL Font Family]** field displays [!UICONTROL Adobe Sans F2] default font, the reprocessed existing fonts and the newly uploaded and published fonts. See point 5 in the [Before you begin](#prerequisites-for-dynamic-media-wysiwyg-template) section above for more information.
