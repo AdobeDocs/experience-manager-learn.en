@@ -156,7 +156,7 @@ Open the browser console for any of these. If a request fails unexpectedly, chec
 
 ## Next steps
 
-In the next step, you deploy both projects and confirm the same flow works against your Dev site, not just locally.
+In [Deploy and verify](./deploy-and-verify.md), you deploy both projects and confirm the same flow works against your Dev site, not just locally.
 
 ## Additional resources
 

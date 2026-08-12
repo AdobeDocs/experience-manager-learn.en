@@ -246,7 +246,7 @@ Open the page you authored at `http://localhost:3000/dev/branches/estimated-deli
 
 ## Next steps
 
-In the next step, you connect this Edge Delivery Services block to the AEM Edge Function you built in [Develop the AEM Edge Function](./develop-edge-function.md), replacing the placeholder result with live data.
+In [Connect the block to the AEM Edge Function](./connect-block-and-function.md), you wire this Edge Delivery Services block up to the AEM Edge Function you built in the previous step, replacing the placeholder result with live data.
 
 ## Additional resources
 
