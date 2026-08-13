@@ -285,7 +285,7 @@ See the full files in the reference implementation: [`config/edgeFunctions.yaml`
 
 ## Next steps
 
-In the next step, you scaffold the Edge Delivery Services block that calls this endpoint, then author it in Universal Editor.
+In [Develop the Edge Delivery Services block](./develop-block.md), you scaffold the block that calls this endpoint, then author it in Universal Editor.
 
 ## Additional resources
 

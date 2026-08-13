@@ -85,6 +85,10 @@ A complete, working example backs every step in this tutorial. Use the diffs bel
 - [Edge Delivery Services block changes](https://github.com/aem-showcase/frescopa/compare/main...SachinMali:frescopa:estimated-delivery): the full diff for the block's JSON model, JavaScript, and CSS, relative to the Frescopa site's `main` branch.
 - [Live preview](https://dev-myfrescopa.enablementadobe.com/dev/branches/estimated-delivery): the Estimated Delivery Checker block running end to end on the Frescopa demo site, with the AEM Edge Function deployed and answering live requests.
 
+## Next steps
+
+Start with [Develop the AEM Edge Function](./develop-edge-function.md), since the Edge Delivery Services block needs an endpoint to call before it has anything to connect to.
+
 ## Additional resources
 
 - [AEM Edge Functions overview](../../overview.md)
