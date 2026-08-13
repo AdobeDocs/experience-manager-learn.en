@@ -164,21 +164,31 @@ Execute these steps to add images to the canvas:
 You can stretch an image to fit the layer dimensions exactly.
 
 1. Select an image layer on the canvas and expand the **[!UICONTROL Fit]** section in the Properties panel.
-1. Toggle **[!UICONTROL Stretch To Fit Image]** on.
-   
+1. Turn on **[!UICONTROL Stretch To Fit Image]**.
+
    ![Stretch To Fit Image toggle](./assets/templates/stretch-to-fit-image.png)
 
-1. Resize the image using the interactive resize handle that appears on the canvas.
-   
+   An interactive resize handle appears on the canvas.
+
+1. Resize the image using the interactive resize handle.
+
+1. Click **[!UICONTROL Accept crop]** to apply the new width and height and re-render the image to fill the resized area.
+
+1. Click **[!UICONTROL Cancel crop]** to discard the changes.
+
    ![Accept crop and Cancel crop buttons](./assets/templates/stretch-to-fit-resize.png)
 
-1. Click **[!UICONTROL Accept crop]** to apply the new width and height and reload the image to fit the resized area.
-1. Click **[!UICONTROL Cancel crop]** to discard the changes.
-1. Alternatively, enter the exact **[!UICONTROL Stretch Width]** and **[!UICONTROL Stretch Height]** values in the Properties panel.
-   
-   ![Stretch Width and Stretch Height](./assets/templates/stretch-width-height.png)
+1. Alternatively, specify the exact **[!UICONTROL Stretch Width]** and **[!UICONTROL Stretch Height]** values in the Properties panel.
 
-When you accept the changes, the image is re-rendered at the specified width and height to fill the layer dimensions.
+When you accept the changes, the image is re-rendered to fill the layer dimensions using the specified width and height.
+
+If you turn off **[!UICONTROL Stretch To Fit Image]**, the image is re-rendered without the stretch modifiers and its original aspect ratio is restored. The image is scaled to the last saved **[!UICONTROL Stretch Height]**, with the width adjusted according to the image's natural aspect ratio.
+
+#### Use Stretch To Fit with the delivery URL
+
+When the template is requested using its delivery URL, the image is rendered according to the **[!UICONTROL Stretch To Fit Image]**, **[!UICONTROL Stretch Width]**, and **[!UICONTROL Stretch Height]** settings configured for the image layer.
+
+You can use the delivery URL the same way as other [!DNL Dynamic Media] template delivery URLs.
 
 ### Add text layers to the canvas{#add-text-to-the-canvas}
 
