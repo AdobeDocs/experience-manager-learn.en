@@ -1,3 +1,3 @@
-# ARCHIVED
+# Experience Manager Learn
 
-This repo has been migrated to <https://github.com/Adobe-Enterprise-Docs/experience-manager-learn.en>.
+Collaborative tutorials and enablement materials for Adobe Experience Manager.
