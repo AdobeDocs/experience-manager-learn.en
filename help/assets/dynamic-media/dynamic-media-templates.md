@@ -164,7 +164,7 @@ Execute these steps to add images to the canvas:
 You can stretch an image to fit the layer dimensions exactly.
 
 1. Select an image layer on the canvas and expand the **[!UICONTROL Fit]** section in the Properties panel.
-1. Turn on **[!UICONTROL Stretch To Fit Image]**.
+1. Enable **[!UICONTROL Stretch To Fit Image]**.
 
    ![Stretch To Fit Image toggle](./assets/templates/stretch-to-fit-image.png)
 
@@ -182,7 +182,7 @@ You can stretch an image to fit the layer dimensions exactly.
 
 When you accept the changes, the image is re-rendered to fill the layer dimensions using the specified width and height.
 
-If you turn off **[!UICONTROL Stretch To Fit Image]**, the image is re-rendered without the stretch modifiers and its original aspect ratio is restored. The image is scaled to the last saved **[!UICONTROL Stretch Height]**, with the width adjusted according to the image's natural aspect ratio.
+If you disable **[!UICONTROL Stretch To Fit Image]**, the image is re-rendered without the stretch modifiers and its original aspect ratio is restored. The image is scaled to the last saved **[!UICONTROL Stretch Height]**, with the width adjusted according to the image's natural aspect ratio.
 
 #### Use Stretch To Fit with the delivery URL
 
