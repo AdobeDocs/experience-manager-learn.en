@@ -48,4 +48,4 @@ The Draft Forms Dashboard provides a centralized view of forms that have been sa
 
 This implementation provides an **on-demand reminder capability** from a Node.js dashboard hosted on Render, in addition to the automated reminder sent after the configured form abandonment period.
 
-Use the provided [JavaScript file as a reference implementation](assets/query_drafts.js) for building the Draft Forms dashboard. The sample demonstrates how to query Adobe Experience Platform for forms that have not been submitted and how to trigger a form.nudge event when the Send Reminder action is selected. You can adapt the implementation to suit your application and environment.
+Use the provided [JavaScript file as a reference implementation](assets/javascript_files.zip) for building the Draft Forms dashboard. The sample demonstrates how to query Adobe Experience Platform for forms that have not been submitted and how to trigger a form.nudge event when the Send Reminder action is selected. You can adapt the implementation to suit your application and environment.
