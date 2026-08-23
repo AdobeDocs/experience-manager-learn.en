@@ -18,6 +18,8 @@ badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 
 The Draft Forms Dashboard provides a centralized view of forms that have been saved but not yet submitted. It queries Adobe Experience Platform to display the form name, owner email, and save date, and allows an operator to manually send a reminder by triggering a `form.nudge` event in AEP, which starts an Adobe Journey Optimizer journey to deliver the reminder email.
 
+![draft-dashboard](assets/forms_draft_dashboard.png)
+
 ## Implementation Overview
 
 1. **Configure the Node.js Application**
