@@ -28,6 +28,10 @@ An Adobe Journey Optimizer journey is triggered whenever a form is saved as a dr
 
 This solution demonstrates how AEM Forms, Azure Blob Storage, Adobe Experience Platform, and Adobe Journey Optimizer can be integrated to deliver an automated draft reminder workflow that helps increase form completion rates while providing a secure and seamless experience for authenticated users.
 
+## Usecase Overview
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502190?learn=on)
+
 ## Implementation Overview
 
 To implement this use case, the following high-level steps were completed:
