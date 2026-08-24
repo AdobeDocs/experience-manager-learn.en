@@ -28,6 +28,10 @@ An Adobe Journey Optimizer journey is triggered whenever a form is saved as a dr
 
 This solution demonstrates how AEM Forms, Azure Blob Storage, Adobe Experience Platform, and Adobe Journey Optimizer can be integrated to deliver an automated draft reminder workflow that helps increase form completion rates while providing a secure and seamless experience for authenticated users.
 
+## Usecase Overview
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502190?learn=on)
+
 ## Implementation Overview
 
 To implement this use case, the following high-level steps were completed:
@@ -60,7 +64,7 @@ To implement this use case, the following high-level steps were completed:
 
       Both subscriptions listen for the Microsoft.Storage.BlobCreated event and use a prefix filter to restrict notifications to the appropriate container. The endpoint for both subscriptions is the Azure Function that processes the form data and sends the corresponding event to Adobe Experience Platform. The function also updates an AEP lookup dataset with the current status of the saved form.
 
-      The [sample azure function can be downloaded from here](assets/BlobCreatedToAEP.js)
+      The [sample azure function can be downloaded from here](assets/javascript_files.zip)
 
 1. **Create Custom Events in Adobe Journey Optimizer**
    - Create two custom events in Adobe Journey Optimizer:
