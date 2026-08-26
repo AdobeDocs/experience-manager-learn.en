@@ -26,8 +26,8 @@ level_v2:
 
 This article will demonstrate the ability to provide a dynamic QR code within a personalized PDF notice. The use case is as follows:
 
-1. The author creates a XDP file with designated location of QR code among additional personalized data fields
-2. XDP file is used as a template for Interactive Communication
+1. The author creates an XDP file with designated location of QR code among additional personalized data fields
+2. XDP file is uploaded to AEM and is used as a template for Interactive Communication
 3. Case Worker or batch processing provides dynamic data to merge with XDP template
 4. Generated PDF is created with personalized data including unique QR code URL value provided
 5. Notice recipient receives personalized notice on paper which includes unique QR code where recipient may be directed to provide additional information for specific need
