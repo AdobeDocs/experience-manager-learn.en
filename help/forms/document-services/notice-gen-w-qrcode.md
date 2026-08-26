@@ -32,6 +32,12 @@ This article will demonstrate the ability to provide a dynamic QR code within a 
 4. Generated PDF is created with personalized data including unique QR code URL value provided
 5. Notice recipient receives personalized notice on paper which includes unique QR code where recipient may be directed to provide additional information for specific need
 
+### Pre-requisites
+The following pre-requisites are to be considered as part of this tutorial:
+1. [AEM Forms 6.5 (Non Cloud Services) or greater](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)
+2. [Download and install the DocumentServices Bundle](/help/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)
+3. [AEM Forms Designer](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/jee-installation/installing-configuring-designer)
+
 ### Create XDP Template
 First step is to create the XDP template using Forms Designer. See below the highlighted objects: the placed QRCode object as well as a hidden text field which will be used as the source value to trigger the QR code generation. Also note the Javascript code that indicates the population of the QRCode object to be that of the hidden field. In this image the "this" noted in Javascript is the selected QRCode object and qrCode is the hidden text field which will be populated at the time the notice is generated.
 
@@ -96,6 +102,7 @@ You will see a fully rendered PDF of your notice with the values you included in
 
 ![qrcode-xdp-notice-created](assets/xdp_qrcode_preview_pdf.png)
 
+The inclusion of a unique QR code can be considered as part of a broader personalized notice use case.
 
 
 To get this running on your system, please follow the following steps:
