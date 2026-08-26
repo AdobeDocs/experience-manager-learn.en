@@ -33,46 +33,10 @@ This article will demonstrate the ability to provide a dynamic QR code within a 
 5. Notice recipient receives personalized notice on paper which includes unique QR code where recipient may be directed to provide additional information for specific need
 
 
+First step is to create the XDP template using Forms Designer. Below see the highlighted objects: the placed QRCode object as well as a hidden text field which will be used as the source value to trigger the QR code generation. Also note the Javascript code that indicates the population of the QRCode object to be that of the hidden field. 
 
-The following is the servlet code. This servlet is called when the user adds an attachment to the Adaptive Form. The servlet returns the JSON object back to the calling application. The calling application then populates the Adaptive form with the values extracted from the JSON object.
 
-```java
-@Component(service = Servlet.class, property = {
 
-  "sling.servlet.methods=get",
-
-  "sling.servlet.paths=/bin/decodebarcode"
-
-})
-public class DecodeBarCode extends SlingSafeMethodsServlet {
- @Reference
- DocumentServices documentServices;
- @Reference
- GetResolver getResolver;
- private static final Logger log = LoggerFactory.getLogger(DecodeBarCode.class);
- private static final long serialVersionUID = 1L;
-
- protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) {
-  ResourceResolver fd = getResolver.getFormsServiceResolver();
-  Node pdfDoc = fd.getResource(request.getParameter("pdfPath")).adaptTo(Node.class);
-  Document pdfDocument = null;
-  log.debug("The path of the pdf I got was " + request.getParameter("pdfPath"));
-  try {
-   pdfDocument = new Document(pdfDoc.getPath());
-   JSONObject decodedData = documentServices.extractBarCode(pdfDocument);
-   response.setContentType("application/json");
-   response.setHeader("Cache-Control", "nocache");
-   response.setCharacterEncoding("utf-8");
-   PrintWriter out = null;
-   out = response.getWriter();
-   out.println(decodedData.toString());
-  } catch (RepositoryException | IOException e1) {
-   // TODO Auto-generated catch block
-   e1.printStackTrace();
-  }
- }
-}
-```
 
 The following code is part of the client library that is referenced by Adaptive Form. When a user adds the attachment to the adaptive form, this code is triggered. The code makes a GET call to the servlet with the path of the attachment passed in the request parameter. The data received from the servlet call is then used to populate the adaptive form.
 
