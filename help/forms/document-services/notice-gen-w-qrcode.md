@@ -88,7 +88,7 @@ The Agent UI presents a limited interface for use by agents or caseworkers who m
 >[!NOTE]
 >This same notice template can be leveraged for high volume batch processing, sending notices to thousands or millions of unique users. In a batch or high volume scenario all data would be dynamically pulled from a data source and there would be no agent UI interaction required.
 
-Enter values into the fields on the left side to reflect first name, last name, etc. Finally enter a URL to a form that you would like to use as an example that the recipient of the given notice may be requesting to complete. 
+Enter values into the fields on the left side to reflect first name, last name, etc. Enter a URL in the qrCode field that points to a form that you would like to request that the recipient of the notice to complete. 
 
 ![qrcode-xdp-notice-created](assets/xdp_qrcode_agentui.png)
 
