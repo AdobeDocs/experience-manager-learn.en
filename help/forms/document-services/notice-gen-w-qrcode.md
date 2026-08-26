@@ -75,6 +75,10 @@ With the desired Print template selected, click Create to complete the creation 
 
 ![qrcode-xdp-notice-create](assets/xdp_qrcode_selected_template.png)
 
+On creation confirmation, click Done to return to your current directory where you will find both your template and the newly created Interactive Correspondence notice.
+
+![qrcode-xdp-notice-created](assets/xdp_qrcode_notice_created.png)
+
 
 To get this running on your system, please follow the following steps:
 
