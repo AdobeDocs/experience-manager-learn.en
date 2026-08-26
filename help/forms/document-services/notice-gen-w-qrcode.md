@@ -83,6 +83,12 @@ Next, select your new Interactive Communication to reveal the contextual menu on
 
 ![qrcode-xdp-notice-created](assets/xdp_qrcode_open_notice.png)
 
+The Agent UI presents a limited interface for use by agents or caseworkers who may need to send a single notice. 
+
+>[!NOTE]
+>This same notice template can be leveraged for high volume batch processing, sending notices to thousands or millions of unique users.
+
+![qrcode-xdp-notice-created](assets/xdp_qrcode_agentui.png)
 
 To get this running on your system, please follow the following steps:
 
