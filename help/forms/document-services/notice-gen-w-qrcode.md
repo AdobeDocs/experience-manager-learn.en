@@ -33,9 +33,9 @@ This article will demonstrate the ability to provide a dynamic QR code within a 
 5. Notice recipient receives personalized notice on paper which includes unique QR code where recipient may be directed to provide additional information for specific need
 
 
-First step is to create the XDP template using Forms Designer. Below see the highlighted objects: the placed QRCode object as well as a hidden text field which will be used as the source value to trigger the QR code generation. Also note the Javascript code that indicates the population of the QRCode object to be that of the hidden field. 
+First step is to create the XDP template using Forms Designer. See below the highlighted objects: the placed QRCode object as well as a hidden text field which will be used as the source value to trigger the QR code generation. Also note the Javascript code that indicates the population of the QRCode object to be that of the hidden field. 
 
-
+![qrcode-xdp-template](assets/xdp_qrcode_template.png)
 
 
 The following code is part of the client library that is referenced by Adaptive Form. When a user adds the attachment to the adaptive form, this code is triggered. The code makes a GET call to the servlet with the path of the attachment passed in the request parameter. The data received from the servlet call is then used to populate the adaptive form.
