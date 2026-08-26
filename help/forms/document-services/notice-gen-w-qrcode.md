@@ -33,7 +33,9 @@ This article will demonstrate the ability to provide a dynamic QR code within a 
 5. Notice recipient receives personalized notice on paper which includes unique QR code where recipient may be directed to provide additional information for specific need
 
 
-First step is to create the XDP template using Forms Designer. See below the highlighted objects: the placed QRCode object as well as a hidden text field which will be used as the source value to trigger the QR code generation. Also note the Javascript code that indicates the population of the QRCode object to be that of the hidden field. 
+First step is to create the XDP template using Forms Designer. See below the highlighted objects: the placed QRCode object as well as a hidden text field which will be used as the source value to trigger the QR code generation. Also note the Javascript code that indicates the population of the QRCode object to be that of the hidden field. In this image the "this" noted in Javascript is the selected QRCode object and qrCode is the hidden text field which will be populated at the time the notice is generated.
+
+With the QRcode instance selected add an action of a "calculate" type and enter the value designation as in the Javascript window shown.
 
 ![qrcode-xdp-template](assets/xdp_qrcode_template.png)
 
