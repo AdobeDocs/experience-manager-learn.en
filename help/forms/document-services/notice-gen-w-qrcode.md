@@ -39,42 +39,8 @@ With the QRcode instance selected add an action of a "calculate" type and enter 
 
 ![qrcode-xdp-template](assets/xdp_qrcode_template.png)
 
+Add any additional fields that you wish to dynamically populate and save the XDP file. 
 
-The following code is part of the client library that is referenced by Adaptive Form. When a user adds the attachment to the adaptive form, this code is triggered. The code makes a GET call to the servlet with the path of the attachment passed in the request parameter. The data received from the servlet call is then used to populate the adaptive form.
-
-```javascript
-$(document).ready(function()
-   {
-       guideBridge.on("elementValueChanged",function(event,data){
-             if(data.target.name=="fileAttachment")
-         {
-             window.guideBridge.getFileAttachmentsInfo({
-        success:function(list) 
-                 {
-                     console.log(list[0].name + " "+ list[0].path);
-                      const getFormNames = '/bin/decodebarcode?pdfPath='+list[0].path;
-      $.getJSON(getFormNames, function (data) {
-                            console.log(data);
-                            var nameField = window.guideBridge.resolveNode("guide[0].guide1[0].guideRootPanel[0].Name[0]");
-                            nameField.value = data.name;
-                            var addressField = window.guideBridge.resolveNode("guide[0].guide1[0].guideRootPanel[0].Address[0]");
-                            addressField.value = data.address;
-                            var cityField = window.guideBridge.resolveNode("guide[0].guide1[0].guideRootPanel[0].City[0]");
-                            cityField.value = data.city;
-                            var stateField = window.guideBridge.resolveNode("guide[0].guide1[0].guideRootPanel[0].State[0]");
-                            stateField.value = data.state;
-                             var zipField = window.guideBridge.resolveNode("guide[0].guide1[0].guideRootPanel[0].Zip[0]");
-                            zipField.value = data.zipCode;
-                            var countryField = window.guideBridge.resolveNode("guide[0].guide1[0].guideRootPanel[0].Country[0]");
-                            countryField.value = data.country;
-                        });
-                        }
-                  });
-             }
-         });
-        });
-
-```
 
 >[!NOTE]
 >
