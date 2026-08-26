@@ -92,7 +92,7 @@ Next, select your new Interactive Communication to reveal the contextual menu on
 The Agent UI presents a limited interface for use by agents or caseworkers who may need to send a single notice. 
 
 >[!NOTE]
->This same notice template can be leveraged for high volume batch processing, sending notices to thousands or millions of unique users. In a batch or high volume scenario all data would be dynamically pulled from a data source and there would be no agent UI interaction required.
+>This same notice template can be leveraged for high volume batch processing, sending notices to thousands or millions of unique users. In a batch or high volume scenario all data would be dynamically pulled from a data source and there would be no agent UI interaction required. See (Generate multiple interactive communications using Batch API)[https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/interactive-communications/generate-multiple-interactive-communication-using-batch-api] for additional information on batch notice generation.
 
 Enter values into the fields on the left side to reflect first name, last name, etc. Enter a URL in the qrCode field that points to a form that you would like to request that the recipient of the notice to complete. With your values entered click the Print Preview to generate a PDF of your notice.
 
