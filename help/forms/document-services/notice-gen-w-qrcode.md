@@ -98,9 +98,12 @@ Enter values into the fields on the left side to reflect first name, last name, 
 
 ![qrcode-xdp-notice-created](assets/xdp_qrcode_agentui.png)
 
-You will see a fully rendered PDF of your notice with the values you included in each field. This rendered PDF will also include your unique QR code in the final document. Using a mobile phone you can scan the shown code to confirm you are navigated to the URL you provided.
+You will see a fully rendered PDF of your notice with the values you included in each field. This rendered PDF will also include your unique QR code in the final document. 
 
 ![qrcode-xdp-notice-created](assets/xdp_qrcode_preview_pdf.png)
 
-The inclusion of a unique QR code can be considered as part of a broader personalized notice use case.
+Using a mobile phone you can scan the shown code to confirm you are navigated to the URL you provided.
+
+The inclusion of a unique QR code can be considered as part of a broader personalized notice use case. As each notice may contain unique recipient specific information, the QR code too can be unique to each recipient.
+
 For additional information and use cases on personalizing body content of a notice see [Text within Interactive Correspondence](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/interactive-communications/texts-interactive-communications).
