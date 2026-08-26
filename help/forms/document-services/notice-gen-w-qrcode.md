@@ -67,7 +67,7 @@ To set the value of our Print Channel, click the corresponding checkbox and brow
 
 >[!NOTE]
 >
->Look at the current URL in your browser for a hint of your current location to help the navigation for your uploaded XDP file.
+>Look at the current URL in your browser for a hint of your current location to help in the navigation for your uploaded XDP file.
 
 ![qrcode-xdp-notice-general](assets/xdp_qrcode_print_channel_path.png)
 
