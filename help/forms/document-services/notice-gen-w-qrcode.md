@@ -55,6 +55,10 @@ With the template uploaded we will now create a notice that leverages that templ
 
 ![qrcode-xdp-template-uploaded](assets/xdp_qrcode_ic_start.png)
 
+Enter a desired name for your notice, select a specific Form Data Model source and select the Form data Model Prefill Service. All other options on the General section can be left blank for this sample.
+
+![qrcode-xdp-template-uploaded](assets/xdp_qrcode_ic_general_info.png)
+
 Line 23 - Call the DocumentServices extractBarCode method to get the JSON object populated with decoded data
 
 To get this running on your system, please follow the following steps:
