@@ -63,6 +63,14 @@ For this sample we are going to focus on creating a file that is destined for Pr
 
 ![qrcode-xdp-notice-general](assets/xdp_qrcode_channel_select.png)
 
+To set the value of our Print Channel, click the corresponding checkbox and browse to the URL where to find the XDP file you previously uploaded. 
+
+>[!NOTE]
+>
+>Look at the current URL in your browser for a hint of your current location to help the navigation for your uploaded XDP file.
+
+![qrcode-xdp-notice-general](assets/xdp_qrcode_print_channel_path.png)
+
 
 To get this running on your system, please follow the following steps:
 
