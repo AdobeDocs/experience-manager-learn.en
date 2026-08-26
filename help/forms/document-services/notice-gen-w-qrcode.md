@@ -79,6 +79,10 @@ On creation confirmation, click Done to return to your current directory where y
 
 ![qrcode-xdp-notice-created](assets/xdp_qrcode_notice_created.png)
 
+Next, select your new Interactive Communication to reveal the contextual menu on the top of the window. Click on Open Agent UI.
+
+![qrcode-xdp-notice-created](assets/xdp_qrcode_open_notice.png)
+
 
 To get this running on your system, please follow the following steps:
 
