@@ -42,6 +42,9 @@ With the QRcode instance selected add an action of a "calculate" type and enter 
 Add any additional fields that you wish to dynamically populate and save the XDP file. 
 
 ### Upload XDP into AEM Forms
+Next upload your new XDP template into AEM Forms, where it will be recognized as a Form Template as seen below.
+
+![qrcode-xdp-template-uploaded](assets/xdp_qrcode_uploaded.png)
 
 >[!NOTE]
 >
