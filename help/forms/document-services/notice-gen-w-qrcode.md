@@ -44,13 +44,16 @@ Add any additional fields that you wish to dynamically populate and save the XDP
 ### Upload XDP into AEM Forms
 Next upload your new XDP template into AEM Forms, where it will be recognized as a Form Template as seen below.
 
-![qrcode-xdp-template-uploaded](assets/xdp_qrcode_uploaded.png)
-
 >[!NOTE]
 >
 >The default rendered QR code seen is simply a placeholder and is not a reflection of the final generated code.
 
-Line 12 - Custom code to get service resolver. This bundle is included as part of this articles assets.
+![qrcode-xdp-template-uploaded](assets/xdp_qrcode_uploaded.png)
+
+### Create Interactive Communications Notice
+With the template uploaded we will now create a notice that leverages that template. From the Create menu select Interactive Communications.
+
+![qrcode-xdp-template-uploaded](assets/xdp_qrcode_ic_start.png)
 
 Line 23 - Call the DocumentServices extractBarCode method to get the JSON object populated with decoded data
 
