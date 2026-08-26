@@ -86,9 +86,13 @@ Next, select your new Interactive Communication to reveal the contextual menu on
 The Agent UI presents a limited interface for use by agents or caseworkers who may need to send a single notice. 
 
 >[!NOTE]
->This same notice template can be leveraged for high volume batch processing, sending notices to thousands or millions of unique users.
+>This same notice template can be leveraged for high volume batch processing, sending notices to thousands or millions of unique users. In a batch >scenario all data would be dynamically pulled from a data source and there would be no agent UI interaction required.
+
+Enter values into the fields on the left side to reflect first name, last name, etc. Finally enter a URL to a form that you would like to use as an example that the recipient of the given notice may be requesting to complete. 
 
 ![qrcode-xdp-notice-created](assets/xdp_qrcode_agentui.png)
+
+
 
 To get this running on your system, please follow the following steps:
 
