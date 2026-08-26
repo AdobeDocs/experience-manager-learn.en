@@ -48,7 +48,7 @@ Next upload your new XDP template into AEM Forms, where it will be recognized as
 
 >[!NOTE]
 >
->The Adaptive Form included with this package was built using AEM Forms 6.4. If you intend to use this package in AEM Forms 6.3 environment, please create the Adaptive Form in AEM Form 6.3
+>The default rendered QR code seen is simply a placeholder and is not a reflection of the final generated code.
 
 Line 12 - Custom code to get service resolver. This bundle is included as part of this articles assets.
 
