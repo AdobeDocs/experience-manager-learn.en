@@ -2,7 +2,7 @@
 title: Dynamic QR Code within PDF Notice Generation
 description: Providing unique QR codes with personalized notice generation.
 feature: Barcoded Forms
-version: Experience Manager 6.4, Experience Manager 6.5
+version: Experience Manager 6.5
 topic: Development
 role: Developer
 level: Intermediate
