@@ -103,14 +103,4 @@ You will see a fully rendered PDF of your notice with the values you included in
 ![qrcode-xdp-notice-created](assets/xdp_qrcode_preview_pdf.png)
 
 The inclusion of a unique QR code can be considered as part of a broader personalized notice use case.
-
-
-To get this running on your system, please follow the following steps:
-
-1. [Download BarcodeService.zip](assets/barcodeservice.zip) and import into AEM using the package manager
-1. [Download and install the Custom DocumentServices Bundle](/help/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)
-1. [Download and install the DevelopingWithServiceUser Bundle](/help/forms/assets/common-osgi-bundles/DevelopingWithServiceUser.jar)
- 1. [Download the sample PDF Form](assets/barcode.pdf)
-1. Point your browser to the [sample adaptive form](http://localhost:4502/content/dam/formsanddocuments/barcodedemo/jcr:content?wcmmode=disabled)
-1. Upload the sample PDF provided
-1. You should see the forms populated with the data
+For additional information and use cases on personalizing body content of a notice see [Text within Interactive Correspondence](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/interactive-communications/texts-interactive-communications).
