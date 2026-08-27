@@ -32,8 +32,8 @@ This article will demonstrate the ability to provide a dynamic QR code within a 
 4. Generated PDF is created with personalized data including unique QR code URL value provided
 5. Notice recipient receives personalized notice on paper which includes unique QR code where recipient may be directed to provide additional information for specific need
 
-### Pre-requisites
-The following pre-requisites are to be considered as part of this tutorial:
+### Prerequisites
+The following prerequisites are to be considered as part of this tutorial:
 1. [AEM Forms 6.5 (Non Cloud Services) or greater](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)
 2. [Download and install the DocumentServices Bundle](/help/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)
 3. [AEM Forms Designer](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/jee-installation/installing-configuring-designer)
