@@ -410,6 +410,149 @@ Follow these steps to assign the same name to the [!UICONTROL Hide] parameters (
 1. Click **[!UICONTROL Save]** to group the layers. 
 1. Execute step 3 and then 4 in the [**[!UICONTROL Preview and Publish]**](#preview-and-publish-template-and-copy-template-deliver-url) section to see your changes. 
 
+## Create a Dynamic Media template from a PSD {#create-a-dynamic-media-template-from-a-psd}
+
+The PSD to Dynamic Media Template conversion feature lets you generate an editable Dynamic Media template from a Photoshop (PSD) file in AEM as a Cloud Service. The generated template is available in the Dynamic Media Template Editor for further editing.
+
+Before you convert a PSD, make sure the required Photoshop settings are enabled in Dynamic Media General Settings.
+
+### Before you begin {#before-you-begin}
+
+Before you convert a PSD file to a Dynamic Media template, make sure the required Photoshop settings are enabled in Dynamic Media General Settings.
+
+1. In AEM, go to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Dynamic Media General Settings]**.
+1. Select the **[!UICONTROL Photoshop]** tab.
+1. Enable the following options:
+   * **[!UICONTROL Maintain Layers]**
+   * **[!UICONTROL Create Template]**
+   * **[!UICONTROL Extract Text]**
+1. Select **[!UICONTROL Save]**.
+![Dynamic Media General Settings](./assets/templates/dynamic-media-general-setting.png)
+
+Once these settings are enabled, you can import a PSD file to generate a Dynamic Media template.
+
+### Convert a PSD to a Dynamic Media template {#convert-a-psd-to-a-dynamic-media-template}
+
+1. In AEM, select **[!UICONTROL Dynamic Media Assets]**.
+1. Navigate to the folder where you want to import the PSD file.
+1. Select **[!UICONTROL Import PSD]**.
+![Import PSD](./assets/templates/import-psd.png)
+
+1. In the **Import PSD** dialog, browse for and select the `.PSD` file you want to convert.
+1. Verify the destination **Path**.
+1. Select **[!UICONTROL Import]**.
+![Import PSD Tab](./assets/templates/import-psd-tab.png)
+
+The PSD file is processed and a Dynamic Media template is generated.
+
+The generated template is displayed in **[!UICONTROL Dynamic Media Assets]**.
+
+By default, the generated template name follows this format:
+
+`<PSD-file-name>_template`
+
+You can open the generated template in the Dynamic Media Template Editor for further editing.
+
+### Resolve missing fonts {#resolve-missing-fonts}
+
+If a PSD contains fonts that are not available in Dynamic Media, the generated Dynamic Media template is displayed with a **[!UICONTROL Missing Fonts]** indicator. The template preview is not rendered until the missing font issue is resolved.
+
+![Edit template fonts](./assets/templates/edit-template.png)
+
+You can resolve a missing font in either of the following ways:
+
+* **Add the missing font:** Add the missing font to Dynamic Media to make it available for the template.
+* **Replace the missing font:** Replace the missing font with a font that is already available in Dynamic Media.
+
+To resolve a missing font:
+
+1. Select the **[!UICONTROL Missing Fonts]** indicator.
+1. Select **[!UICONTROL Edit]** to open the template.
+1. In the Template Editor, select the missing-font alert to view the unavailable fonts.
+1. Choose one of the following options:
+   * To use the original font, add the missing font to Dynamic Media.
+   * To use an available font, select **[!UICONTROL Replace]**. **Adobe Sans F2** is selected by default as the replacement font. You can also select another available font.
+1. If multiple occurrences of the same missing font exist, select **[!UICONTROL Replace all]**.
+1. Save the template.
+
+![Missing fonts](./assets/templates/missing-font.png)
+
+After the missing font is added or replaced, the template preview is rendered.
+
+### Re-extract a template from a PSD {#re-extracting-a-template-from-a-psd}
+
+Reprocessing a PSD that already has a generated template does not create a new template or update the existing template.
+
+To generate a new template from the PSD:
+
+1. Delete the existing generated template.
+1. Reprocess the original PSD.
+
+A new Dynamic Media template is then generated.
+
+### PSD files with multiple pages or artboards {#psd-files-with-multiple-pages-or-artboards}
+
+PSD to Dynamic Media Template conversion supports a single page or artboard.
+
+For best results, use a PSD containing:
+
+* A single page.
+* A single artboard.
+
+PSD files with multiple pages or artboards may result in an incomplete or incorrect template.
+
+### Impact of PSD file operations {#impact-of-psd-file-operations}
+
+Copying, moving, or deleting the original PSD does not affect the generated Dynamic Media template. The generated template is managed separately.
+
+If the template is no longer required, delete it manually. Deleting the original PSD does not automatically delete the generated template.
+
+### Download generated templates {#downloading-generated-templates}
+
+Generated Dynamic Media templates currently do not support the **[!UICONTROL Download]** option.
+
+To make design changes, update the original PSD and upload or reprocess it as required.
+
+### Image assets used in the PSD {#image-assets-used-in-the-psd}
+
+Image layers used in the PSD are extracted and displayed in the generated Dynamic Media template.
+
+However, the individual images extracted from the PSD are not available as separate assets in AEM Assets. Therefore, the extracted images cannot be independently located or managed in AEM Assets.
+
+### Gradient layers {#gradient-layers}
+
+The Dynamic Media Template Editor does not support Photoshop gradient layers or gradient fill layers.
+
+If a PSD contains gradient layers:
+
+* The generated template may not exactly match the original PSD.
+* In some cases, the gradient may be converted to an image.
+* The final appearance may differ from the original design.
+
+For best results, avoid using gradient or gradient fill layers in PSD files intended for Dynamic Media Template conversion.
+
+### Smart Objects with shapes {#smart-objects-with-shapes}
+
+PSD files containing Smart Objects combined with shapes may not be extracted accurately.
+
+For example, an image placed inside a shape using a Smart Object may appear differently in the generated template.
+
+For best results, avoid complex combinations of Smart Objects and shapes in PSD files intended for template conversion.
+
+### Masking layers {#masking-layers}
+
+PSD files that use masking layers may not always be extracted accurately. As a result, the generated Dynamic Media template may look different from the original PSD design.
+
+For best results, avoid complex masking configurations in PSD files intended for template conversion.
+
+### Maximum layer limit {#maximum-layer-limit}
+
+The Dynamic Media Template Editor supports up to **60 layers** in a template.
+
+If a PSD contains more than 60 layers, the generated template may not fully match the original PSD. Layers beyond the supported limit are not rendered in the Template Editor.
+
+For best results, use PSD files containing **60 layers or fewer** when converting them to Dynamic Media Templates.
+
 ## Preview and publish the Dynamic Media template to copy the delivery URL {#preview-and-publish-dynamic-media-template-and-copy-template-deliver-url}
 
 Execute these steps to preview and publish the template and copy the delivery URL:
