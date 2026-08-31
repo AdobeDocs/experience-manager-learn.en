@@ -37,3 +37,11 @@ topic_v2:
 Closed captions are auto-generated once a video file is uploaded to AEM Assets with Dynamic Media.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432627/?learn=on)
+
+## No Downloadable Original {#no-downloadable-original}
+
+An Adaptive Video Sets (AVS) asset used for adaptive bitrate streaming is a logical container referencing multiple already-encoded renditions, for example, several H.264 MP4s at different bitrates. It does not hold a single master binary itself. Hence, the **[!UICONTROL Export]** option is disabled for AVS assets in the Scene7 Console. This is an expected container architecture, not a defect. If a downloadable original is needed, it must come from the separate master or source asset, not the AVS container.
+
+## AEM-Managed Captions {#AEM-managed-captions}
+
+Manage caption (Web Video Text Tracks or VTT) files exclusively from within the Adobe Experience Manager (AEM), never directly in Dynamic Media Classic. Deleting or editing caption subassets in Dynamic Media Classic desynchronizes AEM and Dynamic Media, which can silently drop the CC or captions icon from the player and remove subtitle tracks from the Adaptive Video Set manifest with no explicit error. To recover, delete the captions from the AEM **[!UICONTROL Captions and Audio Tracks]** page, re-upload them, and republish the caption subassets through **[!UICONTROL Manage Publication]** with the **[!UICONTROL /subassets]** option. Folder synchronization or publish settings (**[!UICONTROL Sync everything]** and **[!UICONTROL Immediate publish]**) affect how quickly such caption changes propagate to Dynamic Media.
