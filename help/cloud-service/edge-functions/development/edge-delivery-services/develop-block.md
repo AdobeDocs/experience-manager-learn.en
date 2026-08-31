@@ -13,10 +13,6 @@ last-substantial-update: 2026-08-07
 ---
 # Develop the Edge Delivery Services block
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Our goal is to [build](./overview.md) a dynamic Edge Delivery Services block that calls an AEM Edge Function to fetch dynamic data from a third-party API.
 
 The second step is to develop the Edge Delivery Services block, which scaffolds a JSON model, JavaScript, and CSS and authors it in Universal Editor. For block model syntax and JavaScript and CSS structure basics, see [Create a block](/help/sites/edge-delivery-services/developing/universal-editor/5-new-block.md) and [Author a block](/help/sites/edge-delivery-services/developing/universal-editor/6-author-block.md). Only the parts specific to this tutorial are covered here.

@@ -13,10 +13,6 @@ last-substantial-update: 2026-07-15
 ---
 # AEM Edge Functions
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 AEM Edge Functions let you run JavaScript on Adobe CDN at the edge, close to your visitors and without a round trip to origin. They work on AEM as a Cloud Service and Edge Delivery Services sites with Adobe Managed CDN.
 
 ## What are AEM Edge Functions

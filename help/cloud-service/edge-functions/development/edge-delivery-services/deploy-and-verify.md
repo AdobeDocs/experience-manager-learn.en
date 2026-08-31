@@ -13,10 +13,6 @@ last-substantial-update: 2026-08-07
 ---
 # Deploy and verify
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Our goal is to [build](./overview.md) a dynamic Edge Delivery Services block that calls an AEM Edge Function to fetch dynamic data from a third-party API.
 
 The fourth and final step is to deploy both projects to your Dev site and confirm the whole flow works end to end, not just locally. The Edge Delivery Services block and the AEM Edge Function live in two separate repositories, so they promote through two separate PRs. Review [AEM Edge Function deployment strategy on Edge Delivery Services](../../deployment-strategy-eds.md) first. It covers how an AEM Edge Function binds to a site and branch, and how secrets are scoped per site. This page is the concrete sequence for this tutorial's two branches.

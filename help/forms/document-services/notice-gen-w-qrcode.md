@@ -32,13 +32,15 @@ This article will demonstrate the ability to provide a dynamic QR code within a 
 4. Generated PDF is created with personalized data including unique QR code URL value provided
 5. Notice recipient receives personalized notice on paper which includes unique QR code where recipient may be directed to provide additional information for specific need
 
-### Prerequisites
+## Prerequisites
+
 The following prerequisites are to be considered as part of this tutorial:
 1. [AEM Forms 6.5 (Non Cloud Services) or greater](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)
 2. [Download and install the DocumentServices Bundle](/help/forms/assets/common-osgi-bundles/AEMFormsDocumentServices.core-1.0-SNAPSHOT.jar)
 3. [AEM Forms Designer](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/jee-installation/installing-configuring-designer)
 
-### Create XDP Template
+## Create XDP Template
+
 First step is to create the XDP template using Forms Designer. See below the highlighted objects: the placed QRCode object as well as a hidden text field which will be used as the source value to trigger the QR code generation. Also note the Javascript code that indicates the population of the QRCode object to be that of the hidden field. In this image the "this" noted in Javascript is the selected QRCode object and qrCode is the hidden text field which will be populated at the time the notice is generated.
 
 With the QRcode instance selected add an action of a "calculate" type and enter the code as in the Javascript window shown.
@@ -47,7 +49,8 @@ With the QRcode instance selected add an action of a "calculate" type and enter 
 
 Add any additional fields that you wish to dynamically populate and save the XDP file. 
 
-### Upload XDP into AEM Forms
+## Upload XDP into AEM Forms
+
 Next upload your new XDP template into AEM Forms, where it will be recognized as a Form Template as seen below.
 
 >[!NOTE]
@@ -56,7 +59,8 @@ Next upload your new XDP template into AEM Forms, where it will be recognized as
 
 ![qrcode-xdp-template-uploaded](assets/xdp_qrcode_uploaded.png)
 
-### Create Interactive Communications Notice
+## Create Interactive Communications Notice
+
 With the template uploaded we will now create a notice that leverages that template. From the Create menu select Interactive Communications.
 
 ![qrcode-xdp-template-uploaded](assets/xdp_qrcode_ic_start.png)

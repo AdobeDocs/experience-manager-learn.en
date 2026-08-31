@@ -13,10 +13,6 @@ last-substantial-update: 2026-08-07
 ---
 # Connect the block to the AEM Edge Function
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Our goal is to [build](./overview.md) a dynamic Edge Delivery Services block that calls an AEM Edge Function to fetch dynamic data from a third-party API.
 
 The third step is to connect the Edge Delivery Services block you scaffolded in [Develop the Edge Delivery Services block](./develop-block.md) to the AEM Edge Function you built in [Develop the AEM Edge Function](./develop-edge-function.md). This is the step that ties the two projects together. Run both local dev servers side by side, at two different ports, and make the block's JavaScript call the right one depending on where it's running.

@@ -13,10 +13,6 @@ last-substantial-update: 2026-07-24
 ---
 # AEM Edge Function deployment strategy on Edge Delivery Services
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 On Edge Delivery Services, an AEM Edge Function **binds to a site**, and each site maps to a git branch. A program gets exactly 3 AEM Edge Function instances, a fixed budget regardless of how many branches your repository has. Plan your branching strategy around that budget before you build it into your release process.
 
 ## How AEM Edge Functions are scoped

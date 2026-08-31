@@ -13,10 +13,6 @@ last-substantial-update: 2026-08-07
 ---
 # Build a dynamic Edge Delivery Services block with an AEM Edge Function
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Learn how to call an AEM Edge Function from an _Edge Delivery Services block_ so the block can **fetch dynamic data** from a third-party API.
 
 Edge Delivery Services is built for speed. It generates semantic HTML documents as part of publication, with no server-side logic on the page itself, so a block cannot fetch dynamic data, such as inventory or pricing from a third-party system, on its own. Fetching it directly from the browser is an alternative, but the browser may not have a user session to authenticate with, and any _API token placed in client-side code is public_.
