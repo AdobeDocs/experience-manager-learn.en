@@ -49,7 +49,7 @@ Adobe Cloud Manager pipelines deploys AEM application through a series of steps 
 
 The Developer console provides a variety of information and introspections into AEM as a Cloud Service environments that are useful to understand how your application is recognized by and functions within AEM as a Cloud Service.
 
-[Debugging AEM as a Cloud Service with the Developer Console](./developer-console.md)   
+[Debugging AEM as a Cloud Service with the Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-developer-console)   
 
 ## Repository Browser
 

@@ -182,7 +182,7 @@ team: TM
     + [Overview](./debugging/cloud-service/overview.md)
     + [Logs](./debugging/cloud-service/logs.md)
     + [Build and Deployment](./debugging/cloud-service/build-and-deployment.md)
-    + [Developer Console](./debugging/cloud-service/developer-console.md)
+    + [Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-developer-console){target=_blank}
     + [Repository Browser](./debugging/cloud-service/repository-browser.md)
     + Risks{#risks}
       + {hide-from-toc} [Traversal warnings](./debugging/cloud-service/risks/traversals.md)

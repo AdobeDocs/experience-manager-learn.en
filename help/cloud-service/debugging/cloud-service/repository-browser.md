@@ -49,7 +49,7 @@ To access Repository Browser on AEM as a Cloud Service:
 1. Ensure that your user has [the required access](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/repository-browser.html#access-prerequisites)
 1. Log in to [Cloud Manager](https://my.cloudmanager.adobe.com)
 1. Select the Program containing the AEM as a Cloud Service environment to debug
-1. Open the [Developer Console](./developer-console.md) corresponding to the AEM as a Cloud Service environment to debug
+1. Open the [Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-developer-console) corresponding to the AEM as a Cloud Service environment to debug
 1. Select the __Repository Browser__ tab
 1. Select the AEM service tier to browse
     + All Authors

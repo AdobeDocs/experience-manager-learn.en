@@ -82,7 +82,7 @@ Let's compare JSON Web Token (JWT) and OAuth 2.0, two common authentication mech
 | Best Suited For | Server-to-server API calls | Secure, permitted access for apps and users |
 | Required Information | Private key for signing JWT | Client ID and Client Secret for OAuth 2.0 |
 | Token Expiry | Short-lived, often needs refresh | The access-token is short-lived. The refresh-token is long-lived and used to get a new access-token |
-| Credentials Management | [AEM Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console) | [Adobe Developer Console](https://developer.adobe.com/developer-console/) |
+| Credentials Management | [AEM Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-developer-console) | [Adobe Developer Console](https://developer.adobe.com/developer-console/) |
 
 ## OpenAPI-based AEM APIs
 
