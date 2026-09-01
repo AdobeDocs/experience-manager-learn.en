@@ -1,5 +1,5 @@
 ---
-title: GenAI Metadata and Search
+title: AI-generated metadata
 description: Learn how AEM Assets uses GenAI to generate and augment asset metadata for content management and discovery.
 solution: Experience Manager, Experience Manager Assets
 sub-product: Experience Manager Assets
@@ -49,7 +49,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 ---
-# GenAI metadata {#genai-metadata}
+# AI-generated metadata {#genai-metadata}
 
 Teams cannot write titles, descriptions, and keywords by hand for thousands of assets, and inconsistent tags make search unreliable. AEM Assets uses generative AI to create and enrich this metadata as you add files, so every asset gets a consistent, searchable description without extra work from your team. This helps people find the right asset faster and keeps metadata quality consistent across large libraries.
 

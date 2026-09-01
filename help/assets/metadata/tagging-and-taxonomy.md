@@ -53,22 +53,22 @@ A pile of untagged assets is hard to search and impossible to browse by topic. A
 
 >[!TAB Assets view]
 
+## Create and apply tags
+
 In the Assets view, create, organize, and apply tags to build a taxonomy your team can search and browse by. Tags help people find related assets even when they don't know the exact file name. This video walks through the whole flow: how to create a tag and apply it to an asset.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431081/?learn=on)
-
->[!TAB Admin view]
-
-## Apply and organize tags
-
-Tags organize assets across your folder hierarchy and make them easier to discover. This video shows how to create and apply them.
-
->[!VIDEO](https://video.tv.adobe.com/v/34073?quality=12&learn=on)
 
 ## Block irrelevant Smart Tags
 
 Block Smart Tags so they can't apply culturally sensitive, irrelevant, or controversial keywords to your assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426839/?learn=on)
+
+>[!TAB Admin view]
+
+In the Admin view, this video shows how to create and apply tags to organize assets across your folder hierarchy and make them easier to discover.
+
+>[!VIDEO](https://video.tv.adobe.com/v/34073?quality=12&learn=on)
 
 >[!ENDTABS]

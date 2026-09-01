@@ -40,10 +40,6 @@ topic_v2:
 
 Folder structure does not always match how you want to restrict access to assets. Metadata-driven permissions let you grant or deny access based on an asset's metadata, such as its status or brand, instead of its location in a folder. This way, marketers see only approved assets, even when work-in-progress and approved files sit in the same folder. You avoid a folder rebuild just to separate content by approval state.
 
->[!BEGINTABS]
-
->[!TAB Admin view]
-
 Let's see an example. Creatives upload their work to AEM Assets to the campaign related folder, it might be a work in progress asset which has not been approved for use. We want to make sure that marketeers see only approved assets for this campaign. We can utilize a metadata property to indicate that an asset has been approved and can be used by the marketeers.
 
 ## How it works
@@ -140,5 +136,3 @@ Benefits of Metadata-Driven Permissions include:
 > ![Allow Multiple Restrictions](./assets/metadata-driven-permissions/allow-multiple-restrictions.png)
 > * __OR restrictions__ are supported by adding a new Access Control Entry with a metadata property restriction will establish an OR condition for the entries, e.g. a single entry with restriction `status=approved` and a single entry with `brand=Adobe` will be evaluated as `status=approved OR brand=Adobe`
 > ![Allow Multiple Restrictions](./assets/metadata-driven-permissions/allow-multiple-aces.png)
-
->[!ENDTABS]

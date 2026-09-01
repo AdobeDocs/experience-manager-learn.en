@@ -52,7 +52,7 @@ team: TM
 + Metadata & taxonomy{#metadata}
   + [Metadata schemas and forms](metadata/metadata-schemas-and-forms.md)
   + [Tagging and taxonomy](metadata/tagging-and-taxonomy.md)
-  + [GenAI metadata](metadata/genai-metadata.md)
+  + [AI-generated metadata](metadata/genai-metadata.md)
   + [Content credentials](metadata/content-credentials.md)
   + [Smart Tags for images](metadata/image-smart-tags.md)
   + [Smart Tags for videos](metadata/video-smart-tags.md)
@@ -63,8 +63,8 @@ team: TM
 + Governance & insights{#governance}
   + [Asset governance](./governance/governance.md)
   + [Permissions management](./governance/permissions-management.md)
-  + [Closed user groups](./governance/closed-user-groups.md)
   + [Metadata-driven permissions](./governance/metadata-driven-permissions.md)
+  + [Closed user groups](./governance/closed-user-groups.md)
   + [Insights](./governance/insights.md)
 
 + Asset distribution{#asset-distribution}
