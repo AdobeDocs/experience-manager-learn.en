@@ -28,7 +28,7 @@ level_v2:
 ---
 # Customize annotations in AEM Assets {#using-annotations-in-aem-assets}
 
-AEM lets you customize how annotations look when exported to PDF.
+Annotation exports don't always match a brand's style guide or an existing review process. AEM lets you customize the format and style of annotations you export to PDF, including colors, fonts, and page dimensions. This keeps exported reviews consistent with the rest of your documentation.
 
 >[!BEGINTABS]
 

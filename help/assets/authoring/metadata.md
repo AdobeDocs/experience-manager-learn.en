@@ -31,21 +31,19 @@ topic_v2:
 ---
 # Metadata {#metadata}
 
-View and edit asset metadata to help others find and understand your assets.
+Good metadata is the fastest way for your team to find the right asset, understand its rights and usage, and avoid duplicate work. AEM Assets lets you view and edit this information for any asset, including details AI generates automatically, like titles, descriptions, and tags. This page shows how to manage metadata in both the Assets view and the Admin view.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## View and edit metadata
-
-Open an asset's details to see and edit basic, advanced, and tag metadata, including AI-generated titles, descriptions, and smart tags.
+From the Assets view, open an asset's details to see and edit basic, advanced, and tag metadata, including AI-generated titles, descriptions, and smart tags.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
 
 >[!TAB Admin view]
 
-## View and edit metadata
+In the Admin view, this video shows how to open an asset's properties to see its metadata organized across several tabs. It covers editable fields like title and description, read-only fields like file dimensions and creation date, and licensing information.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32045?quality=12&learn=on)
 

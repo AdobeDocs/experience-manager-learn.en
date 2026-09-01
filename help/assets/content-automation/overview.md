@@ -40,13 +40,13 @@ topic_v2:
 ---
 # Content automation with Creative Cloud services {#content-automation-overview}
 
-Apply Photoshop and Lightroom capabilities to your assets with the Content Automation add-on.
+Content teams often need Photoshop or Lightroom edits on images stored in AEM Assets. Without automation, someone downloads the asset, sends it to a designer, and re-uploads the result, which slows every project down. The Content Automation add-on removes that manual work: it connects AEM Assets to native Adobe Photoshop and Lightroom cloud services, so processing profiles apply operations like background removal, smart object replacement, and Photoshop actions automatically, at scale.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Automate creative processing with Content Automation
+In the Admin view, connect AEM Assets to native Adobe Photoshop cloud services so common creative operations run without manual work. This video covers three workflows: automatic background removal from images, smart object replacement in Photoshop templates, and Photoshop actions such as banner generation. Each workflow uses a processing profile that watches a folder and creates new assets as soon as you upload the originals.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333197?quality=12&learn=on)
 

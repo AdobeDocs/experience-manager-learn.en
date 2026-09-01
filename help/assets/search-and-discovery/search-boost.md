@@ -30,13 +30,13 @@ level_v2:
 ---
 # Search boost {#search-boost}
 
-Assign keywords or phrases to an asset to increase its relevancy for those terms in search results.
+Search results depend on an asset's existing metadata, but that metadata does not always match the words people actually search with. Search boost lets you add extra keywords or phrases to an asset, so it ranks higher when someone searches for those terms. This helps the right assets surface faster, even when the standard metadata misses the exact words a user types.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Boost an asset's search relevancy
+In the Admin view, this video shows how to search for a term like "surfing" and see why some images rank higher than others, based on the title, folder path, and tags. It then shows how to select an asset that doesn't rank well, add the term as a boosted keyword on the Advanced tab, and rerun the search to see that asset move to the top of the results.
 
 >[!VIDEO](https://video.tv.adobe.com/v/16766?quality=12&learn=on)
 

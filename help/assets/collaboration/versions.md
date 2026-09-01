@@ -37,23 +37,19 @@ topic_v2:
 ---
 # Versions {#versions}
 
-AEM keeps a history of every change to an asset, including the file, renditions, and metadata.
+Mistakes happen: someone overwrites a file, or edits metadata that turns out to be wrong. AEM keeps a full history of every asset, including the file itself, its renditions, and its metadata. You can compare any two versions, or restore an earlier one, so a mistake never costs you the original work.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Create and restore versions
-
-Open an asset's Versions panel to create a new version, switch between versions, or select an earlier one and make it the latest.
+In the Assets view, open an asset's Versions panel to create a new version, switch between versions, or select an earlier one and make it the latest.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
 
 >[!TAB Admin view]
 
-## Create and restore versions
-
-AEM creates a new version automatically when you re-upload a file or edit metadata, or you can create one manually with a label and description. Compare any version against the current one, or revert to an earlier version to make it current again.
+In the Admin view, AEM creates a new version automatically when you re-upload a file or edit metadata. You can also create a version manually, with a label and description. Compare any version against the current one, or revert to an earlier version to make it current again.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32052?quality=12&learn=on)
 

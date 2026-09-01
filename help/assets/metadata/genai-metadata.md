@@ -51,15 +51,13 @@ topic_v2:
 ---
 # GenAI metadata {#genai-metadata}
 
-AEM Assets can automatically generate and augment asset metadata with GenAI.
+Teams cannot write titles, descriptions, and keywords by hand for thousands of assets, and inconsistent tags make search unreliable. AEM Assets uses generative AI to create and enrich this metadata as you add files, so every asset gets a consistent, searchable description without extra work from your team. This helps people find the right asset faster and keeps metadata quality consistent across large libraries.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Generate metadata automatically
-
-Adobe AI generates titles, descriptions, and other metadata for your assets as you upload them. This saves time and keeps tagging consistent at scale. This video shows the whole flow.
+In the Assets view, Adobe AI generates titles, descriptions, and other metadata for your assets as you upload them. This saves time and keeps tagging consistent at scale. This video shows the whole flow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3474891/?learn=on&enablevpops)
 

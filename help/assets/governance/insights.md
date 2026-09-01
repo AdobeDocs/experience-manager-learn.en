@@ -51,23 +51,19 @@ topic_v2:
 
 # Insights {#insights}
 
-AEM Assets provides reports and insights into your DAM activity, whether you use the Assets view or the Admin view.
+Teams need to know how people use their assets: what they download, what they search for, and how much storage a project uses. AEM Assets tracks this activity automatically and shows it in reports and an Insights dashboard, whether you work in the Assets view or the Admin view. This data helps you spot popular content, plan storage, and show the value of your DAM investment, without the manual work of log exports.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## View and create reports
-
-Every user can open the Insights dashboard to see how people use your assets: downloads, uploads, storage, and top searches over the last 30 days or 12 months. Administrators can also build a custom report for any folder and date range, then download it as a CSV file. This video walks through both.
+In the Assets view, you open the Insights dashboard to see how people use your assets: downloads, uploads, storage, and top searches over the last 30 days or 12 months. You can also build a custom report for any folder and date range, then download it as a CSV file. This video walks through both.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432496/?learn=on)
 
 >[!TAB Admin view]
 
-## View and create reports
-
-Open reports from **AEM Tools > Assets > Reports**, where you can view or download any report you've already created, or build a new one from a report type, a path and date range, and the metadata columns you want to include. This video walks through the whole flow.
+In the Admin view, you open reports from **AEM Tools > Assets > Reports**, where you view or download any report you've already created, or build a new one from a report type, a path and date range, and the metadata columns you want to include. This video walks through the whole flow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22140?quality=12&learn=on)
 

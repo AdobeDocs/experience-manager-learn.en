@@ -35,15 +35,13 @@ topic_v2:
 ---
 # Public link sharing {#public-link-sharing}
 
-Share assets with a link that recipients can open without an account, which reduces the risk of sharing the wrong asset or version.
+Teams often need to share assets with people outside the organization, such as clients, agencies, or partners who don't have an AEM account. Public link sharing lets you generate a link anyone can open, with no login required, and set an expiration date so access ends automatically. This keeps everyone on the current version, instead of an outdated file emailed weeks earlier.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Share assets with a public link
-
-Select assets, folders, or collections, generate a share link with an expiration date, and send it to anyone who needs access. Recipients can preview and download shared content without a login; larger downloads queue up as a ZIP file they can track from My Downloads.
+In the Assets view, select assets, folders, or collections, generate a share link with an expiration date, and send it to anyone who needs access. Recipients can preview and download shared content without a login; larger downloads queue up as a ZIP file they can track from My Downloads.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502568/?learn=on&enablevpops)
 

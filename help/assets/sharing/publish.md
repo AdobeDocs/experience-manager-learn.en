@@ -34,15 +34,13 @@ level_v2:
 ---
 # Publish {#publish}
 
-Publish assets and their renditions from AEM Author to AEM Publish, so they're accessible via direct URL.
+Assets in AEM Author are only visible to your internal team, not to the public or external systems. When you publish an asset, AEM copies it and its renditions to AEM Publish, where a direct URL makes it available to other applications and websites. You can publish assets individually or in bulk, and unpublish them the same way when you no longer need them.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Publish and unpublish assets
-
-Select assets and use quick publish for immediate delivery, or manage publication to schedule it and review the full scope of what's included. Unpublish assets the same way to remove them from AEM Publish.
+In the Admin view, select assets and use quick publish for immediate delivery, or manage publication to schedule it and review the full scope of what's included. Unpublish assets the same way to remove them from AEM Publish.
 
 >[!VIDEO](https://video.tv.adobe.com/v/330932?quality=12&learn=on)
 

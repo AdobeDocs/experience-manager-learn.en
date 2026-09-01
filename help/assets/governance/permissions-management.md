@@ -47,23 +47,19 @@ topic_v2:
 
 # Permissions management {#permissions-management}
 
-AEM Assets controls access to assets through group-based permissions, whether you manage them in the Assets view or the Admin view.
+Every organization needs to control who can view, edit, or delete assets, especially as more teams and outside partners request access. AEM Assets manages this through group-based permissions, so you assign access by role, not one user at a time. Group-based permissions in the Assets view and the Admin view keep sensitive content secure while the right people still work fast.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Manage permissions
-
-Set up administrators and user groups in the Adobe Admin Console, then apply **Can view** or **Can edit** permission to a folder for a specific group, or assign a user as a folder's owner. This video shows the whole flow, including how a deny rule at one folder limits what you can grant beneath it.
+In the Assets view, you set up administrators and user groups in the Adobe Admin Console, then apply **Can view** or **Can edit** permission to a folder for a specific group, or assign a user as a folder's owner. This video shows the whole flow, including how a deny rule at one folder limits what you can grant beneath it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342113?quality=12&learn=on)
 
 >[!TAB Admin view]
 
-## Manage permissions
-
-Create a custom user group for each role and make it a member of an AEM-provided group, such as **Contributors**, **DAM users**, or **Workflow users**, so it inherits a baseline set of permissions instead of a rebuild from scratch. Then layer access control lists (ACLs) on top for specific folders. This video walks through a worked example, configured from **Tools > Security**: deny a creatives group write access at the root, then grant it in one subfolder.
+In the Admin view, you create a custom user group for each role and make it a member of an AEM-provided group, such as **Contributors**, **DAM users**, or **Workflow users**, so it inherits a baseline set of permissions instead of a rebuild from scratch. Then you layer access control lists (ACLs) on top for specific folders. This video walks through a worked example, configured from **Tools > Security**: deny a creatives group write access at the root, then grant it in one subfolder.
 
 >[!VIDEO](https://video.tv.adobe.com/v/37696?quality=12&learn=on)
 

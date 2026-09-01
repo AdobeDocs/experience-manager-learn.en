@@ -33,13 +33,13 @@ topic_v2:
 ---
 # Extract archive {#extract-archive}
 
-Extract a ZIP archive directly into the DAM to upload a whole folder hierarchy at once.
+You waste time when you upload files one by one, even if they're already organized on your computer. AEM Assets can extract a ZIP archive directly into the DAM, so the whole folder hierarchy inside it becomes assets and folders in one step. This keeps your existing folder structure intact and means you don't have to recreate it by hand in AEM.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Extract a ZIP archive into the DAM
+In the Admin view, this video shows how to upload a ZIP archive and have AEM extract its contents directly into the DAM. It walks through the steps: select the archive, start the extraction, and confirm that the folder structure and assets inside it appear correctly in AEM.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426368/?learn=on)
 

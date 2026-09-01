@@ -42,13 +42,13 @@ topic_v2:
 ---
 # Creative operations {#creative-operations}
 
-Use the Content Automation add-on to process assets with Adobe Creative Cloud Service APIs.
+Content authors often need Photoshop or Lightroom edits on images stored in AEM Assets. Without automation, someone downloads the asset, sends it to a designer, and re-uploads the finished file, which slows down every campaign. The Content Automation add-on removes that back and forth. It connects AEM Assets to Adobe Creative Cloud Service APIs, so processing profiles apply creative operations like autotone, cutout, masking, straightening, and Lightroom presets automatically as assets move through your folders.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Process assets with Creative Cloud APIs
+In the Admin view, apply processing profiles that connect AEM Assets to Photoshop and Lightroom operations through Creative Cloud APIs. This video walks through six creative operations: autotone, image cutout, image masking, auto straightening, Lightroom presets, and Photoshop smart object replacement. Each example shows how to create a folder, build a processing profile, and assign it so AEM Assets generates the new rendition automatically.
 
 >[!VIDEO](https://video.tv.adobe.com/v/336540?quality=12&learn=on)
 

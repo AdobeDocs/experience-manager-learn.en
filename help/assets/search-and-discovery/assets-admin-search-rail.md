@@ -38,13 +38,13 @@ topic_v2:
 ---
 # Assets admin search rail {#assets-admin-search-rail}
 
-The assets admin search rail defines the sidebar filters available in Omnisearch, and can be customized for your organization's metadata.
+Every organization uses different metadata, so the default Omnisearch filters don't always match what your team needs to search by. The Assets admin search rail lets you customize the sidebar filters in Omnisearch to match your organization's metadata. This makes search faster and more relevant for everyone who searches for assets.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Configure the search rail
+In the Admin view, go to Tools, General, Search Forms, then Assets Admin Search Rail to open the search form editor. This video shows how to add, remove, and reorder search filters, such as a custom tag field and a date range filter, and how the form maps to AEM QueryBuilder predicates behind the scenes. Because this configuration is global, changes apply to every AEM Assets user as soon as you save them.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35842?quality=12&learn=on)
 

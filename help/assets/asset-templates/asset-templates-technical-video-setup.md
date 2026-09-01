@@ -33,11 +33,13 @@ topic_v2:
 ---
 # Set up Asset Templates with InDesign Server {#set-up-asset-templates-with-aem-assets-and-indesign-server}
 
-Configure InDesign Server to work with AEM Assets and Asset Templates.
+AEM needs a running InDesign Server to turn InDesign template files into print-ready assets. Without that connection, Asset Templates cannot generate the editable fields marketers rely on. This page walks you through the steps to install InDesign Server and connect it to your AEM instance.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
+
+In the Admin view, this video shows how to install InDesign Server and connect it to your AEM instance. It covers how AEM uses that connection to generate InDesign renditions and extract media files once you upload a tagged InDesign file to AEM Assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17069?quality=12&learn=on)
 

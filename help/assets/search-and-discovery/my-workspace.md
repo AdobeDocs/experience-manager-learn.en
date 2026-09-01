@@ -33,15 +33,13 @@ topic_v2:
 ---
 # My Workspace and Quick Access {#my-workspace}
 
-My Workspace is your personal, configurable home in the Assets view; Quick Access is one of its widgets.
+My Workspace gives each user a personal home page inside the Assets view, so you land on the information and assets that matter most to you. You choose which widgets appear, such as recent uploads, assigned tasks, or search activity. Quick Access, one of these widgets, pins the assets, folders, and collections you use most, so you skip repeated folder navigation.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Customize My Workspace
-
-Turn widgets on or off and rearrange them to fit how you work. The Insights widget shows upload, download, and search activity; Tasks shows work assigned to or by you; Content shows your recently viewed assets; and Quick Access pins the assets, folders, and collections you use most, so you don't have to dig through folders to find them.
+In the Assets view, turn widgets on or off and rearrange them to fit how you work. The Insights widget shows upload, download, and search activity; Tasks shows work assigned to or by you; Content shows your recently viewed assets; and Quick Access pins the assets, folders, and collections you use most, so you don't have to dig through folders to find them.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502546/?learn=on&enablevpops)
 

@@ -41,15 +41,13 @@ topic_v2:
 ---
 # Content credentials {#content-credentials}
 
-Content credentials give viewers a verifiable record of an asset's origin and edit history.
+Anyone can copy, edit, or misrepresent a digital asset once it leaves your control. Content credentials attach a verifiable record to the file itself, one that shows where an asset came from, what changed, and who made each edit. This record travels with the asset through downloads and shares, so viewers and partners can trust what they see, even outside AEM.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## View content credentials
-
-Open an asset's details and select the content credentials tab to see the credential's date, the app or AI tool that made changes, and who issued it. Credentials stay with the file when you download, publish, or share it. This video shows the whole flow.
+In the Assets view, you open an asset's details and select the content credentials tab to see the credential's date, the app or AI tool that made changes, and who issued it. Credentials stay with the file when you download, publish, or share it. This video shows the whole flow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3441700/?learn=on&enablevpops)
 

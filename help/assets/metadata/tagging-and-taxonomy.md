@@ -47,15 +47,13 @@ topic_v2:
 
 # Tagging and taxonomy {#tagging-and-taxonomy}
 
-AEM Assets uses tags to help people find and organize assets, whether you use the Assets view or the Admin view.
+A pile of untagged assets is hard to search and impossible to browse by topic. AEM Assets uses tags to help people find and organize assets, whether you use the Assets view or the Admin view. Consistent tags also keep Smart Tags accurate, since you can block terms that don't belong in your organization's taxonomy.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Manage your tagging taxonomy
-
-Create, organize, and apply tags to build a taxonomy your team can search and browse by. This video walks through the whole flow.
+In the Assets view, create, organize, and apply tags to build a taxonomy your team can search and browse by. Tags help people find related assets even when they don't know the exact file name. This video walks through the whole flow: how to create a tag and apply it to an asset.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431081/?learn=on)
 

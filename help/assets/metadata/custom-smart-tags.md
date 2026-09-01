@@ -41,7 +41,7 @@ topic_v2:
 ---
 # Custom Smart Tags for images {#custom-smart-tags}
 
-Train Smart Tags with customer-specific terms to improve image tagging accuracy.
+Out-of-the-box Smart Tags recognize common objects and scenes, but they do not know your brand's product names, campaign codes, or other specialized terms. Custom Smart Tags let you train the tagging model on your own vocabulary, so search results match how your team actually describes assets. This cuts search time and improves tagging accuracy at scale.
 
 >[!BEGINTABS]
 

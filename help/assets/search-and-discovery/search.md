@@ -31,23 +31,19 @@ topic_v2:
 ---
 # Search {#aem-assets-search}
 
-Search and filter to quickly find the assets you need.
+As your asset library grows, you can't just look through folders one by one; it's slow and unreliable. Search and filters let you find assets by keyword, file type, path, or other metadata, so you locate the right file in seconds instead of minutes. Both the Assets view and the Admin view offer search tools, each suited to a different way you work.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Search and filter your assets
-
-Search by keyword or phrase, including full-text search inside PDFs, then narrow results with facet filters like path, file type, or status. Save a search you use often, or add your own custom filters.
+In the Assets view, search by keyword or phrase, including full-text search inside PDFs, then narrow results with facet filters like path, file type, or status. Save a search you use often, or add your own custom filters.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335861/?learn=on)
 
 >[!TAB Admin view]
 
-## Search and filter your assets
-
-AEM's Omnisearch scopes full-text search to assets, supports operators like "or" and "not," and filters results by metadata facets from the sidebar.
+In the Admin view, AEM's Omnisearch scopes full-text search to assets, supports operators like "or" and "not," and filters results by metadata facets from the sidebar.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32054?quality=12&learn=on)
 

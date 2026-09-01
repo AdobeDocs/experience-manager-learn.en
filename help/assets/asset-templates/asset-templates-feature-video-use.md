@@ -34,7 +34,7 @@ topic_v2:
 ---
 # Asset Templates with InDesign Server {#using-asset-templates-with-aem-assets-and-indesign-server}
 
-Asset Templates let marketers create, manage, and deliver print and digital assets like brochures, business cards, flyers, and postcards, using InDesign Server.
+Marketers often need many versions of the same print piece, such as brochures, business cards, flyers, and postcards, for different regions or campaigns. Asset Templates combine InDesign Server with AEM Assets so you build a design once and generate each new version automatically. This cuts the manual design work for every variation and keeps your print assets on brand.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Asset Templates let marketers create, manage, and deliver print and digital asse
 
 ## Generate print-ready assets {#overview}
 
-This video walks through the concepts and steps for generating print-ready assets in AEM, using Adobe InDesign, Adobe InDesign Server, and AEM Assets.
+This video walks through the concepts and steps you follow to generate print-ready assets in AEM with Adobe InDesign, InDesign Server, and AEM Assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25170?quality=12&learn=on)
 

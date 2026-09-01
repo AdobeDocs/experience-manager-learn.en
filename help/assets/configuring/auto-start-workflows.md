@@ -30,7 +30,7 @@ topic_v2:
 ---
 # Auto-start workflows {#auto-start-workflows}
 
-Auto-start workflows extend asset processing: they automatically invoke a custom workflow once upload or reprocessing completes.
+Standard asset processing doesn't cover every business need, such as a custom approval step or a notification tied to a specific asset type. Auto-start workflows close this gap: AEM triggers your custom workflow automatically, right after it finishes processing an asset from an upload or a reprocess job. This adds business logic to asset processing without any extra steps for the person who uploads the file.
 
 >[!BEGINTABS]
 

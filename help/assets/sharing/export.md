@@ -34,7 +34,7 @@ topic_v2:
 ---
 # Export assets {#export-assets}
 
-Export assets to your local machine using a customizable Node.js script.
+The AEM Assets user interface works well when you download a handful of files, but it does not scale when you back up or migrate thousands of assets at once. This tutorial provides a Node.js script that walks your entire asset folder tree and downloads the original renditions to your local machine. Use the script to create backups, migrate assets to another system, or move content into cloud storage for bulk import.
 
 >[!BEGINTABS]
 

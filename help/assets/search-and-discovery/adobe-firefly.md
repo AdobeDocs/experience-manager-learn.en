@@ -31,15 +31,13 @@ level_v2:
 ---
 # Search and Adobe Firefly {#search-and-adobe-firefly}
 
-When a search returns no results, generate a matching image with Adobe Firefly and upload it directly from the search experience.
+A search with no results usually means you leave AEM Assets, create an image somewhere else, then upload it. Search and Adobe Firefly closes that gap: when a search returns no matches, you generate a matching image with Adobe Firefly and upload it, all from inside the search experience. This keeps creative work on track and cuts out the extra steps of a separate design tool.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Generate an image from a search
-
-Your search term pre-populates the Firefly generate field, so you can adjust it and generate images right from the search results.
+In the Assets view, an empty search doesn't have to be a dead end. You can generate a matching image with Adobe Firefly directly from the search experience, then upload it from that same page. This video shows the whole flow, from a search with no results to a finished image.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3429070/?learn=on)
 

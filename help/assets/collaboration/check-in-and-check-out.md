@@ -31,15 +31,13 @@ level_v2:
 ---
 # Check in and check out {#check-in-and-check-out}
 
-AEM locks an asset so only one collaborator can edit it at a time.
+When two people edit the same asset at once, one person's changes can overwrite the other's without warning. Check-in and check-out prevent this: they lock an asset so only one person edits it at a time. Everyone else can still view the asset, and they see that it's checked out so they know to wait or contact the person who has it.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Lock and release an asset
-
-Check out an asset to lock it before you edit it: only you can change it until you check it back in, and other users see it's unavailable. Administrators can release a lock if the person who checked it out is unavailable.
+In the Admin view, check out an asset to lock it before you edit it. Only you can change it until you check it back in, and other users see that it's unavailable. If the person who checked out an asset is away, an administrator can release the lock.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32048?quality=12&learn=on)
 

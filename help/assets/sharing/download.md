@@ -35,15 +35,13 @@ topic_v2:
 ---
 # Download {#download}
 
-Download assets and their renditions to your local machine.
+Sometimes you need a copy of an asset outside AEM, for example to include it in a presentation, send to a partner, or edit offline. Download lets you save assets and their renditions directly to your local machine, in the file size and format you need. You can download a single asset or bundle many assets, folders, or collections into one ZIP file.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Download assets and renditions
-
-Select one or more assets, folders, or collections and tap download to choose which renditions to include and how to organize the resulting ZIP file.
+In the Admin view, select one or more assets, folders, or collections and tap download to choose which renditions to include and how to organize the resulting ZIP file.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35090?quality=12&learn=on)
 

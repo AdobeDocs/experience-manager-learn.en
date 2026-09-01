@@ -33,21 +33,19 @@ topic_v2:
 ---
 # Navigation {#navigation}
 
-Browse and move around your assets and folders.
+You find the right asset faster when you can browse your folders in a way that fits how you work. AEM Assets offers several ways to move through your files and folders, from visual card grids to compact lists, in both the Assets view and the Admin view. This page shows how to browse and switch between these views.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Browse and switch views
-
-Switch between card, grid, gallery, and waterfall views to browse assets in the way that works best, and sort results by any property. This portion of the video below shows the view switcher and how to browse folders; see [Search](../search-and-discovery/search.md) for the search and filter portion.
+In the Assets view, switch between card, grid, gallery, and waterfall views to browse assets in the way that works best for you, and sort results by any property. This portion of the video shows the view switcher and how to browse folders; see [Search](../search-and-discovery/search.md) for the search and filter portion.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335861/?learn=on)
 
 >[!TAB Admin view]
 
-## Browse folders and files
+In the Admin view, this video shows how to browse your folders and files in the classic AEM interface. It covers the folder tree structure and the card, column, and list views you can use to browse and sort your assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32046?quality=12&learn=on)
 

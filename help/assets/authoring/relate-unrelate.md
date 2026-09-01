@@ -28,21 +28,19 @@ level_v2:
 ---
 # Relate and unrelate {#relate-and-unrelate}
 
-Establish and manage relationships between assets, such as a source Photoshop file and the images derived from it.
+Assets often connect to each other. A logo might appear in dozens of layouts, or a set of product photos might come from one master image. AEM lets you link related assets, so anyone who opens one file can find the others without a search. This makes it easy to track every place you use a source file, or update every derived asset when the original changes.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Relate and unrelate assets
-
-In an asset's Asset Relations panel, add a source, derived, or other relationship to connect it with another asset, such as a Photoshop file and the images derived from it. Relationships work in both directions, so they're easy to discover from either asset.
+In the Assets view, open an asset's Asset Relations panel to add a source, derived, or other relationship, such as a Photoshop file and the images derived from it. Relationships work in both directions, so you can find the connection from either asset.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
 
 >[!TAB Admin view]
 
-## Relate and unrelate assets
+In the Admin view, select one or more assets and choose Relate to link them by source, derived, or another relationship type, such as a source Photoshop file and the images it produced. Open an asset's properties to see all of its relationships grouped by type, or jump straight to a related asset. Use Unrelate to remove a relationship you no longer need.
 
 >[!VIDEO](https://video.tv.adobe.com/v/331107?quality=12&learn=on)
 

@@ -30,13 +30,13 @@ level_v2:
 ---
 # 3D assets {#3d-assets}
 
-Upload, preview, and rotate 3D assets directly in AEM Assets, with no separate tool required.
+3D files are hard to review in a typical asset library. Most tools can't generate an accurate thumbnail or preview for them, so teams download each file and open it in separate software just to see what it looks like. AEM Assets removes that extra step: it generates real thumbnails for supported 3D formats and lets you rotate, zoom, and pan the model right inside the asset browser.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Preview 3D assets inline
+In the Admin view, upload a supported 3D file and let AEM Assets process it into a usable thumbnail automatically. This video shows how to open a 3D asset and rotate, zoom, and pan it, so you can inspect the model from every angle without extra software. That inline preview helps teams find the right 3D asset faster.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420690/?learn=on)
 

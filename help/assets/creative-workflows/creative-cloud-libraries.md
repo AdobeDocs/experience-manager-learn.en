@@ -34,15 +34,13 @@ topic_v2:
 ---
 # Creative Cloud Libraries and AEM Assets {#creative-cloud-libraries-and-aem-assets}
 
-Share assets between AEM Assets and Creative Cloud Libraries in both directions, so designers can use approved assets directly in their Creative Cloud applications.
+Design teams need direct access to approved brand assets, like logos, colors, and images, while they work in Photoshop, Illustrator, or other Creative Cloud apps. Creative Cloud Libraries share assets between AEM Assets and those apps in both directions, so designers get the latest approved version right inside their tool. This keeps every project on brand and reduces version confusion across the team.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Share assets with Creative Cloud Libraries
-
-Create a personal or team library, add assets to it from AEM Assets, and access those library assets from within your Creative Cloud applications. Assets shared back from a library land in AEM Assets too.
+From the Assets view, create a personal or team library, add assets to it from AEM Assets, and open those library assets from inside your Creative Cloud applications. This video also shows how assets shared back from a library land in AEM Assets automatically.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432401?quality=12&learn=on)
 

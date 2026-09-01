@@ -31,15 +31,13 @@ level_v2:
 ---
 # Timeline and inbox {#timeline-and-inbox}
 
-AEM tracks an asset's history and centralizes your tasks in two consoles.
+When several people work on the same assets, it's easy to lose track of who changed what, and tasks can pile up across different tools. AEM solves this with two consoles: the timeline records every change to an asset, and the inbox gathers your review tasks and notifications in one place. You check both from a single view, so you don't need separate tools to track history and manage tasks.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Track history and manage tasks
-
-The timeline shows everything that's happened to an asset, filterable by type. The inbox centralizes your tasks and notifications: open a task for details, jump to its asset, reassign it to someone else, or complete it.
+In the Admin view, the timeline shows everything that happens to an asset, and you can filter it by type. The inbox centralizes your tasks and notifications: open a task for details, jump to its asset, reassign it to someone else, or complete it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32051?quality=12&learn=on)
 

@@ -28,23 +28,19 @@ level_v2:
 ---
 # Collections {#collections}
 
-Collections gather assets from anywhere in your folder hierarchy into one curated, cross-folder view.
+Collections let you group assets from different folders into one view. You don't copy or move any files to do it. A marketing team can pull logos, photos, and videos for one campaign into a single collection, even when those files live in separate folders. This saves time, because you don't need to search through the whole folder structure to find related assets.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Group assets into collections
-
-Create a collection and add assets manually, or build a smart collection that pulls in any asset matching a saved search automatically. Mark a collection public to share it with your organization, or keep it private.
+In the Assets view, create a collection and add assets to it by hand, or build a smart collection that automatically pulls in any asset that matches a saved search. Mark a collection public to share it with your organization, or keep it private.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502545/?learn=on&enablevpops)
 
 >[!TAB Admin view]
 
-## Group assets into collections
-
-Add assets to your personal Lightbox for ad hoc tasks, or create a named or smart collection to share with others.
+In the Admin view, add assets to your personal Lightbox for quick, one-off tasks, or create a named or smart collection to share with others.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32053?quality=12&learn=on)
 

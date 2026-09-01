@@ -32,15 +32,13 @@ level_v2:
 ---
 # Watermarks {#watermarks}
 
-Apply a PNG watermark to custom image renditions with a processing profile.
+Images shared outside your organization, like previews for partners or the public, need protection so people don't reuse the full-quality file without permission. AEM Assets applies a watermark to a rendition automatically, with any transparent PNG as the mark. This way your team never watermarks images by hand, and the original asset stays untouched.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Configure a watermark rendition
-
-Upload a transparent PNG as the system watermark, then enable the watermark toggle on a processing profile to generate a watermarked rendition.
+In the Admin view, upload a transparent PNG as the system watermark, then turn on the watermark option in a processing profile. This video shows how that profile applies the watermark to a new rendition automatically, while the original asset remains untouched.
 
 >[!VIDEO](https://video.tv.adobe.com/v/41536?quality=12&learn=on)
 

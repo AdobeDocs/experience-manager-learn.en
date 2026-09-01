@@ -45,7 +45,7 @@ topic_v2:
 ---
 # Smart Tags for images {#image-smart-tags}
 
-Smart Tags add metadata to image assets automatically, based on image content.
+In a large asset library, no one has time to tag every image by hand. Smart Tags scan each image on upload and add descriptive keywords automatically, so every asset stays searchable without extra effort. This saves your team hours of manual work and keeps search results accurate as your library grows.
 
 >[!BEGINTABS]
 

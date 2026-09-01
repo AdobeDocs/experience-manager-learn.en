@@ -37,7 +37,7 @@ topic_v2:
 ---
 # Import and export metadata {#metadata-import-and-export}
 
-Import and export let content authors bulk update metadata for existing assets.
+When you manage thousands of files, you cannot afford to update metadata one asset at a time. With metadata export and import, you pull existing metadata into a CSV file, edit it in a spreadsheet, and push the changes back to AEM Assets in bulk. This lets your team fix or standardize metadata across large batches of assets in minutes instead of hours.
 
 >[!BEGINTABS]
 

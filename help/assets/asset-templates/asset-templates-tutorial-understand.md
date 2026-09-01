@@ -30,7 +30,7 @@ level_v2:
 ---
 # InDesign files and Asset Templates {#indesign-files-and-asset-templates}
 
-Define an InDesign file for use in AEM Assets' Asset Templates feature.
+A poorly tagged InDesign file is the most common reason Asset Templates fail to work correctly in AEM. This page explains how to structure and tag an InDesign file so AEM recognizes its editable fields, and how to turn that file into a working Asset Template. Get this step right, and your team can reuse the template to generate new print assets again and again, with no extra design work.
 
 >[!BEGINTABS]
 

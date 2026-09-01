@@ -32,15 +32,13 @@ level_v2:
 
 # Comments, annotations, and tasks {#comments-annotations-and-tasks}
 
-AEM Assets lets you discuss, mark up, and route assets for review, whether you use the Assets view or the Admin view.
+Review feedback often gets lost in email threads or chat messages, disconnected from the actual file. AEM Assets keeps the conversation attached to the asset itself: add comments, mark up specific areas with annotations, and assign tasks to route work to the right person. You can do all of this from the Assets view or the Admin view.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Comment, annotate, and assign tasks
-
-Add a text, pin, or freeform shape comment on an asset, then assign a review task to the right person. Track task status from My Workspace, on either side of the review.
+In the Assets view, add a text, pin, or freeform shape comment on an asset, then assign a review task to the right person. Track the status of that task from My Workspace, on either side of the review.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335856?quality=12&learn=on)
 

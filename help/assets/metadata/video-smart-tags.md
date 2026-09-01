@@ -37,15 +37,13 @@ topic_v2:
 ---
 # Video Smart Tags {#video-smart-tags}
 
-AEM Assets can tag video assets automatically, based on video content.
+Video assets are hard to search when nobody adds keywords that describe what's in them. AEM Assets tags video content automatically, based on what appears in the video, so every clip becomes searchable without manual work. You can review and adjust these tags to keep search results accurate over time.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Review and manage video Smart Tags
-
-AEM tags video assets with keywords that describe key elements, so users can find them with keyword search. Promote a tag to boost its search relevance, or remove one that's irrelevant.
+In the Admin view, review the Smart Tags AEM applies to a video automatically, based on its content. Promote a tag to boost its search relevance, or remove one that's irrelevant to the asset.
 
 >[!VIDEO](https://video.tv.adobe.com/v/327005?quality=12&learn=on)
 

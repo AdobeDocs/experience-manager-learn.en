@@ -35,7 +35,7 @@ topic_v2:
 ---
 # Basic operations {#basic-operations}
 
-Create folders, upload assets, and copy, move, edit, or delete them.
+A shared asset library only stays useful if people can organize and manage files without confusion. AEM Assets gives you folders, drag-and-drop upload, and simple tools to copy, move, rename, or delete items, backed by a trash so mistakes are easy to undo. This page covers these core actions in both the Assets view and the Admin view.
 
 >[!BEGINTABS]
 
@@ -55,7 +55,7 @@ Open an asset to resize it, remove its background, crop it, or convert its forma
 
 >[!TAB Admin view]
 
-## Create, upload, and organize assets
+In the Admin view, this video shows how to create folders, upload assets, and organize them in the classic AEM interface. It covers how to build a folder structure, upload files, and use the action bar to copy, move, rename, or delete items.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32044?quality=12&learn=on)
 

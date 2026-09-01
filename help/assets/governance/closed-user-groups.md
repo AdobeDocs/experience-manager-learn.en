@@ -41,11 +41,13 @@ topic_v2:
 ---
 # Closed user groups {#using-closed-user-groups-with-aem-assets}
 
-Closed User Groups (CUGs) restrict access to content to a select group of users on a published site. Support for CUGs with AEM Assets was first introduced in AEM 6.4.
+Some assets need to stay hidden from the public even after you publish them, such as internal drafts, licensed content, or region-specific files. Closed User Groups (CUGs) let you publish a folder of assets while you still control exactly who can view it on the live site. This keeps sensitive assets out of search engines and away from unauthorized visitors, while the right users or groups can still access them.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
+
+In the Admin view, you set a CUG policy on a folder in AEM and publish it so the restriction takes effect on the live site. The video also shows how to require authentication and set a custom login page, so a blocked visitor lands on a sign-in page instead of a 404 error.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22155?quality=12&learn=on)
 

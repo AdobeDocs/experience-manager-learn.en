@@ -45,15 +45,13 @@ topic_v2:
 
 # Metadata schemas and forms {#metadata-schemas-and-forms}
 
-AEM Assets lets you define the metadata fields available on assets and folders, whether you use the Assets view or the Admin view.
+A consistent set of metadata fields makes assets easier to find, filter, and reuse across your organization. AEM Assets lets you define which fields appear on assets and folders, whether your team works in the Assets view or the Admin view. This page shows how to configure those fields for each view.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Configure metadata forms
-
-Build and tailor the metadata fields available to your team from Metadata Forms. This video shows the whole flow.
+In the Assets view, only administrators can open Metadata Forms and build custom fields for each asset type. This video shows how to create a form, map fields to MIME types such as image or PDF, and preview the changes on an asset's Details page. It also shows how a folder-level form overrides the default MIME type mapping.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431686?quality=12&learn=on)
 

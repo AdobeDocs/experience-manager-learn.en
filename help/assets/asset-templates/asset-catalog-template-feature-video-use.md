@@ -28,13 +28,13 @@ level_v2:
 ---
 # Asset Catalogs with AEM Commerce and InDesign Server {#using-asset-catalog-with-aem-commerce-and-indesign-server}
 
-Create catalog pages using Asset Templates and InDesign Server, and map product properties to editable fields you can reuse across similar pages.
+Retailers often need many catalog pages that share the same layout but show different products. Asset Templates let you build one InDesign template and map it to product data stored in AEM Commerce, so a single design produces catalog pages for every product. Your creative team doesn't redesign each page by hand, and every catalog page stays visually consistent.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Create a catalog page from an InDesign template
+In the Admin view, this video shows how to build a product catalog page from a tagged InDesign template and connect it to product data stored in AEM Commerce. It covers how to set up the InDesign server and Cloud Proxy connection, tag content in InDesign, and map product properties to editable fields in AEM.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22540?quality=12&learn=on)
 

@@ -38,7 +38,7 @@ topic_v2:
 ---
 # Metadata-driven permissions {#metadata-driven-permissions}
 
-Metadata-Driven Permissions is a feature used to allow access control decisions on AEM Assets Author to be based on asset content or metadata properties rather than folder structure. With this capability, you can define access control policies that evaluate attributes such as asset status, type, or any custom property you define.
+Folder structure does not always match how you want to restrict access to assets. Metadata-driven permissions let you grant or deny access based on an asset's metadata, such as its status or brand, instead of its location in a folder. This way, marketers see only approved assets, even when work-in-progress and approved files sit in the same folder. You avoid a folder rebuild just to separate content by approval state.
 
 >[!BEGINTABS]
 

@@ -34,15 +34,13 @@ topic_v2:
 ---
 # Video closed captions {#video-closed-captions}
 
-Generate AI captions for a video in more than 60 languages, directly from the video's properties.
+Captions make video content accessible to more viewers, including people who are deaf or hard of hearing and people who watch with the sound off. They also let you reach audiences in other countries without a separate translation project. Dynamic Media generates these captions with AI, so your team does not caption videos by hand.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Generate captions with AI
-
-Convert captions from an existing audio track, or translate an existing caption file into additional languages, then preview the result in the viewer.
+In the Admin view, open a video's properties and generate AI captions in more than 60 languages, right from the **Captions and Audio Tracks** tab. This video shows how to convert captions from an existing audio track, or translate an existing caption file into additional languages, then preview the result in the viewer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432627/?learn=on)
 

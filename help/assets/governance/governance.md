@@ -37,15 +37,13 @@ topic_v2:
 
 # Asset governance {#asset-governance}
 
-AEM Assets brings access control, distribution, and approval into one governance workflow.
+Marketing teams need to control who sees a project, track how reviewers approve creative work, and know when an asset is ready to publish. AEM Assets brings access control, distribution, and approval into one governance workflow, so you do not switch between separate tools for each step. This keeps sensitive projects private until they are ready, and it gives reviewers a clear record of comments and approvals on every asset.
 
 >[!BEGINTABS]
 
 >[!TAB Assets view]
 
-## Control access and collaborate
-
-Group assets into a collection for a project and control who can see it: add users or groups with specific permissions, deny access outright, or generate a share link for people outside AEM. From there, add comments and annotations directly on an asset and assign a task so the right person picks up the work. This video shows a full loop: a request, an edit in Adobe Express, and a final approval, all inside AEM Assets.
+In the Assets view, you group assets into a collection for a project and control who can see it: add users or groups with specific permissions, deny access outright, or generate a share link for people outside AEM. You can also add comments and annotations directly on an asset and assign a task so the right person picks up the work. This video shows a full loop: a request, an edit in Adobe Express, and a final approval, all inside AEM Assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491669/?learn=on&enablevpops)
 

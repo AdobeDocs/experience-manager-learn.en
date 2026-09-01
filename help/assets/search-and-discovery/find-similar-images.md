@@ -30,13 +30,13 @@ level_v2:
 ---
 # Find similar images {#find-similar-images}
 
-Select an image and find the most visually similar assets in your repository, then filter the results further.
+Large asset libraries often hold many similar photos, and text search alone does not always find the best match. Find similar images lets you select one image as a reference and locate other assets that look like it, based on visual content instead of file names or tags. This helps you choose the right photo fast, especially when you need a specific angle, color, or style.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Find visually similar assets
+In the Admin view, select an image you already have, even if it's not quite right, and choose Find similar image to search your library for visually similar assets. This video shows how AEM Assets uses your reference image to find similar photos, then how you narrow those results with the filter panel by criteria such as file type or size.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426796/?learn=on)
 

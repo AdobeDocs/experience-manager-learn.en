@@ -39,13 +39,13 @@ topic_v2:
 ---
 # Processing profiles {#processing-profiles}
 
-Processing profiles define the renditions to be created for assets in AEM as a Cloud Service.
+Different teams and channels often need the same asset in several sizes and formats, like thumbnails, web images, or mobile renditions. Processing profiles let you define what renditions AEM creates automatically when someone uploads or reprocesses an asset, so you don't build each version by hand. Because AEM applies only one processing profile per folder, you need to understand how they work before you plan your folder structure.
 
 >[!BEGINTABS]
 
 >[!TAB Admin view]
 
-## Define renditions with a processing profile
+In the Admin view, this video explains how processing profiles configure AEM's asset microservices to generate renditions automatically on upload or reprocessing. It also covers how AEM applies a single processing profile per folder, and uses two example rendition sets to show how that rule works in practice.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35597?quality=12&learn=on)
 
