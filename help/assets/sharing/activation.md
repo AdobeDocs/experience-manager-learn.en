@@ -1,15 +1,15 @@
 ---
 title: Asset Activation in AEM Assets
-description: Learn how to activate assets in AEM Assets for effective use across your channels.
+description: See how approved assets flow into Content Hub, where teams across the enterprise can find and activate channel-ready content.
 doc-type: Value Video
 duration: 235
-last-substantial-update: 2026-06-02
+last-substantial-update: 2026-08-28
 jira: KT-21466
 ---
 
-# Asset activation
+# Asset activation {#asset-activation}
 
-Learn how to activate and manage assets in AEM Assets to streamline your content delivery across various channels. This video guide explains the steps for activating assets, ensuring they are ready for use and accessible when needed. By mastering asset activation, you can improve workflow efficiency and maintain consistent branding.
+Once an asset is approved, it becomes available in Content Hub, where marketing, sales, and regional teams can find it and download channel-ready renditions or share a link with stakeholders.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491670/?learn=on&enablevpops)
 

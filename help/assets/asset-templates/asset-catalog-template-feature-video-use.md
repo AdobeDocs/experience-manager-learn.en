@@ -7,6 +7,7 @@ feature: Templates
 role: User
 level: Beginner
 doc-type: Feature Video
+last-substantial-update: 2026-08-28
 exl-id: 45daa8e3-ce3b-43de-b3d6-276107215dd4
 duration: 459
 TQID: https://experienceleague.adobe.com/gZN-hXNhkOErFlSkmohmEdxJtkxDVnW3-GRvL5g-3OA
@@ -25,9 +26,15 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Using Asset Catalog with AEM Commerce and InDesign Server{#using-asset-catalog-with-aem-commerce-and-indesign-server}
+# Asset Catalogs with AEM Commerce and InDesign Server {#using-asset-catalog-with-aem-commerce-and-indesign-server}
 
-AEM 6.4 Catalog enhancement provides the capability to create catalog pages using AEM Asset Templates and InDesign Server.  A user can create a catalog page using the InDesign template and map product properties to editable fields, which can be later used to create similar pages for different products.
+Create catalog pages using Asset Templates and InDesign Server, and map product properties to editable fields you can reuse across similar pages.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Create a catalog page from an InDesign template
 
 >[!VIDEO](https://video.tv.adobe.com/v/22540?quality=12&learn=on)
 
@@ -35,8 +42,8 @@ AEM 6.4 Catalog enhancement provides the capability to create catalog pages usin
 >
 >Your InDesign server should be running before uploading \.indd files to AEM Assets.
 
-* Creative users can tag content with an InDesign file. InDesign file with tagged content, when uploaded to AEM Assets, would be identified as Editable Fields.
-* A user can create a Catalog page using a \.indd file. Tagged content within the \.indd file would be available as Editable fields, thereby giving content authors the ability to modify content for these fields.
-* Product properties can be mapped to Editable Fields provided their field type matches.
-* Catalog pages for similar products can be easily created.
-* Ability to merge different catalog pages into a single PDF or \.indd file
+* Creative users can tag content with an InDesign file; tagged content is identified as editable fields once uploaded to AEM Assets.
+* Product properties can be mapped to editable fields, provided their field types match.
+* Merge different catalog pages into a single PDF or \.indd file.
+
+>[!ENDTABS]

@@ -1,13 +1,17 @@
 ---
-title: GenAI metadata and search
-description: Learn how AEM Assets as a Cloud Service uses GenAI to generate and augment asset metadata to aid in content management and discovery.
+title: GenAI Metadata and Search
+description: Learn how AEM Assets uses GenAI to generate and augment asset metadata for content management and discovery.
+solution: Experience Manager, Experience Manager Assets
+sub-product: Experience Manager Assets
+feature-set: Experience Manager Assets
 topic: Content Management
 version: Experience Manager as a Cloud Service
 role: Leader, User
 level: Beginner, Intermediate, Experienced
 doc-type: Feature Video
 duration: 233
-last-substantial-update: 2025-09-15T00:00:00.000Z
+team: TM
+last-substantial-update: 2026-08-27
 jira: KT-17784
 exl-id: 4b850887-d758-4a85-96ea-16913abc7505
 TQID: https://experienceleague.adobe.com/kDoa2UUmCemVyBmszjyIVD-jAxm42-OCjNB2dnlDrW8
@@ -45,8 +49,18 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 ---
-# GenAI metadata
+# GenAI metadata {#genai-metadata}
 
-Learn how AEM Assets as a Cloud Service uses Adobe GenAI to generate and augment asset metadata to aid in content management and discovery.
+AEM Assets can automatically generate and augment asset metadata with GenAI.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+## Generate metadata automatically
+
+Adobe AI generates titles, descriptions, and other metadata for your assets as you upload them. This saves time and keeps tagging consistent at scale. This video shows the whole flow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3474891/?learn=on&enablevpops)
+
+>[!ENDTABS]

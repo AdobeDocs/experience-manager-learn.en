@@ -1,18 +1,16 @@
 ---
 title: Search
-description: Learn how to use AEM's Omnisearch to quickly discover assets.
+description: Learn how to search for and filter assets in AEM Assets, in both the Assets view and the Admin view.
 feature: Search
 version: Experience Manager as a Cloud Service
-jira: KT-4312
+jira: TODO
 thumbnail: 32054.jpg
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2021-10-02T00:00:00.000Z
+last-substantial-update: 2026-08-28
 doc-type: Feature Video
-exl-id: 7ea8ff25-d7af-4fad-a027-1e6b5440f810
-duration: 179
-TQID: https://experienceleague.adobe.com/JOLFhZiOvxkC-HJ79B3D3J66lz1rL1scDDwEFiudt7s
+duration: 601
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -27,9 +25,30 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
-# Search{#aem-assets-search}
+# Search {#aem-assets-search}
 
-Learn how to use AEM's Omnisearch to quickly discover assets.
+Search and filter to quickly find the assets you need.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+## Search and filter your assets
+
+Search by keyword or phrase, including full-text search inside PDFs, then narrow results with facet filters like path, file type, or status. Save a search you use often, or add your own custom filters.
+
+>[!VIDEO](https://video.tv.adobe.com/v/335861/?learn=on)
+
+>[!TAB Admin view]
+
+## Search and filter your assets
+
+AEM's Omnisearch scopes full-text search to assets, supports operators like "or" and "not," and filters results by metadata facets from the sidebar.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32054?quality=12&learn=on)
+
+>[!ENDTABS]

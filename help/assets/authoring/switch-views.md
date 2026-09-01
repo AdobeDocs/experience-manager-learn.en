@@ -1,6 +1,6 @@
 ---
 title: Switch views in AEM Assets
-description: Learn how to efficiently switch between views in AEM Assets as a Cloud Service, ensuring seamless asset management.
+description: Learn how to switch between the Assets view and the Admin view in AEM Assets as a Cloud Service.
 version: Experience Manager as a Cloud Service
 feature: Asset Management
 topic: Content Management
@@ -31,8 +31,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Switch Views
+# Switch views {#switch-views}
 
-Learn how to efficiently switch between the [Assets view and Admin view](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html#persona-based-experiences) in AEM Assets as a Cloud Service, ensuring seamless asset management.
+Switch between the [Assets view and Admin view](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview#persona-based-experiences) in AEM Assets as a Cloud Service. AEM keeps you in the same active folder when you switch, so you don't lose your place.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426806/?learn=on)

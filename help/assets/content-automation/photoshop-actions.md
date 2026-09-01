@@ -8,7 +8,7 @@ role: Leader, Developer, Admin, User
 level: Beginner
 jira: KT-8074
 thumbnail: 336539.jpeg
-last-substantial-update: 2022-09-02T00:00:00.000Z
+last-substantial-update: 2026-08-28
 doc-type: Feature Video
 exl-id: 7af14c0f-5a13-49ab-95ea-53ea8cf472f3
 duration: 286
@@ -38,8 +38,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Photoshop Actions
+# Photoshop actions {#photoshop-actions}
 
-Learn how content authors can perform Photoshop actions within AEM Assets using Creative Cloud APIs with the content automation add-on.
+Run Photoshop actions on assets directly in AEM Assets, using Creative Cloud APIs with the Content Automation add-on.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Run Photoshop actions on your assets
 
 >[!VIDEO](https://video.tv.adobe.com/v/336539?quality=12&learn=on)
+
+>[!ENDTABS]

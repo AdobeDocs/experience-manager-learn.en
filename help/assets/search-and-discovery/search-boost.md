@@ -8,7 +8,7 @@ level: Intermediate
 version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-103
 thumbnail: 16766.jpg
-last-substantial-update: 2022-06-02T00:00:00.000Z
+last-substantial-update: 2026-08-28
 doc-type: Feature Video
 exl-id: 3020f040-4d61-4cb6-ad46-e8a188335cec
 duration: 110
@@ -28,6 +28,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
 ---
-# Search Boost
+# Search boost {#search-boost}
+
+Assign keywords or phrases to an asset to increase its relevancy for those terms in search results.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Boost an asset's search relevancy
 
 >[!VIDEO](https://video.tv.adobe.com/v/16766?quality=12&learn=on)
+
+>[!ENDTABS]

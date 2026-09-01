@@ -1,6 +1,9 @@
 ---
-title: Smart Tags for images with AEM Assets
-description: Smart tags for images augments AEM's search capabilities by automatically and intelligently adding metadata tags to image assets based on the contents of the image.
+title: Smart Tags for Images with AEM Assets
+description: Learn how Smart Tags automatically add metadata tags to image assets based on image content, and how to review and manage them.
+solution: Experience Manager, Experience Manager Assets
+sub-product: Experience Manager Assets
+feature-set: Experience Manager Assets
 topic: Content Management
 feature: Smart Tags
 role: User
@@ -8,7 +11,8 @@ level: Intermediate
 version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 jira: KT-645
 thumbnail: 17019.jpg
-last-substantial-update: 2022-06-09T00:00:00.000Z
+team: TM
+last-substantial-update: 2026-08-27
 doc-type: Feature Video
 exl-id: c72dc489-70e6-48ca-99a8-663d4c0652ba
 duration: 574
@@ -39,31 +43,39 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 ---
-# Smart Tags for Images
+# Smart Tags for images {#image-smart-tags}
 
-AEM Assets' Smart Tags for images augments AEM Assets' search by automatically adding derived metadata tags to image assets, improving the authoring experience by making it easier and faster to find the right image.
+Smart Tags add metadata to image assets automatically, based on image content.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+Smart Tags improve search: they add derived metadata tags to image assets automatically, so it's faster to find the right image.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17019?quality=12&learn=on)
 
-## Set up for AEM 6.x{#set-up}
+## Set up for AEM 6.x {#set-up}
 
 >[!NOTE]
-> Smart Tags for images is automatically provisioned for AEM as a Cloud Service.
+>Smart Tags for images is automatically provisioned for AEM as a Cloud Service.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17023?quality=12&learn=on)
 
-Before you can use the Smart Content Service, ensure the following to create an integration on Adobe I/O:
+Before you can use the Smart Content Service, create an integration on Adobe I/O. You need:
 
-* An Adobe ID account that has administrator privileges for the organization
-* The Smart Content Service service is enabled for your organization
+* An Adobe ID account with administrator privileges for the organization
+* The Smart Content Service enabled for your organization
 
-The video details out the following tasks required to configure the Adobe I/O Smart Content service that's used to Smart Tag images.
+This video covers the tasks required to configure the Adobe I/O Smart Content service used to Smart Tag images:
 
-* Create a Smart Content Service configuration in AEM to generate a public key. Obtain public certificate for OAuth integration.
+* Create a Smart Content Service configuration in AEM to generate a public key, then obtain a public certificate for OAuth integration.
 * Create an integration in Adobe I/O and upload the generated public key.
-* Configure your AEM instance using the API key and other credentials from Adobe I/O.
+* Configure your AEM instance with the API key and other credentials from Adobe I/O.
 * Optionally, enable auto-tagging on asset upload.
 
-## Additional Resources
+## Additional resources
 
-* [AEM Assets Smart Tags documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html)
+* [AEM Assets Smart Tags documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags)
+
+>[!ENDTABS]

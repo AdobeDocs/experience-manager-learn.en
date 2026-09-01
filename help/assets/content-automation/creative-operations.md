@@ -7,7 +7,7 @@ role: Leader, Developer, Admin, User
 level: Beginner
 jira: KT-8073
 thumbnail: 336540.jpeg
-last-substantial-update: 2022-09-02T00:00:00.000Z
+last-substantial-update: 2026-08-28
 doc-type: Feature Video
 exl-id: 10e63038-b6d6-4ac6-b6b4-660a05f83d90
 duration: 635
@@ -40,8 +40,16 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
 ---
-# Creative Operations
+# Creative operations {#creative-operations}
 
-Learn how you can use the Content Automation add-on that integrates Adobe Experience Manager Assets as a Cloud Service with Adobe Creative Cloud Service APIs to process your assets. 
+Use the Content Automation add-on to process assets with Adobe Creative Cloud Service APIs.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Process assets with Creative Cloud APIs
 
 >[!VIDEO](https://video.tv.adobe.com/v/336540?quality=12&learn=on)
+
+>[!ENDTABS]

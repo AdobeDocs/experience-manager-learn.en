@@ -8,7 +8,7 @@ thumbnail: 32194.jpg
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2022-06-14T00:00:00.000Z
+last-substantial-update: 2026-08-28
 doc-type: Feature Video
 exl-id: b69508c9-4be3-43c9-9d54-84ac0a2b4b6b
 duration: 335
@@ -25,8 +25,6 @@ feature_v2:
     internal-label: Integrations
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
-  - id: e17747bc-9b7b-44e6-a443-f54229a02620
-    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -34,10 +32,22 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Publish 
+# Publish {#publish}
 
-Learn how to publish assets and their renditions from AEM Author to AEM Publish.
+Publish assets and their renditions from AEM Author to AEM Publish, so they're accessible via direct URL.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Publish and unpublish assets
+
+Select assets and use quick publish for immediate delivery, or manage publication to schedule it and review the full scope of what's included. Unpublish assets the same way to remove them from AEM Publish.
 
 >[!VIDEO](https://video.tv.adobe.com/v/330932?quality=12&learn=on)
 
-_Ensure you AEM Assets deployment has an AEM Publish service licensed prior to publishing assets._
+>[!NOTE]
+>
+> Your AEM Assets deployment needs a licensed AEM Publish service before you can publish assets.
+
+>[!ENDTABS]

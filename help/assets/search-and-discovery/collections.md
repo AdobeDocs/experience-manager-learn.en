@@ -1,18 +1,16 @@
 ---
 title: Collections
-description: Learn how collections provides and alternative view into AEM Assets.
+description: Learn how collections provide an alternate, cross-folder view into your assets, in both the Assets view and the Admin view.
 feature: Collections
 version: Experience Manager as a Cloud Service
-jira: KT-4543
+jira: TODO
 thumbnail: 32053.jpg
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2022-06-01T00:00:00.000Z
+last-substantial-update: 2026-08-31
 doc-type: Feature Video
-exl-id: b28810bd-1c19-4720-8ef0-9fe8d3a49708
-duration: 360
-TQID: https://experienceleague.adobe.com/fVYKbOhxE5u4-VYRKMIpy9qIc3ppJziotNoHRurmm6o
+duration: 688
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -28,8 +26,26 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Collections
+# Collections {#collections}
 
-Learn how collections provides and alternative view into AEM Assets.
+Collections gather assets from anywhere in your folder hierarchy into one curated, cross-folder view.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+## Group assets into collections
+
+Create a collection and add assets manually, or build a smart collection that pulls in any asset matching a saved search automatically. Mark a collection public to share it with your organization, or keep it private.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502545/?learn=on&enablevpops)
+
+>[!TAB Admin view]
+
+## Group assets into collections
+
+Add assets to your personal Lightbox for ad hoc tasks, or create a named or smart collection to share with others.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32053?quality=12&learn=on)
+
+>[!ENDTABS]

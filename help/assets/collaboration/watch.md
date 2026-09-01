@@ -1,14 +1,18 @@
 ---
-title: Watch assets, folders, and collections
-description: Learn to get notifications for changes in AEM Assets' asset, folder, or collection.
+title: Watch Assets, Folders, and Collections
+description: Learn how to get notified when a watched asset, folder, or collection changes in AEM Assets.
+solution: Experience Manager, Experience Manager Assets
+sub-product: Experience Manager Assets
 version: Experience Manager as a Cloud Service
+feature-set: Experience Manager Assets
 feature: Asset Management
 topic: Collaboration
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 131
-last-substantial-update: 2024-02-29T00:00:00.000Z
+team: TM
+last-substantial-update: 2026-08-27
 jira: KT-15000
 thumbnail: 3427646.jpeg
 exl-id: 33531e51-dcbc-4a02-adb1-4abc70a02a28
@@ -30,12 +34,22 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Watch assets, folders, and collections
+# Watch assets, folders, and collections {#watch}
 
-Learn how to receive notifications whenever a watched asset, folder, or collection is changed in AEM Assets.
+AEM Assets can notify you when something you care about changes.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+## Get notified of changes
+
+Select **Watch** on an asset, folder, or collection to track additions, removals, and changes, including metadata edits and task assignments. Choose in-app or email notifications from your notification preferences, under the assets product rather than Experience Manager.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427646/?learn=on)
 
 >[!TIP]
 >
-> You are not notified when you make changes to an asset, folder, or collection that you are watching. Notifications are only sent to you when someone else makes changes to the asset, folder, or collection that you are watching.
+>AEM notifies you only when someone else changes an asset, folder, or collection you watch, not when you make the change yourself.
+
+>[!ENDTABS]

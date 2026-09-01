@@ -9,6 +9,7 @@ level: Beginner
 jira: KT-7803
 thumbnail: 333197.jpeg
 doc-type: Catalog
+last-substantial-update: 2026-08-28
 exl-id: be5ca0e7-54fb-4d19-bf7a-8985b11b3aba
 TQID: https://experienceleague.adobe.com/O6y7jH1zNHIOntYmrGCTO4pcmE23fSWeqRhe3jG60qE
 product_v2:
@@ -37,8 +38,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Overview of Content Automation with Creative Cloud services
+# Content automation with Creative Cloud services {#content-automation-overview}
 
-An overview apply Photoshop and Lightroom capabilities with Adobe Experience Manager Assets Content Automation.
+Apply Photoshop and Lightroom capabilities to your assets with the Content Automation add-on.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Automate creative processing with Content Automation
 
 >[!VIDEO](https://video.tv.adobe.com/v/333197?quality=12&learn=on)
+
+>[!ENDTABS]

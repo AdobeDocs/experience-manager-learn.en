@@ -1,6 +1,9 @@
 ---
 title: Video Smart Tags in AEM Assets
-description: Experience Manager Assets intelligently tags video assets with keywords that describe key elements of the video, allowing them to be easily discovered using keyword search by AEM users.
+description: Learn how AEM Assets tags video assets with keywords that describe key elements, so users can find them with keyword search.
+solution: Experience Manager, Experience Manager Assets
+sub-product: Experience Manager Assets
+feature-set: Experience Manager Assets
 feature: Smart Tags
 version: Experience Manager as a Cloud Service
 jira: KT-6445
@@ -8,7 +11,8 @@ thumbnail: 327005.jpg
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2022-06-11T00:00:00.000Z
+team: TM
+last-substantial-update: 2026-08-27
 doc-type: Feature Video
 exl-id: 24d62f81-a6a6-4cfd-b529-b071539a2c1d
 duration: 69
@@ -31,8 +35,18 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Video Smart Tags
+# Video Smart Tags {#video-smart-tags}
 
-Experience Manager Assets intelligently tags video assets with keywords that describe key elements of the video, allowing them to be easily discovered using keyword search by AEM users.
+AEM Assets can tag video assets automatically, based on video content.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Review and manage video Smart Tags
+
+AEM tags video assets with keywords that describe key elements, so users can find them with keyword search. Promote a tag to boost its search relevance, or remove one that's irrelevant.
 
 >[!VIDEO](https://video.tv.adobe.com/v/327005?quality=12&learn=on)
+
+>[!ENDTABS]

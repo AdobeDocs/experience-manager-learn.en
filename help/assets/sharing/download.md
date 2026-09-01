@@ -1,6 +1,6 @@
 ---
 title: Download
-description: Learn how to download assets and their renditions to your local machine for use and sharing.
+description: Learn how to download assets and their renditions to your local machine, so you can use or share them.
 feature: Asset Management
 version: Experience Manager as a Cloud Service
 jira: KT-4300
@@ -8,7 +8,7 @@ thumbnail: 32194.jpg
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2022-06-14T00:00:00.000Z
+last-substantial-update: 2026-08-28
 doc-type: Feature Video
 exl-id: 76ff5acd-63e3-4266-8458-30735e90e2e2
 duration: 140
@@ -33,8 +33,18 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 ---
-# Download
+# Download {#download}
 
-Learn how to download assets and their renditions to your local machine for use and sharing.
+Download assets and their renditions to your local machine.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Download assets and renditions
+
+Select one or more assets, folders, or collections and tap download to choose which renditions to include and how to organize the resulting ZIP file.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35090?quality=12&learn=on)
+
+>[!ENDTABS]

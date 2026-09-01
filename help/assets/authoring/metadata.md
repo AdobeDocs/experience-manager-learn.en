@@ -1,18 +1,16 @@
 ---
 title: Metadata
-description: Learn how to access and interact with metadata in AEM Assets.
+description: Learn how to view and edit asset metadata in AEM Assets, in both the Assets view and the Admin view.
 feature: Metadata
 role: User
 level: Beginner
 version: Experience Manager as a Cloud Service
-jira: KT-4303
+jira: TODO
 thumbnail: 32045.jpg
 topic: Content Management
-last-substantial-update: 2021-09-25T00:00:00.000Z
+last-substantial-update: 2026-08-31
 doc-type: Feature Video
-exl-id: 67898b75-6307-4933-ad93-e6db2e220fd6
-duration: 170
-TQID: https://experienceleague.adobe.com/FfuZ0LyKvBSOZkSpepyCgNe3usgESnMTKH3ctctXmjI
+duration: 588
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -31,8 +29,24 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Metadata
+# Metadata {#metadata}
 
- Learn how to access and interact with metadata in AEM Assets.
+View and edit asset metadata to help others find and understand your assets.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+## View and edit metadata
+
+Open an asset's details to see and edit basic, advanced, and tag metadata, including AI-generated titles, descriptions, and smart tags.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
+
+>[!TAB Admin view]
+
+## View and edit metadata
 
 >[!VIDEO](https://video.tv.adobe.com/v/32045?quality=12&learn=on)
+
+>[!ENDTABS]

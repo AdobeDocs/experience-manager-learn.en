@@ -1,18 +1,20 @@
 ---
 title: Versions
-description: Explore how AEM creates and maintains asset versions.
+description: Learn how AEM creates, compares, and restores asset versions, including the file, renditions, and metadata, in both the Assets view and the Admin view.
+solution: Experience Manager, Experience Manager Assets
+sub-product: Experience Manager Assets
+feature-set: Experience Manager Assets
 feature: Asset Management
 version: Experience Manager as a Cloud Service
-jira: KT-4671
+jira: TODO
 thumbnail: 32052.jpg
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2021-09-30T00:00:00.000Z
+team: TM
+last-substantial-update: 2026-08-31
 doc-type: Feature Video
-exl-id: 55f655fa-5091-4382-ad46-a6f7cee92f76
-duration: 115
-TQID: https://experienceleague.adobe.com/vItBUhmRHM6onr030ItmPmEEjX7BmAtbUNz9NIM6ifI
+duration: 533
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -33,8 +35,26 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Versions
+# Versions {#versions}
 
-Explore how AEM creates and maintains asset versions.
+AEM keeps a history of every change to an asset, including the file, renditions, and metadata.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+## Create and restore versions
+
+Open an asset's Versions panel to create a new version, switch between versions, or select an earlier one and make it the latest.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
+
+>[!TAB Admin view]
+
+## Create and restore versions
+
+AEM creates a new version automatically when you re-upload a file or edit metadata, or you can create one manually with a label and description. Compare any version against the current one, or revert to an earlier version to make it current again.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32052?quality=12&learn=on)
+
+>[!ENDTABS]

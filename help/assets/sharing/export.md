@@ -6,7 +6,7 @@ version: Experience Manager as a Cloud Service
 topic: Content Management
 role: Developer
 level: Experienced
-last-substantial-update: 2025-04-28T00:00:00.000Z
+last-substantial-update: 2026-08-28
 doc-type: Tutorial
 jira: KT-15313
 thumbnail: KT-15313.jpeg
@@ -32,9 +32,15 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Export assets
+# Export assets {#export-assets}
 
-Learn how to export assets to your local machine using a customizable Node.js script. This export script provides an example of how to programmatically download assets from AEM using [AEM Assets HTTP APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/mac-api-assets), specifically focusing on the original renditions to ensure the highest quality. It's designed to replicate AEM Assets' folder structure on your local drive, making easy to back up or migrate assets.
+Export assets to your local machine using a customizable Node.js script.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+This export script provides an example of how to programmatically download assets from AEM using [AEM Assets HTTP APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/mac-api-assets), specifically focusing on the original renditions to ensure the highest quality. It's designed to replicate AEM Assets' folder structure on your local drive, so you can back up or migrate assets easily.
 
 The script only downloads asset's original renditions, without associated metadata, unless that metadata has been embedded into the asset as XMP. This means any descriptive information, categorizations, or tags stored in AEM but not integrated into the asset files are not included in the download. Other renditions can be downloaded as well by modifying the script to include them. Ensure you have enough space to store the exported assets.
 
@@ -301,3 +307,5 @@ Download AEM assets: 24.770s
 The exported assets can be found in the local folder specified in the configuration `LOCAL_DOWNLOAD_FOLDER`. The folder structure mirrors the AEM Assets folder structure, with the assets downloaded to the appropriate subfolders. These files can be uploaded to [supported cloud storage providers](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view), for [bulk import](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import) into other AEM instances, or for backup purposes.
 
 ![Exported assets](./assets/export/exported-assets.png)
+
+>[!ENDTABS]

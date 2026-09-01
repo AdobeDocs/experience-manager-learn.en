@@ -6,7 +6,7 @@ topic: Content Management
 feature: Templates
 role: User
 level: Beginner
-last-substantial-update: 2022-09-01T00:00:00.000Z
+last-substantial-update: 2026-08-28
 thumbnail: 25170.jpg
 doc-type: Feature Video
 exl-id: 45e0f3d5-db56-44e7-ad68-4d60991a6d77
@@ -32,22 +32,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Using Asset Templates with AEM Assets and InDesign Server{#using-asset-templates-with-aem-assets-and-indesign-server}
+# Asset Templates with InDesign Server {#using-asset-templates-with-aem-assets-and-indesign-server}
 
-AEM Assets Template lets marketers create, manage and deliver digital assets for digital and print. Creating marking brochures, business cards, flyers, ads and post cards are much easier with Assets Templates when integrated with InDesign server.
+Asset Templates let marketers create, manage, and deliver print and digital assets like brochures, business cards, flyers, and postcards, using InDesign Server.
 
 >[!NOTE]
 >
->For steps on configuring InDesign Server please review [Set up Assets Templates with InDesign Server](asset-templates-technical-video-setup.md).
+>For steps on configuring InDesign Server, see [Set up Asset Templates with InDesign Server](asset-templates-technical-video-setup.md).
 
-## Overview {#overview}
+>[!BEGINTABS]
 
-This video walks through the concepts and steps for generating print-ready assets in AEM, using Adobe InDesign, Adobe InDesign Server and AEM Assets.
+>[!TAB Admin view]
+
+## Generate print-ready assets {#overview}
+
+This video walks through the concepts and steps for generating print-ready assets in AEM, using Adobe InDesign, Adobe InDesign Server, and AEM Assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25170?quality=12&learn=on)
 
-## Technical overview {#technical-overview}
+## See how AEM composes assets with InDesign {#technical-overview}
 
-This video provides a more technical overview of AEM Assets Assert Template functionality, and how AEM facilitates the composition of AEM Assets and contents by way of InDesign to create rich, compelling print experiences.
+A more technical look at how AEM facilitates the composition of AEM Assets and content by way of InDesign, to create rich, compelling print experiences.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17071?quality=12&learn=on)
+
+>[!ENDTABS]

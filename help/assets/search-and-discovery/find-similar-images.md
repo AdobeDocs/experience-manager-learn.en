@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 97
-last-substantial-update: 2024-01-08T00:00:00.000Z
+last-substantial-update: 2026-08-28
 jira: KT-14752
 thumbnail: 3426796.jpeg
 exl-id: 32e02a15-75cd-4a64-93b4-34c8dd044b11
@@ -28,8 +28,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Find Similar Images
+# Find similar images {#find-similar-images}
 
-Learn how AEM Assets' Find Similar Image makes it easy to find the best image for your needs.
+Select an image and find the most visually similar assets in your repository, then filter the results further.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Find visually similar assets
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426796/?learn=on)
+
+>[!ENDTABS]

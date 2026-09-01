@@ -7,6 +7,7 @@ feature: Templates
 role: User
 level: Intermediate
 doc-type: Tutorial
+last-substantial-update: 2026-08-28
 exl-id: c418e94a-b18e-429a-b41c-2bf32e158598
 duration: 909
 TQID: https://experienceleague.adobe.com/SC0OHXIdW6baUPctGKHmYQKIMnnfAxTf4I1gZKH7ZFY
@@ -27,11 +28,15 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
 ---
-# Understanding InDesign files and Asset Templates in AEM Assets {#understanding-indesign-files-and-asset-templates-in-aem-assets}
+# InDesign files and Asset Templates {#indesign-files-and-asset-templates}
 
-This video tutorial walks through defining an InDesign file, and all the accompanying considerations, for use in AEM Assets' Asset Templates feature.
+Define an InDesign file for use in AEM Assets' Asset Templates feature.
 
-## Constructing the InDesign template file {#constructing-the-indesign-template-file}
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Construct the InDesign template file {#constructing-the-indesign-template-file}
 
 >[!VIDEO](https://video.tv.adobe.com/v/19293?quality=12&learn=on)
 
@@ -64,7 +69,7 @@ This video tutorial walks through defining an InDesign file, and all the accompa
    >
    >Remember, a poorly constructed InDesign file is the most common cause for issues with AEM Asset Templates, so ensure the tagging and structure is clean and correct.
 
-## Creating and authoring an Asset Template in AEM Assets {#creating-and-authoring-an-asset-template-in-aem-assets}
+## Create and author an Asset Template {#creating-and-authoring-an-asset-template-in-aem-assets}
 
 >[!VIDEO](https://video.tv.adobe.com/v/19294?quality=12&learn=on)
 
@@ -81,11 +86,11 @@ This video tutorial walks through defining an InDesign file, and all the accompa
 6. Click **Done** to generate the final high-fidelity renditions of the Asset Template.
 7. Click on the Asset Template card to open, and review the Asset Renditions to download the high-fidelity renditions.
 
-## Additional Resources {#additional-resources}
+## Additional resources {#additional-resources}
 
-InDesign template file and supporting Images
-
-Download [InDesign template file and supporting Images](assets/asset-templates-tutorial-video--supporting-files-1.zip)
+Download the [InDesign template file and supporting images](assets/asset-templates-tutorial-video--supporting-files-1.zip).
 
 * [InDesign CC trial download](https://creative.adobe.com/products/download/indesign)
 * InDesign Server trial can be downloaded from [Adobe Prerelease site](https://www.adobeprerelease.com/) or [CC Enterprise customers can contact their Account Executive to request am InDesign Server trial license](https://www.adobe.com/products/indesignserver/faq.html)
+
+>[!ENDTABS]
