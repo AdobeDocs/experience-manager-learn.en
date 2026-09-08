@@ -25,6 +25,7 @@ team: TM
 + AI {#ai}
   + [Overview](./ai/overview.md)
   + [Set up and Provisioning](./ai/setup.md)
+  + [Coworker](./ai/coworker.md)
   + AI Assistant {#ai-assistant}
     + [Overview](./ai/ai-assistant/overview.md)
     + [What is AI Assistant?](./ai/ai-assistant/what-is-ai-assistant.md)
