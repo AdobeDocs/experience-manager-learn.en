@@ -146,7 +146,7 @@ Click ![template to create flyers rapidly](./assets/templates/show-layers-list.s
 
    >[!NOTE]
    >
-   > Templates allow a maximum of 20 layers, including the Canvas.
+   > Templates allow a maximum of 60 layers, including the Canvas.
 
 ### Add images to the canvas{#add-images-to-the-canvas}
 
@@ -459,10 +459,11 @@ If a PSD contains fonts that are not available in Dynamic Media, the generated D
 
 ![Edit template fonts](./assets/templates/edit-template.png)
 
-You can resolve a missing font in either of the following ways:
+>[!NOTE]
+>
+>Text layers that have missing fonts are rendered using Adobe Sans F2 until the missing fonts are resolved.
 
-* **Add the missing font:** Add the missing font to Dynamic Media to make it available for the template.
-* **Replace the missing font:** Replace the missing font with a font that is already available in Dynamic Media.
+You can resolve missing fonts by adding the original font to Dynamic Media or replacing it with an available font.
 
 To resolve a missing font:
 
@@ -470,8 +471,11 @@ To resolve a missing font:
 1. Select **[!UICONTROL Edit]** to open the template.
 1. In the Template Editor, select the missing-font alert to view the unavailable fonts.
 1. Choose one of the following options:
-   * To use the original font, add the missing font to Dynamic Media.
-   * To use an available font, select **[!UICONTROL Replace]**. **Adobe Sans F2** is selected by default as the replacement font. You can also select another available font.
+
+    * To use the original font, upload the missing font to AEM and make it available for Dynamic Media. Once the font is available in Dynamic Media, it will available in editor for replacement.
+
+    * To use an available font, select a font from the automatically populated list in the Replacement column, then select [!UICONTROL Replace].
+
 1. If multiple occurrences of the same missing font exist, select **[!UICONTROL Replace all]**.
 1. Save the template.
 
@@ -490,16 +494,15 @@ To generate a new template from the PSD:
 
 A new Dynamic Media template is then generated.
 
-### PSD files with multiple pages or artboards {#psd-files-with-multiple-pages-or-artboards}
+### PSD file recommendations {#psd-file-recommendations}
 
-PSD to Dynamic Media Template conversion supports a single page or artboard.
+For best results when converting a PSD file to a Dynamic Media template, follow these recommendations:
 
-For best results, use a PSD containing:
+* **Use a single page or artboard:** PSD to Dynamic Media template conversion supports a single page or artboard. PSD files with multiple pages or artboards may result in an incomplete or incorrect template.
 
-* A single page.
-* A single artboard.
+* **Avoid using `+` in image layer names:** Avoid using the `+` character in image layer names. For example, use `my_sample_psd_file` instead of `my_sample+psd_file`. Using the `+` character in an image layer name may cause the image layer to be converted incorrectly and can result in image synchronization issues.
 
-PSD files with multiple pages or artboards may result in an incomplete or incorrect template.
+* **Apply rotation at the layer level:** For image and text layers that require rotation, apply rotation at the individual layer level rather than to the overall PSD composition. For text layers, use layer-level rotation only; avoid **Vertical Text** or other text alignment options, as they may cause inaccurate layer rendering in the generated Dynamic Media template.
 
 ### Impact of PSD file operations {#impact-of-psd-file-operations}
 
@@ -511,13 +514,11 @@ If the template is no longer required, delete it manually. Deleting the original
 
 Generated Dynamic Media templates currently do not support the **[!UICONTROL Download]** option.
 
-To make design changes, update the original PSD and upload or reprocess it as required.
-
 ### Image assets used in the PSD {#image-assets-used-in-the-psd}
 
 Image layers used in the PSD are extracted and displayed in the generated Dynamic Media template.
 
-However, the individual images extracted from the PSD are not available as separate assets in AEM Assets. Therefore, the extracted images cannot be independently located or managed in AEM Assets.
+However, the individual images extracted from the PSD are not visible as separate assets in AEM Assets. Therefore, the extracted images cannot be independently managed in AEM Assets.
 
 ### Gradient layers {#gradient-layers}
 
@@ -552,6 +553,10 @@ The Dynamic Media Template Editor supports up to **60 layers** in a template.
 If a PSD contains more than 60 layers, the generated template may not fully match the original PSD. Layers beyond the supported limit are not rendered in the Template Editor.
 
 For best results, use PSD files containing **60 layers or fewer** when converting them to Dynamic Media Templates.
+
+### Use rasterized images {#use-rasterized-images}
+
+If possible, use rasterized images in the PSD to reduce the number of layers. This may helps in smoother opening/editing in the Dynamic Media Template Editor.
 
 ## Preview and publish the Dynamic Media template to copy the delivery URL {#preview-and-publish-dynamic-media-template-and-copy-template-deliver-url}
 
