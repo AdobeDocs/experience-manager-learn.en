@@ -13,10 +13,6 @@ last-substantial-update: 2026-07-13
 ---
 # Build an API endpoint with Edge Functions
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 An AEM Edge Function is a JavaScript module that runs on Adobe CDN (Fastly Compute). You expose it as _one or more_ HTTP endpoints by pairing CDN origin selector rules with a fetch event handler in your code.
 
 This page covers the contract and key files. You can write any logic in the handler, including outbound `fetch()` calls to other systems. Keep the handler fast and short-lived so it fits the edge runtime.

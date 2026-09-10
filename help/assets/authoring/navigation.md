@@ -1,18 +1,16 @@
 ---
 title: Navigation
-description: Explore the basics for navigation AEM Assets.
+description: Learn how to browse and move around assets and folders in both the Assets view and the Admin view of AEM Assets.
 feature: Asset Management
 role: User
 level: Beginner
 version: Experience Manager as a Cloud Service
-jira: KT-4832
+jira: TODO
 thumbnail: 32046.jpg
 topic: Content Management
-last-substantial-update: 2021-09-23T00:00:00.000Z
+last-substantial-update: 2026-08-28
 doc-type: Feature Video
-exl-id: eba697fc-02ca-4ac8-82d5-7b230ef4d45b
-duration: 102
-TQID: https://experienceleague.adobe.com/fS9Qb6fWMPd7IwOyPnZR1Ac-TY1Evlye-GHcKQ8LuQU
+duration: 524
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -33,8 +31,22 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Navigation
+# Navigation {#navigation}
 
-Explore the basics for navigation AEM Assets.
+You find the right asset faster when you can browse your folders in a way that fits how you work. AEM Assets offers several ways to move through your files and folders, from visual card grids to compact lists, in both the Assets view and the Admin view. This page shows how to browse and switch between these views.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+In the Assets view, switch between card, grid, gallery, and waterfall views to browse assets in the way that works best for you, and sort results by any property. This portion of the video shows the view switcher and how to browse folders; see [Search](../search-and-discovery/search.md) for the search and filter portion.
+
+>[!VIDEO](https://video.tv.adobe.com/v/335861/?learn=on)
+
+>[!TAB Admin view]
+
+In the Admin view, this video shows how to browse your folders and files in the classic AEM interface. It covers the folder tree structure and the card, column, and list views you can use to browse and sort your assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32046?quality=12&learn=on)
+
+>[!ENDTABS]

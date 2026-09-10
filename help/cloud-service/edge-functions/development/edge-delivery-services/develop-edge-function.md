@@ -13,10 +13,6 @@ last-substantial-update: 2026-08-07
 ---
 # Develop the AEM Edge Function
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Our goal is to [build](./overview.md) a dynamic Edge Delivery Services block that calls an AEM Edge Function to fetch dynamic data from a third-party API.
 
 The first step is to develop the AEM Edge Function, which exposes an endpoint that combines two upstream API calls into one response and enables CORS for local development. For the request and response contract, endpoint matching, and outbound `fetch()` basics, see [Build an API endpoint with Edge Functions](../../how-to/build-api-endpoint.md). Only the parts specific to this tutorial are covered here.
@@ -285,7 +281,7 @@ See the full files in the reference implementation: [`config/edgeFunctions.yaml`
 
 ## Next steps
 
-In the next step, you scaffold the Edge Delivery Services block that calls this endpoint, then author it in Universal Editor.
+In [Develop the Edge Delivery Services block](./develop-block.md), you scaffold the block that calls this endpoint, then author it in Universal Editor.
 
 ## Additional resources
 

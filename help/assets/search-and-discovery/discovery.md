@@ -1,17 +1,17 @@
 ---
 title: Discover assets
-description: Discover how to efficiently find and manage assets in AEM Assets. Learn the tools and techniques for streamlined asset discovery.
+description: See how AEM Assets imports content from external storage, applies AI-generated metadata automatically, and makes it searchable in seconds.
 role: Leader, User
 level: Beginner, Intermediate
 doc-type: Value Video
 duration: 301
-last-substantial-update: 2026-06-02
+last-substantial-update: 2026-08-28
 jira: KT-21464
 ---
 
-# Asset discovery
+# Asset discovery {#asset-discovery}
 
-Learn how to efficiently discover and manage assets in AEM Assets. This overview explains key tools and methods for streamlined asset discovery, helping users save time and improve workflows.
+Import assets from external storage like S3, apply metadata automatically, and find them with AI-powered search in seconds.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491668/?learn=on&enablevpops)
 

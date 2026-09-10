@@ -1,18 +1,16 @@
 ---
 title: Renditions
-description: Learn about renditions in AEM Assets, and how they can be previewed.
+description: Learn about renditions in AEM Assets, and how they can be previewed, in both the Assets view and the Admin view.
 feature: Renditions
 role: User
 level: Beginner
 version: Experience Manager as a Cloud Service
-jira: KT-4496
+jira: TODO
 thumbnail: 32047.jpg
 topic: Content Management
-last-substantial-update: 2021-09-26T00:00:00.000Z
+last-substantial-update: 2026-08-31
 doc-type: Feature Video
-exl-id: 1df0ffd7-fe22-4eef-9428-b228ed0dcf31
-duration: 94
-TQID: https://experienceleague.adobe.com/guly0a5JY0-a1ocSZgl1MqoJ-5G-jHvySiyr6z20eAk
+duration: 512
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -33,8 +31,22 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
 ---
-# Renditions
+# Renditions {#renditions}
 
-Learn about renditions in AEM Assets, and how they can be previewed.
+AEM creates alternate versions of an asset automatically. These renditions include thumbnails, web-optimized images, and smart crops. Renditions let you use the right size and format for each channel, so you don't need to export new files by hand. You can preview any rendition before you use it, so you know exactly what you publish.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+In the Assets view, open an asset's Renditions panel to see the web, mobile, and print-ready versions of the file. Select any rendition to preview it, or download it directly.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
+
+>[!TAB Admin view]
+
+In the Admin view, open an asset's Renditions panel to see every alternate version of the file, such as thumbnails, web-optimized images, and watermarked copies. AEM creates most renditions automatically when you upload or reprocess an asset, and the original file always appears as its own rendition. You can upload or delete renditions directly, but it's best to let AEM manage them for consistent results.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32047?quality=12&learn=on)
+
+>[!ENDTABS]

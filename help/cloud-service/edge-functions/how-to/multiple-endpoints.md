@@ -13,10 +13,6 @@ last-substantial-update: 2026-07-14
 ---
 # Serve multiple endpoints with Edge Functions
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 One AEM Edge Function can expose many HTTP endpoints. The examples in [Build an API endpoint](./build-api-endpoint.md) already show two endpoints (`/status` and `/my-api`) on a single JavaScript function. You _do not deploy a separate function for each endpoint_ but just add endpoint matching logic to the same function.
 
 ## Key point

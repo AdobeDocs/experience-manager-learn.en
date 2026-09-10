@@ -25,6 +25,7 @@ team: TM
 + AI {#ai}
   + [Overview](./ai/overview.md)
   + [Set up and Provisioning](./ai/setup.md)
+  + [Coworker](./ai/coworker.md)
   + AI Assistant {#ai-assistant}
     + [Overview](./ai/ai-assistant/overview.md)
     + [What is AI Assistant?](./ai/ai-assistant/what-is-ai-assistant.md)
@@ -39,6 +40,7 @@ team: TM
     + [Dev Agent and CI/CD Troubleshooting](./ai/agents/development-agent-troubleshoot-ci-cd-pipeline.md)
   + MCP Servers {#mcp-servers}
     + [Overview](./ai/mcp/overview.md)
+    + [AEM MCP server](./ai/mcp/mcp-server.md)
     + [Accelerate AEM Content Operations with the MCP Server](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
     + [Cloud Manager MCP Server](./ai/mcp/cloud-manager.md)
     + [Governance MCP Server](./ai/mcp/experience-governance-mcp-server.md)
@@ -181,7 +183,7 @@ team: TM
     + [Overview](./debugging/cloud-service/overview.md)
     + [Logs](./debugging/cloud-service/logs.md)
     + [Build and Deployment](./debugging/cloud-service/build-and-deployment.md)
-    + [Developer Console](./debugging/cloud-service/developer-console.md)
+    + [Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-developer-console){target=_blank}
     + [Repository Browser](./debugging/cloud-service/repository-browser.md)
     + Risks{#risks}
       + {hide-from-toc} [Traversal warnings](./debugging/cloud-service/risks/traversals.md)
@@ -331,6 +333,9 @@ team: TM
         + [1 - Introduction](./forms/custom-submit-headless-forms/introduction.md)
         + [2 - Create custom submit service](./forms/custom-submit-headless-forms/custom-submit-service.md)
         + [3 - Display the response](./forms/custom-submit-headless-forms/handle-response-react-app.md)
+    + Automate Forms Portal Reminders with AJO{#automate-forms-portal-reminder-emails}
+        + [Implementation Steps](./forms/forms-completion-reminder-portal/use-case-implementation.md)
+        + [Dashboard](./forms/forms-completion-reminder-portal/build-dashboard.md)
     + Reminding users to submit form{#form-completion-reminder}
         + [1 - Introduction](./forms/form-completion-reminder/introduction.md)
         + [2 - Event Schema](./forms/form-completion-reminder/event-schema.md)

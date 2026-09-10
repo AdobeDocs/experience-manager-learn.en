@@ -13,10 +13,6 @@ last-substantial-update: 2026-06-25
 ---
 # Set up AEM Edge Functions on AEM as a Cloud Service
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Learn how to set up AEM Edge Functions on AEM as a Cloud Service environment.
 
 This tutorial covers CLI installation, AEM site deployment, project setup from the boilerplate template, CDN configuration, and deployment of a working endpoint on AEM as a Cloud Service.

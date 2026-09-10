@@ -13,10 +13,6 @@ last-substantial-update: 2026-07-16
 ---
 # Use configs and secrets with Edge Functions
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 >[!NOTE]
 >
 >Config, secret, and KV stores are not available in sandbox programs. Use a non-sandbox environment or an RDE to test configs and secrets.

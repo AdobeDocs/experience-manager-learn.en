@@ -13,10 +13,6 @@ last-substantial-update: 2026-08-07
 ---
 # Build a dynamic Edge Delivery Services block with an AEM Edge Function
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Learn how to call an AEM Edge Function from an _Edge Delivery Services block_ so the block can **fetch dynamic data** from a third-party API.
 
 Edge Delivery Services is built for speed. It generates semantic HTML documents as part of publication, with no server-side logic on the page itself, so a block cannot fetch dynamic data, such as inventory or pricing from a third-party system, on its own. Fetching it directly from the browser is an alternative, but the browser may not have a user session to authenticate with, and any _API token placed in client-side code is public_.
@@ -84,6 +80,10 @@ A complete, working example backs every step in this tutorial. Use the diffs bel
 - [AEM Edge Function changes](https://github.com/SachinMali/myfrescopa-edge-functions/compare/main...estimated-delivery-API-impl): the full diff for the route, handler, upstream call mocks, and CORS helper, relative to the boilerplate's `main` branch.
 - [Edge Delivery Services block changes](https://github.com/aem-showcase/frescopa/compare/main...SachinMali:frescopa:estimated-delivery): the full diff for the block's JSON model, JavaScript, and CSS, relative to the Frescopa site's `main` branch.
 - [Live preview](https://dev-myfrescopa.enablementadobe.com/dev/branches/estimated-delivery): the Estimated Delivery Checker block running end to end on the Frescopa demo site, with the AEM Edge Function deployed and answering live requests.
+
+## Next steps
+
+Start with [Develop the AEM Edge Function](./develop-edge-function.md), since the Edge Delivery Services block needs an endpoint to call before it has anything to connect to.
 
 ## Additional resources
 

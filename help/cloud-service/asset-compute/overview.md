@@ -135,7 +135,7 @@ Asset Compute workers must be deployed to Adobe I/O Runtime to be used with AEM 
 
 ### Integrate workers via AEM Processing Profiles
 
-Once deployed to Adobe I/O Runtime, Asset Compute workers can be registered in AEM as a Cloud Service via [Assets Processing Profiles](../../assets/configuring/processing-profiles.md). Processing Profiles are, in turn, applied to asset folders applying to the assets therein.
+Once deployed to Adobe I/O Runtime, Asset Compute workers can be registered in AEM as a Cloud Service via [Assets Processing Profiles](../../assets/authoring/processing-profiles.md). Processing Profiles are, in turn, applied to asset folders applying to the assets therein.
 
 + [Integrate with AEM Processing Profiles](./deploy/processing-profiles.md)
 

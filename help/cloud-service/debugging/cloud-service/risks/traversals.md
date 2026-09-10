@@ -180,9 +180,9 @@ Adjustments made to either the queries, indexes, or both - must be verified to e
 
 ![Explain query](./assets/traversals/verify.gif)
 
-If only [adjustments to the query](#adjust-the-query) are made, the query can be directly tested on AEM as a Cloud Service via Developer Console's [Explain Query](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html#queries){target="_blank"}. Explain Query runs against the AEM Author service, however since index definitions are the same across the Author and Publish services, validating queries against the AEM Author service is sufficient.
+If only [adjustments to the query](#adjust-the-query) are made, the query can be directly tested on AEM as a Cloud Service via Developer Console's [Explain Query](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-developer-console#status-dumps-queries){target="_blank"}. Explain Query runs against the AEM Author service, however since index definitions are the same across the Author and Publish services, validating queries against the AEM Author service is sufficient.
 
-If [adjustments to the index](#adjust-the-index) are made, the index must be deployed to AEM as a Cloud Service. With the index adjustments deployed, Developer Console's [Explain Query](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html#queries){target="_blank"} can be used to executed and tune the query further.
+If [adjustments to the index](#adjust-the-index) are made, the index must be deployed to AEM as a Cloud Service. With the index adjustments deployed, Developer Console's [Explain Query](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-developer-console#status-dumps-queries){target="_blank"} can be used to executed and tune the query further.
 
 Ultimately, all changes (query and code) are committed to Git and deployed to AEM as a Cloud Service using Cloud Manager. Once deployed, test the code paths associated with the original traversal warnings are retested, and verify that traversal warnings no longer appear in the `aemerror` log.
 

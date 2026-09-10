@@ -13,10 +13,6 @@ last-substantial-update: 2026-06-25
 ---
 # Set up AEM Edge Functions on Edge Delivery Services
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Learn how to set up AEM Edge Functions on an Edge Delivery Services site.
 
 This tutorial covers Edge Delivery site onboarding in Cloud Manager, CLI installation, project setup from the boilerplate template, CDN configuration, and deployment of a working endpoint.

@@ -13,10 +13,6 @@ last-substantial-update: 2026-07-24
 ---
 # AEM Edge Function deployment strategy on AEM as a Cloud Service
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 On AEM as a Cloud Service, an AEM Edge Function **binds to an environment**. Every environment your program provisions, RDE, Dev, Stage, and Prod, gets its own AEM Edge Function instance. Plan your promotion, secrets, and testing around that scope before you build it into your release process.
 
 ## How AEM Edge Functions are scoped

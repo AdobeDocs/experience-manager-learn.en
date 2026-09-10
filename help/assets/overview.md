@@ -1,10 +1,10 @@
 ---
 title: AEM Assets videos and tutorials
-description: Watch our videos to get AEM Asset support and assistance.
+description: Watch our videos to get AEM Assets support and assistance, in both the Assets view and the Admin view.
 sub-product: Experience Manager Assets
 version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 doc-type: Catalog
-last-substantial-update: 2026-05-26
+last-substantial-update: 2026-08-28
 exl-id: 1d0b0183-25ee-4cb4-82a5-3506e7c1c908
 TQID: https://experienceleague.adobe.com/nn11K1DaacO-2-I5WUpaTYE2syZ7BDcZD3JE74tt14s
 product_v2:
@@ -46,6 +46,12 @@ Learn what AEM Assets is and how can be used to achieve your organization's busi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427944?learn=on)
 
+## Get started in the Assets view
+
+Take a first look at the Assets view interface: My Workspace, search, tasks, insights, and the Assets, Collections, and Trash sections where you manage content.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502566/?learn=on&enablevpops)
+
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
 <div id="recs-overview-body-3"></div>
@@ -55,7 +61,7 @@ Learn what AEM Assets is and how can be used to achieve your organization's busi
 
 ## Additional resources
 
-* [AEM Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=en)
+* [AEM Assets documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/assets)
 * [AEM as a Cloud Service tutorials](/help/cloud-service/overview.md)
 * [AEM Sites tutorials](/help/sites/overview.md)
 * [AEM Forms tutorials](/help/forms/overview.md)

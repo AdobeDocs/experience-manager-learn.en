@@ -8,7 +8,7 @@ role: Leader, Developer, Admin, User
 level: Beginner
 jira: KT-8074
 thumbnail: 336539.jpeg
-last-substantial-update: 2022-09-02T00:00:00.000Z
+last-substantial-update: 2026-08-28
 doc-type: Feature Video
 exl-id: 7af14c0f-5a13-49ab-95ea-53ea8cf472f3
 duration: 286
@@ -38,8 +38,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Photoshop Actions
+# Photoshop actions {#photoshop-actions}
 
-Learn how content authors can perform Photoshop actions within AEM Assets using Creative Cloud APIs with the content automation add-on.
+Designers often record a repeatable series of edits, such as a logo banner treatment, as a Photoshop action so they don't repeat the same steps by hand. The Content Automation add-on applies those saved actions to assets directly in AEM Assets, through the Creative Cloud APIs. A manual edit becomes an automatic step that runs every time someone uploads a matching file.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+In the Admin view, load a saved Photoshop action, like a banner or badge design, and apply it to files inside AEM Assets. This video shows how to create a processing profile that points to the action file, then apply that profile to a folder so every asset you upload there gets the same edit automatically. It also compares the original asset with the new rendition once the action runs.
 
 >[!VIDEO](https://video.tv.adobe.com/v/336539?quality=12&learn=on)
+
+>[!ENDTABS]

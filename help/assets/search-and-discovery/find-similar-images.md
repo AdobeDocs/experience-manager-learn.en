@@ -8,7 +8,7 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 97
-last-substantial-update: 2024-01-08T00:00:00.000Z
+last-substantial-update: 2026-08-28
 jira: KT-14752
 thumbnail: 3426796.jpeg
 exl-id: 32e02a15-75cd-4a64-93b4-34c8dd044b11
@@ -28,8 +28,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Find Similar Images
+# Find similar images {#find-similar-images}
 
-Learn how AEM Assets' Find Similar Image makes it easy to find the best image for your needs.
+Large asset libraries often hold many similar photos, and text search alone does not always find the best match. Find similar images lets you select one image as a reference and locate other assets that look like it, based on visual content instead of file names or tags. This helps you choose the right photo fast, especially when you need a specific angle, color, or style.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+In the Admin view, select an image you already have, even if it's not quite right, and choose Find similar image to search your library for visually similar assets. This video shows how AEM Assets uses your reference image to find similar photos, then how you narrow those results with the filter panel by criteria such as file type or size.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426796/?learn=on)
+
+>[!ENDTABS]

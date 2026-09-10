@@ -13,10 +13,6 @@ last-substantial-update: 2026-07-15
 ---
 # HTTP request filters with Edge Functions
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Learn how to implement HTTP request filtering with AEM Edge Functions to rewrite or redirect requests, or modify HTTP responses.
 
 ## When to filter HTTP requests with Edge Functions

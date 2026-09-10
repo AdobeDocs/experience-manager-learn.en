@@ -13,10 +13,6 @@ last-substantial-update: 2026-08-07
 ---
 # Develop the Edge Delivery Services block
 
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
-
 Our goal is to [build](./overview.md) a dynamic Edge Delivery Services block that calls an AEM Edge Function to fetch dynamic data from a third-party API.
 
 The second step is to develop the Edge Delivery Services block, which scaffolds a JSON model, JavaScript, and CSS and authors it in Universal Editor. For block model syntax and JavaScript and CSS structure basics, see [Create a block](/help/sites/edge-delivery-services/developing/universal-editor/5-new-block.md) and [Author a block](/help/sites/edge-delivery-services/developing/universal-editor/6-author-block.md). Only the parts specific to this tutorial are covered here.
@@ -246,7 +242,7 @@ Open the page you authored at `http://localhost:3000/dev/branches/estimated-deli
 
 ## Next steps
 
-In the next step, you connect this Edge Delivery Services block to the AEM Edge Function you built in [Develop the AEM Edge Function](./develop-edge-function.md), replacing the placeholder result with live data.
+In [Connect the block to the AEM Edge Function](./connect-block-and-function.md), you wire this Edge Delivery Services block up to the AEM Edge Function you built in the previous step, replacing the placeholder result with live data.
 
 ## Additional resources
 
