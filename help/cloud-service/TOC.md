@@ -41,6 +41,7 @@ team: TM
   + MCP Servers {#mcp-servers}
     + [Overview](./ai/mcp/overview.md)
     + [Create test content](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
+    + [Manage your website with AI](./ai/mcp/manage-your-website-with-ai.md)
     + [Run and debug pipelines](./ai/mcp/cloud-manager.md)
     + [Check brand compliance](./ai/mcp/experience-governance-mcp-server.md)
     + [Search AEM content](./ai/mcp/content-ai-mcp-server.md)
