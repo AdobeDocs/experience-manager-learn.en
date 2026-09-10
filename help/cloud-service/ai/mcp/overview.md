@@ -1,18 +1,18 @@
 ---
-title: AEM MCP server
-description: The AEM Model Context Protocol (MCP) Server brings AEM into your preferred AI-powered IDE or Chat-based application to streamline and accelerate your AEM work.
+title: AEM MCP Server
+description: The AEM Model Context Protocol (MCP) Server brings AEM into your preferred AI-powered IDE or chat-based application to streamline and accelerate your AEM work.
 version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
 level: Beginner
 doc-type: Article
-duration: 534
+duration: 564
 last-substantial-update: 2026-09-10
 jira: KT-20473
 exl-id: 7f2e4e37-6440-423e-9ba9-9228fe03600b
 ---
-# AEM MCP server
+# AEM MCP Server
 
-The AEM _Model Context Protocol (MCP) Server_ brings AEM into your preferred AI-powered IDE or Chat-based application, to streamline and accelerate your AEM work. Describe what you want in natural language instead of writing low-level API code or navigating through the AEM UI.
+The AEM Model Context Protocol (MCP) Server brings AEM into your preferred AI-powered IDE or chat-based application, to streamline and accelerate your AEM work. Describe what you want in natural language instead of writing low-level API code or navigating through the AEM UI.
 
 Register a single URL in your AI client to get access to a growing set of AEM capabilities:
 
@@ -25,7 +25,7 @@ https://mcp.adobeaemcloud.com/adobe/mcp/aem
 Today, the **AEM MCP Server** covers:
 
 - **Content**: Create, read, update, and delete (CRUD) operations for pages and content fragments, plus asset import, search, and management. Supports both read-write and read-only use; access follows the permissions of your signed-in AEM user.
-- **Experience Governance**: Evaluate content (text, images, pages) against your brand governance rules, and list brand configurations and checks. Requires an Agents trial or paid license.
+- **Experience Governance**: Evaluate content (text, images, pages) against your brand governance rules, and list brand configurations and checks. Requires an [Agents trial or paid license](../setup.md#agents-in-aem).
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ The [AEM MCP Server section](https://experienceleague.adobe.com/en/docs/experien
 
 ## AEM MCP in action
 
-These examples show how to put the AEM MCP Server to work on real tasks: review and update content, run and debug a Cloud Manager pipeline, check a page against your brand guidelines, or search a Content AI index. Each one walks through a specific scenario end to end: connect the server in your tool of choice, then get a concrete result back.
+These examples show how to put the AEM MCP Server to work on real tasks: review and update test content from your IDE, manage and publish live website content by chat, run and debug a Cloud Manager pipeline, check a page against your brand guidelines, or search a Content AI index. Each one walks through a specific scenario end to end: connect the server in your tool of choice, then get a concrete result back.
 
 <!-- 
 CARDS
@@ -55,6 +55,12 @@ CARDS
   {title = Create test content without leaving your IDE}
   {description = Create and update AEM test content in natural language, right from your IDE.}
   {image = ../assets/content-mcp-server/update-adventure-price-prompt-response.png}
+  {cta = Learn more}
+
+* ./manage-your-website-with-ai.md
+  {title = Manage your website with the help of AI}
+  {description = Update a page and its linked content fragment, publish the changes, and roll them back, all through natural language.}
+  {image = https://video.tv.adobe.com/v/3497092?format=jpeg}
   {cta = Learn more}
 
 * ./cloud-manager.md
@@ -95,6 +101,29 @@ CARDS
                     <p class="is-size-6">Create and update AEM test content in natural language, right from your IDE.</p>
                 </div>
                 <a href="./accelerate-content-operations-with-aem-mcp-server.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage your website with the help of AI">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./manage-your-website-with-ai.md" title="Manage your website with the help of AI" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3497092?format=jpeg" alt="Manage your website with the help of AI"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./manage-your-website-with-ai.md" target="_self" rel="referrer" title="Manage your website with the help of AI">Manage your website with the help of AI</a>
+                    </p>
+                    <p class="is-size-6">Update a page and its linked content fragment, publish the changes, and roll them back, all through natural language.</p>
+                </div>
+                <a href="./manage-your-website-with-ai.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                 </a>
             </div>

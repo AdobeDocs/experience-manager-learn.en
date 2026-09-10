@@ -39,15 +39,15 @@ Let's set up the Content AI MCP Server in Adobe CX Coworker with these steps.
 
 1. Sign in to Adobe CX Coworker.
     <!-- SCREENSHOT: Adobe CX Coworker sign-in / home -->
-    ![Adobe CX Coworker Sign In](../assets/content-ai-mcp-server/cx-coworker-signin.png)
+    ![Adobe CX Coworker Sign In](../assets/content-ai-mcp-server/cx-coworker-signin.png){zoomable="yes"}
 
 1. From the side rail, click **MCP Servers**.
     <!-- SCREENSHOT: MCP Servers in the CX Coworker side rail -->
-    ![MCP Servers Side Rail](../assets/content-ai-mcp-server/cx-coworker-mcp-servers-side-rail.png)
+    ![MCP Servers Side Rail](../assets/content-ai-mcp-server/cx-coworker-mcp-servers-side-rail.png){zoomable="yes"}
 
 1. Click **Add MCP Server**.
     <!-- SCREENSHOT: Add MCP Server button -->
-    ![Add MCP Server](../assets/content-ai-mcp-server/cx-coworker-add-mcp-server.png)
+    ![Add MCP Server](../assets/content-ai-mcp-server/cx-coworker-add-mcp-server.png){zoomable="yes"}
 
 1. In the **Add MCP Server** dialog, enter the following details:
 
@@ -59,7 +59,7 @@ Let's set up the Content AI MCP Server in Adobe CX Coworker with these steps.
     | **Authentication type** | `Passthrough` |
 
     <!-- SCREENSHOT: Add MCP Server dialog with server name, URL, connection type, and authentication type -->
-    ![Add MCP Server Dialog](../assets/content-ai-mcp-server/cx-coworker-add-mcp-server-dialog.png)
+    ![Add MCP Server Dialog](../assets/content-ai-mcp-server/cx-coworker-add-mcp-server-dialog.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -91,11 +91,11 @@ Let's set up the Content AI MCP Server in Adobe CX Coworker with these steps.
 
 1. Click **Add**. The **content-ai-mcp** server now appears in your list of MCP Servers.
     <!-- SCREENSHOT: content-ai-mcp listed in MCP Servers -->
-    ![Content AI MCP Server Listed](../assets/content-ai-mcp-server/cx-coworker-content-ai-mcp-listed.png)
+    ![Content AI MCP Server Listed](../assets/content-ai-mcp-server/cx-coworker-content-ai-mcp-listed.png){zoomable="yes"}
 
 1. Click **New chat** to start using the Content AI MCP Server.
     <!-- SCREENSHOT: New chat with Content AI MCP Server -->
-    ![New Chat](../assets/content-ai-mcp-server/cx-coworker-new-chat.png)
+    ![New Chat](../assets/content-ai-mcp-server/cx-coworker-new-chat.png){zoomable="yes"}
 
 ## Searching public indexes
 

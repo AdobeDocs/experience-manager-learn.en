@@ -27,10 +27,10 @@ Here's how to set it up in Cursor:
 1. Open Cursor on your machine.
 
 1. Go to **Settings** > **Cursor Settings** from the Cursor menu to open the settings window.
-    ![Cursor Settings](../assets/content-mcp-server/cursor-settings.png)
+    ![Cursor Settings](../assets/content-mcp-server/cursor-settings.png){zoomable="yes"}
 
 1. In the left sidebar, click **Tools & MCP** to open that panel.
-    ![Tools & MCP](../assets/content-mcp-server/tools-mcp.png)
+    ![Tools & MCP](../assets/content-mcp-server/tools-mcp.png){zoomable="yes"}
 
 1. Click **Add Custom MCP** or **New MCP Server** to open `mcp.json`, then paste in this configuration:
 
@@ -49,18 +49,18 @@ Here's how to set it up in Cursor:
     > Access through the AEM MCP Server follows the permissions of your signed-in AEM user: you can only do what you're already authorized to do in AEM. If your organization needs tighter, org-level scoping (for example, restricting to read-only), contact Adobe at `aemcs-mcp-feedback@adobe.com`.
 
     <!-- SCREENSHOT: needs retaking. Currently shows the old two-server (AEM-RDE-Content / AEM-RDE-Content-Read-Only) mcp.json configuration; should show a single "AEM" entry pointing at /adobe/mcp/aem -->
-    ![Add AEM MCP Server](../assets/content-mcp-server/mcp-json-file.png)
+    ![Add AEM MCP Server](../assets/content-mcp-server/mcp-json-file.png){zoomable="yes"}
 
 1. From the Cursor Settings window, click **Connect** to initiate the authentication process. It uses the OAuth 2.0 PKCE flow to get the **User Specific Access Token** to access the AEM MCP Server. 
-    ![Connect to AEM MCP Server](../assets/content-mcp-server/connect-to-aem-mcp-server.png)
+    ![Connect to AEM MCP Server](../assets/content-mcp-server/connect-to-aem-mcp-server.png){zoomable="yes"}
 
 1. Sign in with your Adobe ID, then come back to the Cursor Settings window.
-    ![Login with Adobe ID](../assets/content-mcp-server/login-with-adobe-id.png)
+    ![Login with Adobe ID](../assets/content-mcp-server/login-with-adobe-id.png){zoomable="yes"}
 
 1. Confirm that **AEM** shows as connected. You can expand the server to see its tools.
 
     <!-- SCREENSHOT: needs retaking. Currently shows two connected servers (AEM-RDE-Content / AEM-RDE-Content-Read-Only); should show a single connected "AEM" server -->
-    ![AEM MCP Server](../assets/content-mcp-server/connected-aem-mcp-servers.png)
+    ![AEM MCP Server](../assets/content-mcp-server/connected-aem-mcp-servers.png){zoomable="yes"}
 
 ## Install the sample AEM web app
 
@@ -95,7 +95,7 @@ Next, set up the [WKND Adventures React App](https://github.com/adobe/aem-guides
 
 1. In your browser, go to [http://localhost:3000](http://localhost:3000) to view the WKND Adventures app.
 
-    ![React App - WKND Adventures](../assets/content-mcp-server/react-app-wknd-adventures.png)
+    ![React App - WKND Adventures](../assets/content-mcp-server/react-app-wknd-adventures.png){zoomable="yes"}
 
 ## Review and update content
 
@@ -116,7 +116,7 @@ Because the React app gets its data from your RDE environment, you need to know 
     I want to review my Content Fragment Models from AEM RDE, can you list the Adventure Content Fragment details.
     ```
     
-    ![Review Content Fragment Models](../assets/content-mcp-server/review-content-fragment-models-prompt-response.png)
+    ![Review Content Fragment Models](../assets/content-mcp-server/review-content-fragment-models-prompt-response.png){zoomable="yes"}
 
     
     Before invoking the AEM MCP Server, it asks for confirmation to proceed. Thus, you stay in control of the content operations.
@@ -129,13 +129,13 @@ Because the React app gets its data from your RDE environment, you need to know 
     Can you update adventure Beervana in Portland's price to 99.99
     ```
 
-    ![Update Adventure Price](../assets/content-mcp-server/update-adventure-price-prompt-response.png)
+    ![Update Adventure Price](../assets/content-mcp-server/update-adventure-price-prompt-response.png){zoomable="yes"}
 
     Similarly, the AI asks for confirmation to proceed before updating the content. It also summarizes the content operation before and after the update.
 
 1. In the React app, confirm that the Beervana card now shows the _HOT DEAL_ banner.
 
-    ![Verify HOT DEAL Banner](../assets/content-mcp-server/verify-hot-deal-banner.png)
+    ![Verify HOT DEAL Banner](../assets/content-mcp-server/verify-hot-deal-banner.png){zoomable="yes"}
 
 ## Additional prompts
 
