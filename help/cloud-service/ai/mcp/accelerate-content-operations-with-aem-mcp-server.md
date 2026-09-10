@@ -20,9 +20,9 @@ In this tutorial you _review_ Adventure content fragment details, _update_ a fra
 
 ## Add the AEM MCP Server
 
-Connect the [Cursor IDE](https://www.cursor.com/) to the AEM MCP Server and run the scenario below.
+This tutorial uses [Cursor IDE](https://www.cursor.com/) as an example agentic IDE; the same AEM MCP Server registration works in any MCP-compatible IDE or chat application. Connect your IDE to the AEM MCP Server and run the scenario below.
 
-Let's set up the AEM MCP Server in Cursor with these steps.
+Here's how to set it up in Cursor:
 
 1. Open Cursor on your machine.
 
@@ -64,7 +64,7 @@ Let's set up the AEM MCP Server in Cursor with these steps.
 
 ## Install the sample AEM web app
 
-Next, set up the [WKND Adventures React App](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app) in Cursor.
+Next, set up the [WKND Adventures React App](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app) in your IDE.
 
 1. Clone these two repos on your machine:
 
@@ -110,7 +110,7 @@ To keep things simple, let's show the _HOT DEAL_ banner when the adventure's pri
 
 Because the React app gets its data from your RDE environment, you need to know the Adventure content fragment model and then update the right fragment properties. That is exactly what the AEM MCP Server can help with. Here is how.
 
-1. In Cursor, open a new chat and type:
+1. In your IDE's chat, type:
 
     ```text
     I want to review my Content Fragment Models from AEM RDE, can you list the Adventure Content Fragment details.
@@ -181,4 +181,4 @@ Try these content focused prompts in your IDE (with the AEM MCP Server connected
 
 ## Congratulations!
 
-You set up the AEM MCP Server in Cursor and connected it to your RDE (or Development) environment. You then used the WKND Adventures React app and chatted in natural language to review Adventure content fragment details. You also updated a fragment's price with the AI asking for your confirmation before each content operation. You verified the change in the running app. You can use the same human-centric flow from your IDE to review, update, and create AEM content without switching to the AEM UI or writing low-level API code.
+You set up the AEM MCP Server in an agentic IDE (Cursor, in this example) and connected it to your RDE (or Development) environment. You then used the WKND Adventures React app and chatted in natural language to review Adventure content fragment details. You also updated a fragment's price with the AI asking for your confirmation before each content operation. You verified the change in the running app. You can use the same human-centric flow from your IDE to review, update, and create AEM content without switching to the AEM UI or writing low-level API code.
