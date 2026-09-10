@@ -5,7 +5,7 @@ version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
 level: Beginner
 doc-type: Article
-duration: 564
+duration: 81
 last-substantial-update: 2026-09-10
 jira: KT-20473
 exl-id: 7f2e4e37-6440-423e-9ba9-9228fe03600b
@@ -20,7 +20,7 @@ Register a single URL in your AI client to get access to a growing set of AEM ca
 https://mcp.adobeaemcloud.com/adobe/mcp/aem
 ```
 
->[!VIDEO](https://video.tv.adobe.com/v/3497092/?learn=on&enablevpops)
+![AEM MCP Server](../assets/mcp/overview/hero.png)
 
 Today, the **AEM MCP Server** covers:
 
