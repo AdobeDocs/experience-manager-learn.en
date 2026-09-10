@@ -40,10 +40,10 @@ team: TM
     + [Dev Agent and CI/CD Troubleshooting](./ai/agents/development-agent-troubleshoot-ci-cd-pipeline.md)
   + MCP Servers {#mcp-servers}
     + [Overview](./ai/mcp/overview.md)
-    + [Accelerate AEM Content Operations with the MCP Server](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
-    + [Cloud Manager MCP Server](./ai/mcp/cloud-manager.md)
-    + [Governance MCP Server](./ai/mcp/experience-governance-mcp-server.md)
-    + [Content AI MCP Server](./ai/mcp/content-ai-mcp-server.md)
+    + [Create test content](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
+    + [Run and debug pipelines](./ai/mcp/cloud-manager.md)
+    + [Check brand compliance](./ai/mcp/experience-governance-mcp-server.md)
+    + [Search AEM content](./ai/mcp/content-ai-mcp-server.md)
   + AI-assisted development {#ai-assisted-development}
     + [Overview](./ai/ai-assited-development/overview.md)
     + Setup{#setup}
