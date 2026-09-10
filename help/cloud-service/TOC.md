@@ -38,7 +38,7 @@ team: TM
     + [Content Advisor Agent](./ai/agents/content-advisor-agent.md)
     + [Governance Agent](./ai/agents/governance-agent.md)
     + [Dev Agent and CI/CD Troubleshooting](./ai/agents/development-agent-troubleshoot-ci-cd-pipeline.md)
-  + MCP Servers {#mcp-servers}
+  + AEM MCP Server {#mcp-servers}
     + [Overview](./ai/mcp/overview.md)
     + [Create test content](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
     + [Manage your website with AI](./ai/mcp/manage-your-website-with-ai.md)
