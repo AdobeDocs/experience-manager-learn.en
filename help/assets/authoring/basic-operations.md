@@ -8,9 +8,9 @@ version: Experience Manager as a Cloud Service
 jira: TODO
 thumbnail: 32044.jpg
 topic: Content Management
-last-substantial-update: 2026-08-31
+last-substantial-update: 2026-09-09
 doc-type: Feature Video
-duration: 1006
+duration: 1142
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -52,6 +52,12 @@ Build a folder structure, upload assets by drag and drop, and rename, move, or c
 Open an asset to resize it, remove its background, crop it, or convert its format with Adobe Express, right inside AEM Assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
+
+## Trash and recovery
+
+AEM Assets moves a deleted file to the trash instead of removing it right away, so a mistake doesn't cost you the file. This video shows how to find an asset in the trash and restore it to its original location.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3503203?learn=on)
 
 >[!TAB Admin view]
 

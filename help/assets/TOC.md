@@ -18,8 +18,6 @@ team: TM
 
 + [Overview](overview.md)
 
-+ [Baseline folders](configuring/baseline-folders.md)
-
 + Authoring{#authoring}
   + [Switch views](./authoring/switch-views.md)
   + [Navigation](./authoring/navigation.md)
@@ -61,6 +59,7 @@ team: TM
   + [Import and export metadata](metadata/metadata-import-export.md)
 
 + Governance & insights{#governance}
+  + [Baseline folders](./governance/baseline-folders.md)
   + [Asset governance](./governance/governance.md)
   + [Permissions management](./governance/permissions-management.md)
   + [Metadata-driven permissions](./governance/metadata-driven-permissions.md)
