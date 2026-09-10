@@ -39,7 +39,7 @@ For AEM as a Cloud Service projects, Adobe provides:
 
 - Agent Skills and AGENTS.md via [Adobe Skills for AI Coding Agents](https://github.com/adobe/skills)
 - Local MCP servers for the AEM SDK and local Dispatcher via the [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=mcp*&1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=3) portal
-- Adobe-hosted AEM MCP servers for content and Cloud Manager workflows from your IDE or chat application — see [MCP Servers in AEM](../mcp/overview.md)
+- The unified [AEM MCP Server](../mcp/overview.md) (content, Experience Governance) plus the separate Cloud Manager MCP server, from your IDE or chat application
 
 The following sections summarize each item. Use the **Setup** and **Use Cases** sections at the end of this page for installation and walkthroughs for AI-assisted development.
 
@@ -66,7 +66,7 @@ For **local development** against the AEM SDK and Dispatcher, install these **lo
 - **AEM Quickstart Local MCP server**: Exposes live runtime data from a local AEM SDK instance to support troubleshooting and development. For more information, see [AEM Quickstart MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/local-development-with-ai-tools#aem-quickstart-mcp-server).
 - **Dispatcher Local MCP server**: Enables runtime validation and inspection of a local Dispatcher instance. For more information, see [Dispatcher MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/local-development-with-ai-tools#dispatcher-mcp-server).
 
-For Adobe-hosted AEM MCP servers (for example, content, read-only content, and Cloud Manager), see [MCP Servers in AEM](../mcp/overview.md).
+Adobe-hosted AEM MCP servers include the unified [AEM MCP Server](../mcp/overview.md) (content, Experience Governance) and the separate Cloud Manager MCP server.
 
 ## Setup
 

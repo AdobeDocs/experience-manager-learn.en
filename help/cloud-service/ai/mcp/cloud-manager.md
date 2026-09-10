@@ -1,17 +1,21 @@
 ---
-title: Cloud Manager MCP Server
-description: Learn how the Cloud Manager MCP server lets AI tools interact with AEM as a Cloud Service to manage programs, environments, repositories, and pipelines.
+title: Run and debug AEM pipelines from your IDE
+description: Learn how to run pipelines, debug failures, and manage Cloud Manager programs, environments, and repositories directly from your IDE with AI tools.
 version: Experience Manager as a Cloud Service
 role: Admin, Developer
 level: Intermediate, Experienced
 doc-type: Technical Video
 duration: 97
-last-substantial-update: 2026-03-02
+last-substantial-update: 2026-09-10
 jira: KT-20425
 exl-id: 0811742a-7f1b-4659-8ab0-982ef1527483
 ---
-# Cloud Manager MCP Server
+# Run and debug AEM pipelines from your IDE
 
-Cloud Manager MCP Server lets AEM Developers run pipelines, debug failures, and access Cloud Manager tools directly in their IDE - no context switching.
+The Cloud Manager MCP Server lets AEM Developers run pipelines, debug failures, and access Cloud Manager tools directly in their IDE - no context switching.
+
+>[!NOTE]
+>
+>Cloud Manager is not yet part of the unified [AEM MCP Server](./overview.md) (`/aem`) and still requires its own registration.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)

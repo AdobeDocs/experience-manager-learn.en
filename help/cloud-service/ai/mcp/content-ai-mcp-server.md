@@ -1,13 +1,13 @@
 ---
-title: Search AEM Content using the Content AI MCP Server
-description: Learn how to use the AEM Content AI MCP Server from Adobe CX Coworker to search and analyze Content AI indexes in natural language, without writing low-level API code or navigating the UI.
+title: Search and analyze AEM content with natural language
+description: Learn how to search and analyze AEM Content AI indexes in natural language from Adobe CX Coworker, without writing low-level API code or navigating the UI.
 version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
 level: Beginner
 doc-type: tutorial
 duration: null
 ---
-# Search AEM Content Using the Content AI MCP Server
+# Search and analyze AEM content with natural language
 
 Use the **Content AI MCP Server** from [Adobe CX Coworker](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) to search and analyze Content AI indexes in natural language, no low-level API code or UI navigation.
 
