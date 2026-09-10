@@ -19,3 +19,11 @@ The Cloud Manager MCP Server lets AEM Developers run pipelines, debug failures, 
 >Cloud Manager is not yet part of the unified [AEM MCP Server](./overview.md) (`/aem`) and still requires its own registration.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+
+## Add the Cloud Manager MCP Server
+
+Register the following URL in your AI client:
+
+```
+https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
+```

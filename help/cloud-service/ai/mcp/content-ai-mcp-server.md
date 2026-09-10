@@ -9,13 +9,11 @@ duration: null
 ---
 # Search and analyze AEM content with natural language
 
-Use the **Content AI MCP Server** from [Adobe CX Coworker](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) to search and analyze Content AI indexes in natural language, no low-level API code or UI navigation.
+Use the **Content AI MCP Server**, a companion to the [AEM MCP Server](./overview.md), from [Adobe CX Coworker](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) to search and analyze Content AI indexes in natural language, no low-level API code or UI navigation.
 
 In this tutorial you _discover_ available indexes, run _keyword_, _semantic_, and _hybrid_ searches, and use _natural language search_ to express complex intent, all from Adobe CX Coworker against a Content AI index.
 
-## Overview
-
-AEM as a Cloud Service provides _MCP Servers_ so your IDE or chat app can work with AEM securely. The **Content AI MCP Server** exposes search and discovery tools over Content AI indexes. See [MCP Servers in AEM](./overview.md) for more information.
+## Tools and access modes
 
 The Content AI MCP Server provides six tools:
 
@@ -33,11 +31,9 @@ The Content AI MCP Server supports two access modes, selected by which header yo
 - **Public (anonymous)**: Search public, read-only indexes using the `X-Api-Key` header. Use this for openly available, non-sensitive content. See [Searching public indexes](#searching-public-indexes).
 - **Authenticated**: Search entitled or access-controlled indexes using the `x-content-ai-mcp-api-key` header together with your signed-in Adobe identity (passed through by CX Coworker). Results respect your permissions.
 
-## How developers can use it
+## Add the Content AI MCP Server
 
 Connect [Adobe CX Coworker](https://ao.adobe.io/#) to the Content AI MCP Server and run the scenario below.
-
-### Setup - Content AI MCP server in Adobe CX Coworker
 
 Let's set up the Content AI MCP Server in Adobe CX Coworker with these steps.
 
@@ -111,7 +107,7 @@ Use this mode when:
 - You do not need per-user, permission-scoped results.
 - You want a simple setup that only requires an API key.
 
-To search public indexes, add the Content AI MCP Server in CX Coworker exactly as described in [Setup - Content AI MCP server in Adobe CX Coworker](#setup---content-ai-mcp-server-in-adobe-cx-coworker), but in the **Add headers** step add only the `X-Api-Key` header (plus an optional `x-content-ai-mcp-routing` header for the environment):
+To search public indexes, add the Content AI MCP Server in CX Coworker exactly as described in [Add the Content AI MCP Server](#add-the-content-ai-mcp-server), but in the **Add headers** step add only the `X-Api-Key` header (plus an optional `x-content-ai-mcp-routing` header for the environment):
 
 | Header | Value |
 | ------ | ----- |
@@ -133,7 +129,7 @@ With the server connected, discover and search public indexes the same way as au
     
     The server searches only public indexes for this request and returns matching results.
 
-## Summary
+## Congratulations!
 
-You set up the AEM Content AI MCP Server in Adobe CX Coworker and used it to search Content AI indexes. You discovered available indexes and searched them in natural language, using keyword, semantic, hybrid, and natural language search. You also learned how to search **public indexes** anonymously with an API key, and how to reduce response size with field selection. You can use the same human-centric flow from CX Coworker to search and analyze Content AI indexes without switching to a UI or writing low-level search API code.
+You set up the Content AI MCP Server in Adobe CX Coworker and used it to search Content AI indexes. You discovered available indexes and searched them in natural language, with keyword, semantic, hybrid, and natural language search. You also learned how to search **public indexes** anonymously with an API key, and how to reduce response size with field selection. You can use the same human-centric flow from CX Coworker to search and analyze Content AI indexes without switching to a UI or writing low-level search API code.
 

@@ -1,6 +1,6 @@
 ---
 title: Check AEM content for brand compliance
-description: Learn how to evaluate AEM content against your brand guidelines and compliance requirements using natural language from your favorite chat-based AI application.
+description: Learn how to evaluate AEM content against your brand guidelines and compliance requirements in natural language from your favorite chat-based AI application.
 version: Experience Manager as a Cloud Service
 role: Leader, User, Developer, Admin
 level: Beginner, Intermediate, Experienced
@@ -17,6 +17,13 @@ The [AEM MCP Server](./overview.md) lets AEM practitioners or content authors ma
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486258/?learn=on&enablevpops)
 
+## Add the AEM MCP Server
+
+Register the following URL in your AI client:
+
+```
+https://mcp.adobeaemcloud.com/adobe/mcp/aem
+```
 
 ## Additional resources
 
