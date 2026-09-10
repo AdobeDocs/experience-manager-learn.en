@@ -13,16 +13,12 @@ exl-id:
 ---
 # Check AEM content for brand compliance
 
-The Experience Governance MCP Server lets AEM practitioners or content authors manage brand integrity and compliance requirements for their website using natural language from their favorite chat-based AI application.
-
->[!NOTE]
->
->This capability is included in the unified [AEM MCP Server](./overview.md) (`/aem`), so a separate registration is no longer required. An Agents trial or paid license is required to use it.
+The [AEM MCP Server](./overview.md) lets AEM practitioners or content authors manage brand integrity and compliance requirements for their website in natural language from their favorite chat-based AI application. This capability requires an Agents trial or paid license.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486258/?learn=on&enablevpops)
 
 
-## Additional Resources
+## Additional resources
 
 - [How to Import a Brand Policy](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/how-to-import-a-brand-policy)
 

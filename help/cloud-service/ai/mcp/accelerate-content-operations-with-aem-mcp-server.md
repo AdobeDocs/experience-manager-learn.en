@@ -22,11 +22,11 @@ In this tutorial you _review_ Adventure content fragment details, _update_ a fra
 
 AEM as a Cloud Service provides the [AEM MCP Server](./overview.md) so your IDE or chat app can work with AEM securely. Its content capability covers pages, fragments, and assets.
 
-## How Developers Can Use It
+## How developers can use it
 
 Connect the [Cursor IDE](https://www.cursor.com/) to the AEM MCP Server and run the scenario below.
 
-### Setup - AEM MCP Server in Cursor
+### Setup - AEM MCP server in Cursor
 
 Let's set up the AEM MCP Server in Cursor with these steps.
 
@@ -68,7 +68,7 @@ Let's set up the AEM MCP Server in Cursor with these steps.
     <!-- SCREENSHOT: needs retaking. Currently shows two connected servers (AEM-RDE-Content / AEM-RDE-Content-Read-Only); should show a single connected "AEM" server -->
     ![AEM MCP Server](../assets/content-mcp-server/connected-aem-mcp-servers.png)
 
-### Setup - WKND Adventures React App
+### Setup - WKND Adventures React app
 
 Next, set up the [WKND Adventures React App](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app) in Cursor.
 
@@ -103,7 +103,7 @@ Next, set up the [WKND Adventures React App](https://github.com/adobe/aem-guides
 
     ![React App - WKND Adventures](../assets/content-mcp-server/react-app-wknd-adventures.png)
 
-### Productivity Scenario - AEM Content review and update 
+### Productivity scenario - AEM content review and update
 
 Suppose you need to show a _HOT DEAL_ banner on Adventure cards when a simple rule is met. The usual approach would be:
 
@@ -143,7 +143,7 @@ Because the React app gets its data from your RDE environment, you need to know 
 
     ![Verify HOT DEAL Banner](../assets/content-mcp-server/verify-hot-deal-banner.png)
 
-### Additional Prompts
+### Additional prompts
 
 Try these content focused prompts in your IDE (with the AEM MCP Server connected) to explore more workflows and features.
 

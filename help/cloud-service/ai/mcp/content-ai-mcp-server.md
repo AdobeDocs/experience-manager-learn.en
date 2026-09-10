@@ -30,14 +30,14 @@ The Content AI MCP Server provides six tools:
 
 The Content AI MCP Server supports two access modes, selected by which header you configure:
 
-- **Public (anonymous)** — Search public, read-only indexes using the `X-Api-Key` header. Use this for openly available, non-sensitive content. See [Searching Public Indexes](#searching-public-indexes).
-- **Authenticated** — Search entitled or access-controlled indexes using the `x-content-ai-mcp-api-key` header together with your signed-in Adobe identity (passed through by CX Coworker). Results respect your permissions.
+- **Public (anonymous)**: Search public, read-only indexes using the `X-Api-Key` header. Use this for openly available, non-sensitive content. See [Searching public indexes](#searching-public-indexes).
+- **Authenticated**: Search entitled or access-controlled indexes using the `x-content-ai-mcp-api-key` header together with your signed-in Adobe identity (passed through by CX Coworker). Results respect your permissions.
 
-## How Developers Can Use It
+## How developers can use it
 
 Connect [Adobe CX Coworker](https://ao.adobe.io/#) to the Content AI MCP Server and run the scenario below.
 
-### Setup - Content AI MCP Server in Adobe CX Coworker
+### Setup - Content AI MCP server in Adobe CX Coworker
 
 Let's set up the Content AI MCP Server in Adobe CX Coworker with these steps.
 
@@ -101,7 +101,7 @@ Let's set up the Content AI MCP Server in Adobe CX Coworker with these steps.
     <!-- SCREENSHOT: New chat with Content AI MCP Server -->
     ![New Chat](../assets/content-ai-mcp-server/cx-coworker-new-chat.png)
 
-## Searching Public Indexes
+## Searching public indexes
 
 Some Content AI indexes are marked **public** and can be searched anonymously, without an entitled identity. Public indexes are read-only and are intended for openly available, non-sensitive content. Anyone with the public API key can search them.
 
@@ -111,7 +111,7 @@ Use this mode when:
 - You do not need per-user, permission-scoped results.
 - You want a simple setup that only requires an API key.
 
-To search public indexes, add the Content AI MCP Server in CX Coworker exactly as described in [Setup - Content AI MCP Server in Adobe CX Coworker](#setup---content-ai-mcp-server-in-adobe-Coworker), but in the **Add headers** step add only the `X-Api-Key` header (plus an optional `x-content-ai-mcp-routing` header for the environment):
+To search public indexes, add the Content AI MCP Server in CX Coworker exactly as described in [Setup - Content AI MCP server in Adobe CX Coworker](#setup---content-ai-mcp-server-in-adobe-cx-coworker), but in the **Add headers** step add only the `X-Api-Key` header (plus an optional `x-content-ai-mcp-routing` header for the environment):
 
 | Header | Value |
 | ------ | ----- |
