@@ -649,6 +649,12 @@ Watch this step by step video to learn how to add a CTA link to a template layer
 
 >[!VIDEO](https://video.tv.adobe.com/v/3457616)
 
+## Manage Dynamic Media templates in Adobe Journey Optimizer {#dynamic-media-templates-ajo-integration}
+
+Add your Dynamic Media template in Journey Optimizer and update your media content whenever needed. You can now incorporate personalization fields into your media, allowing you to create more customized and engaging content within Journey Optimizer.
+
+For more information, see [Manage Dynamic Media templates in Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/aem-dynamic#dynamic-media-template).
+
 ## Important points to note {#important-points-to-note}
 
 * After creating a template with parameterized image layers for dynamic updates, ensure that the images intended for future updates share the same dimensions as the parameterized images. This ensures the images fit perfectly within the layers without overflowing or leaving empty spaces. Currently, the template does not support automatic dimension adjustments to fit images into the layers.
