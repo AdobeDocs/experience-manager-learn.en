@@ -200,7 +200,7 @@ Execute these steps to add text layers to the canvas:
 
 >[!NOTE]
 >
->The Design canvas and Preview/Delivery output may show minor differences in text position or size due to differences in rendering technologies.
+>The Design canvas, Preview output, and Delivery output may show minor differences in text position or size due to differences in how the content is rendered.
 
 ![best customizable banners](./assets/templates/add-text-layer.png)
 
