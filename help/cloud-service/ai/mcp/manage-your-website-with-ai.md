@@ -18,9 +18,5 @@ In this walkthrough you _find_ a page using natural language search, _generate_ 
 
 ## Add the AEM MCP Server
 
-Register the following URL in your AI client:
-
-```
-https://mcp.adobeaemcloud.com/adobe/mcp/aem
-```
+{{aem-mcp-server-install}}
 

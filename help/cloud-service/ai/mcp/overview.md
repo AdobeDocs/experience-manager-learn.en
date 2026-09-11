@@ -14,13 +14,8 @@ exl-id: 7f2e4e37-6440-423e-9ba9-9228fe03600b
 
 The AEM Model Context Protocol (MCP) Server brings AEM into your preferred AI-powered IDE or chat-based application, to streamline and accelerate your AEM work. Describe what you want in natural language instead of writing low-level API code or navigating through the AEM UI.
 
-Register a single URL in your AI client to get access to a growing set of AEM capabilities:
-
-```
-https://mcp.adobeaemcloud.com/adobe/mcp/aem
-```
-
 ![AEM MCP Server](../assets/mcp/overview/hero.png)
+
 
 Today, the **AEM MCP Server** covers:
 
@@ -29,15 +24,13 @@ Today, the **AEM MCP Server** covers:
 
 >[!TIP]
 >
->The AEM MCP Server's tools will improve and grow over time. To see what's available now, ask your AI to list all AEM MCP tools (for example, `List all AEM MCP tools available from this server and describe what they do`) or type the `tools/list` prompt in your IDE.
+>The AEM MCP Server's tools will improve and grow over time. To see what's available now, ask your AI `AEM MCP what can you do for me?`.
 
 The [AEM MCP Server section](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/using-mcp-with-aem-as-a-cloud-service#aem-mcp-server) of the Experience League documentation has the full, up-to-date capability list.
 
 ## Connect your AI tool
 
-- **[Coworker](../coworker.md)**: Adobe's conversational AI for AEM.
-- **[ChatGPT](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-chatgpt)**: steps to connect the AEM MCP Server.
-- **[Claude](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)**: steps to connect the AEM MCP Server.
+{{aem-mcp-server-install}}
 
 >[!NOTE]
 >

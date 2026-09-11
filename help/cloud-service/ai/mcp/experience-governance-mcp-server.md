@@ -19,11 +19,7 @@ The [AEM MCP Server](./overview.md) lets AEM practitioners or content authors ma
 
 ## Add the AEM MCP Server
 
-Register the following URL in your AI client:
-
-```
-https://mcp.adobeaemcloud.com/adobe/mcp/aem
-```
+{{aem-mcp-server-install}}
 
 ## Additional resources
 

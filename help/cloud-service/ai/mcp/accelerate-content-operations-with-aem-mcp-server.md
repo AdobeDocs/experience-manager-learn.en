@@ -20,9 +20,11 @@ In this tutorial you _review_ Adventure content fragment details, _update_ a fra
 
 ## Add the AEM MCP Server
 
-This tutorial uses [Cursor IDE](https://www.cursor.com/) as an example agentic IDE; the same AEM MCP Server registration works in any MCP-compatible IDE or chat application. Connect your IDE to the AEM MCP Server and run the scenario below.
+This tutorial uses [Cursor IDE](https://www.cursor.com/) as an example agentic IDE; the same AEM MCP Server registration works in any MCP-compatible IDE or chat application.
 
-Here's how to set it up in Cursor:
+{{aem-mcp-server-install}}
+
+Here's how to set it up in Cursor, using the manual registration URL from **Other MCP clients**:
 
 1. Open Cursor on your machine.
 
