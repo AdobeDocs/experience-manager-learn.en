@@ -14,7 +14,7 @@ exl-id: 7f2e4e37-6440-423e-9ba9-9228fe03600b
 
 The AEM Model Context Protocol (MCP) Server brings AEM into your preferred AI-powered IDE or chat-based application, to streamline and accelerate your AEM work. Describe what you want in natural language instead of writing low-level API code or navigating through the AEM UI.
 
-![AEM MCP Server](../assets/mcp/overview/hero.png)
+![AEM MCP Server](../assets/mcp/overview/hero.jpg)
 
 
 Today, the **AEM MCP Server** covers:
