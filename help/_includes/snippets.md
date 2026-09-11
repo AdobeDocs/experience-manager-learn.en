@@ -32,6 +32,8 @@
 
 ## AEM MCP Server {#aem-mcp-server-install}
 
+The AEM MCP Server can be added to your AI client for seamless integration with various AI tools and platforms. Checkout the native integrations for CX Enterprise Coworker, Claude, and ChatGPT, or directly add the AEM MCP Server to your preferred AI client via the URL.
+
 <!--
 CARDS
 {target = _blank}
@@ -63,6 +65,75 @@ CARDS
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="CX Enterprise Coworker">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="/help/cloud-service/ai/coworker.md" title="CX Enterprise Coworker" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="/help/_includes/assets/coworker-logo.png" alt="CX Enterprise Coworker"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="/help/cloud-service/ai/coworker.md" target="_self" rel="referrer" title="CX Enterprise Coworker">CX Enterprise Coworker</a>
+                    </p>
+                    <p class="is-size-6">Adobe's conversational AI for CX Enterprise.</p>
+                </div>
+                <a href="/help/cloud-service/ai/coworker.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="ChatGPT">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://chatgpt.com/plugins/plugin_asdk_app_6a35d3c1258081919c084a1fd22cd02d" title="ChatGPT" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="/help/_includes/assets/openai-logo.png" alt="ChatGPT"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://chatgpt.com/plugins/plugin_asdk_app_6a35d3c1258081919c084a1fd22cd02d" target="_blank" rel="referrer" title="ChatGPT">ChatGPT</a>
+                    </p>
+                    <p class="is-size-6">Install the AEM plugin from the ChatGPT plugin store.</p>
+                </div>
+                <a href="https://chatgpt.com/plugins/plugin_asdk_app_6a35d3c1258081919c084a1fd22cd02d" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Install plugin</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Claude">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://claude.ai/settings/connectors" title="Claude" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="/help/_includes/assets/claude-logo.png" alt="Claude"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://claude.ai/settings/connectors" target="_blank" rel="referrer" title="Claude">Claude</a>
+                    </p>
+                    <p class="is-size-6">Add the AEM connector from Claude's connector directory.</p>
+                </div>
+                <a href="https://claude.ai/settings/connectors" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Add connector</span>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Other MCP clients">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
