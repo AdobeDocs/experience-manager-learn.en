@@ -32,6 +32,8 @@ The [AEM MCP Server section](https://experienceleague.adobe.com/en/docs/experien
 
 {{aem-mcp-server-install}}
 
+&nbsp;
+
 >[!NOTE]
 >
 >Cloud Manager and Cloud Migration aren't part of `/aem` yet, so they still need their own registration. The [Domain-Specific MCP Servers](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/using-mcp-with-aem-as-a-cloud-service#mcp-servers-provided-by-aem) section has the details.

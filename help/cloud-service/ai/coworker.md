@@ -1,5 +1,5 @@
 ---
-title: Coworker in AEM
+title: CX Enterprise Coworker in AEM
 description: Learn how Coworker's conversational AI helps you generate assets, check brand compliance, and get more done in Adobe Experience Manager.
 version: Experience Manager as a Cloud Service
 role: Leader, User, Developer, Admin
@@ -9,7 +9,7 @@ duration: 0
 last-substantial-update: 2026-09-01
 ---
 
-# Coworker and AEM
+# CX Enterprise Coworker and AEM
 
 ![Coworker](./assets/coworker/coworker-hero.png)
 
