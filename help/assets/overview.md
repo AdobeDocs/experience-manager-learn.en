@@ -52,6 +52,12 @@ Take a first look at the Assets view interface: My Workspace, search, tasks, ins
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502566/?learn=on&enablevpops)
 
+## Browse, search, and download assets in the Assets view
+
+Browse assets by list, grid, or gallery layout, then use full-text search, metadata filters, and saved searches to narrow results. Preview an asset's details, renditions, comments, and versions, and download a single asset or a zip of several at once.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3503374/?learn=on&enablevpops)
+
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
 <div id="recs-overview-body-3"></div>
