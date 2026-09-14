@@ -97,6 +97,8 @@ team: TM
     + [Theming](./sharing/asset-share-commons-feature-video-theming.md)
     + [Asset kits](./sharing/asset-share/asset-share-commons-asset-kits.md)
 
+  + [Dynamic Media](./sharing/dynamic-media.md)
+
 + Integrations{#integrations}
   + Creative Cloud and panels{#creative-cloud-and-panels}
     + [Creative Cloud Libraries](./creative-workflows/creative-cloud-libraries.md)
