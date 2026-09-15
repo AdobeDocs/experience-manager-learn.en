@@ -74,6 +74,8 @@ team: TM
     + [Export assets](./sharing/export.md)
     + [Publish assets](./sharing/publish.md)
 
+  + [Dynamic Media](./sharing/dynamic-media.md)
+
   + Brand Portal{#brand-portal}
     + [Brand Portal](./sharing/brand-portal.md)
     + [Configure asset sourcing](brand-portal/configure-asset-sourcing.md)
@@ -96,8 +98,6 @@ team: TM
     + [Set up on local AEM](./sharing/asset-share-commons-technical-video-setup.md)
     + [Theming](./sharing/asset-share-commons-feature-video-theming.md)
     + [Asset kits](./sharing/asset-share/asset-share-commons-asset-kits.md)
-
-  + [Dynamic Media](./sharing/dynamic-media.md)
 
 + Integrations{#integrations}
   + Creative Cloud and panels{#creative-cloud-and-panels}
