@@ -19,7 +19,7 @@ For AEM, this means less time spent clicking through the UI and more time spent 
 
 See [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview) for a full introduction to Coworker Chat, its capabilities, and supported applications.
 
-## AEM and Coworker in action
+## AEM in Coworker
 
 <!--
 CARDS
