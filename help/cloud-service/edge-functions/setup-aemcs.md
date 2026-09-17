@@ -416,3 +416,4 @@ You've successfully set up AEM Edge Functions on your AEM as a Cloud Service env
 - [Traffic Filter and WAF Rules](../security/traffic-filter-and-waf-rules/overview.md)
 - [CDN configuration in AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic)
 - [Use config pipelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline)
+- [Publish Delivery Transformer example](https://github.com/adobe/aem-edge-functions-examples/blob/main/examples/publish-delivery-transformer/README.md)
