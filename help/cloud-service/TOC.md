@@ -336,6 +336,9 @@ team: TM
     + Automate Forms Portal Reminders with AJO{#automate-forms-portal-reminder-emails}
         + [Implementation Steps](./forms/forms-completion-reminder-portal/use-case-implementation.md)
         + [Dashboard](./forms/forms-completion-reminder-portal/build-dashboard.md)
+    + Secure Forms Portal with Entra{#aem-with-entra-id}
+        + [Configure Entra ID for authentication](./forms/aem-with-entra-id/secure-forms-portal-wth-entra.md)
+        + [Configure AEM with SAML](./forms/aem-with-entra-id/aem-configuration.md)
     + Reminding users to submit form{#form-completion-reminder}
         + [1 - Introduction](./forms/form-completion-reminder/introduction.md)
         + [2 - Event Schema](./forms/form-completion-reminder/event-schema.md)
