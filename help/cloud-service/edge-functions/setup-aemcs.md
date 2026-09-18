@@ -281,6 +281,17 @@ For more information on supported properties, see [edgeFunctions.yaml reference]
 kind: 'CDN'
 version: '1'
 data:
+  requestTransformations:
+    rules:
+      # The /weather response depends on the caller's IP-based geolocation. Fold the
+      # client IP into the cache key (as an `ip` query parameter) so the response can be
+      # cached per client instead of opting out of caching with skipCache.
+      - name: add-client-ip-to-weather
+        when: { reqProperty: path, equals: "/weather" }
+        actions:
+          - type: set
+            queryParam: ip
+            value: { reqProperty: clientIp }
   originSelectors:
     rules:
       - name: route-weather-to-edge-function
@@ -288,19 +299,17 @@ data:
         action:
           type: selectAemOrigin
           originName: edgefunction-my-edge-function
-          skipCache: true
       - name: route-hello-world-to-edge-function
         when: { reqProperty: path, equals: "/hello-world" }
         action:
           type: selectAemOrigin
           originName: edgefunction-my-edge-function
-          skipCache: true
 ```
 
 Key call outs:
     - The `originName` must follow the pattern `edgefunction-<edge-function-name>`, where `<edge-function-name>` is the name of the AEM Edge Function declared in `edgeFunctions.yaml`.
     - The `type` must be `selectAemOrigin`.
-    - The `skipCache` is set to `true` to bypass the CDN cache for the request.
+    - Responses are cached at the CDN according to their `Cache-Control` headers — these routes intentionally do not set `skipCache: true`. `/hello-world` is static and cached directly; `/weather` varies by the caller's IP-based location, so the request transformation folds the client IP into the cache key (an `ip` query parameter) to keep it cacheable per client. See [Caching in AEM Edge Functions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions-caching).
 
 For more information, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors). Note that the `cdn.yaml` file also supports traffic filter rules, request and response transformation, and other CDN features. For more information, see [Configuring traffic at the CDN](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#initial-setup).
 
