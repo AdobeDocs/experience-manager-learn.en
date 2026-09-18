@@ -666,5 +666,5 @@ For more information, see [Manage Dynamic Media templates in Adobe Journey Optim
 
 ## See also
 
-* Explore [[!DNL Dynamic Media] and its capabilities](/help/assets/dynamic-media/dynamic-media.md)
-* Explore [[!DNL Dynamic Media] with OpenAPI capabilities](/help/assets/dynamic-media-open-apis-overview.md)
+* Explore [[!DNL Dynamic Media] and its capabilities](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+* Explore [[!DNL Dynamic Media] with OpenAPI capabilities](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
