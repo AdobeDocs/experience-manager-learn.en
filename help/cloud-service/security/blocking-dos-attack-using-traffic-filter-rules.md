@@ -12,10 +12,13 @@ last-substantial-update: 2024-04-19T00:00:00.000Z
 jira: KT-15184
 thumbnail: KT-15184.jpeg
 exl-id: 60c2306f-3cb6-4a6e-9588-5fa71472acf7
-TQID: https://experienceleague.adobe.com/nUK-9409I92DO9GMz0m-aa1zdd1coaPqJN2vJ0vZah0
+TQID: 'https://experienceleague.adobe.com/3D71ey2oMx936JDdtvtawxFbb52VMIaUI4mm8m4J7kc'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

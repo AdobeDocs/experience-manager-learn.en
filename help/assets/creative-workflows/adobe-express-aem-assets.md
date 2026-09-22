@@ -11,7 +11,7 @@ jira: KT-15375
 doc-type: Feature Video
 duration: 583
 exl-id: 951bb255-e3e7-4bd5-9d48-7ff0469860af
-TQID: https://experienceleague.adobe.com/gIypWLlKaJpQZBXfLC0FFwBziFmQmdnTCFt4xzuYyWQ
+TQID: 'https://experienceleague.adobe.com/MghSE3edcwvNNLBCsPyFj84E4afDBoglGx0q4w1kPIg'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

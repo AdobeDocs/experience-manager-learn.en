@@ -12,7 +12,7 @@ thumbnail: KT-17425.jpeg
 last-substantial-update: 2025-02-28T00:00:00.000Z
 duration: 0
 exl-id: 23b2be0d-a8d4-4521-96ba-78b70f4e9cba
-TQID: https://experienceleague.adobe.com/aqg-UeQ4mDmtPWA8VVUL9i9Av-ZUMycP6wGbxyzu3dU
+TQID: 'https://experienceleague.adobe.com/WbsvMZ2GkCg-84XT54vakcaHqivQVdVr10uwURD-cYc'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -23,6 +23,18 @@ feature_v2:
     internal-label: Integrations
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: 4e98bff0-c1e9-5ae2-adfb-81189dc510c5
+    internal-label: Query Builder
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader

@@ -11,7 +11,7 @@ doc-type: Catalog
 duration: 40
 last-substantial-update: 2023-12-01T00:00:00.000Z
 exl-id: 172a477f-d277-43c1-8e47-68870b02203c
-TQID: https://experienceleague.adobe.com/3NPqE1ImrzZg9RWWyvIFGyvbD7SuzpN98RqOLCZqwRo
+TQID: 'https://experienceleague.adobe.com/xDmI3mQ4h9rc84IkLFqQCyaD1oJqM-Qjd0fuuvbfDzU'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -22,6 +22,12 @@ feature_v2:
     internal-label: Authoring
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
     internal-label: Generative AI
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: e56728f4-5c82-49ef-8986-4b5f27301f7a
     internal-label: Generate Variations

@@ -9,7 +9,16 @@ level: Intermediate
 doc-type: Article
 jira: KT-22059
 thumbnail: KT-22059.jpeg
-last-substantial-update: 2026-07-15
+last-substantial-update: 2026-07-15T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/Kf7XcpeUP9EDKOY-7dCGEp4PBo5E-mPOSIxXrTRfAYA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 ---
 # HTTP request filters with Edge Functions
 

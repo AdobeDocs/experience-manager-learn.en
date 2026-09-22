@@ -6,9 +6,21 @@ role: Leader, User
 level: Beginner
 doc-type: Feature Video
 duration: 205
-last-substantial-update: 2025-12-04
+last-substantial-update: 2025-12-04T00:00:00.000Z
 jira: KT-19319
 exl-id: d8b993db-ff7d-4c0c-8327-4ad7692485b9
+TQID: 'https://experienceleague.adobe.com/fEledbzuzVXfQdXw9ocSJyFbqaxWM2Yq2C6OJdKAJAI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # AEM AI Assistant
 

@@ -12,7 +12,7 @@ thumbnail: 331891.jpg
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16023
 exl-id: 84c03212-47dc-4398-a197-e69e3f3bf77e
-TQID: https://experienceleague.adobe.com/C-xNLE378CXNjCb15js5D8Ryyd8eS9gTn3YRJ6Ar5Sw
+TQID: 'https://experienceleague.adobe.com/BOjQthxtwzHJT-N6mpCiEcscD8SMfFmHjJTFiMOKqD4'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -26,6 +26,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Introduction to vertical tabs
 

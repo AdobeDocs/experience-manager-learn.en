@@ -12,6 +12,10 @@ duration: 95
 index: false
 hide: true
 exl-id: 8b13fb6c-f16f-45ba-aca1-c72c7e218b95
+TQID: 'https://experienceleague.adobe.com/a5P5Bz8xTqy9-tM2-u99E0KFQ2z06s3qUFjA2hyiXwg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # PGA TOUR Case Study: Optimizing Core Web Vitals
 

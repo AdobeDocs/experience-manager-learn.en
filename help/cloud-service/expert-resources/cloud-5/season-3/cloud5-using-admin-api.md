@@ -12,10 +12,13 @@ recommendations: noDisplay, noCatalog
 last-substantial-update: 2024-09-04T00:00:00.000Z
 jira: KT-16087
 exl-id: 93a8a2b5-ddd2-43f7-a02b-63036b450614
-TQID: https://experienceleague.adobe.com/OBYEYu0YSE0R5WavLMOayzJ9AR4S4glUoewtQ62TtAs
+TQID: 'https://experienceleague.adobe.com/iereD9VeGxVX5701CUViO67-NihTeszlI1-jT59zapQ'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

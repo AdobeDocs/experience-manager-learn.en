@@ -10,7 +10,7 @@ last-substantial-update: 2022-06-19T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 78664b38-b64a-4220-bb7a-83f09bdd441a
 duration: 93
-TQID: https://experienceleague.adobe.com/LfJoVFNyo3C-PuZMJp28-flCh2TWhSFP0OSQtlg0Lvo
+TQID: 'https://experienceleague.adobe.com/3lJXnfXOecflBMmWhxKJFfhIiLUmtkJv9r2IytuJjHU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

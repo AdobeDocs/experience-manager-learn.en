@@ -9,10 +9,15 @@ role: Admin
 level: Beginner
 exl-id: af8f499c-4955-44b5-8f21-085263ca31a3
 duration: 357
-TQID: https://experienceleague.adobe.com/ilNPFAjgfk4dR4LBG6L5Yk7TminoUWFlndcKxOssGGE
+TQID: 'https://experienceleague.adobe.com/3gchZgISgg2H0zcHaa-zfclSySxf-Fmoluh6SzbZNlw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

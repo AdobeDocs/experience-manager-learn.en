@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 doc-type: Feature Video
 duration: 233
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 jira: KT-15930
 exl-id: ffbe2da8-1ffe-4d61-a3fa-c76136933dc2
-TQID: https://experienceleague.adobe.com/OCg9P9xAXbsQwwzZjWgWlzKEynufUZJjVGoukr781CM
+TQID: 'https://experienceleague.adobe.com/gTqrlpWfM0C4Lnk03EpaOh3H1fWr0dgc7Fi-0CA1ubM'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

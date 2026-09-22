@@ -5,11 +5,18 @@ version: Experience Manager as a Cloud Service
 role: Developer
 level: Beginner
 doc-type: tutorial
-duration: null
+duration: 
 jira: KT-20288
 thumbnail: KT-20288.png
-last-substantial-update: 2026-02-09
+last-substantial-update: 2026-02-09T00:00:00.000Z
 exl-id: 287894ea-9cc1-4c27-ac7e-967ad46f4789
+TQID: 'https://experienceleague.adobe.com/5GMhLHgOWc-giH7-xDqBmRhUYd6c1D-rN61gLf805xM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 ---
 # Find and remove deprecated APIs in AEM as a Cloud Service
 

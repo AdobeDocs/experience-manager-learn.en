@@ -7,10 +7,28 @@ role: Admin, Developer
 level: Beginner
 doc-type: Article
 duration: 268
-last-substantial-update: 2026-04-24
+last-substantial-update: 2026-04-24T00:00:00.000Z
 jira: KT-20901
 thumbnail: KT-20901.png
 exl-id: bd9b74e8-81ab-4d42-bd0a-5443248b5770
+TQID: 'https://experienceleague.adobe.com/hCwb8Q0RK948GfEyG2MytBRe93lSYrYuxon7LMF479c'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+    internal-label: AI Tools
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Component development using AEM Agent Skills
 

@@ -10,7 +10,7 @@ thumbnail: 340667.jpeg
 last-substantial-update: 2022-10-01T00:00:00.000Z
 exl-id: 5dc40184-15d3-483a-885e-1b241e6514ba
 duration: 292
-TQID: https://experienceleague.adobe.com/eaIQrgu2nPDnwbsQO7ZM-frfM6NNf-tNiAoIIk-QBKc
+TQID: 'https://experienceleague.adobe.com/Uez93rXfPQz2O-Kg7m1BJp2nAm-xrALVZLi7Mr78nDI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

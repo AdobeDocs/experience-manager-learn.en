@@ -10,7 +10,7 @@ index: true
 doc-type: Tutorial
 exl-id: 0fd4d366-bb7a-4c43-887f-3a83cf60d15b
 duration: 154
-TQID: https://experienceleague.adobe.com/E2IOYWSo0bTcCgXUurCJBTNul2Z-DaOkiyukBEPHxvI
+TQID: 'https://experienceleague.adobe.com/GK71btlbf8KTwos-W9Sb7Enc-g-2HcqHJ1p3qD6fZ2g'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

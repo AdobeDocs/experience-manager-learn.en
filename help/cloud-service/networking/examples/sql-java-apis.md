@@ -10,13 +10,15 @@ jira: KT-9356
 thumbnail: KT-9356.jpeg
 exl-id: ec9d37cb-70b6-4414-a92b-3b84b3f458ab
 duration: 124
-TQID: https://experienceleague.adobe.com/d11ngPOQqZXVicLGtYTUc8WbCOCzv5cLrK3ZpQ2xJNc
+TQID: 'https://experienceleague.adobe.com/Wp8aZJ6YDVIRRuZ-tmDz8HZJ8mDe3BODsMZAhsUBfDw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
 subfeature_v2:
   - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
     internal-label: Cloud Manager APIs

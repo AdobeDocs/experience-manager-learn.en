@@ -8,9 +8,19 @@ role: Developer
 level: Intermediate
 doc-type: Technical Video
 duration: 340
-last-substantial-update: 2026-03-16
+last-substantial-update: 2026-03-16T00:00:00.000Z
 jira: KT-20540
 exl-id: f7b280b8-1fad-425c-aa3d-a960b257d5ec
+TQID: 'https://experienceleague.adobe.com/jqw--QT8U5dPt68Oh4jd3MKyt9FN1bZ-XuO9G5x4yfc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Integrate AEM Forms with Adobe Experience Platform
 

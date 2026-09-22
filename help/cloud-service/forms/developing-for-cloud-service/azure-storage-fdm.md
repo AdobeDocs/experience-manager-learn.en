@@ -11,7 +11,7 @@ feature: Developer Tools
 jira: KT-9006
 exl-id: 77c00a35-43bf-485f-ac12-0fffb307dc16
 duration: 45
-TQID: https://experienceleague.adobe.com/6lR5LZgNgs9Ol92WKpu7E63OmkreAPvLFge9pnaueO4
+TQID: 'https://experienceleague.adobe.com/96OA5VvZ7-FCWrvMlJcKhwTuu8Hrq9zJlrYxdAHcXDk'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

@@ -11,7 +11,7 @@ thumbnail: 32547.jpg
 doc-type: Technical Video
 exl-id: ad767329-58bc-44ec-83de-2f5e3c8a30a3
 duration: 740
-TQID: https://experienceleague.adobe.com/Dlp1YjwPtZDONafP-uHTjHnhq3p4UAHG4AVYMNSaq0g
+TQID: 'https://experienceleague.adobe.com/4J3TdglSYUqDbbErxkuDlKciEdHnyAnvr9JKiSpN9bM'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -22,6 +22,10 @@ feature_v2:
     internal-label: Authoring
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -10,12 +10,17 @@ role: User
 level: Beginner
 exl-id: 565d81a4-2918-44ea-a3e9-ed79f246f08a
 duration: 71
-TQID: https://experienceleague.adobe.com/wFUw-kmZX7dpbBe0pUeOGJk-weGenjbdxhnu-eRjdUE
+TQID: 'https://experienceleague.adobe.com/Phi65i5QcoCmBCz5HfefdoI25E7wQFtSW-eZBXamLP0'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a16aea24-4e85-528d-9377-cd80bb039c1d
+    internal-label: Acrobat Sign
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

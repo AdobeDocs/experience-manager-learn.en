@@ -11,10 +11,15 @@ jira: KT-11200
 thumbnail: kt-11200.jpg
 exl-id: bdec6cb0-34a0-4a28-b580-4d8f6a249d01
 duration: 399
-TQID: https://experienceleague.adobe.com/C0DwOdrR8CFrwhKN-VUOY-aIxrtVPslM3MeRihZNdO8
+TQID: 'https://experienceleague.adobe.com/ecbYhKNFVrj1s7GuCI2C6zMds9lYEey5Rt8x6JWimT4'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -5,10 +5,28 @@ version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
 level: Beginner
 doc-type: tutorial
-duration: null
-last-substantial-update: 2026-09-10
+duration: 
+last-substantial-update: 2026-09-10T00:00:00.000Z
 jira: KT-20474
 exl-id: 843209cb-2f31-466c-b5b1-a9fb26965bc0
+TQID: 'https://experienceleague.adobe.com/qBBcGAhsbGIAvXirzYsPnF4cDuTibZfniQwBeKSFrY8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Create test content without leaving your IDE
 

@@ -8,8 +8,9 @@ jira: KT-8413
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Article
+TQID: 'https://experienceleague.adobe.com/r7q8iNgreKwAb-33ETWRSVqcwzkIoMqhEymY9OuOlPo'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -18,6 +19,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

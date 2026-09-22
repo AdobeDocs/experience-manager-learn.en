@@ -7,10 +7,19 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 duration: 0
-last-substantial-update: 2026-04-24
+last-substantial-update: 2026-04-24T00:00:00.000Z
 jira: KT-20900
 thumbnail: KT-20900.png
 exl-id: c92d9124-4b92-4ee1-b04f-b6d1f82d53aa
+TQID: 'https://experienceleague.adobe.com/1XPwEsiJ-ctI--N-ufhjEu4q6nQrbUXG637rly3KJ9o'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+    internal-label: AI Tools
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
 ---
 # Set up AEM Agent Skills
 

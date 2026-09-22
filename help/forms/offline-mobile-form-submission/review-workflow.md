@@ -10,12 +10,17 @@ level: Experienced
 jira: kt-16133
 exl-id: a767d8f8-d75e-4472-9139-c08d804ee076
 duration: 32
-TQID: https://experienceleague.adobe.com/-NmccNzlBiuRwAKFMXRAzc0p0g3BlTaRWASCmmWfCN0
+TQID: 'https://experienceleague.adobe.com/6cj-fL-6gj3ucEBj2zoK6UxW9slzbwaGhRgCzPZZWsE'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 59f95943-e802-56ac-990d-21ab923984c1
+    internal-label: Mobile Forms
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

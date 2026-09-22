@@ -13,7 +13,7 @@ doc-type: Tutorial
 exl-id: 0bdb93c9-5070-483c-a34c-f2b348bfe5ae
 duration: 297
 hide: true
-TQID: https://experienceleague.adobe.com/d-uowdzN4SfA-IPCWw5q04AO-fKTypan-sJ8zBY7Ytc
+TQID: 'https://experienceleague.adobe.com/5WwNEcJvtVOZti9gMZTD7i6rPNiPn5NYUnPChewb1bE'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -26,6 +26,16 @@ feature_v2:
     internal-label: Universal Editor
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

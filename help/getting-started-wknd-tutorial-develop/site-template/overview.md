@@ -11,7 +11,7 @@ thumbnail: 333477.jpg
 doc-type: Tutorial
 exl-id: a55c1dda-f74a-4914-aa1b-c4de8ad1253e
 duration: 426
-TQID: https://experienceleague.adobe.com/uKYtEWSjNFxFhKgVlKvj4sRuUObxCvHLwKn8QN7Vhy0
+TQID: 'https://experienceleague.adobe.com/ka15pgWyNTqsLO2IxeZciXHKEXw5K355gQiymBlJzi4'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -20,6 +20,10 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

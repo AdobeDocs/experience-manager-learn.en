@@ -14,7 +14,7 @@ badgeVersions: label="AEM Assets as a Cloud Service, AEM Assets 6.5" before-titl
 doc-type: Feature Video
 exl-id: 0e9d056a-4eec-450c-a941-b9563634fe8a
 duration: 1222
-TQID: https://experienceleague.adobe.com/KtRXVwtqNNiCeBsiO4eV3H0chKznLSdhav8Lm9tdt0I
+TQID: 'https://experienceleague.adobe.com/swnaeZYQaJPvwruds0xlla3qa8CLkc6si5HvK-VzjUU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -29,6 +29,8 @@ feature_v2:
     internal-label: Configuration
   - id: e17747bc-9b7b-44e6-a443-f54229a02620
     internal-label: Integrations
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

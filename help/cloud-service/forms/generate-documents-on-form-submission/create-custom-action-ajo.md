@@ -5,8 +5,17 @@ role: Developer
 level: Intermediate
 doc-type: Technical Video
 duration: 166
-last-substantial-update: 2026-06-09
+last-substantial-update: 2026-06-09T00:00:00.000Z
 jira: KT-20592
+TQID: 'https://experienceleague.adobe.com/a-wXDsG5ReLBK1zypFisO7ZrFvW3J7Xl4ymxvGGWQ98'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 ---
 
 # Creating custom actions in AJO

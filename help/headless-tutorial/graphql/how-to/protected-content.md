@@ -10,7 +10,7 @@ jira: KT-15233
 last-substantial-update: 2024-05-01T00:00:00.000Z
 exl-id: c4b093d4-39b8-4f0b-b759-ecfbb6e9e54f
 duration: 254
-TQID: https://experienceleague.adobe.com/-Tw-Lti7wRQp4IDteRBBTsKM7EtHONHFCNj9RGZ3W9k
+TQID: 'https://experienceleague.adobe.com/lKJ-C-oPELPwB8nEy-qEDD7HaprLv2Rfw-CU4eoodLA'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -19,6 +19,10 @@ product_v2:
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

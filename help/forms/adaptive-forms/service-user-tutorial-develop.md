@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 5fa3d52a-6a71-45c4-9b1a-0e6686dd29bc
 last-substantial-update: 2020-09-09T00:00:00.000Z
 duration: 129
-TQID: https://experienceleague.adobe.com/-CT7RNyR-VJekLVgLyg29BvltjyoHLlbUo59Jnli3KA
+TQID: 'https://experienceleague.adobe.com/g89ndVlidrz4ivUHZe8-vlJTZ4dw-8hcnH1rza-ZEuM'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -17,6 +17,14 @@ product_v2:
 feature_v2:
   - id: d49d6117-dd89-469c-a774-cc96b7eee433
     internal-label: Administration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -10,7 +10,7 @@ jira: KT-9354
 thumbnail: KT-9354.jpeg
 exl-id: c8cc0385-9e94-4120-9fb1-aeccbfcc8aa4
 duration: 86
-TQID: https://experienceleague.adobe.com/bJrIL0qrC9bcVqZobEm5u8GN-5B-w5NlExCwi2eZ-Qs
+TQID: 'https://experienceleague.adobe.com/ueDfKdgGch3OORSgQs0-XWa--kMqYABi2iZUFhYtX3w'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

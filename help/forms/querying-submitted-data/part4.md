@@ -9,6 +9,17 @@ role: Developer
 level: Experienced
 exl-id: a8d8118d-f4a1-483f-83b4-77190f6a42a4
 duration: 99
+TQID: 'https://experienceleague.adobe.com/kPiB0kqD16-KsRhBm-5EhVIDdL3RaE-BjU37qHy8VMs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 4e98bff0-c1e9-5ae2-adfb-81189dc510c5
+    internal-label: Query Builder
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 ---
 # Querying Submitted Data
 

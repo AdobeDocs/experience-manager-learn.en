@@ -9,7 +9,7 @@ level: Intermediate, Experienced
 doc-type: Technical Video
 exl-id: 8fbc3819-3214-4c58-8629-a27eb6f0c545
 duration: 1005
-TQID: https://experienceleague.adobe.com/-PS1VHsxsvhYBPMxNJVGfsXHM-fUxUNEVDKqpzx9oaI
+TQID: 'https://experienceleague.adobe.com/mHpy4sydDssheaExMlQO9bG6Id3bZv-IyoxkDgqYgII'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -18,6 +18,10 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 subfeature_v2:
   - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
     internal-label: Page editor

@@ -6,10 +6,20 @@ role: Leader, User, Developer
 level: Beginner
 doc-type: Feature Video
 duration: 170
-last-substantial-update: 2026-05-14
+last-substantial-update: 2026-05-14T00:00:00.000Z
 jira: KT-21219
 thumbnail: KT-21219.jpeg
 exl-id: 
+TQID: 'https://experienceleague.adobe.com/uNUpi1QbU3xKMn1VBql-qYnbnV0Aq4VkeO76wdJXw9k'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 
 # Brand Experience Agent

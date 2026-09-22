@@ -8,11 +8,11 @@ thumbnail: 32194.jpg
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 76ff5acd-63e3-4266-8458-30735e90e2e2
 duration: 140
-TQID: https://experienceleague.adobe.com/Gb9eLuPesgU3ocI9pLToYEGmz-QRhb5Ub-VAZdxzkZA
+TQID: 'https://experienceleague.adobe.com/aceuILRlCs3xbG6cfMo0vMYpPp8jpRobI7Jem27DeXQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -23,6 +23,8 @@ feature_v2:
     internal-label: Content management
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -9,7 +9,14 @@ level: Intermediate
 doc-type: Article
 jira: KT-22146
 thumbnail: KT-22146.jpeg
-last-substantial-update: 2026-07-24
+last-substantial-update: 2026-07-24T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/j-MOht9QGZVFMsm8IVz1l7SiQRfmaX0dcgN7Egj6Y08'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 ---
 # AEM Edge Function deployment strategy on Edge Delivery Services
 

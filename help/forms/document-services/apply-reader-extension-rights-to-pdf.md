@@ -9,12 +9,21 @@ level: Experienced
 exl-id: ea433667-81db-40f7-870d-b16630128871
 last-substantial-update: 2020-07-07T00:00:00.000Z
 duration: 129
-TQID: https://experienceleague.adobe.com/YWDH8lD9zYkQOAPXR5JHFE0zybT6mB2fYn0gFo54gqo
+TQID: 'https://experienceleague.adobe.com/St9ZoM1lMZqeNCTlkuLx3G8Vsjfwlq3Tpd9lwyg8zqg'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 621ad6f8-3769-57bb-838c-1d26cfb18d50
+    internal-label: Reader Extensions
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

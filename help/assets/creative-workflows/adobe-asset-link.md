@@ -8,11 +8,11 @@ role: User
 level: Beginner
 thumbnail: 28988.jpg
 jira: KT-8413, KT-3707
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 6c49f8c2-f468-4b29-b7b6-029c8ab39ce9
 duration: 342
-TQID: https://experienceleague.adobe.com/WFc9fKqHg7e5SW7ZNBu2C5Wgi0uE7vlx3fQ9Isr-1ME
+TQID: 'https://experienceleague.adobe.com/-tbeQnB40Loh1F7GO-boNK491cjs-ScS9yjEP9JDAg4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,10 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

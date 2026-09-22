@@ -10,12 +10,17 @@ level: Beginner
 exl-id: 80288765-0b51-44a9-95d3-3bdb2da38615
 last-substantial-update: 2020-06-09T00:00:00.000Z
 duration: 113
-TQID: https://experienceleague.adobe.com/Jy9knaAS6uMGP6pjxVZjLvfqQDeL6ig2oEbWNUAf9rM
+TQID: 'https://experienceleague.adobe.com/vzdUA-cyDaU9E-ostJXjdiwkJ38hNFUhdeJusrTcpck'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 621ad6f8-3769-57bb-838c-1d26cfb18d50
+    internal-label: Reader Extensions
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

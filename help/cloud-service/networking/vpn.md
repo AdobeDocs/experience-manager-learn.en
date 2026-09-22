@@ -11,7 +11,7 @@ thumbnail: KT-9352.jpeg
 exl-id: 74cca740-bf5e-4cbd-9660-b0579301a3b4
 last-substantial-update: 2024-04-27T00:00:00.000Z
 duration: 919
-TQID: https://experienceleague.adobe.com/iQOHdCZpowXCPZ1n10KYuujABFaDrRCOpSRocWAzN88
+TQID: 'https://experienceleague.adobe.com/ucNPZY1XEy23xbzKIDgM0EXMBEi3f8cfDYFQOLWErLY'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

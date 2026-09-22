@@ -4,9 +4,9 @@ description: Watch our videos to get AEM Assets support and assistance, in both 
 sub-product: Experience Manager Assets
 version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 doc-type: Catalog
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 exl-id: 1d0b0183-25ee-4cb4-82a5-3506e7c1c908
-TQID: https://experienceleague.adobe.com/nn11K1DaacO-2-I5WUpaTYE2syZ7BDcZD3JE74tt14s
+TQID: 'https://experienceleague.adobe.com/va4Ist5JLaswPFPEg9yRCqxzGWTqI1-6WHHpvWlgwlw'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -15,6 +15,10 @@ product_v2:
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop
@@ -27,6 +31,8 @@ topic_v2:
     internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # AEM Assets videos and tutorials {#overview}
 

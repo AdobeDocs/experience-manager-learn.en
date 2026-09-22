@@ -12,11 +12,11 @@ topic: Content Management
 role: User
 level: Beginner
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 24d62f81-a6a6-4cfd-b529-b071539a2c1d
 duration: 69
-TQID: https://experienceleague.adobe.com/lSqp62LqOn6amG-ln9-YwCVIzc0FDpEdCWVB4kAapnY
+TQID: 'https://experienceleague.adobe.com/DavHWGcL35xk1bHg88XmiCxt40p2s06M-VJ0SCJ1yNE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -25,6 +25,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

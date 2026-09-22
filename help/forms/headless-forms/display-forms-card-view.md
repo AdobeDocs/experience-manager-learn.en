@@ -9,18 +9,28 @@ role: User
 level: Intermediate
 exl-id: c01ad68e-23c9-4564-8e3e-1924af34a493
 duration: 91
-TQID: https://experienceleague.adobe.com/hLgxU-u6UHnymh5kOzG2BRrJAsIv5sgCXN9lJ5ZmWQQ
+TQID: 'https://experienceleague.adobe.com/vO5FBMtzIFRvW2wd4ow33n9yz246XTxyf3eiUF4QhgM'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Fetch and display the forms in card format
 

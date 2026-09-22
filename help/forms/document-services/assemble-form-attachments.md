@@ -11,12 +11,21 @@ level: Experienced
 exl-id: a5df8780-b7ab-4b91-86f6-a24392752107
 last-substantial-update: 2021-07-07T00:00:00.000Z
 duration: 150
-TQID: https://experienceleague.adobe.com/tQF1viDw-xjyPdgWCEaIfqTXtB2XocBy0Bk-nIGaMSw
+TQID: 'https://experienceleague.adobe.com/9Zic8E59GYMaxHiAETHxy8-TQ3UGJ0QPjpCvdPVoRCI'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 4aaecafe-7152-5c39-af9c-a42e297c87ff
+    internal-label: Assembler
+  - id: 4e98bff0-c1e9-5ae2-adfb-81189dc510c5
+    internal-label: Query Builder
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

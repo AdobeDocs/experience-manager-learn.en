@@ -12,11 +12,11 @@ level: Intermediate
 jira: KT-616
 thumbnail: 20702.jpg
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 73e793e0-a20e-4954-ba1a-471b2cd85120
 duration: 345
-TQID: https://experienceleague.adobe.com/ngfqVblPndXeyDkvcolJOJRWiamW-wC-VBRTC6e2ggM
+TQID: 'https://experienceleague.adobe.com/0L22JpgGLW2DIN7hUx6BAqouyqRCqwXFCN0Fk5Wa3iE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

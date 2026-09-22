@@ -10,7 +10,7 @@ doc-type: Catalog
 duration: 60
 last-substantial-update: 2024-11-20T00:00:00.000Z
 exl-id: ea7b852e-b40d-44ef-ba63-69081e68456e
-TQID: https://experienceleague.adobe.com/tjw8pu8MecrDhp3LPbQsNJmvc5NAGI2UIr%2D%2D%2DlVP-Tk
+TQID: 'https://experienceleague.adobe.com/lrw7qOUK8JzcRy4yMf-Ld3Xl5v7va2E6kwMTEYS8yno'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,14 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -8,16 +8,25 @@ thumbnail: 37323.jpg
 topic: Development
 role: Developer
 level: Intermediate
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 5e423f2c-90d2-474f-8bdc-fa15ae976f18
 duration: 385
-TQID: https://experienceleague.adobe.com/ICG-9wtOHeIL3YBpRL5lxoJZgSZE8ci9FPz6BJznhBM
+TQID: 'https://experienceleague.adobe.com/k-3fA2q1sqDhrY3blkO4xAw9KE7KXEKsa96DLL2khmY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: ee4c2482-9595-5bc0-b9be-c0c6f02eba50
+    internal-label: Asset Processing
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

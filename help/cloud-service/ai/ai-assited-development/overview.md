@@ -7,10 +7,34 @@ role: Developer
 level: Beginner
 doc-type: Article
 duration: 0
-last-substantial-update: 2026-04-24
+last-substantial-update: 2026-04-24T00:00:00.000Z
 jira: KT-20899
 thumbnail: KT-20899.pngKT-20899
 exl-id: 19b7ab0b-2f47-434a-a141-17701f432fac
+TQID: 'https://experienceleague.adobe.com/noge-tMqZXKWkspcf3fn2PbsR4HaJXjHp2ik3q-vH3k'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+    internal-label: AI Tools
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
 # AI-assisted development
 

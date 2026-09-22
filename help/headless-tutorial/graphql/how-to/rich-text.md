@@ -10,7 +10,7 @@ level: Intermediate
 role: Developer
 exl-id: 790a33a9-b4f4-4568-8dfe-7e473a5b68b6
 duration: 785
-TQID: https://experienceleague.adobe.com/zPXux2dTGSPe0TTx-nTwkd27dtUH1FkTcjshO6EMVVo
+TQID: 'https://experienceleague.adobe.com/bnPeHVtcb9UQFN7yfeWdvb-9M71y01UIcG9R8DHzAcQ'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,10 @@ feature_v2:
     internal-label: APIs
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 523b1ccd-901e-5e3b-9fa7-f3dfd82463d5
+    internal-label: Configuring
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

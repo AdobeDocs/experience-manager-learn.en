@@ -8,8 +8,12 @@ topic: Development
 role: Developer
 level: Beginner
 jira: KT-9270
-last-substantial-update: 2019-06-09
+last-substantial-update: 2019-06-09T00:00:00.000Z
 duration: 38
+TQID: 'https://experienceleague.adobe.com/pB9R8PvW9BnXd-QPN9BjAD-mc-IAoYmRaF6HUI3f7zw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # Toggle password field visibility
 

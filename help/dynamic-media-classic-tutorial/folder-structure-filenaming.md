@@ -8,7 +8,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 15121896-9196-4ce0-aff2-9178563326b4
 duration: 253
-TQID: https://experienceleague.adobe.com/bFfOpmBOe20eF-9F-a4SbdQ6ZwAP-M7PInraLmw0R3U
+TQID: 'https://experienceleague.adobe.com/Eli19EIUglmIO-ht-0WXrDpc37IXOEdOyqtFfqIUWkg'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Content management
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 subfeature_v2:
   - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
     internal-label: Dynamic Media Classic

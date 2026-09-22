@@ -10,10 +10,19 @@ index: false
 thumbnail: kt-10427.jpg
 exl-id: 8fcc9364-b84c-4458-82e2-66b47429cd4b
 duration: 155
-TQID: https://experienceleague.adobe.com/-4SqsR9FwSTg4S0it5hWx3ePRXDFS-Xj05cnY1ErHnI
+TQID: 'https://experienceleague.adobe.com/KrXhLjeQPxcgp4nUo--jNiFEXHEtgv6uWpeEAN7t-GM'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: ffa4a726-ff13-52a1-83a8-2872ed44316b
+    internal-label: Log Files
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

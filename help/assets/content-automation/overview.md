@@ -9,9 +9,9 @@ level: Beginner
 jira: KT-7803
 thumbnail: 333197.jpeg
 doc-type: Catalog
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 exl-id: be5ca0e7-54fb-4d19-bf7a-8985b11b3aba
-TQID: https://experienceleague.adobe.com/O6y7jH1zNHIOntYmrGCTO4pcmE23fSWeqRhe3jG60qE
+TQID: 'https://experienceleague.adobe.com/KLH3f0CFOvuneNFxqCI0ugghyxY7eDJ59xwoCBCtryQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -20,6 +20,14 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
+  - id: ee4c2482-9595-5bc0-b9be-c0c6f02eba50
+    internal-label: Asset Processing
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

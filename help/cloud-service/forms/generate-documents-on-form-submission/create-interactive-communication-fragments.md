@@ -3,13 +3,16 @@ title: Create Interactive Communication Fragments
 description: Learn to create reusable fragments for Interactive Communication documents
 version: Experience Manager as a Cloud Service
 feature: Interactive Communication
-
 role: Developer
 level: Intermediate
 doc-type: Technical Video
 duration: 136
-last-substantial-update: 2026-06-09
+last-substantial-update: 2026-06-09T00:00:00.000Z
 jira: KT-20647
+TQID: 'https://experienceleague.adobe.com/k7Z1rew7aD8E74iK49h4FBFY3HLIeUgpphZ65PqxY6o'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Create Interactive Communication Fragments

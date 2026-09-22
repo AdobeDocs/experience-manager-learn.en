@@ -12,7 +12,7 @@ last-substantial-update: 2023-01-12T00:00:00.000Z
 doc-type: Tutorial
 exl-id: 197444cb-a68f-4d09-9120-7b6603e1f47d
 duration: 572
-TQID: https://experienceleague.adobe.com/wNpEfYF7Gu9WZY7UMOylxbsH7-PbjaZypbRMvRjzIHs
+TQID: 'https://experienceleague.adobe.com/onvN2bJratRPDPRQnzM3OrmiiUmZmEMxyCjLaDUDaew'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -25,6 +25,10 @@ feature_v2:
     internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
     internal-label: Integrations
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

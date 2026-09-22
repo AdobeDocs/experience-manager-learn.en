@@ -10,12 +10,15 @@ doc-type: Tutorial
 last-substantial-update: 2025-06-04T00:00:00.000Z
 badgeLicense: label="Requires a license" type="positive" before-title="true"
 jira: KT-18308
-thumbnail: null
+thumbnail: 
 exl-id: b87c27e9-b6ab-4530-b25c-a98c55075aef
-TQID: https://experienceleague.adobe.com/dhb4Balmo3pzlXMB4-06JWe-XhifOSD3DbhxTojHNBk
+TQID: 'https://experienceleague.adobe.com/E3j0dtX-EOVPGbRfFpgjbrnv-tDTveKMvgzReqfkH4M'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

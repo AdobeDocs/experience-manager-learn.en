@@ -15,12 +15,17 @@ last-substantial-update: 2022-09-23T00:00:00.000Z
 doc-type: Tutorial
 exl-id: b795e7e8-f611-4fc3-9846-1d3f1a28ccbc
 duration: 206
-TQID: https://experienceleague.adobe.com/ESTOcoZojwd-ONj-vZWfyBYmYuBrDO5aTmWDFbM4bEs
+TQID: 'https://experienceleague.adobe.com/SDm-MHizC1JFCIXZc0ly8xO08Lwx1Gg7BdVOnQN7FzE'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 5ef752af-d616-5b23-8312-06964e46b208
+    internal-label: Administering
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

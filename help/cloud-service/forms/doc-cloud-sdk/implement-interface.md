@@ -11,6 +11,18 @@ thumbnail: 7826.jpg
 jira: KT-7826
 exl-id: c1fd02aa-577b-453f-8948-ca50e3e8f89b
 duration: 117
+TQID: 'https://experienceleague.adobe.com/-BtwpD7R5EN0HoUfmw1GdbqId4VQS-87XiyiiH068mg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Interface implementation
 

@@ -9,12 +9,21 @@ level: Intermediate
 last-substantial-update: 2022-07-09T00:00:00.000Z
 exl-id: d7887e2e-c2d4-4f0c-b117-ba7c41ea539a
 duration: 106
-TQID: https://experienceleague.adobe.com/iEXJBCizK1jVg-UfNCduJRI-NZE-TwxhNX320syWlE8
+TQID: 'https://experienceleague.adobe.com/XKYfERWFntGLHjLZ-rCN52GM4XqJKNq1XcDRKAYlqrA'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 9cc5e18e-2002-58a1-befa-285122cf6653
+    internal-label: Output Service
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

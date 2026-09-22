@@ -13,7 +13,7 @@ hide: true
 recommendations: noCatalog, noDisplay
 exl-id: 2e5bd50e-c0d7-4292-8097-e0a17f41a91a
 duration: 22
-TQID: https://experienceleague.adobe.com/JhSWUxFsphhCt9z-hdvDUzCmL9Frc-t1LB3Pk-1jwJw
+TQID: 'https://experienceleague.adobe.com/TB7qI37b1lkucSDJSus8QqAv3B55Vp6TV1uybVqmkPE'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -22,6 +22,8 @@ product_v2:
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

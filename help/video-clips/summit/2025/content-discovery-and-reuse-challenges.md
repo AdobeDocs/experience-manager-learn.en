@@ -13,6 +13,16 @@ feature: Content Fragments, Content Personalization, Asset Management
 index: false
 hide: true
 exl-id: 07b2d50c-9243-4142-9357-29c36856c29d
+TQID: 'https://experienceleague.adobe.com/7iF13p9SWD-ALpEYLnsVyeKXwA-Xvfk0xxk-9hMKt84'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Content Discovery and Reuse Challenges
 

@@ -9,12 +9,19 @@ level: Intermediate
 exl-id: bc79fcbf-b8b3-4d3a-9cd6-0bcd9321c7d5
 last-substantial-update: 2020-07-07T00:00:00.000Z
 duration: 52
-TQID: https://experienceleague.adobe.com/-qL1D6lxl9-ukb37XLIbM434x6-wDIt-md6UyAcrzjo
+TQID: 'https://experienceleague.adobe.com/IBKb07gqvIxvyeJaqbBJgKsJHqIAXLmYd0fTNVpdPLg'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: b26425d0-6fde-5e02-bfd6-e560e2fa86c9
+    internal-label: PDF Generator
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

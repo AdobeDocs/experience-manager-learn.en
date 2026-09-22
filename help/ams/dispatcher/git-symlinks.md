@@ -10,10 +10,13 @@ thumbnail: xx.jpg
 doc-type: Article
 exl-id: 6e751586-e92e-482d-83ce-6fcae4c1102c
 duration: 295
-TQID: https://experienceleague.adobe.com/2pmvv1eOStc1h4hP78QX0An5N7HNUxfNG19bMhrMPkw
+TQID: 'https://experienceleague.adobe.com/qEWq0AkIq2sElzi-p4sZIS3SVwEUcHSPDXjDBPJF9Nw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -12,13 +12,17 @@ doc-type: Article
 last-substantial-update: 2023-08-18T00:00:00.000Z
 exl-id: 9f689bd9-c846-4c3f-ae88-20454112cf9a
 duration: 783
-TQID: https://experienceleague.adobe.com/-DxMruZE3czqe1rhOMnQ0txf76x9RPAg0uoa1r0Sygs
+TQID: 'https://experienceleague.adobe.com/dNfv8gXnPo7y4s1wrabBFgxFMTXCBLKnfdSorb-Yn88'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

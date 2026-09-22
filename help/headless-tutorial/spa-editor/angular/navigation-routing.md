@@ -12,7 +12,7 @@ doc-type: Tutorial
 exl-id: 197a0c1f-4d0a-4b99-ba89-cdff2e6ac4ec
 duration: 669
 hide: true
-TQID: https://experienceleague.adobe.com/S9ZcLbIkA0GFEPP1Ptyh9I02-vcjgBBaOW9zkt2WnPg
+TQID: 'https://experienceleague.adobe.com/l9449q7sYz45-OX9CRKJ8kt-o-MW9CK0gMTkQaBRJLM'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -27,6 +27,12 @@ feature_v2:
     internal-label: Authoring
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
 subfeature_v2:
   - id: a9f7d31e-bbe1-4475-966a-5f213546fcd9
     internal-label: SPA Editor

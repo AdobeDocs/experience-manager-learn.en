@@ -7,6 +7,13 @@ version: Experience Manager 6.5
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 duration: 45
+TQID: 'https://experienceleague.adobe.com/qiL2ZLvscy3HSRqvySHzbwLrWm8P7-IyV5RvXQ-Oeo4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 ---
 
 # Test this capability on your system

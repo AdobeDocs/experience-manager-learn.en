@@ -9,7 +9,21 @@ level: Intermediate
 doc-type: Tutorial
 jira: KT-22278
 thumbnail: KT-22278.jpeg
-last-substantial-update: 2026-08-07
+last-substantial-update: 2026-08-07T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/z0-QZ8QKEBRwuEe36ou0xBRdl9MLreYxzaZ23-FWYOc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Develop the AEM Edge Function
 

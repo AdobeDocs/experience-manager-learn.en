@@ -10,7 +10,7 @@ jira: KT-6934
 thumbnail: 330559.jpg
 exl-id: 06793e03-72c1-4566-80d7-c126fc8e3879
 duration: 408
-TQID: https://experienceleague.adobe.com/1-srdQMhY-cqvgxcH6GiRjfvo-JaK-lLccHllRXcxZ8
+TQID: 'https://experienceleague.adobe.com/ThJprZGWmYiWtZPmJT1XUxCnLbPJcN99nhaCML-LD04'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -23,6 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # OSGi configurations
 

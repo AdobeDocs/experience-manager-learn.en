@@ -8,11 +8,11 @@ role: Admin
 level: Intermediate
 jira: KT-649
 thumbnail: 22155.jpg
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 doc-type: Feature Video
 exl-id: a2bf8a82-15ee-478c-b7c3-de8a991dfeb8
 duration: 321
-TQID: https://experienceleague.adobe.com/mQ4O5-6QMPLqL0x5ywUZ13r1SmI9Putz-spFelrFJ7E
+TQID: 'https://experienceleague.adobe.com/wHP3-v0uAb1Tt3ccV0hlVmXYatWMJCisYyHuWcKRA5M'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -23,6 +23,12 @@ feature_v2:
     internal-label: Administration
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 3aa2a621-ec4f-5c9b-bbb0-bd5a3b1279a6
+    internal-label: User and Groups
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

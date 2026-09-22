@@ -11,7 +11,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: 9aab3eb0-03a5-4962-a2ff-d44a17dc140e
 duration: 395
-TQID: https://experienceleague.adobe.com/VFSkX9tGgF4rXLPfMoDqOTRkq1vOngM66daoWXhGrmQ
+TQID: 'https://experienceleague.adobe.com/3DRqfJC0j9HziTZoW6YtkyvmCAMF9JDILrzG7yhx2M8'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms

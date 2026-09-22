@@ -13,7 +13,7 @@ badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title=
 doc-type: Tutorial
 exl-id: 92dbd185-bad4-4a4d-b979-0d8f5d47c54b
 duration: 50
-TQID: https://experienceleague.adobe.com/Tn5hNOXtgc8fRdsKtyCXfhSZP9-tWDbjCv8lTHkQsb4
+TQID: 'https://experienceleague.adobe.com/P6pMBK5AVxQiyJeokeJpUO4-3M71eQBg-24Z8oiDGYg'
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
@@ -25,12 +25,18 @@ feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
   - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-    internal-label: Integrations
+    internal-label: ''
+  - id: 000dc7ac-a6c3-564d-bf22-5080bf496cc2
+    internal-label: Tags
+  - id: 8d89a9fb-a98a-500a-ae8d-4d99599b4f3f
+    internal-label: Data Collection
+  - id: a50ad69b-1331-40e9-b634-531a085a6a54
+    internal-label: Identities
 subfeature_v2:
   - id: d9830f6f-ceb6-4faa-9744-f281fe4439f9
-    internal-label: Tags
+    internal-label: ''
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -42,6 +48,8 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Connect AEM Sites with Tag Property using IMS{#connect-aem-and-tag-property-using-ims}
 

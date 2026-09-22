@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 1532a865-4664-40d9-964a-e64463b49587
 last-substantial-update: 2019-07-07T00:00:00.000Z
 duration: 145
-TQID: https://experienceleague.adobe.com/i5iVSKA5VnbPjn1QjcQSKrlZ551rkKh5x03oiAXVfe4
+TQID: 'https://experienceleague.adobe.com/BjvAyJg6fM9sg3ZSzLltxurdh-l1XYy1c-gD9r6xLfM'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -25,6 +25,12 @@ feature_v2:
     internal-label: Integrations
   - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
     internal-label: APIs
+  - id: 4876a742-a341-5402-aba7-e749c45e777c
+    internal-label: Form Data Model
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: c61c0849-e97f-542f-a358-7b62d542cc8b
+    internal-label: Barcoded Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

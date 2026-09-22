@@ -11,6 +11,10 @@ thumbnail: 7825.jpg
 jira: KT-7825
 exl-id: f262013b-aaf1-43d1-84b8-6173942c3415
 duration: 7
+TQID: 'https://experienceleague.adobe.com/8oqNxQ5HgeSF8Wqy3NEu1srAyebmShMGR4o9qy-lCAU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Interface

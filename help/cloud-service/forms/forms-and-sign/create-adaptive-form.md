@@ -13,7 +13,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 6bdfb841-3b7e-4c22-8907-a1b98df42ae5
 duration: 91
-TQID: https://experienceleague.adobe.com/9hBJjYh87qf9EDdXcomyY0bvtaEqgyL-5V4jV4n88tI
+TQID: 'https://experienceleague.adobe.com/7BIOJIPtTKG5h19Hv10sj-c8lJx9crRzNIB3TKKWUto'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

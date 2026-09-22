@@ -10,12 +10,23 @@ jira: KT-9226
 exl-id: d9618cc8-d399-4850-8714-c38991862045
 last-substantial-update: 2020-02-07T00:00:00.000Z
 duration: 177
-TQID: https://experienceleague.adobe.com/VwYilZJkdjfAAXX6eOeqgZ4hANr4cbmF7uxpfjoRvMQ
+TQID: 'https://experienceleague.adobe.com/pk2Q2LBpX0uQ8eVvg1OZY-EUXU4trn7esD9P-H7oZko'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 1af3c3d4-88d7-5e0f-813c-eb70824bfcdd
+    internal-label: Forms Designer
+  - id: 794033c1-20ea-55a4-a8a6-b1107e12deb0
+    internal-label: Designer
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: b59c0486-3350-52ed-8816-e0a8e11486b8
+    internal-label: Forms Service
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

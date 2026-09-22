@@ -8,10 +8,13 @@ level: Beginner
 doc-type: Tutorial
 exl-id: a25b6f74-3686-40a9-a148-4dcafeda032f
 duration: 403
-TQID: https://experienceleague.adobe.com/abQQYdSBaOJeKn-z6z-ANO-3liXfALj3az1mqC3w99s
+TQID: 'https://experienceleague.adobe.com/9z0gF85iBs0JYEfcBjMEm0WSW7NSHGAQMNpEUtQ4tSQ'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

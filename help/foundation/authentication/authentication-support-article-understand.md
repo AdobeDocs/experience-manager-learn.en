@@ -12,10 +12,15 @@ exl-id: 96c542ae-6ab6-4d8a-94df-a58b03469320
 last-substantial-update: 2022-09-10T00:00:00.000Z
 thumbnail: KT-406.jpg
 duration: 22
-TQID: https://experienceleague.adobe.com/uHEiEcToGIwvFOc3ja-6qMI5tLGPyBlYm6D-UX9rMmA
+TQID: 'https://experienceleague.adobe.com/NsEQV28Pzdqq5bSjRqJpawM0NC7cYhH1Z7Z18RWNoxs'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 3aa2a621-ec4f-5c9b-bbb0-bd5a3b1279a6
+    internal-label: User and Groups
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

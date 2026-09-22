@@ -7,12 +7,12 @@ topic: Content Management, Integrations
 role: User
 level: Beginner
 jira: KT-14199
-thumbnail: null
+thumbnail: 
 badgeIntegration: label="Integration" type="positive"
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Catalog
 exl-id: b8d9b213-867e-457d-932d-1fedc4e1b1d7
-TQID: https://experienceleague.adobe.com/lI31zVPw7UNJTFsNtCr6V02BfgeOhj6McG-A4F7SNAY
+TQID: 'https://experienceleague.adobe.com/4qULz0h4AhfXw-o1OL2nCgwMN-cYlTR9ZhT-soAsKDQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -23,6 +23,12 @@ feature_v2:
     internal-label: Content management
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: e17747bc-9b7b-44e6-a443-f54229a02620
+    internal-label: Integrations
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

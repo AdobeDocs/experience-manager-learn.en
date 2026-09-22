@@ -12,13 +12,17 @@ doc-type: article
 last-substantial-update: 2024-01-26T00:00:00.000Z
 exl-id: fbfb5c10-95f8-4875-88dd-9a941d7a16fd
 duration: 1362
-TQID: https://experienceleague.adobe.com/3s4wniYdRaxw5KjXvM1iUhwcW-ULtubDZKNG8Zys-QY
+TQID: 'https://experienceleague.adobe.com/T4Nw58rfkpItIFp33APpx4maCnGWu6Uv7Ee2cZYCr9s'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

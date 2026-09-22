@@ -10,6 +10,13 @@ topic: Development
 index: true
 exl-id: f7a815f0-2c71-452f-baf8-da967b5ed033
 duration: 97
+TQID: 'https://experienceleague.adobe.com/HmRnZaJDpz5IIgewu6ScAwKDiztkI7BNtbosDGocnnY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 
 # Steps to tweak parameters on JMX console

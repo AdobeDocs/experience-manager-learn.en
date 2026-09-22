@@ -14,7 +14,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Headless as a Cloud Service" before-title="false"
 exl-id: be886c64-9b8e-498d-983c-75f32c34be4b
 duration: 1549
-TQID: https://experienceleague.adobe.com/PNNoHvcgfkoOJs-ZSJ-zh4HyC7ehIhrcVIdyYEGOzcI
+TQID: 'https://experienceleague.adobe.com/SQOhg5GIt1FU61yyeSTat0pJ60kLBr8FnQVRTbsldLA'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -25,6 +25,8 @@ feature_v2:
     internal-label: Integrations
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

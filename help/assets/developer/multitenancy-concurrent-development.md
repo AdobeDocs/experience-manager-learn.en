@@ -7,10 +7,10 @@ topic: Development
 role: Developer
 level: Intermediate
 doc-type: Article
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 exl-id: c9ee29d4-a8a5-4e61-bc99-498674887da5
 duration: 437
-TQID: https://experienceleague.adobe.com/H--IChzfPi7l-v-Vm--Hs1v4XgCphrkpWkcJKu1fDJc
+TQID: 'https://experienceleague.adobe.com/KE7N57Fl-KurHQdJXB9IrGekzNqio6EHRhImFjAgBKw'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,18 @@ feature_v2:
     internal-label: Administration
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
     internal-label: Components

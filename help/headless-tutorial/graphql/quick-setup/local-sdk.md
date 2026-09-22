@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 exl-id: d2da6efa-1f77-4391-adda-e3180c42addc
 duration: 242
-TQID: https://experienceleague.adobe.com/Or-soxotLg27g1CL2oiNWeoI0oAT9BVz2nR77-KtYMY
+TQID: 'https://experienceleague.adobe.com/-Qm69sZ0kRzlZl3RLk1X6nVFnc4VxN0Ek1riX6q9v4Q'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -24,6 +24,12 @@ feature_v2:
     internal-label: Developer tools
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 subfeature_v2:
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
     internal-label: Java Content Repository

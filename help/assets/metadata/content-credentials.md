@@ -9,12 +9,12 @@ feature: Asset Management
 role: Leader, User
 level: Intermediate
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 doc-type: Feature Video
 duration: 229
 jira: KT-15659
 exl-id: 1b12e19c-7d01-49cc-b81d-cc843cd7432b
-TQID: https://experienceleague.adobe.com/-fOB97M-z5Abp1Wd4f5U5LZQ2J68HhHjKnHBnoPNI3c
+TQID: 'https://experienceleague.adobe.com/J6R9Z0KXFxTMNLTHsVhdEOrLajW1ahlkCUfv1oUiRuQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -27,6 +27,8 @@ feature_v2:
     internal-label: Generative AI
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
     internal-label: Generative AI
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

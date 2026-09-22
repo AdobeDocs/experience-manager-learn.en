@@ -11,7 +11,7 @@ thumbnail: inline-dam.jpg
 kt: kt-11307
 exl-id: 339eb16e-8ad8-4b98-939c-b4b5fd04d67e
 duration: 60
-TQID: https://experienceleague.adobe.com/oTyoi2rjZRWh2qgf-20ORiWxktnjtc-t6Bb5L447nD8
+TQID: 'https://experienceleague.adobe.com/5jTQ5INSPzst-RwPZa7AlSQDO8k8PwdPJFXVMA4nSlI'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms

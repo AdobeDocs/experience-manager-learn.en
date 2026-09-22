@@ -11,7 +11,7 @@ duration: 76
 last-substantial-update: 2024-04-11T00:00:00.000Z
 jira: KT-15326
 exl-id: d1a99714-b984-44fa-826c-125d3dc37670
-TQID: https://experienceleague.adobe.com/fOO7uVaWjjyr3AOcX6oz6cyXXW6KaH7lLbccWFXKE2Q
+TQID: 'https://experienceleague.adobe.com/7PF5Hb44ZYRpN4PslIE3icfaKtXisFHB7mJkuo7vbyw'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -34,6 +34,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Generate Variations - Save custom prompt templates in Edge Delivery Services
 

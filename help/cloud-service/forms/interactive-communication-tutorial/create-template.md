@@ -7,9 +7,16 @@ role: Developer
 level: Intermediate
 doc-type: Technical Video
 duration: 274
-last-substantial-update: 2026-02-20
+last-substantial-update: 2026-02-20T00:00:00.000Z
 jira: KT-20355
 exl-id: 4355142c-6613-4606-abb8-0faa3ec0ae5d
+TQID: 'https://experienceleague.adobe.com/t61xsZkichuN8HALmdSemnONuJBpMOWBdFKTRQvwDMU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
 # Create Interactive Communication Template
 

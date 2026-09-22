@@ -12,7 +12,7 @@ thumbnail: 18331.jpg
 doc-type: Feature Video
 exl-id: 19155d51-18a7-42ca-9a73-1b5fa1355d58
 duration: 248
-TQID: https://experienceleague.adobe.com/L14sH1lAa9zIImAfHq3jBrolcg08aRz3cfAEEBviQ54
+TQID: 'https://experienceleague.adobe.com/8b9-chEE2ZbbwtxABE--AbII-KTyVHAjFr2KTCckApg'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

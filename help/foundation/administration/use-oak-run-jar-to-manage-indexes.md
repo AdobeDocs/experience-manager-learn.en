@@ -9,10 +9,15 @@ role: Developer
 level: Experienced
 exl-id: be49718e-f1f5-4ab2-9c9d-6430a52bb439
 duration: 726
-TQID: https://experienceleague.adobe.com/wvrV5iYONVpCYsoK9yBxD-zMCoNLUuh30djyct21MkQ
+TQID: 'https://experienceleague.adobe.com/Uc8ifqVG6j4cGlRtCHohpfmBndXYG4Z2TJl0YbOQewA'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

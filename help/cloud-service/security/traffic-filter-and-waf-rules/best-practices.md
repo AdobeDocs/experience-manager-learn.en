@@ -9,9 +9,9 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04T00:00:00.000Z
 jira: KT-18310
-thumbnail: null
+thumbnail: 
 exl-id: 4a7acdd2-f442-44ee-8560-f9cb64436acf
-TQID: https://experienceleague.adobe.com/Mjd4wAjDWGU5f0cl573rh7wAwbjn4GQyDC-fmObOSK4
+TQID: 'https://experienceleague.adobe.com/lAgn6VtdMjWMh7MAz9mK6Tn75X3Bpc1DP5qdWdo5ffo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

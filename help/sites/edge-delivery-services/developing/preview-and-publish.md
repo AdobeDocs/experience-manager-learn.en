@@ -12,7 +12,7 @@ jira: KT-14480
 thumbnail: 3425714.jpeg
 duration: 136
 exl-id: e8ec372e-622e-4954-80df-9c4d73265837
-TQID: https://experienceleague.adobe.com/KQfbCzvZnCj64P3aJlWyJWRtKAKhdaTUxWzSzDUDkCc
+TQID: 'https://experienceleague.adobe.com/Cet60ZhlSZZrrsLtk-G4TFUPvF1vPPGig8ya-0O7LmU'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites

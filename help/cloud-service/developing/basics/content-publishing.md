@@ -10,7 +10,7 @@ jira: KT-6911
 thumbnail: 330554.jpg
 exl-id: 53327d54-152b-4b89-8540-181e433f312b
 duration: 271
-TQID: https://experienceleague.adobe.com/j6VgbfA5PXveghZMWB3cc1bLeZwv-Crqipj-2mPU2ZI
+TQID: 'https://experienceleague.adobe.com/Ip-q0ppYRqp2epQgU8XqesljB89hqOx6KkuHxoh8jeA'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

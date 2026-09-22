@@ -12,16 +12,19 @@ topic: Collaboration
 role: User
 level: Beginner
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 doc-type: Feature Video
 exl-id: fe8794b6-3fa7-4268-8352-758882705587
 duration: 88
-TQID: https://experienceleague.adobe.com/Uzb6qAxMHkmjjj2mqHAIP6W-WaowsLOm4sQq0lJEEBg
+TQID: 'https://experienceleague.adobe.com/NWEUXnmk-RMOv0mPyMiHw4g3GLZ-rNigeyxT4ROXWrs'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

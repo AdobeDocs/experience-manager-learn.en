@@ -10,7 +10,7 @@ doc-type: Tutorial
 jira: KT-17296
 duration: 700
 exl-id: f41dff22-bd47-4ea0-98cc-f5ca30b22c4b
-TQID: https://experienceleague.adobe.com/VZAdmr-cNLsTukz2Gdsz5B3wU94vvTWZeH2ZWmNBn0Y
+TQID: 'https://experienceleague.adobe.com/68RLWyBtlKDMtjeJv2jYMy1i2VU-9VTVfyt1NMe5qNA'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -25,6 +25,12 @@ feature_v2:
     internal-label: Authoring
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
 subfeature_v2:
   - id: df6f8f89-5d09-489b-b250-e48ea4b6c168
     internal-label: Mobile

@@ -10,7 +10,7 @@ last-substantial-update: 2022-06-22T00:00:00.000Z
 doc-type: Tutorial
 exl-id: b7d0b6b1-145a-4987-a9dc-7263efa4d9fb
 duration: 734
-TQID: https://experienceleague.adobe.com/6oBMurcDBLNQAsTF51cz4NRaWjveR7A48-BmPV06ZPw
+TQID: 'https://experienceleague.adobe.com/-0D-QawwCbxIqJS8TpSl6mxEKy2Wp2J-eHgMRsuE1ec'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

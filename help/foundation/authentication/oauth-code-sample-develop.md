@@ -9,10 +9,13 @@ level: Experienced
 doc-type: Article
 exl-id: dd37355e-cfc7-4581-ac22-d89c951c22cf
 duration: 27
-TQID: https://experienceleague.adobe.com/oPSp-a712PXIZVF-wdqESaB8Q4mMYkxtZnaNccQWdLU
+TQID: 'https://experienceleague.adobe.com/LvFV-7-6F0gZyII4PQVZEc-DeRv719bv9YZmMYkHttI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 3aa2a621-ec4f-5c9b-bbb0-bd5a3b1279a6
+    internal-label: User and Groups
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

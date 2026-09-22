@@ -10,7 +10,7 @@ level: Beginner
 doc-type: Feature Video
 exl-id: 9d807f4c-999c-45e6-a9db-6c1776bddda1
 duration: 576
-TQID: https://experienceleague.adobe.com/lY-O6bm3sPgi-ZLcc36nwhYJAKaF10Ke1RD15vA0tSU
+TQID: 'https://experienceleague.adobe.com/0EUBM4ISE-qYgyHxxmf4nzdPDJ4K0qDb7q6ImpLg3MM'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -27,6 +27,8 @@ feature_v2:
     internal-label: Configuration
   - id: e17747bc-9b7b-44e6-a443-f54229a02620
     internal-label: Integrations
+  - id: a4e1c1f5-18fc-592e-bfc7-453ce6ae0030
+    internal-label: Asset Insights
 subfeature_v2:
   - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
     internal-label: Dynamic Media Classic

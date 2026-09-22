@@ -13,7 +13,7 @@ thumbnail: 331785.jpg
 last-substantial-update: 2021-06-09T00:00:00.000Z
 exl-id: 84d2b240-5ecc-4230-97a0-6c2faead8d1a
 duration: 228
-TQID: https://experienceleague.adobe.com/vMsOppm-pJtm0ZsvLaf-2qzSZgF41SsZpJzN14rMpxI
+TQID: 'https://experienceleague.adobe.com/D4VocujONrd5NvubvGZrGltxrO9ZFoCGjBjVVCxKVi0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites

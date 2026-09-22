@@ -8,10 +8,14 @@ role: Admin
 level: Beginner
 jira: KT-8020
 thumbnail: 335952.jpeg
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Feature Video
 exl-id: ca994bdb-8f59-4504-b623-68d74e559fbb
 duration: 305
+TQID: 'https://experienceleague.adobe.com/QmxFOHwQZKITCbU17pQLGOWI58qr3dHTmMQJl5qWBb4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # Provision the Assets view {#provisioning}
 

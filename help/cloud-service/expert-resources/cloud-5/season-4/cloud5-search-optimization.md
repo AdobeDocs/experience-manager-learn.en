@@ -12,10 +12,13 @@ duration: 308
 last-substantial-update: 2024-12-16T00:00:00.000Z
 jira: KT-16665
 exl-id: e69c5c99-ce3a-4a8c-a59b-0bf67fdbd7ce
-TQID: https://experienceleague.adobe.com/ZV-xuaiRbgvGNhJaq2sggs-uxugzkQGI6FNzv4EQQDg
+TQID: 'https://experienceleague.adobe.com/nE5P36KIo12-kOuSzVJboyGKZ6QJnlf-HF0pA4rTKyY'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

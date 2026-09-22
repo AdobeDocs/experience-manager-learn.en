@@ -12,12 +12,15 @@ jira: KT-14475, KT-14476
 thumbnail: 3425709.jpeg
 duration: 185
 exl-id: 12b2ad4d-ee66-4eb0-b8e6-05b4b6e41d76
-TQID: https://experienceleague.adobe.com/2gdpLvb1WR-NB3LzzBSFmpE28FdK24E1OQOo8h-ZyYI
+TQID: 'https://experienceleague.adobe.com/nNNYNqmKGtjdU4Ic9yzdWs-v8lkb5Xq6D4ax73jkOH8'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

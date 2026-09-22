@@ -11,7 +11,7 @@ doc-type: Catalog
 duration: 660
 last-substantial-update: 2024-03-20T00:00:00.000Z
 exl-id: 4f08bc07-0c9c-42fc-af42-3d51af9f37c4
-TQID: https://experienceleague.adobe.com/hKkB7yfF8SxCTh-lIlGe40xJENEN7GksKlTEM8aBoks
+TQID: 'https://experienceleague.adobe.com/0LfK-CuSNWz0XByFhO6--kzNQlWFG8pfmWQtG2W1oTw'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -26,6 +26,12 @@ feature_v2:
     internal-label: Integrations
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
 subfeature_v2:
   - id: a0ab86ed-7176-40e5-bccb-a2cc1295200c
     internal-label: Edge Delivery Services

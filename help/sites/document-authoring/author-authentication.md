@@ -11,7 +11,7 @@ duration: 89
 last-substantial-update: 2024-06-07T00:00:00.000Z
 jira: KT-15674
 exl-id: 12738182-69e4-43a7-adf9-7771b0d92773
-TQID: https://experienceleague.adobe.com/KMNKqC3FCxqDBW6xAuVpe8ajAyb5m0IKo25-NhyL0sY
+TQID: 'https://experienceleague.adobe.com/IYzoFIxd7AcelhA7jthPkGdFPzjLR87SSUsJvESEdrg'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -33,6 +33,8 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Author Authentication
 

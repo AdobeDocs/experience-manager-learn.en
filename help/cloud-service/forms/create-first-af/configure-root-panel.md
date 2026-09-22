@@ -12,7 +12,7 @@ jira: KT-7377
 thumbnail: 332238.jpg
 exl-id: e5c2c53e-bcb2-46a4-a780-fca0dd03a00b
 duration: 267
-TQID: https://experienceleague.adobe.com/IBkbzf12ONUuOpWn3mNEXGMmFjUO0J2nI4SXagnjyx0
+TQID: 'https://experienceleague.adobe.com/7d3PvQk9-9Efw-zyuiBvtsrhJN5qgff3PhqEKT9YXpk'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms

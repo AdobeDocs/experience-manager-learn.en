@@ -6,9 +6,21 @@ role: Leader, User, Developer
 level: Beginner
 doc-type: Feature Video
 duration: 140
-last-substantial-update: 2026-01-05
+last-substantial-update: 2026-01-05T00:00:00.000Z
 jira: KT-20040
 exl-id: e5b50205-d348-46b3-b564-50c3967c73b0
+TQID: 'https://experienceleague.adobe.com/0IP3qu7oO-lObrYmdpwn8OdQ0MgOBdtwi8CUa750gR8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Agents in AEM
 

@@ -10,7 +10,7 @@ duration: 560
 last-substantial-update: 2025-05-28T00:00:00.000Z
 jira: KT-18197
 exl-id: 13a09ad3-bf55-4524-bf43-f1cdad368034
-TQID: https://experienceleague.adobe.com/tIBdIg91YI8sVfvL0ppSSxnSUKmMiQxfFAJ-coPnbYs
+TQID: 'https://experienceleague.adobe.com/8MMQD12AW1mTBTf-bk-YqXPTOYxk-AsKBTkqxBR6ZRc'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

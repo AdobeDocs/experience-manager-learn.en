@@ -8,10 +8,10 @@ role: Admin
 level: Intermediate
 jira: KT-13757
 doc-type: Tutorial
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 exl-id: 57478aa1-c9ab-467c-9de0-54807ae21fb1
 duration: 158
-TQID: https://experienceleague.adobe.com/A7rcrXV6Lrop85zo71tR35FATGt7uN9IuICByZ9l0rA
+TQID: 'https://experienceleague.adobe.com/mIQwiJky3mRGrUXcNUMCuNtaKi6kgoJHh5FbdCMRLao'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Administration
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 3aa2a621-ec4f-5c9b-bbb0-bd5a3b1279a6
+    internal-label: User and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

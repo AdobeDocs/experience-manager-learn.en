@@ -12,13 +12,15 @@ thumbnail: KT-11603.png
 last-substantial-update: 2023-06-02T00:00:00.000Z
 exl-id: 9164423b-a609-4bc5-9777-112d229ae748
 duration: 126
-TQID: https://experienceleague.adobe.com/spW-0W5gLQ001rXAaK4G3NEjkcUP4z77dd7wu-CxRKg
+TQID: 'https://experienceleague.adobe.com/DQP-WECT-bQr5o8FxE4ostScx7loBJunRY9G42KnScc'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -28,6 +30,8 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # AEM Content Fragments extensibility
 

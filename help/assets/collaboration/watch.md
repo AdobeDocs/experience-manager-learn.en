@@ -12,16 +12,19 @@ level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 131
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 jira: KT-15000
 thumbnail: 3427646.jpeg
 exl-id: 33531e51-dcbc-4a02-adb1-4abc70a02a28
-TQID: https://experienceleague.adobe.com/x7DSIMWY8yVmH8p2EIzPW0V8WLjMcN0MOBRNS3NrKfY
+TQID: 'https://experienceleague.adobe.com/uL7T9Vnp7rltkkC6YfsO0fYbyXharFBHF-FRaIN3NE8'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

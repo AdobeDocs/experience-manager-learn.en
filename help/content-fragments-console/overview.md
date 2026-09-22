@@ -10,7 +10,7 @@ jira: KT-14200
 last-substantial-update: 2023-05-12T00:00:00.000Z
 doc-type: Catalog
 exl-id: d92c36e2-fbfa-43a3-8c5f-0371cc99f352
-TQID: https://experienceleague.adobe.com/QgmETRQ4qW-GpNUBUJr56fgRW3gDZQjr6cF-bIj95VM
+TQID: 'https://experienceleague.adobe.com/V1f3iJUd-dvkPD-iHQGiKWbz9ZMR6HWXUQVKheYmMDQ'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -19,6 +19,10 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 5ef752af-d616-5b23-8312-06964e46b208
+    internal-label: Administering
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

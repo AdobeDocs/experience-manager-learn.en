@@ -3,7 +3,14 @@ title: Dynamic Media
 description: See how Dynamic Media renditions appear in the Assets view, and where to find Dynamic Media settings in the Admin view.
 doc-type: Value Video
 duration: 204
-last-substantial-update: 2026-09-14
+last-substantial-update: 2026-09-14T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/lBOZI7fDzfbN8q33HVunjR7oOViojDcArvK1Q8Ka-Zs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 ---
 
 # Dynamic Media {#dynamic-media}

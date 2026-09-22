@@ -9,18 +9,26 @@ level: Beginner
 last-substantial-update: 2023-01-01T00:00:00.000Z
 exl-id: 29f56d13-c2e2-4bc2-bfdc-664c848dd851
 duration: 80
-TQID: https://experienceleague.adobe.com/3mCxrAtzKCYVxSwITrMX9Gzov0Ep28gNLjvMcYP396I
+TQID: 'https://experienceleague.adobe.com/gNnxg9UEjiZIRkOEGSDAAFiQIQVDCgqQzyLItJUTlPo'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Adding items dynamically to choice group component
 

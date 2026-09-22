@@ -13,12 +13,17 @@ exl-id: 38802296-8988-4300-a04a-fcbbe98ac810
 last-substantial-update: 2022-08-25T00:00:00.000Z
 duration: 71
 hide: true
-TQID: https://experienceleague.adobe.com/sT6nuOa4F5U7Er744D86YIloTUliIWrXo-t4RHeHcKs
+TQID: 'https://experienceleague.adobe.com/9HYKANRVbRdD-1stHfqx9TpKFUvAjBwaDokI7QtE1KM'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

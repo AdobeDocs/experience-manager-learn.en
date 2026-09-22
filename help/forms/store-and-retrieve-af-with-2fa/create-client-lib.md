@@ -11,12 +11,17 @@ role: Developer
 level: Intermediate
 exl-id: c90eea73-bd44-40af-aa98-d766aa572415
 duration: 42
-TQID: https://experienceleague.adobe.com/j80uh9MyNCJRERjpWckHDKspV1Et6R3R4VFUbx0--hg
+TQID: 'https://experienceleague.adobe.com/KG-jcMZ88eIqQAggOBOUO1RsSAM05ruJaj6N1P-CE9c'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

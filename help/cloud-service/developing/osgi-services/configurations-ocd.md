@@ -9,10 +9,13 @@ jira: KT-8269
 thumbnail: 335730.jpeg
 exl-id: 72918da0-d5c4-4451-8082-0a0435c28890
 duration: 706
-TQID: https://experienceleague.adobe.com/B1fyAfmHOPYbEO216xTbvAgR-DdS0wI35LkNjjQmJXw
+TQID: 'https://experienceleague.adobe.com/NBL3dqCp6d8OchTOxlFI3FkEwOcdaENhkvhjXfXdZ3Q'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

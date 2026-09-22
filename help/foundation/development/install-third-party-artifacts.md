@@ -12,10 +12,13 @@ last-substantial-update: 2024-09-13T00:00:00.000Z
 jira: KT-16207
 thumbnail: KT-16207.jpeg
 exl-id: 0cec14b3-4be5-4666-a36c-968ea2fc634f
-TQID: https://experienceleague.adobe.com/a3r-ao6ObXx6agC6NdJ-snRJrcjcTcP-U8RZjrM43T4
+TQID: 'https://experienceleague.adobe.com/weGaRAqFBlSnQ58AsiE75ThQxZczyiZKPkqJoEnvpbo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

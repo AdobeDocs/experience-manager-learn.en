@@ -12,12 +12,17 @@ last-substantial-update: 2024-02-29T00:00:00.000Z
 jira: KT-15058
 thumbnail: 3427625.jpeg
 exl-id: 11b4f319-9285-478b-a2ed-7967f02108c6
-TQID: https://experienceleague.adobe.com/FnUNsnpbqvUCIfd7EQzxRTeXAMP2OsxU4fth5dxfAlM
+TQID: 'https://experienceleague.adobe.com/3R1WXit8fp-wByiZC71-r2KN8b8uZOmwPYMhOcJUPrA'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 1af3c3d4-88d7-5e0f-813c-eb70824bfcdd
+    internal-label: Forms Designer
+  - id: 794033c1-20ea-55a4-a8a6-b1107e12deb0
+    internal-label: Designer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

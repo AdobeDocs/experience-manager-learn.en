@@ -11,7 +11,7 @@ jira: KT-8185
 thumbnail: KT-8185.jpg
 exl-id: ab7b8a06-3009-477d-9e98-590912e8e176
 duration: 33
-TQID: https://experienceleague.adobe.com/6o0IKRzT-Zs740WyibUIKcU1PAXmiBO2uZeBTteHfHY
+TQID: 'https://experienceleague.adobe.com/qX4LQyhocaGQRs0xukMt-dHW-zs6x--Cep5ncyvCzlY'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

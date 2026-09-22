@@ -13,7 +13,7 @@ level: Beginner
 last-substantial-update: 2022-10-17T00:00:00.000Z
 duration: 54
 exl-id: 1bb7c415-58f8-4f6c-a0bc-38bdbdb521cf
-TQID: https://experienceleague.adobe.com/6IB0iHT17guhH5IaLXmuI2qb8hcQneW4rmxbPsro1os
+TQID: 'https://experienceleague.adobe.com/0sbmJfUGsyktjkzUOMI5-AGcxZOUUKv4sSvcfSYwfM8'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -23,6 +23,10 @@ feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
   - id: a453562e-8e72-4640-9a69-9cf95930bcee
+    internal-label: Universal Editor
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
     internal-label: Universal Editor
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8

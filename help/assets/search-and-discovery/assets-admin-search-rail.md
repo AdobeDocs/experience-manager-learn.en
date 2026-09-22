@@ -9,11 +9,11 @@ thumbnail: 35842.jpg
 topic: Content Management
 role: Admin
 level: Intermediate
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 7ef59804-b151-486c-9c7d-43058c004f3e
 duration: 304
-TQID: https://experienceleague.adobe.com/zlqeuRnIXWjDlVpM0r67B6fDLRZLqxG4RW-Laz0tN2A
+TQID: 'https://experienceleague.adobe.com/NWWTLO4ebOLzrKjpA8i0e3FvvJKUjLQpcUPv-tPc214'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -24,6 +24,8 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

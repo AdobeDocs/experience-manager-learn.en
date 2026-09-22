@@ -8,11 +8,11 @@ role: Leader, Developer, Admin, User
 level: Beginner
 jira: KT-8074
 thumbnail: 336539.jpeg
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 7af14c0f-5a13-49ab-95ea-53ea8cf472f3
 duration: 286
-TQID: https://experienceleague.adobe.com/GEiyPq3kdBBFyUd2UugIP3RqG-s5v4iR8meHO943f64
+TQID: 'https://experienceleague.adobe.com/1z4qMZ-DiBLj1rWGNMdklLhmOVVuD3vFLwu3bQBhvek'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -25,6 +25,8 @@ feature_v2:
     internal-label: Content management
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: ee4c2482-9595-5bc0-b9be-c0c6f02eba50
+    internal-label: Asset Processing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

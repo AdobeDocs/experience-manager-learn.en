@@ -6,10 +6,17 @@ role: Leader, User, Developer, Admin
 level: Beginner, Intermediate, Experienced
 doc-type: Technical Video
 duration: 115
-last-substantial-update: 2026-09-10
+last-substantial-update: 2026-09-10T00:00:00.000Z
 jira: KT-21182
 thumbnail: KT-21182.jpeg
 exl-id: 
+TQID: 'https://experienceleague.adobe.com/KZEp3MAtzVQDux5zTwMMcLuCquPhR2htDw-gRMztGzY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
 # Check AEM content for brand compliance
 

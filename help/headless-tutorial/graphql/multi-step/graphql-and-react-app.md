@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 exl-id: 772b595d-2a25-4ae6-8c6e-69a646143147
 duration: 410
-TQID: https://experienceleague.adobe.com/TujcpPsxITcQPDr44q-INF35isTLQJkzj8vuVpyp1jg
+TQID: 'https://experienceleague.adobe.com/VgUdkze7Qu-6deRSvS1civBpWePlcF-JYsYqTzdEXtg'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -24,6 +24,12 @@ feature_v2:
     internal-label: Developer tools
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 523b1ccd-901e-5e3b-9fa7-f3dfd82463d5
+    internal-label: Configuring
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 subfeature_v2:
   - id: d781bc8f-52af-43f6-84d0-b73e59a130d5
     internal-label: Persisted queries

@@ -12,10 +12,17 @@ last-substantial-update: 2024-06-21T00:00:00.000Z
 jira: KT-15945
 thumbnail: KT-15945.jpeg
 exl-id: fa9ee14f-130e-491b-91b6-594ba47a7278
-TQID: https://experienceleague.adobe.com/5DuWvkfCmRf9cU1Xo4XGTsoDJURbDq2FOuLSf8KuveU
+TQID: 'https://experienceleague.adobe.com/mDvy4BjI5bLS3tu7bLGfetfA95-cMYSSQkLUCnK3uxg'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

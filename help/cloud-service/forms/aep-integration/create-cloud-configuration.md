@@ -8,9 +8,16 @@ role: Admin
 level: Intermediate
 doc-type: Technical Video
 duration: 81
-last-substantial-update: 2026-03-16
+last-substantial-update: 2026-03-16T00:00:00.000Z
 jira: KT-20539
 exl-id: e6511288-68f2-4999-9311-4e79cb5faac0
+TQID: 'https://experienceleague.adobe.com/VFoh7A-tnjH3UUo8c3d3gPHE-2fx3Ywv4o-dSWWYBns'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
 ---
 # Create cloud configuration for AEP and AEM integration
 

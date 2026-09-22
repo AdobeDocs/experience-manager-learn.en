@@ -6,9 +6,27 @@ role: Leader, User, Developer
 level: Beginner
 doc-type: Article
 duration: 81
-last-substantial-update: 2026-09-10
+last-substantial-update: 2026-09-10T00:00:00.000Z
 jira: KT-20473
 exl-id: 7f2e4e37-6440-423e-9ba9-9228fe03600b
+TQID: 'https://experienceleague.adobe.com/fkxZkeP0nKgKovbmsppOojLRMKwXviuQQNrEthT8yCU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a5824760-2d72-4638-a27c-4ca7b9390ba2
+    internal-label: AEM Content AI
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
 # AEM MCP Server
 

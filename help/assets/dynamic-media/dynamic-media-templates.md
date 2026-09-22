@@ -10,7 +10,7 @@ duration: 383
 last-substantial-update: 2025-03-18T00:00:00.000Z
 jira: KT-17563
 exl-id: 28098410-64d3-4cfc-8bc6-56e1d4016525
-TQID: https://experienceleague.adobe.com/5DTgVJ5Nd-IiBnSZt-BPsYY36YYlzAQUQiKEJtD7Ggw
+TQID: 'https://experienceleague.adobe.com/05I2L71RX8AaTAXaFUH8zueaMEYV8dmtvhS6t6vF3sM'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,18 @@ feature_v2:
     internal-label: Dynamic Media
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
 subfeature_v2:
   - id: b2fe52d9-cde8-4c1d-9c28-72ffc0cc7558
     internal-label: Smart Services
@@ -35,6 +47,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Dynamic Media Templates {#dynamic-media-templates}
 

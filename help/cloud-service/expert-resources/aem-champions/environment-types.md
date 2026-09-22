@@ -11,10 +11,13 @@ last-substantial-update: 2023-05-11T00:00:00.000Z
 jira: KT-13229
 exl-id: 66159aac-a5ca-47fb-b374-f0fe5f8e1198
 duration: 306
-TQID: https://experienceleague.adobe.com/3pGGJ6jbiVc5s-fTvJnS28QNQufuMqa-4-ZnuEbPB6Y
+TQID: 'https://experienceleague.adobe.com/okjU2F-f5izokZvf8SFalCKxebWJGJzc7uD-Vo1bGhw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

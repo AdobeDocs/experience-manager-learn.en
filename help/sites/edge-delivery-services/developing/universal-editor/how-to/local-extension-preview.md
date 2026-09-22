@@ -9,7 +9,7 @@ level: Beginner, Intermediate, Experienced
 doc-type: Tutorial
 jira: KT-18658
 exl-id: 27b6626d-b291-4b88-9350-a32cdbd0cf63
-TQID: https://experienceleague.adobe.com/zf2dxzzrylab38ZhX0TiDAaqByfDG3Vgia6ZPbpKhpM
+TQID: 'https://experienceleague.adobe.com/n0alOjKP-PdI5FmW2nO1Ki9CRZH4iAnm1jvxfNbtssk'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -17,6 +17,10 @@ product_v2:
     internal-label: Experience Manager
 feature_v2:
   - id: a453562e-8e72-4640-9a69-9cf95930bcee
+    internal-label: Universal Editor
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
     internal-label: Universal Editor
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8

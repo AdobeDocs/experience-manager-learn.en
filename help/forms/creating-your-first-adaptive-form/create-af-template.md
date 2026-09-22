@@ -8,6 +8,10 @@ level: Beginner
 jira: KT-5859
 thumbnail: 37324.jpg
 duration: 263
+TQID: 'https://experienceleague.adobe.com/tSAArR9pzFeF7caTQwNcaMF-JUnyOQJ710clF9VNRhw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Creating Adaptive Form Template

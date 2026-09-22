@@ -10,13 +10,15 @@ jira: KT-9355
 thumbnail: KT-9355.jpeg
 exl-id: c1a26dcb-b2ae-4015-b865-2ce32f4fa869
 duration: 117
-TQID: https://experienceleague.adobe.com/-vrsp3OpO2bTFG73Wo-W4CLXy09v-RAylXrolZMRUdQ
+TQID: 'https://experienceleague.adobe.com/-V4noepXgO9Vad0-CVJGLQ-XL201pacvMD9qJksSqkQ'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
 subfeature_v2:
   - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
     internal-label: Cloud Manager APIs

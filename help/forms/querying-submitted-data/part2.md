@@ -9,6 +9,13 @@ role: Developer
 level: Experienced
 exl-id: 29195c70-af12-4a22-8484-3c87a1e07378
 duration: 110
+TQID: 'https://experienceleague.adobe.com/tGakbO2XRXbZI67qBNn72fxvkjhv5aH0s2R4nuw15a0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 ---
 # Storing Submitted Data in Database
 

@@ -9,7 +9,7 @@ level: Intermediate, Experienced
 doc-type: Article
 exl-id: c51da742-5ce7-499a-83da-227a25fb78c9
 duration: 328
-TQID: https://experienceleague.adobe.com/98Tfevwxd0Yctlqiszfc00cAbRfSqifAtvx66M-K8-g
+TQID: 'https://experienceleague.adobe.com/rsYOalYWB9hQ8yYoPa8enZXadE30DMF5INAw-SaQwAk'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -18,6 +18,8 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

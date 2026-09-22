@@ -11,7 +11,7 @@ role: Developer, Admin
 level: Beginner
 exl-id: 82a9d00f-abe6-4600-92b1-41b5f0b5e352
 duration: 50
-TQID: https://experienceleague.adobe.com/oSS79kXRfEY4AV2b04yxhMRriKR-UI66g-XY0E8HRfs
+TQID: 'https://experienceleague.adobe.com/zGtmW2rjxjCF-IaBnYnipqKg8kuS18vChpAL7nsTdgs'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

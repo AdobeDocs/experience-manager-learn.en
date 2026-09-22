@@ -13,7 +13,7 @@ jira: KT-11659
 thumbnail: 3412876.jpeg
 exl-id: ef5ad335-7278-4c00-beb6-233a3d1e330e
 duration: 265
-TQID: https://experienceleague.adobe.com/SMfK816xHZ7ak3BzOZpAHV8bjsgh4ozG-4IY4TGBrDg
+TQID: 'https://experienceleague.adobe.com/-TFsMG2-qNBgfOZEYJ3-HOe9cz8oChHYYYp6ykryVJI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

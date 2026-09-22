@@ -11,7 +11,7 @@ thumbnail: 329331.jpg
 doc-type: Feature Video
 exl-id: 12fa3622-428a-40c1-b47f-fa55c2858896
 duration: 498
-TQID: https://experienceleague.adobe.com/8Rwjz6CQyAyMXluQnRqSW8Dllaymbb33ggcJ4HI-wuY
+TQID: 'https://experienceleague.adobe.com/8THoqryFDnnl-LZSuCaPAQuC3bO6xANLzvCF8-O2udk'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -24,6 +24,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop

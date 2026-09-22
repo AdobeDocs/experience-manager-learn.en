@@ -6,11 +6,29 @@ topic: Development, Content Management
 feature: Asset Management
 role: Developer
 level: Intermediate
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Tutorial
 jira: KT-19571
 thumbnail: KT-19571.png
 exl-id: 6227cb28-db63-48fe-a8b0-6e4f08b61251
+TQID: 'https://experienceleague.adobe.com/lyZrYMeX-v-GfJFXMOY5dsy2MjyuSdOEouOjb21nQ8Y'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Programmatic asset upload to AEM as a Cloud Service
 

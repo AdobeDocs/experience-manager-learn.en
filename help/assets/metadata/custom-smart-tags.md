@@ -12,11 +12,11 @@ topic: Content Management
 role: Developer
 level: Intermediate
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 06f2ae4d-c18e-45ed-96d7-ddc6f9c8d829
 duration: 751
-TQID: https://experienceleague.adobe.com/gYcw5yYDLy6JRYgpq-gg2d2SNdGlv5rKLHfi6OqU9LU
+TQID: 'https://experienceleague.adobe.com/SPKMO7mfZtWWCNEhrNScCp-FEJ-71rQ0x9VAm-R9t80'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -27,6 +27,10 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 752f9248-f39f-5793-a7dd-5ddafcd403c7
+    internal-label: Tagging
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

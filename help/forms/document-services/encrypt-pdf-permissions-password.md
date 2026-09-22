@@ -9,12 +9,19 @@ level: Intermediate
 jira: KT-15849
 last-substantial-update: 2024-07-19T00:00:00.000Z
 exl-id: 5df8581c-a44c-449c-bf3b-8cdf57635c4d
-TQID: https://experienceleague.adobe.com/mdok4-iJ1Kl-6FxNxqHr-p3Aq4QShkQqQIrsE8NbUUs
+TQID: 'https://experienceleague.adobe.com/beb-hZqOLohGX-ba92mijk4iKsJZHLB7xHatjHRTots'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

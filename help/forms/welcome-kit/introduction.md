@@ -9,7 +9,7 @@ level: Beginner
 last-substantial-update: 2022-12-14T00:00:00.000Z
 exl-id: 7aba25d1-0d4d-4c49-8132-f844a288e8f3
 duration: 19
-TQID: https://experienceleague.adobe.com/zrEOaSyIB-mRk7xwPdJFtcFdhWZ0H97COrZoFQEV1z8
+TQID: 'https://experienceleague.adobe.com/U8yJBO2gJ8qe9vwThupqho52uSUO35a-i2ce8wAFjuQ'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms

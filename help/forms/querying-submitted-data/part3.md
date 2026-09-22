@@ -9,6 +9,17 @@ role: Developer
 level: Experienced
 exl-id: 412eea77-3cf4-43bb-9d2f-ae860cd9d3be
 duration: 106
+TQID: 'https://experienceleague.adobe.com/UGJTgo2WsaG-H6-uvxE8IgcJN-Vb796GHvSZ-Pm33CI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 4e98bff0-c1e9-5ae2-adfb-81189dc510c5
+    internal-label: Query Builder
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 ---
 # Storing JSON Schema in Database {#storing-json-schema-in-database}
 

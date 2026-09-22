@@ -10,7 +10,7 @@ last-substantial-update: 2022-06-15T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 42f13a19-52bf-413d-a141-63f1f0910dce
 duration: 2460
-TQID: https://experienceleague.adobe.com/AxT-OBDzEXPWVOH16E-JMy8ar3u6L3buKduLVg8j3OE
+TQID: 'https://experienceleague.adobe.com/ZzVlmIfxQL-MIqdE4xtpHmfSC0ekRqiKPb82XijyHY4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -27,6 +27,10 @@ feature_v2:
     internal-label: Configuration
   - id: e17747bc-9b7b-44e6-a443-f54229a02620
     internal-label: Integrations
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
     internal-label: Hybrid mode

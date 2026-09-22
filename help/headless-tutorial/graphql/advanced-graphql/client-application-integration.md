@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 exl-id: d0576962-a86a-4742-8635-02be1ec3243f
 duration: 241
-TQID: https://experienceleague.adobe.com/G8vN3uIOKfDu00vpefgFFbLM0zVpMl-PSxDGe9SlhEs
+TQID: 'https://experienceleague.adobe.com/O9fdx3GDCExnnHt9AYcddpZDZWBnw2Tgi8ARJYf7FlE'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,10 @@ feature_v2:
     internal-label: Developer tools
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 subfeature_v2:
   - id: d781bc8f-52af-43f6-84d0-b73e59a130d5
     internal-label: Persisted queries

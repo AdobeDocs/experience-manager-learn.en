@@ -12,7 +12,7 @@ jira: KT-7148
 thumbnail: 331755.jpg
 exl-id: e2d56e91-c13e-4787-a97f-255938b5d290
 duration: 173
-TQID: https://experienceleague.adobe.com/IyqVjF-K2-GOLAAtqCNfCFyrZqJaKcXoJGnpkJ41-4g
+TQID: 'https://experienceleague.adobe.com/-cBGnftINgyNLxoJOdd2y5mPj7ehZqj9Eo5j2Dc7MR4'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -23,6 +23,10 @@ feature_v2:
     internal-label: Integrations
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -31,6 +35,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Create Data Source
 

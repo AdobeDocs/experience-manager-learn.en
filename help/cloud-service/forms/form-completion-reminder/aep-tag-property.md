@@ -1,7 +1,6 @@
 ---
 title: Adobe Experience Platform Tags Configuration
 description: Create an AEP Tags property to capture and stream user interactions from AEM Forms to Adobe Experience Platform.
-
 solution: Experience Manager Forms, Journey Optimizer
 type: Documentation
 role: Developer
@@ -12,7 +11,22 @@ topic: Integrations, Development
 jira: KT-21185
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
-
+TQID: 'https://experienceleague.adobe.com/YUXB1l3SxY3VGOGRQBUZOZ2LGfiv5c-S-SY0lH-9jog'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Adobe Experience Platform Tags Configuration
 

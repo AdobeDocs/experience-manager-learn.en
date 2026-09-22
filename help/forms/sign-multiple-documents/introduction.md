@@ -10,12 +10,15 @@ level: Experienced
 exl-id: 0260d4b6-8615-4d78-a920-b36766a0f8e9
 last-substantial-update: 2021-07-07T00:00:00.000Z
 duration: 211
-TQID: https://experienceleague.adobe.com/vv7uiCs0fLZqNI2Q23fhVV-h70HaKrUGj9UIUqTkx1E
+TQID: 'https://experienceleague.adobe.com/Q30I668o1wWEqq3JCudSbBkIVjxX-PrE6lAShxswqss'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a16aea24-4e85-528d-9377-cd80bb039c1d
+    internal-label: Acrobat Sign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

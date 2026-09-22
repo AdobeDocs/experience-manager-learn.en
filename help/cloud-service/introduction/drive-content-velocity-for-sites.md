@@ -4,7 +4,7 @@ description: Learn about content velocity and its value within enterprise organi
 solution: Experience Manager
 exl-id: 9d2e05c3-c8eb-4d92-bad0-931e63550438
 duration: 589
-TQID: https://experienceleague.adobe.com/TAv8K9tzMhGiaTIZw6QrPoYamxGJ8UPxgflUrULgKCg
+TQID: 'https://experienceleague.adobe.com/ORAK3DD4A5zTK5sEFlsrT34U-moxH46fP-HMmmdOzFQ'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Integrations
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
     internal-label: Experience design

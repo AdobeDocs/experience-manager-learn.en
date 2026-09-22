@@ -14,7 +14,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title="false"
 exl-id: 0cc3d3bc-e4ea-4ab2-8878-adbcf0c914f5
 duration: 2252
-TQID: https://experienceleague.adobe.com/rpLfxiILNkuzz80Q8Wbzxhl-02yYBskfRVfaWvpPSlY
+TQID: 'https://experienceleague.adobe.com/R0hw4KcmJvzyHEX4c5z74pnMPKjiqHPcvfIKqm74YPY'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -25,6 +25,8 @@ feature_v2:
     internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
     internal-label: Integrations
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
     internal-label: Adobe Client Data Layer

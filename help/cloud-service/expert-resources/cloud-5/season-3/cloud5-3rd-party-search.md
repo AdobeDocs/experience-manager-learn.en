@@ -9,13 +9,15 @@ level: Intermediate
 recommendations: noDisplay, noCatalog
 exl-id: 0f41b049-bbbb-47c8-a3f8-25b5c68bdd39
 duration: 515
-TQID: https://experienceleague.adobe.com/E8abk4liCoCOmifWc46gE52A-StJkQOInkCsjNSTbws
+TQID: 'https://experienceleague.adobe.com/Sfc1Grj-eZzhDZ7xX2jAHP7spoEy6CVuWeLt1sjgm5E'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

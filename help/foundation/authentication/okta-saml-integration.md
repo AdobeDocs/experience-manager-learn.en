@@ -11,13 +11,15 @@ last-substantial-update: 2023-03-01T00:00:00.000Z
 doc-type: Tutorial
 exl-id: 460e9bfa-1b15-41b9-b8b7-58b2b1252576
 duration: 157
-TQID: https://experienceleague.adobe.com/GgdjROUb3DIhgBDbUvzVA-p72oabGgCaPxkp3ot4-w0
+TQID: 'https://experienceleague.adobe.com/xOfE1OMqFHSPbmyQPlA8tM5McdPbc7k2Kvu9moLOdQo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -11,6 +11,10 @@ thumbnail: 7820.jpg
 jira: KT-7820
 exl-id: 49ecde63-e53c-41fa-ab9b-d6a4435657b5
 duration: 131
+TQID: 'https://experienceleague.adobe.com/tIfBBWk4JaoDfaIzNgtxO-PJmYG967jwvo3I4fZhmSE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # Create an Adobe I/O project
 

@@ -11,7 +11,7 @@ jira: KT-14795
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 duration: 46
 exl-id: 9abe9f9d-8fb3-4e01-a830-1dad1c27274d
-TQID: https://experienceleague.adobe.com/V5WlwAGZpkgbn4QC-rFIOCx7X22gna3MmJVbsBtDc9A
+TQID: 'https://experienceleague.adobe.com/QMvPQp6CDN6-Dzyor3xb8Rrju0Tnyn2lq2v04G425LI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -24,6 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Prefill adaptive form with share point list data
 

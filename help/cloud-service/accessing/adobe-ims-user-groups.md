@@ -11,10 +11,13 @@ thumbnail: 39150.jpg
 last-substantial-update: 2026-02-18T00:00:00.000Z
 exl-id: 40ba2368-edb7-4348-9aff-91194200092e
 duration: 160
-TQID: https://experienceleague.adobe.com/tTP-1NGITRRBzVEyjjh0qVbFnxy30VVez6FTPKlQnFM
+TQID: 'https://experienceleague.adobe.com/R7GasfRpg5E1wBA4Gf3jzP91wQ8ounfCM54g85NR-0I'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 3aa2a621-ec4f-5c9b-bbb0-bd5a3b1279a6
+    internal-label: User and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

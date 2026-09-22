@@ -10,6 +10,15 @@ jira: KT-10254
 thumbnail: KT-10254.jpeg
 exl-id: 5e3d115b-f3a1-4edc-86ab-3e0713a36d54
 duration: 130
+TQID: 'https://experienceleague.adobe.com/22gSspeW2cf8CTdFviqvanfoHMLnM0J1AVdJGevHU5w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 ---
 # Localized content with AEM Headless
 

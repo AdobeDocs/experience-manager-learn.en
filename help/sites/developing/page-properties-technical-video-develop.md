@@ -11,7 +11,7 @@ thumbnail: 25173.jpg
 doc-type: Technical Video
 exl-id: 500f4e07-2686-42a2-8e44-d96dde02a112
 duration: 488
-TQID: https://experienceleague.adobe.com/xw-lzKy3-uEzhloVpnR4i8OdLB16ehnSn-Ye4WwIZxA
+TQID: 'https://experienceleague.adobe.com/H0Ip4tym-tQ-1cB5Lw19JtBaYNKyhAVRBj9m7C7lwl0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -20,6 +20,10 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 523b1ccd-901e-5e3b-9fa7-f3dfd82463d5
+    internal-label: Configuring
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

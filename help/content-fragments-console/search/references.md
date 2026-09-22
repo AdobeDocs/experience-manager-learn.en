@@ -12,7 +12,7 @@ jira: KT-13556
 thumbnail: 3420950.jpeg
 exl-id: 5af2456b-5255-40b3-a6a5-b953c8d76fc9
 duration: 174
-TQID: https://experienceleague.adobe.com/v4Mbg5sfUGWxaVJPd82RqgW6-SEhcmUzivgTKCvqsko
+TQID: 'https://experienceleague.adobe.com/tnpR-alw-N1it-3rkFKMAqSfAXE1wJ7VepSLuPRhE8I'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites

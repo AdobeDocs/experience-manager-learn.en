@@ -10,10 +10,10 @@ topic: Collaboration
 role: Developer
 level: Intermediate
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 doc-type: Tutorial
 exl-id: 972737dd-8ca6-47b4-a4ec-b73355c09cec
-TQID: https://experienceleague.adobe.com/mjgJJ8eUOPycPHmteHiNz3gDZXG3Lfbxz9ikLnUrzXs
+TQID: 'https://experienceleague.adobe.com/Zdbpb8Apo8CRjEMlYIkHmW0Dxz4pYKazBoRpgOd--8k'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

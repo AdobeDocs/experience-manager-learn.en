@@ -9,7 +9,21 @@ level: Intermediate
 doc-type: Tutorial
 jira: KT-21735
 thumbnail: KT-21735.jpeg
-last-substantial-update: 2026-06-25
+last-substantial-update: 2026-06-25T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/If217u3d-dUZvZx8LrX77gMVfSLsOKzrHfOteJ-R5OA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Set up AEM Edge Functions on Edge Delivery Services
 

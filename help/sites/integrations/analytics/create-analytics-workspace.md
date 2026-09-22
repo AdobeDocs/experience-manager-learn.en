@@ -13,7 +13,7 @@ exl-id: b5722fe2-93bf-4b25-8e08-4cb8206771cb
 badgeIntegration: label="Integration" type="positive"
 last-substantial-update: 2022-06-15T00:00:00.000Z
 duration: 443
-TQID: https://experienceleague.adobe.com/mUMx8UsnhJUZZVqPsfMRkT7gdEvrMCOFCrFY5t5e0wM
+TQID: 'https://experienceleague.adobe.com/rTCvwygMpgXiaV1RlwDy1DO-Y96J1MvyTrqCmBsOok0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -24,6 +24,12 @@ feature_v2:
     internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
     internal-label: Integrations
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
     internal-label: Adobe Client Data Layer

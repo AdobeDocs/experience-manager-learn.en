@@ -12,7 +12,7 @@ level: Beginner
 doc-type: Feature Video
 exl-id: b74e7cb3-4a2d-4076-b68a-167bc59e20fb
 duration: 234
-TQID: https://experienceleague.adobe.com/jetDu1NcN-68fo-CX-PNsvoFv7alHgPOpXDasLJGYKY
+TQID: 'https://experienceleague.adobe.com/Rwtim5C9R3P1eUO71ZV13eFK4ZJHYXvQgNDo7CdOVrs'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -27,6 +27,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Place Copy {#place-copy}
 

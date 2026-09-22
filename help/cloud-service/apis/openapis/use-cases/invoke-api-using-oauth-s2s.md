@@ -12,13 +12,17 @@ thumbnail: KT-16516.jpeg
 last-substantial-update: 2025-02-28T00:00:00.000Z
 duration: 0
 exl-id: 8338a905-c4a2-4454-9e6f-e257cb0db97c
-TQID: https://experienceleague.adobe.com/q6fQccCHxtysPKTPAEdvBZ2XwdNY7oTNhhhsX6eef-M
+TQID: 'https://experienceleague.adobe.com/cUrJSHNfoS0iGYUdv4-3RuhlGUfpYHGCdWY0-woJIMw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader

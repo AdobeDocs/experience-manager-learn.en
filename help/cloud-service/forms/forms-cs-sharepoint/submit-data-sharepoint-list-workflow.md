@@ -11,19 +11,24 @@ jira: KT-15126
 exl-id: b369ed05-ba25-4b0e-aa3b-e7fc1621067d
 duration: 52
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
-TQID: https://experienceleague.adobe.com/OS0nAv4JG9GYUMqoxrcx1GjBV-v642DIidcwtv7Mpi0
+TQID: 'https://experienceleague.adobe.com/xUobZmCdB1-4v78DAlBsU7Z6scBktjjUHN3YFjQDrTc'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Insert data into SharePoint list using invoke FDM workflow step
 

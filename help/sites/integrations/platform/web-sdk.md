@@ -14,7 +14,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Sites as a Cloud Service" before-title="false"
 exl-id: 47df99e6-6418-43c8-96fe-85e3c47034d6
 duration: 1303
-TQID: https://experienceleague.adobe.com/osGv1-7X-j58-2-w5AFHXNq8y2ZoGcptnKDkwTBc1cc
+TQID: 'https://experienceleague.adobe.com/aFmPrVaGkqVoJZ9wkibzW7OoyCpTaVnSlB0ycF6M5qU'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -25,6 +25,8 @@ feature_v2:
     internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
     internal-label: Integrations
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
     internal-label: Adobe Client Data Layer
@@ -57,6 +59,8 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 ---
 # Integrate AEM Sites and Experience Platform Web SDK
 

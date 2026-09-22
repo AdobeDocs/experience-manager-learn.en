@@ -9,7 +9,16 @@ level: Intermediate
 doc-type: Tutorial
 jira: KT-22278
 thumbnail: KT-22278.jpeg
-last-substantial-update: 2026-08-07
+last-substantial-update: 2026-08-07T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/1v35MVUiqVcT2UTPWm-d9CFgGi7xVACWRgudiwvnMHY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 ---
 # Deploy and verify
 

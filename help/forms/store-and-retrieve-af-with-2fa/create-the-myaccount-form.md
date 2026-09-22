@@ -11,12 +11,19 @@ role: User
 level: Beginner
 exl-id: 1ecd8bc0-068f-4557-bce4-85347c295ce0
 duration: 53
-TQID: https://experienceleague.adobe.com/C4m1N6IbRX44ZN2qq4JgSztKmKotwC3Kkb9d7kWCG-g
+TQID: 'https://experienceleague.adobe.com/NlJeCx8Lf7yL8tiTxQSdnhbzePJxnWa-mVuDuI3vT18'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 4876a742-a341-5402-aba7-e749c45e777c
+    internal-label: Form Data Model
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

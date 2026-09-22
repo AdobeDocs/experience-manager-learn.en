@@ -12,10 +12,13 @@ duration: 532
 last-substantial-update: 2024-06-13T00:00:00.000Z
 jira: KT-15715
 exl-id: 2f029feb-7273-48e4-91a4-2ac0bf697356
-TQID: https://experienceleague.adobe.com/OrVR9xjTGrUTXb3pDxajwKy3nS7ydBxojW9pcXsLGyM
+TQID: 'https://experienceleague.adobe.com/EpQXdX4Ko1qQJ3i5yke0wKYYxNTvNuIadi-NPRXCpEM'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,6 +31,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Exploring the Universal Editor
 

@@ -13,7 +13,7 @@ doc-type: Tutorial
 exl-id: 5b490132-cddc-4024-92f1-e5c549afd6f1
 recommendations: noDisplay, noCatalog
 duration: 358
-TQID: https://experienceleague.adobe.com/ST-NByhs3TcMR3m4vjoBKRKn1sKFSQ3x3ETfLm97Dvs
+TQID: 'https://experienceleague.adobe.com/qv5QlALbhuTvCjDapg--sZ7ZPi8C-HQktGh8h-B09VM'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -26,6 +26,12 @@ feature_v2:
     internal-label: Authoring
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: cd7050e9-a158-4a12-a0ee-0be3ebb0d687
     internal-label: HTML Template Language

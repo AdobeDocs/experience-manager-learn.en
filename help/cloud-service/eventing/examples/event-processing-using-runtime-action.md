@@ -12,13 +12,15 @@ last-substantial-update: 2024-01-30T00:00:00.000Z
 jira: KT-14879
 thumbnail: KT-14879.jpeg
 exl-id: c362011e-89e4-479c-9a6c-2e5caa3b6e02
-TQID: https://experienceleague.adobe.com/PV-gIW6Xu1dAW0TAs3xoQSbQ-GmoXGla7MiQrF1KyDo
+TQID: 'https://experienceleague.adobe.com/Rw2hSsi073HBUC3V3bYtm6rbwHmU-ZPpbmK-OrLHNaY'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

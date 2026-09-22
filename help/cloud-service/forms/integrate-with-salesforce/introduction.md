@@ -13,7 +13,7 @@ jira: KT-7192
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 5be2fec1-fd65-4ac8-876f-c3d754279b04
 duration: 65
-TQID: https://experienceleague.adobe.com/RfKKbCxJqm-XhNXtf7L9XEIc4eU4CoyG4JX7pp2ztVo
+TQID: 'https://experienceleague.adobe.com/FMrsvN7arrAuyoWlIePlla854Eup-qvAKTtzi1OiL-I'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -32,6 +32,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Introduction
 

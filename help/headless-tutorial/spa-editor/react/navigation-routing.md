@@ -12,7 +12,7 @@ doc-type: Tutorial
 exl-id: 9c3d47c7-1bb9-441c-a0e6-85887a32c817
 duration: 337
 hide: true
-TQID: https://experienceleague.adobe.com/IwpKfnmoVskkBk08qb5iv5flSNNyRLT5BYaK05hP9es
+TQID: 'https://experienceleague.adobe.com/Rf-UM6V7-IukC4bANvvufg2QNDB62NxFCmi-MvwUnSU'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -25,6 +25,8 @@ feature_v2:
     internal-label: Authoring
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 subfeature_v2:
   - id: a9f7d31e-bbe1-4475-966a-5f213546fcd9
     internal-label: SPA Editor

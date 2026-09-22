@@ -12,7 +12,7 @@ jira: KT-13270
 thumbnail: KT-13270.jpeg
 exl-id: ad06b0f3-afa7-4661-aa66-0674d2e6bb43
 duration: 732
-TQID: https://experienceleague.adobe.com/5FEr-eaThxxjOVInlh6-6VN61pArcz7hrUAw3JVnKPc
+TQID: 'https://experienceleague.adobe.com/DC9me-NHTa0MgiG5bgH-NTDb88C52fr4EN-SOAklKvY'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -25,6 +25,10 @@ feature_v2:
     internal-label: Universal Editor
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

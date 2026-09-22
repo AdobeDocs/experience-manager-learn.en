@@ -13,6 +13,18 @@ feature: Generative AI, Integrations, Onboarding
 index: false
 hide: true
 exl-id: 71a64094-efca-400a-a6fa-cc801cbec664
+TQID: 'https://experienceleague.adobe.com/5aBZ8-3rc9jhdsoj2QY3HB5gmOKA-yuvFA-tUDmuZp8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+    internal-label: Generative AI
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
 # Challenges in Scaling GenAI Adoption
 

@@ -11,13 +11,19 @@ last-substantial-update: 2022-07-20T00:00:00.000Z
 doc-type: Tutorial
 thumbnail: aem-local-dev-env.jpg
 duration: 4537
-TQID: https://experienceleague.adobe.com/AeI97NVAjSmBJVbNyux0MqsthilbQMD85hL3z0DukxA
+TQID: 'https://experienceleague.adobe.com/euwWmfCZyk-iNhUAkeph6afNuiKhNw0XczWTLM7B6BY'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
 subfeature_v2:
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
     internal-label: Java Content Repository

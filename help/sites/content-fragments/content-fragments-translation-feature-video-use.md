@@ -11,7 +11,7 @@ thumbnail: 18131.jpg
 doc-type: Feature Video
 exl-id: cc4ffbd0-207a-42e4-bfcb-d6c83fb97237
 duration: 223
-TQID: https://experienceleague.adobe.com/X1NshwHYGHVh38qutEIbjIZW8Pir2BNlBRtj9-2kK50
+TQID: 'https://experienceleague.adobe.com/IMMUOPBhYt5ZCXle-ECZJRn89ItNfOpmhuzkDvEuN7o'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites

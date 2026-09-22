@@ -8,12 +8,12 @@ role: User
 level: Beginner
 jira: KT-8222
 thumbnail: 336458.jpeg
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 badgeIntegration: label="Integration" type="positive"
 doc-type: Feature Video
 exl-id: 60724863-c464-4f6e-9b49-d882e2eb2294
 duration: 990
-TQID: https://experienceleague.adobe.com/tqxAj6UYKJaQkS-DhansVEsO6VCItKletxMDSQM-SsU
+TQID: 'https://experienceleague.adobe.com/gFHBpXfbFJfmTpILfEvBWWoraJnFIySKYglsm4Gg3-Q'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -23,6 +23,10 @@ feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: e17747bc-9b7b-44e6-a443-f54229a02620
     internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554

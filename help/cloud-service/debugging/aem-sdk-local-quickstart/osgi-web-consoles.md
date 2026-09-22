@@ -10,13 +10,17 @@ role: Developer
 level: Beginner, Intermediate
 exl-id: 0929bc1a-376c-4e16-a540-a276fd5af164
 duration: 486
-TQID: https://experienceleague.adobe.com/cWoqY-xWdYY6KLUKL8yLmtSqyYeRGH7I5sbTAc0KgJY
+TQID: 'https://experienceleague.adobe.com/pX2Fq8A71dTkAlJB--VMwDuhE0-ZtQw0UJQnodbbVd8'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

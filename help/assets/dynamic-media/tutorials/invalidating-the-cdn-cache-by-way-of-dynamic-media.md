@@ -10,7 +10,7 @@ index: true
 doc-type: Tutorial
 exl-id: 7993e482-3db0-46a0-ae2f-f5a167ac02dc
 duration: 83
-TQID: https://experienceleague.adobe.com/1psenjsE3rPoEEHfX5Q-JIjGryMCe2O7F6Jh3xj1nbk
+TQID: 'https://experienceleague.adobe.com/NLriN2lIsIJmKp3S90sLCJ6RPwYheZsUdtJllyr1Rfc'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -19,6 +19,8 @@ product_v2:
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

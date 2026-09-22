@@ -11,12 +11,15 @@ topic: Development
 jira: KT-13520
 exl-id: c23275d7-daf7-4a42-83b6-4d04b297c470
 duration: 115
-TQID: https://experienceleague.adobe.com/RtLW2HAkoX-PZZqACc53ldhVC9PBFHUs-8XDx5pvXjk
+TQID: 'https://experienceleague.adobe.com/v9M-qd0EXo-IBkmm2-QGJ8iSb5kIMJ4cU5I-eyfZR7o'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

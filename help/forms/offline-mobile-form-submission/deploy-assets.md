@@ -11,12 +11,19 @@ jira: kt-16133
 exl-id: 79935ef0-bc73-4625-97dd-767d47a8b8bb
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 duration: 90
-TQID: https://experienceleague.adobe.com/WKZkhSWyTInKkuDTJSrVD1g3jY9ovSXUJj7GXk-HD-M
+TQID: 'https://experienceleague.adobe.com/ryhjynt-odjLqHM7lNG74RX5QdFgkEldWhlsDSDM3s0'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 59f95943-e802-56ac-990d-21ab923984c1
+    internal-label: Mobile Forms
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -8,9 +8,19 @@ role: Admin, User
 level: Beginner, Intermediate, Experienced
 doc-type: Feature Video
 duration: 137
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 jira: KT-20352
 exl-id: 3c59fda2-ef66-40c6-9a6f-c2a66125b8a5
+TQID: 'https://experienceleague.adobe.com/zwcee8xYE35WEpDloO6aTx9fYPKmZX2jjal-FdMNXmU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # AI search {#ai-search}
 

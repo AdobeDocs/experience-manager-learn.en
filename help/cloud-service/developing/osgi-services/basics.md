@@ -10,10 +10,13 @@ thumbnail: 335476.jpeg
 last-substantial-update: 2022-09-16T00:00:00.000Z
 exl-id: a3a9bf59-e9a2-4322-ac93-9c12c70b9a75
 duration: 505
-TQID: https://experienceleague.adobe.com/CJM97pTV3VJ8U6JWy8rT5Ht8gyI49tOZV-mqCzEqa8k
+TQID: 'https://experienceleague.adobe.com/71stD9GCmyXC-ccxrA41wokr2oL8x2rddObBhA1hAes'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

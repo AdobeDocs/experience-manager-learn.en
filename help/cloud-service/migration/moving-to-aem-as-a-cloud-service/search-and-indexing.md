@@ -10,10 +10,17 @@ jira: KT-8634
 thumbnail: 336963.jpeg
 exl-id: f752df86-27d4-4dbf-a3cb-ee97b7d9a17e
 duration: 1231
-TQID: https://experienceleague.adobe.com/yeFC3Wr-GCnp7NvCQvml-3lMMlh3zeg2w4D6BClqb50
+TQID: 'https://experienceleague.adobe.com/YLCNxeHkB8Zgd7qjiLzYX8GogJ59wNLPgy74RotRV38'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -7,10 +7,13 @@ role: Developer
 level: Beginner
 doc-type: Catalog
 exl-id: 9780870e-9ac6-46f9-abc4-87c9470ef7e7
-TQID: https://experienceleague.adobe.com/Ul94gEdMa7eK9dqKN2yGRCBjGkeH5Ehbu-msNvN6UgA
+TQID: 'https://experienceleague.adobe.com/IMLR5MnCJUF3VVKBGTxIOnhPbT3IgW3jj5MjvBFqKxE'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

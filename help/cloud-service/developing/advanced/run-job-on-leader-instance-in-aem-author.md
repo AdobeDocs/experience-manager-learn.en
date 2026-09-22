@@ -12,7 +12,7 @@ last-substantial-update: 2024-10-23T00:00:00.000Z
 jira: KT-16399
 thumbnail: KT-16399.jpeg
 exl-id: b8b88fc1-1de1-4b5e-8c65-d94fcfffc5a5
-TQID: https://experienceleague.adobe.com/8uNO9-Qf90HmJjxBec-68GFloYkF8ZSdQLiHg2GgphA
+TQID: 'https://experienceleague.adobe.com/xwfobDHLflMVurv8vDy6s8xTvyF5J1Ukw1aloc-Mo4E'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

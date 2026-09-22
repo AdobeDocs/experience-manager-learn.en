@@ -9,7 +9,7 @@ topic: Development
 doc-type: Tutorial
 exl-id: 117e4ba4-2d60-40a6-b267-c2e1d99df808
 duration: 152
-TQID: https://experienceleague.adobe.com/KFu7N7KwfsMrKXY5mbh4F0K6Hu4nNxPCUjRMS9P9R0c
+TQID: 'https://experienceleague.adobe.com/acNQw9Mybvjwr3cz5h0JagnufYFNZ21sr4hE-MleH9M'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

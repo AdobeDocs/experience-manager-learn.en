@@ -11,7 +11,7 @@ duration: 208
 last-substantial-update: 2024-06-07T00:00:00.000Z
 jira: KT-15677
 exl-id: 8c40c16d-b5c4-4796-aae8-dfb838de574f
-TQID: https://experienceleague.adobe.com/ArhjsP8a-Cg6BCXaCY4tPSG0i7y6C27iyi8-oA8ZOIY
+TQID: 'https://experienceleague.adobe.com/2-KTWEkBt5DQrfumIlIOMj0Y-CmKg8Pm0XtfJJcS17o'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -20,6 +20,8 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,6 +30,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Bulk importing using the Importer
 

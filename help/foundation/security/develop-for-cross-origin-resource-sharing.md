@@ -9,10 +9,15 @@ feature: Security
 doc-type: Technical Video
 exl-id: 867cf74e-44e7-431b-ac8f-41b63c370635
 duration: 333
-TQID: https://experienceleague.adobe.com/-7c-xtUomLaWCmpWRvZPct5n1SkZYgD0UGNPaFF-iv0
+TQID: 'https://experienceleague.adobe.com/B5fpgVJsUJGFHoQv8X3JLCZwbeVnYJiKIIMnC8Oio84'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

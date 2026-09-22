@@ -10,6 +10,13 @@ topic: Development
 index: true
 exl-id: 7480f507-29b3-4313-8a85-e207a17fb4e4
 duration: 117
+TQID: 'https://experienceleague.adobe.com/sReLpWYv58YP1-SHyguAheWDFH8hod01V4Jp-fNMH2E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Steps to troubleshoot acrobat specific issues on a Windows setup
 

@@ -12,7 +12,7 @@ thumbnail: KT-17426.jpeg
 last-substantial-update: 2025-02-28T00:00:00.000Z
 duration: 0
 exl-id: 1df4c816-b354-4803-bb6c-49aa7d7404c6
-TQID: https://experienceleague.adobe.com/H8MUu8Qu5xiD-VfwaUkdQOm4h3ZA0VdBesOTKfqNov8
+TQID: 'https://experienceleague.adobe.com/qSzlCf8qvWtfc9RTuK-ejk-pWFLYDTbmBMYxybmnxxU'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

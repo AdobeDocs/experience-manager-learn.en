@@ -12,7 +12,7 @@ badgeIntegration: label="Integration" type="positive"
 doc-type: Tutorial
 exl-id: 33f2fd25-8696-42fd-b496-dd21b88397b2
 duration: 490
-TQID: https://experienceleague.adobe.com/6uN-MLry-azXg0UpmrVd18VBv-iKzW2ZgQGv-R-36yE
+TQID: 'https://experienceleague.adobe.com/w2f2I64fGr-qklMBVfAWpZYnFGN7jE12EO388FKI2LE'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -27,6 +27,10 @@ feature_v2:
     internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
     internal-label: Adobe Client Data Layer

@@ -11,6 +11,20 @@ thumbnail: 7837.jpg
 jira: KT-7837
 exl-id: 24a788bb-f0dc-4774-91ab-26fde2de098f
 duration: 55
+TQID: 'https://experienceleague.adobe.com/tw2LGZm7RYQ-07TTi4I3WjQjTdpdaMr2BAuuytTk13E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Custom Process Step
 

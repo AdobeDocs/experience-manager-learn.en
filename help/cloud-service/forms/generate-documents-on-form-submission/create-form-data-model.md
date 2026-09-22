@@ -8,8 +8,15 @@ role: Developer
 level: Intermediate
 doc-type: Technical Video
 duration: 776
-last-substantial-update: 2026-06-09
+last-substantial-update: 2026-06-09T00:00:00.000Z
 jira: KT-20630
+TQID: 'https://experienceleague.adobe.com/7s6ku3QoWwKOmiqYO3517IkSN8odVjTboayr0jWs1ns'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
 ---
 
 # Create form data model for profile data

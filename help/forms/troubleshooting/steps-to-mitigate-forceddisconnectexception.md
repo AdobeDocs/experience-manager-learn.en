@@ -9,6 +9,15 @@ topic: Administration
 index: true
 exl-id: c40f040a-6e9e-498e-a8b3-749ba70fc229
 duration: 104
+TQID: 'https://experienceleague.adobe.com/7Qikp6kOwfa1Zp0KQOdlSOiRTIoWpEZuMJNw-8e0ybo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Steps to mitigate ForcedDisconnectException
 

@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Feature Video
 exl-id: d33c033a-9577-4d4e-99be-f3c7e2a4ce73
 duration: 665
-TQID: https://experienceleague.adobe.com/L-dDY8XxA0C-BTdwX-ZvfrIKWrSKpeA9V-wdSGqvEoo
+TQID: 'https://experienceleague.adobe.com/HKVUzpDIMKw-jIMCEhaqMx3xDcogKN8mD5KtqjyCIMY'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -18,6 +18,8 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

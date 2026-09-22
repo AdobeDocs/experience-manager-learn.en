@@ -10,6 +10,18 @@ topic: Administration
 jira: KT-11091
 exl-id: 933ec5f6-3e9c-4271-bc35-4ecaf6dbc434
 duration: 37
+TQID: 'https://experienceleague.adobe.com/quK2CD1sBRUNNLpvjeWX-NfbyF3RWOn-aie4g46r3Bc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # How to enable creation of pdf files by merging large xml data files with xdp templates
 

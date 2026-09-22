@@ -8,11 +8,11 @@ thumbnail: 41536.jpg
 topic: Content Management
 role: Developer
 level: Intermediate
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 252c7c58-3567-440a-a1d5-19c598b6788e
 duration: 242
-TQID: https://experienceleague.adobe.com/EFJ45mJaF118OzvP7bDw5NvAenSL-scE5qE-3i-GxZQ
+TQID: 'https://experienceleague.adobe.com/J3qU22AGzsV7h-0AswkcCJGO1PBd8dJjpL45bB7ELcM'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

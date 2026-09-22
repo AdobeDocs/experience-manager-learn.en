@@ -8,11 +8,11 @@ role: User
 level: Beginner
 jira: KT-8221
 thumbnail: 336314.jpeg
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 badgeIntegration: label="Integration" type="positive"
 doc-type: Catalog
 exl-id: 42c0e51d-abb2-4445-98bd-65d813f580ca
-TQID: https://experienceleague.adobe.com/5EyzEcno1pFvU09cD1JSMpBjDCYgybEJX-GNijwzXgg
+TQID: 'https://experienceleague.adobe.com/UozNOxOTdTFvXfBriAS-wICSmVKLcny-GzIB48ZPoR8'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -25,6 +25,10 @@ feature_v2:
     internal-label: Integrations
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: e17747bc-9b7b-44e6-a443-f54229a02620
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

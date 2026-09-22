@@ -10,7 +10,7 @@ level: Intermediate
 last-substantial-update: 2023-07-14T00:00:00.000Z
 exl-id: 62b73f4b-69d8-4ede-9d57-3d6472d25d5a
 duration: 118
-TQID: https://experienceleague.adobe.com/EpbFHs60Fa2ObxktEGviVmUMsJAOQwP-4W7U20-KVDc
+TQID: 'https://experienceleague.adobe.com/wEw5KaUYukaCzVz56ZP-PPuz-hbdi706KF9wlLxHtFU'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -23,6 +23,10 @@ feature_v2:
     internal-label: Integrations
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: 4876a742-a341-5402-aba7-e749c45e777c
+    internal-label: Form Data Model
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

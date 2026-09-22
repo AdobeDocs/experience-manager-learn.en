@@ -8,10 +8,17 @@ role: Developer
 jira: KT-15880
 level: Intermediate, Experienced
 exl-id: 856b7da4-9ee4-44db-b245-4fdd220e8a4e
-TQID: https://experienceleague.adobe.com/vu-LyDBynCBBUXSi9Ek7E1Z7s9VzS7jPPa-Yxy0qESM
+TQID: 'https://experienceleague.adobe.com/f-mXurztK1surv4hnmL-M-vHqpftrTM4Zs5sh0G69u4'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

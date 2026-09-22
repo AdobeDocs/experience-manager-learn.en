@@ -11,7 +11,7 @@ level: Intermediate, Experienced
 doc-type: Tutorial
 exl-id: 63c23f22-533d-486c-846b-fae22a4d68db
 duration: 253
-TQID: https://experienceleague.adobe.com/OvXkwyx083wjvJMxTJGfucAUvrAPQJr1paDjcb8TMvA
+TQID: 'https://experienceleague.adobe.com/6J--OM3DHiqT1jYtlGK1nzSeJ2S9-Pzin6xK2S5HhAQ'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -24,6 +24,10 @@ feature_v2:
     internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
     internal-label: Integrations
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

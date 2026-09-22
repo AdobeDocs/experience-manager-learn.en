@@ -10,7 +10,7 @@ topic: Integrations
 jira: KT-14675
 duration: 23
 exl-id: a94deebd-e86e-4360-b0ed-193f13197ee2
-TQID: https://experienceleague.adobe.com/-YqQxzmiNHqUTS5nzx-u3gTRIAr2tSmv3iTIT2qYouE
+TQID: 'https://experienceleague.adobe.com/GoDoK5lHVvjTKKO4RBRbXG4gDpxpO8r3JjAU6G5GlXI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

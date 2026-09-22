@@ -9,7 +9,7 @@ level: Intermediate
 recommendations: noDisplay, noCatalog
 exl-id: 7b39d955-9f8a-45cc-bc36-be6d454f5578
 duration: 282
-TQID: https://experienceleague.adobe.com/4if9q8oqhn56jwHBEyXZtwh7CIvPwnSals2Y2Op8hPI
+TQID: 'https://experienceleague.adobe.com/-6-CIXiXxa9cosXI9TqzILHlCcpiwkT48UqimYDR5po'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

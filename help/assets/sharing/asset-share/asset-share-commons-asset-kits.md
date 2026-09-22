@@ -12,7 +12,7 @@ jira: KT-11868
 thumbnail: 3415467.jpeg
 exl-id: fb8adf75-02d7-44e5-a84e-e0731100dc58
 duration: 643
-TQID: https://experienceleague.adobe.com/xxEVAHvW1KIu4TA3HbwfFIBSQx1ZQU9FVg1VbAP1TbA
+TQID: 'https://experienceleague.adobe.com/IuQoNaYU0PoaUsxbywEpNTYxj-tOOSPMYc8k1-RwdBQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

@@ -9,12 +9,15 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04T00:00:00.000Z
 jira: KT-18312
-thumbnail: null
+thumbnail: 
 exl-id: 53cb8996-4944-4137-a979-6cf86b088d42
-TQID: https://experienceleague.adobe.com/yRyP1V-kZEObMevSOR8iM9TZtmm-3TZOSPmwTP9nsK4
+TQID: 'https://experienceleague.adobe.com/PSmwo4wTX11bgRxK-gi7a5toT7hzpIWKfJeTXNsRh6Y'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -10,7 +10,7 @@ kt: kt-9860
 exl-id: 5282034f-275a-479d-aacb-fc5387da793d
 last-substantial-update: 2020-07-07T00:00:00.000Z
 duration: 35
-TQID: https://experienceleague.adobe.com/q3Xcpo2p7v8zGXXsK202wrmLGR46FIlRA4uj-ZuR19w
+TQID: 'https://experienceleague.adobe.com/T2GRmH3QaLZ35f1O89KdMxD-l7ZT0jGV7sUyUvSWsXU'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms

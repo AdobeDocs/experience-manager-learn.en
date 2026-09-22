@@ -7,10 +7,10 @@ feature: Templates
 role: User
 level: Beginner
 doc-type: Feature Video
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 exl-id: 45daa8e3-ce3b-43de-b3d6-276107215dd4
 duration: 459
-TQID: https://experienceleague.adobe.com/gZN-hXNhkOErFlSkmohmEdxJtkxDVnW3-GRvL5g-3OA
+TQID: 'https://experienceleague.adobe.com/iR5VsvdknL3fBW3pb9m1hPRG7EVXzwZk0Pz167nMJa0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -19,6 +19,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

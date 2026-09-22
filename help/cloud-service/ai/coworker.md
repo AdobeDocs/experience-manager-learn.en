@@ -6,7 +6,14 @@ role: Leader, User, Developer, Admin
 level: Beginner
 doc-type: Catalog
 duration: 0
-last-substantial-update: 2026-09-01
+last-substantial-update: 2026-09-01T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/ddpeOxbaYGqdV-QJR5ccV79bMfoMiM4iNcaFNNQ6G-c'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 
 # CX Enterprise Coworker and AEM

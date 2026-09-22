@@ -11,7 +11,7 @@ role: Developer
 level: Experienced
 exl-id: d486d5de-efd9-4dd3-9d9c-1bef510c6073
 duration: 84
-TQID: https://experienceleague.adobe.com/t8JYwX-k88rquFGJai-CkrfHLtl1o-vHJCQBLTVg-FU
+TQID: 'https://experienceleague.adobe.com/TukEdi2Kqk4XntOA0mK3qDGG8NhNgQlXxXpnhjXvBK0'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -22,6 +22,10 @@ feature_v2:
     internal-label: APIs
   - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
     internal-label: APIs
+  - id: 4876a742-a341-5402-aba7-e749c45e777c
+    internal-label: Form Data Model
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -10,7 +10,7 @@ level: Beginner
 doc-type: Article
 exl-id: ccbc68d1-a83e-4092-9a49-53c56c14483e
 duration: 168
-TQID: https://experienceleague.adobe.com/z6oU7jrLdjpmm5wbS0aP0BMOJ4rQV2E2HLf7iDoUqmM
+TQID: 'https://experienceleague.adobe.com/U2-uqCIWNX5Q3CdL-StZG9q6SE1AIHWkVxDVNYTOPIc'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,14 @@ feature_v2:
     internal-label: APIs
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 5ef752af-d616-5b23-8312-06964e46b208
+    internal-label: Administering
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
     internal-label: Editable templates

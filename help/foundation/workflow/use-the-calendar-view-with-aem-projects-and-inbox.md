@@ -8,6 +8,15 @@ topic: Collaboration
 role: User
 level: Beginner
 duration: 478
+TQID: 'https://experienceleague.adobe.com/5u4lCID5Vk9HCSr3v49lTU40KYrwHjkaiIE3KBu7gnQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 ---
 
 # Use the Calendar View with AEM Projects and Inbox

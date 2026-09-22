@@ -8,6 +8,13 @@ level: Beginner, Intermediate
 version: Experience Manager as a Cloud Service
 topic: Development
 jira: KT-8842
+TQID: 'https://experienceleague.adobe.com/4NstFSF6guibQBGhUHM-1QoQzY98Pz5NOdkgfAuh2G0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 ---
 
 # Add Adaptive Forms Styling to an AEM Sites Theme

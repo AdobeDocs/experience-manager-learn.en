@@ -11,7 +11,7 @@ level: Beginner
 doc-type: Feature Video
 exl-id: 292c61db-f8d2-424b-8c42-12d1d3b06167
 duration: 195
-TQID: https://experienceleague.adobe.com/FAWhdeMcXc-swnfxkL5RHt3iClCsqVXRmMxuZKsHIcg
+TQID: 'https://experienceleague.adobe.com/HVYx0j-lS3c7bYo1AeLW8dxA8-5zwgTSusLTdss3J2M'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -20,6 +20,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,6 +33,8 @@ topic_v2:
     internal-label: Metadata
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Asset Search {#asset-search}
 

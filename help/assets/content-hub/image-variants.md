@@ -12,7 +12,7 @@ last-substantial-update: 2024-10-08T00:00:00.000Z
 jira: KT-15991
 thumbnail: KT-15991.jpeg
 exl-id: 955acc4f-209f-4cbe-a9c7-9e33b5044159
-TQID: https://experienceleague.adobe.com/GOr3F0qaXjFNzEAxUB2Op0ddUMAkdNdN4Ql2x9zUwqQ
+TQID: 'https://experienceleague.adobe.com/0LWFIehS91cR-DP4Kooy2vSNcg3rY261J66RThR-g7A'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

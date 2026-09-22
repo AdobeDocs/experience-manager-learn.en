@@ -11,7 +11,7 @@ thumbnail: KT-10436.png
 last-substantial-update: 2022-10-14T00:00:00.000Z
 exl-id: 4dba6c09-2949-4153-a9bc-d660a740f8f7
 duration: 28
-TQID: https://experienceleague.adobe.com/sMhfnt2IVKldWexct6smvKf--S8H0I-1PgPEjfqwGvI
+TQID: 'https://experienceleague.adobe.com/B0Q-7p2RWxAEiQj2rsIm0nB8j0Aubsf6-gUrtDDbPb4'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -20,6 +20,10 @@ feature_v2:
     internal-label: Integrations
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

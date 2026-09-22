@@ -12,10 +12,13 @@ last-substantial-update: 2024-12-04T00:00:00.000Z
 jira: KT-15123
 thumbnail: KT-15123.jpeg
 exl-id: c3bfbe59-f540-43f9-81f2-6d7731750fc6
-TQID: https://experienceleague.adobe.com/RhVsHxrpLkSi4MTni9i3Z5octCuH-mI2UQbC7hhLrY0
+TQID: 'https://experienceleague.adobe.com/-YVZOyT2ggpBHiQyQEMMHUeo1A5k8G3l1wTP-HhKVr0'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

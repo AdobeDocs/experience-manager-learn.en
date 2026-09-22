@@ -12,7 +12,7 @@ doc-type: Tutorial
 exl-id: 17ca57d1-2b9a-409c-b083-398d38cd6a19
 recommendations: noDisplay, noCatalog
 duration: 263
-TQID: https://experienceleague.adobe.com/D5oUHWko3Jb56xe6gKSM1EFWKldiFCYcquB526NFHLg
+TQID: 'https://experienceleague.adobe.com/Ru9R71Ef-ZuAfCtI-8HD5hvJ5fPYUoHsxTm9BOfzcyM'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,10 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
     internal-label: Page editor

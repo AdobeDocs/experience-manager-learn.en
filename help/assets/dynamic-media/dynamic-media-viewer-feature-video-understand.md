@@ -10,7 +10,7 @@ level: Intermediate
 doc-type: Feature Video
 exl-id: db4fc561-2368-4df8-9b02-fc08afa00805
 duration: 254
-TQID: https://experienceleague.adobe.com/Rh5xn8SkMvlEmA9QOzkhuU-Iz2VwXH7SkjQbEkLYL0k
+TQID: 'https://experienceleague.adobe.com/9owLm24PNvH-PKJinSnN5UndP-o3RfLUOxHe55MZmsw'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

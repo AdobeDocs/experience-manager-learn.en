@@ -11,12 +11,15 @@ feature: Adaptive Forms
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 jira: KT-16517
 exl-id: e1e5745e-96fb-46c6-aa7f-43cdf2dfddbc
-TQID: https://experienceleague.adobe.com/mUTIgMNgIfPn-Oauy70yAnsii8ILIaXOCVLeJb5G2OY
+TQID: 'https://experienceleague.adobe.com/WxCLZD2SefW5SCx7rqSFCn3-MdSGzlvvz2LpUmdKlag'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -12,7 +12,7 @@ last-substantial-update: 2023-12-07T00:00:00.000Z
 jira: KT-14647
 thumbnail: 3425974.jpeg
 exl-id: 0e4158c4-3605-43c2-9c0f-3b7ab8ca5b91
-TQID: https://experienceleague.adobe.com/bUu1umR2OTgnbxEQWCmcCBgDMW9QymuXPFi7ahccYao
+TQID: 'https://experienceleague.adobe.com/Tr3VHfu6P2ajS3xV93l8-COq1I5g59BEkTrPKVvUVEQ'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites

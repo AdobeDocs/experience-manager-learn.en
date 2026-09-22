@@ -7,10 +7,28 @@ topic: Personalization, Integrations
 role: Developer, Leader, User
 level: Beginner
 doc-type: Tutorial
-last-substantial-update: 2025-11-03
+last-substantial-update: 2025-11-03T00:00:00.000Z
 jira: KT-19546
 thumbnail: KT-19546.jpeg
 exl-id: e8fa0785-f488-4a0e-a1a4-c8ae25b41fb0
+TQID: 'https://experienceleague.adobe.com/V05KBhq0s0fjKN0llKD42rgOYKWlJ5Jk5cQ0v6cjm7s'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+topic_v2:
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+    internal-label: Customer lifecycle
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
 ---
 # Live demonstration of personalization use cases
 

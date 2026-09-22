@@ -14,12 +14,15 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: bc66c8fb-d1ce-47dc-af6d-dda0c37347e4
 duration: 97
-TQID: https://experienceleague.adobe.com/3d4HXrPYuAmvtSVCII30oARGqdqqM8-9Tn9XwCaxD1s
+TQID: 'https://experienceleague.adobe.com/Ns4sBcV6IlG-BDZWeDO3tV338iuH0yE-5L5xmEmYaiA'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a16aea24-4e85-528d-9377-cd80bb039c1d
+    internal-label: Acrobat Sign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -10,10 +10,13 @@ feature: Core Components
 jira: KT-10373
 exl-id: ab01573a-e95f-4041-8ccf-16046d723aba
 duration: 78
-TQID: https://experienceleague.adobe.com/K5M3ZEVh1-M0CzITIvlfDxHIcB7i3CiueqpvG6CdOEE
+TQID: 'https://experienceleague.adobe.com/cJ7apExeZupbQxy6vgOdTbH-D5BHM5iUZKmh-ZAwPZI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

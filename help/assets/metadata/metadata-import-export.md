@@ -12,11 +12,11 @@ level: Intermediate
 kt: 647, 917
 thumbnail: 22132.jpg
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 0681e2c4-8661-436c-9170-9aa841a6fa27
 duration: 419
-TQID: https://experienceleague.adobe.com/OV-DC4CKLo-ejAyRCnewNL-bbsAt1eSTXDbx5xFa8Cw
+TQID: 'https://experienceleague.adobe.com/EH5HX-XRa1c-k3jE3WHQvkBQlTEE2-h6-YOW2M30FFw'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

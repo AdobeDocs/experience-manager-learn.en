@@ -5,8 +5,12 @@ role: Admin, Developer, User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 303
-last-substantial-update: 2026-07-27
+last-substantial-update: 2026-07-27T00:00:00.000Z
 jira: KT-21950, KT-22158
+TQID: 'https://experienceleague.adobe.com/nruujgFcrIT1ELex9Kx7UaBM9MgmCfablKVkQL9IVIs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Visual Content Fragments

@@ -7,9 +7,13 @@ role: Developer
 level: Intermediate
 doc-type: Technical Video
 duration: 178
-last-substantial-update: 2026-02-20
+last-substantial-update: 2026-02-20T00:00:00.000Z
 jira: KT-20356
 exl-id: c13e3ee1-f425-4e4c-9f6c-bfae269dcb66
+TQID: 'https://experienceleague.adobe.com/SzZW58VriWC1xa2P8iWqmYweJe3E7v1cPVPkjOmxjhU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # Create Reusable Interactive Communication Fragments
 

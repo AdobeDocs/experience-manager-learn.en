@@ -7,9 +7,13 @@ role: Developer
 level: Intermediate
 doc-type: Technical Video
 duration: 143
-last-substantial-update: 2026-02-20
+last-substantial-update: 2026-02-20T00:00:00.000Z
 jira: KT-20358
 exl-id: 88a07900-0b08-4c1d-a32e-fd3f79a2b5d2
+TQID: 'https://experienceleague.adobe.com/kvqM5Op7mAoRJTEx65eU-GuvgEBYs7q-DzSYYa58VWA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # Getting started with Interactive Communications
 

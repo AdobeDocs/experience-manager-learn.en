@@ -10,7 +10,7 @@ level: Intermediate
 doc-type: Technical Video
 exl-id: 9c139a36-e3c5-407e-af5d-b4fb8860f5a2
 duration: 238
-TQID: https://experienceleague.adobe.com/YloOCPwxdVRWxXE0IOdMfaE2dmADByVldBixQRMrRLM
+TQID: 'https://experienceleague.adobe.com/ZPMLtXoBW4VTkPF2xh4hcGFfNEsMOUpNl3OOqwhN7MM'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,12 @@ feature_v2:
     internal-label: Authoring
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

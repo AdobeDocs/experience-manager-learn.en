@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 exl-id: 62a36ab1-3245-43ac-b943-e28ff95661bf
 duration: 108
-TQID: https://experienceleague.adobe.com/4GS6675XOefdwTNF8aaVIzsW8AgvxYjuui1eTD7rYiQ
+TQID: 'https://experienceleague.adobe.com/YzGErpmnKUyeHnZr-eWAafdGbyJYS6Lt-cFOzyEH6t0'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

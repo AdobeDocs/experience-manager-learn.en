@@ -11,7 +11,7 @@ last-substantial-update: 2023-05-12T00:00:00.000Z
 jira: KT-13241
 exl-id: aac044b2-903a-47c7-8461-824c43902972
 duration: 59
-TQID: https://experienceleague.adobe.com/PemkidsXL-6C5FTvdKRNl7NoiLW4Ws5REr6QpteSG18
+TQID: 'https://experienceleague.adobe.com/ARML-tV65Dirj5-G4dqnuKnSMMy0YU8EwM4dm-D8f0A'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites

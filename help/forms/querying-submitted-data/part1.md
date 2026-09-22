@@ -9,6 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c588bdca-b8a8-4de2-97e0-ba08b195699f
 duration: 50
+TQID: 'https://experienceleague.adobe.com/mMlLrMLVe4qoPlwepkAijLy3RMTytujdR2oQEK0AiyQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # Create Adaptive Form based on JSON Schema
 

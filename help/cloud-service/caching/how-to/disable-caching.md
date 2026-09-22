@@ -12,10 +12,15 @@ jira: KT-14224
 thumbnail: KT-14224.jpeg
 exl-id: 22b1869e-5bb5-437d-9cb5-2d27f704c052
 duration: 100
-TQID: https://experienceleague.adobe.com/erPz0f-uISGtVwk8gwQzYJGJ3n7WaQyYwaoTu7EEPRU
+TQID: 'https://experienceleague.adobe.com/Wu-RypupJoPUMIe74g3iwTES01bE4g1eJmajz6MEJ5I'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

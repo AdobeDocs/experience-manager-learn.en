@@ -4,13 +4,19 @@ description: Learn ways to operationalize your Adobe Experience Manager (AEM) pl
 solution: Experience Manager
 exl-id: 808ab7a6-5ec5-4bbd-9a6e-cfc0b447430d
 duration: 257
-TQID: https://experienceleague.adobe.com/9aGnSlCB2vzyVwWrCf2hfjGGCBU-YxWuqWunm8fBfxs
+TQID: 'https://experienceleague.adobe.com/Mo6sqee3WPqixUEk6vk17HV4sjiCodG3NqevLGLLVzw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

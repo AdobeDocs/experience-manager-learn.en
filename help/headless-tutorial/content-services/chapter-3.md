@@ -8,7 +8,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 46ef11a2-81bd-4ff7-b9ef-9f8cba52c6a8
 duration: 167
-TQID: https://experienceleague.adobe.com/AJYUfpDuMOAI1--uqCzcYAES-PZ-04e-dMHBaeFrW8s
+TQID: 'https://experienceleague.adobe.com/pvf0IAqDJAuF3SpW7e4sAublVPH7yVBQeDIPi--YcL0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: APIs
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

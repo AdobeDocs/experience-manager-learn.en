@@ -8,11 +8,11 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 97
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 jira: KT-14752
 thumbnail: 3426796.jpeg
 exl-id: 32e02a15-75cd-4a64-93b4-34c8dd044b11
-TQID: https://experienceleague.adobe.com/ZLoOhHWfvH-vaYKnwg22CVMqGyy-OnvLsdLqHzKfwW4
+TQID: 'https://experienceleague.adobe.com/f-57v7lDpm0TXlPnlOOU0xLu5xTk70pdWgPuH2f77aY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

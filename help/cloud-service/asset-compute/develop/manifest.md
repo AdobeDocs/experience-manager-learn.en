@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: 766bfaff-ade0-41c8-a395-e79dfb4b3d76
 duration: 115
-TQID: https://experienceleague.adobe.com/dKNe7P4pI9v1QKEexFYDgsh2Nh5z8GyroLwG9kIAN8c
+TQID: 'https://experienceleague.adobe.com/xuHXLpsY3Aql5hl6Lscklbm9WfAJytlaclJkUi4xdAw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -20,6 +20,8 @@ feature_v2:
     internal-label: APIs
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

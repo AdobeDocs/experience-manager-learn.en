@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Feature Video
 exl-id: 59462cb4-d379-4e58-b786-ff8dbae6191c
 duration: 2516
-TQID: https://experienceleague.adobe.com/86FryR2chBKKaXn1xg2R2sevqg-q8nZveqK-XdKYU80
+TQID: 'https://experienceleague.adobe.com/9suhf8iCizIaLN1KnXtL651MmC1W5X5IBnsxMO64ATI'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop

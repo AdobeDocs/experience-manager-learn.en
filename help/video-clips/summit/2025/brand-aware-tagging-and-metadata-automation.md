@@ -13,6 +13,18 @@ feature: Asset Management, Metadata, Smart Tags, Asset Processing
 index: false
 hide: true
 exl-id: a9ed4c09-307c-42f1-9d3c-37481b305bf2
+TQID: 'https://experienceleague.adobe.com/AxusBLOThdcNr2FtGqKtpUmsJyja-oRVxrces1WrH50'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 752f9248-f39f-5793-a7dd-5ddafcd403c7
+    internal-label: Tagging
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Brand-Aware Tagging and Metadata Automation
 

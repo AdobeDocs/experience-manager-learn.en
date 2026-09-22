@@ -10,7 +10,7 @@ jira: KT-784
 doc-type: Feature Video
 exl-id: 295bbfb6-241f-41c0-972d-d9688863cea1
 duration: 443
-TQID: https://experienceleague.adobe.com/H2mwkR0PHEk6TXDdsTydOm4SHThVUiU8oS3gFPPPVBI
+TQID: 'https://experienceleague.adobe.com/iDOv6ZRdeHxvdJ9et0sJY9dQRcwVXDf-coIiA1I5VvE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

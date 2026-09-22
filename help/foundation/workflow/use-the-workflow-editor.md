@@ -12,10 +12,13 @@ exl-id: 8ec12629-3acd-4958-b25c-0ae0b97ce244
 last-substantial-update: 2022-08-10T00:00:00.000Z
 thumbnail: KT-657.jpg
 duration: 433
-TQID: https://experienceleague.adobe.com/gDMH5qW8sgGZiwkrz9ZZkIRAmmhhk9u5dylmHZib6JI
+TQID: 'https://experienceleague.adobe.com/G3Mn0E7va3zQiQQvVlOgk5xyntPmmEEF86avyLmQsE0'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

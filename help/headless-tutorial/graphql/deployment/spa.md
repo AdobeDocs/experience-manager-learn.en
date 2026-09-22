@@ -11,7 +11,7 @@ thumbnail: KT-10587.jpg
 mini-toc-levels: 2
 exl-id: 3fe175f7-6213-439a-a02c-af3f82b6e3b7
 duration: 136
-TQID: https://experienceleague.adobe.com/8ahL1XhKmb5GYeTZnOa4f0k16x0tdpZVZAKPyXIz4ik
+TQID: 'https://experienceleague.adobe.com/W5I02ZEDNqUtUyHW8Kpptq6sSGfzuKQdGDA--GCiofM'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -20,6 +20,10 @@ product_v2:
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

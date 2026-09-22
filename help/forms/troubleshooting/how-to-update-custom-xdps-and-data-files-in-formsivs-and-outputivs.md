@@ -10,6 +10,13 @@ topic: Development
 index: true
 exl-id: acfa77ec-eb30-4b8a-83d1-5f62a9b17586
 duration: 125
+TQID: 'https://experienceleague.adobe.com/qCyx7xTyR8mlalH399fPvXBYGNFaVijqBu6DVYEIaX4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # How to update  custom XDPs and data files in FormsIVS and OutputIVS
 

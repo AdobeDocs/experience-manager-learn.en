@@ -6,13 +6,13 @@ feature: 3D Assets
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 jira: KT-13519
 thumbnail: 3420690.jpeg
 doc-type: Feature Video
 exl-id: b08f662c-e2b2-4643-b92b-a957e1d359e8
 duration: 116
-TQID: https://experienceleague.adobe.com/F0pxYlSyxuvUj47Yv1-KbrSxPaXuaj8Db1B7IQMt3Js
+TQID: 'https://experienceleague.adobe.com/E2-xJvAGgrzO1pUhOGKZk5sVGCE1CW6EwgDHlMxx2ww'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: fa7b95c2-9969-5924-a7c7-8cde1e7a2e26
+    internal-label: 3D Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

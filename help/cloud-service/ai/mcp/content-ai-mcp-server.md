@@ -5,7 +5,23 @@ version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
 level: Beginner
 doc-type: tutorial
-duration: null
+duration: 
+TQID: 'https://experienceleague.adobe.com/2tNBwbLBvp2syN0Mzm27o5SdvtD8KdKN8-Ss9POrllk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a5824760-2d72-4638-a27c-4ca7b9390ba2
+    internal-label: AEM Content AI
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Search and analyze AEM content with natural language
 

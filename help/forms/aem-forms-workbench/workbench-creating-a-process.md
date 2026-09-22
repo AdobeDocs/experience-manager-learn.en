@@ -10,12 +10,15 @@ doc-type: Value Video
 last-substantial-update: 2024-06-11T00:00:00.000Z
 jira: KT-15637
 exl-id: cc266378-ad34-471c-a5e4-f9abae9069ee
-TQID: https://experienceleague.adobe.com/p4qmIU3jLRzsVIwzmeeunW7dQn30y-Unrmf3HK07xnw
+TQID: 'https://experienceleague.adobe.com/o3gT3FHOHiQbIxPF6W-OqTXQuOX5zX49TkR5DAvD79Q'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 36ac8e9c-5c7a-56d8-af5e-39399fd7b101
+    internal-label: Workbench
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

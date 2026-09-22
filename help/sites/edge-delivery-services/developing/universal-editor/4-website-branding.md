@@ -10,12 +10,17 @@ doc-type: Tutorial
 jira: KT-15832
 duration: 900
 exl-id: a5cd9906-7e7a-43dd-a6b2-e80f67d37992
-TQID: https://experienceleague.adobe.com/mAhtmTizqLh7BxVbsCsvTbr6hVJWRQFTbH7qcUJy2Hc
+TQID: 'https://experienceleague.adobe.com/e9440l4MQUGKn7Ou60kHNx8JcsOvNtR9JlQjemeMLXk'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

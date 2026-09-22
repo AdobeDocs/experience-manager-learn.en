@@ -11,7 +11,7 @@ thumbnail: KT-9350.jpeg
 exl-id: 5c1ff98f-d1f6-42ac-a5d5-676a54ef683c
 last-substantial-update: 2024-04-26T00:00:00.000Z
 duration: 870
-TQID: https://experienceleague.adobe.com/voh-f8cf2ZsgPTPN994kpdZZfHj6kyZC1d-GaH0XNWg
+TQID: 'https://experienceleague.adobe.com/hX03wNd7tHbkcIy5TUkj40Aa35S2XEyMtS-YvZmNPTU'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

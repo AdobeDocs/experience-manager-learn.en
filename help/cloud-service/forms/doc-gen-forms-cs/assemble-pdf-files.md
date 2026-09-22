@@ -10,6 +10,10 @@ topic: Development
 jira: KT-9958
 thumbnail: 332439.jpg
 duration: 50
+TQID: 'https://experienceleague.adobe.com/S8iCP1VFOEwOBlTVYntU6o8RQpZsvyUui5Y98n7nDa0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # Manipulate PDF files using the invoke DDX endpoint
 

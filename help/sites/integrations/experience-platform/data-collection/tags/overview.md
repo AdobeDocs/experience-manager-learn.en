@@ -14,7 +14,7 @@ badgeVersions: label="AEM Sites as a Cloud Service, AEM Sites 6.5" before-title=
 doc-type: Tutorial
 exl-id: bdae56d8-96e7-4b05-9b8b-3c6c2e998bd8
 duration: 230
-TQID: https://experienceleague.adobe.com/ZEaZ4P4-xDd3ROp23tG8-SWMVFE6SX1R9xlqDNjvJeI
+TQID: 'https://experienceleague.adobe.com/7QN-sicyfBtD7jYGzHn9TdXGQkMsP9VjQ4XtQg1FkRk'
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
@@ -24,14 +24,22 @@ feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
   - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-    internal-label: Integrations
-subfeature_v2:
+    internal-label: ''
+  - id: 000dc7ac-a6c3-564d-bf22-5080bf496cc2
+    internal-label: Tags
+  - id: 8d89a9fb-a98a-500a-ae8d-4d99599b4f3f
+    internal-label: Data Collection
+  - id: a50ad69b-1331-40e9-b634-531a085a6a54
+    internal-label: Identities
   - id: abc02dd6-664f-446a-9aaa-675bc0f2fe4a
     internal-label: Sources
+subfeature_v2:
+  - id: abc02dd6-664f-446a-9aaa-675bc0f2fe4a
+    internal-label: ''
   - id: d9830f6f-ceb6-4faa-9744-f281fe4439f9
-    internal-label: Tags
+    internal-label: ''
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

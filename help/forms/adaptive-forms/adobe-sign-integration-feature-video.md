@@ -10,10 +10,17 @@ topic: Integrations
 discoiquuid: aec562a4-4405-4e6f-9ad5-7477fa1d078f
 targetaudience: target-audience advanced
 index: true
-internal: n
-snippet: y
-last-substantial-update: 2020-10-20
+internal: 'n'
+snippet: 'y'
+last-substantial-update: 2020-10-20T00:00:00.000Z
 duration: 628
+TQID: 'https://experienceleague.adobe.com/WDh20-0k9jDkZJhOKc5X1hyRqKih0UYneOPRw1LnDbY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
 ---
 
 # Using Acrobat Sign with AEM Forms{#using-adobe-sign-with-aem-forms}

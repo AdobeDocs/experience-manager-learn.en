@@ -8,9 +8,10 @@ version: Experience Manager as a Cloud Service
 jira: TODO
 thumbnail: 32047.jpg
 topic: Content Management
-last-substantial-update: 2026-08-31
+last-substantial-update: 2026-08-31T00:00:00.000Z
 doc-type: Feature Video
 duration: 512
+TQID: 'https://experienceleague.adobe.com/P0vH-b-X1Xz-z2CJYLv6xMHAG5c-EYjzVAlOVmYvpAc'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

@@ -7,12 +7,23 @@ role: Developer
 level: Beginner
 jira: KT-7629
 thumbnail: 333181.jpg
-last-substantial-update: 2022-11-11
+last-substantial-update: 2022-11-11T00:00:00.000Z
 recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: ef7a1dad-993a-4c47-a9fb-91fa73de9b5d
 duration: 647
 hide: true
+TQID: 'https://experienceleague.adobe.com/j2KtyyOCo6cXuhcXvfNW-Px3fAsxCUboD5zaRKbFjtQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 ---
 # Quick Setup
 

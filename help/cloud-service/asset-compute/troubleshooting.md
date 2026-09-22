@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: d851d315-ed0e-46b8-bcd8-417e1e58c0c4
 duration: 260
-TQID: https://experienceleague.adobe.com/hgE18RG-ZgyecgxuNxPZ8b3MKaoqXVkvSsIrjsv53CA
+TQID: 'https://experienceleague.adobe.com/w6kNvlLaLxwQPR0cLT9HpO-McRR7-iP81GnP30LISY0'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

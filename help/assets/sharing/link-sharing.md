@@ -8,11 +8,11 @@ role: User
 level: Beginner
 jira: KT-9763
 thumbnail: 3502568.jpeg
-last-substantial-update: 2026-08-31
+last-substantial-update: 2026-08-31T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 719d3101-2c27-4165-a9d7-97e6f637d71f
 duration: 160
-TQID: https://experienceleague.adobe.com/of7ds-gDNU72ETmR62rEItRP4DYj1vtZehpGGNzlzZc
+TQID: 'https://experienceleague.adobe.com/-HPoDspAxvDauYlUQsrBhq9f668ZG11p4VaUYZDiNGI'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -23,6 +23,8 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

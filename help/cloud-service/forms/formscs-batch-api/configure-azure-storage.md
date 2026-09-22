@@ -11,7 +11,7 @@ jira: KT-9666
 exl-id: 8d010107-8cea-41f0-9ff4-7746744a250c
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 duration: 227
-TQID: https://experienceleague.adobe.com/mgYQvM-oRx8HoeqeFH5Wp9D8YZDD5FeYxX3p1rYQhrg
+TQID: 'https://experienceleague.adobe.com/3cZHyIitQlqnMuUNU4nOOFyhet2uOk-9HgvhuWzC4Bg'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

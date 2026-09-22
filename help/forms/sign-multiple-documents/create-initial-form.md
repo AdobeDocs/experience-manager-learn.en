@@ -10,12 +10,15 @@ jira: KT-6892
 thumbnail: 6892.jpg
 exl-id: d7c55dc8-d886-4629-bb50-d927308d12e3
 duration: 35
-TQID: https://experienceleague.adobe.com/jlIx4Z1fawOXJB02CWAa1ULx5NYDEifl64og1MblYaE
+TQID: 'https://experienceleague.adobe.com/66iCGlunmaQBQU5WVlEpiSJYFnQ-icPW4-b00ZCz5P0'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

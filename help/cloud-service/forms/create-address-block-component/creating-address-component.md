@@ -9,7 +9,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-15752
 exl-id: 280c9a30-e017-4bc0-9027-096aac82c22c
-TQID: https://experienceleague.adobe.com/8gDMbXj6UtnfaliXYwkMLBq6bATs75gfe7CFYzSIw9k
+TQID: 'https://experienceleague.adobe.com/RIARKLrBapA9eTiTc6g-JjaZQfcFHr-AONAfwATu8Qo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

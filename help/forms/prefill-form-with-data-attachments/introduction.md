@@ -10,7 +10,7 @@ topic: Integrations
 jira: KT-14794
 exl-id: 488ef5ff-c67d-40e1-b69d-6f2a968d642b
 duration: 17
-TQID: https://experienceleague.adobe.com/-sfQqvomp6AfGyNEmTTO62PPqod-ZB4aG3bxQngNBHw
+TQID: 'https://experienceleague.adobe.com/03QTbRj-BnptlsgDMYrSX4nRQb-qAtamg6uxefDwhOQ'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms

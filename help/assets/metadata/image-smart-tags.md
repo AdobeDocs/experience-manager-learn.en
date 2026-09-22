@@ -12,11 +12,11 @@ version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a
 jira: KT-645
 thumbnail: 17019.jpg
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-08-27T00:00:00.000Z
 doc-type: Feature Video
 exl-id: c72dc489-70e6-48ca-99a8-663d4c0652ba
 duration: 574
-TQID: https://experienceleague.adobe.com/Bpeu8oeEqhit8HB4mFmghy7lwHmQbGsdTZhakUoL6gM
+TQID: 'https://experienceleague.adobe.com/1LSzUCFMTfJ6x1FBqKePgDBfI6tl24qPhimfKDpKfyI'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -29,6 +29,10 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 752f9248-f39f-5793-a7dd-5ddafcd403c7
+    internal-label: Tagging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

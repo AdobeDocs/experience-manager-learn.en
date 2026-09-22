@@ -10,7 +10,7 @@ last-substantial-update: 2022-06-26T00:00:00.000Z
 doc-type: Feature Video
 exl-id: a3c3a01e-97a6-494f-b7a9-22057e91f4eb
 duration: 1079
-TQID: https://experienceleague.adobe.com/U1Sva3GjoRTpgiiupxG5SiL4xhoInHm1-R-CL9nBsXE
+TQID: 'https://experienceleague.adobe.com/Id9ABZctbhvv6k8s7clueXdyLV3anV1Pa6x9PGDuZfk'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -27,6 +27,14 @@ feature_v2:
     internal-label: Configuration
   - id: e17747bc-9b7b-44e6-a443-f54229a02620
     internal-label: Integrations
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

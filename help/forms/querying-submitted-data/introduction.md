@@ -8,8 +8,12 @@ topic: Development
 role: Developer
 level: Experienced
 exl-id: 014506e5-a7c9-4220-a429-71c961af36ba
-last-substantial-update: 2021-07-07
+last-substantial-update: 2021-07-07T00:00:00.000Z
 duration: 19
+TQID: 'https://experienceleague.adobe.com/KTLNokPC1j8pQKopHeF15V8qvvQoYpqFtlib9Ev-tdI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # AEM Forms with JSON Schema and Data
 

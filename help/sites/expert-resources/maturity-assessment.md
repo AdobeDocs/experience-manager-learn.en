@@ -7,7 +7,7 @@ topic: Administration
 feature: Learn From Your Peers
 exl-id: 22164a0e-7239-43f4-8356-c12f68133255
 duration: 61
-TQID: https://experienceleague.adobe.com/oXWO-PXAVLtDO-LaIGwBe-YgsBT5LQGvHFIcQAJVfdI
+TQID: 'https://experienceleague.adobe.com/nV1O79-Yhy-lGJflbW2689GlLmxU3G6N03Ouflece0c'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -18,6 +18,14 @@ feature_v2:
     internal-label: Administration
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: 5ef752af-d616-5b23-8312-06964e46b208
+    internal-label: Administering
+  - id: ad568314-3f47-59ac-a962-866ba027884e
+    internal-label: Learn From Your Peers
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

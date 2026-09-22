@@ -10,7 +10,7 @@ jira: KT-9353
 thumbnail: KT-9353.jpeg
 exl-id: 5f919d7d-e51a-41e5-90eb-b1f6a9bf77ba
 duration: 76
-TQID: https://experienceleague.adobe.com/NBD8GIIMCZYnOQGACJ-dtPi5TM1syLsM9zCkPeRTMw4
+TQID: 'https://experienceleague.adobe.com/BsT-ZrO7fw33ezywRYXKbNmcWrcl5CzfdnL4UnWe1tE'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

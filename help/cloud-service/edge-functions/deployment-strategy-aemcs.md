@@ -9,7 +9,11 @@ level: Intermediate
 doc-type: Article
 jira: KT-22145
 thumbnail: KT-22145.jpeg
-last-substantial-update: 2026-07-24
+last-substantial-update: 2026-07-24T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/kbdhtUscciGsC6joGoiTD-xdvUL5DvQYstuMakpYueM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # AEM Edge Function deployment strategy on AEM as a Cloud Service
 

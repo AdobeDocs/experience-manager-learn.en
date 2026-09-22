@@ -7,10 +7,10 @@ feature: Templates
 role: Developer
 level: Intermediate
 doc-type: Technical Video
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 exl-id: 5b764d86-8ced-46ed-838e-4bd2e75fd64c
 duration: 428
-TQID: https://experienceleague.adobe.com/kv7VqGa0KlQvD6MJCK71Bv7APDLhe39lbXs0u9dZOTM
+TQID: 'https://experienceleague.adobe.com/c-y5m6iFakle-HitCDHIRZedZ-4dSs7fZGelJa-54bM'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

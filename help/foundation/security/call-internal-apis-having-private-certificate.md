@@ -12,13 +12,17 @@ doc-type: Article
 last-substantial-update: 2023-08-25T00:00:00.000Z
 exl-id: c88aa724-9680-450a-9fe8-96e14c0c6643
 duration: 332
-TQID: https://experienceleague.adobe.com/a-Q835i1NGAw69B-QY0mr5l99Yig0l7eZzX8Loq346M
+TQID: 'https://experienceleague.adobe.com/g8tRfLg7ME4orxzUr-KR6HiEZQKOe6HvZwJMGZLaRHk'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

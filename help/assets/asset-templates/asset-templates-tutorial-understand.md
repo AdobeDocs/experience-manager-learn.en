@@ -7,10 +7,10 @@ feature: Templates
 role: User
 level: Intermediate
 doc-type: Tutorial
-last-substantial-update: 2026-08-28
+last-substantial-update: 2026-08-28T00:00:00.000Z
 exl-id: c418e94a-b18e-429a-b41c-2bf32e158598
 duration: 909
-TQID: https://experienceleague.adobe.com/SC0OHXIdW6baUPctGKHmYQKIMnnfAxTf4I1gZKH7ZFY
+TQID: 'https://experienceleague.adobe.com/L-k9X61grBQBziN7DdNvgyR2LBT5mme6LBuv6m5-FH4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,12 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 752f9248-f39f-5793-a7dd-5ddafcd403c7
+    internal-label: Tagging
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

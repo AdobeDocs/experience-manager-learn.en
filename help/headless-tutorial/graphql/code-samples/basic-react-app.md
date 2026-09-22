@@ -13,7 +13,7 @@ index: false
 hide: true
 exl-id: 870be37f-68bb-4b0f-9918-e68b09be830e
 duration: 17
-TQID: https://experienceleague.adobe.com/SXe3McLuTFnq8g7AMEVLjCqtpVJJ3WnZdWx6Bf9dtTc
+TQID: 'https://experienceleague.adobe.com/omAonJ2mmMHE-I7KNek2SJQrqqKIG7u9ENYfFqSzumU'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -22,6 +22,8 @@ product_v2:
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

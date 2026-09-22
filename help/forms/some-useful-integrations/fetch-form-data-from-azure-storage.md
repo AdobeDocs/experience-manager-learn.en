@@ -10,7 +10,7 @@ last-substantial-update: 2023-10-23T00:00:00.000Z
 jira: KT-14238
 duration: 78
 exl-id: 77f93aad-0cab-4e52-b0fd-ae5af23a13d0
-TQID: https://experienceleague.adobe.com/DUVK6ka8Zywg16GtGA3OMj4VFXGBVCcSBQoADe5SMnI
+TQID: 'https://experienceleague.adobe.com/s3ipMoVVJaXWT3Wm9w3jyfYBVI8T-w1Molqir-bQh1M'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -21,6 +21,10 @@ feature_v2:
     internal-label: Integrations
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

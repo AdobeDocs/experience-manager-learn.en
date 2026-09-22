@@ -10,7 +10,7 @@ level: Intermediate
 jira: KT-10208
 exl-id: 9053ee29-436a-439a-b592-c3fef9852ea4
 duration: 28
-TQID: https://experienceleague.adobe.com/hj4Y1UHsxJsGHi8w8bH5cYOZdFXE6oqhvRxXi7LuIsk
+TQID: 'https://experienceleague.adobe.com/h6y0W-AAI0gZdfQ3Mxtxi-P44qaclwLheRK94ST0qIU'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms

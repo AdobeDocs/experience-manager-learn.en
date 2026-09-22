@@ -8,7 +8,7 @@ thumbnail: 343473.jpeg
 recommendations: noDisplay, noCatalog
 exl-id: 8784d77f-1c70-4694-bd08-79b71adbda48
 duration: 309
-TQID: https://experienceleague.adobe.com/-LPXgya9h5wEaAs-qr9Aqmz5wgrJ2UyndNpIHUFjWz8
+TQID: 'https://experienceleague.adobe.com/DSw4Aw5p4HD0KWKCacKC-gELQDnM8H6Ylknl1gESm68'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

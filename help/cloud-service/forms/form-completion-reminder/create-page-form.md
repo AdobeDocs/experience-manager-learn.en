@@ -11,6 +11,13 @@ topic: Integrations, Development
 jira: KT-21185
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+TQID: 'https://experienceleague.adobe.com/d8CNHEI9pxl-ivfeWXO2z00VeWMjIdD63ae9f0a9YO4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
 ---
 
 # AEM Sites and AEP Tags Integration Setup

@@ -8,7 +8,7 @@ feature: Learn From Your Peers
 jira: KT-14255
 exl-id: 37ee3234-f91c-4f0a-b0b7-b9167e7847a9
 duration: 209
-TQID: https://experienceleague.adobe.com/y5ni6R3UHnHjdvQqzTxZvGqb3qxwP-H8teN3NI1jOfM
+TQID: 'https://experienceleague.adobe.com/hT-0wk8rFwI5ounc351-Jv7bLvZgaqZX4HuqsGi6GHQ'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -19,6 +19,14 @@ feature_v2:
     internal-label: Administration
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 5ef752af-d616-5b23-8312-06964e46b208
+    internal-label: Administering
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: ad568314-3f47-59ac-a962-866ba027884e
+    internal-label: Learn From Your Peers
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: c191041a-8b54-4bde-9e43-bc8d8f8cea74
     internal-label: Deploying

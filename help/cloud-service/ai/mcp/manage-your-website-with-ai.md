@@ -6,7 +6,14 @@ role: Leader, User, Developer
 level: Beginner
 doc-type: tutorial
 duration: 569
-last-substantial-update: 2026-09-10
+last-substantial-update: 2026-09-10T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/a1flj-KoaCkLkMiYE25ktcAc5mNi2UdHY6tUsyn3aTI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 ---
 # Manage your website with the help of AI
 

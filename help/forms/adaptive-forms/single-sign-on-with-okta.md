@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 85c9b51e-92bb-4376-8684-57c9c3204b2f
 last-substantial-update: 2021-06-09T00:00:00.000Z
 duration: 153
-TQID: https://experienceleague.adobe.com/aXHyiLF-ZzevwicSs6NXz6f22tNUuZ3D4ZarwsWnRYY
+TQID: 'https://experienceleague.adobe.com/8YCgBz4dOUltFXcjraSSwrY69-R-dNdwhEYhGWlqe20'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -18,6 +18,8 @@ product_v2:
 feature_v2:
   - id: d49d6117-dd89-469c-a774-cc96b7eee433
     internal-label: Administration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

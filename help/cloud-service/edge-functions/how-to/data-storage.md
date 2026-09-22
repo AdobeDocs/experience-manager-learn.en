@@ -9,7 +9,14 @@ level: Intermediate
 doc-type: Article
 jira: KT-22078
 thumbnail: KT-22078.jpeg
-last-substantial-update: 2026-07-16
+last-substantial-update: 2026-07-16T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/mtZSEKHaQoDR-r9G6AY7jOnFg2KUnMo64DLrzAcf0EE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 ---
 # Store data at the edge
 

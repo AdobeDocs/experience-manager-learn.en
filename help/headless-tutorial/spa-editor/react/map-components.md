@@ -12,7 +12,7 @@ doc-type: Tutorial
 exl-id: 497ce6d7-cd39-4fb3-b5e0-6c60845f7648
 duration: 477
 hide: true
-TQID: https://experienceleague.adobe.com/-8-fwmGjgUvQxil-JyHOqabIrUYWvINULHmCS2tTl3w
+TQID: 'https://experienceleague.adobe.com/DST2v6-atnUPgjkoJYDbYRf4mFnWozuXFqr2HIGPh9A'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,10 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

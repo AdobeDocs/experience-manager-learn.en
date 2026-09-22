@@ -6,9 +6,27 @@ feature: Security
 topic: Development, Security
 role: Developer
 level: Intermediate
-last-substantial-update: 2025-03-11
+last-substantial-update: 2025-03-11T00:00:00.000Z
 duration: 520
 exl-id: a401823a-416c-4b35-9cdb-bd432f066279
+TQID: 'https://experienceleague.adobe.com/M6s4Hj4O-b9uYqPGsg-EEOb6DftFiQ9ti1tM9kU1XQE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # SAML 2.0 login hook   
 

@@ -13,7 +13,7 @@ doc-type: Tutorial
 exl-id: 7fd021ef-d221-4113-bda1-4908f3a8629f
 recommendations: noDisplay, noCatalog
 duration: 1715
-TQID: https://experienceleague.adobe.com/ZjGmZ4SPkYEZh1gqsoWn0vp-KyQ8ewn0Eof-qzORPWQ
+TQID: 'https://experienceleague.adobe.com/RNQO6d-Ldc8uTCb6nl4E8guMtHZ1agAKpabB7fInf5Y'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -26,6 +26,10 @@ feature_v2:
     internal-label: Authoring
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
 subfeature_v2:
   - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
     internal-label: AEM Project Archetype

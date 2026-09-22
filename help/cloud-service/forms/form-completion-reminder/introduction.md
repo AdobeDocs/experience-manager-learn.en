@@ -11,6 +11,18 @@ topic: Integrations, Development
 jira: KT-21185
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+TQID: 'https://experienceleague.adobe.com/7htGu-EuSBv0BU1Vy4A3F4rhDvtgPIn-8WQgx-uCMmQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 
 # User Re-Engagement for Unsubmitted Forms

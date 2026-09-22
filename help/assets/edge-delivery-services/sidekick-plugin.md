@@ -12,7 +12,7 @@ jira: KT-14070
 thumbnail: 3424615.jpeg
 exl-id: e8ed49a5-4ad2-4759-bf0f-1dae8478d996
 duration: 149
-TQID: https://experienceleague.adobe.com/co1R--ZDM6TWxVgpXdJqIUgzRuxfcX-Jima403EKy3Y
+TQID: 'https://experienceleague.adobe.com/RDHuRZe307uwB9wPawFE8xhGnS-pMchRk2TLiOANFJ4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 355c23b3-51d6-5ae4-b5c4-05944b12ea8d
+    internal-label: Selectors
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,6 +32,8 @@ level_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # AEM Assets Sidekick plugin and Edge Delivery Services
 
