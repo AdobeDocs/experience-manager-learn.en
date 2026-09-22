@@ -10,9 +10,9 @@ topic: Content Management
 role: Admin, User
 level: Beginner
 doc-type: Feature Video
-duration: 2054
+duration: 1971
 team: TM
-last-substantial-update: 2026-08-27
+last-substantial-update: 2026-09-22
 jira: TODO
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
@@ -51,9 +51,9 @@ A consistent set of metadata fields makes assets easier to find, filter, and reu
 
 >[!TAB Assets view]
 
-In the Assets view, only administrators can open Metadata Forms and build custom fields for each asset type. This video shows how to create a form, map fields to MIME types such as image or PDF, and preview the changes on an asset's Details page. It also shows how a folder-level form overrides the default MIME type mapping.
+In the Assets view, only administrators can open Metadata Forms under Settings and build custom fields for each asset type. This video shows how AEM Assets matches a form to an asset by MIME type, how to build a form from a template, and how to add and group custom fields with an accordion. It also shows how a folder-level form overrides the MIME type match, and how to import forms already defined in the Admin view.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431686?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503712?quality=12&learn=on)
 
 >[!TAB Admin view]
 
