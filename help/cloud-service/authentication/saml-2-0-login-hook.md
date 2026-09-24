@@ -294,11 +294,11 @@ If the SAML hook needs to modify content in AEM's JCR respository, such as user 
 1. Create a repoinit script to define the service user and permissions at `/ui.config/src/main/content/jcr_root/apps/myproject/osgiconfig/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~saml.cfg.json`:
 
 ```
-create service user saml-hook-service with path system/saml
-
-set ACL for saml-hook-service
-    allow jcr:read,rep:write,rep:userManagement on /home/users
-end
+{
+  "scripts": [
+    "create service user saml-hook-service with forced path system/cq:services/bankingapplication\nset principal  ACL for saml-hook-service\n    allow jcr:read,rep:write,rep:userManagement on /home/users\nend"
+  ]
+}
 ```
 
 This grants the service user permissions to read and modify user properties in the repository.
