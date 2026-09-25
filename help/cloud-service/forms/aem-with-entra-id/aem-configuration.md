@@ -32,10 +32,17 @@ For this use case, the SAML configuration was adapted to use **Microsoft Entra E
 - A custom [**SAML post-sync hook**](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/authentication/saml-2-0-login-hook) was implemented to run after successful authentication and user synchronization. The code for the [SAML post-sync hook can be downloaded from here.](assets/EntraSamlHook.zip).
 - The post-sync hook extracts the **Entra Object ID, email address, first name, and last name** from the SAML assertion.
 - The extracted customer profile is sent directly from AEM to **Adobe Experience Platform (AEP)** using the AEP Streaming Ingestion endpoint.
+- When the user successfully logs in through Entra ID for the first time, the SAML post-sync hook sends the user's profile information to Adobe Experience Platform (AEP). After AEP successfully accepts the profile, AEM sets the `profile/aepSynced = true`. On subsequent logins, the hook checks this property before sending data to AEP. If aepSynced is already true, the AEP ingestion request is skipped. This ensures that each AEM user profile is sent to AEP only once through this login flow.
+- ![aepSynced](assets/aepSynced.png)
 
 ### com.adobe.granite.auth.saml.SamlAuthenticationHandler~entra.cfg.json
 
-The following is my entra.cfg.json file for your reference
+The following is my entra.cfg.json file for your reference. The userIDAttribute property specifies which SAML attribute AEM should use as the user's unique repository identity.
+
+For an Entra ID integration, configure it to use the stable Entra Object ID.This causes AEM to use the same Entra Object ID as the AEM user ID for every login. This is important because it ensures that the same Entra user is associated with the same AEM authorizable across browsers and sessions.
+>[!NOTE]
+>
+>Do not leave userIDAttribute empty when the SAML NameID is not a stable identifier. An unstable identifier can result in multiple AEM users being created for the same external user.
 
 ```
 {
@@ -52,7 +59,7 @@ The following is my entra.cfg.json file for your reference
    "defaultRedirectUrl": "/content/bankingapplication/us/formsportal.html",
 
   "useEncryption": false,
-  "userIDAttribute": "",
+  "userIDAttribute": "objectId",
 
   
 
