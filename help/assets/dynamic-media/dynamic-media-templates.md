@@ -271,10 +271,6 @@ Execute these steps to add a countdown timer layer to the canvas:
 
 See the [**[!UICONTROL Properties Panel]**] to reposition, resize, rotate, delete, or parameterise the countdown timer layer.
 
->[!NOTE]
->
->The Countdown Timer layer is currently available only in Beta environments. This feature may not be available in all environments.
-
 ### Edit or delete a layer {#edit-or-delete-a-layer}
 
 Execute these steps to edit or delete a canvas layer:
