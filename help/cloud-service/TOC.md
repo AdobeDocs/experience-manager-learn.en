@@ -128,9 +128,6 @@ team: TM
           + [Bulk Property Update](./developing/extensibility/ui/content-fragments/examples/console-bulk-property-update.md)
           + [Custom Grid Columns](./developing/extensibility/ui/content-fragments/examples/custom-grid-columns.md)
           + [Export as XML](./developing/extensibility/ui/content-fragments/examples/editor-export-to-xml.md)
-          + [RTE Toolbar Button](./developing/extensibility/ui/content-fragments/examples/editor-rte-toolbar.md)
-          + [RTE Widgets](./developing/extensibility/ui/content-fragments/examples/editor-rte-widget.md)
-          + [RTE Badges](./developing/extensibility/ui/content-fragments/examples/editor-rte-badges.md)
           + [Custom fields](./developing/extensibility/ui/content-fragments/examples/editor-custom-field.md)
   + Development Basics{#basics}
     + [AEM SDK](./developing/basics/aem-sdk.md)
