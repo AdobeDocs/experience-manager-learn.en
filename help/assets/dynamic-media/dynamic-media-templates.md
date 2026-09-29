@@ -162,7 +162,7 @@ Click ![template to create flyers rapidly](./assets/templates/show-layers-list.s
 
    >[!NOTE]
    >
-   > Templates allow a maximum of 60 layers, including the Canvas.
+   > Templates allow a maximum of 100 layers, including the Canvas.
 
 ### Add images to the canvas{#add-images-to-the-canvas}
 
@@ -560,11 +560,11 @@ For best results, avoid complex masking configurations in PSD files intended for
 
 ### Maximum layer limit {#maximum-layer-limit}
 
-The Dynamic Media Template Editor supports up to **60 layers** in a template.
+The Dynamic Media Template Editor supports up to **100 layers** in a template.
 
-If a PSD contains more than 60 layers, the generated template may not fully match the original PSD. Layers beyond the supported limit are not rendered in the Template Editor.
+If a PSD contains more than 100 layers, the generated template may not fully match the original PSD. Layers beyond the supported limit are not rendered in the Template Editor.
 
-For best results, use PSD files containing **60 layers or fewer** when converting them to Dynamic Media Templates.
+For best results, use PSD files containing **100 layers or fewer** when converting them to Dynamic Media Templates.
 
 ### Use rasterized images {#use-rasterized-images}
 
