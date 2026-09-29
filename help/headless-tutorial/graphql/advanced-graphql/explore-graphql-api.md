@@ -62,20 +62,19 @@ The [GraphiQL Explorer](https://experienceleague.adobe.com/docs/experience-manag
 
 Next, explore the power of AEM's GraphQL API using the built-in GraphiQL Explorer.
 
-1.  From the AEM Start screen, navigate to **Tools** > **General** > **GraphQL Query Editor**.
+1. From the AEM Start screen, navigate to **Tools** > **General** > **GraphQL Query Editor**.
 
-    ![Navigate to the GraphiQL IDE](assets/explore-graphql-api/navigate-graphql-query-editor.png)
+   ![Navigate to the GraphiQL IDE](assets/explore-graphql-api/navigate-graphql-query-editor.png)
 
-  >[!IMPORTANT]
-  >
-  >In, some versions of AEM (6.X.X) the GraphiQL Explorer (aka GraphiQL IDE) tool needs to be manually installed, follow [instruction from here](../how-to/install-graphiql-aem-6-5.md).
+   >[!IMPORTANT]
+   >
+   >In, some versions of AEM (6.X.X) the GraphiQL Explorer (aka GraphiQL IDE) tool needs to be manually installed, follow [instruction from here](../how-to/install-graphiql-aem-6-5.md).
 
-1.  In the top-right corner, make sure that the Endpoint is set to **WKND Shared Endpoint**. Changing the _Endpoint_ dropdown value here displays the existing _Persisted Queries_ in the top-left corner.
+1. In the top-right corner, make sure that the Endpoint is set to **WKND Shared Endpoint**. Changing the _Endpoint_ dropdown value here displays the existing _Persisted Queries_ in the top-left corner.
 
-    ![Set GraphQL Endpoint](assets/explore-graphql-api/set-wknd-shared-endpoint.png)
+   ![Set GraphQL Endpoint](assets/explore-graphql-api/set-wknd-shared-endpoint.png)
 
-  This will scope all queries to models created in the **WKND Shared** project.
-
+   This will scope all queries to models created in the **WKND Shared** project.
 
 ## Filter a list of Content Fragments using query variables
 
