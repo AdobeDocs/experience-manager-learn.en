@@ -160,9 +160,9 @@ Execute these steps to create a blank canvas:
 Click ![template to create flyers rapidly](./assets/templates/show-layers-list.svg) and select more options (![](./assets/templates/three-dots.svg)) on the Canvas layer to edit the canvas dimensions anytime while creating the template.
 ![](./assets/templates/edit-canvas1.png)
 
-   >[!NOTE]
-   >
-   > Templates allow a maximum of 100 layers, including the Canvas.
+>[!NOTE]
+>
+> Templates allow a maximum of 100 layers, including the Canvas.
 
 ### Add images to the canvas{#add-images-to-the-canvas}
 

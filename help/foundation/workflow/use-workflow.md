@@ -32,8 +32,8 @@ topic_v2:
 
 AEM Workflow provides a way to collaborate, manage, and process content in AEM.
  
- >[!VIDEO](https://video.tv.adobe.com/v/27848?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/27848?quality=12&learn=on)
 
- >[!NOTE]
- >
- > Video uses AEM Sites to demonstrate the workflow status metadata capability. Workflow status metadata is also applicable to AEM Assets. To see workflow status on assets, ensure that the list view is enabled.
+>[!NOTE]
+>
+> Video uses AEM Sites to demonstrate the workflow status metadata capability. Workflow status metadata is also applicable to AEM Assets. To see workflow status on assets, ensure that the list view is enabled.
