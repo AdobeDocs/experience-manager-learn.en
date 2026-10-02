@@ -1,7 +1,7 @@
 ---
 title: Using Coworker to Create an AEM Sites Contact Us Page with an Adaptive Form
 description: This tutorial demonstrates how to use Coworker to create an AEM Sites Contact Us page with a banking-themed banner and embedded Adaptive Form. It covers configuring a ZIP Code lookup using a Form Data Model to automatically populate City and State, as well as configuring the form submission to store submitted data in Azure Storage.
-solution: Experience Manager, Experience Manager Forms,CX Enterprise Coworker
+solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate

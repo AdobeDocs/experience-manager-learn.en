@@ -2,7 +2,7 @@
 title: Configure Form Submission to Azure Storage
 description: Enhance the address fields more efficient by allowing the user to enter a ZIP Code and automatically populate the corresponding **City** and **State**.
 
-solution: Experience Manager, Experience Manager Forms,CX Enterprise Coworker
+solution: Experience Manager, Experience Manager Forms
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
