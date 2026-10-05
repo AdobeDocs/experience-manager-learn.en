@@ -33,7 +33,7 @@ The page will be created under:
 
 `/content/bankingapplication/us/contact-us`
 
----
+
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ Your AEM project name and content structure may be different. Replace the exampl
 
 Similarly, Adaptive Forms and related assets can be created in the appropriate location for your project; they do not need to use the same paths shown in this article.
 
----
+
 
 ## Step 1: Open Coworker
 
@@ -66,7 +66,7 @@ The prompt should include:
 
 A detailed prompt generally produces a more predictable result than a short request such as "Create a Contact Us page."
 
----
+
 
 ## Step 2: Provide the Page Creation Prompt
 
