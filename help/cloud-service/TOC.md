@@ -315,7 +315,7 @@ team: TM
         + [13 - Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
         + [14 - Updating maven archetype](./forms/developing-for-cloud-service/updating-project-archetype.md)
     + Create Adaptive Forms with Coworker{#aem-forms-coworker}
-        + [Create Form in a Sites page](./forms/aem-forms-coworker/using-coworker-with-aem-forms)
+        + [Create Form in a Sites page](./forms/aem-forms-coworker/using-coworker-with-aem-forms.md)
         + [Create Rule with Coworker](./forms/aem-forms-coworker/zip-code-lookup.md)
         + [Configure submit action](./forms/aem-forms-coworker/configure-submit-action.md)
     + Create Adaptive Form{#create-first-af}
