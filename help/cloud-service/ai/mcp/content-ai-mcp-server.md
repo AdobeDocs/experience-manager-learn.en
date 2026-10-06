@@ -1,6 +1,6 @@
 ---
 title: Search and analyze AEM content with natural language
-description: Learn how to search and analyze AEM Content AI sources in natural language from Adobe CX Coworker, without writing low-level API code or navigating the UI.
+description: Learn how to search and analyze AEM Content AI content sources in natural language from Adobe CX Coworker, without writing low-level API code or navigating the UI.
 version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
 level: Beginner
@@ -25,9 +25,9 @@ topic_v2:
 ---
 # Search and analyze AEM content with natural language
 
-Use the **Content AI MCP Server** (a companion to the [AEM MCP Server](./overview.md)) from [Adobe CX Coworker](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) to search and analyze Content AI sources in natural language, without writing low-level API code or navigating the UI.
+Use the **Content AI MCP Server**, a companion to the [AEM MCP Server](./overview.md), from [Adobe CX Coworker](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) to search and analyze Content AI content sources in natural language, no low-level API code or UI navigation.
 
-In this tutorial you _discover_ available sources, run _keyword_, _semantic_, and _hybrid_ searches, and use _natural language search_ to express complex intent, all from Adobe CX Coworker against a Content AI source.
+In this tutorial you _discover_ available content sources, run _keyword_, _semantic_, and _hybrid_ searches, and use _generative search_ to get a synthesized answer, all from Adobe CX Coworker against a Content AI content source.
 
 ## Tools and access
 
@@ -35,18 +35,17 @@ The Content AI MCP Server provides six tools:
 
 | Tool | Purpose |
 | ---- | ------- |
-| `list_indexes` | Discover available indexes in your AEM environment. |
-| `get_index_config` | Inspect the raw index configuration and metadata. |
+| `list_content_sources` | Discover available content sources in your AEM environment. |
+| `get_content_source_config` | Inspect the raw content source configuration and metadata. |
 | `fulltext_search` | Keyword-based search with fuzzy matching and field selection. |
 | `semantic_search` | Vector-based similarity search for conceptual queries. |
 | `hybrid_search` | Combined keyword + semantic search for the best general-purpose recall. |
-| `natural_language_search` | Express intent in plain English; the server translates it into structured filters, ranges, and semantics. |
+| `gen_search` | Generate a synthesized answer from matching content, instead of returning raw documents. |
 
 The Content AI MCP Server is **public-source-only**: the `X-Api-Key` header grants source access. An API key is required; a request without it is rejected.
 
->[!IMPORTANT]
->
-> Any signed-in Adobe identity or OAuth/IMS bearer token used to authenticate your MCP session is **never forwarded** to Content AI and has no effect on which sources you can search. Only public, read-only sources are searchable through this server, regardless of your signed-in identity's other entitlements.
+- **Public (anonymous)**: Search public, read-only content sources using the `X-Api-Key` header. Use this for openly available, non-sensitive content. See [Searching public content sources](#searching-public-content-sources).
+- **Authenticated**: Search entitled or access-controlled content sources using the `x-content-ai-mcp-api-key` header together with your signed-in Adobe identity (passed through by CX Coworker). Results respect your permissions.
 
 ## Add the Content AI MCP Server
 
@@ -80,14 +79,27 @@ Let's set up the Content AI MCP Server in Adobe CX Coworker with these steps.
 
     >[!NOTE]
     >
-    > **Authentication type** is set to `Passthrough` so CX Coworker forwards your signed-in Adobe identity to the MCP Server. This identity is not used for Content AI source access (see [Tools and access](#tools-and-access)), so you do not need a separate sign-in or OAuth step for search itself.
+    > **Authentication type** is set to `Passthrough` so CX Coworker forwards your signed-in Adobe identity to the MCP Server. You do not need a separate sign-in or OAuth step.
 
-1. Click **Add headers** and add:
+1. Click **Add headers** and add the headers for the access mode you need:
+
+    **For public content sources (anonymous):**
+
+    | Header | Value |
+    | ------ | ----- |
+    | `X-Api-Key` | Your public API key. Present this header when you only want to search public content sources. |
+    | `x-content-ai-mcp-routing` | _(Optional)_ Environment/routing info, for example `tier=publish,bucket=p12345-e67890,cluster=ethos21-prod-va7,namespace=ns-team-example`. |
+
+    **For non-public (entitled) content sources:**
 
     | Header | Value |
     | ------ | ----- |
     | `X-Api-Key` | Your Content AI API key. Required — searches are rejected without it. |
     | `x-content-ai-mcp-routing` | _(Optional)_ Environment/routing info, for example `tier=publish,bucket=p12345-e67890,cluster=ethos21-prod-va7,namespace=ns-team-example`. |
+
+    >[!IMPORTANT]
+    >
+    > When the `X-Api-Key` header is present, the server treats the request as **anonymous** and only searches public content sources. Any signed-in identity is ignored, so there is no accidental escalation to authenticated access. Use `x-content-ai-mcp-api-key` (not `X-Api-Key`) when you intend to search entitled content sources.
 
     >[!NOTE]
     >
@@ -103,9 +115,9 @@ Let's set up the Content AI MCP Server in Adobe CX Coworker with these steps.
     <!-- SCREENSHOT: New chat with Content AI MCP Server -->
     ![New Chat](../assets/content-ai-mcp-server/cx-coworker-new-chat.png){zoomable="yes"}
 
-## Searching public sources
+## Searching public content sources
 
-Content AI sources exposed through this server are **public**: read-only, and intended for openly available, non-sensitive content. Anyone with a valid API key can search them.
+Some Content AI content sources are marked **public** and can be searched anonymously, without an entitled identity. Public content sources are read-only and are intended for openly available, non-sensitive content. Anyone with the public API key can search them.
 
 Use this server when:
 
@@ -113,16 +125,29 @@ Use this server when:
 - You do not need per-user, permission-scoped results.
 - You want a simple setup that only requires an API key.
 
-With the server connected as described in [Add the Content AI MCP Server](#add-the-content-ai-mcp-server), discover and search sources directly from chat.
+To search public content sources, add the Content AI MCP Server in CX Coworker exactly as described in [Add the Content AI MCP Server](#add-the-content-ai-mcp-server), but in the **Add headers** step add only the `X-Api-Key` header (plus an optional `x-content-ai-mcp-routing` header for the environment):
 
-1. In CX Coworker, open a new chat and list the sources available to your API key:
+| Header | Value |
+| ------ | ----- |
+| `X-Api-Key` | Your public API key. |
+| `x-content-ai-mcp-routing` | _(Optional)_ Environment/routing info, for example `tier=publish,bucket=p12345-e67890`. |
+
+
+>[!IMPORTANT]
+>
+> When the `X-Api-Key` header is present, the server treats the request as **anonymous** and only searches public content sources. Any signed-in identity is ignored. Do not use `X-Api-Key` when you intend to search entitled content sources, use `x-content-ai-mcp-api-key` instead.
+
+With the server connected, discover and search public content sources the same way as authenticated content sources.
+
+1. In CX Coworker, open a new chat and list the public content sources available to your API key:
 
     ```text
-    List all Content AI sources available in my environment.
+    List all Content AI content sources available in my environment.
     ```
+    
+    The server searches only public content sources for this request and returns matching results.
 
     The server returns the public sources matching your routing/environment.
 
-## Congratulations!
+You set up the Content AI MCP Server in Adobe CX Coworker and used it to search Content AI content sources. You discovered available content sources and searched them in natural language, with keyword, semantic, hybrid, and generative search. You also learned how to search **public content sources** anonymously with an API key, and how to reduce response size with field selection. You can use the same human-centric flow from CX Coworker to search and analyze Content AI content sources without switching to a UI or writing low-level search API code.
 
-You set up the Content AI MCP Server in Adobe CX Coworker and used it to search Content AI sources. You discovered available sources and searched them in natural language, with keyword, semantic, hybrid, and natural language search. You also learned that this server searches **public sources only** via an API key, and how to reduce response size with field selection. You can use the same simple approach from CX Coworker to search and analyze Content AI sources without switching to a UI or writing low-level search API code.
