@@ -42,8 +42,9 @@ To fix the above error do the following
 aries.transaction.timeout="1200"
  under install folder. You can change the timeout value as per your requirement. The timeout value is in seconds
 
- >[!NOTE]
- > Once you create the org.apache.aries.transaction configuration you can edit the transaction timeout values from the [configMgr](http://localhost:4502/system/console/configMgr) instead of editing the file
+>[!NOTE]
+>
+> Once you create the org.apache.aries.transaction configuration you can edit the transaction timeout values from the [configMgr](http://localhost:4502/system/console/configMgr) instead of editing the file
 
 
 ## Change the Jacorb ORB provider settings

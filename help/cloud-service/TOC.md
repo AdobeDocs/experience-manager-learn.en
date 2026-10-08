@@ -128,9 +128,6 @@ team: TM
           + [Bulk Property Update](./developing/extensibility/ui/content-fragments/examples/console-bulk-property-update.md)
           + [Custom Grid Columns](./developing/extensibility/ui/content-fragments/examples/custom-grid-columns.md)
           + [Export as XML](./developing/extensibility/ui/content-fragments/examples/editor-export-to-xml.md)
-          + [RTE Toolbar Button](./developing/extensibility/ui/content-fragments/examples/editor-rte-toolbar.md)
-          + [RTE Widgets](./developing/extensibility/ui/content-fragments/examples/editor-rte-widget.md)
-          + [RTE Badges](./developing/extensibility/ui/content-fragments/examples/editor-rte-badges.md)
           + [Custom fields](./developing/extensibility/ui/content-fragments/examples/editor-custom-field.md)
   + Development Basics{#basics}
     + [AEM SDK](./developing/basics/aem-sdk.md)
@@ -317,6 +314,10 @@ team: TM
         + [12 - Embed Adaptive Forms theme in an AEM Sites theme](./forms/adding-af-forms-theme-to-site-theme/integrate-adaptive-forms-styling-into-an-aem-sites-theme.md)
         + [13 - Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
         + [14 - Updating maven archetype](./forms/developing-for-cloud-service/updating-project-archetype.md)
+    + Create Adaptive Forms with Coworker{#aem-forms-coworker}
+        + [Create Form in a Sites page](./forms/aem-forms-coworker/using-coworker-with-aem-forms.md)
+        + [Create Rule with Coworker](./forms/aem-forms-coworker/zip-code-lookup.md)
+        + [Configure submit action](./forms/aem-forms-coworker/configure-submit-action.md)
     + Create Adaptive Form{#create-first-af}
         + [Introduction](./forms/create-first-af/introduction.md)
         + [Create Theme](./forms/create-first-af/create-theme.md)

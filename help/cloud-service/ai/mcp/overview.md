@@ -58,7 +58,7 @@ The [AEM MCP Server section](https://experienceleague.adobe.com/en/docs/experien
 
 ## AEM MCP in action
 
-These examples show how to put the AEM MCP Server to work on real tasks: review and update test content from your IDE, manage and publish live website content by chat, run and debug a Cloud Manager pipeline, check a page against your brand guidelines, or search a Content AI index. Each one walks through a specific scenario end to end: connect the server in your tool of choice, then get a concrete result back.
+These examples show how to put the AEM MCP Server to work on real tasks: review and update test content from your IDE, manage and publish live website content by chat, run and debug a Cloud Manager pipeline, check a page against your brand guidelines, or search a Content AI content source. Each one walks through a specific scenario end to end: connect the server in your tool of choice, then get a concrete result back.
 
 <!-- 
 CARDS
@@ -90,7 +90,7 @@ CARDS
 
 * ./content-ai-mcp-server.md
   {title = Search and analyze AEM content with natural language}
-  {description = Search and analyze AEM Content AI indexes with keyword, semantic, hybrid, and natural language search.}
+  {description = Search and analyze AEM Content AI content sources with keyword, semantic, hybrid, and generative search.}
   {image = ../assets/content-ai-mcp-server/indexconfig-response.png}
   {cta = Learn more}
 -->
@@ -203,7 +203,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./content-ai-mcp-server.md" target="_self" rel="referrer" title="Search and analyze AEM content with natural language">Search and analyze AEM content with natural language</a>
                     </p>
-                    <p class="is-size-6">Search and analyze AEM Content AI indexes with keyword, semantic, hybrid, and natural language search.</p>
+                    <p class="is-size-6">Search and analyze AEM Content AI content sources with keyword, semantic, hybrid, and generative search.</p>
                 </div>
                 <a href="./content-ai-mcp-server.md" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
