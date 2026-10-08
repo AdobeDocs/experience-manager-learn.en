@@ -51,6 +51,7 @@ team: TM
   + [Metadata schemas and forms](metadata/metadata-schemas-and-forms.md)
   + [Tagging and taxonomy](metadata/tagging-and-taxonomy.md)
   + [AI-generated metadata](metadata/genai-metadata.md)
+  + [Brand-aware metadata](metadata/brand-aware-metadata.md)
   + [Content credentials](metadata/content-credentials.md)
   + [Smart Tags for images](metadata/image-smart-tags.md)
   + [Smart Tags for videos](metadata/video-smart-tags.md)
