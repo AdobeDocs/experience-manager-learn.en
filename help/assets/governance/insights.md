@@ -10,7 +10,7 @@ topic: Content Management, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 doc-type: Feature Video
-duration: 356
+duration: 455
 team: TM
 last-substantial-update: 2026-08-27T00:00:00.000Z
 jira: TODO
@@ -62,9 +62,9 @@ Teams need to know how people use their assets: what they download, what they se
 
 >[!TAB Assets view]
 
-In the Assets view, you open the Insights dashboard to see how people use your assets: downloads, uploads, storage, and top searches over the last 30 days or 12 months. You can also build a custom report for any folder and date range, then download it as a CSV file. This video walks through both.
+In the Assets view, use Insights and Reports to understand how your assets are used. This video shows how to gain insights into your asset usage.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432496/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504192?learn=on)
 
 >[!TAB Admin view]
 
