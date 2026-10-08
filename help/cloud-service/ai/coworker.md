@@ -31,21 +31,32 @@ See [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/cx-enter
 <!--
 CARDS
 
-* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/generate-assets
+* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/generate-assets
   {title = Generate marketing assets}
   {description = Ask Coworker to generate channel-ready assets for your AEM content directly from a chat prompt.}
   {cta = Watch}
 
-* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/brand-compliance
+* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/brand-compliance
   {title = Check brand compliance}
   {description = Ask Coworker to review AEM content against your brand guidelines before it goes live.}
   {cta = Watch}
 
-* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/author-web-pages
+* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/author-web-pages
   {title = Author web pages}
   {description = Ask Coworker to author and update AEM Sites pages directly from a chat prompt.}
   {image = https://video.tv.adobe.com/v/3503863/?format=jpeg&nocache=1790350321484}
   {cta = Watch}
+
+* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/optimization/accelerate-experimentation
+  {title = Accelerate experimentation}
+  {description = Ask Coworker to help you create and accelerate experimentation on AEM hosted websites and A/B tests in Adobe Target.}
+  {cta = Watch}
+
+*https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/onboard-aem-assets
+  {title = Onboard AEM assets}
+  {description = Ask Coworker to onboard your AEM assets efficiently from a chat prompt.}
+  {cta = Watch}
+
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -53,8 +64,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/generate-assets" title="Generate marketing assets" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502692/?format=jpeg&nocache=1788896077079" alt="Generate marketing assets"
+                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/generate-assets" title="Generate marketing assets" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502692/?format=jpeg&nocache=1791471635077" alt="Generate marketing assets"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -62,11 +73,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/generate-assets" target="_blank" rel="referrer" title="Generate marketing assets">Generate marketing assets</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/generate-assets" target="_blank" rel="referrer" title="Generate marketing assets">Generate marketing assets</a>
                     </p>
                     <p class="is-size-6">Ask Coworker to generate channel-ready assets for your AEM content directly from a chat prompt.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/generate-assets" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/generate-assets" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
                 </a>
             </div>
@@ -76,8 +87,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/brand-compliance" title="Check brand compliance" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502691/?format=jpeg&nocache=1788896077312" alt="Check brand compliance"
+                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/brand-compliance" title="Check brand compliance" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502691/?format=jpeg&nocache=1791471634958" alt="Check brand compliance"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -85,11 +96,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/brand-compliance" target="_blank" rel="referrer" title="Check brand compliance">Check brand compliance</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/brand-compliance" target="_blank" rel="referrer" title="Check brand compliance">Check brand compliance</a>
                     </p>
                     <p class="is-size-6">Ask Coworker to review AEM content against your brand guidelines before it goes live.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/brand-compliance" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/brand-compliance" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
                 </a>
             </div>
@@ -99,7 +110,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/author-web-pages" title="Author web pages" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/author-web-pages" title="Author web pages" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503863/?format=jpeg&nocache=1790350321484" alt="Author web pages"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -108,11 +119,34 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/author-web-pages" target="_blank" rel="referrer" title="Author web pages">Author web pages</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/author-web-pages" target="_blank" rel="referrer" title="Author web pages">Author web pages</a>
                     </p>
                     <p class="is-size-6">Ask Coworker to author and update AEM Sites pages directly from a chat prompt.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/content-advisor/author-web-pages" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/brand-visibility/author-web-pages" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accelerate experimentation">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/optimization/accelerate-experimentation" title="Accelerate experimentation" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504249/?format=jpeg&nocache=1791471634972" alt="Accelerate experimentation"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/optimization/accelerate-experimentation" target="_blank" rel="referrer" title="Accelerate experimentation">Accelerate experimentation</a>
+                    </p>
+                    <p class="is-size-6">Ask Coworker to help you create and accelerate experimentation on AEM hosted websites and A/B tests in Adobe Target.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/optimization/accelerate-experimentation" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
                 </a>
             </div>
