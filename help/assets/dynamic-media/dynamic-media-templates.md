@@ -94,9 +94,9 @@ Fulfil the following requirements to create a [!DNL Dynamic Media] template and 
 1. [Sync the images available in your [!DNL AEM Assets] instance with [!DNL Dynamic Media] to use them for creating the template](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. Publish the images to use in creating the template to generate the delivery URL of the template after creating it. The delivery URL can be used in downstream applications.
 1. To use a font other than the default [!UICONTROL Adobe Sans F2] font in the template's text layer, [upload and publish the font file to AEM and Dynamic Media simultaneously](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/publish-assets-to-aem-and-dm?lang=en#dynamic-media-publish-mode-set-to-upon-activation). [The supported font file formats are, AFM, OTF, PFB, PFM, PhotoFont, TTC, TTF](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/uploading-files#supported-asset-file-formats). Also, ensure to [reprocess](/help/assets/reprocessing-assets-view.md) the existing fonts to use them. See [Fonts](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/support-files/fonts) for more information.<!--(On [!DNL Assets View] home page, click ![Assets](/help/assets/assets/Asset-icon.svg)**[!UICONTROL Assets]**, navigate to the font file location, select the font file one at a time and click ![Reprocess](/help/assets/assets/Refresh-docs.svg)**[!UICONTROL Reprocess]**)-->
-1. verify the following in the Touch UI:
+1. Verify the following in Admin View:
    * On the **[!UICONTROL Edit [!DNL Dynamic Media] Configuration page]**, **[!UICONTROL [!DNL Dynamic Media] sync mode]** that is set to **[!UICONTROL Disabled by default]**, is not applied to all AEM folders (**[!UICONTROL Sync all content]** is unchecked). See [configuring Dynamic Media Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) for more information.
-   * **[!UICONTROL [!DNL Dynamic Media] sync mode]** is set to **[!UICONTROL Enable for subfolders]** for the destination folder or subfolder where you will save the template after creation. See [configuring [!DNL Dynamic Media] Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) for more information.
+   * **[!UICONTROL [!DNL Dynamic Media] sync mode]** is set to **[!UICONTROL Enable for subfolders]** for the destination folder or subfolder where you plan to save the template after creation. See [configuring [!DNL Dynamic Media] Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) for more information.
  
 ## Create [!DNL Dynamic Media] template{#how-to-create-dynamic-media-template}
 
@@ -120,9 +120,13 @@ Execute the following steps to create a [!DNL Dynamic Media] template:
 
 Execute these steps to create a blank canvas: 
 
-1. Navigate to [!DNL Assets View], select **[!UICONTROL Dynamic Media Assets]** available in the left panel and navigate to your folder to save your template in that folder.
+1. Navigate to [!DNL Assets View], select **[!UICONTROL Dynamic Media Templates]** available in the left panel and navigate to your folder to save your template in that folder.
 
    ![Dynamic Media templates](./assets/templates/DM-Assets1.png)
+
+   >[!IMPORTANT]
+   >
+   >If you are using Admin view, select the asset and click **[!UICONTROL Create Template]** to view the **[!UICONTROL New Template]** dialog box.
 
 1. Select **[!UICONTROL Create Template]**. The **[!UICONTROL New Template]** dialog box displays.
 
@@ -445,7 +449,7 @@ Once these settings are enabled, you can import a PSD file to generate a Dynamic
 
 ### Convert a PSD to a Dynamic Media template {#convert-a-psd-to-a-dynamic-media-template}
 
-1. In AEM, select **[!UICONTROL Dynamic Media Assets]**.
+1. In AEM, select **[!UICONTROL Dynamic Media Templates]**.
 1. Navigate to the folder where you want to import the PSD file.
 1. Select **[!UICONTROL Import PSD]**.
 ![Import PSD](./assets/templates/import-psd.png)
@@ -457,13 +461,17 @@ Once these settings are enabled, you can import a PSD file to generate a Dynamic
 
 The PSD file is processed and a Dynamic Media template is generated.
 
-The generated template is displayed in **[!UICONTROL Dynamic Media Assets]**.
+The generated template is displayed in **[!UICONTROL Dynamic Media Templates]**.
 
 By default, the generated template name follows this format:
 
 `<PSD-file-name>_template`
 
 You can open the generated template in the Dynamic Media Template Editor for further editing.
+
+>[!NOTE]
+>
+>If the PSD file is uploaded in Admin view, the template is created in the same folder in Admin view.
 
 ### Resolve missing fonts {#resolve-missing-fonts}
 
