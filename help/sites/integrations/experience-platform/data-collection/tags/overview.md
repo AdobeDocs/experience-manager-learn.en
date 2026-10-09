@@ -25,8 +25,6 @@ feature_v2:
     internal-label: Integrations
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
     internal-label: Data collection tags
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-    internal-label: ''
   - id: 000dc7ac-a6c3-564d-bf22-5080bf496cc2
     internal-label: Tags
   - id: 8d89a9fb-a98a-500a-ae8d-4d99599b4f3f
@@ -35,11 +33,11 @@ feature_v2:
     internal-label: Identities
   - id: abc02dd6-664f-446a-9aaa-675bc0f2fe4a
     internal-label: Sources
+  - id: f6ac78a3-5b59-40f5-a37d-45df5303d3a3
+    internal-label: Dashboards
 subfeature_v2:
-  - id: abc02dd6-664f-446a-9aaa-675bc0f2fe4a
-    internal-label: ''
-  - id: d9830f6f-ceb6-4faa-9744-f281fe4439f9
-    internal-label: ''
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Integrations
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

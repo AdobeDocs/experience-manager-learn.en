@@ -22,12 +22,8 @@ product_v2:
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: ''
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
     internal-label: Data collection tags
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-    internal-label: ''
   - id: 000dc7ac-a6c3-564d-bf22-5080bf496cc2
     internal-label: Tags
   - id: 33ca0c14-7e3b-55a1-8fd7-8a61b47da4e1
@@ -38,13 +34,13 @@ feature_v2:
     internal-label: Identities
   - id: f5a6b7c8-5003-4003-9003-500000000003
     internal-label: Services
+  - id: f6ac78a3-5b59-40f5-a37d-45df5303d3a3
+    internal-label: Dashboards
 subfeature_v2:
-  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-    internal-label: ''
-  - id: d9830f6f-ceb6-4faa-9744-f281fe4439f9
-    internal-label: ''
   - id: f6ff4d13-7b5c-4533-8556-95e76673d4cb
     internal-label: Properties
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Integrations
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
