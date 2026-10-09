@@ -20,6 +20,11 @@ product_v2:
 feature_v2:
   - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
     internal-label: Operations
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

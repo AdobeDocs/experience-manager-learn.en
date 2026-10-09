@@ -25,6 +25,11 @@ feature_v2:
     internal-label: Developing
   - id: d0406db4-695f-5f79-9cc5-258dde130d61
     internal-label: Universal Editor
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

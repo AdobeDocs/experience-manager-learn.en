@@ -21,6 +21,11 @@ feature_v2:
     internal-label: Form Data Model
   - id: 74ec00bc-0862-520e-86dc-e377aeccc141
     internal-label: Search
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

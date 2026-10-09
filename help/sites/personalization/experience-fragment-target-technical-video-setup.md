@@ -27,6 +27,11 @@ feature_v2:
     internal-label: APIs
   - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
     internal-label: Workflow
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+subfeature_v2:
+  - id: f61d1313-5cf1-4533-b29c-ac9f75c4b270
+    internal-label: Experience Fragments
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

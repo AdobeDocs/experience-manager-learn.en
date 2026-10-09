@@ -19,6 +19,11 @@ product_v2:
 feature_v2:
   - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
     internal-label: Operations
+  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
+subfeature_v2:
+  - id: c35bc059-fd80-4a01-91a6-e48da3c76758
+    internal-label: Security practices
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

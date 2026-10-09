@@ -21,6 +21,13 @@ feature_v2:
     internal-label: APIs
   - id: e7ceb1b9-01f3-5c03-9983-80d310922115
     internal-label: Sling Model
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
+subfeature_v2:
+  - id: b6950f16-0067-4287-be9d-5a68c8748b29
+    internal-label: OSGI configuration
+  - id: d67d8e88-3117-5ac1-9c74-ca1c06ef5071
+    internal-label: HTL or HTML Template Language
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

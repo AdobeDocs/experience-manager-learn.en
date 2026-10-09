@@ -18,6 +18,11 @@ product_v2:
 feature_v2:
   - id: 5ef752af-d616-5b23-8312-06964e46b208
     internal-label: Administering
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+    internal-label: Administration
+subfeature_v2:
+  - id: e86b80f2-7cb0-4646-8fcd-51d3bf272fce
+    internal-label: Multi Site Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

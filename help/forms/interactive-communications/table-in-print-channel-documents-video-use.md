@@ -23,6 +23,11 @@ feature_v2:
     internal-label: Form Data Model
   - id: 794033c1-20ea-55a4-a8a6-b1107e12deb0
     internal-label: Designer
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: aa28c6c8-3ede-445b-a351-eeb0c9f9aec4
+    internal-label: Interactive Communication
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

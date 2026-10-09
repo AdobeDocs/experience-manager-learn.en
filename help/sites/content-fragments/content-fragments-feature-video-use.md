@@ -20,6 +20,11 @@ feature_v2:
     internal-label: Authoring
   - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
     internal-label: Developing
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+    internal-label: Administration
+subfeature_v2:
+  - id: e9db7c79-8f65-4281-a439-c9049296d903
+    internal-label: Content Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

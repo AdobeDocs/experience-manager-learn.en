@@ -16,6 +16,12 @@ feature_v2:
     internal-label: APIs
   - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
     internal-label: Workflow
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 
 # Creating custom actions in AJO

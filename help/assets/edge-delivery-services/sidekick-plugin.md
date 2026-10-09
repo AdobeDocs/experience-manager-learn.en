@@ -23,6 +23,11 @@ feature_v2:
     internal-label: Content management
   - id: 355c23b3-51d6-5ae4-b5c4-05944b12ea8d
     internal-label: Selectors
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

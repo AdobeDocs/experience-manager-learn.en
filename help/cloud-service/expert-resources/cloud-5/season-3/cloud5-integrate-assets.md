@@ -18,6 +18,11 @@ product_v2:
 feature_v2:
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
     internal-label: Generative AI
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

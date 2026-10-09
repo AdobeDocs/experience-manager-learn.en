@@ -20,6 +20,11 @@ product_v2:
 feature_v2:
   - id: 97aafc4b-2598-52d6-9012-295a95969e38
     internal-label: HTML5 Forms
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -30,6 +30,8 @@ feature_v2:
     internal-label: Integration
   - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
     internal-label: Developing
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
     internal-label: Adobe Client Data Layer
@@ -37,6 +39,8 @@ subfeature_v2:
     internal-label: AEM Project Archetype
   - id: cd7050e9-a158-4a12-a0ee-0be3ebb0d687
     internal-label: HTML Template Language
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

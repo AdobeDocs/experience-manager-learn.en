@@ -27,6 +27,11 @@ feature_v2:
     internal-label: Configuration
   - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
     internal-label: Asset Management
+  - id: ac365bec-0634-4744-9473-c42f47320593
+    internal-label: Asset management and governance
+subfeature_v2:
+  - id: ed6971a3-2c12-4fd2-81f4-ff329c416250
+    internal-label: Metadata
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

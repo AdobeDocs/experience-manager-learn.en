@@ -23,6 +23,11 @@ feature_v2:
     internal-label: Content management
   - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
     internal-label: Workflow
+  - id: ac365bec-0634-4744-9473-c42f47320593
+    internal-label: Asset management and governance
+subfeature_v2:
+  - id: ee8e0f18-03e5-48ca-a013-04a577cd9a60
+    internal-label: Translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

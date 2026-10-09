@@ -29,6 +29,13 @@ feature_v2:
     internal-label: Asset Management
   - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
     internal-label: Workflow
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+    internal-label: Administration
+subfeature_v2:
+  - id: f1dc0c96-022d-4003-afbe-47bd40173c4a
+    internal-label: Upload assets
+  - id: f75ead32-db7a-4b40-90fa-3b9e7c9b18d7
+    internal-label: Marketing campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
