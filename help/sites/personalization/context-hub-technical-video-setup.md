@@ -28,6 +28,11 @@ feature_v2:
     internal-label: APIs
   - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
     internal-label: Developing
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+    internal-label: Administration
+subfeature_v2:
+  - id: db974db1-cf49-4452-872e-5a56c5f1d391
+    internal-label: Context Hub
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

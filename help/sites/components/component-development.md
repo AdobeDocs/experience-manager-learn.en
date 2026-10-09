@@ -26,6 +26,9 @@ feature_v2:
     internal-label: Developing
   - id: e7ceb1b9-01f3-5c03-9983-80d310922115
     internal-label: Sling Model
+subfeature_v2:
+  - id: d67d8e88-3117-5ac1-9c74-ca1c06ef5071
+    internal-label: HTL or HTML Template Language
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

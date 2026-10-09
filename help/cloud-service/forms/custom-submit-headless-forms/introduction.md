@@ -21,6 +21,11 @@ product_v2:
 feature_v2:
   - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
     internal-label: Headless
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

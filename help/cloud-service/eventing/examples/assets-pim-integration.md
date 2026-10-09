@@ -21,6 +21,11 @@ feature_v2:
     internal-label: APIs
   - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
     internal-label: Projects
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c5a6b061-0358-43c2-bd48-d72df35b6a8d
+    internal-label: App Builder for AEM
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

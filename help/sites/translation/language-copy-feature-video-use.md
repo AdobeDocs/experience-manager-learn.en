@@ -18,6 +18,11 @@ product_v2:
 feature_v2:
   - id: 5ef752af-d616-5b23-8312-06964e46b208
     internal-label: Administering
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+subfeature_v2:
+  - id: e15a4109-ae5d-497d-b301-31149e35aed4
+    internal-label: Language Copy Wizard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

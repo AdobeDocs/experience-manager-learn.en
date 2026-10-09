@@ -23,6 +23,11 @@ feature_v2:
     internal-label: Administering
   - id: 74ec00bc-0862-520e-86dc-e377aeccc141
     internal-label: Search
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+    internal-label: Administration
+subfeature_v2:
+  - id: e9db7c79-8f65-4281-a439-c9049296d903
+    internal-label: Content Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

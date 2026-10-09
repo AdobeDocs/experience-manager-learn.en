@@ -24,9 +24,13 @@ feature_v2:
     internal-label: Developing
   - id: e7ceb1b9-01f3-5c03-9983-80d310922115
     internal-label: Sling Model
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
     internal-label: Editable templates
+  - id: ed8bde06-82bf-42e7-bea9-1f5a2f1cc050
+    internal-label: Style System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

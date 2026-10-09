@@ -21,6 +21,9 @@ feature_v2:
     internal-label: APIs
   - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
     internal-label: Migration
+subfeature_v2:
+  - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
+    internal-label: Cloud Manager APIs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

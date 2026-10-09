@@ -20,6 +20,12 @@ feature_v2:
     internal-label: Search
   - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
     internal-label: Operations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Querying Submitted Data
 

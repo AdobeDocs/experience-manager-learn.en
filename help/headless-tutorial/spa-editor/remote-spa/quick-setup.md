@@ -24,6 +24,12 @@ feature_v2:
     internal-label: APIs
   - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
     internal-label: Headless
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Quick Setup
 

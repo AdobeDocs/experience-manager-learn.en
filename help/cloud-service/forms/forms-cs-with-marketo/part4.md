@@ -19,6 +19,12 @@ feature_v2:
     internal-label: Search
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Test the integration
 

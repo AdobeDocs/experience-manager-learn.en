@@ -33,6 +33,11 @@ feature_v2:
     internal-label: Developing
   - id: d0406db4-695f-5f79-9cc5-258dde130d61
     internal-label: Universal Editor
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: a9f7d31e-bbe1-4475-966a-5f213546fcd9
+    internal-label: SPA Editor
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

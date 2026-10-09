@@ -24,6 +24,8 @@ feature_v2:
     internal-label: Configuration
   - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
     internal-label: Workflow
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop
@@ -43,6 +45,12 @@ subfeature_v2:
     internal-label: Viewer presets
   - id: d8ea7e82-d45e-442f-bb04-b3788a7abcb0
     internal-label: Video profiles
+  - id: afe09f80-87de-4606-96de-7aecd50f1a65
+    internal-label: Image profiles
+  - id: b1c2c8dc-d13a-43c3-9c5b-efc536a708ca
+    internal-label: 360 VR Video
+  - id: e2dc1259-9034-40fc-a518-b92a34fe6642
+    internal-label: Image sets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

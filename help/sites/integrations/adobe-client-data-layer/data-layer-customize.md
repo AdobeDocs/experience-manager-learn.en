@@ -35,6 +35,8 @@ feature_v2:
     internal-label: Developing
   - id: e7ceb1b9-01f3-5c03-9983-80d310922115
     internal-label: Sling Model
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
     internal-label: Adobe Client Data Layer
@@ -42,12 +44,16 @@ subfeature_v2:
     internal-label: Java Content Repository
   - id: cd7050e9-a158-4a12-a0ee-0be3ebb0d687
     internal-label: HTML Template Language
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

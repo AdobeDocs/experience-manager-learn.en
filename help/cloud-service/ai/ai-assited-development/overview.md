@@ -28,6 +28,12 @@ feature_v2:
     internal-label: Developer tools
   - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
     internal-label: Workflow
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

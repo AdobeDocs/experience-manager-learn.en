@@ -15,6 +15,14 @@ product_v2:
 feature_v2:
   - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
     internal-label: Operations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 
 # Add Adaptive Forms Styling to an AEM Sites Theme
