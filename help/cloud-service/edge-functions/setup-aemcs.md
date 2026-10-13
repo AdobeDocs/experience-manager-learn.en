@@ -69,7 +69,7 @@ Ensure the following are in place before starting.
 
 - [Node.js](https://nodejs.org/) and npm installed locally
 - A GitHub account to create a project from the boilerplate template
-- Access to an AEM as a Cloud Service environment with **Cloud Manager** Deployment Manager role, or **AEM Administrator** Product Profile on the author instance
+- Access to an AEM as a Cloud Service environment with **AEM Administrator** Product Profile on the author instance
 - The [WKND Sites project](https://github.com/adobe/aem-guides-wknd) or your own AEM site project cloned locally
 
 >[!NOTE]
