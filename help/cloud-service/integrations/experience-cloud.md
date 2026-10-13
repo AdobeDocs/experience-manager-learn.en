@@ -162,9 +162,9 @@ Adobe Learning Manager (formerly Adobe Captivate Prime) delivers personalized le
 
 ### AEM Assets 
 
-+ [Smart tags for images](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/image-smart-tags.html)
-+ [Custom smart tags for images](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/custom-smart-tags.html)
-+ [Smart tags for videos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/video-smart-tags.html)
++ [Smart tags for images](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/tagging-and-taxonomy.html#smart-tags-for-images)
++ [Custom smart tags for images](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/tagging-and-taxonomy.html#custom-smart-tags-for-images)
++ [Smart tags for videos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/tagging-and-taxonomy.html#smart-tags-for-videos)
 + [Smart crop](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/smart-crop-feature-video-use.html)
 + [Visual search](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/search-and-discovery/search.html)
 

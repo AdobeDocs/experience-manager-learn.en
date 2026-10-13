@@ -53,9 +53,6 @@ team: TM
   + [AI-generated metadata](metadata/genai-metadata.md)
   + [Brand-aware metadata](metadata/brand-aware-metadata.md)
   + [Content credentials](metadata/content-credentials.md)
-  + [Smart Tags for images](metadata/image-smart-tags.md)
-  + [Smart Tags for videos](metadata/video-smart-tags.md)
-  + [Custom Smart Tags for images](metadata/custom-smart-tags.md)
   + [Cascading metadata](metadata/cascade-metadata.md)
   + [Import and export metadata](metadata/metadata-import-export.md)
 

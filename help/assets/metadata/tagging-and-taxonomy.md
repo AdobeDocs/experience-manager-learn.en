@@ -1,6 +1,6 @@
 ---
 title: Tagging and Taxonomy
-description: Learn how to manage your tagging taxonomy and block irrelevant Smart Tags in AEM Assets, in both the Assets view and Admin view.
+description: Learn how to manage your tagging taxonomy, and use Smart Tags for images and videos, in AEM Assets.
 solution: Experience Manager, Experience Manager Assets
 sub-product: Experience Manager Assets
 version: Experience Manager as a Cloud Service
@@ -12,7 +12,7 @@ level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 856
 team: TM
-last-substantial-update: 2026-08-27T00:00:00.000Z
+last-substantial-update: 2026-10-12T00:00:00.000Z
 jira: TODO
 TQID: 'https://experienceleague.adobe.com/-Kt4I8xOdFwAh5KAtmmBZbyQ8WmNwy-XM-1fUguMGZs'
 product_v2:
@@ -60,22 +60,46 @@ A pile of untagged assets is hard to search and impossible to browse by topic. A
 
 >[!TAB Assets view]
 
-## Create and apply tags
+## Manage tags
 
-In the Assets view, create, organize, and apply tags to build a taxonomy your team can search and browse by. Tags help people find related assets even when they don't know the exact file name. This video walks through the whole flow: how to create a tag and apply it to an asset.
+In the Assets view, create, organize, and apply tags to build a taxonomy your team can search and browse by. Tags help people find related assets even when they don't know the exact file name. This video shows how to manage your tag taxonomy.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431081/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504372?learn=on)
 
-## Block irrelevant Smart Tags
+## Smart Tags and block tags
 
-Block Smart Tags so they can't apply culturally sensitive, irrelevant, or controversial keywords to your assets.
+Smart Tags apply descriptive keywords to your assets automatically. Block tags so Smart Tags can't apply culturally sensitive, irrelevant, or controversial keywords to your assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426839/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504374?learn=on)
 
 >[!TAB Admin view]
+
+## Manage tags
 
 In the Admin view, this video shows how to create and apply tags to organize assets across your folder hierarchy and make them easier to discover.
 
 >[!VIDEO](https://video.tv.adobe.com/v/34073?quality=12&learn=on)
+
+## Smart Tags for images {#smart-tags-for-images}
+
+Smart Tags add derived metadata tags to image assets automatically, so it's faster to find the right image.
+
+>[!VIDEO](https://video.tv.adobe.com/v/17019?quality=12&learn=on)
+
+## Smart Tags for videos {#smart-tags-for-videos}
+
+Review the Smart Tags AEM applies to a video automatically, based on its content. Promote a tag to boost its search relevance, or remove one that's irrelevant to the asset.
+
+>[!VIDEO](https://video.tv.adobe.com/v/327005?quality=12&learn=on)
+
+## Custom Smart Tags for images {#custom-smart-tags-for-images}
+
+Custom Smart Tags, also called Enhanced Smart Tags, train the tagging model on your own terms, such as product names or campaign codes, to improve search accuracy.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22254?quality=12&learn=on)
+
+## Additional resources
+
+* [AEM Assets Smart Tags documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags)
 
 >[!ENDTABS]
