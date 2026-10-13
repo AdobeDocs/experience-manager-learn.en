@@ -72,7 +72,7 @@ Some of the key features include:
 * **[!DNL Dynamic Media] URL Support:** Use [!DNL Dynamic Media] URLs for templates, integrating personalized values from Adobe and non-Adobe applications.
 * **Layer Visibility Control:** Dynamically hide or show layers as needed.
 * **Smart Text Resizing:** Automatically adjust text size to fit designated areas.
-* **Countdown Timer Layer:** Add countdown timers to templates and configure their end time, display units (Days, Hours, Mins, Secs), suffix, fallback text, and CTA.
+* **Countdown Timer Layer:** Add countdown timers to templates and configure their end time, display units (Days, Hours, Mins, Seconds), suffix, fallback text, and CTA.
 
 Some of the key benefits of [!DNL Dynamic Media] templates include:
 
@@ -327,11 +327,63 @@ Use the following options:
 
 * **Suffix** – Specify additional text displayed after each enabled time unit. For example, you can use suffix values such as "d", "h", or "m", or separators such as ":" to customize the display format.
 
-* **End Time (Epoch)** – Specifies the exact expiration date and time of the countdown timer. The countdown updates automatically in real time and displays the remaining time until the specified end time, including seconds when enabled.
+* **End Time (Epoch)** – Specifies the exact expiration date and time of the countdown timer. The countdown updates dynamically and displays the remaining time until the specified end time. 
+      
+    The countdown timer automatically updates on the screen as time elapses. The remaining time is displayed in hours, minutes, and seconds without requiring a manual page refresh.
 
 * **Fallback Text** – Specifies the text displayed after the countdown timer reaches its expiration time. For example, you can display a message such as "Time's up!" or "Offer expired".
 
 To make the countdown timer layer clickable, use the **[!UICONTROL CTA]** section and specify a destination URL.
+
+### Configure a default image in a Dynamic Media template {#configure-default-image}
+
+The Default Image feature lets you specify a fallback image for a [!DNL Dynamic Media] template. If an image referenced in a delivery request cannot be found, [!DNL Dynamic Media] uses the configured default image according to the applicable `DefaultImageMode` configuration.
+
+The default image is configured at the template level.
+
+#### Set a default image {#set-default-image}
+
+To configure a default image for a [!DNL Dynamic Media] template:
+
+1. Open the template in the [!DNL Dynamic Media] Template Editor.
+1. Select the **Default Image** icon in the right-side toolbar.
+1. In the **Default Image** panel, select the browse/search icon to open the asset picker.
+
+   ![Default Image icon in the Dynamic Media Template Editor](./assets/templates/default-image-icon.png)
+
+1. Browse eligible Image assets with Published Dynamic media sync status.
+
+1. In the **Set Default Image** dialog, confirm your selection.
+
+    ![Confirmation dialog for removing the default image](./assets/templates/remove-default-image-confirmation.png)
+1. Select **Save** in the template editor to save the change.
+
+After you save the template, the selected image is included through the `defaultImage` parameter in the template preview and copied delivery URL. Unsaved selections are not used.
+
+#### Replace or remove a default image {#replace-remove-default-image}
+
+To replace the configured default image:
+
+1. Open the Default Image panel.
+1. Select **Browse assets** and choose another eligible image.
+1. Confirm your selection and select **Save**.
+
+To remove the configured default image:
+
+1. Open the **Default Image** panel and select the delete icon.
+1. In the **Remove default image** dialog, select **Remove** to confirm the action.
+1. Select **Save** in the template editor to save the change.
+
+After saving, the editor no longer adds the template-specific `defaultImage` parameter. However, a catalog-level default image might still apply.
+
+#### Default image behavior and limitations {#default-image-behavior-limitations}
+
+The behavior of a default image depends on the Dynamic Media `DefaultImageMode` configuration:
+
+* **Mode 0:** The default image replaces the entire requested composition when an image is missing.
+* **Mode 1:** The default image replaces all broken or missing image layers
+
+Confirm the applicable mode for the supported [!DNL AEM] deployment before documenting which behavior users should expect.
 
 ### Parameterise layers {#parameterise-a-layer}
 
