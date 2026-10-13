@@ -72,7 +72,7 @@ Some of the key features include:
 * **[!DNL Dynamic Media] URL Support:** Use [!DNL Dynamic Media] URLs for templates, integrating personalized values from Adobe and non-Adobe applications.
 * **Layer Visibility Control:** Dynamically hide or show layers as needed.
 * **Smart Text Resizing:** Automatically adjust text size to fit designated areas.
-* **Countdown Timer Layer:** Add countdown timers to templates and configure their end time, display units (Days, Hours, Mins), suffix, fallback text, and CTA.
+* **Countdown Timer Layer:** Add countdown timers to templates and configure their end time, display units (Days, Hours, Mins, Secs), suffix, fallback text, and CTA.
 
 Some of the key benefits of [!DNL Dynamic Media] templates include:
 
@@ -323,11 +323,11 @@ Configure the countdown timer settings using the **[!UICONTROL Timer]** section 
 
 Use the following options:
 
-* **Days, Hours, Mins** – Enable or disable specific time units to control which values appear in the countdown timer. When enabled, the selected units display in the countdown timer.
+* **Days, Hours, Mins, Secs** – Enable or disable specific time units to control which values appear in the countdown timer. When enabled, the selected units display in the countdown timer.
 
 * **Suffix** – Specify additional text displayed after each enabled time unit. For example, you can use suffix values such as "d", "h", or "m", or separators such as ":" to customize the display format.
 
-* **End Time (Epoch)** – Specifies the exact expiration date and time of the countdown timer. The countdown updates dynamically and displays the remaining time until the specified end time.
+* **End Time (Epoch)** – Specifies the exact expiration date and time of the countdown timer. The countdown updates automatically in real time and displays the remaining time until the specified end time, including seconds when enabled.
 
 * **Fallback Text** – Specifies the text displayed after the countdown timer reaches its expiration time. For example, you can display a message such as "Time's up!" or "Offer expired".
 
