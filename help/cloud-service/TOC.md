@@ -330,6 +330,9 @@ team: TM
         + [Configure assets panel](./forms/create-first-af/configure-assets-panel.md)
         + [Configure start panel](./forms/create-first-af/configure-start-panel.md)
         + [Add and Configure toolbar](./forms/create-first-af/add-configure-toolbar.md)
+    + Render Adaptive Forms Headlessly with Node.js{#aem-headless-forms}
+        + [Introduction](./forms/aem-headless-forms/introduction.md)
+        + [Code walkthrough](./forms/aem-headless-forms/code-walkthrough.md)
     + Custom submit service with headless form{#custom-submit-headless-forms}
         + [1 - Introduction](./forms/custom-submit-headless-forms/introduction.md)
         + [2 - Create custom submit service](./forms/custom-submit-headless-forms/custom-submit-service.md)
