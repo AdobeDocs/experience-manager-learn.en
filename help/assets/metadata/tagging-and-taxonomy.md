@@ -13,7 +13,7 @@ doc-type: Feature Video
 duration: 856
 team: TM
 last-substantial-update: 2026-10-12T00:00:00.000Z
-jira: TODO
+jira: KT-22843,KT-22844
 TQID: 'https://experienceleague.adobe.com/-Kt4I8xOdFwAh5KAtmmBZbyQ8WmNwy-XM-1fUguMGZs'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
