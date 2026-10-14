@@ -59,6 +59,7 @@ team: TM
 + Governance & insights{#governance}
   + [Baseline folders](./governance/baseline-folders.md)
   + [Asset governance](./governance/governance.md)
+  + [Grant access to AEM Assets](./governance/grant-access.md)
   + [Permissions management](./governance/permissions-management.md)
   + [Metadata-driven permissions](./governance/metadata-driven-permissions.md)
   + [Closed user groups](./governance/closed-user-groups.md)
