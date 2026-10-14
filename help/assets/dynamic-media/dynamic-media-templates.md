@@ -383,8 +383,6 @@ The behavior of a default image depends on the Dynamic Media `DefaultImageMode` 
 * **Mode 0:** The default image replaces the entire requested composition when an image is missing.
 * **Mode 1:** The default image replaces all broken or missing image layers
 
-Confirm the applicable mode for the supported [!DNL AEM] deployment before documenting which behavior users should expect.
-
 ### Parameterise layers {#parameterise-a-layer}
 
 After creating a template with multiple layers of images, texts, shapes, and countdown timers, parameterise the selected layers. When a layer or its property is parameterised, it gets a key-value pair (also called as parameter). This parameter can be included in the template URL to update the layer's position, size or content in real time resulting in template customisation in no time.
