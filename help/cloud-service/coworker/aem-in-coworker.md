@@ -31,15 +31,78 @@ topic_v2:
 
 # CX Enterprise Coworker and AEM
 
-![Coworker](./assets/coworker/coworker-hero.png)
-
 Coworker is Adobe's conversational AI, deeply integrated with CX Enterprise applications like AEM. It's trained on Adobe best practices for getting work done fast and right, so instead of clicking through multiple screens and tools, you describe what you want in plain language, for example, "generate three hero images for the fall campaign" or "check this page against our brand guidelines", and Coworker plans the work, runs it across your connected Adobe applications, and shows you the results for review.
 
 For AEM, this means less time spent clicking through the UI and more time spent reviewing and approving what Coworker produces. You stay in control at every step, while Coworker handles the planning, execution, and follow-through.
 
 ## Get started with Coworker
 
-See [CX Enterprise Coworker guide](https://experienceleague.adobe.com/en/docs/coworker/content/home) for a full introduction to Coworker, its capabilities, and supported applications.
+New to Coworker? Start here to get a comprehensive understanding of how it can help you work more efficiently within AEM and other CX Enterprise applications.
+
+<!--
+CARDS
+
+* https://experienceleague.adobe.com/en/docs/coworker/content/home
+  {title = CX Enterprise Coworker guide}
+  {description = A full introduction to Coworker, its capabilities, and supported applications.}
+  {image = ./assets/coworker/coworker-card.png}
+  {cta = Get Started}
+
+* https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat
+  {title = What can Coworker Chat do?}
+  {description = Learn how Coworker Chat uses a conversational interface to plan, execute, and complete customer experience work across Adobe and connected systems in minutes.}
+  {cta = Watch}
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="CX Enterprise Coworker guide">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/coworker/content/home" title="CX Enterprise Coworker guide" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./assets/coworker/coworker-card.png" alt="CX Enterprise Coworker guide"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/coworker/content/home" target="_blank" rel="referrer" title="CX Enterprise Coworker guide">CX Enterprise Coworker guide</a>
+                    </p>
+                    <p class="is-size-6">A full introduction to Coworker, its capabilities, and supported applications.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/coworker/content/home" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Get Started</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="What can Coworker Chat do?">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="What can Coworker Chat do?" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/playlists/media_1cf2c4e67c5fea58797a98ab7518b6c61baade65f.jpg?width=400&format=pjpg&optimize=medium" alt="What can Coworker Chat do?"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="What can Coworker Chat do?">What can Coworker Chat do?</a>
+                    </p>
+                    <p class="is-size-6">Learn how Coworker Chat uses a conversational interface to plan, execute, and complete customer experience work across Adobe and connected systems in minutes.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 ## AEM in Coworker
 
@@ -77,7 +140,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/brand-visibility/generate-assets" title="Generate marketing assets" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502692/?format=jpeg&nocache=1792075691178" alt="Generate marketing assets"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502692/?format=jpeg&nocache=1792094125713" alt="Generate marketing assets"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -100,7 +163,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/brand-visibility/brand-compliance" title="Check brand compliance" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502691/?format=jpeg&nocache=1792075691193" alt="Check brand compliance"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502691/?format=jpeg&nocache=1792094125702" alt="Check brand compliance"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -146,7 +209,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/brand-visibility/onboard-aem-assets" title="Onboard AEM assets" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504157/?format=jpeg&nocache=1792075691203" alt="Onboard AEM assets"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504157/?format=jpeg&nocache=1792094125692" alt="Onboard AEM assets"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -192,7 +255,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/optimization/accelerate-experimentation" title="Accelerate experimentation" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504249/?format=jpeg&nocache=1792075692429" alt="Accelerate experimentation"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504249/?format=jpeg&nocache=1792094126869" alt="Accelerate experimentation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -215,7 +278,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/accelerate-data-insights" title="Accelerate data insights" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504567/?format=jpeg&nocache=1792075692413" alt="Accelerate data insights"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504567/?format=jpeg&nocache=1792094126881" alt="Accelerate data insights"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
