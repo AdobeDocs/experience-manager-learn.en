@@ -1,2 +1,0 @@
-# aem-in-coworker
-
