@@ -22,7 +22,7 @@ nudge: true
   + [Cloud Manager](./introduction/cloud-manager.md)
   + Strategy & thought leadership{#strategy}
     + [Experience Manager - Governance and staffing models and archetypes](./introduction/experience-manager-governance-and-staffing-models.md)
-+ [Coworker]{#coworker}
++ Coworker{#coworker}
   + [Overview](https://experienceleague.adobe.com/en/docs/coworker/content/home){target=_blank}
   + [AEM in Coworker](./coworker/aem-in-coworker.md)
 + AI {#ai}
