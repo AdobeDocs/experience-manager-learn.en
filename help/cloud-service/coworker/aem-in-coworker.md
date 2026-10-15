@@ -6,7 +6,8 @@ role: Leader, User, Developer, Admin
 level: Beginner
 doc-type: Catalog
 duration: 0
-last-substantial-update: 2026-09-01T00:00:00.000Z
+last-substantial-update: 2026-10-15
+nudge: true
 TQID: 'https://experienceleague.adobe.com/ddpeOxbaYGqdV-QJR5ccV79bMfoMiM4iNcaFNNQ6G-c'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
