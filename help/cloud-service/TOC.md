@@ -6,6 +6,7 @@ solution: Experience Manager as a Cloud Service, Experience Manager
 sub-product: Experience Manager as a Cloud Service
 version: Experience Manager as a Cloud Service
 team: TM
+nudge: true
 ---
  
 # Adobe Experience Manager as a Cloud Service Tutorials {#cloud-service}
@@ -21,7 +22,6 @@ team: TM
   + [Cloud Manager](./introduction/cloud-manager.md)
   + Strategy & thought leadership{#strategy}
     + [Experience Manager - Governance and staffing models and archetypes](./introduction/experience-manager-governance-and-staffing-models.md)
-+ [Experience Hub](./experience-hub.md)
 + [Coworker]{#coworker}
   + [Overview](https://experienceleague.adobe.com/en/docs/coworker/content/home){target=_blank}
   + [AEM in Coworker](./coworker/aem-in-coworker.md)
@@ -53,6 +53,7 @@ team: TM
       + [Agent Skills](./ai/ai-assited-development/setup/agent-skills.md)
     + Use Cases{#use-cases}
       + [Component Development](./ai/ai-assited-development/use-cases/component-development.md)
++ [Experience Hub](./experience-hub.md)
 + Experience Cloud integrations{#integrations}
   + [Integrations](./integrations/experience-cloud.md)
   + [AEM Headless and Target](./integrations/target.md)
