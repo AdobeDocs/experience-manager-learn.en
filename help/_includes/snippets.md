@@ -46,7 +46,7 @@ https://mcp.adobeaemcloud.com/adobe/mcp/aem
 
 >[!TAB CX Enterprise Coworker]
 
-[Coworker](/help/cloud-service/ai/coworker.md) is Adobe's conversational AI for CX Enterprise, with native support for the AEM MCP Server.
+[Coworker](/help/cloud-service/coworker/aem-in-coworker.md) is Adobe's conversational AI for CX Enterprise, with native support for AEM.
 
 >[!TAB OpenAI ChatGPT]
 

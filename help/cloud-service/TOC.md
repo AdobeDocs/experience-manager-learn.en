@@ -22,10 +22,12 @@ team: TM
   + Strategy & thought leadership{#strategy}
     + [Experience Manager - Governance and staffing models and archetypes](./introduction/experience-manager-governance-and-staffing-models.md)
 + [Experience Hub](./experience-hub.md)
++ [Coworker]{#coworker}
+  + [Overview](https://experienceleague.adobe.com/en/docs/coworker/content/home){target=_blank}
+  + [AEM in Coworker](./coworker/aem-in-coworker.md)
 + AI {#ai}
   + [Overview](./ai/overview.md)
   + [Set up and Provisioning](./ai/setup.md)
-  + [Coworker](./ai/coworker.md)
   + AI Assistant {#ai-assistant}
     + [Overview](./ai/ai-assistant/overview.md)
     + [What is AI Assistant?](./ai/ai-assistant/what-is-ai-assistant.md)
