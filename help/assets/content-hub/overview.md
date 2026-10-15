@@ -58,7 +58,6 @@ Learn how to upload assets, apply tags, and understand the approval workflow in 
 
 These videos cover AEM Assets Content Hub's key features -- from managing assets to collaborating with your team, each video provides clear steps and practical tips to help you make the most of AEM Assets Content Hub in your daily work.
 
-
 <!-- 
 CARDS
 
@@ -388,4 +387,3 @@ CARDS
 
 <br/>
 <br/>
->
