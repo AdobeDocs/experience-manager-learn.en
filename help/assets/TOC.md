@@ -12,6 +12,7 @@ sub-product: Experience Manager Assets
 version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 feature-set: Experience Manager Assets, Experience Manager Sites, Experience Manager
 team: TM
+nudge: republish
 ---
   
 # AEM Assets Videos and Tutorials {#assets}
