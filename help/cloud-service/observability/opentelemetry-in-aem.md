@@ -10,6 +10,7 @@ doc-type: Article
 jira: KT-22923
 thumbnail: KT-22923.jpeg
 last-substantial-update: 2026-10-20
+hold: true
 ---
 
 # Observability via OpenTelemetry
