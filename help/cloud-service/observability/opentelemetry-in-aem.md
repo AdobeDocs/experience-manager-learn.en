@@ -7,9 +7,9 @@ topic: Development, Architecture, Performance
 role: Admin, Developer
 level: Beginner, Intermediate
 doc-type: Article
-jira: 
-thumbnail: 
-last-substantial-update: 2026-10-16
+jira: KT-22923
+thumbnail: KT-22923.jpeg
+last-substantial-update: 2026-10-20
 ---
 
 # Observability via OpenTelemetry

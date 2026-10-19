@@ -7,9 +7,9 @@ topic: Development, Performance
 role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
-jira: 
-thumbnail: 
-last-substantial-update: 2026-10-16
+jira: KT-22924
+thumbnail: KT-22924.jpeg
+last-substantial-update: 2026-10-20
 ---
 
 # Configure OpenTelemetry for insights into AEM applications
