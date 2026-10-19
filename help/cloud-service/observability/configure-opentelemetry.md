@@ -1,75 +1,77 @@
 ---
-title: Configure OpenTelemetry for AEM as a Cloud Service
-description: Learn how to configure an OpenTelemetry destination for AEM as a Cloud Service using Cloud Manager secrets and a Config Pipeline.
+title: Configure OpenTelemetry for insights into AEM applications
+description: Learn how to configure an OpenTelemetry destination for AEM as a Cloud Service using config file, Cloud Manager secrets and a Config Pipeline to gain insight into your AEM application
 version: Experience Manager as a Cloud Service
 feature: Operations, Cloud Manager
 topic: Development, Performance
 role: Admin, Developer
 level: Intermediate
 doc-type: Tutorial
+jira: 
+thumbnail: 
 last-substantial-update: 2026-10-16
 ---
 
-# Configure OpenTelemetry for AEM as a Cloud Service
+# Configure OpenTelemetry for insights into AEM applications
 
-Learn how to connect an AEM as a Cloud Service environment to an OpenTelemetry compatible observability platform of your choice. This tutorial uses the [AEM WKND sample project](https://github.com/adobe/aem-guides-wknd) as an example application and shows how to configure telemetry export using Cloud Manager Config Pipeline.
+Learn how to connect an AEM as a Cloud Service environment to the [OpenTelemetry](https://opentelemetry.io/) compatible observability platform of your choice. 
 
-In this tutorial, you learn:
+This tutorial uses the [AEM WKND sample project](https://github.com/adobe/aem-guides-wknd) as the example application and shows how to export telemetry by deploying `config/otel.yaml` using a Cloud Manager Config Pipeline.
 
-1. Identify the OTLP/HTTPS endpoint and ingestion credential for your observability platform.
-2. Save the credential securely in Cloud Manager.
-3. Add `config/otel.yaml` to your AEM project repository.
-4. Create and run the Config pipeline
-5. Generate WKND traffic and verify telemetry in your observability platform.
+The high-level steps are:
 
-<!-- TODO: Add a short video or screenshots after validating the workflow on a WKND-enabled AEM environment. -->
+1. Obtain the OTLP/HTTPS endpoint and ingestion credential for _your observability platform_.
+2. Store the credential securely in Cloud Manager.
+3. Add the `config/otel.yaml` file to your AEM project repository.
+4. Run the Cloud Manager Config Pipeline.
+5. Generate WKND or your application traffic.
+6. Verify the telemetry in your observability platform.
 
 ## Prerequisites
 
 Before starting, ensure that you have:
 
-- An **eligible AEM as a Cloud Service** development, stage, or production environment with the WKND or your application deployed. OpenTelemetry is not supported on Sandbox programs or Rapid Development Environments (RDEs).
-- Access to a **Cloud Manager** to manage environment variables, create and run the Config Pipeline.
+- An **AEM as a Cloud Service** development, stage, or production environment with the WKND site or your own application deployed. OpenTelemetry is not supported on Sandbox programs or Rapid Development Environments (RDEs).
+- Access to **Cloud Manager** with permission to manage environment variables and to create and run a Config Pipeline.
 - An observability platform that accepts **OTLP over HTTPS**, with an endpoint and an ingestion credential.
-- Access to the observability platform to verify incoming AEM telemetry and visualize it.
+- Access to the observability platform to verify and visualize the incoming AEM telemetry.
 
 ## Step 1: Obtain your observability endpoint and credential
 
-In your observability platform, locate its **OTLP/HTTPS ingestion endpoint** and create or retrieve the appropriate ingestion credential. Please consult your platform's documentation for specific instructions on obtaining these details.
+In your observability platform, locate its **OTLP/HTTPS ingestion endpoint** and create or retrieve the appropriate ingestion credential. See your platform's documentation for instructions.
 
-For demo purpose, a self-hosted observability platform that supports OTLP over HTTPS is used.
+This tutorial uses a self-hosted observability platform that supports OTLP over HTTPS and requires a basic authentication token.
 
-## Step 2: Store the credential in Cloud Manager
+## Step 2: Store your observability credential in Cloud Manager
 
-Store the credential as a Cloud Manager **secret environment variable** instead of committing it to Git.
+Store the ingestion credential as a Cloud Manager **secret environment variable**.
 
-1. Select your AEM program in [Cloud Manager](https://my.cloudmanager.adobe.com/).
+1. In [Adobe Cloud Manager](https://my.cloudmanager.adobe.com/), select your AEM program.
    ![Select AEM Program in Cloud Manager](./assets/cloud-manager-env-vars.png)
 
-1. Select the target environment and click **View Details**.
+2. Select the target environment and click **View Details**.
    ![View Environment Details](./assets/cloud-manager-view-details.png)
    
-1. From the **Configuration** tab click **Add/Update** button to add a new environment variable. Then add an environment variable with these values:
+3. On the **Configuration** tab, click **Add/Update** and add an environment variable with these values:
+   ![Add Environment Variable](./assets/cloud-manager-add-update.png)
 
    | Setting | Value |
    | --- | --- |
    | Name | `OTEL_CUSTOMER_AUTH` |
-   | Value | Your provider's ingestion credential, note they vary by platform, see [provider-specific settings](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-apm-integration?utm_source=chatgpt.com#configure-credential) and examples. |
+   | Value | Your provider's ingestion credential. The format varies by platform. See the [provider-specific settings](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-apm-integration#configure-credential) for examples. |
    | Service applied | **All** |
    | Type | **Secret** |
 
-   ![Add Environment Variable](./assets/cloud-manager-add-update.png)
+   In this example, the self-hosted platform uses a basic authentication token in the `Basic <base64(user:password)>` format.
 
-   In my case, as its self-hosted observability platform, the credential is a basic authentication token in `"Basic <base64(user:pass)>"` format.
-
-1. Click **Add** and then **Save** to store the environment variable.
+4. Click **Add** and then **Save** to store the environment variable.
    ![Save Environment Variable](./assets/cloud-manager-save-env-var.png)
 
-The configuration `config/otel.yaml` file references the above secret as `${{secrets.OTEL_CUSTOMER_AUTH}}`. The actual credential must never appear in the repository, screenshots, or pipeline logs.
+The `config/otel.yaml` file references this secret as `${{secrets.OTEL_CUSTOMER_AUTH}}`. The credential must never appear in the AEM repository or the pipeline logs.
 
-## Step 3: Add the OpenTelemetry configuration
+## Step 3: Add OpenTelemetry configuration
 
-In the **AEM project repository**, create a file at the `config/otel.yaml` path, my self-hosted observability platform uses the following configuration:
+In your AEM project repository, create the `config/otel.yaml` file. The self-hosted platform in this tutorial uses the following configuration:
 
 ```yaml
 kind: "Otel"
@@ -95,44 +97,43 @@ The key settings are:
 | --- | --- |
 | `metadata.envTypes` | Environment types to which the configuration applies. Include the target environment type. |
 | `enabled` | Enables customer telemetry export when set to `true`. |
-| `type` | Selects the destination configuration, such as `newrelic`, `dynatrace`, or `generic`. |
+| `type` | Selects the destination configuration, for example `generic` for a self-hosted platform. |
 | `endpoint` | Base OTLP/HTTPS URL for the destination. |
+| `authHeaderName` | HTTP header that carries the credential, for example `Authorization`. |
 | `authHeaderValue` | Reference to the Cloud Manager secret, not the credential itself. |
 | `metrics` | Enables metrics export when `true`. |
 | `logs` | Enables application log export when `true`. |
 
-Traces are enabled when the integration is enabled; metrics and logs are optional. 
+Traces export whenever the integration is enabled. Metrics and logs are optional. They export only when set to `true`.
+
+For example, see the following WKND sample configuration:
 
 ![WKND sample configuration](./assets/wknd-sample-configuration.png)
 
-## Step 4: Commit and run the Config Pipeline
+## Step 4: Deploy OpenTelemetry configuration
 
-1. Commit `config/otel.yaml` and push changes to the upstream repository from which your Config Pipeline is sourcing its configuration.
-2. In Cloud Manager, create or edit the relevant **Config Pipeline**, verify the details.
+1. Commit the `config/otel.yaml` file and push it to the repository and branch that your Config Pipeline uses as its source.
+2. In Cloud Manager, create or edit the **Config Pipeline** for the environment, and verify its details.
     ![Config Pipeline details](./assets/config-pipeline-details.png)
-3. To run the pipeline, select the name of the pipeline and click **Run**.
+3. Select the pipeline name and click **Run**.
     ![Run Config Pipeline](./assets/run-config-pipeline.png)
-4. Monitor the pipeline execution to ensure that the configuration is applied successfully.
+4. Monitor the pipeline run until it completes successfully.
    ![Monitor Config Pipeline](./assets/monitor-config-pipeline.png)
 
-The configuration process checks the file format, environment eligibility, endpoint settings, secret reference, and credentials before applying the destination configuration.
+The pipeline validates the configuration before it applies the destination settings.
 
-## Step 5: Generate traffic in WKND
+## Step 5: Generate AEM traffic
 
-Once the configuration has been applied, generate a small amount of application activity:
+After the pipeline completes, generate some application activity:
 
-1. Open the WKND site on the AEM Publish service.
-2. Navigate between a few WKND pages, such as the home page and article pages.
-3. Refresh a page several times to generate additional inbound HTTP requests.
-4. Optionally open the WKND site in Author to compare telemetry between tiers.
+1. Open the WKND site or your application on the AEM Publish service and navigate between a few pages.
+2. Optionally, open the WKND site on the Author service to generate Author telemetry.
 
-This creates application requests that should produce trace data. It does not guarantee that every request is retained or visible because sampling and filtering may apply.
-
-<!-- TODO: Screenshot of a WKND page used to generate traffic. -->
+Wait a few minutes for the telemetry to reach your observability platform.
 
 ## Step 6: Verify telemetry in your observability platform
 
-Allow a few minutes for the first data to arrive, then open your observability platform.
+Open your observability platform and look for the telemetry. The steps to locate traces, metrics, and logs vary by platform.
 
 ### Find the AEM service
 
@@ -142,73 +143,61 @@ Search for an AEM service name similar to:
 cm-p<program>-e<environment>-aem-publish-<environment-type>
 ```
 
-For example, a Publish service in a production environment may resemble `cm-p12345-e67890-aem-publish-prod`. Replace these identifiers with those from your environment.
+In the self-hosted platform used in this tutorial, the Publish service telemetry appears as follows:
 
-<!-- TODO: Screenshot showing the AEM service in the provider's service list. -->
+![WKND Publish service telemetry in the observability platform](./assets/wknd-publish-service-telemetry.png)
 
 ### Inspect traces
 
-Look for inbound HTTP request spans corresponding to WKND page requests. Open a trace and review its request name, duration, and related spans.
+Look for inbound HTTP request spans that match your WKND page requests. Open a trace and review its request name, duration, and related spans.
 
-<!-- TODO: Screenshot of a real WKND request trace. -->
+![WKND request trace in the observability platform](./assets/wknd-request-trace.png)
 
 ### Inspect metrics
 
-Because `metrics: true` is configured, check for JVM and HTTP metrics, such as:
+Because the configuration sets `metrics: true`, look for JVM and HTTP metrics such as:
 
 - `jvm.memory.used`
 - `jvm.gc.duration`
 - `jvm.thread.count`
 - `http.server.request.duration`
 
-<!-- TODO: Screenshot of JVM or HTTP request metrics for the AEM service. -->
+![WKND service metrics in the observability platform](./assets/wknd-service-metrics.png)
 
-### Optional: Enable logs
+### Inspect logs
 
-If you want to test log export, change the configuration to:
+Because the configuration sets `logs: true`, check your destination for AEM application logs. The integration exports logs at a supported severity (`WARN` or higher) threshold, so ordinary page visits might not produce log entries at that level.
 
-```yaml
-  logs: true
-```
-
-Commit the change, run the Config Pipeline again, and inspect application logs in your destination. Be aware that the integration exports logs at the supported severity threshold; ordinary page visits may not generate log entries at that level.
-
->[!WARNING]
->
->If AEM Log Forwarding already sends logs to the same destination, enabling OpenTelemetry log export can produce duplicate log messages.
-
-## Step 7: Update or disable telemetry export
-
-To change the destination or signal selection, edit `config/otel.yaml`, commit the change, and rerun the Config Pipeline.
-
-To disable customer telemetry export, set:
-
-```yaml
-  enabled: false
-```
-
-Then commit the change and run the Config Pipeline again. If your environment currently uses the legacy built-in APM integration, review migration and rollback restrictions in the [product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-apm-integration) before disabling OpenTelemetry.
+![WKND service logs in the observability platform](./assets/wknd-service-logs.png)
 
 ## Troubleshooting
 
-If the pipeline fails or no telemetry arrives, start with these checks:
+If the Config Pipeline fails or telemetry does not appear in your observability platform, review the pipeline logs and check the following:
 
 | Symptom | What to check |
 | --- | --- |
-| Configuration appears to be ignored | Confirm `metadata.envTypes` includes the target environment type. |
-| Secret reference error | Confirm `OTEL_CUSTOMER_AUTH` exists as a **secret environment variable**, applied to all services. |
-| Authentication failure (`401` or `403`) | Check the credential type, value, and authentication header required by your provider. |
-| Endpoint unreachable | Check the URL, region, and HTTPS connectivity. Private destinations may require Advanced Networking. |
-| Pipeline completes but no data appears | Wait a few minutes, generate WKND traffic, then check the provider's ingestion status and service-name filters. |
-| No logs appear | Check `logs: true` and whether the application has emitted logs at the supported severity. |
+| OpenTelemetry is not enabled for the environment | Confirm your AEM program is eligible for OpenTelemetry and that the feature is enabled for the target environment. Contact Adobe Support if access or platform enablement is required. |
+| Configuration appears to be ignored | Confirm that `metadata.envTypes` includes the target environment type (`dev`, `stage`, or `prod`). A mismatch causes the configuration to be skipped without an error. |
+| Secret reference error | Confirm that `OTEL_CUSTOMER_AUTH` exists as a Cloud Manager **secret environment variable**, with **Service applied** set to **All**. It must not be a pipeline variable. |
+| Authentication failure (`401` or `403`) | Verify the credential and authentication header required by your provider. For example, New Relic requires an ingest License key, not a user API key. |
+| Endpoint unreachable or credential validation fails | Verify the endpoint URL, region, and HTTPS connectivity. Private endpoints or destinations requiring a stable outbound IP address may require Advanced Networking to be provisioned and enabled. |
+| Dynatrace OneAgent conflict | OpenTelemetry cannot be enabled while Dynatrace OneAgent is active on the environment. The existing integration must be removed before configuring OpenTelemetry. |
+| Pipeline completes but no telemetry appears | Allow a few minutes for data to arrive, generate WKND or other relevant traffic, and check the provider's ingestion status and `service.name` filters. |
+| No logs appear | Confirm `logs: true` is configured and that the AEM application has generated log entries at WARN level or above. |
+| Duplicate log entries | Check whether OpenTelemetry log export and AEM Log Forwarding are sending logs to the same destination. |
+| Internal system error | Retry the Config Pipeline. If the error persists, contact Adobe Support with the pipeline execution details. |
 
-For a complete error reference, see the [OpenTelemetry product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-apm-integration).
+If the issue persists, contact Adobe Support and provide the AEM program ID, environment ID, Config Pipeline execution ID, exact error message, and observability provider details. **Never include authentication credentials or secret values.**
+
+For additional configuration examples and troubleshooting information, see the [OpenTelemetry product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-apm-integration).
 
 ## Next steps
 
-You have configured an OpenTelemetry destination for an AEM as a Cloud Service environment and learned how to verify incoming telemetry from WKND.
+You have configured OpenTelemetry for AEM as a Cloud Service and verified that telemetry from the WKND sample application is available in your observability platform.
 
-Continue with the next tutorial, **Explore AEM telemetry in your observability platform**, to investigate traces, JVM and HTTP metrics, and logs in more detail.
+You can now use this telemetry to investigate slow or failing requests, monitor JVM and HTTP performance, and correlate application logs with traces to better understand AEM application behavior.
+
+To explore additional configuration options, supported observability providers, and networking requirements, refer to the [OpenTelemetry product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-apm-integration).
 
 ## Additional resources
 
