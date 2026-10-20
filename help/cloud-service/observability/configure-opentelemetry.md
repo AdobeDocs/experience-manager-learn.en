@@ -10,12 +10,11 @@ doc-type: Tutorial
 jira: KT-22924
 thumbnail: KT-22924.jpeg
 last-substantial-update: 2026-10-20
-hold: true
 ---
 
 # Configure OpenTelemetry for insights into AEM applications
 
-Learn how to connect an AEM as a Cloud Service environment to the [OpenTelemetry](https://opentelemetry.io/) compatible observability platform _of your choice_. 
+Learn how to connect an AEM as a Cloud Service environment to the [OpenTelemetry](https://opentelemetry.io/) compatible observability platform of your choice. 
 
 In [previous articles](./opentelemetry-in-aem.md), you learned about the concepts and benefits of using OpenTelemetry with AEM as a Cloud Service. In this tutorial, we use the [AEM WKND sample project](https://github.com/adobe/aem-guides-wknd) as an example application and show how to export telemetry by deploying `config/otel.yaml` using a Cloud Manager Config Pipeline.
 

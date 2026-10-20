@@ -10,12 +10,11 @@ doc-type: Article
 jira: KT-22923
 thumbnail: KT-22923.jpeg
 last-substantial-update: 2026-10-20
-hold: true
 ---
 
 # Observability via OpenTelemetry
 
-Learn how AEM as a Cloud Service uses OpenTelemetry to send traces, metrics, and logs to the Application Performance Monitoring (APM) platform _of your choice_.
+Learn how AEM as a Cloud Service uses OpenTelemetry to send traces, metrics, and logs to the Application Performance Monitoring (APM) platform of your choice.
 
 Adobe is replacing the built-in Application Performance Monitoring (APM) integration in AEM as a Cloud Service with [OpenTelemetry](https://opentelemetry.io/), an open standard for collecting and exporting traces, metrics, and logs. With OpenTelemetry, you _bring your own_ APM endpoint and monitor AEM alongside the rest of your applications, using the tools your teams already know. For more information, see the [OpenTelemetry documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-apm-integration).
 
