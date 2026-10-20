@@ -237,8 +237,8 @@ nudge: true
   + [SAML 2.0](./authentication/saml-2-0.md)
   + [SAML login hooks](./authentication/saml-2-0-login-hook.md)
 + Observability via OpenTelemetry{#observability-via-opentelemetry}
-  + [Overview](./observability/opentelemetry-in-aem.md)
-  + [Configure OpenTelemetry](./observability/configure-opentelemetry.md)
+  + {hide-from-toc} [Overview](./observability/opentelemetry-in-aem.md)
+  + {hide-from-toc} [Configure OpenTelemetry](./observability/configure-opentelemetry.md)
 + Advanced Networking{#networking}
   + [Overview](./networking/advanced-networking.md)
   + [Flexible port egress](./networking/flexible-port-egress.md)
