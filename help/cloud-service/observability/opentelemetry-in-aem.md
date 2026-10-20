@@ -136,6 +136,20 @@ You can send telemetry to any APM platform that exposes an OTLP/HTTPS endpoint, 
 
 This list is not exhaustive. OpenTelemetry defines the telemetry format and export protocol and your selected platform determines how the data is queried, visualized, retained, and alerted on.
 
+## Choose an observability platform
+
+You need a platform that accepts OTLP/HTTPS to receive the telemetry. Adobe does not provide it, you must bring your own observability platform.
+
+If your organization already uses one of the platforms above, start there. If not, choose between a vendor-hosted (SaaS) platform and a self-hosted one:
+
+| | Vendor-hosted (SaaS) | Self-hosted |
+| --- | --- | --- |
+| **Setup** | Nothing to install or operate. | You install, upgrade, and scale the platform. |
+| **Data location** | Telemetry leaves your environment and may need a security or privacy review. | Telemetry stays in infrastructure you control. |
+| **Features** | Dashboards, alerting, and APM views are typically built in. Some features are vendor-specific. | Features depend on the software you choose. |
+| **Cost** | Pricing typically depends on data volume. | You pay for infrastructure and engineering time. |
+| **Availability** | The vendor operates the service. | You manage uptime, storage, backups, and retention. |
+
 ## Before you start
 
 - **Environments**: You can enable OpenTelemetry individually on production, stage, and development environments. However, Sandbox programs and Rapid Development Environments (RDEs) are NOT supported.

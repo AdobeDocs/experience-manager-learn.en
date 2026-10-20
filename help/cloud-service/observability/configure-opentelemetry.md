@@ -41,6 +41,8 @@ Before starting, ensure that you have:
 
 In your observability platform, locate its **OTLP/HTTPS ingestion endpoint** and create or retrieve the appropriate ingestion credential. See your platform's documentation for instructions.
 
+Not sure which platform to use? See [Choose an observability platform](./opentelemetry-in-aem.md#choose-an-observability-platform).
+
 This tutorial uses a self-hosted observability platform that supports OTLP over HTTPS and requires a basic authentication token.
 
 ## Step 2: Store your observability credential in Cloud Manager
