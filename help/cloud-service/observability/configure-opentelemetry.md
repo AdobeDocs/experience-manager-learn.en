@@ -10,6 +10,7 @@ doc-type: Tutorial
 jira: KT-22924
 thumbnail: KT-22924.jpeg
 last-substantial-update: 2026-10-20
+nudge: true
 ---
 
 # Configure OpenTelemetry for insights into AEM applications
