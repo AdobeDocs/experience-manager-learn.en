@@ -21,9 +21,12 @@ Adobe is replacing the built-in Application Performance Monitoring (APM) integra
 
 This article explains what the integration provides, how telemetry flows from AEM to your APM platform, what you control, and what to consider before you enable it. The [configuration tutorial](./configure-opentelemetry.md) explains how to set up OpenTelemetry for your AEM environment.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->The OpenTelemetry integration is currently available through a **Beta** program, with broader availability planned for later in 2026. To join, email [aemcs-apm-beta@adobe.com](mailto:aemcs-apm-beta@adobe.com) and describe your use case. If you rely on the built-in APM integration today, use the Beta period to evaluate OpenTelemetry and plan your transition.
+>This feature is in **Limited Availability**. To use it, request access by emailing [aemcs-apm-beta@adobe.com](mailto:aemcs-apm-beta@adobe.com) - Adobe enables OpenTelemetry for your environments shortly after replying to your request. If your environment currently uses Adobe's built-in APM integration, that integration stops sending data once OpenTelemetry is enabled, since the two cannot run at the same time. 
+>
+>Note that it is **not** available to HIPAA-scoped environments, Rapid Development Environments (RDE), and sandboxes.
+
 
 ## Why OpenTelemetry
 
@@ -152,7 +155,7 @@ If your organization already uses one of the platforms above, start there. If no
 
 ## Before you start
 
-- **Environments**: You can enable OpenTelemetry individually on production, stage, and development environments. However, Sandbox programs and Rapid Development Environments (RDEs) are NOT supported.
+- **Environments**: You can enable OpenTelemetry individually on production, stage, and development environments. However, HIPAA-scoped environments, sandbox programs and Rapid Development Environments (RDEs) are NOT supported.
 - **Versions**: The integration supports OpenTelemetry Java agent 2.x and the OTLP/HTTPS export protocol.
 
 ## Next steps

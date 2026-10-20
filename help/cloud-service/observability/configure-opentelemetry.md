@@ -28,11 +28,17 @@ The high-level steps are:
 5. Generate traffic to the AEM application.
 6. Verify the telemetry in your observability platform.
 
+>[!AVAILABILITY]
+>
+>This feature is in **Limited Availability**. To use it, request access by emailing [aemcs-apm-beta@adobe.com](mailto:aemcs-apm-beta@adobe.com) - Adobe enables OpenTelemetry for your environments shortly after replying to your request. If your environment currently uses Adobe's built-in APM integration, that integration stops sending data once OpenTelemetry is enabled, since the two cannot run at the same time. 
+>
+>Note that it is **not** available to HIPAA-scoped environments, Rapid Development Environments (RDE), and sandboxes.
+
 ## Prerequisites
 
 Before starting, ensure that you have:
 
-- An **AEM as a Cloud Service** development, stage, or production environment with the WKND site or your own application deployed. OpenTelemetry is not supported on Sandbox programs or Rapid Development Environments (RDEs).
+- An **AEM as a Cloud Service** development, stage, or production environment with the WKND site or your own application deployed. OpenTelemetry is not supported on HIPAA-scoped environments, sandbox programs and Rapid Development Environments (RDEs).
 - Access to **Cloud Manager** with permission to manage environment variables and to create and run a Config Pipeline.
 - An observability platform that accepts **OTLP over HTTPS**, with an endpoint and an ingestion credential.
 - Access to the observability platform to verify and visualize the incoming AEM telemetry.
@@ -195,6 +201,8 @@ You have configured OpenTelemetry for AEM as a Cloud Service and verified that t
 
 You can now use this telemetry to investigate slow or failing requests, monitor JVM and HTTP performance, and correlate application logs with traces to better understand AEM application behavior.
 
+To extend telemetry for your application-specific logic, see [Custom instrumentation with OpenTelemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-custom-instrumentation).
+
 To explore additional configuration options, supported observability providers, and networking requirements, refer to the [OpenTelemetry product documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-apm-integration).
 
 ## Additional resources
@@ -202,3 +210,5 @@ To explore additional configuration options, supported observability providers, 
 - [OpenTelemetry in AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-apm-integration)
 - [AEM WKND sample project](https://github.com/adobe/aem-guides-wknd)
 - [Configure Advanced Networking](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/configuring-advanced-networking)
+- [Custom instrumentation with OpenTelemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/opentelemetry-custom-instrumentation)
+  
