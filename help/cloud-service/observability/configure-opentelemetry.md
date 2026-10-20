@@ -15,17 +15,17 @@ hold: true
 
 # Configure OpenTelemetry for insights into AEM applications
 
-Learn how to connect an AEM as a Cloud Service environment to the [OpenTelemetry](https://opentelemetry.io/) compatible observability platform of your choice. 
+Learn how to connect an AEM as a Cloud Service environment to the [OpenTelemetry](https://opentelemetry.io/) compatible observability platform _of your choice_. 
 
-This tutorial uses the [AEM WKND sample project](https://github.com/adobe/aem-guides-wknd) as the example application and shows how to export telemetry by deploying `config/otel.yaml` using a Cloud Manager Config Pipeline.
+In [previous articles](./opentelemetry-in-aem.md), you learned about the concepts and benefits of using OpenTelemetry with AEM as a Cloud Service. In this tutorial, we use the [AEM WKND sample project](https://github.com/adobe/aem-guides-wknd) as an example application and show how to export telemetry by deploying `config/otel.yaml` using a Cloud Manager Config Pipeline.
 
 The high-level steps are:
 
 1. Obtain the OTLP/HTTPS endpoint and ingestion credential for _your observability platform_.
 2. Store the credential securely in Cloud Manager.
 3. Add the `config/otel.yaml` file to your AEM project repository.
-4. Run the Cloud Manager Config Pipeline.
-5. Generate WKND or your application traffic.
+4. Run the Cloud Manager [Config Pipeline](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline).
+5. Generate traffic to the AEM application.
 6. Verify the telemetry in your observability platform.
 
 ## Prerequisites
@@ -134,7 +134,7 @@ Wait a few minutes for the telemetry to reach your observability platform.
 
 ## Step 6: Verify telemetry in your observability platform
 
-Open your observability platform and look for the telemetry. The steps to locate traces, metrics, and logs vary by platform.
+Open your observability platform and look for the telemetry. The steps to locate traces, metrics, and logs vary by platform. The following screenshots are from [Grafana](https://grafana.com/) based observability platform dashboards.
 
 ### Find the AEM service
 
@@ -156,12 +156,7 @@ Look for inbound HTTP request spans that match your WKND page requests. Open a t
 
 ### Inspect metrics
 
-Because the configuration sets `metrics: true`, look for JVM and HTTP metrics such as:
-
-- `jvm.memory.used`
-- `jvm.gc.duration`
-- `jvm.thread.count`
-- `http.server.request.duration`
+Because the configuration sets `metrics: true`, look for JVM and HTTP metrics like memory usage, garbage collection duration, thread count, and HTTP request duration.
 
 ![WKND service metrics in the observability platform](./assets/wknd-service-metrics.png)
 
