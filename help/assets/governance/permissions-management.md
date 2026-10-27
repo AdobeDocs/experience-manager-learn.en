@@ -10,9 +10,9 @@ topic: Content Management
 role: Admin, User
 level: Beginner, Intermediate
 doc-type: Feature Video
-duration: 1049
+duration: 840
 team: TM
-last-substantial-update: 2026-08-27T00:00:00.000Z
+last-substantial-update: 2026-10-20T00:00:00.000Z
 jira: TODO
 TQID: 'https://experienceleague.adobe.com/6x5uJAM--jYZXONv56q85iZjBVFw--bif-LfMJCQpO0'
 product_v2:
@@ -58,9 +58,18 @@ Every organization needs to control who can view, edit, or delete assets, especi
 
 >[!TAB Assets view]
 
-In the Assets view, you set up administrators and user groups in the Adobe Admin Console, then apply **Can view** or **Can edit** permission to a folder for a specific group, or assign a user as a folder's owner. This video shows the whole flow, including how a deny rule at one folder limits what you can grant beneath it.
+Learn how to manage folder permissions in the Assets view so the right users and groups can view, edit, or manage your assets. Before you begin, [set up users and user groups in the Adobe Admin Console](./grant-access.md), then sign in to AEM Assets as an administrator.
 
->[!VIDEO](https://video.tv.adobe.com/v/342113?quality=12&learn=on)
+Select a folder, open **More options**, and choose **Manage permissions**. This video shows how to:
+
+* Assign **Can view** or **Can edit** permissions to user groups.
+* Give a group view access to a parent folder and edit access to a specific subfolder.
+* Assign **Owner** permission to an individual user so they can manage permissions within a folder tree without being a full administrator.
+* Apply **Deny access** to **All authenticated users** to restrict a folder to the groups you explicitly grant access to, and acknowledge the warning that this change may affect your own permissions.
+
+Manage permissions at the group level rather than for individual users, except when assigning a folder owner. Permissions apply to both browsing and search results, so users only see assets they have permission to access.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504763?quality=12&learn=on)
 
 >[!TAB Admin view]
 

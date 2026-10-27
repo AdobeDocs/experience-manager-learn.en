@@ -54,3 +54,4 @@ Learn how to set up the Experience Manager Assets Content Hub using the Adobe Cl
 If you have AEM Assets Dynamic Media OpenAPIs licensed, you can use them to generate dynamic renditions in Content Hub, such as Smart Crops. Before these Dynamic Media OpenAPI renditions can appear in Content Hub, an initial setup is required.
 
 >[!SLIDE](dm-open-api-setup)
+
