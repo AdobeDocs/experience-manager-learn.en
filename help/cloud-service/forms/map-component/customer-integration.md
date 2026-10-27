@@ -24,7 +24,7 @@ The repository provides precompiled JavaScript and CSS, so a separate frontend b
 
 ## 3. Download the Component
 
-Clone or download the Generic Interactive USA Map repository.
+[Clone or download the Generic Interactive USA Map repository.](https://github.com/gbedekar489/aem-generic-usa-map.git)
 
 The repository contains:
 
