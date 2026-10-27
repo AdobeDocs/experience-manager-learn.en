@@ -15,6 +15,8 @@ jira: KT-22991
 
 The **Generic Interactive USA Data Map** is a reusable Adobe Experience Manager (AEM) Sites component primarily designed to **visualize AEM Adaptive Form submissions by U.S. state**.
 
+![map-component](assets/map-component.png)
+
 The component provides an interactive geographic representation of form submission activity, allowing users to understand the distribution of submissions across the United States, identify states with higher submission volumes, and view state-level submission counts.
 
 Although its primary use case is displaying form submissions, the component is **datasource-independent** and can visualize other state-based business metrics, such as sales, customer distribution, and service requests.
