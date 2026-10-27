@@ -1,6 +1,6 @@
 ---
-title: Integration Guide
-description: This guide explains how to integrate the Generic Interactive USA Map component into an existing Adobe Experience Manager (AEM) as a Cloud Service project.
+title: Generic Interactive USA Data Map Component
+description: The **Generic Interactive USA Data Map** is a reusable Adobe Experience Manager (AEM) Sites component primarily designed to **visualize AEM Adaptive Form submissions by U.S. state**.
 type: Documentation
 role: Developer
 level: Beginner, Intermediate
@@ -9,7 +9,7 @@ feature: Adaptive Forms
 topic: Development
 jira: KT-22991
 ---
-# Integration Guide
+# Generic Interactive USA Data Map Component
 
 ## Overview
 

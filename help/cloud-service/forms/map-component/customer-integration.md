@@ -1,3 +1,14 @@
+---
+title: Integration Guide
+description: This guide explains how to integrate the Generic Interactive USA Map component into an existing Adobe Experience Manager (AEM) as a Cloud Service project.
+type: Documentation
+role: Developer
+level: Beginner, Intermediate
+version: Experience Manager as a Cloud Service
+feature: Adaptive Forms
+topic: Development
+jira: KT-22991
+---
 # Integration Guide — Generic Interactive USA Map for AEM Sites
 
 ## 1. Overview
