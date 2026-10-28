@@ -231,9 +231,9 @@ Execute these steps to add text layers to the canvas:
 
 >[!NOTE]
 >
->Dynamic Media template text layers that use the `textPs=` rendering command do not support right-to-left (RTL) character flow. When Arabic text is combined with English product names or URLs in the same text layer, the text might appear in the wrong order or punctuation might be misplaced. Right-aligning the text does not resolve this limitation, which can affect the final generated asset as well as the editor preview.
+>Dynamic Media template text layers that use the `textPs=` rendering command do not support right-to-left (RTL) text flow. When Arabic text is combined with English product names or URLs in the same text layer, the text might appear in the incorrect order, or punctuation might be misplaced. Right-aligning the text does not resolve this limitation. It can affect both the editor preview and the final generated asset.
 >
->As a workaround, try arranging the text segments in the desired visual order. Manually validate the final generated asset to check character order and punctuation. This approach does not provide full bidirectional text support and is not scalable for large numbers of localized strings.
+>As a workaround, arrange the text segments in the desired visual order and validate the final generated asset to verify the character order and punctuation. This workaround does not provide full bidirectional text support and might not be practical for large numbers of localized strings.
 
 ![best customizable banners](./assets/templates/add-text-layer.png)
 
