@@ -228,6 +228,13 @@ Execute these steps to add text layers to the canvas:
 >
 >The Design canvas, Preview output, and Delivery output may show minor differences in text position or size due to differences in how the content is rendered.
 
+
+>[!NOTE]
+>
+>Dynamic Media template text layers that use the `textPs=` rendering command do not support right-to-left (RTL) text flow. When Arabic text is combined with English product names or URLs in the same text layer, the text might appear in the incorrect order, or punctuation might be misplaced. Right-aligning the text does not resolve this limitation. It can affect both the editor preview and the final generated asset.
+>
+>As a workaround, arrange the text segments in the desired visual order and validate the final generated asset to verify the character order and punctuation. This workaround does not provide full bidirectional text support and might not be practical for large numbers of localized strings.
+
 ![best customizable banners](./assets/templates/add-text-layer.png)
 
 See the [**[!UICONTROL Properties Panel]**](#reposition-resize-delete-a-layer) to reposition, resize, rotate or delete the layer. Format your text to the required font, size, color, style, alignment (in the layer) by changing their values in the respective fields under the **[!UICONTROL Text]** section of the panel. The **[!UICONTROL Font Family]** field displays [!UICONTROL Adobe Sans F2] default font, the reprocessed existing fonts and the newly uploaded and published fonts. See point 5 in the [Before you begin](#prerequisites-for-dynamic-media-wysiwyg-template) section above for more information.
