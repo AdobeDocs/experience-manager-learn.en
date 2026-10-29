@@ -356,6 +356,10 @@ nudge: true
         + [4 - AJO Events](./forms/form-completion-reminder/create-custom-events-ajo.md)
         + [5 - Create Journey](./forms/form-completion-reminder/create-journey.md)
         + [6 - Create AEM Page](./forms/form-completion-reminder/create-page-form.md)
+    + Generic Map Component{#generic-map-component}
+        + [1 - Introduction](./forms/map-component/introduction.md)
+        + [2 - Using the component](./forms/map-component/customer-integration.md)
+ 
     + Create address block component{#create-address-block}
         + [1 - Introduction](./forms/create-address-block-component/introduction.md)
         + [2 - Setup](./forms/create-address-block-component/set-up.md)
