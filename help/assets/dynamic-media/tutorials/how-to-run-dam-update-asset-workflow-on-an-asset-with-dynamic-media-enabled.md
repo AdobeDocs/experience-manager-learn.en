@@ -10,7 +10,7 @@ index: true
 doc-type: Tutorial
 exl-id: 4e55d3fe-68fd-4d41-a4b1-e73290e0934b
 duration: 60
-TQID: https://experienceleague.adobe.com/xCL4os2E5-tpM649iRqIRAoGkxWmli2vupB4iWrxSho
+TQID: 'https://experienceleague.adobe.com/mr0Le4AA8EeG3EonVtGSgCWgb5XJnFtzqzeSDBFN6cw'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -19,6 +19,8 @@ product_v2:
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: d8ea7e82-d45e-442f-bb04-b3788a7abcb0
     internal-label: Video profiles

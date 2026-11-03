@@ -12,7 +12,7 @@ doc-type: Tutorial
 exl-id: 44433595-08bc-4a82-9232-49d46c31b07b
 duration: 316
 hide: true
-TQID: https://experienceleague.adobe.com/-JFEGKTtyWRC9bWdO9A5deQnaOFgONbsNoSb2Fd5-V4
+TQID: 'https://experienceleague.adobe.com/cDZa70GTn-qyRJDc2tomNzxLX52dyJIArZzEkhnwZ28'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,14 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

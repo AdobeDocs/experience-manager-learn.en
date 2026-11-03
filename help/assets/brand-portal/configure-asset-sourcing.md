@@ -10,12 +10,18 @@ last-substantial-update: 2022-06-17T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 4f5c1e04-8b98-454c-b410-1b1d0e110798
 duration: 155
-TQID: https://experienceleague.adobe.com/QaPSXVXftOejM0Rcz90cKunhJwldqQpBA99LG6-7y3s
+TQID: 'https://experienceleague.adobe.com/5hvqOGeldLnqI6tP2VPRts6cuSS3ZWbPcZUCRgnOwgE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

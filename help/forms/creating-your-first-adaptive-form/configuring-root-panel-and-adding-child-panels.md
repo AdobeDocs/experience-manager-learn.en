@@ -10,12 +10,18 @@ role: Developer
 level: Beginner
 exl-id: a68c41b8-3e80-4b25-a933-9ceb8aee1e01
 duration: 187
-TQID: https://experienceleague.adobe.com/TQOkf9XN4-ZtMGr0YD3qgXa5XLLMr9VfGc-S4k6dX1U
+TQID: 'https://experienceleague.adobe.com/Z5GJhh0TgJFGQZpSWnCMaBkVh4ynZGilJ4IQ2MlFOig'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -13,12 +13,32 @@ level: Beginner
 doc-type: Catalog
 exl-id: 09a600f4-1ada-4fb7-ae44-586364cff389
 recommendations: disable
-TQID: https://experienceleague.adobe.com/bLJ-IHdkW5UDNnS1TKBqrG38kzmy2V97NbZF-HiWiDE
+TQID: 'https://experienceleague.adobe.com/TwfGT3f-in9X89BzaDRCMAINKsmfXG4EckoUJ-TFgnU'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+    internal-label: Page editor
+  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

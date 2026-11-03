@@ -12,7 +12,7 @@ doc-type: Tutorial
 exl-id: 90d14734-f644-4a45-9361-1e47a5b52fff
 recommendations: display, noCatalog
 duration: 74
-TQID: https://experienceleague.adobe.com/gRNuR11l3PYONm54BCBwrpXqr-kGqdTTRidi-t6QvDc
+TQID: 'https://experienceleague.adobe.com/4MljRSylcF6GvswLmAxuSdM51APQAT5Pcp2b0D3CDoE'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,9 +21,23 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
     internal-label: Editable templates
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+    internal-label: Page editor
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

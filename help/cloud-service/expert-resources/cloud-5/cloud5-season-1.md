@@ -6,7 +6,7 @@ solution: Experience Manager as a Cloud Service, Experience Manager
 recommendations: noDisplay, noCatalog
 exl-id: 210e5483-d79e-47ac-aa09-b6956cca2e62
 duration: 112
-TQID: https://experienceleague.adobe.com/YaAYR1Qt5p9pplj5Sjz2rSHFtF839D7NfTyFHtj9H8Q
+TQID: 'https://experienceleague.adobe.com/WMFWPh4RDS600K8WRB-XOsuJ2revfpDCwAU2OnYB5HE'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -15,6 +15,12 @@ feature_v2:
     internal-label: APIs
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: ffa4a726-ff13-52a1-83a8-2872ed44316b
+    internal-label: Log Files
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

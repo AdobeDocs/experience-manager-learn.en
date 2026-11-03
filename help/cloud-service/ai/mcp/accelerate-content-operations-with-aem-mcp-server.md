@@ -1,83 +1,100 @@
 ---
-title: Accelerate AEM Content Operations using the Content MCP Server
-description: Learn how to use the AEM Content MCP Server from your preferred AI-powered IDE, such as Cursor, to streamline and accelerate your AEM content operations, reducing manual effort and increasing productivity.
+title: Create test content without leaving your IDE
+description: Learn how to create and update AEM test content in natural language, right from your IDE, so you can try out content-dependent features without breaking your flow to open the AEM UI or write low-level API code.
 version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
 level: Beginner
 doc-type: tutorial
-duration: null
-last-substantial-update: 2026-03-04
+duration: 
+last-substantial-update: 2026-09-10T00:00:00.000Z
 jira: KT-20474
 exl-id: 843209cb-2f31-466c-b5b1-a9fb26965bc0
+TQID: 'https://experienceleague.adobe.com/qBBcGAhsbGIAvXirzYsPnF4cDuTibZfniQwBeKSFrY8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
-# Accelerate AEM Content Operations Using the Content MCP Server
+# Create test content without leaving your IDE
 
-Use the **Content MCP Server** from an AI-powered IDE such as [Cursor IDE](https://www.cursor.com/) to work with AEM content in natural language, no low-level API code or UI navigation. 
+Use the [AEM MCP Server](./overview.md) from an AI-powered IDE such as [Cursor IDE](https://www.cursor.com/) to work with AEM pages, content fragments, and assets in natural language, no low-level API code or UI navigation.
 
 In this tutorial you _review_ Adventure content fragment details, _update_ a fragment (for example, an adventure's price), and _verify_ the change in the [WKND Adventures React app](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app) all from your IDE against a _lower AEM environment_ (RDE or Development) without leaving the MCP flow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480895/?learn=on&enablevpops)
 
-## Overview
+## Add the AEM MCP Server
 
-AEM as a Cloud Service provides _MCP Servers_ so your IDE or chat app can work with AEM securely. The **Content MCP Server** supports pages, fragments, and assets. See [MCP Servers in AEM](./overview.md) for more information.
+This tutorial uses [Cursor IDE](https://www.cursor.com/) as an example agentic IDE; the same AEM MCP Server registration works in any MCP-compatible IDE or chat application.
 
-## How Developers Can Use It
+{{aem-mcp-server-install}}
 
-Connect the [Cursor IDE](https://www.cursor.com/) to the Content MCP Server and run the scenario below.
-
-### Setup - Content MCP Server in Cursor
-
-Let's set up the Content MCP Server in Cursor with these steps.
+Here's how to set it up in Cursor, using the manual registration URL from **Other MCP clients**:
 
 1. Open Cursor on your machine.
 
 1. Go to **Settings** > **Cursor Settings** from the Cursor menu to open the settings window.
-    ![Cursor Settings](../assets/content-mcp-server/cursor-settings.png)
+    ![Cursor Settings](../assets/content-mcp-server/cursor-settings.png){zoomable="yes"}
 
 1. In the left sidebar, click **Tools & MCP** to open that panel.
-    ![Tools & MCP](../assets/content-mcp-server/tools-mcp.png)
+    ![Tools & MCP](../assets/content-mcp-server/tools-mcp.png){zoomable="yes"}
 
 1. Click **Add Custom MCP** or **New MCP Server** to open `mcp.json`, then paste in this configuration:
 
     ```json
     {
-        // You do not need both but just content-readonly or content is fine. The content server includes everything the content-readonly server offers. For demo purposes, we added both.
         "mcpServers": {
-            // Use this for create, read, update, and delete operations
-            "AEM-RDE-Content": {
-                "url": "https://mcp.adobeaemcloud.com/adobe/mcp/content"
-            },
-            //Use this for read-only operations
-            "AEM-RDE-Content-Read-Only": {
-                "url": "https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly"
+            "AEM": {
+                "url": "https://mcp.adobeaemcloud.com/adobe/mcp/aem"
             }
         }
     }
     ```
 
-    >[!CAUTION]
+    >[!NOTE]
     >
-    > For tutorial purpose, the above configuration adds both **Content** and **Content (read-only)** for this tutorial. In practice, **Content** already includes everything **Content (read-only)** offers, plus create/update/delete tools.
-    >
-    >
-    > If you want to avoid any possibility of creating, modifying, or deleting content, configure only **Content (read-only)** (`/content-readonly`) and omit **Content** (`/content`). That way you avoid accidental changes.
+    > Access through the AEM MCP Server follows the permissions of your signed-in AEM user: you can only do what you're already authorized to do in AEM. If your organization needs tighter, org-level scoping (for example, restricting to read-only), contact Adobe at `aemcs-mcp-feedback@adobe.com`.
 
-    ![Add AEM MCP Server](../assets/content-mcp-server/mcp-json-file.png)
+    <!-- SCREENSHOT: needs retaking. Currently shows the old two-server (AEM-RDE-Content / AEM-RDE-Content-Read-Only) mcp.json configuration; should show a single "AEM" entry pointing at /adobe/mcp/aem -->
+    ![Add AEM MCP Server](../assets/content-mcp-server/mcp-json-file.png){zoomable="yes"}
 
 1. From the Cursor Settings window, click **Connect** to initiate the authentication process. It uses the OAuth 2.0 PKCE flow to get the **User Specific Access Token** to access the AEM MCP Server. 
-    ![Connect to AEM MCP Server](../assets/content-mcp-server/connect-to-aem-mcp-server.png)
+    ![Connect to AEM MCP Server](../assets/content-mcp-server/connect-to-aem-mcp-server.png){zoomable="yes"}
 
 1. Sign in with your Adobe ID, then come back to the Cursor Settings window.
-    ![Login with Adobe ID](../assets/content-mcp-server/login-with-adobe-id.png)
+    ![Login with Adobe ID](../assets/content-mcp-server/login-with-adobe-id.png){zoomable="yes"}
 
-1. Confirm that **AEM-RDE-Content-Read-Only** and **AEM-RDE-Content** show as connected. You can expand each server to see its tools.
+1. Confirm that **AEM** shows as connected. You can expand the server to see its tools.
 
-    ![AEM MCP Servers](../assets/content-mcp-server/connected-aem-mcp-servers.png)
+    <!-- SCREENSHOT: needs retaking. Currently shows two connected servers (AEM-RDE-Content / AEM-RDE-Content-Read-Only); should show a single connected "AEM" server -->
+    ![AEM MCP Server](../assets/content-mcp-server/connected-aem-mcp-servers.png){zoomable="yes"}
 
-### Setup - WKND Adventures React App
+## Install the sample AEM web app
 
-Next, set up the [WKND Adventures React App](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app) in Cursor.
+Next, set up the [WKND Adventures React App](https://github.com/adobe/aem-guides-wknd-graphql/tree/main/react-app) in your IDE.
 
 1. Clone these two repos on your machine:
 
@@ -108,9 +125,9 @@ Next, set up the [WKND Adventures React App](https://github.com/adobe/aem-guides
 
 1. In your browser, go to [http://localhost:3000](http://localhost:3000) to view the WKND Adventures app.
 
-    ![React App - WKND Adventures](../assets/content-mcp-server/react-app-wknd-adventures.png)
+    ![React App - WKND Adventures](../assets/content-mcp-server/react-app-wknd-adventures.png){zoomable="yes"}
 
-### Productivity Scenario - AEM Content review and update 
+## Review and update content
 
 Suppose you need to show a _HOT DEAL_ banner on Adventure cards when a simple rule is met. The usual approach would be:
 
@@ -121,20 +138,20 @@ Suppose you need to show a _HOT DEAL_ banner on Adventure cards when a simple ru
 
 To keep things simple, let's show the _HOT DEAL_ banner when the adventure's price is under $100.
 
-Because the React app gets its data from your RDE environment, you need to know the Adventure content fragment model and then update the right fragment properties. That is exactly what the AEM Content MCP Server can help with. Here is how.
+Because the React app gets its data from your RDE environment, you need to know the Adventure content fragment model and then update the right fragment properties. That is exactly what the AEM MCP Server can help with. Here is how.
 
-1. In Cursor, open a new chat and type:
+1. In your IDE's chat, type:
 
     ```text
     I want to review my Content Fragment Models from AEM RDE, can you list the Adventure Content Fragment details.
     ```
     
-    ![Review Content Fragment Models](../assets/content-mcp-server/review-content-fragment-models-prompt-response.png)
+    ![Review Content Fragment Models](../assets/content-mcp-server/review-content-fragment-models-prompt-response.png){zoomable="yes"}
 
     
-    Before invoking the Content MCP Server, it asks for confirmation to proceed. Thus, you stay in control of the content operations.
+    Before invoking the AEM MCP Server, it asks for confirmation to proceed. Thus, you stay in control of the content operations.
 
-    The AI uses the Content MCP Server to fetch the data and then presents it in a clear, structured way. It includes content fragment model details, the number of fragments, and summary information.
+    The AI uses the AEM MCP Server to fetch the data and then presents it in a clear, structured way. It includes content fragment model details, the number of fragments, and summary information.
 
 1. To trigger the _HOT DEAL_ banner, update one adventure's price. In the same chat, try:
 
@@ -142,17 +159,17 @@ Because the React app gets its data from your RDE environment, you need to know 
     Can you update adventure Beervana in Portland's price to 99.99
     ```
 
-    ![Update Adventure Price](../assets/content-mcp-server/update-adventure-price-prompt-response.png)
+    ![Update Adventure Price](../assets/content-mcp-server/update-adventure-price-prompt-response.png){zoomable="yes"}
 
     Similarly, the AI asks for confirmation to proceed before updating the content. It also summarizes the content operation before and after the update.
 
 1. In the React app, confirm that the Beervana card now shows the _HOT DEAL_ banner.
 
-    ![Verify HOT DEAL Banner](../assets/content-mcp-server/verify-hot-deal-banner.png)
+    ![Verify HOT DEAL Banner](../assets/content-mcp-server/verify-hot-deal-banner.png){zoomable="yes"}
 
-### Additional Prompts
+## Additional prompts
 
-Try these content focused prompts in your IDE (with the Content MCP Server connected) to explore more workflows and features.
+Try these content focused prompts in your IDE (with the AEM MCP Server connected) to explore more workflows and features.
 
 - Discover content:
 
@@ -192,6 +209,6 @@ Try these content focused prompts in your IDE (with the Content MCP Server conne
     Can you unpublish the test-downhill-skiing-wyoming page
     ```
 
-## Summary
+## Congratulations!
 
-You set up the AEM Content MCP Server in Cursor and connected it to your RDE (or Development) environment. You then used the WKND Adventures React app and chatted in natural language to review Adventure content fragment details. You also updated a fragment's price with the AI asking for your confirmation before each content operation. You verified the change in the running app. You can use the same human-centric flow from your IDE to review, update, and create AEM content without switching to the AEM UI or writing low-level API code.
+You set up the AEM MCP Server in an agentic IDE (Cursor, in this example) and connected it to your RDE (or Development) environment. You then used the WKND Adventures React app and chatted in natural language to review Adventure content fragment details. You also updated a fragment's price with the AI asking for your confirmation before each content operation. You verified the change in the running app. You can use the same human-centric flow from your IDE to review, update, and create AEM content without switching to the AEM UI or writing low-level API code.

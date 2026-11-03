@@ -9,12 +9,22 @@ role: User
 level: Intermediate
 exl-id: ee534724-54ea-48e1-8c92-de1c56a928d4
 duration: 50
-TQID: https://experienceleague.adobe.com/WUK7WRf-Ej-esPMzMZXfDRzYGr63RWs3JcaES6fLFfM
+TQID: 'https://experienceleague.adobe.com/3sYkXqJ6-5Nko-wt8W1mf58lz8W-vQcyKP-Ac2I-r7s'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

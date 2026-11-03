@@ -10,7 +10,7 @@ jira: KT-10292
 exl-id: c1d248c3-8208-476e-b0ae-cab25575cd6a
 last-substantial-update: 2021-10-12T00:00:00.000Z
 duration: 66
-TQID: https://experienceleague.adobe.com/GXh8VQwVdfrt-4K0mbNN2B9bOqQvVmzB-SOlrvglX1U
+TQID: 'https://experienceleague.adobe.com/0GDEm7UNDJCzXmes3hVSohFawRyTnr2bmJFO2O0TF9w'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -21,9 +21,17 @@ feature_v2:
     internal-label: APIs
   - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
     internal-label: APIs
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Display multiple pdf documents in a carousel
 

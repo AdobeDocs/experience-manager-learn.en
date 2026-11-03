@@ -6,6 +6,10 @@ version: Experience Manager as a Cloud Service
 jira: KT-4677
 thumbnail: 32551.jpg
 duration: 413
+TQID: 'https://experienceleague.adobe.com/omT1-Vqf-0z6CrZbdKt7WZKncpig9f45UuJexbK0ld8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Using the AEM Quickstart Jar

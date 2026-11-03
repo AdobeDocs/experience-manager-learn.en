@@ -11,7 +11,7 @@ thumbnail: 7818.jpg
 jira: KT-7818
 exl-id: 1f34c356-6c0c-46ff-9cea-7baacfc4bb7f
 duration: 22
-TQID: https://experienceleague.adobe.com/1rojRvNK4jgwSnuEM53HPJxl9kylZ3bzxL7CowJkLqA
+TQID: 'https://experienceleague.adobe.com/g1bBbSEL4nuLTo6AjNzNAn4qfD9RmWdmnHSP04ZKF7I'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms

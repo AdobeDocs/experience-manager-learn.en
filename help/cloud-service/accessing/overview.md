@@ -11,10 +11,13 @@ thumbnail: KT-5882.jpg
 last-substantial-update: 2022-10-06T00:00:00.000Z
 exl-id: 4846a394-cf8e-4d52-8f8b-9e874f2f457b
 duration: 113
-TQID: https://experienceleague.adobe.com/Asj3IE6jH-RJH4phx5Z8MK2YxcAVlh-ghyNNF5-s2YU
+TQID: 'https://experienceleague.adobe.com/tK4qvA-LjXlugR-4c06MOEp3k-Xgc-70GAZc3KyWLhQ'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 3aa2a621-ec4f-5c9b-bbb0-bd5a3b1279a6
+    internal-label: User and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -8,16 +8,32 @@ role: Developer
 jira: KT-15880
 level: Intermediate, Experienced
 exl-id: 856b7da4-9ee4-44db-b245-4fdd220e8a4e
-TQID: https://experienceleague.adobe.com/vu-LyDBynCBBUXSi9Ek7E1Z7s9VzS7jPPa-Yxy0qESM
+TQID: 'https://experienceleague.adobe.com/f-mXurztK1surv4hnmL-M-vHqpftrTM4Zs5sh0G69u4'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
+subfeature_v2:
+  - id: b6950f16-0067-4287-be9d-5a68c8748b29
+    internal-label: OSGI configuration
+  - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
+    internal-label: Cloud Manager APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

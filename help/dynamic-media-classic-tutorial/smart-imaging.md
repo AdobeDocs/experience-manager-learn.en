@@ -8,7 +8,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: 678671c3-af25-4da1-bc14-cbc4cc19be8d
 duration: 130
-TQID: https://experienceleague.adobe.com/hAaXB62vs5JYJ0JA2HKhz9LeQo-RPyTzm9riFs6Lb3Q
+TQID: 'https://experienceleague.adobe.com/EVcTtjt2so7PE88Yo9fY7MDsv9B0HM-5Nb-yBc62cCk'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

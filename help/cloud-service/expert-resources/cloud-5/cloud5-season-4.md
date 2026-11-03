@@ -7,13 +7,17 @@ recommendations: noDisplay, noCatalog
 duration: 30
 last-substantial-update: 2024-12-15T00:00:00.000Z
 exl-id: ede3fb19-d803-4b21-8c03-4283f7b4f7f4
-TQID: https://experienceleague.adobe.com/ToN8V3LKkmONAeStl68MVA0KOQ1q42oxp2jNBcKjeas
+TQID: 'https://experienceleague.adobe.com/sRwZh6ISRKnpF-Ump8Ha1KtxUOpCxJHFsh3ml2JmIxo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

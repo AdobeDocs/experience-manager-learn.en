@@ -11,13 +11,25 @@ exl-id: b613aa65-f64b-4851-a2af-52e28271ce88
 last-substantial-update: 2022-06-24T00:00:00.000Z
 thumbnail: aem-java-bp.jpg
 duration: 416
-TQID: https://experienceleague.adobe.com/zLHy3-PVFvHSG-U2vS9uzJ8luCtX4tAR-brNKSKudLk
+TQID: 'https://experienceleague.adobe.com/yNGYU7339AuepnwrzkQ6CTxhUFoR-HTDTMIMBnHz1bc'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 4e98bff0-c1e9-5ae2-adfb-81189dc510c5
+    internal-label: Query Builder
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: bfdb47d1-3e12-45af-8447-f6b9d7239457
     internal-label: Sling API

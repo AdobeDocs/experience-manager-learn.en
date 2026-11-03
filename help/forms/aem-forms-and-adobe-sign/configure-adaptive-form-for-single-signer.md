@@ -11,12 +11,20 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 exl-id: b90c5c00-ec62-4809-9ab6-047eba2f2bb0
 duration: 427
-TQID: https://experienceleague.adobe.com/d0h6y9LzhVxQoOuzpzK6MqVORXwLNk0Axm1u11Sy8gQ
+TQID: 'https://experienceleague.adobe.com/rNnmEurRXWu8hdFfKGTi4yEweZ3Lvocmvm-n6bht-KE'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a16aea24-4e85-528d-9377-cd80bb039c1d
+    internal-label: Acrobat Sign
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

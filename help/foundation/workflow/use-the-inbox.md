@@ -11,10 +11,15 @@ thumbnail: 16827.jpg
 doc-type: Feature Video
 exl-id: bc1e0187-e8bd-4d56-91d0-2f1465b5e95c
 duration: 356
-TQID: https://experienceleague.adobe.com/hWXnREWld0SBTKYKUORVHLQ7qgkIdQYQGt4v7evzpRk
+TQID: 'https://experienceleague.adobe.com/-OwezBMq6-VHYI-6LpYlF4-NWTstQ-Q-Y27cdacLMZg'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

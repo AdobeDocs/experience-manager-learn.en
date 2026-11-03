@@ -10,7 +10,7 @@ topic: Development
 jira: KT-9980
 exl-id: 0e3e186b-9fbe-40ad-a6cc-bdbf58b23009
 duration: 52
-TQID: https://experienceleague.adobe.com/9b7-W35bfMAdbKv8DurkGhcvCsK5DSQhHGYuujczSa0
+TQID: 'https://experienceleague.adobe.com/EFWSNaUquK7v2HnxS-eq39O-IMz41hwsCIXyl-zDMtw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

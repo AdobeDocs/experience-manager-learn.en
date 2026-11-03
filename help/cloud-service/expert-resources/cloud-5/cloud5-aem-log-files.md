@@ -8,13 +8,15 @@ jira: KT-9927
 thumbnail: 341156.jpeg
 exl-id: 1d000b09-52e7-4828-a0b3-32a47131e66c
 duration: 314
-TQID: https://experienceleague.adobe.com/BwdvbeYZlitLxuuomXDsLBJ8cauksCJKp9qNsd5rkVw
+TQID: 'https://experienceleague.adobe.com/rkeUdqcYABsNRpZ6foFxPYXRQJFNnqw7c2je-OD5dU0'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: ffa4a726-ff13-52a1-83a8-2872ed44316b
+    internal-label: Log Files
 subfeature_v2:
   - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
     internal-label: Cloud Manager APIs

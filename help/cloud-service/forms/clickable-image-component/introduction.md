@@ -10,7 +10,7 @@ topic: Development
 jira: KT-15968
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: c451472f-d282-4662-9852-8a3e73c5c853
-TQID: https://experienceleague.adobe.com/rxHRC6-yFaSr-89UFB7DiLtreIsUn7S6PrIC8I4JeeA
+TQID: 'https://experienceleague.adobe.com/S9pbbonXB9x6QFnB5VtENQCA0Tgv9GxtPlamp0VA3-g'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

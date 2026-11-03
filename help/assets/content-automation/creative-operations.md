@@ -7,11 +7,11 @@ role: Leader, Developer, Admin, User
 level: Beginner
 jira: KT-8073
 thumbnail: 336540.jpeg
-last-substantial-update: 2022-09-02T00:00:00.000Z
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 10e63038-b6d6-4ac6-b6b4-660a05f83d90
 duration: 635
-TQID: https://experienceleague.adobe.com/-COoIxcUTMcBUqeQAcRdnAtFqsr3EgQDT5-BxfeY3fI
+TQID: 'https://experienceleague.adobe.com/WS9TexJ-r2Lu7CR3AJpublH7HqQ23Tx4nUSojFjp-FQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -24,6 +24,10 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: ee4c2482-9595-5bc0-b9be-c0c6f02eba50
+    internal-label: Asset Processing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,8 +44,16 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
 ---
-# Creative Operations
+# Creative operations {#creative-operations}
 
-Learn how you can use the Content Automation add-on that integrates Adobe Experience Manager Assets as a Cloud Service with Adobe Creative Cloud Service APIs to process your assets. 
+Content authors often need Photoshop or Lightroom edits on images stored in AEM Assets. Without automation, someone downloads the asset, sends it to a designer, and re-uploads the finished file, which slows down every campaign. The Content Automation add-on removes that back and forth. It connects AEM Assets to Adobe Creative Cloud Service APIs, so processing profiles apply creative operations like autotone, cutout, masking, straightening, and Lightroom presets automatically as assets move through your folders.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+In the Admin view, apply processing profiles that connect AEM Assets to Photoshop and Lightroom operations through Creative Cloud APIs. This video walks through six creative operations: autotone, image cutout, image masking, auto straightening, Lightroom presets, and Photoshop smart object replacement. Each example shows how to create a folder, build a processing profile, and assign it so AEM Assets generates the new rendition automatically.
 
 >[!VIDEO](https://video.tv.adobe.com/v/336540?quality=12&learn=on)
+
+>[!ENDTABS]

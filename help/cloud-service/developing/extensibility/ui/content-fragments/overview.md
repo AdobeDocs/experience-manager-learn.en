@@ -12,13 +12,15 @@ thumbnail: KT-11603.png
 last-substantial-update: 2023-06-02T00:00:00.000Z
 exl-id: 9164423b-a609-4bc5-9777-112d229ae748
 duration: 126
-TQID: https://experienceleague.adobe.com/spW-0W5gLQ001rXAaK4G3NEjkcUP4z77dd7wu-CxRKg
+TQID: 'https://experienceleague.adobe.com/DQP-WECT-bQr5o8FxE4ostScx7loBJunRY9G42KnScc'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -28,6 +30,8 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # AEM Content Fragments extensibility
 
@@ -137,67 +141,6 @@ The following Content Fragments Editor extension points are available:
         </div>
       </div>
     </div>
-  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Rich Text Editor toolbar">
-    <div class="card" style="height: 100%">
-      <div class="card-image">
-        <figure class="image is-16by9">
-          <a href="https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-toolbar/" title="Rich Text Editor toolbar" tabindex="-1" target="_blank" rel="referrer">
-            <img class="is-bordered-r-small" src="./assets/overview/cfe-rte-toolbar.png" alt="Rich Text Editor toolbar">
-          </a>
-        </figure>
-      </div>
-      <div class="card-content is-padded-small">
-        <div class="content">
-          <p class="headline is-size-6 has-text-weight-bold"><a href="https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-toolbar/" title="Rich Text Editor toolbar"  target="_blank" rel="referrer">Rich Text Editor toolbar</a></p>
-          <p class="is-size-6">Add custom button to the Content Fragment Editor's Rich Text Editor (RTE).</p>
-          <a href="https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-toolbar/" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" target="_blank" rel="referrer">
-            <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View the docs</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Rich Text Editor widgets">
-    <div class="card" style="height: 100%">
-      <div class="card-image">
-        <figure class="image is-16by9">
-          <a href="https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-widgets/" title="Rich Text Editor widgets" tabindex="-1"  target="_blank" rel="referrer">
-            <img class="is-bordered-r-small" src="./assets/overview/cfe-rte-widgets.png" alt="Rich Text Editor widgets">
-          </a>
-        </figure>
-      </div>
-      <div class="card-content is-padded-small">
-        <div class="content">
-          <p class="headline is-size-6 has-text-weight-bold"><a href="https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-widgets/" title="Rich Text Editor widgets" target="_blank" rel="referrer">Rich Text Editor widgets</a></p>
-          <p class="is-size-6">Customize actions in RTE that are bound to keystrokes.</p>
-          <a href="https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-widgets/" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" target="_blank" rel="referrer">
-            <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View the docs</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Rich Text Editor badges">
-    <div class="card" style="height: 100%">
-      <div class="card-image">
-        <figure class="image is-16by9">
-          <a href="https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-badges/" title="Rich Text Editor badges" tabindex="-1" target="_blank" rel="referrer">
-            <img class="is-bordered-r-small" src="./assets/overview/cfe-rte-badges.png" alt="Rich Text Editor badges">
-          </a>
-        </figure>
-      </div>
-      <div class="card-content is-padded-small">
-        <div class="content">
-          <p class="headline is-size-6 has-text-weight-bold"><a href="https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-badges/ " title="Rich Text Editor badges" target="_blank" rel="referrer">Rich Text Editor badges</a></p>
-          <p class="is-size-6">Customize non-editable styled blocks inside RTE.</p>
-          <a href="https://developer.adobe.com/uix/docs/services/aem-cf-editor/api/rte-badges/" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" target="_blank" rel="referrer">
-            <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View the docs</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 ## Extension examples
@@ -285,67 +228,6 @@ Welcome to a collection of AEM UI extensibility code examples! This resource is 
       </div>
     </div>
   </div>    
-  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Rich Text Editor toolbar button">
-    <div class="card" style="height: 100%">
-      <div class="card-image">
-        <figure class="image is-16by9">
-          <a href="./examples/editor-rte-toolbar.md" title="Rich Text Editor toolbar button" tabindex="-1">
-            <img class="is-bordered-r-small" src="./examples/assets/rte/rte-toolbar-card.png" alt="Rich Text Editor toolbar button">
-          </a>
-        </figure>
-      </div>
-      <div class="card-content is-padded-small">
-        <div class="content">
-          <p class="headline is-size-6 has-text-weight-bold"><a href="./examples/editor-rte-toolbar.md" title="Rich Text Editor toolbar button">Rich Text Editor toolbar button</a></p>
-          <p class="is-size-6">Add custom toolbar buttons to RTE fields in the Content Fragment Editor.</p>
-          <a href="./examples/editor-rte-toolbar.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
-            <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View the example</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>   
-  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Rich Text Editor Widget">
-    <div class="card" style="height: 100%">
-      <div class="card-image">
-        <figure class="image is-16by9">
-          <a href="./examples/editor-rte-widget.md" title="Rich Text Editor Widget" tabindex="-1">
-            <img class="is-bordered-r-small" src="./examples/assets/rte/rte-widget-card.png" alt="Rich Text Editor Widget">
-          </a>
-        </figure>
-      </div>
-      <div class="card-content is-padded-small">
-        <div class="content">
-          <p class="headline is-size-6 has-text-weight-bold"><a href="./examples/editor-rte-toolbar.md" title="Rich Text Editor Widget">Rich Text Editor Widget</a></p>
-          <p class="is-size-6">Add widgets to Rich Text Editor in the Content Fragment Editor.</p>
-          <a href="./examples/editor-rte-widget.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
-            <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View the example</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>   
-  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Rich Text Editor Badge">
-    <div class="card" style="height: 100%">
-      <div class="card-image">
-        <figure class="image is-16by9">
-          <a href="./examples/editor-rte-badges.md" title="Rich Text Editor Badge" tabindex="-1">
-            <img class="is-bordered-r-small" src="./examples/assets/rte/rte-badge-card.png" alt="Rich Text Editor Badge">
-          </a>
-        </figure>
-      </div>
-      <div class="card-content is-padded-small">
-        <div class="content">
-          <p class="headline is-size-6 has-text-weight-bold"><a href="./examples/editor-rte-badges.md" title="Rich Text Editor Badge">Rich Text Editor Badge</a></p>
-          <p class="is-size-6">Add badges to Rich Text Editor in the Content Fragment Editor.</p>
-          <a href="./examples/editor-rte-badges.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
-            <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">View the example</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div> 
-
   <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Custom fields">
     <div class="card" style="height: 100%">
       <div class="card-image">

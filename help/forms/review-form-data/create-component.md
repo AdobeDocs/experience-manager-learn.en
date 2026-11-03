@@ -10,15 +10,28 @@ level: Experienced
 last-substantial-update: 2023-01-22T00:00:00.000Z
 exl-id: d537a80a-de61-4d43-bdef-f7d661c43dc8
 duration: 33
-TQID: https://experienceleague.adobe.com/9D53oRXWIETkiasiaT1WyjnmtBj55nJD-iN7ZDN28-s
+TQID: 'https://experienceleague.adobe.com/TUtKB-QH-DlnO3iaRH8VRhAbv3CJ8Pu1Qs3OMzaho2w'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Create component to summrize the form data
 

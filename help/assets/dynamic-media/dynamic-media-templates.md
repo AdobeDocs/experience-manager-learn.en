@@ -10,7 +10,7 @@ duration: 383
 last-substantial-update: 2025-03-18T00:00:00.000Z
 jira: KT-17563
 exl-id: 28098410-64d3-4cfc-8bc6-56e1d4016525
-TQID: https://experienceleague.adobe.com/5DTgVJ5Nd-IiBnSZt-BPsYY36YYlzAQUQiKEJtD7Ggw
+TQID: 'https://experienceleague.adobe.com/05I2L71RX8AaTAXaFUH8zueaMEYV8dmtvhS6t6vF3sM'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,9 +21,27 @@ feature_v2:
     internal-label: Dynamic Media
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
 subfeature_v2:
   - id: b2fe52d9-cde8-4c1d-9c28-72ffc0cc7558
     internal-label: Smart Services
+  - id: e2dc1259-9034-40fc-a518-b92a34fe6642
+    internal-label: Image sets
+  - id: afe09f80-87de-4606-96de-7aecd50f1a65
+    internal-label: Image profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -35,6 +53,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Dynamic Media Templates {#dynamic-media-templates}
 
@@ -50,7 +72,7 @@ Some of the key features include:
 * **[!DNL Dynamic Media] URL Support:** Use [!DNL Dynamic Media] URLs for templates, integrating personalized values from Adobe and non-Adobe applications.
 * **Layer Visibility Control:** Dynamically hide or show layers as needed.
 * **Smart Text Resizing:** Automatically adjust text size to fit designated areas.
-* **Countdown Timer Layer:** Add countdown timers to templates and configure their end time, display units (Days, Hours, Mins), suffix, fallback text, and CTA.
+* **Countdown Timer Layer:** Add countdown timers to templates and configure their end time, display units (Days, Hours, Mins, Seconds), suffix, fallback text, and CTA.
 
 Some of the key benefits of [!DNL Dynamic Media] templates include:
 
@@ -78,9 +100,9 @@ Fulfil the following requirements to create a [!DNL Dynamic Media] template and 
 1. [Sync the images available in your [!DNL AEM Assets] instance with [!DNL Dynamic Media] to use them for creating the template](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. Publish the images to use in creating the template to generate the delivery URL of the template after creating it. The delivery URL can be used in downstream applications.
 1. To use a font other than the default [!UICONTROL Adobe Sans F2] font in the template's text layer, [upload and publish the font file to AEM and Dynamic Media simultaneously](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/publish-assets-to-aem-and-dm?lang=en#dynamic-media-publish-mode-set-to-upon-activation). [The supported font file formats are, AFM, OTF, PFB, PFM, PhotoFont, TTC, TTF](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/uploading-files#supported-asset-file-formats). Also, ensure to [reprocess](/help/assets/reprocessing-assets-view.md) the existing fonts to use them. See [Fonts](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/support-files/fonts) for more information.<!--(On [!DNL Assets View] home page, click ![Assets](/help/assets/assets/Asset-icon.svg)**[!UICONTROL Assets]**, navigate to the font file location, select the font file one at a time and click ![Reprocess](/help/assets/assets/Refresh-docs.svg)**[!UICONTROL Reprocess]**)-->
-1. verify the following in the Touch UI:
+1. Verify the following in Admin View:
    * On the **[!UICONTROL Edit [!DNL Dynamic Media] Configuration page]**, **[!UICONTROL [!DNL Dynamic Media] sync mode]** that is set to **[!UICONTROL Disabled by default]**, is not applied to all AEM folders (**[!UICONTROL Sync all content]** is unchecked). See [configuring Dynamic Media Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) for more information.
-   * **[!UICONTROL [!DNL Dynamic Media] sync mode]** is set to **[!UICONTROL Enable for subfolders]** for the destination folder or subfolder where you will save the template after creation. See [configuring [!DNL Dynamic Media] Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) for more information.
+   * **[!UICONTROL [!DNL Dynamic Media] sync mode]** is set to **[!UICONTROL Enable for subfolders]** for the destination folder or subfolder where you plan to save the template after creation. See [configuring [!DNL Dynamic Media] Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) for more information.
  
 ## Create [!DNL Dynamic Media] template{#how-to-create-dynamic-media-template}
 
@@ -104,9 +126,13 @@ Execute the following steps to create a [!DNL Dynamic Media] template:
 
 Execute these steps to create a blank canvas: 
 
-1. Navigate to [!DNL Assets View], select **[!UICONTROL Dynamic Media Assets]** available in the left panel and navigate to your folder to save your template in that folder.
+1. Navigate to [!DNL Assets View], select **[!UICONTROL Dynamic Media Templates]** available in the left panel and navigate to your folder to save your template in that folder.
 
    ![Dynamic Media templates](./assets/templates/DM-Assets1.png)
+
+   >[!IMPORTANT]
+   >
+   >If you are using Admin view, select the asset and click **[!UICONTROL Create Template]** to view the **[!UICONTROL New Template]** dialog box.
 
 1. Select **[!UICONTROL Create Template]**. The **[!UICONTROL New Template]** dialog box displays.
 
@@ -144,9 +170,9 @@ Execute these steps to create a blank canvas:
 Click ![template to create flyers rapidly](./assets/templates/show-layers-list.svg) and select more options (![](./assets/templates/three-dots.svg)) on the Canvas layer to edit the canvas dimensions anytime while creating the template.
 ![](./assets/templates/edit-canvas1.png)
 
-   >[!NOTE]
-   >
-   > Templates allow a maximum of 20 layers, including the Canvas.
+>[!NOTE]
+>
+> Templates allow a maximum of 100 layers, including the Canvas.
 
 ### Add images to the canvas{#add-images-to-the-canvas}
 
@@ -159,6 +185,37 @@ Execute these steps to add images to the canvas:
 1. Enable the **[!UICONTROL Uniform Radius]** toggle and use the **[!UICONTROL Corner Radius]** slider to adjust the roundness of all four corners of an image uniformly. Disable the toggle to customize the corner roundness by assigning specific radius values to each corner.
 ![adjust corner roundness of image](./assets/templates/enable-uniform-radius-image.png)
 
+#### Stretch an image to fit the layer
+
+You can stretch an image to fit the layer dimensions exactly.
+
+1. Select an image layer on the canvas and expand the **[!UICONTROL Fit]** section in the Properties panel.
+1. Enable **[!UICONTROL Stretch To Fit Image]**.
+
+   ![Stretch To Fit Image toggle](./assets/templates/stretch-to-fit-image.png)
+
+   An interactive resize handle appears on the canvas.
+
+1. Resize the image using the interactive resize handle.
+
+1. Click **[!UICONTROL Accept crop]** to apply the new width and height and re-render the image to fill the resized area.
+
+1. Click **[!UICONTROL Cancel crop]** to discard the changes.
+
+   ![Accept crop and Cancel crop buttons](./assets/templates/stretch-to-fit-resize.png)
+
+1. Alternatively, specify the exact **[!UICONTROL Stretch Width]** and **[!UICONTROL Stretch Height]** values in the Properties panel.
+
+When you accept the changes, the image is re-rendered to fill the layer dimensions using the specified width and height.
+
+If you disable **[!UICONTROL Stretch To Fit Image]**, the image is re-rendered without the stretch modifiers and its original aspect ratio is restored. The image is scaled to the last saved **[!UICONTROL Stretch Height]**, with the width adjusted according to the image's natural aspect ratio.
+
+#### Use Stretch To Fit with the delivery URL
+
+When the template is requested using its delivery URL, the image is rendered according to the **[!UICONTROL Stretch To Fit Image]**, **[!UICONTROL Stretch Width]**, and **[!UICONTROL Stretch Height]** settings configured for the image layer.
+
+You can use the delivery URL the same way as other [!DNL Dynamic Media] template delivery URLs.
+
 ### Add text layers to the canvas{#add-text-to-the-canvas}
 
 Execute these steps to add text layers to the canvas:
@@ -169,7 +226,14 @@ Execute these steps to add text layers to the canvas:
 
 >[!NOTE]
 >
->The Design canvas and Preview/Delivery output may show minor differences in text position or size due to differences in rendering technologies.
+>The Design canvas, Preview output, and Delivery output may show minor differences in text position or size due to differences in how the content is rendered.
+
+
+>[!NOTE]
+>
+>Dynamic Media template text layers that use the `textPs=` rendering command do not support right-to-left (RTL) text flow. When Arabic text is combined with English product names or URLs in the same text layer, the text might appear in the incorrect order, or punctuation might be misplaced. Right-aligning the text does not resolve this limitation. It can affect both the editor preview and the final generated asset.
+>
+>As a workaround, arrange the text segments in the desired visual order and validate the final generated asset to verify the character order and punctuation. This workaround does not provide full bidirectional text support and might not be practical for large numbers of localized strings.
 
 ![best customizable banners](./assets/templates/add-text-layer.png)
 
@@ -224,10 +288,6 @@ Execute these steps to add a countdown timer layer to the canvas:
 
 See the [**[!UICONTROL Properties Panel]**] to reposition, resize, rotate, delete, or parameterise the countdown timer layer.
 
->[!NOTE]
->
->The Countdown Timer layer is currently available only in Beta environments. This feature may not be available in all environments.
-
 ### Edit or delete a layer {#edit-or-delete-a-layer}
 
 Execute these steps to edit or delete a canvas layer:
@@ -270,15 +330,65 @@ Configure the countdown timer settings using the **[!UICONTROL Timer]** section 
 
 Use the following options:
 
-* **Days, Hours, Mins** – Enable or disable specific time units to control which values appear in the countdown timer. When enabled, the selected units display in the countdown timer.
+* **Days, Hours, Mins, Secs** – Enable or disable specific time units to control which values appear in the countdown timer. When enabled, the selected units display in the countdown timer.
 
 * **Suffix** – Specify additional text displayed after each enabled time unit. For example, you can use suffix values such as "d", "h", or "m", or separators such as ":" to customize the display format.
 
-* **End Time (Epoch)** – Specifies the exact expiration date and time of the countdown timer. The countdown updates dynamically and displays the remaining time until the specified end time.
+* **End Time (Epoch)** – Specifies the exact expiration date and time of the countdown timer. The countdown updates dynamically and displays the remaining time until the specified end time. 
+      
+    The countdown timer automatically updates on the screen as time elapses. The remaining time is displayed in hours, minutes, and seconds without requiring a manual page refresh.
 
 * **Fallback Text** – Specifies the text displayed after the countdown timer reaches its expiration time. For example, you can display a message such as "Time's up!" or "Offer expired".
 
 To make the countdown timer layer clickable, use the **[!UICONTROL CTA]** section and specify a destination URL.
+
+### Configure a default image in a Dynamic Media template {#configure-default-image}
+
+The Default Image feature lets you specify a fallback image for a [!DNL Dynamic Media] template. If an image referenced in a delivery request cannot be found, [!DNL Dynamic Media] uses the configured default image according to the applicable `DefaultImageMode` configuration.
+
+The default image is configured at the template level.
+
+#### Set a default image {#set-default-image}
+
+To configure a default image for a [!DNL Dynamic Media] template:
+
+1. Open the template in the [!DNL Dynamic Media] Template Editor.
+1. Select the **Default Image** icon in the right-side toolbar.
+1. In the **Default Image** panel, select the browse/search icon to open the asset picker.
+
+   ![Default Image icon in the Dynamic Media Template Editor](./assets/templates/default-image-icon.png)
+
+1. Browse eligible Image assets with Published Dynamic media sync status.
+
+1. In the **Set Default Image** dialog, confirm your selection.
+
+    ![Confirmation dialog for removing the default image](./assets/templates/remove-default-image-confirmation.png)
+1. Select **Save** in the template editor to save the change.
+
+After you save the template, the selected image is included through the `defaultImage` parameter in the template preview and copied delivery URL. Unsaved selections are not used.
+
+#### Replace or remove a default image {#replace-remove-default-image}
+
+To replace the configured default image:
+
+1. Open the Default Image panel.
+1. Select **Browse assets** and choose another eligible image.
+1. Confirm your selection and select **Save**.
+
+To remove the configured default image:
+
+1. Open the **Default Image** panel and select the delete icon.
+1. In the **Remove default image** dialog, select **Remove** to confirm the action.
+1. Select **Save** in the template editor to save the change.
+
+After saving, the editor no longer adds the template-specific `defaultImage` parameter. However, a catalog-level default image might still apply.
+
+#### Default image behavior and limitations {#default-image-behavior-limitations}
+
+The behavior of a default image depends on the Dynamic Media `DefaultImageMode` configuration:
+
+* **Mode 0:** The default image replaces the entire requested composition when an image is missing.
+* **Mode 1:** The default image replaces all broken or missing image layers
 
 ### Parameterise layers {#parameterise-a-layer}
 
@@ -379,6 +489,158 @@ Follow these steps to assign the same name to the [!UICONTROL Hide] parameters (
 1. Click **[!UICONTROL Save]** to group the layers. 
 1. Execute step 3 and then 4 in the [**[!UICONTROL Preview and Publish]**](#preview-and-publish-template-and-copy-template-deliver-url) section to see your changes. 
 
+## Create a Dynamic Media template from a PSD {#create-a-dynamic-media-template-from-a-psd}
+
+The PSD to Dynamic Media Template conversion feature lets you generate an editable Dynamic Media template from a Photoshop (PSD) file in AEM as a Cloud Service. The generated template is available in the Dynamic Media Template Editor for further editing.
+
+Before you convert a PSD, make sure the required Photoshop settings are enabled in Dynamic Media General Settings.
+
+### Before you begin {#before-you-begin}
+
+Before you convert a PSD file to a Dynamic Media template, make sure the required Photoshop settings are enabled in Dynamic Media General Settings.
+
+1. In AEM, go to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Dynamic Media General Settings]**.
+1. Select the **[!UICONTROL Photoshop]** tab.
+1. Enable the following options:
+   * **[!UICONTROL Maintain Layers]**
+   * **[!UICONTROL Create Template]**
+   * **[!UICONTROL Extract Text]**
+1. Select **[!UICONTROL Save]**.
+![Dynamic Media General Settings](./assets/templates/dynamic-media-general-setting.png)
+
+Once these settings are enabled, you can import a PSD file to generate a Dynamic Media template.
+
+### Convert a PSD to a Dynamic Media template {#convert-a-psd-to-a-dynamic-media-template}
+
+1. In AEM, select **[!UICONTROL Dynamic Media Templates]**.
+1. Navigate to the folder where you want to import the PSD file.
+1. Select **[!UICONTROL Import PSD]**.
+![Import PSD](./assets/templates/import-psd.png)
+
+1. In the **Import PSD** dialog, browse for and select the `.PSD` file you want to convert.
+1. Verify the destination **Path**.
+1. Select **[!UICONTROL Import]**.
+![Import PSD Tab](./assets/templates/import-psd-tab.png)
+
+The PSD file is processed and a Dynamic Media template is generated.
+
+The generated template is displayed in **[!UICONTROL Dynamic Media Templates]**.
+
+By default, the generated template name follows this format:
+
+`<PSD-file-name>_template`
+
+You can open the generated template in the Dynamic Media Template Editor for further editing.
+
+>[!NOTE]
+>
+>If the PSD file is uploaded in Admin view, the template is created in the same folder in Admin view.
+
+### Resolve missing fonts {#resolve-missing-fonts}
+
+If a PSD contains fonts that are not available in Dynamic Media, the generated Dynamic Media template is displayed with a **[!UICONTROL Missing Fonts]** indicator. The template preview is not rendered until the missing font issue is resolved.
+
+![Edit template fonts](./assets/templates/edit-template.png)
+
+>[!NOTE]
+>
+>Text layers that have missing fonts are rendered using Adobe Sans F2 until the missing fonts are resolved.
+
+You can resolve missing fonts by adding the original font to Dynamic Media or replacing it with an available font.
+
+To resolve a missing font:
+
+1. Select the **[!UICONTROL Missing Fonts]** indicator.
+1. Select **[!UICONTROL Edit]** to open the template.
+1. In the Template Editor, select the missing-font alert to view the unavailable fonts.
+1. Choose one of the following options:
+
+    * To use the original font, upload the missing font to AEM and make it available for Dynamic Media. Once the font is available in Dynamic Media, it will available in editor for replacement.
+
+    * To use an available font, select a font from the automatically populated list in the Replacement column, then select [!UICONTROL Replace].
+
+1. If multiple occurrences of the same missing font exist, select **[!UICONTROL Replace all]**.
+1. Save the template.
+
+![Missing fonts](./assets/templates/missing-font.png)
+
+After the missing font is added or replaced, the template preview is rendered.
+
+### Re-extract a template from a PSD {#re-extracting-a-template-from-a-psd}
+
+Reprocessing a PSD that already has a generated template does not create a new template or update the existing template.
+
+To generate a new template from the PSD:
+
+1. Delete the existing generated template.
+1. Reprocess the original PSD.
+
+A new Dynamic Media template is then generated.
+
+### PSD file recommendations {#psd-file-recommendations}
+
+For best results when converting a PSD file to a Dynamic Media template, follow these recommendations:
+
+* **Use a single page or artboard:** PSD to Dynamic Media template conversion supports a single page or artboard. PSD files with multiple pages or artboards may result in an incomplete or incorrect template.
+
+* **Avoid using `+` in image layer names:** Avoid using the `+` character in image layer names. For example, use `my_sample_psd_file` instead of `my_sample+psd_file`. Using the `+` character in an image layer name may cause the image layer to be converted incorrectly and can result in image synchronization issues.
+
+* **Apply rotation at the layer level:** For image and text layers that require rotation, apply rotation at the individual layer level rather than to the overall PSD composition. For text layers, use layer-level rotation only; avoid **Vertical Text** or other text alignment options, as they may cause inaccurate layer rendering in the generated Dynamic Media template.
+
+### Impact of PSD file operations {#impact-of-psd-file-operations}
+
+Copying, moving, or deleting the original PSD does not affect the generated Dynamic Media template. The generated template is managed separately.
+
+If the template is no longer required, delete it manually. Deleting the original PSD does not automatically delete the generated template.
+
+### Download generated templates {#downloading-generated-templates}
+
+Generated Dynamic Media templates currently do not support the **[!UICONTROL Download]** option.
+
+### Image assets used in the PSD {#image-assets-used-in-the-psd}
+
+Image layers used in the PSD are extracted and displayed in the generated Dynamic Media template.
+
+However, the individual images extracted from the PSD are not visible as separate assets in AEM Assets. Therefore, the extracted images cannot be independently managed in AEM Assets.
+
+### Gradient layers {#gradient-layers}
+
+The Dynamic Media Template Editor does not support Photoshop gradient layers or gradient fill layers.
+
+If a PSD contains gradient layers:
+
+* The generated template may not exactly match the original PSD.
+* In some cases, the gradient may be converted to an image.
+* The final appearance may differ from the original design.
+
+For best results, avoid using gradient or gradient fill layers in PSD files intended for Dynamic Media Template conversion.
+
+### Smart Objects with shapes {#smart-objects-with-shapes}
+
+PSD files containing Smart Objects combined with shapes may not be extracted accurately.
+
+For example, an image placed inside a shape using a Smart Object may appear differently in the generated template.
+
+For best results, avoid complex combinations of Smart Objects and shapes in PSD files intended for template conversion.
+
+### Masking layers {#masking-layers}
+
+PSD files that use masking layers may not always be extracted accurately. As a result, the generated Dynamic Media template may look different from the original PSD design.
+
+For best results, avoid complex masking configurations in PSD files intended for template conversion.
+
+### Maximum layer limit {#maximum-layer-limit}
+
+The Dynamic Media Template Editor supports up to **100 layers** in a template.
+
+If a PSD contains more than 100 layers, the generated template may not fully match the original PSD. Layers beyond the supported limit are not rendered in the Template Editor.
+
+For best results, use PSD files containing **100 layers or fewer** when converting them to Dynamic Media Templates.
+
+### Use rasterized images {#use-rasterized-images}
+
+If possible, use rasterized images in the PSD to reduce the number of layers. This may helps in smoother opening/editing in the Dynamic Media Template Editor.
+
 ## Preview and publish the Dynamic Media template to copy the delivery URL {#preview-and-publish-dynamic-media-template-and-copy-template-deliver-url}
 
 Execute these steps to preview and publish the template and copy the delivery URL:
@@ -470,6 +732,12 @@ Watch this step by step video to learn how to add a CTA link to a template layer
 
 >[!VIDEO](https://video.tv.adobe.com/v/3457616)
 
+## Manage Dynamic Media templates in Adobe Journey Optimizer {#dynamic-media-templates-ajo-integration}
+
+Add your Dynamic Media template in Journey Optimizer and update your media content whenever needed. You can now incorporate personalization fields into your media, allowing you to create more customized and engaging content within Journey Optimizer.
+
+For more information, see [Manage Dynamic Media templates in Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/aem-dynamic#dynamic-media-template).
+
 ## Important points to note {#important-points-to-note}
 
 * After creating a template with parameterized image layers for dynamic updates, ensure that the images intended for future updates share the same dimensions as the parameterized images. This ensures the images fit perfectly within the layers without overflowing or leaving empty spaces. Currently, the template does not support automatic dimension adjustments to fit images into the layers.
@@ -481,5 +749,5 @@ Watch this step by step video to learn how to add a CTA link to a template layer
 
 ## See also
 
-* Explore [[!DNL Dynamic Media] and its capabilities](/help/assets/dynamic-media/dynamic-media.md)
-* Explore [[!DNL Dynamic Media] with OpenAPI capabilities](/help/assets/dynamic-media-open-apis-overview.md)
+* Explore [[!DNL Dynamic Media] and its capabilities](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+* Explore [[!DNL Dynamic Media] with OpenAPI capabilities](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)

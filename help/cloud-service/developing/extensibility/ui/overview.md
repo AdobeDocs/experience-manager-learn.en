@@ -10,13 +10,17 @@ recommendations: noDisplay
 last-substantial-update: 2023-06-02T00:00:00.000Z
 exl-id: 73f5d90d-e007-41a0-9bb3-b8f36a9b1547
 duration: 50
-TQID: https://experienceleague.adobe.com/LFMvVvxhq4A7c7ey492HnR2M0o2hTxLKNFPlowSs3NU
+TQID: 'https://experienceleague.adobe.com/JLtbgWZ0EBTfOaKPL9ABn26kMHZzT5dO-rvpuz-W0Mg'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -296,6 +296,7 @@ index: true
   + [Certify Documents](document-services/certifying-documents-aem-forms-tutorial.md)
   + [Assemble Form Attachments](document-services/assemble-form-attachments.md)
   + [Useful Utility Services](document-services/useful-utility-services.md)
+  + [Dynamic QR Code within PDF Notice Generation](document-services/notice-gen-w-qrcode.md) 
 + Forms Designer{#forms-designer}
   + [Design view](forms-designer/design-view.md)
   + [Create your first form](forms-designer/create-simple-form.md)

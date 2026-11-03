@@ -9,10 +9,13 @@ level: Beginner
 thumbnail: xx.jpg
 doc-type: Catalog
 exl-id: 4f72d010-f488-490a-83fb-38ff1b1e8183
-TQID: https://experienceleague.adobe.com/ivYuDJ9pVBBooVTkE0RaVtlXuItn0bSaBzb3LXfHfcE
+TQID: 'https://experienceleague.adobe.com/gTMgV5X2khAUxR9UoPy5V0jY1VPQWkP-OyDuGjgv-N4'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

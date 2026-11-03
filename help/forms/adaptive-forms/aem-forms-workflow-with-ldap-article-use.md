@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 2e9754ff-49fe-4260-b911-796bcc4fd266
 last-substantial-update: 2021-09-18T00:00:00.000Z
 duration: 111
-TQID: https://experienceleague.adobe.com/dgiFI5F0Zzt-n8CxLXHF-YezJGS6SZHxdoN2AnK1VEQ
+TQID: 'https://experienceleague.adobe.com/Suqj4O7FNnbVfDlYZaIE9oCtHE-AFhrMBhChB2-nvL4'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -20,6 +20,13 @@ feature_v2:
     internal-label: Integrations
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -31,6 +38,8 @@ topic_v2:
     internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Using LDAP with AEM Forms Workflow 
 

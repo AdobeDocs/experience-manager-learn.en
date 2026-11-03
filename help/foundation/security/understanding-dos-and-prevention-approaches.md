@@ -11,10 +11,18 @@ duration: 75
 last-substantial-update: 2024-03-30T00:00:00.000Z
 jira: KT-15219
 exl-id: 1d7dd829-e235-4884-a13f-b6ea8f6b4b0b
-TQID: https://experienceleague.adobe.com/Z7Cv0RVvbB9ym6-ub3f5JXxhJPpLnJRFRrZZNgcr33o
+TQID: 'https://experienceleague.adobe.com/EhUntk-F1nG5DNCGUzlLcWedQM8T1uBtnpb-AaFADyU'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
+subfeature_v2:
+  - id: c35bc059-fd80-4a01-91a6-e48da3c76758
+    internal-label: Security practices
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

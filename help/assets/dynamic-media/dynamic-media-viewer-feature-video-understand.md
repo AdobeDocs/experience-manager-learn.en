@@ -10,7 +10,7 @@ level: Intermediate
 doc-type: Feature Video
 exl-id: db4fc561-2368-4df8-9b02-fc08afa00805
 duration: 254
-TQID: https://experienceleague.adobe.com/Rh5xn8SkMvlEmA9QOzkhuU-Iz2VwXH7SkjQbEkLYL0k
+TQID: 'https://experienceleague.adobe.com/9owLm24PNvH-PKJinSnN5UndP-o3RfLUOxHe55MZmsw'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,11 +21,15 @@ feature_v2:
     internal-label: Content management
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
 subfeature_v2:
   - id: d17d085a-e808-49dd-b9a6-85a996b999bd
     internal-label: Viewers
   - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
     internal-label: Viewer presets
+  - id: afe09f80-87de-4606-96de-7aecd50f1a65
+    internal-label: Image profiles
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

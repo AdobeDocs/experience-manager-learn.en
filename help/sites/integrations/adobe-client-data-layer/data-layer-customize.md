@@ -12,7 +12,7 @@ last-substantial-update: 2022-09-20T00:00:00.000Z
 doc-type: Tutorial
 exl-id: 80e4cf2e-dff6-41e8-b09b-187cf2e18e00
 duration: 452
-TQID: https://experienceleague.adobe.com/CTIP9TEejGztRHOtrR15hhqWbpWGx4K6HkDkH-u2b1I
+TQID: 'https://experienceleague.adobe.com/54Gk1YWIz--XbQoPP-STNw3feP-4Z33pwASk0KhHj90'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -29,6 +29,14 @@ feature_v2:
     internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
     internal-label: Adobe Client Data Layer
@@ -36,12 +44,16 @@ subfeature_v2:
     internal-label: Java Content Repository
   - id: cd7050e9-a158-4a12-a0ee-0be3ebb0d687
     internal-label: HTML Template Language
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

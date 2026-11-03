@@ -12,10 +12,16 @@ recommendations: noDisplay, noCatalog
 last-substantial-update: 2024-03-13T00:00:00.000Z
 jira: KT-15104
 exl-id: ac9583fc-26f8-4107-ac8d-1c828b242112
-TQID: https://experienceleague.adobe.com/wVsLRWo2NhszS6aLu2K21rLUwxLGTBipUV9FmrSw0Xc
+TQID: 'https://experienceleague.adobe.com/QPwooJExk0uBdWdZFZrqukRKelXQZKziUpxpaUap8Tg'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,6 +36,8 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Query indexes and Excel formulas
 

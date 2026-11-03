@@ -10,13 +10,15 @@ topic: Integrations
 jira: KT-14501
 duration: 39
 exl-id: 6a3af59d-f916-451f-887c-0f4580cbcb3e
-TQID: https://experienceleague.adobe.com/FTeB03a6qKzv2dyjRJpIDBNDG9jBg3vD3pc4pUVJmss
+TQID: 'https://experienceleague.adobe.com/DA9OB9jE6XPNJjO-un-ks9isacpB7U-S9G4Lq7JSjNk'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

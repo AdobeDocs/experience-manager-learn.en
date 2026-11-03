@@ -28,3 +28,33 @@
 >
 >* [The Universal Editor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/authoring) for visually editing headless content.
 >* [The Content Fragment Editor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-managing) for form-based editing of headless content.
+
+
+## AEM MCP Server {#aem-mcp-server-install}
+
+The AEM MCP Server can be added to your AI client for seamless integration with various AI tools and platforms. Choose your client below.
+
+>[!BEGINTABS]
+
+>[!TAB AEM MCP Server URL]
+
+Register the following URL in any MCP-compatible IDE or chat application:
+
+```
+https://mcp.adobeaemcloud.com/adobe/mcp/aem
+```
+
+>[!TAB CX Enterprise Coworker]
+
+[Coworker](/help/cloud-service/coworker/aem-in-coworker.md) is Adobe's conversational AI for CX Enterprise, with native support for AEM.
+
+>[!TAB OpenAI ChatGPT]
+
+[Install the AEM plugin](https://chatgpt.com/plugins/plugin_asdk_app_6a35d3c1258081919c084a1fd22cd02d) from the ChatGPT plugin store, or follow the [step-by-step setup guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-chatgpt).
+
+>[!TAB Anthropic Claude]
+
+[Add the AEM connector](https://claude.ai/settings/connectors) from Claude's connector directory, or follow the [step-by-step setup guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude).
+
+>[!ENDTABS]
+

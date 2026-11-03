@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 duration: 700
 exl-id: 7c62a17e-e79b-4b8e-a363-0fb1681b7efe
-TQID: https://experienceleague.adobe.com/zKHy1qI15vsaav2MoOG8GcYjQJ4oMiEXo5DxFoDvFXI
+TQID: 'https://experienceleague.adobe.com/xuc1hcjWbG5HMD2MTiHMZRjlQmoUha9o2q7Hy1jp4kI'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -22,6 +22,10 @@ feature_v2:
     internal-label: APIs
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

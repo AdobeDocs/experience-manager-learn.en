@@ -12,7 +12,7 @@ last-substantial-update: 2026-01-05T00:00:00.000Z
 jira: KT-15986
 thumbnail: KT-15986.jpeg
 exl-id: b48556f5-cc51-4f4d-b02d-de2909e51b02
-TQID: https://experienceleague.adobe.com/yWtxiOHnB522hxtjrzuQ9gKtbpWkIN69gDoFA-OgzXM
+TQID: 'https://experienceleague.adobe.com/U1SmjxTd1-gyoRXekeUetCXDxBRHM1Ot3154Xfvcg90'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -25,6 +25,10 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop

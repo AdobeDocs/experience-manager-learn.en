@@ -11,13 +11,19 @@ thumbnail: KT-11862.png
 last-substantial-update: 2023-02-15T00:00:00.000Z
 exl-id: 1d1bcb18-06cd-46fc-be2a-7a3627c1e2b2
 duration: 792
-TQID: https://experienceleague.adobe.com/BaJ6-Y-nptoF-VIWJFoqc7IEjLthN-16oI5yL8HyiXg
+TQID: 'https://experienceleague.adobe.com/MTfB0lmYQEoUBTUpwWtt9TAeM4ov-OnDxHLVvj6eqas'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

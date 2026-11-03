@@ -12,12 +12,18 @@ jira: KT-13556
 thumbnail: 3420950.jpeg
 exl-id: 5af2456b-5255-40b3-a6a5-b953c8d76fc9
 duration: 174
-TQID: https://experienceleague.adobe.com/v4Mbg5sfUGWxaVJPd82RqgW6-SEhcmUzivgTKCvqsko
+TQID: 'https://experienceleague.adobe.com/tnpR-alw-N1it-3rkFKMAqSfAXE1wJ7VepSLuPRhE8I'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+    internal-label: Administration
+subfeature_v2:
+  - id: e9db7c79-8f65-4281-a439-c9049296d903
+    internal-label: Content Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

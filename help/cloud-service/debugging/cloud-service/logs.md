@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 exl-id: d0bd64bd-9e6c-4a28-a8d9-52bb37b27a09
 duration: 229
-TQID: https://experienceleague.adobe.com/6lUCNtKHK7Q2Xg8q0LRm0AR7FL3rCiqseVn9XBoD-cI
+TQID: 'https://experienceleague.adobe.com/H6GeZsXYtmkzmyh8WHXcMQJjKEnvL-4BjAv4y8K5fvg'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -20,6 +20,10 @@ feature_v2:
     internal-label: APIs
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: ffa4a726-ff13-52a1-83a8-2872ed44316b
+    internal-label: Log Files
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

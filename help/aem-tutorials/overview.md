@@ -3,7 +3,7 @@ title: AEM Tutorials
 description: A collection of videos and tutorials for Adobe Experience Manager.
 exl-id: fe83a2dc-b43a-4e71-9b03-d31ec4f6a6ff
 doc-type: Catalog
-TQID: https://experienceleague.adobe.com/Xef6x6d5jE1UeF22KXoWdv2E2P5AkK99bkwNIGwxZxM
+TQID: 'https://experienceleague.adobe.com/mxjhIC2EK6EvBPpY26ICcAXTUECrl8PJhdEsGx1QtSA'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

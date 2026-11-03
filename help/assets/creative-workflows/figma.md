@@ -11,7 +11,7 @@ duration: 215
 last-substantial-update: 2025-09-02T00:00:00.000Z
 jira: KT-18994
 exl-id: d362378c-5c52-4e4c-81fa-dbc510199239
-TQID: https://experienceleague.adobe.com/w8MRacOHdvSutflh73spYwj7P-BGAy5WnrjI8FLhtjs
+TQID: 'https://experienceleague.adobe.com/eA94AvFmTvBAUaSz51BGD6SW6ZFOhMuTujEm32HicqY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -24,6 +24,8 @@ feature_v2:
     internal-label: Integrations
   - id: e17747bc-9b7b-44e6-a443-f54229a02620
     internal-label: Integrations
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

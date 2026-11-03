@@ -10,7 +10,7 @@ topic: Integrations
 jira: KT-14794
 exl-id: 291a3a19-7227-42e0-a4eb-09f4704fb966
 duration: 62
-TQID: https://experienceleague.adobe.com/mByZ1G8X4Tbzu-EZe19bh4qThDy-VOg9xEdVGy-Pnz4
+TQID: 'https://experienceleague.adobe.com/N7-H6KsXo1R21LgyUdAOfNDTboICmX6AycERcGmDe7g'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -21,6 +21,11 @@ feature_v2:
     internal-label: Integrations
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

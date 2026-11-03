@@ -12,13 +12,22 @@ jira: KT-13014
 thumbnail: KT-13014.jpeg
 exl-id: c6bb9d6d-aef0-42d5-a189-f904bbbd7694
 duration: 352
-TQID: https://experienceleague.adobe.com/L-x2pJntQnsh5aLGtCGVQdyAESmhnpYtQ-QDBxJKquM
+TQID: 'https://experienceleague.adobe.com/axCnCajOv3tYoytJhC-FxHKUS6NZ4QwFFi1w2IPN6kU'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
+subfeature_v2:
+  - id: b6950f16-0067-4287-be9d-5a68c8748b29
+    internal-label: OSGI configuration
+  - id: d67d8e88-3117-5ac1-9c74-ca1c06ef5071
+    internal-label: HTL or HTML Template Language
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

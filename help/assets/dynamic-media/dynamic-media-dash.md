@@ -11,7 +11,7 @@ duration: 163
 last-substantial-update: 2024-05-09T00:00:00.000Z
 jira: KT-15487
 exl-id: db65da7a-56dd-4edb-a6e4-a0c55402c55e
-TQID: https://experienceleague.adobe.com/jlquC45l9Kqa4RHDtyX1o-I5Nw0uReogZEwOe--5hzM
+TQID: 'https://experienceleague.adobe.com/aKBT1QJg92f5zwbVX2p15-CkTsWqHOJf51g0bbeDOU4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Content management
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop
@@ -31,6 +33,8 @@ subfeature_v2:
     internal-label: Video encoding
   - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
     internal-label: Viewer presets
+  - id: afe09f80-87de-4606-96de-7aecd50f1a65
+    internal-label: Image profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

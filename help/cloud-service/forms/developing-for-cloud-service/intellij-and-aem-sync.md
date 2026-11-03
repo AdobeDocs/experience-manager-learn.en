@@ -10,10 +10,13 @@ topic: Development
 jira: KT-8844
 exl-id: 9a7ed792-ca0d-458f-b8dd-9129aba37df6
 duration: 92
-TQID: https://experienceleague.adobe.com/irt7Ij6q0A5NG361ZZeTu2s0mXJxdZfsaPtzYfm2G2Y
+TQID: 'https://experienceleague.adobe.com/VYCdhycMnNohDqvDQ7w21V8JZJ11GejqSmd2a2rITFE'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

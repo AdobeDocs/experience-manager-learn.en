@@ -10,7 +10,7 @@ jira: KT-9442
 thumbnail: 339073.jpg
 exl-id: 62e807b7-b1a4-4344-9b1e-2c626b869e10
 duration: 781
-TQID: https://experienceleague.adobe.com/JVT-sPHYEt-U9SSOW2Uck0u7r-pc3JOqIaQSJEZdRFY
+TQID: 'https://experienceleague.adobe.com/DRrsFVFn5NbwSrIgR87NGav0tGxhfH-Kb5NTDlJgSPs'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -19,6 +19,10 @@ product_v2:
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

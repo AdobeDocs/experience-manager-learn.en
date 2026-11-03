@@ -9,12 +9,21 @@ level: Intermediate
 exl-id: abb74d44-d1b9-44d6-a49f-36c01acfecb4
 last-substantial-update: 2020-07-07T00:00:00.000Z
 duration: 86
-TQID: https://experienceleague.adobe.com/JEYXPIzMERPYLlzS-ZvE-qAkoOIvq24DY4MonfN4g2Q
+TQID: 'https://experienceleague.adobe.com/8ZUpo2qcrj7lMmBtewhS-ouN6filk-3BfF-ySZJQTe4'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 1af3c3d4-88d7-5e0f-813c-eb70824bfcdd
+    internal-label: Forms Designer
+  - id: 794033c1-20ea-55a4-a8a6-b1107e12deb0
+    internal-label: Designer
+  - id: 9cc5e18e-2002-58a1-befa-285122cf6653
+    internal-label: Output Service
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

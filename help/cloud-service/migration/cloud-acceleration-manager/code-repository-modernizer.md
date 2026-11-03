@@ -10,10 +10,15 @@ jira: KT-8663
 thumbnail: 336694.jpeg
 exl-id: df5e0e46-0255-4a77-b85d-b6520c871879
 duration: 183
-TQID: https://experienceleague.adobe.com/ezOFk-vpX2TVIOc5Fu7d-krMnCF5QAWnwkZiWBttvYc
+TQID: 'https://experienceleague.adobe.com/88Js3lNwUhQPZi8YLvP3fHOxofOs9PrM5FvFNHloiTY'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

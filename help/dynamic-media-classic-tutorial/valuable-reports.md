@@ -8,7 +8,7 @@ level: Intermediate
 doc-type: Tutorial
 exl-id: c3fbfb0b-3222-46ff-9248-dea70ce85a23
 duration: 61
-TQID: https://experienceleague.adobe.com/AE0BfLcqqvbjSkcoLKIfi8N9Shs8hKRqcxb2aRpRTKI
+TQID: 'https://experienceleague.adobe.com/B1P7rg0jck-mg5Y23qhCS0r-YDbnV3aZDOBga51Ainw'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -30,6 +30,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Valuable Reports for Administrators {#valuable-reports}
 

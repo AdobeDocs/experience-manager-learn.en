@@ -7,8 +7,24 @@ version: Experience Manager 6.4, Experience Manager 6.5
 topic: Development
 role: Developer
 level: Beginner
-last-substantial-update: 2021-06-09
+last-substantial-update: 2021-06-09T00:00:00.000Z
 duration: 177
+TQID: 'https://experienceleague.adobe.com/dhjj-UahryRmxgZlBjTmOEkhNX3tuJ3QIMJLnCm0G5c'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 
 # Create your first OSGi bundle

@@ -12,7 +12,7 @@ jira: KT-14468
 thumbnail: 3425702.jpeg
 duration: 119
 exl-id: a24123aa-486a-429d-bf36-b5f2873bb55a
-TQID: https://experienceleague.adobe.com/z5F9zs7l8VScBhH5YyfizscxtF9PGM-gOHz48cmdjzk
+TQID: 'https://experienceleague.adobe.com/Xf2LSRXmSuF80t-XH-37B2TPsiqc2wanEsMYVtzLP8k'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -30,6 +30,8 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Blocks and autoblocks
 

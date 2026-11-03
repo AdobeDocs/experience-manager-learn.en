@@ -11,7 +11,7 @@ thumbnail: KT-10830.jpg
 exl-id: 394792e4-59c8-43c1-914e-a92cdfde2f8a
 last-substantial-update: 2024-03-22T00:00:00.000Z
 duration: 185
-TQID: https://experienceleague.adobe.com/yaCIit-0igJ7rcokK3ZdM411M2lMfB2nnW5chnULkPc
+TQID: 'https://experienceleague.adobe.com/H4Egq1d85pA7MUA5GQUd7y8OA7L73n5BAQDe9N9MAAQ'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -20,6 +20,12 @@ product_v2:
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 523b1ccd-901e-5e3b-9fa7-f3dfd82463d5
+    internal-label: Configuring
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

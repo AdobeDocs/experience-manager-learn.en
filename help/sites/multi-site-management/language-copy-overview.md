@@ -11,7 +11,7 @@ role: User
 level: Beginner
 exl-id: 9085d60e-0e88-46ab-8f1f-4999063e48d2
 duration: 592
-TQID: https://experienceleague.adobe.com/JdMa1M5t4LIMpAT1hHp6fwkhZ8-OwMEhe25EjMGZCNU
+TQID: 'https://experienceleague.adobe.com/JZ4CVFhmH66pAQ3k4euhIHRz0wx-mSvPZazojmlSiiM'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites

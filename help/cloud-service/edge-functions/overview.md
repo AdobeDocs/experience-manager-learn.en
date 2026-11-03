@@ -9,13 +9,39 @@ level: Intermediate
 doc-type: Article
 jira: KT-21733
 thumbnail: KT-21733.jpeg
-last-substantial-update: 2026-07-15
+last-substantial-update: 2026-07-15T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/JWQwuKFuoumWTIacqmTv84PFXtOwLCihQandHuk-1uc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # AEM Edge Functions
-
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
 
 AEM Edge Functions let you run JavaScript on Adobe CDN at the edge, close to your visitors and without a round trip to origin. They work on AEM as a Cloud Service and Edge Delivery Services sites with Adobe Managed CDN.
 
@@ -201,3 +227,5 @@ For the **complete list of limitations**, see [Limitations](https://experiencele
 - [Traffic Filter and WAF Rules](../security/traffic-filter-and-waf-rules/overview.md)
 - [CDN configuration in AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic)
 - [Use config pipelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline)
+- [Edge Delivery Transformer example](https://github.com/adobe/aem-edge-functions-examples/blob/main/examples/edge-delivery-transformer/README.md)
+- [Publish Delivery Transformer example](https://github.com/adobe/aem-edge-functions-examples/blob/main/examples/publish-delivery-transformer/README.md)

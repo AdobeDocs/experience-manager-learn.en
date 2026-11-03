@@ -7,13 +7,17 @@ topic: Development
 last-substantial-update: 2024-11-01T00:00:00.000Z
 duration: 60
 exl-id: 13dcc312-ca66-4bfc-af31-516b543c61b0
-TQID: https://experienceleague.adobe.com/zDD--lYetIvLfa6MRy7wLEr7oKDIq3U8DMFicHtMCPg
+TQID: 'https://experienceleague.adobe.com/NzIwzY1THPDkPKW2EHatgQYue87tHL1n7KNpFsDaizw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

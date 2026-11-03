@@ -7,6 +7,10 @@ version: Experience Manager 6.5
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 duration: 144
+TQID: 'https://experienceleague.adobe.com/T44EvQte7-fXfPjwoft6sHAIxT-h76eDyD3gPw3v1mI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Creating Acroform

@@ -1,18 +1,17 @@
 ---
 title: Basic Operations
-description: Learn about the basic operations of AEM Assets including how to create folders, as well as upload, copy, move and delete assets.
+description: Learn the basic operations of AEM Assets, including how to create folders, upload assets, and copy, move, edit, or delete them, in both the Assets view and the Admin view.
 feature: Asset Management
 role: User
 level: Beginner
 version: Experience Manager as a Cloud Service
-jira: KT-4299
+jira: TODO
 thumbnail: 32044.jpg
 topic: Content Management
-last-substantial-update: 2021-09-24T00:00:00.000Z
+last-substantial-update: 2026-09-09T00:00:00.000Z
 doc-type: Feature Video
-exl-id: d5b25fcc-4c8d-4720-a14e-eaf768873415
-duration: 260
-TQID: https://experienceleague.adobe.com/Na-vk8r07exNrwuOZQ9p4iVNQMtfIKezQvZY-QmAbrY
+duration: 1142
+TQID: 'https://experienceleague.adobe.com/rTCj3mG-J80jeagl6nmhyS3Y4fKlNL6U9e6FFdTiYjA'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -23,6 +22,10 @@ feature_v2:
     internal-label: Content management
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
   - id: e17747bc-9b7b-44e6-a443-f54229a02620
     internal-label: Integrations
 role_v2:
@@ -37,8 +40,36 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Basic Operations
+# Basic operations {#basic-operations}
 
-Learn about the basic operations of AEM Assets including how to create folders, as well as upload, copy, move and delete assets.
+A shared asset library only stays useful if people can organize and manage files without confusion. AEM Assets gives you folders, drag-and-drop upload, and simple tools to copy, move, rename, or delete items, backed by a trash so mistakes are easy to undo. This page covers these core actions in both the Assets view and the Admin view.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+## Create, upload, and organize assets
+
+Build a folder structure, upload assets by drag and drop, and rename, move, or copy items with the action bar. Deleted items go to the trash first, so you can restore them if needed.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502545/?learn=on&enablevpops)
+
+## Edit images
+
+Open an asset to resize it, remove its background, crop it, or convert its format with Adobe Express, right inside AEM Assets.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
+
+## Trash and recovery
+
+AEM Assets moves a deleted file to the trash instead of removing it right away, so a mistake doesn't cost you the file. This video shows how to find an asset in the trash and restore it to its original location.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3503203?learn=on)
+
+>[!TAB Admin view]
+
+In the Admin view, this video shows how to create folders, upload assets, and organize them in the classic AEM interface. It covers how to build a folder structure, upload files, and use the action bar to copy, move, rename, or delete items.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32044?quality=12&learn=on)
+
+>[!ENDTABS]

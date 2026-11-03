@@ -11,12 +11,18 @@ last-substantial-update: 2023-05-12T00:00:00.000Z
 jira: KT-13241
 exl-id: aac044b2-903a-47c7-8461-824c43902972
 duration: 59
-TQID: https://experienceleague.adobe.com/PemkidsXL-6C5FTvdKRNl7NoiLW4Ws5REr6QpteSG18
+TQID: 'https://experienceleague.adobe.com/ARML-tV65Dirj5-G4dqnuKnSMMy0YU8EwM4dm-D8f0A'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+    internal-label: Administration
+subfeature_v2:
+  - id: e9db7c79-8f65-4281-a439-c9049296d903
+    internal-label: Content Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

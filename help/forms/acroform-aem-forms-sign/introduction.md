@@ -7,6 +7,15 @@ version: Experience Manager 6.5
 badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms 6.5" before-title="false"
 duration: 45
+TQID: 'https://experienceleague.adobe.com/9YMHM5Ra2q5t8lEGbLwZ0i3CJTteHNsxcm4Dm-dxyU4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 ---
 
 # Creating Adaptive Forms from Acroforms

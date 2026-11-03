@@ -13,12 +13,18 @@ recommendations: noDisplay, noCatalog
 doc-type: Tutorial
 exl-id: d6da05e4-bd65-4625-b9a4-cad8eae3c9d7
 duration: 225
-TQID: https://experienceleague.adobe.com/-YtX3XYEoBgrjxwG4dhA5oOGi4-ewzpRFP7olpez8QQ
+TQID: 'https://experienceleague.adobe.com/8ifR8s17U9wwUvIO6Eii1Bq98jvCgDn63miKiUy-KTg'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+subfeature_v2:
+  - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
+    internal-label: Cloud Manager APIs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

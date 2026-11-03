@@ -12,13 +12,18 @@ duration: 286
 last-substantial-update: 2024-12-12T00:00:00.000Z
 jira: KT-16666
 exl-id: 555ebfd2-94d4-45a8-9b38-3b901d0dd985
-TQID: https://experienceleague.adobe.com/tfQS3k4sOcCbYRkGpXzJcrD0Z-vSedfBNlJ2uLgRGJc
+TQID: 'https://experienceleague.adobe.com/h9RgKExTxyAImmqM-eFOaAfk14ie0Ufi-iqtPvk89CU'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,6 +34,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

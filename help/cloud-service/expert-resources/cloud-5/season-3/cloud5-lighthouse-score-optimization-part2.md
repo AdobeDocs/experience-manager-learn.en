@@ -12,10 +12,16 @@ recommendations: noDisplay, noCatalog
 last-substantial-update: 2024-09-17T00:00:00.000Z
 jira: KT-16146
 exl-id: 4d01f350-1bdd-49df-a99d-dce1ad378364
-TQID: https://experienceleague.adobe.com/LBYxmEZ3elBdbVVvSb2PH6sqbp1chhf-YiEJi2qrRMc
+TQID: 'https://experienceleague.adobe.com/GE0J5fTxVN-3bam3TjfKDujGmFDnGDbRRK0YJDZTEI4'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

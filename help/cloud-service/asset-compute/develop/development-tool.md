@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: cbe08570-e353-4daf-94d1-a91a8d63406d
 duration: 171
-TQID: https://experienceleague.adobe.com/NNGBjaihJCsTnvr6NPr6xvuxwsKm23SSXW6BGQpP-Uo
+TQID: 'https://experienceleague.adobe.com/-YnfnkvITxWjg17I3CD15phDVFIZ6X9zBU625-gLcuo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -24,6 +24,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

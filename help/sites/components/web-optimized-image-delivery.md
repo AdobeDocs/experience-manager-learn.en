@@ -12,7 +12,7 @@ thumbnail: 346064.jpeg
 duration: 363
 doc-type: Feature Video
 exl-id: d16c0c7b-3d0e-4e4f-a1e0-baa8a44cc366
-TQID: https://experienceleague.adobe.com/bF44Ox74c0hrAXz0HHkZiQ9yaJCKB-iHQpKeeYltln4
+TQID: 'https://experienceleague.adobe.com/aDOK8ak1PrbMhXekQlFhCV2diRy7CmX1VGzZxGZeIWo'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,17 @@ product_v2:
 feature_v2:
   - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
     internal-label: Administration
+  - id: 523b1ccd-901e-5e3b-9fa7-f3dfd82463d5
+    internal-label: Configuring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

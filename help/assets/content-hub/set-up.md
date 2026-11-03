@@ -12,7 +12,7 @@ last-substantial-update: 2024-01-10T00:00:00.000Z
 jira: KT-15989
 thumbnail: KT-15989.jpeg
 exl-id: 83ca35c5-1db4-4297-afc7-67b6e7d2f085
-TQID: https://experienceleague.adobe.com/rbUi4W9YPzndrMDX9YaAOsAVKufpvf2uM97Vc0Ckb-U
+TQID: 'https://experienceleague.adobe.com/YmXcDQjcxZ2zPQDWruTli1-pDXYhf5kOV2IwgTeUGqk'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -27,6 +27,8 @@ feature_v2:
     internal-label: Administration
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop
@@ -52,3 +54,4 @@ Learn how to set up the Experience Manager Assets Content Hub using the Adobe Cl
 If you have AEM Assets Dynamic Media OpenAPIs licensed, you can use them to generate dynamic renditions in Content Hub, such as Smart Crops. Before these Dynamic Media OpenAPI renditions can appear in Content Hub, an initial setup is required.
 
 >[!SLIDE](dm-open-api-setup)
+

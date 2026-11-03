@@ -1,18 +1,21 @@
 ---
 title: Versions
-description: Explore how AEM creates and maintains asset versions.
+description: Learn how AEM creates, compares, and restores asset versions, including the file, renditions, and metadata, in both the Assets view and the Admin view.
+solution: Experience Manager, Experience Manager Assets
+sub-product: Experience Manager Assets
+feature-set: Experience Manager Assets
 feature: Asset Management
 version: Experience Manager as a Cloud Service
-jira: KT-4671
+jira: TODO
 thumbnail: 32052.jpg
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2021-09-30T00:00:00.000Z
+team: TM
+last-substantial-update: 2026-08-31T00:00:00.000Z
 doc-type: Feature Video
-exl-id: 55f655fa-5091-4382-ad46-a6f7cee92f76
-duration: 115
-TQID: https://experienceleague.adobe.com/vItBUhmRHM6onr030ItmPmEEjX7BmAtbUNz9NIM6ifI
+duration: 533
+TQID: 'https://experienceleague.adobe.com/biIeFB22IsKRRdcDdY9-dOc43zvU7Pca5gSjuHIMD6o'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +24,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,8 +38,22 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Versions
+# Versions {#versions}
 
-Explore how AEM creates and maintains asset versions.
+Mistakes happen: someone overwrites a file, or edits metadata that turns out to be wrong. AEM keeps a full history of every asset, including the file itself, its renditions, and its metadata. You can compare any two versions, or restore an earlier one, so a mistake never costs you the original work.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+In the Assets view, open an asset's Versions panel to create a new version, switch between versions, or select an earlier one and make it the latest.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
+
+>[!TAB Admin view]
+
+In the Admin view, AEM creates a new version automatically when you re-upload a file or edit metadata. You can also create a version manually, with a label and description. Compare any version against the current one, or revert to an earlier version to make it current again.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32052?quality=12&learn=on)
+
+>[!ENDTABS]

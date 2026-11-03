@@ -4,6 +4,16 @@ description: Adobe Experience Manager's Resource Status API's, is a pluggable fr
 doc-type: Tutorial
 version: Experience Manager 6.4, Experience Manager 6.5
 duration: 88
+TQID: 'https://experienceleague.adobe.com/PhTgydsVcF6GFjTePssWk7YOrcUOROxkT8p7Azy2yc4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 
 # Developing Resource Statuses {#developing-resource-statuses-in-aem-sites}

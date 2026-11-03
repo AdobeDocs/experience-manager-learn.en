@@ -9,13 +9,22 @@ level: Intermediate
 doc-type: Article
 jira: KT-22146
 thumbnail: KT-22146.jpeg
-last-substantial-update: 2026-07-24
+last-substantial-update: 2026-07-24T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/j-MOht9QGZVFMsm8IVz1l7SiQRfmaX0dcgN7Egj6Y08'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # AEM Edge Function deployment strategy on Edge Delivery Services
-
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
 
 On Edge Delivery Services, an AEM Edge Function **binds to a site**, and each site maps to a git branch. A program gets exactly 3 AEM Edge Function instances, a fixed budget regardless of how many branches your repository has. Plan your branching strategy around that budget before you build it into your release process.
 

@@ -9,7 +9,7 @@ level: Intermediate
 doc-type: Feature Video
 exl-id: 6f33f121-5564-4c46-ab56-7ea382a0ab5a
 duration: 224
-TQID: https://experienceleague.adobe.com/UZlvCf3boj3xHSoz0YWsoXBPvGMPsuOHKx4ZhMKz2NU
+TQID: 'https://experienceleague.adobe.com/h1VIxzkgKVkeQhrzzgGfBEpfE-wDOrXbcNfQlfcE0eU'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -18,6 +18,11 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

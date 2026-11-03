@@ -12,13 +12,15 @@ thumbnail: KT-17429.jpeg
 last-substantial-update: 2025-02-28T00:00:00.000Z
 duration: 0
 exl-id: 3230a8e7-6342-4497-9163-1898700f29a4
-TQID: https://experienceleague.adobe.com/6s-VR2nYmQHPBpf4thZXcy3U8etSciAZNL6yZAT8RyE
+TQID: 'https://experienceleague.adobe.com/Wlcv4c5ftrFf9wavMjOut-Zrb4-HINVx0LZGed5Dzq8'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader

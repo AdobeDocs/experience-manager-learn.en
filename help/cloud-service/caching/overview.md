@@ -12,13 +12,15 @@ jira: KT-13858
 thumbnail: KT-13858.jpeg
 exl-id: e76ed4c5-3220-4274-a315-a75e549f8b40
 duration: 36
-TQID: https://experienceleague.adobe.com/buu3bD1EaeUHgMQVmOiCrL4s5k-P1Bb4bFJxBvOrO-k
+TQID: 'https://experienceleague.adobe.com/hqGj7eZZG6clL9maXuiMH5-HYyDGhMk0HFybnPQvDkA'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

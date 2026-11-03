@@ -10,10 +10,16 @@ jira: KT-6911
 thumbnail: 330554.jpg
 exl-id: 53327d54-152b-4b89-8540-181e433f312b
 duration: 271
-TQID: https://experienceleague.adobe.com/j6VgbfA5PXveghZMWB3cc1bLeZwv-Crqipj-2mPU2ZI
+TQID: 'https://experienceleague.adobe.com/Ip-q0ppYRqp2epQgU8XqesljB89hqOx6KkuHxoh8jeA'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

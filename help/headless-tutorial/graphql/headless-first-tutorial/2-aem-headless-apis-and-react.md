@@ -12,7 +12,7 @@ jira: KT-13270
 thumbnail: KT-13270.jpeg
 exl-id: 2b726473-5a32-4046-bce8-6da3c57a1b60
 duration: 225
-TQID: https://experienceleague.adobe.com/54eRs-vXl-lPUgZQ5nqh1Jv29z8bTssQw78ux2lvGrw
+TQID: 'https://experienceleague.adobe.com/kGXiNYLGnahPdGwMOfIdu8qGbTizwe-tswLSx84hllI'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -29,6 +29,12 @@ feature_v2:
     internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+  - id: 523b1ccd-901e-5e3b-9fa7-f3dfd82463d5
+    internal-label: Configuring
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 subfeature_v2:
   - id: a02b73a7-bdfc-4225-bdfd-69f7891ab55e
     internal-label: GraphQL

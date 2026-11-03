@@ -13,7 +13,7 @@ badgeIntegration: label="Integration" type="positive"
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: 369c563e-c847-438a-a783-bc6a9f81b77c
 duration: 27
-TQID: https://experienceleague.adobe.com/RjrGOHFxaft8GTdqHxPDIOOhH1H3hxgxOHW94mfEX6s
+TQID: 'https://experienceleague.adobe.com/nhKl5tdoEpzE8XluUryrkNrPmAUlDknlY5ccSO1h0jw'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -24,6 +24,11 @@ feature_v2:
     internal-label: Integrations
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -35,6 +40,8 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Integrate AEM Forms with Adobe Analytics to report on form data fields
 

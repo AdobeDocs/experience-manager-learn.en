@@ -11,7 +11,7 @@ level: Intermediate
 doc-type: Feature Video
 exl-id: 12490c29-91f4-4bb7-b7b6-7ed7cd3fb76d
 duration: 220
-TQID: https://experienceleague.adobe.com/Z0RVmdLqaYAGujXP4DVhNNjZxV7t8LqdPleXs5czE-c
+TQID: 'https://experienceleague.adobe.com/NeienNiBUTFR3BGNr6vXszYUhZbz4bJ8RELHL0r57xQ'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -20,9 +20,17 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
     internal-label: Editable templates
+  - id: ed8bde06-82bf-42e7-bea9-1f5a2f1cc050
+    internal-label: Style System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

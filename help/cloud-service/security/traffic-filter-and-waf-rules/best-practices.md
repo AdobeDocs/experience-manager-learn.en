@@ -9,12 +9,18 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2025-06-04T00:00:00.000Z
 jira: KT-18310
-thumbnail: null
+thumbnail: 
 exl-id: 4a7acdd2-f442-44ee-8560-f9cb64436acf
-TQID: https://experienceleague.adobe.com/Mjd4wAjDWGU5f0cl573rh7wAwbjn4GQyDC-fmObOSK4
+TQID: 'https://experienceleague.adobe.com/lAgn6VtdMjWMh7MAz9mK6Tn75X3Bpc1DP5qdWdo5ffo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
+subfeature_v2:
+  - id: c35bc059-fd80-4a01-91a6-e48da3c76758
+    internal-label: Security practices
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

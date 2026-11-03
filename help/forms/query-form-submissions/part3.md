@@ -11,15 +11,26 @@ jira: kt-14884
 last-substantial-update: 2024-03-03T00:00:00.000Z
 exl-id: 570a8176-ecf8-4a57-ab58-97190214c53f
 duration: 25
-TQID: https://experienceleague.adobe.com/ePsa8McTGMTmm57whUaiGv586-F0ADD9RDt4DtJmOa0
+TQID: 'https://experienceleague.adobe.com/T-xgrw81SV5oTaArHZiVtfTLg9dNbd5e-9Nm7hoFDwU'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Build query interface
 

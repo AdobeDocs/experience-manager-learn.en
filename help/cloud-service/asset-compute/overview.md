@@ -12,7 +12,7 @@ level: Intermediate, Experienced
 last-substantial-update: 2022-08-15T00:00:00.000Z
 exl-id: 575b12f9-b57f-41f7-bd39-56d242de4747
 duration: 277
-TQID: https://experienceleague.adobe.com/keTxcNWCic0pwFRC-oNbzhe43IR1aN-MmNVwpaXkFaU
+TQID: 'https://experienceleague.adobe.com/ulBu9I04KlP-1325Ocz-p6eKTaaDvlOheIu-DrLni5k'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -21,12 +21,18 @@ feature_v2:
     internal-label: APIs
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -135,7 +141,7 @@ Asset Compute workers must be deployed to Adobe I/O Runtime to be used with AEM 
 
 ### Integrate workers via AEM Processing Profiles
 
-Once deployed to Adobe I/O Runtime, Asset Compute workers can be registered in AEM as a Cloud Service via [Assets Processing Profiles](../../assets/configuring/processing-profiles.md). Processing Profiles are, in turn, applied to asset folders applying to the assets therein.
+Once deployed to Adobe I/O Runtime, Asset Compute workers can be registered in AEM as a Cloud Service via [Assets Processing Profiles](../../assets/authoring/processing-profiles.md). Processing Profiles are, in turn, applied to asset folders applying to the assets therein.
 
 + [Integrate with AEM Processing Profiles](./deploy/processing-profiles.md)
 

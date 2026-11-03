@@ -8,10 +8,21 @@ level: Intermediate
 doc-type: Tutorial
 exl-id: 7c7df08d-02a7-4548-96c0-98e27bcbc49b
 duration: 1353
-TQID: https://experienceleague.adobe.com/MsRG-L4BNo-TCLSgRWM8UgaufRy5f4TIEM2z2uTOrX4
+TQID: 'https://experienceleague.adobe.com/1xjFytLhKct6R34fLYqsbv9ddTpFJ0TP0FGqBgwpPBw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: ffa4a726-ff13-52a1-83a8-2872ed44316b
+    internal-label: Log Files
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

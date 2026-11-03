@@ -11,12 +11,17 @@ thumbnail: 333339.jpg
 last-substantial-update: 2023-05-17T00:00:00.000Z
 exl-id: 190623cc-8959-46b3-95de-e7d01bf5acdb
 duration: 199
-TQID: https://experienceleague.adobe.com/nucUjAWHBNxL-GeChhwVRACTJHZCtgoSd9sUIEVNWaU
+TQID: 'https://experienceleague.adobe.com/zstoNd7mz5Zx-AY-aFRlW34M5yVViNfZBMrDY3gZISk'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

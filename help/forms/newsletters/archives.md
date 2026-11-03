@@ -3,7 +3,7 @@ title: Experience League Monthly Newsletters Archive.
 description: Download archived versions of the newsletter.
 hide: true
 exl-id: 16133400-b4c6-4d86-9c28-d5e230d55839
-TQID: https://experienceleague.adobe.com/Xxhs-2LEvhwNBF-XuU8nAwh4xZDzHxNRJhT2q7XazoY
+TQID: 'https://experienceleague.adobe.com/IDhL-kERZR74L4nzasNlbR2-vTph-OsWrUHCCtDSB3o'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -41,6 +41,8 @@ Our monthly Experience League Content Newsletters are available for download on 
 | [April](assets/April-2026.pdf)|
 | [May](assets/May-2026.pdf)|
 | [June](assets/June-2026.pdf)|
-| [June](assets/July-2026.pdf)|
+| [July](assets/July-2026.pdf)|
+| [August](assets/Aug-2026.pdf)|
+| [August](assets/Sept-2026.pdf)|
 
 

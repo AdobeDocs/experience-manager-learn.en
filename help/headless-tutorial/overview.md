@@ -8,7 +8,7 @@ level: Beginner
 doc-type: Catalog
 recommendations: disable, exclude
 exl-id: 57f88d79-9879-4bb9-a3db-9fec95e3a0bd
-TQID: https://experienceleague.adobe.com/CfzRDfQY9xYrA2zPLts-XYDoWHc0rH5luHnf5qG3Wh8
+TQID: 'https://experienceleague.adobe.com/hPs-QwoGj4yBeSI73jve7vIo6ICLXXGbf4LNg-yLdh4'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,12 @@ feature_v2:
     internal-label: Universal Editor
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

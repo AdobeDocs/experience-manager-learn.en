@@ -11,13 +11,19 @@ last-substantial-update: 2022-07-20T00:00:00.000Z
 doc-type: Tutorial
 thumbnail: aem-local-dev-env.jpg
 duration: 4537
-TQID: https://experienceleague.adobe.com/AeI97NVAjSmBJVbNyux0MqsthilbQMD85hL3z0DukxA
+TQID: 'https://experienceleague.adobe.com/euwWmfCZyk-iNhUAkeph6afNuiKhNw0XczWTLM7B6BY'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: e7ceb1b9-01f3-5c03-9983-80d310922115
+    internal-label: Sling Model
 subfeature_v2:
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
     internal-label: Java Content Repository
@@ -86,7 +92,7 @@ It is also *critical* test code against a local ***Publish*** instance. The ***P
            + license.properties
    ```
 
-1.  Double-click the ***aem-author-p4502.jar*** file to install the **Author** instance. This starts the author instance, running on port **4502** on the local computer.
+1. Double-click the ***aem-author-p4502.jar*** file to install the **Author** instance. This starts the author instance, running on port **4502** on the local computer.
 
    Double-click the ***aem-publish-p4503.jar*** file to install the **Publish** instance. This starts the Publish instance, running on port **4503** on the local computer.
 
@@ -116,25 +122,25 @@ All AEM Projects should be built off the latest version of the **[!DNL AEM Proje
 
 ### Steps
 
-1.  Download [Apache Maven](https://maven.apache.org/download.cgi)
-2.  Install [Apache Maven](https://maven.apache.org/install.html) and ensure that the installation has been added to your command-line `PATH`.
+1. Download [Apache Maven](https://maven.apache.org/download.cgi)
+1. Install [Apache Maven](https://maven.apache.org/install.html) and ensure that the installation has been added to your command-line `PATH`.
     * [!DNL macOS] users can install Maven using [Homebrew](https://brew.sh/)
-3.  Verify that **[!DNL Maven]** is installed by opening a new command-line terminal and executing the following:
+1. Verify that **[!DNL Maven]** is installed by opening a new command-line terminal and executing the following:
 
-   ```shell
+    ```shell
 
-   $ mvn --version
-   Apache Maven 3.3.9
-   Maven home: /Library/apache-maven-3.3.9
-   Java version: 1.8.0_111, vendor: Oracle Corporation
-   Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre
-   Default locale: en_US, platform encoding: UTF-8
+    $ mvn --version
+    Apache Maven 3.3.9
+    Maven home: /Library/apache-maven-3.3.9
+    Java version: 1.8.0_111, vendor: Oracle Corporation
+    Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre
+    Default locale: en_US, platform encoding: UTF-8
 
-   ```
+    ```
 
-   >[!NOTE]
-   >
-   > In, the past addition of `adobe-public` Maven profile was needed to point `nexus.adobe.com` to download AEM artifacts. All AEM artifacts are now available via Maven Central and the `adobe-public` profile is not needed.
+    >[!NOTE]
+    >
+    > In, the past addition of `adobe-public` Maven profile was needed to point `nexus.adobe.com` to download AEM artifacts. All AEM artifacts are now available via Maven Central and the `adobe-public` profile is not needed.
 
 ## Set Up an Integrated Development Environment
 

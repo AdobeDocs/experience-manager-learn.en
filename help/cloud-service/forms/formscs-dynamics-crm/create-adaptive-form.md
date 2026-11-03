@@ -10,7 +10,7 @@ topic: Development
 jira: KT-9839
 exl-id: 804b2fad-34a3-4bcb-913c-9070393a6c9c
 duration: 346
-TQID: https://experienceleague.adobe.com/mgh69wGSOcB-MnIrpvj6xrEhQDfGsDxTh1AOIid5iPk
+TQID: 'https://experienceleague.adobe.com/u-dwl72Z0-nNoetdD2i2fyg-LOib7KTakJhU7y5E5Q4'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

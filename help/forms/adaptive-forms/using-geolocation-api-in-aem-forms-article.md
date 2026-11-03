@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 50db6155-ee83-4ddb-9e3a-56e8709222db
 last-substantial-update: 2020-03-20T00:00:00.000Z
 duration: 88
-TQID: https://experienceleague.adobe.com/TWM3TOsMzQw6PZ6a-HdgDCPH5-x6LBCX0QAgBasWXDI
+TQID: 'https://experienceleague.adobe.com/VWWdVth4PYGGQB1NabX1F-UzU0tnpBJdooOqY-D-WH8'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -20,12 +20,22 @@ feature_v2:
     internal-label: APIs
   - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
     internal-label: APIs
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Using Geolocation API's in Adaptive Forms{#using-geolocation-api-s-in-adaptive-forms}
 

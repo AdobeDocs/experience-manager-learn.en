@@ -10,10 +10,15 @@ thumbnail: xx.jpg
 doc-type: Article
 exl-id: 461873a1-1edf-43a3-b4a3-14134f855d86
 duration: 520
-TQID: https://experienceleague.adobe.com/SbYMXAblwfi41I8cm1QkygkxsegMVuFsdAnDlPgky6Y
+TQID: 'https://experienceleague.adobe.com/g-ZiFRRcZriB1vzEteTrGGZRVMSlQ-X1na5kcguSmXU'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -25,6 +30,8 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Dispatcher Vanity URLs
 

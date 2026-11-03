@@ -8,13 +8,15 @@ jira: KT-9981
 thumbnail: 341277.jpeg
 exl-id: 41d78e6b-7076-4f4f-8d2c-4bf969b61024
 duration: 314
-TQID: https://experienceleague.adobe.com/8H4-eU1gLTxaBynOQ13H1K29IdPJjmjcbwKLwbNgyyQ
+TQID: 'https://experienceleague.adobe.com/TR4ELgsMR-aFxHRmR-FwtBbzuvwCdyphNc5V1CvD67M'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
