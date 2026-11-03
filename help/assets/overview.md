@@ -1,12 +1,12 @@
 ---
 title: AEM Assets videos and tutorials
-description: Watch our videos to get AEM Asset support and assistance.
+description: Watch our videos to get AEM Assets support and assistance, in both the Assets view and the Admin view.
 sub-product: Experience Manager Assets
 version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a Cloud Service
 doc-type: Catalog
-last-substantial-update: 2026-05-26
+last-substantial-update: 2026-08-28T00:00:00.000Z
 exl-id: 1d0b0183-25ee-4cb4-82a5-3506e7c1c908
-TQID: https://experienceleague.adobe.com/nn11K1DaacO-2-I5WUpaTYE2syZ7BDcZD3JE74tt14s
+TQID: 'https://experienceleague.adobe.com/va4Ist5JLaswPFPEg9yRCqxzGWTqI1-6WHHpvWlgwlw'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -15,6 +15,10 @@ product_v2:
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop
@@ -27,6 +31,8 @@ topic_v2:
     internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # AEM Assets videos and tutorials {#overview}
 
@@ -46,6 +52,18 @@ Learn what AEM Assets is and how can be used to achieve your organization's busi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427944?learn=on)
 
+## Get started in the Assets view
+
+Take a first look at the Assets view interface: My Workspace, search, tasks, insights, and the Assets, Collections, and Trash sections where you manage content.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502566/?learn=on&enablevpops)
+
+## Browse, search, and download assets in the Assets view
+
+Browse assets by list, grid, or gallery layout, then use full-text search, metadata filters, and saved searches to narrow results. Preview an asset's details, renditions, comments, and versions, and download a single asset or a zip of several at once.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3503374/?learn=on&enablevpops)
+
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
 <div id="recs-overview-body-3"></div>
@@ -55,7 +73,7 @@ Learn what AEM Assets is and how can be used to achieve your organization's busi
 
 ## Additional resources
 
-* [AEM Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=en)
+* [AEM Assets documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/assets)
 * [AEM as a Cloud Service tutorials](/help/cloud-service/overview.md)
 * [AEM Sites tutorials](/help/sites/overview.md)
 * [AEM Forms tutorials](/help/forms/overview.md)

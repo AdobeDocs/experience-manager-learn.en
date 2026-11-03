@@ -12,13 +12,18 @@ last-substantial-update: 2023-12-07T00:00:00.000Z
 jira: KT-14649
 thumbnail: KT-14649.jpeg
 exl-id: 142ed6ae-1659-4849-80a3-50132b2f1a86
-TQID: https://experienceleague.adobe.com/ne84HFJj0q1EWuTkxanOaAIX-ra1jRw33AzGN6fCuto
+TQID: 'https://experienceleague.adobe.com/6ppst3ilq90LejmdQzU0Vb91kiSP9FJYMojyUcL1YMk'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c5a6b061-0358-43c2-bd48-d72df35b6a8d
+    internal-label: App Builder for AEM
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

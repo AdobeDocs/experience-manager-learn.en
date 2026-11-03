@@ -9,7 +9,7 @@ level: Beginner, Intermediate, Experienced
 doc-type: Tutorial
 jira: KT-18658
 exl-id: 27b6626d-b291-4b88-9350-a32cdbd0cf63
-TQID: https://experienceleague.adobe.com/zf2dxzzrylab38ZhX0TiDAaqByfDG3Vgia6ZPbpKhpM
+TQID: 'https://experienceleague.adobe.com/n0alOjKP-PdI5FmW2nO1Ki9CRZH4iAnm1jvxfNbtssk'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -18,6 +18,15 @@ product_v2:
 feature_v2:
   - id: a453562e-8e72-4640-9a69-9cf95930bcee
     internal-label: Universal Editor
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -26,6 +35,8 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Preview a local Universal Editor extension
 

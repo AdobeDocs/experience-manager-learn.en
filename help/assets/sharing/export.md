@@ -6,13 +6,13 @@ version: Experience Manager as a Cloud Service
 topic: Content Management
 role: Developer
 level: Experienced
-last-substantial-update: 2025-04-28T00:00:00.000Z
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Tutorial
 jira: KT-15313
 thumbnail: KT-15313.jpeg
 exl-id: d04c3316-6f8f-4fd1-9df1-3fe09d44f735
 duration: 256
-TQID: https://experienceleague.adobe.com/5zginKqCn8sjbGtaqoDKdPniNjp9itQs4det9CMKFac
+TQID: 'https://experienceleague.adobe.com/fbOFsHspl-bNZzI7WG-ZMEinOO8bF5KelQ7r-3B5on0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -25,16 +25,35 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Export assets
+# Export assets {#export-assets}
 
-Learn how to export assets to your local machine using a customizable Node.js script. This export script provides an example of how to programmatically download assets from AEM using [AEM Assets HTTP APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/mac-api-assets), specifically focusing on the original renditions to ensure the highest quality. It's designed to replicate AEM Assets' folder structure on your local drive, making easy to back up or migrate assets.
+The AEM Assets user interface works well when you download a handful of files, but it does not scale when you back up or migrate thousands of assets at once. This tutorial provides a Node.js script that walks your entire asset folder tree and downloads the original renditions to your local machine. Use the script to create backups, migrate assets to another system, or move content into cloud storage for bulk import.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+This export script provides an example of how to programmatically download assets from AEM using [AEM Assets HTTP APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/mac-api-assets), specifically focusing on the original renditions to ensure the highest quality. It's designed to replicate AEM Assets' folder structure on your local drive, so you can back up or migrate assets easily.
 
 The script only downloads asset's original renditions, without associated metadata, unless that metadata has been embedded into the asset as XMP. This means any descriptive information, categorizations, or tags stored in AEM but not integrated into the asset files are not included in the download. Other renditions can be downloaded as well by modifying the script to include them. Ensure you have enough space to store the exported assets.
 
@@ -301,3 +320,5 @@ Download AEM assets: 24.770s
 The exported assets can be found in the local folder specified in the configuration `LOCAL_DOWNLOAD_FOLDER`. The folder structure mirrors the AEM Assets folder structure, with the assets downloaded to the appropriate subfolders. These files can be uploaded to [supported cloud storage providers](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view), for [bulk import](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import) into other AEM instances, or for backup purposes.
 
 ![Exported assets](./assets/export/exported-assets.png)
+
+>[!ENDTABS]

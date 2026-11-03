@@ -8,15 +8,28 @@ level: Experienced
 version: Experience Manager 6.4, Experience Manager 6.5
 exl-id: f520e7a4-d485-4515-aebc-8371feb324eb
 duration: 47
-TQID: https://experienceleague.adobe.com/5qDyV3PWDPbtr9g4kr11GB9DzYMd-yDnwMuqV-EDq2Q
+TQID: 'https://experienceleague.adobe.com/l7Km0cTGzIc0zsAHv5LDDNurSPZoD1HMVdeVRYsSOFk'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 36ac8e9c-5c7a-56d8-af5e-39399fd7b101
+    internal-label: Workbench
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Deploy this on your server
 

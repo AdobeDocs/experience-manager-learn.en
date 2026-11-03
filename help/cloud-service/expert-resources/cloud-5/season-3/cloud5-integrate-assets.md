@@ -11,13 +11,18 @@ last-substantial-update: 2024-04-11T00:00:00.000Z
 jira: KT-15318
 recommendations: noDisplay, noCatalog
 exl-id: ef7fdeb9-17c2-49a8-8335-5692f3a01d71
-TQID: https://experienceleague.adobe.com/xh2c--Lp7z7-W5DDCqfNfm9JwgTI9mdkA-4SiBKva5Q
+TQID: 'https://experienceleague.adobe.com/UocuNO-QFccJUMoA-HyQ51j-yW2vFRtiGpOtcM6fQgs'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
     internal-label: Generative AI
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

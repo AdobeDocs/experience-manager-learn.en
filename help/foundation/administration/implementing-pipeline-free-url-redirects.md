@@ -12,10 +12,15 @@ last-substantial-update: 2025-02-05T00:00:00.000Z
 jira: KT-15739
 thumbnail: KT-15739.jpeg
 exl-id: 3b0f5971-38b8-4b9e-b90e-9de7432e0e9d
-TQID: https://experienceleague.adobe.com/BNgUUEFwrWYnqPXc4HkJ2zGg8hTPjAbtwxGoTqDINfE
+TQID: 'https://experienceleague.adobe.com/igaKpPttJyaXe9deCmmAosE1osV9D1NMDvFPBcnW-wg'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

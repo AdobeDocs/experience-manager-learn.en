@@ -1,0 +1,102 @@
+---
+title: Secure AEM Forms Portal with Microsoft Entra ID
+description: his use case demonstrates how Microsoft Entra External ID can serve as the customer identity provider for an AEM Forms banking portal.
+solution: Experience Manager, Experience Manager Forms
+type: Documentation
+role: Developer
+level: Beginner, Intermediate
+version: Experience Manager as a Cloud Service
+feature: Adaptive Forms
+topic: Integrations, Development
+jira: KT-22633
+badgeIntegration: label="Integration" type="positive"
+badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+---
+
+## AEM Configuration
+
+AEM can be configured for SAML 2.0 authentication by following Adobe's **SAML 2.0 Authentication for AEM as a Cloud Service** documentation:
+
+[Configure SAML 2.0 Authentication for AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/authentication/saml-2-0)
+
+The Adobe documentation provides the general steps for configuring SAML authentication in AEM, including the SAML Authentication Handler, trust store, Dispatcher, CORS, and Referrer Filter configuration.
+
+For this use case, the SAML configuration was adapted to use **Microsoft Entra External ID** as the identity provider. The following additional configuration was applied:
+
+- The Microsoft Entra SAML signing certificate was imported into the **AEM Global Trust Store** and made available to the Publish environment.
+- A **SAML Authentication Handler** was configured on AEM Publish with the Entra IdP URL, IdP identifier, certificate alias, service provider entity ID, and the Banking Application content paths that require authentication.
+- The **Dispatcher** was configured to allow SAML `POST` requests to the `/saml_login` endpoint.
+- The **Referrer Filter** and **CORS configuration** were updated to allow requests from the Microsoft Entra External ID login domain.
+- An AEM group named **`entra-users`** was created and the appropriate permissions/CUG configuration was applied to the protected content.
+- The SAML handler was configured to automatically create authenticated users and add them to the `entra-users` group.
+- A custom [**SAML post-sync hook**](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/authentication/saml-2-0-login-hook) was implemented to run after successful authentication and user synchronization. The code for the [SAML post-sync hook can be downloaded from here.](assets/EntraSamlHook.zip).
+- The post-sync hook extracts the **Entra Object ID, email address, first name, and last name** from the SAML assertion.
+- The extracted customer profile is sent directly from AEM to **Adobe Experience Platform (AEP)** using the AEP Streaming Ingestion endpoint.
+- When the user successfully logs in through Entra ID for the first time, the SAML post-sync hook sends the user's profile information to Adobe Experience Platform (AEP). After AEP successfully accepts the profile, AEM sets the `profile/aepSynced = true`. On subsequent logins, the hook checks this property before sending data to AEP. If aepSynced is already true, the AEP ingestion request is skipped. This ensures that each AEM user profile is sent to AEP only once through this login flow.
+- ![aepSynced](assets/aepSynced.png)
+
+### com.adobe.granite.auth.saml.SamlAuthenticationHandler~entra.cfg.json
+
+The following is my entra.cfg.json file for your reference. The userIDAttribute property specifies which SAML attribute AEM should use as the user's unique repository identity.
+
+For an Entra ID integration, configure it to use the stable Entra Object ID.This causes AEM to use the same Entra Object ID as the AEM user ID for every login. This is important because it ensures that the same Entra user is associated with the same AEM authorizable across browsers and sessions.
+>[!NOTE]
+>
+>Do not leave userIDAttribute empty when the SAML NameID is not a stable identifier. An unstable identifier can result in multiple AEM users being created for the same external user.
+
+```
+{
+  "path": [ "/content/bankingapplication"],
+  
+  "idpCertAlias": "$[env:ENTRA_SAML_IDP_CERT_ALIAS;default=certAlias___1789123117072]",
+
+  "idpIdentifier": "$[env:ENTRA_SAML_IDP_ID;default=https://bea27b92-5e14-4413-b807-fe4b295454a5.ciamlogin.com/bea27b92-5e14-4413-b807-fe4b295454a5/]",
+
+  "idpUrl": "$[env:ENTRA_SAML_IDP_URL;default=https://aemformsportal.ciamlogin.com/bea27b92-5e14-4413-b807-fe4b295454a5/saml2]",
+
+  "serviceProviderEntityId": "$[env:ENTRA_SAML_AEM_ID;default=https://publish-p133654-e1305513.adobeaemcloud.com]",
+
+   "defaultRedirectUrl": "/content/bankingapplication/us/formsportal.html",
+
+  "useEncryption": false,
+  "userIDAttribute": "objectId",
+
+  
+
+  "createUser": true,
+
+  "userIntermediatePath": "entraformsportal/idp",
+
+  "synchronizeAttributes": [
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname=profile/givenName",
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname=profile/familyName",
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress=profile/email",
+    "objectId=profile/entraObjectId"
+  ],
+
+  "addGroupMemberships": true,
+
+  "defaultGroups": [
+    "entra-users"
+  ]
+}
+```

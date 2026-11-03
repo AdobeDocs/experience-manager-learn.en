@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: c63c5c75-1deb-4c16-ba33-e2c338ef6251
 duration: 121
-TQID: https://experienceleague.adobe.com/bDKb5vNtaJdDtOm6AYCdndsxjCxfBDMRl-plQnjS9k4
+TQID: 'https://experienceleague.adobe.com/onXmCHfU2b7ppS-213-sq9MxJCk7l3vic9ukRQ4G6hM'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -24,9 +24,13 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Configure the environment variables
 

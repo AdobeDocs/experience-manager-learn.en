@@ -1,18 +1,17 @@
 ---
 title: How to relate and unrelate assets in AEM
-description: Learn how to establish and manage relationships between assets in AEM.
+description: Learn how to establish and manage relationships between assets in AEM, in both the Assets view and the Admin view.
 feature: Asset Management
 role: User
 level: Beginner
 version: Experience Manager as a Cloud Service
-jira: KT-6969
+jira: TODO
 thumbnail: 331107.jpg
 topic: Content Management
-last-substantial-update: 2021-09-27T00:00:00.000Z
+last-substantial-update: 2026-08-31T00:00:00.000Z
 doc-type: Feature Video
-exl-id: a05f995e-11bb-4b28-9aed-3033071244f7
-duration: 175
-TQID: https://experienceleague.adobe.com/6e2Q-B1fYBJmV98exdm5-rmS5waY06cf9VzRZ-hkLW0
+duration: 593
+TQID: 'https://experienceleague.adobe.com/QIIGecpIMMvXZQBMKOT6ISxLW8xoc7JDXRF0A2HRfkU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +20,10 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,8 +31,22 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Relate and Unrelate 
+# Relate and unrelate {#relate-and-unrelate}
 
-Learn how to establish and manage relationships between assets in AEM.
+Assets often connect to each other. A logo might appear in dozens of layouts, or a set of product photos might come from one master image. AEM lets you link related assets, so anyone who opens one file can find the others without a search. This makes it easy to track every place you use a source file, or update every derived asset when the original changes.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+In the Assets view, open an asset's Asset Relations panel to add a source, derived, or other relationship, such as a Photoshop file and the images derived from it. Relationships work in both directions, so you can find the connection from either asset.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502567/?learn=on&enablevpops)
+
+>[!TAB Admin view]
+
+In the Admin view, select one or more assets and choose Relate to link them by source, derived, or another relationship type, such as a source Photoshop file and the images it produced. Open an asset's properties to see all of its relationships grouped by type, or jump straight to a related asset. Use Unrelate to remove a relationship you no longer need.
 
 >[!VIDEO](https://video.tv.adobe.com/v/331107?quality=12&learn=on)
+
+>[!ENDTABS]

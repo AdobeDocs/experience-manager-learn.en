@@ -9,10 +9,15 @@ feature: Adaptive Forms
 topic: Development
 exl-id: 5139aa84-58d5-40e3-936a-0505bd407ee8
 duration: 55
-TQID: https://experienceleague.adobe.com/sIWSOTeBg89RthOAhT7Ld199dPJnUuo9iko35a-Xl-Y
+TQID: 'https://experienceleague.adobe.com/T0vtSCGk7E-UI4lQ67ZRUGHUAIspVYnZO6DygCvOCck'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

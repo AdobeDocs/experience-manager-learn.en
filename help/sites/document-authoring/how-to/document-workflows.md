@@ -12,7 +12,7 @@ jira: KT-14487
 thumbnail: 3425720.jpeg
 duration: 93
 exl-id: 43fccd46-3ce5-4ddd-93a9-e800a4d69f25
-TQID: https://experienceleague.adobe.com/--lmi8l4NYbzPIMsD5IgAZTpOvYZtI4L1AmYFkd-DTE
+TQID: 'https://experienceleague.adobe.com/IVhMsxEaScJxGPDMMShsys8IREyZ8G9dO-PsTB5puI0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -21,6 +21,8 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

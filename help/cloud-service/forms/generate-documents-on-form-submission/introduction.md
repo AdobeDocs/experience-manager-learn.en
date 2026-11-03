@@ -6,9 +6,21 @@ feature: Interactive Communication
 role: Developer
 level: Intermediate
 doc-type: Technical Video
-last-substantial-update: 2026-03-16
+last-substantial-update: 2026-03-16T00:00:00.000Z
 jira: KT-20539
-
+TQID: 'https://experienceleague.adobe.com/2lwTf8-2X3Ygx8No15mpHrW11s-lH5iAQFA2veM6ePg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Generate and Deliver Interactive Communications with AEM Forms and AJO
 

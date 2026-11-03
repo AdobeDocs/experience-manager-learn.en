@@ -9,13 +9,24 @@ level: Intermediate
 doc-type: Article
 jira: KT-22059
 thumbnail: KT-22059.jpeg
-last-substantial-update: 2026-07-15
+last-substantial-update: 2026-07-15T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/Kf7XcpeUP9EDKOY-7dCGEp4PBo5E-mPOSIxXrTRfAYA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # HTTP request filters with Edge Functions
-
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
 
 Learn how to implement HTTP request filtering with AEM Edge Functions to rewrite or redirect requests, or modify HTTP responses.
 

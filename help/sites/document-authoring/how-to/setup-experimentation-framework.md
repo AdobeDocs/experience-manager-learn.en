@@ -11,7 +11,7 @@ duration: 112
 last-substantial-update: 2024-05-08T00:00:00.000Z
 jira: KT-15479
 exl-id: 9e767bd7-b86d-4dee-b980-77bd3485d307
-TQID: https://experienceleague.adobe.com/LAukkmhCZxii2rL93xeDdCbIHKyBs7J3muYn3SOmadw
+TQID: 'https://experienceleague.adobe.com/Yd6MU-NKWs6BByL32N9P6kCIs-q9MqiqLfrA-RWs5FA'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -34,6 +34,8 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

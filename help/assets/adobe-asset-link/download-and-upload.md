@@ -11,7 +11,7 @@ level: Beginner
 doc-type: Feature Video
 exl-id: dc69a95c-ab0b-4a2c-80a3-43a6a052c545
 duration: 198
-TQID: https://experienceleague.adobe.com/LZBWqOEYWfPjJX4-a5pa8PQDlMcMFdO-yNkhhW5shMY
+TQID: 'https://experienceleague.adobe.com/CbEtywtIO34airpH7OLLXOWl3qdhHO4JkHXqCaYqBTo'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets

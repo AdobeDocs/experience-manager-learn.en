@@ -9,10 +9,16 @@ role: Admin
 level: Intermediate
 exl-id: 62a36ab1-3245-43ac-b943-e28ff95661bf
 duration: 108
-TQID: https://experienceleague.adobe.com/4GS6675XOefdwTNF8aaVIzsW8AgvxYjuui1eTD7rYiQ
+TQID: 'https://experienceleague.adobe.com/YzGErpmnKUyeHnZr-eWAafdGbyJYS6Lt-cFOzyEH6t0'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
+    internal-label: Java Content Repository
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

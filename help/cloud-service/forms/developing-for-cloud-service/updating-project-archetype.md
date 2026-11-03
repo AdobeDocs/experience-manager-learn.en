@@ -11,7 +11,7 @@ feature: AEM Project Archetype
 jira: KT-9534
 exl-id: c2cd9c52-6f00-4cfe-a972-665093990e5d
 duration: 67
-TQID: https://experienceleague.adobe.com/0-rFpknwcHG1RLQpbirxySBf-crww9PhfFU2z-2s-is
+TQID: 'https://experienceleague.adobe.com/M6kNkJ6ptdwv5yqsK-nTKCXU9igSGIH3TV8mfgAWxLk'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

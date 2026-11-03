@@ -11,13 +11,22 @@ thumbnail: 337530.jpeg
 last-substantial-update: 2022-10-10T00:00:00.000Z
 exl-id: 66f627e4-863d-45d7-bc68-7ec108a1c271
 duration: 1053
-TQID: https://experienceleague.adobe.com/g2OW63h-Zc2De7Rc-LUzspeITTlfsQrtxi3kPO3JadA
+TQID: 'https://experienceleague.adobe.com/G07URiyMBQIrle3KfSNDV88n9tbW2FZmD1TM0fLj7fE'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
+  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
+subfeature_v2:
+  - id: b6950f16-0067-4287-be9d-5a68c8748b29
+    internal-label: OSGI configuration
+  - id: c35bc059-fd80-4a01-91a6-e48da3c76758
+    internal-label: Security practices
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

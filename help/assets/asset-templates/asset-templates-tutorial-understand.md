@@ -7,9 +7,10 @@ feature: Templates
 role: User
 level: Intermediate
 doc-type: Tutorial
+last-substantial-update: 2026-08-28T00:00:00.000Z
 exl-id: c418e94a-b18e-429a-b41c-2bf32e158598
 duration: 909
-TQID: https://experienceleague.adobe.com/SC0OHXIdW6baUPctGKHmYQKIMnnfAxTf4I1gZKH7ZFY
+TQID: 'https://experienceleague.adobe.com/L-k9X61grBQBziN7DdNvgyR2LBT5mme6LBuv6m5-FH4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -20,6 +21,12 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 752f9248-f39f-5793-a7dd-5ddafcd403c7
+    internal-label: Tagging
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,11 +34,15 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
 ---
-# Understanding InDesign files and Asset Templates in AEM Assets {#understanding-indesign-files-and-asset-templates-in-aem-assets}
+# InDesign files and Asset Templates {#indesign-files-and-asset-templates}
 
-This video tutorial walks through defining an InDesign file, and all the accompanying considerations, for use in AEM Assets' Asset Templates feature.
+A poorly tagged InDesign file is the most common reason Asset Templates fail to work correctly in AEM. This page explains how to structure and tag an InDesign file so AEM recognizes its editable fields, and how to turn that file into a working Asset Template. Get this step right, and your team can reuse the template to generate new print assets again and again, with no extra design work.
 
-## Constructing the InDesign template file {#constructing-the-indesign-template-file}
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+## Construct the InDesign template file {#constructing-the-indesign-template-file}
 
 >[!VIDEO](https://video.tv.adobe.com/v/19293?quality=12&learn=on)
 
@@ -64,7 +75,7 @@ This video tutorial walks through defining an InDesign file, and all the accompa
    >
    >Remember, a poorly constructed InDesign file is the most common cause for issues with AEM Asset Templates, so ensure the tagging and structure is clean and correct.
 
-## Creating and authoring an Asset Template in AEM Assets {#creating-and-authoring-an-asset-template-in-aem-assets}
+## Create and author an Asset Template {#creating-and-authoring-an-asset-template-in-aem-assets}
 
 >[!VIDEO](https://video.tv.adobe.com/v/19294?quality=12&learn=on)
 
@@ -81,11 +92,11 @@ This video tutorial walks through defining an InDesign file, and all the accompa
 6. Click **Done** to generate the final high-fidelity renditions of the Asset Template.
 7. Click on the Asset Template card to open, and review the Asset Renditions to download the high-fidelity renditions.
 
-## Additional Resources {#additional-resources}
+## Additional resources {#additional-resources}
 
-InDesign template file and supporting Images
-
-Download [InDesign template file and supporting Images](assets/asset-templates-tutorial-video--supporting-files-1.zip)
+Download the [InDesign template file and supporting images](assets/asset-templates-tutorial-video--supporting-files-1.zip).
 
 * [InDesign CC trial download](https://creative.adobe.com/products/download/indesign)
 * InDesign Server trial can be downloaded from [Adobe Prerelease site](https://www.adobeprerelease.com/) or [CC Enterprise customers can contact their Account Executive to request am InDesign Server trial license](https://www.adobe.com/products/indesignserver/faq.html)
+
+>[!ENDTABS]

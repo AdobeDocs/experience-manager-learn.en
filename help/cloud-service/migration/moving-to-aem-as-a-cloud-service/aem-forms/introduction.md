@@ -10,7 +10,7 @@ jira: KT-8637
 thumbnail: 336968.jpeg
 exl-id: 4d1aea2e-51f5-4752-be41-b08e8ccb6db9
 duration: 154
-TQID: https://experienceleague.adobe.com/Q7NGZLSJP2bLYJwIpQqUbxLU5fB6l-nLVC3wknweYlc
+TQID: 'https://experienceleague.adobe.com/cq2-hLojUNUpmt-20aTMoYnivjhf7AQYpjytBuKI8lA'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -19,9 +19,14 @@ feature_v2:
     internal-label: APIs
   - id: ae478996-b206-4712-9b0c-dc78a2644453
     internal-label: Integrations
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

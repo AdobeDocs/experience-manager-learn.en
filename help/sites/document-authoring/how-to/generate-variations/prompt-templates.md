@@ -11,7 +11,7 @@ duration: 145
 last-substantial-update: 2024-04-11T00:00:00.000Z
 jira: KT-15322
 exl-id: b32f342f-653b-4446-983a-0539a8e1eade
-TQID: https://experienceleague.adobe.com/2Q2OdADgMnm5qqeNaI9ZZM6MezgW69bgL1HeY6fyYxo
+TQID: 'https://experienceleague.adobe.com/NjSdu-8ciATtom2EqoJUVW9gvdZ2FhUcTIk2CQ3rYSc'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites

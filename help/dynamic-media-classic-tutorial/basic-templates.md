@@ -8,7 +8,7 @@ level: Beginner
 doc-type: Tutorial
 exl-id: d4e16b45-0095-44b4-8c16-89adc15e0cf9
 duration: 1338
-TQID: https://experienceleague.adobe.com/wXIbatSgvonHfhYre7kPXeuHWBogQOrL60eS7mpttNY
+TQID: 'https://experienceleague.adobe.com/XzvBBWj-flbFcqfIRM-FU9P2AUBbbnM0v0HUKS4tpTo'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -19,6 +19,16 @@ feature_v2:
     internal-label: Content management
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 subfeature_v2:
   - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
     internal-label: Dynamic Media Classic

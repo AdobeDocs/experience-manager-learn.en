@@ -11,7 +11,7 @@ level: Beginner
 last-substantial-update: 2022-09-03T00:00:00.000Z
 exl-id: 6fb3199a-02c9-48bc-a6fa-1f767cfd2f2a
 duration: 3508
-TQID: https://experienceleague.adobe.com/lefzXNty3PlStN4gpKRWgU16xaPgoqfkJ6kZOctDjuA
+TQID: 'https://experienceleague.adobe.com/89KViqjqOKszkFj7g7RG2Hil4lvUQK-ZhidFh-haMNs'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
 subfeature_v2:
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
     internal-label: Java Content Repository

@@ -9,10 +9,17 @@ thumbnail: 342374.jpeg
 recommendations: noDisplay, noCatalog
 exl-id: b2571a84-101f-4330-8a5f-9ef5e4344591
 duration: 286
-TQID: https://experienceleague.adobe.com/7v7m4udzJ0XukjWZAxV6XpnNcfHf4-m6E6g--PssR-8
+TQID: 'https://experienceleague.adobe.com/AFQapLxM4ZzCCt--GgKom8uyrboRug--jpThzzn6sic'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

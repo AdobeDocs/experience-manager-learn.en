@@ -9,7 +9,7 @@ exl-id: 0056971f-2f89-43b3-bb6f-dd16c2a50370
 thumbnail: 328618.jpg
 last-substantial-update: 2022-07-20T00:00:00.000Z
 duration: 626
-TQID: https://experienceleague.adobe.com/HVveHOVqQ0nfmAXDID-BlVpi-0QNNxFbtIooUfPQpWo
+TQID: 'https://experienceleague.adobe.com/npZPQTDNtzNKSpDTIeNQXuEMrYnOFmk4m5dWH0mj7Ac'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -26,6 +26,10 @@ feature_v2:
     internal-label: Authoring
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: d0406db4-695f-5f79-9cc5-258dde130d61
+    internal-label: Universal Editor
 subfeature_v2:
   - id: df6f8f89-5d09-489b-b250-e48ea4b6c168
     internal-label: Mobile

@@ -7,8 +7,21 @@ role: User
 level: Intermediate
 doc-type: Technical Video
 duration: 42
-last-substantial-update: 2026-06-15
+last-substantial-update: 2026-06-15T00:00:00.000Z
 jira: KT-21618
+TQID: 'https://experienceleague.adobe.com/low4t8kcD4NUUZvd38eIzP--B8s93uabbUh56F3cEzs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 
 # Deploy and Test the solution

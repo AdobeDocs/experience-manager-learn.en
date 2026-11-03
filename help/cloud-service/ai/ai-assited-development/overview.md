@@ -7,10 +7,40 @@ role: Developer
 level: Beginner
 doc-type: Article
 duration: 0
-last-substantial-update: 2026-04-24
+last-substantial-update: 2026-04-24T00:00:00.000Z
 jira: KT-20899
 thumbnail: KT-20899.pngKT-20899
 exl-id: 19b7ab0b-2f47-434a-a141-17701f432fac
+TQID: 'https://experienceleague.adobe.com/noge-tMqZXKWkspcf3fn2PbsR4HaJXjHp2ik3q-vH3k'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+    internal-label: AI Tools
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
 # AI-assisted development
 
@@ -39,7 +69,7 @@ For AEM as a Cloud Service projects, Adobe provides:
 
 - Agent Skills and AGENTS.md via [Adobe Skills for AI Coding Agents](https://github.com/adobe/skills)
 - Local MCP servers for the AEM SDK and local Dispatcher via the [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=mcp*&1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=3) portal
-- Adobe-hosted AEM MCP servers for content and Cloud Manager workflows from your IDE or chat application — see [MCP Servers in AEM](../mcp/overview.md)
+- The unified [AEM MCP Server](../mcp/overview.md) (content, Experience Governance) plus the separate Cloud Manager MCP server, from your IDE or chat application
 
 The following sections summarize each item. Use the **Setup** and **Use Cases** sections at the end of this page for installation and walkthroughs for AI-assisted development.
 
@@ -66,7 +96,7 @@ For **local development** against the AEM SDK and Dispatcher, install these **lo
 - **AEM Quickstart Local MCP server**: Exposes live runtime data from a local AEM SDK instance to support troubleshooting and development. For more information, see [AEM Quickstart MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/local-development-with-ai-tools#aem-quickstart-mcp-server).
 - **Dispatcher Local MCP server**: Enables runtime validation and inspection of a local Dispatcher instance. For more information, see [Dispatcher MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/local-development-with-ai-tools#dispatcher-mcp-server).
 
-For Adobe-hosted AEM MCP servers (for example, content, read-only content, and Cloud Manager), see [MCP Servers in AEM](../mcp/overview.md).
+Adobe-hosted AEM MCP servers include the unified [AEM MCP Server](../mcp/overview.md) (content, Experience Governance) and the separate Cloud Manager MCP server.
 
 ## Setup
 

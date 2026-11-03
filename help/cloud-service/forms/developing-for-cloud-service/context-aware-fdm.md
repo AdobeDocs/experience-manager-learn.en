@@ -11,7 +11,7 @@ feature: Developer Tools
 jira: KT-10423
 exl-id: 2ce0c07b-1316-4170-a84d-23430437a9cc
 duration: 80
-TQID: https://experienceleague.adobe.com/AjuZRIIoPqJAD24gzeQQefJFMOhtB9vs26NcaTZGiPo
+TQID: 'https://experienceleague.adobe.com/f9NJBrSacGVJTkvHresf4FjiLjm5PMkiVWzbOiZyQWI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

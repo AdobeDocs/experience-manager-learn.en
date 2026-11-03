@@ -12,10 +12,16 @@ last-substantial-update: 2024-08-16T00:00:00.000Z
 recommendations: noDisplay, noCatalog
 jira: KT-15844
 exl-id: 82b607e9-8f2e-4e81-b3ee-a50a660be9a0
-TQID: https://experienceleague.adobe.com/SVpvyi40iX0wTgESWdg469CVX8wNPf-WmVBz6Q5YTQ8
+TQID: 'https://experienceleague.adobe.com/E2jsj1BzIVsPNYRX3QfyDgUuf0x7KUv-XAH91wNv4u8'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,6 +36,8 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Import sites into AEM Sites with Edge Delivery Services
 

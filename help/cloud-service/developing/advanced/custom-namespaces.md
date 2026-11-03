@@ -11,7 +11,7 @@ thumbnail: 3412319.jpg
 last-substantial-update: 2022-12-14T00:00:00.000Z
 exl-id: e86ddc9d-ce44-407a-a20c-fb3297bb0eb2
 duration: 496
-TQID: https://experienceleague.adobe.com/dSgNWLLCxMtU-eYF43kC42Hvh1nCplYgDdOSKXbTJDc
+TQID: 'https://experienceleague.adobe.com/xg9tVe4SUJCSRua-TV6UkI219V8b3KezICbpSN9YJvo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -26,6 +26,10 @@ topic_v2:
     internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: da31900f-0b2e-4267-a5f8-69290b954752
+    internal-label: Customer experience management
 ---
 # Custom namespaces
 

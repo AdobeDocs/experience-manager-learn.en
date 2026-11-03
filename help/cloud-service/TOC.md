@@ -6,6 +6,7 @@ solution: Experience Manager as a Cloud Service, Experience Manager
 sub-product: Experience Manager as a Cloud Service
 version: Experience Manager as a Cloud Service
 team: TM
+nudge: true
 ---
  
 # Adobe Experience Manager as a Cloud Service Tutorials {#cloud-service}
@@ -21,7 +22,9 @@ team: TM
   + [Cloud Manager](./introduction/cloud-manager.md)
   + Strategy & thought leadership{#strategy}
     + [Experience Manager - Governance and staffing models and archetypes](./introduction/experience-manager-governance-and-staffing-models.md)
-+ [Experience Hub](./experience-hub.md)
++ Coworker{#coworker}
+  + [Overview](https://experienceleague.adobe.com/en/docs/coworker/content/home){target=_blank}
+  + [AEM in Coworker](./coworker/aem-in-coworker.md)
 + AI {#ai}
   + [Overview](./ai/overview.md)
   + [Set up and Provisioning](./ai/setup.md)
@@ -37,19 +40,20 @@ team: TM
     + [Content Advisor Agent](./ai/agents/content-advisor-agent.md)
     + [Governance Agent](./ai/agents/governance-agent.md)
     + [Dev Agent and CI/CD Troubleshooting](./ai/agents/development-agent-troubleshoot-ci-cd-pipeline.md)
-  + MCP Servers {#mcp-servers}
+  + AEM MCP Server {#mcp-servers}
     + [Overview](./ai/mcp/overview.md)
-    + [AEM MCP server](./ai/mcp/mcp-server.md)
-    + [Accelerate AEM Content Operations with the MCP Server](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
-    + [Cloud Manager MCP Server](./ai/mcp/cloud-manager.md)
-    + [Governance MCP Server](./ai/mcp/experience-governance-mcp-server.md)
-    + [Content AI MCP Server](./ai/mcp/content-ai-mcp-server.md)
+    + [Create test content](./ai/mcp/accelerate-content-operations-with-aem-mcp-server.md)
+    + [Manage your website with AI](./ai/mcp/manage-your-website-with-ai.md)
+    + [Run and debug pipelines](./ai/mcp/cloud-manager.md)
+    + [Check brand compliance](./ai/mcp/experience-governance-mcp-server.md)
+    + [Search AEM content](./ai/mcp/content-ai-mcp-server.md)
   + AI-assisted development {#ai-assisted-development}
     + [Overview](./ai/ai-assited-development/overview.md)
     + Setup{#setup}
       + [Agent Skills](./ai/ai-assited-development/setup/agent-skills.md)
     + Use Cases{#use-cases}
       + [Component Development](./ai/ai-assited-development/use-cases/component-development.md)
++ [Experience Hub](./experience-hub.md)
 + Experience Cloud integrations{#integrations}
   + [Integrations](./integrations/experience-cloud.md)
   + [AEM Headless and Target](./integrations/target.md)
@@ -127,9 +131,6 @@ team: TM
           + [Bulk Property Update](./developing/extensibility/ui/content-fragments/examples/console-bulk-property-update.md)
           + [Custom Grid Columns](./developing/extensibility/ui/content-fragments/examples/custom-grid-columns.md)
           + [Export as XML](./developing/extensibility/ui/content-fragments/examples/editor-export-to-xml.md)
-          + [RTE Toolbar Button](./developing/extensibility/ui/content-fragments/examples/editor-rte-toolbar.md)
-          + [RTE Widgets](./developing/extensibility/ui/content-fragments/examples/editor-rte-widget.md)
-          + [RTE Badges](./developing/extensibility/ui/content-fragments/examples/editor-rte-badges.md)
           + [Custom fields](./developing/extensibility/ui/content-fragments/examples/editor-custom-field.md)
   + Development Basics{#basics}
     + [AEM SDK](./developing/basics/aem-sdk.md)
@@ -182,7 +183,7 @@ team: TM
     + [Overview](./debugging/cloud-service/overview.md)
     + [Logs](./debugging/cloud-service/logs.md)
     + [Build and Deployment](./debugging/cloud-service/build-and-deployment.md)
-    + [Developer Console](./debugging/cloud-service/developer-console.md)
+    + [Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-developer-console){target=_blank}
     + [Repository Browser](./debugging/cloud-service/repository-browser.md)
     + Risks{#risks}
       + {hide-from-toc} [Traversal warnings](./debugging/cloud-service/risks/traversals.md)
@@ -235,6 +236,9 @@ team: TM
   + [Overview](./authentication/authentication.md)
   + [SAML 2.0](./authentication/saml-2-0.md)
   + [SAML login hooks](./authentication/saml-2-0-login-hook.md)
++ Observability via OpenTelemetry{#observability-via-opentelemetry}
+  + [Overview](./observability/opentelemetry-in-aem.md)
+  + [Configure OpenTelemetry](./observability/configure-opentelemetry.md)
 + Advanced Networking{#networking}
   + [Overview](./networking/advanced-networking.md)
   + [Flexible port egress](./networking/flexible-port-egress.md)
@@ -316,6 +320,10 @@ team: TM
         + [12 - Embed Adaptive Forms theme in an AEM Sites theme](./forms/adding-af-forms-theme-to-site-theme/integrate-adaptive-forms-styling-into-an-aem-sites-theme.md)
         + [13 - Deploy to development environment](./forms/developing-for-cloud-service/deploy-to-dev-environment.md)
         + [14 - Updating maven archetype](./forms/developing-for-cloud-service/updating-project-archetype.md)
+    + Create Adaptive Forms with Coworker{#aem-forms-coworker}
+        + [Create Form in a Sites page](./forms/aem-forms-coworker/using-coworker-with-aem-forms.md)
+        + [Create Rule with Coworker](./forms/aem-forms-coworker/zip-code-lookup.md)
+        + [Configure submit action](./forms/aem-forms-coworker/configure-submit-action.md)
     + Create Adaptive Form{#create-first-af}
         + [Introduction](./forms/create-first-af/introduction.md)
         + [Create Theme](./forms/create-first-af/create-theme.md)
@@ -328,6 +336,9 @@ team: TM
         + [Configure assets panel](./forms/create-first-af/configure-assets-panel.md)
         + [Configure start panel](./forms/create-first-af/configure-start-panel.md)
         + [Add and Configure toolbar](./forms/create-first-af/add-configure-toolbar.md)
+    + Render Adaptive Forms Headlessly with Node.js{#aem-headless-forms}
+        + [Introduction](./forms/aem-headless-forms/introduction.md)
+        + [Code walkthrough](./forms/aem-headless-forms/code-walkthrough.md)
     + Custom submit service with headless form{#custom-submit-headless-forms}
         + [1 - Introduction](./forms/custom-submit-headless-forms/introduction.md)
         + [2 - Create custom submit service](./forms/custom-submit-headless-forms/custom-submit-service.md)
@@ -335,6 +346,9 @@ team: TM
     + Automate Forms Portal Reminders with AJO{#automate-forms-portal-reminder-emails}
         + [Implementation Steps](./forms/forms-completion-reminder-portal/use-case-implementation.md)
         + [Dashboard](./forms/forms-completion-reminder-portal/build-dashboard.md)
+    + Secure Forms Portal with Entra{#aem-with-entra-id}
+        + [Configure Entra ID for authentication](./forms/aem-with-entra-id/secure-forms-portal-wth-entra.md)
+        + [Configure AEM with SAML](./forms/aem-with-entra-id/aem-configuration.md)
     + Reminding users to submit form{#form-completion-reminder}
         + [1 - Introduction](./forms/form-completion-reminder/introduction.md)
         + [2 - Event Schema](./forms/form-completion-reminder/event-schema.md)
@@ -342,6 +356,10 @@ team: TM
         + [4 - AJO Events](./forms/form-completion-reminder/create-custom-events-ajo.md)
         + [5 - Create Journey](./forms/form-completion-reminder/create-journey.md)
         + [6 - Create AEM Page](./forms/form-completion-reminder/create-page-form.md)
+    + Generic Map Component{#generic-map-component}
+        + [1 - Introduction](./forms/map-component/introduction.md)
+        + [2 - Using the component](./forms/map-component/customer-integration.md)
+ 
     + Create address block component{#create-address-block}
         + [1 - Introduction](./forms/create-address-block-component/introduction.md)
         + [2 - Setup](./forms/create-address-block-component/set-up.md)
@@ -562,3 +580,4 @@ team: TM
       + {hide-from-toc} [Best Practices](./expert-resources/cloud-5/season-4/cloud5-edge-delivery-services-best-practices.md)
       + {hide-from-toc} [Search optimizations](./expert-resources/cloud-5/season-4/cloud5-search-optimization.md)
       + {hide-from-toc} [Google Maps](./expert-resources/cloud-5/season-4/cloud5-google-maps.md)
+

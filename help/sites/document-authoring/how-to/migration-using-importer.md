@@ -11,7 +11,7 @@ duration: 156
 last-substantial-update: 2024-06-07T00:00:00.000Z
 jira: KT-15675
 exl-id: a357aaaf-5a88-416a-8c3e-e5a41c71f2f5
-TQID: https://experienceleague.adobe.com/ryioaKI2c9Tgff60o9QazC4Fga-L9XmLOZR38Xebq2M
+TQID: 'https://experienceleague.adobe.com/OXM2seWh4Vq-CT8cNFKOBSO6c2UDHCDE0Z-0dmFa73Y'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -20,6 +20,8 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

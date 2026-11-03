@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 4e69e115-12a6-4a57-90da-b91e345c6723
 last-substantial-update: 2023-08-08T00:00:00.000Z
 duration: 564
-TQID: https://experienceleague.adobe.com/Taf73Atgfc9r7JyvlwXbOOvrHtvgAIeJ3riiamKBmMc
+TQID: 'https://experienceleague.adobe.com/eQnpgiPX6kiBN0jzKaOqbOjaj6qqDPeSol7wQYgkAaE'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager

@@ -5,11 +5,33 @@ version: Experience Manager as a Cloud Service
 role: Developer, Admin
 level: Beginner
 doc-type: tutorial
-duration: null
+duration: 
 jira: KT-20279
 thumbnail: KT-20279.png
-last-substantial-update: null
+last-substantial-update: 
 exl-id: 7807929d-079c-478e-baab-921c74026a50
+TQID: 'https://experienceleague.adobe.com/EhJePntDb1harvxu6OCSQ3cdNMIYfl2Uc21xHerpH6I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Troubleshoot CI/CD Pipeline using AEM Development Agent
 

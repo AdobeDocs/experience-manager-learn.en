@@ -12,13 +12,15 @@ last-substantial-update: 2024-05-17T00:00:00.000Z
 jira: KT-15505
 thumbnail: KT-15505.jpeg
 exl-id: 830c2486-099b-454f-bc07-6bf36e81ac8d
-TQID: https://experienceleague.adobe.com/gM0DCuWHlkLJokDZTfu37Ly-Ok7zay375QreEqhzH-I
+TQID: 'https://experienceleague.adobe.com/-I-uByFa7xEdyq7qnniCz2I0qKgaQG1ZZnARxZ70Cjk'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

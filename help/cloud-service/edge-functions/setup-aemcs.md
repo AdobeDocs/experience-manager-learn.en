@@ -9,13 +9,33 @@ level: Intermediate
 doc-type: Tutorial
 jira: KT-21734
 thumbnail: KT-21734.jpeg
-last-substantial-update: 2026-06-25
+last-substantial-update: 2026-06-25T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/JIHPWK7mo-7fPcA4xsQjIyF6XZ1ne-m5-kbEfxMY9Ss'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Set up AEM Edge Functions on AEM as a Cloud Service
-
->[!IMPORTANT]
->
->AEM Edge Functions is currently in beta. Features and documentation may change. For feedback, contact [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
 
 Learn how to set up AEM Edge Functions on AEM as a Cloud Service environment.
 
@@ -49,7 +69,7 @@ Ensure the following are in place before starting.
 
 - [Node.js](https://nodejs.org/) and npm installed locally
 - A GitHub account to create a project from the boilerplate template
-- Access to an AEM as a Cloud Service environment with **Cloud Manager** Deployment Manager role, or **AEM Administrator** Product Profile on the author instance
+- Access to an AEM as a Cloud Service environment with **AEM Administrator** Product Profile on the author instance
 - The [WKND Sites project](https://github.com/adobe/aem-guides-wknd) or your own AEM site project cloned locally
 
 >[!NOTE]
@@ -285,6 +305,17 @@ For more information on supported properties, see [edgeFunctions.yaml reference]
 kind: 'CDN'
 version: '1'
 data:
+  requestTransformations:
+    rules:
+      # The /weather response depends on the caller's IP-based geolocation. Fold the
+      # client IP into the cache key (as an `ip` query parameter) so the response can be
+      # cached per client instead of opting out of caching with skipCache.
+      - name: add-client-ip-to-weather
+        when: { reqProperty: path, equals: "/weather" }
+        actions:
+          - type: set
+            queryParam: ip
+            value: { reqProperty: clientIp }
   originSelectors:
     rules:
       - name: route-weather-to-edge-function
@@ -292,19 +323,17 @@ data:
         action:
           type: selectAemOrigin
           originName: edgefunction-my-edge-function
-          skipCache: true
       - name: route-hello-world-to-edge-function
         when: { reqProperty: path, equals: "/hello-world" }
         action:
           type: selectAemOrigin
           originName: edgefunction-my-edge-function
-          skipCache: true
 ```
 
 Key call outs:
     - The `originName` must follow the pattern `edgefunction-<edge-function-name>`, where `<edge-function-name>` is the name of the AEM Edge Function declared in `edgeFunctions.yaml`.
     - The `type` must be `selectAemOrigin`.
-    - The `skipCache` is set to `true` to bypass the CDN cache for the request.
+    - Responses are cached at the CDN according to their `Cache-Control` headers — these routes intentionally do not set `skipCache: true`. `/hello-world` is static and cached directly; `/weather` varies by the caller's IP-based location, so the request transformation folds the client IP into the cache key (an `ip` query parameter) to keep it cacheable per client. See [Caching in AEM Edge Functions](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/edge-functions-caching).
 
 For more information, see [Origin selectors](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#origin-selectors). Note that the `cdn.yaml` file also supports traffic filter rules, request and response transformation, and other CDN features. For more information, see [Configuring traffic at the CDN](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic#initial-setup).
 
@@ -420,3 +449,4 @@ You've successfully set up AEM Edge Functions on your AEM as a Cloud Service env
 - [Traffic Filter and WAF Rules](../security/traffic-filter-and-waf-rules/overview.md)
 - [CDN configuration in AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/cdn-configuring-traffic)
 - [Use config pipelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/config-pipeline)
+- [Publish Delivery Transformer example](https://github.com/adobe/aem-edge-functions-examples/blob/main/examples/publish-delivery-transformer/README.md)

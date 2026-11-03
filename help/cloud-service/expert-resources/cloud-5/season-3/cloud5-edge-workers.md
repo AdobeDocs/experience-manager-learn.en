@@ -9,13 +9,18 @@ level: Intermediate
 recommendations: noDisplay, noCatalog
 exl-id: 7b39d955-9f8a-45cc-bc36-be6d454f5578
 duration: 282
-TQID: https://experienceleague.adobe.com/4if9q8oqhn56jwHBEyXZtwh7CIvPwnSals2Y2Op8hPI
+TQID: 'https://experienceleague.adobe.com/-6-CIXiXxa9cosXI9TqzILHlCcpiwkT48UqimYDR5po'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
     internal-label: APIs
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

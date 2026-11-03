@@ -6,9 +6,27 @@ role: Leader, User
 level: Beginner
 doc-type: Feature Video
 duration: 285
-last-substantial-update: 2026-05-21
+last-substantial-update: 2026-05-21T00:00:00.000Z
 jira: KT-21370
 thumbnail: KT-21370.jpeg
+TQID: 'https://experienceleague.adobe.com/viqhGUk9nveCdP-Tnrgm-21DgDsKyZvxT7EL0UP0tEQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 
 # Content Advisor Agent

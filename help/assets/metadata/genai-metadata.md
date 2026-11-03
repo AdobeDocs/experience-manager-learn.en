@@ -1,16 +1,20 @@
 ---
-title: GenAI metadata and search
-description: Learn how AEM Assets as a Cloud Service uses GenAI to generate and augment asset metadata to aid in content management and discovery.
+title: AI-generated metadata
+description: Learn how AEM Assets uses GenAI to generate and augment asset metadata for content management and discovery.
+solution: Experience Manager, Experience Manager Assets
+sub-product: Experience Manager Assets
+feature-set: Experience Manager Assets
 topic: Content Management
 version: Experience Manager as a Cloud Service
 role: Leader, User
 level: Beginner, Intermediate, Experienced
 doc-type: Feature Video
 duration: 233
-last-substantial-update: 2025-09-15T00:00:00.000Z
+team: TM
+last-substantial-update: 2026-08-27T00:00:00.000Z
 jira: KT-17784
 exl-id: 4b850887-d758-4a85-96ea-16913abc7505
-TQID: https://experienceleague.adobe.com/kDoa2UUmCemVyBmszjyIVD-jAxm42-OCjNB2dnlDrW8
+TQID: 'https://experienceleague.adobe.com/Y5mjTngh8L5KhG6VlmhGL4xdSJ1jMtDOF1V83SeK490'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -25,6 +29,10 @@ feature_v2:
     internal-label: Personalization
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
     internal-label: Generative AI
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 752f9248-f39f-5793-a7dd-5ddafcd403c7
+    internal-label: Tagging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -35,6 +43,8 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -44,9 +54,19 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
 ---
-# GenAI metadata
+# AI-generated metadata {#genai-metadata}
 
-Learn how AEM Assets as a Cloud Service uses Adobe GenAI to generate and augment asset metadata to aid in content management and discovery.
+Teams cannot write titles, descriptions, and keywords by hand for thousands of assets, and inconsistent tags make search unreliable. AEM Assets uses generative AI to create and enrich this metadata as you add files, so every asset gets a consistent, searchable description without extra work from your team. This helps people find the right asset faster and keeps metadata quality consistent across large libraries.
+
+>[!BEGINTABS]
+
+>[!TAB Assets view]
+
+In the Assets view, Adobe AI generates titles, descriptions, and other metadata for your assets as you upload them. This saves time and keeps tagging consistent at scale. This video shows the whole flow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3474891/?learn=on&enablevpops)
+
+>[!ENDTABS]

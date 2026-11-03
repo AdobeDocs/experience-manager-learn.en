@@ -10,7 +10,7 @@ topic: Integrations
 thumbnail: 335423.jpg
 exl-id: 0b543c6b-9cfd-4fac-b8d0-33153c036f4b
 duration: 60
-TQID: https://experienceleague.adobe.com/HK7IVPPpt9X29DNkI-1c8SCCxNCwriL7fXLBnHJHU0k
+TQID: 'https://experienceleague.adobe.com/4pEe9klLC6Cz-FIsBsN9Ur-ZTXcJknDt8-x1lKPr1SU'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -23,6 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Putting it all together
 

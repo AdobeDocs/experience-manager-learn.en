@@ -12,12 +12,17 @@ last-substantial-update: 2022-10-03T00:00:00.000Z
 doc-type: Technical Video
 exl-id: 40bb55f9-011d-4261-9f44-b1104a591252
 duration: 937
-TQID: https://experienceleague.adobe.com/jWw-CQp-YeLMzjISDwc2zRfSNzvrMKMk9zEzN1zEc7c
+TQID: 'https://experienceleague.adobe.com/rZZyKE1QRJV51H7b5IQ8-xanYOWPh4GuAnYEr5BFr0E'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

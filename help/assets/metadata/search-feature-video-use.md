@@ -4,6 +4,16 @@ description: In these videos, we look at some enhancements to Assets search intr
 version: Experience Manager 6.4, Experience Manager 6.5
 doc-type: Feature Video
 duration: 373
+TQID: 'https://experienceleague.adobe.com/mwMFHjkb1rAsXV4--Eg4IJePI5zcdtxRRp792v0mdrA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 
 # Using Search in AEM Assets{#using-search-in-aem-assets}

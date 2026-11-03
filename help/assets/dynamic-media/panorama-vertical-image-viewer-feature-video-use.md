@@ -9,7 +9,7 @@ level: Beginner
 doc-type: Feature Video
 exl-id: 6b2f7533-8ce0-4134-b1ae-b3c5d15a05e6
 duration: 535
-TQID: https://experienceleague.adobe.com/t90Zw7V7ah2x-SGVLJyFO7SeKsSmbpiT7GgAZKYgJ4Y
+TQID: 'https://experienceleague.adobe.com/hYPfEn-FNe1pwXBY8gqaqIhEp3v5llvYVBwlN5fVQy0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
 subfeature_v2:
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
     internal-label: Hybrid mode
@@ -33,6 +35,8 @@ subfeature_v2:
     internal-label: Video profiles
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
     internal-label: Scene7 mode
+  - id: b1c2c8dc-d13a-43c3-9c5b-efc536a708ca
+    internal-label: 360 VR Video
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

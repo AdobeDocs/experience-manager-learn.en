@@ -12,13 +12,19 @@ exl-id: 52dd8a3f-6461-4acb-87ca-5dd9567d15a6
 last-substantial-update: 2022-10-01T00:00:00.000Z
 thumbnail: KT-781.jpg
 duration: 405
-TQID: https://experienceleague.adobe.com/-AjxA4Q15tIISPLHgPRPIjd7s1t3xs2F2Gq8rf42xsM
+TQID: 'https://experienceleague.adobe.com/fa1r9yAYMHWTAZN-9Ktuwd078OhyuRBvPooWZKTaBG8'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 3aa2a621-ec4f-5c9b-bbb0-bd5a3b1279a6
+    internal-label: User and Groups
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

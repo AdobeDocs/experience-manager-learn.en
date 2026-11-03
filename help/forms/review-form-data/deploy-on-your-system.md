@@ -10,15 +10,24 @@ level: Experienced
 last-substantial-update: 2023-01-22T00:00:00.000Z
 exl-id: 98c2759a-6995-4664-9c96-9062b049caf4
 duration: 12
-TQID: https://experienceleague.adobe.com/BUGBezPn-ol7x1Gs4s4lFQPxGyxprU3lw4pWQJdnbyQ
+TQID: 'https://experienceleague.adobe.com/nWW1ZHKhb031Y-yXIAs63DnBCbV9pk7R5JNrnRrpewM'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Deploy assets on your system
 

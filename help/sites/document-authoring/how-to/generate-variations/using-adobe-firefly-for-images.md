@@ -11,7 +11,7 @@ duration: 101
 last-substantial-update: 2024-05-08T00:00:00.000Z
 jira: KT-15432
 exl-id: e6085ece-f265-4a16-98f7-2f8218dab730
-TQID: https://experienceleague.adobe.com/1FoQ2hzaBEpbFmfcfUyGCmFvpTdAi0iBBFOD-a5ZotI
+TQID: 'https://experienceleague.adobe.com/saz8sFtgd2VVlnQJffjKT2qBUaEuZyOw0HPq2mK7Uk8'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -39,6 +39,8 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Generate Variations - Use Adobe Firefly to create images in Edge Delivery Services
 

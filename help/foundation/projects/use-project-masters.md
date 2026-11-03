@@ -11,10 +11,13 @@ thumbnail: 17740.jpg
 doc-type: Feature Video
 exl-id: 78ff62ad-1017-4a02-80e9-81228f9e01eb
 duration: 260
-TQID: https://experienceleague.adobe.com/DYfZZm5y7WE4Ljck8ElmrtvgElS4oihCtI4k-RHUB44
+TQID: 'https://experienceleague.adobe.com/Lp-wbzmR1mmVLf0BV9qw5mcdq7kkkAZBmigzJtuVRLE'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

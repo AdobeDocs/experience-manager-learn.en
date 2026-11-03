@@ -11,7 +11,7 @@ thumbnail: 35156.jpg
 doc-type: Feature Video
 exl-id: 8462e2e3-3279-4e80-9c22-0dd7077d3f27
 duration: 462
-TQID: https://experienceleague.adobe.com/VpmLUgZpUR9xd-d-CleneFJGAq3aoi-N8NEPc6aHIUk
+TQID: 'https://experienceleague.adobe.com/tgRjX-I3OwVptqOBN9YgU-jdLgdOOoGjz5dWR-NCTlY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -24,6 +24,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: fa7b95c2-9969-5924-a7c7-8cde1e7a2e26
+    internal-label: 3D Assets
 subfeature_v2:
   - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
     internal-label: Components

@@ -6,12 +6,12 @@ topic: Content Management
 feature: Templates
 role: User
 level: Beginner
-last-substantial-update: 2022-09-01T00:00:00.000Z
+last-substantial-update: 2026-08-28T00:00:00.000Z
 thumbnail: 25170.jpg
 doc-type: Feature Video
 exl-id: 45e0f3d5-db56-44e7-ad68-4d60991a6d77
 duration: 737
-TQID: https://experienceleague.adobe.com/m9c4thOdGsXCTq8opWSkFukOcMPUnhrN77LhUEkld-c
+TQID: 'https://experienceleague.adobe.com/h8qIUyQ6eTENsV7YQ9NSAVTwgKZQYz3rBB3jLZsz0Yg'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -20,6 +20,8 @@ product_v2:
 feature_v2:
   - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
     internal-label: Content management
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -32,22 +34,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Using Asset Templates with AEM Assets and InDesign Server{#using-asset-templates-with-aem-assets-and-indesign-server}
+# Asset Templates with InDesign Server {#using-asset-templates-with-aem-assets-and-indesign-server}
 
-AEM Assets Template lets marketers create, manage and deliver digital assets for digital and print. Creating marking brochures, business cards, flyers, ads and post cards are much easier with Assets Templates when integrated with InDesign server.
+Marketers often need many versions of the same print piece, such as brochures, business cards, flyers, and postcards, for different regions or campaigns. Asset Templates combine InDesign Server with AEM Assets so you build a design once and generate each new version automatically. This cuts the manual design work for every variation and keeps your print assets on brand.
 
 >[!NOTE]
 >
->For steps on configuring InDesign Server please review [Set up Assets Templates with InDesign Server](asset-templates-technical-video-setup.md).
+>For steps on configuring InDesign Server, see [Set up Asset Templates with InDesign Server](asset-templates-technical-video-setup.md).
 
-## Overview {#overview}
+>[!BEGINTABS]
 
-This video walks through the concepts and steps for generating print-ready assets in AEM, using Adobe InDesign, Adobe InDesign Server and AEM Assets.
+>[!TAB Admin view]
+
+## Generate print-ready assets {#overview}
+
+This video walks through the concepts and steps you follow to generate print-ready assets in AEM with Adobe InDesign, InDesign Server, and AEM Assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25170?quality=12&learn=on)
 
-## Technical overview {#technical-overview}
+## See how AEM composes assets with InDesign {#technical-overview}
 
-This video provides a more technical overview of AEM Assets Assert Template functionality, and how AEM facilitates the composition of AEM Assets and contents by way of InDesign to create rich, compelling print experiences.
+A more technical look at how AEM facilitates the composition of AEM Assets and content by way of InDesign, to create rich, compelling print experiences.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17071?quality=12&learn=on)
+
+>[!ENDTABS]

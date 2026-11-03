@@ -12,7 +12,7 @@ doc-type: Tutorial
 exl-id: 6d0fdc4d-d85f-4966-8f7d-d53506a7dd08
 recommendations: noDisplay, noCatalog
 duration: 198
-TQID: https://experienceleague.adobe.com/uuxRNjCFt8jzl3BswtywpEAiqm30lRjQKAVjBagWFvQ
+TQID: 'https://experienceleague.adobe.com/TfHwLlodBAiFY3GKh8kGNBO6PdqWPa1zFDsHxzFKDE0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites

@@ -12,7 +12,7 @@ jira: KT-7147
 thumbnail: 331754.jpg
 exl-id: e406fe4d-f0b6-4e5d-9e18-c28d30a456c7
 duration: 73
-TQID: https://experienceleague.adobe.com/KDW43c0iA1lbMmNA5E7GwHEcFGKMzj9-gf-ZchCBnHk
+TQID: 'https://experienceleague.adobe.com/90bEvEb7BfPvQGhjAC3WRmeovFnZ468ZOa6bgclpcw8'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -27,6 +27,11 @@ feature_v2:
     internal-label: Integrations
   - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
     internal-label: APIs
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

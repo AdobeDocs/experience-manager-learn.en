@@ -1,6 +1,6 @@
 ---
 title: Download
-description: Learn how to download assets and their renditions to your local machine for use and sharing.
+description: Learn how to download assets and their renditions to your local machine, so you can use or share them.
 feature: Asset Management
 version: Experience Manager as a Cloud Service
 jira: KT-4300
@@ -8,11 +8,11 @@ thumbnail: 32194.jpg
 topic: Content Management
 role: User
 level: Beginner
-last-substantial-update: 2022-06-14T00:00:00.000Z
+last-substantial-update: 2026-08-28T00:00:00.000Z
 doc-type: Feature Video
 exl-id: 76ff5acd-63e3-4266-8458-30735e90e2e2
 duration: 140
-TQID: https://experienceleague.adobe.com/Gb9eLuPesgU3ocI9pLToYEGmz-QRhb5Ub-VAZdxzkZA
+TQID: 'https://experienceleague.adobe.com/aceuILRlCs3xbG6cfMo0vMYpPp8jpRobI7Jem27DeXQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -23,6 +23,8 @@ feature_v2:
     internal-label: Content management
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
     internal-label: Dynamic Media
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,8 +35,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 ---
-# Download
+# Download {#download}
 
-Learn how to download assets and their renditions to your local machine for use and sharing.
+Sometimes you need a copy of an asset outside AEM, for example to include it in a presentation, send to a partner, or edit offline. Download lets you save assets and their renditions directly to your local machine, in the file size and format you need. You can download a single asset or bundle many assets, folders, or collections into one ZIP file.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+In the Admin view, select one or more assets, folders, or collections and tap download to choose which renditions to include and how to organize the resulting ZIP file.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35090?quality=12&learn=on)
+
+>[!ENDTABS]

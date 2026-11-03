@@ -11,10 +11,16 @@ exl-id: d5d59ef5-9343-4ac2-9053-a010decdb9b6
 last-substantial-update: 2022-08-15T00:00:00.000Z
 thumbnail: cm-pipeline.jpg
 duration: 619
-TQID: https://experienceleague.adobe.com/eoG0JpCPzza0jJdO-QxFnl1GImw8OIYauoVroxXaWhw
+TQID: 'https://experienceleague.adobe.com/fBQnJm1AwoWMmAnostD7tA3gM8WUXY1irTWtNRMMzI4'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+subfeature_v2:
+  - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
+    internal-label: Cloud Manager APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

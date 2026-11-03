@@ -11,7 +11,7 @@ thumbnail: 32147.jpg
 doc-type: Feature Video
 exl-id: d4f33657-d3b1-46d3-848c-8b73ce149797
 duration: 431
-TQID: https://experienceleague.adobe.com/4cYYu35ABPUunJ3Ye3cIgIyjebPqfWIin8pHkXssZUM
+TQID: 'https://experienceleague.adobe.com/M0cC9HTAwhs2I9wyshXdKuyUMI6I-8Mgdsl4LZZhzfQ'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -20,6 +20,8 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 subfeature_v2:
   - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
     internal-label: Page editor

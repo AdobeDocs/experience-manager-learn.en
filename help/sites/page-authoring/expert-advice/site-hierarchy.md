@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 doc-type: Article
 exl-id: c88c3ec7-9060-43e2-a6a2-d47bba6f7cf3
 duration: 437
-TQID: https://experienceleague.adobe.com/aKTnhfx0yzNVcWu-pH-K2x6P-AVP8wh2mWRBO6P5y1g
+TQID: 'https://experienceleague.adobe.com/kskriJ2gLIP1zOwMWZzIB1WFNCTqc2oL2RLWuFVnK44'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -18,6 +18,14 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: 752f9248-f39f-5793-a7dd-5ddafcd403c7
+    internal-label: Tagging
+  - id: ad568314-3f47-59ac-a962-866ba027884e
+    internal-label: Learn From Your Peers
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

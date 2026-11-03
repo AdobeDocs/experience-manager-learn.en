@@ -6,7 +6,7 @@ jira: KT-3289
 last-substantial-update: 2023-09-26T00:00:00.000Z
 exl-id: 650ba2d9-6083-4772-84c5-1cdb97b5f0e9
 duration: 434
-TQID: https://experienceleague.adobe.com/I7xtleMYWeK9CaJNR5zbGIoSYGsK4QTaqPdg9V2kzgk
+TQID: 'https://experienceleague.adobe.com/JvSck0FRkgjqwRVfPOBzPpJzgNEQNRJBvptsEfusxZ0'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -31,6 +31,19 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
 ## Staff picks
 
 <table>
+   <td>
+      <a href="./debugging/aem-sdk-local-quickstart/overview.md">
+      <img alt="CX Enterprise Coworker and AEM" src="./coworker/assets/coworker/coworker-hero.png"/>
+      </a>
+      <div>
+         <a href="./coworker/aem-in-coworker.md">
+         <strong>CX Enterprise Coworker and AEM</strong>
+         </a>
+      </div>
+      <p>
+         <em>Coworker is Adobe's conversational AI, deeply integrated with CX Enterprise applications like AEM. Learn how Coworker transforms the way you work in AEM by automating tasks and streamlining workflows across AEM and other CX Enterprise applications.</em>
+      <p>
+   </td>
    <td>
       <a href="./accessing/overview.md">
       <img alt="Configuring access to AEM as a Cloud Service" src="./assets/overview/staff-pick__accessing.png"/>
@@ -57,19 +70,6 @@ Adobe Experience Manager (AEM) is now available as a Cloud Service. AEM as a Clo
          <em>Get your local dev machine ready for AEM as a Cloud Service development!</em>
       <p>
    </td>   
-   <td>
-      <a href="./debugging/aem-sdk-local-quickstart/overview.md">
-      <img alt="Debugging AEM SDK's local quickstart" src="./assets/overview/staff-pick__debugging.png"/>
-      </a>
-      <div>
-         <a href="./debugging/aem-sdk-local-quickstart/overview.md">
-         <strong>Debugging AEM SDK</strong>
-         </a>
-      </div>
-      <p>
-         <em>Explore tools used to debug your application on the AEM as a Cloud Service SDK's local quickstart.</em>
-      <p>
-   </td>
 </table>
 
 </div>

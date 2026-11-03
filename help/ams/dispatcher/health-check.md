@@ -10,10 +10,13 @@ thumbnail: xx.jpg
 doc-type: Article
 exl-id: 69b4e469-52cc-441b-b6e5-2fe7ef18da90
 duration: 247
-TQID: https://experienceleague.adobe.com/I0ijGX8Gkx22f0AGySLcXB4bznomCi0y6QNqfOV2oLQ
+TQID: 'https://experienceleague.adobe.com/BXqcLxL3d62HOqHv71ggWAMRf1-bscN7rMki-J3U7RI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -23,6 +26,8 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # AMS Dispatcher Health Check
 

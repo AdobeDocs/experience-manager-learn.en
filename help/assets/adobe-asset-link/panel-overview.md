@@ -12,7 +12,7 @@ level: Beginner
 doc-type: Feature Video
 exl-id: ba8d0cd1-b7d2-4628-a069-5ef21cc214c6
 duration: 376
-TQID: https://experienceleague.adobe.com/Cf6nJSS2tXqPNfJBstnoyrOvKLV31Um8lEkQxNPmllI
+TQID: 'https://experienceleague.adobe.com/c9rHDLQjrlRh1Jc5hacefygJffeCEHJSN5-kC6fcs3Q'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -23,6 +23,8 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
     internal-label: Desktop App

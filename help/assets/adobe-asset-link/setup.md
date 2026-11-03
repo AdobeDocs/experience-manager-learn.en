@@ -11,7 +11,7 @@ thumbnail: 338824.jpg
 doc-type: Feature Video
 exl-id: a62e936f-c231-474d-9671-58815b2cb652
 duration: 2418
-TQID: https://experienceleague.adobe.com/NIw-dX65Ca7YEzetfL1fZT6rszEEzgigI6AiiGtIMsg
+TQID: 'https://experienceleague.adobe.com/sNio2kjWL1j1kP6A2XSvY-OlfY0EaL4eQ5oSylMOYis'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
     internal-label: Desktop App

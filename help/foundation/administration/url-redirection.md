@@ -12,10 +12,17 @@ index: true
 doc-type: Article
 exl-id: 8e64f251-e5fd-4add-880e-9d54f8e501a6
 duration: 164
-TQID: https://experienceleague.adobe.com/JLLCtrislohwSfHW1SdSmIfybbvAmLGeCiRPDs-Blb8
+TQID: 'https://experienceleague.adobe.com/5WLUZXnGVlNS33FuW6AxST5ieuaUbB-a-Gl9MgUrAz0'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 2741637d-a621-529a-b21b-bfe9be07a9c8
+    internal-label: Dispatcher
+  - id: 2e0e1a8a-56e7-5bd5-b805-f35a7c0c2ca7
+    internal-label: Projects
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

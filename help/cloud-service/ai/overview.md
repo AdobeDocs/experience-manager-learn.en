@@ -8,10 +8,17 @@ doc-type: Catalog
 duration: 30
 last-substantial-update: 2026-01-05T00:00:00.000Z
 exl-id: cc255744-bb86-49cb-88ca-1266d28985a5
-TQID: https://experienceleague.adobe.com/E3GI4g7XokC1RLpVXuWNvKfkT-X4X-9apX7AjBDd82o
+TQID: 'https://experienceleague.adobe.com/AFuzEPBmVlTvKsYH5dD4kdNmR7Vxh7-Fc3oBDWzIJDA'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+    internal-label: AI Tools
+  - id: f6a6f91a-8819-530a-8e7b-c50884a25aef
+    internal-label: Workflow
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

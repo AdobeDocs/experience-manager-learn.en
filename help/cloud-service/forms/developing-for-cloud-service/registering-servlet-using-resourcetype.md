@@ -11,13 +11,15 @@ feature: Developer Tools
 jira: KT-14581
 duration: 90
 exl-id: 2a33a9a9-1eef-425d-aec5-465030ee9b74
-TQID: https://experienceleague.adobe.com/9WGyLe3T2Mw0nAmhzFFTWW7oB8b8TK8sG9BEhdD2uZo
+TQID: 'https://experienceleague.adobe.com/8GmxbZXNrGDj-s7wsUB7HVcWusszj5rurlxQ9beaNZM'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

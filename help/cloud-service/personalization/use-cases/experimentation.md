@@ -11,7 +11,7 @@ last-substantial-update: 2025-08-07T00:00:00.000Z
 jira: KT-18720
 thumbnail: KT-18720.jpeg
 exl-id: c8a4f0bf-1f80-4494-abe6-9fbc138e4039
-TQID: https://experienceleague.adobe.com/vi47UF9WoA2-jwaDYVRNnZ0xVqezUQnuwonLzqUuJ-Q
+TQID: 'https://experienceleague.adobe.com/SPKpZRnN8iBCQVBpUn2PGelqtFOu3FIUAA9CJsJJDQs'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Personalization
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader

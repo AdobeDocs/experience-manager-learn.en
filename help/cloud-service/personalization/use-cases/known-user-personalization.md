@@ -11,7 +11,7 @@ last-substantial-update: 2025-10-17T00:00:00.000Z
 jira: KT-16331
 thumbnail: KT-16331.jpeg
 exl-id: e53bd90d-a95c-4596-b695-40ca8508e572
-TQID: https://experienceleague.adobe.com/ZOkU6-acc16eUpvCksyiWUg5Yd-oz85YW1aOXuo5X44
+TQID: 'https://experienceleague.adobe.com/z3nnBLSA-9wfk65Bp7camRcCbc0gUGsCV6pQlUVIbVs'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -24,6 +24,8 @@ feature_v2:
     internal-label: Personalization
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
 subfeature_v2:
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
     internal-label: Java Content Repository

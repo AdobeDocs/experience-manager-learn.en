@@ -9,18 +9,27 @@ level: Intermediate
 exl-id: add06b73-18bb-4963-b91f-d8e1eb144842
 last-substantial-update: 2020-07-07T00:00:00.000Z
 duration: 35
-TQID: https://experienceleague.adobe.com/x4tS4okiRJ9jW9XaY2zNKcxBfohWEmXQK-Xfzgi2xrY
+TQID: 'https://experienceleague.adobe.com/adZlYm4kzcyekErTi3QAM7HnEtQEcsZy-AJ1Xaxketc'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Useful utility services
 

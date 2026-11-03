@@ -10,7 +10,7 @@ topic: Development
 jira: KT-17479
 badgeVersions: label="AEM Forms as a Cloud Service" before-title="false"
 exl-id: b9c0b04b-6131-4752-b2f0-58e1fb5f40aa
-TQID: https://experienceleague.adobe.com/6Hjg8DeNlaxxmMzz6eVpZJbhG9rEFpDutfeLZHvtCXc
+TQID: 'https://experienceleague.adobe.com/PQ5RZaZsGOn-tHoBoMxUCuFRgxoA64baFlGeq76IA0k'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -25,6 +25,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Configure OpenAPI-based AEM Forms Communication APIs on AEM Forms as a Cloud Service
 

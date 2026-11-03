@@ -12,12 +12,18 @@ last-substantial-update: 2023-12-07T00:00:00.000Z
 jira: KT-14647
 thumbnail: 3425974.jpeg
 exl-id: 0e4158c4-3605-43c2-9c0f-3b7ab8ca5b91
-TQID: https://experienceleague.adobe.com/bUu1umR2OTgnbxEQWCmcCBgDMW9QymuXPFi7ahccYao
+TQID: 'https://experienceleague.adobe.com/Tr3VHfu6P2ajS3xV93l8-COq1I5g59BEkTrPKVvUVEQ'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

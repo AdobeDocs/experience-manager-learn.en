@@ -7,9 +7,10 @@ feature: Templates
 role: Developer
 level: Intermediate
 doc-type: Technical Video
+last-substantial-update: 2026-08-28T00:00:00.000Z
 exl-id: 5b764d86-8ced-46ed-838e-4bd2e75fd64c
 duration: 428
-TQID: https://experienceleague.adobe.com/kv7VqGa0KlQvD6MJCK71Bv7APDLhe39lbXs0u9dZOTM
+TQID: 'https://experienceleague.adobe.com/c-y5m6iFakle-HitCDHIRZedZ-4dSs7fZGelJa-54bM'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -20,6 +21,8 @@ feature_v2:
     internal-label: Content management
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: bf880260-df8b-5119-aa05-7cdf430a7b60
+    internal-label: Templates
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -30,9 +33,15 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Set up Asset Templates with AEM Assets and InDesign Server{#set-up-asset-templates-with-aem-assets-and-indesign-server}
+# Set up Asset Templates with InDesign Server {#set-up-asset-templates-with-aem-assets-and-indesign-server}
 
-Asset Templates allows marketers create, manage and deliver digital assets for digital and print. Creating marketing brochures, business cards, flyers, ads and post cards are much easier with Asset Templates when integrated with InDesign server. Configuration of InDesign server with AEM is covered in this section.
+AEM needs a running InDesign Server to turn InDesign template files into print-ready assets. Without that connection, Asset Templates cannot generate the editable fields marketers rely on. This page walks you through the steps to install InDesign Server and connect it to your AEM instance.
+
+>[!BEGINTABS]
+
+>[!TAB Admin view]
+
+In the Admin view, this video shows how to install InDesign Server and connect it to your AEM instance. It covers how AEM uses that connection to generate InDesign renditions and extract media files once you upload a tagged InDesign file to AEM Assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17069?quality=12&learn=on)
 
@@ -40,14 +49,16 @@ Asset Templates allows marketers create, manage and deliver digital assets for d
 >
 >AEM **must** be connected to a running InDesign server when the INDD template is uploaded. Part of the initial processing on the INDD file requires InDesign server.
 
-## Download InDesign Server trial {#download-indesign-server-trial}
+## Download the InDesign Server trial {#download-indesign-server-trial}
 
-Download [InDesign Server trial download Website](https://www.adobeprerelease.com/)
+Download the [InDesign Server trial](https://www.adobeprerelease.com/).
 
-## Starting InDesign Server {#starting-indesign-server}
+## Start InDesign Server {#starting-indesign-server}
 
 ```shell
 # macOS command
 
 $ /Applications/Adobe\ InDesign\ CC\ Server\ 2017/InDesignServer -port 8080
 ```
+
+>[!ENDTABS]

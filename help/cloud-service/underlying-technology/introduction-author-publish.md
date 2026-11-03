@@ -11,10 +11,16 @@ role: Developer
 level: Beginner
 exl-id: 586d982e-0128-47a1-b945-7d99298db3fd
 duration: 365
-TQID: https://experienceleague.adobe.com/8mVQBZgXZ3P2-31jMwg15qU3AueVW-RLzzS3lq5m934
+TQID: 'https://experienceleague.adobe.com/pKqlIlV1JPNfET2qZo0YIEc2tv6XQj-LciPWwslapTo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

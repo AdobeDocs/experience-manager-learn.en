@@ -11,10 +11,16 @@ role: Developer, Admin
 level: Beginner
 exl-id: b28805d3-bb2d-4f66-8daa-9a8eb7ecf0a1
 duration: 211
-TQID: https://experienceleague.adobe.com/7Xgdwa97-jQP7-5gjbT-kreKSjwUcB8hkJ2302pZz08
+TQID: 'https://experienceleague.adobe.com/Q4BvvUQGr0h67Qu2MvQAVzGRAs6-Ybaxw1aNXOgZMak'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+subfeature_v2:
+  - id: d9eb3b3e-9447-4ed4-bf4a-96c7b245cb27
+    internal-label: Cloud Manager APIs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

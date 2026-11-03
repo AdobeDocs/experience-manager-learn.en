@@ -13,7 +13,7 @@ thumbnail: 331785.jpg
 last-substantial-update: 2021-06-09T00:00:00.000Z
 exl-id: 84d2b240-5ecc-4230-97a0-6c2faead8d1a
 duration: 228
-TQID: https://experienceleague.adobe.com/vMsOppm-pJtm0ZsvLaf-2qzSZgF41SsZpJzN14rMpxI
+TQID: 'https://experienceleague.adobe.com/D4VocujONrd5NvubvGZrGltxrO9ZFoCGjBjVVCxKVi0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -22,6 +22,11 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+subfeature_v2:
+  - id: f61d1313-5cf1-4533-b29c-ac9f75c4b270
+    internal-label: Experience Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

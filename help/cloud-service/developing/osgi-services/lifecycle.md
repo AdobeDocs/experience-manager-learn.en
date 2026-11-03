@@ -9,10 +9,18 @@ jira: KT-8228
 thumbnail: 335475.jpeg
 exl-id: 5a65dbcd-649b-464c-9c78-d31c2b6c49c3
 duration: 377
-TQID: https://experienceleague.adobe.com/XpyjM906V7vklOB353Hh4yZ8spikGAZ2mm0DwBP6Bbc
+TQID: 'https://experienceleague.adobe.com/xOj9fwujQoSf-WOmanNW-j6-kGoHfTorWdRe4aJUk40'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
+subfeature_v2:
+  - id: b6950f16-0067-4287-be9d-5a68c8748b29
+    internal-label: OSGI configuration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
