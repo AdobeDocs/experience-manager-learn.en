@@ -83,7 +83,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="What can Coworker Chat do?" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/media_17fc8a012fc3b7ce5ef185f0ea427262b55a3b65f.jpg?width=400&format=pjpg&optimize=medium" alt="What can Coworker Chat do?"
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/playlists/media_1cf2c4e67c5fea58797a98ab7518b6c61baade65f.jpg?width=400&format=pjpg&optimize=medium" alt="What can Coworker Chat do?"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -145,7 +145,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/brand-visibility/create-and-refine-aem-landing-page" title="Create and refine an AEM landing page" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504682/?format=jpeg&nocache=1792785978808" alt="Create and refine an AEM landing page"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504682/?format=jpeg&nocache=1793910062775" alt="Create and refine an AEM landing page"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -168,7 +168,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/brand-visibility/generate-assets" title="Generate marketing assets" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502692/?format=jpeg&nocache=1792785980307" alt="Generate marketing assets"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502692/?format=jpeg&nocache=1793910062659" alt="Generate marketing assets"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -191,7 +191,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/brand-visibility/brand-compliance" title="Check brand compliance" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502691/?format=jpeg&nocache=1792785979771" alt="Check brand compliance"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502691/?format=jpeg&nocache=1793910062790" alt="Check brand compliance"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -237,7 +237,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/brand-visibility/onboard-aem-assets" title="Onboard AEM assets" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504157/?format=jpeg&nocache=1792785979213" alt="Onboard AEM assets"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504157/?format=jpeg&nocache=1793910062744" alt="Onboard AEM assets"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -274,7 +274,11 @@ CARDS
   {title = Accelerate data insights}
   {description = Ask Coworker to help you collect and analyze data insights in Customer Journey Analytics (CJA), for example page views and CTA clicks from your AEM hosted websites.}
   {cta = Watch}
-  
+
+* https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/accelerate-personalized-customer-engagement
+  {title = Accelerate personalized customer engagement}
+  {description = Ask Coworker to help you accelerate personalized customer engagement on AEM hosted websites using journey created in Adobe Journey Optimizer (AJO).}
+  {cta = Watch}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -283,7 +287,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/optimization/accelerate-experimentation" title="Accelerate experimentation" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504249/?format=jpeg&nocache=1792785981835" alt="Accelerate experimentation"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504249/?format=jpeg&nocache=1793910063369" alt="Accelerate experimentation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -306,7 +310,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/accelerate-data-insights" title="Accelerate data insights" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504567/?format=jpeg&nocache=1792785982198" alt="Accelerate data insights"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504567/?format=jpeg&nocache=1793910063233" alt="Accelerate data insights"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -319,6 +323,29 @@ CARDS
                     <p class="is-size-6">Ask Coworker to help you collect and analyze data insights in Customer Journey Analytics (CJA), for example page views and CTA clicks from your AEM hosted websites.</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/accelerate-data-insights" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accelerate personalized customer engagement">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/accelerate-personalized-customer-engagement" title="Accelerate personalized customer engagement" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3507060/?format=jpeg&nocache=1793910063161" alt="Accelerate personalized customer engagement"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/accelerate-personalized-customer-engagement" target="_blank" rel="referrer" title="Accelerate personalized customer engagement">Accelerate personalized customer engagement</a>
+                    </p>
+                    <p class="is-size-6">Ask Coworker to help you accelerate personalized customer engagement on AEM hosted websites using journey created in Adobe Journey Optimizer (AJO).</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/accelerate-personalized-customer-engagement" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
                 </a>
             </div>
