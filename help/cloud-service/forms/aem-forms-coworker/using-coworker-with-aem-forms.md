@@ -87,9 +87,6 @@ A detailed prompt generally produces a more predictable result than a short requ
 
 
 
-## Step 2: Provide the Page Creation Prompt
-
-Copy and paste the following prompt into Coworker:
 
 ## Step 2: Provide the Page Creation Prompt
 
@@ -133,11 +130,6 @@ I’d like to create a **Contact Us** page in AEM Sites under the following cont
 Place the **Submit** button in a logical position below the form fields so that the overall form feels balanced and easy to use.
 
 
-### Page Location
-
-Create the Contact Us page at:
-
-`/content/bankingapplication/us/contact-us`
 
 ### Answer Coworker's Follow-up Questions
 
