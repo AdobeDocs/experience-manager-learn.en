@@ -1,6 +1,6 @@
 ---
 title: Brand-aware metadata
-description: Learn how the Prompt Editor in AEM Assets enhances your assets automatically with AI-generated brand-aware metadata.
+description: Learn how brand-aware metadata in AEM Assets generates on-brand titles, descriptions, and alt text, and how to set up brand and property prompts.
 solution: Experience Manager, Experience Manager Assets
 sub-product: Experience Manager Assets
 feature-set: Experience Manager Assets
@@ -11,7 +11,7 @@ level: Beginner, Intermediate, Experienced
 doc-type: Feature Video
 duration: 178
 team: TM
-last-substantial-update: 2026-10-08T00:00:00.000Z
+last-substantial-update: 2026-11-03
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -56,14 +56,18 @@ topic_v2:
 ---
 # Brand-aware metadata {#brand-aware-metadata}
 
-Generic AI-generated metadata describes what is in an asset, but not how your brand talks about it. AEM Assets lets you guide AI metadata generation with the Prompt Editor, so titles, descriptions, and other fields reflect your brand's terminology and tone. This keeps metadata consistent and on-brand across your library, and makes assets easier to find.
+Generic AI-generated metadata describes what is in an asset, but not how your brand talks about it. Brand-aware metadata adds your brand's terminology, tone, and content standards to AI generation. Reviewing AI metadata by hand does not scale to thousands of assets. With brand-aware metadata, every asset gets on-brand titles, descriptions, and alt text automatically, so your team skips manual rewrites, metadata stays consistent across your library, and assets are easier to find.
 
->[!BEGINTABS]
+## Overview
 
->[!TAB Assets view]
-
-In the Assets view, use the Prompt Editor to enhance your assets automatically with AI-generated brand-aware metadata. This video shows the whole flow.
+See how brand-aware metadata understands your brand and each asset, then generates accurate, relevant metadata based on your configuration. The result is metadata that supports search, consistency, and business goals.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504259/?learn=on)
 
->[!ENDTABS]
+## Set up and configure brand-aware metadata
+
+This video covers the basics of setting up and configuring brand-aware metadata. After you watch it, you can create brand and property prompts, preview the results, and attach them to processing profiles, so new assets arrive with metadata that sounds like your brand.
+
+See the [brand-aware metadata documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/brand-aware-metadata) for prerequisites and access.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3506072?learn=on)
