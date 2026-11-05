@@ -23,11 +23,12 @@ nudge: republish
   + [Switch views](./authoring/switch-views.md)
   + [Navigation](./authoring/navigation.md)
   + [Basic operations](./authoring/basic-operations.md)
-  + [Extract archive](./authoring/extract-archive.md)
   + [Metadata](./authoring/metadata.md)
   + [Renditions](./authoring/renditions.md)
   + [Processing profiles](./authoring/processing-profiles.md)
   + [Relate and unrelate](./authoring/relate-unrelate.md)
+  + [Extract archive](./authoring/extract-archive.md)
+  + [Bulk import](./authoring/bulk-import.md)
 
 + Collaboration{#collaboration}
   + [Watch](./collaboration/watch.md)
