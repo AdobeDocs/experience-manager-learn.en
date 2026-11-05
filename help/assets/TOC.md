@@ -101,7 +101,6 @@ nudge: republish
 
 + Integrations{#integrations}
   + Creative Cloud and panels{#creative-cloud-and-panels}
-    + [Creative Cloud Libraries](./creative-workflows/creative-cloud-libraries.md)
     + [Adobe Express integration](./creative-workflows/adobe-express.md)
     + [Adobe Express and AEM Assets](./creative-workflows/adobe-express-aem-assets.md)
     + [AEM Desktop App](./creative-workflows/aem-desktop-app.md)
