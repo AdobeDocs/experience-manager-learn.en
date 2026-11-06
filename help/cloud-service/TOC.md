@@ -356,6 +356,8 @@ nudge: true
         + [4 - AJO Events](./forms/form-completion-reminder/create-custom-events-ajo.md)
         + [5 - Create Journey](./forms/form-completion-reminder/create-journey.md)
         + [6 - Create AEM Page](./forms/form-completion-reminder/create-page-form.md)
+    + Render Adaptive Forms Headlessly{#render-adaptive-forms-headlessly}
+        + [Implementation overview](./forms/render-adaptive-forms-headlessly/introduction.md)
     + Generic Map Component{#generic-map-component}
         + [1 - Introduction](./forms/map-component/introduction.md)
         + [2 - Using the component](./forms/map-component/customer-integration.md)
