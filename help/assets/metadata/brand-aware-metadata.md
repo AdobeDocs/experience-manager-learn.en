@@ -9,9 +9,9 @@ version: Experience Manager as a Cloud Service
 role: Leader, User
 level: Beginner, Intermediate, Experienced
 doc-type: Feature Video
-duration: 178
+duration: 1295
 team: TM
-last-substantial-update: 2026-11-03
+last-substantial-update: 2026-11-09
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -71,3 +71,9 @@ This video covers the basics of setting up and configuring brand-aware metadata.
 See the [brand-aware metadata documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/brand-aware-metadata) for prerequisites and access.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3506072?learn=on)
+
+## Write effective prompts
+
+This video shows how to write brand-aware metadata prompts that consistently produce useful results. It covers a four-part prompt pattern (task, context, rules, and expected output), the Prompt Enhancer, controlled vocabularies, and reference properties.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3508062?learn=on)
