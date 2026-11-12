@@ -261,7 +261,7 @@ This tutorial does not restrict the `.aem.live` hostname, so it can focus on the
 
 Verify the sign-in flow in a browser.
 
-1. Open a private browser window and go to the protected page, `https://dev-myfrescopa.enablementadobe.com/dev/branches/oidc/members/welcome`.
+1. In your browser, go to the [Frescopa Insiders Lounge](https://dev-myfrescopa.enablementadobe.com/dev/branches/oidc/members/welcome) page. The URL is `https://dev-myfrescopa.enablementadobe.com/dev/branches/oidc/members/welcome`.
 1. Confirm that you are redirected to the Google sign-in screen, and sign in with an account that your consent screen allows.
 
     ![Sign in with Google](./assets/sign-in-google.png)
