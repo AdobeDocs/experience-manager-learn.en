@@ -91,7 +91,7 @@ First, create the section or pages that the sign-in protects. For demonstration 
     | --- | --- |
     | Hero | Heading: _Welcome to the Frescopa Insiders Lounge_. Text: _Early access to small-batch roasts, brewing masterclasses, and members-only offers._ |
     | Cards (3) | _Roaster's Reserve_ (this month's limited lot with tasting notes), _Brew like a barista_ (a guide to dialing in espresso at home), _Insiders offers_ (a members-only discount code) |
-    | Default content | A line telling visitors how to leave: _Done for the day? [Sign out](/logout)_ |
+    | Default content | A line telling visitors how to leave: _Done for the day? Sign out_. The _Sign out_ should point to `/logout` URI to trigger the sign-out process. |
 
     ![Welcome page content](./assets/frescopa-welcome-page-content.png)
 
