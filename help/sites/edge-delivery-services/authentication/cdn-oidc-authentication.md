@@ -270,6 +270,115 @@ Verify the sign-in flow in a browser.
     ![Developer console showing _aem_oidc_session_token](./assets/developer-console-token.png)
 1. On the Insiders Lounge page, select **Sign out** and confirm that you land on the `signed-out` page. Then open the protected page again and confirm that the sign-in is required again.
 
+## Step 8: Show the visitor's name (optional)
+
+The CDN can also return details about the signed-in visitor, so a page can greet them by name. To do that, request the `profile` scope from Google and add an endpoint that returns the identity data the CDN holds for the session.
+
+### Update the CDN configuration
+
+By default, the authenticator asks Google only for the visitor's identity and email address, using the `openid` and `email` scopes. To receive the visitor's name and picture, you also request the `profile` scope, and then add endpoints that return the data.
+
+1. In `config/cdn.yaml`, add `additionalScopes` to the authenticator:
+
+    ```yaml
+          - type: oidc
+            name: frescopa-google-oidc
+            # ...existing settings...
+            additionalScopes: [profile]
+    ```
+
+1. Add two `respond` rules next to the existing `authenticate` rule, under `authentication.rules`:
+
+    ```yaml
+        rules:
+          - name: frescopa-members-rule
+            # ...existing rule...
+          - name: frescopa-respond-with-user-email
+            when:
+              allOf:
+                - { reqProperty: domain, equals: "dev-myfrescopa.enablementadobe.com" }
+                - { reqProperty: path, equals: /members/email }
+            action:
+              type: respond
+              status: 200
+              body:
+                authProperty: oidcUserEmail
+          - name: frescopa-respond-with-id-token
+            when:
+              allOf:
+                - { reqProperty: domain, equals: "dev-myfrescopa.enablementadobe.com" }
+                - { reqProperty: path, equals: /members/idtoken }
+            action:
+              type: respond
+              status: 200
+              body:
+                authProperty: oidcIdToken
+    ```
+
+| Setting | What it does |
+| --- | --- |
+| `additionalScopes` | Extra scopes to request from Google, in addition to the default `openid` and `email`. The `profile` scope adds the visitor's name and picture. |
+| `type: respond` | The CDN answers the request itself and returns the response defined in the `body` field. |
+| `authProperty: oidcUserEmail` | Returns the visitor's email address as plain text. |
+| `authProperty: oidcIdToken` | Returns the claims of the visitor's Google ID token as JSON, including `name`, `given_name`, `family_name`, `email`, and `picture`. |
+
+>[!IMPORTANT]
+>
+>Keep these endpoints under a path that the `authenticate` rule protects, such as `/members/`. On paths outside the protected area, the authenticator does not run and the properties return `(null)`.
+
+Commit the change and run the configuration pipeline again, as in [Step 5](#step-5-deploy-the-configuration). Then **sign out and sign in again**, because your existing session was issued without the `profile` scope.
+
+### Test in the browser
+
+1. Sign in and open the [protected page](https://dev-myfrescopa.enablementadobe.com/dev/branches/oidc/members/welcome).
+1. In the browser's developer tools, open the **Console** and run:
+
+    ```js
+    fetch('/members/idtoken', { credentials: 'include' })
+      .then(r => r.json())
+      .then(t => console.log(t.given_name, t.family_name, t.picture));
+    ```
+
+1. Confirm that the console prints your first name, last name, and picture URL.
+
+    ![Browser console showing the fetched ID token](./assets/browser-console-id-token.png)
+
+1. To check the email endpoint, run:
+
+    ```js
+    fetch('/members/email', { credentials: 'include' })
+      .then(r => r.text())
+      .then(console.log);
+    ```
+
+    It returns plain text, so use `r.text()`, not `r.json()`.
+
+### Show the name in the hero
+
+To see the name on the page, run the following snippet in the browser console while you are on the protected Insiders Lounge page. It adds a greeting at the top of the hero text. It uses `textContent`, so values from the token are never interpreted as HTML.
+
+```js
+(async () => {
+  const resp = await fetch('/members/idtoken', { credentials: 'include' });
+  if (!resp.ok) return;
+
+  const { given_name: givenName } = await resp.json();
+  const greeting = document.createElement('p');
+  greeting.textContent = `Welcome back, ${givenName}!`;
+  document.querySelector('main .hero > div:last-child > div').prepend(greeting);
+})();
+```
+
+Confirm that _Welcome back, &lt;your first name&gt;!_ appears in the hero. The change is temporary and disappears when you reload the page.
+
+>[!TIP]
+>
+>This console snippet only demonstrates the data flow. To make the greeting a permanent part of the site, create a dedicated block, for example `greeting`, that fetches `/members/idtoken` in its `decorate` function and renders the name. Authors can then place it on any protected page.
+
+>[!NOTE]
+>
+>The `/members/idtoken` and `/members/email` endpoints return personal data about the signed-in visitor, so keep them under the protected path. Request only the scopes you need.
+
 ## Troubleshooting
 
 | Symptom | Likely cause |
@@ -279,11 +388,13 @@ Verify the sign-in flow in a browser.
 | Every page, not only `/members/`, asks for sign-in | The rule `path` regular expression is too broad. |
 | Sign-in loops after returning from Google | The `callback` path does not match the registered redirect URI, or `issuer` or `jwksUri` is wrong. |
 | After sign-in, you land on the `signed-out` page or the wrong page | Check `loginTarget` and `logoutTarget` in the authenticator configuration. |
+| `/members/email` or `/members/idtoken` returns `(null)` | The endpoint path is not covered by the `authenticate` rule, or the session was created before you added `additionalScopes`. Keep the path under `/members/`, then sign out and sign in again. |
+| `given_name` and `family_name` are missing | `additionalScopes: [profile]` is not deployed yet, or you did not sign in again after deploying it. |
 | The pipeline fails on `${{...}}` | The variable name differs from the one in the YAML, or it is not applied to the **Deploy** step. |
 
 ## Summary
 
-You protected a `/members/` section of the Frescopa Edge Delivery Services site with Google sign-in, enforced at the Adobe-managed CDN. You limited who can sign in at Google, kept the client secret out of Git, and learned why to restrict access to the `.aem.live` origin.
+You protected a `/members/` section of the Frescopa Edge Delivery Services site with Google sign-in, enforced at the Adobe-managed CDN. You limited who can sign in at Google, kept the client secret out of Git, and learned why to restrict access to the `.aem.live` origin. Optionally, you also returned the visitor's name and email from the CDN to greet them in a page.
 
 ## Additional resources
 
