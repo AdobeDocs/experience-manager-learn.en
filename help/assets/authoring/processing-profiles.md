@@ -1,17 +1,15 @@
 ---
 title: Processing profiles
-description: Processing profiles define the renditions to be created for assets in AEM as a Cloud Service.
+description: Learn how processing profiles generate renditions automatically for new and existing assets in AEM Assets, and how to apply them to folders.
 feature: Asset Compute Microservices
 version: Experience Manager as a Cloud Service
 jira: KT-4993
-thumbnail: 35597.jpg
 topic: Integrations
 role: Developer
 level: Beginner
-last-substantial-update: 2021-09-21T00:00:00.000Z
+last-substantial-update: 2026-11-03
 doc-type: Feature Video
 exl-id: a08ce6b2-532d-4fd4-ada4-3cbec0fde699
-duration: 453
 TQID: 'https://experienceleague.adobe.com/uSEC1sIVT5UcOr3BdBK0cZ985uuTciSfLSkQlgKIVlM'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
@@ -39,14 +37,10 @@ topic_v2:
 ---
 # Processing profiles {#processing-profiles}
 
-Different teams and channels often need the same asset in several sizes and formats, like thumbnails, web images, or mobile renditions. Processing profiles let you define what renditions AEM creates automatically when someone uploads or reprocesses an asset, so you don't build each version by hand. Because AEM applies only one processing profile per folder, you need to understand how they work before you plan your folder structure.
+Every channel needs the same asset in a different size or format, such as a mobile image, a social post, or a web thumbnail. A processing profile is a set of rendition rules that you apply to a folder. AEM then generates those renditions automatically for every asset you upload to it.
 
->[!BEGINTABS]
+You need processing profiles to avoid creating each version by hand. They deliver every asset in the right format for every channel from day one, with no manual image work. A change to a rendition rule happens in one place and reaches every asset in the folder.
 
->[!TAB Admin view]
+This video shows how to build one profile that covers all your channels and apply it high in your folder hierarchy. It also shows how to reprocess existing assets so they pick up the new renditions.
 
-In the Admin view, this video explains how processing profiles configure AEM's asset microservices to generate renditions automatically on upload or reprocessing. It also covers how AEM applies a single processing profile per folder, and uses two example rendition sets to show how that rule works in practice.
-
->[!VIDEO](https://video.tv.adobe.com/v/35597?quality=12&learn=on)
-
->[!ENDTABS]
+>[!VIDEO](https://video.tv.adobe.com/v/3506071?learn=on)
