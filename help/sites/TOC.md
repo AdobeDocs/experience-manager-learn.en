@@ -112,7 +112,7 @@ version: Experience Manager 6.4, Experience Manager 6.5, Experience Manager as a
     + [Social media sharing](edge-delivery-services/how-to/social-media-sharing.md)
     + [Deleting pages](edge-delivery-services/how-to/delete-page.md)
   + Authentication {#authentication}
-    + {hide-from-toc} [CDN OIDC authentication with Google](edge-delivery-services/authentication/cdn-oidc-authentication.md)
+    + {hide-from-toc} [CDN-level OIDC authentication](edge-delivery-services/authentication/cdn-oidc-authentication.md)
 + Developing {#developing}
   + [Edge Delivery Services](developing/edge-delivery-services.md)
   + [AEM Project Archetype](developing/aem-project-archetype.md)
