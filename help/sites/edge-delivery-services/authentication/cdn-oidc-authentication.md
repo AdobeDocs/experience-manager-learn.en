@@ -7,8 +7,9 @@ topic: Development, Security
 role: Developer, Admin
 level: Intermediate
 doc-type: Tutorial
-last-substantial-update: 2026-11-12T00:00:00.000Z
-hold: true
+last-substantial-update: 2026-11-13
+jira: KT-23149
+thumbnail: KT-23149.jpeg
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
