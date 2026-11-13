@@ -40,6 +40,8 @@ Learn how to protect a section of an Edge Delivery Services site with CDN-level 
 
 This tutorial uses **Google as the identity provider (IdP)** to demonstrate the steps. The same concepts apply to any standards-compliant OIDC IdP, such as Microsoft Entra ID or Okta. Only the IdP-specific parts differ: creating the client in [Step 2](#step-2-create-the-google-oauth-client) and the endpoint values in [Step 4](#step-4-configure-cdn-level-oidc-authentication).
 
+CDN-level OIDC authentication does NOT support user groups. The CDN only checks that a visitor signed in successfully, so you CANNOT allow or deny access based on group membership.
+
 >[!IMPORTANT]
 >
 >CDN-level OIDC authentication is a **beta** feature. To request access, email [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
@@ -67,6 +69,15 @@ Everything under `/members/` requires a Google sign-in. The rest of the site sta
 1. The CDN rule matches the `/members/` path and finds no valid session using the `_aem_oidc_session_token` cookie, so it redirects the visitor to Google to sign in.
 1. After sign-in, Google sends the visitor back to the Adobe-managed CDN `callback` URL. The CDN verifies the returned token against Google's public keys (`jwksUri`) and `issuer`. It then creates a session and sets the `_aem_oidc_session_token` cookie for subsequent requests.
 1. The CDN serves the requested `/members/welcome` page to the visitor, now that a valid session exists.
+
+#### How the CDN trusts the token
+
+The token Google returns in step 3 is a digitally signed ID token. Google signs it with a private key that only Google holds, and publishes the matching public keys at the `jwksUri` address. The CDN trusts the token only after two checks:
+
+- **Signature:** The CDN retrieves the public keys from `jwksUri` and uses them to confirm that the token was signed by Google and was not altered on the way back. A token that someone forged or edited fails this check.
+- **Issuer:** The token states who issued it. The CDN confirms that this matches the configured `issuer`, so a validly signed token from a different identity provider is rejected.
+
+Only after both checks pass does the CDN create the session and set the `_aem_oidc_session_token` cookie. On later requests, the CDN checks this cookie instead of sending the visitor to Google again, so no round trip to Google is needed for each page.
 
 The sign-in is enforced at the Adobe-managed CDN only. The same content is also reachable on the `.aem.live` hostname, so restrict access there as well to ensure that only authenticated visitors can reach your content. See [Step 6: Restrict access to the `.aem.live` origin](#step-6-restrict-access-to-the-aemlive-origin).
 
@@ -188,8 +199,8 @@ data:
   ...
   authentication:
     authenticators:
-      - type: oidc
-        name: frescopa-google-oidc
+      - name: frescopa-google-oidc
+        type: oidc
         clientId: "585724821762-xxxxxxxx.apps.googleusercontent.com"
         clientSecret: ${{FRESCOPA_OIDC_CLIENT_SECRET}}
         authEndpoint: "https://accounts.google.com/o/oauth2/v2/auth"
@@ -231,7 +242,7 @@ data:
 >
 >Always keep the `domain` condition in the rule. Without it, the rule applies to every domain served by the program, including other sites.
 
-If your Git repository already contains a `config/cdn.yaml` (for example, from the [AEM Edge Functions tutorials](../../../cloud-service/edge-functions/setup-eds.md#step-6-review-and-deploy-cdn-configuration)), add the `authentication` block under the existing `data` instead of creating a second file. For example, see [Frescopa's configuration](https://github.com/SachinMali/myfrescopa-edge-functions/blob/dev/config/cdn.yaml) for reference.
+If your Git repository already contains a `config/cdn.yaml` (for example, from the [AEM Edge Functions tutorials](../../../cloud-service/edge-functions/setup-eds.md#step-6-review-and-deploy-cdn-configuration)), add the `authentication` block under the existing `data` instead of creating a second file. For example, see lines [18-43 of Frescopa's `cdn.yaml`](https://github.com/SachinMali/myfrescopa-edge-functions/blob/dev/config/cdn.yaml#L18-L43) for the complete `authentication` block with the authenticator and the `authenticate` rule.
 
 Finally, commit the change and push it to the branch that the configuration pipeline's **Source Code** step uses.
 
@@ -289,8 +300,8 @@ By default, the authenticator asks Google only for the visitor's identity and em
 1. In `config/cdn.yaml`, add `additionalScopes` to the authenticator:
 
     ```yaml
-          - type: oidc
-            name: frescopa-google-oidc
+          - name: frescopa-google-oidc
+            type: oidc
             # ...existing settings...
             additionalScopes: [profile]
     ```
@@ -333,6 +344,8 @@ By default, the authenticator asks Google only for the visitor's identity and em
 >[!IMPORTANT]
 >
 >Keep these endpoints under a path that the `authenticate` rule protects, such as `/members/`. On paths outside the protected area, the authenticator does not run and the properties return `(null)`.
+
+For the complete configuration, see lines [44-65 of Frescopa's `cdn.yaml`](https://github.com/SachinMali/myfrescopa-edge-functions/blob/dev/config/cdn.yaml#L44-L65), which contain the two `respond` rules.
 
 Commit the change and run the configuration pipeline again, as in [Step 5](#step-5-deploy-the-configuration). Then **sign out and sign in again**, because your existing session was issued without the `profile` scope.
 
@@ -402,10 +415,11 @@ Confirm that _Welcome back, &lt;your first name&gt;!_ appears in the hero. The c
 
 ## Summary
 
-You protected a `/members/` section of the Frescopa Edge Delivery Services site with Google sign-in, enforced at the Adobe-managed CDN. You limited who can sign in at Google, kept the client secret out of Git, and learned why to restrict access to the `.aem.live` origin. Optionally, you also returned the visitor's name and email from the CDN to greet them in a page.
+You protected a `/members/` section of the Frescopa Edge Delivery Services site with Google sign-in, enforced at the Adobe-managed CDN. You limited who can sign in at Google, kept the client secret out of Git, and learned how and why to restrict access to the `.aem.live` origin. Optionally, you also returned the visitor's name and email from the CDN to greet them in a page.
 
 ## Additional resources
 
+- [Frescopa's `cdn.yaml` configuration](https://github.com/SachinMali/myfrescopa-edge-functions/blob/dev/config/cdn.yaml) for reference, including the `authentication` block (lines 18-43) and the `respond` rules (lines 44-65).
 - [Adobe-managed CDN configuration: CDN OIDC authentication](https://www.aem.live/developer/byo-cdn-adobe-managed-cdn-config#cdn-oidc-authentication)
 - [Edge Delivery configuration pipeline](../developing/cloud-manager-configuration-pipeline.md)
 - [Use configs and secrets with Edge Functions](../../../cloud-service/edge-functions/how-to/configs-and-secrets.md)
