@@ -81,6 +81,8 @@ To follow this tutorial, you need to have the following prerequisites in place:
 - A Google account that can create projects in [Google Cloud Console](https://console.cloud.google.com/).
 - Access to the Frescopa content source to author and publish a page.
 
+This tutorial uses AEM Author with the Universal Editor to create the content. CDN-level OIDC authentication is independent of the authoring source, so you can create the same pages with [Document Authoring (DA)](../../document-authoring/set-up.md) instead. Only [Step 1](#step-1-create-the-members-only-content) differs.
+
 ## Step 1: Create the members-only content
 
 First, create the section or pages that the sign-in protects. For demonstration purposes, this tutorial uses a single members-only page called `welcome` under the `members` section.
