@@ -1,6 +1,6 @@
 ---
-title: Protect pages with CDN OIDC Authentication using Google as the identity provider
-description: Learn how to protect a section of an Edge Delivery Services site with the Adobe-managed CDN OpenID Connect (OIDC) Authentication and Google as the identity provider.
+title: Protect pages with CDN-level OIDC authentication
+description: Learn how to protect a section of an Edge Delivery Services site with CDN-level OpenID Connect (OIDC) authentication, using Google as the example identity provider.
 version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development, Security
@@ -34,13 +34,15 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 ---
-# Protect pages with CDN OIDC Authentication using Google as the identity provider
+# Protect pages with CDN-level OIDC authentication
 
-Learn how to protect a section of an Edge Delivery Services site with the Adobe-managed CDN OpenID Connect (OIDC) Authentication and Google as the identity provider.
+Learn how to protect a section of an Edge Delivery Services site with CDN-level OpenID Connect (OIDC) authentication, enforced by the Adobe-managed CDN before a request reaches your content.
+
+This tutorial uses **Google as the identity provider (IdP)** to demonstrate the steps. The same concepts apply to any standards-compliant OIDC IdP, such as Microsoft Entra ID or Okta. Only the IdP-specific parts differ: creating the client in [Step 2](#step-2-create-the-google-oauth-client) and the endpoint values in [Step 4](#step-4-configure-cdn-level-oidc-authentication).
 
 >[!IMPORTANT]
 >
->CDN OIDC Authentication is a **beta** feature. To request access, email [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
+>CDN-level OIDC authentication is a **beta** feature. To request access, email [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
 
 ## What you build
 
@@ -57,7 +59,7 @@ Everything under `/members/` requires a Google sign-in. The rest of the site sta
 
 >[!NOTE]
 >
->The table shows the paths as they appear on a production site. In this tutorial, the pages are authored in the `oidc` branch of the Dev site, so they are served under the `/dev/branches/oidc` prefix, for example `/dev/branches/oidc/members/welcome`. The CDN configuration in [Step 4](#step-4-configure-the-cdn-oidc-authenticator) accounts for this prefix.
+>The table shows the paths as they appear on a production site. In this tutorial, the pages are authored in the `oidc` branch of the Dev site, so they are served under the `/dev/branches/oidc` prefix, for example `/dev/branches/oidc/members/welcome`. The CDN configuration in [Step 4](#step-4-configure-cdn-level-oidc-authentication) accounts for this prefix.
 
 ### How it works
 
@@ -72,7 +74,7 @@ The sign-in is enforced at the Adobe-managed CDN only. The same content is also 
 
 To follow this tutorial, you need to have the following prerequisites in place:
 
-- Your program is enrolled in the CDN OIDC Authentication beta.
+- Your program is enrolled in the CDN-level OIDC authentication beta.
 - The Frescopa site (or your own Edge Delivery Services site) is set up in Cloud Manager and served from a custom domain on the Adobe-managed CDN. See **Step 1: Onboard your Edge Delivery site to Cloud Manager** of [Set up AEM Edge Functions on Edge Delivery Services](../../../cloud-service/edge-functions/setup-eds.md) for details.
 - A Cloud Manager Edge Delivery configuration pipeline exists, and you can edit its variables. See [Edge Delivery configuration pipeline](../developing/cloud-manager-configuration-pipeline.md).
 - A Git repository connected to the pipeline that contains a `config/` folder (the pipeline in this tutorial reads `config/cdn.yaml`).
@@ -110,6 +112,10 @@ At this point, `/members/welcome` is **still publicly reachable**. You protect i
 ## Step 2: Create the Google OAuth client
 
 For this setup, Google acts as the IdP. You need to create an OAuth client in the Google Cloud Console so that Google knows about your web application and where to send visitors after they sign in.
+
+>[!NOTE]
+>
+>Using a different IdP? Create the equivalent client application in your IdP, register the same CDN `callback` URL as its redirect URI, and use your IdP's endpoints (from its OIDC discovery document) in [Step 4](#step-4-configure-cdn-level-oidc-authentication). The rest of the tutorial stays the same.
 
 1. In [Google Cloud Console](https://console.cloud.google.com/), select or create a project, for example `frescopa-insiders`.
     ![Google Cloud Console project selection](./assets/google-cloud-console-project-selection.png)
@@ -168,9 +174,9 @@ Next, you add the above client secret to the configuration pipeline so that it c
 
 1. Select **Save**.
 
-## Step 4: Configure the CDN OIDC Authentication
+## Step 4: Configure CDN-level OIDC authentication
 
-Next, you configure the CDN OIDC Authentication by adding it to your `config/cdn.yaml` along with a rule that applies it to the `/members/` path.
+Next, you configure CDN-level OIDC authentication by adding the authenticator to your `config/cdn.yaml` along with a rule that applies it to the `/members/` path.
 
 ```yaml
 # config/cdn.yaml
@@ -398,7 +404,7 @@ You protected a `/members/` section of the Frescopa Edge Delivery Services site 
 
 ## Additional resources
 
-- [Adobe-managed CDN configuration: CDN OIDC Authentication](https://www.aem.live/developer/byo-cdn-adobe-managed-cdn-config#cdn-oidc-authentication)
+- [Adobe-managed CDN configuration: CDN OIDC authentication](https://www.aem.live/developer/byo-cdn-adobe-managed-cdn-config#cdn-oidc-authentication)
 - [Edge Delivery configuration pipeline](../developing/cloud-manager-configuration-pipeline.md)
 - [Use configs and secrets with Edge Functions](../../../cloud-service/edge-functions/how-to/configs-and-secrets.md)
 - [Set up site authentication](https://www.aem.live/docs/authentication-setup-site)
