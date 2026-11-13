@@ -1,14 +1,15 @@
 ---
-title: Protect pages with CDN-level OIDC authentication
-description: Learn how to protect a section of an Edge Delivery Services site with CDN-level OpenID Connect (OIDC) authentication, using Google as the example identity provider.
+title: Restrict page-access with CDN-level OIDC authentication
+description: Learn how to restrict access to a section of an Edge Delivery Services site with CDN-level OpenID Connect (OIDC) authentication, using Google as the example identity provider.
 version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development, Security
 role: Developer, Admin
 level: Intermediate
 doc-type: Tutorial
-last-substantial-update: 2026-11-12T00:00:00.000Z
-hold: true
+last-substantial-update: 2026-11-13
+jira: KT-23149
+thumbnail: KT-23149.jpeg
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -34,9 +35,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 ---
-# Protect pages with CDN-level OIDC authentication
+# Restrict page-access with CDN-level OIDC authentication
 
-Learn how to protect a section of an Edge Delivery Services site with CDN-level OpenID Connect (OIDC) authentication, enforced by the Adobe-managed CDN before a request reaches your content.
+Learn how to restrict access to a section of an Edge Delivery Services site with CDN-level OpenID Connect (OIDC) authentication, enforced by the Adobe-managed CDN before a request reaches your content.
 
 This tutorial uses **Google as the identity provider (IdP)** to demonstrate the steps. The same concepts apply to any standards-compliant OIDC IdP, such as Microsoft Entra ID or Okta. Only the IdP-specific parts differ: creating the client in [Step 2](#step-2-create-the-google-oauth-client) and the endpoint values in [Step 4](#step-4-configure-cdn-level-oidc-authentication).
 
@@ -415,7 +416,7 @@ Confirm that _Welcome back, &lt;your first name&gt;!_ appears in the hero. The c
 
 ## Summary
 
-You protected a `/members/` section of the Frescopa Edge Delivery Services site with Google sign-in, enforced at the Adobe-managed CDN. You limited who can sign in at Google, kept the client secret out of Git, and learned how and why to restrict access to the `.aem.live` origin. Optionally, you also returned the visitor's name and email from the CDN to greet them in a page.
+You restricted access to a `/members/` section of the Frescopa Edge Delivery Services site with Google sign-in, enforced at the Adobe-managed CDN. You limited who can sign in at Google, kept the client secret out of Git, and learned how and why to restrict access to the `.aem.live` origin. Optionally, you also returned the visitor's name and email from the CDN to greet them in a page.
 
 ## Additional resources
 
