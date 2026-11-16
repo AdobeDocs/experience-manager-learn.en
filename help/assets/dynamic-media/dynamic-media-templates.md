@@ -738,6 +738,12 @@ Add your Dynamic Media template in Journey Optimizer and update your media conte
 
 For more information, see [Manage Dynamic Media templates in Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/aem-dynamic#dynamic-media-template).
 
+[Video demonstrating Dynamic Media templates in Adobe Journey Optimizer](https://delivery-p49105-e258067.adobeaemcloud.com/adobe/assets/urn:aaid:aem:26a8ad72-0169-4afb-a355-2e5785803eb5/play?playbacktype=hls&isletterboxed=true)
+
+>[!NOTE]
+>
+>To send feedback, participate or learn more, send an email to dm-beta-feedback@adobe.com.
+
 ## Important points to note {#important-points-to-note}
 
 * After creating a template with parameterized image layers for dynamic updates, ensure that the images intended for future updates share the same dimensions as the parameterized images. This ensures the images fit perfectly within the layers without overflowing or leaving empty spaces. Currently, the template does not support automatic dimension adjustments to fit images into the layers.
