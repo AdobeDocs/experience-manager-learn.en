@@ -738,7 +738,7 @@ Add your Dynamic Media template in Journey Optimizer and update your media conte
 
 For more information, see [Manage Dynamic Media templates in Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/aem-dynamic#dynamic-media-template).
 
-[Video demonstrating Dynamic Media templates in Adobe Journey Optimizer](https://delivery-p49105-e258067.adobeaemcloud.com/adobe/assets/urn:aaid:aem:26a8ad72-0169-4afb-a355-2e5785803eb5/play?playbacktype=hls&isletterboxed=true)
+>[!VIDEO](https://delivery-p49105-e258067.adobeaemcloud.com/adobe/assets/urn:aaid:aem:26a8ad72-0169-4afb-a355-2e5785803eb5/play?playbacktype=hls&isletterboxed=true)
 
 >[!NOTE]
 >
