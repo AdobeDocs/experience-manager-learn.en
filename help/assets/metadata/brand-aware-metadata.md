@@ -11,7 +11,7 @@ level: Beginner, Intermediate, Experienced
 doc-type: Feature Video
 duration: 1295
 team: TM
-last-substantial-update: 2026-11-09
+last-substantial-update: 2026-11-16
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -77,3 +77,9 @@ See the [brand-aware metadata documentation](https://experienceleague.adobe.com/
 This video shows how to write brand-aware metadata prompts that consistently produce useful results. It covers a four-part prompt pattern (task, context, rules, and expected output), the Prompt Enhancer, controlled vocabularies, and reference properties.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3508062?learn=on)
+
+## Apply brand-aware metadata to assets
+
+Put your brand-aware metadata configuration to work. This video shows how to apply your brand and metadata definitions and rules to assets, ensure brand-aware metadata is generated for and applied to each asset.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3508465?learn=on)
