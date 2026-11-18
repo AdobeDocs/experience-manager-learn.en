@@ -1,6 +1,6 @@
 ---
 title: Restrict page-access with CDN-level OIDC authentication
-description: Learn how to restrict access to a section of an Edge Delivery Services site with CDN-level OpenID Connect (OIDC) authentication, using Google as the example identity provider.
+description: Learn how to restrict access to a section of any Edge Delivery Services site, regardless of authoring source, with CDN-level OpenID Connect (OIDC) authentication, using Google as the example identity provider.
 version: Experience Manager as a Cloud Service
 feature: Edge Delivery Services
 topic: Development, Security
@@ -37,7 +37,9 @@ topic_v2:
 ---
 # Restrict page-access with CDN-level OIDC authentication
 
-Learn how to restrict access to a section of an Edge Delivery Services site with CDN-level OpenID Connect (OIDC) authentication, enforced by the Adobe-managed CDN before a request reaches your content.
+Learn how to restrict access to a section of any Edge Delivery Services site, _regardless of authoring source_, with CDN-level OpenID Connect (OIDC) authentication, using Google as the example identity provider.
+
+This works for **any Edge Delivery Services site, whatever the content source**: AEM Author with Universal Editor (crosswalk), [Document Authoring (DA)](../../document-authoring/set-up.md), or any other source. The CDN only sees requests and URL paths, so it does not matter how the content was authored.
 
 This tutorial uses **Google as the identity provider (IdP)** to demonstrate the steps. The same concepts apply to any standards-compliant OIDC IdP, such as Microsoft Entra ID or Okta. Only the IdP-specific parts differ: creating the client in [Step 2](#step-2-create-the-google-oauth-client) and the endpoint values in [Step 4](#step-4-configure-cdn-level-oidc-authentication).
 
@@ -93,7 +95,9 @@ To follow this tutorial, you need to have the following prerequisites in place:
 - A Google account that can create projects in [Google Cloud Console](https://console.cloud.google.com/).
 - Access to the Frescopa content source to author and publish a page.
 
-This tutorial uses AEM Author with the Universal Editor to create the content. CDN-level OIDC authentication is independent of the authoring source, so you can create the same pages with [Document Authoring (DA)](../../document-authoring/set-up.md) instead. Only [Step 1](#step-1-create-the-members-only-content) differs.
+>[!NOTE]
+>
+>This tutorial uses AEM Author with the Universal Editor to create the content, but nothing in Steps 2-8 depends on it. If you author with [Document Authoring (DA)](../../document-authoring/set-up.md) or another source, only [Step 1](#step-1-create-the-members-only-content) differs: publish your pages under `/members/` the way you normally do.
 
 ## Step 1: Create the members-only content
 
