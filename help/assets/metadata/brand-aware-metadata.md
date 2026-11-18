@@ -83,3 +83,7 @@ This video shows how to write brand-aware metadata prompts that consistently pro
 Put your brand-aware metadata configuration to work. This video shows how to apply your brand and metadata definitions and rules to assets, ensure brand-aware metadata is generated for and applied to each asset.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3508465?learn=on)
+
+## Additional learning resources
+
+* [Brand-aware metadata best practices](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices)

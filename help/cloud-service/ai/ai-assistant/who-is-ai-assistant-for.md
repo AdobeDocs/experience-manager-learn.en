@@ -38,6 +38,8 @@ topic_v2:
 ---
 # Who is AI Assistant for?
 
+{{ai-assistant-to-coworker}}
+
 AI Assistant enhances productivity across diverse roles in Adobe Experience Manager. Content authors streamline content creation and delivery, technical teams simplify workflows and troubleshooting, and managers make informed decisions faster. With features like step-by-step guidance, instant answers, and pre-built prompts, AI Assistant ensures teams work efficiently and stay ahead. Watch to learn how AI Assistant supports your role and team goals.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3481163/?learn=on&enablevpops)

@@ -32,6 +32,8 @@ level_v2:
 ---
 # How AI Assistant fits into Agentic AI
 
+{{ai-assistant-to-coworker}}
+
 Learn how AI Assistant fits into Agentic AI to turn your intents into actions. In this video, we explore how AI Assistant serves as the gateway to Agentic AI capabilities in AEM. You also learn Agentic AI at concept level and briefly introduce Agents in AEM.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483212/?learn=on&enablevpops)
