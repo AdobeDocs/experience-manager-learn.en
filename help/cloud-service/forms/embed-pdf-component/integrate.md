@@ -125,6 +125,7 @@ The GitHub repository includes an example `OAuthTokenService.cfg.json` containin
 AEM resolves these values from the Cloud Manager environment configuration at runtime.
 
 The `OAuthTokenService` uses these credentials to obtain access tokens from Adobe IMS. Tokens are cached and renewed automatically before expiration.
+
 ### Step 4: Allowlist the OAuth Client ID
 
 The OAuth Client ID must be allowlisted in AEM as a Cloud Service before it can invoke the Interactive Communications API.

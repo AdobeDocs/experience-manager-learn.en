@@ -29,7 +29,7 @@ We'll demonstrate two supported document-generation workflows:
 - **Interactive Communications (IC):** Generate personalized PDF documents using the AEM Communications REST API.
 - **PDF Data Merge:** Generate PDF documents by merging XML data with XDP templates using AEM Forms Output Service.
 
-The complete implementation is available in the companion [GitHub repository](GITHUB_REPOSITORY_URL).
+The complete implementation is available in the companion [GitHub repository](https://github.com/gbedekar489/aem-forms-pdf-embed).
 
 ## What does the Embed PDF component do?
 
