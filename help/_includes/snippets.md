@@ -58,3 +58,10 @@ https://mcp.adobeaemcloud.com/adobe/mcp/aem
 
 >[!ENDTABS]
 
+
+
+## AI Assistant evolves into Coworker {#ai-assistant-to-coworker}
+
+>[!NOTE]
+>
+>Adobe CX Enterprise Coworker is a more powerful and capable evolution of AI Assistant built to help your users do more, faster. Coworker takes everything your team is currently leveraging AI Assistant for and expands it, helping them automate routine tasks, boost productivity, and drive smarter, more insightful decisions. [Learn more.](https://business.adobe.com/products/cx-enterprise-coworker.html)

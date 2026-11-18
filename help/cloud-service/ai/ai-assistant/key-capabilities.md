@@ -38,6 +38,8 @@ topic_v2:
 ---
 # Key capabilities of AI Assistant
 
+{{ai-assistant-to-coworker}}
+
 Learn how AI Assistant accelerates AEM workflows by providing instant guidance, code snippets, and troubleshooting steps. This reduces support effort and helps teams deliver content faster and with higher quality.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480858/?learn=on&enablevpops)

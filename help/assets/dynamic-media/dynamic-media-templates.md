@@ -62,7 +62,11 @@ topic_v2:
 
 Create real time customizable templates for your banners and flyers using [!DNL Dynamic Media] templates, a WYSIWYG template editor. Publish your [!DNL Dynamic Media] template and use it in downstream applications. A [!DNL Dynamic Media] template includes image, text, shape, and countdown timer layers. Add parameters to the image, text, shape, and countdown timer layers of the template and use [[!DNL Dynamic Media] URLs](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) to reposition and resize the layer and update its content in real-time. 
 
->[!VIDEO](https://video.tv.adobe.com/v/3451727/?learn=on&enablevpops)
+You can further activate this Dynamic Media Template natively within Adobe Journey optimizer to drive 1:1 personalisation. 
+
+Watch this video to learn more:
+
+>[!VIDEO](https://delivery-p49105-e258067.adobeaemcloud.com/adobe/assets/urn:aaid:aem:26a8ad72-0169-4afb-a355-2e5785803eb5/play?playbacktype=hls&isletterboxed=true)
 
 Some of the key features include:
 
@@ -87,9 +91,26 @@ Some of the key benefits of [!DNL Dynamic Media] templates include:
 >
 >Customers with subscriptions to the Enhanced Security SKU cannot use any [!DNL Dynamic Media] capabilities, including [!DNL Dynamic Media] Templates, on that Cloud Services program.
 
+<!--
+
 Learn to create a [!DNL Dynamic Media] template step by step in this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443281)
+
+-->
+
+**AEM Dynamic Media Templates with Adobe Journey Optimiser (AJO) in Adobe Coworker - Design once, adapt to every moment at send and open time**
+
+You will able to drive 1:1 personalisation in conversational tone using Adobe Coworker.
+
+Watch this video to learn more:
+
+>[!VIDEO](https://delivery-p49105-e258067.adobeaemcloud.com/adobe/assets/urn:aaid:aem:97c98c24-838c-4ad8-a362-b593cc48edf7/play?playbacktype=hls&isletterboxed=true)
+
+>[!NOTE]
+>
+>To participate in AEM Dynamic Media Template with Adobe Journey Optimizer (AJO) in Adobe Coworker co-innovation, send an email to `dm-beta-feedback@adobe.com`.
+
 
 ## Before you begin{#prerequisites-for-dynamic-media-wysiwyg-template}
 

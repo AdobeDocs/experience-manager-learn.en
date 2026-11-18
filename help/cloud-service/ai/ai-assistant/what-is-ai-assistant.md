@@ -40,6 +40,8 @@ topic_v2:
 ---
 # What is AI Assistant?
 
+{{ai-assistant-to-coworker}}
+
 AI Assistant accelerates AEM tasks, gives instant answers, guides feature use, troubleshoots problems, and creates support tickets—all from the Experience Manager interface. It helps teams deliver content faster, cut down on documentation searches, and improve operational efficiency.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480859/?learn=on&enablevpops)
