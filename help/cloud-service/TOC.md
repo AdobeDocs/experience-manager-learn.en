@@ -356,7 +356,7 @@ nudge: true
         + [4 - AJO Events](./forms/form-completion-reminder/create-custom-events-ajo.md)
         + [5 - Create Journey](./forms/form-completion-reminder/create-journey.md)
         + [6 - Create AEM Page](./forms/form-completion-reminder/create-page-form.md)
-    + Embed-PDF-Componenet{embed-pdf-component}
+    + Embed-PDF-Componenet{#embed-pdf-component}
         + [1- Introduction](./forms/embed-pdf-component/introduction.md)
         + [2- Integrate the component](./forms/embed-pdf-component/integrate.md)
         + [3 - Using the component](./forms/embed-pdf-component/using-the-component.md)
