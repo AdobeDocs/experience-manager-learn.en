@@ -32,7 +32,9 @@ In both scenarios, the Adaptive Form captures the data, and the Embed PDF compon
 
 If the component is unavailable, verify that it is enabled in the relevant template or component policy.
 
-> **Note:** The current implementation supports one Embed PDF component per page.
+>[!NOTE]
+>
+>The current implementation supports one Embed PDF component per page.
 
 ## Step 2: Configure the Embed PDF Component
 
@@ -150,4 +152,6 @@ Preview or publish the page containing the Adaptive Form and Embed PDF component
 
 If PDF generation fails, inspect the browser console and AEM logs to identify the error.
 
-> **Security:** The PDF-generation endpoint must authorize access to the requested document and data. This is particularly important when the Adaptive Form is publicly accessible and the IC servlet uses server-side OAuth credentials.
+>[!NOTE]
+>
+>The PDF-generation endpoint must authorize access to the requested document and data. This is particularly important when the Adaptive Form is publicly accessible and the IC servlet uses server-side OAuth credentials.

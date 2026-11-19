@@ -176,7 +176,7 @@ Adjust `envTypes` and the Author/Publish entries according to your deployment re
 4. Create or edit a Configuration Pipeline.
 5. Configure the pipeline with the following settings:
 
-| Setting | Value |
+6. | Setting | Value |
 |---|---|
 | Deployment Type | Targeted Deployment |
 | Include | Config |
@@ -185,16 +185,21 @@ Adjust `envTypes` and the Author/Publish entries according to your deployment re
 | Git Branch | Branch containing `api.yaml` |
 | Code Location | `/config` |
 
-6.Save and run the Configuration Pipeline.
-7.Verify that the pipeline completes successfully.
 
-> **Important:** The `api.yaml` file must be placed in the directory specified by the Configuration Pipeline's **Code Location**. If the file is stored at the repository root under `config/api.yaml`, set Code Location to `/config`.
+7. Save and run the Configuration Pipeline.
+8. Verify that the pipeline completes successfully.
+
+>[!NOTE]
+>
+>The `api.yaml` file must be placed in the directory specified by the Configuration Pipeline's **Code Location**. If the file is stored at the repository root under `config/api.yaml`, set Code Location to `/config`.
 
 After successful deployment, the configured OAuth Client ID is allowlisted for the specified AEM service tiers.
 
 The technical account associated with the OAuth credentials must also have the permissions required to invoke the AEM Communications API.
 
-> **Note:** The API allowlist configuration is separate from the OSGi configuration files under `ui.config`. It is deployed through a Configuration Pipeline rather than the Full Stack pipeline.
+>[!NOTE]
+>
+>The API allowlist configuration is separate from the OSGi configuration files under `ui.config`. It is deployed through a Configuration Pipeline rather than the Full Stack pipeline.
 
 
 ### Step 5: Configure the AEM Communications API Endpoint
@@ -211,6 +216,41 @@ Replace `YOUR_AEM_PUBLISH_HOST` with the hostname of your AEM Publish environmen
 
 Ensure that the servlet's outbound hostname validation permits only your explicitly trusted AEM environment.
 
+## Configure Dispatcher for PDF Generation Endpoints
+
+If the Embed PDF component is used on a published AEM page or Adaptive Form, ensure that the Dispatcher configuration permits HTTP POST requests to the PDF-generation servlet endpoints.
+
+The sample implementation uses the following endpoints:
+
+```text
+/bin/aem-forms-pdf-embed/generate-ic-pdf
+/bin/aem-forms-pdf-embed/merge-pdf
+```
+
+Add narrowly scoped allow rules to the appropriate Dispatcher filter configuration if these endpoints are not already permitted.
+
+For example:
+
+```apache
+/0205 {
+    /type "allow"
+    /method "POST"
+    /url "/bin/aem-forms-pdf-embed/generate-ic-pdf"
+}
+
+/0206 {
+    /type "allow"
+    /method "POST"
+    /url "/bin/aem-forms-pdf-embed/merge-pdf"
+}
+```
+
+Use rule identifiers appropriate to your existing Dispatcher configuration.
+
+Deploy the Dispatcher changes through your AEM Cloud Manager pipeline.
+
+> **Security:** Dispatcher rules control whether requests can reach the servlet. They do not provide user authentication or document-level authorization. Ensure that the PDF-generation servlets enforce the required access controls before allowing requests from publicly accessible pages.
+
 ### Important Considerations
 
 - Never store OAuth Client Secrets or access tokens directly in Java source code or GitHub.
@@ -220,4 +260,6 @@ Ensure that the servlet's outbound hostname validation permits only your explici
 - Ensure the technical account has the required AEM Forms permissions.
 - Protect the IC generation servlet with appropriate authorization controls, particularly when serving customer-specific documents on anonymous Publish pages.
 
-> **Note:** OAuth configuration is required only for the Interactive Communications integration included in this sample. It is not required for the PDF Data Merge example that uses AEM Forms Output Service.
+>[!NOTE]
+>
+>OAuth configuration is required only for the Interactive Communications integration included in this sample. It is not required for the PDF Data Merge example that uses AEM Forms Output Service.
