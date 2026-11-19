@@ -49,6 +49,8 @@ CDN-level OIDC authentication does NOT support user groups. The CDN only checks 
 >
 >CDN-level OIDC authentication is a **beta** feature. To request access, email [aemcs-edgecompute-feedback@adobe.com](mailto:aemcs-edgecompute-feedback@adobe.com).
 
+>[!VIDEO](https://video.tv.adobe.com/v/3508529?quality=12&learn=on)
+
 ## What you build
 
 In this tutorial, you add a members-only section, the [Frescopa Insiders Lounge](https://dev-myfrescopa.enablementadobe.com/dev/branches/oidc/members/welcome), to the demo [Frescopa](https://github.com/SachinMali/frescopa) Edge Delivery Services site served from `dev-myfrescopa.enablementadobe.com`.
