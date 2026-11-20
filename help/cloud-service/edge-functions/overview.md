@@ -51,6 +51,8 @@ AEM Edge Functions are JavaScript modules deployed to and executed on Adobe CDN 
 
 Common patterns include server-rendered personalization, secure API proxying, and response aggregation.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3508598?quality=12&learn=on)
+
 ## When to use AEM Edge Functions
 
 Use the following guide when choosing between AEM Edge Functions and other AEM extensibility options.
