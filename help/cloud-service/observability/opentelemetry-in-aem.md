@@ -23,7 +23,7 @@ This article explains what the integration provides, how telemetry flows from AE
 
 >[!AVAILABILITY]
 >
->This feature is in **Limited Availability**. To use it, request access by emailing [aemcs-apm-beta@adobe.com](mailto:aemcs-apm-beta@adobe.com) - Adobe enables OpenTelemetry for your environments shortly after replying to your request. If your environment currently uses Adobe's built-in APM integration, that integration stops sending data once OpenTelemetry is enabled, since the two cannot run at the same time. 
+>This feature is in **Limited Availability**. To use it, request access by emailing [aemcs-otel-access@adobe.com](mailto:aemcs-otel-access@adobe.com) - Adobe enables OpenTelemetry for your environments shortly after replying to your request. If your environment currently uses Adobe's built-in APM integration, that integration stops sending data once OpenTelemetry is enabled, since the two cannot run at the same time. 
 >
 >Note that it is **not** available to HIPAA-scoped environments, Rapid Development Environments (RDE), and sandboxes.
 
